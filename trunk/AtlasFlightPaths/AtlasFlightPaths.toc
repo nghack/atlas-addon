@@ -1,0 +1,25 @@
+﻿## Interface: 20100
+## Title: Atlas |r|cFF0099FF[Flight Paths]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 飛航路徑地圖集
+## Title-zhCN: Atlas |r|cFF0099FF[飞行路线图]|r
+## Notes: Flight Path Maps
+## Notes-deDE: Fluglinienkarten
+## Notes-esES: Mapa de Trayectorias
+## Notes-frFR: Cartes des trajets aériens
+## Notes-koKR: 비행경로 지도
+## Notes-zhCN: 飞行路线图
+## Notes-zhTW: Atlas 飛航路徑地圖集，顯示兩大陣營在東西大陸的飛行路徑
+## Version: 1.10.1
+## X-Date: September 4, 2007
+## Author: Dan Gilbert
+## X-Email: loglow@gmail.com
+## X-Website: http://www.atlasmod.com
+## X-Category: MYADDONS_CATEGORY_MAP
+## RequiredDeps: Atlas
+
+Locale\AtlasFlightPaths-enUS.lua
+Locale\AtlasFlightPaths-deDE.lua
+Locale\AtlasFlightPaths-frFR.lua
+Locale\AtlasFlightPaths-zhCN.lua
+Locale\AtlasFlightPaths-esES.lua
+Locale\AtlasFlightPaths-zhTW.lua

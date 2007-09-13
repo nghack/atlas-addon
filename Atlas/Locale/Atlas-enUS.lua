@@ -321,12 +321,17 @@ AtlasMaps = {
 			ORNG.."Rep: Brood of Nozdormu";
 			BLUE.."A) Entrance";
 			GREY.."1) The Prophet Skeram (Outside)";
-			GREY.."2) Vem & Co (Optional)";
+			GREY.."2) The Bug Family (Optional)";
+			GREY..INDENT.."Vem";
+			GREY..INDENT.."Lord Kri";
+			GREY..INDENT.."Princess Yauj";
 			GREY.."3) Battleguard Sartura";
 			GREY.."4) Fankriss the Unyielding";
 			GREY.."5) Viscidus (Optional)";
 			GREY.."6) Princess Huhuran";
 			GREY.."7) Twin Emperors";
+			GREY..INDENT.."Emperor Vek'lor";
+			GREY..INDENT.."Emperor Vek'nilash";
 			GREY.."8) Ouro (Optional)";
 			GREY.."9) Eye of C'Thun / C'Thun";
 			GREN.."1') Andorgos";

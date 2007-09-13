@@ -5,6 +5,9 @@
 v1.10.2
 - added Sah'rhee to RFD (Celellach)
 - the Atlas source is now hosted at Google Code
+- changed the organization of DM arena mobs (Kiria)
+- tagged DM arena mobs as random (Kiria)
+- added Elder Mistwalker to the DM arena (Celellach)
 
 v1.10.1
 - added individual instance names to Outland DL map (Telchar)

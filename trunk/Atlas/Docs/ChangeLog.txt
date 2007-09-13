@@ -11,6 +11,7 @@ v1.10.2
 - changed the organization of Vem encounter in AQ40 (Celellach)
 - added Lord Kri and Princess Yauj to Vem encounter in AQ40 (Celellach)
 - added Vek'lor and Vek'nilash to Twin Emperors in AQ40 (Celellach)
+- added specific mobs to Illidari Council in BT (Telchar)
 
 v1.10.1
 - added individual instance names to Outland DL map (Telchar)

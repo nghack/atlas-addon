@@ -187,6 +187,7 @@ AtlasMaps = {
 			GREY.."1) Tuten'kash";
 			GREY.."2) Henry Stern";
 			GREY..INDENT.."Belnistrasz";
+			GREY..INDENT.."Sah'rhee";
 			GREY.."3) Mordresh Fire Eye";
 			GREY.."4) Glutton";
 			GREY.."5) Ragglesnout (Rare, Varies)";

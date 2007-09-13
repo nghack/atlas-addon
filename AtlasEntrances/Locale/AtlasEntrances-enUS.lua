@@ -189,9 +189,11 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			BLUE.."C) North Wing";
 			BLUE.."D) West Wing";
 			GREY.."1) Dire Pool";
-			GREY.."2) Mushgog";
-			GREY..INDENT.."Skarr the Unbreakable";
-			GREY..INDENT.."The Razza";
+			GREY.."2) Dire Maul Arena";
+			GREY..INDENT.."Mushgog (Random)";
+			GREY..INDENT.."Skarr the Unbreakable (Random)";
+			GREY..INDENT.."The Razza (Random)";
+			GREY..INDENT.."Elder Mistwalker (Lunar)";
 		};
 	};
 

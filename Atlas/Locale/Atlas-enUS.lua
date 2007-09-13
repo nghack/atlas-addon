@@ -1261,6 +1261,10 @@ AtlasMaps = {
 			BLUE.."E) Entrance";
 			GREY.."1) Mother Shahraz";
 			GREY.."2) Illidari Council";
+			GREY..INDENT.."Lady Malande";
+			GREY..INDENT.."Gathios the Shatterer";
+			GREY..INDENT.."High Nethermancer Zerevor";
+			GREY..INDENT.."Veras Darkshadow";
 			GREY.."3) Illidan Stormrage";
 		};
 		BlackTempleFull = {

@@ -84,7 +84,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."2) Lothos Ouvrefaille ";
 			GREY.."3) Franclorn Le Forgebusier  (Fant\195\180me)";
 			GREY.."4) Pierre de Rencontre - BRD";
-			GREY.."5) Orbe de Commandement"; 				-- traduction à vérifier
+			GREY.."5) Orbe de Commandement";
 			GREY.."6) Pierre de Rencontre - BRS";
 			GREY.."7) Intendant du Bouclier balafr\195\169";
 		};
@@ -111,7 +111,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."1) Ascenseur";
 			GREY.."2) Transpolyporter"; 			-- A traduire
 			GREY..INDENT.."Sprok";
-			GREY.."3) Matrix Punchograh 3005-A";		-- A traduire
+			GREY.."3) Matrice d'Encodage 3005-A";
 			GREY..INDENT.."Namdo Ventaperte";
 			GREY.."4) Techbot";
 		};

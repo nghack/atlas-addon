@@ -27,7 +27,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 8/27/2007
+-- Last Update : 9/26/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -48,7 +48,7 @@ if ( GetLocale() == "zhCN" ) then
 		AuchindounEnt = {
 			ZoneName = "奥金顿";
 			Acronym = "Auch";
-			Location = "白骨荒野, 泰罗卡森林";
+			Location = "白骨荒野，泰罗卡森林";
 			BLUE.."A) 奥金尼地穴";
 			BLUE.."B) 法力陵墓";
 			BLUE.."C) 塞泰克大厅";
@@ -200,9 +200,11 @@ if ( GetLocale() == "zhCN" ) then
 			BLUE.."C) 北区";
 			BLUE.."D) 西区";
 			GREY.."1) 厄运之池";
-			GREY.."2) 姆斯高格";
-			GREY..INDENT.."无敌的斯卡尔";
-			GREY..INDENT.."拉扎尔";
+			GREY.."2) 厄运之槌竞技场";
+			GREY..INDENT.."姆斯高格 (随机)";
+			GREY..INDENT.."无敌的斯卡尔 (随机)";
+			GREY..INDENT.."拉扎尔 (随机)";
+			GREY..INDENT.."迷雾长者 (春节)";
 		};
 	};
 

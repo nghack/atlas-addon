@@ -27,7 +27,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 8/27/2007
+-- Last Update : 9/26/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -89,6 +89,9 @@ ATLAS_LOCALE = {
 
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
+	["阿塔哈卡神庙"] = "沉默的神庙";
+	["黑色沼泽"] = "时光之穴 - 黑暗之门";
+	["旧希尔斯布莱德丘陵"] = "时光之穴 - 敦霍尔德";
 }; 
 
 local BLUE = "|cff6666ff";
@@ -178,6 +181,7 @@ AtlasMaps = {
 			GREY.."1) 图特卡什";
 			GREY.."2) 亨利·斯特恩";
 			GREY..INDENT.."奔尼斯特拉兹";
+			GREY..INDENT.."萨哈斯";
 			GREY.."3) 火眼莫德雷斯";
 			GREY.."4) 暴食者";
 			GREY.."5) 拉戈斯诺特 (稀有, 多个位置)";
@@ -311,15 +315,17 @@ AtlasMaps = {
 			ORNG.."阵营：诺兹多姆的子嗣";
 			BLUE.."A) 入口";
 			GREY.."1) 预言者斯克拉姆 (室外)";
-			GREY.."2) 维姆 (可跳过)";
-			GREY..INDENT.."亚尔基公主 (可跳过)";
-			GREY..INDENT.."克里勋爵 (可跳过)";
+			GREY.."2) 虫人家庭 (可跳过)";
+			GREY..INDENT.."维姆";
+			GREY..INDENT.."克里勋爵";
+			GREY..INDENT.."亚尔基公主";
 			GREY.."3) 沙尔图拉";
 			GREY.."4) 顽强的范克瑞斯";
 			GREY.."5) 维希度斯 (可跳过)";
 			GREY.."6) 哈霍兰公主";
-			GREY.."7) 维克尼拉斯大帝";
+			GREY.."7) 双子皇帝";
 			GREY..INDENT.."维克洛尔大帝";
+			GREY..INDENT.."维克尼拉斯大帝";
 			GREY.."8) 奥罗 (可跳过)";
 			GREY.."9) 克苏恩";
 			GREN.."1') 安多葛斯";
@@ -369,7 +375,7 @@ AtlasMaps = {
 			GREY..INDENT.."麦迪文";
 		};
 		CoTHyjal = {
-			ZoneName = "时光之穴 - 海加尔山";
+			ZoneName = "时光之穴 - 海加尔峰";
 			Location = "塔纳利斯";
 			Acronym = "MH, cot3";
 			ORNG.."需要完成入口任务";
@@ -816,7 +822,7 @@ AtlasMaps = {
 			GREY.."6) 布鲁高·铁拳 (稀有)";
 		};
 		TheSunkenTemple = {
-			ZoneName = "阿塔哈卡神庙";
+			ZoneName = "沉默的神庙";
 			Acronym = "ST";
 			Location = "悲伤沼泽";
 			ORNG.."钥匙：叶基亚的卷轴 (哈卡的化身)";
@@ -1168,7 +1174,7 @@ AtlasMaps = {
 			GREY..INDENT.."米尔豪斯·法力风暴";
 		};
 		TempestKeepMechanar = {
-			ZoneName = "风暴要塞 - 能量舰";
+			ZoneName = "风暴要塞 - 能源舰";
 			Location = "虚空风暴";
 			Acronym = "Mech";
 			ORNG.."阵营：沙塔尔";
@@ -1249,6 +1255,10 @@ AtlasMaps = {
 			BLUE.."E) 入口";
 			GREY.."1) 莎赫拉丝主母";
 			GREY.."2) 伊利达雷议会";
+			GREY..INDENT.."女公爵玛兰德";
+			GREY..INDENT.."击碎者加西奥斯";
+			GREY..INDENT.."高阶灵术师塞勒沃尔";
+			GREY..INDENT.."薇尔莱丝·深影";
 			GREY.."3) 伊利丹·怒风";
 		};
 		BlackTempleFull = {

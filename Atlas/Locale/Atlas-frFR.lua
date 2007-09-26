@@ -28,7 +28,7 @@
 -- traduction à l'aide de WoW Cartographe, Allakhazam, WoW Armory
 --
 -- Mise à jour par Wysiwyg, Kiria, Trs
--- le 24/08/2007
+-- le 05/09/2007
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -83,7 +83,7 @@ ATLAS_TITAN_HINT = "Clic-gauche pour ouvrir Atlas.\nClic-milieu pour les options
 
 
 
-ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un additif pour l'interface de World of Warcraft qui fournit de nombreuses cartes suppl\195\169mentaires ainsi qu'un afficheur de plans en jeu. Taper la commande '/atlas' ou cliquer sur l'icone de mini-carte pour ouvrir la fen\195\170tre d'Atlas. Le panneau d'options vous permet d'enlever cet icone, d'activer ou non les diff\195\169rentes options : Auto s\195\169lection, Remplacer la Carte du Monde, Clic-droit, Changer la position de l'icone, ou ajuster la transparence de la fen\195\170tre principale. Si l'option d'Auto-s\195\169lection est activ\195\169e, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous \195\170tes. Si l'option Remplace la Carte du Monde est activ\195\169e, Atlas s'ouvrira \195\160 la place de la carte du monde lorsque vous \195\170tes dans un donjon. Si l'option Clic-droit est activ\195\169e, vous pourrez cliquer-droite sur Atlas pour ouvrir la Carte du monde. Vous pouvez d\195\169placer la fen\195\170tre d'Atlas en faisant un clic-gauche maintenu. Utilisez le petit symbole de verrou dans le coin En haut \195\160 droite pour fixer la fen\195\170tre en place."};
+ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes suppl\195\169mentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'ic\195\180ne de mini-carte pour ouvrir la fen\195\170tre d'Atlas. Le panneau d'options vous permet d'enlever cette ic\195\180ne, d'activer ou non les diff\195\169rentes options : Auto-s\195\169lection, Remplacer la Carte du Monde, Clic-droit, Changer la position de l'ic\195\180ne, ou ajuster la transparence de la fen\195\170tre principale. Si l'option d'Auto-s\195\169lection est activ\195\169e, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous \195\170tes. Si l'option Remplace la Carte du Monde est activ\195\169e, Atlas s'ouvrira \195\160 la place de la carte du monde lorsque vous \195\170tes dans un donjon. Si l'option Clic-droit est activ\195\169e, vous pourrez cliquer-droite sur Atlas pour ouvrir la Carte du monde. Vous pouvez d\195\169placer la fen\195\170tre d'Atlas en faisant un clic-gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut \195\160 droite pour fixer la fen\195\170tre en place."};
 
 
 
@@ -259,9 +259,6 @@ AtlasMaps = {
 			GREY.."4) Vieil Ecorcefer";
 			GREY.."5) Alzzin le modeleur";
 			GREY..INDENT.."Isalien (Invoqu\195\169)";
-			-- Mushgog (ar\195\168ne) -- Mushgog (DM arena)
-			-- Bâlhafr l'Invaincu (ar\195\168ne) -- Skarr the Unbreakable (DM arena)
-			-- La Razza (ar\195\168ne) -- The Razza (DM arena)
 		};
 		DireMaulNorth = {
 			ZoneName = "Hache-tripes (Nord)";
@@ -873,7 +870,7 @@ AtlasMaps = {
 			GREY.."6) Annora (Enchanteur - Ma\195\174tre)";
 			GREY.."7) Ancien gardien des pierres";
 			GREY.."8) Galgann Martel-de-feu";
-			GREY..INDENT.."Tablette de Volonté";
+			GREY..INDENT.."Tablette de Volont\195\169";
 			GREY..INDENT.."Cachette d'Ombreforge";
 			GREY.."9) Grimelok";
 			GREY.."10) Archaedas (En bas)";
@@ -946,8 +943,8 @@ AtlasMaps = {
 			ORNG.."R\195\169put : L'\197\146il pourpre";
 			ORNG.."Objet : La cl\195\169 du ma\195\174tre";
 			ORNG.."Objet : Urne noircie (Plaie-de-nuit)";
-			BLUE.."A) Entr\195\169e (principale)";
-			BLUE.."B) Escalier (arri\195\168re)";
+			BLUE.."A) Entr\195\169e (Principale)";
+			BLUE.."B) Escalier (Arri\195\168re)";
 			BLUE.."C) Escalier";
 			BLUE.."D) All\195\169e";
 			BLUE.."E) All\195\169e";
@@ -1042,7 +1039,7 @@ AtlasMaps = {
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Mennu le Tra\195\174tre";
 			GREY.."2) Weeder la Main-verte";
-			GREY.."3) Skar'this l'Hérétique  (H\195\169ro\195\175que)";
+			GREY.."3) Skar'this l'H\195\169r\195\169tique  (H\195\169ro\195\175que)";
 			GREY.."4) Rokmar le Cr\195\169pitant";
 			GREY.."5) Naturaliste Morsure";
 			GREY.."6) Bourbierreux";
@@ -1096,7 +1093,7 @@ AtlasMaps = {
 			Acronym = "MT/TM";
 			ORNG.."R\195\169put : Le Consortium";
 			ORNG.."Objet : Cl\195\169 Auchena\195\175 (H\195\169ro\195\175que)";
-			ORNG.."Objet : L'Oeil d'Haramad (Exalté, Yor)";
+			ORNG.."Objet : L'Oeil d'Haramad (Exalt\195\169, Yor)";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Pandemonius";
 			GREY..INDENT.."Seigneur des t\195\169n\195\168bres Xiraxis";
@@ -1122,7 +1119,7 @@ AtlasMaps = {
 			Acronym = "Sethekk";
 			ORNG.."R\195\169put : Ville basse";
 			ORNG.."Objet : Cl\195\169 Auchena\195\175 (H\195\169ro\195\175que)";
-			ORNG.."Objet : Pierre de lune imprégnée d'essence (Anzu)";
+			ORNG.."Objet : Pierre de lune impr\195\169gn\195\169e d'essence (Anzu)";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Tisseur d'ombre Syth";
 			GREY.."2) La Saga de Terokk";
@@ -1188,7 +1185,7 @@ AtlasMaps = {
 			GREY.."2) Gardien de porte Main-en-fer";
 			GREY..INDENT.."Cache de la L\195\169gion";
 			GREY.."3) M\195\169cano-seigneur Capacitus";
-			GREY..INDENT.."Cellule de mana surchargée";
+			GREY..INDENT.."Cellule de mana surcharg\195\169e";
 			GREY.."4) N\195\169antomancien Sepethrea";
 			GREY.."5) Pathaleon le Calculateur";
 		};
@@ -1204,7 +1201,7 @@ AtlasMaps = {
 			GREY.."3) Grande Astromancienne Solarian";
 			GREY.."4) Kael'thas Haut-soleil";
 			GREY..INDENT.."Thaladred l'Assombrisseur";
-			GREY..INDENT.."Maître ingénieur Telonicus";
+			GREY..INDENT.."Ma\195\174tre ing\195\169nieur Telonicus";
 			GREY..INDENT.."Grand astromancien Capernian";
 			GREY..INDENT.."Seigneur Sanguinar";
 		};
@@ -1214,7 +1211,7 @@ AtlasMaps = {
 			Acronym = "GL";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Haut Roi Maulgar";
-			GREY..INDENT.."Kiggler le Cinglé (Chaman)";
+			GREY..INDENT.."Kiggler le Cingl\195\169 (Chaman)";
 			GREY..INDENT.."Oeillaveugle le Voyant (Pr\195\170tre)";
 			GREY..INDENT.."Olm l'Invocateur (D\195\169moniste)";
 			GREY..INDENT.."Krosh Brasemain (Mage)";

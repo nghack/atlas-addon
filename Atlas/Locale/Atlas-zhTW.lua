@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 04, 2007
+-- Last Update: Sep. 26, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -984,8 +984,8 @@ AtlasMaps = {
 	};
 	[3] = {
 		HCBloodFurnace = {
-			ZoneName = "地域火堡壘: 血熔爐";
-			Location = "地域火堡壘, 地域火半島";
+			ZoneName = "地獄火堡壘: 血熔爐";
+			Location = "地獄火堡壘, 地獄火半島";
 			Acronym = "BF";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
@@ -996,8 +996,8 @@ AtlasMaps = {
 			GREY.."3) 破壞者·凱利丹";
 		};
 		HCTheShatteredHalls = {
-			ZoneName = "地域火堡壘: 破碎大廳";
-			Location = "地域火堡壘, 地域火半島";
+			ZoneName = "地獄火堡壘: 破碎大廳";
+			Location = "地獄火堡壘, 地獄火半島";
 			Acronym = "SH";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
@@ -1010,8 +1010,8 @@ AtlasMaps = {
 			GREY.."4) 大酋長卡加斯·刃拳";
 		};
 		HCHellfireRamparts = {
-			ZoneName = "地域火堡壘: 地域火壁壘";
-			Location = "地域火堡壘, 地域火半島";
+			ZoneName = "地獄火堡壘: 地獄火壁壘";
+			Location = "地獄火堡壘, 地獄火半島";
 			Acronym = "Ramp";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
@@ -1024,8 +1024,8 @@ AtlasMaps = {
 			GREY..INDENT.."強化惡魔鐵箱";
 		};
 		HCMagtheridonsLair = {
-			ZoneName = "地域火堡壘: 瑪瑟里頓的巢穴";
-			Location = "地域火堡壘, 地域火半島";
+			ZoneName = "地獄火堡壘: 瑪瑟里頓的巢穴";
+			Location = "地獄火堡壘, 地獄火半島";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			BLUE.."A) 入口";
@@ -1191,7 +1191,7 @@ AtlasMaps = {
 			GREY.."5) 計算者帕薩里歐";
 		};
 		TempestKeepTheEye = {
-			ZoneName = "風暴要塞: 風暴之眼";
+			ZoneName = "風暴要塞: 風暴要塞";
 			Location = "風暴要塞, 虛空風暴";
 			Acronym = "Eye";
 			ORNG.."聲望: 薩塔";

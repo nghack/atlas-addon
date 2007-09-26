@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 04, 2007
+-- Last Update: Sep. 26, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -103,7 +103,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			GREY..INDENT.."麥克那爾";
 			GREY..INDENT.."波塔尼卡";
 			GREY..INDENT.."亞克崔茲";
-			GREY..INDENT.."風暴之眼";
+			GREY..INDENT.."風暴要塞";
 			GREY.."3) 盤牙洞穴, ".._RED.."贊格沼澤";
 			GREY..INDENT.."奴隸監獄";
 			GREY..INDENT.."毒牙沼澤";

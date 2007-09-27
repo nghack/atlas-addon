@@ -1189,7 +1189,7 @@ AtlasMaps = {
 			GREY.."1) Gatewatcher Gyro-Kill";
 			GREY.."2) Gatewatcher Iron-Hand";
 			GREY..INDENT.."Cache of the Legion";
-			GREY.."3) Machano-Lord Capacitus";
+			GREY.."3) Mechano-Lord Capacitus";
 			GREY..INDENT.."Overcharged Manacell";
 			GREY.."4) Nethermancer Sepethrea";
 			GREY.."5) Pathaleon the Calculator";

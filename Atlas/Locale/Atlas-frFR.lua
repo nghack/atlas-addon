@@ -28,7 +28,7 @@
 -- traduction à l'aide de WoW Cartographe, Allakhazam, WoW Armory
 --
 -- Mise à jour par Wysiwyg, Kiria, Trs
--- le 05/09/2007
+-- le 27/09/2007
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -187,6 +187,7 @@ AtlasMaps = {
 			GREY.."1) Tuten'kash";
 			GREY.."2) Henry Stern";
 			GREY..INDENT.."Belnistrasz";
+			GREY..INDENT.."Sah'rhee";
 			GREY.."3) Mordresh \197\146il-de-feu";
 			GREY.."4) Glouton";
 			GREY.."5) Groinfendu (Rare, Variable)";
@@ -320,17 +321,22 @@ AtlasMaps = {
 			ORNG.."R\195\169put : Prog\195\169niture de Nozdormu";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Le Proph\195\168te Skeram (Ext\195\169rieur)";
-			GREY.."2) Vem, Yauj, Kri (Optionnel)";
+			GREY.."2) La Bug Family (Optionnelle)";
+			GREY..INDENT.."Vem";
+			GREY..INDENT.."Seigneur Kri";
+			GREY..INDENT.."Princesse Yauj";
 			GREY.."3) Garde de guerre Sartura";
 			GREY.."4) Fankriss l'Inflexible";
 			GREY.."5) Viscidus (Optionnel)";
 			GREY.."6) Princesse Huhuran";
-			GREY.."7) Empereurs Vek'lor et Vek'nilash";
+			GREY.."7) Les Empereurs Jumeaux";
+			GREY..INDENT.."Empereur Vek'lor";
+			GREY..INDENT.."Empereur Vek'nilash";
 			GREY.."8) Ouro (Optionnel)";
 			GREY.."9) \197\146il de C'Thun / C'Thun";
-			GREN.."1') Andorgos (Rejeton de Malygos)";
-			GREN..INDENT.." Vethsera (Rejeton d'Ysera)";
-			GREN..INDENT.." Kandrostrasz (Rejeton d'Alexstrasza)";
+			GREN.."1') Andorgos";
+			GREN..INDENT.." Vethsera";
+			GREN..INDENT.." Kandrostrasz";
 			GREN.."2') Arygos";
 			GREN..INDENT.." Caelestrasz";
 			GREN..INDENT.." Merithra du R\195\170ve";
@@ -1255,6 +1261,10 @@ AtlasMaps = {
 			BLUE.."E) Entr\195\169e";
 			GREY.."1) M\195\168re Shahraz";
 			GREY.."2) Le conseil Illidari";
+			GREY..INDENT.."Dame Malande";
+			GREY..INDENT.."Gathios le Briseur";
+			GREY..INDENT.."Grand n\195\169antomancien Zerevor";
+			GREY..INDENT.."Veras Ombrenoir";
 			GREY.."3) Illidan Hurlorage";
 		};
 		BlackTempleFull = {

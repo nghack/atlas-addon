@@ -189,9 +189,11 @@ if ( GetLocale() == "frFR" ) then
 			BLUE.."C) Aile Nord";
 			BLUE.."D) Aile Ouest";
 			GREY.."1) Bassin redoutable";
-			GREY.."2) Mushgog";
-			GREY..INDENT.."B\195\162lhafr l'Invaincu";
-			GREY..INDENT.."La Razza";
+			GREY.."2) L'Etripoir";
+			GREY..INDENT.."Mushgog (Hazard)";
+			GREY..INDENT.."B\195\162lhafr l'Invaincu (Hazard)";
+			GREY..INDENT.."La Razza (Hazard)";
+			GREY..INDENT.."Ancienne Marche-brume (F\195\170te lunaire)";
 		};
 	};
 

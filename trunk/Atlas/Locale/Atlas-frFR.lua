@@ -274,7 +274,6 @@ AtlasMaps = {
 			GREY.."5) Capitaine Kromcrush";
 			GREY.."6) Roi Gordok";
 			GREY..INDENT.."Cho'Rush l'Observateur";
-			-- Tribut des Gordok
 		};
 		DireMaulWest = {
 			ZoneName = "Hache-tripes (Ouest)";
@@ -301,7 +300,7 @@ AtlasMaps = {
 			GREN..INDENT.."Gardien du savoir Kildrath";
 			GREN..INDENT.."Gardienne du savoir Mykos";
 			GREN..INDENT.."Approvisionneur Shen'dralar";
-			GREN..INDENT.."Restes squelettiques de Kariel Winthalus"; -- Vérifier pour Kariel Winthalus
+			GREN..INDENT.."Restes squelettiques de Kariel Winthalus";
 		};
 		OnyxiasLair = {
 			ZoneName = "Repaire d'Onyxia";
@@ -357,7 +356,7 @@ AtlasMaps = {
 			GREY.."4) Buru Grandgosier (Optionnel)";
 			GREY.."5) Ayamiss le Chasseur (Optionnel)";
 			GREY.."6) Ossirian l'Intouch\195\169";
-			GREN.."1') Pi\195\168ce s\195\187re"; -- traduction à vérifier
+			GREN.."1') Pi\195\168ce s\195\187re";
 		};
 		CoTBlackMorass = {
 			ZoneName = "GdT : Le Noir Mar\195\169cage"; -- ou La Porte des ténèbres
@@ -861,8 +860,8 @@ AtlasMaps = {
 			GREY.."1) Baelog";
 			GREY..INDENT.."Eric \"l'Agile\"";
 			GREY..INDENT.."Olaf";
-			GREY..INDENT.."Coffre de Baelog"; -- traduction à vérifier
-			GREY..INDENT.."Urne remarquable"; -- traduction à vérifier
+			GREY..INDENT.."Coffre de Baelog";
+			GREY..INDENT.."Urne remarquable";
 			GREY.."2) Restes d'un paladin";
 			GREY.."3) Revelosh";
 			GREY.."4) Ironaya";
@@ -875,7 +874,7 @@ AtlasMaps = {
 			GREY.."9) Grimelok";
 			GREY.."10) Archaedas (En bas)";
 			GREY.."11) Les Disques de Norgannon";
-			GREY..INDENT.." Tr\195\169sor Antique (En bas)"; -- traduction à vérifier
+			GREY..INDENT.." Tr\195\169sor Antique (En bas)";
 		};
 		ZulGurub = {
 			ZoneName = "Zul'Gurub";
@@ -1004,7 +1003,7 @@ AtlasMaps = {
 			ORNG.."Objet : Cl\195\169 en flammes forg\195\169es (H\195\169ro\195\175que)";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Grand d\195\169moniste N\195\169anath\195\168me";
-			GREY.."2) Garde de sang Porung (mode H\195\169ro\195\175que)";
+			GREY.."2) Garde de sang Porung (H\195\169ro\195\175que)";
 			GREY.."3) Porteguerre O'mrogg";
 			GREY.."4) Chef de guerre Kargath Lamepoing";
 		};
@@ -1020,7 +1019,7 @@ AtlasMaps = {
 			GREY.."2) Omor l'Intouch\195\169";
 			GREY.."3) Vazruden le H\195\169raut";
 			GREY..INDENT.."Nazan";
-			GREY..INDENT.."Coffre en gangrefer renforc\195\169";	-- traduction à vérifier
+			GREY..INDENT.."Coffre en gangrefer renforc\195\169";
 		};
 		HCMagtheridonsLair = {
 			ZoneName = "CFI : Le repaire de Magtheridon";
@@ -1052,7 +1051,7 @@ AtlasMaps = {
 			ORNG.."Objet : Cl\195\169 du r\195\169servoir (H\195\169ro\195\175que)";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Hungarfen";
-			GREY..INDENT.."Palme de sporielle"; -- traduction à vérifier
+			GREY..INDENT.."Palme de sporielle";
 			GREY.."2) Ghaz'an";
 			GREY.."3) Lieur de terre Rayge";
 			GREY.."4) Seigneur des marais Musel'ek";
@@ -1228,9 +1227,9 @@ AtlasMaps = {
 			BLUE.."D) Entr\195\169e";
 			GREY.."1) Gurtogg Fi\195\168vresang";
 			GREY.."2) Reliquaire des \195\162mes";
-			GREY..INDENT.."Essence de la col\195\168re";		-- traduction à verifier
-			GREY..INDENT.."Essence du d\195\169sir";		-- traduction à verifier
-			GREY..INDENT.."Essence de la souffrance";		-- traduction à verifier
+			GREY..INDENT.."Essence de la col\195\168re";
+			GREY..INDENT.."Essence du d\195\169sir";
+			GREY..INDENT.."Essence de la souffrance";
 			GREY.."3) Teron Fielsang";
 		};
 		BlackTempleMiddle = {

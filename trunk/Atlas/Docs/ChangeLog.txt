@@ -3,6 +3,9 @@
 ==============
 
 v1.10.2
+- updated TOC number to 20200 for the 2.2 patch
+
+v1.10.2
 - added Sah'rhee to RFD (Celellach)
 - the Atlas source is now hosted at Google Code
 - changed the organization of DM arena mobs (Kiria)

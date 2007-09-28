@@ -8,7 +8,7 @@
 ## Notes-zhTW: 副本入口地圖，顯示副本入口附近的地形與相關的NPC位置
 ## Notes-deDE: Eingänge
 ## Notes-esES: Entradas
-## Version: 1.10.2
+## Version: 1.10.3
 ## X-Date: September 27, 2007
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com

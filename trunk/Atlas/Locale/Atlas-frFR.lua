@@ -321,7 +321,7 @@ AtlasMaps = {
 			ORNG.."R\195\169put : Prog\195\169niture de Nozdormu";
 			BLUE.."A) Entr\195\169e";
 			GREY.."1) Le Proph\195\168te Skeram (Ext\195\169rieur)";
-			GREY.."2) La Bug Family (Optionnelle)";
+			GREY.."2) La famille insecte (Optionnelle)";
 			GREY..INDENT.."Vem";
 			GREY..INDENT.."Seigneur Kri";
 			GREY..INDENT.."Princesse Yauj";
@@ -329,7 +329,7 @@ AtlasMaps = {
 			GREY.."4) Fankriss l'Inflexible";
 			GREY.."5) Viscidus (Optionnel)";
 			GREY.."6) Princesse Huhuran";
-			GREY.."7) Les Empereurs Jumeaux";
+			GREY.."7) Les Empereurs jumeaux";
 			GREY..INDENT.."Empereur Vek'lor";
 			GREY..INDENT.."Empereur Vek'nilash";
 			GREY.."8) Ouro (Optionnel)";

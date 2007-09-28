@@ -9,7 +9,7 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 野外團隊會戰地圖，顯示各世界首領地理位置圖
-## Version: 1.10.2
+## Version: 1.10.3
 ## X-Date: September 27, 2007
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com

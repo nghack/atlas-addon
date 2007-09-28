@@ -1,4 +1,4 @@
-﻿## Interface: 20100
+﻿## Interface: 20200
 ## Title: Atlas |r|cFF0099FF[Entrances]|r
 ## Title-zhCN: Atlas |r|cFF0099FF[地下城入口]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 副本入口
@@ -8,8 +8,8 @@
 ## Notes-zhTW: 副本入口地圖，顯示副本入口附近的地形與相關的NPC位置
 ## Notes-deDE: Eingänge
 ## Notes-esES: Entradas
-## Version: 1.10.1
-## X-Date: September 4, 2007
+## Version: 1.10.2
+## X-Date: September 27, 2007
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

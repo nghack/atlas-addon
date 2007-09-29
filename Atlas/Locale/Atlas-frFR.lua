@@ -1261,10 +1261,10 @@ AtlasMaps = {
 			BLUE.."E) Entr\195\169e";
 			GREY.."1) M\195\168re Shahraz";
 			GREY.."2) Le conseil Illidari";
-			GREY..INDENT.."Dame Malande";
-			GREY..INDENT.."Gathios le Briseur";
-			GREY..INDENT.."Grand n\195\169antomancien Zerevor";
-			GREY..INDENT.."Veras Ombrenoir";
+			GREY..INDENT.."Dame Malande (Pr\195\170tre)";
+			GREY..INDENT.."Gathios le Briseur (Paladin)";
+			GREY..INDENT.."Grand n\195\169antomancien Zerevor (Mage)";
+			GREY..INDENT.."Veras Ombrenoir (Voleur)";
 			GREY.."3) Illidan Hurlorage";
 		};
 		BlackTempleFull = {

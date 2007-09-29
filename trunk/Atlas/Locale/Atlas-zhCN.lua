@@ -27,7 +27,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 9/26/2007
+-- Last Update : 9/30/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -1255,10 +1255,10 @@ AtlasMaps = {
 			BLUE.."E) 入口";
 			GREY.."1) 莎赫拉丝主母";
 			GREY.."2) 伊利达雷议会";
-			GREY..INDENT.."女公爵玛兰德";
-			GREY..INDENT.."击碎者加西奥斯";
-			GREY..INDENT.."高阶灵术师塞勒沃尔";
-			GREY..INDENT.."薇尔莱丝·深影";
+			GREY..INDENT.."女公爵玛兰德 (牧师)";
+			GREY..INDENT.."击碎者加西奥斯 (圣骑士)";
+			GREY..INDENT.."高阶灵术师塞勒沃尔 (法师)";
+			GREY..INDENT.."薇尔莱丝·深影 (潜行者)";
 			GREY.."3) 伊利丹·怒风";
 		};
 		BlackTempleFull = {

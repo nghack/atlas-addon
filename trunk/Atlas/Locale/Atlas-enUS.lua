@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -546,7 +546,7 @@ AtlasMaps = {
 			BLUE.."A) Entrance";
 			GREY.."1) Vaelan";
 			GREY.."2) Warosh";
-			GREY..INDENT.."Elder Stonefort (Lune)";
+			GREY..INDENT.."Elder Stonefort (Lunar)";
 			GREY.."3) Bijou";
 			GREY.."4) Roughshod Pike";
 			GREY.."5) Spirestone Butcher (Rare)";

@@ -32,8 +32,9 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 26, 2007
+-- Last Update: Sep. 29, 2007
 if ( GetLocale() ==	"zhTW" ) then
+
 
 
 AtlasSortIgnore = {" "};
@@ -63,7 +64,7 @@ ATLAS_STRING_SEARCH = "搜尋";
 ATLAS_STRING_CLEAR = "清除";
 
 ATLAS_OPTIONS_TITLE = "Atlas 選項設定";
-ATLAS_OPTIONS_SHOWBUT = "在小地圖周圍顯示 Atlas 按鈕";
+ATLAS_OPTIONS_SHOWBUT = "在小地圖旁顯示 Atlas 按鈕";
 ATLAS_OPTIONS_AUTOSEL = "自動選擇副本地圖";
 ATLAS_OPTIONS_BUTPOS = "按鈕位置";
 ATLAS_OPTIONS_TRANS = "透明度";
@@ -75,7 +76,7 @@ ATLAS_OPTIONS_RESETPOS = "重設位置";
 ATLAS_OPTIONS_ACRONYMS = "顯示副本縮寫";
 ATLAS_OPTIONS_SCALE = "視窗大小比率";
 ATLAS_OPTIONS_BUTRAD = "按鈕半徑範圍";
-ATLAS_OPTIONS_CLAMPED = "使 Atlas 不超出畫面"
+ATLAS_OPTIONS_CLAMPED = "使 Atlas 視窗不超出遊戲畫面"
 ATLAS_OPTIONS_HELP = "左鍵點擊並拖曳以移動這個視窗"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas 副本地圖";
@@ -154,7 +155,7 @@ AtlasMaps = {
 			Location = "梣谷";
 			BLUE.."A) 入口";
 			GREY.."1) 加摩拉";
-			GREY.."2) 洛迦里斯手稿 / 潮濕的便箋";
+			GREY.."2) 洛迦里斯手稿";
 			GREY.."3) 薩利維絲";
 			GREY.."4) 銀月守衛塞爾瑞德";
 			GREY.."5) 格里哈斯特";
@@ -189,6 +190,7 @@ AtlasMaps = {
 			GREY.."1) 圖特卡什";
 			GREY.."2) 亨利·斯特恩";
 			GREY..INDENT.."貝尼斯特拉茲";
+			GREY..INDENT.."薩哈斯";
 			GREY.."3) 火眼莫德雷斯";
 			GREY.."4) 暴食者";
 			GREY.."5) 拉戈斯諾特 (稀有, 多處)";
@@ -216,7 +218,7 @@ AtlasMaps = {
 			GREY..INDENT.."沙怒劊子手";
 			GREY.."6) 水占師維蕾薩";
 			GREY..INDENT.."加茲瑞拉 (召喚)";
-			GREY..INDENT.."蠻鬃長者 (節慶任務)";
+			GREY..INDENT.."蠻鬃長者 (新年慶典任務)";
 			GREY.."7) 烏克茲·沙頂";
 			GREY..INDENT.."盧茲魯";
 			GREY.."8) 澤雷利斯 (稀有, 巡邏)";
@@ -241,7 +243,7 @@ AtlasMaps = {
 			GREY.."9) 工匠吉茲洛克";
 			GREY.."10) 洛特格里普";
 			GREY.."11) 瑟萊德絲公主";
-			GREY.."12) 碎石長者 (節慶)";
+			GREY.."12) 碎石長者 (新年慶典)";
 		};
 		DireMaulEast = {
 			ZoneName = "厄運之槌 (東)";
@@ -308,7 +310,7 @@ AtlasMaps = {
 			ZoneName = "奧妮克希亞的巢穴";
 			Acronym = "Ony";
 			Location = "塵泥沼澤";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."鑰匙: 龍火護符";
 			BLUE.."A) 入口";
 			GREY.."1) 奧妮克希亞守衛";
@@ -322,12 +324,17 @@ AtlasMaps = {
 			ORNG.."聲望: 諾茲多姆的子嗣";
 			BLUE.."A) 入口";
 			GREY.."1) 預言者斯克拉姆 (戶外)";
-			GREY.."2) 維姆/克里勳爵/亞爾基公主(可選擇)";
+			GREY.."2) 蟲族(可選擇)";
+			GREY..INDENT.."維姆";
+			GREY..INDENT.."克里勳爵";
+			GREY..INDENT.."亞爾基公主";
 			GREY.."3) 沙爾圖拉";
 			GREY.."4) 頑強的范克里斯";
 			GREY.."5) 維希度斯 (可選擇)";
 			GREY.."6) 哈霍蘭公主";
-			GREY.."7) 雙子帝王 維克尼拉斯/維克洛爾大帝";
+			GREY.."7) 雙子帝王";
+			GREY..INDENT.."維克洛爾大帝";
+			GREY..INDENT.."維克尼拉斯";
 			GREY.."8) 奧羅 (可選擇)";
 			GREY.."9) 克蘇恩之眼 / 克蘇恩";
 			GREN.."1') 安多葛斯";
@@ -364,12 +371,12 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 黑色沼澤";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT2";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
 			BLUE.."A) 入口";
 			BLUE..INDENT.."塞特";
-			ORNG.."X) 大門 (產生點)";
+			ORNG.."X) 傳送門 (生成點)";
 			ORNG..INDENT.."第六波: 克洛諾斯領主迪賈";
 			ORNG..INDENT.."第十二波: 坦普拉斯";
 			ORNG..INDENT.."第十八波: 艾奧那斯";
@@ -380,7 +387,7 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 海加爾山";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT3";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 流沙之鱗";
 			BLUE.."A) 聯盟營地";
 			BLUE..INDENT.."珍娜·普勞德摩爾女士";
@@ -398,7 +405,7 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 希爾斯布萊德丘陵舊址";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT1";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
 			BLUE.."A) 入口";
@@ -410,17 +417,17 @@ AtlasMaps = {
 			GREY.."1) 中尉崔克";
 			GREY.."2) 索爾 (下層)";
 			GREY.."3) 史卡拉克上尉";
-			GREY..INDENT.."索爾的第二站";
-			GREY.."4) 索爾的第四站";
+			GREY..INDENT.."索爾的第二停留點";
+			GREY.."4) 索爾的第三停留點";
 			GREY.."5) 伊波奇獵人";
-			GREY..INDENT.."索爾的第四站 (樓上)";
-			GREY..INDENT.."塔蕾莎 (樓上)";
+			GREY..INDENT.."索爾的第四停留點 (屋內樓上)";
+			GREY..INDENT.."塔蕾莎 (屋內樓上)";
 			GREY.."6) 強納森·瑞瓦";
 			GREY..INDENT.."傑瑞·卡特";
 			"";
 			"";
 			"";
-			ORNG.."旅行";
+			ORNG.."旅行中";
 			GREY..INDENT.."湯瑪斯·陽斯";
 			GREY..INDENT.."年邁的達拉然法師";
 			"";
@@ -446,12 +453,12 @@ AtlasMaps = {
 			GREY..INDENT.."費爾班克";
 			GREY..INDENT.."提里恩·弗丁";
 			GREY..INDENT.."祕法師杜安";
-			GREY..INDENT.."泰蘭 (樓上)";
+			GREY..INDENT.."泰蘭 (屋內樓上)";
 			GREY..INDENT.."酒吧老闆凱利";
 			GREY..INDENT.."法蘭斯·林";
 			GREY..INDENT.."西洋棋事件";
-			GREY..INDENT.."斯塔文·密斯特曼托 (樓上)";
-			GREY..INDENT.."費恩·奧德利克 (樓上)";
+			GREY..INDENT.."斯塔文·密斯特曼托 (屋內樓上)";
+			GREY..INDENT.."費恩·奧德利克 (屋內樓上)";
 			"";
 			ORNG.."南海鎮城鎮大廳";
 			GREY..INDENT.."赫尼·馬雷布鎮長";
@@ -494,7 +501,7 @@ AtlasMaps = {
 			GREY..INDENT.."腐牙";
 			GREY..INDENT.."瓦加什尼";
 			GREY..INDENT.."馴犬者格雷布瑪爾 (下層)";
-			GREY..INDENT.."晨深長者 (節慶)";
+			GREY..INDENT.."晨深長者 (新年慶典)";
 			GREY..INDENT.."裁決者格里斯通";
 			GREY.."7) 弗蘭克羅恩·鑄鐵的雕像";
 			GREY..INDENT.."控火師羅格雷恩";
@@ -542,7 +549,7 @@ AtlasMaps = {
 			BLUE.."A) 入口";
 			GREY.."1) 維埃蘭";
 			GREY.."2) 瓦羅什";
-			GREY..INDENT.."石壘長者 (節慶)";
+			GREY..INDENT.."石壘長者 (新年慶典)";
 			GREY.."3) 比修";
 			GREY.."4) 尖銳長矛";
 			GREY.."5) 尖石屠夫 (稀有)";
@@ -594,7 +601,7 @@ AtlasMaps = {
 			ZoneName = "黑翼之巢";
 			Acronym = "BWL";
 			Location = "黑石塔";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			BLUE.."A) 入口";
 			BLUE.."B) 通道";
 			BLUE.."C) 通道";
@@ -636,7 +643,7 @@ AtlasMaps = {
 			ZoneName = "熔火之心";
 			Acronym = "MC";
 			Location = "黑石深淵";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 海達希亞水元素";
 			ORNG.."鑰匙: 水之精萃/永恆精華 (首領)";
 			BLUE.."A) 入口";
@@ -764,7 +771,7 @@ AtlasMaps = {
 			GREY.."2) 阿泰絲 (召喚)";
 			GREY.."3) 弗雷斯特恩 (多個地方)";
 			GREY.."4) 不可寬恕者";
-			GREY.."5) 遙語長者 (節慶)";
+			GREY.."5) 遙語長者 (新年慶典)";
 			GREY.."6) 悲慘的提米";
 			GREY.."7) 狂熱的瑪洛爾";
 			GREY..INDENT.."信仰獎章";
@@ -849,7 +856,7 @@ AtlasMaps = {
 			GREY.."6) 伊蘭尼庫斯的陰影";
 			GREY..INDENT.."精華之泉";
 			GREY.."7) 哈卡的後代 (稀有)";
-			GREY.."8) 星歌長者 (節慶)";
+			GREY.."8) 星歌長者 (新年慶典)";
 			GREN.."1'-6') 雕像啟動順序";
 		};
 		Uldaman = {
@@ -875,7 +882,7 @@ AtlasMaps = {
 			GREY..INDENT.."暗影熔爐地窖";
 			GREY.."9) 格瑞姆洛克";
 			GREY.."10) 阿札達斯 (下層)";
-			GREY.."11) 諾甘農圓盤 (下層)";
+			GREY.."11) 諾甘農圓盤";
 			GREY..INDENT.."古代寶藏 (下層)";
 		};
 		ZulGurub = {
@@ -909,7 +916,7 @@ AtlasMaps = {
 			ZoneName = "納克薩瑪斯";
 			Acronym = "Nax";
 			Location = "病木林, 東瘟疫之地";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 銀色黎明";
 			BLUE.."憎惡區";
 			BLUE..INDENT.."1) 縫補者";
@@ -940,7 +947,7 @@ AtlasMaps = {
 			ZoneName = "卡拉贊";
 			Acronym = "Kara";
 			Location = "逆風小徑";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			ORNG.."鑰匙: 燻黑的骨灰甕 (夜禍)";
@@ -1222,7 +1229,7 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 (地下室)";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."C) 入口";
@@ -1238,7 +1245,7 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 (中層)";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."B) 入口";
@@ -1251,19 +1258,23 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 (上層)";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."E) 入口";
 			GREY.."1) 薩拉茲女士";
 			GREY.."2) 伊利達瑞議事";
+			GREY..INDENT.."瑪蘭黛女士 (牧師)";
+			GREY..INDENT.."粉碎者高希歐 (聖騎士)";
+			GREY..INDENT.."高等虛空術師札瑞佛 (法師)";
+			GREY..INDENT.."維拉斯·深影 (盜賊)";
 			GREY.."3) 伊利丹·怒風";
 		};
 		BlackTempleFull = {
 			ZoneName = "黑暗神廟 (全圖)";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需要傳送門";
+			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."A) 入口";

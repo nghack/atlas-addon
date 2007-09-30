@@ -399,7 +399,7 @@ AtlasMaps = {
 			GREY.."5) Archimonde";
 		};
 		CoTOldHillsbrad = {
-			ZoneName = "GdT : Contreforts de Hautebrande d'antan";
+			ZoneName = "GdT : L'\195\169vasion du Fort-de-Durn";
 			Location = "Grottes du Temps, Tanaris";
 			Acronym = "Durn, GdT1";
 			ORNG.."Harmonisation requise";
@@ -500,7 +500,7 @@ AtlasMaps = {
 			GREY..INDENT.."Ma\195\174tre-chien Grebmar (En bas)";
 			GREY..INDENT.."Ancien Gouffre-du-matin (F\195\170te lunaire)";
 			GREY..INDENT.."Juge Sup\195\169rieur Mornepierre";
-			GREY.."7) Statue de Franclorn Forgewright";
+			GREY.."7) Statue de Franclorn Le Forgebusier";
 			GREY..INDENT.."Pyromancien Bl\195\169-du-savoir";
 			GREY.."8) La Chambre forte";
 			GREY..INDENT.."Gardien Stilgiss";

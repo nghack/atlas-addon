@@ -41,7 +41,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			ZoneName = "聯盟 (東)";
 			Location = "東部王國";
 			GREY.."1) 聖光之願禮拜堂, ".._RED.."東瘟疫之地";
-			GREY.."2) 寒風營地, ".._RED.."西瘟疫之地";
+			GREY.."2) 冰風崗, ".._RED.."西瘟疫之地";
 			GREY.."3) 鷹巢山, ".._RED.."辛特蘭";
 			GREY.."4) 南海鎮, ".._RED.."希爾斯布萊德丘陵";
 			GREY.."5) 避難谷地, ".._RED.."阿拉希高地";
@@ -108,7 +108,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			ZoneName = "部落 (西)";
 			Location = "卡林多";
 			GREY.."1) "..GREN.."永夜港"..GREY..", ".._RED.."月光林地";
-			GREY..INDENT.."木喉要塞西方小徑";
+			GREY..INDENT.."往木喉要塞小徑西方";
 			GREY.."2) 永望鎮, ".._RED.."冬泉谷";
 			GREY.."3) 血毒崗哨, ".._RED.."費伍德森林";
 			GREY.."4) 翡翠聖地, ".._RED.."費伍德森林";

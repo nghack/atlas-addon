@@ -1,0 +1,18 @@
+#About Atlas
+
+= About Atlas =
+
+For some reason, Blizzard decided to include beautiful maps for every area of Azeroth except instances. You can still see the area surrounding you in the minimap when you're in an instance, but never the overall layout of the entire dungeon. This is where Atlas comes in. The core of Atlas is basically an image viewer. However, it's the images that come with Atlas that make it worthwhile: a map for every instance in the game. Furthermore, the maps are marked with the locations of bosses and other points of interest. Atlas also includes maps of battlegrounds, dungeon locations, flight points, and outdoor raid bosses.
+
+
+= Atlas Forum =
+
+Need help? Try the [http://www.atlasmod.com/phpBB3 Atlas Forum]
+
+
+= Download =
+*[http://wowui.incgamers.com/ui.php?id=400 Incgamers]
+
+*[http://wow.curse.com/downloads/details/354/ Curse]
+
+*[http://www.wowinterface.com/downloads/fileinfo.php?id=3896 WoW Interface]

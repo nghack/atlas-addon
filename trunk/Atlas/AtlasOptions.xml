@@ -26,7 +26,7 @@
 ..\FrameXML\UI.xsd">
 	<Frame name="AtlasOptionsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" clampedToScreen="true">
 		<Size>
-			<AbsDimension x="300" y="455"/>
+			<AbsDimension x="300" y="510"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -239,6 +239,33 @@
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
+			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_OPTIONS_CATDD">
+							<Anchors>
+								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+									<Offset>
+										<AbsDimension x="21" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-415"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						AtlasOptionsFrameDropDownCats_OnShow();
+					</OnShow>
+				</Scripts>
+			</Button>
 			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_RESETPOS">
 				<Size>
 					<AbsDimension x="160" y="32"/>

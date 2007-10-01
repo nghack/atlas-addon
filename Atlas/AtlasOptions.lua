@@ -118,3 +118,39 @@ end
 function AtlasOptions_UpdateSlider(text)
 	getglobal(this:GetName().."Text"):SetText(text.." ("..round(this:GetValue(),2)..")");
 end
+
+
+function AtlasOptionsFrameDropDownCats_Initialize()
+
+	local i;
+	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
+		info = {
+			text = Atlas_DropDownLayouts_Order[i];
+			func = AtlasOptionsFrameDropDownCats_OnClick;
+		};
+		UIDropDownMenu_AddButton(info);
+		i = i + 1;
+	end
+	
+end
+
+
+function AtlasOptionsFrameDropDownCats_OnShow()
+	UIDropDownMenu_Initialize(AtlasOptionsFrameDropDownCats, AtlasOptionsFrameDropDownCats_Initialize);
+	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, AtlasOptions.AtlasSortBy);
+	UIDropDownMenu_SetWidth(100, AtlasOptionsFrameDropDownCats);
+end
+
+
+function AtlasOptionsFrameDropDownCats_OnClick()
+	local thisID = this:GetID();
+	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, thisID);
+	AtlasOptions.AtlasSortBy = thisID;
+	AtlasOptions.AtlasZone = 1;
+	AtlasOptions.AtlasType = 1;
+	Atlas_PopulateDropdowns();
+	Atlas_Refresh();
+	AtlasFrameDropDownType_OnShow();
+	AtlasFrameDropDown_OnShow();
+end
+

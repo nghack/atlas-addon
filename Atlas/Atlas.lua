@@ -54,6 +54,7 @@ local DefaultAtlasOptions = {
 	["AtlasAcronyms"] = true;
 	["AtlasScale"] = 1.0;
 	["AtlasClamped"] = true;
+	["AtlasSortBy"] = 1;
 };
 
 function Atlas_FreshOptions()
@@ -78,13 +79,20 @@ end
 
 
 ATLAS_PLUGINS = {};
+ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
 
+Atlas_MapTypes = {};
 function Atlas_RegisterPlugin(name, myCategory, myData)
 	table.insert(ATLAS_PLUGINS, name);
-	local i = getn(AtlasMaps) + 1;
+	local i = getn(Atlas_MapTypes) + 1;
 	Atlas_MapTypes[i] = GREN..myCategory;
-	AtlasMaps[i] = myData;
+	
+	for k,v in pairs(myData) do
+		AtlasMaps[k] = v;
+	end
+	
+	table.insert(ATLAS_PLUGIN_DATA, myData);
 	
 	if ( ATLAS_OLD_TYPE and ATLAS_OLD_TYPE <= getn(AtlasMaps) ) then
 		AtlasOptions.AtlasType = ATLAS_OLD_TYPE;
@@ -168,8 +176,8 @@ end
 --Comparator function for alphabetic sorting of maps
 --yey, one function for everything
 local function Atlas_SortZonesAlpha(a, b)
-	local aa = Atlas_SanitizeName(AtlasMaps[ATLAS_NOW_SORTING][a].ZoneName);
-	local bb = Atlas_SanitizeName(AtlasMaps[ATLAS_NOW_SORTING][b].ZoneName);
+	local aa = Atlas_SanitizeName(AtlasMaps[a].ZoneName);
+	local bb = Atlas_SanitizeName(AtlasMaps[b].ZoneName);
 	return aa < bb;
 end
 
@@ -185,20 +193,37 @@ function Atlas_OnEvent()
 end
 
 function Atlas_PopulateDropdowns()
-	local i;
-	for i = 1, getn(AtlasMaps), 1 do
-				
-		ATLAS_DROPDOWNS[i] = {};
+	local i = 1;
+	local catName = Atlas_DropDownLayouts_Order[AtlasOptions.AtlasSortBy];
+	local subcatOrder = Atlas_DropDownLayouts_Order[catName];
+	for n = 1, getn(subcatOrder), 1 do
+		local subcatItems = Atlas_DropDownLayouts[catName][subcatOrder[n]];
 		
-		for kb,vb in pairs(AtlasMaps[i]) do
-			if ( type(vb) == "table" ) then
-				table.insert(ATLAS_DROPDOWNS[i], kb);
-			end
+		ATLAS_DROPDOWNS[n] = {};
+		
+		for k,v in pairs(subcatItems) do
+			table.insert(ATLAS_DROPDOWNS[n], v);
 		end
 		
-		ATLAS_NOW_SORTING = i;
-		table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);
+		table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
 		
+		i = n + 1;
+	end
+	
+	if ( ATLAS_PLUGIN_DATA ) then
+		for ka,va in pairs(ATLAS_PLUGIN_DATA) do
+		
+			ATLAS_DROPDOWNS[i] = {};
+			
+			for kb,vb in pairs(va) do
+				table.insert(ATLAS_DROPDOWNS[i], kb);
+			end
+			
+			table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);
+			
+			i = i + 1;
+			
+		end	
 	end
 end
 
@@ -338,7 +363,7 @@ function Atlas_Refresh()
 	
 	
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
-	local data = AtlasMaps[AtlasOptions.AtlasType];
+	local data = AtlasMaps;
 	local base = data[zoneID];
 
 	AtlasMap:ClearAllPoints();
@@ -420,7 +445,16 @@ end
 function AtlasFrameDropDownType_Initialize()
 
 	local info, i;
-	for i = 1, getn(AtlasMaps), 1 do
+	local catName = Atlas_DropDownLayouts_Order[AtlasOptions.AtlasSortBy];
+	local subcatOrder = Atlas_DropDownLayouts_Order[catName];
+	for i = 1, getn(subcatOrder), 1 do
+		info = {
+			text = subcatOrder[i];
+			func = AtlasFrameDropDownType_OnClick;
+		};
+		UIDropDownMenu_AddButton(info);
+	end
+	for i = 1, getn(Atlas_MapTypes), 1 do
 		info = {
 			text = Atlas_MapTypes[i];
 			func = AtlasFrameDropDownType_OnClick;
@@ -455,7 +489,7 @@ function AtlasFrameDropDown_Initialize()
 	local info;
 	for k,v in pairs(ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) do
 		info = {
-			text = AtlasMaps[AtlasOptions.AtlasType][v].ZoneName;
+			text = AtlasMaps[v].ZoneName;
 			func = AtlasFrameDropDown_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);

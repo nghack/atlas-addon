@@ -3,6 +3,7 @@
 ==============
 
 v1.10.3
+- added an option for the grouping of instance maps
 - added Sah'rhee to RFD (Celellach)
 - the Atlas source is now hosted at Google Code
 - changed the organization of DM arena mobs (Kiria)

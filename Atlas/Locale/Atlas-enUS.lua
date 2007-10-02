@@ -1210,10 +1210,10 @@ AtlasMaps = {
 		GREY.."2) Void Reaver";
 		GREY.."3) High Astromancer Solarian";
 		GREY.."4) Prince Kael'Thas Sunstrider";
-		GREY..INDENT.."Thaladred the Darkener";
-		GREY..INDENT.."Master Engineer Telonicus";
-		GREY..INDENT.."Grand Astromancer Capernian";
-		GREY..INDENT.."Lord Sanguinar";
+		GREY..INDENT.."Thaladred the Darkener (Warrior)";
+		GREY..INDENT.."Master Engineer Telonicus (Hunter)";
+		GREY..INDENT.."Grand Astromancer Capernian (Mage)";
+		GREY..INDENT.."Lord Sanguinar (Paladin)";
 	};
 	GruulsLair = {
 		ZoneName = "Gruul's Lair";

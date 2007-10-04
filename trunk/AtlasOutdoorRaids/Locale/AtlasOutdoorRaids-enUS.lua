@@ -43,10 +43,16 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		FourDragons = {
 			ZoneName = "Dragons of Nightmare";
 			Location = "Various";
-			GREY.."1) Duskwood";
-			GREY.."2) The Hinterlands";
-			GREY.."3) Feralas";
-			GREY.."4) Ashenvale";
+			GREY.."1) Twilight Grove - Duskwood";
+			GREY.."2) Seradane - The Hinterlands";
+			GREY..INDENT.."Rothos";
+			GREY..INDENT.."Dreamtracker";
+			GREY.."3) Dream Bough - Feralas";
+			GREY..INDENT.."Lethlas";
+			GREY..INDENT.."Dreamroarer";
+			GREY.."4) Bough Shadow - Ashenvale";
+			GREY..INDENT.."Phantim";
+			GREY..INDENT.."Dreamstalker";
 			"";
 			GREN.."The Dragons";
 			GREY..INDENT.."Lethon";

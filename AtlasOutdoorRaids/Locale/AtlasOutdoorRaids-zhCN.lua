@@ -42,11 +42,17 @@ if ( GetLocale() == "zhCN" ) then
 		};
 		FourDragons = {
 			ZoneName = "梦魇巨龙";
-			Location = "不定";
-			GREY.."1) 暮色森林";
-			GREY.."2) 辛特兰";
-			GREY.."3) 菲拉斯";
-			GREY.."4) 灰谷";
+			Location = "多个位置";
+			GREY.."1) 黎明森林 - 暮色森林";
+			GREY.."2) 瑟拉丹 - 辛特兰";
+			GREY..INDENT.."洛索斯";
+			GREY..INDENT.."寻梦者";
+			GREY.."3) 梦境之树 - 菲拉斯";
+			GREY..INDENT.."莱萨拉斯";
+			GREY..INDENT.."睡梦咆哮者";
+			GREY.."4) 大树荫 - 灰谷";
+			GREY..INDENT.."范迪姆";
+			GREY..INDENT.."巡梦者";
 			"";
 			GREN.."梦魇巨龙";
 			GREY..INDENT.."莱索恩";

@@ -27,7 +27,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/2/2007
+-- Last Update : 10/5/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -532,6 +532,7 @@ AtlasMaps = {
 		GREY..INDENT.." 普拉格";
 		GREY..INDENT.." 罗克诺特下士";
 		GREY..INDENT.." 雷布里·斯库比格特";
+		GREY..INDENT.." 科林·烈酒 (酿酒节)";
 		GREY.."16) 弗莱拉斯大使";
 		GREY.."17) 无敌的潘佐尔 (稀有)";
 		GREY..INDENT.." 锻造设计图";

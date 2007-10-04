@@ -3,6 +3,7 @@
 ==============
 
 v1.10.3
+- added Coren Direbrew (Brewfest) to BRD (Celellach)
 - added class-info to the mobs of the Kael'thas Sunstrider encounter (Telchar)
 - added an option for the grouping of instance maps
 - added Sah'rhee to RFD (Celellach)

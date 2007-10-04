@@ -530,6 +530,7 @@ AtlasMaps = {
 		GREY..INDENT.."Plugger Spazzring";
 		GREY..INDENT.."Private Rocknot";
 		GREY..INDENT.."Ribbly Screwspigot";
+		GREY..INDENT.."Coren Direbrew (Brewfest)";
 		GREY.."16) Ambassador Flamelash";
 		GREY.."17) Panzor the Invincible (Rare)";
 		GREY..INDENT.."Blacksmith Plans";

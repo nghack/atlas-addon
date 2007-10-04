@@ -43,10 +43,16 @@ if ( GetLocale() == "frFR" ) then
 		FourDragons = {
 			ZoneName = "Les Dragons du Cauchemard";
 			Location = "Divers";
-			GREY.."1) Bois de la P\195\169nombre";
-			GREY.."2) Les Hinterlands";
-			GREY.."3) F\195\169ralas";
-			GREY.."4) Orneval";
+			GREY.."1) Le bosquet du cr\195\169puscule - Bois de la P\195\169nombre";
+			GREY.."2) Seradane - Les Hinterlands";
+			GREY..INDENT.."Rothos";
+			GREY..INDENT.."Cherche-r\195\170ve";
+			GREY.."3) Bosquet du r\195\170ve - F\195\169ralas";
+			GREY..INDENT.."Lethlas";
+			GREY..INDENT.."Hurle-r\195\170ve";
+			GREY.."4) L'ombrage - Orneval";
+			GREY..INDENT.."Phantim";
+			GREY..INDENT.."Traque-r\195\170ve";
 			"";
 			GREN.."Les Dragons";
 			GREY..INDENT.."L\195\169thon";

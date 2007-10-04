@@ -126,7 +126,6 @@ local PURP = "|cff9900ff";
 local INDENT = "    ";
 
 AtlasMaps = {
-
 	RagefireChasm = {
 		ZoneName = "Gouffre de Ragefeu";
 		Acronym = "RFC";
@@ -531,6 +530,7 @@ AtlasMaps = {
 		GREY..INDENT.."Lanfiche Brouillecircuit";
 		GREY..INDENT.."Soldat Rochenoeud";
 		GREY..INDENT.."Ribbly Fermevanne";
+		GREY..INDENT.."Coren Direbrew (F\195\170te des Brasseurs)";
 		GREY.."16) Ambassadeur Cinglefouet";
 		GREY.."17) Panzor l'Invincible (Rare)";
 		GREY..INDENT.."Plans de forge";
@@ -1211,10 +1211,10 @@ AtlasMaps = {
 		GREY.."2) Saccageur du Vide";
 		GREY.."3) Grande Astromancienne Solarian";
 		GREY.."4) Kael'thas Haut-soleil";
-		GREY..INDENT.."Thaladred l'Assombrisseur";
-		GREY..INDENT.."Ma\195\174tre ing\195\169nieur Telonicus";
-		GREY..INDENT.."Grand astromancien Capernian";
-		GREY..INDENT.."Seigneur Sanguinar";
+		GREY..INDENT.."Thaladred l'Assombrisseur (Guerrier)";
+		GREY..INDENT.."Ma\195\174tre ing\195\169nieur Telonicus (Chasseur)";
+		GREY..INDENT.."Grand astromancien Capernian (Mage)";
+		GREY..INDENT.."Seigneur Sanguinar (Paladin)";
 	};
 	GruulsLair = {
 		ZoneName = "Repaire de Gruul";

@@ -190,10 +190,11 @@ if ( GetLocale() == "deDE" ) then
 			BLUE.."C) Nordfl\195\188gel";
 			BLUE.."D) Westfl\195\188gel";
 			GREY.."1) D\195\188sterteich";
-			GREY.."2) Mushgog";
-			GREY..INDENT.."Skarr der Unbezwingbare";
-			GREY..INDENT.."Der Razza";        
-                      
+			GREY.."2) D\195\188sterbruch Arena";
+			GREY..INDENT.."Mushgog (Zuf\195\164llig)";
+			GREY..INDENT.."Skarr der Unbezwingbare (Zuf\195\164llig)";
+			GREY..INDENT.."Der Razza (Zuf\195\164llig)";
+			GREY..INDENT.."Urahnin Nebelg\195\164nger (Mondfest)";
 		};
 	};
 

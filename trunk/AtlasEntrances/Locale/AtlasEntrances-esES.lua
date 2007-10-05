@@ -200,10 +200,12 @@ if ( GetLocale() == "esES" ) then
 			BLUE.."B) Ala Este"; --Bien
 			BLUE.."C) Ala Norte"; --Bien
 			BLUE.."D) Ala Oeste"; --Bien
-			GREY.."1) Estanque Funesto";
-			GREY.."2) Mushgog"; --Bien
-			GREY..INDENT.."Skarr el Inquebrantable"; --Bien
-			GREY..INDENT.."El Razza"; --Bien
+			GREY.."1) Estanque Funesto"; --Bien
+			GREY.."2) Arena de La Masacre"; --Bien
+			GREY..INDENT.."Mushgog (Aleatorio)"; --Bien
+			GREY..INDENT.."Skarr el Inquebrantable (Aleatorio)"; --Bien
+			GREY..INDENT.."El Razza (Aleatorio)"; --Bien
+			GREY..INDENT.."Ancestro Caminalba (Festival Lunar)"; --Bien
 		};
 	};
 

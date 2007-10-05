@@ -528,6 +528,7 @@ AtlasMaps = {
 		GREY..INDENT.."Plugger Aropatoso"; --Bien
 		GREY..INDENT.."Soldado Sinrroca"; --Bien
 		GREY..INDENT.."Ribbly Llavenrosca"; --Bien
+		GREY..INDENT.."Coren Brebaje Temible (Feria cerveza)"; --Bien
 		GREY.."16) Embajador Latifuego"; --Bien
 		GREY.."17) Panzor el Invencible (Raro)"; --Bien
 		GREY..INDENT.."Dise\195\177o de herrer\195\173a"; --Bien

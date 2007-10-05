@@ -57,10 +57,16 @@ if ( GetLocale() == "esES" ) then
 		FourDragons = {
 			ZoneName = "Dragones de la Pesadilla"; --Bien
 			Location = "Varios"; --Bien 
-			GREY.."1) Bosque del Ocaso"; --Bien
-			GREY.."2) Tierras del Interior"; --Bien
-			GREY.."3) Feralas"; --Bien
-			GREY.."4) Vallefresno"; --Bien
+			GREY.."1) Arboleda del Crep\195\186sculo - Bosque del Ocaso"; --Bien
+			GREY.."2) Seradane - Tierras del Interior"; --Bien
+			GREY..INDENT.."Rothos"; --Bien
+			GREY..INDENT.."Rastreasue\195\177os"; --Bien
+			GREY.."3) Rama Oniria - Feralas"; --Bien
+			GREY..INDENT.."Lethlas"; --Bien
+			GREY..INDENT.."Bramasue\195\177os"; --Bien
+			GREY.."4) Talloumbr\195\173o - Vallefresno"; --Bien
+			GREY..INDENT.."Fant\195\173m"; --Bien
+			GREY..INDENT.."Acechasue\195\177os"; --Bien
 			"";
 			GREN.."Los Dragones"; --Bien
 			GREY..INDENT.."Lethon"; --Bien

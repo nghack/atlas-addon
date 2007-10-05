@@ -42,11 +42,17 @@ if ( GetLocale() == "deDE" ) then
 		};
 		FourDragons = {
 			ZoneName = "Alptraumdrachen";
-			Location = "Zuf\195\164llig, siehe unten";
-			GREY.."1) D\195\164mmerwald, Der Zwielichtshain";
-			GREY.."2) Hinterland, Seradane";
-			GREY.."3) Feralas, Traumge\195\164st";
-			GREY.."4) Eschental, Schattengr\195\188n";
+			Location = "Zuf\195\164llig";
+			GREY.."1) Der Zwielichtshain - D\195\164mmerwald";
+			GREY.."2) Seradane - Hinterland";
+			GREY..INDENT.."Rothos";
+			GREY..INDENT.."Traumsucher";
+			GREY.."3) Traumge\195\164st - Feralas";
+			GREY..INDENT.."Lethlas";
+			GREY..INDENT.."Traumbrüller";
+			GREY.."4) Schattengr\195\188n - Eschental";
+			GREY..INDENT.."Phantim";
+			GREY..INDENT.."Traumpirscher";
 			"";
 			GREN.."Die Drachen";
 			GREY..INDENT.."Lethon";

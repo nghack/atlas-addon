@@ -530,7 +530,7 @@ AtlasMaps = {
 		GREY..INDENT.."Lanfiche Brouillecircuit";
 		GREY..INDENT.."Soldat Rochenoeud";
 		GREY..INDENT.."Ribbly Fermevanne";
-		GREY..INDENT.."Coren Direbrew (F\195\170te des Brasseurs)";
+		GREY..INDENT.."Coren Navrebi\195\168re (F\195\170te des Brasseurs)";
 		GREY.."16) Ambassadeur Cinglefouet";
 		GREY.."17) Panzor l'Invincible (Rare)";
 		GREY..INDENT.."Plans de forge";

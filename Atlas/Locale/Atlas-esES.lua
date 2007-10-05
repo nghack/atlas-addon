@@ -396,7 +396,7 @@ AtlasMaps = {
 		ORNG.."Armonizaci\195\179 Requerida"; --Bien
 		ORNG.."Reputaci\195\179n: La Escama de las Arenas";
 		BLUE.."A) Base de la Alianza"; --Bien
-		BLUE..INDENT.."Lady Jaina Valiente";
+		BLUE..INDENT.."Lady Jaina Valiente"; --Bien
 		BLUE.."B) Base de la Horda"; --Bien
 		BLUE..INDENT.."Thrall"; --Bien
 		BLUE.."C) Base de los Elfos de la Noche"; --Bien
@@ -1116,7 +1116,7 @@ AtlasMaps = {
 		Location = "Auchindoun, El vert. de huesos";
 		ORNG.."Reputaci\195\179n: Bajo Arrabal";
 		ORNG.."Llave: Llave Auchenai (Her\195\179ico)";
-		ORNG.."Llave: Essence-Infused Moonstone (Anzu)"; --FALTA
+		ORNG.."Llave: Piedra lunar imbuida de esencia (Anzu)"; --Bien
 		BLUE.."A) Entrada";
 		GREY.."1) Tejeoscuro Syth"; --Bien
 		GREY.."2) Esbirro de Terokk"; --Bien
@@ -1168,7 +1168,7 @@ AtlasMaps = {
 		GREY.."5) El profeta Udalo"; --Bien
 		GREY.."6) Presagista Cieloriss"; --Bien
 		GREY..INDENT.."Celador Mellichar"; --Bien
-		GREY..INDENT.."Millhouse Manastorm"; --No visto PREGUNTAR
+		GREY..INDENT.."Molino Tormenta de maná"; --Bien
 	};
 	TempestKeepMechanar = {
 		ZoneName = "CT: El  Mechanar";

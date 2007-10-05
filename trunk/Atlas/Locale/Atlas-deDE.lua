@@ -547,6 +547,7 @@ AtlasMaps = {
 		GREY..INDENT.."St\195\182psel Zapfring";
 		GREY..INDENT.."Gefreiter Rocknot";
 		GREY..INDENT.."Ribbly Schraubstutz";
+		GREY..INDENT.."Coren Düsterbräu (Braufest)";
 		GREY.."16) Botschafter Flammenschlag";
 		GREY.."17) Panzor der Unbesiegbare (Rar)";
 		GREY..INDENT.."Schmiedepl\195\164ne";

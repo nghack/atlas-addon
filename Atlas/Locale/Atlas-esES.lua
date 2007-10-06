@@ -1169,7 +1169,7 @@ AtlasMaps = {
 		GREY.."5) El profeta Udalo"; --Bien
 		GREY.."6) Presagista Cieloriss"; --Bien
 		GREY..INDENT.."Celador Mellichar"; --Bien
-		GREY..INDENT.."Molino Tormenta de maná"; --Bien
+		GREY..INDENT.."Molino Tormenta de man\195\161"; --Bien
 	};
 	TempestKeepMechanar = {
 		ZoneName = "CT: El  Mechanar";

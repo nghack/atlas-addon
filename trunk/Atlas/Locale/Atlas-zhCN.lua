@@ -27,7 +27,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/5/2007
+-- Last Update : 10/8/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -110,6 +110,7 @@ AtlasZoneSubstitutions = {
 	["阿塔哈卡神庙"] = "沉默的神庙";
 	["黑色沼泽"] = "时光之穴 - 黑暗之门";
 	["旧希尔斯布莱德丘陵"] = "时光之穴 - 敦霍尔德";
+	["风暴要塞"] = "风暴要塞 - 风暴之眼";
 }; 
 
 local BLUE = "|cff6666ff";

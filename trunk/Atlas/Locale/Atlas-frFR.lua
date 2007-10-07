@@ -875,7 +875,7 @@ AtlasMaps = {
 		GREY..INDENT.."Eric \"l'Agile\"";
 		GREY..INDENT.."Olaf";
 		GREY..INDENT.."Coffre de Baelog";
-		GREY..INDENT.."Urne remarquable";
+		GREY..INDENT.."Urne ostentatoire";
 		GREY.."2) Restes d'un paladin";
 		GREY.."3) Revelosh";
 		GREY.."4) Ironaya";

@@ -45,10 +45,16 @@ if ( GetLocale() ==	"zhTW" ) then
 		FourDragons = {
 			ZoneName = "翡翠四巨龍";
 			Location = "多處";
-			GREY.."1) 暮色森林";
-			GREY.."2) 辛特蘭";
-			GREY.."3) 菲拉斯";
-			GREY.."4) 梣谷";
+			GREY.."1) 暮色森林 - 黎明森林";
+			GREY.."2) 辛特蘭 - 瑟拉丹";
+			GREY..INDENT.."洛索斯";
+			GREY..INDENT.."尋夢者";
+			GREY.."3) 菲拉斯 - 夢境之樹";
+			GREY..INDENT.."萊薩拉斯";
+			GREY..INDENT.."睡夢咆哮者";
+			GREY.."4) 梣谷 - 大樹蔭";
+			GREY..INDENT.."范迪姆";
+			GREY..INDENT.."巡夢者";
 			"";
 			GREN.."四巨龍";
 			GREY..INDENT.."雷索";

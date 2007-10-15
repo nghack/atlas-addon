@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 29, 2007
+-- Last Update: Oct. 15, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -89,6 +89,23 @@ ATLAS_TITAN_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打�
 ATLAS_HELP = {"關於 Atlas\n===========\n\nAtlas 是支援魔獸世界的一個使用者界面插件，其提供了相當數量的額外地圖，如同一個遊戲內的地圖瀏覽器。輸入 '/atlas' 指令或是按下小地圖旁的圖示按鈕將可以打開 Atlas 視窗。選項面板允許你可以關閉圖示按鈕、調整自動地圖選擇、調整取代世界地圖、調整右鍵功能、改變圖示按鈕位置、或是調整視窗的透明度等。如果自動選擇地圖的功能被開啟， Atlas 將會自動的打開目前你所在的副本地圖。如果取代世界地圖的功能被打開，則當你在副本時，原本遊戲預設會打開世界地圖的途徑（例如按下 M 鍵）將會由 Atlas 取代。如果右鍵功能被打開，則當你右鍵點擊 Atlas 的圖示按鈕時將會開啟世界地圖。你可以藉由右鍵並拖曳來移動 Atlas 的圖示按鈕位置，以及左鍵拖曳來移動 Atlas 的主視窗。從 Atlas 主視窗右上角的上鎖功能可以鎖定 Atlas 的主視窗位置。"};
 
 
+ATLAS_OPTIONS_CATDD = "副本地圖排序方式:";
+ATLAS_DDL_CONTINENT = "大陸";
+ATLAS_DDL_CONTINENT_EASTERN = "東部王國副本";
+ATLAS_DDL_CONTINENT_KALIMDOR = "卡林多副本";
+ATLAS_DDL_CONTINENT_OUTLAND = "外域副本";
+ATLAS_DDL_LEVEL = "等級";
+ATLAS_DDL_LEVEL_UNDER45 = "副本等級低於 45";
+ATLAS_DDL_LEVEL_45TO60 = "副本等級介於 45-60";
+ATLAS_DDL_LEVEL_60TO70 = "副本等級介於 60-70";
+ATLAS_DDL_LEVEL_70PLUS = "副本等級介於 70+";
+ATLAS_DDL_PARTYSIZE = "隊伍人數";
+ATLAS_DDL_PARTYSIZE_5 = "5 人副本";
+ATLAS_DDL_PARTYSIZE_10 = "10 人副本";
+ATLAS_DDL_PARTYSIZE_20TO40 = "20-40 人副本";
+ATLAS_DDL_EXPANSION = "資料片";
+ATLAS_DDL_EXPANSION_OLD = "原魔獸世界副本";
+ATLAS_DDL_EXPANSION_BC = "燃燒的遠征副本";
 
 
 ATLAS_LOCALE = {
@@ -111,15 +128,7 @@ local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
 local INDENT = "   ";
 
---Keeps track of the different categories of maps
-Atlas_MapTypes = {
-	[1] = "卡林多副本";
-	[2] = "東部王國副本";
-	[3] = "外域副本";
-};
-
 AtlasMaps = {
-	[1] = {
 		RagefireChasm = {
 			ZoneName = "怒焰裂谷";
 			Acronym = "RFC";
@@ -472,8 +481,6 @@ AtlasMaps = {
 			GREY..INDENT.."杰·黎米厄斯";
 			GREY..INDENT.."小馬布蘭契";
 		};
-	};
-	[2] = {
 		BlackrockDepths = {
 			ZoneName = "黑石深淵";
 			Acronym = "BRD";
@@ -526,6 +533,7 @@ AtlasMaps = {
 			GREY..INDENT.."普拉格";
 			GREY..INDENT.."羅克諾特下士";
 			GREY..INDENT.."雷布里·斯庫比格特";
+			GREY..INDENT.."寇仁·恐酒 (啤酒節)";
 			GREY.."16) 弗萊拉斯大使";
 			GREY.."17) 無敵的潘佐爾 (稀有)";
 			GREY..INDENT.."鍛造圖樣";
@@ -988,8 +996,6 @@ AtlasMaps = {
 			GREY..INDENT.."劫掠者·拉卡 (隨機)";
 			GREY..INDENT.."滑翔者·薛迪依斯 (隨機)";
 		};
-	};
-	[3] = {
 		HCBloodFurnace = {
 			ZoneName = "地獄火堡壘: 血熔爐";
 			Location = "地獄火堡壘, 地獄火半島";
@@ -1208,10 +1214,10 @@ AtlasMaps = {
 			GREY.."2) 虛空劫掠者";
 			GREY.."3) 大星術師索拉瑞恩";
 			GREY.."4) 凱爾薩斯·日行者";
-			GREY..INDENT.."扭曲預言家薩拉瑞德";
-			GREY..INDENT.."首席技師泰隆尼卡斯";
-			GREY..INDENT.."大星術師卡普尼恩";
-			GREY..INDENT.."桑古納爾";
+			GREY..INDENT.."扭曲預言家薩拉瑞德 (戰士)";
+			GREY..INDENT.."首席技師泰隆尼卡斯 (獵人)";
+			GREY..INDENT.."大星術師卡普尼恩 (法師)";
+			GREY..INDENT.."桑古納爾 (聖騎士)";
 		};
 		GruulsLair = {
 			ZoneName = "戈魯爾之巢";
@@ -1283,5 +1289,4 @@ AtlasMaps = {
 			GREY.."2) 瑟普莫斯";
 		};
 	};
-};
 end

@@ -532,7 +532,7 @@ function Atlas_AutoSelect()
    for ka,va in pairs(ATLAS_DROPDOWNS) do
       for kb,vb in pairs(va) do         
          -- Compare the currentZone to the new substr of ZoneName
-         if ( currentZone == strsub(AtlasMaps[ka][vb].ZoneName, strlen(AtlasMaps[ka][vb].ZoneName) - strlen(currentZone) + 1) ) then
+         if ( currentZone == strsub(AtlasMaps[vb].ZoneName, strlen(AtlasMaps[vb].ZoneName) - strlen(currentZone) + 1) ) then
             AtlasOptions.AtlasType = ka;
             AtlasOptions.AtlasZone = kb;
             

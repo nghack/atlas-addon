@@ -17,6 +17,8 @@ v1.10.3
 - added Lord Kri and Princess Yauj to Vem encounter in AQ40 (Celellach)
 - added Vek'lor and Vek'nilash to Twin Emperors in AQ40 (Celellach)
 - added specific mobs and their classes to Illidari Council in BT (Telchar)
+- updated TOC number to 20300 for the 2.3 patch
+- fixed an auto-select issue with the new grouping code
 
 v1.10.2
 - updated TOC number to 20200 for the 2.2 patch

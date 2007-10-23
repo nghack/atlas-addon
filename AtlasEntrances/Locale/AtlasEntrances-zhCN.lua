@@ -1,33 +1,9 @@
 ﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
-
---[[
-
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 9/26/2007
+-- Last Update : 10/24/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -206,6 +182,28 @@ if ( GetLocale() == "zhCN" ) then
 			GREY..INDENT.."拉扎尔 (随机)";
 			GREY..INDENT.."迷雾长者 (春节)";
 		};
+		CoTEnt = {
+			ZoneName = "时光之穴";
+			Acronym = "CoT";
+			Location = "塔纳利斯";
+			BLUE.."A) 入口";
+			BLUE.."B) 海加尔峰";
+			BLUE.."C) 旧希尔斯布莱德";
+			BLUE.."D) 黑色沼泽";
+			GREY.."1) 时间管理者";
+			GREY.."2) 阿历克斯顿·克罗姆";
+			GREY.."3) 墓地";
+			GREY.."4) 亚尔雷";
+			GREY.."5) 波特加";
+			GREY..INDENT.."加尔戈罗姆";
+			GREY..INDENT.."艾鲁尔米";
+			GREY.."6) 扎拉多姆";
+			GREY..INDENT.."索莉多米 (巡逻)";
+			GREY..INDENT.."阿拉兹姆多 (巡逻)";
+			GREY.."7) 月亮井";
+			GREY.."8) 安多姆、诺萨莉 (幼年)";
+			GREY.."9) 安多姆、诺萨莉 (成年)";
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -230,6 +228,8 @@ if ( GetLocale() == "zhCN" ) then
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
 	myData.DireMaulEnt.LevelRange =				"54-61";
 	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

@@ -202,7 +202,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			BLUE.."A) Entrance";
 			BLUE.."B) Mount Hyjal";
 			BLUE.."C) Old Hillsbrad Foothills";
-			BLUE.."D) Black Morass";
+			BLUE.."D) The Black Morass";
 			GREY.."1) Steward of Time";
 			GREY.."2) Alexston Chrome";
 			GREY.."3) Graveyard";

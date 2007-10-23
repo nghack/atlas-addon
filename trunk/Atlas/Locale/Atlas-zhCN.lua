@@ -1,33 +1,9 @@
 ﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
-
---[[
-
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/8/2007
+-- Last Update : 10/24/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -108,8 +84,7 @@ ATLAS_LOCALE = {
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
 	["阿塔哈卡神庙"] = "沉默的神庙";
-	["黑色沼泽"] = "时光之穴 - 黑暗之门";
-	["旧希尔斯布莱德丘陵"] = "时光之穴 - 敦霍尔德";
+	["旧希尔斯布莱德丘陵"] = "时光之穴 - 旧希尔斯布莱德";
 	["风暴要塞"] = "风暴要塞 - 风暴之眼";
 }; 
 
@@ -377,9 +352,10 @@ AtlasMaps = {
 		GREN.."1') 安全房间";
 	};
 	CoTBlackMorass = {
-		ZoneName = "时光之穴 - 黑暗之门";
+		ZoneName = "时光之穴 - 黑色沼泽";
 		Location = "塔纳利斯";
 		Acronym = "BM, cot2";
+		PURP.."事件：开启黑暗之门";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：时光守护者";
 		ORNG.."钥匙：时光之匙 (英雄模式)";
@@ -396,6 +372,7 @@ AtlasMaps = {
 		ZoneName = "时光之穴 - 海加尔峰";
 		Location = "塔纳利斯";
 		Acronym = "MH, cot3";
+		PURP.."事件：海加尔之战";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：流沙之鳞";
 		BLUE.."A) 联盟基地";
@@ -411,9 +388,10 @@ AtlasMaps = {
 		GREY.."5) 阿克蒙德";
 	};
 	CoTOldHillsbrad = {
-		ZoneName = "时光之穴 - 敦霍尔德";
+		ZoneName = "时光之穴 - 旧希尔希布莱德";
 		Location = "塔纳利斯";
 		Acronym = "Durn, cot1";
+		PURP.."事件：逃离敦霍尔德堡";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：时光守护者";
 		ORNG.."钥匙：时光之匙 (英雄模式)";
@@ -1287,6 +1265,18 @@ AtlasMaps = {
 		BLUE.."B) 深入黑暗神殿";
 		GREY.."1) 高阶督军纳因图斯";
 		GREY.."2) 苏普雷姆斯";
+	};
+	ZulAman = {
+		ZoneName = "祖尔阿曼";
+		Location = "幽魂之地";
+		Acronym = "ZA";
+		BLUE.."A) 入口";
+		GREY.."1) Nalorakk (巨熊)";
+		GREY.."2) Akil'zon (雄鹰)";
+		GREY.."3) Jan'alai (凤鹰)";
+		GREY.."4) Halazzi (山猫)";
+		GREY.."5) Hexxlord Malacrass";
+		GREY.."6) 祖金";
 	};
 };
 end

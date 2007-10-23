@@ -19,6 +19,9 @@ v1.10.3
 - added specific mobs and their classes to Illidari Council in BT (Telchar)
 - updated TOC number to 20300 for the 2.3 patch
 - fixed an auto-select issue with the new grouping code
+- added Zul'Aman map and data (Nifl, Celellach)
+- added event names to CoT maps (Celellach)
+- added CoT entrance map (Nifl, Celellach)
 
 v1.10.2
 - updated TOC number to 20200 for the 2.2 patch

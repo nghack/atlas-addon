@@ -377,6 +377,7 @@ AtlasMaps = {
 		ZoneName = "CdT: La Ci\195\169naga Negra"; --Bien
 		Location = "Cavernas del Tiempo, Tanaris";
 		Acronym = "CdT2";
+		PURP.."Evento: Apertura del Portal Oscuro";
 		ORNG.."Armonizaci\195\179 Requerida"; --Bien
 		ORNG.."Reputaci\195\179n: Vigilantes del tiempo"; --Bien
 		ORNG.."Llave: Llave del tiempo (Her\195\179ico)";
@@ -393,6 +394,7 @@ AtlasMaps = {
 		ZoneName = "CdT: El Monte Hyjal"; --Bien
 		Location = "Cavernas del Tiempo, Tanaris"; --Bien
 		Acronym = "MH, CdT3";
+		PURP.."Evento: La batalla por el Monte Hyjal";
 		ORNG.."Armonizaci\195\179 Requerida"; --Bien
 		ORNG.."Reputaci\195\179n: La Escama de las Arenas";
 		BLUE.."A) Base de la Alianza"; --Bien
@@ -410,6 +412,7 @@ AtlasMaps = {
 	CoTOldHillsbrad = {
 		ZoneName = "CdT: Laderas de Trabalomas"; --Bien
 		Location = "Cavernas del Tiempo, Tanaris"; --Bien
+		PURP.."Evento: Escape del Castillo de Durnholde";
 		ORNG.."Armonizaci\195\179 Requerida"; --Bien
 		ORNG.."Reputaci\195\179n: Vigilantes del tiempo";
 		ORNG.."Llave: Llave del tiempo (Her\195\179ico)";
@@ -1270,6 +1273,18 @@ AtlasMaps = {
 		BLUE.."B) Continuaci\195\179n Templo Oscuro"; --Bien
 		GREY.."1) Gran Se\195\177or de la Guerra Naj'entus"; --Bien
 		GREY.."2) Supremus"; --Bien
+	};
+	ZulAman = {
+		ZoneName = "Zul'Aman";
+		Location = "Tierras Fantasma"; --Bien
+		Acronym = "ZA";
+		BLUE.."A) Entrada"; --Bien
+		GREY.."1) Nalorakk (Oso)"; --Bien
+		GREY.."2) Akil'zon (Aguila)"; --Bien
+		GREY.."3) Jan'alai (Dracohalc\195\179n)"; --Bien
+		GREY.."4) Halazzi (Lince)"; --Bien
+		GREY.."5) Hexxlord Jin'Zakk"; --Comprobar
+		GREY.."6) Zul'jin"; --Bien
 	};
 };
 

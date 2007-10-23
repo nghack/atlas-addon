@@ -377,6 +377,7 @@ AtlasMaps = {
 		ZoneName = "CoT: The Black Morass";
 		Location = "Caverns of Time, Tanaris";
 		Acronym = "CoT2";
+		PURP.."Event: Opening of the Dark Portal";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: Keepers of Time";
 		ORNG.."Key: Key of Time (Heroic)";
@@ -393,6 +394,7 @@ AtlasMaps = {
 		ZoneName = "CoT: Hyjal Summit";
 		Location = "Caverns of Time, Tanaris";
 		Acronym = "CoT3";
+		PURP.."Event: The Battle for Mount Hyjal";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Scale of the Sands";
 		BLUE.."A) Alliance Base";
@@ -411,6 +413,7 @@ AtlasMaps = {
 		ZoneName = "CoT: Old Hillsbrad Foothills";
 		Location = "Caverns of Time, Tanaris";
 		Acronym = "CoT1";
+		PURP.."Event: Escape from Durnholde Keep";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: Keepers of Time";
 		ORNG.."Key: Key of Time (Heroic)";
@@ -1284,5 +1287,17 @@ AtlasMaps = {
 		BLUE.."B) Black Temple Continues";
 		GREY.."1) High Warlord Naj'entus";
 		GREY.."2) Supremus";
+	};
+	ZulAman = {
+		ZoneName = "Zul'Aman";
+		Location = "Ghostlands";
+		Acronym = "ZA";
+		BLUE.."A) Entrance";
+		GREY.."1) Nalorakk (Bear)";
+		GREY.."2) Akil'zon (Eagle)";
+		GREY.."3) Jan'alai (Phoenixhawk)";
+		GREY.."4) Halazzi (Lynx)";
+		GREY.."5) Hexxlord Malacrass";
+		GREY.."6) Zul'jin";
 	};
 };

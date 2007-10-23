@@ -72,6 +72,7 @@ Atlas_DropDownLayouts = {
 			"TheSunkenTemple",
 			"Uldaman",
 			"ZulGurub",
+			"ZulAman",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"BlackfathomDeeps",
@@ -180,6 +181,7 @@ Atlas_DropDownLayouts = {
 			"BlackTempleFull",
 			"BlackTempleMiddle",
 			"BlackTempleTop",
+			"ZulAman",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -227,6 +229,7 @@ Atlas_DropDownLayouts = {
 			"Uldaman",
 			"Gnomeregan",
 			"Karazhan",
+			"ZulAman",
 		},
 		[ATLAS_DDL_PARTYSIZE_20TO40] = {
 			"TheRuinsofAhnQiraj",
@@ -308,6 +311,7 @@ Atlas_DropDownLayouts = {
 			"CoTOldHillsbrad",
 			"CoTBlackMorass",
 			"Karazhan",
+			"ZulAman",
 		},
 	},
 };

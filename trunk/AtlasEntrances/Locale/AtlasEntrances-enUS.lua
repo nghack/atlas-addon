@@ -195,6 +195,28 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."The Razza (Random)";
 			GREY..INDENT.."Elder Mistwalker (Lunar)";
 		};
+		CoTEnt = {
+			ZoneName = "Caverns of Time";
+			Acronym = "CoT";
+			Location = "Tanaris";
+			BLUE.."A) Entrance";
+			BLUE.."B) Mount Hyjal";
+			BLUE.."C) Old Hillsbrad Foothills";
+			BLUE.."D) Black Morass";
+			GREY.."1) Steward of Time";
+			GREY.."2) Alexston Chrome";
+			GREY.."3) Graveyard";
+			GREY.."4) Yarley";
+			GREY.."5) Bortega";
+			GREY..INDENT.."Galgrom";
+			GREY..INDENT.."Alurmi";
+			GREY.."6) Zaladormu";
+			GREY..INDENT.."Soridormi (Wanders)";
+			GREY..INDENT.."Arazmodu (Wanders)";
+			GREY.."7) Moonwell";
+			GREY.."8) Andormu, Nozari (Child)";
+			GREY.."9) Andormu, Nozari (Adult)";
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -219,6 +241,8 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
 	myData.DireMaulEnt.LevelRange =				"54-61";
 	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

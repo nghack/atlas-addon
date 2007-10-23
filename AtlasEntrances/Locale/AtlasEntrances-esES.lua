@@ -207,29 +207,55 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."El Razza (Aleatorio)"; --Bien
 			GREY..INDENT.."Ancestro Caminalba (Festival Lunar)"; --Bien
 		};
+		CoTEnt = {
+			ZoneName = "Cavernas del Tiempo"; --Bien
+			Acronym = "CdT";
+			Location = "Tanaris";
+			BLUE.."A) Entrada"; --Bien
+			BLUE.."B) Monte Hyjal"; --Bien
+			BLUE.."C) Antiguas Laderas de Trabalomas"; --Bien
+			BLUE.."D) El Portal Oscuro"; --Bien
+			GREY.."1) Administrador del Tiempo"; --Bien
+			GREY.."2) Alexston Cromo"; --Bien
+			GREY.."3) Cementerio"; --Bien
+			GREY.."4) Yarley"; --Bien
+			GREY.."5) Bortega"; --Bien
+			GREY..INDENT.."Galgrom"; --Bien
+			GREY..INDENT.."Alurmi"; --Bien
+			GREY.."6) Zaladormu"; --Bien
+			GREY..INDENT.."Soridormi (Rondando)"; --Bien
+			GREY..INDENT.."Arazmodu (Rondando)"; --Bien
+			GREY.."7) Poza de la luna"; --Bien
+			GREY.."8) Andormu, Nozari (Ni\195\177)"; --Bien
+			GREY.."9) Andormu, Nozari (Adulto)"; --Bien
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
 	myData.AuchindounEnt.PlayerLimit =			"5";
 	myData.BlackfathomDeepsEnt.LevelRange =		"20-35";
-	myData.BlackfathomDeepsEnt.PlayerLimit =	      "10";
+	myData.BlackfathomDeepsEnt.PlayerLimit =	"10";
 	myData.BlackrockSpireEnt.LevelRange =		"52-70";
 	myData.BlackrockSpireEnt.PlayerLimit =		"5/10/40";
-	myData.CoilfangReservoirEnt.LevelRange =	      "61-70";
-	myData.CoilfangReservoirEnt.PlayerLimit =	      "5-25";
+	myData.CoilfangReservoirEnt.LevelRange =	"61-70";
+	myData.CoilfangReservoirEnt.PlayerLimit =	"5-25";
 	myData.GnomereganEnt.LevelRange =			"24-40";
 	myData.GnomereganEnt.PlayerLimit =			"5/25";
-	myData.MaraudonEnt.LevelRange =			"40-58";
+	myData.MaraudonEnt.LevelRange =				"40-58";
 	myData.MaraudonEnt.PlayerLimit =			"10";
 	myData.TheDeadminesEnt.LevelRange =			"15-28";
 	myData.TheDeadminesEnt.PlayerLimit =		"10";
 	myData.TheSunkenTempleEnt.LevelRange =		"44-60";
 	myData.TheSunkenTempleEnt.PlayerLimit =		"10";
-	myData.UldamanEnt.LevelRange =		      "35-52";
-	myData.UldamanEnt.PlayerLimit =		      "10";
+	myData.UldamanEnt.LevelRange =		      	"35-52";
+	myData.UldamanEnt.PlayerLimit =		      	"10";
 	myData.WailingCavernsEnt.LevelRange =		"15-28";
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
-
+	myData.DireMaulEnt.LevelRange =				"54-61";
+	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
+	
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 
 end

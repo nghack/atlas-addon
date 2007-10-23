@@ -3,25 +3,26 @@
 ==============
 
 v1.10.3
+- the Atlas source is now hosted at Google Code
+- updated TOC number to 20300 for the 2.3 patch
+- new Zul'Aman map (Nifl, Celellach)
+- new CoT entrance map (Nifl, Celellach)
+- revamped the UBRS map (Nifl, Celellach)
+- added a new option for the grouping of instance maps
+- fixed an auto-select issue with the new grouping code
 - added specific zone names to the 'dragons of nightmare' areas (Celellach)
 - added named mobs that are roaming at the 'dragons of nightmare' spots (Celellach)
 - added Coren Direbrew (Brewfest) to BRD (Celellach)
 - added class-info to the mobs of the Kael'thas Sunstrider encounter (Telchar)
-- added an option for the grouping of instance maps
 - added Sah'rhee to RFD (Celellach)
-- the Atlas source is now hosted at Google Code
 - changed the organization of DM arena mobs (Kiria)
-- tagged DM arena mobs as random (Kiria)
 - added Elder Mistwalker to the DM arena (Celellach)
+- tagged DM arena mobs as random (Kiria)
 - changed the organization of Vem encounter in AQ40 (Celellach)
 - added Lord Kri and Princess Yauj to Vem encounter in AQ40 (Celellach)
 - added Vek'lor and Vek'nilash to Twin Emperors in AQ40 (Celellach)
 - added specific mobs and their classes to Illidari Council in BT (Telchar)
-- updated TOC number to 20300 for the 2.3 patch
-- fixed an auto-select issue with the new grouping code
-- added Zul'Aman map and data (Nifl, Celellach)
 - added event names to CoT maps (Celellach)
-- added CoT entrance map (Nifl, Celellach)
 
 v1.10.2
 - updated TOC number to 20200 for the 2.2 patch

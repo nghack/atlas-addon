@@ -200,7 +200,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			Acronym = "CoT";
 			Location = "Tanaris";
 			BLUE.."A) Entrance";
-			BLUE.."B) Mount Hyjal";
+			BLUE.."B) Hyjal Summit";
 			BLUE.."C) Old Hillsbrad Foothills";
 			BLUE.."D) The Black Morass";
 			GREY.."1) Steward of Time";

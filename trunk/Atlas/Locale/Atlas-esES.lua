@@ -1283,7 +1283,7 @@ AtlasMaps = {
 		GREY.."2) Akil'zon (Aguila)"; --Bien
 		GREY.."3) Jan'alai (Dracohalc\195\179n)"; --Bien
 		GREY.."4) Halazzi (Lince)"; --Bien
-		GREY.."5) Hexxlord Jin'Zakk"; --Comprobar
+		GREY.."5) Hexxlord Malacrass"; --Comprobar
 		GREY.."6) Zul'jin"; --Bien
 	};
 };

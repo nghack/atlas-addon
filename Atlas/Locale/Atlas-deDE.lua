@@ -1314,7 +1314,7 @@ AtlasMaps = {
 		BLUE.."A) Eingang";
 		GREY.."1) Nalorakk (B\195\164r)";
 		GREY.."2) Akil'zon (Adler)";
-		GREY.."3) Jan'alai (Ph\195\182nixfalke)";
+		GREY.."3) Jan'alai (Drachenfalke)";
 		GREY.."4) Halazzi (Lynx)";
 		GREY.."5) Hexxlord Malacrass";
 		GREY.."6) Zul'jin";

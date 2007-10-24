@@ -374,9 +374,10 @@ AtlasMaps = {
 		GREN.."1') Pi\195\168ce s\195\187re";
 	};
 	CoTBlackMorass = {
-		ZoneName = "GdT : Le Noir Mar\195\169cage"; -- ou La Porte des ténèbres
+		ZoneName = "GdT : Le Noir Mar\195\169cage";
 		Location = "Grottes du Temps, Tanaris";
 		Acronym = "BM, GdT2";
+		PURP.."Ev\195\168nement : Ouverture de la Porte des T\195\169n\195\168bres";
 		ORNG.."Harmonisation requise";
 		ORNG.."R\195\169put : Gardiens du Temps";
 		ORNG.." Cl\195\169 du Temps (H\195\169ro\195\175que)";
@@ -393,6 +394,7 @@ AtlasMaps = {
 		ZoneName = "GdT : Sommet d'Hyjal";
 		Location = "Grottes du Temps, Tanaris";
 		Acronym = "MH, GdT3";
+		PURP.."Ev\195\168nement : Bataille pour le Mont Hyjal";
 		ORNG.."Harmonisation requise";
 		ORNG.."R\195\169put : La Balance des sables";
 		BLUE.."A) Base de l'Alliance";
@@ -408,12 +410,13 @@ AtlasMaps = {
 		GREY.."5) Archimonde";
 	};
 	CoTOldHillsbrad = {
-		ZoneName = "GdT : L'\195\169vasion du Fort-de-Durn";
+		ZoneName = "GdT : Les Contreforts d'Hautebrande d'antan";
 		Location = "Grottes du Temps, Tanaris";
 		Acronym = "Durn, GdT1";
 		ORNG.."Harmonisation requise";
 		ORNG.."R\195\169put : Gardiens du Temps";
 		ORNG.."Objet : Cl\195\169 du Temps (H\195\169ro\195\175que)";
+		PURP.."Ev\195\168nement : L'\195\169vasion du Fort-de-Durn";
 		BLUE.."A) Entr\195\169e";
 		BLUE..INDENT.."Erozion";
 		BLUE..INDENT.."Airain";
@@ -1284,6 +1287,18 @@ AtlasMaps = {
 		BLUE.."B) Suite du Temple Noir"; -- traduction à vérifier
 		GREY.."1) Grand seigneur de guerre Naj'entus";
 		GREY.."2) Supremus";
+	};
+	ZulAman = {
+		ZoneName = "Zul'Aman";
+		Location = "Terres Fant\195\180mes ";
+		Acronym = "ZA";
+		BLUE.."A) Entr\195\169e";
+		GREY.."1) Nalorakk (Ours)";
+		GREY.."2) Akil'zon (Aigle)";
+		GREY.."3) Jan'alai (Phoenixhawk)"; -- traduction à vérifier
+		GREY.."4) Halazzi (Lynx)";
+		GREY.."5) Hexxlord Malacrass"; -- A traduire
+		GREY.."6) Zul'jin";
 	};
 };
 

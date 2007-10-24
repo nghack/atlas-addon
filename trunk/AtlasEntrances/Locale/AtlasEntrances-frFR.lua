@@ -195,6 +195,30 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."La Razza (Hazard)";
 			GREY..INDENT.."Ancienne Marche-brume (F\195\170te lunaire)";
 		};
+		CoTEnt = {
+			ZoneName = "Grottes du Temps";
+			Acronym = "CoT";
+			Location = "Tanaris";
+			BLUE.."A) Entr\195\169e";
+			BLUE.."B) Sommet d'Hyjal";
+			BLUE.."C) Les Contreforts d'Hautebrande d'antan";
+			BLUE.."D) Le Noir Mar\195\169cage";
+			GREY.."1) R\195\169gisseur du temps";
+			GREY.."2) Alexston Chrome";
+			GREY.."3) Cimeti\195\168re";
+			GREY.."4) Yarley";
+			GREY.."5) Bortega";
+			GREY..INDENT.."Galgrom";
+			GREY..INDENT.."Alurmi";
+			GREY.."6) Zaladormu";
+			GREY..INDENT.."Soridormi (Errant)";
+			GREY..INDENT.."Arazmodu (Errant)";
+			GREY.."7) Puits de lune";
+			GREY.."8) Andormu (Enfant)";
+			GREY..INDENT.."Nozari (Enfant)";
+			GREY.."9) Andormu (Adulte)";
+			GREY..INDENT.."Nozari (Adulte)";
+			};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -219,6 +243,8 @@ if ( GetLocale() == "frFR" ) then
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
 	myData.DireMaulEnt.LevelRange =				"54-61";
 	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

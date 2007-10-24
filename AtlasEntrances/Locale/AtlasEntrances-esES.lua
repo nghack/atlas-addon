@@ -212,7 +212,7 @@ if ( GetLocale() == "esES" ) then
 			Acronym = "CdT";
 			Location = "Tanaris";
 			BLUE.."A) Entrada"; --Bien
-			BLUE.."B) Monte Hyjal"; --Bien
+			BLUE.."B) Cumbre Hyjal"; --Bien
 			BLUE.."C) Antiguas Laderas de Trabalomas"; --Bien
 			BLUE.."D) El Portal Oscuro"; --Bien
 			GREY.."1) Administrador del Tiempo"; --Bien
@@ -226,7 +226,7 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Soridormi (Rondando)"; --Bien
 			GREY..INDENT.."Arazmodu (Rondando)"; --Bien
 			GREY.."7) Poza de la luna"; --Bien
-			GREY.."8) Andormu, Nozari (Ni\195\177)"; --Bien
+			GREY.."8) Andormu, Nozari (Ni\195\177o)"; --Bien
 			GREY.."9) Andormu, Nozari (Adulto)"; --Bien
 		};
 	};

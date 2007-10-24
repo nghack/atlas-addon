@@ -394,6 +394,7 @@ AtlasMaps = {
 		ZoneName = "HdZ: Der schwarze Morast";
 		Location = "H\195\182hlen der Zeit, Tanaris";
 		Acronym = "Morast, HdZ 2";
+		PURP.."Ereignis: \195\150ffnung des Dunklen Portals";
                 ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: H\195\188ter der Zeit";
 		ORNG.."Key: Schl\195\188ssel der Zeit (Heroisch)";
@@ -410,6 +411,7 @@ AtlasMaps = {
 		ZoneName = "HdZ: Hyjalgipfel";
 		Location = "H\195\182hlen der Zeit, Tanaris";
 		Acronym = "Hyjal, HdZ 3";
+		PURP.."Ereignis: Schlacht um Berg Hyjal";
                 ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Die W\195\164chter der Sande";
                 BLUE.."A) Allianz Basis";
@@ -428,6 +430,7 @@ AtlasMaps = {
 		ZoneName = "HdZ: Vorgebirge des Alten H\195\188gellands";
 		Location = "H\195\182hlen der Zeit, Tanaris";
 		Acronym = "Durnholde, HdZ 1";
+		PURP.."Ereignis: Flucht aus Burg Durnholde";
                 ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: H\195\188ter der Zeit";
 		ORNG.."Key: Schl\195\188ssel der Zeit (Heroisch)";
@@ -1303,6 +1306,18 @@ AtlasMaps = {
 		BLUE.."B) Schwarzer Tempel setzt sicht fort";
 		GREY.."1) Oberster Kriegsf\195\188rst Naj'entus";
 		GREY.."2) Supremus";
+	};
+	ZulAman = {
+		ZoneName = "Zul'Aman";
+		Location = "Geisterlande";
+		Acronym = "ZA";
+		BLUE.."A) Eingang";
+		GREY.."1) Nalorakk (B\195\164r)";
+		GREY.."2) Akil'zon (Adler)";
+		GREY.."3) Jan'alai (Ph\195\182nixfalke)";
+		GREY.."4) Halazzi (Lynx)";
+		GREY.."5) Hexxlord Malacrass";
+		GREY.."6) Zul'jin";
 	};
 };
 

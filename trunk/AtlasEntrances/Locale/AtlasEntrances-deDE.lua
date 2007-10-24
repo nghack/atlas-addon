@@ -196,6 +196,28 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Der Razza (Zuf\195\164llig)";
 			GREY..INDENT.."Urahnin Nebelg\195\164nger (Mondfest)";
 		};
+		CoTEnt = {
+			ZoneName = "H\195\182hlen der Zeit";
+			Acronym = "HdZ";
+			Location = "Tanaris";
+			BLUE.."A) Eingang";
+			BLUE.."B) Hyjalgipfel";
+			BLUE.."C) Vorgebirge des Alten H\195\188gellands";
+			BLUE.."D) Der schwarze Morast";
+			GREY.."1) Ordner der Zeit";
+			GREY.."2) Alexston Chrom";
+			GREY.."3) Friedhof";
+			GREY.."4) Yarley";
+			GREY.."5) Bortega";
+			GREY..INDENT.."Galgrom";
+			GREY..INDENT.."Alurmi";
+			GREY.."6) Zaladormu";
+			GREY..INDENT.."Soridormi (Wandert)";
+			GREY..INDENT.."Arazmodu (Wandert)";
+			GREY.."7) Mondbrunnen";
+			GREY.."8) Andormu, Nozari (Kind)";
+			GREY.."9) Andormu, Nozari (Erwachsen)";
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -218,6 +240,10 @@ if ( GetLocale() == "deDE" ) then
 	myData.UldamanEnt.PlayerLimit =				"10";
 	myData.WailingCavernsEnt.LevelRange =		"15-28";
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
+	myData.DireMaulEnt.LevelRange =				"54-61";
+	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

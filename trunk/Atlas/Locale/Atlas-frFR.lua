@@ -1295,9 +1295,9 @@ AtlasMaps = {
 		BLUE.."A) Entr\195\169e";
 		GREY.."1) Nalorakk (Ours)";
 		GREY.."2) Akil'zon (Aigle)";
-		GREY.."3) Jan'alai (Phoenixhawk)"; -- traduction à vérifier
+		GREY.."3) Jan'alai (Faucon-dragon)";
 		GREY.."4) Halazzi (Lynx)";
-		GREY.."5) Hexxlord Malacrass"; -- A traduire
+		GREY.."5) Seigneur des mal\195\169fices Malacrass";
 		GREY.."6) Zul'jin";
 	};
 };

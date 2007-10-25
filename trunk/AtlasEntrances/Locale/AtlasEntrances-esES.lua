@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -24,13 +24,10 @@
 
 --]]
 
--- Datos de Atlas (Espa�ol)
+-- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- �ltima Actualizaci�n (last update): 31/08/2007
--- Codigos:
--- �: \195\161, �: \195\169, �: \195\173, �: \195\179, �: \195\186
--- �: \195\177
+-- Úl�ltima Actualización (last update): 25/10/2007
 
 --]]
 
@@ -52,7 +49,7 @@ if ( GetLocale() == "esES" ) then
 			Acronym = "Auch";
 			Location = "El vert. de Huesos, B. Terokkar"; --Bien
 			BLUE.."A) Criptas Auchenai"; --Bien
-			BLUE.."B) Tumbas de Man\195\161"; --Bien
+			BLUE.."B) Tumbas de Maná"; --Bien
 			BLUE.."C) Salas Sethekk"; --Bien
 			BLUE.."D) Laberinto de las Sombras"; --Bien
 			BLUE.."E) Entradas"; --Bien
@@ -61,14 +58,14 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Clarissa"; --Bien
 			GREY..INDENT.."Ramdor el Loco"; --Bien
 			GREY..INDENT.."Horvon el Armero"; --Bien
-			GREY.."2) Pr\195\173ncipe-nexo Haramad"; --Bien
+			GREY.."2) Príncipe-nexo Haramad"; --Bien
 			GREY..INDENT.."Artificiero Morphalius"; --Bien
-			GREY..INDENT.."Mamdy el  \"Tod\195\179logo\""; --Bien
+			GREY..INDENT.."Mamdy el  \"Todólogo\""; --Bien
 			GREY..INDENT.."\"Flaco\""; --Bien
-			GREY..INDENT.."\"Capit\195\161n\" Kaftiz";
+			GREY..INDENT.."\"Capitán\" Kaftiz";
 			GREY.."3) Isfar"; --Bien
 			GREY.."4) Comandante de campo Mahfuun"; --Bien
-			GREY..INDENT.."Esp\195\173a Grik'tha"; --Bien
+			GREY..INDENT.."Espía Grik'tha"; --Bien
 			GREY..INDENT.."Proveedor Tsaalt"; --Bien
 			GREY..INDENT.."Tratante Tariq"; --Bien
 			GREY.."5) Piedra de encuentro"; --Bien
@@ -81,13 +78,13 @@ if ( GetLocale() == "esES" ) then
 			BLUE.."B) Cavernas de Brazanegra"; --Bien
 		};
 		BlackrockSpireEnt = {
-			ZoneName = "Monta\195\177a Roca Negra"; --Bien
+			ZoneName = "Montaña Roca Negra"; --Bien
 			Acronym = "MRN";
 			Location = "Garganta de Fuego / Estepas A."; --Bien
 			BLUE.."A) La Garganta de Fuego"; --Bien
 			BLUE.."B) Las Estepas Ardientes"; --Bien
 			BLUE.."C) Profundidades de Roca Negra (PRN)"; --Bien
-			GREY..INDENT.."N\195\186cleo de Magma (NM)"; --Bien
+			GREY..INDENT.."Núcleo de Magma (NM)"; --Bien
 			BLUE.."D) Cumbre de Roca Negra (abajo)"; --Bien
 			BLUE..INDENT.."Cumbre de Roca Negra (arriba)"; --Bien
 			BLUE..INDENT.."Guarida Alanegra"; --Bien
@@ -105,11 +102,11 @@ if ( GetLocale() == "esES" ) then
 			Acronym = "CT";
 			Location = "Marisma de Zangar"; --Bien
 			BLUE.."A) Recinto de los Esclavos";  --Bien
-			BLUE.."B) La C\195\161mara de Vapor"; --Bien
+			BLUE.."B) La Cámara de Vapor"; --Bien
 			BLUE.."C) Caverna Santuario Serpiente"; --Bien
-			BLUE.."D) La Soti\195\169naga"; --Bien
+			BLUE.."D) La Sotiénaga"; --Bien
 			BLUE.."E) Entrada (Bajo el agua)";
-			GREY.."1) Vig\195\173a Jhang"; --Bien
+			GREY.."1) Vigía Jhang"; --Bien
 			GREY..INDENT.."Piedra de encuentro"; --Bien
 			GREY.."2) Mortog Testavapor"; --Bien
 		};
@@ -123,8 +120,8 @@ if ( GetLocale() == "esES" ) then
 			GREY.."1) Ascensor"; --Bien
 			GREY.."2) Teletransportador"; --Bien CROMPROBAR
 			GREY..INDENT.."Sprok"; --Bien
-			GREY.."3) Perfor\195\169grafo Matriz 3005-A"; --Bien
-			GREY..INDENT.."Namdo Silvab\195\173n"; --Bien
+			GREY.."3) Perforégrafo Matriz 3005-A"; --Bien
+			GREY..INDENT.."Namdo Silvabín"; --Bien
 			GREY.."4) Tecnobot"; --Bien
 		};
 		MaraudonEnt = {
@@ -144,7 +141,7 @@ if ( GetLocale() == "esES" ) then
 		TheDeadminesEnt = {
 			ZoneName = "Las Minas de la Muerte"; --Bien
 			Acronym = "LMM";
-			Location = "P\195\161ramos de Poniente"; --Bien
+			Location = "Páramos de Poniente"; --Bien
 			BLUE.."A) Entrada";
 			BLUE.."B) Las Minas de la Muerte"; --Bien
 			GREY.."1) Marisa du'Paige (Varios)"; --Bien
@@ -161,12 +158,12 @@ if ( GetLocale() == "esES" ) then
 			BLUE.."B) Templo de Atal'Hakkar"; --Bien
 			GREY.."1) Kazkaz el Blasfemo (Arriba)";
 			GREY.."2) Zekkis (Raro, Abajo)";
-			GREY.."?) Veyzhak el Can\195\173bal (Desconocido)";
+			GREY.."?) Veyzhak el Caníbal (Desconocido)";
 		};
 		UldamanEnt = {
 			ZoneName = "Uldaman"; --Bien
 			Acronym = "Ulda";
-			Location = "Tierras Inh\195\179spitas"; --Bien
+			Location = "Tierras Inhóspitas"; --Bien
 			BLUE.."A) Entrada";
 			BLUE.."B) Uldaman"; --Bien
 			GREY.."1) Grez Piemartillo"; --Bien
@@ -174,12 +171,12 @@ if ( GetLocale() == "esES" ) then
 			GREY.."3) Tablilla de Ryun'Eh"; --Bien
 			GREY.."4) Cofre de Krom Brazorrecio"; --Bien
 			GREY.."5) Cofre de la familia Garrett";  --Bien
-			GREN.."1') Maestro de excavaci\195\179n Palatiro (Raro, Varios)";
+			GREN.."1') Maestro de excavación Palatiro (Raro, Varios)";
 		};
 		WailingCavernsEnt = {
 			ZoneName = "Las Cuevas de los Lamentos"; --Bien
 			Acronym = "CL";
-			Location = "Los Bald\195\173os"; --Bien 
+			Location = "Los Baldíos"; --Bien 
 			BLUE.."A) Entrada";
 			BLUE.."B) Las Cuevas de los Lamentos"; --Bien
 			GREY.."1) Loco Magglish (Varios)"; --Bien
@@ -226,7 +223,7 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Soridormi (Rondando)"; --Bien
 			GREY..INDENT.."Arazmodu (Rondando)"; --Bien
 			GREY.."7) Poza de la luna"; --Bien
-			GREY.."8) Andormu, Nozari (Ni\195\177o)"; --Bien
+			GREY.."8) Andormu, Nozari (Niño)"; --Bien
 			GREY.."9) Andormu, Nozari (Adulto)"; --Bien
 		};
 	};

@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2006 Dan Gilbert
@@ -24,13 +24,10 @@
 
 --]]
 
--- Datos de Atlas (Espa�ol)
+-- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- �ltima Actualizaci�n (last update): 31/08/2007
--- Codigos:
--- �: \195\161, �: \195\169, �: \195\173, �: \195\179, �: \195\186
--- �: \195\177
+-- Úl�ltima Actualización (last update): 25/10/2007
 
 --]]
 
@@ -67,26 +64,26 @@ if ( GetLocale() == "esES" ) then
 			GREY.."13) Colina de la Centinela, ".._RED.."Paramos de Poniente"; --Bien
 			GREY.."14) Villa Oscura, ".._RED.."Bosque del Ocaso"; --Bien
 			GREY.."15) Castillo de Netherguard, ".._RED.."Las Tierras Devastadas"; --Bien
-			GREY.."16) Bah\195\173a del Bot\195\173n, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."16) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
 			};
 		FPAllianceWest = {
 			ZoneName = "Alianza (Kalimdor)";
 			Location = "Kalimdor";
 			GREY.."1) Aldea Rut'Theran, ".._RED.."Teldrassil"; --Bien
 			GREY.."2) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"; --Bien
-			GREY..INDENT.."Tambi\195\169n: Sur del camino a Lago Elune'ara";
+			GREY..INDENT.."También: Sur del camino a Lago Elune'ara";
 			GREY.."3) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
 			GREY.."4) Auberdine, ".._RED.."Costa Oscura"; --Bien
-			GREY.."5) Claro Ramaespol\195\179n, ".._RED.."Frondavil"; --Bien
+			GREY.."5) Claro Ramaespolón, ".._RED.."Frondavil"; --Bien
 			GREY.."6) Santuario Esmeralda, ".._RED.."Frondavil"; --Bien
-			GREY.."7) Bosque Canci\195\179n Eterna, ".._RED.."Bosque Canci\195\179n Eterna"; --Bien
-			GREY.."8) Cima del Espol\195\179n, ".._RED.."Sierra Espolon"; --Bien
+			GREY.."7) Bosque Canción Eterna, ".._RED.."Bosque Canción Eterna"; --Bien
+			GREY.."8) Cima del Espolón, ".._RED.."Sierra Espolon"; --Bien
 			GREY.."9) Astranaar, ".._RED.."Bosque de Vallefresno"; --Bien
 			GREY.."10) Punta Talrendis, ".._RED.."Azshara"; --Bien
 			GREY.."11) Punta de Nijel, ".._RED.."Desolace"; --Bien
-			GREY.."12) Trinquete, ".._RED.."Los Bald\195\173os"; --Bien
+			GREY.."12) Trinquete, ".._RED.."Los Baldíos"; --Bien
 			GREY.."13) Isla Theramore, ".._RED.."Marjal Revolcafango"; --Bien
-			GREY.."14) Basti\195\179n Plumaluna, ".._RED.."Feralas"; --Bien
+			GREY.."14) Bastión Plumaluna, ".._RED.."Feralas"; --Bien
 			GREY.."15) Thalanaar, ".._RED.."Feralas"; --Bien
 			GREY.."16) Refugio de Marshall, ".._RED.."Crater de Un'Goro"; --Bien
 			GREY.."17) Fuerte Cenarion, ".._RED.."Silithus"; --Bien
@@ -103,25 +100,25 @@ if ( GetLocale() == "esES" ) then
 			ZoneName = "Horda (Reinos del Este)";
 			Location = "Reinos del Este";
 			GREY.."1) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."2) Entra\195\177as, ".._RED.."Claros de Trisfal"; --Bien
+			GREY.."2) Entrañas, ".._RED.."Claros de Trisfal"; --Bien
 			GREY.."3) El Sepulcro, ".._RED.."Bosque de Argenteos"; --Bien
 			GREY.."4) Molino Tarren, ".._RED.."Laderas de Trabalomas"; --Bien
-			GREY.."5) Poblado Sa\195\177adiente, ".._RED.."Tierras del Interior"; --Bien
+			GREY.."5) Poblado Sañadiente, ".._RED.."Tierras del Interior"; --Bien
 			GREY.."6) Sentencia, ".._RED.."Tierras Altas de Arathi"; --Bien
 			GREY.."7) Punto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
 			GREY.."8) Kargath, ".._RED.."Tierras Inhospitas"; --Bien 
-			GREY.."9) Pe\195\177asco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
+			GREY.."9) Peñasco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
 			GREY.."10) Rocal, ".._RED.."Pantano de las Penas"; --Bien
 			GREY.."11) Campamento Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."12) Bah\195\173a del Bot\195\173n, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."13) Ciudad de Lunargenta, ".._RED.."Bosque Canci\195\179n Eterna"; --Bien
+			GREY.."12) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."13) Ciudad de Lunargenta, ".._RED.."Bosque Canción Eterna"; --Bien
 			GREY.."14) Tranquillien, ".._RED.."Tierras Fantasma";  --Bien
 		};
 		FPHordeWest = {
 			ZoneName = "Horda (Kalimdor)";
 			Location = "Kalimdor";
 			GREY.."1) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"; --Bien
-			GREY..INDENT.."Tambi\195\169n: Oeste del camino al Puesto Vig\195\179a del Cubil"; --Bien
+			GREY..INDENT.."También: Oeste del camino al Puesto Vigóa del Cubil"; --Bien
 			GREY.."2) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
 			GREY.."3) Puesto del Veneno, ".._RED.."Frondavil"; --Bien
 			GREY.."4) Santuario Esmeralda, ".._RED.."Frondavil"; --Bien
@@ -130,11 +127,11 @@ if ( GetLocale() == "esES" ) then
 			GREY.."7) Puesto del Hachazo, ".._RED.."Vallefresno"; --Bien
 			GREY.."8) Orgrimmar, ".._RED.."Durotar"; --Bien
 			GREY.."9) Refugio Roca del Sol, ".._RED.."Sierra Espolon"; --Bien
-			GREY.."10) El Cruce, ".._RED.."Los Bald\195\173os"; --Bien
-			GREY.."11) Trinquete, ".._RED.."Los Bald\195\173os"; --Bien
+			GREY.."10) El Cruce, ".._RED.."Los Baldíos"; --Bien
+			GREY.."11) Trinquete, ".._RED.."Los Baldíos"; --Bien
 			GREY.."12) Aldea Cazasombras, ".._RED.."Desolace"; --Bien
 			GREY.."13) Cima del Trueno, ".._RED.."Mulgore"; --Bien
-			GREY.."14) Campamento Taurajo, ".._RED.."Los Bald\195\173os"; --Bien
+			GREY.."14) Campamento Taurajo, ".._RED.."Los Baldíos"; --Bien
 			GREY.."15) Poblado Murohelecho, ".._RED.."Marjal Revolcafango"; --Bien
 			GREY.."16) Campamento Mojache, ".._RED.."Feralas"; --Bien
 			GREY.."17) Poblado Viento Libre, ".._RED.."Las Mil Agujas"; --Bien
@@ -150,51 +147,51 @@ if ( GetLocale() == "esES" ) then
 		FPHordeOutland = { 
 			ZoneName = "Horda (Outland)";
 			Location = "Outland";
-			GREY.."1) El Portal Oscuro, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."2) Thrallmar, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."3) Armeria de Expedici\195\179n, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."4) Avanzada del Halc\195\179n, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
+			GREY.."1) El Portal Oscuro, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."2) Thrallmar, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."3) Armeria de Expedición, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."4) Avanzada del Halcón, ".._RED.."Península de Fuego Infernal"; --Bien
 			GREY.."5) Avanzada Rata del Pantano, ".._RED.."Marmisma de Zangar"; --Bien
 			GREY.."6) Zabra'jin, ".._RED.."Marmisma de Zangar"; --Bien
 			GREY.."7) Garadar, ".._RED.."Nagrand"; --Bien
 			GREY.."8) Ciudad de Shattrath, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."9) Basti\195\179n Rompepedras, ".._RED.."Bosque de Terokkar"; --Bien
+			GREY.."9) Bastión Rompepedras, ".._RED.."Bosque de Terokkar"; --Bien
 			GREY.."10) Aldea Sombraluna, ".._RED.."Valle Sombraluna"; --Bien
 			GREY.."11) Altar de Sha'tar, ".._RED.."Valle Sombraluna "..BLUE.."(Aldor)"; --Bien
-			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Ar\195\186spices)"; --Bien
-			GREY.."13) Basti\195\179n Se\195\177or del Trueno, ".._RED.."Monta\195\177as Filospada"; --Bien
-			GREY.."14) Soto Eterno, ".._RED.."Monta\195\177as Filospada"; --Bien
-			GREY.."15) Aldea Mok'Nathal, ".._RED.."Monta\195\177as Filospada"; --Bien
+			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Arúspices)"; --Bien
+			GREY.."13) Bastión Señor del Trueno, ".._RED.."Montañas Filospada"; --Bien
+			GREY.."14) Soto Eterno, ".._RED.."Montañas Filospada"; --Bien
+			GREY.."15) Aldea Mok'Nathal, ".._RED.."Montañas Filospada"; --Bien
 			GREY.."16) Area 52, ".._RED.."Tormenta Abisal"; --Bien
 			GREY.."17) La Flecha de la Tormenta, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."18) Cosmotir\195\179n, ".._RED.."Tormenta Abisal"; --Bien
+			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
 			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
-			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Monta\195\177as Filospada"; --Bien
+			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
 			GREN..INDENT.."(Honorado con Guardia del cielo Sha'tari)"; --Bien
 		};
 		FPAllianceOutland = { 
 			ZoneName = "Alianza (Outland)";
 			Location = "Outland";
-			GREY.."1) El Portal Oscuro, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."2) Punta de Expedici\195\179n, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."3) Basti\195\179n del Honor, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."4) Templo de Telhamat, ".._RED.."Pen\195\173nsula de Fuego Infernal"; --Bien
+			GREY.."1) El Portal Oscuro, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."2) Punta de Expedición, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."3) Bastión del Honor, ".._RED.."Península de Fuego Infernal"; --Bien
+			GREY.."4) Templo de Telhamat, ".._RED.."Península de Fuego Infernal"; --Bien
 			GREY.."5) Telredor, ".._RED.."Marmisma de Zangar"; --Bien
 		      GREY.."6) Puerto Orebor, ".._RED.."Marmisma de Zangar"; --Bien
 		      GREY.."7) Telaar, ".._RED.."Nagrand"; --Bien
 			GREY.."8) Ciudad de Shattrath, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."9) Basti\195\179n Allerian, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."10) Basti\195\179n Martillo Salvaje, ".._RED.."Valle Sombraluna"; --Bien
+			GREY.."9) Bastión Allerian, ".._RED.."Bosque de Terokkar"; --Bien
+			GREY.."10) Bastión Martillo Salvaje, ".._RED.."Valle Sombraluna"; --Bien
 			GREY.."11) Altar de Sha'tar, ".._RED.."Valle Sombraluna "..BLUE.."(Aldor)"; --Bien
-			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Ar\195\186spices)"; --Bien
-			GREY.."13) Sylvanaar, ".._RED.."Monta\195\177as Filospada"; --Bien
-			GREY.."14) Soto Eterno, ".._RED.."Monta\195\177as Filospada"; --Bien
-			GREY.."15) Estaci\195\179n de Toshley, ".._RED.."Monta\195\177as Filospada"; --Bien
+			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Arúspices)"; --Bien
+			GREY.."13) Sylvanaar, ".._RED.."Montañas Filospada"; --Bien
+			GREY.."14) Soto Eterno, ".._RED.."Montañas Filospada"; --Bien
+			GREY.."15) Estación de Toshley, ".._RED.."Montañas Filospada"; --Bien
 			GREY.."16) Area 52, ".._RED.."Tormenta Abisal"; --Bien
 			GREY.."17) La Flecha de la Tormenta, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."18) Cosmotir\195\179n, ".._RED.."Tormenta Abisal"; --Bien
+			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
 			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
-			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Monta\195\177as Filospada"; --Bien
+			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
 			GREN..INDENT.."(Honorado con Guardia del cielo Sha'tari)"; --Bien
 		};
 	};

@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2006 Dan Gilbert
@@ -22,13 +22,10 @@
 
 --]]
 
--- Datos de Atlas (Espa�ol)
+-- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- �ltima Actualizaci�n (last update): 19/06/2007
--- Codigos:
--- �: \195\161, �: \195\169, �: \195\173, �: \195\179, �: \195\186
--- �: \195\177
+-- Última Actualización (last update): 25/10/2007
 
 --]]
 
@@ -47,90 +44,90 @@ if ( GetLocale() == "esES" ) then
 	local myData = {
 		AlteracValleyNorth = {
 			ZoneName = "Valle de Alterac (Norte)";
-			Location = "Monta\195\177as Alterac";
-			ORNG.."Reputaci\195\179n: Clan Lobo G\195\169lido (Horda)";
-			ORNG.."Reputaci\195\179n: Guardia Pico Tormenta (Alianza)";
+			Location = "Montañas Alterac";
+			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
+			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
 			BLUE.."A) Entrada";
 			BLUE.."B) Dun Baldar (Alianza)";
 			_RED.."1) Puesto de socorro de Pico Tormenta"; --Bien
 			_RED.."2) Cementerio Pico Tormenta"; --Bien
 			_RED.."3) Cementerio Piedrahogar"; --Bien
 			_RED.."4) Cementerio Avalancha"; --Bien
-			ORNG.."5) B\195\186nker Norte de Dun Baldar"; --Bien
+			ORNG.."5) Búnker Norte de Dun Baldar"; --Bien
 			GREY..INDENT.."Comandante del aire Mulverick (Horda)"; --Bien
-			ORNG.."6) B\195\186nker Sur de Dun Baldar"; --Bien
-			ORNG.."7) B\195\186nker Ala G\195\169lida"; --Bien
+			ORNG.."6) Búnker Sur de Dun Baldar"; --Bien
+			ORNG.."7) Búnker Ala Gélida"; --Bien
 			GREY..INDENT.."Comandante del aire Guse (Horda)"; --Bien
 			GREY..INDENT.."Comandante Karl Philips (Alianza)"; --Bien
 			ORNG.."8) Avanzada Piedrahogar (Balinda)"; --Bien
-			ORNG.."9) B\195\186nker Piedrahogar"; --Bien
+			ORNG.."9) Búnker Piedrahogar"; --Bien
 			GREY.."10) Mina Ferrohondo"; --Bien
-			GREY.."11) Cueva Ala G\195\169lida"; --Bien
+			GREY.."11) Cueva Ala Gélida"; --Bien
 			GREY.."12) Sierra de vapor (Horda)"; --Bien
 			GREY.."13) Comandante del aire Jeztor (Horda)"; --Bien
-			GREY.."14) Ivus el Se\195\177or del Bosque (Zona de invocar)"; --Bien
+			GREY.."14) Ivus el Señor del Bosque (Zona de invocar)"; --Bien
 			"";
 			"";
 			"";
 			"";
 			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
-			ORNG.."Naranja:"..ORNG.." B\195\186nkers, Torres, Areas destruibles";
+			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";
 			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";
 		};
 		AlteracValleySouth = {
 			ZoneName = "Valle de Alterac (Sur)";
 			Location = "Laderas de Trabalomas";
-			ORNG.."Reputaci\195\179n: Clan Lobo G\195\169lido (Horda)";
-			ORNG.."Reputaci\195\179n: Guardia Pico Tormenta (Alianza)";
+			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
+			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
 			BLUE.."A) Entrada";
-			BLUE.."B) Basti\195\179n Lobo G\195\169lido (Horda)"; --Bien
-			_RED.."1) Puesto de auxilio de Lobo G\195\169lido"; --Bien
-			_RED.."2) Cementerio Lobo G\195\169lido"; --Bien
-			_RED.."3) Cementerio Sangre Fr\195\173a"; --Bien
-			ORNG.."4) Torre Lobo G\195\169lido Oeste"; --Bien
-			ORNG.."5) Torre Lobo G\195\169lido Este"; --Bien
+			BLUE.."B) Bastión Lobo Gélido (Horda)"; --Bien
+			_RED.."1) Puesto de auxilio de Lobo Gélido"; --Bien
+			_RED.."2) Cementerio Lobo Gélido"; --Bien
+			_RED.."3) Cementerio Sangre Fría"; --Bien
+			ORNG.."4) Torre Lobo Gélido Oeste"; --Bien
+			ORNG.."5) Torre Lobo Gélido Este"; --Bien
 			GREY..INDENT.."Comandante del aire Ichman (Alianza)"; --Bien
 			ORNG.."6) Punto Torre"; --Bien
 			GREY..INDENT.."Comandante del aire Slidore (Alianza)"; --Bien
 			GREY..INDENT.."Comandante Luis Filis (Horda)"; --Bien
-			ORNG.."7) Torre Sangre Fr\195\173a"; --Bien
-			ORNG.."8) Baluarte Sangre Fr\195\173a (Galvangar)"; --Bien
+			ORNG.."7) Torre Sangre Fría"; --Bien
+			ORNG.."8) Baluarte Sangre Fría (Galvangar)"; --Bien
 			GREY.."9) Caverna Zarpa Salvaje"; --Bien
-			GREY.."10) Comandante jinete de lobos Lobo G\195\169lido"; --Bien
+			GREY.."10) Comandante jinete de lobos Lobo Gélido"; --Bien
 			GREY.."11) Comandante de aire Vipore (Alianza)"; --Bien
-			GREY.."12) Mina Dentefr\195\173o"; --Bien
+			GREY.."12) Mina Dentefrío"; --Bien
 			GREY.."13) Sierra de vapor (Alianza)"; --Bien
-			GREY.."14) Lokholar el Se\195\177or de Hielo (Zona de invocar)"; --Bien
+			GREY.."14) Lokholar el Señor de Hielo (Zona de invocar)"; --Bien
 			"";
 			"";
 			"";
 			"";
 			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
-			ORNG.."Naranja:"..ORNG.." B\195\186nkers, Torres, Areas destruibles";
+			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";
 			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";
 		};
 		ArathiBasin = {
 			ZoneName = "Cuenca de Arathi";
 			Location = "Tierras Altas de Arathi";
-			ORNG.."Reputaci\195\179n: Los Rapi\195\177adores (Horda)";
-			ORNG.."Reputaci\195\179n: La Liga de Arathor (Alianza)";
-			BLUE.."A) Basti\195\179n de Trollbane (Alianza)"; --Bien
-			BLUE.."B) Guarida de los Rapi\195\177adores (Horda)"; --Bien
+			ORNG.."Reputación: Los Rapiñadores (Horda)";
+			ORNG.."Reputación: La Liga de Arathor (Alianza)";
+			BLUE.."A) Bastión de Trollbane (Alianza)"; --Bien
+			BLUE.."B) Guarida de los Rapiñadores (Horda)"; --Bien
 			GREY.."1) Establo"; --Bien
 			GREY.."2) Mina de Oro"; --Bien
-			GREY.."3) Herrer\195\173a"; --Bien
+			GREY.."3) Herrería"; --Bien
 			GREY.."4) Aserradero"; --Bien
 			GREY.."5) Granja"; --Bien
 		};
 		WarsongGulch = {
 			ZoneName = "Garganta Grito de Guerra ";
-			Location = "Vallefresno / Los Bald\195\173os";
-			ORNG.."Reputaci\195\179n: Escoltas de Grito de Guerra (Horda)";
-			ORNG.."Reputaci\195\179n: Centinelas Ala de Plata (Alianza)";
-			BLUE.."A) Basti\195\179n Ala de Plata (Alianza)"; --Bien
-			BLUE.."B) Serrer\195\173a Grito de Guerra (Horda)"; --Bien
+			Location = "Vallefresno / Los Baldíos";
+			ORNG.."Reputación: Escoltas de Grito de Guerra (Horda)";
+			ORNG.."Reputación: Centinelas Ala de Plata (Alianza)";
+			BLUE.."A) Bastión Ala de Plata (Alianza)"; --Bien
+			BLUE.."B) Serrería Grito de Guerra (Horda)"; --Bien
 		};
 		EyeOfTheStorm = {
 			ZoneName = "El Ojo de la Tormenta";

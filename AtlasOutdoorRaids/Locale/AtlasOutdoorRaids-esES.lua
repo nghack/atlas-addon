@@ -1,4 +1,4 @@
---[[
+ï»¿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2006 Dan Gilbert
@@ -24,13 +24,10 @@
 
 --]]
 
--- Datos de Atlas (Español)
+-- Datos de Atlas (EspaÃ±ol)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 19/06/2007
--- Codigos:
--- á: \195\161, é: \195\169, í: \195\173, ó: \195\179, ú: \195\186
--- ñ: \195\177
+-- ÃšlÚltima ActualizaciÃ³n (last update): 25/10/2007
 
 --]]
 
@@ -57,16 +54,16 @@ if ( GetLocale() == "esES" ) then
 		FourDragons = {
 			ZoneName = "Dragones de la Pesadilla"; --Bien
 			Location = "Varios"; --Bien 
-			GREY.."1) Arboleda del Crep\195\186sculo - Bosque del Ocaso"; --Bien
+			GREY.."1) Arboleda del CrepÃºsculo - Bosque del Ocaso"; --Bien
 			GREY.."2) Seradane - Tierras del Interior"; --Bien
 			GREY..INDENT.."Rothos"; --Bien
-			GREY..INDENT.."Rastreasue\195\177os"; --Bien
+			GREY..INDENT.."RastreasueÃ±os"; --Bien
 			GREY.."3) Rama Oniria - Feralas"; --Bien
 			GREY..INDENT.."Lethlas"; --Bien
-			GREY..INDENT.."Bramasue\195\177os"; --Bien
-			GREY.."4) Talloumbr\195\173o - Vallefresno"; --Bien
-			GREY..INDENT.."Fant\195\173m"; --Bien
-			GREY..INDENT.."Acechasue\195\177os"; --Bien
+			GREY..INDENT.."BramasueÃ±os"; --Bien
+			GREY.."4) TalloumbrÃ­o - Vallefresno"; --Bien
+			GREY..INDENT.."FantÃ­m"; --Bien
+			GREY..INDENT.."AcechasueÃ±os"; --Bien
 			"";
 			GREN.."Los Dragones"; --Bien
 			GREY..INDENT.."Lethon"; --Bien
@@ -75,16 +72,16 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Ysondre"; --Bien
 		};
 		HighlordKruul = {
-			ZoneName = "Alto Se\195\177or Kruul"; --Bien
+			ZoneName = "Alto SeÃ±or Kruul"; --Bien
 			Location = "Las Tierras Devastadas"; --Bien
-			GREY.."1) Alto Se\195\177or Kruul"; --Bien
+			GREY.."1) Alto SeÃ±or Kruul"; --Bien
 			GREY.."2) Castillo de Nethergarde"; --Bien
 		};
 		DoomLordKazzak = {
-			ZoneName = "Se\195\177or Apocal\195\173ptico Kazzak"; --Bien
-			Location = "Pen\195\173nsula de Fuego Infernal"; --Bien
-			GREY.."1) Se\195\177or Apocal\195\173ptico Kazzak"; --Bien
-			GREY.."2) Punto de invasi\195\179n: Aniquilador"; --Bien
+			ZoneName = "SeÃ±or ApocalÃ­ptico Kazzak"; --Bien
+			Location = "PenÃ­nsula de Fuego Infernal"; --Bien
+			GREY.."1) SeÃ±or ApocalÃ­ptico Kazzak"; --Bien
+			GREY.."2) Punto de invasiÃ³n: Aniquilador"; --Bien
 			GREY.."3) Campamento Forja: Ira"; --Bien
 			GREY.."4) Campamento Forja: Mageddon"; --Bien
 			GREY.."5) Thrallmar"; --Bien

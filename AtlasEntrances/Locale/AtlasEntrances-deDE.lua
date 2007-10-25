@@ -215,8 +215,10 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Soridormi (Wandert)";
 			GREY..INDENT.."Arazmodu (Wandert)";
 			GREY.."7) Mondbrunnen";
-			GREY.."8) Andormu, Nozari (Kind)";
-			GREY.."9) Andormu, Nozari (Erwachsen)";
+			GREY.."8) Andormu (Kind)";
+			GREY..INDENT.."Nozari (Kind)";
+			GREY.."9) Andormu (Erwachsen)";
+			GREY..INDENT.."Nozari (Erwachsen)";
 		};
 	};
 

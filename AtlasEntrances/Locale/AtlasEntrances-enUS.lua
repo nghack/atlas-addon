@@ -214,8 +214,10 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Soridormi (Wanders)";
 			GREY..INDENT.."Arazmodu (Wanders)";
 			GREY.."7) Moonwell";
-			GREY.."8) Andormu, Nozari (Child)";
-			GREY.."9) Andormu, Nozari (Adult)";
+			GREY.."8) Andormu (Child)";
+			GREY..INDENT.."Nozari (Child)";
+			GREY.."9) Andormu (Adult)";
+			GREY..INDENT.."Nozari (Adult)";
 		};
 	};
 

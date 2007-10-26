@@ -53,7 +53,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Artificier Morphalius";
 			GREY..INDENT.."Mamdy \"l'Ologiste\"";
 			GREY..INDENT.."\"Mince\"";
-			GREY..INDENT.."\"Captain\" Kaftiz ";
+			GREY..INDENT.."\"Captain\" Kaftiz";
 			GREY.."3) Isfar";
 			GREY.."4) Commandant Mahfuun";
 			GREY..INDENT.."Espionne Grik'tha";
@@ -99,7 +99,7 @@ if ( GetLocale() == "frFR" ) then
 			BLUE.."E) Entrée (Sous-marine)";
 			GREY.."1) Guetteur Jhang";
 			GREY..INDENT.."Pierre de Rencontre";
-			GREY.."2) Mortog T êtavapeur";
+			GREY.."2) Mortog Têtavapeur";
 		};
 		GnomereganEnt = {
 			ZoneName = "Gnomeregan";
@@ -109,8 +109,8 @@ if ( GetLocale() == "frFR" ) then
 			BLUE.."B) Gnomeregan (Principale)";
 			BLUE.."C) Gnomeregan (Atelier)";
 			GREY.."1) Ascenseur";
-			GREY.."2) Transpolyporter"; 			-- A traduire
-			GREY..INDENT.."Sprok";
+			GREY.."2) Portail de multitéléportation";
+			GREY..INDENT.."Sproque";
 			GREY.."3) Matrice d'Encodage 3005-A";
 			GREY..INDENT.."Namdo Ventaperte";
 			GREY.."4) Techbot";

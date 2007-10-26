@@ -23,11 +23,10 @@
 --]]
 
 --[[
--- Atlas  : Localisation Fran�aise "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
--- version WoW 2.1.3 (french client)
--- traduction à l'aide de WoW Cartographe, Allakhazam, WoW Armory
---
--- Mise à jour par Wysiwyg, Kiria, Trs
+-- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
+-- Version WoW 2.2.3 (french client)
+-- Sur un travail de Wysiwyg, Trs
+-- Mise à jour par Kiria
 -- le 26/10/2007
 --]]
 

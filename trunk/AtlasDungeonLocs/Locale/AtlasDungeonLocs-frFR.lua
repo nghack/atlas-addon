@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -38,23 +38,23 @@ if ( GetLocale() == "frFR" ) then
 		DLEast = {
 			ZoneName = "Instances (Est)";
 			Location = "Royaumes de l'Est";
-			BLUE.."A) Vall\195\169e d'Alterac, ".._RED.."Alterac / Hautebrande";
+			BLUE.."A) Vallée d'Alterac, ".._RED.."Alterac / Hautebrande";
 			BLUE.."B) Bassin d'Arathi, ".._RED.."Hautes-Terres d'Arathi";
-			GREY.."1) Monast\195\168re \195\169carlate, ".._RED.."Clairi\195\168res de Tirisfal";
+			GREY.."1) Monastère écarlate, ".._RED.."Clairières de Tirisfal";
 			GREY.."2) Stratholme, ".._RED.."Maleterres de l'Est";
 			GREY..INDENT.."Naxxramas, ".._RED.."Pestebois, Maleterres de l'Est";
 			GREY.."3) Scholomance, ".._RED.."Maleterres de l'Ouest";
-			GREY.."4) Donjon d'Ombrecroc, ".._RED.."For\195\170t des Pins Argent\195\169s";
+			GREY.."4) Donjon d'Ombrecroc, ".._RED.."Forêt des Pins Argentés";
 			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
 			GREY.."6) Uldaman, ".._RED.."Terres Ingrates";
 			GREY.."7) Repaire de l'Aile Noire, ".._RED.."Pic Rochenoire";
 			GREY..INDENT.."Profondeurs de Rochenoire, ".._RED.."Mont Rochenoire";
 			GREY..INDENT.."Pic Rochenoire, ".._RED.."Mont Rochenoire";
-			GREY..INDENT.."C\197\147ur du Magma, ".._RED.."Profondeurs de Rochenoire";
+			GREY..INDENT.."Cœur du Magma, ".._RED.."Profondeurs de Rochenoire";
 			GREY.."8) La Prison, ".._RED.."Hurlevent";
 			GREY.."9) Les Mortemines, ".._RED.."Marche de l'Ouest";
-			GREY.."10) Zul'Gurub, ".._RED.."Vall\195\169e de Strangleronce";
-			GREY.."11) Karazhan, ".._RED.."D\195\169fil\195\169 de Deuillevent";
+			GREY.."10) Zul'Gurub, ".._RED.."Vallée de Strangleronce";
+			GREY.."11) Karazhan, ".._RED.."Défilé de Deuillevent";
 			GREY.."12) Le Temple d'Atal'Hakkar, ".._RED.."Marais des Chagrins";
 			"";
 			"";
@@ -71,15 +71,15 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."1) Profondeurs de Brassenoire, ".._RED.."Orneval";
 			GREY.."2) Gouffre de Ragefeu, ".._RED.."Orgrimmar";
 			GREY.."3) Cavernes des lamentations, ".._RED.."Les Tarides";
-			GREY.."4) Maraudon, ".._RED.."D\195\169solace";
-			GREY.."5) Hache-Tripes, ".._RED.."F\195\169ralas";
+			GREY.."4) Maraudon, ".._RED.."Désolace";
+			GREY.."5) Hache-Tripes, ".._RED.."Féralas";
 			GREY.."6) Kraal de Tranchebauge, ".._RED.."Les Tarides";
 			GREY.."7) Souilles de Tranchebauge, ".._RED.."Les Tarides";
-			GREY.."8) Repaire d'Onyxia, ".._RED.."Mar\195\169cage d'\195\130prefange";
+			GREY.."8) Repaire d'Onyxia, ".._RED.."Marécage d'Âprefange";
 			GREY.."9) Zul'Farrak, ".._RED.."Tanaris";
 			GREY.."10) Grottes du Temps, ".._RED.."Tanaris";
 			GREY..INDENT.."Contreforts de Hautebrande d'antan";
-			GREY..INDENT.."Le Noir Mar\195\169cage";
+			GREY..INDENT.."Le Noir Marécage";
 			GREY..INDENT.."Sommet d'Hyjal";
 			GREY.."11) Les Ruines d'Ahn'Qiraj, ".._RED.."Silithus";
 			GREY..INDENT.."Le Temple d'Ahn'Qiraj, ".._RED.."Silithus";
@@ -97,27 +97,27 @@ if ( GetLocale() == "frFR" ) then
 			ZoneName = "Instances (Outreterre)";
 			Location = "Outreterre";
 			GREY.."1) Repaire de Gruul, ".._RED.."Les Tranchantes";
-			GREY.."2) Donjon de la Temp\195\170te, ".._RED.."Raz-de-N\195\169ant";
-			GREY..INDENT.."Le M\195\169chanar";
+			GREY.."2) Donjon de la Tempête, ".._RED.."Raz-de-Néant";
+			GREY..INDENT.."Le Méchanar";
 			GREY..INDENT.."La Botanica";
 			GREY..INDENT.."L'Arcatraz";
-			GREY..INDENT.."Donjon de la Temp\195\170te";
-			GREY.."3) R\195\169servoir de Glissecroc, ".._RED.."Mar\195\169cage de Zangar";
+			GREY..INDENT.."Donjon de la Tempête";
+			GREY.."3) Réservoir de Glissecroc, ".._RED.."Marécage de Zangar";
 			GREY..INDENT.."Les enclos aux esclaves";
-			GREY..INDENT.."La Basse-tourbi\195\168re";
+			GREY..INDENT.."La Basse-tourbière";
 			GREY..INDENT.."Le Caveau de la vapeur";
 			GREY..INDENT.."Caverne du sanctuaire du Serpent";
-			GREY.."4) Citadelle des Flammes infernales, ".._RED.."P\195\169ninsule des Flammes Infernales";
+			GREY.."4) Citadelle des Flammes infernales, ".._RED.."Péninsule des Flammes Infernales";
 			GREY..INDENT.."Remparts des Flammes infernales";
 			GREY..INDENT.."La Fournaise du sang";
-			GREY..INDENT.."Les Salles bris\195\169es";
+			GREY..INDENT.."Les Salles brisées";
 			GREY..INDENT.."Le repaire de Magtheridon";
-			GREY.."5) Auchindoun, ".._RED.."For\195\170t de Terokkar";
+			GREY.."5) Auchindoun, ".._RED.."Forêt de Terokkar";
 			GREY..INDENT.."Tombes-mana";
-			GREY..INDENT.."Cryptes Auchena\195\175";
+			GREY..INDENT.."Cryptes Auchenaï";
 			GREY..INDENT.."Les salles des Sethekk";
 			GREY..INDENT.."Labyrinthe des ombres";
-			GREY.."6) Temple Noir, ".._RED.."Vall\195\169e d'Ombrelune";
+			GREY.."6) Temple Noir, ".._RED.."Vallée d'Ombrelune";
 
 		};
 	};

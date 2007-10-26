@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -32,20 +32,20 @@ if ( GetLocale() == "frFR" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "   ";
 
-	local myCategory = "Zone d'entr\195\169es des instances";
+	local myCategory = "Zone d'entrées des instances";
 
 	local myData = {
 		AuchindounEnt = {
 			ZoneName = "Auchindoun";
 			Acronym = "Auch";
-			Location = "D\195\169sert des Ossements, For\195\170t de Terokkar";
-			BLUE.."A) Cryptes Auchena\195\175";
+			Location = "Désert des Ossements, Forêt de Terokkar";
+			BLUE.."A) Cryptes Auchenaï";
 			BLUE.."B) Tombes-mana";
 			BLUE.."C) Les salles des Sethekk";
 			BLUE.."D) Labyrinthe des ombres";
-			BLUE.."E) Entr\195\169es";
+			BLUE.."E) Entrées";
 			GREY.."1) Ha'Lei";
-			GREY..INDENT.."Grandp\195\168re Aldrimus";
+			GREY..INDENT.."Grandpère Aldrimus";
 			GREY..INDENT.."Clarissa";
 			GREY..INDENT.."Ramdor le Fol";
 			GREY..INDENT.."Horvon l'Armurier";
@@ -65,46 +65,46 @@ if ( GetLocale() == "frFR" ) then
 			ZoneName = "Profondeurs de Brassenoire";
 			Acronym = "BFD";
 			Location = "Orneval";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE.."B) Profondeurs de Brassenoire";
 		};
 		BlackrockSpireEnt = {
 			ZoneName = "Mont Rochenoire";
 			Acronym = "BRM";
-			Location = "Gorge des Vents br\195\187lants / Steppes ardentes";
-			BLUE.."A) Gorge des Vents br\195\187lants";
+			Location = "Gorge des Vents brûlants / Steppes ardentes";
+			BLUE.."A) Gorge des Vents brûlants";
 			BLUE.."B) Steppes ardentes";
 			BLUE.."C) Profondeurs de Rochenoire (BRD)";
-			BLUE..INDENT.."C\197\147ur du Magma (MC)";
-			BLUE.."D) Pic Rochenoire inf\195\169rieur (LBRS)";
-			BLUE..INDENT.."Pic Rochenoire sup\195\169rieur (UBRS)";
+			BLUE..INDENT.."Cœur du Magma (MC)";
+			BLUE.."D) Pic Rochenoire inférieur (LBRS)";
+			BLUE..INDENT.."Pic Rochenoire supérieur (UBRS)";
 			BLUE..INDENT.."Repaire de l'Aile noire (BWL)";
-			BLUE..INDENT.."Bodley (Fant\195\180me)";
+			BLUE..INDENT.."Bodley (Fantôme)";
 			GREY.."1) Grand seigneur Pyron (Patrouille)";
 			GREY.."2) Lothos Ouvrefaille ";
-			GREY.."3) Franclorn Le Forgebusier  (Fant\195\180me)";
+			GREY.."3) Franclorn Le Forgebusier  (Fantôme)";
 			GREY.."4) Pierre de Rencontre - BRD";
 			GREY.."5) Orbe de Commandement";
 			GREY.."6) Pierre de Rencontre - BRS";
-			GREY.."7) Intendant du Bouclier balafr\195\169";
+			GREY.."7) Intendant du Bouclier balafré";
 		};
 		CoilfangReservoirEnt = {
-			ZoneName = "R\195\169servoir de Glissecroc";
+			ZoneName = "Réservoir de Glissecroc";
 			Acronym = "CR";
-			Location = "Mar\195\169cage de Zangar";
+			Location = "Marécage de Zangar";
 			BLUE.."A) Les enclos aux esclaves";
 			BLUE.."B) Le Caveau de la vapeur";
 			BLUE.."C) Caverne du sanctuaire du Serpent";
-			BLUE.."D) La Basse-tourbi\195\168re";
-			BLUE.."E) Entr\195\169e (Sous-marine)";
+			BLUE.."D) La Basse-tourbière";
+			BLUE.."E) Entrée (Sous-marine)";
 			GREY.."1) Guetteur Jhang";
 			GREY..INDENT.."Pierre de Rencontre";
-			GREY.."2) Mortog T \195\170tavapeur";
+			GREY.."2) Mortog T êtavapeur";
 		};
 		GnomereganEnt = {
 			ZoneName = "Gnomeregan";
 			Location = "Dun Morogh";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE..INDENT.."Pierre de Rencontre";
 			BLUE.."B) Gnomeregan (Principale)";
 			BLUE.."C) Gnomeregan (Atelier)";
@@ -118,32 +118,32 @@ if ( GetLocale() == "frFR" ) then
 		MaraudonEnt = {
 			ZoneName = "Maraudon";
 			Acronym = "Mara";
-			Location = "D\195\169solace";
-			BLUE.."A) Entr\195\169e";
-			BLUE..INDENT.."Le Proph\195\168te sans nom";
+			Location = "Désolace";
+			BLUE.."A) Entrée";
+			BLUE..INDENT.."Le Prophète sans nom";
 			BLUE.."B) Maraudon (Violet)";
 			BLUE.."C) Maraudon (Orange)";
 			BLUE.."D) Maraudon (Portail)";
 			GREY.."1) Kolk (1er Khan)";
-			GREY.."2) Gelk (2\195\168me Khan)";
-			GREY.."3) Magra (3\195\168me Khan)";
+			GREY.."2) Gelk (2ème Khan)";
+			GREY.."3) Magra (3ème Khan)";
 			GREY.."4) Cavindra";
 		};
 		TheDeadminesEnt = {
 			ZoneName = "Les Mortemines";
 			Acronym = "VC/MM";
 			Location = "Marche de l'Ouest";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE.."B) Les Mortemines";
 			GREY.."1) Marisa du'Paige (Variable)";
-			GREY.."2) Noble manipul\195\169 (Rare)";
-			GREY.."3) Contrema\195\174tre Crispechardon";
+			GREY.."2) Noble manipulé (Rare)";
+			GREY.."3) Contremaître Crispechardon";
 		};
 		TheSunkenTempleEnt = {
 			ZoneName = "Temple englouti";
 			Acronym = "ST";
 			Location = "Marais des Chagrins";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE..INDENT.."Pierre de Rencontre";
 			BLUE..INDENT.."Jade (Rare)";
 			BLUE.."B) Temple englouti";
@@ -155,26 +155,26 @@ if ( GetLocale() == "frFR" ) then
 			ZoneName = "Uldaman";
 			Acronym = "Ulda";
 			Location = "Terres ingrates";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE.."B) Uldaman";
-			GREY.."1) Mart\195\168lorteil Grez";
+			GREY.."1) Martèlorteil Grez";
 			GREY.."2) Magregan Fondombre (Patrouille)";
 			GREY.."3) Tablette de Ryun'eh";
-			GREY.."4) Tr\195\169sor de Krom Rudebras";
-			GREY.."5) Tr\195\169sor de la famille Garrett";
-			GREN.."1') Ma\195\174tre des fouilles Pellaphlange (Rare, Variable)";
+			GREY.."4) Trésor de Krom Rudebras";
+			GREY.."5) Trésor de la famille Garrett";
+			GREN.."1') Maître des fouilles Pellaphlange (Rare, Variable)";
 		};
 		WailingCavernsEnt = {
 			ZoneName = "Cavernes des lamentations";
 			Acronym = "WC";
 			Location = "Les Tarides";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE.."B) Cavernes des lamentations";
 			GREY.."1) Magglish le Dingue (Variable)";
 			GREY.."2) Trigore le Flagelleur (Rare)";
 			GREY.."3) Boahn (Rare)";
 			"";
-			ORNG.."Au-dessus de l'entr\195\169e :";
+			ORNG.."Au-dessus de l'entrée :";
 			GREY..INDENT.."Ebru";
 			GREY..INDENT.."Nalpak";
 			GREY..INDENT.."Kalldan Gangrelune";
@@ -183,29 +183,29 @@ if ( GetLocale() == "frFR" ) then
 		DireMaulEnt = {
 			ZoneName = "Hache-tripes";
 			Acronym = "DM/HT";
-			Location = "F\195\169ralas";
-			BLUE.."A) Entr\195\169e";
+			Location = "Féralas";
+			BLUE.."A) Entrée";
 			BLUE.."B) Aile Est";
 			BLUE.."C) Aile Nord";
 			BLUE.."D) Aile Ouest";
 			GREY.."1) Bassin redoutable";
 			GREY.."2) L'Etripoir";
 			GREY..INDENT.."Mushgog (Hazard)";
-			GREY..INDENT.."B\195\162lhafr l'Invaincu (Hazard)";
+			GREY..INDENT.."Bâlhafr l'Invaincu (Hazard)";
 			GREY..INDENT.."La Razza (Hazard)";
-			GREY..INDENT.."Ancienne Marche-brume (F\195\170te lunaire)";
+			GREY..INDENT.."Ancienne Marche-brume (Fête lunaire)";
 		};
 		CoTEnt = {
 			ZoneName = "Grottes du Temps";
 			Acronym = "CoT";
 			Location = "Tanaris";
-			BLUE.."A) Entr\195\169e";
+			BLUE.."A) Entrée";
 			BLUE.."B) Sommet d'Hyjal";
 			BLUE.."C) Les Contreforts d'Hautebrande d'antan";
-			BLUE.."D) Le Noir Mar\195\169cage";
-			GREY.."1) R\195\169gisseur du temps";
+			BLUE.."D) Le Noir Marécage";
+			GREY.."1) Régisseur du temps";
 			GREY.."2) Alexston Chrome";
-			GREY.."3) Cimeti\195\168re";
+			GREY.."3) Cimetière";
 			GREY.."4) Yarley";
 			GREY.."5) Bortega";
 			GREY..INDENT.."Galgrom";
@@ -249,7 +249,3 @@ if ( GetLocale() == "frFR" ) then
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 
 end
-
--- \195\130 �   -- \195\168 �   -- \195\171 �   -- \195\180 �   -- \197\146 �
--- \195\160 �   -- \195\169 �   -- \195\174 �   -- \195\187 �   -- \197\147 �   
--- \195\162 �   -- \195\170 �   -- \195\175 �   -- \185\167 �

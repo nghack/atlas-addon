@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -32,7 +32,7 @@ if ( GetLocale() == "frFR" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "   ";
 
-	local myCategory = "Rencontres de Raids ext\195\169rieur";
+	local myCategory = "Rencontres de Raids extérieur";
 
 	local myData = {
 		Azuregos = {
@@ -43,32 +43,32 @@ if ( GetLocale() == "frFR" ) then
 		FourDragons = {
 			ZoneName = "Les Dragons du Cauchemard";
 			Location = "Divers";
-			GREY.."1) Le bosquet du cr\195\169puscule - Bois de la P\195\169nombre";
+			GREY.."1) Le bosquet du crépuscule - Bois de la Pénombre";
 			GREY.."2) Seradane - Les Hinterlands";
 			GREY..INDENT.."Rothos";
-			GREY..INDENT.."Cherche-r\195\170ve";
-			GREY.."3) Bosquet du r\195\170ve - F\195\169ralas";
+			GREY..INDENT.."Cherche-rêve";
+			GREY.."3) Bosquet du rêve - Féralas";
 			GREY..INDENT.."Lethlas";
-			GREY..INDENT.."Hurle-r\195\170ve";
+			GREY..INDENT.."Hurle-rêve";
 			GREY.."4) L'ombrage - Orneval";
 			GREY..INDENT.."Phantim";
-			GREY..INDENT.."Traque-r\195\170ve";
+			GREY..INDENT.."Traque-rêve";
 			"";
 			GREN.."Les Dragons";
-			GREY..INDENT.."L\195\169thon";
+			GREY..INDENT.."Léthon";
 			GREY..INDENT.."Emeriss";
 			GREY..INDENT.."Taerar";
 			GREY..INDENT.."Ysondre";
 		};
 		HighlordKruul = {
-			ZoneName = "G\195\169n\195\169ralissime Kruul";
-			Location = "Terres Foudroy\195\169es";
-			GREY.."1) G\195\169n\195\169ralissime Kruul";
-			GREY.."2) Rempart-du-N\195\169ant";
+			ZoneName = "Généralissime Kruul";
+			Location = "Terres Foudroyées";
+			GREY.."1) Généralissime Kruul";
+			GREY.."2) Rempart-du-Néant";
 		};
 		DoomLordKazzak = {
 			ZoneName = "Seigneur Funeste Kazzak";
-			Location = "P\195\169ninsule des Flammes Infernales";
+			Location = "Péninsule des Flammes Infernales";
 			GREY.."1) Seigneur Funeste Kazzak";
 			GREY.."2) Site d'invasion : Annihilateur";
 			GREY.."3) Camp de Forge : Rage";
@@ -77,7 +77,7 @@ if ( GetLocale() == "frFR" ) then
 		};
 		Doomwalker = {
 			ZoneName = "Marche-funeste";
-			Location = "Vall\195\169e d'Ombrelune";
+			Location = "Vallée d'Ombrelune";
 			GREY.."1) Marche-funeste";
 		};
 	};

@@ -191,9 +191,35 @@ if ( GetLocale() ==	"zhTW" ) then
 			BLUE.."C) 北側";
 			BLUE.."D) 西側";
 			GREY.."1) 厄運之池";
-			GREY.."2) 姆斯高格";
-			GREY..INDENT.."無敵的斯卡爾";
-			GREY..INDENT.."拉里爾";
+			GREY.."2) 厄運競技場";
+			GREY..INDENT.."姆斯高格 (稀有)";
+			GREY..INDENT.."無敵的斯卡爾 (稀有)";
+			GREY..INDENT.."拉里爾 (稀有)";
+			GREY..INDENT.."迷霧長者 (節慶)";
+		};
+		CoTEnt = {
+			ZoneName = "時光之穴";
+			Acronym = "CoT";
+			Location = "塔納利斯";
+			BLUE.."A) 入口";
+			BLUE.."B) 海加爾山";
+			BLUE.."C) 希爾斯布萊德丘陵";
+			BLUE.."D) 黑色沼澤";
+			GREY.."1) 時間服務員";
+			GREY.."2) 艾力克斯頓·科洛米";
+			GREY.."3) 墓地";
+			GREY.."4) 亞利";
+			GREY.."5) 伯特卡";
+			GREY..INDENT.."卡葛隆姆";
+			GREY..INDENT.."阿勒米";
+			GREY.."6) 薩拉多姆";
+			GREY..INDENT.."索芮朵蜜 (徘徊)";
+			GREY..INDENT.."阿拉斯莫杜 (徘徊)";
+			GREY.."7) 月井";
+			GREY.."8) 安杜姆 (兒年)";
+			GREY..INDENT.."諾札瑞 (幼年)";
+			GREY.."9) 安杜姆 (成年)";
+			GREY..INDENT.."諾札瑞 (成年)";
 		};
 	};
 
@@ -219,6 +245,8 @@ if ( GetLocale() ==	"zhTW" ) then
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
 	myData.DireMaulEnt.LevelRange =				"54-61";
 	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

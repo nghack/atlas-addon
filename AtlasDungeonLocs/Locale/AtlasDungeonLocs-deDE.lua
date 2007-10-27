@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -37,17 +37,17 @@ if ( GetLocale() == "deDE" ) then
 	local myData = {
 		DLEast = {
 			ZoneName = "Dungeon Standorte (Osten)";
-			Location = "\195\150stlicher K\195\182nigreiche";
+			Location = "Östliche Königreiche";
 			BLUE.."A) Alteractal, ".._RED.."Alteracgebirge/";
-			_RED..INDENT.."Vorgebirge des H\195\188gellands";
+			_RED..INDENT.."Vorgebirge des Hügellands";
 			BLUE.."B) Arathibecken, ".._RED.."Arathihochland";
 			GREY.."1) Das scharlachrote Kloster, ".._RED.."Tirisfal";
-			GREY.."2) Stratholme, ".._RED.."\195\150stliche Pestl\195\164nder";
+			GREY.."2) Stratholme, ".._RED.."Östliche Pestländer";
 			GREY..INDENT.."Naxxramas, ".._RED.."Stratholme";
-			GREY.."3) Scholomance, ".._RED.."Westliche Pestl\195\164nder";
+			GREY.."3) Scholomance, ".._RED.."Westliche Pestländer";
 			GREY.."4) Burg Schattenfang, ".._RED.."Silberwald";
 			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
-			GREY.."6) Uldaman, ".._RED.."\195\150dland";
+			GREY.."6) Uldaman, ".._RED.."Ödland";
 			GREY.."7) Pechschwingenhort,";
 			_RED..INDENT.."Schwarzfelsspitze";
 			GREY..INDENT.."Schwarzfelstiefen, ".._RED.."Der Schwarzfels";
@@ -59,10 +59,10 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."10) Zul'Gurub, ".._RED.."Schlingendorntal";
 			GREY.."11) Karazhan, ".._RED.."Gebirgspass der Totenwinde";
 			GREY.."12) Der Tempel von Atal'Hakkar,";
-			_RED..INDENT.."S\195\188mpfe des Elends";
+			_RED..INDENT.."Sümpfe des Elends";
 			"";
 			BLUE.."Blau:"..ORNG.." Schlachtfelder";
-			GREY.."Wei\195\159:"..ORNG.." Instanzen";
+			GREY.."Weiß:"..ORNG.." Instanzen";
 		};
 		DLWest = {
 			ZoneName = "Dungeon Standorte (Westen)";
@@ -71,16 +71,16 @@ if ( GetLocale() == "deDE" ) then
 			_RED..INDENT.."Brachland / Eschental";
 			GREY.."1) Tiefschwarze Grotte, ".._RED.."Eschental";
 			GREY.."2) Der Flammenschlund, ".._RED.."Orgrimmar";
-			GREY.."3) Die H\195\182hlen des Wehklagens,";
+			GREY.."3) Die Höhlen des Wehklagens,";
 			_RED..INDENT.."Brachland";
 			GREY.."4) Maraudon, ".._RED.."Desolace";
-			GREY.."5) D\195\188sterbruch, ".._RED.."Feralas";
+			GREY.."5) Düsterbruch, ".._RED.."Feralas";
 			GREY.."6) Kral der Klingenhauer, ".._RED.."Brachland";
-			GREY.."7) H\195\188gel der Klingenhauer, ".._RED.."Brachland";
-			GREY.."8) Onyxias Hort, ".._RED.."D\195\188stermarschen";
+			GREY.."7) Hügel der Klingenhauer, ".._RED.."Brachland";
+			GREY.."8) Onyxias Hort, ".._RED.."Düstermarschen";
 			GREY.."9) Zul'Farrak, ".._RED.."Tanaris";
-			GREY.."10) H\195\182hlen der Zeit, ".._RED.."Tanaris";
-                        GREY..INDENT.."Vorgebirge des Alten H\195\188gellands";
+			GREY.."10) Höhlen der Zeit, ".._RED.."Tanaris";
+			GREY..INDENT.."Vorgebirge des Alten Hügellands";
 			GREY..INDENT.."Der schwarze Morast";
 			GREY..INDENT.."Hyjalgipfel";
 			GREY.."11) Ruinen von Ahn'Qiraj, ".._RED.."Silithus";
@@ -94,36 +94,35 @@ if ( GetLocale() == "deDE" ) then
 			"";
 			"";
 			BLUE.."Blau:"..ORNG.." Schlachtfelder";
-			GREY.."Wei\195\159:"..ORNG.." Instanzen";
+			GREY.."Weiß:"..ORNG.." Instanzen";
 		};
 		DLOutland = {
 			ZoneName = "Dungeon Standorte (Scherbenwelt)";
 			Location = "Scherbenwelt";
 			GREY.."1) Gruuls Unterschlupf, ".._RED.."Schergrat";
-			GREY.."2) Festung der St\195\188rme, ".._RED.."Nethersturm";
-                        GREY..INDENT.."Die Mechanar";
+			GREY.."2) Festung der Stürme, ".._RED.."Nethersturm";
+			GREY..INDENT.."Die Mechanar";
 			GREY..INDENT.."Die Botanika";
 			GREY..INDENT.."Die Arkatraz";
-			GREY..INDENT.."Auge des St\195\188rms";
+			GREY..INDENT.."Auge des Stürms";
 			GREY.."3) Der Echsenkessel, ".._RED.."Zangarmarschen";
-                        GREY..INDENT.."Die Sklavenunterk\195\188nfte";
+			GREY..INDENT.."Die Sklavenunterkünfte";
 			GREY..INDENT.."Der Tiefensumpf";
 			GREY..INDENT.."Die Dampfkammer";
-                        GREY..INDENT.."H\195\182hle des Schlangenschreins";
-			GREY.."4) H\195\182llenfeuerzitadelle,";
-			_RED..INDENT.."H\195\182llenfeuerhalbinsel";
-                        GREY..INDENT.."H\195\182llenfeuerbollwerk";
+			GREY..INDENT.."Höhle des Schlangenschreins";
+			GREY.."4) Höllenfeuerzitadelle,";
+			_RED..INDENT.."Höllenfeuerhalbinsel";
+			GREY..INDENT.."Höllenfeuerbollwerk";
 			GREY..INDENT.."Der Blutkessel";
 			GREY..INDENT.."Die zerschmetterten Hallen";
 			GREY..INDENT.."Magtheridons Kammer";
-			GREY.."5) Auchindoun, ".._RED.."W\195\164lder von Terrokar";
-                        GREY..INDENT.."Managruft";
+			GREY.."5) Auchindoun, ".._RED.."Wälder von Terrokar";
+			GREY..INDENT.."Managruft";
 			GREY..INDENT.."Auchenaikrypta";
 			GREY..INDENT.."Sethekkhallen";
 			GREY..INDENT.."Schattenlabyrinth"; 
 			GREY.."6) Der Schwarze Tempel,";
 			_RED..INDENT.."Schattenmondtal";
-			
 		};
 	};
 

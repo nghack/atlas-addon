@@ -10,6 +10,7 @@ v1.10.3
 - revamped the UBRS map (Nifl, Celellach)
 - added a new option for the grouping of instance maps
 - fixed an auto-select issue with the new grouping code
+- deDE, frFR, and esES localisation files are now encoded in UTF-8 (Maqjav)
 - added specific zone names to the 'dragons of nightmare' areas (Celellach)
 - added named mobs that are roaming at the 'dragons of nightmare' spots (Celellach)
 - added Coren Direbrew (Brewfest) to BRD (Celellach)

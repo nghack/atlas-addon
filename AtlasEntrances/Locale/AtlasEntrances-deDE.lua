@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -32,34 +32,34 @@ if ( GetLocale() == "deDE" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "   ";
 
-	local myCategory = "Instanzen-Eing\195\164nge";
+	local myCategory = "Instanzen-Eingänge";
 
 	local myData = {
 		AuchindounEnt = {
 			ZoneName = "Auchindoun";
 			Acronym = "Auch";
-			Location = "Die Knochenw\195\188ste, W\195\164lder von Terrokar";
+			Location = "Die Knochenwüste, Wälder von Terrokar";
 			BLUE.."A) Auchenaikrypta";
 			BLUE.."B) Managruft";
 			BLUE.."C) Sethekkhallen";
 			BLUE.."D) Schattenlabyrinth";
-                        BLUE.."E) Eing\195\164nge";
+			BLUE.."E) Eingänge";
 			GREY.."1) Ha'Lei";
-                        GREY..INDENT.."Gro\195\159vater Aldrimus";
-                        GREY..INDENT.."Clarissa";
+			GREY..INDENT.."Großvater Aldrimus";
+			GREY..INDENT.."Clarissa";
 			GREY..INDENT.."Ramdor der Wahnsinnige";
-			GREY..INDENT.."Horvon der R\195\188stungsschmied";
+			GREY..INDENT.."Horvon der Rüstungsschmied";
 			GREY.."2) Nexusprinz Haramad";
 			GREY..INDENT.."Konstrukteur Morphalius";
-                        GREY..INDENT.."Mamdy der \"Ologe\""; 
-                        GREY..INDENT.."\"Silm\"";
-                        GREY..INDENT.."\"Kapit\195\164n\" Kaftiz";  
+			GREY..INDENT.."Mamdy der \"Ologe\""; 
+			GREY..INDENT.."\"Silm\"";
+			GREY..INDENT.."\"Kapitän\" Kaftiz";  
 			GREY.."3) Isfar";
 			GREY.."4) Feldkommandeur Mahfuun";
 			GREY..INDENT.."Spionin Grik'tha";
-                        GREY..INDENT.."Versorger Tsaalt";
-			GREY..INDENT.."H\195\164ndler Tariq";
-                        GREY.."5) Versammlungsstein";
+			GREY..INDENT.."Versorger Tsaalt";
+			GREY..INDENT.."Händler Tariq";
+			GREY.."5) Versammlungsstein";
 		};
 		BlackfathomDeepsEnt = {
 			ZoneName = "Tiefschwarze Grotte";
@@ -76,52 +76,51 @@ if ( GetLocale() == "deDE" ) then
 			BLUE.."B) Brennende Steppe";
 			BLUE.."C) Schwarzfelstiefen (BRT)";
 			BLUE..INDENT.."Geschmolzener Kern (MC)";
-                        BLUE.."D) Untere Schwarzfelsspitze (LBRS)";
-                        BLUE..INDENT.."Obere Schwarzfelsspitze (UBRS)";
+			BLUE.."D) Untere Schwarzfelsspitze (LBRS)";
+			BLUE..INDENT.."Obere Schwarzfelsspitze (UBRS)";
 			BLUE..INDENT.."Pechschwingenhort (BWL)";
 			BLUE..INDENT.."Bodley (Geist)";
-			GREY.."1) \195\156bermeister Pyron (Patrouilliert)";
+			GREY.."1) Übermeister Pyron (Patrouilliert)";
 			GREY.."2) Lothos Felsspalter";
-                        GREY.."3) Franclorn Schmiedevater (Geist)";
-                        GREY.."4) BRD Versammlungsstein";
-                        GREY.."5) Befehlskugel";
-                        GREY.."6) BRS Versammlungsstein";
-			GREY.."7) R\195\188stmeister der Schmetterschilde";
+			GREY.."3) Franclorn Schmiedevater (Geist)";
+			GREY.."4) BRD Versammlungsstein";
+			GREY.."5) Befehlskugel";
+			GREY.."6) BRS Versammlungsstein";
+			GREY.."7) Rüstmeister der Schmetterschilde";
 		};
 		CoilfangReservoirEnt = {
 			ZoneName = "Der Echsenkessel";
 			Acronym = "EK";
 			Location = "Zangarmarschen";
-			BLUE.."A) Die Sklavenunterk\195\188nfte";
+			BLUE.."A) Die Sklavenunterkünfte";
 			BLUE.."B) Die Dampfkammer";
-			BLUE.."C) H\195\182hle des Schlangenschreins";
+			BLUE.."C) Höhle des Schlangenschreins";
 			BLUE.."D) Der Tiefensumpf";
-                        BLUE.."E) Eingang (Unterwasser)";
-			GREY.."1) Beh\195\188terin Jhang";
+			BLUE.."E) Eingang (Unterwasser)";
+			GREY.."1) Behüterin Jhang";
 			GREY..INDENT.."Versammlungsstein";
-                        GREY.."2) Mortog Dampfkopf";
+			GREY.."2) Mortog Dampfkopf";
 		};
 		GnomereganEnt = {
 			ZoneName = "Gnomeregan";
 			Location = "Dun Morogh";
 			BLUE.."A) Eingang";
-                        BLUE..INDENT.."Versammlungsstein";
-                        BLUE.."B) Gnomeregan (Haupteingang)";
+			BLUE..INDENT.."Versammlungsstein";
+			BLUE.."B) Gnomeregan (Haupteingang)";
 			BLUE.."C) Gnomeregan (Werkstatteingang)";
 			GREY.."1) Aufzug";
 			GREY.."2) Transpolyporter";
-                        GREY..INDENT.."Sprok"; 
+			GREY..INDENT.."Sprok"; 
 			GREY.."3) Matrix Punchograh 3005-A";
-                        GREY..INDENT.."Namdo Blitzzischel"; 
+			GREY..INDENT.."Namdo Blitzzischel"; 
 			GREY.."4) Techbot";
-			
 		};
 		MaraudonEnt = {
 			ZoneName = "Maraudon";
 			Acronym = "Mara/Mauro";
 			Location = "Desolace";
 			BLUE.."A) Eingang";
-                        BLUE..INDENT.."Der namenlose Prophet";
+			BLUE..INDENT.."Der namenlose Prophet";
 			BLUE.."B) Maraudon (Lila)";
 			BLUE.."C) Maraudon (Orange)";
 			BLUE.."D) Maraudon (Portal)";
@@ -136,73 +135,73 @@ if ( GetLocale() == "deDE" ) then
 			Location = "Westfall";
 			BLUE.."A) Eingang";
 			BLUE.."B) Die Todesminen";
-                        GREY.."1) Marisa du'Paige (Variiert)";
+			GREY.."1) Marisa du'Paige (Variiert)";
 			GREY.."2) Manipulierter Adliger (Rar)";
-			GREY.."3) Gro\195\159knecht Distelklette";
+			GREY.."3) Großknecht Distelklette";
 		};
 		TheSunkenTempleEnt = {
 			ZoneName = "Der Tempel von Atal'Hakkar";
 			Acronym = "Tempel";
-			Location = "S\195\188mpfe des Elends";
+			Location = "Sümpfe des Elends";
 			BLUE.."A) Eingang";
-                        BLUE..INDENT.."Versammlungsstein";
+			BLUE..INDENT.."Versammlungsstein";
 			BLUE..INDENT.."Jade (Rar)";
 			BLUE.."B) Der Tempel von Atal'Hakkar";
-                        GREY.."1) Kazkaz der Unheilige (oben)";
-                        GREY.."2) Zekkis (Rar, unten)";
-                        GREY.."?) Veyzhack der Kannibale (Unbekannt)";
+			GREY.."1) Kazkaz der Unheilige (oben)";
+			GREY.."2) Zekkis (Rar, unten)";
+			GREY.."?) Veyzhack der Kannibale (Unbekannt)";
 		};
 		UldamanEnt = {
 			ZoneName = "Uldaman";
 			Acronym = "Ulda";
-			Location = "\195\150dland";
+			Location = "Ödland";
 			BLUE.."A) Eingang";
 			BLUE.."B) Uldaman";
-                        GREY.."1) Hammerzeh Grez";
-                        GREY.."2) Magregan Grubenschatten (Patrouilliert)";
+			GREY.."1) Hammerzeh Grez";
+			GREY.."2) Magregan Grubenschatten (Patrouilliert)";
 			GREY.."3) Schrifttafel von Ryun'eh";
 			GREY.."4) Krom Stoutarms Truhe";
 			GREY.."5) Familientruhe der Garretts";
 			GREN.."1) Grubenmeister Schaufelphlansch (Rar, Variiert)";
 		};
 		WailingCavernsEnt = {
-			ZoneName = "Die H\195\182hlen des Wehklagens";
+			ZoneName = "Die Höhlen des Wehklagens";
 			Acronym = "HdW";
 			Location = "Brachland";
 			BLUE.."A) Eingang";
-			BLUE.."B) Die H\195\182hlen des Wehklagens";
-                        GREY.."1) Zausel der Verr\195\188ckte (Variiert)";
+			BLUE.."B) Die Höhlen des Wehklagens";
+			GREY.."1) Zausel der Verrückte (Variiert)";
 			GREY.."2) Trigore der Peitscher (Rar)";
 			GREY.."3) Boahn (Rar)";
 			"";
-			ORNG.."\195\156ber dem Eingang:";
+			ORNG.."Über dem Eingang:";
 			GREY..INDENT.."Ebru";
 			GREY..INDENT.."Nalpak";
 			GREY..INDENT.."Kalldan Teufelsmond";
 			GREY..INDENT.."Waldor";
-                };
-                DireMaulEnt = {
-			ZoneName = "D\195\188sterbruch";
+		};
+		DireMaulEnt = {
+			ZoneName = "Düsterbruch";
 			Acronym = "DB";
 			Location = "Feralas";
 			BLUE.."A) Eingang";
-			BLUE.."B) Ostfl\195\188gel";
-			BLUE.."C) Nordfl\195\188gel";
-			BLUE.."D) Westfl\195\188gel";
-			GREY.."1) D\195\188sterteich";
-			GREY.."2) D\195\188sterbruch Arena";
-			GREY..INDENT.."Mushgog (Zuf\195\164llig)";
-			GREY..INDENT.."Skarr der Unbezwingbare (Zuf\195\164llig)";
-			GREY..INDENT.."Der Razza (Zuf\195\164llig)";
-			GREY..INDENT.."Urahnin Nebelg\195\164nger (Mondfest)";
+			BLUE.."B) Ostflügel";
+			BLUE.."C) Nordflügel";
+			BLUE.."D) Westflügel";
+			GREY.."1) Düsterteich";
+			GREY.."2) Düsterbruch Arena";
+			GREY..INDENT.."Mushgog (Zufällig)";
+			GREY..INDENT.."Skarr der Unbezwingbare (Zufällig)";
+			GREY..INDENT.."Der Razza (Zufällig)";
+			GREY..INDENT.."Urahnin Nebelgänger (Mondfest)";
 		};
 		CoTEnt = {
-			ZoneName = "H\195\182hlen der Zeit";
+			ZoneName = "Höhlen der Zeit";
 			Acronym = "HdZ";
 			Location = "Tanaris";
 			BLUE.."A) Eingang";
 			BLUE.."B) Hyjalgipfel";
-			BLUE.."C) Vorgebirge des Alten H\195\188gellands";
+			BLUE.."C) Vorgebirge des Alten Hügellands";
 			BLUE.."D) Der schwarze Morast";
 			GREY.."1) Ordner der Zeit";
 			GREY.."2) Alexston Chrom";

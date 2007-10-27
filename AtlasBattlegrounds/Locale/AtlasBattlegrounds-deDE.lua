@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -38,7 +38,7 @@ if ( GetLocale() == "deDE" ) then
 		AlteracValleyNorth = {
 			ZoneName = "Alteractal (Norden)";
 			Acronym = "AV";
-			Location = "Vorgebirge des H\195\188gellands";
+			Location = "Vorgebirge des Hügellands";
 			ORNG.."Ruf: Frostwolfklan (Horde)";
 			ORNG.."Ruf: Sturmlanzengarde (Allianz)";
 			BLUE.."A) Eingang";
@@ -49,51 +49,51 @@ if ( GetLocale() == "deDE" ) then
 			_RED.."4) Schneewehenfriedhof";
 			ORNG.."5) Nordbunker von Dun Baldar";
 			GREY..INDENT.."Schwadronskommandant Mulverick (Horde)";
-			ORNG.."6) S\195\188dbunker von Dun Baldar";
+			ORNG.."6) Südbunker von Dun Baldar";
 			ORNG.."7) Eisschwingenbunker";
 			GREY..INDENT.."Schwadronskommandant Guse (Horde)";
 			GREY..INDENT.."Kommandant Karl Philips (Allianz)";
-			ORNG.."8) Steinbruchau\195\159enposten (Balinda)";
+			ORNG.."8) Steinbruchaußenposten (Balinda)";
 			ORNG.."9) Steinbruchbunker";
 			GREY.."10) Eisenschachtmine";
-			GREY.."11) Eisschwingenh\195\182hle";
-			GREY.."12) Dampfs\195\164ge (Horde)";
+			GREY.."11) Eisschwingenhöhle";
+			GREY.."12) Dampfsäge (Horde)";
 			GREY.."13) Schwadronskommandant Jeztor (Horde)";
-			GREY.."14) Ivus der Waldf\195\188rst (Beschw\195\182rungszone)";
+			GREY.."14) Ivus der Waldfürst (Beschwörungszone)";
 			"";
-			_RED.."Rot:"..BLUE.." Friedh\195\182fe, Einnehmbare Gebiete";
-			ORNG.."Orange:"..BLUE.." Bunker, T\195\188rme, Zerst\195\182rbare Gebiete";
-			GREY.."Wei\195\159:"..BLUE.." Angreifbare NPCs, Quest-Gebiete";
+			_RED.."Rot:"..BLUE.." Friedhöfe, Einnehmbare Gebiete";
+			ORNG.."Orange:"..BLUE.." Bunker, Türme, Zerstörbare Gebiete";
+			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Quest-Gebiete";
 		};
 		AlteracValleySouth = {
-			ZoneName = "Alteractal (S\195\188den)";
+			ZoneName = "Alteractal (Süden)";
 			Acronym = "AV";
-			Location = "Vorgebirge des H\195\188gellands";
+			Location = "Vorgebirge des Hügellands";
 			ORNG.."Ruf: Frostwolfklan (Horde)";
 			ORNG.."Ruf: Sturmlanzengarde (Allianz)";
 			BLUE.."A) Eingang";
 			BLUE.."B) Burg Frostwolf (Horde)";
-			_RED.."1) Heilerh\195\188tte der Frostw\195\182lfe";
-			_RED.."2) Friedhof der Frostw\195\182lfe";
+			_RED.."1) Heilerhütte der Frostwölfe";
+			_RED.."2) Friedhof der Frostwölfe";
 			_RED.."3) Eisblutfriedhof";
 			ORNG.."4) Westlicher Frostwolfturm";
-			ORNG.."5) \195\150stlicher Frostwolfturm";
+			ORNG.."5) Östlicher Frostwolfturm";
 			GREY..INDENT.."Schwadronskommandant Ichman (Allianz)";
 			ORNG.."6) Turmstellung";
 			GREY..INDENT.."Schwadronskommandant Slidore (Allianz)";
 			GREY..INDENT.."Kommandant Louis Philips (Horde)";
 			ORNG.."7) Eisblutturm";
 			ORNG.."8) Eisblutgarnison (Galvangar)";
-			GREY.."9) H\195\182hle der Wildpfoten";
-			GREY.."10) Wolfsreiterkommandant der Frostw\195\182lfe";
+			GREY.."9) Höhle der Wildpfoten";
+			GREY.."10) Wolfsreiterkommandant der Frostwölfe";
 			GREY.."11) Schwadronskommandant Vipore (Allianz)";
-			GREY.."12) Eisbei\195\159ermine";
-			GREY.."13) Dampfs\195\164ge (Allianz)";
-			GREY.."14) Lokholar der Eislord (Beschw\195\182rungszone)";
+			GREY.."12) Eisbeißermine";
+			GREY.."13) Dampfsäge (Allianz)";
+			GREY.."14) Lokholar der Eislord (Beschwörungszone)";
 			"";
-			_RED.."Rot:"..BLUE.." Friedh\195\182fe, Einnehmbare Gebiete";
-			ORNG.."Orange:"..BLUE.." Bunker, T\195\188rme, Zerst\195\182rbare Gebiete";
-			GREY.."Wei\195\159:"..BLUE.." Angreifbare NPCs, Quest-Gebiete";
+			_RED.."Rot:"..BLUE.." Friedhöfe, Einnehmbare Gebiete";
+			ORNG.."Orange:"..BLUE.." Bunker, Türme, Zerstörbare Gebiete";
+			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Quest-Gebiete";
 		};
 		ArathiBasin = {
 			ZoneName = "Arathibecken";
@@ -103,10 +103,10 @@ if ( GetLocale() == "deDE" ) then
 			ORNG.."Ruf: Bund von Arathor (Allianz)";
 			BLUE.."A) Trollbanns Halle";
 			BLUE.."B) Die entweihte Feste";
-			GREY.."1) St\195\164lle";
+			GREY.."1) Ställe";
 			GREY.."2) Goldmine";
 			GREY.."3) Schmiede";
-			GREY.."4) S\195\164gewerk";
+			GREY.."4) Sägewerk";
 			GREY.."5) Hof";
 		};
 		WarsongGulch = {
@@ -116,7 +116,7 @@ if ( GetLocale() == "deDE" ) then
 			ORNG.."Ruf: Kriegshymnenklan (Horde)";
 			ORNG.."Ruf: Schildwachen der Silberschwingen (Allianz)";
 			BLUE.."A) Feste der Silberschwingen (Allianz)";
-			BLUE.."B) S\195\164gewerk des Kriegshymnenklans (Horde)";
+			BLUE.."B) Sägewerk des Kriegshymnenklans (Horde)";
 		};
 		EyeOfTheStorm = {
 			ZoneName = "Auge des Sturms";
@@ -128,7 +128,7 @@ if ( GetLocale() == "deDE" ) then
 			ORNG.."X) Flagge";
 			GREY.."1) Magierturm";
 			GREY.."2) Draeneiruinen";
-			GREY.."3) Teufelsh\195\164scherruinen";
+			GREY.."3) Teufelshäscherruinen";
 			GREY.."4) Blutelfenturm";
 		};
 	};

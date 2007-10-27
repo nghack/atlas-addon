@@ -380,6 +380,7 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 黑色沼澤";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT2";
+			PURP.."事件: 開啟黑暗之門";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
@@ -396,6 +397,7 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 海加爾山";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT3";
+			PURP.."事件: 海加爾山戰場";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 流沙之鱗";
 			BLUE.."A) 聯盟營地";
@@ -414,6 +416,7 @@ AtlasMaps = {
 			ZoneName = "時光之穴: 希爾斯布萊德丘陵舊址";
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT1";
+			PURP.."事件: 逃離敦霍爾德";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
@@ -1287,6 +1290,18 @@ AtlasMaps = {
 			BLUE.."B) 黑暗神廟延伸";
 			GREY.."1) 高階督軍納珍塔斯";
 			GREY.."2) 瑟普莫斯";
+		};
+		ZulAman = {
+			ZoneName = "祖阿曼";
+			Location = "鬼魂之地";
+			Acronym = "ZA";
+			BLUE.."A) 入口";
+			GREY.."1) Nalorakk (Bear)";
+			GREY.."2) Akil'zon (Eagle)";
+			GREY.."3) Jan'alai (Dragonhawk)";
+			GREY.."4) Halazzi (Lynx)";
+			GREY.."5) Hexxlord Malacrass";
+			GREY.."6) Zul'jin";
 		};
 	};
 end

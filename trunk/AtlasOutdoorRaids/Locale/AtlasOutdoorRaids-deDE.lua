@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -37,20 +37,20 @@ if ( GetLocale() == "deDE" ) then
 	local myData = {
 		Azuregos = {
 			ZoneName = "Azuregos";
-			Location = "Azshara, S\195\188dklippenufer";
+			Location = "Azshara, Südklippenufer";
 			GREY.."1) Azuregos";
 		};
 		FourDragons = {
 			ZoneName = "Alptraumdrachen";
-			Location = "Zuf\195\164llig";
-			GREY.."1) Der Zwielichtshain - D\195\164mmerwald";
+			Location = "Zufällig";
+			GREY.."1) Der Zwielichtshain - Dämmerwald";
 			GREY.."2) Seradane - Hinterland";
 			GREY..INDENT.."Rothos";
 			GREY..INDENT.."Traumsucher";
-			GREY.."3) Traumge\195\164st - Feralas";
+			GREY.."3) Traumgeäst - Feralas";
 			GREY..INDENT.."Lethlas";
 			GREY..INDENT.."Traumbr�ller";
-			GREY.."4) Schattengr\195\188n - Eschental";
+			GREY.."4) Schattengrün - Eschental";
 			GREY..INDENT.."Phantim";
 			GREY..INDENT.."Traumpirscher";
 			"";
@@ -62,13 +62,13 @@ if ( GetLocale() == "deDE" ) then
 		};
 		HighlordKruul = {
 			ZoneName = "Hochlord Kruul";
-			Location = "Verw\195\188stete Lande, Die faulende Narbe";
+			Location = "Verwüstete Lande, Die faulende Narbe";
 			GREY.."1) Hochlord Kruul";
 			GREY.."2) Burg Nethergarde";
 		};
 		DoomLordKazzak = {
 			ZoneName = "Verdammnislord Kazzak";
-			Location = "H\195\182llenfeuerhalbinsel, Kil'jaedens Thron";
+			Location = "Höllenfeuerhalbinsel, Kil'jaedens Thron";
 			GREY.."1) Verdammnislord Kazzak";
 			GREY.."2) Invasionspunkt: Vernichter";
 			GREY.."3) Konstruktionslager: Zorn";

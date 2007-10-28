@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/24/2007
+-- Last Update : 10/28/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -201,8 +201,10 @@ if ( GetLocale() == "zhCN" ) then
 			GREY..INDENT.."索莉多米 (巡逻)";
 			GREY..INDENT.."阿拉兹姆多 (巡逻)";
 			GREY.."7) 月亮井";
-			GREY.."8) 安多姆、诺萨莉 (幼年)";
-			GREY.."9) 安多姆、诺萨莉 (成年)";
+			GREY.."8) 安多姆 (幼年)";
+			GREY..INDENT.."诺萨莉 (幼年)";
+			GREY.."9) 安多姆 (成年)";
+			GREY..INDENT.."诺萨莉 (成年)";
 		};
 	};
 

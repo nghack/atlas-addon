@@ -1280,7 +1280,7 @@ AtlasMaps = {
 		GREY.."2) Akil'zon (Águila)"; --Bien
 		GREY.."3) Jan'alai (Dracohalcón)"; --Bien
 		GREY.."4) Halazzi (Lince)"; --Bien
-		GREY.."5) Hexxlord Malacrass"; --Comprobar
+		GREY.."5) Hex Lord Malacrass"; --Comprobar
 		GREY.."6) Zul'jin"; --Bien
 	};
 };

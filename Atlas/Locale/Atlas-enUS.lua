@@ -1297,7 +1297,7 @@ AtlasMaps = {
 		GREY.."2) Akil'zon (Eagle)";
 		GREY.."3) Jan'alai (Dragonhawk)";
 		GREY.."4) Halazzi (Lynx)";
-		GREY.."5) Hexxlord Malacrass";
+		GREY.."5) Hex Lord Malacrass";
 		GREY.."6) Zul'jin";
 	};
 };

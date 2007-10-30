@@ -24,6 +24,8 @@ v1.10.3
 - added Vek'lor and Vek'nilash to Twin Emperors in AQ40 (Celellach)
 - added specific mobs and their classes to Illidari Council in BT (Telchar)
 - added event names to CoT maps (Celellach)
+- added Shrine of Gelihast, Morridune and Altar of the Deeps to BFD
+- changed Fathom Core to Fathom Stone in BFD
 
 v1.10.2
 - updated TOC number to 20200 for the 2.2 patch

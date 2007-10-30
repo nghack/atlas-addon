@@ -1275,7 +1275,7 @@ AtlasMaps = {
 		GREY.."2) Akil'zon (雄鹰)";
 		GREY.."3) Jan'alai (凤鹰)";
 		GREY.."4) Halazzi (山猫)";
-		GREY.."5) Hexxlord Malacrass";
+		GREY.."5) Hex Lord Malacrass";
 		GREY.."6) 祖金";
 	};
 };

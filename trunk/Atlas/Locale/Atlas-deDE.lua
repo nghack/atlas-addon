@@ -1307,8 +1307,8 @@ AtlasMaps = {
 		GREY.."1) Nalorakk (Bär)";
 		GREY.."2) Akil'zon (Adler)";
 		GREY.."3) Jan'alai (Drachenfalke)";
-		GREY.."4) Halazzi (Lynx)";
-		GREY.."5) Hexxlord Malacrass";
+		GREY.."4) Halazzi (Luchs)";
+		GREY.."5) Hex Lord Malacrass"; -- überprüfen
 		GREY.."6) Zul'jin";
 	};
 };

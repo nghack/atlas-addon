@@ -174,12 +174,15 @@ AtlasMaps = {
 		GREY.."3) Lady Sarevess";
 		GREY.."4) Argentumwache Thaelrid";
 		GREY.."5) Gelihast";
+		GREY..INDENT.."Gelihasts Schrein";
 		GREY.."6) Lorgus Jett (Variiert)";
-		GREY.."7) Baron Aquanis";
-		GREY..INDENT.."Tiefenkern";
+		GREY.."7) Tiefenstein";
+		GREY..INDENT.."Baron Aquanis";
 		GREY.."8) Schattenhammer-Lord Kelris";
 		GREY.."9) Old Serra'kis";
 		GREY.."10) Aku'mai";
+		GREY..INDENT.."Morridune";
+		GREY..INDENT.."Altar der Tiefen";
 	};
 	RazorfenKraul = {
 		ZoneName = "Kral der Klingenhauer";
@@ -542,7 +545,7 @@ AtlasMaps = {
 		GREY..INDENT.."StÃ¶psel Zapfring";
 		GREY..INDENT.."Gefreiter Rocknot";
 		GREY..INDENT.."Ribbly Schraubstutz";
-		GREY..INDENT.."Coren Düsterbräu (Braufest)";
+		GREY..INDENT.."Coren Dsterbru (Braufest)";
 		GREY.."16) Botschafter Flammenschlag";
 		GREY.."17) Panzor der Unbesiegbare (Rar)";
 		GREY..INDENT.."SchmiedeplÃ¤ne";

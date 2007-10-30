@@ -165,12 +165,15 @@ AtlasMaps = {
 		GREY.."3) Lady Sarevess";
 		GREY.."4) Argent Guard Thaelrid";
 		GREY.."5) Gelihast";
+		GREY..INDENT.."Shrine of Gelihast";
 		GREY.."6) Lorgus Jett (Varies)";
-		GREY.."7) Baron Aquanis";
-		GREY..INDENT.."Fathom Core";
+		GREY.."7) Fathom Stone";
+		GREY..INDENT.."Baron Aquanis";
 		GREY.."8) Twilight Lord Kelris";
 		GREY.."9) Old Serra'kis";
 		GREY.."10) Aku'mai";
+		GREY..INDENT.."Morridune";
+		GREY..INDENT.."Altar of the Deeps";
 	};
 	RazorfenKraul = {
 		ZoneName = "Razorfen Kraul";

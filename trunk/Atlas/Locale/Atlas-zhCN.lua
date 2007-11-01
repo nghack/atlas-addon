@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/24/2007
+-- Last Update : 11/2/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -143,12 +143,15 @@ AtlasMaps = {
 		GREY.."3) 萨利维丝";
 		GREY.."4) 银月守卫塞尔瑞德";
 		GREY.."5) 格里哈斯特";
+		GREY..INDENT.."格里哈斯特神殿";
 		GREY.."6) 洛古斯·杰特 (多个位置)";
-		GREY.."7) 阿奎尼斯男爵";
-		GREY..INDENT.."深渊之核";
+		GREY.."7) 深渊之核";
+		GREY..INDENT.."阿奎尼斯男爵";
 		GREY.."8) 梦游者克尔里斯";
 		GREY.."9) 瑟拉吉斯";
 		GREY.."10) 阿库迈尔";
+		GREY..INDENT.."莫瑞杜恩";
+		GREY..INDENT.."玛塞斯特拉祭坛";
 	};
 	RazorfenKraul = {
 		ZoneName = "剃刀沼泽";

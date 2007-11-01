@@ -163,13 +163,16 @@ AtlasMaps = {
 		GREY.."2) Manuscrit de Lorgalis";
 		GREY.."3) Dame Sarevess";
 		GREY.."4) Garde d'argent Thaelrid";
-		GREY.."5) Autel de Gelihast";
+		GREY.."5) Gelihast";
+		GREY..INDENT.."5) Autel de Gelihast";
 		GREY.."6) Lorgus Jett (Variable)";
 		GREY.."7) Baron Aquanis";
 		GREY..INDENT.."Noyau de la Brasse";
 		GREY.."8) Seigneur du crépuscule Kelris";
 		GREY.."9) Vieux Serra'kis";
 		GREY.."10) Aku'mai";
+		GREY..INDENT.."Morridune";
+		GREY..INDENT.."Autel des profondeurs";
 	};
 	RazorfenKraul = {
 		ZoneName = "Kraal de Tranchebauge";

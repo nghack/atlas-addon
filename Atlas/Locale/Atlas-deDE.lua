@@ -174,7 +174,7 @@ AtlasMaps = {
 		GREY.."3) Lady Sarevess";
 		GREY.."4) Argentumwache Thaelrid";
 		GREY.."5) Gelihast";
-		GREY..INDENT.."Gelihasts Schrein";
+		GREY..INDENT.."Schrein von Gelihast";
 		GREY.."6) Lorgus Jett (Variiert)";
 		GREY.."7) Tiefenstein";
 		GREY..INDENT.."Baron Aquanis";

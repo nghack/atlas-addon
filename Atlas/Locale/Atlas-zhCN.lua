@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/2/2007
+-- Last Update : 11/15/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -1270,16 +1270,16 @@ AtlasMaps = {
 		GREY.."2) 苏普雷姆斯";
 	};
 	ZulAman = {
-		ZoneName = "祖尔阿曼";
+		ZoneName = "祖阿曼";
 		Location = "幽魂之地";
 		Acronym = "ZA";
 		BLUE.."A) 入口";
-		GREY.."1) Nalorakk (巨熊)";
-		GREY.."2) Akil'zon (雄鹰)";
-		GREY.."3) Jan'alai (凤鹰)";
-		GREY.."4) Halazzi (山猫)";
-		GREY.."5) Hex Lord Malacrass";
-		GREY.."6) 祖金";
+		GREY.."1) 纳洛拉克 (巨熊)";
+		GREY.."2) 埃基尔松 (雄鹰)";
+		GREY.."3) 加亚莱 (凤鹰)";
+		GREY.."4) 哈尔拉兹 (山猫)";
+		GREY.."5) 妖术领主玛拉克拉斯";
+		GREY.."6) 祖尔金";
 	};
 };
 end

@@ -939,10 +939,14 @@ AtlasMaps = {
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Violet Eye";
 		ORNG.."Key: The Master's Key";
-		ORNG.."Key: Blackened Urn (Nightbane)";		
-		BLUE.."A) Front Entrance";		BLUE.."B) Staircase to the Ballroom (Moroes)";		BLUE.."C) Stairs to Upper Stable";		BLUE.."D) Ramp to the Guest Chambers (Maiden)";		BLUE.."E) Stairs to Opera House Orchestra Level";		BLUE.."F) Ramp from Mezzanine to Balcony";		BLUE.."G) Back Entrance";		BLUE.."H) Connection to:";
-		BLUE..INDENT.."Master's Terrace (Nightbane)";		BLUE.."I) Path to the Broken Stairs";
-		GREY.."1) Hastings <The Caretaker>";		GREY.."2) Hyakiss the Lurker (Rare, Random)";		GREY..INDENT.."Rokad the Ravager (Rare, Random)";		GREY..INDENT.."Shadikith the Glider (Rare, Random)";		GREY.."3) Berthold <The Doorman>";		GREY.."4) Calliard <The Nightman>";		GREY.."5) Attumen the Huntsman";		GREY..INDENT.."Midnight";		GREY.."6) Koren <The Blacksmith>";		GREY.."7) Moroes";		GREY..INDENT.."Baroness Dorothea Millstipe";
+		ORNG.."Key: Blackened Urn (Nightbane)";
+		BLUE.."A) Front Entrance";		BLUE.."B) Staircase to the Ballroom (Moroes)";		BLUE.."C) Stairs to Upper Stable";		BLUE.."D) Ramp to the Guest Chambers (Maiden)";
+		BLUE.."E) Stairs to Opera House Orchestra Level";		BLUE.."F) Ramp from Mezzanine to Balcony";		BLUE.."G) Back Entrance";		BLUE.."H) Connection to:";
+
+		BLUE..INDENT.."Master's Terrace (Nightbane)";		BLUE.."I) Path to the Broken Stairs";
+
+		GREY.."1) Hastings <The Caretaker>";		GREY.."2) Hyakiss the Lurker (Rare, Random)";
+		GREY..INDENT.."Rokad the Ravager (Rare, Random)";				GREY..INDENT.."Shadikith the Glider (Rare, Random)";		GREY.."3) Berthold <The Doorman>";		GREY.."4) Calliard <The Nightman>";		GREY.."5) Attumen the Huntsman";		GREY..INDENT.."Midnight";		GREY.."6) Koren <The Blacksmith>";		GREY.."7) Moroes";		GREY..INDENT.."Baroness Dorothea Millstipe";
 		GREY..INDENT..INDENT.."(Random, Shadow Priest)";
 		GREY..INDENT.."Lady Catriona Von'Indi";
 		GREY..INDENT..INDENT.."(Random, Holy Priest)";
@@ -953,8 +957,10 @@ AtlasMaps = {
 		GREY..INDENT.."Lord Robin Daris";
 		GREY..INDENT..INDENT.."(Random, Arms Warrior)";
 		GREY..INDENT.."Lord Crispin Ference";
-		GREY..INDENT..INDENT.."(Random, Protection Warrior)";		GREY.."8) Bennett <The Sergeant at Arms>";		GREY.."9) Ebonlocke <The Noble>";		GREY.."10) Keanna's Log (Quest)";		GREY.."11) Maiden of Virtue";		GREY.."12) Sebastian <The Organist>";		GREY.."13) Barnes <The Stage Manager>";		GREY.."14) Opera Event";		GREY..INDENT.."Little Red Riding Hood (Random)";		GREY..INDENT.."The Wizard of Oz (Random)";		GREY..INDENT.."Romeo and Juliet (Random)";		GREY.."15) The Master's Terrace (Quest)";		GREY..INDENT.."Nightbane (Summon)";
+		GREY..INDENT..INDENT.."(Random, Protection Warrior)";		GREY.."8) Bennett <The Sergeant at Arms>";		GREY.."9) Ebonlocke <The Noble>";		GREY.."10) Keanna's Log (Quest)";		GREY.."11) Maiden of Virtue";		GREY.."12) Sebastian <The Organist>";		GREY.."13) Barnes <The Stage Manager>";
+		GREY.."14) Opera Event";		GREY..INDENT.."Little Red Riding Hood (Random)";		GREY..INDENT.."The Wizard of Oz (Random)";		GREY..INDENT.."Romeo and Juliet (Random)";		GREY.."15) The Master's Terrace (Quest)";		GREY..INDENT.."Nightbane (Summon)";
 	};
+
 	KarazhanEnd = {
 		ZoneName = "Karazhan (End)";
 		Acronym = "Kara";
@@ -962,14 +968,22 @@ AtlasMaps = {
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Violet Eye";
 		ORNG.."Key: The Master's Key";
-		ORNG.."Key: Blackened Urn (Nightbane)";		
-		BLUE.."I) Path to the Broken Stairs";		BLUE.."J) Broken Stairs";		BLUE.."K) Ramp to Guardian's Library";
-		BLUE..INDENT.."(Shade of Aran)";		BLUE.."L) Suspicious Bookshelf";
-		BLUE..INDENT.."(Passage to Illhoof)";		BLUE.."M) Ramp up to the Celestial Watch";
+		ORNG.."Key: Blackened Urn (Nightbane)";
+		BLUE.."I) Path to the Broken Stairs";		BLUE.."J) Broken Stairs";		BLUE.."K) Ramp to Guardian's Library";
+
+		BLUE..INDENT.."(Shade of Aran)";		BLUE.."L) Suspicious Bookshelf";
+
+		BLUE..INDENT.."(Passage to Illhoof)";		BLUE.."M) Ramp up to the Celestial Watch";
+
 		BLUE..INDENT.."(Netherspite)";
+
 		BLUE..INDENT.."Ramp down to the Gamesman's Hall";
-		BLUE..INDENT.."(Chess Event)";		BLUE.."N) Ramp to Medivh's Chamber";		BLUE.."O) Spiral Stairs to Netherspace (Prince)";
-		GREY.."16) The Curator";		GREY.."17) Wravien <The Mage>";		GREY.."18) Gradav <The Warlock>";		GREY.."19) Kamsis <The Conjurer>";		GREY.."20) Terestian Illhoof";		GREY..INDENT.."Kil'rek (Imp)";		GREY.."21) Shade of Aran";		GREY.."22) Netherspite";		GREY.."23) Ythyar (Repair and rewards)";		GREY.."24) Echo of Medivh";		GREY.."25) Chess Event";		GREY.."26) Prince Malchezaar";
+
+		BLUE..INDENT.."(Chess Event)";
+		BLUE.."N) Ramp to Medivh's Chamber";
+		BLUE.."O) Spiral Stairs to Netherspace (Prince)";
+
+		GREY.."16) The Curator";		GREY.."17) Wravien <The Mage>";		GREY.."18) Gradav <The Warlock>";		GREY.."19) Kamsis <The Conjurer>";		GREY.."20) Terestian Illhoof";		GREY..INDENT.."Kil'rek (Imp)";		GREY.."21) Shade of Aran";		GREY.."22) Netherspite";		GREY.."23) Ythyar (Repair and rewards)";		GREY.."24) Echo of Medivh";		GREY.."25) Chess Event";		GREY.."26) Prince Malchezaar";
 	};
 	HCBloodFurnace = {
 		ZoneName = "HFC: The Blood Furnace";
@@ -1229,12 +1243,15 @@ AtlasMaps = {
 		ORNG.."Attunement Required";
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
+
 		BLUE.."A) Entrance";
+
 		BLUE.."B) Towards Reliquary of Souls";
 		BLUE.."C) Towards Teron Gorefiend";
 		BLUE.."D) Towards Illidan Stormrage";
 		GREY.."1) High Warlord Naj'entus";
 		GREY.."2) Supremus";
+
 		GREY.."3) Shade of Akama";
 	};
 	BlackTempleTop = {

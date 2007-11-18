@@ -553,59 +553,66 @@ AtlasMaps = {
 	};
 	BlackrockSpireLower = {
 		ZoneName = "Pic Rochenoire inférieur";
-		Acronym = "LBRS / BRS1";
+		Acronym = "LBRS / Pic1";
 		Location = "Mont Rochenoire";
 		ORNG.."Objet : Brasero d'invocation (Mor Sabot-gris)";
 		BLUE.."A) Entrée";
-		GREY.."1) Vaelan";
-		GREY.."2) Warosh";
-		GREY..INDENT.."Ancien Fort-de-pierre (Fête lunaire)";
-		GREY.."3) Bijou";
-		GREY.."4) Pique de fortune";
-		GREY.."5) Boucher Pierre-du-pic (Rare)";
-		GREY.."6) Généralissime Omokk";
-		GREY..INDENT.."Seigneur de bataille Pierre-du-pic (Rare)";
+		BLUE.."B) Pic Rochenoire supérieur (UBRS)";
+		BLUE.."C-F) Connexions";
+		GREY.."1) Vaelan (En haut)";
+		GREY.."2) Warosh (Errant)";
+--		GREY..INDENT.."Ancien Fort-de-pierre (Fête lunaire)";		
+		GREY.."3) Pique de fortune";
+		GREY.."4) Boucher Pierre-du-pic (Rare)";
+		GREY.."5) Généralissime Omokk";
+		GREY.."6) Seigneur de bataille Pierre-du-pic (Rare)";
 		GREY..INDENT.."Seigneur magus Pierre-du-pic (Rare)";
 		GREY.."7) Chasseresse des ombres Vosh'gajin";
 		GREY..INDENT.."5ème tablette Mosh'aru";
-		GREY.."8) Maître de guerre Voone";
-		GREY..INDENT.."6ème tablette Mosh'aru";
+		GREY.."8) Bijou";
+		GREY.."9) Maître de guerre Voone";
 		GREY..INDENT.."Mor Sabot-gris (Invoqué)";
-		GREY.."9) Restes humains";
-		GREY..INDENT.."Gantelets en plaques inachevés";
-		GREY.."10) Bannok Hache-sinistre (Rare)";
-		GREY.."11) Matriarche Couveuse";
-		GREY.."12) Croc cristallin";
-		GREY.."13) Urok Hurleruine (Invoqué)";
-		GREY.."14) Intendant Zigris";
-		GREY.."15) Halycon";
+		GREY..INDENT.."6ème tablette Mosh'aru";
+		GREY.."10) Affaires de Bijou";
+		GREY.."11) Restes humains (En bas)";
+		GREY..INDENT.."Gantelets en plaques inachevés (En bas)";
+		GREY.."12) Bannok Hache-sinistre (Rare)";
+		GREY.."13) Matriarche Couveuse";
+		GREY.."14) Croc cristallin (Rare)";
+		GREY.."15) Urok's Tribute Pile";
+		GREY..INDENT.."Urok Hurleruine (Invoqué)";
+		GREY.."16) Intendant Zigris";
+		GREY.."17) Halycon";
 		GREY..INDENT.."Gizrul l'esclavagiste";
-		GREY.."16) Ghok Bounnebaffe (Rare)";
-		GREY.."17) Seigneur Wyrmthalak";
-		GREY.."?) Gangregarde ardent (Rare, Hasard)";
+		GREY.."18) Ghok Bounnebaffe (Rare)";
+		GREY.."19) Seigneur Wyrmthalak";
+--		GREY.."?) Gangregarde ardent (Rare, Hasard)";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Pic Rochenoire supérieur";
-		Acronym = "UBRS / BRS2";
+		Acronym = "UBRS / Pic2";
 		Location = "Mont Rochenoire";
 		ORNG.."Objet : Sceau d'ascension";
-		ORNG.."Objet : Brasero d'invocation (Valthalak)";
+		ORNG.."Objet : Brasero d'invocation (Set D2)";
 		BLUE.."A) Entrée";
+		BLUE.."B) Pic Rochenoire inférieur (LBRS)";
+		BLUE.."C-E) Connexions";
 		GREY.."1) Pyrogarde Prophète ardent";
 		GREY.."2) Solakar Voluteflamme";
 		GREY..INDENT.."Père des flammes";
-		GREY.."3) Jed Guette-runes (Rare)";
-		GREY.."4) Goraluk Brisenclume";
-		GREY.."5) Chef de guerre Rend Main-noire";
+		GREY.."3) Darkstone Tablet";		
+		GREY.."4) Jed Guette-runes (Rare)";
+		GREY.."5) Goraluk Brisenclume";
+		GREY.."6) Chef de guerre Rend Main-noire";
 		GREY..INDENT.."Gyth";
-		GREY.."6) Awbee";
-		GREY.."7) La Bête";
+		GREY.."7) Awbee";
+		GREY.."8) La Bête";
 		GREY..INDENT.."Seigneur Valthalak (Invoqué)";
 		GREY..INDENT.."Finkle Einhorn";
-		GREY.."8) Général Drakkisath";
+		GREY.."9) Général Drakkisath";
 		GREY..INDENT.."Fermoir de Frèteruine";
 		GREY..INDENT.."Marque de Drakkisath";
-		GREY.."9) Repaire de l'Aile noire";
+		GREY.."10) Repaire de l'Aile noire";
 	};
 	BlackwingLair = {
 		ZoneName = "Repaire de l'Aile noire";
@@ -952,22 +959,34 @@ AtlasMaps = {
 		GREN..INDENT.."1) Saphiron";
 		GREN..INDENT.."2) Kel'Thuzad";
 	};
-	Karazhan = {
-		ZoneName = "Karazhan";
+	KarazhanStart = {
+		ZoneName = "Karazhan (Début)";
 		Acronym = "Kara/KZ";
 		Location = "Défilé de Deuillevent";
 		ORNG.."Harmonisation requise";
 		ORNG.."Réput : L'Œil pourpre";
 		ORNG.."Objet : La clé du maître";
-		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";
-		BLUE.."A) Entrée (Principale)";
-		BLUE.."B) Escalier (Arrière)";
-		BLUE.."C) Escalier";
-		BLUE.."D) Allée";
-		BLUE.."E) Allée";
-		GREY.."1) Attumen le Veneur";
+		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";	
+		BLUE.."A) Entrée principale";
+		BLUE.."B) Escalier de la salle de bal (Moroes)";
+		BLUE.."C) Stairs to Upper Stable"; -- A traduire
+		BLUE.."D) Ramp to the Guest Chambers (Damoiselle)"; -- A traduire
+		BLUE.."E) Stairs to Opera House Orchestra Level"; -- A traduire
+		BLUE.."F) Ramp from Mezzanine to Balcony"; -- A traduire
+		BLUE.."G) Back Entrance"; -- A traduire
+		BLUE.."H) Connection to:"; -- A traduire
+		BLUE..INDENT.."Master's Terrace (Nightbane)"; -- A traduire
+		BLUE.."I) Path to the Broken Stairs"; -- A traduire
+		GREY.."1) Hastings <Le gardien>";
+		GREY.."2) Hyakiss la Rôdeuse (Hasard)";
+		GREY..INDENT.."Rodak le ravageur (Hasard)";
+		GREY..INDENT.."Shadikith le glisseur (Hasard)";
+		GREY.."3) Berthold <Le concierge>";
+		GREY.."4) Calliard <Le veilleur de nuit>";
+		GREY.."5) Attumen le Veneur";
 		GREY..INDENT.."Minuit";
-		GREY.."2) Moroes";
+		GREY.."6) Koren <Le forgeron>";
+		GREY.."7) Moroes";
 		GREY..INDENT.."Baronne Dorothea Millstipe";
 		GREY..INDENT..INDENT.."(Hasard, Prêtre Ombre)";
 		GREY..INDENT.."Dame Catriona Von'Indi";
@@ -980,23 +999,52 @@ AtlasMaps = {
 		GREY..INDENT..INDENT.."(Hasard, Guerrier Armes)";
 		GREY..INDENT.."Seigneur Crispin Ference";
 		GREY..INDENT..INDENT.."(Hasard, Guerrier Protection)";
-		GREY.."3) Damoiselle de vertu";
+		GREY.."8) Bennett <L'huissier>";
+		GREY.."9) Bouclenoire <Les nobles>";
+		GREY.."10) Journal de Keanna (Quête)";
+		GREY.."11) Damoiselle de vertu";
+		GREY.."12) Sebastian <L'Organiste>";
+		GREY.."13) Barnes <Le Régisseur>";
 		GREY.."4) L'Opéra";
 		GREY..INDENT.."Le Grand Méchant Loup (Hasard)"; -- (Le Petit Chaperon Rouge)
-		GREY..INDENT.."Romulo et Julianne (Hasard)"; -- (Roméo et Juliette)
 		GREY..INDENT.."La Mégère (Hasard)"; -- (Le Magicien d'Oz)
-		GREY.."5) Le conservateur";
-		GREY.."6) Terestian Malsabot (Optionnel)";
-		GREY..INDENT.."Kil'rek (Diablotin)";
-		GREY.."7) Ombre d'Aran";
-		GREY.."8) Dédain-du-Néant (Optionnel)";
-		GREY.."9) L'Echéquier";
-		GREY.."10) Prince Malchezaar";
-		GREY.."11) Plaie-de-nuit (Invoqué, sur le balcon)";
-		GREY.."12) Hyakiss la Rôdeuse (Hasard)";
-		GREY..INDENT.."Rodak le ravageur (Hasard)";
-		GREY..INDENT.."Shadikith le glisseur (Hasard)";
+		GREY..INDENT.."Romulo et Julianne (Hasard)"; -- (Roméo et Juliette)
+		GREY.."15) La terrasse du Maître (Quête)";
+		GREY..INDENT.."Plaie-de-nuit (Invoqué)";
 	};
+	KarazhanEnd = {
+		ZoneName = "Karazhan (Fin)";
+		Acronym = "Kara/KZ";
+		Location = "Défilé de Deuillevent";
+		ORNG.."Harmonisation requise";
+		ORNG.."Réput : L'Œil pourpre";
+		ORNG.."Objet : La clé du maître";
+		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";	
+		BLUE.."I) Path to the Broken Stairs"; -- A traduire
+		BLUE.."J) Broken Stairs"; -- A traduire
+		BLUE.."K) Ramp to Guardian's Library"; -- A traduire
+		BLUE..INDENT.."(Ombre d'Aran)";
+		BLUE.."L) Suspicious Bookshelf"; -- A traduire
+		BLUE..INDENT.."(Passage vers Illhoof)";
+		BLUE.."M) Ramp up to the Celestial Watch"; -- A traduire
+		BLUE..INDENT.."(Dédain-du-Néant)";
+		BLUE..INDENT.."Ramp down to the Gamesman's Hall"; -- A traduire
+		BLUE..INDENT.."(L'Echéquier)";
+		BLUE.."N) Rampe vers la chambre de Medivh";
+		BLUE.."O) Spiral Stairs to Netherspace (Prince)"; -- A traduire
+		GREY.."16) Le conservateur";
+		GREY.."17) Wravien <Le Mage>";
+		GREY.."18) Gradav <Le Démoniste>";
+		GREY.."19) Kamsis <L'Invocateur>";
+		GREY.."20) Terestian Malsabot";
+		GREY..INDENT.."Kil'rek (Diablotin)";
+		GREY.."21) Ombre d'Aran";
+		GREY.."22) Dédain-du-Néant";
+		GREY.."23) Ythyar (Réparation et récompenses)";
+		GREY.."24) Echo de Medivh";
+		GREY.."25) L'Echéquier";
+		GREY.."26) Prince Malchezaar";
+	};	
 	HCBloodFurnace = {
 		ZoneName = "CFI : La Fournaise du sang";
 		Location = "Citadelle des Flammes infernales, Péninsule";

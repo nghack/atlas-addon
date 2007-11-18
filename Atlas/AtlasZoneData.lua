@@ -64,7 +64,8 @@ AtlasMaps.Stratholme.LevelRange =				"56-61";
 AtlasMaps.Uldaman.LevelRange =					"35-52";
 AtlasMaps.ZulGurub.LevelRange =					"56-70";
 AtlasMaps.Naxxramas.LevelRange =				"60-70";
-AtlasMaps.Karazhan.LevelRange =					"70";
+AtlasMaps.KarazhanStart.LevelRange =			"70";
+AtlasMaps.KarazhanEnd.LevelRange =				"70";
 
 AtlasMaps.HCTheShatteredHalls.LevelRange =		"69-70";
 AtlasMaps.HCMagtheridonsLair.LevelRange =		"70";
@@ -84,9 +85,8 @@ AtlasMaps.TempestKeepBotanica.LevelRange =		"69-70";
 AtlasMaps.TempestKeepArcatraz.LevelRange =		"69-70";
 AtlasMaps.TempestKeepTheEye.LevelRange =		"70";
 AtlasMaps.BlackTempleBasement.LevelRange =		"70";
-AtlasMaps.BlackTempleMiddle.LevelRange =		"70";
+AtlasMaps.BlackTempleStart.LevelRange =			"70";
 AtlasMaps.BlackTempleTop.LevelRange =			"70";
-AtlasMaps.BlackTempleFull.LevelRange =			"70";
 
 AtlasMaps.ZulAman.LevelRange =					"70";
 
@@ -126,7 +126,8 @@ AtlasMaps.Uldaman.PlayerLimit =					"10";
 AtlasMaps.ZulGurub.PlayerLimit =				"20";
 AtlasMaps.Naxxramas.PlayerLimit =				"40";
 AtlasMaps.Gnomeregan.PlayerLimit =				"10";
-AtlasMaps.Karazhan.PlayerLimit =				"10";
+AtlasMaps.KarazhanStart.PlayerLimit =			"10";
+AtlasMaps.KarazhanEnd.PlayerLimit =				"10";
 
 AtlasMaps.HCTheShatteredHalls.PlayerLimit =		"5";
 AtlasMaps.HCMagtheridonsLair.PlayerLimit =		"25";
@@ -146,8 +147,7 @@ AtlasMaps.TempestKeepBotanica.PlayerLimit =		"5";
 AtlasMaps.TempestKeepArcatraz.PlayerLimit =		"5";
 AtlasMaps.TempestKeepTheEye.PlayerLimit =		"25";
 AtlasMaps.BlackTempleBasement.PlayerLimit =		"25";
-AtlasMaps.BlackTempleMiddle.PlayerLimit =		"25";
+AtlasMaps.BlackTempleStart.PlayerLimit =		"25";
 AtlasMaps.BlackTempleTop.PlayerLimit =			"25";
-AtlasMaps.BlackTempleFull.PlayerLimit =			"25";
 
 AtlasMaps.ZulAman.PlayerLimit =					"10";

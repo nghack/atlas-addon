@@ -219,6 +219,18 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."9) Andormu (Adult)";
 			GREY..INDENT.."Nozari (Adult)";
 		};
+		KarazhanEnt = {
+			ZoneName = "Karazhan";
+			Acronym = "Kara";
+			Location = "Deadwind Pass";
+			BLUE.."A) Front Entrance";			BLUE.."B) Back Entrance";			BLUE.."C) Meeting Stone";			BLUE.."D) Graveyard";			GREY.."1) Archmage Leryda";			GREY.."2) Apprentice Darius";			GREY.."3) Archmage Alturus";			GREY.."4) Stairs to Underground Pond";			GREY.."5) Stairs to Underground Well";			GREY.."6) Charred Bone Fragment (quest)";
+		};
+		SMEnt = {
+			ZoneName = "Scarlet Monastery";
+			Acronym = "SM";
+			Location = "Tirisfal Glades";
+			BLUE.."A) Entrance";			BLUE.."B) Graveyard";			BLUE.."C) Cathedral";			BLUE.."D) Armory";			BLUE.."E) Library";
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -245,6 +257,10 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.DireMaulEnt.PlayerLimit =			"5";
 	myData.CoTEnt.LevelRange =					"66-70";
 	myData.CoTEnt.PlayerLimit =					"5/25";
+	myData.KarazhanEnt.LevelRange =				"70";
+	myData.KarazhanEnt.PlayerLimit =			"10";
+	myData.SMEnt.LevelRange =					"29-45";
+	myData.SMEnt.PlayerLimit =					"10";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

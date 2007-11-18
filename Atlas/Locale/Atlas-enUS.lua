@@ -558,10 +558,36 @@ AtlasMaps = {
 		Location = "Blackrock Mountain";
 		ORNG.."Key: Brazier of Invocation (DS2)";
 
-		BLUE.."A) Entrance";		BLUE.."B) Upper Blackrock Spire (UBRS)";
+		BLUE.."A) Entrance";
+		BLUE.."B) Upper Blackrock Spire (UBRS)";
 
-		BLUE.."C-F) Connections";		GREY.."1) Vaelan (Up)";		GREY.."2) Warosh (Wanders)";		GREY.."3) Roughshod Pike";		GREY.."4) Spirestone Butcher (Rare)";		GREY.."5) Highlord Omokk";		GREY.."6) Spirestone Battle Lord (Rare)";		GREY..INDENT.."Spirestone Lord Magus (Rare)";		GREY.."7) Shadow Hunter Vosh'gajin";		GREY..INDENT.."Fifth Mosh'aru Tablet";		GREY.."8) Bijou";		GREY.."9) War Master Voone";		GREY..INDENT.."Mor Grayhoof (Summon)";		GREY..INDENT.."Sixth Mosh'aru Tablet";		GREY.."10) Bijou's Belongings";		GREY.."11) Human Remains (Lower)";		GREY..INDENT.."Unfired Plate Gauntlets (Lower)";		GREY.."12) Bannok Grimaxe (Rare)";		GREY.."13) Mother Smolderweb";		GREY.."14) Crystal Fang (Rare)";		GREY.."15) Urok's Tribute Pile";		GREY..INDENT.."Urok Doomhowl (Summon)";
-		GREY.."16) Quartermaster Zigris";		GREY.."17) Halycon";		GREY..INDENT.."Gizrul the Slavener";		GREY.."18) Ghok Bashguud (Rare)";		GREY.."19) Overlord Wyrmthalak";
+		BLUE.."C-F) Connections";
+		GREY.."1) Vaelan (Up)";
+		GREY.."2) Warosh (Wanders)";
+		GREY.."3) Roughshod Pike";
+		GREY.."4) Spirestone Butcher (Rare)";
+		GREY.."5) Highlord Omokk";
+		GREY.."6) Spirestone Battle Lord (Rare)";
+		GREY..INDENT.."Spirestone Lord Magus (Rare)";
+		GREY.."7) Shadow Hunter Vosh'gajin";
+		GREY..INDENT.."Fifth Mosh'aru Tablet";
+		GREY.."8) Bijou";
+		GREY.."9) War Master Voone";
+		GREY..INDENT.."Mor Grayhoof (Summon)";
+		GREY..INDENT.."Sixth Mosh'aru Tablet";
+		GREY.."10) Bijou's Belongings";
+		GREY.."11) Human Remains (Lower)";
+		GREY..INDENT.."Unfired Plate Gauntlets (Lower)";
+		GREY.."12) Bannok Grimaxe (Rare)";
+		GREY.."13) Mother Smolderweb";
+		GREY.."14) Crystal Fang (Rare)";
+		GREY.."15) Urok's Tribute Pile";
+		GREY..INDENT.."Urok Doomhowl (Summon)";
+		GREY.."16) Quartermaster Zigris";
+		GREY.."17) Halycon";
+		GREY..INDENT.."Gizrul the Slavener";
+		GREY.."18) Ghok Bashguud (Rare)";
+		GREY.."19) Overlord Wyrmthalak";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Blackrock Spire (Upper)";
@@ -959,7 +985,8 @@ AtlasMaps = {
 
 		GREY.."1) Hastings <The Caretaker>";
 		GREY.."2) Hyakiss the Lurker (Rare, Random)";
-		GREY..INDENT.."Rokad the Ravager (Rare, Random)";		GREY..INDENT.."Shadikith the Glider (Rare, Random)";
+		GREY..INDENT.."Rokad the Ravager (Rare, Random)";
+		GREY..INDENT.."Shadikith the Glider (Rare, Random)";
 		GREY.."3) Berthold <The Doorman>";
 		GREY.."4) Calliard <The Nightman>";
 		GREY.."5) Attumen the Huntsman";

@@ -219,6 +219,31 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."9) Andormu (Adulte)";
 			GREY..INDENT.."Nozari (Adulte)";
 			};
+		KarazhanEnt = {
+			ZoneName = "Karazhan";
+			Acronym = "Kara";
+			Location = "Défilé de Deuillevent";
+			BLUE.."A) Entrée principale";
+			BLUE.."B) Entrée de derrière";
+			BLUE.."C) Pierre de Rencontre";
+			BLUE.."D) Cimetière";
+			GREY.."1) Archimage Leryda";
+			GREY.."2) Apprenti Darius";
+			GREY.."3) Archimage Alturus";
+			GREY.."4) Escalier vers le bassin souterrain";
+			GREY.."5) Escalier vers le puits souterrain";
+			GREY.."6) Fragment d'os carbonisé (Quête)";
+		};
+		SMEnt = {
+			ZoneName = "Monastère écarlate";
+			Acronym = "SM/Mona";
+			Location = "Clairières de Tirisfal";
+			BLUE.."A) Entrée";
+			BLUE.."B) Cimetière";
+			BLUE.."C) Cathédrale";
+			BLUE.."D) Armurerie";
+			BLUE.."E) Bibliothèque";
+		};			
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -245,7 +270,11 @@ if ( GetLocale() == "frFR" ) then
 	myData.DireMaulEnt.PlayerLimit =			"5";
 	myData.CoTEnt.LevelRange =					"66-70";
 	myData.CoTEnt.PlayerLimit =					"5/25";
-
+	myData.KarazhanEnt.LevelRange =				"70";
+	myData.KarazhanEnt.PlayerLimit =			"10";
+	myData.SMEnt.LevelRange =					"29-45";
+	myData.SMEnt.PlayerLimit =					"10";
+	
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 
 end

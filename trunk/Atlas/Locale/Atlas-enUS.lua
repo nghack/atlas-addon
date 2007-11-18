@@ -557,10 +557,8 @@ AtlasMaps = {
 		Acronym = "LBRS";
 		Location = "Blackrock Mountain";
 		ORNG.."Key: Brazier of Invocation (DS2)";
-
 		BLUE.."A) Entrance";
 		BLUE.."B) Upper Blackrock Spire (UBRS)";
-
 		BLUE.."C-F) Connections";
 		GREY.."1) Vaelan (Up)";
 		GREY.."2) Warosh (Wanders)";
@@ -596,9 +594,7 @@ AtlasMaps = {
 		ORNG.."Key: Seal of Ascension";
 		ORNG.."Key: Brazier of Invocation (DS2)";
 		BLUE.."A) Entrance";
-
 		BLUE.."B) Lower Blackrock Spire (LBRS)";
-
 		BLUE.."C-E) Connections";
 		GREY.."1) Pyroguard Emberseer";
 		GREY.."2) Solakar Flamewreath";
@@ -979,10 +975,8 @@ AtlasMaps = {
 		BLUE.."F) Ramp from Mezzanine to Balcony";
 		BLUE.."G) Back Entrance";
 		BLUE.."H) Connection to:";
-
 		BLUE..INDENT.."Master's Terrace (Nightbane)";
 		BLUE.."I) Path to the Broken Stairs";
-
 		GREY.."1) Hastings <The Caretaker>";
 		GREY.."2) Hyakiss the Lurker (Rare, Random)";
 		GREY..INDENT.."Rokad the Ravager (Rare, Random)";
@@ -1018,7 +1012,6 @@ AtlasMaps = {
 		GREY.."15) The Master's Terrace (Quest)";
 		GREY..INDENT.."Nightbane (Summon)";
 	};
-
 	KarazhanEnd = {
 		ZoneName = "Karazhan (End)";
 		Acronym = "Kara";
@@ -1030,21 +1023,15 @@ AtlasMaps = {
 		BLUE.."I) Path to the Broken Stairs";
 		BLUE.."J) Broken Stairs";
 		BLUE.."K) Ramp to Guardian's Library";
-
 		BLUE..INDENT.."(Shade of Aran)";
 		BLUE.."L) Suspicious Bookshelf";
-
 		BLUE..INDENT.."(Passage to Illhoof)";
 		BLUE.."M) Ramp up to the Celestial Watch";
-
 		BLUE..INDENT.."(Netherspite)";
-
 		BLUE..INDENT.."Ramp down to the Gamesman's Hall";
-
 		BLUE..INDENT.."(Chess Event)";
 		BLUE.."N) Ramp to Medivh's Chamber";
 		BLUE.."O) Spiral Stairs to Netherspace (Prince)";
-
 		GREY.."16) The Curator";
 		GREY.."17) Wravien <The Mage>";
 		GREY.."18) Gradav <The Warlock>";
@@ -1316,15 +1303,12 @@ AtlasMaps = {
 		ORNG.."Attunement Required";
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
-
 		BLUE.."A) Entrance";
-
 		BLUE.."B) Towards Reliquary of Souls";
 		BLUE.."C) Towards Teron Gorefiend";
 		BLUE.."D) Towards Illidan Stormrage";
 		GREY.."1) High Warlord Naj'entus";
 		GREY.."2) Supremus";
-
 		GREY.."3) Shade of Akama";
 	};
 	BlackTempleTop = {

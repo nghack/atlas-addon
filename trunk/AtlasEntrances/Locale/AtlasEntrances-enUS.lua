@@ -248,19 +248,19 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 	};
 
-	myData.AuchindounEnt.LevelRange =		"63-70";
-	myData.AuchindounEnt.PlayerLimit =		"5";
+	myData.AuchindounEnt.LevelRange =			"63-70";
+	myData.AuchindounEnt.PlayerLimit =			"5";
 	myData.BlackfathomDeepsEnt.LevelRange =		"20-35";
-	myData.BlackfathomDeepsEnt.PlayerLimit =	"10";
+	myData.BlackfathomDeepsEnt.PlayerLimit =		"10";
 	myData.BlackrockSpireEnt.LevelRange =		"52-70";
 	myData.BlackrockSpireEnt.PlayerLimit =		"5/10/40";
-	myData.CoilfangReservoirEnt.LevelRange =	"61-70";
-	myData.CoilfangReservoirEnt.PlayerLimit =	"5/25";
-	myData.GnomereganEnt.LevelRange =		"24-40";
-	myData.GnomereganEnt.PlayerLimit =		"10";
+	myData.CoilfangReservoirEnt.LevelRange =		"61-70";
+	myData.CoilfangReservoirEnt.PlayerLimit =		"5/25";
+	myData.GnomereganEnt.LevelRange =			"24-40";
+	myData.GnomereganEnt.PlayerLimit =			"10";
 	myData.MaraudonEnt.LevelRange =			"40-58";
-	myData.MaraudonEnt.PlayerLimit =		"10";
-	myData.TheDeadminesEnt.LevelRange =		"15-28";
+	myData.MaraudonEnt.PlayerLimit =			"10";
+	myData.TheDeadminesEnt.LevelRange =			"15-28";
 	myData.TheDeadminesEnt.PlayerLimit =		"10";
 	myData.TheSunkenTempleEnt.LevelRange =		"44-60";
 	myData.TheSunkenTempleEnt.PlayerLimit =		"10";
@@ -269,15 +269,15 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.WailingCavernsEnt.LevelRange =		"15-28";
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
 	myData.DireMaulEnt.LevelRange =			"54-61";
-	myData.DireMaulEnt.PlayerLimit =		"5";
-	myData.CoTEnt.LevelRange =			"66-70";
-	myData.CoTEnt.PlayerLimit =			"5/25";
+	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.CoTEnt.LevelRange =				"66-70";
+	myData.CoTEnt.PlayerLimit =				"5/25";
 
 	myData.KarazhanEnt.LevelRange =			"70";
-	myData.KarazhanEnt.PlayerLimit =		"10";
+	myData.KarazhanEnt.PlayerLimit =			"10";
 
-	myData.SMEnt.LevelRange =			"29-45";
-	myData.SMEnt.PlayerLimit =			"10";
+	myData.SMEnt.LevelRange =				"29-45";
+	myData.SMEnt.PlayerLimit =				"10";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

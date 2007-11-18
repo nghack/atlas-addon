@@ -59,7 +59,6 @@ Atlas_DropDownLayouts = {
 			"TheDeadmines",
 			"Gnomeregan",
 			"KarazhanStart",
-
 			"KarazhanEnd",
 			"MoltenCore",
 			"Naxxramas",
@@ -174,7 +173,6 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_LEVEL_70PLUS] = {
 			"CoTHyjal",
 			"KarazhanStart",
-
 			"KarazhanEnd",
 			"HCMagtheridonsLair",
 			"GruulsLair",
@@ -231,7 +229,6 @@ Atlas_DropDownLayouts = {
 			"Uldaman",
 			"Gnomeregan",
 			"KarazhanStart",
-
 			"KarazhanEnd",
 			"ZulAman",
 		},
@@ -313,7 +310,6 @@ Atlas_DropDownLayouts = {
 			"CoTOldHillsbrad",
 			"CoTBlackMorass",
 			"KarazhanStart",
-
 			"KarazhanEnd",
 			"ZulAman",
 		},

@@ -549,32 +549,34 @@ AtlasMaps = {
 		Location = "Montaña Roca Negra"; --Bien
 		ORNG.."Llave: Blandón de Invocación"; --Bien
 		BLUE.."A) Entrada";
-		GREY.."1) Vaelan"; --Bien
-		GREY.."2) Warosh"; --Bien
-		GREY..INDENT.."Ancestro Petraforte (Festival Lunar)"; --Bien
-		GREY.."3) Bijou"; --Bien
-		GREY.."4) Pica férrea"; --Bien
-		GREY.."5) Carnicero Cumbrerroca (Raro)"; --Bien
-		GREY.."6) Alto Señor Omokk"; --Bien
-		GREY..INDENT.."Señor de batalla Cumbrerroca (Raro)"; --Bien
+		BLUE.."B) Cumbre de Roca Negra (Arriba)";
+		BLUE.."C-F) Conexiones";
+		GREY.."1) Vaelan (Arriba)"; --Bien
+		GREY.."2) Warosh (Rondando)"; --Bien
+		GREY.."3) Pica férrea"; --Bien
+		GREY.."4) Carnicero Cumbrerroca (Raro)"; --Bien
+ 		GREY.."5) Alto Señor Omokk"; --Bien
+		GREY.."6) Señor de batalla Cumbrerroca (Raro)"; --Bien
 		GREY..INDENT.."Señor Magus Cumbrerroca (Raro)"; --Bien
 		GREY.."7) Cazador de las Sombras Vosh'gajin"; --Bien
 		GREY..INDENT.."Quinta tablilla Mosh'aru"; --Bien
-		GREY.."8) Maestro de guerra Voone"; --Bien
-		GREY..INDENT.."Sexta tablilla Mosh'aru"; --Bien
+		GREY.."8) Bijou"; --Bien
+		GREY.."9) Maestro de guerra Voone"; --Bien
 		GREY..INDENT.."Mor Ruciapezuña (Invocar)"; --Bien
-		GREY.."9) Restos humanos"; --Bien
+		GREY..INDENT.."Sexta tablilla Mosh'aru"; --Bien
+		GREY.."10) Pertenencias de Bijou"; --Bien
+		GREY.."11) Restos humanos"; --Bien
 		GREY..INDENT.."Guanteletes de placas sin templar"; --Bien
-		GREY.."10) Bannok Hachamacabra (Raro)"; --Bien
-		GREY.."11) Madre Telabrasada"; --Bien
-		GREY.."12) Colmillor de Cristal"; --Bien
-		GREY.."13) Urok Doomhowl (Invocar)"; --Bien
-		GREY.."14) Intendente Zigris"; --Bien
-		GREY.."15) Halycon"; --Bien
+		GREY.."12) Bannok Hachamacabra (Raro)"; --Bien
+		GREY.."13) Madre Telabrasada"; --Bien
+		GREY.."14) Colmillor de Cristal (Raro)"; --Bien
+		GREY.."15) Pila de tributo a Urok"; --Bien
+		GREY..INDENT.."Urok Aullapocalipsis (Invocar)"; --Bien
+		GREY.."16) Intendente Zigris"; --Bien
+		GREY.."17) Halycon"; --Bien
 		GREY..INDENT.."Gizrul el Esclavista"; --Bien
-		GREY.."16) Ghok Bashguud (Raro)"; --Bien
-		GREY.."17) Señor Supremo Vermiothalak"; --Bien
-		GREY.."?) Guarda vil ardiente (Raro, Aleatorio)"; --Bien
+		GREY.."18) Ghok Bashguud (Raro)"; --Bien
+		GREY.."19) Señor Supremo Vermiothalak"; --Bien
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Cumbre de Roca Negra (Arriba)";
@@ -940,22 +942,34 @@ AtlasMaps = {
 		GREN..INDENT.."1) Sapphiron"; --Bien
 		GREN..INDENT.."2) Kel'Thuzad"; --Bien
 	};
-	Karazhan = {
-		ZoneName = "Karazhan";
+	KarazhanStart = {
+		ZoneName = "Karazhan (Comienzo)";
 		Acronym = "Kara";
 		Location = "Paso de la Muerte"; --Bien
 		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Colgante del ojo violeta"; --Bien
 		ORNG.."Llave: La llave del maestro"; --Bien
-		ORNG.."Llave: Urna ennegrecida (Nocturno)"; --Bien COMPROBAR
-		BLUE.."A) Entrada (Principal)";
-		BLUE.."B) Escaleras (Trasera)";
-		BLUE.."C) Escaleras";
-		BLUE.."D) Pasillo";
-		BLUE.."E) Pasillo";
-		GREY.."1) Attumen el Montero"; --Bien
+		ORNG.."Llave: Urna ennegrecida (Nocturno)"; --Bien
+		BLUE.."A) Entrada principal";
+		BLUE.."B) Escaleras al Salón de baile (Moroes)"; --Bien COMPROBAR
+		BLUE.."C) Escaleras al Establo superior"; --Bien COMPROBAR
+		BLUE.."D) Rampa a Los aposentos de invitados (Maiden)"; --Bien COMPROBAR
+		BLUE.."E) Escaleras al nivel de la Opera"; --Bien COMPROBAR
+		BLUE.."F) Rampa desde Mezzanine al Balcón"; --Bien COMPROBAR	
+		BLUE.."G) Entrada trasera";	
+		BLUE.."H) Conexión con:";
+		BLUE..INDENT.."El Bancal del Maestro (Nocturno)"; --Bien		
+		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR		
+		GREY.."1) Hastings <El Custodio>"; --Bien		
+		GREY.."2) Hyakiss el Rondador (Raro, Aleatorio)"; --Bien		
+		GREY..INDENT.."Rokad el Devastador (Raro, Aleatorio)"; --Bien
+		GREY..INDENT.."Shadikith el Planeador (Raro, Aleatorio)"; --Bien COMPROBAR
+		GREY.."3) Berthold <El Portero>"; --Bien
+		GREY.."4) Calliard <El Hombre de la noche>"; --Bien
+		GREY.."5) Attumen el Montero"; --Bien
 		GREY..INDENT.."Medianoche"; --Bien
-		GREY.."2) Moroes"; --Bien
+		GREY.."6) Koren <El Herrero>"; --Bien
+		GREY.."7) Moroes"; --Bien
 		GREY..INDENT.."Baronesa Dorothea Tallolino"; --Bien
 		GREY..INDENT..INDENT.."(Aleatorio, Sacerdote de Sombras)"; --Bien
 		GREY..INDENT.."Lady Catriona Von'Indi"; --Bien
@@ -968,22 +982,51 @@ AtlasMaps = {
 		GREY..INDENT..INDENT.."(Aleatorio, Guerrero de Armas)"; --Bien
 		GREY..INDENT.."Lord Crispin Ference"; --Bien
 		GREY..INDENT..INDENT.."(Aleatorio, Guerrero de Protección)"; --Bien
-		GREY.."3) Doncella de Virtud"; --Bien
-		GREY.."4) La Opera"; --Bien
+		GREY.."8) Bennett <El Sargento de Armas>"; --Bien
+		GREY.."9) Cerranegro <El Noble>"; --Bien
+		GREY.."10) Apuntes de Keanna (Misión)"; --Bien
+		GREY.."11) Doncella de Virtud"; --Bien
+		GREY.."12) Sebastian <El Organista>"; --Bien
+		GREY.."13) Barnes <El Director de escena>"; --Bien
+		GREY.."14) Evento de la opera"; --Bien
 		GREY..INDENT.."Caperucita Roja (Aleatorio)"; --Bien
-		GREY..INDENT.."Romeo y Julieta (Aleatorio)"; --Bien
 		GREY..INDENT.."El mago de Oz (Aleatorio)"; --Bien
-		GREY.."5) Curator"; --Bien
-		GREY.."6) Terestian Pezuña Enferma"; --Bien
+		GREY..INDENT.."Romeo y Julieta (Aleatorio)"; --Bien
+		GREY.."15) El Bancal del Maestro (Misión)"; --Bien
+		GREY..INDENT.."Nocturno (Invocar)"; --Bien
+	};
+	KarazhanEnd = {
+		ZoneName = "Karazhan (Final)"; --Bien
+		Acronym = "Kara";
+		Location = "Paso de la Muerte"; --Bien
+		ORNG.."Armonización Requerida"; --Bien
+		ORNG.."Reputación: Colgante del ojo violeta"; --Bien
+		ORNG.."Llave: La llave del maestro"; --Bien
+		ORNG.."Llave: Urna ennegrecida (Nocturno)"; --Bien
+		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR
+		BLUE.."J) Escaleras rotas"; --Bien COMPROBAR
+		BLUE.."K) Rampa a la Biblioteca del Guardián"; --Bien
+		BLUE..INDENT.."(Sombra de Aran)"; --Bien
+		BLUE.."L) Publicaciones sospechosas"; --Bien COMPROBAR
+		BLUE..INDENT.."(Pasaje a Pezuña Enferma)"; --Bien
+		BLUE.."M) Subida a la Vista Celestial"; --Bien COMPROBAR
+		BLUE..INDENT.."(Rencor abisal)"; --Bien
+		BLUE..INDENT.."Bajada a la Sala de Juegos"; --Bien COMPROBAR
+		BLUE..INDENT.."(Evento del Ajedrez)"; --Bien
+		BLUE.."N) Rampa a la Cámara de Medivh"; --Bien
+		BLUE.."O) Escaleras de caracol a Rencor Abisal (Príncipe)"; --Bien
+		GREY.."16) Curator"; --Bien
+		GREY.."17) Wravien <El Mago>"; --Bien
+		GREY.."18) Gradav <El Brujo>"; --Bien
+		GREY.."19) Kamsis <La Conjuradora>"; --Bien
+		GREY.."20) Terestian Pezuña Enferma"; --Bien
 		GREY..INDENT.."Kil'rek (Imp)"; --Bien
-		GREY.."7) Sombra de Aran"; --Bien
-		GREY.."8) Rencor Abisal"; --Bien
-		GREY.."9) Ajedrez"; --Bien
-		GREY.."10) Príncipe Malchezaar"; --Bien
-		GREY.."11) Maestra de la noche (En el balcón, invocar)"; --Bien
-		GREY.."12) Hyakiss el Rondador (Aleatorio)"; --Bien
-		GREY..INDENT.."Rokad el Devastador (Aleatorio)"; --Bien
-		GREY..INDENT.."Shadikith el Planeador (Aleatorio)"; --Bien
+		GREY.."21) Sombra de Aran"; --Bien
+		GREY.."22) Rencor Abisal"; --Bien
+		GREY.."23) Ythyar (Reparaciones y consumibles)"; --Bien
+		GREY.."24) Eco de Medivh"; --Bien
+		GREY.."25) Evento del Ajedrez"; --Bien
+		GREY.."26) Príncipe Malchezaar"; --Bien
 	};
 	HCBloodFurnace = {
 		ZoneName = "CFI: El Horno de la Sangre";
@@ -1221,8 +1264,8 @@ AtlasMaps = {
 		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
+		BLUE.."B) Entrada";
 		BLUE.."C) Entrada";
-		BLUE.."D) Entrada";
 		GREY.."1) Gurtogg Sangre Hirviente"; --Bien
 		GREY.."2) Relicario de Almas"; --Bien
 		GREY..INDENT.."Esencia de Cólera"; -- Bien COMPROBAR
@@ -1231,17 +1274,19 @@ AtlasMaps = {
 		GREY.."3) Teron Sanguino"; --Bien
 	};
 	BlackTempleMiddle = {
-		ZoneName = "El Templo Oscuro (Medio)"; --Bien
+		ZoneName = "El Templo Oscuro (Comienzo)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
 		Acronym = "TO";
 		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
-		BLUE.."B) Entrada";
-		BLUE.."C) Hacia Relicario de Almas"; --Bien
-		BLUE.."D) Hacia Teron Sanguino"; --Bien
-		BLUE.."E) Hacia Illidan Tempestira"; --Bien
-		GREY.."1) Sombra de Akama"; --Bien
+		BLUE.."A) Entrada";
+		BLUE.."B) Hacia Relicario de Almas"; --Bien
+		BLUE.."C) Hacia Teron Sanguino"; --Bien
+		BLUE.."D) Hacia Illidan Tempestira"; --Bien
+		GREY.."1) Alto Señor de la Guerra Naj’entus"; --Bien
+		GREY.."2) Supremus"; --Bien
+		GREY.."3) Sombra de Akama"; --Bien
 	};
 	BlackTempleTop = {
 		ZoneName = "El Templo Oscuro (Arriba)"; --Bien
@@ -1250,7 +1295,7 @@ AtlasMaps = {
 		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
-		BLUE.."E) Entrada";
+		BLUE.."D) Entrada";
 		GREY.."1) Madre Shahraz"; --Bien
 		GREY.."2) Concilio Illidari"; --Bien
 		GREY..INDENT.."Lady Malande (Sacerdote)"; --Comprobar

@@ -226,6 +226,32 @@ if ( GetLocale() == "esES" ) then
 			GREY.."8) Andormu, Nozari (Niño)"; --Bien
 			GREY.."9) Andormu, Nozari (Adulto)"; --Bien
 		};
+		KarazhanEnt = {
+			ZoneName = "Karazhan"; --Bien
+			Acronym = "Kara";
+			Location = "Paso de la Muerte"; --Bien
+			BLUE.."A) Entrada Principal"; --Bien
+			BLUE.."B) Entrada Trasera"; --Bien
+			BLUE.."C) Piedra de encuentro"; --Bien
+			BLUE.."D) Cementerio"; --Bien
+			GREY.."1) Archimaga Leryda"; --Bien
+			GREY.."2) Aprendiz Darius"; --Bien
+			GREY.."3) Archimago Alturus"; --Bien
+			GREY.."4) Escaleras a Underground Pond"; --Bien
+			GREY.."5) Escaleras a Underground Well"; --Bien
+			GREY.."6) Trozo de hueso carbonizado (Misión)"; --Bien
+		};
+
+		SMEnt = {
+			ZoneName = "Monsterio Escarlata"; --Bien
+			Acronym = "ME";
+			Location = "Claros de Tirisfal"; --Bien
+			BLUE.."A) Entrada"; --Bien
+			BLUE.."B) Cementerio"; --Bien
+			BLUE.."C) Catedral"; --Bien
+			BLUE.."D) Armería"; --Bien
+			BLUE.."E) Biblioteca"; --Bien
+		};
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
@@ -252,6 +278,10 @@ if ( GetLocale() == "esES" ) then
 	myData.DireMaulEnt.PlayerLimit =			"5";
 	myData.CoTEnt.LevelRange =					"66-70";
 	myData.CoTEnt.PlayerLimit =					"5/25";
+	myData.KarazhanEnt.LevelRange =			    "70";
+	myData.KarazhanEnt.PlayerLimit =			"10";
+	myData.SMEnt.LevelRange =				    "29-45";
+	myData.SMEnt.PlayerLimit =				    "10";
 	
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

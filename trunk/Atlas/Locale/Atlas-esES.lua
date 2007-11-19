@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 25/10/2007
+-- Última Actualización (last update): 19/11/2007
 
 --]]
 
@@ -273,6 +273,7 @@ AtlasMaps = {
 		Location = "Feralas";
 		ORNG.."Llave: Llave creciente"; --Bien
 		BLUE.."A) Entrada";
+		BLUE.."B) Biblicoteca"; --Bien
 		GREY.."1) Guardia Mol'dar"; --Bien
 		GREY.."2) Vapuleador Kreeg"; --Bien
 		GREY.."3) Guardia Fengus"; --Bien
@@ -553,6 +554,7 @@ AtlasMaps = {
 		BLUE.."C-F) Conexiones";
 		GREY.."1) Vaelan (Arriba)"; --Bien
 		GREY.."2) Warosh (Rondando)"; --Bien
+		GREY..INDENT.."Ancestro Petraforte"; --Bien
 		GREY.."3) Pica férrea"; --Bien
 		GREY.."4) Carnicero Cumbrerroca (Raro)"; --Bien
  		GREY.."5) Alto Señor Omokk"; --Bien
@@ -577,6 +579,7 @@ AtlasMaps = {
 		GREY..INDENT.."Gizrul el Esclavista"; --Bien
 		GREY.."18) Ghok Bashguud (Raro)"; --Bien
 		GREY.."19) Señor Supremo Vermiothalak"; --Bien
+		GREN.."1') Guarda vil ardiente (Raro, Invocar)"; --Bien
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Cumbre de Roca Negra (Arriba)";
@@ -584,21 +587,24 @@ AtlasMaps = {
 		ORNG.."Llave: Sello de Ascensión"; --Bien
 		ORNG.."Llave: Blandón de Invocación"; --Bien
 		BLUE.."A) Entrada";
+		BLUE.."B) Cumbre de Roca Negra (Inferior)";
+		BLUE.."C-E) Conexiones";
 		GREY.."1) Piroguardián Brasadivino"; --Bien
 		GREY.."2) Solakar Corona de Fuego"; --Bien
 		GREY..INDENT.."Padre llama"; --Bien
-		GREY.."3) Jed Vigía de las runas (Raro)"; --Bien
-		GREY.."4) Goraluk Yunquegrieta"; --Bien
-		GREY.."5) Jefe de Guerra Rend Puño Negro"; --Bien
+		GREY.."3) Tablilla de Rocanegra"; --Bien
+		GREY..INDENT.."Broche de Equipasino"; --Bien
+		GREY.."4) Jed Vigía de las runas (Raro)"; --Bien
+		GREY.."5) Goraluk Yunquegrieta"; --Bien
+		GREY.."6) Jefe de Guerra Rend Puño Negro"; --Bien
 		GREY..INDENT.."Gyth"; --Bien
-		GREY.."6) Awbee"; --Bien
-		GREY.."7) La Bestia"; --Bien
+		GREY.."7) Awbee"; --Bien
+		GREY.."8) La Bestia"; --Bien
 		GREY..INDENT.."Lord Valthalak (Invocar)"; --Bien
 		GREY..INDENT.."Finkle Unicornín"; --Bien
-		GREY.."8) General Drakkisath"; --Bien
-		GREY..INDENT.."Broche de Equipasino"; --Bien
+		GREY.."9) General Drakkisath"; --Bien
 		GREY..INDENT.."El orbe de orden"; --Bien
-		GREY.."9) Guarida Alanegra"; --Bien
+		GREY.."10) Guarida Alanegra"; --Bien
 	};
 	BlackwingLair = {
 		ZoneName = "Guarida Alanegra";
@@ -691,10 +697,12 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		GREY.."1) Interrogador Vishas"; --Bien
 		GREY..INDENT.."Vorrel Sengutz"; --Bien
-		GREY.."2) Dosarcerado (Raro)"; --Bien
-		GREY.."3) Azshir el Insomne (Raro)"; --Bien
-		GREY.."4) Campeón caído (Raro)"; --Bien
-		GREY.."5) Mago Sangriento Thalnos"; --Bien
+		GREY.."2) Calabaza Santuario (Halloween)";
+		GREY..INDENT.."Jinete decapitado (Invocar)"; --Bien
+		GREY.."3) Mago Sangriento Thalnos"; --Bien
+		GREN.."1') Dosarcerado (Raro)"; --Bien
+		GREN..INDENT.."Azshir el Insomne (Raro)"; --Bien
+		GREN..INDENT.."Campeón caído (Raro)"; --Bien
 	};
 	Scholomance = {
 		ZoneName = "Scholomance";
@@ -917,6 +925,9 @@ AtlasMaps = {
 		Location = "Bosque de la Plaga, T.P.E.";
 		ORNG.."Armonización Requerida";
 		ORNG.."Reputación: Alba Argenta"; --Bien
+		BLUE.."A) Entrada";
+		BLUE..INDENT.."Archimago Tarsis Kil-Moldir"; --Bien
+		BLUE..INDENT.."Sr. Biguelvalor (Rondando)";	--Bien	
 		BLUE.."Ala de las Abominaciones"; --No visto (comprobar)
 		BLUE..INDENT.."1) Remendejo"; --Bien
 		BLUE..INDENT.."2) Grobbulus"; --Bien
@@ -1002,7 +1013,6 @@ AtlasMaps = {
 		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Colgante del ojo violeta"; --Bien
 		ORNG.."Llave: La llave del maestro"; --Bien
-		ORNG.."Llave: Urna ennegrecida (Nocturno)"; --Bien
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR
 		BLUE.."J) Escaleras rotas"; --Bien COMPROBAR
 		BLUE.."K) Rampa a la Biblioteca del Guardián"; --Bien
@@ -1053,6 +1063,7 @@ AtlasMaps = {
 		GREY.."2) Guardia de sangre Mano Destrozada (Solo Heróico)"; --Bien
 		GREY.."3) Belisario O'mrogg"; --Bien
 		GREY.."4) Jefe de Guerra Kargath Garrafilada"; --Bien
+		GREY..INDENT.."Ejecutor Mano Destrozada (Heróico)"; --Comprobar
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI: Murallas del Fuego Infernal";
@@ -1140,9 +1151,10 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		GREY.."1) Pandemonius"; --Bien
 		GREY..INDENT.."Señor de las Sombras Xiraxis"; --Bien
-		GREY.."2) Tavarok"; --Bien
-		GREY.."3) Panel de control del transportador etéreo"; --Bien
-		GREY.."4) Príncipe-nexo Shaffar"; --Bien
+		GREY.."2) Embajador Pax'ivi (Heróico)"; --Bien
+		GREY.."3) Tavarok"; --Bien
+		GREY.."4) Panel de control del transportador etéreo"; --Bien
+		GREY.."5) Príncipe-nexo Shaffar"; --Bien
 		GREY..INDENT.."Yor (Cámara de estasis, invocar, heróico)";
 	};
 	AuchAuchenaiCrypts = {
@@ -1273,7 +1285,7 @@ AtlasMaps = {
 		GREY..INDENT.."Esencia de Sufrimiento"; -- Bien COMPROBAR
 		GREY.."3) Teron Sanguino"; --Bien
 	};
-	BlackTempleMiddle = {
+	BlackTempleStart = {
 		ZoneName = "El Templo Oscuro (Comienzo)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
 		Acronym = "TO";

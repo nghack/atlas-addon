@@ -241,16 +241,17 @@ function Atlas_Init()
 		Atlas_FreshOptions();
 	end
 	
-	if ( AtlasOptions.AtlasType > getn(AtlasMaps) ) then
+	
+	--populate the dropdown lists...yeeeah this is so much nicer!
+	Atlas_PopulateDropdowns();
+	
+	
+	if ( ATLAS_DROPDOWNS[AtlasOptions.AtlasType] == nil ) then
 		ATLAS_OLD_TYPE = AtlasOptions.AtlasType;
 		ATLAS_OLD_ZONE = AtlasOptions.AtlasZone;
 		AtlasOptions.AtlasType = 1;
 		AtlasOptions.AtlasZone = 1;
 	end
-	
-	--populate the dropdown lists...yeeeah this is so much nicer!
-	Atlas_PopulateDropdowns();
-	
 	
 	--Now that saved variables have been loaded, update everything accordingly
 	Atlas_Refresh();
@@ -360,7 +361,6 @@ end
 --The zoneID variable represents the internal name used for each map
 --Also responsible for updating all the text when a map is changed
 function Atlas_Refresh()
-	
 	
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;

@@ -279,6 +279,7 @@ AtlasMaps = {
 		Location = "Feralas";
 		ORNG.."Key: Crescent Key";
 		BLUE.."A) Entrance";
+		BLUE.."B) Library";
 		GREY.."1) Guard Mol'dar";
 		GREY.."2) Stomper Kreeg";
 		GREY.."3) Guard Fengus";
@@ -562,6 +563,7 @@ AtlasMaps = {
 		BLUE.."C-F) Connections";
 		GREY.."1) Vaelan (Up)";
 		GREY.."2) Warosh (Wanders)";
+		GREY..INDENT.."Elder Stonefort";
 		GREY.."3) Roughshod Pike";
 		GREY.."4) Spirestone Butcher (Rare)";
 		GREY.."5) Highlord Omokk";
@@ -586,6 +588,7 @@ AtlasMaps = {
 		GREY..INDENT.."Gizrul the Slavener";
 		GREY.."18) Ghok Bashguud (Rare)";
 		GREY.."19) Overlord Wyrmthalak";
+		GREN.."1') Burning Felguard (Rare, Summon)";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Blackrock Spire (Upper)";
@@ -600,6 +603,7 @@ AtlasMaps = {
 		GREY.."2) Solakar Flamewreath";
 		GREY..INDENT.."Father Flame";
 		GREY.."3) Darkstone Tablet";
+		GREY..INDENT.."Doomrigger's Clasp";
 		GREY.."4) Jed Runewatcher (Rare)";
 		GREY.."5) Goraluk Anvilcrack";
 		GREY.."6) Warchief Rend Blackhand";
@@ -609,7 +613,6 @@ AtlasMaps = {
 		GREY..INDENT.."Lord Valthalak (Summon)";
 		GREY..INDENT.."Finkle Einhorn";
 		GREY.."9) General Drakkisath";
-		GREY..INDENT.."Doomrigger's Clasp";
 		GREY..INDENT.."Drakkisath's Brand";
 		GREY.."10) Blackwing Lair (BWL)";
 	};
@@ -707,10 +710,12 @@ AtlasMaps = {
 		BLUE.."A) Entrance";
 		GREY.."1) Interrogator Vishas";
 		GREY..INDENT.."Vorrel Sengutz";
-		GREY.."2) Ironspine (Rare)";
-		GREY.."3) Azshir the Sleepless (Rare)";
-		GREY.."4) Fallen Champion (Rare)";
-		GREY.."5) Bloodmage Thalnos";
+		GREY.."2) Pumpkin Shrine (Hallow's End)";
+		GREY..INDENT.."Headless Horseman (Summon)";
+		GREY.."3) Bloodmage Thalnos";
+		GREN.."1') Ironspine (Rare)";
+		GREN..INDENT.."Azshir the Sleepless (Rare)";
+		GREN..INDENT.."Fallen Champion (Rare)";		
 	};
 	Scholomance = {
 		ZoneName = "Scholomance";
@@ -934,6 +939,9 @@ AtlasMaps = {
 		Location = "Plaguewood, Eastern Plaguelands";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Argent Dawn";
+		BLUE.."A) Entrance";
+		BLUE..INDENT.."Archmage Tarsis Kir-Moldir";
+		BLUE..INDENT.."Mr. Bigglesworth (Wanders)";
 		BLUE.."Abomination Wing";
 		BLUE..INDENT.."1) Patchwerk";
 		BLUE..INDENT.."2) Grobbulus";
@@ -960,7 +968,7 @@ AtlasMaps = {
 		GREN..INDENT.."2) Kel'Thuzad";
 	};
 	KarazhanStart = {
-		ZoneName = "Karazhan (Start)";
+		ZoneName = "Karazhan [A] (Start)";
 		Acronym = "Kara";
 		Location = "Deadwind Pass";
 		ORNG.."Attunement Required";
@@ -1001,7 +1009,7 @@ AtlasMaps = {
 		GREY..INDENT..INDENT.."(Random, Protection Warrior)";
 		GREY.."8) Bennett <The Sergeant at Arms>";
 		GREY.."9) Ebonlocke <The Noble>";
-		GREY.."10) Keanna's Log (Quest)";
+		GREY.."10) Keanna's Log";
 		GREY.."11) Maiden of Virtue";
 		GREY.."12) Sebastian <The Organist>";
 		GREY.."13) Barnes <The Stage Manager>";
@@ -1009,17 +1017,16 @@ AtlasMaps = {
 		GREY..INDENT.."Little Red Riding Hood (Random)";
 		GREY..INDENT.."The Wizard of Oz (Random)";
 		GREY..INDENT.."Romeo and Juliet (Random)";
-		GREY.."15) The Master's Terrace (Quest)";
+		GREY.."15) The Master's Terrace";
 		GREY..INDENT.."Nightbane (Summon)";
 	};
 	KarazhanEnd = {
-		ZoneName = "Karazhan (End)";
+		ZoneName = "Karazhan [B] (End)";
 		Acronym = "Kara";
 		Location = "Deadwind Pass";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Violet Eye";
 		ORNG.."Key: The Master's Key";
-		ORNG.."Key: Blackened Urn (Nightbane)";
 		BLUE.."I) Path to the Broken Stairs";
 		BLUE.."J) Broken Stairs";
 		BLUE.."K) Ramp to Guardian's Library";
@@ -1040,7 +1047,7 @@ AtlasMaps = {
 		GREY..INDENT.."Kil'rek (Imp)";
 		GREY.."21) Shade of Aran";
 		GREY.."22) Netherspite";
-		GREY.."23) Ythyar (Repair and rewards)";
+		GREY.."23) Ythyar (Repair and Rewards)";
 		GREY.."24) Echo of Medivh";
 		GREY.."25) Chess Event";
 		GREY.."26) Prince Malchezaar";
@@ -1070,6 +1077,7 @@ AtlasMaps = {
 		GREY.."2) Blood Guard Porung (Heroic)";
 		GREY.."3) Warbringer O'mrogg";
 		GREY.."4) Warchief Kargath Bladefist";
+		GREY..INDENT.."Shattered Hand Executioner (Heroic)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HFC: Hellfire Ramparts";
@@ -1160,9 +1168,10 @@ AtlasMaps = {
 		BLUE.."A) Entrance";
 		GREY.."1) Pandemonius";
 		GREY..INDENT.."Shadow Lord Xiraxis";
-		GREY.."2) Tavarok";
-		GREY.."3) Ethereal Transporter Control Panel";
-		GREY.."4) Nexus-Prince Shaffar";
+		GREY.."2) Ambassador Pax'ivi (Heroic)";
+		GREY.."3) Tavarok";
+		GREY.."4) Ethereal Transporter Control Panel";
+		GREY.."5) Nexus-Prince Shaffar";
 		GREY..INDENT.."Yor (Stasis Chamber, Summon, Heroic)";
 	};
 	AuchAuchenaiCrypts = {
@@ -1281,7 +1290,7 @@ AtlasMaps = {
 		GREY.."2) Gruul the Dragonkiller";
 	};
 	BlackTempleBasement = {
-		ZoneName = "Black Temple (Basement)";
+		ZoneName = "Black Temple [B] (Basement)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
 		ORNG.."Attunement Required";
@@ -1297,7 +1306,7 @@ AtlasMaps = {
 		GREY.."3) Teron Gorefiend";
 	};
 	BlackTempleStart = {
-		ZoneName = "Black Temple (Start)";
+		ZoneName = "Black Temple [A] (Start)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
 		ORNG.."Attunement Required";
@@ -1312,7 +1321,7 @@ AtlasMaps = {
 		GREY.."3) Shade of Akama";
 	};
 	BlackTempleTop = {
-		ZoneName = "Black Temple (Top)";
+		ZoneName = "Black Temple [C] (Top)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
 		ORNG.."Attunement Required";

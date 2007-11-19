@@ -31,6 +31,19 @@ v1.10.3
 - added event names to CoT maps (Celellach)
 - added Shrine of Gelihast, Morridune and Altar of the Deeps to BFD
 - changed Fathom Core to Fathom Stone in BFD
+- added Ambassador Pax'ivi to Mana-Tombs (DiabloHu)
+- added the entrance and a few mobs to Naxx (Celellach)
+- added Shattered Hand Executioner to Shattered Halls (lichee)
+- updated instance level ranges with the patch 2.3 changes (WoWWiki)
+- retooled the mob locations in SM Graveyard a bit (Celellach)
+- alphabetized some multi-part maps so they appear in the correct order
+- put Doomrigger's Clasp in the right place (Celellach)
+- removed Blackened Urn key from Kara end (Celellach)
+- added posible spawn points for Burning Felguard in LBRS (Celellach)
+- added Elder Stonefort to LBRS (Celellach)
+- added Library marker to the DM North map (Celellach)
+- fixed a slight problem with Atlas remembering the last map you were looking at between sessions
+- Atlas will only remember the last map between sessions if it's one of the built-in ones
 - this was a huge update, so one or two things might have been missed here
 
 v1.10.2

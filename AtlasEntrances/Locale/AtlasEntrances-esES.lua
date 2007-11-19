@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 25/10/2007
+-- Úl�ltima Actualización (last update): 19/11/2007
 
 --]]
 
@@ -263,7 +263,7 @@ if ( GetLocale() == "esES" ) then
 	myData.CoilfangReservoirEnt.LevelRange =	"61-70";
 	myData.CoilfangReservoirEnt.PlayerLimit =	"5-25";
 	myData.GnomereganEnt.LevelRange =			"24-40";
-	myData.GnomereganEnt.PlayerLimit =			"5/25";
+	myData.GnomereganEnt.PlayerLimit =			"10";
 	myData.MaraudonEnt.LevelRange =				"40-58";
 	myData.MaraudonEnt.PlayerLimit =			"10";
 	myData.TheDeadminesEnt.LevelRange =			"15-28";

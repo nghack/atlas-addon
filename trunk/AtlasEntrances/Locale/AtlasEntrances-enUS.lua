@@ -233,7 +233,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."3) Archmage Alturus";
 			GREY.."4) Stairs to Underground Pond";
 			GREY.."5) Stairs to Underground Well";
-			GREY.."6) Charred Bone Fragment (quest)";
+			GREY.."6) Charred Bone Fragment";
 		};
 
 		SMEnt = {

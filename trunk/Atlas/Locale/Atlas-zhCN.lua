@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/15/2007
+-- Last Update : 11/20/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -257,6 +257,7 @@ AtlasMaps = {
 		Location = "菲拉斯";
 		ORNG.."钥匙：月牙钥匙";
 		BLUE.."A) 入口";
+		BLUE.."B) 图书馆";
 		GREY.."1) 卫兵摩尔达";
 		GREY.."2) 践踏者克雷格";
 		GREY.."3) 卫兵芬古斯";
@@ -536,32 +537,36 @@ AtlasMaps = {
 		Location = "黑石山";
 		ORNG.."钥匙：符咒火盆 (地下城套装2)";
 		BLUE.."A) 入口";
-		GREY.."1) 维埃兰";
-		GREY.."2) 瓦罗什";
+		BLUE.."B) 上层黑石塔 (UBRS)";
+		BLUE.."C-F) 连接处";
+		GREY.."1) 维埃兰 (上层)";
+		GREY.."2) 瓦罗什 (巡逻)";
 		GREY..INDENT.."石墙长者 (春节)";
-		GREY.."3) 比修";
-		GREY.."4) 尖锐长矛";
-		GREY.."5) 尖石屠夫 (稀有)";
-		GREY.."6) 欧莫克大王";
-		GREY..INDENT.."尖石统帅 (稀有)";
+		GREY.."3) 尖锐长矛";
+		GREY.."4) 尖石屠夫 (稀有)";
+		GREY.."5) 欧莫克大王";
+		GREY.."6) 尖石统帅 (稀有)";
 		GREY..INDENT.."尖石首席法师 (稀有)";
 		GREY.."7) 暗影猎手沃什加斯";
 		GREY..INDENT.."第五块摩沙鲁石板";
-		GREY.."8) 指挥官沃恩";
-		GREY..INDENT.."第六块摩沙鲁石板";
+		GREY.."8) 比修";
+		GREY.."9) 指挥官沃恩";
 		GREY..INDENT.."莫尔·灰蹄 (召唤)";
-		GREY.."9) 人类遗骸";
-		GREY..INDENT.."未淬火的板甲护手";
-		GREY.."10) 班诺克·巨斧 (稀有)";
-		GREY.."11) 烟网蛛后";
-		GREY.."12) 水晶之牙";
-		GREY.."13) 乌洛克 (召唤)";
-		GREY.."14) 军需官兹格雷斯";
-		GREY.."15) 哈雷肯";
+		GREY..INDENT.."第六块摩沙鲁石板";
+		GREY.."10) 比修的装置";
+		GREY.."11) 人类遗骸 (下层)";
+		GREY..INDENT.."未淬火的板甲护手 (下层)";
+		GREY.."12) 班诺克·巨斧 (稀有)";
+		GREY.."13) 烟网蛛后";
+		GREY.."14) 水晶之牙 (稀有)";
+		GREY.."15) 乌洛克的贡品堆";
+		GREY..INDENT.."乌洛克 (召唤)";
+		GREY.."16) 军需官兹格雷斯";
+		GREY.."17) 哈雷肯";
 		GREY..INDENT.." 奴役者基兹鲁尔";
-		GREY.."16) 霍克·巴什古德 (稀有)";
-		GREY.."17) 维姆萨拉克";
-		GREY.."?) 燃烧地狱卫士 (稀有, 随机)";
+		GREY.."18) 霍克·巴什古德 (稀有)";
+		GREY.."19) 维姆萨拉克";
+		GREY.."1') 燃烧地狱卫士 (稀有, 随机)";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "黑石塔 (上层)";
@@ -570,21 +575,24 @@ AtlasMaps = {
 		ORNG.."钥匙：晋升印章";
 		ORNG.."钥匙：符咒火盆 (地下城套装2)";
 		BLUE.."A) 入口";
+		BLUE.."B) 下层黑石塔 (LBRS)";
+		BLUE.."C-E) 连接处";
 		GREY.."1) 烈焰卫士艾博希尔";
 		GREY.."2) 索拉卡·火冠";
 		GREY..INDENT.."烈焰之父";
-		GREY.."3) 杰德 (稀有)";
-		GREY.."4) 古拉鲁克";
-		GREY.."5) 大酋长雷德·黑手";
+		GREY.."3) 黑暗石板";
+		GREY..INDENT.."末日扣环";
+		GREY.."4) 杰德 (稀有)";
+		GREY.."5) 古拉鲁克";
+		GREY.."6) 大酋长雷德·黑手";
 		GREY..INDENT.."盖斯";
-		GREY.."6) 奥比";
-		GREY.."7) 比斯巨兽";
+		GREY.."7) 奥比";
+		GREY.."8) 比斯巨兽";
 		GREY..INDENT.."瓦塔拉克公爵 (召唤)";
 		GREY..INDENT.."芬克·恩霍尔";
-		GREY.."8) 达基萨斯将军";
-		GREY..INDENT.."末日扣环";
+		GREY.."9) 达基萨斯将军";
 		GREY..INDENT.."达基萨斯的烙印";
-		GREY.."9) 黑翼之巢 (团队副本)";
+		GREY.."10) 黑翼之巢 (BWL, 团队副本)";
 	};
 	BlackwingLair = {
 		ZoneName = "黑翼之巢";
@@ -680,10 +688,12 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 审讯员韦沙斯";
 		GREY..INDENT.."沃瑞尔·森加斯";
-		GREY.."2) 铁脊死灵 (稀有)";
-		GREY.."3) 永醒的艾希尔 (稀有)";
-		GREY.."4) 死灵勇士 (稀有)";
-		GREY.."5) 血法师萨尔诺斯";
+		GREY.."2) 南瓜神龛 (万圣节)";
+		GREY..INDENT.."无头骑士 (召唤)";
+		GREY.."3) 血法师萨尔诺斯";
+		GREN.."1') 铁脊死灵 (稀有)";
+		GREN..INDENT.."永醒的艾希尔 (稀有)";
+		GREN..INDENT.."死灵勇士 (稀有)";		
 	};
 	Scholomance = {
 		ZoneName = "通灵学院";
@@ -907,6 +917,9 @@ AtlasMaps = {
 		Location = "病木林，东瘟疫之地";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：银色黎明";
+		BLUE.."A) 入口";
+		BLUE..INDENT.."大法师塔希斯·基莫迪尔";
+		BLUE..INDENT.."比格沃斯 (巡逻)";
 		BLUE.."憎恶翼";
 		BLUE..INDENT.."1) 帕奇维克";
 		BLUE..INDENT.."2) 格罗布鲁斯";
@@ -932,22 +945,34 @@ AtlasMaps = {
 		GREN..INDENT.."1) 萨菲隆";
 		GREN..INDENT.."2) 克尔苏加德";
 	};
-	Karazhan = {
-		ZoneName = "卡拉赞";
+	KarazhanStart = {
+		ZoneName = "卡拉赞 [A] (前半)";
 		Acronym = "Kara";
 		Location = "逆风小径";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：紫罗兰之眼";
 		ORNG.."钥匙：麦迪文的钥匙";
 		ORNG.."钥匙：黑色骨灰 (夜之魇)";
-		BLUE.."A) 入口 (前门)";
-		BLUE.."B) 楼梯 (后门)";
-		BLUE.."C) 楼梯";
-		BLUE.."D) 走廊";
-		BLUE.."E) 走廊";
-		GREY.."1) 猎手阿图门";
+		BLUE.."A) 前门入口";
+		BLUE.."B) 通往宴会厅的楼梯 (莫罗斯)";
+		BLUE.."C) 通往马厩上层的楼梯";
+		BLUE.."D) 通往会客间的斜坡 (贞节圣女)";
+		BLUE.."E) 通往歌剧院正厅的楼梯";
+		BLUE.."F) 楼座与露台间的斜坡";
+		BLUE.."G) 后门入口";
+		BLUE.."H) 通往:";
+		BLUE..INDENT.."主宰的露台 (夜之魇)";
+		BLUE.."I) 通往破碎阶梯的通道";
+		GREY.."1) 哈斯汀斯 <看管者>";
+		GREY.."2) 潜伏者希亚其斯 (稀有, 随机)";
+		GREY..INDENT.."蹂躏者洛卡德 (稀有, 随机)";
+		GREY..INDENT.."滑翔者沙德基斯 (稀有, 随机)";
+		GREY.."3) 伯特霍德 <门卫>";
+		GREY.."4) 卡利亚德 <清洁工>";
+		GREY.."5) 猎手阿图门";
 		GREY..INDENT.."午夜";
-		GREY.."2) 莫罗斯";
+		GREY.."6) 库雷恩 <铁匠>";
+		GREY.."7) 莫罗斯";
 		GREY..INDENT.."杜萝希·米尔斯提女伯爵";
 		GREY..INDENT..INDENT.."(随机, 暗影牧师)";
 		GREY..INDENT.."卡翠欧娜·冯因迪女伯爵";
@@ -960,22 +985,50 @@ AtlasMaps = {
 		GREY..INDENT..INDENT.."(随机, 武器战士)";
 		GREY..INDENT.."克里斯宾·费伦斯伯爵";
 		GREY..INDENT..INDENT.."(随机, 防护战士)";
-		GREY.."3) 贞节圣女";
-		GREY.."4) 歌剧";
+		GREY.."8) 本内特 <警卫>";
+		GREY.."9) 埃伯洛克 <贵族>";
+		GREY.."10) 金娜的日记";
+		GREY.."11) 贞节圣女";
+		GREY.."12) 塞巴斯蒂安 <风琴手>";
+		GREY.."13) 巴内斯 <舞台管理员>";
+		GREY.."14) 歌剧院事件";
 		GREY..INDENT.."小红帽 (随机)";
+		GREY..INDENT.."绿叶仙踪 (随机)";
 		GREY..INDENT.."罗密欧与朱丽叶 (随机)";
-		GREY..INDENT.."绿野仙踪 (随机)";
-		GREY.."5) 馆长";
-		GREY.."6) 特雷斯坦·邪蹄";
+		GREY.."15) 主宰的露台";
+		GREY..INDENT.."夜之魇 (召唤)";
+	};
+	KarazhanEnd = {
+		ZoneName = "卡拉赞 [B] (后半)";
+		Acronym = "Kara";
+		Location = "逆风小径";
+		ORNG.."需要完成入口任务";
+		ORNG.."阵营：紫罗兰之眼";
+		ORNG.."钥匙：麦迪文的钥匙";
+		BLUE.."I) 通往破碎阶梯的通道";
+		BLUE.."J) 破碎阶梯";
+		BLUE.."K) 通往守护者的图书馆的斜坡";
+		BLUE..INDENT.."(埃兰之影)";
+		BLUE.."L) 奇怪的书架";
+		BLUE..INDENT.."(特雷斯坦·邪蹄)";
+		BLUE.."M) 通往观星大厅的斜坡";
+		BLUE..INDENT.."(虚空幽龙)";
+		BLUE..INDENT.."通往象棋大厅的斜坡";
+		BLUE..INDENT.."(象棋事件)";
+		BLUE.."N) 通往麦迪文房间的斜坡";
+		BLUE.."O) 通往虚空异界的楼梯 (王子)";
+		GREY.."16) 馆长";
+		GREY.."17) 拉维恩 <法师>";
+		GREY.."18) 格拉达夫 <术士>";
+		GREY.."19) 卡姆希丝 <咒术师>";
+		GREY.."20) 特雷斯坦·邪蹄";
 		GREY..INDENT.."基尔里克 (小鬼)";
-		GREY.."7) 埃兰之影";
-		GREY.."8) 虚空幽龙";
-		GREY.."9) 国际象棋";
-		GREY.."10) 玛克扎尔王子";
-		GREY.."11) 夜之魇 (平台上, 召唤)";
-		GREY.."12) 潜伏者希亚其斯 (随机)";
-		GREY..INDENT.." 蹂躏者洛卡德 (随机)";
-		GREY..INDENT.." 滑翔者沙德基斯 (随机)";
+		GREY.."21) 埃兰之影";
+		GREY.."22) 虚空幽龙";
+		GREY.."23) 伊萨尔 (修理, 出售商品)";
+		GREY.."24) 麦迪文的回音";
+		GREY.."25) 象棋事件";
+		GREY.."26) 玛克扎尔王子";
 	};
 	HCBloodFurnace = {
 		ZoneName = "地狱火堡垒 - 鲜血熔炉";
@@ -1002,6 +1055,7 @@ AtlasMaps = {
 		GREY.."2) 血卫士伯鲁恩 (英雄模式)";
 		GREY.."3) 战争使者沃姆罗格";
 		GREY.."4) 酋长卡加斯·刃拳";
+		GREY..INDENT.."碎手斩杀者 (英雄模式)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "地狱火堡垒 - 地狱火城墙";
@@ -1092,6 +1146,7 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 潘德莫努斯";
 		GREY..INDENT.."暗影领主希拉卡希斯";
+		GREY.."2) 帕克希维大使 (英雄模式)";
 		GREY.."2) 塔瓦洛克";
 		GREY.."3) 虚灵传送器控制台";
 		GREY.."4) 节点亲王沙法尔";
@@ -1213,14 +1268,14 @@ AtlasMaps = {
 		GREY.."2) 屠龙者格鲁尔";
 	};
 	BlackTempleBasement = {
-		ZoneName = "黑暗神殿 (底层)";
+		ZoneName = "黑暗神殿 [B] (底层)";
 		Location = "影月谷";
 		Acronym = "BT";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
+		BLUE.."B) 入口";
 		BLUE.."C) 入口";
-		BLUE.."D) 入口";
 		GREY.."1) 古尔图格·血沸";
 		GREY.."2) 灵魂之匣";
 		GREY..INDENT.."愤怒精华";
@@ -1229,20 +1284,22 @@ AtlasMaps = {
 		GREY.."3) 塔隆·血魔";
 	};
 	BlackTempleMiddle = {
-		ZoneName = "黑暗神殿 (中层)";
+		ZoneName = "黑暗神殿 [A] (入门)";
 		Location = "影月谷";
 		Acronym = "BT";
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
-		BLUE.."B) 入口";
-		BLUE.."C) 通往灵魂之匣";
-		BLUE.."D) 通往塔隆·血魔";
-		BLUE.."E) 通往伊利丹·怒风";
-		GREY.."1) 阿卡玛之影";
+		BLUE.."A) 入口";
+		BLUE.."B) 通往灵魂之匣";
+		BLUE.."C) 通往塔隆·血魔";
+		BLUE.."D) 通往伊利丹·怒风";
+		GREY.."1) 高阶督军纳因图斯";
+		GREY.."2) 苏普雷姆斯";
+		GREY.."3) 阿卡玛之影";
 	};
 	BlackTempleTop = {
-		ZoneName = "黑暗神殿 (顶层)";
+		ZoneName = "黑暗神殿 [C] (顶层)";
 		Location = "影月谷";
 		Acronym = "BT";
 		ORNG.."需要完成入口任务";
@@ -1257,18 +1314,6 @@ AtlasMaps = {
 		GREY..INDENT.."薇尔莱丝·深影 (潜行者)";
 		GREY.."3) 伊利丹·怒风";
 	};
-	BlackTempleFull = {
-		ZoneName = "黑暗神殿 (全图)";
-		Location = "影月谷";
-		Acronym = "BT";
-		ORNG.."需要完成入口任务";
-		ORNG.."阵营：灰舌死誓者";
-		ORNG.."钥匙：卡拉波勋章";
-		BLUE.."A) 入口";
-		BLUE.."B) 深入黑暗神殿";
-		GREY.."1) 高阶督军纳因图斯";
-		GREY.."2) 苏普雷姆斯";
-	};
 	ZulAman = {
 		ZoneName = "祖阿曼";
 		Location = "幽魂之地";
@@ -1276,7 +1321,7 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 纳洛拉克 (巨熊)";
 		GREY.."2) 埃基尔松 (雄鹰)";
-		GREY.."3) 加亚莱 (凤鹰)";
+		GREY.."3) 加亚莱 (龙鹰)";
 		GREY.."4) 哈尔拉兹 (山猫)";
 		GREY.."5) 妖术领主玛拉克拉斯";
 		GREY.."6) 祖尔金";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/20/2007
+-- Last Update : 11/21/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -1323,7 +1323,7 @@ AtlasMaps = {
 		GREY.."2) 埃基尔松 (雄鹰)";
 		GREY.."3) 加亚莱 (龙鹰)";
 		GREY.."4) 哈尔拉兹 (山猫)";
-		GREY.."5) 妖术领主玛拉克拉斯";
+		GREY.."5) 妖术领主玛拉卡斯";
 		GREY.."6) 祖尔金";
 	};
 };

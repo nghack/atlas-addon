@@ -162,7 +162,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."3) Schrifttafel von Ryun'eh";
 			GREY.."4) Krom Stoutarms Truhe";
 			GREY.."5) Familientruhe der Garretts";
-			GREN.."1) Grubenmeister Schaufelphlansch (Rar, Variiert)";
+			GREN.."1') Grubenmeister Schaufelphlansch (Rar, Variiert)";
 		};
 		WailingCavernsEnt = {
 			ZoneName = "Die Höhlen des Wehklagens";
@@ -218,6 +218,31 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Nozari (Kind)";
 			GREY.."9) Andormu (Erwachsen)";
 			GREY..INDENT.."Nozari (Erwachsen)";
+		};
+		KarazhanEnt = {
+			ZoneName = "Karazhan";
+			Acronym = "Kara";
+			Location = "Gebirgspass der Totenwinde";
+			BLUE.."A) Eingang (Vorne)";
+			BLUE.."B) Eingang (Hinten)";
+			BLUE.."C) Versammlungsstein";
+			BLUE.."D) Friedhof";
+			GREY.."1) Erzmagierin Leryda";
+			GREY.."2) Lehrling Darius";
+			GREY.."3) Erzmagier Alturus";
+			GREY.."4) Treppe zum Unterirdischen Teich";
+			GREY.."5) Treppe zum Unterirdischen Brunnen";
+			GREY.."6) Verkohltes Knochenfragment";
+		};
+		SMEnt = {
+			ZoneName = "Das scharlachrote Kloster";
+			Acronym = "SK";
+			Location = "Tirisfal";
+			BLUE.."A) Eingang";
+			BLUE.."B) Friedhof";
+			BLUE.."C) Kathedrale";
+			BLUE.."D) Waffenkammer";
+			BLUE.."E) Bibliothek";
 		};
 	};
 

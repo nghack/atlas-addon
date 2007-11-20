@@ -239,7 +239,7 @@ if ( GetLocale() == "esES" ) then
 			GREY.."3) Archimago Alturus"; --Bien
 			GREY.."4) Escaleras a Underground Pond"; --Bien
 			GREY.."5) Escaleras a Underground Well"; --Bien
-			GREY.."6) Trozo de hueso carbonizado (Misión)"; --Bien
+			GREY.."6) Trozo de hueso carbonizado"; --Bien
 		};
 
 		SMEnt = {

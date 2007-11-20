@@ -219,7 +219,7 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."3) 大法师奥图鲁斯";
 			GREY.."4) 通往地下水池的楼梯";
 			GREY.."5) 通往地下水井的楼梯";
-			GREY.."6) 焦骨碎块 (任务)";
+			GREY.."6) 焦骨碎块";
 		};
 		SMEnt = {
 			ZoneName = "血色修道院";

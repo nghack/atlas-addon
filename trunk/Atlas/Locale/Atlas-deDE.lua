@@ -288,6 +288,7 @@ AtlasMaps = {
 		Location = "Feralas";
 		ORNG.."Key: Mondsichelschlüssel";
 		BLUE.."A) Eingang";
+		BLUE.."B) Bücherei";
 		GREY.."1) Wache Mol'dar";
 		GREY.."2) Stampfer Kreeg";
 		GREY.."3) Wache Fengus";
@@ -719,10 +720,12 @@ AtlasMaps = {
 		BLUE.."A) Eingang";
 		GREY.."1) Befrager Vishas";
 		GREY..INDENT.."Vorrel Sengutz";
-		GREY.."2) Eisenstachel (Rar)";
-		GREY.."3) Azshir der Schlaflose (Rar)";
-		GREY.."4) Gefallener Held (Rar)";
-		GREY.."5) Blutmagier Thalnos";
+		GREY.."2) Kürbisschrein (Die Schlotternächte)";
+		GREY..INDENT.."Der kopflose Reiter (Beschwörbar)";
+		GREY.."3) Blutmagier Thalnos";
+		GREN.."1') Eisenstachel (Rar)";
+		GREN..INDENT.."Azshir der Schlaflose (Rar)";
+		GREN..INDENT.."Gefallener Held (Rar)";
 	};
 	Scholomance = {
 		ZoneName = "Scholomance";
@@ -947,6 +950,9 @@ AtlasMaps = {
 		Location = "Pestwald, Die Östliche Pestländer";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Argentumdämmerung";
+		BLUE.."A) Eingang";
+		BLUE..INDENT.."Erzmagier Tarsis Kir-Moldir";
+		BLUE..INDENT.."Mr. Bigglesworth (Wandert)";
 		BLUE.."Monströsitätenflügel";
 		BLUE..INDENT.."1) Flickwerk";
 		BLUE..INDENT.."2) Grobbulus";
@@ -1082,6 +1088,7 @@ AtlasMaps = {
 		GREY.."2) Blutwache Porung (Heroisch)";
 		GREY.."3) Kriegshetzer O'mrogg";
 		GREY.."4) Kriegshäuptling Kargath Messerfaust";
+		GREY..INDENT.."Henker der Zerschmetterten Hand (Heroisch)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HZ: Höllenfeuerbollwerk";
@@ -1172,9 +1179,10 @@ AtlasMaps = {
 		BLUE.."A) Eingang";
 		GREY.."1) Pandemonius";
 		GREY..INDENT.."Schattenlord Xiraxis";
-		GREY.."2) Tavarok";
-		GREY.."3) Bedienungskonsole des Astraltransporters";
-		GREY.."4) Nexusprinz Shaffar";
+		GREY.."2) Botschafter Pax'ivi (Heroisch)";
+		GREY.."3) Tavarok";
+		GREY.."4) Bedienungskonsole des Astraltransporters";
+		GREY.."5) Nexusprinz Shaffar";
 		GREY..INDENT.."Yor (Stasiskammer, Beschwörbar, Heroisch)";
 	};
 	AuchAuchenaiCrypts = {

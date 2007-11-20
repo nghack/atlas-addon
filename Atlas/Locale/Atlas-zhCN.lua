@@ -1283,7 +1283,7 @@ AtlasMaps = {
 		GREY..INDENT.."苦痛精华";
 		GREY.."3) 塔隆·血魔";
 	};
-	BlackTempleMiddle = {
+	BlackTempleStart = {
 		ZoneName = "黑暗神殿 [A] (入门)";
 		Location = "影月谷";
 		Acronym = "BT";

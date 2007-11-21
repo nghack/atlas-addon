@@ -28,17 +28,17 @@
 
 --]]
 
-AtlasMaps.BlackfathomDeeps.LevelRange =			"22-24";
-AtlasMaps.WailingCaverns.LevelRange =			"17-21";
+AtlasMaps.BlackfathomDeeps.LevelRange =			"20-28";
+AtlasMaps.WailingCaverns.LevelRange =			"16-25";
 AtlasMaps.DireMaulNorth.LevelRange =			"57-60";
 AtlasMaps.DireMaulEast.LevelRange =				"55-58";
 AtlasMaps.DireMaulWest.LevelRange =				"57-60";
-AtlasMaps.RazorfenDowns.LevelRange =			"34-37";
-AtlasMaps.RazorfenKraul.LevelRange =			"24-27";
-AtlasMaps.Maraudon.LevelRange =					"43-48";
+AtlasMaps.RazorfenDowns.LevelRange =			"33-42";
+AtlasMaps.RazorfenKraul.LevelRange =			"23-33";
+AtlasMaps.Maraudon.LevelRange =					"42-51";
 AtlasMaps.OnyxiasLair.LevelRange =				"60-70";
-AtlasMaps.RagefireChasm.LevelRange =			"13-16";
-AtlasMaps.ZulFarrak.LevelRange =				"43-46";
+AtlasMaps.RagefireChasm.LevelRange =			"12-18";
+AtlasMaps.ZulFarrak.LevelRange =				"42-48";
 AtlasMaps.TheTempleofAhnQiraj.LevelRange =		"60-70";
 AtlasMaps.TheRuinsofAhnQiraj.LevelRange =		"60-70";
 AtlasMaps.CoTBlackMorass.LevelRange =			"68-70";
@@ -47,21 +47,21 @@ AtlasMaps.CoTOldHillsbrad.LevelRange =			"66-70";
 
 AtlasMaps.BlackrockSpireLower.LevelRange =		"54-60";
 AtlasMaps.BlackrockSpireUpper.LevelRange =		"56-61";
-AtlasMaps.BlackrockDepths.LevelRange =			"48-56";
-AtlasMaps.ShadowfangKeep.LevelRange =			"18-21";
-AtlasMaps.SMLibrary.LevelRange =				"33-35";
-AtlasMaps.SMArmory.LevelRange =					"35-37";
-AtlasMaps.SMCathedral.LevelRange =				"36-40";
-AtlasMaps.SMGraveyard.LevelRange =				"30-32";
+AtlasMaps.BlackrockDepths.LevelRange =			"52-58";
+AtlasMaps.ShadowfangKeep.LevelRange =			"17-25";
+AtlasMaps.SMLibrary.LevelRange =				"31-37";
+AtlasMaps.SMArmory.LevelRange =					"33-40";
+AtlasMaps.SMCathedral.LevelRange =				"36-42";
+AtlasMaps.SMGraveyard.LevelRange =				"28-35";
 AtlasMaps.MoltenCore.LevelRange =				"60-70";
-AtlasMaps.TheSunkenTemple.LevelRange =			"47-50";
-AtlasMaps.TheStockade.LevelRange =				"22-30";
-AtlasMaps.TheDeadmines.LevelRange =				"15-28";
-AtlasMaps.Gnomeregan.LevelRange =				"25-28";
+AtlasMaps.TheSunkenTemple.LevelRange =			"46-53";
+AtlasMaps.TheStockade.LevelRange =				"21-27";
+AtlasMaps.TheDeadmines.LevelRange =				"16-22";
+AtlasMaps.Gnomeregan.LevelRange =				"24-32";
 AtlasMaps.BlackwingLair.LevelRange =			"60-70";
 AtlasMaps.Scholomance.LevelRange =				"58-60";
 AtlasMaps.Stratholme.LevelRange =				"58-60";
-AtlasMaps.Uldaman.LevelRange =					"36-40";
+AtlasMaps.Uldaman.LevelRange =					"36-42";
 AtlasMaps.ZulGurub.LevelRange =					"56-70";
 AtlasMaps.Naxxramas.LevelRange =				"60-70";
 AtlasMaps.KarazhanStart.LevelRange =			"70";

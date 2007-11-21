@@ -85,7 +85,7 @@ ATLAS_HELP = {"Acerca de Atlas\n===========\n\nAtlas es un addon de interfaz par
 
 ATLAS_OPTIONS_CATDD = "Ordenar los mapas de mazmorra por:";
 ATLAS_DDL_CONTINENT = "Continente";
-ATLAS_DDL_CONTINENT_EASTERN = "Mazmorras del Reinos del Este";
+ATLAS_DDL_CONTINENT_EASTERN = "Mazmorras de los Reinos del Este";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Mazmorras de Kalimdor";
 ATLAS_DDL_CONTINENT_OUTLAND = "Mazmorras de Terrallende";
 ATLAS_DDL_LEVEL = "Nivel";

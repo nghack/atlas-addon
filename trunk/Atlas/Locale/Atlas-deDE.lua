@@ -1293,7 +1293,7 @@ AtlasMaps = {
 		Location = "Schergrat";
 		Acronym = "Gruul";
 		BLUE.."A) Eingang";
-		GREY.."1) Hochkönig Raufgar";
+		GREY.."1) Hochkönig Maulgar";
 		GREY..INDENT.."Gicherer der Wahnsinnige (Schamane)";
 		GREY..INDENT.."Blindauge der Seher (Priester)";
 		GREY..INDENT.."Olm der Beschwörer (Hexenmeister)";

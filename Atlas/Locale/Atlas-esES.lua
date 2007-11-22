@@ -162,12 +162,15 @@ AtlasMaps = {
 		GREY.."3) Lady Sarevess"; --Bien
 		GREY.."4) Guardia Argenta Thaelrid"; --Bien
 		GREY.."5) Gelihast"; --Bien
+		GREY..INDENT.."Santuario de Gelihast"; --Bien
 		GREY.."6) Lorgus Jett (Varia)"; --Bien
 		GREY.."7) Barón Aquanis"; --Bien
 		GREY..INDENT.."Núcleo de las profundidades"; --Bien
 		GREY.."8) Señor Crepuscular Kelris";  --Bien
 		GREY.."9) Viejo Serra'kis"; --Bien
 		GREY.."10) Aku'mai"; --Bien
+		GREY..INDENT.."Morriduna"; --Bien
+		GREY..INDENT.."Altar de las profundidades"; --Bien
 	};
 	RazorfenKraul = {
 		ZoneName = "Horado Rajacieno";

@@ -26,7 +26,7 @@
 --Author: Dan Gilbert
 --Email: loglow@gmail.com
 --AIM: dan5981
---
+
 
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");

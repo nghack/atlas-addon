@@ -218,7 +218,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Nozari (Enfant)";
 			GREY.."9) Andormu (Adulte)";
 			GREY..INDENT.."Nozari (Adulte)";
-			};
+		};
 		KarazhanEnt = {
 			ZoneName = "Karazhan";
 			Acronym = "Kara";

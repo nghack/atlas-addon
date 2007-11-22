@@ -93,7 +93,7 @@ if ( GetLocale() == "frFR" ) then
 			BLUE.."Bleu :"..ORNG.." Champs de bataille";
 			GREY.."Blanc :"..ORNG.." Instances";
 		};
-		DLOutreterre = {
+		DLOutland = {
 			ZoneName = "Instances (Outreterre)";
 			Location = "Outreterre";
 			GREY.."1) Repaire de Gruul, ".._RED.."Les Tranchantes";
@@ -118,7 +118,6 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Les salles des Sethekk";
 			GREY..INDENT.."Labyrinthe des ombres";
 			GREY.."6) Temple Noir, ".._RED.."Vallée d'Ombrelune";
-
 		};
 	};
 

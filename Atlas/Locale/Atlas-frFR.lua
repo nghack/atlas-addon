@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -24,10 +24,10 @@
 
 --[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
--- Version WoW 2.2.3 (french client)
+-- Version WoW 2.3.0 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 26/10/2007
+-- le 22/11/2007
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -257,7 +257,7 @@ AtlasMaps = {
 		ZoneName = "Hache-tripes (Est)";
 		Acronym = "DM/HT";
 		Location = "Féralas";
-		ORNG.."Objet : Brasero d'invocation (Isalien)";
+		ORNG.."Objet : Brasero d'invocation (Set D2)";
 		BLUE.."A) Entrée";
 		BLUE.."B) Entrée (Couloir sud)";
 		BLUE.."C) Entrée (Pavillon de Lariss)";
@@ -555,13 +555,13 @@ AtlasMaps = {
 		ZoneName = "Pic Rochenoire inférieur";
 		Acronym = "LBRS / Pic1";
 		Location = "Mont Rochenoire";
-		ORNG.."Objet : Brasero d'invocation (Mor Sabot-gris)";
+		ORNG.."Objet : Brasero d'invocation (Set D2)";
 		BLUE.."A) Entrée";
 		BLUE.."B) Pic Rochenoire supérieur (UBRS)";
 		BLUE.."C-F) Connexions";
 		GREY.."1) Vaelan (En haut)";
 		GREY.."2) Warosh (Errant)";
---		GREY..INDENT.."Ancien Fort-de-pierre (Fête lunaire)";		
+		GREY..INDENT.."Ancien Fort-de-pierre (Fête lunaire)";		
 		GREY.."3) Pique de fortune";
 		GREY.."4) Boucher Pierre-du-pic (Rare)";
 		GREY.."5) Généralissime Omokk";
@@ -586,7 +586,7 @@ AtlasMaps = {
 		GREY..INDENT.."Gizrul l'esclavagiste";
 		GREY.."18) Ghok Bounnebaffe (Rare)";
 		GREY.."19) Seigneur Wyrmthalak";
---		GREY.."?) Gangregarde ardent (Rare, Hasard)";
+		GREN.."1') Gangregarde ardent (Rare, Invoqué)";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "Pic Rochenoire supérieur";
@@ -600,7 +600,8 @@ AtlasMaps = {
 		GREY.."1) Pyrogarde Prophète ardent";
 		GREY.."2) Solakar Voluteflamme";
 		GREY..INDENT.."Père des flammes";
-		GREY.."3) Darkstone Tablet";		
+		GREY.."3) Tablette de Sombrepierre";
+		GREY..INDENT.."Fermoir de Frèteruine";		
 		GREY.."4) Jed Guette-runes (Rare)";
 		GREY.."5) Goraluk Brisenclume";
 		GREY.."6) Chef de guerre Rend Main-noire";
@@ -610,7 +611,6 @@ AtlasMaps = {
 		GREY..INDENT.."Seigneur Valthalak (Invoqué)";
 		GREY..INDENT.."Finkle Einhorn";
 		GREY.."9) Général Drakkisath";
-		GREY..INDENT.."Fermoir de Frèteruine";
 		GREY..INDENT.."Marque de Drakkisath";
 		GREY.."10) Repaire de l'Aile noire";
 	};
@@ -707,10 +707,13 @@ AtlasMaps = {
 		Location = "Monastère écarlate, Clairières de Tirisfal";
 		BLUE.."A) Entrée";
 		GREY.."1) Interrogateur Vishas";
-		GREY.."2) Echine-de-fer (Rare)";
-		GREY.."3) Azshir le Sans-sommeil (Rare)";
-		GREY.."4) Champion déchu (Rare)";
-		GREY.."5) Mage de sang Thalnos";
+		GREY..INDENT.."Vorrel Sengutz";
+		GREY.."2) Sanctuaire Citrouille (Sanssaint)";
+		GREY..INDENT.."Cavalier sans tête (Invoqué)";
+		GREY.."3) Mage de sang Thalnos";
+		GREN.."1') Echine-de-fer (Rare)";
+		GREN..INDENT.."Azshir le Sans-sommeil (Rare)";
+		GREN..INDENT.."Champion déchu (Rare)";
 	};
 	Scholomance = {
 		ZoneName = "Scholomance";
@@ -720,7 +723,7 @@ AtlasMaps = {
 		ORNG.."Objet : Clé squelette";
 		ORNG.."Objet : Clé de la Chambre des visions";
 		ORNG.."Objet : Sang des innocents (Kirtonos)";
-		ORNG.."Objet : Brasero d'invocation (Kormok)";
+		ORNG.."Objet : Brasero d'invocation (Set D2)";
 		ORNG.."Objet : Clairvoyant (Ravassombre)";
 		BLUE.."A) Entrée";
 		BLUE.."B) Escalier";
@@ -778,7 +781,7 @@ AtlasMaps = {
 		ORNG.."Objet : La Clé écarlate (Phalange)";
 		ORNG.."Objet : Clé de la ville (Baron)";
 		ORNG.."Objet : Clé des boîtes à lettres (Postier)";
-		ORNG.."Objet : Brasero d'invocation (Sothos/Jarien)";
+		ORNG.."Objet : Brasero d'invocation (Set D2)";
 		BLUE.."A) Entrée (principale)";
 		BLUE.."B) Entrée (côté Est)";
 		GREY.."1) Krân (Rare, Variable)";
@@ -934,6 +937,9 @@ AtlasMaps = {
 		Location = "Pestebois, Maleterres de l'Est";
 		ORNG.."Quête d'accès requise";
 		ORNG.."Réput : Aube d'argent";
+		BLUE.."A) Entrée";
+		BLUE..INDENT.."Archimage Tarsis Kir-Moldir";
+		BLUE..INDENT.."M. Bigglesworth (Errant)";
 		BLUE.."Aile des Abominations";
 		BLUE..INDENT.."1) Le Recousu";
 		BLUE..INDENT.."2) Grobbulus";
@@ -969,14 +975,14 @@ AtlasMaps = {
 		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";	
 		BLUE.."A) Entrée principale";
 		BLUE.."B) Escalier de la salle de bal (Moroes)";
-		BLUE.."C) Stairs to Upper Stable"; -- A traduire
-		BLUE.."D) Ramp to the Guest Chambers (Damoiselle)"; -- A traduire
-		BLUE.."E) Stairs to Opera House Orchestra Level"; -- A traduire
-		BLUE.."F) Ramp from Mezzanine to Balcony"; -- A traduire
-		BLUE.."G) Back Entrance"; -- A traduire
-		BLUE.."H) Connection to:"; -- A traduire
-		BLUE..INDENT.."Master's Terrace (Nightbane)"; -- A traduire
-		BLUE.."I) Path to the Broken Stairs"; -- A traduire
+		BLUE.."C) Escalier vers les Ecuries";
+		BLUE.."D) Rampe vers les Appartements des hôtes (Damoiselle)";
+		BLUE.."E) Escalier vers la fosse de l'Opéra";
+		BLUE.."F) Rampe de la Mezzanine au Balcon";
+		BLUE.."G) Entrée de derrière";
+		BLUE.."H) Connexion à :";
+		BLUE..INDENT.."La terrasse du Maître (Plaie-de-nuit)";
+		BLUE.."I) Chemin vers l'Escalier brisé";
 		GREY.."1) Hastings <Le gardien>";
 		GREY.."2) Hyakiss la Rôdeuse (Hasard)";
 		GREY..INDENT.."Rodak le ravageur (Hasard)";
@@ -1001,15 +1007,15 @@ AtlasMaps = {
 		GREY..INDENT..INDENT.."(Hasard, Guerrier Protection)";
 		GREY.."8) Bennett <L'huissier>";
 		GREY.."9) Bouclenoire <Les nobles>";
-		GREY.."10) Journal de Keanna (Quête)";
+		GREY.."10) Journal de Keanna";
 		GREY.."11) Damoiselle de vertu";
 		GREY.."12) Sebastian <L'Organiste>";
 		GREY.."13) Barnes <Le Régisseur>";
 		GREY.."4) L'Opéra";
-		GREY..INDENT.."Le Grand Méchant Loup (Hasard)"; -- (Le Petit Chaperon Rouge)
-		GREY..INDENT.."La Mégère (Hasard)"; -- (Le Magicien d'Oz)
-		GREY..INDENT.."Romulo et Julianne (Hasard)"; -- (Roméo et Juliette)
-		GREY.."15) La terrasse du Maître (Quête)";
+		GREY..INDENT.."Le Grand Méchant Loup (Hasard)"; --  (Le Petit Chaperon Rouge)
+		GREY..INDENT.."La Mégère (Hasard)"; --  (Le Magicien d'Oz)
+		GREY..INDENT.."Romulo et Julianne (Hasard)"; --  (Roméo et Juliette)
+		GREY.."15) La terrasse du Maître";
 		GREY..INDENT.."Plaie-de-nuit (Invoqué)";
 	};
 	KarazhanEnd = {
@@ -1019,19 +1025,18 @@ AtlasMaps = {
 		ORNG.."Harmonisation requise";
 		ORNG.."Réput : L'Œil pourpre";
 		ORNG.."Objet : La clé du maître";
-		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";	
-		BLUE.."I) Path to the Broken Stairs"; -- A traduire
-		BLUE.."J) Broken Stairs"; -- A traduire
-		BLUE.."K) Ramp to Guardian's Library"; -- A traduire
+		BLUE.."I) Chemin vers l'Escalier brisé";
+		BLUE.."J) L'Escalier brisé";
+		BLUE.."K) Rampe vers la Bibliothèque du Gardien";
 		BLUE..INDENT.."(Ombre d'Aran)";
-		BLUE.."L) Suspicious Bookshelf"; -- A traduire
-		BLUE..INDENT.."(Passage vers Illhoof)";
-		BLUE.."M) Ramp up to the Celestial Watch"; -- A traduire
+		BLUE.."L) Bibliotheque suspecte"; -- A vérifier
+		BLUE..INDENT.."(Passage vers Terestian)";
+		BLUE.."M) Rampe montant vers Le Guet céleste";
 		BLUE..INDENT.."(Dédain-du-Néant)";
-		BLUE..INDENT.."Ramp down to the Gamesman's Hall"; -- A traduire
+		BLUE..INDENT.."Rampe déscendant vers le Hall du Flambeur";
 		BLUE..INDENT.."(L'Echéquier)";
 		BLUE.."N) Rampe vers la chambre de Medivh";
-		BLUE.."O) Spiral Stairs to Netherspace (Prince)"; -- A traduire
+		BLUE.."O) Escalier en spiral vers le Néantespace (Prince)";
 		GREY.."16) Le conservateur";
 		GREY.."17) Wravien <Le Mage>";
 		GREY.."18) Gradav <Le Démoniste>";
@@ -1070,6 +1075,7 @@ AtlasMaps = {
 		GREY.."2) Garde de sang Porung (Héroïque)";
 		GREY.."3) Porteguerre O'mrogg";
 		GREY.."4) Chef de guerre Kargath Lamepoing";
+		GREY..INDENT.."Bourreau de la Main brisée (Héroïque)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI : Remparts des Flammes infernales";
@@ -1160,9 +1166,10 @@ AtlasMaps = {
 		BLUE.."A) Entrée";
 		GREY.."1) Pandemonius";
 		GREY..INDENT.."Seigneur des ténèbres Xiraxis";
-		GREY.."2) Tavarok";
-		GREY.."3) Panneau de contrôle du transporteur étherien";
-		GREY.."4) Prince-nexus Shaffar";
+		GREY.."2) Ambassadeur Pax'ivi (Héroïque)";
+		GREY.."3) Tavarok";
+		GREY.."4) Panneau de contrôle du transporteur étherien";
+		GREY.."5) Prince-nexus Shaffar";
 		GREY..INDENT.."Yor (Invoqué, Héroïque)";
 	};
 	AuchAuchenaiCrypts = {
@@ -1296,7 +1303,7 @@ AtlasMaps = {
 		GREY..INDENT.."Essence de la souffrance";
 		GREY.."3) Teron Fielsang";
 	};
-	BlackTempleMiddle = {
+	BlackTempleStart = {
 		ZoneName = "Temple Noir (Centre)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
@@ -1307,7 +1314,9 @@ AtlasMaps = {
 		BLUE.."C) Vers Reliquaire des âmes";
 		BLUE.."D) Vers Teron Fielsang";
 		BLUE.."E) Vers Illidan Hurlorage";
-		GREY.."1) Ombre d'Akama";
+		GREY.."1) Grand seigneur de guerre Naj'entus";
+		GREY.."2) Supremus";		
+		GREY.."3) Ombre d'Akama";
 	};
 	BlackTempleTop = {
 		ZoneName = "Temple Noir (Haut)";
@@ -1324,18 +1333,6 @@ AtlasMaps = {
 		GREY..INDENT.."Grand néantomancien Zerevor (Mage)";
 		GREY..INDENT.."Veras Ombrenoir (Voleur)";
 		GREY.."3) Illidan Hurlorage";
-	};
-	BlackTempleFull = {
-		ZoneName = "Temple Noir (Complet)";
-		Location = "Vallée d'Ombrelune";
-		Acronym = "BT";
-		ORNG.."Harmonisation requise";
-		ORNG.."Réput : Ligemort Cendrelangue";
-		ORNG.."Objet : Médaillon de Karabor";
-		BLUE.."A) Entrée";
-		BLUE.."B) Suite du Temple Noir";
-		GREY.."1) Grand seigneur de guerre Naj'entus";
-		GREY.."2) Supremus";
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";

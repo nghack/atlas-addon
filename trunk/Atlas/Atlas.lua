@@ -27,6 +27,10 @@
 --Email: loglow@gmail.com
 --AIM: dan5981
 
+
+
+
+
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
 
 --all in one place now

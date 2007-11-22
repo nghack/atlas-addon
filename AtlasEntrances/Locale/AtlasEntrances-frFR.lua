@@ -232,7 +232,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."3) Archimage Alturus";
 			GREY.."4) Escalier vers le bassin souterrain";
 			GREY.."5) Escalier vers le puits souterrain";
-			GREY.."6) Fragment d'os carbonisé (Quête)";
+			GREY.."6) Fragment d'os carbonisé";
 		};
 		SMEnt = {
 			ZoneName = "Monastère écarlate";

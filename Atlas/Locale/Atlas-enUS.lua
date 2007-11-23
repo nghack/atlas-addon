@@ -412,6 +412,8 @@ AtlasMaps = {
 		GREY.."3) Kaz'rogal";
 		GREY.."4) Azgalor";
 		GREY.."5) Archimonde";
+		GREY.."?) Indormi";
+		GREY..INDENT.."Tydormu";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "CoT: Old Hillsbrad Foothills";
@@ -1073,10 +1075,18 @@ AtlasMaps = {
 		ORNG.."Key: Shattered Halls Key";
 		ORNG.."Key: Flamewrought Key (Heroic)";
 		BLUE.."A) Entrance";
-		GREY.."1) Grand Warlock Nethekurse";
-		GREY.."2) Blood Guard Porung (Heroic)";
-		GREY.."3) Warbringer O'mrogg";
-		GREY.."4) Warchief Kargath Bladefist";
+		GREY.."1) Randy Whizzlesprocket (Alliance)";
+		GREY..INDENT.."Private Jacint (Alliance)";
+		GREY..INDENT.."Rifleman Brownbeard (Alliance)";
+		GREY..INDENT.."Captain Alina (Alliance)";
+		GREY..INDENT.."Drisella (Horde)";
+		GREY..INDENT.."Scout Orgarr (Horde)";
+		GREY..INDENT.."Korag Proudmane (Horde)";
+		GREY..INDENT.."Captain Boneshatter (Horde)";
+		GREY.."2) Grand Warlock Nethekurse";
+		GREY.."3) Blood Guard Porung (Heroic)";
+		GREY.."4) Warbringer O'mrogg";
+		GREY.."5) Warchief Kargath Bladefist";
 		GREY..INDENT.."Shattered Hand Executioner (Heroic)";
 	};
 	HCHellfireRamparts = {
@@ -1152,10 +1162,11 @@ AtlasMaps = {
 		ORNG.."Rep: Cenarion Expedition";
 		BLUE.."A) Entrance";
 		GREY.."1) Hydross the Unstable";
-		GREY.."2) Leotheras the Blind";
-		GREY.."3) Fathom-Lord Karathress";
-		GREY.."4) Morogrim Tidewalker";
-		GREY.."5) The Lurker Below";
+		GREY.."2) The Lurker Below";
+		GREY.."3) Leotheras the Blind";
+		GREY.."4) Fathom-Lord Karathress";
+		GREY..INDENT.."Seer Olum";
+		GREY.."5) Morogrim Tidewalker";
 		GREY.."6) Lady Vashj";
 	};
 	AuchManaTombs = {
@@ -1170,7 +1181,8 @@ AtlasMaps = {
 		GREY..INDENT.."Shadow Lord Xiraxis";
 		GREY.."2) Ambassador Pax'ivi (Heroic)";
 		GREY.."3) Tavarok";
-		GREY.."4) Ethereal Transporter Control Panel";
+		GREY.."4) Cryo-Engineer Sha'heen";
+		GREY..INDENT.."Ethereal Transporter Control Panel";
 		GREY.."5) Nexus-Prince Shaffar";
 		GREY..INDENT.."Yor (Stasis Chamber, Summon, Heroic)";
 	};
@@ -1184,6 +1196,7 @@ AtlasMaps = {
 		GREY.."1) Shirrak the Dead Watcher";
 		GREY.."2) Exarch Maladaar";
 		GREY..INDENT.."Avatar of the Martyred";
+		GREY..INDENT.."D'ore";
 	};
 	AuchSethekkHalls = {
 		ZoneName = "Auch: Sethekk Halls";
@@ -1194,6 +1207,7 @@ AtlasMaps = {
 		ORNG.."Key: Essence-Infused Moonstone (Anzu)";
 		BLUE.."A) Entrance";
 		GREY.."1) Darkweaver Syth";
+		GREY..INDENT.."Lakka";
 		GREY.."2) The Saga of Terokk";
 		GREY..INDENT.."Anzu (Summon, Heroic)";
 		GREY.."3) Talon King Ikiss";
@@ -1289,22 +1303,6 @@ AtlasMaps = {
 		GREY..INDENT.."Krosh Firehand (Mage)";
 		GREY.."2) Gruul the Dragonkiller";
 	};
-	BlackTempleBasement = {
-		ZoneName = "Black Temple [B] (Basement)";
-		Location = "Shadowmoon Valley";
-		Acronym = "BT";
-		ORNG.."Attunement Required";
-		ORNG.."Rep: Ashtongue Deathsworn";
-		ORNG.."Key: Medallion of Karabor";
-		BLUE.."B) Entrance";
-		BLUE.."C) Entrance";
-		GREY.."1) Gurtogg Bloodboil";
-		GREY.."2) Reliquary of Souls";
-		GREY..INDENT.."Essence of Anger";
-		GREY..INDENT.."Essence of Desire";
-		GREY..INDENT.."Essence of Suffering";
-		GREY.."3) Teron Gorefiend";
-	};
 	BlackTempleStart = {
 		ZoneName = "Black Temple [A] (Start)";
 		Location = "Shadowmoon Valley";
@@ -1316,9 +1314,30 @@ AtlasMaps = {
 		BLUE.."B) Towards Reliquary of Souls";
 		BLUE.."C) Towards Teron Gorefiend";
 		BLUE.."D) Towards Illidan Stormrage";
-		GREY.."1) High Warlord Naj'entus";
-		GREY.."2) Supremus";
-		GREY.."3) Shade of Akama";
+		GREY.."1) Spirit of Olum";
+		GREY.."2) High Warlord Naj'entus";
+		GREY.."3) Supremus";
+		GREY.."4) Shade of Akama";
+		GREY.."5) Spirit of Udalo";
+		GREY..INDENT.."Aluyen (Reagent Vendor)";
+		GREY..INDENT.."Okuno <Ashtongue Deathsworn Quartermaster>";
+		GREY..INDENT.."Seer Kanai";
+	};
+	BlackTempleBasement = {
+		ZoneName = "Black Temple [B] (Basement)";
+		Location = "Shadowmoon Valley";
+		Acronym = "BT";
+		ORNG.."Attunement Required";
+		ORNG.."Rep: Ashtongue Deathsworn";
+		ORNG.."Key: Medallion of Karabor";
+		BLUE.."B) Entrance";
+		BLUE.."C) Entrance";
+		GREY.."6) Gurtogg Bloodboil";
+		GREY.."7) Reliquary of Souls";
+		GREY..INDENT.."Essence of Anger";
+		GREY..INDENT.."Essence of Desire";
+		GREY..INDENT.."Essence of Suffering";
+		GREY.."8) Teron Gorefiend";
 	};
 	BlackTempleTop = {
 		ZoneName = "Black Temple [C] (Top)";
@@ -1328,13 +1347,13 @@ AtlasMaps = {
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
 		BLUE.."D) Entrance";
-		GREY.."1) Mother Shahraz";
-		GREY.."2) Illidari Council";
+		GREY.."9) Mother Shahraz";
+		GREY.."10) Illidari Council";
 		GREY..INDENT.."Lady Malande (Priest)";
 		GREY..INDENT.."Gathios the Shatterer (Paladin)";
 		GREY..INDENT.."High Nethermancer Zerevor (Mage)";
 		GREY..INDENT.."Veras Darkshadow (Rogue)";
-		GREY.."3) Illidan Stormrage";
+		GREY.."11) Illidan Stormrage";
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";

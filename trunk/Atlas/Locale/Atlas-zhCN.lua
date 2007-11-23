@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/21/2007
+-- Last Update : 11/23/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -390,6 +390,8 @@ AtlasMaps = {
 		GREY.."3) 卡兹洛加";
 		GREY.."4) 阿兹加洛";
 		GREY.."5) 阿克蒙德";
+		GREY.."?) 因多米";
+		GREY..INDENT.."泰多姆";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "时光之穴 - 旧希尔希布莱德";
@@ -1051,10 +1053,18 @@ AtlasMaps = {
 		ORNG.."钥匙：碎裂大厅钥匙";
 		ORNG.."钥匙：焰铸钥匙 (英雄模式)";
 		BLUE.."A) 入口";
-		GREY.."1) 高阶术士奈瑟库斯";
-		GREY.."2) 血卫士伯鲁恩 (英雄模式)";
-		GREY.."3) 战争使者沃姆罗格";
-		GREY.."4) 酋长卡加斯·刃拳";
+		GREY.."1) 兰迪·维兹普罗克 (联盟)";
+		GREY..INDENT.."列兵亚森特 (联盟)";
+		GREY..INDENT.."火枪手布隆恩·棕须 (联盟)";
+		GREY..INDENT.."奥琳娜上尉 (联盟)";
+		GREY..INDENT.."德雷希拉 (部落)";
+		GREY..INDENT.."斥候奥贾尔 (部落)";
+		GREY..INDENT.."克拉格·傲鬃 (部落)";
+		GREY..INDENT.."沙塔·碎骨上尉 (部落)";
+		GREY.."2) 高阶术士奈瑟库斯";
+		GREY.."3) 血卫士伯鲁恩 (英雄模式)";
+		GREY.."4) 战争使者沃姆罗格";
+		GREY.."5) 酋长卡加斯·刃拳";
 		GREY..INDENT.."碎手斩杀者 (英雄模式)";
 	};
 	HCHellfireRamparts = {
@@ -1130,10 +1140,11 @@ AtlasMaps = {
 		ORNG.."阵营：塞纳里奥远征队";
 		BLUE.."A) 入口";
 		GREY.."1) 不稳定的海度斯";
-		GREY.."2) 盲眼者莱欧瑟拉斯";
-		GREY.."3) 深水领主卡拉瑟雷斯";
-		GREY.."4) 莫洛格里·踏潮者";
-		GREY.."5) 鱼斯拉";
+		GREY.."2) 鱼斯拉";
+		GREY.."3) 盲眼者莱欧瑟拉斯";
+		GREY.."4) 深水领主卡拉瑟雷斯";
+		GREY..INDENT.."先知奥鲁姆";
+		GREY.."5) 莫洛格里·踏潮者";
 		GREY.."6) 瓦丝琪";
 	};
 	AuchManaTombs = {
@@ -1147,9 +1158,10 @@ AtlasMaps = {
 		GREY.."1) 潘德莫努斯";
 		GREY..INDENT.."暗影领主希拉卡希斯";
 		GREY.."2) 帕克希维大使 (英雄模式)";
-		GREY.."2) 塔瓦洛克";
-		GREY.."3) 虚灵传送器控制台";
-		GREY.."4) 节点亲王沙法尔";
+		GREY.."3) 塔瓦洛克";
+		GREY.."4) 低温工程师沙赫恩";
+		GREY..INDENT.."虚灵传送器控制台";
+		GREY.."5) 节点亲王沙法尔";
 		GREY..INDENT.."尤尔 (静止间, 召唤, 英雄模式)";
 	};
 	AuchAuchenaiCrypts = {
@@ -1162,6 +1174,7 @@ AtlasMaps = {
 		GREY.."1) 死亡观察者希尔拉克";
 		GREY.."2) 大主教玛拉达尔";
 		GREY..INDENT.."殉难者的化身";
+		GREY..INDENT.."德欧里";
 	};
 	AuchSethekkHalls = {
 		ZoneName = "奥金顿 - 塞泰克大厅";
@@ -1172,6 +1185,7 @@ AtlasMaps = {
 		ORNG.."钥匙：灌注精华的月亮石 (安苏)";
 		BLUE.."A) 入口";
 		GREY.."1) 黑暗编织者塞斯";
+		GREY..INDENT.."拉卡";
 		GREY.."2) 泰罗克的传说";
 		GREY..INDENT.."安苏 (召唤, 英雄模式)";
 		GREY.."3) 利爪之王艾吉斯";
@@ -1267,22 +1281,6 @@ AtlasMaps = {
 		GREY..INDENT.."克洛什·火拳 (法师)";
 		GREY.."2) 屠龙者格鲁尔";
 	};
-	BlackTempleBasement = {
-		ZoneName = "黑暗神殿 [B] (底层)";
-		Location = "影月谷";
-		Acronym = "BT";
-		ORNG.."需要完成入口任务";
-		ORNG.."阵营：灰舌死誓者";
-		ORNG.."钥匙：卡拉波勋章";
-		BLUE.."B) 入口";
-		BLUE.."C) 入口";
-		GREY.."1) 古尔图格·血沸";
-		GREY.."2) 灵魂之匣";
-		GREY..INDENT.."愤怒精华";
-		GREY..INDENT.."欲望精华";
-		GREY..INDENT.."苦痛精华";
-		GREY.."3) 塔隆·血魔";
-	};
 	BlackTempleStart = {
 		ZoneName = "黑暗神殿 [A] (入门)";
 		Location = "影月谷";
@@ -1294,9 +1292,30 @@ AtlasMaps = {
 		BLUE.."B) 通往灵魂之匣";
 		BLUE.."C) 通往塔隆·血魔";
 		BLUE.."D) 通往伊利丹·怒风";
-		GREY.."1) 高阶督军纳因图斯";
-		GREY.."2) 苏普雷姆斯";
-		GREY.."3) 阿卡玛之影";
+		GREY.."1) 奥鲁姆之魂";
+		GREY.."2) 高阶督军纳因图斯";
+		GREY.."3) 苏普雷姆斯";
+		GREY.."4) 阿卡玛之影";
+		GREY.."5) 乌达鲁之魂";
+		GREY..INDENT.."奥鲁尤 <材料商>";
+		GREY..INDENT.."沃库诺 <灰舌死誓者军需官>";
+		GREY..INDENT.."先知坎奈";
+	};
+	BlackTempleBasement = {
+		ZoneName = "黑暗神殿 [B] (底层)";
+		Location = "影月谷";
+		Acronym = "BT";
+		ORNG.."需要完成入口任务";
+		ORNG.."阵营：灰舌死誓者";
+		ORNG.."钥匙：卡拉波勋章";
+		BLUE.."B) 入口";
+		BLUE.."C) 入口";
+		GREY.."6) 古尔图格·血沸";
+		GREY.."7) 灵魂之匣";
+		GREY..INDENT.."愤怒精华";
+		GREY..INDENT.."欲望精华";
+		GREY..INDENT.."苦痛精华";
+		GREY.."8) 塔隆·血魔";
 	};
 	BlackTempleTop = {
 		ZoneName = "黑暗神殿 [C] (顶层)";
@@ -1306,13 +1325,13 @@ AtlasMaps = {
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
 		BLUE.."E) 入口";
-		GREY.."1) 莎赫拉丝主母";
-		GREY.."2) 伊利达雷议会";
+		GREY.."9) 莎赫拉丝主母";
+		GREY.."10) 伊利达雷议会";
 		GREY..INDENT.."女公爵玛兰德 (牧师)";
 		GREY..INDENT.."击碎者加西奥斯 (圣骑士)";
 		GREY..INDENT.."高阶灵术师塞勒沃尔 (法师)";
 		GREY..INDENT.."薇尔莱丝·深影 (潜行者)";
-		GREY.."3) 伊利丹·怒风";
+		GREY.."11) 伊利丹·怒风";
 	};
 	ZulAman = {
 		ZoneName = "祖阿曼";

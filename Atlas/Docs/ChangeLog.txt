@@ -16,6 +16,10 @@ v1.10.3
 - added a new option for the grouping of instance maps
 - fixed an auto-select issue with the new grouping code
 - deDE, frFR, and esES localisation files are now encoded in UTF-8 (Maqjav)
+- updated instance level ranges with the patch 2.3 changes (WoWWiki)
+- alphabetized some multi-part maps so they appear in the correct order
+- fixed a slight problem with Atlas remembering the last map you were looking at between sessions
+- Atlas will only remember the last map between sessions if it's one of the built-in ones
 - added specific zone names to the 'dragons of nightmare' areas (Celellach)
 - added named mobs that are roaming at the 'dragons of nightmare' spots (Celellach)
 - added Coren Direbrew (Brewfest) to BRD (Celellach)
@@ -24,34 +28,31 @@ v1.10.3
 - changed the organization of DM arena mobs (Kiria)
 - added Elder Mistwalker to the DM arena (Celellach)
 - tagged DM arena mobs as random (Kiria)
+- added Library marker to the DM North map (Celellach)
+- added Shrine of Gelihast, Morridune and Altar of the Deeps to BFD
+- changed Fathom Core to Fathom Stone in BFD
+- retooled the mob locations in SM Graveyard a bit (Celellach)
+- added The Headless Horseman to SM Graveyard (Celellach)
+- added posible spawn points for Burning Felguard in LBRS (Celellach)
+- added Elder Stonefort to LBRS (Celellach)
+- put Doomrigger's Clasp in UBRS in the right place (Celellach)
 - changed the organization of Vem encounter in AQ40 (Celellach)
 - added Lord Kri and Princess Yauj to Vem encounter in AQ40 (Celellach)
 - added Vek'lor and Vek'nilash to Twin Emperors in AQ40 (Celellach)
-- added specific mobs and their classes to Illidari Council in BT (Telchar)
-- added event names to CoT maps (Celellach)
-- added Shrine of Gelihast, Morridune and Altar of the Deeps to BFD
-- changed Fathom Core to Fathom Stone in BFD
-- added Ambassador Pax'ivi to Mana-Tombs (DiabloHu)
 - added the entrance and a few mobs to Naxx (Celellach)
-- added Shattered Hand Executioner to Shattered Halls (lichee)
-- updated instance level ranges with the patch 2.3 changes (WoWWiki)
-- retooled the mob locations in SM Graveyard a bit (Celellach)
-- alphabetized some multi-part maps so they appear in the correct order
-- put Doomrigger's Clasp in the right place (Celellach)
-- removed Blackened Urn key from Kara end (Celellach)
-- added posible spawn points for Burning Felguard in LBRS (Celellach)
-- added Elder Stonefort to LBRS (Celellach)
-- added Library marker to the DM North map (Celellach)
-- fixed a slight problem with Atlas remembering the last map you were looking at between sessions
-- Atlas will only remember the last map between sessions if it's one of the built-in ones
+- added specific mobs and their classes to Illidari Council in BT (Telchar)
+- added a number of mobs to Black Temple (Arzach)
+- renumbered Black Temple maps for consistancy (Thandrenn)
+- added event names to CoT maps (Celellach)
+- added Ambassador Pax'ivi to Mana-Tombs (DiabloHu)
+- added Cryo-Engineer Sha'heen to Mana-Tombs (Celellach)
 - added D'ore to Auchenai Crypts (Celellach)
-- added Ethereal Transporter Control Panel to Mana-Tombs (Celellach)
 - added Lakka to Sethekk Halls (Celellach)
+- added Shattered Hand Executioner to Shattered Halls (lichee)
+- added a number of mobs to The Shattered Halls (Celellach)
+- removed Blackened Urn key from Kara end (Celellach)
 - added Seer Olum to Serpentshrine Cavern (Celellach)
 - added Indormi and Tydormu to Hyjal Summit; locations still needed (Celellach)
-- added a number of mobs to The Shattered Halls (Celellach)
-- added a number of mobs to Black Temple (Celellach)
-- renumbered Black Temple maps for consistancy (Thandrenn)
 - renumbered Serpentshrine Cavern map for accuracy (Nihlo)
 - this was a huge update, so one or two things might have been missed here
 

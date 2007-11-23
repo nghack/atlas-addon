@@ -44,6 +44,15 @@ v1.10.3
 - added Library marker to the DM North map (Celellach)
 - fixed a slight problem with Atlas remembering the last map you were looking at between sessions
 - Atlas will only remember the last map between sessions if it's one of the built-in ones
+- added D'ore to Auchenai Crypts (Celellach)
+- added Ethereal Transporter Control Panel to Mana-Tombs (Celellach)
+- added Lakka to Sethekk Halls (Celellach)
+- added Seer Olum to Serpentshrine Cavern (Celellach)
+- added Indormi and Tydormu to Hyjal Summit; locations still needed (Celellach)
+- added a number of mobs to The Shattered Halls (Celellach)
+- added a number of mobs to Black Temple (Celellach)
+- renumbered Black Temple maps for consistancy (Thandrenn)
+- renumbered Serpentshrine Cavern map for accuracy (Nihlo)
 - this was a huge update, so one or two things might have been missed here
 
 v1.10.2

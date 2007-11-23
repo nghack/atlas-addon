@@ -410,6 +410,8 @@ AtlasMaps = {
 		GREY.."3) Kazgorath";
 		GREY.."4) Azgalor";
 		GREY.."5) Archimonde";
+		GREY.."?) Indormi";
+		GREY..INDENT.."Tydormu";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "GdT : Les Contreforts d'Hautebrande d'antan";
@@ -1071,10 +1073,18 @@ AtlasMaps = {
 		ORNG.."Objet : Clé des Salles brisées";
 		ORNG.."Objet : Clé en flammes forgées (Héroïque)";
 		BLUE.."A) Entrée";
-		GREY.."1) Grand démoniste Néanathème";
-		GREY.."2) Garde de sang Porung (Héroïque)";
-		GREY.."3) Porteguerre O'mrogg";
-		GREY.."4) Chef de guerre Kargath Lamepoing";
+		GREY.."1) Randy Vizirouage (Alliance)";
+		GREY..INDENT.."Soldat Jacint (Alliance)";
+		GREY..INDENT.."Fusilier Brownbeard (Alliance)";
+		GREY..INDENT.."Captaine Alina (Alliance)";
+		GREY..INDENT.."Drisella (Horde)";
+		GREY..INDENT.."Eclaireur Orgarr (Horde)";
+		GREY..INDENT.."Korag Proudmane (Horde)";
+		GREY..INDENT.."Capitaine Fracasse-os (Horde)";
+		GREY.."2) Grand démoniste Néanathème";
+		GREY.."3) Garde de sang Porung (Héroïque)";
+		GREY.."4) Porteguerre O'mrogg";
+		GREY.."5) Chef de guerre Kargath Lamepoing";
 		GREY..INDENT.."Bourreau de la Main brisée (Héroïque)";
 	};
 	HCHellfireRamparts = {
@@ -1150,10 +1160,11 @@ AtlasMaps = {
 		ORNG.."Réput : Expédition cénarienne";
 		BLUE.."A) Entrée";
 		GREY.."1) Hydross l'Instable";
-		GREY.."2) Leotheras l'Aveugle";
-		GREY.."3) Seigneur des fonds Karathress";
-		GREY.."4) Morogrim Marcheur-des-flots";
-		GREY.."5) Le Rôdeur d'En-bas";
+		GREY.."2) Le Rôdeur d'En-bas";
+		GREY.."3) Leotheras l'Aveugle";
+		GREY.."4) Seigneur des fonds Karathress";
+		GREY..INDENT.."Voyant Olum";
+		GREY.."5) Morogrim Marcheur-des-flots";
 		GREY.."6) Dame Vashj";
 	};
 	AuchManaTombs = {
@@ -1168,7 +1179,8 @@ AtlasMaps = {
 		GREY..INDENT.."Seigneur des ténèbres Xiraxis";
 		GREY.."2) Ambassadeur Pax'ivi (Héroïque)";
 		GREY.."3) Tavarok";
-		GREY.."4) Panneau de contrôle du transporteur étherien";
+		GREY.."4) Cryo-Ingénieur Sha'heen";
+		GREY..INDENT.."Panneau de contrôle du transporteur étherien";
 		GREY.."5) Prince-nexus Shaffar";
 		GREY..INDENT.."Yor (Invoqué, Héroïque)";
 	};
@@ -1182,6 +1194,7 @@ AtlasMaps = {
 		GREY.."1) Shirrak le Veillemort";
 		GREY.."2) Exarque Maladaar";
 		GREY..INDENT.."Avatar des martyrs";
+		GREY..INDENT.."D'ore";
 	};
 	AuchSethekkHalls = {
 		ZoneName = "Auch : Les salles des Sethekk";
@@ -1192,6 +1205,7 @@ AtlasMaps = {
 		ORNG.."Objet : Pierre de lune imprégnée d'essence (Anzu)";
 		BLUE.."A) Entrée";
 		GREY.."1) Tisseur d'ombre Syth";
+		GREY..INDENT.."Lakka";
 		GREY.."2) La Saga de Terokk";
 		GREY..INDENT.."Anzu (Invoqué, Héroïque)";
 		GREY.."3) Roi-serre Ikiss";
@@ -1287,22 +1301,6 @@ AtlasMaps = {
 		GREY..INDENT.."Krosh Brasemain (Mage)";
 		GREY.."2) Gruul le Tue-dragon";
 	};
-	BlackTempleBasement = {
-		ZoneName = "Temple Noir (Sous-sol)";
-		Location = "Vallée d'Ombrelune";
-		Acronym = "BT";
-		ORNG.."Harmonisation requise";
-		ORNG.."Réput : Ligemort Cendrelangue";
-		ORNG.."Objet : Médaillon de Karabor";
-		BLUE.."C) Entrée";
-		BLUE.."D) Entrée";
-		GREY.."1) Gurtogg Fièvresang";
-		GREY.."2) Reliquaire des âmes";
-		GREY..INDENT.."Essence de la colère";
-		GREY..INDENT.."Essence du désir";
-		GREY..INDENT.."Essence de la souffrance";
-		GREY.."3) Teron Fielsang";
-	};
 	BlackTempleStart = {
 		ZoneName = "Temple Noir (Centre)";
 		Location = "Vallée d'Ombrelune";
@@ -1314,9 +1312,30 @@ AtlasMaps = {
 		BLUE.."C) Vers Reliquaire des âmes";
 		BLUE.."D) Vers Teron Fielsang";
 		BLUE.."E) Vers Illidan Hurlorage";
-		GREY.."1) Grand seigneur de guerre Naj'entus";
-		GREY.."2) Supremus";		
-		GREY.."3) Ombre d'Akama";
+		GREY.."1) Esprit d'Olum";
+		GREY.."2) Grand seigneur de guerre Naj'entus";
+		GREY.."3) Supremus";		
+		GREY.."4) Ombre d'Akama";
+		GREY.."5) Esprit d'Udalo"; -- Erreur de Blizzard qui l'a traduit en Esprit d'Ulado. Je laisse ma correction en esperant que la leur viendra. :)
+		GREY..INDENT.."Aluyen <Composants>";
+		GREY..INDENT.."Okuno <Intendant des ligemorts cendrelangue>";
+		GREY..INDENT.."Voyant Kanai";
+	};
+	BlackTempleBasement = {
+		ZoneName = "Temple Noir (Sous-sol)";
+		Location = "Vallée d'Ombrelune";
+		Acronym = "BT";
+		ORNG.."Harmonisation requise";
+		ORNG.."Réput : Ligemort Cendrelangue";
+		ORNG.."Objet : Médaillon de Karabor";
+		BLUE.."C) Entrée";
+		BLUE.."D) Entrée";
+		GREY.."6) Gurtogg Fièvresang";
+		GREY.."7) Reliquaire des âmes";
+		GREY..INDENT.."Essence de la colère";
+		GREY..INDENT.."Essence du désir";
+		GREY..INDENT.."Essence de la souffrance";
+		GREY.."8) Teron Fielsang";
 	};
 	BlackTempleTop = {
 		ZoneName = "Temple Noir (Haut)";
@@ -1326,13 +1345,13 @@ AtlasMaps = {
 		ORNG.."Réput : Ligemort Cendrelangue";
 		ORNG.."Objet : Médaillon de Karabor";
 		BLUE.."E) Entrée";
-		GREY.."1) Mère Shahraz";
-		GREY.."2) Le conseil Illidari";
+		GREY.."9) Mère Shahraz";
+		GREY.."10) Le conseil Illidari";
 		GREY..INDENT.."Dame Malande (Prêtre)";
 		GREY..INDENT.."Gathios le Briseur (Paladin)";
 		GREY..INDENT.."Grand néantomancien Zerevor (Mage)";
 		GREY..INDENT.."Veras Ombrenoir (Voleur)";
-		GREY.."3) Illidan Hurlorage";
+		GREY.."11) Illidan Hurlorage";
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";

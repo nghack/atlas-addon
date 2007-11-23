@@ -421,6 +421,8 @@ AtlasMaps = {
 		GREY.."3) Kaz'rogal";
 		GREY.."4) Azgalor";
 		GREY.."5) Archimonde";
+		GREY.."?) Indormi";
+		GREY..INDENT.."Tydormu";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "HdZ: Vorgebirge des Alten Hügellands";
@@ -1084,10 +1086,18 @@ AtlasMaps = {
 		ORNG.."Key: Schlüssel der zerschmetterten Hallen";
 		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
-		GREY.."1) Großhexenmeister Nethekurse";
-		GREY.."2) Blutwache Porung (Heroisch)";
-		GREY.."3) Kriegshetzer O'mrogg";
-		GREY.."4) Kriegshäuptling Kargath Messerfaust";
+		GREY.."1) Randy Sauseritzel (Allianz)";
+		GREY..INDENT.."Gefreiter Jacint (Allianz)";
+		GREY..INDENT.."Scharfschütze Braunbart (Allianz)";
+		GREY..INDENT.."Hauptmann Alina (Allianz)";
+		GREY..INDENT.."Drisella (Horde)";
+		GREY..INDENT.."Späher Orgarr (Horde)";
+		GREY..INDENT.."Korag Mähnenstolz (Horde)";
+		GREY..INDENT.."Hauptmann Knochenbrecher (Horde)";
+		GREY.."2) Großhexenmeister Nethekurse";
+		GREY.."3) Blutwache Porung (Heroisch)";
+		GREY.."4) Kriegshetzer O'mrogg";
+		GREY.."5) Kriegshäuptling Kargath Messerfaust";
 		GREY..INDENT.."Henker der Zerschmetterten Hand (Heroisch)";
 	};
 	HCHellfireRamparts = {
@@ -1163,10 +1173,11 @@ AtlasMaps = {
 		ORNG.."Ruf: Expedition des Cenarius";
 		BLUE.."A) Eingang";
 		GREY.."1) Hydross der Unstete";
-		GREY.."2) Leotheras der Blinde";
-		GREY.."3) Tiefenlord Karathress";
-		GREY.."4) Morogrim Gezeitenwandler";
-		GREY.."5) Das Grauen aus der Tiefe";
+		GREY.."2) Das Grauen aus der Tiefe";
+		GREY.."3) Leotheras der Blinde";
+		GREY.."4) Tiefenlord Karathress";
+		GREY..INDENT.."Seher Olum";
+		GREY.."5) Morogrim Gezeitenwandler";
 		GREY.."6) Lady Vashj";
 	};
 	AuchManaTombs = {
@@ -1181,7 +1192,8 @@ AtlasMaps = {
 		GREY..INDENT.."Schattenlord Xiraxis";
 		GREY.."2) Botschafter Pax'ivi (Heroisch)";
 		GREY.."3) Tavarok";
-		GREY.."4) Bedienungskonsole des Astraltransporters";
+		GREY.."4) Kryoingenieur Sha'heen";
+		GREY..INDENT.."Bedienungskonsole des Astraltransporters";
 		GREY.."5) Nexusprinz Shaffar";
 		GREY..INDENT.."Yor (Stasiskammer, Beschwörbar, Heroisch)";
 	};
@@ -1195,6 +1207,7 @@ AtlasMaps = {
 		GREY.."1) Shirrak der Totenwächter";
 		GREY.."2) Exarch Maladaar";
 		GREY..INDENT.."Avatar des Gemarterten";
+		GREY..INDENT.."D'ore";
 	};
 	AuchSethekkHalls = {
 		ZoneName = "Auch: Sethekkhallen";
@@ -1205,6 +1218,7 @@ AtlasMaps = {
 		ORNG.."Key: Mit Essenz erfüllter Mondstein (Anzu)";
 		BLUE.."A) Eingang";
 		GREY.."1) Dunkelwirker Syth";
+		GREY..INDENT.."Lakka";
 		GREY.."2) Die Sage von Terokk";
 		GREY..INDENT.."Anzu (Beschwörbar, Heroisch)";
 		GREY.."3) Klauenkönig Ikiss";
@@ -1298,23 +1312,7 @@ AtlasMaps = {
 		GREY..INDENT.."Blindauge der Seher (Priester)";
 		GREY..INDENT.."Olm der Beschwörer (Hexenmeister)";
 		GREY..INDENT.."Krosh Feuerhand (Magier)";
-		GREY.."2) Gruul der Drachenschlächter"; 
-        };
-        BlackTempleBasement = {
-		ZoneName = "Der Schwarze Tempel [B] (Keller)";
-		Location = "Schattenmondtal";
-		Acronym = "BT";
-		ORNG.."Zugangsquest erforderlich";
-		ORNG.."Ruf: Todeshörige der Aschenzungen";
-		ORNG.."Key: Medaillon von Karabor";
-		BLUE.."B) Eingang"; 
-		BLUE.."C) Eingang";   
-		GREY.."1) Gurtogg Siedeblut";
-		GREY.."2) Reliquiar der Verirrten";
-		GREY..INDENT.."Essenz des Zorns";
-		GREY..INDENT.."Essenz der Begierde";
-		GREY..INDENT.."Essenz des Leidens";
-		GREY.."3) Teron Blutschatten"; 
+		GREY.."2) Gruul der Drachenschlächter";
 	};
 	BlackTempleStart = {
 		ZoneName = "Der Schwarze Tempel [A] (Anfang)";
@@ -1326,10 +1324,31 @@ AtlasMaps = {
 		BLUE.."A) Eingang";
 		BLUE.."B) Zu Reliquiar der Verirrten";
 		BLUE.."C) Zu Teron Blutschatten";
-		BLUE.."D) Zu Illidan Sturmgrimm"; 
-		GREY.."1) Oberster Kriegsfürst Naj'entus";
-		GREY.."2) Supremus";
-		GREY.."3) Akamas Schemen";
+		BLUE.."D) Zu Illidan Sturmgrimm";
+		GREY.."1) Geist von Olum";
+		GREY.."2) Oberster Kriegsfürst Naj'entus";
+		GREY.."3) Supremus";
+		GREY.."4) Akamas Schemen";
+		GREY.."5) Geist von Udalo";
+		GREY..INDENT.."Aluyen (Reagenzien Verkäufer)";
+		GREY..INDENT.."Okuno <Rüstmeister der Todeshörigen>";
+		GREY..INDENT.."Seher Kanai";
+        };
+        BlackTempleBasement = {
+		ZoneName = "Der Schwarze Tempel [B] (Keller)";
+		Location = "Schattenmondtal";
+		Acronym = "BT";
+		ORNG.."Zugangsquest erforderlich";
+		ORNG.."Ruf: Todeshörige der Aschenzungen";
+		ORNG.."Key: Medaillon von Karabor";
+		BLUE.."B) Eingang"; 
+		BLUE.."C) Eingang";   
+		GREY.."6) Gurtogg Siedeblut";
+		GREY.."7) Reliquiar der Verirrten";
+		GREY..INDENT.."Essenz des Zorns";
+		GREY..INDENT.."Essenz der Begierde";
+		GREY..INDENT.."Essenz des Leidens";
+		GREY.."8) Teron Blutschatten";
 	};
 	BlackTempleTop = {
 		ZoneName = "Der Schwarze Tempel [C] (Spitze)";
@@ -1339,13 +1358,13 @@ AtlasMaps = {
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
 		ORNG.."Key: Medaillon von Karabor";
 		BLUE.."D) Eingang";
-		GREY.."1) Mutter Shahraz";
-		GREY.."2) Rat der Illidari";
+		GREY.."9) Mutter Shahraz";
+		GREY.."10) Rat der Illidari";
 		GREY..INDENT.."Lady Malande (Priesterin)";
 		GREY..INDENT.."Gathios der Zerschmetterer (Paladin)";
 		GREY..INDENT.."Hochnethermant Zerevor (Magier)";
 		GREY..INDENT.."Veras Schwarzschatten (Schurke)";
-		GREY.."3) Illidan Sturmgrimm";
+		GREY.."11) Illidan Sturmgrimm";
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";

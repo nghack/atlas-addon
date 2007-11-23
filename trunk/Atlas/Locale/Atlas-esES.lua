@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 19/11/2007
+-- Última Actualización (last update): 23/11/2007
 
 --]]
 
@@ -409,6 +409,8 @@ AtlasMaps = {
 		GREY.."3) Kaz'rogal"; --Bien
 		GREY.."4) Azgalor"; --Bien
 		GREY.."5) Archimonde"; --Bien
+		GREY.."?) Indormi"; --Bien
+		GREY..INDENT.."Tydormu"; --Bien
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "CdT: Laderas de Trabalomas"; --Bien
@@ -1062,10 +1064,18 @@ AtlasMaps = {
 		ORNG.."Llave: Llave de las Salas Arrasadas";
 		ORNG.."Llave: Llave de Forjallamas (Heróico)";
 		BLUE.."A) Entranda";
-		GREY.."1) Brujo supremo Malbisal"; --Bien
-		GREY.."2) Guardia de sangre Mano Destrozada (Solo Heróico)"; --Bien
-		GREY.."3) Belisario O'mrogg"; --Bien
-		GREY.."4) Jefe de Guerra Kargath Garrafilada"; --Bien
+		GREY.."1) Randy Whizzlesprocket (Alianza)"; --FALTA
+		GREY..INDENT.."Soldado Jacint (Alianza)"; --Bien
+		GREY..INDENT.."Rifleman Brownbeard (Alianza)"; --FALTA
+		GREY..INDENT.."Capitán Alina (Alianza)"; --Bien
+		GREY..INDENT.."Drisella (Horda)"; --Bien
+		GREY..INDENT.."Explorador Orgarr (Horda)"; --Comprobar
+		GREY..INDENT.."Korag Proudmane (Horda)"; --FALTA
+		GREY..INDENT.."Capitán Huesodestrozado (Horda)"; --Comprobar
+		GREY.."2) Brujo supremo Malbisal"; --Bien
+		GREY.."3) Guardia de sangre Mano Destrozada (Solo Heróico)"; --Bien
+		GREY.."4) Belisario O'mrogg"; --Bien
+		GREY.."5) Jefe de Guerra Kargath Garrafilada"; --Bien
 		GREY..INDENT.."Ejecutor Mano Destrozada (Heróico)"; --Comprobar
 	};
 	HCHellfireRamparts = {
@@ -1139,10 +1149,11 @@ AtlasMaps = {
 		ORNG.."Reputación: Excpedición Cenarion";
 		BLUE.."A) Entrada";
 		GREY.."1) Hydross el Inestable"; --Bien
-		GREY.."2) Leotheras el Ciego"; --Bien
-		GREY.."3) Señor de la profundidades Karathress"; --Bien
-		GREY.."4) Morogrim Levantamareas"; --Bien
-		GREY.."5) El Rondador de abajo"; --Bien
+		GREY.."2) El Rondador de abajo"; --Bien
+		GREY.."3) Leotheras el Ciego"; --Bien
+		GREY.."4) Señor de la profundidades Karathress"; --Bien
+		GREY..INDENT.."Profeta Olum"; --Comprobar
+		GREY.."5) Morogrim Levantamareas"; --Bien
 		GREY.."6) Lady Vashj"; --Bien
 	};
 	AuchManaTombs = {
@@ -1156,7 +1167,8 @@ AtlasMaps = {
 		GREY..INDENT.."Señor de las Sombras Xiraxis"; --Bien
 		GREY.."2) Embajador Pax'ivi (Heróico)"; --Bien
 		GREY.."3) Tavarok"; --Bien
-		GREY.."4) Panel de control del transportador etéreo"; --Bien
+		GREY.."4) Crioingeniero Sha'heen"; --Bien
+		GREY..INDENT.."Panel de control del transportador etéreo"; --Bien		
 		GREY.."5) Príncipe-nexo Shaffar"; --Bien
 		GREY..INDENT.."Yor (Cámara de estasis, invocar, heróico)";
 	};
@@ -1169,6 +1181,7 @@ AtlasMaps = {
 		GREY.."1) Shirrak el Vigía de los Muertos"; --Bien
 		GREY.."2) Exarca Maladaar"; --Bien
 		GREY..INDENT.."Avatar de los Martirizados"; --Bien
+		GREY..INDENT.."D'ore"; --Bien
 	};
 	AuchSethekkHalls = {
 		ZoneName = "Auchindoun: Salas Sethekk";
@@ -1178,6 +1191,7 @@ AtlasMaps = {
 		ORNG.."Llave: Piedra lunar imbuida de esencia (Anzu)"; --Bien
 		BLUE.."A) Entrada";
 		GREY.."1) Tejeoscuro Syth"; --Bien
+		GREY..INDENT.."Lakka"; --Bien
 		GREY.."2) Esbirro de Terokk"; --Bien
 		GREY..INDENT.."Anzu (Invocar, heróico)"; --Bien
 		GREY.."3) Rey Garra Ikiss"; --Bien
@@ -1272,22 +1286,6 @@ AtlasMaps = {
 		GREY..INDENT.."Krosh Manofuego (Mago)"; --Bien
 		GREY.."2) Gruul el Asesino de Dragones"; --Bien
 	};
-	BlackTempleBasement = {
-		ZoneName = "El Templo Oscuro (Sótano)"; --Bien
-		Location = "Valle Sombraluna"; --Bien
-		Acronym = "TO";
-		ORNG.."Armonización Requerida"; --Bien
-		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
-		ORNG.."Llave: Medallón de Karabor"; --Bien
-		BLUE.."B) Entrada";
-		BLUE.."C) Entrada";
-		GREY.."1) Gurtogg Sangre Hirviente"; --Bien
-		GREY.."2) Relicario de Almas"; --Bien
-		GREY..INDENT.."Esencia de Cólera"; -- Bien COMPROBAR
-		GREY..INDENT.."Esencia de Deseo"; --Bien
-		GREY..INDENT.."Esencia de Sufrimiento"; -- Bien COMPROBAR
-		GREY.."3) Teron Sanguino"; --Bien
-	};
 	BlackTempleStart = {
 		ZoneName = "El Templo Oscuro (Comienzo)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
@@ -1299,9 +1297,30 @@ AtlasMaps = {
 		BLUE.."B) Hacia Relicario de Almas"; --Bien
 		BLUE.."C) Hacia Teron Sanguino"; --Bien
 		BLUE.."D) Hacia Illidan Tempestira"; --Bien
-		GREY.."1) Alto Señor de la Guerra Naj’entus"; --Bien
-		GREY.."2) Supremus"; --Bien
-		GREY.."3) Sombra de Akama"; --Bien
+		GREY.."1) Espíritu de Olum"; --Bien
+		GREY.."2) Alto Señor de la Guerra Naj’entus"; --Bien
+		GREY.."3) Supremus"; --Bien
+		GREY.."4) Sombra de Akama"; --Bien
+		GREY.."5) Espíritu de Udalo"; --Bien
+		GREY..INDENT.."Aluyen (Vendedor de Componentes)"; --Bien
+		GREY..INDENT.."Okuno <Provisiones Juramorte Lengua de ceniza>"; --Bien
+		GREY..INDENT.."Profeta Kanai"; --Comprobar
+	};
+	BlackTempleBasement = {
+		ZoneName = "El Templo Oscuro (Sótano)"; --Bien
+		Location = "Valle Sombraluna"; --Bien
+		Acronym = "TO";
+		ORNG.."Armonización Requerida"; --Bien
+		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
+		ORNG.."Llave: Medallón de Karabor"; --Bien
+		BLUE.."B) Entrada";
+		BLUE.."C) Entrada";
+		GREY.."6) Gurtogg Sangre Hirviente"; --Bien
+		GREY.."7) Relicario de Almas"; --Bien
+		GREY..INDENT.."Esencia de Cólera"; -- Comprobar
+		GREY..INDENT.."Esencia de Deseo"; --Bien
+		GREY..INDENT.."Esencia de Sufrimiento"; -- Comprobar
+		GREY.."8) Teron Sanguino"; --Bien
 	};
 	BlackTempleTop = {
 		ZoneName = "El Templo Oscuro (Arriba)"; --Bien
@@ -1311,25 +1330,13 @@ AtlasMaps = {
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
 		BLUE.."D) Entrada";
-		GREY.."1) Madre Shahraz"; --Bien
-		GREY.."2) Concilio Illidari"; --Bien
+		GREY.."9) Madre Shahraz"; --Bien
+		GREY.."10) Concilio Illidari"; --Bien
 		GREY..INDENT.."Lady Malande (Sacerdote)"; --Comprobar
 		GREY..INDENT.."Gathios the Shatterer (Paladín)"; --FALTA	
 		GREY..INDENT.."High Nethermancer Zerevor (Mago)"; --FALTA
 		GREY..INDENT.."Veras Sombraoscura (Pícaro)"; --Comprobar
-		GREY.."3) Illidan Tempestira"; --Bien
-	};
-	BlackTempleFull = {
-		ZoneName = "El Templo Oscuro (Completo)"; --Bien
-		Location = "Valle Sombraluna"; --Bien
-		Acronym = "TO";
-		ORNG.."Armonización Requerida"; --Bien
-		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
-		ORNG.."Llave: Medallón de Karabor"; --Bien
-		BLUE.."A) Entrada";
-		BLUE.."B) Continuación Templo Oscuro"; --Bien
-		GREY.."1) Gran Señor de la Guerra Naj'entus"; --Bien
-		GREY.."2) Supremus"; --Bien
+		GREY.."11) Illidan Tempestira"; --Bien
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";

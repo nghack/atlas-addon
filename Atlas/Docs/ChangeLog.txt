@@ -8,15 +8,16 @@ v1.10.3
 - new Zul'Aman map (Nifl, Celellach)
 - new CoT entrance map (Nifl, Celellach)
 - new SM entrance map (Nifl, Celellach)
+- new Karazhan entrance map (Mottie)
 - revamped the UBRS map (Nifl, Celellach)
 - revamped the LBRS map (Nifl, Celellach)
-- combined BT full and middle maps into one BT start map (Telchar)
-- new Karazhan entrance map (Mottie)
 - revamped the Karazhan map and split into two (Mottie)
+- revamped the DM entrance map (Nifl, Telchar)
+- combined BT full and middle maps into one BT start map (Telchar)
 - added a new option for the grouping of instance maps
 - fixed an auto-select issue with the new grouping code
 - deDE, frFR, and esES localisation files are now encoded in UTF-8 (Maqjav)
-- updated instance level ranges with the patch 2.3 changes (WoWWiki)
+- updated instance level ranges with the patch 2.3 changes
 - alphabetized some multi-part maps so they appear in the correct order
 - fixed a slight problem with Atlas remembering the last map you were looking at between sessions
 - Atlas will only remember the last map between sessions if it's one of the built-in ones

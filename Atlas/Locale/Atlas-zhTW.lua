@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Oct. 15, 2007
+-- Last Update: Nov. 26, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -168,12 +168,15 @@ AtlasMaps = {
 			GREY.."3) 薩利維絲";
 			GREY.."4) 銀月守衛塞爾瑞德";
 			GREY.."5) 格里哈斯特";
+			GREY..INDENT.."格里哈斯特神殿";
 			GREY.."6) 洛古斯·傑特 (多個位置)";
 			GREY.."7) 阿奎尼斯男爵";
 			GREY..INDENT.."深淵之核";
 			GREY.."8) 夢遊者克爾里斯";
 			GREY.."9) 瑟拉吉斯";
 			GREY.."10) 阿庫麥爾";
+			GREY..INDENT.."莫瑞杜恩";
+			GREY..INDENT.."瑪塞斯特拉祭壇";
 		};
 		RazorfenKraul = {
 			ZoneName = "剃刀沼澤";
@@ -279,6 +282,7 @@ AtlasMaps = {
 			Location = "菲拉斯";
 			ORNG.."鑰匙: 月牙鑰匙";
 			BLUE.."A) 入口";
+			BLUE.."B) 圖書館";
 			GREY.."1) 衛兵摩爾達";
 			GREY.."2) 踐踏者克雷格";
 			GREY.."3) 衛兵芬古斯";
@@ -411,6 +415,8 @@ AtlasMaps = {
 			GREY.."3) 卡斯羅高";
 			GREY.."4) 埃加洛爾";
 			GREY.."5) 阿克蒙德";
+			GREY.."?) 隱多米";
+			GREY..INDENT.."提多姆";
 		};
 		CoTOldHillsbrad = {
 			ZoneName = "時光之穴: 希爾斯布萊德丘陵舊址";
@@ -558,32 +564,36 @@ AtlasMaps = {
 			Location = "黑石山";
 			ORNG.."鑰匙: 祈願火盆 (副本套裝2)";
 			BLUE.."A) 入口";
-			GREY.."1) 維埃蘭";
-			GREY.."2) 瓦羅什";
+			BLUE.."B) 黑石塔上層 (黑上)";
+			BLUE.."C-F) 通道";
+			GREY.."1) 維埃蘭 (上層)";
+			GREY.."2) 瓦羅什 (巡邏)";
 			GREY..INDENT.."石壘長者 (新年慶典)";
-			GREY.."3) 比修";
-			GREY.."4) 尖銳長矛";
-			GREY.."5) 尖石屠夫 (稀有)";
-			GREY.."6) 歐莫克大王";
-			GREY..INDENT.."尖石統帥 (稀有)";
-			GREY..INDENT.."尖石首席法師 (稀有)";
+			GREY.."3) 尖銳長矛";
+			GREY.."4) 尖石屠夫 (稀有)";
+			GREY.."5) 歐莫克大王";
+			GREY.."6) 尖石戰鬥統帥 (稀有)";
+			GREY..INDENT.."尖石首席魔導師 (稀有)";
 			GREY.."7) 暗影獵手沃許加斯";
 			GREY..INDENT.."第五塊摩沙魯石板";
-			GREY.."8) 指揮官沃恩";
-			GREY..INDENT.."第六塊摩沙魯石板";
+			GREY.."8) 比修";
+			GREY.."9) 指揮官沃恩";
 			GREY..INDENT.."莫爾·灰蹄 (召喚)";
-			GREY.."9) 人類殘骸";
+			GREY..INDENT.."第六塊摩沙魯石板";
+			GREY.."10) 比修的裝置";
+			GREY.."11) 人類殘骸";
 			GREY..INDENT.."未淬火的鎧甲護手";
-			GREY.."10) 班諾克·巨斧 (稀有)";
-			GREY.."11) 煙網蛛后";
-			GREY.."12) 水晶之牙";
-			GREY.."13) 烏洛克 (召喚)";
-			GREY.."14) 軍需官茲格雷斯";
-			GREY.."15) 哈雷肯";
+			GREY.."12) 班諾克·巨斧 (稀有)";
+			GREY.."13) 煙網蛛后";
+			GREY.."14) 水晶之牙 (稀有)";
+			GREY.."15) 烏洛克的貢品堆";
+			GREY..INDENT.."烏洛克 (召喚)";
+			GREY.."16) 軍需官茲格雷斯";
+			GREY.."17) 哈雷肯";
 			GREY..INDENT.."奴役者基茲盧爾";
-			GREY.."16) 霍克·巴什古德 (稀有)";
-			GREY.."17) 維姆薩拉克";
-			GREY.."?) 燃燒地獄衛士 (稀有, 隨機)";
+			GREY.."18) 霍克·巴什古德 (稀有)";
+			GREY.."19) 維姆薩拉克";
+			GREY.."1') 燃燒地獄衛士 (稀有, 隨機)";
 		};
 		BlackrockSpireUpper = {
 			ZoneName = "黑石塔 (上層)";
@@ -592,21 +602,24 @@ AtlasMaps = {
 			ORNG.."鑰匙: 晉升印章";
 			ORNG.."鑰匙: 祈願火盆 (副本套裝2)";
 			BLUE.."A) 入口";
+			BLUE.."B) 黑石塔下層 (黑下)";
+			BLUE.."C-E) 通道";
 			GREY.."1) 烈焰衛士艾博希爾";
 			GREY.."2) 索拉卡·火冠";
 			GREY..INDENT.."烈焰之父";
-			GREY.."3) 傑德 (稀有)";
-			GREY.."4) 古拉魯克";
-			GREY.."5) 大酋長雷德·黑手";
+			GREY.."3) 黑暗石板";
+			GREY..INDENT.."末日扣環";
+			GREY.."4) 傑德 (稀有)";
+			GREY.."5) 古拉魯克";
+			GREY.."6) 大酋長雷德·黑手";
 			GREY..INDENT.."蓋斯";
-			GREY.."6) 奧比";
-			GREY.."7) 比斯巨獸";
+			GREY.."7) 奧比";
+			GREY.."8) 比斯巨獸";
 			GREY..INDENT.."瓦薩拉克 (召喚)";
 			GREY..INDENT.."芬克·恩霍爾";
-			GREY.."8) 達基薩斯將軍";
-			GREY..INDENT.."末日扣環";
+			GREY.."9) 達基薩斯將軍";
 			GREY..INDENT.."達基薩斯徽記";
-			GREY.."9) 黑翼之巢";
+			GREY.."10) 黑翼之巢";
 		};
 		BlackwingLair = {
 			ZoneName = "黑翼之巢";
@@ -702,10 +715,12 @@ AtlasMaps = {
 			BLUE.."A) 入口";
 			GREY.."1) 審訊員韋沙斯";
 			GREY..INDENT.."沃瑞爾·森古斯";
-			GREY.."2) 鐵脊死靈 (稀有)";
-			GREY.."3) 永醒的艾希爾 (稀有)";
-			GREY.."4) 死靈勇士 (稀有)";
-			GREY.."5) 血法師薩爾諾斯";
+			GREY.."2) 無頭騎士南瓜 (萬鬼節)";
+			GREY..INDENT.."無頭騎士 (召喚)";
+			GREY.."3) 血法師薩爾諾斯";
+			GREN.."1') 鐵脊死靈 (稀有)";
+			GREN..INDENT.."永醒的艾希爾 (稀有)";
+			GREN..INDENT.."死靈勇士 (稀有)";
 		};
 		Scholomance = {
 			ZoneName = "通靈學院";
@@ -929,6 +944,9 @@ AtlasMaps = {
 			Location = "病木林, 東瘟疫之地";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 銀色黎明";
+			BLUE.."A) 入口";
+			BLUE..INDENT.."大法師塔希斯·克摩地爾";
+			BLUE..INDENT.."畢勾沃斯先生 (遊蕩)";
 			BLUE.."憎惡區";
 			BLUE..INDENT.."1) 縫補者";
 			BLUE..INDENT.."2) 葛羅巴斯";
@@ -954,22 +972,34 @@ AtlasMaps = {
 			GREN..INDENT.."1) 薩菲隆";
 			GREN..INDENT.."2) 科爾蘇加德";
 		};
-		Karazhan = {
-			ZoneName = "卡拉贊";
+		KarazhanStart = {
+			ZoneName = "卡拉贊 - 開始";
 			Acronym = "Kara";
 			Location = "逆風小徑";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			ORNG.."鑰匙: 燻黑的骨灰甕 (夜禍)";
-			BLUE.."A) 入口 (正門)";
-			BLUE.."B) 階梯 (後門)";
-			BLUE.."C) 樓梯";
-			BLUE.."D) 通道";
-			BLUE.."E) 通道";
-			GREY.."1) 獵人阿圖曼";
+			BLUE.."A) 前方入口";
+			BLUE.."B) 通往舞廳的樓梯間 (摩洛)";
+			BLUE.."C) 通往上層的樓梯";
+			BLUE.."D) 通往迎賓廳斜坡 (魔女)";
+			BLUE.."E) 通往歌劇院樂團層的樓梯";
+			BLUE.."F) 夾層至包廂的斜坡";
+			BLUE.."G) 後方入口";
+			BLUE.."H) 通往:";
+			BLUE..INDENT..INDENT.."大師的露台 (夜禍)";
+			BLUE.."I) 通往損壞的階梯";
+			GREY.."1) 哈斯丁";
+			GREY.."2) 潛伏者亞奇斯 (稀有, 隨機)";
+			GREY..INDENT.."劫掠者·拉卡 (隨機)";
+			GREY..INDENT.."滑翔者·薛迪依斯 (隨機)";
+			GREY.."3) 勃特霍德";
+			GREY.."4) 卡利卡";
+			GREY.."5) 獵人阿圖曼";
 			GREY..INDENT.."午夜";
-			GREY.."2) 摩洛";
+			GREY.."6) 卡爾侖";
+			GREY.."7) 摩洛";
 			GREY..INDENT.."女爵朵洛希·米爾斯泰普";
 			GREY..INDENT..INDENT.."(隨機, 暗影牧師)";
 			GREY..INDENT.."凱崔娜·瓦映迪女士";
@@ -982,22 +1012,50 @@ AtlasMaps = {
 			GREY..INDENT..INDENT.."(隨機, 武戰)";
 			GREY..INDENT.."貴族克利斯平·費蘭斯";
 			GREY..INDENT..INDENT.."(隨機, 防戰)";
-			GREY.."3) 虛幻魔女";
-			GREY.."4) 歌劇事件";
+			GREY.."8) 班尼特";
+			GREY.."9) 埃伯洛克";
+			GREY.."10) 琪安娜的日誌";
+			GREY.."11) 貞潔聖女";
+			GREY.."12) 塞巴斯汀";
+			GREY.."13) 巴奈斯";
+			GREY.."14) 歌劇事件";
 			GREY..INDENT.."小紅帽 (隨機)";
-			GREY..INDENT.."羅密歐與茱莉葉 (隨機)";
 			GREY..INDENT.."綠野仙蹤 (隨機)";
-			GREY.."5) 監護者";
-			GREY.."6) 泰瑞斯提安·疫蹄";
-			GREY..INDENT.."基瑞克 (小鬼)";
-			GREY.."7) 艾蘭之影";
-			GREY.."8) 尼德斯";
-			GREY.."9) 棋子事件";
-			GREY.."10) 瑪克薩王子";
-			GREY.."11) 夜禍(露台上, 召喚)";
-			GREY.."12) 潛伏者亞奇斯 (隨機)";
-			GREY..INDENT.."劫掠者·拉卡 (隨機)";
-			GREY..INDENT.."滑翔者·薛迪依斯 (隨機)";
+			GREY..INDENT.."羅密歐與茱莉葉 (隨機)";
+			GREY.."15) 大師的露台 ";
+			GREY..INDENT.."夜禍 (召喚)";
+		};
+		KarazhanEnd = {
+			ZoneName = "卡拉贊 - 結束";
+			Acronym = "Kara";
+			Location = "逆風小徑";
+			ORNG.."需完成入口任務";
+			ORNG.."聲望: 紫羅蘭之眼";
+			ORNG.."鑰匙: 主人鑰匙";
+			BLUE.."I) 通往損壞的階梯";
+			BLUE.."J) 損壞的階梯";
+			BLUE.."K) 通往管理員圖書館的斜坡";
+			BLUE..INDENT..INDENT.."(艾蘭之影)";
+			BLUE.."L) 神秘的書架";
+			BLUE..INDENT..INDENT.."(通往泰瑞斯提安·疫蹄)";
+			BLUE.."M) 通往天文觀測台的斜坡";
+			BLUE..INDENT..INDENT.."(尼德斯 )";
+			BLUE..INDENT.."通往投機者大廳的斜坡";
+			BLUE..INDENT..INDENT.."(西洋棋事件)";
+			BLUE.."N) 通往麥迪文房間的斜坡";
+			BLUE.."O) 通往虛空空間的螺旋梯 (莫克札王子)";
+			GREY.."16) 館長 ";
+			GREY.."17) 瑞依恩";
+			GREY.."18) 葛瑞戴";
+			GREY.."19) 坎希斯";
+			GREY.."20) 泰瑞斯提安·疫蹄";
+			GREY..INDENT.."基瑞克";
+			GREY.."21) 艾蘭之影";
+			GREY.."22) 尼德斯 ";
+			GREY.."23) 伊斯亞爾";
+			GREY.."24) 麥迪文的回音";
+			GREY.."25) 西洋棋事件";
+			GREY.."26) 莫克札王子";
 		};
 		HCBloodFurnace = {
 			ZoneName = "地獄火堡壘: 血熔爐";
@@ -1020,10 +1078,19 @@ AtlasMaps = {
 			ORNG.."鑰匙: 破碎大廳鑰匙";
 			ORNG.."鑰匙: 火鑄之鑰 (英雄模式)";
 			BLUE.."A) 入口";
-			GREY.."1) 大術士·奈德克斯";
-			GREY.."2) 血衛士波洛克 (英雄模式)";
-			GREY.."3) 戰爭製造者·歐姆拉格";
-			GREY.."4) 大酋長卡加斯·刃拳";
+			GREY.."1) 藍迪·威索洛克 (聯盟, 英雄)";
+			GREY..INDENT.."崔賽拉 (部落, 英雄)";
+			GREY.."2) 大術士·奈德克斯";
+			GREY.."3) 血衛士波洛克 (英雄模式)";
+			GREY.."4) 戰爭製造者·歐姆拉格";
+			GREY.."5) 大酋長卡加斯·刃拳";
+			GREY..INDENT.."破碎之手劊子手 (英雄)";
+			GREY..INDENT.."士兵賈辛特 (聯盟, 英雄)";
+			GREY..INDENT.."槍兵伯朗畢爾 (聯盟, 英雄)";
+			GREY..INDENT.."隊長阿蓮娜 (聯盟, 英雄)";
+			GREY..INDENT.."斥候歐卡爾 (部落, 英雄)";
+			GREY..INDENT.."科洛特·波特曼 (部落, 英雄)";
+			GREY..INDENT.."隊長碎骨 (部落, 英雄)";
 		};
 		HCHellfireRamparts = {
 			ZoneName = "地獄火堡壘: 地獄火壁壘";
@@ -1101,6 +1168,7 @@ AtlasMaps = {
 			GREY.."2) 盲目者李奧薩拉斯";
 			GREY.."3) 深淵之王卡拉薩瑞斯";
 			GREY.."4) 莫洛葛利姆·潮行者";
+			GREY..INDENT.."先知歐蘭";
 			GREY.."5) 地底潛伏者";
 			GREY.."6) 瓦許女士";
 		};
@@ -1114,9 +1182,11 @@ AtlasMaps = {
 			BLUE.."A) 入口";
 			GREY.."1) 班提蒙尼厄斯";
 			GREY..INDENT.."暗影之王希瑞西斯";
-			GREY.."2) 塔瓦洛克";
-			GREY.."3) 虛空傳送者控制面板";
-			GREY.."4) 奈薩斯王子薩法爾";
+			GREY.."2) 帕克西維大使 (英雄)";
+			GREY.."3) 塔瓦洛克";
+			GREY.."4) 工程師薩希恩 ";
+			GREY..INDENT.."虛空傳送者控制面板";
+			GREY.."5) 奈薩斯王子薩法爾";
 			GREY..INDENT.."約兒 (靜止密室, 召喚, 英雄模式)";
 		};
 		AuchAuchenaiCrypts = {
@@ -1129,6 +1199,7 @@ AtlasMaps = {
 			GREY.."1) 死亡看守者辛瑞克";
 			GREY.."2) 主教瑪拉達爾";
 			GREY..INDENT.."馬丁瑞德的化身";
+			GREY..INDENT.."迪歐瑞";
 		};
 		AuchSethekkHalls = {
 			ZoneName = "奧齊頓: 塞司克大廳";
@@ -1139,6 +1210,7 @@ AtlasMaps = {
 			ORNG.."鑰匙: 注滿精華的月亮石 (安祖)";
 			BLUE.."A) 入口";
 			GREY.."1) 暗法師希斯";
+			GREY..INDENT.."拉卡";
 			GREY.."2) 泰洛克的傳說";
 			GREY..INDENT.."安祖 (召喚, 英雄模式)";
 			GREY.."3) 鷹王伊奇斯";
@@ -1234,34 +1306,42 @@ AtlasMaps = {
 			GREY..INDENT.."克羅斯·火手 (法師)";
 			GREY.."2) 弒龍者戈魯爾";
 		};
-		BlackTempleBasement = {
-			ZoneName = "黑暗神廟 (地下室)";
+		BlackTempleStart = {
+			ZoneName = "黑暗神廟 - 開始";
 			Location = "影月谷";
 			Acronym = "BT";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
-			BLUE.."C) 入口";
-			BLUE.."D) 入口";
-			GREY.."1) 葛塔格·血沸";
-			GREY.."2) 淨化的靈魂";
-			GREY..INDENT.."憤怒精華";
-			GREY..INDENT.."慾望精華";
-			GREY..INDENT.."受難精華";
-			GREY.."3) 泰朗·血魔";
+			BLUE.."A) 入口";
+			BLUE.."B) 通往靈魂之匣";
+			BLUE.."C) 通往泰朗·血魔";
+			BLUE.."D) 通往伊利丹·怒風";
+			GREY.."1) 歐蘭的靈魂";
+			GREY.."2) 高階督軍納珍塔斯";
+			GREY.."3) 瑟普莫斯";
+			GREY.."4) 阿卡瑪的黑暗面";
+			GREY.."5) 烏達羅之靈";
+			GREY..INDENT.."阿魯焰 (卷軸商人)";
+			GREY..INDENT.."歐庫諾 (灰舌死亡誓言者)";
+			"";
+			GREY..INDENT.."先知卡奈";
 		};
-		BlackTempleMiddle = {
-			ZoneName = "黑暗神廟 (中層)";
+		BlackTempleBasement = {
+			ZoneName = "黑暗神廟 - 地下室";
 			Location = "影月谷";
 			Acronym = "BT";
 			ORNG.."需完成入口任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."B) 入口";
-			BLUE.."C) 通往淨化的靈魂";
-			BLUE.."D) 通往泰朗·血魔";
-			BLUE.."E) 通往伊利丹·怒風";
-			GREY.."1) 阿卡瑪的鬼魂";
+			BLUE.."C) 入口";
+			GREY.."6) 葛塔格·血沸";
+			GREY.."7) 淨化的靈魂";
+			GREY..INDENT.."憤怒精華";
+			GREY..INDENT.."慾望精華";
+			GREY..INDENT.."受難精華";
+			GREY.."3) 泰朗·血魔";
 		};
 		BlackTempleTop = {
 			ZoneName = "黑暗神廟 (上層)";
@@ -1279,29 +1359,17 @@ AtlasMaps = {
 			GREY..INDENT.."維拉斯·深影 (盜賊)";
 			GREY.."3) 伊利丹·怒風";
 		};
-		BlackTempleFull = {
-			ZoneName = "黑暗神廟 (全圖)";
-			Location = "影月谷";
-			Acronym = "BT";
-			ORNG.."需完成入口任務";
-			ORNG.."聲望: 灰舌死亡誓言者";
-			ORNG.."鑰匙: 卡拉伯爾獎章";
-			BLUE.."A) 入口";
-			BLUE.."B) 黑暗神廟延伸";
-			GREY.."1) 高階督軍納珍塔斯";
-			GREY.."2) 瑟普莫斯";
-		};
 		ZulAman = {
 			ZoneName = "祖阿曼";
 			Location = "鬼魂之地";
 			Acronym = "ZA";
 			BLUE.."A) 入口";
-			GREY.."1) Nalorakk (Bear)";
+			GREY.."1) 納羅拉克 (熊)";
 			GREY.."2) Akil'zon (Eagle)";
-			GREY.."3) Jan'alai (Dragonhawk)";
-			GREY.."4) Halazzi (Lynx)";
-			GREY.."5) Hex Lord Malacrass";
-			GREY.."6) Zul'jin";
+			GREY.."3) 賈納雷 (龍鷹)";
+			GREY.."4) 哈拉齊 (山貓)";
+			GREY.."5) 妖術領主瑪拉克雷斯";
+			GREY.."6) 祖爾金";
 		};
 	};
 end

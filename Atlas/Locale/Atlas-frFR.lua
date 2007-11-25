@@ -27,7 +27,7 @@
 -- Version WoW 2.3.0 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 22/11/2007
+-- le 23/11/2007
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -983,7 +983,7 @@ AtlasMaps = {
 		BLUE.."F) Rampe de la Mezzanine au Balcon";
 		BLUE.."G) Entrée de derrière";
 		BLUE.."H) Connexion à :";
-		BLUE..INDENT.."La terrasse du Maître (Plaie-de-nuit)";
+		BLUE..INDENT..INDENT.."La terrasse du Maître (Plaie-de-nuit)";
 		BLUE.."I) Chemin vers l'Escalier brisé";
 		GREY.."1) Hastings <Le gardien>";
 		GREY.."2) Hyakiss la Rôdeuse (Hasard)";
@@ -1030,13 +1030,13 @@ AtlasMaps = {
 		BLUE.."I) Chemin vers l'Escalier brisé";
 		BLUE.."J) L'Escalier brisé";
 		BLUE.."K) Rampe vers la Bibliothèque du Gardien";
-		BLUE..INDENT.."(Ombre d'Aran)";
+		BLUE..INDENT..INDENT.."(Ombre d'Aran)";
 		BLUE.."L) Bibliotheque suspecte"; -- A vérifier
-		BLUE..INDENT.."(Passage vers Terestian)";
+		BLUE..INDENT..INDENT.."(Passage vers Terestian)";
 		BLUE.."M) Rampe montant vers Le Guet céleste";
-		BLUE..INDENT.."(Dédain-du-Néant)";
+		BLUE..INDENT..INDENT.."(Dédain-du-Néant)";
 		BLUE..INDENT.."Rampe déscendant vers le Hall du Flambeur";
-		BLUE..INDENT.."(L'Echéquier)";
+		BLUE..INDENT..INDENT.."(L'Echéquier)";
 		BLUE.."N) Rampe vers la chambre de Medivh";
 		BLUE.."O) Escalier en spiral vers le Néantespace (Prince)";
 		GREY.."16) Le conservateur";
@@ -1073,19 +1073,19 @@ AtlasMaps = {
 		ORNG.."Objet : Clé des Salles brisées";
 		ORNG.."Objet : Clé en flammes forgées (Héroïque)";
 		BLUE.."A) Entrée";
-		GREY.."1) Randy Vizirouage (Alliance)";
-		GREY..INDENT.."Soldat Jacint (Alliance)";
-		GREY..INDENT.."Fusilier Brownbeard (Alliance)";
-		GREY..INDENT.."Captaine Alina (Alliance)";
-		GREY..INDENT.."Drisella (Horde)";
-		GREY..INDENT.."Eclaireur Orgarr (Horde)";
-		GREY..INDENT.."Korag Proudmane (Horde)";
-		GREY..INDENT.."Capitaine Fracasse-os (Horde)";
+		GREY.."1) Randy Vizirouage (Alliance, Héroïque)";
+		GREY..INDENT.."Drisella (Horde, Héroïque)";
 		GREY.."2) Grand démoniste Néanathème";
 		GREY.."3) Garde de sang Porung (Héroïque)";
 		GREY.."4) Porteguerre O'mrogg";
 		GREY.."5) Chef de guerre Kargath Lamepoing";
 		GREY..INDENT.."Bourreau de la Main brisée (Héroïque)";
+		GREY..INDENT.."Soldat Jacint (Alliance, Héroïque)";
+		GREY..INDENT.."Fusilier Brownbeard (Alliance, Héroïque)";
+		GREY..INDENT.."Captaine Alina (Alliance, Héroïque)";
+		GREY..INDENT.."Eclaireur Orgarr (Horde, Héroïque)";
+		GREY..INDENT.."Korag Proudmane (Horde, Héroïque)";
+		GREY..INDENT.."Capitaine Fracasse-os (Horde, Héroïque)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI : Remparts des Flammes infernales";
@@ -1302,7 +1302,7 @@ AtlasMaps = {
 		GREY.."2) Gruul le Tue-dragon";
 	};
 	BlackTempleStart = {
-		ZoneName = "Temple Noir (Centre)";
+		ZoneName = "Temple Noir (Début)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
 		ORNG.."Harmonisation requise";
@@ -1316,9 +1316,10 @@ AtlasMaps = {
 		GREY.."2) Grand seigneur de guerre Naj'entus";
 		GREY.."3) Supremus";		
 		GREY.."4) Ombre d'Akama";
-		GREY.."5) Esprit d'Udalo"; -- Erreur de Blizzard qui l'a traduit en Esprit d'Ulado. Je laisse ma correction en esperant que la leur viendra. :)
+		GREY.."5) Esprit d'Udalo";
 		GREY..INDENT.."Aluyen <Composants>";
-		GREY..INDENT.."Okuno <Intendant des ligemorts cendrelangue>";
+		GREY..INDENT.."Okuno <Intendant des";
+		GREY..INDENT..INDENT.." ligemorts cendrelangue>";
 		GREY..INDENT.."Voyant Kanai";
 	};
 	BlackTempleBasement = {
@@ -1355,7 +1356,7 @@ AtlasMaps = {
 	};
 	ZulAman = {
 		ZoneName = "Zul'Aman";
-		Location = "Terres Fantômes ";
+		Location = "Terres Fantômes";
 		Acronym = "ZA";
 		BLUE.."A) Entrée";
 		GREY.."1) Nalorakk (Ours)";

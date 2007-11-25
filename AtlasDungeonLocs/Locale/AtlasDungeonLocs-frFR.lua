@@ -56,7 +56,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."10) Zul'Gurub, ".._RED.."Vallée de Strangleronce";
 			GREY.."11) Karazhan, ".._RED.."Défilé de Deuillevent";
 			GREY.."12) Le Temple d'Atal'Hakkar, ".._RED.."Marais des Chagrins";
-			"";
+			GREY.."13) Zul'Aman, ".._RED.."Terres Fantômes";
 			"";
 			"";
 			"";

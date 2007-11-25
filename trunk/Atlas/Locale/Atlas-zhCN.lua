@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/23/2007
+-- Last Update : 11/25/2007
 -- http://www.dreamgen.cn
 
 --]]
@@ -963,7 +963,7 @@ AtlasMaps = {
 		BLUE.."F) 楼座与露台间的斜坡";
 		BLUE.."G) 后门入口";
 		BLUE.."H) 通往:";
-		BLUE..INDENT.."主宰的露台 (夜之魇)";
+		BLUE..INDENT..INDENT.."主宰的露台 (夜之魇)";
 		BLUE.."I) 通往破碎阶梯的通道";
 		GREY.."1) 哈斯汀斯 <看管者>";
 		GREY.."2) 潜伏者希亚其斯 (稀有, 随机)";
@@ -1010,13 +1010,13 @@ AtlasMaps = {
 		BLUE.."I) 通往破碎阶梯的通道";
 		BLUE.."J) 破碎阶梯";
 		BLUE.."K) 通往守护者的图书馆的斜坡";
-		BLUE..INDENT.."(埃兰之影)";
+		BLUE..INDENT..INDENT.."(埃兰之影)";
 		BLUE.."L) 奇怪的书架";
-		BLUE..INDENT.."(特雷斯坦·邪蹄)";
+		BLUE..INDENT..INDENT.."(特雷斯坦·邪蹄)";
 		BLUE.."M) 通往观星大厅的斜坡";
-		BLUE..INDENT.."(虚空幽龙)";
+		BLUE..INDENT..INDENT.."(虚空幽龙)";
 		BLUE..INDENT.."通往象棋大厅的斜坡";
-		BLUE..INDENT.."(象棋事件)";
+		BLUE..INDENT..INDENT.."(象棋事件)";
 		BLUE.."N) 通往麦迪文房间的斜坡";
 		BLUE.."O) 通往虚空异界的楼梯 (王子)";
 		GREY.."16) 馆长";
@@ -1053,19 +1053,19 @@ AtlasMaps = {
 		ORNG.."钥匙：碎裂大厅钥匙";
 		ORNG.."钥匙：焰铸钥匙 (英雄模式)";
 		BLUE.."A) 入口";
-		GREY.."1) 兰迪·维兹普罗克 (联盟)";
-		GREY..INDENT.."列兵亚森特 (联盟)";
-		GREY..INDENT.."火枪手布隆恩·棕须 (联盟)";
-		GREY..INDENT.."奥琳娜上尉 (联盟)";
-		GREY..INDENT.."德雷希拉 (部落)";
-		GREY..INDENT.."斥候奥贾尔 (部落)";
-		GREY..INDENT.."克拉格·傲鬃 (部落)";
-		GREY..INDENT.."沙塔·碎骨上尉 (部落)";
+		GREY.."1) 兰迪·维兹普罗克 (联盟, 英雄模式)";
+		GREY..INDENT.."德雷希拉 (部落, 英雄模式)";
 		GREY.."2) 高阶术士奈瑟库斯";
 		GREY.."3) 血卫士伯鲁恩 (英雄模式)";
 		GREY.."4) 战争使者沃姆罗格";
 		GREY.."5) 酋长卡加斯·刃拳";
 		GREY..INDENT.."碎手斩杀者 (英雄模式)";
+		GREY..INDENT.."列兵亚森特 (联盟, 英雄模式)";
+		GREY..INDENT.."火枪手布隆恩·棕须 (联盟, 英雄模式)";
+		GREY..INDENT.."奥琳娜上尉 (联盟, 英雄模式)";
+		GREY..INDENT.."斥候奥贾尔 (部落, 英雄模式)";
+		GREY..INDENT.."克拉格·傲鬃 (部落, 英雄模式)";
+		GREY..INDENT.."沙塔·碎骨上尉 (部落, 英雄模式)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "地狱火堡垒 - 地狱火城墙";
@@ -1298,7 +1298,8 @@ AtlasMaps = {
 		GREY.."4) 阿卡玛之影";
 		GREY.."5) 乌达鲁之魂";
 		GREY..INDENT.."奥鲁尤 <材料商>";
-		GREY..INDENT.."沃库诺 <灰舌死誓者军需官>";
+		GREY..INDENT.."沃库诺";
+		GREY..INDENT..INDENT.."<灰舌死誓者军需官>";
 		GREY..INDENT.."先知坎奈";
 	};
 	BlackTempleBasement = {

@@ -53,7 +53,9 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."13) Collines des Sentinelles, ".._RED.."La Marche de l'Ouest";
 			GREY.."14) Sombre-comté, ".._RED.."Bois de la pénombre";
 			GREY.."15) Rempart-du-Néant, ".._RED.."Terres Foudroyées";
-			GREY.."16) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
+			GREY.."16) Camp rebelle, ".._RED.."Vallée de Strangleronce";
+			GREY.."17) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
+			GREY.."18) Zul'Aman, ".._RED.."Terres Fantômes";
 		};
 		FPAllianceWest = {
 			ZoneName = "Alliance (Ouest)";
@@ -72,14 +74,14 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."11) Combe de Nijel, ".._RED.."Désolace";
 			GREY.."12) Cabestan, ".._RED.."Les Tarides";
 			GREY.."13) Ile de Theramore, ".._RED.."Marécage d'Âprefange";
-			GREY.."14) Bastion de Pennelune, ".._RED.."Féralas";
-			GREY.."15) Thalanaar, ".._RED.."Féralas";
-			GREY.."16) Refuge de Marshal, ".._RED.."Cratère d'Un'Goro";
-			GREY.."17) Fort Cénarien, ".._RED.."Silithus";
-			GREY.."18) Gadgetzan, ".._RED.."Tanaris";
-			GREY.."19) L'Exodar, ".._RED.."Ile de Brume-Azur";
-			GREY.."20) Guet du sang, ".._RED.."Ile de Brume-Sang";
-			"";
+			GREY.."14) Bourbe-à-Brac, ".._RED.."Marécage d'Âprefange";
+			GREY.."15) Bastion de Pennelune, ".._RED.."Féralas";
+			GREY.."16) Thalanaar, ".._RED.."Féralas";
+			GREY.."17) Refuge de Marshal, ".._RED.."Cratère d'Un'Goro";
+			GREY.."18) Fort Cénarien, ".._RED.."Silithus";
+			GREY.."19) Gadgetzan, ".._RED.."Tanaris";
+			GREY.."20) L'Exodar, ".._RED.."Ile de Brume-Azur";
+			GREY.."21) Guet du sang, ".._RED.."Ile de Brume-Sang";
 			"";
 			"";
 			GREN.."Vert : Druides seulement";
@@ -101,6 +103,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."12) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
 			GREY.."13) Lune d'argent, ".._RED.."Bois des Chants-éternels";
 			GREY.."14) Tranquillien, ".._RED.."Les Terres Fantômes";
+			GREY.."15) Zul'Aman, ".._RED.."Terres Fantômes";
 		};
 		FPHordeWest = {
 			ZoneName = "Horde (Ouest)";
@@ -121,12 +124,12 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."13) Pitons-du-Tonnerre, ".._RED.."Mulgore";
 			GREY.."14) Camp Taurajo, ".._RED.."Les Tarides";
 			GREY.."15) Mur-de-Fougères, ".._RED.."Marécage d'Âprefange";
-			GREY.."16) Camp Mojache, ".._RED.."Féralas";
-			GREY.."17) Poste de Librevent, ".._RED.."Mille Pointes";
-			GREY.."18) Refuge des Marshal, ".._RED.."Cratère d'Un'Goro";
-			GREY.."19) Fort Cénarien, ".._RED.."Silithus";
-			GREY.."20) Gadgetzan, ".._RED.."Tanaris";
-			"";
+			GREY.."16) Bourbe-à-Brac, ".._RED.."Marécage d'Âprefange";			
+			GREY.."17) Camp Mojache, ".._RED.."Féralas";
+			GREY.."18) Poste de Librevent, ".._RED.."Mille Pointes";
+			GREY.."19) Refuge des Marshal, ".._RED.."Cratère d'Un'Goro";
+			GREY.."20) Fort Cénarien, ".._RED.."Silithus";
+			GREY.."21) Gadgetzan, ".._RED.."Tanaris";
 			"";
 			"";
 			GREN.."Vert : Druides seulement";

@@ -90,9 +90,6 @@ if ( GetLocale() == "deDE" ) then
 			"";
 			"";
 			"";
-			"";
-			"";
-			"";
 			BLUE.."Blau:"..ORNG.." Schlachtfelder";
 			GREY.."Weiß:"..ORNG.." Instanzen";
 		};

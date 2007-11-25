@@ -198,9 +198,9 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."17) Die Sturmsäule, ".._RED.."Nethersturm";
 			GREY.."18) Kosmozang, ".._RED.."Nethersturm";
 			GREN.."1') Schattenwindlager,";
-			_RED.."Wälder von Terokkar";
+			_RED..INDENT.."Wälder von Terokkar";
 			GREN.."2') Außenposten der Himmelswache,";
-			_RED.."Schergrat";
+			_RED..INDENT.."Schergrat";
 			GREN..INDENT.."(Wohlwollend bei Himmelswache der Sha'tari)"; 
 		};
 	};

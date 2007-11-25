@@ -568,7 +568,7 @@ AtlasMaps = {
 		GREY..INDENT.." 奴役者基兹鲁尔";
 		GREY.."18) 霍克·巴什古德 (稀有)";
 		GREY.."19) 维姆萨拉克";
-		GREY.."1') 燃烧地狱卫士 (稀有, 随机)";
+		GREN.."1') 燃烧地狱卫士 (稀有, 随机)";
 	};
 	BlackrockSpireUpper = {
 		ZoneName = "黑石塔 (上层)";
@@ -1325,7 +1325,7 @@ AtlasMaps = {
 		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
-		BLUE.."E) 入口";
+		BLUE.."D) 入口";
 		GREY.."9) 莎赫拉丝主母";
 		GREY.."10) 伊利达雷议会";
 		GREY..INDENT.."女公爵玛兰德 (牧师)";
@@ -1339,7 +1339,7 @@ AtlasMaps = {
 		Location = "幽魂之地";
 		Acronym = "ZA";
 		BLUE.."A) 入口";
-		GREY.."1) 纳洛拉克 (巨熊)";
+		GREY.."1) 纳洛拉克 (野熊)";
 		GREY.."2) 埃基尔松 (雄鹰)";
 		GREY.."3) 加亚莱 (龙鹰)";
 		GREY.."4) 哈尔拉兹 (山猫)";

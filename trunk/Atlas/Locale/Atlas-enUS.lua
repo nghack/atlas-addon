@@ -985,7 +985,7 @@ AtlasMaps = {
 		BLUE.."F) Ramp from Mezzanine to Balcony";
 		BLUE.."G) Back Entrance";
 		BLUE.."H) Connection to:";
-		BLUE..INDENT.."Master's Terrace (Nightbane)";
+		BLUE..INDENT..INDENT.."Master's Terrace (Nightbane)";
 		BLUE.."I) Path to the Broken Stairs";
 		GREY.."1) Hastings <The Caretaker>";
 		GREY.."2) Hyakiss the Lurker (Rare, Random)";
@@ -1032,13 +1032,13 @@ AtlasMaps = {
 		BLUE.."I) Path to the Broken Stairs";
 		BLUE.."J) Broken Stairs";
 		BLUE.."K) Ramp to Guardian's Library";
-		BLUE..INDENT.."(Shade of Aran)";
+		BLUE..INDENT..INDENT.."(Shade of Aran)";
 		BLUE.."L) Suspicious Bookshelf";
-		BLUE..INDENT.."(Passage to Illhoof)";
+		BLUE..INDENT..INDENT.."(Passage to Illhoof)";
 		BLUE.."M) Ramp up to the Celestial Watch";
-		BLUE..INDENT.."(Netherspite)";
+		BLUE..INDENT..INDENT.."(Netherspite)";
 		BLUE..INDENT.."Ramp down to the Gamesman's Hall";
-		BLUE..INDENT.."(Chess Event)";
+		BLUE..INDENT..INDENT.."(Chess Event)";
 		BLUE.."N) Ramp to Medivh's Chamber";
 		BLUE.."O) Spiral Stairs to Netherspace (Prince)";
 		GREY.."16) The Curator";
@@ -1075,19 +1075,19 @@ AtlasMaps = {
 		ORNG.."Key: Shattered Halls Key";
 		ORNG.."Key: Flamewrought Key (Heroic)";
 		BLUE.."A) Entrance";
-		GREY.."1) Randy Whizzlesprocket (Alliance)";
-		GREY..INDENT.."Private Jacint (Alliance)";
-		GREY..INDENT.."Rifleman Brownbeard (Alliance)";
-		GREY..INDENT.."Captain Alina (Alliance)";
-		GREY..INDENT.."Drisella (Horde)";
-		GREY..INDENT.."Scout Orgarr (Horde)";
-		GREY..INDENT.."Korag Proudmane (Horde)";
-		GREY..INDENT.."Captain Boneshatter (Horde)";
+		GREY.."1) Randy Whizzlesprocket (Alliance, Heroic)";
+		GREY..INDENT.."Drisella (Horde, Heroic)";
 		GREY.."2) Grand Warlock Nethekurse";
 		GREY.."3) Blood Guard Porung (Heroic)";
 		GREY.."4) Warbringer O'mrogg";
 		GREY.."5) Warchief Kargath Bladefist";
 		GREY..INDENT.."Shattered Hand Executioner (Heroic)";
+		GREY..INDENT.."Private Jacint (Alliance, Heroic)";
+		GREY..INDENT.."Rifleman Brownbeard (Alliance, Heroic)";
+		GREY..INDENT.."Captain Alina (Alliance, Heroic)";
+		GREY..INDENT.."Scout Orgarr (Horde, Heroic)";
+		GREY..INDENT.."Korag Proudmane (Horde, Heroic)";
+		GREY..INDENT.."Captain Boneshatter (Horde, Heroic)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HFC: Hellfire Ramparts";
@@ -1320,7 +1320,8 @@ AtlasMaps = {
 		GREY.."4) Shade of Akama";
 		GREY.."5) Spirit of Udalo";
 		GREY..INDENT.."Aluyen (Reagent Vendor)";
-		GREY..INDENT.."Okuno <Ashtongue Deathsworn Quartermaster>";
+		GREY..INDENT.."Okuno <Ashtongue Deathsworn";
+		GREY..INDENT..INDENT.."Quartermaster>";
 		GREY..INDENT.."Seer Kanai";
 	};
 	BlackTempleBasement = {

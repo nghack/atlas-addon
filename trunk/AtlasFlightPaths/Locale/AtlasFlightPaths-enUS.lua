@@ -53,7 +53,9 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."13) Sentinel Hill, ".._RED.."Westfall";
 			GREY.."14) Darkshire, ".._RED.."Duskwood";
 			GREY.."15) Netherguard Keep, ".._RED.."The Blasted Lands";
-			GREY.."16) Booty Bay, ".._RED.."Stranglethorn Vale";
+			GREY.."16) Rebel Camp, ".._RED.."Stranglethorn Vale";
+			GREY.."17) Booty Bay, ".._RED.."Stranglethorn Vale";
+			GREY.."18) Hatchet Hills, ".._RED.."Ghostlands";
 		};
 		FPAllianceWest = {
 			ZoneName = "Alliance (West)";
@@ -72,14 +74,14 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."11) Nijel's Point, ".._RED.."Desolace";
 			GREY.."12) Ratchet, ".._RED.."The Barrens";
 			GREY.."13) Theramore Isle, ".._RED.."Dustwallow Marsh";
-			GREY.."14) Feathermoon Stronghold, ".._RED.."Feralas";
-			GREY.."15) Thalanaar, ".._RED.."Feralas";
-			GREY.."16) Marshall's Refuge, ".._RED.."Un'Goro Crater";
-			GREY.."17) Cenarion Hold, ".._RED.."Silithus";
-			GREY.."18) Gadgetzan, ".._RED.."Tanaris Desert";
-			GREY.."19) The Exodar, ".._RED.."Azuremyst Isle";
-			GREY.."20) Blood Watch, ".._RED.."Bloodmyst Isle";
-			"";
+			GREY.."14) Mudsprocket, ".._RED.."Dustwallow Marsh";
+			GREY.."15) Feathermoon Stronghold, ".._RED.."Feralas";
+			GREY.."16) Thalanaar, ".._RED.."Feralas";
+			GREY.."17) Marshall's Refuge, ".._RED.."Un'Goro Crater";
+			GREY.."18) Cenarion Hold, ".._RED.."Silithus";
+			GREY.."19) Gadgetzan, ".._RED.."Tanaris Desert";
+			GREY.."20) The Exodar, ".._RED.."Azuremyst Isle";
+			GREY.."21) Blood Watch, ".._RED.."Bloodmyst Isle";
 			"";
 			"";
 			GREN.."Green: Druid-only";
@@ -101,6 +103,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."12) Booty Bay, ".._RED.."Stranglethorn Vale";
 			GREY.."13) Silvermoon, ".._RED.."Eversong Woods";
 			GREY.."14) Tranquillien, ".._RED.."Ghostlands";
+			GREY.."15) Hatchet Hills, ".._RED.."Ghostlands";
 		};
 		FPHordeWest = {
 			ZoneName = "Horde (West)";
@@ -121,12 +124,12 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."13) Thunder Bluff, ".._RED.."Mulgore";
 			GREY.."14) Camp Taurajo, ".._RED.."The Barrens";
 			GREY.."15) Brackenwall Village, ".._RED.."Dustwallow Marsh";
-			GREY.."16) Camp Mojache, ".._RED.."Feralas";
-			GREY.."17) Freewind Post, ".._RED.."Thousand Needles";
-			GREY.."18) Marshall's Refuge, ".._RED.."Un'Goro Crater";
-			GREY.."19) Cenarion Hold, ".._RED.."Silithus";
-			GREY.."20) Gadgetzan, ".._RED.."Tanaris Desert";
-			"";
+			GREY.."16) Mudsprocket, ".._RED.."Dustwallow Marsh";
+			GREY.."17) Camp Mojache, ".._RED.."Feralas";
+			GREY.."18) Freewind Post, ".._RED.."Thousand Needles";
+			GREY.."19) Marshall's Refuge, ".._RED.."Un'Goro Crater";
+			GREY.."20) Cenarion Hold, ".._RED.."Silithus";
+			GREY.."21) Gadgetzan, ".._RED.."Tanaris Desert";
 			"";
 			"";
 			GREN.."Green: Druid-only";

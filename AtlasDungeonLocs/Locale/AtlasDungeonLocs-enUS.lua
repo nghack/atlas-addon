@@ -56,7 +56,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."10) Zul'Gurub, ".._RED.."Stranglethorn Vale";
 			GREY.."11) Karazhan, ".._RED.."Deadwind Pass";
 			GREY.."12) The Sunken Temple, ".._RED.."Swamp of Sorrows";
-			"";
+			GREY.."13) Zul'Aman, ".._RED.."Ghostlands";
 			"";
 			"";
 			"";

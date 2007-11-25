@@ -996,7 +996,7 @@ AtlasMaps = {
 		BLUE.."F) Rampe vom Zwischengeschoss zum Balkon";
 		BLUE.."G) Eingang (Hinten)";
 		BLUE.."H) Verbindung zu:";
-		BLUE..INDENT.."Terrasse des Meisters (Schrecken der Nacht)";
+		BLUE..INDENT..INDENT.."Terrasse des Meisters (Schrecken der Nacht)";
 		BLUE.."I) Weg zur Beschädigten Treppe";
 		GREY.."1) Hastings <Der Hauswart>";
 		GREY.."2) Hyakiss der Lauerer (Rar, Zufällig)";
@@ -1043,13 +1043,13 @@ AtlasMaps = {
 		BLUE.."I) Weg zur Beschädigten Treppe";
 		BLUE.."J) Beschädigte Treppe";
 		BLUE.."K) Rampe zur Bibliothek der Beschützer";
-		BLUE..INDENT.."(Arans Schemen)";
+		BLUE..INDENT..INDENT.."(Arans Schemen)";
 		BLUE.."L) Verdächtiges Bücherregal";
-		BLUE..INDENT.."(Passage zu Siechhuf)";
+		BLUE..INDENT..INDENT.."(Passage zu Siechhuf)";
 		BLUE.."M) Rampe nach oben zur Himmelswacht";
-		BLUE..INDENT.."(Nethergroll)";
+		BLUE..INDENT..INDENT.."(Nethergroll)";
 		BLUE..INDENT.."Rampe nach unten zur Halle der Spieler";
-		BLUE..INDENT.."(Schachevent)";
+		BLUE..INDENT..INDENT.."(Schachevent)";
 		BLUE.."N) Rampe zu Medivhs Kammer";
 		BLUE.."O) Wendeltreppe zum Netherraum (Prinz)";
 		GREY.."16) Der Kurator";
@@ -1086,24 +1086,24 @@ AtlasMaps = {
 		ORNG.."Key: Schlüssel der zerschmetterten Hallen";
 		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
-		GREY.."1) Randy Sauseritzel (Allianz)";
-		GREY..INDENT.."Gefreiter Jacint (Allianz)";
-		GREY..INDENT.."Scharfschütze Braunbart (Allianz)";
-		GREY..INDENT.."Hauptmann Alina (Allianz)";
-		GREY..INDENT.."Drisella (Horde)";
-		GREY..INDENT.."Späher Orgarr (Horde)";
-		GREY..INDENT.."Korag Mähnenstolz (Horde)";
-		GREY..INDENT.."Hauptmann Knochenbrecher (Horde)";
+		GREY.."1) Randy Sauseritzel (Allianz, Heroisch)";
+		GREY..INDENT.."Drisella (Horde, Heroisch)";
 		GREY.."2) Großhexenmeister Nethekurse";
 		GREY.."3) Blutwache Porung (Heroisch)";
 		GREY.."4) Kriegshetzer O'mrogg";
 		GREY.."5) Kriegshäuptling Kargath Messerfaust";
 		GREY..INDENT.."Henker der Zerschmetterten Hand (Heroisch)";
+		GREY..INDENT.."Gefreiter Jacint (Allianz, Heroisch)";
+		GREY..INDENT.."Scharfschütze Braunbart (Allianz, Heroisch)";
+		GREY..INDENT.."Hauptmann Alina (Allianz, Heroisch)";
+		GREY..INDENT.."Späher Orgarr (Horde, Heroisch)";
+		GREY..INDENT.."Korag Mähnenstolz (Horde, Heroisch)";
+		GREY..INDENT.."Hauptmann Knochenbrecher (Horde, Heroisch)";
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HZ: Höllenfeuerbollwerk";
 		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
-		Acronym = "HB";
+		Acronym = "BW";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
 		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
@@ -1144,7 +1144,7 @@ AtlasMaps = {
 		ORNG.."Key: Schlüssel des Kessels (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Hungarfenn";
-		GREY..INDENT.."Tiefensporen";
+		GREY..INDENT.."Die Tiefenspore";
 		GREY.."2) Ghaz'an";
 		GREY.."3) Erdbinder Rayge";
 		GREY.."4) Sumpffürst Musel'ek";
@@ -1169,7 +1169,7 @@ AtlasMaps = {
 	CFRSerpentshrineCavern = {
 		ZoneName = "EK: Höhle des Schlangenschreins";
 		Location = "Der Echsenkessel, Zangarmarschen";
-		Acronym = "SS";
+		Acronym = "SSC";
 		ORNG.."Ruf: Expedition des Cenarius";
 		BLUE.."A) Eingang";
 		GREY.."1) Hydross der Unstete";
@@ -1274,7 +1274,7 @@ AtlasMaps = {
 	TempestKeepMechanar = {
 		ZoneName = "FdS: Die Mechanar";
 		Location = "Festung der Stürme, Nethersturm";
-		Acronym = "Mech";
+		Acronym = "Mecha";
 		ORNG.."Ruf: Die Sha'tar";
 		ORNG.."Key: Warpgeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
@@ -1283,20 +1283,20 @@ AtlasMaps = {
 		GREY..INDENT.."Behälter der Legion";
 		GREY.."3) Mechanolord Kapazitus";
 		GREY..INDENT.."Überladene Manazelle";
-		GREY.."4) Nethermant Sepethrea";
+		GREY.."4) Nethermantin Sepethrea";
 		GREY.."5) Pathaleon der Kalkulator";
 	};
 	TempestKeepTheEye = {
 		ZoneName = "FdS: Auge des Sturms";
 		Location = "Festung der Stürme, Nethersturm";
-		Acronym = "Auge";
+		Acronym = "FdS";
 		ORNG.."Ruf: Die Sha'tar";
 		ORNG.."Key: Schlüssel der Stürme";
 		BLUE.."A) Eingang";
 		GREY.."1) Al'ar";
-		GREY.."2) Leerplünderer";
-		GREY.."3) Hochastromagier Solarian";
-		GREY.."4) Prinz Kael'thas Sonnenwanderer";
+		GREY.."2) Leerhäscher";
+		GREY.."3) Hochastronom Solarian";
+		GREY.."4) Kael'thas Sonnenwanderer";
 		GREY..INDENT.."Thaladred der Verfinsterer (Krieger)";
 		GREY..INDENT.."Meisteringenieur Telonicus (Jäger)";
 		GREY..INDENT.."Großastronom Capernian (Magier)";

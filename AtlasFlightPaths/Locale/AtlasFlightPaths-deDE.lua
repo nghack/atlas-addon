@@ -55,7 +55,9 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."13) Späherkuppe, ".._RED.."Westfall";
 			GREY.."14) Dunkelhain, ".._RED.."Dämmerwald";
 			GREY.."15) Burg Nethergarde, ".._RED.."Verwüstete Lande";
-			GREY.."16) Beutebucht, ".._RED.."Schlingendorntal";
+			GREY.."16) Rebellenlager, ".._RED.."Schlingendorntal";
+			GREY.."17) Beutebucht, ".._RED.."Schlingendorntal";
+			GREY.."18) Axthügel, ".._RED.."Geisterlande";
 		};
 		FPAllianceWest = {
 			ZoneName = "Allianz (Westen)";
@@ -76,15 +78,15 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."12) Ratschet, ".._RED.."Brachland";
 			GREY.."13) Die Insel Theramore,";
 			_RED..INDENT.."Düstermarschen";
-			GREY.."14) Mondfederfeste, ".._RED.."Feralas";
-			GREY.."15) Thalanaar, ".._RED.."Feralas";
-			GREY.."16) Marschalls Zuflucht,";
+			GREY.."14) Morastwinkel, ".._RED.."Düstermarschen";
+			GREY.."15) Mondfederfeste, ".._RED.."Feralas";
+			GREY.."16) Thalanaar, ".._RED.."Feralas";
+			GREY.."17) Marschalls Zuflucht,";
 			_RED..INDENT.."Krater von Un'Goro";
-			GREY.."17) Burg Cenarius, ".._RED.."Silithus";
-			GREY.."18) Gadgetzan, ".._RED.."Tanaris";
-			GREY.."19) Die Exodar, ".._RED.."Azurmythosinsel";
-			GREY.."20) Blutwacht, ".._RED.."Blutmythosinsel";
-			"";
+			GREY.."18) Burg Cenarius, ".._RED.."Silithus";
+			GREY.."19) Gadgetzan, ".._RED.."Tanaris";
+			GREY.."20) Die Exodar, ".._RED.."Azurmythosinsel";
+			GREY.."21) Blutwacht, ".._RED.."Blutmythosinsel";
 			"";
 			"";
 			GREN.."Grün: Nur Druiden";
@@ -109,6 +111,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."12) Beutebucht, ".._RED.."Schlingendorntal";
 			GREY.."13) Silbermond, ".._RED.."Immersangwald";
 			GREY.."14) Tristessa, ".._RED.."Geisterlande";
+			GREY.."15) Axthügel, ".._RED.."Geisterlande";
 		};
 		FPHordeWest = {
 			ZoneName = "Horde (Westen)";
@@ -130,13 +133,13 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."13) Donnerfels, ".._RED.."Mulgore";
 			GREY.."14) Camp Taurajo, ".._RED.."Brachland";
 			GREY.."15) Brackenwall, ".._RED.."Düstermarschen";
-			GREY.."16) Camp Mojache, ".._RED.."Feralas";
-			GREY.."17) Freiwindposten, ".._RED.."Tausend Nadeln";
-			GREY.."18) Marschalls Zuflucht,";
+			GREY.."16) Morastwinkel, ".._RED.."Düstermarschen";
+			GREY.."17) Camp Mojache, ".._RED.."Feralas";
+			GREY.."18) Freiwindposten, ".._RED.."Tausend Nadeln";
+			GREY.."19) Marschalls Zuflucht,";
 			_RED..INDENT.."Krater von Un'Goro";
-			GREY.."19) Burg Cenarius, ".._RED.."Silithus";
-			GREY.."20) Gadgetzan, ".._RED.."Tanaris";
-			"";
+			GREY.."20) Burg Cenarius, ".._RED.."Silithus";
+			GREY.."21) Gadgetzan, ".._RED.."Tanaris";
 			"";
 			"";
 			GREN.."Grün: Nur Druiden";

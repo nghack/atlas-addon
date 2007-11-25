@@ -48,8 +48,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."4) Burg Schattenfang, ".._RED.."Silberwald";
 			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
 			GREY.."6) Uldaman, ".._RED.."Ödland";
-			GREY.."7) Pechschwingenhort,";
-			_RED..INDENT.."Schwarzfelsspitze";
+			GREY.."7) Pechschwingenhort, ".._RED.."Schwarzfelsspitze";
 			GREY..INDENT.."Schwarzfelstiefen, ".._RED.."Der Schwarzfels";
 			GREY..INDENT.."Schwarzfelsspitze, ".._RED.."Der Schwarzfels";
 			GREY..INDENT.."Geschmolzener Kern,";
@@ -60,6 +59,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."11) Karazhan, ".._RED.."Gebirgspass der Totenwinde";
 			GREY.."12) Der Tempel von Atal'Hakkar,";
 			_RED..INDENT.."Sümpfe des Elends";
+			GREY.."13) Zul'Aman, ".._RED.."Geisterlande";
 			"";
 			BLUE.."Blau:"..ORNG.." Schlachtfelder";
 			GREY.."Weiß:"..ORNG.." Instanzen";

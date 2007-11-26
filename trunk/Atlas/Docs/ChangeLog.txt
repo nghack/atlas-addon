@@ -11,6 +11,7 @@ v1.10.3
 - revamped the background artwork on the FP and DL maps
 - updated the FP maps with the new flight points/paths
 - updated the DL maps with the new dungeon (Zul'Aman)
+- renumbered the FP and DL maps for consistency
 - new Karazhan entrance map (Mottie)
 - revamped the UBRS map (Nifl, Celellach)
 - revamped the LBRS map (Nifl, Celellach)
@@ -46,7 +47,7 @@ v1.10.3
 - added the entrance and a few mobs to Naxx (Celellach)
 - added specific mobs and their classes to Illidari Council in BT (Telchar)
 - added a number of mobs to Black Temple (Arzach)
-- renumbered Black Temple maps for consistancy (Thandrenn)
+- renumbered Black Temple maps for consistency (Thandrenn)
 - added event names to CoT maps (Celellach)
 - added Ambassador Pax'ivi to Mana-Tombs (DiabloHu)
 - added Cryo-Engineer Sha'heen to Mana-Tombs (Celellach)

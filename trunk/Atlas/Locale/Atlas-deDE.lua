@@ -31,7 +31,7 @@
 -- Lokalisation: Nihlo (ICQ: 260-869-930), Dynaletik (ICQ: 176-289-585), Telchar (ICQ: 391-632-535)
 -- und noch unzählige Andere...Vielen Dank!
 --
--- Letztes Update: 27.10.2007
+-- Letztes Update: 26.11.2007
 
 --]]
 
@@ -244,7 +244,7 @@ AtlasMaps = {
 	};
 	Maraudon = {
 		ZoneName = "Maraudon";
-		Acronym = "Mara/Mauro";
+		Acronym = "Mara, Mauro";
 		Location = "Desolace";
 		ORNG.."Key: Szepter von Celebras (Portal)";
 		BLUE.."A) Eingang (Orange)";
@@ -1117,6 +1117,7 @@ AtlasMaps = {
 	HCMagtheridonsLair = {
 		ZoneName = "HZ: Magtheridons Kammer";
 		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
+		Acronym = "Maggi";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
 		BLUE.."A) Eingang";
@@ -1169,7 +1170,7 @@ AtlasMaps = {
 	CFRSerpentshrineCavern = {
 		ZoneName = "EK: Höhle des Schlangenschreins";
 		Location = "Der Echsenkessel, Zangarmarschen";
-		Acronym = "SSC";
+		Acronym = "SSC, HdS";
 		ORNG.."Ruf: Expedition des Cenarius";
 		BLUE.."A) Eingang";
 		GREY.."1) Hydross der Unstete";

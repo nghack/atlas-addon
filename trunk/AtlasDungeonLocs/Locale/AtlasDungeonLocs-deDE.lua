@@ -32,40 +32,40 @@ if ( GetLocale() == "deDE" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "   ";
 
-	local myCategory = "Dungeon Standorte";
+	local myCategory = "Instanzen-Standorte";
 
 	local myData = {
 		DLEast = {
-			ZoneName = "Dungeon Standorte (Osten)";
+			ZoneName = "Instanzen-Standorte [A] (Osten)";
 			Location = "Östliche Königreiche";
 			BLUE.."A) Alteractal, ".._RED.."Alteracgebirge/";
 			_RED..INDENT.."Vorgebirge des Hügellands";
 			BLUE.."B) Arathibecken, ".._RED.."Arathihochland";
-			GREY.."1) Das scharlachrote Kloster, ".._RED.."Tirisfal";
-			GREY.."2) Stratholme, ".._RED.."Östliche Pestländer";
+			GREY.."1) Zul'Aman, ".._RED.."Geisterlande";
+			GREY.."2) Das scharlachrote Kloster, ".._RED.."Tirisfal";
+			GREY.."3) Stratholme, ".._RED.."Östliche Pestländer";
 			GREY..INDENT.."Naxxramas, ".._RED.."Stratholme";
-			GREY.."3) Scholomance, ".._RED.."Westliche Pestländer";
-			GREY.."4) Burg Schattenfang, ".._RED.."Silberwald";
-			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
-			GREY.."6) Uldaman, ".._RED.."Ödland";
-			GREY.."7) Pechschwingenhort, ".._RED.."Schwarzfelsspitze";
+			GREY.."4) Scholomance, ".._RED.."Westliche Pestländer";
+			GREY.."5) Burg Schattenfang, ".._RED.."Silberwald";
+			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh";
+			GREY.."7) Uldaman, ".._RED.."Ödland";
+			GREY.."8) Pechschwingenhort, ".._RED.."Schwarzfelsspitze";
 			GREY..INDENT.."Schwarzfelstiefen, ".._RED.."Der Schwarzfels";
 			GREY..INDENT.."Schwarzfelsspitze, ".._RED.."Der Schwarzfels";
 			GREY..INDENT.."Geschmolzener Kern,";
 			_RED..INDENT.."Schwarzfelstiefen";
-			GREY.."8) Das Verlies, ".._RED.."Sturmwind";
-			GREY.."9) Die Todesminen, ".._RED.."Westfall";
-			GREY.."10) Zul'Gurub, ".._RED.."Schlingendorntal";
-			GREY.."11) Karazhan, ".._RED.."Gebirgspass der Totenwinde";
-			GREY.."12) Der Tempel von Atal'Hakkar,";
+			GREY.."9) Das Verlies, ".._RED.."Sturmwind";
+			GREY.."10) Die Todesminen, ".._RED.."Westfall";
+			GREY.."11) Zul'Gurub, ".._RED.."Schlingendorntal";
+			GREY.."12) Karazhan, ".._RED.."Gebirgspass der Totenwinde";
+			GREY.."13) Der Tempel von Atal'Hakkar,";
 			_RED..INDENT.."Sümpfe des Elends";
-			GREY.."13) Zul'Aman, ".._RED.."Geisterlande";
 			"";
 			BLUE.."Blau:"..ORNG.." Schlachtfelder";
 			GREY.."Weiß:"..ORNG.." Instanzen";
 		};
 		DLWest = {
-			ZoneName = "Dungeon Standorte (Westen)";
+			ZoneName = "Instanzen-Standorte [B] (Westen)";
 			Location = "Kalimdor";
 			BLUE.."A) Kriegshymnenschlucht,";
 			_RED..INDENT.."Brachland / Eschental";
@@ -94,7 +94,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."Weiß:"..ORNG.." Instanzen";
 		};
 		DLOutland = {
-			ZoneName = "Dungeon Standorte (Scherbenwelt)";
+			ZoneName = "Instanzen-Standorte [C] (Scherbenwelt)";
 			Location = "Scherbenwelt";
 			GREY.."1) Gruuls Unterschlupf, ".._RED.."Schergrat";
 			GREY.."2) Festung der Stürme, ".._RED.."Nethersturm";

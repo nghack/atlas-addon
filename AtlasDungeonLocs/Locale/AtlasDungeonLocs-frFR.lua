@@ -36,27 +36,27 @@ if ( GetLocale() == "frFR" ) then
 
 	local myData = {
 		DLEast = {
-			ZoneName = "Instances (Est)";
+			ZoneName = "Instances [A] (Est)";
 			Location = "Royaumes de l'Est";
 			BLUE.."A) Vallée d'Alterac, ".._RED.."Alterac / Hautebrande";
 			BLUE.."B) Bassin d'Arathi, ".._RED.."Hautes-Terres d'Arathi";
-			GREY.."1) Monastère écarlate, ".._RED.."Clairières de Tirisfal";
-			GREY.."2) Stratholme, ".._RED.."Maleterres de l'Est";
+			GREY.."1) Zul'Aman, ".._RED.."Terres Fantômes";
+			GREY.."2) Monastère écarlate, ".._RED.."Clairières de Tirisfal";
+			GREY.."3) Stratholme, ".._RED.."Maleterres de l'Est";
 			GREY..INDENT.."Naxxramas, ".._RED.."Pestebois, Maleterres de l'Est";
-			GREY.."3) Scholomance, ".._RED.."Maleterres de l'Ouest";
-			GREY.."4) Donjon d'Ombrecroc, ".._RED.."Forêt des Pins Argentés";
-			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
-			GREY.."6) Uldaman, ".._RED.."Terres Ingrates";
-			GREY.."7) Repaire de l'Aile Noire, ".._RED.."Pic Rochenoire";
+			GREY.."4) Scholomance, ".._RED.."Maleterres de l'Ouest";
+			GREY.."5) Donjon d'Ombrecroc, ".._RED.."Forêt des Pins Argentés";
+			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh";
+			GREY.."7) Uldaman, ".._RED.."Terres Ingrates";
+			GREY.."8) Repaire de l'Aile Noire, ".._RED.."Pic Rochenoire";
 			GREY..INDENT.."Profondeurs de Rochenoire, ".._RED.."Mont Rochenoire";
 			GREY..INDENT.."Pic Rochenoire, ".._RED.."Mont Rochenoire";
 			GREY..INDENT.."Cœur du Magma, ".._RED.."Profondeurs de Rochenoire";
-			GREY.."8) La Prison, ".._RED.."Hurlevent";
-			GREY.."9) Les Mortemines, ".._RED.."Marche de l'Ouest";
-			GREY.."10) Zul'Gurub, ".._RED.."Vallée de Strangleronce";
-			GREY.."11) Karazhan, ".._RED.."Défilé de Deuillevent";
-			GREY.."12) Le Temple d'Atal'Hakkar, ".._RED.."Marais des Chagrins";
-			GREY.."13) Zul'Aman, ".._RED.."Terres Fantômes";
+			GREY.."9) La Prison, ".._RED.."Hurlevent";
+			GREY.."10) Les Mortemines, ".._RED.."Marche de l'Ouest";
+			GREY.."11) Zul'Gurub, ".._RED.."Vallée de Strangleronce";
+			GREY.."12) Karazhan, ".._RED.."Défilé de Deuillevent";
+			GREY.."13) Le Temple d'Atal'Hakkar, ".._RED.."Marais des Chagrins";
 			"";
 			"";
 			"";
@@ -65,7 +65,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."Blanc :"..ORNG.." Instances";
 		};
 		DLWest = {
-			ZoneName = "Instances (Ouest)";
+			ZoneName = "Instances [B] (Ouest)";
 			Location = "Kalimdor";
 			BLUE.."A) Goulet des Chanteguerres, ".._RED.."Les Tarides / Orneval";
 			GREY.."1) Profondeurs de Brassenoire, ".._RED.."Orneval";
@@ -94,7 +94,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."Blanc :"..ORNG.." Instances";
 		};
 		DLOutland = {
-			ZoneName = "Instances (Outreterre)";
+			ZoneName = "Instances [C] (Outreterre)";
 			Location = "Outreterre";
 			GREY.."1) Repaire de Gruul, ".._RED.."Les Tranchantes";
 			GREY.."2) Donjon de la Tempête, ".._RED.."Raz-de-Néant";

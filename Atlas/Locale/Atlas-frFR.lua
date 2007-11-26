@@ -27,7 +27,7 @@
 -- Version WoW 2.3.0 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 23/11/2007
+-- le 26/11/2007
 --]]
 
 if ( GetLocale() == "frFR" ) then

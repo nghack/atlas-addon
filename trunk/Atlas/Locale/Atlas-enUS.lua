@@ -1362,10 +1362,10 @@ AtlasMaps = {
 		Acronym = "ZA";
 		BLUE.."A) Entrance";
 		GREY.."1) Nalorakk (Bear)";
-		GREY.."2) Akil'zon (Eagle)";
-		GREY.."3) Jan'alai (Dragonhawk)";
+		GREY.."2) Akil'Zon (Eagle)";
+		GREY.."3) Jan'Alai (Dragonhawk)";
 		GREY.."4) Halazzi (Lynx)";
 		GREY.."5) Hex Lord Malacrass";
-		GREY.."6) Zul'jin";
+		GREY.."6) Zul'Jin";
 	};
 };

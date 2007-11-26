@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 26, 2007
+-- Last Update: Nov. 26, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -58,7 +58,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			GREY.."10) 祖爾格拉布, ".._RED.."荊棘谷";
 			GREY.."11) 卡拉贊, ".._RED.."逆風小徑";
 			GREY.."12) 沈沒的神廟, ".._RED.."悲傷沼澤";
-			"";
+			GREY.."13) 祖阿曼, ".._RED.."鬼魂之地";
 			"";
 			"";
 			"";

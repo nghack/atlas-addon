@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 04, 2007
+-- Last Update: Nov. 26, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -78,8 +78,8 @@ if ( GetLocale() ==	"zhTW" ) then
 			BLUE.."B) 燃燒平原";
 			BLUE.."C) 黑石深淵 (BRD)";
 			BLUE..INDENT.."熔火之心 (MC)";
-			BLUE.."D) 低階黑石塔 (LBRS)";
-			BLUE..INDENT.."高階黑石塔 (UBRS)";
+			BLUE.."D) 低階黑石塔 (黑下)";
+			BLUE..INDENT.."高階黑石塔 (黑上)";
 			BLUE..INDENT.."黑翼之巢 (BWL)";
 			BLUE..INDENT.."布德利 (鬼魂)";
 			GREY.."1) 征服者派隆 (傳送門)";
@@ -192,9 +192,9 @@ if ( GetLocale() ==	"zhTW" ) then
 			BLUE.."D) 西側";
 			GREY.."1) 厄運之池";
 			GREY.."2) 厄運競技場";
-			GREY..INDENT.."姆斯高格 (稀有)";
-			GREY..INDENT.."無敵的斯卡爾 (稀有)";
-			GREY..INDENT.."拉里爾 (稀有)";
+			GREY..INDENT.."姆斯高格 (隨機)";
+			GREY..INDENT.."無敵的斯卡爾 (隨機)";
+			GREY..INDENT.."拉里爾 (隨機)";
 			GREY..INDENT.."迷霧長者 (節慶)";
 		};
 		CoTEnt = {
@@ -213,13 +213,40 @@ if ( GetLocale() ==	"zhTW" ) then
 			GREY..INDENT.."卡葛隆姆";
 			GREY..INDENT.."阿勒米";
 			GREY.."6) 薩拉多姆";
-			GREY..INDENT.."索芮朵蜜 (徘徊)";
-			GREY..INDENT.."阿拉斯莫杜 (徘徊)";
+			GREY..INDENT.."索芮朵蜜 (遊蕩)";
+			GREY..INDENT.."阿拉斯莫杜 (遊蕩)";
 			GREY.."7) 月井";
 			GREY.."8) 安杜姆 (兒年)";
 			GREY..INDENT.."諾札瑞 (幼年)";
 			GREY.."9) 安杜姆 (成年)";
 			GREY..INDENT.."諾札瑞 (成年)";
+		};
+
+		KarazhanEnt = {
+			ZoneName = "卡拉贊";
+			Acronym = "Kara";
+			Location = "逆風小徑";
+			BLUE.."A) 前方入口";
+			BLUE.."B) 後方入口";
+			BLUE.."C) 集合石";
+			BLUE.."D) 墓園";
+			GREY.."1) 大法師利瑞達";
+			GREY.."2) 學徒達瑞爾斯";
+			GREY.."3) 大法師艾特羅斯";
+			GREY.."4) 通往地底池塘的階梯";
+			GREY.."5) 通往地底水井的階梯";
+			GREY.."6) 燒焦的白骨碎片";
+		};
+
+		SMEnt = {
+			ZoneName = "血色修道院";
+			Acronym = "SM";
+			Location = "提里斯法林地";
+			BLUE.."A) 入口";
+			BLUE.."B) 墓園";
+			BLUE.."C) 大教堂";
+			BLUE.."D) 軍械庫";
+			BLUE.."E) 圖書館";
 		};
 	};
 
@@ -247,6 +274,12 @@ if ( GetLocale() ==	"zhTW" ) then
 	myData.DireMaulEnt.PlayerLimit =			"5";
 	myData.CoTEnt.LevelRange =					"66-70";
 	myData.CoTEnt.PlayerLimit =					"5/25";
+
+	myData.KarazhanEnt.LevelRange =			"70";
+	myData.KarazhanEnt.PlayerLimit =			"10";
+
+	myData.SMEnt.LevelRange =				"29-45";
+	myData.SMEnt.PlayerLimit =				"10";
 
 	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
 

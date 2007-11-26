@@ -170,8 +170,8 @@ AtlasMaps = {
 			GREY.."5) 格里哈斯特";
 			GREY..INDENT.."格里哈斯特神殿";
 			GREY.."6) 洛古斯·傑特 (多個位置)";
-			GREY.."7) 阿奎尼斯男爵";
-			GREY..INDENT.."深淵之核";
+			GREY.."7) 深淵之石";
+			GREY..INDENT.."阿奎尼斯男爵";
 			GREY.."8) 夢遊者克爾里斯";
 			GREY.."9) 瑟拉吉斯";
 			GREY.."10) 阿庫麥爾";
@@ -323,7 +323,7 @@ AtlasMaps = {
 			ZoneName = "奧妮克希亞的巢穴";
 			Acronym = "Ony";
 			Location = "塵泥沼澤";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."鑰匙: 龍火護符";
 			BLUE.."A) 入口";
 			GREY.."1) 奧妮克希亞守衛";
@@ -385,7 +385,7 @@ AtlasMaps = {
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT2";
 			PURP.."事件: 開啟黑暗之門";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
 			BLUE.."A) 入口";
@@ -402,7 +402,7 @@ AtlasMaps = {
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT3";
 			PURP.."事件: 海加爾山戰場";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 流沙之鱗";
 			BLUE.."A) 聯盟營地";
 			BLUE..INDENT.."珍娜·普勞德摩爾女士";
@@ -423,7 +423,7 @@ AtlasMaps = {
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT1";
 			PURP.."事件: 逃離敦霍爾德";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 時光守衛者";
 			ORNG.."鑰匙: 時光之鑰 (英雄模式)";
 			BLUE.."A) 入口";
@@ -567,7 +567,7 @@ AtlasMaps = {
 			BLUE.."B) 黑石塔上層 (黑上)";
 			BLUE.."C-F) 通道";
 			GREY.."1) 維埃蘭 (上層)";
-			GREY.."2) 瓦羅什 (巡邏)";
+			GREY.."2) 瓦羅什 (遊蕩)";
 			GREY..INDENT.."石壘長者 (新年慶典)";
 			GREY.."3) 尖銳長矛";
 			GREY.."4) 尖石屠夫 (稀有)";
@@ -581,8 +581,8 @@ AtlasMaps = {
 			GREY..INDENT.."莫爾·灰蹄 (召喚)";
 			GREY..INDENT.."第六塊摩沙魯石板";
 			GREY.."10) 比修的裝置";
-			GREY.."11) 人類殘骸";
-			GREY..INDENT.."未淬火的鎧甲護手";
+			GREY.."11) 人類殘骸 (下層)";
+			GREY..INDENT.."未淬火的鎧甲護手 (下層)";
 			GREY.."12) 班諾克·巨斧 (稀有)";
 			GREY.."13) 煙網蛛后";
 			GREY.."14) 水晶之牙 (稀有)";
@@ -593,7 +593,7 @@ AtlasMaps = {
 			GREY..INDENT.."奴役者基茲盧爾";
 			GREY.."18) 霍克·巴什古德 (稀有)";
 			GREY.."19) 維姆薩拉克";
-			GREY.."1') 燃燒地獄衛士 (稀有, 隨機)";
+			GREY.."1') 燃燒地獄衛士 (稀有, 召喚)";
 		};
 		BlackrockSpireUpper = {
 			ZoneName = "黑石塔 (上層)";
@@ -625,7 +625,7 @@ AtlasMaps = {
 			ZoneName = "黑翼之巢";
 			Acronym = "BWL";
 			Location = "黑石塔";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			BLUE.."A) 入口";
 			BLUE.."B) 通道";
 			BLUE.."C) 通道";
@@ -667,7 +667,7 @@ AtlasMaps = {
 			ZoneName = "熔火之心";
 			Acronym = "MC";
 			Location = "黑石深淵";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 海達希亞水元素";
 			ORNG.."鑰匙: 水之精萃/永恆精華 (首領)";
 			BLUE.."A) 入口";
@@ -942,7 +942,7 @@ AtlasMaps = {
 			ZoneName = "納克薩瑪斯";
 			Acronym = "Nax";
 			Location = "病木林, 東瘟疫之地";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 銀色黎明";
 			BLUE.."A) 入口";
 			BLUE..INDENT.."大法師塔希斯·克摩地爾";
@@ -976,14 +976,14 @@ AtlasMaps = {
 			ZoneName = "卡拉贊 - 開始";
 			Acronym = "Kara";
 			Location = "逆風小徑";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			ORNG.."鑰匙: 燻黑的骨灰甕 (夜禍)";
 			BLUE.."A) 前方入口";
 			BLUE.."B) 通往舞廳的樓梯間 (摩洛)";
 			BLUE.."C) 通往上層的樓梯";
-			BLUE.."D) 通往迎賓廳斜坡 (魔女)";
+			BLUE.."D) 通往迎賓廳斜坡 (貞潔聖女)";
 			BLUE.."E) 通往歌劇院樂團層的樓梯";
 			BLUE.."F) 夾層至包廂的斜坡";
 			BLUE.."G) 後方入口";
@@ -1029,7 +1029,7 @@ AtlasMaps = {
 			ZoneName = "卡拉贊 - 結束";
 			Acronym = "Kara";
 			Location = "逆風小徑";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			BLUE.."I) 通往損壞的階梯";
@@ -1165,11 +1165,11 @@ AtlasMaps = {
 			ORNG.."聲望: 塞納里奧遠征隊";
 			BLUE.."A) 入口";
 			GREY.."1) 不穩定者海卓司";
-			GREY.."2) 盲目者李奧薩拉斯";
-			GREY.."3) 深淵之王卡拉薩瑞斯";
-			GREY.."4) 莫洛葛利姆·潮行者";
+			GREY.."2) 海底潛伏者";
+			GREY.."3) 盲目者李奧薩拉斯";
+			GREY.."4) 深淵之王卡拉薩瑞斯";
 			GREY..INDENT.."先知歐蘭";
-			GREY.."5) 地底潛伏者";
+			GREY.."5) 莫洛葛利姆·潮行者";
 			GREY.."6) 瓦許女士";
 		};
 		AuchManaTombs = {
@@ -1187,7 +1187,7 @@ AtlasMaps = {
 			GREY.."4) 工程師薩希恩 ";
 			GREY..INDENT.."虛空傳送者控制面板";
 			GREY.."5) 奈薩斯王子薩法爾";
-			GREY..INDENT.."約兒 (靜止密室, 召喚, 英雄模式)";
+			GREY..INDENT.."約兒 (靜止密室, 召喚, 英雄)";
 		};
 		AuchAuchenaiCrypts = {
 			ZoneName = "奧齊頓: 奧奇奈地穴";
@@ -1310,11 +1310,11 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 - 開始";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."A) 入口";
-			BLUE.."B) 通往靈魂之匣";
+			BLUE.."B) 通往靈魂聖盒";
 			BLUE.."C) 通往泰朗·血魔";
 			BLUE.."D) 通往伊利丹·怒風";
 			GREY.."1) 歐蘭的靈魂";
@@ -1331,13 +1331,13 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 - 地下室";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."B) 入口";
 			BLUE.."C) 入口";
 			GREY.."6) 葛塔格·血沸";
-			GREY.."7) 淨化的靈魂";
+			GREY.."7) 靈魂聖盒";
 			GREY..INDENT.."憤怒精華";
 			GREY..INDENT.."慾望精華";
 			GREY..INDENT.."受難精華";
@@ -1347,17 +1347,17 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 (上層)";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成入口任務";
+			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
-			BLUE.."E) 入口";
-			GREY.."1) 薩拉茲女士";
-			GREY.."2) 伊利達瑞議事";
+			BLUE.."D) 入口";
+			GREY.."9) 薩拉茲女士";
+			GREY.."10) 伊利達瑞議事";
 			GREY..INDENT.."瑪蘭黛女士 (牧師)";
 			GREY..INDENT.."粉碎者高希歐 (聖騎士)";
 			GREY..INDENT.."高等虛空術師札瑞佛 (法師)";
 			GREY..INDENT.."維拉斯·深影 (盜賊)";
-			GREY.."3) 伊利丹·怒風";
+			GREY.."11) 伊利丹·怒風";
 		};
 		ZulAman = {
 			ZoneName = "祖阿曼";
@@ -1365,7 +1365,7 @@ AtlasMaps = {
 			Acronym = "ZA";
 			BLUE.."A) 入口";
 			GREY.."1) 納羅拉克 (熊)";
-			GREY.."2) Akil'zon (Eagle)";
+			GREY.."2) 阿奇爾森 (鷹)";
 			GREY.."3) 賈納雷 (龍鷹)";
 			GREY.."4) 哈拉齊 (山貓)";
 			GREY.."5) 妖術領主瑪拉克雷斯";

@@ -36,27 +36,27 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 
 	local myData = {
 		DLEast = {
-			ZoneName = "Dungeon Locations (East)";
+			ZoneName = "Dungeon Locations [A] (East)";
 			Location = "Eastern Kingdoms";
 			BLUE.."A) Alterac Valley, ".._RED.."Alterac / Hillsbrad";
 			BLUE.."B) Arathi Basin, ".._RED.."Arathi Highlands";
-			GREY.."1) Scarlet Monastery, ".._RED.."Tirisfal Glade";
-			GREY.."2) Stratholme, ".._RED.."Eastern Plaguelands";
+			GREY.."1) Zul'Aman, ".._RED.."Ghostlands";
+			GREY.."2) Scarlet Monastery, ".._RED.."Tirisfal Glade";
+			GREY.."3) Stratholme, ".._RED.."Eastern Plaguelands";
 			GREY..INDENT.."Naxxramas, ".._RED.."Plaguewood, E. Plaguelands";
-			GREY.."3) Scholomance, ".._RED.."Western Plaguelands";
-			GREY.."4) Shadowfang Keep, ".._RED.."Silverpine Forest";
-			GREY.."5) Gnomeregan, ".._RED.."Dun Morogh";
-			GREY.."6) Uldaman, ".._RED.."Badlands";
-			GREY.."7) Blackwing Lair, ".._RED.."Blackrock Spire";
+			GREY.."4) Scholomance, ".._RED.."Western Plaguelands";
+			GREY.."5) Shadowfang Keep, ".._RED.."Silverpine Forest";
+			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh";
+			GREY.."7) Uldaman, ".._RED.."Badlands";
+			GREY.."8) Blackwing Lair, ".._RED.."Blackrock Spire";
 			GREY..INDENT.."Blackrock Depths, ".._RED.."Blackrock Mountain";
 			GREY..INDENT.."Blackrock Spire, ".._RED.."Blackrock Mountain";
 			GREY..INDENT.."Molten Core, ".._RED.."Blackrock Depths";
-			GREY.."8) The Stockade, ".._RED.."Stormwind City";
-			GREY.."9) The Deadmines, ".._RED.."Westfall";
-			GREY.."10) Zul'Gurub, ".._RED.."Stranglethorn Vale";
-			GREY.."11) Karazhan, ".._RED.."Deadwind Pass";
-			GREY.."12) The Sunken Temple, ".._RED.."Swamp of Sorrows";
-			GREY.."13) Zul'Aman, ".._RED.."Ghostlands";
+			GREY.."9) The Stockade, ".._RED.."Stormwind City";
+			GREY.."10) The Deadmines, ".._RED.."Westfall";
+			GREY.."11) Zul'Gurub, ".._RED.."Stranglethorn Vale";
+			GREY.."12) Karazhan, ".._RED.."Deadwind Pass";
+			GREY.."13) The Sunken Temple, ".._RED.."Swamp of Sorrows";
 			"";
 			"";
 			"";
@@ -65,7 +65,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."White:"..ORNG.." Instances";
 		};
 		DLWest = {
-			ZoneName = "Dungeon Locations (West)";
+			ZoneName = "Dungeon Locations [B] (West)";
 			Location = "Kalimdor";
 			BLUE.."A) Warsong Gulch, ".._RED.."The Barrens / Ashenvale";
 			GREY.."1) Blackfathom Deeps, ".._RED.."Ashenvale";
@@ -94,7 +94,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."White:"..ORNG.." Instances";
 		};
 		DLOutland = {
-			ZoneName = "Dungeon Locations (Outland)";
+			ZoneName = "Dungeon Locations [C] (Outland)";
 			Location = "Outland";
 			GREY.."1) Gruul's Lair, ".._RED.."Blade's Edge Mountains";
 			GREY.."2) Tempest Keep, ".._RED.."Netherstorm";

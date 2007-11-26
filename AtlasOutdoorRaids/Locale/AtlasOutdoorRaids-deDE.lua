@@ -49,7 +49,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Traumsucher";
 			GREY.."3) Traumgeäst - Feralas";
 			GREY..INDENT.."Lethlas";
-			GREY..INDENT.."Traumbr�ller";
+			GREY..INDENT.."Traumbrüller";
 			GREY.."4) Schattengrün - Eschental";
 			GREY..INDENT.."Phantim";
 			GREY..INDENT.."Traumpirscher";

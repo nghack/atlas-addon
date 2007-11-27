@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 23/11/2007
+-- Última Actualización (last update): 27/11/2007
 
 --]]
 
@@ -1064,19 +1064,19 @@ AtlasMaps = {
 		ORNG.."Llave: Llave de las Salas Arrasadas";
 		ORNG.."Llave: Llave de Forjallamas (Heróico)";
 		BLUE.."A) Entranda";
-		GREY.."1) Randy Whizzlesprocket (Alianza)"; --FALTA
-		GREY..INDENT.."Soldado Jacint (Alianza)"; --Bien
-		GREY..INDENT.."Rifleman Brownbeard (Alianza)"; --FALTA
-		GREY..INDENT.."Capitán Alina (Alianza)"; --Bien
-		GREY..INDENT.."Drisella (Horda)"; --Bien
-		GREY..INDENT.."Explorador Orgarr (Horda)"; --Comprobar
-		GREY..INDENT.."Korag Proudmane (Horda)"; --FALTA
-		GREY..INDENT.."Capitán Huesodestrozado (Horda)"; --Comprobar
-		GREY.."2) Brujo supremo Malbisal"; --Bien
-		GREY.."3) Guardia de sangre Mano Destrozada (Solo Heróico)"; --Bien
+		GREY.."1) Randy Whizzlesprocket (Alianza, heróico)"; --FALTA
+		GREY..INDENT.."Drisella (Horda, heróico)"; --Bien
+		GREY.."2) Brujo supremo Malbisal (Horda, heróico)"; --Bien
+		GREY.."3) Guardia de sangre Mano Destrozada (Heróico)"; --Bien
 		GREY.."4) Belisario O'mrogg"; --Bien
 		GREY.."5) Jefe de Guerra Kargath Garrafilada"; --Bien
-		GREY..INDENT.."Ejecutor Mano Destrozada (Heróico)"; --Comprobar
+		GREY..INDENT.."Ejecutor Mano Destrozada (Heróico)"; --Bien
+		GREY..INDENT.."Soldado Jacint (Alianza, heróico)"; --Bien
+		GREY..INDENT.."Rifleman Brownbeard (Alianza, heróico)"; --FALTA
+		GREY..INDENT.."Capitán Alina (Alianza, heróico)"; --Bien
+		GREY..INDENT.."Explorador Orgarr (Horda, heróico)"; --Comprobar
+		GREY..INDENT.."Korag Proudmane (Horda, heróico)"; --FALTA
+		GREY..INDENT.."Capitán Huesodestrozado (Horda, heróico)"; --Comprobar
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI: Murallas del Fuego Infernal";

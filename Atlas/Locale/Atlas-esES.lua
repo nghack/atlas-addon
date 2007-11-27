@@ -974,7 +974,7 @@ AtlasMaps = {
 		BLUE.."F) Rampa desde Mezzanine al Balcón"; --Bien COMPROBAR	
 		BLUE.."G) Entrada trasera";	
 		BLUE.."H) Conexión con:";
-		BLUE..INDENT.."El Bancal del Maestro (Nocturno)"; --Bien		
+		BLUE..INDENT..INDENT.."El Bancal del Maestro (Nocturno)"; --Bien		
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR		
 		GREY.."1) Hastings <El Custodio>"; --Bien		
 		GREY.."2) Hyakiss el Rondador (Raro, Aleatorio)"; --Bien		
@@ -1021,13 +1021,13 @@ AtlasMaps = {
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR
 		BLUE.."J) Escaleras rotas"; --Bien COMPROBAR
 		BLUE.."K) Rampa a la Biblioteca del Guardián"; --Bien
-		BLUE..INDENT.."(Sombra de Aran)"; --Bien
+		BLUE..INDENT..INDENT.."(Sombra de Aran)"; --Bien
 		BLUE.."L) Publicaciones sospechosas"; --Bien COMPROBAR
-		BLUE..INDENT.."(Pasaje a Pezuña Enferma)"; --Bien
+		BLUE..INDENT..INDENT.."(Pasaje a Pezuña Enferma)"; --Bien
 		BLUE.."M) Subida a la Vista Celestial"; --Bien COMPROBAR
-		BLUE..INDENT.."(Rencor abisal)"; --Bien
+		BLUE..INDENT..INDENT.."(Rencor abisal)"; --Bien
 		BLUE..INDENT.."Bajada a la Sala de Juegos"; --Bien COMPROBAR
-		BLUE..INDENT.."(Evento del Ajedrez)"; --Bien
+		BLUE..INDENT..INDENT.."(Evento del Ajedrez)"; --Bien
 		BLUE.."N) Rampa a la Cámara de Medivh"; --Bien
 		BLUE.."O) Escaleras de caracol a Rencor Abisal (Príncipe)"; --Bien
 		GREY.."16) Curator"; --Bien
@@ -1303,7 +1303,8 @@ AtlasMaps = {
 		GREY.."4) Sombra de Akama"; --Bien
 		GREY.."5) Espíritu de Udalo"; --Bien
 		GREY..INDENT.."Aluyen (Vendedor de Componentes)"; --Bien
-		GREY..INDENT.."Okuno <Provisiones Juramorte Lengua de ceniza>"; --Bien
+		GREY..INDENT.."Okuno <Juramorte Lengua de ceniza"; --Bien
+		GREY..INDENT..INDENT.."Provisiones>"; --Bien
 		GREY..INDENT.."Profeta Kanai"; --Comprobar
 	};
 	BlackTempleBasement = {

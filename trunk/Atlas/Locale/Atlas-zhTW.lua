@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Nov. 26, 2007
+-- Last Update: Nov. 27, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -973,7 +973,7 @@ AtlasMaps = {
 			GREN..INDENT.."2) 科爾蘇加德";
 		};
 		KarazhanStart = {
-			ZoneName = "卡拉贊 - 開始";
+			ZoneName = "卡拉贊 - 1.開始";
 			Acronym = "Kara";
 			Location = "逆風小徑";
 			ORNG.."需完成傳送門/鑰匙前置任務";
@@ -1026,7 +1026,7 @@ AtlasMaps = {
 			GREY..INDENT.."夜禍 (召喚)";
 		};
 		KarazhanEnd = {
-			ZoneName = "卡拉贊 - 結束";
+			ZoneName = "卡拉贊 - 2.結束";
 			Acronym = "Kara";
 			Location = "逆風小徑";
 			ORNG.."需完成傳送門/鑰匙前置任務";
@@ -1039,7 +1039,7 @@ AtlasMaps = {
 			BLUE.."L) 神秘的書架";
 			BLUE..INDENT..INDENT.."(通往泰瑞斯提安·疫蹄)";
 			BLUE.."M) 通往天文觀測台的斜坡";
-			BLUE..INDENT..INDENT.."(尼德斯 )";
+			BLUE..INDENT..INDENT.."(尼德斯)";
 			BLUE..INDENT.."通往投機者大廳的斜坡";
 			BLUE..INDENT..INDENT.."(西洋棋事件)";
 			BLUE.."N) 通往麥迪文房間的斜坡";
@@ -1307,7 +1307,7 @@ AtlasMaps = {
 			GREY.."2) 弒龍者戈魯爾";
 		};
 		BlackTempleStart = {
-			ZoneName = "黑暗神廟 - 開始";
+			ZoneName = "黑暗神廟 - 1.開始";
 			Location = "影月谷";
 			Acronym = "BT";
 			ORNG.."需完成傳送門/鑰匙前置任務";
@@ -1328,7 +1328,7 @@ AtlasMaps = {
 			GREY..INDENT.."先知卡奈";
 		};
 		BlackTempleBasement = {
-			ZoneName = "黑暗神廟 - 地下室";
+			ZoneName = "黑暗神廟 - 2.地下室";
 			Location = "影月谷";
 			Acronym = "BT";
 			ORNG.."需完成傳送門/鑰匙前置任務";
@@ -1344,7 +1344,7 @@ AtlasMaps = {
 			GREY.."3) 泰朗·血魔";
 		};
 		BlackTempleTop = {
-			ZoneName = "黑暗神廟 (上層)";
+			ZoneName = "黑暗神廟 - 3.上層";
 			Location = "影月谷";
 			Acronym = "BT";
 			ORNG.."需完成傳送門/鑰匙前置任務";

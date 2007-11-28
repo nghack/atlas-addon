@@ -49,7 +49,7 @@ if ( GetLocale() == "esES" ) then
 		FPAllianceEast = {
 			ZoneName = "Alianza (Reinos del Este)";
 			Location = "Reinos del Este";
-			GREY.."1) Hatchet Hills, ".._RED.."Tierras Fantasma"; --FALTA	
+			GREY.."1) Colinas Hacha, ".._RED.."Tierras Fantasma"; --Bien	
 			GREY.."2) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
 			GREY.."3) Campamento del Orvallo, ".._RED.."Tierras de la Peste del Oeste"; --Bien
 			GREY.."4) Pico Nidal, ".._RED.."Tierras del Interior "; --Bien
@@ -102,7 +102,7 @@ if ( GetLocale() == "esES" ) then
 			Location = "Reinos del Este";
 			GREY.."1) Lunargenta, ".._RED.."Bosque Canción Eterna"; --Bien
 			GREY.."2) Tranquillien, ".._RED.."Tierras Fantasma"; --Bien		
-			GREY.."3) Hatchet Hills, ".._RED.."Tierras Fantasma";
+			GREY.."3) Colinas Hacha, ".._RED.."Tierras Fantasma";
 			GREY.."4) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
 			GREY.."5) Entrañas, ".._RED.."Claros de Trisfal"; --Bien
 			GREY.."6) El Sepulcro, ".._RED.."Bosque de Argenteos"; --Bien

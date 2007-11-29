@@ -61,6 +61,11 @@ v1.10.3
 - renumbered Serpentshrine Cavern map for accuracy (Nihlo)
 - fixed some indentation issues
 - this was a huge update, so one or two things might have been missed here
+- current French translation (Kiria)
+- current Spanish translation (maqjav)
+- current Simplified Chinese translation (DiabloHu)
+- current Traditional Chinese translation (arith)
+- current German translation (Telchar)
 
 v1.10.2
 - updated TOC number to 20200 for the 2.2 patch

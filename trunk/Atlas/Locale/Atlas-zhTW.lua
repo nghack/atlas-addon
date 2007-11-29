@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Nov. 27, 2007
+-- Last Update: Nov. 29, 2007
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -1323,8 +1323,8 @@ AtlasMaps = {
 			GREY.."4) 阿卡瑪的黑暗面";
 			GREY.."5) 烏達羅之靈";
 			GREY..INDENT.."阿魯焰 (卷軸商人)";
-			GREY..INDENT.."歐庫諾 (灰舌死亡誓言者)";
-			"";
+			GREY..INDENT.."歐庫諾";
+			GREY..INDENT..INDENT.."(灰舌死亡誓言者)";
 			GREY..INDENT.."先知卡奈";
 		};
 		BlackTempleBasement = {

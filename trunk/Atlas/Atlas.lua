@@ -218,7 +218,9 @@ function Atlas_PopulateDropdowns()
 			ATLAS_DROPDOWNS[i] = {};
 			
 			for kb,vb in pairs(va) do
-				table.insert(ATLAS_DROPDOWNS[i], kb);
+				if ( type(vb) == "table" ) then
+					table.insert(ATLAS_DROPDOWNS[i], kb);
+				end
 			end
 			
 			table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);

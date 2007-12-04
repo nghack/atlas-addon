@@ -2,6 +2,10 @@
 = Change Log =
 ==============
 
+v1.10.4
+- tiny code fix for AtlasMajorCities (preliminary)
+- tweaked the default position of the minimap button
+
 v1.10.3
 - the Atlas source is now hosted at Google Code
 - updated TOC number to 20300 for the 2.3 patch

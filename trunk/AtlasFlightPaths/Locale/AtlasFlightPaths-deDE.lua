@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -205,6 +205,6 @@ if ( GetLocale() == "deDE" ) then
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasFlightPaths", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_FlightPaths", myCategory, myData);
 
 end

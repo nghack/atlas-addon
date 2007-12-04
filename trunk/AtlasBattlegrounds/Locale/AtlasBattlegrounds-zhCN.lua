@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2006 Dan Gilbert
@@ -142,6 +142,6 @@ if ( GetLocale() == "zhCN" ) then
 	myData.WarsongGulch.PlayerLimit =			"10";
 	myData.EyeOfTheStorm.PlayerLimit =			"15";
 
-	Atlas_RegisterPlugin("AtlasBattlegrounds", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
 
 end

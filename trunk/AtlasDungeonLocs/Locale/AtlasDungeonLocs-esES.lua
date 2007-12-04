@@ -131,6 +131,6 @@ if ( GetLocale() == "esES" ) then
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasDungeonLocs", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);
 
 end

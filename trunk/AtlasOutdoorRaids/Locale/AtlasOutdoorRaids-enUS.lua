@@ -94,6 +94,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =			"40";
 
-	Atlas_RegisterPlugin("AtlasOutdoorRaids", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 
 end

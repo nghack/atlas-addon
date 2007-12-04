@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -281,6 +281,6 @@ if ( GetLocale() ==	"zhTW" ) then
 	myData.SMEnt.LevelRange =				"29-45";
 	myData.SMEnt.PlayerLimit =				"10";
 
-	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_Entrances", myCategory, myData);
 
 end

@@ -140,6 +140,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.WarsongGulch.PlayerLimit =			"10";
 	myData.EyeOfTheStorm.PlayerLimit =			"15";
 
-	Atlas_RegisterPlugin("AtlasBattlegrounds", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
 
 end

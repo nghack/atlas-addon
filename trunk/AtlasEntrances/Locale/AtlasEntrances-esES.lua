@@ -283,6 +283,6 @@ if ( GetLocale() == "esES" ) then
 	myData.SMEnt.LevelRange =				    "29-45";
 	myData.SMEnt.PlayerLimit =				    "10";
 	
-	Atlas_RegisterPlugin("AtlasEntrances", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_Entrances", myCategory, myData);
 
 end

@@ -5,6 +5,7 @@
 v1.10.4
 - tiny code fix for AtlasMajorCities (preliminary)
 - tweaked the default position of the minimap button
+- renamed the five default Atlas plugins for a cleaner AddOns directory
 
 v1.10.3
 - the Atlas source is now hosted at Google Code

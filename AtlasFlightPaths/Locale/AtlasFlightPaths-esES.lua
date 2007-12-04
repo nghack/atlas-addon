@@ -197,6 +197,6 @@ if ( GetLocale() == "esES" ) then
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasFlightPaths", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_FlightPaths", myCategory, myData);
 
 end

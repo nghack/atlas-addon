@@ -121,6 +121,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasDungeonLocs", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);
 
 end

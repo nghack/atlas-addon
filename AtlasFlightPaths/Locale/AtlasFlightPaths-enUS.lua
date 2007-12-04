@@ -186,6 +186,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasFlightPaths", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_FlightPaths", myCategory, myData);
 
 end

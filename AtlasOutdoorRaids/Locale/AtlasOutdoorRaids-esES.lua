@@ -104,6 +104,6 @@ if ( GetLocale() == "esES" ) then
 	myData.HighlordKruul.PlayerLimit =		"40";
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =		"40";
-	Atlas_RegisterPlugin("AtlasOutdoorRaids", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 
 end

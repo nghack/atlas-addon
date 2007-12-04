@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -96,6 +96,6 @@ if ( GetLocale() ==	"zhTW" ) then
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =			"40";
 
-	Atlas_RegisterPlugin("AtlasOutdoorRaids", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 
 end

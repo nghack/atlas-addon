@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2007 Dan Gilbert
@@ -123,6 +123,6 @@ if ( GetLocale() ==	"zhTW" ) then
 		};
 	};
 
-	Atlas_RegisterPlugin("AtlasDungeonLocs", myCategory, myData);
+	Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);
 
 end

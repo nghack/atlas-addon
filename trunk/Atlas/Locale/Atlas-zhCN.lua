@@ -150,8 +150,8 @@ AtlasMaps = {
 		GREY.."8) 梦游者克尔里斯";
 		GREY.."9) 瑟拉吉斯";
 		GREY.."10) 阿库迈尔";
-		GREY..INDENT.."莫瑞杜恩";
-		GREY..INDENT.."玛塞斯特拉祭坛";
+		GREY..INDENT.." 莫瑞杜恩";
+		GREY..INDENT.." 玛塞斯特拉祭坛";
 	};
 	RazorfenKraul = {
 		ZoneName = "剃刀沼泽";
@@ -557,12 +557,12 @@ AtlasMaps = {
 		GREY..INDENT.."第六块摩沙鲁石板";
 		GREY.."10) 比修的装置";
 		GREY.."11) 人类遗骸 (下层)";
-		GREY..INDENT.."未淬火的板甲护手 (下层)";
+		GREY..INDENT.." 未淬火的板甲护手 (下层)";
 		GREY.."12) 班诺克·巨斧 (稀有)";
 		GREY.."13) 烟网蛛后";
 		GREY.."14) 水晶之牙 (稀有)";
 		GREY.."15) 乌洛克的贡品堆";
-		GREY..INDENT.."乌洛克 (召唤)";
+		GREY..INDENT.." 乌洛克 (召唤)";
 		GREY.."16) 军需官兹格雷斯";
 		GREY.."17) 哈雷肯";
 		GREY..INDENT.." 奴役者基兹鲁尔";
@@ -994,11 +994,11 @@ AtlasMaps = {
 		GREY.."12) 塞巴斯蒂安 <风琴手>";
 		GREY.."13) 巴内斯 <舞台管理员>";
 		GREY.."14) 歌剧院事件";
-		GREY..INDENT.."小红帽 (随机)";
-		GREY..INDENT.."绿叶仙踪 (随机)";
-		GREY..INDENT.."罗密欧与朱丽叶 (随机)";
+		GREY..INDENT.." 小红帽 (随机)";
+		GREY..INDENT.." 绿野仙踪 (随机)";
+		GREY..INDENT.." 罗密欧与朱丽叶 (随机)";
 		GREY.."15) 主宰的露台";
-		GREY..INDENT.."夜之魇 (召唤)";
+		GREY..INDENT.." 夜之魇 (召唤)";
 	};
 	KarazhanEnd = {
 		ZoneName = "卡拉赞 [B] (后半)";
@@ -1024,7 +1024,7 @@ AtlasMaps = {
 		GREY.."18) 格拉达夫 <术士>";
 		GREY.."19) 卡姆希丝 <咒术师>";
 		GREY.."20) 特雷斯坦·邪蹄";
-		GREY..INDENT.."基尔里克 (小鬼)";
+		GREY..INDENT.." 基尔里克 (小鬼)";
 		GREY.."21) 埃兰之影";
 		GREY.."22) 虚空幽龙";
 		GREY.."23) 伊萨尔 (修理, 出售商品)";
@@ -1328,10 +1328,10 @@ AtlasMaps = {
 		BLUE.."D) 入口";
 		GREY.."9) 莎赫拉丝主母";
 		GREY.."10) 伊利达雷议会";
-		GREY..INDENT.."女公爵玛兰德 (牧师)";
-		GREY..INDENT.."击碎者加西奥斯 (圣骑士)";
-		GREY..INDENT.."高阶灵术师塞勒沃尔 (法师)";
-		GREY..INDENT.."薇尔莱丝·深影 (潜行者)";
+		GREY..INDENT.." 女公爵玛兰德 (牧师)";
+		GREY..INDENT.." 击碎者加西奥斯 (圣骑士)";
+		GREY..INDENT.." 高阶灵术师塞勒沃尔 (法师)";
+		GREY..INDENT.." 薇尔莱丝·深影 (潜行者)";
 		GREY.."11) 伊利丹·怒风";
 	};
 	ZulAman = {

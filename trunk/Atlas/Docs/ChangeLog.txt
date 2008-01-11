@@ -3,9 +3,18 @@
 ==============
 
 v1.10.4
-- tiny code fix for AtlasMajorCities (preliminary)
-- tweaked the default position of the minimap button
+- tiny code fix for AtlasMajorCities (preliminary) (Andy)
+- tweaked the default position of the minimap button (Telchar)
 - renamed the five default Atlas plugins for a cleaner AddOns directory
+- changed Horde Base to Horde Encampment and Night Elf Base to Night Elf Village in Hyjal (Telchar)
+- changed Blacksmith Plans to Blacksmithing Plans 3 times in BRD (Telchar)
+- added acronyms to Gnomeregan, Stockade and Magtheridon' Lair (Telchar)
+- changed Mailbox Keys to Postbox Keys in Stratholme (Telchar)
+- added Zaelot to the names of Zath and Lor'Khan in ZG (Telchar)
+- changed Necro Wing to Plague Wing in Naxxramas (Telchar)
+- removed 'Prince' from Kael'Thas Sunstriders name (Telchar)
+- fixed some typos
+
 
 v1.10.3
 - the Atlas source is now hosted at Google Code

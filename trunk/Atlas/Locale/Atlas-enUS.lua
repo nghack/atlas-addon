@@ -388,7 +388,7 @@ AtlasMaps = {
 		BLUE.."A) Entrance";
 		BLUE..INDENT.."Sa'at";
 		ORNG.."X) Portal (Spawn Point)";
-		ORNG..INDENT.."Wave 6: Chrono Lord Deja ";
+		ORNG..INDENT.."Wave 6: Chrono Lord Deja";
 		ORNG..INDENT.."Wave 12: Temporus";
 		ORNG..INDENT.."Wave 18: Aeonus";
 		GREY.."1) The Dark Portal";
@@ -398,14 +398,14 @@ AtlasMaps = {
 		ZoneName = "CoT: Hyjal Summit";
 		Location = "Caverns of Time, Tanaris";
 		Acronym = "CoT3";
-		PURP.."Event: The Battle for Mount Hyjal";
+		PURP.."Event: Battle for Mount Hyjal";
 		ORNG.."Attunement Required";
 		ORNG.."Rep: The Scale of the Sands";
 		BLUE.."A) Alliance Base";
 		BLUE..INDENT.."Lady Jaina Proudmoore";
-		BLUE.."B) Horde Base";
+		BLUE.."B) Horde Encampment";
 		BLUE..INDENT.."Thrall";
-		BLUE.."C) Night Elf Base";
+		BLUE.."C) Night Elf Village";
 		BLUE..INDENT.."Tyrande Whisperwind";
 		GREY.."1) Rage Winterchill";
 		GREY.."2) Anetheron";
@@ -516,7 +516,7 @@ AtlasMaps = {
 		GREY..INDENT.."Houndmaster Grebmar (Lower)";
 		GREY..INDENT.."Elder Morndeep (Lunar)";
 		GREY..INDENT.."High Justice Grimstone";
-		GREY.."7) Mon. of Franclorn Forgewright";
+		GREY.."7) Monument of Franclorn Forgewright";
 		GREY..INDENT.."Pyromancer Loregrain";
 		GREY.."8) The Vault";
 		GREY..INDENT.."Warder Stilgiss";
@@ -530,7 +530,7 @@ AtlasMaps = {
 		GREY.."13) General Angerforge";
 		GREY.."14) Golem Lord Argelmach";
 		GREY..INDENT.."Field Repair Bot 74A";
-		GREY..INDENT.."Blacksmith Plans";
+		GREY..INDENT.."Blacksmithing Plans";
 		GREY.."15) The Grim Guzzler";
 		GREY..INDENT.."Hurley Blackbreath";
 		GREY..INDENT.."Lokhtos Darkbargainer";
@@ -542,7 +542,7 @@ AtlasMaps = {
 		GREY..INDENT.."Coren Direbrew (Brewfest)";
 		GREY.."16) Ambassador Flamelash";
 		GREY.."17) Panzor the Invincible (Rare)";
-		GREY..INDENT.."Blacksmith Plans";
+		GREY..INDENT.."Blacksmithing Plans";
 		GREY.."18) Summoner's Tomb";
 		GREY.."19) The Lyceum";
 		GREY.."20) Magmus";
@@ -553,7 +553,7 @@ AtlasMaps = {
 		GREY.."23) Molten Core";
 		GREY..INDENT.."Core Fragment";
 		GREY.."24) Overmaster Pyron";
-		GREY.."25) Blacksmith Plans";
+		GREY.."25) Blacksmithing Plans";
 	};
 	BlackrockSpireLower = {
 		ZoneName = "Blackrock Spire (Lower)";
@@ -638,6 +638,7 @@ AtlasMaps = {
 	};
 	Gnomeregan = {
 		ZoneName = "Gnomeregan";
+		Acronym = "Gnome";
 		Location = "Dun Morogh";
 		ORNG.."Key: Workshop Key (Back Door)";
 		BLUE.."A) Entrance (Front Door)";
@@ -784,7 +785,7 @@ AtlasMaps = {
 		ORNG.."Rep: The Argent Dawn";
 		ORNG.."Key: The Scarlet Key (Scarlet Side)";
 		ORNG.."Key: Key to the City (Undead Side)";
-		ORNG.."Key: Mailbox Keys (Postmaster)";
+		ORNG.."Key: Postbox Keys (Postmaster)";
 		ORNG.."Key: Brazier of Invocation (DS2)";
 		BLUE.."A) Entrance (Front)";
 		BLUE.."B) Entrance (Side)";
@@ -844,6 +845,7 @@ AtlasMaps = {
 	};
 	TheStockade = {
 		ZoneName = "The Stockade";
+		Acronym = "Stocks";
 		Location = "Stormwind City";
 		BLUE.."A) Entrance";
 		GREY.."1) Targorr the Dread (Varies)";
@@ -928,8 +930,8 @@ AtlasMaps = {
 		GREY..INDENT.."Wushoolay (Random)";
 		GREY.."7) Gahz'ranka (Optional, Summon)";
 		GREY.."8) High Priest Thekal (Tiger)";
-		GREY..INDENT.."Zath";
-		GREY..INDENT.."Lor'Khan";
+		GREY..INDENT.."Zealot Zath";
+		GREY..INDENT.."Zealot Lor'Khan";
 		GREY.."9) High Priestess Arlokk (Panther)";
 		GREY.."10) Jin'do the Hexxer (Undead, Optional)";
 		GREY.."11) Hakkar";
@@ -961,7 +963,7 @@ AtlasMaps = {
 		_RED..INDENT..INDENT.."Lady Blaumeux";
 		_RED..INDENT..INDENT.."Highlord Mograine";
 		_RED..INDENT..INDENT.."Sir Zeliek";
-		PURP.."Necro Wing";
+		PURP.."Plague Wing";
 		PURP..INDENT.."1) Noth the Plaguebringer";
 		PURP..INDENT.."2) Heigan the Unclean";
 		PURP..INDENT.."3) Loatheb";
@@ -1106,6 +1108,7 @@ AtlasMaps = {
 	HCMagtheridonsLair = {
 		ZoneName = "HFC: Magtheridon's Lair";
 		Location = "Hellfire Citadel, HF Peninsula";
+		Acronym = "Mag";
 		ORNG.."Rep: Thrallmar (Horde)";
 		ORNG.."Rep: Honor Hold (Alliance)";
 		BLUE.."A) Entrance";
@@ -1285,7 +1288,7 @@ AtlasMaps = {
 		GREY.."1) Al'ar";
 		GREY.."2) Void Reaver";
 		GREY.."3) High Astromancer Solarian";
-		GREY.."4) Prince Kael'Thas Sunstrider";
+		GREY.."4) Kael'Thas Sunstrider";
 		GREY..INDENT.."Thaladred the Darkener (Warrior)";
 		GREY..INDENT.."Master Engineer Telonicus (Hunter)";
 		GREY..INDENT.."Grand Astromancer Capernian (Mage)";

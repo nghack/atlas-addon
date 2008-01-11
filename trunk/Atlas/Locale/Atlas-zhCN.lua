@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/25/2007
+-- Last Update : 1/12/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -381,9 +381,9 @@ AtlasMaps = {
 		ORNG.."阵营：流沙之鳞";
 		BLUE.."A) 联盟基地";
 		BLUE..INDENT.."吉安娜·普罗德摩尔";
-		BLUE.."B) 部落基地";
+		BLUE.."B) 部落营地";
 		BLUE..INDENT.."萨尔";
-		BLUE.."C) 暗夜精灵基地";
+		BLUE.."C) 暗夜精灵村庄";
 		BLUE..INDENT.."泰兰德·语风";
 		GREY.."1) 雷基·冬寒";
 		GREY.."2) 安纳塞隆";
@@ -616,6 +616,7 @@ AtlasMaps = {
 	};
 	Gnomeregan = {
 		ZoneName = "诺莫瑞根";
+		Acronym = "Gnome";
 		Location = "丹莫罗";
 		ORNG.."钥匙：车间钥匙 (后门)";
 		BLUE.."A) 入口 (正门)";
@@ -822,6 +823,7 @@ AtlasMaps = {
 	};
 	TheStockade = {
 		ZoneName = "监狱";
+		Acronym = "Stocks";
 		Location = "暴风城";
 		BLUE.."A) 入口";
 		GREY.."1) 可怕的塔格尔 (多个位置)";
@@ -1084,6 +1086,7 @@ AtlasMaps = {
 	HCMagtheridonsLair = {
 		ZoneName = "地狱火堡垒 - 玛瑟里顿的巢穴";
 		Location = "地狱火半岛";
+		Acronym = "Mag";
 		ORNG.."阵营：萨尔玛 (部落)";
 		ORNG.."阵营：荣耀堡 (联盟)";
 		BLUE.."A) 入口";

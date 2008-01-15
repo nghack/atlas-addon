@@ -58,16 +58,16 @@ ATLAS_STRING_SEARCH = "Buscar";
 ATLAS_STRING_CLEAR = "Limpiar";
 
 ATLAS_OPTIONS_TITLE = "Opciones de Atlas";
-ATLAS_OPTIONS_SHOWBUT = "Mostrar botón en el Minimapa";
+ATLAS_OPTIONS_SHOWBUT = "Mostrar botón en el minimapa";
 ATLAS_OPTIONS_AUTOSEL = "Auto-Seleccionar mazmorra";
-ATLAS_OPTIONS_BUTPOS = "Posición del Icono";
+ATLAS_OPTIONS_BUTPOS = "Posición del icono";
 ATLAS_OPTIONS_TRANS = "Transparencia";
 ATLAS_OPTIONS_DONE = "Hecho";
-ATLAS_OPTIONS_REPMAP = "Reemplazar World Map";
-ATLAS_OPTIONS_RCLICK = "Botón derecho para World Map";
+ATLAS_OPTIONS_REPMAP = "Reemplazar mapa del mundo";
+ATLAS_OPTIONS_RCLICK = "Botón derecho para mapa del mundo";
 ATLAS_OPTIONS_SHOWMAPNAME = "Mostrar nombre del mapa";
-ATLAS_OPTIONS_RESETPOS = "Resetear Posición";
-ATLAS_OPTIONS_ACRONYMS = "Mostrar Acrónimos";
+ATLAS_OPTIONS_RESETPOS = "Resetear posición";
+ATLAS_OPTIONS_ACRONYMS = "Mostrar acrónimos";
 ATLAS_OPTIONS_SCALE = "Escala";
 ATLAS_OPTIONS_BUTRAD = "Radio del botón";
 ATLAS_OPTIONS_CLAMPED = "Ajustar ventana a la pantalla"
@@ -385,7 +385,7 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		BLUE..INDENT.."Sa'at"; --Bien
 		ORNG.."X) Portal (Puntos de Aparición)"; --Bien
-		ORNG..INDENT.."Oleada 6: Chronolord Deja "; --Bien
+		ORNG..INDENT.."Oleada 6: Chronolord Deja"; --Bien
 		ORNG..INDENT.."Oleada 12: Temporus"; --Bien
 		ORNG..INDENT.."Oleada 18: Aeonus"; --Bien
 		GREY.."1) El Portal Oscuro"; --Bien
@@ -395,14 +395,14 @@ AtlasMaps = {
 		ZoneName = "CdT: El Monte Hyjal"; --Bien
 		Location = "Cavernas del Tiempo, Tanaris"; --Bien
 		Acronym = "MH, CdT3";
-		PURP.."Evento: La batalla por el Monte Hyjal";
+		PURP.."Evento: Batalla por el Monte Hyjal";
 		ORNG.."Armonizació Requerida"; --Bien
 		ORNG.."Reputación: La Escama de las Arenas";
 		BLUE.."A) Base de la Alianza"; --Bien
 		BLUE..INDENT.."Lady Jaina Valiente"; --Bien
-		BLUE.."B) Base de la Horda"; --Bien
+		BLUE.."B) Campamento de la Horda"; --Bien
 		BLUE..INDENT.."Thrall"; --Bien
-		BLUE.."C) Base de los Elfos de la Noche"; --Bien
+		BLUE.."C) Pueblo de los Elfos de la Noche"; --Bien
 		BLUE..INDENT.."Tyrande Susurravientos"; --Bien
 		GREY.."1) Ira Fríoinvierno"; --Bien
 		GREY.."2) Anetheron"; --Bien
@@ -511,7 +511,7 @@ AtlasMaps = {
 		GREY..INDENT.."Maestro de canes Grebmar (Abajo)"; --Bien
 		GREY..INDENT.."Ancestro Alborhondo (Festival Lunar)"; --Bien
 		GREY..INDENT.."Alto Justiciero Pedrasiniestra"; --Bien
-		GREY.."7) Espiritú de Franclorn Forjador"; --Bien
+		GREY.."7) Monumento a Franclorn Forjador"; --Bien
 		GREY..INDENT.."Piromántico Cultugrano"; --Bien
 		GREY.."8) Cámara Negra"; --Bien
 		GREY..INDENT.."Guarda Stilgiss"; --Bien
@@ -950,7 +950,7 @@ AtlasMaps = {
 		_RED..INDENT..INDENT.."Lady Blaumeux"; --Bien
 		_RED..INDENT..INDENT.."Alto Señor Mograine"; --Bien
 		_RED..INDENT..INDENT.."Sir Zeliek"; --Bien
-		PURP.."Ala de la Plaga"; --No visto (comprobar)
+		PURP.."Ala de la Plaga"; --Bien
 		PURP..INDENT.."1) Noth el Pesteador"; --Bien
 		PURP..INDENT.."2) Heigan el Impuro"; --Bien
 		PURP..INDENT.."3) Loatheb"; --Bien

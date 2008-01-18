@@ -401,9 +401,9 @@ AtlasMaps = {
 		ORNG.."Réput : La Balance des sables";
 		BLUE.."A) Base de l'Alliance";
 		BLUE..INDENT.."Dame Jaina Portvaillant";
-		BLUE.."B) Base de la Horde";
+		BLUE.."B) Campement de la Horde";
 		BLUE..INDENT.."Thrall";
-		BLUE.."C) Base des Elfes de la Nuit";
+		BLUE.."C) Village des Elfes de la Nuit";
 		BLUE..INDENT.."Tyrande Murmevent";
 		GREY.."1) Rage Froidhiver";
 		GREY.."2) Anetheron";
@@ -414,7 +414,7 @@ AtlasMaps = {
 		GREY..INDENT.."Tydormu";
 	};
 	CoTOldHillsbrad = {
-		ZoneName = "GdT : Les Contreforts d'Hautebrande d'antan";
+		ZoneName = "GdT : Contreforts d'Hautebrande d'antan";
 		Location = "Grottes du Temps, Tanaris";
 		Acronym = "Durn, GdT1";
 		ORNG.."Harmonisation requise";

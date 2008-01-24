@@ -13,8 +13,13 @@ v1.10.4
 - added Zaelot to the names of Zath and Lor'Khan in ZG (Telchar)
 - changed Necro Wing to Plague Wing in Naxxramas (Telchar)
 - removed 'Prince' from Kael'Thas Sunstriders name (Telchar)
+- many changes to the Zul'Aman map (Celellach)
+- many changes to the Blackwing Lair map (Nihlo)
+- many changes to the Shadowfang Keep map (Celellach)
+- added Razorfen Spearhide to Razorfen Kraul (Celellach)
+- new map in outdoor raids: Skettis (Celellach, Nifl)
+- revamped Alterac Valley North map (Celellach)
 - fixed some typos
-
 
 v1.10.3
 - the Atlas source is now hosted at Google Code

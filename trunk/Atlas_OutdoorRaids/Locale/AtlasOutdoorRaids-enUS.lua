@@ -80,6 +80,31 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			Location = "Shadowmoon Valley";
 			GREY.."1) Doomwalker";
 		};
+		Skettis = {
+			ZoneName = "Skettis";
+			Location = "Blackwind Valley, Terokkar Forest";
+			GREY.."1) Blackwind Landing";
+			GREY..INDENT.."Sky Commander Adaris";
+			GREY..INDENT.."Sky Sergeant Doryn";
+			GREY..INDENT.."Skyguard Handler Deesak";
+			GREY..INDENT.."Severin";
+			GREY..INDENT.."Grella";
+			GREY..INDENT.."Hazzik";
+			GREY.."2)Ancient Skull Pile";
+			GREY..INDENT.."Terokk (Summon)";
+			GREY.."3) Sahaak";
+			GREY.."4) Skyguard Prisoner (Random)";
+			GREY.."5) Talonpriest Ishaal";
+			GREY.."6) Talonpriest Skizzik";
+			GREY.."7) Talonpriest Zellek";
+			GREY.."8) Hazzik's Package";
+			GREY.."9) Graveyard";
+			GREN.."1') Skull Pile";
+			GREN..INDENT.."Darkscreecher Akkarai (Summon)";
+			GREN..INDENT.."Gezzarak the Huntress (Summon)";
+			GREN..INDENT.."Karrog (Summon)";
+			GREN..INDENT.."Vakkiz the Windrager (Summon)";
+		};
 	};
 
 	myData.Azuregos.LevelRange =			"60+";
@@ -87,12 +112,14 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	myData.HighlordKruul.LevelRange =		"60+";
 	myData.DoomLordKazzak.LevelRange =		"70+";
 	myData.Doomwalker.LevelRange =			"70+";
+	myData.Skettis.LevelRange =				"70+";
 	
 	myData.Azuregos.PlayerLimit =			"40";
 	myData.FourDragons.PlayerLimit =		"40";
 	myData.HighlordKruul.PlayerLimit =		"40";
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =			"40";
+	myData.Skettis.PlayerLimit =			"40";
 
 	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 

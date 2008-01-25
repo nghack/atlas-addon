@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005, 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -54,14 +54,14 @@ if ( GetLocale() == "esES" ) then
 		FourDragons = {
 			ZoneName = "Dragones de la Pesadilla"; --Bien
 			Location = "Varios"; --Bien 
-			GREY.."1) Arboleda del Crepúsculo - Bosque del Ocaso"; --Bien
-			GREY.."2) Seradane - Tierras del Interior"; --Bien
+			GREY.."1) Arboleda del Crepúsculo, ".._RED.."Bosque del Ocaso"; --Bien
+			GREY.."2) Seradane, ".._RED.."Tierras del Interior"; --Bien
 			GREY..INDENT.."Rothos"; --Bien
 			GREY..INDENT.."Rastreasueños"; --Bien
-			GREY.."3) Rama Oniria - Feralas"; --Bien
+			GREY.."3) Rama Oniria, ".._RED.."Feralas"; --Bien
 			GREY..INDENT.."Lethlas"; --Bien
 			GREY..INDENT.."Bramasueños"; --Bien
-			GREY.."4) Talloumbrío - Vallefresno"; --Bien
+			GREY.."4) Talloumbrío, ".._RED.."Vallefresno"; --Bien
 			GREY..INDENT.."Fantím"; --Bien
 			GREY..INDENT.."Acechasueños"; --Bien
 			"";
@@ -91,19 +91,47 @@ if ( GetLocale() == "esES" ) then
 			Location = "Valle Sombraluna"; --Bien
 			GREY.."1) Caminante del Destino"; --Bien
 		};
+		Skettis = {
+			ZoneName = "Skettis";
+			Location = "Valle Vientonegro, Bosque de Terokkar"; --Comprobar
+			GREY.."1) Blackwind Landing"; --FALTA
+			GREY..INDENT.."Comandante del cielo Adaris"; --Bien
+			GREY..INDENT.."Sargento del cielo Doryn"; --Bien
+			GREY..INDENT.."Cuidador de la Guardia del cielo Deesak"; --Bien
+			GREY..INDENT.."Severin"; --Bien
+			GREY..INDENT.."Grella"; --Bien
+			GREY..INDENT.."Hazzik"; --Bien
+			GREY.."2) Ancient Skull Pile"; --FALTA
+			GREY..INDENT.."Terokk (Invocar)"; --Bien
+			GREY.."3) Sahaak"; --Bien
+			GREY.."4) Prisionero de la Guardia del cielo (Aleatorio)"; --Bien
+			GREY.."5) Sacerdote de la garra Ishaal"; --Bien
+			GREY.."6) Sacerdote de la garra Skizzik"; --Bien
+			GREY.."7) Sacerdote de la garra Zellek"; --Bien
+			GREY.."8) Paquete de Hazzik"; --Bien
+			GREY.."9) Cementerio"; --Bien
+			GREN.."1') Skull Pile"; --FALTA
+			GREN..INDENT.."Estridador oscuro Akkarai (Invocar)"; --Bien
+			GREN..INDENT.."Gezzarak la Cazadora (Invocar)"; --Bien
+			GREN..INDENT.."Karrog (Invocar)"; --Bien
+			GREN..INDENT.."Vakkiz el Furibundo del Viento (Invocar)"; --Bien
+		};
 	};
 
 	myData.Azuregos.LevelRange =			"60+";
-	myData.FourDragons.LevelRange =		"60+";
+	myData.FourDragons.LevelRange =			"60+";
 	myData.HighlordKruul.LevelRange =		"60+";
 	myData.DoomLordKazzak.LevelRange =		"70+";
-	myData.Doomwalker.LevelRange =		"70+";
+	myData.Doomwalker.LevelRange =			"70+";
+	myData.Skettis.LevelRange =				"70+";
 	
 	myData.Azuregos.PlayerLimit =			"40";
 	myData.FourDragons.PlayerLimit =		"40";
 	myData.HighlordKruul.PlayerLimit =		"40";
 	myData.DoomLordKazzak.PlayerLimit =		"40";
-	myData.Doomwalker.PlayerLimit =		"40";
+	myData.Doomwalker.PlayerLimit =			"40";
+	myData.Skettis.PlayerLimit =			"40";
+	
 	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 
 end

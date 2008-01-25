@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005, 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -72,9 +72,8 @@ if ( GetLocale() == "esES" ) then
 			ZoneName = "Alianza (Kalimdor)";
 			Location = "Kalimdor";
 			GREY.."1) Aldea Rut'Theran, ".._RED.."Teldrassil"; --Bien
-			GREY.."2) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"; --Bien
-			GREY.."3) Sur del camino a Lago Elune'ara";
-			_RED..INDENT.."Claro de la Luna"; --Bien		
+			GREY.."2) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"..GREN.."(Solo druidas)"; --Bien
+			GREY.."3) Sur del camino a Lago Elune'ara, ".._RED.."Claro de la Luna";
 			GREY.."4) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
 			GREY.."5) Auberdine, ".._RED.."Costa Oscura"; --Bien
 			GREY.."6) Claro Ramaespolón, ".._RED.."Frondavil"; --Bien
@@ -94,8 +93,6 @@ if ( GetLocale() == "esES" ) then
 			GREY.."20) Gadgetzan, ".._RED.."Desierto de Tanaris"; --Bien
 			GREY.."21) Avanzada de Sangre, ".._RED.."Isla Bruma de Sangre"; --Bien
 			GREY.."22) Exodar, ".._RED.."Isla Bruma Azur"; --Bien
-			"";
-			GREN.."Verde: Solo Druidas";
 			};
 		FPHordeEast = {
 			ZoneName = "Horda (Reinos del Este)";
@@ -119,9 +116,8 @@ if ( GetLocale() == "esES" ) then
 		FPHordeWest = {
 			ZoneName = "Horda (Kalimdor)";
 			Location = "Kalimdor";
-			GREY.."1) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"; --Bien
-			GREY.."2) Oeste del camino al Puesto Vigóa del Cubil"; --Bien
-			_RED..INDENT.."Claro de la Luna"; --Bien		
+			GREY.."1) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"..GREN.."(Solo druidas)"; --Bien
+			GREY.."2) Oeste del camino al Puesto Vigóa del Cubil, ".._RED.."Claro de la Luna"; --Bien
 			GREY.."3) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
 			GREY.."4) Puesto del Veneno, ".._RED.."Frondavil"; --Bien
 			GREY.."5) Santuario Esmeralda, ".._RED.."Frondavil"; --Bien
@@ -142,8 +138,6 @@ if ( GetLocale() == "esES" ) then
 			GREY.."20) Refugio de Marshall, ".._RED.."Crater de Un'Goro"; --Bien
 			GREY.."21) Fuente de Cenarion, ".._RED.."Silithus"; --Bien
 			GREY.."22) Gadgetzan, ".._RED.."Desierto de Tanaris"; --Bien
-			"";
-			GREN.."Verde: Solo Druidas";
 		};
 		FPHordeOutland = { 
 			ZoneName = "Horda (Terrallende)";
@@ -168,7 +162,7 @@ if ( GetLocale() == "esES" ) then
 			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
 			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
 			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
-			GREN..INDENT.."(Honorado con Guardia del cielo Sha'tari)"; --Bien
+			GREN..INDENT.."(Requiere honorado con Guardia del cielo Sha'tari)"; --Bien
 		};
 		FPAllianceOutland = { 
 			ZoneName = "Alianza (Terrallende)";
@@ -193,7 +187,7 @@ if ( GetLocale() == "esES" ) then
 			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
 			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
 			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
-			GREN..INDENT.."(Honorado con Guardia del cielo Sha'tari)"; --Bien
+			GREN..INDENT.."(Requiere honorado con Guardia del cielo Sha'tari)"; --Bien
 		};
 	};
 

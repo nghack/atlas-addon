@@ -48,7 +48,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			BLUE..INDENT.."Icewing Marshal (Alliance)";
 			BLUE..INDENT.."Stonehearth Marshal (Alliance)";
 			BLUE..INDENT.."Prospector Stonehewer (Alliance)";
-			GREY.."1) Irondeep Mine";
+			_RED.."1) Irondeep Mine";
 			GREY..INDENT.."Morloch (Neutral)";
 			GREY..INDENT.."Umi Thorson (Alliance)";
 			GREY..INDENT.."Keetar (Horde)";

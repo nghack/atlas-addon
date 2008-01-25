@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005, 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 27/11/2007
+-- Última Actualización (last update): 25/01/2008
 
 --]]
 
@@ -101,6 +101,7 @@ ATLAS_DDL_EXPANSION = "Expansión";
 ATLAS_DDL_EXPANSION_OLD = "Antiguas mazmorras del mundo";
 ATLAS_DDL_EXPANSION_BC = "Mazmorras de Burning Crusade";
 
+ATLAS_ENTRANCE_INSTANCE_BUTTON = "Entrada/Mazmorra";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -181,6 +182,7 @@ AtlasMaps = {
 		GREY.."2) Aggem Malaespina"; --Bien
 		GREY.."3) Médium Jargba"; --Bien
 		GREY.."4) Señor Supremo Colmicarnero"; --Bien
+		GREY..INDENT.."Cuerolanza de Rajacieno"; --Bien
 		GREY.."5) Agathelos el Furioso"; --Bien
 		GREY.."6) Cazador ciego (Raro)"; --Bien
 		GREY.."7) Charlga Filonavaja"; --Bien
@@ -623,11 +625,12 @@ AtlasMaps = {
 		GREY.."2) Vaelastrasz el Corrupto"; --Bien
 		GREY.."3) Señor de prole Capazote"; --Bien
 		GREY.."4) Faucefogo"; --Bien
-		GREY.."5) Ebanorroca"; --Bien
-		GREY.."6) Flamagor"; --Bien
-		GREY.."7) Chromaggus"; --Bien
-		GREY.."8) Nefarian"; --Bien
-		GREY.."9) Maestro de los elementos Formacio Krixix"; --Bien
+		GREY..INDENT.."Dracónico para torpes"; --Bien
+		GREY.."5) Maestro de los elementos Formacio Krixix";
+		GREY.."6) Ebanorroca"; --Bien
+		GREY.."7) Flamagor"; --Bien
+		GREY.."8) Chromaggus"; --Bien
+		GREY.."9) Nefarian"; --Bien
 	};
 	Gnomeregan = {
 		ZoneName = "Gnomeregan"; --Bien
@@ -753,18 +756,23 @@ AtlasMaps = {
 		BLUE.."B) Pasillo"; --Bien
 		BLUE.."C) Pasillo"; --Bien
 		BLUE..INDENT.."Capitán Juramorte (Raro)"; --Bien
-		GREY.."1) Mortacechador Adamant"; --Bien
+		GREY.."1) Rethilgore"; --Bien
 		GREY..INDENT.."Hechicero Ashcrombe"; --Bien
-		GREY..INDENT.."Rethilgore"; --Bien
-		GREY.."2) Zarpador el Carnicero"; --Bien
-		GREY.."3) Barón Filargenta"; --Bien
-		GREY.."4) Comandante Vallefont"; --Bien
-		GREY.."5) Odo el vigía ciego"; --Bien
-		GREY.."6) Fenrus el Devorador"; --Bien
-		GREY.."7) Maestro de lobos Nandos"; --Bien
-		GREY.."8) Archimago Arugal"; --Bien
-		GREY.."9) Corcel vil"; --Bien
-		GREY..INDENT.."Martillo de herrería de Jordan"; --Bien
+		GREY..INDENT.."Mortacechador Adamant"; --Bien
+		GREY..INDENT.."Landen Fontana"; --Bien
+		GREY.."2) Mortacechador Vincent"; --Bien
+		GREY.."3) Corcel vil"; --Bien
+		GREY..INDENT.."Martillo de Jordan"; --Bien
+		GREY..INDENT.."Cajón de lingotes"; --Bien
+		GREY.."4) Zarpador el Carnicero"; --Bien
+		GREY.."5) Barón Filargenta"; --Bien
+		GREY.."6) Comandante Vallefont"; --Bien
+		GREY.."7) Odo el vigía ciego"; --Bien
+		GREY.."8) Fenrus el Devorador"; --Bien
+		GREY..INDENT.."Abisario de Arugal"; --Bien
+		GREY..INDENT.."El libro de Ur"; --Bien
+		GREY.."9) Maestro de lobos Nandos"; --Bien
+		GREY.."10) Archimago Arugal"; --Bien
 	};
 	Stratholme = {
 		ZoneName = "Stratholme";
@@ -973,8 +981,7 @@ AtlasMaps = {
 		BLUE.."E) Escaleras al nivel de la Opera"; --Bien COMPROBAR
 		BLUE.."F) Rampa desde Mezzanine al Balcón"; --Bien COMPROBAR	
 		BLUE.."G) Entrada trasera";	
-		BLUE.."H) Conexión con:";
-		BLUE..INDENT..INDENT.."El Bancal del Maestro (Nocturno)"; --Bien		
+		BLUE.."H) Conexión con: El Bancal del Maestro (Nocturno)"; --Bien		
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR		
 		GREY.."1) Hastings <El Custodio>"; --Bien		
 		GREY.."2) Hyakiss el Rondador (Raro, Aleatorio)"; --Bien		
@@ -986,18 +993,12 @@ AtlasMaps = {
 		GREY..INDENT.."Medianoche"; --Bien
 		GREY.."6) Koren <El Herrero>"; --Bien
 		GREY.."7) Moroes"; --Bien
-		GREY..INDENT.."Baronesa Dorothea Tallolino"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Sacerdote de Sombras)"; --Bien
-		GREY..INDENT.."Lady Catriona Von'Indi"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Sacerdote de Curación)"; --Bien
-		GREY..INDENT.."Lady Keira Bayadol"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Paladín de Curación)"; --Bien
-		GREY..INDENT.."Barón Rafe Dreuger"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Paladín de Reprensión)"; --Bien
-		GREY..INDENT.."Lord Robin Daris"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Guerrero de Armas)"; --Bien
-		GREY..INDENT.."Lord Crispin Ference"; --Bien
-		GREY..INDENT..INDENT.."(Aleatorio, Guerrero de Protección)"; --Bien
+		GREY..INDENT.."Baronesa Dorothea Tallolino (Aleatorio, Sacerdote de Sombras)"; --Bien
+		GREY..INDENT.."Lady Catriona Von'Indi (Aleatorio, Sacerdote de Curación)"; --Bien
+		GREY..INDENT.."Lady Keira Bayadol (Aleatorio, Paladín de Curación)"; --Bien
+		GREY..INDENT.."Barón Rafe Dreuger (Aleatorio, Paladín de Reprensión)"; --Bien
+		GREY..INDENT.."Lord Robin Daris (Aleatorio, Guerrero de Armas)"; --Bien
+		GREY..INDENT.."Lord Crispin Ference (Aleatorio, Guerrero de Protección)"; --Bien
 		GREY.."8) Bennett <El Sargento de Armas>"; --Bien
 		GREY.."9) Cerranegro <El Noble>"; --Bien
 		GREY.."10) Apuntes de Keanna (Misión)"; --Bien
@@ -1020,14 +1021,10 @@ AtlasMaps = {
 		ORNG.."Llave: La llave del maestro"; --Bien
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR
 		BLUE.."J) Escaleras rotas"; --Bien COMPROBAR
-		BLUE.."K) Rampa a la Biblioteca del Guardián"; --Bien
-		BLUE..INDENT..INDENT.."(Sombra de Aran)"; --Bien
-		BLUE.."L) Publicaciones sospechosas"; --Bien COMPROBAR
-		BLUE..INDENT..INDENT.."(Pasaje a Pezuña Enferma)"; --Bien
-		BLUE.."M) Subida a la Vista Celestial"; --Bien COMPROBAR
-		BLUE..INDENT..INDENT.."(Rencor abisal)"; --Bien
-		BLUE..INDENT.."Bajada a la Sala de Juegos"; --Bien COMPROBAR
-		BLUE..INDENT..INDENT.."(Evento del Ajedrez)"; --Bien
+		BLUE.."K) Rampa a la Biblioteca del Guardián (Sombra de Aran)"; --Bien
+		BLUE.."L) Publicaciones sospechosas (Pasaje a Pezuña Enferma)"; --Bien
+		BLUE.."M) Subida a la Vista Celestial (Rencor abisal)"; --Bien
+		BLUE..INDENT.."Bajada a la Sala de Juegos (Evento del Ajedrez)"; --Bien
 		BLUE.."N) Rampa a la Cámara de Medivh"; --Bien
 		BLUE.."O) Escaleras de caracol a Rencor Abisal (Príncipe)"; --Bien
 		GREY.."16) Curator"; --Bien
@@ -1303,8 +1300,7 @@ AtlasMaps = {
 		GREY.."4) Sombra de Akama"; --Bien
 		GREY.."5) Espíritu de Udalo"; --Bien
 		GREY..INDENT.."Aluyen (Vendedor de Componentes)"; --Bien
-		GREY..INDENT.."Okuno <Juramorte Lengua de ceniza"; --Bien
-		GREY..INDENT..INDENT.."Provisiones>"; --Bien
+		GREY..INDENT.."Okuno <Provisiones Juramorte Lengua de ceniza>"; --Bien
 		GREY..INDENT.."Profeta Kanai"; --Comprobar
 	};
 	BlackTempleBasement = {
@@ -1345,11 +1341,35 @@ AtlasMaps = {
 		Acronym = "ZA";
 		BLUE.."A) Entrada"; --Bien
 		GREY.."1) Nalorakk (Oso)"; --Bien
+		GREY..INDENT.."Tanzar"; --Bien
+		GREY..INDENT.."Mapa de Zul'Aman de Budd"; --Bien
 		GREY.."2) Akil'zon (Águila)"; --Bien
+		GREY..INDENT.."Harkor"; --Bien
 		GREY.."3) Jan'alai (Dracohalcón)"; --Bien
+		GREY..INDENT.."Kraz"; --Bien
 		GREY.."4) Halazzi (Lince)"; --Bien
-		GREY.."5) Hex Lord Malacrass"; --Comprobar
-		GREY.."6) Zul'jin"; --Bien
+		GREY..INDENT.."Ashli"; --Bien
+		GREY.."5) Zungam"; --Bien
+		GREY.."6) Hex Lord Malacrass"; --Comprobar
+		GREY..INDENT.."Thurg (Aleatorio)"; --Bien
+		GREY..INDENT.."Gazakroth (Aleatorio)"; --Bien
+		GREY..INDENT.."Lord Raadan (Aleatorio)"; --Bien
+		GREY..INDENT.."Negrocorazón (Aleatorio)"; --Comprobar
+		GREY..INDENT.."Alyson Antille (Aleatorio)"; --FALTA
+		GREY..INDENT.."Slither (Aleatorio)"; --Comprobar
+		GREY..INDENT.."Fenstalker (Aleatorio)"; --Comprobar
+		GREY..INDENT.."Koragg (Aleatorio)"; --Comprobar
+		GREY.."7) Zul'jin"; --Bien
+		GREN.."1') Las ranas del bosque, se convierten en:";
+		GREN..INDENT.."Kyren"; --Bien
+		GREN..INDENT.."Gunter"; --Bien
+		GREN..INDENT.."Adarrah"; --Bien
+		GREN..INDENT.."Brennan"; --Bien
+		GREN..INDENT.."Darwen"; --Bien
+		GREN..INDENT.."Deez"; --Bien
+		GREN..INDENT.."Galathryn"; --Bien
+		GREN..INDENT.."Mitzi"; --Bien
+		GREN..INDENT.."Mannuth"; --Bien
 	};
 };
 

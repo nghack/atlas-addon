@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005, 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -48,12 +48,12 @@ if ( GetLocale() == "esES" ) then
 		DLEast = {
 			ZoneName = "Localización de Mazmorras (Este)";
 			Location = "Reino del Este";
-			BLUE.."A) Valle de Alterac, ".._RED.."Alterac / Colinas"; --Bien
+			BLUE.."A) Valle de Alterac, ".._RED.."Montañas de Alterac / Laderas de Trabalomas"; --Bien
 			BLUE.."B) Cuenca de Arathi, ".._RED.."Tierras Altas de Arathi"; --Bien
 			GREY.."1) Zul'Aman, ".._RED.."Tierras Fantasma"; --Bien			
 			GREY.."2) Monasterio Escarlata, ".._RED.."Claros de Trisfal"; --Bien
 			GREY.."3) Stratholme, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY..INDENT.."Naxxramas, ".._RED.."Stratholme"; --Bien
+			GREY..INDENT.."Naxxramas, ".._RED.."Tierras de la Peste del Este"; --Bien
 			GREY.."4) Scholomance, ".._RED.."Tierras de la Peste del Oeste"; --Bien
 			GREY.."5) Castillo de Colmillo Oscuro, ".._RED.."Bosque de Argenteos"; --Bien
 			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh"; --Bien

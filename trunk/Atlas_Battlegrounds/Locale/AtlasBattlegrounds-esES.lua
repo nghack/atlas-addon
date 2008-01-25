@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
+	Copyright 2005, 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -47,29 +47,61 @@ if ( GetLocale() == "esES" ) then
 			Location = "Montañas Alterac";
 			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
 			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
-			BLUE.."A) Entrada";
+			BLUE.."A) Entrada de la alianza";
 			BLUE.."B) Dun Baldar (Alianza)";
-			_RED.."1) Puesto de socorro de Pico Tormenta"; --Bien
-			_RED.."2) Cementerio Pico Tormenta"; --Bien
-			_RED.."3) Cementerio Piedrahogar"; --Bien
-			_RED.."4) Cementerio Avalancha"; --Bien
-			ORNG.."5) Búnker Norte de Dun Baldar"; --Bien
-			GREY..INDENT.."Comandante del aire Mulverick (Horda)"; --Bien
-			ORNG.."6) Búnker Sur de Dun Baldar"; --Bien
-			ORNG.."7) Búnker Ala Gélida"; --Bien
-			GREY..INDENT.."Comandante del aire Guse (Horda)"; --Bien
-			GREY..INDENT.."Comandante Karl Philips (Alianza)"; --Bien
-			ORNG.."8) Avanzada Piedrahogar (Balinda)"; --Bien
-			ORNG.."9) Búnker Piedrahogar"; --Bien
-			GREY.."10) Mina Ferrohondo"; --Bien
+			BLUE..INDENT.."Vanndar Pico Tormenta (Alianza)";
+			BLUE..INDENT.."Alguacil de Dun Baldar Norte (Alianza)";
+			BLUE..INDENT.."Alguacil de Dun Baldar Sur (Alianza)";
+			BLUE..INDENT.."Alguacil Alahielo (Alianza)";
+			BLUE..INDENT.."Alguacil Piedrahogar (Alianza)";
+			BLUE..INDENT.."Prospectora Tallapiedra (Alianza)";
+			_RED.."1) Mina Ferrohondo"; --Bien
+			GREY..INDENT.."Morloch (Neutral)"; --Bien
+			GREY..INDENT.."Umi Thorson (Alianza)"; --Bien
+			GREY..INDENT.."Keetar (Horda)"; --Bien
+			GREY.."2) Archidruida Renferal (Alianza)"; --Bien
+			ORNG.."3) Búnker Norte de Dun Baldar"; --Bien
+			GREY..INDENT.."Comandante del aire Mulverick (Horda)";
+			GREY.."4) Murgot Forjahonda (Alianza)"; --Bien		
+			GREY..INDENT.."Dirk Estafa <Cazador de recompensas> (Alianza)"; --Bien		
+			GREY..INDENT.."Athramanis <Cazadora de recompensas> (Alianza)"; --Bien
+			GREY..INDENT.."Lana Cebatruenos <Suministros de herrería> (Alianza)"; --Bien			
+			_RED.."5) Puesto de socorro de Pico Tormenta"; --Bien
+			GREY.."6) Maestra de establo de Pico Tormenta <Maestra de establos> (Alianza)";	--Bien		
+			GREY..INDENT.."Comandante de jinetes de carneros de Pico Tormenta (Alianza)"; --Bien	
+			GREY..INDENT.."Svalbrad Montelejano <Objetos comerciables> (Alianza)"; --Bien
+			GREY..INDENT.."Kurdrum Barbacebada <Suministros de venenos y componentes> (Alianza)"; --Bien			
+			GREY.."7) Intendente de Pico Tormenta (Alianza)"; --Bien		
+			GREY..INDENT.."Jonivera Montelejano <Pertrechos> (Alianza)"; --Bien
+			GREY..INDENT.."Brogus Cebatruenos <Alimentos y bebidas> (Alianza)"; --Bien			
+			GREY.."8) Comandante del aire Ichman (Rescatado)"; --Bien	
+			GREY..INDENT.."Comandante del aire Slidore (Rescatado)"; --Bien	
+			GREY..INDENT.."Comandante del aire Vipore (Rescatado)";	--Bien			
+			ORNG.."9) Búnker Sur de Dun Baldar"; --Bien			
+			GREY..INDENT.."Cabo Noreg Pico Tormenta (Alianza)";	--Bien
+			GREY..INDENT.."Gaelden Martillero <Oficial de suministros Pico Tormenta> (Alianza)"; --Bien			
+			_RED.."10) Cementerio Pico Tormenta"; --Bien
 			GREY.."11) Cueva Ala Gélida"; --Bien
-			GREY.."12) Sierra de vapor (Horda)"; --Bien
-			GREY.."13) Comandante del aire Jeztor (Horda)"; --Bien
-			GREY.."14) Ivus el Señor del Bosque (Zona de invocar)"; --Bien
-			"";
-			"";
-			"";
-			"";
+			GREY..INDENT.."Estandarte de Pico Tormenta"; --Bien
+			GREY.."12) Stormpike Lumber Yard"; --FALTA
+			GREY..INDENT.."Comandante del aire Jeztor (Horda)"; --Bien
+			ORNG.."13) Búnker Ala Gélida"; --Bien
+			GREY..INDENT.."Comandante del aire Guse (Horda)"; --Bien
+			_RED.."14) Cementerio Piedrahogar"; --Bien
+			GREY.."15) Comandante de jinetes de carneros de Pico Tormenta (Alianza)"; --Bien
+			ORNG.."16) Puesto de salida Piedrahogar"; --Bien
+			GREY..INDENT.."Capitana Balinda Piedrahogar <Capitana Pico Tormenta> (Alianza)"; --Bien
+			_RED.."17) Cementerio Avalancha"; --Bien
+			GREY..INDENT.."Señal de Inchman (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Mulverick (Horda)"; --Bien
+			ORNG.."18) Búnker Piedrahogar"; --Bien
+			GREY.."19) Ivus el Señor del Bosque (Zona de invocar)"; --Bien
+			GREY.."20) Cráter occidental"; --Bien
+			GREY..INDENT.."Señal de Vipore (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Jeztor (Horda)"; --Bien
+			GREY.."21) Cráter del este"; --Bien
+			GREY..INDENT.."Señal de Slidore (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Guse (Horda)"; --Bien
 			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
 			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";

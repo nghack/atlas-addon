@@ -34,7 +34,7 @@ if ( GetLocale() == "zhCN" ) then
 			BLUE..INDENT.."冰翼统帅 (联盟)";
 			BLUE..INDENT.."石炉统帅 (联盟)";
 			BLUE..INDENT.."勘查员塔雷·石镐 (联盟)";
-			GREY.."1) 深铁矿洞";
+			_RED.."1) 深铁矿洞";
 			GREY..INDENT.."莫洛克 (中立)";
 			GREY..INDENT.."乌米·索尔森 (联盟)";
 			GREY..INDENT.."基塔尔 (部落)";

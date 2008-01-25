@@ -43,14 +43,14 @@ if ( GetLocale() == "frFR" ) then
 		FourDragons = {
 			ZoneName = "Les Dragons du Cauchemard";
 			Location = "Divers";
-			GREY.."1) Le bosquet du crépuscule - Bois de la Pénombre";
-			GREY.."2) Seradane - Les Hinterlands";
+			GREY.."1) Le bosquet du crépuscule, ".._RED.."Bois de la Pénombre";
+			GREY.."2) Seradane, ".._RED.."Les Hinterlands";
 			GREY..INDENT.."Rothos";
 			GREY..INDENT.."Cherche-rêve";
-			GREY.."3) Bosquet du rêve - Féralas";
+			GREY.."3) Bosquet du rêve, ".._RED.."Féralas";
 			GREY..INDENT.."Lethlas";
 			GREY..INDENT.."Hurle-rêve";
-			GREY.."4) L'ombrage - Orneval";
+			GREY.."4) L'ombrage, ".._RED.."Orneval";
 			GREY..INDENT.."Phantim";
 			GREY..INDENT.."Traque-rêve";
 			"";
@@ -80,19 +80,46 @@ if ( GetLocale() == "frFR" ) then
 			Location = "Vallée d'Ombrelune";
 			GREY.."1) Marche-funeste";
 		};
+		Skettis = {
+			ZoneName = "Skettis";
+Location = "Blackwind Valley, Forêt de Terokkar";	
+GREY.."1) Blackwind Landing";
+			GREY..INDENT.."Commandant Adaris de la Garde-ciel";
+			GREY..INDENT.."Sergent Doryn de la Garde-ciel";
+			GREY..INDENT.."Dresseur Deesak de la Garde-ciel";
+			GREY..INDENT.."Séverin";
+			GREY..INDENT.."Grella";
+			GREY..INDENT.."Hazzik";
+			GREY.."2) Ancienne pile de crânes";
+			GREY..INDENT.."Terokk (Invoqué)";
+			GREY.."3) Sahaak";
+			GREY.."4) Prisonnier de la Garde-ciel (Hasard)";
+			GREY.."5) Prêtre de la serre Ishaal";
+			GREY.."6) Prêtre de la serre Skizzik";
+			GREY.."7) Prêtre de la serre Zellek";
+			GREY.."8) Paquet d'Hazzik";
+			GREY.."9) Cimetière";
+			GREN.."1') Pile de crânes";
+			GREN..INDENT.."Akkarai le Hurle-sombre (Invoqué)";
+			GREN..INDENT.."Gezzarak la Chasseresse (Invoqué)";
+			GREN..INDENT.."Karrog (Invoqué)";
+			GREN..INDENT.."Vakkiz le Ragevent (Invoqué)";
+		};		
 	};
 
-	myData.Azuregos.LevelRange =		"60+";
-	myData.FourDragons.LevelRange =		"60+";
-	myData.HighlordKruul.LevelRange =	"60+";
-	myData.DoomLordKazzak.LevelRange =	"70+";
-	myData.Doomwalker.LevelRange =		"70+";
+	myData.Azuregos.LevelRange =			"60+";
+	myData.FourDragons.LevelRange =			"60+";
+	myData.HighlordKruul.LevelRange =		"60+";
+	myData.DoomLordKazzak.LevelRange =		"70+";
+	myData.Doomwalker.LevelRange =			"70+";
+	myData.Skettis.LevelRange =				"70+";
 	
-	myData.Azuregos.PlayerLimit =		"40";
-	myData.FourDragons.PlayerLimit =	"40";
-	myData.HighlordKruul.PlayerLimit =	"40";
-	myData.DoomLordKazzak.PlayerLimit =	"40";
-	myData.Doomwalker.PlayerLimit =		"40";
+	myData.Azuregos.PlayerLimit =			"40";
+	myData.FourDragons.PlayerLimit =		"40";
+	myData.HighlordKruul.PlayerLimit =		"40";
+	myData.DoomLordKazzak.PlayerLimit =		"40";
+	myData.Doomwalker.PlayerLimit =			"40";
+	myData.Skettis.PlayerLimit =			"40";
 
 	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 

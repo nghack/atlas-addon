@@ -24,10 +24,10 @@
 
 --[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
--- Version WoW 2.3.0 (french client)
+-- Version WoW 2.3.3 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 26/11/2007
+-- le 25/01/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -183,6 +183,7 @@ AtlasMaps = {
 		GREY.."2) Aggem Malépine";
 		GREY.."3) Nécrorateur Jargba";
 		GREY.."4) Seigneur Brusquebroche";
+		GREY..INDENT.."Lanceur de Tranchebauge";
 		GREY.."5) Agathelos le Déchaîné";
 		GREY.."6) Chasseur aveugle (Rare)";
 		GREY.."7) Charlga Trancheflanc";
@@ -628,11 +629,12 @@ AtlasMaps = {
 		GREY.."2) Vaelastrasz le Corrompu";
 		GREY.."3) Seigneur des couvées Lanistaire";
 		GREY.."4) Gueule-de-feu";
-		GREY.."5) Rochébène";
-		GREY.."6) Flamegor";
-		GREY.."7) Chromaggus";
-		GREY.."8) Nefarian";
-		GREY.."9) Maître élémentaire Krixix le Sculpteur";
+		GREY..INDENT.."Le draconique pour les nuls";
+		GREY.."5) Maître élémentaire Krixix le Sculpteur";
+		GREY.."6) Rochébène";
+		GREY.."7) Flamegor";
+		GREY.."8) Chromaggus";
+		GREY.."9) Nefarian";
 	};
 	Gnomeregan = {
 		ZoneName = "Gnomeregan";
@@ -762,18 +764,23 @@ AtlasMaps = {
 		BLUE.."B) Allée";
 		BLUE.."C) Allée";
 		BLUE..INDENT.."Capitaine Ligemort (Rare)";
-		GREY.."1) Nécrotraqueur Adamant";
+		GREY.."1) Rethiltripe";
 		GREY..INDENT.."Ensorceleur Ashcrombe";
-		GREY..INDENT.."Rethiltripe";
-		GREY.."2) Tranchegriffe le Boucher";
-		GREY.."3) Baron d'Argelaine";
-		GREY.."4) Commandant Printeval";
-		GREY.."5) Odo l'Aveugle";
-		GREY.."6) Fenrus le Dévoreur";
-		GREY.."7) Maître-loup Nandos";
-		GREY.."8) Archimage Arugal";
-		GREY.."9) Palefroi corrompu";
-		GREY..INDENT.."Marteau de forge de Jordan";
+		GREY..INDENT.."Nécrotraqueur Adamant";
+		GREY..INDENT.."Landen Morpuits";
+		GREY.."2) Nécrotraqueur Vincent";
+		GREY.."3) Palefroi corrompu";
+		GREY..INDENT.."Marteau de Jordan";
+		GREY..INDENT.."Caisse de lingots";
+		GREY.."4) Tranchegriffe le Boucher";
+		GREY.."5) Baron d'Argelaine";
+		GREY.."6) Commandant Printeval";
+		GREY.."7) Odo l'Aveugle";
+		GREY.."8) Fenrus le Dévoreur";
+		GREY..INDENT.."Marcheur du Vide d’Arugal";
+		GREY..INDENT.."Le Livre d'Ur";
+		GREY.."9) Maître-loup Nandos";
+		GREY.."10) Archimage Arugal";
 	};
 	Stratholme = {
 		ZoneName = "Stratholme";
@@ -982,8 +989,7 @@ AtlasMaps = {
 		BLUE.."E) Escalier vers la fosse de l'Opéra";
 		BLUE.."F) Rampe de la Mezzanine au Balcon";
 		BLUE.."G) Entrée de derrière";
-		BLUE.."H) Connexion à :";
-		BLUE..INDENT..INDENT.."La terrasse du Maître (Plaie-de-nuit)";
+		BLUE.."H) Connexion à la terrasse du Maître (Plaie-de-nuit)";
 		BLUE.."I) Chemin vers l'Escalier brisé";
 		GREY.."1) Hastings <Le gardien>";
 		GREY.."2) Hyakiss la Rôdeuse (Hasard)";
@@ -995,18 +1001,12 @@ AtlasMaps = {
 		GREY..INDENT.."Minuit";
 		GREY.."6) Koren <Le forgeron>";
 		GREY.."7) Moroes";
-		GREY..INDENT.."Baronne Dorothea Millstipe";
-		GREY..INDENT..INDENT.."(Hasard, Prêtre Ombre)";
-		GREY..INDENT.."Dame Catriona Von'Indi";
-		GREY..INDENT..INDENT.."(Hasard, Prêtre Sacré)";
-		GREY..INDENT.."Dame Keira Berrybuck";
-		GREY..INDENT..INDENT.."(Hasard, Paladin Sacré)";
-		GREY..INDENT.."Baron Rafe Dreuger";
-		GREY..INDENT..INDENT.."(Hasard, Paladin Vindicte)";
-		GREY..INDENT.."Seigneur Robin Daris";
-		GREY..INDENT..INDENT.."(Hasard, Guerrier Armes)";
-		GREY..INDENT.."Seigneur Crispin Ference";
-		GREY..INDENT..INDENT.."(Hasard, Guerrier Protection)";
+		GREY..INDENT.."Baronne Dorothea Millstipe (Hasard, Prêtre Ombre)";
+		GREY..INDENT.."Dame Catriona Von'Indi (Hasard, Prêtre Sacré)";
+		GREY..INDENT.."Dame Keira Berrybuck (Hasard, Paladin Sacré)";
+		GREY..INDENT.."Baron Rafe Dreuger (Hasard, Paladin Vindicte)";
+		GREY..INDENT.."Seigneur Robin Daris (Hasard, Guerrier Armes)";
+		GREY..INDENT.."Seigneur Crispin Ference (Hasard, Guerrier Protection)";
 		GREY.."8) Bennett <L'huissier>";
 		GREY.."9) Bouclenoire <Les nobles>";
 		GREY.."10) Journal de Keanna";
@@ -1029,14 +1029,10 @@ AtlasMaps = {
 		ORNG.."Objet : La clé du maître";
 		BLUE.."I) Chemin vers l'Escalier brisé";
 		BLUE.."J) L'Escalier brisé";
-		BLUE.."K) Rampe vers la Bibliothèque du Gardien";
-		BLUE..INDENT..INDENT.."(Ombre d'Aran)";
-		BLUE.."L) Bibliotheque suspecte"; -- A vérifier
-		BLUE..INDENT..INDENT.."(Passage vers Terestian)";
-		BLUE.."M) Rampe montant vers Le Guet céleste";
-		BLUE..INDENT..INDENT.."(Dédain-du-Néant)";
-		BLUE..INDENT.."Rampe déscendant vers le Hall du Flambeur";
-		BLUE..INDENT..INDENT.."(L'Echéquier)";
+		BLUE.."K) Rampe vers la Bibliothèque du Gardien (Ombre d'Aran)";
+		BLUE.."L) Bibliotheque suspecte (Passage vers Terestian)";
+		BLUE.."M) Rampe montant vers Le Guet céleste (Dédain-du-Néant)";
+		BLUE..INDENT.."Rampe déscendant vers le Hall du Flambeur (L'Echéquier)";
 		BLUE.."N) Rampe vers la chambre de Medivh";
 		BLUE.."O) Escalier en spiral vers le Néantespace (Prince)";
 		GREY.."16) Le conservateur";
@@ -1318,8 +1314,7 @@ AtlasMaps = {
 		GREY.."4) Ombre d'Akama";
 		GREY.."5) Esprit d'Udalo";
 		GREY..INDENT.."Aluyen <Composants>";
-		GREY..INDENT.."Okuno <Intendant des";
-		GREY..INDENT..INDENT.." ligemorts cendrelangue>";
+		GREY..INDENT.."Okuno <Intendant des ligemorts cendrelangue>";
 		GREY..INDENT.."Voyant Kanai";
 	};
 	BlackTempleBasement = {
@@ -1360,11 +1355,35 @@ AtlasMaps = {
 		Acronym = "ZA";
 		BLUE.."A) Entrée";
 		GREY.."1) Nalorakk (Ours)";
+		GREY..INDENT.."Tanzar";
+		GREY..INDENT.."Carte de Zul'Aman de Budd";
 		GREY.."2) Akil'zon (Aigle)";
+		GREY..INDENT.."Harkor";
 		GREY.."3) Jan'alai (Faucon-dragon)";
+		GREY..INDENT.."Kraz";
 		GREY.."4) Halazzi (Lynx)";
-		GREY.."5) Seigneur des maléfices Malacrass";
-		GREY.."6) Zul'jin";
+		GREY..INDENT.."Ashli";
+		GREY.."5) Zungam";
+		GREY.."6) Seigneur des maléfices Malacrass";
+		GREY..INDENT.."Thurg (Hasard)";
+		GREY..INDENT.."Gazakroth (Hasard)";
+		GREY..INDENT.."Seigneur Raadan (Hasard)";
+		GREY..INDENT.."Sombrecoeur (Hasard)";
+		GREY..INDENT.."Alyson Antille (Hasard)";
+		GREY..INDENT.."Sinueux (Hasard)";
+		GREY..INDENT.."Traquetourbe (Hasard)";
+		GREY..INDENT.."Koragg (Hasard)";
+		GREY.."7) Zul'Jin";
+		GREN.."1') Grenouilles forestière, qui deviennent :";
+		GREN..INDENT.."Kyren";
+		GREN..INDENT.."Gunter";
+		GREN..INDENT.."Adarrah";
+		GREN..INDENT.."Brennan";
+		GREN..INDENT.."Darwen";
+		GREN..INDENT.."Deez";
+		GREN..INDENT.."Galathryn";
+		GREN..INDENT.."Mitzi";
+		GREN..INDENT.."Mannuth";	
 	};
 };
 

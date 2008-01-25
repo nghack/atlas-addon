@@ -61,9 +61,8 @@ if ( GetLocale() == "frFR" ) then
 			ZoneName = "Alliance [B] (Ouest)";
 			Location = "Kalimdor";
 			GREY.."1) Village de Rut'Theran, ".._RED.."Teldrassil";
-			GREY.."2) "..GREN.."Havrenuit"..GREY..", ".._RED.."Reflet-de-Lune";
-			GREY.."3) Sud du chemin du lac d'Elune'ara,";
-			_RED..INDENT.."Reflet-de-Lune";
+			GREY.."2) "..GREN.."Havrenuit"..GREY..", ".._RED.."Reflet-de-Lune"..GREN.." (Druides seulement)";
+			GREY.."3) Sud du chemin du lac d'Elune'ara, ".._RED.."Reflet-de-Lune";
 			GREY.."4) Long-Guet, ".._RED.."Berceau-de-l'Hiver";
 			GREY.."5) Auberdine, ".._RED.."Sombrivage";
 			GREY.."6) Clairière de Griffebranche, ".._RED.."Gangrebois";
@@ -83,8 +82,6 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."20) Gadgetzan, ".._RED.."Tanaris";
 			GREY.."21) Guet du sang, ".._RED.."Ile de Brume-Sang";
 			GREY.."22) L'Exodar, ".._RED.."Ile de Brume-Azur";
-			"";
-			GREN.."Vert : Druides seulement";
 		};
 		FPHordeEast = {
 			ZoneName = "Horde [A] (Est)";
@@ -108,9 +105,8 @@ if ( GetLocale() == "frFR" ) then
 		FPHordeWest = {
 			ZoneName = "Horde [B] (Ouest)";
 			Location = "Kalimdor";
-			GREY.."1) "..GREN.."Havrenuit"..GREY..", ".._RED.."Reflet-de-Lune";
-			GREY.."2) Ouest du chemin du Repaire des Grumegueules,";
-			_RED..INDENT.."Reflet-de-Lune";
+			GREY.."1) "..GREN.."Havrenuit"..GREY..", ".._RED.."Reflet-de-Lune"..GREN.." (Druides seulement)";
+			GREY.."2) Ouest du chemin du Repaire des Grumegueules,".._RED.."Reflet-de-Lune";
 			GREY.."3) Long-Guet, ".._RED.."Berceau-de-l'Hiver";
 			GREY.."4) Poste de la Vénéneuse, ".._RED.."Gangrebois";
 			GREY.."5) Sanctuaire d'émeraude, ".._RED.."Gangrebois";
@@ -131,8 +127,6 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."20) Refuge des Marshal, ".._RED.."Cratère d'Un'Goro";
 			GREY.."21) Fort Cénarien, ".._RED.."Silithus";
 			GREY.."22) Gadgetzan, ".._RED.."Tanaris";
-			"";
-			GREN.."Vert : Druides seulement";
 		};
 		FPHordeOutland = {
 			ZoneName = "Horde [C] (Outreterre)";

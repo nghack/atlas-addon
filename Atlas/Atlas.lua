@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -57,6 +57,54 @@ local DefaultAtlasOptions = {
 	["AtlasScale"] = 1.0;
 	["AtlasClamped"] = true;
 	["AtlasSortBy"] = 1;
+};
+
+local EntInstMatches = {
+	--entrance maps to instance maps
+	["AuchindounEnt"] =				"AuchAuchenaiCrypts";
+	["BlackfathomDeepsEnt"] =		"BlackfathomDeeps";
+	["BlackrockSpireEnt"] =			"BlackrockSpireLower";
+	["CoilfangReservoirEnt"] =		"CFRSerpentshrineCavern";
+	["GnomereganEnt"] =				"Gnomeregan";
+	["MaraudonEnt"] =				"Maraudon";
+	["TheDeadminesEnt"] =			"TheDeadmines";
+	["TheSunkenTempleEnt"] =		"TheSunkenTemple";
+	["UldamanEnt"] =				"Uldaman";
+	["WailingCavernsEnt"] =			"WailingCaverns";
+	["DireMaulEnt"] =				"DireMaulEast";
+	["CoTEnt"] =					"CoTHyjal";
+	["KarazhanEnt"] =				"KarazhanStart";
+	["SMEnt"] =						"SMArmory";
+	--instance maps to entrance maps
+	["AuchManaTombs"] =				"AuchindounEnt";
+	["AuchAuchenaiCrypts"] =		"AuchindounEnt";
+	["AuchSethekkHalls"] =			"AuchindounEnt";
+	["AuchShadowLabyrinth"] =		"AuchindounEnt";
+	["BlackfathomDeeps"] =			"BlackfathomDeepsEnt";
+	["BlackrockSpireLower"] =		"BlackrockSpireEnt";
+	["BlackrockSpireUpper"] =		"BlackrockSpireEnt";
+	["CFRTheSlavePens"] =			"CoilfangReservoirEnt";
+	["CFRTheUnderbog"] =			"CoilfangReservoirEnt";
+	["CFRTheSteamvault"] =			"CoilfangReservoirEnt";
+	["CFRSerpentshrineCavern"] =	"CoilfangReservoirEnt";
+	["Gnomeregan"] =				"GnomereganEnt";
+	["Maraudon"] =					"MaraudonEnt";
+	["TheDeadmines"] =				"TheDeadminesEnt";
+	["TheSunkenTemple"] =			"TheSunkenTempleEnt";
+	["Uldaman"] =					"UldamanEnt";
+	["WailingCaverns"] =			"WailingCavernsEnt";
+	["DireMaulEast"] =				"DireMaulEnt";
+	["DireMaulNorth"] =				"DireMaulEnt";
+	["DireMaulWest"] =				"DireMaulEnt";
+	["CoTHyjal"] =					"CoTEnt";
+	["CoTBlackMorass"] =			"CoTEnt";
+	["CoTOldHillsbrad"] =			"CoTEnt";
+	["KarazhanStart"] =				"KarazhanEnt";
+	["KarazhanEnd"] =				"KarazhanEnt";
+	["SMArmory"] =					"SMEnt";
+	["SMLibrary"] =					"SMEnt";
+	["SMCathedral"] =				"SMEnt";
+	["SMGraveyard"] =				"SMEnt";
 };
 
 function Atlas_FreshOptions()
@@ -433,7 +481,7 @@ function Atlas_Refresh()
 		if ( not getglobal("AtlasEntry"..i) ) then
 			local f = CreateFrame("Button", "AtlasEntry"..i, AtlasFrame, "AtlasEntryTemplate");
 			if i==1 then
-				f:SetPoint("TOPLEFT", "AtlasScrollBar", "TOPLEFT", 16, -3);
+				f:SetPoint("TOPLEFT", "AtlasScrollBar", "TOPLEFT", 16, -2);
 			else
 				f:SetPoint("TOPLEFT", "AtlasEntry"..(i-1), "BOTTOMLEFT");
 			end
@@ -442,7 +490,67 @@ function Atlas_Refresh()
 	
 	AtlasScrollBar_Update();
 	
+	
+	
+	--deal with the switch to entrance/instance button here
+	--only display if the Entrances plugin is loaded
+	--then, only display if appropriate
+	
+	local EntPluginIsLoaded = false;
+	for k,v in pairs(ATLAS_PLUGINS) do
+		if ( v == "Atlas_Entrances" ) then
+			EntPluginIsLoaded = true;
+		end
+	end
+	
+	local EntInstMatch = false;
+	if ( EntPluginIsLoaded ) then
+		for k,v in pairs(EntInstMatches) do
+			if ( k == zoneID ) then
+				EntInstMatch = true;
+			end
+		end
+	end
+	
+	if ( EntInstMatch ) then
+		AtlasSwitchButton:Show();
+	else
+		AtlasSwitchButton:Hide();
+	end
+	
 end
+
+
+--when the switch button is clicked
+--we can basically assume that there's a match
+--find it, set it, then update menus and the maps
+function AtlasSwitchButton_OnClick()
+
+	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
+	
+	local EntInstMatch = false;
+	for k,v in pairs(EntInstMatches) do
+		if ( k == zoneID ) then
+			EntInstMatch = v;
+		end
+	end
+	
+	for k,v in pairs(ATLAS_DROPDOWNS) do
+		for k2,v2 in pairs(v) do
+			if ( v2 == EntInstMatch ) then
+				AtlasOptions.AtlasType = k;
+				AtlasOptions.AtlasZone = k2;
+			end
+		end
+	end
+	
+	AtlasFrameDropDownType_OnShow();
+	AtlasFrameDropDown_OnShow();
+	Atlas_Refresh();
+	
+end
+
+
 
 --Function used to initialize the map type dropdown menu
 --Cycle through Atlas_MapTypes to populate the dropdown

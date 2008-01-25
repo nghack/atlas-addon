@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -61,9 +61,8 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			ZoneName = "Alliance [B] (West)";
 			Location = "Kalimdor";
 			GREY.."1) Rut'Theran Village, ".._RED.."Teldrassil";
-			GREY.."2) "..GREN.."Nighthaven"..GREY..", ".._RED.."Moonglade";
-			GREY.."3) South of the path along Lake Elune'ara,";
-			_RED..INDENT.."Moonglade";
+			GREY.."2) "..GREN.."Nighthaven"..GREY..", ".._RED.."Moonglade "..GREN.."(Druid-only)";
+			GREY.."3) South of the path along Lake Elune'ara, ".._RED.."Moonglade";
 			GREY.."4) Everlook, ".._RED.."Winterspring";
 			GREY.."5) Auberdine, ".._RED.."Darkshore";
 			GREY.."6) Talonbranch Glade, ".._RED.."Felwood";
@@ -83,8 +82,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."20) Gadgetzan, ".._RED.."Tanaris Desert";
 			GREY.."21) Blood Watch, ".._RED.."Bloodmyst Isle";
 			GREY.."22) The Exodar, ".._RED.."Azuremyst Isle";
-			"";
-			GREN.."Green: Druid-only";
 		};
 		FPHordeEast = {
 			ZoneName = "Horde [A] (East)";
@@ -108,9 +105,8 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		FPHordeWest = {
 			ZoneName = "Horde [B] (West)";
 			Location = "Kalimdor";
-			GREY.."1) "..GREN.."Nighthaven"..GREY..", ".._RED.."Moonglade";
-			GREY.."2) West of the path to Timbermaw Hold,";
-			_RED..INDENT.."Moonglade";
+			GREY.."1) "..GREN.."Nighthaven"..GREY..", ".._RED.."Moonglade "..GREN.."(Druid-only)";
+			GREY.."2) West of the path to Timbermaw Hold, ".._RED.."Moonglade";
 			GREY.."3) Everlook, ".._RED.."Winterspring";
 			GREY.."4) Bloodvenom Post, ".._RED.."Felwood";
 			GREY.."5) Emerald Sanctuary, ".._RED.."Felwood";
@@ -131,8 +127,6 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."20) Marshall's Refuge, ".._RED.."Un'Goro Crater";
 			GREY.."21) Cenarion Hold, ".._RED.."Silithus";
 			GREY.."22) Gadgetzan, ".._RED.."Tanaris Desert";
-			"";
-			GREN.."Green: Druid-only";
 		};
 		FPHordeOutland = {
 			ZoneName = "Horde [C] (Outland)";
@@ -146,18 +140,18 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."7) Garadar, ".._RED.."Nagrand";
 			GREY.."8) Shattrath City, ".._RED.."Terokkar Forest";
 			GREY.."9) Stonebreaker Hold, ".._RED.."Terokkar Forest";
-			GREY.."10) Shadowmoon Village, ".._RED.."SMV";
-			GREY.."11) Altar of Sha'tar, ".._RED.."SMV "..BLUE.."(Aldor)";
-			GREY.."12) Sanctum of the Stars, ".._RED.."SMV "..BLUE.."(Scryer)";
-			GREY.."13) Thunderlord Stronghold, ".._RED.."Blade's Edge";
-			GREY.."14) Evergrove, ".._RED.."Blade's Edge";
-			GREY.."15) Mok'Nathal Village, ".._RED.."Blade's Edge";
+			GREY.."10) Shadowmoon Village, ".._RED.."Shadowmoon Valley";
+			GREY.."11) Altar of Sha'tar, ".._RED.."Shadowmoon Valley "..BLUE.."(Aldor)";
+			GREY.."12) Sanctum of the Stars, ".._RED.."Shadowmoon Valley "..BLUE.."(Scryer)";
+			GREY.."13) Thunderlord Stronghold, ".._RED.."Blade's Edge Mountains";
+			GREY.."14) Evergrove, ".._RED.."Blade's Edge Mountains";
+			GREY.."15) Mok'Nathal Village, ".._RED.."Blade's Edge Mountains";
 			GREY.."16) Area 52, ".._RED.."Netherstorm";
 			GREY.."17) The Stormspire, ".._RED.."Netherstorm";
 			GREY.."18) Cosmowrench, ".._RED.."Netherstorm";
 			GREN.."1') Blackwind Landing, ".._RED.."Terokkar Forest";
-			GREN.."2') Skyguard Outpost, ".._RED.."Blade's Edge";
-			GREN..INDENT.."(Honored with Sha'tari Skyguard)";
+			GREN.."2') Skyguard Outpost, ".._RED.."Blade's Edge Mountains";
+			GREN..INDENT.."(Requires honored faction with Sha'tari Skyguard)";
 		};
 		FPAllianceOutland = {
 			ZoneName = "Alliance [C] (Outland)";
@@ -171,18 +165,18 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."7) Telaar, ".._RED.."Nagrand";
 			GREY.."8) Shattrath City, ".._RED.."Terokkar Forest";
 			GREY.."9) Allerian Stronghold, ".._RED.."Terokkar Forest";
-			GREY.."10) Wildhammer Stronghold, ".._RED.."SMV";
-			GREY.."11) Altar of Sha'tar, ".._RED.."SMV "..BLUE.."(Aldor)";
-			GREY.."12) Sanctum of the Stars, ".._RED.."SMV "..BLUE.."(Scryer)";
-			GREY.."13) Sylvanaar, ".._RED.."Blade's Edge";
-			GREY.."14) Evergrove, ".._RED.."Blade's Edge";
-			GREY.."15) Toshley's Station, ".._RED.."Blade's Edge";
+			GREY.."10) Wildhammer Stronghold, ".._RED.."Shadowmoon Valley";
+			GREY.."11) Altar of Sha'tar, ".._RED.."Shadowmoon Valley "..BLUE.."(Aldor)";
+			GREY.."12) Sanctum of the Stars, ".._RED.."Shadowmoon Valley "..BLUE.."(Scryer)";
+			GREY.."13) Sylvanaar, ".._RED.."Blade's Edge Mountains";
+			GREY.."14) Evergrove, ".._RED.."Blade's Edge Mountains";
+			GREY.."15) Toshley's Station, ".._RED.."Blade's Edge Mountains";
 			GREY.."16) Area 52, ".._RED.."Netherstorm";
 			GREY.."17) The Stormspire, ".._RED.."Netherstorm";
 			GREY.."18) Cosmowrench, ".._RED.."Netherstorm";
 			GREN.."1') Blackwind Landing, ".._RED.."Terokkar Forest";
-			GREN.."2') Skyguard Outpost, ".._RED.."Blade's Edge";
-			GREN..INDENT.."(Honored with Sha'tari Skyguard)";
+			GREN.."2') Skyguard Outpost, ".._RED.."Blade's Edge Mountains";
+			GREN..INDENT.."(Requires honored faction with Sha'tari Skyguard)";
 		};
 	};
 

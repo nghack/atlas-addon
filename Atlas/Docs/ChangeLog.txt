@@ -3,6 +3,11 @@
 ==============
 
 v1.10.4
+- the Atlas legend is quite a bit wider now
+- some artwork updates and tweaks, mostly for the scrollbar
+- added a button to toggle between entrances and instances
+- updated all the entrance map level ranges
+- with the wider legend, removed some instances of wrapping and abbreviation
 - tiny code fix for AtlasMajorCities (preliminary) (Andy)
 - tweaked the default position of the minimap button (Telchar)
 - renamed the five default Atlas plugins for a cleaner AddOns directory

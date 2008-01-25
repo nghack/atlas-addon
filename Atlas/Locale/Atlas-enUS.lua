@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -104,6 +104,7 @@ ATLAS_DDL_EXPANSION = "Expansion";
 ATLAS_DDL_EXPANSION_OLD = "Old World Instances";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
 
+ATLAS_ENTRANCE_INSTANCE_BUTTON = "Entrance/Instance";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -993,8 +994,7 @@ AtlasMaps = {
 		BLUE.."E) Stairs to Opera House Orchestra Level";
 		BLUE.."F) Ramp from Mezzanine to Balcony";
 		BLUE.."G) Back Entrance";
-		BLUE.."H) Connection to:";
-		BLUE..INDENT..INDENT.."Master's Terrace (Nightbane)";
+		BLUE.."H) Connection to Master's Terrace (Nightbane)";
 		BLUE.."I) Path to the Broken Stairs";
 		GREY.."1) Hastings <The Caretaker>";
 		GREY.."2) Hyakiss the Lurker (Rare, Random)";
@@ -1006,18 +1006,12 @@ AtlasMaps = {
 		GREY..INDENT.."Midnight";
 		GREY.."6) Koren <The Blacksmith>";
 		GREY.."7) Moroes";
-		GREY..INDENT.."Baroness Dorothea Millstipe";
-		GREY..INDENT..INDENT.."(Random, Shadow Priest)";
-		GREY..INDENT.."Lady Catriona Von'Indi";
-		GREY..INDENT..INDENT.."(Random, Holy Priest)";
-		GREY..INDENT.."Lady Keira Berrybuck";
-		GREY..INDENT..INDENT.."(Random, Holy Paladin)";
-		GREY..INDENT.."Baron Rafe Dreuger";
-		GREY..INDENT..INDENT.."(Random, Retribution Paladin)";
-		GREY..INDENT.."Lord Robin Daris";
-		GREY..INDENT..INDENT.."(Random, Arms Warrior)";
-		GREY..INDENT.."Lord Crispin Ference";
-		GREY..INDENT..INDENT.."(Random, Protection Warrior)";
+		GREY..INDENT.."Baroness Dorothea Millstipe (Random, Shadow Priest)";
+		GREY..INDENT.."Lady Catriona Von'Indi (Random, Holy Priest)";
+		GREY..INDENT.."Lady Keira Berrybuck (Random, Holy Paladin)";
+		GREY..INDENT.."Baron Rafe Dreuger (Random, Retribution Paladin)";
+		GREY..INDENT.."Lord Robin Daris (Random, Arms Warrior)";
+		GREY..INDENT.."Lord Crispin Ference (Random, Protection Warrior)";
 		GREY.."8) Bennett <The Sergeant at Arms>";
 		GREY.."9) Ebonlocke <The Noble>";
 		GREY.."10) Keanna's Log";
@@ -1040,14 +1034,10 @@ AtlasMaps = {
 		ORNG.."Key: The Master's Key";
 		BLUE.."I) Path to the Broken Stairs";
 		BLUE.."J) Broken Stairs";
-		BLUE.."K) Ramp to Guardian's Library";
-		BLUE..INDENT..INDENT.."(Shade of Aran)";
-		BLUE.."L) Suspicious Bookshelf";
-		BLUE..INDENT..INDENT.."(Passage to Illhoof)";
-		BLUE.."M) Ramp up to the Celestial Watch";
-		BLUE..INDENT..INDENT.."(Netherspite)";
-		BLUE..INDENT.."Ramp down to the Gamesman's Hall";
-		BLUE..INDENT..INDENT.."(Chess Event)";
+		BLUE.."K) Ramp to Guardian's Library (Shade of Aran)";
+		BLUE.."L) Suspicious Bookshelf (Passage to Illhoof)";
+		BLUE.."M) Ramp up to the Celestial Watch (Netherspite)";
+		BLUE..INDENT.."Ramp down to the Gamesman's Hall (Chess Event)";
 		BLUE.."N) Ramp to Medivh's Chamber";
 		BLUE.."O) Spiral Stairs to Netherspace (Prince)";
 		GREY.."16) The Curator";
@@ -1330,8 +1320,7 @@ AtlasMaps = {
 		GREY.."4) Shade of Akama";
 		GREY.."5) Spirit of Udalo";
 		GREY..INDENT.."Aluyen (Reagent Vendor)";
-		GREY..INDENT.."Okuno <Ashtongue Deathsworn";
-		GREY..INDENT..INDENT.."Quartermaster>";
+		GREY..INDENT.."Okuno <Ashtongue Deathsworn Quartermaster>";
 		GREY..INDENT.."Seer Kanai";
 	};
 	BlackTempleBasement = {

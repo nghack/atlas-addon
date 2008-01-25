@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/12/2008
+-- Last Update : 1/25/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -74,6 +74,8 @@ ATLAS_DDL_PARTYSIZE_20TO40 = "20-40人副本";
 ATLAS_DDL_EXPANSION = "资料片";
 ATLAS_DDL_EXPANSION_OLD = "旧世界副本";
 ATLAS_DDL_EXPANSION_BC = "《燃烧的远征》副本";
+
+ATLAS_ENTRANCE_INSTANCE_BUTTON = "入口/副本";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -162,6 +164,7 @@ AtlasMaps = {
 		GREY.."2) 阿格姆";
 		GREY.."3) 亡语者贾格巴";
 		GREY.."4) 主宰拉姆塔斯";
+		GREY..INDENT.."剃刀沼泽刺鬃守卫";
 		GREY.."5) 暴怒的阿迦赛罗斯";
 		GREY.."6) 盲眼猎手 (稀有)";
 		GREY.."7) 卡尔加·刺肋";
@@ -608,11 +611,12 @@ AtlasMaps = {
 		GREY.."2) 堕落的瓦拉斯塔兹";
 		GREY.."3) 勒什雷尔";
 		GREY.."4) 费尔默";
-		GREY.."5) 埃博诺克";
-		GREY.."6) 弗莱格尔";
-		GREY.."7) 克洛玛古斯";
-		GREY.."8) 奈法利安";
-		GREY.."9) 大元素师克里希克";
+		GREY..INDENT.."龙语傻瓜教程";
+		GREY.."5) 大元素师克里希克";
+		GREY.."6) 埃博诺克";
+		GREY.."7) 弗莱格尔";
+		GREY.."8) 克洛玛古斯";
+		GREY.."9) 奈法利安";
 	};
 	Gnomeregan = {
 		ZoneName = "诺莫瑞根";
@@ -743,18 +747,23 @@ AtlasMaps = {
 		BLUE.."B) 通道";
 		BLUE.."C) 通道";
 		BLUE..INDENT.."死亡之誓 (稀有)";
-		GREY.."1) 亡灵哨兵阿达曼特";
+		GREY.."1) 雷希戈尔";
 		GREY..INDENT.."巫师阿克鲁比";
-		GREY..INDENT.."雷希戈尔";
-		GREY.."2) 屠夫拉佐克劳";
-		GREY.."3) 席瓦莱恩男爵";
-		GREY.."4) 指挥官斯普林瓦尔";
-		GREY.."5) 盲眼守卫奥杜";
-		GREY.."6) 吞噬者芬鲁斯";
-		GREY.."7) 狼王南杜斯";
-		GREY.."8) 大法师阿鲁高";
-		GREY.."9) 地狱战马";
+		GREY..INDENT.."亡灵哨兵阿达曼特";
+		GREY..INDENT.."兰登·斯蒂维尔";
+		GREY.."2) 亡灵哨兵文森特";
+		GREY.."3) 地狱战马";
 		GREY..INDENT.."乔丹的铁锤";
+		GREY..INDENT.."铁锭箱";
+		GREY.."4) 屠夫拉佐克劳";
+		GREY.."5) 席瓦莱恩男爵";
+		GREY.."6) 指挥官斯普林瓦尔";
+		GREY.."7) 盲眼守卫奥杜";
+		GREY.."8) 吞噬者芬鲁斯";
+		GREY..INDENT.."阿鲁高的虚空行者";
+		GREY..INDENT.."乌尔之书";
+		GREY.."9) 狼王南杜斯";
+		GREY.."10) 大法师阿鲁高";
 	};
 	Stratholme = {
 		ZoneName = "斯坦索姆";
@@ -964,8 +973,7 @@ AtlasMaps = {
 		BLUE.."E) 通往歌剧院正厅的楼梯";
 		BLUE.."F) 楼座与露台间的斜坡";
 		BLUE.."G) 后门入口";
-		BLUE.."H) 通往:";
-		BLUE..INDENT..INDENT.."主宰的露台 (夜之魇)";
+		BLUE.."H) 通往主宰的露台 (夜之魇)";
 		BLUE.."I) 通往破碎阶梯的通道";
 		GREY.."1) 哈斯汀斯 <看管者>";
 		GREY.."2) 潜伏者希亚其斯 (稀有, 随机)";
@@ -977,18 +985,12 @@ AtlasMaps = {
 		GREY..INDENT.."午夜";
 		GREY.."6) 库雷恩 <铁匠>";
 		GREY.."7) 莫罗斯";
-		GREY..INDENT.."杜萝希·米尔斯提女伯爵";
-		GREY..INDENT..INDENT.."(随机, 暗影牧师)";
-		GREY..INDENT.."卡翠欧娜·冯因迪女伯爵";
-		GREY..INDENT..INDENT.."(随机, 神圣牧师)";
-		GREY..INDENT.."吉拉·拜瑞巴克女伯爵";
-		GREY..INDENT..INDENT.."(随机, 神圣圣骑士)";
-		GREY..INDENT.."拉弗·杜格尔男爵";
-		GREY..INDENT..INDENT.."(随机, 惩戒圣骑士)";
-		GREY..INDENT.."罗宾·达瑞斯伯爵";
-		GREY..INDENT..INDENT.."(随机, 武器战士)";
-		GREY..INDENT.."克里斯宾·费伦斯伯爵";
-		GREY..INDENT..INDENT.."(随机, 防护战士)";
+		GREY..INDENT.."杜萝希·米尔斯提女伯爵 (随机, 暗影牧师)";
+		GREY..INDENT.."卡翠欧娜·冯因迪女伯爵 (随机, 神圣牧师)";
+		GREY..INDENT.."吉拉·拜瑞巴克女伯爵 (随机, 神圣圣骑士)";
+		GREY..INDENT.."拉弗·杜格尔男爵 (随机, 惩戒圣骑士)";
+		GREY..INDENT.."罗宾·达瑞斯伯爵 (随机, 武器战士)";
+		GREY..INDENT.."克里斯宾·费伦斯伯爵 (随机, 防护战士)";
 		GREY.."8) 本内特 <警卫>";
 		GREY.."9) 埃伯洛克 <贵族>";
 		GREY.."10) 金娜的日记";
@@ -1011,16 +1013,12 @@ AtlasMaps = {
 		ORNG.."钥匙：麦迪文的钥匙";
 		BLUE.."I) 通往破碎阶梯的通道";
 		BLUE.."J) 破碎阶梯";
-		BLUE.."K) 通往守护者的图书馆的斜坡";
-		BLUE..INDENT..INDENT.."(埃兰之影)";
-		BLUE.."L) 奇怪的书架";
-		BLUE..INDENT..INDENT.."(特雷斯坦·邪蹄)";
-		BLUE.."M) 通往观星大厅的斜坡";
-		BLUE..INDENT..INDENT.."(虚空幽龙)";
-		BLUE..INDENT.."通往象棋大厅的斜坡";
-		BLUE..INDENT..INDENT.."(象棋事件)";
+		BLUE.."K) 通往守护者的图书馆的斜坡 (埃兰之影)";
+		BLUE.."L) 奇怪的书架 (特雷斯坦·邪蹄)";
+		BLUE.."M) 通往观星大厅的斜坡 (虚空幽龙)";
+		BLUE..INDENT.."通往象棋大厅的斜坡 (象棋事件)";
 		BLUE.."N) 通往麦迪文房间的斜坡";
-		BLUE.."O) 通往虚空异界的楼梯 (王子)";
+		BLUE.."O) 通往虚空异界的楼梯 (玛克扎尔王子)";
 		GREY.."16) 馆长";
 		GREY.."17) 拉维恩 <法师>";
 		GREY.."18) 格拉达夫 <术士>";
@@ -1301,8 +1299,7 @@ AtlasMaps = {
 		GREY.."4) 阿卡玛之影";
 		GREY.."5) 乌达鲁之魂";
 		GREY..INDENT.."奥鲁尤 <材料商>";
-		GREY..INDENT.."沃库诺";
-		GREY..INDENT..INDENT.."<灰舌死誓者军需官>";
+		GREY..INDENT.."沃库诺 <灰舌死誓者军需官>";
 		GREY..INDENT.."先知坎奈";
 	};
 	BlackTempleBasement = {
@@ -1343,11 +1340,35 @@ AtlasMaps = {
 		Acronym = "ZA";
 		BLUE.."A) 入口";
 		GREY.."1) 纳洛拉克 (野熊)";
+		GREY..INDENT.."坦扎尔";
+		GREY..INDENT.."巴德的祖阿曼地图";
 		GREY.."2) 埃基尔松 (雄鹰)";
+		GREY..INDENT.."哈考尔";
 		GREY.."3) 加亚莱 (龙鹰)";
+		GREY..INDENT.."克拉斯";
 		GREY.."4) 哈尔拉兹 (山猫)";
-		GREY.."5) 妖术领主玛拉卡斯";
-		GREY.."6) 祖尔金";
+		GREY..INDENT.."阿什莉";
+		GREY.."5) 苏加姆";
+		GREY.."6) 妖术领主玛拉卡斯";
+		GREY..INDENT.."索尔格 (随机)";
+		GREY..INDENT.."卡扎克洛斯 (随机)";
+		GREY..INDENT.."兰尔丹 (随机)";
+		GREY..INDENT.."黑心 (随机)";
+		GREY..INDENT.."阿莱松·安提雷 (随机)";
+		GREY..INDENT.."滑行者 (随机)";
+		GREY..INDENT.."沼泽猎手 (随机)";
+		GREY..INDENT.."库拉格 (随机)";
+		GREY.."7) 祖尔金";
+		GREN.."1') 丛林蛙，其原型为：";
+		GREN..INDENT.."凯雷";
+		GREN..INDENT.."冈特尔";
+		GREN..INDENT.."埃达尔拉";
+		GREN..INDENT.."布雷南";
+		GREN..INDENT.."达尔文";
+		GREN..INDENT.."迪斯";
+		GREN..INDENT.."加拉瑟林";
+		GREN..INDENT.."米兹";
+		GREN..INDENT.."曼努斯";
 	};
 };
 end

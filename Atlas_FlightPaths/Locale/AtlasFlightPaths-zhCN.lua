@@ -1,27 +1,11 @@
---[[
+﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
-	Email me at loglow@gmail.com
+-- Atlas Localization Data (Chinese)
+-- Initial translation by DiabloHu
+-- Version : Chinese (by DiabloHu)
+-- Last Update : 1/25/2008
+-- http://www.dreamgen.cn
 
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
-
-	last update: 11/25/2007
 --]]
 
 if ( GetLocale() == "zhCN" ) then
@@ -63,7 +47,7 @@ if ( GetLocale() == "zhCN" ) then
 			ZoneName = "联盟 [B] (西部)";
 			Location = "卡利姆多";
 			GREY.."1) 鲁瑟兰村, ".._RED.."泰达希尔";
-			GREY.."2) "..GREN.."永夜港"..GREY..", ".._RED.."月光林地";
+			GREY.."2) "..GREN.."永夜港"..GREY..", ".._RED.."月光林地 "..GREN.."(德鲁伊专用)";
 			GREY.."3) 月神湖旁小径南方, ".._RED.."月光林地";
 			GREY.."4) 永望镇, ".._RED.."冬泉谷";
 			GREY.."5) 奥伯丁, ".._RED.."黑海岸";
@@ -84,9 +68,6 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."20) 加基森, ".._RED.."塔纳利斯";
 			GREY.."21) 秘血岗哨, ".._RED.."秘血岛";
 			GREY.."22) 埃索达, ".._RED.."秘蓝岛";
-			"";
-			"";
-			GREN.."绿色: 德鲁伊专用";
 		};
 		FPHordeEast = {
 			ZoneName = "部落 [A] (东部)";
@@ -110,8 +91,8 @@ if ( GetLocale() == "zhCN" ) then
 		FPHordeWest = {
 			ZoneName = "部落 [B] (西部)";
 			Location = "卡利姆多";
-			GREY.."1) "..GREN.."永夜港"..GREY..", ".._RED.."月光林地";
-			GREY.."2) 月神湖旁小径南方, ".._RED.."月光林地";
+			GREY.."1) "..GREN.."永夜港"..GREY..", ".._RED.."月光林地 "..GREN.."(德鲁伊专用)";
+			GREY.."2) 通往木喉要塞道路西方, ".._RED.."月光林地";
 			GREY.."3) 永望镇, ".._RED.."冬泉谷";
 			GREY.."4) 血毒岗哨, ".._RED.."费物德森林";
 			GREY.."5) 翡翠圣地, ".._RED.."费物德森林";
@@ -132,9 +113,6 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."20) 马绍尔营地, ".._RED.."安戈洛环形山";
 			GREY.."21) 塞纳里奥要塞, ".._RED.."希利苏斯";
 			GREY.."22) 加基森, ".._RED.."塔纳利斯";
-			"";
-			"";
-			GREN.."绿色: 德鲁伊专用";
 		};
 		FPHordeOutland = {
 			ZoneName = "部落 [C] (外域)";
@@ -159,7 +137,7 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."18) 扳钳镇, ".._RED.."虚空风暴";
 			GREN.."1') 黑风码头, ".._RED.."泰罗卡森林";
 			GREN.."2') 天空卫队哨站, ".._RED.."刀锋山";
-			GREN..INDENT.."(沙塔尔天空卫队 - 尊敬)";
+			GREN..INDENT.."(需要沙塔尔天空卫队 - 尊敬)";
 		};
 		FPAllianceOutland = {
 			ZoneName = "联盟 [C] (外域)";
@@ -184,7 +162,7 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."18) 扳钳镇, ".._RED.."虚空风暴";
 			GREN.."1') 黑风码头, ".._RED.."泰罗卡森林";
 			GREN.."2') 天空卫队哨站, ".._RED.."刀锋山";
-			GREN..INDENT.."(沙塔尔天空卫队 - 尊敬)";
+			GREN..INDENT.."(需要沙塔尔天空卫队 - 尊敬)";
 		};
 	};
 

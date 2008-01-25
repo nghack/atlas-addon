@@ -1,27 +1,11 @@
---[[
+﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
-	Email me at loglow@gmail.com
+-- Atlas Localization Data (Chinese)
+-- Initial translation by DiabloHu
+-- Version : Chinese (by DiabloHu)
+-- Last Update : 1/25/2008
+-- http://www.dreamgen.cn
 
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
-
-	last update: 8/5/2007
 --]]
 
 if ( GetLocale() == "zhCN" ) then
@@ -44,23 +28,59 @@ if ( GetLocale() == "zhCN" ) then
 			ORNG.."阵营：雷矛卫队 (联盟)";
 			BLUE.."A) 入口";
 			BLUE.."B) 丹巴达尔 (联盟)";
-			_RED.."1) 雷矛急救站";
-			_RED.."2) 雷矛墓地";
-			_RED.."3) 石炉墓地";
-			_RED.."4) 落雪墓地";
-			ORNG.."5) 丹巴达尔北部碉堡";
+			BLUE..INDENT.."范达尔·雷矛 (联盟)";
+			BLUE..INDENT.."丹巴达尔北部统帅 (联盟)";
+			BLUE..INDENT.."丹巴达尔南部统帅 (联盟)";
+			BLUE..INDENT.."冰翼统帅 (联盟)";
+			BLUE..INDENT.."石炉统帅 (联盟)";
+			BLUE..INDENT.."勘查员塔雷·石镐 (联盟)";
+			GREY.."1) 深铁矿洞";
+			GREY..INDENT.."莫洛克 (中立)";
+			GREY..INDENT.."乌米·索尔森 (联盟)";
+			GREY..INDENT.."基塔尔 (部落)";
+			GREY.."2) 大德鲁伊雷弗拉尔 (联盟)";
+			ORNG.."3) 丹巴达尔北部碉堡";
 			GREY..INDENT.."空军指挥官穆维里克 (部落)";
-			ORNG.."6) 丹巴达尔南部碉堡";
-			ORNG.."7) 冰翼碉堡";
-			GREY..INDENT.."空军指挥官古斯 (部落)";
-			GREY..INDENT.."指挥官卡尔·菲利普 (联盟)";
-			ORNG.."8) 石炉哨站 (巴琳达)";
-			ORNG.."9) 石炉碉堡";
-			GREY.."10) 深铁矿洞";
+			GREY.."4) 莫高特·深炉 (联盟)";
+			GREY..INDENT.."德尔克 <赏金猎人> (联盟)";
+			GREY..INDENT.."亚斯拉玛尼斯 <赏金猎人> (联盟)";
+			GREY..INDENT.."兰纳·雷酒 <锻造供应商> (联盟)";
+			_RED.."5) 雷矛急救站";
+			GREY.."6) 雷矛兽栏管理员 <兽栏管理员> (联盟)";
+			GREY..INDENT.."雷矛山羊骑兵指挥官 (联盟)";
+			GREY..INDENT.."斯瓦尔布莱德·远山 <商人> (联盟)";
+			GREY..INDENT.."库德拉姆·麦须 <毒药和材料> (联盟)";
+			GREY.."7) 雷矛军需官 (联盟)";
+			GREY..INDENT.."约尼维拉·远山 <杂货商> (联盟)";
+			GREY..INDENT.."布罗古斯·雷酒 <食物和饮料> (联盟)";
+			GREY.."8) 空军指挥官艾克曼 (被营救)";
+			GREY..INDENT.."空军指挥官斯里多尔 (被营救)";
+			GREY..INDENT.."空军指挥官维波里 (被营救)";
+			ORNG.."9) 丹巴达尔南部碉堡";
+			GREY..INDENT.."诺雷格·雷矛中尉 (联盟)";
+			GREY..INDENT.."盖尔丁 <雷矛军需官> (联盟)";
+			_RED.."10) 雷矛墓地";
 			GREY.."11) 冰翼洞穴";
-			GREY.."12) 蒸汽锯 (部落)";
-			GREY.."13) 空军指挥官杰斯托 (部落)";
-			GREY.."14) 森林之王伊弗斯 (召唤区域)";
+			GREY..INDENT.."雷矛军旗";
+			GREY.."12) 雷矛伐木场";
+			GREY..INDENT.."空军指挥官杰斯托 (部落)";
+			ORNG.."13) 冰翼碉堡";
+			GREY..INDENT.."空军指挥官古斯 (部落)";
+			_RED.."14) 石炉墓地";
+			GREY.."15) 雷矛山羊骑兵指挥官 (联盟)";
+			ORNG.."16) 石炉哨站";
+			GREY..INDENT.."巴琳达·斯通赫尔斯 <雷矛上尉> (联盟)";
+			_RED.."17) 雪落墓地";
+			GREY..INDENT.."艾克曼的信号灯 (联盟)";
+			GREY..INDENT.."穆维里克的信号灯 (部落)";
+			ORNG.."18) 石炉碉堡";
+			GREY.."19) 森林之王伊弗斯 (召唤区域) (联盟)";
+			GREY.."20) 西部平原";
+			GREY..INDENT.."维波里的信号灯 (联盟)";
+			GREY..INDENT.."杰斯托的信号灯 (部落)";
+			GREY.."21) 东部平原";
+			GREY..INDENT.."斯里多尔的信号灯 (联盟)";
+			GREY..INDENT.."古斯的信号灯 (部落)";
 			"";
 			_RED.."红色:"..BLUE.." 墓地, 占领区域";
 			ORNG.."橙色:"..BLUE.." 碉堡, 哨塔, 摧毁区域";

@@ -1,24 +1,10 @@
---[[
+﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005, 2006 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-- Atlas Localization Data (Chinese)
+-- Initial translation by DiabloHu
+-- Version : Chinese (by DiabloHu)
+-- Last Update : 1/25/2008
+-- http://www.dreamgen.cn
 
 --]]
 
@@ -43,14 +29,14 @@ if ( GetLocale() == "zhCN" ) then
 		FourDragons = {
 			ZoneName = "梦魇巨龙";
 			Location = "多个位置";
-			GREY.."1) 黎明森林 - 暮色森林";
-			GREY.."2) 瑟拉丹 - 辛特兰";
+			GREY.."1) 黎明森林，".._RED.."暮色森林";
+			GREY.."2) 瑟拉丹，".._RED.."辛特兰";
 			GREY..INDENT.."洛索斯";
 			GREY..INDENT.."寻梦者";
-			GREY.."3) 梦境之树 - 菲拉斯";
+			GREY.."3) 梦境之树，".._RED.."菲拉斯";
 			GREY..INDENT.."莱萨拉斯";
 			GREY..INDENT.."睡梦咆哮者";
-			GREY.."4) 大树荫 - 灰谷";
+			GREY.."4) 大树荫，".._RED.."灰谷";
 			GREY..INDENT.."范迪姆";
 			GREY..INDENT.."巡梦者";
 			"";
@@ -68,7 +54,7 @@ if ( GetLocale() == "zhCN" ) then
 		};
 		DoomLordKazzak = {
 			ZoneName = "末日领主卡扎克";
-			Location = "地狱火平原";
+			Location = "地狱火半岛";
 			GREY.."1) 末日领主卡扎克";
 			GREY.."2) 登陆场：歼灭";
 			GREY.."3) 铸魔营地：狂乱";
@@ -80,6 +66,31 @@ if ( GetLocale() == "zhCN" ) then
 			Location = "影月谷";
 			GREY.."1) 末日行者";
 		};
+		Skettis = {
+			ZoneName = "斯克提斯";
+			Location = "黑风谷，泰罗卡森林";
+			GREY.."1) 黑风码头";
+			GREY..INDENT.."空军指挥官阿达利斯";
+			GREY..INDENT.."空军上尉杜尔因";
+			GREY..INDENT.."天空卫队训练师德萨克";
+			GREY..INDENT.."瑟维里";
+			GREY..INDENT.."格蕾拉";
+			GREY..INDENT.."哈吉克";
+			GREY.."2) 上古颅骨堆";
+			GREY..INDENT.."泰罗克 (召唤)";
+			GREY.."3) 萨哈克";
+			GREY.."4) 天空卫队囚犯 (召唤)";
+			GREY.."5) 鸦爪祭司伊沙尔";
+			GREY.."6) 鸦爪祭司斯卡基克";
+			GREY.."7) 鸦爪祭司塞尔利克";
+			GREY.."8) 哈吉克的包裹";
+			GREY.."9) 墓地";
+			GREN.."1') 颅骨堆";
+			GREN..INDENT.."黑暗尖啸者阿克卡莱 (召唤)";
+			GREN..INDENT.."猎手吉萨拉克 (召唤)";
+			GREN..INDENT.."卡尔洛格 (召唤)";
+			GREN..INDENT.."风怒者瓦克奇斯 (召唤)";
+		};
 	};
 
 	myData.Azuregos.LevelRange =			"60+";
@@ -87,12 +98,14 @@ if ( GetLocale() == "zhCN" ) then
 	myData.HighlordKruul.LevelRange =		"60+";
 	myData.DoomLordKazzak.LevelRange =		"70+";
 	myData.Doomwalker.LevelRange =			"70+";
+	myData.Skettis.LevelRange =				"70+";
 	
 	myData.Azuregos.PlayerLimit =			"40";
 	myData.FourDragons.PlayerLimit =		"40";
 	myData.HighlordKruul.PlayerLimit =		"40";
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =			"40";
+	myData.Skettis.PlayerLimit =			"40";
 
 	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 

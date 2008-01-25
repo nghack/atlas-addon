@@ -1,7 +1,7 @@
 <!--
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -26,7 +26,7 @@
 ..\FrameXML\UI.xsd">
 	<Button name = "AtlasEntryTemplate" hidden="true" virtual="true">
 		<Size>
-			<AbsDimension x="266" y="15" />
+			<AbsDimension x="442" y="15" />
 		</Size>
 		<Layers>
 			<Layer level="OVERLAY">
@@ -36,7 +36,7 @@
 	</Button>
 	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true">
 		<Size>
-			<AbsDimension x="837" y="604"/>
+			<AbsDimension x="1022" y="604"/>
 		</Size>
 		<Anchors>
  			<Anchor point="TOPLEFT">
@@ -121,7 +121,7 @@
 			</Button>
 			<EditBox name="AtlasSearchEditBox" inherits="InputBoxTemplate" letters="80">
 				<Size>
-					<AbsDimension x="138" y="32"></AbsDimension>
+					<AbsDimension x="184" y="32"></AbsDimension>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOMRIGHT">
@@ -142,6 +142,23 @@
 				</Scripts>
 				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
+			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_ENTRANCE_INSTANCE_BUTTON">
+				<Size>
+					<AbsDimension x="140" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="RIGHT" relativePoint="LEFT">
+						<Offset>
+							<AbsDimension x="-6" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						AtlasSwitchButton_OnClick();
+					</OnClick>
+				</Scripts>
+			</Button>
 			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
 				<Size>
 					<AbsDimension x="69" y="32"/>
@@ -199,7 +216,7 @@
 			</Button>
 			<ScrollFrame name="AtlasScrollBar" inherits="FauxScrollFrameTemplate">
 				<Size>
-					<AbsDimension x="266" y="382" />
+					<AbsDimension x="452" y="382" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">

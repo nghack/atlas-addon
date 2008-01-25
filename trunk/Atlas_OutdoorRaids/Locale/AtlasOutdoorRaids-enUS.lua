@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -43,14 +43,14 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		FourDragons = {
 			ZoneName = "Dragons of Nightmare";
 			Location = "Various";
-			GREY.."1) Twilight Grove - Duskwood";
-			GREY.."2) Seradane - The Hinterlands";
+			GREY.."1) Twilight Grove, ".._RED.."Duskwood";
+			GREY.."2) Seradane, ".._RED.."The Hinterlands";
 			GREY..INDENT.."Rothos";
 			GREY..INDENT.."Dreamtracker";
-			GREY.."3) Dream Bough - Feralas";
+			GREY.."3) Dream Bough, ".._RED.."Feralas";
 			GREY..INDENT.."Lethlas";
 			GREY..INDENT.."Dreamroarer";
-			GREY.."4) Bough Shadow - Ashenvale";
+			GREY.."4) Bough Shadow, ".._RED.."Ashenvale";
 			GREY..INDENT.."Phantim";
 			GREY..INDENT.."Dreamstalker";
 			"";
@@ -90,7 +90,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Severin";
 			GREY..INDENT.."Grella";
 			GREY..INDENT.."Hazzik";
-			GREY.."2)Ancient Skull Pile";
+			GREY.."2) Ancient Skull Pile";
 			GREY..INDENT.."Terokk (Summon)";
 			GREY.."3) Sahaak";
 			GREY.."4) Skyguard Prisoner (Random)";

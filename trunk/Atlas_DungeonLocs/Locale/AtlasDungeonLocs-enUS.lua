@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -38,12 +38,12 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		DLEast = {
 			ZoneName = "Dungeon Locations [A] (East)";
 			Location = "Eastern Kingdoms";
-			BLUE.."A) Alterac Valley, ".._RED.."Alterac / Hillsbrad";
+			BLUE.."A) Alterac Valley, ".._RED.."Alterac Mountains / Hillsbrad Foothills";
 			BLUE.."B) Arathi Basin, ".._RED.."Arathi Highlands";
 			GREY.."1) Zul'Aman, ".._RED.."Ghostlands";
 			GREY.."2) Scarlet Monastery, ".._RED.."Tirisfal Glade";
 			GREY.."3) Stratholme, ".._RED.."Eastern Plaguelands";
-			GREY..INDENT.."Naxxramas, ".._RED.."Plaguewood, E. Plaguelands";
+			GREY..INDENT.."Naxxramas, ".._RED.."Plaguewood, Eastern Plaguelands";
 			GREY.."4) Scholomance, ".._RED.."Western Plaguelands";
 			GREY.."5) Shadowfang Keep, ".._RED.."Silverpine Forest";
 			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh";

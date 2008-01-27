@@ -49,7 +49,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."9) Thelsamar, ".._RED.."Loch Modan";
 			GREY.."10) Thorium Point, ".._RED.."Searing Gorge";
 			GREY.."11) Morgan's Vigil, ".._RED.."Burning Steppes";
-			GREY.."12) Stormwind, ".._RED.."Elwyn Forest";
+			GREY.."12) Stormwind, ".._RED.."Elwynn Forest";
 			GREY.."13) Lakeshire, ".._RED.."Redridge Mountains";
 			GREY.."14) Sentinel Hill, ".._RED.."Westfall";
 			GREY.."15) Darkshire, ".._RED.."Duskwood";

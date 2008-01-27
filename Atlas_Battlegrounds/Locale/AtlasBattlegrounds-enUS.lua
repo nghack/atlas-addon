@@ -37,6 +37,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	local myData = {
 		AlteracValleyNorth = {
 			ZoneName = "Alterac Valley (North)";
+			Acronym = "AV";
 			Location = "Alterac Mountains";
 			ORNG.."Rep: Frostwolf Clan (Horde)";
 			ORNG.."Rep: Stormpike Guard (Alliance)";
@@ -102,6 +103,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 		AlteracValleySouth = {
 			ZoneName = "Alterac Valley (South)";
+			Acronym = "AV";
 			Location = "Hillsbrad Foothills";
 			ORNG.."Rep: Frostwolf Clan (Horde)";
 			ORNG.."Rep: Stormpike Guard (Alliance)";
@@ -131,6 +133,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 		ArathiBasin = {
 			ZoneName = "Arathi Basin";
+			Acronym = "AB";
 			Location = "Arathi Highlands";
 			ORNG.."Rep: The Defilers (Horde)";
 			ORNG.."Rep: League of Arathor (Alliance)";
@@ -144,6 +147,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 		WarsongGulch = {
 			ZoneName = "Warsong Gulch";
+			Acronym = "WSG";
 			Location = "Ashenvale / The Barrens";
 			ORNG.."Rep: Warsong Outriders (Horde)";
 			ORNG.."Rep: Silverwing Sentinels (Alliance)";
@@ -152,6 +156,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 		};
 		EyeOfTheStorm = {
 			ZoneName = "Eye of the Storm";
+			Acronym = "EotS";
 			Location = "Netherstorm";
 			BLUE.."A) Entrance (Alliance)";
 			BLUE.."B) Entrance (Horde)";

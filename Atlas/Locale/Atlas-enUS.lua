@@ -1055,7 +1055,7 @@ AtlasMaps = {
 	};
 	HCBloodFurnace = {
 		ZoneName = "HFC: The Blood Furnace";
-		Location = "Hellfire Citadel, HF Peninsula";
+		Location = "Hellfire Citadel, Hellfire Peninsula";
 		Acronym = "BF";
 		ORNG.."Rep: Thrallmar (Horde)";
 		ORNG.."Rep: Honor Hold (Alliance)";
@@ -1067,7 +1067,7 @@ AtlasMaps = {
 	};
 	HCTheShatteredHalls = {
 		ZoneName = "HFC: The Shattered Halls";
-		Location = "Hellfire Citadel, HF Peninsula";
+		Location = "Hellfire Citadel, Hellfire Peninsula";
 		Acronym = "SH";
 		ORNG.."Rep: Thrallmar (Horde)";
 		ORNG.."Rep: Honor Hold (Alliance)";
@@ -1090,7 +1090,7 @@ AtlasMaps = {
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HFC: Hellfire Ramparts";
-		Location = "Hellfire Citadel, HF Peninsula";
+		Location = "Hellfire Citadel, Hellfire Peninsula";
 		Acronym = "Ramp";
 		ORNG.."Rep: Thrallmar (Horde)";
 		ORNG.."Rep: Honor Hold (Alliance)";
@@ -1104,7 +1104,7 @@ AtlasMaps = {
 	};
 	HCMagtheridonsLair = {
 		ZoneName = "HFC: Magtheridon's Lair";
-		Location = "Hellfire Citadel, HF Peninsula";
+		Location = "Hellfire Citadel, Hellfire Peninsula";
 		Acronym = "Mag";
 		ORNG.."Rep: Thrallmar (Horde)";
 		ORNG.."Rep: Honor Hold (Alliance)";

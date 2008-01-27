@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -43,14 +43,14 @@ if ( GetLocale() == "deDE" ) then
 		FourDragons = {
 			ZoneName = "Alptraumdrachen";
 			Location = "Zufällig";
-			GREY.."1) Der Zwielichtshain - Dämmerwald";
-			GREY.."2) Seradane - Hinterland";
+			GREY.."1) Der Zwielichtshain, ".._RED.."Dämmerwald";
+			GREY.."2) Seradane, ".._RED.."Hinterland";
 			GREY..INDENT.."Rothos";
 			GREY..INDENT.."Traumsucher";
-			GREY.."3) Traumgeäst - Feralas";
+			GREY.."3) Traumgeäst, ".._RED.."Feralas";
 			GREY..INDENT.."Lethlas";
 			GREY..INDENT.."Traumbrüller";
-			GREY.."4) Schattengrün - Eschental";
+			GREY.."4) Schattengrün, ".._RED.."Eschental";
 			GREY..INDENT.."Phantim";
 			GREY..INDENT.."Traumpirscher";
 			"";
@@ -80,6 +80,31 @@ if ( GetLocale() == "deDE" ) then
 			Location = "Schattenmondtal, Der Schwarze Tempel";
 			GREY.."1) Verdammniswandler";
 		};
+		Skettis = {
+			ZoneName = "Skettis";
+			Location = "Schattenwindtal, Wälder von Terokkar";
+			GREY.."1) Schattenwindlager";
+			GREY..INDENT.."Himmelskommandant Adaris";
+			GREY..INDENT.."Himmelsoffizier Doryn";
+			GREY..INDENT.."Deesak der Tierführer der Himmelswache";
+			GREY..INDENT.."Severin";
+			GREY..INDENT.."Grella";
+			GREY..INDENT.."Hazzik";
+			GREY.."2) Uralter Schädelhaufen";
+			GREY..INDENT.."Terokk (Beschwörbar)";
+			GREY.."3) Sahaak";
+			GREY.."4) Gefangene Himmelswache (Zufällig)";
+			GREY.."5) Krallenpriester Ishaal";
+			GREY.."6) Krallenpriester Skizzik";
+			GREY.."7) Krallenpriester Zellek";
+			GREY.."8) Hazziks Päckchen";
+			GREY.."9) Friedhof";
+			GREN.."1') Schädelhaufen";
+			GREN..INDENT.."Dunkelkreischer Akkarai (Beschwörbar)";
+			GREN..INDENT.."Gezzarak die Jägerin (Beschwörbar)";
+			GREN..INDENT.."Karrog (Summon)";
+			GREN..INDENT.."Vakkiz der Windzürner (Beschwörbar)";
+		};
 	};
 
 	myData.Azuregos.LevelRange =			"60+";
@@ -87,12 +112,14 @@ if ( GetLocale() == "deDE" ) then
 	myData.HighlordKruul.LevelRange =		"60+";
 	myData.DoomLordKazzak.LevelRange =		"70+";
 	myData.Doomwalker.LevelRange =			"70+";
+	myData.Skettis.LevelRange =				"70+";
 	
 	myData.Azuregos.PlayerLimit =			"40";
 	myData.FourDragons.PlayerLimit =		"40";
 	myData.HighlordKruul.PlayerLimit =		"40";
 	myData.DoomLordKazzak.PlayerLimit =		"40";
 	myData.Doomwalker.PlayerLimit =			"40";
+	myData.Skettis.PlayerLimit =			"40";
 
 	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
 

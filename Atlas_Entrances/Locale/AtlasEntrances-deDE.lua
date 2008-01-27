@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -83,7 +83,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."1) Übermeister Pyron (Patrouilliert)";
 			GREY.."2) Lothos Felsspalter";
 			GREY.."3) Franclorn Schmiedevater (Geist)";
-			GREY.."4) BRD Versammlungsstein";
+			GREY.."4) BRT Versammlungsstein";
 			GREY.."5) Befehlskugel";
 			GREY.."6) BRS Versammlungsstein";
 			GREY.."7) Rüstmeister der Schmetterschilde";
@@ -111,7 +111,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."1) Aufzug";
 			GREY.."2) Transpolyporter";
 			GREY..INDENT.."Sprok"; 
-			GREY.."3) Matrix Punchograh 3005-A";
+			GREY.."3) Matrix-Prägograph 3005-A";
 			GREY..INDENT.."Namdo Blitzzischel"; 
 			GREY.."4) Techbot";
 		};
@@ -147,8 +147,8 @@ if ( GetLocale() == "deDE" ) then
 			BLUE..INDENT.."Versammlungsstein";
 			BLUE..INDENT.."Jade (Rar)";
 			BLUE.."B) Der Tempel von Atal'Hakkar";
-			GREY.."1) Kazkaz der Unheilige (oben)";
-			GREY.."2) Zekkis (Rar, unten)";
+			GREY.."1) Kazkaz der Unheilige (Oben)";
+			GREY.."2) Zekkis (Rar, Unten)";
 			GREY.."?) Veyzhack der Kannibale (Unbekannt)";
 		};
 		UldamanEnt = {
@@ -160,7 +160,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."1) Hammerzeh Grez";
 			GREY.."2) Magregan Grubenschatten (Patrouilliert)";
 			GREY.."3) Schrifttafel von Ryun'eh";
-			GREY.."4) Krom Stoutarms Truhe";
+			GREY.."4) Krom Starkarms Truhe";
 			GREY.."5) Familientruhe der Garretts";
 			GREN.."1') Grubenmeister Schaufelphlansch (Rar, Variiert)";
 		};
@@ -247,35 +247,34 @@ if ( GetLocale() == "deDE" ) then
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
+	myData.BlackfathomDeepsEnt.LevelRange =		"20-28";
+	myData.BlackrockSpireEnt.LevelRange =		"54-70";
+	myData.CoilfangReservoirEnt.LevelRange =	"61-70";
+	myData.GnomereganEnt.LevelRange =			"24-32";
+	myData.MaraudonEnt.LevelRange =				"42-51";
+	myData.TheDeadminesEnt.LevelRange =			"16-22";
+	myData.TheSunkenTempleEnt.LevelRange =		"46-53";
+	myData.UldamanEnt.LevelRange =				"36-42";
+	myData.WailingCavernsEnt.LevelRange =		"16-25";
+	myData.DireMaulEnt.LevelRange =				"55-60";
+	myData.CoTEnt.LevelRange =					"66-70";
+	myData.KarazhanEnt.LevelRange =				"70";
+	myData.SMEnt.LevelRange =					"28-42";
+	
 	myData.AuchindounEnt.PlayerLimit =			"5";
-	myData.BlackfathomDeepsEnt.LevelRange =		"20-35";
-	myData.BlackfathomDeepsEnt.PlayerLimit =		"10";
-	myData.BlackrockSpireEnt.LevelRange =		"52-70";
+	myData.BlackfathomDeepsEnt.PlayerLimit =	"10";
 	myData.BlackrockSpireEnt.PlayerLimit =		"5/10/40";
-	myData.CoilfangReservoirEnt.LevelRange =		"61-70";
-	myData.CoilfangReservoirEnt.PlayerLimit =		"5/25";
-	myData.GnomereganEnt.LevelRange =			"24-40";
+	myData.CoilfangReservoirEnt.PlayerLimit =	"5/25";
 	myData.GnomereganEnt.PlayerLimit =			"10";
-	myData.MaraudonEnt.LevelRange =			"40-58";
 	myData.MaraudonEnt.PlayerLimit =			"10";
-	myData.TheDeadminesEnt.LevelRange =			"15-28";
 	myData.TheDeadminesEnt.PlayerLimit =		"10";
-	myData.TheSunkenTempleEnt.LevelRange =		"44-60";
 	myData.TheSunkenTempleEnt.PlayerLimit =		"10";
-	myData.UldamanEnt.LevelRange =			"35-52";
-	myData.UldamanEnt.PlayerLimit =			"10";
-	myData.WailingCavernsEnt.LevelRange =		"15-28";
+	myData.UldamanEnt.PlayerLimit =				"10";
 	myData.WailingCavernsEnt.PlayerLimit =		"10";
-	myData.DireMaulEnt.LevelRange =			"54-61";
 	myData.DireMaulEnt.PlayerLimit =			"5";
-	myData.CoTEnt.LevelRange =				"66-70";
-	myData.CoTEnt.PlayerLimit =				"5/25";
-
-	myData.KarazhanEnt.LevelRange =			"70";
+	myData.CoTEnt.PlayerLimit =					"5/25";
 	myData.KarazhanEnt.PlayerLimit =			"10";
-
-	myData.SMEnt.LevelRange =				"29-45";
-	myData.SMEnt.PlayerLimit =				"10";
+	myData.SMEnt.PlayerLimit =					"10";
 
 	Atlas_RegisterPlugin("Atlas_Entrances", myCategory, myData);
 

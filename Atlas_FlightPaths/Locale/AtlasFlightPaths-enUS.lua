@@ -99,7 +99,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."11) Kargath, ".._RED.."Badlands";
 			GREY.."12) Flame Crest, ".._RED.."Burning Steppes";
 			GREY.."13) Stonard, ".._RED.."Swamp of Sorrows";
-			GREY.."14) Grom'Gol, ".._RED.."Stranglethorn Vale";
+			GREY.."14) Grom'Gol Base Camp, ".._RED.."Stranglethorn Vale";
 			GREY.."15) Booty Bay, ".._RED.."Stranglethorn Vale";
 		};
 		FPHordeWest = {

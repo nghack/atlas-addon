@@ -94,6 +94,7 @@ function AtlasOptions_Init()
 end
 
 function AtlasOptions_ResetPosition()
+	AtlasFrame:ClearAllPoints();
 	AtlasFrame:SetPoint("TOPLEFT", 0, -104);
 	AtlasOptions.AtlasButtonPosition = 356;
 	AtlasOptions.AtlasButtonRadius = 78;

@@ -26,7 +26,7 @@
 ..\FrameXML\UI.xsd">
 	<Button name = "AtlasEntryTemplate" hidden="true" virtual="true">
 		<Size>
-			<AbsDimension x="442" y="15" />
+			<AbsDimension x="342" y="15" />
 		</Size>
 		<Layers>
 			<Layer level="OVERLAY">
@@ -36,7 +36,7 @@
 	</Button>
 	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true">
 		<Size>
-			<AbsDimension x="1022" y="604"/>
+			<AbsDimension x="921" y="601"/>
 		</Size>
 		<Anchors>
  			<Anchor point="TOPLEFT">
@@ -121,12 +121,12 @@
 			</Button>
 			<EditBox name="AtlasSearchEditBox" inherits="InputBoxTemplate" letters="80">
 				<Size>
-					<AbsDimension x="184" y="32"></AbsDimension>
+					<AbsDimension x="144" y="32"></AbsDimension>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="-148" y="18"/>
+							<AbsDimension x="-147" y="15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -142,9 +142,9 @@
 				</Scripts>
 				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
-			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_ENTRANCE_INSTANCE_BUTTON">
+			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox">
 				<Size>
-					<AbsDimension x="140" y="20"/>
+					<AbsDimension x="80" y="20"/>
 				</Size>
 				<Anchors>
 					<Anchor point="RIGHT" relativePoint="LEFT">
@@ -216,7 +216,7 @@
 			</Button>
 			<ScrollFrame name="AtlasScrollBar" inherits="FauxScrollFrameTemplate">
 				<Size>
-					<AbsDimension x="452" y="382" />
+					<AbsDimension x="351" y="382" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
@@ -236,7 +236,7 @@
 			</ScrollFrame>
 			<Frame name="AtlasSearchContainer">
 				<Size>
-					<AbsDimension x="281" y="32" />
+					<AbsDimension x="362" y="32" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
@@ -247,15 +247,11 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<FontString name="AtlasNoSearch" inherits="GameFontDisableSmall" text="Search Unavailable">
+						<FontString name="AtlasNoSearch" inherits="GameFontDisableSmall" text="ATLAS_SEARCH_UNAVAIL">
 							<Anchors>
-								<Anchor point="CENTER">
-									<Offset>
-										<AbsDimension x="0" y="1"/>
-									</Offset>
-								</Anchor>
+								<Anchor point="CENTER" />
 							</Anchors>
-							<Color r="1" g="1" b="1" a="0.2"/>
+							<Color r="1" g="1" b="1" a="0.4"/>
 						</FontString>
 					</Layer>
 				</Layers>

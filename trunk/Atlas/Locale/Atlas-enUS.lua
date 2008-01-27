@@ -104,7 +104,9 @@ ATLAS_DDL_EXPANSION = "Expansion";
 ATLAS_DDL_EXPANSION_OLD = "Old World Instances";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
 
-ATLAS_ENTRANCE_INSTANCE_BUTTON = "Entrance/Instance";
+ATLAS_INSTANCE_BUTTON = "Instance";
+ATLAS_ENTRANCE_BUTTON = "Entrance";
+ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",

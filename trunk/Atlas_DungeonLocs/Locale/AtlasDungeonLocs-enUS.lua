@@ -41,7 +41,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			BLUE.."A) Alterac Valley, ".._RED.."Alterac Mountains / Hillsbrad Foothills";
 			BLUE.."B) Arathi Basin, ".._RED.."Arathi Highlands";
 			GREY.."1) Zul'Aman, ".._RED.."Ghostlands";
-			GREY.."2) Scarlet Monastery, ".._RED.."Tirisfal Glade";
+			GREY.."2) Scarlet Monastery, ".._RED.."Tirisfal Glades";
 			GREY.."3) Stratholme, ".._RED.."Eastern Plaguelands";
 			GREY..INDENT.."Naxxramas, ".._RED.."Plaguewood, Eastern Plaguelands";
 			GREY.."4) Scholomance, ".._RED.."Western Plaguelands";

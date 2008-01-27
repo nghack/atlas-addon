@@ -91,10 +91,10 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			ORNG.."18) Stonehearth Bunker";
 			GREY.."19) Ivus the Forest Lord (Summon Zone)";
 			GREY.."20) Western Crater";
-			GREY..INDENT.."Vipore's Beacon (Alliance)";
+			GREY..INDENT.."Vipore's Beacon";
 			GREY..INDENT.."Jeztor's Beacon (Horde)";
 			GREY.."21) Eastern Crater";
-			GREY..INDENT.."Slidore's Beacon (Alliance)";
+			GREY..INDENT.."Slidore's Beacon";
 			GREY..INDENT.."Guse's Beacon (Horde)";
 			"";
 			_RED.."Red:"..BLUE.." Graveyards, Capturable Areas";

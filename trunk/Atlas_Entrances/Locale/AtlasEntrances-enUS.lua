@@ -111,7 +111,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."1) Elevator";
 			GREY.."2) Transpolyporter";
 			GREY..INDENT.."Sprok";
-			GREY.."3) Matrix Punchograh 3005-A";
+			GREY.."3) Matrix Punchograph 3005-A";
 			GREY..INDENT.."Namdo Bizzfizzle";
 			GREY.."4) Techbot";
 		};
@@ -161,7 +161,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."2) Magregan Deepshadow (Patrols)";
 			GREY.."3) Tablet of Ryun'Eh";
 			GREY.."4) Krom Stoutarm's Chest";
-			GREY.."5) Garrett's Family Chest";
+			GREY.."5) Garrett Family Chest";
 			GREN.."1') Digmaster Shovelphlange (Rare, Varies)";
 		};
 		WailingCavernsEnt = {

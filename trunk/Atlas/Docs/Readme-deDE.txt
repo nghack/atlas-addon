@@ -1,5 +1,5 @@
 Atlas, ein World-of-Warcraft-Instanzkarten-Browser
-Copyright 2005 - 2007 Dan Gilbert
+Copyright 2005 - 2008 Dan Gilbert
 Schreib mir an: loglow@gmail.com
 
 

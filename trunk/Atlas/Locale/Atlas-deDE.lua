@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -31,7 +31,7 @@
 -- Lokalisation: Nihlo (ICQ: 260-869-930), Dynaletik (ICQ: 176-289-585), Telchar (ICQ: 391-632-535)
 -- und noch unzählige Andere...Vielen Dank!
 --
--- Letztes Update: 26.11.2007
+-- Letztes Update: 27.01.2008
 
 --]]
 
@@ -115,6 +115,7 @@ ATLAS_DDL_EXPANSION = "Expansion";
 ATLAS_DDL_EXPANSION_OLD = "Instanzen der alten Welt";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instanzen";
 
+ATLAS_ENTRANCE_INSTANCE_BUTTON = "Eingang/Instanz";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -193,6 +194,7 @@ AtlasMaps = {
 		GREY.."2) Aggem Dornfluch";
 		GREY.."3) Todessprecher Jargba";
 		GREY.."4) Oberanführer Rammhauer";
+		GREY..INDENT.."Speerträger der Klingenhauer";
 		GREY.."5) Agathelos der Tobende";
 		GREY.."6) Blinder Jäger (Rar)";
 		GREY.."7) Charlga Klingenflanke";
@@ -219,7 +221,7 @@ AtlasMaps = {
 		ZoneName = "Zul'Farrak";
 		Acronym = "ZF";
 		Location = "Tanaris";
-		ORNG.."Key: Schlaghammer von Zul'Farrak (Gahz'rilla)";
+		ORNG.."Schlüssel: Schlaghammer von Zul'Farrak (Gahz'rilla)";
 		BLUE.."A) Eingang";
 		GREY.."1) Antu'sul";
 		GREY.."2) Theka der Märtyrer";
@@ -246,7 +248,7 @@ AtlasMaps = {
 		ZoneName = "Maraudon";
 		Acronym = "Mara, Mauro";
 		Location = "Desolace";
-		ORNG.."Key: Szepter von Celebras (Portal)";
+		ORNG.."Schlüssel: Szepter von Celebras (Portal)";
 		BLUE.."A) Eingang (Orange)";
 		BLUE.."B) Eingang (Lila)";
 		BLUE.."C) Eingang (Portal)";
@@ -267,7 +269,7 @@ AtlasMaps = {
 		ZoneName = "Düsterbruch (Ost)";
 		Acronym = "DM Ost";
 		Location = "Feralas";
-		ORNG.."Key: Räuchergefäß der Anrufung (DS2)";
+		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Eingang";
 		BLUE.."C) Eingang";
@@ -286,7 +288,7 @@ AtlasMaps = {
 		ZoneName = "Düsterbruch (Nord)";
 		Acronym = "DM Nord";
 		Location = "Feralas";
-		ORNG.."Key: Mondsichelschlüssel";
+		ORNG.."Schlüssel: Mondsichelschlüssel";
 		BLUE.."A) Eingang";
 		BLUE.."B) Bücherei";
 		GREY.."1) Wache Mol'dar";
@@ -302,8 +304,8 @@ AtlasMaps = {
 		ZoneName = "Düsterbruch (West)";
 		Acronym = "DM West";
 		Location = "Feralas";
-		ORNG.."Key: Mondsichelschlüssel";
-		ORNG.."Key: J'eevees Glas (Hel'nurath)";
+		ORNG.."Schlüssel: Mondsichelschlüssel";
+		ORNG.."Schlüssel: J'eevees Glas (Hel'nurath)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Pylonen";
 		GREY.."1) Uralte Shen'dralar";
@@ -330,7 +332,7 @@ AtlasMaps = {
 		Acronym = "Ony";
 		Location = "Düstermarschen";
 		ORNG.."Zugangsquest erforderlich";
-		ORNG.."Key: Drachenfeueramulett";
+		ORNG.."Schlüssel: Drachenfeueramulett";
 		BLUE.."A) Eingang";
 		GREY.."1) Onyxias Wärter";
 		GREY.."2) Welpeneier";
@@ -393,7 +395,7 @@ AtlasMaps = {
 		PURP.."Ereignis: Öffnung des Dunklen Portals";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hüter der Zeit";
-		ORNG.."Key: Schlüssel der Zeit (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel der Zeit (Heroisch)";
 		BLUE.."A) Eingang";
 		BLUE..INDENT.."Sa'at";
 		ORNG.."X) Portal (Spawnpunkt)";
@@ -431,7 +433,7 @@ AtlasMaps = {
 		PURP.."Ereignis: Flucht aus Burg Durnholde";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hüter der Zeit";
-		ORNG.."Key: Schlüssel der Zeit (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel der Zeit (Heroisch)";
 		BLUE.."A) Eingang";
 		BLUE..INDENT.."Erozion";
 		BLUE..INDENT.."Brazen";
@@ -500,9 +502,9 @@ AtlasMaps = {
 		ZoneName = "Schwarzfelstiefen";
 		Acronym = "BRT";
 		Location = "Der Schwarzfels";
-		ORNG.."Key: Schlüssel zur Schattenschmiede";
-		ORNG.."Key: Gefängniszellenschlüssel (Gefängnisausbruch)";
-		ORNG.."Key: Banner der Provokation (Theldren)";
+		ORNG.."Schlüssel: Schlüssel zur Schattenschmiede";
+		ORNG.."Schlüssel: Gefängniszellenschlüssel (Gefängnisausbruch)";
+		ORNG.."Schlüssel: Banner der Provokation (Theldren)";
 		BLUE.."A) Eingang";
 		GREY.."1) Lord Roccor";
 		GREY.."2) Kharan Hammermacht";
@@ -568,7 +570,7 @@ AtlasMaps = {
 		ZoneName = "Schwarzfelsspitze (Unten)";
 		Acronym = "LBRS";
 		Location = "Der Schwarzfels";
-		ORNG.."Key: Räuchergefäß der Anrufung (DS2)";
+		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Obere Schwarzfelsspitze (UBRS)";
 		BLUE.."C-F) Verbindungen";
@@ -605,8 +607,8 @@ AtlasMaps = {
 		ZoneName = "Schwarzfelsspitze (Oben)";
 		Acronym = "UBRS";
 		Location = "Der Schwarzfels";
-		ORNG.."Key: Siegel des Aufstiegs";
-		ORNG.."Key: Räuchergefäß der Anrufung (DS2)";
+		ORNG.."Schlüssel: Siegel des Aufstiegs";
+		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Untere Schwarzfelsspitze (LBRS)";
 		BLUE.."C-E) Verbindungen";
@@ -639,17 +641,18 @@ AtlasMaps = {
 		GREY.."2) Vaelastrasz der Verdorbene";
 		GREY.."3) Brutwächter Dreschbringer";
 		GREY.."4) Feuerschwinge";
-		GREY.."5) Schattenschwinge";
-		GREY.."6) Flammenmaul";
-		GREY.."7) Chromaggus";
-		GREY.."8) Nefarian";
-		GREY.."9) Meisterelementarformer Krixix";
+		GREY..INDENT.."Drachisch für Dummies";
+		GREY.."5) Meisterelementarformer Krixix";
+		GREY.."6) Schattenschwinge";
+		GREY.."7) Flammenmaul";
+		GREY.."8) Chromaggus";
+		GREY.."9) Nefarian";
 	};
 	Gnomeregan = {
 		ZoneName = "Gnomeregan";
 		Acronym = "Gnome";
 		Location = "Dun Morogh";
-		ORNG.."Key: Werkstattschlüssel (Hintertür)";
+		ORNG.."Schlüssel: Werkstattschlüssel (Hintertür)";
 		BLUE.."A) Eingang (Vordertür)";
 		BLUE.."B) Eingang (Hintertür)";
 		GREY.."1) Sprengmeisterin Emi Schnellzünd";
@@ -676,7 +679,7 @@ AtlasMaps = {
 		Location = "Schwarzfelstiefen";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hydraxianer";
-		ORNG.."Key: Wässrige/Ewige Quintessenz (Boss)";
+		ORNG.."Schlüssel: Wässrige/Ewige Quintessenz (Boss)";
 		BLUE.."A) Eingang";
 		GREY.."1) Lucifron";
 		GREY.."2) Magmadar";
@@ -701,7 +704,7 @@ AtlasMaps = {
 		ZoneName = "SK: Waffenkammer";
 		Acronym = "Waffenkammer";
 		Location = "Das scharlachrote Kloster, Tirisfal";
-		ORNG.."Key: Der scharlachrote Schlüssel";
+		ORNG.."Schlüssel: Der scharlachrote Schlüssel";
 		BLUE.."A) Eingang";
 		GREY.."1) Herod";
 	};
@@ -709,7 +712,7 @@ AtlasMaps = {
 		ZoneName = "SK: Kathedrale";
 		Acronym = "Kathe";
 		Location = "Das scharlachrote Kloster, Tirisfal";
-		ORNG.."Key: Der scharlachrote Schlüssel";
+		ORNG.."Schlüssel: Der scharlachrote Schlüssel";
 		BLUE.."A) Eingang";
 		GREY.."1) Hochinquisitor Schönufer";
 		GREY.."2) Scharlachroter Kommandant Mograine";
@@ -734,11 +737,11 @@ AtlasMaps = {
 		Acronym = "Scholo";
 		Location = "Westliche Pestländer";
 		ORNG.."Ruf: Argentumdämmerung";
-		ORNG.."Key: Skelettschlüssel";
-		ORNG.."Key: Schlüssel zum Vorführraum (Vorführraum)";
-		ORNG.."Key: Das Blut Unschuldiger (Kirtonos)";
-		ORNG.."Key: Räuchergefäß der Anrufung (DS2)";
-		ORNG.."Key: Orakel der Anrufung (Schattensichel)";
+		ORNG.."Schlüssel: Skelettschlüssel";
+		ORNG.."Schlüssel: Schlüssel zum Vorführraum (Vorführraum)";
+		ORNG.."Schlüssel: Das Blut Unschuldiger (Kirtonos)";
+		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
+		ORNG.."Schlüssel: Orakel der Anrufung (Schattensichel)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Treppe";
 		BLUE.."C) Treppe";
@@ -774,28 +777,33 @@ AtlasMaps = {
 		BLUE.."B) Gang";
 		BLUE.."C) Gang";
 		BLUE..INDENT.."Todeshöriger Hauptmann (Rar)";
-		GREY.."1) Todespirscher Adamant";
+		GREY.."1) Rotkralle";
 		GREY..INDENT.."Zauberhexer Aschengrund";
-		GREY..INDENT.."Rotkralle";
-		GREY.."2) Klingenklaue der Metzger";
-		GREY.."3) Baron Silberlein";
-		GREY.."4) Kommandant Grünthal";
-		GREY.."5) Odo der Blindseher";
-		GREY.."6) Fenrus der Verschlinger";
-		GREY.."7) Wolfmeister Nandos";
-		GREY.."8) Erzmagier Arugal";
-		GREY.."9) Teufelsross";
+		GREY..INDENT.."Todespirscher Adamant";
+		GREY..INDENT.."Landen Stillbrunn";
+		GREY.."2) Todespirscher Vincent";
+		GREY.."3) Teufelsross";
 		GREY..INDENT.."Jordans Hammer";
+		GREY..INDENT.."Kiste mit Blöcken";
+		GREY.."4) Klingenklaue der Metzger";
+		GREY.."5) Baron Silberlein";
+		GREY.."6) Kommandant Grünthal";
+		GREY.."7) Odo der Blindseher";
+		GREY.."8) Fenrus der Verschlinger";
+		GREY..INDENT.."Arugals Leerwandler";
+		GREY..INDENT.."Das Buch von Ur";
+		GREY.."9) Wolfmeister Nandos";
+		GREY.."10) Erzmagier Arugal";
 	};
 	Stratholme = {
 		ZoneName = "Stratholme";
 		Acronym = "Strat";
 		Location = "Östliche Pestländer";
 		ORNG.."Ruf: Argentumdämmerung";
-		ORNG.."Key: Der scharlachrote Schlüssel (Scharlachrote Seite)";
-		ORNG.."Key: Schlüssel zur Stadt (Untoten Seite)";
-		ORNG.."Key: Briefkastenschlüssel (Postmeister)";
-		ORNG.."Key: Räuchergefäß der Anrufung (DS2)";
+		ORNG.."Schlüssel: Der scharlachrote Schlüssel (Scharlachrote Seite)";
+		ORNG.."Schlüssel: Schlüssel zur Stadt (Untoten Seite)";
+		ORNG.."Schlüssel: Briefkastenschlüssel (Postmeister)";
+		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
 		BLUE.."A) Eingang (Vorne)";
 		BLUE.."B) Eingang (Seite)";
 		GREY.."1) Skul (Rar, Variiert)";
@@ -868,7 +876,7 @@ AtlasMaps = {
 		ZoneName = "Der Tempel von Atal'Hakkar";
 		Acronym = "Tempel";
 		Location = "Sümpfe des Elends";
-		ORNG.."Key: Yeh'kinyas Rolle (Avatar von Hakkar)";
+		ORNG.."Schlüssel: Yeh'kinyas Rolle (Avatar von Hakkar)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Treppe";
 		BLUE.."C) Troll Minibosse (Oben)";
@@ -897,7 +905,7 @@ AtlasMaps = {
 		ZoneName = "Uldaman";
 		Acronym = "Ulda";
 		Location = "Ödland";
-		ORNG.."Key: Stab der Prähistorie (Ironaya)";
+		ORNG.."Schlüssel: Stab der Prähistorie (Ironaya)";
 		BLUE.."A) Eingang (Vorne)";
 		BLUE.."B) Eingang (Hinten)";
 		GREY.."1) Baelog";
@@ -924,7 +932,7 @@ AtlasMaps = {
 		Acronym = "ZG";
 		Location = "Schlingendorntal";
 		ORNG.."Ruf: Stamm der Zandalar";
-		ORNG.."Key: Matschstinkerköder (Gahz'ranka)";
+		ORNG.."Schlüssel: Matschstinkerköder (Gahz'ranka)";
 		BLUE.."A) Eingang";
 		GREY.."1) Hohepriesterin Jeklik (Fledermaus)";
 		GREY.."2) Hohepriester Venoxis (Schlange)";
@@ -949,7 +957,7 @@ AtlasMaps = {
 	Naxxramas = {
 		ZoneName = "Naxxramas";
 		Acronym = "Naxx";
-		Location = "Pestwald, Die Östliche Pestländer";
+		Location = "Pestwald, Östliche Pestländer";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Argentumdämmerung";
 		BLUE.."A) Eingang";
@@ -986,8 +994,8 @@ AtlasMaps = {
 		Location = "Gebirgspass der Totenwinde"; 
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Das Violette Auge";
-		ORNG.."Key: Der Schlüssel des Meisters";
-		ORNG.."Key: Geschwärzte Urne (Schrecken der Nacht)";
+		ORNG.."Schlüssel: Der Schlüssel des Meisters";
+		ORNG.."Schlüssel: Geschwärzte Urne (Schrecken der Nacht)";
 		BLUE.."A) Eingang (Vorne)";
 		BLUE.."B) Treppen zum Ballsaal (Moroes)";
 		BLUE.."C) Treppen zum Oberen Stall";
@@ -995,8 +1003,7 @@ AtlasMaps = {
 		BLUE.."E) Treppen zur Opernhaus Orchester Ebene";
 		BLUE.."F) Rampe vom Zwischengeschoss zum Balkon";
 		BLUE.."G) Eingang (Hinten)";
-		BLUE.."H) Verbindung zu:";
-		BLUE..INDENT..INDENT.."Terrasse des Meisters (Schrecken der Nacht)";
+		BLUE.."H) Verbindung zur Terrasse des Meisters (Schrecken der Nacht)";
 		BLUE.."I) Weg zur Beschädigten Treppe";
 		GREY.."1) Hastings <Der Hauswart>";
 		GREY.."2) Hyakiss der Lauerer (Rar, Zufällig)";
@@ -1008,18 +1015,12 @@ AtlasMaps = {
 		GREY..INDENT.."Mittnacht";
 		GREY.."6) Koren <Der Schmied>";
 		GREY.."7) Moroes";
-		GREY..INDENT.."Baroness Dorothea Mühlenstein";
-		GREY..INDENT..INDENT.."(Zufällig, Schatten Priesterin)";
-		GREY..INDENT.."Lady Catriona Von'Indi";
-		GREY..INDENT..INDENT.."(Zufällig, Heilig Priesterin)";
-		GREY..INDENT.."Lady Keira Beerhas";
-		GREY..INDENT..INDENT.."(Zufällig, Heilig Paladin)";
-		GREY..INDENT.."Baron Rafe Dreuger";
-		GREY..INDENT..INDENT.."(Zufällig, Vergeltungs Paladin)";
-		GREY..INDENT.."Lord Robin Daris";
-		GREY..INDENT..INDENT.."(Zufällig, Offensiv Krieger)";
-		GREY..INDENT.."Lord Crispin Ference";
-		GREY..INDENT..INDENT.."(Zufällig, Defensiv Krieger)";
+		GREY..INDENT.."Baroness Dorothea Mühlenstein (Zufällig, Schatten Priesterin)";
+		GREY..INDENT.."Lady Catriona Von'Indi (Zufällig, Heilig Priesterin)";
+		GREY..INDENT.."Lady Keira Beerhas (Zufällig, Heilig Paladin)";
+		GREY..INDENT.."Baron Rafe Dreuger (Zufällig, Vergeltungs Paladin)";
+		GREY..INDENT.."Lord Robin Daris (Zufällig, Offensiv Krieger)";
+		GREY..INDENT.."Lord Crispin Ference (Zufällig, Defensiv Krieger)";
 		GREY.."8) Bennett <Die Schutzwache>";
 		GREY.."9) Schwarzhaupt <Der Adlige>";
 		GREY.."10) Keannas Aufzeichnungen";
@@ -1039,17 +1040,13 @@ AtlasMaps = {
 		Location = "Gebirgspass der Totenwinde"; 
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Das Violette Auge";
-		ORNG.."Key: Der Schlüssel des Meisters";
+		ORNG.."Schlüssel: Der Schlüssel des Meisters";
 		BLUE.."I) Weg zur Beschädigten Treppe";
 		BLUE.."J) Beschädigte Treppe";
-		BLUE.."K) Rampe zur Bibliothek der Beschützer";
-		BLUE..INDENT..INDENT.."(Arans Schemen)";
-		BLUE.."L) Verdächtiges Bücherregal";
-		BLUE..INDENT..INDENT.."(Passage zu Siechhuf)";
-		BLUE.."M) Rampe nach oben zur Himmelswacht";
-		BLUE..INDENT..INDENT.."(Nethergroll)";
-		BLUE..INDENT.."Rampe nach unten zur Halle der Spieler";
-		BLUE..INDENT..INDENT.."(Schachevent)";
+		BLUE.."K) Rampe zur Bibliothek der Beschützer (Arans Schemen)";
+		BLUE.."L) Verdächtiges Bücherregal (Passage zu Siechhuf)";
+		BLUE.."M) Rampe nach oben zur Himmelswacht (Nethergroll)";
+		BLUE..INDENT.."Rampe nach unten zur Halle der Spieler (Schachevent)";
 		BLUE.."N) Rampe zu Medivhs Kammer";
 		BLUE.."O) Wendeltreppe zum Netherraum (Prinz)";
 		GREY.."16) Der Kurator";
@@ -1067,11 +1064,11 @@ AtlasMaps = {
 	};
 	HCBloodFurnace = {
 		ZoneName = "HZ: Der Blutkessel";
-		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
+		Location = "Höllenfeuerzitadelle, Höllenfeuerhalbinsel";
 		Acronym = "BK";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
-		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Flammengeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Der Schöpfer";
 		GREY.."2) Broggok";
@@ -1079,12 +1076,12 @@ AtlasMaps = {
 	};
 	HCTheShatteredHalls = {
 		ZoneName = "HZ: Die zerschmetterten Hallen";
-		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
+		Location = "Höllenfeuerzitadelle, Höllenfeuerhalbinsel";
 		Acronym = "ZH";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
-		ORNG.."Key: Schlüssel der zerschmetterten Hallen";
-		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel der zerschmetterten Hallen";
+		ORNG.."Schlüssel: Flammengeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Randy Sauseritzel (Allianz, Heroisch)";
 		GREY..INDENT.."Drisella (Horde, Heroisch)";
@@ -1102,11 +1099,11 @@ AtlasMaps = {
 	};
 	HCHellfireRamparts = {
 		ZoneName = "HZ: Höllenfeuerbollwerk";
-		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
+		Location = "Höllenfeuerzitadelle, Höllenfeuerhalbinsel";
 		Acronym = "BW";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
-		ORNG.."Key: Flammengeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Flammengeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Wachhabender Gargolmar";
 		GREY.."2) Omor der Narbenlose";
@@ -1116,7 +1113,7 @@ AtlasMaps = {
 	};
 	HCMagtheridonsLair = {
 		ZoneName = "HZ: Magtheridons Kammer";
-		Location = "Höllenfeuerzitadelle, HF-Halbinsel";
+		Location = "Höllenfeuerzitadelle, Höllenfeuerhalbinsel";
 		Acronym = "Maggi";
 		ORNG.."Ruf: Thrallmar (Horde)";
 		ORNG.."Ruf: Ehrenfeste (Allianz)";
@@ -1128,7 +1125,7 @@ AtlasMaps = {
 		Location = "Der Echsenkessel, Zangarmarschen";
 		Acronym = "SU";
 		ORNG.."Ruf: Expedition des Cenarius";
-		ORNG.."Key: Schlüssel des Kessels (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel des Kessels (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Mennu der Verräter";
 		GREY.."2) Jäter Gründaum";
@@ -1142,7 +1139,7 @@ AtlasMaps = {
 		Location = "Der Echsenkessel, Zangarmarschen";
 		Acronym = "TS";
 		ORNG.."Ruf: Expedition des Cenarius";
-		ORNG.."Key: Schlüssel des Kessels (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel des Kessels (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Hungarfenn";
 		GREY..INDENT.."Die Tiefenspore";
@@ -1157,7 +1154,7 @@ AtlasMaps = {
 		Location = "Der Echsenkessel, Zangarmarschen";
 		Acronym = "DK";
 		ORNG.."Ruf: Expedition des Cenarius";
-		ORNG.."Key: Schlüssel des Kessels (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel des Kessels (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Wasserbeschwörerin Thespia";
 		GREY..INDENT.."Zugangskonsole der Hauptkammer";
@@ -1186,8 +1183,8 @@ AtlasMaps = {
 		Location = "Auchindoun, Wälder von Terrokar";
 		Acronym = "Gruft";
 		ORNG.."Ruf: Das Konsortium";
-		ORNG.."Key: Schlüssel der Auchenai (Heroisch)";
-		ORNG.."Key: Das Auge des Haramad (Ehrfürchtig, Yor)";
+		ORNG.."Schlüssel: Schlüssel der Auchenai (Heroisch)";
+		ORNG.."Schlüssel: Das Auge des Haramad (Ehrfürchtig, Yor)";
 		BLUE.."A) Eingang";
 		GREY.."1) Pandemonius";
 		GREY..INDENT.."Schattenlord Xiraxis";
@@ -1203,7 +1200,7 @@ AtlasMaps = {
 		Location = "Auchindoun, Wälder von Terrokar";
 		Acronym = "Krypta";
 		ORNG.."Ruf: Unteres Viertel";
-		ORNG.."Key: Schlüssel der Auchenai (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel der Auchenai (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Shirrak der Totenwächter";
 		GREY.."2) Exarch Maladaar";
@@ -1215,8 +1212,8 @@ AtlasMaps = {
 		Location = "Auchindoun, Wälder von Terrokar";
 		Acronym = "SH";
 		ORNG.."Ruf: Unteres Viertel";
-		ORNG.."Key: Schlüssel der Auchenai (Heroisch)";
-		ORNG.."Key: Mit Essenz erfüllter Mondstein (Anzu)";
+		ORNG.."Schlüssel: Schlüssel der Auchenai (Heroisch)";
+		ORNG.."Schlüssel: Mit Essenz erfüllter Mondstein (Anzu)";
 		BLUE.."A) Eingang";
 		GREY.."1) Dunkelwirker Syth";
 		GREY..INDENT.."Lakka";
@@ -1229,8 +1226,8 @@ AtlasMaps = {
 		Location = "Auchindoun, Wälder von Terrokar";
 		Acronym = "Laby";
 		ORNG.."Ruf: Unteres Viertel";
-		ORNG.."Key: Schlüssel des Schattenlabyrinths";
-		ORNG.."Key: Schlüssel der Auchenai (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel des Schattenlabyrinths";
+		ORNG.."Schlüssel: Schlüssel der Auchenai (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Spion To'gun";
 		GREY.."2) Botschafter Höllenschlund";
@@ -1246,7 +1243,7 @@ AtlasMaps = {
 		Location = "Festung der Stürme, Nethersturm";
 		Acronym = "Bota";
 		ORNG.."Ruf: Die Sha'tar";
-		ORNG.."Key: Warpgeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Warpgeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Kommandant Sarannis";
 		GREY.."2) Hochbotaniker Freywinn";
@@ -1259,8 +1256,8 @@ AtlasMaps = {
 		Location = "Festung der Stürme, Nethersturm";
 		Acronym = "Arka";
 		ORNG.."Ruf: Die Sha'tar";
-		ORNG.."Key: Schlüssel zur Arkatraz";
-		ORNG.."Key: Warpgeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Schlüssel zur Arkatraz";
+		ORNG.."Schlüssel: Warpgeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Zereketh der Unabhängige";
 		GREY.."2) Arkaner Behälter";
@@ -1277,7 +1274,7 @@ AtlasMaps = {
 		Location = "Festung der Stürme, Nethersturm";
 		Acronym = "Mecha";
 		ORNG.."Ruf: Die Sha'tar";
-		ORNG.."Key: Warpgeschmiedeter Schlüssel (Heroisch)";
+		ORNG.."Schlüssel: Warpgeschmiedeter Schlüssel (Heroisch)";
 		BLUE.."A) Eingang";
 		GREY.."1) Torwächter Gyrotod";
 		GREY.."2) Torwächter Eisenhand";
@@ -1292,7 +1289,7 @@ AtlasMaps = {
 		Location = "Festung der Stürme, Nethersturm";
 		Acronym = "FdS";
 		ORNG.."Ruf: Die Sha'tar";
-		ORNG.."Key: Der Schlüssel der Stürme";
+		ORNG.."Schlüssel: Der Schlüssel der Stürme";
 		BLUE.."A) Eingang";
 		GREY.."1) Al'ar";
 		GREY.."2) Leerhäscher";
@@ -1321,7 +1318,7 @@ AtlasMaps = {
 		Acronym = "BT";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
-		ORNG.."Key: Medaillon von Karabor";
+		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."A) Eingang";
 		BLUE.."B) Zu Reliquiar der Verirrten";
 		BLUE.."C) Zu Teron Blutschatten";
@@ -1334,14 +1331,14 @@ AtlasMaps = {
 		GREY..INDENT.."Aluyen (Reagenzien Verkäufer)";
 		GREY..INDENT.."Okuno <Rüstmeister der Todeshörigen>";
 		GREY..INDENT.."Seher Kanai";
-        };
-        BlackTempleBasement = {
+	};
+	BlackTempleBasement = {
 		ZoneName = "Der Schwarze Tempel [B] (Keller)";
 		Location = "Schattenmondtal";
 		Acronym = "BT";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
-		ORNG.."Key: Medaillon von Karabor";
+		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."B) Eingang"; 
 		BLUE.."C) Eingang";   
 		GREY.."6) Gurtogg Siedeblut";
@@ -1357,7 +1354,7 @@ AtlasMaps = {
 		Acronym = "BT";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
-		ORNG.."Key: Medaillon von Karabor";
+		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."D) Eingang";
 		GREY.."9) Mutter Shahraz";
 		GREY.."10) Rat der Illidari";
@@ -1373,11 +1370,35 @@ AtlasMaps = {
 		Acronym = "ZA";
 		BLUE.."A) Eingang";
 		GREY.."1) Nalorakk (Bär)";
+		GREY..INDENT.."Tanzar";
+		GREY..INDENT.."Budds Karte von Zul'Aman";
 		GREY.."2) Akil'zon (Adler)";
+		GREY..INDENT.."Harkor";
 		GREY.."3) Jan'alai (Drachenfalke)";
+		GREY..INDENT.."Kraz";
 		GREY.."4) Halazzi (Luchs)";
-		GREY.."5) Hexlord Malacrass";
-		GREY.."6) Zul'jin";
+		GREY..INDENT.."Ashli";
+		GREY.."5) Zungam";
+		GREY.."6) Hexlord Malacrass";
+		GREY..INDENT.."Thurg (Zufällig)";
+		GREY..INDENT.."Gazakroth (Zufällig)";
+		GREY..INDENT.."Lord Raadan (Zufällig)";
+		GREY..INDENT.."Düsterherz (Zufällig)";
+		GREY..INDENT.."Alyson Antille (Zufällig)";
+		GREY..INDENT.."Glibber (Zufällig)";
+		GREY..INDENT.."Fennpirscher (Zufällig)";
+		GREY..INDENT.."Koragg (Zufällig)";
+		GREY.."7) Zul'Jin";
+		GREN.."1') Urwaldfrösche, die sich verwandeln in:";
+		GREN..INDENT.."Kyren";
+		GREN..INDENT.."Gunter";
+		GREN..INDENT.."Adarrah";
+		GREN..INDENT.."Brennan";
+		GREN..INDENT.."Darwen";
+		GREN..INDENT.."Deez";
+		GREN..INDENT.."Galathryn";
+		GREN..INDENT.."Mitzi";
+		GREN..INDENT.."Mannuth";
 	};
 };
 

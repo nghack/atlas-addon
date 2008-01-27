@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -36,37 +36,73 @@ if ( GetLocale() == "deDE" ) then
 
 	local myData = {
 		AlteracValleyNorth = {
-			ZoneName = "Alteractal (Norden)";
+			ZoneName = "Alteractal (Nord)";
 			Acronym = "AV";
-			Location = "Vorgebirge des Hügellands";
+			Location = "Alteracgebirge";
 			ORNG.."Ruf: Frostwolfklan (Horde)";
 			ORNG.."Ruf: Sturmlanzengarde (Allianz)";
 			BLUE.."A) Eingang";
 			BLUE.."B) Dun Baldar (Allianz)";
-			_RED.."1) Lazarett der Sturmlanzen";
-			_RED.."2) Friedhof der Sturmlanzen";
-			_RED.."3) Steinbruchfriedhof";
-			_RED.."4) Schneewehenfriedhof";
-			ORNG.."5) Nordbunker von Dun Baldar";
+			BLUE..INDENT.."Vanndar Sturmlanze (Allianz)";
+			BLUE..INDENT.."Marschall der Nordtruppen von Dun Baldar (Allianz)";
+			BLUE..INDENT.."Marschall der Südtruppen von Dun Baldar (Allianz)";
+			BLUE..INDENT.."Marschall der Eisschwingentruppen (Allianz)";
+			BLUE..INDENT.."Marschall der Steinbruchtruppen (Allianz)";
+			BLUE..INDENT.."Ausgrabungsleiter Steinhauer (Allianz)";
+			_RED.."1) Eisenschachtmine";
+			GREY..INDENT.."Morloch (Neutral)";
+			GREY..INDENT.."Umi Thorson (Allianz)";
+			GREY..INDENT.."Keetar (Horde)";
+			GREY.."2) Erzdruide Renferal (Allianz)";
+			ORNG.."3) Nordbunker von Dun Baldar";
 			GREY..INDENT.."Schwadronskommandant Mulverick (Horde)";
-			ORNG.."6) Südbunker von Dun Baldar";
-			ORNG.."7) Eisschwingenbunker";
-			GREY..INDENT.."Schwadronskommandant Guse (Horde)";
-			GREY..INDENT.."Kommandant Karl Philips (Allianz)";
-			ORNG.."8) Steinbruchaußenposten (Balinda)";
-			ORNG.."9) Steinbruchbunker";
-			GREY.."10) Eisenschachtmine";
+			GREY.."4) Murgot Tiefenschmied (Allianz)";
+			GREY..INDENT.."Dirk Schwindel <Kopfgeldjäger> (Allianz)";
+			GREY..INDENT.."Athramanis <Kopfgeldjäger> (Allianz)";
+			GREY..INDENT.."Lana Donnerbräu <Schmiedekunstbedarf> (Allianz)";
+			_RED.."5) Lazarett der Sturmlanzen";
+			GREY.."6) Stallmeister der Sturmlanzen <Stallmeister> (Allianz)";
+			GREY..INDENT.."Kommandant der Sturmlanzenwidderreiter (Allianz)";
+			GREY..INDENT.."Svalbrad Bergweh <Handwerkswaren> (Allianz)";
+			GREY..INDENT.."Kurdrum Gerstenbart <Reagenzien & Giftreagenzien> (Allianz)";
+			GREY.."7) Rüstmeister der Sturmlanzen (Allianz)";
+			GREY..INDENT.."Jonivera Bergweh <Gemischtwaren> (Allianz)";
+			GREY..INDENT.."Brogus Donnerbräu <Essen & Getränke> (Allianz)";
+			GREY.."8) Schwadronskommandant Ichman (Gerettet)";
+			GREY..INDENT.."Schwadronskommandant Erzrutsch (Gerettet)";
+			GREY..INDENT.."Schwadronskommandant Vipore (Gerettet)";
+			ORNG.."9) Südbunker von Dun Baldar";
+			GREY..INDENT.."Korporal Noreg Sturmlanze (Allianz)";
+			GREY..INDENT.."Gaelden Hammerschmied <Versorgungsoffizier der Sturmlanzen> (Allianz)";
+			_RED.."10) Friedhof der Sturmlanzen";
 			GREY.."11) Eisschwingenhöhle";
-			GREY.."12) Dampfsäge (Horde)";
-			GREY.."13) Schwadronskommandant Jeztor (Horde)";
-			GREY.."14) Ivus der Waldfürst (Beschwörungszone)";
+			GREY..INDENT.."Banner der Sturmlanzen";
+			GREY.."12) Sägewerk der Sturmlanzen";
+			GREY..INDENT.."Schwadronskommandant Jeztor (Horde)";
+			ORNG.."13) Eisschwingenbunker";
+			GREY..INDENT.."Schwadronskommandant Guse (Horde)";
+			_RED.."14) Steinbruchfriedhof";
+			GREY.."15) Kommandant der Sturmlanzenwidderreiter (Allianz)";
+			ORNG.."16) Steinbruchaußenposten";
+			GREY..INDENT.."Hauptmann Balinda Steinbruch <Hauptmann der Sturmlanzen> (Allianz)";
+			_RED.."17) Schneewehenfriedhof";
+			GREY..INDENT.."Ichmans Signal (Allianz)";
+			GREY..INDENT.."Mulvericks Signal (Horde)";
+			ORNG.."18) Steinbruchbunker";
+			GREY.."19) Ivus der Waldfürst (Beschwörungszone) (Allianz)";
+			GREY.."20) Westlicher Krater";
+			GREY..INDENT.."Vipores Signal (Allianz)";
+			GREY..INDENT.."Jeztors Signal (Horde)";
+			GREY.."21) Östlicher Krater";
+			GREY..INDENT.."Erzrutschs Signal (Allianz)";
+			GREY..INDENT.."Guses Signal (Horde)";
 			"";
 			_RED.."Rot:"..BLUE.." Friedhöfe, Einnehmbare Gebiete";
 			ORNG.."Orange:"..BLUE.." Bunker, Türme, Zerstörbare Gebiete";
-			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Quest-Gebiete";
+			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Questgebiete";
 		};
 		AlteracValleySouth = {
-			ZoneName = "Alteractal (Süden)";
+			ZoneName = "Alteractal (Süd)";
 			Acronym = "AV";
 			Location = "Vorgebirge des Hügellands";
 			ORNG.."Ruf: Frostwolfklan (Horde)";

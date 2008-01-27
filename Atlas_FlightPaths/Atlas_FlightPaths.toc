@@ -9,7 +9,7 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 飛航路徑地圖集，顯示兩大陣營在東西大陸的飛行路徑
-## Version: 1.10.4
+## Version: 1.11.0
 ## X-Date: January, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com

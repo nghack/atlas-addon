@@ -61,53 +61,53 @@ local DefaultAtlasOptions = {
 
 local EntInstMatches = {
 	--entrance maps to instance maps
-	["AuchindounEnt"] =				"AuchAuchenaiCrypts";
-	["BlackfathomDeepsEnt"] =		"BlackfathomDeeps";
-	["BlackrockSpireEnt"] =			"BlackrockSpireLower";
-	["CoilfangReservoirEnt"] =		"CFRSerpentshrineCavern";
-	["GnomereganEnt"] =				"Gnomeregan";
-	["MaraudonEnt"] =				"Maraudon";
-	["TheDeadminesEnt"] =			"TheDeadmines";
-	["TheSunkenTempleEnt"] =		"TheSunkenTemple";
-	["UldamanEnt"] =				"Uldaman";
-	["WailingCavernsEnt"] =			"WailingCaverns";
-	["DireMaulEnt"] =				"DireMaulEast";
-	["CoTEnt"] =					"CoTHyjal";
-	["KarazhanEnt"] =				"KarazhanStart";
-	["SMEnt"] =						"SMArmory";
+	["AuchindounEnt"] =				{"AuchAuchenaiCrypts",1};
+	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps",1};
+	["BlackrockSpireEnt"] =			{"BlackrockSpireLower",1};
+	["CoilfangReservoirEnt"] =		{"CFRSerpentshrineCavern",1};
+	["GnomereganEnt"] =				{"Gnomeregan",1};
+	["MaraudonEnt"] =				{"Maraudon",1};
+	["TheDeadminesEnt"] =			{"TheDeadmines",1};
+	["TheSunkenTempleEnt"] =		{"TheSunkenTemple",1};
+	["UldamanEnt"] =				{"Uldaman",1};
+	["WailingCavernsEnt"] =			{"WailingCaverns",1};
+	["DireMaulEnt"] =				{"DireMaulEast",1};
+	["CoTEnt"] =					{"CoTHyjal",1};
+	["KarazhanEnt"] =				{"KarazhanStart",1};
+	["SMEnt"] =						{"SMArmory",1};
 	--instance maps to entrance maps
-	["AuchManaTombs"] =				"AuchindounEnt";
-	["AuchAuchenaiCrypts"] =		"AuchindounEnt";
-	["AuchSethekkHalls"] =			"AuchindounEnt";
-	["AuchShadowLabyrinth"] =		"AuchindounEnt";
-	["BlackfathomDeeps"] =			"BlackfathomDeepsEnt";
-	["BlackrockSpireLower"] =		"BlackrockSpireEnt";
-	["BlackrockSpireUpper"] =		"BlackrockSpireEnt";
-	["BlackwingLair"] =				"BlackrockSpireEnt";
-	["BlackrockDepths"] =			"BlackrockSpireEnt";
-	["MoltenCore"] =				"BlackrockSpireEnt";
-	["CFRTheSlavePens"] =			"CoilfangReservoirEnt";
-	["CFRTheUnderbog"] =			"CoilfangReservoirEnt";
-	["CFRTheSteamvault"] =			"CoilfangReservoirEnt";
-	["CFRSerpentshrineCavern"] =	"CoilfangReservoirEnt";
-	["Gnomeregan"] =				"GnomereganEnt";
-	["Maraudon"] =					"MaraudonEnt";
-	["TheDeadmines"] =				"TheDeadminesEnt";
-	["TheSunkenTemple"] =			"TheSunkenTempleEnt";
-	["Uldaman"] =					"UldamanEnt";
-	["WailingCaverns"] =			"WailingCavernsEnt";
-	["DireMaulEast"] =				"DireMaulEnt";
-	["DireMaulNorth"] =				"DireMaulEnt";
-	["DireMaulWest"] =				"DireMaulEnt";
-	["CoTHyjal"] =					"CoTEnt";
-	["CoTBlackMorass"] =			"CoTEnt";
-	["CoTOldHillsbrad"] =			"CoTEnt";
-	["KarazhanStart"] =				"KarazhanEnt";
-	["KarazhanEnd"] =				"KarazhanEnt";
-	["SMArmory"] =					"SMEnt";
-	["SMLibrary"] =					"SMEnt";
-	["SMCathedral"] =				"SMEnt";
-	["SMGraveyard"] =				"SMEnt";
+	["AuchManaTombs"] =				{"AuchindounEnt",0};
+	["AuchAuchenaiCrypts"] =		{"AuchindounEnt",0};
+	["AuchSethekkHalls"] =			{"AuchindounEnt",0};
+	["AuchShadowLabyrinth"] =		{"AuchindounEnt",0};
+	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt",0};
+	["BlackrockSpireLower"] =		{"BlackrockSpireEnt",0};
+	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt",0};
+	["BlackwingLair"] =				{"BlackrockSpireEnt",0};
+	["BlackrockDepths"] =			{"BlackrockSpireEnt",0};
+	["MoltenCore"] =				{"BlackrockSpireEnt",0};
+	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt",0};
+	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt",0};
+	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt",0};
+	["CFRSerpentshrineCavern"] =	{"CoilfangReservoirEnt",0};
+	["Gnomeregan"] =				{"GnomereganEnt",0};
+	["Maraudon"] =					{"MaraudonEnt",0};
+	["TheDeadmines"] =				{"TheDeadminesEnt",0};
+	["TheSunkenTemple"] =			{"TheSunkenTempleEnt",0};
+	["Uldaman"] =					{"UldamanEnt",0};
+	["WailingCaverns"] =			{"WailingCavernsEnt",0};
+	["DireMaulEast"] =				{"DireMaulEnt",0};
+	["DireMaulNorth"] =				{"DireMaulEnt",0};
+	["DireMaulWest"] =				{"DireMaulEnt",0};
+	["CoTHyjal"] =					{"CoTEnt",0};
+	["CoTBlackMorass"] =			{"CoTEnt",0};
+	["CoTOldHillsbrad"] =			{"CoTEnt",0};
+	["KarazhanStart"] =				{"KarazhanEnt",0};
+	["KarazhanEnd"] =				{"KarazhanEnt",0};
+	["SMArmory"] =					{"SMEnt",0};
+	["SMLibrary"] =					{"SMEnt",0};
+	["SMCathedral"] =				{"SMEnt",0};
+	["SMGraveyard"] =				{"SMEnt",0};
 };
 
 function Atlas_FreshOptions()
@@ -290,6 +290,7 @@ ATLAS_OLD_ZONE = false;
 --This should be called ONLY when we're sure our variables are in memory
 function Atlas_Init()
 
+	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);
 
 	--clear saved vars for a new version (or a new install!)
 	if ( AtlasOptions == nil or AtlasOptions["AtlasVersion"] ~= ATLAS_VERSION) then
@@ -506,16 +507,21 @@ function Atlas_Refresh()
 		end
 	end
 	
-	local EntInstMatch = false;
+	local EntInstMatch = {nil};
 	if ( EntPluginIsLoaded ) then
 		for k,v in pairs(EntInstMatches) do
 			if ( k == zoneID ) then
-				EntInstMatch = true;
+				EntInstMatch = v;
 			end
 		end
 	end
 	
-	if ( EntInstMatch ) then
+	if ( EntInstMatch[1] ~= nil ) then
+		if ( EntInstMatch[2] == 1 ) then
+			AtlasSwitchButton:SetText(ATLAS_INSTANCE_BUTTON);
+		else
+			AtlasSwitchButton:SetText(ATLAS_ENTRANCE_BUTTON);
+		end
 		AtlasSwitchButton:Show();
 	else
 		AtlasSwitchButton:Hide();
@@ -531,7 +537,7 @@ function AtlasSwitchButton_OnClick()
 
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	
-	local EntInstMatch = false;
+	local EntInstMatch = {};
 	for k,v in pairs(EntInstMatches) do
 		if ( k == zoneID ) then
 			EntInstMatch = v;
@@ -540,7 +546,7 @@ function AtlasSwitchButton_OnClick()
 	
 	for k,v in pairs(ATLAS_DROPDOWNS) do
 		for k2,v2 in pairs(v) do
-			if ( v2 == EntInstMatch ) then
+			if ( v2 == EntInstMatch[1] ) then
 				AtlasOptions.AtlasType = k;
 				AtlasOptions.AtlasZone = k2;
 			end

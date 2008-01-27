@@ -13,7 +13,7 @@ v1.10.4
 - renamed the five default Atlas plugins for a cleaner AddOns directory
 - changed Horde Base to Horde Encampment and Night Elf Base to Night Elf Village in Hyjal (Telchar)
 - changed Blacksmith Plans to Blacksmithing Plans 3 times in BRD (Telchar)
-- added acronyms to Gnomeregan, Stockade and Magtheridon' Lair (Telchar)
+- added acronyms to Gnomeregan, Stockade, Magtheridon' Lair and all battlegrounds (Telchar)
 - changed Mailbox Keys to Postbox Keys in Stratholme (Telchar)
 - added Zaelot to the names of Zath and Lor'Khan in ZG (Telchar)
 - changed Necro Wing to Plague Wing in Naxxramas (Telchar)
@@ -24,6 +24,7 @@ v1.10.4
 - added Razorfen Spearhide to Razorfen Kraul (Celellach)
 - new map in outdoor raids: Skettis (Celellach, Nifl)
 - revamped Alterac Valley North map (Celellach)
+- added 'Base Camp' to Grom'Gol flightpoint (Telchar)
 - fixed some typos
 
 v1.10.3

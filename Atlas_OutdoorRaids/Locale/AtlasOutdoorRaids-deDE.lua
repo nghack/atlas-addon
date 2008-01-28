@@ -32,7 +32,7 @@ if ( GetLocale() == "deDE" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "   ";
 
-	local myCategory = "Schlachtzugbosse";
+	local myCategory = "Außenweltschlachtzüge";
 
 	local myData = {
 		Azuregos = {

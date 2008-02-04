@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/25/2008
+-- Last Update : 2/4/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -75,7 +75,9 @@ ATLAS_DDL_EXPANSION = "资料片";
 ATLAS_DDL_EXPANSION_OLD = "旧世界副本";
 ATLAS_DDL_EXPANSION_BC = "《燃烧的远征》副本";
 
-ATLAS_ENTRANCE_INSTANCE_BUTTON = "入口/副本";
+ATLAS_INSTANCE_BUTTON = "副本";
+ATLAS_ENTRANCE_BUTTON = "入口";
+ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",

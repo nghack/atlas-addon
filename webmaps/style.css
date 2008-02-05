@@ -51,6 +51,10 @@ a:hover {
 	color: #999;
 }
 
+.green, .green a {
+	color: #6c6;
+}
+
 .indent{
 	margin-left: 15px;
 }

@@ -351,9 +351,9 @@ AtlasMaps = {
 		GREY..INDENT.."Emperor Vek'nilash";
 		GREY.."8) Ouro (Optional)";
 		GREY.."9) Eye of C'Thun / C'Thun";
-		GREN.."1') Andorgos";
-		GREN..INDENT.."Vethsera";
-		GREN..INDENT.."Kandrostrasz";
+		GREN.."1') Andorgos <Brood of Malygos>";
+		GREN..INDENT.."Vethsera <Brood of Ysera>";
+		GREN..INDENT.."Kandrostrasz <Brood of Alexstrasza>";
 		GREN.."2') Arygos";
 		GREN..INDENT.."Caelestrasz";
 		GREN..INDENT.."Merithra of the Dream";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/4/2008
+-- Last Update : 2/5/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -114,7 +114,7 @@ AtlasMaps = {
 		Location = "奥格瑞玛";
 		BLUE.."A) 入口";
 		GREY.."1) 玛尔·恐怖图腾";
-		GREY..INDENT.."奥格弗林特";
+		GREY..INDENT.."奥格弗林特 <怒焰酋长>";
 		GREY.."2) 饥饿者塔拉加曼";
 		GREY.."3) 祈求者耶戈什";
 		GREY..INDENT.."愤怒者塞雷玛尔 (召唤)";
@@ -126,12 +126,12 @@ AtlasMaps = {
 		Location = "贫瘠之地";
 		BLUE.."A) 入口";
 		GREY.."1) 纳拉雷克斯的信徒";
-		GREY.."2) 考布莱恩";
-		GREY.."3) 安娜科德拉";
+		GREY.."2) 考布莱恩 <毒牙之王>";
+		GREY.."3) 安娜科德拉 <毒牙之王>";
 		GREY.."4) 克雷什";
-		GREY.."5) 皮萨斯";
+		GREY.."5) 皮萨斯 <毒牙之王>";
 		GREY.."6) 斯卡姆";
-		GREY.."7) 瑟芬迪斯 (上层)";
+		GREY.."7) 瑟芬迪斯 <毒牙之王> (上层)";
 		GREY.."8) 永生者沃尔丹 (上层)";
 		GREY.."9) 吞噬者穆坦努斯";
 		GREY..INDENT.."纳拉雷克斯";
@@ -145,7 +145,7 @@ AtlasMaps = {
 		GREY.."1) 加摩拉";
 		GREY.."2) 潮湿的便笺";
 		GREY.."3) 萨利维丝";
-		GREY.."4) 银月守卫塞尔瑞德";
+		GREY.."4) 银月守卫塞尔瑞德 <银色黎明>";
 		GREY.."5) 格里哈斯特";
 		GREY..INDENT.."格里哈斯特神殿";
 		GREY.."6) 洛古斯·杰特 (多个位置)";
@@ -163,13 +163,13 @@ AtlasMaps = {
 		Location = "贫瘠之地";
 		BLUE.."A) 入口";
 		GREY.."1) 鲁古格";
-		GREY.."2) 阿格姆";
-		GREY.."3) 亡语者贾格巴";
+		GREY.."2) 阿格姆 <亡首预言者>";
+		GREY.."3) 亡语者贾格巴 <亡首队长>";
 		GREY.."4) 主宰拉姆塔斯";
 		GREY..INDENT.."剃刀沼泽刺鬃守卫";
 		GREY.."5) 暴怒的阿迦赛罗斯";
 		GREY.."6) 盲眼猎手 (稀有)";
-		GREY.."7) 卡尔加·刺肋";
+		GREY.."7) 卡尔加·刺肋 <长者>";
 		GREY.."8) 进口商威利克斯";
 		GREY..INDENT.."赫尔拉斯·静水";
 		GREY.."9) 唤地者哈穆加 (稀有)";
@@ -195,7 +195,7 @@ AtlasMaps = {
 		Location = "塔纳利斯";
 		ORNG.."钥匙：祖尔法拉克之槌 (加兹瑞拉)";
 		BLUE.."A) 入口";
-		GREY.."1) 安图苏尔";
+		GREY.."1) 安图苏尔 <苏尔督军>";
 		GREY.."2) 殉教者塞卡";
 		GREY.."3) 巫医祖穆拉恩";
 		GREY..INDENT.."祖尔法拉克阵亡英雄";
@@ -224,10 +224,10 @@ AtlasMaps = {
 		BLUE.."A) 入口 (橙色)";
 		BLUE.."B) 入口 (紫色)";
 		BLUE.."C) 入口 (传送)";
-		GREY.."1) 温格 (第五可汗)";
+		GREY.."1) 温格 <第五可汗>";
 		GREY.."2) 诺克赛恩";
 		GREY.."3) 锐刺鞭笞者";
-		GREY.."4) 玛劳杜斯 (第四可汗)";
+		GREY.."4) 玛劳杜斯 <第四可汗>";
 		GREY.."5) 维利塔恩";
 		GREY.."6) 收割者麦什洛克 (稀有)";
 		GREY.."7) 被诅咒的塞雷布拉斯";
@@ -264,7 +264,7 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		BLUE.."B) 图书馆";
 		GREY.."1) 卫兵摩尔达";
-		GREY.."2) 践踏者克雷格";
+		GREY.."2) 践踏者克雷格 <醉鬼>";
 		GREY.."3) 卫兵芬古斯";
 		GREY.."4) 诺特·希姆加可";
 		GREY..INDENT.."卫兵斯里基克";

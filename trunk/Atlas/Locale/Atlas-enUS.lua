@@ -285,7 +285,7 @@ AtlasMaps = {
 		BLUE.."A) Entrance";
 		BLUE.."B) Library";
 		GREY.."1) Guard Mol'dar";
-		GREY.."2) Stomper Kreeg";
+		GREY.."2) Stomper Kreeg <The Drunk>";
 		GREY.."3) Guard Fengus";
 		GREY.."4) Knot Thimblejack";
 		GREY..INDENT.."Guard Slip'kik";
@@ -298,7 +298,7 @@ AtlasMaps = {
 		Acronym = "DM";
 		Location = "Feralas";
 		ORNG.."Key: Crescent Key";
-		ORNG.."Key: J'eevee's Jar (Hel'nurath)";
+		ORNG.."Key: J'eevee's Jar (Lord Hel'nurath)";
 		BLUE.."A) Entrance";
 		BLUE.."B) Pylons";
 		GREY.."1) Shen'dralar Ancient";
@@ -307,7 +307,7 @@ AtlasMaps = {
 		GREY.."3) Illyanna Ravenoak";
 		GREY..INDENT.."Ferra";
 		GREY.."4) Magister Kalendris";
-		GREY.."5) Tsu'Zee (Rare)";
+		GREY.."5) Tsu'zee (Rare)";
 		GREY.."6) Immol'thar";
 		GREY..INDENT.."Lord Hel'nurath (Summon)";
 		GREY.."7) Prince Tortheldrin";

@@ -83,7 +83,7 @@ if ( GetLocale() == "frFR" ) then
 		Skettis = {
 			ZoneName = "Skettis";
 			Location = "Vallée de Noirvent, Forêt de Terokkar";	
-			zGREY.."1) Raie'odrome de Noirvent";
+			GREY.."1) Raie'odrome de Noirvent";
 			GREY..INDENT.."Commandant Adaris de la Garde-ciel";
 			GREY..INDENT.."Sergent Doryn de la Garde-ciel";
 			GREY..INDENT.."Dresseur Deesak de la Garde-ciel";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/5/2008
+-- Last Update : 2/6/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -330,9 +330,9 @@ AtlasMaps = {
 		GREY..INDENT.."维克尼拉斯大帝";
 		GREY.."8) 奥罗 (可跳过)";
 		GREY.."9) 克苏恩";
-		GREN.."1') 安多葛斯";
-		GREN..INDENT.."温瑟拉";
-		GREN..INDENT.."坎多斯特拉兹";
+		GREN.."1') 安多葛斯 <玛里苟斯的后裔>";
+		GREN..INDENT.."温瑟拉 <伊瑟拉的后裔>";
+		GREN..INDENT.."坎多斯特拉兹 <阿莱克丝塔萨的后裔>";
 		GREN.."2') 亚雷戈斯";
 		GREN..INDENT.."凯雷斯特拉兹";
 		GREN..INDENT.."梦境之龙麦琳瑟拉";

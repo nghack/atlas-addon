@@ -65,7 +65,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Commandant Chevaucheur de bélier Foudrepique";
 			GREY..INDENT.."Svalbrad Mont-lointain <Fournitures d'artisanat>";
 			GREY..INDENT.."Kurdrum Barbe-d'orge <Composants & fournitures pour poisons>";
-		GREY.."7) Stormpike Quartermaster";
+			GREY.."7) Intendant Foudrepique";
 			GREY..INDENT.."Jonivera Mont-lointain <Fournitures générales>";
 			GREY..INDENT.."Brogus Tonnebière <Nourriture & boissons>";
 			GREY.."8) Chef d'escadrille Ichman (Sauvé)";
@@ -77,7 +77,7 @@ if ( GetLocale() == "frFR" ) then
 			_RED.."10) Cimetière Foudrepique";
 			GREY.."11) Caverne de l'Aile de glace";
 			GREY..INDENT.."Bannière foudrepique";
-		GREY.."12) Stormpike Lumber Yard";
+			GREY.."12) Entrepôt de bois Foudrepique";
 			GREY..INDENT.."Chef d'escadrille Jeztor (Horde)";
 			ORNG.."13) Tour de l'Aile de glace";
 			GREY..INDENT.."Chef d'escadrille Guse (Horde)";

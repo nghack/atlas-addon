@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -27,7 +27,7 @@
 -- Version WoW 2.3.3 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 25/01/2008
+-- le 06/02/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -103,6 +103,9 @@ ATLAS_DDL_EXPANSION = "Extension";
 ATLAS_DDL_EXPANSION_OLD = "Instances du Vieux Monde";
 ATLAS_DDL_EXPANSION_BC = "Instances Burning Crusade";
 
+ATLAS_INSTANCE_BUTTON = "Instance";
+ATLAS_ENTRANCE_BUTTON = "Entrée";
+ATLAS_SEARCH_UNAVAIL = "Recherche Indisponible";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -131,7 +134,7 @@ AtlasMaps = {
 		Location = "Orgrimmar";
 		BLUE.."A) Entrée";
 		GREY.."1) Maur Totem-sinistre";
-		GREY..INDENT.."Lorgnesilex";
+		GREY..INDENT.."Lorgnesilex <Chef Ragefeu>";
 		GREY.."2) Taragaman l'Affameur";
 		GREY.."3) Jergosh l'Invocateur";
 		GREY..INDENT.."Zelemar le Courroucé (Invoqué)";
@@ -143,12 +146,12 @@ AtlasMaps = {
 		Location = "Les Tarides";
 		BLUE.."A) Entrée";
 		GREY.."1) Disciple de Naralex";
-		GREY.."2) Seigneur Cobrahn";
-		GREY.."3) Dame Anacondra";
+		GREY.."2) Seigneur Cobrahn <Seigneur-Croc>";
+		GREY.."3) Dame Anacondra <Seigneur-Croc>";
 		GREY.."4) Kresh";
-		GREY.."5) Seigneur Pythas";
+		GREY.."5) Seigneur Pythas <Seigneur-Croc>";
 		GREY.."6) Skum";
-		GREY.."7) Seigneur Serpentis (En haut)";
+		GREY.."7) Seigneur Serpentis <Seigneur-Croc> (En haut)";
 		GREY.."8) Verdan l'Immortel (En haut)";
 		GREY.."9) Mutanus le Dévoreur";
 		GREY..INDENT.."Naralex";
@@ -162,7 +165,7 @@ AtlasMaps = {
 		GREY.."1) Ghamoo-ra";
 		GREY.."2) Manuscrit de Lorgalis";
 		GREY.."3) Dame Sarevess";
-		GREY.."4) Garde d'argent Thaelrid";
+		GREY.."4) Garde d'argent Thaelrid <L'Aube d'argent>";
 		GREY.."5) Gelihast";
 		GREY..INDENT.."5) Autel de Gelihast";
 		GREY.."6) Lorgus Jett (Variable)";
@@ -180,13 +183,13 @@ AtlasMaps = {
 		Location = "Les Tarides";
 		BLUE.."A) Entrée";
 		GREY.."1) Roogug";
-		GREY.."2) Aggem Malépine";
-		GREY.."3) Nécrorateur Jargba";
+		GREY.."2) Aggem Malépine <Prophète de la Tête de mort>";
+		GREY.."3) Nécrorateur Jargba <Capitaine des Têtes de mort>";
 		GREY.."4) Seigneur Brusquebroche";
 		GREY..INDENT.."Lanceur de Tranchebauge";
 		GREY.."5) Agathelos le Déchaîné";
 		GREY.."6) Chasseur aveugle (Rare)";
-		GREY.."7) Charlga Trancheflanc";
+		GREY.."7) Charlga Trancheflanc <La mégère>";
 		GREY.."8) Willix l'Importateur";
 		GREY..INDENT.."Heralath Ruissefriche";
 		GREY.."9) Implorateur de la terre Halmgar (Rare)";
@@ -212,7 +215,7 @@ AtlasMaps = {
 		Location = "Tanaris";
 		ORNG.."Objet : Marteau de Zul'Farrak (Gahz'rilla)";
 		BLUE.."A) Entrée";
-		GREY.."1) Antu'sul";
+		GREY.."1) Antu'sul <Surveillant de Sul>";
 		GREY.."2) Theka le Martyr";
 		GREY.."3) Sorcier-docteur Zum'rah";
 		GREY..INDENT.."Héros mort de Zul'Farrak";
@@ -241,10 +244,10 @@ AtlasMaps = {
 		BLUE.."A) Entrée (Orange)";
 		BLUE.."B) Entrée (Violet)";
 		BLUE.."C) Entrée (Portail)";
-		GREY.."1) Veng (5ème Khan)";
+		GREY.."1) Veng <Le cinquième Kahn>";
 		GREY.."2) Noxcion";
 		GREY.."3) Tranchefouet";
-		GREY.."4) Maraudos (4ème Khan)";
+		GREY.."4) Maraudos <Le quatrième Kahn>";
 		GREY.."5) Seigneur Vylelangue";
 		GREY.."6) Meshlok le Moissonneur (Rare)";
 		GREY.."7) Celebras le Maudit";
@@ -280,7 +283,7 @@ AtlasMaps = {
 		ORNG.."Objet : Clé en croissant";
 		BLUE.."A) Entrée";
 		GREY.."1) Garde Mol'dar";
-		GREY.."2) Kreeg le Marteleur";
+		GREY.."2) Kreeg le Marteleur <L'ivrogne>";
 		GREY.."3) Garde Fengus";
 		GREY.."4) Noué Dédodevie";
 		GREY..INDENT.."Garde Slip'kik";
@@ -293,7 +296,7 @@ AtlasMaps = {
 		Acronym = "DM/HT";
 		Location = "Féralas";
 		ORNG.."Objet : Clé en croissant";
-		ORNG.."Objet : Bocal de J'eevee (Hel'nurath)";
+		ORNG.."Objet : Bocal de J'eevee (Seigneur Hel'nurath)";
 		BLUE.."A) Entrée";
 		BLUE.."B) Pylônes";
 		GREY.."1) Ancienne de Shen'Dralar";
@@ -302,7 +305,7 @@ AtlasMaps = {
 		GREY.."3) Illyanna Corvichêne";
 		GREY..INDENT.."Ferra";
 		GREY.."4) Magistère Kalendris";
-		GREY.."5) Tsu'Zee (Rare)";
+		GREY.."5) Tsu'zee (Rare)";
 		GREY.."6) Immol'thar";
 		GREY..INDENT.."Seigneur Hel'nurath (Invoqué)";
 		GREY.."7) Prince Tortheldrin";
@@ -346,12 +349,12 @@ AtlasMaps = {
 		GREY..INDENT.."Empereur Vek'nilash";
 		GREY.."8) Ouro (Optionnel)";
 		GREY.."9) Œil de C'Thun / C'Thun";
-		GREN.."1') Andorgos";
-		GREN..INDENT.." Vethsera";
-		GREN..INDENT.." Kandrostrasz";
+		GREN.."1') Andorgos <Rejeton de Malygos>";
+		GREN..INDENT.."Vethsera <Rejeton d'Ysera>";
+		GREN..INDENT.."Kandrostrasz <Rejeton d'Alexstrasza>";
 		GREN.."2') Arygos";
-		GREN..INDENT.." Caelestrasz";
-		GREN..INDENT.." Merithra du Rêve";
+		GREN..INDENT.."Caelestrasz";
+		GREN..INDENT.."Merithra du Rêve";
 	};
 	TheRuinsofAhnQiraj = {
 		ZoneName = "Ruines d'Ahn'Qiraj";

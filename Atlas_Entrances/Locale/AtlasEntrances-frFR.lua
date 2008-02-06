@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -124,9 +124,9 @@ if ( GetLocale() == "frFR" ) then
 			BLUE.."B) Maraudon (Violet)";
 			BLUE.."C) Maraudon (Orange)";
 			BLUE.."D) Maraudon (Portail)";
-			GREY.."1) Kolk (1er Khan)";
-			GREY.."2) Gelk (2ème Khan)";
-			GREY.."3) Magra (3ème Khan)";
+			GREY.."1) Kolk <Le premier Khan>";
+			GREY.."2) Gelk <Le deuxième Kahn>";
+			GREY.."3) Magra <Le troisième Kahn>";
 			GREY.."4) Cavindra";
 		};
 		TheDeadminesEnt = {

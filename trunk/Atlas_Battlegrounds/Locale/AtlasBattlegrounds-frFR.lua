@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -36,7 +36,8 @@ if ( GetLocale() == "frFR" ) then
 
 	local myData = {
 		AlteracValleyNorth = {
-			ZoneName = "Vallée d'Alterac (Nord)";
+			ZoneName = "Vallée d'Alterac (Nord, Alliance)";
+			Acronym = "AV / Alterac";
 			Location = "Montagnes d'Alterac";
 			ORNG.."Réput : Clan Loup-de-givre (Horde)";
 			ORNG.."Réput : Garde Foudrepique (Alliance)";
@@ -65,12 +66,13 @@ if ( GetLocale() == "frFR" ) then
 			GREY.."Blanc :"..BLUE.." PNJs, Zones de quêtes";
 		};
 		AlteracValleySouth = {
-			ZoneName = "Vallée d'Alterac (Sud)";
+			ZoneName = "Vallée d'Alterac (Sud, Horde)";
+			Acronym = "AV / Alterac";
 			Location = "Contreforts de Hautebrande";
 			ORNG.."Réput : Clan Loup-de-givre (Horde)";
 			ORNG.."Réput : Garde Foudrepique (Alliance)";
 			BLUE.."A) Entrée";
-			BLUE.."B) Donjon Loup-de-givre (Horde)";
+			BLUE.."B) Donjon Loup-de-givre";
 			_RED.."1) Hutte de guérison Loup-de-givre";
 			_RED.."2) Cimetière de Loup-de-givre";
 			_RED.."3) Cimetière de Glace-sang";
@@ -79,7 +81,7 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Chef d'Escadrille Ichman (Alliance)";
 			ORNG.."6) Tour de la Halte";
 			GREY..INDENT.."Chef d'Escadrille Slidore (Alliance)";
-			GREY..INDENT.."Commandant Louis Philips (Horde)";
+			GREY..INDENT.."Commandant Louis Philips";
 			ORNG.."7) Tour de Glace-sang";
 			ORNG.."8) Garnison de Glace-sang (Galvangar)";
 			GREY.."9) Caverne des Follepatte";
@@ -95,6 +97,7 @@ if ( GetLocale() == "frFR" ) then
 		};
 		ArathiBasin = {
 			ZoneName = "Bassin d'Arathi";
+			Acronym = "AB / Arathi";
 			Location = "Hautes-Terres d'Arathi";
 			ORNG.."Réput : Les Profanateurs (Horde)";
 			ORNG.."Réput : La Ligue d'Arathor (Alliance)";
@@ -108,6 +111,7 @@ if ( GetLocale() == "frFR" ) then
 		};
 		WarsongGulch = {
 			ZoneName = "Goulet des Chanteguerres";
+			Acronym = "WSG / Goulet";
 			Location = "Orneval / Les Tarides";
 			ORNG.."Réput : Voltigeurs Chanteguerre (Horde)";
 			ORNG.."Réput : Sentinelles d'Aile-argent (Alliance)";
@@ -116,6 +120,7 @@ if ( GetLocale() == "frFR" ) then
 		};
 		EyeOfTheStorm = {
 			ZoneName = "L'Œil du Cyclone";
+			Acronym = "EotS / L'Œil";
 			Location = "Raz-de-Néant";
 			BLUE.."A) Entrée (Alliance)";
 			BLUE.."B) Entrée (Horde)";

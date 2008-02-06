@@ -1,6 +1,6 @@
 Atlas, un visualiseur de cartes d'instances de World of Warcraft
-Copyright 2005 - 2007 Dan Gilbert
-Email : loglow@gmail.com
+Copyright 2005 - 2008 Dan Gilbert
+Courriel : loglow@gmail.com
 
 
 

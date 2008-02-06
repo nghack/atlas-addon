@@ -64,7 +64,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."6) Stormpike Stable Master <Stable Master>";
 			GREY..INDENT.."Stormpike Ram Rider Commander";
 			GREY..INDENT.."Svalbrad Farmountain <Trade Goods>";
-			GREY..INDENT.."Kurdrum Barleybeard <Reagents & Poisons>";
+			GREY..INDENT.."Kurdrum Barleybeard <Reagents & Poison Supplies>";
 			GREY.."7) Stormpike Quartermaster";
 			GREY..INDENT.."Jonivera Farmountain <General Goods>";
 			GREY..INDENT.."Brogus Thunderbrew <Food and Drink>";

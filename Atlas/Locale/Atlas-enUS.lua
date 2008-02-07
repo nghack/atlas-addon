@@ -1360,6 +1360,7 @@ AtlasMaps = {
 		Location = "Ghostlands";
 		Acronym = "ZA";
 		BLUE.."A) Entrance";
+		BLUE..INDENT.."Harrison Jones";
 		GREY.."1) Nalorakk (Bear)";
 		GREY..INDENT.."Tanzar";
 		GREY..INDENT.."Budd's Map of Zul'Aman";

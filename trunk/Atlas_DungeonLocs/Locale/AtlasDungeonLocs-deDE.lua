@@ -101,7 +101,7 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Die Mechanar";
 			GREY..INDENT.."Die Botanika";
 			GREY..INDENT.."Die Arkatraz";
-			GREY..INDENT.."Auge des Sturms";
+			GREY..INDENT.."Festung der Stürme";
 			GREY.."3) Der Echsenkessel, ".._RED.."Zangarmarschen";
 			GREY..INDENT.."Die Sklavenunterkünfte";
 			GREY..INDENT.."Der Tiefensumpf";

@@ -27,7 +27,7 @@
 -- Version WoW 2.3.3 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 06/02/2008
+-- le 07/02/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -388,7 +388,7 @@ AtlasMaps = {
 		ORNG.."Réput : Gardiens du Temps";
 		ORNG.." Clé du Temps (Héroïque)";
 		BLUE.."A) Entrée";
-		BLUE..INDENT.."Sa'at";
+		BLUE..INDENT.."Sa'at <Les Gardiens du temps>";
 		ORNG.."X) Portail (Points d'apparition)";
 		ORNG..INDENT.."Vague 6 : Chronoseigneur Déjà";
 		ORNG..INDENT.."Vague 12 : Temporus";
@@ -406,16 +406,16 @@ AtlasMaps = {
 		BLUE.."A) Base de l'Alliance";
 		BLUE..INDENT.."Dame Jaina Portvaillant";
 		BLUE.."B) Campement de la Horde";
-		BLUE..INDENT.."Thrall";
+		BLUE..INDENT.."Thrall <Chef de guerre>";
 		BLUE.."C) Village des Elfes de la Nuit";
-		BLUE..INDENT.."Tyrande Murmevent";
+		BLUE..INDENT.."Tyrande Murmevent <Grande prêtresse d'Elune>";
 		GREY.."1) Rage Froidhiver";
 		GREY.."2) Anetheron";
 		GREY.."3) Kazgorath";
 		GREY.."4) Azgalor";
 		GREY.."5) Archimonde";
-		GREY.."?) Indormi";
-		GREY..INDENT.."Tydormu";
+		GREY.."?) Indormi <Gardienne du savoir ancien des gemmes>";
+		GREY..INDENT.."Tydormu <Gardien des artefacts perdus>";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "GdT : Contreforts d'Hautebrande d'antan";
@@ -445,11 +445,11 @@ AtlasMaps = {
 		"";
 		"";
 		ORNG.."Itinérants";
-		GREY..INDENT.."Thomas Yance";
+		GREY..INDENT.."Thomas Yance <Marchand itinérant>";
 		GREY..INDENT.."Sorcier de Dalaran âgé";
 		"";
 		ORNG.."Austrivage";
-		GREY..INDENT.."Kel'Thuzad";
+		GREY..INDENT.."Kel'Thuzad <Le Kirin Tor>";
 		GREY..INDENT.."Helcular";
 		GREY..INDENT.."Kent le fermier";
 		GREY..INDENT.."Sally Blanchetête";
@@ -458,8 +458,8 @@ AtlasMaps = {
 		GREY..INDENT.."Hérode le Malmeneur";
 		GREY..INDENT.."Nat Pagle";
 		GREY..INDENT.."Hal McAllister";
-		GREY..INDENT.."Zixil";
-		GREY..INDENT.."Vigilant modèle 0";
+		GREY..INDENT.."Zixil <Marchand en herbe>";
+		GREY..INDENT.."Vigilant modèle 0 <Protecteur>";
 		"";
 		ORNG.."Auberge d'Austrivage";
 		GREY..INDENT.."Capitaine Edward Hanes";
@@ -471,11 +471,11 @@ AtlasMaps = {
 		GREY..INDENT.."Tirion Fordring";
 		GREY..INDENT.."Arcaniste Doan";
 		GREY..INDENT.."Taelan (En haut)";
-		GREY..INDENT.."Kelly le serveur";
-		GREY..INDENT.."Frances Lin";
-		GREY..INDENT.."Chef Jessen";
+		GREY..INDENT.."Kelly le serveur <Tavernier>";
+		GREY..INDENT.."Frances Lin <Serveuse>";
+		GREY..INDENT.."Chef Jessen <Spécialités de viandes & pâtées>";
 		GREY..INDENT.."Stalvan Mantebrume (En haut)";
-		GREY..INDENT.."Phin Odelic (En haut)";
+		GREY..INDENT.."Phin Odelic <Le Kirin Tor> (En haut)";
 		"";
 		ORNG.."Hôtel de ville d'Austrivage";
 		GREY..INDENT.."Magistrat Henry Maleb";
@@ -1357,6 +1357,7 @@ AtlasMaps = {
 		Location = "Terres Fantômes";
 		Acronym = "ZA";
 		BLUE.."A) Entrée";
+		BLUE..INDENT.."Harrison Jones";
 		GREY.."1) Nalorakk (Ours)";
 		GREY..INDENT.."Tanzar";
 		GREY..INDENT.."Carte de Zul'Aman de Budd";

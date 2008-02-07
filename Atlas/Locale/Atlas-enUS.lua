@@ -458,7 +458,7 @@ AtlasMaps = {
 		GREY..INDENT.."Herod the Bully";
 		GREY..INDENT.."Nat Pagle";
 		GREY..INDENT.."Hal McAllister";
-		GREY..INDENT.."Zixill <Aspiring Merchant>";
+		GREY..INDENT.."Zixil <Aspiring Merchant>";
 		GREY..INDENT.."Overwatch Mark 0 <Protector>";
 		"";
 		ORNG.."Southshore Inn";

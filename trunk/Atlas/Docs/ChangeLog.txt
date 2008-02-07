@@ -27,6 +27,8 @@ v1.11.0
 - new map in outdoor raids: Skettis (Celellach, Nifl)
 - revamped Alterac Valley North map (Celellach)
 - added 'Base Camp' to Grom'Gol flightpoint (Telchar)
+- added Harrison Jones to ZA map (Kiria)
+- added angle-bracket titles to mobs
 - fixed some typos
 
 v1.10.3

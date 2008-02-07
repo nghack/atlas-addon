@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/6/2008
+-- Last Update : 2/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -369,7 +369,7 @@ AtlasMaps = {
 		ORNG.."阵营：时光守护者";
 		ORNG.."钥匙：时光之匙 (英雄模式)";
 		BLUE.."A) 入口";
-		BLUE..INDENT.."萨艾特";
+		BLUE..INDENT.."萨艾特 <时光守护者>";
 		ORNG.."X) 传送门 (刷新点)";
 		ORNG..INDENT.."第6波：时空领主德亚";
 		ORNG..INDENT.."第12波：坦普卢斯";
@@ -387,16 +387,16 @@ AtlasMaps = {
 		BLUE.."A) 联盟基地";
 		BLUE..INDENT.."吉安娜·普罗德摩尔";
 		BLUE.."B) 部落营地";
-		BLUE..INDENT.."萨尔";
+		BLUE..INDENT.."萨尔 <酋长>";
 		BLUE.."C) 暗夜精灵村庄";
-		BLUE..INDENT.."泰兰德·语风";
+		BLUE..INDENT.."泰兰德·语风 <艾露恩的高阶女祭司>";
 		GREY.."1) 雷基·冬寒";
 		GREY.."2) 安纳塞隆";
 		GREY.."3) 卡兹洛加";
 		GREY.."4) 阿兹加洛";
 		GREY.."5) 阿克蒙德";
-		GREY.."?) 因多米";
-		GREY..INDENT.."泰多姆";
+		GREY.."?) 因多米 <上古宝石看管者>";
+		GREY..INDENT.."泰多姆 <失落的神器看管者>";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "时光之穴 - 旧希尔希布莱德";
@@ -423,14 +423,12 @@ AtlasMaps = {
 		GREY.."6) 乔纳森·雷瓦";
 		GREY..INDENT.."杰瑞·卡特尔";
 		"";
-		"";
-		"";
 		ORNG.."旅行中";
-		GREY..INDENT.."托马斯·杨斯";
+		GREY..INDENT.."托马斯·杨斯 <旅行商人>";
 		GREY..INDENT.."老迈的达拉然巫师";
 		"";
 		ORNG.."南海镇";
-		GREY..INDENT.."克尔苏加德";
+		GREY..INDENT.."克尔苏加德 <肯瑞托>";
 		GREY..INDENT.."赫尔库拉";
 		GREY..INDENT.."农夫肯特";
 		GREY..INDENT.."萨莉·怀特迈恩";
@@ -439,8 +437,8 @@ AtlasMaps = {
 		GREY..INDENT.."赫洛德";
 		GREY..INDENT.."纳特·帕格";
 		GREY..INDENT.."哈尔·马克奥里斯特";
-		GREY..INDENT.."吉克希尔";
-		GREY..INDENT.."守候者零型";
+		GREY..INDENT.."吉克希尔 <商人>";
+		GREY..INDENT.."守候者零型 <保护者>";
 		"";
 		ORNG.."南海镇旅馆";
 		GREY..INDENT.."爱德华·汉斯";
@@ -452,11 +450,11 @@ AtlasMaps = {
 		GREY..INDENT.."提里奥·弗丁";
 		GREY..INDENT.."奥法师杜安";
 		GREY..INDENT.."泰兰 (上层)";
-		GREY..INDENT.."酒吧老板凯利";
-		GREY..INDENT.."弗兰斯·林";
+		GREY..INDENT.."酒吧老板凯利 <调酒师>";
+		GREY..INDENT.."弗兰斯·林 <招待员>";
 		GREY..INDENT.."厨师杰森";
 		GREY..INDENT.."斯塔文·密斯特曼托 (上层)";
-		GREY..INDENT.."费恩·奥德利克 (上层)";
+		GREY..INDENT.."费恩·奥德利克 <肯瑞托> (上层)";
 		"";
 		ORNG.."南海镇大厅";
 		GREY..INDENT.."赫尼·马雷布镇长";

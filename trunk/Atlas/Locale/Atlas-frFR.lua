@@ -494,15 +494,15 @@ AtlasMaps = {
 		Acronym = "BRD";
 		Location = "Mont Rochenoire";
 		ORNG.."Objet : Clé ombreforge";
-		ORNG.."Objet : Clé de la prison (Evasion)";
+		ORNG.."Objet : Clé de la prison (Evasion !)";
 		ORNG.."Objet : Bannière de provocation (Theldren)";
 		BLUE.."A) Entrée";
 		GREY.."1) Seigneur Roccor";
 		GREY.."2) Kharan Force-martel";
-		GREY.."3) Commandant Gor'shak";
+		GREY.."3) Commandant Gor'shak <Corps expéditionnaire de Kargath>";
 		GREY.."4) Maréchal Windsor";
-		GREY.."5) Grand Interrogateur Gerstahn";
-		GREY.."6) Cercle de la loi (l'Arène)";
+		GREY.."5) Grand Interrogateur Gerstahn <Inquisiteur du Marteau du crépuscule>";
+		GREY.."6) Cercle de la loi";
 		GREY..INDENT.."Anub'shiah (Hasard)";
 		GREY..INDENT.."Eviscérateur (Hasard)";
 		GREY..INDENT.."Gorosh le Derviche (Hasard)";
@@ -512,7 +512,7 @@ AtlasMaps = {
 		GREY..INDENT.."Theldren (Invoqué)";
 		GREY..INDENT.."Le Gaucher";
 		GREY..INDENT.."Malgen Long-épieu";
-		GREY..INDENT.."Grince-mâchoires";
+		GREY..INDENT.."Grince-mâchoires <Familier de Malgen Longspear>";
 		GREY..INDENT.."Crocs-pourris";
 		GREY..INDENT.."Va'jashni";
 		GREY..INDENT.."Maître-chien Grebmar (En bas)";
@@ -524,7 +524,7 @@ AtlasMaps = {
 		GREY..INDENT.."Gardien Stilgiss";
 		GREY..INDENT.."Verek";
 		GREY..INDENT.."Sentinelle Ruinepoigne";
-		GREY.."9) Fineous Sombrevire";
+		GREY.."9) Fineous Sombrevire <Chef architecte>";
 		GREY.."10) L'Enclume noire";
 		GREY..INDENT.." Seigneur Incendius";
 		GREY.."11) Bael'Gar";
@@ -535,7 +535,7 @@ AtlasMaps = {
 		GREY..INDENT.."Plans de forge";
 		GREY.."15) Le sinistre dévoreur";
 		GREY..INDENT.."Hurley Soufflenoir";
-		GREY..INDENT.."Lokhtos Sombrescompte";
+		GREY..INDENT.."Lokhtos Sombrescompte <La Confrérie du thorium>";
 		GREY..INDENT.."Gouvernante Nagmara";
 		GREY..INDENT.."Phalange";
 		GREY..INDENT.."Lanfiche Brouillecircuit";
@@ -549,7 +549,7 @@ AtlasMaps = {
 		GREY.."19) Le Lyceum";
 		GREY.."20) Magmus";
 		GREY.."21) Empereur Dagran Thaurissan";
-		GREY..INDENT.."Princesse Moira Barbe-de-bronze";
+		GREY..INDENT.."Princesse Moira Barbe-de-bronze <Princesse de Forgefer>";
 		GREY..INDENT.."Grande prêtresse de Thaurissan";
 		GREY.."22) La Forge noire";
 		GREY.."23) Cœur du Magma";

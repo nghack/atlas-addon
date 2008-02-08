@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/7/2008
+-- Last Update : 2/8/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -478,9 +478,9 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 洛考尔";
 		GREY.."2) 卡兰·巨锤";
-		GREY.."3) 指挥官哥沙克";
+		GREY.."3) 指挥官哥沙克 <卡加斯远征军>";
 		GREY.."4) 温德索尔元帅";
-		GREY.."5) 审讯官格斯塔恩";
+		GREY.."5) 审讯官格斯塔恩 <暮光之锤审问者>";
 		GREY.."6) 法律之环";
 		GREY..INDENT.."阿努希尔 (随机)";
 		GREY..INDENT.."剜眼者 (随机)";
@@ -491,7 +491,7 @@ AtlasMaps = {
 		GREY..INDENT.."塞尔德林 (召唤)";
 		GREY..INDENT.."莱弗提";
 		GREY..INDENT.."玛尔根·长矛";
-		GREY..INDENT.."碎腭";
+		GREY..INDENT.."碎腭 <玛尔根·长矛的宠物>";
 		GREY..INDENT.."烂牙";
 		GREY..INDENT.."瓦亚辛";
 		GREY..INDENT.."驯犬者格雷布玛尔 (下层)";
@@ -503,7 +503,7 @@ AtlasMaps = {
 		GREY..INDENT.."典狱官斯迪尔基斯";
 		GREY..INDENT.."维雷克";
 		GREY..INDENT.."卫兵杜格瑞普";
-		GREY.."9) 弗诺斯·达克维尔";
+		GREY.."9) 弗诺斯·达克维尔 <首席建筑师>";
 		GREY.."10) 黑铁砧";
 		GREY..INDENT.." 伊森迪奥斯";
 		GREY.."11) 贝尔加";
@@ -514,7 +514,7 @@ AtlasMaps = {
 		GREY..INDENT.." 锻造设计图";
 		GREY.."15) 黑铁酒吧";
 		GREY..INDENT.." 霍尔雷·黑须";
-		GREY..INDENT.." 罗克图斯·暗契";
+		GREY..INDENT.." 罗克图斯·暗契 <瑟银兄弟会>";
 		GREY..INDENT.." 娜玛拉小姐";
 		GREY..INDENT.." 法拉克斯";
 		GREY..INDENT.." 普拉格";
@@ -528,7 +528,7 @@ AtlasMaps = {
 		GREY.."19) 讲学厅";
 		GREY.."20) 玛格姆斯";
 		GREY.."21) 达格兰·索瑞森大帝";
-		GREY..INDENT.." 铁炉堡公主茉艾拉·铜须";
+		GREY..INDENT.." 铁炉堡公主茉艾拉·铜须 <铁炉堡公主>";
 		GREY..INDENT.." 索瑞森高阶女祭司";
 		GREY.."22) 黑熔炉";
 		GREY.."23) 熔火之心 (团队副本)";

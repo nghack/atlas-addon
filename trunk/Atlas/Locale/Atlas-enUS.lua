@@ -494,14 +494,14 @@ AtlasMaps = {
 		Acronym = "BRD";
 		Location = "Blackrock Mountain";
 		ORNG.."Key: Shadowforge Key";
-		ORNG.."Key: Prison Cell Key (Jail Break)";
+		ORNG.."Key: Prison Cell Key (Jail Break!)";
 		ORNG.."Key: Banner of Provocation (Theldren)";
 		BLUE.."A) Entrance";
 		GREY.."1) Lord Roccor";
 		GREY.."2) Kharan Mighthammer";
-		GREY.."3) Commander Gor'shak";
+		GREY.."3) Commander Gor'shak <Kargath Expeditionary Force>";
 		GREY.."4) Marshal Windsor";
-		GREY.."5) High Interrogator Gerstahn";
+		GREY.."5) High Interrogator Gerstahn <Twilight's Hammer Interrogator>";
 		GREY.."6) Ring of Law";
 		GREY..INDENT.."Anub'shiah (Random)";
 		GREY..INDENT.."Eviscerator (Random)";
@@ -512,7 +512,7 @@ AtlasMaps = {
 		GREY..INDENT.."Theldren (Summon)";
 		GREY..INDENT.."Lefty";
 		GREY..INDENT.."Malgen Longspear";
-		GREY..INDENT.."Gnashjaw";
+		GREY..INDENT.."Gnashjaw <Malgen Longspear's Pet>";
 		GREY..INDENT.."Rotfang";
 		GREY..INDENT.."Va'jashni";
 		GREY..INDENT.."Houndmaster Grebmar (Lower)";
@@ -524,7 +524,7 @@ AtlasMaps = {
 		GREY..INDENT.."Warder Stilgiss";
 		GREY..INDENT.."Verek";
 		GREY..INDENT.."Watchman Doomgrip";
-		GREY.."9) Fineous Darkvire";
+		GREY.."9) Fineous Darkvire <Chief Architect>";
 		GREY.."10) The Black Anvil";
 		GREY..INDENT.."Lord Incendius";
 		GREY.."11) Bael'Gar";
@@ -535,7 +535,7 @@ AtlasMaps = {
 		GREY..INDENT.."Blacksmithing Plans";
 		GREY.."15) The Grim Guzzler";
 		GREY..INDENT.."Hurley Blackbreath";
-		GREY..INDENT.."Lokhtos Darkbargainer";
+		GREY..INDENT.."Lokhtos Darkbargainer <The Thorium Brotherhood>";
 		GREY..INDENT.."Mistress Nagmara";
 		GREY..INDENT.."Phalanx";
 		GREY..INDENT.."Plugger Spazzring";
@@ -549,7 +549,7 @@ AtlasMaps = {
 		GREY.."19) The Lyceum";
 		GREY.."20) Magmus";
 		GREY.."21) Emperor Dagran Thaurissan";
-		GREY..INDENT.."Princess Moira Bronzebeard";
+		GREY..INDENT.."Princess Moira Bronzebeard <Princess of Ironforge>";
 		GREY..INDENT.."High Priestess of Thaurissan";
 		GREY.."22) The Black Forge";
 		GREY.."23) Molten Core";

@@ -77,6 +77,16 @@ function AtlasOptions_ClampedToggle()
 	Atlas_Refresh();
 end
 
+function AtlasOptions_CtrlToggle()
+	if(AtlasOptions.AtlasCtrl) then
+		AtlasOptions.AtlasCtrl = false;
+	else
+		AtlasOptions.AtlasCtrl = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+
 function AtlasOptions_OnLoad()
 	UIPanelWindows['AtlasOptionsFrame'] = {area = 'center', pushable = 0};
 end
@@ -87,6 +97,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameRightClick:SetChecked(AtlasOptions.AtlasRightClick);
 	AtlasOptionsFrameAcronyms:SetChecked(AtlasOptions.AtlasAcronyms);
 	AtlasOptionsFrameClamped:SetChecked(AtlasOptions.AtlasClamped);
+	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
 	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);

@@ -13,6 +13,10 @@ v1.11.0
 - renamed the five default Atlas plugins for a cleaner AddOns directory
 - improved the screen clamping offset values
 - fixed a bug with the reset position button
+- frame scale slider option increased to 1.5
+- legend entries that are too long will be truncated now
+- added an option to show a legend entry tooltip if the control button is down
+- changed the frame strata of the main window so it covers all the action bars
 - changed Horde Base to Horde Encampment and Night Elf Base to Night Elf Village in Hyjal (Telchar)
 - changed Blacksmith Plans to Blacksmithing Plans 3 times in BRD (Telchar)
 - added acronyms to Gnomeregan, Stockade, Magtheridon' Lair and all battlegrounds (Telchar)

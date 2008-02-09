@@ -26,15 +26,34 @@
 ..\FrameXML\UI.xsd">
 	<Button name = "AtlasEntryTemplate" hidden="true" virtual="true">
 		<Size>
-			<AbsDimension x="342" y="15" />
+			<AbsDimension x="330" y="15" />
 		</Size>
 		<Layers>
 			<Layer level="OVERLAY">
-				<FontString name="$parent_Text" inherits="GameFontHighlight" wraponspaces="false" justifyH="LEFT"/>
+				<FontString name="$parent_Text" inherits="GameFontHighlight" wraponspaces="false" justifyH="LEFT">
+					<Size>
+						<AbsDimension x="330" y="15" />
+					</Size>
+				</FontString>
 			</Layer>
 		</Layers>
+		<Scripts>
+			<OnEnter>
+				if ( IsControlKeyDown() and AtlasOptions.AtlasCtrl ) then
+					GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+					GameTooltip:ClearAllPoints();
+					GameTooltip:SetBackdropBorderColor(0,0,0,0);
+					GameTooltip:SetBackdropColor(0,0,0,1);
+					GameTooltip:SetText(strtrim(string.sub(getglobal(self:GetName().."_Text"):GetText(), 11)),1,1,1,1);
+					GameTooltip:Show();
+				end
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
 	</Button>
-	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true">
+	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true" frameStrata="DIALOG">
 		<Size>
 			<AbsDimension x="921" y="601"/>
 		</Size>

@@ -17,6 +17,7 @@ v1.11.0
 - legend entries that are too long will be truncated now
 - added an option to show a legend entry tooltip if the control button is down
 - changed the frame strata of the main window so it covers all the action bars
+- added an option to display the player's coordinates on the world map
 - changed Horde Base to Horde Encampment and Night Elf Base to Night Elf Village in Hyjal (Telchar)
 - changed Blacksmith Plans to Blacksmithing Plans 3 times in BRD (Telchar)
 - added acronyms to Gnomeregan, Stockade, Magtheridon' Lair and all battlegrounds (Telchar)

@@ -26,7 +26,7 @@
 ..\FrameXML\UI.xsd">
 	<Frame name="AtlasOptionsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" clampedToScreen="true">
 		<Size>
-			<AbsDimension x="300" y="540"/>
+			<AbsDimension x="300" y="570"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -168,6 +168,23 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$ParentCoords" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-240"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_COORDS);
+					</OnLoad>
+					<OnClick>
+						AtlasOptions_CoordsToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="240" y="16"/>
@@ -175,7 +192,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-270" />
+							<AbsDimension x="0" y="-300" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -197,7 +214,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-310" />
+							<AbsDimension x="0" y="-340" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -219,7 +236,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-350" />
+							<AbsDimension x="0" y="-380" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -241,7 +258,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-390" />
+							<AbsDimension x="0" y="-420" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -273,7 +290,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-445"/>
+							<AbsDimension x="5" y="-475"/>
 						</Offset>
 					</Anchor>
 				</Anchors>

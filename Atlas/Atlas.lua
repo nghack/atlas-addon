@@ -57,6 +57,7 @@ local DefaultAtlasOptions = {
 	["AtlasScale"] = 1.0;
 	["AtlasClamped"] = true;
 	["AtlasSortBy"] = 1;
+	["AtlasCtrl"] = 1;
 };
 
 local EntInstMatches = {
@@ -690,6 +691,7 @@ function Atlas_OnClick()
 end
 
 function AtlasScrollBar_Update()
+	GameTooltip:Hide();
 	local line, lineplusoffset;
 	FauxScrollFrame_Update(AtlasScrollBar,ATLAS_CUR_LINES,ATLAS_NUM_LINES,15);
 	for line=1,ATLAS_NUM_LINES do

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/8/2008
+-- Last Update : 2/9/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -50,6 +50,8 @@ ATLAS_OPTIONS_SCALE 		= "窗口大小";
 ATLAS_OPTIONS_BUTRAD 		= "图标半径";
 ATLAS_OPTIONS_CLAMPED		= "使 Atlas 不超出游戏画面"
 ATLAS_OPTIONS_HELP 			= "按住左键可移动这个窗口"
+ATLAS_OPTIONS_CTRL 			= "弹出工具说明 (按住CTRL指向内容)"
+ATLAS_OPTIONS_COORDS		= "在世界地图上显示玩家坐标"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";

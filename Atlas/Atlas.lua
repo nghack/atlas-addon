@@ -57,7 +57,8 @@ local DefaultAtlasOptions = {
 	["AtlasScale"] = 1.0;
 	["AtlasClamped"] = true;
 	["AtlasSortBy"] = 1;
-	["AtlasCtrl"] = 1;
+	["AtlasCtrl"] = 0;
+	["AtlasCoords"] = 0;
 };
 
 local EntInstMatches = {
@@ -317,6 +318,11 @@ function Atlas_Init()
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped);
 	AtlasButton_UpdatePosition();
 	AtlasOptions_Init();
+	if AtlasOptions.AtlasCoords then
+		Atlas_WorldMap_Frame:Show();
+	else
+		Atlas_WorldMap_Frame:Hide();
+	end
 	
 	--Cosmos integration
 	if(EarthFeature_AddButton) then
@@ -735,4 +741,22 @@ function AtlasSimpleSearch(data, text)
 	end
 	
 	return new;
+end
+
+local function round(num, idp)
+   local mult = 10 ^ (idp or 0);
+   return math.floor(num * mult + 0.5) / mult;
+end
+
+function Atlas_WorldMap_OnUpdate(self, elapsed)
+   local x, y = GetPlayerMapPosition("player");
+   local text;
+   if ( x == 0 and y == 0 ) then
+      text = "---";
+   else
+      x = round(x * 100, 2);
+      y = round(y * 100, 2);
+      text = string.format("%.2f, %.2f", x, y);
+   end
+   getglobal(self:GetName().."_Text"):SetText(text);
 end

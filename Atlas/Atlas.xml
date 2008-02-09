@@ -425,4 +425,27 @@
 			</OnMouseUp>
 		</Scripts>
 	</Frame>
+	<Frame name="Atlas_WorldMap_Frame" parent="WorldMapFrame">
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$Parent_Text" inherits="GameFontHighlightSmall">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="WorldMapPositioningGuide">
+							<Offset>
+								<AbsDimension x="0" y="11"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnUpdate>
+				Atlas_WorldMap_OnUpdate(self, elapsed);
+			</OnUpdate>
+			<OnHide>
+				SetMapToCurrentZone();
+			</OnHide>
+		</Scripts>
+	</Frame>
 </Ui>

@@ -110,7 +110,7 @@ if ( GetLocale() == "esES" ) then
 			GREY.."11) Kargath, ".._RED.."Tierras Inhospitas"; --Bien 
 			GREY.."12) Peñasco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
 			GREY.."13) Rocal, ".._RED.."Pantano de las Penas"; --Bien
-			GREY.."14) Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."14) Campamento Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
 			GREY.."15) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
 		};
 		FPHordeWest = {

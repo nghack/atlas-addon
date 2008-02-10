@@ -43,43 +43,44 @@ if ( GetLocale() == "esES" ) then
 
 	local myData = {
 		AlteracValleyNorth = {
-			ZoneName = "Valle de Alterac (Norte)";
+			ZoneName = "Valle de Alterac (Norte, Alianza)";
 			Location = "Montañas Alterac";
+			Acronym = "VA";
 			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
 			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
 			BLUE.."A) Entrada de la alianza";
 			BLUE.."B) Dun Baldar (Alianza)";
-			BLUE..INDENT.."Vanndar Pico Tormenta (Alianza)";
-			BLUE..INDENT.."Alguacil de Dun Baldar Norte (Alianza)";
-			BLUE..INDENT.."Alguacil de Dun Baldar Sur (Alianza)";
-			BLUE..INDENT.."Alguacil Alahielo (Alianza)";
-			BLUE..INDENT.."Alguacil Piedrahogar (Alianza)";
-			BLUE..INDENT.."Prospectora Tallapiedra (Alianza)";
+			BLUE..INDENT.."Vanndar Pico Tormenta";
+			BLUE..INDENT.."Alguacil de Dun Baldar Norte";
+			BLUE..INDENT.."Alguacil de Dun Baldar Sur";
+			BLUE..INDENT.."Alguacil Alahielo";
+			BLUE..INDENT.."Alguacil Piedrahogar";
+			BLUE..INDENT.."Prospectora Tallapiedra";
 			_RED.."1) Mina Ferrohondo"; --Bien
 			GREY..INDENT.."Morloch (Neutral)"; --Bien
-			GREY..INDENT.."Umi Thorson (Alianza)"; --Bien
+			GREY..INDENT.."Umi Thorson"; --Bien
 			GREY..INDENT.."Keetar (Horda)"; --Bien
-			GREY.."2) Archidruida Renferal (Alianza)"; --Bien
+			GREY.."2) Archidruida Renferal"; --Bien
 			ORNG.."3) Búnker Norte de Dun Baldar"; --Bien
 			GREY..INDENT.."Comandante del aire Mulverick (Horda)";
-			GREY.."4) Murgot Forjahonda (Alianza)"; --Bien		
-			GREY..INDENT.."Dirk Estafa <Cazador de recompensas> (Alianza)"; --Bien		
-			GREY..INDENT.."Athramanis <Cazadora de recompensas> (Alianza)"; --Bien
-			GREY..INDENT.."Lana Cebatruenos <Suministros de herrería> (Alianza)"; --Bien			
+			GREY.."4) Murgot Forjahonda"; --Bien		
+			GREY..INDENT.."Dirk Estafa <Cazador de recompensas>"; --Bien		
+			GREY..INDENT.."Athramanis <Cazadora de recompensas>"; --Bien
+			GREY..INDENT.."Lana Cebatruenos <Suministros de herrería>"; --Bien			
 			_RED.."5) Puesto de socorro de Pico Tormenta"; --Bien
-			GREY.."6) Maestra de establo de Pico Tormenta <Maestra de establos> (Alianza)";	--Bien		
-			GREY..INDENT.."Comandante de jinetes de carneros de Pico Tormenta (Alianza)"; --Bien	
-			GREY..INDENT.."Svalbrad Montelejano <Objetos comerciables> (Alianza)"; --Bien
-			GREY..INDENT.."Kurdrum Barbacebada <Suministros de venenos y componentes> (Alianza)"; --Bien			
-			GREY.."7) Intendente de Pico Tormenta (Alianza)"; --Bien		
-			GREY..INDENT.."Jonivera Montelejano <Pertrechos> (Alianza)"; --Bien
-			GREY..INDENT.."Brogus Cebatruenos <Alimentos y bebidas> (Alianza)"; --Bien			
+			GREY.."6) Maestra de establo de Pico Tormenta <Maestra de establos>";	--Bien		
+			GREY..INDENT.."Comandante de jinetes de carneros de Pico Tormenta"; --Bien	
+			GREY..INDENT.."Svalbrad Montelejano <Objetos comerciables>"; --Bien
+			GREY..INDENT.."Kurdrum Barbacebada <Suministros de venenos y componentes>"; --Bien			
+			GREY.."7) Intendente de Pico Tormenta"; --Bien		
+			GREY..INDENT.."Jonivera Montelejano <Pertrechos>"; --Bien
+			GREY..INDENT.."Brogus Cebatruenos <Alimentos y bebidas>"; --Bien			
 			GREY.."8) Comandante del aire Ichman (Rescatado)"; --Bien	
 			GREY..INDENT.."Comandante del aire Slidore (Rescatado)"; --Bien	
 			GREY..INDENT.."Comandante del aire Vipore (Rescatado)";	--Bien			
 			ORNG.."9) Búnker Sur de Dun Baldar"; --Bien			
-			GREY..INDENT.."Cabo Noreg Pico Tormenta (Alianza)";	--Bien
-			GREY..INDENT.."Gaelden Martillero <Oficial de suministros Pico Tormenta> (Alianza)"; --Bien			
+			GREY..INDENT.."Cabo Noreg Pico Tormenta";	--Bien
+			GREY..INDENT.."Gaelden Martillero <Oficial de suministros Pico Tormenta>"; --Bien			
 			_RED.."10) Cementerio Pico Tormenta"; --Bien
 			GREY.."11) Cueva Ala Gélida"; --Bien
 			GREY..INDENT.."Estandarte de Pico Tormenta"; --Bien
@@ -88,19 +89,19 @@ if ( GetLocale() == "esES" ) then
 			ORNG.."13) Búnker Ala Gélida"; --Bien
 			GREY..INDENT.."Comandante del aire Guse (Horda)"; --Bien
 			_RED.."14) Cementerio Piedrahogar"; --Bien
-			GREY.."15) Comandante de jinetes de carneros de Pico Tormenta (Alianza)"; --Bien
+			GREY.."15) Comandante de jinetes de carneros de Pico Tormenta"; --Bien
 			ORNG.."16) Puesto de salida Piedrahogar"; --Bien
-			GREY..INDENT.."Capitana Balinda Piedrahogar <Capitana Pico Tormenta> (Alianza)"; --Bien
+			GREY..INDENT.."Capitana Balinda Piedrahogar <Capitana Pico Tormenta>"; --Bien
 			_RED.."17) Cementerio Avalancha"; --Bien
-			GREY..INDENT.."Señal de Inchman (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Inchman"; --Bien
 			GREY..INDENT.."Señal de Mulverick (Horda)"; --Bien
 			ORNG.."18) Búnker Piedrahogar"; --Bien
 			GREY.."19) Ivus el Señor del Bosque (Zona de invocar)"; --Bien
 			GREY.."20) Cráter occidental"; --Bien
-			GREY..INDENT.."Señal de Vipore (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Vipore"; --Bien
 			GREY..INDENT.."Señal de Jeztor (Horda)"; --Bien
 			GREY.."21) Cráter del este"; --Bien
-			GREY..INDENT.."Señal de Slidore (Alianza)"; --Bien
+			GREY..INDENT.."Señal de Slidore"; --Bien
 			GREY..INDENT.."Señal de Guse (Horda)"; --Bien
 			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
@@ -108,12 +109,13 @@ if ( GetLocale() == "esES" ) then
 			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";
 		};
 		AlteracValleySouth = {
-			ZoneName = "Valle de Alterac (Sur)";
+			ZoneName = "Valle de Alterac (Sur, Horda)";
 			Location = "Laderas de Trabalomas";
+			Acronym = "VA";
 			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
 			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
 			BLUE.."A) Entrada";
-			BLUE.."B) Bastión Lobo Gélido (Horda)"; --Bien
+			BLUE.."B) Bastión Lobo Gélido"; --Bien
 			_RED.."1) Puesto de auxilio de Lobo Gélido"; --Bien
 			_RED.."2) Cementerio Lobo Gélido"; --Bien
 			_RED.."3) Cementerio Sangre Fría"; --Bien
@@ -122,7 +124,7 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Comandante del aire Ichman (Alianza)"; --Bien
 			ORNG.."6) Punto Torre"; --Bien
 			GREY..INDENT.."Comandante del aire Slidore (Alianza)"; --Bien
-			GREY..INDENT.."Comandante Luis Filis (Horda)"; --Bien
+			GREY..INDENT.."Comandante Luis Filis"; --Bien
 			ORNG.."7) Torre Sangre Fría"; --Bien
 			ORNG.."8) Baluarte Sangre Fría (Galvangar)"; --Bien
 			GREY.."9) Caverna Zarpa Salvaje"; --Bien
@@ -143,6 +145,7 @@ if ( GetLocale() == "esES" ) then
 		ArathiBasin = {
 			ZoneName = "Cuenca de Arathi";
 			Location = "Tierras Altas de Arathi";
+			Acronym = "CA";
 			ORNG.."Reputación: Los Rapiñadores (Horda)";
 			ORNG.."Reputación: La Liga de Arathor (Alianza)";
 			BLUE.."A) Bastión de Trollbane (Alianza)"; --Bien
@@ -156,6 +159,7 @@ if ( GetLocale() == "esES" ) then
 		WarsongGulch = {
 			ZoneName = "Garganta Grito de Guerra ";
 			Location = "Vallefresno / Los Baldíos";
+			Acronym = "GGG";
 			ORNG.."Reputación: Escoltas de Grito de Guerra (Horda)";
 			ORNG.."Reputación: Centinelas Ala de Plata (Alianza)";
 			BLUE.."A) Bastión Ala de Plata (Alianza)"; --Bien
@@ -164,6 +168,7 @@ if ( GetLocale() == "esES" ) then
 		EyeOfTheStorm = {
 			ZoneName = "El Ojo de la Tormenta";
 			Location = "Tormenta Abisal";
+			Acronym = "OT";
 			BLUE.."A) Entrada (Alianza)";
 			BLUE.."B) Entrada (Horda)";
 			_RED.."X) Cementerio"; --Bien

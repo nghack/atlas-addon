@@ -72,6 +72,9 @@ ATLAS_OPTIONS_SCALE = "Escala";
 ATLAS_OPTIONS_BUTRAD = "Radio del botón";
 ATLAS_OPTIONS_CLAMPED = "Ajustar ventana a la pantalla"
 ATLAS_OPTIONS_HELP = "Click-izdo para desplazar esta ventana"
+ATLAS_OPTIONS_CTRL = "Mantener pulsada la tecla control para mostrar las herramientas"
+ATLAS_OPTIONS_COORDS = "Muestra coordenadas en el mapa del mundo"
+
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho y arrastrar para mover el icono.";
@@ -101,7 +104,9 @@ ATLAS_DDL_EXPANSION = "Expansión";
 ATLAS_DDL_EXPANSION_OLD = "Antiguas mazmorras del mundo";
 ATLAS_DDL_EXPANSION_BC = "Mazmorras de Burning Crusade";
 
-ATLAS_ENTRANCE_INSTANCE_BUTTON = "Entrada/Mazmorra";
+ATLAS_INSTANCE_BUTTON = "Mazmorra";
+ATLAS_ENTRANCE_BUTTON = "Entrada";
+ATLAS_SEARCH_UNAVAIL = "Buscar no disponible";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -130,7 +135,7 @@ AtlasMaps = {
 		Location = "Orgrimmar";
 		BLUE.."A) Entrada";
 		GREY.."1) Maur Totem Siniestro"; --Bien
-		GREY..INDENT.."Ogglesílex"; --Bien
+		GREY..INDENT.."Ogglesílex <Jefe Furia Ardiente>"; --Bien
 		GREY.."2) Taragaman el hambriento"; --Bien
 		GREY.."3) Jergosh el Convocador"; --Bien
 		GREY..INDENT.."Zelemar el Colérico (Invocar)"; --Bien
@@ -142,12 +147,12 @@ AtlasMaps = {
 		Location = "Los Baldíos";
 		BLUE.."A) Entrada";
 		GREY.."1) Discípulo de Naralex"; --Bien
-		GREY.."2) Lord Cobrahn"; --Bien
-		GREY.."3) Lady Anacondra"; --Bien
+		GREY.."2) Lord Cobrahn <Noble del Colmillo>"; --Bien
+		GREY.."3) Lady Anacondra <Noble del Colmillo>"; --Bien
 		GREY.."4) Kresh"; --Bien
-		GREY.."5) Lord Pythas"; --Bien
+		GREY.."5) Lord Pythas <Noble del Colmillo>"; --Bien
 		GREY.."6) Skum"; --Bien
-		GREY.."7) Lord Serpentis (Arriba)"; --Bien
+		GREY.."7) Lord Serpentis <Noble del Colmillo> (Arriba)"; --Bien
 		GREY.."8) Verdan el Eterno (Arriba)";
 		GREY.."9) Mutanus el Devorador"; --Bien
 		GREY..INDENT.."Naralex"; --Bien
@@ -161,7 +166,7 @@ AtlasMaps = {
 		GREY.."1) Ghamoo-ra"; --Bien
 		GREY.."2) Manuscrito de Lorgalis"; --Bien
 		GREY.."3) Lady Sarevess"; --Bien
-		GREY.."4) Guardia Argenta Thaelrid"; --Bien
+		GREY.."4) Guardia Argenta Thaelrid <El Alba Argenta>"; --Bien
 		GREY.."5) Gelihast"; --Bien
 		GREY..INDENT.."Santuario de Gelihast"; --Bien
 		GREY.."6) Lorgus Jett (Varia)"; --Bien
@@ -179,13 +184,13 @@ AtlasMaps = {
 		Location = "Los Baldíos";
 		BLUE.."A) Entrada";
 		GREY.."1) Roogug"; --Bien
-		GREY.."2) Aggem Malaespina"; --Bien
-		GREY.."3) Médium Jargba"; --Bien
+		GREY.."2) Aggem Malaespina <Profeta de los Caramuerte>"; --Bien
+		GREY.."3) Médium Jargba <Capitán Caramuerte>"; --Bien
 		GREY.."4) Señor Supremo Colmicarnero"; --Bien
 		GREY..INDENT.."Cuerolanza de Rajacieno"; --Bien
 		GREY.."5) Agathelos el Furioso"; --Bien
 		GREY.."6) Cazador ciego (Raro)"; --Bien
-		GREY.."7) Charlga Filonavaja"; --Bien
+		GREY.."7) Charlga Filonavaja <La Bruja>"; --Bien
 		GREY.."8) Willix el Importador"; --Bien
 		GREY..INDENT.."Heralath Arroyobarbecho"; --Bien
 		GREY.."9) Clamor de Tierra Halmgar (Raro)"; --Bien
@@ -211,7 +216,7 @@ AtlasMaps = {
 		Location = "Tanaris";
 		ORNG.."Llave: Marra de Zul'Farrak (Gahz'rilla)";
 		BLUE.."A) Entrada";
-		GREY.."1) Antu'sul"; --Bien
+		GREY.."1) Antu'sul <Sobrestante de Sul>"; --Bien
 		GREY.."2) Theka el Mártir"; --Bien
 		GREY.."3) Médico Brujo Zum'rah"; --Bien
 		GREY..INDENT.."Héroe Muerto Zul'Farrak"; --Bien
@@ -240,10 +245,10 @@ AtlasMaps = {
 		BLUE.."A) Entrada (Naranja)";
 		BLUE.."B) Entrada (Morada)";
 		BLUE.."C) Entrada (Portal)";
-		GREY.."1) Veng (El quinto Khan)"; --Bien
+		GREY.."1) Veng <El quinto Khan>"; --Bien
 		GREY.."2) Noxxion"; --Bien
 		GREY.."3) Lativaja"; --Bien
-		GREY.."4) Maraudos (El cuarto Khan)"; --Bien
+		GREY.."4) Maraudos <El cuarto Khan>"; --Bien
 		GREY.."5) Lord Lenguavil"; --Bien
 		GREY.."6) Meshlok el Cosechador (Raro)"; --Bien
 		GREY.."7) Celebras el Maldito"; --Bien
@@ -280,7 +285,7 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		BLUE.."B) Biblicoteca"; --Bien
 		GREY.."1) Guardia Mol'dar"; --Bien
-		GREY.."2) Vapuleador Kreeg"; --Bien
+		GREY.."2) Vapuleador Kreeg <El borracho>"; --Bien
 		GREY.."3) Guardia Fengus"; --Bien
 		GREY.."4) Knot Thimblejack"; --Bien
 		GREY..INDENT.."Guardia Slip'kik"; --Bien
@@ -293,7 +298,7 @@ AtlasMaps = {
 		Acronym = "LMO";
 		Location = "Feralas";
 		ORNG.."Llave: Llave creciente"; --Bien
-		ORNG.."Llave: Jarra de J'eevee (Hel'nurath)"; --Bien
+		ORNG.."Llave: Jarra de J'eevee (Lord Hel'nurath)"; --Bien
 		BLUE.."A) Entranda";
 		BLUE.."B) Pilones"; --Bien
 		GREY.."1) Anciano Shen'dralar"; --Bien
@@ -302,7 +307,7 @@ AtlasMaps = {
 		GREY.."3) Illyanna Roblecuervo"; --Bien
 		GREY..INDENT.."Ferra"; --Bien
 		GREY.."4) Magister Kalendris"; --Bien
-		GREY.."5) Tsu'Zee (Raro)"; --Bien
+		GREY.."5) Tsu'zee (Raro)"; --Bien
 		GREY.."6) Immol'thar"; --Bien
 		GREY..INDENT.."Lord Hel'nurath (Invocar)"; --Bien
 		GREY.."7) Príncipe Tortheldrin"; --Bien
@@ -346,9 +351,9 @@ AtlasMaps = {
 		GREY..INDENT.."Emperador Vek'nilash"; --Bien
 		GREY.."8) Ouro (Opcional)"; --Bien
 		GREY.."9) Ojo de C'Thun / C'Thun"; --Bien
-		GREN.."1') Andorgos"; --Bien
-		GREN..INDENT.."Vethsera"; --Bien
-		GREN..INDENT.."Kandrostrasz"; --Bien
+		GREN.."1') Andorgos <Camada de Malygos>"; --Bien
+		GREN..INDENT.."Vethsera <Camada de Ysera>"; --Bien
+		GREN..INDENT.."Kandrostrasz <Camada de Alexstrasza>"; --Bien
 		GREN.."2') Arygos"; --Bien
 		GREN..INDENT.."Caelestrasz"; --Bien
 		GREN..INDENT.."Merithra del Sueño"; --Bien
@@ -385,7 +390,7 @@ AtlasMaps = {
 		ORNG.."Reputación: Vigilantes del tiempo"; --Bien
 		ORNG.."Llave: Llave del tiempo (Heróico)";
 		BLUE.."A) Entrada";
-		BLUE..INDENT.."Sa'at"; --Bien
+		BLUE..INDENT.."Sa'at <Vigilantes del Tiempo>"; --Bien
 		ORNG.."X) Portal (Puntos de Aparición)"; --Bien
 		ORNG..INDENT.."Oleada 6: Chronolord Deja"; --Bien
 		ORNG..INDENT.."Oleada 12: Temporus"; --Bien
@@ -403,16 +408,16 @@ AtlasMaps = {
 		BLUE.."A) Base de la Alianza"; --Bien
 		BLUE..INDENT.."Lady Jaina Valiente"; --Bien
 		BLUE.."B) Campamento de la Horda"; --Bien
-		BLUE..INDENT.."Thrall"; --Bien
+		BLUE..INDENT.."Thrall <Jefe de Guerra>"; --Bien
 		BLUE.."C) Pueblo de los Elfos de la Noche"; --Bien
-		BLUE..INDENT.."Tyrande Susurravientos"; --Bien
+		BLUE..INDENT.."Tyrande Susurravientos <Suma sacerdotisa de Elune>"; --Bien
 		GREY.."1) Ira Fríoinvierno"; --Bien
 		GREY.."2) Anetheron"; --Bien
 		GREY.."3) Kaz'rogal"; --Bien
 		GREY.."4) Azgalor"; --Bien
 		GREY.."5) Archimonde"; --Bien
-		GREY.."?) Indormi"; --Bien
-		GREY..INDENT.."Tydormu"; --Bien
+		GREY.."?) Indormi <Guardián de la antigua Gema Lore>"; --Comprobar
+		GREY..INDENT.."Tydormu <Guardián de artefactos perdidos>"; --Comprobar
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "CdT: Laderas de Trabalomas"; --Bien
@@ -438,14 +443,12 @@ AtlasMaps = {
 		GREY.."6) Jonathan Revah"; --Bien
 		GREY..INDENT.."Jerry Carter"; --Bien
 		"";
-		"";
-		"";
 		ORNG.."Viajando"; --Bien
-		GREY..INDENT.."Thomas Yance"; --Bien
+		GREY..INDENT.."Thomas Yance <Vendedor ambulante>"; --Bien
 		GREY..INDENT.."Zhaorí Dalaran envejecido"; --Bien
 		""; 
 		ORNG.."Costasur"; --Bien
-		GREY..INDENT.."Kel'Thuzad"; --Bien
+		GREY..INDENT.."Kel'Thuzad <Los Kirin Tor>"; --Bien
 		GREY..INDENT.."Helcular"; --Bien
 		GREY..INDENT.."Granjero Kent"; --Bien
 		GREY..INDENT.."Sally Melenablanca"; --Bien
@@ -454,8 +457,8 @@ AtlasMaps = {
 		GREY..INDENT.."Herod el Matón"; --Bien
 		GREY..INDENT.."Nat Pagle"; --Bien
 		GREY..INDENT.."Hal McAllister"; --Bien
-		GREY..INDENT.."Zixil"; --Bien
-		GREY..INDENT.."Robovigilante Mark 0"; --Bien
+		GREY..INDENT.."Zixil <Aspirante a mercader>"; --Bien
+		GREY..INDENT.."Robovigilante Mark 0 <Protector>"; --Bien
 		"";
 		ORNG.."Posada de Costasur"; --Bien
 		GREY..INDENT.."Capitán Edward Hanes"; --Bien
@@ -467,11 +470,11 @@ AtlasMaps = {
 		GREY..INDENT.."Tirión Vardín"; --Bien
 		GREY..INDENT.."Arcanista Doan"; --Bien
 		GREY..INDENT.."Taelan (Arriba)"; --Bien
-		GREY..INDENT.."Posadero Kelly"; --Bien
-		GREY..INDENT.."Frances Lin"; --Bien
-		GREY..INDENT.."Chef Jessen"; --Bien
+		GREY..INDENT.."Posadero Kelly <Camarero>"; --Bien
+		GREY..INDENT.."Frances Lin <Camarera>"; --Bien
+		GREY..INDENT.."Jefe Jessen <Especialidad en carne y bazofia>"; --Bien
 		GREY..INDENT.."Stalvan Mantoniebla (Arriba)"; --Bien
-		GREY..INDENT.."Phin Odelic (Arriba)"; --Bien
+		GREY..INDENT.."Phin Odelic <Los Kirin Tor> (Arriba)"; --Bien
 		"";
 		ORNG.."Ayuntamiento de Costasur"; --Bien
 		GREY..INDENT.."Magistrado Henry Maleb"; --Bien
@@ -494,9 +497,9 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		GREY.."1) Lord Roccor"; --Bien
 		GREY.."2) Kharan Martillazo"; --Bien
-		GREY.."3) Comandante Gor'shak"; --Bien
+		GREY.."3) Comandante Gor'shak <Fuerza Expedicionaria de Kargath>"; --Bien
 		GREY.."4) Alguacil Windsor"; --Bien
-		GREY.."5) Alto Interrogador Gerstahn"; --Bien
+		GREY.."5) Alta Interrogadora Gerstahn <Interrogadora del Martillo Crepuscular>"; --Bien
 		GREY.."6) Círculo de la Ley"; --Bien
 		GREY..INDENT.."Anub'shiah (Aleatorio)"; --Bien
 		GREY..INDENT.."Eviscerador (Aleatorio)"; --Bien
@@ -507,7 +510,7 @@ AtlasMaps = {
 		GREY..INDENT.."Theldren (Invocar)"; --Bien
 		GREY..INDENT.."Lefty"; --No existen (PREGUNTAR)
 		GREY..INDENT.."Malgen Longspear"; --No existen (PREGUNTAR)
-		GREY..INDENT.."Gnashjaw"; --No existen (PREGUNTAR)
+		GREY..INDENT.."Gnashjaw <Malgen Longspear's Pet>"; --No existen (PREGUNTAR)
 		GREY..INDENT.."Colmipútreo"; --Bien
 		GREY..INDENT.."Va'jashni"; --Bien
 		GREY..INDENT.."Maestro de canes Grebmar (Abajo)"; --Bien
@@ -519,7 +522,7 @@ AtlasMaps = {
 		GREY..INDENT.."Guarda Stilgiss"; --Bien
 		GREY..INDENT.."Verek"; --Bien
 		GREY..INDENT.."Vigía Presaletal"; --Bien
-		GREY.."9) Finoso Virunegro"; --Bien
+		GREY.."9) Finoso Virunegro <Arquitecto jefe>"; --Bien
 		GREY.."10) El Yunquenegro"; --Bien
 		GREY..INDENT.."Lord Incendius"; --Bien
 		GREY.."11) Bael'Gar"; --Bien
@@ -530,7 +533,7 @@ AtlasMaps = {
 		GREY..INDENT.."Diseño de herrería"; --Bien
 		GREY.."15) Tragapenas"; --Bien
 		GREY..INDENT.."Hurley Negrálito"; --Bien
-		GREY..INDENT.."Lokhtos Tratoscuro"; --Bien
+		GREY..INDENT.."Lokhtos Tratoscuro <La Hermandad del torio>"; --Bien
 		GREY..INDENT.."Maestra Nagmara"; --Bien
 		GREY..INDENT.."Falange"; --Bien
 		GREY..INDENT.."Plugger Aropatoso"; --Bien
@@ -544,7 +547,7 @@ AtlasMaps = {
 		GREY.."19) El Liceo"; --Bien
 		GREY.."20) Magmus"; --Bien
 		GREY.."21) Emperador Dagran Thaurissan"; --Bien
-		GREY..INDENT.."Princesa Moira Barbabronce"; --Bien
+		GREY..INDENT.."Princesa Moira Barbabronce <Princesa de Forjaz>"; --Bien
 		GREY..INDENT.."Alta Sacerdotisa de Thaurissan"; --Bien
 		GREY.."22) La Forjanegra"; --Bien 
 		GREY.."23) Núcleo de Magma"; --Bien
@@ -1042,7 +1045,7 @@ AtlasMaps = {
 	};
 	HCBloodFurnace = {
 		ZoneName = "CFI: El Horno de la Sangre";
-		Location = "Ciud. del Fuego Infernal, Penín.";
+		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
 		Acronym = "HS";
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
@@ -1054,7 +1057,7 @@ AtlasMaps = {
 	};
 	HCTheShatteredHalls = {
 		ZoneName = "CFI: Las Salas Arrasadas";
-		Location = "Ciud. del Fuego Infernal, Penín.";
+		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
 		Acronym = "SA"; 
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
@@ -1077,7 +1080,7 @@ AtlasMaps = {
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI: Murallas del Fuego Infernal";
-		Location = "Ciud. del Fuego Infernal, Penín.";
+		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
 		ORNG.."Llave: Llave de Forjallamas (Heróico)"; --Bien
@@ -1090,7 +1093,7 @@ AtlasMaps = {
 	};
 	HCMagtheridonsLair = {
 		ZoneName = "CFI: Guarida de Magtheridon";
-		Location = "Ciud. del Fuego Infernal, Penín.";
+		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
 		ORNG.."Reputación: Thrallmar (Horda)";
 		ORNG.."Reputación: Bastión del Honor (Alianza)";
 		BLUE.."A) Entrada";
@@ -1252,7 +1255,7 @@ AtlasMaps = {
 		GREY..INDENT.."Alijo de la Legión"; --Bien
 		GREY.."3) Lord-mecano Capacitus"; --Bien
 		GREY..INDENT.."Célula de maná sobrecargada"; --Bien
-		GREY.."4) Abisálico Sepethrea"; --Bien
+		GREY.."4) Abisálica Sepethrea"; --Bien
 		GREY.."5) Pathaleon el Calculator"; --Bien
 		};
 	TempestKeepTheEye = {
@@ -1340,6 +1343,7 @@ AtlasMaps = {
 		Location = "Tierras Fantasma"; --Bien
 		Acronym = "ZA";
 		BLUE.."A) Entrada"; --Bien
+		BLUE..INDENT.."Harrison Jones"; --Bien
 		GREY.."1) Nalorakk (Oso)"; --Bien
 		GREY..INDENT.."Tanzar"; --Bien
 		GREY..INDENT.."Mapa de Zul'Aman de Budd"; --Bien
@@ -1350,7 +1354,7 @@ AtlasMaps = {
 		GREY.."4) Halazzi (Lince)"; --Bien
 		GREY..INDENT.."Ashli"; --Bien
 		GREY.."5) Zungam"; --Bien
-		GREY.."6) Hex Lord Malacrass"; --Comprobar
+		GREY.."6) Señor aojador Malacrass"; --Bien
 		GREY..INDENT.."Thurg (Aleatorio)"; --Bien
 		GREY..INDENT.."Gazakroth (Aleatorio)"; --Bien
 		GREY..INDENT.."Lord Raadan (Aleatorio)"; --Bien

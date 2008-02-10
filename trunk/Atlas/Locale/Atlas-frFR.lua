@@ -27,7 +27,7 @@
 -- Version WoW 2.3.3 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 07/02/2008
+-- le 10/02/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -74,12 +74,13 @@ ATLAS_OPTIONS_SCALE = "Echelle";
 ATLAS_OPTIONS_BUTRAD = "Rayon du bouton";
 ATLAS_OPTIONS_CLAMPED = "Fixer la fenêtre à l'écran";
 ATLAS_OPTIONS_HELP = "Clic-gauche pour déplacer cette fenêtre.";
+ATLAS_OPTIONS_CTRL = "Maintenir enfoncé la touche Control pour les infobulles"
+ATLAS_OPTIONS_COORDS = "Montre les coordonnées sur la carte du monde"
+
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Clic-gauche pour ouvrir Atlas.\nClic-milieu pour les options d'Atlas.\nClic-droit et déplacer ce bouton.";
 ATLAS_TITAN_HINT = "Clic-gauche pour ouvrir Atlas.\nClic-milieu pour les options d'Atlas.\nClic-droit pour le menu d'affichage.";
-
-
 
 
 ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Auto-sélection, Remplacer la Carte du Monde, Clic-droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option d'Auto-sélection est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplace la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-droit est activée, vous pourrez cliquer-droite sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un clic-gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};

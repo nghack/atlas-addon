@@ -38,16 +38,9 @@
 			</Layer>
 		</Layers>
 		<Scripts>
-			<OnEnter>
-				if ( IsControlKeyDown() and AtlasOptions.AtlasCtrl ) then
-					GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
-					GameTooltip:ClearAllPoints();
-					GameTooltip:SetBackdropBorderColor(0,0,0,0);
-					GameTooltip:SetBackdropColor(0,0,0,1);
-					GameTooltip:SetText(strtrim(string.sub(getglobal(self:GetName().."_Text"):GetText(), 11)),1,1,1,1);
-					GameTooltip:Show();
-				end
-			</OnEnter>
+			<OnUpdate>
+				AtlasEntryTemplate_OnUpdate(self);
+			</OnUpdate>
 			<OnLeave>
 				GameTooltip:Hide();
 			</OnLeave>

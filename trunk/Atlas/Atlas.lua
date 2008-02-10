@@ -760,3 +760,25 @@ function Atlas_WorldMap_OnUpdate(self, elapsed)
    end
    getglobal(self:GetName().."_Text"):SetText(text);
 end
+
+function AtlasEntryTemplate_OnUpdate(self)
+	if ( AtlasOptions.AtlasCtrl ) then
+		if ( MouseIsOver(self) ) then
+			if ( IsControlKeyDown() ) then
+				if ( not GameTooltip:IsShown() ) then
+					local str = _G[self:GetName().."_Text"]:GetText();
+					if ( str ) then
+						GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+						GameTooltip:SetBackdropBorderColor(0,0,0,0);
+						GameTooltip:SetBackdropColor(0,0,0,1);
+						local color = string.sub(str, 1, 10);
+						local stripped = strtrim(string.sub(str, 11));
+						GameTooltip:SetText(color..stripped,1,1,1,1);
+					end
+				end
+			else
+				GameTooltip:Hide();
+			end
+		end
+	end
+end

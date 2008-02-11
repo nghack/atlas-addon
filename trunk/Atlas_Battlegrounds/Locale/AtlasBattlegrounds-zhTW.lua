@@ -1,7 +1,7 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Sep. 04, 2007
+-- Last Update: Feb. 11, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -39,28 +39,65 @@ if ( GetLocale() ==	"zhTW" ) then
 	local myData = {
 		AlteracValleyNorth = {
 			ZoneName = "奧特蘭克山谷 (北)";
+			Acronym = "AV";
 			Location = "奧特蘭克山脈";
 			ORNG.."聲望: 霜狼氏族 (部落)";
 			ORNG.."聲望: 雷矛衛隊 (聯盟)";
-			BLUE.."A) 入口";
-			BLUE.."B) 丹巴達爾 (聯盟)";
-			_RED.."1) 雷矛急救站";
-			_RED.."2) 雷矛墓地";
-			_RED.."3) 石爐墓地";
-			_RED.."4) 落雪墓地";
-			ORNG.."5) 丹巴達爾北部碉堡";
-			GREY..INDENT.."空軍指揮官 穆維里克 (部落)";
-			ORNG.."6) 丹巴達爾南部碉堡";
-			ORNG.."7) 冰翼碉堡";
-			GREY..INDENT.."空軍指揮官 古斯 (部落)";
-			GREY..INDENT.."指揮官卡爾·菲力浦 (聯盟)";
-			ORNG.."8) 石爐哨站 (巴林達上尉)";
-			ORNG.."9) 石爐碉堡";
-			GREY.."10) 深鐵礦坑";
+			BLUE.."A) 聯盟入口";
+			BLUE.."B) 丹巴達爾";
+			BLUE..INDENT.."范達爾·雷矛";
+			BLUE..INDENT.."丹巴達爾北部元帥";
+			BLUE..INDENT.."丹巴達爾南部元帥 ";
+			BLUE..INDENT.."冰翼元帥";
+			BLUE..INDENT.."石爐元帥";
+			BLUE..INDENT.."勘察員塔雷·石鎬";
+			_RED.."1) 深鐵礦坑";
+			GREY..INDENT.."莫洛克 (中立)";
+			GREY..INDENT.."烏米·托爾森";
+			GREY..INDENT.."基塔爾 (部落)";
+			GREY.."2) 大德魯伊雷弗拉爾";
+			ORNG.."3) 丹巴達爾北部碉堡";
+			GREY..INDENT.."空軍指揮官穆維里克 (部落)";
+			GREY.."4) 莫高特·深爐";
+			GREY..INDENT.."德爾克 <賞金獵人>";
+			GREY..INDENT.."亞斯拉瑪尼斯 <賞金獵人>";
+			GREY..INDENT.."蘭納·雷酒 <鐵匠補給>";
+			_RED.."5) 雷矛急救站";
+			GREY.."6) 雷矛獸欄管理員";
+			GREY..INDENT.."雷矛山羊騎兵指揮官";
+			GREY..INDENT.."斯瓦爾布萊德·遠山 <商品>";
+			GREY..INDENT.."庫德拉姆·麥鬚 <材料與藥水補給>";
+			GREY.."7) 雷矛軍需官";
+			GREY..INDENT.."約尼維拉·遠山 <一般物品>";
+			GREY..INDENT.."布羅古斯·雷酒 <食物和飲料>";
+			GREY.."8) 空軍指揮官艾克曼 (營救)";
+			GREY..INDENT.."空軍指揮官斯里多爾 (營救)";
+			GREY..INDENT.."空軍指揮官維波里 (營救)";
+			ORNG.."9) 丹巴達爾南部碉堡";
+			GREY..INDENT.."諾雷格·雷矛下士";
+			GREY..INDENT.."蓋爾丁 <雷矛物資商人>";
+			_RED.."10) 雷矛墓地";
 			GREY.."11) 冰翼洞穴";
-			GREY.."12) 蒸氣鋸 (部落)";
-			GREY.."13) 空軍指揮官 傑斯托 (部落)";
-			GREY.."14) 森林之王 伊弗斯 (召喚區)";
+			GREY..INDENT.."雷矛軍旗";
+			GREY.."12) 雷矛林場";
+			GREY..INDENT.."空軍指揮官傑斯托 (部落)";
+			ORNG.."13) 冰翼碉堡";
+			GREY..INDENT.."空軍指揮官古斯 (部落)";
+			_RED.."14) 石爐墓地";
+			GREY.."15) 雷矛山羊騎兵指揮官";
+			ORNG.."16) 石爐哨站";
+			GREY..INDENT.."巴琳達·石爐上尉";
+			_RED.."17) 落雪墓地";
+			GREY..INDENT.."艾克曼的信號燈";
+			GREY..INDENT.."穆維里克的信號燈 (部落)";
+			ORNG.."18) 石爐碉堡";
+			GREY.."19) 『森林之王』伊弗斯 (召喚區)";
+			GREY.."20) 西部凹地";
+			GREY..INDENT.."維波里的信號燈";
+			GREY..INDENT.."傑斯托的信號燈 (部落)";
+			GREY.."21) 東部凹地";
+			GREY..INDENT.."斯里多爾的信號燈";
+			GREY..INDENT.."古斯的信號燈 (部落)";
 			"";
 			_RED.."紅:"..BLUE.." 墓地, 可佔領的地區";
 			ORNG.."橙:"..BLUE.." 碉堡, 哨塔, 可摧毀的地區";
@@ -68,11 +105,12 @@ if ( GetLocale() ==	"zhTW" ) then
 		};
 		AlteracValleySouth = {
 			ZoneName = "奧特蘭克山谷 (南)";
+			Acronym = "AV";
 			Location = "希爾斯布萊德丘陵";
 			ORNG.."聲望: 霜狼氏族 (部落)";
 			ORNG.."聲望: 雷矛衛隊 (聯盟)";
-			BLUE.."A) 入口";
-			BLUE.."B) 霜狼要塞 (部落)";
+			BLUE.."A) 部落入口";
+			BLUE.."B) 霜狼要塞";
 			_RED.."1) 霜狼急救站";
 			_RED.."2) 霜狼墓地";
 			_RED.."3) 冰血墓地";
@@ -81,7 +119,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			GREY..INDENT.."空軍指揮官 艾克曼 (聯盟)";
 			ORNG.."6) 哨塔高地";
 			GREY..INDENT.."空軍指揮官 斯里多爾 (聯盟)";
-			GREY..INDENT.."指揮官路易斯·菲力浦 (部落)";
+			GREY..INDENT.."指揮官路易斯·菲力浦";
 			ORNG.."7) 冰血哨塔";
 			ORNG.."8) 冰血要塞 (加爾范上尉)";
 			GREY.."9) 蠻爪洞穴";
@@ -97,6 +135,7 @@ if ( GetLocale() ==	"zhTW" ) then
 		};
 		ArathiBasin = {
 			ZoneName = "阿拉希盆地";
+			Acronym = "AB";
 			Location = "阿拉希高地";
 			ORNG.."聲望: 污染者 (部落)";
 			ORNG.."聲望: 阿拉索聯軍 (聯盟)";
@@ -110,6 +149,7 @@ if ( GetLocale() ==	"zhTW" ) then
 		};
 		WarsongGulch = {
 			ZoneName = "戰歌峽谷";
+			Acronym = "WSG";
 			Location = "梣谷 / 貧瘠之地";
 			ORNG.."聲望: 戰歌偵察騎兵 (部落)";
 			ORNG.."聲望: 銀翼要塞的戰士 (聯盟)";
@@ -118,6 +158,7 @@ if ( GetLocale() ==	"zhTW" ) then
 		};
 		EyeOfTheStorm = {
 			ZoneName = "暴風之眼";
+			Acronym = "EotS";
 			Location = "虛空風暴";
 			BLUE.."A) 入口 (聯盟)";
 			BLUE.."B) 入口 (部落)";

@@ -64,7 +64,7 @@ ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "Optionen";
 
 ATLAS_STRING_LOCATION = "Region";
-ATLAS_STRING_LEVELRANGE = "Levelbereich";
+ATLAS_STRING_LEVELRANGE = "Stufenbereich";
 ATLAS_STRING_PLAYERLIMIT = "Max. Spielerzahl";
 ATLAS_STRING_SELECT_CAT = "Kategorie wählen";
 ATLAS_STRING_SELECT_MAP = "Karte wählen";
@@ -72,29 +72,32 @@ ATLAS_STRING_SEARCH = "Suchen";
 ATLAS_STRING_CLEAR = "Leeren";
 
 ATLAS_OPTIONS_TITLE = "Atlas Optionen";
-ATLAS_OPTIONS_SHOWBUT = "Zeige Minimap-Schalter";
+ATLAS_OPTIONS_SHOWBUT = "Minimap-Schalter anzeigen";
 ATLAS_OPTIONS_AUTOSEL = "Automatische Karten-Auswahl";
 ATLAS_OPTIONS_BUTPOS = "Schalterposition";
 ATLAS_OPTIONS_TRANS = "Transparenz";
 ATLAS_OPTIONS_DONE = "Fertig";
-ATLAS_OPTIONS_REPMAP = "Ersetze Weltkarte";
-ATLAS_OPTIONS_RCLICK = "Rechtsklick für Weltkarte";
-ATLAS_OPTIONS_SHOWMAPNAME = "Zeige Kartenname";
+ATLAS_OPTIONS_REPMAP = "Weltkarte ersetzen";
+ATLAS_OPTIONS_RCLICK = "Rechte Maustaste für Weltkarte drücken";
+ATLAS_OPTIONS_SHOWMAPNAME = "Kartenname anzeigen";
 ATLAS_OPTIONS_RESETPOS = "Position zurücksetzen";
-ATLAS_OPTIONS_ACRONYMS = "Zeige Abkürzungen";
+ATLAS_OPTIONS_ACRONYMS = "Abkürzungen anzeigen";
 ATLAS_OPTIONS_SCALE = "Skalierung";
 ATLAS_OPTIONS_BUTRAD = "Schalterradius";
 ATLAS_OPTIONS_CLAMPED = "Fenster im Bildschirm festsetzen"
-ATLAS_OPTIONS_HELP = "Linksklick gedrückt halten zum Fenster verschieben."
+ATLAS_OPTIONS_HELP = "Linke Maustaste zum Verschieben gedrückt halten."
+ATLAS_OPTIONS_CTRL = "Steuerung drücken, um Tooltips anzuzeigen"
+ATLAS_OPTIONS_COORDS = "Koordinaten auf der Weltkarte anzeigen"
+
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
-ATLAS_BUTTON_TOOLTIP_HINT = "Linksklick um Atlas zu öffnen.\nMittelklick um Atlas Optionen anzuzeigen.\nRechtsklick halten um diesen Button zu verschieben.";
-ATLAS_TITAN_HINT = "Linksklick um Atlas zu öffnen.\nMittelklick um Atlas Optionen anzuzeigen.\nRechtsklick um das Menü anzuzeigen.";
+ATLAS_BUTTON_TOOLTIP_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
+ATLAS_TITAN_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste drücken, um das Menü anzuzeigen.";
 
 
 
 
-ATLAS_HELP = {"Über Atlas\n===========\n\nAtlas ist ein Benutzerinterface Addon für World of Warcraft welches eine große Anzahl zusätzlicher Karten sowie einen In-Game Kartenbrowser beinhaltet. Geben den Befehl '/atlas' ein oder klicke auf das Minimap Symbol um das Atlas Fenster zu öffnen. Im Optionsmenü kann das Symbol abgeschaltet werden, die automatische Kartenwahl umgeschaltet werden, das Ersetzen der Weltkarte umgeschaltet werden, die Rechtsklick Funktion umgeschaltet werden, die Position des Symbols verändert werden, oder die Transparenz des Atlas Fensters eingestellt werden. Wenn die automatische Kartenwahl aktiviert ist, öffnet Atlas automatisch die Karte der aktuellen Instanz. Wenn das Ersetzen der Weltkarte aktiviert ist, wird Atlas statt der Weltkarte geöffnet, sobald eine Instanz betreten wurde. Wenn die Rechtsklick-Funktion aktiviert ist, wird durch einen Rechtsklick im Atlas die Weltkarte geöffnet. Mit gedrücktem Linksklick kann das Fenster positioniert werden. Mit dem Schloss in der oberen rechten Ecke kann die Position des Fensters gesperrt werden."};
+ATLAS_HELP = {"Über Atlas\n===========\n\nAtlas ist ein Benutzerinterface Addon für World of Warcraft welches eine große Anzahl zusätzlicher Karten sowie einen Kartenbrowser innerhalb des Spiels beinhaltet. Gib den Befehl '/atlas' ein oder klicke auf den Minimap-Schalter um das Atlas Fenster zu öffnen. Im Optionsmenü kann das Symbol abgeschaltet werden, die automatische Kartenwahl aktiviert werden, das Ersetzen der Weltkarte aktiviert werden, die Rechte Maustaste Funktion aktiviert werden, die Position des Schalters verändert werden, oder die Transparenz des Atlas Fensters eingestellt werden. Wenn die automatische Kartenwahl aktiviert ist, öffnet Atlas automatisch die Karte Instanz, in der du dich befindest. Wenn das Ersetzen der Weltkarte aktiviert ist, wird Atlas statt der Weltkarte geöffnet, wenn du dich in einer Instanz befindest. Wenn die Rechte Maustaste Funktion aktiviert ist, wird durch einen Rechtsklick in Atlas die Weltkarte geöffnet. Mit gedrückter linker Maustaste kann das Fenster positioniert werden. Mit dem Schloss in der oberen rechten Ecke kann die Position des Fensters festgesetzt werden."};
 
 
 ATLAS_OPTIONS_CATDD = "Sortierung der Karten nach:";
@@ -102,11 +105,11 @@ ATLAS_DDL_CONTINENT = "Kontinent";
 ATLAS_DDL_CONTINENT_EASTERN = "Instanzen der Östlichen Königreiche";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Instanzen von Kalimdor";
 ATLAS_DDL_CONTINENT_OUTLAND = "Instanzen der Scherbenwelt";
-ATLAS_DDL_LEVEL = "Level";
-ATLAS_DDL_LEVEL_UNDER45 = "Instanzen unter Level 45";
-ATLAS_DDL_LEVEL_45TO60 = "Instanzen Level 45-60";
-ATLAS_DDL_LEVEL_60TO70 = "Instanzen Level 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "Instanzen Level 70+";
+ATLAS_DDL_LEVEL = "Stufe";
+ATLAS_DDL_LEVEL_UNDER45 = "Instanzen unter Stufe 45";
+ATLAS_DDL_LEVEL_45TO60 = "Instanzen Stufe 45-60";
+ATLAS_DDL_LEVEL_60TO70 = "Instanzen Stufe 60-70";
+ATLAS_DDL_LEVEL_70PLUS = "Instanzen Stufe 70+";
 ATLAS_DDL_PARTYSIZE = "Gruppen Größe";
 ATLAS_DDL_PARTYSIZE_5 = "Instanzen für 5 Spieler";
 ATLAS_DDL_PARTYSIZE_10 = "Instanzen für 10 Spieler";
@@ -503,14 +506,14 @@ AtlasMaps = {
 		Acronym = "BRT";
 		Location = "Der Schwarzfels";
 		ORNG.."Schlüssel: Schlüssel zur Schattenschmiede";
-		ORNG.."Schlüssel: Gefängniszellenschlüssel (Gefängnisausbruch)";
+		ORNG.."Schlüssel: Gefängniszellenschlüssel (Gefängnisausbruch!)";
 		ORNG.."Schlüssel: Banner der Provokation (Theldren)";
 		BLUE.."A) Eingang";
 		GREY.."1) Lord Roccor";
 		GREY.."2) Kharan Hammermacht";
-		GREY.."3) Kommandant Gor'shak";
+		GREY.."3) Kommandant Gor'shak <Expeditionskorps von Kargath>";
 		GREY.."4) Marschall Windsor";
-		GREY.."5) Verhörmeisterin Gerstahn";
+		GREY.."5) Verhörmeisterin Gerstahn <Befrager des Schattenhammers>";
 		GREY.."6) Ring des Gesetzes";
 		GREY..INDENT.."Anub'shiah (Zufällig)";
 		GREY..INDENT.."Ausweider (Zufällig)";
@@ -521,7 +524,7 @@ AtlasMaps = {
 		GREY..INDENT.."Theldren (Beschwörbar)";
 		GREY..INDENT.."Lefty";
 		GREY..INDENT.."Malgen Langspeer";
-		GREY..INDENT.."Knirschkiefer";
+		GREY..INDENT.."Knirschkiefer <Malgen Langspeers Tier>";
 		GREY..INDENT.."Totenbiss";
 		GREY..INDENT.."Va'jashni";
 		GREY..INDENT.."Hundemeister Grebmar (Unten)";
@@ -533,7 +536,7 @@ AtlasMaps = {
 		GREY..INDENT.."Wärter Stilgiss";
 		GREY..INDENT.."Verek";
 		GREY..INDENT.."Wachmann Stahlgriff";
-		GREY.."9) Fineous Dunkelader";
+		GREY.."9) Fineous Dunkelader <Chefarchitekt>";
 		GREY.."10) Der Schwarze Amboss";
 		GREY..INDENT.."Lord Incendius";
 		GREY.."11) Bael'Gar";
@@ -544,7 +547,7 @@ AtlasMaps = {
 		GREY..INDENT.."Schmiedekunstpläne";
 		GREY.."15) Der Grimmige Säufer";
 		GREY..INDENT.."Hurley Pestatem";
-		GREY..INDENT.."Lokhtos Düsterfeilsch";
+		GREY..INDENT.."Lokhtos Düsterfeilsch <Die Thoriumbruderschaft>";
 		GREY..INDENT.."Herrin Nagmara";
 		GREY..INDENT.."Phalanx";
 		GREY..INDENT.."Stöpsel Zapfring";
@@ -558,7 +561,7 @@ AtlasMaps = {
 		GREY.."19) Das Lyzeum";
 		GREY.."20) Magmus";
 		GREY.."21) Imperator Dagran Thaurissan";
-		GREY..INDENT.."Prinzessin Moira Bronzebart";
+		GREY..INDENT.."Prinzessin Moira Bronzebart <Prinzessin von Eisenschmiede>";
 		GREY..INDENT.."Hohepriesterin von Thaurissan";
 		GREY.."22) Die Schwarze Schmiede";
 		GREY.."23) Geschmolzener Kern";

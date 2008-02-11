@@ -1341,6 +1341,7 @@ AtlasMaps = {
 		Location = "幽魂之地";
 		Acronym = "ZA";
 		BLUE.."A) 入口";
+		BLUE..INDENT.."哈里森·琼斯";
 		GREY.."1) 纳洛拉克 (野熊)";
 		GREY..INDENT.."坦扎尔";
 		GREY..INDENT.."巴德的祖阿曼地图";

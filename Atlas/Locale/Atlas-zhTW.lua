@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -27,12 +27,12 @@
 -- Atlas Data (English)
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
--- Last Update: 2/21/2007
+-- Last Update: 2/09/2008
 
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Nov. 29, 2007
+-- Last Update: Feb. 11, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -78,6 +78,9 @@ ATLAS_OPTIONS_SCALE = "視窗大小比率";
 ATLAS_OPTIONS_BUTRAD = "按鈕半徑範圍";
 ATLAS_OPTIONS_CLAMPED = "使 Atlas 視窗不超出遊戲畫面"
 ATLAS_OPTIONS_HELP = "左鍵點擊並拖曳以移動這個視窗"
+ATLAS_OPTIONS_CTRL = "按住 Ctrl 鍵以顯示工具提示"
+ATLAS_OPTIONS_COORDS = "在世界地圖顯示玩家座標"
+
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas 副本地圖";
 ATLAS_BUTTON_TOOLTIP_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
@@ -107,6 +110,9 @@ ATLAS_DDL_EXPANSION = "資料片";
 ATLAS_DDL_EXPANSION_OLD = "原魔獸世界副本";
 ATLAS_DDL_EXPANSION_BC = "燃燒的遠征副本";
 
+ATLAS_INSTANCE_BUTTON = "副本";
+ATLAS_ENTRANCE_BUTTON = "入口";
+ATLAS_SEARCH_UNAVAIL = "搜尋功能停用";
 
 ATLAS_LOCALE = {
 	menu = "Atlas",
@@ -166,7 +172,7 @@ AtlasMaps = {
 			GREY.."1) 加摩拉";
 			GREY.."2) 洛迦里斯手稿";
 			GREY.."3) 薩利維絲";
-			GREY.."4) 銀月守衛塞爾瑞德";
+			GREY.."4) 銀月守衛塞爾瑞德 <銀色黎明>";
 			GREY.."5) 格里哈斯特";
 			GREY..INDENT.."格里哈斯特神殿";
 			GREY.."6) 洛古斯·傑特 (多個位置)";
@@ -187,6 +193,7 @@ AtlasMaps = {
 			GREY.."2) 阿格姆";
 			GREY.."3) 亡語者賈格巴";
 			GREY.."4) 主宰拉姆塔斯";
+			GREY..INDENT.."剃刀沼澤刺鬃守衛";
 			GREY.."5) 暴怒的阿迦賽羅斯";
 			GREY.."6) 盲眼獵手 (稀有)";
 			GREY.."7) 卡爾加·刺肋";
@@ -244,10 +251,10 @@ AtlasMaps = {
 			BLUE.."A) 入口 (橙色)";
 			BLUE.."B) 入口 (紫色)";
 			BLUE.."C) 入口 (傳送)";
-			GREY.."1) 溫格 (第五可汗)";
+			GREY.."1) 溫格 <第五可汗>";
 			GREY.."2) 諾克賽恩";
 			GREY.."3) 銳刺鞭笞者";
-			GREY.."4) 瑪拉多斯 (第四可汗)";
+			GREY.."4) 瑪拉多斯 <第四可汗>";
 			GREY.."5) 維利塔恩";
 			GREY.."6) 收割者麥什洛克 (稀有)";
 			GREY.."7) 被詛咒的塞雷布拉斯";
@@ -407,8 +414,8 @@ AtlasMaps = {
 			BLUE.."A) 聯盟營地";
 			BLUE..INDENT.."珍娜·普勞德摩爾女士";
 			BLUE.."B) 部落營地";
-			BLUE..INDENT.."索爾";
-			BLUE.."C) 夜精靈營地";
+			BLUE..INDENT.."索爾 <酋長>";
+			BLUE.."C) 夜精靈村";
 			BLUE..INDENT.."泰蘭妲·語風";
 			GREY.."1) 瑞奇·寒冬";
 			GREY.."2) 安納斯隆";
@@ -442,8 +449,6 @@ AtlasMaps = {
 			GREY..INDENT.."塔蕾莎 (屋內樓上)";
 			GREY.."6) 強納森·瑞瓦";
 			GREY..INDENT.."傑瑞·卡特";
-			"";
-			"";
 			"";
 			ORNG.."旅行中";
 			GREY..INDENT.."湯瑪斯·陽斯";
@@ -633,14 +638,16 @@ AtlasMaps = {
 			GREY.."2) 墮落的瓦拉斯塔茲";
 			GREY.."3) 勒西雷爾";
 			GREY.."4) 費爾默";
-			GREY.."5) 埃博諾克";
-			GREY.."6) 弗萊格爾";
-			GREY.."7) 克洛瑪古斯";
-			GREY.."8) 奈法利安";
-			GREY.."9) 大元素師克里希克";
+			GREY..INDENT.."龍語傻瓜教程";
+			GREY.."5) 大元素師克里希克";
+			GREY.."6) 埃博諾克";
+			GREY.."7) 弗萊格爾";
+			GREY.."8) 克洛瑪古斯";
+			GREY.."9) 奈法利安";
 		};
 		Gnomeregan = {
 			ZoneName = "諾姆瑞根";
+			Acronym = "Gnome";
 			Location = "丹莫洛";
 			ORNG.."鑰匙: 車間鑰匙 (後門)";
 			BLUE.."A) 入口 (正門)";
@@ -767,18 +774,23 @@ AtlasMaps = {
 			BLUE.."B) 通道";
 			BLUE.."C) 通道";
 			BLUE..INDENT.."死亡之誓 (稀有)";
-			GREY.."1) 亡靈哨兵阿達曼特";
-			GREY..INDENT.."巫師阿克魯比";
-			GREY..INDENT.."雷希戈爾";
-			GREY.."2) 屠夫拉佐克勞";
-			GREY.."3) 席瓦萊恩男爵";
-			GREY.."4) 指揮官斯普林瓦爾";
-			GREY.."5) 盲眼守衛奧杜";
-			GREY.."6) 吞噬者芬魯斯";
-			GREY.."7) 狼王南杜斯";
-			GREY.."8) 大法師阿魯高";
-			GREY.."9) 地獄戰馬";
+			GREY.."1) 雷希戈爾";
+			GREY..INDENT.."巫士阿克魯比";
+			GREY..INDENT.."亡靈哨兵阿達曼特";
+			GREY..INDENT.."藍登·史帝威爾";
+			GREY.."2) 亡靈哨兵文森特";
+			GREY.."3) 魔化戰馬";
 			GREY..INDENT.."喬丹的鐵錘";
+			GREY..INDENT.."一箱鐵錠";
+			GREY.."4) 屠夫拉佐克勞";
+			GREY.."5) 席瓦萊恩男爵";
+			GREY.."6) 指揮官斯普林瓦爾";
+			GREY.."7) 『盲眼守衛』奧杜";
+			GREY.."8) 『吞噬者』芬魯斯";
+			GREY..INDENT.."阿魯高的虛無行者";
+			GREY..INDENT.."烏爾之書";
+			GREY.."9) 狼王南杜斯";
+			GREY.."10) 大法師阿魯高";
 		};
 		Stratholme = {
 			ZoneName = "斯坦索姆";
@@ -847,6 +859,7 @@ AtlasMaps = {
 		};
 		TheStockade = {
 			ZoneName = "監獄";
+			Acronym = "Stocks";
 			Location = "暴風城";
 			BLUE.."A) 入口";
 			GREY.."1) 可怕的塔高爾 (多個地方)";
@@ -931,8 +944,8 @@ AtlasMaps = {
 			GREY..INDENT.."烏蘇雷 (隨機)";
 			GREY.."7) 加茲蘭卡 (可選擇, 召喚)";
 			GREY.."8) 古拉巴什食腐者 (虎王)";
-			GREY..INDENT.."札斯";
-			GREY..INDENT.."洛卡恩";
+			GREY..INDENT.."狂熱者札斯";
+			GREY..INDENT.."狂熱者洛卡恩";
 			GREY.."9) 哈卡萊先知 (豹王)";
 			GREY.."10) 妖術師金度 (可選擇)";
 			GREY.."11) 哈卡";
@@ -947,16 +960,16 @@ AtlasMaps = {
 			BLUE.."A) 入口";
 			BLUE..INDENT.."大法師塔希斯·克摩地爾";
 			BLUE..INDENT.."畢勾沃斯先生 (遊蕩)";
-			BLUE.."憎惡區";
+			BLUE.."憎惡之翼";
 			BLUE..INDENT.."1) 縫補者";
 			BLUE..INDENT.."2) 葛羅巴斯";
 			BLUE..INDENT.."3) 古魯斯";
 			BLUE..INDENT.."4) 泰迪斯";
-			ORNG.."蜘蛛區";
+			ORNG.."蜘蛛之翼";
 			ORNG..INDENT.."1) 阿努比瑞克漢";
 			ORNG..INDENT.."2) 大寡婦費琳娜";
 			ORNG..INDENT.."3) 梅克絲娜";
-			_RED.."死亡騎士區";
+			_RED.."死亡騎士之翼";
 			_RED..INDENT.."1) 講師拉祖維斯";
 			_RED..INDENT.."2) 收割者高希";
 			_RED..INDENT.."3) 四騎士";
@@ -964,7 +977,7 @@ AtlasMaps = {
 			_RED..INDENT..INDENT.."布洛莫斯爵士";
 			_RED..INDENT..INDENT.."莫格萊尼公爵";
 			_RED..INDENT..INDENT.."札里克爵士";
-			PURP.."瘟疫區";
+			PURP.."瘟疫之翼";
 			PURP..INDENT.."1) 瘟疫者諾斯";
 			PURP..INDENT.."2) 骯髒者海根";
 			PURP..INDENT.."3) 洛斯伯";
@@ -987,8 +1000,7 @@ AtlasMaps = {
 			BLUE.."E) 通往歌劇院樂團層的樓梯";
 			BLUE.."F) 夾層至包廂的斜坡";
 			BLUE.."G) 後方入口";
-			BLUE.."H) 通往:";
-			BLUE..INDENT..INDENT.."大師的露台 (夜禍)";
+			BLUE.."H) 通往大師的露台 (夜禍)";
 			BLUE.."I) 通往損壞的階梯";
 			GREY.."1) 哈斯丁";
 			GREY.."2) 潛伏者亞奇斯 (稀有, 隨機)";
@@ -1000,18 +1012,12 @@ AtlasMaps = {
 			GREY..INDENT.."午夜";
 			GREY.."6) 卡爾侖";
 			GREY.."7) 摩洛";
-			GREY..INDENT.."女爵朵洛希·米爾斯泰普";
-			GREY..INDENT..INDENT.."(隨機, 暗影牧師)";
-			GREY..INDENT.."凱崔娜·瓦映迪女士";
-			GREY..INDENT..INDENT.."(隨機, 神聖牧師)";
-			GREY..INDENT.."凱伊拉·拜瑞巴克女士";
-			GREY..INDENT..INDENT.."(隨機, 神聖聖騎士)";
-			GREY..INDENT.."男爵洛夫·崔克爾";
-			GREY..INDENT..INDENT.."(隨機, 懲戒聖騎士)";
-			GREY..INDENT.."貴族羅賓·達利斯";
-			GREY..INDENT..INDENT.."(隨機, 武戰)";
-			GREY..INDENT.."貴族克利斯平·費蘭斯";
-			GREY..INDENT..INDENT.."(隨機, 防戰)";
+			GREY..INDENT.."女爵朵洛希·米爾斯泰普 (隨機, 暗影牧師)";
+			GREY..INDENT.."凱崔娜·瓦映迪女士 (隨機, 神聖牧師)";
+			GREY..INDENT.."凱伊拉·拜瑞巴克女士 (隨機, 神聖聖騎士)";
+			GREY..INDENT.."男爵洛夫·崔克爾 (隨機, 懲戒聖騎士)";
+			GREY..INDENT.."貴族羅賓·達利斯 (隨機, 武戰)";
+			GREY..INDENT.."貴族克利斯平·費蘭斯 (隨機, 防戰)";
 			GREY.."8) 班尼特";
 			GREY.."9) 埃伯洛克";
 			GREY.."10) 琪安娜的日誌";
@@ -1034,14 +1040,10 @@ AtlasMaps = {
 			ORNG.."鑰匙: 主人鑰匙";
 			BLUE.."I) 通往損壞的階梯";
 			BLUE.."J) 損壞的階梯";
-			BLUE.."K) 通往管理員圖書館的斜坡";
-			BLUE..INDENT..INDENT.."(艾蘭之影)";
-			BLUE.."L) 神秘的書架";
-			BLUE..INDENT..INDENT.."(通往泰瑞斯提安·疫蹄)";
-			BLUE.."M) 通往天文觀測台的斜坡";
-			BLUE..INDENT..INDENT.."(尼德斯)";
-			BLUE..INDENT.."通往投機者大廳的斜坡";
-			BLUE..INDENT..INDENT.."(西洋棋事件)";
+			BLUE.."K) 通往管理員圖書館的斜坡 (艾蘭之影)";
+			BLUE.."L) 神秘的書架 (通往泰瑞斯提安·疫蹄)";
+			BLUE.."M) 通往天文觀測台的斜坡 (尼德斯)";
+			BLUE..INDENT.."通往投機者大廳的斜坡 (西洋棋事件)";
 			BLUE.."N) 通往麥迪文房間的斜坡";
 			BLUE.."O) 通往虛空空間的螺旋梯 (莫克札王子)";
 			GREY.."16) 館長 ";
@@ -1109,6 +1111,7 @@ AtlasMaps = {
 		HCMagtheridonsLair = {
 			ZoneName = "地獄火堡壘: 瑪瑟里頓的巢穴";
 			Location = "地獄火堡壘, 地獄火半島";
+			Acronym = "Mag";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			BLUE.."A) 入口";
@@ -1323,8 +1326,7 @@ AtlasMaps = {
 			GREY.."4) 阿卡瑪的黑暗面";
 			GREY.."5) 烏達羅之靈";
 			GREY..INDENT.."阿魯焰 (卷軸商人)";
-			GREY..INDENT.."歐庫諾";
-			GREY..INDENT..INDENT.."(灰舌死亡誓言者)";
+			GREY..INDENT.."歐庫諾 (灰舌死亡誓言者)";
 			GREY..INDENT.."先知卡奈";
 		};
 		BlackTempleBasement = {
@@ -1364,12 +1366,37 @@ AtlasMaps = {
 			Location = "鬼魂之地";
 			Acronym = "ZA";
 			BLUE.."A) 入口";
+			BLUE..INDENT.."哈利森·瓊斯";
 			GREY.."1) 納羅拉克 (熊)";
+			GREY..INDENT.."坦札爾";
+			GREY..INDENT.."霸德的祖阿曼地圖";
 			GREY.."2) 阿奇爾森 (鷹)";
+			GREY..INDENT.."哈克爾";
 			GREY.."3) 賈納雷 (龍鷹)";
+			GREY..INDENT.."卡拉茲";
 			GREY.."4) 哈拉齊 (山貓)";
-			GREY.."5) 妖術領主瑪拉克雷斯";
-			GREY.."6) 祖爾金";
+			GREY..INDENT.."阿西利";
+			GREY.."5) 祖剛";
+			GREY.."6) 妖術領主瑪拉克雷斯 ";
+			GREY..INDENT.."瑟吉 (隨機)";
+			GREY..INDENT.."葛薩克羅司 (隨機)";
+			GREY..INDENT.."領主雷阿登 (隨機)";
+			GREY..INDENT.."黑心 (隨機)";
+			GREY..INDENT.."艾利森·安第列 (隨機)";
+			GREY..INDENT.."史立塞 (隨機)";
+			GREY..INDENT.."沼群巡者 (隨機)";
+			GREY..INDENT.."可拉格 (隨機)";
+			GREY.."7) 祖爾金";
+			GREN.."1') 森林樹蛙, 轉變為:";
+			GREN..INDENT.."凱倫";
+			GREN..INDENT.."甘特";
+			GREN..INDENT.."阿達拉";
+			GREN..INDENT.."布里納";
+			GREN..INDENT.."達爾溫";
+			GREN..INDENT.."迪滋";
+			GREN..INDENT.."加拉瑟林";
+			GREN..INDENT.."米特辛";
+			GREN..INDENT.."曼努斯";
 		};
 	};
 end

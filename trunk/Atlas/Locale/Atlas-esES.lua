@@ -1045,7 +1045,7 @@ AtlasMaps = {
 	};
 	HCBloodFurnace = {
 		ZoneName = "CFI: El Horno de la Sangre";
-		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
+		Location = "Ciuda. del Fuego Infernal, Penín. de Fuego";
 		Acronym = "HS";
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
@@ -1057,7 +1057,7 @@ AtlasMaps = {
 	};
 	HCTheShatteredHalls = {
 		ZoneName = "CFI: Las Salas Arrasadas";
-		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
+		Location = "Ciuda. del Fuego Infernal, Penín.de Fuego";
 		Acronym = "SA"; 
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
@@ -1080,7 +1080,7 @@ AtlasMaps = {
 	};
 	HCHellfireRamparts = {
 		ZoneName = "CFI: Murallas del Fuego Infernal";
-		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
+		Location = "Ciuda. del Fuego Infernal, Penín. de Fuego";
 		ORNG.."Reputación: Thrallmar (Horda)"; --Bien
 		ORNG.."Reputación: Bastión del Honor (Alianza)"; --Bien
 		ORNG.."Llave: Llave de Forjallamas (Heróico)"; --Bien
@@ -1093,7 +1093,7 @@ AtlasMaps = {
 	};
 	HCMagtheridonsLair = {
 		ZoneName = "CFI: Guarida de Magtheridon";
-		Location = "Ciududadela del Fuego Infernal, Península de Fuego";
+		Location = "Ciuda. del Fuego Infernal, Penín. de Fuego";
 		ORNG.."Reputación: Thrallmar (Horda)";
 		ORNG.."Reputación: Bastión del Honor (Alianza)";
 		BLUE.."A) Entrada";

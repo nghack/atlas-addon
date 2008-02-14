@@ -89,6 +89,7 @@ AtlasMaps.BlackTempleStart.LevelRange =			"70";
 AtlasMaps.BlackTempleTop.LevelRange =			"70";
 
 AtlasMaps.ZulAman.LevelRange =					"70";
+AtlasMaps.MagistersTerrace.LevelRange =			"70";
 
 AtlasMaps.BlackfathomDeeps.PlayerLimit =		"10";
 AtlasMaps.WailingCaverns.PlayerLimit =			"10";
@@ -151,3 +152,4 @@ AtlasMaps.BlackTempleStart.PlayerLimit =		"25";
 AtlasMaps.BlackTempleTop.PlayerLimit =			"25";
 
 AtlasMaps.ZulAman.PlayerLimit =					"10";
+AtlasMaps.MagistersTerrace.PlayerLimit =		"5";

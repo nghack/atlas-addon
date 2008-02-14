@@ -3,6 +3,7 @@
 ==============
 
 v1.11.0
+- new map: Magisters' Terrace
 - the Atlas legend is quite a bit wider now
 - some artwork updates and tweaks, mostly for the scrollbar
 - added a button to toggle between entrances and instances

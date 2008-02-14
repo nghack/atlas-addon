@@ -74,6 +74,7 @@ Atlas_DropDownLayouts = {
 			"Uldaman",
 			"ZulGurub",
 			"ZulAman",
+			"MagistersTerrace",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"BlackfathomDeeps",
@@ -182,6 +183,7 @@ Atlas_DropDownLayouts = {
 			"BlackTempleStart",
 			"BlackTempleTop",
 			"ZulAman",
+			"MagistersTerrace",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -207,6 +209,7 @@ Atlas_DropDownLayouts = {
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
+			"MagistersTerrace",
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"BlackfathomDeeps",
@@ -312,6 +315,7 @@ Atlas_DropDownLayouts = {
 			"KarazhanStart",
 			"KarazhanEnd",
 			"ZulAman",
+			"MagistersTerrace",
 		},
 	},
 };

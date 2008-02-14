@@ -1395,4 +1395,14 @@ AtlasMaps = {
 		GREN..INDENT.."Mitzi";
 		GREN..INDENT.."Mannuth";
 	};
+	MagistersTerrace = {
+		ZoneName = "Magisters' Terrace";
+		Location = "Isle of Quel'Danas";
+		Acronym = "MT";
+		BLUE.."A) Entrance";
+		GREY.."1) Selin Fireheart";
+		GREY.."2) Vexallus";
+		GREY.."3) Priestess Delrissa";
+		GREY.."4) Kael'thas Sunstrider";
+	};
 };

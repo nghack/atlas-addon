@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/9/2008
+-- Last Update : 2/15/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1372,6 +1372,16 @@ AtlasMaps = {
 		GREN..INDENT.."加拉瑟林";
 		GREN..INDENT.."米兹";
 		GREN..INDENT.."曼努斯";
+	};
+	MagistersTerrace = {
+		ZoneName = "学者之台";
+		Location = "奎尔丹尼斯岛";
+		Acronym = "MT";
+		BLUE.."A) 入口";
+		GREY.."1) Selin Fireheart";
+		GREY.."2) Vexallus";
+		GREY.."3) Priestess Delrissa";
+		GREY.."4) 凯尔萨斯·逐日者";
 	};
 };
 end

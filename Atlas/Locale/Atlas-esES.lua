@@ -1375,6 +1375,16 @@ AtlasMaps = {
 		GREN..INDENT.."Mitzi"; --Bien
 		GREN..INDENT.."Mannuth"; --Bien
 	};
+	MagistersTerrace = {
+		ZoneName = "Bancal del Magister"; --Bien
+		Location = "Isla de Quel'Danas"; --Bien
+		Acronym = "BM";
+		BLUE.."A) Entrada";
+		GREY.."1) Selin corazón de fuego"; --Comprobar
+		GREY.."2) Vexallus"; --Bien
+		GREY.."3) Sacerdotisa Delrissa"; --Bien
+		GREY.."4) Kael’thas Caminante del Sol"; --Bien
+	};
 };
 
 end

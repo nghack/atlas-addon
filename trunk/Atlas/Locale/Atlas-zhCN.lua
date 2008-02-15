@@ -29,7 +29,7 @@ ATLAS_SLASH_OPTIONS = "options";
 
 ATLAS_STRING_LOCATION 		= "所属区域";
 ATLAS_STRING_LEVELRANGE 	= "等级跨度";
-ATLAS_STRING_PLAYERLIMIT 	= "人数限制";
+ATLAS_STRING_PLAYERLIMIT 	= "人数上限";
 ATLAS_STRING_SELECT_CAT 	= "选择分类";
 ATLAS_STRING_SELECT_MAP 	= "选择地图";
 ATLAS_STRING_SEARCH 		= "搜索";
@@ -1374,13 +1374,13 @@ AtlasMaps = {
 		GREN..INDENT.."曼努斯";
 	};
 	MagistersTerrace = {
-		ZoneName = "学者之台";
-		Location = "奎尔丹尼斯岛";
+		ZoneName = "魔导师平台";
+		Location = "奎尔丹纳斯岛";
 		Acronym = "MT";
 		BLUE.."A) 入口";
-		GREY.."1) Selin Fireheart";
-		GREY.."2) Vexallus";
-		GREY.."3) Priestess Delrissa";
+		GREY.."1) 塞林·火心";
+		GREY.."2) 维萨鲁斯";
+		GREY.."3) 女祭司德莉希亚";
 		GREY.."4) 凯尔萨斯·逐日者";
 	};
 };

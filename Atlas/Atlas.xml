@@ -154,7 +154,8 @@
 				</Scripts>
 				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
-			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox">
+			<Frame name="AtlasSwitchDD" inherits="UIDropDownMenuTemplate" />
+  			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox">
 				<Size>
 					<AbsDimension x="80" y="20"/>
 				</Size>

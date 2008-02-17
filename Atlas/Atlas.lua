@@ -33,6 +33,7 @@ ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
+ATLAS_INST_ENT_DROPDOWN = {};
 
 ATLAS_NUM_LINES = 25;
 ATLAS_CUR_LINES = 0;
@@ -61,55 +62,60 @@ local DefaultAtlasOptions = {
 	["AtlasCoords"] = 0;
 };
 
-local EntInstMatches = {
-	--entrance maps to instance maps
-	["AuchindounEnt"] =				{"AuchAuchenaiCrypts",1};
-	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps",1};
-	["BlackrockSpireEnt"] =			{"BlackrockSpireLower",1};
-	["CoilfangReservoirEnt"] =		{"CFRSerpentshrineCavern",1};
-	["GnomereganEnt"] =				{"Gnomeregan",1};
-	["MaraudonEnt"] =				{"Maraudon",1};
-	["TheDeadminesEnt"] =			{"TheDeadmines",1};
-	["TheSunkenTempleEnt"] =		{"TheSunkenTemple",1};
-	["UldamanEnt"] =				{"Uldaman",1};
-	["WailingCavernsEnt"] =			{"WailingCaverns",1};
-	["DireMaulEnt"] =				{"DireMaulEast",1};
-	["CoTEnt"] =					{"CoTHyjal",1};
-	["KarazhanEnt"] =				{"KarazhanStart",1};
-	["SMEnt"] =						{"SMArmory",1};
-	--instance maps to entrance maps
-	["AuchManaTombs"] =				{"AuchindounEnt",0};
-	["AuchAuchenaiCrypts"] =		{"AuchindounEnt",0};
-	["AuchSethekkHalls"] =			{"AuchindounEnt",0};
-	["AuchShadowLabyrinth"] =		{"AuchindounEnt",0};
-	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt",0};
-	["BlackrockSpireLower"] =		{"BlackrockSpireEnt",0};
-	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt",0};
-	["BlackwingLair"] =				{"BlackrockSpireEnt",0};
-	["BlackrockDepths"] =			{"BlackrockSpireEnt",0};
-	["MoltenCore"] =				{"BlackrockSpireEnt",0};
-	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt",0};
-	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt",0};
-	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt",0};
-	["CFRSerpentshrineCavern"] =	{"CoilfangReservoirEnt",0};
-	["Gnomeregan"] =				{"GnomereganEnt",0};
-	["Maraudon"] =					{"MaraudonEnt",0};
-	["TheDeadmines"] =				{"TheDeadminesEnt",0};
-	["TheSunkenTemple"] =			{"TheSunkenTempleEnt",0};
-	["Uldaman"] =					{"UldamanEnt",0};
-	["WailingCaverns"] =			{"WailingCavernsEnt",0};
-	["DireMaulEast"] =				{"DireMaulEnt",0};
-	["DireMaulNorth"] =				{"DireMaulEnt",0};
-	["DireMaulWest"] =				{"DireMaulEnt",0};
-	["CoTHyjal"] =					{"CoTEnt",0};
-	["CoTBlackMorass"] =			{"CoTEnt",0};
-	["CoTOldHillsbrad"] =			{"CoTEnt",0};
-	["KarazhanStart"] =				{"KarazhanEnt",0};
-	["KarazhanEnd"] =				{"KarazhanEnt",0};
-	["SMArmory"] =					{"SMEnt",0};
-	["SMLibrary"] =					{"SMEnt",0};
-	["SMCathedral"] =				{"SMEnt",0};
-	["SMGraveyard"] =				{"SMEnt",0};
+--yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
+
+--entrance maps to instance maps
+local EntToInstMatches = {
+	["AuchindounEnt"] =				{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
+	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
+	["BlackrockSpireEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
+	["GnomereganEnt"] =				{"Gnomeregan"};
+	["MaraudonEnt"] =				{"Maraudon"};
+	["TheDeadminesEnt"] =			{"TheDeadmines"};
+	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
+	["UldamanEnt"] =				{"Uldaman"};
+	["WailingCavernsEnt"] =			{"WailingCaverns"};
+	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
+	["CoTEnt"] =					{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad"};
+	["KarazhanEnt"] =				{"KarazhanStart","KarazhanEnd"};
+	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+};
+
+--instance maps to entrance maps
+local InstToEntMatches = {
+	["AuchManaTombs"] =				{"AuchindounEnt"};
+	["AuchAuchenaiCrypts"] =		{"AuchindounEnt"};
+	["AuchSethekkHalls"] =			{"AuchindounEnt"};
+	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
+	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
+	["BlackrockSpireLower"] =		{"BlackrockSpireEnt"};
+	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt"};
+	["BlackwingLair"] =				{"BlackrockSpireEnt"};
+	["BlackrockDepths"] =			{"BlackrockSpireEnt"};
+	["MoltenCore"] =				{"BlackrockSpireEnt"};
+	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
+	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
+	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
+	["CFRSerpentshrineCavern"] =	{"CoilfangReservoirEnt"};
+	["Gnomeregan"] =				{"GnomereganEnt"};
+	["Maraudon"] =					{"MaraudonEnt"};
+	["TheDeadmines"] =				{"TheDeadminesEnt"};
+	["TheSunkenTemple"] =			{"TheSunkenTempleEnt"};
+	["Uldaman"] =					{"UldamanEnt"};
+	["WailingCaverns"] =			{"WailingCavernsEnt"};
+	["DireMaulEast"] =				{"DireMaulEnt"};
+	["DireMaulNorth"] =				{"DireMaulEnt"};
+	["DireMaulWest"] =				{"DireMaulEnt"};
+	["CoTHyjal"] =					{"CoTEnt"};
+	["CoTBlackMorass"] =			{"CoTEnt"};
+	["CoTOldHillsbrad"] =			{"CoTEnt"};
+	["KarazhanStart"] =				{"KarazhanEnt"};
+	["KarazhanEnd"] =				{"KarazhanEnt"};
+	["SMArmory"] =					{"SMEnt"};
+	["SMLibrary"] =					{"SMEnt"};
+	["SMCathedral"] =				{"SMEnt"};
+	["SMGraveyard"] =				{"SMEnt"};
 };
 
 function Atlas_FreshOptions()
@@ -507,6 +513,7 @@ function Atlas_Refresh()
 	--only display if the Entrances plugin is loaded
 	--then, only display if appropriate
 	
+	--check to make sure the Entrances plugin is actually loaded
 	local EntPluginIsLoaded = false;
 	for k,v in pairs(ATLAS_PLUGINS) do
 		if ( v == "Atlas_Entrances" ) then
@@ -514,22 +521,40 @@ function Atlas_Refresh()
 		end
 	end
 	
-	local EntInstMatch = {nil};
+	--see if we should display the button or not, and decide what it should say
+	local matchFound = {nil};
+	local sayEntrance = nil;
 	if ( EntPluginIsLoaded ) then
-		for k,v in pairs(EntInstMatches) do
+		for k,v in pairs(EntToInstMatches) do
 			if ( k == zoneID ) then
-				EntInstMatch = v;
+				matchFound = v;
+				sayEntrance = false;
+			end
+		end
+		if ( not matchFound[1] ) then
+			for k,v in pairs(InstToEntMatches) do
+				if ( k == zoneID ) then
+					matchFound = v;
+					sayEntrance = true;
+				end
 			end
 		end
 	end
 	
-	if ( EntInstMatch[1] ~= nil ) then
-		if ( EntInstMatch[2] == 1 ) then
-			AtlasSwitchButton:SetText(ATLAS_INSTANCE_BUTTON);
-		else
+	--set the button's text, populate the dropdown menu, and show or hide the button
+	if ( matchFound[1] ~= nil ) then
+		ATLAS_INST_ENT_DROPDOWN = {};
+		for k,v in pairs(matchFound) do
+			table.insert(ATLAS_INST_ENT_DROPDOWN, v);
+		end
+		table.sort(ATLAS_INST_ENT_DROPDOWN, AtlasSwitchDD_Sort);
+		if ( sayEntrance ) then
 			AtlasSwitchButton:SetText(ATLAS_ENTRANCE_BUTTON);
+		else
+			AtlasSwitchButton:SetText(ATLAS_INSTANCE_BUTTON);
 		end
 		AtlasSwitchButton:Show();
+		UIDropDownMenu_Initialize(AtlasSwitchDD, AtlasSwitchDD_OnLoad);
 	else
 		AtlasSwitchButton:Hide();
 	end
@@ -541,29 +566,50 @@ end
 --we can basically assume that there's a match
 --find it, set it, then update menus and the maps
 function AtlasSwitchButton_OnClick()
-
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	
-	local EntInstMatch = {};
-	for k,v in pairs(EntInstMatches) do
-		if ( k == zoneID ) then
-			EntInstMatch = v;
-		end
+	if ( getn(ATLAS_INST_ENT_DROPDOWN) == 1 ) then
+		--one link, so we can just go there right away
+		AtlasSwitchDD_Set(1);
+	else
+		--more than one link, so it's dropdown menu time
+		ToggleDropDownMenu(1, nil, AtlasSwitchDD, "AtlasSwitchButton", 0, 0);
 	end
-	
+end
+
+function AtlasSwitchDD_OnLoad()
+	local info, i;
+	for k,v in pairs(ATLAS_INST_ENT_DROPDOWN) do
+		info = {
+			text = AtlasMaps[v].ZoneName;
+			func = AtlasSwitchDD_OnClick;
+		};
+		UIDropDownMenu_AddButton(info);
+	end
+end
+
+function AtlasSwitchDD_OnClick()
+	AtlasSwitchDD_Set(this:GetID());
+end
+
+function AtlasSwitchDD_Set(index)
 	for k,v in pairs(ATLAS_DROPDOWNS) do
 		for k2,v2 in pairs(v) do
-			if ( v2 == EntInstMatch[1] ) then
+			if ( v2 == ATLAS_INST_ENT_DROPDOWN[index] ) then
 				AtlasOptions.AtlasType = k;
 				AtlasOptions.AtlasZone = k2;
 			end
 		end
 	end
-	
 	AtlasFrameDropDownType_OnShow();
 	AtlasFrameDropDown_OnShow();
 	Atlas_Refresh();
-	
+end
+
+function AtlasSwitchDD_Sort(a, b)
+	local aa = AtlasMaps[a].ZoneName;
+	local bb = AtlasMaps[b].ZoneName;
+	return aa < bb;
 end
 
 

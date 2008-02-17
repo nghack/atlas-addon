@@ -1390,6 +1390,28 @@ AtlasMaps = {
 		GREN..INDENT.."Mitzi";
 		GREN..INDENT.."Mannuth";	
 	};
+	MagistersTerrace = {
+		ZoneName = "Terrasse des Magistères";
+		Location = "Île de Quel’Danas";
+		Acronym = "MT";
+		BLUE.."A) Entrée";
+		GREY.."1) Selin Coeur-de-feu";
+		GREY.."2) Vexallus";
+		GREY.."3) Prêtresse Delrissa";
+		GREY.."4) Kael'thas Haut-soleil";
+	};
+	SunwellPlateau = {
+		ZoneName = "Plateau du Puits de soleil";
+		Location = "Île de Quel’Danas";
+		Acronym = "SP";
+		BLUE.."A) Entrée";
+		GREY.."1) Kalecgos";
+		GREY.."2) Brutallus";
+		GREY.."3) Felmyst";
+		GREY.."4) Jumelles Eredar"; -- à traduire
+		GREY.."5) M'uru";
+		GREY.."6) Kil'jaden";
+	};
 };
 
 end

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/15/2008
+-- Last Update : 2/17/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -397,8 +397,8 @@ AtlasMaps = {
 		GREY.."3) 卡兹洛加";
 		GREY.."4) 阿兹加洛";
 		GREY.."5) 阿克蒙德";
-		GREY.."?) 因多米 <上古宝石看管者>";
-		GREY..INDENT.."泰多姆 <失落的神器看管者>";
+		GREY.."?) 因多米 <上古宝石保管者>";
+		GREY..INDENT.."泰多姆 <失落的神器保管者>";
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "时光之穴 - 旧希尔希布莱德";
@@ -1250,7 +1250,7 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 看守者盖罗基尔";
 		GREY.."2) 看守者埃隆汉";
-		GREY..INDENT.."军团储藏室";
+		GREY..INDENT.."军团宝箱";
 		GREY.."3) 机械领主卡帕西图斯";
 		GREY..INDENT.."超载的魔法晶格";
 		GREY.."4) 灵术师塞比瑟蕾";
@@ -1382,6 +1382,18 @@ AtlasMaps = {
 		GREY.."2) 维萨鲁斯";
 		GREY.."3) 女祭司德莉希亚";
 		GREY.."4) 凯尔萨斯·逐日者";
+	};
+	SunwellPlateau = {
+		ZoneName = "太阳井高地";
+		Location = "奎尔丹纳斯岛";
+		Acronym = "SP";
+		BLUE.."A) 入口";
+		GREY.."1) 卡雷苟斯";
+		GREY.."2) Brutallus";
+		GREY.."3) Felmyst";
+		GREY.."4) 艾瑞达双子";
+		GREY.."5) 穆鲁";
+		GREY.."6) 基尔加丹";
 	};
 };
 end

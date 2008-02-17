@@ -1138,7 +1138,7 @@ AtlasMaps = {
 		GREY.."1) Hidromántico Thespia"; --Bien
 		GREY..INDENT.."Panel de acceso de la cámara principal"; --Bien
 		GREY.."2) Contenedor Arcano"; --Bien
-		GREY..INDENT.."Segundo Guardián del Fragmento"; --Bien
+		GREY..INDENT.."Guardián del Segundo Fragmento"; --Bien
 		GREY.."3) Mekigeniero Vaporino"; --Bien
 		GREY..INDENT.."Panel de acceso de la cámara principal"; --Bien
 		GREY.."4) Señor de la Guerra Kalithresh"; --Bien
@@ -1210,7 +1210,7 @@ AtlasMaps = {
 		GREY..INDENT.."El Códice de Sangre"; --Bien
 		GREY.."5) Murmur"; --Bien
 		GREY.."6) Contenedor Arcano"; --Bien
-		GREY..INDENT.."Primer Guardián del Fragmento"; --Bien
+		GREY..INDENT.."Guardián del Primer Fragmento"; --Bien
 	};
 	TempestKeepBotanica = {
 		ZoneName = "CT: El Invernáculo";
@@ -1235,7 +1235,7 @@ AtlasMaps = {
 		BLUE.."A) Entrada";
 		GREY.."1) Zereketh el Desatado"; --Bien
 		GREY.."2) Contenedor Arcano"; --Bien
-		GREY..INDENT.."Tercer Guardián del Fragmento"; --Bien
+		GREY..INDENT.."Guardián del Tercer Fragmento"; --Bien
 		GREY.."3) Dalliah la Decidora del Destino"; --Bien
 		GREY.."4) Arúspice de cólera Soccothrates"; --Bien
 		GREY.."5) El profeta Udalo"; --Bien
@@ -1384,6 +1384,18 @@ AtlasMaps = {
 		GREY.."2) Vexallus"; --Bien
 		GREY.."3) Sacerdotisa Delrissa"; --Bien
 		GREY.."4) Kael’thas Caminante del Sol"; --Bien
+	};
+	SunwellPlateau = {
+		ZoneName = "Meseta del pozo del Sol"; --Bien
+		Location = "Isla de Quel'Danas"; --Bien
+		Acronym = "MPS";
+		BLUE.."A) Entrada"; 
+		GREY.."1) Kalecgos"; --Bien
+		GREY.."2) Brutallus"; --FALTA
+		GREY.."3) Felmyst"; --FALTA
+		GREY.."4) Gemelos Eredar"; --Comprobar
+		GREY.."5) M'uru"; --Bien
+		GREY.."6) Kil'jaden"; --Bien
 	};
 };
 

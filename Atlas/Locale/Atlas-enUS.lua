@@ -1405,4 +1405,16 @@ AtlasMaps = {
 		GREY.."3) Priestess Delrissa";
 		GREY.."4) Kael'thas Sunstrider";
 	};
+	SunwellPlateau = {
+		ZoneName = "Sunwell Plateau";
+		Location = "Isle of Quel'Danas";
+		Acronym = "SP";
+		BLUE.."A) Entrance";
+		GREY.."1) Kalecgos";
+		GREY.."2) Brutallus";
+		GREY.."3) Felmyst";
+		GREY.."4) Eredar Twins";
+		GREY.."5) M'uru";
+		GREY.."6) Kil'jaden";
+	};
 };

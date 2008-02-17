@@ -75,6 +75,7 @@ Atlas_DropDownLayouts = {
 			"ZulGurub",
 			"ZulAman",
 			"MagistersTerrace",
+			"SunwellPlateau",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"BlackfathomDeeps",
@@ -184,6 +185,7 @@ Atlas_DropDownLayouts = {
 			"BlackTempleTop",
 			"ZulAman",
 			"MagistersTerrace",
+			"SunwellPlateau",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -251,6 +253,7 @@ Atlas_DropDownLayouts = {
 			"MoltenCore",
 			"BlackwingLair",
 			"Naxxramas",
+			"SunwellPlateau",
 		},
 	},
 	[ATLAS_DDL_EXPANSION] = {
@@ -316,6 +319,7 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnd",
 			"ZulAman",
 			"MagistersTerrace",
+			"SunwellPlateau",
 		},
 	},
 };

@@ -36,6 +36,7 @@ v1.11.0
 - added Harrison Jones to ZA map (Kiria)
 - added angle-bracket titles to mobs
 - fixed some typos
+- remove attunement quest required for Hyjal Summit and Black Temple
 
 v1.10.3
 - the Atlas source is now hosted at Google Code

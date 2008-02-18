@@ -384,7 +384,6 @@ AtlasMaps = {
 		Location = "塔纳利斯";
 		Acronym = "MH, cot3";
 		PURP.."事件：海加尔之战";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：流沙之鳞";
 		BLUE.."A) 联盟基地";
 		BLUE..INDENT.."吉安娜·普罗德摩尔";
@@ -1288,7 +1287,6 @@ AtlasMaps = {
 		ZoneName = "黑暗神殿 [A] (入门)";
 		Location = "影月谷";
 		Acronym = "BT";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
 		BLUE.."A) 入口";
@@ -1308,7 +1306,6 @@ AtlasMaps = {
 		ZoneName = "黑暗神殿 [B] (底层)";
 		Location = "影月谷";
 		Acronym = "BT";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
 		BLUE.."B) 入口";
@@ -1324,7 +1321,6 @@ AtlasMaps = {
 		ZoneName = "黑暗神殿 [C] (顶层)";
 		Location = "影月谷";
 		Acronym = "BT";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：灰舌死誓者";
 		ORNG.."钥匙：卡拉波勋章";
 		BLUE.."D) 入口";

@@ -406,7 +406,6 @@ AtlasMaps = {
 		Location = "Caverns of Time, Tanaris";
 		Acronym = "CoT3";
 		PURP.."Event: Battle for Mount Hyjal";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: The Scale of the Sands";
 		BLUE.."A) Alliance Base";
 		BLUE..INDENT.."Lady Jaina Proudmoore";
@@ -1310,7 +1309,6 @@ AtlasMaps = {
 		ZoneName = "Black Temple [A] (Start)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
 		BLUE.."A) Entrance";
@@ -1330,7 +1328,6 @@ AtlasMaps = {
 		ZoneName = "Black Temple [B] (Basement)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
 		BLUE.."B) Entrance";
@@ -1346,7 +1343,6 @@ AtlasMaps = {
 		ZoneName = "Black Temple [C] (Top)";
 		Location = "Shadowmoon Valley";
 		Acronym = "BT";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: Ashtongue Deathsworn";
 		ORNG.."Key: Medallion of Karabor";
 		BLUE.."D) Entrance";

@@ -415,7 +415,6 @@ AtlasMaps = {
 		Location = "Höhlen der Zeit, Tanaris";
 		Acronym = "Hyjal, HdZ 3";
 		PURP.."Ereignis: Schlacht um Berg Hyjal";
-		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Die Wächter der Sande";
 		BLUE.."A) Basis der Allianz";
 		BLUE..INDENT.."Lady Jaina Prachtmeer";
@@ -1319,7 +1318,6 @@ AtlasMaps = {
 		ZoneName = "Der Schwarze Tempel [A] (Anfang)";
 		Location = "Schattenmondtal";
 		Acronym = "BT";
-		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
 		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."A) Eingang";
@@ -1339,7 +1337,6 @@ AtlasMaps = {
 		ZoneName = "Der Schwarze Tempel [B] (Keller)";
 		Location = "Schattenmondtal";
 		Acronym = "BT";
-		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
 		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."B) Eingang"; 
@@ -1355,7 +1352,6 @@ AtlasMaps = {
 		ZoneName = "Der Schwarze Tempel [C] (Spitze)";
 		Location = "Schattenmondtal";
 		Acronym = "BT";
-		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Todeshörige der Aschenzungen";
 		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."D) Eingang";
@@ -1403,6 +1399,28 @@ AtlasMaps = {
 		GREN..INDENT.."Galathryn";
 		GREN..INDENT.."Mitzi";
 		GREN..INDENT.."Mannuth";
+	};
+	MagistersTerrace = {
+		ZoneName = "Terrasse der Magister";
+		Location = "Insel Quel'Danas";
+		Acronym = "MT";
+		BLUE.."A) Eingang";
+		GREY.."1) Selin Fireheart";
+		GREY.."2) Vexallus";
+		GREY.."3) Priestess Delrissa";
+		GREY.."4) Kael'thas Sunstrider";
+	};
+	SunwellPlateau = {
+		ZoneName = "Sonnenbrunnenplateau";
+		Location = "Insel Quel'Danas";
+		Acronym = "SP";
+		BLUE.."A) Eingang";
+		GREY.."1) Kalecgos";
+		GREY.."2) Brutallus";
+		GREY.."3) Felmyst";
+		GREY.."4) Eredar Twins";
+		GREY.."5) M'uru";
+		GREY.."6) Kil'jaden";
 	};
 };
 

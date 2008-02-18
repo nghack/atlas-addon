@@ -4,9 +4,10 @@
 
 v1.11.0
 - new map: Magisters' Terrace
+- new map: Sunwell Plateau
 - the Atlas legend is quite a bit wider now
 - some artwork updates and tweaks, mostly for the scrollbar
-- added a button to toggle between entrances and instances
+- added a button to toggle between entrances and instances, including a dropdown functionality for multi-instance entrance maps
 - updated all the entrance map level ranges
 - with the wider legend, removed some instances of wrapping and abbreviation
 - tiny code fix for AtlasMajorCities (preliminary) (Andy)

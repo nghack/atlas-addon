@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/17/2008
+-- Last Update : 2/18/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1384,13 +1384,13 @@ AtlasMaps = {
 		GREY.."4) 凯尔萨斯·逐日者";
 	};
 	SunwellPlateau = {
-		ZoneName = "太阳井高地";
+		ZoneName = "太阳之井高地";
 		Location = "奎尔丹纳斯岛";
 		Acronym = "SP";
 		BLUE.."A) 入口";
 		GREY.."1) 卡雷苟斯";
-		GREY.."2) Brutallus";
-		GREY.."3) Felmyst";
+		GREY.."2) 布鲁塔卢斯";
+		GREY.."3) 菲米丝";
 		GREY.."4) 艾瑞达双子";
 		GREY.."5) 穆鲁";
 		GREY.."6) 基尔加丹";

@@ -1,7 +1,7 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Nov. 26, 2007
+-- Last Update: Feb. 20, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -203,7 +203,7 @@ if ( GetLocale() ==	"zhTW" ) then
 			Location = "塔納利斯";
 			BLUE.."A) 入口";
 			BLUE.."B) 海加爾山";
-			BLUE.."C) 希爾斯布萊德丘陵";
+			BLUE.."C) 舊希爾斯布萊德丘陵";
 			BLUE.."D) 黑色沼澤";
 			GREY.."1) 時間服務員";
 			GREY.."2) 艾力克斯頓·科洛米";
@@ -251,34 +251,33 @@ if ( GetLocale() ==	"zhTW" ) then
 	};
 
 	myData.AuchindounEnt.LevelRange =			"63-70";
-	myData.AuchindounEnt.PlayerLimit =			"5";
-	myData.BlackfathomDeepsEnt.LevelRange =		"20-35";
-	myData.BlackfathomDeepsEnt.PlayerLimit =	"10";
-	myData.BlackrockSpireEnt.LevelRange =		"52-70";
-	myData.BlackrockSpireEnt.PlayerLimit =		"5/10/40";
+	myData.BlackfathomDeepsEnt.LevelRange =		"20-28";
+	myData.BlackrockSpireEnt.LevelRange =		"54-70";
 	myData.CoilfangReservoirEnt.LevelRange =	"61-70";
-	myData.CoilfangReservoirEnt.PlayerLimit =	"5/25";
-	myData.GnomereganEnt.LevelRange =			"24-40";
-	myData.GnomereganEnt.PlayerLimit =			"10";
-	myData.MaraudonEnt.LevelRange =				"40-58";
-	myData.MaraudonEnt.PlayerLimit =			"10";
-	myData.TheDeadminesEnt.LevelRange =			"15-28";
-	myData.TheDeadminesEnt.PlayerLimit =		"10";
-	myData.TheSunkenTempleEnt.LevelRange =		"44-60";
-	myData.TheSunkenTempleEnt.PlayerLimit =		"10";
-	myData.UldamanEnt.LevelRange =				"35-52";
-	myData.UldamanEnt.PlayerLimit =				"10";
-	myData.WailingCavernsEnt.LevelRange =		"15-28";
-	myData.WailingCavernsEnt.PlayerLimit =		"10";
-	myData.DireMaulEnt.LevelRange =				"54-61";
-	myData.DireMaulEnt.PlayerLimit =			"5";
+	myData.GnomereganEnt.LevelRange =			"24-32";
+	myData.MaraudonEnt.LevelRange =				"42-51";
+	myData.TheDeadminesEnt.LevelRange =			"16-22";
+	myData.TheSunkenTempleEnt.LevelRange =		"46-53";
+	myData.UldamanEnt.LevelRange =				"36-42";
+	myData.WailingCavernsEnt.LevelRange =		"16-25";
+	myData.DireMaulEnt.LevelRange =				"55-60";
 	myData.CoTEnt.LevelRange =					"66-70";
+	myData.KarazhanEnt.LevelRange =				"70";
+	myData.SMEnt.LevelRange =					"28-42";
+	
+	myData.AuchindounEnt.PlayerLimit =			"5";
+	myData.BlackfathomDeepsEnt.PlayerLimit =	"10";
+	myData.BlackrockSpireEnt.PlayerLimit =		"5/10/40";
+	myData.CoilfangReservoirEnt.PlayerLimit =	"5/25";
+	myData.GnomereganEnt.PlayerLimit =			"10";
+	myData.MaraudonEnt.PlayerLimit =			"10";
+	myData.TheDeadminesEnt.PlayerLimit =		"10";
+	myData.TheSunkenTempleEnt.PlayerLimit =		"10";
+	myData.UldamanEnt.PlayerLimit =				"10";
+	myData.WailingCavernsEnt.PlayerLimit =		"10";
+	myData.DireMaulEnt.PlayerLimit =			"5";
 	myData.CoTEnt.PlayerLimit =					"5/25";
-
-	myData.KarazhanEnt.LevelRange =			"70";
 	myData.KarazhanEnt.PlayerLimit =			"10";
-
-	myData.SMEnt.LevelRange =				"29-45";
 	myData.SMEnt.PlayerLimit =				"10";
 
 	Atlas_RegisterPlugin("Atlas_Entrances", myCategory, myData);

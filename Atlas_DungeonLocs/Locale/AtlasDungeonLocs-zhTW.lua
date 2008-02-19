@@ -1,7 +1,7 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2007 Dan Gilbert
+	Copyright 2005 - 2008 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Nov. 26, 2007
+-- Last Update: Feb. 20, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -42,23 +42,23 @@ if ( GetLocale() ==	"zhTW" ) then
 			Location = "東部王國";
 			BLUE.."A) 奧特蘭克山谷, ".._RED.."奧特蘭克/希爾斯布萊德";
 			BLUE.."B) 阿拉希盆地, ".._RED.."阿拉希高地";
-			GREY.."1) 血色修道院, ".._RED.."提里斯法林地";
-			GREY.."2) 斯坦索姆, ".._RED.."東瘟疫之地";
+			GREY.."1) 祖阿曼, ".._RED.."鬼魂之地";
+			GREY.."2) 血色修道院, ".._RED.."提里斯法林地";
+			GREY.."3) 斯坦索姆, ".._RED.."東瘟疫之地";
 			GREY..INDENT.."納克薩瑪斯, ".._RED.."病木林, 東瘟疫之地";
-			GREY.."3) 通靈學院, ".._RED.."西瘟疫之地";
-			GREY.."4) 影牙城堡, ".._RED.."銀松森林";
-			GREY.."5) 諾姆瑞根, ".._RED.."丹莫洛";
-			GREY.."6) 奧達曼, ".._RED.."荒蕪之地";
-			GREY.."7) 黑翼之巢, ".._RED.."黑石塔";
+			GREY.."4) 通靈學院, ".._RED.."西瘟疫之地";
+			GREY.."5) 影牙城堡, ".._RED.."銀松森林";
+			GREY.."6) 諾姆瑞根, ".._RED.."丹莫洛";
+			GREY.."7) 奧達曼, ".._RED.."荒蕪之地";
+			GREY.."8) 黑翼之巢, ".._RED.."黑石塔";
 			GREY..INDENT.."黑石深淵, ".._RED.."黑石山";
 			GREY..INDENT.."黑石塔, ".._RED.."黑石山";
 			GREY..INDENT.."融火之心, ".._RED.."黑石深淵";
-			GREY.."8) 監獄, ".._RED.."暴風城";
-			GREY.."9) 死亡礦坑, ".._RED.."西部荒野";
-			GREY.."10) 祖爾格拉布, ".._RED.."荊棘谷";
-			GREY.."11) 卡拉贊, ".._RED.."逆風小徑";
-			GREY.."12) 沈沒的神廟, ".._RED.."悲傷沼澤";
-			GREY.."13) 祖阿曼, ".._RED.."鬼魂之地";
+			GREY.."9) 監獄, ".._RED.."暴風城";
+			GREY.."10) 死亡礦坑, ".._RED.."西部荒野";
+			GREY.."11) 祖爾格拉布, ".._RED.."荊棘谷";
+			GREY.."12) 卡拉贊, ".._RED.."逆風小徑";
+			GREY.."13) 沈沒的神廟, ".._RED.."悲傷沼澤";
 			"";
 			"";
 			"";

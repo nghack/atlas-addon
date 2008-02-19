@@ -5,7 +5,7 @@
 ## Notes: Entrances
 ## Notes-frFR: Zone d'entrées des instances
 ## Notes-zhCN: 地下城入口
-## Notes-zhTW: 副本入口地圖，顯示副本入口附近的地形與相關的NPC位置
+## Notes-zhTW: 副本入口地圖，顯示副本入口附近的地形與相關的 NPC 位置
 ## Notes-deDE: Eingänge
 ## Notes-esES: Entradas
 ## Version: 1.11.0

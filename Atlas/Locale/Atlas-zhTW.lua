@@ -32,7 +32,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Feb. 11, 2008
+-- Last Update: Feb. 20, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -409,7 +409,6 @@ AtlasMaps = {
 			Location = "時光之穴, 塔納利斯";
 			Acronym = "CoT3";
 			PURP.."事件: 海加爾山戰場";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 流沙之鱗";
 			BLUE.."A) 聯盟營地";
 			BLUE..INDENT.."珍娜·普勞德摩爾女士";
@@ -1313,7 +1312,6 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 - 1.開始";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."A) 入口";
@@ -1333,7 +1331,6 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 - 2.地下室";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."B) 入口";
@@ -1349,7 +1346,6 @@ AtlasMaps = {
 			ZoneName = "黑暗神廟 - 3.上層";
 			Location = "影月谷";
 			Acronym = "BT";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 灰舌死亡誓言者";
 			ORNG.."鑰匙: 卡拉伯爾獎章";
 			BLUE.."D) 入口";
@@ -1397,6 +1393,28 @@ AtlasMaps = {
 			GREN..INDENT.."加拉瑟林";
 			GREN..INDENT.."米特辛";
 			GREN..INDENT.."曼努斯";
+		};
+		MagistersTerrace = {
+			ZoneName = "Magisters' Terrace";
+			Location = "Isle of Quel'Danas";
+			Acronym = "MT";
+			BLUE.."A) 入口";
+			GREY.."1) Selin Fireheart";
+			GREY.."2) Vexallus";
+			GREY.."3) Priestess Delrissa";
+			GREY.."4) Kael'thas Sunstrider";
+		};
+		SunwellPlateau = {
+			ZoneName = "Sunwell Plateau";
+			Location = "Isle of Quel'Danas";
+			Acronym = "SP";
+			BLUE.."A) 入口";
+			GREY.."1) Kalecgos";
+			GREY.."2) Brutallus";
+			GREY.."3) Felmyst";
+			GREY.."4) Eredar Twins";
+			GREY.."5) M'uru";
+			GREY.."6) Kil'jaden";
 		};
 	};
 end

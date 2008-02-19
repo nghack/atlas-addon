@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 25/01/2008
+-- Última Actualización (last update): 19/02/2008
 
 --]]
 
@@ -72,8 +72,8 @@ ATLAS_OPTIONS_SCALE = "Escala";
 ATLAS_OPTIONS_BUTRAD = "Radio del botón";
 ATLAS_OPTIONS_CLAMPED = "Ajustar ventana a la pantalla"
 ATLAS_OPTIONS_HELP = "Click-izdo para desplazar esta ventana"
-ATLAS_OPTIONS_CTRL = "Mantener pulsada la tecla control para mostrar las herramientas"
-ATLAS_OPTIONS_COORDS = "Muestra coordenadas en el mapa del mundo"
+ATLAS_OPTIONS_CTRL = "Pulsar control para ver las herramientas"
+ATLAS_OPTIONS_COORDS = "Muestra coords. en el mapa del mundo"
 
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
@@ -386,7 +386,7 @@ AtlasMaps = {
 		Location = "Cavernas del Tiempo, Tanaris";
 		Acronym = "CdT2";
 		PURP.."Evento: Apertura del Portal Oscuro";
-		ORNG.."Armonizació Requerida"; --Bien
+		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Vigilantes del tiempo"; --Bien
 		ORNG.."Llave: Llave del tiempo (Heróico)";
 		BLUE.."A) Entrada";
@@ -403,7 +403,6 @@ AtlasMaps = {
 		Location = "Cavernas del Tiempo, Tanaris"; --Bien
 		Acronym = "MH, CdT3";
 		PURP.."Evento: Batalla por el Monte Hyjal";
-		ORNG.."Armonizació Requerida"; --Bien
 		ORNG.."Reputación: La Escama de las Arenas";
 		BLUE.."A) Base de la Alianza"; --Bien
 		BLUE..INDENT.."Lady Jaina Valiente"; --Bien
@@ -423,7 +422,7 @@ AtlasMaps = {
 		ZoneName = "CdT: Laderas de Trabalomas"; --Bien
 		Location = "Cavernas del Tiempo, Tanaris"; --Bien
 		PURP.."Evento: Escape del Castillo de Durnholde";
-		ORNG.."Armonizació Requerida"; --Bien
+		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Vigilantes del tiempo";
 		ORNG.."Llave: Llave del tiempo (Heróico)";
 		BLUE.."A) Entrada";
@@ -1290,7 +1289,6 @@ AtlasMaps = {
 		ZoneName = "El Templo Oscuro (Comienzo)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
 		Acronym = "TO";
-		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
 		BLUE.."A) Entrada";
@@ -1310,7 +1308,6 @@ AtlasMaps = {
 		ZoneName = "El Templo Oscuro (Sótano)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
 		Acronym = "TO";
-		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
 		BLUE.."B) Entrada";
@@ -1326,16 +1323,15 @@ AtlasMaps = {
 		ZoneName = "El Templo Oscuro (Arriba)"; --Bien
 		Location = "Valle Sombraluna"; --Bien
 		Acronym = "TO";
-		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Juramorte Lengua de Ceniza"; --Bien
 		ORNG.."Llave: Medallón de Karabor"; --Bien
 		BLUE.."D) Entrada";
 		GREY.."9) Madre Shahraz"; --Bien
 		GREY.."10) Concilio Illidari"; --Bien
-		GREY..INDENT.."Lady Malande (Sacerdote)"; --Comprobar
-		GREY..INDENT.."Gathios the Shatterer (Paladín)"; --FALTA	
-		GREY..INDENT.."High Nethermancer Zerevor (Mago)"; --FALTA
-		GREY..INDENT.."Veras Sombraoscura (Pícaro)"; --Comprobar
+		GREY..INDENT.."Lady Malande (Sacerdote)"; --Bien
+		GREY..INDENT.."Gathios el Despedazador (Paladín)"; --Bien	
+		GREY..INDENT.."Sumo abisálico Zerevor (Mago)"; --Bien
+		GREY..INDENT.."Veras Sombra Oscura (Pícaro)"; --Bien
 		GREY.."11) Illidan Tempestira"; --Bien
 	};
 	ZulAman = {

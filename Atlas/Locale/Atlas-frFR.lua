@@ -402,7 +402,6 @@ AtlasMaps = {
 		Location = "Grottes du Temps, Tanaris";
 		Acronym = "MH, GdT3";
 		PURP.."Evènement : Bataille pour le Mont Hyjal";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : La Balance des sables";
 		BLUE.."A) Base de l'Alliance";
 		BLUE..INDENT.."Dame Jaina Portvaillant";
@@ -1305,7 +1304,6 @@ AtlasMaps = {
 		ZoneName = "Temple Noir (Début)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : Ligemort Cendrelangue";
 		ORNG.."Objet : Médaillon de Karabor";
 		BLUE.."B) Entrée";
@@ -1325,7 +1323,6 @@ AtlasMaps = {
 		ZoneName = "Temple Noir (Sous-sol)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : Ligemort Cendrelangue";
 		ORNG.."Objet : Médaillon de Karabor";
 		BLUE.."C) Entrée";
@@ -1341,7 +1338,6 @@ AtlasMaps = {
 		ZoneName = "Temple Noir (Haut)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : Ligemort Cendrelangue";
 		ORNG.."Objet : Médaillon de Karabor";
 		BLUE.."E) Entrée";
@@ -1408,7 +1404,9 @@ AtlasMaps = {
 		GREY.."1) Kalecgos";
 		GREY.."2) Brutallus";
 		GREY.."3) Felmyst";
-		GREY.."4) Jumelles Eredar"; -- à traduire
+		GREY.."4) Les jumelles Eredar";
+		GREY..INDENT.."Alythess";
+		GREY..INDENT.."Sacrolash";
 		GREY.."5) M'uru";
 		GREY.."6) Kil'jaden";
 	};

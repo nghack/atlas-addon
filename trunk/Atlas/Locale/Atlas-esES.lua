@@ -1389,6 +1389,8 @@ AtlasMaps = {
 		GREY.."1) Kalecgos"; --Bien
 		GREY.."2) Brutallus"; --FALTA
 		GREY.."3) Felmyst"; --FALTA
+		GREY..INDENT.."Grand Warlock Alythess"; --FALTA
+		GREY..INDENT.."Lady Sacrolash"; --FALTA
 		GREY.."4) Gemelos Eredar"; --Comprobar
 		GREY.."5) M'uru"; --Bien
 		GREY.."6) Kil'jaden"; --Bien

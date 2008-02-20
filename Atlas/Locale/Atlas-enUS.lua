@@ -1410,6 +1410,8 @@ AtlasMaps = {
 		GREY.."2) Brutallus";
 		GREY.."3) Felmyst";
 		GREY.."4) Eredar Twins";
+		GREY..INDENT.."Grand Warlock Alythess";
+		GREY..INDENT.."Lady Sacrolash";
 		GREY.."5) M'uru";
 		GREY.."6) Kil'jaden";
 	};

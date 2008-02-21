@@ -134,10 +134,6 @@ if ( GetLocale() == "esES" ) then
 			GREY.."13) Sierra de vapor (Alianza)"; --Bien
 			GREY.."14) Lokholar el Señor de Hielo (Zona de invocar)"; --Bien
 			"";
-			"";
-			"";
-			"";
-			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
 			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";
 			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";

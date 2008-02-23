@@ -65,7 +65,7 @@ local DefaultAtlasOptions = {
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
 
 --entrance maps to instance maps
-local EntToInstMatches = {
+Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =				{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
 	["BlackrockSpireEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
@@ -83,7 +83,7 @@ local EntToInstMatches = {
 };
 
 --instance maps to entrance maps
-local InstToEntMatches = {
+Atlas_InstToEntMatches = {
 	["AuchManaTombs"] =				{"AuchindounEnt"};
 	["AuchAuchenaiCrypts"] =		{"AuchindounEnt"};
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
@@ -525,14 +525,14 @@ function Atlas_Refresh()
 	local matchFound = {nil};
 	local sayEntrance = nil;
 	if ( EntPluginIsLoaded ) then
-		for k,v in pairs(EntToInstMatches) do
+		for k,v in pairs(Atlas_EntToInstMatches) do
 			if ( k == zoneID ) then
 				matchFound = v;
 				sayEntrance = false;
 			end
 		end
 		if ( not matchFound[1] ) then
-			for k,v in pairs(InstToEntMatches) do
+			for k,v in pairs(Atlas_InstToEntMatches) do
 				if ( k == zoneID ) then
 					matchFound = v;
 					sayEntrance = true;

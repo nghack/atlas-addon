@@ -1407,8 +1407,10 @@ AtlasMaps = {
 		Acronym = "SP";
 		BLUE.."A) Entrance";
 		GREY.."1) Kalecgos";
-		GREY.."2) Brutallus";
-		GREY.."3) Felmyst";
+		GREY..INDENT.."Sathrovarr the Corruptor";
+		GREY.."2) Madrigosa";
+		GREY..INDENT.."Brutallus";
+		GREY..INDENT.."Felmyst";
 		GREY.."4) Eredar Twins";
 		GREY..INDENT.."Grand Warlock Alythess";
 		GREY..INDENT.."Lady Sacrolash";

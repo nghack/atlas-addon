@@ -1402,11 +1402,13 @@ AtlasMaps = {
 		Acronym = "SP";
 		BLUE.."A) Entrée";
 		GREY.."1) Kalecgos";
-		GREY.."2) Brutallus";
-		GREY.."3) Felmyst";
+		GREY..INDENT.."Sathrovarr le Corrupteur";
+		GREY.."2) Madrigosa";
+		GREY..INDENT.."Brutallus";
+		GREY..INDENT.."Felmyst";
 		GREY.."4) Les jumelles Eredar";
-		GREY..INDENT.."Alythess";
-		GREY..INDENT.."Sacrolash";
+		GREY..INDENT.."Grande démoniste Alythess";
+		GREY..INDENT.."Dame Sacrolash";
 		GREY.."5) M'uru";
 		GREY.."6) Kil'jaden";
 	};

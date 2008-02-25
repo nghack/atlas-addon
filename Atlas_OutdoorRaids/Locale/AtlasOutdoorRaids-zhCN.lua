@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/25/2008
+-- Last Update : 2/24/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -79,7 +79,7 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."2) 上古颅骨堆";
 			GREY..INDENT.."泰罗克 (召唤)";
 			GREY.."3) 萨哈克";
-			GREY.."4) 天空卫队囚犯 (召唤)";
+			GREY.."4) 天空卫队囚犯 (随机)";
 			GREY.."5) 鸦爪祭司伊沙尔";
 			GREY.."6) 鸦爪祭司斯卡基克";
 			GREY.."7) 鸦爪祭司塞尔利克";

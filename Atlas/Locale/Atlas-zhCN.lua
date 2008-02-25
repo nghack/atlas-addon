@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/21/2008
+-- Last Update : 2/25/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1385,8 +1385,10 @@ AtlasMaps = {
 		Acronym = "SP";
 		BLUE.."A) 入口";
 		GREY.."1) 卡雷苟斯";
-		GREY.."2) 布鲁塔卢斯";
-		GREY.."3) 菲米丝";
+		GREY..INDENT.."腐蚀者萨索瓦尔";
+		GREY.."2) 玛蒂苟萨";
+		GREY..INDENT.."布鲁塔卢斯";
+		GREY..INDENT.."菲米丝";
 		GREY.."4) 艾瑞达双子";
 		GREY..INDENT.."高阶术士奥蕾塞丝";
 		GREY..INDENT.."萨洛拉丝女王";

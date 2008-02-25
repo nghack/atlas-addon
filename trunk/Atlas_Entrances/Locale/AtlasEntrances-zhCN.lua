@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/25/2008
+-- Last Update : 2/25/2008
 -- http://www.dreamgen.cn
 
 --]]

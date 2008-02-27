@@ -109,7 +109,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			ORNG.."Rep: Stormpike Guard (Alliance)";
 			BLUE.."A) Entrance";
 			BLUE.."B) Frostwolf Keep";
-			_RED.."1) Frostwolf Releif Hut";
+			_RED.."1) Frostwolf Relief Hut";
 			_RED.."2) Frostwolf Graveyard";
 			_RED.."3) Iceblood Graveyard";
 			ORNG.."4) West Frostwolf Tower";

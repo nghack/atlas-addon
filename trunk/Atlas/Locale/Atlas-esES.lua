@@ -1387,11 +1387,13 @@ AtlasMaps = {
 		Acronym = "MPS";
 		BLUE.."A) Entrada"; 
 		GREY.."1) Kalecgos"; --Bien
-		GREY.."2) Brutallus"; --FALTA
-		GREY.."3) Felmyst"; --FALTA
+		GREY..INDENT.."Sathrovarr el Corruptor";- --Comprobar
+		GREY.."2) Madrigosa"; --Bien
+		GREY..INDENT.."Brutallus"; --FALTA
+		GREY..INDENT.."Felmyst"; --FALTA
+		GREY.."4) Gemelos Eredar"; --Comprobar
 		GREY..INDENT.."Grand Warlock Alythess"; --FALTA
 		GREY..INDENT.."Lady Sacrolash"; --FALTA
-		GREY.."4) Gemelos Eredar"; --Comprobar
 		GREY.."5) M'uru"; --Bien
 		GREY.."6) Kil'jaden"; --Bien
 	};

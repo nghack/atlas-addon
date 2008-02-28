@@ -985,7 +985,6 @@ AtlasMaps = {
 		ZoneName = "Karazhan [A] (Start)";
 		Acronym = "Kara";
 		Location = "Deadwind Pass";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: The Violet Eye";
 		ORNG.."Key: The Master's Key";
 		ORNG.."Key: Blackened Urn (Nightbane)";
@@ -1031,7 +1030,6 @@ AtlasMaps = {
 		ZoneName = "Karazhan [B] (End)";
 		Acronym = "Kara";
 		Location = "Deadwind Pass";
-		ORNG.."Attunement Required";
 		ORNG.."Rep: The Violet Eye";
 		ORNG.."Key: The Master's Key";
 		BLUE.."I) Path to the Broken Stairs";

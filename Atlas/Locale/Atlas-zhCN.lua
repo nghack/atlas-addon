@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/25/2008
+-- Last Update : 2/29/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -963,7 +963,6 @@ AtlasMaps = {
 		ZoneName = "卡拉赞 [A] (前半)";
 		Acronym = "Kara";
 		Location = "逆风小径";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：紫罗兰之眼";
 		ORNG.."钥匙：麦迪文的钥匙";
 		ORNG.."钥匙：黑色骨灰 (夜之魇)";
@@ -1009,7 +1008,6 @@ AtlasMaps = {
 		ZoneName = "卡拉赞 [B] (后半)";
 		Acronym = "Kara";
 		Location = "逆风小径";
-		ORNG.."需要完成入口任务";
 		ORNG.."阵营：紫罗兰之眼";
 		ORNG.."钥匙：麦迪文的钥匙";
 		BLUE.."I) 通往破碎阶梯的通道";

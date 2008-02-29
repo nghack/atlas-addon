@@ -993,8 +993,7 @@ AtlasMaps = {
 	KarazhanStart = {
 		ZoneName = "Karazhan [A] (Anfang)";
 		Acronym = "Kara";
-		Location = "Gebirgspass der Totenwinde"; 
-		ORNG.."Zugangsquest erforderlich";
+		Location = "Gebirgspass der Totenwinde";
 		ORNG.."Ruf: Das Violette Auge";
 		ORNG.."Schlüssel: Der Schlüssel des Meisters";
 		ORNG.."Schlüssel: Geschwärzte Urne (Schrecken der Nacht)";
@@ -1039,8 +1038,7 @@ AtlasMaps = {
 	KarazhanEnd = {
 		ZoneName = "Karazhan [B] (Ende)";
 		Acronym = "Kara";
-		Location = "Gebirgspass der Totenwinde"; 
-		ORNG.."Zugangsquest erforderlich";
+		Location = "Gebirgspass der Totenwinde";
 		ORNG.."Ruf: Das Violette Auge";
 		ORNG.."Schlüssel: Der Schlüssel des Meisters";
 		BLUE.."I) Weg zur Beschädigten Treppe";
@@ -1405,10 +1403,10 @@ AtlasMaps = {
 		Location = "Insel Quel'Danas";
 		Acronym = "MT";
 		BLUE.."A) Eingang";
-		GREY.."1) Selin Fireheart";
+		GREY.."1) Selin Feuerherz";
 		GREY.."2) Vexallus";
-		GREY.."3) Priestess Delrissa";
-		GREY.."4) Kael'thas Sunstrider";
+		GREY.."3) Priesterin Delrissa";
+		GREY.."4) Kael'thas Sonnenwanderer";
 	};
 	SunwellPlateau = {
 		ZoneName = "Sonnenbrunnenplateau";
@@ -1416,10 +1414,12 @@ AtlasMaps = {
 		Acronym = "SP";
 		BLUE.."A) Eingang";
 		GREY.."1) Kalecgos";
-		GREY.."2) Brutallus";
-		GREY.."3) Felmyst";
-		GREY.."4) Eredar Twins";
-		GREY..INDENT.."Grand Warlock Alythess";
+		GREY..INDENT.."Sathrovarr der Verderber";
+		GREY.."2) Madrigosa";
+		GREY..INDENT.."Brutallus";
+		GREY..INDENT.."Teufelsruch";
+		GREY.."4) Eredar Zwillinge";
+		GREY..INDENT.."Großhexenmeister Alythess";
 		GREY..INDENT.."Lady Sacrolash";
 		GREY.."5) M'uru";
 		GREY.."6) Kil'jaden";

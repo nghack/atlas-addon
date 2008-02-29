@@ -978,10 +978,9 @@ AtlasMaps = {
 		GREN..INDENT.."2) Kel'Thuzad";
 	};
 	KarazhanStart = {
-		ZoneName = "Karazhan (Début)";
+		ZoneName = "Karazhan [A] (Début)";
 		Acronym = "Kara/KZ";
 		Location = "Défilé de Deuillevent";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : L'Œil pourpre";
 		ORNG.."Objet : La clé du maître";
 		ORNG.."Objet : Urne noircie (Plaie-de-nuit)";	
@@ -1024,10 +1023,9 @@ AtlasMaps = {
 		GREY..INDENT.."Plaie-de-nuit (Invoqué)";
 	};
 	KarazhanEnd = {
-		ZoneName = "Karazhan (Fin)";
+		ZoneName = "Karazhan [B] (Fin)";
 		Acronym = "Kara/KZ";
 		Location = "Défilé de Deuillevent";
-		ORNG.."Harmonisation requise";
 		ORNG.."Réput : L'Œil pourpre";
 		ORNG.."Objet : La clé du maître";
 		BLUE.."I) Chemin vers l'Escalier brisé";
@@ -1301,7 +1299,7 @@ AtlasMaps = {
 		GREY.."2) Gruul le Tue-dragon";
 	};
 	BlackTempleStart = {
-		ZoneName = "Temple Noir (Début)";
+		ZoneName = "Temple Noir [A] (Début)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
 		ORNG.."Réput : Ligemort Cendrelangue";
@@ -1320,7 +1318,7 @@ AtlasMaps = {
 		GREY..INDENT.."Voyant Kanai";
 	};
 	BlackTempleBasement = {
-		ZoneName = "Temple Noir (Sous-sol)";
+		ZoneName = "Temple Noir [B] (Sous-sol)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
 		ORNG.."Réput : Ligemort Cendrelangue";
@@ -1335,7 +1333,7 @@ AtlasMaps = {
 		GREY.."8) Teron Fielsang";
 	};
 	BlackTempleTop = {
-		ZoneName = "Temple Noir (Haut)";
+		ZoneName = "Temple Noir [C] (Haut)";
 		Location = "Vallée d'Ombrelune";
 		Acronym = "BT";
 		ORNG.."Réput : Ligemort Cendrelangue";

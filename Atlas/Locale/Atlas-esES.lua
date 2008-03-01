@@ -972,7 +972,6 @@ AtlasMaps = {
 		ZoneName = "Karazhan (Comienzo)";
 		Acronym = "Kara";
 		Location = "Paso de la Muerte"; --Bien
-		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Colgante del ojo violeta"; --Bien
 		ORNG.."Llave: La llave del maestro"; --Bien
 		ORNG.."Llave: Urna ennegrecida (Nocturno)"; --Bien
@@ -1018,7 +1017,6 @@ AtlasMaps = {
 		ZoneName = "Karazhan (Final)"; --Bien
 		Acronym = "Kara";
 		Location = "Paso de la Muerte"; --Bien
-		ORNG.."Armonización Requerida"; --Bien
 		ORNG.."Reputación: Colgante del ojo violeta"; --Bien
 		ORNG.."Llave: La llave del maestro"; --Bien
 		BLUE.."I) Camino a las Escaleras rotas"; --Bien COMPROBAR

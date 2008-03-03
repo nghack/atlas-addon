@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/25/2008
+-- Last Update : 3/4/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -126,7 +126,7 @@ if ( GetLocale() == "zhCN" ) then
 			GREY.."3) 工头希斯耐特";
 		};
 		TheSunkenTempleEnt = {
-			ZoneName = "阿塔哈卡神庙";
+			ZoneName = "沉没的神庙";
 			Acronym = "ST";
 			Location = "悲伤沼泽";
 			BLUE.."A) 入口";

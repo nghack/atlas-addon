@@ -1391,6 +1391,9 @@ AtlasMaps = {
 		BLUE.."A) Entrée";
 		GREY.."1) Selin Coeur-de-feu";
 		GREY.."2) Vexallus";
+		GREY..INDENT.."Tyrith";
+		GREY.."3) Orbe des Clairvoyants";
+		GREY..INDENT.."Kalec";		
 		GREY.."3) Prêtresse Delrissa";
 		GREY.."4) Kael'thas Haut-soleil";
 	};

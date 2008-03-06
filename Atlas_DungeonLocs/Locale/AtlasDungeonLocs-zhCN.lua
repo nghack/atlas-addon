@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/25/2008
+-- Last Update : 3/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -26,25 +26,25 @@ if ( GetLocale() == "zhCN" ) then
 			Location = "东部王国";
 			BLUE.."A) 奥特兰克山谷, ".._RED.."奥特兰克山脉";
 			BLUE.."B) 阿拉希盆地, ".._RED.."阿拉希高地";
-			GREY.."1) 祖阿曼, ".._RED.."幽魂之地";
-			GREY.."2) 血色修道院, ".._RED.."提瑞斯法林地";
-			GREY.."3) 斯坦所姆, ".._RED.."东瘟疫之地";
+			GREY.."1) 魔导师平台, ".._RED.."奎尔丹纳斯岛";
+			GREY..INDENT.."太阳之井高地, ".._RED.."奎尔丹纳斯岛";
+			GREY.."2) 祖阿曼, ".._RED.."幽魂之地";
+			GREY.."3) 血色修道院, ".._RED.."提瑞斯法林地";
+			GREY.."4) 斯坦所姆, ".._RED.."东瘟疫之地";
 			GREY..INDENT.."纳克萨玛斯, ".._RED.."斯坦所姆";
-			GREY.."4) 通灵学院, ".._RED.."西瘟疫之地";
-			GREY.."5) 影牙城堡, ".._RED.."银松森林";
-			GREY.."6) 诺莫瑞根, ".._RED.."丹莫罗";
-			GREY.."7) 奥达曼, ".._RED.."荒芜之地";
-			GREY.."8) 黑翼之巢, ".._RED.."黑石塔";
+			GREY.."5) 通灵学院, ".._RED.."西瘟疫之地";
+			GREY.."6) 影牙城堡, ".._RED.."银松森林";
+			GREY.."7) 诺莫瑞根, ".._RED.."丹莫罗";
+			GREY.."8) 奥达曼, ".._RED.."荒芜之地";
+			GREY.."9) 黑翼之巢, ".._RED.."黑石塔";
 			GREY..INDENT.."黑石深渊, ".._RED.."黑石山";
 			GREY..INDENT.."黑石塔, ".._RED.."黑石山";
 			GREY..INDENT.."熔火之心, ".._RED.."黑石深渊";
-			GREY.."9) 监狱, ".._RED.."暴风城";
-			GREY.."10) 死亡矿井, ".._RED.."西部荒野";
-			GREY.."11) 祖尔格拉布, ".._RED.."荆棘谷";
-			GREY.."12) 卡拉赞, ".._RED.."逆风小径";
-			GREY.."13) 阿塔哈卡神庙, ".._RED.."悲伤沼泽";
-			"";
-			"";
+			GREY.."10) 监狱, ".._RED.."暴风城";
+			GREY.."11) 死亡矿井, ".._RED.."西部荒野";
+			GREY.."12) 祖尔格拉布, ".._RED.."荆棘谷";
+			GREY.."13) 卡拉赞, ".._RED.."逆风小径";
+			GREY.."14) 沉没的神庙, ".._RED.."悲伤沼泽";
 			"";
 			"";
 			BLUE.."蓝色:"..ORNG.." 战场";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 2/29/2008
+-- Last Update : 3/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1373,9 +1373,13 @@ AtlasMaps = {
 		Acronym = "MT";
 		BLUE.."A) 入口";
 		GREY.."1) 塞林·火心";
-		GREY.."2) 维萨鲁斯";
-		GREY.."3) 女祭司德莉希亚";
-		GREY.."4) 凯尔萨斯·逐日者";
+		GREY..INDENT.."邪能水晶";
+		GREY.."2) 泰瑞斯"; -- Tyrith
+		GREY.."3) 维萨鲁斯";
+		GREY.."4) 占卜宝珠";
+		GREY..INDENT.."卡雷苟斯";
+		GREY.."5) 女祭司德莉希亚 (下层)";
+		GREY.."6) 凯尔萨斯·逐日者";
 	};
 	SunwellPlateau = {
 		ZoneName = "太阳之井高地";

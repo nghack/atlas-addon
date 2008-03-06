@@ -30,7 +30,7 @@ if ( GetLocale() == "frFR" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Cartes des trajets aériens";
 
@@ -38,24 +38,25 @@ if ( GetLocale() == "frFR" ) then
 		FPAllianceEast = {
 			ZoneName = "Alliance [A] (Est)";
 			Location = "Royaumes de l'Est";
-			GREY.."1) Zul'Aman, ".._RED.."Terres Fantômes";
-			GREY.."2) Chapelle de l'Espoir de Lumière, ".._RED.."Maleterres de l'est";
-			GREY.."3) Camp Noroît, ".._RED.."Maleterres de l'ouest";
-			GREY.."4) Nid-de-l'Aigle, ".._RED.."Les Hinterlands";
-			GREY.."5) Austrivage, ".._RED.."Contreforts de Hautebrande";
-			GREY.."6) Refuge de l'Ornière, ".._RED.."Hautes-Terres d'Arathi";
-			GREY.."7) Port de Menethil, ".._RED.."Les Paluns";
-			GREY.."8) Forgefer, ".._RED.."Dun Morogh";
-			GREY.."9) Thelsamar, ".._RED.."Loch Modan";
-			GREY.."10) Halte du Thorium, ".._RED.."Gorge des Vents Brûlants";
-			GREY.."11) Veille de Morgan, ".._RED.."Steppes Ardentes";
-			GREY.."12) Hurlevent, ".._RED.."Forêt d'Elwynn";
-			GREY.."13) Comté-du-Lac, ".._RED.."Les Carmines";
-			GREY.."14) Collines des Sentinelles, ".._RED.."La Marche de l'Ouest";
-			GREY.."15) Sombre-comté, ".._RED.."Bois de la pénombre";
-			GREY.."16) Rempart-du-Néant, ".._RED.."Terres Foudroyées";
-			GREY.."17) Camp rebelle, ".._RED.."Vallée de Strangleronce";
-			GREY.."18) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
+			GREY.."1) Sun's Reach, ".._RED.."Isle of Quel'Danas";  -- A traduire
+			GREY.."2) Zul'Aman, ".._RED.."Terres Fantômes";
+			GREY.."3) Chapelle de l'Espoir de Lumière, ".._RED.."Maleterres de l'est";
+			GREY.."4) Camp Noroît, ".._RED.."Maleterres de l'ouest";
+			GREY.."5) Nid-de-l'Aigle, ".._RED.."Les Hinterlands";
+			GREY.."6) Austrivage, ".._RED.."Contreforts de Hautebrande";
+			GREY.."7) Refuge de l'Ornière, ".._RED.."Hautes-Terres d'Arathi";
+			GREY.."8) Port de Menethil, ".._RED.."Les Paluns";
+			GREY.."9) Forgefer, ".._RED.."Dun Morogh";
+			GREY.."10) Thelsamar, ".._RED.."Loch Modan";
+			GREY.."11) Halte du Thorium, ".._RED.."Gorge des Vents Brûlants";
+			GREY.."12) Veille de Morgan, ".._RED.."Steppes Ardentes";
+			GREY.."13) Hurlevent, ".._RED.."Forêt d'Elwynn";
+			GREY.."14) Comté-du-Lac, ".._RED.."Les Carmines";
+			GREY.."15) Collines des Sentinelles, ".._RED.."La Marche de l'Ouest";
+			GREY.."16) Sombre-comté, ".._RED.."Bois de la pénombre";
+			GREY.."17) Rempart-du-Néant, ".._RED.."Terres Foudroyées";
+			GREY.."18) Camp rebelle, ".._RED.."Vallée de Strangleronce";
+			GREY.."19) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
 		};
 		FPAllianceWest = {
 			ZoneName = "Alliance [B] (Ouest)";
@@ -86,21 +87,22 @@ if ( GetLocale() == "frFR" ) then
 		FPHordeEast = {
 			ZoneName = "Horde [A] (Est)";
 			Location = "Royaumes de l'Est";
-			GREY.."1) Lune d'argent, ".._RED.."Bois des Chants-éternels";
-			GREY.."2) Tranquillien, ".._RED.."Les Terres Fantômes";
-			GREY.."3) Zul'Aman, ".._RED.."Terres Fantômes";
-			GREY.."4) Chapelle de l'Espoir de Lumière, ".._RED.."Maleterres de l'est";
-			GREY.."5) Fossoyeuse, ".._RED.."Clairières de Tirisfal";
-			GREY.."6) Le Sépulcre, ".._RED.."Forêt des Pins Argentés";
-			GREY.."7) Moulin-de-Tarren, ".._RED.."Contreforts de Hautebrande";
-			GREY.."8) Village des Vengebroches, ".._RED.."Les Hinterlands";
-			GREY.."9) Trépas-d'Orgrim, ".._RED.."Hautes-Terres d'Arathi";
-			GREY.."10) Halte du Thorium, ".._RED.."Gorge des Vents Brûlants";
-			GREY.."11) Kargath, ".._RED.."Terres Ingrates";
-			GREY.."12) Corniche des flammes, ".._RED.."Steppes Ardentes";
-			GREY.."13) Pierrêche, ".._RED.."Marais des Chagrins";
-			GREY.."14) Campement Grom'Gol, ".._RED.."Vallée de Strangleronce";
-			GREY.."15) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
+			GREY.."1) Sun's Reach, ".._RED.."Île de Quel’Danas"; -- A traduire
+			GREY.."2) Lune d'argent, ".._RED.."Bois des Chants-éternels";
+			GREY.."3) Tranquillien, ".._RED.."Les Terres Fantômes";
+			GREY.."7) Zul'Aman, ".._RED.."Terres Fantômes";
+			GREY.."5) Chapelle de l'Espoir de Lumière, ".._RED.."Maleterres de l'est";
+			GREY.."6) Fossoyeuse, ".._RED.."Clairières de Tirisfal";
+			GREY.."7) Le Sépulcre, ".._RED.."Forêt des Pins Argentés";
+			GREY.."8) Moulin-de-Tarren, ".._RED.."Contreforts de Hautebrande";
+			GREY.."9) Village des Vengebroches, ".._RED.."Les Hinterlands";
+			GREY.."10) Trépas-d'Orgrim, ".._RED.."Hautes-Terres d'Arathi";
+			GREY.."11) Halte du Thorium, ".._RED.."Gorge des Vents Brûlants";
+			GREY.."12) Kargath, ".._RED.."Terres Ingrates";
+			GREY.."13) Corniche des flammes, ".._RED.."Steppes Ardentes";
+			GREY.."14) Pierrêche, ".._RED.."Marais des Chagrins";
+			GREY.."15) Campement Grom'Gol, ".._RED.."Vallée de Strangleronce";
+			GREY.."16) Baie-du-Butin, ".._RED.."Vallée de Strangleronce";
 		};
 		FPHordeWest = {
 			ZoneName = "Horde [B] (Ouest)";

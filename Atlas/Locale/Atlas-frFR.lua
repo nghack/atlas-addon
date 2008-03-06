@@ -126,7 +126,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
-local INDENT = "    ";
+local INDENT = "      ";
 
 AtlasMaps = {
 	RagefireChasm = {
@@ -1390,12 +1390,13 @@ AtlasMaps = {
 		Acronym = "MT";
 		BLUE.."A) Entrée";
 		GREY.."1) Selin Coeur-de-feu";
-		GREY.."2) Vexallus";
-		GREY..INDENT.."Tyrith";
-		GREY.."3) Orbe des Clairvoyants";
-		GREY..INDENT.."Kalec";		
-		GREY.."3) Prêtresse Delrissa";
-		GREY.."4) Kael'thas Haut-soleil";
+		GREY..INDENT.."Gangre-cristaux"; -- A vérifier
+		GREY.."2) Tyrith";
+		GREY.."3) Vexallus";
+		GREY.."4) Orbe des Clairvoyants";  -- A vérifier
+		GREY..INDENT.."Kalecgos";		
+		GREY.."5) Prêtresse Delrissa (En bas)";
+		GREY.."6) Kael'thas Haut-soleil";
 	};
 	SunwellPlateau = {
 		ZoneName = "Plateau du Puits de soleil";

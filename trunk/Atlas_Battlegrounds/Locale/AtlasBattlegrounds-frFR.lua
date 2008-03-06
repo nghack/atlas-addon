@@ -30,7 +30,7 @@ if ( GetLocale() == "frFR" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Cartes des champs de bataille";
 

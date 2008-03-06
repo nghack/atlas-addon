@@ -1395,12 +1395,13 @@ AtlasMaps = {
 		Acronym = "MT";
 		BLUE.."A) Entrance";
 		GREY.."1) Selin Fireheart";
-		GREY.."2) Vexallus";
-		GREY..INDENT.."Tyrith";
-		GREY.."3) Scrying Orb";
-		GREY..INDENT.."Kalec";
-		GREY.."4) Priestess Delrissa";
-		GREY.."5) Kael'thas Sunstrider";
+		GREY..INDENT.."Fel Crystals";
+		GREY.."2) Tyrith";
+		GREY.."3) Vexallus";
+		GREY.."4) Scrying Orb";
+		GREY..INDENT.."Kalecgos";
+		GREY.."5) Priestess Delrissa (Lower)";
+		GREY.."6) Kael'thas Sunstrider";
 	};
 	SunwellPlateau = {
 		ZoneName = "Sunwell Plateau";

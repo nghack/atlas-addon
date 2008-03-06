@@ -30,7 +30,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Battleground Maps";
 

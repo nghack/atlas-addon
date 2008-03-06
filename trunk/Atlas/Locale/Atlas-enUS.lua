@@ -129,7 +129,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
-local INDENT = "   ";
+local INDENT = "      ";
 
 AtlasMaps = {
 	RagefireChasm = {

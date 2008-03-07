@@ -138,7 +138,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
-local INDENT = "   ";
+local INDENT = "      ";
 
 AtlasMaps = {
 	RagefireChasm = {
@@ -1404,9 +1404,13 @@ AtlasMaps = {
 		Acronym = "MT";
 		BLUE.."A) Eingang";
 		GREY.."1) Selin Feuerherz";
-		GREY.."2) Vexallus";
-		GREY.."3) Priesterin Delrissa";
-		GREY.."4) Kael'thas Sonnenwanderer";
+		GREY..INDENT.."Teufelskristalle";
+		GREY.."2) Tyrith";
+		GREY.."3) Vexallus";
+		GREY.."4) Seherkugel";
+		GREY..INDENT.."Kalecgos";
+		GREY.."5) Priesterin Delrissa (Unten)";
+		GREY.."6) Kael'thas Sonnenwanderer";
 	};
 	SunwellPlateau = {
 		ZoneName = "Sonnenbrunnenplateau";

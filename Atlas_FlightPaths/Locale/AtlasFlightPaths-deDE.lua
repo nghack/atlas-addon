@@ -30,7 +30,7 @@ if ( GetLocale() == "deDE" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Fluglinienkarten";
 
@@ -38,24 +38,25 @@ if ( GetLocale() == "deDE" ) then
 		FPAllianceEast = {
 			ZoneName = "Allianz [A] (Osten)";
 			Location = "Östliche Königreiche";
-			GREY.."1) Axthügel, ".._RED.."Geisterlande";
-			GREY.."2) Kapelle des hoffnungsvollen Lichts, ".._RED.."Östliche Pestländer";
-			GREY.."3) Zugwindlager, ".._RED.."Westliche Pestländer";
-			GREY.."4) Nistgipfel, ".._RED.."Hinterland";
-			GREY.."5) Süderstade, ".._RED.."Vorgebirge des Hügellands";
-			GREY.."6) Die Zuflucht, ".._RED.."Arathihochland";
-			GREY.."7) Hafen von Menethil, ".._RED.."Sumpfland";
-			GREY.."8) Eisenschmiede, ".._RED.."Dun Morogh";
-			GREY.."9) Thelsamar, ".._RED.."Loch Modan";
-			GREY.."10) Thoriumspitze, ".._RED.."Sengende Schlucht";
-			GREY.."11) Morgans Wacht, ".._RED.."Brennende Steppe";
-			GREY.."12) Sturmwind, ".._RED.."Wald von Elwynn";
-			GREY.."13) Seenhain, ".._RED.."Rotkammgebirge";
-			GREY.."14) Späherkuppe, ".._RED.."Westfall";
-			GREY.."15) Dunkelhain, ".._RED.."Dämmerwald";
-			GREY.."16) Burg Nethergarde, ".._RED.."Verwüstete Lande";
-			GREY.."17) Rebellenlager, ".._RED.."Schlingendorntal";
-			GREY.."18) Beutebucht, ".._RED.."Schlingendorntal";
+			GREY.."1) Sun's Reach, ".._RED.."Insel Quel'Danas";
+			GREY.."2) Axthügel, ".._RED.."Geisterlande";
+			GREY.."3) Kapelle des hoffnungsvollen Lichts, ".._RED.."Östliche Pestländer";
+			GREY.."4) Zugwindlager, ".._RED.."Westliche Pestländer";
+			GREY.."5) Nistgipfel, ".._RED.."Hinterland";
+			GREY.."6) Süderstade, ".._RED.."Vorgebirge des Hügellands";
+			GREY.."7) Die Zuflucht, ".._RED.."Arathihochland";
+			GREY.."8) Hafen von Menethil, ".._RED.."Sumpfland";
+			GREY.."9) Eisenschmiede, ".._RED.."Dun Morogh";
+			GREY.."10) Thelsamar, ".._RED.."Loch Modan";
+			GREY.."11) Thoriumspitze, ".._RED.."Sengende Schlucht";
+			GREY.."12) Morgans Wacht, ".._RED.."Brennende Steppe";
+			GREY.."13) Sturmwind, ".._RED.."Wald von Elwynn";
+			GREY.."14) Seenhain, ".._RED.."Rotkammgebirge";
+			GREY.."15) Späherkuppe, ".._RED.."Westfall";
+			GREY.."16) Dunkelhain, ".._RED.."Dämmerwald";
+			GREY.."17) Burg Nethergarde, ".._RED.."Verwüstete Lande";
+			GREY.."18) Rebellenlager, ".._RED.."Schlingendorntal";
+			GREY.."19) Beutebucht, ".._RED.."Schlingendorntal";
 		};
 		FPAllianceWest = {
 			ZoneName = "Allianz [B] (Westen)";
@@ -86,21 +87,22 @@ if ( GetLocale() == "deDE" ) then
 		FPHordeEast = {
 			ZoneName = "Horde [A] (Osten)";
 			Location = "Östliche Königreiche";
-			GREY.."1) Silbermond, ".._RED.."Immersangwald";
-			GREY.."2) Tristessa, ".._RED.."Geisterlande";
-			GREY.."3) Axthügel, ".._RED.."Geisterlande";
-			GREY.."4) Kapelle des hoffnungsvollen Lichts, ".._RED.."Östliche Pestländer";
-			GREY.."5) Unterstadt, ".._RED.."Tirisfal";
-			GREY.."6) Das Grabmal, ".._RED.."Silberwald";
-			GREY.."7) Tarrens Mühle, ".._RED.."Vorgebirge des Hügellands";
-			GREY.."8) Dorf der Bruchhauer, ".._RED.."Hinterland";
-			GREY.."9) Hammerfall, ".._RED.."Arathihochland";
-			GREY.."10) Thoriumspitze, ".._RED.."Sengende Schlucht";
-			GREY.."11) Kargath, ".._RED.."Ödland";
-			GREY.."12) Flammenkamm, ".._RED.."Brennende Steppe";
-			GREY.."13) Steinard, ".._RED.."Sümpfe des Elends";
-			GREY.."14) Basislager von Grom'gol, ".._RED.."Schlingendorntal";
-			GREY.."15) Beutebucht, ".._RED.."Schlingendorntal";
+			GREY.."1) Sun's Reach, ".._RED.."Insel Quel'Danas";
+			GREY.."2) Silbermond, ".._RED.."Immersangwald";
+			GREY.."3) Tristessa, ".._RED.."Geisterlande";
+			GREY.."4) Axthügel, ".._RED.."Geisterlande";
+			GREY.."5) Kapelle des hoffnungsvollen Lichts, ".._RED.."Östliche Pestländer";
+			GREY.."6) Unterstadt, ".._RED.."Tirisfal";
+			GREY.."7) Das Grabmal, ".._RED.."Silberwald";
+			GREY.."8) Tarrens Mühle, ".._RED.."Vorgebirge des Hügellands";
+			GREY.."9) Dorf der Bruchhauer, ".._RED.."Hinterland";
+			GREY.."10) Hammerfall, ".._RED.."Arathihochland";
+			GREY.."11) Thoriumspitze, ".._RED.."Sengende Schlucht";
+			GREY.."12) Kargath, ".._RED.."Ödland";
+			GREY.."13) Flammenkamm, ".._RED.."Brennende Steppe";
+			GREY.."14) Steinard, ".._RED.."Sümpfe des Elends";
+			GREY.."15) Basislager von Grom'gol, ".._RED.."Schlingendorntal";
+			GREY.."16) Beutebucht, ".._RED.."Schlingendorntal";
 		};
 		FPHordeWest = {
 			ZoneName = "Horde [B] (Westen)";

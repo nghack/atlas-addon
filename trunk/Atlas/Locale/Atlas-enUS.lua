@@ -1413,10 +1413,11 @@ AtlasMaps = {
 		GREY.."2) Madrigosa";
 		GREY..INDENT.."Brutallus";
 		GREY..INDENT.."Felmyst";
-		GREY.."4) Eredar Twins";
-		GREY..INDENT.."Grand Warlock Alythess";
-		GREY..INDENT.."Lady Sacrolash";
-		GREY.."5) M'uru";
-		GREY.."6) Kil'jaden";
+		GREY.."3) Eredar Twins (Lower)";
+		GREY..INDENT.."Grand Warlock Alythess (Lower)";
+		GREY..INDENT.."Lady Sacrolash (Lower)";
+		GREY..INDENT.."M'uru (Upper)";
+		GREY..INDENT.."Entropius (Upper)";
+		GREY.."4) Kil'jaden";
 	};
 };

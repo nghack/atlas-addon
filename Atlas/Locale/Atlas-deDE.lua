@@ -1422,11 +1422,12 @@ AtlasMaps = {
 		GREY.."2) Madrigosa";
 		GREY..INDENT.."Brutallus";
 		GREY..INDENT.."Teufelsruch";
-		GREY.."4) Eredar Zwillinge";
-		GREY..INDENT.."Großhexenmeister Alythess";
-		GREY..INDENT.."Lady Sacrolash";
-		GREY.."5) M'uru";
-		GREY.."6) Kil'jaden";
+		GREY.."3) Eredar Zwillinge (Unten)";
+		GREY..INDENT.."Großhexenmeister Alythess (Unten)";
+		GREY..INDENT.."Lady Sacrolash (Unten)";
+		GREY..INDENT.."M'uru (Oben)";
+		GREY..INDENT.."Entropius (Oben)";
+		GREY.."4) Kil'jaden";
 	};
 };
 

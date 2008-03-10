@@ -1015,7 +1015,7 @@ AtlasMaps = {
 		GREY.."11) Damoiselle de vertu";
 		GREY.."12) Sebastian <L'Organiste>";
 		GREY.."13) Barnes <Le Régisseur>";
-		GREY.."4) L'Opéra";
+		GREY.."14) L'Opéra";
 		GREY..INDENT.."Le Grand Méchant Loup (Hasard)"; --  (Le Petit Chaperon Rouge)
 		GREY..INDENT.."La Mégère (Hasard)"; --  (Le Magicien d'Oz)
 		GREY..INDENT.."Romulo et Julianne (Hasard)"; --  (Roméo et Juliette)
@@ -1408,11 +1408,12 @@ AtlasMaps = {
 		GREY.."2) Madrigosa";
 		GREY..INDENT.."Brutallus";
 		GREY..INDENT.."Felmyst";
-		GREY.."4) Les jumelles Eredar";
-		GREY..INDENT.."Grande démoniste Alythess";
-		GREY..INDENT.."Dame Sacrolash";
-		GREY.."5) M'uru";
-		GREY.."6) Kil'jaden";
+		GREY.."3) Les jumelles Eredar (En bas)";
+		GREY..INDENT.."Grande démoniste Alythess (En bas)";
+		GREY..INDENT.."Dame Sacrolash (En bas)";
+		GREY..INDENT.."M'uru (En haut)";
+		GREY..INDENT.."Entropius (En haut)";
+		GREY.."4) Kil'jaden";
 	};
 };
 

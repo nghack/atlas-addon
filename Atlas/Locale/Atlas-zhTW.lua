@@ -988,7 +988,6 @@ AtlasMaps = {
 			ZoneName = "卡拉贊 - 1.開始";
 			Acronym = "Kara";
 			Location = "逆風小徑";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			ORNG.."鑰匙: 燻黑的骨灰甕 (夜禍)";
@@ -1034,7 +1033,6 @@ AtlasMaps = {
 			ZoneName = "卡拉贊 - 2.結束";
 			Acronym = "Kara";
 			Location = "逆風小徑";
-			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
 			BLUE.."I) 通往損壞的階梯";
@@ -1400,9 +1398,13 @@ AtlasMaps = {
 			Acronym = "MT";
 			BLUE.."A) 入口";
 			GREY.."1) Selin Fireheart";
-			GREY.."2) Vexallus";
-			GREY.."3) Priestess Delrissa";
-			GREY.."4) Kael'thas Sunstrider";
+			GREY..INDENT.."Fel Crystals";
+			GREY.."2) Tyrith";
+			GREY.."3) Vexallus";
+			GREY.."4) Scrying Orb";
+			GREY..INDENT.."Kalecgos";
+			GREY.."5) Priestess Delrissa (Lower)";
+			GREY.."6) Kael'thas Sunstrider";
 		};
 		SunwellPlateau = {
 			ZoneName = "Sunwell Plateau";
@@ -1410,11 +1412,16 @@ AtlasMaps = {
 			Acronym = "SP";
 			BLUE.."A) 入口";
 			GREY.."1) Kalecgos";
-			GREY.."2) Brutallus";
-			GREY.."3) Felmyst";
-			GREY.."4) Eredar Twins";
-			GREY.."5) M'uru";
-			GREY.."6) Kil'jaden";
+			GREY..INDENT.."Sathrovarr the Corruptor";
+			GREY.."2) Madrigosa";
+			GREY..INDENT.."Brutallus";
+			GREY..INDENT.."Felmyst";
+			GREY.."3) Eredar Twins (Lower)";
+			GREY..INDENT.."Grand Warlock Alythess (Lower)";
+			GREY..INDENT.."Lady Sacrolash (Lower)";
+			GREY..INDENT.."M'uru (Upper)";
+			GREY..INDENT.."Entropius (Upper)";
+			GREY.."4) Kil'jaden";
 		};
 	};
 end

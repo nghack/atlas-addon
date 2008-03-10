@@ -38,7 +38,7 @@ if ( GetLocale() == "frFR" ) then
 		FPAllianceEast = {
 			ZoneName = "Alliance [A] (Est)";
 			Location = "Royaumes de l'Est";
-			GREY.."1) Sun's Reach, ".._RED.."Isle of Quel'Danas";  -- A traduire
+			GREY.."1) Sun's Reach, ".._RED.."Île de Quel’Danas";  -- A traduire
 			GREY.."2) Zul'Aman, ".._RED.."Terres Fantômes";
 			GREY.."3) Chapelle de l'Espoir de Lumière, ".._RED.."Maleterres de l'est";
 			GREY.."4) Camp Noroît, ".._RED.."Maleterres de l'ouest";

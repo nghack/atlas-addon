@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/7/2008
+-- Last Update : 3/10/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1391,11 +1391,12 @@ AtlasMaps = {
 		GREY.."2) 玛蒂苟萨";
 		GREY..INDENT.."布鲁塔卢斯";
 		GREY..INDENT.."菲米丝";
-		GREY.."4) 艾瑞达双子";
-		GREY..INDENT.."高阶术士奥蕾塞丝";
-		GREY..INDENT.."萨洛拉丝女王";
-		GREY.."5) 穆鲁";
-		GREY.."6) 基尔加丹";
+		GREY.."3) 艾瑞达双子 (下层)";
+		GREY..INDENT.."高阶术士奥蕾塞丝 (下层)";
+		GREY..INDENT.."萨洛拉丝女王 (下层)";
+		GREY..INDENT.."穆鲁 (上层)";
+		GREY..INDENT.."熵魔 (上层)";
+		GREY.."4) 基尔加丹";
 	};
 };
 end

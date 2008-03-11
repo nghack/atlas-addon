@@ -1389,7 +1389,7 @@ AtlasMaps = {
 		Acronym = "MPS";
 		BLUE.."A) Entrada"; 
 		GREY.."1) Kalecgos"; --Bien
-		GREY..INDENT.."Sathrovarr el Corruptor";- --Comprobar
+		GREY..INDENT.."Sathrovarr el Corruptor"; --Comprobar
 		GREY.."2) Madrigosa"; --Bien
 		GREY..INDENT.."Brutallus"; --FALTA
 		GREY..INDENT.."Brumavil"; --Comprobar

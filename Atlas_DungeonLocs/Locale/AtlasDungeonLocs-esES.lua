@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 27/11/2007
+-- Úl�ltima Actualización (last update): 11/03/2008
 
 --]]
 
@@ -40,7 +40,7 @@ if ( GetLocale() == "esES" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Lugares de Mazmorras";
 
@@ -50,32 +50,32 @@ if ( GetLocale() == "esES" ) then
 			Location = "Reino del Este";
 			BLUE.."A) Valle de Alterac, ".._RED.."Montañas de Alterac / Laderas de Trabalomas"; --Bien
 			BLUE.."B) Cuenca de Arathi, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."1) Zul'Aman, ".._RED.."Tierras Fantasma"; --Bien			
-			GREY.."2) Monasterio Escarlata, ".._RED.."Claros de Trisfal"; --Bien
-			GREY.."3) Stratholme, ".._RED.."Tierras de la Peste del Este"; --Bien
+			GREY.."1) Bancal del Magister, ".._RED.."Isla de Quel'Danas";
+			GREY..INDENT.."Meseta del pozo del Sol, ".._RED.."Isla de Quel'Danas";
+			GREY.."2) Zul'Aman, ".._RED.."Tierras Fantasma"; --Bien			
+			GREY.."3) Monasterio Escarlata, ".._RED.."Claros de Trisfal"; --Bien
+			GREY.."4) Stratholme, ".._RED.."Tierras de la Peste del Este"; --Bien
 			GREY..INDENT.."Naxxramas, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."4) Scholomance, ".._RED.."Tierras de la Peste del Oeste"; --Bien
-			GREY.."5) Castillo de Colmillo Oscuro, ".._RED.."Bosque de Argenteos"; --Bien
-			GREY.."6) Gnomeregan, ".._RED.."Dun Morogh"; --Bien
-			GREY.."7) Uldaman, ".._RED.."Tierras Inhospitas"; --Bien
-			GREY.."8) Guarida Alanegra, ".._RED.."Cumbre de Roca Negra"; --Bien
+			GREY.."5) Scholomance, ".._RED.."Tierras de la Peste del Oeste"; --Bien
+			GREY.."6) Castillo de Colmillo Oscuro, ".._RED.."Bosque de Argenteos"; --Bien
+			GREY.."7) Gnomeregan, ".._RED.."Dun Morogh"; --Bien
+			GREY.."8) Uldaman, ".._RED.."Tierras Inhospitas"; --Bien
+			GREY.."9) Guarida Alanegra, ".._RED.."Cumbre de Roca Negra"; --Bien
 			GREY..INDENT.."Profundidades de Roca Negra, ".._RED.."Montaña de Roca Negra"; --Bien
 			GREY..INDENT.."Cumbre de Roca Negra, ".._RED.."Montaña de Roca Negra"; --Bien
 			GREY..INDENT.."Núcleo Fundido , ".._RED.."Profundidades de Roca Negra"; --Bien
-			GREY.."9) Mazmorras de Ventormenta, ".._RED.."Ciudad de Ventormenta"; --Bien
-			GREY.."10) Las Minas de la Muerte, ".._RED.."Paramos de Poniente"; --Bien
-			GREY.."11) Zul'Gurub, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."12) Karazhan, ".._RED.."Paso de la Muerte"; --Bien
-			GREY.."13) El Templo de Atal'Hakkar, ".._RED.."Pantano de las Penas"; --Bien
-			"";
-			"";
+			GREY.."10) Mazmorras de Ventormenta, ".._RED.."Ciudad de Ventormenta"; --Bien
+			GREY.."11) Las Minas de la Muerte, ".._RED.."Paramos de Poniente"; --Bien
+			GREY.."12) Zul'Gurub, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."13) Karazhan, ".._RED.."Paso de la Muerte"; --Bien
+			GREY.."14) El Templo de Atal'Hakkar, ".._RED.."Pantano de las Penas"; --Bien
 			"";
 			"";
 			BLUE.."Azul:"..ORNG.." Campos de Batalla";
 			GREY.."Blanco:"..ORNG.." Mazmorras";
 		};
 		DLWest = {
-			ZoneName = "Localizaciónde Mazmorras (Oeste)";
+			ZoneName = "Localización de Mazmorras (Oeste)";
 			Location = "Kalimdor";
 			BLUE.."A) Garganta Grito de Guerra, ".._RED.."Los Baldíos / Vallefresno"; --Bien
 			GREY.."1) Caverna Brazanegra, ".._RED.."Vallefresno"; --Bien
@@ -104,7 +104,7 @@ if ( GetLocale() == "esES" ) then
 			GREY.."Blanco:"..ORNG.." Mazmorras";
 		};
 		DLOutland = {
-			ZoneName = "Localización Mazmorras (Terrallende)";
+			ZoneName = "Localización de Mazmorras (Terrallende)";
 			Location = "Terrallende";
 			GREY.."1) Guarida de Gruul, ".._RED.."Montañas Filospada"; --Bien
 			GREY.."2) El Castillo de la Tempestad, ".._RED.."Tormenta Abisal"; --Bien

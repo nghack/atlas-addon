@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 19/02/2008
+-- Última Actualización (last update): 11/03/2008
 
 --]]
 
@@ -126,7 +126,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
-local INDENT = "   ";
+local INDENT = "      ";
 
 AtlasMaps = {
 	RagefireChasm = {
@@ -1375,9 +1375,13 @@ AtlasMaps = {
 		Acronym = "BM";
 		BLUE.."A) Entrada";
 		GREY.."1) Selin corazón de fuego"; --Comprobar
-		GREY.."2) Vexallus"; --Bien
-		GREY.."3) Sacerdotisa Delrissa"; --Bien
-		GREY.."4) Kael’thas Caminante del Sol"; --Bien
+		GREY..INDENT.."Fel Crystals";
+		GREY.."2) Tyrith"; --Comprobar
+		GREY.."3) Vexallus"; --Bien
+		GREY.."4) Orbe de visión"; --Comprobar
+		GREY..INDENT.."Kalecgos"; --Bien
+		GREY.."5) Sacerdotisa Delrissa (Abajo)"; --Bien
+		GREY.."6) Kael’thas Caminante del Sol"; --Bien
 	};
 	SunwellPlateau = {
 		ZoneName = "Meseta del pozo del Sol"; --Bien
@@ -1388,12 +1392,13 @@ AtlasMaps = {
 		GREY..INDENT.."Sathrovarr el Corruptor";- --Comprobar
 		GREY.."2) Madrigosa"; --Bien
 		GREY..INDENT.."Brutallus"; --FALTA
-		GREY..INDENT.."Felmyst"; --FALTA
-		GREY.."4) Gemelos Eredar"; --Comprobar
-		GREY..INDENT.."Grand Warlock Alythess"; --FALTA
-		GREY..INDENT.."Lady Sacrolash"; --FALTA
-		GREY.."5) M'uru"; --Bien
-		GREY.."6) Kil'jaden"; --Bien
+		GREY..INDENT.."Brumavil"; --Comprobar
+		GREY.."3) Gemelas Eredar (Abajo)"; --Bien
+		GREY..INDENT.."Grand Warlock Alythess (Arriba)"; --FALTA
+		GREY..INDENT.."Lady Sacrolash (Arriba)"; --FALTA
+		GREY..INDENT.."M'uru (Arriba)"; --Bien
+		GREY..INDENT.."Entropius (Arriba)"; --FALTA
+		GREY.."4) Kil'jaden"; --Bien
 	};
 };
 

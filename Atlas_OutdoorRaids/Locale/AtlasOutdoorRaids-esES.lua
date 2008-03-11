@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 25/10/2007
+-- Úl�ltima Actualización (last update): 11/03/2008
 
 --]]
 
@@ -41,7 +41,7 @@ if ( GetLocale() == "esES" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Encuentros Raid";
 

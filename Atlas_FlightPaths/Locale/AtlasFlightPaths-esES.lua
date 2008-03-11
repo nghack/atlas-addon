@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 27/11/2007
+-- Úl�ltima Actualización (last update): 11/03/2008
 
 --]]
 
@@ -41,7 +41,7 @@ if ( GetLocale() == "esES" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "      ";
 
 	local myCategory = "Mapa de los puntos de vuelos";
 
@@ -49,24 +49,25 @@ if ( GetLocale() == "esES" ) then
 		FPAllianceEast = {
 			ZoneName = "Alianza (Reinos del Este)";
 			Location = "Reinos del Este";
-			GREY.."1) Colinas Hacha, ".._RED.."Tierras Fantasma"; --Bien	
-			GREY.."2) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."3) Campamento del Orvallo, ".._RED.."Tierras de la Peste del Oeste"; --Bien
-			GREY.."4) Pico Nidal, ".._RED.."Tierras del Interior "; --Bien
-			GREY.."5) Costasur, ".._RED.."Laderas de Trabalomas"; --Bien
-			GREY.."6) Refugio de la Zaga, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."7) Puerto de Menethil, ".._RED.."Los Humedales"; --Bien
-			GREY.."8) Forjaz, ".._RED.."Dun Morogh"; --Bien
-			GREY.."9) Thelsamar, ".._RED.."Loch Modan"; --Bien
-			GREY.."10) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
-			GREY.."11) Vigilia de Morgan, ".._RED.."Las Estepas Ardientes"; --Bien
-			GREY.."12) Ventormenta, ".._RED.."Bosque de Elwynn"; --Bien
-			GREY.."13) Villa del Lago, ".._RED.."Montañas Crestagrana"; --Bien
-			GREY.."14) Colina de la Centinela, ".._RED.."Paramos de Poniente"; --Bien
-			GREY.."15) Villa Oscura, ".._RED.."Bosque del Ocaso"; --Bien
-			GREY.."16) Castillo de Netherguard, ".._RED.."Las Tierras Devastadas"; --Bien
-			GREY.."17) Asentamiento Rebelde, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."18) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."1) Sun's Reach, ".._RED.."Isla de Quel'Danas"; --Bien
+			GREY.."2) Colinas Hacha, ".._RED.."Tierras Fantasma"; --Bien	
+			GREY.."3) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
+			GREY.."4) Campamento del Orvallo, ".._RED.."Tierras de la Peste del Oeste"; --Bien
+			GREY.."5) Pico Nidal, ".._RED.."Tierras del Interior "; --Bien
+			GREY.."6) Costasur, ".._RED.."Laderas de Trabalomas"; --Bien
+			GREY.."7) Refugio de la Zaga, ".._RED.."Tierras Altas de Arathi"; --Bien
+			GREY.."8) Puerto de Menethil, ".._RED.."Los Humedales"; --Bien
+			GREY.."9) Forjaz, ".._RED.."Dun Morogh"; --Bien
+			GREY.."10) Thelsamar, ".._RED.."Loch Modan"; --Bien
+			GREY.."11) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
+			GREY.."12) Vigilia de Morgan, ".._RED.."Las Estepas Ardientes"; --Bien
+			GREY.."13) Ventormenta, ".._RED.."Bosque de Elwynn"; --Bien
+			GREY.."14) Villa del Lago, ".._RED.."Montañas Crestagrana"; --Bien
+			GREY.."15) Colina de la Centinela, ".._RED.."Paramos de Poniente"; --Bien
+			GREY.."16) Villa Oscura, ".._RED.."Bosque del Ocaso"; --Bien
+			GREY.."17) Castillo de Netherguard, ".._RED.."Las Tierras Devastadas"; --Bien
+			GREY.."18) Asentamiento Rebelde, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."19) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
 			};
 		FPAllianceWest = {
 			ZoneName = "Alianza (Kalimdor)";
@@ -97,21 +98,22 @@ if ( GetLocale() == "esES" ) then
 		FPHordeEast = {
 			ZoneName = "Horda (Reinos del Este)";
 			Location = "Reinos del Este";
-			GREY.."1) Lunargenta, ".._RED.."Bosque Canción Eterna"; --Bien
-			GREY.."2) Tranquillien, ".._RED.."Tierras Fantasma"; --Bien		
-			GREY.."3) Colinas Hacha, ".._RED.."Tierras Fantasma";
-			GREY.."4) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."5) Entrañas, ".._RED.."Claros de Trisfal"; --Bien
-			GREY.."6) El Sepulcro, ".._RED.."Bosque de Argenteos"; --Bien
-			GREY.."7) Molino Tarren, ".._RED.."Laderas de Trabalomas"; --Bien
-			GREY.."8) Poblado Sañadiente, ".._RED.."Tierras del Interior"; --Bien
-			GREY.."9) Sentencia, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."10) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
-			GREY.."11) Kargath, ".._RED.."Tierras Inhospitas"; --Bien 
-			GREY.."12) Peñasco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
-			GREY.."13) Rocal, ".._RED.."Pantano de las Penas"; --Bien
-			GREY.."14) Campamento Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."15) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."1) Fuente del Sol, ".._RED.."Isla de Quel'Danas"; --Bien		
+			GREY.."2) Lunargenta, ".._RED.."Bosque Canción Eterna"; --Bien
+			GREY.."3) Tranquillien, ".._RED.."Tierras Fantasma"; --Bien		
+			GREY.."4) Colinas Hacha, ".._RED.."Tierras Fantasma";
+			GREY.."5) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
+			GREY.."6) Entrañas, ".._RED.."Claros de Trisfal"; --Bien
+			GREY.."7) El Sepulcro, ".._RED.."Bosque de Argenteos"; --Bien
+			GREY.."8) Molino Tarren, ".._RED.."Laderas de Trabalomas"; --Bien
+			GREY.."9) Poblado Sañadiente, ".._RED.."Tierras del Interior"; --Bien
+			GREY.."10) Sentencia, ".._RED.."Tierras Altas de Arathi"; --Bien
+			GREY.."11) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
+			GREY.."12) Kargath, ".._RED.."Tierras Inhospitas"; --Bien 
+			GREY.."13) Peñasco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
+			GREY.."14) Rocal, ".._RED.."Pantano de las Penas"; --Bien
+			GREY.."15) Campamento Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
+			GREY.."16) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
 		};
 		FPHordeWest = {
 			ZoneName = "Horda (Kalimdor)";

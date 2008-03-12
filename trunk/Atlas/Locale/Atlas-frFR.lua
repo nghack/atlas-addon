@@ -1390,10 +1390,10 @@ AtlasMaps = {
 		Acronym = "MT";
 		BLUE.."A) Entrée";
 		GREY.."1) Selin Coeur-de-feu";
-		GREY..INDENT.."Gangre-cristaux"; -- A vérifier
+		GREY..INDENT.."Gangrecristaux";
 		GREY.."2) Tyrith";
 		GREY.."3) Vexallus";
-		GREY.."4) Orbe des Clairvoyants";  -- A vérifier
+		GREY.."4) Orbe de divination";
 		GREY..INDENT.."Kalecgos";		
 		GREY.."5) Prêtresse Delrissa (En bas)";
 		GREY.."6) Kael'thas Haut-soleil";

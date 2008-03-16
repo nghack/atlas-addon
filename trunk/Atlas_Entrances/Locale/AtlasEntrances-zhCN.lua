@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/4/2008
+-- Last Update : 3/10/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -18,7 +18,7 @@ if ( GetLocale() == "zhCN" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "　";
 
-	local myCategory = "地下城入口";
+	local myCategory = "副本入口";
 
 	local myData = {
 		AuchindounEnt = {
@@ -142,14 +142,13 @@ if ( GetLocale() == "zhCN" ) then
 			Acronym = "Ulda";
 			Location = "荒芜之地";
 			BLUE.."A) 入口";
-			GREY.."B) 奥达曼";
+			BLUE.."B) 奥达曼";
 			GREY.."1) 铁趾格雷兹";
 			GREY.."2) 马格雷甘·深影 (巡逻)";
 			GREY.."3) 雷乌纳石板";
 			GREY.."4) 克罗姆·粗臂的箱子";
 			GREY.."5) 加勒特的宝箱";
-			GREN.."1') 挖掘专家舒尔弗拉格";
-			GREN..INDENT.." (稀有, 多个位置)";
+			GREN.."1') 挖掘专家舒尔弗拉格 (稀有, 多个位置)";
 		};
 		WailingCavernsEnt = {
 			ZoneName = "哀嚎洞穴";

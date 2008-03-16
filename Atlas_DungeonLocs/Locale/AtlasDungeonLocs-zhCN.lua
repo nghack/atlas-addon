@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/7/2008
+-- Last Update : 3/10/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -18,7 +18,7 @@ if ( GetLocale() == "zhCN" ) then
 	local PURP = "|cff9900ff";
 	local INDENT = "　";
 
-	local myCategory = "地下城分布图";
+	local myCategory = "副本分布图";
 
 	local myData = {
 		DLEast = {

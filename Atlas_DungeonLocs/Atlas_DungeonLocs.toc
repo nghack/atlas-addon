@@ -1,13 +1,13 @@
 ## Interface: 20300
 ## Title: Atlas |r|cFF0099FF[Dungeon Locs]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地下城位置地圖
-## Title-zhCN: Atlas |r|cFF0099FF[地下城分布图]|r
+## Title-zhCN: Atlas |r|cFF0099FF[副本分布图]|r
 ## Notes: Dungeon Locations
 ## Notes-deDE: Dungeon Standorte
 ## Notes-esES: Lugar de Mazmorras
 ## Notes-frFR: Emplacements des instances
 ## Notes-koKR: 던전 지역
-## Notes-zhCN: 地下城分布图
+## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置，顯示各個地下城所在位置
 ## Version: 1.11.0
 ## X-Date: January, 2008

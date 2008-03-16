@@ -89,7 +89,7 @@ ATLAS_LOCALE = {
 
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
-	["阿塔哈卡神庙"] = "沉默的神庙";
+	["阿塔哈卡神庙"] = "沉没的神庙";
 	["旧希尔斯布莱德丘陵"] = "时光之穴 - 旧希尔斯布莱德";
 	["风暴要塞"] = "风暴要塞 - 风暴之眼";
 }; 
@@ -844,7 +844,7 @@ AtlasMaps = {
 		GREY.."6) 布鲁高·铁拳 (稀有)";
 	};
 	TheSunkenTemple = {
-		ZoneName = "沉默的神庙";
+		ZoneName = "沉没的神庙";
 		Acronym = "ST";
 		Location = "悲伤沼泽";
 		ORNG.."钥匙：叶基亚的卷轴 (哈卡的化身)";

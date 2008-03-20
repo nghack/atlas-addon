@@ -40,8 +40,8 @@ if ( GetLocale() == "deDE" ) then
 			Location = "Östliche Königreiche";
 			BLUE.."A) Alteractal, ".._RED.."Alteracgebirge / Vorgebirge des Hügellands";
 			BLUE.."B) Arathibecken, ".._RED.."Arathihochland";
-			GREY.."1) Terrasse der Magister, ".._RED.."Insel Quel'Danas";
-			GREY..INDENT.."Sonnenbrunnenplateau, ".._RED.."Insel Quel'Danas";
+			GREY.."1) Terrasse der Magister, ".._RED.."Insel von Quel'Danas";
+			GREY..INDENT.."Sonnenbrunnenplateau, ".._RED.."Insel von Quel'Danas";
 			GREY.."2) Zul'Aman, ".._RED.."Geisterlande";
 			GREY.."3) Das scharlachrote Kloster, ".._RED.."Tirisfal";
 			GREY.."4) Stratholme, ".._RED.."Östliche Pestländer";

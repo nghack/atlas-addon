@@ -38,7 +38,7 @@ if ( GetLocale() == "deDE" ) then
 		FPAllianceEast = {
 			ZoneName = "Allianz [A] (Osten)";
 			Location = "Östliche Königreiche";
-			GREY.."1) Sun's Reach, ".._RED.."Insel Quel'Danas";
+			GREY.."1) Sonnenweiten, ".._RED.."Insel von Quel'Danas";
 			GREY.."2) Axthügel, ".._RED.."Geisterlande";
 			GREY.."3) Kapelle des hoffnungsvollen Lichts, ".._RED.."Östliche Pestländer";
 			GREY.."4) Zugwindlager, ".._RED.."Westliche Pestländer";
@@ -87,7 +87,7 @@ if ( GetLocale() == "deDE" ) then
 		FPHordeEast = {
 			ZoneName = "Horde [A] (Osten)";
 			Location = "Östliche Königreiche";
-			GREY.."1) Sun's Reach, ".._RED.."Insel Quel'Danas";
+			GREY.."1) Sonnenweiten, ".._RED.."Insel von Quel'Danas";
 			GREY.."2) Silbermond, ".._RED.."Immersangwald";
 			GREY.."3) Tristessa, ".._RED.."Geisterlande";
 			GREY.."4) Axthügel, ".._RED.."Geisterlande";

@@ -6,7 +6,7 @@
 ## Notes-frFR: Zone d'entrées des instances
 ## Notes-zhCN: 副本入口
 ## Notes-zhTW: 副本入口地圖，顯示副本入口附近的地形與相關的 NPC 位置
-## Notes-deDE: Eingänge
+## Notes-deDE: Instanzen-Eingänge
 ## Notes-esES: Entradas
 ## Version: 1.11.0
 ## X-Date: January, 2008

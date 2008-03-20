@@ -1400,7 +1400,7 @@ AtlasMaps = {
 	};
 	MagistersTerrace = {
 		ZoneName = "Terrasse der Magister";
-		Location = "Insel Quel'Danas";
+		Location = "Insel von Quel'Danas";
 		Acronym = "MT";
 		BLUE.."A) Eingang";
 		GREY.."1) Selin Feuerherz";
@@ -1414,7 +1414,7 @@ AtlasMaps = {
 	};
 	SunwellPlateau = {
 		ZoneName = "Sonnenbrunnenplateau";
-		Location = "Insel Quel'Danas";
+		Location = "Insel von Quel'Danas";
 		Acronym = "SP";
 		BLUE.."A) Eingang";
 		GREY.."1) Kalecgos";

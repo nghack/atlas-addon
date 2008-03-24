@@ -114,7 +114,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			BLUE..INDENT.."East Frostwolf Warmaster";
 			BLUE..INDENT.."Tower Point Warmaster";
 			BLUE..INDENT.."Iceblood Warmaster";
-			GREY.."1) Iceblood Garrison (Summon Zone)";
+			GREY.."1) Lokholar the Ice Lord (Summon Zone)";
 			ORNG.."2) Iceblood Garrison";
 			GREY..INDENT.."Captain Galvangar";
 			ORNG.."3) Iceblood Tower";
@@ -124,12 +124,12 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Wing Commander Slidore (Allaince)";
 			GREY.."6) Coldtooth Mine";
 			GREY..INDENT.."Snivvle (Neutral)";
-			GREY..INDENT.."Masha Swiftcut (Horde)";
+			GREY..INDENT.."Masha Swiftcut";
 			GREY..INDENT.."Aggi Rumblestomp (Alliance)";
 			_RED.."7) West Frostwolf Tower";
 			GREY.."8) Wing Commander Vipore (Alliance)";
 			GREY..INDENT.."Jotek";
-			GREY..INDENT.."Smith Rezgar";
+			GREY..INDENT.."Smith Regzar";
 			GREY..INDENT.."Primalist Thurloga";
 			GREY..INDENT.."Sergeant Yazra Bloodsnarl";
 			GREY.."9) Wolf Rider Commander";

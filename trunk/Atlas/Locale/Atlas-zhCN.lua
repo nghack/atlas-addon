@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/10/2008
+-- Last Update : 3/24/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -81,17 +81,13 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
-
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
 	["阿塔哈卡神庙"] = "沉没的神庙";
 	["旧希尔斯布莱德丘陵"] = "时光之穴 - 旧希尔斯布莱德";
 	["风暴要塞"] = "风暴要塞 - 风暴之眼";
+	["卡拉赞"] = "卡拉赞 [A] (前半)";
+	["黑暗神殿"] = "黑暗神殿 [A] (入门)";
 }; 
 
 local BLUE = "|cff6666ff";

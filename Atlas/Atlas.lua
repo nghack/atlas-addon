@@ -28,6 +28,14 @@
 --AIM: dan5981
 
 
+local Atlas_DebugMode = true;
+local function debug(info)
+	if ( Atlas_DebugMode ) then
+		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
+	end
+end
+
+
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
 
@@ -58,8 +66,8 @@ local DefaultAtlasOptions = {
 	["AtlasScale"] = 1.0;
 	["AtlasClamped"] = true;
 	["AtlasSortBy"] = 1;
-	["AtlasCtrl"] = 0;
-	["AtlasCoords"] = 0;
+	["AtlasCtrl"] = false;
+	["AtlasCoords"] = false;
 };
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
@@ -116,6 +124,133 @@ Atlas_InstToEntMatches = {
 	["SMLibrary"] =					{"SMEnt"};
 	["SMCathedral"] =				{"SMEnt"};
 	["SMGraveyard"] =				{"SMEnt"};
+};
+
+--Links maps together that are part of the same instance
+--May include entrance maps, which will be ignored if module isn't loaded
+Atlas_SubZoneAssoc = {
+	["BlackTempleStart"] =			"Black Temple";
+	["BlackTempleBasement"] =		"Black Temple";
+	["BlackTempleTop"] =			"Black Temple";
+	["KarazhanStart"] =				"Karazhan";
+	["KarazhanEnd"] =				"Karazhan";
+	["KarazhanEnt"] =				"Karazhan";
+	["DireMaulNorth"] =				"Dire Maul";
+	["DireMaulEast"] =				"Dire Maul";
+	["DireMaulWest"] =				"Dire Maul";
+	["DireMaulEnt"] =				"Dire Maul";
+	["BlackrockSpireLower"] =		"Blackrock Spire";
+	["BlackrockSpireUpper"] =		"Blackrock Spire";
+	["BlackrockSpireEnt"] =			"Blackrock Spire";
+	["SMGraveyard"] =				"Scarlet Monastery";
+	["SMLibrary"] =					"Scarlet Monastery";
+	["SMArmory"] =					"Scarlet Monastery";
+	["SMCathedral"] =				"Scarlet Monastery";
+	["SMEnt"] =						"Scarlet Monastery";
+};
+
+--Default map to auto-select to when no SubZone data is available
+--These should NOT be entrance maps, since the module may or may not be loaded
+Atlas_AssocDefaults = {
+	["Black Temple"] =				"BlackTempleStart";
+	["Karazhan"] =					"KarazhanStart";
+	["Dire Maul"] =					"DireMaulNorth";
+	["Blackrock Spire"] =			"BlackrockSpireLower";
+	["Scarlet Monastery"] =			"SMGraveyard";
+};
+
+--Links SubZone values with specific instance maps
+Atlas_SubZoneData = {
+	["Karabor Sewers"] =			"BlackTempleStart";
+	["Illidari Training Grounds"] =	"BlackTempleStart";
+	["The Refectory"] =				"BlackTempleStart";
+	["Sanctuary of Shadow"] =		"BlackTempleStart";
+	["Gorefiend's Vigil"] =			"BlackTempleBasement";
+	["Halls of Anguish"] =			"BlackTempleBasement";
+	["Shrine of Lost Souls"] =		"BlackTempleBasement";
+	["Den of Mortal Delights"] =	"BlackTempleTop";
+	["Chamber of Command"] =		"BlackTempleTop";
+	["Grand Promenade"] =			"BlackTempleTop";
+	["Temple Summit"] =				"BlackTempleTop";
+	["The Gatehouse"] =				"KarazhanStart";
+	["Livery Stables"] =			"KarazhanStart";
+	["The Guardhouse"] =			"KarazhanStart";
+	["The Scullery"] =				"KarazhanStart";
+	["Servants' Quarters"] =		"KarazhanStart";
+	["The Grand Ballroom"] =		"KarazhanStart";
+	["The Banquet Hall"] =			"KarazhanStart";
+	["The Guest Chambers"] =		"KarazhanStart";
+	["The Opera Hall"] =			"KarazhanStart";
+	["The Broken Stair"] =			"KarazhanStart";
+	["Master's Terrace"] =			"KarazhanStart";
+	["The Menagerie"] =				"KarazhanEnd";
+	["Guardian's Library"] =		"KarazhanEnd";
+	["The Repository"] =			"KarazhanEnd";
+	["The Celestial Watch"] =		"KarazhanEnd";
+	["Gamesman's Hall"] =			"KarazhanEnd";
+	["Medivh's Chambers"] =			"KarazhanEnd";
+	["Master's Terrace"] =			"KarazhanEnd";
+	["Netherspace"] =				"KarazhanEnd";
+	["Halls of Destruction"] =		"DireMaulNorth";
+	["Gordok's Seat"] =				"DireMaulNorth";
+	["Warpwood Quarter"] =			"DireMaulEast";
+	["The Hidden Reach"] =			"DireMaulEast";
+	["The Conservatory"] =			"DireMaulEast";
+	["The Shrine of Eldretharr"] =	"DireMaulEast";
+	["Capital Gardens"] =			"DireMaulWest";
+	["Court of the Highborne"] =	"DireMaulWest";
+	["Prison of Immol'thar"] =		"DireMaulWest";
+	["The Athenaeum"] =				"DireMaulWest";
+	["Hordemar City"] =				"BlackrockSpireLower";
+	["Mok'Doom"] =					"BlackrockSpireLower";
+	["Tazz'Alaor"] =				"BlackrockSpireLower";
+	["Skitterweb Tunnels"] =		"BlackrockSpireLower";
+	["The Storehouse"] =			"BlackrockSpireLower";
+	["Chamber of Battle"] =			"BlackrockSpireLower";
+	["Dragonspire Hall"] =			"BlackrockSpireUpper";
+	["Hall of Binding"] =			"BlackrockSpireUpper";
+	["The Rookery"] =				"BlackrockSpireUpper";
+	["Hall of Blackhand"] =			"BlackrockSpireUpper";
+	["Blackrock Stadium"] =			"BlackrockSpireUpper";
+	["The Furnace"] =				"BlackrockSpireUpper";
+	["Hordemar City"] =				"BlackrockSpireUpper";
+	["Spire Throne"] =				"BlackrockSpireUpper";
+	["Chamber of Atonement"] =		"SMGraveyard";
+	["Forlorn Cloister"] =			"SMGraveyard";
+	["Honor's Tomb"] =				"SMGraveyard";
+	["Huntsman's Cloister"] =		"SMLibrary";
+	["Gallery of Treasures"] =		"SMLibrary";
+	["Athenaeum"] =					"SMLibrary";
+	["Training Grounds"] =			"SMArmory";
+	["Footman's Armory"] =			"SMArmory";
+	["Crusader's Armory"] =			"SMArmory";
+	["Hall of Champions"] =			"SMArmory";
+	["Chapel Gardens"] =			"SMCathedral";
+	["Crusader's Chapel"] =			"SMCathedral";
+};
+
+--Entrance maps to auto-select based on SubZone data.
+Atlas_EntSubZoneData = {
+	["The Grand Vestibule"] =		"SMEnt";
+};
+
+--Entrance maps to auto-select to from outdoor zones.
+Atlas_EntZoneSub = {
+	["Terokkar Forest"] =			"AuchindounEnt";
+	["Ashenvale"] =					"BlackfathomDeepsEnt";
+	["Searing Gorge"] =				"BlackrockSpireEnt";
+	["Burning Steppes"] =			"BlackrockSpireEnt";
+	["Zangarmarsh"] =				"CoilfangReservoirEnt";
+	["Dun Morogh"] =				"GnomereganEnt";
+	["Desolace"] =					"MaraudonEnt";
+	["Westfall"] =					"TheDeadminesEnt";
+	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
+	["Badlands"] =					"UldamanEnt";
+	["The Barrens"] =				"WailingCavernsEnt";
+	["Feralas"] =					"DireMaulEnt";
+	["Tanaris"] =					"CoTEnt";
+	["Deadwind Pass"] =				"KarazhanEnt";
+	["Tirisfal Glades"]	=			"SMEnt";
 };
 
 function Atlas_FreshOptions()
@@ -690,33 +825,129 @@ end
 --Modifies the value of GetRealZoneText to account for some naming conventions
 --Always use this function instead of GetRealZoneText within Atlas
 function Atlas_GetFixedZoneText()
-   local currentZone = GetRealZoneText();
-   if (AtlasZoneSubstitutions[currentZone]) then
-      return AtlasZoneSubstitutions[currentZone];
-   end
-   return currentZone;
+	local currentZone = GetRealZoneText();
+	if (AtlasZoneSubstitutions[currentZone]) then
+		return AtlasZoneSubstitutions[currentZone];
+	end
+	return currentZone;
 end 
 
 --Checks the player's current location against all Atlas maps
 --If a match is found display that map right away
 --update for Outland zones contributed by Drahcir
+--3/23/08 now takes SubZones into account as well
 function Atlas_AutoSelect()
-   local currentZone = Atlas_GetFixedZoneText();
-
-   for ka,va in pairs(ATLAS_DROPDOWNS) do
-      for kb,vb in pairs(va) do         
-         -- Compare the currentZone to the new substr of ZoneName
-         if ( currentZone == strsub(AtlasMaps[vb].ZoneName, strlen(AtlasMaps[vb].ZoneName) - strlen(currentZone) + 1) ) then
-            AtlasOptions.AtlasType = ka;
-            AtlasOptions.AtlasZone = kb;
-            
-            Atlas_Refresh();            
-            return;
-         end
-      end
-   end
+	local currentZone = Atlas_GetFixedZoneText();
+	local currentSubZone = GetSubZoneText();
+	debug("Using auto-select to open the best map.");
+	
+	local EntPluginIsLoaded = false;
+	for k,v in pairs(ATLAS_PLUGINS) do
+		if ( v == "Atlas_Entrances" ) then
+			EntPluginIsLoaded = true;
+			debug("The entrance map module is loaded.");
+			break;
+		end
+	end
+	if ( not EntPluginIsLoaded ) then
+		debug("The entrance map module isn't loaded.");
+	end
+	
+	if ( Atlas_AssocDefaults[currentZone] ) then
+		debug("You're in a zone where SubZone data is relevant.");
+		if ( Atlas_SubZoneData[currentSubZone] ) then
+			debug("There's data for your current SubZone.");
+			for ka,va in pairs(ATLAS_DROPDOWNS) do
+				for kb,vb in pairs(va) do         
+					if ( Atlas_SubZoneData[currentSubZone] == vb ) then
+						AtlasOptions.AtlasType = ka;
+						AtlasOptions.AtlasZone = kb;
+						Atlas_Refresh();
+						debug("Map changed directly based on SubZone data.");
+						return;
+					end
+				end
+			end
+		elseif ( EntPluginIsLoaded and Atlas_EntSubZoneData[currentSubZone] ) then
+			debug("There's entrance map data for your current SubZone.");
+			for ka,va in pairs(ATLAS_DROPDOWNS) do
+				for kb,vb in pairs(va) do         
+					if ( Atlas_EntSubZoneData[currentSubZone] == vb ) then
+						AtlasOptions.AtlasType = ka;
+						AtlasOptions.AtlasZone = kb;
+						Atlas_Refresh();
+						debug("Map changed directly based on entrance map SubZone data.");
+						return;
+					end
+				end
+			end
+		else
+			debug("No applicable SubZone data exists.");
+			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+				debug("You're in the same instance as the former map. Doing nothing.");
+				return;
+			else
+				for ka,va in pairs(ATLAS_DROPDOWNS) do
+					for kb,vb in pairs(va) do         
+						if ( Atlas_AssocDefaults[currentZone] == vb ) then
+							AtlasOptions.AtlasType = ka;
+							AtlasOptions.AtlasZone = kb;
+							Atlas_Refresh();
+							debug("You just arrived here. Using the default map.");
+							return;
+						end
+					end
+				end
+			end
+		end
+	else
+		debug("SubZone data isn't relevant here.");
+		if ( EntPluginIsLoaded ) then 
+			if ( Atlas_EntZoneSub[currentZone] ) then
+				debug("This outdoor zone is associated with an entrance map.");
+				for ka,va in pairs(ATLAS_DROPDOWNS) do
+					for kb,vb in pairs(va) do         
+						if ( Atlas_EntZoneSub[currentZone] == vb ) then
+							AtlasOptions.AtlasType = ka;
+							AtlasOptions.AtlasZone = kb;
+							Atlas_Refresh();
+							debug("Map changed to the appropriate entrance map.");
+							return;
+						end
+					end
+				end
+			elseif ( Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+				for ka,va in pairs(Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
+					if ( currentZone == AtlasMaps[va].ZoneName ) then
+						debug("Instance/entrance pair found. Doing nothing.");
+						return;
+					end
+				end
+			elseif ( Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+				for ka,va in pairs(Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
+					if ( currentZone == AtlasMaps[va].ZoneName ) then
+						debug("Instance/entrance pair found. Doing nothing.");
+						return;
+					end
+				end
+			end
+		end
+		debug("Searching through all maps for a ZoneName match.");
+		for ka,va in pairs(ATLAS_DROPDOWNS) do
+			for kb,vb in pairs(va) do         
+				-- Compare the currentZone to the new substr of ZoneName
+				if ( currentZone == strsub(AtlasMaps[vb].ZoneName, strlen(AtlasMaps[vb].ZoneName) - strlen(currentZone) + 1) ) then
+					AtlasOptions.AtlasType = ka;
+					AtlasOptions.AtlasZone = kb;
+					Atlas_Refresh();
+					debug("Found a match. Map has been changed.");
+					return;
+				end
+			end
+		end
+	end
+	debug("Nothing changed because no match was found.");
 end
-
 
 --Called whenever the Atlas frame is displayed
 function Atlas_OnShow()

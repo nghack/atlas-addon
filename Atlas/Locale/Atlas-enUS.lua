@@ -121,6 +121,8 @@ AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "The Sunken Temple";
 	["Ahn'Qiraj"]					= "The Temple of Ahn'Qiraj";
 	["Ruins of Ahn'Qiraj"]			= "The Ruins of Ahn'Qiraj";
+	["Karazhan"]					= "Karazhan [A] (Start)";
+	["Black Temple"]				= "Black Temple [A] (Start)";
 }; 
 
 local BLUE = "|cff6666ff";

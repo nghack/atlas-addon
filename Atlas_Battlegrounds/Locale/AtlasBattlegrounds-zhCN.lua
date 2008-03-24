@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 1/27/2008
+-- Last Update : 3/24/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -25,9 +25,8 @@ if ( GetLocale() == "zhCN" ) then
 			ZoneName = "奥特兰克山谷 (北部, 联盟)";
 			Acronym = "AV";
 			Location = "奥特兰克山脉";
-			ORNG.."阵营：霜狼氏族 (部落)";
 			ORNG.."阵营：雷矛卫队 (联盟)";
-			BLUE.."A) 入口";
+			BLUE.."A) 联盟入口";
 			BLUE.."B) 丹巴达尔";
 			BLUE..INDENT.."范达尔·雷矛";
 			BLUE..INDENT.."丹巴达尔北部统帅";
@@ -91,27 +90,43 @@ if ( GetLocale() == "zhCN" ) then
 			ZoneName = "奥特兰克山谷 (南部, 部落)";
 			Acronym = "AV";
 			Location = "奥特兰克山脉";
+
 			ORNG.."阵营：霜狼氏族 (部落)";
-			ORNG.."阵营：雷矛卫队 (联盟)";
-			BLUE.."A) 入口";
+			BLUE.."A) 部落入口";
 			BLUE.."B) 霜狼要塞";
-			_RED.."1) 霜狼急救站";
-			_RED.."2) 霜狼墓地";
-			_RED.."3) 冰血墓地";
-			ORNG.."4) 西部霜狼哨塔";
-			ORNG.."5) 东部霜狼哨塔";
-			GREY..INDENT.."空军指挥官艾克曼 (联盟)";
-			ORNG.."6) 哨塔高地";
+			BLUE..INDENT.."德雷克塔尔";
+			BLUE..INDENT.."杜洛斯";
+			BLUE..INDENT.."德拉卡";
+			BLUE..INDENT.."霜狼西部将领";
+			BLUE..INDENT.."东部霜狼将领";
+			BLUE..INDENT.."哨塔高地将领";
+			BLUE..INDENT.."冰血将领";
+			GREY.."1) 冰雪之王洛克霍拉 (召唤区域)";
+			ORNG.."2) 冰血要塞";
+			GREY..INDENT.."加尔范上尉";
+			ORNG.."3) 冰血哨塔";
+			_RED.."4) 东部霜狼哨塔";
+			GREY.."空军指挥官艾克曼 (联盟)";
+			ORNG.."5) 哨塔高地";
 			GREY..INDENT.."空军指挥官斯里多尔 (联盟)";
-			GREY..INDENT.."指挥官刘易斯·菲利普";
-			ORNG.."7) 冰血哨塔";
-			ORNG.."8) 冰血要塞 (加尔范)";
-			GREY.."9) 蛮爪洞穴";
-			GREY.."10) 霜狼骑兵指挥官";
-			GREY.."11) 空军指挥官维波里 (联盟)";
-			GREY.."12) 冷齿矿洞";
-			GREY.."13) 蒸汽锯 (联盟)";
-			GREY.."14) 冰雪之王洛克霍拉 (召唤区域)";
+			GREY.."6) 冷齿矿洞";
+			GREY..INDENT.."工头斯尼维尔 (中立)";
+			GREY..INDENT.."玛莎";
+			GREY..INDENT.."埃其 (联盟)";
+			_RED.."7) 西部霜狼哨塔";
+			GREY.."8) 空军指挥官维波里 (联盟)";
+			GREY..INDENT.."乔泰克";
+			GREY..INDENT.."铁匠雷格萨";
+			GREY..INDENT.."指挥官瑟鲁加";
+			GREY..INDENT.."亚斯拉·血矛";
+			GREY.."9) 霜狼骑兵指挥官";
+			GREY.."10) 霜狼军需官";
+			GREY.."11) 空军指挥官古斯 (被营救)";
+			GREY..INDENT.."空军指挥官杰斯托 (被营救)";
+			GREY..INDENT.."空军指挥官穆维里克 (被营救)";
+			_RED.."12) 霜狼急救站";
+			GREY.."13) 蛮爪洞穴";
+			GREY..INDENT.."霜狼军旗";
 			"";
 			_RED.."红色:"..BLUE.." 墓地, 占领区域";
 			ORNG.."橙色:"..BLUE.." 碉堡, 哨塔, 摧毁区域";

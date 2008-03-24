@@ -108,16 +108,12 @@ ATLAS_INSTANCE_BUTTON = "Mazmorra";
 ATLAS_ENTRANCE_BUTTON = "Entrada";
 ATLAS_SEARCH_UNAVAIL = "Buscar no disponible";
 
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
-
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "El Templo Hundido";
 	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
 	["Ruins of Ahn'Qiraj"]	= "Ruinas de Ahn'Qiraj";
+	["Karazhan"] = "Karazhan [A] (Comienzo)";
+	["Black Temple"] = "Templo oscuro [A] (Comienzo)";
 }; 
 
 local BLUE = "|cff6666ff";

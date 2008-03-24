@@ -48,14 +48,6 @@ function AtlasOptions_RightClickToggle()
 	AtlasOptions_Init();
 end
 
-function AtlasOptions_MapNameToggle()
-	if(AtlasOptions.AtlasMapName) then
-		AtlasOptions.AtlasMapName = false;
-	else
-		AtlasOptions.AtlasMapName = true;
-	end
-end
-
 function AtlasOptions_AcronymsToggle()
 	if(AtlasOptions.AtlasAcronyms) then
 		AtlasOptions.AtlasAcronyms = false;

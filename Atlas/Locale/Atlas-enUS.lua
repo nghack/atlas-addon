@@ -111,12 +111,6 @@ ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
 ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
 
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
-
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "The Sunken Temple";
 	["Ahn'Qiraj"]					= "The Temple of Ahn'Qiraj";

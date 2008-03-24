@@ -55,7 +55,6 @@ local DefaultAtlasOptions = {
 	["AtlasZone"] = 1;
 	["AtlasAlpha"] = 1.0;
 	["AtlasLocked"] = false;
-	["AtlasMapName"] = true;
 	["AtlasAutoSelect"] = false;
 	["AtlasButtonPosition"] = 356;
 	["AtlasButtonRadius"] = 78;
@@ -693,6 +692,8 @@ function Atlas_Refresh()
 	else
 		AtlasSwitchButton:Hide();
 	end
+	
+	TitanPanelButton_UpdateButton("Atlas");
 	
 end
 

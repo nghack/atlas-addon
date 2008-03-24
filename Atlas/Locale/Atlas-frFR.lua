@@ -27,7 +27,7 @@
 -- Version WoW 2.3.3 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 10/02/2008
+-- le 24/03/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -74,7 +74,7 @@ ATLAS_OPTIONS_SCALE = "Echelle";
 ATLAS_OPTIONS_BUTRAD = "Rayon du bouton";
 ATLAS_OPTIONS_CLAMPED = "Fixer la fenêtre à l'écran";
 ATLAS_OPTIONS_HELP = "Clic-gauche pour déplacer cette fenêtre.";
-ATLAS_OPTIONS_CTRL = "Maintenir enfoncé la touche Control pour les infobulles"
+ATLAS_OPTIONS_CTRL = "Maintenir enfoncé la touche Ctrl pour les infobulles"
 ATLAS_OPTIONS_COORDS = "Montre les coordonnées sur la carte du monde"
 
 
@@ -108,16 +108,12 @@ ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrée";
 ATLAS_SEARCH_UNAVAIL = "Recherche Indisponible";
 
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
-
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"]	= "Le temple englouti";
-	["Ahn'Qiraj"]		= "Le Temple d'Ahn'Qiraj";
-	["Ruines d'Ahn'Qiraj"]	= "Les Ruines d'Ahn'Qiraj";
+	["Ahn'Qiraj"]				= "Le Temple d'Ahn'Qiraj";
+	["Ruines d'Ahn'Qiraj"]		= "Les Ruines d'Ahn'Qiraj";
+	["Karazhan"]				= "Karazhan [A] (Début)";
+	["Temple Noir"]				= "Temple Noir [A] (Début)";	
 };
 
 local BLUE = "|cff6666ff";

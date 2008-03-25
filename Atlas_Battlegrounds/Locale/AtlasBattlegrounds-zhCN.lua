@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/25/2008
+-- Last Update : 3/26/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -118,7 +118,8 @@ if ( GetLocale() == "zhCN" ) then
 			GREY..INDENT.."铁匠雷格萨";
 			GREY..INDENT.."指挥官瑟鲁加";
 			GREY..INDENT.."亚斯拉·血矛";
-			GREY.."9) 霜狼骑兵指挥官";
+			GREY.."9) 霜狼兽栏管理员 <兽栏管理员>";
+			GREY..INDENT.."霜狼骑兵指挥官";
 			GREY.."10) 霜狼军需官";
 			ORNG.."11) 西部霜狼哨塔";
 			ORNG.."12) 东部霜狼哨塔";

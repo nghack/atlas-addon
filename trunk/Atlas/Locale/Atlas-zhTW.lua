@@ -27,12 +27,12 @@
 -- Atlas Data (English)
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
--- Last Update: 2/09/2008
+-- Last Update: 3/25/2008
 
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Feb. 20, 2008
+-- Last Update: Mar. 25, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 
@@ -114,16 +114,12 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜尋功能停用";
 
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
-
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "沈沒的神廟";
 	["Ahn'Qiraj"]					= "安其拉神廟";
 	["Ruins of Ahn'Qiraj"]			= "安其拉廢墟";
+	["Karazhan"]					= "卡拉贊 - 1.開始";
+	["Black Temple"]				= "黑暗神廟 - 1.開始";
 }; 
 
 local BLUE = "|cff6666ff";
@@ -137,7 +133,7 @@ local INDENT = "   ";
 AtlasMaps = {
 		RagefireChasm = {
 			ZoneName = "怒焰裂谷";
-			Acronym = "RFC";
+			Acronym = "RFC/怒焰";
 			Location = "奧格瑪";
 			BLUE.."A) 入口";
 			GREY.."1) 瑪爾·恐怖圖騰";
@@ -149,7 +145,7 @@ AtlasMaps = {
 		};
 		WailingCaverns = {
 			ZoneName = "哀嚎洞穴";
-			Acronym = "WC";
+			Acronym = "WC/哀嚎";
 			Location = "貧瘠之地";
 			BLUE.."A) 入口";
 			GREY.."1) 納拉雷克斯的信徒";
@@ -166,7 +162,7 @@ AtlasMaps = {
 		};
 		BlackfathomDeeps = {
 			ZoneName = "黑暗深淵";
-			Acronym = "BFD";
+			Acronym = "BFD/黑淵";
 			Location = "梣谷";
 			BLUE.."A) 入口";
 			GREY.."1) 加摩拉";
@@ -218,7 +214,7 @@ AtlasMaps = {
 		};
 		ZulFarrak = {
 			ZoneName = "祖爾法拉克";
-			Acronym = "ZF";
+			Acronym = "ZF/祖法";
 			Location = "塔納利斯";
 			ORNG.."鑰匙: 祖爾法拉克之槌 (加茲瑞拉)";
 			BLUE.."A) 入口";
@@ -245,7 +241,7 @@ AtlasMaps = {
 		};
 		Maraudon = {
 			ZoneName = "瑪拉頓";
-			Acronym = "Mara";
+			Acronym = "Mara/瑪拉";
 			Location = "淒涼之地";
 			ORNG.."鑰匙: 塞雷布拉斯節杖 (傳送門)";
 			BLUE.."A) 入口 (橙色)";
@@ -266,7 +262,7 @@ AtlasMaps = {
 		};
 		DireMaulEast = {
 			ZoneName = "厄運之槌 (東)";
-			Acronym = "DM";
+			Acronym = "DM/東厄";
 			Location = "菲拉斯";
 			ORNG.."鑰匙: 祈願火盆 (副本套裝2)";
 			BLUE.."A) 入口";
@@ -285,7 +281,7 @@ AtlasMaps = {
 		};
 		DireMaulNorth = {
 			ZoneName = "厄運之槌 (北)";
-			Acronym = "DM";
+			Acronym = "DM/北厄";
 			Location = "菲拉斯";
 			ORNG.."鑰匙: 月牙鑰匙";
 			BLUE.."A) 入口";
@@ -301,7 +297,7 @@ AtlasMaps = {
 		};
 		DireMaulWest = {
 			ZoneName = "厄運之槌 (西)";
-			Acronym = "DM";
+			Acronym = "DM/西厄";
 			Location = "菲拉斯";
 			ORNG.."鑰匙: 月牙鑰匙";
 			ORNG.."鑰匙: 耶維爾的瓶子 (赫爾努拉斯)";
@@ -390,7 +386,7 @@ AtlasMaps = {
 		CoTBlackMorass = {
 			ZoneName = "時光之穴: 黑色沼澤";
 			Location = "時光之穴, 塔納利斯";
-			Acronym = "CoT2";
+			Acronym = "CoT2/黑沼";
 			PURP.."事件: 開啟黑暗之門";
 			ORNG.."需完成傳送門/鑰匙前置任務";
 			ORNG.."聲望: 時光守衛者";
@@ -496,7 +492,7 @@ AtlasMaps = {
 		};
 		BlackrockDepths = {
 			ZoneName = "黑石深淵";
-			Acronym = "BRD";
+			Acronym = "BRD/黑石淵";
 			Location = "黑石山";
 			ORNG.."鑰匙: 暗爐鑰匙";
 			ORNG.."鑰匙: 監獄牢房鑰匙 (衝破牢籠)";
@@ -564,7 +560,7 @@ AtlasMaps = {
 		};
 		BlackrockSpireLower = {
 			ZoneName = "黑石塔 (下層)";
-			Acronym = "LBRS";
+			Acronym = "LBRS/黑下";
 			Location = "黑石山";
 			ORNG.."鑰匙: 祈願火盆 (副本套裝2)";
 			BLUE.."A) 入口";
@@ -601,7 +597,7 @@ AtlasMaps = {
 		};
 		BlackrockSpireUpper = {
 			ZoneName = "黑石塔 (上層)";
-			Acronym = "UBRS";
+			Acronym = "UBRS/黑上";
 			Location = "黑石山";
 			ORNG.."鑰匙: 晉升印章";
 			ORNG.."鑰匙: 祈願火盆 (副本套裝2)";
@@ -627,7 +623,7 @@ AtlasMaps = {
 		};
 		BlackwingLair = {
 			ZoneName = "黑翼之巢";
-			Acronym = "BWL";
+			Acronym = "BWL/黑翼";
 			Location = "黑石塔";
 			ORNG.."需完成傳送門/鑰匙前置任務";
 			BLUE.."A) 入口";
@@ -646,7 +642,7 @@ AtlasMaps = {
 		};
 		Gnomeregan = {
 			ZoneName = "諾姆瑞根";
-			Acronym = "Gnome";
+			Acronym = "Gnome/諾姆";
 			Location = "丹莫洛";
 			ORNG.."鑰匙: 車間鑰匙 (後門)";
 			BLUE.."A) 入口 (正門)";
@@ -730,7 +726,7 @@ AtlasMaps = {
 		};
 		Scholomance = {
 			ZoneName = "通靈學院";
-			Acronym = "Scholo";
+			Acronym = "Scholo/通靈";
 			Location = "西瘟疫之地";
 			ORNG.."聲望: 銀色黎明";
 			ORNG.."鑰匙: 骷髏鑰匙";
@@ -767,7 +763,7 @@ AtlasMaps = {
 		};
 		ShadowfangKeep = {
 			ZoneName = "影牙城堡";
-			Acronym = "SFK";
+			Acronym = "SFK/影牙";
 			Location = "銀松森林";
 			BLUE.."A) 入口";
 			BLUE.."B) 通道";
@@ -793,7 +789,7 @@ AtlasMaps = {
 		};
 		Stratholme = {
 			ZoneName = "斯坦索姆";
-			Acronym = "Strat";
+			Acronym = "Strat/斯坦";
 			Location = "東瘟疫之地";
 			ORNG.."聲望: 銀色黎明";
 			ORNG.."鑰匙: 血色十字軍鑰匙 (血色區)";
@@ -841,7 +837,7 @@ AtlasMaps = {
 		};
 		TheDeadmines = {
 			ZoneName = "死亡礦坑";
-			Acronym = "VC";
+			Acronym = "VC/死礦";
 			Location = "西部荒野";
 			BLUE.."A) 入口";
 			BLUE.."B) 出口";
@@ -925,7 +921,7 @@ AtlasMaps = {
 		};
 		ZulGurub = {
 			ZoneName = "祖爾格拉布";
-			Acronym = "ZG";
+			Acronym = "ZG/祖爾";
 			Location = "荊棘谷";
 			ORNG.."聲望: 贊達拉部族";
 			ORNG.."鑰匙: 臭泥魚誘餌 (加茲蘭卡)";
@@ -986,7 +982,7 @@ AtlasMaps = {
 		};
 		KarazhanStart = {
 			ZoneName = "卡拉贊 - 1.開始";
-			Acronym = "Kara";
+			Acronym = "Kara/卡拉";
 			Location = "逆風小徑";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
@@ -1031,7 +1027,7 @@ AtlasMaps = {
 		};
 		KarazhanEnd = {
 			ZoneName = "卡拉贊 - 2.結束";
-			Acronym = "Kara";
+			Acronym = "Kara/卡拉";
 			Location = "逆風小徑";
 			ORNG.."聲望: 紫羅蘭之眼";
 			ORNG.."鑰匙: 主人鑰匙";
@@ -1059,7 +1055,7 @@ AtlasMaps = {
 		HCBloodFurnace = {
 			ZoneName = "地獄火堡壘: 血熔爐";
 			Location = "地獄火堡壘, 地獄火半島";
-			Acronym = "BF";
+			Acronym = "BF/血熔爐";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			ORNG.."鑰匙: 火鑄之鑰 (英雄模式)";
@@ -1071,7 +1067,7 @@ AtlasMaps = {
 		HCTheShatteredHalls = {
 			ZoneName = "地獄火堡壘: 破碎大廳";
 			Location = "地獄火堡壘, 地獄火半島";
-			Acronym = "SH";
+			Acronym = "SH/破碎";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			ORNG.."鑰匙: 破碎大廳鑰匙";
@@ -1094,7 +1090,7 @@ AtlasMaps = {
 		HCHellfireRamparts = {
 			ZoneName = "地獄火堡壘: 地獄火壁壘";
 			Location = "地獄火堡壘, 地獄火半島";
-			Acronym = "Ramp";
+			Acronym = "Ramp/壁壘";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			ORNG.."鑰匙: 火鑄之鑰 (英雄模式)";
@@ -1108,7 +1104,7 @@ AtlasMaps = {
 		HCMagtheridonsLair = {
 			ZoneName = "地獄火堡壘: 瑪瑟里頓的巢穴";
 			Location = "地獄火堡壘, 地獄火半島";
-			Acronym = "Mag";
+			Acronym = "Mag/瑪瑟";
 			ORNG.."聲望: 索爾瑪 (部落)";
 			ORNG.."聲望: 榮譽堡 (聯盟)";
 			BLUE.."A) 入口";
@@ -1131,7 +1127,7 @@ AtlasMaps = {
 		CFRTheUnderbog = {
 			ZoneName = "盤牙洞穴: 毒牙沼澤";
 			Location = "盤牙洞穴, 贊格沼澤";
-			Acronym = "毒牙沼澤";
+			Acronym = "毒牙";
 			ORNG.."聲望: 塞納里奧遠征隊";
 			ORNG.."鑰匙: 倉庫之鑰 (英雄模式)";
 			BLUE.."A) 入口";
@@ -1146,7 +1142,7 @@ AtlasMaps = {
 		CFRTheSteamvault = {
 			ZoneName = "盤牙洞穴: 蒸汽洞窟";
 			Location = "盤牙洞穴, 贊格沼澤";
-			Acronym = "SV";
+			Acronym = "SV/蒸汽";
 			ORNG.."聲望: 塞納里奧遠征隊";
 			ORNG.."鑰匙: 倉庫之鑰 (英雄模式)";
 			BLUE.."A) 入口";
@@ -1161,7 +1157,7 @@ AtlasMaps = {
 		CFRSerpentshrineCavern = {
 			ZoneName = "盤牙洞穴: 毒蛇神殿洞穴";
 			Location = "盤牙洞穴, 贊格沼澤";
-			Acronym = "SC";
+			Acronym = "SC/毒蛇";
 			ORNG.."聲望: 塞納里奧遠征隊";
 			BLUE.."A) 入口";
 			GREY.."1) 不穩定者海卓司";
@@ -1175,7 +1171,7 @@ AtlasMaps = {
 		AuchManaTombs = {
 			ZoneName = "奧齊頓: 法力墓地";
 			Location = "奧齊頓, 白骨荒野";
-			Acronym = "MT";
+			Acronym = "MT/法力";
 			ORNG.."聲望: 聯合團";
 			ORNG.."鑰匙: 奧奇奈鑰匙 (英雄模式)";
 			ORNG.."鑰匙: 哈拉瑪德之眼 (崇拜, 約兒)";
@@ -1204,7 +1200,7 @@ AtlasMaps = {
 		AuchSethekkHalls = {
 			ZoneName = "奧齊頓: 塞司克大廳";
 			Location = "奧齊頓, 白骨荒野";
-			Acronym = "Sethekk";
+			Acronym = "Sethekk/塞司克";
 			ORNG.."聲望: 陰鬱城";
 			ORNG.."鑰匙: 奧奇奈鑰匙 (英雄模式)";
 			ORNG.."鑰匙: 注滿精華的月亮石 (安祖)";
@@ -1218,7 +1214,7 @@ AtlasMaps = {
 		AuchShadowLabyrinth = {
 			ZoneName = "奧齊頓: 暗影迷宮";
 			Location = "奧齊頓, 白骨荒野";
-			Acronym = "SL";
+			Acronym = "SL/迷宮";
 			ORNG.."聲望: 陰鬱城";
 			ORNG.."鑰匙: 暗影迷宮鑰匙";
 			ORNG.."鑰匙: 奧奇奈鑰匙 (英雄模式)";
@@ -1235,7 +1231,7 @@ AtlasMaps = {
 		TempestKeepBotanica = {
 			ZoneName = "風暴要塞: 波塔尼卡";
 			Location = "風暴要塞, 虛空風暴";
-			Acronym = "Bota";
+			Acronym = "Bota/波塔";
 			ORNG.."聲望: 薩塔";
 			ORNG.."鑰匙: 扭曲鍛造鑰匙 (英雄模式)";
 			BLUE.."A) 入口";
@@ -1248,7 +1244,7 @@ AtlasMaps = {
 		TempestKeepArcatraz = {
 			ZoneName = "風暴要塞: 亞克崔茲";
 			Location = "風暴要塞, 虛空風暴";
-			Acronym = "Arca";
+			Acronym = "Arca亞克";
 			ORNG.."聲望: 薩塔";
 			ORNG.."鑰匙: 亞克崔茲鑰匙";
 			ORNG.."鑰匙: 扭曲鍛造鑰匙 (英雄模式)";
@@ -1266,7 +1262,7 @@ AtlasMaps = {
 		TempestKeepMechanar = {
 			ZoneName = "風暴要塞: 麥克那爾";
 			Location = "風暴要塞, 虛空風暴";
-			Acronym = "Mech";
+			Acronym = "Mech/麥克";
 			ORNG.."聲望: 薩塔";
 			ORNG.."鑰匙: 扭曲鍛造鑰匙 (英雄模式)";
 			BLUE.."A) 入口";
@@ -1281,7 +1277,7 @@ AtlasMaps = {
 		TempestKeepTheEye = {
 			ZoneName = "風暴要塞: 風暴要塞";
 			Location = "風暴要塞, 虛空風暴";
-			Acronym = "Eye";
+			Acronym = "Eye/風暴";
 			ORNG.."聲望: 薩塔";
 			ORNG.."鑰匙: 風暴之鑰";
 			BLUE.."A) 入口";
@@ -1393,35 +1389,35 @@ AtlasMaps = {
 			GREN..INDENT.."曼努斯";
 		};
 		MagistersTerrace = {
-			ZoneName = "Magisters' Terrace";
-			Location = "Isle of Quel'Danas";
+			ZoneName = "博學者殿堂";
+			Location = "奎爾達納斯之島";
 			Acronym = "MT";
 			BLUE.."A) 入口";
-			GREY.."1) Selin Fireheart";
-			GREY..INDENT.."Fel Crystals";
-			GREY.."2) Tyrith";
-			GREY.."3) Vexallus";
-			GREY.."4) Scrying Orb";
-			GREY..INDENT.."Kalecgos";
-			GREY.."5) Priestess Delrissa (Lower)";
-			GREY.."6) Kael'thas Sunstrider";
+			GREY.."1) 斯琳·炎心";
+			GREY..INDENT.."惡魔水晶";
+			GREY.."2) 提里斯";
+			GREY.."3) 維克索魯斯";
+			GREY.."4) 索蘭尼亞的占卜寶珠";
+			GREY..INDENT.."卡雷苟斯";
+			GREY.."5) 女牧師戴利莎 (下層)";
+			GREY.."6) 凱爾薩斯·逐日者";
 		};
 		SunwellPlateau = {
-			ZoneName = "Sunwell Plateau";
-			Location = "Isle of Quel'Danas";
+			ZoneName = "太陽之井高地";
+			Location = "奎爾達納斯之島";
 			Acronym = "SP";
 			BLUE.."A) 入口";
-			GREY.."1) Kalecgos";
-			GREY..INDENT.."Sathrovarr the Corruptor";
-			GREY.."2) Madrigosa";
-			GREY..INDENT.."Brutallus";
-			GREY..INDENT.."Felmyst";
-			GREY.."3) Eredar Twins (Lower)";
-			GREY..INDENT.."Grand Warlock Alythess (Lower)";
-			GREY..INDENT.."Lady Sacrolash (Lower)";
-			GREY..INDENT.."M'uru (Upper)";
-			GREY..INDENT.."Entropius (Upper)";
-			GREY.."4) Kil'jaden";
+			GREY.."1) 卡雷苟斯";
+			GREY..INDENT.."『墮落者』塞斯諾瓦";
+			GREY.."2) 瑪德里茍沙";
+			GREY..INDENT.."布魯托魯斯";
+			GREY..INDENT.."魔霧";
+			GREY.."3) 埃雷達爾雙子 (下層)";
+			GREY..INDENT.."大術士艾黎瑟絲 (下層)";
+			GREY..INDENT.."莎珂蕾希女士 (下層)";
+			GREY..INDENT.."莫魯 (上層)";
+			GREY..INDENT.."安卓普斯 (上層)";
+			GREY.."4) 基爾加丹";
 		};
 	};
 end

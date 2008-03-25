@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Feb. 11, 2008
+-- Last Update: Mar. 25, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";
@@ -32,7 +32,7 @@ if ( GetLocale() ==	"zhTW" ) then
 	local _RED = "|cffcc6666";
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	local INDENT = "  ";
 
 	local myCategory = "戰場地圖";
 
@@ -41,13 +41,12 @@ if ( GetLocale() ==	"zhTW" ) then
 			ZoneName = "奧特蘭克山谷 (北)";
 			Acronym = "AV";
 			Location = "奧特蘭克山脈";
-			ORNG.."聲望: 霜狼氏族 (部落)";
-			ORNG.."聲望: 雷矛衛隊 (聯盟)";
+			ORNG.."聲望: 雷矛衛隊";
 			BLUE.."A) 聯盟入口";
 			BLUE.."B) 丹巴達爾";
 			BLUE..INDENT.."范達爾·雷矛";
 			BLUE..INDENT.."丹巴達爾北部元帥";
-			BLUE..INDENT.."丹巴達爾南部元帥 ";
+			BLUE..INDENT.."丹巴達爾南部元帥";
 			BLUE..INDENT.."冰翼元帥";
 			BLUE..INDENT.."石爐元帥";
 			BLUE..INDENT.."勘察員塔雷·石鎬";
@@ -107,27 +106,44 @@ if ( GetLocale() ==	"zhTW" ) then
 			ZoneName = "奧特蘭克山谷 (南)";
 			Acronym = "AV";
 			Location = "希爾斯布萊德丘陵";
-			ORNG.."聲望: 霜狼氏族 (部落)";
-			ORNG.."聲望: 雷矛衛隊 (聯盟)";
+			ORNG.."聲望: 霜狼氏族";
 			BLUE.."A) 部落入口";
 			BLUE.."B) 霜狼要塞";
-			_RED.."1) 霜狼急救站";
-			_RED.."2) 霜狼墓地";
-			_RED.."3) 冰血墓地";
-			ORNG.."4) 西部霜狼哨塔";
-			ORNG.."5) 東部霜狼哨塔";
-			GREY..INDENT.."空軍指揮官 艾克曼 (聯盟)";
-			ORNG.."6) 哨塔高地";
-			GREY..INDENT.."空軍指揮官 斯里多爾 (聯盟)";
-			GREY..INDENT.."指揮官路易斯·菲力浦";
-			ORNG.."7) 冰血哨塔";
-			ORNG.."8) 冰血要塞 (加爾范上尉)";
-			GREY.."9) 蠻爪洞穴";
-			GREY.."10) 霜狼騎兵指揮官";
-			GREY.."11) 空軍指揮官 維波里 (聯盟)";
-			GREY.."12) 冷齒礦坑";
-			GREY.."13) 蒸氣鋸 (聯盟)";
-			GREY.."14) 冰雪之王 洛克霍拉 (召喚區)";
+			BLUE..INDENT.."德雷克塔爾";
+			BLUE..INDENT.."杜洛斯";
+			BLUE..INDENT.."崔坎";
+			BLUE..INDENT.."西部霜狼將領";
+			BLUE..INDENT.."東部霜狼將領";
+			BLUE..INDENT.."哨塔高地將領";
+			BLUE..INDENT.."冰血將領";
+			GREY.."1) 『冰雪之王』洛克霍拉 (召喚區)";
+			ORNG.."2) 冰血要塞";
+			GREY..INDENT.."加爾范上尉";
+			ORNG.."3) 冰血哨塔";
+			_RED.."4) 冰血墓地";
+			GREY.."空軍指揮官艾克曼 (聯盟)";
+			ORNG.."5) 哨塔高地";
+			GREY..INDENT.."空軍指揮官斯里多爾 (聯盟)";
+			GREY.."6) 冷齒礦坑";
+			GREY..INDENT.."監工斯尼維爾 (中立)";
+			GREY..INDENT.."瑪莎";
+			GREY..INDENT.."埃其 (聯盟)";
+			_RED.."7) 霜狼墓地";
+			GREY.."8) 空軍指揮官維波里 (聯盟)";
+			GREY..INDENT.."喬泰克";
+			GREY..INDENT.."鐵匠雷格薩";
+			GREY..INDENT.."原獵者瑟魯加";
+			GREY..INDENT.."亞斯拉·血矛";
+			GREY.."9) 霜狼騎兵指揮官";
+			GREY.."10) 霜狼軍需官";
+			ORNG.."11) 西部霜狼哨塔";
+			ORNG.."12) 東部霜狼哨塔";
+			GREY.."13) 空軍指揮官古斯 (營救)";
+			GREY..INDENT.."空軍指揮官傑斯托 (營救)";
+			GREY..INDENT.."空軍指揮官穆維里克 (營救)";
+			_RED.."14) 霜狼急救站";
+			GREY.."15) 蠻爪洞穴";
+			GREY..INDENT.."霜狼軍旗";
 			"";
 			_RED.."紅:"..BLUE.." 墓地, 可佔領的地區";
 			ORNG.."橙:"..BLUE.." 碉堡, 哨塔, 可摧毀的地區";

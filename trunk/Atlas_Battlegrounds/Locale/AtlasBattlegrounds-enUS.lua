@@ -121,7 +121,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			_RED.."4) Iceblood Graveyard";
 			GREY.."Wing Commander Ichman (Alliance)";
 			ORNG.."5) Tower Point";
-			GREY..INDENT.."Wing Commander Slidore (Allaince)";
+			GREY..INDENT.."Wing Commander Slidore (Alliance)";
 			GREY.."6) Coldtooth Mine";
 			GREY..INDENT.."Snivvle (Neutral)";
 			GREY..INDENT.."Masha Swiftcut";

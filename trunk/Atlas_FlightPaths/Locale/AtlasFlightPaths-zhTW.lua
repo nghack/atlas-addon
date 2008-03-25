@@ -23,7 +23,7 @@
 --]]
 
 -- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Feb. 11, 2008
+-- Last Update: Mar. 25, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
 	local BLUE = "|cff6666ff";

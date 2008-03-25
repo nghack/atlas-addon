@@ -133,7 +133,8 @@ if ( GetLocale() == "frFR" ) then
 			GREY..INDENT.."Forgeron Regzar";
 			GREY..INDENT.."Primaliste Thurloga";
 			GREY..INDENT.."Sergent Yazra Gronde-sang";
-			GREY.."9) Commandant Chevaucheur de loup Loup-de-givre";
+			GREY.."9) Maître des écuries Loup-de-givre <Maître des écuries>";
+			GREY..INDENT.."Commandant Chevaucheur de loup Loup-de-givre";
 			GREY.."10) Intendant Loup-de-givre";
 			ORNG.."11) Tour Loup-de-givre occidentale";
 			ORNG.."12) Tour Loup-de-givre orientale";

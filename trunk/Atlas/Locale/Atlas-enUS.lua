@@ -1414,6 +1414,6 @@ AtlasMaps = {
 		GREY..INDENT.."Lady Sacrolash (Lower)";
 		GREY..INDENT.."M'uru (Upper)";
 		GREY..INDENT.."Entropius (Upper)";
-		GREY.."4) Kil'jaden";
+		GREY.."4) Kil'jaeden";
 	};
 };

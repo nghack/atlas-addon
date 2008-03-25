@@ -123,7 +123,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			ORNG.."5) Tower Point";
 			GREY..INDENT.."Wing Commander Slidore (Alliance)";
 			GREY.."6) Coldtooth Mine";
-			GREY..INDENT.."Snivvle (Neutral)";
+			GREY..INDENT.."Taskmaster Snivvle (Neutral)";
 			GREY..INDENT.."Masha Swiftcut";
 			GREY..INDENT.."Aggi Rumblestomp (Alliance)";
 			_RED.."7) Frostwolf Graveyard";
@@ -132,7 +132,8 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Smith Regzar";
 			GREY..INDENT.."Primalist Thurloga";
 			GREY..INDENT.."Sergeant Yazra Bloodsnarl";
-			GREY.."9) Wolf Rider Commander";
+			GREY.."9) Frostwolf Stable Master <Stable Master>";
+			GREY..INDENT.."Frostwolf Wolf Rider Commander";
 			GREY.."10) Frostwolf Quartermaster";
 			ORNG.."11) West Frostwolf Tower";
 			ORNG.."12) East Frostwolf Tower";

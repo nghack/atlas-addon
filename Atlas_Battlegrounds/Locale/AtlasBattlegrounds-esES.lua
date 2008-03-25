@@ -131,7 +131,7 @@ if ( GetLocale() == "esES" ) then
 			ORNG.."5) Punto Torre";	 --Bien
 			GREY..INDENT.."Comandante del aire Slidore (Alianza)";  --Bien		
 			GREY.."6) Mina Dentefrío"; --Bien
-			GREY..INDENT.."Sniwle (Neutral)"; --Bien
+			GREY..INDENT.."Capataz Sniwle (Neutral)"; --Bien
 			GREY..INDENT.."Masha Corteveloz"; --Bien
 			GREY..INDENT.."Aggi Piesdeplomo (Alianza)";	 --Bien	
 			_RED.."7) Cementerio Lobo Gélido"; --Bien
@@ -140,7 +140,8 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Herrero Regzar"; --Bien
 			GREY..INDENT.."Primalist Thurloga"; --Bien
 			GREY..INDENT.."Sargento Yazra Gruñidosangriento"; --Bien
-			GREY.."9) Comandante jinete de lobos Lobo Gélido"; --Bien
+			GREY.."9) Maestra de establo Lobo Gélido <Maestro de establos>"; --Bien
+			GREY..INDENT.."Comandate jinete de lobos Lobo Gélido";	 --Bien		
 			GREY.."10) Intendente Lobo Gélido"; --Bien
 			ORNG.."11) Torre Lobo Gélido Oeste"; --Bien
 			ORNG.."12) Torre Lobo Gélido Este"; --Bien

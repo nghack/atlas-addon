@@ -1,4 +1,4 @@
-## Interface: 20300
+## Interface: 20400
 ## Title: Atlas |r|cFF0099FF[Flight Paths]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 航線地圖
 ## Title-zhCN: Atlas |r|cFF0099FF[飞行路线图]|r
@@ -10,7 +10,7 @@
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 航線地圖集，顯示兩大陣營在東西大陸及外域的飛行路徑
 ## Version: 1.11.0
-## X-Date: January, 2008
+## X-Date: March, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

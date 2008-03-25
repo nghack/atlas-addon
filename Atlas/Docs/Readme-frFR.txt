@@ -4,6 +4,11 @@ Courriel : loglow@gmail.com
 
 
 
+Note: This readme file is just slightly out of date.
+Expect a completely rewritten version in the very near future!
+
+
+
 ====================
 = A propos d'Atlas =
 ====================
@@ -57,6 +62,7 @@ Atlas possède un système de plug-in intégré qui permet d'ajouter facilement des 
 = Intégration =
 ===============
 
+* Titan Panel
 * myAddOns
 * CTMod
 * Cosmos

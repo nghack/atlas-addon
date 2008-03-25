@@ -28,7 +28,7 @@
 --AIM: dan5981
 
 
-local Atlas_DebugMode = true;
+local Atlas_DebugMode = false;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -693,7 +693,9 @@ function Atlas_Refresh()
 		AtlasSwitchButton:Hide();
 	end
 	
-	TitanPanelButton_UpdateButton("Atlas");
+	if ( TitanPanelButton_UpdateButton ) then
+		TitanPanelButton_UpdateButton("Atlas");
+	end
 	
 end
 

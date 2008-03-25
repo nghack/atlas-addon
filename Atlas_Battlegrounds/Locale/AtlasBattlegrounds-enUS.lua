@@ -139,7 +139,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY.."13) Wing Commander Guse (Rescued)";
 			GREY..INDENT.."Wing Commander Jeztor (Rescued)";
 			GREY..INDENT.."Wing Commander Mulverick (Rescued)";
-			_RED.."14) Frostwolf Releif Hut";
+			_RED.."14) Frostwolf Relief Hut";
 			GREY.."15) Wildpaw Cavern";
 			GREY..INDENT.."Frostwolf Banner";
 			"";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/24/2008
+-- Last Update : 3/25/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1370,7 +1370,7 @@ AtlasMaps = {
 		BLUE.."A) 入口";
 		GREY.."1) 塞林·火心";
 		GREY..INDENT.."邪能水晶";
-		GREY.."2) 泰瑞斯"; -- Tyrith
+		GREY.."2) 塔雷斯";
 		GREY.."3) 维萨鲁斯";
 		GREY.."4) 占卜宝珠";
 		GREY..INDENT.."卡雷苟斯";

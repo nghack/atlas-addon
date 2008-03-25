@@ -123,18 +123,18 @@ if ( GetLocale() == "esES" ) then
 			BLUE..INDENT.."Maestro de guerra de Punta de la Torre"; --Bien
 			BLUE..INDENT.."Maestro de guerra Sangrehielo"; --Bien
 			GREY.."1) Lokholar el Señor de Hielo (Zona de invocar)"; --Bien
-			ORNG.."2) Garrison Sangre Fría"; --Bien
+			ORNG.."2) Baluarte Sangre Fría"; --Bien
 			GREY..INDENT.."Capitán Galvangar"; --Bien
 			ORNG.."3) Torre Sangre Fría"; --Bien
-			_RED.."4) Torre Lobo Gélido Este"; --Bien
+			_RED.."4) Cementerio Sangre Fría"; --Bien
 			GREY.."Comandante del aire Ichman (Alianza)"; --Bien
 			ORNG.."5) Punto Torre";	 --Bien
 			GREY..INDENT.."Comandante del aire Slidore (Alianza)";  --Bien		
 			GREY.."6) Mina Dentefrío"; --Bien
 			GREY..INDENT.."Sniwle (Neutral)"; --Bien
 			GREY..INDENT.."Masha Corteveloz"; --Bien
-			GREY..INDENT.."Aggi Rumblestomp (Alianza)";	 --FALTA	
-			_RED.."7) Torre Lobo Gélido Oeste"; --Bien
+			GREY..INDENT.."Aggi Piesdeplomo (Alianza)";	 --Bien	
+			_RED.."7) Cementerio Lobo Gélido"; --Bien
 			GREY.."8) Comandante de aire Vipore (Alianza)";	 --Bien
 			GREY..INDENT.."Jotek"; --Bien
 			GREY..INDENT.."Herrero Regzar"; --Bien
@@ -142,11 +142,13 @@ if ( GetLocale() == "esES" ) then
 			GREY..INDENT.."Sargento Yazra Gruñidosangriento"; --Bien
 			GREY.."9) Comandante jinete de lobos Lobo Gélido"; --Bien
 			GREY.."10) Intendente Lobo Gélido"; --Bien
-			GREY.."11) Comandante del aire Guse (Rescatado)";	 --Bien
+			ORNG.."11) Torre Lobo Gélido Oeste"; --Bien
+			ORNG.."12) Torre Lobo Gélido Este"; --Bien
+			GREY.."13) Comandante del aire Guse (Rescatado)"; --Bien
 			GREY..INDENT.."Comandante del aire Jeztor (Rescatado)"; --Bien
 			GREY..INDENT.."Comandante del aire Mulverick (Rescatado)"; --Bien
-			_RED.."12) Frostwolf Releif Hut"; --FALTA
-			GREY.."13) Caverna Zarpa Salvaje"; --Bien
+			_RED.."14) Puesto de auxilio de Lobo Gélido"; --Bien
+			GREY.."15) Caverna Zarpa Salvaje"; --Bien
 			GREY..INDENT.."Estandarte de Lobo Gélido"; --Bien			
 			"";
 			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";

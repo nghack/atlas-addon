@@ -31,7 +31,7 @@
 -- Lokalisation: Nihlo (ICQ: 260-869-930), Dynaletik (ICQ: 176-289-585), Telchar (ICQ: 391-632-535)
 -- und noch unzählige Andere...Vielen Dank!
 --
--- Letztes Update: 27.01.2008
+-- Letztes Update: 25.03.2008
 
 --]]
 
@@ -121,12 +121,6 @@ ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instanzen";
 ATLAS_INSTANCE_BUTTON = "Instanz";
 ATLAS_ENTRANCE_BUTTON = "Eingang";
 ATLAS_SEARCH_UNAVAIL = "Suche nicht verfügbar";
-
-ATLAS_LOCALE = {
-	menu = "Atlas",
-	tooltip = "Atlas",
-	button = "Atlas"
-};
 
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] =				"Tempel von Ahn'Qiraj";

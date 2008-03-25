@@ -4,6 +4,11 @@ Schreib mir an: loglow@gmail.com
 
 
 
+Note: This readme file is just slightly out of date.
+Expect a completely rewritten version in the very near future!
+
+
+
 ===============
 = Über Atlas =
 ===============
@@ -57,6 +62,7 @@ Atlas hat ein eingebautes Pluginsystem, das es ermöglicht, einfach Kartenpakete 
 = Integration =
 ===============
 
+* Titan Panel
 * myAddOns
 * CTMod
 * Cosmos

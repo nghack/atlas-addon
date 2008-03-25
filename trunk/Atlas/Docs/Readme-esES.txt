@@ -4,6 +4,11 @@ Escribeme en loglow@gmail.com
 
 
 
+Note: This readme file is just slightly out of date.
+Expect a completely rewritten version in the very near future!
+
+
+
 ===============
 = Sobre Atlas =
 ===============
@@ -112,6 +117,7 @@ antes de instalar (estos ya no son necesarios de todos modos).
 = Integración =
 ===============
 
+* Titan Panel
 * myAddOns
 * CTMod
 * Cosmos

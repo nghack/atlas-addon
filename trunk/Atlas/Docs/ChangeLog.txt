@@ -3,6 +3,7 @@
 ==============
 
 v1.11.0
+- updated TOC number to 20400 for the 2.4 patch
 - new map: Magisters' Terrace
 - new map: Sunwell Plateau
 - the Atlas legend is quite a bit wider now
@@ -17,7 +18,7 @@ v1.11.0
 - fixed a bug with the reset position button
 - frame scale slider option increased to 1.5
 - legend entries that are too long will be truncated now
-- added an option to show a legend entry tooltip if the control button is down
+- added an option to show a legend entry tooltip if the control button is held down
 - changed the frame strata of the main window so it covers all the action bars
 - added an option to display the player's coordinates on the world map
 - changed Horde Base to Horde Encampment and Night Elf Base to Night Elf Village in Hyjal (Telchar)
@@ -26,21 +27,20 @@ v1.11.0
 - changed Mailbox Keys to Postbox Keys in Stratholme (Telchar)
 - added Zaelot to the names of Zath and Lor'Khan in ZG (Telchar)
 - changed Necro Wing to Plague Wing in Naxxramas (Telchar)
-- removed 'Prince' from Kael'Thas Sunstriders name (Telchar)
+- removed Prince from Kael'Thas Sunstriders name (Telchar)
 - many changes to the Zul'Aman map (Celellach)
 - many changes to the Blackwing Lair map (Nihlo)
 - many changes to the Shadowfang Keep map (Celellach)
 - added Razorfen Spearhide to Razorfen Kraul (Celellach)
 - new map in outdoor raids: Skettis (Celellach, Nifl)
 - revamped Alterac Valley North and South maps (Celellach)
-- added 'Base Camp' to Grom'Gol flightpoint (Telchar)
+- added Base Camp to Grom'Gol flightpoint (Telchar)
 - added Harrison Jones to ZA map (Kiria)
-- added angle-bracket titles to mobs
-- fixed some typos
+- added angle-bracket titles to some mobs (more coming)
+- fixed a number of typos
 - remove attunement quest required for Karazhan, Hyjal Summit and Black Temple
 - revamped the auto-select feature to make use of SubZone data
 - Titan Panel support fix and some updates
-- 
 
 v1.10.3
 - the Atlas source is now hosted at Google Code

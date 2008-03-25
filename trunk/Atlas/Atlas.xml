@@ -419,7 +419,7 @@
 			</OnMouseUp>
 		</Scripts>
 	</Frame>
-	<Frame name="Atlas_WorldMap_Frame" parent="WorldMapFrame">
+	<Frame name="Atlas_WorldMap_Frame" parent="WorldMapFrame" hidden="true">
 		<Layers>
 			<Layer level="OVERLAY">
 				<FontString name="$Parent_Text" inherits="GameFontHighlightSmall">

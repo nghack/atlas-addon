@@ -1,6 +1,11 @@
-﻿Atlas, Atlas, 一款魔獸世界副本地圖瀏覽器
+Atlas, Atlas, 一款魔獸世界副本地圖瀏覽器
 Copyright 2005 - 2008 Dan Gilbert
 原作電子郵件位址: loglow@gmail.com
+
+
+
+Note: This readme file is just slightly out of date.
+Expect a completely rewritten version in the very near future!
 
 
 
@@ -85,6 +90,7 @@ Atlas 具有內建的插件系統，這使得額外的地圖可以很輕易的�
 = 整合支援 =
 ============
 
+* Titan Panel
 * myAddOns
 * CTMod
 * Cosmos

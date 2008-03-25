@@ -1,4 +1,4 @@
-## Interface: 20300
+## Interface: 20400
 ## Title: Atlas |r|cFF0099FF[Entrances]|r
 ## Title-zhCN: Atlas |r|cFF0099FF[副本入口]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 副本入口
@@ -9,7 +9,7 @@
 ## Notes-deDE: Instanzen-Eingänge
 ## Notes-esES: Entradas
 ## Version: 1.11.0
-## X-Date: January, 2008
+## X-Date: March, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

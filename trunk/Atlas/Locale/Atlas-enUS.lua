@@ -27,7 +27,7 @@
 -- Atlas Data (English)
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
--- Last Update: 2/21/2007
+-- Last Update: haha
 
 --]]
 

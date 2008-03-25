@@ -118,7 +118,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			ORNG.."2) Iceblood Garrison";
 			GREY..INDENT.."Captain Galvangar";
 			ORNG.."3) Iceblood Tower";
-			_RED.."4) East Frostwolf Tower";
+			_RED.."4) Iceblood Graveyard";
 			GREY.."Wing Commander Ichman (Alliance)";
 			ORNG.."5) Tower Point";
 			GREY..INDENT.."Wing Commander Slidore (Allaince)";
@@ -126,7 +126,7 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Snivvle (Neutral)";
 			GREY..INDENT.."Masha Swiftcut";
 			GREY..INDENT.."Aggi Rumblestomp (Alliance)";
-			_RED.."7) West Frostwolf Tower";
+			_RED.."7) Frostwolf Graveyard";
 			GREY.."8) Wing Commander Vipore (Alliance)";
 			GREY..INDENT.."Jotek";
 			GREY..INDENT.."Smith Regzar";
@@ -134,11 +134,13 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			GREY..INDENT.."Sergeant Yazra Bloodsnarl";
 			GREY.."9) Wolf Rider Commander";
 			GREY.."10) Frostwolf Quartermaster";
-			GREY.."11) Wing Commander Guse (Rescued)";
+			ORNG.."11) West Frostwolf Tower";
+			ORNG.."12) East Frostwolf Tower";
+			GREY.."13) Wing Commander Guse (Rescued)";
 			GREY..INDENT.."Wing Commander Jeztor (Rescued)";
 			GREY..INDENT.."Wing Commander Mulverick (Rescued)";
-			_RED.."12) Frostwolf Releif Hut";
-			GREY.."13) Wildpaw Cavern";
+			_RED.."14) Frostwolf Releif Hut";
+			GREY.."15) Wildpaw Cavern";
 			GREY..INDENT.."Frostwolf Banner";
 			"";
 			_RED.."Red:"..BLUE.." Graveyards, Capturable Areas";

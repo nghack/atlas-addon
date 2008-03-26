@@ -134,7 +134,8 @@ if ( GetLocale() ==	"zhTW" ) then
 			GREY..INDENT.."鐵匠雷格薩";
 			GREY..INDENT.."原獵者瑟魯加";
 			GREY..INDENT.."亞斯拉·血矛";
-			GREY.."9) 霜狼騎兵指揮官";
+			GREY.."9) 霜狼獸欄管理員";
+			GREY..INDENT.."霜狼騎兵指揮官";
 			GREY.."10) 霜狼軍需官";
 			ORNG.."11) 西部霜狼哨塔";
 			ORNG.."12) 東部霜狼哨塔";

@@ -123,7 +123,9 @@ ATLAS_ENTRANCE_BUTTON = "Eingang";
 ATLAS_SEARCH_UNAVAIL = "Suche nicht verfügbar";
 
 AtlasZoneSubstitutions = {
-	["Ahn'Qiraj"] =				"Tempel von Ahn'Qiraj";
+	["Ahn'Qiraj"]					= "Tempel von Ahn'Qiraj";
+	["Karazhan"]					= "Karazhan [A] (Anfang)";
+	["Der Schwarze Tempel"]			= "Der Schwarze Tempel [A] (Anfang)";
 }; 
 
 local BLUE = "|cff6666ff";
@@ -1396,6 +1398,7 @@ AtlasMaps = {
 		ZoneName = "Terrasse der Magister";
 		Location = "Insel von Quel'Danas";
 		Acronym = "MT";
+		ORNG.."Ruf: Offensive der Zerschmetterten Sonne";
 		BLUE.."A) Eingang";
 		GREY.."1) Selin Feuerherz";
 		GREY..INDENT.."Teufelskristalle";
@@ -1417,11 +1420,11 @@ AtlasMaps = {
 		GREY..INDENT.."Brutallus";
 		GREY..INDENT.."Teufelsruch";
 		GREY.."3) Eredar Zwillinge (Unten)";
-		GREY..INDENT.."Großhexenmeister Alythess (Unten)";
+		GREY..INDENT.."Großhexenmeisterin Alythess (Unten)";
 		GREY..INDENT.."Lady Sacrolash (Unten)";
 		GREY..INDENT.."M'uru (Oben)";
 		GREY..INDENT.."Entropius (Oben)";
-		GREY.."4) Kil'jaden";
+		GREY.."4) Kil'jaeden";
 	};
 };
 

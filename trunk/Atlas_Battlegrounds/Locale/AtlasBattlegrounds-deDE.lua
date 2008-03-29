@@ -132,7 +132,8 @@ if ( GetLocale() == "deDE" ) then
 			GREY..INDENT.."Schmied Regzar";
 			GREY..INDENT.."Primalist Thurloga";
 			GREY..INDENT.."Unteroffizier Yazra Murrblut";
-			GREY.."9) Wolfsreiterkommandant der Frostwölfe";
+			GREY.."9) Stallmeisterin der Frostwölfe <Stallmeisterin>";
+			GREY..INDENT.."Wolfsreiterkommandant der Frostwölfe";
 			GREY.."10) Rüstmeister der Frostwölfe";
 			ORNG.."11) Westlicher Frostwolfturm";
 			ORNG.."12) Östlicher Frostwolfturm";

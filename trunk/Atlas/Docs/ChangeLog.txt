@@ -2,6 +2,10 @@
 = Change Log =
 ==============
 
+v1.11.1
+- added a reputation tag to MT
+- removed 'The' from AQ instance names
+
 v1.11.0
 - updated TOC number to 20400 for the 2.4 patch
 - new map: Magisters' Terrace

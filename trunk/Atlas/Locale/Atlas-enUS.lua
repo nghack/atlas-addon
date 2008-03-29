@@ -113,8 +113,7 @@ ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "The Sunken Temple";
-	["Ahn'Qiraj"]					= "The Temple of Ahn'Qiraj";
-	["Ruins of Ahn'Qiraj"]			= "The Ruins of Ahn'Qiraj";
+	["Ahn'Qiraj"]					= "Temple of Ahn'Qiraj";
 	["Karazhan"]					= "Karazhan [A] (Start)";
 	["Black Temple"]				= "Black Temple [A] (Start)";
 }; 
@@ -331,7 +330,7 @@ AtlasMaps = {
 		GREY.."3) Onyxia";
 	};
 	TheTempleofAhnQiraj = {
-		ZoneName = "The Temple of Ahn'Qiraj";
+		ZoneName = "Temple of Ahn'Qiraj";
 		Acronym = "AQ40";
 		Location = "Silithus";
 		ORNG.."Rep: Brood of Nozdormu";
@@ -358,7 +357,7 @@ AtlasMaps = {
 		GREN..INDENT.."Merithra of the Dream";
 	};
 	TheRuinsofAhnQiraj = {
-		ZoneName = "The Ruins of Ahn'Qiraj";
+		ZoneName = "Ruins of Ahn'Qiraj";
 		Acronym = "AQ20";
 		Location = "Silithus";
 		ORNG.."Rep: Cenarion Circle";
@@ -1389,6 +1388,7 @@ AtlasMaps = {
 		ZoneName = "Magisters' Terrace";
 		Location = "Isle of Quel'Danas";
 		Acronym = "MT";
+		ORNG.."Rep: Shattered Sun Offensive";
 		BLUE.."A) Entrance";
 		GREY.."1) Selin Fireheart";
 		GREY..INDENT.."Fel Crystals";

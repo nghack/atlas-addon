@@ -1384,6 +1384,7 @@ AtlasMaps = {
 		ZoneName = "Terrasse des Magistères";
 		Location = "Île de Quel’Danas";
 		Acronym = "MT";
+		ORNG.."Réput : Opération Soleil brisé";
 		BLUE.."A) Entrée";
 		GREY.."1) Selin Coeur-de-feu";
 		GREY..INDENT.."Gangrecristaux";

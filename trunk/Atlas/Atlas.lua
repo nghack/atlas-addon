@@ -310,7 +310,7 @@ function Atlas_Search(text)
 	--populate the scroll frame entries list, the update func will do the rest
 	local i = 1;
 	while ( data[i] ~= nil ) do
-		ATLAS_SCROLL_LIST[i] = data[i];
+		ATLAS_SCROLL_LIST[i] = data[i][1];
 		i = i + 1;
 	end
 
@@ -371,8 +371,8 @@ end
 --Comparator function for alphabetic sorting of maps
 --yey, one function for everything
 local function Atlas_SortZonesAlpha(a, b)
-	local aa = Atlas_SanitizeName(AtlasMaps[a].ZoneName);
-	local bb = Atlas_SanitizeName(AtlasMaps[b].ZoneName);
+	local aa = Atlas_SanitizeName(AtlasMaps[a].ZoneName[1]);
+	local bb = Atlas_SanitizeName(AtlasMaps[b].ZoneName[1]);
 	return aa < bb;
 end
 
@@ -432,6 +432,14 @@ ATLAS_OLD_ZONE = false;
 --This should be called ONLY when we're sure our variables are in memory
 function Atlas_Init()
 
+	--fix for certain UI elements that appear on top of the Atlas window
+	MultiBarBottomLeft:SetFrameStrata("MEDIUM");
+	MultiBarBottomRight:SetFrameStrata("MEDIUM");
+	MultiBarLeft:SetFrameStrata("MEDIUM");
+	MultiBarRight:SetFrameStrata("MEDIUM");
+	MainMenuBarOverlayFrame:SetFrameStrata("MEDIUM");
+
+	--make the Atlas window go all the way to the edge of the screen, exactly
 	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);
 
 	--clear saved vars for a new version (or a new install!)
@@ -583,7 +591,7 @@ function Atlas_Refresh()
 		end
 	end
 	
-	local tName = base.ZoneName;
+	local tName = base.ZoneName[1];
 	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
 		local _RED = "|cffcc6666";
 		tName = tName.._RED.." ["..base.Acronym.."]";
@@ -593,8 +601,8 @@ function Atlas_Refresh()
 	local tLoc = "";
 	local tLR = "";
 	local tPL = "";
-	if ( base.Location ) then
-		tLoc = ATLAS_STRING_LOCATION..": "..base.Location;
+	if ( base.Location[1] ) then
+		tLoc = ATLAS_STRING_LOCATION..": "..base.Location[1];
 	end
 	if ( base.LevelRange ) then
 		tLR = ATLAS_STRING_LEVELRANGE..": "..base.LevelRange;
@@ -719,7 +727,7 @@ function AtlasSwitchDD_OnLoad()
 	local info, i;
 	for k,v in pairs(ATLAS_INST_ENT_DROPDOWN) do
 		info = {
-			text = AtlasMaps[v].ZoneName;
+			text = AtlasMaps[v].ZoneName[1];
 			func = AtlasSwitchDD_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
@@ -745,8 +753,8 @@ function AtlasSwitchDD_Set(index)
 end
 
 function AtlasSwitchDD_Sort(a, b)
-	local aa = AtlasMaps[a].ZoneName;
-	local bb = AtlasMaps[b].ZoneName;
+	local aa = AtlasMaps[a].ZoneName[1];
+	local bb = AtlasMaps[b].ZoneName[1];
 	return aa < bb;
 end
 
@@ -801,7 +809,7 @@ function AtlasFrameDropDown_Initialize()
 	local info;
 	for k,v in pairs(ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) do
 		info = {
-			text = AtlasMaps[v].ZoneName;
+			text = AtlasMaps[v].ZoneName[1];
 			func = AtlasFrameDropDown_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
@@ -921,14 +929,14 @@ function Atlas_AutoSelect()
 				end
 			elseif ( Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
 				for ka,va in pairs(Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
-					if ( currentZone == AtlasMaps[va].ZoneName ) then
+					if ( currentZone == AtlasMaps[va].ZoneName[1] ) then
 						debug("Instance/entrance pair found. Doing nothing.");
 						return;
 					end
 				end
 			elseif ( Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
 				for ka,va in pairs(Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
-					if ( currentZone == AtlasMaps[va].ZoneName ) then
+					if ( currentZone == AtlasMaps[va].ZoneName[1] ) then
 						debug("Instance/entrance pair found. Doing nothing.");
 						return;
 					end
@@ -939,7 +947,7 @@ function Atlas_AutoSelect()
 		for ka,va in pairs(ATLAS_DROPDOWNS) do
 			for kb,vb in pairs(va) do         
 				-- Compare the currentZone to the new substr of ZoneName
-				if ( currentZone == strsub(AtlasMaps[vb].ZoneName, strlen(AtlasMaps[vb].ZoneName) - strlen(currentZone) + 1) ) then
+				if ( currentZone == strsub(AtlasMaps[vb].ZoneName[1], strlen(AtlasMaps[vb].ZoneName[1]) - strlen(currentZone) + 1) ) then
 					AtlasOptions.AtlasType = ka;
 					AtlasOptions.AtlasZone = kb;
 					Atlas_Refresh();
@@ -992,34 +1000,33 @@ function AtlasScrollBar_Update()
 end
 
 function AtlasSimpleSearch(data, text)
-	 local new = {};			-- create a new table
-	 local i;
-	 local v;
-	 local n;
-
-     local search_text = string.lower(text);
-     search_text = search_text:gsub("([%^%$%(%)%%%.%[%]%+%-%?])", "%%%1");
-     search_text = search_text:gsub("%*", ".*");
-     local match;
-
-	 i, v = next(data, nil);		-- i is an index of data, v = data[i]
-	 n = i;
-	 while i do
-		if ( type(i) == "number" ) then
-		   if ( string.gmatch ) then 
-			match = string.gmatch(string.lower(data[i]), search_text)();
-		   else 
-			match = string.gfind(string.lower(data[i]), search_text)(); 
-		   end
-
-		   if ( match ) then
-			new[n] = data[i];
-			n = n + 1;
-		   end
-		end
-	   i, v = next(data, i);			-- get next index
-	end
+	local new = {};-- create a new table
+	local i;
+	local v;
+	local n;
 	
+	local search_text = string.lower(text);
+	search_text = search_text:gsub("([%^%$%(%)%%%.%[%]%+%-%?])", "%%%1");
+	search_text = search_text:gsub("%*", ".*");
+	local match;
+
+	i, v = next(data, nil);-- i is an index of data, v = data[i]
+	n = i;
+	while i do
+		if ( type(i) == "number" ) then
+			if ( string.gmatch ) then 
+				match = string.gmatch(string.lower(data[i][1]), search_text)();
+			else 
+				match = string.gfind(string.lower(data[i][1]), search_text)(); 
+			end
+			if ( match ) then
+				new[n] = {};
+				new[n][1] = data[i][1];
+				n = n + 1;
+			end
+		end
+		i, v = next(data, i);-- get next index
+	end
 	return new;
 end
 

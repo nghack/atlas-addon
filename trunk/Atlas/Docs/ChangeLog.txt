@@ -3,8 +3,13 @@
 ==============
 
 v1.11.1
-- added a reputation tag to MT
-- removed 'The' from AQ instance names
+- changed the Atlas data format to include GUID information (no in-game change)
+- changed the frame strata back to MEDIUM so Atlas can cover/be-covered-by other windows
+- added a fix for some UI elements that appear above the Atlas window
+- added a Shattered Sun Offensive reputation tag to MT
+- removed 'The' from both AQ instance names
+- added a mark (1) for Patchwerk to the map of Naxx
+- changed the entry colors for the Abomination Wing in Naxx
 
 v1.11.0
 - updated TOC number to 20400 for the 2.4 patch

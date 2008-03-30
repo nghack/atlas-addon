@@ -61,7 +61,7 @@ function TitanPanelAtlasButton_GetButtonText(id)
 	if ( TitanGetVar(TITAN_ATLAS_ID, "ShowMapName") ) then
 
 		local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
-		local name = AtlasMaps[zoneID].ZoneName;
+		local name = AtlasMaps[zoneID].ZoneName[1];
 			
 		
 		if ( TitanGetVar(TITAN_ATLAS_ID, "ShowColoredText") ) then	

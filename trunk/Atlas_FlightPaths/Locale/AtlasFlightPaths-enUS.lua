@@ -32,6 +32,15 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 	local PURP = "|cff9900ff";
 	local INDENT = "      ";
 
+	local ZONE = 1;
+	local NPC = 2;
+	local ITEM = 3;
+	local OBJECT = 4;
+	local FACTION = 5;
+	local QUEST = 6;
+	
+	--Now with GUIDs!
+
 	local myCategory = "Flight Path Maps";
 
 	local myData = {

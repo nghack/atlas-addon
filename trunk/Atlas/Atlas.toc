@@ -26,7 +26,6 @@ Locale\Atlas-esES.lua
 Locale\Atlas-zhTW.lua
 
 AtlasDropDown.lua
-AtlasZoneData.lua
 
 Atlas.lua
 Atlas.xml

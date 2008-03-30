@@ -46,7 +46,7 @@
 			</OnLeave>
 		</Scripts>
 	</Button>
-	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true" frameStrata="DIALOG">
+	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true" frameStrata="MEDIUM">
 		<Size>
 			<AbsDimension x="921" y="601"/>
 		</Size>

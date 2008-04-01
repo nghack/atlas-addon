@@ -10,6 +10,35 @@ v1.11.1
 - removed 'The' from both AQ instance names
 - added a mark (1) for Patchwerk to the map of Naxx
 - changed the entry colors for the Abomination Wing in Naxx
+- split C'Thun encounter into two entries in AQ40
+- removed 'The' from ST title
+- added an AKA line to ST
+- changed Troll minibosses to Atal'ai defenders in ST
+- changed Doomrigger's Clasp to Doomrigger's Coffer in UBRS
+- added the chapter to Draconic for Dummies in BWL
+- split the key entry into two in MC
+- added 'The' to the different Deeds in Scholo
+- added 'Various' to Postbox Keys in Strat
+- changed Scarlet side to Living side in Strat
+- changed Medallion of Faith to Malor's strongbox in Strat
+- changed Plans: Serenity and Plans: Corruption to Blacksmithing Plans in Strat
+- removed Plaguewood from Naxx location
+- added Four Horsemen Chest to Naxx
+- removed 'The' from Argent Dawn reputation line in Scholo, Strat and Naxx
+- added brakets to the two Pusillin entries in DM East
+- added brakets to Thralls stop entries in COT1
+- added (Lower) to Discs of Norgannon in Ulda
+- added a new key for Edge of madness in ZG
+- removed 'The' from Zandalar Tribe reputation line in ZG
+- added a Servants Quater entry to Kara [A]
+- completely rearanged the opera event in Kara [A] (renamed titles, added NPC)
+- added Dustcovered Chest to the chess event entry in Kara [B]
+- changed Budd's Map of ZA to The Map of ZA
+- changed Windcaller Claw to Claw in Underbog
+- changed Seer Udalo to Udalo in the Arcatras
+- removed Stasis Chamber tag from Yor in Manatombs
+- changed the order of reliquiary of souls in BT
+- added 'The' to Illidari Council in BT
 
 v1.11.0
 - updated TOC number to 20400 for the 2.4 patch

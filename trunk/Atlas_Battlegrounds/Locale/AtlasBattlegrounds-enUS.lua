@@ -113,9 +113,9 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			{ GREY.."White:"..BLUE.." Assault NPCs, Quest Areas" };
 		};
 		AlteracValleySouth = {
-			ZoneName = "Alterac Valley (South, Horde)";
+			ZoneName = { "Alterac Valley (South, Horde)", 2597 };
 			Acronym = "AV";
-			Location = "Hillsbrad Foothills";
+			Location = { "Hillsbrad Foothills", 36 };
 			LevelRange = "51-70";
 			PlayerLimit = "40";
 			Continent = "Eastern Kingdoms";
@@ -170,15 +170,15 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			LevelRange = "20-70";
 			PlayerLimit = "15";
 			Continent = "Eastern Kingdoms";
-			{ ORNG.."Rep: The Defilers (Horde)", NPC,  };
-			{ ORNG.."Rep: League of Arathor (Alliance)", NPC,  };
-			{ BLUE.."A) Trollbane Hall (Alliance)", NPC,  };
-			{ BLUE.."B) Defiler's Den (Horde)", NPC,  };
-			{ GREY.."1) Stables", NPC,  };
-			{ GREY.."2) Gold Mine", NPC,  };
-			{ GREY.."3) Smithy", NPC,  };
-			{ GREY.."4) Lumber Mill", NPC,  };
-			{ GREY.."5) Farm", NPC,  };
+			{ ORNG.."Rep: The Defilers (Horde)", FACTION, 510 };
+			{ ORNG.."Rep: The League of Arathor (Alliance)", FACTION, 509 };
+			{ BLUE.."A) Trollbane Hall (Alliance)" };
+			{ BLUE.."B) Defiler's Den (Horde)" };
+			{ GREY.."1) Stables" };
+			{ GREY.."2) Gold Mine" };
+			{ GREY.."3) Smithy" };
+			{ GREY.."4) Lumber Mill" };
+			{ GREY.."5) Farm" };
 		};
 		WarsongGulch = {
 			ZoneName = { "Warsong Gulch", 3277 };
@@ -187,10 +187,10 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			LevelRange = "10-70";
 			PlayerLimit = "10";
 			Continent = "Kalimdor";
-			{ ORNG.."Rep: Warsong Outriders (Horde)", NPC,  };
-			{ ORNG.."Rep: Silverwing Sentinels (Alliance)", NPC,  };
-			{ BLUE.."A) Silverwing Hold (Alliance)", NPC,  };
-			{ BLUE.."B) Warsong Lumber Mill (Horde)", NPC,  };
+			{ ORNG.."Rep: Warsong Outriders (Horde)", FACTION, 889 };
+			{ ORNG.."Rep: Silverwing Sentinels (Alliance)", FACTION, 890 };
+			{ BLUE.."A) Silverwing Hold (Alliance)" };
+			{ BLUE.."B) Warsong Lumber Mill (Horde)" };
 		};
 		EyeOfTheStorm = {
 			ZoneName = { "Eye of the Storm", 3820 };
@@ -199,14 +199,14 @@ if ( GetLocale() == "enUS" or GetLocale() == "enGB" or GetLocale() == "koKR" ) t
 			LevelRange = "61-70";
 			PlayerLimit = "15";
 			Continent = "Outland";
-			{ BLUE.."A) Entrance (Alliance)", NPC,  };
-			{ BLUE.."B) Entrance (Horde)", NPC,  };
-			{ _RED.."X) Graveyard", NPC,  };
-			{ ORNG.."X) Flag", NPC,  };
-			{ GREY.."1) Mage Tower", NPC,  };
-			{ GREY.."2) Draenei Ruins", NPC,  };
-			{ GREY.."3) Fel Reaver Ruins", NPC,  };
-			{ GREY.."4) Blood Elf Tower", NPC,  };
+			{ BLUE.."A) Entrance (Alliance)" };
+			{ BLUE.."B) Entrance (Horde)" };
+			{ _RED.."X) Graveyard" };
+			{ ORNG.."X) Flag" };
+			{ GREY.."1) Mage Tower" };
+			{ GREY.."2) Draenei Ruins" };
+			{ GREY.."3) Fel Reaver Ruins" };
+			{ GREY.."4) Blood Elf Tower" };
 		};
 	};
 

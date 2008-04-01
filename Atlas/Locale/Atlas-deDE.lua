@@ -37,24 +37,15 @@
 
 if ( GetLocale() == "deDE" ) then
 
-
-
-
-
 AtlasSortIgnore = {
 	"der (.+)",
 	"die (.+)",
 	"das (.+)"
 }
 
-
-
-
 ATLAS_TITLE = "Atlas";
 ATLAS_SUBTITLE = "Instanzkarten";
 ATLAS_DESC = "Atlas ist ein Instanzkarten-Browser";
-
-ATLAS_OPTIONS_BUTTON = "Optionen";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas Tastaturbelegungen";
 BINDING_NAME_ATLAS_TOGGLE = "Atlas an/aus";
@@ -71,6 +62,7 @@ ATLAS_STRING_SELECT_MAP = "Karte wählen";
 ATLAS_STRING_SEARCH = "Suchen";
 ATLAS_STRING_CLEAR = "Leeren";
 
+ATLAS_OPTIONS_BUTTON = "Optionen";
 ATLAS_OPTIONS_TITLE = "Atlas Optionen";
 ATLAS_OPTIONS_SHOWBUT = "Minimap-Schalter anzeigen";
 ATLAS_OPTIONS_AUTOSEL = "Automatische Karten-Auswahl";
@@ -89,16 +81,11 @@ ATLAS_OPTIONS_HELP = "Linke Maustaste zum Verschieben gedrückt halten."
 ATLAS_OPTIONS_CTRL = "Steuerung drücken, um Tooltips anzuzeigen"
 ATLAS_OPTIONS_COORDS = "Koordinaten auf der Weltkarte anzeigen"
 
-
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
 ATLAS_TITAN_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste drücken, um das Menü anzuzeigen.";
 
-
-
-
 ATLAS_HELP = {"Über Atlas\n===========\n\nAtlas ist ein Benutzerinterface Addon für World of Warcraft welches eine große Anzahl zusätzlicher Karten sowie einen Kartenbrowser innerhalb des Spiels beinhaltet. Gib den Befehl '/atlas' ein oder klicke auf den Minimap-Schalter um das Atlas Fenster zu öffnen. Im Optionsmenü kann das Symbol abgeschaltet werden, die automatische Kartenwahl aktiviert werden, das Ersetzen der Weltkarte aktiviert werden, die Rechte Maustaste Funktion aktiviert werden, die Position des Schalters verändert werden, oder die Transparenz des Atlas Fensters eingestellt werden. Wenn die automatische Kartenwahl aktiviert ist, öffnet Atlas automatisch die Karte Instanz, in der du dich befindest. Wenn das Ersetzen der Weltkarte aktiviert ist, wird Atlas statt der Weltkarte geöffnet, wenn du dich in einer Instanz befindest. Wenn die Rechte Maustaste Funktion aktiviert ist, wird durch einen Rechtsklick in Atlas die Weltkarte geöffnet. Mit gedrückter linker Maustaste kann das Fenster positioniert werden. Mit dem Schloss in der oberen rechten Ecke kann die Position des Fensters festgesetzt werden."};
-
 
 ATLAS_OPTIONS_CATDD = "Sortierung der Karten nach:";
 ATLAS_DDL_CONTINENT = "Kontinent";
@@ -136,7 +123,19 @@ local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
 local INDENT = "      ";
 
+local ZONE = 1;
+local NPC = 2;
+local ITEM = 3;
+local OBJECT = 4;
+local FACTION = 5;
+local QUEST = 6;
+
 AtlasMaps = {
+
+--********************
+-- Kalimdor Instances
+--********************
+
 	RagefireChasm = {
 		ZoneName = "Der Flammenschlund";
 		Acronym = "RF";
@@ -275,8 +274,8 @@ AtlasMaps = {
 		BLUE.."B) Eingang";
 		BLUE.."C) Eingang";
 		BLUE.."D) Ausgang";
-		GREY.."1) Pusillins Jagd beginnt";
-		GREY.."2) Pusillins Jagd endet";
+		GREY.."1) Pusillin (Jagd beginnt)";
+		GREY.."2) Pusillin (Jagd endet)";
 		GREY.."3) Zevrim Dornhuf";
 		GREY..INDENT.."Hydrobrut";
 		GREY..INDENT.."Lethtendris";
@@ -358,7 +357,8 @@ AtlasMaps = {
 		GREY..INDENT.."Imperator Vek'lor";
 		GREY..INDENT.."Imperator Vek'nilash";
 		GREY.."8) Ouro (Optional)";
-		GREY.."9) Auge von C'Thun / C'Thun";
+		GREY.."9) Auge von C'Thun";
+		GREY..INDENT.."C'Thun";
 		GREN.."1') Andorgos <Brut Malygos'>";
 		GREN..INDENT.."Vethsera <Brut Yseras>";
 		GREN..INDENT.."Kandrostrasz <Brut Alexstraszas>";
@@ -391,8 +391,8 @@ AtlasMaps = {
 	};
 	CoTBlackMorass = {
 		ZoneName = "HdZ: Der schwarze Morast";
-		Location = "Höhlen der Zeit, Tanaris";
 		Acronym = "Morast, HdZ 2";
+		Location = "Höhlen der Zeit, Tanaris";
 		PURP.."Ereignis: Öffnung des Dunklen Portals";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hüter der Zeit";
@@ -408,8 +408,8 @@ AtlasMaps = {
 	};
 	CoTHyjal = {
 		ZoneName = "HdZ: Hyjalgipfel";
-		Location = "Höhlen der Zeit, Tanaris";
 		Acronym = "Hyjal, HdZ 3";
+		Location = "Höhlen der Zeit, Tanaris";
 		PURP.."Ereignis: Schlacht um Berg Hyjal";
 		ORNG.."Ruf: Die Wächter der Sande";
 		BLUE.."A) Basis der Allianz";
@@ -428,8 +428,8 @@ AtlasMaps = {
 	};
 	CoTOldHillsbrad = {
 		ZoneName = "HdZ: Vorgebirge des Alten Hügellands";
-		Location = "Höhlen der Zeit, Tanaris";
 		Acronym = "Durnholde, HdZ 1";
+		Location = "Höhlen der Zeit, Tanaris";
 		PURP.."Ereignis: Flucht aus Burg Durnholde";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hüter der Zeit";
@@ -443,10 +443,10 @@ AtlasMaps = {
 		GREY.."1) Leutnant Drach";
 		GREY.."2) Thrall (Unten)";
 		GREY.."3) Kapitän Skarloc";
-		GREY..INDENT.."Thralls zweiter Halt";
-		GREY.."4) Thralls dritter Halt";
+		GREY..INDENT.."Thrall (Zweiter Halt)";
+		GREY.."4) Thrall (Dritter Halt)";
 		GREY.."5) Epochenjäger";
-		GREY..INDENT.."Thralls vierter Halt (Oben)";
+		GREY..INDENT.."Thrall (Vierter Halt, Oben)";
 		GREY..INDENT.."Taretha (Oben)";
 		GREY.."6) Jonathan Revah";
 		GREY..INDENT.."Jerry Carter";
@@ -496,6 +496,11 @@ AtlasMaps = {
 		GREY..INDENT.."Jay Lemieux";
 		GREY..INDENT.."Kleine Graumähne";
 	};
+
+--****************************
+-- Eastern Kingdoms Instances
+--****************************
+
 	BlackrockDepths = {
 		ZoneName = "Schwarzfelstiefen";
 		Acronym = "BRT";
@@ -573,7 +578,7 @@ AtlasMaps = {
 		BLUE.."B) Obere Schwarzfelsspitze (UBRS)";
 		BLUE.."C-F) Verbindungen";
 		GREY.."1) Vaelan (Oben)";
-		GREY.."2) Warosh (Wandert)";
+		GREY.."2) Warosh <Die Verfluchten> (Wandert)";
 		GREY..INDENT.."Urahne Steinwehr";
 		GREY.."3) Beschlagene Pike";
 		GREY.."4) Metzger der Felsspitzoger (Rar)";
@@ -589,15 +594,15 @@ AtlasMaps = {
 		GREY.."10) Bijous Habseligkeiten";
 		GREY.."11) Menschliche Überreste (Unten)";
 		GREY..INDENT.."Ungebrannte Plattenstulpen (Unten)";
-		GREY.."12) Bannok Grimmaxt (Rar)";
+		GREY.."12) Bannok Grimmaxt <Champion der Feuerbrandlegion> (Rar)";
 		GREY.."13) Mutter Glimmernetz";
 		GREY.."14) Kristallfangzahn (Rar)";
 		GREY.."15) Uroks Tributhaufen";
 		GREY..INDENT.."Urok Schreckensbote (Beschwörbar)";
-		GREY.."16) Rüstmeister Zigris";
+		GREY.."16) Rüstmeister Zigris <Blutaxtlegion>";
 		GREY.."17) Halycon";
 		GREY..INDENT.."Gizrul der Geifernde";
-		GREY.."18) Ghok Haudrauf (Rar)";
+		GREY.."18) Ghok Haudrauf <Champion der Blutäxte> (Rar)";
 		GREY.."19) Oberanführer Wyrmthalak";
 		GREN.."1') Brennende Teufelswache (Rar, Zufällig)";
 	};
@@ -614,11 +619,11 @@ AtlasMaps = {
 		GREY.."2) Solakar Feuerkrone";
 		GREY..INDENT.."Vater Flamme";
 		GREY.."3) Dunkelsteinschrifttafel";
-		GREY..INDENT.."Doomriggers Schnalle";
-		GREY.."4) Jed Runenblick (Rar)";
-		GREY.."5) Goraluk Hammerbruch";
+		GREY..INDENT.."Doomriggers Kasten";
+		GREY.."4) Jed Runenblick <Schwarzfaustlegion> (Rar)";
+		GREY.."5) Goraluk Hammerbruch <Rüstungsschmied der Schwarzfaustlegion>";
 		GREY.."6) Kriegshäuptling Rend Schwarzfaust";
-		GREY..INDENT.."Gyth";
+		GREY..INDENT.."Gyth <Rend Schwarzfausts Reittier>";
 		GREY.."7) Awbee";
 		GREY.."8) Die Bestie";
 		GREY..INDENT.."Lord Valthalak (Beschwörbar)";
@@ -639,7 +644,7 @@ AtlasMaps = {
 		GREY.."2) Vaelastrasz der Verdorbene";
 		GREY.."3) Brutwächter Dreschbringer";
 		GREY.."4) Feuerschwinge";
-		GREY..INDENT.."Drachisch für Dummies";
+		GREY..INDENT.."Drachisch für Dummies (Kapitel VII)";
 		GREY.."5) Meisterelementarformer Krixix";
 		GREY.."6) Schattenschwinge";
 		GREY.."7) Flammenmaul";
@@ -657,7 +662,7 @@ AtlasMaps = {
 		GREY..INDENT.."Grubbis";
 		GREY..INDENT.."Mümmler";
 		GREY.."2) Saubere Zone";
-		GREY..INDENT.."Tink Sprosspfiff";
+		GREY..INDENT.."Tink Sprosspfiff <Ingenieursbedarf>";
 		GREY..INDENT.."Der Funkelmat 5200";
 		GREY..INDENT.."Briefkasten";
 		GREY.."3) Kernobee";
@@ -677,7 +682,8 @@ AtlasMaps = {
 		Location = "Schwarzfelstiefen";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Hydraxianer";
-		ORNG.."Schlüssel: Wässrige/Ewige Quintessenz (Boss)";
+		ORNG.."Schlüssel: Wässrige Quintessenz (Boss)";
+		ORNG.."Schlüssel: Ewige Quintessenz (Boss)";
 		BLUE.."A) Eingang";
 		GREY.."1) Lucifron";
 		GREY.."2) Magmadar";
@@ -704,7 +710,7 @@ AtlasMaps = {
 		Location = "Das scharlachrote Kloster, Tirisfal";
 		ORNG.."Schlüssel: Der scharlachrote Schlüssel";
 		BLUE.."A) Eingang";
-		GREY.."1) Herod";
+		GREY.."1) Herod <Der Scharlachrote Held>";
 	};
 	SMCathedral = {
 		ZoneName = "SK: Kathedrale";
@@ -744,23 +750,23 @@ AtlasMaps = {
 		BLUE.."B) Treppe";
 		BLUE.."C) Treppe";
 		GREY.."1) Blutdiener von Kirtonos";
-		GREY..INDENT.."Besitzurkunde für Süderstade";
+		GREY..INDENT.."Die Besitzurkunde für Süderstade";
 		GREY.."2) Kirtonos der Herold (Beschwörbar)";
 		GREY.."3) Jandice Barov";
-		GREY.."4) Besitzurkunde für Tarrens Mühle";
+		GREY.."4) Die Besitzurkunde für Tarrens Mühle";
 		GREY.."5) Blutrippe (Unten)";
 		GREY..INDENT.."Todesritter Schattensichel (Beschwörbar)";
 		GREY.."6) Marduk Schwarzborn";
 		GREY..INDENT.."Vectus";
 		GREY.."7) Ras Frostraunen";
-		GREY..INDENT.."Besitzurkunde für Brill";
+		GREY..INDENT.."Die Besitzurkunde für Brill";
 		GREY..INDENT.."Kormok (Beschwörbar)";
 		GREY.."8) Instrukteurin Malicia";
-		GREY.."9) Doktor Theolen Krastinov";
+		GREY.."9) Doktor Theolen Krastinov <Der Schlächter>";
 		GREY.."10) Hüter des Wissens Polkelt";
 		GREY.."11) Der Ravenier";
 		GREY.."12) Lord Alexei Barov";
-		GREY..INDENT.."Besitzurkunde für Darrowehr";
+		GREY..INDENT.."Die Besitzurkunde für Darrowehr";
 		GREY.."13) Lady Illucia Barov";
 		GREY.."14) Dunkelmeister Gandling";
 		GREN.."1') Fackelhebel";
@@ -775,7 +781,7 @@ AtlasMaps = {
 		BLUE.."B) Gang";
 		BLUE.."C) Gang";
 		BLUE..INDENT.."Todeshöriger Hauptmann (Rar)";
-		GREY.."1) Rotkralle";
+		GREY.."1) Rotkralle <Der Zellenbewahrer>";
 		GREY..INDENT.."Zauberhexer Aschengrund";
 		GREY..INDENT.."Todespirscher Adamant";
 		GREY..INDENT.."Landen Stillbrunn";
@@ -798,24 +804,24 @@ AtlasMaps = {
 		Acronym = "Strat";
 		Location = "Östliche Pestländer";
 		ORNG.."Ruf: Argentumdämmerung";
-		ORNG.."Schlüssel: Der scharlachrote Schlüssel (Scharlachrote Seite)";
-		ORNG.."Schlüssel: Schlüssel zur Stadt (Untoten Seite)";
-		ORNG.."Schlüssel: Briefkastenschlüssel (Postmeister)";
+		ORNG.."Schlüssel: Der scharlachrote Schlüssel (Seite der Lebenden)";
+		ORNG.."Schlüssel: Schlüssel zur Stadt (Seite der Untoten)";
+		ORNG.."Schlüssel: Verschiedene Briefkastenschlüssel (Postmeister)";
 		ORNG.."Schlüssel: Räuchergefäß der Anrufung (DS2)";
 		BLUE.."A) Eingang (Vorne)";
 		BLUE.."B) Eingang (Seite)";
 		GREY.."1) Skul (Rar, Variiert)";
 		GREY..INDENT.."Kurier von Stratholme";
 		GREY..INDENT.."Fras Siabi";
-		GREY.."2) Atiesh (Beschwörbar)";
+		GREY.."2) Atiesh <Hand von Sargeras> (Beschwörbar)";
 		GREY.."3) Herdsinger Forresten (Variiert)";
 		GREY.."4) Der Unverziehene";
 		GREY.."5) Urahne Fernwisper (Mondfest)";
 		GREY.."6) Timmy der Grausame";
 		GREY.."7) Malor der Eifrige";
-		GREY..INDENT.."Medaillon des Glaubens";
+		GREY..INDENT.."Malors Geldkassette";
 		GREY.."8) Purpurroter Hammerschmied (Beschwörbar)";
-		GREY..INDENT.."Pläne: Beschaulichkeit";
+		GREY..INDENT.."Schmiedekunstpläne";
 		GREY.."9) Kanonenmeister Willey";
 		GREY.."10) Archivar Galford";
 		GREY.."11) Oberster Kreuzzügler Dathrohan";
@@ -827,7 +833,7 @@ AtlasMaps = {
 		GREY.."14) Steinbuckel (Rar)";
 		GREY.."15) Baroness Anastari";
 		GREY..INDENT.."Schwertschmied der schwarzen Wache (Beschwörbar)";
-		GREY..INDENT.."Pläne: Verderbnis";
+		GREY..INDENT.."Schmiedekunstpläne";
 		GREY.."16) Nerub'enkan";
 		GREY.."17) Maleki der Leichenblasse";
 		GREY.."18) Ramstein der Verschlinger";
@@ -847,16 +853,16 @@ AtlasMaps = {
 		Location = "Westfall";
 		BLUE.."A) Eingang";
 		BLUE.."B) Ausgang";
-		GREY.."1) Rhahk'Zor";
+		GREY.."1) Rhahk'Zor <Der Großknecht>";
 		GREY.."2) Minenarbeiter Johnson (Rar)";
-		GREY.."3) Sneed";
-		GREY..INDENT.."Sneeds Schredder";
-		GREY.."4) Gilnid";
+		GREY.."3) Sneed <Holzfällermeister>";
+		GREY..INDENT.."Sneeds Schredder <Holzfällermeister>";
+		GREY.."4) Gilnid <Der Schmelzer>";
 		GREY.."5) Schießpulver der Defias";
 		GREY.."6) Kapitän Grünhaut";
-		GREY..INDENT.."Edwin van Cleef";
-		GREY..INDENT.."Handlanger Pein";
-		GREY..INDENT.."Krümel";
+		GREY..INDENT.."Edwin van Cleef <Herrscher der Defias>";
+		GREY..INDENT.."Handlanger Pein <Der Erste Maat>";
+		GREY..INDENT.."Krümel <Der Smutje>";
 	};
 	TheStockade = {
 		ZoneName = "Das Verlies";
@@ -874,10 +880,11 @@ AtlasMaps = {
 		ZoneName = "Der Tempel von Atal'Hakkar";
 		Acronym = "Tempel";
 		Location = "Sümpfe des Elends";
+		ORNG.."AKA: Versunkener Tempel";
 		ORNG.."Schlüssel: Yeh'kinyas Rolle (Avatar von Hakkar)";
 		BLUE.."A) Eingang";
 		BLUE.."B) Treppe";
-		BLUE.."C) Troll Minibosse (Oben)";
+		BLUE.."C) Atal'ai Verteidiger (Oben)";
 		BLUE..INDENT.."Schlitzer";
 		BLUE..INDENT.."Loro";
 		BLUE..INDENT.."Hukku";
@@ -885,7 +892,7 @@ AtlasMaps = {
 		BLUE..INDENT.."Mijan";
 		BLUE..INDENT.."Zul'Lor";
 		GREY.."1) Altar von Hakkar";
-		GREY..INDENT.."Atal'alarion";
+		GREY..INDENT.."Atal'alarion <Wächter des Götzen>";
 		GREY.."2) Traumsense";
 		GREY..INDENT.."Wirker";
 		GREY.."3) Avatar von Hakkar";
@@ -915,14 +922,14 @@ AtlasMaps = {
 		GREY.."3) Revelosh";
 		GREY.."4) Ironaya";
 		GREY.."5) Obsidianschildwache";
-		GREY.."6) Annora (Verzauberkunstmeisterin)";
+		GREY.."6) Annora <Verzauberkunstlehrerin>";
 		GREY.."7) Uralter Steinbewahrer";
 		GREY.."8) Galgann Feuerhammer";
 		GREY..INDENT.." Schrifttafel des Willens";
 		GREY..INDENT.."Schattenschmiedecache";
-		GREY.."9) Grimlok";
-		GREY.."10) Archaedas (Unten)";
-		GREY.."11) Die Scheiben von Norgannon";
+		GREY.."9) Grimlok <Häuptling der Steingrufttroggs>";
+		GREY.."10) Archaedas <Alter Steinbehüter> (Unten)";
+		GREY.."11) Die Scheiben von Norgannon (Unten)";
 		GREY..INDENT.."Antiker Schatz (Unten)";
 	};
 	ZulGurub = {
@@ -931,6 +938,7 @@ AtlasMaps = {
 		Location = "Schlingendorntal";
 		ORNG.."Ruf: Stamm der Zandalar";
 		ORNG.."Schlüssel: Matschstinkerköder (Gahz'ranka)";
+		ORNG.."Schlüssel: Mojowahnsinn der Gurubashi (Rand des Wahnsinns)";
 		BLUE.."A) Eingang";
 		GREY.."1) Hohepriesterin Jeklik (Fledermaus)";
 		GREY.."2) Hohepriester Venoxis (Schlange)";
@@ -955,17 +963,17 @@ AtlasMaps = {
 	Naxxramas = {
 		ZoneName = "Naxxramas";
 		Acronym = "Naxx";
-		Location = "Pestwald, Östliche Pestländer";
+		Location = "Östliche Pestländer";
 		ORNG.."Zugangsquest erforderlich";
 		ORNG.."Ruf: Argentumdämmerung";
 		BLUE.."A) Eingang";
 		BLUE..INDENT.."Erzmagier Tarsis Kir-Moldir";
 		BLUE..INDENT.."Mr. Bigglesworth (Wandert)";
-		BLUE.."Monströsitätenflügel";
-		BLUE..INDENT.."1) Flickwerk";
-		BLUE..INDENT.."2) Grobbulus";
-		BLUE..INDENT.."3) Gluth";
-		BLUE..INDENT.."4) Thaddius";
+		GREY.."Monströsitätenflügel";
+		GREY..INDENT.."1) Flickwerk";
+		GREY..INDENT.."2) Grobbulus";
+		GREY..INDENT.."3) Gluth";
+		GREY..INDENT.."4) Thaddius";
 		ORNG.."Spinnenflügel";
 		ORNG..INDENT.."1) Anub'Rekhan";
 		ORNG..INDENT.."2) Großwitwe Faerlina";
@@ -976,8 +984,9 @@ AtlasMaps = {
 		_RED..INDENT.."3) Die Vier Reiter";
 		_RED..INDENT..INDENT.."Thane Korth'azz";
 		_RED..INDENT..INDENT.."Lady Blaumeux";
-		_RED..INDENT..INDENT.."Hochlord Mograine";
+		_RED..INDENT..INDENT.."Hochlord Mograine <Der Aschenbringer>";
 		_RED..INDENT..INDENT.."Sire Zeliek";
+		_RED..INDENT..INDENT.."Truhe der vier Reiter";
 		PURP.."Seuchenflügel";
 		PURP..INDENT.."1) Noth der Seuchenfürst";
 		PURP..INDENT.."2) Heigan der Unreine";
@@ -1003,7 +1012,8 @@ AtlasMaps = {
 		BLUE.."H) Verbindung zur Terrasse des Meisters (Schrecken der Nacht)";
 		BLUE.."I) Weg zur Beschädigten Treppe";
 		GREY.."1) Hastings <Der Hauswart>";
-		GREY.."2) Hyakiss der Lauerer (Rar, Zufällig)";
+		GREY.."2) Quartier der Diener";
+		GREY..INDENT.."Hyakiss der Lauerer (Rar, Zufällig)";
 		GREY..INDENT.."Rokad der Verheerer (Rar, Zufällig)";
 		GREY..INDENT.."Shadikith der Gleiter (Rar, Zufällig)";
 		GREY.."3) Berthold <Der Pförtner>";
@@ -1011,7 +1021,7 @@ AtlasMaps = {
 		GREY.."5) Attumen der Jäger";
 		GREY..INDENT.."Mittnacht";
 		GREY.."6) Koren <Der Schmied>";
-		GREY.."7) Moroes";
+		GREY.."7) Moroes <Turmwärter>";
 		GREY..INDENT.."Baroness Dorothea Mühlenstein (Zufällig, Schatten Priesterin)";
 		GREY..INDENT.."Lady Catriona Von'Indi (Zufällig, Heilig Priesterin)";
 		GREY..INDENT.."Lady Keira Beerhas (Zufällig, Heilig Paladin)";
@@ -1024,10 +1034,19 @@ AtlasMaps = {
 		GREY.."11) Tugendhafte Maid";
 		GREY.."12) Sebastian <Der Orgelspieler>";
 		GREY.."13) Barnes <Der Inspizient>";
-		GREY.."14) Opernevent";
+		GREY.."14) Das Opernevent";
 		GREY..INDENT.."Rotkäppchen (Zufällig)";
-		GREY..INDENT.."Der Zauberer von Oz (Zufällig)";
-		GREY..INDENT.."Romeo und Julia (Zufällig)";
+		GREY..INDENT..INDENT.."Der große böse Wolf";
+		GREY..INDENT.."Zauberer von Oz (Zufällig)";
+		GREY..INDENT..INDENT.."Dorothee";
+		GREY..INDENT..INDENT.."Tito";
+		GREY..INDENT..INDENT.."Strohmann";
+		GREY..INDENT..INDENT.."Blechkopf";
+		GREY..INDENT..INDENT.."Brüller";
+		GREY..INDENT..INDENT.."Die böse Hexe";
+		GREY..INDENT.."Romulo und Julianne (Zufällig)";
+		GREY..INDENT..INDENT.."Romulo";
+		GREY..INDENT..INDENT.."Julianne";
 		GREY.."15) Die Terrasse des Meisters";
 		GREY..INDENT.."Schrecken der Nacht (Beschwörbar)";
 	};
@@ -1055,9 +1074,83 @@ AtlasMaps = {
 		GREY.."22) Nethergroll";
 		GREY.."23) Ythyar (Reparieren und Belohnungen)";
 		GREY.."24) Echo Medivhs";
-		GREY.."25) Schachevent";
+		GREY.."25) Staubbedeckte Truhe (Schachevent)";
 		GREY.."26) Prinz Malchezaar";
 	};
+	ZulAman = {
+		ZoneName = "Zul'Aman";
+		Acronym = "ZA";
+		Location = "Geisterlande";
+		BLUE.."A) Eingang";
+		BLUE..INDENT.."Harrison Jones";
+		GREY.."1) Nalorakk <Avatar des Bären>";
+		GREY..INDENT.."Tanzar";
+		GREY..INDENT.."Karte von Zul'Aman";
+		GREY.."2) Akil'zon <Avatar des Adlers>";
+		GREY..INDENT.."Harkor";
+		GREY.."3) Jan'alai <Avatar des Drachenfalken>";
+		GREY..INDENT.."Kraz";
+		GREY.."4) Halazzi <Avatar des Luchses>";
+		GREY..INDENT.."Ashli";
+		GREY.."5) Zungam";
+		GREY.."6) Hexlord Malacrass";
+		GREY..INDENT.."Thurg (Zufällig)";
+		GREY..INDENT.."Gazakroth (Zufällig)";
+		GREY..INDENT.."Lord Raadan (Zufällig)";
+		GREY..INDENT.."Düsterherz (Zufällig)";
+		GREY..INDENT.."Alyson Antille (Zufällig)";
+		GREY..INDENT.."Glibber (Zufällig)";
+		GREY..INDENT.."Fennpirscher (Zufällig)";
+		GREY..INDENT.."Koragg (Zufällig)";
+		GREY.."7) Zul'Jin";
+		GREN.."1') Urwaldfrösche";
+		GREN..INDENT.."Kyren <Reagenzien>";
+		GREN..INDENT.."Gunter <Lebensmittelverkäufer>";
+		GREN..INDENT.."Adarrah";
+		GREN..INDENT.."Brennan";
+		GREN..INDENT.."Darwen";
+		GREN..INDENT.."Deez";
+		GREN..INDENT.."Galathryn";
+		GREN..INDENT.."Mitzi";
+		GREN..INDENT.."Mannuth";
+	};
+	MagistersTerrace = {
+		ZoneName = "Terrasse der Magister";
+		Acronym = "MT";
+		Location = "Insel von Quel'Danas";
+		ORNG.."Ruf: Offensive der Zerschmetterten Sonne";
+		BLUE.."A) Eingang";
+		GREY.."1) Selin Feuerherz";
+		GREY..INDENT.."Teufelskristalle";
+		GREY.."2) Tyrith";
+		GREY.."3) Vexallus";
+		GREY.."4) Seherkugel";
+		GREY..INDENT.."Kalecgos";
+		GREY.."5) Priesterin Delrissa (Unten)";
+		GREY.."6) Kael'thas Sonnenwanderer <Fürst der Blutelfen>";
+	};
+	SunwellPlateau = {
+		ZoneName = "Sonnenbrunnenplateau";
+		Acronym = "SP";
+		Location = "Insel von Quel'Danas";
+		BLUE.."A) Eingang";
+		GREY.."1) Kalecgos";
+		GREY..INDENT.."Sathrovarr der Verderber";
+		GREY.."2) Madrigosa";
+		GREY..INDENT.."Brutallus";
+		GREY..INDENT.."Teufelsruch";
+		GREY.."3) Eredar Zwillinge (Unten)";
+		GREY..INDENT.."Großhexenmeisterin Alythess (Unten)";
+		GREY..INDENT.."Lady Sacrolash (Unten)";
+		GREY..INDENT.."M'uru (Oben)";
+		GREY..INDENT.."Entropius (Oben)";
+		GREY.."4) Kil'jaeden";
+	};
+
+--*******************
+-- Outland Instances
+--*******************
+
 	HCBloodFurnace = {
 		ZoneName = "HZ: Der Blutkessel";
 		Location = "Höllenfeuerzitadelle, Höllenfeuerhalbinsel";
@@ -1103,8 +1196,8 @@ AtlasMaps = {
 		BLUE.."A) Eingang";
 		GREY.."1) Wachhabender Gargolmar";
 		GREY.."2) Omor der Narbenlose";
-		GREY.."3) Vazruden der Herold";
-		GREY..INDENT.."Nazan";
+		GREY.."3) Vazruden";
+		GREY..INDENT.."Nazan <Vazrudens Reittier>";
 		GREY..INDENT.."Verstärkte Teufelseisentruhe";
 	};
 	HCMagtheridonsLair = {
@@ -1142,7 +1235,7 @@ AtlasMaps = {
 		GREY.."2) Ghaz'an";
 		GREY.."3) Erdbinder Rayge";
 		GREY.."4) Sumpffürst Musel'ek";
-		GREY..INDENT.."Windrufer Klaue";
+		GREY..INDENT.."Klaue <Sumpffürst Musel'eks Tier>";
 		GREY.."5) Die Schattenmutter";
 	};
 	CFRTheSteamvault = {
@@ -1166,13 +1259,13 @@ AtlasMaps = {
 		Acronym = "SSC, HdS";
 		ORNG.."Ruf: Expedition des Cenarius";
 		BLUE.."A) Eingang";
-		GREY.."1) Hydross der Unstete";
+		GREY.."1) Hydross der Unstete <Fürst der Strömung>";
 		GREY.."2) Das Grauen aus der Tiefe";
 		GREY.."3) Leotheras der Blinde";
 		GREY.."4) Tiefenlord Karathress";
 		GREY..INDENT.."Seher Olum";
 		GREY.."5) Morogrim Gezeitenwandler";
-		GREY.."6) Lady Vashj";
+		GREY.."6) Lady Vashj <Matrone des Echsenkessels>";
 	};
 	AuchManaTombs = {
 		ZoneName = "Auch: Managruft";
@@ -1189,7 +1282,7 @@ AtlasMaps = {
 		GREY.."4) Kryoingenieur Sha'heen";
 		GREY..INDENT.."Bedienungskonsole des Astraltransporters";
 		GREY.."5) Nexusprinz Shaffar";
-		GREY..INDENT.."Yor (Stasiskammer, Beschwörbar, Heroisch)";
+		GREY..INDENT.."Yor <Shaffars Leerenhund> (Beschwörbar, Heroisch)";
 	};
 	AuchAuchenaiCrypts = {
 		ZoneName = "Auch: Auchenaikrypta";
@@ -1260,7 +1353,7 @@ AtlasMaps = {
 		GREY..INDENT.."Wächter des dritten Teils";
 		GREY.."3) Dalliah die Verdammnisverkünderin";
 		GREY.."4) Zornseher Soccothrates";
-		GREY.."5) Seher Udalo";
+		GREY.."5) Udalo";
 		GREY.."6) Herold Horizontiss";
 		GREY..INDENT.."Aufseher Mellichar";
 		GREY..INDENT.."Millhaus Manasturm";
@@ -1287,21 +1380,21 @@ AtlasMaps = {
 		ORNG.."Ruf: Die Sha'tar";
 		ORNG.."Schlüssel: Der Schlüssel der Stürme";
 		BLUE.."A) Eingang";
-		GREY.."1) Al'ar";
+		GREY.."1) Al'ar <Phönixgott>";
 		GREY.."2) Leerhäscher";
 		GREY.."3) Hochastromant Solarian";
-		GREY.."4) Kael'thas Sonnenwanderer";
-		GREY..INDENT.."Thaladred der Verfinsterer (Krieger)";
-		GREY..INDENT.."Meisteringenieur Telonicus (Jäger)";
-		GREY..INDENT.."Großastromant Capernian (Magier)";
-		GREY..INDENT.."Fürst Blutdurst (Paladin)";
+		GREY.."4) Kael'thas Sonnenwanderer <Fürst der Blutelfen>";
+		GREY..INDENT.."Thaladred der Verfinsterer <Berater von Kael'thas> (Krieger)";
+		GREY..INDENT.."Meisteringenieur Telonicus <Berater von Kael'thas> (Jäger)";
+		GREY..INDENT.."Großastromantin Capernian <Beraterin von Kael'thas> (Magier)";
+		GREY..INDENT.."Fürst Blutdurst <Der Bluthammer> (Paladin)";
 	};
 	GruulsLair = {
 		ZoneName = "Gruuls Unterschlupf";
 		Location = "Schergrat";
 		Acronym = "Gruul";
 		BLUE.."A) Eingang";
-		GREY.."1) Hochkönig Maulgar";
+		GREY.."1) Hochkönig Maulgar <Lord der Oger>";
 		GREY..INDENT.."Gicherer der Wahnsinnige (Schamane)";
 		GREY..INDENT.."Blindauge der Seher (Priester)";
 		GREY..INDENT.."Olm der Beschwörer (Hexenmeister)";
@@ -1323,7 +1416,7 @@ AtlasMaps = {
 		GREY.."3) Supremus";
 		GREY.."4) Akamas Schemen";
 		GREY.."5) Geist von Udalo";
-		GREY..INDENT.."Aluyen (Reagenzien Verkäufer)";
+		GREY..INDENT.."Aluyen <Reagenzien>";
 		GREY..INDENT.."Okuno <Rüstmeister der Todeshörigen>";
 		GREY..INDENT.."Seher Kanai";
 	};
@@ -1337,9 +1430,9 @@ AtlasMaps = {
 		BLUE.."C) Eingang";   
 		GREY.."6) Gurtogg Siedeblut";
 		GREY.."7) Reliquiar der Verirrten";
-		GREY..INDENT.."Essenz des Zorns";
-		GREY..INDENT.."Essenz der Begierde";
 		GREY..INDENT.."Essenz des Leidens";
+		GREY..INDENT.."Essenz der Begierde";
+		GREY..INDENT.."Essenz des Zorns";
 		GREY.."8) Teron Blutschatten";
 	};
 	BlackTempleTop = {
@@ -1350,81 +1443,12 @@ AtlasMaps = {
 		ORNG.."Schlüssel: Medaillon von Karabor";
 		BLUE.."D) Eingang";
 		GREY.."9) Mutter Shahraz";
-		GREY.."10) Rat der Illidari";
+		GREY.."10) Der Rat der Illidari";
 		GREY..INDENT.."Lady Malande (Priesterin)";
 		GREY..INDENT.."Gathios der Zerschmetterer (Paladin)";
 		GREY..INDENT.."Hochnethermant Zerevor (Magier)";
 		GREY..INDENT.."Veras Schwarzschatten (Schurke)";
-		GREY.."11) Illidan Sturmgrimm";
-	};
-	ZulAman = {
-		ZoneName = "Zul'Aman";
-		Location = "Geisterlande";
-		Acronym = "ZA";
-		BLUE.."A) Eingang";
-		BLUE..INDENT.."Harrison Jones";
-		GREY.."1) Nalorakk (Bär)";
-		GREY..INDENT.."Tanzar";
-		GREY..INDENT.."Budds Karte von Zul'Aman";
-		GREY.."2) Akil'zon (Adler)";
-		GREY..INDENT.."Harkor";
-		GREY.."3) Jan'alai (Drachenfalke)";
-		GREY..INDENT.."Kraz";
-		GREY.."4) Halazzi (Luchs)";
-		GREY..INDENT.."Ashli";
-		GREY.."5) Zungam";
-		GREY.."6) Hexlord Malacrass";
-		GREY..INDENT.."Thurg (Zufällig)";
-		GREY..INDENT.."Gazakroth (Zufällig)";
-		GREY..INDENT.."Lord Raadan (Zufällig)";
-		GREY..INDENT.."Düsterherz (Zufällig)";
-		GREY..INDENT.."Alyson Antille (Zufällig)";
-		GREY..INDENT.."Glibber (Zufällig)";
-		GREY..INDENT.."Fennpirscher (Zufällig)";
-		GREY..INDENT.."Koragg (Zufällig)";
-		GREY.."7) Zul'Jin";
-		GREN.."1') Urwaldfrösche, die sich verwandeln in:";
-		GREN..INDENT.."Kyren";
-		GREN..INDENT.."Gunter";
-		GREN..INDENT.."Adarrah";
-		GREN..INDENT.."Brennan";
-		GREN..INDENT.."Darwen";
-		GREN..INDENT.."Deez";
-		GREN..INDENT.."Galathryn";
-		GREN..INDENT.."Mitzi";
-		GREN..INDENT.."Mannuth";
-	};
-	MagistersTerrace = {
-		ZoneName = "Terrasse der Magister";
-		Location = "Insel von Quel'Danas";
-		Acronym = "MT";
-		ORNG.."Ruf: Offensive der Zerschmetterten Sonne";
-		BLUE.."A) Eingang";
-		GREY.."1) Selin Feuerherz";
-		GREY..INDENT.."Teufelskristalle";
-		GREY.."2) Tyrith";
-		GREY.."3) Vexallus";
-		GREY.."4) Seherkugel";
-		GREY..INDENT.."Kalecgos";
-		GREY.."5) Priesterin Delrissa (Unten)";
-		GREY.."6) Kael'thas Sonnenwanderer";
-	};
-	SunwellPlateau = {
-		ZoneName = "Sonnenbrunnenplateau";
-		Location = "Insel von Quel'Danas";
-		Acronym = "SP";
-		BLUE.."A) Eingang";
-		GREY.."1) Kalecgos";
-		GREY..INDENT.."Sathrovarr der Verderber";
-		GREY.."2) Madrigosa";
-		GREY..INDENT.."Brutallus";
-		GREY..INDENT.."Teufelsruch";
-		GREY.."3) Eredar Zwillinge (Unten)";
-		GREY..INDENT.."Großhexenmeisterin Alythess (Unten)";
-		GREY..INDENT.."Lady Sacrolash (Unten)";
-		GREY..INDENT.."M'uru (Oben)";
-		GREY..INDENT.."Entropius (Oben)";
-		GREY.."4) Kil'jaeden";
+		GREY.."11) Illidan Sturmgrimm <Der Verräter>";
 	};
 };
 

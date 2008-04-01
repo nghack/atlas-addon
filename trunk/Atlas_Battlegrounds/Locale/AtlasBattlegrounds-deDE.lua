@@ -31,6 +31,13 @@ if ( GetLocale() == "deDE" ) then
 	local ORNG = "|cffcc9933";
 	local PURP = "|cff9900ff";
 	local INDENT = "      ";
+	
+	local ZONE = 1;
+	local NPC = 2;
+	local ITEM = 3;
+	local OBJECT = 4;
+	local FACTION = 5;
+	local QUEST = 6;
 
 	local myCategory = "Schlachtfeldkarten";
 
@@ -42,7 +49,7 @@ if ( GetLocale() == "deDE" ) then
 			ORNG.."Ruf: Sturmlanzengarde";
 			BLUE.."A) Allianz Eingang";
 			BLUE.."B) Dun Baldar";
-			BLUE..INDENT.."Vanndar Sturmlanze";
+			BLUE..INDENT.."Vanndar Sturmlanze <General der Sturmlanzen>";
 			BLUE..INDENT.."Marschall der Nordtruppen von Dun Baldar";
 			BLUE..INDENT.."Marschall der Südtruppen von Dun Baldar";
 			BLUE..INDENT.."Marschall der Eisschwingentruppen";
@@ -107,7 +114,7 @@ if ( GetLocale() == "deDE" ) then
 			ORNG.."Ruf: Frostwolfklan";
 			BLUE.."A) Horde Eingang";
 			BLUE.."B) Burg Frostwolf";
-			BLUE..INDENT.."Drek'Thar";
+			BLUE..INDENT.."Drek'Thar <General der Frostwölfe>";
 			BLUE..INDENT.."Duros";
 			BLUE..INDENT.."Drakan";
 			BLUE..INDENT.."Westkriegsmeister der Frostwölfe";
@@ -116,7 +123,7 @@ if ( GetLocale() == "deDE" ) then
 			BLUE..INDENT.."Kriegsmeister der Eisbluttruppen";
 			GREY.."1) Lokholar der Eislord (Beschwörungszone)";
 			ORNG.."2) Eisblutgarnison";
-			GREY..INDENT.."Hauptmann Galvangar";
+			GREY..INDENT.."Hauptmann Galvangar <Hauptmann der Frostwölfe>";
 			ORNG.."3) Eisblutturm";
 			_RED.."4) Eisblutfriedhof";
 			GREY.."Schwadronskommandant Ichman (Allianz)";
@@ -185,18 +192,6 @@ if ( GetLocale() == "deDE" ) then
 			GREY.."4) Blutelfenturm";
 		};
 	};
-
-	myData.AlteracValleyNorth.LevelRange =		"51-70";
-	myData.AlteracValleySouth.LevelRange =		"51-70";
-	myData.ArathiBasin.LevelRange =				"20-70";
-	myData.WarsongGulch.LevelRange =			"10-70";
-	myData.EyeOfTheStorm.LevelRange =			"61-70";
-
-	myData.AlteracValleyNorth.PlayerLimit =		"40";
-	myData.AlteracValleySouth.PlayerLimit =		"40";
-	myData.ArathiBasin.PlayerLimit =			"15";
-	myData.WarsongGulch.PlayerLimit =			"10";
-	myData.EyeOfTheStorm.PlayerLimit =			"15";
 
 	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
 

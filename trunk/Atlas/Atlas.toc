@@ -14,7 +14,6 @@
 ## X-Website: http://www.atlasmod.com
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## X-OptionsFrame: AtlasOptionsFrame
-## X-Help: ATLAS_HELP
 ## SavedVariablesPerCharacter: AtlasOptions
 ## OptionalDeps: Titan, myAddOns, EarthFeatureFrame
 
@@ -24,6 +23,8 @@ Locale\Atlas-frFR.lua
 Locale\Atlas-zhCN.lua
 Locale\Atlas-esES.lua
 Locale\Atlas-zhTW.lua
+
+AtlasMaps.lua
 
 AtlasDropDown.lua
 

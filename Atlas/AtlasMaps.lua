@@ -24,418 +24,450 @@
 
 --[[
 
--- Atlas English Localization
+-- Atlas Data
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
+-- Many thanks to all contributors!
+-- Now with GUIDs!
+-- Now externally localized!
 
 --]]
 
-AtlasSortIgnore = {"the (.+)"};
+local BLUE = "|cff6666ff";
+local GREY = "|cff999999";
+local GREN = "|cff66cc33";
+local _RED = "|cffcc6666";
+local ORNG = "|cffcc9933";
+local PURP = "|cff9900ff";
+local INDENT = "      ";
 
-ATLAS_TITLE = "Atlas";
-ATLAS_SUBTITLE = "Instance Map Browser";
-ATLAS_DESC = "Atlas is an instance map browser.";
+local ZONE = 1;
+local NPC = 2;
+local ITEM = 3;
+local OBJECT = 4;
+local FACTION = 5;
+local QUEST = 6;
 
-BINDING_HEADER_ATLAS_TITLE = "Atlas Bindings";
-BINDING_NAME_ATLAS_TOGGLE = "Toggle Atlas";
-BINDING_NAME_ATLAS_OPTIONS = "Toggle Options";
-
-ATLAS_SLASH = "/atlas";
-ATLAS_SLASH_OPTIONS = "options";
-
-ATLAS_STRING_LOCATION = "Location";
-ATLAS_STRING_LEVELRANGE = "Level Range";
-ATLAS_STRING_PLAYERLIMIT = "Player Limit";
-ATLAS_STRING_SELECT_CAT = "Select Category";
-ATLAS_STRING_SELECT_MAP = "Select Map";
-ATLAS_STRING_SEARCH = "Search";
-ATLAS_STRING_CLEAR = "Clear";
-
-ATLAS_OPTIONS_BUTTON = "Options";
-ATLAS_OPTIONS_TITLE = "Atlas Options";
-ATLAS_OPTIONS_SHOWBUT = "Show Button on Minimap";
-ATLAS_OPTIONS_AUTOSEL = "Auto-Select Instance Map";
-ATLAS_OPTIONS_BUTPOS = "Button Position";
-ATLAS_OPTIONS_TRANS = "Transparency";
-ATLAS_OPTIONS_DONE = "Done";
-ATLAS_OPTIONS_REPMAP = "Replace the World Map";
-ATLAS_OPTIONS_RCLICK = "Right-Click for World Map";
-ATLAS_OPTIONS_SHOWMAPNAME = "Show map name";
-ATLAS_OPTIONS_RESETPOS = "Reset Position";
-ATLAS_OPTIONS_ACRONYMS = "Display Acronyms";
-ATLAS_OPTIONS_SCALE = "Scale";
-ATLAS_OPTIONS_BUTRAD = "Button Radius";
-ATLAS_OPTIONS_CLAMPED = "Clamp window to screen"
-ATLAS_OPTIONS_HELP = "Left-click and drag to move this window."
-ATLAS_OPTIONS_CTRL = "Hold down Control for tooltips"
-ATLAS_OPTIONS_COORDS = "Show coordinates on the World Map"
-
-ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
-ATLAS_BUTTON_TOOLTIP_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
-ATLAS_TITAN_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click for the display menu.";
-
-ATLAS_OPTIONS_CATDD = "Sort Instance Maps by:";
-ATLAS_DDL_CONTINENT = "Continent";
-ATLAS_DDL_CONTINENT_EASTERN = "Eastern Kingdoms Instances";
-ATLAS_DDL_CONTINENT_KALIMDOR = "Kalimdor Instances";
-ATLAS_DDL_CONTINENT_OUTLAND = "Outland Instances";
-ATLAS_DDL_LEVEL = "Level";
-ATLAS_DDL_LEVEL_UNDER45 = "Instances Under Level 45";
-ATLAS_DDL_LEVEL_45TO60 = "Instances Level 45-60";
-ATLAS_DDL_LEVEL_60TO70 = "Instances Level 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "Instances Level 70+";
-ATLAS_DDL_PARTYSIZE = "Party Size";
-ATLAS_DDL_PARTYSIZE_5 = "Instances for 5 Players";
-ATLAS_DDL_PARTYSIZE_10 = "Instances for 10 Players";
-ATLAS_DDL_PARTYSIZE_20TO40 = "Instances for 20-40 Players";
-ATLAS_DDL_EXPANSION = "Expansion";
-ATLAS_DDL_EXPANSION_OLD = "Old World Instances";
-ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
-
-ATLAS_INSTANCE_BUTTON = "Instance";
-ATLAS_ENTRANCE_BUTTON = "Entrance";
-ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
-
-AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"] = "Sunken Temple";
-	["Ahn'Qiraj"] = "Temple of Ahn'Qiraj";
-	["Karazhan"] = "Karazhan [A] (Start)";
-	["Black Temple"] = "Black Temple [A] (Start)";
-};
-
-AtlasLocale = {
+AtlasMaps = {
 
 --************************************************
--- Zone Names, Acronyms, and Common Strings
+-- Kalimdor Instances
 --************************************************
 
-	--Common strings
-	["Entrance"] = "Entrance";
-	["Exit"] = "Exit";
-	["Attunement Required"] = "Attunement Required";
-	
-	--Continents
-	["Kalimdor"] = "Kalimdor";
-	
-	--Instance names and acronyms
-	["Ragefire Chasm"] = "Ragefire Chasm"; ["RFC"] = "RFC";
-	["Wailing Caverns"] = "Wailing Caverns"; ["WC"] = "WC";
-	["Blackfathom Deeps"] = "Blackfathom Deeps"; ["BFD"] = "BFD";
-	["Razorfen Kraul"] = "Razorfen Kraul"; ["RFK"] = "RFK";
-	["Razorfen Downs"] = "Razorfen Downs"; ["RFD"] = "RFD";
-	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
-	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
-	["Dire Maul (East)"] = "Dire Maul (East)"; ["DM"] = "DM";
-	["Dire Maul (North)"] = "Dire Maul (North)";
-	["Dire Maul (West)"] = "Dire Maul (West)";
-	["Onyxia's Lair"] = "Onyxia's Lair"; ["Ony"] = "Ony";
-	["Temple of Ahn'Qiraj"] = "Temple of Ahn'Qiraj"; ["AQ40"] = "AQ40";
-	["Ruins of Ahn'Qiraj"] = "Ruins of Ahn'Qiraj"; ["AQ20"] = "AQ20";
-	["CoT: The Black Morass"] = "CoT: The Black Morass"; ["CoT2"] = "CoT2";
-	["CoT: Hyjal Summit"] = "CoT: Hyjal Summit"; ["CoT3"] = "CoT3";
-	["CoT: Old Hillsbrad Foothills"] = "CoT: Old Hillsbrad Foothills"; ["CoT1"] = "CoT1";
-	
-	--Outdoor zones, Locations
-	["Orgrimmar"] = "Orgrimmar";
-	["The Barrens"] = "The Barrens";
-	["Ashenvale"] = "Ashenvale";
-	["Tanaris"] = "Tanaris";
-	["Desolace"] = "Desolace";
-	["Feralas"] = "Feralas";
-	["Dustwallow Marsh"] = "Dustwallow Marsh";
-	["Silithus"] = "Silithus";
-	["Caverns of Time, Tanaris"] = "Caverns of Time, Tanaris";
+	RagefireChasm = {
+		ZoneName = { AtlasLocale["Ragefire Chasm"], 2437 };
+		Acronym = AtlasLocale["RFC"];
+		Location = { AtlasLocale["Orgrimmar"], 1637 };
+		LevelRange = "12-18";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Maur Grimtotem"], NPC, 11834 };
+		{ GREY..INDENT..AtlasLocale["Oggleflint <Ragefire Chieftain>"], NPC, 11517 };
+		{ GREY.."2) "..AtlasLocale["Taragaman the Hungerer"], NPC, 11520 };
+		{ GREY.."3) "..AtlasLocale["Jergosh the Invoker"], NPC, 11518 };
+		{ GREY..INDENT..AtlasLocale["Zelemar the Wrathful (Summon)"], NPC, 17830 };
+		{ GREY.."4) "..AtlasLocale["Bazzalan"], NPC, 11519 };
+	};
+	WailingCaverns = {
+		ZoneName = { AtlasLocale["Wailing Caverns"], 718 };
+		Acronym = AtlasLocale["WC"];
+		Location = { AtlasLocale["The Barrens"], 17 };
+		LevelRange = "16-25";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Disciple of Naralex"], NPC, 3678 };
+		{ GREY.."2) "..AtlasLocale["Lord Cobrahn <Fanglord>"], NPC, 3669 };
+		{ GREY.."3) "..AtlasLocale["Lady Anacondra <Fanglord>"], NPC, 3671 };
+		{ GREY.."4) "..AtlasLocale["Kresh"], NPC, 3653 };
+		{ GREY.."5) "..AtlasLocale["Lord Pythas <Fanglord>"], NPC, 3670 };
+		{ GREY.."6) "..AtlasLocale["Skum"], NPC, 3674 };
+		{ GREY.."7) "..AtlasLocale["Lord Serpentis <Fanglord> (Upper)"], NPC, 3673 };
+		{ GREY.."8) "..AtlasLocale["Verdan the Everliving (Upper)"], NPC, 5775 };
+		{ GREY.."9) "..AtlasLocale["Mutanus the Devourer"], NPC, 3654 };
+		{ GREY..INDENT..AtlasLocale["Naralex"], NPC, 3679 };
+		{ GREY.."10) "..AtlasLocale["Deviate Faerie Dragon (Rare)"], NPC, 5912 };
+	};
+	BlackfathomDeeps = {
+		ZoneName = { AtlasLocale["Blackfathom Deeps"], 719 };
+		Acronym = AtlasLocale["BFD"];
+		Location = { AtlasLocale["Ashenvale"], 331 };
+		LevelRange = "20-28";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Ghamoo-ra"], NPC, 4887 };
+		{ GREY.."2) "..AtlasLocale["Lorgalis Manuscript"], ITEM, 5359 };
+		{ GREY.."3) "..AtlasLocale["Lady Sarevess"], NPC, 4831 };
+		{ GREY.."4) "..AtlasLocale["Argent Guard Thaelrid <The Argent Dawn>"], NPC, 4787 };
+		{ GREY.."5) "..AtlasLocale["Gelihast"], NPC, 6243 };
+		{ GREY..INDENT..AtlasLocale["Shrine of Gelihast"] };
+		{ GREY.."6) "..AtlasLocale["Lorgus Jett (Varies)"], NPC, 12902 };
+		{ GREY.."7) "..AtlasLocale["Fathom Stone"], OBJECT, 177964 };
+		{ GREY..INDENT..AtlasLocale["Baron Aquanis"], NPC, 12876 };
+		{ GREY.."8) "..AtlasLocale["Twilight Lord Kelris"], NPC, 4832 };
+		{ GREY.."9) "..AtlasLocale["Old Serra'kis"], NPC, 4830 };
+		{ GREY.."10) "..AtlasLocale["Aku'mai"], NPC, 4829 };
+		{ GREY..INDENT..AtlasLocale["Morridune"], NPC, 6729 };
+		{ GREY..INDENT..AtlasLocale["Altar of the Deeps"] };
+	};
+	RazorfenKraul = {
+		ZoneName = { AtlasLocale["Razorfen Kraul"], 491 };
+		Acronym = AtlasLocale["RFK"];
+		Location = { AtlasLocale["The Barrens"], 17 };
+		LevelRange = "23-33";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Roogug"], NPC, 6168 };
+		{ GREY.."2) "..AtlasLocale["Aggem Thorncurse <Death's Head Prophet>"], NPC, 4424 };
+		{ GREY.."3) "..AtlasLocale["Death Speaker Jargba <Death's Head Captain>"], NPC, 4428 };
+		{ GREY.."4) "..AtlasLocale["Overlord Ramtusk"], NPC, 4420 };
+		{ GREY..INDENT..AtlasLocale["Razorfen Spearhide"], NPC, 4438 };
+		{ GREY.."5) "..AtlasLocale["Agathelos the Raging"], NPC, 4422 };
+		{ GREY.."6) "..AtlasLocale["Blind Hunter (Rare)"], NPC, 4425 };
+		{ GREY.."7) "..AtlasLocale["Charlga Razorflank <The Crone>"], NPC, 4421 };
+		{ GREY.."8) "..AtlasLocale["Willix the Importer"], NPC, 4508 };
+		{ GREY..INDENT..AtlasLocale["Heralath Fallowbrook"], NPC, 4510 };
+		{ GREY.."9) "..AtlasLocale["Earthcaller Halmgar (Rare)"], NPC, 4842 };
+	};
+	RazorfenDowns = {
+		ZoneName = { AtlasLocale["Razorfen Downs"], 722 };
+		Acronym = AtlasLocale["RFD"];
+		Location = { AtlasLocale["The Barrens"], 17 };
+		LevelRange = "33-42";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Tuten'kash"], NPC, 7355 };
+		{ GREY.."2) "..AtlasLocale["Henry Stern"], NPC, 8696 };
+		{ GREY..INDENT..AtlasLocale["Belnistrasz"], NPC, 8516 };
+		{ GREY..INDENT..AtlasLocale["Sah'rhee"], NPC, 8767 };
+		{ GREY.."3) "..AtlasLocale["Mordresh Fire Eye"], NPC, 7357 };
+		{ GREY.."4) "..AtlasLocale["Glutton"], NPC, 8567 };
+		{ GREY.."5) "..AtlasLocale["Ragglesnout (Rare, Varies)"], NPC, 7354 };
+		{ GREY.."6) "..AtlasLocale["Amnennar the Coldbringer"], NPC, 7358 };
+		{ GREY.."7) "..AtlasLocale["Plaguemaw the Rotting"], NPC, 7356 };
+	};
+	ZulFarrak = {
+		ZoneName = { AtlasLocale["Zul'Farrak"], 978 };
+		Acronym = AtlasLocale["ZF"];
+		Location = { AtlasLocale["Tanaris"], 440 };
+		LevelRange = "42-48";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Key: Mallet of Zul'Farrak (Gahz'rilla)"], ITEM, 9240 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Antu'sul <Overseer of Sul>"], NPC, 8127 };
+		{ GREY.."2) "..AtlasLocale["Theka the Martyr"], NPC, 7272 };
+		{ GREY.."3) "..AtlasLocale["Witch Doctor Zum'rah"], NPC, 7271 };
+		{ GREY..INDENT..AtlasLocale["Zul'Farrak Dead Hero"], NPC, 7276 };
+		{ GREY.."4) "..AtlasLocale["Nekrum Gutchewer"], NPC, 7796 };
+		{ GREY..INDENT..AtlasLocale["Shadowpriest Sezz'ziz"], NPC, 7275 };
+		{ GREY..INDENT..AtlasLocale["Dustwraith (Rare)"], NPC, 10081 };
+		{ GREY.."5) "..AtlasLocale["Sergeant Bly"], NPC, 7604 };
+		{ GREY..INDENT..AtlasLocale["Weegli Blastfuse"], NPC, 7607 };
+		{ GREY..INDENT..AtlasLocale["Murta Grimgut"], NPC, 7608 };
+		{ GREY..INDENT..AtlasLocale["Raven"], NPC, 7605 };
+		{ GREY..INDENT..AtlasLocale["Oro Eyegouge"], NPC, 7606 };
+		{ GREY..INDENT..AtlasLocale["Sandfury Executioner"], NPC, 7274 };
+		{ GREY.."6) "..AtlasLocale["Hydromancer Velratha"], NPC, 7795 };
+		{ GREY..INDENT..AtlasLocale["Gahz'rilla (Summon)"], NPC, 7273 };
+		{ GREY..INDENT..AtlasLocale["Elder Wildmane (Lunar)"], NPC, 15578 };
+		{ GREY.."7) "..AtlasLocale["Chief Ukorz Sandscalp"], NPC, 7267 };
+		{ GREY..INDENT..AtlasLocale["Ruuzlu"], NPC, 7797 };
+		{ GREY.."8) "..AtlasLocale["Zerillis (Rare, Wanders)"], NPC, 10082 };
+		{ GREY.."9) "..AtlasLocale["Sandarr Dunereaver (Rare)"], NPC, 10080 };
+	};
+	Maraudon = {
+		ZoneName = { AtlasLocale["Maraudon"], 2100 };
+		Acronym = AtlasLocale["Mara"];
+		Location = { AtlasLocale["Desolace"], 405 };
+		LevelRange = "42-51";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Key: Scepter of Celebras (Portal)"], ITEM, 17191 };
+		{ BLUE.."A) "..AtlasLocale["Entrance (Orange)"] };
+		{ BLUE.."B) "..AtlasLocale["Entrance (Purple)"] };
+		{ BLUE.."C) "..AtlasLocale["Entrance (Portal)"] };
+		{ GREY.."1) "..AtlasLocale["Veng <The Fifth Khan>"], NPC, 13738 };
+		{ GREY.."2) "..AtlasLocale["Noxxion"], NPC, 13282 };
+		{ GREY.."3) "..AtlasLocale["Razorlash"], NPC, 12258 };
+		{ GREY.."4) "..AtlasLocale["Maraudos <The Fourth Khan>"], NPC, 13739 };
+		{ GREY.."5) "..AtlasLocale["Lord Vyletongue"], NPC, 12236 };
+		{ GREY.."6) "..AtlasLocale["Meshlok the Harvester (Rare)"], NPC, 12237 };
+		{ GREY.."7) "..AtlasLocale["Celebras the Cursed"], NPC, 12225 };
+		{ GREY.."8) "..AtlasLocale["Landslide"], NPC, 12203 };
+		{ GREY.."9) "..AtlasLocale["Tinkerer Gizlock"], NPC, 13601 };
+		{ GREY.."10) "..AtlasLocale["Rotgrip"], NPC, 13596 };
+		{ GREY.."11) "..AtlasLocale["Princess Theradras"], NPC, 12201 };
+		{ GREY.."12) "..AtlasLocale["Elder Splitrock (Lunar)"], NPC, 15556 };
+	};
+	DireMaulEast = {
+		ZoneName = { AtlasLocale["Dire Maul (East)"], 2557 };
+		Acronym = AtlasLocale["DM"];
+		Location = { AtlasLocale["Feralas"], 357 };
+		LevelRange = "55-58";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Key: Brazier of Invocation (DS2)"], ITEM, 22057 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Entrance"] };
+		{ BLUE.."C) "..AtlasLocale["Entrance"] };
+		{ BLUE.."D) "..AtlasLocale["Exit"] };
+		{ GREY.."1) "..AtlasLocale["Pusillin (Chase Begins)"], NPC, 14354 };
+		{ GREY.."2) "..AtlasLocale["Pusillin (Chase Ends)"], NPC, 14354 };
+		{ GREY.."3) "..AtlasLocale["Zevrim Thornhoof"], NPC, 11490 };
+		{ GREY..INDENT..AtlasLocale["Hydrospawn"], NPC, 13280 };
+		{ GREY..INDENT..AtlasLocale["Lethtendris"], NPC, 14327 };
+		{ GREY..INDENT..AtlasLocale["Pimgib"], NPC, 14349 };
+		{ GREY.."4) "..AtlasLocale["Old Ironbark"], NPC, 11491 };
+		{ GREY.."5) "..AtlasLocale["Alzzin the Wildshaper"], NPC, 11492 };
+		{ GREY..INDENT..AtlasLocale["Isalien (Summon)"], NPC, 16097 };
+	};
+	DireMaulNorth = {
+		ZoneName = { AtlasLocale["Dire Maul (North)"], 2557 };
+		Acronym = AtlasLocale["DM"];
+		Location = { AtlasLocale["Feralas"], 357 };
+		LevelRange = "57-60";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Key: Crescent Key"], ITEM, 18249 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Library"] };
+		{ GREY.."1) "..AtlasLocale["Guard Mol'dar"], NPC, 14326 };
+		{ GREY.."2) "..AtlasLocale["Stomper Kreeg <The Drunk>"], NPC, 14322 };
+		{ GREY.."3) "..AtlasLocale["Guard Fengus"], NPC, 14321 };
+		{ GREY.."4) "..AtlasLocale["Knot Thimblejack"], NPC, 14338 };
+		{ GREY..INDENT..AtlasLocale["Guard Slip'kik"], NPC, 14323 };
+		{ GREY.."5) "..AtlasLocale["Captain Kromcrush"], NPC, 14325 };
+		{ GREY.."6) "..AtlasLocale["King Gordok"], NPC, 11501 };
+		{ GREY..INDENT..AtlasLocale["Cho'Rush the Observer"], NPC, 14324 };
+	};
+	DireMaulWest = {
+		ZoneName = { AtlasLocale["Dire Maul (West)"], 2557 };
+		Acronym = AtlasLocale["DM"];
+		Location = { AtlasLocale["Feralas"], 357 };
+		LevelRange = "57-60";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Key: Crescent Key"], ITEM, 18249 };
+		{ ORNG..AtlasLocale["Key: J'eevee's Jar (Lord Hel'nurath)"], ITEM, 18663 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Pylons"] };
+		{ GREY.."1) "..AtlasLocale["Shen'dralar Ancient"], NPC, 14358 };
+		{ GREY.."2) "..AtlasLocale["Tendris Warpwood"], NPC, 11489 };
+		{ GREY..INDENT..AtlasLocale["Ancient Equine Spirit"], NPC, 14566 };
+		{ GREY.."3) "..AtlasLocale["Illyanna Ravenoak"], NPC, 11488 };
+		{ GREY..INDENT..AtlasLocale["Ferra"], NPC, 14308 };
+		{ GREY.."4) "..AtlasLocale["Magister Kalendris"], NPC, 11487 };
+		{ GREY.."5) "..AtlasLocale["Tsu'zee (Rare)"], NPC, 11467 };
+		{ GREY.."6) "..AtlasLocale["Immol'thar"], NPC, 11496 };
+		{ GREY..INDENT..AtlasLocale["Lord Hel'nurath (Summon)"], NPC, 14506 };
+		{ GREY.."7) "..AtlasLocale["Prince Tortheldrin"], NPC, 11486 };
+		{ GREN.."1') "..AtlasLocale["Library"] };
+		{ GREN..INDENT..AtlasLocale["Falrin Treeshaper"], NPC, 16032 };
+		{ GREN..INDENT..AtlasLocale["Lorekeeper Lydros"], NPC, 14368 };
+		{ GREN..INDENT..AtlasLocale["Lorekeeper Javon"], NPC, 14381 };
+		{ GREN..INDENT..AtlasLocale["Lorekeeper Kildrath"], NPC, 14383 };
+		{ GREN..INDENT..AtlasLocale["Lorekeeper Mykos"], NPC, 14382 };
+		{ GREN..INDENT..AtlasLocale["Shen'dralar Provisioner"], NPC, 14371 };
+		{ GREN..INDENT..AtlasLocale["Skeletal Remains of Kariel Winthalus"], OBJECT, 179544 };
+	};
+	OnyxiasLair = {
+		ZoneName = { AtlasLocale["Onyxia's Lair"], 2159 };
+		Acronym = AtlasLocale["Ony"];
+		Location = { AtlasLocale["Dustwallow Marsh"], 15 };
+		LevelRange = "60-70";
+		PlayerLimit = "40";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Attunement Required"] };
+		{ ORNG..AtlasLocale["Key: Drakefire Amulet"], ITEM, 16309 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Onyxian Warders"], NPC, 12129 };
+		{ GREY.."2) "..AtlasLocale["Whelp Eggs"] };
+		{ GREY.."3) "..AtlasLocale["Onyxia"], NPC, 10184 };
+	};
+	TheTempleofAhnQiraj = {
+		ZoneName = { AtlasLocale["Temple of Ahn'Qiraj"], 3428 };
+		Acronym = AtlasLocale["AQ40"];
+		Location = { AtlasLocale["Silithus"], 1377 };
+		LevelRange = "60-70";
+		PlayerLimit = "40";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Rep: Brood of Nozdormu"], FACTION, 910 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["The Prophet Skeram (Outside)"], NPC, 15263 };
+		{ GREY.."2) "..AtlasLocale["The Bug Family (Optional)"] };
+		{ GREY..INDENT..AtlasLocale["Vem"], NPC, 15544 };
+		{ GREY..INDENT..AtlasLocale["Lord Kri"], NPC, 15511 };
+		{ GREY..INDENT..AtlasLocale["Princess Yauj"], NPC, 15543 };
+		{ GREY.."3) "..AtlasLocale["Battleguard Sartura"], NPC, 15516 };
+		{ GREY.."4) "..AtlasLocale["Fankriss the Unyielding"], NPC, 15510 };
+		{ GREY.."5) "..AtlasLocale["Viscidus (Optional)"], NPC, 15299 };
+		{ GREY.."6) "..AtlasLocale["Princess Huhuran"], NPC, 15509 };
+		{ GREY.."7) "..AtlasLocale["Twin Emperors"] };
+		{ GREY..INDENT..AtlasLocale["Emperor Vek'lor"], NPC, 15276 };
+		{ GREY..INDENT..AtlasLocale["Emperor Vek'nilash"], NPC, 15275 };
+		{ GREY.."8) "..AtlasLocale["Ouro (Optional)"], NPC, 15517 };
+		{ GREY.."9) "..AtlasLocale["Eye of C'Thun"], NPC, 15589 };
+		{ GREY..INDENT..AtlasLocale["C'Thun"], NPC, 15727 };
+		{ GREN.."1') "..AtlasLocale["Andorgos <Brood of Malygos>"], NPC, 15502 };
+		{ GREN..INDENT..AtlasLocale["Vethsera <Brood of Ysera>"], NPC, 15504 };
+		{ GREN..INDENT..AtlasLocale["Kandrostrasz <Brood of Alexstrasza>"], NPC, 15503 };
+		{ GREN.."2') "..AtlasLocale["Arygos"], NPC, 15380 };
+		{ GREN..INDENT..AtlasLocale["Caelestrasz"], NPC, 15379 };
+		{ GREN..INDENT..AtlasLocale["Merithra of the Dream"], NPC, 15378 };
+	};
+	TheRuinsofAhnQiraj = {
+		ZoneName = { AtlasLocale["Ruins of Ahn'Qiraj"], 3429 };
+		Acronym = AtlasLocale["AQ20"];
+		Location = { AtlasLocale["Silithus"], 1377 };
+		LevelRange = "60-70";
+		PlayerLimit = "20";
+		Continent = AtlasLocale["Kalimdor"];
+		{ ORNG..AtlasLocale["Rep: Cenarion Circle"], FACTION, 609 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Kurinnaxx"], NPC, 15348 };
+		{ GREY..INDENT..AtlasLocale["Lieutenant General Andorov"], NPC, 15471 };
+		{ GREY..INDENT..AtlasLocale["Four Kaldorei Elites"], NPC, 15473 };
+		{ GREY.."2) "..AtlasLocale["General Rajaxx"], NPC, 15341 };
+		{ GREY..INDENT..AtlasLocale["Captain Qeez"], NPC, 15391 };
+		{ GREY..INDENT..AtlasLocale["Captain Tuubid"], NPC, 15392 };
+		{ GREY..INDENT..AtlasLocale["Captain Drenn"], NPC, 15389 };
+		{ GREY..INDENT..AtlasLocale["Captain Xurrem"], NPC, 15390 };
+		{ GREY..INDENT..AtlasLocale["Major Yeggeth"], NPC, 15386 };
+		{ GREY..INDENT..AtlasLocale["Major Pakkon"], NPC, 15388 };
+		{ GREY..INDENT..AtlasLocale["Colonel Zerran"], NPC, 15385 };
+		{ GREY.."3) "..AtlasLocale["Moam (Optional)"], NPC, 15340 };
+		{ GREY.."4) "..AtlasLocale["Buru the Gorger (Optional)"], NPC, 15370 };
+		{ GREY.."5) "..AtlasLocale["Ayamiss the Hunter (Optional)"], NPC, 15369 };
+		{ GREY.."6) "..AtlasLocale["Ossirian the Unscarred"], NPC, 15339 };
+		{ GREN.."1') "..AtlasLocale["Safe Room"] };
+	};
+	CoTBlackMorass = {
+		ZoneName = { AtlasLocale["CoT: The Black Morass"], 2366 };
+		Acronym = AtlasLocale["CoT2"];
+		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
+		LevelRange = "68-70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ PURP..AtlasLocale["Event: Opening of the Dark Portal"] };
+		{ ORNG..AtlasLocale["Attunement Required"] };
+		{ ORNG..AtlasLocale["Rep: Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Key: Key of Time (Heroic)"], ITEM, 30635 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE..INDENT..AtlasLocale["Sa'at <Keepers of Time>"], NPC, 20201 };
+		{ ORNG.."X) "..AtlasLocale["Portal (Spawn Point)"] };
+		{ ORNG..INDENT..AtlasLocale["Wave 6: Chrono Lord Deja"], NPC, 17879 };
+		{ ORNG..INDENT..AtlasLocale["Wave 12: Temporus"], NPC, 17880 };
+		{ ORNG..INDENT..AtlasLocale["Wave 18: Aeonus"], NPC, 17881 };
+		{ GREY.."1) "..AtlasLocale["The Dark Portal"] };
+		{ GREY..INDENT..AtlasLocale["Medivh"], NPC, 15608 };
+	};
+	CoTHyjal = {
+		ZoneName = { AtlasLocale["CoT: Hyjal Summit"], 3606 };
+		Acronym = AtlasLocale["CoT3"];
+		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
+		LevelRange = "70";
+		PlayerLimit = "25";
+		Continent = AtlasLocale["Kalimdor"];
+		{ PURP..AtlasLocale["Event: Battle for Mount Hyjal"] };
+		{ ORNG..AtlasLocale["Rep: The Scale of the Sands"], FACTION, 990 };
+		{ BLUE.."A) "..AtlasLocale["Alliance Base"] };
+		{ BLUE..INDENT..AtlasLocale["Lady Jaina Proudmoore"], NPC, 17772 };
+		{ BLUE.."B) "..AtlasLocale["Horde Encampment"] };
+		{ BLUE..INDENT..AtlasLocale["Thrall <Warchief>"], NPC, 17852 };
+		{ BLUE.."C) "..AtlasLocale["Night Elf Village"] };
+		{ BLUE..INDENT..AtlasLocale["Tyrande Whisperwind <High Priestess of Elune>"], NPC, 7999 };
+		{ GREY.."1) "..AtlasLocale["Rage Winterchill"], NPC, 17767 };
+		{ GREY.."2) "..AtlasLocale["Anetheron"], NPC, 17808 };
+		{ GREY.."3) "..AtlasLocale["Kaz'rogal"], NPC, 17888 };
+		{ GREY.."4) "..AtlasLocale["Azgalor"], NPC, 17842 };
+		{ GREY.."5) "..AtlasLocale["Archimonde"], NPC, 17968 };
+		{ GREY.."?) "..AtlasLocale["Indormi <Keeper of Ancient Gem Lore>"], NPC, 23437 };
+		{ GREY..INDENT..AtlasLocale["Tydormu <Keeper of Lost Artifacts>"], NPC, 23381 };
+	};
+	CoTOldHillsbrad = {
+		ZoneName = { AtlasLocale["CoT: Old Hillsbrad Foothills"], 2367 };
+		Acronym = AtlasLocale["CoT1"];
+		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
+		LevelRange = "66-70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ PURP..AtlasLocale["Event: Escape from Durnholde Keep"] };
+		{ ORNG..AtlasLocale["Attunement Required"] };
+		{ ORNG..AtlasLocale["Rep: Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Key: Key of Time (Heroic)"], ITEM, 30635 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE..INDENT..AtlasLocale["Erozion"], NPC, 18723 };
+		{ BLUE..INDENT..AtlasLocale["Brazen"], NPC, 18725 };
+		{ BLUE.."B) "..AtlasLocale["Landing Spot"] };
+		{ BLUE.."C) "..AtlasLocale["Southshore"] };
+		{ BLUE.."D) "..AtlasLocale["Tarren Mill"] };
+		{ GREY.."1) "..AtlasLocale["Lieutenant Drake"], NPC, 17848 };
+		{ GREY.."2) "..AtlasLocale["Thrall (Lower)"], NPC, 17876 };
+		{ GREY.."3) "..AtlasLocale["Captain Skarloc"], NPC, 17862 };
+		{ GREY..INDENT..AtlasLocale["Thrall (Second Stop)"], NPC, 17876 };
+		{ GREY.."4) "..AtlasLocale["Thrall (Third Stop)"], NPC, 17876 };
+		{ GREY.."5) "..AtlasLocale["Epoch Hunter"], NPC, 18096 };
+		{ GREY..INDENT..AtlasLocale["Thrall (Fourth Stop, Upstairs)"], NPC, 17876 };
+		{ GREY..INDENT..AtlasLocale["Taretha (Upstairs)"], NPC, 18887 };
+		{ GREY.."6) "..AtlasLocale["Jonathan Revah"], NPC, 20372 };
+		{ GREY..INDENT..AtlasLocale["Jerry Carter"], NPC, 20376 };
+		{ "" };
+		{ ORNG..AtlasLocale["Traveling"] };
+		{ GREY..INDENT..AtlasLocale["Thomas Yance <Travelling Salesman>"], NPC, 18672 };
+		{ GREY..INDENT..AtlasLocale["Aged Dalaran Wizard"], NPC, 18664 };
+		{ "" };
+		{ ORNG..AtlasLocale["Southshore"] };
+		{ GREY..INDENT..AtlasLocale["Kel'Thuzad <The Kirin Tor>"], NPC, 20350 };
+		{ GREY..INDENT..AtlasLocale["Helcular"], NPC, 20353 };
+		{ GREY..INDENT..AtlasLocale["Farmer Kent"], NPC, 20368 };
+		{ GREY..INDENT..AtlasLocale["Sally Whitemane"], NPC, 20357 };
+		{ GREY..INDENT..AtlasLocale["Renault Mograine"], NPC, 20358 };
+		{ GREY..INDENT..AtlasLocale["Little Jimmy Vishas"], NPC, 20359 };
+		{ GREY..INDENT..AtlasLocale["Herod the Bully"], NPC, 20360 };
+		{ GREY..INDENT..AtlasLocale["Nat Pagle"], NPC, 20344 };
+		{ GREY..INDENT..AtlasLocale["Hal McAllister"], NPC, 20342 };
+		{ GREY..INDENT..AtlasLocale["Zixil <Aspiring Merchant>"], NPC, 20419 };
+		{ GREY..INDENT..AtlasLocale["Overwatch Mark 0 <Protector>"], NPC, 20420 };
+		{ "" };
+		{ ORNG..AtlasLocale["Southshore Inn"] };
+		{ GREY..INDENT..AtlasLocale["Captain Edward Hanes"], NPC, 20400 };
+		{ GREY..INDENT..AtlasLocale["Captain Sanders"], NPC, 20351 };
+		{ GREY..INDENT..AtlasLocale["Commander Mograine"], NPC, 20345 };
+		{ GREY..INDENT..AtlasLocale["Isillien"], NPC, 20346 };
+		{ GREY..INDENT..AtlasLocale["Abbendis"], NPC, 20347 };
+		{ GREY..INDENT..AtlasLocale["Fairbanks"], NPC, 20348 };
+		{ GREY..INDENT..AtlasLocale["Tirion Fordring"], NPC, 20349 };
+		{ GREY..INDENT..AtlasLocale["Arcanist Doan"], NPC, 20352 };
+		{ GREY..INDENT..AtlasLocale["Taelan (Upstairs)"], NPC, 20361 };
+		{ GREY..INDENT..AtlasLocale["Barkeep Kelly <Bartender>"], NPC, 20377 };
+		{ GREY..INDENT..AtlasLocale["Frances Lin <Barmaid>"], NPC, 20401 };
+		{ GREY..INDENT..AtlasLocale["Chef Jessen <Speciality Meat & Slop>"], NPC, 20378 };
+		{ GREY..INDENT..AtlasLocale["Stalvan Mistmantle (Upstairs)"], NPC, 20355 };
+		{ GREY..INDENT..AtlasLocale["Phin Odelic <The Kirin Tor> (Upstairs)"], NPC, 20370 };
+		{ "" };
+		{ ORNG..AtlasLocale["Southshore Town Hall"] };
+		{ GREY..INDENT..AtlasLocale["Magistrate Henry Maleb"], NPC, 20373 };
+		{ GREY..INDENT..AtlasLocale["Raleigh the True"], NPC, 20380 };
+		{ GREY..INDENT..AtlasLocale["Nathanos Marris"], NPC, 20354 };
+		{ GREY..INDENT..AtlasLocale["Bilger the Straight-laced"], NPC, 20379 };
+		{ "" };
+		{ ORNG..AtlasLocale["Tarren Mill"] };
+		{ GREY..INDENT..AtlasLocale["Innkeeper Monica"], NPC, 18649 };
+		{ GREY..INDENT..AtlasLocale["Julie Honeywell"], NPC, 18656 };
+		{ GREY..INDENT..AtlasLocale["Jay Lemieux"], NPC, 18655 };
+		{ GREY..INDENT..AtlasLocale["Young Blanchy"], NPC, 18651 };
+	};
 
---************************************************
--- Kalimdor Instance Data
---************************************************
-
-	--Ragefire Chasm
-	["Maur Grimtotem"] = "Maur Grimtotem";
-	["Oggleflint <Ragefire Chieftain>"] = "Oggleflint <Ragefire Chieftain>";
-	["Taragaman the Hungerer"] = "Taragaman the Hungerer";
-	["Jergosh the Invoker"] = "Jergosh the Invoker";
-	["Zelemar the Wrathful (Summon)"] = "Zelemar the Wrathful (Summon)";
-	["Bazzalan"] = "Bazzalan";
-	
-	--Wailing Caverns
-	["Disciple of Naralex"] = "Disciple of Naralex";
-	["Lord Cobrahn <Fanglord>"] = "Lord Cobrahn <Fanglord>";
-	["Lady Anacondra <Fanglord>"] = "Lady Anacondra <Fanglord>";
-	["Kresh"] = "Kresh";
-	["Lord Pythas <Fanglord>"] = "Lord Pythas <Fanglord>";
-	["Skum"] = "Skum";
-	["Lord Serpentis <Fanglord> (Upper)"] = "Lord Serpentis <Fanglord> (Upper)";
-	["Verdan the Everliving (Upper)"] = "Verdan the Everliving (Upper)";
-	["Mutanus the Devourer"] = "Mutanus the Devourer";
-	["Naralex"] = "Naralex";
-	["Deviate Faerie Dragon (Rare)"] = "Deviate Faerie Dragon (Rare)";
-	
-	--Blackfathom Deeps
-	["Ghamoo-ra"] = "Ghamoo-ra";
-	["Lorgalis Manuscript"] = "Lorgalis Manuscript";
-	["Lady Sarevess"] = "Lady Sarevess";
-	["Argent Guard Thaelrid <The Argent Dawn>"] = "Argent Guard Thaelrid <The Argent Dawn>";
-	["Gelihast"] = "Gelihast";
-	["Shrine of Gelihast"] = "Shrine of Gelihast";
-	["Lorgus Jett (Varies)"] = "Lorgus Jett (Varies)";
-	["Fathom Stone"] = "Fathom Stone";
-	["Baron Aquanis"] = "Baron Aquanis";
-	["Twilight Lord Kelris"] = "Twilight Lord Kelris";
-	["Old Serra'kis"] = "Old Serra'kis";
-	["Aku'mai"] = "Aku'mai";
-	["Morridune"] = "Morridune";
-	["Altar of the Deeps"] = "Altar of the Deeps";
-	
-	--Razorfen Kraul
-	["Roogug"] = "Roogug";
-	["Aggem Thorncurse <Death's Head Prophet>"] = "Aggem Thorncurse <Death's Head Prophet>";
-	["Death Speaker Jargba <Death's Head Captain>"] = "Death Speaker Jargba <Death's Head Captain>";
-	["Overlord Ramtusk"] = "Overlord Ramtusk";
-	["Razorfen Spearhide"] = "Razorfen Spearhide";
-	["Agathelos the Raging"] = "Agathelos the Raging";
-	["Blind Hunter (Rare)"] = "Blind Hunter (Rare)";
-	["Charlga Razorflank <The Crone>"] = "Charlga Razorflank <The Crone>";
-	["Willix the Importer"] = "Willix the Importer";
-	["Heralath Fallowbrook"] = "Heralath Fallowbrook";
-	["Earthcaller Halmgar (Rare)"] = "Earthcaller Halmgar (Rare)";
-
-	--Razorfen Downs
-	["Tuten'kash"] = "Tuten'kash";
-	["Henry Stern"] = "Henry Stern";
-	["Belnistrasz"] = "Belnistrasz";
-	["Sah'rhee"] = "Sah'rhee";
-	["Mordresh Fire Eye"] = "Mordresh Fire Eye";
-	["Glutton"] = "Glutton";
-	["Ragglesnout (Rare, Varies)"] = "Ragglesnout (Rare, Varies)";
-	["Amnennar the Coldbringer"] = "Amnennar the Coldbringer";
-	["Plaguemaw the Rotting"] = "Plaguemaw the Rotting";
-	
-	--Zul'Farrak
-	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "Key: Mallet of Zul'Farrak (Gahz'rilla)";
-	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Overseer of Sul>";
-	["Theka the Martyr"] = "Theka the Martyr";
-	["Witch Doctor Zum'rah"] = "Witch Doctor Zum'rah";
-	["Zul'Farrak Dead Hero"] = "Zul'Farrak Dead Hero";
-	["Nekrum Gutchewer"] = "Nekrum Gutchewer";
-	["Shadowpriest Sezz'ziz"] = "Shadowpriest Sezz'ziz";
-	["Dustwraith (Rare)"] = "Dustwraith (Rare)";
-	["Sergeant Bly"] = "Sergeant Bly";
-	["Weegli Blastfuse"] = "Weegli Blastfuse";
-	["Murta Grimgut"] = "Murta Grimgut";
-	["Raven"] = "Raven";
-	["Oro Eyegouge"] = "Oro Eyegouge";
-	["Sandfury Executioner"] = "Sandfury Executioner";
-	["Hydromancer Velratha"] = "Hydromancer Velratha";
-	["Gahz'rilla (Summon)"] = "Gahz'rilla (Summon)";
-	["Elder Wildmane (Lunar)"] = "Elder Wildmane (Lunar)";
-	["Chief Ukorz Sandscalp"] = "Chief Ukorz Sandscalp";
-	["Ruuzlu"] = "Ruuzlu";
-	["Zerillis (Rare, Wanders)"] = "Zerillis (Rare, Wanders)";
-	["Sandarr Dunereaver (Rare)"] = "Sandarr Dunereaver (Rare)";
-	
-	--Maraudon	
-	["Key: Scepter of Celebras (Portal)"] = "Key: Scepter of Celebras (Portal)";
-	["Entrance (Orange)"] = "Entrance (Orange)";
-	["Entrance (Purple)"] = "Entrance (Purple)";
-	["Entrance (Portal)"] = "Entrance (Portal)";
-	["Veng <The Fifth Khan>"] = "Veng <The Fifth Khan>";
-	["Noxxion"] = "Noxxion";
-	["Razorlash"] = "Razorlash";
-	["Maraudos <The Fourth Khan>"] = "Maraudos <The Fourth Khan>";
-	["Lord Vyletongue"] = "Lord Vyletongue";
-	["Meshlok the Harvester (Rare)"] = "Meshlok the Harvester (Rare)";
-	["Celebras the Cursed"] = "Celebras the Cursed";
-	["Landslide"] = "Landslide";
-	["Tinkerer Gizlock"] = "Tinkerer Gizlock";
-	["Rotgrip"] = "Rotgrip";
-	["Princess Theradras"] = "Princess Theradras";
-	["Elder Splitrock (Lunar)"] = "Elder Splitrock (Lunar)";
-	
-	--Dire Maul (East)
-	["Key: Brazier of Invocation (DS2)"] = "Key: Brazier of Invocation (DS2)";
-	["Pusillin (Chase Begins)"] = "Pusillin (Chase Begins)";
-	["Pusillin (Chase Ends)"] = "Pusillin (Chase Ends)";
-	["Zevrim Thornhoof"] = "Zevrim Thornhoof";
-	["Hydrospawn"] = "Hydrospawn";
-	["Lethtendris"] = "Lethtendris";
-	["Pimgib"] = "Pimgib";
-	["Old Ironbark"] = "Old Ironbark";
-	["Alzzin the Wildshaper"] = "Alzzin the Wildshaper";
-	["Isalien (Summon)"] = "Isalien (Summon)";
-	
-	--Dire Maul (North)
-	["Key: Crescent Key"] = "Key: Crescent Key";--omitted from Dire Maul (West)
-	["Library"] = "Library";--omitted from Dire Maul (West)
-	["Guard Mol'dar"] = "Guard Mol'dar";
-	["Stomper Kreeg <The Drunk>"] = "Stomper Kreeg <The Drunk>";
-	["Guard Fengus"] = "Guard Fengus";
-	["Knot Thimblejack"] = "Knot Thimblejack";
-	["Guard Slip'kik"] = "Guard Slip'kik";
-	["Captain Kromcrush"] = "Captain Kromcrush";
-	["King Gordok"] = "King Gordok";
-	["Cho'Rush the Observer"] = "Cho'Rush the Observer";
-
-	--Dire Maul (West)
-	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "Key: J'eevee's Jar (Lord Hel'nurath)";
-	["Pylons"] = "Pylons";
-	["Shen'dralar Ancient"] = "Shen'dralar Ancient";
-	["Tendris Warpwood"] = "Tendris Warpwood";
-	["Ancient Equine Spirit"] = "Ancient Equine Spirit";
-	["Illyanna Ravenoak"] = "Illyanna Ravenoak";
-	["Ferra"] = "Ferra";
-	["Magister Kalendris"] = "Magister Kalendris";
-	["Tsu'zee (Rare)"] = "Tsu'zee (Rare)";
-	["Immol'thar"] = "Immol'thar";
-	["Lord Hel'nurath (Summon)"] = "Lord Hel'nurath (Summon)";
-	["Prince Tortheldrin"] = "Prince Tortheldrin";
-	["Falrin Treeshaper"] = "Falrin Treeshaper";
-	["Lorekeeper Lydros"] = "Lorekeeper Lydros";
-	["Lorekeeper Javon"] = "Lorekeeper Javon";
-	["Lorekeeper Kildrath"] = "Lorekeeper Kildrath";
-	["Lorekeeper Mykos"] = "Lorekeeper Mykos";
-	["Shen'dralar Provisioner"] = "Shen'dralar Provisioner";
-	["Skeletal Remains of Kariel Winthalus"] = "Skeletal Remains of Kariel Winthalus";
-	
-	--Onyxia's Lair
-	["Key: Drakefire Amulet"] = "Key: Drakefire Amulet";
-	["Onyxian Warders"] = "Onyxian Warders";
-	["Whelp Eggs"] = "Whelp Eggs";
-	["Onyxia"] = "Onyxia";
-
-	--Temple of Ahn'Qiraj
-	["Rep: Brood of Nozdormu"] = "Rep: Brood of Nozdormu";
-	["The Prophet Skeram (Outside)"] = "The Prophet Skeram (Outside)";
-	["The Bug Family (Optional)"] = "The Bug Family (Optional)";
-	["Vem"] = "Vem";
-	["Lord Kri"] = "Lord Kri";
-	["Princess Yauj"] = "Princess Yauj";
-	["Battleguard Sartura"] = "Battleguard Sartura";
-	["Fankriss the Unyielding"] = "Fankriss the Unyielding";
-	["Viscidus (Optional)"] = "Viscidus (Optional)";
-	["Princess Huhuran"] = "Princess Huhuran";
-	["Twin Emperors"] = "Twin Emperors";
-	["Emperor Vek'lor"] = "Emperor Vek'lor";
-	["Emperor Vek'nilash"] = "Emperor Vek'nilash";
-	["Ouro (Optional)"] = "Ouro (Optional)";
-	["Eye of C'Thun"] = "Eye of C'Thun";
-	["C'Thun"] = "C'Thun";
-	["Andorgos <Brood of Malygos>"] = "Andorgos <Brood of Malygos>";
-	["Vethsera <Brood of Ysera>"] = "Vethsera <Brood of Ysera>";
-	["Kandrostrasz <Brood of Alexstrasza>"] = "Kandrostrasz <Brood of Alexstrasza>";
-	["Arygos"] = "Arygos";
-	["Caelestrasz"] = "Caelestrasz";
-	["Merithra of the Dream"] = "Merithra of the Dream";
-	
-	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "Rep: Cenarion Circle";
-	["Kurinnaxx"] = "Kurinnaxx";
-	["Lieutenant General Andorov"] = "Lieutenant General Andorov";
-	["Four Kaldorei Elites"] = "Four Kaldorei Elites";
-	["General Rajaxx"] = "General Rajaxx";
-	["Captain Qeez"] = "Captain Qeez";
-	["Captain Tuubid"] = "Captain Tuubid";
-	["Captain Drenn"] = "Captain Drenn";
-	["Captain Xurrem"] = "Captain Xurrem";
-	["Major Yeggeth"] = "Major Yeggeth";
-	["Major Pakkon"] = "Major Pakkon";
-	["Colonel Zerran"] = "Colonel Zerran";
-	["Moam (Optional)"] = "Moam (Optional)";
-	["Buru the Gorger (Optional)"] = "Buru the Gorger (Optional)";
-	["Ayamiss the Hunter (Optional)"] = "Ayamiss the Hunter (Optional)";
-	["Ossirian the Unscarred"] = "Ossirian the Unscarred";
-	["Safe Room"] = "Safe Room";
-
-	--CoT: The Black Morass
-	["Event: Opening of the Dark Portal"] = "Event: Opening of the Dark Portal";
-	["Rep: Keepers of Time"] = "Rep: Keepers of Time";--omitted from Old Hillsbrad Foothills
-	["Key: Key of Time (Heroic)"] = "Key: Key of Time (Heroic)";--omitted from Old Hillsbrad Foothills
-	["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
-	["Portal (Spawn Point)"] = "Portal (Spawn Point)";
-	["Wave 6: Chrono Lord Deja"] = "Wave 6: Chrono Lord Deja";
-	["Wave 12: Temporus"] = "Wave 12: Temporus";
-	["Wave 18: Aeonus"] = "Wave 18: Aeonus";
-	["The Dark Portal"] = "The Dark Portal";
-	["Medivh"] = "Medivh";
-
-	--CoT: Hyjal Summit
-	["Event: Battle for Mount Hyjal"] = "Event: Battle for Mount Hyjal";
-	["Rep: The Scale of the Sands"] = "Rep: The Scale of the Sands";
-	["Alliance Base"] = "Alliance Base";
-	["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
-	["Horde Encampment"] = "Horde Encampment";
-	["Thrall <Warchief>"] = "Thrall <Warchief>";
-	["Night Elf Village"] = "Night Elf Village";
-	["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Whisperwind <High Priestess of Elune>";
-	["Rage Winterchill"] = "Rage Winterchill";
-	["Anetheron"] = "Anetheron";
-	["Kaz'rogal"] = "Kaz'rogal";
-	["Azgalor"] = "Azgalor";
-	["Archimonde"] = "Archimonde";
-	["Indormi <Keeper of Ancient Gem Lore>"] = "Indormi <Keeper of Ancient Gem Lore>";
-	["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Keeper of Lost Artifacts>";
-
-	--CoT: Old Hillsbrad Foothills
-	["Event: Escape from Durnholde Keep"] = "Event: Escape from Durnholde Keep";
-	["Erozion"] = "Erozion";
-	["Brazen"] = "Brazen";
-	["Landing Spot"] = "Landing Spot";
-	["Southshore"] = "Southshore";
-	["Tarren Mill"] = "Tarren Mill";
-	["Lieutenant Drake"] = "Lieutenant Drake";
-	["Thrall (Lower)"] = "Thrall (Lower)";
-	["Captain Skarloc"] = "Captain Skarloc";
-	["Thrall (Second Stop)"] = "Thrall (Second Stop)";
-	["Thrall (Third Stop)"] = "Thrall (Third Stop)";
-	["Epoch Hunter"] = "Epoch Hunter";
-	["Thrall (Fourth Stop, Upstairs)"] = "Thrall (Fourth Stop, Upstairs)";
-	["Taretha (Upstairs)"] = "Taretha (Upstairs)";
-	["Jonathan Revah"] = "Jonathan Revah";
-	["Jerry Carter"] = "Jerry Carter";
-	["Traveling"] = "Traveling";
-	["Thomas Yance <Travelling Salesman>"] = "Thomas Yance <Travelling Salesman>";
-	["Aged Dalaran Wizard"] = "Aged Dalaran Wizard";
-	["Kel'Thuzad <The Kirin Tor>"] = "Kel'Thuzad <The Kirin Tor>";
-	["Helcular"] = "Helcular";
-	["Farmer Kent"] = "Farmer Kent";
-	["Sally Whitemane"] = "Sally Whitemane";
-	["Renault Mograine"] = "Renault Mograine";
-	["Little Jimmy Vishas"] = "Little Jimmy Vishas";
-	["Herod the Bully"] = "Herod the Bully";
-	["Nat Pagle"] = "Nat Pagle";
-	["Hal McAllister"] = "Hal McAllister";
-	["Zixil <Aspiring Merchant>"] = "Zixil <Aspiring Merchant>";
-	["Overwatch Mark 0 <Protector>"] = "Overwatch Mark 0 <Protector>";
-	["Southshore Inn"] = "Southshore Inn";
-	["Captain Edward Hanes"] = "Captain Edward Hanes";
-	["Captain Sanders"] = "Captain Sanders";
-	["Commander Mograine"] = "Commander Mograine";
-	["Isillien"] = "Isillien";
-	["Abbendis"] = "Abbendis";
-	["Fairbanks"] = "Fairbanks";
-	["Tirion Fordring"] = "Tirion Fordring";
-	["Arcanist Doan"] = "Arcanist Doan";
-	["Taelan (Upstairs)"] = "Taelan (Upstairs)";
-	["Barkeep Kelly <Bartender>"] = "Barkeep Kelly <Bartender>";
-	["Frances Lin <Barmaid>"] = "Frances Lin <Barmaid>";
-	["Chef Jessen <Speciality Meat & Slop>"] = "Chef Jessen <Speciality Meat & Slop>";
-	["Stalvan Mistmantle (Upstairs)"] = "Stalvan Mistmantle (Upstairs)";
-	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "Phin Odelic <The Kirin Tor> (Upstairs)";
-	["Southshore Town Hall"] = "Southshore Town Hall";
-	["Magistrate Henry Maleb"] = "Magistrate Henry Maleb";
-	["Raleigh the True"] = "Raleigh the True";
-	["Nathanos Marris"] = "Nathanos Marris";
-	["Bilger the Straight-laced"] = "Bilger the Straight-laced";
-	["Innkeeper Monica"] = "Innkeeper Monica";
-	["Julie Honeywell"] = "Julie Honeywell";
-	["Jay Lemieux"] = "Jay Lemieux";
-	["Young Blanchy"] = "Young Blanchy";
-	
 --[[
-	
---****************************
+
+--************************************************
 -- Eastern Kingdoms Instances
---****************************
+--************************************************
 	
 	BlackrockDepths = {
 		ZoneName = { "Blackrock Depths", 1584 };
@@ -1154,10 +1186,10 @@ AtlasLocale = {
 		{ GREY..INDENT.."Entropius (Upper)", NPC, 25840 };
 		{ GREY.."4) Kil'jaeden" };
 	};
-	
---*******************
+
+--************************************************
 -- Outland Instances
---*******************
+--************************************************
 	
 	HCBloodFurnace = {
 		ZoneName = { "HFC: The Blood Furnace", 3713 };

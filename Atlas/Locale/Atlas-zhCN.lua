@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/25/2008
+-- Last Update : 4/3/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -17,8 +17,6 @@ AtlasSortIgnore = {
 ATLAS_TITLE 	= "Atlas";
 ATLAS_SUBTITLE 	= "副本地图";
 ATLAS_DESC 		= "Atlas 是一款副本地图查看器";
-
-ATLAS_OPTIONS_BUTTON = "设置";
 
 BINDING_HEADER_ATLAS_TITLE 	= "Atlas 按键设置";
 BINDING_NAME_ATLAS_TOGGLE 	= "开启/关闭 Atlas";
@@ -35,6 +33,7 @@ ATLAS_STRING_SELECT_MAP 	= "选择地图";
 ATLAS_STRING_SEARCH 		= "搜索";
 ATLAS_STRING_CLEAR 			= "重置";
 
+ATLAS_OPTIONS_BUTTON		= "设置";
 ATLAS_OPTIONS_TITLE 		= "Atlas 设置";
 ATLAS_OPTIONS_SHOWBUT 		= "在小地图周围显示Atlas图标";
 ATLAS_OPTIONS_AUTOSEL 		= "自动选择副本地图";
@@ -56,8 +55,6 @@ ATLAS_OPTIONS_COORDS		= "在世界地图上显示玩家坐标"
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
 ATLAS_TITAN_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
-
-ATLAS_HELP = {"关于 Atlas\n===========\n\nAtlas is a user interface addon for World of Warcraft that provides a number of additional maps as well as an in-game map browser. Typing the command '/atlas' or clicking the mini-map icon will open the Atlas window. The options panel allows you to disable the icon, toggle the Auto Select feature, toggle the Replace World Map feature, toggle the Right-Click feature, change the icon's position, or adjust the transparency of the main window. If the Auto Select feature is enabled, Atlas will automatically open to the map of the instance you're in. If the Replace World Map feature is enabled, Atlas will open instead of the world map when you're in an instance. If the Right-Click feature is enabled, you can Right-Click on Atlas to open the World Map. You can move Atlas around by left-clicking and dragging. Use the small padlock icon in the upper-right corner to lock the window in place."};
 
 ATLAS_OPTIONS_CATDD = "副本地图排序方式";
 ATLAS_DDL_CONTINENT = "所属大陆";
@@ -81,6 +78,8 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
+ATLAS_HELP = {"关于 Atlas\n===========\n\nAtlas is a user interface addon for World of Warcraft that provides a number of additional maps as well as an in-game map browser. Typing the command '/atlas' or clicking the mini-map icon will open the Atlas window. The options panel allows you to disable the icon, toggle the Auto Select feature, toggle the Replace World Map feature, toggle the Right-Click feature, change the icon's position, or adjust the transparency of the main window. If the Auto Select feature is enabled, Atlas will automatically open to the map of the instance you're in. If the Replace World Map feature is enabled, Atlas will open instead of the world map when you're in an instance. If the Right-Click feature is enabled, you can Right-Click on Atlas to open the World Map. You can move Atlas around by left-clicking and dragging. Use the small padlock icon in the upper-right corner to lock the window in place."};
+
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
 	["阿塔哈卡神庙"] = "沉没的神庙";
@@ -90,381 +89,339 @@ AtlasZoneSubstitutions = {
 	["黑暗神殿"] = "黑暗神殿 [A] (入门)";
 }; 
 
-local BLUE = "|cff6666ff";
-local GREY = "|cff999999";
-local GREN = "|cff66cc33";
-local _RED = "|cffcc6666";
-local ORNG = "|cffcc9933";
-local PURP = "|cff9900ff";
 local INDENT = "　";
 
---Keeps track of the different categories of maps
-Atlas_MapTypes = {
-	[1] = "卡利姆多副本";
-	[2] = "东部王国副本";
-	[3] = "外域副本";
-};
+AtlasLocale = {
+
+--************************************************
+-- Zone Names, Acronyms, and Common Strings
+--************************************************
+
+	--Common strings
+	["Entrance"] = "入口";
+	["Exit"] = "出口";
+	["Attunement Required"] = "需要完成入口任务";
+	
+	--Continents
+	["Kalimdor"] = "卡利姆多";
+	
+	--Instance names and acronyms
+	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC";
+	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC";
+	["Blackfathom Deeps"] = "黑暗深渊"; ["BFD"] = "BFD";
+	["Razorfen Kraul"] = "剃刀沼泽"; ["RFK"] = "RFK";
+	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
+	["Zul'Farrak"] = "祖尔法拉克"; ["ZF"] = "ZF";
+	["Maraudon"] = "玛拉顿"; ["Mara"] = "Mara";
+	["Dire Maul (East)"] = "厄运之槌 (东区)"; ["DM"] = "DM";
+	["Dire Maul (North)"] = "厄运之槌 (北区)";
+	["Dire Maul (West)"] = "厄运之槌 (西区)";
+	["Onyxia's Lair"] = "奥妮克希亚的巢穴"; ["Ony"] = "Ony";
+	["Temple of Ahn'Qiraj"] = "安其拉神殿"; ["AQ40"] = "AQ40";
+	["Ruins of Ahn'Qiraj"] = "安其拉废墟"; ["AQ20"] = "AQ20";
+	["CoT: The Black Morass"] = "时光之穴 - 黑色沼泽"; ["CoT2"] = "CoT2";
+	["CoT: Hyjal Summit"] = "时光之穴 - 海加尔峰"; ["CoT3"] = "CoT3";
+	["CoT: Old Hillsbrad Foothills"] = "时光之穴 - 旧希尔斯布莱德"; ["CoT1"] = "CoT1";
+	
+	--Outdoor zones, Locations
+	["Orgrimmar"] = "奥格瑞玛";
+	["The Barrens"] = "贫瘠之地";
+	["Ashenvale"] = "灰谷";
+	["Tanaris"] = "塔纳利斯";
+	["Desolace"] = "凄凉之地";
+	["Feralas"] = "菲拉斯";
+	["Dustwallow Marsh"] = "尘泥沼泽";
+	["Silithus"] = "希利苏斯";
+	["Caverns of Time, Tanaris"] = "塔纳利斯";
+
+--************************************************
+-- Kalimdor Instance Data
+--************************************************
+
+	--Ragefire Chasm
+	["Maur Grimtotem"] = "玛尔·恐怖图腾";
+	["Oggleflint <Ragefire Chieftain>"] = "奥格弗林特 <怒焰酋长>";
+	["Taragaman the Hungerer"] = "饥饿者塔拉加曼";
+	["Jergosh the Invoker"] = "祈求者耶戈什";
+	["Zelemar the Wrathful (Summon)"] = "愤怒者塞雷玛尔 (召唤)";
+	["Bazzalan"] = "巴扎兰";
+	
+	--Wailing Caverns
+	["Disciple of Naralex"] = "纳拉雷克斯的信徒";
+	["Lord Cobrahn <Fanglord>"] = "考布莱恩 <毒牙之王>";
+	["Lady Anacondra <Fanglord>"] = "安娜科德拉 <毒牙之王>";
+	["Kresh"] = "克雷什";
+	["Lord Pythas <Fanglord>"] = "皮萨斯 <毒牙之王>";
+	["Skum"] = "斯卡姆";
+	["Lord Serpentis <Fanglord> (Upper)"] = "瑟芬迪斯 <毒牙之王> (上层)";
+	["Verdan the Everliving (Upper)"] = "永生者沃尔丹 (上层)";
+	["Mutanus the Devourer"] = "吞噬者穆坦努斯";
+	["Naralex"] = "纳拉雷克斯";
+	["Deviate Faerie Dragon (Rare)"] = "变异精灵龙 (稀有)";
+	
+	--Blackfathom Deeps
+	["Ghamoo-ra"] = "加摩拉";
+	["Lorgalis Manuscript"] = "潮湿的便笺";
+	["Lady Sarevess"] = "萨利维丝";
+	["Argent Guard Thaelrid <The Argent Dawn>"] = "银月守卫塞尔瑞德 <银色黎明>";
+	["Gelihast"] = "格里哈斯特";
+	["Shrine of Gelihast"] = "格里哈斯特神殿";
+	["Lorgus Jett (Varies)"] = "洛古斯·杰特 (多个位置)";
+	["Fathom Stone"] = "深渊之核";
+	["Baron Aquanis"] = "阿奎尼斯男爵";
+	["Twilight Lord Kelris"] = "梦游者克尔里斯";
+	["Old Serra'kis"] = "瑟拉吉斯";
+	["Aku'mai"] = "阿库迈尔";
+	["Morridune"] = " 莫瑞杜恩";
+	["Altar of the Deeps"] = " 玛塞斯特拉祭坛";
+	
+	--Razorfen Kraul
+	["Roogug"] = "鲁古格";
+	["Aggem Thorncurse <Death's Head Prophet>"] = "阿格姆 <亡首预言者>";
+	["Death Speaker Jargba <Death's Head Captain>"] = "亡语者贾格巴 <亡首队长>";
+	["Overlord Ramtusk"] = "主宰拉姆塔斯";
+	["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
+	["Agathelos the Raging"] = "暴怒的阿迦赛罗斯";
+	["Blind Hunter (Rare)"] = "盲眼猎手 (稀有)";
+	["Charlga Razorflank <The Crone>"] = "卡尔加·刺肋 <长者>";
+	["Willix the Importer"] = "进口商威利克斯";
+	["Heralath Fallowbrook"] = "赫尔拉斯·静水";
+	["Earthcaller Halmgar (Rare)"] = "唤地者哈穆加 (稀有)";
+
+	--Razorfen Downs
+	["Tuten'kash"] = "图特卡什";
+	["Henry Stern"] = "亨利·斯特恩";
+	["Belnistrasz"] = "奔尼斯特拉兹";
+	["Sah'rhee"] = "萨哈斯";
+	["Mordresh Fire Eye"] = "火眼莫德雷斯";
+	["Glutton"] = "暴食者";
+	["Ragglesnout (Rare, Varies)"] = "拉戈斯诺特 (稀有, 多个位置)";
+	["Amnennar the Coldbringer"] = "寒冰之王亚门纳尔";
+	["Plaguemaw the Rotting"] = "腐烂的普雷莫尔";
+	
+	--Zul'Farrak
+	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "钥匙：祖尔法拉克之槌 (加兹瑞拉)";
+	["Antu'sul <Overseer of Sul>"] = "安图苏尔 <苏尔督军>";
+	["Theka the Martyr"] = "殉教者塞卡";
+	["Witch Doctor Zum'rah"] = "巫医祖穆拉恩";
+	["Zul'Farrak Dead Hero"] = "祖尔法拉克阵亡英雄";
+	["Nekrum Gutchewer"] = "耐克鲁姆";
+	["Shadowpriest Sezz'ziz"] = "暗影祭司塞瑟斯";
+	["Dustwraith (Rare)"] = "灰尘怨灵 (稀有)";
+	["Sergeant Bly"] = "布莱中士";
+	["Weegli Blastfuse"] = "维格利";
+	["Murta Grimgut"] = "穆尔塔";
+	["Raven"] = "拉文";
+	["Oro Eyegouge"] = "欧罗·血眼";
+	["Sandfury Executioner"] = "沙怒刽子手";
+	["Hydromancer Velratha"] = "水占师维蕾萨";
+	["Gahz'rilla (Summon)"] = "加兹瑞拉 (召唤)";
+	["Elder Wildmane (Lunar)"] = "蛮鬃长者 (春节)";
+	["Chief Ukorz Sandscalp"] = "乌克兹·沙顶";
+	["Ruuzlu"] = "卢兹鲁";
+	["Zerillis (Rare, Wanders)"] = "泽雷利斯 (稀有, 巡逻)";
+	["Sandarr Dunereaver (Rare)"] = "杉达尔·沙掠者 (稀有)";
+	
+	--Maraudon	
+	["Key: Scepter of Celebras (Portal)"] = "钥匙：塞雷布拉斯节杖 (传送)";
+	["Entrance (Orange)"] = "入口 (橙色)";
+	["Entrance (Purple)"] = "入口 (橙色)";
+	["Entrance (Portal)"] = "入口 (橙色)";
+	["Veng <The Fifth Khan>"] = "温格 <第五可汗>";
+	["Noxxion"] = "诺克赛恩";
+	["Razorlash"] = "锐刺鞭笞者";
+	["Maraudos <The Fourth Khan>"] = "玛劳杜斯 <第四可汗>";
+	["Lord Vyletongue"] = "维利塔恩";
+	["Meshlok the Harvester (Rare)"] = "收割者麦什洛克 (稀有)";
+	["Celebras the Cursed"] = "被诅咒的塞雷布拉斯";
+	["Landslide"] = "兰斯利德";
+	["Tinkerer Gizlock"] = "工匠吉兹洛克";
+	["Rotgrip"] = "洛特格里普";
+	["Princess Theradras"] = "瑟莱德丝公主";
+	["Elder Splitrock (Lunar)"] = "碎石长者 (春节)";
+	
+	--Dire Maul (East)
+	["Key: Brazier of Invocation (DS2)"] = "钥匙：符咒火盆 (地下城套装2)";
+	["Pusillin (Chase Begins)"] = "普希林 (追捕开始)";
+	["Pusillin (Chase Ends)"] = "普希林 (追捕结束)";
+	["Zevrim Thornhoof"] = "瑟雷姆·刺蹄";
+	["Hydrospawn"] = "海多斯博恩";
+	["Lethtendris"] = "雷瑟塔帝丝";
+	["Pimgib"] = "匹姆吉布";
+	["Old Ironbark"] = "埃隆巴克";
+	["Alzzin the Wildshaper"] = "奥兹恩";
+	["Isalien (Summon)"] = "伊萨莉恩 (召唤)";
+	
+	--Dire Maul (North)
+	["Key: Crescent Key"] = "钥匙：月牙钥匙";--omitted from Dire Maul (West)
+	["Library"] = "图书馆";--omitted from Dire Maul (West)
+	["Guard Mol'dar"] = "卫兵摩尔达";
+	["Stomper Kreeg <The Drunk>"] = "践踏者克雷格 <醉鬼>";
+	["Guard Fengus"] = "卫兵芬古斯";
+	["Knot Thimblejack"] = "诺特·希姆加可";
+	["Guard Slip'kik"] = "卫兵斯里基克";
+	["Captain Kromcrush"] = "克罗卡斯";
+	["King Gordok"] = "戈多克大王";
+	["Cho'Rush the Observer"] = "观察者克鲁什";
+
+	--Dire Maul (West)
+	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "钥匙：耶维尔的瓶子 (赫尔努拉斯)";
+	["Pylons"] = "水晶塔";
+	["Shen'dralar Ancient"] = "辛德拉古灵";
+	["Tendris Warpwood"] = "特迪斯·扭木";
+	["Ancient Equine Spirit"] = "上古圣马之魂";
+	["Illyanna Ravenoak"] = "伊琳娜·暗木";
+	["Ferra"] = "费拉";
+	["Magister Kalendris"] = "卡雷迪斯镇长";
+	["Tsu'zee (Rare)"] = "苏斯 (稀有)";
+	["Immol'thar"] = "伊莫塔尔";
+	["Lord Hel'nurath (Summon)"] = "赫尔努拉斯 (召唤)";
+	["Prince Tortheldrin"] = "托塞德林王子";
+	["Falrin Treeshaper"] = "法尔林·树影";
+	["Lorekeeper Lydros"] = "博学者莱德罗斯";
+	["Lorekeeper Javon"] = "博学者亚沃";
+	["Lorekeeper Kildrath"] = "博学者基尔达斯";
+	["Lorekeeper Mykos"] = "博学者麦库斯";
+	["Shen'dralar Provisioner"] = "辛德拉圣职者";
+	["Skeletal Remains of Kariel Winthalus"] = "卡里尔·温萨鲁斯的骸骨";
+	
+	--Onyxia's Lair
+	["Key: Drakefire Amulet"] = "钥匙：龙火护符";
+	["Onyxian Warders"] = "奥妮克希亚守卫";
+	["Whelp Eggs"] = "雏龙蛋";
+	["Onyxia"] = "奥妮克希亚";
+
+	--Temple of Ahn'Qiraj
+	["Rep: Brood of Nozdormu"] = "阵营：诺兹多姆的子嗣";
+	["The Prophet Skeram (Outside)"] = "预言者斯克拉姆 (室外)";
+	["The Bug Family (Optional)"] = "虫人家庭 (可跳过)";
+	["Vem"] = "维姆";
+	["Lord Kri"] = "克里勋爵";
+	["Princess Yauj"] = "亚尔基公主";
+	["Battleguard Sartura"] = "沙尔图拉";
+	["Fankriss the Unyielding"] = "顽强的范克瑞斯";
+	["Viscidus (Optional)"] = "维希度斯 (可跳过)";
+	["Princess Huhuran"] = "哈霍兰公主";
+	["Twin Emperors"] = "双子皇帝";
+	["Emperor Vek'lor"] = "维克洛尔大帝";
+	["Emperor Vek'nilash"] = "维克尼拉斯大帝";
+	["Ouro (Optional)"] = "奥罗 (可跳过)";
+	["Eye of C'Thun"] = "克苏恩之眼";
+	["C'Thun"] = "克苏恩";
+	["Andorgos <Brood of Malygos>"] = "安多葛斯 <玛里苟斯的后裔>";
+	["Vethsera <Brood of Ysera>"] = "温瑟拉 <伊瑟拉的后裔>";
+	["Kandrostrasz <Brood of Alexstrasza>"] = "坎多斯特拉兹 <阿莱克丝塔萨的后裔>";
+	["Arygos"] = "亚雷戈斯";
+	["Caelestrasz"] = "凯雷斯特拉兹";
+	["Merithra of the Dream"] = "梦境之龙麦琳瑟拉";
+	
+	--Ruins of Ahn'Qiraj
+	["Rep: Cenarion Circle"] = "阵营：塞纳里奥议会";
+	["Kurinnaxx"] = "库林纳克斯";
+	["Lieutenant General Andorov"] = "安多洛夫中将";
+	["Four Kaldorei Elites"] = "卡多雷四精英";
+	["General Rajaxx"] = "拉贾克斯将军";
+	["Captain Qeez"] = "奎兹上尉";
+	["Captain Tuubid"] = "图比德上尉";
+	["Captain Drenn"] = "德雷恩上尉";
+	["Captain Xurrem"] = "库雷姆上尉";
+	["Major Yeggeth"] = "耶吉斯少校";
+	["Major Pakkon"] = "帕库少校";
+	["Colonel Zerran"] = "泽兰上校";
+	["Moam (Optional)"] = "莫阿姆 (可跳过)";
+	["Buru the Gorger (Optional)"] = "吞咽者布鲁 (可跳过)";
+	["Ayamiss the Hunter (Optional)"] = "狩猎者阿亚米斯 (可跳过)";
+	["Ossirian the Unscarred"] = "无疤者奥斯里安";
+	["Safe Room"] = "安全房间";
+
+	--CoT: The Black Morass
+	["Event: Opening of the Dark Portal"] = "事件：开启黑暗之门";
+	["Rep: Keepers of Time"] = "阵营：时光守护者";--omitted from Old Hillsbrad Foothills
+	["Key: Key of Time (Heroic)"] = "钥匙：时光之匙 (英雄模式)";--omitted from Old Hillsbrad Foothills
+	["Sa'at <Keepers of Time>"] = "萨艾特 <时光守护者>";
+	["Portal (Spawn Point)"] = "传送门 (刷新点)";
+	["Wave 6: Chrono Lord Deja"] = "第6波：时空领主德亚";
+	["Wave 12: Temporus"] = "第12波：坦普卢斯";
+	["Wave 18: Aeonus"] = "第18波：埃欧努斯";
+	["The Dark Portal"] = "黑暗之门";
+	["Medivh"] = "麦迪文";
+
+	--CoT: Hyjal Summit
+	["Event: Battle for Mount Hyjal"] = "事件：海加尔之战";
+	["Rep: The Scale of the Sands"] = "阵营：流沙之鳞";
+	["Alliance Base"] = "联盟基地";
+	["Lady Jaina Proudmoore"] = "吉安娜·普罗德摩尔";
+	["Horde Encampment"] = "部落营地";
+	["Thrall <Warchief>"] = "萨尔 <酋长>";
+	["Night Elf Village"] = "暗夜精灵村庄";
+	["Tyrande Whisperwind <High Priestess of Elune>"] = "泰兰德·语风 <艾露恩的高阶女祭司>";
+	["Rage Winterchill"] = "雷基·冬寒";
+	["Anetheron"] = "安纳塞隆";
+	["Kaz'rogal"] = "卡兹洛加";
+	["Azgalor"] = "阿兹加洛";
+	["Archimonde"] = "阿克蒙德";
+	["Indormi <Keeper of Ancient Gem Lore>"] = "因多米 <上古宝石保管者>";
+	["Tydormu <Keeper of Lost Artifacts>"] = "泰多姆 <失落的神器保管者>";
+
+	--CoT: Old Hillsbrad Foothills
+	["Event: Escape from Durnholde Keep"] = "事件：逃离敦霍尔德堡";
+	["Erozion"] = "伊洛希恩";
+	["Brazen"] = "布拉森";
+	["Landing Spot"] = "着陆点";
+	["Southshore"] = "南海镇";
+	["Tarren Mill"] = "塔伦米尔";
+	["Lieutenant Drake"] = "德拉克中尉";
+	["Thrall (Lower)"] = "萨尔 (下层)";
+	["Captain Skarloc"] = "斯卡洛克上尉";
+	["Thrall (Second Stop)"] = "萨尔 (第二次止步)";
+	["Thrall (Third Stop)"] = "萨尔 (第三次止步)";
+	["Epoch Hunter"] = "时空猎手";
+	["Thrall (Fourth Stop, Upstairs)"] = "萨尔 (第四次止步, 上层)";
+	["Taretha (Upstairs)"] = "塔蕾莎 (上层)";
+	["Jonathan Revah"] = "乔纳森·雷瓦";
+	["Jerry Carter"] = "杰瑞·卡特尔";
+	["Traveling"] = "旅行中";
+	["Thomas Yance <Travelling Salesman>"] = "托马斯·杨斯 <旅行商人>";
+	["Aged Dalaran Wizard"] = "老迈的达拉然巫师";
+	["Kel'Thuzad <The Kirin Tor>"] = "克尔苏加德 <肯瑞托>";
+	["Helcular"] = "赫尔库拉";
+	["Farmer Kent"] = "农夫肯特";
+	["Sally Whitemane"] = "萨莉·怀特迈恩";
+	["Renault Mograine"] = "雷诺·莫格莱尼";
+	["Little Jimmy Vishas"] = "吉米·维沙斯";
+	["Herod the Bully"] = "赫洛德";
+	["Nat Pagle"] = "纳特·帕格";
+	["Hal McAllister"] = "哈尔·马克奥里斯特";
+	["Zixil <Aspiring Merchant>"] = "吉克希尔 <商人>";
+	["Overwatch Mark 0 <Protector>"] = "守候者零型 <保护者>";
+	["Southshore Inn"] = "南海镇旅馆";
+	["Captain Edward Hanes"] = "爱德华·汉斯";
+	["Captain Sanders"] = "杉德尔船长";
+	["Commander Mograine"] = "指挥官莫格莱尼";
+	["Isillien"] = "伊森利恩";
+	["Abbendis"] = "阿比迪斯";
+	["Fairbanks"] = "法尔班克斯";
+	["Tirion Fordring"] = "提里奥·弗丁";
+	["Arcanist Doan"] = "奥法师杜安";
+	["Taelan (Upstairs)"] = "泰兰 (上层)";
+	["Barkeep Kelly <Bartender>"] = "酒吧老板凯利 <调酒师>";
+	["Frances Lin <Barmaid>"] = "弗兰斯·林 <招待员>";
+	["Chef Jessen <Speciality Meat & Slop>"] = "厨师杰森";
+	["Stalvan Mistmantle (Upstairs)"] = "斯塔文·密斯特曼托 (上层)";
+	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "费恩·奥德利克 <肯瑞托> (上层)";
+	["Southshore Town Hall"] = "南海镇大厅";
+	["Magistrate Henry Maleb"] = "赫尼·马雷布镇长";
+	["Raleigh the True"] = "虔诚的莱雷恩";
+	["Nathanos Marris"] = "纳萨诺斯·玛瑞斯";
+	["Bilger the Straight-laced"] = "古板的比格尔";
+	["Innkeeper Monica"] = "旅店老板莫妮卡";
+	["Julie Honeywell"] = "朱丽·哈尼维尔";
+	["Jay Lemieux"] = "贾森·雷缪克斯";
+	["Young Blanchy"] = "小马布兰契";
+
+--[[
 
 AtlasMaps = {
-	RagefireChasm = {
-		ZoneName = "怒焰裂谷";
-		Acronym = "RFC";
-		Location = "奥格瑞玛";
-		BLUE.."A) 入口";
-		GREY.."1) 玛尔·恐怖图腾";
-		GREY..INDENT.."奥格弗林特 <怒焰酋长>";
-		GREY.."2) 饥饿者塔拉加曼";
-		GREY.."3) 祈求者耶戈什";
-		GREY..INDENT.."愤怒者塞雷玛尔 (召唤)";
-		GREY.."4) 巴扎兰";
-	};
-	WailingCaverns = {
-		ZoneName = "哀嚎洞穴";
-		Acronym = "WC";
-		Location = "贫瘠之地";
-		BLUE.."A) 入口";
-		GREY.."1) 纳拉雷克斯的信徒";
-		GREY.."2) 考布莱恩 <毒牙之王>";
-		GREY.."3) 安娜科德拉 <毒牙之王>";
-		GREY.."4) 克雷什";
-		GREY.."5) 皮萨斯 <毒牙之王>";
-		GREY.."6) 斯卡姆";
-		GREY.."7) 瑟芬迪斯 <毒牙之王> (上层)";
-		GREY.."8) 永生者沃尔丹 (上层)";
-		GREY.."9) 吞噬者穆坦努斯";
-		GREY..INDENT.."纳拉雷克斯";
-		GREY.."10) 变异精灵龙 (稀有)";
-	};
-	BlackfathomDeeps = {
-		ZoneName = "黑暗深渊";
-		Acronym = "BFD";
-		Location = "灰谷";
-		BLUE.."A) 入口";
-		GREY.."1) 加摩拉";
-		GREY.."2) 潮湿的便笺";
-		GREY.."3) 萨利维丝";
-		GREY.."4) 银月守卫塞尔瑞德 <银色黎明>";
-		GREY.."5) 格里哈斯特";
-		GREY..INDENT.."格里哈斯特神殿";
-		GREY.."6) 洛古斯·杰特 (多个位置)";
-		GREY.."7) 深渊之核";
-		GREY..INDENT.."阿奎尼斯男爵";
-		GREY.."8) 梦游者克尔里斯";
-		GREY.."9) 瑟拉吉斯";
-		GREY.."10) 阿库迈尔";
-		GREY..INDENT.." 莫瑞杜恩";
-		GREY..INDENT.." 玛塞斯特拉祭坛";
-	};
-	RazorfenKraul = {
-		ZoneName = "剃刀沼泽";
-		Acronym = "RFK";
-		Location = "贫瘠之地";
-		BLUE.."A) 入口";
-		GREY.."1) 鲁古格";
-		GREY.."2) 阿格姆 <亡首预言者>";
-		GREY.."3) 亡语者贾格巴 <亡首队长>";
-		GREY.."4) 主宰拉姆塔斯";
-		GREY..INDENT.."剃刀沼泽刺鬃守卫";
-		GREY.."5) 暴怒的阿迦赛罗斯";
-		GREY.."6) 盲眼猎手 (稀有)";
-		GREY.."7) 卡尔加·刺肋 <长者>";
-		GREY.."8) 进口商威利克斯";
-		GREY..INDENT.."赫尔拉斯·静水";
-		GREY.."9) 唤地者哈穆加 (稀有)";
-	};
-	RazorfenDowns = {
-		ZoneName = "剃刀高地";
-		Acronym = "RFD";
-		Location = "贫瘠之地";
-		BLUE.."A) 入口";
-		GREY.."1) 图特卡什";
-		GREY.."2) 亨利·斯特恩";
-		GREY..INDENT.."奔尼斯特拉兹";
-		GREY..INDENT.."萨哈斯";
-		GREY.."3) 火眼莫德雷斯";
-		GREY.."4) 暴食者";
-		GREY.."5) 拉戈斯诺特 (稀有, 多个位置)";
-		GREY.."6) 寒冰之王亚门纳尔";
-		GREY.."7) 腐烂的普雷莫尔";
-	};
-	ZulFarrak = {
-		ZoneName = "祖尔法拉克";
-		Acronym = "ZF";
-		Location = "塔纳利斯";
-		ORNG.."钥匙：祖尔法拉克之槌 (加兹瑞拉)";
-		BLUE.."A) 入口";
-		GREY.."1) 安图苏尔 <苏尔督军>";
-		GREY.."2) 殉教者塞卡";
-		GREY.."3) 巫医祖穆拉恩";
-		GREY..INDENT.."祖尔法拉克阵亡英雄";
-		GREY.."4) 耐克鲁姆";
-		GREY..INDENT.."暗影祭司塞瑟斯";
-		GREY..INDENT.."灰尘怨灵 (稀有)";
-		GREY.."5) 布莱中士";
-		GREY..INDENT.."维格利";
-		GREY..INDENT.."穆尔塔";
-		GREY..INDENT.."拉文";
-		GREY..INDENT.."欧罗·血眼";
-		GREY..INDENT.."沙怒刽子手";
-		GREY.."6) 水占师维蕾萨";
-		GREY..INDENT.."加兹瑞拉 (召唤)";
-		GREY..INDENT.."蛮鬃长者 (春节)";
-		GREY.."7) 乌克兹·沙顶";
-		GREY..INDENT.."卢兹鲁";
-		GREY.."8) 泽雷利斯 (稀有, 巡逻)";
-		GREY.."9) 杉达尔·沙掠者 (稀有)";
-	};
-	Maraudon = {
-		ZoneName = "玛拉顿";
-		Acronym = "Mara";
-		Location = "凄凉之地";
-		ORNG.."钥匙：塞雷布拉斯节杖 (传送)";
-		BLUE.."A) 入口 (橙色)";
-		BLUE.."B) 入口 (紫色)";
-		BLUE.."C) 入口 (传送)";
-		GREY.."1) 温格 <第五可汗>";
-		GREY.."2) 诺克赛恩";
-		GREY.."3) 锐刺鞭笞者";
-		GREY.."4) 玛劳杜斯 <第四可汗>";
-		GREY.."5) 维利塔恩";
-		GREY.."6) 收割者麦什洛克 (稀有)";
-		GREY.."7) 被诅咒的塞雷布拉斯";
-		GREY.."8) 兰斯利德";
-		GREY.."9) 工匠吉兹洛克";
-		GREY.."10) 洛特格里普";
-		GREY.."11) 瑟莱德丝公主";
-		GREY.."12) 碎石长者 (春节)";
-	};
-	DireMaulEast = {
-		ZoneName = "厄运之槌 (东区)";
-		Acronym = "DM";
-		Location = "菲拉斯";
-		ORNG.."钥匙：符咒火盆 (地下城套装2)";
-		BLUE.."A) 入口";
-		BLUE.."B) 入口";
-		BLUE.."C) 入口";
-		BLUE.."D) 出口";
-		GREY.."1) 开始追捕普希林";
-		GREY.."2) 结束追捕普希林";
-		GREY.."3) 瑟雷姆·刺蹄";
-		GREY..INDENT.."海多斯博恩";
-		GREY..INDENT.."雷瑟塔帝丝";
-		GREY..INDENT.."匹姆吉布";
-		GREY.."4) 埃隆巴克";
-		GREY.."5) 奥兹恩";
-		GREY..INDENT.."伊萨莉恩 (召唤)";
-	};
-	DireMaulNorth = {
-		ZoneName = "厄运之槌 (北区)";
-		Acronym = "DM";
-		Location = "菲拉斯";
-		ORNG.."钥匙：月牙钥匙";
-		BLUE.."A) 入口";
-		BLUE.."B) 图书馆";
-		GREY.."1) 卫兵摩尔达";
-		GREY.."2) 践踏者克雷格 <醉鬼>";
-		GREY.."3) 卫兵芬古斯";
-		GREY.."4) 诺特·希姆加可";
-		GREY..INDENT.."卫兵斯里基克";
-		GREY.."5) 克罗卡斯";
-		GREY.."6) 戈多克大王";
-		GREY..INDENT.."观察者克鲁什";
-	};
-	DireMaulWest = {
-		ZoneName = "厄运之槌 (西区)";
-		Acronym = "DM";
-		Location = "菲拉斯";
-		ORNG.."钥匙：月牙钥匙";
-		ORNG.."钥匙：耶维尔的瓶子 (赫尔努拉斯)";
-		BLUE.."A) 入口";
-		BLUE.."B) 水晶塔";
-		GREY.."1) 辛德拉古灵";
-		GREY.."2) 特迪斯·扭木";
-		GREY..INDENT.."上古圣马之魂";
-		GREY.."3) 伊琳娜·暗木";
-		GREY..INDENT.."费拉";
-		GREY.."4) 卡雷迪斯镇长";
-		GREY.."5) 苏斯 (稀有)";
-		GREY.."6) 伊莫塔尔";
-		GREY..INDENT.."赫尔努拉斯 (召唤)";
-		GREY.."7) 托塞德林王子";
-		GREN.."1') 图书馆";
-		GREN..INDENT.."法尔林·树影";
-		GREN..INDENT.."博学者莱德罗斯";
-		GREN..INDENT.."博学者亚沃";
-		GREN..INDENT.."博学者基尔达斯";
-		GREN..INDENT.."博学者麦库斯";
-		GREN..INDENT.."辛德拉圣职者";
-		GREN..INDENT.."卡里尔·温萨鲁斯的骸骨";
-	};
-	OnyxiasLair = {
-		ZoneName = "奥妮克希亚的巢穴";
-		Acronym = "Ony";
-		Location = "尘泥沼泽";
-		ORNG.."需要完成入口任务";
-		ORNG.."钥匙：龙火护符";
-		BLUE.."A) 入口";
-		GREY.."1) 奥妮克希亚守卫";
-		GREY.."2) 雏龙蛋";
-		GREY.."3) 奥妮克希亚";
-	};
-	TheTempleofAhnQiraj = {
-		ZoneName = "安其拉神殿";
-		Acronym = "AQ40";
-		Location = "希利苏斯";
-		ORNG.."阵营：诺兹多姆的子嗣";
-		BLUE.."A) 入口";
-		GREY.."1) 预言者斯克拉姆 (室外)";
-		GREY.."2) 虫人家庭 (可跳过)";
-		GREY..INDENT.."维姆";
-		GREY..INDENT.."克里勋爵";
-		GREY..INDENT.."亚尔基公主";
-		GREY.."3) 沙尔图拉";
-		GREY.."4) 顽强的范克瑞斯";
-		GREY.."5) 维希度斯 (可跳过)";
-		GREY.."6) 哈霍兰公主";
-		GREY.."7) 双子皇帝";
-		GREY..INDENT.."维克洛尔大帝";
-		GREY..INDENT.."维克尼拉斯大帝";
-		GREY.."8) 奥罗 (可跳过)";
-		GREY.."9) 克苏恩";
-		GREN.."1') 安多葛斯 <玛里苟斯的后裔>";
-		GREN..INDENT.."温瑟拉 <伊瑟拉的后裔>";
-		GREN..INDENT.."坎多斯特拉兹 <阿莱克丝塔萨的后裔>";
-		GREN.."2') 亚雷戈斯";
-		GREN..INDENT.."凯雷斯特拉兹";
-		GREN..INDENT.."梦境之龙麦琳瑟拉";
-	};
-	TheRuinsofAhnQiraj = {
-		ZoneName = "安其拉废墟";
-		Acronym = "AQ20";
-		Location = "希利苏斯";
-		ORNG.."阵营：塞纳里奥议会";
-		BLUE.."A) 入口";
-		GREY.."1) 库林纳克斯";
-		GREY..INDENT.."安多洛夫中将";
-		GREY..INDENT.."卡多雷四精英";
-		GREY.."2) 拉贾克斯将军";
-		GREY..INDENT.."奎兹上尉";
-		GREY..INDENT.."图比德上尉";
-		GREY..INDENT.."德雷恩上尉";
-		GREY..INDENT.."库雷姆上尉";
-		GREY..INDENT.."耶吉斯少校";
-		GREY..INDENT.."帕库少校";
-		GREY..INDENT.."泽兰上校";
-		GREY.."3) 莫阿姆 (可跳过)";
-		GREY.."4) 吞咽者布鲁 (可跳过)";
-		GREY.."5) 狩猎者阿亚米斯 (可跳过)";
-		GREY.."6) 无疤者奥斯里安";
-		GREN.."1') 安全房间";
-	};
-	CoTBlackMorass = {
-		ZoneName = "时光之穴 - 黑色沼泽";
-		Location = "塔纳利斯";
-		Acronym = "BM, cot2";
-		PURP.."事件：开启黑暗之门";
-		ORNG.."需要完成入口任务";
-		ORNG.."阵营：时光守护者";
-		ORNG.."钥匙：时光之匙 (英雄模式)";
-		BLUE.."A) 入口";
-		BLUE..INDENT.."萨艾特 <时光守护者>";
-		ORNG.."X) 传送门 (刷新点)";
-		ORNG..INDENT.."第6波：时空领主德亚";
-		ORNG..INDENT.."第12波：坦普卢斯";
-		ORNG..INDENT.."第18波：埃欧努斯";
-		GREY.."1) 黑暗之门";
-		GREY..INDENT.."麦迪文";
-	};
-	CoTHyjal = {
-		ZoneName = "时光之穴 - 海加尔峰";
-		Location = "塔纳利斯";
-		Acronym = "MH, cot3";
-		PURP.."事件：海加尔之战";
-		ORNG.."阵营：流沙之鳞";
-		BLUE.."A) 联盟基地";
-		BLUE..INDENT.."吉安娜·普罗德摩尔";
-		BLUE.."B) 部落营地";
-		BLUE..INDENT.."萨尔 <酋长>";
-		BLUE.."C) 暗夜精灵村庄";
-		BLUE..INDENT.."泰兰德·语风 <艾露恩的高阶女祭司>";
-		GREY.."1) 雷基·冬寒";
-		GREY.."2) 安纳塞隆";
-		GREY.."3) 卡兹洛加";
-		GREY.."4) 阿兹加洛";
-		GREY.."5) 阿克蒙德";
-		GREY.."?) 因多米 <上古宝石保管者>";
-		GREY..INDENT.."泰多姆 <失落的神器保管者>";
-	};
-	CoTOldHillsbrad = {
-		ZoneName = "时光之穴 - 旧希尔希布莱德";
-		Location = "塔纳利斯";
-		Acronym = "Durn, cot1";
-		PURP.."事件：逃离敦霍尔德堡";
-		ORNG.."需要完成入口任务";
-		ORNG.."阵营：时光守护者";
-		ORNG.."钥匙：时光之匙 (英雄模式)";
-		BLUE.."A) 入口";
-		BLUE..INDENT.."伊洛希恩";
-		BLUE..INDENT.."布拉森";
-		BLUE.."B) 着陆点";
-		BLUE.."C) 南海镇";
-		BLUE.."D) 塔伦米尔";
-		GREY.."1) 德拉克中尉";
-		GREY.."2) 萨尔 (下层)";
-		GREY.."3) 斯卡洛克上尉";
-		GREY..INDENT.."萨尔的第二次止步";
-		GREY.."4) 萨尔的第三次止步";
-		GREY.."5) 时空猎手";
-		GREY..INDENT.."萨尔的第四次止步 (上层)";
-		GREY..INDENT.."塔蕾莎 (上层)";
-		GREY.."6) 乔纳森·雷瓦";
-		GREY..INDENT.."杰瑞·卡特尔";
-		"";
-		ORNG.."旅行中";
-		GREY..INDENT.."托马斯·杨斯 <旅行商人>";
-		GREY..INDENT.."老迈的达拉然巫师";
-		"";
-		ORNG.."南海镇";
-		GREY..INDENT.."克尔苏加德 <肯瑞托>";
-		GREY..INDENT.."赫尔库拉";
-		GREY..INDENT.."农夫肯特";
-		GREY..INDENT.."萨莉·怀特迈恩";
-		GREY..INDENT.."雷诺·莫格莱尼";
-		GREY..INDENT.."吉米·维沙斯";
-		GREY..INDENT.."赫洛德";
-		GREY..INDENT.."纳特·帕格";
-		GREY..INDENT.."哈尔·马克奥里斯特";
-		GREY..INDENT.."吉克希尔 <商人>";
-		GREY..INDENT.."守候者零型 <保护者>";
-		"";
-		ORNG.."南海镇旅馆";
-		GREY..INDENT.."爱德华·汉斯";
-		GREY..INDENT.."杉德尔船长";
-		GREY..INDENT.."指挥官莫格莱尼";
-		GREY..INDENT.."伊森利恩";
-		GREY..INDENT.."阿比迪斯";
-		GREY..INDENT.."法尔班克斯";
-		GREY..INDENT.."提里奥·弗丁";
-		GREY..INDENT.."奥法师杜安";
-		GREY..INDENT.."泰兰 (上层)";
-		GREY..INDENT.."酒吧老板凯利 <调酒师>";
-		GREY..INDENT.."弗兰斯·林 <招待员>";
-		GREY..INDENT.."厨师杰森";
-		GREY..INDENT.."斯塔文·密斯特曼托 (上层)";
-		GREY..INDENT.."费恩·奥德利克 <肯瑞托> (上层)";
-		"";
-		ORNG.."南海镇大厅";
-		GREY..INDENT.."赫尼·马雷布镇长";
-		GREY..INDENT.."虔诚的莱雷恩";
-		GREY..INDENT.."纳萨诺斯·玛瑞斯";
-		GREY..INDENT.."古板的比格尔";
-		"";
-		ORNG.."塔伦米尔";
-		GREY..INDENT.."旅店老板莫妮卡";
-		GREY..INDENT.."朱丽·哈尼维尔";
-		GREY..INDENT.."贾森·雷缪克斯";
-		GREY..INDENT.."小马布兰契";
-	};
 	BlackrockDepths = {
 		ZoneName = "黑石深渊";
 		Acronym = "BRD";
@@ -1394,5 +1351,6 @@ AtlasMaps = {
 		GREY..INDENT.."熵魔 (上层)";
 		GREY.."4) 基尔加丹";
 	};
+	--]]
 };
 end

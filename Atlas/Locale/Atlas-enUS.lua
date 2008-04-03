@@ -65,10 +65,10 @@ ATLAS_OPTIONS_RESETPOS = "Reset Position";
 ATLAS_OPTIONS_ACRONYMS = "Display Acronyms";
 ATLAS_OPTIONS_SCALE = "Scale";
 ATLAS_OPTIONS_BUTRAD = "Button Radius";
-ATLAS_OPTIONS_CLAMPED = "Clamp window to screen"
-ATLAS_OPTIONS_HELP = "Left-click and drag to move this window."
-ATLAS_OPTIONS_CTRL = "Hold down Control for tooltips"
-ATLAS_OPTIONS_COORDS = "Show coordinates on the World Map"
+ATLAS_OPTIONS_CLAMPED = "Clamp window to screen";
+ATLAS_OPTIONS_HELP = "Left-click and drag to move this window.";
+ATLAS_OPTIONS_CTRL = "Hold down Control for tooltips";
+ATLAS_OPTIONS_COORDS = "Show coordinates on the World Map";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";

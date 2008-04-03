@@ -1,33 +1,9 @@
 --[[
-
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-
---]]
-
---[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
--- Version WoW 2.3.3 (french client)
+-- Version WoW 2.4.1 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 24/03/2008
+-- le 03/04/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -38,75 +14,73 @@ AtlasSortIgnore = {
 	"les (.+)"
 };
 
-ATLAS_TITLE = "Atlas";
+ATLAS_TITLE    = "Atlas";
 ATLAS_SUBTITLE = "Navigateur de cartes d'instances";
-ATLAS_DESC = "Atlas est un navigateur de cartes d'instances.";
-
-ATLAS_OPTIONS_BUTTON = "Options";
+ATLAS_DESC     = "Atlas est un navigateur de cartes d'instances.";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas";
-BINDING_NAME_ATLAS_TOGGLE = "Atlas [Ouvrir/Fermer]";
+BINDING_NAME_ATLAS_TOGGLE  = "Atlas [Ouvrir/Fermer]";
 BINDING_NAME_ATLAS_OPTIONS = "Options [Ouvrir/Fermer]";
 
-ATLAS_SLASH = "/atlas";
+ATLAS_SLASH         = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";
 
-ATLAS_STRING_LOCATION = "Lieu";
-ATLAS_STRING_LEVELRANGE = "Niveau";
+ATLAS_STRING_LOCATION    = "Lieu";
+ATLAS_STRING_LEVELRANGE  = "Niveau";
 ATLAS_STRING_PLAYERLIMIT = "Limite de joueurs";
-ATLAS_STRING_SELECT_CAT = "Choix de la catégorie";
-ATLAS_STRING_SELECT_MAP = "Choix de la carte";
-ATLAS_STRING_SEARCH = "Chercher";
-ATLAS_STRING_CLEAR = "Nettoyer";
+ATLAS_STRING_SELECT_CAT  = "Choix de la catégorie";
+ATLAS_STRING_SELECT_MAP  = "Choix de la carte";
+ATLAS_STRING_SEARCH      = "Rechercher";
+ATLAS_STRING_CLEAR       = "Nettoyer";
 
-ATLAS_OPTIONS_TITLE = "Atlas Options";
-ATLAS_OPTIONS_SHOWBUT = "Voir le bouton sur la mini-carte";
-ATLAS_OPTIONS_AUTOSEL = "Auto-sélection de la carte";
-ATLAS_OPTIONS_BUTPOS = "Position du bouton";
-ATLAS_OPTIONS_TRANS = "Transparence";
-ATLAS_OPTIONS_DONE = "Valider";
-ATLAS_OPTIONS_REPMAP = "Remplacer la carte du monde";
-ATLAS_OPTIONS_RCLICK = "Clic droit pour la carte du monde";
+ATLAS_OPTIONS_BUTTON      = "Options";
+ATLAS_OPTIONS_TITLE       = "Atlas Options";
+ATLAS_OPTIONS_SHOWBUT     = "Voir le bouton sur la mini-carte";
+ATLAS_OPTIONS_AUTOSEL     = "Sélection automatique de la carte";
+ATLAS_OPTIONS_BUTPOS      = "Position du bouton";
+ATLAS_OPTIONS_TRANS       = "Transparence";
+ATLAS_OPTIONS_DONE        = "Valider";
+ATLAS_OPTIONS_REPMAP      = "Remplacer la carte du monde";
+ATLAS_OPTIONS_RCLICK      = "Clic droit pour la carte du monde";
 ATLAS_OPTIONS_SHOWMAPNAME = "Afficher le nom de la carte";
-ATLAS_OPTIONS_RESETPOS = "Position initiale";
-ATLAS_OPTIONS_ACRONYMS = "Afficher les acronymes VO/VF";
-ATLAS_OPTIONS_SCALE = "Echelle";
-ATLAS_OPTIONS_BUTRAD = "Rayon du bouton";
-ATLAS_OPTIONS_CLAMPED = "Fixer la fenêtre à l'écran";
-ATLAS_OPTIONS_HELP = "Clic-gauche pour déplacer cette fenêtre.";
-ATLAS_OPTIONS_CTRL = "Maintenir enfoncé la touche Ctrl pour les infobulles"
-ATLAS_OPTIONS_COORDS = "Montre les coordonnées sur la carte du monde"
-
+ATLAS_OPTIONS_RESETPOS    = "Position initiale";
+ATLAS_OPTIONS_ACRONYMS    = "Afficher les acronymes VO/VF";
+ATLAS_OPTIONS_SCALE       = "Echelle";
+ATLAS_OPTIONS_BUTRAD      = "Rayon du bouton";
+ATLAS_OPTIONS_CLAMPED     = "Fixer la fenêtre à l'écran";
+ATLAS_OPTIONS_HELP        = "Clic gauche pour déplacer cette fenêtre.";
+ATLAS_OPTIONS_CTRL        = "Maintenir la touche Ctrl enfoncée pour voir les infobulles"
+ATLAS_OPTIONS_COORDS      = "Montrer les coordonnées sur la carte du monde"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
-ATLAS_BUTTON_TOOLTIP_HINT = "Clic-gauche pour ouvrir Atlas.\nClic-milieu pour les options d'Atlas.\nClic-droit et déplacer ce bouton.";
-ATLAS_TITAN_HINT = "Clic-gauche pour ouvrir Atlas.\nClic-milieu pour les options d'Atlas.\nClic-droit pour le menu d'affichage.";
+ATLAS_BUTTON_TOOLTIP_HINT = "Clic gauche pour ouvrir Atlas.\nClic milieu pour les options d'Atlas.\nClic droit pour déplacer ce bouton.";
+
+ATLAS_TITAN_HINT = "Clic gauche pour ouvrir Atlas.\nClic milieu pour les options d'Atlas.\nClic droit pour le menu d'affichage.";
 
 
-ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Auto-sélection, Remplacer la Carte du Monde, Clic-droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option d'Auto-sélection est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplace la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-droit est activée, vous pourrez cliquer-droite sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un clic-gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
-
-
-ATLAS_OPTIONS_CATDD = "Trier les instances par :";
-ATLAS_DDL_CONTINENT = "Continent";
-ATLAS_DDL_CONTINENT_EASTERN = "Instances des Royaumes de l'Est";
+ATLAS_OPTIONS_CATDD          = "Trier les instances par :";
+ATLAS_DDL_CONTINENT          = "Continent";
+ATLAS_DDL_CONTINENT_EASTERN  = "Instances des Royaumes de l'Est";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Instances de Kalimdor";
-ATLAS_DDL_CONTINENT_OUTLAND = "Instances de l'Outreterre";
-ATLAS_DDL_LEVEL = "Niveau";
-ATLAS_DDL_LEVEL_UNDER45 = "Instances avant Niveau 45";
-ATLAS_DDL_LEVEL_45TO60 = "Instances Niveau 45-60";
-ATLAS_DDL_LEVEL_60TO70 = "Instances Niveau 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "Instances Niveau 70+";
-ATLAS_DDL_PARTYSIZE = "Taille de Groupe";
-ATLAS_DDL_PARTYSIZE_5 = "Instances pour 5 Joueurs";
-ATLAS_DDL_PARTYSIZE_10 = "Instances pour 10 Joueurs";
-ATLAS_DDL_PARTYSIZE_20TO40 = "Instances pour 20-40 Joueurs";
-ATLAS_DDL_EXPANSION = "Extension";
-ATLAS_DDL_EXPANSION_OLD = "Instances du Vieux Monde";
-ATLAS_DDL_EXPANSION_BC = "Instances Burning Crusade";
+ATLAS_DDL_CONTINENT_OUTLAND  = "Instances de l'Outreterre";
+ATLAS_DDL_LEVEL              = "Niveau";
+ATLAS_DDL_LEVEL_UNDER45      = "Instances avant Niveau 45";
+ATLAS_DDL_LEVEL_45TO60       = "Instances Niveau 45-60";
+ATLAS_DDL_LEVEL_60TO70       = "Instances Niveau 60-70";
+ATLAS_DDL_LEVEL_70PLUS       = "Instances Niveau 70+";
+ATLAS_DDL_PARTYSIZE          = "Taille de Groupe";
+ATLAS_DDL_PARTYSIZE_5        = "Instances pour 5 Joueurs";
+ATLAS_DDL_PARTYSIZE_10       = "Instances pour 10 Joueurs";
+ATLAS_DDL_PARTYSIZE_20TO40   = "Instances pour 20-40 Joueurs";
+ATLAS_DDL_EXPANSION          = "Extension";
+ATLAS_DDL_EXPANSION_OLD      = "Instances du Vieux Monde";
+ATLAS_DDL_EXPANSION_BC       = "Instances Burning Crusade";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrée";
-ATLAS_SEARCH_UNAVAIL = "Recherche Indisponible";
+ATLAS_SEARCH_UNAVAIL  = "Recherche Indisponible";
+
+ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Sélection automatique, Remplacer la Carte du Monde, Clic droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option de Sélection automatique est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplacer la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic droit est activée, vous pourrez cliquer droit sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un clic gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
 
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"]	= "Le temple englouti";
@@ -115,6 +89,339 @@ AtlasZoneSubstitutions = {
 	["Karazhan"]				= "Karazhan [A] (Début)";
 	["Temple Noir"]				= "Temple Noir [A] (Début)";	
 };
+
+local INDENT = "      ";
+
+AtlasLocale = {
+
+--************************************************
+-- Zone Names, Acronyms, and Common Strings
+--************************************************
+
+	--Common strings
+	["Entrance"] = "Entrée";
+	["Exit"] = "Sortie";
+	["Attunement Required"] = "Harmonisation requise";
+	
+	--Continents
+	["Kalimdor"] = "Kalimdor";
+	
+	--Instance names and acronyms
+	["Ragefire Chasm"] = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
+	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
+	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
+	["Razorfen Kraul"] = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
+	["Razorfen Downs"] = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
+	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
+	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
+	["Dire Maul (East)"] = "Hache-tripes (Est)"; ["DM"] = "DM/HT";
+	["Dire Maul (North)"] = "Hache-tripes (Nord)";
+	["Dire Maul (West)"] = "Hache-tripes (Ouest)";
+	["Onyxia's Lair"] = "Repaire d'Onyxia"; ["Ony"] = "Ony";
+	["Temple of Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ40"] = "AQ40";
+	["Ruins of Ahn'Qiraj"] = "Ruines d'Ahn'Qiraj"; ["AQ20"] = "AQ20";
+	["CoT: The Black Morass"] = "GdT : Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
+	["CoT: Hyjal Summit"] = "GdT : Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
+	["CoT: Old Hillsbrad Foothills"] = "GdT : Contreforts de Hautebrande d'antan"; ["CoT1"] = "CoT1/GT1";
+	
+	--Outdoor zones, Locations
+	["Orgrimmar"] = "Orgrimmar";
+	["The Barrens"] = "Les Tarides";
+	["Ashenvale"] = "Orneval";
+	["Tanaris"] = "Tanaris";
+	["Desolace"] = "Désolace";
+	["Feralas"] = "Féralas";
+	["Dustwallow Marsh"] = "Marécage d'Âprefange";
+	["Silithus"] = "Silithus";
+	["Caverns of Time, Tanaris"] = "Grottes du Temps, Tanaris";
+
+--************************************************
+-- Kalimdor Instance Data
+--************************************************
+
+	--Ragefire Chasm
+	["Maur Grimtotem"] = "Maur Totem-sinistre";
+	["Oggleflint <Ragefire Chieftain>"] = "Lorgnesilex <Chef Ragefeu>";
+	["Taragaman the Hungerer"] = "Taragaman l'Affameur";
+	["Jergosh the Invoker"] = "Jergosh l'Invocateur";
+	["Zelemar the Wrathful (Summon)"] = "Zelemar le Courroucé (Invoqué)";
+	["Bazzalan"] = "Bazzalan";
+	
+	--Wailing Caverns
+	["Disciple of Naralex"] = "Disciple de Naralex";
+	["Lord Cobrahn <Fanglord>"] = "Seigneur Cobrahn <Seigneur-Croc>";
+	["Lady Anacondra <Fanglord>"] = "Dame Anacondra <Seigneur-Croc>";
+	["Kresh"] = "Kresh";
+	["Lord Pythas <Fanglord>"] = "Seigneur Pythas <Seigneur-Croc>";
+	["Skum"] = "Skum";
+	["Lord Serpentis <Fanglord> (Upper)"] = "Seigneur Serpentis <Seigneur-Croc> (En haut)";
+	["Verdan the Everliving (Upper)"] = "Verdan l'Immortel (En haut)";
+	["Mutanus the Devourer"] = "Mutanus le Dévoreur";
+	["Naralex"] = "Naralex";
+	["Deviate Faerie Dragon (Rare)"] = "Dragon féerique déviant (Rare)";
+	
+	--Blackfathom Deeps
+	["Ghamoo-ra"] = "Ghamoo-ra";
+	["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
+	["Lady Sarevess"] = "Dame Sarevess";
+	["Argent Guard Thaelrid <The Argent Dawn>"] = "Garde d’argent Thaelrid <L'Aube d'argent>";
+	["Gelihast"] = "Gelihast";
+	["Shrine of Gelihast"] = "Autel de Gelihast";
+	["Lorgus Jett (Varies)"] = "Lorgus Jett (Variable)";
+	["Fathom Stone"] = "Noyau de la Brasse";
+	["Baron Aquanis"] = "Baron Aquanis";
+	["Twilight Lord Kelris"] = "Seigneur du crépuscule Kelris";
+	["Old Serra'kis"] = "Vieux Serra'kis";
+	["Aku'mai"] = "Aku'mai";
+	["Morridune"] = "Morridune";
+	["Altar of the Deeps"] = "Autel des profondeurs";
+	
+	--Razorfen Kraul
+	["Roogug"] = "Roogug";
+	["Aggem Thorncurse <Death's Head Prophet>"] = "Aggem Malépine <Prophète de la Tête de mort>";
+	["Death Speaker Jargba <Death's Head Captain>"] = "Nécrorateur Jargba <Capitaine des Têtes de mort>";
+	["Overlord Ramtusk"] = "Seigneur Brusquebroche";
+	["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
+	["Agathelos the Raging"] = "Agathelos le Déchaîné";
+	["Blind Hunter (Rare)"] = "Chasseur aveugle (Rare)";
+	["Charlga Razorflank <The Crone>"] = "Charlga Trancheflanc <La mégère>";
+	["Willix the Importer"] = "Willix l’Importateur";
+	["Heralath Fallowbrook"] = "Heralath Ruissefriche";
+	["Earthcaller Halmgar (Rare)"] = "Implorateur de la terre Halmgar (Rare)";
+
+	--Razorfen Downs
+	["Tuten'kash"] = "Tuten'kash";
+	["Henry Stern"] = "Henry Stern ";
+	["Belnistrasz"] = "Belnistrasz";
+	["Sah'rhee"] = "Sah'rhee";
+	["Mordresh Fire Eye"] = "Mordresh Oeil-de-feu";
+	["Glutton"] = "Glouton";
+	["Ragglesnout (Rare, Varies)"] = "Ragglesnout (Rare, Variable)";
+	["Amnennar the Coldbringer"] = "Amnennar le Porte-froid";
+	["Plaguemaw the Rotting"] = "Pestegueule le Pourrissant";
+	
+	--Zul'Farrak
+	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "Objet : Marteau de Zul'Farrak (Gahz'rilla)";
+	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Surveillant de Sul>";
+	["Theka the Martyr"] = "Theka le Martyr";
+	["Witch Doctor Zum'rah"] = "Sorcier-docteur Zum'rah";
+	["Zul'Farrak Dead Hero"] = "Héros mort de Zul'Farrak";
+	["Nekrum Gutchewer"] = "Nekrum Mâchentrailles";
+	["Shadowpriest Sezz'ziz"] = "Prêtre des ombres Sezz'ziz";
+	["Dustwraith (Rare)"] = "Ame en peine poudreuse (Rare)";
+	["Sergeant Bly"] = "Sergent Bly";
+	["Weegli Blastfuse"] = "Gigoto Explomèche";
+	["Murta Grimgut"] = "Murta Mornentraille";
+	["Raven"] = "Corbeau";
+	["Oro Eyegouge"] = "Oro Crève-oeil";
+	["Sandfury Executioner"] = "Bourreau Furie-des-sables";
+	["Hydromancer Velratha"] = "Hydromancienne Velratha";
+	["Gahz'rilla (Summon)"] = "Gahz'rilla (Invoqué)";
+	["Elder Wildmane (Lunar)"] = "Ancienne Crin-sauvage (Fête lunaire)";
+	["Chief Ukorz Sandscalp"] = "Chef Ukorz Scalpessable";
+	["Ruuzlu"] = "Ruuzlu";
+	["Zerillis (Rare, Wanders)"] = "Zerillis (Rare, Errant)";
+	["Sandarr Dunereaver (Rare)"] = "Sandarr Ravadune (Rare)";
+	
+	--Maraudon	
+	["Key: Scepter of Celebras (Portal)"] = "Objet :  Sceptre de Celebras (Portail)";
+	["Entrance (Orange)"] = "Entrée (Orange)";
+	["Entrance (Purple)"] = "Entrée (Violet)";
+	["Entrance (Portal)"] = "Entrée (Portail)";
+	["Veng <The Fifth Khan>"] = "Veng <Le cinquième Kahn>";
+	["Noxxion"] = "Noxcion";
+	["Razorlash"] = "Tranchefouet";
+	["Maraudos <The Fourth Khan>"] = "Maraudos <Le quatrième Kahn>";
+	["Lord Vyletongue"] = "Seigneur Vylelangue";
+	["Meshlok the Harvester (Rare)"] = "Meshlok le Moissonneur (Rare)";
+	["Celebras the Cursed"] = "Celebras le Maudit";
+	["Landslide"] = "Glissement de terrain";
+	["Tinkerer Gizlock"] = "Bricoleur Kadenaz";
+	["Rotgrip"] = "Grippe-charogne";
+	["Princess Theradras"] = "Princesse Theradras";
+	["Elder Splitrock (Lunar)"] = "Ancien Pierre-fendue (Fête lunaire)";
+	
+	--Dire Maul (East)
+	["Key: Brazier of Invocation (DS2)"] = "Objet : Brasero d'invocation (Set D2)";
+	["Pusillin (Chase Begins)"] = "Début de la chasse à Pusillin";
+	["Pusillin (Chase Ends)"] = "Fin de la chasse à Pusillin";
+	["Zevrim Thornhoof"] = "Zevrim Sabot-de-ronce";
+	["Hydrospawn"] = "Hydrogénos";
+	["Lethtendris"] = "Lethtendris";
+	["Pimgib"] = "Pimgib";
+	["Old Ironbark"] = "Vieil Ecorcefer";
+	["Alzzin the Wildshaper"] = "Alzzin le modeleur";
+	["Isalien (Summon)"] = "Isalien (Invoqué)";
+	
+	--Dire Maul (North)
+	["Key: Crescent Key"] = "Objet : Clé en croissant";
+	["Library"] = "Bibliothèque";
+	["Guard Mol'dar"] = "Garde Mol'dar";
+	["Stomper Kreeg <The Drunk>"] = "Kreeg le Marteleur <L'ivrogne>";
+	["Guard Fengus"] = "Garde Fengus";
+	["Knot Thimblejack"] = "Noué Dédodevie";
+	["Guard Slip'kik"] = "Garde Slip'kik";
+	["Captain Kromcrush"] = "Capitaine Kromcrush";
+	["King Gordok"] = "Roi Gordok";
+	["Cho'Rush the Observer"] = "Cho'Rush l'Observateur";
+
+	--Dire Maul (West)
+	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "Objet : Bocal de J'eevee (Seigneur Hel'nurath)";
+	["Pylons"] = "Pylônes";
+	["Shen'dralar Ancient"] = "Ancienne de Shen'Dralar";
+	["Tendris Warpwood"] = "Tendris Crochebois";
+	["Ancient Equine Spirit"] = "Ancien esprit équin";
+	["Illyanna Ravenoak"] = "Illyanna Corvichêne";
+	["Ferra"] = "Ferra";
+	["Magister Kalendris"] = "Magistère Kalendris";
+	["Tsu'zee (Rare)"] = "Tsu'zee (Rare)";
+	["Immol'thar"] = "Immol'thar";
+	["Lord Hel'nurath (Summon)"] = "Seigneur Hel'nurath (Invoqué)";
+	["Prince Tortheldrin"] = "Prince Tortheldrin";
+	["Falrin Treeshaper"] = "Falrin Sculpteflore";
+	["Lorekeeper Lydros"] = "Gardien du savoir Lydros";
+	["Lorekeeper Javon"] = "Gardien du savoir Javon";
+	["Lorekeeper Kildrath"] = "Gardien du savoir Kildrath";
+	["Lorekeeper Mykos"] = "Gardienne du savoir Mykos";
+	["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
+	["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
+	
+	--Onyxia's Lair
+	["Key: Drakefire Amulet"] = "Objet : Amulette drakefeu";
+	["Onyxian Warders"] = "Gardiens onyxiens";
+	["Whelp Eggs"] = "Œufs";
+	["Onyxia"] = "Onyxia";
+
+	--Temple of Ahn'Qiraj
+	["Rep: Brood of Nozdormu"] = "Réput : Progéniture de Nozdormu";
+	["The Prophet Skeram (Outside)"] = "Le Prophète Skeram (Extérieur)";
+	["The Bug Family (Optional)"] = "La famille insecte (Optionnel)";
+	["Vem"] = "Vem";
+	["Lord Kri"] = "Seigneur Kri";
+	["Princess Yauj"] = "Princesse Yauj";
+	["Battleguard Sartura"] = "Garde de guerre Sartura";
+	["Fankriss the Unyielding"] = "Fankriss l'Inflexible";
+	["Viscidus (Optional)"] = "Viscidus (Optionnel)";
+	["Princess Huhuran"] = "Princesse Huhuran";
+	["Twin Emperors"] = "Les Empereurs jumeaux";
+	["Emperor Vek'lor"] = "Empereur Vek'lor";
+	["Emperor Vek'nilash"] = "Empereur Vek'nilash";
+	["Ouro (Optional)"] = "Ouro (Optionnel)";
+	["Eye of C'Thun"] = "Œil de C'Thun";
+	["C'Thun"] = "C'Thun";
+	["Andorgos <Brood of Malygos>"] = "Andorgos <Rejeton de Malygos>";
+	["Vethsera <Brood of Ysera>"] = "Vethsera <Rejeton d'Ysera>";
+	["Kandrostrasz <Brood of Alexstrasza>"] = "Kandrostrasz <Rejeton d'Alexstrasza>";
+	["Arygos"] = "Arygos";
+	["Caelestrasz"] = "Caelestrasz";
+	["Merithra of the Dream"] = "Merithra du Rêve";
+	
+	--Ruins of Ahn'Qiraj
+	["Rep: Cenarion Circle"] = "Réput : Cercle cénarien";
+	["Kurinnaxx"] = "Kurinnaxx";
+	["Lieutenant General Andorov"] = "Général de division Andorov";
+	["Four Kaldorei Elites"] = "Quatre Elite kaldorei";
+	["General Rajaxx"] = "Général Rajaxx";
+	["Captain Qeez"] = "Capitaine Qeez";
+	["Captain Tuubid"] = "Capitaine Tuubid";
+	["Captain Drenn"] = "Capitaine Drenn";
+	["Captain Xurrem"] = "Capitaine Xurrem";
+	["Major Yeggeth"] = "Major Yeggeth";
+	["Major Pakkon"] = "Major Parron";
+	["Colonel Zerran"] = "Colonel Zerran";
+	["Moam (Optional)"] = "Moam (Optionnel)";
+	["Buru the Gorger (Optional)"] = "Buru Grandgosier (Optionnel)";
+	["Ayamiss the Hunter (Optional)"] = "Ayamiss le Chasseur (Optionnel)";
+	["Ossirian the Unscarred"] = "Ossirian l'Intouché";
+	["Safe Room"] = "Pièce sûre";
+
+	--CoT: The Black Morass
+	["Event: Opening of the Dark Portal"] = "Evènement : Ouverture de la Porte des Ténèbres";
+	["Rep: Keepers of Time"] = "Réput : Gardiens du Temps";
+	["Key: Key of Time (Heroic)"] = "Objet : Clé du Temps (Héroïque)";
+	["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
+	["Portal (Spawn Point)"] = "Portail (Points d'apparition)";
+	["Wave 6: Chrono Lord Deja"] = "Vague 6 : Chronoseigneur Déjà";
+	["Wave 12: Temporus"] = "Vague 12 : Temporus";
+	["Wave 18: Aeonus"] = "Vague 18 : Aeonus";
+	["The Dark Portal"] = "La Porte des Ténèbres";
+	["Medivh"] = "Medivh";
+
+	--CoT: Hyjal Summit
+	["Event: Battle for Mount Hyjal"] = "Evènement : Bataille pour le Mont Hyjal";
+	["Rep: The Scale of the Sands"] = "Réput : La Balance des sables";
+	["Alliance Base"] = "Base de l'Alliance";
+	["Lady Jaina Proudmoore"] = "Dame Jaina Portvaillant";
+	["Horde Encampment"] = "Campement de la Horde";
+	["Thrall <Warchief>"] = "Thrall <Chef de guerre>";
+	["Night Elf Village"] = "Village des Elfes de la Nuit";
+	["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Murmevent <Grande prêtresse d'Elune>";
+	["Rage Winterchill"] = "Rage Froidhiver";
+	["Anetheron"] = "Anetheron";
+	["Kaz'rogal"] = "Kazgorath";
+	["Azgalor"] = "Azgalor";
+	["Archimonde"] = "Archimonde";
+	["Indormi <Keeper of Ancient Gem Lore>"] = "Indormi <Gardienne du savoir ancien des gemmes>";
+	["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Gardien des artefacts perdus>";
+
+	--CoT: Old Hillsbrad Foothills
+	["Event: Escape from Durnholde Keep"] = "Evènement : L'évasion du Fort-de-Durn";
+	["Erozion"] = "Erozion";
+	["Brazen"] = "Airain";
+	["Landing Spot"] = "Zone d'atterrissage";
+	["Southshore"] = "Austrivage";
+	["Tarren Mill"] = "Moulin-de-Tarren";
+	["Lieutenant Drake"] = "Lieutenant Drake";
+	["Thrall (Lower)"] = "Thrall (En bas)";
+	["Captain Skarloc"] = "Capitaine Skarloc";
+	["Thrall (Second Stop)"] = "Deuxième arrêt de Thrall";
+	["Thrall (Third Stop)"] = "Troisième arrêt de Thrall";
+	["Epoch Hunter"] = "Chasseur d'époques";
+	["Thrall (Fourth Stop, Upstairs)"] = "Quatrième arrêt de Thrall (En haut)";
+	["Taretha (Upstairs)"] = "Taretha (En haut)";
+	["Jonathan Revah"] = "Jonathan Revah";
+	["Jerry Carter"] = "Jerry Carter";
+	["Traveling"] = "Itinérants";
+	["Thomas Yance <Travelling Salesman>"] = "Thomas Yance <Marchand itinérant>";
+	["Aged Dalaran Wizard"] = "Sorcier de Dalaran âgé";
+	["Kel'Thuzad <The Kirin Tor>"] = "Kel'Thuzad <Le Kirin Tor>";
+	["Helcular"] = "Helcular";
+	["Farmer Kent"] = "Kent le fermier";
+	["Sally Whitemane"] = "Sally Blanchetête";
+	["Renault Mograine"] = "Renault Mograine";
+	["Little Jimmy Vishas"] = "Petit Jimmy Vishas";
+	["Herod the Bully"] = "Hérode le Malmeneur";
+	["Nat Pagle"] = "Nat Pagle";
+	["Hal McAllister"] = "Hal McAllister";
+	["Zixil <Aspiring Merchant>"] = "Zixil <Marchand en herbe>";
+	["Overwatch Mark 0 <Protector>"] = "Vigilant modèle 0 <Protecteur>";
+	["Southshore Inn"] = "Auberge d'Austrivage";
+	["Captain Edward Hanes"] = "Capitaine Edward Hanes";
+	["Captain Sanders"] = "Capitaine Sanders";
+	["Commander Mograine"] = "Commandant Mograine";
+	["Isillien"] = "Isillien";
+	["Abbendis"] = "Abbendis";
+	["Fairbanks"] = "Fairbanks";
+	["Tirion Fordring"] = "Tirion Fordring";
+	["Arcanist Doan"] = "Arcaniste Doan";
+	["Taelan (Upstairs)"] = "Taelan (En haut)";
+	["Barkeep Kelly <Bartender>"] = "Kelly le serveur <Tavernier>";
+	["Frances Lin <Barmaid>"] = "Frances Lin <Serveuse>";
+	["Chef Jessen <Speciality Meat & Slop>"] = "Chef Jessen <Spécialités de viandes & pâtées>";
+	["Stalvan Mistmantle (Upstairs)"] = "Stalvan Mantebrume (En haut)";
+	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "Phin Odelic <Le Kirin Tor> (En haut)";
+	["Southshore Town Hall"] = "Hôtel de ville d'Austrivage";
+	["Magistrate Henry Maleb"] = "Magistrat Henry Maleb";
+	["Raleigh the True"] = "Raleigh le Vrai";
+	["Nathanos Marris"] = "Nathanos Marris";
+	["Bilger the Straight-laced"] = "Sentine le Guindé";
+	["Innkeeper Monica"] = "Aubergiste Monica";
+	["Julie Honeywell"] = "Julie Miellepuits";
+	["Jay Lemieux"] = "Jay Lemieux";
+	["Young Blanchy"] = "Jeune Blanchy";
+};
+
+--[[
 
 local BLUE = "|cff6666ff";
 local GREY = "|cff999999";
@@ -1413,5 +1720,6 @@ AtlasMaps = {
 		GREY.."4) Kil'jaeden";
 	};
 };
+]]--
 
 end

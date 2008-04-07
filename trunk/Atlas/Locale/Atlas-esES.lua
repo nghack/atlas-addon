@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2008 Dan Gilbert
@@ -126,7 +126,7 @@ AtlasLocale = {
 	
 	--Instance names and acronyms
 	["Ragefire Chasm"] = "Sima Ignea"; ["RFC"] = "SI";
-	["Wailing Caverns"] = "Las Cuevas de los Lamentos"; ["WC"] = CL";
+	["Wailing Caverns"] = "Las Cuevas de los Lamentos"; ["WC"] = "CL";
 	["Blackfathom Deeps"] = "Cavernas de Brazanegra"; ["BFD"] = "CB";
 	["Razorfen Kraul"] = "Horado Rajacieno"; ["RFK"] = "HR";
 	["Razorfen Downs"] = "Zahúrda Rajacieno"; ["RFD"] = "ZR";
@@ -1365,8 +1365,7 @@ AtlasLocale = {
 		GREY..INDENT.."Entropius (Arriba)"; --FALTA
 		GREY.."4) Kil'jaden"; --Bien
 	};
+	--]]
 };
-
---]]
 
 end

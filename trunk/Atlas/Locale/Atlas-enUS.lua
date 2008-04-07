@@ -113,6 +113,30 @@ AtlasLocale = {
 	["Entrance"] = "Entrance";
 	["Exit"] = "Exit";
 	["Attunement Required"] = "Attunement Required";
+	["Summon"] = "Summon";
+	["Upper"] = "Upper";
+	["Rare"] = "Rare";
+	["Varies"] = "Varies";
+	["Lunar"] = "Lunar";
+	["Wanders"] = "Wanders";
+	["Key"] = "Key";
+	["Orange"] = "Orange";
+	["Purple"] = "Purple";
+	["DS2"] = "DS2";
+	["Chase Begins"] = "Chase Begins";
+	["Chase Ends"] = "Chase Ends";
+	["Rep"] = "Rep";
+	["Outside"] = "Outside";
+	["Optional"] = "Optional";
+	["Event"] = "Event";
+	["Heroic"] = "Heroic";
+	["Spawn Point"] = "Spawn Point";
+	["Lower"] = "Lower";
+	["Upstairs"] = "Upstairs";
+	["Second Stop"] = "Second Stop";
+	["Third Stop"] = "Third Stop";
+	["Fourth Stop"] = "Fourth Stop";
+	["Portal"] = "Portal";
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
@@ -155,7 +179,7 @@ AtlasLocale = {
 	["Oggleflint <Ragefire Chieftain>"] = "Oggleflint <Ragefire Chieftain>";
 	["Taragaman the Hungerer"] = "Taragaman the Hungerer";
 	["Jergosh the Invoker"] = "Jergosh the Invoker";
-	["Zelemar the Wrathful (Summon)"] = "Zelemar the Wrathful (Summon)";
+	["Zelemar the Wrathful"] = "Zelemar the Wrathful";
 	["Bazzalan"] = "Bazzalan";
 	
 	--Wailing Caverns
@@ -165,11 +189,11 @@ AtlasLocale = {
 	["Kresh"] = "Kresh";
 	["Lord Pythas <Fanglord>"] = "Lord Pythas <Fanglord>";
 	["Skum"] = "Skum";
-	["Lord Serpentis <Fanglord> (Upper)"] = "Lord Serpentis <Fanglord> (Upper)";
-	["Verdan the Everliving (Upper)"] = "Verdan the Everliving (Upper)";
+	["Lord Serpentis <Fanglord>"] = "Lord Serpentis <Fanglord>";
+	["Verdan the Everliving"] = "Verdan the Everliving";
 	["Mutanus the Devourer"] = "Mutanus the Devourer";
 	["Naralex"] = "Naralex";
-	["Deviate Faerie Dragon (Rare)"] = "Deviate Faerie Dragon (Rare)";
+	["Deviate Faerie Dragon"] = "Deviate Faerie Dragon";
 	
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
@@ -178,7 +202,7 @@ AtlasLocale = {
 	["Argent Guard Thaelrid <The Argent Dawn>"] = "Argent Guard Thaelrid <The Argent Dawn>";
 	["Gelihast"] = "Gelihast";
 	["Shrine of Gelihast"] = "Shrine of Gelihast";
-	["Lorgus Jett (Varies)"] = "Lorgus Jett (Varies)";
+	["Lorgus Jett"] = "Lorgus Jett";
 	["Fathom Stone"] = "Fathom Stone";
 	["Baron Aquanis"] = "Baron Aquanis";
 	["Twilight Lord Kelris"] = "Twilight Lord Kelris";
@@ -194,11 +218,11 @@ AtlasLocale = {
 	["Overlord Ramtusk"] = "Overlord Ramtusk";
 	["Razorfen Spearhide"] = "Razorfen Spearhide";
 	["Agathelos the Raging"] = "Agathelos the Raging";
-	["Blind Hunter (Rare)"] = "Blind Hunter (Rare)";
+	["Blind Hunter"] = "Blind Hunter";
 	["Charlga Razorflank <The Crone>"] = "Charlga Razorflank <The Crone>";
 	["Willix the Importer"] = "Willix the Importer";
 	["Heralath Fallowbrook"] = "Heralath Fallowbrook";
-	["Earthcaller Halmgar (Rare)"] = "Earthcaller Halmgar (Rare)";
+	["Earthcaller Halmgar"] = "Earthcaller Halmgar";
 
 	--Razorfen Downs
 	["Tuten'kash"] = "Tuten'kash";
@@ -207,19 +231,19 @@ AtlasLocale = {
 	["Sah'rhee"] = "Sah'rhee";
 	["Mordresh Fire Eye"] = "Mordresh Fire Eye";
 	["Glutton"] = "Glutton";
-	["Ragglesnout (Rare, Varies)"] = "Ragglesnout (Rare, Varies)";
+	["Ragglesnout"] = "Ragglesnout";
 	["Amnennar the Coldbringer"] = "Amnennar the Coldbringer";
 	["Plaguemaw the Rotting"] = "Plaguemaw the Rotting";
 	
 	--Zul'Farrak
-	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "Key: Mallet of Zul'Farrak (Gahz'rilla)";
+	["Mallet of Zul'Farrak"] = "Mallet of Zul'Farrak";
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Overseer of Sul>";
 	["Theka the Martyr"] = "Theka the Martyr";
 	["Witch Doctor Zum'rah"] = "Witch Doctor Zum'rah";
 	["Zul'Farrak Dead Hero"] = "Zul'Farrak Dead Hero";
 	["Nekrum Gutchewer"] = "Nekrum Gutchewer";
 	["Shadowpriest Sezz'ziz"] = "Shadowpriest Sezz'ziz";
-	["Dustwraith (Rare)"] = "Dustwraith (Rare)";
+	["Dustwraith"] = "Dustwraith";
 	["Sergeant Bly"] = "Sergeant Bly";
 	["Weegli Blastfuse"] = "Weegli Blastfuse";
 	["Murta Grimgut"] = "Murta Grimgut";
@@ -227,45 +251,41 @@ AtlasLocale = {
 	["Oro Eyegouge"] = "Oro Eyegouge";
 	["Sandfury Executioner"] = "Sandfury Executioner";
 	["Hydromancer Velratha"] = "Hydromancer Velratha";
-	["Gahz'rilla (Summon)"] = "Gahz'rilla (Summon)";
-	["Elder Wildmane (Lunar)"] = "Elder Wildmane (Lunar)";
+	["Gahz'rilla"] = "Gahz'rilla";
+	["Elder Wildmane"] = "Elder Wildmane";
 	["Chief Ukorz Sandscalp"] = "Chief Ukorz Sandscalp";
 	["Ruuzlu"] = "Ruuzlu";
-	["Zerillis (Rare, Wanders)"] = "Zerillis (Rare, Wanders)";
-	["Sandarr Dunereaver (Rare)"] = "Sandarr Dunereaver (Rare)";
+	["Zerillis"] = "Zerillis";
+	["Sandarr Dunereaver"] = "Sandarr Dunereaver";
 	
 	--Maraudon	
-	["Key: Scepter of Celebras (Portal)"] = "Key: Scepter of Celebras (Portal)";
-	["Entrance (Orange)"] = "Entrance (Orange)";
-	["Entrance (Purple)"] = "Entrance (Purple)";
-	["Entrance (Portal)"] = "Entrance (Portal)";
+	["Scepter of Celebras"] = "Scepter of Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <The Fifth Khan>";
 	["Noxxion"] = "Noxxion";
 	["Razorlash"] = "Razorlash";
 	["Maraudos <The Fourth Khan>"] = "Maraudos <The Fourth Khan>";
 	["Lord Vyletongue"] = "Lord Vyletongue";
-	["Meshlok the Harvester (Rare)"] = "Meshlok the Harvester (Rare)";
+	["Meshlok the Harvester"] = "Meshlok the Harvester";
 	["Celebras the Cursed"] = "Celebras the Cursed";
 	["Landslide"] = "Landslide";
 	["Tinkerer Gizlock"] = "Tinkerer Gizlock";
 	["Rotgrip"] = "Rotgrip";
 	["Princess Theradras"] = "Princess Theradras";
-	["Elder Splitrock (Lunar)"] = "Elder Splitrock (Lunar)";
+	["Elder Splitrock"] = "Elder Splitrock";
 	
 	--Dire Maul (East)
-	["Key: Brazier of Invocation (DS2)"] = "Key: Brazier of Invocation (DS2)";
-	["Pusillin (Chase Begins)"] = "Pusillin (Chase Begins)";
-	["Pusillin (Chase Ends)"] = "Pusillin (Chase Ends)";
+	["Brazier of Invocation"] = "Brazier of Invocation";
+	["Pusillin"] = "Pusillin";
 	["Zevrim Thornhoof"] = "Zevrim Thornhoof";
 	["Hydrospawn"] = "Hydrospawn";
 	["Lethtendris"] = "Lethtendris";
 	["Pimgib"] = "Pimgib";
 	["Old Ironbark"] = "Old Ironbark";
 	["Alzzin the Wildshaper"] = "Alzzin the Wildshaper";
-	["Isalien (Summon)"] = "Isalien (Summon)";
+	["Isalien"] = "Isalien";
 	
 	--Dire Maul (North)
-	["Key: Crescent Key"] = "Key: Crescent Key";--omitted from Dire Maul (West)
+	["Crescent Key"] = "Crescent Key";--omitted from Dire Maul (West)
 	["Library"] = "Library";--omitted from Dire Maul (West)
 	["Guard Mol'dar"] = "Guard Mol'dar";
 	["Stomper Kreeg <The Drunk>"] = "Stomper Kreeg <The Drunk>";
@@ -277,7 +297,7 @@ AtlasLocale = {
 	["Cho'Rush the Observer"] = "Cho'Rush the Observer";
 
 	--Dire Maul (West)
-	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "Key: J'eevee's Jar (Lord Hel'nurath)";
+	["J'eevee's Jar"] = "J'eevee's Jar";
 	["Pylons"] = "Pylons";
 	["Shen'dralar Ancient"] = "Shen'dralar Ancient";
 	["Tendris Warpwood"] = "Tendris Warpwood";
@@ -285,9 +305,9 @@ AtlasLocale = {
 	["Illyanna Ravenoak"] = "Illyanna Ravenoak";
 	["Ferra"] = "Ferra";
 	["Magister Kalendris"] = "Magister Kalendris";
-	["Tsu'zee (Rare)"] = "Tsu'zee (Rare)";
+	["Tsu'zee"] = "Tsu'zee";
 	["Immol'thar"] = "Immol'thar";
-	["Lord Hel'nurath (Summon)"] = "Lord Hel'nurath (Summon)";
+	["Lord Hel'nurath"] = "Lord Hel'nurath";
 	["Prince Tortheldrin"] = "Prince Tortheldrin";
 	["Falrin Treeshaper"] = "Falrin Treeshaper";
 	["Lorekeeper Lydros"] = "Lorekeeper Lydros";
@@ -298,26 +318,26 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Skeletal Remains of Kariel Winthalus";
 	
 	--Onyxia's Lair
-	["Key: Drakefire Amulet"] = "Key: Drakefire Amulet";
+	["Drakefire Amulet"] = "Drakefire Amulet";
 	["Onyxian Warders"] = "Onyxian Warders";
 	["Whelp Eggs"] = "Whelp Eggs";
 	["Onyxia"] = "Onyxia";
 
 	--Temple of Ahn'Qiraj
-	["Rep: Brood of Nozdormu"] = "Rep: Brood of Nozdormu";
-	["The Prophet Skeram (Outside)"] = "The Prophet Skeram (Outside)";
-	["The Bug Family (Optional)"] = "The Bug Family (Optional)";
+	["Brood of Nozdormu"] = "Brood of Nozdormu";
+	["The Prophet Skeram"] = "The Prophet Skeram";
+	["The Bug Family"] = "The Bug Family";
 	["Vem"] = "Vem";
 	["Lord Kri"] = "Lord Kri";
 	["Princess Yauj"] = "Princess Yauj";
 	["Battleguard Sartura"] = "Battleguard Sartura";
 	["Fankriss the Unyielding"] = "Fankriss the Unyielding";
-	["Viscidus (Optional)"] = "Viscidus (Optional)";
+	["Viscidus"] = "Viscidus";
 	["Princess Huhuran"] = "Princess Huhuran";
 	["Twin Emperors"] = "Twin Emperors";
 	["Emperor Vek'lor"] = "Emperor Vek'lor";
 	["Emperor Vek'nilash"] = "Emperor Vek'nilash";
-	["Ouro (Optional)"] = "Ouro (Optional)";
+	["Ouro"] = "Ouro";
 	["Eye of C'Thun"] = "Eye of C'Thun";
 	["C'Thun"] = "C'Thun";
 	["Andorgos <Brood of Malygos>"] = "Andorgos <Brood of Malygos>";
@@ -328,7 +348,7 @@ AtlasLocale = {
 	["Merithra of the Dream"] = "Merithra of the Dream";
 	
 	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "Rep: Cenarion Circle";
+	["Cenarion Circle"] = "Cenarion Circle";
 	["Kurinnaxx"] = "Kurinnaxx";
 	["Lieutenant General Andorov"] = "Lieutenant General Andorov";
 	["Four Kaldorei Elites"] = "Four Kaldorei Elites";
@@ -340,18 +360,17 @@ AtlasLocale = {
 	["Major Yeggeth"] = "Major Yeggeth";
 	["Major Pakkon"] = "Major Pakkon";
 	["Colonel Zerran"] = "Colonel Zerran";
-	["Moam (Optional)"] = "Moam (Optional)";
-	["Buru the Gorger (Optional)"] = "Buru the Gorger (Optional)";
-	["Ayamiss the Hunter (Optional)"] = "Ayamiss the Hunter (Optional)";
+	["Moam"] = "Moam";
+	["Buru the Gorger"] = "Buru the Gorger";
+	["Ayamiss the Hunter"] = "Ayamiss the Hunter";
 	["Ossirian the Unscarred"] = "Ossirian the Unscarred";
 	["Safe Room"] = "Safe Room";
 
 	--CoT: The Black Morass
-	["Event: Opening of the Dark Portal"] = "Event: Opening of the Dark Portal";
-	["Rep: Keepers of Time"] = "Rep: Keepers of Time";--omitted from Old Hillsbrad Foothills
-	["Key: Key of Time (Heroic)"] = "Key: Key of Time (Heroic)";--omitted from Old Hillsbrad Foothills
+	["Opening of the Dark Portal"] = "Opening of the Dark Portal";
+	["Keepers of Time"] = "Keepers of Time";--omitted from Old Hillsbrad Foothills
+	["Key of Time"] = "Key of Time";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
-	["Portal (Spawn Point)"] = "Portal (Spawn Point)";
 	["Wave 6: Chrono Lord Deja"] = "Wave 6: Chrono Lord Deja";
 	["Wave 12: Temporus"] = "Wave 12: Temporus";
 	["Wave 18: Aeonus"] = "Wave 18: Aeonus";
@@ -359,8 +378,8 @@ AtlasLocale = {
 	["Medivh"] = "Medivh";
 
 	--CoT: Hyjal Summit
-	["Event: Battle for Mount Hyjal"] = "Event: Battle for Mount Hyjal";
-	["Rep: The Scale of the Sands"] = "Rep: The Scale of the Sands";
+	["Battle for Mount Hyjal"] = "Battle for Mount Hyjal";
+	["The Scale of the Sands"] = "The Scale of the Sands";
 	["Alliance Base"] = "Alliance Base";
 	["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
 	["Horde Encampment"] = "Horde Encampment";
@@ -376,20 +395,17 @@ AtlasLocale = {
 	["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Keeper of Lost Artifacts>";
 
 	--CoT: Old Hillsbrad Foothills
-	["Event: Escape from Durnholde Keep"] = "Event: Escape from Durnholde Keep";
+	["Escape from Durnholde Keep"] = "Escape from Durnholde Keep";
 	["Erozion"] = "Erozion";
 	["Brazen"] = "Brazen";
 	["Landing Spot"] = "Landing Spot";
 	["Southshore"] = "Southshore";
 	["Tarren Mill"] = "Tarren Mill";
 	["Lieutenant Drake"] = "Lieutenant Drake";
-	["Thrall (Lower)"] = "Thrall (Lower)";
+	["Thrall"] = "Thrall";
 	["Captain Skarloc"] = "Captain Skarloc";
-	["Thrall (Second Stop)"] = "Thrall (Second Stop)";
-	["Thrall (Third Stop)"] = "Thrall (Third Stop)";
 	["Epoch Hunter"] = "Epoch Hunter";
-	["Thrall (Fourth Stop, Upstairs)"] = "Thrall (Fourth Stop, Upstairs)";
-	["Taretha (Upstairs)"] = "Taretha (Upstairs)";
+	["Taretha"] = "Taretha";
 	["Jonathan Revah"] = "Jonathan Revah";
 	["Jerry Carter"] = "Jerry Carter";
 	["Traveling"] = "Traveling";
@@ -415,12 +431,12 @@ AtlasLocale = {
 	["Fairbanks"] = "Fairbanks";
 	["Tirion Fordring"] = "Tirion Fordring";
 	["Arcanist Doan"] = "Arcanist Doan";
-	["Taelan (Upstairs)"] = "Taelan (Upstairs)";
+	["Taelan"] = "Taelan";
 	["Barkeep Kelly <Bartender>"] = "Barkeep Kelly <Bartender>";
 	["Frances Lin <Barmaid>"] = "Frances Lin <Barmaid>";
 	["Chef Jessen <Speciality Meat & Slop>"] = "Chef Jessen <Speciality Meat & Slop>";
-	["Stalvan Mistmantle (Upstairs)"] = "Stalvan Mistmantle (Upstairs)";
-	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "Phin Odelic <The Kirin Tor> (Upstairs)";
+	["Stalvan Mistmantle"] = "Stalvan Mistmantle";
+	["Phin Odelic <The Kirin Tor>"] = "Phin Odelic <The Kirin Tor>";
 	["Southshore Town Hall"] = "Southshore Town Hall";
 	["Magistrate Henry Maleb"] = "Magistrate Henry Maleb";
 	["Raleigh the True"] = "Raleigh the True";

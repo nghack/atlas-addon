@@ -66,7 +66,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Oggleflint <Ragefire Chieftain>"], NPC, 11517 };
 		{ GREY.."2) "..AtlasLocale["Taragaman the Hungerer"], NPC, 11520 };
 		{ GREY.."3) "..AtlasLocale["Jergosh the Invoker"], NPC, 11518 };
-		{ GREY..INDENT..AtlasLocale["Zelemar the Wrathful (Summon)"], NPC, 17830 };
+		{ GREY..INDENT..AtlasLocale["Zelemar the Wrathful"].." ("..AtlasLocale["Summon"]..")", NPC, 17830 };
 		{ GREY.."4) "..AtlasLocale["Bazzalan"], NPC, 11519 };
 	};
 	WailingCaverns = {
@@ -83,11 +83,11 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Kresh"], NPC, 3653 };
 		{ GREY.."5) "..AtlasLocale["Lord Pythas <Fanglord>"], NPC, 3670 };
 		{ GREY.."6) "..AtlasLocale["Skum"], NPC, 3674 };
-		{ GREY.."7) "..AtlasLocale["Lord Serpentis <Fanglord> (Upper)"], NPC, 3673 };
-		{ GREY.."8) "..AtlasLocale["Verdan the Everliving (Upper)"], NPC, 5775 };
+		{ GREY.."7) "..AtlasLocale["Lord Serpentis <Fanglord>"].." ("..AtlasLocale["Upper"]..")", NPC, 3673 };
+		{ GREY.."8) "..AtlasLocale["Verdan the Everliving"].." ("..AtlasLocale["Upper"]..")", NPC, 5775 };
 		{ GREY.."9) "..AtlasLocale["Mutanus the Devourer"], NPC, 3654 };
 		{ GREY..INDENT..AtlasLocale["Naralex"], NPC, 3679 };
-		{ GREY.."10) "..AtlasLocale["Deviate Faerie Dragon (Rare)"], NPC, 5912 };
+		{ GREY.."10) "..AtlasLocale["Deviate Faerie Dragon"].." ("..AtlasLocale["Rare"]..")", NPC, 5912 };
 	};
 	BlackfathomDeeps = {
 		ZoneName = { AtlasLocale["Blackfathom Deeps"], 719 };
@@ -103,7 +103,7 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Argent Guard Thaelrid <The Argent Dawn>"], NPC, 4787 };
 		{ GREY.."5) "..AtlasLocale["Gelihast"], NPC, 6243 };
 		{ GREY..INDENT..AtlasLocale["Shrine of Gelihast"] };
-		{ GREY.."6) "..AtlasLocale["Lorgus Jett (Varies)"], NPC, 12902 };
+		{ GREY.."6) "..AtlasLocale["Lorgus Jett"].." ("..AtlasLocale["Varies"]..")", NPC, 12902 };
 		{ GREY.."7) "..AtlasLocale["Fathom Stone"], OBJECT, 177964 };
 		{ GREY..INDENT..AtlasLocale["Baron Aquanis"], NPC, 12876 };
 		{ GREY.."8) "..AtlasLocale["Twilight Lord Kelris"], NPC, 4832 };
@@ -126,11 +126,11 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Overlord Ramtusk"], NPC, 4420 };
 		{ GREY..INDENT..AtlasLocale["Razorfen Spearhide"], NPC, 4438 };
 		{ GREY.."5) "..AtlasLocale["Agathelos the Raging"], NPC, 4422 };
-		{ GREY.."6) "..AtlasLocale["Blind Hunter (Rare)"], NPC, 4425 };
+		{ GREY.."6) "..AtlasLocale["Blind Hunter"].." ("..AtlasLocale["Rare"]..")", NPC, 4425 };
 		{ GREY.."7) "..AtlasLocale["Charlga Razorflank <The Crone>"], NPC, 4421 };
 		{ GREY.."8) "..AtlasLocale["Willix the Importer"], NPC, 4508 };
 		{ GREY..INDENT..AtlasLocale["Heralath Fallowbrook"], NPC, 4510 };
-		{ GREY.."9) "..AtlasLocale["Earthcaller Halmgar (Rare)"], NPC, 4842 };
+		{ GREY.."9) "..AtlasLocale["Earthcaller Halmgar"].." ("..AtlasLocale["Rare"]..")", NPC, 4842 };
 	};
 	RazorfenDowns = {
 		ZoneName = { AtlasLocale["Razorfen Downs"], 722 };
@@ -146,7 +146,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Sah'rhee"], NPC, 8767 };
 		{ GREY.."3) "..AtlasLocale["Mordresh Fire Eye"], NPC, 7357 };
 		{ GREY.."4) "..AtlasLocale["Glutton"], NPC, 8567 };
-		{ GREY.."5) "..AtlasLocale["Ragglesnout (Rare, Varies)"], NPC, 7354 };
+		{ GREY.."5) "..AtlasLocale["Ragglesnout"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Varies"]..")", NPC, 7354 };
 		{ GREY.."6) "..AtlasLocale["Amnennar the Coldbringer"], NPC, 7358 };
 		{ GREY.."7) "..AtlasLocale["Plaguemaw the Rotting"], NPC, 7356 };
 	};
@@ -157,7 +157,7 @@ AtlasMaps = {
 		LevelRange = "42-48";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key: Mallet of Zul'Farrak (Gahz'rilla)"], ITEM, 9240 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Mallet of Zul'Farrak"].." ("..AtlasLocale["Gahz'rilla"]..")", ITEM, 9240 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Antu'sul <Overseer of Sul>"], NPC, 8127 };
 		{ GREY.."2) "..AtlasLocale["Theka the Martyr"], NPC, 7272 };
@@ -165,7 +165,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Zul'Farrak Dead Hero"], NPC, 7276 };
 		{ GREY.."4) "..AtlasLocale["Nekrum Gutchewer"], NPC, 7796 };
 		{ GREY..INDENT..AtlasLocale["Shadowpriest Sezz'ziz"], NPC, 7275 };
-		{ GREY..INDENT..AtlasLocale["Dustwraith (Rare)"], NPC, 10081 };
+		{ GREY..INDENT..AtlasLocale["Dustwraith"].." ("..AtlasLocale["Rare"]..")", NPC, 10081 };
 		{ GREY.."5) "..AtlasLocale["Sergeant Bly"], NPC, 7604 };
 		{ GREY..INDENT..AtlasLocale["Weegli Blastfuse"], NPC, 7607 };
 		{ GREY..INDENT..AtlasLocale["Murta Grimgut"], NPC, 7608 };
@@ -173,12 +173,12 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Oro Eyegouge"], NPC, 7606 };
 		{ GREY..INDENT..AtlasLocale["Sandfury Executioner"], NPC, 7274 };
 		{ GREY.."6) "..AtlasLocale["Hydromancer Velratha"], NPC, 7795 };
-		{ GREY..INDENT..AtlasLocale["Gahz'rilla (Summon)"], NPC, 7273 };
-		{ GREY..INDENT..AtlasLocale["Elder Wildmane (Lunar)"], NPC, 15578 };
+		{ GREY..INDENT..AtlasLocale["Gahz'rilla"].." ("..AtlasLocale["Summon"]..")", NPC, 7273 };
+		{ GREY..INDENT..AtlasLocale["Elder Wildmane"].." ("..AtlasLocale["Lunar"]..")", NPC, 15578 };
 		{ GREY.."7) "..AtlasLocale["Chief Ukorz Sandscalp"], NPC, 7267 };
 		{ GREY..INDENT..AtlasLocale["Ruuzlu"], NPC, 7797 };
-		{ GREY.."8) "..AtlasLocale["Zerillis (Rare, Wanders)"], NPC, 10082 };
-		{ GREY.."9) "..AtlasLocale["Sandarr Dunereaver (Rare)"], NPC, 10080 };
+		{ GREY.."8) "..AtlasLocale["Zerillis"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Wanders"]..")", NPC, 10082 };
+		{ GREY.."9) "..AtlasLocale["Sandarr Dunereaver"].." ("..AtlasLocale["Rare"]..")", NPC, 10080 };
 	};
 	Maraudon = {
 		ZoneName = { AtlasLocale["Maraudon"], 2100 };
@@ -187,22 +187,22 @@ AtlasMaps = {
 		LevelRange = "42-51";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key: Scepter of Celebras (Portal)"], ITEM, 17191 };
-		{ BLUE.."A) "..AtlasLocale["Entrance (Orange)"] };
-		{ BLUE.."B) "..AtlasLocale["Entrance (Purple)"] };
-		{ BLUE.."C) "..AtlasLocale["Entrance (Portal)"] };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Scepter of Celebras"].." ("..AtlasLocale["Portal"]..")", ITEM, 17191 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Orange"]..")" };
+		{ BLUE.."B) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Purple"]..")" };
+		{ BLUE.."C) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Portal"]..")" };
 		{ GREY.."1) "..AtlasLocale["Veng <The Fifth Khan>"], NPC, 13738 };
 		{ GREY.."2) "..AtlasLocale["Noxxion"], NPC, 13282 };
 		{ GREY.."3) "..AtlasLocale["Razorlash"], NPC, 12258 };
 		{ GREY.."4) "..AtlasLocale["Maraudos <The Fourth Khan>"], NPC, 13739 };
 		{ GREY.."5) "..AtlasLocale["Lord Vyletongue"], NPC, 12236 };
-		{ GREY.."6) "..AtlasLocale["Meshlok the Harvester (Rare)"], NPC, 12237 };
+		{ GREY.."6) "..AtlasLocale["Meshlok the Harvester"].." ("..AtlasLocale["Rare"]..")", NPC, 12237 };
 		{ GREY.."7) "..AtlasLocale["Celebras the Cursed"], NPC, 12225 };
 		{ GREY.."8) "..AtlasLocale["Landslide"], NPC, 12203 };
 		{ GREY.."9) "..AtlasLocale["Tinkerer Gizlock"], NPC, 13601 };
 		{ GREY.."10) "..AtlasLocale["Rotgrip"], NPC, 13596 };
 		{ GREY.."11) "..AtlasLocale["Princess Theradras"], NPC, 12201 };
-		{ GREY.."12) "..AtlasLocale["Elder Splitrock (Lunar)"], NPC, 15556 };
+		{ GREY.."12) "..AtlasLocale["Elder Splitrock"].." ("..AtlasLocale["Lunar"]..")", NPC, 15556 };
 	};
 	DireMaulEast = {
 		ZoneName = { AtlasLocale["Dire Maul (East)"], 2557 };
@@ -211,20 +211,20 @@ AtlasMaps = {
 		LevelRange = "55-58";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key: Brazier of Invocation (DS2)"], ITEM, 22057 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Entrance"] };
 		{ BLUE.."C) "..AtlasLocale["Entrance"] };
 		{ BLUE.."D) "..AtlasLocale["Exit"] };
-		{ GREY.."1) "..AtlasLocale["Pusillin (Chase Begins)"], NPC, 14354 };
-		{ GREY.."2) "..AtlasLocale["Pusillin (Chase Ends)"], NPC, 14354 };
+		{ GREY.."1) "..AtlasLocale["Pusillin"].." ("..AtlasLocale["Chase Begins"]..")", NPC, 14354 };
+		{ GREY.."2) "..AtlasLocale["Pusillin"].." ("..AtlasLocale["Chase Ends"]..")", NPC, 14354 };
 		{ GREY.."3) "..AtlasLocale["Zevrim Thornhoof"], NPC, 11490 };
 		{ GREY..INDENT..AtlasLocale["Hydrospawn"], NPC, 13280 };
 		{ GREY..INDENT..AtlasLocale["Lethtendris"], NPC, 14327 };
 		{ GREY..INDENT..AtlasLocale["Pimgib"], NPC, 14349 };
 		{ GREY.."4) "..AtlasLocale["Old Ironbark"], NPC, 11491 };
 		{ GREY.."5) "..AtlasLocale["Alzzin the Wildshaper"], NPC, 11492 };
-		{ GREY..INDENT..AtlasLocale["Isalien (Summon)"], NPC, 16097 };
+		{ GREY..INDENT..AtlasLocale["Isalien"].." ("..AtlasLocale["Summon"]..")", NPC, 16097 };
 	};
 	DireMaulNorth = {
 		ZoneName = { AtlasLocale["Dire Maul (North)"], 2557 };
@@ -233,7 +233,7 @@ AtlasMaps = {
 		LevelRange = "57-60";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key: Crescent Key"], ITEM, 18249 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Crescent Key"], ITEM, 18249 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Library"] };
 		{ GREY.."1) "..AtlasLocale["Guard Mol'dar"], NPC, 14326 };
@@ -252,8 +252,8 @@ AtlasMaps = {
 		LevelRange = "57-60";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key: Crescent Key"], ITEM, 18249 };
-		{ ORNG..AtlasLocale["Key: J'eevee's Jar (Lord Hel'nurath)"], ITEM, 18663 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Crescent Key"], ITEM, 18249 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["J'eevee's Jar"].." ("..AtlasLocale["Lord Hel'nurath"]..")", ITEM, 18663 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Pylons"] };
 		{ GREY.."1) "..AtlasLocale["Shen'dralar Ancient"], NPC, 14358 };
@@ -262,9 +262,9 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Illyanna Ravenoak"], NPC, 11488 };
 		{ GREY..INDENT..AtlasLocale["Ferra"], NPC, 14308 };
 		{ GREY.."4) "..AtlasLocale["Magister Kalendris"], NPC, 11487 };
-		{ GREY.."5) "..AtlasLocale["Tsu'zee (Rare)"], NPC, 11467 };
+		{ GREY.."5) "..AtlasLocale["Tsu'zee"].." ("..AtlasLocale["Rare"]..")", NPC, 11467 };
 		{ GREY.."6) "..AtlasLocale["Immol'thar"], NPC, 11496 };
-		{ GREY..INDENT..AtlasLocale["Lord Hel'nurath (Summon)"], NPC, 14506 };
+		{ GREY..INDENT..AtlasLocale["Lord Hel'nurath"].." ("..AtlasLocale["Summon"]..")", NPC, 14506 };
 		{ GREY.."7) "..AtlasLocale["Prince Tortheldrin"], NPC, 11486 };
 		{ GREN.."1') "..AtlasLocale["Library"] };
 		{ GREN..INDENT..AtlasLocale["Falrin Treeshaper"], NPC, 16032 };
@@ -283,7 +283,7 @@ AtlasMaps = {
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Key: Drakefire Amulet"], ITEM, 16309 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Drakefire Amulet"], ITEM, 16309 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Onyxian Warders"], NPC, 12129 };
 		{ GREY.."2) "..AtlasLocale["Whelp Eggs"] };
@@ -296,21 +296,21 @@ AtlasMaps = {
 		LevelRange = "60-70";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Rep: Brood of Nozdormu"], FACTION, 910 };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Brood of Nozdormu"], FACTION, 910 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["The Prophet Skeram (Outside)"], NPC, 15263 };
-		{ GREY.."2) "..AtlasLocale["The Bug Family (Optional)"] };
+		{ GREY.."1) "..AtlasLocale["The Prophet Skeram"].." ("..AtlasLocale["Outside"]..")", NPC, 15263 };
+		{ GREY.."2) "..AtlasLocale["The Bug Family"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Vem"], NPC, 15544 };
 		{ GREY..INDENT..AtlasLocale["Lord Kri"], NPC, 15511 };
 		{ GREY..INDENT..AtlasLocale["Princess Yauj"], NPC, 15543 };
 		{ GREY.."3) "..AtlasLocale["Battleguard Sartura"], NPC, 15516 };
 		{ GREY.."4) "..AtlasLocale["Fankriss the Unyielding"], NPC, 15510 };
-		{ GREY.."5) "..AtlasLocale["Viscidus (Optional)"], NPC, 15299 };
+		{ GREY.."5) "..AtlasLocale["Viscidus"].." ("..AtlasLocale["Optional"]..")", NPC, 15299 };
 		{ GREY.."6) "..AtlasLocale["Princess Huhuran"], NPC, 15509 };
 		{ GREY.."7) "..AtlasLocale["Twin Emperors"] };
 		{ GREY..INDENT..AtlasLocale["Emperor Vek'lor"], NPC, 15276 };
 		{ GREY..INDENT..AtlasLocale["Emperor Vek'nilash"], NPC, 15275 };
-		{ GREY.."8) "..AtlasLocale["Ouro (Optional)"], NPC, 15517 };
+		{ GREY.."8) "..AtlasLocale["Ouro"].." ("..AtlasLocale["Optional"]..")", NPC, 15517 };
 		{ GREY.."9) "..AtlasLocale["Eye of C'Thun"], NPC, 15589 };
 		{ GREY..INDENT..AtlasLocale["C'Thun"], NPC, 15727 };
 		{ GREN.."1') "..AtlasLocale["Andorgos <Brood of Malygos>"], NPC, 15502 };
@@ -327,7 +327,7 @@ AtlasMaps = {
 		LevelRange = "60-70";
 		PlayerLimit = "20";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Rep: Cenarion Circle"], FACTION, 609 };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Circle"], FACTION, 609 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Kurinnaxx"], NPC, 15348 };
 		{ GREY..INDENT..AtlasLocale["Lieutenant General Andorov"], NPC, 15471 };
@@ -340,9 +340,9 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Major Yeggeth"], NPC, 15386 };
 		{ GREY..INDENT..AtlasLocale["Major Pakkon"], NPC, 15388 };
 		{ GREY..INDENT..AtlasLocale["Colonel Zerran"], NPC, 15385 };
-		{ GREY.."3) "..AtlasLocale["Moam (Optional)"], NPC, 15340 };
-		{ GREY.."4) "..AtlasLocale["Buru the Gorger (Optional)"], NPC, 15370 };
-		{ GREY.."5) "..AtlasLocale["Ayamiss the Hunter (Optional)"], NPC, 15369 };
+		{ GREY.."3) "..AtlasLocale["Moam"].." ("..AtlasLocale["Optional"]..")", NPC, 15340 };
+		{ GREY.."4) "..AtlasLocale["Buru the Gorger"].." ("..AtlasLocale["Optional"]..")", NPC, 15370 };
+		{ GREY.."5) "..AtlasLocale["Ayamiss the Hunter"].." ("..AtlasLocale["Optional"]..")", NPC, 15369 };
 		{ GREY.."6) "..AtlasLocale["Ossirian the Unscarred"], NPC, 15339 };
 		{ GREN.."1') "..AtlasLocale["Safe Room"] };
 	};
@@ -353,13 +353,13 @@ AtlasMaps = {
 		LevelRange = "68-70";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
-		{ PURP..AtlasLocale["Event: Opening of the Dark Portal"] };
+		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Opening of the Dark Portal"] };
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep: Keepers of Time"], FACTION, 989 };
-		{ ORNG..AtlasLocale["Key: Key of Time (Heroic)"], ITEM, 30635 };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key of Time"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30635 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Sa'at <Keepers of Time>"], NPC, 20201 };
-		{ ORNG.."X) "..AtlasLocale["Portal (Spawn Point)"] };
+		{ ORNG.."X) "..AtlasLocale["Portal"].." ("..AtlasLocale["Spawn Point"]..")" };
 		{ ORNG..INDENT..AtlasLocale["Wave 6: Chrono Lord Deja"], NPC, 17879 };
 		{ ORNG..INDENT..AtlasLocale["Wave 12: Temporus"], NPC, 17880 };
 		{ ORNG..INDENT..AtlasLocale["Wave 18: Aeonus"], NPC, 17881 };
@@ -373,8 +373,8 @@ AtlasMaps = {
 		LevelRange = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Kalimdor"];
-		{ PURP..AtlasLocale["Event: Battle for Mount Hyjal"] };
-		{ ORNG..AtlasLocale["Rep: The Scale of the Sands"], FACTION, 990 };
+		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Battle for Mount Hyjal"] };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Scale of the Sands"], FACTION, 990 };
 		{ BLUE.."A) "..AtlasLocale["Alliance Base"] };
 		{ BLUE..INDENT..AtlasLocale["Lady Jaina Proudmoore"], NPC, 17772 };
 		{ BLUE.."B) "..AtlasLocale["Horde Encampment"] };
@@ -396,10 +396,10 @@ AtlasMaps = {
 		LevelRange = "66-70";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
-		{ PURP..AtlasLocale["Event: Escape from Durnholde Keep"] };
+		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Escape from Durnholde Keep"] };
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep: Keepers of Time"], FACTION, 989 };
-		{ ORNG..AtlasLocale["Key: Key of Time (Heroic)"], ITEM, 30635 };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key of Time"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30635 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Erozion"], NPC, 18723 };
 		{ BLUE..INDENT..AtlasLocale["Brazen"], NPC, 18725 };
@@ -407,13 +407,13 @@ AtlasMaps = {
 		{ BLUE.."C) "..AtlasLocale["Southshore"] };
 		{ BLUE.."D) "..AtlasLocale["Tarren Mill"] };
 		{ GREY.."1) "..AtlasLocale["Lieutenant Drake"], NPC, 17848 };
-		{ GREY.."2) "..AtlasLocale["Thrall (Lower)"], NPC, 17876 };
+		{ GREY.."2) "..AtlasLocale["Thrall"].." ("..AtlasLocale["Lower"]..")", NPC, 17876 };
 		{ GREY.."3) "..AtlasLocale["Captain Skarloc"], NPC, 17862 };
-		{ GREY..INDENT..AtlasLocale["Thrall (Second Stop)"], NPC, 17876 };
-		{ GREY.."4) "..AtlasLocale["Thrall (Third Stop)"], NPC, 17876 };
+		{ GREY..INDENT..AtlasLocale["Thrall"].." ("..AtlasLocale["Second Stop"]..")", NPC, 17876 };
+		{ GREY.."4) "..AtlasLocale["Thrall"].." ("..AtlasLocale["Third Stop"]..")", NPC, 17876 };
 		{ GREY.."5) "..AtlasLocale["Epoch Hunter"], NPC, 18096 };
-		{ GREY..INDENT..AtlasLocale["Thrall (Fourth Stop, Upstairs)"], NPC, 17876 };
-		{ GREY..INDENT..AtlasLocale["Taretha (Upstairs)"], NPC, 18887 };
+		{ GREY..INDENT..AtlasLocale["Thrall"].." ("..AtlasLocale["Fourth Stop"]..", "..AtlasLocale["Upstairs"]..")", NPC, 17876 };
+		{ GREY..INDENT..AtlasLocale["Taretha"].." ("..AtlasLocale["Upstairs"]..")", NPC, 18887 };
 		{ GREY.."6) "..AtlasLocale["Jonathan Revah"], NPC, 20372 };
 		{ GREY..INDENT..AtlasLocale["Jerry Carter"], NPC, 20376 };
 		{ "" };
@@ -443,12 +443,12 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Fairbanks"], NPC, 20348 };
 		{ GREY..INDENT..AtlasLocale["Tirion Fordring"], NPC, 20349 };
 		{ GREY..INDENT..AtlasLocale["Arcanist Doan"], NPC, 20352 };
-		{ GREY..INDENT..AtlasLocale["Taelan (Upstairs)"], NPC, 20361 };
+		{ GREY..INDENT..AtlasLocale["Taelan"].." ("..AtlasLocale["Upstairs"]..")", NPC, 20361 };
 		{ GREY..INDENT..AtlasLocale["Barkeep Kelly <Bartender>"], NPC, 20377 };
 		{ GREY..INDENT..AtlasLocale["Frances Lin <Barmaid>"], NPC, 20401 };
 		{ GREY..INDENT..AtlasLocale["Chef Jessen <Speciality Meat & Slop>"], NPC, 20378 };
-		{ GREY..INDENT..AtlasLocale["Stalvan Mistmantle (Upstairs)"], NPC, 20355 };
-		{ GREY..INDENT..AtlasLocale["Phin Odelic <The Kirin Tor> (Upstairs)"], NPC, 20370 };
+		{ GREY..INDENT..AtlasLocale["Stalvan Mistmantle"].." ("..AtlasLocale["Upstairs"]..")", NPC, 20355 };
+		{ GREY..INDENT..AtlasLocale["Phin Odelic <The Kirin Tor>"].." ("..AtlasLocale["Upstairs"]..")", NPC, 20370 };
 		{ "" };
 		{ ORNG..AtlasLocale["Southshore Town Hall"] };
 		{ GREY..INDENT..AtlasLocale["Magistrate Henry Maleb"], NPC, 20373 };
@@ -462,8 +462,6 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Jay Lemieux"], NPC, 18655 };
 		{ GREY..INDENT..AtlasLocale["Young Blanchy"], NPC, 18651 };
 	};
-
---[[
 
 --************************************************
 -- Eastern Kingdoms Instances

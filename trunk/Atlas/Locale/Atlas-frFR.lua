@@ -102,37 +102,60 @@ AtlasLocale = {
 	["Entrance"] = "Entrée";
 	["Exit"] = "Sortie";
 	["Attunement Required"] = "Harmonisation requise";
-	
+	["Summon"] = "Invoqué";
+	["Upper"] = "En haut";
+	["Rare"] = "Rare";
+	["Varies"] = "Variable";
+	["Lunar"] = "Fête lunaire";
+	["Wanders"] = "Errant";
+	["Key"] = "Objet "; -- Espace pour le blanc avant une double ponctuation française
+	["Orange"] = "Orange";
+	["Purple"] = "Violet";
+	["DS2"] = "Set D2";
+	["Chase Begins"] = "Début de la chasse";
+	["Chase Ends"] = "Fin de la chasse";
+	["Rep"] = "Réput "; -- Espace pour le blanc avant une double ponctuation française
+	["Outside"] = "Extérieur";
+	["Optional"] = "Optionel";
+	["Event"] = "Evènement "; -- Espace pour le blanc avant une double ponctuation française
+	["Heroic"] = "Héroïque";
+	["Spawn Point"] = "Points d'apparition";
+	["Lower"] = "En bas";
+	["Upstairs"] = "A l'étage";
+	["Second Stop"] = "Deuxième arrêt";
+	["Third Stop"] = "Troisième arrêt";
+	["Fourth Stop"] = "Quatrième arrêt";
+	["Portal"] = "Portail";
 	--Continents
 	["Kalimdor"] = "Kalimdor";
 	
 	--Instance names and acronyms
-	["Ragefire Chasm"] = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
-	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
-	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
-	["Razorfen Kraul"] = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
-	["Razorfen Downs"] = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
-	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
-	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
-	["Dire Maul (East)"] = "Hache-tripes (Est)"; ["DM"] = "DM/HT";
-	["Dire Maul (North)"] = "Hache-tripes (Nord)";
-	["Dire Maul (West)"] = "Hache-tripes (Ouest)";
-	["Onyxia's Lair"] = "Repaire d'Onyxia"; ["Ony"] = "Ony";
-	["Temple of Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ40"] = "AQ40";
-	["Ruins of Ahn'Qiraj"] = "Ruines d'Ahn'Qiraj"; ["AQ20"] = "AQ20";
-	["CoT: The Black Morass"] = "GdT : Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
-	["CoT: Hyjal Summit"] = "GdT : Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
+	["Ragefire Chasm"]               = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
+	["Wailing Caverns"]              = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
+	["Blackfathom Deeps"]            = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
+	["Razorfen Kraul"]               = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
+	["Razorfen Downs"]               = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
+	["Zul'Farrak"]                   = "Zul'Farrak"; ["ZF"] = "ZF";
+	["Maraudon"]                     = "Maraudon"; ["Mara"] = "Mara";
+	["Dire Maul (East)"]             = "Hache-tripes (Est)"; ["DM"] = "DM/HT";
+	["Dire Maul (North)"]            = "Hache-tripes (Nord)";
+	["Dire Maul (West)"]             = "Hache-tripes (Ouest)";
+	["Onyxia's Lair"]                = "Repaire d'Onyxia"; ["Ony"] = "Ony";
+	["Temple of Ahn'Qiraj"]          = "Ahn'Qiraj"; ["AQ40"] = "AQ40";
+	["Ruins of Ahn'Qiraj"]           = "Ruines d'Ahn'Qiraj"; ["AQ20"] = "AQ20";
+	["CoT: The Black Morass"]        = "GdT : Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
+	["CoT: Hyjal Summit"]            = "GdT : Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
 	["CoT: Old Hillsbrad Foothills"] = "GdT : Contreforts de Hautebrande d'antan"; ["CoT1"] = "CoT1/GT1";
 	
 	--Outdoor zones, Locations
-	["Orgrimmar"] = "Orgrimmar";
-	["The Barrens"] = "Les Tarides";
-	["Ashenvale"] = "Orneval";
-	["Tanaris"] = "Tanaris";
-	["Desolace"] = "Désolace";
-	["Feralas"] = "Féralas";
-	["Dustwallow Marsh"] = "Marécage d'Âprefange";
-	["Silithus"] = "Silithus";
+	["Orgrimmar"]                = "Orgrimmar";
+	["The Barrens"]              = "Les Tarides";
+	["Ashenvale"]                = "Orneval";
+	["Tanaris"]                  = "Tanaris";
+	["Desolace"]                 = "Désolace";
+	["Feralas"]                  = "Féralas";
+	["Dustwallow Marsh"]         = "Marécage d'Âprefange";
+	["Silithus"]                 = "Silithus";
 	["Caverns of Time, Tanaris"] = "Grottes du Temps, Tanaris";
 
 --************************************************
@@ -144,7 +167,7 @@ AtlasLocale = {
 	["Oggleflint <Ragefire Chieftain>"] = "Lorgnesilex <Chef Ragefeu>";
 	["Taragaman the Hungerer"] = "Taragaman l'Affameur";
 	["Jergosh the Invoker"] = "Jergosh l'Invocateur";
-	["Zelemar the Wrathful (Summon)"] = "Zelemar le Courroucé (Invoqué)";
+	["Zelemar the Wrathful"] = "Zelemar le Courroucé";
 	["Bazzalan"] = "Bazzalan";
 	
 	--Wailing Caverns
@@ -154,11 +177,11 @@ AtlasLocale = {
 	["Kresh"] = "Kresh";
 	["Lord Pythas <Fanglord>"] = "Seigneur Pythas <Seigneur-Croc>";
 	["Skum"] = "Skum";
-	["Lord Serpentis <Fanglord> (Upper)"] = "Seigneur Serpentis <Seigneur-Croc> (En haut)";
-	["Verdan the Everliving (Upper)"] = "Verdan l'Immortel (En haut)";
+	["Lord Serpentis <Fanglord>"] = "Seigneur Serpentis <Seigneur-Croc>";
+	["Verdan the Everliving"] = "Verdan l'Immortel";
 	["Mutanus the Devourer"] = "Mutanus le Dévoreur";
 	["Naralex"] = "Naralex";
-	["Deviate Faerie Dragon (Rare)"] = "Dragon féerique déviant (Rare)";
+	["Deviate Faerie Dragon"] = "Dragon féerique déviant";
 	
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
@@ -167,7 +190,7 @@ AtlasLocale = {
 	["Argent Guard Thaelrid <The Argent Dawn>"] = "Garde d’argent Thaelrid <L'Aube d'argent>";
 	["Gelihast"] = "Gelihast";
 	["Shrine of Gelihast"] = "Autel de Gelihast";
-	["Lorgus Jett (Varies)"] = "Lorgus Jett (Variable)";
+	["Lorgus Jett"] = "Lorgus Jett";
 	["Fathom Stone"] = "Noyau de la Brasse";
 	["Baron Aquanis"] = "Baron Aquanis";
 	["Twilight Lord Kelris"] = "Seigneur du crépuscule Kelris";
@@ -183,11 +206,11 @@ AtlasLocale = {
 	["Overlord Ramtusk"] = "Seigneur Brusquebroche";
 	["Razorfen Spearhide"] = "Lanceur de Tranchebauge";
 	["Agathelos the Raging"] = "Agathelos le Déchaîné";
-	["Blind Hunter (Rare)"] = "Chasseur aveugle (Rare)";
+	["Blind Hunter"] = "Chasseur aveugle";
 	["Charlga Razorflank <The Crone>"] = "Charlga Trancheflanc <La mégère>";
 	["Willix the Importer"] = "Willix l’Importateur";
 	["Heralath Fallowbrook"] = "Heralath Ruissefriche";
-	["Earthcaller Halmgar (Rare)"] = "Implorateur de la terre Halmgar (Rare)";
+	["Earthcaller Halmgar"] = "Implorateur de la terre Halmgar";
 
 	--Razorfen Downs
 	["Tuten'kash"] = "Tuten'kash";
@@ -196,19 +219,19 @@ AtlasLocale = {
 	["Sah'rhee"] = "Sah'rhee";
 	["Mordresh Fire Eye"] = "Mordresh Oeil-de-feu";
 	["Glutton"] = "Glouton";
-	["Ragglesnout (Rare, Varies)"] = "Ragglesnout (Rare, Variable)";
+	["Ragglesnout"] = "Ragglesnout";
 	["Amnennar the Coldbringer"] = "Amnennar le Porte-froid";
 	["Plaguemaw the Rotting"] = "Pestegueule le Pourrissant";
 	
 	--Zul'Farrak
-	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "Objet : Marteau de Zul'Farrak (Gahz'rilla)";
+	["Mallet of Zul'Farrak"] = "Marteau de Zul'Farrak";
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Surveillant de Sul>";
 	["Theka the Martyr"] = "Theka le Martyr";
 	["Witch Doctor Zum'rah"] = "Sorcier-docteur Zum'rah";
 	["Zul'Farrak Dead Hero"] = "Héros mort de Zul'Farrak";
 	["Nekrum Gutchewer"] = "Nekrum Mâchentrailles";
 	["Shadowpriest Sezz'ziz"] = "Prêtre des ombres Sezz'ziz";
-	["Dustwraith (Rare)"] = "Ame en peine poudreuse (Rare)";
+	["Dustwraith"] = "Ame en peine poudreuse";
 	["Sergeant Bly"] = "Sergent Bly";
 	["Weegli Blastfuse"] = "Gigoto Explomèche";
 	["Murta Grimgut"] = "Murta Mornentraille";
@@ -216,45 +239,41 @@ AtlasLocale = {
 	["Oro Eyegouge"] = "Oro Crève-oeil";
 	["Sandfury Executioner"] = "Bourreau Furie-des-sables";
 	["Hydromancer Velratha"] = "Hydromancienne Velratha";
-	["Gahz'rilla (Summon)"] = "Gahz'rilla (Invoqué)";
-	["Elder Wildmane (Lunar)"] = "Ancienne Crin-sauvage (Fête lunaire)";
+	["Gahz'rilla"] = "Gahz'rilla";
+	["Elder Wildmane"] = "Ancienne Crin-sauvage";
 	["Chief Ukorz Sandscalp"] = "Chef Ukorz Scalpessable";
 	["Ruuzlu"] = "Ruuzlu";
-	["Zerillis (Rare, Wanders)"] = "Zerillis (Rare, Errant)";
-	["Sandarr Dunereaver (Rare)"] = "Sandarr Ravadune (Rare)";
+	["Zerillis"] = "Zerillis";
+	["Sandarr Dunereaver"] = "Sandarr Ravadune";
 	
 	--Maraudon	
-	["Key: Scepter of Celebras (Portal)"] = "Objet :  Sceptre de Celebras (Portail)";
-	["Entrance (Orange)"] = "Entrée (Orange)";
-	["Entrance (Purple)"] = "Entrée (Violet)";
-	["Entrance (Portal)"] = "Entrée (Portail)";
+	["Scepter of Celebras"] = "Sceptre de Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <Le cinquième Kahn>";
 	["Noxxion"] = "Noxcion";
 	["Razorlash"] = "Tranchefouet";
 	["Maraudos <The Fourth Khan>"] = "Maraudos <Le quatrième Kahn>";
 	["Lord Vyletongue"] = "Seigneur Vylelangue";
-	["Meshlok the Harvester (Rare)"] = "Meshlok le Moissonneur (Rare)";
+	["Meshlok the Harvester"] = "Meshlok le Moissonneur";
 	["Celebras the Cursed"] = "Celebras le Maudit";
 	["Landslide"] = "Glissement de terrain";
 	["Tinkerer Gizlock"] = "Bricoleur Kadenaz";
 	["Rotgrip"] = "Grippe-charogne";
 	["Princess Theradras"] = "Princesse Theradras";
-	["Elder Splitrock (Lunar)"] = "Ancien Pierre-fendue (Fête lunaire)";
+	["Elder Splitrock"] = "Ancien Pierre-fendue";
 	
 	--Dire Maul (East)
-	["Key: Brazier of Invocation (DS2)"] = "Objet : Brasero d'invocation (Set D2)";
-	["Pusillin (Chase Begins)"] = "Début de la chasse à Pusillin";
-	["Pusillin (Chase Ends)"] = "Fin de la chasse à Pusillin";
+	["Brazier of Invocation"] = "Brasero d'invocation";
+	["Pusillin"] = "Pusillin";
 	["Zevrim Thornhoof"] = "Zevrim Sabot-de-ronce";
 	["Hydrospawn"] = "Hydrogénos";
 	["Lethtendris"] = "Lethtendris";
 	["Pimgib"] = "Pimgib";
 	["Old Ironbark"] = "Vieil Ecorcefer";
 	["Alzzin the Wildshaper"] = "Alzzin le modeleur";
-	["Isalien (Summon)"] = "Isalien (Invoqué)";
+	["Isalien"] = "Isalien";
 	
 	--Dire Maul (North)
-	["Key: Crescent Key"] = "Objet : Clé en croissant";
+	["Crescent Key"] = "Clé en croissant";
 	["Library"] = "Bibliothèque";
 	["Guard Mol'dar"] = "Garde Mol'dar";
 	["Stomper Kreeg <The Drunk>"] = "Kreeg le Marteleur <L'ivrogne>";
@@ -266,7 +285,7 @@ AtlasLocale = {
 	["Cho'Rush the Observer"] = "Cho'Rush l'Observateur";
 
 	--Dire Maul (West)
-	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "Objet : Bocal de J'eevee (Seigneur Hel'nurath)";
+	["J'eevee's Jar"] = "Bocal de J'eevee";
 	["Pylons"] = "Pylônes";
 	["Shen'dralar Ancient"] = "Ancienne de Shen'Dralar";
 	["Tendris Warpwood"] = "Tendris Crochebois";
@@ -274,9 +293,9 @@ AtlasLocale = {
 	["Illyanna Ravenoak"] = "Illyanna Corvichêne";
 	["Ferra"] = "Ferra";
 	["Magister Kalendris"] = "Magistère Kalendris";
-	["Tsu'zee (Rare)"] = "Tsu'zee (Rare)";
+	["Tsu'zee"] = "Tsu'zee";
 	["Immol'thar"] = "Immol'thar";
-	["Lord Hel'nurath (Summon)"] = "Seigneur Hel'nurath (Invoqué)";
+	["Lord Hel'nurath"] = "Seigneur Hel'nurath";
 	["Prince Tortheldrin"] = "Prince Tortheldrin";
 	["Falrin Treeshaper"] = "Falrin Sculpteflore";
 	["Lorekeeper Lydros"] = "Gardien du savoir Lydros";
@@ -287,26 +306,26 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
 	
 	--Onyxia's Lair
-	["Key: Drakefire Amulet"] = "Objet : Amulette drakefeu";
+	["Drakefire Amulet"] = "Amulette drakefeu";
 	["Onyxian Warders"] = "Gardiens onyxiens";
 	["Whelp Eggs"] = "Œufs";
 	["Onyxia"] = "Onyxia";
 
 	--Temple of Ahn'Qiraj
-	["Rep: Brood of Nozdormu"] = "Réput : Progéniture de Nozdormu";
-	["The Prophet Skeram (Outside)"] = "Le Prophète Skeram (Extérieur)";
-	["The Bug Family (Optional)"] = "La famille insecte (Optionnel)";
+	["Brood of Nozdormu"] = "Progéniture de Nozdormu";
+	["The Prophet Skeram"] = "Le Prophète Skeram";
+	["The Bug Family"] = "La famille insecte";
 	["Vem"] = "Vem";
 	["Lord Kri"] = "Seigneur Kri";
 	["Princess Yauj"] = "Princesse Yauj";
 	["Battleguard Sartura"] = "Garde de guerre Sartura";
 	["Fankriss the Unyielding"] = "Fankriss l'Inflexible";
-	["Viscidus (Optional)"] = "Viscidus (Optionnel)";
+	["Viscidus"] = "Viscidus";
 	["Princess Huhuran"] = "Princesse Huhuran";
 	["Twin Emperors"] = "Les Empereurs jumeaux";
 	["Emperor Vek'lor"] = "Empereur Vek'lor";
 	["Emperor Vek'nilash"] = "Empereur Vek'nilash";
-	["Ouro (Optional)"] = "Ouro (Optionnel)";
+	["Ouro"] = "Ouro";
 	["Eye of C'Thun"] = "Œil de C'Thun";
 	["C'Thun"] = "C'Thun";
 	["Andorgos <Brood of Malygos>"] = "Andorgos <Rejeton de Malygos>";
@@ -317,7 +336,7 @@ AtlasLocale = {
 	["Merithra of the Dream"] = "Merithra du Rêve";
 	
 	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "Réput : Cercle cénarien";
+	["Cenarion Circle"] = "Cercle cénarien";
 	["Kurinnaxx"] = "Kurinnaxx";
 	["Lieutenant General Andorov"] = "Général de division Andorov";
 	["Four Kaldorei Elites"] = "Quatre Elite kaldorei";
@@ -329,18 +348,17 @@ AtlasLocale = {
 	["Major Yeggeth"] = "Major Yeggeth";
 	["Major Pakkon"] = "Major Parron";
 	["Colonel Zerran"] = "Colonel Zerran";
-	["Moam (Optional)"] = "Moam (Optionnel)";
-	["Buru the Gorger (Optional)"] = "Buru Grandgosier (Optionnel)";
-	["Ayamiss the Hunter (Optional)"] = "Ayamiss le Chasseur (Optionnel)";
+	["Moam"] = "Moam";
+	["Buru the Gorger"] = "Buru Grandgosier";
+	["Ayamiss the Hunter"] = "Ayamiss le Chasseur";
 	["Ossirian the Unscarred"] = "Ossirian l'Intouché";
 	["Safe Room"] = "Pièce sûre";
 
 	--CoT: The Black Morass
-	["Event: Opening of the Dark Portal"] = "Evènement : Ouverture de la Porte des Ténèbres";
-	["Rep: Keepers of Time"] = "Réput : Gardiens du Temps";
-	["Key: Key of Time (Heroic)"] = "Objet : Clé du Temps (Héroïque)";
+	["Opening of the Dark Portal"] = "Ouverture de la Porte des Ténèbres";
+	["Keepers of Time"] = "Gardiens du Temps";
+	["Key of Time"] = "Clé du Temps";
 	["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
-	["Portal (Spawn Point)"] = "Portail (Points d'apparition)";
 	["Wave 6: Chrono Lord Deja"] = "Vague 6 : Chronoseigneur Déjà";
 	["Wave 12: Temporus"] = "Vague 12 : Temporus";
 	["Wave 18: Aeonus"] = "Vague 18 : Aeonus";
@@ -348,8 +366,8 @@ AtlasLocale = {
 	["Medivh"] = "Medivh";
 
 	--CoT: Hyjal Summit
-	["Event: Battle for Mount Hyjal"] = "Evènement : Bataille pour le Mont Hyjal";
-	["Rep: The Scale of the Sands"] = "Réput : La Balance des sables";
+	["Battle for Mount Hyjal"] = "Bataille pour le Mont Hyjal";
+	["The Scale of the Sands"] = "La Balance des sables";
 	["Alliance Base"] = "Base de l'Alliance";
 	["Lady Jaina Proudmoore"] = "Dame Jaina Portvaillant";
 	["Horde Encampment"] = "Campement de la Horde";
@@ -365,20 +383,17 @@ AtlasLocale = {
 	["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Gardien des artefacts perdus>";
 
 	--CoT: Old Hillsbrad Foothills
-	["Event: Escape from Durnholde Keep"] = "Evènement : L'évasion du Fort-de-Durn";
+	["Escape from Durnholde Keep"] = "L'évasion du Fort-de-Durn";
 	["Erozion"] = "Erozion";
 	["Brazen"] = "Airain";
 	["Landing Spot"] = "Zone d'atterrissage";
 	["Southshore"] = "Austrivage";
 	["Tarren Mill"] = "Moulin-de-Tarren";
 	["Lieutenant Drake"] = "Lieutenant Drake";
-	["Thrall (Lower)"] = "Thrall (En bas)";
+	["Thrall"] = "Thrall";
 	["Captain Skarloc"] = "Capitaine Skarloc";
-	["Thrall (Second Stop)"] = "Deuxième arrêt de Thrall";
-	["Thrall (Third Stop)"] = "Troisième arrêt de Thrall";
 	["Epoch Hunter"] = "Chasseur d'époques";
-	["Thrall (Fourth Stop, Upstairs)"] = "Quatrième arrêt de Thrall (En haut)";
-	["Taretha (Upstairs)"] = "Taretha (En haut)";
+	["Taretha"] = "Taretha";
 	["Jonathan Revah"] = "Jonathan Revah";
 	["Jerry Carter"] = "Jerry Carter";
 	["Traveling"] = "Itinérants";
@@ -404,12 +419,12 @@ AtlasLocale = {
 	["Fairbanks"] = "Fairbanks";
 	["Tirion Fordring"] = "Tirion Fordring";
 	["Arcanist Doan"] = "Arcaniste Doan";
-	["Taelan (Upstairs)"] = "Taelan (En haut)";
+	["Taelan"] = "Taelan";
 	["Barkeep Kelly <Bartender>"] = "Kelly le serveur <Tavernier>";
 	["Frances Lin <Barmaid>"] = "Frances Lin <Serveuse>";
 	["Chef Jessen <Speciality Meat & Slop>"] = "Chef Jessen <Spécialités de viandes & pâtées>";
-	["Stalvan Mistmantle (Upstairs)"] = "Stalvan Mantebrume (En haut)";
-	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "Phin Odelic <Le Kirin Tor> (En haut)";
+	["Stalvan Mistmantle"] = "Stalvan Mantebrume";
+	["Phin Odelic <The Kirin Tor>"] = "Phin Odelic <Le Kirin Tor>";
 	["Southshore Town Hall"] = "Hôtel de ville d'Austrivage";
 	["Magistrate Henry Maleb"] = "Magistrat Henry Maleb";
 	["Raleigh the True"] = "Raleigh le Vrai";
@@ -432,366 +447,6 @@ local PURP = "|cff9900ff";
 local INDENT = "      ";
 
 AtlasMaps = {
-	RagefireChasm = {
-		ZoneName = "Gouffre de Ragefeu";
-		Acronym = "RFC";
-		Location = "Orgrimmar";
-		BLUE.."A) Entrée";
-		GREY.."1) Maur Totem-sinistre";
-		GREY..INDENT.."Lorgnesilex <Chef Ragefeu>";
-		GREY.."2) Taragaman l'Affameur";
-		GREY.."3) Jergosh l'Invocateur";
-		GREY..INDENT.."Zelemar le Courroucé (Invoqué)";
-		GREY.."4) Bazzalan";
-	};
-	WailingCaverns = {
-		ZoneName = "Cavernes des lamentations";
-		Acronym = "WC/Lam";
-		Location = "Les Tarides";
-		BLUE.."A) Entrée";
-		GREY.."1) Disciple de Naralex";
-		GREY.."2) Seigneur Cobrahn <Seigneur-Croc>";
-		GREY.."3) Dame Anacondra <Seigneur-Croc>";
-		GREY.."4) Kresh";
-		GREY.."5) Seigneur Pythas <Seigneur-Croc>";
-		GREY.."6) Skum";
-		GREY.."7) Seigneur Serpentis <Seigneur-Croc> (En haut)";
-		GREY.."8) Verdan l'Immortel (En haut)";
-		GREY.."9) Mutanus le Dévoreur";
-		GREY..INDENT.."Naralex";
-		GREY.."10) Dragon féérique déviant (Rare)";
-	};
-	BlackfathomDeeps = {
-		ZoneName = "Profondeurs de Brassenoire";
-		Acronym = "BFD";
-		Location = "Orneval";
-		BLUE.."A) Entrée";
-		GREY.."1) Ghamoo-ra";
-		GREY.."2) Manuscrit de Lorgalis";
-		GREY.."3) Dame Sarevess";
-		GREY.."4) Garde d'argent Thaelrid <L'Aube d'argent>";
-		GREY.."5) Gelihast";
-		GREY..INDENT.."5) Autel de Gelihast";
-		GREY.."6) Lorgus Jett (Variable)";
-		GREY.."7) Baron Aquanis";
-		GREY..INDENT.."Noyau de la Brasse";
-		GREY.."8) Seigneur du crépuscule Kelris";
-		GREY.."9) Vieux Serra'kis";
-		GREY.."10) Aku'mai";
-		GREY..INDENT.."Morridune";
-		GREY..INDENT.."Autel des profondeurs";
-	};
-	RazorfenKraul = {
-		ZoneName = "Kraal de Tranchebauge";
-		Acronym = "RFK";
-		Location = "Les Tarides";
-		BLUE.."A) Entrée";
-		GREY.."1) Roogug";
-		GREY.."2) Aggem Malépine <Prophète de la Tête de mort>";
-		GREY.."3) Nécrorateur Jargba <Capitaine des Têtes de mort>";
-		GREY.."4) Seigneur Brusquebroche";
-		GREY..INDENT.."Lanceur de Tranchebauge";
-		GREY.."5) Agathelos le Déchaîné";
-		GREY.."6) Chasseur aveugle (Rare)";
-		GREY.."7) Charlga Trancheflanc <La mégère>";
-		GREY.."8) Willix l'Importateur";
-		GREY..INDENT.."Heralath Ruissefriche";
-		GREY.."9) Implorateur de la terre Halmgar (Rare)";
-	};
-	RazorfenDowns = {
-		ZoneName = "Souilles de Tranchebauge";
-		Acronym = "RFD";
-		Location = "Les Tarides";
-		BLUE.."A) Entrée";
-		GREY.."1) Tuten'kash";
-		GREY.."2) Henry Stern";
-		GREY..INDENT.."Belnistrasz";
-		GREY..INDENT.."Sah'rhee";
-		GREY.."3) Mordresh Œil-de-feu";
-		GREY.."4) Glouton";
-		GREY.."5) Groinfendu (Rare, Variable)";
-		GREY.."6) Amnennar le Porte-froid";
-		GREY.."7) Pestegueule le Pourrissant";
-	};
-	ZulFarrak = {
-		ZoneName = "Zul'Farrak";
-		Acronym = "ZF";
-		Location = "Tanaris";
-		ORNG.."Objet : Marteau de Zul'Farrak (Gahz'rilla)";
-		BLUE.."A) Entrée";
-		GREY.."1) Antu'sul <Surveillant de Sul>";
-		GREY.."2) Theka le Martyr";
-		GREY.."3) Sorcier-docteur Zum'rah";
-		GREY..INDENT.."Héros mort de Zul'Farrak";
-		GREY.."4) Nekrum Mâchentrailles";
-		GREY..INDENT.."Prêtre des ombres Sezz'ziz";
-		GREY..INDENT.."Âme en peine poudreuse (Rare)";
-		GREY.."5) Sergent Bly";
-		GREY..INDENT.."Gigoto Explomèche";
-		GREY..INDENT.."Murta Mornentraille";
-		GREY..INDENT.."Corbeau";
-		GREY..INDENT.."Oro Crève-oeil";
-		GREY..INDENT.."Bourreau Furie-des-sables";
-		GREY.."6) Hydromancienne Velratha";
-		GREY..INDENT.."Gahz'rilla (Invoqué)";
-		GREY..INDENT.."Ancienne Crin-sauvage (Fête lunaire)";
-		GREY.."7) Chef Ukorz Scalpessable";
-		GREY..INDENT.."Ruuzlu";
-		GREY.."8) Zerillis (Rare, Errant)";
-		GREY.."9) Sandarr Ravadune (Rare)";
-	};
-	Maraudon = {
-		ZoneName = "Maraudon";
-		Acronym = "Mara";
-		Location = "Désolace";
-		ORNG.."Objet :  Sceptre de Celebras (Portail)";
-		BLUE.."A) Entrée (Orange)";
-		BLUE.."B) Entrée (Violet)";
-		BLUE.."C) Entrée (Portail)";
-		GREY.."1) Veng <Le cinquième Kahn>";
-		GREY.."2) Noxcion";
-		GREY.."3) Tranchefouet";
-		GREY.."4) Maraudos <Le quatrième Kahn>";
-		GREY.."5) Seigneur Vylelangue";
-		GREY.."6) Meshlok le Moissonneur (Rare)";
-		GREY.."7) Celebras le Maudit";
-		GREY.."8) Glissement de terrain";
-		GREY.."9) Bricoleur Kadenaz";
-		GREY.."10) Grippe-charogne";
-		GREY.."11) Princesse Theradras";
-		GREY.."12) Ancien Pierre-fendue (Fête lunaire)";
-	};
-	DireMaulEast = {
-		ZoneName = "Hache-tripes (Est)";
-		Acronym = "DM/HT";
-		Location = "Féralas";
-		ORNG.."Objet : Brasero d'invocation (Set D2)";
-		BLUE.."A) Entrée";
-		BLUE.."B) Entrée (Couloir sud)";
-		BLUE.."C) Entrée (Pavillon de Lariss)";
-		BLUE.."D) Sortie";
-		GREY.."1) Début de la chasse à Pusillin";
-		GREY.."2) Fin de la chasse à Pusillin";
-		GREY.."3) Zevrim Sabot-de-ronce";
-		GREY..INDENT.."Hydrogénos";
-		GREY..INDENT.."Lethtendris";
-		GREY..INDENT.."Pimgib";
-		GREY.."4) Vieil Ecorcefer";
-		GREY.."5) Alzzin le modeleur";
-		GREY..INDENT.."Isalien (Invoqué)";
-	};
-	DireMaulNorth = {
-		ZoneName = "Hache-tripes (Nord)";
-		Acronym = "DM/HT";
-		Location = "Féralas";
-		ORNG.."Objet : Clé en croissant";
-		BLUE.."A) Entrée";
-		GREY.."1) Garde Mol'dar";
-		GREY.."2) Kreeg le Marteleur <L'ivrogne>";
-		GREY.."3) Garde Fengus";
-		GREY.."4) Noué Dédodevie";
-		GREY..INDENT.."Garde Slip'kik";
-		GREY.."5) Capitaine Kromcrush";
-		GREY.."6) Roi Gordok";
-		GREY..INDENT.."Cho'Rush l'Observateur";
-	};
-	DireMaulWest = {
-		ZoneName = "Hache-tripes (Ouest)";
-		Acronym = "DM/HT";
-		Location = "Féralas";
-		ORNG.."Objet : Clé en croissant";
-		ORNG.."Objet : Bocal de J'eevee (Seigneur Hel'nurath)";
-		BLUE.."A) Entrée";
-		BLUE.."B) Pylônes";
-		GREY.."1) Ancienne de Shen'Dralar";
-		GREY.."2) Tendris Crochebois";
-		GREY..INDENT.."Ancien esprit équin";
-		GREY.."3) Illyanna Corvichêne";
-		GREY..INDENT.."Ferra";
-		GREY.."4) Magistère Kalendris";
-		GREY.."5) Tsu'zee (Rare)";
-		GREY.."6) Immol'thar";
-		GREY..INDENT.."Seigneur Hel'nurath (Invoqué)";
-		GREY.."7) Prince Tortheldrin";
-		GREN.."1') Bibliothèque";
-		GREN..INDENT.."Falrin Sculpteflore";
-		GREN..INDENT.."Gardien du savoir Lydros";
-		GREN..INDENT.."Gardien du savoir Javon ";
-		GREN..INDENT.."Gardien du savoir Kildrath";
-		GREN..INDENT.."Gardienne du savoir Mykos";
-		GREN..INDENT.."Approvisionneur Shen'dralar";
-		GREN..INDENT.."Restes squelettiques de Kariel Winthalus";
-	};
-	OnyxiasLair = {
-		ZoneName = "Repaire d'Onyxia";
-		Acronym = "Ony";
-		Location = "Marécage d'Âprefange";
-		ORNG.."Harmonisation requise";
-		ORNG.."Objet : Amulette drakefeu";
-		BLUE.."A) Entrée";
-		GREY.."1) Gardiens onyxiens";
-		GREY.."2) Œufs";
-		GREY.."3) Onyxia";
-	};
-	TheTempleofAhnQiraj = {
-		ZoneName = "Ahn'Qiraj";
-		Acronym = "AQ40";
-		Location = "Silithus";
-		ORNG.."Réput : Progéniture de Nozdormu";
-		BLUE.."A) Entrée";
-		GREY.."1) Le Prophète Skeram (Extérieur)";
-		GREY.."2) La famille insecte (Optionnelle)";
-		GREY..INDENT.."Vem";
-		GREY..INDENT.."Seigneur Kri";
-		GREY..INDENT.."Princesse Yauj";
-		GREY.."3) Garde de guerre Sartura";
-		GREY.."4) Fankriss l'Inflexible";
-		GREY.."5) Viscidus (Optionnel)";
-		GREY.."6) Princesse Huhuran";
-		GREY.."7) Les Empereurs jumeaux";
-		GREY..INDENT.."Empereur Vek'lor";
-		GREY..INDENT.."Empereur Vek'nilash";
-		GREY.."8) Ouro (Optionnel)";
-		GREY.."9) Œil de C'Thun / C'Thun";
-		GREN.."1') Andorgos <Rejeton de Malygos>";
-		GREN..INDENT.."Vethsera <Rejeton d'Ysera>";
-		GREN..INDENT.."Kandrostrasz <Rejeton d'Alexstrasza>";
-		GREN.."2') Arygos";
-		GREN..INDENT.."Caelestrasz";
-		GREN..INDENT.."Merithra du Rêve";
-	};
-	TheRuinsofAhnQiraj = {
-		ZoneName = "Ruines d'Ahn'Qiraj";
-		Acronym = "AQ20";
-		Location = "Silithus";
-		ORNG.."Réput : Cercle cénarien";
-		BLUE.."A) Entrée";
-		GREY.."1) Kurinnaxx";
-		GREY..INDENT.."Général de division Andorov";
-		GREY..INDENT.."4 Elite kaldorei";
-		GREY.."2) Général Rajaxx";
-		GREY..INDENT.."Capitaine Qeez";
-		GREY..INDENT.."Capitaine Tuubid";
-		GREY..INDENT.."Capitaine Drenn";
-		GREY..INDENT.."Capitaine Xurrem";
-		GREY..INDENT.."Major Yeggeth";
-		GREY..INDENT.."Major Parron";
-		GREY..INDENT.."Colonel Zerran";
-		GREY.."3) Moam (Optionnel)";
-		GREY.."4) Buru Grandgosier (Optionnel)";
-		GREY.."5) Ayamiss le Chasseur (Optionnel)";
-		GREY.."6) Ossirian l'Intouché";
-		GREN.."1') Pièce sûre";
-	};
-	CoTBlackMorass = {
-		ZoneName = "GdT : Le Noir Marécage";
-		Location = "Grottes du Temps, Tanaris";
-		Acronym = "BM, GdT2";
-		PURP.."Evènement : Ouverture de la Porte des Ténèbres";
-		ORNG.."Harmonisation requise";
-		ORNG.."Réput : Gardiens du Temps";
-		ORNG.." Clé du Temps (Héroïque)";
-		BLUE.."A) Entrée";
-		BLUE..INDENT.."Sa'at <Les Gardiens du temps>";
-		ORNG.."X) Portail (Points d'apparition)";
-		ORNG..INDENT.."Vague 6 : Chronoseigneur Déjà";
-		ORNG..INDENT.."Vague 12 : Temporus";
-		ORNG..INDENT.."Vague 18 : Aeonus";
-		GREY.."1) La Porte des Ténèbres";
-		GREY..INDENT.."Medivh";
-	};
-	CoTHyjal = {
-		ZoneName = "GdT : Sommet d'Hyjal";
-		Location = "Grottes du Temps, Tanaris";
-		Acronym = "MH, GdT3";
-		PURP.."Evènement : Bataille pour le Mont Hyjal";
-		ORNG.."Réput : La Balance des sables";
-		BLUE.."A) Base de l'Alliance";
-		BLUE..INDENT.."Dame Jaina Portvaillant";
-		BLUE.."B) Campement de la Horde";
-		BLUE..INDENT.."Thrall <Chef de guerre>";
-		BLUE.."C) Village des Elfes de la Nuit";
-		BLUE..INDENT.."Tyrande Murmevent <Grande prêtresse d'Elune>";
-		GREY.."1) Rage Froidhiver";
-		GREY.."2) Anetheron";
-		GREY.."3) Kazgorath";
-		GREY.."4) Azgalor";
-		GREY.."5) Archimonde";
-		GREY.."?) Indormi <Gardienne du savoir ancien des gemmes>";
-		GREY..INDENT.."Tydormu <Gardien des artefacts perdus>";
-	};
-	CoTOldHillsbrad = {
-		ZoneName = "GdT : Contreforts d'Hautebrande d'antan";
-		Location = "Grottes du Temps, Tanaris";
-		Acronym = "Durn, GdT1";
-		ORNG.."Harmonisation requise";
-		ORNG.."Réput : Gardiens du Temps";
-		ORNG.."Objet : Clé du Temps (Héroïque)";
-		PURP.."Evènement : L'évasion du Fort-de-Durn";
-		BLUE.."A) Entrée";
-		BLUE..INDENT.."Erozion";
-		BLUE..INDENT.."Airain";
-		BLUE.."B) Lieu d'atterrissage";
-		BLUE.."C) Austrivage";
-		BLUE.."D) Moulin-de-Tarren";
-		GREY.."1) Lieutenant Drake";
-		GREY.."2) Thrall (En bas)";
-		GREY.."3) Capitaine Skarloc";
-		GREY..INDENT.."2ème arrêt de Thrall";
-		GREY.."4) 3ème arrêt de Thrall";
-		GREY.."5) Chasseur d'époques";
-		GREY..INDENT.."4ème arrêt de Thrall (En haut)";
-		GREY..INDENT.."Taretha (En haut)";
-		GREY.."6) Jonathan Revah";
-		GREY..INDENT.."Jerry Carter";
-		"";
-		"";
-		"";
-		ORNG.."Itinérants";
-		GREY..INDENT.."Thomas Yance <Marchand itinérant>";
-		GREY..INDENT.."Sorcier de Dalaran âgé";
-		"";
-		ORNG.."Austrivage";
-		GREY..INDENT.."Kel'Thuzad <Le Kirin Tor>";
-		GREY..INDENT.."Helcular";
-		GREY..INDENT.."Kent le fermier";
-		GREY..INDENT.."Sally Blanchetête";
-		GREY..INDENT.."Renault Mograine";
-		GREY..INDENT.."Petit Jimmy Vishas";
-		GREY..INDENT.."Hérode le Malmeneur";
-		GREY..INDENT.."Nat Pagle";
-		GREY..INDENT.."Hal McAllister";
-		GREY..INDENT.."Zixil <Marchand en herbe>";
-		GREY..INDENT.."Vigilant modèle 0 <Protecteur>";
-		"";
-		ORNG.."Auberge d'Austrivage";
-		GREY..INDENT.."Capitaine Edward Hanes";
-		GREY..INDENT.."Capitaine Sanders";
-		GREY..INDENT.."Commandant Mograine";
-		GREY..INDENT.."Isillien";
-		GREY..INDENT.."Abbendis";
-		GREY..INDENT.."Fairbanks";
-		GREY..INDENT.."Tirion Fordring";
-		GREY..INDENT.."Arcaniste Doan";
-		GREY..INDENT.."Taelan (En haut)";
-		GREY..INDENT.."Kelly le serveur <Tavernier>";
-		GREY..INDENT.."Frances Lin <Serveuse>";
-		GREY..INDENT.."Chef Jessen <Spécialités de viandes & pâtées>";
-		GREY..INDENT.."Stalvan Mantebrume (En haut)";
-		GREY..INDENT.."Phin Odelic <Le Kirin Tor> (En haut)";
-		"";
-		ORNG.."Hôtel de ville d'Austrivage";
-		GREY..INDENT.."Magistrat Henry Maleb";
-		GREY..INDENT.."Raleigh le Vrai";
-		GREY..INDENT.."Nathanos Marris";
-		GREY..INDENT.."Sentine le Guindé";
-		"";
-		ORNG.."Moulin-de-Tarren";
-		GREY..INDENT.."Aubergiste Monica";
-		GREY..INDENT.."Julie Miellepuits";
-		GREY..INDENT.."Jay Lemieux";
-		GREY..INDENT.."Jeune Blanchy";
-	};
 	BlackrockDepths = {
 		ZoneName = "Profondeurs de Rochenoire";
 		Acronym = "BRD";

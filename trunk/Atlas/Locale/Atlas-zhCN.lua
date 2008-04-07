@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 4/3/2008
+-- Last Update : 4/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -78,8 +78,6 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
-ATLAS_HELP = {"关于 Atlas\n===========\n\nAtlas is a user interface addon for World of Warcraft that provides a number of additional maps as well as an in-game map browser. Typing the command '/atlas' or clicking the mini-map icon will open the Atlas window. The options panel allows you to disable the icon, toggle the Auto Select feature, toggle the Replace World Map feature, toggle the Right-Click feature, change the icon's position, or adjust the transparency of the main window. If the Auto Select feature is enabled, Atlas will automatically open to the map of the instance you're in. If the Replace World Map feature is enabled, Atlas will open instead of the world map when you're in an instance. If the Right-Click feature is enabled, you can Right-Click on Atlas to open the World Map. You can move Atlas around by left-clicking and dragging. Use the small padlock icon in the upper-right corner to lock the window in place."};
-
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
 	["阿塔哈卡神庙"] = "沉没的神庙";
@@ -101,7 +99,31 @@ AtlasLocale = {
 	["Entrance"] = "入口";
 	["Exit"] = "出口";
 	["Attunement Required"] = "需要完成入口任务";
-	
+	["Summon"] = "召唤";
+	["Upper"] = "上层";
+	["Rare"] = "稀有";
+	["Varies"] = "多个位置";
+	["Lunar"] = "春节";
+	["Wanders"] = "巡逻";
+	["Key"] = "钥匙";
+	["Orange"] = "橙色";
+	["Purple"] = "紫色";
+	["DS2"] = "地下城套装2";
+	["Chase Begins"] = "追捕开始";
+	["Chase Ends"] = "追捕结束";
+	["Rep"] = "阵营";
+	["Outside"] = "室外";
+	["Optional"] = "可跳过";
+	["Event"] = "事件";
+	["Heroic"] = "英雄模式";
+	["Spawn Point"] = "刷新点";
+	["Lower"] = "下层";
+	["Upstairs"] = "楼上";
+	["Second Stop"] = "第二次止步";
+	["Third Stop"] = "第三次止步";
+	["Fourth Stop"] = "第四次止步";
+	["Portal"] = "传送";
+
 	--Continents
 	["Kalimdor"] = "卡利姆多";
 	
@@ -143,7 +165,7 @@ AtlasLocale = {
 	["Oggleflint <Ragefire Chieftain>"] = "奥格弗林特 <怒焰酋长>";
 	["Taragaman the Hungerer"] = "饥饿者塔拉加曼";
 	["Jergosh the Invoker"] = "祈求者耶戈什";
-	["Zelemar the Wrathful (Summon)"] = "愤怒者塞雷玛尔 (召唤)";
+	["Zelemar the Wrathful"] = "愤怒者塞雷玛尔";
 	["Bazzalan"] = "巴扎兰";
 	
 	--Wailing Caverns
@@ -153,11 +175,11 @@ AtlasLocale = {
 	["Kresh"] = "克雷什";
 	["Lord Pythas <Fanglord>"] = "皮萨斯 <毒牙之王>";
 	["Skum"] = "斯卡姆";
-	["Lord Serpentis <Fanglord> (Upper)"] = "瑟芬迪斯 <毒牙之王> (上层)";
-	["Verdan the Everliving (Upper)"] = "永生者沃尔丹 (上层)";
+	["Lord Serpentis <Fanglord>"] = "瑟芬迪斯 <毒牙之王>";
+	["Verdan the Everliving"] = "永生者沃尔丹";
 	["Mutanus the Devourer"] = "吞噬者穆坦努斯";
 	["Naralex"] = "纳拉雷克斯";
-	["Deviate Faerie Dragon (Rare)"] = "变异精灵龙 (稀有)";
+	["Deviate Faerie Dragon"] = "变异精灵龙";
 	
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "加摩拉";
@@ -166,7 +188,7 @@ AtlasLocale = {
 	["Argent Guard Thaelrid <The Argent Dawn>"] = "银月守卫塞尔瑞德 <银色黎明>";
 	["Gelihast"] = "格里哈斯特";
 	["Shrine of Gelihast"] = "格里哈斯特神殿";
-	["Lorgus Jett (Varies)"] = "洛古斯·杰特 (多个位置)";
+	["Lorgus Jett"] = "洛古斯·杰特";
 	["Fathom Stone"] = "深渊之核";
 	["Baron Aquanis"] = "阿奎尼斯男爵";
 	["Twilight Lord Kelris"] = "梦游者克尔里斯";
@@ -182,11 +204,11 @@ AtlasLocale = {
 	["Overlord Ramtusk"] = "主宰拉姆塔斯";
 	["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
 	["Agathelos the Raging"] = "暴怒的阿迦赛罗斯";
-	["Blind Hunter (Rare)"] = "盲眼猎手 (稀有)";
+	["Blind Hunter"] = "盲眼猎手";
 	["Charlga Razorflank <The Crone>"] = "卡尔加·刺肋 <长者>";
 	["Willix the Importer"] = "进口商威利克斯";
 	["Heralath Fallowbrook"] = "赫尔拉斯·静水";
-	["Earthcaller Halmgar (Rare)"] = "唤地者哈穆加 (稀有)";
+	["Earthcaller Halmgar"] = "唤地者哈穆加";
 
 	--Razorfen Downs
 	["Tuten'kash"] = "图特卡什";
@@ -195,19 +217,19 @@ AtlasLocale = {
 	["Sah'rhee"] = "萨哈斯";
 	["Mordresh Fire Eye"] = "火眼莫德雷斯";
 	["Glutton"] = "暴食者";
-	["Ragglesnout (Rare, Varies)"] = "拉戈斯诺特 (稀有, 多个位置)";
+	["Ragglesnout"] = "拉戈斯诺特";
 	["Amnennar the Coldbringer"] = "寒冰之王亚门纳尔";
 	["Plaguemaw the Rotting"] = "腐烂的普雷莫尔";
 	
 	--Zul'Farrak
-	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "钥匙：祖尔法拉克之槌 (加兹瑞拉)";
+	["Mallet of Zul'Farrak (Gahz'rilla)"] = "祖尔法拉克之槌 (加兹瑞拉)";
 	["Antu'sul <Overseer of Sul>"] = "安图苏尔 <苏尔督军>";
 	["Theka the Martyr"] = "殉教者塞卡";
 	["Witch Doctor Zum'rah"] = "巫医祖穆拉恩";
 	["Zul'Farrak Dead Hero"] = "祖尔法拉克阵亡英雄";
 	["Nekrum Gutchewer"] = "耐克鲁姆";
 	["Shadowpriest Sezz'ziz"] = "暗影祭司塞瑟斯";
-	["Dustwraith (Rare)"] = "灰尘怨灵 (稀有)";
+	["Dustwraith"] = "灰尘怨灵";
 	["Sergeant Bly"] = "布莱中士";
 	["Weegli Blastfuse"] = "维格利";
 	["Murta Grimgut"] = "穆尔塔";
@@ -215,45 +237,41 @@ AtlasLocale = {
 	["Oro Eyegouge"] = "欧罗·血眼";
 	["Sandfury Executioner"] = "沙怒刽子手";
 	["Hydromancer Velratha"] = "水占师维蕾萨";
-	["Gahz'rilla (Summon)"] = "加兹瑞拉 (召唤)";
-	["Elder Wildmane (Lunar)"] = "蛮鬃长者 (春节)";
+	["Gahz'rilla"] = "加兹瑞拉";
+	["Elder Wildmane"] = "蛮鬃长者";
 	["Chief Ukorz Sandscalp"] = "乌克兹·沙顶";
 	["Ruuzlu"] = "卢兹鲁";
-	["Zerillis (Rare, Wanders)"] = "泽雷利斯 (稀有, 巡逻)";
-	["Sandarr Dunereaver (Rare)"] = "杉达尔·沙掠者 (稀有)";
+	["Zerillis"] = "泽雷利斯";
+	["Sandarr Dunereaver"] = "杉达尔·沙掠者";
 	
 	--Maraudon	
-	["Key: Scepter of Celebras (Portal)"] = "钥匙：塞雷布拉斯节杖 (传送)";
-	["Entrance (Orange)"] = "入口 (橙色)";
-	["Entrance (Purple)"] = "入口 (橙色)";
-	["Entrance (Portal)"] = "入口 (橙色)";
+	["Key: Scepter of Celebras"] = "塞雷布拉斯节杖";
 	["Veng <The Fifth Khan>"] = "温格 <第五可汗>";
 	["Noxxion"] = "诺克赛恩";
 	["Razorlash"] = "锐刺鞭笞者";
 	["Maraudos <The Fourth Khan>"] = "玛劳杜斯 <第四可汗>";
 	["Lord Vyletongue"] = "维利塔恩";
-	["Meshlok the Harvester (Rare)"] = "收割者麦什洛克 (稀有)";
+	["Meshlok the Harvester"] = "收割者麦什洛克";
 	["Celebras the Cursed"] = "被诅咒的塞雷布拉斯";
 	["Landslide"] = "兰斯利德";
 	["Tinkerer Gizlock"] = "工匠吉兹洛克";
 	["Rotgrip"] = "洛特格里普";
 	["Princess Theradras"] = "瑟莱德丝公主";
-	["Elder Splitrock (Lunar)"] = "碎石长者 (春节)";
+	["Elder Splitrock"] = "碎石长者";
 	
 	--Dire Maul (East)
-	["Key: Brazier of Invocation (DS2)"] = "钥匙：符咒火盆 (地下城套装2)";
-	["Pusillin (Chase Begins)"] = "普希林 (追捕开始)";
-	["Pusillin (Chase Ends)"] = "普希林 (追捕结束)";
+	["Brazier of Invocation"] = "符咒火盆";
+	["Pusillin"] = "普希林";
 	["Zevrim Thornhoof"] = "瑟雷姆·刺蹄";
 	["Hydrospawn"] = "海多斯博恩";
 	["Lethtendris"] = "雷瑟塔帝丝";
 	["Pimgib"] = "匹姆吉布";
 	["Old Ironbark"] = "埃隆巴克";
 	["Alzzin the Wildshaper"] = "奥兹恩";
-	["Isalien (Summon)"] = "伊萨莉恩 (召唤)";
+	["Isalien"] = "伊萨莉恩";
 	
 	--Dire Maul (North)
-	["Key: Crescent Key"] = "钥匙：月牙钥匙";--omitted from Dire Maul (West)
+	["Crescent Key"] = "月牙钥匙";--omitted from Dire Maul (West)
 	["Library"] = "图书馆";--omitted from Dire Maul (West)
 	["Guard Mol'dar"] = "卫兵摩尔达";
 	["Stomper Kreeg <The Drunk>"] = "践踏者克雷格 <醉鬼>";
@@ -265,7 +283,7 @@ AtlasLocale = {
 	["Cho'Rush the Observer"] = "观察者克鲁什";
 
 	--Dire Maul (West)
-	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "钥匙：耶维尔的瓶子 (赫尔努拉斯)";
+	["J'eevee's Jar"] = "耶维尔的瓶子";
 	["Pylons"] = "水晶塔";
 	["Shen'dralar Ancient"] = "辛德拉古灵";
 	["Tendris Warpwood"] = "特迪斯·扭木";
@@ -273,9 +291,9 @@ AtlasLocale = {
 	["Illyanna Ravenoak"] = "伊琳娜·暗木";
 	["Ferra"] = "费拉";
 	["Magister Kalendris"] = "卡雷迪斯镇长";
-	["Tsu'zee (Rare)"] = "苏斯 (稀有)";
+	["Tsu'zee"] = "苏斯";
 	["Immol'thar"] = "伊莫塔尔";
-	["Lord Hel'nurath (Summon)"] = "赫尔努拉斯 (召唤)";
+	["Lord Hel'nurath"] = "赫尔努拉斯";
 	["Prince Tortheldrin"] = "托塞德林王子";
 	["Falrin Treeshaper"] = "法尔林·树影";
 	["Lorekeeper Lydros"] = "博学者莱德罗斯";
@@ -286,26 +304,26 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "卡里尔·温萨鲁斯的骸骨";
 	
 	--Onyxia's Lair
-	["Key: Drakefire Amulet"] = "钥匙：龙火护符";
+	["Drakefire Amulet"] = "龙火护符";
 	["Onyxian Warders"] = "奥妮克希亚守卫";
 	["Whelp Eggs"] = "雏龙蛋";
 	["Onyxia"] = "奥妮克希亚";
 
 	--Temple of Ahn'Qiraj
-	["Rep: Brood of Nozdormu"] = "阵营：诺兹多姆的子嗣";
-	["The Prophet Skeram (Outside)"] = "预言者斯克拉姆 (室外)";
-	["The Bug Family (Optional)"] = "虫人家庭 (可跳过)";
+	["Brood of Nozdormu"] = "诺兹多姆的子嗣";
+	["The Prophet Skeram"] = "预言者斯克拉姆";
+	["The Bug Family"] = "虫人家庭";
 	["Vem"] = "维姆";
 	["Lord Kri"] = "克里勋爵";
 	["Princess Yauj"] = "亚尔基公主";
 	["Battleguard Sartura"] = "沙尔图拉";
 	["Fankriss the Unyielding"] = "顽强的范克瑞斯";
-	["Viscidus (Optional)"] = "维希度斯 (可跳过)";
+	["Viscidus"] = "维希度斯";
 	["Princess Huhuran"] = "哈霍兰公主";
 	["Twin Emperors"] = "双子皇帝";
 	["Emperor Vek'lor"] = "维克洛尔大帝";
 	["Emperor Vek'nilash"] = "维克尼拉斯大帝";
-	["Ouro (Optional)"] = "奥罗 (可跳过)";
+	["Ouro"] = "奥罗";
 	["Eye of C'Thun"] = "克苏恩之眼";
 	["C'Thun"] = "克苏恩";
 	["Andorgos <Brood of Malygos>"] = "安多葛斯 <玛里苟斯的后裔>";
@@ -316,7 +334,7 @@ AtlasLocale = {
 	["Merithra of the Dream"] = "梦境之龙麦琳瑟拉";
 	
 	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "阵营：塞纳里奥议会";
+	["Rep: Cenarion Circle"] = "塞纳里奥议会";
 	["Kurinnaxx"] = "库林纳克斯";
 	["Lieutenant General Andorov"] = "安多洛夫中将";
 	["Four Kaldorei Elites"] = "卡多雷四精英";
@@ -328,18 +346,17 @@ AtlasLocale = {
 	["Major Yeggeth"] = "耶吉斯少校";
 	["Major Pakkon"] = "帕库少校";
 	["Colonel Zerran"] = "泽兰上校";
-	["Moam (Optional)"] = "莫阿姆 (可跳过)";
-	["Buru the Gorger (Optional)"] = "吞咽者布鲁 (可跳过)";
-	["Ayamiss the Hunter (Optional)"] = "狩猎者阿亚米斯 (可跳过)";
+	["Moam"] = "莫阿姆";
+	["Buru the Gorger"] = "吞咽者布鲁";
+	["Ayamiss the Hunter"] = "狩猎者阿亚米斯";
 	["Ossirian the Unscarred"] = "无疤者奥斯里安";
 	["Safe Room"] = "安全房间";
 
 	--CoT: The Black Morass
-	["Event: Opening of the Dark Portal"] = "事件：开启黑暗之门";
-	["Rep: Keepers of Time"] = "阵营：时光守护者";--omitted from Old Hillsbrad Foothills
-	["Key: Key of Time (Heroic)"] = "钥匙：时光之匙 (英雄模式)";--omitted from Old Hillsbrad Foothills
+	["Opening of the Dark Portal"] = "开启黑暗之门";
+	["Keepers of Time"] = "时光守护者";--omitted from Old Hillsbrad Foothills
+	["Key of Time (Heroic)"] = "时光之匙 (英雄模式)";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "萨艾特 <时光守护者>";
-	["Portal (Spawn Point)"] = "传送门 (刷新点)";
 	["Wave 6: Chrono Lord Deja"] = "第6波：时空领主德亚";
 	["Wave 12: Temporus"] = "第12波：坦普卢斯";
 	["Wave 18: Aeonus"] = "第18波：埃欧努斯";
@@ -347,8 +364,8 @@ AtlasLocale = {
 	["Medivh"] = "麦迪文";
 
 	--CoT: Hyjal Summit
-	["Event: Battle for Mount Hyjal"] = "事件：海加尔之战";
-	["Rep: The Scale of the Sands"] = "阵营：流沙之鳞";
+	["Battle for Mount Hyjal"] = "海加尔之战";
+	["The Scale of the Sands"] = "流沙之鳞";
 	["Alliance Base"] = "联盟基地";
 	["Lady Jaina Proudmoore"] = "吉安娜·普罗德摩尔";
 	["Horde Encampment"] = "部落营地";
@@ -364,20 +381,17 @@ AtlasLocale = {
 	["Tydormu <Keeper of Lost Artifacts>"] = "泰多姆 <失落的神器保管者>";
 
 	--CoT: Old Hillsbrad Foothills
-	["Event: Escape from Durnholde Keep"] = "事件：逃离敦霍尔德堡";
+	["Escape from Durnholde Keep"] = "逃离敦霍尔德堡";
 	["Erozion"] = "伊洛希恩";
 	["Brazen"] = "布拉森";
 	["Landing Spot"] = "着陆点";
 	["Southshore"] = "南海镇";
 	["Tarren Mill"] = "塔伦米尔";
 	["Lieutenant Drake"] = "德拉克中尉";
-	["Thrall (Lower)"] = "萨尔 (下层)";
+	["Thrall"] = "萨尔";
 	["Captain Skarloc"] = "斯卡洛克上尉";
-	["Thrall (Second Stop)"] = "萨尔 (第二次止步)";
-	["Thrall (Third Stop)"] = "萨尔 (第三次止步)";
 	["Epoch Hunter"] = "时空猎手";
-	["Thrall (Fourth Stop, Upstairs)"] = "萨尔 (第四次止步, 上层)";
-	["Taretha (Upstairs)"] = "塔蕾莎 (上层)";
+	["Taretha"] = "塔蕾莎";
 	["Jonathan Revah"] = "乔纳森·雷瓦";
 	["Jerry Carter"] = "杰瑞·卡特尔";
 	["Traveling"] = "旅行中";
@@ -407,8 +421,8 @@ AtlasLocale = {
 	["Barkeep Kelly <Bartender>"] = "酒吧老板凯利 <调酒师>";
 	["Frances Lin <Barmaid>"] = "弗兰斯·林 <招待员>";
 	["Chef Jessen <Speciality Meat & Slop>"] = "厨师杰森";
-	["Stalvan Mistmantle (Upstairs)"] = "斯塔文·密斯特曼托 (上层)";
-	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "费恩·奥德利克 <肯瑞托> (上层)";
+	["Stalvan Mistmantle"] = "斯塔文·密斯特曼托";
+	["Phin Odelic <The Kirin Tor>"] = "费恩·奥德利克 <肯瑞托>";
 	["Southshore Town Hall"] = "南海镇大厅";
 	["Magistrate Henry Maleb"] = "赫尼·马雷布镇长";
 	["Raleigh the True"] = "虔诚的莱雷恩";

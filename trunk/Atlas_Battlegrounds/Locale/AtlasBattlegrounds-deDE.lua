@@ -160,7 +160,7 @@ if ( GetLocale() == "deDE" ) then
 			Acronym = "AB";
 			Location = "Arathihochland";
 			ORNG.."Ruf: Die Entweihten (Horde)";
-			ORNG.."Ruf: Bund von Arathor (Allianz)";
+			ORNG.."Ruf: Der Bund von Arathor (Allianz)";
 			BLUE.."A) Trollbanns Halle";
 			BLUE.."B) Die entweihte Feste";
 			GREY.."1) Ställe";

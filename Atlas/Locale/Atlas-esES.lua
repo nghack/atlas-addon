@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 11/03/2008
+-- Última Actualización (last update): 21/04/2008
 
 --]]
 
@@ -120,9 +120,46 @@ AtlasLocale = {
 	["Entrance"] = "Entrada";
 	["Exit"] = "Salida";
 	["Attunement Required"] = "Armonización requerida";
+	["Summon"] = "Invocar";
+	["Upper"] = "Arriba";
+	["Rare"] = "Raro";
+	["Varies"] = "Varia";
+	["Lunar"] = "Lunar";
+	["Wanders"] = "Rondando";
+	["Key"] = "Llave";
+	["Orange"] = "Naranja";
+	["Purple"] = "Morado";
+	["DS2"] = "DS2";
+	["Chase Begins"] = "Comienza persecución";
+	["Chase Ends"] = "Final persecución";
+	["Rep"] = "Rep";
+	["Outside"] = "Fuera";
+	["Optional"] = "Opcional";
+	["Event"] = "Evento";
+	["Heroic"] = "Heroico";
+	["Spawn Point"] = "Punto de aparición";
+	["Lower"] = "Inferior";
+	["Upstairs"] = "Arriba";
+	["Second Stop"] = "Segunda parada";
+	["Third Stop"] = "Tercera parada";
+	["Fourth Stop"] = "Cuarta parada";
+	["Portal"] = "Portal";
+	["Brewfest"] = "Festival cerveza";
+	["Blacksmithing Plans"] = "Planos de herrero";
+	["Random"] = "Aleatorio";
+	["Connections"] = "Conexiones";
+	["Connects"] = "Conecta";
+	["Brazier of Invocation"] = "Blandón de Invocación";
+	["Back Door"] = "Puerta de atrás";
+	["Front Door"] = "Prueta principal";
+	["Boss"] = "Jefe";
+	["Hallow's End"] = "Halloween";
+	["Stairway"] = "Escaleras";
+	["Walkway"] = "Pasarela";	
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
+	["Eastern Kingdoms"] = "Las Tierras del Este";	
 	
 	--Instance names and acronyms
 	["Ragefire Chasm"] = "Sima Ignea"; ["RFC"] = "SI";
@@ -141,6 +178,17 @@ AtlasLocale = {
 	["CoT: The Black Morass"] = "CdT: La Ciénaga Negra"; ["CoT2"] = "CdT2";
 	["CoT: Hyjal Summit"] = "CdT: El Monte Hyjal"; ["CoT3"] = "CdT3";
 	["CoT: Old Hillsbrad Foothills"] = "CdT: Laderas de Trabalomas"; ["CoT1"] = "CdT1";
+	["Blackrock Depths"] = "Profundidades de Roca Negra"; ["BRD"] = "PRN";
+	["Molten Core"] = "Núcleo de Magma"; ["MC"] = "NM";
+	["Blackrock Spire"] = "Cumbre de Roca Negra"; ["LBRS"] = "CRNI"; ["UBRS"] = "CRNS";
+	["Blackwing Lair"] = "Guarida Alanegra"; ["BWL"] = "GAN";
+	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
+	["SM: Library"] = "ME: Librería"; ["Lib"] = "Lib";
+	["SM: Armory"] = "ME: Armería"; ["Armory"] = "Armería";
+	["SM: Cathedral"] = "ME: Catedral"; ["Cath"] = "Catedral";
+	["SM: Graveyard"] = "ME: Cementerio"; ["GY"] = "Cemen";
+	["Scholomance"] = "Scholomance"; ["Scholo"] = "Scholo";
+	["Shadowfang Keep"] = "Castillo de Colmillo Oscuro"; ["SFK"] = "CCO";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -151,7 +199,13 @@ AtlasLocale = {
 	["Feralas"] = "Feralas";
 	["Dustwallow Marsh"] = "Marjal Revolcafango";
 	["Silithus"] = "Silithus";
-	["Caverns of Time, Tanaris"] = "Cavernas del Tiempo, Tanaris";
+	["Caverns of Time, Tanaris"] = "Cavernas del Tiempo, Tanaris";	
+	["Blackrock Mountain"] = "Montaña Roca Negra";
+	["Dun Morogh"] = "Dun Morogh";
+	["Scarlet Monastery, Tirisfal Glades"] = "Monasterio Escarlata, Claros de Tirisfal";
+	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
+	["Silverpine Forest"] = "Bosque de los Argénteos";
+	
 
 --************************************************
 -- Kalimdor Instance Data
@@ -162,7 +216,7 @@ AtlasLocale = {
 	["Oggleflint <Ragefire Chieftain>"] = "Ogglesílex <Jefe Furia Ardiente>";
 	["Taragaman the Hungerer"] = "Taragaman el hambriento";
 	["Jergosh the Invoker"] = "Jergosh el Convocador";
-	["Zelemar the Wrathful (Summon)"] = "Zelemar el Colérico (Invocar)";
+	["Zelemar the Wrathful"] = "Zelemar el Colérico";
 	["Bazzalan"] = "Bazzalan";
 	
 	--Wailing Caverns
@@ -172,11 +226,11 @@ AtlasLocale = {
 	["Kresh"] = "Kresh";
 	["Lord Pythas <Fanglord>"] = "Lord Pythas <Noble del Colmillo>";
 	["Skum"] = "Skum";
-	["Lord Serpentis <Fanglord> (Upper)"] = "Lord Pythas <Noble del Colmillo> (Arriba)";
-	["Verdan the Everliving (Upper)"] = "Verdan el Eterno (Arriba)";
+	["Lord Serpentis <Fanglord>"] = "Lord Pythas <Noble del Colmillo>";
+	["Verdan the Everliving"] = "Verdan el Eterno";
 	["Mutanus the Devourer"] = "Mutanus el Devorador";
 	["Naralex"] = "Naralex";
-	["Deviate Faerie Dragon (Rare)"] = "Dragón Férico descarriado (Raro)";
+	["Deviate Faerie Dragon"] = "Dragón Férico descarriado";
 	
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
@@ -185,7 +239,7 @@ AtlasLocale = {
 	["Argent Guard Thaelrid <The Argent Dawn>"] = "Guardia Argenta Thaelrid <El Alba Argenta>";
 	["Gelihast"] = "Gelihast";
 	["Shrine of Gelihast"] = "Santuario de Gelihast";
-	["Lorgus Jett (Varies)"] = "Lorgus Jett (Varia)";
+	["Lorgus Jett"] = "Lorgus Jett";
 	["Fathom Stone"] = "Núcleo de las profundidades";
 	["Baron Aquanis"] = "Barón Aquanis";
 	["Twilight Lord Kelris"] = "Señor Crepuscular Kelris";
@@ -201,11 +255,11 @@ AtlasLocale = {
 	["Overlord Ramtusk"] = "Señor Supremo Colmicarnero";
 	["Razorfen Spearhide"] = "Cuerolanza de Rajacieno";
 	["Agathelos the Raging"] = "Agathelos el Furioso";
-	["Blind Hunter (Rare)"] = "Cazador ciego (Raro)";
+	["Blind Hunter"] = "Cazador ciego";
 	["Charlga Razorflank <The Crone>"] = "Charlga Filonavaja <La Bruja>";
 	["Willix the Importer"] = "Willix el Importador";
 	["Heralath Fallowbrook"] = "Heralath Arroyobarbecho";
-	["Earthcaller Halmgar (Rare)"] = "Clamor de Tierra Halmgar (Raro)";
+	["Earthcaller Halmgar"] = "Clamor de Tierra Halmgar";
 
 	--Razorfen Downs
 	["Tuten'kash"] = "Tuten'kash";
@@ -214,19 +268,19 @@ AtlasLocale = {
 	["Sah'rhee"] = "Sah'rhee";
 	["Mordresh Fire Eye"] = "Mordresh Ojo de Fuego";
 	["Glutton"] = "Glotón";
-	["Ragglesnout (Rare, Varies)"] = "Morrandrajos (Raro, Varia)";
+	["Ragglesnout"] = "Morrandrajos";
 	["Amnennar the Coldbringer"] = "Amnennar el Gélido";
 	["Plaguemaw the Rotting"] = "Fauzpeste el Putrefacto";
 	
 	--Zul'Farrak
-	["Key: Mallet of Zul'Farrak (Gahz'rilla)"] = "Llave: Marra de Zul'Farrak (Gahz'rilla)";
+	["Mallet of Zul'Farrak"] = "Marra de Zul'Farrak";
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Sobrestante de Sul>";
 	["Theka the Martyr"] = "Theka el Mártir";
 	["Witch Doctor Zum'rah"] = "Médico Brujo Zum'rah";
 	["Zul'Farrak Dead Hero"] = "Héroe Muerto Zul'Farrak";
 	["Nekrum Gutchewer"] = "Nekrum Cometripas";
 	["Shadowpriest Sezz'ziz"] = "Sacerdote oscuro Sezz'ziz";
-	["Dustwraith (Rare)"] = "Ánima de Polvo (Raro)";
+	["Dustwraith"] = "Ánima de Polvo";
 	["Sergeant Bly"] = "Sargento Bly";
 	["Weegli Blastfuse"] = "Weegli Plomofundido";
 	["Murta Grimgut"] = "Murta Tripuriosa";
@@ -234,45 +288,40 @@ AtlasLocale = {
 	["Oro Eyegouge"] = "Oro Bocojo";
 	["Sandfury Executioner"] = "Ejecutor Furiarena";
 	["Hydromancer Velratha"] = "Hidromántica Velratha";
-	["Gahz'rilla (Summon)"] = "Gahz'rilla (Invocar)";
-	["Elder Wildmane (Lunar)"] = "Ancestro Barvacrín (Festival Lunar)";
+	["Gahz'rilla"] = "Gahz'rilla";
+	["Elder Wildmane"] = "Ancestro Barvacrín";
 	["Chief Ukorz Sandscalp"] = "Jefe Ukorz Cabellarena";
 	["Ruuzlu"] = "Ruuzlu";
-	["Zerillis (Rare, Wanders)"] = "Zerillis (Raro, Pasea)";
-	["Sandarr Dunereaver (Rare)"] = "Sandarr Asaltadunas (Raro)";
+	["Zerillis"] = "Zerillis";
+	["Sandarr Dunereaver"] = "Sandarr Asaltadunas";
 	
 	--Maraudon	
-	["Key: Scepter of Celebras (Portal)"] = "Llave: Cetro de Celebras (Portal)";
-	["Entrance (Orange)"] = "Entrada (Naranja)";
-	["Entrance (Purple)"] = "Entrada (Morada)";
-	["Entrance (Portal)"] = "Entrada (Portal)";
+	["Scepter of Celebras"] = "Cetro de Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <El quinto Khan>";
 	["Noxxion"] = "Noxxion";
 	["Razorlash"] = "Lativaja";
 	["Maraudos <The Fourth Khan>"] = "Maraudos <El cuarto Khan>";
 	["Lord Vyletongue"] = "Lord Lenguavil";
-	["Meshlok the Harvester (Rare)"] = "Meshlok el Cosechador (Raro)";
+	["Meshlok the Harvester"] = "Meshlok el Cosechador";
 	["Celebras the Cursed"] = "Celebras el Maldito";
 	["Landslide"] = "Derrumbio";
 	["Tinkerer Gizlock"] = "Manitas Gizlock";
 	["Rotgrip"] = "Escamapodrida";
 	["Princess Theradras"] = "Princesa Theradras";
-	["Elder Splitrock (Lunar)"] = "Ancestro Parterroca (Festival Lunar)";
+	["Elder Splitrock"] = "Ancestro Parterroca";
 	
 	--Dire Maul (East)
-	["Key: Brazier of Invocation (DS2)"] = "Llave: Blandón de Invocación";
-	["Pusillin (Chase Begins)"] = "Pusillin (Comienzo de la Persecución)";
-	["Pusillin (Chase Ends)"] = "Pusillín (Fin de la Persecución)";
+	["Pusillin"] = "Pusillín";
 	["Zevrim Thornhoof"] = "Zevrim Pezuñahendida";
 	["Hydrospawn"] = "Hidromilecio";
 	["Lethtendris"] = "Lethtendris";
 	["Pimgib"] = "Pimgib";
 	["Old Ironbark"] = "Viejo Cortezaférrea";
 	["Alzzin the Wildshaper"] = "Alzzin el Formaferal";
-	["Isalien (Summon)"] = "Isalien (Invocar)";
+	["Isalien"] = "Isalien";
 	
 	--Dire Maul (North)
-	["Key: Crescent Key"] = "Llave: Llave creciente";--omitted from Dire Maul (West)
+	["Crescent Key"] = "Llave creciente";--omitted from Dire Maul (West)
 	["Library"] = "Biblicoteca";--omitted from Dire Maul (West)
 	["Guard Mol'dar"] = "Guardia Mol'dar";
 	["Stomper Kreeg <The Drunk>"] = "Vapuleador Kreeg <El borracho>";
@@ -284,7 +333,7 @@ AtlasLocale = {
 	["Cho'Rush the Observer"] = "Cho'Rush el Observador";
 
 	--Dire Maul (West)
-	["Key: J'eevee's Jar (Lord Hel'nurath)"] = "Llave: Jarra de J'eevee (Lord Hel'nurath)";
+	["J'eevee's Jar"] = "Jarra de J'eevee";
 	["Pylons"] = "Pilones";
 	["Shen'dralar Ancient"] = "Anciano Shen'dralar";
 	["Tendris Warpwood"] = "Tendris Madeguerra";
@@ -292,9 +341,9 @@ AtlasLocale = {
 	["Illyanna Ravenoak"] = "Illyanna Roblecuervo";
 	["Ferra"] = "Ferra";
 	["Magister Kalendris"] = "Magister Kalendris";
-	["Tsu'zee (Rare)"] = "Tsu'zee (Raro)";
+	["Tsu'zee"] = "Tsu'zee";
 	["Immol'thar"] = "Immol'thar";
-	["Lord Hel'nurath (Summon)"] = "Lord Hel'nurath (Invocar)";
+	["Lord Hel'nurath"] = "Lord Hel'nurath";
 	["Prince Tortheldrin"] = "Príncipe Tortheldrin";
 	["Falrin Treeshaper"] = "Falrin Tallarbol";
 	["Lorekeeper Lydros"] = "Tradicionalista Lydros";
@@ -305,26 +354,26 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Restos esqueléticos de Kariel Winthalus"; --Check
 	
 	--Onyxia's Lair
-	["Key: Drakefire Amulet"] = "Llave: Amuleto Pirodraco";
+	["Drakefire Amulet"] = "Amuleto Pirodraco";
 	["Onyxian Warders"] = "Guardas de Onyxia";
 	["Whelp Eggs"] = "Huevos de crías";
 	["Onyxia"] = "Onyxia";
 
 	--Temple of Ahn'Qiraj
-	["Rep: Brood of Nozdormu"] = "Reputación: Linaje de Nozdormu";
-	["The Prophet Skeram (Outside)"] = "El profeta Skeram (Afuera)";
-	["The Bug Family (Optional)"] = "La Familia Insecto (Opcional)";
+	["Brood of Nozdormu"] = "Linaje de Nozdormu";
+	["The Prophet Skeram"] = "El profeta Skeram";
+	["The Bug Family"] = "La Familia Insecto";
 	["Vem"] = "Vem";
 	["Lord Kri"] = "Lord Kri";
 	["Princess Yauj"] = "Princesa Yauj";
 	["Battleguard Sartura"] = "Guardia de batalla Sartura";
 	["Fankriss the Unyielding"] = "Fankriss el Implacable";
-	["Viscidus (Optional)"] = "Viscidus (Opcional)";
+	["Viscidus"] = "Viscidus";
 	["Princess Huhuran"] = "Princesa Huhuran";
 	["Twin Emperors"] = "Los Emperadores Gemelos";
 	["Emperor Vek'lor"] = "Emperador Vek'lor";
 	["Emperor Vek'nilash"] = "Emperador Vek'nilash";
-	["Ouro (Optional)"] = "Ouro (Opcional)";
+	["Ouro"] = "Ouro";
 	["Eye of C'Thun"] = "Ojo de C'Thun";
 	["C'Thun"] = "C'Thun";
 	["Andorgos <Brood of Malygos>"] = "Andorgos <Camada de Malygos>";
@@ -335,7 +384,7 @@ AtlasLocale = {
 	["Merithra of the Dream"] = "Merithra del Sueño";
 	
 	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "Reputación: Círculo Cenarion";
+	["Cenarion Circle"] = "Círculo Cenarion";
 	["Kurinnaxx"] = "Kurinnaxx";
 	["Lieutenant General Andorov"] = "Teniente General Andorov";
 	["Four Kaldorei Elites"] = "Cuatro Elites Kaldorei";
@@ -347,18 +396,17 @@ AtlasLocale = {
 	["Major Yeggeth"] = "Mayor Yeggeth";
 	["Major Pakkon"] = "Mayor Pakkon";
 	["Colonel Zerran"] = "Coronel Zerran";
-	["Moam (Optional)"] = "Moam (Opcional)";
-	["Buru the Gorger (Optional)"] = "Buru el Manducador (Opcional)";
-	["Ayamiss the Hunter (Optional)"] = "Ayamiss el Cazador (Opcional)";
+	["Moam"] = "Moam";
+	["Buru the Gorger"] = "Buru el Manducador";
+	["Ayamiss the Hunter"] = "Ayamiss el Cazador";
 	["Ossirian the Unscarred"] = "Osiro el Sinmarcas";
 	["Safe Room"] = "Habitación segura";
 
 	--CoT: The Black Morass
-	["Event: Opening of the Dark Portal"] = "Evento: Apertura del Portal Oscuro";
-	["Rep: Keepers of Time"] = "Reputación: Vigilantes del tiempo";--omitted from Old Hillsbrad Foothills
-	["Key: Key of Time (Heroic)"] = "Llave: Llave del tiempo (Heróico)";--omitted from Old Hillsbrad Foothills
+	["Opening of the Dark Portal"] = "Apertura del Portal Oscuro";
+	["Keepers of Time"] = "Vigilantes del tiempo";--omitted from Old Hillsbrad Foothills
+	["Key of Time"] = "Llave del tiempo";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "Sa'at <Vigilantes del Tiempo>";
-	["Portal (Spawn Point)"] = "Portal (Puntos de Aparición)";
 	["Wave 6: Chrono Lord Deja"] = "Oleada 6: Chronolord Deja";
 	["Wave 12: Temporus"] = "Oleada 12: Temporus";
 	["Wave 18: Aeonus"] = "Oleada 18: Aeonus";
@@ -383,20 +431,17 @@ AtlasLocale = {
 	["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Guardián de artefactos perdidos>"; --Check
 
 	--CoT: Old Hillsbrad Foothills
-	["Event: Escape from Durnholde Keep"] = "Evento: Escape del Castillo de Durnholde";
+	["Escape from Durnholde Keep"] = "Escape del Castillo de Durnholde";
 	["Erozion"] = "Erozion";
 	["Brazen"] = "Brazen";
 	["Landing Spot"] = "Punto de Aterrizaje";
 	["Southshore"] = "Costasur";
 	["Tarren Mill"] = "Molino Tarren";
 	["Lieutenant Drake"] = "Teniente Draco";
-	["Thrall (Lower)"] = "Thrall (Abajo)";
+	["Thrall"] = "Thrall";
 	["Captain Skarloc"] = "Capitán Skarloc";
-	["Thrall (Second Stop)"] = "Thrall (Segunda parada)";
-	["Thrall (Third Stop)"] = "Thrall (Tercera parada)";
 	["Epoch Hunter"] = "Cazador de eras";
-	["Thrall (Fourth Stop, Upstairs)"] = "Thrall (Cuarta parada, Arriba)";
-	["Taretha (Upstairs)"] = "Taretha (Arriba)";
+	["Taretha"] = "Taretha";
 	["Jonathan Revah"] = "Jonathan Revah";
 	["Jerry Carter"] = "Jerry Carter";
 	["Traveling"] = "Viajando";
@@ -422,12 +467,12 @@ AtlasLocale = {
 	["Fairbanks"] = "Ribalimpia";
 	["Tirion Fordring"] = "Tirión Vardín";
 	["Arcanist Doan"] = "Arcanista Doan";
-	["Taelan (Upstairs)"] = "Taelan (Arriba)";
+	["Taelan"] = "Taelan";
 	["Barkeep Kelly <Bartender>"] = "Posadero Kelly <Camarero>";
 	["Frances Lin <Barmaid>"] = "Frances Lin <Camarera>";
 	["Chef Jessen <Speciality Meat & Slop>"] = "Jefe Jessen <Especialidad en carne y bazofia>";
-	["Stalvan Mistmantle (Upstairs)"] = "Stalvan Mantoniebla (Arriba)";
-	["Phin Odelic <The Kirin Tor> (Upstairs)"] = "Phin Odelic <Los Kirin Tor> (Arriba)";
+	["Stalvan Mistmantle"] = "Stalvan Mantoniebla";
+	["Phin Odelic <The Kirin Tor>"] = "Phin Odelic <Los Kirin Tor>";
 	["Southshore Town Hall"] = "Ayuntamiento de Costasur";
 	["Magistrate Henry Maleb"] = "Magistrado Henry Maleb";
 	["Raleigh the True"] = "Raleigh el Auténtico";
@@ -437,298 +482,241 @@ AtlasLocale = {
 	["Julie Honeywell"] = "Julie Pozo de Miel";
 	["Jay Lemieux"] = "Jay Lemieux";
 	["Young Blanchy"] = "Joven Blanchy";
+		
+--****************************
+-- Eastern Kingdoms Instances
+--****************************
 	
+	--Blackrock Depths
+	["Shadowforge Key"] = "Llave Forjatiniebla";
+	["Prison Cell Key"] = "Llave de Celda de Prisión";
+	["Jail Break!"] = "La fuga de la prisión";
+	["Banner of Provocation"] = "Estandarte de Provocación";
+	["Lord Roccor"] = "Lord Roccor";
+	["Kharan Mighthammer"] = "Kharan Martillazo";
+	["Commander Gor'shak <Kargath Expeditionary Force>"] = "Comandante Gor'shak <Fuerza Expedicionaria de Kargath>";
+	["Marshal Windsor"] = "Alguacil Windsor";
+	["High Interrogator Gerstahn <Twilight's Hammer Interrogator>"] = "Alta Interrogadora Gerstahn <Interrogadora del Martillo Crepuscular>";
+	["Ring of Law"] = "Círculo de la Ley";
+	["Anub'shiah"] = "Anub'shiah";
+	["Eviscerator"] = "Eviscerador";
+	["Gorosh the Dervish"] = "Gorosh el Endemoniado";
+	["Grizzle"] = "Grisez";
+	["Hedrum the Creeper"] = "Hedrum el Trepador";
+	["Ok'thor the Breaker"] = "Ok'thor el Rompedor";
+	["Theldren"] = "Theldren";
+	["Lefty"] = "Lefty"; --FALTA
+	["Malgen Longspear"] = "Malgen Longspear"; --FALTA
+	["Gnashjaw <Malgen Longspear's Pet>"] = "Gnashjaw <Malgen Longspear's Pet>"; --FALTA
+	["Rotfang"] = "Colmipútreo";
+	["Va'jashni"] = "Va'jashni";
+	["Houndmaster Grebmar"] = "Maestro de canes Grebmar";
+	["Elder Morndeep"] = "Ancestro Alborhondo";
+	["High Justice Grimstone"] = "Alto Justiciero Pedrasiniestra";
+	["Monument of Franclorn Forgewright"] = "Monumento a Franclorn Forjador";
+	["Pyromancer Loregrain"] = "Piromántico Cultugrano";
+	["The Vault"] = "Cámara Negra";
+	["Warder Stilgiss"] = "Guarda Stilgiss";
+	["Verek"] = "Verek";
+	["Watchman Doomgrip"] = "Vigía Presaletal";
+	["Fineous Darkvire <Chief Architect>"] = "Finoso Virunegro <Arquitecto jefe>";
+	["The Black Anvil"] = "El Yunquenegro";
+	["Lord Incendius"] = "Lord Incendius";
+	["Bael'Gar"] = "Bael'Gar";
+	["Shadowforge Lock"] = "El candado de Forjatiniebla";
+	["General Angerforge"] = "General Forjainquina";
+	["Golem Lord Argelmach"] = "Señor Gólem Argelmach";
+	["Field Repair Bot 74A"] = "Reparación de campo 74A";
+	["The Grim Guzzler"] = "Tragapenas"; --Comprobar
+	["Hurley Blackbreath"] = "Hurley Negrálito";
+	["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Tratoscuro <La Hermandad del torio>";
+	["Mistress Nagmara"] = "Maestra Nagmara";
+	["Phalanx"] = "Falange";
+	["Plugger Spazzring"] = "Plugger Aropatoso";
+	["Private Rocknot"] = "Soldado Sinrroca";
+	["Ribbly Screwspigot"] = "Ribbly Llavenrosca";
+	["Coren Direbrew"] = "Coren Brebaje Temible";
+	["Ambassador Flamelash"] = "Embajador Latifuego";
+	["Panzor the Invincible"] = "Panzor el Invencible";
+	["Summoner's Tomb"] = "Tumba del Invocador";
+	["The Lyceum"] = "El Liceo";
+	["Magmus"] = "Magmus";
+	["Emperor Dagran Thaurissan"] = "Emperador Dagran Thaurissan";
+	["Princess Moira Bronzebeard <Princess of Ironforge>"] = "Princesa Moira Barbabronce <Princesa de Forjaz>";
+	["High Priestess of Thaurissan"] = "Alta Sacerdotisa de Thaurissan";
+	["The Black Forge"] = "La Forjanegra";
+	["Core Fragment"] = "Trozo del Núcleo";
+	["Overmaster Pyron"] = "Maestro Supremo Pyron";
+
+	--Blackrock Spire (Lower)
+	["Vaelan"] = "Vaelan";
+	["Warosh <The Cursed>"] = "Warosh <El Maldito>";
+	["Elder Stonefort"] = "Ancestro Petraforte";
+	["Roughshod Pike"] = "Pica férrea";
+	["Spirestone Butcher"] = "Carnicero Cumbrerroca";
+	["Highlord Omokk"] = "Alto Señor Omokk";
+	["Spirestone Battle Lord"] = "Señor de batalla Cumbrerroca";
+	["Spirestone Lord Magus"] = "Señor Magus Cumbrerroca";
+	["Shadow Hunter Vosh'gajin"] = "Cazador de las Sombras Vosh'gajin";
+	["Fifth Mosh'aru Tablet"] = "Quinta tablilla Mosh'aru";
+	["Bijou"] = "Bijou";
+	["War Master Voone"] = "Maestro de guerra Voone";
+	["Mor Grayhoof"] = "Mor Ruciapezuña";
+	["Sixth Mosh'aru Tablet"] = "Sexta tablilla Mosh'aru";
+	["Bijou's Belongings"] = "Pertenencias de Bijou";
+	["Human Remains"] = "Restos humanos";
+	["Unfired Plate Gauntlets"] = "Guanteletes de placas sin templar";
+	["Bannok Grimaxe <Firebrand Legion Champion>"] = "Bannok Hachamacabra  <Legión Pirotigma>";
+	["Mother Smolderweb"] = "Madre Telabrasada";
+	["Crystal Fang"] = "Colmillor de Cristal";
+	["Urok's Tribute Pile"] = "Pila de tributo a Urok";
+	["Urok Doomhowl"] = "Urok Aullapocalipsis";
+	["Quartermaster Zigris <Bloodaxe Legion>"] = "Intendente Zigris <Legión Hacha de Sangre>";
+	["Halycon"] = "Halycon";
+	["Gizrul the Slavener"] = "Gizrul el Esclavista";
+	["Ghok Bashguud <Bloodaxe Champion>"] = "Ghok Bashguud <Campeón Hacha de Sangre>";
+	["Overlord Wyrmthalak"] = "Señor Supremo Vermiothalak";
+	["Burning Felguard"] = "Guarda vil ardiente";
+
+	--Blackrock Spire (Upper)
+	["Seal of Ascension"] = "Sello de Ascensión";
+	["Pyroguard Emberseer"] = "Piroguardián Brasadivino";
+	["Solakar Flamewreath"] = "Solakar Corona de Fuego";
+	["Father Flame"] = "Padre llama";
+	["Darkstone Tablet"] = "Tablilla de Rocanegra";
+	["Doomrigger's Coffer"] = "Broche de Equipasino";
+	["Jed Runewatcher <Blackhand Legion>"] = "Jed Vigía de las runas <Legión Puño Negro>";
+	["Goraluk Anvilcrack <Blackhand Legion Armorsmith>"] = "Goraluk Yunquegrieta <Forjador de armaduras de la Legión Puño Negro>";
+	["Warchief Rend Blackhand"] = "Jefe de Guerra Rend Puño Negro";
+	["Gyth <Rend Blackhand's Mount>"] = "Gyth <Montura de Rend Puño Negro>";
+	["Awbee"] = "Awbee";
+	["The Beast"] = "La Bestia";
+	["Lord Valthalak"] = "Lord Valthalak";
+	["Finkle Einhorn"] = "Finkle Unicornín";
+	["General Drakkisath"] = "General Drakkisath";
+	["Drakkisath's Brand"] = "El orbe de orden";
+	["Blackwing Lair"] = "Guarida Alanegra";
+	
+	--Blackwing Lair
+	["Razorgore the Untamed"] = "Sangrevaja el Indomable";
+	["Vaelastrasz the Corrupt"] = "Vaelastrasz el Corrupto";
+	["Broodlord Lashlayer"] = "Señor de prole Capazote";
+	["Firemaw"] = "Faucefogo";
+	["Draconic for Dummies (Chapter VII)"] = "Dracónico para torpes (Capítulo VII)";
+	["Master Elemental Shaper Krixix"] = "Maestro de los elementos Formacio Krixix";
+	["Ebonroc"] = "Ebanorroca";
+	["Flamegor"] = "Flamagor";
+	["Chromaggus"] = "Chromaggus";
+	["Nefarian"] = "Nefarian";
+	
+	--Gnomeregan
+	["Workshop Key"] = "Llave de taller";
+	["Blastmaster Emi Shortfuse"] = "Maestro Destructor Emi Plomocorto";
+	["Grubbis"] = "Grubbis";
+	["Chomper"] = "Mastic";
+	["Clean Room"] = "Habitación limpia";
+	["Tink Sprocketwhistle <Engineering Supplies>"] = "Tink Silbadentado <Suministros de ingeniería>";
+	["The Sparklematic 5200"] = "El Destellamatic 5200";
+	["Mail Box"] = "Buzón";
+	["Kernobee"] = "Kernobee";
+	["Alarm-a-bomb 2600"] = "Alarmabomba 2600";
+	["Matrix Punchograph 3005-B"] = "Perforégrafo Matriz 3005-B";
+	["Viscous Fallout"] = "Radiactivo viscoso";
+	["Electrocutioner 6000"] = "Electrocutor 6000";
+	["Matrix Punchograph 3005-C"] = "Perforégrafo Matriz 3005-C";
+	["Crowd Pummeler 9-60"] = "Golpeamasa 9-60";
+	["Matrix Punchograph 3005-D"] = "Perforégrafo Matriz 3005-D";
+	["Dark Iron Ambassador"] = "Embajador Hierro Negro";
+	["Mekgineer Thermaplugg"] = "Mekigeniero Termochufe";
+	
+	--Molten Core
+	["Hydraxian Waterlords"] = "Srs. del Agua de Hydraxis";
+	["Aqual Quintessence"] = "Quintaesencia de agua";
+	["Eternal Quintessence"] = "Quintaesencia Eterna";
+	["Lucifron"] = "Lucifron";
+	["Magmadar"] = "Magmadar";
+	["Gehennas"] = "Gehennas";
+	["Garr"] = "Garr";
+	["Shazzrah"] = "Shazzrah";
+	["Baron Geddon"] = "Barón Geddon";
+	["Golemagg the Incinerator"] = "Golemagg el Incinerador";
+	["Sulfuron Harbinger"] = "Sulfuron Presagista";
+	["Majordomo Executus"] = "Mayordomo Executus";
+	["Ragnaros"] = "Ragnaros";
+
+	--SM: Library
+	["Houndmaster Loksey"] = "Maestro de canes Loksey";
+	["Arcanist Doan"] = "Arcanista Doan";
+
+	--SM: Armory
+	["The Scarlet Key"] = "La llave Escarlata";--omitted from SM: Cathedral
+	["Herod <The Scarlet Champion>"] = "Herod <El Campeón Escarlata>";
+
+	--SM: Cathedral
+	["High Inquisitor Fairbanks"] = "Alto Inquisidor Ribalimpia";
+	["Scarlet Commander Mograine"] = "Comandante Escarlata Mograine";
+	["High Inquisitor Whitemane"] = "Alta Inquisidora Melenablanca";
+
+	--SM: Graveyard
+	["Interrogator Vishas"] = "Interrogador Vishas";
+	["Vorrel Sengutz"] = "Vorrel Sengutz";
+	["Pumpkin Shrine"] = "Calabaza Santuario";
+	["Headless Horseman"] = "Jinete decapitado";
+	["Bloodmage Thalnos"] = "Mago Sangriento Thalnos";
+	["Ironspine"] = "Dosarcerado";
+	["Azshir the Sleepless"] = "Azshir el Insomne";
+	["Fallen Champion"] = "Campeón caído";
+	
+	--Scholomance
+	["Argent Dawn"] = "Alba Argenta";
+	["Skeleton Key"] = "Llave esqueleto";
+	["Viewing Room Key (Viewing Room)"] = "Llave de la Sala de visión (Sala de visión)";
+	["Blood of Innocents (Kirtonos)"] = "Sangre de los Inocentes (Kirtonos)";
+	["Divination Scryer (Darkreaver)"] = "Cristal de adivinación (Atracoscuro)";
+	["Blood Steward of Kirtonos"] = "Administrador de sangre de Kirtonos";
+	["The Deed to Southshore"] = "Las escrituras de Costasur";
+	["Kirtonos the Herald"] = "Kirtonos el Heraldo";
+	["Jandice Barov"] = "Jandice Barov";
+	["The Deed to Tarren Mill"] = "Las escrituras de Molino Tarren";
+	["Rattlegore"] = "Traquesangre";
+	["Death Knight Darkreaver"] = "Caballero de la Muerte Atracoscuro";
+	["Marduk Blackpool"] = "Marduz Pozonegro";
+	["Vectus"] = "Vectus";
+	["Ras Frostwhisper"] = "Ras Levescarcha";
+	["The Deed to Brill"] = "Las escrituras de Rémol";
+	["Kormok"] = "Kormok";
+	["Instructor Malicia"] = "Instructora Malicia";
+	["Doctor Theolen Krastinov <The Butcher>"] = "Doctor Theolen Krastinov <El Carnicero>";
+	["Lorekeeper Polkelt"] = "Tradicionalista Polkelt";
+	["The Ravenian"] = "El Devorador";
+	["Lord Alexei Barov"] = "Lord Alexei Barov";
+	["The Deed to Caer Darrow"] = "Las escrituras de Castel Darrow";
+	["Lady Illucia Barov"] = "Lady Illucia Barov";
+	["Darkmaster Gandling"] = "Maestro oscuro Gandling";
+	["Torch Lever"] = "Antocha palanca";
+	["Secret Chest"] = "Cofre secreto";
+	["Alchemy Lab"] = "Laboratorio de alquimia";
+	
+	--Shadowfang Keep
+	["Deathsworn Captain"] = "Capitán Juramorte";
+	["Rethilgore <The Cell Keeper>"] = "Rethilgore <El Guardián de la celda>";
+	["Sorcerer Ashcrombe"] = "Hechicero Ashcrombe";
+	["Deathstalker Adamant"] = "Mortacechador Adamant";
+	["Landen Stilwell"] = "Landen Fontana";
+	["Deathstalker Vincent"] = "Mortacechador Vincent";
+	["Fel Steed"] = "Corcel vil";
+	["Jordan's Hammer"] = "Martillo de Jordan";
+	["Crate of Ingots"] = "Cajón de lingotes";
+	["Razorclaw the Butcher"] = "Zarpador el Carnicero";
+	["Baron Silverlaine"] = "Barón Filargenta";
+	["Commander Springvale"] = "Comandante Vallefont";
+	["Odo the Blindwatcher"] = "Odo el vigía ciego";
+	["Fenrus the Devourer"] = "Fenrus el Devorador";
+	["Arugal's Voidwalker"] = "Abisario de Arugal";
+	["The Book of Ur"] = "El libro de Ur";
+	["Wolf Master Nandos"] = "Maestro de lobos Nandos";
+	["Archmage Arugal"] = "Archimago Arugal";				
 --[[
-	BlackrockDepths = {
-		ZoneName = "Profundidades de Roca Negra";
-		Location = "Montaña Roca Negra"; --Bien
-		ORNG.."Llave: Llave Forjatiniebla"; --Bien
-		ORNG.."Llave: Llave de Celda de Prisión (Cárcel)";
-		ORNG.."Llave: Estandarte de Provocación (Theldren)";
-		BLUE.."A) Entrada";
-		GREY.."1) Lord Roccor"; --Bien
-		GREY.."2) Kharan Martillazo"; --Bien
-		GREY.."3) Comandante Gor'shak <Fuerza Expedicionaria de Kargath>"; --Bien
-		GREY.."4) Alguacil Windsor"; --Bien
-		GREY.."5) Alta Interrogadora Gerstahn <Interrogadora del Martillo Crepuscular>"; --Bien
-		GREY.."6) Círculo de la Ley"; --Bien
-		GREY..INDENT.."Anub'shiah (Aleatorio)"; --Bien
-		GREY..INDENT.."Eviscerador (Aleatorio)"; --Bien
-		GREY..INDENT.."Gorosh el Endemoniado (Aleatorio)"; --Bien
-		GREY..INDENT.."Grisez (Aleatorio)"; --Bien
-		GREY..INDENT.."Hedrum el Trepador (Aleatorio)"; --Bien
-		GREY..INDENT.."Ok'thor el Rompedor (Aleatorio)"; --Bien
-		GREY..INDENT.."Theldren (Invocar)"; --Bien
-		GREY..INDENT.."Lefty"; --No existen (PREGUNTAR)
-		GREY..INDENT.."Malgen Longspear"; --No existen (PREGUNTAR)
-		GREY..INDENT.."Gnashjaw <Malgen Longspear's Pet>"; --No existen (PREGUNTAR)
-		GREY..INDENT.."Colmipútreo"; --Bien
-		GREY..INDENT.."Va'jashni"; --Bien
-		GREY..INDENT.."Maestro de canes Grebmar (Abajo)"; --Bien
-		GREY..INDENT.."Ancestro Alborhondo (Festival Lunar)"; --Bien
-		GREY..INDENT.."Alto Justiciero Pedrasiniestra"; --Bien
-		GREY.."7) Monumento a Franclorn Forjador"; --Bien
-		GREY..INDENT.."Piromántico Cultugrano"; --Bien
-		GREY.."8) Cámara Negra"; --Bien
-		GREY..INDENT.."Guarda Stilgiss"; --Bien
-		GREY..INDENT.."Verek"; --Bien
-		GREY..INDENT.."Vigía Presaletal"; --Bien
-		GREY.."9) Finoso Virunegro <Arquitecto jefe>"; --Bien
-		GREY.."10) El Yunquenegro"; --Bien
-		GREY..INDENT.."Lord Incendius"; --Bien
-		GREY.."11) Bael'Gar"; --Bien
-		GREY.."12) El candado de Forjatiniebla"; --Bien
-		GREY.."13) General Forjainquina"; --Bien
-		GREY.."14) Señor Gólem Argelmach"; --Bien
-		GREY..INDENT.."Esquema: reparación de campo 74A"; --Bien
-		GREY..INDENT.."Diseño de herrería"; --Bien
-		GREY.."15) Tragapenas"; --Bien
-		GREY..INDENT.."Hurley Negrálito"; --Bien
-		GREY..INDENT.."Lokhtos Tratoscuro <La Hermandad del torio>"; --Bien
-		GREY..INDENT.."Maestra Nagmara"; --Bien
-		GREY..INDENT.."Falange"; --Bien
-		GREY..INDENT.."Plugger Aropatoso"; --Bien
-		GREY..INDENT.."Soldado Sinrroca"; --Bien
-		GREY..INDENT.."Ribbly Llavenrosca"; --Bien
-		GREY..INDENT.."Coren Brebaje Temible (Feria cerveza)"; --Bien
-		GREY.."16) Embajador Latifuego"; --Bien
-		GREY.."17) Panzor el Invencible (Raro)"; --Bien
-		GREY..INDENT.."Diseño de herrería"; --Bien
-		GREY.."18) Tumba del Invocador"; --Bien
-		GREY.."19) El Liceo"; --Bien
-		GREY.."20) Magmus"; --Bien
-		GREY.."21) Emperador Dagran Thaurissan"; --Bien
-		GREY..INDENT.."Princesa Moira Barbabronce <Princesa de Forjaz>"; --Bien
-		GREY..INDENT.."Alta Sacerdotisa de Thaurissan"; --Bien
-		GREY.."22) La Forjanegra"; --Bien 
-		GREY.."23) Núcleo de Magma"; --Bien
-		GREY..INDENT.."Trozo del Núcleo"; --Bien
-		GREY.."24) Maestro Supremo Pyron"; --Bien
-		GREY.."25) Diseño de herrería"; --Bien
-	};
-	BlackrockSpireLower = {
-		ZoneName = "Cumbre de Roca Negra (Abajo)"; --Bien
-		Location = "Montaña Roca Negra"; --Bien
-		ORNG.."Llave: Blandón de Invocación"; --Bien
-		BLUE.."A) Entrada";
-		BLUE.."B) Cumbre de Roca Negra (Arriba)";
-		BLUE.."C-F) Conexiones";
-		GREY.."1) Vaelan (Arriba)"; --Bien
-		GREY.."2) Warosh (Rondando)"; --Bien
-		GREY..INDENT.."Ancestro Petraforte"; --Bien
-		GREY.."3) Pica férrea"; --Bien
-		GREY.."4) Carnicero Cumbrerroca (Raro)"; --Bien
- 		GREY.."5) Alto Señor Omokk"; --Bien
-		GREY.."6) Señor de batalla Cumbrerroca (Raro)"; --Bien
-		GREY..INDENT.."Señor Magus Cumbrerroca (Raro)"; --Bien
-		GREY.."7) Cazador de las Sombras Vosh'gajin"; --Bien
-		GREY..INDENT.."Quinta tablilla Mosh'aru"; --Bien
-		GREY.."8) Bijou"; --Bien
-		GREY.."9) Maestro de guerra Voone"; --Bien
-		GREY..INDENT.."Mor Ruciapezuña (Invocar)"; --Bien
-		GREY..INDENT.."Sexta tablilla Mosh'aru"; --Bien
-		GREY.."10) Pertenencias de Bijou"; --Bien
-		GREY.."11) Restos humanos"; --Bien
-		GREY..INDENT.."Guanteletes de placas sin templar"; --Bien
-		GREY.."12) Bannok Hachamacabra (Raro)"; --Bien
-		GREY.."13) Madre Telabrasada"; --Bien
-		GREY.."14) Colmillor de Cristal (Raro)"; --Bien
-		GREY.."15) Pila de tributo a Urok"; --Bien
-		GREY..INDENT.."Urok Aullapocalipsis (Invocar)"; --Bien
-		GREY.."16) Intendente Zigris"; --Bien
-		GREY.."17) Halycon"; --Bien
-		GREY..INDENT.."Gizrul el Esclavista"; --Bien
-		GREY.."18) Ghok Bashguud (Raro)"; --Bien
-		GREY.."19) Señor Supremo Vermiothalak"; --Bien
-		GREN.."1') Guarda vil ardiente (Raro, Invocar)"; --Bien
-	};
-	BlackrockSpireUpper = {
-		ZoneName = "Cumbre de Roca Negra (Arriba)";
-		Location = "Montaña Roca Negra";
-		ORNG.."Llave: Sello de Ascensión"; --Bien
-		ORNG.."Llave: Blandón de Invocación"; --Bien
-		BLUE.."A) Entrada";
-		BLUE.."B) Cumbre de Roca Negra (Inferior)";
-		BLUE.."C-E) Conexiones";
-		GREY.."1) Piroguardián Brasadivino"; --Bien
-		GREY.."2) Solakar Corona de Fuego"; --Bien
-		GREY..INDENT.."Padre llama"; --Bien
-		GREY.."3) Tablilla de Rocanegra"; --Bien
-		GREY..INDENT.."Broche de Equipasino"; --Bien
-		GREY.."4) Jed Vigía de las runas (Raro)"; --Bien
-		GREY.."5) Goraluk Yunquegrieta"; --Bien
-		GREY.."6) Jefe de Guerra Rend Puño Negro"; --Bien
-		GREY..INDENT.."Gyth"; --Bien
-		GREY.."7) Awbee"; --Bien
-		GREY.."8) La Bestia"; --Bien
-		GREY..INDENT.."Lord Valthalak (Invocar)"; --Bien
-		GREY..INDENT.."Finkle Unicornín"; --Bien
-		GREY.."9) General Drakkisath"; --Bien
-		GREY..INDENT.."El orbe de orden"; --Bien
-		GREY.."10) Guarida Alanegra"; --Bien
-	};
-	BlackwingLair = {
-		ZoneName = "Guarida Alanegra";
-		Acronym = "GA";
-		Location = "Cumbre de Roca Negra";
-		ORNG.."Armonización Requerida";
-		BLUE.."A) Entrada";
-		BLUE.."B) Pasillo"; --Bien
-		BLUE.."C) Pasillo"; --Bien
-		GREY.."1) Sangrevaja el Indomable"; --Bien
-		GREY.."2) Vaelastrasz el Corrupto"; --Bien
-		GREY.."3) Señor de prole Capazote"; --Bien
-		GREY.."4) Faucefogo"; --Bien
-		GREY..INDENT.."Dracónico para torpes (Capítulo VII)"; --Bien
-		GREY.."5) Maestro de los elementos Formacio Krixix";
-		GREY.."6) Ebanorroca"; --Bien
-		GREY.."7) Flamagor"; --Bien
-		GREY.."8) Chromaggus"; --Bien
-		GREY.."9) Nefarian"; --Bien
-	};
-	Gnomeregan = {
-		ZoneName = "Gnomeregan"; --Bien
-		Location = "Dun Morogh";
-		ORNG.."Llave: Llave de taller (Puerta de atrás)"; --Bien
-		BLUE.."A) Entrada (Puerta principal)";
-		BLUE.."B) Entrada (Puerta de atrás)";
-		GREY.."1) Maestro Destructor Emi Plomocorto"; --Bien
-		GREY..INDENT.."Grubbis"; --Bien
-		GREY..INDENT.."Mastic"; --Bien
-		GREY.."2) Habitación limpia"; --Bien
-		GREY..INDENT.."Tink Silbadentado"; --Bien
-		GREY..INDENT.."El Destellamatic 5200"; --Bien
-		GREY..INDENT.."Buzón"; --Bien
-		GREY.."3) Kernobee"; --Bien
-		GREY..INDENT.."Alarmabomba 2600"; --Bien
-		GREY..INDENT.."Perforégrafo Matriz 3005-B"; --Bien
-		GREY.."4) Radiactivo viscoso"; --Bien
-		GREY.."5) Electrocutor 6000"; --Bien
-		GREY..INDENT.."Perforégrafo Matriz 3005-C"; --Bien
-		GREY.."6) Golpeamasa 9-60 (Arriba)"; --Bien
-		GREY..INDENT.."Perforégrafo Matriz 3005-D"; --Bien
-		GREY.."7) Embajador Hierro Negro"; --Bien
-		GREY.."8) Mekigeniero Termochufe"; --Bien
-	};
-	MoltenCore = {
-		ZoneName = "Núcleo de Magma"; --Bien
-		Acronym = "NM";
-		Location = "Profundidades de Roca Negra";
-		ORNG.."Armonización Requerida";
-		ORNG.."Reputación: Srs. del Agua de Hydraxis"; --Bien
-		ORNG.."Llave: Quintaesencia de agua (Jefe)"; --Bien		
-		ORNG.."Llave: Quintaesencia Eterna (Jefe)"; --Bien
-		BLUE.."A) Entrada";
-		GREY.."1) Lucifron"; --Bien
-		GREY.."2) Magmadar"; --Bien
-		GREY.."3) Gehennas"; --Bien
-		GREY.."4) Garr"; --Bien
-		GREY.."5) Shazzrah"; --Bien
-		GREY.."6) Barón Geddon"; --Bien
-		GREY.."7) Golemagg el Incinerador"; --Bien
-		GREY.."8) Sulfuron Presagista"; --Bien
-		GREY.."9) Mayordomo Executus"; --Bien
-		GREY.."10) Ragnaros"; --Bien
-	};
-	SMLibrary = {
-		ZoneName = "Monasterio Escarlata: Librería";
-		Location = "ME, Claros de Tirisfal"; --Bien
-		BLUE.."A) Entrada";
-		GREY.."1) Maestro de canes Loksey"; --Bien
-		GREY.."2) Arcanista Doan"; --Bien
-	};
-	SMArmory = {
-		ZoneName = "Monasterio Escarlata: Armería";
-		Location = "ME, Claros de Tirisfal";
-		ORNG.."Llave: La llave Escarlata"; --Bien
-		BLUE.."A) Entrada";
-		GREY.."1) Herod"; --Bien
-	};
-	SMCathedral = {
-		ZoneName = "Monasterio Escarlata: Catedral";
-		Acronym = ""; --Bien (Catedral)
-		Location = "ME, Claros de Tirisfal";
-		ORNG.."Llave: La llave Escarlata";
-		BLUE.."A) Entrada";
-		GREY.."1) Alto Inquisidor Ribalimpia"; --Bien
-		GREY.."2) Comandante Escarlata Mograine"; --Bien
-		GREY..INDENT.."Alta Inquisidora Melenablanca"; --Bien
-	};
-	SMGraveyard = {
-		ZoneName = "Monasterio Escarlata: Cementerio";
-		Location = "ME, Claros de Tirisfal";
-		BLUE.."A) Entrada";
-		GREY.."1) Interrogador Vishas"; --Bien
-		GREY..INDENT.."Vorrel Sengutz"; --Bien
-		GREY.."2) Calabaza Santuario (Halloween)";
-		GREY..INDENT.."Jinete decapitado (Invocar)"; --Bien
-		GREY.."3) Mago Sangriento Thalnos"; --Bien
-		GREN.."1') Dosarcerado (Raro)"; --Bien
-		GREN..INDENT.."Azshir el Insomne (Raro)"; --Bien
-		GREN..INDENT.."Campeón caído (Raro)"; --Bien
-	};
-	Scholomance = {
-		ZoneName = "Scholomance";
-		Acronym = "Scholo";
-		Location = "Praderas de la Peste del Oeste";
-		ORNG.."Reputación: Alba Argenta"; --Bien
-		ORNG.."Llave: Llave esqueleto"; --Bien
-		ORNG.."Llave: Llave de la Sala de visión (Sala de visión)"; --Bien
-		ORNG.."Llave: Sangre de los Inocentes (Kirtonos)"; --Bien
-		ORNG.."Llave: Blandón de Invocación"; --Bien
-		ORNG.."Llave: Cristal de adivinación (Atracoscuro)"; --Bien
-		BLUE.."A) Entrada";
-		BLUE.."B) Escaleras"; --Bien
-		BLUE.."C) Escaleras"; --Bien
-		GREY.."1) Administrador de sangre de Kirtonos"; --Bien
-		GREY..INDENT.."Las escrituras de Costasur"; --Bien
-		GREY.."2) Kirtonos el Heraldo (Invocar)"; --Bien
-		GREY.."3) Jandice Barov"; --Bien
-		GREY.."4) Las escrituras de Molino Tarren"; --Bien
-		GREY.."5) Traquesangre (Abajo)"; --Bien
-		GREY..INDENT.."Caballero de la Muerte Atracoscuro (Invocar)"; --Bien
-		GREY.."6) Marduz Pozonegro";  --Bien
-		GREY..INDENT.."Vectus"; --Bien
-		GREY.."7) Ras Levescarcha"; --Bien
-		GREY..INDENT.."Las escrituras de Rémol"; --Bien
-		GREY..INDENT.."Kormok (Invocar)"; --Bien
-		GREY.."8) Instructora Malicia"; --Bien
-		GREY.."9) Doctor Theolen Krastinov"; --Bien
-		GREY.."10) Tradicionalista Polkelt"; --Bien
-		GREY.."11) El Devorador"; --Bien
-		GREY.."12) Lord Alexei Barov"; --Bien
-		GREY..INDENT.."Las escrituras de Castel Darrow"; --Bien
-		GREY.."13) Lady Illucia Barov"; --Bien
-		GREY.."14) Maestro oscuro Gandling"; --Bien
-		GREN.."1') Antocha palanca"; --Bien
-		GREN.."2') Cofre secreto"; --Bien
-		GREN.."3') Laboratorio de alquimia"; --Bien
-	};
-	ShadowfangKeep = {
-		ZoneName = "Castillo de Colmillo Oscuro";
-		Location = "Bosque de los Argénteos";
-		BLUE.."A) Entrada";
-		BLUE.."B) Pasillo"; --Bien
-		BLUE.."C) Pasillo"; --Bien
-		BLUE..INDENT.."Capitán Juramorte (Raro)"; --Bien
-		GREY.."1) Rethilgore"; --Bien
-		GREY..INDENT.."Hechicero Ashcrombe"; --Bien
-		GREY..INDENT.."Mortacechador Adamant"; --Bien
-		GREY..INDENT.."Landen Fontana"; --Bien
-		GREY.."2) Mortacechador Vincent"; --Bien
-		GREY.."3) Corcel vil"; --Bien
-		GREY..INDENT.."Martillo de Jordan"; --Bien
-		GREY..INDENT.."Cajón de lingotes"; --Bien
-		GREY.."4) Zarpador el Carnicero"; --Bien
-		GREY.."5) Barón Filargenta"; --Bien
-		GREY.."6) Comandante Vallefont"; --Bien
-		GREY.."7) Odo el vigía ciego"; --Bien
-		GREY.."8) Fenrus el Devorador"; --Bien
-		GREY..INDENT.."Abisario de Arugal"; --Bien
-		GREY..INDENT.."El libro de Ur"; --Bien
-		GREY.."9) Maestro de lobos Nandos"; --Bien
-		GREY.."10) Archimago Arugal"; --Bien
-	};
 	Stratholme = {
 		ZoneName = "Stratholme";
 		Acronym = "Strat";

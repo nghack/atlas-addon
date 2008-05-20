@@ -182,6 +182,7 @@ AtlasLocale = {
 	["SM: Graveyard"] = "SM: Graveyard"; ["GY"] = "GY";
 	["Scholomance"] = "Scholomance"; ["Scholo"] = "Scholo";
 	["Shadowfang Keep"] = "Shadowfang Keep"; ["SFK"] = "SFK";
+	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -198,6 +199,7 @@ AtlasLocale = {
 	["Scarlet Monastery, Tirisfal Glades"] = "Scarlet Monastery, Tirisfal Glades";
 	["Western Plaguelands"] = "Western Plaguelands";
 	["Silverpine Forest"] = "Silverpine Forest";
+	["Eastern Plaguelands"] = "Eastern Plaguelands";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -660,7 +662,7 @@ AtlasLocale = {
 	["Fallen Champion"] = "Fallen Champion";
 	
 	--Scholomance
-	["Argent Dawn"] = "Argent Dawn";
+	["Argent Dawn"] = "Argent Dawn";--omitted from Stratholme
 	["Skeleton Key"] = "Skeleton Key";
 	["Viewing Room Key (Viewing Room)"] = "Viewing Room Key (Viewing Room)";
 	["Blood of Innocents (Kirtonos)"] = "Blood of Innocents (Kirtonos)";
@@ -708,58 +710,50 @@ AtlasLocale = {
 	["The Book of Ur"] = "The Book of Ur";
 	["Wolf Master Nandos"] = "Wolf Master Nandos";
 	["Archmage Arugal"] = "Archmage Arugal";
+
+	--Stratholme
+	["The Scarlet Key"] = "The Scarlet Key";
+	["Key to the City"] = "Key to the City";
+	["Various Postbox Keys"] = "Various Postbox Keys";
+	["Living Side"] = "Living Side";
+	["Undead Side"] = "Undead Side";
+	["Postmaster"] = "Postmaster";
+	["Skul"] = "Skul";
+	["Stratholme Courier"] = "Stratholme Courier";
+	["Fras Siabi"] = "Fras Siabi";
+	["Atiesh <Hand of Sargeras>"] = "Atiesh <Hand of Sargeras>";
+	["Hearthsinger Forresten"] = "Hearthsinger Forresten";
+	["The Unforgiven"] = "The Unforgiven";
+	["Elder Farwhisper"] = "Elder Farwhisper";
+	["Timmy the Cruel"] = "Timmy the Cruel";
+	["Malor the Zealous"] = "Malor the Zealous";
+	["Malor's Strongbox"] = "Malor's Strongbox";
+	["Crimson Hammersmith"] = "Crimson Hammersmith";
+	["Cannon Master Willey"] = "Cannon Master Willey";
+	["Archivist Galford"] = "Archivist Galford";
+	["Grand Crusader Dathrohan"] = "Grand Crusader Dathrohan";
+	["Balnazzar"] = "Balnazzar";
+	["Sothos"] = "Sothos";
+	["Jarien"] = "Jarien";
+	["Magistrate Barthilas"] = "Magistrate Barthilas";
+	["Aurius"] = "Aurius";
+	["Stonespine"] = "Stonespine";
+	["Baroness Anastari"] = "Baroness Anastari";
+	["Black Guard Swordsmith"] = "Black Guard Swordsmith";
+	["Nerub'enkan"] = "Nerub'enkan";
+	["Maleki the Pallid"] = "Maleki the Pallid";
+	["Ramstein the Gorger"] = "Ramstein the Gorger";
+	["Baron Rivendare"] = "Baron Rivendare";
+	["Ysida Harmon"] = "Ysida Harmon";
+	["Crusaders' Square Postbox"] = "Crusaders' Square Postbox";
+	["Market Row Postbox"] = "Market Row Postbox";
+	["Festival Lane Postbox"] = "Festival Lane Postbox";
+	["Elders' Square Postbox"] = "Elders' Square Postbox";
+	["King's Square Postbox"] = "King's Square Postbox";
+	["Fras Siabi's Postbox"] = "Fras Siabi's Postbox";
+	["3rd Box Opened: Postmaster Malown"] = "3rd Box Opened: Postmaster Malown";
+
 	--[[
-	Stratholme = {
-		ZoneName = { "Stratholme", 2017 };
-		Acronym = "Strat";
-		Location = { "Eastern Plaguelands", 139 };
-		LevelRange = "58-60";
-		PlayerLimit = "5";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Argent Dawn", FACTION, 529 };
-		{ ORNG.."Key: The Scarlet Key (Living Side)", ITEM, 7146 };
-		{ ORNG.."Key: Key to the City (Undead Side)", ITEM, 12382 };
-		{ ORNG.."Key: Various Postbox Keys (Postmaster)" };
-		{ ORNG.."Key: Brazier of Invocation (DS2)", ITEM, 22057 };
-		{ BLUE.."A) Entrance (Front)" };
-		{ BLUE.."B) Entrance (Side)" };
-		["1) Skul (Rare, Varies)"] = "";10393 };
-		["Stratholme Courier"] = "";11082 };
-		["Fras Siabi"] = "";11058 };
-		["2) Atiesh <Hand of Sargeras> (Summon)"] = "";16387 };
-		["3) Hearthsinger Forresten (Varies)"] = "";10558 };
-		["4) The Unforgiven"] = "";10516 };
-		["5) Elder Farwhisper (Lunar)"] = "";15607 };
-		["6) Timmy the Cruel"] = "";10808 };
-		["7) Malor the Zealous"] = "";11032 };
-		["Malor's Strongbox", OBJECT, 176112 };
-		["8) Crimson Hammersmith (Summon)"] = "";11120 };
-		["Blacksmithing Plans", OBJECT, 173232 };
-		["9) Cannon Master Willey"] = "";10997 };
-		["10) Archivist Galford"] = "";10811 };
-		["11) Grand Crusader Dathrohan"] = "";10812 };
-		["Balnazzar"] = "";10813 };
-		["Sothos (Summon)"] = "";16102 };
-		["Jarien (Summon)"] = "";16101 };
-		["12) Magistrate Barthilas (Varies)"] = "";10435 };
-		["13) Aurius"] = "";10917 };
-		["14) Stonespine (Rare)"] = "";10809 };
-		["15) Baroness Anastari"] = "";10436 };
-		["Black Guard Swordsmith (Summon)"] = "";11121 };
-		["Blacksmithing Plans", OBJECT, 173232 };
-		["16) Nerub'enkan"] = "";10437 };
-		["17) Maleki the Pallid"] = "";10438 };
-		["18) Ramstein the Gorger"] = "";10439 };
-		["19) Baron Rivendare"] = "";10440 };
-		["Ysida Harmon"] = "";16031 };
-		{ GREN.."1') Crusaders' Square Postbox" };
-		{ GREN.."2') Market Row Postbox" };
-		{ GREN.."3') Festival Lane Postbox" };
-		{ GREN.."4') Elders' Square Postbox" };
-		{ GREN.."5') King's Square Postbox" };
-		{ GREN.."6') Fras Siabi's Postbox" };
-		{ GREN.."3rd Box Opened: Postmaster Malown"] = "";11143 };
-	};
 	TheDeadmines = {
 		ZoneName = { "The Deadmines", 1581 };
 		Acronym = "VC";

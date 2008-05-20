@@ -39,6 +39,7 @@ v1.11.1
 - removed Stasis Chamber tag from Yor in Manatombs
 - changed the order of reliquiary of souls in BT
 - added 'The' to Illidari Council in BT
+- refreshed the Shadowfang Keep map (Deadca7)
 
 v1.11.0
 - updated TOC number to 20400 for the 2.4 patch

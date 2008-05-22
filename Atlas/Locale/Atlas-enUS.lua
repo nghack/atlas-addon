@@ -146,6 +146,7 @@ AtlasLocale = {
 	["Boss"] = "Boss";
 	["Hallow's End"] = "Hallow's End";
 	["Connection"] = "Connection";
+	["AKA"] = "AKA";
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
@@ -182,6 +183,8 @@ AtlasLocale = {
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
+	["Sunken Temple"] = "Sunken Temple"; ["ST"] = "ST";
+	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -201,6 +204,8 @@ AtlasLocale = {
 	["Eastern Plaguelands"] = "Eastern Plaguelands";
 	["Westfall"] = "Westfall";
 	["Stormwind City"] = "Stormwind City";
+	["Swamp of Sorrows"] = "Swamp of Sorrows";
+	["Badlands"] = "Badlands";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -776,69 +781,53 @@ AtlasLocale = {
 	["Dextren Ward"] = "Dextren Ward";
 	["Bruegal Ironknuckle"] = "Bruegal Ironknuckle";
 
+	--The Sunken Temple
+	["The Temple of Atal'Hakkar"] = "The Temple of Atal'Hakkar";
+	["Yeh'kinya's Scroll"] = "Yeh'kinya's Scroll";
+	["Atal'ai Defenders"] = "Atal'ai Defenders";
+	["Gasher"] = "Gasher";
+	["Loro"] = "Loro";
+	["Hukku"] = "Hukku";
+	["Zolo"] = "Zolo";
+	["Mijan"] = "Mijan";
+	["Zul'Lor"] = "Zul'Lor";
+	["Altar of Hakkar"] = "Altar of Hakkar";
+	["Atal'alarion <Guardian of the Idol>"] = "Atal'alarion <Guardian of the Idol>";
+	["Dreamscythe"] = "Dreamscythe";
+	["Weaver"] = "Weaver";
+	["Avatar of Hakkar"] = "Avatar of Hakkar";
+	["Jammal'an the Prophet"] = "Jammal'an the Prophet";
+	["Ogom the Wretched"] = "Ogom the Wretched";
+	["Morphaz"] = "Morphaz";
+	["Hazzas"] = "Hazzas";
+	["Shade of Eranikus"] = "Shade of Eranikus";
+	["Essence Font"] = "Essence Font";
+	["Spawn of Hakkar"] = "Spawn of Hakkar";
+	["Elder Starsong"] = "Elder Starsong";
+	["Statue Activation Order"] = "Statue Activation Order";
+	
+	--Uldaman
+	["Staff of Prehistoria"] = "Staff of Prehistoria";
+	["Baelog"] = "Baelog";
+	["Eric \"The Swift\""] = "Eric \"The Swift\"";
+	["Olaf"] = "Olaf";
+	["Baelog's Chest"] = "Baelog's Chest";
+	["Conspicuous Urn"] = "Conspicuous Urn";
+	["Remains of a Paladin"] = "Remains of a Paladin";
+	["Revelosh"] = "Revelosh";
+	["Ironaya"] = "Ironaya";
+	["Obsidian Sentinel"] = "Obsidian Sentinel";
+	["Annora <Enchanting Trainer>"] = "Annora <Enchanting Trainer>";
+	["Ancient Stone Keeper"] = "Ancient Stone Keeper";
+	["Galgann Firehammer"] = "Galgann Firehammer";
+	["Tablet of Will"] = "Tablet of Will";
+	["Shadowforge Cache"] = "Shadowforge Cache";
+	["Grimlok <Stonevault Chieftain>"] = "Grimlok <Stonevault Chieftain>";
+	["Archaedas <Ancient Stone Watcher>"] = "Archaedas <Ancient Stone Watcher>";
+	["The Discs of Norgannon"] = "The Discs of Norgannon";
+	["Ancient Treasure"] = "Ancient Treasure";
+	
 	--[[
-	TheSunkenTemple = {
-		ZoneName = { "Sunken Temple", 1417 };
-		Acronym = "ST";
-		Location = { "Swamp of Sorrows", 8 };
-		LevelRange = "46-53";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."AKA: The Temple of Atal'Hakkar" };
-		{ ORNG.."Key: Yeh'kinya's Scroll (Avatar of Hakkar)", ITEM, 10818 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE.."B) Stairway" };
-		{ BLUE.."C) Atal'ai Defenders (Upper)" };
-		{ BLUE..INDENT.."Gasher"] = "";5713 };
-		{ BLUE..INDENT.."Loro"] = "";5714 };
-		{ BLUE..INDENT.."Hukku"] = "";5715 };
-		{ BLUE..INDENT.."Zolo"] = "";5712 };
-		{ BLUE..INDENT.."Mijan"] = "";5717 };
-		{ BLUE..INDENT.."Zul'Lor"] = "";5716 };
-		["1) Altar of Hakkar", OBJECT, 148836 };
-		["Atal'alarion <Guardian of the Idol>"] = "";8580 };
-		["2) Dreamscythe"] = "";5721 };
-		["Weaver"] = "";5720 };
-		["3) Avatar of Hakkar"] = "";8443 };
-		["4) Jammal'an the Prophet"] = "";5710 };
-		["Ogom the Wretched"] = "";5711 };
-		["5) Morphaz"] = "";5719 };
-		["Hazzas"] = "";5722 };
-		["6) Shade of Eranikus"] = "";5709 };
-		["Essence Font", OBJECT, 148512 };
-		["7) Spawn of Hakkar (Rare)"] = "";5708 };
-		["8) Elder Starsong (Lunar)"] = "";15593 };
-		{ GREN.."1'-6') Statue Activation Order" };
-	};
-	Uldaman = {
-		ZoneName = { "Uldaman", 1337 };
-		Acronym = "Uld";
-		Location = { "Badlands", 3 };
-		LevelRange = "36-42";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Key: Staff of Prehistoria (Ironaya)", ITEM, 7733 };
-		{ BLUE.."A) Entrance (Front)" };
-		{ BLUE.."B) Entrance (Back)" };
-		["1) Baelog"] = "";6906 };
-		["Eric \"The Swift\""] = "";6907 };
-		["Olaf"] = "";6908 };
-		["Baelog's Chest", OBJECT, 123329 };
-		["Conspicuous Urn", OBJECT, 125477 };
-		["2) Remains of a Paladin"] = "";6912 };
-		["3) Revelosh"] = "";6910 };
-		["4) Ironaya"] = "";7228 };
-		["5) Obsidian Sentinel"] = "";7023 };
-		["6) Annora <Enchanting Trainer>"] = "";11073 };
-		["7) Ancient Stone Keeper"] = "";7206 };
-		["8) Galgann Firehammer"] = "";7291 };
-		["Tablet of Will", OBJECT, 142088 };
-		["Shadowforge Cache", OBJECT, 113757 };
-		["9) Grimlok <Stonevault Chieftain>"] = "";4854 };
-		["10) Archaedas <Ancient Stone Watcher> (Lower)"] = "";2748 };
-		["11) The Discs of Norgannon (Lower)", OBJECT, 131474 };
-		["Ancient Treasure (Lower)", OBJECT, 141979 };
-	};
 	ZulGurub = {
 		ZoneName = { "Zul'Gurub", 19 };
 		Acronym = "ZG";

@@ -55,15 +55,8 @@ Atlas_DropDownLayouts_Order = {
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN] = {
-			"BlackwingLair",
-			"Gnomeregan",
-			"MoltenCore",
-			"SMArmory",
-			"SMLibrary",
-			"SMCathedral",
-			"SMGraveyard",
-			"Scholomance",
-			"ShadowfangKeep",
+			"TheDeadmines",
+			"TheStockade",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"RagefireChasm",

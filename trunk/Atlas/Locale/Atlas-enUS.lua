@@ -132,7 +132,6 @@ AtlasLocale = {
 	["Heroic"] = "Heroic";
 	["Spawn Point"] = "Spawn Point";
 	["Lower"] = "Lower";
-	["Upstairs"] = "Upstairs";
 	["Second Stop"] = "Second Stop";
 	["Third Stop"] = "Third Stop";
 	["Fourth Stop"] = "Fourth Stop";
@@ -140,15 +139,13 @@ AtlasLocale = {
 	["Brewfest"] = "Brewfest";
 	["Blacksmithing Plans"] = "Blacksmithing Plans";
 	["Random"] = "Random";
-	["Connections"] = "Connections";
-	["Connects"] = "Connects";
 	["Brazier of Invocation"] = "Brazier of Invocation";
-	["Back Door"] = "Back Door";
-	["Front Door"] = "Front Door";
+	["Back"] = "Back";
+	["Front"] = "Front";
+	["Side"] = "Side";
 	["Boss"] = "Boss";
 	["Hallow's End"] = "Hallow's End";
-	["Stairway"] = "Stairway";
-	["Walkway"] = "Walkway";
+	["Connection"] = "Connection";
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
@@ -183,6 +180,8 @@ AtlasLocale = {
 	["Scholomance"] = "Scholomance"; ["Scholo"] = "Scholo";
 	["Shadowfang Keep"] = "Shadowfang Keep"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
+	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
+	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -200,6 +199,8 @@ AtlasLocale = {
 	["Western Plaguelands"] = "Western Plaguelands";
 	["Silverpine Forest"] = "Silverpine Forest";
 	["Eastern Plaguelands"] = "Eastern Plaguelands";
+	["Westfall"] = "Westfall";
+	["Stormwind City"] = "Stormwind City";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -589,7 +590,6 @@ AtlasLocale = {
 	["Finkle Einhorn"] = "Finkle Einhorn";
 	["General Drakkisath"] = "General Drakkisath";
 	["Drakkisath's Brand"] = "Drakkisath's Brand";
-	["Blackwing Lair"] = "Blackwing Lair";
 	
 	--Blackwing Lair
 	["Razorgore the Untamed"] = "Razorgore the Untamed";
@@ -664,9 +664,12 @@ AtlasLocale = {
 	--Scholomance
 	["Argent Dawn"] = "Argent Dawn";--omitted from Stratholme
 	["Skeleton Key"] = "Skeleton Key";
-	["Viewing Room Key (Viewing Room)"] = "Viewing Room Key (Viewing Room)";
-	["Blood of Innocents (Kirtonos)"] = "Blood of Innocents (Kirtonos)";
-	["Divination Scryer (Darkreaver)"] = "Divination Scryer (Darkreaver)";
+	["Viewing Room Key"] = "Viewing Room Key";
+	["Viewing Room"] = "Viewing Room";
+	["Blood of Innocents"] = "Blood of Innocents";
+	["Kirtonos"] = "Kirtonos";
+	["Divination Scryer"] = "Divination Scryer";
+	["Darkreaver"] = "Darkreaver";
 	["Blood Steward of Kirtonos"] = "Blood Steward of Kirtonos";
 	["The Deed to Southshore"] = "The Deed to Southshore";
 	["Kirtonos the Herald"] = "Kirtonos the Herald";
@@ -753,42 +756,27 @@ AtlasLocale = {
 	["Fras Siabi's Postbox"] = "Fras Siabi's Postbox";
 	["3rd Box Opened: Postmaster Malown"] = "3rd Box Opened: Postmaster Malown";
 
+	--The Deadmines
+	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <The Foreman>";
+	["Miner Johnson"] = "Miner Johnson";
+	["Sneed <Lumbermaster>"] = "Sneed <Lumbermaster>";
+	["Sneed's Shredder <Lumbermaster>"] = "Sneed's Shredder <Lumbermaster>";
+	["Gilnid <The Smelter>"] = "Gilnid <The Smelter>";
+	["Defias Gunpowder"] = "Defias Gunpowder";
+	["Captain Greenskin"] = "Captain Greenskin";
+	["Edwin VanCleef <Defias Kingpin>"] = "Edwin VanCleef <Defias Kingpin>";
+	["Mr. Smite <The Ship's First Mate>"] = "Mr. Smite <The Ship's First Mate>";
+	["Cookie <The Ship's Cook>"] = "Cookie <The Ship's Cook>";
+	
+	--The Stockade
+	["Targorr the Dread"] = "Targorr the Dread";
+	["Kam Deepfury"] = "Kam Deepfury";
+	["Hamhock"] = "Hamhock";
+	["Bazil Thredd"] = "Bazil Thredd";
+	["Dextren Ward"] = "Dextren Ward";
+	["Bruegal Ironknuckle"] = "Bruegal Ironknuckle";
+
 	--[[
-	TheDeadmines = {
-		ZoneName = { "The Deadmines", 1581 };
-		Acronym = "VC";
-		Location = { "Westfall", 40 };
-		LevelRange = "16-22";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		{ BLUE.."B) Exit" };
-		["1) Rhahk'Zor <The Foreman>"] = "";644 };
-		["2) Miner Johnson (Rare)"] = "";3586 };
-		["3) Sneed <Lumbermaster>"] = "";643 };
-		["Sneed's Shredder <Lumbermaster>"] = "";642 };
-		["4) Gilnid <The Smelter>"] = "";1763 };
-		["5) Defias Gunpowder", OBJECT, 17155 };
-		["6) Captain Greenskin"] = "";647 };
-		["Edwin VanCleef <Defias Kingpin>"] = "";639 };
-		["Mr. Smite <The Ship's First Mate>"] = "";646 };
-		["Cookie <The Ship's Cook>"] = "";645 };
-	};
-	TheStockade = {
-		ZoneName = { "The Stockade", 717 };
-		Acronym = "Stocks";
-		Location = { "Stormwind City", 1519 };
-		LevelRange = "21-27";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		["1) Targorr the Dread (Varies)"] = "";1696 };
-		["2) Kam Deepfury"] = "";1666 };
-		["3) Hamhock"] = "";1717 };
-		["4) Bazil Thredd"] = "";1716 };
-		["5) Dextren Ward"] = "";1663 };
-		["6) Bruegal Ironknuckle (Rare)"] = "";1720 };
-	};
 	TheSunkenTemple = {
 		ZoneName = { "Sunken Temple", 1417 };
 		Acronym = "ST";

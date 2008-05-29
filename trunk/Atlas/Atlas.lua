@@ -43,7 +43,7 @@ ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
 ATLAS_DROPDOWNS = {};
 ATLAS_INST_ENT_DROPDOWN = {};
 
-ATLAS_NUM_LINES = 25;
+ATLAS_NUM_LINES = 24;
 ATLAS_CUR_LINES = 0;
 ATLAS_SCROLL_LIST = {};
 
@@ -600,6 +600,7 @@ function Atlas_Refresh()
 	
 	local tLoc = "";
 	local tLR = "";
+	local tML = "";
 	local tPL = "";
 	if ( base.Location[1] ) then
 		tLoc = ATLAS_STRING_LOCATION..": "..base.Location[1];
@@ -607,11 +608,15 @@ function Atlas_Refresh()
 	if ( base.LevelRange ) then
 		tLR = ATLAS_STRING_LEVELRANGE..": "..base.LevelRange;
 	end
+	if ( base.MinLevel ) then
+		tML = ATLAS_STRING_MINLEVEL..": "..base.MinLevel;
+	end
 	if ( base.PlayerLimit ) then
 		tPL = ATLAS_STRING_PLAYERLIMIT..": "..base.PlayerLimit;
 	end
 	AtlasText_Location:SetText(tLoc);
 	AtlasText_LevelRange:SetText(tLR);
+	AtlasText_MinLevel:SetText(tML);
 	AtlasText_PlayerLimit:SetText(tPL);
 
 	ATLAS_DATA = base;

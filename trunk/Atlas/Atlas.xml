@@ -229,12 +229,12 @@
 			</Button>
 			<ScrollFrame name="AtlasScrollBar" inherits="FauxScrollFrameTemplate">
 				<Size>
-					<AbsDimension x="351" y="382" />
+					<AbsDimension x="351" y="367" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="530" y="-171"/>
+							<AbsDimension x="530" y="-186"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -378,11 +378,20 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="AtlasText_PlayerLimit" inherits="GameFontNormal">
+				<FontString name="AtlasText_MinLevel" inherits="GameFontNormal">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
 								<AbsDimension x="0" y="-50"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="AtlasText_PlayerLimit" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
+							<Offset>
+								<AbsDimension x="0" y="-65"/>
 							</Offset>
 						</Anchor>
 					</Anchors>

@@ -50,6 +50,7 @@ ATLAS_STRING_SELECT_CAT = "Select Category";
 ATLAS_STRING_SELECT_MAP = "Select Map";
 ATLAS_STRING_SEARCH = "Search";
 ATLAS_STRING_CLEAR = "Clear";
+ATLAS_STRING_MINLEVEL = "Minimum Level";
 
 ATLAS_OPTIONS_BUTTON = "Options";
 ATLAS_OPTIONS_TITLE = "Atlas Options";
@@ -147,6 +148,14 @@ AtlasLocale = {
 	["Hallow's End"] = "Hallow's End";
 	["Connection"] = "Connection";
 	["AKA"] = "AKA";
+	["Bat"] = "Bat";
+	["Snake"] = "Snake";
+	["Spider"] = "Spider";
+	["Raptor"] = "Raptor";
+	["Tiger"] = "Tiger";
+	["Panther"] = "Panther";
+	["Undead"] = "Undead";
+	["Argent Dawn"] = "Argent Dawn";
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
@@ -185,6 +194,8 @@ AtlasLocale = {
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	["Sunken Temple"] = "Sunken Temple"; ["ST"] = "ST";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
+	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -206,6 +217,7 @@ AtlasLocale = {
 	["Stormwind City"] = "Stormwind City";
 	["Swamp of Sorrows"] = "Swamp of Sorrows";
 	["Badlands"] = "Badlands";
+	["Stranglethorn Vale"] = "Stranglethorn Vale";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -667,7 +679,6 @@ AtlasLocale = {
 	["Fallen Champion"] = "Fallen Champion";
 	
 	--Scholomance
-	["Argent Dawn"] = "Argent Dawn";--omitted from Stratholme
 	["Skeleton Key"] = "Skeleton Key";
 	["Viewing Room Key"] = "Viewing Room Key";
 	["Viewing Room"] = "Viewing Room";
@@ -827,76 +838,60 @@ AtlasLocale = {
 	["The Discs of Norgannon"] = "The Discs of Norgannon";
 	["Ancient Treasure"] = "Ancient Treasure";
 	
+	--Zul'Gurub
+	["Zandalar Tribe"] = "Zandalar Tribe";
+	["Mudskunk Lure"] = "Mudskunk Lure";
+	["Gurubashi Mojo Madness"] = "Gurubashi Mojo Madness";
+	["High Priestess Jeklik"] = "High Priestess Jeklik";
+	["High Priest Venoxis"] = "High Priest Venoxis";
+	["Zanza the Restless"] = "Zanza the Restless";
+	["High Priestess Mar'li"] = "High Priestess Mar'li";
+	["Bloodlord Mandokir"] = "Bloodlord Mandokir";
+	["Ohgan"] = "Ohgan";
+	["Edge of Madness"] = "Edge of Madness";
+	["Gri'lek"] = "Gri'lek";
+	["Hazza'rah"] = "Hazza'rah";
+	["Renataki"] = "Renataki";
+	["Wushoolay"] = "Wushoolay";
+	["Gahz'ranka"] = "Gahz'ranka";
+	["High Priest Thekal"] = "High Priest Thekal";
+	["Zealot Zath"] = "Zealot Zath";
+	["Zealot Lor'Khan"] = "Zealot Lor'Khan";
+	["High Priestess Arlokk"] = "High Priestess Arlokk";
+	["Jin'do the Hexxer"] = "Jin'do the Hexxer";
+	["Hakkar"] = "Hakkar";
+	["Muddy Churning Waters"] = "Muddy Churning Waters";
+	
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "Archmage Tarsis Kir-Moldir";
+	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
+	["Abomination Wing"] = "Abomination Wing";
+	["Patchwerk"] = "Patchwerk";
+	["Grobbulus"] = "Grobbulus";
+	["Gluth"] = "Gluth";
+	["Thaddius"] = "Thaddius";
+	["Spider Wing"] = "Spider Wing";
+	["Anub'Rekhan"] = "Anub'Rekhan";
+	["Grand Widow Faerlina"] = "Grand Widow Faerlina";
+	["Maexxna"] = "Maexxna";
+	["Deathknight Wing"] = "Deathknight Wing";
+	["Instructor Razuvious"] = "Instructor Razuvious";
+	["Gothik the Harvester"] = "Gothik the Harvester";
+	["The Four Horsemen"] = "The Four Horsemen";
+	["Thane Korth'azz"] = "Thane Korth'azz";
+	["Lady Blaumeux"] = "Lady Blaumeux";
+	["Highlord Mograine <The Ashbringer>"] = "Highlord Mograine <The Ashbringer>";
+	["Sir Zeliek"] = "Sir Zeliek";
+	["Four Horsemen Chest"] = "Four Horsemen Chest";
+	["Plague Wing"] = "Plague Wing";
+	["Noth the Plaguebringer"] = "Noth the Plaguebringer";
+	["Heigan the Unclean"] = "Heigan the Unclean";
+	["Loatheb"] = "Loatheb";
+	["Frostwyrm Lair"] = "Frostwyrm Lair";
+	["Sapphiron"] = "Sapphiron";
+	["Kel'Thuzad"] = "Kel'Thuzad";
+	
 	--[[
-	ZulGurub = {
-		ZoneName = { "Zul'Gurub", 19 };
-		Acronym = "ZG";
-		Location = { "Stranglethorn Vale", 33 };
-		LevelRange = "56-70";
-		PlayerLimit = "20";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Zandalar Tribe", FACTION, 270 };
-		{ ORNG.."Key: Mudskunk Lure (Gahz'ranka)", ITEM, 19974 };
-		{ ORNG.."Key: Gurubashi Mojo Madness (EoM)", ITEM, 19931 };
-		{ BLUE.."A) Entrance" };
-		["1) High Priestess Jeklik (Bat)"] = "";14517 };
-		["2) High Priest Venoxis (Snake)"] = "";14507 };
-		["3) Zanza the Restless"] = "";15042 };
-		["4) High Priestess Mar'li (Spider)"] = "";14510 };
-		["5) Bloodlord Mandokir (Raptor, Optional)"] = "";11382 };
-		["Ohgan"] = "";14988 };
-		["6) Edge of Madness (Optional)" };
-		["Gri'lek (Random)"] = "";15082 };
-		["Hazza'rah (Random)"] = "";15083 };
-		["Renataki (Random)"] = "";15084 };
-		["Wushoolay (Random)"] = "";15085 };
-		["7) Gahz'ranka (Optional, Summon)"] = "";15114 };
-		["8) High Priest Thekal (Tiger)"] = "";14509 };
-		["Zealot Zath"] = "";11348 };
-		["Zealot Lor'Khan"] = "";11347 };
-		["9) High Priestess Arlokk (Panther)"] = "";14515 };
-		["10) Jin'do the Hexxer (Undead, Optional)"] = "";11380 };
-		["11) Hakkar"] = "";14834 };
-		{ GREN.."1') Muddy Churning Waters" };
-	};
-	Naxxramas = {
-		ZoneName = { "Naxxramas", 3456 };
-		Acronym = "Nax";
-		Location = { "Eastern Plaguelands", 139 };
-		LevelRange = "60-70";
-		PlayerLimit = "40";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Attunement Required" };
-		{ ORNG.."Rep: Argent Dawn", FACTION, 529 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE..INDENT.."Archmage Tarsis Kir-Moldir"] = "";16381 };
-		{ BLUE..INDENT.."Mr. Bigglesworth (Wanders)"] = "";16998 };
-		["Abomination Wing" };
-		["1) Patchwerk"] = "";16028 };
-		["2) Grobbulus"] = "";15931 };
-		["3) Gluth"] = "";15932 };
-		["4) Thaddius"] = "";15928 };
-		{ ORNG.."Spider Wing" };
-		{ ORNG..INDENT.."1) Anub'Rekhan"] = "";15956 };
-		{ ORNG..INDENT.."2) Grand Widow Faerlina"] = "";15953 };
-		{ ORNG..INDENT.."3) Maexxna"] = "";15952 };
-		{ _RED.."Deathknight Wing" };
-		{ _RED..INDENT.."1) Instructor Razuvious"] = "";16061 };
-		{ _RED..INDENT.."2) Gothik the Harvester"] = "";16060 };
-		{ _RED..INDENT.."3) The Four Horsemen" };
-		{ _RED..INDENT..INDENT.."Thane Korth'azz"] = "";16064 };
-		{ _RED..INDENT..INDENT.."Lady Blaumeux"] = "";16065 };
-		{ _RED..INDENT..INDENT.."Highlord Mograine <The Ashbringer>"] = "";16062 };
-		{ _RED..INDENT..INDENT.."Sir Zeliek"] = "";16063 };
-		{ _RED..INDENT..INDENT.."Four Horsemen Chest", OBJECT, 181366 };
-		{ PURP.."Plague Wing" };
-		{ PURP..INDENT.."1) Noth the Plaguebringer"] = "";15954 };
-		{ PURP..INDENT.."2) Heigan the Unclean"] = "";15936 };
-		{ PURP..INDENT.."3) Loatheb"] = "";16011 };
-		{ GREN.."Frostwyrm Lair" };
-		{ GREN..INDENT.."1) Sapphiron"] = "";15989 };
-		{ GREN..INDENT.."2) Kel'Thuzad"] = "";15990 };
-	};
 	KarazhanStart = {
 		ZoneName = { "Karazhan [A] (Start)", 2562 };
 		Acronym = "Kara";

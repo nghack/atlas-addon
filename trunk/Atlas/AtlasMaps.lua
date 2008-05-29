@@ -59,6 +59,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["RFC"];
 		Location = { AtlasLocale["Orgrimmar"], 1637 };
 		LevelRange = "12-18";
+		MinLevel = "8";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -74,6 +75,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["WC"];
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "16-25";
+		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -94,6 +96,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["BFD"];
 		Location = { AtlasLocale["Ashenvale"], 331 };
 		LevelRange = "20-28";
+		MinLevel = "19";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -117,6 +120,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["RFK"];
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "23-33";
+		MinLevel = "17";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -137,6 +141,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["RFD"];
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "33-42";
+		MinLevel = "25";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -155,6 +160,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["ZF"];
 		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "42-48";
+		MinLevel = "35";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Mallet of Zul'Farrak"].." ("..AtlasLocale["Gahz'rilla"]..")", ITEM, 9240 };
@@ -185,6 +191,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Mara"];
 		Location = { AtlasLocale["Desolace"], 405 };
 		LevelRange = "42-51";
+		MinLevel = "35";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Scepter of Celebras"].." ("..AtlasLocale["Portal"]..")", ITEM, 17191 };
@@ -209,6 +216,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["DM"];
 		Location = { AtlasLocale["Feralas"], 357 };
 		LevelRange = "55-58";
+		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
@@ -231,6 +239,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["DM"];
 		Location = { AtlasLocale["Feralas"], 357 };
 		LevelRange = "57-60";
+		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Crescent Key"], ITEM, 18249 };
@@ -250,6 +259,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["DM"];
 		Location = { AtlasLocale["Feralas"], 357 };
 		LevelRange = "57-60";
+		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Crescent Key"], ITEM, 18249 };
@@ -280,6 +290,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Ony"];
 		Location = { AtlasLocale["Dustwallow Marsh"], 15 };
 		LevelRange = "60-70";
+		MinLevel = "50";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
@@ -294,6 +305,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["AQ40"];
 		Location = { AtlasLocale["Silithus"], 1377 };
 		LevelRange = "60-70";
+		MinLevel = "50";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Brood of Nozdormu"], FACTION, 910 };
@@ -325,6 +337,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["AQ20"];
 		Location = { AtlasLocale["Silithus"], 1377 };
 		LevelRange = "60-70";
+		MinLevel = "50";
 		PlayerLimit = "20";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Circle"], FACTION, 609 };
@@ -351,6 +364,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["CoT2"];
 		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
 		LevelRange = "68-70";
+		MinLevel = "66";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Opening of the Dark Portal"] };
@@ -371,6 +385,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["CoT3"];
 		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Battle for Mount Hyjal"] };
@@ -394,6 +409,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["CoT1"];
 		Location = { AtlasLocale["Caverns of Time, Tanaris"], 440 };
 		LevelRange = "66-70";
+		MinLevel = "66";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Escape from Durnholde Keep"] };
@@ -472,6 +488,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["BRD"];
 		Location = { AtlasLocale["Blackrock Mountain"], 25 };
 		LevelRange = "52-58";
+		MinLevel = "40";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Shadowforge Key"], ITEM, 11000 };
@@ -543,6 +560,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["LBRS"];
 		Location = { AtlasLocale["Blackrock Mountain"], 25 };
 		LevelRange = "54-60";
+		MinLevel = "45";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
@@ -583,6 +601,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["UBRS"];
 		Location = { AtlasLocale["Blackrock Mountain"], 25 };
 		LevelRange = "56-61";
+		MinLevel = "45";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Seal of Ascension"], ITEM, 12344 };
@@ -612,6 +631,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["BWL"];
 		Location = { AtlasLocale["Blackrock Spire"], 1583 };
 		LevelRange = "60-70";
+		MinLevel = "60";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
@@ -634,6 +654,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Gnome"];
 		Location = { AtlasLocale["Dun Morogh"], 1 };
 		LevelRange = "24-32";
+		MinLevel = "15";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Workshop Key"].." ("..AtlasLocale["Back"]..")", ITEM, 6893 };
@@ -662,6 +683,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["MC"];
 		Location = { AtlasLocale["Blackrock Depths"], 1584 };
 		LevelRange = "60-70";
+		MinLevel = "50";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
@@ -685,6 +707,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Lib"];
 		Location = { AtlasLocale["Scarlet Monastery, Tirisfal Glades"], 85 };
 		LevelRange = "31-37";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -696,6 +719,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Armory"];
 		Location = { AtlasLocale["Scarlet Monastery, Tirisfal Glades"], 85 };
 		LevelRange = "33-40";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"], ITEM, 7146 };
@@ -707,6 +731,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Cath"];
 		Location = { AtlasLocale["Scarlet Monastery, Tirisfal Glades"], 85 };
 		LevelRange = "36-42";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"], ITEM, 7146 };
@@ -720,6 +745,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["GY"];
 		Location = { AtlasLocale["Scarlet Monastery, Tirisfal Glades"], 85 };
 		LevelRange = "28-35";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -737,6 +763,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Scholo"];
 		Location = { AtlasLocale["Western Plaguelands"], 28 };
 		LevelRange = "58-60";
+		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
@@ -777,6 +804,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["SFK"];
 		Location = { AtlasLocale["Silverpine Forest"], 130 };
 		LevelRange = "17-25";
+		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -804,6 +832,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Strat"];
 		Location = { AtlasLocale["Eastern Plaguelands"], 139 };
 		LevelRange = "58-60";
+		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
@@ -855,6 +884,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["VC"];
 		Location = { AtlasLocale["Westfall"], 40 };
 		LevelRange = "16-22";
+		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -875,6 +905,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Stocks"];
 		Location = { AtlasLocale["Stormwind City"], 1519 };
 		LevelRange = "21-27";
+		MinLevel = "15";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -890,6 +921,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["ST"];
 		Location = { AtlasLocale["Swamp of Sorrows"], 8 };
 		LevelRange = "46-53";
+		MinLevel = "35";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["The Temple of Atal'Hakkar"] };
@@ -923,6 +955,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Uld"];
 		Location = { AtlasLocale["Badlands"], 3 };
 		LevelRange = "36-42";
+		MinLevel = "30";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Staff of Prehistoria"].." ("..AtlasLocale["Ironaya"]..")", ITEM, 7733 };
@@ -948,79 +981,82 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Ancient Treasure"].." ("..AtlasLocale["Lower"]..")", OBJECT, 141979 };
 	};
 	ZulGurub = {
-		ZoneName = { "Zul'Gurub", 19 };
-		Acronym = "ZG";
-		Location = { "Stranglethorn Vale", 33 };
+		ZoneName = { AtlasLocale["Zul'Gurub"], 19 };
+		Acronym = AtlasLocale["ZG"];
+		Location = { AtlasLocale["Stranglethorn Vale"], 33 };
 		LevelRange = "56-70";
+		MinLevel = "50";
 		PlayerLimit = "20";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Zandalar Tribe", FACTION, 270 };
-		{ ORNG.."Key: Mudskunk Lure (Gahz'ranka)", ITEM, 19974 };
-		{ ORNG.."Key: Gurubashi Mojo Madness (EoM)", ITEM, 19931 };
-		{ BLUE.."A) Entrance" };
-		{ GREY.."1) High Priestess Jeklik (Bat)", NPC, 14517 };
-		{ GREY.."2) High Priest Venoxis (Snake)", NPC, 14507 };
-		{ GREY.."3) Zanza the Restless", NPC, 15042 };
-		{ GREY.."4) High Priestess Mar'li (Spider)", NPC, 14510 };
-		{ GREY.."5) Bloodlord Mandokir (Raptor, Optional)", NPC, 11382 };
-		{ GREY..INDENT.."Ohgan", NPC, 14988 };
-		{ GREY.."6) Edge of Madness (Optional)" };
-		{ GREY..INDENT.."Gri'lek (Random)", NPC, 15082 };
-		{ GREY..INDENT.."Hazza'rah (Random)", NPC, 15083 };
-		{ GREY..INDENT.."Renataki (Random)", NPC, 15084 };
-		{ GREY..INDENT.."Wushoolay (Random)", NPC, 15085 };
-		{ GREY.."7) Gahz'ranka (Optional, Summon)", NPC, 15114 };
-		{ GREY.."8) High Priest Thekal (Tiger)", NPC, 14509 };
-		{ GREY..INDENT.."Zealot Zath", NPC, 11348 };
-		{ GREY..INDENT.."Zealot Lor'Khan", NPC, 11347 };
-		{ GREY.."9) High Priestess Arlokk (Panther)", NPC, 14515 };
-		{ GREY.."10) Jin'do the Hexxer (Undead, Optional)", NPC, 11380 };
-		{ GREY.."11) Hakkar", NPC, 14834 };
-		{ GREN.."1') Muddy Churning Waters" };
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Zandalar Tribe"], FACTION, 270 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Mudskunk Lure"].." ("..AtlasLocale["Gahz'ranka"]..")", ITEM, 19974 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Gurubashi Mojo Madness"].." ("..AtlasLocale["Edge of Madness"]..")", ITEM, 19931 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["High Priestess Jeklik"].." ("..AtlasLocale["Bat"]..")", NPC, 14517 };
+		{ GREY.."2) "..AtlasLocale["High Priest Venoxis"].." ("..AtlasLocale["Snake"]..")", NPC, 14507 };
+		{ GREY.."3) "..AtlasLocale["Zanza the Restless"], NPC, 15042 };
+		{ GREY.."4) "..AtlasLocale["High Priestess Mar'li"].." ("..AtlasLocale["Spider"]..")", NPC, 14510 };
+		{ GREY.."5) "..AtlasLocale["Bloodlord Mandokir"].." ("..AtlasLocale["Raptor"]..", "..AtlasLocale["Optional"]..")", NPC, 11382 };
+		{ GREY..INDENT..AtlasLocale["Ohgan"], NPC, 14988 };
+		{ GREY.."6) "..AtlasLocale["Edge of Madness"].." ("..AtlasLocale["Optional"]..")" };
+		{ GREY..INDENT..AtlasLocale["Gri'lek"].." ("..AtlasLocale["Random"]..")", NPC, 15082 };
+		{ GREY..INDENT..AtlasLocale["Hazza'rah"].." ("..AtlasLocale["Random"]..")", NPC, 15083 };
+		{ GREY..INDENT..AtlasLocale["Renataki"].." ("..AtlasLocale["Random"]..")", NPC, 15084 };
+		{ GREY..INDENT..AtlasLocale["Wushoolay"].." ("..AtlasLocale["Random"]..")", NPC, 15085 };
+		{ GREY.."7) "..AtlasLocale["Gahz'ranka"].." ("..AtlasLocale["Optional"]..", "..AtlasLocale["Summon"]..")", NPC, 15114 };
+		{ GREY.."8) "..AtlasLocale["High Priest Thekal"].." ("..AtlasLocale["Tiger"]..")", NPC, 14509 };
+		{ GREY..INDENT..AtlasLocale["Zealot Zath"], NPC, 11348 };
+		{ GREY..INDENT..AtlasLocale["Zealot Lor'Khan"], NPC, 11347 };
+		{ GREY.."9) "..AtlasLocale["High Priestess Arlokk"].." ("..AtlasLocale["Panther"]..")", NPC, 14515 };
+		{ GREY.."10) "..AtlasLocale["Jin'do the Hexxer"].." ("..AtlasLocale["Undead"]..", "..AtlasLocale["Optional"]..")", NPC, 11380 };
+		{ GREY.."11) "..AtlasLocale["Hakkar"], NPC, 14834 };
+		{ GREN.."1') "..AtlasLocale["Muddy Churning Waters"] };
 	};
 	Naxxramas = {
-		ZoneName = { "Naxxramas", 3456 };
-		Acronym = "Nax";
-		Location = { "Eastern Plaguelands", 139 };
+		ZoneName = { AtlasLocale["Naxxramas"], 3456 };
+		Acronym = AtlasLocale["Nax"];
+		Location = { AtlasLocale["Eastern Plaguelands"], 139 };
 		LevelRange = "60-70";
+		MinLevel = "51";
 		PlayerLimit = "40";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Attunement Required" };
-		{ ORNG.."Rep: Argent Dawn", FACTION, 529 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE..INDENT.."Archmage Tarsis Kir-Moldir", NPC, 16381 };
-		{ BLUE..INDENT.."Mr. Bigglesworth (Wanders)", NPC, 16998 };
-		{ GREY.."Abomination Wing" };
-		{ GREY..INDENT.."1) Patchwerk", NPC, 16028 };
-		{ GREY..INDENT.."2) Grobbulus", NPC, 15931 };
-		{ GREY..INDENT.."3) Gluth", NPC, 15932 };
-		{ GREY..INDENT.."4) Thaddius", NPC, 15928 };
-		{ ORNG.."Spider Wing" };
-		{ ORNG..INDENT.."1) Anub'Rekhan", NPC, 15956 };
-		{ ORNG..INDENT.."2) Grand Widow Faerlina", NPC, 15953 };
-		{ ORNG..INDENT.."3) Maexxna", NPC, 15952 };
-		{ _RED.."Deathknight Wing" };
-		{ _RED..INDENT.."1) Instructor Razuvious", NPC, 16061 };
-		{ _RED..INDENT.."2) Gothik the Harvester", NPC, 16060 };
-		{ _RED..INDENT.."3) The Four Horsemen" };
-		{ _RED..INDENT..INDENT.."Thane Korth'azz", NPC, 16064 };
-		{ _RED..INDENT..INDENT.."Lady Blaumeux", NPC, 16065 };
-		{ _RED..INDENT..INDENT.."Highlord Mograine <The Ashbringer>", NPC, 16062 };
-		{ _RED..INDENT..INDENT.."Sir Zeliek", NPC, 16063 };
-		{ _RED..INDENT..INDENT.."Four Horsemen Chest", OBJECT, 181366 };
-		{ PURP.."Plague Wing" };
-		{ PURP..INDENT.."1) Noth the Plaguebringer", NPC, 15954 };
-		{ PURP..INDENT.."2) Heigan the Unclean", NPC, 15936 };
-		{ PURP..INDENT.."3) Loatheb", NPC, 16011 };
-		{ GREN.."Frostwyrm Lair" };
-		{ GREN..INDENT.."1) Sapphiron", NPC, 15989 };
-		{ GREN..INDENT.."2) Kel'Thuzad", NPC, 15990 };
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ ORNG..AtlasLocale["Attunement Required"] };
+		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE..INDENT..AtlasLocale["Archmage Tarsis Kir-Moldir"], NPC, 16381 };
+		{ BLUE..INDENT..AtlasLocale["Mr. Bigglesworth"].." ("..AtlasLocale["Wanders"]..")", NPC, 16998 };
+		{ GREY..AtlasLocale["Abomination Wing"] };
+		{ GREY..INDENT.."1) "..AtlasLocale["Patchwerk"], NPC, 16028 };
+		{ GREY..INDENT.."2) "..AtlasLocale["Grobbulus"], NPC, 15931 };
+		{ GREY..INDENT.."3) "..AtlasLocale["Gluth"], NPC, 15932 };
+		{ GREY..INDENT.."4) "..AtlasLocale["Thaddius"], NPC, 15928 };
+		{ ORNG..AtlasLocale["Spider Wing"] };
+		{ ORNG..INDENT.."1) "..AtlasLocale["Anub'Rekhan"], NPC, 15956 };
+		{ ORNG..INDENT.."2) "..AtlasLocale["Grand Widow Faerlina"], NPC, 15953 };
+		{ ORNG..INDENT.."3) "..AtlasLocale["Maexxna"], NPC, 15952 };
+		{ _RED..AtlasLocale["Deathknight Wing"] };
+		{ _RED..INDENT.."1) "..AtlasLocale["Instructor Razuvious"], NPC, 16061 };
+		{ _RED..INDENT.."2) "..AtlasLocale["Gothik the Harvester"], NPC, 16060 };
+		{ _RED..INDENT.."3) "..AtlasLocale["The Four Horsemen"] };
+		{ _RED..INDENT..INDENT..AtlasLocale["Thane Korth'azz"], NPC, 16064 };
+		{ _RED..INDENT..INDENT..AtlasLocale["Lady Blaumeux"], NPC, 16065 };
+		{ _RED..INDENT..INDENT..AtlasLocale["Highlord Mograine <The Ashbringer>"], NPC, 16062 };
+		{ _RED..INDENT..INDENT..AtlasLocale["Sir Zeliek"], NPC, 16063 };
+		{ _RED..INDENT..INDENT..AtlasLocale["Four Horsemen Chest"], OBJECT, 181366 };
+		{ PURP..AtlasLocale["Plague Wing"] };
+		{ PURP..INDENT.."1) "..AtlasLocale["Noth the Plaguebringer"], NPC, 15954 };
+		{ PURP..INDENT.."2) "..AtlasLocale["Heigan the Unclean"], NPC, 15936 };
+		{ PURP..INDENT.."3) "..AtlasLocale["Loatheb"], NPC, 16011 };
+		{ GREN..AtlasLocale["Frostwyrm Lair"] };
+		{ GREN..INDENT.."1) "..AtlasLocale["Sapphiron"], NPC, 15989 };
+		{ GREN..INDENT.."2) "..AtlasLocale["Kel'Thuzad"], NPC, 15990 };
 	};
 	KarazhanStart = {
 		ZoneName = { "Karazhan [A] (Start)", 2562 };
 		Acronym = "Kara";
 		Location = { "Deadwind Pass", 41 };
 		LevelRange = "70";
+		MinLevel = "68";
 		PlayerLimit = "10";
 		Continent = "Eastern Kingdoms";
 		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
@@ -1079,6 +1115,7 @@ AtlasMaps = {
 		Acronym = "Kara";
 		Location = { "Deadwind Pass", 41 };
 		LevelRange = "70";
+		MinLevel = "68";
 		PlayerLimit = "10";
 		Continent = "Eastern Kingdoms";
 		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
@@ -1109,6 +1146,7 @@ AtlasMaps = {
 		Acronym = "ZA";
 		Location = { "Ghostlands", 3433 };
 		LevelRange = "70";
+		MinLevel = "68";
 		PlayerLimit = "10";
 		Continent = "Eastern Kingdoms";
 		{ BLUE.."A) Entrance" };
@@ -1149,6 +1187,7 @@ AtlasMaps = {
 		Acronym = "MT";
 		Location = { "Isle of Quel'Danas", 4080 };
 		LevelRange = "70";
+		MinLevel = "69";
 		PlayerLimit = "5";
 		Continent = "Eastern Kingdoms";
 		{ ORNG.."Rep: Shattered Sun Offensive", FACTION, 1077 };
@@ -1167,6 +1206,7 @@ AtlasMaps = {
 		Acronym = "SP";
 		Location = { "Isle of Quel'Danas", 4080 };
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Eastern Kingdoms";
 		{ BLUE.."A) Entrance" };
@@ -1192,6 +1232,7 @@ AtlasMaps = {
 		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
 		Acronym = "BF";
 		LevelRange = "60-68";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
@@ -1207,6 +1248,7 @@ AtlasMaps = {
 		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
 		Acronym = "SH";
 		LevelRange = "69-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
@@ -1233,6 +1275,7 @@ AtlasMaps = {
 		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
 		Acronym = "Ramp";
 		LevelRange = "59-67";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
@@ -1250,6 +1293,7 @@ AtlasMaps = {
 		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
 		Acronym = "Mag";
 		LevelRange = "70";
+		MinLevel = "65";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
@@ -1262,6 +1306,7 @@ AtlasMaps = {
 		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
 		Acronym = "SP";
 		LevelRange = "61-69";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
@@ -1279,6 +1324,7 @@ AtlasMaps = {
 		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
 		Acronym = "Underbog";
 		LevelRange = "62-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
@@ -1297,6 +1343,7 @@ AtlasMaps = {
 		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
 		Acronym = "SV";
 		LevelRange = "69-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
@@ -1315,6 +1362,7 @@ AtlasMaps = {
 		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
 		Acronym = "SC";
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
@@ -1332,6 +1380,7 @@ AtlasMaps = {
 		Location = { "Auchindoun, Terokkar Forest", 3519 };
 		Acronym = "MT";
 		LevelRange = "63-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: The Consortium", FACTION, 933 };
@@ -1352,6 +1401,7 @@ AtlasMaps = {
 		Location = { "Auchindoun, Terokkar Forest", 3519 };
 		Acronym = "AC";
 		LevelRange = "64-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Lower City", FACTION, 1011 };
@@ -1367,6 +1417,7 @@ AtlasMaps = {
 		Location = { "Auchindoun, Terokkar Forest", 3519 };
 		Acronym = "Sethekk";
 		LevelRange = "66-70";
+		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Lower City", FACTION, 1011 };
@@ -1384,6 +1435,7 @@ AtlasMaps = {
 		Location = { "Auchindoun, Terokkar Forest", 3519 };
 		Acronym = "SL";
 		LevelRange = "69-70";
+		MinLevel = "65";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: Lower City", FACTION, 1011 };
@@ -1404,6 +1456,7 @@ AtlasMaps = {
 		Location = { "Tempest Keep, Netherstorm", 3523 };
 		Acronym = "Bota";
 		LevelRange = "69-70";
+		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
@@ -1420,6 +1473,7 @@ AtlasMaps = {
 		Location = { "Tempest Keep, Netherstorm", 3523 };
 		Acronym = "Arca";
 		LevelRange = "69-70";
+		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
@@ -1441,6 +1495,7 @@ AtlasMaps = {
 		Location = { "Tempest Keep, Netherstorm", 3523 };
 		Acronym = "Mech";
 		LevelRange = "68-70";
+		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = "Outland";
 		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
@@ -1459,6 +1514,7 @@ AtlasMaps = {
 		Location = { "Tempest Keep, Netherstorm", 3523 };
 		Acronym = "Eye";
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
@@ -1478,6 +1534,7 @@ AtlasMaps = {
 		Location = { "Blade's Edge Mountains", 3522 };
 		Acronym = "GL";
 		LevelRange = "70";
+		MinLevel = "65";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ BLUE.."A) Entrance" };
@@ -1493,6 +1550,7 @@ AtlasMaps = {
 		Location = { "Shadowmoon Valley", 3520 };
 		Acronym = "BT";
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
@@ -1515,6 +1573,7 @@ AtlasMaps = {
 		Location = { "Shadowmoon Valley", 3520 };
 		Acronym = "BT";
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
@@ -1533,6 +1592,7 @@ AtlasMaps = {
 		Location = { "Shadowmoon Valley", 3520 };
 		Acronym = "BT";
 		LevelRange = "70";
+		MinLevel = "?";
 		PlayerLimit = "25";
 		Continent = "Outland";
 		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
@@ -1546,5 +1606,4 @@ AtlasMaps = {
 		{ GREY..INDENT.."Veras Darkshadow (Rogue)", NPC, 22952 };
 		{ GREY.."11) Illidan Stormrage <The Betrayer>", NPC, 22917 };
 	};
-	--]]
 };

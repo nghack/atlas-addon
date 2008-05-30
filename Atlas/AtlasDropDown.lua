@@ -55,8 +55,8 @@ Atlas_DropDownLayouts_Order = {
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN] = {
-			"ZulGurub",
-			"Naxxramas",
+			"KarazhanStart",
+			"KarazhanEnd",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"RagefireChasm",

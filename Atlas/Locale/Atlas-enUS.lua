@@ -156,6 +156,19 @@ AtlasLocale = {
 	["Panther"] = "Panther";
 	["Undead"] = "Undead";
 	["Argent Dawn"] = "Argent Dawn";
+	["Shadow Priest"] = "Shadow Priest";
+	["Holy Priest"] = "Holy Priest";
+	["Holy Paladin"] = "Holy Paladin";
+	["Retribution Paladin"] = "Retribution Paladin";
+	["Arms Warrior"] = "Arms Warrior";
+	["Protection Warrior"] = "Protection Warrior";
+	["Start"] = "Start";
+	["End"] = "End";
+	["[A]"] = "[A]";
+	["[B]"] = "[B]";
+	["Imp"] = "Imp";
+	["Repair"] = "Repair";
+	["Rewards"] = "Rewards";
 	
 	--Continents
 	["Kalimdor"] = "Kalimdor";
@@ -196,6 +209,7 @@ AtlasLocale = {
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
+	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -218,6 +232,7 @@ AtlasLocale = {
 	["Swamp of Sorrows"] = "Swamp of Sorrows";
 	["Badlands"] = "Badlands";
 	["Stranglethorn Vale"] = "Stranglethorn Vale";
+	["Deadwind Pass"] = "Deadwind Pass";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -891,95 +906,80 @@ AtlasLocale = {
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 	
+	--Karazhan Start
+	["The Violet Eye"] = "The Violet Eye";--omitted from Karazhan End
+	["The Master's Key"] = "The Master's Key";--omitted from Karazhan End
+	["Blackened Urn"] = "Blackened Urn";
+	["Staircase to the Ballroom"] = "Staircase to the Ballroom";
+	["Stairs to Upper Stable"] = "Stairs to Upper Stable";
+	["Ramp to the Guest Chambers"] = "Ramp to the Guest Chambers";
+	["Stairs to Opera House Orchestra Level"] = "Stairs to Opera House Orchestra Level";
+	["Ramp from Mezzanine to Balcony"] = "Ramp from Mezzanine to Balcony";
+	["Connection to Master's Terrace"] = "Connection to Master's Terrace";
+	["Path to the Broken Stairs"] = "Path to the Broken Stairs";
+	["Hastings <The Caretaker>"] = "Hastings <The Caretaker>";
+	["Servant Quarters"] = "Servant Quarters";
+	["Hyakiss the Lurker"] = "Hyakiss the Lurker";
+	["Rokad the Ravager"] = "Rokad the Ravager";
+	["Shadikith the Glider"] = "Shadikith the Glider";
+	["Berthold <The Doorman>"] = "Berthold <The Doorman>";
+	["Calliard <The Nightman>"] = "Calliard <The Nightman>";
+	["Attumen the Huntsman"] = "Attumen the Huntsman";
+	["Midnight"] = "Midnight";
+	["Koren <The Blacksmith>"] = "Koren <The Blacksmith>";
+	["Moroes <Tower Steward>"] = "Moroes <Tower Steward>";
+	["Baroness Dorothea Millstipe"] = "Baroness Dorothea Millstipe";
+	["Lady Catriona Von'Indi"] = "Lady Catriona Von'Indi";
+	["Lady Keira Berrybuck"] = "Lady Keira Berrybuck";
+	["Baron Rafe Dreuger"] = "Baron Rafe Dreuger";
+	["Lord Robin Daris"] = "Lord Robin Daris";
+	["Lord Crispin Ference"] = "Lord Crispin Ference";
+	["Bennett <The Sergeant at Arms>"] = "Bennett <The Sergeant at Arms>";
+	["Ebonlocke <The Noble>"] = "Ebonlocke <The Noble>";
+	["Keanna's Log"] = "Keanna's Log";
+	["Maiden of Virtue"] = "Maiden of Virtue";
+	["Sebastian <The Organist>"] = "Sebastian <The Organist>";
+	["Barnes <The Stage Manager>"] = "Barnes <The Stage Manager>";
+	["The Opera Event"] = "The Opera Event";
+	["Red Riding Hood"] = "Red Riding Hood";
+	["The Big Bad Wolf"] = "The Big Bad Wolf";
+	["Wizard of Oz"] = "Wizard of Oz";
+	["Dorothee"] = "Dorothee";
+	["Tito"] = "Tito";
+	["Strawman"] = "Strawman";
+	["Tinhead"] = "Tinhead";
+	["Roar"] = "Roar";
+	["The Crone"] = "The Crone";
+	["Romulo and Julianne"] = "Romulo and Julianne";
+	["Romulo"] = "Romulo";
+	["Julianne"] = "Julianne";
+	["The Master's Terrace"] = "The Master's Terrace";
+	["Nightbane"] = "Nightbane";
+	
+	--Karazhan End
+	["Path to the Broken Stairs"] = "Path to the Broken Stairs";
+	["Broken Stairs"] = "Broken Stairs";
+	["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
+	["Suspicious Bookshelf"] = "Suspicious Bookshelf";
+	["Ramp up to the Celestial Watch"] = "Ramp up to the Celestial Watch";
+	["Ramp down to the Gamesman's Hall"] = "Ramp down to the Gamesman's Hall";
+	["Chess Event"] = "Chess Event";
+	["Ramp to Medivh's Chamber"] = "Ramp to Medivh's Chamber";
+	["Spiral Stairs to Netherspace"] = "Spiral Stairs to Netherspace";
+	["The Curator"] = "The Curator";
+	["Wravien <The Mage>"] = "Wravien <The Mage>";
+	["Gradav <The Warlock>"] = "Gradav <The Warlock>";
+	["Kamsis <The Conjurer>"] = "Kamsis <The Conjurer>";
+	["Terestian Illhoof"] = "Terestian Illhoof";
+	["Kil'rek"] = "Kil'rek";
+	["Shade of Aran"] = "Shade of Aran";
+	["Netherspite"] = "Netherspite";
+	["Ythyar"] = "Ythyar";
+	["Echo of Medivh"] = "Echo of Medivh";
+	["Dust Covered Chest"] = "Dust Covered Chest";
+	["Prince Malchezaar"] = "Prince Malchezaar";
+	
 	--[[
-	KarazhanStart = {
-		ZoneName = { "Karazhan [A] (Start)", 2562 };
-		Acronym = "Kara";
-		Location = { "Deadwind Pass", 41 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
-		{ ORNG.."Key: The Master's Key", ITEM, 24490 };
-		{ ORNG.."Key: Blackened Urn (Nightbane)", ITEM, 24140 };
-		{ BLUE.."A) Front Entrance" };
-		{ BLUE.."B) Staircase to the Ballroom (Moroes)" };
-		{ BLUE.."C) Stairs to Upper Stable" };
-		{ BLUE.."D) Ramp to the Guest Chambers (Maiden)" };
-		{ BLUE.."E) Stairs to Opera House Orchestra Level" };
-		{ BLUE.."F) Ramp from Mezzanine to Balcony" };
-		{ BLUE.."G) Back Entrance" };
-		{ BLUE.."H) Connection to Master's Terrace (Nightbane)" };
-		{ BLUE.."I) Path to the Broken Stairs" };
-		["1) Hastings <The Caretaker>"] = "";16169 };
-		["2) Servant Quarters" };
-		["Hyakiss the Lurker (Rare, Random)"] = "";16179 };
-		["Rokad the Ravager (Rare, Random)"] = "";16181 };
-		["Shadikith the Glider (Rare, Random)"] = "";16180 };
-		["3) Berthold <The Doorman>"] = "";16153 };
-		["4) Calliard <The Nightman>"] = "";16159 };
-		["5) Attumen the Huntsman"] = "";15550 };
-		["Midnight"] = "";16151 };
-		["6) Koren <The Blacksmith>"] = "";16388 };
-		["7) Moroes <Tower Steward>"] = "";15687 };
-		["Baroness Dorothea Millstipe (Random, Shadow Priest)"] = "";19875 };
-		["Lady Catriona Von'Indi (Random, Holy Priest)"] = "";19872 };
-		["Lady Keira Berrybuck (Random, Holy Paladin)"] = "";17007 };
-		["Baron Rafe Dreuger (Random, Retribution Paladin)"] = "";19874 };
-		["Lord Robin Daris (Random, Arms Warrior)"] = "";19876 };
-		["Lord Crispin Ference (Random, Protection Warrior)"] = "";19873 };
-		["8) Bennett <The Sergeant at Arms>"] = "";16426 };
-		["9) Ebonlocke <The Noble>"] = "";16806 };
-		["10) Keanna's Log", OBJECT, 182199 };
-		["11) Maiden of Virtue"] = "";16457 };
-		["12) Sebastian <The Organist>"] = "";16811 };
-		["13) Barnes <The Stage Manager>"] = "";16812 };
-		["14) The Opera Event" };
-		["Red Riding Hood (Random)" };
-		[INDENT.."The Big Bad Wolf"] = "";17521 };
-		["Wizard of Oz (Random)" };
-		[INDENT.."Dorothee"] = "";17535 };
-		[INDENT.."Tito"] = "";17548 };
-		[INDENT.."Strawman"] = "";17543 };
-		[INDENT.."Tinhead"] = "";17547 };
-		[INDENT.."Roar"] = "";17546 };
-		[INDENT.."The Crone"] = "";18168 };
-		["Romulo and Julianne (Random)" };
-		[INDENT.."Romulo"] = "";17533 };
-		[INDENT.."Julianne"] = "";17534 };
-		["15) The Master's Terrace" };
-		["Nightbane (Summon)"] = "";17225 };
-	};
-	KarazhanEnd = {
-		ZoneName = { "Karazhan [B] (End)", 2562 };
-		Acronym = "Kara";
-		Location = { "Deadwind Pass", 41 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
-		{ ORNG.."Key: The Master's Key", ITEM, 24490 };
-		{ BLUE.."I) Path to the Broken Stairs" };
-		{ BLUE.."J) Broken Stairs" };
-		{ BLUE.."K) Ramp to Guardian's Library (Shade of Aran)" };
-		{ BLUE.."L) Suspicious Bookshelf (Passage to Illhoof)" };
-		{ BLUE.."M) Ramp up to the Celestial Watch (Netherspite)" };
-		{ BLUE..INDENT.."Ramp down to the Gamesman's Hall (Chess Event)" };
-		{ BLUE.."N) Ramp to Medivh's Chamber" };
-		{ BLUE.."O) Spiral Stairs to Netherspace (Prince)" };
-		["16) The Curator"] = "";15691 };
-		["17) Wravien <The Mage>"] = "";16813 };
-		["18) Gradav <The Warlock>"] = "";16814 };
-		["19) Kamsis <The Conjurer>"] = "";16815 };
-		["20) Terestian Illhoof"] = "";15688 };
-		["Kil'rek (Imp)"] = "";17229 };
-		["21) Shade of Aran"] = "";16524 };
-		["22) Netherspite"] = "";15689 };
-		["23) Ythyar (Repair and Rewards)"] = "";17518 };
-		["24) Echo of Medivh"] = "";16816 };
-		["25) Dust Covered Chest (Chess Event)", OBJECT, 185119 };
-		["26) Prince Malchezaar"] = "";15690 };
-	};
 	ZulAman = {
 		ZoneName = { "Zul'Aman", 3805 };
 		Acronym = "ZA";

@@ -164,8 +164,6 @@ AtlasLocale = {
 	["Protection Warrior"] = "Protection Warrior";
 	["Start"] = "Start";
 	["End"] = "End";
-	["[A]"] = "[A]";
-	["[B]"] = "[B]";
 	["Imp"] = "Imp";
 	["Repair"] = "Repair";
 	["Rewards"] = "Rewards";
@@ -210,6 +208,9 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
+	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
+	["Magisters' Terrace"] = "Magisters' Terrace"; ["MT"] = "MT";
+	["Sunwell Plateau"] = "Sunwell Plateau"; ["SP"] = "SP";
 	
 	--Outdoor zones, Locations
 	["Orgrimmar"] = "Orgrimmar";
@@ -233,6 +234,8 @@ AtlasLocale = {
 	["Badlands"] = "Badlands";
 	["Stranglethorn Vale"] = "Stranglethorn Vale";
 	["Deadwind Pass"] = "Deadwind Pass";
+	["Ghostlands"] = "Ghostlands";
+	["Isle of Quel'Danas"] = "Isle of Quel'Danas";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -979,85 +982,64 @@ AtlasLocale = {
 	["Dust Covered Chest"] = "Dust Covered Chest";
 	["Prince Malchezaar"] = "Prince Malchezaar";
 	
-	--[[
-	ZulAman = {
-		ZoneName = { "Zul'Aman", 3805 };
-		Acronym = "ZA";
-		Location = { "Ghostlands", 3433 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		{ BLUE..INDENT.."Harrison Jones"] = "";24358 };
-		["1) Nalorakk <Bear Avatar>"] = "";23576 };
-		["Tanzar"] = "";23790 };
-		["The Map of Zul'Aman", OBJECT, 186733 };
-		["2) Akil'Zon <Eagle Avatar>"] = "";23574 };
-		["Harkor"] = "";23999 };
-		["3) Jan'Alai <Dragonhawk Avatar>"] = "";23578 };
-		["Kraz"] = "";24024 };
-		["4) Halazzi <Lynx Avatar>"] = "";23577 };
-		["Ashli"] = "";24001 };
-		["5) Zungam"] = "";23897 };
-		["6) Hex Lord Malacrass"] = "";24239 };
-		["Thurg (Random)"] = "";24241 };
-		["Gazakroth (Random)"] = "";24244 };
-		["Lord Raadan (Random)"] = "";24243 };
-		["Darkheart (Random)"] = "";24246 };
-		["Alyson Antille (Random)"] = "";24240 };
-		["Slither (Random)"] = "";24242 };
-		["Fenstalker (Random)"] = "";24245 };
-		["Koragg (Random)"] = "";24247 };
-		["7) Zul'jin"] = "";23863 };
-		{ GREN.."1') Forest Frogs"] = "";24396 };
-		{ GREN..INDENT.."Kyren <Reagents>"] = "";24409 };
-		{ GREN..INDENT.."Gunter <Food Vendor>"] = "";24408 };
-		{ GREN..INDENT.."Adarrah"] = "";24405 };
-		{ GREN..INDENT.."Brennan"] = "";24453 };
-		{ GREN..INDENT.."Darwen"] = "";24407 };
-		{ GREN..INDENT.."Deez"] = "";24403 };
-		{ GREN..INDENT.."Galathryn"] = "";24404 };
-		{ GREN..INDENT.."Mitzi"] = "";24445 };
-		{ GREN..INDENT.."Mannuth"] = "";24397 };
-	};
-	MagistersTerrace = {
-		ZoneName = { "Magisters' Terrace", 4095 };
-		Acronym = "MT";
-		Location = { "Isle of Quel'Danas", 4080 };
-		LevelRange = "70";
-		PlayerLimit = "5";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Shattered Sun Offensive", FACTION, 1077 };
-		{ BLUE.."A) Entrance" };
-		["1) Selin Fireheart"] = "";24723 };
-		["Fel Crystals"] = "";24722 };
-		["2) Tyrith"] = "";24822 };
-		["3) Vexallus"] = "";24744 };
-		["4) Scrying Orb" };
-		["Kalecgos"] = "";24850 };
-		["5) Priestess Delrissa (Lower)"] = "";24560 };
-		["6) Kael'thas Sunstrider <Lord of the Blood Elves>"] = "";24664 };
-	};
-	SunwellPlateau = {
-		ZoneName = { "Sunwell Plateau", 4075 };
-		Acronym = "SP";
-		Location = { "Isle of Quel'Danas", 4080 };
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		["1) Kalecgos"] = "";24850 };
-		["Sathrovarr the Corruptor"] = "";24892 };
-		["2) Madrigosa"] = "";24895 };
-		["Brutallus"] = "";24882 };
-		["Felmyst"] = "";25038 };
-		["3) Eredar Twins (Lower)" };
-		["Grand Warlock Alythess (Lower)"] = "";25166 };
-		["Lady Sacrolash (Lower)"] = "";25165 };
-		["M'uru (Upper)"] = "";25741 };
-		["Entropius (Upper)"] = "";25840 };
-		["4) Kil'jaeden" };
-	};
+	--Zul'Aman
+	["Harrison Jones"] = "Harrison Jones";
+	["Nalorakk <Bear Avatar>"] = "Nalorakk <Bear Avatar>";
+	["Tanzar"] = "Tanzar";
+	["The Map of Zul'Aman"] = "The Map of Zul'Aman";
+	["Akil'Zon <Eagle Avatar>"] = "Akil'Zon <Eagle Avatar>";
+	["Harkor"] = "Harkor";
+	["Jan'Alai <Dragonhawk Avatar>"] = "Jan'Alai <Dragonhawk Avatar>";
+	["Kraz"] = "Kraz";
+	["Halazzi <Lynx Avatar>"] = "Halazzi <Lynx Avatar>";
+	["Ashli"] = "Ashli";
+	["Zungam"] = "Zungam";
+	["Hex Lord Malacrass"] = "Hex Lord Malacrass";
+	["Thurg"] = "Thurg";
+	["Gazakroth"] = "Gazakroth";
+	["Lord Raadan"] = "Lord Raadan";
+	["Darkheart"] = "Darkheart";
+	["Alyson Antille"] = "Alyson Antille";
+	["Slither"] = "Slither";
+	["Fenstalker"] = "Fenstalker";
+	["Koragg"] = "Koragg";
+	["Zul'jin"] = "Zul'jin";
+	["Forest Frogs"] = "Forest Frogs";
+	["Kyren <Reagents>"] = "Kyren <Reagents>";
+	["Gunter <Food Vendor>"] = "Gunter <Food Vendor>";
+	["Adarrah"] = "Adarrah";
+	["Brennan"] = "Brennan";
+	["Darwen"] = "Darwen";
+	["Deez"] = "Deez";
+	["Galathryn"] = "Galathryn";
+	["Mitzi"] = "Mitzi";
+	["Mannuth"] = "Mannuth";
+	
+	--Magisters Terrace
+	["Shattered Sun Offensive"] = "Shattered Sun Offensive";
+	["Selin Fireheart"] = "Selin Fireheart";
+	["Fel Crystals"] = "Fel Crystals";
+	["Tyrith"] = "Tyrith";
+	["Vexallus"] = "Vexallus";
+	["Scrying Orb"] = "Scrying Orb";
+	["Kalecgos"] = "Kalecgos";
+	["Priestess Delrissa"] = "Priestess Delrissa";
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Sunstrider <Lord of the Blood Elves>";
+
+	--Sunwell Plateau
+	["Kalecgos"] = "Kalecgos";
+	["Sathrovarr the Corruptor"] = "Sathrovarr the Corruptor";
+	["Madrigosa"] = "Madrigosa";
+	["Brutallus"] = "Brutallus";
+	["Felmyst"] = "Felmyst";
+	["Eredar Twins"] = "Eredar Twins";
+	["Grand Warlock Alythess"] = "Grand Warlock Alythess";
+	["Lady Sacrolash"] = "Lady Sacrolash";
+	["M'uru"] = "M'uru";
+	["Entropius"] = "Entropius";
+	["Kil'jaeden"] = "Kil'jaeden";
+	
+--[[
 	
 --*******************
 -- Outland Instances

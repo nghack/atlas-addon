@@ -49,63 +49,6 @@ Atlas_DropDownLayouts_Order = {
 	};
 };
 
---*******************************************************************************
--- TEMPORARY!!! Only for testing while converting to the new localization format!
---*******************************************************************************
-Atlas_DropDownLayouts = {
-	[ATLAS_DDL_CONTINENT] = {
-		[ATLAS_DDL_CONTINENT_EASTERN] = {
-			"ZulAman",
-			"MagistersTerrace",
-			"SunwellPlateau",
-		},
-		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_CONTINENT_OUTLAND] = {
-			"RagefireChasm",
-		},
-	},
-	[ATLAS_DDL_LEVEL] = {
-		[ATLAS_DDL_LEVEL_UNDER45] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_LEVEL_45TO60] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_LEVEL_60TO70] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_LEVEL_70PLUS] = {
-			"RagefireChasm",
-		},
-	},
-	[ATLAS_DDL_PARTYSIZE] = {
-		[ATLAS_DDL_PARTYSIZE_5] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_PARTYSIZE_10] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_PARTYSIZE_20TO40] = {
-			"RagefireChasm",
-		},
-	},
-	[ATLAS_DDL_EXPANSION] = {
-		[ATLAS_DDL_EXPANSION_OLD] = {
-			"RagefireChasm",
-		},
-		[ATLAS_DDL_EXPANSION_BC] = {
-			"RagefireChasm",
-		},
-	},
-};
-
---*******************************************************************************
--- The REAL one.
---*******************************************************************************
-
---[[
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN] = {
@@ -380,4 +323,3 @@ Atlas_DropDownLayouts = {
 		},
 	},
 };
---]]

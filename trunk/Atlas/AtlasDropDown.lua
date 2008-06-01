@@ -27,6 +27,7 @@ Atlas_DropDownLayouts_Order = {
 	[2] = ATLAS_DDL_LEVEL;
 	[3] = ATLAS_DDL_PARTYSIZE;
 	[4] = ATLAS_DDL_EXPANSION;
+	[5] = ATLAS_DDL_TYPE;
 	[ATLAS_DDL_CONTINENT] = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN;
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
@@ -47,6 +48,11 @@ Atlas_DropDownLayouts_Order = {
 		[1] = ATLAS_DDL_EXPANSION_OLD_AO;
 		[2] = ATLAS_DDL_EXPANSION_OLD_PZ;
 		[3] = ATLAS_DDL_EXPANSION_BC;
+	};
+	[ATLAS_DDL_TYPE] = {
+		[1] = ATLAS_DDL_TYPE_INSTANCE_AK;
+		[2] = ATLAS_DDL_TYPE_INSTANCE_MZ;
+		[3] = ATLAS_DDL_TYPE_ENTRANCE;
 	};
 };
 
@@ -385,6 +391,88 @@ Atlas_DropDownLayouts = {
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
 			"ZulAman",
+		},
+	},
+	[ATLAS_DDL_TYPE] = {
+		[ATLAS_DDL_TYPE_INSTANCE_AK] = {
+			"AuchAuchenaiCrypts",
+			"AuchManaTombs",
+			"AuchSethekkHalls",
+			"AuchShadowLabyrinth",
+			"BlackfathomDeeps",
+			"BlackrockDepths",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
+			"BlackTempleBasement",
+			"BlackTempleStart",
+			"BlackTempleTop",
+			"BlackwingLair",
+			"CFRSerpentshrineCavern",
+			"CFRTheSlavePens",
+			"CFRTheSteamvault",
+			"CFRTheUnderbog",
+			"CoTBlackMorass",
+			"CoTHyjal",
+			"CoTOldHillsbrad",
+			"DireMaulEast",
+			"DireMaulNorth",
+			"DireMaulWest",
+			"Gnomeregan",
+			"GruulsLair",
+			"HCBloodFurnace",
+			"HCHellfireRamparts",
+			"HCMagtheridonsLair",
+			"HCTheShatteredHalls",
+			"KarazhanEnd",
+			"KarazhanStart",
+			"TheDeadmines",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_MZ] = {
+			"MagistersTerrace",
+			"Maraudon",
+			"MoltenCore",
+			"Naxxramas",
+			"OnyxiasLair",
+			"RagefireChasm",
+			"RazorfenDowns",
+			"RazorfenKraul",
+			"Scholomance",
+			"ShadowfangKeep",
+			"SMArmory",
+			"SMCathedral",
+			"SMGraveyard",
+			"SMLibrary",
+			"Stratholme",
+			"SunwellPlateau",
+			"TempestKeepArcatraz",
+			"TempestKeepBotanica",
+			"TempestKeepMechanar",
+			"TempestKeepTheEye",
+			"TheRuinsofAhnQiraj",
+			"TheStockade",
+			"TheSunkenTemple",
+			"TheTempleofAhnQiraj",
+			"Uldaman",
+			"WailingCaverns",
+			"ZulAman",
+			"ZulFarrak",
+			"ZulGurub",
+		},
+		[ATLAS_DDL_TYPE_ENTRANCE] = {
+			"AuchindounEnt",
+			"BlackfathomDeepsEnt",
+			"BlackrockSpireEnt",
+			"CoilfangReservoirEnt",
+			"CoTEnt",
+			"DireMaulEnt",
+			"GnomereganEnt",
+			"KarazhanEnt",
+			"MaraudonEnt",
+			"SMEnt",
+			"TheDeadminesEnt",
+			"TheSunkenTempleEnt",
+			"UldamanEnt",
+			"WailingCavernsEnt",
 		},
 	},
 };

@@ -94,6 +94,10 @@ ATLAS_DDL_EXPANSION = "Expansion";
 ATLAS_DDL_EXPANSION_OLD_AO = "Old World Instances A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "Old World Instances P-Z";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
+ATLAS_DDL_TYPE = "Type";
+ATLAS_DDL_TYPE_INSTANCE_AK = "Instances A-K";
+ATLAS_DDL_TYPE_INSTANCE_MZ = "Instances M-Z";
+ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
@@ -113,6 +117,7 @@ AtlasLocale = {
 --************************************************
 
 	--Common strings
+	["Adult"] = "Adult";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alliance";
 	["Argent Dawn"] = "Argent Dawn";
@@ -127,9 +132,11 @@ AtlasLocale = {
 	["Brewfest"] = "Brewfest";
 	["Chase Begins"] = "Chase Begins";
 	["Chase Ends"] = "Chase Ends";
+	["Child"] = "Child";
 	["Connection"] = "Connection";
 	["DS2"] = "DS2";
 	["East"] = "East";
+	["Elevator"] = "Elevator";
 	["End"] = "End";
 	["Entrance"] = "Entrance";
 	["Event"] = "Event";
@@ -137,6 +144,7 @@ AtlasLocale = {
 	["Exit"] = "Exit";
 	["Fourth Stop"] = "Fourth Stop";
 	["Front"] = "Front";
+	["Ghost"] = "Ghost";
 	["Hallow's End"] = "Hallow's End";
 	["Heroic"] = "Heroic";
 	["Holy Paladin"] = "Holy Paladin";
@@ -148,12 +156,16 @@ AtlasLocale = {
 	["Lower"] = "Lower";
 	["Lunar"] = "Lunar";
 	["Mage"] = "Mage";
+	["Main"] = "Main";
+	["Meeting Stone"] = "Meeting Stone";
+	["Moonwell"] = "Moonwell";
 	["North"] = "North";
 	["Optional"] = "Optional";
 	["Orange"] = "Orange";
 	["Outside"] = "Outside";
 	["Paladin"] = "Paladin";
 	["Panther"] = "Panther";
+	["Patrols"] = "Patrols";
 	["Portal"] = "Portal";
 	["Priest"] = "Priest";
 	["Protection Warrior"] = "Protection Warrior";
@@ -179,12 +191,15 @@ AtlasLocale = {
 	["Tiger"] = "Tiger";
 	["Top"] = "Top";
 	["Undead"] = "Undead";
+	["Underwater"] = "Underwater";
+	["Unknown"] = "Unknown";
 	["Upper"] = "Upper";
 	["Varies"] = "Varies";
 	["Wanders"] = "Wanders";
 	["Warlock"] = "Warlock";
 	["Warrior"] = "Warrior";
 	["West"] = "West";
+	["Workshop"] = "Workshop";
 	
 	--Instance names and acronyms
 	["Armory"] = "Armory"; ["Armory"] = "Armory";
@@ -256,8 +271,9 @@ AtlasLocale = {
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ashenvale";
 	["Badlands"] = "Badlands";
-	["Blackrock Mountain"] = "Blackrock Mountain";
+	["Blackrock Mountain"] = "Blackrock Mountain"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "Blade's Edge Mountains";
+	["Burning Steppes"] = "Burning Steppes";
 	["Deadwind Pass"] = "Deadwind Pass";
 	["Desolace"] = "Desolace";
 	["Dun Morogh"] = "Dun Morogh";
@@ -269,6 +285,7 @@ AtlasLocale = {
 	["Isle of Quel'Danas"] = "Isle of Quel'Danas";
 	["Netherstorm"] = "Netherstorm";
 	["Orgrimmar"] = "Orgrimmar";
+	["Searing Gorge"] = "Searing Gorge";
 	["Shadowmoon Valley"] = "Shadowmoon Valley";
 	["Silithus"] = "Silithus";
 	["Silverpine Forest"] = "Silverpine Forest";
@@ -1283,257 +1300,114 @@ AtlasLocale = {
 --************************************************
 -- Instance Entrance Maps
 --************************************************
---[[
-	AuchindounEnt = {
-	ZoneName = "Auchindoun";
-	Acronym = "Auch";
-	LevelRange = "63-70";
-	MinLevel = "55";
-	PlayerLimit = "5";
-	Location = "Bone Wastes, Terokkar Forest";
-	BLUE.."A) Auchenai Crypts";
-	BLUE.."B) Mana-Tombs";
-	BLUE.."C) Sethekk Halls";
-	BLUE.."D) Shadow Labyrinth";
-	BLUE.."E) Entrances";
-	GREY.."1) Ha'Lei";
-	GREY..INDENT.."Greatfather Aldrimus";
-	GREY..INDENT.."Clarissa";
-	GREY..INDENT.."Ramdor the Mad";
-	GREY..INDENT.."Horvon the Armorer";
-	GREY.."2) Nexus-Prince Haramad";
-	GREY..INDENT.."Artificer Morphalius";
-	GREY..INDENT.."Mamdy the \"Ologist\"";
-	GREY..INDENT.."\"Slim\"";
-	GREY..INDENT.."\"Captain\" Kaftiz";
-	GREY.."3) Isfar";
-	GREY.."4) Field Commander Mahfuun";
-	GREY..INDENT.."Spy Grik'tha";
-	GREY..INDENT.."Provisioner Tsaalt";
-	GREY..INDENT.."Dealer Tariq";
-	GREY.."5) Meeting Stone";
 
-	BlackfathomDeepsEnt = {
-	ZoneName = "Blackfathom Deeps";
-	Acronym = "BFD";
-	LevelRange = "20-28";
-	MinLevel = "19";
-	PlayerLimit = "10";
-	Location = "Ashenvale";
-	BLUE.."A) Entrance";
-	BLUE.."B) Blackfathom Deeps";
+	--Auchindoun (Entrance)
+	["Ha'Lei"] = "Ha'Lei";
+	["Greatfather Aldrimus"] = "Greatfather Aldrimus";
+	["Clarissa"] = "Clarissa";
+	["Ramdor the Mad"] = "Ramdor the Mad";
+	["Horvon the Armorer <Armorsmith>"] = "Horvon the Armorer <Armorsmith>";
+	["Nexus-Prince Haramad"] = "Nexus-Prince Haramad";
+	["Artificer Morphalius"] = "Artificer Morphalius";
+	["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
+	["\"Slim\" <Shady Dealer>"] = "\"Slim\" <Shady Dealer>";
+	["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz";
+	["Isfar"] = "Isfar";
+	["Field Commander Mahfuun"] = "Field Commander Mahfuun";
+	["Spy Grik'tha"] = "Spy Grik'tha";
+	["Provisioner Tsaalt"] = "Provisioner Tsaalt";
+	["Dealer Tariq <Shady Dealer>"] = "Dealer Tariq <Shady Dealer>";
 
-	BlackrockSpireEnt = {
-	ZoneName = "Blackrock Mountain";
-	Acronym = "BRM";
-	LevelRange = "54-70";
-	MinLevel = "45";
-	PlayerLimit = "5/10/40";
-	Location = "Searing Gorge / Burning Steppes";
-	BLUE.."A) Searing Gorge";
-	BLUE.."B) Burning Steppes";
-	BLUE.."C) Blackrock Depths (BRD)";
-	BLUE..INDENT.."Molten Core (MC)";
-	BLUE.."D) Lower Blackrock Spire (LBRS)";
-	BLUE..INDENT.."Upper Blackrock Spire (UBRS)";
-	BLUE..INDENT.."Blackwing Lair (BWL)";
-	BLUE..INDENT.."Bodley (Ghost)";
-	GREY.."1) Overmaster Pyron (Patrols)";
-	GREY.."2) Lothos Riftwaker";
-	GREY.."3) Franclorn Forgewright (Ghost)";
-	GREY.."4) BRD Meeting Stone";
-	GREY.."5) Orb of Command";
-	GREY.."6) BRS Meeting Stone";
-	GREY.."7) Scarshield Quartermaster";
+	--Blackfathom Deeps (Entrance)
+	--Nothing to translate!
 
-	CoilfangReservoirEnt = {
-	ZoneName = "Coilfang Reservoir";
-	Acronym = "CR";
-	LevelRange = "61-70";
-	MinLevel = "55";
-	PlayerLimit = "5/25";
-	Location = "Zangarmarsh";
-	BLUE.."A) The Slave Pens";
-	BLUE.."B) The Steamvault";
-	BLUE.."C) Serpentshrine Cavern";
-	BLUE.."D) The Underbog";
-	BLUE.."E) Entrance (Underwater)";
-	GREY.."1) Watcher Jhang";
-	GREY..INDENT.."Meeting Stone";
-	GREY.."2) Mortog Steamhead";
+	--Blackrock Mountain (Entrance)
+	["Bodley"] = "Bodley";
+	["Overmaster Pyron"] = "Overmaster Pyron";
+	["Lothos Riftwaker"] = "Lothos Riftwaker";
+	["Franclorn Forgewright"] = "Franclorn Forgewright";
+	["Orb of Command"] = "Orb of Command";
+	["Scarshield Quartermaster <Scarshield Legion>"] = "Scarshield Quartermaster <Scarshield Legion>";
 
-	GnomereganEnt = {
-	ZoneName = "Gnomeregan";
-	Acronym = AtlasLocale["Gnome"];
-	LevelRange = "24-32";
-	MinLevel = "15";
-	PlayerLimit = "10";
-	Location = "Dun Morogh";
-	BLUE.."A) Entrance";
-	BLUE..INDENT.."Meeting Stone";
-	BLUE.."B) Gnomeregan (Main)";
-	BLUE.."C) Gnomeregan (Workshop)";
-	GREY.."1) Elevator";
-	GREY.."2) Transpolyporter";
-	GREY..INDENT.."Sprok";
-	GREY.."3) Matrix Punchograph 3005-A";
-	GREY..INDENT.."Namdo Bizzfizzle";
-	GREY.."4) Techbot";
+	--Coilfang Reservoir (Entrance)
+	["Watcher Jhang"] = "Watcher Jhang";
+	["Mortog Steamhead"] = "Mortog Steamhead";
 
-	MaraudonEnt = {
-	ZoneName = "Maraudon";
-	Acronym = "Mara";
-	LevelRange = "42-51";
-	MinLevel = "35";
-	PlayerLimit = "10";
-	Location = "Desolace";
-	BLUE.."A) Entrance";
-	BLUE..INDENT.."The Nameless Prophet";
-	BLUE.."B) Maraudon (Purple)";
-	BLUE.."C) Maraudon (Orange)";
-	BLUE.."D) Maraudon (Portal)";
-	GREY.."1) Kolk (First Khan)";
-	GREY.."2) Gelk (Second Khan)";
-	GREY.."3) Magra (Third Khan)";
-	GREY.."4) Cavindra";
+	--Gnomeregan (Entrance)
+	["Transpolyporter"] = "Transpolyporter";
+	["Sprok <Away Team>"] = "Sprok <Away Team>";
+	["Matrix Punchograph 3005-A"] = "Matrix Punchograph 3005-A";
+	["Namdo Bizzfizzle <Engineering Supplies>"] = "Namdo Bizzfizzle <Engineering Supplies>";
+	["Techbot"] = "Techbot";
 
-	TheDeadminesEnt = {
-	ZoneName = "The Deadmines";
-	Acronym = "VC";
-	LevelRange = "16-22";
-	MinLevel = "10";
-	PlayerLimit = "10";
-	Location = "Westfall";
-	BLUE.."A) Entrance";
-	BLUE.."B) The Deadmines";
-	GREY.."1) Marisa du'Paige (Varies)";
-	GREY.."2) Brainwashed Noble (Rare)";
-	GREY.."3) Foreman Thistlenettle";
+	--Maraudon (Entrance)
+	["The Nameless Prophet"] = "The Nameless Prophet";
+	["Kolk <The First Kahn>"] = "Kolk <The First Kahn>";
+	["Gelk <The Second Kahn>"] = "Gelk <The Second Kahn>";
+	["Magra <The Third Kahn>"] = "Magra <The Third Kahn>";
+	["Cavindra"] = "Cavindra";
 
-	TheSunkenTempleEnt = {
-	ZoneName = "The Sunken Temple";
-	Acronym = "ST";
-	LevelRange = "46-53";
-	MinLevel = "35";
-	PlayerLimit = "10";
-	Location = "Swamp of Sorrows";
-	BLUE.."A) Entrance";
-	BLUE..INDENT.."Meeting Stone";
-	BLUE..INDENT.."Jade (Rare)";
-	BLUE.."B) The Sunken Temple";
-	GREY.."1) Kazkaz the Unholy (Upper)";
-	GREY.."2) Zekkis (Rare, Lower)";
-	GREY.."?) Veyzhak the Cannibal (Unknown)";
+	--The Deadmines (Entrance)
+	["Marisa du'Paige"] = "Marisa du'Paige";
+	["Brainwashed Noble"] = "Brainwashed Noble";
+	["Foreman Thistlenettle"] = "Foreman Thistlenettle";
 
-	UldamanEnt = {
-	ZoneName = "Uldaman";
-	Acronym = "Ulda";
-	LevelRange = "36-42";
-	MinLevel = "30";
-	PlayerLimit = "10";
-	Location = "Badlands";
-	BLUE.."A) Entrance";
-	BLUE.."B) Uldaman";
-	GREY.."1) Hammertoe Grez";
-	GREY.."2) Magregan Deepshadow (Patrols)";
-	GREY.."3) Tablet of Ryun'Eh";
-	GREY.."4) Krom Stoutarm's Chest";
-	GREY.."5) Garrett Family Chest";
-	GREN.."1') Digmaster Shovelphlange (Rare, Varies)";
+	--Sunken Temple (Entrance)
+	["Jade"] = "Jade";
+	["Kazkaz the Unholy"] = "Kazkaz the Unholy";
+	["Zekkis"] = "Zekkis";
+	["Veyzhak the Cannibal"] = "Veyzhak the Cannibal";
 
-	WailingCavernsEnt = {
-	ZoneName = "Wailing Caverns";
-	Acronym = "WC";
-	LevelRange = "16-25";
-	MinLevel = "10";
-	PlayerLimit = "10";
-	Location = "The Barrens";
-	BLUE.."A) Entrance";
-	BLUE.."B) Wailing Caverns";
-	GREY.."1) Mad Magglish (Varies)";
-	GREY.."2) Trigore the Lasher (Rare)";
-	GREY.."3) Boahn (Rare)";
-	"";
-	ORNG.."Above the Entrance:";
-	GREY..INDENT.."Ebru";
-	GREY..INDENT.."Nalpak";
-	GREY..INDENT.."Kalldan Felmoon";
-	GREY..INDENT.."Waldor";
+	--Uldaman (Entrance)
+	["Hammertoe Grez"] = "Hammertoe Grez";
+	["Magregan Deepshadow"] = "Magregan Deepshadow";
+	["Tablet of Ryun'Eh"] = "Tablet of Ryun'Eh";
+	["Krom Stoutarm's Chest"] = "Krom Stoutarm's Chest";
+	["Garrett Family Chest"] = "Garrett Family Chest";
+	["Digmaster Shovelphlange"] = "Digmaster Shovelphlange";
 
-	DireMaulEnt = {
-	ZoneName = "Dire Maul";
-	Acronym = "DM";
-	LevelRange = "55-60";
-	MinLevel = "45";
-	PlayerLimit = "5";
-	Location = "Feralas";
-	BLUE.."A) Entrance";
-	BLUE.."B) East Wing";
-	BLUE.."C) North Wing";
-	BLUE.."D) West Wing";
-	GREY.."1) Dire Pool";
-	GREY.."2) Dire Maul Arena";
-	GREY..INDENT.."Mushgog (Random)";
-	GREY..INDENT.."Skarr the Unbreakable (Random)";
-	GREY..INDENT.."The Razza (Random)";
-	GREY..INDENT.."Elder Mistwalker (Lunar)";
+	--Wailing Caverns (Entrance)
+	["Mad Magglish"] = "Mad Magglish";
+	["Trigore the Lasher"] = "Trigore the Lasher";
+	["Boahn <Druid of the Fang>"] = "Boahn <Druid of the Fang>";
+	["Above the Entrance:"] = "Above the Entrance:";
+	["Ebru <Disciple of Naralex>"] = "Ebru <Disciple of Naralex>";
+	["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple of Naralex>";
+	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Kalldan Felmoon <Specialist Leatherworking Supplies>";
+	["Waldor <Leatherworking Trainer>"] = "Waldor <Leatherworking Trainer>";
 
-	CoTEnt = {
-	ZoneName = "Caverns of Time";
-	Acronym = "CoT";
-	LevelRange = "66-70";
-	MinLevel = "66";
-	PlayerLimit = "5/25";
-	Location = "Tanaris";
-	BLUE.."A) Entrance";
-	BLUE.."B) Hyjal Summit";
-	BLUE.."C) Old Hillsbrad Foothills";
-	BLUE.."D) The Black Morass";
-	GREY.."1) Steward of Time";
-	GREY.."2) Alexston Chrome";
-	GREY.."3) Graveyard";
-	GREY.."4) Yarley";
-	GREY.."5) Bortega";
-	GREY..INDENT.."Galgrom";
-	GREY..INDENT.."Alurmi";
-	GREY.."6) Zaladormu";
-	GREY..INDENT.."Soridormi (Wanders)";
-	GREY..INDENT.."Arazmodu (Wanders)";
-	GREY.."7) Moonwell";
-	GREY.."8) Andormu (Child)";
-	GREY..INDENT.."Nozari (Child)";
-	GREY.."9) Andormu (Adult)";
-	GREY..INDENT.."Nozari (Adult)";
+	--Dire Maul (Entrance)
+	["Dire Pool"] = "Dire Pool";
+	["Dire Maul Arena"] = "Dire Maul Arena";
+	["Mushgog"] = "Mushgog";
+	["Skarr the Unbreakable"] = "Skarr the Unbreakable";
+	["The Razza"] = "The Razza";
+	["Elder Mistwalker"] = "Elder Mistwalker";
 
-	KarazhanEnt = {
-	ZoneName = "Karazhan";
-	Acronym = "Kara";
-	LevelRange = "70";
-	MinLevel = "68";
-	PlayerLimit = "10";
-	Location = "Deadwind Pass";
-	BLUE.."A) Front Entrance";
-	BLUE.."B) Back Entrance";
-	BLUE.."C) Meeting Stone";
-	BLUE.."D) Graveyard";
-	GREY.."1) Archmage Leryda";
-	GREY.."2) Apprentice Darius";
-	GREY.."3) Archmage Alturus";
-	GREY.."4) Stairs to Underground Pond";
-	GREY.."5) Stairs to Underground Well";
-	GREY.."6) Charred Bone Fragment";
+	--Caverns of Time (Entrance)
+	["Steward of Time <Keepers of Time>"] = "Steward of Time <Keepers of Time>";
+	["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Tavern of Time>";
+	["Yarley <Armorer>"] = "Yarley <Armorer>";
+	["Bortega <Reagents & Poison Supplies>"] = "Bortega <Reagents & Poison Supplies>";
+	["Galgrom <Provisioner>"] = "Galgrom <Provisioner>";
+	["Alurmi <Keepers of Time Quartermaster>"] = "Alurmi <Keepers of Time Quartermaster>";
+	["Zaladormu"] = "Zaladormu";
+	["Soridormi <The Scale of Sands>"] = "Soridormi <The Scale of Sands>";
+	["Arazmodu <The Scale of Sands>"] = "Arazmodu <The Scale of Sands>";
+	["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
+	["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
+	["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
+	["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
 
-	SMEnt = {
-	ZoneName = "Scarlet Monastery";
-	Acronym = "SM";
-	LevelRange = "28-42";
-	MinLevel = "20";
-	PlayerLimit = "10";
-	Location = "Tirisfal Glades";
-	BLUE.."A) Entrance";
-	BLUE.."B) Graveyard";
-	BLUE.."C) Cathedral";
-	BLUE.."D) Armory";
-	BLUE.."E) Library";
---]]
+	--Karazhan (Entrance)
+	["Archmage Leryda"] = "Archmage Leryda";
+	["Apprentice Darius"] = "Apprentice Darius";
+	["Archmage Alturus"] = "Archmage Alturus";
+	["Stairs to Underground Pond"] = "Stairs to Underground Pond";
+	["Stairs to Underground Well"] = "Stairs to Underground Well";
+	["Charred Bone Fragment"] = "Charred Bone Fragment";
+
+	--Scarlet Monastery (Entrance)
+	--Nothing to translate!
+
 };

@@ -91,7 +91,8 @@ ATLAS_DDL_PARTYSIZE_5 = "Instances for 5 Players";
 ATLAS_DDL_PARTYSIZE_10 = "Instances for 10 Players";
 ATLAS_DDL_PARTYSIZE_20TO40 = "Instances for 20-40 Players";
 ATLAS_DDL_EXPANSION = "Expansion";
-ATLAS_DDL_EXPANSION_OLD = "Old World Instances";
+ATLAS_DDL_EXPANSION_OLD_AO = "Old World Instances A-O";
+ATLAS_DDL_EXPANSION_OLD_PZ = "Old World Instances P-Z";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
@@ -1279,4 +1280,260 @@ AtlasLocale = {
 	["Veras Darkshadow"] = "Veras Darkshadow";
 	["Illidan Stormrage <The Betrayer>"] = "Illidan Stormrage <The Betrayer>";
 
+--************************************************
+-- Instance Entrance Maps
+--************************************************
+--[[
+	AuchindounEnt = {
+	ZoneName = "Auchindoun";
+	Acronym = "Auch";
+	LevelRange = "63-70";
+	MinLevel = "55";
+	PlayerLimit = "5";
+	Location = "Bone Wastes, Terokkar Forest";
+	BLUE.."A) Auchenai Crypts";
+	BLUE.."B) Mana-Tombs";
+	BLUE.."C) Sethekk Halls";
+	BLUE.."D) Shadow Labyrinth";
+	BLUE.."E) Entrances";
+	GREY.."1) Ha'Lei";
+	GREY..INDENT.."Greatfather Aldrimus";
+	GREY..INDENT.."Clarissa";
+	GREY..INDENT.."Ramdor the Mad";
+	GREY..INDENT.."Horvon the Armorer";
+	GREY.."2) Nexus-Prince Haramad";
+	GREY..INDENT.."Artificer Morphalius";
+	GREY..INDENT.."Mamdy the \"Ologist\"";
+	GREY..INDENT.."\"Slim\"";
+	GREY..INDENT.."\"Captain\" Kaftiz";
+	GREY.."3) Isfar";
+	GREY.."4) Field Commander Mahfuun";
+	GREY..INDENT.."Spy Grik'tha";
+	GREY..INDENT.."Provisioner Tsaalt";
+	GREY..INDENT.."Dealer Tariq";
+	GREY.."5) Meeting Stone";
+
+	BlackfathomDeepsEnt = {
+	ZoneName = "Blackfathom Deeps";
+	Acronym = "BFD";
+	LevelRange = "20-28";
+	MinLevel = "19";
+	PlayerLimit = "10";
+	Location = "Ashenvale";
+	BLUE.."A) Entrance";
+	BLUE.."B) Blackfathom Deeps";
+
+	BlackrockSpireEnt = {
+	ZoneName = "Blackrock Mountain";
+	Acronym = "BRM";
+	LevelRange = "54-70";
+	MinLevel = "45";
+	PlayerLimit = "5/10/40";
+	Location = "Searing Gorge / Burning Steppes";
+	BLUE.."A) Searing Gorge";
+	BLUE.."B) Burning Steppes";
+	BLUE.."C) Blackrock Depths (BRD)";
+	BLUE..INDENT.."Molten Core (MC)";
+	BLUE.."D) Lower Blackrock Spire (LBRS)";
+	BLUE..INDENT.."Upper Blackrock Spire (UBRS)";
+	BLUE..INDENT.."Blackwing Lair (BWL)";
+	BLUE..INDENT.."Bodley (Ghost)";
+	GREY.."1) Overmaster Pyron (Patrols)";
+	GREY.."2) Lothos Riftwaker";
+	GREY.."3) Franclorn Forgewright (Ghost)";
+	GREY.."4) BRD Meeting Stone";
+	GREY.."5) Orb of Command";
+	GREY.."6) BRS Meeting Stone";
+	GREY.."7) Scarshield Quartermaster";
+
+	CoilfangReservoirEnt = {
+	ZoneName = "Coilfang Reservoir";
+	Acronym = "CR";
+	LevelRange = "61-70";
+	MinLevel = "55";
+	PlayerLimit = "5/25";
+	Location = "Zangarmarsh";
+	BLUE.."A) The Slave Pens";
+	BLUE.."B) The Steamvault";
+	BLUE.."C) Serpentshrine Cavern";
+	BLUE.."D) The Underbog";
+	BLUE.."E) Entrance (Underwater)";
+	GREY.."1) Watcher Jhang";
+	GREY..INDENT.."Meeting Stone";
+	GREY.."2) Mortog Steamhead";
+
+	GnomereganEnt = {
+	ZoneName = "Gnomeregan";
+	Acronym = AtlasLocale["Gnome"];
+	LevelRange = "24-32";
+	MinLevel = "15";
+	PlayerLimit = "10";
+	Location = "Dun Morogh";
+	BLUE.."A) Entrance";
+	BLUE..INDENT.."Meeting Stone";
+	BLUE.."B) Gnomeregan (Main)";
+	BLUE.."C) Gnomeregan (Workshop)";
+	GREY.."1) Elevator";
+	GREY.."2) Transpolyporter";
+	GREY..INDENT.."Sprok";
+	GREY.."3) Matrix Punchograph 3005-A";
+	GREY..INDENT.."Namdo Bizzfizzle";
+	GREY.."4) Techbot";
+
+	MaraudonEnt = {
+	ZoneName = "Maraudon";
+	Acronym = "Mara";
+	LevelRange = "42-51";
+	MinLevel = "35";
+	PlayerLimit = "10";
+	Location = "Desolace";
+	BLUE.."A) Entrance";
+	BLUE..INDENT.."The Nameless Prophet";
+	BLUE.."B) Maraudon (Purple)";
+	BLUE.."C) Maraudon (Orange)";
+	BLUE.."D) Maraudon (Portal)";
+	GREY.."1) Kolk (First Khan)";
+	GREY.."2) Gelk (Second Khan)";
+	GREY.."3) Magra (Third Khan)";
+	GREY.."4) Cavindra";
+
+	TheDeadminesEnt = {
+	ZoneName = "The Deadmines";
+	Acronym = "VC";
+	LevelRange = "16-22";
+	MinLevel = "10";
+	PlayerLimit = "10";
+	Location = "Westfall";
+	BLUE.."A) Entrance";
+	BLUE.."B) The Deadmines";
+	GREY.."1) Marisa du'Paige (Varies)";
+	GREY.."2) Brainwashed Noble (Rare)";
+	GREY.."3) Foreman Thistlenettle";
+
+	TheSunkenTempleEnt = {
+	ZoneName = "The Sunken Temple";
+	Acronym = "ST";
+	LevelRange = "46-53";
+	MinLevel = "35";
+	PlayerLimit = "10";
+	Location = "Swamp of Sorrows";
+	BLUE.."A) Entrance";
+	BLUE..INDENT.."Meeting Stone";
+	BLUE..INDENT.."Jade (Rare)";
+	BLUE.."B) The Sunken Temple";
+	GREY.."1) Kazkaz the Unholy (Upper)";
+	GREY.."2) Zekkis (Rare, Lower)";
+	GREY.."?) Veyzhak the Cannibal (Unknown)";
+
+	UldamanEnt = {
+	ZoneName = "Uldaman";
+	Acronym = "Ulda";
+	LevelRange = "36-42";
+	MinLevel = "30";
+	PlayerLimit = "10";
+	Location = "Badlands";
+	BLUE.."A) Entrance";
+	BLUE.."B) Uldaman";
+	GREY.."1) Hammertoe Grez";
+	GREY.."2) Magregan Deepshadow (Patrols)";
+	GREY.."3) Tablet of Ryun'Eh";
+	GREY.."4) Krom Stoutarm's Chest";
+	GREY.."5) Garrett Family Chest";
+	GREN.."1') Digmaster Shovelphlange (Rare, Varies)";
+
+	WailingCavernsEnt = {
+	ZoneName = "Wailing Caverns";
+	Acronym = "WC";
+	LevelRange = "16-25";
+	MinLevel = "10";
+	PlayerLimit = "10";
+	Location = "The Barrens";
+	BLUE.."A) Entrance";
+	BLUE.."B) Wailing Caverns";
+	GREY.."1) Mad Magglish (Varies)";
+	GREY.."2) Trigore the Lasher (Rare)";
+	GREY.."3) Boahn (Rare)";
+	"";
+	ORNG.."Above the Entrance:";
+	GREY..INDENT.."Ebru";
+	GREY..INDENT.."Nalpak";
+	GREY..INDENT.."Kalldan Felmoon";
+	GREY..INDENT.."Waldor";
+
+	DireMaulEnt = {
+	ZoneName = "Dire Maul";
+	Acronym = "DM";
+	LevelRange = "55-60";
+	MinLevel = "45";
+	PlayerLimit = "5";
+	Location = "Feralas";
+	BLUE.."A) Entrance";
+	BLUE.."B) East Wing";
+	BLUE.."C) North Wing";
+	BLUE.."D) West Wing";
+	GREY.."1) Dire Pool";
+	GREY.."2) Dire Maul Arena";
+	GREY..INDENT.."Mushgog (Random)";
+	GREY..INDENT.."Skarr the Unbreakable (Random)";
+	GREY..INDENT.."The Razza (Random)";
+	GREY..INDENT.."Elder Mistwalker (Lunar)";
+
+	CoTEnt = {
+	ZoneName = "Caverns of Time";
+	Acronym = "CoT";
+	LevelRange = "66-70";
+	MinLevel = "66";
+	PlayerLimit = "5/25";
+	Location = "Tanaris";
+	BLUE.."A) Entrance";
+	BLUE.."B) Hyjal Summit";
+	BLUE.."C) Old Hillsbrad Foothills";
+	BLUE.."D) The Black Morass";
+	GREY.."1) Steward of Time";
+	GREY.."2) Alexston Chrome";
+	GREY.."3) Graveyard";
+	GREY.."4) Yarley";
+	GREY.."5) Bortega";
+	GREY..INDENT.."Galgrom";
+	GREY..INDENT.."Alurmi";
+	GREY.."6) Zaladormu";
+	GREY..INDENT.."Soridormi (Wanders)";
+	GREY..INDENT.."Arazmodu (Wanders)";
+	GREY.."7) Moonwell";
+	GREY.."8) Andormu (Child)";
+	GREY..INDENT.."Nozari (Child)";
+	GREY.."9) Andormu (Adult)";
+	GREY..INDENT.."Nozari (Adult)";
+
+	KarazhanEnt = {
+	ZoneName = "Karazhan";
+	Acronym = "Kara";
+	LevelRange = "70";
+	MinLevel = "68";
+	PlayerLimit = "10";
+	Location = "Deadwind Pass";
+	BLUE.."A) Front Entrance";
+	BLUE.."B) Back Entrance";
+	BLUE.."C) Meeting Stone";
+	BLUE.."D) Graveyard";
+	GREY.."1) Archmage Leryda";
+	GREY.."2) Apprentice Darius";
+	GREY.."3) Archmage Alturus";
+	GREY.."4) Stairs to Underground Pond";
+	GREY.."5) Stairs to Underground Well";
+	GREY.."6) Charred Bone Fragment";
+
+	SMEnt = {
+	ZoneName = "Scarlet Monastery";
+	Acronym = "SM";
+	LevelRange = "28-42";
+	MinLevel = "20";
+	PlayerLimit = "10";
+	Location = "Tirisfal Glades";
+	BLUE.."A) Entrance";
+	BLUE.."B) Graveyard";
+	BLUE.."C) Cathedral";
+	BLUE.."D) Armory";
+	BLUE.."E) Library";
+--]]
 };

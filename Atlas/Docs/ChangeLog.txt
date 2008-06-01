@@ -2,7 +2,7 @@
 = Change Log =
 ==============
 
-v1.11.1
+v1.12.0
 - changed the Atlas data format to include GUID information (no in-game change)
 - changed the frame strata back to MEDIUM so Atlas can cover/be-covered-by other windows
 - added a fix for some UI elements that appear above the Atlas window
@@ -42,6 +42,12 @@ v1.11.1
 - refreshed the Shadowfang Keep map (Deadca7)
 - added minimum level data to instance maps (Deadca7)
 - changed the frame artwork to accommodate min level
+- zone information text will no longer extend past the edge of the frame
+- zone information text can now be ctrl-mouseover'd for a tooltip
+- merged the Entrances plugin (and all its maps) into the core Atlas addon
+- tweaked auto-select, more outdoor zones are now associated with instance maps
+- expanded meta-zone abbreviations to their full names, eg. HFC --> Hellfire Citadel
+- this is a giant update, my apologies if I've forgotten anything
 
 v1.11.0
 - updated TOC number to 20400 for the 2.4 patch

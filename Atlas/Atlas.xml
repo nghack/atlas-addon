@@ -24,7 +24,7 @@
 
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
-	<Button name = "AtlasEntryTemplate" hidden="true" virtual="true">
+	<Button name="AtlasEntryTemplate" hidden="true" virtual="true">
 		<Size>
 			<AbsDimension x="330" y="15" />
 		</Size>
@@ -209,7 +209,6 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-
 			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_BUTTON">
 				<Size>
 					<AbsDimension x="80" y="20"/>
@@ -268,6 +267,151 @@
 						</FontString>
 					</Layer>
 				</Layers>
+			</Frame>
+			<Frame name="AtlasText_ZoneName">
+				<Size>
+					<AbsDimension x="351" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="546" y="-97"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Text" inherits="GameFontHighlightLarge" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="351" y="20"/>
+							</Size>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnUpdate>
+						AtlasEntryTemplate_OnUpdate(self);
+					</OnUpdate>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Frame>
+			<Frame name="AtlasText_Location">
+				<Size>
+					<AbsDimension x="351" y="15" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="351" y="15"/>
+							</Size>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnUpdate>
+						AtlasEntryTemplate_OnUpdate(self);
+					</OnUpdate>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Frame>
+			<Frame name="AtlasText_LevelRange">
+				<Size>
+					<AbsDimension x="351" y="15" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-35"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="351" y="15"/>
+							</Size>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnUpdate>
+						AtlasEntryTemplate_OnUpdate(self);
+					</OnUpdate>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Frame>
+			<Frame name="AtlasText_MinLevel">
+				<Size>
+					<AbsDimension x="351" y="15" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="351" y="15"/>
+							</Size>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnUpdate>
+						AtlasEntryTemplate_OnUpdate(self);
+					</OnUpdate>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Frame>
+			<Frame name="AtlasText_PlayerLimit">
+				<Size>
+					<AbsDimension x="351" y="15" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-65"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+							<Size>
+								<AbsDimension x="351" y="15"/>
+							</Size>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnUpdate>
+						AtlasEntryTemplate_OnUpdate(self);
+					</OnUpdate>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
 			</Frame>
 		</Frames>
 		<Layers>
@@ -347,51 +491,6 @@
 						<Anchor point="TOPRIGHT">
 							<Offset>
 								<AbsDimension x="-52" y="-18"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString name="AtlasText_ZoneName" inherits="GameFontHighlightLarge">
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="546" y="-99"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString name="AtlasText_Location" inherits="GameFontNormal">
-					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-20"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString name="AtlasText_LevelRange" inherits="GameFontNormal">
-					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-35"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString name="AtlasText_MinLevel" inherits="GameFontNormal">
-					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-50"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString name="AtlasText_PlayerLimit" inherits="GameFontNormal">
-					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-65"/>
 							</Offset>
 						</Anchor>
 					</Anchors>

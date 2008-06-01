@@ -356,9 +356,9 @@ AtlasMaps = {
 		{ GREN.."1') "..AtlasLocale["Safe Room"] };
 	};
 	CoTBlackMorass = {
-		ZoneName = { AtlasLocale["CoT"]..": "..AtlasLocale["The Black Morass"], 2366 };
+		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["The Black Morass"], 2366 };
 		Acronym = AtlasLocale["CoT2"];
-		Location = { AtlasLocale["Caverns of Time"]..", "..AtlasLocale["Tanaris"], 440 };
+		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "68-70";
 		MinLevel = "66";
 		PlayerLimit = "5";
@@ -377,9 +377,9 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Medivh"], NPC, 15608 };
 	};
 	CoTHyjal = {
-		ZoneName = { AtlasLocale["CoT"]..": "..AtlasLocale["Hyjal Summit"], 3606 };
+		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["Hyjal Summit"], 3606 };
 		Acronym = AtlasLocale["CoT3"];
-		Location = { AtlasLocale["Caverns of Time"]..", "..AtlasLocale["Tanaris"], 440 };
+		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "70";
 		MinLevel = "?";
 		PlayerLimit = "25";
@@ -401,9 +401,9 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Tydormu <Keeper of Lost Artifacts>"], NPC, 23381 };
 	};
 	CoTOldHillsbrad = {
-		ZoneName = { AtlasLocale["CoT"]..": "..AtlasLocale["Old Hillsbrad Foothills"], 2367 };
+		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["Old Hillsbrad Foothills"], 2367 };
 		Acronym = AtlasLocale["CoT1"];
-		Location = { AtlasLocale["Caverns of Time"]..", "..AtlasLocale["Tanaris"], 440 };
+		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "66-70";
 		MinLevel = "66";
 		PlayerLimit = "5";
@@ -699,9 +699,9 @@ AtlasMaps = {
 		{ GREY.."10) "..AtlasLocale["Ragnaros"], NPC, 11502 };
 	};
 	SMLibrary = {
-		ZoneName = { AtlasLocale["SM"]..": "..AtlasLocale["Library"], 796 };
+		ZoneName = { AtlasLocale["Scarlet Monastery"]..": "..AtlasLocale["Library"], 796 };
 		Acronym = AtlasLocale["Lib"];
-		Location = { AtlasLocale["Scarlet Monastery"]..", "..AtlasLocale["Tirisfal Glades"], 85 };
+		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "31-37";
 		MinLevel = "20";
 		PlayerLimit = "10";
@@ -711,9 +711,9 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Arcanist Doan"], NPC, 6487 };
 	};
 	SMArmory = {
-		ZoneName = { AtlasLocale["SM"]..": "..AtlasLocale["Armory"], 796 };
+		ZoneName = { AtlasLocale["Scarlet Monastery"]..": "..AtlasLocale["Armory"], 796 };
 		Acronym = AtlasLocale["Armory"];
-		Location = { AtlasLocale["Scarlet Monastery"]..", "..AtlasLocale["Tirisfal Glades"], 85 };
+		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "33-40";
 		MinLevel = "20";
 		PlayerLimit = "10";
@@ -723,9 +723,9 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Herod <The Scarlet Champion>"], NPC, 3975 };
 	};
 	SMCathedral = {
-		ZoneName = { AtlasLocale["SM"]..": "..AtlasLocale["Cathedral"], 796 };
+		ZoneName = { AtlasLocale["Scarlet Monastery"]..": "..AtlasLocale["Cathedral"], 796 };
 		Acronym = AtlasLocale["Cath"];
-		Location = { AtlasLocale["Scarlet Monastery"]..", "..AtlasLocale["Tirisfal Glades"], 85 };
+		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "36-42";
 		MinLevel = "20";
 		PlayerLimit = "10";
@@ -737,9 +737,9 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["High Inquisitor Whitemane"], NPC, 3977 };
 	};
 	SMGraveyard = {
-		ZoneName = { AtlasLocale["SM"]..": "..AtlasLocale["Graveyard"], 796 };
+		ZoneName = { AtlasLocale["Scarlet Monastery"]..": "..AtlasLocale["Graveyard"], 796 };
 		Acronym = AtlasLocale["GY"];
-		Location = { AtlasLocale["Scarlet Monastery"]..", "..AtlasLocale["Tirisfal Glades"], 85 };
+		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "28-35";
 		MinLevel = "20";
 		PlayerLimit = "10";
@@ -1224,8 +1224,8 @@ AtlasMaps = {
 --************************************************
 	
 	HCBloodFurnace = {
-		ZoneName = { AtlasLocale["HFC"]..": "..AtlasLocale["The Blood Furnace"], 3713 };
-		Location = { AtlasLocale["Hellfire Citadel"]..", "..AtlasLocale["Hellfire Peninsula"], 3483 };
+		ZoneName = { AtlasLocale["Hellfire Citadel"]..": "..AtlasLocale["The Blood Furnace"], 3713 };
+		Location = { AtlasLocale["Hellfire Peninsula"], 3483 };
 		Acronym = AtlasLocale["BF"];
 		LevelRange = "60-68";
 		MinLevel = "55";
@@ -1240,8 +1240,8 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Keli'dan the Breaker"], NPC, 17377 };
 	};
 	HCTheShatteredHalls = {
-		ZoneName = { AtlasLocale["HFC"]..": "..AtlasLocale["The Shattered Halls"], 3714 };
-		Location = { AtlasLocale["Hellfire Citadel"]..", "..AtlasLocale["Hellfire Peninsula"], 3483 };
+		ZoneName = { AtlasLocale["Hellfire Citadel"]..": "..AtlasLocale["The Shattered Halls"], 3714 };
+		Location = { AtlasLocale["Hellfire Peninsula"], 3483 };
 		Acronym = AtlasLocale["SH"];
 		LevelRange = "69-70";
 		MinLevel = "55";
@@ -1267,8 +1267,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Captain Boneshatter"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..")", NPC, 17296 };
 	};
 	HCHellfireRamparts = {
-		ZoneName = { AtlasLocale["HFC"]..": "..AtlasLocale["Hellfire Ramparts"], 3562 };
-		Location = { AtlasLocale["Hellfire Citadel"]..", "..AtlasLocale["Hellfire Peninsula"], 3483 };
+		ZoneName = { AtlasLocale["Hellfire Citadel"]..": "..AtlasLocale["Hellfire Ramparts"], 3562 };
+		Location = { AtlasLocale["Hellfire Peninsula"], 3483 };
 		Acronym = AtlasLocale["Ramp"];
 		LevelRange = "59-67";
 		MinLevel = "55";
@@ -1285,8 +1285,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Reinforced Fel Iron Chest"], OBJECT, 185168 };
 	};
 	HCMagtheridonsLair = {
-		ZoneName = { AtlasLocale["HFC"]..": "..AtlasLocale["Magtheridon's Lair"], 3836 };
-		Location = { AtlasLocale["Hellfire Citadel"]..", "..AtlasLocale["Hellfire Peninsula"], 3483 };
+		ZoneName = { AtlasLocale["Hellfire Citadel"]..": "..AtlasLocale["Magtheridon's Lair"], 3836 };
+		Location = { AtlasLocale["Hellfire Peninsula"], 3483 };
 		Acronym = AtlasLocale["Mag"];
 		LevelRange = "70";
 		MinLevel = "65";
@@ -1298,8 +1298,8 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Magtheridon"], NPC, 17257 };
 	};
 	CFRTheSlavePens = {
-		ZoneName = { AtlasLocale["CR"]..": "..AtlasLocale["The Slave Pens"], 3717 };
-		Location = { AtlasLocale["Coilfang Reservoir"]..", "..AtlasLocale["Zangarmarsh"], 3521 };
+		ZoneName = { AtlasLocale["Coilfang Reservoir"]..": "..AtlasLocale["The Slave Pens"], 3717 };
+		Location = { AtlasLocale["Zangarmarsh"], 3521 };
 		Acronym = AtlasLocale["SP"];
 		LevelRange = "61-69";
 		MinLevel = "55";
@@ -1316,8 +1316,8 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Quagmirran"], NPC, 17942 };
 	};
 	CFRTheUnderbog = {
-		ZoneName = { AtlasLocale["CR"]..": "..AtlasLocale["The Underbog"], 3716 };
-		Location = { AtlasLocale["Coilfang Reservoir"]..", "..AtlasLocale["Zangarmarsh"], 3521 };
+		ZoneName = { AtlasLocale["Coilfang Reservoir"]..": "..AtlasLocale["The Underbog"], 3716 };
+		Location = { AtlasLocale["Zangarmarsh"], 3521 };
 		Acronym = AtlasLocale["UB"];
 		LevelRange = "62-70";
 		MinLevel = "55";
@@ -1335,8 +1335,8 @@ AtlasMaps = {
 		{ GREY.."5) "..AtlasLocale["The Black Stalker"], NPC, 17882 };
 	};
 	CFRTheSteamvault = {
-		ZoneName = { AtlasLocale["CR"]..": "..AtlasLocale["The Steamvault"], 3715 };
-		Location = { AtlasLocale["Coilfang Reservoir"]..", "..AtlasLocale["Zangarmarsh"], 3521 };
+		ZoneName = { AtlasLocale["Coilfang Reservoir"]..": "..AtlasLocale["The Steamvault"], 3715 };
+		Location = { AtlasLocale["Zangarmarsh"], 3521 };
 		Acronym = AtlasLocale["SV"];
 		LevelRange = "69-70";
 		MinLevel = "55";
@@ -1354,8 +1354,8 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Warlord Kalithresh"], NPC, 17798 };
 	};
 	CFRSerpentshrineCavern = {
-		ZoneName = { AtlasLocale["CR"]..": "..AtlasLocale["Serpentshrine Cavern"], 3607 };
-		Location = { AtlasLocale["Coilfang Reservoir"]..", "..AtlasLocale["Zangarmarsh"], 3521 };
+		ZoneName = { AtlasLocale["Coilfang Reservoir"]..": "..AtlasLocale["Serpentshrine Cavern"], 3607 };
+		Location = { AtlasLocale["Zangarmarsh"], 3521 };
 		Acronym = AtlasLocale["SC"];
 		LevelRange = "70";
 		MinLevel = "?";
@@ -1372,8 +1372,8 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Lady Vashj <Coilfang Matron>"], NPC, 21212 };
 	};
 	AuchManaTombs = {
-		ZoneName = { AtlasLocale["Auch"]..": "..AtlasLocale["Mana-Tombs"], 3792 };
-		Location = { AtlasLocale["Auchindoun"]..", "..AtlasLocale["Terokkar Forest"], 3519 };
+		ZoneName = { AtlasLocale["Auchindoun"]..": "..AtlasLocale["Mana-Tombs"], 3792 };
+		Location = { AtlasLocale["Terokkar Forest"], 3519 };
 		Acronym = AtlasLocale["MT"];
 		LevelRange = "63-70";
 		MinLevel = "55";
@@ -1393,8 +1393,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Yor <Void Hound of Shaffar>"].." ("..AtlasLocale["Summon"]..", "..AtlasLocale["Heroic"]..")", NPC, 22930 };
 	};
 	AuchAuchenaiCrypts = {
-		ZoneName = { AtlasLocale["Auch"]..": "..AtlasLocale["Auchenai Crypts"], 3790 };
-		Location = { AtlasLocale["Auchindoun"]..", "..AtlasLocale["Terokkar Forest"], 3519 };
+		ZoneName = { AtlasLocale["Auchindoun"]..": "..AtlasLocale["Auchenai Crypts"], 3790 };
+		Location = { AtlasLocale["Terokkar Forest"], 3519 };
 		Acronym = AtlasLocale["AC"];
 		LevelRange = "64-70";
 		MinLevel = "55";
@@ -1409,8 +1409,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["D'ore"], NPC, 19412 };
 	};
 	AuchSethekkHalls = {
-		ZoneName = { AtlasLocale["Auch"]..": "..AtlasLocale["Sethekk Halls"], 3791 };
-		Location = { AtlasLocale["Auchindoun"]..", "..AtlasLocale["Terokkar Forest"], 3519 };
+		ZoneName = { AtlasLocale["Auchindoun"]..": "..AtlasLocale["Sethekk Halls"], 3791 };
+		Location = { AtlasLocale["Terokkar Forest"], 3519 };
 		Acronym = AtlasLocale["Seth"];
 		LevelRange = "66-70";
 		MinLevel = "55";
@@ -1427,8 +1427,8 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Talon King Ikiss"], NPC, 18473 };
 	};
 	AuchShadowLabyrinth = {
-		ZoneName = { AtlasLocale["Auch"]..": "..AtlasLocale["Shadow Labyrinth"], 3789 };
-		Location = { AtlasLocale["Auchindoun"]..", "..AtlasLocale["Terokkar Forest"], 3519 };
+		ZoneName = { AtlasLocale["Auchindoun"]..": "..AtlasLocale["Shadow Labyrinth"], 3789 };
+		Location = { AtlasLocale["Terokkar Forest"], 3519 };
 		Acronym = AtlasLocale["SL"];
 		LevelRange = "69-70";
 		MinLevel = "65";
@@ -1448,8 +1448,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["First Fragment Guardian"], NPC, 22890 };
 	};
 	TempestKeepBotanica = {
-		ZoneName = { AtlasLocale["TK"]..": "..AtlasLocale["The Botanica"], 3847 };
-		Location = { AtlasLocale["Tempest Keep"]..", "..AtlasLocale["Netherstorm"], 3523 };
+		ZoneName = { AtlasLocale["Tempest Keep"]..": "..AtlasLocale["The Botanica"], 3847 };
+		Location = { AtlasLocale["Netherstorm"], 3523 };
 		Acronym = AtlasLocale["Bota"];
 		LevelRange = "69-70";
 		MinLevel = "68";
@@ -1465,8 +1465,8 @@ AtlasMaps = {
 		{ GREY.."5) "..AtlasLocale["Warp Splinter"], NPC, 17977 };
 	};
 	TempestKeepArcatraz = {
-		ZoneName = { AtlasLocale["TK"]..": "..AtlasLocale["The Arcatraz"], 3846 };
-		Location = { AtlasLocale["Tempest Keep"]..", "..AtlasLocale["Netherstorm"], 3523 };
+		ZoneName = { AtlasLocale["Tempest Keep"]..": "..AtlasLocale["The Arcatraz"], 3846 };
+		Location = { AtlasLocale["Netherstorm"], 3523 };
 		Acronym = AtlasLocale["Arca"];
 		LevelRange = "69-70";
 		MinLevel = "68";
@@ -1487,8 +1487,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Millhouse Manastorm"], NPC, 20977 };
 	};
 	TempestKeepMechanar = {
-		ZoneName = { AtlasLocale["TK"]..": "..AtlasLocale["The Mechanar"], 3849 };
-		Location = { AtlasLocale["Tempest Keep"]..", "..AtlasLocale["Netherstorm"], 3523 };
+		ZoneName = { AtlasLocale["Tempest Keep"]..": "..AtlasLocale["The Mechanar"], 3849 };
+		Location = { AtlasLocale["Netherstorm"], 3523 };
 		Acronym = AtlasLocale["Mech"];
 		LevelRange = "68-70";
 		MinLevel = "68";
@@ -1506,8 +1506,8 @@ AtlasMaps = {
 		{ GREY.."5) "..AtlasLocale["Pathaleon the Calculator"], NPC, 19220 };
 	};
 	TempestKeepTheEye = {
-		ZoneName = { AtlasLocale["TK"]..": "..AtlasLocale["The Eye"], 3842 };
-		Location = { AtlasLocale["Tempest Keep"]..", "..AtlasLocale["Netherstorm"], 3523 };
+		ZoneName = { AtlasLocale["Tempest Keep"]..": "..AtlasLocale["The Eye"], 3842 };
+		Location = { AtlasLocale["Netherstorm"], 3523 };
 		Acronym = AtlasLocale["Eye"];
 		LevelRange = "70";
 		MinLevel = "?";
@@ -1601,5 +1601,277 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["High Nethermancer Zerevor"].." ("..AtlasLocale["Mage"]..")", NPC, 22950 };
 		{ GREY..INDENT..AtlasLocale["Veras Darkshadow"].." ("..AtlasLocale["Rogue"]..")", NPC, 22952 };
 		{ GREY.."11) "..AtlasLocale["Illidan Stormrage <The Betrayer>"], NPC, 22917 };
+	};
+	
+--************************************************
+-- Instance Entrance Maps
+--************************************************
+
+	AuchindounEnt = {
+		ZoneName = { "Auchindoun (Entrance)" };
+		Location = { "Bone Wastes, Terokkar Forest" };
+		Acronym = "Auch";
+		LevelRange = "63-70";
+		MinLevel = "55";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Outland"];
+		{ BLUE.."A) Auchenai Crypts" };
+		{ BLUE.."B) Mana-Tombs" };
+		{ BLUE.."C) Sethekk Halls" };
+		{ BLUE.."D) Shadow Labyrinth" };
+		{ BLUE.."E) Entrances" };
+		{ GREY.."1) Ha'Lei" };
+		{ GREY..INDENT.."Greatfather Aldrimus" };
+		{ GREY..INDENT.."Clarissa" };
+		{ GREY..INDENT.."Ramdor the Mad" };
+		{ GREY..INDENT.."Horvon the Armorer" };
+		{ GREY.."2) Nexus-Prince Haramad" };
+		{ GREY..INDENT.."Artificer Morphalius" };
+		{ GREY..INDENT.."Mamdy the \"Ologist\"" };
+		{ GREY..INDENT.."\"Slim\"" };
+		{ GREY..INDENT.."\"Captain\" Kaftiz" };
+		{ GREY.."3) Isfar" };
+		{ GREY.."4) Field Commander Mahfuun" };
+		{ GREY..INDENT.."Spy Grik'tha" };
+		{ GREY..INDENT.."Provisioner Tsaalt" };
+		{ GREY..INDENT.."Dealer Tariq" };
+		{ GREY.."5) Meeting Stone" };
+	};
+	BlackfathomDeepsEnt = {
+		ZoneName = { "Blackfathom Deeps (Entrance)" };
+		Location = { "Ashenvale" };
+		Acronym = "BFD";
+		LevelRange = "20-28";
+		MinLevel = "19";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) Blackfathom Deeps" };
+	};
+	BlackrockSpireEnt = {
+		ZoneName = { "Blackrock Mountain (Entrance)" };
+		Location = { "Searing Gorge / Burning Steppes" };
+		Acronym = "BRM";
+		LevelRange = "54-70";
+		MinLevel = "45";
+		PlayerLimit = "5/10/40";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Searing Gorge" };
+		{ BLUE.."B) Burning Steppes" };
+		{ BLUE.."C) Blackrock Depths (BRD)" };
+		{ BLUE..INDENT.."Molten Core (MC)" };
+		{ BLUE.."D) Lower Blackrock Spire (LBRS)" };
+		{ BLUE..INDENT.."Upper Blackrock Spire (UBRS)" };
+		{ BLUE..INDENT.."Blackwing Lair (BWL)" };
+		{ BLUE..INDENT.."Bodley (Ghost)" };
+		{ GREY.."1) Overmaster Pyron (Patrols)" };
+		{ GREY.."2) Lothos Riftwaker" };
+		{ GREY.."3) Franclorn Forgewright (Ghost)" };
+		{ GREY.."4) BRD Meeting Stone" };
+		{ GREY.."5) Orb of Command" };
+		{ GREY.."6) BRS Meeting Stone" };
+		{ GREY.."7) Scarshield Quartermaster" };
+	};
+	CoilfangReservoirEnt = {
+		ZoneName = { "Coilfang Reservoir (Entrance)" };
+		Location = { "Zangarmarsh" };
+		Acronym = "CR";
+		LevelRange = "61-70";
+		MinLevel = "55";
+		PlayerLimit = "5/25";
+		Continent = AtlasLocale["Outland"];
+		{ BLUE.."A) The Slave Pens" };
+		{ BLUE.."B) The Steamvault" };
+		{ BLUE.."C) Serpentshrine Cavern" };
+		{ BLUE.."D) The Underbog" };
+		{ BLUE.."E) Entrance (Underwater)" };
+		{ GREY.."1) Watcher Jhang" };
+		{ GREY..INDENT.."Meeting Stone" };
+		{ GREY.."2) Mortog Steamhead" };
+	};
+	GnomereganEnt = {
+		ZoneName = { "Gnomeregan (Entrance)" };
+		Location = { "Dun Morogh" };
+		Acronym = AtlasLocale["Gnome"];
+		LevelRange = "24-32";
+		MinLevel = "15";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE..INDENT.."Meeting Stone" };
+		{ BLUE.."B) Gnomeregan (Main)" };
+		{ BLUE.."C) Gnomeregan (Workshop)" };
+		{ GREY.."1) Elevator" };
+		{ GREY.."2) Transpolyporter" };
+		{ GREY..INDENT.."Sprok" };
+		{ GREY.."3) Matrix Punchograph 3005-A" };
+		{ GREY..INDENT.."Namdo Bizzfizzle" };
+		{ GREY.."4) Techbot" };
+	};
+	MaraudonEnt = {
+		ZoneName = { "Maraudon (Entrance)" };
+		Location = { "Desolace" };
+		Acronym = "Mara";
+		LevelRange = "42-51";
+		MinLevel = "35";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE..INDENT.."The Nameless Prophet" };
+		{ BLUE.."B) Maraudon (Purple)" };
+		{ BLUE.."C) Maraudon (Orange)" };
+		{ BLUE.."D) Maraudon (Portal)" };
+		{ GREY.."1) Kolk (First Khan)" };
+		{ GREY.."2) Gelk (Second Khan)" };
+		{ GREY.."3) Magra (Third Khan)" };
+		{ GREY.."4) Cavindra" };
+	};
+	TheDeadminesEnt = {
+		ZoneName = { "The Deadmines (Entrance)" };
+		Location = { "Westfall" };
+		Acronym = "VC";
+		LevelRange = "16-22";
+		MinLevel = "10";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) The Deadmines" };
+		{ GREY.."1) Marisa du'Paige (Varies)" };
+		{ GREY.."2) Brainwashed Noble (Rare)" };
+		{ GREY.."3) Foreman Thistlenettle" };
+	};
+	TheSunkenTempleEnt = {
+		ZoneName = { "Sunken Temple (Entrance)" };
+		Location = { "Swamp of Sorrows" };
+		Acronym = "ST";
+		LevelRange = "46-53";
+		MinLevel = "35";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE..INDENT.."Meeting Stone" };
+		{ BLUE..INDENT.."Jade (Rare)" };
+		{ BLUE.."B) The Sunken Temple" };
+		{ GREY.."1) Kazkaz the Unholy (Upper)" };
+		{ GREY.."2) Zekkis (Rare, Lower)" };
+		{ GREY.."?) Veyzhak the Cannibal (Unknown)" };
+	};
+	UldamanEnt = {
+		ZoneName = { "Uldaman (Entrance)" };
+		Location = { "Badlands" };
+		Acronym = "Ulda";
+		LevelRange = "36-42";
+		MinLevel = "30";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) Uldaman" };
+		{ GREY.."1) Hammertoe Grez" };
+		{ GREY.."2) Magregan Deepshadow (Patrols)" };
+		{ GREY.."3) Tablet of Ryun'Eh" };
+		{ GREY.."4) Krom Stoutarm's Chest" };
+		{ GREY.."5) Garrett Family Chest" };
+		{ GREN.."1') Digmaster Shovelphlange (Rare, Varies)" };
+	};
+	WailingCavernsEnt = {
+		ZoneName = { "Wailing Caverns (Entrance)" };
+		Location = { "The Barrens" };
+		Acronym = "WC";
+		LevelRange = "16-25";
+		MinLevel = "10";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) Wailing Caverns" };
+		{ GREY.."1) Mad Magglish (Varies)" };
+		{ GREY.."2) Trigore the Lasher (Rare)" };
+		{ GREY.."3) Boahn (Rare)" };
+		{ "" };
+		{ ORNG.."Above the Entrance:" };
+		{ GREY..INDENT.."Ebru" };
+		{ GREY..INDENT.."Nalpak" };
+		{ GREY..INDENT.."Kalldan Felmoon" };
+		{ GREY..INDENT.."Waldor" };
+	};
+	DireMaulEnt = {
+		ZoneName = { "Dire Maul (Entrance)" };
+		Location = { "Feralas" };
+		Acronym = "DM";
+		LevelRange = "55-60";
+		MinLevel = "45";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) East Wing" };
+		{ BLUE.."C) North Wing" };
+		{ BLUE.."D) West Wing" };
+		{ GREY.."1) Dire Pool" };
+		{ GREY.."2) Dire Maul Arena" };
+		{ GREY..INDENT.."Mushgog (Random)" };
+		{ GREY..INDENT.."Skarr the Unbreakable (Random)" };
+		{ GREY..INDENT.."The Razza (Random)" };
+		{ GREY..INDENT.."Elder Mistwalker (Lunar)" };
+	};
+	CoTEnt = {
+		ZoneName = { "Caverns of Time (Entrance)" };
+		Location = { "Tanaris" };
+		Acronym = "CoT";
+		LevelRange = "66-70";
+		MinLevel = "66";
+		PlayerLimit = "5/25";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) Hyjal Summit" };
+		{ BLUE.."C) Old Hillsbrad Foothills" };
+		{ BLUE.."D) The Black Morass" };
+		{ GREY.."1) Steward of Time" };
+		{ GREY.."2) Alexston Chrome" };
+		{ GREY.."3) Graveyard" };
+		{ GREY.."4) Yarley" };
+		{ GREY.."5) Bortega" };
+		{ GREY..INDENT.."Galgrom" };
+		{ GREY..INDENT.."Alurmi" };
+		{ GREY.."6) Zaladormu" };
+		{ GREY..INDENT.."Soridormi (Wanders)" };
+		{ GREY..INDENT.."Arazmodu (Wanders)" };
+		{ GREY.."7) Moonwell" };
+		{ GREY.."8) Andormu (Child)" };
+		{ GREY..INDENT.."Nozari (Child)" };
+		{ GREY.."9) Andormu (Adult)" };
+		{ GREY..INDENT.."Nozari (Adult)" };
+	};
+	KarazhanEnt = {
+		ZoneName = { "Karazhan (Entrance)" };
+		Location = { "Deadwind Pass" };
+		Acronym = "Kara";
+		LevelRange = "70";
+		MinLevel = "68";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		Location = "Deadwind Pass";
+		{ BLUE.."A) Front Entrance" };
+		{ BLUE.."B) Back Entrance" };
+		{ BLUE.."C) Meeting Stone" };
+		{ BLUE.."D) Graveyard" };
+		{ GREY.."1) Archmage Leryda" };
+		{ GREY.."2) Apprentice Darius" };
+		{ GREY.."3) Archmage Alturus" };
+		{ GREY.."4) Stairs to Underground Pond" };
+		{ GREY.."5) Stairs to Underground Well" };
+		{ GREY.."6) Charred Bone Fragment" };
+	};
+	SMEnt = {
+		ZoneName = { "Scarlet Monastery (Entrance)" };
+		Location = { "Tirisfal Glades" };
+		Acronym = "SM";
+		LevelRange = "28-42";
+		MinLevel = "20";
+		PlayerLimit = "10";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ BLUE.."A) Entrance" };
+		{ BLUE.."B) Graveyard" };
+		{ BLUE.."C) Cathedral" };
+		{ BLUE.."D) Armory" };
+		{ BLUE.."E) Library" };
 	};
 };

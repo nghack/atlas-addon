@@ -120,6 +120,7 @@ AtlasLocale = {
 	["Adult"] = "Adult";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alliance";
+	["Arcane Container"] = "Arcane Container";
 	["Argent Dawn"] = "Argent Dawn";
 	["Arms Warrior"] = "Arms Warrior";
 	["Attunement Required"] = "Attunement Required";
@@ -1087,7 +1088,7 @@ AtlasLocale = {
 	["Scrying Orb"] = "Scrying Orb";
 	["Kalecgos"] = "Kalecgos";
 	["Priestess Delrissa"] = "Priestess Delrissa";
-	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Sunstrider <Lord of the Blood Elves>";
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Sunstrider <Lord of the Blood Elves>";--omitted from TK: The Eye
 
 	--Sunwell Plateau
 	["Kalecgos"] = "Kalecgos";
@@ -1162,10 +1163,8 @@ AtlasLocale = {
 	--CR: The Steamvault
 	["Hydromancer Thespia"] = "Hydromancer Thespia";
 	["Main Chambers Access Panel"] = "Main Chambers Access Panel";
-	["Arcane Container"] = "Arcane Container";
 	["Second Fragment Guardian"] = "Second Fragment Guardian";
 	["Mekgineer Steamrigger"] = "Mekgineer Steamrigger";
-	["Main Chambers Access Panel"] = "Main Chambers Access Panel";
 	["Warlord Kalithresh"] = "Warlord Kalithresh";
 
 	--CR: Serpentshrine Cavern
@@ -1213,7 +1212,6 @@ AtlasLocale = {
 	["Grandmaster Vorpil"] = "Grandmaster Vorpil";
 	["The Codex of Blood"] = "The Codex of Blood";
 	["Murmur"] = "Murmur";
-	["Arcane Container"] = "Arcane Container";
 	["First Fragment Guardian"] = "First Fragment Guardian";
 
 	--TK: The Botanica
@@ -1228,7 +1226,6 @@ AtlasLocale = {
 	--TK: The Arcatraz
 	["Key to the Arcatraz"] = "Key to the Arcatraz";
 	["Zereketh the Unbound"] = "Zereketh the Unbound";
-	["Arcane Container"] = "Arcane Container";
 	["Third Fragment Guardian"] = "Third Fragment Guardian";
 	["Dalliah the Doomsayer"] = "Dalliah the Doomsayer";
 	["Wrath-Scryer Soccothrates"] = "Wrath-Scryer Soccothrates";
@@ -1251,7 +1248,6 @@ AtlasLocale = {
 	["Al'ar <Phoenix God>"] = "Al'ar <Phoenix God>";
 	["Void Reaver"] = "Void Reaver";
 	["High Astromancer Solarian"] = "High Astromancer Solarian";
-	["Kael'Thas Sunstrider <Lord of the Blood Elves>"] = "Kael'Thas Sunstrider <Lord of the Blood Elves>";
 	["Thaladred the Darkener <Advisor to Kael'thas>"] = "Thaladred the Darkener <Advisor to Kael'thas>";
 	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "Master Engineer Telonicus <Advisor to Kael'thas>";
 	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "Grand Astromancer Capernian <Advisor to Kael'thas>";
@@ -1394,8 +1390,6 @@ AtlasLocale = {
 	["Zaladormu"] = "Zaladormu";
 	["Soridormi <The Scale of Sands>"] = "Soridormi <The Scale of Sands>";
 	["Arazmodu <The Scale of Sands>"] = "Arazmodu <The Scale of Sands>";
-	["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
-	["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
 	["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
 	["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
 

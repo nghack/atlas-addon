@@ -1519,7 +1519,7 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Al'ar <Phoenix God>"], NPC, 19514 };
 		{ GREY.."2) "..AtlasLocale["Void Reaver"], NPC, 19516 };
 		{ GREY.."3) "..AtlasLocale["High Astromancer Solarian"], NPC, 18805 };
-		{ GREY.."4) "..AtlasLocale["Kael'Thas Sunstrider <Lord of the Blood Elves>"], NPC, 19622 };
+		{ GREY.."4) "..AtlasLocale["Kael'thas Sunstrider <Lord of the Blood Elves>"], NPC, 19622 };
 		{ GREY..INDENT..AtlasLocale["Thaladred the Darkener <Advisor to Kael'thas>"].." ("..AtlasLocale["Warrior"]..")", NPC, 20064 };
 		{ GREY..INDENT..AtlasLocale["Master Engineer Telonicus <Advisor to Kael'thas>"].." ("..AtlasLocale["Hunter"]..")", NPC, 20063 };
 		{ GREY..INDENT..AtlasLocale["Grand Astromancer Capernian <Advisor to Kael'thas>"].." ("..AtlasLocale["Mage"]..")", NPC, 20062 };

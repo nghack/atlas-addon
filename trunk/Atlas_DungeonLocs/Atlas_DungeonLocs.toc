@@ -9,17 +9,19 @@
 ## Notes-koKR: 던전 지역
 ## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置，顯示各個地下城所在位置
-## Version: 1.11.0
-## X-Date: March, 2008
+## Version: 1.12.0
+## X-Date: June, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## RequiredDeps: Atlas
 
-Locale\AtlasDungeonLocs-enUS.lua
-Locale\AtlasDungeonLocs-frFR.lua
-Locale\AtlasDungeonLocs-deDE.lua
-Locale\AtlasDungeonLocs-zhCN.lua
-Locale\AtlasDungeonLocs-zhTW.lua
-Locale\AtlasDungeonLocs-esES.lua
+Locale\Atlas_DungeonLocs-enUS.lua
+Locale\Atlas_DungeonLocs-frFR.lua
+Locale\Atlas_DungeonLocs-deDE.lua
+Locale\Atlas_DungeonLocs-zhCN.lua
+Locale\Atlas_DungeonLocs-zhTW.lua
+Locale\Atlas_DungeonLocs-esES.lua
+
+Atlas_DungeonLocs.lua

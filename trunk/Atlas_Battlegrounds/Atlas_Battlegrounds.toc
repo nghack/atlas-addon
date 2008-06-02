@@ -9,17 +9,19 @@
 ## Notes-koKR: 전장 지도
 ## Notes-zhCN: 战场地图
 ## Notes-zhTW: Atlas 戰場地圖
-## Version: 1.11.0
-## X-Date: March, 2008
+## Version: 1.12.0
+## X-Date: June, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## RequiredDeps:Atlas
 
-Locale\AtlasBattlegrounds-enUS.lua
-Locale\AtlasBattlegrounds-frFR.lua
-Locale\AtlasBattlegrounds-deDE.lua
-Locale\AtlasBattlegrounds-zhCN.lua
-Locale\AtlasBattlegrounds-zhTW.lua
-Locale\AtlasBattlegrounds-esES.lua
+Locale\Atlas_Battlegrounds-enUS.lua
+Locale\Atlas_Battlegrounds-frFR.lua
+Locale\Atlas_Battlegrounds-deDE.lua
+Locale\Atlas_Battlegrounds-zhCN.lua
+Locale\Atlas_Battlegrounds-zhTW.lua
+Locale\Atlas_Battlegrounds-esES.lua
+
+Atlas_Battlegrounds.lua

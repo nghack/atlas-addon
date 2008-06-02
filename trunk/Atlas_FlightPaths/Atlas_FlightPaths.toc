@@ -9,17 +9,19 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 航線地圖集，顯示兩大陣營在東西大陸及外域的飛行路徑
-## Version: 1.11.0
-## X-Date: March, 2008
+## Version: 1.12.0
+## X-Date: June, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## RequiredDeps: Atlas
 
-Locale\AtlasFlightPaths-enUS.lua
-Locale\AtlasFlightPaths-deDE.lua
-Locale\AtlasFlightPaths-frFR.lua
-Locale\AtlasFlightPaths-zhCN.lua
-Locale\AtlasFlightPaths-esES.lua
-Locale\AtlasFlightPaths-zhTW.lua
+Locale\Atlas_FlightPaths-enUS.lua
+Locale\Atlas_FlightPaths-deDE.lua
+Locale\Atlas_FlightPaths-frFR.lua
+Locale\Atlas_FlightPaths-zhCN.lua
+Locale\Atlas_FlightPaths-esES.lua
+Locale\Atlas_FlightPaths-zhTW.lua
+
+Atlas_FlightPaths.lua

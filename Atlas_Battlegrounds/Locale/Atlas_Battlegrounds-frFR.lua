@@ -24,181 +24,155 @@
 
 if ( GetLocale() == "frFR" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
+AtlasBGLocale = {
 
-	local myCategory = "Cartes des champs de bataille";
+	--Common
+	["Alliance"] = "Alliance";
+	["Battleground Maps"] = "Cartes des champs de bataille";
+	["Entrance"] = "Entrée";
+	["Horde"] = "Horde";
+	["Neutral"] = "Neutre";
+	["North"] = "Nord";
+	["Orange"] = "Orange "; -- Espace pour le blanc avant une double ponctuation française
+	["Red"] = "Rouge "; -- Espace pour le blanc avant une double ponctuation française
+	["Rep"] = "Reput ";
+	["Rescued"] = "Sauvé";
+	["South"] = "Sud";
+	["Summon"] = "Invoqué";
+	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
+	
+	--Places
+	["Alterac Mountains"] = "Montagnes d'Alterac";
+	["Alterac Valley"] = "Vallée d'Alterac"; ["AV"] = "AV/Alterac";
+	["Arathi Basin"] = "Bassin d'Arathi"; ["AB"] = "AB/Arathi";
+	["Arathi Highlands"] = "Hautes-Terres d'Arathi";
+	["Ashenvale"] = "Orneval";
+	["Eastern Kingdoms"] = "Royaumes de l'Est";
+	["Eye of the Storm"] = "L'Œil du Cyclone"; ["EotS"] = "EotS/L'Œil";
+	["Hillsbrad Foothills"] = "Contreforts de Hautebrande";
+	["Kalimdor"] = "Kalimdor";
+	["Netherstorm"] = "Raz-de-Néant";
+	["Outland"] = "Outreterre";
+	["The Barrens"] = "Les Tarides";
+	["Warsong Gulch"] = "Goulet des Chanteguerres"; ["WSG"] = "WSG/Goulet";
+	
+	--Alterac Valley (North)
+	["Stormpike Guard"] = "Garde Foudrepique";
+	["Dun Baldar"] = "Dun Baldar";
+	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Foudrepique <Général Foudrepique>";
+	["Dun Baldar North Marshal"] = "Maréchal de Dun Baldar nord";
+	["Dun Baldar South Marshal"] = "Maréchal de Dun Baldar sud";
+	["Icewing Marshal"] = "Maréchal de l'Aile de glace";
+	["Stonehearth Marshal"] = "Maréchal de Gîtepierre";
+	["Prospector Stonehewer"] = "Prospectrice Taillepierre";
+	["Irondeep Mine"] = "Mine de Gouffrefer";
+	["Morloch"] = "Morloch";
+	["Umi Thorson"] = "Umi Thorson";
+	["Keetar"] = "Keetar";
+	["Arch Druid Renferal"] = "Archidruide Ranfarouche";
+	["Dun Baldar North Bunker"] = "Fortin nord de Dun Baldar";
+	["Wing Commander Mulverick"] = "Chef d'escadrille Mulverick";
+	["Murgot Deepforge"] = "Murgot Forge-profonde";
+	["Dirk Swindle <Bounty Hunter>"] = "Dirk Lembrouille <Chasseur de primes>";
+	["Athramanis <Bounty Hunter>"] = "Athramanis <Chasseur de primes>";
+	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Tonnebière <Fournitures de forgeron>";
+	["Stormpike Aid Station"] = "Poste de Secours Foudrepique";
+	["Stormpike Stable Master <Stable Master>"] = "Maître des écuries Foudrepique <Maître des écuries>";
+	["Stormpike Ram Rider Commander"] = "Commandant Chevaucheur de bélier Foudrepique";
+	["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Mont-lointain <Fournitures d'artisanat>";
+	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Barbe-d'orge <Composants & fournitures pour poisons>";
+	["Stormpike Quartermaster"] = "Intendant Foudrepique";
+	["Jonivera Farmountain <General Goods>"] = "Jonivera Mont-lointain <Fournitures générales>";
+	["Brogus Thunderbrew <Food & Drink>"] = "Brogus Tonnebière <Nourriture & boissons>";
+	["Wing Commander Ichman"] = "Chef d'escadrille Ichman";
+	["Wing Commander Slidore"] = "Chef d'escadrille Slidore";
+	["Wing Commander Vipore"] = "Chef d'escadrille Vipore";
+	["Dun Baldar South Bunker"] = "Fortin sud de Dun Baldar";
+	["Corporal Noreg Stormpike"] = "Caporal Noreg Foudrepique";
+	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Forgemartel <Officier de ravitaillement Foudrepique>";
+	["Stormpike Graveyard"] = "Cimetière Foudrepique";
+	["Icewing Cavern"] = "Caverne de l'Aile de glace";
+	["Stormpike Banner"] = "Bannière foudrepique";
+	["Stormpike Lumber Yard"] = "Entrepôt de bois Foudrepique";
+	["Wing Commander Jeztor"] = "Chef d'escadrille Jeztor";
+	["Icewing Bunker"] = "Tour de l'Aile de glace";
+	["Wing Commander Guse"] = "Chef d'escadrille Guse";
+	["Stonehearth Graveyard"] = "Cimetière Gîtepierre";
+	["Stormpike Ram Rider Commander"] = "Commandant Chevaucheur de bélier Foudrepique";
+	["Stonehearth Outpost"] = "Avant-poste de Gîtepierre";
+	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitaine Balinda Gîtepierre <Capitaine Foudrepique>";
+	["Snowfall Graveyard"] = "Cimetière des neiges";
+	["Ichman's Beacon"] = "Balise d'Ichman";
+	["Mulverick's Beacon"] = "Balise de Mulverick";
+	["Stonehearth Bunker"] = "Tour de Gîtepierre";
+	["Ivus the Forest Lord"] = "Ivus le Seigneur de la forêt";
+	["Western Crater"] = "Cratère Ouest";
+	["Vipore's Beacon"] = "Balise de Vipore";
+	["Jeztor's Beacon"] = "Balise de Jeztor";
+	["Eastern Crater"] = "Cratère Est";
+	["Slidore's Beacon"] = "Balise de Slidore";
+	["Guse's Beacon"] = "Balise de Guse";
+	["Graveyards, Capturable Areas"] = "Cimetières, Zones capturable";--omitted from AVS
+	["Bunkers, Towers, Destroyable Areas"] = "Fortins, Tours, Zones destructibles";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "PNJs, Zones de quêtes";--omitted from AVS
 
-	local myData = {
-		AlteracValleyNorth = {
-			ZoneName = "Vallée d'Alterac (Nord, Alliance)";
-			Acronym = "AV / Alterac";
-			Location = "Montagnes d'Alterac";
-			ORNG.."Réput : Clan Loup-de-givre (Horde)";
-			ORNG.."Réput : Garde Foudrepique (Alliance)";
-			BLUE.."A) Entrée de l'Alliance";
-			BLUE.."B) Dun Baldar (Alliance)";
-			BLUE..INDENT.."Vanndar Foudrepique <Général Foudrepique> (Alliance)";
-			BLUE..INDENT.."Maréchal de Dun Baldar nord (Alliance)";
-			BLUE..INDENT.."Maréchal de Dun Baldar sud (Alliance)";
-			BLUE..INDENT.."Maréchal de l'Aile de glace (Alliance)";
-			BLUE..INDENT.."Maréchal de Gîtepierre (Alliance)";
-			BLUE..INDENT.."Prospectrice Taillepierre (Alliance)";			
-			_RED.."1) Mine de Gouffrefer";
-			GREY..INDENT.."Morloch (Neutral)";
-			GREY..INDENT.."Umi Thorson";
-			GREY..INDENT.."Keetar (Horde)";
-			GREY.."2) Archidruide Ranfarouche";
-			ORNG.."3) Fortin nord de Dun Baldar";
-			GREY..INDENT.."Chef d'escadrille Mulverick (Horde)";
-			GREY.."4) Murgot Forge-profonde";
-			GREY..INDENT.."Dirk Lembrouille <Chasseur de primes>";
-			GREY..INDENT.."Athramanis <Chasseur de primes>";
-			GREY..INDENT.."Lana Tonnebière <Fournitures de forgeron>";
-			_RED.."5) Poste de Secours Foudrepique";
-			GREY.."6) Maître des écuries Foudrepique <Maître des écuries>";
-			GREY..INDENT.."Commandant Chevaucheur de bélier Foudrepique";
-			GREY..INDENT.."Svalbrad Mont-lointain <Fournitures d'artisanat>";
-			GREY..INDENT.."Kurdrum Barbe-d'orge <Composants & fournitures pour poisons>";
-			GREY.."7) Intendant Foudrepique";
-			GREY..INDENT.."Jonivera Mont-lointain <Fournitures générales>";
-			GREY..INDENT.."Brogus Tonnebière <Nourriture & boissons>";
-			GREY.."8) Chef d'escadrille Ichman (Sauvé)";
-			GREY..INDENT.."Chef d'escadrille Slidore (Sauvé)";
-			GREY..INDENT.."Chef d'escadrille Vipore (Sauvé)";
-			ORNG.."9) Fortin sud de Dun Baldar";
-			GREY..INDENT.."Caporal Noreg Foudrepique";
-			GREY..INDENT.."Gaelden Forgemartel <Officier de ravitaillement Foudrepique>";
-			_RED.."10) Cimetière Foudrepique";
-			GREY.."11) Caverne de l'Aile de glace";
-			GREY..INDENT.."Bannière foudrepique";
-			GREY.."12) Entrepôt de bois Foudrepique";
-			GREY..INDENT.."Chef d'escadrille Jeztor (Horde)";
-			ORNG.."13) Tour de l'Aile de glace";
-			GREY..INDENT.."Chef d'escadrille Guse (Horde)";
-			_RED.."14) Cimetière Gîtepierre";
-			GREY.."15) Commandant Chevaucheur de bélier Foudrepique";
-			ORNG.."16) Avant-poste de Gîtepierre";
-			GREY..INDENT.."Capitaine Balinda Gîtepierre <Capitaine Foudrepique>";
-			_RED.."17) Cimetière des neiges";
-			GREY..INDENT.."Balise d'Ichman";
-			GREY..INDENT.."Balise de Mulverick (Horde)";
-			ORNG.."18) Tour de Gîtepierre";
-			GREY.."19) Ivus le Seigneur de la forêt (Zone d'invocation)";
-			GREY.."20) Cratère Ouest";
-			GREY..INDENT.."Balise de Vipore";
-			GREY..INDENT.."Balise de Jeztor (Horde)";
-			GREY.."21) Cratère Est";
-			GREY..INDENT.."Balise de Slidore";
-			GREY..INDENT.."Balise de Guse (Horde)";
-			"";
-			_RED.."Rouge :"..BLUE.." Cimetières, Zones capturable";
-			ORNG.."Orange :"..BLUE.." Fortins, Tours, Zones destructibles";
-			GREY.."Blanc :"..BLUE.." PNJs, Zones de quêtes";
-		};
-		AlteracValleySouth = {
-			ZoneName = "Vallée d'Alterac (Sud, Horde)";
-			Acronym = "AV / Alterac";
-			Location = "Contreforts de Hautebrande";
-			ORNG.."Réput : Clan Loup-de-givre";
-			BLUE.."A) Entrée de la Horde";
-			BLUE.."B) Donjon Loup-de-givre";
-			BLUE..INDENT.."Drek'Thar";
-			BLUE..INDENT.."Duros";
-			BLUE..INDENT.."Drakan";
-			BLUE..INDENT.."Maître de guerre Loup-de-givre ouest";
-			BLUE..INDENT.."Maître de guerre Loup-de-givre est";
-			BLUE..INDENT.."Maître de guerre de la Tour de la halte";
-			BLUE..INDENT.."Maître de guerre de Glace-sang";
-			GREY.."1) Lokholar le Seigneur de glace (Zone d'invocation)";
-			ORNG.."2) Garnison de Glace-sang";
-			GREY..INDENT.."Capitaine Galvangar";
-			ORNG.."3) Tour de Glace-sang";
-			_RED.."4) Cimetière de Glace-sang";
-			GREY.."Chef d'Escadrille Ichman (Alliance)";
-			ORNG.."5) Tour de la Halte";
-			GREY..INDENT.."Chef d'Escadrille Slidore (Alliance)";
-			GREY.."6) Mine de Froidedent";
-			GREY..INDENT.."Sous-chef Snivvle (Neutre)";
-			GREY..INDENT.."Masha Vivecoupe Horde)";
-			GREY..INDENT.."Aggi Grondécrase (Alliance)";
-			_RED.."7) Cimetière de Loup-de-givre";
-			GREY.."8) Chef d'Escadrille Vipore (Alliance)";
-			GREY..INDENT.."Jotek";
-			GREY..INDENT.."Forgeron Regzar";
-			GREY..INDENT.."Primaliste Thurloga";
-			GREY..INDENT.."Sergent Yazra Gronde-sang";
-			GREY.."9) Maître des écuries Loup-de-givre <Maître des écuries>";
-			GREY..INDENT.."Commandant Chevaucheur de loup Loup-de-givre";
-			GREY.."10) Intendant Loup-de-givre";
-			ORNG.."11) Tour Loup-de-givre occidentale";
-			ORNG.."12) Tour Loup-de-givre orientale";
-			GREY.."13) Chef d'Escadrille Guse (Sauvé)";
-			GREY..INDENT.."Chef d'Escadrille Jeztor (Sauvé)";
-			GREY..INDENT.."Chef d'Escadrille Mulverick (Sauvé)";
-			_RED.."14) Hutte de guérison Loup-de-givre";
-			GREY.."15) Caverne des Follepatte";
-			GREY..INDENT.."Bannière Loup-de-givre";
-			"";
-			_RED.."Rouge :"..BLUE.." Cimetières, Zones capturable";
-			ORNG.."Orange :"..BLUE.." Fortins, Tours, Zones destructibles";
-			GREY.."Blanc :"..BLUE.." PNJs, Zones de quêtes";
-		};
-		ArathiBasin = {
-			ZoneName = "Bassin d'Arathi";
-			Acronym = "AB / Arathi";
-			Location = "Hautes-Terres d'Arathi";
-			ORNG.."Réput : Les Profanateurs (Horde)";
-			ORNG.."Réput : La Ligue d'Arathor (Alliance)";
-			BLUE.."A) Manoir de Trollemort (Alliance)";
-			BLUE.."B) L'antre des Profanateurs (Horde)";
-			GREY.."1) Ecuries";
-			GREY.."2) Mine";
-			GREY.."3) Forge";
-			GREY.."4) Scierie";
-			GREY.."5) Ferme";
-		};
-		WarsongGulch = {
-			ZoneName = "Goulet des Chanteguerres";
-			Acronym = "WSG / Goulet";
-			Location = "Orneval / Les Tarides";
-			ORNG.."Réput : Voltigeurs Chanteguerre (Horde)";
-			ORNG.."Réput : Sentinelles d'Aile-argent (Alliance)";
-			BLUE.."A) Fort d'Aile-argent (Alliance)";
-			BLUE.."B) Scierie des Chanteguerre (Horde)";
-		};
-		EyeOfTheStorm = {
-			ZoneName = "L'Œil du Cyclone";
-			Acronym = "EotS / L'Œil";
-			Location = "Raz-de-Néant";
-			BLUE.."A) Entrée (Alliance)";
-			BLUE.."B) Entrée (Horde)";
-			_RED.."X) Cimetière";
-			ORNG.."X) Drapeau";
-			GREY.."1) Tour des mages";
-			GREY.."2) Ruines draenei";
-			GREY.."3) Ruines des saccageurs gangrenés";
-			GREY.."4) Tour des elfes de sang";
-		};
-	};
+	--Alterac Valley (South)
+	["Frostwolf Clan"] = "Clan Loup-de-givre";
+	["Frostwolf Keep"] = "Donjon Loup-de-givre";
+	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <Général Loup-de-givre>";
+	["Duros"] = "Duros";
+	["Drakan"] = "Drakan";
+	["West Frostwolf Warmaster"] = "Maître de guerre Loup-de-givre ouest";
+	["East Frostwolf Warmaster"] = "Maître de guerre Loup-de-givre est";
+	["Tower Point Warmaster"] = "Maître de guerre de la Tour de la halte";
+	["Iceblood Warmaster"] = "Maître de guerre de Glace-sang";
+	["Lokholar the Ice Lord"] = "Lokholar le Seigneur de glace";
+	["Iceblood Garrison"] = "Garnison de Glace-sang";
+	["Captain Galvangar <Frostwolf Captain>"] = "Capitaine Galvangar <Capitaine Loup-de-givre>";
+	["Iceblood Tower"] = "Tour de Glace-sang";
+	["Iceblood Graveyard"] = "Cimetière de Glace-sang";
+	["Tower Point"] = "Tour de la Halte";
+	["Coldtooth Mine"] = "Mine de Froidedent";
+	["Taskmaster Snivvle"] = "Sous-chef Snivvle";
+	["Masha Swiftcut"] = "Masha Vivecoupe";
+	["Aggi Rumblestomp"] = "Aggi Grondécrase";
+	["Frostwolf Graveyard"] = "Cimetière de Loup-de-givre";
+	["Jotek"] = "Jotek";
+	["Smith Regzar"] = "Forgeron Regzar";
+	["Primalist Thurloga"] = "Primaliste Thurloga";
+	["Sergeant Yazra Bloodsnarl"] = "Sergent Yazra Gronde-sang";
+	["Frostwolf Stable Master <Stable Master>"] = "Maître des écuries Loup-de-givre <Maître des écuries>";
+	["Frostwolf Wolf Rider Commander"] = "Commandant Chevaucheur de loup Loup-de-givre";
+	["Frostwolf Quartermaster"] = "Intendant Loup-de-givre";
+	["West Frostwolf Tower"] = "Tour Loup-de-givre occidentale";
+	["East Frostwolf Tower"] = "Tour Loup-de-givre orientale";
+	["Frostwolf Relief Hut"] = "Hutte de guérison Loup-de-givre";
+	["Wildpaw Cavern"] = "Caverne des Follepatte";
+	["Frostwolf Banner"] = "Bannière Loup-de-givre";
 
-	myData.AlteracValleyNorth.LevelRange =	"51-70";
-	myData.AlteracValleySouth.LevelRange =	"51-70";
-	myData.ArathiBasin.LevelRange =			"20-70";
-	myData.WarsongGulch.LevelRange =		"10-70";
-	myData.EyeOfTheStorm.LevelRange =		"61-70";
+	--Arathi Basin
+	["The Defilers"] = "Les Profanateurs";
+	["The League of Arathor"] = "La Ligue d'Arathor";
+	["Trollbane Hall"] = "Manoir de Trollemort";
+	["Defiler's Den"] = "L'antre des Profanateurs";
+	["Stables"] = "Ecuries";
+	["Gold Mine"] = "Mine";
+	["Smithy"] = "Forge";
+	["Lumber Mill"] = "Scierie";
+	["Farm"] = "Ferme";
 
-	myData.AlteracValleyNorth.PlayerLimit =	"40";
-	myData.AlteracValleySouth.PlayerLimit =	"40";
-	myData.ArathiBasin.PlayerLimit =		"15";
-	myData.WarsongGulch.PlayerLimit =		"10";
-	myData.EyeOfTheStorm.PlayerLimit =		"15";
+	--Warsong Gulch
+	["Warsong Outriders"] = "Voltigeurs Chanteguerre";
+	["Silverwing Sentinels"] = "Sentinelles d'Aile-argent";
+	["Silverwing Hold"] = "Fort d'Aile-argent";
+	["Warsong Lumber Mill"] = "Scierie des Chanteguerre";
 
-	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
-
+	--Eye of the Storm
+	["Graveyard"] = "Cimetière";
+	["Flag"] = "Drapeau";
+	["Mage Tower"] = "Tour des mages";
+	["Draenei Ruins"] = "Ruines draenei";
+	["Fel Reaver Ruins"] = "Ruines des saccageurs gangrenés";
+	["Blood Elf Tower"] = "Tour des elfes de sang";
+};
 end

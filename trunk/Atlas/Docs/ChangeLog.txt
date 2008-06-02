@@ -48,6 +48,7 @@ v1.12.0
 - tweaked auto-select, more outdoor zones are now associated with instance maps
 - expanded meta-zone abbreviations to their full names, eg. HFC --> Hellfire Citadel
 - added a new sort-by option: type (separating instances and entrances)
+- added a key-binding to force a one-time auto-select, even if the option is disabled
 - this is a giant update, my apologies if I've forgotten anything
 
 v1.11.0

@@ -40,6 +40,7 @@ ATLAS_DESC = "Atlas is an instance map browser.";
 BINDING_HEADER_ATLAS_TITLE = "Atlas Bindings";
 BINDING_NAME_ATLAS_TOGGLE = "Toggle Atlas";
 BINDING_NAME_ATLAS_OPTIONS = "Toggle Options";
+BINDING_NAME_ATLAS_AUTOSEL = "Auto-Select";
 
 ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";

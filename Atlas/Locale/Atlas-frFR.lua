@@ -1,18 +1,18 @@
 ﻿--[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
--- Version WoW 2.4.1 (french client)
+-- Version WoW 2.4.2 (french client)
 -- Sur un travail de Wysiwyg, Trs
 -- Mise à jour par Kiria
--- le 02/06/2008
+-- le 03/06/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
 
-AtlasSortIgnore = {
-	"le (.+)",
-	"la (.+)",
-	"les (.+)"
-};
+--************************************************
+-- Global Atlas Strings
+--************************************************
+
+AtlasSortIgnore = {"le (.+)", "la (.+)", "les (.+)"};
 
 ATLAS_TITLE    = "Atlas";
 ATLAS_SUBTITLE = "Navigateur de cartes d'instances";
@@ -21,6 +21,7 @@ ATLAS_DESC     = "Atlas est un navigateur de cartes d'instances.";
 BINDING_HEADER_ATLAS_TITLE = "Atlas";
 BINDING_NAME_ATLAS_TOGGLE  = "Atlas [Ouvrir/Fermer]";
 BINDING_NAME_ATLAS_OPTIONS = "Options [Ouvrir/Fermer]";
+BINDING_NAME_ATLAS_AUTOSEL = "Auto-Select";
 
 ATLAS_SLASH         = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";
@@ -104,10 +105,11 @@ AtlasLocale = {
 	["Adult"] = "Adulte";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alliance";
+	["Arcane Container"] = "Arcane Container";
 	["Argent Dawn"] = "Aube d'argent";
 	["Arms Warrior"] = "Guerrier Armes";
 	["Attunement Required"] = "Harmonisation requise";
-	["Back"] = "de derrière"; -- Verifier sur Back Door ce que ça donne
+	["Back"] = "de derrière"; -- Back de Back Door, trouver mieux
 	["Basement"] = "Sous-sol";
 	["Bat"] = "Chauve-souris";
 	["Blacksmithing Plans"] = "Plans de forge";
@@ -123,11 +125,11 @@ AtlasLocale = {
 	["Elevator"] = "Ascenseur";
 	["End"] = "Fin";
 	["Entrance"] = "Entrée";
-	["Event"] = "Evènement "; -- Espace pour le blanc avant une double ponctuation française
+	["Event"] = "Evènement "; -- Espace pour le blanc avant une double ponctuation
 	["Exalted"] = "Exalté";
 	["Exit"] = "Sortie";
 	["Fourth Stop"] = "Quatrième arrêt";
-	["Front Door"] = "Principale";
+	["Front"] = "Principale"; -- Front de Front Door, trouver mieux
 	["Ghost"] = "Fantôme";
 	["Hallow's End"] = "Sanssaint";
 	["Heroic"] = "Héroïque";
@@ -136,7 +138,7 @@ AtlasLocale = {
 	["Horde"] = "Horde";
 	["Hunter"] = "Chasseur";
 	["Imp"] = "Diablotin";
-	["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation française
+	["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation
 	["Lower"] = "En bas";
 	["Lunar"] = "Fête lunaire";
 	["Mage"] = "Mage";
@@ -149,7 +151,7 @@ AtlasLocale = {
 	["Outside"] = "Extérieur";
 	["Paladin"] = "Paladin";
 	["Panther"] = "Panthère";
-	["Patrols"] = "Patrouilles";
+	["Patrols"] = "Patrouille";
 	["Portal"] = "Portail";
 	["Priest"] = "Prêtre";
 	["Protection Warrior"] = "Guerrier Protection";
@@ -157,7 +159,7 @@ AtlasLocale = {
 	["Random"] = "Aléatoire";
 	["Raptor"] = "Raptor";
 	["Rare"] = "Rare";
-	["Rep"] = "Réput "; -- Espace pour le blanc avant une double ponctuation française
+	["Rep"] = "Réput "; -- Espace pour le blanc avant une double ponctuation 
 	["Repair"] = "Réparation";
 	["Retribution Paladin"] = "Paladin Vindicte";
 	["Rewards"] = "Récompenses";
@@ -883,7 +885,7 @@ AtlasLocale = {
 	["Elder Starsong"] = "Ancienne Chantétoile";
 	["Statue Activation Order"] = "Ordre d'activation des statues";
 	
---Uldaman
+	--Uldaman
 	["Staff of Prehistoria"] = "Bâton de la préhistoire";
 	["Baelog"] = "Baelog";
 	["Eric \"The Swift\""] = "Eric \"l'Agile\"";
@@ -957,7 +959,7 @@ AtlasLocale = {
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 	
---Karazhan Start
+	--Karazhan Start
 	["The Violet Eye"] = "L'Œil pourpre";--omitted from Karazhan End
 	["The Master's Key"] = "La clé du maître";--omitted from Karazhan End
 	["Blackened Urn"] = "Urne noircie";
@@ -971,7 +973,7 @@ AtlasLocale = {
 	["Hastings <The Caretaker>"] = "Hastings <Le gardien>";
 	["Servant Quarters"] = "Quartier des serviteurs";
 	["Hyakiss the Lurker"] = "Hyakiss la Rôdeuse";
-["Rokad the Ravager"] = "Rodak le ravageur"; -- Erreur de trad de l'equipe officielle ?
+["Rokad the Ravager"] = "Rodak le ravageur"; -- attente de confirmation par l'equipe de trad.
 	["Shadikith the Glider"] = "Shadikith le glisseur";
 	["Berthold <The Doorman>"] = "Berthold <Le concierge>";
 	["Calliard <The Nightman>"] = "Calliard <Le veilleur de nuit>";
@@ -1085,7 +1087,7 @@ AtlasLocale = {
 	["Lady Sacrolash"] = "Dame Sacrolash";
 	["M'uru"] = "M'uru";
 	["Entropius"] = "Entropius";
-	["Kil'jaeden"] = "Kil'jaeden";
+	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <Le Trompeur>";
 
 --*******************
 -- Outland Instances
@@ -1110,9 +1112,9 @@ AtlasLocale = {
 	["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 	["Private Jacint"] = "Soldat Jacint";
 	["Rifleman Brownbeard"] = "Fusilier Brownbeard";
-["Captain Alina"] = "Captaine Alina";
+["Captain Alina"] = "Captaine Alina"; -- attente de confirmation par l'equipe de trad.
 	["Scout Orgarr"] = "Eclaireur Orgarr";
-["Korag Proudmane"] = "Korag Proudmane";
+["Korag Proudmane"] = "Korag Proudmane"; -- attente de confirmation par l'equipe de trad.
 	["Captain Boneshatter"] = "Capitaine Fracasse-os";
 
 	--HFC: Hellfire Ramparts
@@ -1147,7 +1149,6 @@ AtlasLocale = {
 	--CR: The Steamvault
 	["Hydromancer Thespia"] = "Hydromancienne Thespia";
 	["Main Chambers Access Panel"] = "Panneau d'accès de la salle principale";
-	["Arcane Container"] = "Récipient arcanique";
 	["Second Fragment Guardian"] = "Gardien du second fragment";
 	["Mekgineer Steamrigger"] = "Mékgénieur Montevapeur";
 	["Warlord Kalithresh"] = "Seigneur de guerre Kalithresh";
@@ -1283,110 +1284,108 @@ AtlasLocale = {
 --************************************************
 
 	--Auchindoun (Entrance)
-["Ha'Lei"] = "Ha'Lei";
-["Greatfather Aldrimus"] = "Greatfather Aldrimus";
-["Clarissa"] = "Clarissa";
-["Ramdor the Mad"] = "Ramdor the Mad";
-["Horvon the Armorer <Armorsmith>"] = "Horvon the Armorer <Armorsmith>";
-["Nexus-Prince Haramad"] = "Nexus-Prince Haramad";
-["Artificer Morphalius"] = "Artificer Morphalius";
-["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
-["\"Slim\" <Shady Dealer>"] = "\"Slim\" <Shady Dealer>";
-["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz";
-["Isfar"] = "Isfar";
-["Field Commander Mahfuun"] = "Field Commander Mahfuun";
-["Spy Grik'tha"] = "Spy Grik'tha";
-["Provisioner Tsaalt"] = "Provisioner Tsaalt";
-["Dealer Tariq <Shady Dealer>"] = "Dealer Tariq <Shady Dealer>";
+	["Ha'Lei"] = "Ha'Lei";
+	["Greatfather Aldrimus"] = "Grandpère Aldrimus";
+	["Clarissa"] = "Clarissa";
+	["Ramdor the Mad"] = "Ramdor le Fol";
+	["Horvon the Armorer <Armorsmith>"] = "Horvon l'Armurier <Fabricant d'armures>";
+	["Nexus-Prince Haramad"] = "Prince-nexus Haramad";
+	["Artificer Morphalius"] = "Artificier Morphalius";
+	["Mamdy the \"Ologist\""] = "Mamdy \"l'Ologiste\"";
+	["\"Slim\" <Shady Dealer>"] = "\"Mince\" <Marchand douteux>";
+["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz"; -- attente de confirmation par l'equipe de trad.
+	["Isfar"] = "Isfar";
+	["Field Commander Mahfuun"] = "Commandant Mahfuun";
+	["Spy Grik'tha"] = "Espionne Grik'tha";
+	["Provisioner Tsaalt"] = "Approvisionneur Tsaalt";
+	["Dealer Tariq <Shady Dealer>"] = "Camelot Tariq <Marchand douteux>";
 	
 	--Blackfathom Deeps (Entrance)
 	--Nothing to translate!
 	
 	--Blackrock Mountain (Entrance)
-["Bodley"] = "Bodley";
-["Overmaster Pyron"] = "Overmaster Pyron";
-["Lothos Riftwaker"] = "Lothos Riftwaker";
-["Franclorn Forgewright"] = "Franclorn Forgewright";
-["Orb of Command"] = "Orb of Command";
-["Scarshield Quartermaster <Scarshield Legion>"] = "Scarshield Quartermaster <Scarshield Legion>";
+	["Bodley"] = "Bodley";
+	["Overmaster Pyron"] = "Grand seigneur Pyron";
+	["Lothos Riftwaker"] = "Lothos Ouvrefaille";
+	["Franclorn Forgewright"] = "Franclorn Le Forgebusier";
+	["Orb of Command"] = "Orbe de Commandement";
+	["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
 	
 	--Coilfang Reservoir (Entrance)
-["Watcher Jhang"] = "Watcher Jhang";
-["Mortog Steamhead"] = "Mortog Steamhead";
+	["Watcher Jhang"] = "Guetteur Jhang";
+	["Mortog Steamhead"] = "Mortog Têtavapeur";
 	
 	--Gnomeregan (Entrance)
-["Transpolyporter"] = "Transpolyporter";
-["Sprok <Away Team>"] = "Sprok <Away Team>";
-["Matrix Punchograph 3005-A"] = "Matrix Punchograph 3005-A";
-["Namdo Bizzfizzle <Engineering Supplies>"] = "Namdo Bizzfizzle <Engineering Supplies>";
-["Techbot"] = "Techbot";
+	["Transpolyporter"] = "Portail de multitéléportation";
+	["Sprok <Away Team>"] = "Sproque <Equipe envoyée>";
+	["Matrix Punchograph 3005-A"] = "Matrice d'Encodage 3005-A";
+	["Namdo Bizzfizzle <Engineering Supplies>"] = "Namdo Ventaperte <Fournitures d'ingénieur>";
+	["Techbot"] = "Techbot";
 	
 	--Maraudon (Entrance)
-["The Nameless Prophet"] = "The Nameless Prophet";
-["Kolk <The First Kahn>"] = "Kolk <The First Kahn>";
-["Gelk <The Second Kahn>"] = "Gelk <The Second Kahn>";
-["Magra <The Third Kahn>"] = "Magra <The Third Kahn>";
-["Cavindra"] = "Cavindra";
+	["The Nameless Prophet"] = "Le Prophète sans nom";
+	["Kolk <The First Kahn>"] = "Kolk <Le premier Khan>";
+	["Gelk <The Second Kahn>"] = "Gelk <Le deuxième Kahn>";
+	["Magra <The Third Kahn>"] = "Magra <Le troisième Kahn>";
+	["Cavindra"] = "Cavindra";
 	
 	--The Deadmines (Entrance)
-["Marisa du'Paige"] = "Marisa du'Paige";
-["Brainwashed Noble"] = "Brainwashed Noble";
-["Foreman Thistlenettle"] = "Foreman Thistlenettle";
+	["Marisa du'Paige"] = "Marisa du'Paige";
+	["Brainwashed Noble"] = "Noble manipulé";
+	["Foreman Thistlenettle"] = "Contremaître Crispechardon";
 
 	--Sunken Temple (Entrance)
-["Jade"] = "Jade";
-["Kazkaz the Unholy"] = "Kazkaz the Unholy";
-["Zekkis"] = "Zekkis";
-["Veyzhak the Cannibal"] = "Veyzhak the Cannibal";
+	["Jade"] = "Jade";
+	["Kazkaz the Unholy"] = "Kazkaz l'Impie";
+	["Zekkis"] = "Zekkis";
+	["Veyzhak the Cannibal"] = "Veyzhak le Cannibale";
 	
 	--Uldaman (Entrance)
-["Hammertoe Grez"] = "Hammertoe Grez";
-["Magregan Deepshadow"] = "Magregan Deepshadow";
-["Tablet of Ryun'Eh"] = "Tablet of Ryun'Eh";
-["Krom Stoutarm's Chest"] = "Krom Stoutarm's Chest";
-["Garrett Family Chest"] = "Garrett Family Chest";
-["Digmaster Shovelphlange"] = "Digmaster Shovelphlange";
+	["Hammertoe Grez"] = "Martèlorteil Grez";
+	["Magregan Deepshadow"] = "Magregan Fondombre";
+	["Tablet of Ryun'Eh"] = "Tablette de Ryun'eh";
+	["Krom Stoutarm's Chest"] = "Trésor de Krom Rudebras";
+	["Garrett Family Chest"] = "Trésor de la famille Garrett";
+	["Digmaster Shovelphlange"] = "Maître des fouilles Pellaphlange";
 	
 	--Wailing Caverns (Entrance)
-["Mad Magglish"] = "Mad Magglish";
-["Trigore the Lasher"] = "Trigore the Lasher";
-["Boahn <Druid of the Fang>"] = "Boahn <Druid of the Fang>";
-["Above the Entrance:"] = "Above the Entrance:";
-["Ebru <Disciple of Naralex>"] = "Ebru <Disciple of Naralex>";
-["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple of Naralex>";
-["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Kalldan Felmoon <Specialist Leatherworking Supplies>";
-["Waldor <Leatherworking Trainer>"] = "Waldor <Leatherworking Trainer>";
+	["Mad Magglish"] = "Magglish le Dingue";
+	["Trigore the Lasher"] = "Trigore le Flagelleur";
+	["Boahn <Druid of the Fang>"] = "Boahn <Druide du Croc>";
+	["Above the Entrance:"] = "Au-dessus de l'entrée :";
+	["Ebru <Disciple of Naralex>"] = "Ebru <Disciple de Naralex>";
+	["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple de Naralex>";
+	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Kalldan Gangrelune <Fournitures de travailleur du cuir spécialiste>";
+	["Waldor <Leatherworking Trainer>"] = "Waldor <Maître des travailleurs du cuir>";
 	
 	--Dire Maul (Entrance)
-["Dire Pool"] = "Dire Pool";
-["Dire Maul Arena"] = "Dire Maul Arena";
-["Mushgog"] = "Mushgog";
-["Skarr the Unbreakable"] = "Skarr the Unbreakable";
-["The Razza"] = "The Razza";
-["Elder Mistwalker"] = "Elder Mistwalker";
+	["Dire Pool"] = "Bassin redoutable";
+	["Dire Maul Arena"] = "L'Etripoir";
+	["Mushgog"] = "Mushgog";
+	["Skarr the Unbreakable"] = "Bâlhafr l'Invaincu";
+	["The Razza"] = "La Razza";
+	["Elder Mistwalker"] = "Ancienne Marche-brume";
 	
 	--Caverns of Time (Entrance)
-["Steward of Time <Keepers of Time>"] = "Steward of Time <Keepers of Time>";
-["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Tavern of Time>";
-["Yarley <Armorer>"] = "Yarley <Armorer>";
-["Bortega <Reagents & Poison Supplies>"] = "Bortega <Reagents & Poison Supplies>";
-["Galgrom <Provisioner>"] = "Galgrom <Provisioner>";
-["Alurmi <Keepers of Time Quartermaster>"] = "Alurmi <Keepers of Time Quartermaster>";
-["Zaladormu"] = "Zaladormu";
-["Soridormi <The Scale of Sands>"] = "Soridormi <The Scale of Sands>";
-["Arazmodu <The Scale of Sands>"] = "Arazmodu <The Scale of Sands>";
-["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
-["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
-["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
-["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
+	["Steward of Time <Keepers of Time>"] = "Régisseur du temps <Les Gardiens du temps>";
+	["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Gargotte du temps>";
+	["Yarley <Armorer>"] = "Yarley <Armurier>";
+	["Bortega <Reagents & Poison Supplies>"] = "Bortega <Composants & poisons>";
+	["Galgrom <Provisioner>"] = "Galgrom <Approvisionneur>";
+	["Alurmi <Keepers of Time Quartermaster>"] = "Alurmi <Intendant des gardiens du Temps>";
+	["Zaladormu"] = "Zaladormu";
+	["Soridormi <The Scale of Sands>"] = "Soridormi <La Balance des sables>";
+	["Arazmodu <The Scale of Sands>"] = "Arazmodu <La Balance des sables>";
+	["Andormu <Keepers of Time>"] = "Andormu <Les Gardiens du temps>";
+	["Nozari <Keepers of Time>"] = "Nozari <Les Gardiens du temps>";
 	
 	--Karazhan (Entrance)
-["Archmage Leryda"] = "Archmage Leryda";
-["Apprentice Darius"] = "Apprentice Darius";
-["Archmage Alturus"] = "Archmage Alturus";
-["Stairs to Underground Pond"] = "Stairs to Underground Pond";
-["Stairs to Underground Well"] = "Stairs to Underground Well";
-["Charred Bone Fragment"] = "Charred Bone Fragment";
+	["Archmage Leryda"] = "Archimage Leryda";
+	["Apprentice Darius"] = "Apprenti Darius";
+	["Archmage Alturus"] = "Archimage Alturus";
+	["Stairs to Underground Pond"] = "Escalier vers le bassin souterrain";
+	["Stairs to Underground Well"] = "Escalier vers le puits souterrain";
+	["Charred Bone Fragment"] = "Fragment d'os carbonisé";
 	
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!

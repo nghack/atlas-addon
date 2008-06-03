@@ -73,12 +73,12 @@ ATLAS_DDL_PARTYSIZE_5 = "5人副本";
 ATLAS_DDL_PARTYSIZE_10 = "10人副本";
 ATLAS_DDL_PARTYSIZE_20TO40 = "20-40人副本";
 ATLAS_DDL_EXPANSION = "资料片";
-ATLAS_DDL_EXPANSION_OLD_AO = "旧世界副本 (A-O)";
-ATLAS_DDL_EXPANSION_OLD_PZ = "旧世界副本 (P-Z)";
+ATLAS_DDL_EXPANSION_OLD_AO = "旧世界副本 (第一页)";
+ATLAS_DDL_EXPANSION_OLD_PZ = "旧世界副本 (第二页)";
 ATLAS_DDL_EXPANSION_BC = "《燃烧的远征》副本";
 ATLAS_DDL_TYPE = "类型";
-ATLAS_DDL_TYPE_INSTANCE_AK = "副本 (A-K)";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "副本 (M-Z)";
+ATLAS_DDL_TYPE_INSTANCE_AK = "副本 (第一页)";
+ATLAS_DDL_TYPE_INSTANCE_MZ = "副本 (第二页)";
 ATLAS_DDL_TYPE_ENTRANCE = "入口";
 
 ATLAS_INSTANCE_BUTTON = "副本";
@@ -94,7 +94,7 @@ AtlasZoneSubstitutions = {
 	["黑暗神殿"] = "黑暗神殿 [A] (入门)";
 }; 
 
-local INDENT = "　";
+INDENT = "  ";
 
 AtlasLocale = {
 
@@ -189,7 +189,7 @@ AtlasLocale = {
 	["Workshop"] = "车间";
 
 	--Instance names and acronyms
-	["Armory"] = "军械库"; ["Armory"] = "Armory";
+	["Armory"] = "军械库"; --["Armory"] = "Armory";
 	["Auchenai Crypts"] = "奥金尼地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奥金顿"; ["Auch"] = "Auch";
 	["Black Temple"] = "黑暗神殿"; ["BT"] = "BT";
@@ -376,7 +376,7 @@ AtlasLocale = {
 	["Sandarr Dunereaver"] = "杉达尔·沙掠者";
 	
 	--Maraudon	
-	["Key: Scepter of Celebras"] = "塞雷布拉斯节杖";
+	["Scepter of Celebras"] = "塞雷布拉斯节杖";
 	["Veng <The Fifth Khan>"] = "温格 <第五可汗>";
 	["Noxxion"] = "诺克赛恩";
 	["Razorlash"] = "锐刺鞭笞者";
@@ -464,7 +464,7 @@ AtlasLocale = {
 	["Merithra of the Dream"] = "梦境之龙麦琳瑟拉";
 	
 	--Ruins of Ahn'Qiraj
-	["Rep: Cenarion Circle"] = "塞纳里奥议会";
+	["Cenarion Circle"] = "塞纳里奥议会";
 	["Kurinnaxx"] = "库林纳克斯";
 	["Lieutenant General Andorov"] = "安多洛夫中将";
 	["Four Kaldorei Elites"] = "卡多雷四精英";
@@ -485,7 +485,7 @@ AtlasLocale = {
 	--CoT: The Black Morass
 	["Opening of the Dark Portal"] = "开启黑暗之门";
 	["Keepers of Time"] = "时光守护者";--omitted from Old Hillsbrad Foothills
-	["Key of Time (Heroic)"] = "时光之匙 (英雄模式)";--omitted from Old Hillsbrad Foothills
+	["Key of Time"] = "时光之匙";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "萨艾特 <时光守护者>";
 	["Wave 6: Chrono Lord Deja"] = "第6波：时空领主德亚";
 	["Wave 12: Temporus"] = "第12波：坦普卢斯";

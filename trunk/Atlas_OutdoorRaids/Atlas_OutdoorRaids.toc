@@ -9,17 +9,19 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 野外團隊會戰地圖，顯示各世界首領地理位置圖
-## Version: 1.11.0
-## X-Date: March, 2008
+## Version: 1.12.0
+## X-Date: June, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## RequiredDeps: Atlas
 
-Locale\AtlasOutdoorRaids-enUS.lua
-Locale\AtlasOutdoorRaids-frFR.lua
-Locale\AtlasOutdoorRaids-deDE.lua
-Locale\AtlasOutdoorRaids-zhCN.lua
-Locale\AtlasOutdoorRaids-zhTW.lua
-Locale\AtlasOutdoorRaids-esES.lua
+Locale\Atlas_OutdoorRaids-enUS.lua
+Locale\Atlas_OutdoorRaids-frFR.lua
+Locale\Atlas_OutdoorRaids-deDE.lua
+Locale\Atlas_OutdoorRaids-zhCN.lua
+Locale\Atlas_OutdoorRaids-zhTW.lua
+Locale\Atlas_OutdoorRaids-esES.lua
+
+Atlas_OutdoorRaids.lua

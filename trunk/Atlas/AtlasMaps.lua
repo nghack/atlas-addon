@@ -1216,7 +1216,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Lady Sacrolash"].." ("..AtlasLocale["Lower"]..")", NPC, 25165 };
 		{ GREY..INDENT..AtlasLocale["M'uru"].." ("..AtlasLocale["Upper"]..")", NPC, 25741 };
 		{ GREY..INDENT..AtlasLocale["Entropius"].." ("..AtlasLocale["Upper"]..")", NPC, 25840 };
-		{ GREY.."4) "..AtlasLocale["Kil'jaeden"] };
+		{ GREY.."4) "..AtlasLocale["Kil'jaeden <The Deceiver>"], NPC, 25315 };
 	};
 
 --************************************************

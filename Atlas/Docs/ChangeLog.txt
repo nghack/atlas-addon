@@ -49,6 +49,7 @@ v1.12.0
 - expanded meta-zone abbreviations to their full names, eg. HFC --> Hellfire Citadel
 - added a new sort-by option: type (separating instances and entrances)
 - added a key-binding to force a one-time auto-select, even if the option is disabled
+- added <Angle Bracket Titles> to all appropriate mobs in the Atlas database
 - this is a giant update, my apologies if I've forgotten anything
 
 v1.11.0

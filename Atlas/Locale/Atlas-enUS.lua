@@ -1102,7 +1102,7 @@ AtlasLocale = {
 	["Lady Sacrolash"] = "Lady Sacrolash";
 	["M'uru"] = "M'uru";
 	["Entropius"] = "Entropius";
-	["Kil'jaeden"] = "Kil'jaeden";
+	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <The Deceiver>";
 	
 --*******************
 -- Outland Instances

@@ -3,110 +3,118 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 3/10/2008
+-- Last Update : 6/3/2008
 -- http://www.dreamgen.cn
 
 --]]
 
 if ( GetLocale() == "zhCN" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "　";
+AtlasDLLocale = {
 
-	local myCategory = "副本分布图";
+	--Common
+	["Battlegrounds"] = "战场";
+	["Blue"] = "蓝色";
+	["Dungeon Locations"] = "副本分布";
+	["East"] = "东部";
+	["Instances"] = "副本地下城";
+	["West"] = "西部";
+	["White"] = "白色";
 
-	local myData = {
-		DLEast = {
-			ZoneName = "地下城分布图 [A] (东部)";
-			Location = "东部王国";
-			BLUE.."A) 奥特兰克山谷, ".._RED.."奥特兰克山脉";
-			BLUE.."B) 阿拉希盆地, ".._RED.."阿拉希高地";
-			GREY.."1) 魔导师平台, ".._RED.."奎尔丹纳斯岛";
-			GREY..INDENT.."太阳之井高地, ".._RED.."奎尔丹纳斯岛";
-			GREY.."2) 祖阿曼, ".._RED.."幽魂之地";
-			GREY.."3) 血色修道院, ".._RED.."提瑞斯法林地";
-			GREY.."4) 斯坦所姆, ".._RED.."东瘟疫之地";
-			GREY..INDENT.."纳克萨玛斯, ".._RED.."斯坦所姆";
-			GREY.."5) 通灵学院, ".._RED.."西瘟疫之地";
-			GREY.."6) 影牙城堡, ".._RED.."银松森林";
-			GREY.."7) 诺莫瑞根, ".._RED.."丹莫罗";
-			GREY.."8) 奥达曼, ".._RED.."荒芜之地";
-			GREY.."9) 黑翼之巢, ".._RED.."黑石塔";
-			GREY..INDENT.."黑石深渊, ".._RED.."黑石山";
-			GREY..INDENT.."黑石塔, ".._RED.."黑石山";
-			GREY..INDENT.."熔火之心, ".._RED.."黑石深渊";
-			GREY.."10) 监狱, ".._RED.."暴风城";
-			GREY.."11) 死亡矿井, ".._RED.."西部荒野";
-			GREY.."12) 祖尔格拉布, ".._RED.."荆棘谷";
-			GREY.."13) 卡拉赞, ".._RED.."逆风小径";
-			GREY.."14) 沉没的神庙, ".._RED.."悲伤沼泽";
-			"";
-			"";
-			BLUE.."蓝色:"..ORNG.." 战场";
-			GREY.."白色:"..ORNG.." 副本地下城";
-		};
-		DLWest = {
-			ZoneName = "地下城分布图 [B] (西部)";
-			Location = "卡利姆多";
-			BLUE.."A) 战歌峡谷, ".._RED.."贫瘠之地/灰谷";
-			GREY.."1) 黑暗深渊, ".._RED.."灰谷";
-			GREY.."2) 怒焰裂谷, ".._RED.."奥格瑞玛";
-			GREY.."3) 哀嚎洞穴, ".._RED.."贫瘠之地";
-			GREY.."4) 玛拉顿, ".._RED.."凄凉之地";
-			GREY.."5) 厄运之槌, ".._RED.."菲拉斯";
-			GREY.."6) 剃刀沼泽, ".._RED.."贫瘠之地";
-			GREY.."7) 剃刀高地, ".._RED.."贫瘠之地";
-			GREY.."8) 奥妮克希亚的巢穴, ".._RED.."尘泥沼泽";
-			GREY.."9) 祖尔法拉克, ".._RED.."塔纳利斯";
-			GREY.."10) 时光之穴, ".._RED.."塔纳利斯";
-			GREY..INDENT.."旧希尔斯布莱德丘陵";
-			GREY..INDENT.."黑色沼泽";
-			GREY..INDENT.."海加尔山";
-			GREY.."11) 安其拉废墟, ".._RED.."希利苏斯";
-			GREY..INDENT.."安其拉神殿, ".._RED.."希利苏斯";
-			"";
-			"";
-			"";
-			"";
-			"";
-			"";
-			"";
-			BLUE.."蓝色:"..ORNG.." 战场";
-			GREY.."白色:"..ORNG.." 副本地下城";
-		};
-		DLOutland = {
-			ZoneName = "地下城分布图 [C] (外域)";
-			Location = "外域";
-			GREY.."1) 格鲁尔的巢穴, ".._RED.."刀锋山";
-			GREY.."2) 风暴要塞, ".._RED.."虚空风暴";
-			GREY..INDENT.."能量舰";
-			GREY..INDENT.."生态船";
-			GREY..INDENT.."禁魔监狱";
-			GREY..INDENT.."风暴之眼";
-			GREY.."3) 盘牙水库, ".._RED.."赞加沼泽";
-			GREY..INDENT.."奴隶围栏";
-			GREY..INDENT.."幽暗沼泽";
-			GREY..INDENT.."蒸汽地窖";
-			GREY..INDENT.."毒蛇神殿";
-			GREY.."4) 地狱火堡垒, ".._RED.."地狱火半岛";
-			GREY..INDENT.."地狱火城墙";
-			GREY..INDENT.."鲜血熔炉";
-			GREY..INDENT.."碎裂大厅";
-			GREY..INDENT.."玛瑟里顿的巢穴";
-			GREY.."5) 奥金顿, ".._RED.."泰罗卡森林";
-			GREY..INDENT.."法力陵墓";
-			GREY..INDENT.."奥金尼地穴";
-			GREY..INDENT.."塞泰克大厅";
-			GREY..INDENT.."暗影迷宫";
-			GREY.."6) 黑暗神殿, ".._RED.."影月谷";
-		};
-	};
+	--Places
+	["Alterac Mountains"] = "奥特兰克山脉";
+	["Alterac Valley"] = "奥特兰克山谷";
+	["Arathi Basin"] = "阿拉希盆地";
+	["Arathi Highlands"] = "阿拉希高地";
+	["Ashenvale"] = "灰谷";
+	["Auchenai Crypts"] = "奥金尼地穴";
+	["Auchindoun"] = "奥金顿";
+	["Badlands"] = "荒芜之地";
+	["Black Temple"] = "黑暗神殿";
+	["Blackfathom Deeps"] = "黑暗深渊";
+	["Blackrock Depths"] = "黑石深渊";
+	["Blackrock Mountain"] = "黑石山";
+	["Blackrock Spire"] = "黑石塔";
+	["Blackwing Lair"] = "黑翼之巢";
+	["Blade's Edge Mountains"] = "刀锋山";
+	["Caverns of Time"] = "时光之穴";
+	["Coilfang Reservoir"] = "盘牙水库";
+	["Deadwind Pass"] = "逆风小径";
+	["Desolace"] = "凄凉之地";
+	["Dire Maul"] = "厄运之槌";
+	["Dun Morogh"] = "丹莫罗";
+	["Dustwallow Marsh"] = "尘泥沼泽";
+	["Eastern Kingdoms"] = "东部王国";
+	["Eastern Plaguelands"] = "东瘟疫之地";
+	["Feralas"] = "菲拉斯";
+	["Ghostlands"] = "幽魂之地";
+	["Gnomeregan"] = "诺莫瑞根";
+	["Gruul's Lair"] = "格鲁尔的巢穴";
+	["Hellfire Citadel"] = "地狱火堡垒";
+	["Hellfire Peninsula"] = "地狱火半岛";
+	["Hellfire Ramparts"] = "地狱火城墙";
+	["Hillsbrad Foothills"] = "希尔斯布莱德丘陵";
+	["Hyjal Summit"] = "海加尔峰";
+	["Isle of Quel'Danas"] = "奎尔丹纳斯岛";
+	["Kalimdor"] = "卡利姆多";
+	["Karazhan"] = "卡拉赞";
+	["Magisters' Terrace"] = "魔导师平台";
+	["Magtheridon's Lair"] = "玛瑟里顿的巢穴";
+	["Mana-Tombs"] = "法力陵墓";
+	["Maraudon"] = "玛拉顿";
+	["Molten Core"] = "熔火之心";
+	["Naxxramas"] = "纳克萨玛斯";
+	["Netherstorm"] = "虚空风暴";
+	["Old Hillsbrad Foothills"] = "旧希尔斯布莱德丘陵";
+	["Onyxia's Lair"] = "奥妮克希亚的巢穴";
+	["Orgrimmar"] = "奥格瑞玛";
+	["Outland"] = "外域";
+	["Ragefire Chasm"] = "怒焰裂谷";
+	["Razorfen Downs"] = "剃刀高地";
+	["Razorfen Kraul"] = "剃刀沼泽";
+	["Ruins of Ahn'Qiraj"] = "安其拉废墟";
+	["Scarlet Monastery"] = "血色修道院";
+	["Scholomance"] = "通灵学院";
+	["Serpentshrine Cavern"] = "毒蛇神殿";
+	["Sethekk Halls"] = "塞泰克大厅";
+	["Shadow Labyrinth"] = "暗影迷宫";
+	["Shadowfang Keep"] = "影牙城堡";
+	["Shadowmoon Valley"] = "影月谷";
+	["Silithus"] = "希利苏斯";
+	["Silverpine Forest"] = "银松森林";
+	["Stormwind City"] = "暴风城";
+	["Stranglethorn Vale"] = "荆棘谷";
+	["Stratholme"] = "斯坦所姆";
+	["Sunken Temple"] = "沉没的神庙";
+	["Sunwell Plateau"] = "太阳之井高地";
+	["Swamp of Sorrows"] = "悲伤沼泽";
+	["Tanaris"] = "塔纳利斯";
+	["Tempest Keep"] = "风暴要塞";
+	["Temple of Ahn'Qiraj"] = "安其拉神殿";
+	["Terokkar Forest"] = "泰罗卡森林";
+	["The Arcatraz"] = "禁魔监狱";
+	["The Barrens"] = "贫瘠之地";
+	["The Black Morass"] = "黑色沼泽";
+	["The Blood Furnace"] = "鲜血熔炉";
+	["The Botanica"] = "生态船";
+	["The Deadmines"] = "死亡矿井";
+	["The Eye"] = "风暴之眼";
+	["The Mechanar"] = "能源舰";
+	["The Shattered Halls"] = "碎裂大厅";
+	["The Slave Pens"] = "奴隶围栏";
+	["The Steamvault"] = "蒸汽地窖";
+	["The Stockade"] = "监狱";
+	["The Underbog"] = "幽暗沼泽";
+	["Tirisfal Glades"] = "提瑞斯法林地";
+	["Uldaman"] = "奥达曼";
+	["Wailing Caverns"] = "哀嚎洞穴";
+	["Warsong Gulch"] = "战歌峡谷";
+	["Western Plaguelands"] = "西瘟疫之地";
+	["Westfall"] = "西部荒野";
+	["Zangarmarsh"] = "赞加沼泽";
+	["Zul'Aman"] = "祖阿曼";
+	["Zul'Farrak"] = "祖尔法拉克";
+	["Zul'Gurub"] = "祖尔格拉布";
 
-	Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);
-
+}
 end

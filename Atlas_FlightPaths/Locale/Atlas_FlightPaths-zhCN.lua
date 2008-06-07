@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/3/2008
+-- Last Update : 6/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -13,13 +13,11 @@ if ( GetLocale() == "zhCN" ) then
 AtlasFPLocale = {
 
 	["Aerie Peak"] = "鹰巢山";
-	["Aldor"] = "奥尔多";
 	["Allerian Stronghold"] = "奥蕾莉亚要塞";
 	["Alliance"] = "联盟";
 	["Altar of Sha'tar"] = "沙塔尔祭坛";
 	["Arathi Highlands"] = "阿拉希高地";
 	["Area 52"] = "52区";
-	["Ashenvale Forest"] = "灰谷森林";
 	["Ashenvale"] = "灰谷";
 	["Astranaar"] = "阿斯特兰纳";
 	["Auberdine"] = "奥伯丁";
@@ -28,6 +26,7 @@ AtlasFPLocale = {
 	["Badlands"] = "荒芜之地";
 	["Blackwind Landing"] = "黑风码头";
 	["Blade's Edge Mountains"] = "刀锋山";
+	["Blasted Lands"] = "诅咒之地";
 	["Blood Watch"] = "秘血岗哨";
 	["Bloodmyst Isle"] = "秘血岛";
 	["Bloodvenom Post"] = "血毒岗哨";
@@ -104,7 +103,6 @@ AtlasFPLocale = {
 	["Revantusk Village"] = "恶齿村";
 	["Rut'Theran Village"] = "鲁瑟兰村";
 	["Sanctum of the Stars"] = "群星圣殿";
-	["Scryer"] = "占星者";
 	["Searing Gorge"] = "灼热峡谷";
 	["Sentinel Hill"] = "哨兵岭";
 	["Shadowmoon Valley"] = "影月谷";
@@ -133,7 +131,7 @@ AtlasFPLocale = {
 	["Sylvanaar"] = "希尔瓦纳";
 	["Talonbranch Glade"] = "刺枝林地";
 	["Talrendis Point"] = "塔伦迪斯营地";
-	["Tanaris Desert"] = "塔纳利斯";
+	["Tanaris"] = "塔纳利斯";
 	["Tarren Mill"] = "塔伦米尔";
 	["Telaar"] = "塔拉";
 	["Teldrassil"] = "泰达希尔";
@@ -141,11 +139,12 @@ AtlasFPLocale = {
 	["Temple of Telhamat"] = "塔哈玛特神殿";
 	["Terokkar Forest"] = "泰罗卡森林";
 	["Thalanaar"] = "萨兰纳尔";
+	["The Aldor"] = "奥尔多";
 	["The Barrens"] = "贫瘠之地";
-	["The Blasted Lands"] = "诅咒之地";
 	["The Dark Portal"] = "黑暗之门";
 	["The Exodar"] = "埃索达";
 	["The Hinterlands"] = "辛特兰";
+	["The Scryers"] = "占星者";
 	["The Sepulcher"] = "瑟伯切尔";
 	["The Stormspire"] = "风暴尖塔";
 	["Thelsamar"] = "塞尔萨玛";

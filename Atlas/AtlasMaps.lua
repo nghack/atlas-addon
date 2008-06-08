@@ -187,7 +187,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Mara"];
 		Location = { AtlasLocale["Desolace"], 405 };
 		LevelRange = "42-51";
-		MinLevel = "35";
+		MinLevel = "30";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Scepter of Celebras"].." ("..AtlasLocale["Portal"]..")", ITEM, 17191 };
@@ -381,7 +381,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["CoT3"];
 		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Battle for Mount Hyjal"] };
@@ -650,7 +650,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Gnome"];
 		Location = { AtlasLocale["Dun Morogh"], 1 };
 		LevelRange = "24-32";
-		MinLevel = "15";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Workshop Key"].." ("..AtlasLocale["Back"]..")", ITEM, 6893 };
@@ -1013,7 +1013,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Nax"];
 		Location = { AtlasLocale["Eastern Plaguelands"], 139 };
 		LevelRange = "60-70";
-		MinLevel = "51";
+		MinLevel = "60";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
@@ -1183,7 +1183,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["MT"];
 		Location = { AtlasLocale["Isle of Quel'Danas"], 4080 };
 		LevelRange = "70";
-		MinLevel = "69";
+		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Shattered Sun Offensive"], FACTION, 1077 };
@@ -1358,7 +1358,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Zangarmarsh"], 3521 };
 		Acronym = AtlasLocale["SC"];
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
@@ -1510,7 +1510,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Netherstorm"], 3523 };
 		Acronym = AtlasLocale["Eye"];
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
@@ -1546,7 +1546,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Shadowmoon Valley"], 3520 };
 		Acronym = AtlasLocale["BT"];
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
@@ -1569,7 +1569,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Shadowmoon Valley"], 3520 };
 		Acronym = AtlasLocale["BT"];
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
@@ -1588,7 +1588,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Shadowmoon Valley"], 3520 };
 		Acronym = AtlasLocale["BT"];
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
@@ -1694,7 +1694,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Dun Morogh"], 1 };
 		Acronym = AtlasLocale["Gnome"];
 		LevelRange = "24-32";
-		MinLevel = "15";
+		MinLevel = "20";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1713,7 +1713,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Desolace"], 405 };
 		Acronym = AtlasLocale["Mara"];
 		LevelRange = "42-51";
-		MinLevel = "35";
+		MinLevel = "30";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };

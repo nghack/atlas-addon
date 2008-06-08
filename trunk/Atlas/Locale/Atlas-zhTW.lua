@@ -27,9 +27,13 @@
 -- Atlas English Localization
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
+-- Many thanks to all contributors!
 
 --]]
 if ( GetLocale() ==	"zhTW" ) then
+--************************************************
+-- Global Atlas Strings
+--************************************************
 
 AtlasSortIgnore = {"the (.+)"};
 
@@ -40,6 +44,7 @@ ATLAS_DESC = "Atlas 是一個副本地圖瀏覽器.";
 BINDING_HEADER_ATLAS_TITLE = "Atlas 按鍵設定";
 BINDING_NAME_ATLAS_TOGGLE = "開啟/關閉 Atlas";
 BINDING_NAME_ATLAS_OPTIONS = "切換設定";
+BINDING_NAME_ATLAS_AUTOSEL = "自動選擇";
 
 ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";
@@ -51,6 +56,7 @@ ATLAS_STRING_SELECT_CAT = "選擇類型";
 ATLAS_STRING_SELECT_MAP = "選擇地圖";
 ATLAS_STRING_SEARCH = "搜尋";
 ATLAS_STRING_CLEAR = "清除";
+ATLAS_STRING_MINLEVEL = "最低等級";
 
 ATLAS_OPTIONS_BUTTON = "選項";
 ATLAS_OPTIONS_TITLE = "Atlas 選項設定";
@@ -90,8 +96,13 @@ ATLAS_DDL_PARTYSIZE_5 = "5 人副本";
 ATLAS_DDL_PARTYSIZE_10 = "10 人副本";
 ATLAS_DDL_PARTYSIZE_20TO40 = "20-40 人副本";
 ATLAS_DDL_EXPANSION = "資料片";
-ATLAS_DDL_EXPANSION_OLD = "原魔獸世界副本";
+ATLAS_DDL_EXPANSION_OLD_AO = "舊世界副本 A-O";
+ATLAS_DDL_EXPANSION_OLD_PZ = "舊世界副本 P-Z";
 ATLAS_DDL_EXPANSION_BC = "燃燒的遠征副本";
+ATLAS_DDL_TYPE = "類型";
+ATLAS_DDL_TYPE_INSTANCE_AK = "副本 A-K";
+ATLAS_DDL_TYPE_INSTANCE_MZ = "副本 M-Z";
+ATLAS_DDL_TYPE_ENTRANCE = "入口";
 
 ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
@@ -111,94 +122,189 @@ AtlasLocale = {
 --************************************************
 
 	--Common strings
-	["Entrance"] = "入口";
-	["Exit"] = "出口";
+	["Adult"] = "成年";
+	["AKA"] = "AKA";
+	["Alliance"] = "聯盟";
+	["Arcane Container"] = "秘法容器";
+	["Argent Dawn"] = "銀色黎明";
+	["Arms Warrior"] = "武戰";
 	["Attunement Required"] = "需完成傳送門/鑰匙前置任務";
-	["Summon"] = "召喚";
-	["Upper"] = "上層";
-	["Rare"] = "稀有";
-	["Varies"] = "多處";
-	["Lunar"] = "新年慶典";
-	["Wanders"] = "徘徊";
-	["Key"] = "鑰匙";
-	["Orange"] = "橙";
-	["Purple"] = "紫";
-	["DS2"] = "副本套裝2";
+	["Back"] = "後方";
+	["Basement"] = "地下室";
+	["Bat"] = "蝙蝠";
+	["Blacksmithing Plans"] = "黑鐵鍛造圖樣";
+	["Boss"] = "首領";
+	["Brazier of Invocation"] = "祈願火盆";
+	["Brewfest"] = "啤酒節";
 	["Chase Begins"] = "追逐開始";
 	["Chase Ends"] = "追逐結束";
-	["Rep"] = "聲望";
-	["Outside"] = "戶外";
-	["Optional"] = "可選擇";
+	["Child"] = "幼年";
+	["Connection"] = "通道";
+	["DS2"] = "副本套裝2";
+	["East"] = "東方";
+	["Elevator"] = "電梯";
+	["End"] = "結束";
+	["Entrance"] = "入口";
 	["Event"] = "事件";
-	["Heroic"] = "英雄";
-	["Spawn Point"] = "生成點";
-	["Lower"] = "下層";
-	["Upstairs"] = "樓上";
-	["Second Stop"] = "第二停留點";
-	["Third Stop"] = "第三停留點";
+	["Exalted"] = "崇拜";
+	["Exit"] = "出口";
 	["Fourth Stop"] = "第四停留點";
-	["Portal"] = "入口/傳送門";
-	["Brewfest"] = "啤酒節";
-	["Blacksmithing Plans"] = "黑鐵鍛造圖樣";
-	["Random"] = "隨機";
-	["Connections"] = "通道";
-	["Connects"] = "通道";
-	["Brazier of Invocation"] = "祈願火盆";
-	["Back Door"] = "後門";
-	["Front Door"] = "前門";
-	["Boss"] = "首領";
+	["Front"] = "前方";
+	["Ghost"] = "鬼魂";
 	["Hallow's End"] = "萬鬼節";
-	["Stairway"] = "樓梯";
-	["Walkway"] = "走道";
+	["Heroic"] = "英雄";
+	["Holy Paladin"] = "神聖聖騎";
+	["Holy Priest"] = "神聖牧師";
+	["Horde"] = "部落";
+	["Hunter"] = "獵人";
+	["Imp"] = "Imp";
+	["Key"] = "鑰匙";
+	["Lower"] = "下層";
+	["Lunar"] = "新年慶典";
+	["Mage"] = "法師";
+	["Main"] = "主要";
+	["Meeting Stone"] = "集合石";
+	["Moonwell"] = "月井";
+	["North"] = "北方";
+	["Optional"] = "可選擇";
+	["Orange"] = "橙";
+	["Outside"] = "戶外";
+	["Paladin"] = "聖騎士";
+	["Panther"] = "黑豹";
+	["Patrols"] = "巡邏";
+	["Portal"] = "入口/傳送門";
+	["Priest"] = "牧師";
+	["Protection Warrior"] = "防戰";
+	["Purple"] = "紫";
+	["Random"] = "隨機";
+	["Raptor"] = "迅猛龍";
+	["Rare"] = "稀有";
+	["Rep"] = "聲望";
+	["Repair"] = "修理";
+	["Retribution Paladin"] = "懲戒聖騎";
+	["Rewards"] = "獎勵";
+	["Rogue"] = "盜賊";
+	["Second Stop"] = "第二停留點";
+	["Shadow Priest"] = "暗影牧師";
+	["Shaman"] = "薩滿";
+	["Side"] = "側邊";
+	["Snake"] = "蛇";
+	["Spawn Point"] = "生成點";
+	["Spider"] = "蜘蛛";
+	["Start"] = "開始";
+	["Summon"] = "召喚";
+	["Third Stop"] = "第三停留點";
+	["Tiger"] = "虎";
+	["Top"] = "上方";
+	["Undead"] = "不死族";
+	["Underwater"] = "水下";
+	["Unknown"] = "未知";
+	["Upper"] = "上層";
+	["Varies"] = "多處";
+	["Wanders"] = "徘徊";
+	["Warlock"] = "術士";
+	["Warrior"] = "戰士";
+	["West"] = "西方";
+	["Workshop"] = "車間";
+
+	--Instance names and acronyms
+	["Armory"] = "軍械庫"; ["Armory"] = "軍械庫";
+	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
+	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
+	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT";
+	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD";
+	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
+	["Blackrock Spire"] = "黑石塔"; ["LBRS"] = "LBRS/黑下"; ["UBRS"] = "UBRS/黑上";
+	["Blackwing Lair"] = "黑翼之巢"; ["BWL"] = "BWL";
+	["Cathedral"] = "大教堂"; ["Cath"] = "Cath";
+	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
+	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
+	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運之槌";
+	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
+	["Graveyard"] = "墓園"; ["GY"] = "GY";
+	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL";
+	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC";
+	["Hellfire Ramparts"] = "地獄火壁壘s"; ["Ramp"] = "Ramp";
+	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3";
+	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara";
+	["Library"] = "圖書館"; ["Lib"] = "Lib";
+	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT";
+	["Magtheridon's Lair"] = "瑪瑟里頓的巢穴"; ["Mag"] = "Mag";
+	["Mana-Tombs"] = "法力墓地"; ["MT"] = "MT";
+	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara";
+	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
+	["Naxxramas"] = "納克薩瑪斯"; ["Nax"] = "Nax";
+	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1";
+	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony";
+	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC/怒焰";
+	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
+	["Razorfen Kraul"] = "剃刀沼澤"; ["RFK"] = "RFK";
+	["Ruins of Ahn'Qiraj"] = "安其拉廢墟"; ["AQ20"] = "AQ20";
+	["Scarlet Monastery"] = "血色修道院"; ["SM"] = "SM";
+	["Scholomance"] = "通靈學院"; ["Scholo"] = "Scholo/通靈";
+	["Serpentshrine Cavern"] = "毒蛇神殿洞穴"; ["SC"] = "SC/毒蛇";
+	["Sethekk Halls"] = "塞司克大廳"; ["Seth"] = "Seth";
+	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL";
+	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
+	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat/斯坦";
+	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST";
+	["Sunwell Plateau"] = "太陽之井高地"; ["SP"] = "SP";
+	["Tempest Keep"] = "風暴要塞"; ["TK"] = "TK";
+	["Temple of Ahn'Qiraj"] = "安其拉神廟"; ["AQ40"] = "AQ40";
+	["The Arcatraz"] = "亞克崔茲"; ["Arca"] = "Arca/亞克";
+	["The Black Morass"] = "黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
+	["The Blood Furnace"] = "血熔爐"; ["BF"] = "BF";
+	["The Botanica"] = "波塔尼卡"; ["Bota"] = "Bota/波塔";
+	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC";
+	["The Eye"] = "風暴之眼"; ["Eye"] = "Eye";
+	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
+	["The Shattered Halls"] = "破碎大廳"; ["SH"] = "SH/破碎";
+	["The Slave Pens"] = "奴隸監獄"; ["SP"] = "SP";
+	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV";
+	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
+	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
+	["Uldaman"] = "奧達曼"; ["Uld"] = "Uld";
+	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC/哀嚎";
+	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
+	["Zul'Farrak"] = "祖爾法拉克"; ["ZF"] = "ZF/祖法";
+	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖耳";
 	
 	--Continents
-	["Kalimdor"] = "卡林多";
 	["Eastern Kingdoms"] = "東部王國";
-	
-	--Instance names and acronyms
-	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC/怒焰";
-	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC/哀嚎";
-	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD/黑淵";
-	["Razorfen Kraul"] = "剃刀沼澤"; ["RFK"] = "RFK";
-	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
-	["Zul'Farrak"] = "祖爾法拉克"; ["ZF"] = "ZF/祖法";
-	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara/瑪拉";
-	["Dire Maul (East)"] = "厄運之槌 (東)"; ["DM"] = "DM/東厄";
-	["Dire Maul (North)"] = "厄運之槌 (北)";
-	["Dire Maul (West)"] = "厄運之槌 (西)";
-	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony";
-	["Temple of Ahn'Qiraj"] = "安其拉神廟"; ["AQ40"] = "AQ40";
-	["Ruins of Ahn'Qiraj"] = "安其拉廢墟"; ["AQ20"] = "AQ20";
-	["CoT: The Black Morass"] = "時光之穴: 黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
-	["CoT: Hyjal Summit"] = "時光之穴: 海加爾山"; ["CoT3"] = "CoT3";
-	["CoT: Old Hillsbrad Foothills"] = "時光之穴: 希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1";
-	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
-	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
-	["Blackrock Spire"] = "黑石塔"; ["LBRS"] = "LBRS/黑下"; ["UBRS"] = "UBRS/黑上";
-	["Blackwing Lair"] = "黑翼之巢"; ["BWL"] = "BWL/黑翼";
-	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
-	["SM: Library"] = "修道院: 圖書館"; ["Lib"] = "Lib";
-	["SM: Armory"] = "修道院: 軍械庫"; ["Armory"] = "Armory";
-	["SM: Cathedral"] = "修道院: 大教堂"; ["Cath"] = "Cath";
-	["SM: Graveyard"] = "修道院: 墓園"; ["GY"] = "GY";
-	["Scholomance"] = "通靈學院"; ["Scholo"] = "Scholo/通靈";
-	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
+	["Kalimdor"] = "卡林多";
+	["Outland"] = "外域";
 	
 	--Outdoor zones, Locations
-	["Orgrimmar"] = "奧格瑪";
-	["The Barrens"] = "貧瘠之地";
 	["Ashenvale"] = "梣谷";
-	["Tanaris"] = "塔納利斯";
-	["Desolace"] = "淒涼之地";
-	["Feralas"] = "菲拉斯";
-	["Dustwallow Marsh"] = "塵泥沼澤";
-	["Silithus"] = "希利蘇斯";
-	["Caverns of Time, Tanaris"] = "時光之穴, 塔納利斯";
+	["Badlands"] = "荒蕪之地";
 	["Blackrock Mountain"] = "黑石山";
+	["Blade's Edge Mountains"] = "劍刃山脈";
+	["Burning Steppes"] = "燃燒平原";
+	["Deadwind Pass"] = "逆風小徑";
+	["Desolace"] = "淒涼之地";
 	["Dun Morogh"] = "丹莫洛";
-	["Scarlet Monastery, Tirisfal Glades"] = "血色修道院, 提里斯法林地";
-	["Western Plaguelands"] = "西瘟疫之地";
+	["Dustwallow Marsh"] = "塵泥沼澤";
+	["Eastern Plaguelands"] = "東瘟疫之地";
+	["Feralas"] = "菲拉斯";
+	["Ghostlands"] = "鬼魂之地";
+	["Hellfire Peninsula"] = "地獄火半島";
+	["Isle of Quel'Danas"] = "奎爾達納斯之島";
+	["Netherstorm"] = "虛空風暴";
+	["Orgrimmar"] = "奧格瑪";
+	["Searing Gorge"] = "灼熱峽谷";
+	["Shadowmoon Valley"] = "影月谷";
+	["Silithus"] = "希利蘇斯";
 	["Silverpine Forest"] = "銀松森林";
+	["Stormwind City"] = "暴風城";
+	["Stranglethorn Vale"] = "荊棘谷";
+	["Swamp of Sorrows"] = "悲傷沼澤";
+	["Tanaris"] = "塔納利斯";
+	["Terokkar Forest"] = "泰洛卡森林";
+	["The Barrens"] = "貧瘠之地";
+	["Tirisfal Glades"] = "提里斯法林地";
+	["Western Plaguelands"] = "西瘟疫之地";
+	["Westfall"] = "西部荒野";
+	["Zangarmarsh"] = "贊格沼澤";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -315,7 +421,7 @@ AtlasLocale = {
 	
 	--Dire Maul (North)
 	["Crescent Key"] = "月牙鑰匙";--omitted from Dire Maul (West)
-	["Library"] = "圖書館";--omitted from Dire Maul (West)
+	--["Library"] = "圖書館";--omitted from Dire Maul (West)
 	["Guard Mol'dar"] = "衛兵摩爾達";
 	["Stomper Kreeg <The Drunk>"] = "踐踏者克雷格";
 	["Guard Fengus"] = "衛兵芬古斯";
@@ -588,7 +694,6 @@ AtlasLocale = {
 	["Finkle Einhorn"] = "芬克·恩霍爾";
 	["General Drakkisath"] = "達基薩斯將軍";
 	["Drakkisath's Brand"] = "達基薩斯徽記";
-	["Blackwing Lair"] = "黑翼之巢";
 	
 	--Blackwing Lair
 	["Razorgore the Untamed"] = "狂野的拉佐格爾";
@@ -661,11 +766,13 @@ AtlasLocale = {
 	["Fallen Champion"] = "死靈勇士";
 	
 	--Scholomance
-	["Argent Dawn"] = "銀色黎明";
 	["Skeleton Key"] = "骷髏鑰匙";
-	["Viewing Room Key (Viewing Room)"] = "鑰匙: 觀察室鑰匙 (觀察室)";
-	["Blood of Innocents (Kirtonos)"] = "鑰匙: 無辜者之血 (基爾圖諾斯)";
-	["Divination Scryer (Darkreaver)"] = "鑰匙: 預言水晶球 (達克雷爾)";
+	["Viewing Room Key"] = "鑰匙: 觀察室鑰匙";
+	["Viewing Room"] = "觀察室";
+	["Blood of Innocents"] = "鑰匙: 無辜者之血";
+	["Kirtonos"] = "基爾圖諾斯";
+	["Divination Scryer"] = "鑰匙: 預言水晶球";
+	["Darkreaver"] = "達克雷爾";
 	["Blood Steward of Kirtonos"] = "基爾圖諾斯的衛士";
 	["The Deed to Southshore"] = "南海鎮地契";
 	["Kirtonos the Herald"] = "傳令官基爾圖諾斯";
@@ -709,754 +816,598 @@ AtlasLocale = {
 	["The Book of Ur"] = "烏爾之書";
 	["Wolf Master Nandos"] = "狼王南杜斯";
 	["Archmage Arugal"] = "大法師阿魯高";
-	--[[
-	Stratholme = {
-		ZoneName = { "Stratholme", 2017 };
-		Acronym = "Strat";
-		Location = { "Eastern Plaguelands", 139 };
-		LevelRange = "58-60";
-		PlayerLimit = "5";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Argent Dawn", FACTION, 529 };
-		{ ORNG.."Key: The Scarlet Key (Living Side)", ITEM, 7146 };
-		{ ORNG.."Key: Key to the City (Undead Side)", ITEM, 12382 };
-		{ ORNG.."Key: Various Postbox Keys (Postmaster)" };
-		{ ORNG.."Key: Brazier of Invocation (DS2)", ITEM, 22057 };
-		{ BLUE.."A) Entrance (Front)" };
-		{ BLUE.."B) Entrance (Side)" };
-		["1) Skul (Rare, Varies)"] = "";10393 };
-		["Stratholme Courier"] = "";11082 };
-		["Fras Siabi"] = "";11058 };
-		["2) Atiesh <Hand of Sargeras> (Summon)"] = "";16387 };
-		["3) Hearthsinger Forresten (Varies)"] = "";10558 };
-		["4) The Unforgiven"] = "";10516 };
-		["5) Elder Farwhisper (Lunar)"] = "";15607 };
-		["6) Timmy the Cruel"] = "";10808 };
-		["7) Malor the Zealous"] = "";11032 };
-		["Malor's Strongbox", OBJECT, 176112 };
-		["8) Crimson Hammersmith (Summon)"] = "";11120 };
-		["Blacksmithing Plans", OBJECT, 173232 };
-		["9) Cannon Master Willey"] = "";10997 };
-		["10) Archivist Galford"] = "";10811 };
-		["11) Grand Crusader Dathrohan"] = "";10812 };
-		["Balnazzar"] = "";10813 };
-		["Sothos (Summon)"] = "";16102 };
-		["Jarien (Summon)"] = "";16101 };
-		["12) Magistrate Barthilas (Varies)"] = "";10435 };
-		["13) Aurius"] = "";10917 };
-		["14) Stonespine (Rare)"] = "";10809 };
-		["15) Baroness Anastari"] = "";10436 };
-		["Black Guard Swordsmith (Summon)"] = "";11121 };
-		["Blacksmithing Plans", OBJECT, 173232 };
-		["16) Nerub'enkan"] = "";10437 };
-		["17) Maleki the Pallid"] = "";10438 };
-		["18) Ramstein the Gorger"] = "";10439 };
-		["19) Baron Rivendare"] = "";10440 };
-		["Ysida Harmon"] = "";16031 };
-		{ GREN.."1') Crusaders' Square Postbox" };
-		{ GREN.."2') Market Row Postbox" };
-		{ GREN.."3') Festival Lane Postbox" };
-		{ GREN.."4') Elders' Square Postbox" };
-		{ GREN.."5') King's Square Postbox" };
-		{ GREN.."6') Fras Siabi's Postbox" };
-		{ GREN.."3rd Box Opened: Postmaster Malown"] = "";11143 };
-	};
-	TheDeadmines = {
-		ZoneName = { "The Deadmines", 1581 };
-		Acronym = "VC";
-		Location = { "Westfall", 40 };
-		LevelRange = "16-22";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		{ BLUE.."B) Exit" };
-		["1) Rhahk'Zor <The Foreman>"] = "";644 };
-		["2) Miner Johnson (Rare)"] = "";3586 };
-		["3) Sneed <Lumbermaster>"] = "";643 };
-		["Sneed's Shredder <Lumbermaster>"] = "";642 };
-		["4) Gilnid <The Smelter>"] = "";1763 };
-		["5) Defias Gunpowder", OBJECT, 17155 };
-		["6) Captain Greenskin"] = "";647 };
-		["Edwin VanCleef <Defias Kingpin>"] = "";639 };
-		["Mr. Smite <The Ship's First Mate>"] = "";646 };
-		["Cookie <The Ship's Cook>"] = "";645 };
-	};
-	TheStockade = {
-		ZoneName = { "The Stockade", 717 };
-		Acronym = "Stocks";
-		Location = { "Stormwind City", 1519 };
-		LevelRange = "21-27";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		["1) Targorr the Dread (Varies)"] = "";1696 };
-		["2) Kam Deepfury"] = "";1666 };
-		["3) Hamhock"] = "";1717 };
-		["4) Bazil Thredd"] = "";1716 };
-		["5) Dextren Ward"] = "";1663 };
-		["6) Bruegal Ironknuckle (Rare)"] = "";1720 };
-	};
-	TheSunkenTemple = {
-		ZoneName = { "Sunken Temple", 1417 };
-		Acronym = "ST";
-		Location = { "Swamp of Sorrows", 8 };
-		LevelRange = "46-53";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."AKA: The Temple of Atal'Hakkar" };
-		{ ORNG.."Key: Yeh'kinya's Scroll (Avatar of Hakkar)", ITEM, 10818 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE.."B) Stairway" };
-		{ BLUE.."C) Atal'ai Defenders (Upper)" };
-		{ BLUE..INDENT.."Gasher"] = "";5713 };
-		{ BLUE..INDENT.."Loro"] = "";5714 };
-		{ BLUE..INDENT.."Hukku"] = "";5715 };
-		{ BLUE..INDENT.."Zolo"] = "";5712 };
-		{ BLUE..INDENT.."Mijan"] = "";5717 };
-		{ BLUE..INDENT.."Zul'Lor"] = "";5716 };
-		["1) Altar of Hakkar", OBJECT, 148836 };
-		["Atal'alarion <Guardian of the Idol>"] = "";8580 };
-		["2) Dreamscythe"] = "";5721 };
-		["Weaver"] = "";5720 };
-		["3) Avatar of Hakkar"] = "";8443 };
-		["4) Jammal'an the Prophet"] = "";5710 };
-		["Ogom the Wretched"] = "";5711 };
-		["5) Morphaz"] = "";5719 };
-		["Hazzas"] = "";5722 };
-		["6) Shade of Eranikus"] = "";5709 };
-		["Essence Font", OBJECT, 148512 };
-		["7) Spawn of Hakkar (Rare)"] = "";5708 };
-		["8) Elder Starsong (Lunar)"] = "";15593 };
-		{ GREN.."1'-6') Statue Activation Order" };
-	};
-	Uldaman = {
-		ZoneName = { "Uldaman", 1337 };
-		Acronym = "Uld";
-		Location = { "Badlands", 3 };
-		LevelRange = "36-42";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Key: Staff of Prehistoria (Ironaya)", ITEM, 7733 };
-		{ BLUE.."A) Entrance (Front)" };
-		{ BLUE.."B) Entrance (Back)" };
-		["1) Baelog"] = "";6906 };
-		["Eric \"The Swift\""] = "";6907 };
-		["Olaf"] = "";6908 };
-		["Baelog's Chest", OBJECT, 123329 };
-		["Conspicuous Urn", OBJECT, 125477 };
-		["2) Remains of a Paladin"] = "";6912 };
-		["3) Revelosh"] = "";6910 };
-		["4) Ironaya"] = "";7228 };
-		["5) Obsidian Sentinel"] = "";7023 };
-		["6) Annora <Enchanting Trainer>"] = "";11073 };
-		["7) Ancient Stone Keeper"] = "";7206 };
-		["8) Galgann Firehammer"] = "";7291 };
-		["Tablet of Will", OBJECT, 142088 };
-		["Shadowforge Cache", OBJECT, 113757 };
-		["9) Grimlok <Stonevault Chieftain>"] = "";4854 };
-		["10) Archaedas <Ancient Stone Watcher> (Lower)"] = "";2748 };
-		["11) The Discs of Norgannon (Lower)", OBJECT, 131474 };
-		["Ancient Treasure (Lower)", OBJECT, 141979 };
-	};
-	ZulGurub = {
-		ZoneName = { "Zul'Gurub", 19 };
-		Acronym = "ZG";
-		Location = { "Stranglethorn Vale", 33 };
-		LevelRange = "56-70";
-		PlayerLimit = "20";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Zandalar Tribe", FACTION, 270 };
-		{ ORNG.."Key: Mudskunk Lure (Gahz'ranka)", ITEM, 19974 };
-		{ ORNG.."Key: Gurubashi Mojo Madness (EoM)", ITEM, 19931 };
-		{ BLUE.."A) Entrance" };
-		["1) High Priestess Jeklik (Bat)"] = "";14517 };
-		["2) High Priest Venoxis (Snake)"] = "";14507 };
-		["3) Zanza the Restless"] = "";15042 };
-		["4) High Priestess Mar'li (Spider)"] = "";14510 };
-		["5) Bloodlord Mandokir (Raptor, Optional)"] = "";11382 };
-		["Ohgan"] = "";14988 };
-		["6) Edge of Madness (Optional)" };
-		["Gri'lek (Random)"] = "";15082 };
-		["Hazza'rah (Random)"] = "";15083 };
-		["Renataki (Random)"] = "";15084 };
-		["Wushoolay (Random)"] = "";15085 };
-		["7) Gahz'ranka (Optional, Summon)"] = "";15114 };
-		["8) High Priest Thekal (Tiger)"] = "";14509 };
-		["Zealot Zath"] = "";11348 };
-		["Zealot Lor'Khan"] = "";11347 };
-		["9) High Priestess Arlokk (Panther)"] = "";14515 };
-		["10) Jin'do the Hexxer (Undead, Optional)"] = "";11380 };
-		["11) Hakkar"] = "";14834 };
-		{ GREN.."1') Muddy Churning Waters" };
-	};
-	Naxxramas = {
-		ZoneName = { "Naxxramas", 3456 };
-		Acronym = "Nax";
-		Location = { "Eastern Plaguelands", 139 };
-		LevelRange = "60-70";
-		PlayerLimit = "40";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Attunement Required" };
-		{ ORNG.."Rep: Argent Dawn", FACTION, 529 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE..INDENT.."Archmage Tarsis Kir-Moldir"] = "";16381 };
-		{ BLUE..INDENT.."Mr. Bigglesworth (Wanders)"] = "";16998 };
-		["Abomination Wing" };
-		["1) Patchwerk"] = "";16028 };
-		["2) Grobbulus"] = "";15931 };
-		["3) Gluth"] = "";15932 };
-		["4) Thaddius"] = "";15928 };
-		{ ORNG.."Spider Wing" };
-		{ ORNG..INDENT.."1) Anub'Rekhan"] = "";15956 };
-		{ ORNG..INDENT.."2) Grand Widow Faerlina"] = "";15953 };
-		{ ORNG..INDENT.."3) Maexxna"] = "";15952 };
-		{ _RED.."Deathknight Wing" };
-		{ _RED..INDENT.."1) Instructor Razuvious"] = "";16061 };
-		{ _RED..INDENT.."2) Gothik the Harvester"] = "";16060 };
-		{ _RED..INDENT.."3) The Four Horsemen" };
-		{ _RED..INDENT..INDENT.."Thane Korth'azz"] = "";16064 };
-		{ _RED..INDENT..INDENT.."Lady Blaumeux"] = "";16065 };
-		{ _RED..INDENT..INDENT.."Highlord Mograine <The Ashbringer>"] = "";16062 };
-		{ _RED..INDENT..INDENT.."Sir Zeliek"] = "";16063 };
-		{ _RED..INDENT..INDENT.."Four Horsemen Chest", OBJECT, 181366 };
-		{ PURP.."Plague Wing" };
-		{ PURP..INDENT.."1) Noth the Plaguebringer"] = "";15954 };
-		{ PURP..INDENT.."2) Heigan the Unclean"] = "";15936 };
-		{ PURP..INDENT.."3) Loatheb"] = "";16011 };
-		{ GREN.."Frostwyrm Lair" };
-		{ GREN..INDENT.."1) Sapphiron"] = "";15989 };
-		{ GREN..INDENT.."2) Kel'Thuzad"] = "";15990 };
-	};
-	KarazhanStart = {
-		ZoneName = { "Karazhan [A] (Start)", 2562 };
-		Acronym = "Kara";
-		Location = { "Deadwind Pass", 41 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
-		{ ORNG.."Key: The Master's Key", ITEM, 24490 };
-		{ ORNG.."Key: Blackened Urn (Nightbane)", ITEM, 24140 };
-		{ BLUE.."A) Front Entrance" };
-		{ BLUE.."B) Staircase to the Ballroom (Moroes)" };
-		{ BLUE.."C) Stairs to Upper Stable" };
-		{ BLUE.."D) Ramp to the Guest Chambers (Maiden)" };
-		{ BLUE.."E) Stairs to Opera House Orchestra Level" };
-		{ BLUE.."F) Ramp from Mezzanine to Balcony" };
-		{ BLUE.."G) Back Entrance" };
-		{ BLUE.."H) Connection to Master's Terrace (Nightbane)" };
-		{ BLUE.."I) Path to the Broken Stairs" };
-		["1) Hastings <The Caretaker>"] = "";16169 };
-		["2) Servant Quarters" };
-		["Hyakiss the Lurker (Rare, Random)"] = "";16179 };
-		["Rokad the Ravager (Rare, Random)"] = "";16181 };
-		["Shadikith the Glider (Rare, Random)"] = "";16180 };
-		["3) Berthold <The Doorman>"] = "";16153 };
-		["4) Calliard <The Nightman>"] = "";16159 };
-		["5) Attumen the Huntsman"] = "";15550 };
-		["Midnight"] = "";16151 };
-		["6) Koren <The Blacksmith>"] = "";16388 };
-		["7) Moroes <Tower Steward>"] = "";15687 };
-		["Baroness Dorothea Millstipe (Random, Shadow Priest)"] = "";19875 };
-		["Lady Catriona Von'Indi (Random, Holy Priest)"] = "";19872 };
-		["Lady Keira Berrybuck (Random, Holy Paladin)"] = "";17007 };
-		["Baron Rafe Dreuger (Random, Retribution Paladin)"] = "";19874 };
-		["Lord Robin Daris (Random, Arms Warrior)"] = "";19876 };
-		["Lord Crispin Ference (Random, Protection Warrior)"] = "";19873 };
-		["8) Bennett <The Sergeant at Arms>"] = "";16426 };
-		["9) Ebonlocke <The Noble>"] = "";16806 };
-		["10) Keanna's Log", OBJECT, 182199 };
-		["11) Maiden of Virtue"] = "";16457 };
-		["12) Sebastian <The Organist>"] = "";16811 };
-		["13) Barnes <The Stage Manager>"] = "";16812 };
-		["14) The Opera Event" };
-		["Red Riding Hood (Random)" };
-		[INDENT.."The Big Bad Wolf"] = "";17521 };
-		["Wizard of Oz (Random)" };
-		[INDENT.."Dorothee"] = "";17535 };
-		[INDENT.."Tito"] = "";17548 };
-		[INDENT.."Strawman"] = "";17543 };
-		[INDENT.."Tinhead"] = "";17547 };
-		[INDENT.."Roar"] = "";17546 };
-		[INDENT.."The Crone"] = "";18168 };
-		["Romulo and Julianne (Random)" };
-		[INDENT.."Romulo"] = "";17533 };
-		[INDENT.."Julianne"] = "";17534 };
-		["15) The Master's Terrace" };
-		["Nightbane (Summon)"] = "";17225 };
-	};
-	KarazhanEnd = {
-		ZoneName = { "Karazhan [B] (End)", 2562 };
-		Acronym = "Kara";
-		Location = { "Deadwind Pass", 41 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: The Violet Eye", FACTION, 967 };
-		{ ORNG.."Key: The Master's Key", ITEM, 24490 };
-		{ BLUE.."I) Path to the Broken Stairs" };
-		{ BLUE.."J) Broken Stairs" };
-		{ BLUE.."K) Ramp to Guardian's Library (Shade of Aran)" };
-		{ BLUE.."L) Suspicious Bookshelf (Passage to Illhoof)" };
-		{ BLUE.."M) Ramp up to the Celestial Watch (Netherspite)" };
-		{ BLUE..INDENT.."Ramp down to the Gamesman's Hall (Chess Event)" };
-		{ BLUE.."N) Ramp to Medivh's Chamber" };
-		{ BLUE.."O) Spiral Stairs to Netherspace (Prince)" };
-		["16) The Curator"] = "";15691 };
-		["17) Wravien <The Mage>"] = "";16813 };
-		["18) Gradav <The Warlock>"] = "";16814 };
-		["19) Kamsis <The Conjurer>"] = "";16815 };
-		["20) Terestian Illhoof"] = "";15688 };
-		["Kil'rek (Imp)"] = "";17229 };
-		["21) Shade of Aran"] = "";16524 };
-		["22) Netherspite"] = "";15689 };
-		["23) Ythyar (Repair and Rewards)"] = "";17518 };
-		["24) Echo of Medivh"] = "";16816 };
-		["25) Dust Covered Chest (Chess Event)", OBJECT, 185119 };
-		["26) Prince Malchezaar"] = "";15690 };
-	};
-	ZulAman = {
-		ZoneName = { "Zul'Aman", 3805 };
-		Acronym = "ZA";
-		Location = { "Ghostlands", 3433 };
-		LevelRange = "70";
-		PlayerLimit = "10";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		{ BLUE..INDENT.."Harrison Jones"] = "";24358 };
-		["1) Nalorakk <Bear Avatar>"] = "";23576 };
-		["Tanzar"] = "";23790 };
-		["The Map of Zul'Aman", OBJECT, 186733 };
-		["2) Akil'Zon <Eagle Avatar>"] = "";23574 };
-		["Harkor"] = "";23999 };
-		["3) Jan'Alai <Dragonhawk Avatar>"] = "";23578 };
-		["Kraz"] = "";24024 };
-		["4) Halazzi <Lynx Avatar>"] = "";23577 };
-		["Ashli"] = "";24001 };
-		["5) Zungam"] = "";23897 };
-		["6) Hex Lord Malacrass"] = "";24239 };
-		["Thurg (Random)"] = "";24241 };
-		["Gazakroth (Random)"] = "";24244 };
-		["Lord Raadan (Random)"] = "";24243 };
-		["Darkheart (Random)"] = "";24246 };
-		["Alyson Antille (Random)"] = "";24240 };
-		["Slither (Random)"] = "";24242 };
-		["Fenstalker (Random)"] = "";24245 };
-		["Koragg (Random)"] = "";24247 };
-		["7) Zul'jin"] = "";23863 };
-		{ GREN.."1') Forest Frogs"] = "";24396 };
-		{ GREN..INDENT.."Kyren <Reagents>"] = "";24409 };
-		{ GREN..INDENT.."Gunter <Food Vendor>"] = "";24408 };
-		{ GREN..INDENT.."Adarrah"] = "";24405 };
-		{ GREN..INDENT.."Brennan"] = "";24453 };
-		{ GREN..INDENT.."Darwen"] = "";24407 };
-		{ GREN..INDENT.."Deez"] = "";24403 };
-		{ GREN..INDENT.."Galathryn"] = "";24404 };
-		{ GREN..INDENT.."Mitzi"] = "";24445 };
-		{ GREN..INDENT.."Mannuth"] = "";24397 };
-	};
-	MagistersTerrace = {
-		ZoneName = { "Magisters' Terrace", 4095 };
-		Acronym = "MT";
-		Location = { "Isle of Quel'Danas", 4080 };
-		LevelRange = "70";
-		PlayerLimit = "5";
-		Continent = "Eastern Kingdoms";
-		{ ORNG.."Rep: Shattered Sun Offensive", FACTION, 1077 };
-		{ BLUE.."A) Entrance" };
-		["1) Selin Fireheart"] = "";24723 };
-		["Fel Crystals"] = "";24722 };
-		["2) Tyrith"] = "";24822 };
-		["3) Vexallus"] = "";24744 };
-		["4) Scrying Orb" };
-		["Kalecgos"] = "";24850 };
-		["5) Priestess Delrissa (Lower)"] = "";24560 };
-		["6) Kael'thas Sunstrider <Lord of the Blood Elves>"] = "";24664 };
-	};
-	SunwellPlateau = {
-		ZoneName = { "Sunwell Plateau", 4075 };
-		Acronym = "SP";
-		Location = { "Isle of Quel'Danas", 4080 };
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Eastern Kingdoms";
-		{ BLUE.."A) Entrance" };
-		["1) Kalecgos"] = "";24850 };
-		["Sathrovarr the Corruptor"] = "";24892 };
-		["2) Madrigosa"] = "";24895 };
-		["Brutallus"] = "";24882 };
-		["Felmyst"] = "";25038 };
-		["3) Eredar Twins (Lower)" };
-		["Grand Warlock Alythess (Lower)"] = "";25166 };
-		["Lady Sacrolash (Lower)"] = "";25165 };
-		["M'uru (Upper)"] = "";25741 };
-		["Entropius (Upper)"] = "";25840 };
-		["4) Kil'jaeden" };
-	};
+
+	--Stratholme
+	["The Scarlet Key"] = "血色十字軍鑰匙";
+	["Key to the City"] = "城市大門鑰匙";
+	["Various Postbox Keys"] = "郵箱鑰匙";
+	["Living Side"] = "血色區";
+	["Undead Side"] = "不死區";
+	["Postmaster"] = "郵差";
+	["Skul"] = "斯庫爾";
+	["Stratholme Courier"] = "斯坦索姆信差";
+	["Fras Siabi"] = "弗拉斯·希亞比";
+	["Atiesh <Hand of Sargeras>"] = "阿泰絲";
+	["Hearthsinger Forresten"] = "弗雷斯特恩";
+	["The Unforgiven"] = "不可寬恕者";
+	["Elder Farwhisper"] = "遙語長者";
+	["Timmy the Cruel"] = "悲慘的提米";
+	["Malor the Zealous"] = "狂熱的瑪洛爾";
+	["Malor's Strongbox"] = "瑪洛爾的保險箱 ";
+	["Crimson Hammersmith"] = "紅衣錘匠";
+	["Cannon Master Willey"] = "炮手威利";
+	["Archivist Galford"] = "檔案管理員加爾福特";
+	["Grand Crusader Dathrohan"] = "大十字軍戰士達索漢";
+	["Balnazzar"] = "巴納札爾";
+	["Sothos"] = "索索斯";
+	["Jarien"] = "賈林";
+	["Magistrate Barthilas"] = "巴瑟拉斯鎮長s";
+	["Aurius"] = "奧里克斯";
+	["Stonespine"] = "石脊";
+	["Baroness Anastari"] = "安娜絲塔麗男爵夫人";
+	["Black Guard Swordsmith"] = "黑衣守衛鑄劍師";
+	["Nerub'enkan"] = "奈魯布恩坎";
+	["Maleki the Pallid"] = "蒼白的瑪勒基";
+	["Ramstein the Gorger"] = "吞嚥者拉姆斯登";
+	["Baron Rivendare"] = "瑞文戴爾男爵";
+	["Ysida Harmon"] = "亞希達·哈莫";
+	["Crusaders' Square Postbox"] = "十字軍廣場郵箱";
+	["Market Row Postbox"] = "市場郵箱";
+	["Festival Lane Postbox"] = "節日小道郵箱";
+	["Elders' Square Postbox"] = "長者廣場郵箱";
+	["King's Square Postbox"] = "國王廣場郵箱";
+	["Fras Siabi's Postbox"] = "弗拉斯·希亞比的郵箱";
+	["3rd Box Opened: Postmaster Malown"] = "第三個郵箱被開啟: 郵差瑪羅恩";
+
+	--The Deadmines
+	["Rhahk'Zor <The Foreman>"] = "拉克佐";
+	["Miner Johnson"] = "礦工約翰森";
+	["Sneed <Lumbermaster>"] = "斯尼德";
+	["Sneed's Shredder <Lumbermaster>"] = "斯尼德的伐木機";
+	["Gilnid <The Smelter>"] = "基爾尼格";
+	["Defias Gunpowder"] = "迪菲亞火藥";
+	["Captain Greenskin"] = "綠皮隊長";
+	["Edwin VanCleef <Defias Kingpin>"] = "艾德溫·范克里夫";
+	["Mr. Smite <The Ship's First Mate>"] = "重拳先生";
+	["Cookie <The Ship's Cook>"] = "曲奇";
+	
+	--The Stockade
+	["Targorr the Dread"] = "可怕的塔高爾";
+	["Kam Deepfury"] = "卡姆·深怒";
+	["Hamhock"] = "哈姆霍克";
+	["Bazil Thredd"] = "巴基爾·斯瑞德";
+	["Dextren Ward"] = "迪克斯特·瓦德";
+	["Bruegal Ironknuckle"] = "布魯戈·艾爾克納寇";
+
+	--The Sunken Temple
+	["The Temple of Atal'Hakkar"] = "阿塔哈卡神廟";
+	["Yeh'kinya's Scroll"] = "葉基亞的卷軸";
+	["Atal'ai Defenders"] = "阿塔萊防禦者";
+	["Gasher"] = "加什爾";
+	["Loro"] = "洛若爾";
+	["Hukku"] = "胡庫";
+	["Zolo"] = "祖羅";
+	["Mijan"] = "米杉";
+	["Zul'Lor"] = "祖羅爾";
+	["Altar of Hakkar"] = "哈卡祭壇";
+	["Atal'alarion <Guardian of the Idol>"] = "阿塔拉利恩";
+	["Dreamscythe"] = "德姆塞卡爾";
+	["Weaver"] = "德拉維沃爾";
+	["Avatar of Hakkar"] = "哈卡的化身";
+	["Jammal'an the Prophet"] = "預言者迦瑪蘭";
+	["Ogom the Wretched"] = "可悲的奧戈姆";
+	["Morphaz"] = "摩弗拉斯";
+	["Hazzas"] = "哈札斯";
+	["Shade of Eranikus"] = "伊蘭尼庫斯的陰影";
+	["Essence Font"] = "精華之泉";
+	["Spawn of Hakkar"] = "哈卡的後代";
+	["Elder Starsong"] = "星歌長者";
+	["Statue Activation Order"] = "雕像啟動順序";
+	
+	--Uldaman
+	["Staff of Prehistoria"] = "史前法杖 ";
+	["Baelog"] = "巴爾洛戈";
+	["Eric \"The Swift\""] = "埃瑞克";
+	["Olaf"] = "奧拉夫";
+	["Baelog's Chest"] = "巴爾洛戈的箱子";
+	["Conspicuous Urn"] = "顯眼的石罐";
+	["Remains of a Paladin"] = "聖騎士的遺體";
+	["Revelosh"] = "魯維羅什";
+	["Ironaya"] = "艾隆納亞";
+	["Obsidian Sentinel"] = "黑曜石哨兵";
+	["Annora <Enchanting Trainer>"] = "安諾拉 <附魔師>";
+	["Ancient Stone Keeper"] = "古代的石頭看守者";
+	["Galgann Firehammer"] = "加加恩·火錘";
+	["Tablet of Will"] = "意志石板";
+	["Shadowforge Cache"] = "暗影熔爐地窖";
+	["Grimlok <Stonevault Chieftain>"] = "格瑞姆洛克";
+	["Archaedas <Ancient Stone Watcher>"] = "阿札達斯";
+	["The Discs of Norgannon"] = "諾甘農圓盤";
+	["Ancient Treasure"] = "古代寶藏";
+	
+	--Zul'Gurub
+	["Zandalar Tribe"] = "贊達拉部族";
+	["Mudskunk Lure"] = "臭泥魚誘餌";
+	["Gurubashi Mojo Madness"] = "古拉巴什瘋狂魔精 ";
+	["High Priestess Jeklik"] = "高階祭司耶克里克";
+	["High Priest Venoxis"] = "高階祭司溫諾希斯";
+	["Zanza the Restless"] = "無眠者贊札";
+	["High Priestess Mar'li"] = "哈卡萊安魂者";
+	["Bloodlord Mandokir"] = "血領主曼多基爾";
+	["Ohgan"] = "奧根";
+	["Edge of Madness"] = "瘋狂之緣";
+	["Gri'lek"] = "格里雷克";
+	["Hazza'rah"] = "哈札拉爾";
+	["Renataki"] = "雷納塔基";
+	["Wushoolay"] = "烏蘇雷";
+	["Gahz'ranka"] = "加茲蘭卡";
+	["High Priest Thekal"] = "古拉巴什食腐者";
+	["Zealot Zath"] = "狂熱者札斯";
+	["Zealot Lor'Khan"] = "狂熱者洛卡恩";
+	["High Priestess Arlokk"] = "哈卡萊先知";
+	["Jin'do the Hexxer"] = "妖術師金度";
+	["Hakkar"] = "哈卡";
+	["Muddy Churning Waters"] = "混濁的水";
+	
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "大法師塔希斯·克摩地爾";
+	["Mr. Bigglesworth"] = "畢勾沃斯先生";
+	["Abomination Wing"] = "憎惡之翼";
+	["Patchwerk"] = "縫補者";
+	["Grobbulus"] = "葛羅巴斯";
+	["Gluth"] = "古魯斯";
+	["Thaddius"] = "泰迪斯";
+	["Spider Wing"] = "蜘蛛之翼";
+	["Anub'Rekhan"] = "阿努比瑞克漢";
+	["Grand Widow Faerlina"] = "大寡婦費琳娜";
+	["Maexxna"] = "梅克絲娜";
+	["Deathknight Wing"] = "死亡騎士之翼";
+	["Instructor Razuvious"] = "講師拉祖維斯";
+	["Gothik the Harvester"] = "收割者高希";
+	["The Four Horsemen"] = "四騎士";
+	["Thane Korth'azz"] = "寇斯艾茲族長";
+	["Lady Blaumeux"] = "布洛莫斯爵士";
+	["Highlord Mograine <The Ashbringer>"] = "莫格萊尼公爵";
+	["Sir Zeliek"] = "札里克爵士";
+	["Four Horsemen Chest"] = "四騎士之箱 ";
+	["Plague Wing"] = "瘟疫之翼";
+	["Noth the Plaguebringer"] = "瘟疫者諾斯";
+	["Heigan the Unclean"] = "骯髒者海根";
+	["Loatheb"] = "洛斯伯";
+	["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
+	["Sapphiron"] = "薩菲隆";
+	["Kel'Thuzad"] = "科爾蘇加德";
+	
+	--Karazhan Start
+	["The Violet Eye"] = "紫羅蘭之眼";--omitted from Karazhan End
+	["The Master's Key"] = "主人鑰匙";--omitted from Karazhan End
+	["Blackened Urn"] = "燻黑的骨灰甕";
+	["Staircase to the Ballroom"] = "通往舞廳的樓梯間";
+	["Stairs to Upper Stable"] = "通往上層的樓梯";
+	["Ramp to the Guest Chambers"] = "通往迎賓廳斜坡";
+	["Stairs to Opera House Orchestra Level"] = "通往歌劇院樂團層的樓梯";
+	["Ramp from Mezzanine to Balcony"] = "夾層至包廂的斜坡";
+	["Connection to Master's Terrace"] = "通往大師的露台";
+	["Path to the Broken Stairs"] = "通往損壞的階梯";
+	["Hastings <The Caretaker>"] = "哈斯丁";
+	["Servant Quarters"] = "伺從區";
+	["Hyakiss the Lurker"] = "潛伏者亞奇斯";
+	["Rokad the Ravager"] = "劫掠者·拉卡";
+	["Shadikith the Glider"] = "滑翔者·薛迪依斯";
+	["Berthold <The Doorman>"] = "勃特霍德";
+	["Calliard <The Nightman>"] = "卡利卡";
+	["Attumen the Huntsman"] = "獵人阿圖曼";
+	["Midnight"] = "午夜";
+	["Koren <The Blacksmith>"] = "卡爾侖";
+	["Moroes <Tower Steward>"] = "摩洛";
+	["Baroness Dorothea Millstipe"] = "女爵朵洛希·米爾斯泰普";
+	["Lady Catriona Von'Indi"] = "凱崔娜·瓦映迪女士";
+	["Lady Keira Berrybuck"] = "凱伊拉·拜瑞巴克女士";
+	["Baron Rafe Dreuger"] = "男爵洛夫·崔克爾";
+	["Lord Robin Daris"] = "貴族羅賓·達利斯";
+	["Lord Crispin Ference"] = "貴族克利斯平·費蘭斯";
+	["Bennett <The Sergeant at Arms>"] = "班尼特";
+	["Ebonlocke <The Noble>"] = "埃伯洛克";
+	["Keanna's Log"] = "琪安娜的日誌";
+	["Maiden of Virtue"] = "貞潔聖女";
+	["Sebastian <The Organist>"] = "塞巴斯汀";
+	["Barnes <The Stage Manager>"] = "巴奈斯";
+	["The Opera Event"] = "歌劇事件";
+	["Red Riding Hood"] = "小紅帽";
+	["The Big Bad Wolf"] = "大野狼";
+	["Wizard of Oz"] = "綠野仙蹤";
+	["Dorothee"] = "桃樂絲";
+	["Tito"] = "多多";
+	["Strawman"] = "稻草人";
+	["Tinhead"] = "機器人";
+	["Roar"] = "獅子";
+	["The Crone"] = "老巫婆";
+	["Romulo and Julianne"] = "羅密歐與茱莉葉";
+	["Romulo"] = "羅密歐";
+	["Julianne"] = "茱莉葉";
+	["The Master's Terrace"] = "大師的露臺";
+	["Nightbane"] = "夜禍";
+	
+	--Karazhan End
+	["Path to the Broken Stairs"] = "通往損壞的階梯";
+	["Broken Stairs"] = "損壞的階梯";
+	["Ramp to Guardian's Library"] = "通往管理員圖書館的斜坡";
+	["Suspicious Bookshelf"] = "神秘的書架";
+	["Ramp up to the Celestial Watch"] = "通往天文觀測台的斜坡";
+	["Ramp down to the Gamesman's Hall"] = "通往投機者大廳的斜坡";
+	["Chess Event"] = "西洋棋事件";
+	["Ramp to Medivh's Chamber"] = "通往麥迪文房間的斜坡";
+	["Spiral Stairs to Netherspace"] = "通往虛空空間的螺旋梯";
+	["The Curator"] = "館長 ";
+	["Wravien <The Mage>"] = "瑞依恩";
+	["Gradav <The Warlock>"] = "葛瑞戴";
+	["Kamsis <The Conjurer>"] = "坎希斯";
+	["Terestian Illhoof"] = "泰瑞斯提安·疫蹄";
+	["Kil'rek"] = "基瑞克";
+	["Shade of Aran"] = "艾蘭之影";
+	["Netherspite"] = "尼德斯";
+	["Ythyar"] = "伊斯亞爾";
+	["Echo of Medivh"] = "麥迪文的回音";
+	["Dust Covered Chest"] = "滿佈灰塵箱子";
+	["Prince Malchezaar"] = "莫克札王子";
+	
+	--Zul'Aman
+	["Harrison Jones"] = "哈利森·瓊斯";
+	["Nalorakk <Bear Avatar>"] = "納羅拉克";
+	["Tanzar"] = "坦札爾";
+	["The Map of Zul'Aman"] = "祖阿曼地圖 ";
+	["Akil'Zon <Eagle Avatar>"] = "阿奇爾森>";
+	["Harkor"] = "哈克爾";
+	["Jan'Alai <Dragonhawk Avatar>"] = "賈納雷";
+	["Kraz"] = "卡拉茲";
+	["Halazzi <Lynx Avatar>"] = "哈拉齊";
+	["Ashli"] = "阿西利";
+	["Zungam"] = "祖剛";
+	["Hex Lord Malacrass"] = "妖術領主瑪拉克雷斯";
+	["Thurg"] = "瑟吉";
+	["Gazakroth"] = "葛薩克羅司";
+	["Lord Raadan"] = "領主雷阿登";
+	["Darkheart"] = "黑心";
+	["Alyson Antille"] = "艾利森·安第列";
+	["Slither"] = "史立塞";
+	["Fenstalker"] = "沼群巡者";
+	["Koragg"] = "可拉格";
+	["Zul'jin"] = "祖爾金";
+	["Forest Frogs"] = "森林樹蛙";
+	["Kyren <Reagents>"] = "凱倫";
+	["Gunter <Food Vendor>"] = "甘特";
+	["Adarrah"] = "阿達拉";
+	["Brennan"] = "布里納";
+	["Darwen"] = "達爾溫";
+	["Deez"] = "迪滋";
+	["Galathryn"] = "加拉瑟林";
+	["Mitzi"] = "米特辛";
+	["Mannuth"] = "曼努斯";
+	
+	--Magisters Terrace
+	["Shattered Sun Offensive"] = "破碎之日進攻部隊";
+	["Selin Fireheart"] = "斯琳·炎心";
+	["Fel Crystals"] = "惡魔水晶";
+	["Tyrith"] = "提里斯";
+	["Vexallus"] = "維克索魯斯";
+	["Scrying Orb"] = "索蘭尼亞的占卜寶珠";
+	["Kalecgos"] = "卡雷苟斯";
+	["Priestess Delrissa"] = "女牧師戴利莎";
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凱爾薩斯·逐日者";--omitted from TK: The Eye
+
+	--Sunwell Plateau
+	["Kalecgos"] = "卡雷苟斯";
+	["Sathrovarr the Corruptor"] = "『墮落者』塞斯諾瓦";
+	["Madrigosa"] = "瑪德里茍沙";
+	["Brutallus"] = "布魯托魯斯";
+	["Felmyst"] = "魔霧";
+	["Eredar Twins"] = "埃雷達爾雙子";
+	["Grand Warlock Alythess"] = "大術士艾黎瑟絲";
+	["Lady Sacrolash"] = "莎珂蕾希女士";
+	["M'uru"] = "莫魯";
+	["Entropius"] = "安卓普斯";
+	["Kil'jaeden <The Deceiver>"] = "基爾加丹";
 	
 --*******************
 -- Outland Instances
 --*******************
 	
-	HCBloodFurnace = {
-		ZoneName = { "HFC: The Blood Furnace", 3713 };
-		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
-		Acronym = "BF";
-		LevelRange = "60-68";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
-		{ ORNG.."Rep: Honor Hold (Alliance)", FACTION, 946 };
-		{ ORNG.."Key: Flamewrought Key (Heroic)", ITEM, 30637 };
-		{ BLUE.."A) Entrance" };
-		["1) The Maker"] = "";17381 };
-		["2) Broggok"] = "";17380 };
-		["3) Keli'dan the Breaker"] = "";17377 };
-	};
-	HCTheShatteredHalls = {
-		ZoneName = { "HFC: The Shattered Halls", 3714 };
-		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
-		Acronym = "SH";
-		LevelRange = "69-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
-		{ ORNG.."Rep: Honor Hold (Alliance)", FACTION, 946 };
-		{ ORNG.."Key: Shattered Halls Key", ITEM, 28395 };
-		{ ORNG.."Key: Flamewrought Key (Heroic)", ITEM, 30637 };
-		{ BLUE.."A) Entrance" };
-		["1) Randy Whizzlesprocket (Alliance, Heroic)"] = "";17288 };
-		["Drisella (Horde, Heroic)"] = "";17294 };
-		["2) Grand Warlock Nethekurse"] = "";16807 };
-		["3) Blood Guard Porung (Heroic)"] = "";20923 };
-		["4) Warbringer O'mrogg"] = "";16809 };
-		["5) Warchief Kargath Bladefist"] = "";16808 };
-		["Shattered Hand Executioner (Heroic)"] = "";17301 };
-		["Private Jacint (Alliance, Heroic)"] = "";17292 };
-		["Rifleman Brownbeard (Alliance, Heroic)"] = "";17289 };
-		["Captain Alina (Alliance, Heroic)"] = "";17290 };
-		["Scout Orgarr (Horde, Heroic)"] = "";17297 };
-		["Korag Proudmane (Horde, Heroic)"] = "";17295 };
-		["Captain Boneshatter (Horde, Heroic)"] = "";17296 };
-	};
-	HCHellfireRamparts = {
-		ZoneName = { "HFC: Hellfire Ramparts", 3562 };
-		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
-		Acronym = "Ramp";
-		LevelRange = "59-67";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
-		{ ORNG.."Rep: Honor Hold (Alliance)", FACTION, 946 };
-		{ ORNG.."Key: Flamewrought Key (Heroic)", ITEM, 30637 };
-		{ BLUE.."A) Entrance" };
-		["1) Watchkeeper Gargolmar"] = "";17306 };
-		["2) Omor the Unscarred"] = "";17308 };
-		["3) Vazruden"] = "";17537 };
-		["Nazan <Vazruden's Mount>"] = "";17536 };
-		["Reinforced Fel Iron Chest", OBJECT, 185168 };
-	};
-	HCMagtheridonsLair = {
-		ZoneName = { "HFC: Magtheridon's Lair", 3836 };
-		Location = { "Hellfire Citadel, Hellfire Peninsula", 3483 };
-		Acronym = "Mag";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: Thrallmar (Horde)", FACTION, 947 };
-		{ ORNG.."Rep: Honor Hold (Alliance)", FACTION, 946 };
-		{ BLUE.."A) Entrance" };
-		["1) Magtheridon"] = "";17257 };
-	};
-	CFRTheSlavePens = {
-		ZoneName = { "CR: The Slave Pens", 3717 };
-		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
-		Acronym = "SP";
-		LevelRange = "61-69";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
-		{ ORNG.."Key: Reservoir Key (Heroic)", ITEM, 30623 };
-		{ BLUE.."A) Entrance" };
-		["1) Mennu the Betrayer"] = "";17941 };
-		["2) Weeder Greenthumb"] = "";17890 };
-		["3) Skar'this the Heretic (Heroic)"] = "";22421 };
-		["4) Rokmar the Crackler"] = "";17991 };
-		["5) Naturalist Bite"] = "";17893 };
-		["6) Quagmirran"] = "";17942 };
-	};
-	CFRTheUnderbog = {
-		ZoneName = { "CR: The Underbog", 3716 };
-		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
-		Acronym = "Underbog";
-		LevelRange = "62-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
-		{ ORNG.."Key: Reservoir Key (Heroic)", ITEM, 30623 };
-		{ BLUE.."A) Entrance" };
-		["1) Hungarfen"] = "";17770 };
-		["The Underspore", OBJECT, 182054 };
-		["2) Ghaz'an"] = "";18105 };
-		["3) Earthbinder Rayge"] = "";17885 };
-		["4) Swamplord Musel'ek"] = "";17826 };
-		["Claw <Swamplord Musel'ek's Pet>"] = "";17827 };
-		["5) The Black Stalker"] = "";17882 };
-	};
-	CFRTheSteamvault = {
-		ZoneName = { "CR: The Steamvault", 3715 };
-		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
-		Acronym = "SV";
-		LevelRange = "69-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
-		{ ORNG.."Key: Reservoir Key (Heroic)", ITEM, 30623 };
-		{ BLUE.."A) Entrance" };
-		["1) Hydromancer Thespia"] = "";17797 };
-		["Main Chambers Access Panel" };
-		["2) Arcane Container", OBJECT, 182196 };
-		["Second Fragment Guardian"] = "";22891 };
-		["3) Mekgineer Steamrigger"] = "";17796 };
-		["Main Chambers Access Panel" };
-		["4) Warlord Kalithresh"] = "";17798 };
-	};
-	CFRSerpentshrineCavern = {
-		ZoneName = { "CR: Serpentshrine Cavern", 3607 };
-		Location = { "Coilfang Reservoir, Zangarmarsh", 3521 };
-		Acronym = "SC";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: Cenarion Expedition", FACTION, 942 };
-		{ BLUE.."A) Entrance" };
-		["1) Hydross the Unstable <Duke of Currents>"] = "";21216 };
-		["2) The Lurker Below"] = "";21217 };
-		["3) Leotheras the Blind"] = "";21215 };
-		["4) Fathom-Lord Karathress"] = "";21214 };
-		["Seer Olum"] = "";22820 };
-		["5) Morogrim Tidewalker"] = "";21213 };
-		["6) Lady Vashj <Coilfang Matron>"] = "";21212 };
-	};
-	AuchManaTombs = {
-		ZoneName = { "Auch: Mana-Tombs", 3792 };
-		Location = { "Auchindoun, Terokkar Forest", 3519 };
-		Acronym = "MT";
-		LevelRange = "63-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: The Consortium", FACTION, 933 };
-		{ ORNG.."Key: Auchenai Key (Heroic)", ITEM, 30633 };
-		{ ORNG.."Key: The Eye of Haramad (Exalted, Yor)", ITEM, 32092 };
-		{ BLUE.."A) Entrance" };
-		["1) Pandemonius"] = "";18341 };
-		["Shadow Lord Xiraxis"] = "";19666 };
-		["2) Ambassador Pax'ivi (Heroic)"] = "";22928 };
-		["3) Tavarok"] = "";18343 };
-		["4) Cryo-Engineer Sha'heen"] = "";19671 };
-		["Ethereal Transporter Control Panel", OBJECT, 183877 };
-		["5) Nexus-Prince Shaffar"] = "";18344 };
-		["Yor <Void Hound of Shaffar> (Summon, Heroic)"] = "";22930 };
-	};
-	AuchAuchenaiCrypts = {
-		ZoneName = { "Auch: Auchenai Crypts", 3790 };
-		Location = { "Auchindoun, Terokkar Forest", 3519 };
-		Acronym = "AC";
-		LevelRange = "64-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Lower City", FACTION, 1011 };
-		{ ORNG.."Key: Auchenai Key (Heroic)", ITEM, 30633 };
-		{ BLUE.."A) Entrance" };
-		["1) Shirrak the Dead Watcher"] = "";18371 };
-		["2) Exarch Maladaar"] = "";18373 };
-		["Avatar of the Martyred"] = "";18478 };
-		["D'ore"] = "";19412 };
-	};
-	AuchSethekkHalls = {
-		ZoneName = { "Auch: Sethekk Halls", 3791 };
-		Location = { "Auchindoun, Terokkar Forest", 3519 };
-		Acronym = "Sethekk";
-		LevelRange = "66-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Lower City", FACTION, 1011 };
-		{ ORNG.."Key: Auchenai Key (Heroic)", ITEM, 30633 };
-		{ ORNG.."Key: Essence-Infused Moonstone (Anzu)", ITEM, 32449 };
-		{ BLUE.."A) Entrance" };
-		["1) Darkweaver Syth"] = "";18472 };
-		["Lakka"] = "";18956 };
-		["2) The Saga of Terokk", OBJECT, 183050 };
-		["Anzu (Summon, Heroic)"] = "";23035 };
-		["3) Talon King Ikiss"] = "";18473 };
-	};
-	AuchShadowLabyrinth = {
-		ZoneName = { "Auch: Shadow Labyrinth", 3789 };
-		Location = { "Auchindoun, Terokkar Forest", 3519 };
-		Acronym = "SL";
-		LevelRange = "69-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: Lower City", FACTION, 1011 };
-		{ ORNG.."Key: Shadow Labyrinth Key", ITEM, 27991 };
-		{ ORNG.."Key: Auchenai Key (Heroic)", ITEM, 30633 };
-		{ BLUE.."A) Entrance" };
-		["1) Spy To'gun"] = "";18891 };
-		["2) Ambassador Hellmaw"] = "";18731 };
-		["3) Blackheart the Inciter"] = "";18667 };
-		["4) Grandmaster Vorpil"] = "";18732 };
-		["The Codex of Blood", OBJECT, 182947 };
-		["5) Murmur"] = "";18708 };
-		["6) Arcane Container", OBJECT, 182196 };
-		["First Fragment Guardian"] = "";22890 };
-	};
-	TempestKeepBotanica = {
-		ZoneName = { "TK: The Botanica", 3847 };
-		Location = { "Tempest Keep, Netherstorm", 3523 };
-		Acronym = "Bota";
-		LevelRange = "69-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
-		{ ORNG.."Key: Warpforged Key (Heroic)", ITEM, 30634 };
-		{ BLUE.."A) Entrance" };
-		["1) Commander Sarannis"] = "";17976 };
-		["2) High Botanist Freywinn"] = "";17975 };
-		["3) Thorngrin the Tender"] = "";17978 };
-		["4) Laj"] = "";17980 };
-		["5) Warp Splinter"] = "";17977 };
-	};
-	TempestKeepArcatraz = {
-		ZoneName = { "TK: The Arcatraz", 3846 };
-		Location = { "Tempest Keep, Netherstorm", 3523 };
-		Acronym = "Arca";
-		LevelRange = "69-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
-		{ ORNG.."Key: Key to the Arcatraz", ITEM, 31084 };
-		{ ORNG.."Key: Warpforged Key (Heroic)", ITEM, 30634 };
-		{ BLUE.."A) Entrance" };
-		["1) Zereketh the Unbound"] = "";20870 };
-		["2) Arcane Container", OBJECT, 182196 };
-		["Third Fragment Guardian"] = "";22892 };
-		["3) Dalliah the Doomsayer"] = "";20885 };
-		["4) Wrath-Scryer Soccothrates"] = "";20886 };
-		["5) Udalo"] = "";21962 };
-		["6) Harbinger Skyriss"] = "";20912 };
-		["Warden Mellichar"] = "";20904 };
-		["Millhouse Manastorm"] = "";20977 };
-	};
-	TempestKeepMechanar = {
-		ZoneName = { "TK: The Mechanar", 3849 };
-		Location = { "Tempest Keep, Netherstorm", 3523 };
-		Acronym = "Mech";
-		LevelRange = "68-70";
-		PlayerLimit = "5";
-		Continent = "Outland";
-		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
-		{ ORNG.."Key: Warpforged Key (Heroic)", ITEM, 30634 };
-		{ BLUE.."A) Entrance" };
-		["1) Gatewatcher Gyro-Kill"] = "";19218 };
-		["2) Gatewatcher Iron-Hand"] = "";19710 };
-		["Cache of the Legion", OBJECT, 184465 };
-		["3) Mechano-Lord Capacitus"] = "";19219 };
-		["Overcharged Manacell", OBJECT, 185015 };
-		["4) Nethermancer Sepethrea"] = "";19221 };
-		["5) Pathaleon the Calculator"] = "";19220 };
-	};
-	TempestKeepTheEye = {
-		ZoneName = { "TK: The Eye", 3842 };
-		Location = { "Tempest Keep, Netherstorm", 3523 };
-		Acronym = "Eye";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: The Sha'tar", FACTION, 935 };
-		{ ORNG.."Key: The Tempest Key", ITEM, 31704 };
-		{ BLUE.."A) Entrance" };
-		["1) Al'ar <Phoenix God>"] = "";19514 };
-		["2) Void Reaver"] = "";19516 };
-		["3) High Astromancer Solarian"] = "";18805 };
-		["4) Kael'Thas Sunstrider <Lord of the Blood Elves>"] = "";19622 };
-		["Thaladred the Darkener <Advisor to Kael'thas> (Warrior)"] = "";20064 };
-		["Master Engineer Telonicus <Advisor to Kael'thas> (Hunter)"] = "";20063 };
-		["Grand Astromancer Capernian <Advisor to Kael'thas> (Mage)"] = "";20062 };
-		["Lord Sanguinar <The Blood Hammer> (Paladin)"] = "";20060 };
-	};
-	GruulsLair = {
-		ZoneName = { "Gruul's Lair", 3618 };
-		Location = { "Blade's Edge Mountains", 3522 };
-		Acronym = "GL";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ BLUE.."A) Entrance" };
-		["1) High King Maulgar <Lord of the Ogres>"] = "";18831 };
-		["Kiggler the Crazed (Shaman)"] = "";18835 };
-		["Blindeye the Seer (Priest)"] = "";18836 };
-		["Olm the Summoner (Warlock)"] = "";18834 };
-		["Krosh Firehand (Mage)"] = "";18832 };
-		["2) Gruul the Dragonkiller"] = "";19044 };
-	};
-	BlackTempleStart = {
-		ZoneName = { "Black Temple [A] (Start)", 3959 };
-		Location = { "Shadowmoon Valley", 3520 };
-		Acronym = "BT";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
-		{ ORNG.."Key: Medallion of Karabor", ITEM, 32649 };
-		{ BLUE.."A) Entrance" };
-		{ BLUE.."B) Towards Reliquary of Souls" };
-		{ BLUE.."C) Towards Teron Gorefiend" };
-		{ BLUE.."D) Towards Illidan Stormrage" };
-		["1) Spirit of Olum"] = "";23411 };
-		["2) High Warlord Naj'entus"] = "";22887 };
-		["3) Supremus"] = "";22898 };
-		["4) Shade of Akama"] = "";22841 };
-		["5) Spirit of Udalo"] = "";23410 };
-		["Aluyen <Reagents>"] = "";23157 };
-		["Okuno <Ashtongue Deathsworn Quartermaster>"] = "";23159 };
-		["Seer Kanai"] = "";23158 };
-	};
-	BlackTempleBasement = {
-		ZoneName = { "Black Temple [B] (Basement)", 3959 };
-		Location = { "Shadowmoon Valley", 3520 };
-		Acronym = "BT";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
-		{ ORNG.."Key: Medallion of Karabor", ITEM, 32649 };
-		{ BLUE.."B) Entrance" };
-		{ BLUE.."C) Entrance" };
-		["6) Gurtogg Bloodboil"] = "";22948 };
-		["7) Reliquary of Souls" };
-		["Essence of Suffering"] = "";23418 };
-		["Essence of Desire"] = "";23419 };
-		["Essence of Anger"] = "";23420 };
-		["8) Teron Gorefiend"] = "";22871 };
-	};
-	BlackTempleTop = {
-		ZoneName = { "Black Temple [C] (Top)", 3959 };
-		Location = { "Shadowmoon Valley", 3520 };
-		Acronym = "BT";
-		LevelRange = "70";
-		PlayerLimit = "25";
-		Continent = "Outland";
-		{ ORNG.."Rep: Ashtongue Deathsworn", FACTION, 1012 };
-		{ ORNG.."Key: Medallion of Karabor", ITEM, 32649 };
-		{ BLUE.."D) Entrance" };
-		["9) Mother Shahraz"] = "";22947 };
-		["10) The Illidari Council"] = "";23426 };
-		["Lady Malande (Priest)"] = "";22951 };
-		["Gathios the Shatterer (Paladin)"] = "";22949 };
-		["High Nethermancer Zerevor (Mage)"] = "";22950 };
-		["Veras Darkshadow (Rogue)"] = "";22952 };
-		["11) Illidan Stormrage <The Betrayer>"] = "";22917 };
-	};
-	--]]
+	--HFC: The Blood Furnace
+	["Thrallmar"] = "索爾瑪";--omitted from other HFC
+	["Honor Hold"] = "榮譽堡";--omitted from other HFC
+	["Flamewrought Key"] = "火鑄之鑰";--omitted from other HFC
+	["The Maker"] = "創造者";
+	["Broggok"] = "布洛克";
+	["Keli'dan the Breaker"] = "破壞者·凱利丹";
+
+	--HFC: The Shattered Halls
+	["Shattered Halls Key"] = "破碎大廳鑰匙";
+	["Randy Whizzlesprocket"] = "藍迪·威索洛克";
+	["Drisella"] = "崔賽拉";
+	["Grand Warlock Nethekurse"] = "大術士·奈德克斯";
+	["Blood Guard Porung"] = "血衛士波洛克";
+	["Warbringer O'mrogg"] = "戰爭製造者·歐姆拉格";
+	["Warchief Kargath Bladefist"] = "大酋長卡加斯·刃拳";
+	["Shattered Hand Executioner"] = "破碎之手劊子手";
+	["Private Jacint"] = "士兵賈辛特";
+	["Rifleman Brownbeard"] = "槍兵伯朗畢爾";
+	["Captain Alina"] = "隊長阿蓮娜";
+	["Scout Orgarr"] = "斥候歐卡爾";
+	["Korag Proudmane"] = "科洛特·波特曼";
+	["Captain Boneshatter"] = "隊長碎骨r";
+
+	--HFC: Hellfire Ramparts
+	["Watchkeeper Gargolmar"] = "看護者卡爾古瑪";
+	["Omor the Unscarred"] = "無疤者歐瑪爾d";
+	["Vazruden"] = "先驅者維斯路登";
+	["Nazan <Vazruden's Mount>"] = "納桑";
+	["Reinforced Fel Iron Chest"] = "強化惡魔鐵箱";
+
+	--HFC: Magtheridon's Lair
+	["Magtheridon"] = "瑪瑟里頓";
+
+	--CR: The Slave Pens
+	["Cenarion Expedition"] = "塞納里奧遠征隊";--omitted from other CR
+	["Reservoir Key"] = "倉庫之鑰";--omitted from other CR
+	["Mennu the Betrayer"] = "背叛者曼紐";
+	["Weeder Greenthumb"] = "威德·綠指";
+	["Skar'this the Heretic"] = "異教徒司卡利斯";
+	["Rokmar the Crackler"] = "爆破者洛克瑪";
+	["Naturalist Bite"] = "博物學家·拜特";
+	["Quagmirran"] = "奎克米瑞";
+
+	--CR: The Underbog
+	["Hungarfen"] = "飢餓之牙";
+	["The Underspore"] = "地孢";
+	["Ghaz'an"] = "高薩安";
+	["Earthbinder Rayge"] = "大地束縛者瑞吉";
+	["Swamplord Musel'ek"] = "沼澤王莫斯萊克";
+	["Claw <Swamplord Musel'ek's Pet>"] = "喚風者卡勞";
+	["The Black Stalker"] = "黑色捕獵者";
+
+	--CR: The Steamvault
+	["Hydromancer Thespia"] = "海法師希斯比亞";
+	["Main Chambers Access Panel"] = "主房間通道面板";
+	["Second Fragment Guardian"] = "第二碎片守衛者";
+	["Mekgineer Steamrigger"] = "米克吉勒·蒸汽操控者";
+	["Warlord Kalithresh"] = "督軍卡利斯瑞";
+
+	--CR: Serpentshrine Cavern
+	["Hydross the Unstable <Duke of Currents>"] = "不穩定者海卓司";
+	["The Lurker Below"] = "海底潛伏者";
+	["Leotheras the Blind"] = "盲目者李奧薩拉斯";
+	["Fathom-Lord Karathress"] = "深淵之王卡拉薩瑞斯";
+	["Seer Olum"] = "先知歐蘭";
+	["Morogrim Tidewalker"] = "莫洛葛利姆·潮行者";
+	["Lady Vashj <Coilfang Matron>"] = "瓦許女士";
+
+	--Auch: Mana-Tombs
+	["The Consortium"] = "聯合團";
+	["Auchenai Key"] = "奧奇奈鑰匙";--omitted from other Auch
+	["The Eye of Haramad"] = "哈拉瑪德之眼";
+	["Pandemonius"] = "班提蒙尼厄斯";
+	["Shadow Lord Xiraxis"] = "S暗影之王希瑞西斯";
+	["Ambassador Pax'ivi"] = "帕克西維大使";
+	["Tavarok"] = "塔瓦洛克";
+	["Cryo-Engineer Sha'heen"] = "工程師薩希恩";
+	["Ethereal Transporter Control Panel"] = "虛空傳送者控制面板";
+	["Nexus-Prince Shaffar"] = "奈薩斯王子薩法爾";
+	["Yor <Void Hound of Shaffar>"] = "約兒";
+
+	--Auch: Auchenai Crypts
+	["Lower City"] = "陰鬱城";--omitted from other Auch
+	["Shirrak the Dead Watcher"] = "死亡看守者辛瑞克";
+	["Exarch Maladaar"] = "主教瑪拉達爾";
+	["Avatar of the Martyred"] = "馬丁瑞德的化身";
+	["D'ore"] = "迪歐瑞";
+
+	--Auch: Sethekk Halls
+	["Essence-Infused Moonstone"] = "精華灌注的月亮石";
+	["Darkweaver Syth"] = "暗法師希斯";
+	["Lakka"] = "拉卡";
+	["The Saga of Terokk"] = "泰洛克的傳說";
+	["Anzu"] = "安祖";
+	["Talon King Ikiss"] = "鷹王伊奇斯";
+
+	--Auch: Shadow Labyrinth
+	["Shadow Labyrinth Key"] = "暗影迷宮鑰匙";
+	["Spy To'gun"] = "間諜·吐剛";
+	["Ambassador Hellmaw"] = "海爾瑪大使";
+	["Blackheart the Inciter"] = "煽動者黑心";
+	["Grandmaster Vorpil"] = "領導者瓦皮歐";
+	["The Codex of Blood"] = "血之聖典";
+	["Murmur"] = "莫爾墨";
+	["First Fragment Guardian"] = "第一碎片守衛者";
+
+	--TK: The Botanica
+	["The Sha'tar"] = "薩塔";--omitted from other TK
+	["Warpforged Key"] = "扭曲鍛造鑰匙";--omitted from other TK
+	["Commander Sarannis"] = "指揮官薩瑞尼斯";
+	["High Botanist Freywinn"] = "大植物學家費瑞衛恩";
+	["Thorngrin the Tender"] = "看管者索古林";
+	["Laj"] = "拉杰";
+	["Warp Splinter"] = "扭曲分裂者";
+
+	--TK: The Arcatraz
+	["Key to the Arcatraz"] = "亞克崔茲鑰匙";
+	["Zereketh the Unbound"] = "無約束的希瑞奇斯";
+	["Third Fragment Guardian"] = "第三碎片守衛者 ";
+	["Dalliah the Doomsayer"] = "末日預言者達利亞";
+	["Wrath-Scryer Soccothrates"] = "怒鐮者索扣斯瑞特";
+	["Udalo"] = "先知烏達羅";
+	["Harbinger Skyriss"] = "先驅者史蓋力司";
+	["Warden Mellichar"] = "守望者米利恰爾";
+	["Millhouse Manastorm"] = "米歐浩斯·曼納斯頓";
+
+	--TK: The Mechanar
+	["Gatewatcher Gyro-Kill"] = "看守者蓋洛奇歐";
+	["Gatewatcher Iron-Hand"] = "看守者鐵手";
+	["Cache of the Legion"] = "軍團儲藏處";
+	["Mechano-Lord Capacitus"] = "機械王卡帕希特斯";
+	["Overcharged Manacell"] = "滿溢的法力容器";
+	["Nethermancer Sepethrea"] = "虛空術師賽派斯瑞";
+	["Pathaleon the Calculator"] = "計算者帕薩里歐";
+
+	--TK: The Eye
+	["The Tempest Key"] = "風暴之鑰";
+	["Al'ar <Phoenix God>"] = "歐爾";
+	["Void Reaver"] = "虛空劫掠者";
+	["High Astromancer Solarian"] = "大星術師索拉瑞恩";
+	["Thaladred the Darkener <Advisor to Kael'thas>"] = "凱爾薩斯·日行者";
+	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "首席技師泰隆尼卡斯";
+	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "大星術師卡普尼恩";
+	["Lord Sanguinar <The Blood Hammer>"] = "桑古納爾";
+
+	--Gruul's Lair
+	["High King Maulgar <Lord of the Ogres>"] = "大君王莫卡爾";
+	["Kiggler the Crazed"] = "瘋癲者奇克勒";
+	["Blindeye the Seer"] = "先知盲眼";
+	["Olm the Summoner"] = "召喚者歐莫";
+	["Krosh Firehand"] = "克羅斯·火手";
+	["Gruul the Dragonkiller"] = "弒龍者戈魯爾";
+
+	--Black Temple (Start)
+	["Ashtongue Deathsworn"] = "灰舌死亡誓言者";--omitted from other BT
+	["Medallion of Karabor"] = "卡拉伯爾獎章";--omitted from other BT
+	["Towards Reliquary of Souls"] = "通往靈魂聖盒";
+	["Towards Teron Gorefiend"] = "通往泰朗·血魔";
+	["Towards Illidan Stormrage"] = "通往伊利丹";
+	["Spirit of Olum"] = "歐蘭的靈魂";
+	["High Warlord Naj'entus"] = "高階督軍納珍塔斯";
+	["Supremus"] = "瑟普莫斯";
+	["Shade of Akama"] = "阿卡瑪的黑暗面";
+	["Spirit of Udalo"] = "烏達羅之靈";
+	["Aluyen <Reagents>"] = "阿魯焰";
+	["Okuno <Ashtongue Deathsworn Quartermaster>"] = "歐庫諾";
+	["Seer Kanai"] = "先知卡奈";
+
+	--Black Temple (Basement)
+	["Gurtogg Bloodboil"] = "葛塔格·血沸";
+	["Reliquary of Souls"] = "靈魂聖盒";
+	["Essence of Suffering"] = "受難精華";
+	["Essence of Desire"] = "慾望精華";
+	["Essence of Anger"] = "憤怒精華";
+	["Teron Gorefiend"] = "泰朗·血魔";
+
+	--Black Temple (Top)
+	["Mother Shahraz"] = "薩拉茲女士";
+	["The Illidari Council"] = "伊利達瑞議事";
+	["Lady Malande"] = "瑪蘭黛女士";
+	["Gathios the Shatterer"] = "粉碎者高希歐";
+	["High Nethermancer Zerevor"] = "高等虛空術師札瑞佛";
+	["Veras Darkshadow"] = "維拉斯·深影";
+	["Illidan Stormrage <The Betrayer>"] = "伊利丹·怒風";
+
+--************************************************
+-- Instance Entrance Maps
+--************************************************
+
+	--Auchindoun (Entrance)
+	["Ha'Lei"] = "哈勒";
+	["Greatfather Aldrimus"] = "大祖父阿爾崔瑪斯";
+	["Clarissa"] = "克萊瑞莎";
+	["Ramdor the Mad"] = "瘋狂者藍姆多";
+	["Horvon the Armorer <Armorsmith>"] = "護甲匠霍沃";
+	["Nexus-Prince Haramad"] = "奈薩斯王子哈拉瑪德";
+	["Artificer Morphalius"] = "工匠莫法利厄司";
+	["Mamdy the \"Ologist\""] = "學家瑪姆迪";
+	["\"Slim\" <Shady Dealer>"] = "「史令姆」";
+	["\"Captain\" Kaftiz"] = "隊長卡夫提茲";
+	["Isfar"] = "伊斯法";
+	["Field Commander Mahfuun"] = "戰場元帥瑪赫范";
+	["Spy Grik'tha"] = "間諜葛瑞克薩";
+	["Provisioner Tsaalt"] = "糧食供應者·茲索特";
+	["Dealer Tariq <Shady Dealer>"] = "商人塔爾利奎";
+
+	--Blackfathom Deeps (Entrance)
+	--Nothing to translate!
+
+	--Blackrock Mountain (Entrance)
+	["Bodley"] = "布德利";
+	["Overmaster Pyron"] = "征服者派隆";
+	["Lothos Riftwaker"] = "洛索斯·天痕";
+	["Franclorn Forgewright"] = "弗蘭克羅恩·鑄鐵";
+	["Orb of Command"] = "命令寶珠";
+	["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾軍需官";
+
+	--Coilfang Reservoir (Entrance)
+	["Watcher Jhang"] = "看守者詹汗格";
+	["Mortog Steamhead"] = "莫塔格·史提海德";
+
+	--Gnomeregan (Entrance)
+	["Transpolyporter"] = "傳送器";
+	["Sprok <Away Team>"] = "斯普洛克";
+	["Matrix Punchograph 3005-A"] = "矩陣式打孔電腦3005-A";
+	["Namdo Bizzfizzle <Engineering Supplies>"] = "納姆杜";
+	["Techbot"] = "尖端機器人";
+
+	--Maraudon (Entrance)
+	["The Nameless Prophet"] = "無名預言者";
+	["Kolk <The First Kahn>"] = "考爾克 <第一可汗>";
+	["Gelk <The Second Kahn>"] = "吉爾克 <第二可汗>";
+	["Magra <The Third Kahn>"] = "瑪格拉 (第三可汗)";
+	["Cavindra"] = "凱雯德拉";
+
+	--The Deadmines (Entrance)
+	["Marisa du'Paige"] = "瑪里莎·杜派格";
+	["Brainwashed Noble"] = "被洗腦的貴族";
+	["Foreman Thistlenettle"] = "工頭希斯耐特";
+
+	--Sunken Temple (Entrance)
+	["Jade"] = "玉龍";
+	["Kazkaz the Unholy"] = "邪惡的卡薩卡茲";
+	["Zekkis"] = "澤基斯";
+	["Veyzhak the Cannibal"] = "食屍者維薩克";
+
+	--Uldaman (Entrance)
+	["Hammertoe Grez"] = "鐵趾格雷茲";
+	["Magregan Deepshadow"] = "馬格雷甘·深影";
+	["Tablet of Ryun'Eh"] = "雷烏納石板";
+	["Krom Stoutarm's Chest"] = "克羅姆·粗臂的箱子";
+	["Garrett Family Chest"] = "加瑞特家族的寶箱";
+	["Digmaster Shovelphlange"] = "挖掘專家舒爾弗拉格";
+
+	--Wailing Caverns (Entrance)
+	["Mad Magglish"] = "瘋狂的馬格利什";
+	["Trigore the Lasher"] = "鞭笞者特里高雷";
+	["Boahn <Druid of the Fang>"] = "博艾恩";
+	["Above the Entrance:"] = "入口上方:";
+	["Ebru <Disciple of Naralex>"] = "厄布魯";
+	["Nalpak <Disciple of Naralex>"] = "納爾派克";
+	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "卡爾丹·暗月";
+	["Waldor <Leatherworking Trainer>"] = "瓦多爾";
+
+	--Dire Maul (Entrance)
+	["Dire Pool"] = "厄運之池";
+	["Dire Maul Arena"] = "厄運競技場";
+	["Mushgog"] = "姆斯高格";
+	["Skarr the Unbreakable"] = "無敵的斯卡爾";
+	["The Razza"] = "拉札";
+	["Elder Mistwalker"] = "拉札";
+
+	--Caverns of Time (Entrance)
+	["Steward of Time <Keepers of Time>"] = "時間服務員";
+	["Alexston Chrome <Tavern of Time>"] = "艾力克斯頓·科洛米";
+	["Yarley <Armorer>"] = "亞利";
+	["Bortega <Reagents & Poison Supplies>"] = "伯特卡";
+	["Galgrom <Provisioner>"] = "卡葛隆姆";
+	["Alurmi <Keepers of Time Quartermaster>"] = "阿勒米";
+	["Zaladormu"] = "薩拉多姆";
+	["Soridormi <The Scale of Sands>"] = "索芮朵蜜";
+	["Arazmodu <The Scale of Sands>"] = "阿拉斯莫杜>";
+	["Andormu <Keepers of Time>"] = "安杜姆";
+	["Nozari <Keepers of Time>"] = "諾札瑞";
+
+	--Karazhan (Entrance)
+	["Archmage Leryda"] = "大法師利瑞達";
+	["Apprentice Darius"] = "學徒達瑞爾斯";
+	["Archmage Alturus"] = "大法師艾特羅斯";
+	["Stairs to Underground Pond"] = "通往地底池塘的階梯";
+	["Stairs to Underground Well"] = "通往地底水井的階梯";
+	["Charred Bone Fragment"] = "燒焦的白骨碎片";
+
+	--Scarlet Monastery (Entrance)
+	--Nothing to translate!
+
 };
 end

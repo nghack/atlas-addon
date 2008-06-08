@@ -48,10 +48,10 @@ local myData = {
 		{ GREY.."1) "..AtlasFPLocale["Sun's Reach"]..", ".._RED..AtlasFPLocale["Isle of Quel'Danas"], ZONE, 4080 };
 		{ GREY.."2) "..AtlasFPLocale["Hatchet Hills"]..", ".._RED..AtlasFPLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."3) "..AtlasFPLocale["Light's Hope Chapel"]..", ".._RED..AtlasFPLocale["Eastern Plaguelands"], ZONE, 139 };
-		{ GREY.."4) "..AtlasFPLocale["Chillwind Post"]..", ".._RED..AtlasFPLocale["Western Plaguelands"], ZONE, 28 };
+		{ GREY.."4) "..AtlasFPLocale["Chillwind Point"]..", ".._RED..AtlasFPLocale["Western Plaguelands"], ZONE, 28 };
 		{ GREY.."5) "..AtlasFPLocale["Aerie Peak"]..", ".._RED..AtlasFPLocale["The Hinterlands"], ZONE, 47 };
 		{ GREY.."6) "..AtlasFPLocale["Southshore"]..", ".._RED..AtlasFPLocale["Hillsbrad Foothills"], ZONE, 267 };
-		{ GREY.."7) "..AtlasFPLocale["Refuge Point"]..", ".._RED..AtlasFPLocale["Arathi Highlands"], ZONE, 45 };
+		{ GREY.."7) "..AtlasFPLocale["Refuge Pointe"]..", ".._RED..AtlasFPLocale["Arathi Highlands"], ZONE, 45 };
 		{ GREY.."8) "..AtlasFPLocale["Menethil Harbor"]..", ".._RED..AtlasFPLocale["Wetlands"], ZONE, 11 };
 		{ GREY.."9) "..AtlasFPLocale["Ironforge"]..", ".._RED..AtlasFPLocale["Dun Morogh"], ZONE, 1 };
 		{ GREY.."10) "..AtlasFPLocale["Thelsamar"]..", ".._RED..AtlasFPLocale["Loch Modan"], ZONE, 38 };
@@ -61,7 +61,7 @@ local myData = {
 		{ GREY.."14) "..AtlasFPLocale["Lakeshire"]..", ".._RED..AtlasFPLocale["Redridge Mountains"], ZONE, 44 };
 		{ GREY.."15) "..AtlasFPLocale["Sentinel Hill"]..", ".._RED..AtlasFPLocale["Westfall"], ZONE, 40 };
 		{ GREY.."16) "..AtlasFPLocale["Darkshire"]..", ".._RED..AtlasFPLocale["Duskwood"], ZONE, 10 };
-		{ GREY.."17) "..AtlasFPLocale["Netherguard Keep"]..", ".._RED..AtlasFPLocale["Blasted Lands"], ZONE, 4 };
+		{ GREY.."17) "..AtlasFPLocale["Nethergarde Keep"]..", ".._RED..AtlasFPLocale["Blasted Lands"], ZONE, 4 };
 		{ GREY.."18) "..AtlasFPLocale["Rebel Camp"]..", ".._RED..AtlasFPLocale["Stranglethorn Vale"], ZONE, 33 };
 		{ GREY.."19) "..AtlasFPLocale["Booty Bay"]..", ".._RED..AtlasFPLocale["Stranglethorn Vale"], ZONE, 33 };
 	};
@@ -85,7 +85,7 @@ local myData = {
 		{ GREY.."15) "..AtlasFPLocale["Mudsprocket"]..", ".._RED..AtlasFPLocale["Dustwallow Marsh"], ZONE, 15 };
 		{ GREY.."16) "..AtlasFPLocale["Feathermoon Stronghold"]..", ".._RED..AtlasFPLocale["Feralas"], ZONE, 357 };
 		{ GREY.."17) "..AtlasFPLocale["Thalanaar"]..", ".._RED..AtlasFPLocale["Feralas"], ZONE, 357 };
-		{ GREY.."18) "..AtlasFPLocale["Marshall's Refuge"]..", ".._RED..AtlasFPLocale["Un'Goro Crater"], ZONE, 490 };
+		{ GREY.."18) "..AtlasFPLocale["Marshal's Refuge"]..", ".._RED..AtlasFPLocale["Un'Goro Crater"], ZONE, 490 };
 		{ GREY.."19) "..AtlasFPLocale["Cenarion Hold"]..", ".._RED..AtlasFPLocale["Silithus"], ZONE, 1377 };
 		{ GREY.."20) "..AtlasFPLocale["Gadgetzan"]..", ".._RED..AtlasFPLocale["Tanaris"], ZONE, 440 };
 		{ GREY.."21) "..AtlasFPLocale["Blood Watch"]..", ".._RED..AtlasFPLocale["Bloodmyst Isle"], ZONE, 3525 };
@@ -99,7 +99,7 @@ local myData = {
 		{ GREY.."3) "..AtlasFPLocale["Tranquillien"]..", ".._RED..AtlasFPLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."4) "..AtlasFPLocale["Hatchet Hills"]..", ".._RED..AtlasFPLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."5) "..AtlasFPLocale["Light's Hope Chapel"]..", ".._RED..AtlasFPLocale["Eastern Plaguelands"], ZONE, 139 };
-		{ GREY.."6) "..AtlasFPLocale["Undercity"]..", ".._RED..AtlasFPLocale["Tirisfal Glade"], ZONE, 85 };
+		{ GREY.."6) "..AtlasFPLocale["Undercity"]..", ".._RED..AtlasFPLocale["Tirisfal Glades"], ZONE, 85 };
 		{ GREY.."7) "..AtlasFPLocale["The Sepulcher"]..", ".._RED..AtlasFPLocale["Silverpine Forest"], ZONE, 130 };
 		{ GREY.."8) "..AtlasFPLocale["Tarren Mill"]..", ".._RED..AtlasFPLocale["Hillsbrad Foothills"], ZONE, 267 };
 		{ GREY.."9) "..AtlasFPLocale["Revantusk Village"]..", ".._RED..AtlasFPLocale["The Hinterlands"], ZONE, 47 };
@@ -123,7 +123,7 @@ local myData = {
 		{ GREY.."7) "..AtlasFPLocale["Valormok"]..", ".._RED..AtlasFPLocale["Azshara"], ZONE, 16 };
 		{ GREY.."8) "..AtlasFPLocale["Splintertree Post"]..", ".._RED..AtlasFPLocale["Ashenvale"], ZONE, 331 };
 		{ GREY.."9) "..AtlasFPLocale["Orgrimmar"]..", ".._RED..AtlasFPLocale["Durotar"], ZONE, 14 };
-		{ GREY.."10) "..AtlasFPLocale["Sunrock Retreat"]..", ".._RED..AtlasFPLocale["Stonetalon Mountains"], ZONE, 406 };
+		{ GREY.."10) "..AtlasFPLocale["Sun Rock Retreat"]..", ".._RED..AtlasFPLocale["Stonetalon Mountains"], ZONE, 406 };
 		{ GREY.."11) "..AtlasFPLocale["Crossroads"]..", ".._RED..AtlasFPLocale["The Barrens"], ZONE, 17 };
 		{ GREY.."12) "..AtlasFPLocale["Ratchet"]..", ".._RED..AtlasFPLocale["The Barrens"], ZONE, 17 };
 		{ GREY.."13) "..AtlasFPLocale["Shadowprey Village"]..", ".._RED..AtlasFPLocale["Desolace"], ZONE, 405 };

@@ -22,107 +22,70 @@
 
 --]]
 
--- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Feb. 11, 2008
 if ( GetLocale() ==	"zhTW" ) then
+AtlasORLocale = {
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "   ";
+	["Ancient Skull Pile"] = "古老的顱骨堆";
+	["Ashenvale"] = "梣谷";
+	["Azshara"] = "艾薩拉";
+	["Azuregos"] = "艾索雷葛斯";
+	["Blackwind Landing"] = "黑風平臺";
+	["Blackwind Valley"] = "黑風谷";
+	["Blasted Lands"] = "詛咒之地";
+	["Bough Shadow"] = "大樹蔭";
+	["Darkscreecher Akkarai"] = "黑暗尖叫者阿卡萊";
+	["Doom Lord Kazzak"] = "毀滅領主卡札克";
+	["Doomwalker"] = "厄運行者";
+	["Dragons of Nightmare"] = "翡翠四巨龍";
+	["Dream Bough"] = "夢境之樹 ";
+	["Dreamroarer"] = "睡夢咆哮者";
+	["Dreamstalker"] = "巡夢者";
+	["Dreamtracker"] = "尋夢者";
+	["Duskwood"] = "暮色森林";
+	["Emeriss"] = "艾莫莉絲";
+	["Feralas"] = "菲拉斯";
+	["Forge Camp: Mageddon"] = "煉冶場:黑色祭壇";
+	["Forge Camp: Rage"] = "煉冶場:狂怒";
+	["Gezzarak the Huntress"] = "女獵人吉札拉";
+	["Graveyard"] = "墓地";
+	["Grella <Skyguard Quartermaster>"] = "葛瑞拉";
+	["Hazzik"] = "海茲克";
+	["Hazzik's Package"] = "海茲克的包裹";
+	["Hellfire Peninsula"] = "地獄火半島";
+	["Highlord Kruul"] = "卡魯歐大領主";
+	["Invasion Point: Annihilator"] = "侵略點:殲滅者";
+	["Karrog"] = "凱羅格";
+	["Lethlas"] = "萊薩拉斯";
+	["Lethon"] = "雷索";
+	["Nethergarde Keep"] = "守望堡";
+	["Outdoor Raid Encounters"] = "野外團隊會戰";
+	["Phantim"] = "范迪姆";
+	["Random"] = "隨機";
+	["Rothos"] = "洛索斯";
+	["Sahaak <Keeper of Scrolls>"] = "撒哈克";
+	["Seradane"] = "瑟拉丹";
+	["Severin <Skyguard Medic>"] = "瑟弗林";
+	["Shadowmoon Valley"] = "影月谷";
+	["Skettis"] = "司凱堤斯";
+	["Skull Pile"] = "顱骨堆";
+	["Sky Commander Adaris"] = "天空指揮官艾德瑞斯";
+	["Sky Sergeant Doryn"] = "天空士官多林";
+	["Skyguard Handler Deesak"] = "禦天者管理者迪塞克";
+	["Skyguard Prisoner"] = "禦天者囚犯";
+	["Summon"] = "召喚";
+	["Taerar"] = "泰拉爾";
+	["Talonpriest Ishaal"] = "魔爪祭司艾夏歐";
+	["Talonpriest Skizzik"] = "魔爪祭司史奇吉克";
+	["Talonpriest Zellek"] = "魔爪祭司札列克";
+	["Terokk"] = "泰洛克";
+	["Terokkar Forest"] = "泰洛卡森林";
+	["The Dragons"] = "龍族";
+	["The Hinterlands"] = "辛特蘭";
+	["Thrallmar"] = "索爾瑪";
+	["Twilight Grove"] = "暮光森林";
+	["Vakkiz the Windrager"] = "『風怒者』瓦奇茲";
+	["Various"] = "多處";
+	["Ysondre"] = "伊索德雷";
 
-	local myCategory = "野外團隊會戰";
-
-	local myData = {
-		Azuregos = {
-			ZoneName = "艾索雷葛斯";
-			Location = "艾薩拉";
-			GREY.."1) 艾索雷葛斯";
-		};
-		FourDragons = {
-			ZoneName = "翡翠四巨龍";
-			Location = "多處";
-			GREY.."1) 暮色森林, ".._RED.."黎明森林";
-			GREY.."2) 辛特蘭, ".._RED.."瑟拉丹";
-			GREY..INDENT.."洛索斯";
-			GREY..INDENT.."尋夢者";
-			GREY.."3) 菲拉斯, ".._RED.."夢境之樹";
-			GREY..INDENT.."萊薩拉斯";
-			GREY..INDENT.."睡夢咆哮者";
-			GREY.."4) 梣谷, ".._RED.."大樹蔭";
-			GREY..INDENT.."范迪姆";
-			GREY..INDENT.."巡夢者";
-			"";
-			GREN.."四巨龍";
-			GREY..INDENT.."雷索";
-			GREY..INDENT.."艾莫莉絲";
-			GREY..INDENT.."泰拉爾";
-			GREY..INDENT.."伊索德雷";
-		};
-		HighlordKruul = {
-			ZoneName = "卡魯歐領主";
-			Location = "詛咒之地";
-			GREY.."1) 卡魯歐領主";
-			GREY.."2) 守望堡";
-		};
-		DoomLordKazzak = {
-			ZoneName = "毀滅之王卡札克";
-			Location = "地獄火半島";
-			GREY.."1) 毀滅之王卡札克";
-			GREY.."2) 侵略點:殲滅者";
-			GREY.."3) 煉冶場:狂怒";
-			GREY.."4) 煉冶場:黑色祭壇";
-			GREY.."5) 索爾瑪";
-		};
-		Doomwalker = {
-			ZoneName = "厄運行者";
-			Location = "影月谷";
-			GREY.."1) 厄運行者";
-		};
-		Skettis = {
-			ZoneName = "司凱堤斯";
-			Location = "黑風谷, 泰洛卡森林";
-			GREY.."1) 黑風平臺";
-			GREY..INDENT.."天空指揮官艾德瑞斯";
-			GREY..INDENT.."天空士官多林";
-			GREY..INDENT.."禦天者管理者迪塞克";
-			GREY..INDENT.."瑟弗林";
-			GREY..INDENT.."葛瑞拉";
-			GREY..INDENT.."海茲克";
-			GREY.."2) 古老的頭顱堆";
-			GREY..INDENT.."泰洛克 (召喚)";
-			GREY.."3) 撒哈克";
-			GREY.."4) 禦天者囚犯 (隨機)";
-			GREY.."5) 魔爪祭司艾夏歐";
-			GREY.."6) 魔爪祭司史奇吉克";
-			GREY.."7) 魔爪祭司札列克";
-			GREY.."8) 海茲克的包裹";
-			GREY.."9) 墓地";
-			GREN.."1') 顱骨堆";
-			GREN..INDENT.."黑暗尖叫者阿卡萊 (召喚)";
-			GREN..INDENT.."女獵人吉札拉 (召喚)";
-			GREN..INDENT.."凱羅格 (召喚)";
-			GREN..INDENT.."『風怒者』瓦奇茲 (召喚)";
-		};
-	};
-
-	myData.Azuregos.LevelRange =			"60+";
-	myData.FourDragons.LevelRange =			"60+";
-	myData.HighlordKruul.LevelRange =		"60+";
-	myData.DoomLordKazzak.LevelRange =		"70+";
-	myData.Doomwalker.LevelRange =			"70+";
-	myData.Skettis.LevelRange =				"70+";
-	
-	myData.Azuregos.PlayerLimit =			"40";
-	myData.FourDragons.PlayerLimit =		"40";
-	myData.HighlordKruul.PlayerLimit =		"40";
-	myData.DoomLordKazzak.PlayerLimit =		"40";
-	myData.Doomwalker.PlayerLimit =			"40";
-	myData.Skettis.PlayerLimit =			"40";
-
-	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
-
+};
 end

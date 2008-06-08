@@ -22,184 +22,158 @@
 
 --]]
 
--- Translated by Arith Hsu (arithmandarjp at yahoo.co.jp)
--- Last Update: Mar. 25, 2008
 if ( GetLocale() ==	"zhTW" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "  ";
+AtlasBGLocale = {
 
-	local myCategory = "戰場地圖";
+	--Common
+	["Alliance"] = "聯盟";
+	["Battleground Maps"] = "戰場地圖";
+	["Entrance"] = "入口";
+	["Horde"] = "部落";
+	["Neutral"] = "中立";
+	["North"] = "北";
+	["Orange"] = "橙";
+	["Red"] = "紅";
+	["Rep"] = "聲望";
+	["Rescued"] = "營救";
+	["South"] = "南";
+	["Summon"] = "召喚";
+	["White"] = "灰";
 
-	local myData = {
-		AlteracValleyNorth = {
-			ZoneName = "奧特蘭克山谷 (北)";
-			Acronym = "AV";
-			Location = "奧特蘭克山脈";
-			ORNG.."聲望: 雷矛衛隊";
-			BLUE.."A) 聯盟入口";
-			BLUE.."B) 丹巴達爾";
-			BLUE..INDENT.."范達爾·雷矛";
-			BLUE..INDENT.."丹巴達爾北部元帥";
-			BLUE..INDENT.."丹巴達爾南部元帥";
-			BLUE..INDENT.."冰翼元帥";
-			BLUE..INDENT.."石爐元帥";
-			BLUE..INDENT.."勘察員塔雷·石鎬";
-			_RED.."1) 深鐵礦坑";
-			GREY..INDENT.."莫洛克 (中立)";
-			GREY..INDENT.."烏米·托爾森";
-			GREY..INDENT.."基塔爾 (部落)";
-			GREY.."2) 大德魯伊雷弗拉爾";
-			ORNG.."3) 丹巴達爾北部碉堡";
-			GREY..INDENT.."空軍指揮官穆維里克 (部落)";
-			GREY.."4) 莫高特·深爐";
-			GREY..INDENT.."德爾克 <賞金獵人>";
-			GREY..INDENT.."亞斯拉瑪尼斯 <賞金獵人>";
-			GREY..INDENT.."蘭納·雷酒 <鐵匠補給>";
-			_RED.."5) 雷矛急救站";
-			GREY.."6) 雷矛獸欄管理員";
-			GREY..INDENT.."雷矛山羊騎兵指揮官";
-			GREY..INDENT.."斯瓦爾布萊德·遠山 <商品>";
-			GREY..INDENT.."庫德拉姆·麥鬚 <材料與藥水補給>";
-			GREY.."7) 雷矛軍需官";
-			GREY..INDENT.."約尼維拉·遠山 <一般物品>";
-			GREY..INDENT.."布羅古斯·雷酒 <食物和飲料>";
-			GREY.."8) 空軍指揮官艾克曼 (營救)";
-			GREY..INDENT.."空軍指揮官斯里多爾 (營救)";
-			GREY..INDENT.."空軍指揮官維波里 (營救)";
-			ORNG.."9) 丹巴達爾南部碉堡";
-			GREY..INDENT.."諾雷格·雷矛下士";
-			GREY..INDENT.."蓋爾丁 <雷矛物資商人>";
-			_RED.."10) 雷矛墓地";
-			GREY.."11) 冰翼洞穴";
-			GREY..INDENT.."雷矛軍旗";
-			GREY.."12) 雷矛林場";
-			GREY..INDENT.."空軍指揮官傑斯托 (部落)";
-			ORNG.."13) 冰翼碉堡";
-			GREY..INDENT.."空軍指揮官古斯 (部落)";
-			_RED.."14) 石爐墓地";
-			GREY.."15) 雷矛山羊騎兵指揮官";
-			ORNG.."16) 石爐哨站";
-			GREY..INDENT.."巴琳達·石爐上尉";
-			_RED.."17) 落雪墓地";
-			GREY..INDENT.."艾克曼的信號燈";
-			GREY..INDENT.."穆維里克的信號燈 (部落)";
-			ORNG.."18) 石爐碉堡";
-			GREY.."19) 『森林之王』伊弗斯 (召喚區)";
-			GREY.."20) 西部凹地";
-			GREY..INDENT.."維波里的信號燈";
-			GREY..INDENT.."傑斯托的信號燈 (部落)";
-			GREY.."21) 東部凹地";
-			GREY..INDENT.."斯里多爾的信號燈";
-			GREY..INDENT.."古斯的信號燈 (部落)";
-			"";
-			_RED.."紅:"..BLUE.." 墓地, 可佔領的地區";
-			ORNG.."橙:"..BLUE.." 碉堡, 哨塔, 可摧毀的地區";
-			GREY.."灰:"..BLUE.." 相關 NPCs, 任務地區";
-		};
-		AlteracValleySouth = {
-			ZoneName = "奧特蘭克山谷 (南)";
-			Acronym = "AV";
-			Location = "希爾斯布萊德丘陵";
-			ORNG.."聲望: 霜狼氏族";
-			BLUE.."A) 部落入口";
-			BLUE.."B) 霜狼要塞";
-			BLUE..INDENT.."德雷克塔爾";
-			BLUE..INDENT.."杜洛斯";
-			BLUE..INDENT.."崔坎";
-			BLUE..INDENT.."西部霜狼將領";
-			BLUE..INDENT.."東部霜狼將領";
-			BLUE..INDENT.."哨塔高地將領";
-			BLUE..INDENT.."冰血將領";
-			GREY.."1) 『冰雪之王』洛克霍拉 (召喚區)";
-			ORNG.."2) 冰血要塞";
-			GREY..INDENT.."加爾范上尉";
-			ORNG.."3) 冰血哨塔";
-			_RED.."4) 冰血墓地";
-			GREY.."空軍指揮官艾克曼 (聯盟)";
-			ORNG.."5) 哨塔高地";
-			GREY..INDENT.."空軍指揮官斯里多爾 (聯盟)";
-			GREY.."6) 冷齒礦坑";
-			GREY..INDENT.."監工斯尼維爾 (中立)";
-			GREY..INDENT.."瑪莎";
-			GREY..INDENT.."埃其 (聯盟)";
-			_RED.."7) 霜狼墓地";
-			GREY.."8) 空軍指揮官維波里 (聯盟)";
-			GREY..INDENT.."喬泰克";
-			GREY..INDENT.."鐵匠雷格薩";
-			GREY..INDENT.."原獵者瑟魯加";
-			GREY..INDENT.."亞斯拉·血矛";
-			GREY.."9) 霜狼獸欄管理員";
-			GREY..INDENT.."霜狼騎兵指揮官";
-			GREY.."10) 霜狼軍需官";
-			ORNG.."11) 西部霜狼哨塔";
-			ORNG.."12) 東部霜狼哨塔";
-			GREY.."13) 空軍指揮官古斯 (營救)";
-			GREY..INDENT.."空軍指揮官傑斯托 (營救)";
-			GREY..INDENT.."空軍指揮官穆維里克 (營救)";
-			_RED.."14) 霜狼急救站";
-			GREY.."15) 蠻爪洞穴";
-			GREY..INDENT.."霜狼軍旗";
-			"";
-			_RED.."紅:"..BLUE.." 墓地, 可佔領的地區";
-			ORNG.."橙:"..BLUE.." 碉堡, 哨塔, 可摧毀的地區";
-			GREY.."灰:"..BLUE.." 相關 NPCs, 任務地區";
-		};
-		ArathiBasin = {
-			ZoneName = "阿拉希盆地";
-			Acronym = "AB";
-			Location = "阿拉希高地";
-			ORNG.."聲望: 污染者 (部落)";
-			ORNG.."聲望: 阿拉索聯軍 (聯盟)";
-			BLUE.."A) 托爾貝恩大廳 (聯盟)";
-			BLUE.."B) 污染者之穴 (部落)";
-			GREY.."1) 獸欄";
-			GREY.."2) 金礦";
-			GREY.."3) (鐵) 鐵匠舖";
-			GREY.."4) 伐木場";
-			GREY.."5) 農場";
-		};
-		WarsongGulch = {
-			ZoneName = "戰歌峽谷";
-			Acronym = "WSG";
-			Location = "梣谷 / 貧瘠之地";
-			ORNG.."聲望: 戰歌偵察騎兵 (部落)";
-			ORNG.."聲望: 銀翼要塞的戰士 (聯盟)";
-			BLUE.."A) 銀翼要塞 (聯盟)";
-			BLUE.."B) 戰歌伐木廠 (部落)";
-		};
-		EyeOfTheStorm = {
-			ZoneName = "暴風之眼";
-			Acronym = "EotS";
-			Location = "虛空風暴";
-			BLUE.."A) 入口 (聯盟)";
-			BLUE.."B) 入口 (部落)";
-			_RED.."X) 墓地";
-			ORNG.."X) 旗幟";
-			GREY.."1) 法師塔";
-			GREY.."2) 德萊尼廢墟";
-			GREY.."3) 惡魔搶奪者廢墟";
-			GREY.."4) 血精靈哨塔";
-		};
-	};
+	--Places
+	["Alterac Mountains"] = "奧特蘭克山脈";
+	["Alterac Valley"] = "奧特蘭克山谷"; ["AV"] = "AV";
+	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB";
+	["Arathi Highlands"] = "阿拉希高地";
+	["Ashenvale"] = "梣谷";
+	["Eastern Kingdoms"] = "東部王國";
+	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS";
+	["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
+	["Kalimdor"] = "卡林多";
+	["Netherstorm"] = "虛空風暴";
+	["Outland"] = "外域";
+	["The Barrens"] = "貧瘠之地";
+	["Warsong Gulch"] = "戰歌峽谷"; ["WSG"] = "WSG";
 
-	myData.AlteracValleyNorth.LevelRange =		"51-70";
-	myData.AlteracValleySouth.LevelRange =		"51-70";
-	myData.ArathiBasin.LevelRange =				"20-70";
-	myData.WarsongGulch.LevelRange =			"10-70";
-	myData.EyeOfTheStorm.LevelRange =			"61-70";
+	--Alterac Valley (North)
+	["Stormpike Guard"] = "雷矛衛隊";
+	["Dun Baldar"] = "丹巴達爾";
+	["Vanndar Stormpike <Stormpike General>"] = "范達爾·雷矛";
+	["Dun Baldar North Marshal"] = "丹巴達爾北部元帥";
+	["Dun Baldar South Marshal"] = "丹巴達爾南部元帥";
+	["Icewing Marshal"] = "冰翼元帥";
+	["Stonehearth Marshal"] = "石爐元帥";
+	["Prospector Stonehewer"] = "勘察員塔雷·石鎬";
+	["Irondeep Mine"] = "深鐵礦坑";
+	["Morloch"] = "莫洛克";
+	["Umi Thorson"] = "烏米·托爾森";
+	["Keetar"] = "基塔爾";
+	["Arch Druid Renferal"] = "大德魯伊雷弗拉爾";
+	["Dun Baldar North Bunker"] = "丹巴達爾北部碉堡";
+	["Wing Commander Mulverick"] = "空軍指揮官穆維里克";--omitted from AVS
+	["Murgot Deepforge"] = "莫高特·深爐";
+	["Dirk Swindle <Bounty Hunter>"] = "德爾克 <賞金獵人>";
+	["Athramanis <Bounty Hunter>"] = "亞斯拉瑪尼斯 <賞金獵人>";
+	["Lana Thunderbrew <Blacksmithing Supplies>"] = "蘭納·雷酒 <鐵匠補給>";
+	["Stormpike Aid Station"] = "雷矛急救站";
+	["Stormpike Stable Master <Stable Master>"] = "雷矛獸欄管理員";
+	["Stormpike Ram Rider Commander"] = "雷矛山羊騎兵指揮官";
+	["Svalbrad Farmountain <Trade Goods>"] = "斯瓦爾布萊德·遠山 <商品>";
+	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "庫德拉姆·麥鬚 <材料與藥水補給>";
+	["Stormpike Quartermaster"] = "雷矛軍需官";
+	["Jonivera Farmountain <General Goods>"] = "約尼維拉·遠山 <一般物品>";
+	["Brogus Thunderbrew <Food & Drink>"] = "布羅古斯·雷酒 <食物和飲料>";
+	["Wing Commander Ichman"] = "空軍指揮官艾克曼";--omitted from AVS
+	["Wing Commander Slidore"] = "空軍指揮官斯里多爾";--omitted from AVS
+	["Wing Commander Vipore"] = "空軍指揮官維波里";--omitted from AVS
+	["Dun Baldar South Bunker"] = "丹巴達爾南部碉堡";
+	["Corporal Noreg Stormpike"] = "諾雷格·雷矛下士";
+	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "蓋爾丁 <雷矛物資商人>";
+	["Stormpike Graveyard"] = "雷矛墓地";
+	["Icewing Cavern"] = "冰翼洞穴";
+	["Stormpike Banner"] = "雷矛軍旗";
+	["Stormpike Lumber Yard"] = "雷矛林場";
+	["Wing Commander Jeztor"] = "空軍指揮官傑斯托";--omitted from AVS
+	["Icewing Bunker"] = "冰翼碉堡";
+	["Wing Commander Guse"] = "空軍指揮官古斯";--omitted from AVS
+	["Stonehearth Graveyard"] = "石爐墓地";
+	["Stormpike Ram Rider Commander"] = "雷矛山羊騎兵指揮官";
+	["Stonehearth Outpost"] = "石爐哨站";
+	["Captain Balinda Stonehearth <Stormpike Captain>"] = "巴琳達·石爐上尉";
+	["Snowfall Graveyard"] = "落雪墓地";
+	["Ichman's Beacon"] = "艾克曼的信號燈";
+	["Mulverick's Beacon"] = "穆維里克的信號燈";
+	["Stonehearth Bunker"] = "石爐碉堡";
+	["Ivus the Forest Lord"] = "『森林之王』伊弗斯";
+	["Western Crater"] = "西部凹地";
+	["Vipore's Beacon"] = "維波里的信號燈";
+	["Jeztor's Beacon"] = "傑斯托的信號燈";
+	["Eastern Crater"] = "東部凹地";
+	["Slidore's Beacon"] = "斯里多爾的信號燈";
+	["Guse's Beacon"] = "古斯的信號燈";
+	["Graveyards, Capturable Areas"] = "墓地, 可佔領的地區";--omitted from AVS
+	["Bunkers, Towers, Destroyable Areas"] = "碉堡, 哨塔, 可摧毀的地區";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "相關 NPCs, 任務地區";--omitted from AVS
 
-	myData.AlteracValleyNorth.PlayerLimit =		"40";
-	myData.AlteracValleySouth.PlayerLimit =		"40";
-	myData.ArathiBasin.PlayerLimit =			"15";
-	myData.WarsongGulch.PlayerLimit =			"10";
-	myData.EyeOfTheStorm.PlayerLimit =			"15";
+	--Alterac Valley (South)
+	["Frostwolf Clan"] = "霜狼氏族";
+	["Frostwolf Keep"] = "霜狼要塞";
+	["Drek'Thar <Frostwolf General>"] = "德雷克塔爾";
+	["Duros"] = "杜洛斯";
+	["Drakan"] = "崔坎";
+	["West Frostwolf Warmaster"] = "西部霜狼將領";
+	["East Frostwolf Warmaster"] = "東部霜狼將領";
+	["Tower Point Warmaster"] = "哨塔高地將領";
+	["Iceblood Warmaster"] = "冰血將領";
+	["Lokholar the Ice Lord"] = "『冰雪之王』洛克霍拉";
+	["Iceblood Garrison"] = "冰血要塞";
+	["Captain Galvangar <Frostwolf Captain>"] = "加爾范上尉";
+	["Iceblood Tower"] = "冰血哨塔";
+	["Iceblood Graveyard"] = "冰血墓地";
+	["Tower Point"] = "哨塔高地";
+	["Coldtooth Mine"] = "冷齒礦坑";
+	["Taskmaster Snivvle"] = "監工斯尼維爾";
+	["Masha Swiftcut"] = "瑪莎";
+	["Aggi Rumblestomp"] = "埃其";
+	["Frostwolf Graveyard"] = "霜狼墓地";
+	["Jotek"] = "喬泰克";
+	["Smith Regzar"] = "鐵匠雷格薩";
+	["Primalist Thurloga"] = "原獵者瑟魯加";
+	["Sergeant Yazra Bloodsnarl"] = "亞斯拉·血矛";
+	["Frostwolf Stable Master <Stable Master>"] = "霜狼獸欄管理員";
+	["Frostwolf Wolf Rider Commander"] = "霜狼騎兵指揮官";
+	["Frostwolf Quartermaster"] = "霜狼軍需官";
+	["West Frostwolf Tower"] = "西部霜狼哨塔";
+	["East Frostwolf Tower"] = "東部霜狼哨塔";
+	["Frostwolf Relief Hut"] = "霜狼急救站";
+	["Wildpaw Cavern"] = "蠻爪洞穴";
+	["Frostwolf Banner"] = "霜狼軍旗";
 
-	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
+	--Arathi Basin
+	["The Defilers"] = "污染者";
+	["The League of Arathor"] = "阿拉索聯軍";
+	["Trollbane Hall"] = "托爾貝恩大廳";
+	["Defiler's Den"] = "污染者之穴";
+	["Stables"] = "獸欄";
+	["Gold Mine"] = "金礦";
+	["Smithy"] = "鐵匠舖";
+	["Lumber Mill"] = "伐木場";
+	["Farm"] = "農場";
 
+	--Warsong Gulch
+	["Warsong Outriders"] = "戰歌偵察騎兵";
+	["Silverwing Sentinels"] = "銀翼要塞的戰士";
+	["Silverwing Hold"] = "銀翼要塞";
+	["Warsong Lumber Mill"] = "戰歌伐木廠";
+
+	--Eye of the Storm
+	["Graveyard"] = "墓地";
+	["Flag"] = "旗幟";
+	["Mage Tower"] = "法師塔";
+	["Draenei Ruins"] = "德萊尼廢墟";
+	["Fel Reaver Ruins"] = "惡魔搶奪者廢墟";
+	["Blood Elf Tower"] = "血精靈哨塔";
+
+};
 end

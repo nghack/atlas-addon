@@ -123,7 +123,7 @@ AtlasLocale = {
 
 	--Common strings
 	["Adult"] = "成年";
-	["AKA"] = "AKA";
+	["AKA"] = "亦即";
 	["Alliance"] = "聯盟";
 	["Arcane Container"] = "秘法容器";
 	["Argent Dawn"] = "銀色黎明";
@@ -157,7 +157,7 @@ AtlasLocale = {
 	["Holy Priest"] = "神聖牧師";
 	["Horde"] = "部落";
 	["Hunter"] = "獵人";
-	["Imp"] = "Imp";
+	["Imp"] = "小鬼";
 	["Key"] = "鑰匙";
 	["Lower"] = "下層";
 	["Lunar"] = "新年慶典";

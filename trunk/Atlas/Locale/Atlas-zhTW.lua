@@ -212,19 +212,19 @@ AtlasLocale = {
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
 	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT";
-	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD";
+	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD/黑淵";
 	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
 	["Blackrock Spire"] = "黑石塔"; ["LBRS"] = "LBRS/黑下"; ["UBRS"] = "UBRS/黑上";
 	["Blackwing Lair"] = "黑翼之巢"; ["BWL"] = "BWL";
 	["Cathedral"] = "大教堂"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
 	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
-	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運之槌";
+	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
 	["Graveyard"] = "墓園"; ["GY"] = "GY";
 	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL";
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC";
-	["Hellfire Ramparts"] = "地獄火壁壘s"; ["Ramp"] = "Ramp";
+	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3";
 	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara";
 	["Library"] = "圖書館"; ["Lib"] = "Lib";
@@ -244,10 +244,10 @@ AtlasLocale = {
 	["Scholomance"] = "通靈學院"; ["Scholo"] = "Scholo/通靈";
 	["Serpentshrine Cavern"] = "毒蛇神殿洞穴"; ["SC"] = "SC/毒蛇";
 	["Sethekk Halls"] = "塞司克大廳"; ["Seth"] = "Seth";
-	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL";
+	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL/迷宮";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat/斯坦";
-	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST";
+	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST/神廟";
 	["Sunwell Plateau"] = "太陽之井高地"; ["SP"] = "SP";
 	["Tempest Keep"] = "風暴要塞"; ["TK"] = "TK";
 	["Temple of Ahn'Qiraj"] = "安其拉神廟"; ["AQ40"] = "AQ40";
@@ -255,7 +255,7 @@ AtlasLocale = {
 	["The Black Morass"] = "黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
 	["The Blood Furnace"] = "血熔爐"; ["BF"] = "BF";
 	["The Botanica"] = "波塔尼卡"; ["Bota"] = "Bota/波塔";
-	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC";
+	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
 	["The Eye"] = "風暴之眼"; ["Eye"] = "Eye";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
 	["The Shattered Halls"] = "破碎大廳"; ["SH"] = "SH/破碎";
@@ -267,7 +267,7 @@ AtlasLocale = {
 	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC/哀嚎";
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖爾法拉克"; ["ZF"] = "ZF/祖法";
-	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖耳";
+	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖爾";
 	
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";

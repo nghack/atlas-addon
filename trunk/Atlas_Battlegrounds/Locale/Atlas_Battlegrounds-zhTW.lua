@@ -43,18 +43,18 @@ AtlasBGLocale = {
 
 	--Places
 	["Alterac Mountains"] = "奧特蘭克山脈";
-	["Alterac Valley"] = "奧特蘭克山谷"; ["AV"] = "AV";
-	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB";
+	["Alterac Valley"] = "奧特蘭克山谷"; ["AV"] = "AV/奧山";
+	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB/阿拉希";
 	["Arathi Highlands"] = "阿拉希高地";
 	["Ashenvale"] = "梣谷";
 	["Eastern Kingdoms"] = "東部王國";
-	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS";
+	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS/暴風";
 	["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
 	["Kalimdor"] = "卡林多";
 	["Netherstorm"] = "虛空風暴";
 	["Outland"] = "外域";
 	["The Barrens"] = "貧瘠之地";
-	["Warsong Gulch"] = "戰歌峽谷"; ["WSG"] = "WSG";
+	["Warsong Gulch"] = "戰歌峽谷"; ["WSG"] = "WSG/戰歌";
 
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "雷矛衛隊";

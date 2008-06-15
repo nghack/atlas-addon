@@ -24,175 +24,157 @@
 
 if ( GetLocale() == "deDE" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
-	
-	local ZONE = 1;
-	local NPC = 2;
-	local ITEM = 3;
-	local OBJECT = 4;
-	local FACTION = 5;
-	local QUEST = 6;
+AtlasBGLocale = {
 
-	local myCategory = "Schlachtfeldkarten";
+	--Common
+	["Alliance"] = "Allianz";
+	["Battleground Maps"] = "Schlachtfeldkarten";
+	["Entrance"] = "Eingang";
+	["Horde"] = "Horde";
+	["Neutral"] = "Neutral";
+	["North"] = "Nord";
+	["Orange"] = "Orange";
+	["Red"] = "Rot";
+	["Rep"] = "Ruf";
+	["Rescued"] = "Gerettet";
+	["South"] = "Süd";
+	["Summon"] = "Beschwörbar";
+	["White"] = "Weiß";
 
-	local myData = {
-		AlteracValleyNorth = {
-			ZoneName = "Alteractal (Nord, Allianz)";
-			Acronym = "AV";
-			Location = "Alteracgebirge";
-			ORNG.."Ruf: Sturmlanzengarde";
-			BLUE.."A) Allianz Eingang";
-			BLUE.."B) Dun Baldar";
-			BLUE..INDENT.."Vanndar Sturmlanze <General der Sturmlanzen>";
-			BLUE..INDENT.."Marschall der Nordtruppen von Dun Baldar";
-			BLUE..INDENT.."Marschall der Südtruppen von Dun Baldar";
-			BLUE..INDENT.."Marschall der Eisschwingentruppen";
-			BLUE..INDENT.."Marschall der Steinbruchtruppen";
-			BLUE..INDENT.."Ausgrabungsleiter Steinhauer";
-			_RED.."1) Eisenschachtmine";
-			GREY..INDENT.."Morloch (Neutral)";
-			GREY..INDENT.."Umi Thorson";
-			GREY..INDENT.."Keetar (Horde)";
-			GREY.."2) Erzdruide Renferal";
-			ORNG.."3) Nordbunker von Dun Baldar";
-			GREY..INDENT.."Schwadronskommandant Mulverick (Horde)";
-			GREY.."4) Murgot Tiefenschmied";
-			GREY..INDENT.."Dirk Schwindel <Kopfgeldjäger>";
-			GREY..INDENT.."Athramanis <Kopfgeldjäger>";
-			GREY..INDENT.."Lana Donnerbräu <Schmiedekunstbedarf>";
-			_RED.."5) Lazarett der Sturmlanzen";
-			GREY.."6) Stallmeister der Sturmlanzen <Stallmeister>";
-			GREY..INDENT.."Kommandant der Sturmlanzenwidderreiter";
-			GREY..INDENT.."Svalbrad Bergweh <Handwerkswaren>";
-			GREY..INDENT.."Kurdrum Gerstenbart <Reagenzien & Giftreagenzien>";
-			GREY.."7) Rüstmeister der Sturmlanzen";
-			GREY..INDENT.."Jonivera Bergweh <Gemischtwaren>";
-			GREY..INDENT.."Brogus Donnerbräu <Essen & Getränke>";
-			GREY.."8) Schwadronskommandant Ichman (Gerettet)";
-			GREY..INDENT.."Schwadronskommandant Erzrutsch (Gerettet)";
-			GREY..INDENT.."Schwadronskommandant Vipore (Gerettet)";
-			ORNG.."9) Südbunker von Dun Baldar";
-			GREY..INDENT.."Korporal Noreg Sturmlanze";
-			GREY..INDENT.."Gaelden Hammerschmied <Versorgungsoffizier der Sturmlanzen>";
-			_RED.."10) Friedhof der Sturmlanzen";
-			GREY.."11) Eisschwingenhöhle";
-			GREY..INDENT.."Banner der Sturmlanzen";
-			GREY.."12) Sägewerk der Sturmlanzen";
-			GREY..INDENT.."Schwadronskommandant Jeztor (Horde)";
-			ORNG.."13) Eisschwingenbunker";
-			GREY..INDENT.."Schwadronskommandant Guse (Horde)";
-			_RED.."14) Steinbruchfriedhof";
-			GREY.."15) Kommandant der Sturmlanzenwidderreiter";
-			ORNG.."16) Steinbruchaußenposten";
-			GREY..INDENT.."Hauptmann Balinda Steinbruch <Hauptmann der Sturmlanzen>";
-			_RED.."17) Schneewehenfriedhof";
-			GREY..INDENT.."Ichmans Signal";
-			GREY..INDENT.."Mulvericks Signal (Horde)";
-			ORNG.."18) Steinbruchbunker";
-			GREY.."19) Ivus der Waldfürst (Beschwörungszone)";
-			GREY.."20) Westlicher Krater";
-			GREY..INDENT.."Vipores Signal";
-			GREY..INDENT.."Jeztors Signal (Horde)";
-			GREY.."21) Östlicher Krater";
-			GREY..INDENT.."Erzrutschs Signal";
-			GREY..INDENT.."Guses Signal (Horde)";
-			"";
-			_RED.."Rot:"..BLUE.." Friedhöfe, Einnehmbare Gebiete";
-			ORNG.."Orange:"..BLUE.." Bunker, Türme, Zerstörbare Gebiete";
-			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Questgebiete";
-		};
-		AlteracValleySouth = {
-			ZoneName = "Alteractal (Süd, Horde)";
-			Acronym = "AV";
-			Location = "Vorgebirge des Hügellands";
-			ORNG.."Ruf: Frostwolfklan";
-			BLUE.."A) Horde Eingang";
-			BLUE.."B) Burg Frostwolf";
-			BLUE..INDENT.."Drek'Thar <General der Frostwölfe>";
-			BLUE..INDENT.."Duros";
-			BLUE..INDENT.."Drakan";
-			BLUE..INDENT.."Westkriegsmeister der Frostwölfe";
-			BLUE..INDENT.."Ostkriegsmeister der Frostwölfe";
-			BLUE..INDENT.."Kriegsmeister der Turmstellung";
-			BLUE..INDENT.."Kriegsmeister der Eisbluttruppen";
-			GREY.."1) Lokholar der Eislord (Beschwörungszone)";
-			ORNG.."2) Eisblutgarnison";
-			GREY..INDENT.."Hauptmann Galvangar <Hauptmann der Frostwölfe>";
-			ORNG.."3) Eisblutturm";
-			_RED.."4) Eisblutfriedhof";
-			GREY.."Schwadronskommandant Ichman (Allianz)";
-			ORNG.."5) Turmstellung";
-			GREY..INDENT.."Schwadronskommandant Erzrutsch (Allianz)";
-			GREY.."6) Eisbeißermine";
-			GREY..INDENT.."Zuchtmeister Schnuffel (Neutral)";
-			GREY..INDENT.."Masha Schnellstreich";
-			GREY..INDENT.."Aggi Polterbein (Allianz)";
-			_RED.."7) Friedhof der Frostwölfe";
-			GREY.."8) Schwadronskommandant Vipore (Allianz)";
-			GREY..INDENT.."Jotek";
-			GREY..INDENT.."Schmied Regzar";
-			GREY..INDENT.."Primalist Thurloga";
-			GREY..INDENT.."Unteroffizier Yazra Murrblut";
-			GREY.."9) Stallmeisterin der Frostwölfe <Stallmeisterin>";
-			GREY..INDENT.."Wolfsreiterkommandant der Frostwölfe";
-			GREY.."10) Rüstmeister der Frostwölfe";
-			ORNG.."11) Westlicher Frostwolfturm";
-			ORNG.."12) Östlicher Frostwolfturm";
-			GREY.."13) Schwadronskommandant Guse (Gerettet)";
-			GREY..INDENT.."Schwadronskommandant Jeztor (Gerettet)";
-			GREY..INDENT.."Schwadronskommandant Mulverick (Gerettet)";
-			_RED.."14) Heilerhütte der Frostwölfe";
-			GREY.."15) Höhle der Wildpfoten";
-			GREY..INDENT.."Banner der Frostwölfe";
-			"";
-			_RED.."Rot:"..BLUE.." Friedhöfe, Einnehmbare Gebiete";
-			ORNG.."Orange:"..BLUE.." Bunker, Türme, Zerstörbare Gebiete";
-			GREY.."Weiß:"..BLUE.." Angreifbare NPCs, Questgebiete";
-		};
-		ArathiBasin = {
-			ZoneName = "Arathibecken";
-			Acronym = "AB";
-			Location = "Arathihochland";
-			ORNG.."Ruf: Die Entweihten (Horde)";
-			ORNG.."Ruf: Der Bund von Arathor (Allianz)";
-			BLUE.."A) Trollbanns Halle";
-			BLUE.."B) Die entweihte Feste";
-			GREY.."1) Ställe";
-			GREY.."2) Goldmine";
-			GREY.."3) Schmiede";
-			GREY.."4) Sägewerk";
-			GREY.."5) Hof";
-		};
-		WarsongGulch = {
-			ZoneName = "Kriegshymnenschlucht";
-			Acronym = "WS";
-			Location = "Eschental / Brachland";
-			ORNG.."Ruf: Kriegshymnenklan (Horde)";
-			ORNG.."Ruf: Schildwachen der Silberschwingen (Allianz)";
-			BLUE.."A) Feste der Silberschwingen (Allianz)";
-			BLUE.."B) Sägewerk des Kriegshymnenklans (Horde)";
-		};
-		EyeOfTheStorm = {
-			ZoneName = "Auge des Sturms";
-			Acronym = "Auge";
-			Location = "Nethersturm";
-			BLUE.."A) Eingang (Allianz)";
-			BLUE.."B) Eingang (Horde)";
-			_RED.."X) Friedhof";
-			ORNG.."X) Flagge";
-			GREY.."1) Magierturm";
-			GREY.."2) Draeneiruinen";
-			GREY.."3) Teufelshäscherruinen";
-			GREY.."4) Blutelfenturm";
-		};
-	};
+	--Places
+	["Alterac Mountains"] = "Alteracgebirge";
+	["Alterac Valley"] = "Alteractal"; ["AV"] = "AV";
+	["Arathi Basin"] = "Arathibecken"; ["AB"] = "AB";
+	["Arathi Highlands"] = "Arathihochland";
+	["Ashenvale"] = "Eschental";
+	["Eastern Kingdoms"] = "Östliche Königreiche";
+	["Eye of the Storm"] = "Auge des Sturms"; ["EotS"] = "Auge";
+	["Hillsbrad Foothills"] = "Vorgebirge des Hügellands";
+	["Kalimdor"] = "Kalimdor";
+	["Netherstorm"] = "Nethersturm";
+	["Outland"] = "Scherbenwelt";
+	["The Barrens"] = "Brachland";
+	["Warsong Gulch"] = "Kriegshymnenschlucht"; ["WSG"] = "WS";
 
-	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
+	--Alterac Valley (North)
+	["Stormpike Guard"] = "Sturmlanzengarde";
+	["Dun Baldar"] = "Dun Baldar";
+	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Sturmlanze <General der Sturmlanzen>";
+	["Dun Baldar North Marshal"] = "Marschall der Nordtruppen von Dun Baldar";
+	["Dun Baldar South Marshal"] = "Marschall der Südtruppen von Dun Baldar";
+	["Icewing Marshal"] = "Marschall der Eisschwingentruppen";
+	["Stonehearth Marshal"] = "Marschall der Steinbruchtruppen";
+	["Prospector Stonehewer"] = "Ausgrabungsleiter Steinhauer";
+	["Irondeep Mine"] = "Eisenschachtmine";
+	["Morloch"] = "Morloch";
+	["Umi Thorson"] = "Umi Thorson";
+	["Keetar"] = "Keetar";
+	["Arch Druid Renferal"] = "Erzdruide Renferal";
+	["Dun Baldar North Bunker"] = "Nordbunker von Dun Baldar";
+	["Wing Commander Mulverick"] = "Schwadronskommandant Mulverick";--omitted from AVS
+	["Murgot Deepforge"] = "Murgot Tiefenschmied";
+	["Dirk Swindle <Bounty Hunter>"] = "Dirk Schwindel <Kopfgeldjäger>";
+	["Athramanis <Bounty Hunter>"] = "Athramanis <Kopfgeldjäger>";
+	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Donnerbräu <Schmiedekunstbedarf>";
+	["Stormpike Aid Station"] = "Lazarett der Sturmlanzen";
+	["Stormpike Stable Master <Stable Master>"] = "Stallmeister der Sturmlanzen <Stallmeister>";
+	["Stormpike Ram Rider Commander"] = "Kommandant der Sturmlanzenwidderreiter";
+	["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Bergweh <Handwerkswaren>";
+	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Gerstenbart <Reagenzien & Giftreagenzien>";
+	["Stormpike Quartermaster"] = "Rüstmeister der Sturmlanzen";
+	["Jonivera Farmountain <General Goods>"] = "Jonivera Bergweh <Gemischtwaren>";
+	["Brogus Thunderbrew <Food & Drink>"] = "Brogus Donnerbräu <Essen & Getränke>";
+	["Wing Commander Ichman"] = "Schwadronskommandant Ichman";--omitted from AVS
+	["Wing Commander Slidore"] = "Schwadronskommandant Erzrutsch";--omitted from AVS
+	["Wing Commander Vipore"] = "Schwadronskommandant Vipore";--omitted from AVS
+	["Dun Baldar South Bunker"] = "Südbunker von Dun Baldar";
+	["Corporal Noreg Stormpike"] = "Korporal Noreg Sturmlanze";
+	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Hammerschmied <Versorgungsoffizier der Sturmlanzen>";
+	["Stormpike Graveyard"] = "Friedhof der Sturmlanzen";
+	["Icewing Cavern"] = "Eisschwingenhöhle";
+	["Stormpike Banner"] = "Banner der Sturmlanzen";
+	["Stormpike Lumber Yard"] = "Sägewerk der Sturmlanzen";
+	["Wing Commander Jeztor"] = "Schwadronskommandant Jeztor";--omitted from AVS
+	["Icewing Bunker"] = "Eisschwingenbunker";
+	["Wing Commander Guse"] = "Schwadronskommandant Guse";--omitted from AVS
+	["Stonehearth Graveyard"] = "Steinbruchfriedhof";
+	["Stormpike Ram Rider Commander"] = "Kommandant der Sturmlanzenwidderreiter";
+	["Stonehearth Outpost"] = "Steinbruchaußenposten";
+	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Hauptmann Balinda Steinbruch <Hauptmann der Sturmlanzen>";
+	["Snowfall Graveyard"] = "Schneewehenfriedhof";
+	["Ichman's Beacon"] = "Ichmans Signal";
+	["Mulverick's Beacon"] = "Mulvericks Signal";
+	["Stonehearth Bunker"] = "Steinbruchbunker";
+	["Ivus the Forest Lord"] = "Ivus der Waldfürst";
+	["Western Crater"] = "Westlicher Krater";
+	["Vipore's Beacon"] = "Vipores Signal";
+	["Jeztor's Beacon"] = "Jeztors Signal";
+	["Eastern Crater"] = "Östlicher Krater";
+	["Slidore's Beacon"] = "Erzrutschs Signal";
+	["Guse's Beacon"] = "Guses Signal";
+	["Graveyards, Capturable Areas"] = "Friedhöfe, Einnehmbare Gebiete";--omitted from AVS
+	["Bunkers, Towers, Destroyable Areas"] = "Bunker, Türme, Zerstörbare Gebiete";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "Angreifbare NPCs, Questgebiete";--omitted from AVS
+
+	--Alterac Valley (South)
+	["Frostwolf Clan"] = "Frostwolfklan";
+	["Frostwolf Keep"] = "Burg Frostwolf";
+	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General der Frostwölfe>";
+	["Duros"] = "Duros";
+	["Drakan"] = "Drakan";
+	["West Frostwolf Warmaster"] = "Westkriegsmeister der Frostwölfe";
+	["East Frostwolf Warmaster"] = "Ostkriegsmeister der Frostwölfe";
+	["Tower Point Warmaster"] = "Kriegsmeister der Turmstellung";
+	["Iceblood Warmaster"] = "Kriegsmeister der Eisbluttruppen";
+	["Lokholar the Ice Lord"] = "Lokholar der Eislord";
+	["Iceblood Garrison"] = "Eisblutgarnison";
+	["Captain Galvangar <Frostwolf Captain>"] = "Hauptmann Galvangar <Hauptmann der Frostwölfe>";
+	["Iceblood Tower"] = "Eisblutturm";
+	["Iceblood Graveyard"] = "Eisblutfriedhof";
+	["Tower Point"] = "Turmstellung";
+	["Coldtooth Mine"] = "Eisbeißermine";
+	["Taskmaster Snivvle"] = "Zuchtmeister Schnuffel";
+	["Masha Swiftcut"] = "Masha Schnellstreich";
+	["Aggi Rumblestomp"] = "Aggi Polterbein";
+	["Frostwolf Graveyard"] = "Friedhof der Frostwölfe";
+	["Jotek"] = "Jotek";
+	["Smith Regzar"] = "Schmied Regzar";
+	["Primalist Thurloga"] = "Primalist Thurloga";
+	["Sergeant Yazra Bloodsnarl"] = "Unteroffizier Yazra Murrblut";
+	["Frostwolf Stable Master <Stable Master>"] = "Stallmeisterin der Frostwölfe <Stallmeisterin>";
+	["Frostwolf Wolf Rider Commander"] = "Wolfsreiterkommandant der Frostwölfe";
+	["Frostwolf Quartermaster"] = "Rüstmeister der Frostwölfe";
+	["West Frostwolf Tower"] = "Westlicher Frostwolfturm";
+	["East Frostwolf Tower"] = "Östlicher Frostwolfturm";
+	["Frostwolf Relief Hut"] = "Heilerhütte der Frostwölfe";
+	["Wildpaw Cavern"] = "Höhle der Wildpfoten";
+	["Frostwolf Banner"] = "Banner der Frostwölfe";
+
+	--Arathi Basin
+	["The Defilers"] = "Die Entweihten";
+	["The League of Arathor"] = "Der Bund von Arathor";
+	["Trollbane Hall"] = "Trollbanns Halle";
+	["Defiler's Den"] = "Die entweihte Feste";
+	["Stables"] = "Ställe";
+	["Gold Mine"] = "Goldmine";
+	["Smithy"] = "Schmiede";
+	["Lumber Mill"] = "Sägewerk";
+	["Farm"] = "Hof";
+
+	--Warsong Gulch
+	["Warsong Outriders"] = "Kriegshymnenklan";
+	["Silverwing Sentinels"] = "Schildwachen der Silberschwingen";
+	["Silverwing Hold"] = "Feste der Silberschwingen";
+	["Warsong Lumber Mill"] = "Sägewerk des Kriegshymnenklans";
+
+	--Eye of the Storm
+	["Graveyard"] = "Friedhof";
+	["Flag"] = "Flagge";
+	["Mage Tower"] = "Magierturm";
+	["Draenei Ruins"] = "Draeneiruinen";
+	["Fel Reaver Ruins"] = "Teufelshäscherruinen";
+	["Blood Elf Tower"] = "Blutelfenturm";
+
+};
 
 end

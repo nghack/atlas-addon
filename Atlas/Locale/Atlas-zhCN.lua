@@ -1087,7 +1087,7 @@ AtlasLocale = {
 	["Lady Sacrolash"] = "萨洛拉丝女王";
 	["M'uru"] = "穆鲁";
 	["Entropius"] = "熵魔";
-	["Kil'jaeden"] = "基尔加丹 <欺诈者>";
+	["Kil'jaeden <The Deceiver>"] = "基尔加丹 <欺诈者>";
 
 --*******************
 -- Outland Instances

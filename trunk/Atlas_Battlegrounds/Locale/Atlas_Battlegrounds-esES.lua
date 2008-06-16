@@ -25,187 +25,162 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 11/03/2008
+-- Última Actualización (last update): 03/06/2008
 
 --]]
 
 if ( GetLocale() == "esES" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
+AtlasBGLocale = {
 
-	local myCategory = "Mapas de Campo de Batalla";
+	--Common
+	["Alliance"] = "Alianza";
+	["Battleground Maps"] = "Mapas de Campos de Batalla";
+	["Entrance"] = "Entrada";
+	["Horde"] = "Horda";
+	["Neutral"] = "Neutral";
+	["North"] = "Norte";
+	["Orange"] = "Naranja";
+	["Red"] = "Rojo";
+	["Rep"] = "Rep";
+	["Rescued"] = "Rescate";
+	["South"] = "Sur";
+	["Summon"] = "Invocar";
+	["White"] = "Blanco";
+	
+	--Places
+	["Alterac Mountains"] = "Montañas Alterac";
+	["Alterac Valley"] = "Valle de Alterac"; ["AV"] = "VA";
+	["Arathi Basin"] = "Cuenca de Arathi"; ["AB"] = "CA";
+	["Arathi Highlands"] = "Tierras Altas de Arathi";
+	["Ashenvale"] = "Vallefresno";
+	["Eastern Kingdoms"] = "Reinos del Este";
+	["Eye of the Storm"] = "El Ojo de la Tormenta"; ["EotS"] = "OT";
+	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
+	["Kalimdor"] = "Kalimdor";
+	["Netherstorm"] = "Tormenta Abisal";
+	["Outland"] = "Terrallende";
+	["The Barrens"] = "Los Baldíos";
+	["Warsong Gulch"] = "Garganta Grito de Guerra"; ["WSG"] = "GGG";
+	
+	--Alterac Valley (North)
+	["Stormpike Guard"] = "Guardia Pico Tormenta";
+	["Dun Baldar"] = "Dun Baldar";
+	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Pico Tormenta <General Pico Tormenta>";
+	["Dun Baldar North Marshal"] = "Alguacil de Dun Baldar Norte";
+	["Dun Baldar South Marshal"] = "Alguacil de Dun Baldar Sur";
+	["Icewing Marshal"] = "Alguacil Alahielo";
+	["Stonehearth Marshal"] = "Alguacil Piedrahogar";
+	["Prospector Stonehewer"] = "Prospectora Tallapiedra";
+	["Irondeep Mine"] = "Mina Ferrohondo";
+	["Morloch"] = "Morloch";
+	["Umi Thorson"] = "Umi Thorson";
+	["Keetar"] = "Keetar";
+	["Arch Druid Renferal"] = "Archidruida Renferal";
+	["Dun Baldar North Bunker"] = "Búnker Norte de Dun Baldar";
+	["Wing Commander Mulverick"] = "Comandante del aire Mulverick";--omitted from AVS
+	["Murgot Deepforge"] = "Murgot Forjahonda";
+	["Dirk Swindle <Bounty Hunter>"] = "Dirk Estafa <Cazador de recompensas>";
+	["Athramanis <Bounty Hunter>"] = "Athramanis <Cazadora de recompensas>";
+	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Cebatruenos <Suministros de herrería>";
+	["Stormpike Aid Station"] = "Puesto de socorro de Pico Tormenta";
+	["Stormpike Stable Master <Stable Master>"] = "Maestra de establo de Pico Tormenta <Maestra de establos>";
+	["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
+	["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Montelejano <Objetos comerciables>";
+	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Barbacebada <Suministros de venenos y componentes>";
+	["Stormpike Quartermaster"] = "Intendente de Pico Tormenta";
+	["Jonivera Farmountain <General Goods>"] = "Jonivera Montelejano <Pertrechos>";
+	["Brogus Thunderbrew <Food & Drink>"] = "Brogus Cebatruenos <Alimentos y bebidas>";
+	["Wing Commander Ichman"] = "Comandante del aire Ichman";--omitted from AVS
+	["Wing Commander Slidore"] = "Comandante del aire Slidore";--omitted from AVS
+	["Wing Commander Vipore"] = "Comandante del aire Vipore";--omitted from AVS
+	["Dun Baldar South Bunker"] = "Búnker Sur de Dun Baldar";
+	["Corporal Noreg Stormpike"] = "Cabo Noreg Pico Tormenta";
+	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Martillero <Oficial de suministros Pico Tormenta>";
+	["Stormpike Graveyard"] = "Cementerio Pico Tormenta";
+	["Icewing Cavern"] = "Cueva Ala Gélida";
+	["Stormpike Banner"] = "Estandarte de Pico Tormenta";
+	["Stormpike Lumber Yard"] = "Stormpike Lumber Yard"; --FALTA
+	["Wing Commander Jeztor"] = "Comandante del aire Jeztor";--omitted from AVS
+	["Icewing Bunker"] = "Búnker Ala Gélida";
+	["Wing Commander Guse"] = "Comandante del aire Guse";--omitted from AVS
+	["Stonehearth Graveyard"] = "Cementerio Piedrahogar";
+	["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
+	["Stonehearth Outpost"] = "Puesto de salida Piedrahogar";
+	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitana Balinda Piedrahogar <Capitana Pico Tormenta>";
+	["Snowfall Graveyard"] = "Cementerio Avalancha";
+	["Ichman's Beacon"] = "Señal de Inchman";
+	["Mulverick's Beacon"] = "Señal de Mulverick";
+	["Stonehearth Bunker"] = "Búnker Piedrahogar";
+	["Ivus the Forest Lord"] = "Ivus el Señor del Bosque";
+	["Western Crater"] = "Cráter occidental";
+	["Vipore's Beacon"] = "Señal de Vipore";
+	["Jeztor's Beacon"] = "Señal de Jeztor";
+	["Eastern Crater"] = "Cráter del este";
+	["Slidore's Beacon"] = "Señal de Slidore";
+	["Guse's Beacon"] = "Señal de Guse";
+	["Graveyards, Capturable Areas"] = "Cementerios, Areas capturables";--omitted from AVS
+	["Bunkers, Towers, Destroyable Areas"] = "Búnkers, Torres, Areas destruibles";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "Personajes de asalto, Areas de Misiones";--omitted from AVS
 
-	local myData = {
-		AlteracValleyNorth = {
-			ZoneName = "Valle de Alterac (Norte, Alianza)";
-			Location = "Montañas Alterac";
-			Acronym = "VA";
-			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
-			ORNG.."Reputación: Guardia Pico Tormenta (Alianza)";
-			BLUE.."A) Entrada de la alianza";
-			BLUE.."B) Dun Baldar (Alianza)";
-			BLUE..INDENT.."Vanndar Pico Tormenta";
-			BLUE..INDENT.."Alguacil de Dun Baldar Norte";
-			BLUE..INDENT.."Alguacil de Dun Baldar Sur";
-			BLUE..INDENT.."Alguacil Alahielo";
-			BLUE..INDENT.."Alguacil Piedrahogar";
-			BLUE..INDENT.."Prospectora Tallapiedra";
-			_RED.."1) Mina Ferrohondo"; --Bien
-			GREY..INDENT.."Morloch (Neutral)"; --Bien
-			GREY..INDENT.."Umi Thorson"; --Bien
-			GREY..INDENT.."Keetar (Horda)"; --Bien
-			GREY.."2) Archidruida Renferal"; --Bien
-			ORNG.."3) Búnker Norte de Dun Baldar"; --Bien
-			GREY..INDENT.."Comandante del aire Mulverick (Horda)";
-			GREY.."4) Murgot Forjahonda"; --Bien		
-			GREY..INDENT.."Dirk Estafa <Cazador de recompensas>"; --Bien		
-			GREY..INDENT.."Athramanis <Cazadora de recompensas>"; --Bien
-			GREY..INDENT.."Lana Cebatruenos <Suministros de herrería>"; --Bien			
-			_RED.."5) Puesto de socorro de Pico Tormenta"; --Bien
-			GREY.."6) Maestra de establo de Pico Tormenta <Maestra de establos>";	--Bien		
-			GREY..INDENT.."Comandante de jinetes de carneros de Pico Tormenta"; --Bien	
-			GREY..INDENT.."Svalbrad Montelejano <Objetos comerciables>"; --Bien
-			GREY..INDENT.."Kurdrum Barbacebada <Suministros de venenos y componentes>"; --Bien			
-			GREY.."7) Intendente de Pico Tormenta"; --Bien		
-			GREY..INDENT.."Jonivera Montelejano <Pertrechos>"; --Bien
-			GREY..INDENT.."Brogus Cebatruenos <Alimentos y bebidas>"; --Bien			
-			GREY.."8) Comandante del aire Ichman (Rescatado)"; --Bien	
-			GREY..INDENT.."Comandante del aire Slidore (Rescatado)"; --Bien	
-			GREY..INDENT.."Comandante del aire Vipore (Rescatado)";	--Bien			
-			ORNG.."9) Búnker Sur de Dun Baldar"; --Bien			
-			GREY..INDENT.."Cabo Noreg Pico Tormenta";	--Bien
-			GREY..INDENT.."Gaelden Martillero <Oficial de suministros Pico Tormenta>"; --Bien			
-			_RED.."10) Cementerio Pico Tormenta"; --Bien
-			GREY.."11) Cueva Ala Gélida"; --Bien
-			GREY..INDENT.."Estandarte de Pico Tormenta"; --Bien
-			GREY.."12) Stormpike Lumber Yard"; --FALTA
-			GREY..INDENT.."Comandante del aire Jeztor (Horda)"; --Bien
-			ORNG.."13) Búnker Ala Gélida"; --Bien
-			GREY..INDENT.."Comandante del aire Guse (Horda)"; --Bien
-			_RED.."14) Cementerio Piedrahogar"; --Bien
-			GREY.."15) Comandante de jinetes de carneros de Pico Tormenta"; --Bien
-			ORNG.."16) Puesto de salida Piedrahogar"; --Bien
-			GREY..INDENT.."Capitana Balinda Piedrahogar <Capitana Pico Tormenta>"; --Bien
-			_RED.."17) Cementerio Avalancha"; --Bien
-			GREY..INDENT.."Señal de Inchman"; --Bien
-			GREY..INDENT.."Señal de Mulverick (Horda)"; --Bien
-			ORNG.."18) Búnker Piedrahogar"; --Bien
-			GREY.."19) Ivus el Señor del Bosque (Zona de invocar)"; --Bien
-			GREY.."20) Cráter occidental"; --Bien
-			GREY..INDENT.."Señal de Vipore"; --Bien
-			GREY..INDENT.."Señal de Jeztor (Horda)"; --Bien
-			GREY.."21) Cráter del este"; --Bien
-			GREY..INDENT.."Señal de Slidore"; --Bien
-			GREY..INDENT.."Señal de Guse (Horda)"; --Bien
-			"";
-			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
-			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";
-			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";
-		};
-		AlteracValleySouth = {
-			ZoneName = "Valle de Alterac (Sur, Horda)";
-			Location = "Laderas de Trabalomas";
-			Acronym = "VA";
-			ORNG.."Reputación: Clan Lobo Gélido (Horda)";
-			BLUE.."A) Entrada de la horda";
-			BLUE.."B) Bastión Lobo Gélido"; --Bien
-			BLUE..INDENT.."Drek'Thar"; --Bien
-			BLUE..INDENT.."Duros"; --Bien
-			BLUE..INDENT.."Drakan"; --Bien
-			BLUE..INDENT.."Maestro de guerra del oeste Lobo Gélido"; --Bien
-			BLUE..INDENT.."Maestro de guerra del este Lobo Gélido"; --Bien
-			BLUE..INDENT.."Maestro de guerra de Punta de la Torre"; --Bien
-			BLUE..INDENT.."Maestro de guerra Sangrehielo"; --Bien
-			GREY.."1) Lokholar el Señor de Hielo (Zona de invocar)"; --Bien
-			ORNG.."2) Baluarte Sangre Fría"; --Bien
-			GREY..INDENT.."Capitán Galvangar"; --Bien
-			ORNG.."3) Torre Sangre Fría"; --Bien
-			_RED.."4) Cementerio Sangre Fría"; --Bien
-			GREY.."Comandante del aire Ichman (Alianza)"; --Bien
-			ORNG.."5) Punto Torre";	 --Bien
-			GREY..INDENT.."Comandante del aire Slidore (Alianza)";  --Bien		
-			GREY.."6) Mina Dentefrío"; --Bien
-			GREY..INDENT.."Capataz Sniwle (Neutral)"; --Bien
-			GREY..INDENT.."Masha Corteveloz"; --Bien
-			GREY..INDENT.."Aggi Piesdeplomo (Alianza)";	 --Bien	
-			_RED.."7) Cementerio Lobo Gélido"; --Bien
-			GREY.."8) Comandante de aire Vipore (Alianza)";	 --Bien
-			GREY..INDENT.."Jotek"; --Bien
-			GREY..INDENT.."Herrero Regzar"; --Bien
-			GREY..INDENT.."Primalist Thurloga"; --Bien
-			GREY..INDENT.."Sargento Yazra Gruñidosangriento"; --Bien
-			GREY.."9) Maestra de establo Lobo Gélido <Maestro de establos>"; --Bien
-			GREY..INDENT.."Comandate jinete de lobos Lobo Gélido";	 --Bien		
-			GREY.."10) Intendente Lobo Gélido"; --Bien
-			ORNG.."11) Torre Lobo Gélido Oeste"; --Bien
-			ORNG.."12) Torre Lobo Gélido Este"; --Bien
-			GREY.."13) Comandante del aire Guse (Rescatado)"; --Bien
-			GREY..INDENT.."Comandante del aire Jeztor (Rescatado)"; --Bien
-			GREY..INDENT.."Comandante del aire Mulverick (Rescatado)"; --Bien
-			_RED.."14) Puesto de auxilio de Lobo Gélido"; --Bien
-			GREY.."15) Caverna Zarpa Salvaje"; --Bien
-			GREY..INDENT.."Estandarte de Lobo Gélido"; --Bien			
-			"";
-			_RED.."Rojo:".._RED.." Cementerios, Areas capturables";
-			ORNG.."Naranja:"..ORNG.." Búnkers, Torres, Areas destruibles";
-			GREY.."Blanco:"..GREY.." Personajes de asalto, Areas de Misiones";
-		};
-		ArathiBasin = {
-			ZoneName = "Cuenca de Arathi";
-			Location = "Tierras Altas de Arathi";
-			Acronym = "CA";
-			ORNG.."Reputación: Los Rapiñadores (Horda)";
-			ORNG.."Reputación: La Liga de Arathor (Alianza)";
-			BLUE.."A) Bastión de Trollbane (Alianza)"; --Bien
-			BLUE.."B) Guarida de los Rapiñadores (Horda)"; --Bien
-			GREY.."1) Establo"; --Bien
-			GREY.."2) Mina de Oro"; --Bien
-			GREY.."3) Herrería"; --Bien
-			GREY.."4) Aserradero"; --Bien
-			GREY.."5) Granja"; --Bien
-		};
-		WarsongGulch = {
-			ZoneName = "Garganta Grito de Guerra ";
-			Location = "Vallefresno / Los Baldíos";
-			Acronym = "GGG";
-			ORNG.."Reputación: Escoltas de Grito de Guerra (Horda)";
-			ORNG.."Reputación: Centinelas Ala de Plata (Alianza)";
-			BLUE.."A) Bastión Ala de Plata (Alianza)"; --Bien
-			BLUE.."B) Serrería Grito de Guerra (Horda)"; --Bien
-		};
-		EyeOfTheStorm = {
-			ZoneName = "El Ojo de la Tormenta";
-			Location = "Tormenta Abisal";
-			Acronym = "OT";
-			BLUE.."A) Entrada (Alianza)";
-			BLUE.."B) Entrada (Horda)";
-			_RED.."X) Cementerio"; --Bien
-			ORNG.."X) Bandera"; --Bien
-			GREY.."1) Torre de los Magos"; --Bien
-			GREY.."2) Ruinas de los Draenei"; --Bien
-			GREY.."3) Ruinas de Atracador Vil"; --Bien
-			GREY.."4) Torre de los Elfos de Sangre"; --Bien
-		};
-	};
+	--Alterac Valley (South)
+	["Frostwolf Clan"] = "Clan Lobo Gélido";
+	["Frostwolf Keep"] = "Bastión Lobo Gélido";
+	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General Lobo Gélido>";
+	["Duros"] = "Duros";
+	["Drakan"] = "Drakan";
+	["West Frostwolf Warmaster"] = "Maestro de guerra del oeste Lobo Gélido";
+	["East Frostwolf Warmaster"] = "Maestro de guerra del este Lobo Gélido";
+	["Tower Point Warmaster"] = "Maestro de guerra de Punta de la Torre";
+	["Iceblood Warmaster"] = "Maestro de guerra Sangrehielo";
+	["Lokholar the Ice Lord"] = "Lokholar el Señor de Hielo";
+	["Iceblood Garrison"] = "Baluarte Sangre Fría";
+	["Captain Galvangar <Frostwolf Captain>"] = "Capitán Galvangar <Capitán Lobo Gélido>";
+	["Iceblood Tower"] = "Torre Sangre Fría";
+	["Iceblood Graveyard"] = "Cementerio Sangre Fría";
+	["Tower Point"] = "Punto Torre";
+	["Coldtooth Mine"] = "Mina Dentefrío";
+	["Taskmaster Snivvle"] = "Capataz Sniwle";
+	["Masha Swiftcut"] = "Masha Corteveloz";
+	["Aggi Rumblestomp"] = "Aggi Piesdeplomo";
+	["Frostwolf Graveyard"] = "Cementerio Lobo Gélido";
+	["Jotek"] = "Jotek";
+	["Smith Regzar"] = "Herrero Regzar";
+	["Primalist Thurloga"] = "Primalist Thurloga";
+	["Sergeant Yazra Bloodsnarl"] = "Sargento Yazra Gruñidosangriento";
+	["Frostwolf Stable Master <Stable Master>"] = "Maestra de establo Lobo Gélido <Maestro de establos>";
+	["Frostwolf Wolf Rider Commander"] = "Comandate jinete de lobos Lobo Gélido";
+	["Frostwolf Quartermaster"] = "Intendente Lobo Gélido";
+	["West Frostwolf Tower"] = "Torre Lobo Gélido Oeste";
+	["East Frostwolf Tower"] = "Torre Lobo Gélido Este";
+	["Frostwolf Relief Hut"] = "Puesto de auxilio de Lobo Gélido";
+	["Wildpaw Cavern"] = "Caverna Zarpa Salvaje";
+	["Frostwolf Banner"] = "Estandarte de Lobo Gélido";
 
-	myData.AlteracValleyNorth.LevelRange =		"51-70";
-	myData.AlteracValleySouth.LevelRange =		"51-70";
-	myData.ArathiBasin.LevelRange =			"20-70";
-	myData.WarsongGulch.LevelRange =			"10-70";
-	myData.EyeOfTheStorm.LevelRange =			"61-70";
+	--Arathi Basin
+	["The Defilers"] = "Los Rapiñadores";
+	["The League of Arathor"] = "La Liga de Arathor";
+	["Trollbane Hall"] = "Bastión de Trollbane";
+	["Defiler's Den"] = "Guarida de los Rapiñadores";
+	["Stables"] = "Establo";
+	["Gold Mine"] = "Mina de Oro";
+	["Smithy"] = "Herrería";
+	["Lumber Mill"] = "Aserradero";
+	["Farm"] = "Granja";
 
-	myData.AlteracValleyNorth.PlayerLimit =		"40";
-	myData.AlteracValleySouth.PlayerLimit =		"40";
-	myData.ArathiBasin.PlayerLimit =			"15";
-	myData.WarsongGulch.PlayerLimit =			"10";
-	myData.EyeOfTheStorm.PlayerLimit =			"15";
+	--Warsong Gulch
+	["Warsong Outriders"] = "Escoltas de Grito de Guerra";
+	["Silverwing Sentinels"] = "Centinelas Ala de Plata";
+	["Silverwing Hold"] = "Bastión Ala de Plata";
+	["Warsong Lumber Mill"] = "Serrería Grito de Guerra";
 
-	Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);
+	--Eye of the Storm
+	["Graveyard"] = "Cementerio";
+	["Flag"] = "Bandera";
+	["Mage Tower"] = "Torre de los Magos";
+	["Draenei Ruins"] = "Ruinas de los Draenei";
+	["Fel Reaver Ruins"] = "Ruinas de Atracador Vil";
+	["Blood Elf Tower"] = "Torre de los Elfos de Sangre";
 
+};
 end

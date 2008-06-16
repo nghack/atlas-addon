@@ -27,111 +27,74 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 11/03/2008
+-- Úlltima Actualización (last update): 16/06/2008
 
 --]]
-
-
-
 if ( GetLocale() == "esES" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
+AtlasORLocale = {
 
-	local myCategory = "Encuentros Raid";
+	["Ancient Skull Pile"] = "Montón de cráneos antiguos";
+	["Ashenvale"] = "Vallefresno";
+	["Azshara"] = "Azshara";
+	["Azuregos"] = "Azuregos";
+	["Blackwind Landing"] = "Blackwind Landing"; --FALTA
+	["Blackwind Valley"] = "Valle Vientonegro";
+	["Blasted Lands"] = "Las Tierras Devastadas";
+	["Bough Shadow"] = "Talloumbrío";
+	["Darkscreecher Akkarai"] = "Estridador oscuro Akkarai";
+	["Doom Lord Kazzak"] = "Señor Apocalíptico Kazzak";
+	["Doomwalker"] = "Caminante del Destino";
+	["Dragons of Nightmare"] = "Dragones de la Pesadilla";
+	["Dream Bough"] = "Rama Oniria";
+	["Dreamroarer"] = "Bramasueños";
+	["Dreamstalker"] = "Acechasueños";
+	["Dreamtracker"] = "Rastreasueños";
+	["Duskwood"] = "Bosque del Ocaso";
+	["Emeriss"] = "Emeriss";
+	["Feralas"] = "Feralas";
+	["Forge Camp: Mageddon"] = "Campamento Forja: Mageddon";
+	["Forge Camp: Rage"] = "Campamento Forja: Ira";
+	["Gezzarak the Huntress"] = "Gezzarak la Cazadora";
+	["Graveyard"] = "Cementerio";
+	["Grella <Skyguard Quartermaster>"] = "Grella <Intendente de la Guardia del cielo>";
+	["Hazzik"] = "Hazzik";
+	["Hazzik's Package"] = "Paquete de Hazzik";
+	["Hellfire Peninsula"] = "Península de Fuego Infernal";
+	["Highlord Kruul"] = "Alto Señor Kruul";
+	["Invasion Point: Annihilator"] = "Punto de invasión: Aniquilador";
+	["Karrog"] = "Karrog";
+	["Lethlas"] = "Lethlas";
+	["Lethon"] = "Lethon";
+	["Nethergarde Keep"] = "Castillo de Nethergarde";
+	["Outdoor Raid Encounters"] = "Encuentros de banda";
+	["Phantim"] = "Fantím";
+	["Random"] = "Aleatorio";
+	["Rothos"] = "Rothos";
+	["Sahaak <Keeper of Scrolls>"] = "Sahaak <Vigilante de pergaminos>";
+	["Seradane"] = "Seradane";
+	["Severin <Skyguard Medic>"] = "Severin <Médico de la Guardia del cielo>";
+	["Shadowmoon Valley"] = "Valle Sombraluna";
+	["Skettis"] = "Skettis";
+	["Skull Pile"] = "Skull Pile"; --FALTA
+	["Sky Commander Adaris"] = "Comandante del cielo Adaris";
+	["Sky Sergeant Doryn"] = "Sargento del cielo Doryn";
+	["Skyguard Handler Deesak"] = "Cuidador de la Guardia del cielo Deesak";
+	["Skyguard Prisoner"] = "Prisionero de la Guardia del cielo";
+	["Summon"] = "Invocar";
+	["Taerar"] = "Taerar";
+	["Talonpriest Ishaal"] = "Sacerdote de la garra Ishaal";
+	["Talonpriest Skizzik"] = "Sacerdote de la garra Skizzik";
+	["Talonpriest Zellek"] = "Sacerdote de la garra Zellek";
+	["Terokk"] = "Terokk";
+	["Terokkar Forest"] = "Bosque de Terokkar";
+	["The Dragons"] = "Los Dragones";
+	["The Hinterlands"] = "Tierras del Interior";
+	["Thrallmar"] = "Thrallmar";
+	["Twilight Grove"] = "Arboleda del Crepúsculo";
+	["Vakkiz the Windrager"] = "Vakkiz el Furibundo del Viento";
+	["Various"] = "Varios";
+	["Ysondre"] = "Ysondre";
 
-	local myData = {
-		Azuregos = {
-			ZoneName = "Azuregos"; --Bien
-			Location = "Azshara"; --Bien 
-			GREY.."1) Azuregos"; --Bien
-		};
-		FourDragons = {
-			ZoneName = "Dragones de la Pesadilla"; --Bien
-			Location = "Varios"; --Bien 
-			GREY.."1) Arboleda del Crepúsculo, ".._RED.."Bosque del Ocaso"; --Bien
-			GREY.."2) Seradane, ".._RED.."Tierras del Interior"; --Bien
-			GREY..INDENT.."Rothos"; --Bien
-			GREY..INDENT.."Rastreasueños"; --Bien
-			GREY.."3) Rama Oniria, ".._RED.."Feralas"; --Bien
-			GREY..INDENT.."Lethlas"; --Bien
-			GREY..INDENT.."Bramasueños"; --Bien
-			GREY.."4) Talloumbrío, ".._RED.."Vallefresno"; --Bien
-			GREY..INDENT.."Fantím"; --Bien
-			GREY..INDENT.."Acechasueños"; --Bien
-			"";
-			GREN.."Los Dragones"; --Bien
-			GREY..INDENT.."Lethon"; --Bien
-			GREY..INDENT.."Emeriss"; --Bien
-			GREY..INDENT.."Taerar"; --Bien
-			GREY..INDENT.."Ysondre"; --Bien
-		};
-		HighlordKruul = {
-			ZoneName = "Alto Señor Kruul"; --Bien
-			Location = "Las Tierras Devastadas"; --Bien
-			GREY.."1) Alto Señor Kruul"; --Bien
-			GREY.."2) Castillo de Nethergarde"; --Bien
-		};
-		DoomLordKazzak = {
-			ZoneName = "Señor Apocalíptico Kazzak"; --Bien
-			Location = "Península de Fuego Infernal"; --Bien
-			GREY.."1) Señor Apocalíptico Kazzak"; --Bien
-			GREY.."2) Punto de invasión: Aniquilador"; --Bien
-			GREY.."3) Campamento Forja: Ira"; --Bien
-			GREY.."4) Campamento Forja: Mageddon"; --Bien
-			GREY.."5) Thrallmar"; --Bien
-		};
-		Doomwalker = {
-			ZoneName = "Caminante del Destino"; --Bien
-			Location = "Valle Sombraluna"; --Bien
-			GREY.."1) Caminante del Destino"; --Bien
-		};
-		Skettis = {
-			ZoneName = "Skettis";
-			Location = "Valle Vientonegro, Bosque de Terokkar"; --Comprobar
-			GREY.."1) Blackwind Landing"; --FALTA
-			GREY..INDENT.."Comandante del cielo Adaris"; --Bien
-			GREY..INDENT.."Sargento del cielo Doryn"; --Bien
-			GREY..INDENT.."Cuidador de la Guardia del cielo Deesak"; --Bien
-			GREY..INDENT.."Severin"; --Bien
-			GREY..INDENT.."Grella"; --Bien
-			GREY..INDENT.."Hazzik"; --Bien
-			GREY.."2) Ancient Skull Pile"; --FALTA
-			GREY..INDENT.."Terokk (Invocar)"; --Bien
-			GREY.."3) Sahaak"; --Bien
-			GREY.."4) Prisionero de la Guardia del cielo (Aleatorio)"; --Bien
-			GREY.."5) Sacerdote de la garra Ishaal"; --Bien
-			GREY.."6) Sacerdote de la garra Skizzik"; --Bien
-			GREY.."7) Sacerdote de la garra Zellek"; --Bien
-			GREY.."8) Paquete de Hazzik"; --Bien
-			GREY.."9) Cementerio"; --Bien
-			GREN.."1') Skull Pile"; --FALTA
-			GREN..INDENT.."Estridador oscuro Akkarai (Invocar)"; --Bien
-			GREN..INDENT.."Gezzarak la Cazadora (Invocar)"; --Bien
-			GREN..INDENT.."Karrog (Invocar)"; --Bien
-			GREN..INDENT.."Vakkiz el Furibundo del Viento (Invocar)"; --Bien
-		};
-	};
-
-	myData.Azuregos.LevelRange =			"60+";
-	myData.FourDragons.LevelRange =			"60+";
-	myData.HighlordKruul.LevelRange =		"60+";
-	myData.DoomLordKazzak.LevelRange =		"70+";
-	myData.Doomwalker.LevelRange =			"70+";
-	myData.Skettis.LevelRange =				"70+";
-	
-	myData.Azuregos.PlayerLimit =			"40";
-	myData.FourDragons.PlayerLimit =		"40";
-	myData.HighlordKruul.PlayerLimit =		"40";
-	myData.DoomLordKazzak.PlayerLimit =		"40";
-	myData.Doomwalker.PlayerLimit =			"40";
-	myData.Skettis.PlayerLimit =			"40";
-	
-	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
-
+};
 end

@@ -27,172 +27,171 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 11/03/2008
+-- Úlltima Actualización (last update): 03/06/2008
 
 --]]
+if ( GetLocale() ==	"esES" ) then
 
+AtlasFPLocale = {
 
+	["Aerie Peak"] = "Pico Nidal";
+	["Allerian Stronghold"] = "Bastión Allerian";
+	["Alliance"] = "Alianza";
+	["Altar of Sha'tar"] = "Altar de Sha'tar";
+	["Arathi Highlands"] = "Tierras Altas de Arathi";
+	["Area 52"] = "Area 52";
+	["Ashenvale"] = "Vallefresno";
+	["Astranaar"] = "Astranaar";
+	["Auberdine"] = "Auberdine";
+	["Azshara"] = "Azshara";
+	["Azuremyst Isle"] = "Isla Bruma Azur";
+	["Badlands"] = "Tierras del Interior";
+	["Blackwind Landing"] = "Alto de los Vientonegro";
+	["Blade's Edge Mountains"] = "Montañas Filospada";
+	["Blasted Lands"] = "Las Tierras Devastadas";
+	["Blood Watch"] = "Avanzada de Sangre";
+	["Bloodmyst Isle"] = "Isla Bruma de Sangre";
+	["Bloodvenom Post"] = "Puesto del Veneno";
+	["Booty Bay"] = "Bahía del Botín";
+	["Brackenwall Village"] = "Poblado Murohelecho";
+	["Burning Steppes"] = "Las Estepas Ardientes";
+	["Camp Mojache"] = "Campamento Mojache";
+	["Camp Taurajo"] = "Campamento Taurajo";
+	["Cenarion Hold"] = "Fuerte Cenarion";
+	["Chillwind Point"] = "Campamento del Orvallo";
+	["Cosmowrench"] = "Cosmotirón";
+	["Crossroads"] = "El Cruce";
+	["Darkshire"] = "Villa Oscura";
+	["Darkshore"] = "Costa Oscura";
+	["Desolace"] = "Desolace";
+	["Druid-only"] = "Solo druidas";
+	["Dun Morogh"] = "Dun Morogh";
+	["Durotar"] = "Durotar";
+	["Duskwood"] = "Bosque del Ocaso";
+	["Dustwallow Marsh"] = "Marjal Revolcafango";
+	["East"] = "Este";
+	["Eastern Kingdoms"] = "Las Tierras del Este";
+	["Eastern Plaguelands"] = "Tierras de la Peste del Este";
+	["Elwynn Forest"] = "Bosque de Elwynn";
+	["Emerald Sanctuary"] = "Santuario Esmeralda";
+	["Evergrove"] = "Soto Eterno"; --Check
+	["Everlook"] = "Soto Eterno"; --Check
+	["Eversong Woods"] = "Bosque Canción Eterna";
+	["Falcon Watch"] = "Avanzada del Halcón";
+	["Feathermoon Stronghold"] = "Bastión Plumaluna";
+	["Felwood"] = "Felwood";
+	["Feralas"] = "Feralas";
+	["Flame Crest"] = "Peñasco Llamarada";
+	["Flight Path Maps"] = "Mapas de rutas de vuelo";
+	["Forest Song"] = "Bosque Canción Eterna";
+	["Freewind Post"] = "Poblado Viento Libre";
+	["Gadgetzan"] = "Gadgetzan";
+	["Garadar"] = "Garadar";
+	["Ghostlands"] = "Tierras Fantasma";
+	["Grom'Gol Base Camp"] = "Campamento Grom'Gol";
+	["Hammerfall"] = "Sentencia";
+	["Hatchet Hills"] = "Colinas Hacha";
+	["Hellfire Peninsula"] = "Península de Fuego Infernal";
+	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
+	["Honor Hold"] = "Bastión del Honor";
+	["Horde"] = "Horda";
+	["Ironforge"] = "Forjaz";
+	["Isle of Quel'Danas"] = "Isla de Quel'Danas";
+	["Kalimdor"] = "Kalimdor";
+	["Kargath"] = "Kargath";
+	["Lakeshire"] = "Villa del Lago";
+	["Light's Hope Chapel"] = "Capilla de la Esperanza de la Luz";
+	["Loch Modan"] = "Loch Modan";
+	["Marshal's Refuge"] = "Refugio de Marshall";
+	["Menethil Harbor"] = "Refugio de Marshal";
+	["Mok'Nathal Village"] = "Aldea Mok'Nathal";
+	["Moonglade"] = "Claro de la Luna";
+	["Morgan's Vigil"] = "Vigilia de Morgan";
+	["Mudsprocket"] = "Piñón de Barro";
+	["Mulgore"] = "Mulgore";
+	["Nagrand"] = "Nagrand";
+	["Nethergarde Keep"] = "Castillo de Netherguard"; --Check
+	["Netherstorm"] = "Tormenta Abisal";
+	["Nighthaven"] = "Amparo de la Noche";
+	["Nijel's Point"] = "Punta de Nijel";
+	["Orebor Harborage"] = "Puerto Orebor";
+	["Orgrimmar"] = "Orgrimmar";
+	["Outland"] = "Terrallende";
+	["Ratchet"] = "Trinquete";
+	["Rebel Camp"] = "Asentamiento Rebelde";
+	["Redridge Mountains"] = "Montañas Crestagrana";
+	["Refuge Pointe"] = "Refugio de la Zaga";
+	["Requires honored faction with Sha'tari Skyguard"] = "Requiere honorable con la facción Guardia del cielo Sha'tari";
+	["Revantusk Village"] = "Poblado Sañadiente";
+	["Rut'Theran Village"] = "Aldea Rut'Theran";
+	["Sanctum of the Stars"] = "Sagrario de las Estrellas";
+	["Searing Gorge"] = "La Garganta de Fuego";
+	["Sentinel Hill"] = "Colina de la Centinela";
+	["Shadowmoon Valley"] = "Valle Sombraluna";
+	["Shadowmoon Village"] = "Aldea Sombraluna";
+	["Shadowprey Village"] = "Aldea Cazasombras";
+	["Shatter Point"] = "Punta de Expedición";
+	["Shattrath City"] = "Ciudad de Shattrath";
+	["Silithus"] = "Silithus";
+	["Silvermoon"] = "Lunargenta";
+	["Silverpine Forest"] = "Bosque de Argenteos";
+	["Skyguard Outpost"] = "Avanzada de la Guardia del cielo";
+	["South of the path along Lake Elune'ara"] = "Sur del camino a Lago Elune'ara";
+	["Southshore"] = "Costasur";
+	["Spinebreaker Post"] = "Armeria de Expedición";
+	["Splintertree Post"] = "Puesto del Hachazo";
+	["Stonard"] = "Rocal";
+	["Stonebreaker Hold"] = "Bastión Rompepedras";
+	["Stonetalon Mountains"] = "Sierra Espolon";
+	["Stonetalon Peak"] = "Cima del Espolón";
+	["Stormwind"] = "Ventormenta";
+	["Stranglethorn Vale"] = "Vega de Tuercespina";
+	["Sun's Reach"] = "Fuente del Sol";
+	["Sun Rock Retreat"] = "Refugio Roca del Sol";
+	["Swamp of Sorrows"] = "Pantano de las Penas";
+	["Swamprat Post"] = "Avanzada Rata del Pantano";
+	["Sylvanaar"] = "Sylvanaar";
+	["Talonbranch Glade"] = "Claro Ramaespolón";
+	["Talrendis Point"] = "Punta Talrendis";
+	["Tanaris"] = "Tanaris";
+	["Tarren Mill"] = "Molino Tarren";
+	["Telaar"] = "Telaar";
+	["Teldrassil"] = "Teldrassil";
+	["Telredor"] = "Telredor";
+	["Temple of Telhamat"] = "Templo de Telhamat";
+	["Terokkar Forest"] = "Bosque de Terokkar";
+	["Thalanaar"] = "Thalanaar";
+	["The Aldor"] = "Los Aldor";
+	["The Barrens"] = "Los Baldíos";
+	["The Dark Portal"] = "El Portal Oscuro";
+	["The Exodar"] = "Exodar";
+	["The Hinterlands"] = "Tierras del Interior";
+	["The Scryers"] = "Los Arúspices";
+	["The Sepulcher"] = "El Sepulcro";
+	["The Stormspire"] = "La Flecha de la Tormenta";
+	["Thelsamar"] = "Thelsamar";
+	["Theramore Isle"] = "Isla Theramore";
+	["Thorium Point"] = "Puesto del Torio";
+	["Thousand Needles"] = "Las Mil Agujas";
+	["Thrallmar"] = "Thrallmar";
+	["Thunder Bluff"] = "Cima del Trueno";
+	["Thunderlord Stronghold"] = "Bastión Señor del Trueno";
+	["Tirisfal Glades"] = "Claros de Tirisfal";
+	["Toshley's Station"] = "Estación de Toshley";
+	["Tranquillien"] = "Tranquillien";
+	["Un'Goro Crater"] = "Crater de Un'Goro";
+	["Undercity"] = "Entrañas";
+	["Valormok"] = "Valormok";
+	["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
+	["West"] = "Oeste";
+	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
+	["Westfall"] = "Paramos de Poniente";
+	["Wetlands"] = "Los Humedales";
+	["Wildhammer Stronghold"] = "Bastión Martillo Salvaje";
+	["Winterspring"] = "Cuna del Invierno";
+	["Zabra'jin"] = "Zabra'jin";
+	["Zangarmarsh"] = "Marmisma de Zangar";
+	["Zoram'gar Outpost"] = "Avanzada de Zoram'gar";
 
-if ( GetLocale() == "esES" ) then
-
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
-
-	local myCategory = "Mapa de los puntos de vuelos";
-
-	local myData = {
-		FPAllianceEast = {
-			ZoneName = "Alianza (Reinos del Este)";
-			Location = "Reinos del Este";
-			GREY.."1) Sun's Reach, ".._RED.."Isla de Quel'Danas"; --Bien
-			GREY.."2) Colinas Hacha, ".._RED.."Tierras Fantasma"; --Bien	
-			GREY.."3) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."4) Campamento del Orvallo, ".._RED.."Tierras de la Peste del Oeste"; --Bien
-			GREY.."5) Pico Nidal, ".._RED.."Tierras del Interior "; --Bien
-			GREY.."6) Costasur, ".._RED.."Laderas de Trabalomas"; --Bien
-			GREY.."7) Refugio de la Zaga, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."8) Puerto de Menethil, ".._RED.."Los Humedales"; --Bien
-			GREY.."9) Forjaz, ".._RED.."Dun Morogh"; --Bien
-			GREY.."10) Thelsamar, ".._RED.."Loch Modan"; --Bien
-			GREY.."11) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
-			GREY.."12) Vigilia de Morgan, ".._RED.."Las Estepas Ardientes"; --Bien
-			GREY.."13) Ventormenta, ".._RED.."Bosque de Elwynn"; --Bien
-			GREY.."14) Villa del Lago, ".._RED.."Montañas Crestagrana"; --Bien
-			GREY.."15) Colina de la Centinela, ".._RED.."Paramos de Poniente"; --Bien
-			GREY.."16) Villa Oscura, ".._RED.."Bosque del Ocaso"; --Bien
-			GREY.."17) Castillo de Netherguard, ".._RED.."Las Tierras Devastadas"; --Bien
-			GREY.."18) Asentamiento Rebelde, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."19) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
-			};
-		FPAllianceWest = {
-			ZoneName = "Alianza (Kalimdor)";
-			Location = "Kalimdor";
-			GREY.."1) Aldea Rut'Theran, ".._RED.."Teldrassil"; --Bien
-			GREY.."2) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"..GREN.."(Solo druidas)"; --Bien
-			GREY.."3) Sur del camino a Lago Elune'ara, ".._RED.."Claro de la Luna";
-			GREY.."4) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
-			GREY.."5) Auberdine, ".._RED.."Costa Oscura"; --Bien
-			GREY.."6) Claro Ramaespolón, ".._RED.."Frondavil"; --Bien
-			GREY.."7) Santuario Esmeralda, ".._RED.."Frondavil"; --Bien
-			GREY.."8) Cima del Espolón, ".._RED.."Sierra Espolon"; --Bien
-			GREY.."9) Astranaar, ".._RED.."Bosque de Vallefresno"; --Bien
-			GREY.."10) Bosque Canción Eterna, ".._RED.."Bosque de Vallefresno"; --Bien			
-			GREY.."11) Punta Talrendis, ".._RED.."Azshara"; --Bien
-			GREY.."12) Punta de Nijel, ".._RED.."Desolace"; --Bien
-			GREY.."13) Trinquete, ".._RED.."Los Baldíos"; --Bien
-			GREY.."14) Isla Theramore, ".._RED.."Marjal Revolcafango"; --Bien
-			GREY.."15) Piñón de Barro, ".._RED.."Marjal Revolcafango"; --Bien			
-			GREY.."16) Bastión Plumaluna, ".._RED.."Feralas"; --Bien
-			GREY.."17) Thalanaar, ".._RED.."Feralas"; --Bien
-			GREY.."18) Refugio de Marshal, ".._RED.."Crater de Un'Goro"; --Bien
-			GREY.."19) Fuerte Cenarion, ".._RED.."Silithus"; --Bien
-			GREY.."20) Gadgetzan, ".._RED.."Desierto de Tanaris"; --Bien
-			GREY.."21) Avanzada de Sangre, ".._RED.."Isla Bruma de Sangre"; --Bien
-			GREY.."22) Exodar, ".._RED.."Isla Bruma Azur"; --Bien
-			};
-		FPHordeEast = {
-			ZoneName = "Horda (Reinos del Este)";
-			Location = "Reinos del Este";
-			GREY.."1) Fuente del Sol, ".._RED.."Isla de Quel'Danas"; --Bien		
-			GREY.."2) Lunargenta, ".._RED.."Bosque Canción Eterna"; --Bien
-			GREY.."3) Tranquillien, ".._RED.."Tierras Fantasma"; --Bien		
-			GREY.."4) Colinas Hacha, ".._RED.."Tierras Fantasma";
-			GREY.."5) Capilla de la Esperanza de la Luz, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."6) Entrañas, ".._RED.."Claros de Trisfal"; --Bien
-			GREY.."7) El Sepulcro, ".._RED.."Bosque de Argenteos"; --Bien
-			GREY.."8) Molino Tarren, ".._RED.."Laderas de Trabalomas"; --Bien
-			GREY.."9) Poblado Sañadiente, ".._RED.."Tierras del Interior"; --Bien
-			GREY.."10) Sentencia, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."11) Puesto del Torio, ".._RED.."La Garganta de Fuego"; --Bien
-			GREY.."12) Kargath, ".._RED.."Tierras Inhospitas"; --Bien 
-			GREY.."13) Peñasco Llamarada, ".._RED.."Las Estepas Ardientes"; --Bien
-			GREY.."14) Rocal, ".._RED.."Pantano de las Penas"; --Bien
-			GREY.."15) Campamento Grom'Gol, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."16) Bahía del Botín, ".._RED.."Vega de Tuercespina"; --Bien
-		};
-		FPHordeWest = {
-			ZoneName = "Horda (Kalimdor)";
-			Location = "Kalimdor";
-			GREY.."1) "..GREN.."Amparo de la Noche"..GREY..", ".._RED.."Claro de la Luna"..GREN.."(Solo druidas)"; --Bien
-			GREY.."2) Oeste del camino al Puesto Vigóa del Cubil, ".._RED.."Claro de la Luna"; --Bien
-			GREY.."3) Vista Eterna, ".._RED.."Cuna del Invierno"; --Bien
-			GREY.."4) Puesto del Veneno, ".._RED.."Frondavil"; --Bien
-			GREY.."5) Santuario Esmeralda, ".._RED.."Frondavil"; --Bien
-			GREY.."6) Avanzada de Zoram'gar, ".._RED.."Vallefresno"; --Bien
-			GREY.."7) Valormok, ".._RED.."Azshara"; --Bien
-			GREY.."8) Puesto del Hachazo, ".._RED.."Vallefresno"; --Bien
-			GREY.."9) Orgrimmar, ".._RED.."Durotar"; --Bien
-			GREY.."10) Refugio Roca del Sol, ".._RED.."Sierra Espolon"; --Bien
-			GREY.."11) El Cruce, ".._RED.."Los Baldíos"; --Bien
-			GREY.."12) Trinquete, ".._RED.."Los Baldíos"; --Bien
-			GREY.."13) Aldea Cazasombras, ".._RED.."Desolace"; --Bien
-			GREY.."14) Cima del Trueno, ".._RED.."Mulgore"; --Bien
-			GREY.."15) Campamento Taurajo, ".._RED.."Los Baldíos"; --Bien
-			GREY.."16) Poblado Murohelecho, ".._RED.."Marjal Revolcafango"; --Bien
-			GREY.."17) Piñón de Barro, ".._RED.."Marjal Revolcafango";	--Bien	
-			GREY.."18) Campamento Mojache, ".._RED.."Feralas"; --Bien
-			GREY.."19) Poblado Viento Libre, ".._RED.."Las Mil Agujas"; --Bien
-			GREY.."20) Refugio de Marshall, ".._RED.."Crater de Un'Goro"; --Bien
-			GREY.."21) Fuente de Cenarion, ".._RED.."Silithus"; --Bien
-			GREY.."22) Gadgetzan, ".._RED.."Desierto de Tanaris"; --Bien
-		};
-		FPHordeOutland = { 
-			ZoneName = "Horda (Terrallende)";
-			Location = "Terrallende";
-			GREY.."1) El Portal Oscuro, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."2) Thrallmar, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."3) Armeria de Expedición, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."4) Avanzada del Halcón, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."5) Avanzada Rata del Pantano, ".._RED.."Marmisma de Zangar"; --Bien
-			GREY.."6) Zabra'jin, ".._RED.."Marmisma de Zangar"; --Bien
-			GREY.."7) Garadar, ".._RED.."Nagrand"; --Bien
-			GREY.."8) Ciudad de Shattrath, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."9) Bastión Rompepedras, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."10) Aldea Sombraluna, ".._RED.."Valle Sombraluna"; --Bien
-			GREY.."11) Altar de Sha'tar, ".._RED.."Valle Sombraluna "..BLUE.."(Aldor)"; --Bien
-			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Arúspices)"; --Bien
-			GREY.."13) Bastión Señor del Trueno, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."14) Soto Eterno, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."15) Aldea Mok'Nathal, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."16) Area 52, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."17) La Flecha de la Tormenta, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
-			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
-			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
-			GREN..INDENT.."(Requiere honorado con Guardia del cielo Sha'tari)"; --Bien
-		};
-		FPAllianceOutland = { 
-			ZoneName = "Alianza (Terrallende)";
-			Location = "Terrallende";
-			GREY.."1) El Portal Oscuro, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."2) Punta de Expedición, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."3) Bastión del Honor, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."4) Templo de Telhamat, ".._RED.."Península de Fuego Infernal"; --Bien
-			GREY.."5) Telredor, ".._RED.."Marmisma de Zangar"; --Bien
-		    GREY.."6) Puerto Orebor, ".._RED.."Marmisma de Zangar"; --Bien
-		    GREY.."7) Telaar, ".._RED.."Nagrand"; --Bien
-			GREY.."8) Ciudad de Shattrath, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."9) Bastión Allerian, ".._RED.."Bosque de Terokkar"; --Bien
-			GREY.."10) Bastión Martillo Salvaje, ".._RED.."Valle Sombraluna"; --Bien
-			GREY.."11) Altar de Sha'tar, ".._RED.."Valle Sombraluna "..BLUE.."(Aldor)"; --Bien
-			GREY.."12) Sagrario de las Estrellas, ".._RED.."Valle Sombraluna "..BLUE.."(Arúspices)"; --Bien
-			GREY.."13) Sylvanaar, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."14) Soto Eterno, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."15) Estación de Toshley, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."16) Area 52, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."17) La Flecha de la Tormenta, ".._RED.."Tormenta Abisal"; --Bien
-			GREY.."18) Cosmotirón, ".._RED.."Tormenta Abisal"; --Bien
-			GREN.."1') Alto de los Vientonegro, ".._RED.."Bosque de Terokkar"; --Bien
-			GREN.."2') Avanzada de la Guardia del cielo, ".._RED.."Montañas Filospada"; --Bien
-			GREN..INDENT.."(Requiere honorado con Guardia del cielo Sha'tari)"; --Bien
-		};
-	};
-
-	Atlas_RegisterPlugin("Atlas_FlightPaths", myCategory, myData);
-
+};
 end

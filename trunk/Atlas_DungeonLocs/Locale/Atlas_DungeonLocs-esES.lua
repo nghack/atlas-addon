@@ -27,110 +27,118 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úl�ltima Actualización (last update): 11/03/2008
+-- Última Actualización (last update): 03/06/2008
 
 --]]
 
 
 if ( GetLocale() == "esES" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
+AtlasDLLocale = {
 
-	local myCategory = "Lugares de Mazmorras";
+	--Common
+	["Battlegrounds"] = "Campos de Batalla";
+	["Blue"] = "Azul";
+	["Dungeon Locations"] = "Lugares de Mazmorras";
+	["East"] = "Este";
+	["Instances"] = "Mazmorras";
+	["West"] = "Oeste";
+	["White"] = "Blanco";
 
-	local myData = {
-		DLEast = {
-			ZoneName = "Localización de Mazmorras (Este)";
-			Location = "Reino del Este";
-			BLUE.."A) Valle de Alterac, ".._RED.."Montañas de Alterac / Laderas de Trabalomas"; --Bien
-			BLUE.."B) Cuenca de Arathi, ".._RED.."Tierras Altas de Arathi"; --Bien
-			GREY.."1) Bancal del Magister, ".._RED.."Isla de Quel'Danas";
-			GREY..INDENT.."Meseta del pozo del Sol, ".._RED.."Isla de Quel'Danas";
-			GREY.."2) Zul'Aman, ".._RED.."Tierras Fantasma"; --Bien			
-			GREY.."3) Monasterio Escarlata, ".._RED.."Claros de Trisfal"; --Bien
-			GREY.."4) Stratholme, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY..INDENT.."Naxxramas, ".._RED.."Tierras de la Peste del Este"; --Bien
-			GREY.."5) Scholomance, ".._RED.."Tierras de la Peste del Oeste"; --Bien
-			GREY.."6) Castillo de Colmillo Oscuro, ".._RED.."Bosque de Argenteos"; --Bien
-			GREY.."7) Gnomeregan, ".._RED.."Dun Morogh"; --Bien
-			GREY.."8) Uldaman, ".._RED.."Tierras Inhospitas"; --Bien
-			GREY.."9) Guarida Alanegra, ".._RED.."Cumbre de Roca Negra"; --Bien
-			GREY..INDENT.."Profundidades de Roca Negra, ".._RED.."Montaña de Roca Negra"; --Bien
-			GREY..INDENT.."Cumbre de Roca Negra, ".._RED.."Montaña de Roca Negra"; --Bien
-			GREY..INDENT.."Núcleo Fundido , ".._RED.."Profundidades de Roca Negra"; --Bien
-			GREY.."10) Mazmorras de Ventormenta, ".._RED.."Ciudad de Ventormenta"; --Bien
-			GREY.."11) Las Minas de la Muerte, ".._RED.."Paramos de Poniente"; --Bien
-			GREY.."12) Zul'Gurub, ".._RED.."Vega de Tuercespina"; --Bien
-			GREY.."13) Karazhan, ".._RED.."Paso de la Muerte"; --Bien
-			GREY.."14) El Templo de Atal'Hakkar, ".._RED.."Pantano de las Penas"; --Bien
-			"";
-			"";
-			BLUE.."Azul:"..ORNG.." Campos de Batalla";
-			GREY.."Blanco:"..ORNG.." Mazmorras";
-		};
-		DLWest = {
-			ZoneName = "Localización de Mazmorras (Oeste)";
-			Location = "Kalimdor";
-			BLUE.."A) Garganta Grito de Guerra, ".._RED.."Los Baldíos / Vallefresno"; --Bien
-			GREY.."1) Caverna Brazanegra, ".._RED.."Vallefresno"; --Bien
-			GREY.."2) Sima Ígnea, ".._RED.."Orgrimmar"; --Bien
-			GREY.."3) Cuevas de los Lamentos, ".._RED.."Los Baldíos"; --Bien
-			GREY.."4) Maraudon, ".._RED.."Desolace"; --Bien
-			GREY.."5) La Masacre, ".._RED.."Feralas"; --Bien 
-			GREY.."6) Horado Rajacieno, ".._RED.."Los Baldíos"; --Bien
-			GREY.."7) Zahúrda Rojocieno, ".._RED.."Los Baldíos"; --Bien
-			GREY.."8) Guarida de Onyxia, ".._RED.."Marjal Revolcafango"; --Bien
-			GREY.."9) Zul'Farrak, ".._RED.."Tanaris"; --Bien
-			GREY.."10) Cavernas del Tiempo, ".._RED.."Tanaris"; --Bien
-			GREY..INDENT.."Antiguas Laderas de Trabalomas"; --Bien
-			GREY..INDENT.."La Ciénaga Negra"; --Bien
-			GREY..INDENT.."La Cima Hyjal"; --Bien
-			GREY.."11) Las Ruinas de Ahn'Qiraj, ".._RED.."Silithus"; --Bien
-			GREY..INDENT.."El Templo de Ahn'Qiraj, ".._RED.."Silithus"; --Bien
-			"";
-			"";
-			"";
-			"";
-			"";
-			"";
-			"";
-			BLUE.."Azul:"..ORNG.." Campos de Batalla";
-			GREY.."Blanco:"..ORNG.." Mazmorras";
-		};
-		DLOutland = {
-			ZoneName = "Localización de Mazmorras (Terrallende)";
-			Location = "Terrallende";
-			GREY.."1) Guarida de Gruul, ".._RED.."Montañas Filospada"; --Bien
-			GREY.."2) El Castillo de la Tempestad, ".._RED.."Tormenta Abisal"; --Bien
-			GREY..INDENT.."El Mechanar"; --Bien
-			GREY..INDENT.."El Invernáculo"; --Bien
-			GREY..INDENT.."El Arcatraz"; --Bien
-			GREY..INDENT.."El Ojo de la Tormenta"; --Bien
-			GREY.."3) Reserva Colmillo Torcido, ".._RED.."Marisma de Zangar"; --Bien
-			GREY..INDENT.."El Campo de Esclavos"; --Bien
-			GREY..INDENT.."La Sotiénaga"; --Bien
-			GREY..INDENT.."La cámara de Vapor"; --Bien
-			GREY..INDENT.."Caverna del Santuario de la Serpiente"; --Bien
-			GREY.."4) Ciudadela de Fuego Infernal, ".._RED.."Península del Fuego Infernal"; --Bien
-			GREY..INDENT.."Murallas del Fuego Infernal"; --Bien
-			GREY..INDENT.."El Horno de la Sangre"; --Bien
-			GREY..INDENT.."Las Salas Arrasadas"; --Bien
-			GREY..INDENT.."La Guarida de Magtheridon"; --Bien
-			GREY.."5) Auchindoun, ".._RED.."Bosque de Terrokkar"; --Bien
-			GREY..INDENT.."Tumbas de Maná"; --Bien
-			GREY..INDENT.."Criptas Auchenai"; --Bien
-			GREY..INDENT.."Salas Sethekk"; --Bien
-			GREY..INDENT.."Laberinto de las Sombras"; --Bien
-			GREY.."6) Templo Oscuro, ".._RED.."Valle Sombraluna"; --Bien
-		};
-	};
+	--Places
+	["Alterac Mountains"] = "Montañas de Alterac";
+	["Alterac Valley"] = "Valle de Alterac";
+	["Arathi Basin"] = "Cuenca de Arathi";
+	["Arathi Highlands"] = "Tierras Altas de Arathi";
+	["Ashenvale"] = "Vallefresno";
+	["Auchenai Crypts"] = "Criptas Auchenai";
+	["Auchindoun"] = "Auchindoun";
+	["Badlands"] = "Tierras del Interior";
+	["Black Temple"] = "Templo Oscuro";
+	["Blackfathom Deeps"] = "Caverna Brazanegra";
+	["Blackrock Depths"] = "Profundidades de Roca Negra";
+	["Blackrock Mountain"] = "Montaña de Roca Negra";
+	["Blackrock Spire"] = "Cumbre de Roca Negra";
+	["Blackwing Lair"] = "Guarida Alanegra";
+	["Blade's Edge Mountains"] = "Montañas Filoespada";
+	["Caverns of Time"] = "Cavernas del Tiempo";
+	["Coilfang Reservoir"] = "Reserva Colmillo Torcido";
+	["Deadwind Pass"] = "Paso de la Muerte";
+	["Desolace"] = "Desolace";
+	["Dire Maul"] = "La Masacre";
+	["Dun Morogh"] = "Dun Morogh";
+	["Dustwallow Marsh"] = "Marjal Revolcafango";
+	["Eastern Kingdoms"] = "Reinos del Este";
+	["Eastern Plaguelands"] = "Tierras de la Peste del Este";
+	["Feralas"] = "Feralas";
+	["Ghostlands"] = "Tierras Fantasma";
+	["Gnomeregan"] = "Gnomeregan";
+	["Gruul's Lair"] = "Guarida de Gruul";
+	["Hellfire Citadel"] = "Ciudadela de Fuego Infernal";
+	["Hellfire Peninsula"] = "Península del Fuego Infernal";
+	["Hellfire Ramparts"] = "Murallas del Fuego Infernal";
+	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
+	["Hyjal Summit"] = "La Cima Hyjal";
+	["Isle of Quel'Danas"] = "Isla de Quel'Danas";
+	["Kalimdor"] = "Kalimdor";
+	["Karazhan"] = "Karazhan";
+	["Magisters' Terrace"] = "Bancal del Magister";
+	["Magtheridon's Lair"] = "La Guarida de Magtheridon";
+	["Mana-Tombs"] = "Tumbas de Maná";
+	["Maraudon"] = "Maraudon";
+	["Molten Core"] = "Núcleo Fundido";
+	["Naxxramas"] = "Naxxramas";
+	["Netherstorm"] = "Tormenta Abisal";
+	["Old Hillsbrad Foothills"] = "Antiguas Laderas de Trabalomas";
+	["Onyxia's Lair"] = "Guarida de Onyxia";
+	["Orgrimmar"] = "Orgrimmar";
+	["Outland"] = "Terrallende";
+	["Ragefire Chasm"] = "Sima Ígnea";
+	["Razorfen Downs"] = "Horado Rajacieno";
+	["Razorfen Kraul"] = "Zahúrda Rojocieno";
+	["Ruins of Ahn'Qiraj"] = "Las Ruinas de Ahn'Qiraj";
+	["Scarlet Monastery"] = "Monasterio Escarlata";
+	["Scholomance"] = "Scholomance";
+	["Serpentshrine Cavern"] = "Caverna del Santuario de la Serpiente";
+	["Sethekk Halls"] = "Salas Sethekk";
+	["Shadow Labyrinth"] = "Laberinto de las Sombras";
+	["Shadowfang Keep"] = "Castillo de Colmillo Oscuro";
+	["Shadowmoon Valley"] = "Valle Sombraluna";
+	["Silithus"] = "Silithus";
+	["Silverpine Forest"] = "Bosque de Argenteos";
+	["Stormwind City"] = "Ciudad de Ventormenta";
+	["Stranglethorn Vale"] = "Vega de Tuercespina";
+	["Stratholme"] = "Stratholme";
+	["Sunken Temple"] = "El Templo de Atal'Hakkar";
+	["Sunwell Plateau"] = "Meseta del pozo del Sol";
+	["Swamp of Sorrows"] = "Pantano de las Penas";
+	["Tanaris"] = "Tanaris";
+	["Tempest Keep"] = "El Castillo de la Tempestad";
+	["Temple of Ahn'Qiraj"] = "El Templo de Ahn'Qiraj";
+	["Terokkar Forest"] = "Bosque de Terrokkar";
+	["The Arcatraz"] = "El Arcatraz";
+	["The Barrens"] = "Los Baldíos";
+	["The Black Morass"] = "La Ciénaga Negra";
+	["The Blood Furnace"] = "El Horno de la Sangre";
+	["The Botanica"] = "El Invernáculo";
+	["The Deadmines"] = "Las Minas de la Muerte";
+	["The Eye"] = "El Ojo";
+	["The Mechanar"] = "El Mechanar";
+	["The Shattered Halls"] = "Las Salas Arrasadas";
+	["The Slave Pens"] = "El Campo de Esclavos";
+	["The Steamvault"] = "La cámara de Vapor";
+	["The Stockade"] = "Mazmorras de Ventormenta";
+	["The Underbog"] = "La Sotiénaga";
+	["Tirisfal Glades"] = "Claros de Trisfal";
+	["Uldaman"] = "Uldaman";
+	["Wailing Caverns"] = "Cuevas de los Lamentos";
+	["Warsong Gulch"] = "Garganta Grito de Guerra";
+	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
+	["Westfall"] = "Páramos de Poniente";
+	["Zangarmarsh"] = "Marisma de Zangar";
+	["Zul'Aman"] = "Zul'Aman";
+	["Zul'Farrak"] = "Zul'Farrak";
+	["Zul'Gurub"] = "Zul'Gurub";
 
-	Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);
-
+};
 end

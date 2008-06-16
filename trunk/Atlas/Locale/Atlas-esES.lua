@@ -1105,7 +1105,7 @@ AtlasLocale = {
 	["Lady Sacrolash"] = "Lady Sacrolash"; --FALTA
 	["M'uru"] = "M'uru";
 	["Entropius"] = "Entropius"; --FALTA
-	["Kil'jaeden"] = "Kil'jaeden";
+	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <The Deceiver>"; --FALTA
 	
 --*******************
 -- Outland Instances

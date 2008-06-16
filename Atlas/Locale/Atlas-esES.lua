@@ -211,7 +211,7 @@ AtlasLocale = {
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
 	["Black Temple"] = "Templo Oscuro"; ["BT"] = "TO";	
 	["Blackfathom Deeps"] = "Cavernas de Brazanegra"; ["BFD"] = "CB";
-	["Blackrock Depths"] = "Profundidades de Roca Negra"; ["BRD"] = "PRN"
+	["Blackrock Depths"] = "Profundidades de Roca Negra"; ["BRD"] = "PRN";
 	["Blackrock Spire"] = "Cumbre de Roca Negra"; ["LBRS"] = "CRNI"; ["UBRS"] = "CRNS";
 	["Blackwing Lair"] = "Guarida Alanegra"; ["BWL"] = "GAN";
 	["Cathedral"] = "Catedral"; ["Cath"] = "Cated";

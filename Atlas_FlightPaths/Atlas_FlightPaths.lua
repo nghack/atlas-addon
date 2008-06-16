@@ -133,7 +133,7 @@ local myData = {
 		{ GREY.."17) "..AtlasFPLocale["Mudsprocket"]..", ".._RED..AtlasFPLocale["Dustwallow Marsh"], ZONE, 15 };
 		{ GREY.."18) "..AtlasFPLocale["Camp Mojache"]..", ".._RED..AtlasFPLocale["Feralas"], ZONE, 357 };
 		{ GREY.."19) "..AtlasFPLocale["Freewind Post"]..", ".._RED..AtlasFPLocale["Thousand Needles"], ZONE, 400 };
-		{ GREY.."20) "..AtlasFPLocale["Marshall's Refuge"]..", ".._RED..AtlasFPLocale["Un'Goro Crater"], ZONE, 490 };
+		{ GREY.."20) "..AtlasFPLocale["Marshal's Refuge"]..", ".._RED..AtlasFPLocale["Un'Goro Crater"], ZONE, 490 };
 		{ GREY.."21) "..AtlasFPLocale["Cenarion Hold"]..", ".._RED..AtlasFPLocale["Silithus"], ZONE, 1377 };
 		{ GREY.."22) "..AtlasFPLocale["Gadgetzan"]..", ".._RED..AtlasFPLocale["Tanaris"], ZONE, 440 };
 	};

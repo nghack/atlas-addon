@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -24,110 +24,70 @@
 
 if ( GetLocale() == "deDE" ) then
 
-	local BLUE = "|cff6666ff";
-	local GREY = "|cff999999";
-	local GREN = "|cff66cc33";
-	local _RED = "|cffcc6666";
-	local ORNG = "|cffcc9933";
-	local PURP = "|cff9900ff";
-	local INDENT = "      ";
+AtlasORLocale = {
 
-	local ZONE = 1;
-	local NPC = 2;
-	local ITEM = 3;
-	local OBJECT = 4;
-	local FACTION = 5;
-	local QUEST = 6;
+	["Ancient Skull Pile"] = "Uralter Schädelhaufen";
+	["Ashenvale"] = "Eschental";
+	["Azshara"] = "Azshara";
+	["Azuregos"] = "Azuregos";
+	["Blackwind Landing"] = "Schattenwindlager";
+	["Blackwind Valley"] = "Schattenwindtal";
+	["Blasted Lands"] = "Verwüstete Lande";
+	["Bough Shadow"] = "Schattengrün";
+	["Darkscreecher Akkarai"] = "Dunkelkreischer Akkarai";
+	["Doom Lord Kazzak"] = "Verdammnislord Kazzak";
+	["Doomwalker"] = "Verdammniswandler";
+	["Dragons of Nightmare"] = "Alptraumdrachen";
+	["Dream Bough"] = "Traumgeäst";
+	["Dreamroarer"] = "Traumbrüller";
+	["Dreamstalker"] = "Traumpirscher";
+	["Dreamtracker"] = "Traumsucher";
+	["Duskwood"] = "Dämmerwald";
+	["Emeriss"] = "Smariss";
+	["Feralas"] = "Feralas";
+	["Forge Camp: Mageddon"] = "Konstruktionslager: Mageddon";
+	["Forge Camp: Rage"] = "Konstruktionslager: Zorn";
+	["Gezzarak the Huntress"] = "Gezzarak die Jägerin";
+	["Graveyard"] = "Friedhof";
+	["Grella <Skyguard Quartermaster>"] = "Grella <Rüstmeister der Himmelswache>";
+	["Hazzik"] = "Hazzik";
+	["Hazzik's Package"] = "Hazziks Päckchen";
+	["Hellfire Peninsula"] = "Höllenfeuerhalbinsel";
+	["Highlord Kruul"] = "Hochlord Kruul";
+	["Invasion Point: Annihilator"] = "Invasionspunkt: Vernichter";
+	["Karrog"] = "Karrog";
+	["Lethlas"] = "Lethlas";
+	["Lethon"] = "Lethon";
+	["Nethergarde Keep"] = "Burg Nethergarde";
+	["Outdoor Raid Encounters"] = "Außenweltschlachtzüge";
+	["Phantim"] = "Phantim";
+	["Random"] = "Zufällig";
+	["Rothos"] = "Rothos";
+	["Sahaak <Keeper of Scrolls>"] = "Sahaak <Hüter der Schriftrollen>";
+	["Seradane"] = "Seradane";
+	["Severin <Skyguard Medic>"] = "Severin <Sanitäter der Himmelswache>";
+	["Shadowmoon Valley"] = "Schattenmondtal";
+	["Skettis"] = "Skettis";
+	["Skull Pile"] = "Schädelhaufen";
+	["Sky Commander Adaris"] = "Himmelskommandant Adaris";
+	["Sky Sergeant Doryn"] = "Himmelsoffizier Doryn";
+	["Skyguard Handler Deesak"] = "Deesak der Tierführer der Himmelswache";
+	["Skyguard Prisoner"] = "Gefangene Himmelswache";
+	["Summon"] = "Beschwörbar";
+	["Taerar"] = "Taerar";
+	["Talonpriest Ishaal"] = "Krallenpriester Ishaal";
+	["Talonpriest Skizzik"] = "Krallenpriester Skizzik";
+	["Talonpriest Zellek"] = "Krallenpriester Zellek";
+	["Terokk"] = "Terokk";
+	["Terokkar Forest"] = "Wälder von Terokkar";
+	["The Dragons"] = "Die Drachen";
+	["The Hinterlands"] = "Hinterland";
+	["Thrallmar"] = "Thrallmar";
+	["Twilight Grove"] = "Der Zwielichtshain";
+	["Vakkiz the Windrager"] = "Vakkiz der Windzürner";
+	["Various"] = "Verschieden";
+	["Ysondre"] = "Ysondre";
 
-	local myCategory = "Außenweltschlachtzüge";
-
-	local myData = {
-		Azuregos = {
-			ZoneName = "Azuregos";
-			Location = "Azshara, Südklippenufer";
-			GREY.."1) Azuregos";
-		};
-		FourDragons = {
-			ZoneName = "Alptraumdrachen";
-			Location = "Zufällig";
-			GREY.."1) Der Zwielichtshain, ".._RED.."Dämmerwald";
-			GREY.."2) Seradane, ".._RED.."Hinterland";
-			GREY..INDENT.."Rothos";
-			GREY..INDENT.."Traumsucher";
-			GREY.."3) Traumgeäst, ".._RED.."Feralas";
-			GREY..INDENT.."Lethlas";
-			GREY..INDENT.."Traumbrüller";
-			GREY.."4) Schattengrün, ".._RED.."Eschental";
-			GREY..INDENT.."Phantim";
-			GREY..INDENT.."Traumpirscher";
-			"";
-			GREN.."Die Drachen";
-			GREY..INDENT.."Lethon";
-			GREY..INDENT.."Smariss";
-			GREY..INDENT.."Taerar";
-			GREY..INDENT.."Ysondre";
-		};
-		HighlordKruul = {
-			ZoneName = "Hochlord Kruul";
-			Location = "Verwüstete Lande, Die faulende Narbe";
-			GREY.."1) Hochlord Kruul";
-			GREY.."2) Burg Nethergarde";
-		};
-		DoomLordKazzak = {
-			ZoneName = "Verdammnislord Kazzak";
-			Location = "Höllenfeuerhalbinsel, Kil'jaedens Thron";
-			GREY.."1) Verdammnislord Kazzak";
-			GREY.."2) Invasionspunkt: Vernichter";
-			GREY.."3) Konstruktionslager: Zorn";
-			GREY.."4) Konstruktionslager: Mageddon";
-			GREY.."5) Thrallmar";
-		};
-		Doomwalker = {
-			ZoneName = "Verdammniswandler";
-			Location = "Schattenmondtal, Der Schwarze Tempel";
-			GREY.."1) Verdammniswandler";
-		};
-		Skettis = {
-			ZoneName = "Skettis";
-			Location = "Schattenwindtal, Wälder von Terokkar";
-			GREY.."1) Schattenwindlager";
-			GREY..INDENT.."Himmelskommandant Adaris";
-			GREY..INDENT.."Himmelsoffizier Doryn";
-			GREY..INDENT.."Deesak der Tierführer der Himmelswache";
-			GREY..INDENT.."Severin";
-			GREY..INDENT.."Grella";
-			GREY..INDENT.."Hazzik";
-			GREY.."2) Uralter Schädelhaufen";
-			GREY..INDENT.."Terokk (Beschwörbar)";
-			GREY.."3) Sahaak";
-			GREY.."4) Gefangene Himmelswache (Zufällig)";
-			GREY.."5) Krallenpriester Ishaal";
-			GREY.."6) Krallenpriester Skizzik";
-			GREY.."7) Krallenpriester Zellek";
-			GREY.."8) Hazziks Päckchen";
-			GREY.."9) Friedhof";
-			GREN.."1') Schädelhaufen";
-			GREN..INDENT.."Dunkelkreischer Akkarai (Beschwörbar)";
-			GREN..INDENT.."Gezzarak die Jägerin (Beschwörbar)";
-			GREN..INDENT.."Karrog (Summon)";
-			GREN..INDENT.."Vakkiz der Windzürner (Beschwörbar)";
-		};
-	};
-
-	myData.Azuregos.LevelRange =			"60+";
-	myData.FourDragons.LevelRange =			"60+";
-	myData.HighlordKruul.LevelRange =		"60+";
-	myData.DoomLordKazzak.LevelRange =		"70+";
-	myData.Doomwalker.LevelRange =			"70+";
-	myData.Skettis.LevelRange =				"70+";
-	
-	myData.Azuregos.PlayerLimit =			"40";
-	myData.FourDragons.PlayerLimit =		"40";
-	myData.HighlordKruul.PlayerLimit =		"40";
-	myData.DoomLordKazzak.PlayerLimit =		"40";
-	myData.Doomwalker.PlayerLimit =			"40";
-	myData.Skettis.PlayerLimit =			"40";
-
-	Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);
+};
 
 end

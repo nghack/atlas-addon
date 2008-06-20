@@ -158,7 +158,6 @@ AtlasLocale = {
 	["Lower"] = "Lower";
 	["Lunar"] = "Lunar";
 	["Mage"] = "Mage";
-	["Main"] = "Main";
 	["Meeting Stone"] = "Meeting Stone";
 	["Moonwell"] = "Moonwell";
 	["North"] = "North";
@@ -167,7 +166,6 @@ AtlasLocale = {
 	["Outside"] = "Outside";
 	["Paladin"] = "Paladin";
 	["Panther"] = "Panther";
-	["Patrols"] = "Patrols";
 	["Portal"] = "Portal";
 	["Priest"] = "Priest";
 	["Protection Warrior"] = "Protection Warrior";
@@ -201,7 +199,6 @@ AtlasLocale = {
 	["Warlock"] = "Warlock";
 	["Warrior"] = "Warrior";
 	["West"] = "West";
-	["Workshop"] = "Workshop";
 	
 	--Instance names and acronyms
 	["Armory"] = "Armory"; ["Armory"] = "Armory";
@@ -766,9 +763,7 @@ AtlasLocale = {
 	["Viewing Room Key"] = "Viewing Room Key";
 	["Viewing Room"] = "Viewing Room";
 	["Blood of Innocents"] = "Blood of Innocents";
-	["Kirtonos"] = "Kirtonos";
 	["Divination Scryer"] = "Divination Scryer";
-	["Darkreaver"] = "Darkreaver";
 	["Blood Steward of Kirtonos"] = "Blood Steward of Kirtonos";
 	["The Deed to Southshore"] = "The Deed to Southshore";
 	["Kirtonos the Herald"] = "Kirtonos the Herald";
@@ -819,7 +814,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "Various Postbox Keys";
 	["Living Side"] = "Living Side";
 	["Undead Side"] = "Undead Side";
-	["Postmaster"] = "Postmaster";
 	["Skul"] = "Skul";
 	["Stratholme Courier"] = "Stratholme Courier";
 	["Fras Siabi"] = "Fras Siabi";
@@ -853,7 +847,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "Elders' Square Postbox";
 	["King's Square Postbox"] = "King's Square Postbox";
 	["Fras Siabi's Postbox"] = "Fras Siabi's Postbox";
-	["3rd Box Opened: Postmaster Malown"] = "3rd Box Opened: Postmaster Malown";
+	["3rd Box Opened"] = "3rd Box Opened";
+	["Postmaster Malown"] = "Postmaster Malown";
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <The Foreman>";
@@ -984,7 +979,7 @@ AtlasLocale = {
 	["Stairs to Opera House Orchestra Level"] = "Stairs to Opera House Orchestra Level";
 	["Ramp from Mezzanine to Balcony"] = "Ramp from Mezzanine to Balcony";
 	["Connection to Master's Terrace"] = "Connection to Master's Terrace";
-	["Path to the Broken Stairs"] = "Path to the Broken Stairs";
+	["Path to the Broken Stairs"] = "Path to the Broken Stairs";--omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "Hastings <The Caretaker>";
 	["Servant Quarters"] = "Servant Quarters";
 	["Hyakiss the Lurker"] = "Hyakiss the Lurker";
@@ -1025,7 +1020,6 @@ AtlasLocale = {
 	["Nightbane"] = "Nightbane";
 	
 	--Karazhan End
-	["Path to the Broken Stairs"] = "Path to the Broken Stairs";
 	["Broken Stairs"] = "Broken Stairs";
 	["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
 	["Suspicious Bookshelf"] = "Suspicious Bookshelf";
@@ -1087,12 +1081,11 @@ AtlasLocale = {
 	["Tyrith"] = "Tyrith";
 	["Vexallus"] = "Vexallus";
 	["Scrying Orb"] = "Scrying Orb";
-	["Kalecgos"] = "Kalecgos";
+	["Kalecgos"] = "Kalecgos";--omitted from SP
 	["Priestess Delrissa"] = "Priestess Delrissa";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Sunstrider <Lord of the Blood Elves>";--omitted from TK: The Eye
 
 	--Sunwell Plateau
-	["Kalecgos"] = "Kalecgos";
 	["Sathrovarr the Corruptor"] = "Sathrovarr the Corruptor";
 	["Madrigosa"] = "Madrigosa";
 	["Brutallus"] = "Brutallus";

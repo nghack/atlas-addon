@@ -43,7 +43,7 @@ local myCategory = AtlasFPLocale["Flight Path Maps"];
 
 local myData = {
 	FPAllianceEast = {
-		ZoneName = { AtlasFPLocale["Alliance"].." [A] ("..AtlasFPLocale["East"]..")" };
+		ZoneName = { AtlasFPLocale["Alliance"].." ("..AtlasFPLocale["Eastern Kingdoms"]..")" };
 		Location = { AtlasFPLocale["Eastern Kingdoms"] };
 		{ GREY.."1) "..AtlasFPLocale["Sun's Reach"]..", ".._RED..AtlasFPLocale["Isle of Quel'Danas"], ZONE, 4080 };
 		{ GREY.."2) "..AtlasFPLocale["Hatchet Hills"]..", ".._RED..AtlasFPLocale["Ghostlands"], ZONE, 3433 };
@@ -57,7 +57,7 @@ local myData = {
 		{ GREY.."10) "..AtlasFPLocale["Thelsamar"]..", ".._RED..AtlasFPLocale["Loch Modan"], ZONE, 38 };
 		{ GREY.."11) "..AtlasFPLocale["Thorium Point"]..", ".._RED..AtlasFPLocale["Searing Gorge"], ZONE, 51 };
 		{ GREY.."12) "..AtlasFPLocale["Morgan's Vigil"]..", ".._RED..AtlasFPLocale["Burning Steppes"], ZONE, 46 };
-		{ GREY.."13) "..AtlasFPLocale["Stormwind"]..", ".._RED..AtlasFPLocale["Elwynn Forest"], ZONE, 12 };
+		{ GREY.."13) "..AtlasFPLocale["Stormwind City"]..", ".._RED..AtlasFPLocale["Elwynn Forest"], ZONE, 12 };
 		{ GREY.."14) "..AtlasFPLocale["Lakeshire"]..", ".._RED..AtlasFPLocale["Redridge Mountains"], ZONE, 44 };
 		{ GREY.."15) "..AtlasFPLocale["Sentinel Hill"]..", ".._RED..AtlasFPLocale["Westfall"], ZONE, 40 };
 		{ GREY.."16) "..AtlasFPLocale["Darkshire"]..", ".._RED..AtlasFPLocale["Duskwood"], ZONE, 10 };
@@ -66,7 +66,7 @@ local myData = {
 		{ GREY.."19) "..AtlasFPLocale["Booty Bay"]..", ".._RED..AtlasFPLocale["Stranglethorn Vale"], ZONE, 33 };
 	};
 	FPAllianceWest = {
-		ZoneName = { AtlasFPLocale["Alliance"].." [B] ("..AtlasFPLocale["West"]..")" };
+		ZoneName = { AtlasFPLocale["Alliance"].." ("..AtlasFPLocale["Kalimdor"]..")" };
 		Location = { AtlasFPLocale["Kalimdor"] };
 		{ GREY.."1) "..AtlasFPLocale["Rut'Theran Village"]..", ".._RED..AtlasFPLocale["Teldrassil"], ZONE, 141 };
 		{ GREY.."2) "..GREN..AtlasFPLocale["Nighthaven"]..GREY..", ".._RED..AtlasFPLocale["Moonglade"]..GREN.." ("..AtlasFPLocale["Druid-only"]..")", ZONE, 493 };
@@ -92,7 +92,7 @@ local myData = {
 		{ GREY.."22) "..AtlasFPLocale["The Exodar"]..", ".._RED..AtlasFPLocale["Azuremyst Isle"], ZONE, 3524 };
 	};
 	FPHordeEast = {
-		ZoneName = { AtlasFPLocale["Horde"].." [A] ("..AtlasFPLocale["East"]..")" };
+		ZoneName = { AtlasFPLocale["Horde"].." ("..AtlasFPLocale["Eastern Kingdoms"]..")" };
 		Location = { AtlasFPLocale["Eastern Kingdoms"] };
 		{ GREY.."1) "..AtlasFPLocale["Sun's Reach"]..", ".._RED..AtlasFPLocale["Isle of Quel'Danas"], ZONE, 4080 };
 		{ GREY.."2) "..AtlasFPLocale["Silvermoon"]..", ".._RED..AtlasFPLocale["Eversong Woods"], ZONE, 3430 };
@@ -112,7 +112,7 @@ local myData = {
 		{ GREY.."16) "..AtlasFPLocale["Booty Bay"]..", ".._RED..AtlasFPLocale["Stranglethorn Vale"], ZONE, 33 };
 	};
 	FPHordeWest = {
-		ZoneName = { AtlasFPLocale["Horde"].." [B] ("..AtlasFPLocale["West"]..")" };
+		ZoneName = { AtlasFPLocale["Horde"].." ("..AtlasFPLocale["Kalimdor"]..")" };
 		Location = { AtlasFPLocale["Kalimdor"] };
 		{ GREY.."1) "..GREN..AtlasFPLocale["Nighthaven"]..GREY..", ".._RED..AtlasFPLocale["Moonglade"]..GREN.." ("..AtlasFPLocale["Druid-only"]..")", ZONE, 493 };
 		{ GREY.."2) "..AtlasFPLocale["West of the path to Timbermaw Hold"]..", ".._RED..AtlasFPLocale["Moonglade"], ZONE, 493 };
@@ -138,7 +138,7 @@ local myData = {
 		{ GREY.."22) "..AtlasFPLocale["Gadgetzan"]..", ".._RED..AtlasFPLocale["Tanaris"], ZONE, 440 };
 	};
 	FPHordeOutland = {
-		ZoneName = { AtlasFPLocale["Horde"].." [C] ("..AtlasFPLocale["Outland"]..")" };
+		ZoneName = { AtlasFPLocale["Horde"].." ("..AtlasFPLocale["Outland"]..")" };
 		Location = { AtlasFPLocale["Outland"] };
 		{ GREY.."1) "..AtlasFPLocale["The Dark Portal"]..", ".._RED..AtlasFPLocale["Hellfire Peninsula"], ZONE, 3483 };
 		{ GREY.."2) "..AtlasFPLocale["Thrallmar"]..", ".._RED..AtlasFPLocale["Hellfire Peninsula"], ZONE, 3483 };
@@ -163,7 +163,7 @@ local myData = {
 		{ GREN..INDENT.."("..AtlasFPLocale["Requires honored faction with Sha'tari Skyguard"]..")", FACTION, 1031 };
 	};
 	FPAllianceOutland = {
-		ZoneName = { AtlasFPLocale["Alliance"].." [C] ("..AtlasFPLocale["Outland"]..")" };
+		ZoneName = { AtlasFPLocale["Alliance"].." ("..AtlasFPLocale["Outland"]..")" };
 		Location = { AtlasFPLocale["Outland"] };
 		{ GREY.."1) "..AtlasFPLocale["The Dark Portal"]..", ".._RED..AtlasFPLocale["Hellfire Peninsula"], ZONE, 3483 };
 		{ GREY.."2) "..AtlasFPLocale["Shatter Point"]..", ".._RED..AtlasFPLocale["Hellfire Peninsula"], ZONE, 3483 };

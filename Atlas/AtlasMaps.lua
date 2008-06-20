@@ -765,9 +765,9 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Skeleton Key"], ITEM, 13704 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Viewing Room Key"].." ("..AtlasLocale["Viewing Room"]..")", ITEM, 13873 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Blood of Innocents"].." ("..AtlasLocale["Kirtonos"]..")", ITEM, 13523 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Blood of Innocents"].." ("..AtlasLocale["Kirtonos the Herald"]..")", ITEM, 13523 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Divination Scryer"].." ("..AtlasLocale["Darkreaver"]..")", ITEM, 18746 };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Divination Scryer"].." ("..AtlasLocale["Death Knight Darkreaver"]..")", ITEM, 18746 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
 		{ BLUE.."C) "..AtlasLocale["Connection"] };
@@ -834,7 +834,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"].." ("..AtlasLocale["Living Side"]..")", ITEM, 7146 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key to the City"].." ("..AtlasLocale["Undead Side"]..")", ITEM, 12382 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Various Postbox Keys"].." ("..AtlasLocale["Postmaster"]..")" };
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Various Postbox Keys"].." ("..AtlasLocale["Postmaster Malown"]..")" };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Front"]..")" };
 		{ BLUE.."B) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Side"]..")" };
@@ -873,7 +873,7 @@ AtlasMaps = {
 		{ GREN.."4') "..AtlasLocale["Elders' Square Postbox"] };
 		{ GREN.."5') "..AtlasLocale["King's Square Postbox"] };
 		{ GREN.."6') "..AtlasLocale["Fras Siabi's Postbox"] };
-		{ GREN..AtlasLocale["3rd Box Opened: Postmaster Malown"], NPC, 11143 };
+		{ GREN..AtlasLocale["3rd Box Opened"]..": "..AtlasLocale["Postmaster Malown"], NPC, 11143 };
 	};
 	TheDeadmines = {
 		ZoneName = { AtlasLocale["The Deadmines"], 1581 };
@@ -1664,7 +1664,7 @@ AtlasMaps = {
 		{ BLUE..INDENT..AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Upper"]..", "..AtlasLocale["UBRS"]..")", ZONE, 1583 };
 		{ BLUE..INDENT..AtlasLocale["Blackwing Lair"].." ("..AtlasLocale["BWL"]..")", ZONE, 2677 };
 		{ BLUE..INDENT..AtlasLocale["Bodley"].." ("..AtlasLocale["Ghost"]..")", NPC, 16033 };
-		{ GREY.."1) "..AtlasLocale["Overmaster Pyron"].." ("..AtlasLocale["Patrols"]..")", NPC, 9026 };
+		{ GREY.."1) "..AtlasLocale["Overmaster Pyron"].." ("..AtlasLocale["Wanders"]..")", NPC, 9026 };
 		{ GREY.."2) "..AtlasLocale["Lothos Riftwaker"], NPC, 14387 };
 		{ GREY.."3) "..AtlasLocale["Franclorn Forgewright"].." ("..AtlasLocale["Ghost"]..")", NPC, 8888 };
 		{ GREY.."4) "..AtlasLocale["Meeting Stone"].." ("..AtlasLocale["BRD"]..")" };
@@ -1699,8 +1699,8 @@ AtlasMaps = {
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Meeting Stone"] };
-		{ BLUE.."B) "..AtlasLocale["Gnomeregan"].." ("..AtlasLocale["Main"]..")", ZONE, 133 };
-		{ BLUE.."C) "..AtlasLocale["Gnomeregan"].." ("..AtlasLocale["Workshop"]..")", ZONE, 133 };
+		{ BLUE.."B) "..AtlasLocale["Gnomeregan"].." ("..AtlasLocale["Front"]..")", ZONE, 133 };
+		{ BLUE.."C) "..AtlasLocale["Gnomeregan"].." ("..AtlasLocale["Back"]..")", ZONE, 133 };
 		{ GREY.."1) "..AtlasLocale["Elevator"] };
 		{ GREY.."2) "..AtlasLocale["Transpolyporter"] };
 		{ GREY..INDENT..AtlasLocale["Sprok <Away Team>"], NPC, 8320 };
@@ -1767,7 +1767,7 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Uldaman"], ZONE, 1337 };
 		{ GREY.."1) "..AtlasLocale["Hammertoe Grez"], NPC, 2909 };
-		{ GREY.."2) "..AtlasLocale["Magregan Deepshadow"].." ("..AtlasLocale["Patrols"]..")", NPC, 2932 };
+		{ GREY.."2) "..AtlasLocale["Magregan Deepshadow"].." ("..AtlasLocale["Wanders"]..")", NPC, 2932 };
 		{ GREY.."3) "..AtlasLocale["Tablet of Ryun'Eh"], ITEM, 4631 };
 		{ GREY.."4) "..AtlasLocale["Krom Stoutarm's Chest"], OBJECT, 124389 };
 		{ GREY.."5) "..AtlasLocale["Garrett Family Chest"], OBJECT, 124388 };

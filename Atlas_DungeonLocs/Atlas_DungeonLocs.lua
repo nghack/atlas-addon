@@ -43,7 +43,7 @@ local myCategory = AtlasDLLocale["Dungeon Locations"];
 
 local myData = {
 	DLEast = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." [A] ("..AtlasDLLocale["East"]..")" };
+		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Eastern Kingdoms"]..")" };
 		Location = { AtlasDLLocale["Eastern Kingdoms"] };
 		Continent = AtlasDLLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasDLLocale["Alterac Valley"]..", ".._RED..AtlasDLLocale["Alterac Mountains"].." / "..AtlasDLLocale["Hillsbrad Foothills"], ZONE, 2597, 36, 267 };
@@ -72,7 +72,7 @@ local myData = {
 		{ GREY..AtlasDLLocale["White"]..": "..ORNG..AtlasDLLocale["Instances"] };
 	};
 	DLWest = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." [B] ("..AtlasDLLocale["West"]..")" };
+		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Kalimdor"]..")" };
 		Location = { AtlasDLLocale["Kalimdor"] };
 		Continent = AtlasDLLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasDLLocale["Warsong Gulch"]..", ".._RED..AtlasDLLocale["The Barrens"].." / "..AtlasDLLocale["Ashenvale"], ZONE, 3277, 17, 331 };
@@ -96,7 +96,7 @@ local myData = {
 		{ GREY..AtlasDLLocale["White"]..": "..ORNG..AtlasDLLocale["Instances"] };
 	};
 	DLOutland = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." [C] ("..AtlasDLLocale["Outland"]..")" };
+		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Outland"]..")" };
 		Location = { AtlasDLLocale["Outland"] };
 		Continent = AtlasDLLocale["Outland"];
 		{ GREY.."1) "..AtlasDLLocale["Gruul's Lair"]..", ".._RED..AtlasDLLocale["Blade's Edge Mountains"], ZONE, 3618, 3522 };

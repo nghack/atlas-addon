@@ -28,9 +28,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "Battlegrounds";
 	["Blue"] = "Blue";
 	["Dungeon Locations"] = "Dungeon Locations";
-	["East"] = "East";
 	["Instances"] = "Instances";
-	["West"] = "West";
 	["White"] = "White";
 
 	--Places

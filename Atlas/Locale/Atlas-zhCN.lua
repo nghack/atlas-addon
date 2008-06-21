@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/21/2008
+-- Last Update : 6/22/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -33,7 +33,7 @@ ATLAS_STRING_SELECT_CAT 	= "选择分类";
 ATLAS_STRING_SELECT_MAP 	= "选择地图";
 ATLAS_STRING_SEARCH 		= "搜索";
 ATLAS_STRING_CLEAR 			= "重置";
-ATLAS_STRING_MINLEVEL 		= "等级下限";
+ATLAS_STRING_MINLEVEL 		= "需要等级";
 
 ATLAS_OPTIONS_BUTTON		= "设置";
 ATLAS_OPTIONS_TITLE 		= "Atlas 设置";
@@ -110,7 +110,7 @@ AtlasLocale = {
 	["Argent Dawn"] = "银色黎明";
 	["Arms Warrior"] = "武器战士";
 	["Attunement Required"] = "需要完成入口任务";
-	["Back"] = "后";
+	["Back"] = "后门";
 	["Basement"] = "底层";
 	["Bat"] = "蝙蝠";
 	["Blacksmithing Plans"] = "锻造设计图";
@@ -130,7 +130,7 @@ AtlasLocale = {
 	["Exalted"] = "崇拜";
 	["Exit"] = "出口";
 	["Fourth Stop"] = "第四次止步";
-	["Front"] = "前";
+	["Front"] = "前门";
 	["Ghost"] = "幽灵";
 	["Hallow's End"] = "万圣节";
 	["Heroic"] = "英雄模式";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/3/2008
+-- Last Update : 6/21/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -143,7 +143,6 @@ AtlasLocale = {
 	["Lower"] = "下层";
 	["Lunar"] = "春节";
 	["Mage"] = "法师";
-	["Main"] = "主";
 	["Meeting Stone"] = "集合石";
 	["Moonwell"] = "月亮井";
 	["North"] = "北区";
@@ -152,7 +151,6 @@ AtlasLocale = {
 	["Outside"] = "室外";
 	["Paladin"] = "圣骑士";
 	["Panther"] = "猎豹";
-	["Patrols"] = "巡逻";
 	["Portal"] = "传送";
 	["Priest"] = "牧师";
 	["Protection Warrior"] = "防护战士";
@@ -186,7 +184,6 @@ AtlasLocale = {
 	["Warlock"] = "术士";
 	["Warrior"] = "战士";
 	["West"] = "西区";
-	["Workshop"] = "车间";
 
 	--Instance names and acronyms
 	["Armory"] = "军械库"; --["Armory"] = "Armory";
@@ -751,9 +748,7 @@ AtlasLocale = {
 	["Viewing Room Key"] = "观察室钥匙";
 	["Viewing Room"] = "观察室";
 	["Blood of Innocents"] = "无辜者之血";
-	["Kirtonos"] = "基尔图诺斯";
 	["Divination Scryer"] = "预言水晶球";
-	["Darkreaver"] = "达克雷尔";
 	["Blood Steward of Kirtonos"] = "基尔图诺斯的卫士";
 	["The Deed to Southshore"] = "南海镇地契";
 	["Kirtonos the Herald"] = "传令官基尔图诺斯";
@@ -804,7 +799,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "邮箱钥匙";
 	["Living Side"] = "血色区";
 	["Undead Side"] = "亡灵区";
-	["Postmaster"] = "邮差";
 	["Skul"] = "斯库尔";
 	["Stratholme Courier"] = "斯坦索姆信使";
 	["Fras Siabi"] = "弗拉斯·希亚比";
@@ -838,7 +832,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "长者广场邮箱";
 	["King's Square Postbox"] = "国王广场邮箱";
 	["Fras Siabi's Postbox"] = "弗拉斯·希亚比的邮箱";
-	["3rd Box Opened: Postmaster Malown"] = "打开三个邮箱后: 邮差马龙";
+	["3rd Box Opened"] = "打开三个邮箱后";
+	["Postmaster Malown"] = "邮差马龙";
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "拉克佐 <工头>";
@@ -969,7 +964,7 @@ AtlasLocale = {
 	["Stairs to Opera House Orchestra Level"] = "通往歌剧院正厅的楼梯";
 	["Ramp from Mezzanine to Balcony"] = "楼座与露台间的斜坡";
 	["Connection to Master's Terrace"] = "通往主宰的露台";
-	["Path to the Broken Stairs"] = "通往破碎阶梯的通道";
+	["Path to the Broken Stairs"] = "通往破碎阶梯的通道";--omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "哈斯汀斯 <看管者>";
 	["Servant Quarters"] = "仆人区";
 	["Hyakiss the Lurker"] = "潜伏者希亚其斯";
@@ -1010,7 +1005,6 @@ AtlasLocale = {
 	["Nightbane"] = "夜之魇";
 
 	--Karazhan End
-	["Path to the Broken Stairs"] = "通往破碎阶梯的通道";
 	["Broken Stairs"] = "破碎阶梯";
 	["Ramp to Guardian's Library"] = "通往守护者的图书馆的斜坡";
 	["Suspicious Bookshelf"] = "奇怪的书架";
@@ -1072,12 +1066,11 @@ AtlasLocale = {
 	["Tyrith"] = "塔雷斯";
 	["Vexallus"] = "维萨鲁斯";
 	["Scrying Orb"] = "占卜宝珠";
-	["Kalecgos"] = "卡雷苟斯";
+	["Kalecgos"] = "卡雷苟斯";--omitted from SP
 	["Priestess Delrissa"] = "女祭司德莉希亚";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凯尔萨斯·逐日者 <血精灵之王>";--omitted from TK: The Eye
 
 	--Sunwell Plateau
-	["Kalecgos"] = "卡雷苟斯";
 	["Sathrovarr the Corruptor"] = "腐蚀者萨索瓦尔";
 	["Madrigosa"] = "玛蒂苟萨";
 	["Brutallus"] = "布鲁塔卢斯";
@@ -1136,6 +1129,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "巨钳鲁克玛尔";
 	["Naturalist Bite"] = "博学者拜特";
 	["Quagmirran"] = "夸格米拉";
+	["Lord Ahune <The Frost Lord>"] = "埃霍恩 <冰霜之王>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "霍加尔芬";

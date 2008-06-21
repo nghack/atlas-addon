@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/7/2008
+-- Last Update : 6/21/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -47,7 +47,6 @@ AtlasFPLocale = {
 	["Durotar"] = "杜隆塔尔";
 	["Duskwood"] = "暮色森林";
 	["Dustwallow Marsh"] = "尘泥沼泽";
-	["East"] = "东部";
 	["Eastern Kingdoms"] = "东部王国";
 	["Eastern Plaguelands"] = "东瘟疫之地";
 	["Elwynn Forest"] = "艾尔文森林";
@@ -122,7 +121,7 @@ AtlasFPLocale = {
 	["Stonebreaker Hold"] = "裂石堡";
 	["Stonetalon Mountains"] = "石爪山脉";
 	["Stonetalon Peak"] = "石爪峰";
-	["Stormwind"] = "暴风城";
+	["Stormwind City"] = "暴风城";
 	["Stranglethorn Vale"] = "荆棘谷";
 	["Sun's Reach"] = "阳湾港";
 	["Sun Rock Retreat"] = "烈日石居";
@@ -161,7 +160,6 @@ AtlasFPLocale = {
 	["Undercity"] = "幽暗城";
 	["Valormok"] = "瓦罗莫克";
 	["West of the path to Timbermaw Hold"] = "通往木喉要塞道路的西方";
-	["West"] = "西部";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
 	["Wetlands"] = "湿地";

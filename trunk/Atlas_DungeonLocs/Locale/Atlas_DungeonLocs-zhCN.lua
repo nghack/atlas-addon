@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/3/2008
+-- Last Update : 6/21/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -16,9 +16,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "战场";
 	["Blue"] = "蓝色";
 	["Dungeon Locations"] = "副本分布";
-	["East"] = "东部";
 	["Instances"] = "副本地下城";
-	["West"] = "西部";
 	["White"] = "白色";
 
 	--Places

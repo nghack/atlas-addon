@@ -1144,6 +1144,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar the Crackler";
 	["Naturalist Bite"] = "Naturalist Bite";
 	["Quagmirran"] = "Quagmirran";
+	["Lord Ahune <The Frost Lord>"] = "Lord Ahune <The Frost Lord>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";

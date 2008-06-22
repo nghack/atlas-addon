@@ -1,9 +1,9 @@
 ﻿--[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
 -- Version WoW 2.4.2 (french client)
--- Sur un travail de Wysiwyg, Trs
+-- Sur un travail de Wysiwyg, Trs en 2007
 -- Mise à jour par Kiria
--- le 03/06/2008
+-- le 22/06/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then

@@ -30,9 +30,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "Champs de bataille";
 	["Blue"] = "Bleu "; -- Espace pour le blanc avant une double ponctuation française
 	["Dungeon Locations"] = "Emplacements des instances";
-	["East"] = "Est";
 	["Instances"] = "Instances";
-	["West"] = "Ouest";
 	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
 
 	--Places

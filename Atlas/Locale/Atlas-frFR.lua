@@ -286,7 +286,6 @@ AtlasLocale = {
 	["Westfall"] = "Marche de l'Ouest";
 	["Zangarmarsh"] = "Marécage de Zangar";
 
-
 --************************************************
 -- Kalimdor Instance Data
 --************************************************
@@ -751,8 +750,7 @@ AtlasLocale = {
 	["Viewing Room Key"] = "Clé de la Chambre des visions";
 	["Viewing Room"] = "Chambre des visions";
 	["Blood of Innocents"] = "Sang des innocents";
-	["Kirtonos"] = "Kirtonos";
-	["Divination Scryer (Darkreaver)"] = "Clairvoyant (Ravassombre)";
+	["Divination Scryer"] = "Clairvoyant";
 	["Darkreaver"] = "Ravassombre";
 	["Blood Steward of Kirtonos"] = "Régisseuse sanglante de Kirtonos";
 	["The Deed to Southshore"] = "Titre de propriété d'Austrivage";
@@ -804,7 +802,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "Clé des boîtes à lettres";
 	["Living Side"] = "Coté Phalange";
 	["Undead Side"] = "Coté Baron";
-	["Postmaster"] = "Postier";
 	["Skul"] = "Krân";
 	["Stratholme Courier"] = "Messager de Stratholme";
 	["Fras Siabi"] = "Fras Siabi";
@@ -1010,7 +1007,6 @@ AtlasLocale = {
 	["Nightbane"] = "Plaie-de-nuit";
 
 	--Karazhan End
-	["Path to the Broken Stairs"] = "Chemin vers l'Escalier brisé";
 	["Broken Stairs"] = "L'Escalier brisé";
 	["Ramp to Guardian's Library"] = "Rampe vers la Bibliothèque du Gardien";
 	["Suspicious Bookshelf"] = "Bibliotheque suspecte";
@@ -1136,6 +1132,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar le Crépitant";
 	["Naturalist Bite"] = "Naturaliste Morsure";
 	["Quagmirran"] = "Bourbierreux";
+	["Lord Ahune <The Frost Lord>"] = "Ahune <Le seigneur du Givre>";
 	
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";

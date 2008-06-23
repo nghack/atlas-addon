@@ -3,7 +3,7 @@
 -- Version WoW 2.4.2 (french client)
 -- Sur un travail de Wysiwyg, Trs en 2007
 -- Mise à jour par Kiria
--- le 22/06/2008
+-- le 23/06/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -835,7 +835,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "Boîte de la place des Anciens";
 	["King's Square Postbox"] = "Boîte de la place du Roi";
 	["Fras Siabi's Postbox"] = "Boîte de Fras Siabi";
-	["3rd Box Opened: Postmaster Malown"] = "3ème boîte ouverte : Postier Malown";
+	["3rd Box Opened"] = "3ème boîte ouverte";
+	["Postmaster Malown"] = "Postier Malown";
 	
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <Le contremaître>";

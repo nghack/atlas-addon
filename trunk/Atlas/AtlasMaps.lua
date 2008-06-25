@@ -680,7 +680,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Blackrock Depths"], 1584 };
 		LevelRange = "60-70";
 		MinLevel = "50";
-		PlayerLimit = "10";
+		PlayerLimit = "40";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Hydraxian Waterlords"], FACTION, 749 };

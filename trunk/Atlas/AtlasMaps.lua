@@ -1308,12 +1308,13 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Reservoir Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30623 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Mennu the Betrayer"], NPC, 17941 };
-		{ GREY.."2) "..AtlasLocale["Weeder Greenthumb"], NPC, 17890 };
-		{ GREY.."3) "..AtlasLocale["Skar'this the Heretic"].." ("..AtlasLocale["Heroic"]..")", NPC, 22421 };
-		{ GREY.."4) "..AtlasLocale["Rokmar the Crackler"], NPC, 17991 };
-		{ GREY.."5) "..AtlasLocale["Naturalist Bite"], NPC, 17893 };
-		{ GREY.."6) "..AtlasLocale["Quagmirran"], NPC, 17942 };
+		{ GREY.."1) "..AtlasLocale["Ahune <The Frost Lord>"], NPC, 25740 };
+		{ GREY.."2) "..AtlasLocale["Mennu the Betrayer"], NPC, 17941 };
+		{ GREY.."3) "..AtlasLocale["Weeder Greenthumb"], NPC, 17890 };
+		{ GREY.."4) "..AtlasLocale["Skar'this the Heretic"].." ("..AtlasLocale["Heroic"]..")", NPC, 22421 };
+		{ GREY.."5) "..AtlasLocale["Rokmar the Crackler"], NPC, 17991 };
+		{ GREY.."6) "..AtlasLocale["Naturalist Bite"], NPC, 17893 };
+		{ GREY.."7) "..AtlasLocale["Quagmirran"], NPC, 17942 };
 	};
 	CFRTheUnderbog = {
 		ZoneName = { AtlasLocale["Coilfang Reservoir"]..": "..AtlasLocale["The Underbog"], 3716 };

@@ -50,6 +50,8 @@ v1.12.0
 - added a new sort-by option: type (separating instances and entrances)
 - added a key-binding to force a one-time auto-select, even if the option is disabled
 - added <Angle Bracket Titles> to all appropriate mobs in the Atlas database
+- changed "East" and "West" designations to "Eastern Kingdoms" and "Kalimdor" (Telchar)
+- added Ahune <The Frost Lord> to Slave Pens (Nihlo, Telchar)
 - this is a giant update, my apologies if I've forgotten anything
 
 v1.11.0

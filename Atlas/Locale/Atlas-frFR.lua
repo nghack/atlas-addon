@@ -2,8 +2,8 @@
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
 -- Version WoW 2.4.2 (french client)
 -- Sur un travail de Wysiwyg, Trasher en 2007 / 2008
--- Mise à jour par Kiria
--- le 23/06/2008
+-- Mise à jour par Kiria et Trasher 
+-- le 25/06/2008
 --]]
 
 if ( GetLocale() == "frFR" ) then
@@ -188,7 +188,7 @@ AtlasLocale = {
 	["Workshop"] = "Atelier";
 
 	--Instance names and acronyms
-	["Armory"] = "Armurerie"; ["Armory"] = "Armurerie";
+	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
 	["Black Temple"] = "Temple Noir"; ["BT"] = "BT";
@@ -1133,7 +1133,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar le Crépitant";
 	["Naturalist Bite"] = "Naturaliste Morsure";
 	["Quagmirran"] = "Bourbierreux";
-	["Lord Ahune <The Frost Lord>"] = "Ahune <Le seigneur du Givre>";
+	["Ahune <The Frost Lord>"] = "Ahune <Le seigneur du Givre>";
 	
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";

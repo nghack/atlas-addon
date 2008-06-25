@@ -1,7 +1,7 @@
 ﻿--[[
 -- Atlas  : Localisation Française "frFR" (http://www.atlasmod.com/phpBB3/viewforum.php?f=6)
 -- Version WoW 2.4.2 (french client)
--- Sur un travail de Wysiwyg, Trs en 2007
+-- Sur un travail de Wysiwyg, Trasher en 2007 / 2008
 -- Mise à jour par Kiria
 -- le 23/06/2008
 --]]
@@ -188,7 +188,7 @@ AtlasLocale = {
 	["Workshop"] = "Atelier";
 
 	--Instance names and acronyms
-	["Armory"] = "Armurerie"; ["Armory"] = "Armory";
+	["Armory"] = "Armurerie"; ["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
 	["Black Temple"] = "Temple Noir"; ["BT"] = "BT";
@@ -1291,7 +1291,7 @@ AtlasLocale = {
 	["Artificer Morphalius"] = "Artificier Morphalius";
 	["Mamdy the \"Ologist\""] = "Mamdy \"l'Ologiste\"";
 	["\"Slim\" <Shady Dealer>"] = "\"Mince\" <Marchand douteux>";
-["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz"; -- attente de confirmation par l'equipe de trad.
+	["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz";
 	["Isfar"] = "Isfar";
 	["Field Commander Mahfuun"] = "Commandant Mahfuun";
 	["Spy Grik'tha"] = "Espionne Grik'tha";

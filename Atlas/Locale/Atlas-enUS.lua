@@ -201,7 +201,7 @@ AtlasLocale = {
 	["West"] = "West";
 	
 	--Instance names and acronyms
-	["Armory"] = "Armory"; ["Armory"] = "Armory";
+	["Armory"] = "Armory";
 	["Auchenai Crypts"] = "Auchenai Crypts"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
 	["Black Temple"] = "Black Temple"; ["BT"] = "BT";
@@ -1144,7 +1144,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar the Crackler";
 	["Naturalist Bite"] = "Naturalist Bite";
 	["Quagmirran"] = "Quagmirran";
-	["Lord Ahune <The Frost Lord>"] = "Lord Ahune <The Frost Lord>";
+	["Ahune <The Frost Lord>"] = "Ahune <The Frost Lord>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";

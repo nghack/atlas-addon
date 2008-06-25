@@ -1071,7 +1071,7 @@ AtlasLocale = {
 	["Scrying Orb"] = "Orbe de divination";
 	["Kalecgos"] = "Kalecgos";
 	["Priestess Delrissa"] = "Prêtresse Delrissa";
-	["Kael'Thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Haut-soleil <Seigneur des elfes de sang>";
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Haut-soleil <Seigneur des elfes de sang>";
 
 	--Sunwell Plateau
 	["Kalecgos"] = "Kalecgos";

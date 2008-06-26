@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/22/2008
+-- Last Update : 6/26/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1129,7 +1129,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "巨钳鲁克玛尔";
 	["Naturalist Bite"] = "博学者拜特";
 	["Quagmirran"] = "夸格米拉";
-	["Lord Ahune <The Frost Lord>"] = "埃霍恩 <冰霜之王>";
+	["Ahune <The Frost Lord>"] = "埃霍恩 <冰霜之王>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "霍加尔芬";

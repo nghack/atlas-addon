@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 03/06/2008
+-- Última Actualización (last update): 27/06/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -160,7 +160,7 @@ AtlasLocale = {
 	["Lower"] = "Abajo";
 	["Lunar"] = "Lunar";
 	["Mage"] = "Mago";
-	["Main"] = "Principal";
+
 	["Meeting Stone"] = "Piedra de encuentro";
 	["Moonwell"] = "Claro de la luna";
 	["North"] = "Norte";
@@ -169,7 +169,7 @@ AtlasLocale = {
 	["Outside"] = "Fuera";
 	["Paladin"] = "Paladín";
 	["Panther"] = "Pantera";
-	["Patrols"] = "Patrulla";
+
 	["Portal"] = "Portal";
 	["Priest"] = "Sacerdote";
 	["Protection Warrior"] = "Guerrero Protección";
@@ -203,7 +203,7 @@ AtlasLocale = {
 	["Warlock"] = "Brujo";
 	["Warrior"] = "Guerrero";
 	["West"] = "Oeste";
-	["Workshop"] = "Tienda de trabajo";
+
 	
 	--Instance names and acronyms
 	["Armory"] = "Armería"; ["Armory"] = "Armería";	
@@ -822,7 +822,7 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "Varias llaves de los buzones";
 	["Living Side"] = "Lado vivo";
 	["Undead Side"] = "Lado no muerto";
-	["Postmaster"] = "Jefe de Correos";
+
 	["Skul"] = "Skul";
 	["Stratholme Courier"] = "Mensajero de Stratholme";
 	["Fras Siabi"] = "Fras Siabi";
@@ -857,6 +857,7 @@ AtlasLocale = {
 	["King's Square Postbox"] = "Buzón de la Plaza del Rey";
 	["Fras Siabi's Postbox"] = "Buzón de Fras Siabi";
 	["3rd Box Opened: Postmaster Malown"] = "Tercera Caja Abierta: Jefe de correos Gassol";
+	["Postmaster Malown"] = "Jefe de Correos"; --Check
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <El Supervisor>";
@@ -1028,7 +1029,6 @@ AtlasLocale = {
 	["Nightbane"] = "Nocturno";
 	
 	--Karazhan End
-	["Path to the Broken Stairs"] = "Camino a las Escaleras rotas";
 	["Broken Stairs"] = "Escaleras rotas";
 	["Ramp to Guardian's Library"] = "Rampa a la Biblioteca del Guardián";
 	["Suspicious Bookshelf"] = "Publicaciones sospechosas";
@@ -1095,7 +1095,7 @@ AtlasLocale = {
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael’thas Caminante del Sol <Señor de los elfos de sangre>";
 
 	--Sunwell Plateau
-	["Kalecgos"] = "Kalecgos";
+
 	["Sathrovarr the Corruptor"] = "Sathrovarr el Corruptor";
 	["Madrigosa"] = "Madrigosa";
 	["Brutallus"] = "Brutallus"; --FALTA
@@ -1154,6 +1154,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar el Crujidor";
 	["Naturalist Bite"] = "Naturalista Mordisco";
 	["Quagmirran"] = "Quagmirran";
+	["Ahune <The Frost Lord>"] = "Ahune <El Señor de la Escarcha>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";

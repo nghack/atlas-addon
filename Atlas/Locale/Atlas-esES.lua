@@ -856,8 +856,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "Buzón de la Plaza de los Ancianos";
 	["King's Square Postbox"] = "Buzón de la Plaza del Rey";
 	["Fras Siabi's Postbox"] = "Buzón de Fras Siabi";
-	["3rd Box Opened: Postmaster Malown"] = "Tercera Caja Abierta: Jefe de correos Gassol";
-	["Postmaster Malown"] = "Jefe de Correos"; --Check
+	["3rd Box Opened"] = "Tercera Caja Abierta";
+	["Postmaster Malown"] = "Jefe de correos Gassol";
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <El Supervisor>";

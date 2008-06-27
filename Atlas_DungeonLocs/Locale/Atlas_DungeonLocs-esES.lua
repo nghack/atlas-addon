@@ -40,9 +40,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "Campos de Batalla";
 	["Blue"] = "Azul";
 	["Dungeon Locations"] = "Lugares de Mazmorras";
-	["East"] = "Este";
 	["Instances"] = "Mazmorras";
-	["West"] = "Oeste";
 	["White"] = "Blanco";
 
 	--Places

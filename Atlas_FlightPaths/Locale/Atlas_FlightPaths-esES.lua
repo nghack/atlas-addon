@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 03/06/2008
+-- Úlltima Actualización (last update): 27/06/2008
 
 --]]
 if ( GetLocale() ==	"esES" ) then
@@ -69,7 +69,6 @@ AtlasFPLocale = {
 	["Durotar"] = "Durotar";
 	["Duskwood"] = "Bosque del Ocaso";
 	["Dustwallow Marsh"] = "Marjal Revolcafango";
-	["East"] = "Este";
 	["Eastern Kingdoms"] = "Las Tierras del Este";
 	["Eastern Plaguelands"] = "Tierras de la Peste del Este";
 	["Elwynn Forest"] = "Bosque de Elwynn";
@@ -183,7 +182,6 @@ AtlasFPLocale = {
 	["Undercity"] = "Entrañas";
 	["Valormok"] = "Valormok";
 	["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
-	["West"] = "Oeste";
 	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
 	["Westfall"] = "Paramos de Poniente";
 	["Wetlands"] = "Los Humedales";

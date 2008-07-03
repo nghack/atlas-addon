@@ -165,7 +165,6 @@ AtlasLocale = {
 	["Lower"] = "Unten";
 	["Lunar"] = "Mondfest";
 	["Mage"] = "Magier";
-	["Main"] = "Haupt";
 	["Meeting Stone"] = "Versammlungsstein";
 	["Moonwell"] = "Mondbrunnen";
 	["North"] = "Nord";
@@ -174,7 +173,6 @@ AtlasLocale = {
 	["Outside"] = "Außerhalb";
 	["Paladin"] = "Paladin";
 	["Panther"] = "Panther";
-	["Patrols"] = "Patrouilliert";
 	["Portal"] = "Portal";
 	["Priest"] = "Priester";
 	["Protection Warrior"] = "Defensiv Krieger";
@@ -208,10 +206,9 @@ AtlasLocale = {
 	["Warlock"] = "Hexenmeister";
 	["Warrior"] = "Krieger";
 	["West"] = "West";
-	["Workshop"] = "Werkstatt";
 
 	--Instance names and acronyms
-	["Armory"] = "Waffenkammer"; ["Armory"] = "Waffenkammer";
+	["Armory"] = "Waffenkammer";
 	["Auchenai Crypts"] = "Auchenaikrypta"; ["AC"] = "Krypta";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
 	["Black Temple"] = "Der Schwarze Tempel"; ["BT"] = "BT";
@@ -773,9 +770,7 @@ AtlasLocale = {
 	["Viewing Room Key"] = "Schlüssel zum Vorführraum";
 	["Viewing Room"] = "Vorführraum";
 	["Blood of Innocents"] = "Das Blut Unschuldiger";
-	["Kirtonos"] = "Kirtonos";
 	["Divination Scryer"] = "Orakel der Anrufung";
-	["Darkreaver"] = "Schattensichel";
 	["Blood Steward of Kirtonos"] = "Blutdiener von Kirtonos";
 	["The Deed to Southshore"] = "Die Besitzurkunde für Süderstade";
 	["Kirtonos the Herald"] = "Kirtonos der Herold";
@@ -826,7 +821,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "Verschiedene Briefkastenschlüssel";
 	["Living Side"] = "Seite der Lebenden";
 	["Undead Side"] = "Seite der Untoten";
-	["Postmaster"] = "Postmeister";
 	["Skul"] = "Skul";
 	["Stratholme Courier"] = "Kurier von Stratholme";
 	["Fras Siabi"] = "Fras Siabi";
@@ -860,7 +854,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "Briefkasten am Ältestenplatz";
 	["King's Square Postbox"] = "Briefkasten am Königsplatz";
 	["Fras Siabi's Postbox"] = "Fras Siabis Briefkasten";
-	["3rd Box Opened: Postmaster Malown"] = "3. Geöffneter Briefkasten: Postmeister Malown";
+	["3rd Box Opened"] = "Dritter geöffneter Briefkasten";
+	["Postmaster Malown"] = "Postmeister Malown";
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <Der Großknecht>";
@@ -991,7 +986,7 @@ AtlasLocale = {
 	["Stairs to Opera House Orchestra Level"] = "Treppen zur Opernhaus Orchester Ebene";
 	["Ramp from Mezzanine to Balcony"] = "Rampe vom Zwischengeschoss zum Balkon";
 	["Connection to Master's Terrace"] = "Verbindung zur Terrasse des Meisters";
-	["Path to the Broken Stairs"] = "Weg zur Beschädigten Treppe";
+	["Path to the Broken Stairs"] = "Weg zur Beschädigten Treppe";--omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "Hastings <Der Hauswart>";
 	["Servant Quarters"] = "Quartier der Diener";
 	["Hyakiss the Lurker"] = "Hyakiss der Lauerer";
@@ -1032,7 +1027,6 @@ AtlasLocale = {
 	["Nightbane"] = "Schrecken der Nacht";
 
 	--Karazhan End
-	["Path to the Broken Stairs"] = "Weg zur Beschädigten Treppe";
 	["Broken Stairs"] = "Beschädigte Treppe";
 	["Ramp to Guardian's Library"] = "Rampe zur Bibliothek der Beschützer";
 	["Suspicious Bookshelf"] = "Verdächtiges Bücherregal";
@@ -1094,12 +1088,11 @@ AtlasLocale = {
 	["Tyrith"] = "Tyrith";
 	["Vexallus"] = "Vexallus";
 	["Scrying Orb"] = "Seherkugel";
-	["Kalecgos"] = "Kalecgos";
+	["Kalecgos"] = "Kalecgos";--omitted from SP
 	["Priestess Delrissa"] = "Priesterin Delrissa";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Sonnenwanderer <Fürst der Blutelfen>";--omitted from TK: The Eye
 
 	--Sunwell Plateau
-	["Kalecgos"] = "Kalecgos";
 	["Sathrovarr the Corruptor"] = "Sathrovarr der Verderber";
 	["Madrigosa"] = "Madrigosa";
 	["Brutallus"] = "Brutallus";
@@ -1158,6 +1151,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "Rokmar der Zerquetscher";
 	["Naturalist Bite"] = "Naturalist Biss";
 	["Quagmirran"] = "Quagmirran";
+	["Ahune <The Frost Lord>"] = "Ahune <Der Frostfürst>";
 
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfenn";

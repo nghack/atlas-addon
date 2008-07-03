@@ -30,9 +30,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "Schlachtfelder";
 	["Blue"] = "Blau";
 	["Dungeon Locations"] = "Instanzen-Standorte";
-	["East"] = "Ost";
 	["Instances"] = "Instanzen";
-	["West"] = "West";
 	["White"] = "Weiß";
 
 	--Places

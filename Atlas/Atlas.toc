@@ -7,6 +7,7 @@
 ## Notes-zhTW: 副本地圖集, 瀏覽各副本、戰場地圖以及飛行地圖
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
+## Notes-ruRU: Обозреватель подземелий
 ## Version: 1.12.0
 ## X-Date: June, 2008
 ## Author: Dan Gilbert
@@ -23,7 +24,7 @@ Locale\Atlas-frFR.lua
 Locale\Atlas-zhCN.lua
 Locale\Atlas-esES.lua
 Locale\Atlas-zhTW.lua
-
+Locale\Atlas-ruRU.lua
 AtlasMaps.lua
 
 AtlasDropDown.lua

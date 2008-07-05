@@ -25,9 +25,9 @@
 --[[
 
 -- Atlas Data (Russian)
--- Compiled by Dan Gilbert
--- loglow@gmail.com
--- Last Update: haha
+-- Compiled by Eugene Filatov
+-- dadesign@mail.ru
+-- Last Update: 05.07.2008
 
 --]]
 

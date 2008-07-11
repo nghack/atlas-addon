@@ -114,7 +114,7 @@ AtlasBGLocale = {
 	["Guse's Beacon"] = "古斯的信號燈";
 	["Graveyards, Capturable Areas"] = "墓地, 可佔領的地區";--omitted from AVS
 	["Bunkers, Towers, Destroyable Areas"] = "碉堡, 哨塔, 可摧毀的地區";--omitted from AVS
-	["Assault NPCs, Quest Areas"] = "相關 NPCs, 任務地區";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "突擊 NPCs, 任務地區";--omitted from AVS
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "霜狼氏族";

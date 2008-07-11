@@ -29,9 +29,7 @@ AtlasDLLocale = {
 	["Battlegrounds"] = "戰場";
 	["Blue"] = "藍";
 	["Dungeon Locations"] = "地下城位置";
-	["East"] = "東";
 	["Instances"] = "副本";
-	["West"] = "西";
 	["White"] = "灰";
 
 	--Places
@@ -128,5 +126,6 @@ AtlasDLLocale = {
 	["Zul'Aman"] = "祖阿曼";
 	["Zul'Farrak"] = "祖爾法拉克";
 	["Zul'Gurub"] = "祖爾格拉布";
+
 };
 end

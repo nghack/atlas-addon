@@ -22,14 +22,11 @@
 
 --]]
 
---[[
-
 -- Atlas English Localization
 -- Compiled by Dan Gilbert
 -- loglow@gmail.com
 -- Many thanks to all contributors!
 
---]]
 if ( GetLocale() ==	"zhTW" ) then
 --************************************************
 -- Global Atlas Strings
@@ -162,7 +159,6 @@ AtlasLocale = {
 	["Lower"] = "下層";
 	["Lunar"] = "新年慶典";
 	["Mage"] = "法師";
-	["Main"] = "主要";
 	["Meeting Stone"] = "集合石";
 	["Moonwell"] = "月井";
 	["North"] = "北方";
@@ -171,7 +167,6 @@ AtlasLocale = {
 	["Outside"] = "戶外";
 	["Paladin"] = "聖騎士";
 	["Panther"] = "黑豹";
-	["Patrols"] = "巡邏";
 	["Portal"] = "入口/傳送門";
 	["Priest"] = "牧師";
 	["Protection Warrior"] = "防戰";
@@ -205,10 +200,9 @@ AtlasLocale = {
 	["Warlock"] = "術士";
 	["Warrior"] = "戰士";
 	["West"] = "西方";
-	["Workshop"] = "車間";
 
 	--Instance names and acronyms
-	["Armory"] = "軍械庫"; ["Armory"] = "軍械庫";
+	["Armory"] = "軍械庫"; 
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
 	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT";
@@ -277,7 +271,7 @@ AtlasLocale = {
 	--Outdoor zones, Locations
 	["Ashenvale"] = "梣谷";
 	["Badlands"] = "荒蕪之地";
-	["Blackrock Mountain"] = "黑石山";
+	["Blackrock Mountain"] = "黑石山"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "劍刃山脈";
 	["Burning Steppes"] = "燃燒平原";
 	["Deadwind Pass"] = "逆風小徑";
@@ -421,7 +415,7 @@ AtlasLocale = {
 	
 	--Dire Maul (North)
 	["Crescent Key"] = "月牙鑰匙";--omitted from Dire Maul (West)
-	--["Library"] = "圖書館";--omitted from Dire Maul (West)
+	--"Library" omitted from here and DM West because of SM: "Library" duplicate
 	["Guard Mol'dar"] = "衛兵摩爾達";
 	["Stomper Kreeg <The Drunk>"] = "踐踏者克雷格";
 	["Guard Fengus"] = "衛兵芬古斯";
@@ -770,9 +764,7 @@ AtlasLocale = {
 	["Viewing Room Key"] = "鑰匙: 觀察室鑰匙";
 	["Viewing Room"] = "觀察室";
 	["Blood of Innocents"] = "鑰匙: 無辜者之血";
-	["Kirtonos"] = "基爾圖諾斯";
 	["Divination Scryer"] = "鑰匙: 預言水晶球";
-	["Darkreaver"] = "達克雷爾";
 	["Blood Steward of Kirtonos"] = "基爾圖諾斯的衛士";
 	["The Deed to Southshore"] = "南海鎮地契";
 	["Kirtonos the Herald"] = "傳令官基爾圖諾斯";
@@ -823,7 +815,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "郵箱鑰匙";
 	["Living Side"] = "血色區";
 	["Undead Side"] = "不死區";
-	["Postmaster"] = "郵差";
 	["Skul"] = "斯庫爾";
 	["Stratholme Courier"] = "斯坦索姆信差";
 	["Fras Siabi"] = "弗拉斯·希亞比";
@@ -857,7 +848,8 @@ AtlasLocale = {
 	["Elders' Square Postbox"] = "長者廣場郵箱";
 	["King's Square Postbox"] = "國王廣場郵箱";
 	["Fras Siabi's Postbox"] = "弗拉斯·希亞比的郵箱";
-	["3rd Box Opened: Postmaster Malown"] = "第三個郵箱被開啟: 郵差瑪羅恩";
+	["3rd Box Opened"] = "第三個郵箱被開啟";
+	["Postmaster Malown"] = "郵差瑪羅恩";
 
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "拉克佐";
@@ -988,7 +980,7 @@ AtlasLocale = {
 	["Stairs to Opera House Orchestra Level"] = "通往歌劇院樂團層的樓梯";
 	["Ramp from Mezzanine to Balcony"] = "夾層至包廂的斜坡";
 	["Connection to Master's Terrace"] = "通往大師的露台";
-	["Path to the Broken Stairs"] = "通往損壞的階梯";
+	["Path to the Broken Stairs"] = "通往損壞的階梯";--omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "哈斯丁";
 	["Servant Quarters"] = "伺從區";
 	["Hyakiss the Lurker"] = "潛伏者亞奇斯";
@@ -1029,7 +1021,6 @@ AtlasLocale = {
 	["Nightbane"] = "夜禍";
 	
 	--Karazhan End
-	["Path to the Broken Stairs"] = "通往損壞的階梯";
 	["Broken Stairs"] = "損壞的階梯";
 	["Ramp to Guardian's Library"] = "通往管理員圖書館的斜坡";
 	["Suspicious Bookshelf"] = "神秘的書架";
@@ -1091,12 +1082,11 @@ AtlasLocale = {
 	["Tyrith"] = "提里斯";
 	["Vexallus"] = "維克索魯斯";
 	["Scrying Orb"] = "索蘭尼亞的占卜寶珠";
-	["Kalecgos"] = "卡雷苟斯";
+	["Kalecgos"] = "卡雷苟斯";--omitted from SP
 	["Priestess Delrissa"] = "女牧師戴利莎";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凱爾薩斯·逐日者";--omitted from TK: The Eye
 
 	--Sunwell Plateau
-	["Kalecgos"] = "卡雷苟斯";
 	["Sathrovarr the Corruptor"] = "『墮落者』塞斯諾瓦";
 	["Madrigosa"] = "瑪德里茍沙";
 	["Brutallus"] = "布魯托魯斯";
@@ -1155,6 +1145,7 @@ AtlasLocale = {
 	["Rokmar the Crackler"] = "爆破者洛克瑪";
 	["Naturalist Bite"] = "博物學家·拜特";
 	["Quagmirran"] = "奎克米瑞";
+	["Ahune <The Frost Lord>"] = "艾胡恩";
 
 	--CR: The Underbog
 	["Hungarfen"] = "飢餓之牙";

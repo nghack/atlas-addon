@@ -10,7 +10,7 @@
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 野外團隊會戰地圖，顯示各世界首領地理位置圖
 ## Version: 1.12.0
-## X-Date: June, 2008
+## X-Date: July, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

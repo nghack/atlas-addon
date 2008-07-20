@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -48,7 +48,7 @@ AtlasBGLocale = {
 	["Arathi Highlands"] = "Hautes-Terres d'Arathi";
 	["Ashenvale"] = "Orneval";
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
-	["Eye of the Storm"] = "L'Œil du Cyclone"; ["EotS"] = "EotS/L'Œil";
+	["Eye of the Storm"] = "L'Œil du cyclone"; ["EotS"] = "EotS/L'Œil";
 	["Hillsbrad Foothills"] = "Contreforts de Hautebrande";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Raz-de-Néant";

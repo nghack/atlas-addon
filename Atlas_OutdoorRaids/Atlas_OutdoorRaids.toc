@@ -1,8 +1,10 @@
 ## Interface: 20400
 ## Title: Atlas |r|cFF0099FF[Outdoor Raids]|r
+## Title-ruRU: Атлас |r|cFF0099FF[Внешние Рейды]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 團隊會戰
 ## Title-zhCN: Atlas |r|cFF0099FF[户外首领分布图]|r
 ## Notes: Outdoor Raid Encounters
+## Notes-ruRU: Места внешних рейдовых схваток
 ## Notes-deDE: Außenweltschlachtzüge
 ## Notes-esES: Encuentros Raid
 ## Notes-frFR: Rencontres de Raid
@@ -18,6 +20,7 @@
 ## RequiredDeps: Atlas
 
 Locale\Atlas_OutdoorRaids-enUS.lua
+Locale\Atlas_OutdoorRaids-ruRU.lua
 Locale\Atlas_OutdoorRaids-frFR.lua
 Locale\Atlas_OutdoorRaids-deDE.lua
 Locale\Atlas_OutdoorRaids-zhCN.lua

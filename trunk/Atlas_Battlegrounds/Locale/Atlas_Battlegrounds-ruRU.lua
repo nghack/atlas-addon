@@ -28,33 +28,33 @@ AtlasBGLocale = {
 
 	--Common
 	["Alliance"] = "Альянс";
-	["Battleground Maps"] = "Карты Боевых площадок";
+	["Battleground Maps"] = "Карты Полей Сражений";
 	["Entrance"] = "Вход";
 	["Horde"] = "Орда";
-	["Neutral"] = "Neutral";
+	["Neutral"] = "Нейтральный";
 	["North"] = "Севег";
 	["Orange"] = "Оранжевый";
 	["Red"] = "Красный";
-	["Rep"] = "Rep";
+	["Rep"] = "Реп";
 	["Rescued"] = "Rescued";
 	["South"] = "Юг";
-	["Summon"] = "Summon";
+	["Summon"] = "Призыв";
 	["White"] = "Белый";
 	
 	--Places
-	["Alterac Mountains"] = "Alterac Mountains";
-	["Alterac Valley"] = "Alterac Valley"; ["AV"] = "AV";
-	["Arathi Basin"] = "Arathi Basin"; ["AB"] = "AB";
-	["Arathi Highlands"] = "Arathi Highlands";
-	["Ashenvale"] = "Ashenvale";
-	["Eastern Kingdoms"] = "Eastern Kingdoms";
-	["Eye of the Storm"] = "Eye of the Storm"; ["EotS"] = "EotS";
-	["Hillsbrad Foothills"] = "Hillsbrad Foothills";
-	["Kalimdor"] = "Kalimdor";
-	["Netherstorm"] = "Netherstorm";
-	["Outland"] = "Outland";
-	["The Barrens"] = "The Barrens";
-	["Warsong Gulch"] = "Warsong Gulch"; ["WSG"] = "WSG";
+	["Alterac Mountains"] = "Альтеракские горы";
+	["Alterac Valley"] = "Альтеракская долина"; ["AV"] = "AV";
+	["Arathi Basin"] = "Низина Арати"; ["AB"] = "AB";
+	["Arathi Highlands"] = "Нагорье Арати";
+	["Ashenvale"] = "Ясеневый лес";
+	["Eastern Kingdoms"] = "Восточные королевства";
+	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "EotS";
+	["Hillsbrad Foothills"] = "Старые Предгорья Хилсбрада";
+	["Kalimdor"] = "Калимдор";
+	["Netherstorm"] = "Пустоверть";
+	["Outland"] = "Запределье";
+	["The Barrens"] = "Степи";
+	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "WSG";
 	
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Stormpike Guard";
@@ -163,13 +163,13 @@ AtlasBGLocale = {
 
 	--Warsong Gulch
 	["Warsong Outriders"] = "Warsong Outriders";
-	["Silverwing Sentinels"] = "Silverwing Sentinels";
+	["Silverwing Sentinels"] = "Среброкрылые Часовые";
 	["Silverwing Hold"] = "Silverwing Hold";
 	["Warsong Lumber Mill"] = "Warsong Lumber Mill";
 
 	--Eye of the Storm
-	["Graveyard"] = "Graveyard";
-	["Flag"] = "Flag";
+	["Graveyard"] = "Кладбище";
+	["Flag"] = "Флаг";
 	["Mage Tower"] = "Mage Tower";
 	["Draenei Ruins"] = "Draenei Ruins";
 	["Fel Reaver Ruins"] = "Fel Reaver Ruins";

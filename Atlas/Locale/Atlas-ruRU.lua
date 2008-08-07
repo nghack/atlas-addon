@@ -833,23 +833,23 @@ AtlasLocale = {
 	["Postmaster Malown"] = "Postmaster Malown";
 
 	--The Deadmines
-	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <The Foreman>";
-	["Miner Johnson"] = "Miner Johnson";
-	["Sneed <Lumbermaster>"] = "Sneed <Lumbermaster>";
-	["Sneed's Shredder <Lumbermaster>"] = "Sneed's Shredder <Lumbermaster>";
-	["Gilnid <The Smelter>"] = "Gilnid <The Smelter>";
-	["Defias Gunpowder"] = "Defias Gunpowder";
-	["Captain Greenskin"] = "Captain Greenskin";
-	["Edwin VanCleef <Defias Kingpin>"] = "Edwin VanCleef <Defias Kingpin>";
-	["Mr. Smite <The Ship's First Mate>"] = "Mr. Smite <The Ship's First Mate>";
-	["Cookie <The Ship's Cook>"] = "Cookie <The Ship's Cook>";
+	["Rhahk'Zor <The Foreman>"] = "Рак'Зор <Штейгер>";
+	["Miner Johnson"] = "Шахтер Джонсон";
+	["Sneed <Lumbermaster>"] = "Снид <Начальник Лесозаготовки>";
+	["Sneed's Shredder <Lumbermaster>"] = "Крошшер Снида <Начальник Лесозаготовки>";
+	["Gilnid <The Smelter>"] = "Гилнид <Литейщик>";
+	["Defias Gunpowder"] = " Порох Братства Справедливости";
+	["Captain Greenskin"] = "Капитан Зеленямс";
+	["Edwin VanCleef <Defias Kingpin>"] = "Эдвин ван Клиф <Главарь Братства Справедливости>";
+	["Mr. Smite <The Ship's First Mate>"] = "Мистер Каюк <Первый помощник капитана>";
+	["Cookie <The Ship's Cook>"] = "Пирожок <Корабельный кок>";
 	
 	--The Stockade
-	["Targorr the Dread"] = "Targorr the Dread";
-	["Kam Deepfury"] = "Kam Deepfury";
-	["Hamhock"] = "Hamhock";
-	["Bazil Thredd"] = "Bazil Thredd";
-	["Dextren Ward"] = "Dextren Ward";
+	["Targorr the Dread"] = "Таргорр Ужасный";
+	["Kam Deepfury"] = "Кам Гневливый";
+	["Hamhock"] = "Хрупконог";
+	["Bazil Thredd"] = "Базиль Тредд";
+	["Dextren Ward"] = "Декстрен Вард";
 	["Bruegal Ironknuckle"] = "Bruegal Ironknuckle";
 
 	--The Sunken Temple
@@ -1321,9 +1321,9 @@ AtlasLocale = {
 	["Cavindra"] = "Cavindra";
 
 	--The Deadmines (Entrance)
-	["Marisa du'Paige"] = "Marisa du'Paige";
+	["Marisa du'Paige"] = "Мариса дю Пэж";
 	["Brainwashed Noble"] = "Brainwashed Noble";
-	["Foreman Thistlenettle"] = "Foreman Thistlenettle";
+	["Foreman Thistlenettle"] = "Штейгер Чертополох";
 
 	--Sunken Temple (Entrance)
 	["Jade"] = "Jade";

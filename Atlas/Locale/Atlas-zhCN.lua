@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/26/2008
+-- Last Update : 8/9/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -186,7 +186,8 @@ AtlasLocale = {
 	["West"] = "西区";
 
 	--Instance names and acronyms
-	["Armory"] = "军械库"; --["Armory"] = "Armory";
+	["Ahn'Qiraj"] = "安其拉"; ["AQ"] = "AQ";
+	["Armory"] = "军械库";
 	["Auchenai Crypts"] = "奥金尼地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奥金顿"; ["Auch"] = "Auch";
 	["Black Temple"] = "黑暗神殿"; ["BT"] = "BT";
@@ -613,6 +614,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "罗克诺特下士";
 	["Ribbly Screwspigot"] = "雷布里·斯库比格特";
 	["Coren Direbrew"] = "科林·烈酒";
+	["Griz Gutshank <Arena Vendor>"] = "格里兹·加特沙克 <竞技场商人>";
 	["Ambassador Flamelash"] = "弗莱拉斯大使";
 	["Panzor the Invincible"] = "无敌的潘佐尔";
 	["Summoner's Tomb"] = "召唤者之墓";

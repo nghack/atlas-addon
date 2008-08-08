@@ -635,6 +635,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "Gefreiter Rocknot";
 	["Ribbly Screwspigot"] = "Ribbly Schraubstutz";
 	["Coren Direbrew"] = "Coren Düsterbräu";
+	["Griz Gutshank <Arena Vendor>"] = "Griz Mummwinkel <Arenaverkäufer>";
 	["Ambassador Flamelash"] = "Botschafter Flammenschlag";
 	["Panzor the Invincible"] = "Panzor der Unbesiegbare";
 	["Summoner's Tomb"] = "Grab des Beschwörers";

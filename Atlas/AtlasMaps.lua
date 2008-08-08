@@ -536,6 +536,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Private Rocknot"], NPC, 9503 };
 		{ GREY..INDENT..AtlasLocale["Ribbly Screwspigot"], NPC, 9543 };
 		{ GREY..INDENT..AtlasLocale["Coren Direbrew"].." ("..AtlasLocale["Brewfest"]..")", NPC, 23872 };
+		{ GREY..INDENT..AtlasLocale["Griz Gutshank <Arena Vendor>"], NPC, 28225 };
 		{ GREY.."16) "..AtlasLocale["Ambassador Flamelash"], NPC, 9156 };
 		{ GREY.."17) "..AtlasLocale["Panzor the Invincible"].." ("..AtlasLocale["Rare"]..")", NPC, 8923 };
 		{ GREY..INDENT..AtlasLocale["Blacksmithing Plans"], OBJECT, 173232 };

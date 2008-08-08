@@ -2,6 +2,9 @@
 = Change Log =
 ==============
 
+v1.12.1
+- added 'Griz Gutshank' to BRD
+
 v1.12.0
 - changed the Atlas data format to include GUID information (no in-game change)
 - changed the frame strata back to MEDIUM so Atlas can cover/be-covered-by other windows

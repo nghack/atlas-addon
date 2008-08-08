@@ -628,6 +628,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "Private Rocknot";
 	["Ribbly Screwspigot"] = "Ribbly Screwspigot";
 	["Coren Direbrew"] = "Coren Direbrew";
+	["Griz Gutshank <Arena Vendor>"] = "Griz Gutshank <Arena Vendor>";
 	["Ambassador Flamelash"] = "Ambassador Flamelash";
 	["Panzor the Invincible"] = "Panzor the Invincible";
 	["Summoner's Tomb"] = "Summoner's Tomb";

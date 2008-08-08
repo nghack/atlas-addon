@@ -11,8 +11,8 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 航線地圖集，顯示兩大陣營在東西大陸及外域的飛行路徑
-## Version: 1.12.0
-## X-Date: July, 2008
+## Version: 1.12.1
+## X-Date: August, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

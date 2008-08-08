@@ -9,8 +9,8 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Version: 1.12.0
-## X-Date: July, 2008
+## Version: 1.12.1
+## X-Date: August, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

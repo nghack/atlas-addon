@@ -3,6 +3,7 @@
 ==============
 
 v1.12.1
+- added 'Ahn'Qiraj' and 'Blackrock Mountain' as a prefix for the instances within them
 - added 'Griz Gutshank' to BRD
 
 v1.12.0

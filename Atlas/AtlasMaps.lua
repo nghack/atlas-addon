@@ -297,7 +297,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Onyxia"], NPC, 10184 };
 	};
 	TheTempleofAhnQiraj = {
-		ZoneName = { AtlasLocale["Temple of Ahn'Qiraj"], 3428 };
+		ZoneName = { AtlasLocale["Ahn'Qiraj"]..": "..AtlasLocale["Temple of Ahn'Qiraj"], 3428 };
 		Acronym = AtlasLocale["AQ40"];
 		Location = { AtlasLocale["Silithus"], 1377 };
 		LevelRange = "60-70";
@@ -329,7 +329,7 @@ AtlasMaps = {
 		{ GREN..INDENT..AtlasLocale["Merithra of the Dream"], NPC, 15378 };
 	};
 	TheRuinsofAhnQiraj = {
-		ZoneName = { AtlasLocale["Ruins of Ahn'Qiraj"], 3429 };
+		ZoneName = { AtlasLocale["Ahn'Qiraj"]..": "..AtlasLocale["Ruins of Ahn'Qiraj"], 3429 };
 		Acronym = AtlasLocale["AQ20"];
 		Location = { AtlasLocale["Silithus"], 1377 };
 		LevelRange = "60-70";
@@ -480,9 +480,9 @@ AtlasMaps = {
 --************************************************
 	
 	BlackrockDepths = {
-		ZoneName = { AtlasLocale["Blackrock Depths"], 1584 };
+		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackrock Depths"], 1584 };
 		Acronym = AtlasLocale["BRD"];
-		Location = { AtlasLocale["Blackrock Mountain"], 25 };
+		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "52-58";
 		MinLevel = "40";
 		PlayerLimit = "5";
@@ -553,9 +553,9 @@ AtlasMaps = {
 		{ GREY.."25) "..AtlasLocale["Blacksmithing Plans"], OBJECT, 173232 };
 	};
 	BlackrockSpireLower = {
-		ZoneName = { AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Lower"]..")", 1583 };
+		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Lower"]..")", 1583 };
 		Acronym = AtlasLocale["LBRS"];
-		Location = { AtlasLocale["Blackrock Mountain"], 25 };
+		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "54-60";
 		MinLevel = "45";
 		PlayerLimit = "10";
@@ -594,9 +594,9 @@ AtlasMaps = {
 		{ GREN.."1') "..AtlasLocale["Burning Felguard"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Summon"]..")", NPC, 10263 };
 	};
 	BlackrockSpireUpper = {
-		ZoneName = { AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Upper"]..")", 1583 };
+		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Upper"]..")", 1583 };
 		Acronym = AtlasLocale["UBRS"];
-		Location = { AtlasLocale["Blackrock Mountain"], 25 };
+		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "56-61";
 		MinLevel = "45";
 		PlayerLimit = "10";
@@ -624,9 +624,9 @@ AtlasMaps = {
 		{ GREY.."10) "..AtlasLocale["Blackwing Lair"], ZONE, 2677 };
 	};
 	BlackwingLair = {
-		ZoneName = { AtlasLocale["Blackwing Lair"], 2677 };
+		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackwing Lair"], 2677 };
 		Acronym = AtlasLocale["BWL"];
-		Location = { AtlasLocale["Blackrock Spire"], 1583 };
+		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "60-70";
 		MinLevel = "60";
 		PlayerLimit = "40";
@@ -676,9 +676,9 @@ AtlasMaps = {
 		{ GREY.."8) "..AtlasLocale["Mekgineer Thermaplugg"], NPC, 7800 };
 	};
 	MoltenCore = {
-		ZoneName = { AtlasLocale["Molten Core"], 2717 };
+		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Molten Core"], 2717 };
 		Acronym = AtlasLocale["MC"];
-		Location = { AtlasLocale["Blackrock Depths"], 1584 };
+		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "60-70";
 		MinLevel = "50";
 		PlayerLimit = "40";

@@ -615,6 +615,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "Soldat Rochenoeud";
 	["Ribbly Screwspigot"] = "Ribbly Fermevanne";
 	["Coren Direbrew"] = "Coren Navrebière";
+	["Griz Gutshank <Arena Vendor>"] = "Griz Cannebide <Vendeur de l'arène>";
 	["Ambassador Flamelash"] = "Ambassadeur Cinglefouet";
 	["Panzor the Invincible"] = "Panzor l'Invincible";
 	["Summoner's Tomb"] = "La tombe des invocateurs";

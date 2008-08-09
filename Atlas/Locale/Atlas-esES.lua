@@ -206,6 +206,7 @@ AtlasLocale = {
 
 	
 	--Instance names and acronyms
+	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armería"; ["Armory"] = "Armería";	
 	["Auchenai Crypts"] = "Criptas Auchenai"; ["AC"] = "CA";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
@@ -633,6 +634,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "Soldado Sinrroca";
 	["Ribbly Screwspigot"] = "Ribbly Llavenrosca";
 	["Coren Direbrew"] = "Coren Brebaje Temible";
+	["Griz Gutshank <Arena Vendor>"] = "Griz Gutshank <Arena Vendor>"; --Fix
 	["Ambassador Flamelash"] = "Embajador Latifuego";
 	["Panzor the Invincible"] = "Panzor el Invencible";
 	["Summoner's Tomb"] = "Tumba del Invocador";

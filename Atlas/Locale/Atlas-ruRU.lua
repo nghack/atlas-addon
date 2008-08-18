@@ -87,8 +87,8 @@ ATLAS_ENTRANCE_BUTTON = "Вход";
 ATLAS_SEARCH_UNAVAIL = "Поиск недоступен";
 
 AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
-	["Ahn'Qiraj"]					= "Храм Атал'Хаккара";
+	["The Temple of Atal'Hakkar"]	= "Храм Аталхаккара";
+	["Ahn'Qiraj"]					= "Храм Ан'Киража";
 	["Karazhan"]					= "Каражан [A] (Начало)";
 	["Black Temple"]				= "Черный храм [A] (Начало)";
 }; 
@@ -1262,13 +1262,13 @@ AtlasLocale = {
 	["Teron Gorefiend"] = "Teron Gorefiend";
 
 	--Black Temple (Top)
-	["Mother Shahraz"] = "Mother Shahraz";
-	["The Illidari Council"] = "The Illidari Council";
-	["Lady Malande"] = "Lady Malande";
-	["Gathios the Shatterer"] = "Gathios the Shatterer";
-	["High Nethermancer Zerevor"] = "High Nethermancer Zerevor";
-	["Veras Darkshadow"] = "Veras Darkshadow";
-	["Illidan Stormrage <The Betrayer>"] = "Illidan Stormrage <The Betrayer>";
+	["Mother Shahraz"] = "Матушка Шахраз";
+	["The Illidari Council"] = "Совет Иллидари";
+	["Lady Malande"] = "Леди Маланда";
+	["Gathios the Shatterer"] = "Гатиос Изувер";
+	["High Nethermancer Zerevor"] = "Верховный пустомант Зеревор";
+	["Veras Darkshadow"] = "Верас Глубокий Мрак";
+	["Illidan Stormrage <The Betrayer>"] = "Иллидан Ярость Бури <Отступник>";
 
 --************************************************
 -- Instance Entrance Maps
@@ -1358,22 +1358,22 @@ AtlasLocale = {
 	["Elder Mistwalker"] = "Elder Mistwalker";
 
 	--Caverns of Time (Entrance)
-	["Steward of Time <Keepers of Time>"] = "Steward of Time <Keepers of Time>";
-	["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Tavern of Time>";
-	["Yarley <Armorer>"] = "Yarley <Armorer>";
-	["Bortega <Reagents & Poison Supplies>"] = "Bortega <Reagents & Poison Supplies>";
-	["Galgrom <Provisioner>"] = "Galgrom <Provisioner>";
-	["Alurmi <Keepers of Time Quartermaster>"] = "Alurmi <Keepers of Time Quartermaster>";
-	["Zaladormu"] = "Zaladormu";
-	["Soridormi <The Scale of Sands>"] = "Soridormi <The Scale of Sands>";
-	["Arazmodu <The Scale of Sands>"] = "Arazmodu <The Scale of Sands>";
-	["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
-	["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
+	["Steward of Time <Keepers of Time>"] = "Распорядитель времени <Хранители Времени>";
+	["Alexston Chrome <Tavern of Time>"] = "Алекстон Хром <Таверна Времени>";
+	["Yarley <Armorer>"] = "Ярли <Бронник>";
+	["Bortega <Reagents & Poison Supplies>"] = "Бортега <Реагенты и яды>";
+	["Galgrom <Provisioner>"] = "Гальгром <Поставщик>";
+	["Alurmi <Keepers of Time Quartermaster>"] = "Алурми <Начальник снабжения Хранителей Времени>";
+	["Zaladormu"] = "Заладорму";
+	["Soridormi <The Scale of Sands>"] = "Соридорми <Песчаная Чешуя>";
+	["Arazmodu <The Scale of Sands>"] = "Аразмоду <Песчаная Чешуя>";
+	["Andormu <Keepers of Time>"] = "Андорму <Хранители Времени>";
+	["Nozari <Keepers of Time>"] = "Нозари <Хранители Времени>";
 
 	--Karazhan (Entrance)
-	["Archmage Leryda"] = "Archmage Leryda";
-	["Apprentice Darius"] = "Apprentice Darius";
-	["Archmage Alturus"] = "Archmage Alturus";
+	["Archmage Leryda"] = "Верховный маг Лерида";
+	["Apprentice Darius"] = "Ученик Дариус";
+	["Archmage Alturus"] = "Верховный маг Альтур";
 	["Stairs to Underground Pond"] = "Stairs to Underground Pond";
 	["Stairs to Underground Well"] = "Stairs to Underground Well";
 	["Charred Bone Fragment"] = "Charred Bone Fragment";

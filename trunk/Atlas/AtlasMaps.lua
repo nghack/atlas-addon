@@ -1196,6 +1196,16 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Scrying Orb"] };
 		{ GREY..INDENT..AtlasLocale["Kalecgos"], NPC, 24850 };
 		{ GREY.."5) "..AtlasLocale["Priestess Delrissa"].." ("..AtlasLocale["Lower"]..")", NPC, 24560 };
+		{ GREY..INDENT..AtlasLocale["Apoko"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Shaman"]..")", NPC, 24553 };
+		{ GREY..INDENT..AtlasLocale["Eramas Brightblaze"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Monk"]..")", NPC, 24554 };
+		{ GREY..INDENT..AtlasLocale["Ellrys Duskhallow"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Warlock"]..")", NPC, 24558 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Fizzle"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..")", NPC, 24656 };
+		{ GREY..INDENT..AtlasLocale["Garaxxas"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Hunter"]..")", NPC, 24555 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Sliver <Garaxxas' Pet>"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..")", NPC, 24552 };
+		{ GREY..INDENT..AtlasLocale["Kagani Nightstrike"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Rogue"]..")", NPC, 24557 };
+		{ GREY..INDENT..AtlasLocale["Warlord Salaris"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Warrior"]..")", NPC, 24559 };
+		{ GREY..INDENT..AtlasLocale["Yazzai"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Mage"]..")", NPC, 24561 };
+		{ GREY..INDENT..AtlasLocale["Zelfan"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..", "..AtlasLocale["Engineer"]..")", NPC, 24556 };
 		{ GREY.."6) "..AtlasLocale["Kael'thas Sunstrider <Lord of the Blood Elves>"], NPC, 24664 };
 	};
 	SunwellPlateau = {
@@ -1203,7 +1213,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["SP"];
 		Location = { AtlasLocale["Isle of Quel'Danas"], 4080 };
 		LevelRange = "70";
-		MinLevel = "?";
+		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };

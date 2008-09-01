@@ -4,7 +4,9 @@
 
 v1.12.1
 - added 'Ahn'Qiraj' and 'Blackrock Mountain' as a prefix for the instances within them
+- added Delrissa's Minions to MT
 - added 'Griz Gutshank' to BRD
+- added a Minimum Level for SP
 
 v1.12.0
 - changed the Atlas data format to include GUID information (no in-game change)

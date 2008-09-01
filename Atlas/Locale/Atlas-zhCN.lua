@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 8/9/2008
+-- Last Update : 9/1/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -125,6 +125,7 @@ AtlasLocale = {
 	["East"] = "东区";
 	["Elevator"] = "升降梯";
 	["End"] = "尾部";
+	["Engineer"] = "工程师";
 	["Entrance"] = "入口";
 	["Event"] = "事件";
 	["Exalted"] = "崇拜";
@@ -144,6 +145,7 @@ AtlasLocale = {
 	["Lunar"] = "春节";
 	["Mage"] = "法师";
 	["Meeting Stone"] = "集合石";
+	["Monk"] = "僧侣";
 	["Moonwell"] = "月亮井";
 	["North"] = "北区";
 	["Optional"] = "可跳过";
@@ -1070,6 +1072,16 @@ AtlasLocale = {
 	["Scrying Orb"] = "占卜宝珠";
 	["Kalecgos"] = "卡雷苟斯";--omitted from SP
 	["Priestess Delrissa"] = "女祭司德莉希亚";
+	["Apoko"] = "埃波克";
+	["Eramas Brightblaze"] = "埃拉玛斯·炽光";
+	["Ellrys Duskhallow"] = "艾尔蕾丝";
+	["Fizzle"] = "菲兹尔";
+	["Garaxxas"] = "贾拉克萨斯";
+	["Sliver <Garaxxas' Pet>"] = "脆皮 <贾拉克萨斯的宠物>";
+	["Kagani Nightstrike"] = "卡加尼·夜锋";
+	["Warlord Salaris"] = "督军沙拉利斯";
+	["Yazzai"] = "亚赛";
+	["Zelfan"] = "扎尔凡";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凯尔萨斯·逐日者 <血精灵之王>";--omitted from TK: The Eye
 
 	--Sunwell Plateau

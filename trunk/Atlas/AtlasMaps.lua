@@ -304,7 +304,7 @@ AtlasMaps = {
 		MinLevel = "50";
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Brood of Nozdormu"], FACTION, 910 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Brood of Nozdormu"], FACTION, 910 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["The Prophet Skeram"].." ("..AtlasLocale["Outside"]..")", NPC, 15263 };
 		{ GREY.."2) "..AtlasLocale["The Bug Family"].." ("..AtlasLocale["Optional"]..")" };
@@ -336,7 +336,7 @@ AtlasMaps = {
 		MinLevel = "50";
 		PlayerLimit = "20";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Circle"], FACTION, 609 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Circle"], FACTION, 609 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Kurinnaxx"], NPC, 15348 };
 		{ GREY..INDENT..AtlasLocale["Lieutenant General Andorov"], NPC, 15471 };
@@ -365,7 +365,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Opening of the Dark Portal"] };
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key of Time"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30635 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Sa'at <Keepers of Time>"], NPC, 20201 };
@@ -385,7 +385,7 @@ AtlasMaps = {
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Battle for Mount Hyjal"] };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Scale of the Sands"], FACTION, 990 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Scale of the Sands"], FACTION, 990 };
 		{ BLUE.."A) "..AtlasLocale["Alliance Base"] };
 		{ BLUE..INDENT..AtlasLocale["Lady Jaina Proudmoore"], NPC, 17772 };
 		{ BLUE.."B) "..AtlasLocale["Horde Encampment"] };
@@ -410,7 +410,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Escape from Durnholde Keep"] };
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Keepers of Time"], FACTION, 989 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key of Time"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30635 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Erozion"], NPC, 18723 };
@@ -684,7 +684,7 @@ AtlasMaps = {
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Hydraxian Waterlords"], FACTION, 749 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Hydraxian Waterlords"], FACTION, 749 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Aqual Quintessence"].." ("..AtlasLocale["Boss"]..")", ITEM, 17333 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Eternal Quintessence"].." ("..AtlasLocale["Boss"]..")", ITEM, 22754 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -763,7 +763,7 @@ AtlasMaps = {
 		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Skeleton Key"], ITEM, 13704 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Viewing Room Key"].." ("..AtlasLocale["Viewing Room"]..")", ITEM, 13873 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Blood of Innocents"].." ("..AtlasLocale["Kirtonos the Herald"]..")", ITEM, 13523 };
@@ -832,7 +832,7 @@ AtlasMaps = {
 		MinLevel = "45";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"].." ("..AtlasLocale["Living Side"]..")", ITEM, 7146 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key to the City"].." ("..AtlasLocale["Undead Side"]..")", ITEM, 12382 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Various Postbox Keys"].." ("..AtlasLocale["Postmaster Malown"]..")" };
@@ -985,7 +985,7 @@ AtlasMaps = {
 		MinLevel = "50";
 		PlayerLimit = "20";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Zandalar Tribe"], FACTION, 270 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Zandalar Tribe"], FACTION, 270 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Mudskunk Lure"].." ("..AtlasLocale["Gahz'ranka"]..")", ITEM, 19974 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Gurubashi Mojo Madness"].." ("..AtlasLocale["Edge of Madness"]..")", ITEM, 19931 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1018,7 +1018,7 @@ AtlasMaps = {
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Archmage Tarsis Kir-Moldir"], NPC, 16381 };
 		{ BLUE..INDENT..AtlasLocale["Mr. Bigglesworth"].." ("..AtlasLocale["Wanders"]..")", NPC, 16998 };
@@ -1056,7 +1056,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Violet Eye"], FACTION, 967 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Violet Eye"], FACTION, 967 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Master's Key"], ITEM, 24490 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Blackened Urn"].." ("..AtlasLocale["Nightbane"]..")", ITEM, 24140 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Front"]..")" };
@@ -1115,7 +1115,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Violet Eye"], FACTION, 967 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Violet Eye"], FACTION, 967 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Master's Key"], ITEM, 24490 };
 		{ BLUE.."I) "..AtlasLocale["Path to the Broken Stairs"] };
 		{ BLUE.."J) "..AtlasLocale["Broken Stairs"] };
@@ -1187,7 +1187,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Shattered Sun Offensive"], FACTION, 1077 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Shattered Sun Offensive"], FACTION, 1077 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Selin Fireheart"], NPC, 24723 };
 		{ GREY..INDENT..AtlasLocale["Fel Crystals"], NPC, 24722 };
@@ -1242,8 +1242,8 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Flamewrought Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30637 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["The Maker"], NPC, 17381 };
@@ -1258,8 +1258,8 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Shattered Halls Key"], ITEM, 28395 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Flamewrought Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30637 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1285,8 +1285,8 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Flamewrought Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30637 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Watchkeeper Gargolmar"], NPC, 17306 };
@@ -1303,8 +1303,8 @@ AtlasMaps = {
 		MinLevel = "65";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Magtheridon"], NPC, 17257 };
 	};
@@ -1316,7 +1316,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Reservoir Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30623 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Ahune <The Frost Lord>"], NPC, 25740 };
@@ -1335,7 +1335,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Reservoir Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30623 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Hungarfen"], NPC, 17770 };
@@ -1354,7 +1354,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Reservoir Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30623 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Hydromancer Thespia"], NPC, 17797 };
@@ -1373,7 +1373,7 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Hydross the Unstable <Duke of Currents>"], NPC, 21216 };
 		{ GREY.."2) "..AtlasLocale["The Lurker Below"], NPC, 21217 };
@@ -1391,7 +1391,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Consortium"], FACTION, 933 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Consortium"], FACTION, 933 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Auchenai Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30633 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Eye of Haramad"].." ("..AtlasLocale["Exalted"]..", "..AtlasLocale["Yor <Void Hound of Shaffar>"]..")", ITEM, 32092 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1412,7 +1412,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Auchenai Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30633 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Shirrak the Dead Watcher"], NPC, 18371 };
@@ -1428,7 +1428,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Auchenai Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30633 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Essence-Infused Moonstone"].." ("..AtlasLocale["Anzu"]..")", ITEM, 32449 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1446,7 +1446,7 @@ AtlasMaps = {
 		MinLevel = "65";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Lower City"], FACTION, 1011 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Shadow Labyrinth Key"], ITEM, 27991 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Auchenai Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30633 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1467,7 +1467,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Warpforged Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30634 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Commander Sarannis"], NPC, 17976 };
@@ -1484,7 +1484,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key to the Arcatraz"], ITEM, 31084 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Warpforged Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30634 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -1506,7 +1506,7 @@ AtlasMaps = {
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Warpforged Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30634 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Gatewatcher Gyro-Kill"], NPC, 19218 };
@@ -1525,7 +1525,7 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Tempest Key"], ITEM, 31704 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Al'ar <Phoenix God>"], NPC, 19514 };
@@ -1561,7 +1561,7 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Towards Reliquary of Souls"] };
@@ -1584,7 +1584,7 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."B) "..AtlasLocale["Entrance"] };
 		{ BLUE.."C) "..AtlasLocale["Entrance"] };
@@ -1603,7 +1603,7 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Rep"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."D) "..AtlasLocale["Entrance"] };
 		{ GREY.."9) "..AtlasLocale["Mother Shahraz"], NPC, 22947 };

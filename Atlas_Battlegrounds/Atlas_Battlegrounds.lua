@@ -50,7 +50,7 @@ local myData = {
 		MinLevel = "51";
 		PlayerLimit = "40";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["Stormpike Guard"], FACTION, 730 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Stormpike Guard"], FACTION, 730 };
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasBGLocale["Dun Baldar"] };
 		{ BLUE..INDENT..AtlasBGLocale["Vanndar Stormpike <Stormpike General>"], NPC, 11948 };
@@ -119,7 +119,7 @@ local myData = {
 		MinLevel = "51";
 		PlayerLimit = "40";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["Frostwolf Clan"], FACTION, 729 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Frostwolf Clan"], FACTION, 729 };
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Frostwolf Keep"] };
 		{ BLUE..INDENT..AtlasBGLocale["Drek'Thar <Frostwolf General>"], NPC, 11946 };
@@ -171,8 +171,8 @@ local myData = {
 		MinLevel = "20";
 		PlayerLimit = "15";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["The Defilers"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 510 };
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["The League of Arathor"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 509 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["The Defilers"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 510 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["The League of Arathor"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 509 };
 		{ BLUE.."A) "..AtlasBGLocale["Trollbane Hall"].." ("..AtlasBGLocale["Alliance"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Defiler's Den"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ GREY.."1) "..AtlasBGLocale["Stables"] };
@@ -189,8 +189,8 @@ local myData = {
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = AtlasBGLocale["Kalimdor"];
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["Warsong Outriders"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 889 };
-		{ ORNG..AtlasBGLocale["Rep"]..": "..AtlasBGLocale["Silverwing Sentinels"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 890 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Warsong Outriders"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 889 };
+		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Silverwing Sentinels"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 890 };
 		{ BLUE.."A) "..AtlasBGLocale["Silverwing Hold"].." ("..AtlasBGLocale["Alliance"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Warsong Lumber Mill"].." ("..AtlasBGLocale["Horde"]..")" };
 	};

@@ -141,6 +141,7 @@ AtlasLocale = {
 	["East"] = "東方";
 	["Elevator"] = "電梯";
 	["End"] = "結束";
+	["Engineer"] = "工程師";
 	["Entrance"] = "入口";
 	["Event"] = "事件";
 	["Exalted"] = "崇拜";
@@ -160,6 +161,7 @@ AtlasLocale = {
 	["Lunar"] = "新年慶典";
 	["Mage"] = "法師";
 	["Meeting Stone"] = "集合石";
+	["Monk"] = "僧侶";
 	["Moonwell"] = "月井";
 	["North"] = "北方";
 	["Optional"] = "可選擇";
@@ -202,6 +204,7 @@ AtlasLocale = {
 	["West"] = "西方";
 
 	--Instance names and acronyms
+	["Ahn'Qiraj"] = "安其拉神廟"; ["AQ"] = "AQ";
 	["Armory"] = "軍械庫"; 
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
@@ -629,6 +632,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "羅克諾特下士";
 	["Ribbly Screwspigot"] = "雷布里·斯庫比格特";
 	["Coren Direbrew"] = "寇仁·恐酒";
+	["Griz Gutshank <Arena Vendor>"] = "格利茲·易柄";
 	["Ambassador Flamelash"] = "弗萊拉斯大使";
 	["Panzor the Invincible"] = "無敵的潘佐爾";
 	["Summoner's Tomb"] = "召喚者之墓";
@@ -1084,6 +1088,16 @@ AtlasLocale = {
 	["Scrying Orb"] = "索蘭尼亞的占卜寶珠";
 	["Kalecgos"] = "卡雷苟斯";--omitted from SP
 	["Priestess Delrissa"] = "女牧師戴利莎";
+	["Apoko"] = "阿波考";
+	["Eramas Brightblaze"] = "依拉瑪·火光";
+	["Ellrys Duskhallow"] = "艾爾里斯·聖暮";
+	["Fizzle"] = "費索";
+	["Garaxxas"] = "卡拉克薩斯";
+	["Sliver <Garaxxas' Pet>"] = "割裂者";
+	["Kagani Nightstrike"] = "卡嘉尼·夜擊";
+	["Warlord Salaris"] = "督軍沙拉利思";
+	["Yazzai"] = "耶賽";
+	["Zelfan"] = "塞爾汎";
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凱爾薩斯·逐日者";--omitted from TK: The Eye
 
 	--Sunwell Plateau

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/3/2008
+-- Last Update : 9/4/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -21,7 +21,7 @@ AtlasBGLocale = {
 	["North"] = "北部";
 	["Orange"] = "橙色";
 	["Red"] = "红色";
-	["Rep"] = "阵营";
+	["Reputation"] = "阵营";
 	["Rescued"] = "被营救";
 	["South"] = "南部";
 	["Summon"] = "召唤";

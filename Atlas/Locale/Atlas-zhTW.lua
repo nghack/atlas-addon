@@ -176,7 +176,7 @@ AtlasLocale = {
 	["Random"] = "隨機";
 	["Raptor"] = "迅猛龍";
 	["Rare"] = "稀有";
-	["Rep"] = "聲望";
+	["Reputation"] = "聲望";
 	["Repair"] = "修理";
 	["Retribution Paladin"] = "懲戒聖騎";
 	["Rewards"] = "獎勵";
@@ -1142,7 +1142,7 @@ AtlasLocale = {
 
 	--HFC: Hellfire Ramparts
 	["Watchkeeper Gargolmar"] = "看護者卡爾古瑪";
-	["Omor the Unscarred"] = "無疤者歐瑪爾d";
+	["Omor the Unscarred"] = "無疤者歐瑪爾";
 	["Vazruden"] = "先驅者維斯路登";
 	["Nazan <Vazruden's Mount>"] = "納桑";
 	["Reinforced Fel Iron Chest"] = "強化惡魔鐵箱";

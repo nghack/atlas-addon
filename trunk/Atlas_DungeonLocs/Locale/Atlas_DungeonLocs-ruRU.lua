@@ -1,24 +1,9 @@
---[[
+﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-- Atlas Data  (Russian)
+-- Compiled by StingerSoft
+-- stingersoft@gmail.com
+-- Last Update: 27.09.2008
 
 --]]
 
@@ -27,106 +12,106 @@ if ( GetLocale() == "ruRU" ) then
 AtlasDLLocale = {
 
 	--Common
-	["Battlegrounds"] = "Battlegrounds";
-	["Blue"] = "Blue";
-	["Dungeon Locations"] = "Dungeon Locations";
-	["Instances"] = "Instances";
-	["White"] = "White";
+	["Battlegrounds"] = "Поля сражений";
+	["Blue"] = "Синий";
+	["Dungeon Locations"] = "Расположение подземелий";
+	["Instances"] = "Инстансы";
+	["White"] = "Белый";
 
 	--Places
-	["Alterac Mountains"] = "Alterac Mountains";
-	["Alterac Valley"] = "Alterac Valley";
-	["Arathi Basin"] = "Arathi Basin";
-	["Arathi Highlands"] = "Arathi Highlands";
-	["Ashenvale"] = "Ashenvale";
-	["Auchenai Crypts"] = "Auchenai Crypts";
-	["Auchindoun"] = "Auchindoun";
-	["Badlands"] = "Badlands";
-	["Black Temple"] = "Black Temple";
-	["Blackfathom Deeps"] = "Blackfathom Deeps";
-	["Blackrock Depths"] = "Blackrock Depths";
-	["Blackrock Mountain"] = "Blackrock Mountain";
-	["Blackrock Spire"] = "Blackrock Spire";
-	["Blackwing Lair"] = "Blackwing Lair";
-	["Blade's Edge Mountains"] = "Blade's Edge Mountains";
-	["Caverns of Time"] = "Caverns of Time";
-	["Coilfang Reservoir"] = "Coilfang Reservoir";
-	["Deadwind Pass"] = "Deadwind Pass";
-	["Desolace"] = "Desolace";
-	["Dire Maul"] = "Dire Maul";
-	["Dun Morogh"] = "Dun Morogh";
-	["Dustwallow Marsh"] = "Dustwallow Marsh";
-	["Eastern Kingdoms"] = "Eastern Kingdoms";
-	["Eastern Plaguelands"] = "Eastern Plaguelands";
-	["Feralas"] = "Feralas";
-	["Ghostlands"] = "Ghostlands";
-	["Gnomeregan"] = "Gnomeregan";
-	["Gruul's Lair"] = "Gruul's Lair";
-	["Hellfire Citadel"] = "Hellfire Citadel";
-	["Hellfire Peninsula"] = "Hellfire Peninsula";
-	["Hellfire Ramparts"] = "Hellfire Ramparts";
-	["Hillsbrad Foothills"] = "Hillsbrad Foothills";
-	["Hyjal Summit"] = "Hyjal Summit";
-	["Isle of Quel'Danas"] = "Isle of Quel'Danas";
-	["Kalimdor"] = "Kalimdor";
-	["Karazhan"] = "Karazhan";
-	["Magisters' Terrace"] = "Magisters' Terrace";
-	["Magtheridon's Lair"] = "Magtheridon's Lair";
-	["Mana-Tombs"] = "Mana-Tombs";
-	["Maraudon"] = "Maraudon";
-	["Molten Core"] = "Molten Core";
-	["Naxxramas"] = "Naxxramas";
-	["Netherstorm"] = "Netherstorm";
-	["Old Hillsbrad Foothills"] = "Old Hillsbrad Foothills";
-	["Onyxia's Lair"] = "Onyxia's Lair";
-	["Orgrimmar"] = "Orgrimmar";
-	["Outland"] = "Outland";
-	["Ragefire Chasm"] = "Ragefire Chasm";
-	["Razorfen Downs"] = "Razorfen Downs";
-	["Razorfen Kraul"] = "Razorfen Kraul";
-	["Ruins of Ahn'Qiraj"] = "Ruins of Ahn'Qiraj";
-	["Scarlet Monastery"] = "Scarlet Monastery";
-	["Scholomance"] = "Scholomance";
-	["Serpentshrine Cavern"] = "Serpentshrine Cavern";
-	["Sethekk Halls"] = "Sethekk Halls";
-	["Shadow Labyrinth"] = "Shadow Labyrinth";
-	["Shadowfang Keep"] = "Shadowfang Keep";
-	["Shadowmoon Valley"] = "Shadowmoon Valley";
-	["Silithus"] = "Silithus";
-	["Silverpine Forest"] = "Silverpine Forest";
-	["Stormwind City"] = "Stormwind City";
-	["Stranglethorn Vale"] = "Stranglethorn Vale";
-	["Stratholme"] = "Stratholme";
-	["Sunken Temple"] = "Sunken Temple";
-	["Sunwell Plateau"] = "Sunwell Plateau";
-	["Swamp of Sorrows"] = "Swamp of Sorrows";
-	["Tanaris"] = "Tanaris";
-	["Tempest Keep"] = "Tempest Keep";
-	["Temple of Ahn'Qiraj"] = "Temple of Ahn'Qiraj";
-	["Terokkar Forest"] = "Terokkar Forest";
-	["The Arcatraz"] = "The Arcatraz";
-	["The Barrens"] = "The Barrens";
-	["The Black Morass"] = "The Black Morass";
-	["The Blood Furnace"] = "The Blood Furnace";
-	["The Botanica"] = "The Botanica";
-	["The Deadmines"] = "The Deadmines";
-	["The Eye"] = "The Eye";
-	["The Mechanar"] = "The Mechanar";
-	["The Shattered Halls"] = "The Shattered Halls";
-	["The Slave Pens"] = "The Slave Pens";
-	["The Steamvault"] = "The Steamvault";
-	["The Stockade"] = "The Stockade";
-	["The Underbog"] = "The Underbog";
-	["Tirisfal Glades"] = "Tirisfal Glades";
-	["Uldaman"] = "Uldaman";
-	["Wailing Caverns"] = "Wailing Caverns";
-	["Warsong Gulch"] = "Warsong Gulch";
-	["Western Plaguelands"] = "Western Plaguelands";
-	["Westfall"] = "Westfall";
-	["Zangarmarsh"] = "Zangarmarsh";
-	["Zul'Aman"] = "Zul'Aman";
-	["Zul'Farrak"] = "Zul'Farrak";
-	["Zul'Gurub"] = "Zul'Gurub";
+	["Alterac Mountains"] = "Альтеракские горы";
+	["Alterac Valley"] = "Альтеракская долина";
+	["Arathi Basin"] = "Низина Арати";
+	["Arathi Highlands"] = "Нагорье Арати";
+	["Ashenvale"] = "Ясеневый лес";
+	["Auchenai Crypts"] = "Аукенайские гробницы";
+	["Auchindoun"] = "Аукиндон";
+	["Badlands"] = "Бесплодные земли";
+	["Black Temple"] = "Черный храм";
+	["Blackfathom Deeps"] = "Непроглядная Пучина";
+	["Blackrock Depths"] = "Глубины Черной горы";
+	["Blackrock Mountain"] = "Черная гора";
+	["Blackrock Spire"] = "Вершина Черной горы";
+	["Blackwing Lair"] = "Логово Крыла Тьмы";
+	["Blade's Edge Mountains"] = "Острогорье";
+	["Caverns of Time"] = "Пещеры Времени";
+	["Coilfang Reservoir"] = "Резервуар Кривого Клыка";
+	["Deadwind Pass"] = "Перевал Мертвого Ветра";
+	["Desolace"] = "Пустоши";
+	["Dire Maul"] = "Забытый Город";
+	["Dun Morogh"] = "Дун Морог";
+	["Dustwallow Marsh"] = "Пылевые топи";
+	["Eastern Kingdoms"] = "Восточные королевства";
+	["Eastern Plaguelands"] = "Восточное Лихоземье";
+	["Feralas"] = "Фералас";
+	["Ghostlands"] = "Призрачные земли";
+	["Gnomeregan"] = "Гномреган";
+	["Gruul's Lair"] = "Логово Груула";
+	["Hellfire Citadel"] = "Цитадель Адского Пламени";
+	["Hellfire Peninsula"] = "Полуостров Адского Пламени";
+	["Hellfire Ramparts"] = "Бастионы Адского Пламени";
+	["Hillsbrad Foothills"] = "Предгорья Хилсбрада";
+	["Hyjal Summit"] = "Вершина Хиджала";
+	["Isle of Quel'Danas"] = "Остров Кель'Данас";
+	["Kalimdor"] = "Калимдор";
+	["Karazhan"] = "Каражан";
+	["Magisters' Terrace"] = "Терраса Магистров";
+	["Magtheridon's Lair"] = "Логово Магтеридона";
+	["Mana-Tombs"] = "Гробницы Маны";
+	["Maraudon"] = "Мародон";
+	["Molten Core"] = "Огненные Недра";
+	["Naxxramas"] = "Наксрамас";
+	["Netherstorm"] = "Пустоверть";
+	["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада";
+	["Onyxia's Lair"] = "Логово Ониксии";
+	["Orgrimmar"] = "Оргриммар";
+	["Outland"] = "Запределье";
+	["Ragefire Chasm"] = "Огненная пропасть";
+	["Razorfen Downs"] = "Курганы Иглошкурых";
+	["Razorfen Kraul"] = "Лабиринты Иглошкурых";
+	["Ruins of Ahn'Qiraj"] = "Руины Ан'Киража";
+	["Scarlet Monastery"] = "Монастырь Алого ордена";
+	["Scholomance"] = "Некроситет";
+	["Serpentshrine Cavern"] = "Змеиное святилище";
+	["Sethekk Halls"] = "Сетеккские залы";
+	["Shadow Labyrinth"] = "Темный Лабиринт";
+	["Shadowfang Keep"] = "Крепость Темного Клыка";
+	["Shadowmoon Valley"] = "Долина Призрачной Луны";
+	["Silithus"] = "Силитус";
+	["Silverpine Forest"] = "Серебряный бор";
+	["Stormwind City"] = "Штормград";
+	["Stranglethorn Vale"] = "Тернистая долина";
+	["Stratholme"] = "Стратхольм";
+	["Sunken Temple"] = "Затонувший храм";
+	["Sunwell Plateau"] = "Плато Солнечного Колодца";
+	["Swamp of Sorrows"] = "Болото Печали";
+	["Tanaris"] = "Танарис";
+	["Tempest Keep"] = "Крепость Бурь";
+	["Temple of Ahn'Qiraj"] = "Храм Ан'Киража";
+	["Terokkar Forest"] = "Лес Тероккар";
+	["The Arcatraz"] = "Аркатрац";
+	["The Barrens"] = "Степи";
+	["The Black Morass"] = "Черные топи";
+	["The Blood Furnace"] = "Кузня Крови";
+	["The Botanica"] = "Ботаника";
+	["The Deadmines"] = "Мертвые копи";
+	["The Eye"] = "Око";
+	["The Mechanar"] = "Механар";
+	["The Shattered Halls"] = "Разрушенные залы";
+	["The Slave Pens"] = "Узилище";
+	["The Steamvault"] = "Паровое Подземелье";
+	["The Stockade"] = "Тюрьма";
+	["The Underbog"] = "Нижетопь";
+	["Tirisfal Glades"] = "Тирисфальские леса";
+	["Uldaman"] = "Ульдаман";
+	["Wailing Caverns"] = "Пещеры Стенаний";
+	["Warsong Gulch"] = "Ущелье Песни Войны";
+	["Western Plaguelands"] = "Западное Лихоземье";
+	["Westfall"] = "Западный Край";
+	["Zangarmarsh"] = "Зангартопь";
+	["Zul'Aman"] = "Зул'Аман";
+	["Zul'Farrak"] = "Зул'Фаррак";
+	["Zul'Gurub"] = "Зул'Гуруб";
 
 };
 end

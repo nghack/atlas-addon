@@ -1,24 +1,9 @@
 ﻿--[[
 
-	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
-	Email me at loglow@gmail.com
-
-	This file is part of Atlas.
-
-	Atlas is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	Atlas is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
-
-	You should have received a copy of the GNU General Public License
-	along with Atlas; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-- Atlas Data  (Russian)
+-- Compiled by StingerSoft
+-- stingersoft@gmail.com
+-- Last Update: 27.09.2008
 
 --]]
 
@@ -36,7 +21,7 @@ AtlasBGLocale = {
 	["Orange"] = "Оранжевый";
 	["Red"] = "Красный";
 	["Rep"] = "Реп";
-	["Rescued"] = "Rescued";
+	["Rescued"] = "Спасенный";
 	["South"] = "Юг";
 	["Summon"] = "Призыв";
 	["White"] = "Белый";
@@ -57,123 +42,123 @@ AtlasBGLocale = {
 	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "WSG";
 	
 	--Alterac Valley (North)
-	["Stormpike Guard"] = "Stormpike Guard";
-	["Dun Baldar"] = "Dun Baldar";
-	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Stormpike <Stormpike General>";
-	["Dun Baldar North Marshal"] = "Dun Baldar North Marshal";
-	["Dun Baldar South Marshal"] = "Dun Baldar South Marshal";
-	["Icewing Marshal"] = "Icewing Marshal";
-	["Stonehearth Marshal"] = "Stonehearth Marshal";
-	["Prospector Stonehewer"] = "Prospector Stonehewer";
-	["Irondeep Mine"] = "Irondeep Mine";
-	["Morloch"] = "Morloch";
-	["Umi Thorson"] = "Umi Thorson";
-	["Keetar"] = "Keetar";
-	["Arch Druid Renferal"] = "Arch Druid Renferal";
-	["Dun Baldar North Bunker"] = "Dun Baldar North Bunker";
-	["Wing Commander Mulverick"] = "Wing Commander Mulverick";--omitted from AVS
-	["Murgot Deepforge"] = "Murgot Deepforge";
-	["Dirk Swindle <Bounty Hunter>"] = "Dirk Swindle <Bounty Hunter>";
-	["Athramanis <Bounty Hunter>"] = "Athramanis <Bounty Hunter>";
-	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Thunderbrew <Blacksmithing Supplies>";
-	["Stormpike Aid Station"] = "Stormpike Aid Station";
-	["Stormpike Stable Master <Stable Master>"] = "Stormpike Stable Master <Stable Master>";
-	["Stormpike Ram Rider Commander"] = "Stormpike Ram Rider Commander";
-	["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Farmountain <Trade Goods>";
-	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Barleybeard <Reagents & Poison Supplies>";
-	["Stormpike Quartermaster"] = "Stormpike Quartermaster";
-	["Jonivera Farmountain <General Goods>"] = "Jonivera Farmountain <General Goods>";
-	["Brogus Thunderbrew <Food & Drink>"] = "Brogus Thunderbrew <Food & Drink>";
-	["Wing Commander Ichman"] = "Wing Commander Ichman";--omitted from AVS
-	["Wing Commander Slidore"] = "Wing Commander Slidore";--omitted from AVS
-	["Wing Commander Vipore"] = "Wing Commander Vipore";--omitted from AVS
-	["Dun Baldar South Bunker"] = "Dun Baldar South Bunker";
-	["Corporal Noreg Stormpike"] = "Corporal Noreg Stormpike";
-	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Hammersmith <Stormpike Supply Officer>";
-	["Stormpike Graveyard"] = "Stormpike Graveyard";
-	["Icewing Cavern"] = "Icewing Cavern";
-	["Stormpike Banner"] = "Stormpike Banner";
+	["Stormpike Guard"] = "Стража Грозовой Вершины";
+	["Dun Baldar"] = "Дун Балдар";
+	["Vanndar Stormpike <Stormpike General>"] = "Вандар Грозовая Вершина <Генерал клана Грозовой Вершины>";
+	["Dun Baldar North Marshal"] = "Маршал северного Оплота Дун Балдара";
+	["Dun Baldar South Marshal"] = "Маршал южного Оплота Дун Балдара";
+	["Icewing Marshal"] = "Маршал Ледяного Крыла";
+	["Stonehearth Marshal"] = "Маршал Каменного Очага";
+	["Prospector Stonehewer"] = "Геолог Камнегрыз";
+	["Irondeep Mine"] = "Шахтер из племени Железного Рудника";
+	["Morloch"] = "Морлох";
+	["Umi Thorson"] = "Уми Торсон";
+	["Keetar"] = "Китар";
+	["Arch Druid Renferal"] = "Верховный друид Дикая Лань";
+	["Dun Baldar North Bunker"] = "Северный Оплот Дун Болдара";
+	["Wing Commander Mulverick"] = "Командир звена Малверик";--omitted from AVS
+	["Murgot Deepforge"] = "Мургот Подземная Кузня";
+	["Dirk Swindle <Bounty Hunter>"] = "Дирк Надувалло <Охотник за головами>";
+	["Athramanis <Bounty Hunter>"] = "Атраманис <Охотник за головами>";
+	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Лана Грозовар <Товары для кузнецов>";
+	["Stormpike Aid Station"] = "Лазарет Грозовой Вершины";
+	["Stormpike Stable Master <Stable Master>"] = "Смотритель стойл из клана Грозовой Вершины <Смотритель стойл>";
+	["Stormpike Ram Rider Commander"] = "Командир наездников на баранах из клана Грозовой Вершины";
+	["Svalbrad Farmountain <Trade Goods>"] = "Свальбрад Дальногор <Хозяйственные товары>";
+	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Курдрум Ячменобород <Реагенты и яды>";
+	["Stormpike Quartermaster"] = "Интендант клана Грозовой Вершины";
+	["Jonivera Farmountain <General Goods>"] = "Джонивера Дальняя Гора <Потребительские товары>";
+	["Brogus Thunderbrew <Food & Drink>"] = "Брогус Грозовар <Еда и напитки>";
+	["Wing Commander Ichman"] = "Командир звена Ичман";--omitted from AVS
+	["Wing Commander Slidore"] = "Командир звена Макарч";--omitted from AVS
+	["Wing Commander Vipore"] = "Командир звена Сквороц";--omitted from AVS
+	["Dun Baldar South Bunker"] = "Южный Оплот Дун Болдара";
+	["Corporal Noreg Stormpike"] = "Капрал Норг Грозовая Вершина";
+	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Гаелден Кузнечный Молот <Снабженец клана Грозовой Вершины>";
+	["Stormpike Graveyard"] = "Кладбище Грозовой Вершины";
+	["Icewing Cavern"] = "Пещера Ледяного Крыла";
+	["Stormpike Banner"] = "Знамя Грозовой Вершины";
 	["Stormpike Lumber Yard"] = "Stormpike Lumber Yard";
-	["Wing Commander Jeztor"] = "Wing Commander Jeztor";--omitted from AVS
-	["Icewing Bunker"] = "Icewing Bunker";
-	["Wing Commander Guse"] = "Wing Commander Guse";--omitted from AVS
-	["Stonehearth Graveyard"] = "Stonehearth Graveyard";
-	["Stormpike Ram Rider Commander"] = "Stormpike Ram Rider Commander";
-	["Stonehearth Outpost"] = "Stonehearth Outpost";
-	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Captain Balinda Stonehearth <Stormpike Captain>";
-	["Snowfall Graveyard"] = "Snowfall Graveyard";
-	["Ichman's Beacon"] = "Ichman's Beacon";
-	["Mulverick's Beacon"] = "Mulverick's Beacon";
-	["Stonehearth Bunker"] = "Stonehearth Bunker";
-	["Ivus the Forest Lord"] = "Ivus the Forest Lord";
-	["Western Crater"] = "Western Crater";
-	["Vipore's Beacon"] = "Vipore's Beacon";
-	["Jeztor's Beacon"] = "Jeztor's Beacon";
-	["Eastern Crater"] = "Eastern Crater";
-	["Slidore's Beacon"] = "Slidore's Beacon";
-	["Guse's Beacon"] = "Guse's Beacon";
-	["Graveyards, Capturable Areas"] = "Graveyards, Capturable Areas";--omitted from AVS
-	["Bunkers, Towers, Destroyable Areas"] = "Bunkers, Towers, Destroyable Areas";--omitted from AVS
-	["Assault NPCs, Quest Areas"] = "Assault NPCs, Quest Areas";--omitted from AVS
+	["Wing Commander Jeztor"] = "Командир звена Мааша";--omitted from AVS
+	["Icewing Bunker"] = "Укрытие Ледяного Крыла";
+	["Wing Commander Guse"] = "Командир звена Смуггл";--omitted from AVS
+	["Stonehearth Graveyard"] = "Кладбище Каменного Очага";
+	["Stormpike Ram Rider Commander"] = "Командир наездников на баранах из клана Грозовой Вершины";
+	["Stonehearth Outpost"] = "Форт Каменного Очага";
+	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Капитан Балинда Каменный Очаг <Капитан клана Грозовой Вершины>";
+	["Snowfall Graveyard"] = "Кладбище Снегопада";
+	["Ichman's Beacon"] = "Маяк Ичмена";
+	["Mulverick's Beacon"] = "Маяк Малверика";
+	["Stonehearth Bunker"] = "Укрытие Каменного Очага";
+	["Ivus the Forest Lord"] = "Ивус Лесной Властелин";
+	["Western Crater"] = "Западный Кратер";
+	["Vipore's Beacon"] = "Маяк Сквороца";
+	["Jeztor's Beacon"] = "Маяк Мааша";
+	["Eastern Crater"] = "Восточный Кратер";
+	["Slidore's Beacon"] = "Маяк Макарча";
+	["Guse's Beacon"] = "Маяк Смуггла";
+	["Graveyards, Capturable Areas"] = "Кладбище, Зоны захвата";--omitted from AVS
+	["Bunkers, Towers, Destroyable Areas"] = "Бункеры, Башни, Зоны уничтожения";--omitted from AVS
+	["Assault NPCs, Quest Areas"] = "Штурм НИПов, Зоны заданий";--omitted from AVS
 
 	--Alterac Valley (South)
-	["Frostwolf Clan"] = "Frostwolf Clan";
-	["Frostwolf Keep"] = "Frostwolf Keep";
-	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <Frostwolf General>";
-	["Duros"] = "Duros";
-	["Drakan"] = "Drakan";
-	["West Frostwolf Warmaster"] = "West Frostwolf Warmaster";
-	["East Frostwolf Warmaster"] = "East Frostwolf Warmaster";
-	["Tower Point Warmaster"] = "Tower Point Warmaster";
-	["Iceblood Warmaster"] = "Iceblood Warmaster";
-	["Lokholar the Ice Lord"] = "Lokholar the Ice Lord";
-	["Iceblood Garrison"] = "Iceblood Garrison";
-	["Captain Galvangar <Frostwolf Captain>"] = "Captain Galvangar <Frostwolf Captain>";
-	["Iceblood Tower"] = "Iceblood Tower";
-	["Iceblood Graveyard"] = "Iceblood Graveyard";
-	["Tower Point"] = "Tower Point";
-	["Coldtooth Mine"] = "Coldtooth Mine";
-	["Taskmaster Snivvle"] = "Taskmaster Snivvle";
-	["Masha Swiftcut"] = "Masha Swiftcut";
-	["Aggi Rumblestomp"] = "Aggi Rumblestomp";
-	["Frostwolf Graveyard"] = "Frostwolf Graveyard";
-	["Jotek"] = "Jotek";
-	["Smith Regzar"] = "Smith Regzar";
-	["Primalist Thurloga"] = "Primalist Thurloga";
-	["Sergeant Yazra Bloodsnarl"] = "Sergeant Yazra Bloodsnarl";
-	["Frostwolf Stable Master <Stable Master>"] = "Frostwolf Stable Master <Stable Master>";
-	["Frostwolf Wolf Rider Commander"] = "Frostwolf Wolf Rider Commander";
-	["Frostwolf Quartermaster"] = "Frostwolf Quartermaster";
-	["West Frostwolf Tower"] = "West Frostwolf Tower";
-	["East Frostwolf Tower"] = "East Frostwolf Tower";
-	["Frostwolf Relief Hut"] = "Frostwolf Relief Hut";
-	["Wildpaw Cavern"] = "Wildpaw Cavern";
-	["Frostwolf Banner"] = "Frostwolf Banner";
+	["Frostwolf Clan"] = "Клан Северного Волка";
+	["Frostwolf Keep"] = "Крепость Северного Волка";
+	["Drek'Thar <Frostwolf General>"] = "Дрек'Тар <Генерал клана Северного Волка>";
+	["Duros"] = "Дарос";
+	["Drakan"] = "Дракан";
+	["West Frostwolf Warmaster"] = "Воевода западной башни Северного Волка";
+	["East Frostwolf Warmaster"] = "Воевода восточной башни Северного Волка";
+	["Tower Point Warmaster"] = "Воевода Смотровой башня";
+	["Iceblood Warmaster"] = "Воевода Стылой Крови";
+	["Lokholar the Ice Lord"] = "Локолар Владыка Льда";
+	["Iceblood Garrison"] = "Гарнизон Стылой Крови";
+	["Captain Galvangar <Frostwolf Captain>"] = "Капитан Гальвангар <Капитан клана Северного Волка>";
+	["Iceblood Tower"] = "Башня Стылой Крови";
+	["Iceblood Graveyard"] = "Кладбище Стылой Крови";
+	["Tower Point"] = "Смотровая башня";
+	["Coldtooth Mine"] = "Рудник Ледяного Зуба";
+	["Taskmaster Snivvle"] = "Надсмотрщик Хныкс";
+	["Masha Swiftcut"] = "Маша Быстрорезка";
+	["Aggi Rumblestomp"] = "Агги Шумнотоп";
+	["Frostwolf Graveyard"] = "Кладбище Северного Волка";
+	["Jotek"] = "Джотек";
+	["Smith Regzar"] = "Кузнец Регзар";
+	["Primalist Thurloga"] = "Старейшина Турлога";
+	["Sergeant Yazra Bloodsnarl"] = "Сержант Язра Кровавый Рык";
+	["Frostwolf Stable Master <Stable Master>"] = "Смотритель стойл из клана Северного Волка <Смотритель стойл>";
+	["Frostwolf Wolf Rider Commander"] = "Командир наездников на волках клана Северного Волка";
+	["Frostwolf Quartermaster"] = "Интендант клана Северного Волка";
+	["West Frostwolf Tower"] = "Западная башня Северного Волка";
+	["East Frostwolf Tower"] = "Восточная башня Северного Волка";
+	["Frostwolf Relief Hut"] = "Приют Северного Волка";
+	["Wildpaw Cavern"] = "Пещера Дикой Лапы";
+	["Frostwolf Banner"] = "Знамя Северного Волка";
 
 	--Arathi Basin
-	["The Defilers"] = "The Defilers";
-	["The League of Arathor"] = "The League of Arathor";
-	["Trollbane Hall"] = "Trollbane Hall";
-	["Defiler's Den"] = "Defiler's Den";
-	["Stables"] = "Stables";
-	["Gold Mine"] = "Gold Mine";
-	["Smithy"] = "Smithy";
-	["Lumber Mill"] = "Lumber Mill";
-	["Farm"] = "Farm";
+	["The Defilers"] = "Осквернители";
+	["The League of Arathor"] = "Лига Аратора";
+	["Trollbane Hall"] = "Зал Троллебоя";
+	["Defiler's Den"] = "Логово Осквернителя";
+	["Stables"] = "Стойла";
+	["Gold Mine"] = "Золотой рудник";
+	["Smithy"] = "Кузница";
+	["Lumber Mill"] = "Лесопилка";
+	["Farm"] = "Ферма";
 
 	--Warsong Gulch
-	["Warsong Outriders"] = "Warsong Outriders";
+	["Warsong Outriders"] = "Всадники Песни Войны";
 	["Silverwing Sentinels"] = "Среброкрылые Часовые";
-	["Silverwing Hold"] = "Silverwing Hold";
-	["Warsong Lumber Mill"] = "Warsong Lumber Mill";
+	["Silverwing Hold"] = "Крепость Среброкрылых";
+	["Warsong Lumber Mill"] = "Лесопилка Песни Войны";
 
 	--Eye of the Storm
 	["Graveyard"] = "Кладбище";
 	["Flag"] = "Флаг";
-	["Mage Tower"] = "Mage Tower";
-	["Draenei Ruins"] = "Draenei Ruins";
-	["Fel Reaver Ruins"] = "Fel Reaver Ruins";
-	["Blood Elf Tower"] = "Blood Elf Tower";
+	["Mage Tower"] = "Башня Магов";
+	["Draenei Ruins"] = "Дренейские руины";
+	["Fel Reaver Ruins"] = "Обломки Скверномора";
+	["Blood Elf Tower"] = "Башня Эльфов Крови";
 
 };
 

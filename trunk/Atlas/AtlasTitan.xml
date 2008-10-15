@@ -31,14 +31,14 @@
 					<OnLoad>
 						if ( IsAddOnLoaded("Titan") ) then
 							TitanPanelAtlasButton_OnLoad();
-							TitanPanelButton_OnLoad();
+							TitanPanelButton_OnLoad(self);
 						end
 					</OnLoad>
 					<OnClick>
 						if ( arg1 == "LeftButton" ) then
 							Atlas_Toggle();
 						end
-						TitanPanelButton_OnClick(arg1, 1);
+						TitanPanelButton_OnClick(self, button);
 					</OnClick>
 					<OnMouseUp>
 						if ( arg1 == "MiddleButton" ) then

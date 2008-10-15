@@ -975,7 +975,7 @@ function Atlas_OnClick()
 	if ( arg1 == "RightButton" ) then
 		if (AtlasOptions.AtlasRightClick) then
 			Atlas_Toggle();
-			ToggleWorldMap();
+			ToggleFrame(WorldMapFrame);
 		end
 	end
 end

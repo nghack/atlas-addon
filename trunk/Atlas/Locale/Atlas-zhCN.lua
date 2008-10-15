@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
@@ -160,7 +160,7 @@ AtlasLocale = {
 	["Random"] = "随机";
 	["Raptor"] = "迅猛龙";
 	["Rare"] = "稀有";
-	["Rep"] = "阵营";
+	["Reputation"] = "阵营";
 	["Repair"] = "修理";
 	["Retribution Paladin"] = "惩戒圣骑士";
 	["Rewards"] = "奖励";

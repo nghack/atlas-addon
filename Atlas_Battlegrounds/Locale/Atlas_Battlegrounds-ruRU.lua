@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Data  (Russian)
 -- Compiled by StingerSoft
@@ -20,7 +20,7 @@ AtlasBGLocale = {
 	["North"] = "Севег";
 	["Orange"] = "Оранжевый";
 	["Red"] = "Красный";
-	["Rep"] = "Реп";
+	["Reputation"] = "Реп";
 	["Rescued"] = "Спасенный";
 	["South"] = "Юг";
 	["Summon"] = "Призыв";

@@ -9,7 +9,7 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Version: 1.12.2
+## Version: 1.12.3
 ## X-Date: October, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com

@@ -2,6 +2,9 @@
 = Change Log =
 ==============
 
+v1.12.3
+- fixed the toggle world map bug
+
 v1.12.2
 - scrolling error fix
 - all remaining instances of 'Rep' changed to 'Reputation' in the locale files

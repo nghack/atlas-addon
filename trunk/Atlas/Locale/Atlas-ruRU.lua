@@ -88,7 +88,7 @@ AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
 	["Ahn'Qiraj"]					= "Храм Ан'Киража";
 	["Karazhan"]					= "Каражан [A] (Старт)";
-	["Black Temple"]				= "Черный Храм [A] (Старт)";
+	["Black Temple"]				= "Черный храм [A] (Старт)";
 }; 
 
 AtlasLocale = {
@@ -125,12 +125,12 @@ AtlasLocale = {
 	["Event"] = "Событие";
 	["Exalted"] = "Превознесение";
 	["Exit"] = "Выход";
-	["Fourth Stop"] = "Четвертая Остановка";
+	["Fourth Stop"] = "Четвертая остановка";
 	["Front"] = "Передний";
 	["Ghost"] = "Призрак";
 	["Hallow's End"] = "Тыква";
 	["Heroic"] = "Героический";
-	["Holy Paladin"] = "Палаин-Света";
+	["Holy Paladin"] = "Паладин-Света";
 	["Holy Priest"] = "Жрец-Света";
 	["Horde"] = "Орда";
 	["Hunter"] = "Охотник";
@@ -194,10 +194,10 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Логово Крыла Тьмы"; ["BWL"] = "BWL";
 	["Cathedral"] = "Собор"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Пещеры Времени"; ["CoT"] = "CoT";
-	["Coilfang Reservoir"] = "Кривой Клык"; ["CR"] = "CR";
+	["Coilfang Reservoir"] = "Резервуар Кривого Клыка"; ["CR"] = "CR";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "DM";
 	["Gnomeregan"] = "Гномреган"; ["Gnome"] = "Gnome";
-	["Graveyard"] = "Кладбише"; ["GY"] = "GY";
+	["Graveyard"] = "Кладбище"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Логово Груула"; ["GL"] = "GL";
 	["Hellfire Citadel"] = "Цитадель Адского Пламени"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Бастионы Адского Пламени"; ["Ramp"] = "Ramp";
@@ -311,7 +311,7 @@ AtlasLocale = {
 	["Ghamoo-ra"] = "Гхаму-ра";
 	["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
 	["Lady Sarevess"] = "Леди Саревесс";
-	["Argent Guard Thaelrid <The Argent Dawn>"] = "Страж Талрид из ордена Серебряного Рассвета <Серебряный Рассвет >";
+	["Argent Guard Thaelrid <The Argent Dawn>"] = "Страж Талрид <Серебряный Рассвет >";
 	["Gelihast"] = "Гелихаст";
 	["Shrine of Gelihast"] = "Святыня Гелихастa";
 	["Lorgus Jett"] = "Лоргус Джетт";
@@ -430,7 +430,7 @@ AtlasLocale = {
 	
 	--Onyxia's Lair
 	["Drakefire Amulet"] = "Амулет Пламени дракона";
-	["Onyxian Warders"] = "Привратники Ониксии";
+	["Onyxian Warders"] = "Хранитель Ониксии";
 	["Whelp Eggs"] = "Яйца Щенка";
 	["Onyxia"] = "Ониксия";
 
@@ -451,8 +451,8 @@ AtlasLocale = {
 	["Ouro"] = "Оуро";
 	["Eye of C'Thun"] = "Око Ка-Туна";
 	["C'Thun"] = "Ка-Тун";
-	["Andorgos <Brood of Malygos>"] = "Андоргос <Племя Малигоса>";
-	["Vethsera <Brood of Ysera>"] = "Ветсера <Племя Изеры >";
+	["Andorgos <Brood of Malygos>"] = "Андоргос <Род Малигоса>";
+	["Vethsera <Brood of Ysera>"] = "Ветсера <Род Изеры >";
 	["Kandrostrasz <Brood of Alexstrasza>"] = "Кандострас <Племя Алекстразы>";
 	["Arygos"] = "Аригос";
 	["Caelestrasz"] = "Келестраз";
@@ -519,7 +519,7 @@ AtlasLocale = {
 	["Taretha"] = "Тарета";
 	["Jonathan Revah"] = "Джонатан Рева";
 	["Jerry Carter"] = "Джерри Картер";
-	["Traveling"] = "Tорговец";
+	["Traveling"] = "Странствующий";
 	["Thomas Yance <Travelling Salesman>"] = "Томас Янс <Странствующий торговец>";
 	["Aged Dalaran Wizard"] = "Даларанский старый волшебник";
 	["Kel'Thuzad <The Kirin Tor>"] = "Кел'Тузад <Кирин Тор>";
@@ -1064,7 +1064,7 @@ AtlasLocale = {
 	["Fel Crystals"] = "Кристалл Скверны";
 	["Tyrith"] = "Тирит";
 	["Vexallus"] = "Вексалиус";
-	["Scrying Orb"] = "Шар Соланиана";
+	["Scrying Orb"] = "Гадательный шар Соланиана";
 	["Kalecgos"] = "Калесгос";--omitted from SP
 	["Priestess Delrissa"] = "Жрица Делрисса";
 	["Apoko"] = "Апоко";
@@ -1303,7 +1303,7 @@ AtlasLocale = {
 	["Provisioner Tsaalt"] = "Поставщик Тсаальт";
 	["Dealer Tariq <Shady Dealer>"] = "Делец Тариг <Сомнительный делец>";
 
-	--Blackfathom Deeps (Entrance) Непроглядная Пучина
+	--Blackfathom Deeps (Entrance) 
 	--Nothing to translate!
 
 	--Blackrock Mountain (Entrance)
@@ -1328,8 +1328,8 @@ AtlasLocale = {
 	--Maraudon (Entrance)
 	["The Nameless Prophet"] = "Безымянный пророк";
 	["Kolk <The First Kahn>"] = "Колк <Первый хан>";
-	["Gelk <The Second Kahn>"] = "Гелк <Первый хан>";
-	["Magra <The Third Kahn>"] = "Магра <Первый хан>";
+	["Gelk <The Second Kahn>"] = "Гелк <Второй хан>";
+	["Magra <The Third Kahn>"] = "Магра <Третий хан>";
 	["Cavindra"] = "Кавиндра";
 
 	--The Deadmines (Entrance)

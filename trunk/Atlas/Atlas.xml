@@ -239,7 +239,7 @@
 				</Anchors>
 				<Scripts>
 					<OnVerticalScroll>
-						FauxScrollFrame_OnVerticalScroll(15, AtlasScrollBar_Update); 
+						FauxScrollFrame_OnVerticalScroll(self, offset, 15, AtlasScrollBar_Update); 
 					</OnVerticalScroll>
 					<OnShow>
 						AtlasScrollBar_Update()

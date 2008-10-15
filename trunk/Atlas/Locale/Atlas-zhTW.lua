@@ -1138,7 +1138,7 @@ AtlasLocale = {
 	["Captain Alina"] = "隊長阿蓮娜";
 	["Scout Orgarr"] = "斥候歐卡爾";
 	["Korag Proudmane"] = "科洛特·波特曼";
-	["Captain Boneshatter"] = "隊長碎骨r";
+	["Captain Boneshatter"] = "隊長碎骨";
 
 	--HFC: Hellfire Ramparts
 	["Watchkeeper Gargolmar"] = "看護者卡爾古瑪";

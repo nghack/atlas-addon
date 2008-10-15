@@ -811,7 +811,7 @@ end
 function AtlasFrameDropDownType_OnShow()
 	UIDropDownMenu_Initialize(AtlasFrameDropDownType, AtlasFrameDropDownType_Initialize);
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDownType, AtlasOptions.AtlasType);
-	UIDropDownMenu_SetWidth(190, AtlasFrameDropDownType);
+	UIDropDownMenu_SetWidth(AtlasFrameDropDownType, 190);
 end
 
 --Called whenever an item in the map type dropdown menu is clicked
@@ -844,7 +844,7 @@ end
 function AtlasFrameDropDown_OnShow()
 	UIDropDownMenu_Initialize(AtlasFrameDropDown, AtlasFrameDropDown_Initialize);
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDown, AtlasOptions.AtlasZone);
-	UIDropDownMenu_SetWidth(190, AtlasFrameDropDown);
+	UIDropDownMenu_SetWidth(AtlasFrameDropDown, 190);
 end
 
 --Called whenever an item in the main dropdown menu is clicked

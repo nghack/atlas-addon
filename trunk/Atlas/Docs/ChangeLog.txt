@@ -3,6 +3,8 @@
 ==============
 
 v1.12.1
+- updated TOC number to 30000 for the 3.0 patch
+- some compatibility fixes for the new patch
 - added 'Ahn'Qiraj' and 'Blackrock Mountain' as a prefix for the instances within them
 - added Delrissa's Minions to MT
 - added 'Griz Gutshank' to BRD

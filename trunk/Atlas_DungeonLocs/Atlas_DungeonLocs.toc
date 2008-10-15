@@ -11,7 +11,7 @@
 ## Notes-koKR: 던전 지역
 ## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置，顯示各個地下城所在位置
-## Version: 1.12.1
+## Version: 1.12.2
 ## X-Date: October, 2008
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com

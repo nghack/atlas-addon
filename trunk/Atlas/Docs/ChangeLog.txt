@@ -2,6 +2,11 @@
 = Change Log =
 ==============
 
+v1.12.2
+- scrolling error fix
+- all remaining instances of 'Rep' changed to 'Reputation' in the locale files
+- non-English readme files should have no more messed up characters
+
 v1.12.1
 - updated TOC number to 30000 for the 3.0 patch
 - some compatibility fixes for the new patch

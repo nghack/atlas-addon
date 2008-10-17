@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 27/06/2008
+-- Última Actualización (last update): 17/10/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -142,6 +142,7 @@ AtlasLocale = {
 	["East"] = "Este";
 	["Elevator"] = "Ascensor";
 	["End"] = "Fin";
+	["Engineer"] = "Ingeniero";	
 	["Entrance"] = "Entrada";
 	["Event"] = "Evento";
 	["Exalted"] = "Exaltado";
@@ -162,6 +163,7 @@ AtlasLocale = {
 	["Mage"] = "Mago";
 
 	["Meeting Stone"] = "Piedra de encuentro";
+	["Monk"] = "Monje";	
 	["Moonwell"] = "Claro de la luna";
 	["North"] = "Norte";
 	["Optional"] = "Opcional";
@@ -1094,6 +1096,16 @@ AtlasLocale = {
 	["Scrying Orb"] = "Orbe de visión";
 	["Kalecgos"] = "Kalecgos";
 	["Priestess Delrissa"] = "Sacerdotisa Delrissa";
+	["Apoko"] = "Apoko";
+	["Eramas Brightblaze"] = "Eramas Llamarada Brillante";
+	["Ellrys Duskhallow"] = "Ellrys Anochecher Santificado";
+	["Fizzle"] = "Fizel";
+	["Garaxxas"] = "Garaxxas";
+	["Sliver <Garaxxas' Pet>"] = "Tajada <Mascota de Garaxxas>";
+	["Kagani Nightstrike"] = "Kajani Golpe de la Noche";
+	["Warlord Salaris"] = "Señor de la Guerra Salaris";
+	["Yazzai"] = "Yazzai";
+	["Zelfan"] = "Zelfan";	
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael’thas Caminante del Sol <Señor de los elfos de sangre>";
 
 	--Sunwell Plateau

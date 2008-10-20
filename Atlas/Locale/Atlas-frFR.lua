@@ -253,7 +253,7 @@ AtlasLocale = {
 	["Sunken Temple"] = "Temple englouti"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
-	["Temple of Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ40"] = "AQ40";
+	["Temple of Ahn'Qiraj"] = "Le Temple d'Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "L'Arcatraz"; ["Arca"] = "Arca";
 	["The Black Morass"] = "Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
 	["The Blood Furnace"] = "La Fournaise du sang"; ["BF"] = "BF";

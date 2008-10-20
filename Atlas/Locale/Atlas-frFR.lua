@@ -210,6 +210,7 @@ AtlasLocale = {
 	["Workshop"] = "Atelier";
 
 	--Instance names and acronyms
+	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";

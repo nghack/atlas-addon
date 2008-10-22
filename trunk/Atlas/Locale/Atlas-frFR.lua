@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 11 /08 /2008
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 22/08/2008
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -109,10 +109,10 @@ ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'inter
 
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"]	= "Le temple englouti";
-	["Ahn'Qiraj"]				= "Le Temple d'Ahn'Qiraj";
+	["Ahn'Qiraj"]			= "Le Temple d'Ahn'Qiraj";
 	["Ruines d'Ahn'Qiraj"]		= "Les Ruines d'Ahn'Qiraj";
-	["Karazhan"]				= "Karazhan [A] (Début)";
-	["Temple Noir"]				= "Temple Noir [A] (Début)";	
+	["Karazhan"]			= "Karazhan [A] (Début)";
+	["Temple Noir"]			= "Temple Noir [A] (Début)";	
 };
 
 AtlasLocale = {
@@ -250,7 +250,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-	["Sunken Temple"] = "Temple englouti"; ["ST"] = "ST";
+	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
 	["Temple of Ahn'Qiraj"] = "Le Temple d'Ahn'Qiraj"; ["AQ40"] = "AQ40";
@@ -982,8 +982,8 @@ AtlasLocale = {
 	["Kel'Thuzad"] = "Kel'Thuzad";
 	
 	--Karazhan Start
-	["The Violet Eye"] = "L'Œil pourpre";--omitted from Karazhan End
-	["The Master's Key"] = "La clé du maître";--omitted from Karazhan End
+	["The Violet Eye"] = "L'Œil pourpre"; --omitted from Karazhan End
+	["The Master's Key"] = "La clé du maître"; --omitted from Karazhan End
 	["Blackened Urn"] = "Urne noircie";
 	["Staircase to the Ballroom"] = "Escalier de la salle de bal";
 	["Stairs to Upper Stable"] = "Escalier vers les Ecuries";
@@ -995,7 +995,7 @@ AtlasLocale = {
 	["Hastings <The Caretaker>"] = "Hastings <Le gardien>";
 	["Servant Quarters"] = "Quartier des serviteurs";
 	["Hyakiss the Lurker"] = "Hyakiss la Rôdeuse";
-["Rokad the Ravager"] = "Rodak le ravageur"; -- attente de confirmation par l'equipe de trad.
+	["Rokad the Ravager"] = "Rodak le ravageur";
 	["Shadikith the Glider"] = "Shadikith le glisseur";
 	["Berthold <The Doorman>"] = "Berthold <Le concierge>";
 	["Calliard <The Nightman>"] = "Calliard <Le veilleur de nuit>";
@@ -1125,9 +1125,9 @@ AtlasLocale = {
 --*******************
 	
 	--HFC: The Blood Furnace
-	["Thrallmar"] = "Thrallmar";--omitted from other HFC
-	["Honor Hold"] = "Bastion de l'honneur";--omitted from other HFC
-	["Flamewrought Key"] = "Clé en flammes forgées";--omitted from other HFC
+	["Thrallmar"] = "Thrallmar"; --omitted from other HFC
+	["Honor Hold"] = "Bastion de l'honneur"; --omitted from other HFC
+	["Flamewrought Key"] = "Clé en flammes forgées"; --omitted from other HFC
 	["The Maker"] = "Le Faiseur";
 	["Broggok"] = "Broggok";
 	["Keli'dan the Breaker"] = "Keli'dan le Briseur";
@@ -1143,9 +1143,9 @@ AtlasLocale = {
 	["Shattered Hand Executioner"] = "Bourreau de la Main brisée";
 	["Private Jacint"] = "Soldat Jacint";
 	["Rifleman Brownbeard"] = "Fusilier Brownbeard";
-["Captain Alina"] = "Captaine Alina"; -- attente de confirmation par l'equipe de trad.
+	["Captain Alina"] = "Captaine Alina";
 	["Scout Orgarr"] = "Eclaireur Orgarr";
-["Korag Proudmane"] = "Korag Proudmane"; -- attente de confirmation par l'equipe de trad.
+	["Korag Proudmane"] = "Korag Proudmane";
 	["Captain Boneshatter"] = "Capitaine Fracasse-os";
 
 	--HFC: Hellfire Ramparts
@@ -1159,8 +1159,8 @@ AtlasLocale = {
 	["Magtheridon"] = "Magtheridon";
 
 	--CR: The Slave Pens
-	["Cenarion Expedition"] = "Expédition cénarienne";--omitted from other CR
-	["Reservoir Key"] = "Clé du réservoir";--omitted from other CR
+	["Cenarion Expedition"] = "Expédition cénarienne"; --omitted from other CR
+	["Reservoir Key"] = "Clé du réservoir"; --omitted from other CR
 	["Mennu the Betrayer"] = "Mennu le Traître";
 	["Weeder Greenthumb"] = "Weeder la Main-verte";
 	["Skar'this the Heretic"] = "Skar'this l'Hérétique";
@@ -1196,7 +1196,7 @@ AtlasLocale = {
 	
 	--Auch: Mana-Tombs
 	["The Consortium"] = "Le Consortium";
-	["Auchenai Key"] = "Clé Auchenaï";--omitted from other Auch
+	["Auchenai Key"] = "Clé Auchenaï"; --omitted from other Auch
 	["The Eye of Haramad"] = "L'Oeil d'Haramad";
 	["Pandemonius"] = "Pandemonius";
 	["Shadow Lord Xiraxis"] = "Seigneur des ténèbres Xiraxis";
@@ -1208,7 +1208,7 @@ AtlasLocale = {
 	["Yor <Void Hound of Shaffar>"] = "Yor <Molosse du Vide de Shaffar>";
 	
 	--Auch: Auchenai Crypts
-	["Lower City"] = "Ville basse";--omitted from other Auch
+	["Lower City"] = "Ville basse"; --omitted from other Auch
 	["Shirrak the Dead Watcher"] = "Shirrak le Veillemort";
 	["Exarch Maladaar"] = "Exarque Maladaar";
 	["Avatar of the Martyred"] = "Avatar des martyrs";
@@ -1233,8 +1233,8 @@ AtlasLocale = {
 	["First Fragment Guardian"] = "Gardien du premier fragment";
 	
 	--TK: The Botanica
-	["The Sha'tar"] = "Les Sha'tar";--omitted from other TK
-	["Warpforged Key"] = "Clé dimensionnelle";--omitted from other TK
+	["The Sha'tar"] = "Les Sha'tar"; --omitted from other TK
+	["Warpforged Key"] = "Clé dimensionnelle"; --omitted from other TK
 	["Commander Sarannis"] = "Commandant Sarannis";
 	["High Botanist Freywinn"] = "Grand botaniste Freywinn";
 	["Thorngrin the Tender"] = "Rirépine le Tendre";
@@ -1280,8 +1280,8 @@ AtlasLocale = {
 	["Gruul the Dragonkiller"] = "Gruul le Tue-dragon";
 	
 	--Black Temple (Start)
-	["Ashtongue Deathsworn"] = "Ligemort Cendrelangue";--omitted from other BT
-	["Medallion of Karabor"] = "Médaillon de Karabor";--omitted from other BT
+	["Ashtongue Deathsworn"] = "Ligemort Cendrelangue"; --omitted from other BT
+	["Medallion of Karabor"] = "Médaillon de Karabor"; --omitted from other BT
 	["Towards Reliquary of Souls"] = "Vers Reliquaire des âmes";
 	["Towards Teron Gorefiend"] = "Vers Teron Fielsang";
 	["Towards Illidan Stormrage"] = "Vers Illidan Hurlorage";

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 9/1/2008
+-- Last Update : 10/23/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -36,12 +36,10 @@ ATLAS_STRING_CLEAR 			= "重置";
 ATLAS_STRING_MINLEVEL 		= "需要等级";
 
 ATLAS_OPTIONS_BUTTON		= "设置";
-ATLAS_OPTIONS_TITLE 		= "Atlas 设置";
 ATLAS_OPTIONS_SHOWBUT 		= "在小地图周围显示Atlas图标";
 ATLAS_OPTIONS_AUTOSEL 		= "自动选择副本地图";
 ATLAS_OPTIONS_BUTPOS 		= "图标位置";
 ATLAS_OPTIONS_TRANS 		= "透明度";
-ATLAS_OPTIONS_DONE 			= "完成";
 ATLAS_OPTIONS_REPMAP 		= "替换世界地图";
 ATLAS_OPTIONS_RCLICK 		= "点击右键打开世界地图";
 ATLAS_OPTIONS_SHOWMAPNAME 	= "显示地图名称";
@@ -50,13 +48,12 @@ ATLAS_OPTIONS_ACRONYMS 		= "显示简称";
 ATLAS_OPTIONS_SCALE 		= "窗口大小";
 ATLAS_OPTIONS_BUTRAD 		= "图标半径";
 ATLAS_OPTIONS_CLAMPED		= "使 Atlas 不超出游戏画面"
-ATLAS_OPTIONS_HELP 			= "按住左键可移动这个窗口"
 ATLAS_OPTIONS_CTRL 			= "弹出工具说明 (按住CTRL指向内容)"
 ATLAS_OPTIONS_COORDS		= "在世界地图上显示玩家坐标"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
-ATLAS_TITAN_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
+ATLAS_LDB_HINT = "单击打开 Atlas\n右键点击打开设置";
 
 ATLAS_OPTIONS_CATDD = "副本地图排序方式";
 ATLAS_DDL_CONTINENT = "所属大陆";

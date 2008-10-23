@@ -109,8 +109,8 @@ ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'inter
 
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"]	= "Le temple d'Atal'Hakkar";
-	["Ahn'Qiraj"]			= "Le Temple d'Ahn'Qiraj";
-	["Ruines d'Ahn'Qiraj"]		= "Les Ruines d'Ahn'Qiraj";
+	["Ahn'Qiraj"]			= "Temple d'Ahn'Qiraj";
+	["Ruines d'Ahn'Qiraj"]		= "Ruines d'Ahn'Qiraj";
 	["Karazhan"]			= "Karazhan [A] (Début)";
 	["Temple Noir"]			= "Temple Noir [A] (Début)";	
 };
@@ -253,7 +253,7 @@ AtlasLocale = {
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
-	["Temple of Ahn'Qiraj"] = "Le Temple d'Ahn'Qiraj"; ["AQ40"] = "AQ40";
+	["Temple of Ahn'Qiraj"] = "Temple d'Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "L'Arcatraz"; ["Arca"] = "Arca";
 	["The Black Morass"] = "Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
 	["The Blood Furnace"] = "La Fournaise du sang"; ["BF"] = "BF";

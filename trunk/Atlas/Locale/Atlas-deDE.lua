@@ -63,12 +63,10 @@ ATLAS_STRING_CLEAR = "Leeren";
 ATLAS_STRING_MINLEVEL = "Minimale Stufe";
 
 ATLAS_OPTIONS_BUTTON = "Optionen";
-ATLAS_OPTIONS_TITLE = "Atlas Optionen";
 ATLAS_OPTIONS_SHOWBUT = "Minimap-Schalter anzeigen";
 ATLAS_OPTIONS_AUTOSEL = "Automatische Karten-Auswahl";
 ATLAS_OPTIONS_BUTPOS = "Schalterposition";
 ATLAS_OPTIONS_TRANS = "Transparenz";
-ATLAS_OPTIONS_DONE = "Fertig";
 ATLAS_OPTIONS_REPMAP = "Weltkarte ersetzen";
 ATLAS_OPTIONS_RCLICK = "Rechte Maustaste für Weltkarte drücken";
 ATLAS_OPTIONS_SHOWMAPNAME = "Kartenname anzeigen";
@@ -77,13 +75,12 @@ ATLAS_OPTIONS_ACRONYMS = "Abkürzungen anzeigen";
 ATLAS_OPTIONS_SCALE = "Skalierung";
 ATLAS_OPTIONS_BUTRAD = "Schalterradius";
 ATLAS_OPTIONS_CLAMPED = "Fenster im Bildschirm festsetzen";
-ATLAS_OPTIONS_HELP = "Linke Maustaste zum Verschieben gedrückt halten.";
 ATLAS_OPTIONS_CTRL = "Steuerung drücken, um Tooltips anzuzeigen";
 ATLAS_OPTIONS_COORDS = "Koordinaten auf der Weltkarte anzeigen";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
-ATLAS_TITAN_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste drücken, um das Menü anzuzeigen.";
+ATLAS_LDB_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nRechte Maustaste drücken, um die Atlas Optionen anzuzeigen.";
 
 ATLAS_OPTIONS_CATDD = "Sortierung der Karten nach:";
 ATLAS_DDL_CONTINENT = "Kontinent";

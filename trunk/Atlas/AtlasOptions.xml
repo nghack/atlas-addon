@@ -24,41 +24,14 @@
 
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
-	<Frame name="AtlasOptionsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" clampedToScreen="true">
-		<Size>
-			<AbsDimension x="300" y="570"/>
-		</Size>
-		<Anchors>
-			<Anchor point="CENTER"/>
-		</Anchors>
-		<Backdrop bgFile="Interface\ChatFrame\ChatFrameBackground" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
-			<BackgroundInsets>
-				<AbsInset left="4" right="4" top="4" bottom="4"/>
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32"/>
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="16"/>
-			</EdgeSize>
-			<Color r="0" g="0" b="0" a="1"/>
-		</Backdrop>
+	<Frame name="AtlasOptionsFrame" hidden="true">
 		<Layers>
 			<Layer level="ARTWORK">
-				<FontString inherits="GameFontHighlightLarge" text="ATLAS_OPTIONS_TITLE">
+				<FontString inherits="GameFontNormalLarge" text="ATLAS_TITLE">
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="20" y="-20"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-				<FontString inherits="GameFontDisableSmall" text="ATLAS_OPTIONS_HELP">
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="20" y="-36"/>
+								<AbsDimension x="15" y="-15"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -66,11 +39,11 @@
 			</Layer>
 		</Layers>
 		<Frames>
-			<CheckButton name="$ParentToggleButton" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentToggleButton" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-60"/>
+							<AbsDimension x="15" y="-40"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -83,11 +56,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentAutoSelect" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentAutoSelect" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-90"/>
+							<AbsDimension x="15" y="-60"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -100,11 +73,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentRightClick" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentRightClick" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-120"/>
+							<AbsDimension x="15" y="-80"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -117,11 +90,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentAcronyms" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentAcronyms" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-150"/>
+							<AbsDimension x="15" y="-100"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -134,11 +107,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentClamped" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentClamped" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-180"/>
+							<AbsDimension x="15" y="-120"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -151,11 +124,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentCtrl" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentCtrl" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-210"/>
+							<AbsDimension x="15" y="-140"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -168,11 +141,11 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentCoords" inherits="OptionsCheckButtonTemplate">
+			<CheckButton name="$ParentCoords" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="20" y="-240"/>
+							<AbsDimension x="15" y="-160"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -187,12 +160,12 @@
 			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="240" y="16"/>
+					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-300" />
+							<AbsDimension x="0" y="-215" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -209,12 +182,12 @@
 			</Slider>
 			<Slider name="$ParentSliderButtonRad" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="240" y="16"/>
+					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-340" />
+							<AbsDimension x="0" y="-250" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -231,12 +204,12 @@
 			</Slider>
 			<Slider name="$ParentSliderAlpha" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="240" y="16"/>
+					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-380" />
+							<AbsDimension x="0" y="-285" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -253,12 +226,12 @@
 			</Slider>
 			<Slider name="$ParentSliderScale" inherits="OptionsSliderTemplate">
 				<Size>
-					<AbsDimension x="240" y="16"/>
+					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-420" />
+							<AbsDimension x="0" y="-320" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -280,7 +253,7 @@
 							<Anchors>
 								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
 									<Offset>
-										<AbsDimension x="21" y="0"/>
+										<AbsDimension x="20" y="0"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
@@ -288,9 +261,9 @@
 					</Layer>
 				</Layers>
 				<Anchors>
-					<Anchor point="TOPLEFT">
+					<Anchor point="BOTTOMLEFT">
 						<Offset>
-							<AbsDimension x="5" y="-475"/>
+							<AbsDimension x="0" y="15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -305,9 +278,9 @@
 					<AbsDimension x="160" y="32"/>
 				</Size>
 				<Anchors>
-					<Anchor point="BOTTOMLEFT">
+					<Anchor point="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="22" y="18"/>
+							<AbsDimension x="-20" y="15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -317,46 +290,11 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="$ParentDone" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_DONE">
-				<Size>
-					<AbsDimension x="80" y="32"/>
-				</Size>
-				<Anchors>
-					<Anchor point="BOTTOMRIGHT">
-						<Offset>
-							<AbsDimension x="-22" y="18"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnClick>
-						AtlasOptions_Toggle();
-					</OnClick>
-				</Scripts>
-			</Button>
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				AtlasOptions_OnLoad();
+				AtlasOptions_OnLoad(self);
 			</OnLoad>
-			<OnMouseDown>
-				if ( arg1 == "LeftButton" ) then
-					this:StartMoving()
-					this.isMoving = true
-				end
-			</OnMouseDown>
-			<OnMouseUp>
-				if this.isMoving then
-					this:StopMovingOrSizing()
-					this.isMoving = false
-				end
-			</OnMouseUp>
-			<OnHide>
-				if this.isMoving then
-					this:StopMovingOrSizing()
-					this.isMoving = false
-				end
-			</OnHide>
 		</Scripts>
 	</Frame>
 </Ui>

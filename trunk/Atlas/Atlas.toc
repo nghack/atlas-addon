@@ -19,6 +19,10 @@
 ## SavedVariablesPerCharacter: AtlasOptions
 ## OptionalDeps: Titan, myAddOns, EarthFeatureFrame
 
+Libs\LibStub.lua
+Libs\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1.lua
+
 Locale\Atlas-enUS.lua
 Locale\Atlas-ruRU.lua
 Locale\Atlas-deDE.lua
@@ -38,6 +42,3 @@ AtlasButton.xml
 
 AtlasOptions.lua
 AtlasOptions.xml
-
-AtlasTitan.lua
-AtlasTitan.xml

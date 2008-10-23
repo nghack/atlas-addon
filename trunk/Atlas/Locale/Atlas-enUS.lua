@@ -55,12 +55,10 @@ ATLAS_STRING_CLEAR = "Clear";
 ATLAS_STRING_MINLEVEL = "Minimum Level";
 
 ATLAS_OPTIONS_BUTTON = "Options";
-ATLAS_OPTIONS_TITLE = "Atlas Options";
 ATLAS_OPTIONS_SHOWBUT = "Show Button on Minimap";
 ATLAS_OPTIONS_AUTOSEL = "Auto-Select Instance Map";
 ATLAS_OPTIONS_BUTPOS = "Button Position";
 ATLAS_OPTIONS_TRANS = "Transparency";
-ATLAS_OPTIONS_DONE = "Done";
 ATLAS_OPTIONS_REPMAP = "Replace the World Map";
 ATLAS_OPTIONS_RCLICK = "Right-Click for World Map";
 ATLAS_OPTIONS_SHOWMAPNAME = "Show map name";
@@ -69,13 +67,12 @@ ATLAS_OPTIONS_ACRONYMS = "Display Acronyms";
 ATLAS_OPTIONS_SCALE = "Scale";
 ATLAS_OPTIONS_BUTRAD = "Button Radius";
 ATLAS_OPTIONS_CLAMPED = "Clamp window to screen";
-ATLAS_OPTIONS_HELP = "Left-click and drag to move this window.";
 ATLAS_OPTIONS_CTRL = "Hold down Control for tooltips";
 ATLAS_OPTIONS_COORDS = "Show coordinates on the World Map";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
-ATLAS_TITAN_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click for the display menu.";
+ATLAS_LDB_HINT = "Left-Click to open Atlas.\nRight-Click for Atlas options.";
 
 ATLAS_OPTIONS_CATDD = "Sort Instance Maps by:";
 ATLAS_DDL_CONTINENT = "Continent";

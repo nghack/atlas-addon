@@ -23,10 +23,10 @@
 --]]
 
 function AtlasOptions_Toggle()
-	if(AtlasOptionsFrame:IsVisible()) then
-		AtlasOptionsFrame:Hide();
+	if InterfaceOptionsFrame:IsVisible() then
+		InterfaceOptionsFrame:Hide();
 	else
-		AtlasOptionsFrame:Show();
+		InterfaceOptionsFrame_OpenToCategory("Atlas");
 	end
 end
 
@@ -91,8 +91,17 @@ function AtlasOptions_CoordsToggle()
 	Atlas_Refresh();
 end
 
-function AtlasOptions_OnLoad()
-	UIPanelWindows['AtlasOptionsFrame'] = {area = 'center', pushable = 0};
+function AtlasOptions_Reset()
+	Atlas_FreshOptions();
+	AtlasOptions_Init();
+	AtlasButton_Init();
+	Atlas_Refresh();
+end
+
+function AtlasOptions_OnLoad(panel)
+	panel.name = "Atlas";
+	panel.default = AtlasOptions_Reset;
+	InterfaceOptions_AddCategory(panel);
 end
 
 function AtlasOptions_Init()
@@ -120,7 +129,6 @@ function AtlasOptions_ResetPosition()
 end
 
 function AtlasOptions_SetupSlider(text, mymin, mymax, step)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..this:GetValue()..")");
 	this:SetMinMaxValues(mymin, mymax);
 	getglobal(this:GetName().."Low"):SetText(mymin);
 	getglobal(this:GetName().."High"):SetText(mymax);
@@ -133,7 +141,7 @@ local function round(num, idp)
 end
 
 function AtlasOptions_UpdateSlider(text)
-	getglobal(this:GetName().."Text"):SetText(text.." ("..round(this:GetValue(),2)..")");
+	getglobal(this:GetName().."Text"):SetText("|cffffd200"..text.." ("..round(this:GetValue(),2)..")");
 end
 
 

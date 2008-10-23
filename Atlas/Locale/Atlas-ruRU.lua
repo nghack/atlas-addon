@@ -17,10 +17,10 @@ ATLAS_TITLE = "Атлас";
 ATLAS_SUBTITLE = "Обозреватель карт подземелий";
 ATLAS_DESC = "Атлас это обозреватель карт подземелий.";
 
-BINDING_HEADER_ATLAS_TITLE = "Клавиатурные привязки Атласа";
+BINDING_HEADER_ATLAS_TITLE = "Сопоставления кнопок";
 BINDING_NAME_ATLAS_TOGGLE = "Атлас";
 BINDING_NAME_ATLAS_OPTIONS = "Настройки Атласа";
-BINDING_NAME_ATLAS_AUTOSEL = "Автоматический выбор поздемелья";
+BINDING_NAME_ATLAS_AUTOSEL = "Авто-выбор поздемелья";
 
 ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";
@@ -35,27 +35,24 @@ ATLAS_STRING_CLEAR = "Сбросить";
 ATLAS_STRING_MINLEVEL = "Минимальный уровень";
 
 ATLAS_OPTIONS_BUTTON = "Настройки";
-ATLAS_OPTIONS_TITLE = "Настройки Атласа";
-ATLAS_OPTIONS_SHOWBUT = "Показывать кнопку на мини-карте";
+ATLAS_OPTIONS_SHOWBUT = "Показывать кнопку у мини-карты";
 ATLAS_OPTIONS_AUTOSEL = "Автоматический выбор поздемелья";
 ATLAS_OPTIONS_BUTPOS = "Расположение кнопки";
 ATLAS_OPTIONS_TRANS = "Прозрачность";
-ATLAS_OPTIONS_DONE = "Готово";
 ATLAS_OPTIONS_REPMAP = "Замена карты мира";
-ATLAS_OPTIONS_RCLICK = "Правая кнопка мыши для показа карты мира";
+ATLAS_OPTIONS_RCLICK = "[Правая клавиша мыши] для показа карты мира";
 ATLAS_OPTIONS_SHOWMAPNAME = "Отображать имя карты";
 ATLAS_OPTIONS_RESETPOS = "Сбросить позиции";
 ATLAS_OPTIONS_ACRONYMS = "Отображать короткие названия";
 ATLAS_OPTIONS_SCALE = "Размер";
 ATLAS_OPTIONS_BUTRAD = "Радиус расположения кнопки";
 ATLAS_OPTIONS_CLAMPED = "Не заходить за размеры экрана"
-ATLAS_OPTIONS_HELP = "Перемещение этого окна - левая клавиша мыши"
-ATLAS_OPTIONS_CTRL = "Удерживайте клавишу Control для сравнений"
+ATLAS_OPTIONS_CTRL = "Удерживайте клавишу [Control] для сравнений"
 ATLAS_OPTIONS_COORDS = "Показывать координаты на карте мира"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Атлас";
-ATLAS_BUTTON_TOOLTIP_HINT = "Нажмите левую клавишу мыши, чтобы открыть Атлас.\nНажмите среднуюю клавишу мыши, чтобы открыть настройки Атласа.\nНажмите правую клавишу и перемещайте кнопку Атласа.";
-ATLAS_TITAN_HINT = "Нажмите левую клавишу мыши, чтобы открыть Атлас.\nНажмите среднуюю клавишу мыши, чтобы открыть настройки Атласа.\nНажмите правую клавишу для вывода меню.";
+ATLAS_BUTTON_TOOLTIP_HINT = "[Левая клавиша мыши] открывает Атлас.\n[Средняя клавиша мыши], открывает настройки Атласа.\n[Правая клавиша мыши] + [перемещение] изменяет позицию кнопки Атласа.";
+ATLAS_LDB_HINT = "[Левая клавиша мыши] открывает Атлас.\n[Правая клавиша мыши] открывает настройки Атласа.";
 
 ATLAS_OPTIONS_CATDD = "Сортировать подземелья по:";
 ATLAS_DDL_CONTINENT = "Контитенту";

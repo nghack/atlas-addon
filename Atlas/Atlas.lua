@@ -537,6 +537,26 @@ function Atlas_Init()
 			Atlas_Toggle
 		);
 	end
+	
+	--Make an LDB object
+	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("Atlas", {
+		type = "launcher",
+		text = "Atlas",
+		OnClick = function(_, msg)
+			if msg == "LeftButton" then
+				Atlas_Toggle();
+			elseif msg == "RightButton" then
+				AtlasOptions_Toggle();
+			end
+		end,
+		icon = "Interface\\WorldMap\\WorldMap-Icon",
+		OnTooltipShow = function(tooltip)
+			if not tooltip or not tooltip.AddLine then return end
+			tooltip:AddLine("|cffffffff"..ATLAS_TITLE)
+			tooltip:AddLine(ATLAS_LDB_HINT)
+		end,
+	})
+	
 end
 
 --Simple function to toggle the Atlas frame's lock status and update it's appearance

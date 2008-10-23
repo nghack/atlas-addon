@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Data Alpha (Russian)
 -- Compiled by Eugene Filatov, bigoblin, StingerSoft

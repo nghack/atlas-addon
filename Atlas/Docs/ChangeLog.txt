@@ -3,7 +3,13 @@
 ==============
 
 v1.12.3
-- fixed the toggle world map bug
+- fixed various errors on non-English clients
+- fixed the right-click to toggle world map bug
+- added LibDataBroker support
+- Titan Panel support fixed (via LDB)
+- changed the options panel to the built-in interface
+- added support for the built-in defaults button
+- removed the minimap button icon's green tint
 
 v1.12.2
 - scrolling error fix

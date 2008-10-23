@@ -108,7 +108,7 @@ ATLAS_SEARCH_UNAVAIL  = "Recherche Indisponible";
 ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Sélection automatique, Remplacer la Carte du Monde, Clic-Droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option de Sélection automatique est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplacer la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-Droit est activée, vous pourrez cliquer droit sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un Clic-Gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
 
 AtlasZoneSubstitutions = {
-	["Le temple d'Atal'Hakkar"]	= "Le temple englouti";
+	["Le temple d'Atal'Hakkar"]	= "Le temple d'Atal'Hakkar";
 	["Ahn'Qiraj"]			= "Le Temple d'Ahn'Qiraj";
 	["Ruines d'Ahn'Qiraj"]		= "Les Ruines d'Ahn'Qiraj";
 	["Karazhan"]			= "Karazhan [A] (Début)";

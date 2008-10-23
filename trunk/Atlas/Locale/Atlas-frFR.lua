@@ -218,7 +218,7 @@ AtlasLocale = {
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
 	["Blackrock Spire"] = "Pic Rochenoire"; ["LBRS"] = "LBRS/Pic 1"; ["UBRS"] = "UBRS/Pic 2";
-	["Blackwing Lair"] = "Repaire de l'Aile Noire"; ["BWL"] = "BWL";
+	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";

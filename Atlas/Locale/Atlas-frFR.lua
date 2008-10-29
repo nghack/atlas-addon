@@ -112,7 +112,7 @@ AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"]			= "Temple d'Ahn'Qiraj";
 	["Ruines d'Ahn'Qiraj"]		= "Ruines d'Ahn'Qiraj";
 	["Karazhan"]			= "Karazhan [A] (Début)";
-	["Temple Noir"]			= "Temple Noir [A] (Début)";	
+	["Temple noir"]			= "Temple noir [A] (Début)";	
 };
 
 AtlasLocale = {
@@ -214,7 +214,7 @@ AtlasLocale = {
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
-	["Black Temple"] = "Temple Noir"; ["BT"] = "BT";
+	["Black Temple"] = "Temple noir"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
 	["Blackrock Spire"] = "Pic Rochenoire"; ["LBRS"] = "LBRS/Pic 1"; ["UBRS"] = "UBRS/Pic 2";

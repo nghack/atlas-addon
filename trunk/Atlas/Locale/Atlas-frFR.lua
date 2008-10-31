@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 22/08/2008
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 31/10/2008
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -34,72 +34,76 @@ if ( GetLocale() == "frFR" ) then
 
 AtlasSortIgnore = {"le (.+)", "la (.+)", "les (.+)"};
 
-ATLAS_TITLE    = "Atlas";
+ATLAS_TITLE = "Atlas";
 ATLAS_SUBTITLE = "Navigateur de cartes d'instances";
-ATLAS_DESC     = "Atlas est un navigateur de cartes d'instances.";
+ATLAS_DESC = "Atlas est un navigateur de cartes d'instances.";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas";
 BINDING_NAME_ATLAS_TOGGLE  = "Atlas [Ouvrir/Fermer]";
 BINDING_NAME_ATLAS_OPTIONS = "Options [Ouvrir/Fermer]";
 BINDING_NAME_ATLAS_AUTOSEL = "Auto-Select";
 
-ATLAS_SLASH         = "/atlas";
+ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "options";
 
-ATLAS_STRING_LOCATION    = "Lieu";
-ATLAS_STRING_LEVELRANGE  = "Niveau";
+ATLAS_STRING_LOCATION = "Lieu";
+ATLAS_STRING_LEVELRANGE = "Niveau";
 ATLAS_STRING_PLAYERLIMIT = "Limite de joueurs";
-ATLAS_STRING_SELECT_CAT  = "Choix de la catégorie";
-ATLAS_STRING_SELECT_MAP  = "Choix de la carte";
-ATLAS_STRING_SEARCH      = "Rechercher";
-ATLAS_STRING_CLEAR       = "Nettoyer";
-ATLAS_STRING_MINLEVEL	 = "Niveau Minimum";
+ATLAS_STRING_SELECT_CAT = "Choix de la catégorie";
+ATLAS_STRING_SELECT_MAP = "Choix de la carte";
+ATLAS_STRING_SEARCH = "Rechercher";
+ATLAS_STRING_CLEAR = "Nettoyer";
+ATLAS_STRING_MINLEVEL = "Niveau Minimum";
 
-ATLAS_OPTIONS_BUTTON      = "Options";
-ATLAS_OPTIONS_TITLE       = "Atlas Options";
-ATLAS_OPTIONS_SHOWBUT     = "Voir le bouton sur la mini-carte";
-ATLAS_OPTIONS_AUTOSEL     = "Sélection automatique de la carte";
-ATLAS_OPTIONS_BUTPOS      = "Position du bouton";
-ATLAS_OPTIONS_TRANS       = "Transparence";
-ATLAS_OPTIONS_DONE        = "Valider";
-ATLAS_OPTIONS_REPMAP      = "Remplacer la carte du monde";
-ATLAS_OPTIONS_RCLICK      = "Clic-Droit pour la carte du monde";
+ATLAS_OPTIONS_BUTTON = "Options";
+ATLAS_OPTIONS_TITLE = "Atlas Options";
+ATLAS_OPTIONS_SHOWBUT = "Voir le bouton sur la mini-carte";
+ATLAS_OPTIONS_AUTOSEL = "Sélection automatique de la carte";
+ATLAS_OPTIONS_BUTPOS = "Position du bouton";
+ATLAS_OPTIONS_TRANS = "Transparence";
+ATLAS_OPTIONS_DONE = "Valider";
+ATLAS_OPTIONS_REPMAP = "Remplacer la carte du monde";
+ATLAS_OPTIONS_RCLICK = "Clic-Droit pour la carte du monde";
 ATLAS_OPTIONS_SHOWMAPNAME = "Afficher le nom de la carte";
-ATLAS_OPTIONS_RESETPOS    = "Position initiale";
-ATLAS_OPTIONS_ACRONYMS    = "Afficher les acronymes VO/VF";
-ATLAS_OPTIONS_SCALE       = "Echelle";
-ATLAS_OPTIONS_BUTRAD      = "Rayon du bouton";
-ATLAS_OPTIONS_CLAMPED     = "Fixer la fenêtre à l'écran";
-ATLAS_OPTIONS_HELP        = "Clic-Gauche pour déplacer cette fenêtre.";
-ATLAS_OPTIONS_CTRL        = "Maintenir la touche Ctrl enfoncée pour voir les infobulles"
-ATLAS_OPTIONS_COORDS      = "Montrer les coordonnées sur la carte du monde"
+ATLAS_OPTIONS_RESETPOS = "Position initiale";
+ATLAS_OPTIONS_ACRONYMS = "Afficher les acronymes VO/VF";
+ATLAS_OPTIONS_SCALE = "Echelle";
+ATLAS_OPTIONS_BUTRAD = "Rayon du bouton";
+ATLAS_OPTIONS_CLAMPED = "Fixer la fenêtre à l'écran";
+ATLAS_OPTIONS_HELP = "Clic-Gauche pour déplacer cette fenêtre.";
+ATLAS_OPTIONS_CTRL = "Maintenir la touche Ctrl enfoncée pour voir les infobulles"
+ATLAS_OPTIONS_COORDS = "Montrer les coordonnées sur la carte du monde"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour déplacer ce bouton.";
 ATLAS_LDB_HINT = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour le menu d'affichage.";
 
-ATLAS_OPTIONS_CATDD          = "Trier les instances par :";
-ATLAS_DDL_CONTINENT          = "Continent";
-ATLAS_DDL_CONTINENT_EASTERN  = "Instances des Royaumes de l'Est";
+ATLAS_OPTIONS_CATDD = "Trier les instances par :";
+ATLAS_DDL_CONTINENT = "Continent";
+ATLAS_DDL_CONTINENT_EASTERN = "Instances des Royaumes de l'Est";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Instances de Kalimdor";
-ATLAS_DDL_CONTINENT_OUTLAND  = "Instances de l'Outreterre";
-ATLAS_DDL_LEVEL              = "Niveau";
-ATLAS_DDL_LEVEL_UNDER45      = "Instances avant Niveau 45";
-ATLAS_DDL_LEVEL_45TO60       = "Instances Niveau 45-60";
-ATLAS_DDL_LEVEL_60TO70       = "Instances Niveau 60-70";
-ATLAS_DDL_LEVEL_70PLUS       = "Instances Niveau 70+";
-ATLAS_DDL_PARTYSIZE          = "Taille de Groupe";
-ATLAS_DDL_PARTYSIZE_5        = "Instances pour 5 Joueurs";
-ATLAS_DDL_PARTYSIZE_10       = "Instances pour 10 Joueurs";
-ATLAS_DDL_PARTYSIZE_20TO40   = "Instances pour 20-40 Joueurs";
-ATLAS_DDL_EXPANSION          = "Extension";
-ATLAS_DDL_EXPANSION_OLD_AO	 = "Instances du Vieux Monde (A-O)";
-ATLAS_DDL_EXPANSION_OLD_PZ	 = "Instances du Vieux Monde (P-Z)";
-ATLAS_DDL_EXPANSION_BC       = "Instances Burning Crusade";
-ATLAS_DDL_TYPE				 = "Type";
-ATLAS_DDL_TYPE_INSTANCE_AK	 = "Instances A-K";
-ATLAS_DDL_TYPE_INSTANCE_MZ	 = "Instances M-Z";
-ATLAS_DDL_TYPE_ENTRANCE		 = "Entrées";
+ATLAS_DDL_CONTINENT_OUTLAND = "Instances de l'Outreterre";
+ATLAS_DDL_CONTINENT_NORTHREND = "Instances de Northrend";
+ATLAS_DDL_LEVEL = "Niveau";
+ATLAS_DDL_LEVEL_UNDER45 = "Instances avant Niveau 45";
+ATLAS_DDL_LEVEL_45TO60 = "Instances Niveau 45-60";
+ATLAS_DDL_LEVEL_60TO70 = "Instances Niveau 60-70";
+ATLAS_DDL_LEVEL_70PLUS = "Instances Niveau 70+";
+ATLAS_DDL_PARTYSIZE  = "Taille de Groupe";
+ATLAS_DDL_PARTYSIZE_5_AC = "Instances pour 5 Joueurs A-C";
+ATLAS_DDL_PARTYSIZE_5_DZ = "Instances pour 5 Joueurs D-Z";
+ATLAS_DDL_PARTYSIZE_10 = "Instances pour 10 Joueurs";
+ATLAS_DDL_PARTYSIZE_20TO40 = "Instances pour 20-40 Joueurs";
+ATLAS_DDL_EXPANSION = "Extension";
+ATLAS_DDL_EXPANSION_OLD_AO = "Instances du Vieux Monde (A-O)";
+ATLAS_DDL_EXPANSION_OLD_PZ = "Instances du Vieux Monde (P-Z)";
+ATLAS_DDL_EXPANSION_BC = "Instances Burning Crusade";
+ATLAS_DDL_EXPANSION_WOTLK = "Instances Wrath of the Lich King";
+ATLAS_DDL_TYPE = "Type";
+ATLAS_DDL_TYPE_INSTANCE_AC = "Instances A-C";
+ATLAS_DDL_TYPE_INSTANCE_DR = "Instances D-R";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "Instances S-Z";
+ATLAS_DDL_TYPE_ENTRANCE = "Entrées";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrée";
@@ -108,11 +112,11 @@ ATLAS_SEARCH_UNAVAIL  = "Recherche Indisponible";
 ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Sélection automatique, Remplacer la Carte du Monde, Clic-Droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option de Sélection automatique est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplacer la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-Droit est activée, vous pourrez cliquer droit sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un Clic-Gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
 
 AtlasZoneSubstitutions = {
-	["Le temple d'Atal'Hakkar"]	= "Le temple d'Atal'Hakkar";
-	["Ahn'Qiraj"]			= "Temple d'Ahn'Qiraj";
-	["Ruines d'Ahn'Qiraj"]		= "Ruines d'Ahn'Qiraj";
-	["Karazhan"]			= "Karazhan [A] (Début)";
-	["Temple noir"]			= "Temple noir [A] (Début)";	
+	["Le temple d'Atal'Hakkar"] = "Le temple d'Atal'Hakkar";
+	["Ahn'Qiraj"] = "Temple d'Ahn'Qiraj";
+	["Ruines d'Ahn'Qiraj"] = "Ruines d'Ahn'Qiraj";
+	["Karazhan"] = "Karazhan [A] (Début)";
+	["Temple noir"] = "Temple noir [A] (Début)";	
 };
 
 AtlasLocale = {
@@ -159,6 +163,7 @@ AtlasLocale = {
 	["Horde"] = "Horde";
 	["Hunter"] = "Chasseur";
 	["Imp"] = "Diablotin";
+	["Inside"] = "À l'intérieur";
 	["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation
 	["Lower"] = "En bas";
 	["Lunar"] = "Fête lunaire";
@@ -207,13 +212,14 @@ AtlasLocale = {
 	["Warlock"] = "Démoniste";
 	["Warrior"] = "Guerrier";
 	["West"] = "Ouest";
-	["Workshop"] = "Atelier";
 
 	--Instance names and acronyms
+["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: The Old Kingdom"; -- à traduire à WotLK
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
+["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN"; -- à traduire à WotLK
 	["Black Temple"] = "Temple noir"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
@@ -223,9 +229,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
+["Drak'Tharon Keep"] = "Drak'Tharon Keep"; -- à traduire à WotLK
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cimetière"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Repaire de Gruul"; ["GL"] = "GL";
+["Gundrak"] = "Gundrak"; -- à traduire à WotLK
+["Halls of Stone"] = "Halls of Stone"; -- à traduire à WotLK
+["Halls of Lightning"] = "Halls of Lightning"; -- à traduire à WotLK
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
@@ -258,15 +268,23 @@ AtlasLocale = {
 	["The Black Morass"] = "Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
 	["The Blood Furnace"] = "La Fournaise du sang"; ["BF"] = "BF";
 	["The Botanica"] = "La Botanica"; ["Bota"] = "Bota";
+["The Culling of Stratholme"] = "The Culling of Stratholme"; -- à traduire à WotLK
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
+["The Nexus"] = "The Nexus"; -- à traduire à WotLK
+["The Obsidian Sanctum"] = "The Obsidian Sanctum"; -- à traduire à WotLK
+["The Oculus"] = "The Oculus"; -- à traduire à WotLK
 	["The Shattered Halls"] = "Les Salles brisées"; ["SH"] = "SH";
 	["The Slave Pens"] = "Les enclos aux esclaves"; ["SP"] = "SP";
 	["The Steamvault"] = "Le Caveau de la vapeur"; ["SV"] = "SV";
 	["The Stockade"] = "La Prison"; ["Stocks"] = "Stocks/Prison";
 	["The Underbog"] = "La Basse-tourbière"; ["UB"] = "UB";
+["The Violet Hold"] = "The Violet Hold"; -- à traduire à WotLK
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+["Ulduar"] = "Ulduar"; -- à traduire à WotLK
+["Utgarde Keep"] = "Utgarde Keep"; -- à traduire à WotLK
+["Utgarde Pinnacle"] = "Utgarde Pinnacle"; -- à traduire à WotLK
 	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
@@ -276,21 +294,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
 	["Kalimdor"] = "Kalimdor";
 	["Outland"] = "Outreterre";
-	
+	["Northrend"] = "Northrend";
+
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Orneval";
 	["Badlands"] = "Terres ingrates";
 	["Blackrock Mountain"] = "Mont Rochenoire"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "Les Tranchantes";
+	["Borean Tundra"] = "Toundra Boréenne";
 	["Burning Steppes"] = "Steppes ardentes";
+	["Dalaran"] = "Dalaran";
 	["Deadwind Pass"] = "Défilé de Deuillevent";
 	["Desolace"] = "Désolace";
+	["Dragonblight"] = "Désolation des dragons";
 	["Dun Morogh"] = "Dun Morogh";
 	["Dustwallow Marsh"] = "Marécage d'Âprefange";
 	["Eastern Plaguelands"] = "Maleterres de l'est";
 	["Feralas"] = "Féralas";
 	["Ghostlands"] = "Terres Fantômes";
+	["Grizzly Hills"] = "Les Grisonnes";
 	["Hellfire Peninsula"] = "Péninsule des Flammes infernales";
+	["Howling Fjord"] = "Fjord Hurlant";
 	["Isle of Quel'Danas"] = "Île de Quel’Danas";
 	["Netherstorm"] = "Raz-de-Néant";
 	["Orgrimmar"] = "Orgrimmar";
@@ -304,10 +328,12 @@ AtlasLocale = {
 	["Tanaris"] = "Tanaris";
 	["Terokkar Forest"] = "Forêt de Terokkar";
 	["The Barrens"] = "Les Tarides";
+	["The Storm Peaks"] = "Les pics Foudroyés";
 	["Tirisfal Glades"] = "Clairières de Tirisfal";
 	["Western Plaguelands"] = "Maleterres de l'ouest";
 	["Westfall"] = "Marche de l'Ouest";
 	["Zangarmarsh"] = "Marécage de Zangar";
+	["Zul'Drak"] = "Zul'Drak";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -1421,6 +1447,96 @@ AtlasLocale = {
 	
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+
+--*****************
+-- WotLK Instances
+-- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
+-- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
+-- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
+--*****************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Hadronox"] = "Hadronox";
+	["Anub'arak"] = "Anub'arak";
 	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "Meathook";
+	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
+	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
+	["Mal'Ganis"] = "Mal'Ganis";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "Trollgore";
+	["Novos the Summoner"] = "Novos the Summoner";
+	["King Dred"] = "King Dred";
+	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
+	
+	--Gundrak
+	["Slad'ran"] = "Slad'ran";
+	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Moorabi"] = "Moorabi";
+	["Gal'darah"] = "Gal'darah";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
+	["Maiden of Grief"] = "Maiden of Grief";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth"] = "Prince Keleseth";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Keristrasza"] = "Keristrasza";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nakox"] = "Elder Nakox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
+	["Herald Volazj"] = "Herald Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Wave 18";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos the Interrogator";
+	["Mage-Lord Urom"] = "Mage-Lord Urom";
+	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
+	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
+
 };
 end

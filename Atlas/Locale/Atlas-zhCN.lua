@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/23/2008
+-- Last Update : 10/31/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -60,22 +60,26 @@ ATLAS_DDL_CONTINENT = "所属大陆";
 ATLAS_DDL_CONTINENT_EASTERN = "东部王国副本";
 ATLAS_DDL_CONTINENT_KALIMDOR = "卡利姆多副本";
 ATLAS_DDL_CONTINENT_OUTLAND = "外域副本";
+ATLAS_DDL_CONTINENT_NORTHREND = "诺森德副本";
 ATLAS_DDL_LEVEL = "副本等级";
 ATLAS_DDL_LEVEL_UNDER45 = "45级以下副本";
 ATLAS_DDL_LEVEL_45TO60 = "45-60级副本";
 ATLAS_DDL_LEVEL_60TO70 = "60-70级副本";
 ATLAS_DDL_LEVEL_70PLUS = "70+级副本";
 ATLAS_DDL_PARTYSIZE = "副本规模";
-ATLAS_DDL_PARTYSIZE_5 = "5人副本";
+ATLAS_DDL_PARTYSIZE_5_AC = "5人副本 (第一页)";
+ATLAS_DDL_PARTYSIZE_5_DZ = "5人副本 (第二页)";
 ATLAS_DDL_PARTYSIZE_10 = "10人副本";
 ATLAS_DDL_PARTYSIZE_20TO40 = "20-40人副本";
 ATLAS_DDL_EXPANSION = "资料片";
 ATLAS_DDL_EXPANSION_OLD_AO = "旧世界副本 (第一页)";
 ATLAS_DDL_EXPANSION_OLD_PZ = "旧世界副本 (第二页)";
 ATLAS_DDL_EXPANSION_BC = "《燃烧的远征》副本";
+ATLAS_DDL_EXPANSION_WOTLK = "《巫妖王之怒》副本";
 ATLAS_DDL_TYPE = "类型";
-ATLAS_DDL_TYPE_INSTANCE_AK = "副本 (第一页)";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "副本 (第二页)";
+ATLAS_DDL_TYPE_INSTANCE_AC = "副本 (第一页)";
+ATLAS_DDL_TYPE_INSTANCE_DR = "副本 (第二页)";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "副本 (第三页)";
 ATLAS_DDL_TYPE_ENTRANCE = "入口";
 
 ATLAS_INSTANCE_BUTTON = "副本";
@@ -137,6 +141,7 @@ AtlasLocale = {
 	["Horde"] = "部落";
 	["Hunter"] = "猎人";
 	["Imp"] = "小鬼";
+	["Inside"] = "内部";
 	["Key"] = "钥匙";
 	["Lower"] = "下层";
 	["Lunar"] = "春节";
@@ -185,10 +190,12 @@ AtlasLocale = {
 	["West"] = "西区";
 
 	--Instance names and acronyms
+	["Ahn'kahet: The Old Kingdom"] = "安卡雷：古代王国";
 	["Ahn'Qiraj"] = "安其拉"; ["AQ"] = "AQ";
 	["Armory"] = "军械库";
 	["Auchenai Crypts"] = "奥金尼地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奥金顿"; ["Auch"] = "Auch";
+	["Azjol-Nerub"] = "艾卓-尼鲁布"; ["AN"] = "AN";
 	["Black Temple"] = "黑暗神殿"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "黑暗深渊"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "黑石深渊"; ["BRD"] = "BRD";
@@ -198,9 +205,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "时光之穴"; ["CoT"] = "CoT";
 	["Coilfang Reservoir"] = "盘牙水库"; ["CR"] = "CR";
 	["Dire Maul"] = "厄运之槌"; ["DM"] = "DM";
+	["Drak'Tharon Keep"] = "达克萨隆要塞";
 	["Gnomeregan"] = "诺莫瑞根"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "墓地"; ["GY"] = "GY";
 	["Gruul's Lair"] = "格鲁尔的巢穴"; ["GL"] = "GL";
+	["Gundrak"] = "古达克";
+	["Halls of Stone"] = "岩石大厅";
+	["Halls of Lightning"] = "闪电大厅";
 	["Hellfire Citadel"] = "地狱火堡垒"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "地狱火城墙"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加尔峰"; ["CoT3"] = "CoT3";
@@ -233,15 +244,23 @@ AtlasLocale = {
 	["The Black Morass"] = "黑色沼泽"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "鲜血熔炉"; ["BF"] = "BF";
 	["The Botanica"] = "生态船"; ["Bota"] = "Bota";
+	["The Culling of Stratholme"] = "净化斯坦索姆";
 	["The Deadmines"] = "死亡矿井"; ["VC"] = "VC";
 	["The Eye"] = "风暴之眼"; ["Eye"] = "Eye";
 	["The Mechanar"] = "能源舰"; ["Mech"] = "Mech";
+	["The Nexus"] = "魔枢";
+	["The Obsidian Sanctum"] = "黑曜石圣殿";
+	["The Oculus"] = "魔环";
 	["The Shattered Halls"] = "破碎大厅"; ["SH"] = "SH";
 	["The Slave Pens"] = "奴隶围栏"; ["SP"] = "SP";
 	["The Steamvault"] = "蒸汽地窖"; ["SV"] = "SV";
 	["The Stockade"] = "监狱"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "幽暗沼泽"; ["UB"] = "UB";
+	["The Violet Hold"] = "紫罗兰监狱";
 	["Uldaman"] = "奥达曼"; ["Uld"] = "Uld";
+	["Ulduar"] = "奥杜尔";
+	["Utgarde Keep"] = "乌特加德城堡";
+	["Utgarde Pinnacle"] = "乌特加德之巅";
 	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC";
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖尔法拉克"; ["ZF"] = "ZF";
@@ -251,21 +270,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "东部王国";
 	["Kalimdor"] = "卡利姆多";
 	["Outland"] = "外域";
+	["Northrend"] = "诺森德";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "灰谷";
 	["Badlands"] = "荒芜之地";
 	["Blackrock Mountain"] = "黑石山"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "刀锋山";
+	["Borean Tundra"] = "北风苔原";
 	["Burning Steppes"] = "燃烧平原";
+	["Dalaran"] = "达拉然";
 	["Deadwind Pass"] = "逆风小径";
 	["Desolace"] = "凄凉之地";
+	["Dragonblight"] = "龙骨荒野";
 	["Dun Morogh"] = "丹莫罗";
 	["Dustwallow Marsh"] = "尘泥沼泽";
 	["Eastern Plaguelands"] = "东瘟疫之地";
 	["Feralas"] = "菲拉斯";
 	["Ghostlands"] = "幽魂之地";
+	["Grizzly Hills"] = "灰熊丘陵";
 	["Hellfire Peninsula"] = "地狱火半岛";
+	["Howling Fjord"] = "嚎风峡湾";
 	["Isle of Quel'Danas"] = "奎尔丹纳斯岛";
 	["Netherstorm"] = "虚空风暴";
 	["Orgrimmar"] = "奥格瑞玛";
@@ -279,10 +304,12 @@ AtlasLocale = {
 	["Tanaris"] = "塔纳利斯";
 	["Terokkar Forest"] = "泰罗卡森林";
 	["The Barrens"] = "贫瘠之地";
+	["The Storm Peaks"] = "风暴峭壁";
 	["Tirisfal Glades"] = "提瑞斯法林地";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
 	["Zangarmarsh"] = "赞加沼泽";
+	["Zul'Drak"] = "祖达克";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -1395,6 +1422,92 @@ AtlasLocale = {
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
 
+--*****************
+-- WotLK Instances
+--*****************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "看门者克里克希尔 ";
+	["Hadronox"] = "哈多诺克斯";
+	["Anub'arak"] = "阿努巴拉克";
+	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "肉钩";
+	["Salramm the Fleshcrafter"] = "塑血者沙尔拉姆";
+	["Chrono-Lord Epoch"] = "时光领主埃博克";
+	["Mal'Ganis"] = "玛尔加尼斯";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "托尔戈";
+	["Novos the Summoner"] = "召唤者诺沃斯";
+	["King Dred"] = "暴龙之王爵德";
+	["The Prophet Tharon'ja"] = "先知萨隆亚";
+	
+	--Gundrak
+	["Slad'ran"] = "斯拉德兰";
+	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Moorabi"] = "莫拉比";
+	["Gal'darah"] = "迦尔达拉";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "克莱斯塔卢斯";
+	["Brann Bronzebeard"] = "布莱恩·铜须";
+	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
+	["Maiden of Grief"] = "悲伤圣女";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "比亚格里将军";
+	["Volkhan"] = "沃尔坎";
+	["Ionar"] = "艾欧纳尔";
+	["Loken"] = "洛肯";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth"] = "凯雷塞斯王子";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
+	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "席瓦拉·索格蕾";
+	["Gortok Palehoof"] = "戈托克·苍蹄";
+	["Skadi the Ruthless"] = "残忍的斯卡迪";
+	["King Ymiron"] = "伊米隆国王";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "阿诺玛鲁斯";
+	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
+	["Grand Magis Telestra"] = "大魔导师泰蕾丝塔";
+	["Keristrasza"] = "克莉斯塔萨";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nakox"] = "纳多克斯长老";
+	["Prince Taldaram"] = "塔达拉姆王子";
+	["Jedoga Shadowseeker"] = "耶戈达·觅影者";
+	["Herald Volazj"] = "传令官沃拉兹";
+	["Amanitar"] = "埃曼尼塔";
+
+	--The Violet Hold
+	["Erekem"] = "埃雷克姆";
+	["Zuramat the Obliterator"] = "湮灭者祖拉玛特";
+	["Xevozz"] = "谢沃兹";
+	["Ichoron"] = "艾库隆";
+	["Moragg"] = "摩拉格";
+	["Lavanthor"] = "拉文索尔";
+	["Cyanigosa"] = "塞安妮苟萨";
+	["Wave 18"] = "第18波";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "审讯者达库斯";
+	["Mage-Lord Urom"] = "法师领主伊洛姆";
+	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
+	["Commander Varos Cloudstrider"] = "瓦尔洛斯·云击";
 
 };
 end

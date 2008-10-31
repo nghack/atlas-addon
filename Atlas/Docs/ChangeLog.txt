@@ -2,6 +2,10 @@
 = Change Log =
 ==============
 
+v1.13.0
+- added tons of new WotLK instance maps!
+- corrected some map category grouping issues
+
 v1.12.3
 - fixed various errors on non-English clients
 - fixed the right-click to toggle world map bug

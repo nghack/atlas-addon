@@ -79,22 +79,26 @@ ATLAS_DDL_CONTINENT = "Continent";
 ATLAS_DDL_CONTINENT_EASTERN = "Eastern Kingdoms Instances";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Kalimdor Instances";
 ATLAS_DDL_CONTINENT_OUTLAND = "Outland Instances";
+ATLAS_DDL_CONTINENT_NORTHREND = "Northrend Instances";
 ATLAS_DDL_LEVEL = "Level";
 ATLAS_DDL_LEVEL_UNDER45 = "Instances Under Level 45";
 ATLAS_DDL_LEVEL_45TO60 = "Instances Level 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Instances Level 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "Instances Level 70+";
 ATLAS_DDL_PARTYSIZE = "Party Size";
-ATLAS_DDL_PARTYSIZE_5 = "Instances for 5 Players";
+ATLAS_DDL_PARTYSIZE_5_AC = "Instances for 5 Players A-C";
+ATLAS_DDL_PARTYSIZE_5_DZ = "Instances for 5 Players D-Z";
 ATLAS_DDL_PARTYSIZE_10 = "Instances for 10 Players";
 ATLAS_DDL_PARTYSIZE_20TO40 = "Instances for 20-40 Players";
 ATLAS_DDL_EXPANSION = "Expansion";
 ATLAS_DDL_EXPANSION_OLD_AO = "Old World Instances A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "Old World Instances P-Z";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instances";
+ATLAS_DDL_EXPANSION_WOTLK = "Wrath of the Lich King Instances";
 ATLAS_DDL_TYPE = "Type";
-ATLAS_DDL_TYPE_INSTANCE_AK = "Instances A-K";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "Instances M-Z";
+ATLAS_DDL_TYPE_INSTANCE_AC = "Instances A-C";
+ATLAS_DDL_TYPE_INSTANCE_DR = "Instances D-R";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "Instances S-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
 
 ATLAS_INSTANCE_BUTTON = "Instance";
@@ -152,6 +156,7 @@ AtlasLocale = {
 	["Horde"] = "Horde";
 	["Hunter"] = "Hunter";
 	["Imp"] = "Imp";
+	["Inside"] = "Inside";
 	["Key"] = "Key";
 	["Lower"] = "Lower";
 	["Lunar"] = "Lunar";
@@ -200,10 +205,12 @@ AtlasLocale = {
 	["West"] = "West";
 	
 	--Instance names and acronyms
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: The Old Kingdom";
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armory";
 	["Auchenai Crypts"] = "Auchenai Crypts"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
+	["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN";
 	["Black Temple"] = "Black Temple"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Blackfathom Deeps"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Blackrock Depths"; ["BRD"] = "BRD";
@@ -213,9 +220,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "Caverns of Time"; ["CoT"] = "CoT";
 	["Coilfang Reservoir"] = "Coilfang Reservoir"; ["CR"] = "CR";
 	["Dire Maul"] = "Dire Maul"; ["DM"] = "DM";
+	["Drak'Tharon Keep"] = "Drak'Tharon Keep";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Graveyard"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Gruul's Lair"; ["GL"] = "GL";
+	["Gundrak"] = "Gundrak";
+	["Halls of Stone"] = "Halls of Stone";
+	["Halls of Lightning"] = "Halls of Lightning";
 	["Hellfire Citadel"] = "Hellfire Citadel"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Hellfire Ramparts"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Hyjal Summit"; ["CoT3"] = "CoT3";
@@ -248,15 +259,23 @@ AtlasLocale = {
 	["The Black Morass"] = "The Black Morass"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "The Blood Furnace"; ["BF"] = "BF";
 	["The Botanica"] = "The Botanica"; ["Bota"] = "Bota";
+	["The Culling of Stratholme"] = "The Culling of Stratholme";
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
+	["The Nexus"] = "The Nexus";
+	["The Obsidian Sanctum"] = "The Obsidian Sanctum";
+	["The Oculus"] = "The Oculus";
 	["The Shattered Halls"] = "The Shattered Halls"; ["SH"] = "SH";
 	["The Slave Pens"] = "The Slave Pens"; ["SP"] = "SP";
 	["The Steamvault"] = "The Steamvault"; ["SV"] = "SV";
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "The Underbog"; ["UB"] = "UB";
+	["The Violet Hold"] = "The Violet Hold";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+	["Ulduar"] = "Ulduar";
+	["Utgarde Keep"] = "Utgarde Keep";
+	["Utgarde Pinnacle"] = "Utgarde Pinnacle";
 	["Wailing Caverns"] = "Wailing Caverns"; ["WC"] = "WC";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
@@ -266,21 +285,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
 	["Kalimdor"] = "Kalimdor";
 	["Outland"] = "Outland";
+	["Northrend"] = "Northrend";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ashenvale";
 	["Badlands"] = "Badlands";
 	["Blackrock Mountain"] = "Blackrock Mountain"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "Blade's Edge Mountains";
+	["Borean Tundra"] = "Borean Tundra";
 	["Burning Steppes"] = "Burning Steppes";
+	["Dalaran"] = "Dalaran";
 	["Deadwind Pass"] = "Deadwind Pass";
 	["Desolace"] = "Desolace";
+	["Dragonblight"] = "Dragonblight";
 	["Dun Morogh"] = "Dun Morogh";
 	["Dustwallow Marsh"] = "Dustwallow Marsh";
 	["Eastern Plaguelands"] = "Eastern Plaguelands";
 	["Feralas"] = "Feralas";
 	["Ghostlands"] = "Ghostlands";
+	["Grizzly Hills"] = "Grizzly Hills";
 	["Hellfire Peninsula"] = "Hellfire Peninsula";
+	["Howling Fjord"] = "Howling Fjord";
 	["Isle of Quel'Danas"] = "Isle of Quel'Danas";
 	["Netherstorm"] = "Netherstorm";
 	["Orgrimmar"] = "Orgrimmar";
@@ -294,10 +319,12 @@ AtlasLocale = {
 	["Tanaris"] = "Tanaris";
 	["Terokkar Forest"] = "Terokkar Forest";
 	["The Barrens"] = "The Barrens";
+	["The Storm Peaks"] = "The Storm Peaks";
 	["Tirisfal Glades"] = "Tirisfal Glades";
 	["Western Plaguelands"] = "Western Plaguelands";
 	["Westfall"] = "Westfall";
 	["Zangarmarsh"] = "Zangarmarsh";
+	["Zul'Drak"] = "Zul'Drak";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -1409,5 +1436,92 @@ AtlasLocale = {
 
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+
+--*****************
+-- WotLK Instances
+--*****************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Hadronox"] = "Hadronox";
+	["Anub'arak"] = "Anub'arak";
+	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "Meathook";
+	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
+	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
+	["Mal'Ganis"] = "Mal'Ganis";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "Trollgore";
+	["Novos the Summoner"] = "Novos the Summoner";
+	["King Dred"] = "King Dred";
+	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
+	
+	--Gundrak
+	["Slad'ran"] = "Slad'ran";
+	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Moorabi"] = "Moorabi";
+	["Gal'darah"] = "Gal'darah";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
+	["Maiden of Grief"] = "Maiden of Grief";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth"] = "Prince Keleseth";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Keristrasza"] = "Keristrasza";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nakox"] = "Elder Nakox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
+	["Herald Volazj"] = "Herald Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Wave 18";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos the Interrogator";
+	["Mage-Lord Urom"] = "Mage-Lord Urom";
+	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
+	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
 
 };

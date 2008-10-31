@@ -1885,4 +1885,184 @@ AtlasMaps = {
 		{ BLUE.."D) "..AtlasLocale["Armory"], ZONE, 796 };
 		{ BLUE.."E) "..AtlasLocale["Library"], ZONE, 796 };
 	};
+
+--************************************************
+-- WotLK Instances
+--************************************************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	AzjolNerub = {
+		ZoneName = { AtlasLocale["Azjol-Nerub"], 3477 };
+		Location = { AtlasLocale["Dragonblight"], 65 };
+		LevelRange = "72-74";
+		MinLevel = "70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ GREY.."1) "..AtlasLocale["Krik'thir the Gatewatcher"], NPC, 28684 };
+		{ GREY.."2) "..AtlasLocale["Hadronox"], NPC, 28921 };
+		{ GREY.."3) "..AtlasLocale["Anub'arak"], NPC, 29120 };
+	};
+	CoTOldStratholme = {
+		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["The Culling of Stratholme"], 4100 };
+		Location = { AtlasLocale["Tanaris"], 440 };
+		LevelRange = "80+";
+		MinLevel = "75";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Kalimdor"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Meathook"], NPC, 26529 };
+		{ GREY.."2) "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
+		{ GREY.."3) "..AtlasLocale["Chrono-Lord Epoch"], NPC, 26532 };
+		{ GREY.."4) "..AtlasLocale["Mal'Ganis"], NPC, 26533 };
+	};
+	DrakTharonKeep = {
+		ZoneName = { AtlasLocale["Drak'Tharon Keep"], 4196 };
+		Location = { AtlasLocale["Grizzly Hills"], 394 };
+		LevelRange = "74-76";
+		MinLevel = "70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Connection"].." ("..AtlasLocale["Outside"]..")" };
+		{ BLUE.."C) "..AtlasLocale["Connection"].." ("..AtlasLocale["Inside"]..")" };
+		{ GREY.."1) "..AtlasLocale["Trollgore"], NPC, 26630 };
+		{ GREY.."2) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
+		{ GREY.."3) "..AtlasLocale["King Dred"], NPC, 27483 };
+		{ GREY.."4) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
+	};
+	Gundrak = {
+		ZoneName = { AtlasLocale["Gundrak"], 4375 };
+		Location = { AtlasLocale["Zul'Drak"], 66 };
+		LevelRange = "76-78";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Slad'ran"], NPC, 29304 };
+		{ GREY.."2) "..AtlasLocale["Drakkari Colossus"], NPC, -1 };
+		{ GREY.."3) "..AtlasLocale["Moorabi"], NPC, 29305 };
+		{ GREY.."4) "..AtlasLocale["Gal'darah"], NPC, 29306 };
+	};
+	UlduarHallsofStone = {
+		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Halls of Stone"], 4264 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Tribunal Chest"], NPC, -1 };
+		{ GREY.."2) "..AtlasLocale["Krystallus"], NPC, 27977 };
+		{ GREY.."3) "..AtlasLocale["Brann Bronzebeard"], NPC, -1 };
+		{ GREY.."4) "..AtlasLocale["Sjonnir the Ironshaper"], NPC, 27978 };
+		{ GREY.."5) "..AtlasLocale["Maiden of Grief"], NPC, 27975 };
+	};
+	UlduarHallsofLightning = {
+		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Halls of Lightning"], 4272 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "77-79";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."?) "..AtlasLocale["General Bjarngrim"], NPC, 28586 };
+		{ GREY.."?) "..AtlasLocale["Volkhan"], NPC, 28587 };
+		{ GREY.."?) "..AtlasLocale["Ionar"], NPC, 28546 };
+		{ GREY.."?) "..AtlasLocale["Loken"], NPC, 28923 };
+	};
+	ObsidianSanctum = {
+		ZoneName = { AtlasLocale["The Obsidian Sanctum"], 4493 };
+		Location = { AtlasLocale["Dragonblight"], 65 };
+		LevelRange = "80+";
+		MinLevel = "??";
+		PlayerLimit = "10/25";
+		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Chamber of Aspects"] };
+		{ GREY.."?) "..AtlasLocale["Sartharion the Onyx Guardian"], NPC, 28860 };
+	};
+	UtgardeKeep = {
+		ZoneName = { AtlasLocale["Utgarde Keep"]..": "..AtlasLocale["Utgarde Keep"], 206 };
+		Location = { AtlasLocale["Howling Fjord"], 495 };
+		LevelRange = "70-72";
+		MinLevel = "70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ GREY.."1) "..AtlasLocale["Prince Keleseth"], NPC, 23953 };
+		{ GREY.."2) "..AtlasLocale["Dalronn the Controller"], NPC, 24201 };
+		{ GREY.."3) "..AtlasLocale["Enslaved Proto-Drake"], NPC, -1 };
+		{ GREY.."4) "..AtlasLocale["Ingvar the Plunderer"], NPC, 23980 };
+	};
+	UtgardePinnacle = {
+		ZoneName = { AtlasLocale["Utgarde Keep"]..": "..AtlasLocale["Utgarde Pinnacle"], 1196 };
+		Location = { AtlasLocale["Utgarde Keep"], 206 };
+		LevelRange = "80+";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["King Ymiron"], NPC, 26861 };
+		{ GREY.."2) "..AtlasLocale["Svala Sorrowgrave"], NPC, 26668 };
+		{ GREY.."3) "..AtlasLocale["Gortok Palehoof"], NPC, 26687 };
+		{ GREY.."4) "..AtlasLocale["Skadi the Ruthless"], NPC, 26693 };
+	};
+	TheNexus = {
+		ZoneName = { AtlasLocale["The Nexus"]..": "..AtlasLocale["The Nexus"], 4120 };
+		Location = { AtlasLocale["Borean Tundra"], 3537 };
+		LevelRange = "71-73";
+		MinLevel = "70";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Anomalus"], NPC, 26763 };
+		{ GREY.."2) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
+		{ GREY.."3) "..AtlasLocale["Grand Magis Telestra"], NPC, 26731 };
+		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
+	};
+	AhnKahet = {
+		ZoneName = { AtlasLocale["Ahn'kahet: The Old Kingdom"], 4494 };
+		Location = { AtlasLocale["Dragonblight"], 65 };
+		LevelRange = "73-75";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ GREY.."1) "..AtlasLocale["Elder Nakox"], NPC, 29309 };
+		{ GREY.."2) "..AtlasLocale["Prince Taldaram"], NPC, 29308 };
+		{ GREY.."3) "..AtlasLocale["Jedoga Shadowseeker"], NPC, 29310 };
+		{ GREY.."4) "..AtlasLocale["Herald Volazj"], NPC, 29311 };
+		{ GREY.."5) "..AtlasLocale["Amanitar"], NPC, -1 };
+	};
+	VioletHold = {
+		ZoneName = { AtlasLocale["The Violet Hold"], 4415 };
+		Location = { AtlasLocale["Dalaran"], 4395 };
+		LevelRange = "75-77";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Erekem"].." ("..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY.."2) "..AtlasLocale["Zuramat the Obliterator"].." ("..AtlasLocale["Upper"]..", "..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY..INDENT..AtlasLocale["Xevozz"].." ("..AtlasLocale["Lower"]..", "..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY.."3) "..AtlasLocale["Ichoron"].." ("..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY.."4) "..AtlasLocale["Moragg"].." ("..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY.."5) "..AtlasLocale["Lavanthor"].." ("..AtlasLocale["Random"]..")", NPC, -1 };
+		{ GREY.."6) "..AtlasLocale["Cyanigosa"].." ("..AtlasLocale["Wave 18"]..")", NPC, 29317 };
+	};
+	TheOculus = {
+		ZoneName = { AtlasLocale["The Nexus"]..": "..AtlasLocale["The Oculus"], 4228 };
+		Location = { AtlasLocale["The Nexus"], 4120 };
+		LevelRange = "80+";
+		MinLevel = "??";
+		PlayerLimit = "5";
+		Continent = AtlasLocale["Northrend"];
+		{ GREY.."1) "..AtlasLocale["Drakos the Interrogator"], NPC, 27654 };
+		{ GREY.."2) "..AtlasLocale["Mage-Lord Urom"], NPC, 27655 };
+		{ GREY..INDENT..AtlasLocale["Ley-Guardian Eregos"], NPC, 27656 };
+		{ GREY.."3) "..AtlasLocale["Commander Varos Cloudstrider"], NPC, 27447 };
+	};
+
 };

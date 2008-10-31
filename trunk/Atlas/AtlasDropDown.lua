@@ -32,6 +32,7 @@ Atlas_DropDownLayouts_Order = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN;
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
 		[3] = ATLAS_DDL_CONTINENT_OUTLAND;
+		[4] = ATLAS_DDL_CONTINENT_NORTHREND;
 	};
 	[ATLAS_DDL_LEVEL] = {
 		[1] = ATLAS_DDL_LEVEL_UNDER45;
@@ -40,19 +41,22 @@ Atlas_DropDownLayouts_Order = {
 		[4] = ATLAS_DDL_LEVEL_70PLUS;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
-		[1] = ATLAS_DDL_PARTYSIZE_5;
-		[2] = ATLAS_DDL_PARTYSIZE_10;
-		[3] = ATLAS_DDL_PARTYSIZE_20TO40;
+		[1] = ATLAS_DDL_PARTYSIZE_5_AC;
+		[2] = ATLAS_DDL_PARTYSIZE_5_DZ;
+		[3] = ATLAS_DDL_PARTYSIZE_10;
+		[4] = ATLAS_DDL_PARTYSIZE_20TO40;
 	};
 	[ATLAS_DDL_EXPANSION] = {
 		[1] = ATLAS_DDL_EXPANSION_OLD_AO;
 		[2] = ATLAS_DDL_EXPANSION_OLD_PZ;
 		[3] = ATLAS_DDL_EXPANSION_BC;
+		[4] = ATLAS_DDL_EXPANSION_WOTLK;
 	};
 	[ATLAS_DDL_TYPE] = {
-		[1] = ATLAS_DDL_TYPE_INSTANCE_AK;
-		[2] = ATLAS_DDL_TYPE_INSTANCE_MZ;
-		[3] = ATLAS_DDL_TYPE_ENTRANCE;
+		[1] = ATLAS_DDL_TYPE_INSTANCE_AC;
+		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
+		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
+		[4] = ATLAS_DDL_TYPE_ENTRANCE;
 	};
 };
 
@@ -98,6 +102,7 @@ Atlas_DropDownLayouts = {
 			"CoTEnt",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
+			"CoTOldStratholme",
 			"DireMaulEast",
 			"DireMaulEnt",
 			"DireMaulNorth",
@@ -137,6 +142,20 @@ Atlas_DropDownLayouts = {
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
+		},
+		[ATLAS_DDL_CONTINENT_NORTHREND] = {
+			"AhnKahet",
+			"AzjolNerub",
+			"DrakTharonKeep",
+			"Gundrak",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"ObsidianSanctum",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"TheNexus",
+			"TheOculus",
+			"VioletHold",
 		},
 	},
 	[ATLAS_DDL_LEVEL] = {
@@ -208,30 +227,45 @@ Atlas_DropDownLayouts = {
 			"ZulGurub",
 		},
 		[ATLAS_DDL_LEVEL_70PLUS] = {
+			"AhnKahet",
+			"AzjolNerub",
 			"BlackTempleBasement",
 			"BlackTempleStart",
 			"BlackTempleTop",
 			"CFRSerpentshrineCavern",
 			"CoTEnt",
 			"CoTHyjal",
+			"CoTOldStratholme",
+			"DrakTharonKeep",
 			"GruulsLair",
+			"Gundrak",
 			"HCMagtheridonsLair",
 			"KarazhanEnd",
 			"KarazhanEnt",
 			"KarazhanStart",
 			"MagistersTerrace",
+			"ObsidianSanctum",
 			"SunwellPlateau",
 			"TempestKeepTheEye",
+			"TheNexus",
+			"TheOculus",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"VioletHold",
 			"ZulAman",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
-		[ATLAS_DDL_PARTYSIZE_5] = {
+		[ATLAS_DDL_PARTYSIZE_5_AC] = {
+			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchindounEnt",
 			"AuchManaTombs",
 			"AuchSethekkHalls",
 			"AuchShadowLabyrinth",
+			"AzjolNerub",
 			"BlackrockDepths",
 			"BlackrockSpireEnt",
 			"CFRTheSlavePens",
@@ -241,10 +275,15 @@ Atlas_DropDownLayouts = {
 			"CoTBlackMorass",
 			"CoTEnt",
 			"CoTOldHillsbrad",
+			"CoTOldStratholme",
+		},
+		[ATLAS_DDL_PARTYSIZE_5_DZ] = {
 			"DireMaulEast",
 			"DireMaulEnt",
 			"DireMaulNorth",
 			"DireMaulWest",
+			"DrakTharonKeep",
+			"Gundrak",
 			"HCBloodFurnace",
 			"HCHellfireRamparts",
 			"HCTheShatteredHalls",
@@ -254,6 +293,13 @@ Atlas_DropDownLayouts = {
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
+			"TheNexus",
+			"TheOculus",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"VioletHold",
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"BlackfathomDeeps",
@@ -268,6 +314,7 @@ Atlas_DropDownLayouts = {
 			"KarazhanStart",
 			"Maraudon",
 			"MaraudonEnt",
+			"ObsidianSanctum",
 			"RagefireChasm",
 			"RazorfenDowns",
 			"RazorfenKraul",
@@ -303,6 +350,7 @@ Atlas_DropDownLayouts = {
 			"HCMagtheridonsLair",
 			"MoltenCore",
 			"Naxxramas",
+			"ObsidianSanctum",
 			"OnyxiasLair",
 			"SunwellPlateau",
 			"TempestKeepTheEye",
@@ -333,6 +381,8 @@ Atlas_DropDownLayouts = {
 			"OnyxiasLair",
 			"TheDeadmines",
 			"TheDeadminesEnt",
+			"TheTempleofAhnQiraj",
+			"TheRuinsofAhnQiraj",
 		},
 		[ATLAS_DDL_EXPANSION_OLD_PZ] = {
 			"RagefireChasm",
@@ -346,11 +396,9 @@ Atlas_DropDownLayouts = {
 			"SMGraveyard",
 			"SMLibrary",
 			"Stratholme",
-			"TheRuinsofAhnQiraj",
 			"TheStockade",
 			"TheSunkenTemple",
 			"TheSunkenTempleEnt",
-			"TheTempleofAhnQiraj",
 			"Uldaman",
 			"UldamanEnt",
 			"WailingCaverns",
@@ -392,13 +440,30 @@ Atlas_DropDownLayouts = {
 			"TempestKeepTheEye",
 			"ZulAman",
 		},
+		[ATLAS_DDL_EXPANSION_WOTLK] = {
+			"AhnKahet",
+			"AzjolNerub",
+			"CoTOldStratholme",
+			"DrakTharonKeep",
+			"Gundrak",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"ObsidianSanctum",
+			"TheNexus",
+			"TheOculus",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"VioletHold",
+		},
 	},
 	[ATLAS_DDL_TYPE] = {
-		[ATLAS_DDL_TYPE_INSTANCE_AK] = {
+		[ATLAS_DDL_TYPE_INSTANCE_AC] = {
+			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchManaTombs",
 			"AuchSethekkHalls",
 			"AuchShadowLabyrinth",
+			"AzjolNerub",
 			"BlackfathomDeeps",
 			"BlackrockDepths",
 			"BlackrockSpireLower",
@@ -414,28 +479,38 @@ Atlas_DropDownLayouts = {
 			"CoTBlackMorass",
 			"CoTHyjal",
 			"CoTOldHillsbrad",
+			"CoTOldStratholme",
+			"MoltenCore",
+			"TheRuinsofAhnQiraj",
+			"TheTempleofAhnQiraj",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_DR] = {
 			"DireMaulEast",
 			"DireMaulNorth",
 			"DireMaulWest",
+			"DrakTharonKeep",
+			"TheDeadmines",
 			"Gnomeregan",
 			"GruulsLair",
+			"Gundrak",
 			"HCBloodFurnace",
 			"HCHellfireRamparts",
 			"HCMagtheridonsLair",
 			"HCTheShatteredHalls",
 			"KarazhanEnd",
 			"KarazhanStart",
-			"TheDeadmines",
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_MZ] = {
 			"MagistersTerrace",
 			"Maraudon",
-			"MoltenCore",
 			"Naxxramas",
+			"ObsidianSanctum",
 			"OnyxiasLair",
 			"RagefireChasm",
 			"RazorfenDowns",
 			"RazorfenKraul",
+			"TheNexus",
+			"TheOculus",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_SZ] = {
 			"Scholomance",
 			"ShadowfangKeep",
 			"SMArmory",
@@ -444,15 +519,18 @@ Atlas_DropDownLayouts = {
 			"SMLibrary",
 			"Stratholme",
 			"SunwellPlateau",
+			"TheStockade",
+			"TheSunkenTemple",
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
-			"TheRuinsofAhnQiraj",
-			"TheStockade",
-			"TheSunkenTemple",
-			"TheTempleofAhnQiraj",
 			"Uldaman",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"VioletHold",
 			"WailingCaverns",
 			"ZulAman",
 			"ZulFarrak",

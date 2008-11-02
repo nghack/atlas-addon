@@ -214,12 +214,12 @@ AtlasLocale = {
 	["West"] = "Ouest";
 
 	--Instance names and acronyms
-["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: The Old Kingdom"; -- à traduire à WotLK
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet : l'Ancien royaume";
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
-["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN"; -- à traduire à WotLK
+	["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN";
 	["Black Temple"] = "Temple noir"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
@@ -229,13 +229,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
-["Drak'Tharon Keep"] = "Drak'Tharon Keep"; -- à traduire à WotLK
+	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cimetière"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Repaire de Gruul"; ["GL"] = "GL";
-["Gundrak"] = "Gundrak"; -- à traduire à WotLK
-["Halls of Stone"] = "Halls of Stone"; -- à traduire à WotLK
-["Halls of Lightning"] = "Halls of Lightning"; -- à traduire à WotLK
+	["Gundrak"] = "Gundrak";
+	["Halls of Stone"] = "Les salles de Pierre";
+	["Halls of Lightning"] = "Les salles de Foudre";
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
@@ -268,23 +268,23 @@ AtlasLocale = {
 	["The Black Morass"] = "Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
 	["The Blood Furnace"] = "La Fournaise du sang"; ["BF"] = "BF";
 	["The Botanica"] = "La Botanica"; ["Bota"] = "Bota";
-["The Culling of Stratholme"] = "The Culling of Stratholme"; -- à traduire à WotLK
+	["The Culling of Stratholme"] = "L'épuration de Stratholme";
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
-["The Nexus"] = "The Nexus"; -- à traduire à WotLK
-["The Obsidian Sanctum"] = "The Obsidian Sanctum"; -- à traduire à WotLK
-["The Oculus"] = "The Oculus"; -- à traduire à WotLK
+	["The Nexus"] = "Le Nexus";
+	["The Obsidian Sanctum"] = "Le sanctum Obsidien";
+	["The Oculus"] = "L'Oculus";
 	["The Shattered Halls"] = "Les Salles brisées"; ["SH"] = "SH";
 	["The Slave Pens"] = "Les enclos aux esclaves"; ["SP"] = "SP";
 	["The Steamvault"] = "Le Caveau de la vapeur"; ["SV"] = "SV";
 	["The Stockade"] = "La Prison"; ["Stocks"] = "Stocks/Prison";
 	["The Underbog"] = "La Basse-tourbière"; ["UB"] = "UB";
-["The Violet Hold"] = "The Violet Hold"; -- à traduire à WotLK
+	["The Violet Hold"] = "Le fort Pourpre";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
-["Ulduar"] = "Ulduar"; -- à traduire à WotLK
-["Utgarde Keep"] = "Utgarde Keep"; -- à traduire à WotLK
-["Utgarde Pinnacle"] = "Utgarde Pinnacle"; -- à traduire à WotLK
+	["Ulduar"] = "Ulduar";
+	["Utgarde Keep"] = "Donjon d'Utgarde";
+	["Utgarde Pinnacle"] = "Cime d'Utgarde";
 	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";

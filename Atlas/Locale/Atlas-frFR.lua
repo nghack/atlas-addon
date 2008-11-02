@@ -83,7 +83,7 @@ ATLAS_DDL_CONTINENT = "Continent";
 ATLAS_DDL_CONTINENT_EASTERN = "Instances des Royaumes de l'Est";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Instances de Kalimdor";
 ATLAS_DDL_CONTINENT_OUTLAND = "Instances de l'Outreterre";
-ATLAS_DDL_CONTINENT_NORTHREND = "Instances de Northrend";
+ATLAS_DDL_CONTINENT_NORTHREND = "Instances de Norfendre";
 ATLAS_DDL_LEVEL = "Niveau";
 ATLAS_DDL_LEVEL_UNDER45 = "Instances avant Niveau 45";
 ATLAS_DDL_LEVEL_45TO60 = "Instances Niveau 45-60";
@@ -294,7 +294,7 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
 	["Kalimdor"] = "Kalimdor";
 	["Outland"] = "Outreterre";
-	["Northrend"] = "Northrend";
+	["Northrend"] = "Norfendre";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Orneval";

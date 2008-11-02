@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 17/10/2008
+-- Última Actualización (last update): 02/11/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -90,16 +90,19 @@ ATLAS_DDL_LEVEL_45TO60 = "Mazmorras de nivel 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Mazmorras de nivel 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "Mazmorras de nivel 70+";
 ATLAS_DDL_PARTYSIZE = "Tamaño del grupo";
-ATLAS_DDL_PARTYSIZE_5 = "Mazmorras para 5 jugadores";
+ATLAS_DDL_PARTYSIZE_5_AC = "Mazmorras para 5 jugadores A-C";
+ATLAS_DDL_PARTYSIZE_5_DZ = "Mazmorras para 5 jugadores D-Z";
 ATLAS_DDL_PARTYSIZE_10 = "Mazmorras para 10 jugadores";
 ATLAS_DDL_PARTYSIZE_20TO40 = "Mazmorras para 20-40 jugadores";
 ATLAS_DDL_EXPANSION = "Expansión";
 ATLAS_DDL_EXPANSION_OLD_AO = "Antiguas Mazmorras A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "Antiguas Mazmorras P-Z";
 ATLAS_DDL_EXPANSION_BC = "Mazmorras de Burning Crusade";
+ATLAS_DDL_EXPANSION_WOTLK = "Mazmorras Wrath of the Lich King";
 ATLAS_DDL_TYPE = "Tipo";
-ATLAS_DDL_TYPE_INSTANCE_AK = "Mazmorras A-K";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "Mazmorras M-Z";
+ATLAS_DDL_TYPE_INSTANCE_AC = "Mazmorras A-C";
+ATLAS_DDL_TYPE_INSTANCE_DR = "Mazmorras D-R";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "Mazmorras S-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "Entradas";
 
 ATLAS_INSTANCE_BUTTON = "Mazmorra";
@@ -157,6 +160,7 @@ AtlasLocale = {
 	["Horde"] = "Horda";
 	["Hunter"] = "Cazador";
 	["Imp"] = "Duendecillo";
+	["Inside"] = "Dentro";
 	["Key"] = "Llave";
 	["Lower"] = "Abajo";
 	["Lunar"] = "Lunar";
@@ -208,10 +212,12 @@ AtlasLocale = {
 
 	
 	--Instance names and acronyms
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino"; --Check
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armería"; ["Armory"] = "Armería";	
 	["Auchenai Crypts"] = "Criptas Auchenai"; ["AC"] = "CA";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
+	["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN";
 	["Black Temple"] = "Templo Oscuro"; ["BT"] = "TO";	
 	["Blackfathom Deeps"] = "Cavernas de Brazanegra"; ["BFD"] = "CB";
 	["Blackrock Depths"] = "Profundidades de Roca Negra"; ["BRD"] = "PRN";
@@ -221,9 +227,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "Cavernas del Tiempo"; ["CoT"] = "CdT";
 	["Coilfang Reservoir"] = "Reserva Colmillo Torcido"; ["CR"] = "RCT";
 	["Dire Maul"] = "La Masacre"; ["DM"] = "LM";	
+	["Drak'Tharon Keep"] = "Fortaleza de Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cementerio"; ["GY"] = "Cemen";
 	["Gruul's Lair"] = "Guarida de Gruul"; ["GL"] = "Gruul";
+	["Gundrak"] = "Gundrak";
+	["Halls of Stone"] = "Cámara de Piedra";
+	["Halls of Lightning"] = "Cámaras de Relámpagos";
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
@@ -256,15 +266,23 @@ AtlasLocale = {
 	["The Black Morass"] = "La Ciénaga Negra"; ["CoT2"] = "CdT2";
 	["The Blood Furnace"] = "Horno de Sangre"; ["BF"] = "HS";
 	["The Botanica"] = "El Invernáculo"; ["Bota"] = "Inver";
+	["The Culling of Stratholme"] = "La Purga de Stratholme";
 	["The Deadmines"] = "Las Minas de la Muerte"; ["VC"] = "LMM";
 	["The Eye"] = "El Ojo"; ["Eye"] = "Ojo";
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
+	["The Nexus"] = "El Nexo ";
+	["The Obsidian Sanctum"] = "El Ojo de la Eternidad "; --Check
+	["The Oculus"] = "El Oculus";
 	["The Shattered Halls"] = "Las Salas Arrasadas"; ["SH"] = "SA";
 	["The Slave Pens"] = "Recinto de los Esclavos"; ["SP"] = "Recinto";
 	["The Steamvault"] = "Cámara de Vapor"; ["SV"] = "CV";
 	["The Stockade"] = "Las Mazmorras"; ["Stocks"] = "Mazmorras";
 	["The Underbog"] = "La Sotiénaga"; ["UB"] = "Soti";
+	["The Violet Hold"] = "The Violet Hold"; --Check
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+	["Ulduar"] = "Ulduar";
+	["Utgarde Keep"] = "Fortaleza de Utgarde";
+	["Utgarde Pinnacle"] = "Pináculo de Utgarde";
 	["Wailing Caverns"] = "Las Cuevas de los Lamentos"; ["WC"] = "CL";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
@@ -274,21 +292,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "Las Tierras del Este";
 	["Kalimdor"] = "Kalimdor";
 	["Outland"] = "Terrallende";
+	["Northrend"] = "Rasganorte";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Vallefresno";
 	["Badlands"] = "Tierras del Interior";
 	["Blackrock Mountain"] = "Montaña Roca Negra"; ["BRM"] = "MRN";	
 	["Blade's Edge Mountains"] = "Montañas Filospada";
+	["Borean Tundra"] = "Tundra Boreal";
 	["Burning Steppes"] = "Estepas ardientes";	
+	["Dalaran"] = "Dalaran";
 	["Deadwind Pass"] = "Paso de la Muerte";
 	["Desolace"] = "Desolace";
+	["Dragonblight"] = "Cementerio de Dragones";
 	["Dun Morogh"] = "Dun Morogh";
 	["Dustwallow Marsh"] = "Marjal Revolcafango";
 	["Eastern Plaguelands"] = "Praderas de la peste del Este";
 	["Feralas"] = "Feralas";
 	["Ghostlands"] = "Tierras Fantasma";
+	["Grizzly Hills"] = "Colinas Pardas";
 	["Hellfire Peninsula"] = "Península de Fuego";
+	["Howling Fjord"] = "Fiordo Aquilonal";
 	["Isle of Quel'Danas"] = "Isla de Quel'Danas";
 	["Netherstorm"] = "Tormenta Abisal";
 	["Orgrimmar"] = "Orgrimmar";
@@ -302,11 +326,13 @@ AtlasLocale = {
 	["Tanaris"] = "Tanaris";
 	["Terokkar Forest"] = "Bosque de Terokkar";
 	["The Barrens"] = "Los Baldíos";
+	["The Storm Peaks"] = "Cumbres Tormentosas";
 	["Tirisfal Glades"] = "Claros de Tirisfal";
 	["Western Plaguelands"] = "Praderas de la Peste del Oeste";	
 	["Westfall"] = "Páramos de Poniente";	
 	["Zangarmarsh"] = "Marismas de Zangar";
-
+	["Zul'Drak"] = "Zul'Drak";
+	
 --************************************************
 -- Kalimdor Instance Data
 --************************************************
@@ -696,7 +722,6 @@ AtlasLocale = {
 	["Finkle Einhorn"] = "Finkle Unicornín";
 	["General Drakkisath"] = "General Drakkisath";
 	["Drakkisath's Brand"] = "El orbe de orden";
-
 	
 	--Blackwing Lair
 	["Razorgore the Untamed"] = "Sangrevaja el Indomable";
@@ -992,7 +1017,7 @@ AtlasLocale = {
 	["Stairs to Opera House Orchestra Level"] = "Escaleras al nivel de la Opera";
 	["Ramp from Mezzanine to Balcony"] = "Rampa desde Mezzanine al Balcón";
 	["Connection to Master's Terrace"] = "Conexión con: El Bancal del Maestro";
-	["Path to the Broken Stairs"] = "Camino a las Escaleras rotas";
+	["Path to the Broken Stairs"] = "Camino a las Escaleras rotas"; --omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "Hastings <El Custodio>";
 	["Servant Quarters"] = "Los sirvientes"; --Check
 	["Hyakiss the Lurker"] = "Hyakiss el Rondador";
@@ -1429,6 +1454,87 @@ AtlasLocale = {
 
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Hadronox"] = "Hadronox";
+	["Anub'arak"] = "Anub'arak";
+	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "Meathook";
+	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
+	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
+	["Mal'Ganis"] = "Mal'Ganis";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "Trollgore";
+	["Novos the Summoner"] = "Novos the Summoner";
+	["King Dred"] = "King Dred";
+	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
+	
+	--Gundrak
+	["Slad'ran"] = "Slad'ran";
+	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Moorabi"] = "Moorabi";
+	["Gal'darah"] = "Gal'darah";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
+	["Maiden of Grief"] = "Maiden of Grief";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth"] = "Prince Keleseth";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Keristrasza"] = "Keristrasza";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nakox"] = "Elder Nakox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
+	["Herald Volazj"] = "Herald Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Wave 18";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos the Interrogator";
+	["Mage-Lord Urom"] = "Mage-Lord Urom";
+	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
+	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
 
 };
 

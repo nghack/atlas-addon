@@ -1052,16 +1052,37 @@ local function round(num, idp)
 end
 
 function Atlas_WorldMap_OnUpdate(self, elapsed)
-   local x, y = GetPlayerMapPosition("player");
-   local text;
-   if ( x == 0 and y == 0 ) then
-      text = "---";
-   else
-      x = round(x * 100, 2);
-      y = round(y * 100, 2);
-      text = string.format("%.2f, %.2f", x, y);
-   end
-   getglobal(self:GetName().."_Text"):SetText(text);
+	local x, y = GetPlayerMapPosition("player");
+	local text, playerCoords, cursorCoords;
+	if ( x == 0 and y == 0 ) then
+		playerCoords = "---";
+	else
+		x = round(x * 100, 2);
+		y = round(y * 100, 2);
+		playerCoords = string.format("%.2f, %.2f", x, y);
+	end
+	
+	local x, y = GetCursorPosition();
+	local scale = WorldMapFrame:GetScale();
+	x = x / scale;
+	y = y / scale;
+	local width = WorldMapButton:GetWidth();
+	local height = WorldMapButton:GetHeight();
+	local centerX, centerY = WorldMapFrame:GetCenter();
+	local adjustedX = (x - (centerX - (width/2))) / width;
+	local adjustedY = (centerY + (height/2) - y) / height;
+	x = ( adjustedX + 0.0022 ) * 100;
+	y = ( adjustedY - 0.0262 ) * 100;
+	if ( x < 0 or x > 100 or y < 0 or y > 100 ) then
+		cursorCoords = "---";
+	else
+		x = round(x, 2);
+		y = round(y, 2);
+		cursorCoords = string.format("%.2f, %.2f", x, y);
+	end
+	
+	text = ATLAS_WORLDMAP_PLAYER..": "..playerCoords.." | "..ATLAS_WORLDMAP_CURSOR..": "..cursorCoords;
+	getglobal(self:GetName().."_Text"):SetText(text);
 end
 
 function AtlasEntryTemplate_OnUpdate(self)

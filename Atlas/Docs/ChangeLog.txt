@@ -6,6 +6,9 @@ v1.13.0
 - added tons of new WotLK instance maps!
 - added most if not all WotLK map data (thanks to DiabloHu, Deadca7, and others!)
 - corrected some map category grouping issues
+- added cursor coordinates to the world map
+- added Don Carlos and Guerrero to Old Hillsbrad Foothills (Hegarol)
+- gave Veyzhak the Cannibal a home in The Sunken Temple (Telchar)
 
 v1.12.3
 - fixed various errors on non-English clients

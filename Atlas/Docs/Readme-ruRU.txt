@@ -4,15 +4,6 @@
 
 
 
-Замечание: Это альфа версия перевода Атласа. Так как русский перевод  
-еще не закончен, альфа будет изменяться по ходу перевода игры!
-
-
-Note: This readme file is just slightly out of date.
-Expect a completely rewritten version in the very near future!
-
-
-
 =============
 = Об Атласе =
 =============
@@ -117,6 +108,7 @@ Expect a completely rewritten version in the very near future!
 = Интеграфия с другими модификациями =
 ======================================
 
+* LibDataBroker (LDB)
 * Titan Panel
 * myAddOns
 * CTMod

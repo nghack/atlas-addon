@@ -4,11 +4,6 @@ Email me at loglow@gmail.com
 
 
 
-Note: This readme file is just slightly out of date.
-Expect a completely rewritten version in the very near future!
-
-
-
 ===============
 = About Atlas =
 ===============
@@ -113,6 +108,7 @@ to installation (they're unnecessary now anyway).
 = Integration =
 ===============
 
+* LibDataBroker (LDB)
 * Titan Panel
 * myAddOns
 * CTMod

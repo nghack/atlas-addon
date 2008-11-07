@@ -104,6 +104,8 @@ ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrance";
 ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
+ATLAS_WORLDMAP_PLAYER = "Player";
+ATLAS_WORLDMAP_CURSOR = "Cursor";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
@@ -601,6 +603,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "Julie Honeywell";
 	["Jay Lemieux"] = "Jay Lemieux";
 	["Young Blanchy"] = "Young Blanchy";
+	["Don Carlos"] = "Don Carlos";
+	["Guerrero"] = "Guerrero";
 	
 --****************************
 -- Eastern Kingdoms Instances
@@ -1498,8 +1502,9 @@ AtlasLocale = {
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Elder Nadox";

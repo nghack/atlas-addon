@@ -4,11 +4,6 @@ Copyright 2005 - 2008 Dan Gilbert
 
 
 
-Note: This readme file is just slightly out of date.
-Expect a completely rewritten version in the very near future!
-
-
-
 ==============
 = 關於 Atlas =
 ==============
@@ -90,6 +85,7 @@ Atlas 具有內建的插件系統，這使得額外的地圖可以很輕易的�
 = 整合支援 =
 ============
 
+* LibDataBroker (LDB)
 * Titan Panel
 * myAddOns
 * CTMod

@@ -4,11 +4,6 @@ Email：loglow@gmail.com
 
 
 
-Note: This readme file is just slightly out of date.
-Expect a completely rewritten version in the very near future!
-
-
-
 ==============
 = 关于 Atlas =
 ==============
@@ -103,6 +98,7 @@ Atlas 本身就有4个这样的增强插件（即战场地图、地下城分布图、
 = 支持的插件集 =
 ================
 
+* LibDataBroker (LDB)
 * Titan Panel
 * myAddOns
 * CTMod

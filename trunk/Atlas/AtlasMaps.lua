@@ -432,6 +432,8 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Traveling"] };
 		{ GREY..INDENT..AtlasLocale["Thomas Yance <Travelling Salesman>"], NPC, 18672 };
 		{ GREY..INDENT..AtlasLocale["Aged Dalaran Wizard"], NPC, 18664 };
+		{ GREY..INDENT..AtlasLocale["Don Carlos"], NPC, 28132 };
+		{ GREY..INDENT..AtlasLocale["Guerrero"], NPC, 28163 };
 		{ "" };
 		{ ORNG..AtlasLocale["Southshore"] };
 		{ GREY..INDENT..AtlasLocale["Kel'Thuzad <The Kirin Tor>"], NPC, 20350 };
@@ -1765,8 +1767,8 @@ AtlasMaps = {
 		{ BLUE..INDENT..AtlasLocale["Jade"].." ("..AtlasLocale["Rare"]..")", NPC, 1063 };
 		{ BLUE.."B) "..AtlasLocale["Sunken Temple"], ZONE, 1417 };
 		{ GREY.."1) "..AtlasLocale["Kazkaz the Unholy"].." ("..AtlasLocale["Upper"]..")", NPC, 5401 };
-		{ GREY.."2) "..AtlasLocale["Zekkis"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Lower"]..")", NPC, 5400 };
-		{ GREY.."?) "..AtlasLocale["Veyzhak the Cannibal"].." ("..AtlasLocale["Unknown"]..")", NPC, 5399 };
+		{ GREY.."2) "..AtlasLocale["Veyzhak the Cannibal"], NPC, 5399 };
+		{ GREY.."3) "..AtlasLocale["Zekkis"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Lower"]..")", NPC, 5400 };
 	};
 	UldamanEnt = {
 		ZoneName = { AtlasLocale["Uldaman"].." ("..AtlasLocale["Entrance"]..")", 1337 };
@@ -2020,8 +2022,9 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Anomalus"], NPC, 26763 };
 		{ GREY.."2) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
-		{ GREY.."3) "..AtlasLocale["Grand Magis Telestra"], NPC, 26731 };
+		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
 		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
+		{ GREY.."5) "..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
 	};
 	AhnKahet = {
 		ZoneName = { AtlasLocale["Ahn'kahet: The Old Kingdom"], 4494 };

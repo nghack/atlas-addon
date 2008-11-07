@@ -4,6 +4,7 @@
 
 v1.13.0
 - added tons of new WotLK instance maps!
+- added most if not all WotLK map data (thanks to DiabloHu, Deadca7, and others!)
 - corrected some map category grouping issues
 
 v1.12.3

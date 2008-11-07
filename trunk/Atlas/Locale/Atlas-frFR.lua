@@ -108,6 +108,8 @@ ATLAS_DDL_TYPE_ENTRANCE = "Entrées";
 ATLAS_INSTANCE_BUTTON = "Instance";
 ATLAS_ENTRANCE_BUTTON = "Entrée";
 ATLAS_SEARCH_UNAVAIL  = "Recherche Indisponible";
+ATLAS_WORLDMAP_PLAYER = "Joueur";
+ATLAS_WORLDMAP_CURSOR = "Curseur";
 
 ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Sélection automatique, Remplacer la Carte du Monde, Clic-Droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option de Sélection automatique est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplacer la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-Droit est activée, vous pourrez cliquer droit sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un Clic-Gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
 
@@ -610,6 +612,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "Julie Miellepuits";
 	["Jay Lemieux"] = "Jay Lemieux";
 	["Young Blanchy"] = "Jeune Blanchy";
+	["Don Carlos"] = "Don Carlos";
+	["Guerrero"] = "Guerrero";
 
 --****************************
 -- Eastern Kingdoms Instances
@@ -1475,10 +1479,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
 	
 	--Gundrak
-	["Slad'ran"] = "Slad'ran";
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi"] = "Moorabi";
-	["Gal'darah"] = "Gal'darah";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";
@@ -1495,28 +1499,29 @@ AtlasLocale = {
 	
 	--The Obsidian Sanctum
 	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth"] = "Prince Keleseth";
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
 	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
 
 	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
 	["Gortok Palehoof"] = "Gortok Palehoof";
 	["Skadi the Ruthless"] = "Skadi the Ruthless";
 	["King Ymiron"] = "King Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nakox"] = "Elder Nakox";
+	["Elder Nadox"] = "Elder Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
 	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
 	["Herald Volazj"] = "Herald Volazj";
@@ -1536,7 +1541,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Drakos the Interrogator";
 	["Mage-Lord Urom"] = "Mage-Lord Urom";
 	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
 
 };
 end

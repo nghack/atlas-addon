@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 10/31/2008
+-- Last Update : 11/7/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -190,7 +190,7 @@ AtlasLocale = {
 	["West"] = "西区";
 
 	--Instance names and acronyms
-	["Ahn'kahet: The Old Kingdom"] = "安卡雷：古代王国";
+	["Ahn'kahet: The Old Kingdom"] = "安卡赫特：古代王国";
 	["Ahn'Qiraj"] = "安其拉"; ["AQ"] = "AQ";
 	["Armory"] = "军械库";
 	["Auchenai Crypts"] = "奥金尼地穴"; ["AC"] = "AC";
@@ -1446,10 +1446,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "先知萨隆亚";
 	
 	--Gundrak
-	["Slad'ran"] = "斯拉德兰";
+	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi"] = "莫拉比";
-	["Gal'darah"] = "迦尔达拉";
+	["Moorabi <High Prophet of Mam'toth>"] = "莫拉比 <High Prophet of Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <High Prophet of Akali>";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";
@@ -1466,16 +1466,16 @@ AtlasLocale = {
 	
 	--The Obsidian Sanctum
 	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth"] = "凯雷塞斯王子";
+	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
 	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
 
 	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "席瓦拉·索格蕾";
+	["Svala Sorrowgrave"] = "席瓦拉·索格蕾"; 
 	["Gortok Palehoof"] = "戈托克·苍蹄";
 	["Skadi the Ruthless"] = "残忍的斯卡迪";
 	["King Ymiron"] = "伊米隆国王";
@@ -1483,11 +1483,12 @@ AtlasLocale = {
 	--The Nexus: The Nexus	
 	["Anomalus"] = "阿诺玛鲁斯";
 	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
-	["Grand Magis Telestra"] = "大魔导师泰蕾丝塔";
+	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
 	["Keristrasza"] = "克莉斯塔萨";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nakox"] = "纳多克斯长老";
+	["Elder Nadox"] = "纳多克斯长老";
 	["Prince Taldaram"] = "塔达拉姆王子";
 	["Jedoga Shadowseeker"] = "耶戈达·觅影者";
 	["Herald Volazj"] = "传令官沃拉兹";
@@ -1507,7 +1508,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "审讯者达库斯";
 	["Mage-Lord Urom"] = "法师领主伊洛姆";
 	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
-	["Commander Varos Cloudstrider"] = "瓦尔洛斯·云击";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <Azure-Lord of the Blue Dragonflight>";
 
 };
 end

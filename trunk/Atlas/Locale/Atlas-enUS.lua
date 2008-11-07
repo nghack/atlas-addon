@@ -1461,10 +1461,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
 	
 	--Gundrak
-	["Slad'ran"] = "Slad'ran";
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi"] = "Moorabi";
-	["Gal'darah"] = "Gal'darah";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";
@@ -1481,19 +1481,19 @@ AtlasLocale = {
 	
 	--The Obsidian Sanctum
 	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth"] = "Prince Keleseth";
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
 	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
 
 	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
 	["Gortok Palehoof"] = "Gortok Palehoof";
 	["Skadi the Ruthless"] = "Skadi the Ruthless";
 	["King Ymiron"] = "King Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
@@ -1502,7 +1502,7 @@ AtlasLocale = {
 	["Keristrasza"] = "Keristrasza";
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nakox"] = "Elder Nakox";
+	["Elder Nadox"] = "Elder Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
 	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
 	["Herald Volazj"] = "Herald Volazj";
@@ -1522,6 +1522,6 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Drakos the Interrogator";
 	["Mage-Lord Urom"] = "Mage-Lord Urom";
 	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
 
 };

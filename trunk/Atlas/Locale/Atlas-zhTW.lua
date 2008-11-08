@@ -56,12 +56,10 @@ ATLAS_STRING_CLEAR = "清除";
 ATLAS_STRING_MINLEVEL = "最低等級";
 
 ATLAS_OPTIONS_BUTTON = "選項";
-ATLAS_OPTIONS_TITLE = "Atlas 選項設定";
 ATLAS_OPTIONS_SHOWBUT = "在小地圖旁顯示 Atlas 按鈕";
 ATLAS_OPTIONS_AUTOSEL = "自動選擇副本地圖";
 ATLAS_OPTIONS_BUTPOS = "按鈕位置";
 ATLAS_OPTIONS_TRANS = "透明度";
-ATLAS_OPTIONS_DONE = "完成";
 ATLAS_OPTIONS_REPMAP = "取代世界地圖";
 ATLAS_OPTIONS_RCLICK = "點擊滑鼠右鍵開啟世界地圖";
 ATLAS_OPTIONS_SHOWMAPNAME = "顯示地圖名稱";
@@ -70,40 +68,45 @@ ATLAS_OPTIONS_ACRONYMS = "顯示副本縮寫";
 ATLAS_OPTIONS_SCALE = "視窗大小比率";
 ATLAS_OPTIONS_BUTRAD = "按鈕半徑範圍";
 ATLAS_OPTIONS_CLAMPED = "使 Atlas 視窗不超出遊戲畫面";
-ATLAS_OPTIONS_HELP = "左鍵點擊並拖曳以移動這個視窗";
 ATLAS_OPTIONS_CTRL = "按住 Ctrl 鍵以顯示工具提示";
 ATLAS_OPTIONS_COORDS = "在世界地圖顯示玩家座標";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas 副本地圖";
 ATLAS_BUTTON_TOOLTIP_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
-ATLAS_TITAN_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
+ATLAS_LDB_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
 
 ATLAS_OPTIONS_CATDD = "副本地圖排序方式:";
 ATLAS_DDL_CONTINENT = "大陸";
 ATLAS_DDL_CONTINENT_EASTERN = "東部王國副本";
 ATLAS_DDL_CONTINENT_KALIMDOR = "卡林多副本";
 ATLAS_DDL_CONTINENT_OUTLAND = "外域副本";
+ATLAS_DDL_CONTINENT_NORTHREND = "北裂境副本";
 ATLAS_DDL_LEVEL = "等級";
 ATLAS_DDL_LEVEL_UNDER45 = "副本等級低於 45";
 ATLAS_DDL_LEVEL_45TO60 = "副本等級介於 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "副本等級介於 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "副本等級介於 70+";
 ATLAS_DDL_PARTYSIZE = "隊伍人數";
-ATLAS_DDL_PARTYSIZE_5 = "5 人副本";
+ATLAS_DDL_PARTYSIZE_5_AC = "5 人副本 A-C";
+ATLAS_DDL_PARTYSIZE_5_DZ = "5 人副本 D-Z";
 ATLAS_DDL_PARTYSIZE_10 = "10 人副本";
 ATLAS_DDL_PARTYSIZE_20TO40 = "20-40 人副本";
 ATLAS_DDL_EXPANSION = "資料片";
 ATLAS_DDL_EXPANSION_OLD_AO = "舊世界副本 A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "舊世界副本 P-Z";
 ATLAS_DDL_EXPANSION_BC = "燃燒的遠征副本";
+ATLAS_DDL_EXPANSION_WOTLK = "巫妖王之怒副本";
 ATLAS_DDL_TYPE = "類型";
-ATLAS_DDL_TYPE_INSTANCE_AK = "副本 A-K";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "副本 M-Z";
+ATLAS_DDL_TYPE_INSTANCE_AC = "副本 A-C";
+ATLAS_DDL_TYPE_INSTANCE_DR = "副本 D-R";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "副本 S-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "入口";
 
 ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜尋功能停用";
+ATLAS_WORLDMAP_PLAYER = "玩家";
+ATLAS_WORLDMAP_CURSOR = "游標";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "沈沒的神廟";
@@ -156,6 +159,7 @@ AtlasLocale = {
 	["Horde"] = "部落";
 	["Hunter"] = "獵人";
 	["Imp"] = "小鬼";
+	["Inside"] = "內部";
 	["Key"] = "鑰匙";
 	["Lower"] = "下層";
 	["Lunar"] = "新年慶典";
@@ -204,10 +208,12 @@ AtlasLocale = {
 	["West"] = "西方";
 
 	--Instance names and acronyms
+	["Ahn'kahet: The Old Kingdom"] = "安卡罕特: 古王國";
 	["Ahn'Qiraj"] = "安其拉神廟"; ["AQ"] = "AQ";
 	["Armory"] = "軍械庫"; 
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
+	["Azjol-Nerub"] = "阿茲歐-奈幽"; ["AN"] = "AN";
 	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD/黑淵";
 	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
@@ -217,9 +223,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
 	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
 	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
+	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
 	["Graveyard"] = "墓園"; ["GY"] = "GY";
 	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL";
+	["Gundrak"] = "剛德拉克";
+	["Halls of Stone"] = "岩石大廳";
+	["Halls of Lightning"] = "雷光大廳";
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3";
@@ -252,15 +262,23 @@ AtlasLocale = {
 	["The Black Morass"] = "黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
 	["The Blood Furnace"] = "血熔爐"; ["BF"] = "BF";
 	["The Botanica"] = "波塔尼卡"; ["Bota"] = "Bota/波塔";
+	["The Culling of Stratholme"] = "斯坦索姆的抉擇";
 	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
 	["The Eye"] = "風暴之眼"; ["Eye"] = "Eye";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
+	["The Nexus"] = "奈薩斯";
+	["The Obsidian Sanctum"] = "黑曜聖所";
+	["The Oculus"] = "奧核之眼";
 	["The Shattered Halls"] = "破碎大廳"; ["SH"] = "SH/破碎";
 	["The Slave Pens"] = "奴隸監獄"; ["SP"] = "SP";
 	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV";
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
 	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
+	["The Violet Hold"] = "紫羅蘭堡";
 	["Uldaman"] = "奧達曼"; ["Uld"] = "Uld";
+	["Ulduar"] = "奧杜亞";
+	["Utgarde Keep"] = "俄特加德要塞";
+	["Utgarde Pinnacle"] = "俄特加德之巔";
 	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC/哀嚎";
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖爾法拉克"; ["ZF"] = "ZF/祖法";
@@ -270,21 +288,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "東部王國";
 	["Kalimdor"] = "卡林多";
 	["Outland"] = "外域";
+	["Northrend"] = "北裂境";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "梣谷";
 	["Badlands"] = "荒蕪之地";
 	["Blackrock Mountain"] = "黑石山"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "劍刃山脈";
+	["Borean Tundra"] = "北風凍原";
 	["Burning Steppes"] = "燃燒平原";
+	["Dalaran"] = "達拉";
 	["Deadwind Pass"] = "逆風小徑";
 	["Desolace"] = "淒涼之地";
+	["Dragonblight"] = "龍骨荒野";
 	["Dun Morogh"] = "丹莫洛";
 	["Dustwallow Marsh"] = "塵泥沼澤";
 	["Eastern Plaguelands"] = "東瘟疫之地";
 	["Feralas"] = "菲拉斯";
 	["Ghostlands"] = "鬼魂之地";
+	["Grizzly Hills"] = "灰白之丘";
 	["Hellfire Peninsula"] = "地獄火半島";
+	["Howling Fjord"] = "凜風峽灣";
 	["Isle of Quel'Danas"] = "奎爾達納斯之島";
 	["Netherstorm"] = "虛空風暴";
 	["Orgrimmar"] = "奧格瑪";
@@ -298,10 +322,12 @@ AtlasLocale = {
 	["Tanaris"] = "塔納利斯";
 	["Terokkar Forest"] = "泰洛卡森林";
 	["The Barrens"] = "貧瘠之地";
+	["The Storm Peaks"] = "風暴群山";
 	["Tirisfal Glades"] = "提里斯法林地";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
 	["Zangarmarsh"] = "贊格沼澤";
+	["Zul'Drak"] = "祖爾德拉克";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -578,6 +604,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "喬莉·哈妮威爾";
 	["Jay Lemieux"] = "杰·黎米厄斯";
 	["Young Blanchy"] = "小馬布蘭契";
+	["Don Carlos"] = "卡洛斯大爺";
+	["Guerrero"] = "葛雷洛";
 	
 --****************************
 -- Eastern Kingdoms Instances
@@ -1413,6 +1441,94 @@ AtlasLocale = {
 
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+
+--*****************
+-- WotLK Instances
+--*****************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "『守門者』齊力克西爾";
+	["Hadronox"] = "哈卓諾克斯";
+	["Anub'arak"] = "阿努巴拉克";
+	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "肉鉤";
+	["Salramm the Fleshcrafter"] = "『血肉工匠』塞歐朗姆";
+	["Chrono-Lord Epoch"] = "紀元時間領主";
+	["Mal'Ganis"] = "瑪爾加尼斯";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "血角食人妖";
+	["Novos the Summoner"] = "『召喚者』諾沃司";
+	["King Dred"] = "崔德王之盔";
+	["The Prophet Tharon'ja"] = "預言者薩隆杰";
+	
+	--Gundrak
+	["Slad'ran <High Prophet of Sseratus>"] = "史拉德銳";
+	["Drakkari Colossus"] = "德拉克瑞巨像";
+	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比";
+	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "議庭之箱";
+	["Krystallus"] = "克利斯托魯斯";
+	["Brann Bronzebeard"] = "布萊恩·銅鬚";
+	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";
+	["Maiden of Grief"] = "悲嘆少女";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "畢亞格林將軍";
+	["Volkhan"] = "渥克瀚";
+	["Ionar"] = "埃歐納";
+	["Loken"] = "洛肯";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "守護密室";
+	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
+	["Dalronn the Controller"] = "『控制者』達隆恩";
+	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
+	["Gortok Palehoof"] = "戈托克·白蹄";
+	["Skadi the Ruthless"] = "無情的斯卡迪";
+	["King Ymiron"] = "依米倫王";
+	["Skarvald the Constructor"] = "『建造者』史卡沃";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "艾諾瑪路斯";
+	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
+	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
+	["Keristrasza"] = "凱瑞史卓莎";
+	["Commander Stoutbeard"] = "指揮官厚鬚";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "老那杜斯";
+	["Prince Taldaram"] = "泰爾達朗王子";
+	["Jedoga Shadowseeker"] = "潔杜佳·尋影者";
+	["Herald Volazj"] = "信使沃菈齊";
+	["Amanitar"] = "毒蕈魔";
+
+	--The Violet Hold
+	["Erekem"] = "伊銳坎";
+	["Zuramat the Obliterator"] = "『消滅者』舒拉邁特";
+	["Xevozz"] = "基沃滋";
+	["Ichoron"] = "伊仇隆";
+	["Moragg"] = "摩拉革";
+	["Lavanthor"] = "拉方索";
+	["Cyanigosa"] = "霞妮苟莎";
+	["Wave 18"] = "第 18 波";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "『審問者』德拉高斯";
+	["Mage-Lord Urom"] = "法師領主厄隆";
+	["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者 ";
 
 };
 end

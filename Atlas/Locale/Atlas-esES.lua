@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 02/11/2008
+-- Última Actualización (last update): 08/11/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -84,6 +84,7 @@ ATLAS_DDL_CONTINENT = "Continente";
 ATLAS_DDL_CONTINENT_EASTERN = "Mazmorras de los Reinos del Este";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Mazmorras de Kalimdor";
 ATLAS_DDL_CONTINENT_OUTLAND = "Mazmorras de Terrallende";
+ATLAS_DDL_CONTINENT_NORTHREND = "Mazmorras de Rasganorte";
 ATLAS_DDL_LEVEL = "Nivel";
 ATLAS_DDL_LEVEL_UNDER45 = "Mazmorras de nivel inferior a 45";
 ATLAS_DDL_LEVEL_45TO60 = "Mazmorras de nivel 45-60";
@@ -108,6 +109,8 @@ ATLAS_DDL_TYPE_ENTRANCE = "Entradas";
 ATLAS_INSTANCE_BUTTON = "Mazmorra";
 ATLAS_ENTRANCE_BUTTON = "Entrada";
 ATLAS_SEARCH_UNAVAIL = "Buscar no disponible";
+ATLAS_WORLDMAP_PLAYER = "Jugador";
+ATLAS_WORLDMAP_CURSOR = "Cursor";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";
@@ -608,6 +611,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "Julie Pozo de Miel";
 	["Jay Lemieux"] = "Jay Lemieux";
 	["Young Blanchy"] = "Joven Blanchy";
+	["Don Carlos"] = "Don Carlos";
+	["Guerrero"] = "Guerrero";
 		
 --****************************
 -- Eastern Kingdoms Instances
@@ -1455,6 +1460,12 @@ AtlasLocale = {
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
 
+	--*****************
+	-- WotLK Instances
+	--*****************
+
+	--I'm switching from continent grouping to expansion grouping.
+
 	--Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
 	["Hadronox"] = "Hadronox";
@@ -1473,10 +1484,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
 	
 	--Gundrak
-	["Slad'ran"] = "Slad'ran";
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi"] = "Moorabi";
-	["Gal'darah"] = "Gal'darah";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";
@@ -1493,10 +1504,10 @@ AtlasLocale = {
 	
 	--The Obsidian Sanctum
 	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion the Onyx Guardian"] = "Sartharion the Onyx Guardian";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth"] = "Prince Keleseth";
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
 	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
 	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
@@ -1506,15 +1517,17 @@ AtlasLocale = {
 	["Gortok Palehoof"] = "Gortok Palehoof";
 	["Skadi the Ruthless"] = "Skadi the Ruthless";
 	["King Ymiron"] = "King Ymiron";
-
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
+	
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magis Telestra"] = "Grand Magis Telestra";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nakox"] = "Elder Nakox";
+	["Elder Nadox"] = "Elder Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
 	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
 	["Herald Volazj"] = "Herald Volazj";
@@ -1534,7 +1547,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Drakos the Interrogator";
 	["Mage-Lord Urom"] = "Mage-Lord Urom";
 	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Commander Varos Cloudstrider"] = "Commander Varos Cloudstrider";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
 
 };
 

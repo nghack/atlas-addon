@@ -985,25 +985,25 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Abomination Wing"] = "Aile des Abominations";
+	["Construct Quarter"] = "Construct Quarter"; -- à traduire
 	["Patchwerk"] = "Le Recousu";
 	["Grobbulus"] = "Grobbulus";
 	["Gluth"] = "Gluth";
 	["Thaddius"] = "Thaddius";
-	["Spider Wing"] = "Aile des Araignées";
+	["Arachnid Quarter"] = "Arachnid Quarter"; -- à traduire
 	["Anub'Rekhan"] = "Anub'Rekhan";
 	["Grand Widow Faerlina"] = "Grande veuve Faerlina";
 	["Maexxna"] = "Maexxna";
-	["Deathknight Wing"] = "Aile des Chevaliers de la mort";
+	["Military Quarter"] = "Military Quarter"; -- à traduire
 	["Instructor Razuvious"] = "Instructeur Razuvious";
 	["Gothik the Harvester"] = "Gothik le Moissonneur";
 	["The Four Horsemen"] = "Les quatre cavaliers";
 	["Thane Korth'azz"] = "Thane Korth'azz";
 	["Lady Blaumeux"] = "Dame Blaumeux";
-	["Highlord Mograine <The Ashbringer>"] = "Généralissime Mograine <Le Porte-cendres>";
+	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
 	["Four Horsemen Chest"] = "Four Horsemen Chest";
-	["Plague Wing"] = "Aile de la Peste";
+	["Plague Quarter"] = "Plague Quarter"; -- à traduire
 	["Noth the Plaguebringer"] = "Noth le Porte-peste";
 	["Heigan the Unclean"] = "Heigan l'Impur";
 	["Loatheb"] = "Horreb";
@@ -1455,8 +1455,6 @@ AtlasLocale = {
 --*****************
 -- WotLK Instances
 -- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
--- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
--- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
 --*****************
 
 --I'm switching from continent grouping to expansion grouping.
@@ -1483,6 +1481,7 @@ AtlasLocale = {
 	["Drakkari Colossus"] = "Drakkari Colossus";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
+	["Eck the Ferocious"] = "Eck the Ferocious";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";

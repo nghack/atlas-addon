@@ -43,9 +43,7 @@ local myCategory = AtlasDLLocale["Dungeon Locations"];
 
 local myData = {
 	DLEast = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Eastern Kingdoms"]..")" };
-		Location = { AtlasDLLocale["Eastern Kingdoms"] };
-		Continent = AtlasDLLocale["Eastern Kingdoms"];
+		ZoneName = { AtlasDLLocale["Eastern Kingdoms"] };
 		{ BLUE.."A) "..AtlasDLLocale["Alterac Valley"]..", ".._RED..AtlasDLLocale["Alterac Mountains"].." / "..AtlasDLLocale["Hillsbrad Foothills"], ZONE, 2597, 36, 267 };
 		{ BLUE.."B) "..AtlasDLLocale["Arathi Basin"]..", ".._RED..AtlasDLLocale["Arathi Highlands"], ZONE, 3358, 45 };
 		{ GREY.."1) "..AtlasDLLocale["Magisters' Terrace"]..", ".._RED..AtlasDLLocale["Isle of Quel'Danas"], ZONE, 4095, 4080 };
@@ -72,9 +70,7 @@ local myData = {
 		{ GREY..AtlasDLLocale["White"]..": "..ORNG..AtlasDLLocale["Instances"] };
 	};
 	DLWest = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Kalimdor"]..")" };
-		Location = { AtlasDLLocale["Kalimdor"] };
-		Continent = AtlasDLLocale["Kalimdor"];
+		ZoneName = { AtlasDLLocale["Kalimdor"] };
 		{ BLUE.."A) "..AtlasDLLocale["Warsong Gulch"]..", ".._RED..AtlasDLLocale["The Barrens"].." / "..AtlasDLLocale["Ashenvale"], ZONE, 3277, 17, 331 };
 		{ GREY.."1) "..AtlasDLLocale["Blackfathom Deeps"]..", ".._RED..AtlasDLLocale["Ashenvale"], ZONE, 719, 331 };
 		{ GREY.."2) "..AtlasDLLocale["Ragefire Chasm"]..", ".._RED..AtlasDLLocale["Orgrimmar"], ZONE, 2437, 1637 };
@@ -96,9 +92,7 @@ local myData = {
 		{ GREY..AtlasDLLocale["White"]..": "..ORNG..AtlasDLLocale["Instances"] };
 	};
 	DLOutland = {
-		ZoneName = { AtlasDLLocale["Dungeon Locations"].." ("..AtlasDLLocale["Outland"]..")" };
-		Location = { AtlasDLLocale["Outland"] };
-		Continent = AtlasDLLocale["Outland"];
+		ZoneName = { AtlasDLLocale["Outland"] };
 		{ GREY.."1) "..AtlasDLLocale["Gruul's Lair"]..", ".._RED..AtlasDLLocale["Blade's Edge Mountains"], ZONE, 3618, 3522 };
 		{ GREY.."2) "..AtlasDLLocale["Tempest Keep"]..", ".._RED..AtlasDLLocale["Netherstorm"], ZONE, nil, 3523 };
 		{ GREY..INDENT..AtlasDLLocale["The Mechanar"], ZONE, 3849 };
@@ -121,6 +115,28 @@ local myData = {
 		{ GREY..INDENT..AtlasDLLocale["Sethekk Halls"], ZONE, 3791 };
 		{ GREY..INDENT..AtlasDLLocale["Shadow Labyrinth"], ZONE, 3789 };
 		{ GREY.."6) "..AtlasDLLocale["Black Temple"]..", ".._RED..AtlasDLLocale["Shadowmoon Valley"], ZONE, 3959, 3520 };
+	};
+	DLNorthrend = {
+		ZoneName = { AtlasDLLocale["Northrend"] };
+		{ GREY.."1) "..AtlasDLLocale["The Nexus"]..", ".._RED..AtlasDLLocale["Coldarra"], ZONE, nil, 3537 };
+		{ GREY..INDENT..AtlasDLLocale["The Nexus"], ZONE, 4120 };
+		{ GREY..INDENT..AtlasDLLocale["The Oculus"], ZONE, 4228 };
+		{ GREY..INDENT..AtlasDLLocale["The Eye of Eternity"], ZONE, 4500 };
+		{ GREY.."2) "..AtlasDLLocale["Azjol-Nerub"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, nil, 65 };
+		{ GREY..INDENT..AtlasDLLocale["Azjol-Nerub: The Upper Kingdom"], ZONE, 3477 };
+		{ GREY..INDENT..AtlasDLLocale["Ahn'kahet: The Old Kingdom"], ZONE, 4494 };
+		{ GREY.."3) "..AtlasDLLocale["The Obsidian Sanctum"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, 4493, 65 };
+		{ GREY.."4) "..AtlasDLLocale["Naxxramas"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, 3456, 65 };
+		{ GREY.."5) "..AtlasDLLocale["Drak'Tharon Keep"]..", ".._RED..AtlasDLLocale["Grizzly Hills"], ZONE, 4196, 394 };
+		{ GREY.."6) "..AtlasDLLocale["Utgarde Keep"]..", ".._RED..AtlasDLLocale["Howling Fjord"], ZONE, nil, 495 };
+		{ GREY..INDENT..AtlasDLLocale["Utgarde Keep"], ZONE, 206 };
+		{ GREY..INDENT..AtlasDLLocale["Utgarde Pinnacle"], ZONE, 1196 };
+		{ GREY.."7) "..AtlasDLLocale["Gundrak"]..", ".._RED..AtlasDLLocale["Zul'Drak"], ZONE, 4375, 66 };
+		{ GREY.."8) "..AtlasDLLocale["The Violet Hold"]..", ".._RED..AtlasDLLocale["Dalaran"], ZONE, 4415, 4395 };
+		{ GREY.."9) "..AtlasDLLocale["Icecrown Citadel"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
+		{ GREY.."10) "..AtlasDLLocale["Ulduar"]..", ".._RED..AtlasDLLocale["The Storm Peaks"], ZONE, nil, 67 };
+		{ GREY..INDENT..AtlasDLLocale["Halls of Stone"], ZONE, 4264 };
+		{ GREY..INDENT..AtlasDLLocale["Halls of Lightning"], ZONE, 4272 };
 	};
 };
 

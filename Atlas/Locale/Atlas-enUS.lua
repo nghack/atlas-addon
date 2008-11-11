@@ -975,25 +975,25 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archmage Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Abomination Wing"] = "Abomination Wing";
+	["Construct Quarter"] = "Construct Quarter";
 	["Patchwerk"] = "Patchwerk";
 	["Grobbulus"] = "Grobbulus";
 	["Gluth"] = "Gluth";
 	["Thaddius"] = "Thaddius";
-	["Spider Wing"] = "Spider Wing";
+	["Arachnid Quarter"] = "Arachnid Quarter";
 	["Anub'Rekhan"] = "Anub'Rekhan";
 	["Grand Widow Faerlina"] = "Grand Widow Faerlina";
 	["Maexxna"] = "Maexxna";
-	["Deathknight Wing"] = "Deathknight Wing";
+	["Military Quarter"] = "Military Quarter";
 	["Instructor Razuvious"] = "Instructor Razuvious";
 	["Gothik the Harvester"] = "Gothik the Harvester";
 	["The Four Horsemen"] = "The Four Horsemen";
 	["Thane Korth'azz"] = "Thane Korth'azz";
 	["Lady Blaumeux"] = "Lady Blaumeux";
-	["Highlord Mograine <The Ashbringer>"] = "Highlord Mograine <The Ashbringer>";
+	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
 	["Four Horsemen Chest"] = "Four Horsemen Chest";
-	["Plague Wing"] = "Plague Wing";
+	["Plague Quarter"] = "Plague Quarter";
 	["Noth the Plaguebringer"] = "Noth the Plaguebringer";
 	["Heigan the Unclean"] = "Heigan the Unclean";
 	["Loatheb"] = "Loatheb";
@@ -1469,6 +1469,7 @@ AtlasLocale = {
 	["Drakkari Colossus"] = "Drakkari Colossus";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
+	["Eck the Ferocious"] = "Eck the Ferocious";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";

@@ -9,6 +9,10 @@ v1.13.0
 - added cursor coordinates to the world map
 - added Don Carlos and Guerrero to Old Hillsbrad Foothills (Hegarol)
 - gave Veyzhak the Cannibal a home in The Sunken Temple (Telchar)
+- updated Naxx information and data for WotLK changes
+- the flight path plugin now contains all transport routes (boat, zep, portals)
+- added Northrend dungeon location map
+- other minor tweaks and improvements
 
 v1.12.3
 - fixed various errors on non-English clients

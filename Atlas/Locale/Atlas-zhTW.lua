@@ -976,25 +976,25 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "大法師塔希斯·克摩地爾";
 	["Mr. Bigglesworth"] = "畢勾沃斯先生";
-	["Abomination Wing"] = "憎惡之翼";
+	["Construct Quarter"] = "傀儡區";
 	["Patchwerk"] = "縫補者";
 	["Grobbulus"] = "葛羅巴斯";
 	["Gluth"] = "古魯斯";
 	["Thaddius"] = "泰迪斯";
-	["Spider Wing"] = "蜘蛛之翼";
+	["Arachnid Quarter"] = "蜘蛛區";
 	["Anub'Rekhan"] = "阿努比瑞克漢";
 	["Grand Widow Faerlina"] = "大寡婦費琳娜";
 	["Maexxna"] = "梅克絲娜";
-	["Deathknight Wing"] = "死亡騎士之翼";
+	["Military Quarter"] = "軍事區";
 	["Instructor Razuvious"] = "講師拉祖維斯";
 	["Gothik the Harvester"] = "收割者高希";
 	["The Four Horsemen"] = "四騎士";
 	["Thane Korth'azz"] = "寇斯艾茲族長";
 	["Lady Blaumeux"] = "布洛莫斯爵士";
-	["Highlord Mograine <The Ashbringer>"] = "莫格萊尼公爵";
+	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "札里克爵士";
 	["Four Horsemen Chest"] = "四騎士之箱 ";
-	["Plague Wing"] = "瘟疫之翼";
+	["Plague Quarter"] = "瘟疫區";
 	["Noth the Plaguebringer"] = "瘟疫者諾斯";
 	["Heigan the Unclean"] = "骯髒者海根";
 	["Loatheb"] = "洛斯伯";
@@ -1470,6 +1470,7 @@ AtlasLocale = {
 	["Drakkari Colossus"] = "德拉克瑞巨像";
 	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比";
 	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉";
+	["Eck the Ferocious"] = "『兇猛』埃克";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "議庭之箱";

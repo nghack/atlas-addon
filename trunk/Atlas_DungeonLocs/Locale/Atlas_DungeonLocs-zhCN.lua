@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 6/21/2008
+-- Last Update : 11/11/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -20,6 +20,7 @@ AtlasDLLocale = {
 	["White"] = "白色";
 
 	--Places
+	["Ahn'kahet: The Old Kingdom"] = "安卡赫特：古代王国";
 	["Alterac Mountains"] = "奥特兰克山脉";
 	["Alterac Valley"] = "奥特兰克山谷";
 	["Arathi Basin"] = "阿拉希盆地";
@@ -27,6 +28,8 @@ AtlasDLLocale = {
 	["Ashenvale"] = "灰谷";
 	["Auchenai Crypts"] = "奥金尼地穴";
 	["Auchindoun"] = "奥金顿";
+	["Azjol-Nerub"] = "艾卓-尼鲁布";
+	["Azjol-Nerub: The Upper Kingdom"] = "艾卓-尼鲁布：上层王国";
 	["Badlands"] = "荒芜之地";
 	["Black Temple"] = "黑暗神殿";
 	["Blackfathom Deeps"] = "黑暗深渊";
@@ -37,9 +40,13 @@ AtlasDLLocale = {
 	["Blade's Edge Mountains"] = "刀锋山";
 	["Caverns of Time"] = "时光之穴";
 	["Coilfang Reservoir"] = "盘牙水库";
+	["Coldarra"] = "考达拉";
+	["Dalaran"] = "达拉然";
 	["Deadwind Pass"] = "逆风小径";
 	["Desolace"] = "凄凉之地";
 	["Dire Maul"] = "厄运之槌";
+	["Dragonblight"] = "龙骨荒野";
+	["Drak'Tharon Keep"] = "达克萨隆要塞";
 	["Dun Morogh"] = "丹莫罗";
 	["Dustwallow Marsh"] = "尘泥沼泽";
 	["Eastern Kingdoms"] = "东部王国";
@@ -47,12 +54,19 @@ AtlasDLLocale = {
 	["Feralas"] = "菲拉斯";
 	["Ghostlands"] = "幽魂之地";
 	["Gnomeregan"] = "诺莫瑞根";
+	["Grizzly Hills"] = "灰熊丘陵";
 	["Gruul's Lair"] = "格鲁尔的巢穴";
+	["Gundrak"] = "古达克";
+	["Halls of Lightning"] = "闪电大厅";
+	["Halls of Stone"] = "岩石大厅";
 	["Hellfire Citadel"] = "地狱火堡垒";
 	["Hellfire Peninsula"] = "地狱火半岛";
 	["Hellfire Ramparts"] = "地狱火城墙";
 	["Hillsbrad Foothills"] = "希尔斯布莱德丘陵";
+	["Howling Fjord"] = "嚎风海湾";
 	["Hyjal Summit"] = "海加尔峰";
+	["Icecrown Citadel"] = "冰冠堡垒";
+	["Icecrown"] = "冰冠冰川";
 	["Isle of Quel'Danas"] = "奎尔丹纳斯岛";
 	["Kalimdor"] = "卡利姆多";
 	["Karazhan"] = "卡拉赞";
@@ -63,6 +77,7 @@ AtlasDLLocale = {
 	["Molten Core"] = "熔火之心";
 	["Naxxramas"] = "纳克萨玛斯";
 	["Netherstorm"] = "虚空风暴";
+	["Northrend"] = "诺森德";
 	["Old Hillsbrad Foothills"] = "旧希尔斯布莱德丘陵";
 	["Onyxia's Lair"] = "奥妮克希亚的巢穴";
 	["Orgrimmar"] = "奥格瑞玛";
@@ -96,21 +111,31 @@ AtlasDLLocale = {
 	["The Blood Furnace"] = "鲜血熔炉";
 	["The Botanica"] = "生态船";
 	["The Deadmines"] = "死亡矿井";
+	["The Eye of Eternity"] = "永恒之眼";
 	["The Eye"] = "风暴之眼";
 	["The Mechanar"] = "能源舰";
+	["The Nexus"] = "魔枢";
+	["The Obsidian Sanctum"] = "黑曜石圣殿";
+	["The Oculus"] = "魔环";
 	["The Shattered Halls"] = "碎裂大厅";
 	["The Slave Pens"] = "奴隶围栏";
 	["The Steamvault"] = "蒸汽地窖";
 	["The Stockade"] = "监狱";
+	["The Storm Peaks"] = "风暴峭壁";
 	["The Underbog"] = "幽暗沼泽";
+	["The Violet Hold"] = "紫罗兰监狱";
 	["Tirisfal Glades"] = "提瑞斯法林地";
 	["Uldaman"] = "奥达曼";
+	["Ulduar"] = "奥杜尔";
+	["Utgarde Keep"] = "乌特加德城堡";
+	["Utgarde Pinnacle"] = "乌特加的之巅";
 	["Wailing Caverns"] = "哀嚎洞穴";
 	["Warsong Gulch"] = "战歌峡谷";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
 	["Zangarmarsh"] = "赞加沼泽";
 	["Zul'Aman"] = "祖阿曼";
+	["Zul'Drak"] = "祖达克";
 	["Zul'Farrak"] = "祖尔法拉克";
 	["Zul'Gurub"] = "祖尔格拉布";
 

@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/7/2008
+-- Last Update : 11/11/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -956,25 +956,25 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·基莫迪尔";
 	["Mr. Bigglesworth"] = "比格沃斯";
-	["Abomination Wing"] = "憎恶翼";
+	["Construct Quarter"] = "构造区";
 	["Patchwerk"] = "帕奇维克";
 	["Grobbulus"] = "格罗布鲁斯";
 	["Gluth"] = "格拉斯";
 	["Thaddius"] = "塔迪乌斯";
-	["Spider Wing"] = "地穴蜘蛛翼";
+	["Arachnid Quarter"] = "蜘蛛区";
 	["Anub'Rekhan"] = "阿努布雷坎";
 	["Grand Widow Faerlina"] = "黑女巫法琳娜";
 	["Maexxna"] = "迈克斯纳";
-	["Deathknight Wing"] = "死亡骑士翼";
+	["Military Quarter"] = "军事区";
 	["Instructor Razuvious"] = "教官拉苏维奥斯";
 	["Gothik the Harvester"] = "收割者戈提克";
 	["The Four Horsemen"] = "天启四骑士";
 	["Thane Korth'azz"] = "库尔塔兹领主";
 	["Lady Blaumeux"] = "女公爵布劳缪克丝";
-	["Highlord Mograine <The Ashbringer>"] = "大领主莫格莱尼 <灰烬使者>";
+	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "瑟里耶克爵士";
 	["Four Horsemen Chest"] = "四骑士之箱";
-	["Plague Wing"] = "瘟疫翼";
+	["Plague Quarter"] = "瘟疫区";
 	["Noth the Plaguebringer"] = "瘟疫使者诺斯";
 	["Heigan the Unclean"] = "肮脏的希尔盖";
 	["Loatheb"] = "洛欧塞布";
@@ -1447,9 +1447,10 @@ AtlasLocale = {
 	
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <High Prophet of Sseratus>";
-	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Drakkari Colossus"] = "达卡莱巨像";
 	["Moorabi <High Prophet of Mam'toth>"] = "莫拉比 <High Prophet of Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <High Prophet of Akali>";
+	["Eck the Ferocious"] = "凶残的伊克";
 
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Tribunal Chest";
@@ -1465,13 +1466,13 @@ AtlasLocale = {
 	["Loken"] = "洛肯";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
+	["Chamber of Aspects"] = "守护巨龙大厅";
+	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
+	["Dalronn the Controller"] = "控制者达尔隆";
+	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
 	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
 
 	--Utgarde Keep: Utgarde Pinnacle

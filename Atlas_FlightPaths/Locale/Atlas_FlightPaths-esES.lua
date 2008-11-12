@@ -243,7 +243,7 @@ AtlasFPLocale = {
 	["Zoram'gar Outpost"] = "Avanzada de Zoram'gar";
 	["Zul'Drak"] = "Zul'Drak";
 	["Valaar's Berth"] = "Valaar's Berth"; --Check
-	["Sun's Reach Sanctum"] = "Sun's Reach Sanctum" --Check;
+	["Sun's Reach Sanctum"] = "Sun's Reach Sanctum"; --Check;
 	["Darnassus"] = "Darnassus";
 	
 };

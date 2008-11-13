@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 08/11/2008
+-- Última Actualización (last update): 13/11/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -274,14 +274,14 @@ AtlasLocale = {
 	["The Eye"] = "El Ojo"; ["Eye"] = "Ojo";
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
-	["The Obsidian Sanctum"] = "El Ojo de la Eternidad "; --Check
+	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
 	["The Oculus"] = "El Oculus";
 	["The Shattered Halls"] = "Las Salas Arrasadas"; ["SH"] = "SA";
 	["The Slave Pens"] = "Recinto de los Esclavos"; ["SP"] = "Recinto";
 	["The Steamvault"] = "Cámara de Vapor"; ["SV"] = "CV";
 	["The Stockade"] = "Las Mazmorras"; ["Stocks"] = "Mazmorras";
 	["The Underbog"] = "La Sotiénaga"; ["UB"] = "Soti";
-	["The Violet Hold"] = "The Violet Hold"; --Check
+	["The Violet Hold"] = "El Bastión Violeta";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Fortaleza de Utgarde";
@@ -658,7 +658,7 @@ AtlasLocale = {
 	["General Angerforge"] = "General Forjainquina";
 	["Golem Lord Argelmach"] = "Señor Gólem Argelmach";
 	["Field Repair Bot 74A"] = "Reparación de campo 74A";
-	["The Grim Guzzler"] = "Tragapenas"; --Check
+	["The Grim Guzzler"] = "Tragapenas";
 	["Hurley Blackbreath"] = "Hurley Negrálito";
 	["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Tratoscuro <La Hermandad del torio>";
 	["Mistress Nagmara"] = "Maestra Nagmara";
@@ -1004,7 +1004,7 @@ AtlasLocale = {
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
 	["Four Horsemen Chest"] = "Cofre de los cuatro jinetes";
-	["Plague Quarter"] = "Ala de la Plaga"; --Check
+	["Plague Quarter"] = "Cuarto de la Plaga"; --Check
 	["Noth the Plaguebringer"] = "Noth el Pesteador";
 	["Heigan the Unclean"] = "Heigan el Impuro";
 	["Loatheb"] = "Loatheb";
@@ -1100,14 +1100,14 @@ AtlasLocale = {
 	["Thurg"] = "Thurg";
 	["Gazakroth"] = "Gazakroth";
 	["Lord Raadan"] = "Lord Raadan";
-	["Darkheart"] = "Negrocorazón"; --Check
+	["Darkheart"] = "Corazón Oscuro";
 	["Alyson Antille"] = "Alyson Antille";
 	["Slither"] = "Slither";
 	["Fenstalker"] = "Fenstalker";
 	["Koragg"] = "Koragg";
 	["Zul'jin"] = "Zul'jin";
 	["Forest Frogs"] = "Ranas del bosque";
-	["Kyren <Reagents>"] = "Kyren <Componentes>"; --Check
+	["Kyren <Reagents>"] = "Kyren <Componentes>";
 	["Gunter <Food Vendor>"] = "Gunter <Vendedor de comida>";
 	["Adarrah"] = "Adarrah";
 	["Brennan"] = "Brennan";
@@ -1238,7 +1238,7 @@ AtlasLocale = {
 	["Cryo-Engineer Sha'heen"] = "Crioingeniero Sha'heen";
 	["Ethereal Transporter Control Panel"] = "Panel de control del transportador etéreo";
 	["Nexus-Prince Shaffar"] = "Príncipe-nexo Shaffar";
-	["Yor <Void Hound of Shaffar>"] = "Yor <Void Hound of Shaffar>"; --FALTA
+	["Yor <Void Hound of Shaffar>"] = "Yor <Can del vacío de Shaffar>";
 
 	--Auch: Auchenai Crypts
 	["Lower City"] = "Bajo Arrabal";--omitted from other Auch
@@ -1467,35 +1467,35 @@ AtlasLocale = {
 	--I'm switching from continent grouping to expansion grouping.
 
 	--Azjol-Nerub
-	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Krik'thir the Gatewatcher"] = "Krik'thir el vigía de las puertas";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
-	["Meathook"] = "Meathook";
-	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
-	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
-	["Mal'Ganis"] = "Mal'Ganis";
+	["Meathook"] = "Meathook"; --FALTA
+	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter"; --FALTA
+	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch"; --FALTA
+	["Mal'Ganis"] = "Mal'Ganis"; --FALTA
 
 	--Drak'Tharon Keep
-	["Trollgore"] = "Trollgore";
-	["Novos the Summoner"] = "Novos the Summoner";
-	["King Dred"] = "King Dred";
-	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
+	["Trollgore"] = "Cuernotrol";
+	["Novos the Summoner"] = "Novos el Invocador";
+	["King Dred"] = "Rey Dred";
+	["The Prophet Tharon'ja"] = "El profeta Tharon'ja";
 	
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
-	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
-	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
-	["Eck the Ferocious"] = "Eck the Ferocious";
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>"; --FALTA
+	["Drakkari Colossus"] = "Coloso Drakkari";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>"; --FALTA
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>"; --FALTA
+	["Eck the Ferocious"] = "Eck the Ferocious"; --FALTA
 	
 	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest";
+	["Tribunal Chest"] = "Cofre del tribunal";
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard";
-	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
-	["Maiden of Grief"] = "Maiden of Grief";
+	["Brann Bronzebeard"] = "Brann Bronzebeard"; --FALTA
+	["Sjonnir the Ironshaper"] = "Sjonnir el Afilador";
+	["Maiden of Grief"] = "Doncella de Pena"; --Check
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1504,51 +1504,51 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Chamber of Aspects";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
+	["Chamber of Aspects"] = "Cámara de los Aspectos"; --Check
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <El Guardíán Onyx>"; --Check
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Enslaved Proto-Drake"] = "Enslaved Proto-Drake";
-	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <El San'layn>"; --Check
+	["Dalronn the Controller"] = "Dalronn el Controlador";
+	["Enslaved Proto-Drake"] = "Skarvald el Ensamblaje"; --Check
+	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
 
 	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave";
-	["Gortok Palehoof"] = "Gortok Palehoof";
-	["Skadi the Ruthless"] = "Skadi the Ruthless";
-	["King Ymiron"] = "King Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
+	["Svala Sorrowgrave"] = "Svala Tumbapena";
+	["Gortok Palehoof"] = "Gortok Pezuña Pálida";
+	["Skadi the Ruthless"] = "Skadi el Despiadado";
+	["King Ymiron"] = "Rey Ymiron";
+	["Skarvald the Constructor"] = "Skarvald el Constructor"; --Check
 	
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magus Telestra"] = "Grand Magus Telestra";
+	["Ormorok the Tree-Shaper"] = "Ormorok el Cortador de árboles";
+	["Grand Magus Telestra"] = "Gran Maga Telestra";
 	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commander Stoutbeard";
+	["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Elder Nadox";
-	["Prince Taldaram"] = "Prince Taldaram";
-	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
-	["Herald Volazj"] = "Herald Volazj";
+	["Elder Nadox"] = "Ancestro Nadox";
+	["Prince Taldaram"] = "Príncipe Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Buscasombras";
+	["Herald Volazj"] = "Heraldo Volazj";
 	["Amanitar"] = "Amanitar";
 
 	--The Violet Hold
 	["Erekem"] = "Erekem";
-	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Zuramat the Obliterator"] = "Zuramat el Obliterador";
 	["Xevozz"] = "Xevozz";
-	["Ichoron"] = "Ichoron";
+	["Ichoron"] = "Ícoron";
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
-	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Wave 18";
+	["Cyanigosa"] = "Cianigosa";
+	["Wave 18"] = "Ola 18";
 	
 	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos the Interrogator";
-	["Mage-Lord Urom"] = "Mage-Lord Urom";
-	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
+	["Drakos the Interrogator"] = "Drakos el interrogador";
+	["Mage-Lord Urom"] = "Señor de la Magia Urom";
+	["Ley-Guardian Eregos"] = "Guardián-Ley Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"; --FALTA
 
 };
 

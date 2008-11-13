@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 12/11/2008
+-- Última Actualización (last update): 13/11/2008
 
 --]]
 
@@ -44,7 +44,7 @@ AtlasDLLocale = {
 	["White"] = "Blanco";
 
 	--Places
-	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El antiguo reino"; --Check
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino";
 	["Alterac Mountains"] = "Montañas de Alterac";
 	["Alterac Valley"] = "Valle de Alterac";
 	["Arathi Basin"] = "Cuenca de Arathi";
@@ -53,7 +53,7 @@ AtlasDLLocale = {
 	["Auchenai Crypts"] = "Criptas Auchenai";
 	["Auchindoun"] = "Auchindoun";
 	["Azjol-Nerub"] = "Azjol-Nerub";
-	["Azjol-Nerub: The Upper Kingdom"] = "Azjol-Nerub: El reino de arriba"; --Check
+	["Azjol-Nerub: The Upper Kingdom"] = "Azjol-Nerub";
 	["Badlands"] = "Tierras del Interior";
 	["Black Temple"] = "Templo Oscuro";
 	["Blackfathom Deeps"] = "Caverna Brazanegra";
@@ -139,7 +139,7 @@ AtlasDLLocale = {
 	["The Eye"] = "El Ojo";
 	["The Mechanar"] = "El Mechanar";
 	["The Nexus"] = "El Nexo";
-	["The Obsidian Sanctum"] = "The Obsidian Sanctum"; --Check
+	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
 	["The Oculus"] = "El Oculus";
 	["The Shattered Halls"] = "Las Salas Arrasadas";
 	["The Slave Pens"] = "El Campo de Esclavos";
@@ -147,7 +147,7 @@ AtlasDLLocale = {
 	["The Stockade"] = "Mazmorras de Ventormenta";
 	["The Storm Peaks"] = "Cumbres Tormentosas";
 	["The Underbog"] = "La Sotiénaga";
-	["The Violet Hold"] = "The Violet Hold"; --Check
+	["The Violet Hold"] = "El Bastión Violeta";
 	["Tirisfal Glades"] = "Claros de Trisfal";
 	["Uldaman"] = "Uldaman";
 	["Ulduar"] = "Ulduar";

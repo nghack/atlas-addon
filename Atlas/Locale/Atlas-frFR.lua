@@ -221,7 +221,7 @@ AtlasLocale = {
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN";
+	["Azjol-Nerub"] = "Azjol-Nérub"; ["AN"] = "AN";
 	["Black Temple"] = "Temple noir"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
@@ -1514,7 +1514,7 @@ AtlasLocale = {
 
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
 	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Commander Stoutbeard";

@@ -229,7 +229,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
-		["Chamber of Aspects"] = "Chamber of Aspects";
+		--["Chamber of Aspects"] = "Chamber of Aspects";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
@@ -263,7 +263,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-		["Stratholme Past"] = "Stratholme Past";
+		--["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
@@ -292,6 +292,21 @@ AtlasLocale = {
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
+	
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
+	["DTK"] = "DTK";
+	["Gun"] = "Gun";
+	["HoS"] = "HoS";
+	["HoL"] = "HoL";
+	["OS"] = "OS";
+	["UK, Keep"] = "UK, Keep";
+	["UP, Pinn"] = "UP, Pinn";
+	["Nex, Nexus"] = "Nex, Nexus";
+	["AK, Kahet"] = "AK, Kahet";
+	["VH"] = "VH";
+	["Ocu"] = "Ocu";
 	
 	--Continents
 	["Eastern Kingdoms"] = "Royaumes de l'Est";

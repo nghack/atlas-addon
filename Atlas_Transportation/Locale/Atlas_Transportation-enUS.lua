@@ -22,7 +22,7 @@
 
 --]]
 
-AtlasFPLocale = {
+AtlasTransLocale = {
 
 	["Aerie Peak"] = "Aerie Peak";
 	["Agmar's Hammer"] = "Agmar's Hammer";
@@ -88,7 +88,6 @@ AtlasFPLocale = {
 	["Feralas"] = "Feralas";
 	["Fizzcrank Airstrip"] = "Fizzcrank Airstrip";
 	["Flame Crest"] = "Flame Crest";
-	["Flight Path Maps"] = "Flight Path Maps";
 	["Fordragon Keep"] = "Fordragon Keep";
 	["Forest Song"] = "Forest Song";
 	["Fort Wildevar"] = "Fort Wildevar";
@@ -194,6 +193,7 @@ AtlasFPLocale = {
 	["The Barrens"] = "The Barrens";
 	["The Dark Portal"] = "The Dark Portal";
 	["The Exodar"] = "The Exodar";
+	["The Forgotten Coast"] = "The Forgotten Coast";
 	["The Hinterlands"] = "The Hinterlands";
 	["The Scryers"] = "The Scryers";
 	["The Sepulcher"] = "The Sepulcher";
@@ -210,6 +210,7 @@ AtlasFPLocale = {
 	["Tranquillien"] = "Tranquillien";
 	["Transitus Shield"] = "Transitus Shield";
 	["Transitus Shield"] = "Transitus Shield";
+	["Transportation Maps"] = "Transportation Maps";
 	["Ulduar"] = "Ulduar";
 	["Un'Goro Crater"] = "Un'Goro Crater";
 	["Undercity"] = "Undercity";

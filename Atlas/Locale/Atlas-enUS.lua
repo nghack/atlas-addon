@@ -220,6 +220,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Blackwing Lair"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathedral"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Caverns of Time"; ["CoT"] = "CoT";
+	["Chamber of Aspects"] = "Chamber of Aspects";
 	["Coilfang Reservoir"] = "Coilfang Reservoir"; ["CR"] = "CR";
 	["Dire Maul"] = "Dire Maul"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Drak'Tharon Keep";
@@ -253,6 +254,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Shadow Labyrinth"; ["SL"] = "SL";
 	["Shadowfang Keep"] = "Shadowfang Keep"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
+	["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Sunken Temple"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Sunwell Plateau"; ["SP"] = "SP";
 	["Tempest Keep"] = "Tempest Keep"; ["TK"] = "TK";
@@ -261,7 +263,6 @@ AtlasLocale = {
 	["The Black Morass"] = "The Black Morass"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "The Blood Furnace"; ["BF"] = "BF";
 	["The Botanica"] = "The Botanica"; ["Bota"] = "Bota";
-	["The Culling of Stratholme"] = "The Culling of Stratholme";
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
@@ -282,7 +283,22 @@ AtlasLocale = {
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
-	
+
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
+	["DTK"] = "DTK";
+	["Gun"] = "Gun";
+	["HoS"] = "HoS";
+	["HoL"] = "HoL";
+	["OS"] = "OS";
+	["UK, Keep"] = "UK, Keep";
+	["UP, Pinn"] = "UP, Pinn";
+	["Nex, Nexus"] = "Nex, Nexus";
+	["AK, Kahet"] = "AK, Kahet";
+	["VH"] = "VH";
+	["Ocu"] = "Ocu";
+
 	--Continents
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
 	["Kalimdor"] = "Kalimdor";
@@ -1453,6 +1469,7 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "The Culling of Stratholme";
 	["Meathook"] = "Meathook";
 	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
 	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
@@ -1485,7 +1502,7 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep

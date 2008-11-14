@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 31/10/2008
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 14/11/2008
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -229,7 +229,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
-		--["Chamber of Aspects"] = "Chamber of Aspects";
+		["Chamber of Aspects"] = "Chamber of Aspects";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
@@ -263,7 +263,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-		--["Stratholme Past"] = "Stratholme Past";
+		["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
@@ -1481,6 +1481,7 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "The Culling of Stratholme";
 	["Meathook"] = "Meathook";
 	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
 	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
@@ -1513,7 +1514,7 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep

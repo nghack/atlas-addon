@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/11/2008
+-- Last Update : 11/15/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -203,6 +203,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "黑翼之巢"; ["BWL"] = "BWL";
 	["Cathedral"] = "大教堂"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "时光之穴"; ["CoT"] = "CoT";
+	["Chamber of Aspects"] = "守护巨龙大厅";
 	["Coilfang Reservoir"] = "盘牙水库"; ["CR"] = "CR";
 	["Dire Maul"] = "厄运之槌"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "达克萨隆要塞";
@@ -236,6 +237,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "暗影迷宫"; ["SL"] = "SL";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat";
+	["Stratholme Past"] = "旧斯坦索姆";
 	["Sunken Temple"] = "沉没的神庙"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "太阳之井高地"; ["SP"] = "SP";
 	["Tempest Keep"] = "风暴要塞"; ["TK"] = "TK";
@@ -244,7 +246,6 @@ AtlasLocale = {
 	["The Black Morass"] = "黑色沼泽"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "鲜血熔炉"; ["BF"] = "BF";
 	["The Botanica"] = "生态船"; ["Bota"] = "Bota";
-	["The Culling of Stratholme"] = "净化斯坦索姆";
 	["The Deadmines"] = "死亡矿井"; ["VC"] = "VC";
 	["The Eye"] = "风暴之眼"; ["Eye"] = "Eye";
 	["The Mechanar"] = "能源舰"; ["Mech"] = "Mech";
@@ -265,6 +266,21 @@ AtlasLocale = {
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖尔法拉克"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "祖尔格拉布"; ["ZG"] = "ZG";
+
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
+	["DTK"] = "DTK";
+	["Gun"] = "Gun";
+	["HoS"] = "HoS";
+	["HoL"] = "HoL";
+	["OS"] = "OS";
+	["UK, Keep"] = "UK, Keep";
+	["UP, Pinn"] = "UP, Pinn";
+	["Nex, Nexus"] = "Nex, Nexus";
+	["AK, Kahet"] = "AK, Kahet";
+	["VH"] = "VH";
+	["Ocu"] = "Ocu";
 
 	--Continents
 	["Eastern Kingdoms"] = "东部王国";
@@ -1434,6 +1450,7 @@ AtlasLocale = {
 	["Anub'arak"] = "阿努巴拉克";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "净化斯坦索姆";
 	["Meathook"] = "肉钩";
 	["Salramm the Fleshcrafter"] = "塑血者沙尔拉姆";
 	["Chrono-Lord Epoch"] = "时光领主埃博克";
@@ -1466,7 +1483,7 @@ AtlasLocale = {
 	["Loken"] = "洛肯";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "守护巨龙大厅";
+	["Black Dragonflight Chamber"] = "黑龙军团巢穴";
 	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
 	
 	--Utgarde Keep: Utgarde Keep

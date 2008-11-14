@@ -1,17 +1,37 @@
 --[[
 
--- Atlas Data Alpha (Russian)
--- Compiled by Eugene Filatov, bigoblin, StingerSoft
--- Last Update: 14.11.2008
+	Atlas, a World of Warcraft instance map browser
+	Copyright 2005 - 2008 Dan Gilbert
+	Email me at loglow@gmail.com
+
+	This file is part of Atlas.
+
+	Atlas is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	Atlas is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Atlas; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
 
 
+-- Atlas Data Alpha (Russian)
+-- Compiled by Eugene Filatov, bigoblin, StingerSoft
+-- Last Update: 14.11.2008
+
 if ( GetLocale() == "ruRU" ) then
 
---AtlasSortIgnore = {"the (.+)"};
 
 
+AtlasSortIgnore = {"(.+)"};
 
 ATLAS_TITLE = "Атлас";
 ATLAS_SUBTITLE = "Обозреватель карт подземелий";
@@ -46,9 +66,9 @@ ATLAS_OPTIONS_RESETPOS = "Сбросить позиции";
 ATLAS_OPTIONS_ACRONYMS = "Отображать короткие названия";
 ATLAS_OPTIONS_SCALE = "Размер";
 ATLAS_OPTIONS_BUTRAD = "Радиус расположения кнопки";
-ATLAS_OPTIONS_CLAMPED = "Не заходить за размеры экрана"
-ATLAS_OPTIONS_CTRL = "Удерживайте клавишу [Control] для сравнений"
-ATLAS_OPTIONS_COORDS = "Показывать координаты на карте мира"
+ATLAS_OPTIONS_CLAMPED = "Не заходить за размеры экрана";
+ATLAS_OPTIONS_CTRL = "Удерживайте клавишу [Control] для сравнений";
+ATLAS_OPTIONS_COORDS = "Показывать координаты на карте мира";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Атлас";
 ATLAS_BUTTON_TOOLTIP_HINT = "[Левая клавиша мыши] открывает Атлас.\n[Средняя клавиша мыши], открывает настройки Атласа.\n[Правая клавиша мыши] + [перемещение] изменяет позицию кнопки Атласа.";
@@ -989,7 +1009,7 @@ AtlasLocale = {
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Сэр Зелиек";
 	["Four Horsemen Chest"] = "Сундук Четырех Всадников";
-	["Plague Wing"] = "Крыло чумы";
+	["Plague Quarter"] = "Чумной квартал";
 	["Noth the Plaguebringer"] = "Нот Чумной";
 	["Heigan the Unclean"] = "Хейган Нечестивый";
 	["Loatheb"] = "Мерзот";
@@ -1436,6 +1456,7 @@ AtlasLocale = {
 
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+
 --*****************
 -- WotLK Instances
 --*****************

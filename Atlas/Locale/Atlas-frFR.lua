@@ -229,6 +229,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
+		["Chamber of Aspects"] = "Chamber of Aspects";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
@@ -262,6 +263,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
+		["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
@@ -270,7 +272,6 @@ AtlasLocale = {
 	["The Black Morass"] = "Le Noir Marécage"; ["CoT2"] = "CoT2/GT2";
 	["The Blood Furnace"] = "La Fournaise du sang"; ["BF"] = "BF";
 	["The Botanica"] = "La Botanica"; ["Bota"] = "Bota";
-	["The Culling of Stratholme"] = "L'épuration de Stratholme";
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";

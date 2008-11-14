@@ -200,7 +200,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Логово Крыла Тьмы"; ["BWL"] = "BWL";
 	["Cathedral"] = "Собор"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Пещеры Времени"; ["CoT"] = "CoT";
-	["Chamber of Aspects"] = "Комната духов"
+	["Chamber of Aspects"] = "Комната духов";
 	["Coilfang Reservoir"] = "Резервуар Кривого Клыка"; ["CR"] = "CR";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";

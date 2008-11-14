@@ -2,7 +2,7 @@
 
 -- Atlas Data Alpha (Russian)
 -- Compiled by Eugene Filatov, bigoblin, StingerSoft
--- Last Update: 16.10.2008
+-- Last Update: 14.11.2008
 
 --]]
 
@@ -200,6 +200,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Логово Крыла Тьмы"; ["BWL"] = "BWL";
 	["Cathedral"] = "Собор"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Пещеры Времени"; ["CoT"] = "CoT";
+	["Chamber of Aspects"] = "Комната духов"
 	["Coilfang Reservoir"] = "Резервуар Кривого Клыка"; ["CR"] = "CR";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";
@@ -233,6 +234,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Темный Лабиринт"; ["SL"] = "SL";
 	["Shadowfang Keep"] = "Крепость Темного Клыка"; ["SFK"] = "SFK";
 	["Stratholme"] = "Стратхольм"; ["Strat"] = "Strat";
+	["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Затонувший храм"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Солнечный Колодец"; ["SP"] = "SP";
 	["Tempest Keep"] = "Крепость Бурь"; ["TK"] = "TK";
@@ -241,7 +243,6 @@ AtlasLocale = {
 	["The Black Morass"] = "Черные топи"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "Кузня Крови"; ["BF"] = "BF";
 	["The Botanica"] = "Ботаника"; ["Bota"] = "Bota";
-	["The Culling of Stratholme"] = "Очищение Стратхольма";
 	["The Deadmines"] = "Мертвые копи"; ["VC"] = "VC";
 	["The Eye"] = "Око"; ["Eye"] = "Eye";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Mech";
@@ -262,6 +263,21 @@ AtlasLocale = {
 	["Zul'Aman"] = "Зул'Аман"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Зул'Фаррак"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Зул'Гуруб"; ["ZG"] = "ZG";
+	
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Начало, CoT-начало";
+	["DTK"] = "DTK";
+	["Gun"] = "Gun";
+	["HoS"] = "HoS";
+	["HoL"] = "HoL";
+	["OS"] = "OS";
+	["UK, Keep"] = "UK, Keep";
+	["UP, Pinn"] = "UP, Pinn";
+	["Nex, Nexus"] = "Некс, Нексус";
+	["AK, Kahet"] = "AK, Kahet";
+	["VH"] = "VH";
+	["Ocu"] = "Ocu";
 	
 	--Continents
 	["Eastern Kingdoms"] = "Восточные королевства";
@@ -1432,6 +1448,7 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "Очищение Стратхольма";
 	["Meathook"] = "Meathook";
 	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
 	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
@@ -1464,7 +1481,7 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
 	
 	--Utgarde Keep: Utgarde Keep

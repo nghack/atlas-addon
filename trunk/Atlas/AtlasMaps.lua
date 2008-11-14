@@ -1899,6 +1899,7 @@ AtlasMaps = {
 		LevelRange = "70-77";
 		MinLevel = "67";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["AN, Nerub"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
@@ -1907,12 +1908,14 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Anub'arak"], NPC, 29120 };
 	};
 	CoTOldStratholme = {
-		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["The Culling of Stratholme"], 4100 };
+		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["Stratholme Past"], 4100 };
 		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "78-80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["Strat, CoT-Strat"];
 		Continent = AtlasLocale["Kalimdor"];
+		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["The Culling of Stratholme"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Meathook"], NPC, 26529 };
 		{ GREY.."2) "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
@@ -1925,6 +1928,7 @@ AtlasMaps = {
 		LevelRange = "72-78";
 		MinLevel = "69";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["DTK"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Exit"] };
@@ -1940,6 +1944,7 @@ AtlasMaps = {
 		LevelRange = "76-80";
 		MinLevel = "71";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["Gun"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Slad'ran <High Prophet of Sseratus>"], NPC, 29304 };
@@ -1954,6 +1959,7 @@ AtlasMaps = {
 		LevelRange = "75-80";
 		MinLevel = "72";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["HoS"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Maiden of Grief"], NPC, 27975 };
@@ -1968,6 +1974,7 @@ AtlasMaps = {
 		LevelRange = "78-80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["HoL"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["General Bjarngrim"], NPC, 28586 };
@@ -1976,14 +1983,15 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Loken"], NPC, 28923 };
 	};
 	ObsidianSanctum = {
-		ZoneName = { AtlasLocale["The Obsidian Sanctum"], 4493 };
+		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..AtlasLocale["The Obsidian Sanctum"], 4493 };
 		Location = { AtlasLocale["Dragonblight"], 65 };
-		LevelRange = "80+";
-		MinLevel = "??";
+		LevelRange = "80";
+		MinLevel = "80";
 		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["OS"];
 		Continent = AtlasLocale["Northrend"];
-		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Chamber of Aspects"] };
-		{ GREY.."?) "..AtlasLocale["Sartharion <The Onyx Guardian>"], NPC, 28860 };
+		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Black Dragonflight Chamber"] };
+		{ GREY.."1) "..AtlasLocale["Sartharion <The Onyx Guardian>"], NPC, 28860 };
 	};
 	UtgardeKeep = {
 		ZoneName = { AtlasLocale["Utgarde Keep"]..": "..AtlasLocale["Utgarde Keep"], 206 };
@@ -1991,6 +1999,7 @@ AtlasMaps = {
 		LevelRange = "68-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["UK, Keep"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
@@ -2005,6 +2014,7 @@ AtlasMaps = {
 		LevelRange = "78-80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["UP, Pinn"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Svala Sorrowgrave"], NPC, 26668 };
@@ -2018,6 +2028,7 @@ AtlasMaps = {
 		LevelRange = "70-75";
 		MinLevel = "66";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["Nex, Nexus"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Anomalus"], NPC, 26763 };
@@ -2032,6 +2043,7 @@ AtlasMaps = {
 		LevelRange = "71-78";
 		MinLevel = "68";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["AK, Kahet"];
 		Continent = AtlasLocale["Northrend"];
 		{ GREY.."1) "..AtlasLocale["Elder Nadox"], NPC, 29309 };
 		{ GREY.."2) "..AtlasLocale["Prince Taldaram"], NPC, 29308 };
@@ -2045,6 +2057,7 @@ AtlasMaps = {
 		LevelRange = "73-79";
 		MinLevel = "70";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["VH"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Erekem"].." ("..AtlasLocale["Random"]..")", NPC, 29315 };
@@ -2061,6 +2074,7 @@ AtlasMaps = {
 		LevelRange = "78-80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		Acronym = AtlasLocale["Ocu"];
 		Continent = AtlasLocale["Northrend"];
 		{ GREY.."1) "..AtlasLocale["Drakos the Interrogator"], NPC, 27654 };
 		{ GREY.."2) "..AtlasLocale["Mage-Lord Urom"], NPC, 27655 };

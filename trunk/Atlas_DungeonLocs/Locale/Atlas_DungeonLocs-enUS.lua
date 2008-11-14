@@ -110,6 +110,7 @@ AtlasDLLocale = {
 	["Stormwind City"] = "Stormwind City";
 	["Stranglethorn Vale"] = "Stranglethorn Vale";
 	["Stratholme"] = "Stratholme";
+	["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Sunken Temple";
 	["Sunwell Plateau"] = "Sunwell Plateau";
 	["Swamp of Sorrows"] = "Swamp of Sorrows";

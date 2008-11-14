@@ -11,6 +11,7 @@ v1.13.0
 - gave Veyzhak the Cannibal a home in The Sunken Temple (Telchar)
 - updated Naxx information and data for WotLK changes
 - the flight path plugin now contains all transport routes (boat, zep, portals)
+- the flight path plugin has been renamed to Transportation
 - added Northrend dungeon location map
 - other minor tweaks and improvements
 

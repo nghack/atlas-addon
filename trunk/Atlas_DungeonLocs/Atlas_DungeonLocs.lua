@@ -51,7 +51,6 @@ local myData = {
 		{ GREY.."2) "..AtlasDLLocale["Zul'Aman"]..", ".._RED..AtlasDLLocale["Ghostlands"], ZONE, 3805, 3433 };
 		{ GREY.."3) "..AtlasDLLocale["Scarlet Monastery"]..", ".._RED..AtlasDLLocale["Tirisfal Glades"], ZONE, 796, 85 };
 		{ GREY.."4) "..AtlasDLLocale["Stratholme"]..", ".._RED..AtlasDLLocale["Eastern Plaguelands"], ZONE, 2017, 139 };
-		{ GREY..INDENT..AtlasDLLocale["Naxxramas"]..", ".._RED..AtlasDLLocale["Eastern Plaguelands"], ZONE, 3456, 139 };
 		{ GREY.."5) "..AtlasDLLocale["Scholomance"]..", ".._RED..AtlasDLLocale["Western Plaguelands"], ZONE, 2057, 28 };
 		{ GREY.."6) "..AtlasDLLocale["Shadowfang Keep"]..", ".._RED..AtlasDLLocale["Silverpine Forest"], ZONE, 209, 130 };
 		{ GREY.."7) "..AtlasDLLocale["Gnomeregan"]..", ".._RED..AtlasDLLocale["Dun Morogh"], ZONE, 133, 1 };
@@ -85,6 +84,7 @@ local myData = {
 		{ GREY..INDENT..AtlasDLLocale["Old Hillsbrad Foothills"], ZONE, 2367 };
 		{ GREY..INDENT..AtlasDLLocale["The Black Morass"], ZONE, 2366 };
 		{ GREY..INDENT..AtlasDLLocale["Hyjal Summit"], ZONE, 3606 };
+		{ GREY..INDENT..AtlasDLLocale["Stratholme Past"], ZONE, 4100 };
 		{ GREY.."11) "..AtlasDLLocale["Ruins of Ahn'Qiraj"]..", ".._RED..AtlasDLLocale["Silithus"], ZONE, 3429, 1377 };
 		{ GREY..INDENT..AtlasDLLocale["Temple of Ahn'Qiraj"]..", ".._RED..AtlasDLLocale["Silithus"], ZONE, 3428, 1377 };
 		{ "" };

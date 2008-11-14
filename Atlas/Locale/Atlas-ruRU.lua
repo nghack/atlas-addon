@@ -59,27 +59,33 @@ ATLAS_DDL_CONTINENT = "Контитенту";
 ATLAS_DDL_CONTINENT_EASTERN = "Подземелья Восточных королевств";
 ATLAS_DDL_CONTINENT_KALIMDOR = "Подземелья Калимдора";
 ATLAS_DDL_CONTINENT_OUTLAND = "Подземелья Запределья";
+ATLAS_DDL_CONTINENT_NORTHREND = "Подземелья Нордскола";
 ATLAS_DDL_LEVEL = "Уровня";
 ATLAS_DDL_LEVEL_UNDER45 = "Подземелья уровня ниже 45";
 ATLAS_DDL_LEVEL_45TO60 = "Подземелья уровня 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Подземелья уровня 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "Подземелья уровня 70+";
 ATLAS_DDL_PARTYSIZE = "Размеру группы";
-ATLAS_DDL_PARTYSIZE_5 = "Подземелья на 5 игроков";
+ATLAS_DDL_PARTYSIZE_5_AC = "Подземелья на 5 игроков A-C";
+ATLAS_DDL_PARTYSIZE_5_DZ = "Подземелья на 5 игроков D-Z";
 ATLAS_DDL_PARTYSIZE_10 = "Подземелья на 10 игроков";
 ATLAS_DDL_PARTYSIZE_20TO40 = "Подземелья на 20-40 игроков";
 ATLAS_DDL_EXPANSION = "Дополнению";
 ATLAS_DDL_EXPANSION_OLD_AO = "Подземелья Старого Мира A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "Подземелья Старого Мира P-Z";
 ATLAS_DDL_EXPANSION_BC = "Подземелья Пылающего Крестового Похода";
+ATLAS_DDL_EXPANSION_WOTLK = "Подземелья Wrath of the Lich King";
 ATLAS_DDL_TYPE = "Типу";
-ATLAS_DDL_TYPE_INSTANCE_AK = "Подземелья A-K";
-ATLAS_DDL_TYPE_INSTANCE_MZ = "Подземелья M-Z";
+ATLAS_DDL_TYPE_INSTANCE_AC = "Подземелья A-C";
+ATLAS_DDL_TYPE_INSTANCE_DR = "Подземелья D-R";
+ATLAS_DDL_TYPE_INSTANCE_SZ = "Подземелья S-Z";
 ATLAS_DDL_TYPE_ENTRANCE = "Входы";
 
 ATLAS_INSTANCE_BUTTON = "Подземелье";
 ATLAS_ENTRANCE_BUTTON = "Вход";
 ATLAS_SEARCH_UNAVAIL = "Поиск недоступен";
+ATLAS_WORLDMAP_PLAYER = "Игрок";
+ATLAS_WORLDMAP_CURSOR = "Курсор";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
@@ -132,6 +138,7 @@ AtlasLocale = {
 	["Horde"] = "Орда";
 	["Hunter"] = "Охотник";
 	["Imp"] = "Бесс";
+	["Inside"] = "Внутри";
 	["Key"] = "Ключ";
 	["Lower"] = "Нижний";
 	["Lunar"] = "Лунный";
@@ -180,10 +187,12 @@ AtlasLocale = {
 	["West"] = "Запад";
 	
 	--Instance names and acronyms
+	["Ahn'kahet: The Old Kingdom"] = "Ан'кахет: Старое Королевство";
 	["Ahn'Qiraj"] = "Ан'Кираж"; ["AQ"] = "AQ";
 	["Armory"] = "Оружейная";
 	["Auchenai Crypts"] = "Аукенайские гробницы"; ["AC"] = "AC";
 	["Auchindoun"] = "Аукиндон"; ["Auch"] = "Auch";
+	["Azjol-Nerub"] = "Азжол-Неруб"; ["AN"] = "AN";
 	["Black Temple"] = "Черный Храм"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Непроглядная Пучина"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Глубины Черной горы"; ["BRD"] = "BRD";
@@ -193,9 +202,13 @@ AtlasLocale = {
 	["Caverns of Time"] = "Пещеры Времени"; ["CoT"] = "CoT";
 	["Coilfang Reservoir"] = "Резервуар Кривого Клыка"; ["CR"] = "CR";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "DM";
+	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";
 	["Gnomeregan"] = "Гномреган"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Кладбище"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Логово Груула"; ["GL"] = "GL";
+	["Gundrak"] = "Гундрак";
+	["Halls of Stone"] = "Чертоги Камня";
+	["Halls of Lightning"] = "Чертоги Молний";
 	["Hellfire Citadel"] = "Цитадель Адского Пламени"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Бастионы Адского Пламени"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Вершина Хиджала"; ["CoT3"] = "CoT3";
@@ -228,15 +241,23 @@ AtlasLocale = {
 	["The Black Morass"] = "Черные топи"; ["CoT2"] = "CoT2";
 	["The Blood Furnace"] = "Кузня Крови"; ["BF"] = "BF";
 	["The Botanica"] = "Ботаника"; ["Bota"] = "Bota";
+	["The Culling of Stratholme"] = "Очищение Стратхольма";
 	["The Deadmines"] = "Мертвые копи"; ["VC"] = "VC";
 	["The Eye"] = "Око"; ["Eye"] = "Eye";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Mech";
+	["The Nexus"] = "Нексус";
+	["The Obsidian Sanctum"] = "Обсидиановое святилище";
+	["The Oculus"] = "Окулус";
 	["The Shattered Halls"] = "Разрушенные залы"; ["SH"] = "SH";
 	["The Slave Pens"] = "Узилище"; ["SP"] = "SP";
 	["The Steamvault"] = "Паровое Подземелье"; ["SV"] = "SV";
 	["The Stockade"] = "Тюрьма"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "Нижетопь"; ["UB"] = "UB";
+	["The Violet Hold"] = "Аметистовая крепость";
 	["Uldaman"] = "Ульдаман"; ["Uld"] = "Uld";
+	["Ulduar"] = "Ульдуар";
+	["Utgarde Keep"] = "Крепость Утгард";
+	["Utgarde Pinnacle"] = "Вершина Утгард";
 	["Wailing Caverns"] = "Пещеры Стенаний"; ["WC"] = "WC";
 	["Zul'Aman"] = "Зул'Аман"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Зул'Фаррак"; ["ZF"] = "ZF";
@@ -246,21 +267,27 @@ AtlasLocale = {
 	["Eastern Kingdoms"] = "Восточные королевства";
 	["Kalimdor"] = "Калимдор";
 	["Outland"] = "Запределье";
+	["Northrend"] = "Нордскол";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ясеневый лес";
 	["Badlands"] = "Бесплодные земли";
 	["Blackrock Mountain"] = "Черная гора"; ["BRM"] = "BRM";
 	["Blade's Edge Mountains"] = "Острогорье";
+	["Borean Tundra"] = "Борейская тундра";
 	["Burning Steppes"] = "Пылающие степи";
+	["Dalaran"] = "Даларан";
 	["Deadwind Pass"] = "Перевал Мертвого Ветра";
 	["Desolace"] = "Пустоши";
+	["Dragonblight"] = "Драконий Погост";
 	["Dun Morogh"] = "Дун Морог";
 	["Dustwallow Marsh"] = "Пылевые топи";
 	["Eastern Plaguelands"] = "Восточное Лихоземье";
 	["Feralas"] = "Фералас";
 	["Ghostlands"] = "Призрачные земли";
+	["Grizzly Hills"] = "Седые холмы";
 	["Hellfire Peninsula"] = "Полуостров Адского Пламени";
+	["Howling Fjord"] = "Ревущий фьорд";
 	["Isle of Quel'Danas"] = "Остров Кель'Данас";
 	["Netherstorm"] = "Пустоверть";
 	["Orgrimmar"] = "Оргриммар";
@@ -274,10 +301,12 @@ AtlasLocale = {
 	["Tanaris"] = "Танарис";
 	["Terokkar Forest"] = "Лес Тероккар";
 	["The Barrens"] = "Степи";
+	["The Storm Peaks"] = "Грозовая Гряда";
 	["Tirisfal Glades"] = "Тирисфальские леса";
 	["Western Plaguelands"] = "Западное Лихоземье";
 	["Westfall"] = "Западный Край";
 	["Zangarmarsh"] = "Зангартопь";
+	["Zul'Drak"] = "Зул'Драк";
 
 --************************************************
 -- Kalimdor Instance Data
@@ -442,12 +471,12 @@ AtlasLocale = {
 	["Fankriss the Unyielding"] = "Фанкрисс Непреклонный";
 	["Viscidus"] = "Нечистотa";
 	["Princess Huhuran"] = "Принцесса Хухуран";
-	["Twin Emperors"] = "Императорам близнецам";
+	["Twin Emperors"] = "Близнецы Императоры";
 	["Emperor Vek'lor"] = "Император Век'лор";
 	["Emperor Vek'nilash"] = "Император Век'нилаш";
 	["Ouro"] = "Оуро";
-	["Eye of C'Thun"] = "Око Ка-Туна";
-	["C'Thun"] = "Ка-Тун";
+	["Eye of C'Thun"] = "Око К-Туна";
+	["C'Thun"] = "К-Тун";
 	["Andorgos <Brood of Malygos>"] = "Андоргос <Род Малигоса>";
 	["Vethsera <Brood of Ysera>"] = "Ветсера <Род Изеры >";
 	["Kandrostrasz <Brood of Alexstrasza>"] = "Кандострас <Племя Алекстразы>";
@@ -554,6 +583,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "Джули Медовушка";
 	["Jay Lemieux"] = "Джей Лемье";
 	["Young Blanchy"] = "Молодая Савраска";
+	["Don Carlos"] = "Дон Карлос";
+	["Guerrero"] = "Герреро";
 	
 --****************************
 -- Eastern Kingdoms Instances
@@ -924,22 +955,22 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Верховный маг Тарсис Кир-Молдир";
 	["Mr. Bigglesworth"] = "Кот Бегемот";
-	["Abomination Wing"] = "Крыло Поганищ";
+	["Construct Quarter"] = "Квартал Мерзости";
 	["Patchwerk"] = "Лоскутик";
 	["Grobbulus"] = "Гроббулус";
 	["Gluth"] = "Глут";
 	["Thaddius"] = "Таддиус";
-	["Spider Wing"] = "Крыло поуков";
+	["Arachnid Quarter"] = "Паучий квартал";
 	["Anub'Rekhan"] = "Ануб'Рекан";
 	["Grand Widow Faerlina"] = "Великая вдова Фарлина";
 	["Maexxna"] = "Мексна";
-	["Deathknight Wing"] = "Рыцареи Смерти";
+	["Military Quarter"] = "Военный квартал";
 	["Instructor Razuvious"] = "Инструктор Разувиус";
 	["Gothik the Harvester"] = "Готик Жнец";
 	["The Four Horsemen"] = "Четыри Всадника";
 	["Thane Korth'azz"] = "Тан Кортазз";
 	["Lady Blaumeux"] = "Леди Бломе";
-	["Highlord Mograine <The Ashbringer>"] = "Верховный лорд Могрейн <Испепелитель>";
+	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Сэр Зелиек";
 	["Four Horsemen Chest"] = "Сундук Четырех Всадников";
 	["Plague Wing"] = "Крыло чумы";
@@ -1389,8 +1420,94 @@ AtlasLocale = {
 
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
+--*****************
+-- WotLK Instances
+--*****************
+
+--I'm switching from continent grouping to expansion grouping.
+
+	--Azjol-Nerub
+	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Hadronox"] = "Hadronox";
+	["Anub'arak"] = "Anub'arak";
+	
+	--Caverns of Time: The Culling of Stratholme
+	["Meathook"] = "Meathook";
+	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
+	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
+	["Mal'Ganis"] = "Mal'Ganis";
+
+	--Drak'Tharon Keep
+	["Trollgore"] = "Trollgore";
+	["Novos the Summoner"] = "Novos the Summoner";
+	["King Dred"] = "King Dred";
+	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
+	
+	--Gundrak
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
+	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
+	["Eck the Ferocious"] = "Eck the Ferocious";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
+	["Maiden of Grief"] = "Maiden of Grief";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+	
+	--The Obsidian Sanctum
+	["Chamber of Aspects"] = "Chamber of Aspects";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Аномалус";
+	["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
+	["Grand Magus Telestra"] = "Великая ведунья Телестра";
+	["Keristrasza"] = "Керистраза";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
+
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "Elder Nadox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
+	["Herald Volazj"] = "Herald Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Wave 18";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos the Interrogator";
+	["Mage-Lord Urom"] = "Mage-Lord Urom";
+	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
 
 };
-
-
-end
+end 

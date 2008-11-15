@@ -13,6 +13,9 @@ v1.13.0
 - the flight path plugin now contains all transport routes (boat, zep, portals)
 - the flight path plugin has been renamed to Transportation
 - added Northrend dungeon location map
+- outdated modules are now checked for and disabled
+- resetting defaults now properly resets the sort-mode
+- resetting defaults now properly updates the status of the lock button
 - other minor tweaks and improvements
 
 v1.12.3

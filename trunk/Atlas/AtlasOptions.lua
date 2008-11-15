@@ -91,11 +91,21 @@ function AtlasOptions_CoordsToggle()
 	Atlas_Refresh();
 end
 
+local function Reset_Dropdowns()
+	AtlasOptions.AtlasZone = 1;
+	AtlasOptions.AtlasType = 1;
+	Atlas_PopulateDropdowns();
+	Atlas_Refresh();
+	AtlasFrameDropDownType_OnShow();
+	AtlasFrameDropDown_OnShow();
+end
+
 function AtlasOptions_Reset()
 	Atlas_FreshOptions();
-	AtlasOptions_Init();
+	AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
+	Reset_Dropdowns(); --also calls Atlas_Refresh()
 	AtlasButton_Init();
-	Atlas_Refresh();
+	Atlas_UpdateLock();
 end
 
 function AtlasOptions_OnLoad(panel)
@@ -116,6 +126,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);
 	AtlasOptionsFrameSliderScale:SetValue(AtlasOptions.AtlasScale);
+	AtlasOptionsFrameDropDownCats_OnShow();
 end
 
 function AtlasOptions_ResetPosition()
@@ -166,16 +177,10 @@ function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_SetWidth(AtlasOptionsFrameDropDownCats, 100);
 end
 
-
 function AtlasOptionsFrameDropDownCats_OnClick()
 	local thisID = this:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, thisID);
 	AtlasOptions.AtlasSortBy = thisID;
-	AtlasOptions.AtlasZone = 1;
-	AtlasOptions.AtlasType = 1;
-	Atlas_PopulateDropdowns();
-	Atlas_Refresh();
-	AtlasFrameDropDownType_OnShow();
-	AtlasFrameDropDown_OnShow();
+	Reset_Dropdowns();
 end
 

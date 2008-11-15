@@ -28,7 +28,7 @@
 -- Telchar (ICQ: 391-632-535)
 -- Hom
 
--- Letztes Update: 12.11.2008
+-- Letztes Update: 15.11.2008
 
 if ( GetLocale() == "deDE" ) then
 
@@ -94,12 +94,12 @@ ATLAS_DDL_LEVEL_UNDER45 = "Instanzen unter Stufe 45";
 ATLAS_DDL_LEVEL_45TO60 = "Instanzen Stufe 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Instanzen Stufe 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "Instanzen Stufe 70+";
-ATLAS_DDL_PARTYSIZE = "Gruppen Größe";
+ATLAS_DDL_PARTYSIZE = "Gruppengröße";
 ATLAS_DDL_PARTYSIZE_5_AC = "Instanzen für 5 Spieler A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "Instanzen für 5 Spieler D-Z";
 ATLAS_DDL_PARTYSIZE_10 = "Instanzen für 10 Spieler";
 ATLAS_DDL_PARTYSIZE_20TO40 = "Instanzen für 20-40 Spieler";
-ATLAS_DDL_EXPANSION = "Expansion";
+ATLAS_DDL_EXPANSION = "Erweiterung";
 ATLAS_DDL_EXPANSION_OLD_AO = "Instanzen der alten Welt A-O";
 ATLAS_DDL_EXPANSION_OLD_PZ = "Instanzen der alten Welt P-Z";
 ATLAS_DDL_EXPANSION_BC = "Burning Crusade Instanzen";
@@ -116,6 +116,10 @@ ATLAS_SEARCH_UNAVAIL = "Suche nicht verfügbar";
 ATLAS_WORLDMAP_PLAYER = "Spieler";
 ATLAS_WORLDMAP_CURSOR = "Mauszeiger";
 
+ATLAS_DEP_MSG1 = "Atlas hat veraltete Module entdeckt.";
+ATLAS_DEP_MSG2 = "Daher wurden diese Module deaktiviert.";
+ATLAS_DEP_MSG3 = "Entfernen Sie diese aus Ihrem Verzeichnis AddOns.";
+ATLAS_DEP_OK = "OK";
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Tempel von Ahn'Qiraj";
 	["Karazhan"] = "Karazhan [A] (Anfang)";
@@ -228,6 +232,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Pechschwingenhort"; ["BWL"] = "BWL";
 	["Cathedral"] = "Kathedrale"; ["Cath"] = "Kathe";
 	["Caverns of Time"] = "Höhlen der Zeit"; ["CoT"] = "HdZ";
+	["Chamber of Aspects"] = "Die Kammer der Aspekte";
 	["Coilfang Reservoir"] = "Der Echsenkessel"; ["CR"] = "EK";
 	["Dire Maul"] = "Düsterbruch"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Feste Drak'Tharon";
@@ -261,6 +266,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Schattenlabyrinth"; ["SL"] = "Laby";
 	["Shadowfang Keep"] = "Burg Schattenfang"; ["SFK"] = "BSF";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
+	["Stratholme Past"] = "Das Ausmerzen von Stratholme";
 	["Sunken Temple"] = "Der Tempel von Atal'Hakkar"; ["ST"] = "Tempel";
 	["Sunwell Plateau"] = "Sonnenbrunnenplateau"; ["SP"] = "SP";
 	["Tempest Keep"] = "Festung der Stürme"; ["TK"] = "FdS";
@@ -269,7 +275,6 @@ AtlasLocale = {
 	["The Black Morass"] = "Der schwarze Morast"; ["CoT2"] = "Morast, HdZ2";
 	["The Blood Furnace"] = "Der Blutkessel"; ["BF"] = "BK";
 	["The Botanica"] = "Die Botanika"; ["Bota"] = "Bota";
-	["The Culling of Stratholme"] = "Das Ausmerzen von Stratholme";
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
@@ -291,6 +296,20 @@ AtlasLocale = {
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Strat";
+	["DTK"] = "Feste";
+	["Gun"] = "Gun";
+	["HoS"] = "HdS";
+	["HoL"] = "HdB";
+	["OS"] = "OS";
+	["UK, Keep"] = "Burg";
+	["UP, Pinn"] = "Turm";
+	["Nex, Nexus"] = "Nex";
+	["AK, Kahet"] = "AK, Kahet";
+	["VH"] = "VF";
+	["Ocu"] = "Ocu";
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Kalimdor"] = "Kalimdor";
@@ -1461,6 +1480,7 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "Das Ausmerzen von Stratholme";
 	["Meathook"] = "Fleischhaken";
 	["Salramm the Fleshcrafter"] = "Salramm der Fleischformer";
 	["Chrono-Lord Epoch"] = "Chronolord Epoch";
@@ -1493,7 +1513,7 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Die Kammer der Aspekte";
+	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <Der Onyxwächter>";
 	
 	--Utgarde Keep: Utgarde Keep

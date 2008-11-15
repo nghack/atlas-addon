@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 27/06/2008
+-- Úlltima Actualización (last update): 15/11/2008
 
 --]]
 if ( GetLocale() ==	"esES" ) then
@@ -35,12 +35,12 @@ if ( GetLocale() ==	"esES" ) then
 AtlasFPLocale = {
 
 	["Aerie Peak"] = "Pico Nidal";
-	["Agmar's Hammer"] = "Martillo de Agmar ";
+	["Agmar's Hammer"] = "Martillo de Agmar";
 	["Allerian Stronghold"] = "Bastión Allerian";
 	["Alliance"] = "Alianza";
 	["Altar of Sha'tar"] = "Altar de Sha'tar";
-	["Amber Ledge"] = "El Saliente Ámbar ";
-	["Amberpine Lodge"] = "Refugio Pino Ámbar ";
+	["Amber Ledge"] = "El Saliente Ámbar";
+	["Amberpine Lodge"] = "Refugio Pino Ámbar";
 	["Apothecary Camp"] = "Campamento de los Boticario";	
 	["Arathi Highlands"] = "Tierras Altas de Arathi";
 	["Area 52"] = "Area 52";
@@ -57,11 +57,11 @@ AtlasFPLocale = {
 	["Bloodmyst Isle"] = "Isla Bruma de Sangre";
 	["Bloodvenom Post"] = "Puesto del Veneno";
 	["Booty Bay"] = "Bahía del Botín";
-	["Bor'Gorok Outpost"] = "Avanzada Bor'gorok ";
+	["Bor'Gorok Outpost"] = "Avanzada Bor'gorok";
 	["Borean Tundra"] = "Tundra Boreal";
-	["Bouldercrag's Refuge"] = "Refugio de Pedruscón "; --Check
+	["Bouldercrag's Refuge"] = "Refugio de Pedruscón"; --Check
 	["Brackenwall Village"] = "Poblado Murohelecho";
-	["Brann Bronzebeard's Camp"] = "Campamento base de Brann ";
+	["Brann Bronzebeard's Camp"] = "Campamento base de Brann";
 	["Burning Steppes"] = "Las Estepas Ardientes";
 	["Camp Mojache"] = "Campamento Mojache";
 	["Camp One'Qwah"] = "Campamento Oneqwah";
@@ -98,7 +98,6 @@ AtlasFPLocale = {
 	["Feralas"] = "Feralas";
 	["Fizzcrank Airstrip"] = "Pista de Aterrizaje de Palanqueta";
 	["Flame Crest"] = "Peñasco Llamarada";
-	["Flight Path Maps"] = "Mapas de rutas de vuelo";
 	["Fordragon Keep"] = "Fordragon Keep"; --Check
 	["Forest Song"] = "Bosque Canción Eterna";
 	["Fort Wildevar"] = "Fuerte Wildervar";
@@ -230,7 +229,7 @@ AtlasFPLocale = {
 	["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
 	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
 	["Westfall Brigade Encampment"] = "Westfall Brigade Encampment";
-	["Westfall"] = "Campamento de la Brigada de Páramos de Poniente ";
+	["Westfall"] = "Campamento de la Brigada de Páramos de Poniente";
 	["Westguard Keep"] = "Fortaleza de la Guardia Oeste";
 	["Wetlands"] = "Los Humedales";
 	["Wildhammer Stronghold"] = "Bastión Martillo Salvaje";

@@ -262,6 +262,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Laberinto de las sombras"; ["SL"] = "LS";
 	["Shadowfang Keep"] = "Castillo de Colmillo Oscuro"; ["SFK"] = "CCO";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
+	["Stratholme Past"] = "Stratholme en el pasado"; --Check
 	["Sunken Temple"] = "Templo de Atal'Hakkar"; ["ST"] = "TA";
 	["Sunwell Plateau"] = "Meseta del pozo del Sol"; ["SP"] = "MPS";
 	["Tempest Keep"] = "El Castillo de la Tempestad"; ["TK"] = "CT";
@@ -270,13 +271,12 @@ AtlasLocale = {
 	["The Black Morass"] = "La Ciénaga Negra"; ["CoT2"] = "CdT2";
 	["The Blood Furnace"] = "Horno de Sangre"; ["BF"] = "HS";
 	["The Botanica"] = "El Invernáculo"; ["Bota"] = "Inver";
-	["The Culling of Stratholme"] = "La Purga de Stratholme";
 	["The Deadmines"] = "Las Minas de la Muerte"; ["VC"] = "LMM";
 	["The Eye"] = "El Ojo"; ["Eye"] = "Ojo";
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
-	["The Oculus"] = "El Oculus";
+	["The Oculus"] = "El Óculo";
 	["The Shattered Halls"] = "Las Salas Arrasadas"; ["SH"] = "SA";
 	["The Slave Pens"] = "Recinto de los Esclavos"; ["SP"] = "Recinto";
 	["The Steamvault"] = "Cámara de Vapor"; ["SV"] = "CV";
@@ -291,6 +291,21 @@ AtlasLocale = {
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
+
+	--WotLK Acronyms
+	["AN, Nerub"] = "AN, Nerub";
+	["Strat, CoT-Strat"] = "Strat, CdT-Strat";
+	["DTK"] = "DTK"; --Check
+	["Gun"] = "Gun";
+	["HoS"] = "CdP";
+	["HoL"] = "CdR";
+	["OS"] = "SO";
+	["UK, Keep"] = "GU, Guarida";
+	["UP, Pinn"] = "PU, Pinaculo";
+	["Nex, Nexus"] = "Nexo";
+	["AK, Kahet"] = "Kahet";
+	["VH"] = "BV";
+	["Ocu"] = "Oculo";
 	
 	--Continents
 	["Eastern Kingdoms"] = "Las Tierras del Este";
@@ -804,7 +819,6 @@ AtlasLocale = {
 	["Viewing Room Key"] = "Llave de la Sala de visión";
 	["Viewing Room"] = "Sala de visión";
 	["Blood of Innocents"] = "Sangre de los Inocentes";	
-	["Kirtonos"] = "Kirtonos";	
 	["Divination Scryer"] = "Cristal de adivinación";
 	["Darkreaver"] = "Atracoscuro";
 	["Blood Steward of Kirtonos"] = "Administrador de sangre de Kirtonos";
@@ -1473,6 +1487,7 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "La Purga de Stratholme";
 	["Meathook"] = "Meathook"; --FALTA
 	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter"; --FALTA
 	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch"; --FALTA

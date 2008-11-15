@@ -299,9 +299,6 @@ function CloneTable(t)				-- return a copy of the table t
 	return new;
 end
 
-
-
-
 ATLAS_PLUGINS = {};
 ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
@@ -351,9 +348,65 @@ function Atlas_SearchAndRefresh(text)
 	AtlasScrollBar_Update();
 end
 
+local function Process_Deprecated()
+
+	--list of deprecated Atlas modules.
+	--first value is the name
+	--second value is the version
+	--nil version means NO version will EVER be loaded!
+	--non-nil version mean ONLY IT OR NEWER versions will be laoded!
+	local Deprecated_List = {
+		{ "Atlas_Entrances", nil }, --entrances were rolled into core addon
+		{ "Atlas_FlightPaths", nil }, --renamed to Atlas_Transportation
+		{ "AtlasEntrances", nil }, --old name for entrances module
+		{ "AtlasFlightPaths", nil }, --old name for flight paths module
+		{ "AtlasDungeonLocs", nil }, --old name for dungeon location module
+		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
+		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
+		
+		--most recent (working) versions of known modules at time of release
+		{ "AtlasWorld", "2.4.3" },
+		{ "AtlasQuest", "4.2.1" },
+		{ "AtlasMajorCities", "v1.4" },
+		{ "AtlasLoot", "5.02.00" },
+	};
+
+	--check for outdated modules, build a list of them, then disable them and tell the player.
+	local OldList = {};
+	for k,v in pairs(Deprecated_List) do
+		local enabled, loadable = select(4, GetAddOnInfo(v[1]));
+		if enabled and loadable then
+			local oldVersion = true;			
+			if v[2] ~= nil and GetAddOnMetadata(v[1], "Version") >= v[2] then
+				oldVersion = false;
+			end
+			if oldVersion then
+				table.insert(OldList, v[1]);
+			end
+		end
+	end
+	if table.getn(OldList) > 0 then
+		local textList = "";
+		for k,v in pairs(OldList) do
+			textList = textList.."\n"..v..", "..GetAddOnMetadata(v, "Version");
+			DisableAddOn(v);
+		end
+		StaticPopupDialogs["ATLAS_OLD_MODULES"] = {
+			text = ATLAS_DEP_MSG1.."\n"..ATLAS_DEP_MSG2.."\n"..ATLAS_DEP_MSG3.."\n|cff6666ff"..textList.."|r";
+			button1 = ATLAS_DEP_OK,
+			timeout = 0,
+			exclusive = 1,
+			whileDead = 1,
+		}
+		StaticPopup_Show("ATLAS_OLD_MODULES")
+	end
+end
+
 --Called when the Atlas frame is first loaded
 --We CANNOT assume that data in other files is available yet!
 function Atlas_OnLoad()
+
+	Process_Deprecated();
 
 	--Register the Atlas frame for the following events
 	this:RegisterEvent("PLAYER_LOGIN");

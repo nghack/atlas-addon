@@ -107,6 +107,11 @@ ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
 ATLAS_WORLDMAP_PLAYER = "Player";
 ATLAS_WORLDMAP_CURSOR = "Cursor";
 
+ATLAS_DEP_MSG1 = "Atlas has detected outdated module(s).";
+ATLAS_DEP_MSG2 = "They have been disabled for this character.";
+ATLAS_DEP_MSG3 = "Delete them from your AddOns folder.";
+ATLAS_DEP_OK = "Ok";
+
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
 	["Ahn'Qiraj"] = "Temple of Ahn'Qiraj";

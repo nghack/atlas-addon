@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 13/11/2008
+-- Última Actualización (last update): 15/11/2008
 
 --]]
 
@@ -122,6 +122,7 @@ AtlasDLLocale = {
 	["Stormwind City"] = "Ciudad de Ventormenta";
 	["Stranglethorn Vale"] = "Vega de Tuercespina";
 	["Stratholme"] = "Stratholme";
+	["Stratholme Past"] = "Stratholme en el pasado";
 	["Sunken Temple"] = "El Templo de Atal'Hakkar";
 	["Sunwell Plateau"] = "Meseta del pozo del Sol";
 	["Swamp of Sorrows"] = "Pantano de las Penas";

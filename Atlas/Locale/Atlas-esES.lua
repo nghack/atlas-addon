@@ -228,6 +228,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Guarida Alanegra"; ["BWL"] = "GAN";
 	["Cathedral"] = "Catedral"; ["Cath"] = "Cated";
 	["Caverns of Time"] = "Cavernas del Tiempo"; ["CoT"] = "CdT";
+	["Chamber of Aspects"] = "Cámara de los Aspectos"; --Check
 	["Coilfang Reservoir"] = "Reserva Colmillo Torcido"; ["CR"] = "RCT";
 	["Dire Maul"] = "La Masacre"; ["DM"] = "LM";	
 	["Drak'Tharon Keep"] = "Fortaleza de Drak'Tharon";
@@ -1504,13 +1505,12 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "Cámara de los Aspectos"; --Check
+	["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <El Guardíán Onyx>"; --Check
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <El San'layn>"; --Check
 	["Dalronn the Controller"] = "Dalronn el Controlador";
-	["Enslaved Proto-Drake"] = "Skarvald el Ensamblaje"; --Check
 	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
 
 	--Utgarde Keep: Utgarde Pinnacle

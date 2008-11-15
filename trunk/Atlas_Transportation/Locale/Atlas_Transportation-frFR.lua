@@ -26,7 +26,7 @@ if ( GetLocale() == "frFR" ) then
 AtlasFPLocale = {
 
 	["Aerie Peak"] = "Nid-de-l'Aigle";
-		["Agmar's Hammer"] = "Agmar's Hammer";
+	["Agmar's Hammer"] = "Marteau d'Agmar";
 	["Allerian Stronghold"] = "Bastion Allérien";
 	["Alliance"] = "Alliance";
 	["Altar of Sha'tar"] = "Autel de Sha'tar";

@@ -1476,36 +1476,36 @@ AtlasLocale = {
 --I'm switching from continent grouping to expansion grouping.
 
 	--Azjol-Nerub
-	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
-	["The Culling of Stratholme"] = "The Culling of Stratholme";
-	["Meathook"] = "Meathook";
-	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter";
-	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch";
+	["The Culling of Stratholme"] = "L'épuration de Stratholme";
+	["Meathook"] = "Grancrochet";
+	["Salramm the Fleshcrafter"] = "Salramm le Façonneur de chair";
+	["Chrono-Lord Epoch"] = "Chronoseigneur Epoch";
 	["Mal'Ganis"] = "Mal'Ganis";
 
 	--Drak'Tharon Keep
-	["Trollgore"] = "Trollgore";
-	["Novos the Summoner"] = "Novos the Summoner";
-	["King Dred"] = "King Dred";
-	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
-	
+	["Trollgore"] = "Trollétripe";
+	["Novos the Summoner"] = "Novos l'Invocateur";
+	["King Dred"] = "Roi Dred";
+	["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
+
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
-	["Drakkari Colossus"] = "Drakkari Colossus";
-	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
-	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
-	["Eck the Ferocious"] = "Eck the Ferocious";
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>"; -- à traduire (titre)
+	["Drakkari Colossus"] = "Colosse drakkari";
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>"; -- à traduire (titre)
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>"; -- à traduire (titre)
+	["Eck the Ferocious"] = "Eck the Ferocious"; -- à traduire
 
 	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest";
+	["Tribunal Chest"] = "Tribunal Chest"; -- à traduire
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard";
-	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
-	["Maiden of Grief"] = "Maiden of Grief";
+	["Brann Bronzebeard"] = "Brann Bronzebeard"; -- à traduire
+	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
+	["Maiden of Grief"] = "Damoiselle de peine";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1514,20 +1514,20 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
+	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>"; -- à traduire (titre)
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>"; -- à traduire (titre)
+	["Dalronn the Controller"] = "Dalronn le Contrôleur";
+	["Ingvar the Plunderer"] = "Ingvar le Pilleur";
 
 	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
-	["Gortok Palehoof"] = "Gortok Palehoof";
-	["Skadi the Ruthless"] = "Skadi the Ruthless";
-	["King Ymiron"] = "King Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
+	["Svala Sorrowgrave"] = "Svala Tristetombe"; 
+	["Gortok Palehoof"] = "Gortok Pâle-sabot";
+	["Skadi the Ruthless"] = "Skadi le Brutal";
+	["King Ymiron"] = "Roi Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor"; -- à traduire
 
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
@@ -1537,10 +1537,10 @@ AtlasLocale = {
 	["Commander Stoutbeard"] = "Commander Stoutbeard";
 
 	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Elder Nadox";
+	["Elder Nadox"] = "Ancien Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
-	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
-	["Herald Volazj"] = "Herald Volazj";
+	["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
+	["Herald Volazj"] = "Héraut Volazj";
 	["Amanitar"] = "Amanitar";
 
 	--The Violet Hold
@@ -1554,10 +1554,10 @@ AtlasLocale = {
 	["Wave 18"] = "Wave 18";
 	
 	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos the Interrogator";
-	["Mage-Lord Urom"] = "Mage-Lord Urom";
-	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
+	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
+	["Mage-Lord Urom"] = "Seigneur-mage Urom";
+	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Azure-Lord of the Blue Dragonflight>"; -- à traduire (titre)
 
 };
 end

@@ -32,7 +32,7 @@
 --]]
 if ( GetLocale() ==	"esES" ) then
 
-AtlasFPLocale = {
+AtlasTransLocale = {
 
 	["Aerie Peak"] = "Pico Nidal";
 	["Agmar's Hammer"] = "Martillo de Agmar";

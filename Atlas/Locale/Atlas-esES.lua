@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 13/11/2008
+-- Última Actualización (last update): 16/11/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -111,6 +111,11 @@ ATLAS_ENTRANCE_BUTTON = "Entrada";
 ATLAS_SEARCH_UNAVAIL = "Buscar no disponible";
 ATLAS_WORLDMAP_PLAYER = "Jugador";
 ATLAS_WORLDMAP_CURSOR = "Cursor";
+
+ATLAS_DEP_MSG1 = "Atlas ha detectado uno o varios modulos sin actualizar.";
+ATLAS_DEP_MSG2 = "Se han sido desactivados para este personaje.";
+ATLAS_DEP_MSG3 = "Borralos de tu directorio AddOns.";
+ATLAS_DEP_OK = "Vale";
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";

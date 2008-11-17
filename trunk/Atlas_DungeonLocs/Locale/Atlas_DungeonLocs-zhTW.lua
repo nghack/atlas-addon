@@ -111,6 +111,7 @@ AtlasDLLocale = {
 	["Stormwind City"] = "暴風城";
 	["Stranglethorn Vale"] = "荊棘谷";
 	["Stratholme"] = "斯坦索姆";
+	["Stratholme Past"] = "斯坦索姆廢墟";
 	["Sunken Temple"] = "沈沒的神廟";
 	["Sunwell Plateau"] = "太陽之井高地";
 	["Swamp of Sorrows"] = "悲傷沼澤";

@@ -290,19 +290,19 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub";
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
 	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
-	["DTK"] = "DTK";
-	["Gun"] = "Gun";
-	["HoS"] = "HoS";
-	["HoL"] = "HoL";
-	["OS"] = "OS";
-	["UK, Keep"] = "UK, Keep";
-	["UP, Pinn"] = "UP, Pinn";
-	["Nex, Nexus"] = "Nex, Nexus";
-	["AK, Kahet"] = "AK, Kahet";
-	["VH"] = "VH";
-	["Ocu"] = "Ocu";
+	["DTK"] = "DTK"; -- Drak'Tharon Keep
+	["Gun"] = "Gun"; -- Gundrak
+	["HoS"] = "HoS"; -- Halls of Stone
+	["HoL"] = "HoL"; -- Halls of Lightning
+	["OS"] = "OS"; -- The Obsidian Sanctum
+	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
+	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacl
+	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
+	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
+	["VH"] = "VH"; -- The Violet Hold
+	["Ocu"] = "Ocu"; -- The Oculus
 
 	--Continents
 	["Eastern Kingdoms"] = "Eastern Kingdoms";

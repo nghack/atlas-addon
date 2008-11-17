@@ -108,6 +108,11 @@ ATLAS_SEARCH_UNAVAIL = "搜尋功能停用";
 ATLAS_WORLDMAP_PLAYER = "玩家";
 ATLAS_WORLDMAP_CURSOR = "游標";
 
+ATLAS_DEP_MSG1 = "Atlas 偵測到過期的模組";
+ATLAS_DEP_MSG2 = "這些模組已從這個角色被停用";
+ATLAS_DEP_MSG3 = "請將這些模組從 AddOns 目錄移除";
+ATLAS_DEP_OK = "Ok";
+
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "沈沒的神廟";
 	["Ahn'Qiraj"] = "安其拉神廟";
@@ -221,6 +226,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "黑翼之巢"; ["BWL"] = "BWL";
 	["Cathedral"] = "大教堂"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
+	["Chamber of Aspects"] = "守護密室";
 	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
 	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
 	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
@@ -254,6 +260,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL/迷宮";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat/斯坦";
+	["Stratholme Past"] = "斯坦索姆廢墟";
 	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST/神廟";
 	["Sunwell Plateau"] = "太陽之井高地"; ["SP"] = "SP";
 	["Tempest Keep"] = "風暴要塞"; ["TK"] = "TK";
@@ -262,7 +269,6 @@ AtlasLocale = {
 	["The Black Morass"] = "黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
 	["The Blood Furnace"] = "血熔爐"; ["BF"] = "BF";
 	["The Botanica"] = "波塔尼卡"; ["Bota"] = "Bota/波塔";
-	["The Culling of Stratholme"] = "斯坦索姆的抉擇";
 	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
 	["The Eye"] = "風暴之眼"; ["Eye"] = "Eye";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
@@ -283,6 +289,21 @@ AtlasLocale = {
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖爾法拉克"; ["ZF"] = "ZF/祖法";
 	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖爾";
+
+	--WotLK Acronyms
+	["AN, Nerub"] = "阿茲歐"; -- Azjol-Nerub -- 阿茲歐-奈幽
+	["Strat, CoT-Strat"] = "CoT斯坦";
+	["DTK"] = "DTK"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
+	["Gun"] = "剛德"; -- Gundrak -- 剛德拉克
+	["HoS"] = "岩廳 "; -- Halls of Stone -- 岩石大廳
+	["HoL"] = "雷廳"; -- Halls of Lightning --雷光大廳
+	["OS"] = "黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
+	["UK, Keep"] = "俄塞"; -- Utgarde Keep -- 俄特加德要塞
+	["UP, Pinn"] = "俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
+	["Nex, Nexus"] = "奈薩斯"; -- The Nexus
+	["AK, Kahet"] = "安卡"; -- Ahn'kahet -- 安卡罕特
+	["VH"] = "紫堡"; -- The Violet Hold -- 紫羅蘭堡
+	["Ocu"] = "奧核"; -- The Oculus -- 奧核之眼
 	
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";
@@ -1454,6 +1475,7 @@ AtlasLocale = {
 	["Anub'arak"] = "阿努巴拉克";
 	
 	--Caverns of Time: The Culling of Stratholme
+	["The Culling of Stratholme"] = "斯坦索姆的抉擇";
 	["Meathook"] = "肉鉤";
 	["Salramm the Fleshcrafter"] = "『血肉工匠』塞歐朗姆";
 	["Chrono-Lord Epoch"] = "紀元時間領主";
@@ -1486,7 +1508,7 @@ AtlasLocale = {
 	["Loken"] = "洛肯";
 	
 	--The Obsidian Sanctum
-	["Chamber of Aspects"] = "守護密室";
+	["Black Dragonflight Chamber"] = "黑龍軍團密室";
 	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
 	
 	--Utgarde Keep: Utgarde Keep

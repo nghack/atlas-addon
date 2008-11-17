@@ -107,6 +107,12 @@ ATLAS_SEARCH_UNAVAIL = "Поиск недоступен";
 ATLAS_WORLDMAP_PLAYER = "Игрок";
 ATLAS_WORLDMAP_CURSOR = "Курсор";
 
+ATLAS_DEP_MSG1 = "Атлас обнаружил устаревший(е) модуль(и).";
+ATLAS_DEP_MSG2 = "Они будут отключены для данного персонажа.";
+ATLAS_DEP_MSG3 = "Удалите их из вашей папки аддонов.";
+ATLAS_DEP_OK = "Ok";
+
+
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
 	["Ahn'Qiraj"]					= "Храм Ан'Киража";

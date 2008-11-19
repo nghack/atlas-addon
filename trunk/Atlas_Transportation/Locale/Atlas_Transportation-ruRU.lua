@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -31,7 +31,7 @@
 
 if ( GetLocale() == "ruRU" ) then
 
-AtlasFPLocale = {
+AtlasTransLocale = {
 
 	["Aerie Peak"] = "Заоблачный Пик";
 	["Allerian Stronghold"] = "Бастион Аллерии";

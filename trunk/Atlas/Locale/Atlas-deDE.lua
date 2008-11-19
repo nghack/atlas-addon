@@ -28,7 +28,7 @@
 -- Telchar (ICQ: 391-632-535)
 -- Hom
 
--- Letztes Update: 15.11.2008
+-- Letztes Update: 18.11.2008
 
 if ( GetLocale() == "deDE" ) then
 
@@ -120,6 +120,7 @@ ATLAS_DEP_MSG1 = "Atlas hat veraltete Module entdeckt.";
 ATLAS_DEP_MSG2 = "Daher wurden diese Module deaktiviert.";
 ATLAS_DEP_MSG3 = "Entfernen Sie diese aus Ihrem Verzeichnis AddOns.";
 ATLAS_DEP_OK = "OK";
+
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Tempel von Ahn'Qiraj";
 	["Karazhan"] = "Karazhan [A] (Anfang)";
@@ -310,6 +311,7 @@ AtlasLocale = {
 	["AK, Kahet"] = "AK, Kahet";
 	["VH"] = "VF";
 	["Ocu"] = "Ocu";
+	
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Kalimdor"] = "Kalimdor";

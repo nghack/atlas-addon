@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
@@ -10,7 +10,7 @@
 
 if ( GetLocale() == "zhCN" ) then
 
-AtlasFPLocale = {
+AtlasTransLocale = {
 
 	["Aerie Peak"] = "鹰巢山";
 	["Agmar's Hammer"] = "阿格玛之锤";

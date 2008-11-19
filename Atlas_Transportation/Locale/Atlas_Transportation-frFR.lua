@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -23,7 +23,7 @@
 --]]
 
 if ( GetLocale() == "frFR" ) then
-AtlasFPLocale = {
+AtlasTransLocale = {
 
 	["Aerie Peak"] = "Nid-de-l'Aigle";
 	["Agmar's Hammer"] = "Marteau d'Agmar";

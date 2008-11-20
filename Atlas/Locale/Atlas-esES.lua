@@ -1538,7 +1538,7 @@ AtlasLocale = {
 	["Gortok Palehoof"] = "Gortok Pezuña Pálida";
 	["Skadi the Ruthless"] = "Skadi el Despiadado";
 	["King Ymiron"] = "Rey Ymiron";
-	["Skarvald the Constructor"] = "Skarvald el Constructor"; --Check
+	["Skarvald the Constructor"] = "Skarvald el Ensamblaje";
 	
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";

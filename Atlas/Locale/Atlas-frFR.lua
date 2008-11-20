@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -1475,7 +1475,6 @@ AtlasLocale = {
 
 --*****************
 -- WotLK Instances
--- A TRADUIRE A WOTLK POUR LES VRAIS NOMS !!! NE PAS TOUCHER !!!
 --*****************
 
 --I'm switching from continent grouping to expansion grouping.
@@ -1484,9 +1483,9 @@ AtlasLocale = {
 	["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
-	
+
 	--Caverns of Time: The Culling of Stratholme
-	["The Culling of Stratholme"] = "L'épuration de Stratholme";
+	["The Culling of Stratholme"] = "L'Épuration de Stratholme";
 	["Meathook"] = "Grancrochet";
 	["Salramm the Fleshcrafter"] = "Salramm le Façonneur de chair";
 	["Chrono-Lord Epoch"] = "Chronoseigneur Epoch";

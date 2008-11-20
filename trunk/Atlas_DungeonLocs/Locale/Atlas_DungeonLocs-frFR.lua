@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -43,7 +43,7 @@ AtlasDLLocale = {
 	["Auchenai Crypts"] = "Cryptes Auchenaï";
 	["Auchindoun"] = "Auchindoun";
 	["Azjol-Nerub"] = "Azjol-Nérub";
-		["Azjol-Nerub: The Upper Kingdom"] = "Azjol-Nérub: The Upper Kingdom";
+		["Azjol-Nerub: The Upper Kingdom"] = "Azjol-Nerub: The Upper Kingdom"; -- à traduire
 	["Badlands"] = "Terres ingrates";
 	["Black Temple"] = "Temple Noir";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire";
@@ -54,7 +54,7 @@ AtlasDLLocale = {
 	["Blade's Edge Mountains"] = "Les Tranchantes";
 	["Caverns of Time"] = "Grottes du Temps";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc";
-		["Coldarra"] = "Coldarra";
+	["Coldarra"] = "Frimarra";
 	["Dalaran"] = "Dalaran";
 	["Deadwind Pass"] = "Défilé de Deuillevent";
 	["Desolace"] = "Désolace";
@@ -112,7 +112,7 @@ AtlasDLLocale = {
 	["Stormwind City"] = "Hurlevent";
 	["Stranglethorn Vale"] = "Vallée de Strangleronce";
 	["Stratholme"] = "Stratholme";
-		["Stratholme Past"] = "Stratholme Past";
+		["Stratholme Past"] = "Stratholme Past"; -- à traduire
 	["Sunken Temple"] = "Temple englouti";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil";
 	["Swamp of Sorrows"] = "Marais des Chagrins";

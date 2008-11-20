@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -115,7 +115,7 @@ AtlasTransLocale = {
 	["Kargath"] = "Kargath";
 		["Kor'Kron Vanguard"] = "Avant-garde Kor'kron";
 	["Lakeshire"] = "Comté-du-Lac";
-		["Light's Breach"] = "Light's Breach";
+	["Light's Breach"] = "La Brèche de Lumière";
 	["Light's Hope Chapel"] = "Chapelle de l'Espoir de Lumière";
 	["Loch Modan"] = "Loch Modan";
 	["Marshal's Refuge"] = "Refuge de Marshal";

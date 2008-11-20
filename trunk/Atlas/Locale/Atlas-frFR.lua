@@ -234,7 +234,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
-		["Chamber of Aspects"] = "Chamber of Aspects";
+		["Chamber of Aspects"] = "Chamber of Aspects"; -- à traduire
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
@@ -268,7 +268,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-		["Stratholme Past"] = "Stratholme Past";
+		["Stratholme Past"] = "Stratholme Past"; -- à traduire
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
@@ -1006,16 +1006,16 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Construct Quarter"] = "Construct Quarter"; -- à traduire
+		["Construct Quarter"] = "Construct Quarter"; -- à traduire
 	["Patchwerk"] = "Le Recousu";
 	["Grobbulus"] = "Grobbulus";
 	["Gluth"] = "Gluth";
 	["Thaddius"] = "Thaddius";
-	["Arachnid Quarter"] = "Arachnid Quarter"; -- à traduire
+		["Arachnid Quarter"] = "Arachnid Quarter"; -- à traduire
 	["Anub'Rekhan"] = "Anub'Rekhan";
 	["Grand Widow Faerlina"] = "Grande veuve Faerlina";
 	["Maexxna"] = "Maexxna";
-	["Military Quarter"] = "Military Quarter"; -- à traduire
+		["Military Quarter"] = "Military Quarter"; -- à traduire
 	["Instructor Razuvious"] = "Instructeur Razuvious";
 	["Gothik the Harvester"] = "Gothik le Moissonneur";
 	["The Four Horsemen"] = "Les quatre cavaliers";
@@ -1024,7 +1024,7 @@ AtlasLocale = {
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
 	["Four Horsemen Chest"] = "Four Horsemen Chest";
-	["Plague Quarter"] = "Plague Quarter"; -- à traduire
+		["Plague Quarter"] = "Plague Quarter"; -- à traduire
 	["Noth the Plaguebringer"] = "Noth le Porte-peste";
 	["Heigan the Unclean"] = "Heigan l'Impur";
 	["Loatheb"] = "Horreb";
@@ -1499,16 +1499,16 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
 
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>"; -- à traduire (titre)
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Grand prophète de Sseratus>";
 	["Drakkari Colossus"] = "Colosse drakkari";
-	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>"; -- à traduire (titre)
-	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>"; -- à traduire (titre)
-	["Eck the Ferocious"] = "Eck the Ferocious"; -- à traduire
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Grand prophète de Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Grand prophète d'Akali>";
+	["Eck the Ferocious"] = "Eck le Féroce";
 
 	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest"; -- à traduire
+		["Tribunal Chest"] = "Tribunal Chest"; -- à traduire
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard"; -- à traduire
+	["Brann Bronzebeard"] = "Brann Barbe-de-bronze";
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
 	["Maiden of Grief"] = "Damoiselle de peine";
 
@@ -1519,11 +1519,11 @@ AtlasLocale = {
 	["Loken"] = "Loken";
 	
 	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>"; -- à traduire (titre)
+		["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
+		["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>"; -- à traduire (titre)
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>"; -- à traduire (titre)
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
 	["Dalronn the Controller"] = "Dalronn le Contrôleur";
 	["Ingvar the Plunderer"] = "Ingvar le Pilleur";
 
@@ -1532,7 +1532,7 @@ AtlasLocale = {
 	["Gortok Palehoof"] = "Gortok Pâle-sabot";
 	["Skadi the Ruthless"] = "Skadi le Brutal";
 	["King Ymiron"] = "Roi Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor"; -- à traduire
+	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
@@ -1550,19 +1550,19 @@ AtlasLocale = {
 
 	--The Violet Hold
 	["Erekem"] = "Erekem";
-	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
 	["Xevozz"] = "Xevozz";
 	["Ichoron"] = "Ichoron";
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Wave 18";
+		["Wave 18"] = "Wave 18"; -- à traduire
 	
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
 	["Mage-Lord Urom"] = "Seigneur-mage Urom";
 	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Azure-Lord of the Blue Dragonflight>"; -- à traduire (titre)
+		["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Azure-Lord of the Blue Dragonflight>"; -- à traduire (titre)
 
 };
 end

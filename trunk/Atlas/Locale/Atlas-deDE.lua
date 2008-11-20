@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -28,7 +28,7 @@
 -- Telchar (ICQ: 391-632-535)
 -- Hom
 
--- Letztes Update: 18.11.2008
+-- Letztes Update: 19.11.2008
 
 if ( GetLocale() == "deDE" ) then
 
@@ -298,19 +298,19 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub";
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
 	["Strat, CoT-Strat"] = "Strat";
-	["DTK"] = "Feste";
-	["Gun"] = "Gun";
-	["HoS"] = "HdS";
-	["HoL"] = "HdB";
-	["OS"] = "OS";
-	["UK, Keep"] = "Burg";
-	["UP, Pinn"] = "Turm";
-	["Nex, Nexus"] = "Nex";
-	["AK, Kahet"] = "AK, Kahet";
-	["VH"] = "VF";
-	["Ocu"] = "Ocu";
+	["DTK"] = "Feste"; -- Feste Drak'Tharon
+	["Gun"] = "Gun"; -- Gundrak
+	["HoS"] = "HdS"; -- Die Hallen des Steins
+	["HoL"] = "HdB"; -- Die Hallen der Blitze
+	["OS"] = "OS"; -- Das Obsidiansanktum
+	["UK, Keep"] = "Burg"; -- Burg Utgarde
+	["UP, Pinn"] = "Turm"; -- Turm Utgarde
+	["Nex, Nexus"] = "Nex"; -- Der Nexus
+	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
+	["VH"] = "VF"; -- Die Violette Festung
+	["Ocu"] = "Ocu"; -- Das Oculus
 	
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";

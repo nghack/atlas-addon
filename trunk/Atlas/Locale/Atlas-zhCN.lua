@@ -602,6 +602,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "朱丽·哈尼维尔";
 	["Jay Lemieux"] = "贾森·雷缪克斯";
 	["Young Blanchy"] = "小马布兰契";
+	["Don Carlos"] = "Don Carlos";--untranslated
+	["Guerrero"] = "Guerrero";--untranslated
 	
 --****************************
 -- Eastern Kingdoms Instances

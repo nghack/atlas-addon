@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Data  (Russian)
 -- Compiled by StingerSoft
@@ -97,6 +97,7 @@ AtlasDLLocale = {
 	["The Deadmines"] = "Мертвые копи";
 	["The Eye"] = "Око";
 	["The Mechanar"] = "Механар";
+	["The Nexus"] = "The Nexus";
 	["The Shattered Halls"] = "Разрушенные залы";
 	["The Slave Pens"] = "Узилище";
 	["The Steamvault"] = "Паровое Подземелье";
@@ -112,6 +113,35 @@ AtlasDLLocale = {
 	["Zul'Aman"] = "Зул'Аман";
 	["Zul'Farrak"] = "Зул'Фаррак";
 	["Zul'Gurub"] = "Зул'Гуруб";
+
+	--untranslated
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: The Old Kingdom";
+	["Azjol-Nerub"] = "Azjol-Nerub";
+	["Azjol-Nerub: The Upper Kingdom"] = "Azjol-Nerub: The Upper Kingdom";
+	["Coldarra"] = "Coldarra";
+	["Dalaran"] = "Dalaran";
+	["Dragonblight"] = "Dragonblight";
+	["Drak'Tharon Keep"] = "Drak'Tharon Keep";
+	["Grizzly Hills"] = "Grizzly Hills";
+	["Gundrak"] = "Gundrak";
+	["Halls of Lightning"] = "Halls of Lightning";
+	["Halls of Stone"] = "Halls of Stone";
+	["Howling Fjord"] = "Howling Fjord";
+	["Icecrown Citadel"] = "Icecrown Citadel";
+	["Icecrown"] = "Icecrown";
+	["Naxxramas"] = "Naxxramas";
+	["Northrend"] = "Northrend";
+	["Stratholme Past"] = "Stratholme Past";
+	["The Eye of Eternity"] = "The Eye of Eternity";
+	["The Nexus"] = "The Nexus";
+	["The Obsidian Sanctum"] = "The Obsidian Sanctum";
+	["The Oculus"] = "The Oculus";
+	["The Storm Peaks"] = "The Storm Peaks";
+	["The Violet Hold"] = "The Violet Hold";
+	["Ulduar"] = "Ulduar";
+	["Utgarde Keep"] = "Utgarde Keep";
+	["Utgarde Pinnacle"] = "Utgarde Pinnacle";
+	["Zul'Drak"] = "Zul'Drak";
 
 };
 end

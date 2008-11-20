@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -156,6 +156,7 @@ AtlasTransLocale = {
 	["Sholazar Basin"] = "休拉薩盆地";
 	["Silithus"] = "希利蘇斯";
 	["Silvermoon"] = "銀月城";
+	["Silvermoon City"] = "Silvermoon City";--not translated
 	["Silverpine Forest"] = "銀松森林";
 	["Skyguard Outpost"] = "禦天者崗哨";
 	["South of the path along Lake Elune'ara"] = "月神湖南方小徑";

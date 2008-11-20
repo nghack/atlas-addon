@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/11/2008
+-- Last Update : 11/20/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -180,7 +180,7 @@ AtlasTransLocale = {
 	["The Barrens"] = "贫瘠之地";
 	["The Dark Portal"] = "黑暗之门";
 	["The Exodar"] = "埃索达";
-	["The Forgotten Coast"] = "The Forgotten Coast";--not translated
+	["The Forgotten Coast"] = "被遗忘的海岸";
 	["The Hinterlands"] = "辛特兰";
 	["The Scryers"] = "占星者";
 	["The Sepulcher"] = "瑟伯切尔";
@@ -196,7 +196,7 @@ AtlasTransLocale = {
 	["Toshley's Station"] = "托什雷的基地";
 	["Tranquillien"] = "塔奎林";
 	["Transitus Shield"] = "永生之盾";
-	["Transportation Maps"] = "Transportation Maps";--not translated
+	["Transportation Maps"] = "交通线路图";
 	["Ulduar"] = "奥杜尔";
 	["Un'Goro Crater"] = "安戈洛环形山";
 	["Undercity"] = "幽暗城";

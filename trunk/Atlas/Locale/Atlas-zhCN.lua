@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/15/2008
+-- Last Update : 11/20/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -85,6 +85,13 @@ ATLAS_DDL_TYPE_ENTRANCE = "入口";
 ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
+ATLAS_WORLDMAP_PLAYER = "玩家";
+ATLAS_WORLDMAP_CURSOR = "鼠标指向";
+
+ATLAS_DEP_MSG1 = "检测到过期的Atlas扩展插件。";
+ATLAS_DEP_MSG2 = "这些插件已经被禁用。";
+ATLAS_DEP_MSG3 = "请从插件目录（AddOns）中将其删除。";
+ATLAS_DEP_OK = "确定";
 
 AtlasZoneSubstitutions = {
 	["安其拉"] = "安其拉神殿";
@@ -602,8 +609,8 @@ AtlasLocale = {
 	["Julie Honeywell"] = "朱丽·哈尼维尔";
 	["Jay Lemieux"] = "贾森·雷缪克斯";
 	["Young Blanchy"] = "小马布兰契";
-	["Don Carlos"] = "Don Carlos";--untranslated
-	["Guerrero"] = "Guerrero";--untranslated
+	["Don Carlos"] = "卡洛斯";
+	["Guerrero"] = "古雷罗";
 	
 --****************************
 -- Eastern Kingdoms Instances

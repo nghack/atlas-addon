@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu

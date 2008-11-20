@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 -- Atlas Data  (Russian)
 -- Compiled by StingerSoft

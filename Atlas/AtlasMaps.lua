@@ -926,14 +926,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["The Temple of Atal'Hakkar"] };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Yeh'kinya's Scroll"].." ("..AtlasLocale["Avatar of Hakkar"]..")", ITEM, 10818 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Connection"] };
-		{ BLUE.."C) "..AtlasLocale["Atal'ai Defenders"].." ("..AtlasLocale["Upper"]..")" };
-		{ BLUE..INDENT..AtlasLocale["Gasher"], NPC, 5713 };
-		{ BLUE..INDENT..AtlasLocale["Loro"], NPC, 5714 };
-		{ BLUE..INDENT..AtlasLocale["Hukku"], NPC, 5715 };
-		{ BLUE..INDENT..AtlasLocale["Zolo"], NPC, 5712 };
-		{ BLUE..INDENT..AtlasLocale["Mijan"], NPC, 5717 };
-		{ BLUE..INDENT..AtlasLocale["Zul'Lor"], NPC, 5716 };
+		{ BLUE.."B-I) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Altar of Hakkar"], OBJECT, 148836 };
 		{ GREY..INDENT..AtlasLocale["Atal'alarion <Guardian of the Idol>"], NPC, 8580 };
 		{ GREY.."2) "..AtlasLocale["Dreamscythe"], NPC, 5721 };
@@ -948,6 +941,13 @@ AtlasMaps = {
 		{ GREY.."7) "..AtlasLocale["Spawn of Hakkar"].." ("..AtlasLocale["Rare"]..")", NPC, 5708 };
 		{ GREY.."8) "..AtlasLocale["Elder Starsong"].." ("..AtlasLocale["Lunar"]..")", NPC, 15593 };
 		{ GREN.."1'-6') "..AtlasLocale["Statue Activation Order"] };
+		{ GREN.."7') "..AtlasLocale["Atal'ai Defenders"] };
+		{ GREN..INDENT..AtlasLocale["Gasher"], NPC, 5713 };
+		{ GREN..INDENT..AtlasLocale["Loro"], NPC, 5714 };
+		{ GREN..INDENT..AtlasLocale["Hukku"], NPC, 5715 };
+		{ GREN..INDENT..AtlasLocale["Zolo"], NPC, 5712 };
+		{ GREN..INDENT..AtlasLocale["Mijan"], NPC, 5717 };
+		{ GREN..INDENT..AtlasLocale["Zul'Lor"], NPC, 5716 };
 	};
 	Uldaman = {
 		ZoneName = { AtlasLocale["Uldaman"], 1337 };

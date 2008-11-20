@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -51,7 +51,7 @@ AtlasTransLocale = {
 	["Booty Bay"] = "Beutebucht";
 	["Bor'Gorok Outpost"] = "Außenposten Bor'gorok";
 	["Borean Tundra"] = "Boreanische Tundra";
-	["Bouldercrag's Refuge"] = "Bergfels'Zuflucht";
+	["Bouldercrag's Refuge"] = "Bergfels' Zuflucht";
 	["Brackenwall Village"] = "Brackenwall";
 	["Brann Bronzebeard's Camp"] = "Branns Basislager";
 	["Burning Steppes"] = "Brennende Steppe";
@@ -78,7 +78,7 @@ AtlasTransLocale = {
 	["Dustwallow Marsh"] = "Düstermarschen";
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Eastern Plaguelands"] = "Östliche Pestländer";
-	["Ebon Watch"] = "Schwarze Wacht";
+	["Ebon Watch"] = "Die Schwarze Wacht";
 	["Elwynn Forest"] = "Wald von Elwynn";
 	["Emerald Sanctuary"] = "Smaragdrefugium";
 	["Evergrove"] = "Der ewige Hain";
@@ -116,12 +116,12 @@ AtlasTransLocale = {
 	["Kargath"] = "Kargath";
 	["Kor'Kron Vanguard"] = "Vorposten der Kor'kron";
 	["Lakeshire"] = "Seenhain";
-	["Light's Breach"] = "Lichtbresche";
+	["Light's Breach"] = "Die Lichtbresche";
 	["Light's Hope Chapel"] = "Kapelle des hoffnungsvollen Lichts";
 	["Loch Modan"] = "Loch Modan";
 	["Marshal's Refuge"] = "Marschalls Zuflucht";
 	["Menethil Harbor"] = "Hafen von Menethil";
-	["Moa'ki Harbor"] = "Hafen von Moa'ki";
+	["Moa'ki Harbor"] = "Hafen Moa'ki";
 	["Mok'Nathal Village"] = "Dorf der Mok'Nathal";
 	["Moonglade"] = "Mondlichtung";
 	["Morgan's Vigil"] = "Morgans Wacht";
@@ -189,8 +189,7 @@ AtlasTransLocale = {
 	["Terokkar Forest"] = "Wälder von Terokkar";
 	["Thalanaar"] = "Thalanaar";
 	["The Aldor"] = "Die Aldor";
-	["The Argent Stand"] = "Argentumswache";
-	["The Argent Stand"] = "Argentumswache";
+	["The Argent Stand"] = "Die Argentumwache";
 	["The Barrens"] = "Brachland";
 	["The Dark Portal"] = "Das Dunkle Portal";
 	["The Exodar"] = "Die Exodar";

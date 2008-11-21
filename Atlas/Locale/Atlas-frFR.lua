@@ -57,13 +57,13 @@ ATLAS_STRING_MINLEVEL = "Niveau Minimum";
 
 ATLAS_OPTIONS_BUTTON = "Options";
 ATLAS_OPTIONS_TITLE = "Atlas Options";
-ATLAS_OPTIONS_SHOWBUT = "Voir le bouton sur la mini-carte";
+ATLAS_OPTIONS_SHOWBUT = "Afficher le bouton sur la mini-carte";
 ATLAS_OPTIONS_AUTOSEL = "Sélection automatique de la carte";
 ATLAS_OPTIONS_BUTPOS = "Position du bouton";
 ATLAS_OPTIONS_TRANS = "Transparence";
 ATLAS_OPTIONS_DONE = "Valider";
 ATLAS_OPTIONS_REPMAP = "Remplacer la carte du monde";
-ATLAS_OPTIONS_RCLICK = "Clic-Droit pour la carte du monde";
+ATLAS_OPTIONS_RCLICK = "Clic-Droit pour afficher la carte du monde";
 ATLAS_OPTIONS_SHOWMAPNAME = "Afficher le nom de la carte";
 ATLAS_OPTIONS_RESETPOS = "Position initiale";
 ATLAS_OPTIONS_ACRONYMS = "Afficher les acronymes VO/VF";

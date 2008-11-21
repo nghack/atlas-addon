@@ -293,7 +293,7 @@ AtlasLocale = {
 	--WotLK Acronyms
 	["AN, Nerub"] = "阿茲歐"; -- Azjol-Nerub -- 阿茲歐-奈幽
 	["Strat, CoT-Strat"] = "CoT斯坦";
-	["DTK"] = "DTK"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
+	["DTK"] = "德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
 	["Gun"] = "剛德"; -- Gundrak -- 剛德拉克
 	["HoS"] = "岩廳 "; -- Halls of Stone -- 岩石大廳
 	["HoL"] = "雷廳"; -- Halls of Lightning --雷光大廳

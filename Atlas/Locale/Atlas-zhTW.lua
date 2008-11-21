@@ -295,7 +295,7 @@ AtlasLocale = {
 	["Strat, CoT-Strat"] = "CoT斯坦";
 	["DTK"] = "德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
 	["Gun"] = "剛德"; -- Gundrak -- 剛德拉克
-	["HoS"] = "岩廳 "; -- Halls of Stone -- 岩石大廳
+	["HoS"] = "岩廳"; -- Halls of Stone -- 岩石大廳
 	["HoL"] = "雷廳"; -- Halls of Lightning --雷光大廳
 	["OS"] = "黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
 	["UK, Keep"] = "俄塞"; -- Utgarde Keep -- 俄特加德要塞
@@ -649,7 +649,7 @@ AtlasLocale = {
 	["Grizzle"] = "格里茲爾";
 	["Hedrum the Creeper"] = "爬行者赫杜姆";
 	["Ok'thor the Breaker"] = "破壞者奧科索爾";
-	["Theldren"] = "Theldren";
+	["Theldren"] = "瑟爾倫";
 	["Lefty"] = "左撇";
 	["Malgen Longspear"] = "瑪根·長矛";
 	["Gnashjaw <Malgen Longspear's Pet>"] = "碎顎";
@@ -695,7 +695,7 @@ AtlasLocale = {
 	["Overmaster Pyron"] = "征服者派隆";
 
 	--Blackrock Spire (Lower)
-	["Vaelan"] = "Vaelan";
+	["Vaelan"] = "維埃蘭";
 	["Warosh <The Cursed>"] = "瓦羅什";
 	["Elder Stonefort"] = "石壘長者 (新年慶典)";
 	["Roughshod Pike"] = "尖銳長矛";

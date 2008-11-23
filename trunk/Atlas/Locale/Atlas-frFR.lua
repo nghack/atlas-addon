@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -1505,7 +1505,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Eck le Féroce";
 
 	--Ulduar: Halls of Stone	
-		["Tribunal Chest"] = "Tribunal Chest"; -- à traduire
+	["Tribunal Chest"] = "Coffre du tribunal";
 	["Krystallus"] = "Krystallus";
 	["Brann Bronzebeard"] = "Brann Barbe-de-bronze";
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
@@ -1539,7 +1539,7 @@ AtlasLocale = {
 	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Commander Stoutbeard";
-	["Berinand's Research"] = "Berinand's Research"; --untranslated
+	["Berinand's Research"] = "Recherches de Bérinand";
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancien Nadox";
@@ -1562,7 +1562,6 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
 	["Mage-Lord Urom"] = "Seigneur-mage Urom";
 	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
-		["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Azure-Lord of the Blue Dragonflight>"; -- à traduire (titre)
-
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
 };
 end

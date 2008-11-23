@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/20/2008
+-- Last Update : 11/23/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -1479,7 +1479,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "凶残的伊克";
 
 	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest";
+	["Tribunal Chest"] = "远古法庭宝箱";
 	["Krystallus"] = "克莱斯塔卢斯";
 	["Brann Bronzebeard"] = "布莱恩·铜须";
 	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
@@ -1512,8 +1512,8 @@ AtlasLocale = {
 	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
 	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
 	["Keristrasza"] = "克莉斯塔萨";
-	["Commander Stoutbeard"] = "Commander Stoutbeard";
-	["Berinand's Research"] = "Berinand's Research"; --untranslated
+	["Commander Stoutbeard"] = "指挥官斯托比德";
+	["Berinand's Research"] = "伯林纳德的研究笔记";
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "纳多克斯长老";

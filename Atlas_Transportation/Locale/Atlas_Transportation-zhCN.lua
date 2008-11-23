@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/20/2008
+-- Last Update : 11/23/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -44,7 +44,7 @@ AtlasTransLocale = {
 	["Camp Mojache"] = "莫沙彻营地";
 	["Camp One'Qwah"] = "欧尼瓦营地";
 	["Camp Taurajo"] = "陶拉祖营地";
-	["Camp Tunka'lo"] = "Camp Tunka'lo"; --untranslated
+	["Camp Tunka'lo"] = "唐卡洛营地";
 	["Camp Winterhoof"] = "冬蹄营地";
 	["Cenarion Hold"] = "塞纳里奥要塞";
 	["Chillwind Point"] = "冰风岗";

@@ -66,6 +66,7 @@ AtlasTransLocale = {
 	["Camp Mojache"] = "Campamento Mojache";
 	["Camp One'Qwah"] = "Campamento Oneqwah";
 	["Camp Taurajo"] = "Campamento Taurajo";
+	["Camp Tunka'lo"] = "Camp Tunka'lo"; --untranslated
 	["Camp Winterhoof"] = "Campamento Pezuña Invernal";
 	["Cenarion Hold"] = "Fuerte Cenarion";
 	["Chillwind Point"] = "Campamento del Orvallo";

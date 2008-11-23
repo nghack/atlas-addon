@@ -1546,6 +1546,7 @@ AtlasLocale = {
 	["Grand Magus Telestra"] = "Gran Maga Telestra";
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
+	["Berinand's Research"] = "Berinand's Research"; --untranslated
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancestro Nadox";

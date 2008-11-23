@@ -44,6 +44,7 @@ AtlasTransLocale = {
 	["Camp Mojache"] = "莫沙彻营地";
 	["Camp One'Qwah"] = "欧尼瓦营地";
 	["Camp Taurajo"] = "陶拉祖营地";
+	["Camp Tunka'lo"] = "Camp Tunka'lo"; --untranslated
 	["Camp Winterhoof"] = "冬蹄营地";
 	["Cenarion Hold"] = "塞纳里奥要塞";
 	["Chillwind Point"] = "冰风岗";

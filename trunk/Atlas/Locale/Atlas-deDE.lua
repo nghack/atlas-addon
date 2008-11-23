@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -1536,6 +1536,7 @@ AtlasLocale = {
 	["Grand Magus Telestra"] = "Großmagistrix Telestra";
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Kommandant Starkbart";
+	["Berinand's Research"] = "Berinand's Research"; --untranslated
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Urahne Nadox";

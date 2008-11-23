@@ -200,6 +200,7 @@ AtlasTransLocale = {
 	["Bouldercrag's Refuge"] = "Bouldercrag's Refuge";
 	["Brann Bronzebeard's Camp"] = "Brann Bronzebeard's Camp";
 	["Camp One'Qwah"] = "Camp One'Qwah";
+	["Camp Tunka'lo"] = "Camp Tunka'lo";
 	["Camp Winterhoof"] = "Camp Winterhoof";
 	["Coldarra"] = "Coldarra";
 	["Conquest Hold"] = "Conquest Hold";

@@ -1903,6 +1903,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ BLUE.."C) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Krik'thir the Gatewatcher"], NPC, 28684 };
 		{ GREY.."2) "..AtlasLocale["Hadronox"], NPC, 28921 };
 		{ GREY.."3) "..AtlasLocale["Anub'arak"], NPC, 29120 };
@@ -1931,8 +1932,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["DTK"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Exit"] };
-		{ BLUE.."C) "..AtlasLocale["Connection"].." ("..AtlasLocale["Inside"]..")" };
+		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Trollgore"], NPC, 26630 };
 		{ GREY.."2) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
 		{ GREY.."3) "..AtlasLocale["King Dred"], NPC, 27483 };
@@ -2002,7 +2002,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["UK, Keep"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Prince Keleseth <The San'layn>"], NPC, 23953 };
 		{ GREY.."2) "..AtlasLocale["Dalronn the Controller"], NPC, 24201 };
 		{ GREY..INDENT..AtlasLocale["Skarvald the Constructor"], NPC, 24200 };
@@ -2036,6 +2036,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
 		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
 		{ GREY.."5) "..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
+		{ GREY.."6) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
 	};
 	AhnKahet = {
 		ZoneName = { AtlasLocale["Ahn'kahet: The Old Kingdom"], 4494 };
@@ -2045,6 +2046,7 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["AK, Kahet"];
 		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Elder Nadox"], NPC, 29309 };
 		{ GREY.."2) "..AtlasLocale["Prince Taldaram"], NPC, 29308 };
 		{ GREY.."3) "..AtlasLocale["Jedoga Shadowseeker"], NPC, 29310 };

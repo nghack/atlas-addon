@@ -244,9 +244,10 @@ local myData = {
 		{ GREY.."25) "..AtlasTransLocale["Sunreaver's Command"]..", ".._RED..AtlasTransLocale["Crystalsong Forest"], ZONE, 2817 };
 		{ GREY.."26) "..AtlasTransLocale["Dalaran"]..", ".._RED..AtlasTransLocale["Crystalsong Forest"], ZONE, 2817 };
 		{ GREY.."27) "..AtlasTransLocale["K3"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
-		{ GREY.."28) "..AtlasTransLocale["Grom'arsh Crash-Site"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
-		{ GREY.."29) "..AtlasTransLocale["Bouldercrag's Refuge"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
-		{ GREY.."30) "..AtlasTransLocale["Ulduar"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
+		{ GREY.."28) "..AtlasTransLocale["Camp Tunka'lo"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
+		{ GREY.."29) "..AtlasTransLocale["Grom'arsh Crash-Site"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
+		{ GREY.."30) "..AtlasTransLocale["Bouldercrag's Refuge"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
+		{ GREY.."31) "..AtlasTransLocale["Ulduar"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
 	};
 	TransAllianceNorthrend = {
 		ZoneName = { AtlasTransLocale["Northrend"].." ("..AtlasTransLocale["Alliance"]..")" };
@@ -279,8 +280,7 @@ local myData = {
 		{ GREY.."25) "..AtlasTransLocale["Frosthold"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
 		{ GREY.."26) "..AtlasTransLocale["K3"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
 		{ GREY.."27) "..AtlasTransLocale["Bouldercrag's Refuge"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
-		{ GREY.."28) "..AtlasTransLocale["Brann Bronzebeard's Camp"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
-		{ GREY.."29) "..AtlasTransLocale["Ulduar"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
+		{ GREY.."28) "..AtlasTransLocale["Ulduar"]..", ".._RED..AtlasTransLocale["Storm Peaks"], ZONE, 67 };
 	};
 };
 

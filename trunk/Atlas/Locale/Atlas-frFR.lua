@@ -241,7 +241,7 @@ AtlasLocale = {
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cimetière"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Repaire de Gruul"; ["GL"] = "GL";
-	["Gundrak"] = "Gun'Drak";
+	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Les salles de Pierre";
 	["Halls of Lightning"] = "Les salles de Foudre";
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";

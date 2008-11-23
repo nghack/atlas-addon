@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -57,7 +57,7 @@ AtlasTransLocale = {
 	["Camp Mojache"] = "Camp Mojache";
 	["Camp One'Qwah"] = "Camp Oneqwah";
 	["Camp Taurajo"] = "Camp Taurajo";
-	["Camp Tunka'lo"] = "Camp Tunka'lo"; --untranslated
+	["Camp Tunka'lo"] = "Camp Tunka'lo";
 	["Camp Winterhoof"] = "Camp Sabot-d'hiver";
 	["Cenarion Hold"] = "Fort cénarien";
 	["Chillwind Point"] = "Camp Noroît";
@@ -163,7 +163,7 @@ AtlasTransLocale = {
 	["Southshore"] = "Austrivage";
 	["Spinebreaker Post"] = "Poste de Brise-échine";
 	["Splintertree Post"] = "Poste de Bois-brisé";
-		["Star's Rest"] = "Star's Rest"; -- à traduire
+	["Star's Rest"] = "Repos des étoiles";
 	["Stonard"] = "Pierrêche";
 	["Stonebreaker Hold"] = "Fort des Brise-pierres";
 	["Stonetalon Mountains"] = "Les Serres-Rocheuses";

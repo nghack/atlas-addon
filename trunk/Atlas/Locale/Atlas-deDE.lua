@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -28,7 +28,7 @@
 -- Telchar (ICQ: 391-632-535)
 -- Hom
 
--- Letztes Update: 19.11.2008
+-- Letztes Update: 23.11.2008
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1536,7 +1536,7 @@ AtlasLocale = {
 	["Grand Magus Telestra"] = "Großmagistrix Telestra";
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Kommandant Starkbart";
-	["Berinand's Research"] = "Berinand's Research"; --untranslated
+	["Berinand's Research"] = "Berinands Forschungsergebnisse";
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Urahne Nadox";

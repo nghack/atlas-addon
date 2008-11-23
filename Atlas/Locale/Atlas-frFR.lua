@@ -1556,7 +1556,7 @@ AtlasLocale = {
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
-		["Wave 18"] = "Wave 18"; -- à traduire
+	["Wave 18"] = "Vague 18";
 	
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos l'Interrogateur";

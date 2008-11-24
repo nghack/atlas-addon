@@ -138,6 +138,7 @@ AtlasLocale = {
 	["Alliance"] = "Alliance";
 	["Arcane Container"] = "Arcane Container";
 	["Argent Dawn"] = "Aube d'argent";
+	["Argent Crusade"] = "La Croisade d'argent"
 	["Arms Warrior"] = "Guerrier Armes";
 	["Attunement Required"] = "Harmonisation requise";
 	["Back"] = "de derrière"; -- Back de Back Door, trouver mieux

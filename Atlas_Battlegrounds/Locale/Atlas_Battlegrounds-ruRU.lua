@@ -28,18 +28,18 @@ AtlasBGLocale = {
 	
 	--Places
 	["Alterac Mountains"] = "Альтеракские горы";
-	["Alterac Valley"] = "Альтеракская долина"; ["AV"] = "AV";
-	["Arathi Basin"] = "Низина Арати"; ["AB"] = "AB";
+	["Alterac Valley"] = "Альтеракская долина"; ["AV"] = "АД";
+	["Arathi Basin"] = "Низина Арати"; ["AB"] = "НА";
 	["Arathi Highlands"] = "Нагорье Арати";
 	["Ashenvale"] = "Ясеневый лес";
 	["Eastern Kingdoms"] = "Восточные королевства";
-	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "EotS";
+	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "Око";
 	["Hillsbrad Foothills"] = "Старые Предгорья Хилсбрада";
 	["Kalimdor"] = "Калимдор";
 	["Netherstorm"] = "Пустоверть";
 	["Outland"] = "Запределье";
 	["The Barrens"] = "Степи";
-	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "WSG";
+	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "УПВ";
 	
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Стража Грозовой Вершины";

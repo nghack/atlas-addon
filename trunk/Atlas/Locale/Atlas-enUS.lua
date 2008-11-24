@@ -131,6 +131,7 @@ AtlasLocale = {
 	["Alliance"] = "Alliance";
 	["Arcane Container"] = "Arcane Container";
 	["Argent Dawn"] = "Argent Dawn";
+	["Argent Crusade"] = "Argent Crusade";
 	["Arms Warrior"] = "Arms Warrior";
 	["Attunement Required"] = "Attunement Required";
 	["Back"] = "Back";

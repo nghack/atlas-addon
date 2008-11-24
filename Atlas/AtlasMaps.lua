@@ -1019,7 +1019,7 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Continent = AtlasLocale["Northrend"];
-		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Argent Dawn"], FACTION, 529 };
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Argent Crusade"], FACTION, 529 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Archmage Tarsis Kir-Moldir"], NPC, 16381 };
 		{ BLUE..INDENT..AtlasLocale["Mr. Bigglesworth"].." ("..AtlasLocale["Wanders"]..")", NPC, 16998 };

@@ -144,7 +144,7 @@ AtlasLocale = {
 	["Chase Begins"] = "Начало охоты";
 	["Chase Ends"] = "Конец охоты";
 	["Child"] = "Ребенок";
-	["Connection"] = "Связь";
+	["Connection"] = "Связан";
 	["DS2"] = "DS2";
 	["East"] = "Восток";
 	["Elevator"] = "Лифт";
@@ -246,7 +246,7 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Гробницы Маны"; ["MT"] = "ГМ";
 	["Maraudon"] = "Мародон"; ["Mara"] = "Маро";
 	["Molten Core"] = "Огненные Недра"; ["MC"] = "ОН";
-	["Naxxramas"] = "Наксрамас"; ["Nax"] = "Nax";
+	["Naxxramas"] = "Наксрамас"; ["Nax"] = "Накс";
 	["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада"; ["CoT1"] = "ПВ1";
 	["Onyxia's Lair"] = "Логово Ониксии"; ["Ony"] = "Они";
 	["Ragefire Chasm"] = "Огненная пропасть"; ["RFC"] = "ОгП";

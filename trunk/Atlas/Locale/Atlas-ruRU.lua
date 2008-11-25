@@ -132,6 +132,7 @@ AtlasLocale = {
 	["Alliance"] = "Альянс";
 	["Arcane Container"] = "Волшебный контейнер";
 	["Argent Dawn"] = "Серебряный Рассвет";
+	["Argent Crusade"] = "Серебряный Авангард";
 	["Arms Warrior"] = "Воин-Оружия";
 	["Attunement Required"] = "Необходима подготавка";
 	["Back"] = "Назад";

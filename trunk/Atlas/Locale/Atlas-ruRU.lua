@@ -261,7 +261,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Темный Лабиринт"; ["SL"] = "ТЛ";
 	["Shadowfang Keep"] = "Крепость Темного Клыка"; ["SFK"] = "КТК";
 	["Stratholme"] = "Стратхольм"; ["Strat"] = "Страт";
-	["Stratholme Past"] = "Stratholme Past";
+	["Stratholme Past"] = "Прошлое Стратхольма";
 	["Sunken Temple"] = "Затонувший храм"; ["ST"] = "ЗХ";
 	["Sunwell Plateau"] = "Солнечный Колодец"; ["SP"] = "СК";
 	["Tempest Keep"] = "Крепость Бурь"; ["TK"] = "КБ";

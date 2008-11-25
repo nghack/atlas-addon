@@ -138,6 +138,7 @@ AtlasLocale = {
 	["AKA"] = "AKA";
 	["Alliance"] = "Allianz";
 	["Arcane Container"] = "Arkaner Behälter";
+	["Argent Crusade"] = "Argentumkreuzzug";
 	["Argent Dawn"] = "Argentumdämmerung";
 	["Arms Warrior"] = "Offensiv Krieger";
 	["Attunement Required"] = "Zugangsquest erforderlich";

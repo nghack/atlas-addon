@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -58,7 +58,7 @@ AtlasORLocale = {
 	["Lethlas"] = "Lethlas";
 	["Lethon"] = "Léthon";
 	["Nethergarde Keep"] = "Rempart-du-Néant";
-	["Outdoor Raid Encounters"] = "Rencontres de Raids extérieures";
+	["Outdoor Raid Encounters"] = "Rencontres de raids extérieurs";
 	["Phantim"] = "Phantim";
 	["Random"] = "Aléatoire";
 	["Rothos"] = "Rothos";

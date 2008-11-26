@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 16/11/2008
+-- Última Actualización (last update): 26/11/2008
 
 --************************************************
 -- Global Atlas Strings
@@ -136,6 +136,7 @@ AtlasLocale = {
 	["Alliance"] = "Alianza";
 	["Arcane Container"] = "Contenedor Arcano";	
 	["Argent Dawn"] = "El Alba Argenta";
+	["Argent Crusade"] = "Cruzada Argenta";
 	["Arms Warrior"] = "Guerrero Armas";
 	["Attunement Required"] = "Armonización requerida";
 	["Back"] = "Atras";
@@ -220,7 +221,7 @@ AtlasLocale = {
 
 	
 	--Instance names and acronyms
-	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino"; --Check
+	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino";
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
 	["Armory"] = "Armería"; ["Armory"] = "Armería";	
 	["Auchenai Crypts"] = "Criptas Auchenai"; ["AC"] = "CA";
@@ -1505,10 +1506,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "El profeta Tharon'ja";
 	
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>"; --FALTA
+	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Sumo profeta de Sseratus>";
 	["Drakkari Colossus"] = "Coloso Drakkari";
-	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>"; --FALTA
-	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>"; --FALTA
+	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Sumo profeta de Mam'toth>";
+	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Sumo profeta de Akali>";
 	["Eck the Ferocious"] = "Eck the Ferocious"; --FALTA
 	
 	--Ulduar: Halls of Stone	
@@ -1529,7 +1530,7 @@ AtlasLocale = {
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <El Guardíán Onyx>"; --Check
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <El San'layn>"; --Check
+	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <Los San'layn>";
 	["Dalronn the Controller"] = "Dalronn el Controlador";
 	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
 

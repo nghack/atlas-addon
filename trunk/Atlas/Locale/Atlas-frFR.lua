@@ -269,7 +269,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-		["Stratholme Past"] = "Stratholme Past"; -- à traduire
+	["Stratholme Past"] = "L'Épuration de Stratholme";
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";

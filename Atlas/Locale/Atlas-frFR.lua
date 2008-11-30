@@ -1007,16 +1007,16 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-		["Construct Quarter"] = "Construct Quarter"; -- à traduire
+	["Construct Quarter"] = "Quartier des Assemblages";
 	["Patchwerk"] = "Le Recousu";
 	["Grobbulus"] = "Grobbulus";
 	["Gluth"] = "Gluth";
 	["Thaddius"] = "Thaddius";
-		["Arachnid Quarter"] = "Arachnid Quarter"; -- à traduire
+	["Arachnid Quarter"] = "Quartier des Arachnides";
 	["Anub'Rekhan"] = "Anub'Rekhan";
 	["Grand Widow Faerlina"] = "Grande veuve Faerlina";
 	["Maexxna"] = "Maexxna";
-		["Military Quarter"] = "Military Quarter"; -- à traduire
+	["Military Quarter"] = "Quartier Militaire";
 	["Instructor Razuvious"] = "Instructeur Razuvious";
 	["Gothik the Harvester"] = "Gothik le Moissonneur";
 	["The Four Horsemen"] = "Les quatre cavaliers";
@@ -1025,7 +1025,7 @@ AtlasLocale = {
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
 	["Four Horsemen Chest"] = "Four Horsemen Chest";
-		["Plague Quarter"] = "Plague Quarter"; -- à traduire
+	["Plague Quarter"] = "Quartier de la Peste";
 	["Noth the Plaguebringer"] = "Noth le Porte-peste";
 	["Heigan the Unclean"] = "Heigan l'Impur";
 	["Loatheb"] = "Horreb";
@@ -1520,7 +1520,7 @@ AtlasLocale = {
 	
 	--The Obsidian Sanctum
 		["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
-		["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>"; -- à traduire (titre)
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
@@ -1539,7 +1539,7 @@ AtlasLocale = {
 	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
 	["Grand Magus Telestra"] = "Grand Magus Telestra";
 	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commander Stoutbeard";
+	["Commander Stoutbeard"] = "Commandant Rudebarbe";
 	["Berinand's Research"] = "Recherches de Bérinand";
 
 	--Ahn'kahet: The Old Kingdom

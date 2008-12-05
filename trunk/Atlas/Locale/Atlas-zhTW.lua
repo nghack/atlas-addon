@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -994,35 +994,6 @@ AtlasLocale = {
 	["Hakkar"] = "哈卡";
 	["Muddy Churning Waters"] = "混濁的水";
 	
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "大法師塔希斯·克摩地爾";
-	["Mr. Bigglesworth"] = "畢勾沃斯先生";
-	["Construct Quarter"] = "傀儡區";
-	["Patchwerk"] = "縫補者";
-	["Grobbulus"] = "葛羅巴斯";
-	["Gluth"] = "古魯斯";
-	["Thaddius"] = "泰迪斯";
-	["Arachnid Quarter"] = "蜘蛛區";
-	["Anub'Rekhan"] = "阿努比瑞克漢";
-	["Grand Widow Faerlina"] = "大寡婦費琳娜";
-	["Maexxna"] = "梅克絲娜";
-	["Military Quarter"] = "軍事區";
-	["Instructor Razuvious"] = "講師拉祖維斯";
-	["Gothik the Harvester"] = "收割者高希";
-	["The Four Horsemen"] = "四騎士";
-	["Thane Korth'azz"] = "寇斯艾茲族長";
-	["Lady Blaumeux"] = "布洛莫斯爵士";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "札里克爵士";
-	["Four Horsemen Chest"] = "四騎士之箱 ";
-	["Plague Quarter"] = "瘟疫區";
-	["Noth the Plaguebringer"] = "瘟疫者諾斯";
-	["Heigan the Unclean"] = "骯髒者海根";
-	["Loatheb"] = "洛斯伯";
-	["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
-	["Sapphiron"] = "薩菲隆";
-	["Kel'Thuzad"] = "科爾蘇加德";
-	
 	--Karazhan Start
 	["The Violet Eye"] = "紫羅蘭之眼";--omitted from Karazhan End
 	["The Master's Key"] = "主人鑰匙";--omitted from Karazhan End
@@ -1554,5 +1525,33 @@ AtlasLocale = {
 	["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者 ";
 
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "大法師塔希斯·克摩地爾";
+	["Mr. Bigglesworth"] = "畢勾沃斯先生";
+	["Construct Quarter"] = "傀儡區";
+	["Patchwerk"] = "縫補者";
+	["Grobbulus"] = "葛羅巴斯";
+	["Gluth"] = "古魯斯";
+	["Thaddius"] = "泰迪斯";
+	["Arachnid Quarter"] = "蜘蛛區";
+	["Anub'Rekhan"] = "阿努比瑞克漢";
+	["Grand Widow Faerlina"] = "大寡婦費琳娜";
+	["Maexxna"] = "梅克絲娜";
+	["Military Quarter"] = "軍事區";
+	["Instructor Razuvious"] = "講師拉祖維斯";
+	["Gothik the Harvester"] = "收割者高希";
+	["The Four Horsemen"] = "四騎士";
+	["Thane Korth'azz"] = "寇斯艾茲族長";
+	["Lady Blaumeux"] = "布洛莫斯爵士";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "札里克爵士";
+	["Four Horsemen Chest"] = "四騎士之箱 ";
+	["Plague Quarter"] = "瘟疫區";
+	["Noth the Plaguebringer"] = "瘟疫者諾斯";
+	["Heigan the Unclean"] = "骯髒者海根";
+	["Loatheb"] = "洛斯伯";
+	["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
+	["Sapphiron"] = "薩菲隆";
+	["Kel'Thuzad"] = "科爾蘇加德";
 };
 end

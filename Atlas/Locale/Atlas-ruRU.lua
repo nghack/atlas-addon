@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 - 2008 Dan Gilbert
@@ -995,35 +995,6 @@ AtlasLocale = {
 	["Hakkar"] = "Хаккар";
 	["Muddy Churning Waters"] = "Грязные Воды Взбалтывания";
 	
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Верховный маг Тарсис Кир-Молдир";
-	["Mr. Bigglesworth"] = "Кот Бегемот";
-	["Construct Quarter"] = "Квартал Мерзости";
-	["Patchwerk"] = "Лоскутик";
-	["Grobbulus"] = "Гроббулус";
-	["Gluth"] = "Глут";
-	["Thaddius"] = "Таддиус";
-	["Arachnid Quarter"] = "Паучий квартал";
-	["Anub'Rekhan"] = "Ануб'Рекан";
-	["Grand Widow Faerlina"] = "Великая вдова Фарлина";
-	["Maexxna"] = "Мексна";
-	["Military Quarter"] = "Военный квартал";
-	["Instructor Razuvious"] = "Инструктор Разувиус";
-	["Gothik the Harvester"] = "Готик Жнец";
-	["The Four Horsemen"] = "Четыри Всадника";
-	["Thane Korth'azz"] = "Тан Кортазз";
-	["Lady Blaumeux"] = "Леди Бломе";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "Сэр Зелиек";
-	["Four Horsemen Chest"] = "Сундук Четырех Всадников";
-	["Plague Quarter"] = "Чумной квартал";
-	["Noth the Plaguebringer"] = "Нот Чумной";
-	["Heigan the Unclean"] = "Хейган Нечестивый";
-	["Loatheb"] = "Мерзот";
-	["Frostwyrm Lair"] = "Логово Ледяного Змея";
-	["Sapphiron"] = "Сапфирон";
-	["Kel'Thuzad"] = "Кел'Тузад";
-	
 	--Karazhan Start
 	["The Violet Eye"] = "Аметистовое Око";--omitted from Karazhan End
 	["The Master's Key"] = "Хозяйский ключ";--omitted from Karazhan End
@@ -1554,6 +1525,34 @@ AtlasLocale = {
 	["Mage-Lord Urom"] = "Маг-лорд Уром";
 	["Ley-Guardian Eregos"] = "Варос Заоблачный Странник";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник <Лазурный повелитель рода синих драконов>";
-
+	
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "Верховный маг Тарсис Кир-Молдир";
+	["Mr. Bigglesworth"] = "Кот Бегемот";
+	["Construct Quarter"] = "Квартал Мерзости";
+	["Patchwerk"] = "Лоскутик";
+	["Grobbulus"] = "Гроббулус";
+	["Gluth"] = "Глут";
+	["Thaddius"] = "Таддиус";
+	["Arachnid Quarter"] = "Паучий квартал";
+	["Anub'Rekhan"] = "Ануб'Рекан";
+	["Grand Widow Faerlina"] = "Великая вдова Фарлина";
+	["Maexxna"] = "Мексна";
+	["Military Quarter"] = "Военный квартал";
+	["Instructor Razuvious"] = "Инструктор Разувиус";
+	["Gothik the Harvester"] = "Готик Жнец";
+	["The Four Horsemen"] = "Четыри Всадника";
+	["Thane Korth'azz"] = "Тан Кортазз";
+	["Lady Blaumeux"] = "Леди Бломе";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "Сэр Зелиек";
+	["Four Horsemen Chest"] = "Сундук Четырех Всадников";
+	["Plague Quarter"] = "Чумной квартал";
+	["Noth the Plaguebringer"] = "Нот Чумной";
+	["Heigan the Unclean"] = "Хейган Нечестивый";
+	["Loatheb"] = "Мерзот";
+	["Frostwyrm Lair"] = "Логово Ледяного Змея";
+	["Sapphiron"] = "Сапфирон";
+	["Kel'Thuzad"] = "Кел'Тузад";
 };
 end 

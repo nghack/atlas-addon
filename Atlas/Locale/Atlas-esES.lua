@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005, 2008 Dan Gilbert
@@ -1003,36 +1003,7 @@ AtlasLocale = {
 	["Jin'do the Hexxer"] = "Jin'do el Aojador";
 	["Hakkar"] = "Hakkar";
 	["Muddy Churning Waters"] = "Aguas Fangosas";
-	
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Archimago Tarsis Kil-Moldir";
-	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
-	["Construct Quarter"] = "Barrio de los Ensamblajes";
-	["Patchwerk"] = "Remendejo";
-	["Grobbulus"] = "Grobbulus";
-	["Gluth"] = "Gluth";
-	["Thaddius"] = "Thaddius";
-	["Arachnid Quarter"] = "Arrabal Arácnido";
-	["Anub'Rekhan"] = "Anub'Rekhan";
-	["Grand Widow Faerlina"] = "Gran Viuda Faerlina";
-	["Maexxna"] = "Maexxna";
-	["Military Quarter"] = "Barrio Militar";
-	["Instructor Razuvious"] = "Instructor Razuvious";
-	["Gothik the Harvester"] = "Gothik el Cosechador";
-	["The Four Horsemen"] = "Los cuatro Caballoshombre";
-	["Thane Korth'azz"] = "Thane Korth'azz";
-	["Lady Blaumeux"] = "Lady Blaumeux";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "Sir Zeliek";
-	["Four Horsemen Chest"] = "Cofre de los cuatro jinetes";
-	["Plague Quarter"] = "Cuarto de la Plaga"; --Check
-	["Noth the Plaguebringer"] = "Noth el Pesteador";
-	["Heigan the Unclean"] = "Heigan el Impuro";
-	["Loatheb"] = "Loatheb";
-	["Frostwyrm Lair"] = "Frostwyrm Lair"; --FALTA
-	["Sapphiron"] = "Sapphiron";
-	["Kel'Thuzad"] = "Kel'Thuzad";
-	
+
 	--Karazhan Start
 	["The Violet Eye"] = "El Ojo Violeta";--omitted from Karazhan End
 	["The Master's Key"] = "La llave del maestro";--omitted from Karazhan End
@@ -1572,6 +1543,34 @@ AtlasLocale = {
 	["Ley-Guardian Eregos"] = "Guardián-Ley Eregos";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"; --FALTA
 
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "Archimago Tarsis Kil-Moldir";
+	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
+	["Construct Quarter"] = "Barrio de los Ensamblajes";
+	["Patchwerk"] = "Remendejo";
+	["Grobbulus"] = "Grobbulus";
+	["Gluth"] = "Gluth";
+	["Thaddius"] = "Thaddius";
+	["Arachnid Quarter"] = "Arrabal Arácnido";
+	["Anub'Rekhan"] = "Anub'Rekhan";
+	["Grand Widow Faerlina"] = "Gran Viuda Faerlina";
+	["Maexxna"] = "Maexxna";
+	["Military Quarter"] = "Barrio Militar";
+	["Instructor Razuvious"] = "Instructor Razuvious";
+	["Gothik the Harvester"] = "Gothik el Cosechador";
+	["The Four Horsemen"] = "Los cuatro Caballoshombre";
+	["Thane Korth'azz"] = "Thane Korth'azz";
+	["Lady Blaumeux"] = "Lady Blaumeux";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "Sir Zeliek";
+	["Four Horsemen Chest"] = "Cofre de los cuatro jinetes";
+	["Plague Quarter"] = "Cuarto de la Plaga"; --Check
+	["Noth the Plaguebringer"] = "Noth el Pesteador";
+	["Heigan the Unclean"] = "Heigan el Impuro";
+	["Loatheb"] = "Loatheb";
+	["Frostwyrm Lair"] = "Frostwyrm Lair"; --FALTA
+	["Sapphiron"] = "Sapphiron";
+	["Kel'Thuzad"] = "Kel'Thuzad";
 };
 
 end

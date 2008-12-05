@@ -1002,35 +1002,6 @@ AtlasLocale = {
 	["Hakkar"] = "Hakkar";
 	["Muddy Churning Waters"] = "Schlammiges aufgewühltes Gewässer";
 
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Erzmagier Tarsis Kir-Moldir";
-	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Construct Quarter"] = "Konstruktionsviertel";
-	["Patchwerk"] = "Flickwerk";
-	["Grobbulus"] = "Grobbulus";
-	["Gluth"] = "Gluth";
-	["Thaddius"] = "Thaddius";
-	["Arachnid Quarter"] = "Arachnidenviertel";
-	["Anub'Rekhan"] = "Anub'Rekhan";
-	["Grand Widow Faerlina"] = "Großwitwe Faerlina";
-	["Maexxna"] = "Maexxna";
-	["Military Quarter"] = "Militärviertel";
-	["Instructor Razuvious"] = "Instrukteur Razuvious";
-	["Gothik the Harvester"] = "Gothik der Ernter";
-	["The Four Horsemen"] = "Die Vier Reiter";
-	["Thane Korth'azz"] = "Thane Korth'azz";
-	["Lady Blaumeux"] = "Lady Blaumeux";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "Sire Zeliek";
-	["Four Horsemen Chest"] = "Truhe der vier Reiter";
-	["Plague Quarter"] = "Seuchenviertel";
-	["Noth the Plaguebringer"] = "Noth der Seuchenfürst";
-	["Heigan the Unclean"] = "Heigan der Unreine";
-	["Loatheb"] = "Loatheb";
-	["Frostwyrm Lair"] = "Frostwyrmhöhle";
-	["Sapphiron"] = "Sapphiron";
-	["Kel'Thuzad"] = "Kel'Thuzad";
-
 	--Karazhan Start
 	["The Violet Eye"] = "Das Violette Auge";--omitted from Karazhan End
 	["The Master's Key"] = "Der Schlüssel des Meisters";--omitted from Karazhan End
@@ -1562,6 +1533,34 @@ AtlasLocale = {
 	["Ley-Guardian Eregos"] = "Leywächter Eregos";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Wolkenwanderer <Azurlord des blauen Drachenschwarms>";
 
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "Erzmagier Tarsis Kir-Moldir";
+	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
+	["Construct Quarter"] = "Konstruktionsviertel";
+	["Patchwerk"] = "Flickwerk";
+	["Grobbulus"] = "Grobbulus";
+	["Gluth"] = "Gluth";
+	["Thaddius"] = "Thaddius";
+	["Arachnid Quarter"] = "Arachnidenviertel";
+	["Anub'Rekhan"] = "Anub'Rekhan";
+	["Grand Widow Faerlina"] = "Großwitwe Faerlina";
+	["Maexxna"] = "Maexxna";
+	["Military Quarter"] = "Militärviertel";
+	["Instructor Razuvious"] = "Instrukteur Razuvious";
+	["Gothik the Harvester"] = "Gothik der Ernter";
+	["The Four Horsemen"] = "Die Vier Reiter";
+	["Thane Korth'azz"] = "Thane Korth'azz";
+	["Lady Blaumeux"] = "Lady Blaumeux";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "Sire Zeliek";
+	["Four Horsemen Chest"] = "Truhe der vier Reiter";
+	["Plague Quarter"] = "Seuchenviertel";
+	["Noth the Plaguebringer"] = "Noth der Seuchenfürst";
+	["Heigan the Unclean"] = "Heigan der Unreine";
+	["Loatheb"] = "Loatheb";
+	["Frostwyrm Lair"] = "Frostwyrmhöhle";
+	["Sapphiron"] = "Sapphiron";
+	["Kel'Thuzad"] = "Kel'Thuzad";
 };
 
 end

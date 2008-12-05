@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
@@ -978,35 +978,6 @@ AtlasLocale = {
 	["Hakkar"] = "哈卡";
 	["Muddy Churning Waters"] = "混浊的水";
 	
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·基莫迪尔";
-	["Mr. Bigglesworth"] = "比格沃斯";
-	["Construct Quarter"] = "构造区";
-	["Patchwerk"] = "帕奇维克";
-	["Grobbulus"] = "格罗布鲁斯";
-	["Gluth"] = "格拉斯";
-	["Thaddius"] = "塔迪乌斯";
-	["Arachnid Quarter"] = "蜘蛛区";
-	["Anub'Rekhan"] = "阿努布雷坎";
-	["Grand Widow Faerlina"] = "黑女巫法琳娜";
-	["Maexxna"] = "迈克斯纳";
-	["Military Quarter"] = "军事区";
-	["Instructor Razuvious"] = "教官拉苏维奥斯";
-	["Gothik the Harvester"] = "收割者戈提克";
-	["The Four Horsemen"] = "天启四骑士";
-	["Thane Korth'azz"] = "库尔塔兹领主";
-	["Lady Blaumeux"] = "女公爵布劳缪克丝";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "瑟里耶克爵士";
-	["Four Horsemen Chest"] = "四骑士之箱";
-	["Plague Quarter"] = "瘟疫区";
-	["Noth the Plaguebringer"] = "瘟疫使者诺斯";
-	["Heigan the Unclean"] = "肮脏的希尔盖";
-	["Loatheb"] = "洛欧塞布";
-	["Frostwyrm Lair"] = "冰霜巨龙巢穴";
-	["Sapphiron"] = "萨菲隆";
-	["Kel'Thuzad"] = "克尔苏加德";
-	
 	--Karazhan Start
 	["The Violet Eye"] = "紫罗兰之眼";--omitted from Karazhan End
 	["The Master's Key"] = "麦迪文的钥匙";--omitted from Karazhan End
@@ -1538,5 +1509,33 @@ AtlasLocale = {
 	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <Azure-Lord of the Blue Dragonflight>";
 
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·基莫迪尔";
+	["Mr. Bigglesworth"] = "比格沃斯";
+	["Construct Quarter"] = "构造区";
+	["Patchwerk"] = "帕奇维克";
+	["Grobbulus"] = "格罗布鲁斯";
+	["Gluth"] = "格拉斯";
+	["Thaddius"] = "塔迪乌斯";
+	["Arachnid Quarter"] = "蜘蛛区";
+	["Anub'Rekhan"] = "阿努布雷坎";
+	["Grand Widow Faerlina"] = "黑女巫法琳娜";
+	["Maexxna"] = "迈克斯纳";
+	["Military Quarter"] = "军事区";
+	["Instructor Razuvious"] = "教官拉苏维奥斯";
+	["Gothik the Harvester"] = "收割者戈提克";
+	["The Four Horsemen"] = "天启四骑士";
+	["Thane Korth'azz"] = "库尔塔兹领主";
+	["Lady Blaumeux"] = "女公爵布劳缪克丝";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "瑟里耶克爵士";
+	["Four Horsemen Chest"] = "四骑士之箱";
+	["Plague Quarter"] = "瘟疫区";
+	["Noth the Plaguebringer"] = "瘟疫使者诺斯";
+	["Heigan the Unclean"] = "肮脏的希尔盖";
+	["Loatheb"] = "洛欧塞布";
+	["Frostwyrm Lair"] = "冰霜巨龙巢穴";
+	["Sapphiron"] = "萨菲隆";
+	["Kel'Thuzad"] = "克尔苏加德";
 };
 end

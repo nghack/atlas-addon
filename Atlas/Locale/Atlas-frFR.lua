@@ -1004,35 +1004,6 @@ AtlasLocale = {
 	["Hakkar"] = "Hakkar";
 	["Muddy Churning Waters"] = "Eaux troubles et agitées";
 
-	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
-	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Construct Quarter"] = "Quartier des Assemblages";
-	["Patchwerk"] = "Le Recousu";
-	["Grobbulus"] = "Grobbulus";
-	["Gluth"] = "Gluth";
-	["Thaddius"] = "Thaddius";
-	["Arachnid Quarter"] = "Quartier des Arachnides";
-	["Anub'Rekhan"] = "Anub'Rekhan";
-	["Grand Widow Faerlina"] = "Grande veuve Faerlina";
-	["Maexxna"] = "Maexxna";
-	["Military Quarter"] = "Quartier Militaire";
-	["Instructor Razuvious"] = "Instructeur Razuvious";
-	["Gothik the Harvester"] = "Gothik le Moissonneur";
-	["The Four Horsemen"] = "Les quatre cavaliers";
-	["Thane Korth'azz"] = "Thane Korth'azz";
-	["Lady Blaumeux"] = "Dame Blaumeux";
-	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "Sir Zeliek";
-	["Four Horsemen Chest"] = "Four Horsemen Chest";
-	["Plague Quarter"] = "Quartier de la Peste";
-	["Noth the Plaguebringer"] = "Noth le Porte-peste";
-	["Heigan the Unclean"] = "Heigan l'Impur";
-	["Loatheb"] = "Horreb";
-	["Frostwyrm Lair"] = "Repaire de la Wyrm des glaces";
-	["Sapphiron"] = "Sapphiron";
-	["Kel'Thuzad"] = "Kel'Thuzad";
-	
 	--Karazhan Start
 	["The Violet Eye"] = "L'Œil pourpre"; --omitted from Karazhan End
 	["The Master's Key"] = "La clé du maître"; --omitted from Karazhan End
@@ -1478,7 +1449,12 @@ AtlasLocale = {
 -- WotLK Instances
 --*****************
 
---I'm switching from continent grouping to expansion grouping.
+	--Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "Ancien Nadox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
+	["Herald Volazj"] = "Héraut Volazj";
+	["Amanitar"] = "Amanitar";
 
 	--Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
@@ -1505,22 +1481,41 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Grand prophète d'Akali>";
 	["Eck the Ferocious"] = "Eck le Féroce";
 
+	--Naxxramas
+	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
+	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
+	["Construct Quarter"] = "Le quartier des Assemblages";
+	["Patchwerk"] = "Le Recousu";
+	["Grobbulus"] = "Grobbulus";
+	["Gluth"] = "Gluth";
+	["Thaddius"] = "Thaddius";
+	["Arachnid Quarter"] = "Le quartier des Arachnides";
+	["Anub'Rekhan"] = "Anub'Rekhan";
+	["Grand Widow Faerlina"] = "Grande veuve Faerlina";
+	["Maexxna"] = "Maexxna";
+	["Military Quarter"] = "Le quartier Militaire";
+	["Instructor Razuvious"] = "Instructeur Razuvious";
+	["Gothik the Harvester"] = "Gothik le Moissonneur";
+	["The Four Horsemen"] = "Les quatre cavaliers";
+	["Thane Korth'azz"] = "Thane Korth'azz";
+	["Lady Blaumeux"] = "Dame Blaumeux";
+	--Baron Rivendare omitted, listed under Stratholme
+	["Sir Zeliek"] = "Sir Zeliek";
+	["Four Horsemen Chest"] = "Four Horsemen Chest";
+	["Plague Quarter"] = "Le quartier de la Peste";
+	["Noth the Plaguebringer"] = "Noth le Porte-peste";
+	["Heigan the Unclean"] = "Heigan l'Impur";
+	["Loatheb"] = "Horreb";
+	["Frostwyrm Lair"] = "Repaire de la Wyrm des glaces";
+	["Sapphiron"] = "Sapphiron";
+	["Kel'Thuzad"] = "Kel'Thuzad";
+
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Coffre du tribunal";
 	["Krystallus"] = "Krystallus";
 	["Brann Bronzebeard"] = "Brann Barbe-de-bronze";
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
 	["Maiden of Grief"] = "Damoiselle de peine";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "General Bjarngrim";
-	["Volkhan"] = "Volkhan";
-	["Ionar"] = "Ionar";
-	["Loken"] = "Loken";
-	
-	--The Obsidian Sanctum
-		["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
@@ -1534,6 +1529,12 @@ AtlasLocale = {
 	["King Ymiron"] = "Roi Ymiron";
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
@@ -1542,12 +1543,15 @@ AtlasLocale = {
 	["Commander Stoutbeard"] = "Commandant Rudebarbe";
 	["Berinand's Research"] = "Recherches de Bérinand";
 
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Ancien Nadox";
-	["Prince Taldaram"] = "Prince Taldaram";
-	["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
-	["Herald Volazj"] = "Héraut Volazj";
-	["Amanitar"] = "Amanitar";
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
+	["Mage-Lord Urom"] = "Seigneur-mage Urom";
+	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
+
+	--The Obsidian Sanctum
+		["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
 
 	--The Violet Hold
 	["Erekem"] = "Erekem";
@@ -1558,11 +1562,5 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
 	["Wave 18"] = "Vague 18";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
-	["Mage-Lord Urom"] = "Seigneur-mage Urom";
-	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
 };
 end

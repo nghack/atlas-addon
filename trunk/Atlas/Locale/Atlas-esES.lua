@@ -268,7 +268,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Laberinto de las sombras"; ["SL"] = "LS";
 	["Shadowfang Keep"] = "Castillo de Colmillo Oscuro"; ["SFK"] = "CCO";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-	["Stratholme Past"] = "Stratholme en el pasado"; --Check
+	["Stratholme Past"] = "La Matanza de Stratholme";
 	["Sunken Temple"] = "Templo de Atal'Hakkar"; ["ST"] = "TA";
 	["Sunwell Plateau"] = "Meseta del pozo del Sol"; ["SP"] = "MPS";
 	["Tempest Keep"] = "El Castillo de la Tempestad"; ["TK"] = "CT";
@@ -1464,11 +1464,11 @@ AtlasLocale = {
 	["Anub'arak"] = "Anub'arak";
 	
 	--Caverns of Time: The Culling of Stratholme
-	["The Culling of Stratholme"] = "La Purga de Stratholme";
-	["Meathook"] = "Meathook"; --FALTA
-	["Salramm the Fleshcrafter"] = "Salramm the Fleshcrafter"; --FALTA
-	["Chrono-Lord Epoch"] = "Chrono-Lord Epoch"; --FALTA
-	["Mal'Ganis"] = "Mal'Ganis"; --FALTA
+	["The Culling of Stratholme"] = "La Matanza de Stratholme";
+	["Meathook"] = "Gancho";
+	["Salramm the Fleshcrafter"] = "Salramm el Modelador de carne";
+	["Chrono-Lord Epoch"] = "Cronolord Época";
+	["Mal'Ganis"] = "Mal'Ganis";
 
 	--Drak'Tharon Keep
 	["Trollgore"] = "Cuernotrol";
@@ -1481,14 +1481,14 @@ AtlasLocale = {
 	["Drakkari Colossus"] = "Coloso Drakkari";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Sumo profeta de Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Sumo profeta de Akali>";
-	["Eck the Ferocious"] = "Eck the Ferocious"; --FALTA
+	["Eck the Ferocious"] = "Eck el Feroz";
 	
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Cofre del tribunal";
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard"; --FALTA
+	["Brann Bronzebeard"] = "Brann Barbabronce";
 	["Sjonnir the Ironshaper"] = "Sjonnir el Afilador";
-	["Maiden of Grief"] = "Doncella de Pena"; --Check
+	["Maiden of Grief"] = "Doncella de Pena";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1517,8 +1517,8 @@ AtlasLocale = {
 	["Ormorok the Tree-Shaper"] = "Ormorok el Cortador de árboles";
 	["Grand Magus Telestra"] = "Gran Maga Telestra";
 	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commander Stoutbeard"; --FALTA
-	["Berinand's Research"] = "Berinand's Research"; --untranslated
+	["Commander Stoutbeard"] = "Comandante Barbarrecia";
+	["Berinand's Research"] = "Investigación de Berinand";
 
 	--Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancestro Nadox";
@@ -1541,7 +1541,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Drakos el interrogador";
 	["Mage-Lord Urom"] = "Señor de la Magia Urom";
 	["Ley-Guardian Eregos"] = "Guardián-Ley Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"; --FALTA
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Zancanubes <Lord Azur del Vuelo Azul>";
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archimago Tarsis Kil-Moldir";

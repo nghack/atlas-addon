@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/23/2008
+-- Last Update : 12/9/2008
 -- http://www.dreamgen.cn
 
 --]]
@@ -115,6 +115,7 @@ AtlasLocale = {
 	["AKA"] = "亦作";
 	["Alliance"] = "联盟";
 	["Arcane Container"] = "奥术容器";
+	["Argent Crusade"] = "银色远征军";
 	["Argent Dawn"] = "银色黎明";
 	["Arms Warrior"] = "武器战士";
 	["Attunement Required"] = "需要完成入口任务";

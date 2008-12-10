@@ -1501,7 +1501,7 @@ AtlasLocale = {
 	["Lady Blaumeux"] = "Dame Blaumeux";
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "Sir Zeliek";
-	["Four Horsemen Chest"] = "Four Horsemen Chest";
+	["Four Horsemen Chest"] = "Coffre des quatre cavaliers";
 	["Plague Quarter"] = "Le quartier de la Peste";
 	["Noth the Plaguebringer"] = "Noth le Porte-peste";
 	["Heigan the Unclean"] = "Heigan l'Impur";

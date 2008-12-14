@@ -796,7 +796,7 @@ AtlasLocale = {
 
 	--SM: Armory
 	["The Scarlet Key"] = "Алый ключ";--omitted from SM: Cathedral
-	["Herod <The Scarlet Champion>"] = "Герод <Герой Алого ордена>";
+	["Herod <The Scarlet Champion>"] = "Ирод <Герой Алого ордена>";
 
 	--SM: Cathedral
 	["High Inquisitor Fairbanks"] = "Верховный инквизитор Фэйрбанкс";

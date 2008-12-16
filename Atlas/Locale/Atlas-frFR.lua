@@ -1483,7 +1483,7 @@ AtlasLocale = {
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
-	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
+	["Mr. Bigglesworth"] = "M. Bigglesworth";
 	["Construct Quarter"] = "Le quartier des Assemblages";
 	["Patchwerk"] = "Le Recousu";
 	["Grobbulus"] = "Grobbulus";

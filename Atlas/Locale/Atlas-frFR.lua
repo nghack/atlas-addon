@@ -235,7 +235,7 @@ AtlasLocale = {
 	["Blackwing Lair"] = "Repaire de l'Aile noire"; ["BWL"] = "BWL";
 	["Cathedral"] = "Cathédrale"; ["Cath"] = "Cath";
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
-		["Chamber of Aspects"] = "Chamber of Aspects"; -- à traduire
+	["Chamber of Aspects"] = "Chambre des Aspects";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";

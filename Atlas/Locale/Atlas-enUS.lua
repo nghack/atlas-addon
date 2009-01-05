@@ -1440,11 +1440,18 @@ AtlasLocale = {
 
 --I'm switching from continent grouping to expansion grouping.
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "Elder Nadox";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
+	["Herald Volazj"] = "Herald Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
-	
+
 	--Caverns of Time: The Culling of Stratholme
 	["The Culling of Stratholme"] = "The Culling of Stratholme";
 	["Meathook"] = "Meathook";
@@ -1457,73 +1464,13 @@ AtlasLocale = {
 	["Novos the Summoner"] = "Novos the Summoner";
 	["King Dred"] = "King Dred";
 	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
-	
+
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 	["Eck the Ferocious"] = "Eck the Ferocious";
-
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest";
-	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard";
-	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
-	["Maiden of Grief"] = "Maiden of Grief";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "General Bjarngrim";
-	["Volkhan"] = "Volkhan";
-	["Ionar"] = "Ionar";
-	["Loken"] = "Loken";
-	
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
-	["Gortok Palehoof"] = "Gortok Palehoof";
-	["Skadi the Ruthless"] = "Skadi the Ruthless";
-	["King Ymiron"] = "King Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magus Telestra"] = "Grand Magus Telestra";
-	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commander Stoutbeard";
-	["Berinand's Research"] = "Berinand's Research";
-
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Elder Nadox";
-	["Prince Taldaram"] = "Prince Taldaram";
-	["Jedoga Shadowseeker"] = "Jedoga Shadowseeker";
-	["Herald Volazj"] = "Herald Volazj";
-	["Amanitar"] = "Amanitar";
-
-	--The Violet Hold
-	["Erekem"] = "Erekem";
-	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
-	["Xevozz"] = "Xevozz";
-	["Ichoron"] = "Ichoron";
-	["Moragg"] = "Moragg";
-	["Lavanthor"] = "Lavanthor";
-	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Wave 18";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos the Interrogator";
-	["Mage-Lord Urom"] = "Mage-Lord Urom";
-	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Archmage Tarsis Kir-Moldir";
@@ -1553,4 +1500,61 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "Frostwyrm Lair";
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
+
+	--The Nexus: The Nexus
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
+	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
+	["Berinand's Research"] = "Berinand's Research";
+
+	--The Nexus: The Eye of Eternity
+
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos the Interrogator";
+	["Mage-Lord Urom"] = "Mage-Lord Urom";
+	["Ley-Guardian Eregos"] = "Ley-Guardian Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>";
+
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat the Obliterator";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Wave 18";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
+	["Maiden of Grief"] = "Maiden of Grief";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
+
+	--Vault of Archavon
 };

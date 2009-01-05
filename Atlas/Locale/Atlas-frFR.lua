@@ -1449,7 +1449,7 @@ AtlasLocale = {
 -- WotLK Instances
 --*****************
 
-	--Ahn'kahet: The Old Kingdom
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancien Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
 	["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
@@ -1510,13 +1510,49 @@ AtlasLocale = {
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
+	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Commandant Rudebarbe";
+	["Berinand's Research"] = "Recherches de Bérinand";
+
+	--The Nexus: The Eye of Eternity
+
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
+	["Mage-Lord Urom"] = "Seigneur-mage Urom";
+	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Vague 18";
+
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Coffre du tribunal";
 	["Krystallus"] = "Krystallus";
 	["Brann Bronzebeard"] = "Brann Barbe-de-bronze";
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
 	["Maiden of Grief"] = "Damoiselle de peine";
-	
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
 	["Dalronn the Controller"] = "Dalronn le Contrôleur";
@@ -1529,38 +1565,6 @@ AtlasLocale = {
 	["King Ymiron"] = "Roi Ymiron";
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "General Bjarngrim";
-	["Volkhan"] = "Volkhan";
-	["Ionar"] = "Ionar";
-	["Loken"] = "Loken";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
-	["Grand Magus Telestra"] = "Grand Magus Telestra";
-	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commandant Rudebarbe";
-	["Berinand's Research"] = "Recherches de Bérinand";
-
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
-	["Mage-Lord Urom"] = "Seigneur-mage Urom";
-	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
-
-	--The Obsidian Sanctum
-		["Black Dragonflight Chamber"] = "Black Dragonflight Chamber"; -- à traduire
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
-
-	--The Violet Hold
-	["Erekem"] = "Erekem";
-	["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
-	["Xevozz"] = "Xevozz";
-	["Ichoron"] = "Ichoron";
-	["Moragg"] = "Moragg";
-	["Lavanthor"] = "Lavanthor";
-	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Vague 18";
+	--Vault of Archavon
 };
 end

@@ -254,7 +254,7 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Managruft"; ["MT"] = "Gruft";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara, Mauro";
 	["Molten Core"] = "Geschmolzener Kern"; ["MC"] = "MC";
-	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
+	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Naxx";
 	["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands"; ["CoT1"] = "Durnholde, HdZ1";
 	["Onyxia's Lair"] = "Onyxias Hort"; ["Ony"] = "Ony";
 	["Ragefire Chasm"] = "Der Flammenschlund"; ["RFC"] = "RF";
@@ -310,7 +310,7 @@ AtlasLocale = {
 	["UP, Pinn"] = "Turm"; -- Turm Utgarde
 	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
-	["VH"] = "VF"; -- Die Violette Festung
+	["VH"] = "VF, Vio"; -- Die Violette Festung
 	["Ocu"] = "Ocu"; -- Das Oculus
 	
 	--Continents
@@ -1536,7 +1536,7 @@ AtlasLocale = {
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Erzmagier Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
-	["Construct Quarter"] = "Konstruktionsviertel";
+	["Construct Quarter"] = "Konstruktviertel";
 	["Patchwerk"] = "Flickwerk";
 	["Grobbulus"] = "Grobbulus";
 	["Gluth"] = "Gluth";
@@ -1548,18 +1548,18 @@ AtlasLocale = {
 	["Military Quarter"] = "Militärviertel";
 	["Instructor Razuvious"] = "Instrukteur Razuvious";
 	["Gothik the Harvester"] = "Gothik der Ernter";
-	["The Four Horsemen"] = "Die Vier Reiter";
-	["Thane Korth'azz"] = "Thane Korth'azz";
+	["The Four Horsemen"] = "Das Reiterkonzil";
+	["Thane Korth'azz"] = "Than Korth'azz";
 	["Lady Blaumeux"] = "Lady Blaumeux";
 	--Baron Rivendare omitted, listed under Stratholme
-	["Sir Zeliek"] = "Sire Zeliek";
-	["Four Horsemen Chest"] = "Truhe der vier Reiter";
+	["Sir Zeliek"] = "Sir Zeliek";
+	["Four Horsemen Chest"] = "Truhe der Vier Reiter";
 	["Plague Quarter"] = "Seuchenviertel";
 	["Noth the Plaguebringer"] = "Noth der Seuchenfürst";
 	["Heigan the Unclean"] = "Heigan der Unreine";
 	["Loatheb"] = "Loatheb";
 	["Frostwyrm Lair"] = "Frostwyrmhöhle";
-	["Sapphiron"] = "Sapphiron";
+	["Sapphiron"] = "Saphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 };
 

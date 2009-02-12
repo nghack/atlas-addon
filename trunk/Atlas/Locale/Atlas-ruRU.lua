@@ -261,7 +261,7 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Темный Лабиринт"; ["SL"] = "ТЛ";
 	["Shadowfang Keep"] = "Крепость Темного Клыка"; ["SFK"] = "КТК";
 	["Stratholme"] = "Стратхольм"; ["Strat"] = "Страт";
-	["Stratholme Past"] = "Прошлое Стратхольма";
+	["Stratholme Past"] = "Очищение Стратхольма";
 	["Sunken Temple"] = "Затонувший храм"; ["ST"] = "ЗХ";
 	["Sunwell Plateau"] = "Солнечный Колодец"; ["SP"] = "СК";
 	["Tempest Keep"] = "Крепость Бурь"; ["TK"] = "КБ";
@@ -1528,7 +1528,7 @@ AtlasLocale = {
 	
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Верховный маг Тарсис Кир-Молдир";
-	["Mr. Bigglesworth"] = "Кот Бегемот";
+	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";
 	["Construct Quarter"] = "Квартал Мерзости";
 	["Patchwerk"] = "Лоскутик";
 	["Grobbulus"] = "Гроббулус";
@@ -1550,7 +1550,7 @@ AtlasLocale = {
 	["Plague Quarter"] = "Чумной квартал";
 	["Noth the Plaguebringer"] = "Нот Чумной";
 	["Heigan the Unclean"] = "Хейган Нечестивый";
-	["Loatheb"] = "Мерзот";
+	["Loatheb"] = "Лотхиб";
 	["Frostwyrm Lair"] = "Логово Ледяного Змея";
 	["Sapphiron"] = "Сапфирон";
 	["Kel'Thuzad"] = "Кел'Тузад";

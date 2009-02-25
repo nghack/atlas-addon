@@ -1444,10 +1444,10 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "先知萨隆亚";
 	
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <High Prophet of Sseratus>";
+	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <西莱图斯的高阶先知>";
 	["Drakkari Colossus"] = "达卡莱巨像";
-	["Moorabi <High Prophet of Mam'toth>"] = "莫拉比 <High Prophet of Mam'toth>";
-	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <High Prophet of Akali>";
+	["Moorabi <High Prophet of Mam'toth>"] = "莫拉比 <犸托斯的高阶先知>";
+	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <阿卡里的高阶先知>";
 	["Eck the Ferocious"] = "凶残的伊克";
 
 	--Ulduar: Halls of Stone	
@@ -1468,7 +1468,7 @@ AtlasLocale = {
 	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
 	
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <The San'layn>";
+	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
 	["Dalronn the Controller"] = "控制者达尔隆";
 	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
 	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
@@ -1508,7 +1508,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "审讯者达库斯";
 	["Mage-Lord Urom"] = "法师领主伊洛姆";
 	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <Azure-Lord of the Blue Dragonflight>";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <蓝龙军团的领主>";
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·基莫迪尔";

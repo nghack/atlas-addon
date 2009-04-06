@@ -1440,11 +1440,18 @@ AtlasLocale = {
 
 --I'm switching from continent grouping to expansion grouping.
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "老那杜斯";
+	["Prince Taldaram"] = "泰爾達朗王子";
+	["Jedoga Shadowseeker"] = "潔杜佳·尋影者";
+	["Herald Volazj"] = "信使沃菈齊";
+	["Amanitar"] = "毒蕈魔";
+
+	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "『守門者』齊力克西爾";
 	["Hadronox"] = "哈卓諾克斯";
 	["Anub'arak"] = "阿努巴拉克";
-	
+
 	--Caverns of Time: The Culling of Stratholme
 	["The Culling of Stratholme"] = "斯坦索姆的抉擇";
 	["Meathook"] = "肉鉤";
@@ -1464,66 +1471,6 @@ AtlasLocale = {
 	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比";
 	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉";
 	["Eck the Ferocious"] = "『兇猛』埃克";
-
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "議庭之箱";
-	["Krystallus"] = "克利斯托魯斯";
-	["Brann Bronzebeard"] = "布萊恩·銅鬚";
-	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";
-	["Maiden of Grief"] = "悲嘆少女";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "畢亞格林將軍";
-	["Volkhan"] = "渥克瀚";
-	["Ionar"] = "埃歐納";
-	["Loken"] = "洛肯";
-	
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "黑龍軍團密室";
-	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
-	["Dalronn the Controller"] = "『控制者』達隆恩";
-	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
-	["Gortok Palehoof"] = "戈托克·白蹄";
-	["Skadi the Ruthless"] = "無情的斯卡迪";
-	["King Ymiron"] = "依米倫王";
-	["Skarvald the Constructor"] = "『建造者』史卡沃";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "艾諾瑪路斯";
-	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
-	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
-	["Keristrasza"] = "凱瑞史卓莎";
-	["Commander Stoutbeard"] = "指揮官厚鬚";
-	["Berinand's Research"] = "Berinand's Research"; --untranslated
-
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "老那杜斯";
-	["Prince Taldaram"] = "泰爾達朗王子";
-	["Jedoga Shadowseeker"] = "潔杜佳·尋影者";
-	["Herald Volazj"] = "信使沃菈齊";
-	["Amanitar"] = "毒蕈魔";
-
-	--The Violet Hold
-	["Erekem"] = "伊銳坎";
-	["Zuramat the Obliterator"] = "『消滅者』舒拉邁特";
-	["Xevozz"] = "基沃滋";
-	["Ichoron"] = "伊仇隆";
-	["Moragg"] = "摩拉革";
-	["Lavanthor"] = "拉方索";
-	["Cyanigosa"] = "霞妮苟莎";
-	["Wave 18"] = "第 18 波";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "『審問者』德拉高斯";
-	["Mage-Lord Urom"] = "法師領主厄隆";
-	["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者 ";
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "大法師塔希斯·克摩地爾";
@@ -1553,5 +1500,62 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
 	["Sapphiron"] = "薩菲隆";
 	["Kel'Thuzad"] = "科爾蘇加德";
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "艾諾瑪路斯";
+	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
+	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
+	["Keristrasza"] = "凱瑞史卓莎";
+	["Commander Stoutbeard"] = "指揮官厚鬚";
+	["Berinand's Research"] = "貝瑞那德的研究";
+
+	--The Nexus: The Eye of Eternity
+
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "『審問者』德拉高斯";
+	["Mage-Lord Urom"] = "法師領主厄隆";
+	["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者 ";
+
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "黑龍軍團密室";
+	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
+
+	--The Violet Hold
+	["Erekem"] = "伊銳坎";
+	["Zuramat the Obliterator"] = "『消滅者』舒拉邁特";
+	["Xevozz"] = "基沃滋";
+	["Ichoron"] = "伊仇隆";
+	["Moragg"] = "摩拉革";
+	["Lavanthor"] = "拉方索";
+	["Cyanigosa"] = "霞妮苟莎";
+	["Wave 18"] = "第 18 波";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "畢亞格林將軍";
+	["Volkhan"] = "渥克瀚";
+	["Ionar"] = "埃歐納";
+	["Loken"] = "洛肯";
+	
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "議庭之箱";
+	["Krystallus"] = "克利斯托魯斯";
+	["Brann Bronzebeard"] = "布萊恩·銅鬚";
+	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";
+	["Maiden of Grief"] = "悲嘆少女";
+
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
+	["Dalronn the Controller"] = "『控制者』達隆恩";
+	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
+	["Gortok Palehoof"] = "戈托克·白蹄";
+	["Skadi the Ruthless"] = "無情的斯卡迪";
+	["King Ymiron"] = "依米倫王";
+	["Skarvald the Constructor"] = "『建造者』史卡沃";
+
+	--Vault of Archavon
 };
 end

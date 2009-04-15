@@ -301,6 +301,7 @@ AtlasLocale = {
 	["Utgarde Pinnacle"] = "Cime d'Utgarde";
 	["Vault of Archavon"] = "Caveau d'Archavon";
 	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
+	["Wintergrasp"] = "Joug-d'hiver";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
@@ -567,9 +568,9 @@ AtlasLocale = {
 	["Keepers of Time"] = "Gardiens du Temps";
 	["Key of Time"] = "Clé du Temps";
 	["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
-	["Wave 6: Chrono Lord Deja"] = "Vague 6 : Chronoseigneur Déjà";
-	["Wave 12: Temporus"] = "Vague 12 : Temporus";
-	["Wave 18: Aeonus"] = "Vague 18 : Aeonus";
+	["Chrono Lord Deja"] = "Chronoseigneur Déjà";
+	["Temporus"] = "Temporus";
+	["Aeonus"] = "Aeonus";
 	["The Dark Portal"] = "La Porte des Ténèbres";
 	["Medivh"] = "Medivh";
 

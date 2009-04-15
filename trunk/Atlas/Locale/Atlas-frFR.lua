@@ -219,6 +219,10 @@ AtlasLocale = {
 	["Wanders"] = "Errant";
 	["Warlock"] = "Démoniste";
 	["Warrior"] = "Guerrier";
+	["Wave 6"] = "Vague 6";
+	["Wave 10"] = "Vague 10";
+	["Wave 12"] = "Vague 12";
+	["Wave 18"] = "Vague 18";
 	["West"] = "Ouest";
 
 	--Instance names and acronyms
@@ -1539,6 +1543,9 @@ AtlasLocale = {
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
+["Tenebron"] = "Tenebron";
+["Shadron"] = "Shadron";
+["Vesperon"] = "Vesperon";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1565,8 +1572,6 @@ AtlasLocale = {
 	["King Ymiron"] = "Roi Ymiron";
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
-	--Vault of Archavon
-	
 -- Ulduar: Ulduar	
 ["Flame Leviathan"] = "Flame Leviathan";
 ["Ignis the Furnace Master"] = "Ignis the Furnace Master";
@@ -1585,6 +1590,10 @@ AtlasLocale = {
 ["General Vezax"] = "General Vezax";
 ["Yogg-Saron"] = "Yogg-Saron";
 ["Algalon the Observer"] = "Algalon the Observer";	
+
+	--Vault of Archavon
+	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";
+
 	
 };
 end

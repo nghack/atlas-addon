@@ -4,6 +4,8 @@
 
 v1.13.1
 - changed Argent Dawn to Argent Crusade in Naxx (Paranitis)
+- added Ulduar
+- other minor trad tweaks
 
 v1.13.0
 - added tons of new WotLK instance maps!

@@ -1,5 +1,5 @@
 Atlas, un navegador de mazmorras de World of Warcraft
-Copyright 2005 - 2007 Dan Gilbert
+Copyright 2005 - 2009 Dan Gilbert
 Escribeme en loglow@gmail.com
 
 

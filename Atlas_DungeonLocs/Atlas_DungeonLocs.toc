@@ -1,4 +1,4 @@
-## Interface: 30000
+## Interface: 30100
 ## Title: Atlas |r|cFF0099FF[Dungeon Locs]|r
 ## Title-ruRU: Атлас |r|cFF0099FF[Расп. подземелий]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地下城位置地圖
@@ -11,8 +11,8 @@
 ## Notes-koKR: 던전 지역
 ## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置，顯示各個地下城所在位置
-## Version: 1.13.0
-## X-Date: November, 2008
+## Version: 1.14.0
+## X-Date: April, 2009
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

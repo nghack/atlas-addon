@@ -1475,6 +1475,10 @@ AtlasLocale = {
 	["Salramm the Fleshcrafter"] = "Salramm le Façonneur de chair";
 	["Chrono-Lord Epoch"] = "Chronoseigneur Epoch";
 	["Mal'Ganis"] = "Mal'Ganis";
+	["Chromie"] = "Chromie";
+["Infinite Corruptor"] = "Infinite Corruptor";
+	["Guardian of Time"] = "Gardien du Temps";
+	["Scourge Invasion Points"] = "Points d'invasion du Fléau";
 
 	--Drak'Tharon Keep
 	["Trollgore"] = "Trollétripe";
@@ -1537,6 +1541,8 @@ AtlasLocale = {
 	["Mage-Lord Urom"] = "Seigneur-mage Urom";
 	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
+["Centrifuge Construct"] = "Centrifuge Construct";
+	["Cache of Eregos"] = "Cache d'Eregos";
 
 	--The Violet Hold
 	["Erekem"] = "Erekem";

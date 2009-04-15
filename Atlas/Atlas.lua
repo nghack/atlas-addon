@@ -366,8 +366,9 @@ local function Process_Deprecated()
 		
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
-		{ "AtlasQuest", "4.2.1" },
+		{ "AtlasQuest", "4.3.2" },
 		{ "AtlasMajorCities", "v1.4" },
+		{ "AtlasLoot", "5.04.00" },
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

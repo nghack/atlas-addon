@@ -1,4 +1,4 @@
-## Interface: 30000
+## Interface: 30100
 ## Title: Atlas
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地圖瀏覽器
 ## Title-ruRU: Атлас

@@ -1538,5 +1538,24 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "冰霜巨龙巢穴";
 	["Sapphiron"] = "萨菲隆";
 	["Kel'Thuzad"] = "克尔苏加德";
+
+	-- Ulduar: Ulduar	
+["Flame Leviathan"] = "Flame Leviathan";
+["Ignis the Furnace Master"] = "Ignis the Furnace Master";
+["Razorscale"] = "Razorscale";
+["XT-002 Deconstructor"] = "XT-002 Deconstructor";
+["Assembly of Iron"] = "Assembly of Iron";
+["Steelbreaker"] = "Steelbreaker";
+["Runemaster Molgeim"] = "Runemaster Molgeim";
+["Stormcaller Brundirle"] = "Stormcaller Brundirle";
+["Kologarn"] = "Kologarn";
+["Auriaya"] = "Auriaya";
+["Hodir"] = "Hodir";
+["Thorim"] = "Thorim";
+["Freya"] = "Freya";
+["Mimiron"] = "Mimiron";
+["General Vezax"] = "General Vezax";
+["Yogg-Saron"] = "Yogg-Saron";
+["Algalon the Observer"] = "Algalon the Observer";	
 };
 end

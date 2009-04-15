@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
+	Copyright 2005 - 2009 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2008 - dernière maj : 14/11/2008
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 15/04/2009
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -1566,5 +1566,25 @@ AtlasLocale = {
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
 	--Vault of Archavon
+	
+-- Ulduar: Ulduar	
+["Flame Leviathan"] = "Flame Leviathan";
+["Ignis the Furnace Master"] = "Ignis the Furnace Master";
+["Razorscale"] = "Razorscale";
+["XT-002 Deconstructor"] = "XT-002 Deconstructor";
+["Assembly of Iron"] = "Assembly of Iron";
+["Steelbreaker"] = "Steelbreaker";
+["Runemaster Molgeim"] = "Runemaster Molgeim";
+["Stormcaller Brundirle"] = "Stormcaller Brundirle";
+["Kologarn"] = "Kologarn";
+["Auriaya"] = "Auriaya";
+["Hodir"] = "Hodir";
+["Thorim"] = "Thorim";
+["Freya"] = "Freya";
+["Mimiron"] = "Mimiron";
+["General Vezax"] = "General Vezax";
+["Yogg-Saron"] = "Yogg-Saron";
+["Algalon the Observer"] = "Algalon the Observer";	
+	
 };
 end

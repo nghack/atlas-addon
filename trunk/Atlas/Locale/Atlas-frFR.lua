@@ -1543,9 +1543,9 @@ AtlasLocale = {
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
-["Tenebron"] = "Tenebron";
-["Shadron"] = "Shadron";
-["Vesperon"] = "Vesperon";
+	["Tenebron"] = "Ténébron";
+	["Shadron"] = "Obscuron";
+	["Vesperon"] = "Vespéron";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1573,7 +1573,7 @@ AtlasLocale = {
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
 
 -- Ulduar: Ulduar	
-["Flame Leviathan"] = "Flame Leviathan";
+	["Flame Leviathan"] = "Léviathan des flammes";
 ["Ignis the Furnace Master"] = "Ignis the Furnace Master";
 ["Razorscale"] = "Razorscale";
 ["XT-002 Deconstructor"] = "XT-002 Deconstructor";
@@ -1592,7 +1592,7 @@ AtlasLocale = {
 ["Algalon the Observer"] = "Algalon the Observer";	
 
 	--Vault of Archavon
-	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";
+	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
 
 	
 };

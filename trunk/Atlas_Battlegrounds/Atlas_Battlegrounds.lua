@@ -46,7 +46,7 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Alterac Valley"].." ("..AtlasBGLocale["North"]..", "..AtlasBGLocale["Alliance"]..")", 2597 };
 		Acronym = AtlasBGLocale["AV"];
 		Location = { AtlasBGLocale["Alterac Mountains"], 36 };
-		LevelRange = "51-70";
+		LevelRange = "51-80";
 		MinLevel = "51";
 		PlayerLimit = "40";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
@@ -115,7 +115,7 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Alterac Valley"].." ("..AtlasBGLocale["South"]..", "..AtlasBGLocale["Horde"]..")", 2597 };
 		Acronym = AtlasBGLocale["AV"];
 		Location = { AtlasBGLocale["Hillsbrad Foothills"], 36 };
-		LevelRange = "51-70";
+		LevelRange = "51-80";
 		MinLevel = "51";
 		PlayerLimit = "40";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
@@ -129,12 +129,11 @@ local myData = {
 		{ BLUE..INDENT..AtlasBGLocale["East Frostwolf Warmaster"], NPC, 14772 };
 		{ BLUE..INDENT..AtlasBGLocale["Tower Point Warmaster"], NPC, 14776 };
 		{ BLUE..INDENT..AtlasBGLocale["Iceblood Warmaster"], NPC, 14773 };
-		{ GREY.."1) "..AtlasBGLocale["Lokholar the Ice Lord"].." ("..AtlasBGLocale["Summon"]..")", NPC, 13256 };
+		{ _RED.."1) "..AtlasBGLocale["Lokholar the Ice Lord"].." ("..AtlasBGLocale["Summon"]..")", NPC, 13256 };
 		{ ORNG.."2) "..AtlasBGLocale["Iceblood Garrison"] };
 		{ GREY..INDENT..AtlasBGLocale["Captain Galvangar <Frostwolf Captain>"], NPC, 11947 };
 		{ ORNG.."3) "..AtlasBGLocale["Iceblood Tower"] };
 		{ _RED.."4) "..AtlasBGLocale["Iceblood Graveyard"] };
-		{ GREY..INDENT..AtlasBGLocale["Wing Commander Ichman"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13437 };
 		{ ORNG.."5) "..AtlasBGLocale["Tower Point"] };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Slidore"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13438 };
 		{ GREY.."6) "..AtlasBGLocale["Coldtooth Mine"] };
@@ -151,6 +150,7 @@ local myData = {
 		{ GREY..INDENT..AtlasBGLocale["Frostwolf Wolf Rider Commander"], NPC, 13441 };
 		{ GREY.."10) "..AtlasBGLocale["Frostwolf Quartermaster"], NPC, 12097 };
 		{ ORNG.."11) "..AtlasBGLocale["West Frostwolf Tower"] };
+		{ GREY..INDENT..AtlasBGLocale["Wing Commander Ichman"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13437 };
 		{ ORNG.."12) "..AtlasBGLocale["East Frostwolf Tower"] };
 		{ GREY.."13) "..AtlasBGLocale["Wing Commander Guse"].." ("..AtlasBGLocale["Rescued"]..")", NPC, 13179 };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Jeztor"].." ("..AtlasBGLocale["Rescued"]..")", NPC, 13180 };
@@ -167,7 +167,7 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Arathi Basin"], 3358 };
 		Acronym = AtlasBGLocale["AB"];
 		Location = { AtlasBGLocale["Arathi Highlands"], 45 };
-		LevelRange = "20-70";
+		LevelRange = "20-80";
 		MinLevel = "20";
 		PlayerLimit = "15";
 		Continent = AtlasBGLocale["Eastern Kingdoms"];
@@ -185,7 +185,7 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Warsong Gulch"], 3277 };
 		Acronym = AtlasBGLocale["WSG"];
 		Location = { AtlasBGLocale["Ashenvale"].." / "..AtlasBGLocale["The Barrens"], 331, 17 };
-		LevelRange = "10-70";
+		LevelRange = "10-80";
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = AtlasBGLocale["Kalimdor"];
@@ -198,7 +198,7 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Eye of the Storm"], 3820 };
 		Acronym = AtlasBGLocale["EotS"];
 		Location = { AtlasBGLocale["Netherstorm"], 3523 };
-		LevelRange = "61-70";
+		LevelRange = "61-80";
 		MinLevel = "61";
 		PlayerLimit = "15";
 		Continent = AtlasBGLocale["Outland"];
@@ -210,6 +210,15 @@ local myData = {
 		{ GREY.."2) "..AtlasBGLocale["Draenei Ruins"] };
 		{ GREY.."3) "..AtlasBGLocale["Fel Reaver Ruins"] };
 		{ GREY.."4) "..AtlasBGLocale["Blood Elf Tower"] };
+	};
+	StrandOfTheAncients = {
+		ZoneName = { AtlasBGLocale["Strand of the Ancients"], 4384 };
+		Acronym = AtlasBGLocale["SotA"];
+		Location = { AtlasBGLocale["Dragonblight"], 65 };
+		LevelRange = "71-80";
+		MinLevel = "71";
+		PlayerLimit = "15";
+		Continent = AtlasBGLocale["Northrend"];
 	};
 };
 

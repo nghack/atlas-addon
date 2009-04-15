@@ -45,12 +45,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "Arathi Basin"; ["AB"] = "AB";
 	["Arathi Highlands"] = "Arathi Highlands";
 	["Ashenvale"] = "Ashenvale";
+	["Dragonblight"] = "Dragonblight";
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
 	["Eye of the Storm"] = "Eye of the Storm"; ["EotS"] = "EotS";
 	["Hillsbrad Foothills"] = "Hillsbrad Foothills";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Netherstorm";
 	["Outland"] = "Outland";
+	["Strand of the Ancients"] = "Strand of the Ancients"; ["SotA"] = "SotA";
 	["The Barrens"] = "The Barrens";
 	["Warsong Gulch"] = "Warsong Gulch"; ["WSG"] = "WSG";
 	

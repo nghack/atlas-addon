@@ -284,6 +284,7 @@ AtlasLocale = {
 	["The Botanica"] = "La Botanica"; ["Bota"] = "Bota";
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
+	["The Eye of Eternity"] = "L'Œil de l'éternité";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
 	["The Obsidian Sanctum"] = "Le sanctum Obsidien";
@@ -298,6 +299,7 @@ AtlasLocale = {
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Donjon d'Utgarde";
 	["Utgarde Pinnacle"] = "Cime d'Utgarde";
+	["Vault of Archavon"] = "Caveau d'Archavon";
 	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
@@ -317,6 +319,8 @@ AtlasLocale = {
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
 	["VH"] = "VH"; -- The Violet Hold
 	["Ocu"] = "Ocu"; -- The Oculus
+	["VoA"] = "Archa"; -- Vault of Archavon
+	["TEoE"] = "Maly"; -- The Eye of Eternity
 	
 	--Continents
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
@@ -1477,6 +1481,8 @@ AtlasLocale = {
 	["Novos the Summoner"] = "Novos l'Invocateur";
 	["King Dred"] = "Roi Dred";
 	["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
+	["Kurzel"] = "Kurzel";
+["Drakuru's Brazier"] = "Drakuru's Brazier";
 
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Grand prophète de Sseratus>";
@@ -1521,8 +1527,10 @@ AtlasLocale = {
 	["Keristrasza"] = "Keristrasza";
 	["Commander Stoutbeard"] = "Commandant Rudebarbe";
 	["Berinand's Research"] = "Recherches de Bérinand";
+	["Commander Kolurg"] = "Commandant Kolurg";
 
 	--The Nexus: The Eye of Eternity
+	["Malygos"] = "Malygos";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
@@ -1566,6 +1574,7 @@ AtlasLocale = {
 	["Ingvar the Plunderer"] = "Ingvar le Pilleur";
 
 	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Brigg Courtecannes";
 	["Svala Sorrowgrave"] = "Svala Tristetombe"; 
 	["Gortok Palehoof"] = "Gortok Pâle-sabot";
 	["Skadi the Ruthless"] = "Skadi le Brutal";

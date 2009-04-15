@@ -1575,6 +1575,25 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
 	["Maiden of Grief"] = "Damoiselle de peine";
 
+	--Ulduar: Ulduar	
+	["Flame Leviathan"] = "Léviathan des flammes";
+	["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
+	["Razorscale"] = "Tranchécaille";
+	["XT-002 Deconstructor"] = "Déconstructeur XT-002";
+	["Assembly of Iron"] = "Assembly of Iron"; -- à traduire
+	["Steelbreaker"] = "Brise-acier";
+	["Runemaster Molgeim"] = "Maître des runes Molgeim";
+	["Stormcaller Brundirle"] = "Stormcaller Brundirle"; -- à traduire
+	["Kologarn"] = "Kologarn";
+	["Auriaya"] = "Auriaya";
+	["Hodir"] = "Hodir";
+	["Thorim"] = "Thorim";
+	["Freya"] = "Freya";
+	["Mimiron"] = "Mimiron";
+	["General Vezax"] = "Général Vezax";
+	["Yogg-Saron"] = "Yogg-Saron";
+	["Algalon the Observer"] = "Algalon l'Observateur";	
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
 	["Dalronn the Controller"] = "Dalronn le Contrôleur";
@@ -1587,30 +1606,9 @@ AtlasLocale = {
 	["Skadi the Ruthless"] = "Skadi le Brutal";
 	["King Ymiron"] = "Roi Ymiron";
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
-
--- Ulduar: Ulduar	
-	["Flame Leviathan"] = "Léviathan des flammes";
-["Ignis the Furnace Master"] = "Ignis the Furnace Master";
-["Razorscale"] = "Razorscale";
-["XT-002 Deconstructor"] = "XT-002 Deconstructor";
-["Assembly of Iron"] = "Assembly of Iron";
-["Steelbreaker"] = "Steelbreaker";
-["Runemaster Molgeim"] = "Runemaster Molgeim";
-["Stormcaller Brundirle"] = "Stormcaller Brundirle";
-["Kologarn"] = "Kologarn";
-["Auriaya"] = "Auriaya";
-["Hodir"] = "Hodir";
-["Thorim"] = "Thorim";
-["Freya"] = "Freya";
-["Mimiron"] = "Mimiron";
-["General Vezax"] = "General Vezax";
-["Yogg-Saron"] = "Yogg-Saron";
-["Algalon the Observer"] = "Algalon the Observer";	
-
+	
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
-
-	
 };
 end

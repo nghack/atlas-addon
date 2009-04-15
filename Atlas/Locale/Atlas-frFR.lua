@@ -1593,6 +1593,7 @@ AtlasLocale = {
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
+	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
 
 	
 };

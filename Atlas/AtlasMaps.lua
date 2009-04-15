@@ -2149,5 +2149,6 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Archavon the Stone Watcher"], NPC, 31125 };
+		{ GREY.."1) "..AtlasLocale["Emalon the Storm Watcher"], NPC, 33993 };
 	};
 };

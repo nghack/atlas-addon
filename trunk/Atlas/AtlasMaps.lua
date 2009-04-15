@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
+	Copyright 2005 - 2009 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -2083,5 +2083,31 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Ley-Guardian Eregos"], NPC, 27656 };
 		{ GREY.."3) "..AtlasLocale["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"], NPC, 27447 };
 	};
-
+	UlduarUlduar = {
+		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Ulduar"], ???? };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Ulduar"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
+		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"], NPC, 33118 };
+		{ GREY.."3) "..AtlasLocale["Razorscale"], NPC, 33186 };
+		{ GREY.."4) "..AtlasLocale["XT-002 Deconstructor"], NPC, 33293 };
+		{ GREY.."5) "..AtlasLocale["Assembly of Iron"]};
+		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
+		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
+		{ GREY..INDENT..AtlasLocale["Stormcaller Brundirle"], NPC, 32867 };
+		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
+		{ GREY.."7) "..AtlasLocale["Auriaya"], NPC, 33515 };
+		{ GREY.."8) "..AtlasLocale["Hodir"]}; -- Need to be completed
+		{ GREY.."9) "..AtlasLocale["Thorim"], NPC, 33413 };
+		{ GREY.."10) "..AtlasLocale["Freya"], NPC, 33410 };
+		{ GREY.."11) "..AtlasLocale["Mimiron"], NPC, 33412 };
+		{ GREY.."12) "..AtlasLocale["General Vezax"], NPC, 33271 };
+		{ GREY.."13) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
+		{ GREY.."14) "..AtlasLocale["Algalon the Observer"]}; -- Need to be completed
+	};
 };

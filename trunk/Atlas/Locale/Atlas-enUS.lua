@@ -1,7 +1,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
+	Copyright 2005 - 2009 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -1557,4 +1557,23 @@ AtlasLocale = {
 	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
 	--Vault of Archavon
+	
+-- Ulduar: Ulduar	
+["Flame Leviathan"] = "Flame Leviathan";
+["Ignis the Furnace Master"] = "Ignis the Furnace Master";
+["Razorscale"] = "Razorscale";
+["XT-002 Deconstructor"] = "XT-002 Deconstructor";
+["Assembly of Iron"] = "Assembly of Iron";
+["Steelbreaker"] = "Steelbreaker";
+["Runemaster Molgeim"] = "Runemaster Molgeim";
+["Stormcaller Brundirle"] = "Stormcaller Brundirle";
+["Kologarn"] = "Kologarn";
+["Auriaya"] = "Auriaya";
+["Hodir"] = "Hodir";
+["Thorim"] = "Thorim";
+["Freya"] = "Freya";
+["Mimiron"] = "Mimiron";
+["General Vezax"] = "General Vezax";
+["Yogg-Saron"] = "Yogg-Saron";
+["Algalon the Observer"] = "Algalon the Observer";	
 };

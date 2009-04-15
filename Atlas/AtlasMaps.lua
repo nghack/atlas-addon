@@ -370,9 +370,9 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE..INDENT..AtlasLocale["Sa'at <Keepers of Time>"], NPC, 20201 };
 		{ ORNG.."X) "..AtlasLocale["Portal"].." ("..AtlasLocale["Spawn Point"]..")" };
-		{ ORNG..INDENT..AtlasLocale["Wave 6: Chrono Lord Deja"], NPC, 17879 };
-		{ ORNG..INDENT..AtlasLocale["Wave 12: Temporus"], NPC, 17880 };
-		{ ORNG..INDENT..AtlasLocale["Wave 18: Aeonus"], NPC, 17881 };
+		{ ORNG..INDENT..AtlasLocale["Wave 6"]..": "..AtlasLocale["Chrono Lord Deja"], NPC, 17879 };
+		{ ORNG..INDENT..AtlasLocale["Wave 12"]..": "..AtlasLocale["Temporus"], NPC, 17880 };
+		{ ORNG..INDENT..AtlasLocale["Wave 18"]..": "..AtlasLocale["Aeonus"], NPC, 17881 };
 		{ GREY.."1) "..AtlasLocale["The Dark Portal"] };
 		{ GREY..INDENT..AtlasLocale["Medivh"], NPC, 15608 };
 	};
@@ -1304,8 +1304,6 @@ AtlasMaps = {
 		MinLevel = "65";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
-		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Thrallmar"].." ("..AtlasLocale["Horde"]..")", FACTION, 947 };
-		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Honor Hold"].." ("..AtlasLocale["Alliance"]..")", FACTION, 946 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Magtheridon"], NPC, 17257 };
 	};
@@ -1837,6 +1835,7 @@ AtlasMaps = {
 		{ BLUE.."B) "..AtlasLocale["Hyjal Summit"], ZONE, 3606 };
 		{ BLUE.."C) "..AtlasLocale["Old Hillsbrad Foothills"], ZONE, 2367 };
 		{ BLUE.."D) "..AtlasLocale["The Black Morass"], ZONE, 2366 };
+		{ BLUE.."E) "..AtlasLocale["Stratholme Past"], ZONE, 4100 };
 		{ GREY.."1) "..AtlasLocale["Steward of Time <Keepers of Time>"], NPC, 20142 };
 		{ GREY.."2) "..AtlasLocale["Alexston Chrome <Tavern of Time>"], NPC, 18542 };
 		{ GREY.."3) "..AtlasLocale["Graveyard"] };
@@ -1918,10 +1917,17 @@ AtlasMaps = {
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["The Culling of Stratholme"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Meathook"], NPC, 26529 };
-		{ GREY.."2) "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
-		{ GREY.."3) "..AtlasLocale["Chrono-Lord Epoch"], NPC, 26532 };
-		{ GREY.."4) "..AtlasLocale["Mal'Ganis"], NPC, 26533 };
+		{ BLUE.."B) "..AtlasLocale["Exit"].." ("..AtlasLocale["Portal"]..")" };
+		{ GREY.."1) "..AtlasLocale["Chromie"], NPC, 26527 };
+		{ GREY.."2) "..AtlasLocale["Chromie"], NPC, 27915 };
+		{ GREY.."3) "..AtlasLocale["Infinite Corruptor"].." ("..AtlasLocale["Heroic"]..")", NPC, 32273 };
+		{ GREY..INDENT..AtlasLocale["Guardian of Time"], NPC, 32281 };
+		{ GREY.."4) "..AtlasLocale["Chrono-Lord Epoch"], NPC, 26532 };
+		{ GREY.."5) "..AtlasLocale["Mal'Ganis"], NPC, 26533 };
+		{ GREY..INDENT..AtlasLocale["Chromie"], NPC, 30997 };
+		{ ORNG.."X) "..AtlasLocale["Scourge Invasion Points"] };
+		{ ORNG..INDENT..AtlasLocale["Wave 6"]..": "..AtlasLocale["Meathook"], NPC, 26529 };
+		{ ORNG..INDENT..AtlasLocale["Wave 10"]..": "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
 	};
 	DrakTharonKeep = {
 		ZoneName = { AtlasLocale["Drak'Tharon Keep"], 4196 };
@@ -1934,9 +1940,11 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Trollgore"], NPC, 26630 };
-		{ GREY.."2) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
-		{ GREY.."3) "..AtlasLocale["King Dred"], NPC, 27483 };
-		{ GREY.."4) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
+		{ GREY.."2) "..AtlasLocale["Kurzel"], NPC, 26664 };
+		{ GREY.."3) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
+		{ GREY.."4) "..AtlasLocale["King Dred"], NPC, 27483 };
+		{ GREY.."5) "..AtlasLocale["Drakuru's Brazier"] };
+		{ GREY.."6) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
 	};
 	Gundrak = {
 		ZoneName = { AtlasLocale["Gundrak"], 4375 };
@@ -1950,8 +1958,8 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Slad'ran <High Prophet of Sseratus>"], NPC, 29304 };
 		{ GREY.."2) "..AtlasLocale["Drakkari Colossus"], NPC, 29307 };
 		{ GREY.."3) "..AtlasLocale["Moorabi <High Prophet of Mam'toth>"], NPC, 29305 };
-		{ GREY.."4) "..AtlasLocale["Gal'darah <High Prophet of Akali>"], NPC, 29306 };
-		{ GREY.."5) "..AtlasLocale["Eck the Ferocious"].." ("..AtlasLocale["Heroic"]..")", NPC, 29932 };
+		{ GREY.."4) "..AtlasLocale["Eck the Ferocious"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Summon"]..")", NPC, 29932 };
+		{ GREY.."5) "..AtlasLocale["Gal'darah <High Prophet of Akali>"], NPC, 29306 };
 	};
 	UlduarHallsofStone = {
 		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Halls of Stone"], 4264 };
@@ -1991,7 +1999,11 @@ AtlasMaps = {
 		Acronym = AtlasLocale["OS"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Black Dragonflight Chamber"] };
-		{ GREY.."1) "..AtlasLocale["Sartharion <The Onyx Guardian>"], NPC, 28860 };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Tenebron"], NPC, 30452 };
+		{ GREY.."2) "..AtlasLocale["Shadron"], NPC, 30451 };
+		{ GREY.."3) "..AtlasLocale["Vesperon"], NPC, 30449 };
+		{ GREY.."4) "..AtlasLocale["Sartharion <The Onyx Guardian>"], NPC, 28860 };		
 	};
 	UtgardeKeep = {
 		ZoneName = { AtlasLocale["Utgarde Keep"]..": "..AtlasLocale["Utgarde Keep"], 206 };
@@ -2017,6 +2029,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["UP, Pinn"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE..INDENT..AtlasLocale["Brigg Smallshanks"], NPC, 30871 };
 		{ GREY.."1) "..AtlasLocale["Svala Sorrowgrave"], NPC, 26668 };
 		{ GREY.."2) "..AtlasLocale["Gortok Palehoof"], NPC, 26687 };
 		{ GREY.."3) "..AtlasLocale["Skadi the Ruthless"], NPC, 26693 };
@@ -2035,8 +2048,19 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
 		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
 		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
-		{ GREY.."5) "..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
-		{ GREY.."6) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+		{ GREY.."5) "..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
+		{ GREY.."6) "..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26798 };
+		{ GREY..INDENT..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+	};
+	TheEyeOfEternity = {
+		ZoneName = { AtlasLocale["The Nexus"]..": "..AtlasLocale["The Eye of Eternity"], 4500 };
+		Location = { AtlasLocale["Borean Tundra"], 3537 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["TEoE"];
+		Continent = AtlasLocale["Northrend"];
+		{ GREY.."1) "..AtlasLocale["Malygos"], NPC, 28859 };
 	};
 	AhnKahet = {
 		ZoneName = { AtlasLocale["Ahn'kahet: The Old Kingdom"], 4494 };
@@ -2047,6 +2071,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["AK, Kahet"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Elder Nadox"], NPC, 29309 };
 		{ GREY.."2) "..AtlasLocale["Prince Taldaram"], NPC, 29308 };
 		{ GREY.."3) "..AtlasLocale["Jedoga Shadowseeker"], NPC, 29310 };
@@ -2078,10 +2103,14 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["Ocu"];
 		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Portal"] };
 		{ GREY.."1) "..AtlasLocale["Drakos the Interrogator"], NPC, 27654 };
-		{ GREY.."2) "..AtlasLocale["Mage-Lord Urom"], NPC, 27655 };
-		{ GREY..INDENT..AtlasLocale["Ley-Guardian Eregos"], NPC, 27656 };
-		{ GREY.."3) "..AtlasLocale["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"], NPC, 27447 };
+		{ GREY.."2) "..AtlasLocale["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"], NPC, 27447 };
+		{ GREY.."3) "..AtlasLocale["Mage-Lord Urom"], NPC, 27655 };
+		{ GREY.."4) "..AtlasLocale["Ley-Guardian Eregos"], NPC, 27656 };
+		{ GREY.."5) "..AtlasLocale["Cache of Eregos"], OBJECT, 191349};
+		{ GREN.."1') "..AtlasLocale["Centrifuge Construct"], NPC, 27641 };
 	};
 	UlduarUlduar = {
 		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Ulduar"], 4273 };
@@ -2109,5 +2138,16 @@ AtlasMaps = {
 		{ GREY.."12) "..AtlasLocale["General Vezax"], NPC, 33271 };
 		{ GREY.."13) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
 		{ GREY.."14) "..AtlasLocale["Algalon the Observer"]}; -- Need to be completed
+	};
+	VaultOfArchavon = {
+		ZoneName = { AtlasLocale["Vault of Archavon"], 4603 };
+		Location = { AtlasLocale["Wintergrasp"], 4197 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["VoA"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Archavon the Stone Watcher"], NPC, 31125 };
 	};
 };

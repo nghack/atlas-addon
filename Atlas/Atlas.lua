@@ -85,7 +85,7 @@ Atlas_EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["CoTEnt"] =					{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad"};
+	["CoTEnt"] =					{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
 	["KarazhanEnt"] =				{"KarazhanStart","KarazhanEnd"};
 	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
 };
@@ -118,6 +118,7 @@ Atlas_InstToEntMatches = {
 	["CoTHyjal"] =					{"CoTEnt"};
 	["CoTBlackMorass"] =			{"CoTEnt"};
 	["CoTOldHillsbrad"] =			{"CoTEnt"};
+	["CoTOldStratholme"] =			{"CoTEnt"};
 	["KarazhanStart"] =				{"KarazhanEnt"};
 	["KarazhanEnd"] =				{"KarazhanEnt"};
 	["SMArmory"] =					{"SMEnt"};

@@ -1,5 +1,5 @@
 Atlas, Atlas, 一款魔獸世界副本地圖瀏覽器
-Copyright 2005 - 2008 Dan Gilbert
+Copyright 2005 - 2009 Dan Gilbert
 原作電子郵件位址: loglow@gmail.com
 
 

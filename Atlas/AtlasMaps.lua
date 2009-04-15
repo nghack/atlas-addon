@@ -2084,7 +2084,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"], NPC, 27447 };
 	};
 	UlduarUlduar = {
-		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Ulduar"], ???? };
+		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Ulduar"], 4273 };
 		Location = { AtlasLocale["The Storm Peaks"], 67 };
 		LevelRange = "80+";
 		MinLevel = "80";

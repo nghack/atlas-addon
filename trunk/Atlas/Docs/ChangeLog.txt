@@ -2,10 +2,28 @@
 = Change Log =
 ==============
 
-v1.13.1
+v1.14.0
 - changed Argent Dawn to Argent Crusade in Naxx (Paranitis)
+- removed rep lines from Magtheridon's Lair (Celellach)
+- added Stratholme Past to CoT Entrance map (Celellach)
+- added exit to Ahn'kahet map (Celellach)
+- fixed some AV coloring and ordering issues (Celellach)
+- BG level ranges increased to 80 (Celellach)
+- added Brigg Smallshanks to Utgarde Pinnacle (Celellach)
+- revamped The Oculus map (Celellach, thandrenn)
+- added Commander Kolurg to The Nexus map (Spleebie)
+- moved Trollgore's location in Drak'Tharon Keep (Spleebie)
+- added Kurzel to Drak'Tharon Keep map (thandrenn)
+- added Drakuru's Brazier to Drak'Tharon Keep map (Celellach)
+- added Vesperon, Tenebron, Shadron, and the entrance to Obsidian Sanctum map (Celellach)
+- added Vault of Archavon map (deadca7)
+- added Strand of the Ancients map (deadca7)
+- revamped Stratholme Past map (thandrenn, Celellach, Nalumis, Hinalover)
+- moved Elder Starsong in Sunken Temple map (Robsato)
+- added The Eye of Eternity map (deadca7)
+- large update to Northrend transportation maps (Timo, Celellach, Dynaletik, dcemuser, Kharthus)
 - added Ulduar
-- other minor trad tweaks
+- other minor tweaks
 
 v1.13.0
 - added tons of new WotLK instance maps!

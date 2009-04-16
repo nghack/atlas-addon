@@ -1,7 +1,7 @@
 ﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
+	Copyright 2005 - 2009 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -61,20 +61,25 @@ AtlasTransLocale = {
 
 	["Camp Tunka'lo"] = "Camp Tunka'lo";
 	["Camp Winterhoof"] = "Lager der Winterhufe";
+	["Caverns of Time"] = "Höhlen der Zeit";
 	["Cenarion Hold"] = "Burg Cenarius";
 	["Chillwind Point"] = "Zugwindlager";
 	["Coldarra"] = "Kaltarra";
 	["Conquest Hold"] = "Burg Siegeswall";
 	["Cosmowrench"] = "Kosmozang";
 	["Crossroads"] = "Das Wegekreuz";
+	["Crusaders' Pinnacle"] = "Kreuzfahrerturm";
 	["Crystalsong Forest"] = "Kristallsangwald";
 	["Dalaran"] = "Dalaran";
 	["Darkshire"] = "Dunkelhain";
 	["Darkshore"] = "Dunkelküste";
+	["Darnassus"] = "Darnassus";
+	["Death's Rise"] = "Todesanhöhe";
 	["Desolace"] = "Desolace";
 	["Dragonblight"] = "Drachenöde";
 	["Druid-only"] = "Nur Druiden";
 	["Dun Morogh"] = "Dun Morogh";
+	["Dun Nifflelem"] = "Dun Niffelem";
 	["Durotar"] = "Durotar";
 	["Duskwood"] = "Dämmerwald";
 	["Dustwallow Marsh"] = "Düstermarschen";
@@ -103,6 +108,7 @@ AtlasTransLocale = {
 	["Grizzly Hills"] = "Grizzlyhügel";
 	["Grom'Gol Base Camp"] = "Basislager von Grom'gol";
 	["Grom'arsh Crash-Site"] = "Absturzstelle Grom'ash";
+	["Gundrak"] = "Gundrak";
 	["Hammerfall"] = "Hammerfall";
 	["Hatchet Hills"] = "Axthügel";
 	["Hellfire Peninsula"] = "Höllenfeuerhalbinsel";
@@ -110,6 +116,7 @@ AtlasTransLocale = {
 	["Honor Hold"] = "Ehrenfeste";
 	["Horde"] = "Horde";
 	["Howling Fjord"] = "Der heulende Fjord";
+	["Icecrown"] = "Eiskrone";
 	["Ironforge"] = "Eisenschmiede";
 	["Isle of Quel'Danas"] = "Insel von Quel'Danas";
 	["K3"] = "K3";
@@ -170,11 +177,12 @@ AtlasTransLocale = {
 	["Stonebreaker Hold"] = "Steinbrecherfeste";
 	["Stonetalon Mountains"] = "Steinkrallengebirge";
 	["Stonetalon Peak"] = "Der Steinkrallengipfel";
-	["Storm Peaks"] = "Die Sturmgipfel";
+	["The Storm Peaks"] = "Die Sturmgipfel";
 	["Stormwind City"] = "Sturmwind";
 	["Stranglethorn Vale"] = "Schlingendorntal";
 	["Sun Rock Retreat"] = "Sonnenfels";
 	["Sun's Reach"] = "Sonnenweiten";
+	["Sun's Reach Sanctum"] = "Sanktum der Sonnenweiten";
 	["Sunreaver's Command"] = "Sonnenhäschers Schar";
 	["Swamp of Sorrows"] = "Sümpfe des Elends";
 	["Swamprat Post"] = "Sumpfrattenposten";
@@ -192,6 +200,7 @@ AtlasTransLocale = {
 	["Thalanaar"] = "Thalanaar";
 	["The Aldor"] = "Die Aldor";
 	["The Argent Stand"] = "Die Argentumwache";
+	["The Argent Vanguard"] = "Die Argentumvorhut";
 	["The Barrens"] = "Brachland";
 	["The Dark Portal"] = "Das Dunkle Portal";
 	["The Exodar"] = "Die Exodar";
@@ -199,6 +208,7 @@ AtlasTransLocale = {
 	["The Hinterlands"] = "Hinterland";
 	["The Scryers"] = "Die Seher";
 	["The Sepulcher"] = "Das Grabmal";
+	["The Shadow Vault"] = "Das Schattengewölbe";
 	["The Stormspire"] = "Die Sturmsäule";
 	["Thelsamar"] = "Thelsamar";
 	["Theramore Isle"] = "Die Insel Theramore";
@@ -216,12 +226,15 @@ AtlasTransLocale = {
 	["Un'Goro Crater"] = "Krater von Un'Goro";
 	["Undercity"] = "Unterstadt";
 	["Unu'pe"] = "Unu'pe";
+	["Valaar's Berth"] = "Valaars Steg";
 	["Valgarde"] = "Valgarde";
 	["Valiance Keep"] = "Valianzfeste";
+	["Valiance Landing Camp"] = "Valianzlager";
 	["Valormok"] = "Valormok";
 	["Vengeance Landing"] = "Hafen der Vergeltung";
 	["Venomspite"] = "Gallgrimm";
 	["Warsong Hold"] = "Kriegshymnenfeste";
+	["Warsong Landing Camp"] = "Kriegshymnenlager";
 	["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
 	["Western Plaguelands"] = "Westliche Pestländer";
 	["Westfall Brigade Encampment"] = "Lager der Westfallbrigade";
@@ -231,6 +244,7 @@ AtlasTransLocale = {
 	["Wildhammer Stronghold"] = "Wildhammerfeste";
 	["Windrunner's Overlook"] = "Windläufers Warte";
 	["Wintergarde Keep"] = "Feste Wintergarde";
+	["Wintergrasp"] = "Tausendwintersee";
 	["Winterspring"] = "Winterquell";
 	["Wyrmrest Temple"] = "Wyrmruhtempel";
 	["Zabra'jin"] = "Zabra'jin";
@@ -238,9 +252,6 @@ AtlasTransLocale = {
 	["Zim'Torga"] = "Zim'Torga";
 	["Zoram'gar Outpost"] = "Außenposten von Zoram'gar";
 	["Zul'Drak"] = "Zul'Drak";
-	["Valaar's Berth"] = "Valaars Steg";
-	["Sun's Reach Sanctum"] = "Sanktum der Sonnenweiten";
-	["Darnassus"] = "Darnassus";
 
 };
 

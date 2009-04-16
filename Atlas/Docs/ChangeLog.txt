@@ -3,27 +3,26 @@
 ==============
 
 v1.14.0
-- changed Argent Dawn to Argent Crusade in Naxx (Paranitis)
-- removed rep lines from Magtheridon's Lair (Celellach)
+- updated TOC number to 30100 for the 3.1 patch
+- new map: Ulduar (deadca7)
+- new map: Vault of Archavon (deadca7)
+- new map: Strand of the Ancients (deadca7)
+- new map: The Eye of Eternity (deadca7)
+- revamped Stratholme Past map (thandrenn, Celellach, Nalumis, Hinalover)
+- revamped Northrend transportation maps (Timo, Celellach, Dynaletik, dcemuser, Kharthus)
+- revamped The Oculus map (Celellach, thandrenn)
 - added Stratholme Past to CoT Entrance map (Celellach)
 - added exit to Ahn'kahet map (Celellach)
-- fixed some AV coloring and ordering issues (Celellach)
-- BG level ranges increased to 80 (Celellach)
 - added Brigg Smallshanks to Utgarde Pinnacle (Celellach)
-- revamped The Oculus map (Celellach, thandrenn)
 - added Commander Kolurg to The Nexus map (Spleebie)
-- moved Trollgore's location in Drak'Tharon Keep (Spleebie)
 - added Kurzel to Drak'Tharon Keep map (thandrenn)
 - added Drakuru's Brazier to Drak'Tharon Keep map (Celellach)
 - added Vesperon, Tenebron, Shadron, and the entrance to Obsidian Sanctum map (Celellach)
-- added Vault of Archavon map (deadca7)
-- added Strand of the Ancients map (deadca7)
-- revamped Stratholme Past map (thandrenn, Celellach, Nalumis, Hinalover)
+- moved Trollgore's location in Drak'Tharon Keep (Spleebie)
 - moved Elder Starsong in Sunken Temple map (Robsato)
-- added The Eye of Eternity map (deadca7)
-- large update to Northrend transportation maps (Timo, Celellach, Dynaletik, dcemuser, Kharthus)
-- added Ulduar
-- other minor tweaks
+- removed rep lines from Magtheridon's Lair (Celellach)
+- fixed some AV coloring and ordering issues (Celellach)
+- increased BG level ranges to 80 (Celellach)
 
 v1.13.0
 - added tons of new WotLK instance maps!

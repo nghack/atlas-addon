@@ -28,7 +28,7 @@
 -- Telchar (ICQ: 391-632-535)
 -- Hom
 
--- Letztes Update: 23.11.2008
+-- Letztes Update: 16.04.2009
 
 if ( GetLocale() == "deDE" ) then
 
@@ -138,8 +138,8 @@ AtlasLocale = {
 	["AKA"] = "AKA";
 	["Alliance"] = "Allianz";
 	["Arcane Container"] = "Arkaner Behälter";
-	["Argent Crusade"] = "Argentumkreuzzug";
 	["Argent Dawn"] = "Argentumdämmerung";
+	["Argent Crusade"] = "Argentumkreuzuug";
 	["Arms Warrior"] = "Offensiv Krieger";
 	["Attunement Required"] = "Zugangsquest erforderlich";
 	["Back"] = "Hinten";
@@ -218,6 +218,10 @@ AtlasLocale = {
 	["Wanders"] = "Wandert";
 	["Warlock"] = "Hexenmeister";
 	["Warrior"] = "Krieger";
+	["Wave 6"] = "Welle 6";
+	["Wave 10"] = "Welle 10";
+	["Wave 12"] = "Welle 12";
+	["Wave 18"] = "Welle 18";
 	["West"] = "West";
 
 	--Instance names and acronyms
@@ -279,6 +283,7 @@ AtlasLocale = {
 	["The Botanica"] = "Die Botanika"; ["Bota"] = "Bota";
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
+	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
 	["The Obsidian Sanctum"] = "Das Obsidiansanktum";
@@ -293,6 +298,7 @@ AtlasLocale = {
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Burg Utgarde";
 	["Utgarde Pinnacle"] = "Turm Utgarde";
+	["Vault of Archavon"] = "Archavons Kammer";
 	["Wailing Caverns"] = "Die Höhlen des Wehklagens"; ["WC"] = "HdW";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
@@ -312,6 +318,8 @@ AtlasLocale = {
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
 	["VH"] = "VF, Vio"; -- Die Violette Festung
 	["Ocu"] = "Ocu"; -- Das Oculus
+	["VoA"] = "Archa"; -- Archavons Kammer
+	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
 	
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
@@ -355,6 +363,7 @@ AtlasLocale = {
 	["Tirisfal Glades"] = "Tirisfal";
 	["Western Plaguelands"] = "Westliche Pestländer";
 	["Westfall"] = "Westfall";
+	["Wintergrasp"] = "Tausendwintersee";
 	["Zangarmarsh"] = "Zangarmarschen";
 	["Zul'Drak"] = "Zul'Drak";
 
@@ -558,9 +567,9 @@ AtlasLocale = {
 	["Keepers of Time"] = "Hüter der Zeit";--omitted from Old Hillsbrad Foothills
 	["Key of Time"] = "Schlüssel der Zeit";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "Sa'at <Hüter der Zeit>";
-	["Wave 6: Chrono Lord Deja"] = "Welle 6: Chronolord Deja";
-	["Wave 12: Temporus"] = "Welle 12: Temporus";
-	["Wave 18: Aeonus"] = "Welle 18: Aeonus";
+	["Chrono Lord Deja"] = "Chronolord Deja";
+	["Temporus"] = "Temporus";
+	["Aeonus"] = "Aeonus";
 	["The Dark Portal"] = "Das Dunkle Portal";
 	["Medivh"] = "Medivh";
 
@@ -1448,7 +1457,14 @@ AtlasLocale = {
 
 --I'm switching from continent grouping to expansion grouping.
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "Urahne Nadox";
+	["Prince Taldaram"] = "Prinz Taldaram";
+	["Jedoga Shadowseeker"] = "Jedoga Schattensucher";
+	["Herald Volazj"] = "Herold Volazj";
+	["Amanitar"] = "Amanitar";
+
+	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir der Torwächter";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
@@ -1459,12 +1475,18 @@ AtlasLocale = {
 	["Salramm the Fleshcrafter"] = "Salramm der Fleischformer";
 	["Chrono-Lord Epoch"] = "Chronolord Epoch";
 	["Mal'Ganis"] = "Mal'Ganis";
+	["Chromie"] = "Chromie";
+	["Infinite Corruptor"] = "Ewiger Verderber";
+	["Guardian of Time"] = "Wächter der Zeit";
+	["Scourge Invasion Points"] = "Invasionspunkte der Geißel";
 
 	--Drak'Tharon Keep
 	["Trollgore"] = "Trollgrind";
 	["Novos the Summoner"] = "Novos der Beschwörer";
 	["King Dred"] = "König Dred";
 	["The Prophet Tharon'ja"] = "Der Prophet Tharon'ja";
+	["Kurzel"] = "Kurzel";
+	["Drakuru's Brazier"] = "Drakuru's Kohlenpfanne";
 	
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Hochprophet des Sseratus>";
@@ -1472,66 +1494,6 @@ AtlasLocale = {
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Hochprophet des Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Hochprophet von Akali>";
 	["Eck the Ferocious"] = "Der wilde Eck";
-
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Kiste des Tribunals";
-	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebart";
-	["Sjonnir the Ironshaper"] = "Sjonnir der Eisenformer";
-	["Maiden of Grief"] = "Maid der Trauer";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "General Bjarngrim";
-	["Volkhan"] = "Volkhan";
-	["Ionar"] = "Ionar";
-	["Loken"] = "Loken";
-	
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <Der Onyxwächter>";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
-	["Dalronn the Controller"] = "Dalronn der Aufseher";
-	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Svala Grabesleid"; 
-	["Gortok Palehoof"] = "Gortok Bleichhuf";
-	["Skadi the Ruthless"] = "Skadi der Skrupellose";
-	["King Ymiron"] = "König Ymiron";
-	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
-	["Grand Magus Telestra"] = "Großmagistrix Telestra";
-	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Kommandant Starkbart";
-	["Berinand's Research"] = "Berinands Forschungsergebnisse";
-
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Urahne Nadox";
-	["Prince Taldaram"] = "Prinz Taldaram";
-	["Jedoga Shadowseeker"] = "Jedoga Schattensucher";
-	["Herald Volazj"] = "Herold Volazj";
-	["Amanitar"] = "Amanitar";
-
-	--The Violet Hold
-	["Erekem"] = "Erekem";
-	["Zuramat the Obliterator"] = "Zuramat der Vernichter";
-	["Xevozz"] = "Xevozz";
-	["Ichoron"] = "Ichoron";
-	["Moragg"] = "Moragg";
-	["Lavanthor"] = "Lavanthor";
-	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Welle 18";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Drakos der Befrager";
-	["Mage-Lord Urom"] = "Magierlord Urom";
-	["Ley-Guardian Eregos"] = "Leywächter Eregos";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Wolkenwanderer <Azurlord des blauen Drachenschwarms>";
 
 	--Naxxramas
 	["Archmage Tarsis Kir-Moldir"] = "Erzmagier Tarsis Kir-Moldir";
@@ -1561,25 +1523,92 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "Frostwyrmhöhle";
 	["Sapphiron"] = "Saphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
-	
--- Ulduar: Ulduar	
-["Flame Leviathan"] = "Flame Leviathan";
-["Ignis the Furnace Master"] = "Ignis the Furnace Master";
-["Razorscale"] = "Razorscale";
-["XT-002 Deconstructor"] = "XT-002 Deconstructor";
-["Assembly of Iron"] = "Assembly of Iron";
-["Steelbreaker"] = "Steelbreaker";
-["Runemaster Molgeim"] = "Runemaster Molgeim";
-["Stormcaller Brundirle"] = "Stormcaller Brundirle";
-["Kologarn"] = "Kologarn";
-["Auriaya"] = "Auriaya";
-["Hodir"] = "Hodir";
-["Thorim"] = "Thorim";
-["Freya"] = "Freya";
-["Mimiron"] = "Mimiron";
-["General Vezax"] = "General Vezax";
-["Yogg-Saron"] = "Yogg-Saron";
-["Algalon the Observer"] = "Algalon the Observer";	
+
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Anomalus";
+	["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
+	["Grand Magus Telestra"] = "Großmagistrix Telestra";
+	["Keristrasza"] = "Keristrasza";
+	["Commander Stoutbeard"] = "Kommandant Starkbart";
+	["Berinand's Research"] = "Berinands Forschungsergebnisse";
+	["Commander Kolurg"] = "Kommandant Kolurg";
+
+	--The Nexus: The Eye of Eternity
+	["Malygos"] = "Malygos";
+
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Drakos der Befrager";
+	["Mage-Lord Urom"] = "Magierlord Urom";
+	["Ley-Guardian Eregos"] = "Leywächter Eregos";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Wolkenwanderer <Azurlord des blauen Drachenschwarms>";
+	["Centrifuge Construct"] = "Zentrifugenkonstrukt";
+	["Cache of Eregos"] = "Eregos' Lager";
+
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <Der Onyxwächter>";
+	["Tenebron"] = "Tenebron";
+	["Shadron"] = "Shadron";
+	["Vesperon"] = "Vesperon";
+
+	--The Violet Hold
+	["Erekem"] = "Erekem";
+	["Zuramat the Obliterator"] = "Zuramat der Vernichter";
+	["Xevozz"] = "Xevozz";
+	["Ichoron"] = "Ichoron";
+	["Moragg"] = "Moragg";
+	["Lavanthor"] = "Lavanthor";
+	["Cyanigosa"] = "Cyanigosa";
+	["Wave 18"] = "Welle 18";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "General Bjarngrim";
+	["Volkhan"] = "Volkhan";
+	["Ionar"] = "Ionar";
+	["Loken"] = "Loken";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Kiste des Tribunals";
+	["Krystallus"] = "Krystallus";
+	["Brann Bronzebeard"] = "Brann Bronzebart";
+	["Sjonnir the Ironshaper"] = "Sjonnir der Eisenformer";
+	["Maiden of Grief"] = "Maid der Trauer";
+
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
+	["Dalronn the Controller"] = "Dalronn der Aufseher";
+	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Brigg Kleinkeul";
+	["Svala Sorrowgrave"] = "Svala Grabesleid"; 
+	["Gortok Palehoof"] = "Gortok Bleichhuf";
+	["Skadi the Ruthless"] = "Skadi der Skrupellose";
+	["King Ymiron"] = "König Ymiron";
+	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
+
+	-- Ulduar: Ulduar	
+	["Flame Leviathan"] = "Flammenleviathan";
+	["Ignis the Furnace Master"] = "Ignis, Meister des Eisenwerks";
+	["Razorscale"] = "Klingenschuppe";
+	["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
+	["Assembly of Iron"] = "Versammlung des Eisens";
+	["Steelbreaker"] = "Stahlbrecher";
+	["Runemaster Molgeim"] = "Runenmeister Molgeim";
+	["Stormcaller Brundirle"] = "Sturmrufer Brundir";
+	["Kologarn"] = "Kologarn";
+	["Auriaya"] = "Auriaya";
+	["Hodir"] = "Hodir";
+	["Thorim"] = "Thorim";
+	["Freya"] = "Freya";
+	["Mimiron"] = "Mimiron";
+	["General Vezax"] = "General Vezax";
+	["Yogg-Saron"] = "Yogg-Saron";
+	["Algalon the Observer"] = "Algalon der Beobachter";
+
+	--Vault of Archavon
+	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
+	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
 	
 };
 

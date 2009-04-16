@@ -1,7 +1,7 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 - 2008 Dan Gilbert
+	Copyright 2005 - 2009 Dan Gilbert
 	Email me at loglow@gmail.com
 
 	This file is part of Atlas.
@@ -47,12 +47,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "Arathibecken"; ["AB"] = "AB";
 	["Arathi Highlands"] = "Arathihochland";
 	["Ashenvale"] = "Eschental";
+	["Dragonblight"] = "Drachenöde";
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Eye of the Storm"] = "Auge des Sturms"; ["EotS"] = "Auge";
 	["Hillsbrad Foothills"] = "Vorgebirge des Hügellands";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Nethersturm";
 	["Outland"] = "Scherbenwelt";
+	["Strand of the Ancients"] = "Strand der Uralten"; ["SotA"] = "SdU";
 	["The Barrens"] = "Brachland";
 	["Warsong Gulch"] = "Kriegshymnenschlucht"; ["WSG"] = "WS";
 

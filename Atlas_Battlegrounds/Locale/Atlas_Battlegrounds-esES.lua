@@ -25,7 +25,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 03/06/2008
+-- Última Actualización (last update): 16/04/2009
 
 --]]
 
@@ -54,12 +54,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "Cuenca de Arathi"; ["AB"] = "CA";
 	["Arathi Highlands"] = "Tierras Altas de Arathi";
 	["Ashenvale"] = "Vallefresno";
+	["Dragonblight"] = "Cementerio de dragones";	
 	["Eastern Kingdoms"] = "Reinos del Este";
 	["Eye of the Storm"] = "El Ojo de la Tormenta"; ["EotS"] = "OT";
 	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Tormenta Abisal";
 	["Outland"] = "Terrallende";
+	["Strand of the Ancients"] = "Playa de los Ancestros"; ["SotA"] = "PDLA";
 	["The Barrens"] = "Los Baldíos";
 	["Warsong Gulch"] = "Garganta Grito de Guerra"; ["WSG"] = "GGG";
 	

@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 16/06/2008
+-- Úlltima Actualización (last update): 16/04/2009
 
 --]]
 if ( GetLocale() == "esES" ) then
@@ -76,7 +76,7 @@ AtlasORLocale = {
 	["Severin <Skyguard Medic>"] = "Severin <Médico de la Guardia del cielo>";
 	["Shadowmoon Valley"] = "Valle Sombraluna";
 	["Skettis"] = "Skettis";
-	["Skull Pile"] = "Skull Pile"; --FALTA
+	["Skull Pile"] = "Montón de cráneos";
 	["Sky Commander Adaris"] = "Comandante del cielo Adaris";
 	["Sky Sergeant Doryn"] = "Sargento del cielo Doryn";
 	["Skyguard Handler Deesak"] = "Cuidador de la Guardia del cielo Deesak";

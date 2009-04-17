@@ -1464,7 +1464,7 @@ AtlasLocale = {
 	["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
 	["Watcher Gashra"] = "Gardien Gashra";
 	["Watcher Narjil"] = "Gardien Narjil";
-	["Watcher Silthik"] = "Gardien Silthik"
+	["Watcher Silthik"] = "Gardien Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 

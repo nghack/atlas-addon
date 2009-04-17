@@ -135,6 +135,7 @@ local myData = {
 		{ GREY.."8) "..AtlasDLLocale["The Violet Hold"]..", ".._RED..AtlasDLLocale["Dalaran"], ZONE, 4415, 4395 };
 		{ GREY.."9) "..AtlasDLLocale["Icecrown Citadel"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
 		{ GREY.."10) "..AtlasDLLocale["Ulduar"]..", ".._RED..AtlasDLLocale["The Storm Peaks"], ZONE, nil, 67 };
+		{ GREY..INDENT..AtlasDLLocale["Ulduar"], ZONE, 4273 };
 		{ GREY..INDENT..AtlasDLLocale["Halls of Stone"], ZONE, 4264 };
 		{ GREY..INDENT..AtlasDLLocale["Halls of Lightning"], ZONE, 4272 };
 	};

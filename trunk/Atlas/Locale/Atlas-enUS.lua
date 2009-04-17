@@ -1450,12 +1450,12 @@ AtlasLocale = {
 	["Herald Volazj"] = "Herald Volazj";
 	["Amanitar"] = "Amanitar";
 	["Ahn'kahet Brazier"] = "Ahn'kahet Brazier";
-	["Watcher Gashra"] = "Watcher Gashra";
-	["Watcher Narjil"] = "Watcher Narjil";
-	["Watcher Silthik"] = "Watcher Silthik";
 
 	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir the Gatewatcher";
+	["Watcher Gashra"] = "Watcher Gashra";
+	["Watcher Narjil"] = "Watcher Narjil";
+	["Watcher Silthik"] = "Watcher Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 

@@ -433,7 +433,6 @@ AtlasLocale = {
 	["Plaguemaw the Rotting"] = "Seuchenschlund der Faulende";
 
 	--Zul'Farrak
-	["Mallet of Zul'Farrak"] = "Schlaghammer von Zul'Farrak";
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Vorarbeiter von Sul>";
 	["Theka the Martyr"] = "Theka der Märtyrer";
 	["Witch Doctor Zum'rah"] = "Hexendoktor Zum'rah";
@@ -514,7 +513,6 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Die sterblichen Überreste von Kariel Winthalus";
 
 	--Onyxia's Lair
-	["Drakefire Amulet"] = "Drachenfeueramulett";
 	["Onyxian Warders"] = "Onyxias Wärter";
 	["Whelp Eggs"] = "Welpeneier";
 	["Onyxia"] = "Onyxia";
@@ -742,7 +740,6 @@ AtlasLocale = {
 	["Burning Felguard"] = "Brennende Teufelswache";
 
 	--Blackrock Spire (Upper)
-	["Seal of Ascension"] = "Siegel des Aufstiegs";
 	["Pyroguard Emberseer"] = "Feuerwache Glutseher";
 	["Solakar Flamewreath"] = "Solakar Feuerkrone";
 	["Father Flame"] = "Vater Flamme";
@@ -793,8 +790,6 @@ AtlasLocale = {
 
 	--Molten Core
 	["Hydraxian Waterlords"] = "Hydraxianer";
-	["Aqual Quintessence"] = "Wässrige Quintessenz";
-	["Eternal Quintessence"] = "Ewige Quintessenz";
 	["Lucifron"] = "Lucifron";
 	["Magmadar"] = "Magmadar";
 	["Gehennas"] = "Gehennas";
@@ -1014,7 +1009,6 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "Das Violette Auge";--omitted from Karazhan End
 	["The Master's Key"] = "Der Schlüssel des Meisters";--omitted from Karazhan End
-	["Blackened Urn"] = "Geschwärzte Urne";
 	["Staircase to the Ballroom"] = "Treppen zum Ballsaal";
 	["Stairs to Upper Stable"] = "Treppen zum Oberen Stall";
 	["Ramp to the Guest Chambers"] = "Rampe zu den Gästekammern";
@@ -1463,9 +1457,13 @@ AtlasLocale = {
 	["Jedoga Shadowseeker"] = "Jedoga Schattensucher";
 	["Herald Volazj"] = "Herold Volazj";
 	["Amanitar"] = "Amanitar";
+	["Ahn'kahet Brazier"] = "Kohlenbecken von Ahn'kahet";
 
 	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir der Torwächter";
+	["Watcher Gashra"] = "Aufseher Gashra";
+	["Watcher Narjil"] = "Aufseher Narjil";
+	["Watcher Silthik"] = "Aufseher Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 	
@@ -1496,7 +1494,6 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Der wilde Eck";
 
 	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Erzmagier Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
 	["Construct Quarter"] = "Konstruktviertel";
 	["Patchwerk"] = "Flickwerk";
@@ -1535,6 +1532,7 @@ AtlasLocale = {
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
+	["Key to the Focusing Iris"] = "Schlüssel der fokussierenden Iris";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos der Befrager";

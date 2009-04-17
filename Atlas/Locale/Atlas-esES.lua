@@ -564,9 +564,9 @@ AtlasLocale = {
 	["Keepers of Time"] = "Vigilantes del tiempo";--omitted from Old Hillsbrad Foothills
 	["Key of Time"] = "Llave del tiempo";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "Sa'at <Vigilantes del Tiempo>";
-	["Wave 6: Chrono Lord Deja"] = "Oleada 6: Chronolord Deja";
-	["Wave 12: Temporus"] = "Oleada 12: Temporus";
-	["Wave 18: Aeonus"] = "Oleada 18: Aeonus";
+	["Chrono Lord Deja"] = "Chronolord Deja";
+	["Temporus"] = "Temporus";
+	["Aeonus"] = "Aeonus";
 	["The Dark Portal"] = "El Portal Oscuro";
 	["Medivh"] = "Medivh";
 

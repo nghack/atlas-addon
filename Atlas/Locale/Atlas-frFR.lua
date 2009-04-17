@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 15/04/2009
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 17/04/2009
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -434,7 +434,6 @@ AtlasLocale = {
 	["Plaguemaw the Rotting"] = "Pestegueule le Pourrissant";
 	
 	--Zul'Farrak
-	["Mallet of Zul'Farrak"] = "Marteau de Zul'Farrak";
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Surveillant de Sul>";
 	["Theka the Martyr"] = "Theka le Martyr";
 	["Witch Doctor Zum'rah"] = "Sorcier-docteur Zum'rah";
@@ -515,7 +514,6 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
 	
 	--Onyxia's Lair
-	["Drakefire Amulet"] = "Amulette drakefeu";
 	["Onyxian Warders"] = "Gardiens onyxiens";
 	["Whelp Eggs"] = "Œufs";
 	["Onyxia"] = "Onyxia";
@@ -743,7 +741,6 @@ AtlasLocale = {
 	["Burning Felguard"] = "Gangregarde ardent";
 
 	--Blackrock Spire (Upper)
-	["Seal of Ascension"] = "Sceau d'ascension";
 	["Pyroguard Emberseer"] = "Pyrogarde Prophète ardent";
 	["Solakar Flamewreath"] = "Solakar Voluteflamme";
 	["Father Flame"] = "Père des flammes";
@@ -794,8 +791,6 @@ AtlasLocale = {
 
 	--Molten Core
 	["Hydraxian Waterlords"] = "Les Hydraxiens";
-	["Aqual Quintessence"] = "Quintessence aquatique";
-	["Eternal Quintessence"] = "Quintessence éternelle";
 	["Lucifron"] = "Lucifron";
 	["Magmadar"] = "Magmadar";
 	["Gehennas"] = "Gehennas";
@@ -1016,7 +1011,6 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "L'Œil pourpre"; --omitted from Karazhan End
 	["The Master's Key"] = "La clé du maître"; --omitted from Karazhan End
-	["Blackened Urn"] = "Urne noircie";
 	["Staircase to the Ballroom"] = "Escalier de la salle de bal";
 	["Stairs to Upper Stable"] = "Escalier vers les Ecuries";
 	["Ramp to the Guest Chambers"] = "Rampe vers les Appartements des hôtes";
@@ -1464,9 +1458,13 @@ AtlasLocale = {
 	["Jedoga Shadowseeker"] = "Jedoga Cherchelombre";
 	["Herald Volazj"] = "Héraut Volazj";
 	["Amanitar"] = "Amanitar";
+	["Ahn'kahet Brazier"] = "Brasero d'Ahn'kahet";
 
 	--Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir le Gardien de porte";
+	["Watcher Gashra"] = "Gardien Gashra";
+	["Watcher Narjil"] = "Gardien Narjil";
+	["Watcher Silthik"] = "Gardien Silthik"
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 
@@ -1477,7 +1475,7 @@ AtlasLocale = {
 	["Chrono-Lord Epoch"] = "Chronoseigneur Epoch";
 	["Mal'Ganis"] = "Mal'Ganis";
 	["Chromie"] = "Chromie";
-["Infinite Corruptor"] = "Infinite Corruptor";
+	["Infinite Corruptor"] = "Corrupteur infini";
 	["Guardian of Time"] = "Gardien du Temps";
 	["Scourge Invasion Points"] = "Points d'invasion du Fléau";
 
@@ -1487,7 +1485,7 @@ AtlasLocale = {
 	["King Dred"] = "Roi Dred";
 	["The Prophet Tharon'ja"] = "Le prophète Tharon'ja";
 	["Kurzel"] = "Kurzel";
-["Drakuru's Brazier"] = "Drakuru's Brazier";
+	["Drakuru's Brazier"] = "Brasero Drakuru";
 
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Grand prophète de Sseratus>";
@@ -1497,7 +1495,6 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Eck le Féroce";
 
 	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Archimage Tarsis Kir-Moldir";
 	["Mr. Bigglesworth"] = "M. Bigglesworth";
 	["Construct Quarter"] = "Le quartier des Assemblages";
 	["Patchwerk"] = "Le Recousu";
@@ -1536,13 +1533,14 @@ AtlasLocale = {
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
+	["Key to the Focusing Iris"] = "Clé de l'iris de focalisation";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos l'Interrogateur";
 	["Mage-Lord Urom"] = "Seigneur-mage Urom";
 	["Ley-Guardian Eregos"] = "Gardien-tellurique Eregos";
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Arpentenuée <Seigneur-azur du vol draconique bleu>";
-["Centrifuge Construct"] = "Centrifuge Construct";
+	["Centrifuge Construct"] = "Assemblage centrifuge";
 	["Cache of Eregos"] = "Cache d'Eregos";
 
 	--The Violet Hold

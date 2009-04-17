@@ -516,11 +516,13 @@ ATLAS_OLD_ZONE = false;
 function Atlas_Init()
 
 	--fix for certain UI elements that appear on top of the Atlas window
+	--[[
 	MultiBarBottomLeft:SetFrameStrata("MEDIUM");
 	MultiBarBottomRight:SetFrameStrata("MEDIUM");
 	MultiBarLeft:SetFrameStrata("MEDIUM");
 	MultiBarRight:SetFrameStrata("MEDIUM");
-	MainMenuBarOverlayFrame:SetFrameStrata("MEDIUM");
+	MainMenuBarOverlayFrame:SetFrameStrata("LOW");
+	--]]
 
 	--make the Atlas window go all the way to the edge of the screen, exactly
 	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);

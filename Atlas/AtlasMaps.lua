@@ -159,7 +159,6 @@ AtlasMaps = {
 		MinLevel = "35";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Mallet of Zul'Farrak"].." ("..AtlasLocale["Gahz'rilla"]..")", ITEM, 9240 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Antu'sul <Overseer of Sul>"], NPC, 8127 };
 		{ GREY.."2) "..AtlasLocale["Theka the Martyr"], NPC, 7272 };
@@ -290,7 +289,6 @@ AtlasMaps = {
 		PlayerLimit = "40";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Drakefire Amulet"], ITEM, 16309 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Onyxian Warders"], NPC, 12129 };
 		{ GREY.."2) "..AtlasLocale["Whelp Eggs"] };
@@ -603,7 +601,6 @@ AtlasMaps = {
 		MinLevel = "45";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Eastern Kingdoms"];
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Seal of Ascension"], ITEM, 12344 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Blackrock Spire"].." ("..AtlasLocale["Lower"]..")", ZONE, 1583 };
@@ -687,8 +684,6 @@ AtlasMaps = {
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Hydraxian Waterlords"], FACTION, 749 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Aqual Quintessence"].." ("..AtlasLocale["Boss"]..")", ITEM, 17333 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Eternal Quintessence"].." ("..AtlasLocale["Boss"]..")", ITEM, 22754 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Lucifron"], NPC, 12118 };
 		{ GREY.."2) "..AtlasLocale["Magmadar"], NPC, 11982 };
@@ -1020,7 +1015,6 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE..INDENT..AtlasLocale["Archmage Tarsis Kir-Moldir"], NPC, 16381 };
 		{ BLUE..INDENT..AtlasLocale["Mr. Bigglesworth"].." ("..AtlasLocale["Wanders"]..")", NPC, 16998 };
 		{ GREY..AtlasLocale["Construct Quarter"] };
 		{ GREY..INDENT.."1) "..AtlasLocale["Patchwerk"], NPC, 16028 };
@@ -1058,7 +1052,6 @@ AtlasMaps = {
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Violet Eye"], FACTION, 967 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Master's Key"], ITEM, 24490 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Blackened Urn"].." ("..AtlasLocale["Nightbane"]..")", ITEM, 24140 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Front"]..")" };
 		{ BLUE.."B) "..AtlasLocale["Staircase to the Ballroom"].." ("..AtlasLocale["Moroes <Tower Steward>"]..")" };
 		{ BLUE.."C) "..AtlasLocale["Stairs to Upper Stable"] };
@@ -1507,6 +1500,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Warpforged Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30634 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Gatewatcher Gyro-Kill"], NPC, 19218 };
 		{ GREY.."2) "..AtlasLocale["Gatewatcher Iron-Hand"], NPC, 19710 };
 		{ GREY..INDENT..AtlasLocale["Cache of the Legion"], OBJECT, 184465 };
@@ -1903,6 +1897,9 @@ AtlasMaps = {
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
 		{ BLUE.."C) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Krik'thir the Gatewatcher"], NPC, 28684 };
+		{ GREY..INDENT..AtlasLocale["Watcher Gashra"], NPC, 28730 };
+		{ GREY..INDENT..AtlasLocale["Watcher Narjil"], NPC, 28729 };
+		{ GREY..INDENT..AtlasLocale["Watcher Silthik"], NPC, 28731 };
 		{ GREY.."2) "..AtlasLocale["Hadronox"], NPC, 28921 };
 		{ GREY.."3) "..AtlasLocale["Anub'arak"], NPC, 29120 };
 	};
@@ -1937,13 +1934,14 @@ AtlasMaps = {
 		Acronym = AtlasLocale["DTK"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
+		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ BLUE.."C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Trollgore"], NPC, 26630 };
 		{ GREY.."2) "..AtlasLocale["Kurzel"], NPC, 26664 };
 		{ GREY.."3) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
 		{ GREY.."4) "..AtlasLocale["King Dred"], NPC, 27483 };
-		{ GREY.."5) "..AtlasLocale["Drakuru's Brazier"] };
-		{ GREY.."6) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
+		{ GREY.."5) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
+		{ GREY.."6) "..AtlasLocale["Drakuru's Brazier"] };
 	};
 	Gundrak = {
 		ZoneName = { AtlasLocale["Gundrak"], 4375 };
@@ -1954,6 +1952,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Gun"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Slad'ran <High Prophet of Sseratus>"], NPC, 29304 };
 		{ GREY.."2) "..AtlasLocale["Drakkari Colossus"], NPC, 29307 };
 		{ GREY.."3) "..AtlasLocale["Moorabi <High Prophet of Mam'toth>"], NPC, 29305 };
@@ -1984,7 +1983,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["HoL"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["General Bjarngrim"], NPC, 28586 };
+		{ GREY.."1) "..AtlasLocale["General Bjarngrim"].." ("..AtlasLocale["Wanders"]..")", NPC, 28586 };
 		{ GREY.."2) "..AtlasLocale["Volkhan"], NPC, 28587 };
 		{ GREY.."3) "..AtlasLocale["Ionar"], NPC, 28546 };
 		{ GREY.."4) "..AtlasLocale["Loken"], NPC, 28923 };
@@ -2043,13 +2042,13 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Nex, Nexus"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Anomalus"], NPC, 26763 };
-		{ GREY.."2) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
+		{ GREY.."1) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
+		{ GREY.."2) "..AtlasLocale["Anomalus"], NPC, 26763 };
 		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
 		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
-		{ GREY.."5) "..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
-		{ GREY.."6) "..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26798 };
-		{ GREY..INDENT..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+		{ GREY.."5) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+		{ GREY..INDENT..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
+		{ GREY..INDENT..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26798 };
 	};
 	TheEyeOfEternity = {
 		ZoneName = { AtlasLocale["The Nexus"]..": "..AtlasLocale["The Eye of Eternity"], 4500 };
@@ -2059,6 +2058,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["TEoE"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Key to the Focusing Iris"], ITEM, 44582 };
 		{ GREY.."1) "..AtlasLocale["Malygos"], NPC, 28859 };
 	};
 	AhnKahet = {
@@ -2073,9 +2073,10 @@ AtlasMaps = {
 		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Elder Nadox"], NPC, 29309 };
 		{ GREY.."2) "..AtlasLocale["Prince Taldaram"], NPC, 29308 };
-		{ GREY.."3) "..AtlasLocale["Jedoga Shadowseeker"], NPC, 29310 };
-		{ GREY.."4) "..AtlasLocale["Herald Volazj"], NPC, 29311 };
-		{ GREY.."5) "..AtlasLocale["Amanitar"].." ("..AtlasLocale["Heroic"]..")", NPC, 30258 };
+		{ GREY.."3) "..AtlasLocale["Amanitar"].." ("..AtlasLocale["Heroic"]..")", NPC, 30258 };
+		{ GREY.."4) "..AtlasLocale["Jedoga Shadowseeker"], NPC, 29310 };
+		{ GREY.."5) "..AtlasLocale["Herald Volazj"], NPC, 29311 };
+		{ GREY.."6) "..AtlasLocale["Ahn'kahet Brazier"] };
 	};
 	VioletHold = {
 		ZoneName = { AtlasLocale["The Violet Hold"], 4415 };

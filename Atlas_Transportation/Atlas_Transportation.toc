@@ -5,7 +5,7 @@
 ## Title-zhCN: Atlas |r|cFF0099FF[飞行路线图]|r
 ## Notes: Transportation Maps
 ## Notes-ruRU: Карты маршрутов полёта
-## Notes-deDE: Fluglinienkarten
+## Notes-deDE: Beförderungsmittel
 ## Notes-esES: Mapa de Trayectorias
 ## Notes-frFR: Cartes des trajets aériens
 ## Notes-koKR: 비행경로 지도

@@ -1470,9 +1470,13 @@ AtlasLocale = {
 	["Jedoga Shadowseeker"] = "Jedoga Buscasombras";
 	["Herald Volazj"] = "Heraldo Volazj";
 	["Amanitar"] = "Amanitar";
+	["Ahn'kahet Brazier"] = "Blandón Ahn'kahet"; --Check
 	
 	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir el vigía de las puertas";
+	["Watcher Gashra"] = "Vigía Gashra";
+	["Watcher Narjil"] = "Vigía Narjil";
+	["Watcher Silthik"] = "Vigía Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
 	
@@ -1542,6 +1546,7 @@ AtlasLocale = {
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
+	["Key to the Focusing Iris"] = "Llave del Iris de enfoque";	
 	
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos el interrogador";

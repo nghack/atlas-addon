@@ -43,6 +43,7 @@ AtlasTransLocale = {
 	["Apothecary Camp"] = "Аптекарский поселок";
 	["Arathi Highlands"] = "Нагорье Арати";
 	["Area 52"] = "Зона 52";
+	["Argent Tournament Grounds"] = "Площадка Серебряного Турнира";
 	["Ashenvale"] = "Ясеневый лес";
 	["Astranaar"] = "Астранаар";
 	["Auberdine"] = "Аубердин";
@@ -67,20 +68,25 @@ AtlasTransLocale = {
 	["Camp Taurajo"] = "Лагерь Таурахо";
 	["Camp Tunka'lo"] = "Лагерь Тунка’ло";
 	["Camp Winterhoof"] = "Лагерь Заиндевевшего Копыта";
+	["Caverns of Time"] = "Пещеры Времени";
 	["Cenarion Hold"] = "Крепость Кенария";
 	["Chillwind Point"] = "Лагерь Промозглого Ветра";
 	["Coldarra"] = "Хладарра";
 	["Conquest Hold"] = "Крепость Завоевателей";
 	["Cosmowrench"] = "Космоворот";
 	["Crossroads"] = "Перекресток";
+	["Crusaders' Pinnacle"] = "Вершина Рыцарей";
 	["Crystalsong Forest"] = "Лес Хрустальной Песни";
 	["Dalaran"] = "Даларан";
 	["Darkshire"] = "Темнолесье";
 	["Darkshore"] = "Темные берега";
+	["Darnassus"] = "Дарнас";
+	["Death's Rise"] = "Уступ Смерти";
 	["Desolace"] = "Пустоши";
 	["Dragonblight"] = "Драконий Погост";
 	["Druid-only"] = "Только-Друид";
 	["Dun Morogh"] = "Дун Морог";
+	["Dun Nifflelem"] = "Dun Nifflelem";
 	["Durotar"] = "Дуротар";
 	["Duskwood"] = "Сумеречный лес";
 	["Dustwallow Marsh"] = "Пылевые топи";
@@ -109,6 +115,7 @@ AtlasTransLocale = {
 	["Grizzly Hills"] = "Седые холмы";
 	["Grom'Gol Base Camp"] = "Лагерь Гром'гол";
 	["Grom'arsh Crash-Site"] = "Место крушения Гром'арша";
+	["Gundrak"] = "	Гундрак";
 	["Hammerfall"] = "Павший Молот";
 	["Hatchet Hills"] = "Перевал Амани";
 	["Hellfire Peninsula"] = "Полуостров Адского Пламени";
@@ -116,11 +123,12 @@ AtlasTransLocale = {
 	["Honor Hold"] = "Оплот Чести";
 	["Horde"] = "Орда";
 	["Howling Fjord"] = "Ревущий фьорд";
+	["Icecrown"] = "Ледяная Корона";
 	["Ironforge"] = "Стальгорн";
 	["Isle of Quel'Danas"] = "Остров Кель'Данас";
 	["K3"] = "K3";
 	["Kalimdor"] = "Калимдор";
-	["Kamagua"] = "Kamagua";
+	["Kamagua"] = "Камагуа";
 	["Kargath"] = "Каргат";
 	["Kor'Kron Vanguard"] = "Отряд Кор'крона";
 	["Lakeshire"] = "Приозерье";
@@ -176,11 +184,12 @@ AtlasTransLocale = {
 	["Stonebreaker Hold"] = "Форт Камнеломов";
 	["Stonetalon Mountains"] = "Когтистые горы";
 	["Stonetalon Peak"] = "Пик Каменного Когтя";
-	["Storm Peaks"] = "Грозовая Гряда";
+	["The Storm Peaks"] = "Грозовая Гряда";
 	["Stormwind City"] = "Штормград";
 	["Stranglethorn Vale"] = "Тернистая долина";
 	["Sun Rock Retreat"] = "Приют у Солнечного Камня";
 	["Sun's Reach"] = "Солнечный Край";
+	["Sun's Reach Sanctum"] = "Святилище Солнечного Края";
 	["Sunreaver's Command"] = "Лагерь Похитителя Солнца";
 	["Swamp of Sorrows"] = "Болото Печали";
 	["Swamprat Post"] = "Застава Болотной Крысы";
@@ -198,6 +207,7 @@ AtlasTransLocale = {
 	["Thalanaar"] = "Таланаар";
 	["The Aldor"] = "Алдоры";
 	["The Argent Stand"] = "Серебряная застава";
+	["The Argent Vanguard"] = "Оплот Серебряного Авангарда";
 	["The Barrens"] = "Степи";
 	["The Dark Portal"] = "Темный Портал";
 	["The Exodar"] = "Экзодар";
@@ -205,6 +215,7 @@ AtlasTransLocale = {
 	["The Hinterlands"] = "Внутренние земли";
 	["The Scryers"] = "Провидцы";
 	["The Sepulcher"] = "Гробница";
+	["The Shadow Vault"] = "Мрачный Свод";
 	["The Stormspire"] = "Штормовая Вершина";
 	["Thelsamar"] = "Телсамар";
 	["Theramore Isle"] = "Остров Терамор";
@@ -222,12 +233,15 @@ AtlasTransLocale = {
 	["Un'Goro Crater"] = "Кратер Ун'Горо";
 	["Undercity"] = "Подгород";
 	["Unu'pe"] = "Уну'пе";
+	["Valaar's Berth"] = "Причал Валаара";
 	["Valgarde"] = "Валгард";
 	["Valiance Keep"] = "Крепость Отваги";
+	["Valiance Landing Camp"] = "Посадочная Отваги"; -- нужна проверка
 	["Valormok"] = "Храбростан";
 	["Vengeance Landing"] = "Лагерь Возмездия";
 	["Venomspite"] = "Ядозлоб";
 	["Warsong Hold"] = "Крепость Песни Войны";
+	["Warsong Landing Camp"] = "Warsong Landing Camp";
 	["West of the path to Timbermaw Hold"] = "Западный путь в Крепость Древобрюхов";
 	["Western Plaguelands"] = "Западные Чумные земли";
 	["Westfall Brigade Encampment"] = "Лагерь дружины Западного Края";
@@ -237,6 +251,7 @@ AtlasTransLocale = {
 	["Wildhammer Stronghold"] = "Цитадель Громового Молота";
 	["Windrunner's Overlook"] = "Дозор Ветрокрылой";
 	["Wintergarde Keep"] = "Крепость Стражей Зимы";
+	["Wintergrasp"] = "Озеро Ледяных Оков";
 	["Winterspring"] = "Зимние Ключи";
 	["Wyrmrest Temple"] = "Храм Драконьего Покоя";
 	["Zabra'jin"] = "Забра'джин";
@@ -244,9 +259,17 @@ AtlasTransLocale = {
 	["Zim'Torga"] = "Зим'Торга";
 	["Zoram'gar Outpost"] = "Форт Зорам'Гар";
 	["Zul'Drak"] = "Зул'Драк";
-	["Valaar's Berth"] = "Причал Валаара";
-	["Sun's Reach Sanctum"] = "Святилище Солнечного Края";
-	["Darnassus"] = "Дарнасс";
 
 };
 end
+
+
+
+
+
+
+
+
+
+
+

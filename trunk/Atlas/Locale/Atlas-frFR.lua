@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 17/04/2009
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 19/04/2009
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -1288,7 +1288,6 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Pathaleon le Calculateur";
 	
 	--TK: The Eye
-	["The Tempest Key"] = "La clé de la Tempête";
 	["Al'ar <Phoenix God>"] = "Al'ar <Dieu phénix>";
 	["Void Reaver"] = "Saccageur du Vide";
 	["High Astromancer Solarian"] = "Grande Astromancienne Solarian";
@@ -1307,7 +1306,6 @@ AtlasLocale = {
 	
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Ligemort Cendrelangue"; --omitted from other BT
-	["Medallion of Karabor"] = "Médaillon de Karabor"; --omitted from other BT
 	["Towards Reliquary of Souls"] = "Vers Reliquaire des âmes";
 	["Towards Teron Gorefiend"] = "Vers Teron Fielsang";
 	["Towards Illidan Stormrage"] = "Vers Illidan Hurlorage";
@@ -1543,6 +1541,13 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Assemblage centrifuge";
 	["Cache of Eregos"] = "Cache d'Eregos";
 
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
+	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
+	["Tenebron"] = "Ténébron";
+	["Shadron"] = "Obscuron";
+	["Vesperon"] = "Vespéron";
+
 	--The Violet Hold
 	["Erekem"] = "Erekem";
 	["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
@@ -1552,13 +1557,6 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
 	["The Violet Hold Key"] = "La clé du Fort pourpre";
-
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
-	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
-	["Tenebron"] = "Ténébron";
-	["Shadron"] = "Obscuron";
-	["Vesperon"] = "Vespéron";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";

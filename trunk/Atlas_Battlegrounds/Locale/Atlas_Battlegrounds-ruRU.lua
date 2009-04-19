@@ -32,12 +32,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "Низина Арати"; ["AB"] = "НА";
 	["Arathi Highlands"] = "Нагорье Арати";
 	["Ashenvale"] = "Ясеневый лес";
+	["Dragonblight"] = "Драконий Погост";
 	["Eastern Kingdoms"] = "Восточные королевства";
 	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "Око";
 	["Hillsbrad Foothills"] = "Старые Предгорья Хилсбрада";
 	["Kalimdor"] = "Калимдор";
 	["Netherstorm"] = "Пустоверть";
 	["Outland"] = "Запределье";
+	["Strand of the Ancients"] = "Берег Древних"; ["SotA"] = "Берег";
 	["The Barrens"] = "Степи";
 	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "УПВ";
 	

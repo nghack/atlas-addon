@@ -2135,7 +2135,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."B) "..AtlasLocale["Start"] };
 		{ BLUE.."C) "..AtlasLocale["Keepers"] };
-		{ GREY.."5) "..AtlasLocale["The Iron Council"].." ("..AtlasLocale["Optional"]..")" };
+		{ GREY.."5) "..AtlasLocale["Assembly of Iron"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Stormcaller Brundirle"], NPC, 32867 };

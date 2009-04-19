@@ -260,9 +260,10 @@ local myData = {
 		{ GREY.."33) "..AtlasTransLocale["Dun Nifflelem"]..", ".._RED..AtlasTransLocale["The Storm Peaks"], ZONE, 67 };
 		{ GREY.."34) "..AtlasTransLocale["The Argent Vanguard"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
 		{ GREY.."35) "..AtlasTransLocale["Crusaders' Pinnacle"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."36) "..AtlasTransLocale["The Shadow Vault"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."37) "..AtlasTransLocale["Death's Rise"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."38) "..AtlasTransLocale["Warsong Landing Camp"]..", ".._RED..AtlasTransLocale["Wintergrasp"], ZONE, 4197 };
+		{ GREY.."36) "..AtlasTransLocale["Argent Tournament Grounds"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."37) "..AtlasTransLocale["The Shadow Vault"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."38) "..AtlasTransLocale["Death's Rise"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."39) "..AtlasTransLocale["Warsong Landing Camp"]..", ".._RED..AtlasTransLocale["Wintergrasp"], ZONE, 4197 };
 	};
 	TransAllianceNorthrend = {
 		ZoneName = { AtlasTransLocale["Northrend"].." ("..AtlasTransLocale["Alliance"]..")" };
@@ -306,9 +307,10 @@ local myData = {
 		{ GREY.."30) "..AtlasTransLocale["Dun Nifflelem"]..", ".._RED..AtlasTransLocale["The Storm Peaks"], ZONE, 67 };
 		{ GREY.."31) "..AtlasTransLocale["The Argent Vanguard"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
 		{ GREY.."32) "..AtlasTransLocale["Crusaders' Pinnacle"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."33) "..AtlasTransLocale["The Shadow Vault"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."34) "..AtlasTransLocale["Death's Rise"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
-		{ GREY.."35) "..AtlasTransLocale["Valiance Landing Camp"]..", ".._RED..AtlasTransLocale["Wintergrasp"], ZONE, 4197 };
+		{ GREY.."33) "..AtlasTransLocale["Argent Tournament Grounds"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."34) "..AtlasTransLocale["The Shadow Vault"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."35) "..AtlasTransLocale["Death's Rise"]..", ".._RED..AtlasTransLocale["Icecrown"], ZONE, 210 };
+		{ GREY.."36) "..AtlasTransLocale["Valiance Landing Camp"]..", ".._RED..AtlasTransLocale["Wintergrasp"], ZONE, 4197 };
 	};
 };
 

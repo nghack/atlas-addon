@@ -34,6 +34,7 @@ AtlasTransLocale = {
 	["Apothecary Camp"] = "Apothecary Camp";
 	["Arathi Highlands"] = "Arathi Highlands";
 	["Area 52"] = "Area 52";
+	["Argent Tournament Grounds"] = "Argent Tournament Grounds";
 	["Ashenvale"] = "Ashenvale";
 	["Astranaar"] = "Astranaar";
 	["Auberdine"] = "Auberdine";

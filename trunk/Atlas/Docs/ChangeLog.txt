@@ -4,7 +4,7 @@
 
 v1.14.0
 - updated TOC number to 30100 for the 3.1 patch
-- new map: Ulduar (deadca7)
+- new map: Ulduar [in 5 parts] (deadca7)
 - new map: Vault of Archavon (deadca7)
 - new map: Strand of the Ancients (deadca7)
 - new map: The Eye of Eternity (deadca7)

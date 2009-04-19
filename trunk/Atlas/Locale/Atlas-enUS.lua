@@ -1576,25 +1576,39 @@ AtlasLocale = {
 	["King Ymiron"] = "King Ymiron";
 	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
-	-- Ulduar: Ulduar	
+	-- Ulduar General
+	["Celestial Planetarium Key"] = "Celestial Planetarium Key";
+	["Antechamber"] = "Antechamber"; --B
+	["Keepers"] = "Keepers"; --C
+	["Spark of Imagination"] = "Spark of Imagination"; --D
+	["Descent into Madness"] = "Descent into Madness"; --E
+
+	-- Ulduar A
 	["Flame Leviathan"] = "Flame Leviathan";
 	["Ignis the Furnace Master"] = "Ignis the Furnace Master";
 	["Razorscale"] = "Razorscale";
 	["XT-002 Deconstructor"] = "XT-002 Deconstructor";
-	["Assembly of Iron"] = "Assembly of Iron";
+	
+	-- Ulduar B
+	["The Iron Council"] = "The Iron Council";
 	["Steelbreaker"] = "Steelbreaker";
 	["Runemaster Molgeim"] = "Runemaster Molgeim";
 	["Stormcaller Brundirle"] = "Stormcaller Brundirle";
 	["Kologarn"] = "Kologarn";
+	["Algalon the Observer"] = "Algalon the Observer";
+	
+	-- Ulduar C
 	["Auriaya"] = "Auriaya";
-	["Hodir"] = "Hodir";
-	["Thorim"] = "Thorim";
 	["Freya"] = "Freya";
+	["Thorim"] = "Thorim";
+	["Hodir"] = "Hodir";
+	
+	-- Ulduar D
 	["Mimiron"] = "Mimiron";
+	
+	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
-	["Algalon the Observer"] = "Algalon the Observer";
-	["Celestial Planetarium Key"] = "Celestial Planetarium Key";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";

@@ -1551,7 +1551,7 @@ AtlasLocale = {
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Vague 18";
+	["The Violet Hold Key"] = "La clé du Fort pourpre";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
@@ -1573,24 +1573,39 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "Sjonnir le Sculptefer";
 	["Maiden of Grief"] = "Damoiselle de peine";
 
-	--Ulduar: Ulduar	
+	-- Ulduar General
+["Celestial Planetarium Key"] = "Celestial Planetarium Key";
+["Antechamber"] = "Antechamber"; --B
+["Keepers"] = "Keepers"; --C
+["Spark of Imagination"] = "Spark of Imagination"; --D
+["Descent into Madness"] = "Descent into Madness"; --E
+
+	-- Ulduar A
 	["Flame Leviathan"] = "Léviathan des flammes";
 	["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
 	["Razorscale"] = "Tranchécaille";
 	["XT-002 Deconstructor"] = "Déconstructeur XT-002";
+	
+	-- Ulduar B
 	["Assembly of Iron"] = "L'Assemblée de Fer";
 	["Steelbreaker"] = "Brise-acier";
 	["Runemaster Molgeim"] = "Maître des runes Molgeim";
 	["Stormcaller Brundirle"] = "Mande-foudre Brundir";
 	["Kologarn"] = "Kologarn";
+	["Algalon the Observer"] = "Algalon l'Observateur";	
+	
+	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Hodir"] = "Hodir";
 	["Thorim"] = "Thorim";
 	["Freya"] = "Freya";
+	
+	-- Ulduar D
 	["Mimiron"] = "Mimiron";
+	
+	-- Ulduar E
 	["General Vezax"] = "Général Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
-	["Algalon the Observer"] = "Algalon l'Observateur";	
 
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";

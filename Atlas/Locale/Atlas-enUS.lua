@@ -1547,7 +1547,6 @@ AtlasLocale = {
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Wave 18";
 	["The Violet Hold Key"] = "The Violet Hold Key";
 
 	--Ulduar: Halls of Lightning

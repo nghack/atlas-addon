@@ -61,7 +61,7 @@ AtlasTransLocale = {
 	["Borean Tundra"] = "Борейская тундра";
 	["Bouldercrag's Refuge"] = "Приют Глыбоскала";
 	["Brackenwall Village"] = "Деревня Гиблотопь";
-	["Brann Bronzebeard's Camp"] = "Brann Bronzebeard's Camp";
+	["Brann Bronzebeard's Camp"] = "Brann Bronzebeard's Camp"; --(Need translate)
 	["Burning Steppes"] = "Пылающие степи";
 	["Camp Mojache"] = "Лагерь Мохаче";
 	["Camp One'Qwah"] = "Лагерь Уанква";
@@ -86,7 +86,7 @@ AtlasTransLocale = {
 	["Dragonblight"] = "Драконий Погост";
 	["Druid-only"] = "Только-Друид";
 	["Dun Morogh"] = "Дун Морог";
-	["Dun Nifflelem"] = "Dun Nifflelem";
+	["Dun Nifflelem"] = "Дун Ниффелем";
 	["Durotar"] = "Дуротар";
 	["Duskwood"] = "Сумеречный лес";
 	["Dustwallow Marsh"] = "Пылевые топи";
@@ -115,7 +115,7 @@ AtlasTransLocale = {
 	["Grizzly Hills"] = "Седые холмы";
 	["Grom'Gol Base Camp"] = "Лагерь Гром'гол";
 	["Grom'arsh Crash-Site"] = "Место крушения Гром'арша";
-	["Gundrak"] = "	Гундрак";
+	["Gundrak"] = "Гундрак";
 	["Hammerfall"] = "Павший Молот";
 	["Hatchet Hills"] = "Перевал Амани";
 	["Hellfire Peninsula"] = "Полуостров Адского Пламени";
@@ -241,7 +241,7 @@ AtlasTransLocale = {
 	["Vengeance Landing"] = "Лагерь Возмездия";
 	["Venomspite"] = "Ядозлоб";
 	["Warsong Hold"] = "Крепость Песни Войны";
-	["Warsong Landing Camp"] = "Warsong Landing Camp";
+	["Warsong Landing Camp"] = "Warsong Landing Camp"; --(Need translate)
 	["West of the path to Timbermaw Hold"] = "Западный путь в Крепость Древобрюхов";
 	["Western Plaguelands"] = "Западные Чумные земли";
 	["Westfall Brigade Encampment"] = "Лагерь дружины Западного Края";
@@ -262,14 +262,3 @@ AtlasTransLocale = {
 
 };
 end
-
-
-
-
-
-
-
-
-
-
-

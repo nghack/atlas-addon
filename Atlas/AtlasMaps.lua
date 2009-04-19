@@ -2109,33 +2109,78 @@ AtlasMaps = {
 		{ GREY.."5) "..AtlasLocale["Cache of Eregos"], OBJECT, 191349};
 		{ GREN.."1') "..AtlasLocale["Centrifuge Construct"], NPC, 27641 };
 	};
-	UlduarUlduar = {
-		ZoneName = { AtlasLocale["Ulduar"]..": "..AtlasLocale["Ulduar"], 4273 };
+	UlduarA = {
+		ZoneName = { AtlasLocale["Ulduar"].." [A] ("..AtlasLocale["Start"]..")", 4273 };
 		Location = { AtlasLocale["The Storm Peaks"], 67 };
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Ulduar"];
+		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Antechamber"] };
 		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
-		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"], NPC, 33118 };
-		{ GREY.."3) "..AtlasLocale["Razorscale"], NPC, 33186 };
+		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"].." ("..AtlasLocale["Optional"]..")", NPC, 33118 };
+		{ GREY.."3) "..AtlasLocale["Razorscale"].." ("..AtlasLocale["Optional"]..")", NPC, 33186 };
 		{ GREY.."4) "..AtlasLocale["XT-002 Deconstructor"], NPC, 33293 };
-		{ GREY.."5) "..AtlasLocale["Assembly of Iron"]};
+	};
+	UlduarB = {
+		ZoneName = { AtlasLocale["Ulduar"].." [B] ("..AtlasLocale["Antechamber"]..")", 4273 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Uld"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."B) "..AtlasLocale["Start"] };
+		{ BLUE.."C) "..AtlasLocale["Keepers"] };
+		{ GREY.."5) "..AtlasLocale["The Iron Council"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Stormcaller Brundirle"], NPC, 32867 };
 		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
-		{ GREY.."7) "..AtlasLocale["Auriaya"], NPC, 33515 };
-		{ GREY.."8) "..AtlasLocale["Hodir"]}; -- Need to be completed
-		{ GREY.."9) "..AtlasLocale["Thorim"], NPC, 33413 };
-		{ GREY.."10) "..AtlasLocale["Freya"], NPC, 33410 };
-		{ GREY.."11) "..AtlasLocale["Mimiron"], NPC, 33412 };
-		{ GREY.."12) "..AtlasLocale["General Vezax"], NPC, 33271 };
-		{ GREY.."13) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
-		{ GREY.."14) "..AtlasLocale["Algalon the Observer"]}; -- Need to be completed
+		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
+	
+	};
+	UlduarC = {
+		ZoneName = { AtlasLocale["Ulduar"].." [C] ("..AtlasLocale["Keepers"]..")", 4273 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Uld"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."C) "..AtlasLocale["Antechamber"] };
+		{ BLUE.."D) "..AtlasLocale["Spark of Imagination"] };
+		{ BLUE.."E) "..AtlasLocale["Descent into Madness"] };
+		{ GREY.."8) "..AtlasLocale["Auriaya"].." ("..AtlasLocale["Optional"]..")", NPC, 33515 };
+		{ GREY.."9) "..AtlasLocale["Freya"], NPC, 33410 };
+		{ GREY.."10) "..AtlasLocale["Thorim"], NPC, 33413 };
+		{ GREY.."11) "..AtlasLocale["Hodir"] };
+	};
+	UlduarD = {
+		ZoneName = { AtlasLocale["Ulduar"].." [D] ("..AtlasLocale["Spark of Imagination"]..")", 4273 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Uld"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."D) "..AtlasLocale["Keepers"] };
+		{ GREY.."12) "..AtlasLocale["Mimiron"], NPC, 33412 };
+	};
+	UlduarE = {
+		ZoneName = { AtlasLocale["Ulduar"].." [E] ("..AtlasLocale["Descent into Madness"]..")", 4273 };
+		Location = { AtlasLocale["The Storm Peaks"], 67 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Uld"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."E) "..AtlasLocale["Keepers"] };
+		{ GREY.."13) "..AtlasLocale["General Vezax"], NPC, 33271 };
+		{ GREY.."14) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
 	};
 	VaultOfArchavon = {
 		ZoneName = { AtlasLocale["Vault of Archavon"], 4603 };

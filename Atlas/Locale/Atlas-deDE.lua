@@ -1596,7 +1596,7 @@ AtlasLocale = {
 	["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
 	
 	-- Ulduar B
-	["The Iron Council"] = "Versammlung des Eisens";
+	["Assembly of Iron"] = "Versammlung des Eisens";
 	["Steelbreaker"] = "Stahlbrecher";
 	["Runemaster Molgeim"] = "Runenmeister Molgeim";
 	["Stormcaller Brundirle"] = "Sturmrufer Brundir";

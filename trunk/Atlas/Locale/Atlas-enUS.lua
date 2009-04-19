@@ -1277,7 +1277,6 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Pathaleon the Calculator";
 
 	--TK: The Eye
-	["The Tempest Key"] = "The Tempest Key";
 	["Al'ar <Phoenix God>"] = "Al'ar <Phoenix God>";
 	["Void Reaver"] = "Void Reaver";
 	["High Astromancer Solarian"] = "High Astromancer Solarian";
@@ -1296,7 +1295,6 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Ashtongue Deathsworn";--omitted from other BT
-	["Medallion of Karabor"] = "Medallion of Karabor";--omitted from other BT
 	["Towards Reliquary of Souls"] = "Towards Reliquary of Souls";
 	["Towards Teron Gorefiend"] = "Towards Teron Gorefiend";
 	["Towards Illidan Stormrage"] = "Towards Illidan Stormrage";
@@ -1550,6 +1548,7 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
 	["Wave 18"] = "Wave 18";
+	["The Violet Hold Key"] = "The Violet Hold Key";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1595,6 +1594,7 @@ AtlasLocale = {
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
 	["Algalon the Observer"] = "Algalon the Observer";
+	["Celestial Planetarium Key"] = "Celestial Planetarium Key";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";

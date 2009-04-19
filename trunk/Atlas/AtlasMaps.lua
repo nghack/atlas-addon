@@ -1518,7 +1518,6 @@ AtlasMaps = {
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Tempest Key"], ITEM, 31704 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Al'ar <Phoenix God>"], NPC, 19514 };
 		{ GREY.."2) "..AtlasLocale["Void Reaver"], NPC, 19516 };
@@ -1554,7 +1553,6 @@ AtlasMaps = {
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Towards Reliquary of Souls"] };
 		{ BLUE.."C) "..AtlasLocale["Towards Teron Gorefiend"] };
@@ -1577,7 +1575,6 @@ AtlasMaps = {
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."B) "..AtlasLocale["Entrance"] };
 		{ BLUE.."C) "..AtlasLocale["Entrance"] };
 		{ GREY.."6) "..AtlasLocale["Gurtogg Bloodboil"], NPC, 22948 };
@@ -1596,7 +1593,6 @@ AtlasMaps = {
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Outland"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Ashtongue Deathsworn"], FACTION, 1012 };
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Medallion of Karabor"], ITEM, 32649 };
 		{ BLUE.."D) "..AtlasLocale["Entrance"] };
 		{ GREY.."9) "..AtlasLocale["Mother Shahraz"], NPC, 22947 };
 		{ GREY.."10) "..AtlasLocale["The Illidari Council"], NPC, 23426 };
@@ -1914,16 +1910,16 @@ AtlasMaps = {
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["The Culling of Stratholme"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Exit"].." ("..AtlasLocale["Portal"]..")" };
-		{ GREY.."1) "..AtlasLocale["Chromie"], NPC, 26527 };
-		{ GREY.."2) "..AtlasLocale["Chromie"], NPC, 27915 };
-		{ GREY.."3) "..AtlasLocale["Infinite Corruptor"].." ("..AtlasLocale["Heroic"]..")", NPC, 32273 };
-		{ GREY..INDENT..AtlasLocale["Guardian of Time"], NPC, 32281 };
-		{ GREY.."4) "..AtlasLocale["Chrono-Lord Epoch"], NPC, 26532 };
-		{ GREY.."5) "..AtlasLocale["Mal'Ganis"], NPC, 26533 };
-		{ GREY..INDENT..AtlasLocale["Chromie"], NPC, 30997 };
 		{ ORNG.."X) "..AtlasLocale["Scourge Invasion Points"] };
 		{ ORNG..INDENT..AtlasLocale["Wave 6"]..": "..AtlasLocale["Meathook"], NPC, 26529 };
 		{ ORNG..INDENT..AtlasLocale["Wave 10"]..": "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
+		{ GREY.."1) "..AtlasLocale["Chromie"], NPC, 26527 };
+		{ GREY.."2) "..AtlasLocale["Chromie"], NPC, 27915 };
+		{ GREY.."3) "..AtlasLocale["Chrono-Lord Epoch"], NPC, 26532 };
+		{ GREY.."4) "..AtlasLocale["Infinite Corruptor"].." ("..AtlasLocale["Heroic"]..")", NPC, 32273 };
+		{ GREY..INDENT..AtlasLocale["Guardian of Time"], NPC, 32281 };
+		{ GREY.."5) "..AtlasLocale["Mal'Ganis"], NPC, 26533 };
+		{ GREY..INDENT..AtlasLocale["Chromie"], NPC, 30997 };
 	};
 	DrakTharonKeep = {
 		ZoneName = { AtlasLocale["Drak'Tharon Keep"], 4196 };
@@ -2045,10 +2041,10 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
 		{ GREY.."2) "..AtlasLocale["Anomalus"], NPC, 26763 };
 		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
-		{ GREY.."4) "..AtlasLocale["Keristrasza"], NPC, 26723 };
-		{ GREY.."5) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+		{ GREY.."4) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
 		{ GREY..INDENT..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
 		{ GREY..INDENT..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26798 };
+		{ GREY.."5) "..AtlasLocale["Keristrasza"], NPC, 26723 };
 	};
 	TheEyeOfEternity = {
 		ZoneName = { AtlasLocale["The Nexus"]..": "..AtlasLocale["The Eye of Eternity"], 4500 };
@@ -2086,6 +2082,7 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["VH"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Violet Hold Key"], ITEM, 42482 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Erekem"].." ("..AtlasLocale["Random"]..")", NPC, 29315 };
 		{ GREY.."2) "..AtlasLocale["Zuramat the Obliterator"].." ("..AtlasLocale["Upper"]..", "..AtlasLocale["Random"]..")", NPC, 29314 };
@@ -2120,6 +2117,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Ulduar"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
 		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"], NPC, 33118 };

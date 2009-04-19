@@ -1574,8 +1574,8 @@ AtlasLocale = {
 	["Maiden of Grief"] = "Damoiselle de peine";
 
 	-- Ulduar General
-["Celestial Planetarium Key"] = "Celestial Planetarium Key";
-["Antechamber"] = "Antechamber"; --B
+	["Celestial Planetarium Key"] = "Clé du planétarium céleste";
+	["Antechamber"] = "Antichambre"; --B
 ["Keepers"] = "Keepers"; --C
 ["Spark of Imagination"] = "Spark of Imagination"; --D
 ["Descent into Madness"] = "Descent into Madness"; --E

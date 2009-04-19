@@ -1577,8 +1577,9 @@ AtlasLocale = {
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Celestial Planetarium Key";
-	["Antechamber"] = "Antechamber"; --B
-	["Keepers"] = "Keepers"; --C
+	["The Siege"] = "The Siege";
+	["The Antechamber"] = "The Antechamber"; --B
+	["The Keepers"] = "The Keepers"; --C
 	["Spark of Imagination"] = "Spark of Imagination"; --D
 	["Descent into Madness"] = "Descent into Madness"; --E
 
@@ -1592,7 +1593,7 @@ AtlasLocale = {
 	["Assembly of Iron"] = "Assembly of Iron";
 	["Steelbreaker"] = "Steelbreaker";
 	["Runemaster Molgeim"] = "Runemaster Molgeim";
-	["Stormcaller Brundirle"] = "Stormcaller Brundirle";
+	["Stormcaller Brundir"] = "Stormcaller Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon the Observer";
 	

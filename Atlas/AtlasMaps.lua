@@ -2110,14 +2110,13 @@ AtlasMaps = {
 		{ GREN.."1') "..AtlasLocale["Centrifuge Construct"], NPC, 27641 };
 	};
 	UlduarA = {
-		ZoneName = { AtlasLocale["Ulduar"].." [A] ("..AtlasLocale["Start"]..")", 4273 };
+		ZoneName = { AtlasLocale["Ulduar"].." [A] ("..AtlasLocale["The Siege"]..")", 4273 };
 		Location = { AtlasLocale["The Storm Peaks"], 67 };
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Antechamber"] };
 		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
@@ -2126,25 +2125,26 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["XT-002 Deconstructor"], NPC, 33293 };
 	};
 	UlduarB = {
-		ZoneName = { AtlasLocale["Ulduar"].." [B] ("..AtlasLocale["Antechamber"]..")", 4273 };
+		ZoneName = { AtlasLocale["Ulduar"].." [B] ("..AtlasLocale["The Antechamber"]..")", 4273 };
 		Location = { AtlasLocale["The Storm Peaks"], 67 };
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
 		{ BLUE.."B) "..AtlasLocale["Start"] };
 		{ BLUE.."C) "..AtlasLocale["Keepers"] };
 		{ GREY.."5) "..AtlasLocale["Assembly of Iron"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
-		{ GREY..INDENT..AtlasLocale["Stormcaller Brundirle"], NPC, 32867 };
+		{ GREY..INDENT..AtlasLocale["Stormcaller Brundir"], NPC, 32867 };
 		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
 		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
 	
 	};
 	UlduarC = {
-		ZoneName = { AtlasLocale["Ulduar"].." [C] ("..AtlasLocale["Keepers"]..")", 4273 };
+		ZoneName = { AtlasLocale["Ulduar"].." [C] ("..AtlasLocale["The Keepers"]..")", 4273 };
 		Location = { AtlasLocale["The Storm Peaks"], 67 };
 		LevelRange = "80+";
 		MinLevel = "80";

@@ -112,7 +112,6 @@ ATLAS_DEP_MSG2 = "Они будут отключены для данного п�
 ATLAS_DEP_MSG3 = "Удалите их из вашей папки аддонов.";
 ATLAS_DEP_OK = "Ok";
 
-
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
 	["Ahn'Qiraj"]					= "Храм Ан'Киража";
@@ -211,6 +210,10 @@ AtlasLocale = {
 	["Wanders"] = "Странник";
 	["Warlock"] = "Чернокнижник";
 	["Warrior"] = "Воин";
+	["Wave 6"] = "6-ая волна";
+	["Wave 10"] = "10-ая волна";
+	["Wave 12"] = "12-ая волна";
+	["Wave 18"] = "18-ая волна";
 	["West"] = "Запад";
 	
 	--Instance names and acronyms
@@ -272,6 +275,7 @@ AtlasLocale = {
 	["The Botanica"] = "Ботаника"; ["Bota"] = "Бота";
 	["The Deadmines"] = "Мертвые копи"; ["VC"] = "МК";
 	["The Eye"] = "Око"; ["Eye"] = "Око";
+	["The Eye of Eternity"] = "Око Вечности";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Мех";
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";
@@ -286,6 +290,7 @@ AtlasLocale = {
 	["Ulduar"] = "Ульдуар";
 	["Utgarde Keep"] = "Крепость Утгард";
 	["Utgarde Pinnacle"] = "Вершина Утгард";
+	["Vault of Archavon"] = "Склеп Аркавона";
 	["Wailing Caverns"] = "Пещеры Стенаний"; ["WC"] = "ПС";
 	["Zul'Aman"] = "Зул'Аман"; ["ZA"] = "ЗА";
 	["Zul'Farrak"] = "Зул'Фаррак"; ["ZF"] = "ЗФ";
@@ -305,6 +310,8 @@ AtlasLocale = {
 	["AK, Kahet"] = "АК, Кахет"; -- Ан'кахет
 	["VH"] = "АМК"; -- Аметистовая крепость
 	["Ocu"] = "Оку"; -- Окулус
+	["VoA"] = "Склеп"; -- Склеп Аркавона
+	["TEoE"] = "ОВ"; -- Око Вечности
 	
 	--Continents
 	["Eastern Kingdoms"] = "Восточные королевства";
@@ -348,6 +355,7 @@ AtlasLocale = {
 	["Tirisfal Glades"] = "Тирисфальские леса";
 	["Western Plaguelands"] = "Западное Лихоземье";
 	["Westfall"] = "Западный Край";
+	["Wintergrasp"] = "Озеро Ледяных Оков";
 	["Zangarmarsh"] = "Зангартопь";
 	["Zul'Drak"] = "Зул'Драк";
 
@@ -1441,8 +1449,19 @@ AtlasLocale = {
 
 --I'm switching from continent grouping to expansion grouping.
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "Старейшина Надокс";
+	["Prince Taldaram"] = "Принц Талдарам";
+	["Jedoga Shadowseeker"] = "Джедога Искательница Теней";
+	["Herald Volazj"] = "Глашатай Волаж";
+	["Amanitar"] = "Аманитар";
+	["Ahn'kahet Brazier"] = "Ahn'kahet Brazier";	
+
+	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Крик'Тир Хранитель Врат";
+	["Watcher Gashra"] = "Дозорный Гашра";
+	["Watcher Narjil"] = "Дозорный Нарджил";
+	["Watcher Silthik"] = "Дозорный Силтик";
 	["Hadronox"] = "Хадронокс";
 	["Anub'arak"] = "Ануб'арак";
 	
@@ -1452,12 +1471,18 @@ AtlasLocale = {
 	["Salramm the Fleshcrafter"] = "Салрамм Плоторез";
 	["Chrono-Lord Epoch"] = "Хронолорд Эпох";
 	["Mal'Ganis"] = "Мал'Ганис";
-
+	["Chromie"] = "Хроми";
+	["Infinite Corruptor"] = "Осквернитель из рода Бесконечности";
+	["Guardian of Time"] = "Хранитель Времени";
+	["Scourge Invasion Points"] = "Точки вторжения Плети";
+	
 	--Drak'Tharon Keep
 	["Trollgore"] = "Кровотролль";
 	["Novos the Summoner"] = "Новос Призыватель";
 	["King Dred"] = "Король Дред";
 	["The Prophet Tharon'ja"] = "Пророк Тарон'джа";
+	["Kurzel"] = "Курцель";
+	["Drakuru's Brazier"] = "Жаровня Дракуру";
 	
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Слад'ран <Верховный пророк Шшератуса>";
@@ -1465,69 +1490,8 @@ AtlasLocale = {
 	["Moorabi <High Prophet of Mam'toth>"] = "Мураби <Верховный пророк Мам'тота>";
 	["Gal'darah <High Prophet of Akali>"] = "Гал'дара <Верховный пророк Акали>";
 	["Eck the Ferocious"] = "Эк Свирепый";
-
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Сундук Трибунала";
-	["Krystallus"] = "Кристаллус";
-	["Brann Bronzebeard"] = "Бранн Бронзобород";
-	["Sjonnir the Ironshaper"] = "Сьоннир Литейщик";
-	["Maiden of Grief"] = "Дева Скорби";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "Генерал Бьярнгрин";
-	["Volkhan"] = "Волхан";
-	["Ionar"] = "Ионар";
-	["Loken"] = "Локен";
-	
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "комната черных драконов";
-	["Sartharion <The Onyx Guardian>"] = "Сартарион <Ониксовый страж>";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
-	["Dalronn the Controller"] = "Далронн Контролирующий";
-	["Ingvar the Plunderer"] = "Ингвар Расхититель";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "Свала Вечноскорбящая"; 
-	["Gortok Palehoof"] = "Горток Бледное Копыто";
-	["Skadi the Ruthless"] = "Скади Безжалостный";
-	["King Ymiron"] = "Король Имирон";
-	["Skarvald the Constructor"] = "Скальвард Строитель";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "Аномалус";
-	["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
-	["Grand Magus Telestra"] = "Великая ведунья Телестра";
-	["Keristrasza"] = "Керистраза";
-	["Commander Stoutbeard"] = "Командир Пивобород";
-	["Berinand's Research"] = "Исследования Беринарда";
-
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "Старейшина Надокс";
-	["Prince Taldaram"] = "Принц Талдарам";
-	["Jedoga Shadowseeker"] = "Джедога Искательница Теней";
-	["Herald Volazj"] = "Глашатай Волаж";
-	["Amanitar"] = "Аманитар";
-
-	--The Violet Hold
-	["Erekem"] = "Эрекем";
-	["Zuramat the Obliterator"] = "Зурамат Уничтожитель";
-	["Xevozz"] = "Ксевозз";
-	["Ichoron"] = "Гнойрон";
-	["Moragg"] = "Морагг";
-	["Lavanthor"] = "Лавантор";
-	["Cyanigosa"] = "Синигоса";
-	["Wave 18"] = "18ая волна";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "Дракос Дознаватель";
-	["Mage-Lord Urom"] = "Маг-лорд Уром";
-	["Ley-Guardian Eregos"] = "Варос Заоблачный Странник";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник <Лазурный повелитель рода синих драконов>";
 	
 	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Верховный маг Тарсис Кир-Молдир";
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";
 	["Construct Quarter"] = "Квартал Мерзости";
 	["Patchwerk"] = "Лоскутик";
@@ -1555,23 +1519,108 @@ AtlasLocale = {
 	["Sapphiron"] = "Сапфирон";
 	["Kel'Thuzad"] = "Кел'Тузад";
 	
--- Ulduar: Ulduar	
-["Flame Leviathan"] = "Flame Leviathan";
-["Ignis the Furnace Master"] = "Ignis the Furnace Master";
-["Razorscale"] = "Razorscale";
-["XT-002 Deconstructor"] = "XT-002 Deconstructor";
-["Assembly of Iron"] = "Assembly of Iron";
-["Steelbreaker"] = "Steelbreaker";
-["Runemaster Molgeim"] = "Runemaster Molgeim";
-["Stormcaller Brundirle"] = "Stormcaller Brundirle";
-["Kologarn"] = "Kologarn";
-["Auriaya"] = "Auriaya";
-["Hodir"] = "Hodir";
-["Thorim"] = "Thorim";
-["Freya"] = "Freya";
-["Mimiron"] = "Mimiron";
-["General Vezax"] = "General Vezax";
-["Yogg-Saron"] = "Yogg-Saron";
-["Algalon the Observer"] = "Algalon the Observer";	
+	--The Nexus: The Nexus	
+	["Anomalus"] = "Аномалус";
+	["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
+	["Grand Magus Telestra"] = "Великая ведунья Телестра";
+	["Keristrasza"] = "Керистраза";
+	["Commander Stoutbeard"] = "Командир Пивобород";
+	["Berinand's Research"] = "Исследования Беринарда";
+	["Commander Kolurg"] = "Командир Колург";
+	
+	--The Nexus: The Eye of Eternity
+	["Malygos"] = "Малигос";
+	["Key to the Focusing Iris"] = "Ключ к Радужному Средоточию";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "Дракос Дознаватель";
+	["Mage-Lord Urom"] = "Маг-лорд Уром";
+	["Ley-Guardian Eregos"] = "Варос Заоблачный Странник";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник <Лазурный повелитель рода синих драконов>";
+	["Centrifuge Construct"] = "Центрифужное создание";
+	["Cache of Eregos"] = "Тайник Эрегоса";
+	
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "Род черных драконов";
+	["Sartharion <The Onyx Guardian>"] = "Сартарион <Ониксовый страж>";
+	["Tenebron"] = "Тенеброн";
+	["Shadron"] = "Шадрон";
+	["Vesperon"] = "Весперон";
+	
+	--The Violet Hold
+	["Erekem"] = "Эрекем";
+	["Zuramat the Obliterator"] = "Зурамат Уничтожитель";
+	["Xevozz"] = "Ксевозз";
+	["Ichoron"] = "Гнойрон";
+	["Moragg"] = "Морагг";
+	["Lavanthor"] = "Лавантор";
+	["Cyanigosa"] = "Синигоса";
+	["Wave 18"] = "18ая волна";
+	["The Violet Hold Key"] = "Ключ Аметистовой крепости";
+	
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "Генерал Бьярнгрин";
+	["Volkhan"] = "Волхан";
+	["Ionar"] = "Ионар";
+	["Loken"] = "Локен";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "Сундук Трибунала";
+	["Krystallus"] = "Кристаллус";
+	["Brann Bronzebeard"] = "Бранн Бронзобород";
+	["Sjonnir the Ironshaper"] = "Сьоннир Литейщик";
+	["Maiden of Grief"] = "Дева Скорби";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
+	["Dalronn the Controller"] = "Далронн Контролирующий";
+	["Ingvar the Plunderer"] = "Ингвар Расхититель";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Бригг Мелкотруб";
+	["Svala Sorrowgrave"] = "Свала Вечноскорбящая"; 
+	["Gortok Palehoof"] = "Горток Бледное Копыто";
+	["Skadi the Ruthless"] = "Скади Безжалостный";
+	["King Ymiron"] = "Король Имирон";
+	["Skarvald the Constructor"] = "Скальвард Строитель";
+
+	-- Ulduar General
+	["Celestial Planetarium Key"] = "Ключ к Священному планетарию";
+	["Antechamber"] = "Вестибюль"; --B
+	["Keepers"] = "Стража"; --C
+	["Spark of Imagination"] = "Spark of Imagination"; --D
+	["Descent into Madness"] = "Descent into Madness"; --E
+
+	-- Ulduar A
+	["Flame Leviathan"] = "Огненный Левиафан";
+	["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
+	["Razorscale"] = "Острокрылая";
+	["XT-002 Deconstructor"] = "Разрушитель XT-002";
+	
+	-- Ulduar B
+	["The Iron Council"] = "Железное собрание";
+	["Steelbreaker"] = "Сталелом";
+	["Runemaster Molgeim"] = "Мастер рун Молгейм";
+	["Stormcaller Brundirle"] = "Буревестник Брундир";
+	["Kologarn"] = "Кологарн";
+	["Algalon the Observer"] = "Алгалон Наблюдатель";
+	
+	-- Ulduar C
+	["Auriaya"] = "Ауриайя";
+	["Freya"] = "Фрейя";
+	["Thorim"] = "Торим";
+	["Hodir"] = "Ходир";
+	
+	-- Ulduar D
+	["Mimiron"] = "Мимирон";
+	
+	-- Ulduar E
+	["General Vezax"] = "Генерал Везакс";
+	["Yogg-Saron"] = "Йогг-Сарона";
+
+	--Vault of Archavon
+	["Archavon the Stone Watcher"] = "Аркавон Каменный Страж";
+	["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури";
 };
 end 
+

@@ -112,11 +112,12 @@ ATLAS_DEP_MSG2 = "Они будут отключены для данного п�
 ATLAS_DEP_MSG3 = "Удалите их из вашей папки аддонов.";
 ATLAS_DEP_OK = "Ok";
 
+
 AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"]	= "Затонувший храм";
-	["Ahn'Qiraj"]					= "Храм Ан'Киража";
-	["Karazhan"]					= "Каражан [A] (Старт)";
-	["Black Temple"]				= "Черный храм [A] (Старт)";
+	["The Temple of Atal'Hakkar"] = "Затонувший храм";
+	["Ahn'Qiraj"] = "Храм Ан'Киража";
+	["Karazhan"] = "Каражан [A] (Старт)";
+	["Black Temple"] = "Черный храм [A] (Старт)";
 }; 
 
 AtlasLocale = {
@@ -559,9 +560,9 @@ AtlasLocale = {
 	["Keepers of Time"] = "Хранители Времени";--omitted from Old Hillsbrad Foothills
 	["Key of Time"] = "Ключ Времени";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "Са'ат <Хранители Времени>";
-	["Wave 6: Chrono Lord Deja"] = "6й портал: Повелитель времени Дежа";
-	["Wave 12: Temporus"] = "12й портал: Темпорус";
-	["Wave 18: Aeonus"] = "18й портал: Эонус";
+	["Chrono Lord Deja"] = "Повелитель времени Дежа";
+	["Temporus"] = "Темпорус";
+	["Aeonus"] = "Эонус";
 	["The Dark Portal"] = "Темный портал";
 	["Medivh"] = "Медив";
 
@@ -1455,7 +1456,7 @@ AtlasLocale = {
 	["Jedoga Shadowseeker"] = "Джедога Искательница Теней";
 	["Herald Volazj"] = "Глашатай Волаж";
 	["Amanitar"] = "Аманитар";
-	["Ahn'kahet Brazier"] = "Ahn'kahet Brazier";	
+	["Ahn'kahet Brazier"] = "Ан'кахетская жаровня ";
 
 	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Крик'Тир Хранитель Врат";
@@ -1475,7 +1476,7 @@ AtlasLocale = {
 	["Infinite Corruptor"] = "Осквернитель из рода Бесконечности";
 	["Guardian of Time"] = "Хранитель Времени";
 	["Scourge Invasion Points"] = "Точки вторжения Плети";
-	
+
 	--Drak'Tharon Keep
 	["Trollgore"] = "Кровотролль";
 	["Novos the Summoner"] = "Новос Призыватель";
@@ -1490,7 +1491,7 @@ AtlasLocale = {
 	["Moorabi <High Prophet of Mam'toth>"] = "Мураби <Верховный пророк Мам'тота>";
 	["Gal'darah <High Prophet of Akali>"] = "Гал'дара <Верховный пророк Акали>";
 	["Eck the Ferocious"] = "Эк Свирепый";
-	
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";
 	["Construct Quarter"] = "Квартал Мерзости";
@@ -1518,7 +1519,7 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "Логово Ледяного Змея";
 	["Sapphiron"] = "Сапфирон";
 	["Kel'Thuzad"] = "Кел'Тузад";
-	
+
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Аномалус";
 	["Ormorok the Tree-Shaper"] = "Орморок Воспитатель Дерев";
@@ -1527,11 +1528,11 @@ AtlasLocale = {
 	["Commander Stoutbeard"] = "Командир Пивобород";
 	["Berinand's Research"] = "Исследования Беринарда";
 	["Commander Kolurg"] = "Командир Колург";
-	
+
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Малигос";
 	["Key to the Focusing Iris"] = "Ключ к Радужному Средоточию";
-	
+
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Дракос Дознаватель";
 	["Mage-Lord Urom"] = "Маг-лорд Уром";
@@ -1539,14 +1540,14 @@ AtlasLocale = {
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник <Лазурный повелитель рода синих драконов>";
 	["Centrifuge Construct"] = "Центрифужное создание";
 	["Cache of Eregos"] = "Тайник Эрегоса";
-	
+
 	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "Род черных драконов";
+	["Black Dragonflight Chamber"] = "Комната черных драконов";
 	["Sartharion <The Onyx Guardian>"] = "Сартарион <Ониксовый страж>";
 	["Tenebron"] = "Тенеброн";
 	["Shadron"] = "Шадрон";
 	["Vesperon"] = "Весперон";
-	
+
 	--The Violet Hold
 	["Erekem"] = "Эрекем";
 	["Zuramat the Obliterator"] = "Зурамат Уничтожитель";
@@ -1555,9 +1556,8 @@ AtlasLocale = {
 	["Moragg"] = "Морагг";
 	["Lavanthor"] = "Лавантор";
 	["Cyanigosa"] = "Синигоса";
-	["Wave 18"] = "18ая волна";
 	["The Violet Hold Key"] = "Ключ Аметистовой крепости";
-	
+
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "Генерал Бьярнгрин";
 	["Volkhan"] = "Волхан";
@@ -1583,14 +1583,14 @@ AtlasLocale = {
 	["Skadi the Ruthless"] = "Скади Безжалостный";
 	["King Ymiron"] = "Король Имирон";
 	["Skarvald the Constructor"] = "Скальвард Строитель";
-
+	
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Ключ к Священному планетарию";
 	["Antechamber"] = "Вестибюль"; --B
 	["Keepers"] = "Стража"; --C
-	["Spark of Imagination"] = "Spark of Imagination"; --D
-	["Descent into Madness"] = "Descent into Madness"; --E
-
+	["Spark of Imagination"] = "Искра Воображения"; --D
+	["Descent into Madness"] = "Провал Безумия"; --E
+	
 	-- Ulduar A
 	["Flame Leviathan"] = "Огненный Левиафан";
 	["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
@@ -1621,6 +1621,6 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Аркавон Каменный Страж";
 	["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури";
+	
 };
 end 
-

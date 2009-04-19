@@ -23,12 +23,11 @@
 --]]
 
 -- Deutsche Lokalisierung (German, deDE)
--- Nihlo (ICQ: 260-869-930)
 -- Dynaletik (ICQ: 176-289-585)
+-- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
--- Hom
 
--- Letztes Update: 16.04.2009
+-- Letztes Update: 19.04.2009
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1285,7 +1284,6 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Pathaleon der Kalkulator";
 
 	--TK: The Eye
-	["The Tempest Key"] = "Der Schlüssel der Stürme";
 	["Al'ar <Phoenix God>"] = "Al'ar <Phönixgott>";
 	["Void Reaver"] = "Leerhäscher";
 	["High Astromancer Solarian"] = "Hochastromant Solarian";
@@ -1304,7 +1302,6 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Todeshörige der Aschenzungen";--omitted from other BT
-	["Medallion of Karabor"] = "Medaillon von Karabor";--omitted from other BT
 	["Towards Reliquary of Souls"] = "Zu Relikt der Seelen";
 	["Towards Teron Gorefiend"] = "Zu Teron Blutschatten";
 	["Towards Illidan Stormrage"] = "Zu Illidan Sturmgrimm";
@@ -1557,7 +1554,7 @@ AtlasLocale = {
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
-	["Wave 18"] = "Welle 18";
+	["The Violet Hold Key"] = "Der Schlüssel zur Violetten Festung";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1585,24 +1582,39 @@ AtlasLocale = {
 	["King Ymiron"] = "König Ymiron";
 	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
 
-	-- Ulduar: Ulduar	
+	-- Ulduar General
+	["Celestial Planetarium Key"] = "Schlüssel des Himmlischen Planetariums";
+	["Antechamber"] = "Die Vorkammer"; --B
+	["Keepers"] = "Die Hüter"; --C
+	["Spark of Imagination"] = "Der Funke der Imagination"; --D
+	["Descent into Madness"] = "Der Abstieg in den Wahnsinn"; --E
+
+	-- Ulduar A
 	["Flame Leviathan"] = "Flammenleviathan";
 	["Ignis the Furnace Master"] = "Ignis, Meister des Eisenwerks";
 	["Razorscale"] = "Klingenschuppe";
 	["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
-	["Assembly of Iron"] = "Versammlung des Eisens";
+	
+	-- Ulduar B
+	["The Iron Council"] = "Versammlung des Eisens";
 	["Steelbreaker"] = "Stahlbrecher";
 	["Runemaster Molgeim"] = "Runenmeister Molgeim";
 	["Stormcaller Brundirle"] = "Sturmrufer Brundir";
 	["Kologarn"] = "Kologarn";
+	["Algalon the Observer"] = "Algalon der Beobachter";
+	
+	-- Ulduar C
 	["Auriaya"] = "Auriaya";
-	["Hodir"] = "Hodir";
-	["Thorim"] = "Thorim";
 	["Freya"] = "Freya";
+	["Thorim"] = "Thorim";
+	["Hodir"] = "Hodir";
+	
+	-- Ulduar D
 	["Mimiron"] = "Mimiron";
+	
+	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
-	["Algalon the Observer"] = "Algalon der Beobachter";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";

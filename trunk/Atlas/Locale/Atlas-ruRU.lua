@@ -1598,6 +1598,10 @@ AtlasLocale = {
 	["Ignis the Furnace Master"] = "Повелитель Горнов Игнис";
 	["Razorscale"] = "Острокрылая";
 	["XT-002 Deconstructor"] = "Разрушитель XT-002";
+	["Expedition Base Camp"] = "Главный лагерь экспедиции";
+	["Formation Grounds"] = "Плац";
+	["The Colossal Forge"] = "Гигантская кузня";
+	["The Scrapyard"] = "Мусорная свалка";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Железное собрание";
@@ -1606,12 +1610,15 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Буревестник Брундир";
 	["Kologarn"] = "Кологарн";
 	["Algalon the Observer"] = "Алгалон Наблюдатель";
+	["Antechamber of Ulduar"] = "Вестибюль Ульдуара";
 	
 	-- Ulduar C
 	["Auriaya"] = "Ауриайя";
 	["Freya"] = "Фрейя";
 	["Thorim"] = "Торим";
 	["Hodir"] = "Ходир";
+	["The Shattered Walkway"] = "Обвалившеяся галерия";
+	["The Conservatory of Life"] = "Оранжерея Жизни";
 	
 	-- Ulduar D
 	["Mimiron"] = "Мимирон";

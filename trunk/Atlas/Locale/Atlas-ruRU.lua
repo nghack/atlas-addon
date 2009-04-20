@@ -287,7 +287,7 @@ AtlasLocale = {
 	["The Stockade"] = "Тюрьма"; ["Stocks"] = "Тюрьма";
 	["The Underbog"] = "Нижетопь"; ["UB"] = "НТ";
 	["The Violet Hold"] = "Аметистовая крепость";
-	["Uldaman"] = "Ульдаман"; ["Uld"] = "Ульд";
+	["Uldaman"] = "Ульдаман"; ["Ulda"] = "Ульд";
 	["Ulduar"] = "Ульдуар";
 	["Utgarde Keep"] = "Крепость Утгард";
 	["Utgarde Pinnacle"] = "Вершина Утгард";
@@ -313,6 +313,7 @@ AtlasLocale = {
 	["Ocu"] = "Оку"; -- Окулус
 	["VoA"] = "Склеп"; -- Склеп Аркавона
 	["TEoE"] = "ОВ"; -- Око Вечности
+	["Uldu"] = "Ульда"; -- Ульдуар
 	
 	--Continents
 	["Eastern Kingdoms"] = "Восточные королевства";

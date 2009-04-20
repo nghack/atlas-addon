@@ -946,7 +946,7 @@ AtlasMaps = {
 	};
 	Uldaman = {
 		ZoneName = { AtlasLocale["Uldaman"], 1337 };
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Ulda"];
 		Location = { AtlasLocale["Badlands"], 3 };
 		LevelRange = "36-42";
 		MinLevel = "30";
@@ -2115,7 +2115,7 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["The Antechamber"] };
@@ -2134,10 +2134,10 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
-		{ BLUE.."B) "..AtlasLocale["Start"] };
+		{ BLUE.."B) "..AtlasLocale["The Siege"] };
 		{ BLUE.."C) "..AtlasLocale["The Keepers"] };
 		{ GREY.."5) "..AtlasLocale["Assembly of Iron"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
@@ -2145,7 +2145,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Stormcaller Brundir"], NPC, 32867 };
 		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
 		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
-		{ GREN.."5') "..AtlasLocale["Antichamber of Ulduar"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
+		{ GREN.."5') "..AtlasLocale["Antechamber of Ulduar"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	
 	};
 	UlduarC = {
@@ -2154,7 +2154,7 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."C) "..AtlasLocale["The Antechamber"] };
 		{ BLUE.."D) "..AtlasLocale["Spark of Imagination"] };
@@ -2172,7 +2172,7 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."D) "..AtlasLocale["The Keepers"] };
 		{ GREY.."12) "..AtlasLocale["Mimiron"], NPC, 33412 };
@@ -2183,7 +2183,7 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
-		Acronym = AtlasLocale["Uld"];
+		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."E) "..AtlasLocale["The Keepers"] };
 		{ GREY.."13) "..AtlasLocale["General Vezax"], NPC, 33271 };

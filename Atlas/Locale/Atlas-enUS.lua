@@ -287,7 +287,7 @@ AtlasLocale = {
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "The Underbog"; ["UB"] = "UB";
 	["The Violet Hold"] = "The Violet Hold";
-	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Utgarde Keep";
 	["Utgarde Pinnacle"] = "Utgarde Pinnacle";
@@ -313,6 +313,7 @@ AtlasLocale = {
 	["Ocu"] = "Ocu"; -- The Oculus
 	["VoA"] = "VoA"; -- Vault of Archavon
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
+	["Uldu"] = "Uldu"; -- Ulduar
 
 	--Continents
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
@@ -1601,7 +1602,7 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Stormcaller Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon the Observer";
-	["Antichamber of Ulduar"] = "Antichamber of Ulduar";
+	["Antechamber of Ulduar"] = "Antechamber of Ulduar";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";

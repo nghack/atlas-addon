@@ -206,6 +206,7 @@ AtlasLocale = {
 	["Spider"] = "Spinne";
 	["Start"] = "Anfang";
 	["Summon"] = "Beschwörbar";
+	["Teleporter"] = "Teleporter";
 	["Third Stop"] = "Dritter Halt";
 	["Tiger"] = "Tiger";
 	["Top"] = "Spitze";
@@ -293,7 +294,7 @@ AtlasLocale = {
 	["The Stockade"] = "Das Verlies"; ["Stocks"] = "Verlies";
 	["The Underbog"] = "Der Tiefensumpf"; ["UB"] = "TS";
 	["The Violet Hold"] = "Die Violette Festung";
-	["Uldaman"] = "Uldaman"; ["Uld"] = "Ulda";
+	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Burg Utgarde";
 	["Utgarde Pinnacle"] = "Turm Utgarde";
@@ -319,6 +320,7 @@ AtlasLocale = {
 	["Ocu"] = "Ocu"; -- Das Oculus
 	["VoA"] = "Archa"; -- Archavons Kammer
 	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
+	["Uldu"] = "Uldu"; -- Ulduar
 	
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
@@ -1584,8 +1586,9 @@ AtlasLocale = {
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Schlüssel des Himmlischen Planetariums";
-	["Antechamber"] = "Die Vorkammer"; --B
-	["Keepers"] = "Die Hüter"; --C
+	["The Siege"] = "Die Belagerung";
+	["The Antechamber"] = "Die Vorkammer"; --B
+	["The Keepers"] = "Die Hüter"; --C
 	["Spark of Imagination"] = "Der Funke der Imagination"; --D
 	["Descent into Madness"] = "Der Abstieg in den Wahnsinn"; --E
 
@@ -1594,20 +1597,27 @@ AtlasLocale = {
 	["Ignis the Furnace Master"] = "Ignis, Meister des Eisenwerks";
 	["Razorscale"] = "Klingenschuppe";
 	["XT-002 Deconstructor"] = "XT-002 Dekonstruktor";
+	["Expedition Base Camp"] = "Basislager der Expedition";
+	["Formation Grounds"] = "Gestaltungsgelände";
+	["The Colossal Forge"] = "Die kolossale Schmiede";
+	["The Scrapyard"] = "Der Schrottplatz";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Versammlung des Eisens";
 	["Steelbreaker"] = "Stahlbrecher";
 	["Runemaster Molgeim"] = "Runenmeister Molgeim";
-	["Stormcaller Brundirle"] = "Sturmrufer Brundir";
+	["Stormcaller Brundir"] = "Sturmrufer Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon der Beobachter";
+	["Antechamber of Ulduar"] = "Vorkammer von Ulduar";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
 	["Thorim"] = "Thorim";
 	["Hodir"] = "Hodir";
+	["The Shattered Walkway"] = "Der zerschmetterte Gang";
+	["The Conservatory of Life"] = "Das Konservatorium des Lebens";
 	
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";

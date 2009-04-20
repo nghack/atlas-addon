@@ -2123,6 +2123,10 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"].." ("..AtlasLocale["Optional"]..")", NPC, 33118 };
 		{ GREY.."3) "..AtlasLocale["Razorscale"].." ("..AtlasLocale["Optional"]..")", NPC, 33186 };
 		{ GREY.."4) "..AtlasLocale["XT-002 Deconstructor"], NPC, 33293 };
+		{ GREN.."1') "..AtlasLocale["Expedition Base Camp"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
+		{ GREN.."2') "..AtlasLocale["Formation Grounds"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
+		{ GREN.."3') "..AtlasLocale["The Colossal Forge"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
+		{ GREN.."4') "..AtlasLocale["The Scrapyard"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	UlduarB = {
 		ZoneName = { AtlasLocale["Ulduar"].." [B] ("..AtlasLocale["The Antechamber"]..")", 4273 };
@@ -2141,6 +2145,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Stormcaller Brundir"], NPC, 32867 };
 		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
 		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
+		{ GREN.."5') "..AtlasLocale["Antichamber of Ulduar"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	
 	};
 	UlduarC = {
@@ -2158,6 +2163,8 @@ AtlasMaps = {
 		{ GREY.."9) "..AtlasLocale["Freya"], NPC, 33410 };
 		{ GREY.."10) "..AtlasLocale["Thorim"], NPC, 33413 };
 		{ GREY.."11) "..AtlasLocale["Hodir"] };
+		{ GREN.."6') "..AtlasLocale["The Shattered Walkway"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
+		{ GREN.."7') "..AtlasLocale["The Conservatory of Life"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	UlduarD = {
 		ZoneName = { AtlasLocale["Ulduar"].." [D] ("..AtlasLocale["Spark of Imagination"]..")", 4273 };

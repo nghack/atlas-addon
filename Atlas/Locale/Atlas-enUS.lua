@@ -199,6 +199,7 @@ AtlasLocale = {
 	["Spider"] = "Spider";
 	["Start"] = "Start";
 	["Summon"] = "Summon";
+	["Teleporter"] = "Teleporter";
 	["Third Stop"] = "Third Stop";
 	["Tiger"] = "Tiger";
 	["Top"] = "Top";
@@ -1588,6 +1589,10 @@ AtlasLocale = {
 	["Ignis the Furnace Master"] = "Ignis the Furnace Master";
 	["Razorscale"] = "Razorscale";
 	["XT-002 Deconstructor"] = "XT-002 Deconstructor";
+	["Expedition Base Camp"] = "Expedition Base Camp";
+	["Formation Grounds"] = "Formation Grounds";
+	["The Colossal Forge"] = "The Colossal Forge";
+	["The Scrapyard"] = "The Scrapyard";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Assembly of Iron";
@@ -1596,12 +1601,15 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Stormcaller Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon the Observer";
+	["Antichamber of Ulduar"] = "Antichamber of Ulduar";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
 	["Thorim"] = "Thorim";
 	["Hodir"] = "Hodir";
+	["The Shattered Walkway"] = "The Shattered Walkway";
+	["The Conservatory of Life"] = "The Conservatory of Life";
 	
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";

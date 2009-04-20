@@ -200,6 +200,7 @@ AtlasLocale = {
 	["Spider"] = "Паук";
 	["Start"] = "Начало";
 	["Summon"] = "Вызов";
+	["Teleporter"] = "Телепорт";
 	["Third Stop"] = "Третья остановка";
 	["Tiger"] = "Тигр";
 	["Top"] = "Верхний";
@@ -1589,7 +1590,7 @@ AtlasLocale = {
 	["Celestial Planetarium Key"] = "Ключ к Священному планетарию";
 	["The Siege"] = "Осада";
 	["The Antechamber"] = "Вестибюль"; --B
-	["The Keepers"] = "Стража"; --C
+	["The Keepers"] = "Хранители"; --C
 	["Spark of Imagination"] = "Искра Воображения"; --D
 	["Descent into Madness"] = "Провал Безумия"; --E
 	

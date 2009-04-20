@@ -2118,7 +2118,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Antechamber"] };
+		{ BLUE.."B) "..AtlasLocale["The Antechamber"] };
 		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
 		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"].." ("..AtlasLocale["Optional"]..")", NPC, 33118 };
 		{ GREY.."3) "..AtlasLocale["Razorscale"].." ("..AtlasLocale["Optional"]..")", NPC, 33186 };
@@ -2134,7 +2134,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Celestial Planetarium Key"], ITEM, 45796 };
 		{ BLUE.."B) "..AtlasLocale["Start"] };
-		{ BLUE.."C) "..AtlasLocale["Keepers"] };
+		{ BLUE.."C) "..AtlasLocale["The Keepers"] };
 		{ GREY.."5) "..AtlasLocale["Assembly of Iron"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
@@ -2151,7 +2151,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
-		{ BLUE.."C) "..AtlasLocale["Antechamber"] };
+		{ BLUE.."C) "..AtlasLocale["The Antechamber"] };
 		{ BLUE.."D) "..AtlasLocale["Spark of Imagination"] };
 		{ BLUE.."E) "..AtlasLocale["Descent into Madness"] };
 		{ GREY.."8) "..AtlasLocale["Auriaya"].." ("..AtlasLocale["Optional"]..")", NPC, 33515 };
@@ -2167,7 +2167,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
-		{ BLUE.."D) "..AtlasLocale["Keepers"] };
+		{ BLUE.."D) "..AtlasLocale["The Keepers"] };
 		{ GREY.."12) "..AtlasLocale["Mimiron"], NPC, 33412 };
 	};
 	UlduarE = {
@@ -2178,7 +2178,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Uld"];
 		Continent = AtlasLocale["Northrend"];
-		{ BLUE.."E) "..AtlasLocale["Keepers"] };
+		{ BLUE.."E) "..AtlasLocale["The Keepers"] };
 		{ GREY.."13) "..AtlasLocale["General Vezax"], NPC, 33271 };
 		{ GREY.."14) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
 	};

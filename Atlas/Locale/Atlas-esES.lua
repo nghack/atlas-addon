@@ -203,6 +203,7 @@ AtlasLocale = {
 	["Spider"] = "Araña";
 	["Start"] = "Comienzo";
 	["Summon"] = "Invocar";
+	["Teleporter"] = "Teletransportador";
 	["Third Stop"] = "Tercera parada";
 	["Tiger"] = "Tigre";
 	["Top"] = "Arriba";
@@ -302,19 +303,19 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub";
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
 	["Strat, CoT-Strat"] = "Strat, CdT-Strat";
-	["DTK"] = "DTK"; --Check
-	["Gun"] = "Gun";
-	["HoS"] = "CdP";
-	["HoL"] = "CdR";
-	["OS"] = "SO";
-	["UK, Keep"] = "GU, Guarida";
-	["UP, Pinn"] = "PU, Pinaculo";
-	["Nex, Nexus"] = "Nexo";
-	["AK, Kahet"] = "Kahet";
-	["VH"] = "BV";
-	["Ocu"] = "Oculus";
+	["DTK"] = "DTK"; -- Drak'Tharon Keep
+	["Gun"] = "Gun"; -- Gundrak
+	["HoS"] = "CdP"; -- Halls of Stone
+	["HoL"] = "CdR"; -- Halls of Lightning
+	["OS"] = "SO"; -- The Obsidian Sanctum
+	["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
+	["UP, Pinn"] = "PU, Pinaculo"; -- Utgarde Pinnacl
+	["Nex, Nexus"] = "Nexo"; -- The Nexus
+	["AK, Kahet"] = "Kahet"; -- Ahn'kahet
+	["VH"] = "BV"; -- The Violet Hold
+	["Ocu"] = "Oculus"; -- The Oculus
 	["Archavon"] = "VoA"; -- Vault of Archavon
 	["TEoE"] = "OE"; -- The Eye of Eternity
 	
@@ -430,7 +431,7 @@ AtlasLocale = {
 	["Plaguemaw the Rotting"] = "Fauzpeste el Putrefacto";
 	
 	--Zul'Farrak
-	["Mallet of Zul'Farrak"] = "Marra de Zul'Farrak";
+
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Sobrestante de Sul>";
 	["Theka the Martyr"] = "Theka el Mártir";
 	["Witch Doctor Zum'rah"] = "Médico Brujo Zum'rah";
@@ -511,7 +512,7 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Restos de Kariel Winthalus";
 	
 	--Onyxia's Lair
-	["Drakefire Amulet"] = "Amuleto Pirodraco";
+
 	["Onyxian Warders"] = "Guardas de Onyxia";
 	["Whelp Eggs"] = "Huevos de crías";
 	["Onyxia"] = "Onyxia";
@@ -739,7 +740,7 @@ AtlasLocale = {
 	["Burning Felguard"] = "Guarda vil ardiente";
 
 	--Blackrock Spire (Upper)
-	["Seal of Ascension"] = "Sello de Ascensión";
+
 	["Pyroguard Emberseer"] = "Piroguardián Brasadivino";
 	["Solakar Flamewreath"] = "Solakar Corona de Fuego";
 	["Father Flame"] = "Padre llama";
@@ -790,8 +791,7 @@ AtlasLocale = {
 	
 	--Molten Core
 	["Hydraxian Waterlords"] = "Srs. del Agua de Hydraxis";
-	["Aqual Quintessence"] = "Quintaesencia de agua";
-	["Eternal Quintessence"] = "Quintaesencia Eterna";
+
 	["Lucifron"] = "Lucifron";
 	["Magmadar"] = "Magmadar";
 	["Gehennas"] = "Gehennas";
@@ -832,7 +832,7 @@ AtlasLocale = {
 	["Viewing Room"] = "Sala de visión";
 	["Blood of Innocents"] = "Sangre de los Inocentes";	
 	["Divination Scryer"] = "Cristal de adivinación";
-	["Darkreaver"] = "Atracoscuro";
+
 	["Blood Steward of Kirtonos"] = "Administrador de sangre de Kirtonos";
 	["The Deed to Southshore"] = "Las escrituras de Costasur";
 	["Kirtonos the Herald"] = "Kirtonos el Heraldo";
@@ -1013,7 +1013,7 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "El Ojo Violeta";--omitted from Karazhan End
 	["The Master's Key"] = "La llave del maestro";--omitted from Karazhan End
-	["Blackened Urn"] = "Urna ennegrecida";
+
 	["Staircase to the Ballroom"] = "Escaleras al Salón de baile";
 	["Stairs to Upper Stable"] = "Escaleras al Establo superior";
 	["Ramp to the Guest Chambers"] = "Rampa a Los aposentos de invitados";
@@ -1295,7 +1295,7 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Pathaleon el Calculator";
 
 	--TK: The Eye
-	["The Tempest Key"] = "Llave de la Tempestad";
+
 	["Al'ar <Phoenix God>"] = "Al'ar <Dios Fénix>";
 	["Void Reaver"] = "Atracador del vacío";
 	["High Astromancer Solarian"] = "Gran astromántico Solarian";
@@ -1315,7 +1315,7 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Juramorte Lengua de Ceniza";--omitted from other BT
-	["Medallion of Karabor"] = "Medallón de Karabor";--omitted from other BT
+
 	["Towards Reliquary of Souls"] = "Hacia Relicario de Almas";
 	["Towards Teron Gorefiend"] = "Hacia Teron Sanguino";
 	["Towards Illidan Stormrage"] = "Hacia Illidan Tempestira";
@@ -1507,7 +1507,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Eck el Feroz";
 	
 	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "Archimago Tarsis Kil-Moldir";
+
 	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
 	["Construct Quarter"] = "Barrio de los Ensamblajes";
 	["Patchwerk"] = "Remendejo";
@@ -1571,7 +1571,8 @@ AtlasLocale = {
 	["Moragg"] = "Moragg";
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cianigosa";
-	["Wave 18"] = "Ola 18";
+	["The Violet Hold Key"] = "Llave de El Bastión Violeta";
+
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1585,11 +1586,61 @@ AtlasLocale = {
 	["Brann Bronzebeard"] = "Brann Barbabronce";
 	["Sjonnir the Ironshaper"] = "Sjonnir el Afilador";
 	["Maiden of Grief"] = "Doncella de Pena";
-
+	
+	
+	-- Ulduar General
+	["Celestial Planetarium Key"] = "Llave del Planetario Celestial"; --Check
+	["The Siege"] = "El asedio"; --Check
+	["The Antechamber"] = "La Antecámara"; --B Check
+	["The Keepers"] = "Los vigilantes"; --C Check
+	["Spark of Imagination"] = "Chispa de Imaginación"; --D Check
+	["Descent into Madness"] = "El Descenso a la Locura"; --E
+	
+	
+	-- Ulduar A
+	["Flame Leviathan"] = "Leviatán de llamas";
+	["Ignis the Furnace Master"] = "Ignis el Maestro de la Caldera";
+	["Razorscale"] = "Tajoescama";
+	["XT-002 Deconstructor"] = "Desarmador XA-002";
+	["Expedition Base Camp"] = "Campamento Base de la Expedición"; --Check
+	["Formation Grounds"] = "Campo de Formación";
+	["The Colossal Forge"] = "La Forja Colosal"; --Check
+	["The Scrapyard"] = "La Chatarrería";
+	
+	
+	-- Ulduar B
+	["Assembly of Iron"] = "Asamblea de Hierro";
+	["Steelbreaker"] = "Rompeacero";
+	["Runemaster Molgeim"] = "Maestro de runas Molgeim";
+	["Stormcaller Brundir"] = "Clamatormentas Brundir";
+	["Kologarn"] = "Kologarn";
+	["Algalon the Observer"] = "Algalon el Observador";
+	["Antechamber of Ulduar"] = "La Antecámara de Ulduar";
+	
+	
+	-- Ulduar C
+	["Auriaya"] = "Auriaya";
+	["Freya"] = "Don de Freya";
+	["Thorim"] = "Thorim";
+	["Hodir"] = "Hodir";
+	["The Shattered Walkway"] = "El Paseo Arrasado"; --Check
+	["The Conservatory of Life"] = "El Invernadero de Vida";
+	
+	
+	-- Ulduar D
+	["Mimiron"] = "Mimiron";
+	
+	
+	-- Ulduar E
+	["General Vezax"] = "General Vezax";
+	["Yogg-Saron"] = "Yogg-Saron";
+	
+	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <Los San'layn>";
 	["Dalronn the Controller"] = "Dalronn el Controlador";
 	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
+	
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Espinillas";
@@ -1599,24 +1650,6 @@ AtlasLocale = {
 	["King Ymiron"] = "Rey Ymiron";
 	["Skarvald the Constructor"] = "Skarvald el Constructor";
 	
-	-- Ulduar: Ulduar	
-	["Flame Leviathan"] = "Leviatán de llamas";
-	["Ignis the Furnace Master"] = "Ignis el Maestro de la Caldera";
-	["Razorscale"] = "Tajoescama";
-	["XT-002 Deconstructor"] = "Desarmador XT-002";
-	["Assembly of Iron"] = "Assembly of Iron"; --FALTA
-	["Steelbreaker"] = "Rompeacero";
-	["Runemaster Molgeim"] = "Runemaster Molgeim"; --FALTA
-	["Stormcaller Brundirle"] = "Stormcaller Brundirle"; --FALTA
-	["Kologarn"] = "Kologarn"; --FALTA
-	["Auriaya"] = "Auriaya";
-	["Hodir"] = "Hodir"; --FALTA
-	["Thorim"] = "Thorim"; --FALTA
-	["Freya"] = "Don de Freya"; --Check
-	["Mimiron"] = "Mimiron"; --FALTA
-	["General Vezax"] = "General Vezax";
-	["Yogg-Saron"] = "Yogg-Saron";
-	["Algalon the Observer"] = "Algalon el Observador";	
 	
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";

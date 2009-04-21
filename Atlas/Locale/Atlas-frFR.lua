@@ -1585,8 +1585,8 @@ AtlasLocale = {
 	["XT-002 Deconstructor"] = "Déconstructeur XT-002";
 	["Expedition Base Camp"] = "Camp de base de l'Expédition";
 	["Formation Grounds"] = "Champ d'Entrainement";
-	["The Colossal Forge"] = "Forge colossale";
-	["The Scrapyard"] = "Ferraillerie"; 
+	["The Colossal Forge"] = "La Forge colossale";
+	["The Scrapyard"] = "La Ferraillerie"; 
 
 	-- Ulduar B
 	["Assembly of Iron"] = "L'Assemblée de Fer";
@@ -1595,15 +1595,15 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Mande-foudre Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon l'Observateur";	
-	["Antechamber of Ulduar"] = "Antichambre d'Ulduar";
+	["Antechamber of Ulduar"] = "L'Antichambre d'Ulduar";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
 	["Thorim"] = "Thorim";
 	["Hodir"] = "Hodir";
-	["The Shattered Walkway"] = "Passage Brisé";
-	["The Conservatory of Life"] = "Jardin de la Vie";
+	["The Shattered Walkway"] = "Le Passage Brisé";
+	["The Conservatory of Life"] = "Le Jardin de la Vie";
 
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";

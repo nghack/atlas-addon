@@ -1563,19 +1563,6 @@ AtlasLocale = {
 	["Brann Bronzebeard"] = "Brann Bronzebeard";
 	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
 	["Maiden of Grief"] = "Maiden of Grief";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Brigg Smallshanks"] = "Brigg Smallshanks";
-	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
-	["Gortok Palehoof"] = "Gortok Palehoof";
-	["Skadi the Ruthless"] = "Skadi the Ruthless";
-	["King Ymiron"] = "King Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Celestial Planetarium Key";
@@ -1594,7 +1581,7 @@ AtlasLocale = {
 	["Formation Grounds"] = "Formation Grounds";
 	["The Colossal Forge"] = "The Colossal Forge";
 	["The Scrapyard"] = "The Scrapyard";
-	
+
 	-- Ulduar B
 	["Assembly of Iron"] = "Assembly of Iron";
 	["Steelbreaker"] = "Steelbreaker";
@@ -1603,7 +1590,7 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon the Observer";
 	["Antechamber of Ulduar"] = "Antechamber of Ulduar";
-	
+
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
@@ -1611,16 +1598,28 @@ AtlasLocale = {
 	["Hodir"] = "Hodir";
 	["The Shattered Walkway"] = "The Shattered Walkway";
 	["The Conservatory of Life"] = "The Conservatory of Life";
-	
+
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";
-	
+
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
 
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Brigg Smallshanks";
+	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
+	["Gortok Palehoof"] = "Gortok Palehoof";
+	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["King Ymiron"] = "King Ymiron";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
+
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
-
 };

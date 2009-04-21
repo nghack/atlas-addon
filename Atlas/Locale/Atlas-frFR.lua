@@ -208,6 +208,7 @@ AtlasLocale = {
 	["Spider"] = "Araignée";
 	["Start"] = "Début";
 	["Summon"] = "Invoqué";
+	["Teleporter"] = "Téléporteur";
 	["Third Stop"] = "Troisième arrêt";
 	["Tiger"] = "Tigre";
 	["Top"] = "Haut";
@@ -295,7 +296,7 @@ AtlasLocale = {
 	["The Stockade"] = "La Prison"; ["Stocks"] = "Stocks/Prison";
 	["The Underbog"] = "La Basse-tourbière"; ["UB"] = "UB";
 	["The Violet Hold"] = "Le fort Pourpre";
-	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
+	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Donjon d'Utgarde";
 	["Utgarde Pinnacle"] = "Cime d'Utgarde";
@@ -1576,15 +1577,19 @@ AtlasLocale = {
 	["The Siege"] = "Le Siège";
 	["The Antechamber"] = "L'antichambre"; --B
 	["The Keepers"] = "Les Gardiens"; --C
-["Spark of Imagination"] = "Spark of Imagination"; --D
-["Descent into Madness"] = "Descent into Madness"; --E
+	["Spark of Imagination"] = "L'Étincelle d'imagination"; --D
+	["Descent into Madness"] = "La Descente dans la folie"; --E
 
 	-- Ulduar A
 	["Flame Leviathan"] = "Léviathan des flammes";
 	["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
 	["Razorscale"] = "Tranchécaille";
 	["XT-002 Deconstructor"] = "Déconstructeur XT-002";
-	
+	["Expedition Base Camp"] = "Camp de base de l'expédition";
+	--["Formation Grounds"] = "Formation Grounds"; -- à traduire
+	["The Colossal Forge"] = "La Forge colossale";
+	--["The Scrapyard"] = "The Scrapyard"; -- à traduire
+
 	-- Ulduar B
 	["Assembly of Iron"] = "L'Assemblée de Fer";
 	["Steelbreaker"] = "Brise-acier";
@@ -1592,16 +1597,19 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Mande-foudre Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon l'Observateur";	
-	
+	--["Antichamber of Ulduar"] = "Antichamber of Ulduar"; -- à traduire
+
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
-	["Hodir"] = "Hodir";
-	["Thorim"] = "Thorim";
 	["Freya"] = "Freya";
-	
+	["Thorim"] = "Thorim";
+	["Hodir"] = "Hodir";
+	--["The Shattered Walkway"] = "The Shattered Walkway"; -- à traduire
+	--["The Conservatory of Life"] = "The Conservatory of Life"; -- à traduire
+
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";
-	
+
 	-- Ulduar E
 	["General Vezax"] = "Général Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";

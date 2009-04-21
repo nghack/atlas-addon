@@ -1585,10 +1585,10 @@ AtlasLocale = {
 	["Ignis the Furnace Master"] = "Ignis le maître de la Fournaise";
 	["Razorscale"] = "Tranchécaille";
 	["XT-002 Deconstructor"] = "Déconstructeur XT-002";
-	["Expedition Base Camp"] = "Camp de base de l'expédition";
-	--["Formation Grounds"] = "Formation Grounds"; -- à traduire
-	["The Colossal Forge"] = "La Forge colossale";
-	--["The Scrapyard"] = "The Scrapyard"; -- à traduire
+	["Expedition Base Camp"] = "Camp de base de l'Expédition";
+	["Formation Grounds"] = "Champ d'Entrainement";
+	["The Colossal Forge"] = "Forge colossale";
+	["The Scrapyard"] = "Ferraillerie"; 
 
 	-- Ulduar B
 	["Assembly of Iron"] = "L'Assemblée de Fer";
@@ -1597,15 +1597,15 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Mande-foudre Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon l'Observateur";	
-	--["Antichamber of Ulduar"] = "Antichamber of Ulduar"; -- à traduire
-
+	["Antichamber of Ulduar"] = "Antichambre d'Ulduar";
+	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
 	["Thorim"] = "Thorim";
 	["Hodir"] = "Hodir";
-	--["The Shattered Walkway"] = "The Shattered Walkway"; -- à traduire
-	--["The Conservatory of Life"] = "The Conservatory of Life"; -- à traduire
+	["The Shattered Walkway"] = "Passage Brisé";
+	["The Conservatory of Life"] = "Jardin de la Vie";
 
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";

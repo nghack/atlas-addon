@@ -21,7 +21,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
+-- Last Update : 04/21/2009
 if ( GetLocale() ==	"zhTW" ) then
 
 AtlasBGLocale = {
@@ -47,12 +47,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB/阿拉希";
 	["Arathi Highlands"] = "阿拉希高地";
 	["Ashenvale"] = "梣谷";
+	["Dragonblight"] = "龍骨荒野";
 	["Eastern Kingdoms"] = "東部王國";
 	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS/暴風";
 	["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
 	["Kalimdor"] = "卡林多";
 	["Netherstorm"] = "虛空風暴";
 	["Outland"] = "外域";
+	["Strand of the Ancients"] = "遠祖灘頭"; ["SotA"] = "SotA/遠祖";
 	["The Barrens"] = "貧瘠之地";
 	["Warsong Gulch"] = "戰歌峽谷"; ["WSG"] = "WSG/戰歌";
 

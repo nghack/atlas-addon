@@ -1595,7 +1595,7 @@ AtlasLocale = {
 	["Stormcaller Brundir"] = "Mande-foudre Brundir";
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon l'Observateur";	
-	["Antichamber of Ulduar"] = "Antichambre d'Ulduar";
+	["Antechamber of Ulduar"] = "Antichambre d'Ulduar";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";

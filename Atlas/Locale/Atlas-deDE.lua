@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 19.04.2009
+-- Letztes Update: 21.04.2009
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1571,19 +1571,6 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "Sjonnir der Eisenformer";
 	["Maiden of Grief"] = "Maid der Trauer";
 
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
-	["Dalronn the Controller"] = "Dalronn der Aufseher";
-	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Brigg Smallshanks"] = "Brigg Kleinkeul";
-	["Svala Sorrowgrave"] = "Svala Grabesleid"; 
-	["Gortok Palehoof"] = "Gortok Bleichhuf";
-	["Skadi the Ruthless"] = "Skadi der Skrupellose";
-	["King Ymiron"] = "König Ymiron";
-	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
-
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Schlüssel des Himmlischen Planetariums";
 	["The Siege"] = "Die Belagerung";
@@ -1625,6 +1612,19 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
+
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
+	["Dalronn the Controller"] = "Dalronn der Aufseher";
+	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Brigg Kleinkeul";
+	["Svala Sorrowgrave"] = "Svala Grabesleid"; 
+	["Gortok Palehoof"] = "Gortok Bleichhuf";
+	["Skadi the Ruthless"] = "Skadi der Skrupellose";
+	["King Ymiron"] = "König Ymiron";
+	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";

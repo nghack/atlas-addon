@@ -2176,6 +2176,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."D) "..AtlasLocale["The Keepers"] };
 		{ GREY.."12) "..AtlasLocale["Mimiron"], NPC, 33412 };
+		{ GREN.."8') "..AtlasLocale["Spark of Imagination"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	UlduarE = {
 		ZoneName = { AtlasLocale["Ulduar"].." [E] ("..AtlasLocale["Descent into Madness"]..")", 4273 };

@@ -121,7 +121,6 @@ ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'inter
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"] = "Le temple d'Atal'Hakkar";
 	["Ahn'Qiraj"] = "Temple d'Ahn'Qiraj";
-	["Ruines d'Ahn'Qiraj"] = "Ruines d'Ahn'Qiraj";
 	["Karazhan"] = "Karazhan [A] (Début)";
 	["Temple noir"] = "Temple noir [A] (Début)";	
 };
@@ -176,7 +175,6 @@ AtlasLocale = {
 	["Lower"] = "En bas";
 	["Lunar"] = "Fête lunaire";
 	["Mage"] = "Mage";
-	["Main"] = "Principal";
 	["Meeting Stone"] = "Pierre de rencontre";
 	["Monk"] = "Moine";
 	["Moonwell"] = "Puits de lune";
@@ -186,7 +184,6 @@ AtlasLocale = {
 	["Outside"] = "Extérieur";
 	["Paladin"] = "Paladin";
 	["Panther"] = "Panthère";
-	["Patrols"] = "Patrouille";
 	["Portal"] = "Portail";
 	["Priest"] = "Prêtre";
 	["Protection Warrior"] = "Guerrier Protection";
@@ -302,7 +299,6 @@ AtlasLocale = {
 	["Utgarde Pinnacle"] = "Cime d'Utgarde";
 	["Vault of Archavon"] = "Caveau d'Archavon";
 	["Wailing Caverns"] = "Cavernes des lamentations"; ["WC"] = "WC/Lam";
-	["Wintergrasp"] = "Joug-d'hiver";
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
@@ -323,6 +319,7 @@ AtlasLocale = {
 	["Ocu"] = "Ocu"; -- The Oculus
 	["VoA"] = "Archa"; -- Vault of Archavon
 	["TEoE"] = "Maly"; -- The Eye of Eternity
+	["Uldu"] = "Uldu"; -- Ulduar
 	
 	--Continents
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
@@ -366,6 +363,7 @@ AtlasLocale = {
 	["Tirisfal Glades"] = "Clairières de Tirisfal";
 	["Western Plaguelands"] = "Maleterres de l'ouest";
 	["Westfall"] = "Marche de l'Ouest";
+	["Wintergrasp"] = "Joug-d'hiver";
 	["Zangarmarsh"] = "Marécage de Zangar";
 	["Zul'Drak"] = "Zul'Drak";
 

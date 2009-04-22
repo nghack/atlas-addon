@@ -44,6 +44,7 @@ AtlasTransLocale = {
 	["Apothecary Camp"] = "Campamento de los Boticario";	
 	["Arathi Highlands"] = "Tierras Altas de Arathi";
 	["Area 52"] = "Area 52";
+	["Argent Tournament Grounds"] = "Terrenos del Torneo Argenta";
 	["Ashenvale"] = "Vallefresno";
 	["Astranaar"] = "Astranaar";
 	["Auberdine"] = "Auberdine";
@@ -185,7 +186,6 @@ AtlasTransLocale = {
 	["Stonetalon Mountains"] = "Sierra Espolon";
 	["Stonetalon Peak"] = "Cima del Espolón";
 	["The Storm Peaks"] = "Cumbres Tormentosas";
-	["Storm Peaks"] = "Cumbres Tormentosas";
 	["Stormwind City"] = "Ciudad de Ventormenta";
 	["Stranglethorn Vale"] = "Vega de Tuercespina";
 	["Sun Rock Retreat"] = "Refugio Roca del Sol";
@@ -245,8 +245,8 @@ AtlasTransLocale = {
 	["Warsong Landing Camp"] = "Warsong Landing Camp"; --Check
 	["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
 	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
-	["Westfall Brigade Encampment"] = "Westfall Brigade Encampment";
-	["Westfall"] = "Campamento de la Brigada de Páramos de Poniente";
+	["Westfall Brigade Encampment"] = "Campamento de la Brigada de Páramos de Poniente";
+	["Westfall"] = "Páramos de Poniente";
 	["Westguard Keep"] = "Fortaleza de la Guardia Oeste";
 	["Wetlands"] = "Los Humedales";
 	["Wildhammer Stronghold"] = "Bastión Martillo Salvaje";
@@ -260,9 +260,6 @@ AtlasTransLocale = {
 	["Zim'Torga"] = "Zim'Torga";
 	["Zoram'gar Outpost"] = "Avanzada de Zoram'gar";
 	["Zul'Drak"] = "Zul'Drak";
-	["Valaar's Berth"] = "Valaar's Berth"; --Check
-	["Sun's Reach Sanctum"] = "Sun's Reach Sanctum"; --Check;
-	["Darnassus"] = "Darnassus";
 	
 };
 end

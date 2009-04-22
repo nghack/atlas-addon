@@ -2119,9 +2119,13 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["The Antechamber"] };
+		{ ORNG.."A') "..AtlasLocale["Tower of Life"] };
+		{ ORNG.."B') "..AtlasLocale["Tower of Flame"] };
+		{ ORNG.."C') "..AtlasLocale["Tower of Frost"] };
+		{ ORNG.."D') "..AtlasLocale["Tower of Storms"] };
 		{ GREY.."1) "..AtlasLocale["Flame Leviathan"], NPC, 33113 };
-		{ GREY.."2) "..AtlasLocale["Ignis the Furnace Master"].." ("..AtlasLocale["Optional"]..")", NPC, 33118 };
-		{ GREY.."3) "..AtlasLocale["Razorscale"].." ("..AtlasLocale["Optional"]..")", NPC, 33186 };
+		{ GREY.."2) "..AtlasLocale["Razorscale"].." ("..AtlasLocale["Optional"]..")", NPC, 33186 };
+		{ GREY.."3) "..AtlasLocale["Ignis the Furnace Master"].." ("..AtlasLocale["Optional"]..")", NPC, 33118 };
 		{ GREY.."4) "..AtlasLocale["XT-002 Deconstructor"], NPC, 33293 };
 		{ GREN.."1') "..AtlasLocale["Expedition Base Camp"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 		{ GREN.."2') "..AtlasLocale["Formation Grounds"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
@@ -2146,7 +2150,6 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
 		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREN.."5') "..AtlasLocale["Antechamber of Ulduar"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
-	
 	};
 	UlduarC = {
 		ZoneName = { AtlasLocale["Ulduar"].." [C] ("..AtlasLocale["The Keepers"]..")", 4273 };
@@ -2160,9 +2163,9 @@ AtlasMaps = {
 		{ BLUE.."D) "..AtlasLocale["Spark of Imagination"] };
 		{ BLUE.."E) "..AtlasLocale["Descent into Madness"] };
 		{ GREY.."8) "..AtlasLocale["Auriaya"].." ("..AtlasLocale["Optional"]..")", NPC, 33515 };
-		{ GREY.."9) "..AtlasLocale["Freya"], NPC, 33410 };
-		{ GREY.."10) "..AtlasLocale["Thorim"], NPC, 33413 };
-		{ GREY.."11) "..AtlasLocale["Hodir"] };
+		{ GREY.."9) "..AtlasLocale["Hodir"], NPC, 32845 };
+		{ GREY.."10) "..AtlasLocale["Thorim"], NPC, 32865 };
+		{ GREY.."11) "..AtlasLocale["Freya"], NPC, 32906 };
 		{ GREN.."6') "..AtlasLocale["The Shattered Walkway"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 		{ GREN.."7') "..AtlasLocale["The Conservatory of Life"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};

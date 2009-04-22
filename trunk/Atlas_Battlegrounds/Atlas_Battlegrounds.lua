@@ -136,7 +136,7 @@ local myData = {
 		{ _RED.."4) "..AtlasBGLocale["Iceblood Graveyard"] };
 		{ ORNG.."5) "..AtlasBGLocale["Tower Point"] };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Slidore"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13438 };
-		{ GREY.."6) "..AtlasBGLocale["Coldtooth Mine"] };
+		{ _RED.."6) "..AtlasBGLocale["Coldtooth Mine"] };
 		{ GREY..INDENT..AtlasBGLocale["Taskmaster Snivvle"].." ("..AtlasBGLocale["Neutral"]..")", NPC, 11677 };
 		{ GREY..INDENT..AtlasBGLocale["Masha Swiftcut"], NPC, 13088 };
 		{ GREY..INDENT..AtlasBGLocale["Aggi Rumblestomp"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13086 };
@@ -219,6 +219,14 @@ local myData = {
 		MinLevel = "71";
 		PlayerLimit = "15";
 		Continent = AtlasBGLocale["Northrend"];
+		{ ORNG..AtlasBGLocale["Gates are marked with their colors."] };
+		{ BLUE.."A) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Attacking Team"]..")" };
+		{ BLUE.."B) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Defending Team"]..")" };
+		{ GREY.."1) "..AtlasBGLocale["Massive Seaforium Charge"], NPC, 21848 };
+		{ GREY.."2) "..AtlasBGLocale["Battleground Demolisher"], NPC, 28781 };
+		{ GREY.."3) "..AtlasBGLocale["Resurrection Point"] };
+		{ GREY.."4) "..AtlasBGLocale["Graveyard Flag"] };
+		{ GREY.."5) "..AtlasBGLocale["Titan Relic"], OBJECT, 192829 };
 	};
 };
 

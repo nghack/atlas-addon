@@ -38,7 +38,8 @@ Atlas_DropDownLayouts_Order = {
 		[1] = ATLAS_DDL_LEVEL_UNDER45;
 		[2] = ATLAS_DDL_LEVEL_45TO60;
 		[3] = ATLAS_DDL_LEVEL_60TO70;
-		[4] = ATLAS_DDL_LEVEL_70PLUS;
+		[4] = ATLAS_DDL_LEVEL_70TO80;
+		[5] = ATLAS_DDL_LEVEL_80PLUS;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
 		[1] = ATLAS_DDL_PARTYSIZE_5_AC;
@@ -232,7 +233,7 @@ Atlas_DropDownLayouts = {
 			"TheTempleofAhnQiraj",
 			"ZulGurub",
 		},
-		[ATLAS_DDL_LEVEL_70PLUS] = {
+		[ATLAS_DDL_LEVEL_70TO80] = {
 			"AhnKahet",
 			"AzjolNerub",
 			"BlackTempleBasement",
@@ -250,25 +251,27 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnt",
 			"KarazhanStart",
 			"MagistersTerrace",
-			"Naxxramas",
 			"ObsidianSanctum",
 			"SunwellPlateau",
 			"TempestKeepTheEye",
-			"TheEyeOfEternity",
 			"TheNexus",
 			"TheOculus",
 			"UlduarHallsofStone",
 			"UlduarHallsofLightning",
+			"UtgardeKeep",
+			"UtgardePinnacle",
+			"VioletHold",
+			"ZulAman",
+		},
+		[ATLAS_DDL_LEVEL_80PLUS] = {
+			"Naxxramas",
+			"TheEyeOfEternity",
 			"UlduarA",
 			"UlduarB",
 			"UlduarC",
 			"UlduarD",
 			"UlduarE",
-			"UtgardeKeep",
-			"UtgardePinnacle",
 			"VaultOfArchavon",
-			"VioletHold",
-			"ZulAman",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {

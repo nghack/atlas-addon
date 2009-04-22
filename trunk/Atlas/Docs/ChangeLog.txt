@@ -4,9 +4,9 @@
 
 v1.14.0
 - updated TOC number to 30100 for the 3.1 patch
-- new map: Ulduar [in 5 parts] (deadca7)
+- new map: Ulduar [in 5 parts] (deadca7, everyone else!)
 - new map: Vault of Archavon (deadca7)
-- new map: Strand of the Ancients (deadca7)
+- new map: Strand of the Ancients (deadca7, Celellach)
 - new map: The Eye of Eternity (deadca7)
 - revamped Stratholme Past map (thandrenn, Celellach, Nalumis, Hinalover)
 - revamped Northrend transportation maps (Timo, Celellach, Dynaletik, dcemuser, Kharthus)
@@ -26,6 +26,7 @@ v1.14.0
 - added exit to Tempest Keep Mechanar (Celellach)
 - added The Violet Hold Key to Violet Hold (Celellach)
 - added Celestial Planetarium Key to Ulduar (Celellach)
+- added a new category for 80+ maps
 - moved Trollgore's location in Drak'Tharon Keep (Spleebie)
 - moved Elder Starsong in Sunken Temple map (Robsato)
 - removed rep lines from Magtheridon's Lair (Celellach)

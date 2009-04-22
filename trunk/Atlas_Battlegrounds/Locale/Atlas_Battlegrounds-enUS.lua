@@ -36,6 +36,7 @@ AtlasBGLocale = {
 	["Reputation"] = "Reputation";
 	["Rescued"] = "Rescued";
 	["South"] = "South";
+	["Start"] = "Start";
 	["Summon"] = "Summon";
 	["White"] = "White";
 	
@@ -174,5 +175,14 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Draenei Ruins";
 	["Fel Reaver Ruins"] = "Fel Reaver Ruins";
 	["Blood Elf Tower"] = "Blood Elf Tower";
-
+	
+	--Strand of the Ancients
+	["Attacking Team"] = "Attacking Team";
+	["Defending Team"] = "Defending Team";
+	["Massive Seaforium Charge"] = "Massive Seaforium Charge";
+	["Battleground Demolisher"] = "Battleground Demolisher";
+	["Resurrection Point"] = "Resurrection Point";
+	["Graveyard Flag"] = "Graveyard Flag";
+	["Titan Relic"] = "Titan Relic";
+	["Gates are marked with their colors."] = "Gates are marked with their colors.";
 };

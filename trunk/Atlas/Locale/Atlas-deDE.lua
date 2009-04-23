@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 21.04.2009
+-- Letztes Update: 23.04.2009
 
 if ( GetLocale() == "deDE" ) then
 

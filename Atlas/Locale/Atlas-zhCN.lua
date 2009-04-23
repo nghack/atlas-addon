@@ -3,8 +3,8 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 12/9/2008
--- http://www.dreamgen.cn
+-- Last Update : 4/23/2009
+-- http://ngacn.cc
 
 --]]
 
@@ -65,7 +65,8 @@ ATLAS_DDL_LEVEL = "副本等级";
 ATLAS_DDL_LEVEL_UNDER45 = "45级以下副本";
 ATLAS_DDL_LEVEL_45TO60 = "45-60级副本";
 ATLAS_DDL_LEVEL_60TO70 = "60-70级副本";
-ATLAS_DDL_LEVEL_70PLUS = "70+级副本";
+ATLAS_DDL_LEVEL_70PLUS = "70-80级副本";
+ATLAS_DDL_LEVEL_80PLUS = "80级以上副本";
 ATLAS_DDL_PARTYSIZE = "副本规模";
 ATLAS_DDL_PARTYSIZE_5_AC = "5人副本 (第一页)";
 ATLAS_DDL_PARTYSIZE_5_DZ = "5人副本 (第二页)";
@@ -184,6 +185,7 @@ AtlasLocale = {
 	["Spider"] = "蜘蛛";
 	["Start"] = "起始";
 	["Summon"] = "召唤";
+	["Teleporter"] = "传送";
 	["Third Stop"] = "第三次止步";
 	["Tiger"] = "猛虎";
 	["Top"] = "顶层";
@@ -195,6 +197,10 @@ AtlasLocale = {
 	["Wanders"] = "游荡";
 	["Warlock"] = "术士";
 	["Warrior"] = "战士";
+	["Wave 6"] = "第6波";
+	["Wave 10"] = "第10波";
+	["Wave 12"] = "第12波";
+	["Wave 18"] = "第18波";
 	["West"] = "西区";
 
 	--Instance names and acronyms
@@ -256,6 +262,7 @@ AtlasLocale = {
 	["The Botanica"] = "生态船"; ["Bota"] = "Bota";
 	["The Deadmines"] = "死亡矿井"; ["VC"] = "VC";
 	["The Eye"] = "风暴之眼"; ["Eye"] = "Eye";
+	["The Eye of Eternity"] = "永恒之眼";
 	["The Mechanar"] = "能源舰"; ["Mech"] = "Mech";
 	["The Nexus"] = "魔枢";
 	["The Obsidian Sanctum"] = "黑曜石圣殿";
@@ -270,6 +277,7 @@ AtlasLocale = {
 	["Ulduar"] = "奥杜尔";
 	["Utgarde Keep"] = "乌特加德城堡";
 	["Utgarde Pinnacle"] = "乌特加德之巅";
+	["Vault of Archavon"] = "阿尔卡冯的宝库";
 	["Wailing Caverns"] = "哀嚎洞穴"; ["WC"] = "WC";
 	["Zul'Aman"] = "祖阿曼"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "祖尔法拉克"; ["ZF"] = "ZF";
@@ -289,6 +297,9 @@ AtlasLocale = {
 	["AK, Kahet"] = "AK, Kahet";
 	["VH"] = "VH";
 	["Ocu"] = "Ocu";
+	["VoA"] = "VoA"; -- Vault of Archavon
+	["TEoE"] = "TEoE"; -- The Eye of Eternity
+	["Uldu"] = "Uldu"; -- Ulduar
 
 	--Continents
 	["Eastern Kingdoms"] = "东部王国";
@@ -332,6 +343,7 @@ AtlasLocale = {
 	["Tirisfal Glades"] = "提瑞斯法林地";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
+	["Wintergrasp"] = "冬拥湖";
 	["Zangarmarsh"] = "赞加沼泽";
 	["Zul'Drak"] = "祖达克";
 
@@ -535,9 +547,9 @@ AtlasLocale = {
 	["Keepers of Time"] = "时光守护者";--omitted from Old Hillsbrad Foothills
 	["Key of Time"] = "时光之匙";--omitted from Old Hillsbrad Foothills
 	["Sa'at <Keepers of Time>"] = "萨艾特 <时光守护者>";
-	["Wave 6: Chrono Lord Deja"] = "第6波: 时空领主德亚";
-	["Wave 12: Temporus"] = "第12波: 坦普卢斯";
-	["Wave 18: Aeonus"] = "第18波: 埃欧努斯";
+	["Chrono Lord Deja"] = "时空领主德亚";
+	["Temporus"] = "坦普卢斯";
+	["Aeonus"] = "埃欧努斯";
 	["The Dark Portal"] = "黑暗之门";
 	["Medivh"] = "麦迪文";
 
@@ -1425,8 +1437,19 @@ AtlasLocale = {
 
 --I'm switching from continent grouping to expansion grouping.
 
+	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	["Elder Nadox"] = "纳多克斯长老";
+	["Prince Taldaram"] = "塔达拉姆王子";
+	["Jedoga Shadowseeker"] = "耶戈达·觅影者";
+	["Herald Volazj"] = "传令官沃拉兹";
+	["Amanitar"] = "埃曼尼塔";
+	["Ahn'kahet Brazier"] = "安卡赫特火盆";
+
 	--Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "看门者克里克希尔 ";
+	["Watcher Gashra"] = "看守者加什拉";
+	["Watcher Narjil"] = "看守者纳尔伊";
+	["Watcher Silthik"] = "看守者希尔希克";
 	["Hadronox"] = "哈多诺克斯";
 	["Anub'arak"] = "阿努巴拉克";
 	
@@ -1436,12 +1459,18 @@ AtlasLocale = {
 	["Salramm the Fleshcrafter"] = "塑血者沙尔拉姆";
 	["Chrono-Lord Epoch"] = "时光领主埃博克";
 	["Mal'Ganis"] = "玛尔加尼斯";
+	["Chromie"] = "克罗米";
+	["Infinite Corruptor"] = "永恒腐蚀者";
+	["Guardian of Time"] = "时光守护者";
+	["Scourge Invasion Points"] = "天灾入侵点";
 
 	--Drak'Tharon Keep
 	["Trollgore"] = "托尔戈";
 	["Novos the Summoner"] = "召唤者诺沃斯";
 	["King Dred"] = "暴龙之王爵德";
 	["The Prophet Tharon'ja"] = "先知萨隆亚";
+	["Kurzel"] = "库塞尔";
+	["Drakuru's Brazier"] = "达库鲁的火盆";
 	
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <西莱图斯的高阶先知>";
@@ -1450,68 +1479,7 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <阿卡里的高阶先知>";
 	["Eck the Ferocious"] = "凶残的伊克";
 
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "远古法庭宝箱";
-	["Krystallus"] = "克莱斯塔卢斯";
-	["Brann Bronzebeard"] = "布莱恩·铜须";
-	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
-	["Maiden of Grief"] = "悲伤圣女";
-
-	--Ulduar: Halls of Lightning
-	["General Bjarngrim"] = "比亚格里将军";
-	["Volkhan"] = "沃尔坎";
-	["Ionar"] = "艾欧纳尔";
-	["Loken"] = "洛肯";
-	
-	--The Obsidian Sanctum
-	["Black Dragonflight Chamber"] = "黑龙军团巢穴";
-	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
-	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
-	["Dalronn the Controller"] = "控制者达尔隆";
-	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
-	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Svala Sorrowgrave"] = "席瓦拉·索格蕾"; 
-	["Gortok Palehoof"] = "戈托克·苍蹄";
-	["Skadi the Ruthless"] = "残忍的斯卡迪";
-	["King Ymiron"] = "伊米隆国王";
-
-	--The Nexus: The Nexus	
-	["Anomalus"] = "阿诺玛鲁斯";
-	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
-	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
-	["Keristrasza"] = "克莉斯塔萨";
-	["Commander Stoutbeard"] = "指挥官斯托比德";
-	["Berinand's Research"] = "伯林纳德的研究笔记";
-
-	--Ahn'kahet: The Old Kingdom
-	["Elder Nadox"] = "纳多克斯长老";
-	["Prince Taldaram"] = "塔达拉姆王子";
-	["Jedoga Shadowseeker"] = "耶戈达·觅影者";
-	["Herald Volazj"] = "传令官沃拉兹";
-	["Amanitar"] = "埃曼尼塔";
-
-	--The Violet Hold
-	["Erekem"] = "埃雷克姆";
-	["Zuramat the Obliterator"] = "湮灭者祖拉玛特";
-	["Xevozz"] = "谢沃兹";
-	["Ichoron"] = "艾库隆";
-	["Moragg"] = "摩拉格";
-	["Lavanthor"] = "拉文索尔";
-	["Cyanigosa"] = "塞安妮苟萨";
-	["Wave 18"] = "第18波";
-	
-	--The Nexus: The Oculus
-	["Drakos the Interrogator"] = "审讯者达库斯";
-	["Mage-Lord Urom"] = "法师领主伊洛姆";
-	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <蓝龙军团的领主>";
-
 	--Naxxramas
-	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·基莫迪尔";
 	["Mr. Bigglesworth"] = "比格沃斯";
 	["Construct Quarter"] = "构造区";
 	["Patchwerk"] = "帕奇维克";
@@ -1539,23 +1507,118 @@ AtlasLocale = {
 	["Sapphiron"] = "萨菲隆";
 	["Kel'Thuzad"] = "克尔苏加德";
 
-	-- Ulduar: Ulduar	
-["Flame Leviathan"] = "Flame Leviathan";
-["Ignis the Furnace Master"] = "Ignis the Furnace Master";
-["Razorscale"] = "Razorscale";
-["XT-002 Deconstructor"] = "XT-002 Deconstructor";
-["Assembly of Iron"] = "Assembly of Iron";
-["Steelbreaker"] = "Steelbreaker";
-["Runemaster Molgeim"] = "Runemaster Molgeim";
-["Stormcaller Brundirle"] = "Stormcaller Brundirle";
-["Kologarn"] = "Kologarn";
-["Auriaya"] = "Auriaya";
-["Hodir"] = "Hodir";
-["Thorim"] = "Thorim";
-["Freya"] = "Freya";
-["Mimiron"] = "Mimiron";
-["General Vezax"] = "General Vezax";
-["Yogg-Saron"] = "Yogg-Saron";
-["Algalon the Observer"] = "Algalon the Observer";	
+	--The Nexus: The Nexus	
+	["Anomalus"] = "阿诺玛鲁斯";
+	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
+	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
+	["Keristrasza"] = "克莉斯塔萨";
+	["Commander Stoutbeard"] = "指挥官斯托比德";
+	["Berinand's Research"] = "伯林纳德的研究笔记";
+	["Commander Kolurg"] = "指挥官库鲁尔格";
+
+	--The Nexus: The Eye of Eternity
+	["Malygos"] = "玛里苟斯";
+	["Key to the Focusing Iris"] = "聚焦之虹的钥匙";
+	
+	--The Nexus: The Oculus
+	["Drakos the Interrogator"] = "审讯者达库斯";
+	["Mage-Lord Urom"] = "法师领主伊洛姆";
+	["Ley-Guardian Eregos"] = "魔网守护者埃雷苟斯";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦尔洛斯·云击 <蓝龙军团的领主>";
+	["Centrifuge Construct"] = "离心构造体";
+	["Cache of Eregos"] = "埃雷苟斯的宝箱";
+	
+	--The Obsidian Sanctum
+	["Black Dragonflight Chamber"] = "黑龙军团巢穴";
+	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
+	["Tenebron"] = "塔尼布隆";
+	["Shadron"] = "沙德隆";
+	["Vesperon"] = "维斯匹隆";
+
+	--The Violet Hold
+	["Erekem"] = "埃雷克姆";
+	["Zuramat the Obliterator"] = "湮灭者祖拉玛特";
+	["Xevozz"] = "谢沃兹";
+	["Ichoron"] = "艾库隆";
+	["Moragg"] = "摩拉格";
+	["Lavanthor"] = "拉文索尔";
+	["Cyanigosa"] = "塞安妮苟萨";
+	["The Violet Hold Key"] = "紫罗兰监狱钥匙";
+
+	--Ulduar: Halls of Lightning
+	["General Bjarngrim"] = "比亚格里将军";
+	["Volkhan"] = "沃尔坎";
+	["Ionar"] = "艾欧纳尔";
+	["Loken"] = "洛肯";
+
+	--Ulduar: Halls of Stone	
+	["Tribunal Chest"] = "远古法庭宝箱";
+	["Krystallus"] = "克莱斯塔卢斯";
+	["Brann Bronzebeard"] = "布莱恩·铜须";
+	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
+	["Maiden of Grief"] = "悲伤圣女";
+
+	-- Ulduar General
+	["Celestial Planetarium Key"] = "天文馆钥匙";
+	["The Siege"] = "城墙";
+	["The Antechamber"] = "前厅"; --B
+	["The Keepers"] = "守护者"; --C
+	["Spark of Imagination"] = "幻想的火花"; --D
+	["Descent into Madness"] = "疯狂之口"; --E
+
+	-- Ulduar A
+	["Flame Leviathan"] = "烈焰巨兽";
+	["Ignis the Furnace Master"] = "掌炉者伊格尼斯";
+	["Razorscale"] = "锋鳞";
+	["XT-002 Deconstructor"] = "XT-002拆解者";
+	["Expedition Base Camp"] = "远征队营地";
+	["Formation Grounds"] = "训练场";
+	["The Colossal Forge"] = "大熔炉";
+	["The Scrapyard"] = "废料场";
+	["Tower of Life"] = "生命之塔";
+	["Tower of Flame"] = "烈焰之塔";
+	["Tower of Frost"] = "冰霜之塔";
+	["Tower of Storms"] = "风暴之塔";
+
+	-- Ulduar B
+	["Assembly of Iron"] = "钢铁议会";
+	["Steelbreaker"] = "破钢者";
+	["Runemaster Molgeim"] = "符文领主莫尔格姆";
+	["Stormcaller Brundir"] = "风暴召唤者布鲁迪尔";
+	["Kologarn"] = "科隆加恩";
+	["Algalon the Observer"] = "观察者奥尔加隆";
+	["Antechamber of Ulduar"] = "奥杜尔前厅";
+
+	-- Ulduar C
+	["Auriaya"] = "欧尔莉亚";
+	["Freya"] = "弗蕾亚";
+	["Thorim"] = "托里姆";
+	["Hodir"] = "霍迪尔";
+	["The Shattered Walkway"] = "破碎步道";
+	["The Conservatory of Life"] = "生命温室";
+
+	-- Ulduar D
+	["Mimiron"] = "米米尔隆";
+
+	-- Ulduar E
+	["General Vezax"] = "维扎克斯将军";
+	["Yogg-Saron"] = "尤格-萨隆";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
+	["Dalronn the Controller"] = "控制者达尔隆";
+	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "布雷格";
+	["Svala Sorrowgrave"] = "席瓦拉·索格蕾"; 
+	["Gortok Palehoof"] = "戈托克·苍蹄";
+	["Skadi the Ruthless"] = "残忍的斯卡迪";
+	["King Ymiron"] = "伊米隆国王";
+	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
+
+	--Vault of Archavon
+	["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";
+	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
 };
 end

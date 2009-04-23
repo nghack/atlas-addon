@@ -3,8 +3,8 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/23/2008
--- http://www.dreamgen.cn
+-- Last Update : 4/23/2009
+-- http://ngacn.cc
 
 --]]
 
@@ -22,6 +22,7 @@ AtlasTransLocale = {
 	["Apothecary Camp"] = "药剂师营地";
 	["Arathi Highlands"] = "阿拉希高地";
 	["Area 52"] = "52区";
+	["Argent Tournament Grounds"] = "银色锦标赛营地";
 	["Ashenvale"] = "灰谷";
 	["Astranaar"] = "阿斯特兰纳";
 	["Auberdine"] = "奥伯丁";
@@ -46,20 +47,25 @@ AtlasTransLocale = {
 	["Camp Taurajo"] = "陶拉祖营地";
 	["Camp Tunka'lo"] = "唐卡洛营地";
 	["Camp Winterhoof"] = "冬蹄营地";
+	["Caverns of Time"] = "时光之穴";
 	["Cenarion Hold"] = "塞纳里奥要塞";
 	["Chillwind Point"] = "冰风岗";
 	["Coldarra"] = "考达拉";
 	["Conquest Hold"] = "征服堡";
 	["Cosmowrench"] = "扳钳镇";
 	["Crossroads"] = "十字路口";
+	["Crusaders' Pinnacle"] = "北伐军之峰";
 	["Crystalsong Forest"] = "晶歌森林";
 	["Dalaran"] = "达拉然";
 	["Darkshire"] = "夜色镇";
 	["Darkshore"] = "黑海岸";
+	["Darnassus"] = "达纳苏斯";
+	["Death's Rise"] = "死亡高地";
 	["Desolace"] = "凄凉之地";
 	["Dragonblight"] = "龙骨荒野";
 	["Druid-only"] = "德鲁伊专用";
 	["Dun Morogh"] = "丹莫罗";
+	["Dun Nifflelem"] = "丹尼芬雷";
 	["Durotar"] = "杜隆塔尔";
 	["Duskwood"] = "暮色森林";
 	["Dustwallow Marsh"] = "尘泥沼泽";
@@ -88,6 +94,7 @@ AtlasTransLocale = {
 	["Grizzly Hills"] = "灰熊丘陵";
 	["Grom'Gol Base Camp"] = "格罗姆高营地";
 	["Grom'arsh Crash-Site"] = "格罗玛什坠毁点";
+	["Gundrak"] = "古达克";
 	["Hammerfall"] = "落锤镇";
 	["Hatchet Hills"] = "战斧岭";
 	["Hellfire Peninsula"] = "地狱火半岛";
@@ -95,6 +102,7 @@ AtlasTransLocale = {
 	["Honor Hold"] = "荣耀堡";
 	["Horde"] = "部落";
 	["Howling Fjord"] = "嚎风海湾";
+	["Icecrown"] = "冰川冰冠";
 	["Ironforge"] = "铁炉堡";
 	["Isle of Quel'Danas"] = "奎尔丹纳斯岛";
 	["K3"] = "K3";
@@ -155,13 +163,13 @@ AtlasTransLocale = {
 	["Stonebreaker Hold"] = "裂石堡";
 	["Stonetalon Mountains"] = "石爪山脉";
 	["Stonetalon Peak"] = "石爪峰";
-	["Storm Peaks"] = "风暴峭壁";
+	["The Storm Peaks"] = "风暴峭壁";
 	["Stormwind City"] = "暴风城";
 	["Stranglethorn Vale"] = "荆棘谷";
 	["Sun Rock Retreat"] = "烈日石居";
 	["Sun's Reach"] = "阳湾港";
+	["Sun's Reach Sanctum"] = "阳湾圣殿";
 	["Sunreaver's Command"] = "夺日者指挥站";
-	["Sun Rock Retreat"] = "烈日石居";
 	["Swamp of Sorrows"] = "悲伤沼泽";
 	["Swamprat Post"] = "沼泽鼠岗哨";
 	["Sylvanaar"] = "希尔瓦纳";
@@ -178,6 +186,7 @@ AtlasTransLocale = {
 	["Thalanaar"] = "萨兰纳尔";
 	["The Aldor"] = "奥尔多";
 	["The Argent Stand"] = "银色前沿";
+	["The Argent Vanguard"] = "银色前线基地";
 	["The Barrens"] = "贫瘠之地";
 	["The Dark Portal"] = "黑暗之门";
 	["The Exodar"] = "埃索达";
@@ -185,6 +194,7 @@ AtlasTransLocale = {
 	["The Hinterlands"] = "辛特兰";
 	["The Scryers"] = "占星者";
 	["The Sepulcher"] = "瑟伯切尔";
+	["The Shadow Vault"] = "暗影拱顶";
 	["The Stormspire"] = "风暴尖塔";
 	["Thelsamar"] = "塞尔萨玛";
 	["Theramore Isle"] = "塞拉莫岛";
@@ -202,12 +212,15 @@ AtlasTransLocale = {
 	["Un'Goro Crater"] = "安戈洛环形山";
 	["Undercity"] = "幽暗城";
 	["Unu'pe"] = "乌努比";
+	["Valaar's Berth"] = "瓦拉尔港口";
 	["Valgarde"] = "瓦加德";
 	["Valiance Keep"] = "无畏要塞";
+	["Valiance Landing Camp"] = "无畏军着陆营地";
 	["Valormok"] = "瓦罗莫克";
 	["Vengeance Landing"] = "复仇港";
 	["Venomspite"] = "怨毒镇";
 	["Warsong Hold"] = "战歌要塞";
+	["Warsong Landing Camp"] = "战歌军着陆营地";
 	["West of the path to Timbermaw Hold"] = "通往木喉要塞道路的西方";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall Brigade Encampment"] = "月溪旅营地";
@@ -217,6 +230,7 @@ AtlasTransLocale = {
 	["Wildhammer Stronghold"] = "蛮锤要塞";
 	["Windrunner's Overlook"] = "风行者观察站";
 	["Wintergarde Keep"] = "暮冬要塞";
+	["Wintergrasp"] = "冬拥湖";
 	["Winterspring"] = "冬泉谷";
 	["Wyrmrest Temple"] = "龙眠神殿";
 	["Zabra'jin"] = "萨布拉金";
@@ -224,9 +238,6 @@ AtlasTransLocale = {
 	["Zim'Torga"] = "希姆托加";
 	["Zoram'gar Outpost"] = "佐拉姆加前哨战";
 	["Zul'Drak"] = "祖达克";
-	["Valaar's Berth"] = "瓦拉尔港口";
-	["Sun's Reach Sanctum"] = "阳湾圣殿";
-	["Darnassus"] = "达纳苏斯";
 
 }
 end

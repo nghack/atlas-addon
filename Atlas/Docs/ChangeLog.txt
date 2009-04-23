@@ -44,6 +44,12 @@ v1.14.0
 - increased battleground level ranges to 80 (Celellach)
 - increased frame strata to HIGH to avoid messing with the default interface
 - fixed some Alterac Valley coloring and ordering issues (Celellach)
+- current deDE (German) translation (Dynaletik)
+- current esES (Spanish) translation (maqjav)
+- current frFR (French) translation (Kiria)
+- current ruRU (Russian) translation (StingerSoft)
+- current zhCN (Simplified Chinese) translation (DiabloHu)
+- current zhTW (Traditional Chinese) translation (banana)
 
 v1.13.0
 - added tons of new WotLK instance maps!

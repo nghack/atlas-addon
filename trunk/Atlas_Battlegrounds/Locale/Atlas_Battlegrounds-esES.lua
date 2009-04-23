@@ -25,7 +25,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 16/04/2009
+-- Última Actualización (last update): 23/04/2009
 
 --]]
 
@@ -45,6 +45,7 @@ AtlasBGLocale = {
 	["Reputation"] = "Reputación";
 	["Rescued"] = "Rescate";
 	["South"] = "Sur";
+	["Start"] = "Comienzo";
 	["Summon"] = "Invocar";
 	["White"] = "Blanco";
 	
@@ -184,5 +185,14 @@ AtlasBGLocale = {
 	["Fel Reaver Ruins"] = "Ruinas de Atracador Vil";
 	["Blood Elf Tower"] = "Torre de los Elfos de Sangre";
 
+	--Strand of the Ancients
+	["Attacking Team"] = "Equipo atacante";
+	["Defending Team"] = "Equipo defendiendo";
+	["Massive Seaforium Charge"] = "Carga de seforio enorme";
+	["Battleground Demolisher"] = "Demoledor del campo de batalla";
+	["Resurrection Point"] = "Punto de Resurrección";
+	["Graveyard Flag"] = "Bandera del Cementerio";
+	["Titan Relic"] = "Reliquia de titán";
+	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
 };
 end

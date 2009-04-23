@@ -23,6 +23,7 @@ AtlasBGLocale = {
 	["Reputation"] = "Реп";
 	["Rescued"] = "Спасенный";
 	["South"] = "Юг";
+	["Start"] = "Начало";
 	["Summon"] = "Призыв";
 	["White"] = "Белый";
 	
@@ -161,6 +162,16 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Дренейские руины";
 	["Fel Reaver Ruins"] = "Обломки Скверномора";
 	["Blood Elf Tower"] = "Башня Эльфов Крови";
+	
+	--Strand of the Ancients
+	["Attacking Team"] = "Группа штурма";
+	["Defending Team"] = "Группа защиты";
+	["Massive Seaforium Charge"] = "Сверхмощный сефориевый заряд";
+	["Battleground Demolisher"] = "Разрушитель";
+	["Resurrection Point"] = "Точки воскрешения";
+	["Graveyard Flag"] = "Кладбище";
+	["Titan Relic"] = "Реликвия титанов";
+	["Gates are marked with their colors."] = "Ворота, отмечены их цветами.";
 
 };
 

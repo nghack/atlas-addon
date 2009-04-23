@@ -176,5 +176,15 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Ruines draenei";
 	["Fel Reaver Ruins"] = "Ruines des saccageurs gangrenés";
 	["Blood Elf Tower"] = "Tour des elfes de sang";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "Equipe en attaque";
+	["Defending Team"] = "Equipe en défense";
+	["Massive Seaforium Charge"] = "Charge d'hydroglycérine massive";
+	["Battleground Demolisher"] = "Démolisseur de champ de bataille";
+	["Resurrection Point"] = "Point de résurrection";
+	["Graveyard Flag"] = "Drapeau de cimetière";
+	["Titan Relic"] = "Relique des titans";
+	["Gates are marked with their colors."] = "Les portes sont marquées avec leur couleur.";
 };
 end

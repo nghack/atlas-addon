@@ -38,6 +38,7 @@ AtlasBGLocale = {
 	["Reputation"] = "Réputation ";
 	["Rescued"] = "Sauvé";
 	["South"] = "Sud";
+	["Start"] = "Départ";
 	["Summon"] = "Invoqué";
 	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
 	

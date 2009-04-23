@@ -183,10 +183,10 @@ AtlasBGLocale = {
 	["Defending Team"] = "Verteidigende Fraktion";
 	["Massive Seaforium Charge"] = "Massive Zephyriumladung";
 	["Battleground Demolisher"] = "Schlachtfeldverwüster";
-	["Resurrection Point"] = "Wiederauferstehungspunkt";
-	["Graveyard Flag"] = "Friedhof Flagge";
+	["Resurrection Point"] = "Wiederbelebungspunkt";
+	["Graveyard Flag"] = "Friedhofflagge";
 	["Titan Relic"] = "Relikt der Titanen";
-	["Gates are marked with their colors."] = "Tore sind mit ihren Farben gekennzeichnet.";
+	["Gates are marked with their colors."] = "Tore sind in ihren Farben eingezeichnet.";
 
 };
 

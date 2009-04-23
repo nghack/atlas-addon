@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 16/04/2009
+-- Última Actualización (last update): 23/04/2009
 
 --************************************************
 -- Global Atlas Strings
@@ -87,6 +87,7 @@ ATLAS_DDL_LEVEL_UNDER45 = "Mazmorras de nivel inferior a 45";
 ATLAS_DDL_LEVEL_45TO60 = "Mazmorras de nivel 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Mazmorras de nivel 60-70";
 ATLAS_DDL_LEVEL_70PLUS = "Mazmorras de nivel 70+";
+ATLAS_DDL_LEVEL_80PLUS = "Mazmorras de nivel 80+";
 ATLAS_DDL_PARTYSIZE = "Tamaño del grupo";
 ATLAS_DDL_PARTYSIZE_5_AC = "Mazmorras para 5 jugadores A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "Mazmorras para 5 jugadores D-Z";
@@ -318,6 +319,7 @@ AtlasLocale = {
 	["Ocu"] = "Oculus"; -- The Oculus
 	["Archavon"] = "VoA"; -- Vault of Archavon
 	["TEoE"] = "OE"; -- The Eye of Eternity
+	["Uldu"] = "Uldu"; -- Ulduar
 	
 	--Continents
 	["Eastern Kingdoms"] = "Las Tierras del Este";
@@ -1607,6 +1609,10 @@ AtlasLocale = {
 	["The Colossal Forge"] = "La Forja Colosal"; --Check
 	["The Scrapyard"] = "La Chatarrería";
 	
+	["Tower of Life"] = "Torre de Vida";
+	["Tower of Flame"] = "Torre de Llamas";
+	["Tower of Frost"] = "Torre de Escarcha";
+	["Tower of Storms"] = "Torre de Tormentas";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Asamblea de Hierro";

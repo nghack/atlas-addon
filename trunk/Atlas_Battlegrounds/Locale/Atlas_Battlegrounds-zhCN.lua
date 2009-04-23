@@ -3,8 +3,8 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 9/4/2008
--- http://www.dreamgen.cn
+-- Last Update : 4/23/2009
+-- http://ngacn.cc
 
 --]]
 
@@ -24,6 +24,7 @@ AtlasBGLocale = {
 	["Reputation"] = "阵营";
 	["Rescued"] = "被营救";
 	["South"] = "南部";
+	["Start"] = "起始点";
 	["Summon"] = "召唤";
 	["White"] = "白色";
 	
@@ -33,12 +34,14 @@ AtlasBGLocale = {
 	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB";
 	["Arathi Highlands"] = "阿拉希高地";
 	["Ashenvale"] = "灰谷";
+	["Dragonblight"] = "龙骨荒野";
 	["Eastern Kingdoms"] = "东部王国";
 	["Eye of the Storm"] = "风暴之眼"; ["EotS"] = "EotS";
 	["Hillsbrad Foothills"] = "希尔斯布莱德丘陵";
 	["Kalimdor"] = "卡利姆多";
 	["Netherstorm"] = "虚空风暴";
 	["Outland"] = "外域";
+	["Strand of the Ancients"] = "远古海滩"; ["SotA"] = "SotA";
 	["The Barrens"] = "贫瘠之地";
 	["Warsong Gulch"] = "战歌峡谷"; ["WSG"] = "WSG";
 
@@ -160,6 +163,15 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "德莱尼废墟";
 	["Fel Reaver Ruins"] = "魔能机甲废墟";
 	["Blood Elf Tower"] = "血精灵塔";
-
+	
+	--Strand of the Ancients
+	["Attacking Team"] = "进攻方";
+	["Defending Team"] = "防守方";
+	["Massive Seaforium Charge"] = "Massive Seaforium Charge";
+	["Battleground Demolisher"] = "战场攻城车";
+	["Resurrection Point"] = "复活点";
+	["Graveyard Flag"] = "墓地旗帜";
+	["Titan Relic"] = "泰坦圣物";
+	["Gates are marked with their colors."] = "大门以其颜色进行了标记。";
 };
 end

@@ -84,7 +84,8 @@ ATLAS_DDL_LEVEL = "Уровня";
 ATLAS_DDL_LEVEL_UNDER45 = "Подземелья уровня ниже 45";
 ATLAS_DDL_LEVEL_45TO60 = "Подземелья уровня 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Подземелья уровня 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "Подземелья уровня 70+";
+ATLAS_DDL_LEVEL_70TO80 = "Подземелья уровня 70-80";
+ATLAS_DDL_LEVEL_80PLUS = "Подземелья уровня 80+";
 ATLAS_DDL_PARTYSIZE = "Размеру группы";
 ATLAS_DDL_PARTYSIZE_5_AC = "Подземелья на 5 игроков A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "Подземелья на 5 игроков D-Z";
@@ -111,7 +112,6 @@ ATLAS_DEP_MSG1 = "Атлас обнаружил устаревший(е) мод�
 ATLAS_DEP_MSG2 = "Они будут отключены для данного персонажа.";
 ATLAS_DEP_MSG3 = "Удалите их из вашей папки аддонов.";
 ATLAS_DEP_OK = "Ok";
-
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Затонувший храм";
@@ -1573,19 +1573,6 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "Сьоннир Литейщик";
 	["Maiden of Grief"] = "Дева Скорби";
 	
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
-	["Dalronn the Controller"] = "Далронн Контролирующий";
-	["Ingvar the Plunderer"] = "Ингвар Расхититель";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Brigg Smallshanks"] = "Бригг Мелкотруб";
-	["Svala Sorrowgrave"] = "Свала Вечноскорбящая"; 
-	["Gortok Palehoof"] = "Горток Бледное Копыто";
-	["Skadi the Ruthless"] = "Скади Безжалостный";
-	["King Ymiron"] = "Король Имирон";
-	["Skarvald the Constructor"] = "Скальвард Строитель";
-	
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Ключ к Священному планетарию";
 	["The Siege"] = "Осада";
@@ -1603,6 +1590,10 @@ AtlasLocale = {
 	["Formation Grounds"] = "Плац";
 	["The Colossal Forge"] = "Гигантская кузня";
 	["The Scrapyard"] = "Мусорная свалка";
+	["Tower of Life"] = "Башня Жизни";
+	["Tower of Flame"] = "Башня Пламени";
+	["Tower of Frost"] = "Башня Холода";
+	["Tower of Storms"] = "Башня Гроз";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Железное собрание";
@@ -1627,6 +1618,19 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "Генерал Везакс";
 	["Yogg-Saron"] = "Йогг-Сарона";
+	
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
+	["Dalronn the Controller"] = "Далронн Контролирующий";
+	["Ingvar the Plunderer"] = "Ингвар Расхититель";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "Бригг Мелкотруб";
+	["Svala Sorrowgrave"] = "Свала Вечноскорбящая"; 
+	["Gortok Palehoof"] = "Горток Бледное Копыто";
+	["Skadi the Ruthless"] = "Скади Безжалостный";
+	["King Ymiron"] = "Король Имирон";
+	["Skarvald the Constructor"] = "Скальвард Строитель";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Аркавон Каменный Страж";

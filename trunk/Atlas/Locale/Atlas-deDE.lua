@@ -92,7 +92,8 @@ ATLAS_DDL_LEVEL = "Stufe";
 ATLAS_DDL_LEVEL_UNDER45 = "Instanzen unter Stufe 45";
 ATLAS_DDL_LEVEL_45TO60 = "Instanzen Stufe 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "Instanzen Stufe 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "Instanzen Stufe 70+";
+ATLAS_DDL_LEVEL_70TO80 = "Instanzen Stufe 70-80";
+ATLAS_DDL_LEVEL_80PLUS = "Instanzen Stufe 80+";
 ATLAS_DDL_PARTYSIZE = "Gruppengröße";
 ATLAS_DDL_PARTYSIZE_5_AC = "Instanzen für 5 Spieler A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "Instanzen für 5 Spieler D-Z";
@@ -1588,6 +1589,10 @@ AtlasLocale = {
 	["Formation Grounds"] = "Gestaltungsgelände";
 	["The Colossal Forge"] = "Die kolossale Schmiede";
 	["The Scrapyard"] = "Der Schrottplatz";
+	["Tower of Life"] = "Turm des Lebens";
+	["Tower of Flame"] = "Turm der Flammen";
+	["Tower of Frost"] = "Turm des Frostes";
+	["Tower of Storms"] = "Turm der Stürme";
 	
 	-- Ulduar B
 	["Assembly of Iron"] = "Versammlung des Eisens";

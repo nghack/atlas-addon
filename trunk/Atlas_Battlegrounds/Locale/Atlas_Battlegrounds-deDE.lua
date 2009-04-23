@@ -38,6 +38,7 @@ AtlasBGLocale = {
 	["Reputation"] = "Ruf";
 	["Rescued"] = "Gerettet";
 	["South"] = "Süd";
+	["Start"] = "Anfang";
 	["Summon"] = "Beschwörbar";
 	["White"] = "Weiß";
 
@@ -176,6 +177,16 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Draeneiruinen";
 	["Fel Reaver Ruins"] = "Teufelshäscherruinen";
 	["Blood Elf Tower"] = "Blutelfenturm";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "Angreifende Fraktion";
+	["Defending Team"] = "Verteidigende Fraktion";
+	["Massive Seaforium Charge"] = "Massive Zephyriumladung";
+	["Battleground Demolisher"] = "Schlachtfeldverwüster";
+	["Resurrection Point"] = "Wiederauferstehungspunkt";
+	["Graveyard Flag"] = "Friedhof Flagge";
+	["Titan Relic"] = "Relikt der Titanen";
+	["Gates are marked with their colors."] = "Tore sind mit ihren Farben gekennzeichnet.";
 
 };
 

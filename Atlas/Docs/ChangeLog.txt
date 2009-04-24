@@ -49,7 +49,7 @@ v1.14.0
 - current frFR (French) translation (Kiria, TrAsHeR)
 - current ruRU (Russian) translation (StingerSoft)
 - current zhCN (Simplified Chinese) translation (DiabloHu)
-- current zhTW (Traditional Chinese) translation (banana)
+- current zhTW (Traditional Chinese) translation (banana, arith)
 
 v1.13.0
 - added tons of new WotLK instance maps!

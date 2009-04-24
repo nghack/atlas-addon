@@ -2192,6 +2192,7 @@ AtlasMaps = {
 		{ BLUE.."E) "..AtlasLocale["The Keepers"] };
 		{ GREY.."13) "..AtlasLocale["General Vezax"], NPC, 33271 };
 		{ GREY.."14) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
+		{ GREN.."9') "..AtlasLocale["Prison of Yogg-Saron"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	VaultOfArchavon = {
 		ZoneName = { AtlasLocale["Vault of Archavon"], 4603 };

@@ -1603,6 +1603,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "维扎克斯将军";
 	["Yogg-Saron"] = "尤格-萨隆";
+["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";

@@ -1618,7 +1618,8 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "Генерал Везакс";
 	["Yogg-Saron"] = "Йогг-Сарона";
-	
+["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
 	["Dalronn the Controller"] = "Далронн Контролирующий";

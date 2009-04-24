@@ -46,7 +46,7 @@ v1.14.0
 - fixed some Alterac Valley coloring and ordering issues (Celellach)
 - current deDE (German) translation (Dynaletik)
 - current esES (Spanish) translation (maqjav)
-- current frFR (French) translation (Kiria)
+- current frFR (French) translation (Kiria, TrAsHeR)
 - current ruRU (Russian) translation (StingerSoft)
 - current zhCN (Simplified Chinese) translation (DiabloHu)
 - current zhTW (Traditional Chinese) translation (banana)

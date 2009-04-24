@@ -21,7 +21,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- Last Update : 04/21/2009
+-- Last Update : 04/24/2009
 if ( GetLocale() ==	"zhTW" ) then
 
 AtlasBGLocale = {
@@ -38,6 +38,7 @@ AtlasBGLocale = {
 	["Reputation"] = "聲望";
 	["Rescued"] = "營救";
 	["South"] = "南";
+	["Start"] = "開始";
 	["Summon"] = "召喚";
 	["White"] = "灰";
 
@@ -177,5 +178,14 @@ AtlasBGLocale = {
 	["Fel Reaver Ruins"] = "惡魔搶奪者廢墟";
 	["Blood Elf Tower"] = "血精靈哨塔";
 
+	--Strand of the Ancients
+	["Attacking Team"] = "攻擊隊伍";
+	["Defending Team"] = "防禦隊伍";
+	["Massive Seaforium Charge"] = "巨型爆鹽炸藥";
+	["Battleground Demolisher"] = "戰場石毀車";
+	["Resurrection Point"] = "復活術點";
+	["Graveyard Flag"] = "墓地旗幟";
+	["Titan Relic"] = "泰坦聖物";
+	["Gates are marked with their colors."] = "大門已被其顏色標記";
 };
 end

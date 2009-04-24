@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas Chinese Localization
--- Last Update : 04/21/2009
+-- Last Update : 04/24/2009
 
 if ( GetLocale() ==	"zhTW" ) then
 --************************************************
@@ -83,7 +83,7 @@ ATLAS_DDL_LEVEL = "等級";
 ATLAS_DDL_LEVEL_UNDER45 = "副本等級低於 45";
 ATLAS_DDL_LEVEL_45TO60 = "副本等級介於 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "副本等級介於 60-70";
-ATLAS_DDL_LEVEL_70PLUS = "副本等級介於 70+";
+ATLAS_DDL_LEVEL_70TO80 = "副本等級介於 70-80";
 ATLAS_DDL_PARTYSIZE = "隊伍人數";
 ATLAS_DDL_PARTYSIZE_5_AC = "5 人副本 A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "5 人副本 D-Z";
@@ -210,10 +210,10 @@ AtlasLocale = {
 	["Wanders"] = "徘徊";
 	["Warlock"] = "術士";
 	["Warrior"] = "戰士";
-	["Wave 6"] = "第6波";
-	["Wave 10"] = "第10波";
-	["Wave 12"] = "第12波";
-	["Wave 18"] = "第18波";	
+	["Wave 6"] = "第 6 波";
+	["Wave 10"] = "第 10 波";
+	["Wave 12"] = "第 12 波";
+	["Wave 18"] = "第 18 波";	
 	["West"] = "西方";
 
 	--Instance names and acronyms
@@ -286,7 +286,7 @@ AtlasLocale = {
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
 	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫羅蘭堡";
-	["Uldaman"] = "奧達曼"; ["Uld"] = "Uld";
+	["Uldaman"] = "奧達曼"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "奧杜亞";
 	["Utgarde Keep"] = "俄特加德要塞";
 	["Utgarde Pinnacle"] = "俄特加德之巔";
@@ -1563,19 +1563,6 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";
 	["Maiden of Grief"] = "悲嘆少女";
 
-	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
-	["Dalronn the Controller"] = "『控制者』達隆恩";
-	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
-
-	--Utgarde Keep: Utgarde Pinnacle
-	["Brigg Smallshanks"] = "布里格·細柄";
-	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
-	["Gortok Palehoof"] = "戈托克·白蹄";
-	["Skadi the Ruthless"] = "無情的斯卡迪";
-	["King Ymiron"] = "依米倫王";
-	["Skarvald the Constructor"] = "『建造者』史卡沃";
-
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "星穹渾天儀之鑰";
 	["The Siege"] = "圍攻";
@@ -1593,7 +1580,11 @@ AtlasLocale = {
 	["Formation Grounds"] = "構築之地";
 	["The Colossal Forge"] = "巨熔爐";
 	["The Scrapyard"] = "廢料場";
-	
+	["Tower of Life"] = "生命之塔";
+	["Tower of Flame"] = "烈焰之塔";
+	["Tower of Frost"] = "冰霜之塔";
+	["Tower of Storms"] = "風暴之塔";
+
 	-- Ulduar B
 	["Assembly of Iron"] = "鐵之集會";
 	["Steelbreaker"] = "破鋼者";
@@ -1617,6 +1608,19 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "威札斯將軍";
 	["Yogg-Saron"] = "尤格薩倫";
+
+	--Utgarde Keep: Utgarde Keep
+	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
+	["Dalronn the Controller"] = "『控制者』達隆恩";
+	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
+
+	--Utgarde Keep: Utgarde Pinnacle
+	["Brigg Smallshanks"] = "布里格·細柄";
+	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
+	["Gortok Palehoof"] = "戈托克·白蹄";
+	["Skadi the Ruthless"] = "無情的斯卡迪";
+	["King Ymiron"] = "依米倫王";
+	["Skarvald the Constructor"] = "『建造者』史卡沃";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "『石之看守者』亞夏梵";

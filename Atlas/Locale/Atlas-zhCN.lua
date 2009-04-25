@@ -3,7 +3,7 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 4/23/2009
+-- Last Update : 4/26/2009
 -- http://ngacn.cc
 
 --]]
@@ -1603,7 +1603,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "维扎克斯将军";
 	["Yogg-Saron"] = "尤格-萨隆";
-["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
+	["Prison of Yogg-Saron"] = "尤格-萨隆的囚牢";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";

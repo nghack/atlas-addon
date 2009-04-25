@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 23.04.2009
+-- Letztes Update: 25.04.2009
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1617,7 +1617,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
-["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
+	["Prison of Yogg-Saron"] = "Gefängnis von Yogg-Saron";
 
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";

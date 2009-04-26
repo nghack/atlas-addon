@@ -10,7 +10,7 @@
 ## Notes-frFR: Cartes des trajets aériens
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
-## Notes-zhTW: Atlas 交通網路圖
+## Notes-zhTW: Atlas 交通網路圖模組
 ## Version: 1.14.0
 ## X-Date: April, 2009
 ## Author: Dan Gilbert

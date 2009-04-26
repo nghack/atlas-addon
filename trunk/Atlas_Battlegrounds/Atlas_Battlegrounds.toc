@@ -10,7 +10,7 @@
 ## Notes-frFR: Cartes de champs de bataille
 ## Notes-koKR: 전장 지도
 ## Notes-zhCN: 战场地图
-## Notes-zhTW: Atlas 戰場地圖
+## Notes-zhTW: Atlas 戰場地圖模組
 ## Version: 1.14.0
 ## X-Date: April, 2009
 ## Author: Dan Gilbert

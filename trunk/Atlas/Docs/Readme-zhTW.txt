@@ -1,5 +1,5 @@
-Atlas, Atlas, 一款魔獸世界副本地圖瀏覽器
-Copyright 2005 - 2009 Dan Gilbert
+Atlas, 魔獸世界地圖的增強插件
+著作權 Copyright 2005 - 2009 Dan Gilbert
 原作電子郵件位址: loglow@gmail.com
 
 
@@ -75,7 +75,8 @@ Atlas 具有內建的插件系統，這使得額外的地圖可以很輕易的�
 = 如何安裝 =
 ============
 
-* 將套見解壓縮至魔獸世界的目錄
+* 將套件解壓縮至魔獸世界的目錄之下，例如
+  C:\Program Files\World of Warcraft\Interface\AddOns\
 * 你的解壓縮軟體必須能支援目錄結構
 * 如果你遇到問題，請造訪 Atlas 的常見問題解答︰
 * http://www.atlasmod.com/phpBB3/viewtopic.php?t=3
@@ -105,6 +106,7 @@ http://www.atlasmod.com/
 = 聯繫方式 =
 ============
 
+(請以英文書寫您的郵件或是訊息)
 姓名: Dan Gilbert
 電子郵件: loglow@gmail.com
 AIM: dan5981

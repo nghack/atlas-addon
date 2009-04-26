@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 23/04/2009
+-- Última Actualización (last update): 26/04/2009
 
 --************************************************
 -- Global Atlas Strings
@@ -1640,7 +1640,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
-["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";	
+	["Prison of Yogg-Saron"] = "Teletransporte de La Prisión de Yogg-Saron";	
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <Los San'layn>";

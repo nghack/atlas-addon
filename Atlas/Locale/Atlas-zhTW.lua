@@ -22,8 +22,9 @@
 
 --]]
 
--- Atlas Chinese Localization
--- Last Update : 04/24/2009
+-- Atlas Traditional Chinese Localization
+-- Last Update : 04/26/2009
+
 
 if ( GetLocale() ==	"zhTW" ) then
 --************************************************
@@ -32,9 +33,9 @@ if ( GetLocale() ==	"zhTW" ) then
 
 AtlasSortIgnore = {"the (.+)"};
 
-ATLAS_TITLE = "Atlas 副本地圖";
+ATLAS_TITLE = "Atlas 地圖集";
 ATLAS_SUBTITLE = "副本地圖集";
-ATLAS_DESC = "Atlas 是一個副本地圖瀏覽器.";
+ATLAS_DESC = "Atlas 是一個副本地圖增強插件.";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas 按鍵設定";
 BINDING_NAME_ATLAS_TOGGLE = "開啟/關閉 Atlas";
@@ -44,10 +45,10 @@ BINDING_NAME_ATLAS_AUTOSEL = "自動選擇";
 ATLAS_SLASH = "/atlas";
 ATLAS_SLASH_OPTIONS = "選項";
 
-ATLAS_STRING_LOCATION = "副本位置";
+ATLAS_STRING_LOCATION = "位置";
 ATLAS_STRING_LEVELRANGE = "等級範圍";
 ATLAS_STRING_PLAYERLIMIT = "人數上限";
-ATLAS_STRING_SELECT_CAT = "選擇類型";
+ATLAS_STRING_SELECT_CAT = "選擇類別";
 ATLAS_STRING_SELECT_MAP = "選擇地圖";
 ATLAS_STRING_SEARCH = "搜尋";
 ATLAS_STRING_CLEAR = "清除";
@@ -84,6 +85,7 @@ ATLAS_DDL_LEVEL_UNDER45 = "副本等級低於 45";
 ATLAS_DDL_LEVEL_45TO60 = "副本等級介於 45-60";
 ATLAS_DDL_LEVEL_60TO70 = "副本等級介於 60-70";
 ATLAS_DDL_LEVEL_70TO80 = "副本等級介於 70-80";
+ATLAS_DDL_LEVEL_80PLUS = "副本等級大於 80";
 ATLAS_DDL_PARTYSIZE = "隊伍人數";
 ATLAS_DDL_PARTYSIZE_5_AC = "5 人副本 A-C";
 ATLAS_DDL_PARTYSIZE_5_DZ = "5 人副本 D-Z";
@@ -1608,7 +1610,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "威札斯將軍";
 	["Yogg-Saron"] = "尤格薩倫";
-["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
+	["Prison of Yogg-Saron"] = "尤格薩倫之獄";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";

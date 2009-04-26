@@ -10,7 +10,7 @@
 ## Notes-frFR: Rencontres de Raid
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
-## Notes-zhTW: Atlas 戶外首領地圖
+## Notes-zhTW: Atlas 戶外首領地圖模組
 ## Version: 1.14.0
 ## X-Date: April, 2009
 ## Author: Dan Gilbert

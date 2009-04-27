@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas Traditional Chinese Localization
--- Last Update : 04/26/2009
+-- Last Update : 04/27/2009
 
 
 if ( GetLocale() ==	"zhTW" ) then
@@ -224,8 +224,8 @@ AtlasLocale = {
 	["Armory"] = "軍械庫"; 
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "阿茲歐-奈幽"; ["AN"] = "AN";
-	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT";
+	["Azjol-Nerub"] = "阿茲歐-奈幽"; ["AN"] = "AN/奈幽";
+	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT/黑廟";
 	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD/黑淵";
 	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
 	["Blackrock Spire"] = "黑石塔"; ["LBRS"] = "LBRS/黑下"; ["UBRS"] = "UBRS/黑上";
@@ -238,53 +238,53 @@ AtlasLocale = {
 	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
 	["Graveyard"] = "墓園"; ["GY"] = "GY";
-	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL";
+	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL/戈魯爾";
 	["Gundrak"] = "剛德拉克";
-	["Halls of Stone"] = "岩石大廳";
+	["Halls of Stone"] = "石之大廳";
 	["Halls of Lightning"] = "雷光大廳";
-	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC";
+	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC/火堡";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
-	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3";
-	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara";
+	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3/海山";
+	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara/卡拉";
 	["Library"] = "圖書館"; ["Lib"] = "Lib";
-	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT";
-	["Magtheridon's Lair"] = "瑪瑟里頓的巢穴"; ["Mag"] = "Mag";
-	["Mana-Tombs"] = "法力墓地"; ["MT"] = "MT";
+	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT/博學";
+	["Magtheridon's Lair"] = "瑪瑟里頓的巢穴"; ["Mag"] = "Mag/瑪瑟";
+	["Mana-Tombs"] = "法力墓地"; ["MT"] = "MT/法力";
 	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara";
 	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
 	["Naxxramas"] = "納克薩瑪斯"; ["Nax"] = "Nax";
-	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1";
-	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony";
+	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1/舊址";
+	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony/黑龍";
 	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC/怒焰";
 	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "剃刀沼澤"; ["RFK"] = "RFK";
 	["Ruins of Ahn'Qiraj"] = "安其拉廢墟"; ["AQ20"] = "AQ20";
-	["Scarlet Monastery"] = "血色修道院"; ["SM"] = "SM";
+	["Scarlet Monastery"] = "血色修道院"; ["SM"] = "SM/血色";
 	["Scholomance"] = "通靈學院"; ["Scholo"] = "Scholo/通靈";
 	["Serpentshrine Cavern"] = "毒蛇神殿洞穴"; ["SC"] = "SC/毒蛇";
-	["Sethekk Halls"] = "塞司克大廳"; ["Seth"] = "Seth";
+	["Sethekk Halls"] = "塞司克大廳"; ["Seth"] = "Seth/塞司克";
 	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL/迷宮";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat/斯坦";
 	["Stratholme Past"] = "斯坦索姆廢墟";
 	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST/神廟";
-	["Sunwell Plateau"] = "太陽之井高地"; ["SP"] = "SP";
+	["Sunwell Plateau"] = "太陽之井高地"; ["SP"] = "SP/太陽井";
 	["Tempest Keep"] = "風暴要塞"; ["TK"] = "TK";
 	["Temple of Ahn'Qiraj"] = "安其拉神廟"; ["AQ40"] = "AQ40";
-	["The Arcatraz"] = "亞克崔茲"; ["Arca"] = "Arca/亞克";
+	["The Arcatraz"] = "亞克崔茲"; ["Arca"] = "Arca 亞克";
 	["The Black Morass"] = "黑色沼澤"; ["CoT2"] = "CoT2/黑沼";
 	["The Blood Furnace"] = "血熔爐"; ["BF"] = "BF";
 	["The Botanica"] = "波塔尼卡"; ["Bota"] = "Bota/波塔";
 	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
-	["The Eye"] = "風暴之眼"; ["Eye"] = "Eye";
+	["The Eye"] = "風暴要塞"; ["Eye"] = "Eye";  --中文版裡 The Eye 名稱被刪除，以 風暴要塞 命名這個25人副本
 	["The Eye of Eternity"] = "永恆之眼";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
-	["The Nexus"] = "奈薩斯";
+	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
 	["The Oculus"] = "奧核之眼";
 	["The Shattered Halls"] = "破碎大廳"; ["SH"] = "SH/破碎";
 	["The Slave Pens"] = "奴隸監獄"; ["SP"] = "SP";
-	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV";
+	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV/蒸汽";
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
 	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫羅蘭堡";
@@ -299,22 +299,22 @@ AtlasLocale = {
 	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖爾";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "阿茲歐"; -- Azjol-Nerub -- 阿茲歐-奈幽
+	["AN, Nerub"] = "AN/奈幽"; -- Azjol-Nerub -- 阿茲歐-奈幽
 	["Strat, CoT-Strat"] = "CoT斯坦";
-	["DTK"] = "德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
-	["Gun"] = "剛德"; -- Gundrak -- 剛德拉克
-	["HoS"] = "岩廳"; -- Halls of Stone -- 岩石大廳
-	["HoL"] = "雷廳"; -- Halls of Lightning --雷光大廳
-	["OS"] = "黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
-	["UK, Keep"] = "俄塞"; -- Utgarde Keep -- 俄特加德要塞
-	["UP, Pinn"] = "俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
-	["Nex, Nexus"] = "奈薩斯"; -- The Nexus
-	["AK, Kahet"] = "安卡"; -- Ahn'kahet -- 安卡罕特
-	["VH"] = "紫堡"; -- The Violet Hold -- 紫羅蘭堡
-	["Ocu"] = "奧核"; -- The Oculus -- 奧核之眼
-	["VoA"] = "亞夏"; -- Vault of Archavon--亞夏梵穹殿
-	["TEoE"] = "永恆"; -- The Eye of Eternity--永恆之眼
-	["Uldu"] = "奧杜亞"; -- Ulduar--奧杜亞	
+	["DTK"] = "DTK/德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
+	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
+	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
+	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
+	["OS"] = "OS 黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
+	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
+	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
+	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
+	["AK, Kahet"] = "AK/古王國"; -- Ahn'kahet -- 安卡罕特
+	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
+	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
+	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
+	["TEoE"] = "TEoE/永眼"; -- The Eye of Eternity--永恆之眼
+	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar--奧杜亞	
 	
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";
@@ -1550,7 +1550,7 @@ AtlasLocale = {
 	["Moragg"] = "摩拉革";
 	["Lavanthor"] = "拉方索";
 	["Cyanigosa"] = "霞妮苟莎";
-	["The Violet Hold Key"] = "The Violet Hold Key";
+	["The Violet Hold Key"] = "紫羅蘭堡鑰匙";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "畢亞格林將軍";
@@ -1567,7 +1567,7 @@ AtlasLocale = {
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "星穹渾天儀之鑰";
-	["The Siege"] = "圍攻";
+	["The Siege"] = "攻城區";
 	["The Antechamber"] = "前廳"; --B
 	["The Keepers"] = "守護者"; --C
 	["Spark of Imagination"] = "創思之廳"; --D
@@ -1610,7 +1610,7 @@ AtlasLocale = {
 	-- Ulduar E
 	["General Vezax"] = "威札斯將軍";
 	["Yogg-Saron"] = "尤格薩倫";
-	["Prison of Yogg-Saron"] = "尤格薩倫之獄";
+    ["Prison of Yogg-Saron"] = "尤格薩倫之獄";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";

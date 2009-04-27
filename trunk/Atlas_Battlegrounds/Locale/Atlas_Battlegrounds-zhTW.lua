@@ -186,6 +186,6 @@ AtlasBGLocale = {
 	["Resurrection Point"] = "復活術點";
 	["Graveyard Flag"] = "墓地旗幟";
 	["Titan Relic"] = "泰坦聖物";
-	["Gates are marked with their colors."] = "大門已被其顏色標記";
+	["Gates are marked with their colors."] = "大門已被標記顏色";
 };
 end

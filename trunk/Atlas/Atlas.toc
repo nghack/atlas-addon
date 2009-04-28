@@ -13,10 +13,9 @@
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
-## X-Category: MYADDONS_CATEGORY_MAP
+## X-Category: Map
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariablesPerCharacter: AtlasOptions
-## OptionalDeps: Titan, myAddOns, EarthFeatureFrame
 
 Libs\LibStub.lua
 Libs\CallbackHandler-1.0.lua

@@ -39,10 +39,12 @@ v1.14.0
 - removed Urn key from Karazhan (Celellach)
 - removed Medallion key from all BT (Celellach)
 - removed Tempest Key from The Eye (Celellach)
+- removed optional deps from TOC file (Phanx)
 - renumbered Ahn'kahet (Celellach)
 - renumbered The Nexus (Celellach)
 - increased battleground level ranges to 80 (Celellach)
 - increased frame strata to HIGH to avoid messing with the default interface
+- changed x-category in TOC files (Phanx)
 - fixed some Alterac Valley coloring and ordering issues (Celellach)
 - current deDE (German) translation (Dynaletik)
 - current esES (Spanish) translation (maqjav)

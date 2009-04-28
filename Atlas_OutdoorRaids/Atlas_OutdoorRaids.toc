@@ -16,7 +16,7 @@
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
-## X-Category: MYADDONS_CATEGORY_MAP
+## X-Category: Map
 ## RequiredDeps: Atlas
 
 Locale\Atlas_OutdoorRaids-enUS.lua

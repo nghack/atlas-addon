@@ -16,8 +16,8 @@
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com
-## X-Category: MYADDONS_CATEGORY_MAP
-## RequiredDeps:Atlas
+## X-Category: Map
+## RequiredDeps: Atlas
 
 Locale\Atlas_Battlegrounds-enUS.lua
 Locale\Atlas_Battlegrounds-ruRU.lua

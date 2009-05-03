@@ -638,12 +638,12 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Vaelastrasz the Corrupt"], NPC, 13020 };
 		{ GREY.."3) "..AtlasLocale["Broodlord Lashlayer"], NPC, 12017 };
 		{ GREY.."4) "..AtlasLocale["Firemaw"], NPC, 11983 };
-		{ GREY..INDENT..AtlasLocale["Draconic for Dummies (Chapter VII)"], ITEM, 21109 };
-		{ GREY.."5) "..AtlasLocale["Master Elemental Shaper Krixix"], NPC, 14401 };
-		{ GREY.."6) "..AtlasLocale["Ebonroc"], NPC, 14601 };
-		{ GREY.."7) "..AtlasLocale["Flamegor"], NPC, 11981 };
-		{ GREY.."8) "..AtlasLocale["Chromaggus"], NPC, 14020 };
-		{ GREY.."9) "..AtlasLocale["Nefarian"], NPC, 11583 };
+		{ GREY.."5) "..AtlasLocale["Draconic for Dummies (Chapter VII)"], ITEM, 21109 };
+		{ GREY.."6) "..AtlasLocale["Master Elemental Shaper Krixix"], NPC, 14401 };
+		{ GREY.."7) "..AtlasLocale["Ebonroc"], NPC, 14601 };
+		{ GREY.."8) "..AtlasLocale["Flamegor"], NPC, 11981 };
+		{ GREY.."9) "..AtlasLocale["Chromaggus"], NPC, 14020 };
+		{ GREY.."10) "..AtlasLocale["Nefarian"], NPC, 11583 };
 	};
 	Gnomeregan = {
 		ZoneName = { AtlasLocale["Gnomeregan"], 133 };

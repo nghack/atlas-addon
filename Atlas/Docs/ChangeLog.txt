@@ -2,6 +2,9 @@
 = Change Log =
 ==============
 
+v1.14.1
+- fixed some locations in Blackwing Lair (Celellach)
+
 v1.14.0
 - updated TOC number to 30100 for the 3.1 patch
 - new map: Ulduar [in 5 parts] (deadca7, everyone else!)

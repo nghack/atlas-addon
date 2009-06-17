@@ -23,7 +23,8 @@
 --]]
 
 -- Atlas Traditional Chinese Localization
--- Last Update : 04/27/2009
+-- Last Update : $Date$
+-- Revision: $Revision$
 
 
 if ( GetLocale() ==	"zhTW" ) then
@@ -250,7 +251,7 @@ AtlasLocale = {
 	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT/博學";
 	["Magtheridon's Lair"] = "瑪瑟里頓的巢穴"; ["Mag"] = "Mag/瑪瑟";
 	["Mana-Tombs"] = "法力墓地"; ["MT"] = "MT/法力";
-	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara";
+	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara/瑪拉";
 	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
 	["Naxxramas"] = "納克薩瑪斯"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1/舊址";
@@ -305,15 +306,15 @@ AtlasLocale = {
 	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
 	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
 	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
-	["OS"] = "OS 黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
+	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
 	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
 	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
 	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
-	["AK, Kahet"] = "AK/古王國"; -- Ahn'kahet -- 安卡罕特
+	["AK, Kahet"] = "AK/安卡"; -- Ahn'kahet -- 安卡罕特
 	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
-	["TEoE"] = "TEoE/永眼"; -- The Eye of Eternity--永恆之眼
+	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
 	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar--奧杜亞	
 	
 	--Continents
@@ -329,7 +330,7 @@ AtlasLocale = {
 	["Blade's Edge Mountains"] = "劍刃山脈";
 	["Borean Tundra"] = "北風凍原";
 	["Burning Steppes"] = "燃燒平原";
-	["Dalaran"] = "達拉";
+	["Dalaran"] = "達拉然";
 	["Deadwind Pass"] = "逆風小徑";
 	["Desolace"] = "淒涼之地";
 	["Dragonblight"] = "龍骨荒野";
@@ -1499,17 +1500,17 @@ AtlasLocale = {
 	["Maexxna"] = "梅克絲娜";
 	["Military Quarter"] = "軍事區";
 	["Instructor Razuvious"] = "講師拉祖維斯";
-	["Gothik the Harvester"] = "收割者高希";
+	["Gothik the Harvester"] = "『收割者』高希";
 	["The Four Horsemen"] = "四騎士";
 	["Thane Korth'azz"] = "寇斯艾茲族長";
-	["Lady Blaumeux"] = "布洛莫斯爵士";
+	["Lady Blaumeux"] = "布洛莫斯女士";
 	--Baron Rivendare omitted, listed under Stratholme
 	["Sir Zeliek"] = "札里克爵士";
 	["Four Horsemen Chest"] = "四騎士之箱 ";
 	["Plague Quarter"] = "瘟疫區";
-	["Noth the Plaguebringer"] = "瘟疫者諾斯";
-	["Heigan the Unclean"] = "骯髒者海根";
-	["Loatheb"] = "洛斯伯";
+	["Noth the Plaguebringer"] = "『瘟疫使者』諾斯";
+	["Heigan the Unclean"] = "『不潔者』海根";
+	["Loatheb"] = "憎恨者";
 	["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
 	["Sapphiron"] = "薩菲隆";
 	["Kel'Thuzad"] = "科爾蘇加德";
@@ -1531,7 +1532,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "『審問者』德拉高斯";
 	["Mage-Lord Urom"] = "法師領主厄隆";
 	["Ley-Guardian Eregos"] = "地脈守護者伊瑞茍斯";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者 ";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "瓦羅斯·雲行者";
 	["Centrifuge Construct"] = "離心傀儡";
 	["Cache of Eregos"] = "伊瑞茍斯的貯藏箱";	
 

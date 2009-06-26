@@ -23,8 +23,8 @@
 --]]
 
 -- Atlas Traditional Chinese Localization
--- Last Update : $Date$
--- Revision: $Revision$
+-- $Date$
+-- $Revision$
 
 
 if ( GetLocale() ==	"zhTW" ) then
@@ -370,21 +370,21 @@ AtlasLocale = {
 	--Ragefire Chasm
 	["Maur Grimtotem"] = "瑪爾·恐怖圖騰";
 	["Oggleflint <Ragefire Chieftain>"] = "奧格弗林特";
-	["Taragaman the Hungerer"] = "饑餓者塔拉加曼";
-	["Jergosh the Invoker"] = "祈求者耶戈什";
+	["Taragaman the Hungerer"] = "『飢餓者』塔拉加曼";
+	["Jergosh the Invoker"] = "『塑能師』耶戈什";
 	["Zelemar the Wrathful"] = "憤怒者·賽勒瑪爾";
 	["Bazzalan"] = "巴札蘭";
 	
 	--Wailing Caverns
 	["Disciple of Naralex"] = "納拉雷克斯的信徒";
-	["Lord Cobrahn <Fanglord>"] = "考布萊恩";
+	["Lord Cobrahn <Fanglord>"] = "考布萊恩領主";
 	["Lady Anacondra <Fanglord>"] = "安娜科德拉";
 	["Kresh"] = "克雷什";
-	["Lord Pythas <Fanglord>"] = "皮薩斯";
+	["Lord Pythas <Fanglord>"] = "皮薩斯領主";
 	["Skum"] = "斯卡姆";
-	["Lord Serpentis <Fanglord>"] = "瑟芬迪斯";
+	["Lord Serpentis <Fanglord>"] = "瑟芬迪斯領主";
 	["Verdan the Everliving"] = "永生者沃爾丹";
-	["Mutanus the Devourer"] = "吞噬者穆坦努斯";
+	["Mutanus the Devourer"] = "『吞噬者』穆坦努斯";
 	["Naralex"] = "納拉雷克斯";
 	["Deviate Faerie Dragon"] = "變異精靈龍";
 	
@@ -408,7 +408,7 @@ AtlasLocale = {
 	["Roogug"] = "魯古格";
 	["Aggem Thorncurse <Death's Head Prophet>"] = "阿格姆";
 	["Death Speaker Jargba <Death's Head Captain>"] = "亡語者賈格巴";
-	["Overlord Ramtusk"] = "主宰拉姆塔斯";
+	["Overlord Ramtusk"] = "拉姆塔斯主宰";
 	["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
 	["Agathelos the Raging"] = "暴怒的阿迦賽羅斯";
 	["Blind Hunter"] = "盲眼獵手";
@@ -425,7 +425,7 @@ AtlasLocale = {
 	["Mordresh Fire Eye"] = "火眼莫德雷斯";
 	["Glutton"] = "暴食者";
 	["Ragglesnout"] = "拉戈斯諾特";
-	["Amnennar the Coldbringer"] = "寒冰之王亞門納爾";
+	["Amnennar the Coldbringer"] = "『寒冰使者』亞門納爾";
 	["Plaguemaw the Rotting"] = "腐爛的普雷莫爾";
 	
 	--Zul'Farrak
@@ -472,7 +472,7 @@ AtlasLocale = {
 	["Lethtendris"] = "蕾瑟塔蒂絲";
 	["Pimgib"] = "匹姆吉布";
 	["Old Ironbark"] = "埃隆巴克";
-	["Alzzin the Wildshaper"] = "奧茲恩";
+	["Alzzin the Wildshaper"] = "『狂野變形者』奧茲恩";
 	["Isalien"] = "依薩利恩 (召喚)";
 	
 	--Dire Maul (North)
@@ -485,7 +485,7 @@ AtlasLocale = {
 	["Guard Slip'kik"] = "衛兵斯里基克";
 	["Captain Kromcrush"] = "克羅卡斯";
 	["King Gordok"] = "戈多克大王";
-	["Cho'Rush the Observer"] = "觀察者克魯什";
+	["Cho'Rush the Observer"] = "『觀察者』克魯什";
 
 	--Dire Maul (West)
 	["J'eevee's Jar"] = "耶維爾的瓶子";
@@ -495,7 +495,7 @@ AtlasLocale = {
 	["Ancient Equine Spirit"] = "上古聖馬之魂";
 	["Illyanna Ravenoak"] = "伊琳娜·暗木";
 	["Ferra"] = "費拉";
-	["Magister Kalendris"] = "卡雷迪斯鎮長";
+	["Magister Kalendris"] = "博學者卡雷迪斯";
 	["Tsu'zee"] = "蘇斯";
 	["Immol'thar"] = "伊莫塔爾";
 	["Lord Hel'nurath"] = "赫爾努拉斯";

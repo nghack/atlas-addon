@@ -2,6 +2,9 @@
 = Change Log =
 ==============
 
+v1.14.2
+- updated TOC number to 30200 for the 3.2 patch
+
 v1.14.1
 - fixed some locations in Blackwing Lair (Celellach)
 

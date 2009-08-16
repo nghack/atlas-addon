@@ -1,4 +1,4 @@
-## Interface: 30100
+## Interface: 30200
 ## Title: Atlas |r|cFF0099FF[Outdoor Raids]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Внешние Рейды]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 戶外首領地圖
@@ -11,8 +11,8 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 戶外首領地圖模組
-## Version: 1.14.1
-## X-Date: May, 2009
+## Version: 1.14.2
+## X-Date: August, 2009
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

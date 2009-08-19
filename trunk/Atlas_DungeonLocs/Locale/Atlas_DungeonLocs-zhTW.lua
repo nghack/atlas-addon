@@ -22,7 +22,7 @@
 
 --]]
 
-if ( GetLocale() ==	"zhTW" ) then
+if ( GetLocale() == "zhTW" ) then
 AtlasDLLocale = {
 
 	--Common
@@ -33,7 +33,7 @@ AtlasDLLocale = {
 	["White"] = "灰";
 
 	--Places
-	["Ahn'kahet: The Old Kingdom"] = "卡罕特:古王國";
+	["Ahn'kahet: The Old Kingdom"] = "安卡罕特:古王國";
 	["Alterac Mountains"] = "奧特蘭克山山脈";
 	["Alterac Valley"] = "奧特蘭克山谷";
 	["Arathi Basin"] = "阿拉希盆地";
@@ -45,7 +45,7 @@ AtlasDLLocale = {
 	["Azjol-Nerub: The Upper Kingdom"] = "阿茲歐-奈幽: 王國上層";
 	["Badlands"] = "荒蕪之地";
 	["Black Temple"] = "黑暗神廟";
-	["Blackfathom Deeps"] = "黑石深淵";
+	["Blackfathom Deeps"] = "黑暗深淵";
 	["Blackrock Depths"] = "黑石深淵";
 	["Blackrock Mountain"] = "黑石山";
 	["Blackrock Spire"] = "黑石塔";
@@ -87,7 +87,7 @@ AtlasDLLocale = {
 	["Magtheridon's Lair"] = "瑪瑟里頓的巢穴";
 	["Mana-Tombs"] = "法力墓地";
 	["Maraudon"] = "瑪拉頓";
-	["Molten Core"] = "融火之心";
+	["Molten Core"] = "熔火之心";
 	["Naxxramas"] = "納克薩瑪斯";
 	["Netherstorm"] = "虛空風暴";
 	["Northrend"] = "北裂境";
@@ -126,9 +126,9 @@ AtlasDLLocale = {
 	["The Botanica"] = "波塔尼卡";
 	["The Deadmines"] = "死亡礦坑";
 	["The Eye of Eternity"] = "永恆之眼";
-	["The Eye"] = "風暴之眼";
+	["The Eye"] = "風暴要塞";
 	["The Mechanar"] = "麥克那爾";
-	["The Nexus"] = "奈薩斯";
+	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
 	["The Oculus"] = "奧核之眼";
 	["The Shattered Halls"] = "破碎大廳";

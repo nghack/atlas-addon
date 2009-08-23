@@ -1179,7 +1179,7 @@ AtlasLocale = {
 
 	--CR: The Slave Pens
 	["Cenarion Expedition"] = "塞納里奧遠征隊";--omitted from other CR
-	["Reservoir Key"] = "倉庫之鑰";--omitted from other CR
+	["Reservoir Key"] = "蓄湖之鑰";--omitted from other CR
 	["Mennu the Betrayer"] = "背叛者曼紐";
 	["Weeder Greenthumb"] = "威德·綠指";
 	["Skar'this the Heretic"] = "異教徒司卡利斯";
@@ -1218,7 +1218,7 @@ AtlasLocale = {
 	["Auchenai Key"] = "奧奇奈鑰匙";--omitted from other Auch
 	["The Eye of Haramad"] = "哈拉瑪德之眼";
 	["Pandemonius"] = "班提蒙尼厄斯";
-	["Shadow Lord Xiraxis"] = "S暗影之王希瑞西斯";
+	["Shadow Lord Xiraxis"] = "暗影領主希瑞西斯";
 	["Ambassador Pax'ivi"] = "帕克西維大使";
 	["Tavarok"] = "塔瓦洛克";
 	["Cryo-Engineer Sha'heen"] = "工程師薩希恩";
@@ -1413,7 +1413,7 @@ AtlasLocale = {
 	["Mushgog"] = "姆斯高格";
 	["Skarr the Unbreakable"] = "無敵的斯卡爾";
 	["The Razza"] = "拉札";
-	["Elder Mistwalker"] = "拉札";
+	["Elder Mistwalker"] = "霧行長者";
 
 	--Caverns of Time (Entrance)
 	["Steward of Time <Keepers of Time>"] = "時間服務員";

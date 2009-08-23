@@ -40,7 +40,7 @@ AtlasBGLocale = {
 	["South"] = "南";
 	["Start"] = "開始";
 	["Summon"] = "召喚";
-	["White"] = "灰";
+	["White"] = "白";
 
 	--Places
 	["Alterac Mountains"] = "奧特蘭克山脈";

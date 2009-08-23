@@ -30,7 +30,7 @@ AtlasDLLocale = {
 	["Blue"] = "藍";
 	["Dungeon Locations"] = "地下城位置";
 	["Instances"] = "副本";
-	["White"] = "灰";
+	["White"] = "白";
 
 	--Places
 	["Ahn'kahet: The Old Kingdom"] = "安卡罕特:古王國";

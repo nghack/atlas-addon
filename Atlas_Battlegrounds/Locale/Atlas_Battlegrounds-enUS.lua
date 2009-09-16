@@ -50,6 +50,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
 	["Eye of the Storm"] = "Eye of the Storm"; ["EotS"] = "EotS";
 	["Hillsbrad Foothills"] = "Hillsbrad Foothills";
+	["Icecrown"] = "Icecrown";
+	["Isle of Conquest"] = "Isle of Conquest"; ["IoC"] = "IoC";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Netherstorm";
 	["Outland"] = "Outland";
@@ -185,4 +187,14 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Graveyard Flag";
 	["Titan Relic"] = "Titan Relic";
 	["Gates are marked with their colors."] = "Gates are marked with their colors.";
+	
+	--Isle of Conquest
+	["The Refinery"] = "The Refinery";
+	["The Docks"] = "The Docks";
+	["The Workshop"] = "The Workshop";
+	["The Hangar"] = "The Hangar";
+	["The Quarry"] = "The Quarry";
+	["Contested Graveyards"] = "Contested Graveyards";
+	["Horde Graveyard"] = "Horde Graveyard";
+	["Alliance Graveyard"] = "Alliance Graveyard";
 };

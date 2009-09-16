@@ -73,15 +73,6 @@ local myData = {
 		{ GREY..INDENT..AtlasORLocale["Taerar"], NPC, 14890 };
 		{ GREY..INDENT..AtlasORLocale["Ysondre"], NPC, 14887 };
 	};
-	HighlordKruul = {
-		ZoneName = { AtlasORLocale["Highlord Kruul"], NPC, 18338 };
-		Location = { AtlasORLocale["Blasted Lands"], ZONE, 4 };
-		LevelRange = "60+";
-		MinLevel = "--";
-		PlayerLimit = "40";
-		{ GREY.."1) "..AtlasORLocale["Highlord Kruul"], NPC, 18338 };
-		{ GREY.."2) "..AtlasORLocale["Nethergarde Keep"] };
-	};
 	DoomLordKazzak = {
 		ZoneName = { AtlasORLocale["Doom Lord Kazzak"], NPC, 18728 };
 		Location = { AtlasORLocale["Hellfire Peninsula"], ZONE, 3483 };

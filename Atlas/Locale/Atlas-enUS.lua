@@ -169,8 +169,10 @@ AtlasLocale = {
 	["Key"] = "Key";
 	["Lower"] = "Lower";
 	["Lunar"] = "Lunar";
+	["Lunar Festival"] = "Lunar Festival";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Meeting Stone";
+	["Midsummer Festival"] = "Midsummer Festival";
 	["Monk"] = "Monk";
 	["Moonwell"] = "Moonwell";
 	["North"] = "North";
@@ -234,6 +236,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Caverns of Time"; ["CoT"] = "CoT";
 	["Chamber of Aspects"] = "Chamber of Aspects";
 	["Coilfang Reservoir"] = "Coilfang Reservoir"; ["CR"] = "CR";
+	["Crusaders' Coliseum"] = "Crusaders' Coliseum";
 	["Dire Maul"] = "Dire Maul"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Drak'Tharon Keep";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
@@ -245,6 +248,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Hellfire Citadel"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Hellfire Ramparts"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Hyjal Summit"; ["CoT3"] = "CoT3";
+	["Icecrown"] = "Icecrown";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Library"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Magisters' Terrace"; ["MT"] = "MT";
@@ -288,6 +292,8 @@ AtlasLocale = {
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "The Underbog"; ["UB"] = "UB";
 	["The Violet Hold"] = "The Violet Hold";
+	["Trial of the Champion"] = "Trial of the Champion"; ["Champ"] = "Champ";
+	["Trial of the Crusader"] = "Trial of the Crusader"; ["Crus"] = "Crus";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Utgarde Keep";
@@ -1595,6 +1601,8 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon the Observer";
 	["Antechamber of Ulduar"] = "Antechamber of Ulduar";
+	["Prospector Doren"] = "Prospector Doren";
+	["Archivum Console"] = "Archivum Console";
 
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
@@ -1616,6 +1624,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
 	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
+	["Dark Ranger Marrah"] = "Dark Ranger Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Smallshanks";
@@ -1628,4 +1637,37 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
+	["Koralon the Flame Watcher"] = "Koralon the Flame Watcher";
+	
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Cavern Entrance";
+	["Northrend Beasts"] = "Northrend Beasts";
+	["Gormok the Impaler"] = "Gormok the Impaler";
+	["Acidmaw"] = "Acidmaw";
+	["Dreadscale"] = "Dreadscale";
+	["Icehowl"] = "Icehowl";
+	["Lord Jaraxxus"] = "Lord Jaraxxus";
+	["Faction Champions"] = "Faction Champions";
+	["Twin Val'kyr"] = "Twin Val'kyr";
+	["Fjola Lightbane"] = "Fjola Lightbane";
+	["Eydis Darkbane"] = "Eydis Darkbane";
+	["Anub'arak"] = "Anub'arak";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Grand Champions";
+	["Champions of the Alliance"] = "Champions of the Alliance";
+	["Marshal Jacob Alerius"] = "Marshal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Boltspark";
+	["Colosos"] = "Colosos";
+	["Jaelyne Evensong"] = "Jaelyne Evensong";
+	["Lana Stouthammer"] = "Lana Stouthammer";
+	["Champions of the Horde"] = "Champions of the Horde";
+	["Mokra the Skullcrusher"] = "Mokra the Skullcrusher";
+	["Eressea Dawnsinger"] = "Eressea Dawnsinger";
+	["Runok Wildmane"] = "Runok Wildmane";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Deathstalker Visceri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric the Pure <Grand Champion of the Argent Crusade>";
+	["Argent Confessor Paletress"] = "Argent Confessor Paletress";
+	["The Black Knight"] = "The Black Knight";
 };

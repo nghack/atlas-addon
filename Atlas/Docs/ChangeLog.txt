@@ -2,6 +2,22 @@
 = Change Log =
 ==============
 
+v1.15.0
+- new map: Crusaders' Coliseum: Trial of the Champion (Deadca7)
+- new map: Crusaders' Coliseum: Trial of the Crusader (Deadca7)
+- new map: Isle of Conquest (Deadca7)
+- added Koralon the Flame Watcher to VoA (Deadca7)
+- added Dark Ranger Marrah to Utgarde Keep (thandrenn)
+- added Prospector Doren and Archivum Console to Ulduar (thandrenn)
+- added flight path from The Dark Portal to Shattrath (Celellach)
+- added trans routes (portals) from capitals to Dark Portal (Celellach)
+- removed Highlord Kruul map entirely (nonameform)
+- removed Maraudon key since it's no longer needed (Hegarol)
+- fixed some level range groups (Celellach)
+- fixed some mob positions in Wailing Caverns (arith)
+- tagged Ahune with Midsummer Festival (Celellach)
+- changed Lunar tag to Lunar Festival (Celellach)
+
 v1.14.2
 - updated TOC number to 30200 for the 3.2 patch
 

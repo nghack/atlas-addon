@@ -228,6 +228,25 @@ local myData = {
 		{ GREY.."4) "..AtlasBGLocale["Graveyard Flag"] };
 		{ GREY.."5) "..AtlasBGLocale["Titan Relic"], OBJECT, 192829 };
 	};
+	IsleOfConquest = {
+		ZoneName = { AtlasBGLocale["Isle of Conquest"], 4710 };
+		Acronym = AtlasBGLocale["IoC"];
+		Location = { AtlasBGLocale["Icecrown"], 210 };
+		LevelRange = "71-80";
+		MinLevel = "71";
+		PlayerLimit = "40";
+		Continent = AtlasBGLocale["Northrend"];
+		{ BLUE.."A) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ BLUE.."B) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ GREY.."1) "..AtlasBGLocale["The Refinery"] };
+		{ GREY.."2) "..AtlasBGLocale["The Docks"] };
+		{ GREY.."3) "..AtlasBGLocale["The Workshop"] };
+		{ GREY.."4) "..AtlasBGLocale["The Hangar"] };
+		{ GREY.."5) "..AtlasBGLocale["The Quarry"] };
+		{ GREN.."1') "..AtlasBGLocale["Contested Graveyards"] };
+		{ GREN.."2') "..AtlasBGLocale["Horde Graveyard"] };
+		{ GREN.."3') "..AtlasBGLocale["Alliance Graveyard"] };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

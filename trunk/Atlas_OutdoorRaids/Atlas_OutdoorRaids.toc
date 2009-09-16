@@ -11,8 +11,8 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 戶外首領地圖模組
-## Version: 1.14.2
-## X-Date: August, 2009
+## Version: 1.15.0
+## X-Date: September, 2009
 ## Author: Dan Gilbert
 ## X-Email: loglow@gmail.com
 ## X-Website: http://www.atlasmod.com

@@ -77,8 +77,8 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Disciple of Naralex"], NPC, 3678 };
 		{ GREY.."2) "..AtlasLocale["Lord Cobrahn <Fanglord>"], NPC, 3669 };
-		{ GREY.."3) "..AtlasLocale["Lady Anacondra <Fanglord>"], NPC, 3671 };
-		{ GREY.."4) "..AtlasLocale["Kresh"], NPC, 3653 };
+		{ GREY.."3) "..AtlasLocale["Lady Anacondra <Fanglord>"].." ("..AtlasLocale["Varies"]..")", NPC, 3671 };
+		{ GREY.."4) "..AtlasLocale["Kresh"].." ("..AtlasLocale["Varies"]..")", NPC, 3653 };
 		{ GREY.."5) "..AtlasLocale["Lord Pythas <Fanglord>"], NPC, 3670 };
 		{ GREY.."6) "..AtlasLocale["Skum"], NPC, 3674 };
 		{ GREY.."7) "..AtlasLocale["Lord Serpentis <Fanglord>"].." ("..AtlasLocale["Upper"]..")", NPC, 3673 };
@@ -175,7 +175,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Sandfury Executioner"], NPC, 7274 };
 		{ GREY.."6) "..AtlasLocale["Hydromancer Velratha"], NPC, 7795 };
 		{ GREY..INDENT..AtlasLocale["Gahz'rilla"].." ("..AtlasLocale["Summon"]..")", NPC, 7273 };
-		{ GREY..INDENT..AtlasLocale["Elder Wildmane"].." ("..AtlasLocale["Lunar"]..")", NPC, 15578 };
+		{ GREY..INDENT..AtlasLocale["Elder Wildmane"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15578 };
 		{ GREY.."7) "..AtlasLocale["Chief Ukorz Sandscalp"], NPC, 7267 };
 		{ GREY..INDENT..AtlasLocale["Ruuzlu"], NPC, 7797 };
 		{ GREY.."8) "..AtlasLocale["Zerillis"].." ("..AtlasLocale["Rare"]..", "..AtlasLocale["Wanders"]..")", NPC, 10082 };
@@ -189,7 +189,6 @@ AtlasMaps = {
 		MinLevel = "30";
 		PlayerLimit = "10";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Scepter of Celebras"].." ("..AtlasLocale["Portal"]..")", ITEM, 17191 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Orange"]..")" };
 		{ BLUE.."B) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Purple"]..")" };
 		{ BLUE.."C) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Portal"]..")" };
@@ -204,7 +203,7 @@ AtlasMaps = {
 		{ GREY.."9) "..AtlasLocale["Tinkerer Gizlock"], NPC, 13601 };
 		{ GREY.."10) "..AtlasLocale["Rotgrip"], NPC, 13596 };
 		{ GREY.."11) "..AtlasLocale["Princess Theradras"], NPC, 12201 };
-		{ GREY.."12) "..AtlasLocale["Elder Splitrock"].." ("..AtlasLocale["Lunar"]..")", NPC, 15556 };
+		{ GREY.."12) "..AtlasLocale["Elder Splitrock"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15556 };
 	};
 	DireMaulEast = {
 		ZoneName = { AtlasLocale["Dire Maul"].." ("..AtlasLocale["East"]..")", 2557 };
@@ -510,7 +509,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Rotfang"], NPC, 16050 };
 		{ GREY..INDENT..AtlasLocale["Va'jashni"], NPC, 16055 };
 		{ GREY..INDENT..AtlasLocale["Houndmaster Grebmar"].." ("..AtlasLocale["Lower"]..")", NPC, 9319 };
-		{ GREY..INDENT..AtlasLocale["Elder Morndeep"].." ("..AtlasLocale["Lunar"]..")", NPC, 15549 };
+		{ GREY..INDENT..AtlasLocale["Elder Morndeep"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15549 };
 		{ GREY..INDENT..AtlasLocale["High Justice Grimstone"], NPC, 10096 };
 		{ GREY.."7) "..AtlasLocale["Monument of Franclorn Forgewright"], OBJECT, 164689 };
 		{ GREY..INDENT..AtlasLocale["Pyromancer Loregrain"], NPC, 9024 };
@@ -842,7 +841,7 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Atiesh <Hand of Sargeras>"].." ("..AtlasLocale["Summon"]..")", NPC, 16387 };
 		{ GREY.."3) "..AtlasLocale["Hearthsinger Forresten"].." ("..AtlasLocale["Varies"]..")", NPC, 10558 };
 		{ GREY.."4) "..AtlasLocale["The Unforgiven"], NPC, 10516 };
-		{ GREY.."5) "..AtlasLocale["Elder Farwhisper"].." ("..AtlasLocale["Lunar"]..")", NPC, 15607 };
+		{ GREY.."5) "..AtlasLocale["Elder Farwhisper"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15607 };
 		{ GREY.."6) "..AtlasLocale["Timmy the Cruel"], NPC, 10808 };
 		{ GREY.."7) "..AtlasLocale["Malor the Zealous"], NPC, 11032 };
 		{ GREY..INDENT..AtlasLocale["Malor's Strongbox"], OBJECT, 176112 };
@@ -934,7 +933,7 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Shade of Eranikus"], NPC, 5709 };
 		{ GREY..INDENT..AtlasLocale["Essence Font"], OBJECT, 148512 };
 		{ GREY.."7) "..AtlasLocale["Spawn of Hakkar"].." ("..AtlasLocale["Rare"]..")", NPC, 5708 };
-		{ GREY.."8) "..AtlasLocale["Elder Starsong"].." ("..AtlasLocale["Lunar"]..")", NPC, 15593 };
+		{ GREY.."8) "..AtlasLocale["Elder Starsong"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15593 };
 		{ GREN.."1'-6') "..AtlasLocale["Statue Activation Order"] };
 		{ GREN.."7') "..AtlasLocale["Atal'ai Defenders"] };
 		{ GREN..INDENT..AtlasLocale["Gasher"], NPC, 5713 };
@@ -1310,7 +1309,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["Cenarion Expedition"], FACTION, 942 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Reservoir Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30623 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Ahune <The Frost Lord>"], NPC, 25740 };
+		{ GREY.."1) "..AtlasLocale["Ahune <The Frost Lord>"].." ("..AtlasLocale["Midsummer Festival"]..")", NPC, 25740 };
 		{ GREY.."2) "..AtlasLocale["Mennu the Betrayer"], NPC, 17941 };
 		{ GREY.."3) "..AtlasLocale["Weeder Greenthumb"], NPC, 17890 };
 		{ GREY.."4) "..AtlasLocale["Skar'this the Heretic"].." ("..AtlasLocale["Heroic"]..")", NPC, 22421 };
@@ -1810,7 +1809,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Mushgog"].." ("..AtlasLocale["Random"]..")", NPC, 11447 };
 		{ GREY..INDENT..AtlasLocale["Skarr the Unbreakable"].." ("..AtlasLocale["Random"]..")", NPC, 11498 };
 		{ GREY..INDENT..AtlasLocale["The Razza"].." ("..AtlasLocale["Random"]..")", NPC, 11497 };
-		{ GREY..INDENT..AtlasLocale["Elder Mistwalker"].." ("..AtlasLocale["Lunar"]..")", NPC, 15587 };
+		{ GREY..INDENT..AtlasLocale["Elder Mistwalker"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15587 };
 	};
 	CoTEnt = {
 		ZoneName = { AtlasLocale["Caverns of Time"].." ("..AtlasLocale["Entrance"]..")" };
@@ -2008,6 +2007,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["UK, Keep"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE..INDENT..AtlasLocale["Dark Ranger Marrah"], NPC, 24137 };
 		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Prince Keleseth <The San'layn>"], NPC, 23953 };
 		{ GREY.."2) "..AtlasLocale["Dalronn the Controller"], NPC, 24201 };
@@ -2147,8 +2147,10 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Steelbreaker"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Runemaster Molgeim"], NPC, 32867 };
 		{ GREY..INDENT..AtlasLocale["Stormcaller Brundir"], NPC, 32867 };
-		{ GREY.."6) "..AtlasLocale["Kologarn"], NPC, 32930 };
-		{ GREY.."7) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
+		{ GREY.."6) "..AtlasLocale["Prospector Doren"], NPC, 33956 };
+		{ GREY..INDENT..AtlasLocale["Archivum Console"], OBJECT, 194555 };
+		{ GREY.."7) "..AtlasLocale["Kologarn"], NPC, 32930 };
+		{ GREY.."8) "..AtlasLocale["Algalon the Observer"].." ("..AtlasLocale["Optional"]..")" };
 		{ GREN.."5') "..AtlasLocale["Antechamber of Ulduar"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	UlduarC = {
@@ -2162,10 +2164,10 @@ AtlasMaps = {
 		{ BLUE.."C) "..AtlasLocale["The Antechamber"] };
 		{ BLUE.."D) "..AtlasLocale["Spark of Imagination"] };
 		{ BLUE.."E) "..AtlasLocale["Descent into Madness"] };
-		{ GREY.."8) "..AtlasLocale["Auriaya"].." ("..AtlasLocale["Optional"]..")", NPC, 33515 };
-		{ GREY.."9) "..AtlasLocale["Hodir"], NPC, 32845 };
-		{ GREY.."10) "..AtlasLocale["Thorim"], NPC, 32865 };
-		{ GREY.."11) "..AtlasLocale["Freya"], NPC, 32906 };
+		{ GREY.."9) "..AtlasLocale["Auriaya"].." ("..AtlasLocale["Optional"]..")", NPC, 33515 };
+		{ GREY.."10) "..AtlasLocale["Hodir"], NPC, 32845 };
+		{ GREY.."11) "..AtlasLocale["Thorim"], NPC, 32865 };
+		{ GREY.."12) "..AtlasLocale["Freya"], NPC, 32906 };
 		{ GREN.."6') "..AtlasLocale["The Shattered Walkway"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 		{ GREN.."7') "..AtlasLocale["The Conservatory of Life"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
@@ -2178,7 +2180,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."D) "..AtlasLocale["The Keepers"] };
-		{ GREY.."12) "..AtlasLocale["Mimiron"], NPC, 33412 };
+		{ GREY.."13) "..AtlasLocale["Mimiron"], NPC, 33412 };
 		{ GREN.."8') "..AtlasLocale["Spark of Imagination"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	UlduarE = {
@@ -2190,8 +2192,8 @@ AtlasMaps = {
 		Acronym = AtlasLocale["Uldu"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."E) "..AtlasLocale["The Keepers"] };
-		{ GREY.."13) "..AtlasLocale["General Vezax"], NPC, 33271 };
-		{ GREY.."14) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
+		{ GREY.."14) "..AtlasLocale["General Vezax"], NPC, 33271 };
+		{ GREY.."15) "..AtlasLocale["Yogg-Saron"], NPC, 33288 };
 		{ GREN.."9') "..AtlasLocale["Prison of Yogg-Saron"].." ("..AtlasLocale["Teleporter"]..")", OBJECT, 194569 };
 	};
 	VaultOfArchavon = {
@@ -2205,5 +2207,54 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Archavon the Stone Watcher"], NPC, 31125 };
 		{ GREY.."2) "..AtlasLocale["Emalon the Storm Watcher"], NPC, 33993 };
+		{ GREY.."3) "..AtlasLocale["Koralon the Flame Watcher"], NPC, 35013 };
+	};
+	TrialOfTheCrusader = {
+		ZoneName = { AtlasLocale["Crusaders' Coliseum"]..": "..AtlasLocale["Trial of the Crusader"], 4722 };
+		Location = { AtlasLocale["Icecrown"], 210 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["Crus"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Cavern Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Northrend Beasts"] };
+		{ GREY..INDENT..INDENT..AtlasLocale["Gormok the Impaler"], NPC, 34796 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Acidmaw"], NPC, 35144 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Dreadscale"], NPC, 34799 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Icehowl"], NPC, 34797 };
+		{ GREY..INDENT..AtlasLocale["Lord Jaraxxus"], NPC, 34780 };
+		{ GREY..INDENT..AtlasLocale["Faction Champions"] };
+		{ GREY..INDENT..AtlasLocale["Twin Val'kyr"] };
+		{ GREY..INDENT..INDENT..AtlasLocale["Fjola Lightbane"], NPC, 34497 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Eydis Darkbane"], NPC, 34496 };
+		{ GREY.."2) "..AtlasLocale["Anub'arak"], NPC, 34564 };
+	};
+	TrialOfTheChampion = {
+		ZoneName = { AtlasLocale["Crusaders' Coliseum"]..": "..AtlasLocale["Trial of the Champion"], 4723 };
+		Location = { AtlasLocale["Icecrown"], 210 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "5";
+		Acronym = AtlasLocale["Champ"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Grand Champions"] };
+		{ GREY..INDENT..AtlasLocale["Champions of the Alliance"] };
+		{ GREY..INDENT..INDENT..AtlasLocale["Marshal Jacob Alerius"], NPC, 34705 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Ambrose Boltspark"], NPC, 34702 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Colosos"], NPC, 34701 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Jaelyne Evensong"], NPC, 34657 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Lana Stouthammer"], NPC, 34703 };
+		{ GREY..INDENT..AtlasLocale["Champions of the Horde"] };
+		{ GREY..INDENT..INDENT..AtlasLocale["Mokra the Skullcrusher"], NPC, 35572 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Eressea Dawnsinger"], NPC, 35569 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Runok Wildmane"], NPC, 35571 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Zul'tore"], NPC, 35570 };
+		{ GREY..INDENT..INDENT..AtlasLocale["Deathstalker Visceri"], NPC, 35617 };
+		{ GREY..INDENT..AtlasLocale["Eadric the Pure <Grand Champion of the Argent Crusade>"], NPC, 35119 };
+		{ GREY..INDENT..AtlasLocale["Argent Confessor Paletress"], NPC, 34928 };
+		{ GREY..INDENT..AtlasLocale["The Black Knight"], NPC, 35451 };
 	};
 };

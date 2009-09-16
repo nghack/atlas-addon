@@ -44,12 +44,13 @@ local myCategory = AtlasTransLocale["Transportation Maps"];
 local myData = {
 	TransAllianceEast = {
 		ZoneName = { AtlasTransLocale["Eastern Kingdoms"].." ("..AtlasTransLocale["Alliance"]..")" };
-		{ BLUE.."A) "..AtlasTransLocale["Valgarde"]..", ".._RED..AtlasTransLocale["Howling Fjord"], ZONE, 495 };
-		{ BLUE.."B) "..AtlasTransLocale["Valiance Keep"]..", ".._RED..AtlasTransLocale["Borean Tundra"], ZONE, 3537 };
-		{ BLUE.."C) "..AtlasTransLocale["Auberdine"]..", ".._RED..AtlasTransLocale["Darkshore"], ZONE, 148 };
-		{ BLUE.."D) "..AtlasTransLocale["Ratchet"]..", ".._RED..AtlasTransLocale["The Barrens"], ZONE, 17 };
-		{ BLUE.."E) "..AtlasTransLocale["Theramore Isle"]..", ".._RED..AtlasTransLocale["Dustwallow Marsh"], ZONE, 15 };
-		{ BLUE.."F) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Hellfire Peninsula"], ZONE, 3483 };
+		{ BLUE.."A) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
+		{ BLUE.."B) "..AtlasTransLocale["Valgarde"]..", ".._RED..AtlasTransLocale["Howling Fjord"], ZONE, 495 };
+		{ BLUE.."C) "..AtlasTransLocale["Valiance Keep"]..", ".._RED..AtlasTransLocale["Borean Tundra"], ZONE, 3537 };
+		{ BLUE.."D) "..AtlasTransLocale["Auberdine"]..", ".._RED..AtlasTransLocale["Darkshore"], ZONE, 148 };
+		{ BLUE.."E) "..AtlasTransLocale["Ratchet"]..", ".._RED..AtlasTransLocale["The Barrens"], ZONE, 17 };
+		{ BLUE.."F) "..AtlasTransLocale["Theramore Isle"]..", ".._RED..AtlasTransLocale["Dustwallow Marsh"], ZONE, 15 };
+		{ BLUE.."G) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Hellfire Peninsula"], ZONE, 3483 };
 		{ GREY.."1) "..AtlasTransLocale["Sun's Reach"]..", ".._RED..AtlasTransLocale["Isle of Quel'Danas"], ZONE, 4080 };
 		{ GREY.."2) "..AtlasTransLocale["Hatchet Hills"]..", ".._RED..AtlasTransLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."3) "..AtlasTransLocale["Light's Hope Chapel"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
@@ -126,10 +127,11 @@ local myData = {
 	};
 	TransHordeWest = {
 		ZoneName = { AtlasTransLocale["Kalimdor"].." ("..AtlasTransLocale["Horde"]..")" };
-		{ BLUE.."A) "..AtlasTransLocale["Warsong Hold"]..", ".._RED..AtlasTransLocale["Borean Tundra"], ZONE, 3537 };
-		{ BLUE.."B) "..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
-		{ BLUE.."C) "..AtlasTransLocale["Grom'Gol Base Camp"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
-		{ BLUE.."D) "..AtlasTransLocale["Booty Bay"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
+		{ BLUE.."A) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
+		{ BLUE.."B) "..AtlasTransLocale["Warsong Hold"]..", ".._RED..AtlasTransLocale["Borean Tundra"], ZONE, 3537 };
+		{ BLUE.."C) "..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
+		{ BLUE.."D) "..AtlasTransLocale["Grom'Gol Base Camp"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
+		{ BLUE.."E) "..AtlasTransLocale["Booty Bay"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
 		{ GREY.."1) "..AtlasTransLocale["Nighthaven"]..GREY..", ".._RED..AtlasTransLocale["Moonglade"]..GREN.." ("..AtlasTransLocale["Druid-only"]..")", ZONE, 493 };
 		{ GREY.."2) "..AtlasTransLocale["West of the path to Timbermaw Hold"]..", ".._RED..AtlasTransLocale["Moonglade"], ZONE, 493 };
 		{ GREY.."3) "..AtlasTransLocale["Everlook"]..", ".._RED..AtlasTransLocale["Winterspring"], ZONE, 618 };

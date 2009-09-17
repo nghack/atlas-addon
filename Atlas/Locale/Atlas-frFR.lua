@@ -175,8 +175,10 @@ AtlasLocale = {
 	["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation
 	["Lower"] = "En bas";
 	["Lunar"] = "Fête lunaire";
+	["Lunar Festival"] = "Festival lunaire";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Pierre de rencontre";
+	--["Midsummer Festival"] = "Midsummer Festival"; -- à traduire
 	["Monk"] = "Moine";
 	["Moonwell"] = "Puits de lune";
 	["North"] = "Nord";
@@ -240,6 +242,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Grottes du Temps"; ["CoT"] = "CoT/GT";
 	["Chamber of Aspects"] = "Chambre des Aspects";
 	["Coilfang Reservoir"] = "Réservoir de Glissecroc"; ["CR"] = "CR";
+	["Crusaders' Coliseum"] = "L'épreuve du croisé";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
@@ -251,6 +254,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
+	["Icecrown"] = "La Couronne de glace";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothèque"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Terrasse des Magistères"; ["MT"] = "MT";
@@ -294,6 +298,8 @@ AtlasLocale = {
 	["The Stockade"] = "La Prison"; ["Stocks"] = "Stocks/Prison";
 	["The Underbog"] = "La Basse-tourbière"; ["UB"] = "UB";
 	["The Violet Hold"] = "Le fort Pourpre";
+	["Trial of the Champion"] = "L'épreuve du champion"; ["Champ"] = "Champ";
+	["Trial of the Crusader"] = "L'épreuve du croisé"; ["Crus"] = "EDC";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Donjon d'Utgarde";
@@ -1601,7 +1607,9 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon l'Observateur";	
 	["Antechamber of Ulduar"] = "L'Antichambre d'Ulduar";
-	
+	["Prospector Doren"] = "Prospecteur Doren";
+	["Archivum Console"] = "Console de l'Archivum";
+
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
@@ -1622,6 +1630,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
 	["Dalronn the Controller"] = "Dalronn le Contrôleur";
 	["Ingvar the Plunderer"] = "Ingvar le Pilleur";
+	["Dark Ranger Marrah"] = "Forestier-sombre Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Courtecannes";
@@ -1634,5 +1643,38 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
+	["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
+	
+	--Trial of the Crusader
+	--["Cavern Entrance"] = "Cavern Entrance"; -- à traduire
+	["Northrend Beasts"] = "Bêtes du Norfendre";
+	["Gormok the Impaler"] = "Gormok l'Empaleur";
+	["Acidmaw"] = "Gueule-d'acide";
+	["Dreadscale"] = "Ecaille-d'effroi";
+	["Icehowl"] = "Glace-hurlante";
+	["Lord Jaraxxus"] = "Seigneur Jaraxxus";
+	["Faction Champions"] = "Champions de faction";
+	["Twin Val'kyr"] = "Jumelles val'kyrs";
+	["Fjola Lightbane"] = "Fjola Plaie-lumineuse";
+	["Eydis Darkbane"] = "Eydis Plaie-sombre";
+	["Anub'arak"] = "Anub'arak";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Grand Champions";
+	["Champions of the Alliance"] = "Champions de l'Alliance";
+	["Marshal Jacob Alerius"] = "Maréchal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Étinceboulon";
+	["Colosos"] = "Colossos";
+	["Jaelyne Evensong"] = "Jaelyne Chant-du-soir";
+	["Lana Stouthammer"] = "Lana Rudemartel";
+	["Champions of the Horde"] = "Champions de la Horde";
+	["Mokra the Skullcrusher"] = "Mokra le Brise-tête";
+	["Eressea Dawnsinger"] = "Eressea Chantelaube";
+	["Runok Wildmane"] = "Runok Crin-sauvage";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Nécrotraqueur Viscéri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric le Pur <Grand champion de la Croisade d'argent>";
+	["Argent Confessor Paletress"] = "Confesseur d'argent Paletress";
+	["The Black Knight"] = "Le Chevalier noir";
 };
 end

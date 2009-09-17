@@ -52,6 +52,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
 	["Eye of the Storm"] = "L'Œil du cyclone"; ["EotS"] = "EotS/L'Œil";
 	["Hillsbrad Foothills"] = "Contreforts de Hautebrande";
+	["Icecrown"] = "La Couronne de glace";
+	["Isle of Conquest"] = "Île des Conquérants"; ["IoC"] = "IoC";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Raz-de-Néant";
 	["Outland"] = "Outreterre";
@@ -187,5 +189,15 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Drapeau de cimetière";
 	["Titan Relic"] = "Relique des titans";
 	["Gates are marked with their colors."] = "Les portes sont marquées avec leur couleur.";
+	
+	--Isle of Conquest
+	["The Refinery"] = "Raffinerie";
+	["The Docks"] = "Docks";
+	["The Workshop"] = "Atelier";
+	["The Hangar"] = "Hangar";
+	["The Quarry"] = " Carrière";
+	["Contested Graveyards"] = "Donjons contestés";
+	["Horde Graveyard"] = "Donjon de la Horde";
+	["Alliance Graveyard"] = "Donjon de l'Alliance";
 };
 end

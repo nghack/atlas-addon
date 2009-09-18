@@ -17,6 +17,7 @@ v1.15.0
 - fixed some mob positions in Wailing Caverns (arith)
 - tagged Ahune with Midsummer Festival (Celellach)
 - changed Lunar tag to Lunar Festival (Celellach)
+- updated Onyxia's Lair player and level data (Bolino)
 
 v1.14.2
 - updated TOC number to 30200 for the 3.2 patch

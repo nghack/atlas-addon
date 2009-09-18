@@ -283,9 +283,9 @@ AtlasMaps = {
 		ZoneName = { AtlasLocale["Onyxia's Lair"], 2159 };
 		Acronym = AtlasLocale["Ony"];
 		Location = { AtlasLocale["Dustwallow Marsh"], 15 };
-		LevelRange = "60-70";
-		MinLevel = "50";
-		PlayerLimit = "40";
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
 		Continent = AtlasLocale["Kalimdor"];
 		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };

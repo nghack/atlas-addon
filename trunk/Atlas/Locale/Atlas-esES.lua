@@ -171,9 +171,11 @@ AtlasLocale = {
 	["Key"] = "Llave";
 	["Lower"] = "Abajo";
 	["Lunar"] = "Lunar";
+	["Lunar Festival"] = "Festival lunar";
 	["Mage"] = "Mago";
 
 	["Meeting Stone"] = "Piedra de encuentro";
+	["Midsummer Festival"] = "Festival del solsticio de verano";
 	["Monk"] = "Monje";	
 	["Moonwell"] = "Claro de la luna";
 	["North"] = "Norte";
@@ -239,6 +241,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Cavernas del Tiempo"; ["CoT"] = "CdT";
 	["Chamber of Aspects"] = "Cámara de los Aspectos"; --Check
 	["Coilfang Reservoir"] = "Reserva Colmillo Torcido"; ["CR"] = "RCT";
+	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
 	["Dire Maul"] = "La Masacre"; ["DM"] = "LM";	
 	["Drak'Tharon Keep"] = "Fortaleza de Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
@@ -250,6 +253,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
+	["Icecrown"] = "Corona del invierno";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
 	["Magisters' Terrace"] = "Bancal del Magister"; ["MT"] = "BM";
@@ -293,6 +297,8 @@ AtlasLocale = {
 	["The Stockade"] = "Las Mazmorras"; ["Stocks"] = "Mazmorras";
 	["The Underbog"] = "La Sotiénaga"; ["UB"] = "Soti";
 	["The Violet Hold"] = "El Bastión Violeta";
+	["Trial of the Champion"] = "Prueba del Campeón"; ["Champ"] = "PdCa";
+	["Trial of the Crusader"] = "Prueba del cruzado"; ["Crus"] = "PdCr";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Fortaleza de Utgarde";
@@ -1623,6 +1629,8 @@ AtlasLocale = {
 	["Algalon the Observer"] = "Algalon el Observador";
 	["Antechamber of Ulduar"] = "La Antecámara de Ulduar";
 	
+	["Prospector Doren"] = "Prospector Doren";
+	["Archivum Console"] = "Consola de El Archivum";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
@@ -1647,6 +1655,7 @@ AtlasLocale = {
 	["Dalronn the Controller"] = "Dalronn el Controlador";
 	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
 	
+	["Dark Ranger Marrah"] = "Forestal oscura Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Espinillas";
@@ -1660,5 +1669,38 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";
+	["Koralon the Flame Watcher"] = "Koralon el Vigía de las llamas";
+	
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Entrada a la caverna";
+	["Northrend Beasts"] = "Bestias de Rasganorte";
+	["Gormok the Impaler"] = "Gormok el Empalador";
+	["Acidmaw"] = "Fauceácida";
+	["Dreadscale"] = "Aterraescama";
+	["Icehowl"] = "Aullahielo";
+	["Lord Jaraxxus"] = "Lord Jaraxxus";
+	["Faction Champions"] = "Campeones de la facción";
+	["Twin Val'kyr"] = "Gemelas Val'kyr";
+	["Fjola Lightbane"] = "Fjola Penívea";
+	["Eydis Darkbane"] = "Eydis Penaumbra";
+	["Anub'arak"] = "Anub'arak";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Grandes campeones";
+	["Champions of the Alliance"] = "Campeones del Alianza";
+	["Marshal Jacob Alerius"] = "Mariscal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Chisparrayo";
+	["Colosos"] = "Colosos";
+	["Jaelyne Evensong"] = "Jaelyne Unicanto";
+	["Lana Stouthammer"] = "Lana Martillotenaz";
+	["Champions of the Horde"] = "Campeones del Horda";
+	["Mokra the Skullcrusher"] = "Mokra el Trituracráneos";
+	["Eressea Dawnsinger"] = "Eressea Cantoalba";
+	["Runok Wildmane"] = "Runok Ferocrín";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Mortacechador Visceri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric el Puro <Gran Campeón de la Cruzada Argenta>";
+	["Argent Confessor Paletress"] = "Confesora Argenta Cabelloclaro";
+	["The Black Knight"] = "El Caballero Negro";
 };
 end

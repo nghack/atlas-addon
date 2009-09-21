@@ -169,8 +169,10 @@ AtlasLocale = {
 	["Key"] = "Ключ";
 	["Lower"] = "Нижний";
 	["Lunar"] = "Лунный";
+	["Lunar Festival"] = "Лунный фестиваль";
 	["Mage"] = "Маг";
 	["Meeting Stone"] = "Камень встреч";
+	["Midsummer Festival"] = "Огненный солнцеворот";
 	["Monk"] = "Монах";
 	["Moonwell"] = "Лунный колодец";
 	["North"] = "Север";
@@ -234,6 +236,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Пещеры Времени"; ["CoT"] = "ПВ";
 	["Chamber of Aspects"] = "Комната духов";
 	["Coilfang Reservoir"] = "Резервуар Кривого Клыка"; ["CR"] = "РКК";
+	["Crusaders' Coliseum"] = "Колизей Авангарда";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "ЗГ";
 	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";
 	["Gnomeregan"] = "Гномреган"; ["Gnome"] = "Гном";
@@ -245,6 +248,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Цитадель Адского Пламени"; ["HFC"] = "ЦАП";
 	["Hellfire Ramparts"] = "Бастионы Адского Пламени"; ["Ramp"] = "Баст";
 	["Hyjal Summit"] = "Вершина Хиджала"; ["CoT3"] = "ПВ3";
+	["Icecrown"] = "Ледяная Корона";
 	["Karazhan"] = "Каражан"; ["Kara"] = "Кара";
 	["Library"] = "Библиотека"; ["Lib"] = "Биб";
 	["Magisters' Terrace"] = "Терраса Магистров"; ["MT"] = "ТМ";
@@ -288,6 +292,8 @@ AtlasLocale = {
 	["The Stockade"] = "Тюрьма"; ["Stocks"] = "Тюрьма";
 	["The Underbog"] = "Нижетопь"; ["UB"] = "НТ";
 	["The Violet Hold"] = "Аметистовая крепость";
+	["Trial of the Champion"] = "Испытание чемпиона"; ["Champ"] = "ИЧ";
+	["Trial of the Crusader"] = "Испытание крестоносца"; ["Crus"] = "ИК";
 	["Uldaman"] = "Ульдаман"; ["Ulda"] = "Ульд";
 	["Ulduar"] = "Ульдуар";
 	["Utgarde Keep"] = "Крепость Утгард";
@@ -1603,6 +1609,8 @@ AtlasLocale = {
 	["Kologarn"] = "Кологарн";
 	["Algalon the Observer"] = "Алгалон Наблюдатель";
 	["Antechamber of Ulduar"] = "Вестибюль Ульдуара";
+	["Prospector Doren"] = "Геолог Дорен";
+	["Archivum Console"] = "Панель управления Архивом";
 	
 	-- Ulduar C
 	["Auriaya"] = "Ауриайя";
@@ -1624,6 +1632,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Принц Келесет <Сан'лейн>";
 	["Dalronn the Controller"] = "Далронн Контролирующий";
 	["Ingvar the Plunderer"] = "Ингвар Расхититель";
+	["Dark Ranger Marrah"] = "Темный следопыт Марра";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Бригг Мелкотруб";
@@ -1636,6 +1645,39 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Аркавон Каменный Страж";
 	["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури";
+	["Koralon the Flame Watcher"] = "Коралон Страж Огня";
+	
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Вход";
+	["Northrend Beasts"] = "Звери Нордскола";
+	["Gormok the Impaler"] = "Гормок Пронзающий Бивень";
+	["Acidmaw"] = "Кислотная Утроба";
+	["Dreadscale"] = "Жуткая Чешуя";
+	["Icehowl"] = "Ледяной Рев";
+	["Lord Jaraxxus"] = "Лорд Джараксус";
+	["Faction Champions"] = "Чемпионы фракций";
+	["Twin Val'kyr"] = "Валь'киры-близнецы";
+	["Fjola Lightbane"] = "Фьола Погибель Света";
+	["Eydis Darkbane"] = "Эйдис Погибель Тьмы";
+	["Anub'arak"] = "Ануб'арак";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Абсолютные чемпионы";
+	["Champions of the Alliance"] = "Чемпионы Альянса";
+	["Marshal Jacob Alerius"] = "Маршал Якоб Алерий";
+	["Ambrose Boltspark"] = "Амброз Искрокрут";
+	["Colosos"] = "Колосус";
+	["Jaelyne Evensong"] = "Джейлин Закатная Песня";
+	["Lana Stouthammer"] = "Лана Твердомолот";
+	["Champions of the Horde"] = "Чемпионы Орды";
+	["Mokra the Skullcrusher"] = "Мокра Дробитель Черепов";
+	["Eressea Dawnsinger"] = "Эрессея Певица Рассвета";
+	["Runok Wildmane"] = "Рунок Буйногривый";
+	["Zul'tore"] = "Зул'тор";
+	["Deathstalker Visceri"] = "Страж смерти Визери";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Эдрик Чистый <Абсолютный чемпион Серебряного Авангарда>";
+	["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
+	["The Black Knight"] = "Черный рыцарь";
 	
 };
 end 

@@ -37,6 +37,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "Восточные королевства";
 	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "Око";
 	["Hillsbrad Foothills"] = "Старые Предгорья Хилсбрада";
+	["Icecrown"] = "Ледяная Корона";
+	["Isle of Conquest"] = "Остров Завоеваний"; ["IoC"] = "ОЗ";
 	["Kalimdor"] = "Калимдор";
 	["Netherstorm"] = "Пустоверть";
 	["Outland"] = "Запределье";
@@ -172,6 +174,16 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Кладбище";
 	["Titan Relic"] = "Реликвия титанов";
 	["Gates are marked with their colors."] = "Ворота, отмечены их цветами.";
+	
+	--Isle of Conquest
+	["The Refinery"] = "Нефтезавод";
+	["The Docks"] = "Причал";
+	["The Workshop"] = "Мастерская";
+	["The Hangar"] = "Ангар	";
+	["The Quarry"] = "Каменоломня";
+	["Contested Graveyards"] = "Спорные Кладбища";
+	["Horde Graveyard"] = "Кладбище Орды";
+	["Alliance Graveyard"] = "Кладбище Альянса";
 
 };
 

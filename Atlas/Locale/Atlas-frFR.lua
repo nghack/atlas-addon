@@ -178,7 +178,7 @@ AtlasLocale = {
 	["Lunar Festival"] = "Festival lunaire";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Pierre de rencontre";
-	--["Midsummer Festival"] = "Midsummer Festival"; -- à traduire
+	["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
 	["Monk"] = "Moine";
 	["Moonwell"] = "Puits de lune";
 	["North"] = "Nord";
@@ -1646,7 +1646,7 @@ AtlasLocale = {
 	["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
 	
 	--Trial of the Crusader
-	--["Cavern Entrance"] = "Cavern Entrance"; -- à traduire
+	["Cavern Entrance"] = "Entrée de la caverne";
 	["Northrend Beasts"] = "Bêtes du Norfendre";
 	["Gormok the Impaler"] = "Gormok l'Empaleur";
 	["Acidmaw"] = "Gueule-d'acide";

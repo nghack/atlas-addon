@@ -26,7 +26,6 @@
 -- $Date$
 -- $Revision$
 
-
 if ( GetLocale() ==	"zhTW" ) then
 --************************************************
 -- Global Atlas Strings
@@ -170,8 +169,10 @@ AtlasLocale = {
 	["Key"] = "鑰匙";
 	["Lower"] = "下層";
 	["Lunar"] = "新年慶典";
+	["Lunar Festival"] = "新年慶典";
 	["Mage"] = "法師";
 	["Meeting Stone"] = "集合石";
+	["Midsummer Festival"] = "仲夏節慶";
 	["Monk"] = "僧侶";
 	["Moonwell"] = "月井";
 	["North"] = "北方";
@@ -235,6 +236,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
 	["Chamber of Aspects"] = "守護密室";
 	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
+	["Crusaders' Coliseum"] = "十字軍大競技場";
 	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
 	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
@@ -246,6 +248,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC/火堡";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3/海山";
+	["Icecrown"] = "寒冰皇冠";
 	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara/卡拉";
 	["Library"] = "圖書館"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT/博學";
@@ -289,6 +292,8 @@ AtlasLocale = {
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
 	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫羅蘭堡";
+	["Trial of the Champion"] = "勇士試煉"; ["Champ"] = "勇士";
+	["Trial of the Crusader"] = "十字軍試煉"; ["Crus"] = "十字軍";
 	["Uldaman"] = "奧達曼"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "奧杜亞";
 	["Utgarde Keep"] = "俄特加德要塞";
@@ -1596,6 +1601,8 @@ AtlasLocale = {
 	["Kologarn"] = "柯洛剛恩";
 	["Algalon the Observer"] = "『觀察者』艾爾加隆";
 	["Antechamber of Ulduar"] = "奧杜亞前廳";
+	["Prospector Doren"] = "勘察員多倫";
+	["Archivum Console"] = "大資料庫控制臺";
 	
 	-- Ulduar C
 	["Auriaya"] = "奧芮雅";
@@ -1617,6 +1624,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
 	["Dalronn the Controller"] = "『控制者』達隆恩";
 	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
+	["Dark Ranger Marrah"] = "黑暗遊俠瑪拉";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "布里格·細柄";

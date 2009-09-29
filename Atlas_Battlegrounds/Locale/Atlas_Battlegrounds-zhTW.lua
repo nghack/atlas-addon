@@ -21,7 +21,8 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- Last Update : 04/24/2009
+-- $Date$
+-- $Revision$
 if ( GetLocale() ==	"zhTW" ) then
 
 AtlasBGLocale = {
@@ -52,6 +53,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "東部王國";
 	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS/暴風";
 	["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
+	["Icecrown"] = "寒冰皇冠";
+	["Isle of Conquest"] = "征服之島"; ["IoC"] = "IoC";
 	["Kalimdor"] = "卡林多";
 	["Netherstorm"] = "虛空風暴";
 	["Outland"] = "外域";
@@ -187,5 +190,16 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "墓地旗幟";
 	["Titan Relic"] = "泰坦聖物";
 	["Gates are marked with their colors."] = "大門已被標記顏色";
+
+	--Isle of Conquest
+	["The Refinery"] = "精煉廠";
+	["The Docks"] = "碼頭";
+	["The Workshop"] = "工坊";
+	["The Hangar"] = "機棚";
+	["The Quarry"] = "礦場";
+	["Contested Graveyards"] = "爭奪中的墓地";
+	["Horde Graveyard"] = "部落墓地";
+	["Alliance Graveyard"] = "聯盟墓地";
+
 };
 end

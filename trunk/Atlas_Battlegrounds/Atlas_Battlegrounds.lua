@@ -236,8 +236,11 @@ local myData = {
 		MinLevel = "71";
 		PlayerLimit = "40";
 		Continent = AtlasBGLocale["Northrend"];
+		{ ORNG..AtlasBGLocale["Gates are marked with red bars."] };
 		{ BLUE.."A) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ BLUE..INDENT..AtlasBGLocale["Overlord Agmar"], NPC, 34922 };
 		{ BLUE.."B) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ BLUE..INDENT..AtlasBGLocale["High Commander Halford Wyrmbane <7th Legion>"], NPC, 34924 };
 		{ GREY.."1) "..AtlasBGLocale["The Refinery"] };
 		{ GREY.."2) "..AtlasBGLocale["The Docks"] };
 		{ GREY.."3) "..AtlasBGLocale["The Workshop"] };

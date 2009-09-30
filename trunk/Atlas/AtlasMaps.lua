@@ -1460,6 +1460,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Sha'tar"], FACTION, 935 };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Warpforged Key"].." ("..AtlasLocale["Heroic"]..")", ITEM, 30634 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Commander Sarannis"], NPC, 17976 };
 		{ GREY.."2) "..AtlasLocale["High Botanist Freywinn"], NPC, 17975 };
 		{ GREY.."3) "..AtlasLocale["Thorngrin the Tender"], NPC, 17978 };
@@ -2217,6 +2218,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["Crus"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Heroic: Trial of the Grand Crusader"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Cavern Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Northrend Beasts"] };

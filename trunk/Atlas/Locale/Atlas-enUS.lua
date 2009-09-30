@@ -1652,6 +1652,7 @@ AtlasLocale = {
 	["Fjola Lightbane"] = "Fjola Lightbane";
 	["Eydis Darkbane"] = "Eydis Darkbane";
 	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Heroic: Trial of the Grand Crusader";
 
 	--Trial of the Champion
 	["Grand Champions"] = "Grand Champions";

@@ -133,11 +133,15 @@ local myData = {
 		{ GREY..INDENT..AtlasDLLocale["Utgarde Pinnacle"], ZONE, 1196 };
 		{ GREY.."7) "..AtlasDLLocale["Gundrak"]..", ".._RED..AtlasDLLocale["Zul'Drak"], ZONE, 4375, 66 };
 		{ GREY.."8) "..AtlasDLLocale["The Violet Hold"]..", ".._RED..AtlasDLLocale["Dalaran"], ZONE, 4415, 4395 };
-		{ GREY.."9) "..AtlasDLLocale["Icecrown Citadel"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
+		{ GREY.."9) "..AtlasDLLocale["Vault of Archavon"]..", ".._RED..AtlasDLLocale["Wintergrasp"], ZONE, 4603, 4197 };
 		{ GREY.."10) "..AtlasDLLocale["Ulduar"]..", ".._RED..AtlasDLLocale["The Storm Peaks"], ZONE, nil, 67 };
 		{ GREY..INDENT..AtlasDLLocale["Ulduar"], ZONE, 4273 };
 		{ GREY..INDENT..AtlasDLLocale["Halls of Stone"], ZONE, 4264 };
 		{ GREY..INDENT..AtlasDLLocale["Halls of Lightning"], ZONE, 4272 };
+		{ GREY.."11) "..AtlasDLLocale["Crusaders' Coliseum"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
+		{ GREY..INDENT..AtlasDLLocale["Trial of the Crusader"], ZONE, 4722 };
+		{ GREY..INDENT..AtlasDLLocale["Trial of the Champion"], ZONE, 4723 };
+		{ GREY.."12) "..AtlasDLLocale["Icecrown Citadel"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
 	};
 };
 

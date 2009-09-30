@@ -200,6 +200,9 @@ AtlasBGLocale = {
 	["Contested Graveyards"] = "爭奪中的墓地";
 	["Horde Graveyard"] = "部落墓地";
 	["Alliance Graveyard"] = "聯盟墓地";
+	["Gates are marked with red bars."] = "閘門以紅條標記.";
+	["Overlord Agmar"] = "霸主阿格瑪";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "最高指揮官海弗德·龍禍";
 
 };
 end

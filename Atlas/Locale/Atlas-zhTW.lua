@@ -1637,5 +1637,39 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "『石之看守者』亞夏梵";
 	["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";	
+	["Koralon the Flame Watcher"] = "『烈焰看守者』寇拉隆";
+	
+	--Trial of the Crusader
+	["Cavern Entrance"] = "洞穴入口";
+	["Northrend Beasts"] = "北裂境野獸";
+	["Gormok the Impaler"] = "『穿刺者』戈莫克";
+	["Acidmaw"] = "酸喉";
+	["Dreadscale"] = "懼鱗";
+	["Icehowl"] = "冰嚎";
+	["Lord Jaraxxus"] = "賈拉克瑟斯領主";
+	["Faction Champions"] = "陣營勇士";
+	["Twin Val'kyr"] = "華爾琪雙子";
+	["Fjola Lightbane"] = "菲歐拉·光寂";
+	["Eydis Darkbane"] = "艾狄絲·暗寂";
+	["Anub'arak"] = "阿努巴拉克";
+	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字軍試煉";
+
+	--Trial of the Champion
+	["Grand Champions"] = "大勇士";
+	["Champions of the Alliance"] = "聯盟勇士";
+	["Marshal Jacob Alerius"] = "傑科布·亞雷瑞斯元帥";
+	["Ambrose Boltspark"] = "安布羅斯·拴炫";
+	["Colosos"] = "克羅索斯";
+	["Jaelyne Evensong"] = "潔琳·晚歌";
+	["Lana Stouthammer"] = "菈娜·頑錘";
+	["Champions of the Horde"] = "部落勇士";
+	["Mokra the Skullcrusher"] = "『碎顱者』莫克拉";
+	["Eressea Dawnsinger"] = "艾瑞西雅·曦詠";
+	["Runok Wildmane"] = "魯諾克·蠻鬃";
+	["Zul'tore"] = "祖爾拓";
+	["Deathstalker Visceri"] = "亡靈哨兵威瑟瑞";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『純淨者』埃卓克";
+	["Argent Confessor Paletress"] = "銀白告解者帕爾璀絲";
+	["The Black Knight"] = "黑騎士";
 };
 end

@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 19/04/2009
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 30/09/2009
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then
@@ -1658,6 +1658,7 @@ AtlasLocale = {
 	["Fjola Lightbane"] = "Fjola Plaie-lumineuse";
 	["Eydis Darkbane"] = "Eydis Plaie-sombre";
 	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Héroïque: L'appel de la grande Croisade";
 
 	--Trial of the Champion
 	["Grand Champions"] = "Grand Champions";

@@ -197,4 +197,7 @@ AtlasBGLocale = {
 	["Contested Graveyards"] = "Contested Graveyards";
 	["Horde Graveyard"] = "Horde Graveyard";
 	["Alliance Graveyard"] = "Alliance Graveyard";
+	["Gates are marked with red bars."] = "Gates are marked with red bars.";
+	["Overlord Agmar"] = "Overlord Agmar";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "High Commander Halford Wyrmbane <7th Legion>";
 };

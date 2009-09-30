@@ -54,6 +54,7 @@ AtlasDLLocale = {
 	["Caverns of Time"] = "時光之穴";
 	["Coilfang Reservoir"] = "盤牙蓄湖";
 	["Coldarra"] = "凜懼島";
+	["Crusaders' Coliseum"] = "銀白大競技場";
 	["Dalaran"] = "達拉然";
 	["Deadwind Pass"] = "逆風小徑";
 	["Desolace"] = "淒涼之地";
@@ -139,19 +140,22 @@ AtlasDLLocale = {
 	["The Underbog"] = "深幽泥沼";
 	["The Violet Hold"] = "紫羅蘭堡";
 	["Tirisfal Glades"] = "提里斯法林地";
+	["Trial of the Champion"] = "勇士試煉";
+	["Trial of the Crusader"] = "十字軍試煉";
 	["Uldaman"] = "奧達曼";
 	["Ulduar"] = "奧杜亞";
 	["Utgarde Keep"] = "俄特加德要塞";
 	["Utgarde Pinnacle"] = "俄特加德之巔";
+	["Vault of Archavon"] = "亞夏梵穹殿";
 	["Wailing Caverns"] = "哀嚎洞穴";
 	["Warsong Gulch"] = "戰歌峽谷";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
+	["Wintergrasp"] = "冬握湖";
 	["Zangarmarsh"] = "贊格沼澤";
 	["Zul'Aman"] = "祖阿曼";
 	["Zul'Drak"] = "祖爾德拉克";
 	["Zul'Farrak"] = "祖爾法拉克";
 	["Zul'Gurub"] = "祖爾格拉布";
-
 };
 end

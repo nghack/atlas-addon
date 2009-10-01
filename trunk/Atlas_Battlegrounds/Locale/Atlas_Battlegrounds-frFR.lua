@@ -199,7 +199,7 @@ AtlasBGLocale = {
 	["Contested Graveyards"] = "Donjons contestés";
 	["Horde Graveyard"] = "Donjon de la Horde";
 	["Alliance Graveyard"] = "Donjon de l'Alliance";
-	--["Gates are marked with red bars."] = "Gates are marked with red bars."; -- à traduire
+	["Gates are marked with red bars."] = "Les portes sont marquées par des barres rouges.";
 	["Overlord Agmar"] = "Seigneur Agmar";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Haut commandant Halford Verroctone <7e Légion>";
 };

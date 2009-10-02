@@ -184,6 +184,9 @@ AtlasBGLocale = {
 	["Contested Graveyards"] = "Спорные Кладбища";
 	["Horde Graveyard"] = "Кладбище Орды";
 	["Alliance Graveyard"] = "Кладбище Альянса";
+	["Gates are marked with red bars."] = "Ворота помечены красным.";
+	["Overlord Agmar"] = "Командир Агмар";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "Главнокомандующий Халфорд Змеевержец <7-й легион>";
 
 };
 

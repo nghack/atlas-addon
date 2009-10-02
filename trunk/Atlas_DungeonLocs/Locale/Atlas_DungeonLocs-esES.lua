@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 16/04/2009
+-- Última Actualización (last update): 01/10/2009
 
 --]]
 
@@ -65,6 +65,7 @@ AtlasDLLocale = {
 	["Caverns of Time"] = "Cavernas del Tiempo";
 	["Coilfang Reservoir"] = "Reserva Colmillo Torcido";
 	["Coldarra"] = "Coldarra"; --Check
+	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
 	["Dalaran"] = "Dalaran";
 	["Deadwind Pass"] = "Paso de la Muerte";
 	["Desolace"] = "Desolace";
@@ -150,14 +151,18 @@ AtlasDLLocale = {
 	["The Underbog"] = "La Sotiénaga";
 	["The Violet Hold"] = "El Bastión Violeta";
 	["Tirisfal Glades"] = "Claros de Trisfal";
+	["Trial of the Champion"] = "Prueba del Campeón";
+	["Trial of the Crusader"] = "Prueba del Cruzado";
 	["Uldaman"] = "Uldaman";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Fortaleza de Utgarde";
 	["Utgarde Pinnacle"] = "Pináculo de Utgarde";
+	["Vault of Archavon"] = "La Cámara de Archavon";
 	["Wailing Caverns"] = "Cuevas de los Lamentos";
 	["Warsong Gulch"] = "Garganta Grito de Guerra";
 	["Western Plaguelands"] = "Tierras de la Peste del Oeste";
 	["Westfall"] = "Páramos de Poniente";
+	["Wintergrasp"] = "Conquista del Invierno";
 	["Zangarmarsh"] = "Marisma de Zangar";
 	["Zul'Aman"] = "Zul'Aman";
 	["Zul'Drak"] = "Zul'Drak";

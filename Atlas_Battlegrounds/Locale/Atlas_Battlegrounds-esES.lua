@@ -25,7 +25,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 23/04/2009
+-- Última Actualización (last update): 01/10/2009
 
 --]]
 
@@ -59,6 +59,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "Reinos del Este";
 	["Eye of the Storm"] = "El Ojo de la Tormenta"; ["EotS"] = "OT";
 	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
+	["Icecrown"] = "Corona de Hielo";
+	["Isle of Conquest"] = "Isla de la Conquista"; ["IoC"] = "IcC";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Tormenta Abisal";
 	["Outland"] = "Terrallende";
@@ -194,5 +196,17 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Bandera del Cementerio";
 	["Titan Relic"] = "Reliquia de titán";
 	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
+	--Isle of Conquest
+	["The Refinery"] = "La Refinería";
+	["The Docks"] = "El Astillero";
+	["The Workshop"] = "El Taller de Asedio";
+	["The Hangar"] = "El Hangar";
+	["The Quarry"] = "La Cantera";
+	["Contested Graveyards"] = "Cementerios de disputa";
+	["Horde Graveyard"] = "Cementerio de la Horda";
+	["Alliance Graveyard"] = "Cementerio de la Alianza";
+	["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
+	["Overlord Agmar"] = "Señor supremo Agmar";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "Alto comandante Halford Aterravermis <La Séptima Legión>";
 };
 end

@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 26/04/2009
+-- Última Actualización (last update): 01/10/2009
 
 --************************************************
 -- Global Atlas Strings
@@ -253,7 +253,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
-	["Icecrown"] = "Corona del invierno";
+	["Icecrown"] = "Corona de Hielo";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
 	["Magisters' Terrace"] = "Bancal del Magister"; ["MT"] = "BM";
@@ -1684,16 +1684,17 @@ AtlasLocale = {
 	["Fjola Lightbane"] = "Fjola Penívea";
 	["Eydis Darkbane"] = "Eydis Penaumbra";
 	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";
 
 	--Trial of the Champion
 	["Grand Champions"] = "Grandes campeones";
-	["Champions of the Alliance"] = "Campeones del Alianza";
+	["Champions of the Alliance"] = "Campeones de la Alianza";
 	["Marshal Jacob Alerius"] = "Mariscal Jacob Alerius";
 	["Ambrose Boltspark"] = "Ambrose Chisparrayo";
 	["Colosos"] = "Colosos";
 	["Jaelyne Evensong"] = "Jaelyne Unicanto";
 	["Lana Stouthammer"] = "Lana Martillotenaz";
-	["Champions of the Horde"] = "Campeones del Horda";
+	["Champions of the Horde"] = "Campeones de la Horda";
 	["Mokra the Skullcrusher"] = "Mokra el Trituracráneos";
 	["Eressea Dawnsinger"] = "Eressea Cantoalba";
 	["Runok Wildmane"] = "Runok Ferocrín";

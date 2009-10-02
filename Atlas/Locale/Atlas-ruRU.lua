@@ -1660,6 +1660,7 @@ AtlasLocale = {
 	["Fjola Lightbane"] = "Фьола Погибель Света";
 	["Eydis Darkbane"] = "Эйдис Погибель Тьмы";
 	["Anub'arak"] = "Ануб'арак";
+	["Heroic: Trial of the Grand Crusader"] = "Героик: Испытание великого крестоносца";
 
 	--Trial of the Champion
 	["Grand Champions"] = "Абсолютные чемпионы";

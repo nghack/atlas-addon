@@ -13,6 +13,7 @@ v1.15.0
 - added trans routes (portals) from capitals to Dark Portal (Celellach)
 - added exit to The Botanica (Celellach)
 - added VoA to dungeon location map (Celellach)
+- added brackets to battleground level ranges (Celellach)
 - removed Highlord Kruul map entirely (nonameform)
 - removed Maraudon key since it's no longer needed (Hegarol)
 - fixed some level range groups (Celellach)

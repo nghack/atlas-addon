@@ -1,12 +1,34 @@
 --[[
 
+	Atlas, a World of Warcraft instance map browser
+	Copyright 2005 - 2008 Dan Gilbert
+	Email me at loglow@gmail.com
+
+	This file is part of Atlas.
+
+	Atlas is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	Atlas is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Atlas; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+--]]
+
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 4/23/2009
+-- $Date$
+-- $Revision$
 -- http://ngacn.cc
 
---]]
 
 if ( GetLocale() == "zhCN" ) then
 
@@ -38,6 +60,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "东部王国";
 	["Eye of the Storm"] = "风暴之眼"; ["EotS"] = "EotS";
 	["Hillsbrad Foothills"] = "希尔斯布莱德丘陵";
+	["Icecrown"] = "寒冰皇冠";
+	["Isle of Conquest"] = "征服之岛"; ["IoC"] = "IoC";
 	["Kalimdor"] = "卡利姆多";
 	["Netherstorm"] = "虚空风暴";
 	["Outland"] = "外域";
@@ -167,11 +191,25 @@ AtlasBGLocale = {
 	--Strand of the Ancients
 	["Attacking Team"] = "进攻方";
 	["Defending Team"] = "防守方";
-	["Massive Seaforium Charge"] = "Massive Seaforium Charge";
+	["Massive Seaforium Charge"] = "大型爆盐炸弹";
 	["Battleground Demolisher"] = "战场攻城车";
 	["Resurrection Point"] = "复活点";
 	["Graveyard Flag"] = "墓地旗帜";
 	["Titan Relic"] = "泰坦圣物";
 	["Gates are marked with their colors."] = "大门以其颜色进行了标记。";
+
+	--Isle of Conquest
+	["The Refinery"] = "精炼厂";
+	["The Docks"] = "码头";
+	["The Workshop"] = "工坊";
+	["The Hangar"] = "机棚";
+	["The Quarry"] = "矿场";
+	["Contested Graveyards"] = "争夺中的墓地";
+	["Horde Graveyard"] = "部落墓地";
+	["Alliance Graveyard"] = "联盟墓地";
+	["Gates are marked with red bars."] = "闸门以红条标记.";
+	["Overlord Agmar"] = "霸主阿格玛";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "最高指挥官海弗德•龙祸";
+
 };
 end

@@ -1,18 +1,41 @@
 ﻿--[[
 
--- Atlas Localization Data (Chinese)
--- Initial translation by DiabloHu
--- Version : Chinese (by DiabloHu)
--- Last Update : 4/26/2009
--- http://ngacn.cc
+	Atlas, a World of Warcraft instance map browser
+	Copyright 2005 - 2009 Dan Gilbert
+	Email me at loglow@gmail.com
+
+	This file is part of Atlas.
+
+	Atlas is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	Atlas is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Atlas; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
 
+-- Atlas Localization Data (Chinese)
+-- Initial translation by DiabloHu
+-- Version : Chinese (by DiabloHu)
+-- $Date$
+-- $Revision$
+-- http://ngacn.cc
+
+
 if ( GetLocale() == "zhCN" ) then
+--************************************************
+-- Global Atlas Strings
+--************************************************
 
-
-AtlasSortIgnore = {
-	};
+AtlasSortIgnore = {};
 
 ATLAS_TITLE = "Atlas";
 ATLAS_SUBTITLE = "副本地图";
@@ -65,7 +88,7 @@ ATLAS_DDL_LEVEL = "副本等级";
 ATLAS_DDL_LEVEL_UNDER45 = "45级以下副本";
 ATLAS_DDL_LEVEL_45TO60 = "45-60级副本";
 ATLAS_DDL_LEVEL_60TO70 = "60-70级副本";
-ATLAS_DDL_LEVEL_70PLUS = "70-80级副本";
+ATLAS_DDL_LEVEL_70TO80 = "70-80级副本";
 ATLAS_DDL_LEVEL_80PLUS = "80级以上副本";
 ATLAS_DDL_PARTYSIZE = "副本规模";
 ATLAS_DDL_PARTYSIZE_5_AC = "5人副本 (第一页)";
@@ -103,8 +126,6 @@ AtlasZoneSubstitutions = {
 	["黑暗神殿"] = "黑暗神殿 [A] (入门)";
 }; 
 
-INDENT = "  ";
-
 AtlasLocale = {
 
 --************************************************
@@ -116,8 +137,8 @@ AtlasLocale = {
 	["AKA"] = "亦作";
 	["Alliance"] = "联盟";
 	["Arcane Container"] = "奥术容器";
-	["Argent Crusade"] = "银色远征军";
 	["Argent Dawn"] = "银色黎明";
+	["Argent Crusade"] = "银色远征军";
 	["Arms Warrior"] = "武器战士";
 	["Attunement Required"] = "需要完成入口任务";
 	["Back"] = "后门";
@@ -154,8 +175,10 @@ AtlasLocale = {
 	["Key"] = "钥匙";
 	["Lower"] = "下层";
 	["Lunar"] = "春节";
+	["Lunar Festival"] = "春节庆典";
 	["Mage"] = "法师";
 	["Meeting Stone"] = "集合石";
+	["Midsummer Festival"] = "仲夏节庆典";
 	["Monk"] = "僧侣";
 	["Moonwell"] = "月亮井";
 	["North"] = "北区";
@@ -219,6 +242,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "时光之穴"; ["CoT"] = "CoT";
 	["Chamber of Aspects"] = "守护巨龙大厅";
 	["Coilfang Reservoir"] = "盘牙水库"; ["CR"] = "CR";
+	["Crusaders' Coliseum"] = "十字军大竞技场";
 	["Dire Maul"] = "厄运之槌"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "达克萨隆要塞";
 	["Gnomeregan"] = "诺莫瑞根"; ["Gnome"] = "Gnome";
@@ -230,6 +254,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "地狱火堡垒"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "地狱火城墙"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加尔峰"; ["CoT3"] = "CoT3";
+	["Icecrown"] = "寒冰皇冠";
 	["Karazhan"] = "卡拉赞"; ["Kara"] = "Kara";
 	["Library"] = "图书馆"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "魔导师平台"; ["MT"] = "MT";
@@ -273,7 +298,9 @@ AtlasLocale = {
 	["The Stockade"] = "监狱"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "幽暗沼泽"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫罗兰监狱";
-	["Uldaman"] = "奥达曼"; ["Uld"] = "Uld";
+	["Trial of the Champion"] = "勇士试炼"; ["Champ"] = "勇士";
+	["Trial of the Crusader"] = "十字軍试炼"; ["Crus"] = "十字軍";
+	["Uldaman"] = "奥达曼"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "奥杜尔";
 	["Utgarde Keep"] = "乌特加德城堡";
 	["Utgarde Pinnacle"] = "乌特加德之巅";
@@ -413,7 +440,6 @@ AtlasLocale = {
 	["Plaguemaw the Rotting"] = "腐烂的普雷莫尔";
 	
 	--Zul'Farrak
-	["Mallet of Zul'Farrak"] = "祖尔法拉克之槌";
 	["Antu'sul <Overseer of Sul>"] = "安图苏尔 <苏尔督军>";
 	["Theka the Martyr"] = "殉教者塞卡";
 	["Witch Doctor Zum'rah"] = "巫医祖穆拉恩";
@@ -494,7 +520,6 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "卡里尔·温萨鲁斯的骸骨";
 	
 	--Onyxia's Lair
-	["Drakefire Amulet"] = "龙火护符";
 	["Onyxian Warders"] = "奥妮克希亚守卫";
 	["Whelp Eggs"] = "雏龙蛋";
 	["Onyxia"] = "奥妮克希亚";
@@ -722,7 +747,6 @@ AtlasLocale = {
 	["Burning Felguard"] = "燃烧地狱卫士";
 
 	--Blackrock Spire (Upper)
-	["Seal of Ascension"] = "晋升印章";
 	["Pyroguard Emberseer"] = "烈焰卫士艾博希尔";
 	["Solakar Flamewreath"] = "索拉卡·火冠";
 	["Father Flame"] = "烈焰之父";
@@ -773,8 +797,6 @@ AtlasLocale = {
 
 	--Molten Core
 	["Hydraxian Waterlords"] = "海达希亚水元素";
-	["Aqual Quintessence"] = "水之精萃";
-	["Eternal Quintessence"] = "永恒精萃";
 	["Lucifron"] = "鲁西弗隆";
 	["Magmadar"] = "玛格曼达";
 	["Gehennas"] = "基赫纳斯";
@@ -994,7 +1016,6 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "紫罗兰之眼";--omitted from Karazhan End
 	["The Master's Key"] = "麦迪文的钥匙";--omitted from Karazhan End
-	["Blackened Urn"] = "黑色骨灰";
 	["Staircase to the Ballroom"] = "通往宴会厅的楼梯";
 	["Stairs to Upper Stable"] = "通往马厩上层的楼梯";
 	["Ramp to the Guest Chambers"] = "通往会客间的斜坡";
@@ -1271,7 +1292,6 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "计算者帕萨雷恩";
 
 	--TK: The Eye
-	["The Tempest Key"] = "风暴钥匙";
 	["Al'ar <Phoenix God>"] = "奥 <凤凰之神>";
 	["Void Reaver"] = "空灵机甲";
 	["High Astromancer Solarian"] = "大星术师索兰莉安";
@@ -1290,7 +1310,6 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "灰舌死誓者";--omitted from other BT
-	["Medallion of Karabor"] = "卡拉波勋章";--omitted from other BT
 	["Towards Reliquary of Souls"] = "通往灵魂之匣";
 	["Towards Teron Gorefiend"] = "通往塔隆·血魔";
 	["Towards Illidan Stormrage"] = "通往伊利丹·怒风";
@@ -1445,7 +1464,7 @@ AtlasLocale = {
 	["Amanitar"] = "埃曼尼塔";
 	["Ahn'kahet Brazier"] = "安卡赫特火盆";
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "看门者克里克希尔 ";
 	["Watcher Gashra"] = "看守者加什拉";
 	["Watcher Narjil"] = "看守者纳尔伊";
@@ -1588,6 +1607,8 @@ AtlasLocale = {
 	["Kologarn"] = "科隆加恩";
 	["Algalon the Observer"] = "观察者奥尔加隆";
 	["Antechamber of Ulduar"] = "奥杜尔前厅";
+	["Prospector Doren"] = "勘察员多伦";
+	["Archivum Console"] = "大数据库控制台";
 
 	-- Ulduar C
 	["Auriaya"] = "欧尔莉亚";
@@ -1609,6 +1630,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
 	["Dalronn the Controller"] = "控制者达尔隆";
 	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
+	["Dark Ranger Marrah"] = "黑暗游侠玛尔拉";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "布雷格";
@@ -1621,5 +1643,39 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";
 	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
+	["Koralon the Flame Watcher"] = "烈焰看守者寇拉隆";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "洞穴入口";
+	["Northrend Beasts"] = "北裂境野兽";
+	["Gormok the Impaler"] = "『穿刺者』戈莫克";
+	["Acidmaw"] = "酸喉";
+	["Dreadscale"] = "惧鳞";
+	["Icehowl"] = "冰嚎";
+	["Lord Jaraxxus"] = "贾拉克瑟斯领主";
+	["Faction Champions"] = "阵营勇士";
+	["Twin Val'kyr"] = "华尔琪双子";
+	["Fjola Lightbane"] = "菲欧拉•光寂";
+	["Eydis Darkbane"] = "艾狄丝•暗寂";
+	["Anub'arak"] = "阿努巴拉克";
+	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军试炼";
+
+	--Trial of the Champion
+	["Grand Champions"] = "大勇士";
+	["Champions of the Alliance"] = "联盟勇士";
+	["Marshal Jacob Alerius"] = "杰科布•亚雷瑞斯元帅";
+	["Ambrose Boltspark"] = "安布罗斯•拴炫";
+	["Colosos"] = "克罗索斯";
+	["Jaelyne Evensong"] = "洁琳•晚歌";
+	["Lana Stouthammer"] = "菈娜•顽锤";
+	["Champions of the Horde"] = "部落勇士";
+	["Mokra the Skullcrusher"] = "『碎颅者』莫克拉";
+	["Eressea Dawnsinger"] = "艾瑞西雅•曦咏";
+	["Runok Wildmane"] = "鲁诺克•蛮鬃";
+	["Zul'tore"] = "祖尔拓";
+	["Deathstalker Visceri"] = "亡灵哨兵威瑟瑞";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『纯净者』埃卓克";
+	["Argent Confessor Paletress"] = "银白告解者帕尔璀丝";
+	["The Black Knight"] = "黑骑士";
 };
 end

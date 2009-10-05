@@ -1,12 +1,34 @@
 --[[
 
+	Atlas, a World of Warcraft instance map browser
+	Copyright 2005 - 2008 Dan Gilbert
+	Email me at loglow@gmail.com
+
+	This file is part of Atlas.
+
+	Atlas is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	Atlas is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Atlas; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+--]]
+
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- Last Update : 11/11/2008
+-- $Date$
+-- $Revision$
 -- http://www.dreamgen.cn
 
---]]
 
 if ( GetLocale() == "zhCN" ) then
 
@@ -41,6 +63,7 @@ AtlasDLLocale = {
 	["Caverns of Time"] = "时光之穴";
 	["Coilfang Reservoir"] = "盘牙水库";
 	["Coldarra"] = "考达拉";
+	["Crusaders' Coliseum"] = "银白大竞技场";
 	["Dalaran"] = "达拉然";
 	["Deadwind Pass"] = "逆风小径";
 	["Desolace"] = "凄凉之地";
@@ -126,19 +149,22 @@ AtlasDLLocale = {
 	["The Underbog"] = "幽暗沼泽";
 	["The Violet Hold"] = "紫罗兰监狱";
 	["Tirisfal Glades"] = "提瑞斯法林地";
+	["Trial of the Champion"] = "勇士试炼";
+	["Trial of the Crusader"] = "十字軍试炼";
 	["Uldaman"] = "奥达曼";
 	["Ulduar"] = "奥杜尔";
 	["Utgarde Keep"] = "乌特加德城堡";
 	["Utgarde Pinnacle"] = "乌特加的之巅";
+	["Vault of Archavon"] = "阿尔卡冯的宝库";
 	["Wailing Caverns"] = "哀嚎洞穴";
 	["Warsong Gulch"] = "战歌峡谷";
 	["Western Plaguelands"] = "西瘟疫之地";
 	["Westfall"] = "西部荒野";
+	["Wintergrasp"] = "冬拥湖";
 	["Zangarmarsh"] = "赞加沼泽";
 	["Zul'Aman"] = "祖阿曼";
 	["Zul'Drak"] = "祖达克";
 	["Zul'Farrak"] = "祖尔法拉克";
 	["Zul'Gurub"] = "祖尔格拉布";
-
-}
+};
 end

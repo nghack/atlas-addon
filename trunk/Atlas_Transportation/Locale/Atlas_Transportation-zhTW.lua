@@ -21,7 +21,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- Last Update : 04/21/2009
+-- $Id$
 if ( GetLocale() ==	"zhTW" ) then
 AtlasTransLocale = {
 

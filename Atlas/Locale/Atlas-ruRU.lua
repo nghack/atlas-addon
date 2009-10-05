@@ -434,7 +434,6 @@ AtlasLocale = {
 	["Plaguemaw the Rotting"] = "Чумобрюх Гнилой";
 	
 	--Zul'Farrak
-	["Mallet of Zul'Farrak"] = "Создание молота Зул'Фаррака";
 	["Antu'sul <Overseer of Sul>"] = "Анту'сул <Надсмотрщик Сула>";
 	["Theka the Martyr"] = "Тека Мученик";
 	["Witch Doctor Zum'rah"] = "Знахарь Зум'рах";
@@ -515,7 +514,6 @@ AtlasLocale = {
 	["Skeletal Remains of Kariel Winthalus"] = "Скелет Кариэля Винтхалуса";
 	
 	--Onyxia's Lair
-	["Drakefire Amulet"] = "Амулет Пламени дракона";
 	["Onyxian Warders"] = "Хранитель Ониксии";
 	["Whelp Eggs"] = "Яйца Щенка";
 	["Onyxia"] = "Ониксия";
@@ -743,7 +741,6 @@ AtlasLocale = {
 	["Burning Felguard"] = "Пылающий страж Скверны";
 
 	--Blackrock Spire (Upper)
-	["Seal of Ascension"] = "Печать Вознесения";
 	["Pyroguard Emberseer"] = "Пиростраж Созерцатель Углей";
 	["Solakar Flamewreath"] = "Солакарский огнечервь";
 	["Father Flame"] = "Огонь отцов";
@@ -794,8 +791,6 @@ AtlasLocale = {
 	
 	--Molten Core
 	["Hydraxian Waterlords"] = "Гидраксианские Повелители Вод";
-	["Aqual Quintessence"] = "Квинтэссенция воды";
-	["Eternal Quintessence"] = "Вечная квинтэссенция";
 	["Lucifron"] = "Люцифрон";
 	["Magmadar"] = "Магмадар";
 	["Gehennas"] = "Гееннас";
@@ -1015,7 +1010,6 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "Аметистовое Око";--omitted from Karazhan End
 	["The Master's Key"] = "Хозяйский ключ";--omitted from Karazhan End
-	["Blackened Urn"] = "Вороненая урна";
 	["Staircase to the Ballroom"] = "Лестница в танцевальный зал";
 	["Stairs to Upper Stable"] = "Летсница в верхнюю конюшню";
 	["Ramp to the Guest Chambers"] = "Рампа в гостевую комнату";
@@ -1292,7 +1286,6 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Паталеон Вычислитель";
 
 	--TK: The Eye
-	["The Tempest Key"] = "Ключ Урагана";
 	["Al'ar <Phoenix God>"] = "Ал'ар <Феникс-бог>";
 	["Void Reaver"] = "Страж Бездны";
 	["High Astromancer Solarian"] = "Верховный звездочет Солариан";
@@ -1311,7 +1304,6 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Пеплоусты-служители";--omitted from other BT
-	["Medallion of Karabor"] = "Медальон Карабора";--omitted from other BT
 	["Towards Reliquary of Souls"] = "К Гробнице Душ";
 	["Towards Teron Gorefiend"] = "К Терону Кровожадному";
 	["Towards Illidan Stormrage"] = "К Иллидану Ярости Бури";

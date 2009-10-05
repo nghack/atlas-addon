@@ -236,7 +236,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "時光之穴"; ["CoT"] = "CoT";
 	["Chamber of Aspects"] = "守護密室";
 	["Coilfang Reservoir"] = "盤牙蓄湖"; ["CR"] = "CR/盤牙";
-	["Crusaders' Coliseum"] = "十字軍大競技場";
+	["Crusaders' Coliseum"] = "銀白大競技場";
 	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
 	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";

@@ -21,6 +21,12 @@ v1.15.0
 - tagged Ahune with Midsummer Festival (Celellach)
 - changed Lunar tag to Lunar Festival (Celellach)
 - updated Onyxia's Lair player and level data (Bolino)
+- current deDE (German) translation (Nihlo)
+- current esES (Spanish) translation (maqjav)
+- current frFR (French) translation (TrAsHeR)
+- current ruRU (Russian) translation (StingerSoft)
+- current zhCN (Simplified Chinese) translation (arith)
+- current zhTW (Traditional Chinese) translation (arith)
 
 v1.14.2
 - updated TOC number to 30200 for the 3.2 patch

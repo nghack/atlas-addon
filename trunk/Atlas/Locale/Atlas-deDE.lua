@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 25.04.2009
+-- Letztes Update: 06.10.2009
 
 if ( GetLocale() == "deDE" ) then
 
@@ -176,8 +176,10 @@ AtlasLocale = {
 	["Key"] = "Schlüssel";
 	["Lower"] = "Unten";
 	["Lunar"] = "Mondfest";
+    ["Lunar Festival"] = "Mondfest";
 	["Mage"] = "Magier";
 	["Meeting Stone"] = "Versammlungsstein";
+    ["Midsummer Festival"] = "Midsummer Festival";
 	["Monk"] = "Mönch";
 	["Moonwell"] = "Mondbrunnen";
 	["North"] = "Nord";
@@ -241,6 +243,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Höhlen der Zeit"; ["CoT"] = "HdZ";
 	["Chamber of Aspects"] = "Die Kammer der Aspekte";
 	["Coilfang Reservoir"] = "Der Echsenkessel"; ["CR"] = "EK";
+    ["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
 	["Dire Maul"] = "Düsterbruch"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Feste Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
@@ -252,6 +255,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Höllenfeuerzitadelle"; ["HFC"] = "HZ";
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
+    ["Icecrown"] = "Eiskrone";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothek"; ["Lib"] = "Bibli";
 	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "MT";
@@ -295,6 +299,8 @@ AtlasLocale = {
 	["The Stockade"] = "Das Verlies"; ["Stocks"] = "Verlies";
 	["The Underbog"] = "Der Tiefensumpf"; ["UB"] = "TS";
 	["The Violet Hold"] = "Die Violette Festung";
+    ["Trial of the Champion"] = "Prüfung des Champions"; ["PDC"] = "PDC"; 
+ 	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers"; ["PDK"] = "PDK";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Burg Utgarde";
@@ -1602,6 +1608,8 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon der Beobachter";
 	["Antechamber of Ulduar"] = "Vorkammer von Ulduar";
+    ["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
+    ["Archivum Console"] = "Archivumkonsole";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
@@ -1623,6 +1631,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
 	["Dalronn the Controller"] = "Dalronn der Aufseher";
 	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
+    ["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Kleinkeul";
@@ -1635,6 +1644,40 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
+    ["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
+    
+    --Trial of the Crusader
+ 	["Cavern Entrance"] = "Höhleneingang";
+ 	["Northrend Beasts"] = "Nordend Bestien";
+ 	["Gormok the Impaler"] = "Gormok der Pfähler";
+ 	["Acidmaw"] = "Ätzschlund";
+ 	["Dreadscale"] = "Schreckensmaul";
+ 	["Icehowl"] = "Eisheuler";
+ 	["Lord Jaraxxus"] = "Lord Jaraxxus";
+ 	["Faction Champions"] = "Fraktion-Champions";
+ 	["Twin Val'kyr"] = "Valkyr Zwillinge";
+ 	["Fjola Lightbane"] = "Fjola Lichtbann";
+ 	["Eydis Darkbane"] = "Eydis Nachtbann";
+ 	["Anub'arak"] = "Anub'arak";
+    ["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
+   
+ 	--Trial of the Champion
+ 	["Grand Champions"] = "Großchampion";
+ 	["Champions of the Alliance"] = "Champions der Allianz";
+ 	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
+ 	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
+    ["Colosos"] = "Kolosos";
+ 	["Jaelyne Evensong"] = "Jaelyne Abendlied";
+    ["Lana Stouthammer"] = "Lana Starkhammer";
+ 	["Champions of the Horde"] = "Champions der Horde";
+ 	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
+ 	["Eressea Dawnsinger"] = "Eressea Morgensänger";
+    ["Runok Wildmane"] = "Runok Wildmähne";
+ 	["Zul'tore"] = "Zul'tore";
+ 	["Deathstalker Visceri"] = "Todespirscher Visceri";
+ 	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
+ 	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
+ 	["The Black Knight"] = "Der Schwarze Ritter";
 	
 };
 

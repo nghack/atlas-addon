@@ -2,6 +2,11 @@
 = Change Log =
 ==============
 
+v1.15.1:
+- fix for deDE (German) translation
+- updated version check for some Atlas addons
+- settings will now be preserved between some updates
+
 v1.15.0
 - new map: Crusaders' Coliseum: Trial of the Champion (Deadca7)
 - new map: Crusaders' Coliseum: Trial of the Crusader (Deadca7)

@@ -52,6 +52,8 @@ AtlasBGLocale = {
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Eye of the Storm"] = "Auge des Sturms"; ["EotS"] = "Auge";
 	["Hillsbrad Foothills"] = "Vorgebirge des Hügellands";
+    ["Icecrown"] = "Eiskrone";
+    ["Isle of Conquest"] = "Insel der Eroberung"; ["IoC"] = "Insel";
 	["Kalimdor"] = "Kalimdor";
 	["Netherstorm"] = "Nethersturm";
 	["Outland"] = "Scherbenwelt";
@@ -187,7 +189,19 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Friedhofflagge";
 	["Titan Relic"] = "Relikt der Titanen";
 	["Gates are marked with their colors."] = "Tore sind in ihren Farben eingezeichnet.";
-
+    
+    --Isle of Conquest
+    ["The Refinery"] = "Die Raffinerie";
+    ["The Docks"] = "Die Docks";
+    ["The Workshop"] = "Die Belagerungswerkstatt";
+    ["The Hangar"] = "Der Hangar";
+    ["The Quarry"] = "Der Steinbruch";
+    ["Contested Graveyards"] = "Umkämpfte Friedhöfe";
+    ["Horde Graveyard"] = "Horde Friedhof";
+    ["Alliance Graveyard"] = "Allianz Friedhof";
+    ["Gates are marked with red bars."] = "Tore sind mit roten Balken makiert.";
+    ["Overlord Agmar"] = "Oberanführer Agmar";
+    ["High Commander Halford Wyrmbane <7th Legion>"] = "Hochkommandant Halford Wyrmbann <7. Legion>";
 };
 
 end

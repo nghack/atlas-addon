@@ -39,6 +39,7 @@ end
 
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.15.0";
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -52,7 +53,7 @@ ATLAS_DATA = {};
 ATLAS_SEARCH_METHOD = nil;
 
 local DefaultAtlasOptions = {
-	["AtlasVersion"] = ATLAS_VERSION;
+	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
 	["AtlasZone"] = 1;
 	["AtlasAlpha"] = 1.0;
 	["AtlasLocked"] = false;
@@ -367,9 +368,9 @@ local function Process_Deprecated()
 		
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
-		{ "AtlasQuest", "4.3.2" },
-		{ "AtlasMajorCities", "v1.4" },
-		{ "AtlasLoot", "5.04.00" },
+		{ "AtlasQuest", "4.3.6" }, --updated October 7, 2009
+		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
+		{ "AtlasLoot", "5.08.04" }, --updated October 7, 2009
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.
@@ -527,11 +528,15 @@ function Atlas_Init()
 	--make the Atlas window go all the way to the edge of the screen, exactly
 	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);
 
-	--clear saved vars for a new version (or a new install!)
-	if ( AtlasOptions == nil or AtlasOptions["AtlasVersion"] ~= ATLAS_VERSION) then
+	--init saved vars for a new install
+	if ( AtlasOptions == nil ) then
 		Atlas_FreshOptions();
 	end
 	
+	--saved options version check
+	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
+		Atlas_FreshOptions();
+	end
 	
 	--populate the dropdown lists...yeeeah this is so much nicer!
 	Atlas_PopulateDropdowns();

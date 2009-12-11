@@ -202,7 +202,7 @@ AtlasBGLocale = {
 	["Alliance Graveyard"] = "聯盟墓地";
 	["Gates are marked with red bars."] = "閘門以紅條標記.";
 	["Overlord Agmar"] = "霸主阿格瑪";
-	["High Commander Halford Wyrmbane <7th Legion>"] = "最高指揮官海弗德·龍禍";
+	["High Commander Halford Wyrmbane <7th Legion>"] = "高階指揮官海弗德·龍禍 <第七軍團>";
 
 };
 end

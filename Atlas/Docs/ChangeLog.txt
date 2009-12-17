@@ -2,6 +2,10 @@
 = Change Log =
 ==============
 
+v1.15.2:
+- updated TOC number to 30300 for the 3.3 patch
+- fix for zhTW (Traditional Chinese) translation (s8095324)
+
 v1.15.1:
 - fix for deDE (German) translation
 - updated version check for some Atlas addons

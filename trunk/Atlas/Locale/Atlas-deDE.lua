@@ -243,7 +243,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Höhlen der Zeit"; ["CoT"] = "HdZ";
 	["Chamber of Aspects"] = "Die Kammer der Aspekte";
 	["Coilfang Reservoir"] = "Der Echsenkessel"; ["CR"] = "EK";
-    ["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
+    	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
 	["Dire Maul"] = "Düsterbruch"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Feste Drak'Tharon";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
@@ -252,12 +252,12 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Die Hallen des Steins";
 	["Halls of Lightning"] = "Die Hallen der Blitze";
-	["Halls of Reflection"] = "Die Hallen der Reflektion"; ["HoR"] = "HdR";
+	["Halls of Reflection"] = "Die Hallen der Reflexion"; ["HoR"] = "HdR";
 	["Hellfire Citadel"] = "Höllenfeuerzitadelle"; ["HFC"] = "HZ";
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
-    ["Icecrown"] = "Eiskrone";
-	["Icecrown Citadel"] = "Die Eiskronenzitadelle"; ["IC"] = "ICC";
+    	["Icecrown"] = "Eiskrone";
+	["Icecrown Citadel"] = "Eiskronenzitadelle"; ["IC"] = "ICC, Zita";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothek"; ["Lib"] = "Bibli";
 	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "MT";
@@ -303,7 +303,7 @@ AtlasLocale = {
 	["The Stockade"] = "Das Verlies"; ["Stocks"] = "Verlies";
 	["The Underbog"] = "Der Tiefensumpf"; ["UB"] = "TS";
 	["The Violet Hold"] = "Die Violette Festung";
-    ["Trial of the Champion"] = "Prüfung des Champions"; ["PDC"] = "PDC"; 
+    	["Trial of the Champion"] = "Prüfung des Champions"; ["PDC"] = "PDC"; 
  	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers"; ["PDK"] = "PDK";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";

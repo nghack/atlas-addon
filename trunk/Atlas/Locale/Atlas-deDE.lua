@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 06.10.2009
+-- Letztes Update: 05.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -257,7 +257,7 @@ AtlasLocale = {
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
     ["Icecrown"] = "Eiskrone";
-	["Icecrown Citadel"] = "Die Eiskronenzitadelle"; ["IC"] = "IC";
+	["Icecrown Citadel"] = "Die Eiskronenzitadelle"; ["IC"] = "ICC";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothek"; ["Lib"] = "Bibli";
 	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "MT";
@@ -268,7 +268,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Naxx";
 	["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands"; ["CoT1"] = "Durnholde, HdZ1";
 	["Onyxia's Lair"] = "Onyxias Hort"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "PoS";
+	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "Grube";
 	["Ragefire Chasm"] = "Der Flammenschlund"; ["RFC"] = "RF";
 	["Razorfen Downs"] = "Hügel der Klingenhauer"; ["RFD"] = "Hügel";
 	["Razorfen Kraul"] = "Kral der Klingenhauer"; ["RFK"] = "Kral";
@@ -1612,8 +1612,8 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon der Beobachter";
 	["Antechamber of Ulduar"] = "Vorkammer von Ulduar";
-    ["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
-    ["Archivum Console"] = "Archivumkonsole";
+    	["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
+    	["Archivum Console"] = "Archivumkonsole";
 	
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
@@ -1635,7 +1635,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
 	["Dalronn the Controller"] = "Dalronn der Aufseher";
 	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
-    ["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
+    	["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Kleinkeul";
@@ -1648,10 +1648,10 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
-    ["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
+    	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
     
-    --Trial of the Crusader
+    	--Trial of the Crusader
  	["Cavern Entrance"] = "Höhleneingang";
  	["Northrend Beasts"] = "Nordend Bestien";
  	["Gormok the Impaler"] = "Gormok der Pfähler";
@@ -1664,20 +1664,20 @@ AtlasLocale = {
  	["Fjola Lightbane"] = "Fjola Lichtbann";
  	["Eydis Darkbane"] = "Eydis Nachtbann";
  	["Anub'arak"] = "Anub'arak";
-    ["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
+    	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
    
  	--Trial of the Champion
  	["Grand Champions"] = "Großchampion";
  	["Champions of the Alliance"] = "Champions der Allianz";
  	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
  	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
-    ["Colosos"] = "Kolosos";
+    	["Colosos"] = "Kolosos";
  	["Jaelyne Evensong"] = "Jaelyne Abendlied";
-    ["Lana Stouthammer"] = "Lana Starkhammer";
+    	["Lana Stouthammer"] = "Lana Starkhammer";
  	["Champions of the Horde"] = "Champions der Horde";
  	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
  	["Eressea Dawnsinger"] = "Eressea Morgensänger";
-    ["Runok Wildmane"] = "Runok Wildmähne";
+    	["Runok Wildmane"] = "Runok Wildmähne";
  	["Zul'tore"] = "Zul'tore";
  	["Deathstalker Visceri"] = "Todespirscher Visceri";
  	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
@@ -1685,7 +1685,7 @@ AtlasLocale = {
  	["The Black Knight"] = "Der Schwarze Ritter";
 
        --The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Schmiedenmeister Garfrost";
+	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
 	["Martin Victus"] = "Martin Victus";
 	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
 	["Krick"] = "Krick";

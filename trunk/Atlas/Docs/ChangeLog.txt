@@ -5,6 +5,7 @@
 v1.16.0:
 - new map: The Frozen Halls: Pit of Saron (Deadca7)
 - added Toravon to VoA and updated the map (Deadca7)
+- removed Onyxia attunement (Dynaletik)
 
 v1.15.2:
 - updated TOC number to 30300 for the 3.3 patch

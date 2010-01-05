@@ -2209,6 +2209,7 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Archavon the Stone Watcher"], NPC, 31125 };
 		{ GREY.."2) "..AtlasLocale["Emalon the Storm Watcher"], NPC, 33993 };
 		{ GREY.."3) "..AtlasLocale["Koralon the Flame Watcher"], NPC, 35013 };
+		{ GREY.."4) "..AtlasLocale["Toravon the Ice Watcher"], NPC, 38433 };
 	};
 	TrialOfTheCrusader = {
 		ZoneName = { AtlasLocale["Crusaders' Coliseum"]..": "..AtlasLocale["Trial of the Crusader"], 4722 };

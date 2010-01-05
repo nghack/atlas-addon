@@ -1545,6 +1545,15 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Centrifuge Construct";
 	["Cache of Eregos"] = "Cache of Eregos";
 
+	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
+	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
+	["Rimefang"] = "Frigecroc";
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <The Onyx Guardian>";
@@ -1561,6 +1570,39 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
 	["The Violet Hold Key"] = "The Violet Hold Key";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Grand Champions";
+	["Champions of the Alliance"] = "Champions of the Alliance";
+	["Marshal Jacob Alerius"] = "Marshal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Boltspark";
+	["Colosos"] = "Colosos";
+	["Jaelyne Evensong"] = "Jaelyne Evensong";
+	["Lana Stouthammer"] = "Lana Stouthammer";
+	["Champions of the Horde"] = "Champions of the Horde";
+	["Mokra the Skullcrusher"] = "Mokra the Skullcrusher";
+	["Eressea Dawnsinger"] = "Eressea Dawnsinger";
+	["Runok Wildmane"] = "Runok Wildmane";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Deathstalker Visceri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric the Pure <Grand Champion of the Argent Crusade>";
+	["Argent Confessor Paletress"] = "Argent Confessor Paletress";
+	["The Black Knight"] = "The Black Knight";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Cavern Entrance";
+	["Northrend Beasts"] = "Northrend Beasts";
+	["Gormok the Impaler"] = "Gormok the Impaler";
+	["Acidmaw"] = "Acidmaw";
+	["Dreadscale"] = "Dreadscale";
+	["Icehowl"] = "Icehowl";
+	["Lord Jaraxxus"] = "Lord Jaraxxus";
+	["Faction Champions"] = "Faction Champions";
+	["Twin Val'kyr"] = "Twin Val'kyr";
+	["Fjola Lightbane"] = "Fjola Lightbane";
+	["Eydis Darkbane"] = "Eydis Darkbane";
+	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Heroic: Trial of the Grand Crusader";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1643,46 +1685,4 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
 	["Koralon the Flame Watcher"] = "Koralon the Flame Watcher";
 	["Toravon the Ice Watcher"] = "Toravon the Ice Watcher";
-	
-	--Trial of the Crusader
-	["Cavern Entrance"] = "Cavern Entrance";
-	["Northrend Beasts"] = "Northrend Beasts";
-	["Gormok the Impaler"] = "Gormok the Impaler";
-	["Acidmaw"] = "Acidmaw";
-	["Dreadscale"] = "Dreadscale";
-	["Icehowl"] = "Icehowl";
-	["Lord Jaraxxus"] = "Lord Jaraxxus";
-	["Faction Champions"] = "Faction Champions";
-	["Twin Val'kyr"] = "Twin Val'kyr";
-	["Fjola Lightbane"] = "Fjola Lightbane";
-	["Eydis Darkbane"] = "Eydis Darkbane";
-	["Anub'arak"] = "Anub'arak";
-	["Heroic: Trial of the Grand Crusader"] = "Heroic: Trial of the Grand Crusader";
-
-	--Trial of the Champion
-	["Grand Champions"] = "Grand Champions";
-	["Champions of the Alliance"] = "Champions of the Alliance";
-	["Marshal Jacob Alerius"] = "Marshal Jacob Alerius";
-	["Ambrose Boltspark"] = "Ambrose Boltspark";
-	["Colosos"] = "Colosos";
-	["Jaelyne Evensong"] = "Jaelyne Evensong";
-	["Lana Stouthammer"] = "Lana Stouthammer";
-	["Champions of the Horde"] = "Champions of the Horde";
-	["Mokra the Skullcrusher"] = "Mokra the Skullcrusher";
-	["Eressea Dawnsinger"] = "Eressea Dawnsinger";
-	["Runok Wildmane"] = "Runok Wildmane";
-	["Zul'tore"] = "Zul'tore";
-	["Deathstalker Visceri"] = "Deathstalker Visceri";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric the Pure <Grand Champion of the Argent Crusade>";
-	["Argent Confessor Paletress"] = "Argent Confessor Paletress";
-	["The Black Knight"] = "The Black Knight";
-
-	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
-	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Ironskull";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
-	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
-	["Rimefang"] = "Rimefang";
 };

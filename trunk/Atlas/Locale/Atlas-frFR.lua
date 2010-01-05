@@ -251,10 +251,12 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Les salles de Pierre";
 	["Halls of Lightning"] = "Les salles de Foudre";
+	["Halls of Reflection"] = "Salles des Reflets"; ["HoR"] = "SdR";
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
 	["Icecrown"] = "La Couronne de glace";
+	["Icecrown Citadel"] = "Citadelle de la Couronne de glace"; ["IC"] = "ICC";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothèque"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Terrasse des Magistères"; ["MT"] = "MT";
@@ -265,6 +267,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "Contreforts de Hautebrande d'antan"; ["CoT1"] = "CoT1/GT1";
 	["Onyxia's Lair"] = "Repaire d'Onyxia"; ["Ony"] = "Ony";
+	["Pit of Saron"] = "Fosse de Saron"; ["PoS"] = "FdS";
 	["Ragefire Chasm"] = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
@@ -288,6 +291,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Eye of Eternity"] = "L'Œil de l'éternité";
+	["The Frozen Halls"] = "La Forge des âmes";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
 	["The Obsidian Sanctum"] = "Le sanctum Obsidien";
@@ -1547,6 +1551,15 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Assemblage centrifuge";
 	["Cache of Eregos"] = "Cache d'Eregos";
 
+	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
+	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
+	["Rimefang"] = "Rimefang";
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <Le gardien d'Onyx>";
@@ -1563,6 +1576,39 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cyanigosa";
 	["The Violet Hold Key"] = "La clé du Fort pourpre";
+
+	--Trial of the Champion
+	["Grand Champions"] = "Grand Champions";
+	["Champions of the Alliance"] = "Champions de l'Alliance";
+	["Marshal Jacob Alerius"] = "Maréchal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Étinceboulon";
+	["Colosos"] = "Colossos";
+	["Jaelyne Evensong"] = "Jaelyne Chant-du-soir";
+	["Lana Stouthammer"] = "Lana Rudemartel";
+	["Champions of the Horde"] = "Champions de la Horde";
+	["Mokra the Skullcrusher"] = "Mokra le Brise-tête";
+	["Eressea Dawnsinger"] = "Eressea Chantelaube";
+	["Runok Wildmane"] = "Runok Crin-sauvage";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Nécrotraqueur Viscéri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric le Pur <Grand champion de la Croisade d'argent>";
+	["Argent Confessor Paletress"] = "Confesseur d'argent Paletress";
+	["The Black Knight"] = "Le Chevalier noir";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Entrée de la caverne";
+	["Northrend Beasts"] = "Bêtes du Norfendre";
+	["Gormok the Impaler"] = "Gormok l'Empaleur";
+	["Acidmaw"] = "Gueule-d'acide";
+	["Dreadscale"] = "Ecaille-d'effroi";
+	["Icehowl"] = "Glace-hurlante";
+	["Lord Jaraxxus"] = "Seigneur Jaraxxus";
+	["Faction Champions"] = "Champions de faction";
+	["Twin Val'kyr"] = "Jumelles val'kyrs";
+	["Fjola Lightbane"] = "Fjola Plaie-lumineuse";
+	["Eydis Darkbane"] = "Eydis Plaie-sombre";
+	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Héroïque: L'appel de la grande Croisade";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1644,38 +1690,6 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
 	["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
-	
-	--Trial of the Crusader
-	["Cavern Entrance"] = "Entrée de la caverne";
-	["Northrend Beasts"] = "Bêtes du Norfendre";
-	["Gormok the Impaler"] = "Gormok l'Empaleur";
-	["Acidmaw"] = "Gueule-d'acide";
-	["Dreadscale"] = "Ecaille-d'effroi";
-	["Icehowl"] = "Glace-hurlante";
-	["Lord Jaraxxus"] = "Seigneur Jaraxxus";
-	["Faction Champions"] = "Champions de faction";
-	["Twin Val'kyr"] = "Jumelles val'kyrs";
-	["Fjola Lightbane"] = "Fjola Plaie-lumineuse";
-	["Eydis Darkbane"] = "Eydis Plaie-sombre";
-	["Anub'arak"] = "Anub'arak";
-	["Heroic: Trial of the Grand Crusader"] = "Héroïque: L'appel de la grande Croisade";
-
-	--Trial of the Champion
-	["Grand Champions"] = "Grand Champions";
-	["Champions of the Alliance"] = "Champions de l'Alliance";
-	["Marshal Jacob Alerius"] = "Maréchal Jacob Alerius";
-	["Ambrose Boltspark"] = "Ambrose Étinceboulon";
-	["Colosos"] = "Colossos";
-	["Jaelyne Evensong"] = "Jaelyne Chant-du-soir";
-	["Lana Stouthammer"] = "Lana Rudemartel";
-	["Champions of the Horde"] = "Champions de la Horde";
-	["Mokra the Skullcrusher"] = "Mokra le Brise-tête";
-	["Eressea Dawnsinger"] = "Eressea Chantelaube";
-	["Runok Wildmane"] = "Runok Crin-sauvage";
-	["Zul'tore"] = "Zul'tore";
-	["Deathstalker Visceri"] = "Nécrotraqueur Viscéri";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric le Pur <Grand champion de la Croisade d'argent>";
-	["Argent Confessor Paletress"] = "Confesseur d'argent Paletress";
-	["The Black Knight"] = "Le Chevalier noir";
+	["Toravon the Ice Watcher"] = "Toravon la Sentinelle de glace";
 };
 end

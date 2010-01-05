@@ -1638,6 +1638,7 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
 	["Koralon the Flame Watcher"] = "Koralon the Flame Watcher";
+	["Toravon the Ice Watcher"] = "Toravon the Ice Watcher";
 	
 	--Trial of the Crusader
 	["Cavern Entrance"] = "Cavern Entrance";

@@ -2,6 +2,9 @@
 = Change Log =
 ==============
 
+v1.16.0:
+- added Toravon to VoA and updated the map (Deadca7)
+
 v1.15.2:
 - updated TOC number to 30300 for the 3.3 patch
 - fix for zhTW (Traditional Chinese) translation (s8095324)

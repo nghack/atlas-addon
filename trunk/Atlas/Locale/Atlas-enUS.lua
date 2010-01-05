@@ -219,7 +219,7 @@ AtlasLocale = {
 	["Wave 12"] = "Wave 12";
 	["Wave 18"] = "Wave 18";
 	["West"] = "West";
-	
+
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: The Old Kingdom";
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
@@ -245,10 +245,12 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Halls of Stone";
 	["Halls of Lightning"] = "Halls of Lightning";
+	["Halls of Reflection"] = "Halls of Reflection"; ["HoR"] = "HoR";
 	["Hellfire Citadel"] = "Hellfire Citadel"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Hellfire Ramparts"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Hyjal Summit"; ["CoT3"] = "CoT3";
 	["Icecrown"] = "Icecrown";
+	["Icecrown Citadel"] = "Icecrown Citadel"; ["IC"] = "IC";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Library"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Magisters' Terrace"; ["MT"] = "MT";
@@ -259,6 +261,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "Old Hillsbrad Foothills"; ["CoT1"] = "CoT1";
 	["Onyxia's Lair"] = "Onyxia's Lair"; ["Ony"] = "Ony";
+	["Pit of Saron"] = "Pit of Saron"; ["PoS"] = "PoS";
 	["Ragefire Chasm"] = "Ragefire Chasm"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Razorfen Downs"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Razorfen Kraul"; ["RFK"] = "RFK";
@@ -282,6 +285,7 @@ AtlasLocale = {
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "The Eye of Eternity";
+	["The Frozen Halls"] = "The Frozen Halls";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "The Nexus";
 	["The Obsidian Sanctum"] = "The Obsidian Sanctum";
@@ -1672,4 +1676,13 @@ AtlasLocale = {
 	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric the Pure <Grand Champion of the Argent Crusade>";
 	["Argent Confessor Paletress"] = "Argent Confessor Paletress";
 	["The Black Knight"] = "The Black Knight";
+
+	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
+	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
+	["Rimefang"] = "Rimefang";
 };

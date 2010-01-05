@@ -2260,4 +2260,22 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Argent Confessor Paletress"], NPC, 34928 };
 		{ GREY..INDENT..AtlasLocale["The Black Knight"], NPC, 35451 };
 	};
+	FHPitOfSaron = {
+		ZoneName = { AtlasLocale["The Frozen Halls"]..": [B] "..AtlasLocale["Pit of Saron"], 4813 };
+		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "5";
+		Acronym = AtlasLocale["PoS"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Halls of Reflection"]..")" };
+		{ GREY.."1) "..AtlasLocale["Forgemaster Garfrost"], NPC, 36494 };
+		{ GREY..INDENT..AtlasLocale["Martin Victus"].." ("..AtlasLocale["Alliance"]..")", NPC, 37591 };
+		{ GREY..INDENT..AtlasLocale["Gorkun Ironskull"].." ("..AtlasLocale["Horde"]..")", NPC, 37592 };
+		{ GREY.."2) "..AtlasLocale["Krick"], NPC, 36477 };
+		{ GREY..INDENT..AtlasLocale["Ick <Krick's Minion>"], NPC, 36476 };
+		{ GREY.."3) "..AtlasLocale["Scourgelord Tyrannus"], NPC, 36658 };
+		{ GREY..INDENT..AtlasLocale["Rimefang"], NPC, 36661 };
+	};
 };

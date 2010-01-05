@@ -252,10 +252,12 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Die Hallen des Steins";
 	["Halls of Lightning"] = "Die Hallen der Blitze";
+	["Halls of Reflection"] = "Die Hallen der Reflektion"; ["HoR"] = "HdR";
 	["Hellfire Citadel"] = "Höllenfeuerzitadelle"; ["HFC"] = "HZ";
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
     ["Icecrown"] = "Eiskrone";
+	["Icecrown Citadel"] = "Die Eiskronenzitadelle"; ["IC"] = "IC";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothek"; ["Lib"] = "Bibli";
 	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "MT";
@@ -266,6 +268,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Naxx";
 	["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands"; ["CoT1"] = "Durnholde, HdZ1";
 	["Onyxia's Lair"] = "Onyxias Hort"; ["Ony"] = "Ony";
+	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "PoS";
 	["Ragefire Chasm"] = "Der Flammenschlund"; ["RFC"] = "RF";
 	["Razorfen Downs"] = "Hügel der Klingenhauer"; ["RFD"] = "Hügel";
 	["Razorfen Kraul"] = "Kral der Klingenhauer"; ["RFK"] = "Kral";
@@ -289,6 +292,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
+	["The Frozen Halls"] = "Die gefrorenen Hallen";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
 	["The Obsidian Sanctum"] = "Das Obsidiansanktum";
@@ -1645,6 +1649,7 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
     ["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
+	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
     
     --Trial of the Crusader
  	["Cavern Entrance"] = "Höhleneingang";
@@ -1678,6 +1683,15 @@ AtlasLocale = {
  	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
  	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
  	["The Black Knight"] = "Der Schwarze Ritter";
+
+       --The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Schmiedenmeister Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
+	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
+	["Rimefang"] = "Raufang";
 	
 };
 

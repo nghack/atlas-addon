@@ -287,7 +287,6 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Continent = AtlasLocale["Kalimdor"];
-		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Onyxian Warders"], NPC, 12129 };
 		{ GREY.."2) "..AtlasLocale["Whelp Eggs"] };

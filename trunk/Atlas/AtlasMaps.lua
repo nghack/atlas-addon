@@ -1910,7 +1910,7 @@ AtlasMaps = {
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Exit"].." ("..AtlasLocale["Portal"]..")" };
 		{ ORNG.."X) "..AtlasLocale["Scourge Invasion Points"] };
-		{ ORNG..INDENT..AtlasLocale["Wave 6"]..": "..AtlasLocale["Meathook"], NPC, 26529 };
+		{ ORNG..INDENT..AtlasLocale["Wave 5"]..": "..AtlasLocale["Meathook"], NPC, 26529 };
 		{ ORNG..INDENT..AtlasLocale["Wave 10"]..": "..AtlasLocale["Salramm the Fleshcrafter"], NPC, 26530 };
 		{ GREY.."1) "..AtlasLocale["Chromie"], NPC, 26527 };
 		{ GREY.."2) "..AtlasLocale["Chromie"], NPC, 27915 };

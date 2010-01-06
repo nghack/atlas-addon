@@ -214,6 +214,7 @@ AtlasLocale = {
 	["Wanders"] = "Wanders";
 	["Warlock"] = "Warlock";
 	["Warrior"] = "Warrior";
+	["Wave 5"] = "Wave 5";
 	["Wave 6"] = "Wave 6";
 	["Wave 10"] = "Wave 10";
 	["Wave 12"] = "Wave 12";

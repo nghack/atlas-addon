@@ -285,6 +285,7 @@ AtlasLocale = {
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "The Eye of Eternity";
+	["The Forge of Souls"] = "The Forge of Souls"; ["FoS"] = "FoS";
 	["The Frozen Halls"] = "The Frozen Halls";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "The Nexus";
@@ -1546,13 +1547,23 @@ AtlasLocale = {
 	["Cache of Eregos"] = "Cache of Eregos";
 
 	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
+	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
 	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
+	["Gorkun Ironskull"] = "Gorkun Ironskull";
 	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
-	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
-	["Rimefang"] = "Frigecroc";
+	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
+	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
+	["Rimefang"] = "Rimefang";
+
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "Archmage Koreln <Kirin Tor>";
+	["Archmage Elandra <Kirin Tor>"] = "Archmage Elandra <Kirin Tor>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Lady Sylvanas Windrunner <Banshee Queen>";
+	["Dark Ranger Loralen"] = "Dark Ranger Loralen";
+	["Dark Ranger Kalira"] = "Dark Ranger Kalira";
+	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Godfather of Souls>";
+	["Devourer of Souls"] = "Devourer of Souls";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";

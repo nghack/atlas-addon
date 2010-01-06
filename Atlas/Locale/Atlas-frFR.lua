@@ -1552,13 +1552,13 @@ AtlasLocale = {
 	["Cache of Eregos"] = "Cache d'Eregos";
 
 	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
+	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
 	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
 	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
-	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
-	["Rimefang"] = "Rimefang";
+	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
+	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
+	["Rimefang"] = "Frigecroc";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";

@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 05.01.2010
+-- Letztes Update: 06.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -221,6 +221,7 @@ AtlasLocale = {
 	["Wanders"] = "Wandert";
 	["Warlock"] = "Hexenmeister";
 	["Warrior"] = "Krieger";
+	["Wave 5"] = "Welle 5";
 	["Wave 6"] = "Welle 6";
 	["Wave 10"] = "Welle 10";
 	["Wave 12"] = "Welle 12";
@@ -292,6 +293,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
+	["The Forge of Souls"] = "Die Seelenschmiede"; ["FoS"] = "Schmiede, SS";
 	["The Frozen Halls"] = "Die gefrorenen Hallen";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
@@ -1552,6 +1554,25 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Zentrifugenkonstrukt";
 	["Cache of Eregos"] = "Eregos' Lager";
 
+       	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
+	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
+	["Rimefang"] = "Raufang";
+
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "Erzmagier Koreln <Kirin Tor>";
+	["Archmage Elandra <Kirin Tor>"] = "Erzmagierin Elandra <Kirin Tor>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Fürstin Sylvanas Windläufer <Bansheekönigin>";
+	["Dark Ranger Loralen"] = "Dunkelläuferin Loralen";
+	["Dark Ranger Kalira"] = "Dunkelläuferin Kalira";
+	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Seelenpate>";
+	["Devourer of Souls"] = "Verschlinger der Seelen";
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <Der Onyxwächter>";
@@ -1569,6 +1590,39 @@ AtlasLocale = {
 	["Cyanigosa"] = "Cyanigosa";
 	["The Violet Hold Key"] = "Der Schlüssel zur Violetten Festung";
 
+ 	--Trial of the Champion
+ 	["Grand Champions"] = "Großchampion";
+ 	["Champions of the Alliance"] = "Champions der Allianz";
+ 	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
+ 	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
+    	["Colosos"] = "Kolosos";
+ 	["Jaelyne Evensong"] = "Jaelyne Abendlied";
+    	["Lana Stouthammer"] = "Lana Starkhammer";
+ 	["Champions of the Horde"] = "Champions der Horde";
+ 	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
+ 	["Eressea Dawnsinger"] = "Eressea Morgensänger";
+    	["Runok Wildmane"] = "Runok Wildmähne";
+ 	["Zul'tore"] = "Zul'tore";
+ 	["Deathstalker Visceri"] = "Todespirscher Visceri";
+ 	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
+ 	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
+ 	["The Black Knight"] = "Der Schwarze Ritter";
+
+    	--Trial of the Crusader
+ 	["Cavern Entrance"] = "Höhleneingang";
+ 	["Northrend Beasts"] = "Nordend Bestien";
+ 	["Gormok the Impaler"] = "Gormok der Pfähler";
+ 	["Acidmaw"] = "Ätzschlund";
+ 	["Dreadscale"] = "Schreckensmaul";
+ 	["Icehowl"] = "Eisheuler";
+ 	["Lord Jaraxxus"] = "Lord Jaraxxus";
+ 	["Faction Champions"] = "Fraktion-Champions";
+ 	["Twin Val'kyr"] = "Valkyr Zwillinge";
+ 	["Fjola Lightbane"] = "Fjola Lichtbann";
+ 	["Eydis Darkbane"] = "Eydis Nachtbann";
+ 	["Anub'arak"] = "Anub'arak";
+    	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
+   
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
 	["Volkhan"] = "Volkhan";
@@ -1651,48 +1705,6 @@ AtlasLocale = {
     	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
     
-    	--Trial of the Crusader
- 	["Cavern Entrance"] = "Höhleneingang";
- 	["Northrend Beasts"] = "Nordend Bestien";
- 	["Gormok the Impaler"] = "Gormok der Pfähler";
- 	["Acidmaw"] = "Ätzschlund";
- 	["Dreadscale"] = "Schreckensmaul";
- 	["Icehowl"] = "Eisheuler";
- 	["Lord Jaraxxus"] = "Lord Jaraxxus";
- 	["Faction Champions"] = "Fraktion-Champions";
- 	["Twin Val'kyr"] = "Valkyr Zwillinge";
- 	["Fjola Lightbane"] = "Fjola Lichtbann";
- 	["Eydis Darkbane"] = "Eydis Nachtbann";
- 	["Anub'arak"] = "Anub'arak";
-    	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
-   
- 	--Trial of the Champion
- 	["Grand Champions"] = "Großchampion";
- 	["Champions of the Alliance"] = "Champions der Allianz";
- 	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
- 	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
-    	["Colosos"] = "Kolosos";
- 	["Jaelyne Evensong"] = "Jaelyne Abendlied";
-    	["Lana Stouthammer"] = "Lana Starkhammer";
- 	["Champions of the Horde"] = "Champions der Horde";
- 	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
- 	["Eressea Dawnsinger"] = "Eressea Morgensänger";
-    	["Runok Wildmane"] = "Runok Wildmähne";
- 	["Zul'tore"] = "Zul'tore";
- 	["Deathstalker Visceri"] = "Todespirscher Visceri";
- 	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
- 	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
- 	["The Black Knight"] = "Der Schwarze Ritter";
-
-       --The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
-	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
-	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
-	["Rimefang"] = "Raufang";
-	
 };
 
 end

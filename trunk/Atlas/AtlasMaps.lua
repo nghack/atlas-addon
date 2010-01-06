@@ -2259,6 +2259,25 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Argent Confessor Paletress"], NPC, 34928 };
 		{ GREY..INDENT..AtlasLocale["The Black Knight"], NPC, 35451 };
 	};
+	FHTheForgeOfSouls = {
+		ZoneName = { AtlasLocale["The Frozen Halls"]..": [A] "..AtlasLocale["The Forge of Souls"], 4809 };
+		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "5";
+		Acronym = AtlasLocale["FoS"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Pit of Saron"]..")" };
+		{ GREY.."1) "..AtlasLocale["Lady Jaina Proudmoore"].." ("..AtlasLocale["Alliance"]..")", NPC, 37597 };
+		{ GREY..INDENT..AtlasLocale["Archmage Koreln <Kirin Tor>"].." ("..AtlasLocale["Alliance"]..")", NPC, 37582 };
+		{ GREY..INDENT..AtlasLocale["Archmage Elandra <Kirin Tor>"].." ("..AtlasLocale["Alliance"]..")", NPC, 37774 };
+		{ GREY..INDENT..AtlasLocale["Lady Sylvanas Windrunner <Banshee Queen>"].." ("..AtlasLocale["Horde"]..")", NPC, 37596 };
+		{ GREY..INDENT..AtlasLocale["Dark Ranger Loralen"].." ("..AtlasLocale["Horde"]..")", NPC, 37779 };
+		{ GREY..INDENT..AtlasLocale["Dark Ranger Kalira"].." ("..AtlasLocale["Horde"]..")", NPC, 37583 };
+		{ GREY.."2) "..AtlasLocale["Bronjahm <Godfather of Souls>"], NPC, 36497 };
+		{ GREY.."3) "..AtlasLocale["Devourer of Souls"], NPC, 36502 };
+	};
 	FHPitOfSaron = {
 		ZoneName = { AtlasLocale["The Frozen Halls"]..": [B] "..AtlasLocale["Pit of Saron"], 4813 };
 		Location = { AtlasLocale["Icecrown Citadel"], 4812 };

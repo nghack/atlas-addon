@@ -291,6 +291,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Eye of Eternity"] = "L'Œil de l'éternité";
+	["The Forge of Souls"] = "La Forge des âmes"; ["FoS"] = "FdA";
 	["The Frozen Halls"] = "La Forge des âmes";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
@@ -1559,6 +1560,16 @@ AtlasLocale = {
 	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
 	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
 	["Rimefang"] = "Frigecroc";
+
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "Archimage Koreln <Kirin Tor>";
+	["Archmage Elandra <Kirin Tor>"] = "Archimage Elandra <Kirin Tor>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Dame Sylvanas Coursevent <Reine banshee>";
+	["Dark Ranger Loralen"] = "Forestier-sombre Loralen";
+	["Dark Ranger Kalira"] = "Forestier-sombre Kalira";
+	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Parrain des âmes>";
+	["Devourer of Souls"] = "Dévoreur d'âmes";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";

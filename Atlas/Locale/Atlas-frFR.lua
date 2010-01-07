@@ -220,6 +220,7 @@ AtlasLocale = {
 	["Wanders"] = "Errant";
 	["Warlock"] = "Démoniste";
 	["Warrior"] = "Guerrier";
+	["Wave 5"] = "Vague 5";
 	["Wave 6"] = "Vague 6";
 	["Wave 10"] = "Vague 10";
 	["Wave 12"] = "Vague 12";

@@ -2265,10 +2265,10 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "5";
-		Acronym = AtlasLocale["FoS"];
+		Acronym = AtlasLocale["FoS"]..", "..AtlasLocale["FH1"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Pit of Saron"]..")" };
+		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Pit of Saron"]..")", ZONE, 4813 };
 		{ GREY.."1) "..AtlasLocale["Lady Jaina Proudmoore"].." ("..AtlasLocale["Alliance"]..")", NPC, 37597 };
 		{ GREY..INDENT..AtlasLocale["Archmage Koreln <Kirin Tor>"].." ("..AtlasLocale["Alliance"]..")", NPC, 37582 };
 		{ GREY..INDENT..AtlasLocale["Archmage Elandra <Kirin Tor>"].." ("..AtlasLocale["Alliance"]..")", NPC, 37774 };
@@ -2284,10 +2284,10 @@ AtlasMaps = {
 		LevelRange = "80+";
 		MinLevel = "80";
 		PlayerLimit = "5";
-		Acronym = AtlasLocale["PoS"];
+		Acronym = AtlasLocale["PoS"]..", "..AtlasLocale["FH2"];
 		Continent = AtlasLocale["Northrend"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Halls of Reflection"]..")" };
+		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Halls of Reflection"]..")", ZONE, 4820 };
 		{ GREY.."1) "..AtlasLocale["Forgemaster Garfrost"], NPC, 36494 };
 		{ GREY..INDENT..AtlasLocale["Martin Victus"].." ("..AtlasLocale["Alliance"]..")", NPC, 37591 };
 		{ GREY..INDENT..AtlasLocale["Gorkun Ironskull"].." ("..AtlasLocale["Horde"]..")", NPC, 37592 };
@@ -2295,5 +2295,21 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Ick <Krick's Minion>"], NPC, 36476 };
 		{ GREY.."3) "..AtlasLocale["Scourgelord Tyrannus"], NPC, 36658 };
 		{ GREY..INDENT..AtlasLocale["Rimefang"], NPC, 36661 };
+	};	
+	FHHallsOfReflection = {
+		ZoneName = { AtlasLocale["The Frozen Halls"]..": [C] "..AtlasLocale["Halls of Reflection"], 4820 };
+		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "5";
+		Acronym = AtlasLocale["HoR"]..", "..AtlasLocale["FH3"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Dalaran"]..")", ZONE, 4395 };
+		{ GREY.."1) "..AtlasLocale["Lady Jaina Proudmoore"].." ("..AtlasLocale["Alliance"]..")", NPC, 37221 };
+		{ GREY..INDENT..AtlasLocale["Lady Sylvanas Windrunner <Banshee Queen>"].." ("..AtlasLocale["Horde"]..")", NPC, 37223 };
+		{ GREY.."2) "..AtlasLocale["Falric"], NPC, 38112 };
+		{ GREY.."3) "..AtlasLocale["Marwyn"], NPC, 38113 };
+		{ GREY.."4) "..AtlasLocale["Wrath of the Lich King"], NPC, 37226 };
 	};
 };

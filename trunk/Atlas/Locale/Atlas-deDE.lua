@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 06.01.2010
+-- Letztes Update: 13.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -253,7 +253,7 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Die Hallen des Steins";
 	["Halls of Lightning"] = "Die Hallen der Blitze";
-	["Halls of Reflection"] = "Die Hallen der Reflexion"; ["HoR"] = "HdR";
+	["Halls of Reflection"] = "Die Hallen der Reflexion"; ["HoR"] = "HdR"; ["FH3"] = "FH3";
 	["Hellfire Citadel"] = "Höllenfeuerzitadelle"; ["HFC"] = "HZ";
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
@@ -269,7 +269,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Naxx";
 	["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands"; ["CoT1"] = "Durnholde, HdZ1";
 	["Onyxia's Lair"] = "Onyxias Hort"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "Grube";
+	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "Grube"; ["FH2"] = "FH2";
 	["Ragefire Chasm"] = "Der Flammenschlund"; ["RFC"] = "RF";
 	["Razorfen Downs"] = "Hügel der Klingenhauer"; ["RFD"] = "Hügel";
 	["Razorfen Kraul"] = "Kral der Klingenhauer"; ["RFK"] = "Kral";
@@ -293,7 +293,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
-	["The Forge of Souls"] = "Die Seelenschmiede"; ["FoS"] = "Schmiede, SS";
+	["The Forge of Souls"] = "Die Seelenschmiede"; ["FoS"] = "Schmiede, SS"; ["FH1"] = "FH1";
 	["The Frozen Halls"] = "Die gefrorenen Hallen";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
@@ -1572,6 +1572,13 @@ AtlasLocale = {
 	["Dark Ranger Kalira"] = "Dunkelläuferin Kalira";
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Seelenpate>";
 	["Devourer of Souls"] = "Verschlinger der Seelen";
+
+	--The Frozen Halls: Halls of Reflection
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	["Falric"] = "Falric";
+	["Marwyn"] = "Marwyn";
+	["Wrath of the Lich King"] = "Flucht vor dem Lichkönig";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";

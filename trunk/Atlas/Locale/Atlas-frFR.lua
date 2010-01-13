@@ -252,7 +252,7 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Les salles de Pierre";
 	["Halls of Lightning"] = "Les salles de Foudre";
-	["Halls of Reflection"] = "Salles des Reflets"; ["HoR"] = "SdR";
+	["Halls of Reflection"] = "Salles des Reflets"; ["HoR"] = "SdR"; ["FH3"] = "FH3";
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
@@ -268,7 +268,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "Contreforts de Hautebrande d'antan"; ["CoT1"] = "CoT1/GT1";
 	["Onyxia's Lair"] = "Repaire d'Onyxia"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Fosse de Saron"; ["PoS"] = "FdS";
+	["Pit of Saron"] = "Fosse de Saron"; ["PoS"] = "FdS"; ["FH2"] = "FH2";
 	["Ragefire Chasm"] = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
@@ -292,7 +292,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Eye of Eternity"] = "L'Œil de l'éternité";
-	["The Forge of Souls"] = "La Forge des âmes"; ["FoS"] = "FdA";
+	["The Forge of Souls"] = "La Forge des âmes"; ["FoS"] = "FdA"; ["FH1"] = "FH1";
 	["The Frozen Halls"] = "La Forge des âmes";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
@@ -1571,6 +1571,13 @@ AtlasLocale = {
 	["Dark Ranger Kalira"] = "Forestier-sombre Kalira";
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Parrain des âmes>";
 	["Devourer of Souls"] = "Dévoreur d'âmes";
+
+	--The Frozen Halls: Halls of Reflection
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	["Falric"] = "Falric";
+	["Marwyn"] = "Marwyn";
+	["Wrath of the Lich King"] = "Wrath of the Lich King";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";

@@ -246,7 +246,7 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Halls of Stone";
 	["Halls of Lightning"] = "Halls of Lightning";
-	["Halls of Reflection"] = "Halls of Reflection"; ["HoR"] = "HoR";
+	["Halls of Reflection"] = "Halls of Reflection"; ["HoR"] = "HoR"; ["FH3"] = "FH3";
 	["Hellfire Citadel"] = "Hellfire Citadel"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Hellfire Ramparts"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Hyjal Summit"; ["CoT3"] = "CoT3";
@@ -262,7 +262,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "Old Hillsbrad Foothills"; ["CoT1"] = "CoT1";
 	["Onyxia's Lair"] = "Onyxia's Lair"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Pit of Saron"; ["PoS"] = "PoS";
+	["Pit of Saron"] = "Pit of Saron"; ["PoS"] = "PoS"; ["FH2"] = "FH2";
 	["Ragefire Chasm"] = "Ragefire Chasm"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Razorfen Downs"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Razorfen Kraul"; ["RFK"] = "RFK";
@@ -286,7 +286,7 @@ AtlasLocale = {
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "The Eye of Eternity";
-	["The Forge of Souls"] = "The Forge of Souls"; ["FoS"] = "FoS";
+	["The Forge of Souls"] = "The Forge of Souls"; ["FoS"] = "FoS"; ["FH1"] = "FH1";
 	["The Frozen Halls"] = "The Frozen Halls";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "The Nexus";
@@ -1565,6 +1565,13 @@ AtlasLocale = {
 	["Dark Ranger Kalira"] = "Dark Ranger Kalira";
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Godfather of Souls>";
 	["Devourer of Souls"] = "Devourer of Souls";
+
+	--The Frozen Halls: Halls of Reflection
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	["Falric"] = "Falric";
+	["Marwyn"] = "Marwyn";
+	["Wrath of the Lich King"] = "Wrath of the Lich King";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";

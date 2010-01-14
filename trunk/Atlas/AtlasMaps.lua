@@ -2286,6 +2286,7 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["PoS"]..", "..AtlasLocale["FH2"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Halls of Reflection"]..")", ZONE, 4820 };
 		{ GREY.."1) "..AtlasLocale["Forgemaster Garfrost"], NPC, 36494 };
@@ -2304,6 +2305,7 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["HoR"]..", "..AtlasLocale["FH3"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Attunement Required"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Portal"].." ("..AtlasLocale["Dalaran"]..")", ZONE, 4395 };
 		{ GREY.."1) "..AtlasLocale["Lady Jaina Proudmoore"].." ("..AtlasLocale["Alliance"]..")", NPC, 37221 };

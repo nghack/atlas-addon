@@ -214,6 +214,7 @@ AtlasLocale = {
 	["Wanders"] = "徘徊";
 	["Warlock"] = "術士";
 	["Warrior"] = "戰士";
+	["Wave 5"] = "第 5 波";
 	["Wave 6"] = "第 6 波";
 	["Wave 10"] = "第 10 波";
 	["Wave 12"] = "第 12 波";
@@ -245,10 +246,12 @@ AtlasLocale = {
 	["Gundrak"] = "剛德拉克";
 	["Halls of Stone"] = "石之大廳";
 	["Halls of Lightning"] = "雷光大廳";
+	["Halls of Reflection"] = "倒影大廳"; ["HoR"] = "HoR"; ["FH3"] = "FH3";
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC/火堡";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3/海山";
 	["Icecrown"] = "寒冰皇冠";
+	["Icecrown Citadel"] = "冰冠城塞"; ["IC"] = "IC";
 	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara/卡拉";
 	["Library"] = "圖書館"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT/博學";
@@ -259,6 +262,7 @@ AtlasLocale = {
 	["Naxxramas"] = "納克薩瑪斯"; ["Nax"] = "Nax";
 	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1/舊址";
 	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony/黑龍";
+	["Pit of Saron"] = "薩倫之淵"; ["PoS"] = "PoS"; ["FH2"] = "FH2";
 	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC/怒焰";
 	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "剃刀沼澤"; ["RFK"] = "RFK";
@@ -282,6 +286,8 @@ AtlasLocale = {
 	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
 	["The Eye"] = "風暴要塞"; ["Eye"] = "Eye";  --中文版裡 The Eye 名稱被刪除，以 風暴要塞 命名這個25人副本
 	["The Eye of Eternity"] = "永恆之眼";
+	["The Forge of Souls"] = "眾魂熔爐"; ["FoS"] = "FoS"; ["FH1"] = "FH1";
+	["The Frozen Halls"] = "冰封大廳";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
 	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
@@ -321,7 +327,7 @@ AtlasLocale = {
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
 	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
 	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar--奧杜亞	
-	
+
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";
 	["Kalimdor"] = "卡林多";
@@ -1286,16 +1292,16 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "計算者帕薩里歐";
 
 	--TK: The Eye
-	["Al'ar <Phoenix God>"] = "歐爾";
+	["Al'ar <Phoenix God>"] = "歐爾 <鳳凰神>";
 	["Void Reaver"] = "虛空劫掠者";
 	["High Astromancer Solarian"] = "大星術師索拉瑞恩";
-	["Thaladred the Darkener <Advisor to Kael'thas>"] = "凱爾薩斯·日行者";
-	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "首席技師泰隆尼卡斯";
-	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "大星術師卡普尼恩";
-	["Lord Sanguinar <The Blood Hammer>"] = "桑古納爾";
+	["Thaladred the Darkener <Advisor to Kael'thas>"] = "凱爾薩斯·日行者 <凱爾薩斯諫言者>";
+	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "首席技師泰隆尼卡斯 <凱爾薩斯諫言者>";
+	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "大星術師卡普尼恩 <凱爾薩斯諫言者>";
+	["Lord Sanguinar <The Blood Hammer>"] = "桑古納爾領主 <血錘>";
 
 	--Gruul's Lair
-	["High King Maulgar <Lord of the Ogres>"] = "大君王莫卡爾";
+	["High King Maulgar <Lord of the Ogres>"] = "大君王莫卡爾 <巨魔之王>";
 	["Kiggler the Crazed"] = "瘋癲者奇克勒";
 	["Blindeye the Seer"] = "先知盲眼";
 	["Olm the Summoner"] = "召喚者歐莫";
@@ -1312,8 +1318,8 @@ AtlasLocale = {
 	["Supremus"] = "瑟普莫斯";
 	["Shade of Akama"] = "阿卡瑪的黑暗面";
 	["Spirit of Udalo"] = "烏達羅之靈";
-	["Aluyen <Reagents>"] = "阿魯焰";
-	["Okuno <Ashtongue Deathsworn Quartermaster>"] = "歐庫諾";
+	["Aluyen <Reagents>"] = "阿魯焰 <施法材料>";
+	["Okuno <Ashtongue Deathsworn Quartermaster>"] = "歐庫諾 <灰舌死亡誓言者軍需官>";
 	["Seer Kanai"] = "先知卡奈";
 
 	--Black Temple (Basement)
@@ -1331,7 +1337,7 @@ AtlasLocale = {
 	["Gathios the Shatterer"] = "粉碎者高希歐";
 	["High Nethermancer Zerevor"] = "高等虛空術師札瑞佛";
 	["Veras Darkshadow"] = "維拉斯·深影";
-	["Illidan Stormrage <The Betrayer>"] = "伊利丹·怒風";
+	["Illidan Stormrage <The Betrayer>"] = "伊利丹·怒風 <背叛者>";
 
 --************************************************
 -- Instance Entrance Maps
@@ -1462,7 +1468,7 @@ AtlasLocale = {
 	["Krik'thir the Gatewatcher"] = "『守門者』齊力克西爾";
 	["Watcher Gashra"] = "看守者賈西拉";
 	["Watcher Narjil"] = "看守者納吉爾";
-	["Watcher Silthik"] = "看守者席爾希克";	
+	["Watcher Silthik"] = "看守者席爾希克";
 	["Hadronox"] = "哈卓諾克斯";
 	["Anub'arak"] = "阿努巴拉克";
 
@@ -1475,7 +1481,7 @@ AtlasLocale = {
 	["Chromie"] = "克羅米";
 	["Infinite Corruptor"] = "恆龍墮落者";
 	["Guardian of Time"] = "時光守護者";
-	["Scourge Invasion Points"] = "天譴軍團地點";	
+	["Scourge Invasion Points"] = "天譴軍團地點";
 
 	--Drak'Tharon Keep
 	["Trollgore"] = "血角食人妖";
@@ -1484,12 +1490,12 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "預言者薩隆杰";
 	["Kurzel"] = "庫賽爾";
 	["Drakuru's Brazier"] = "德拉庫魯的火盆";
-	
+
 	--Gundrak
-	["Slad'ran <High Prophet of Sseratus>"] = "史拉德銳";
+	["Slad'ran <High Prophet of Sseratus>"] = "史拉德銳 <司瑟拉圖斯高階預言者>";
 	["Drakkari Colossus"] = "德拉克瑞巨像";
-	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比";
-	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉";
+	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比 <曼多司高階預言者>";
+	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉 <阿卡利高階預言者>";
 	["Eck the Ferocious"] = "『兇猛』埃克";
 
 	--Naxxramas
@@ -1541,6 +1547,32 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "離心傀儡";
 	["Cache of Eregos"] = "伊瑞茍斯的貯藏箱";	
 
+	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "鍛造大師加弗羅斯";
+	["Martin Victus"] = "馬汀·維特斯";
+	["Gorkun Ironskull"] = "葛剛·鐵顱";
+	["Krick"] = "克瑞克";
+	["Ick <Krick's Minion>"] = "艾克 <克瑞克的手下>";
+	["Scourgelord Tyrannus"] = "天譴領主提朗紐斯";
+	["Rimefang"] = "霜牙";
+
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "大法師寇瑞倫 <祈倫托>";
+	["Archmage Elandra <Kirin Tor>"] = "大法師伊蘭卓 <祈倫托>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "希瓦娜斯·風行者女士 <女妖之王>";
+	["Dark Ranger Loralen"] = "黑暗遊俠洛拉倫";
+	["Dark Ranger Kalira"] = "黑暗遊俠卡麗菈";
+	["Bronjahm <Godfather of Souls>"] = "布朗吉姆 <眾魂教父>";
+	["Devourer of Souls"] = "眾魂吞噬者";
+
+	--The Frozen Halls: Halls of Reflection
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	["Falric"] = "法勒瑞克";
+	["Marwyn"] = "麥爾溫";
+	["Wrath of the Lich King"] = "巫妖王之怒";
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "黑龍軍團密室";
 	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
@@ -1558,12 +1590,45 @@ AtlasLocale = {
 	["Cyanigosa"] = "霞妮苟莎";
 	["The Violet Hold Key"] = "紫羅蘭堡鑰匙";
 
+	--Trial of the Champion
+	["Grand Champions"] = "大勇士";
+	["Champions of the Alliance"] = "聯盟大勇士";
+	["Marshal Jacob Alerius"] = "傑科布·亞雷瑞斯元帥";
+	["Ambrose Boltspark"] = "安布羅斯·拴炫";
+	["Colosos"] = "克羅索斯";
+	["Jaelyne Evensong"] = "潔琳·晚歌";
+	["Lana Stouthammer"] = "菈娜·頑錘";
+	["Champions of the Horde"] = "部落大勇士";
+	["Mokra the Skullcrusher"] = "『碎顱者』莫克拉";
+	["Eressea Dawnsinger"] = "艾瑞西雅·曦詠";
+	["Runok Wildmane"] = "魯諾克·蠻鬃";
+	["Zul'tore"] = "祖爾拓";
+	["Deathstalker Visceri"] = "亡靈哨兵威瑟瑞";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『純淨者』埃卓克 <銀白十字軍大勇士>";
+	["Argent Confessor Paletress"] = "銀白告解者帕爾璀絲";
+	["The Black Knight"] = "黑騎士";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "洞穴入口";
+	["Northrend Beasts"] = "北裂境巨獸";
+	["Gormok the Impaler"] = "『穿刺者』戈莫克";
+	["Acidmaw"] = "酸喉";
+	["Dreadscale"] = "懼鱗";
+	["Icehowl"] = "冰嚎";
+	["Lord Jaraxxus"] = "賈拉克瑟斯領主";
+	["Faction Champions"] = "陣營勇士";
+	["Twin Val'kyr"] = "華爾琪雙子";
+	["Fjola Lightbane"] = "菲歐拉·光寂";
+	["Eydis Darkbane"] = "艾狄絲·暗寂";
+	["Anub'arak"] = "阿努巴拉克";
+	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字軍試煉";
+
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "畢亞格林將軍";
 	["Volkhan"] = "渥克瀚";
 	["Ionar"] = "埃歐納";
 	["Loken"] = "洛肯";
-	
+
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "議庭之箱";
 	["Krystallus"] = "克利斯托魯斯";
@@ -1603,7 +1668,7 @@ AtlasLocale = {
 	["Antechamber of Ulduar"] = "奧杜亞前廳";
 	["Prospector Doren"] = "勘察員多倫";
 	["Archivum Console"] = "大資料庫控制臺";
-	
+
 	-- Ulduar C
 	["Auriaya"] = "奧芮雅";
 	["Freya"] = "芙蕾雅";
@@ -1611,14 +1676,14 @@ AtlasLocale = {
 	["Hodir"] = "霍迪爾";
 	["The Shattered Walkway"] = "破碎走道";
 	["The Conservatory of Life"] = "生命溫室";
-	
+
 	-- Ulduar D
 	["Mimiron"] = "彌米倫";
-	
+
 	-- Ulduar E
 	["General Vezax"] = "威札斯將軍";
 	["Yogg-Saron"] = "尤格薩倫";
-    ["Prison of Yogg-Saron"] = "尤格薩倫之獄";
+	["Prison of Yogg-Saron"] = "尤格薩倫之獄";
 	
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
@@ -1638,38 +1703,6 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "『石之看守者』亞夏梵";
 	["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";	
 	["Koralon the Flame Watcher"] = "『烈焰看守者』寇拉隆";
-	
-	--Trial of the Crusader
-	["Cavern Entrance"] = "洞穴入口";
-	["Northrend Beasts"] = "北裂境野獸";
-	["Gormok the Impaler"] = "『穿刺者』戈莫克";
-	["Acidmaw"] = "酸喉";
-	["Dreadscale"] = "懼鱗";
-	["Icehowl"] = "冰嚎";
-	["Lord Jaraxxus"] = "賈拉克瑟斯領主";
-	["Faction Champions"] = "陣營勇士";
-	["Twin Val'kyr"] = "華爾琪雙子";
-	["Fjola Lightbane"] = "菲歐拉·光寂";
-	["Eydis Darkbane"] = "艾狄絲·暗寂";
-	["Anub'arak"] = "阿努巴拉克";
-	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字軍試煉";
-
-	--Trial of the Champion
-	["Grand Champions"] = "大勇士";
-	["Champions of the Alliance"] = "聯盟勇士";
-	["Marshal Jacob Alerius"] = "傑科布·亞雷瑞斯元帥";
-	["Ambrose Boltspark"] = "安布羅斯·拴炫";
-	["Colosos"] = "克羅索斯";
-	["Jaelyne Evensong"] = "潔琳·晚歌";
-	["Lana Stouthammer"] = "菈娜·頑錘";
-	["Champions of the Horde"] = "部落勇士";
-	["Mokra the Skullcrusher"] = "『碎顱者』莫克拉";
-	["Eressea Dawnsinger"] = "艾瑞西雅·曦詠";
-	["Runok Wildmane"] = "魯諾克·蠻鬃";
-	["Zul'tore"] = "祖爾拓";
-	["Deathstalker Visceri"] = "亡靈哨兵威瑟瑞";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『純淨者』埃卓克";
-	["Argent Confessor Paletress"] = "銀白告解者帕爾璀絲";
-	["The Black Knight"] = "黑騎士";
+	["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
 };
 end

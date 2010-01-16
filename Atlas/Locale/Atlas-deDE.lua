@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 13.01.2010
+-- Letztes Update: 16.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -176,10 +176,10 @@ AtlasLocale = {
 	["Key"] = "Schlüssel";
 	["Lower"] = "Unten";
 	["Lunar"] = "Mondfest";
-    ["Lunar Festival"] = "Mondfest";
+    	["Lunar Festival"] = "Mondfest";
 	["Mage"] = "Magier";
 	["Meeting Stone"] = "Versammlungsstein";
-    ["Midsummer Festival"] = "Midsummer Festival";
+    	["Midsummer Festival"] = "Midsummer Festival";
 	["Monk"] = "Mönch";
 	["Moonwell"] = "Mondbrunnen";
 	["North"] = "Nord";
@@ -1711,7 +1711,7 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
     	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
-    
+
 };
 
 end

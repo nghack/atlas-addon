@@ -25,7 +25,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 01/10/2009
+-- Última Actualización (last update): 16/01/2010
 
 --************************************************
 -- Global Atlas Strings
@@ -218,6 +218,7 @@ AtlasLocale = {
 	["Wanders"] = "Rondando";
 	["Warlock"] = "Brujo";
 	["Warrior"] = "Guerrero";
+	["Wave 5"] = "Ola 5";
 	["Wave 6"] = "Ola 6";
 	["Wave 10"] = "Ola 10";
 	["Wave 12"] = "Ola 12";
@@ -250,10 +251,12 @@ AtlasLocale = {
 	["Gundrak"] = "Gundrak";
 	["Halls of Stone"] = "Cámara de Piedra";
 	["Halls of Lightning"] = "Cámaras de Relámpagos";
+	["Halls of Reflection"] = "Cámaras de Reflexión"; ["HoR"] = "CdR"; ["FH3"] = "CH3";
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
 	["Icecrown"] = "Corona de Hielo";
+	["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo"; ["IC"] = "CCH";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
 	["Magisters' Terrace"] = "Bancal del Magister"; ["MT"] = "BM";
@@ -264,6 +267,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";	
 	["Old Hillsbrad Foothills"] = "Laderas de Trabalomas"; ["CoT1"] = "CdT1";	
 	["Onyxia's Lair"] = "Guarida de Onyxia"; ["Ony"] = "Ony";
+	["Pit of Saron"] = "Foso de Saron"; ["PoS"] = "FdS"; ["FH2"] = "CH2";
 	["Ragefire Chasm"] = "Sima Ignea"; ["RFC"] = "SI";
 	["Razorfen Downs"] = "Zahúrda Rajacieno"; ["RFD"] = "ZR";
 	["Razorfen Kraul"] = "Horado Rajacieno"; ["RFK"] = "HR";
@@ -287,6 +291,8 @@ AtlasLocale = {
 	["The Deadmines"] = "Las Minas de la Muerte"; ["VC"] = "LMM";
 	["The Eye"] = "El Ojo"; ["Eye"] = "Ojo";
 	["The Eye of Eternity"] = "El Ojo de la Eternidad";
+	["The Forge of Souls"] = "La Forja de Almas"; ["FoS"] = "FdS"; ["FH1"] = "CH1";
+	["The Frozen Halls"] = "Las cámaras heladas";
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
@@ -1563,6 +1569,31 @@ AtlasLocale = {
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Zancanubes <Lord Azur del Vuelo Azul>";
 	["Centrifuge Construct"] = "Ensamblaje de centrifugadora";
 	["Cache of Eregos"] = "Alijo de Eregos";
+	--The Frozen Halls: Pit of Saron
+	["Forgemaster Garfrost"] = "Maestro de forja Gargelus";
+	["Martin Victus"] = "Martin Victus"; --Check
+	["Gorkun Ironskull"] = "Gorkun Testahierro";
+	["Krick"] = "Puagh";
+	["Ick <Krick's Minion>"] = "Agh <Esbirro de Puagh>";
+	["Scourgelord Tyrannus"] = "Señor de la Plaga Tyrannus";
+	["Rimefang"] = "Dientefrío";
+
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "Archimago Koreln <Kirin Tor>";
+	["Archmage Elandra <Kirin Tor>"] = "Archimaga Elandra <Kirin Tor>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Lady Sylvanas Brisaveloz <Reina alma en pena>";
+	["Dark Ranger Loralen"] = "Forestal oscura Loralen";
+	["Dark Ranger Kalira"] = "Forestal oscura Kalira";
+	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Padrino de almas>";
+	["Devourer of Souls"] = "Devoraalmas";
+
+	--The Frozen Halls: Halls of Reflection
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	["Falric"] = "Falric";
+	["Marwyn"] = "Marwyn";
+	["Wrath of the Lich King"] = "El Rey Exánime";
 	
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check
@@ -1580,7 +1611,38 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cianigosa";
 	["The Violet Hold Key"] = "Llave de El Bastión Violeta";
+	--Trial of the Champion
+	["Grand Champions"] = "Grandes campeones";
+	["Champions of the Alliance"] = "Campeones de la Alianza";
+	["Marshal Jacob Alerius"] = "Mariscal Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Chisparrayo";
+	["Colosos"] = "Colosos";
+	["Jaelyne Evensong"] = "Jaelyne Unicanto";
+	["Lana Stouthammer"] = "Lana Martillotenaz";
+	["Champions of the Horde"] = "Campeones de la Horda";
+	["Mokra the Skullcrusher"] = "Mokra el Trituracráneos";
+	["Eressea Dawnsinger"] = "Eressea Cantoalba";
+	["Runok Wildmane"] = "Runok Ferocrín";
+	["Zul'tore"] = "Zul'tore";
+	["Deathstalker Visceri"] = "Mortacechador Visceri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric el Puro <Gran Campeón de la Cruzada Argenta>";
+	["Argent Confessor Paletress"] = "Confesora Argenta Cabelloclaro";
+	["The Black Knight"] = "El Caballero Negro";
 
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Entrada a la caverna";
+	["Northrend Beasts"] = "Bestias de Rasganorte";
+	["Gormok the Impaler"] = "Gormok el Empalador";
+	["Acidmaw"] = "Fauceácida";
+	["Dreadscale"] = "Aterraescama";
+	["Icehowl"] = "Aullahielo";
+	["Lord Jaraxxus"] = "Lord Jaraxxus";
+	["Faction Champions"] = "Campeones de la facción";
+	["Twin Val'kyr"] = "Gemelas Val'kyr";
+	["Fjola Lightbane"] = "Fjola Penívea";
+	["Eydis Darkbane"] = "Eydis Penaumbra";
+	["Anub'arak"] = "Anub'arak";
+	["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1670,38 +1732,7 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";
 	["Koralon the Flame Watcher"] = "Koralon el Vigía de las llamas";
+	["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
 	
-	--Trial of the Crusader
-	["Cavern Entrance"] = "Entrada a la caverna";
-	["Northrend Beasts"] = "Bestias de Rasganorte";
-	["Gormok the Impaler"] = "Gormok el Empalador";
-	["Acidmaw"] = "Fauceácida";
-	["Dreadscale"] = "Aterraescama";
-	["Icehowl"] = "Aullahielo";
-	["Lord Jaraxxus"] = "Lord Jaraxxus";
-	["Faction Champions"] = "Campeones de la facción";
-	["Twin Val'kyr"] = "Gemelas Val'kyr";
-	["Fjola Lightbane"] = "Fjola Penívea";
-	["Eydis Darkbane"] = "Eydis Penaumbra";
-	["Anub'arak"] = "Anub'arak";
-	["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";
-
-	--Trial of the Champion
-	["Grand Champions"] = "Grandes campeones";
-	["Champions of the Alliance"] = "Campeones de la Alianza";
-	["Marshal Jacob Alerius"] = "Mariscal Jacob Alerius";
-	["Ambrose Boltspark"] = "Ambrose Chisparrayo";
-	["Colosos"] = "Colosos";
-	["Jaelyne Evensong"] = "Jaelyne Unicanto";
-	["Lana Stouthammer"] = "Lana Martillotenaz";
-	["Champions of the Horde"] = "Campeones de la Horda";
-	["Mokra the Skullcrusher"] = "Mokra el Trituracráneos";
-	["Eressea Dawnsinger"] = "Eressea Cantoalba";
-	["Runok Wildmane"] = "Runok Ferocrín";
-	["Zul'tore"] = "Zul'tore";
-	["Deathstalker Visceri"] = "Mortacechador Visceri";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric el Puro <Gran Campeón de la Cruzada Argenta>";
-	["Argent Confessor Paletress"] = "Confesora Argenta Cabelloclaro";
-	["The Black Knight"] = "El Caballero Negro";
 };
 end

@@ -1504,6 +1504,23 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Grand prophète d'Akali>";
 	["Eck the Ferocious"] = "Eck le Féroce";
 
+	--Icecrown Citadel
+	["Lord Marrowgar"] = "Seigneur Gargamoelle";
+	["Lady Deathwhisper"] = "Dame Murmemort";
+	["Gunship Battle"] = "Armurerie de la canonnière";
+	["Deathbringer Saurfang"] = "Porte-mort Saurcroc";
+	["Festergut"] = "Pulentraille";
+	["Rotface"] = "Trognepus";
+	["Professor Putricide"] = "Professeur Putricide";
+	--["Blood Prince Council"] = "Blood Prince Council";
+	--["Prince Keleseth"] = "Prince Keleseth";
+	--["Prince Taldaram"] = "Prince Taldaram";
+	--["Prince Valanar"] = "Prince Valanar";
+	--["Blood-Queen Lana'thel"] = "Blood-Queen Lana'thel";
+	--["Valithria Dreamwalker"] = "Valithria Dreamwalker";
+	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Reine des Couvegivres>";
+	--["The Lich King"] = "The Lich King";
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "M. Bigglesworth";
 	["Construct Quarter"] = "Le quartier des Assemblages";
@@ -1553,15 +1570,6 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Assemblage centrifuge";
 	["Cache of Eregos"] = "Cache d'Eregos";
 
-	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
-	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
-	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
-	["Rimefang"] = "Frigecroc";
-
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
 	["Archmage Koreln <Kirin Tor>"] = "Archimage Koreln <Kirin Tor>";
@@ -1572,9 +1580,18 @@ AtlasLocale = {
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Parrain des âmes>";
 	["Devourer of Souls"] = "Dévoreur d'âmes";
 
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
+	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
+	["Rimefang"] = "Frigecroc";
+
 	--The Frozen Halls: Halls of Reflection
-	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Wrath of the Lich King";

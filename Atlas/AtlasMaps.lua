@@ -2357,4 +2357,14 @@ AtlasMaps = {
 		{ GREY.."9) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
 		{ GREY.."10) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
 	};
+	IcecrownCitadelC = {
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C]", 4812 };
+		Location = { AtlasLocale["Icecrown"], 210 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["IC"];
+		Continent = AtlasLocale["Northrend"];
+		{ GREY.."11) "..AtlasLocale["The Lich King"], NPC, 29983 };
+	};
 };

@@ -1503,6 +1503,16 @@ AtlasLocale = {
 	["Lady Deathwhisper"] = "Lady Deathwhisper";
 	["Gunship Battle"] = "Gunship Battle";
 	["Deathbringer Saurfang"] = "Deathbringer Saurfang";
+	["Festergut"] = "Festergut";
+	["Rotface"] = "Rotface";
+	["Professor Putricide"] = "Professor Putricide";
+	["Blood Prince Council"] = "Blood Prince Council";
+	["Prince Keleseth"] = "Prince Keleseth";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Prince Valanar"] = "Prince Valanar";
+	["Blood-Queen Lana'thel"] = "Blood-Queen Lana'thel";
+	["Valithria Dreamwalker"] = "Valithria Dreamwalker";
+	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Queen of the Frostbrood>";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

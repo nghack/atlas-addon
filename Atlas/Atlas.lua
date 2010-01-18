@@ -1123,6 +1123,7 @@ function Atlas_WorldMap_OnUpdate(self, elapsed)
 		playerCoords = string.format("%.2f, %.2f", x, y);
 	end
 	
+	--[[
 	local x, y = GetCursorPosition();
 	local scale = WorldMapFrame:GetScale();
 	x = x / scale;
@@ -1143,6 +1144,9 @@ function Atlas_WorldMap_OnUpdate(self, elapsed)
 	end
 	
 	text = ATLAS_WORLDMAP_PLAYER..": "..playerCoords.." | "..ATLAS_WORLDMAP_CURSOR..": "..cursorCoords;
+	--]]
+	
+	text = ATLAS_WORLDMAP_PLAYER..": "..playerCoords;
 	getglobal(self:GetName().."_Text"):SetText(text);
 end
 

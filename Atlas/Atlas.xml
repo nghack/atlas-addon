@@ -532,9 +532,9 @@
 			<Layer level="OVERLAY">
 				<FontString name="$Parent_Text" inherits="GameFontHighlightSmall">
 					<Anchors>
-						<Anchor point="BOTTOM" relativeTo="WorldMapPositioningGuide">
+						<Anchor point="RIGHT" relativeTo="WorldMapQuestShowObjectives" relativePoint="LEFT">
 							<Offset>
-								<AbsDimension x="0" y="11"/>
+								<AbsDimension x="-25" y="0"/>
 							</Offset>
 						</Anchor>
 					</Anchors>

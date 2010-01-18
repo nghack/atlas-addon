@@ -2322,4 +2322,19 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Marwyn"], NPC, 38113 };
 		{ GREY.."4) "..AtlasLocale["Wrath of the Lich King"], NPC, 37226 };
 	};
+	IcecrownCitadelA = {
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [A]", 4812 };
+		Location = { AtlasLocale["Icecrown"], 210 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["IC"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ GREY.."1) "..AtlasLocale["Lord Marrowgar"], NPC, 36612 };
+		{ GREY.."2) "..AtlasLocale["Lady Deathwhisper"], NPC, 36855 };
+		{ GREY.."3) "..AtlasLocale["Gunship Battle"], OBJECT, 201873 };
+		{ GREY..INDENT..AtlasLocale["Deathbringer Saurfang"], NPC, 37813 };
+	};
 };

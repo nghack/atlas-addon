@@ -3,6 +3,7 @@
 ==============
 
 v1.16.0:
+- new map: Icecrown Citadel, in three parts (Deadca7)
 - new map: The Frozen Halls: The Forge of Souls (Deadca7)
 - new map: The Frozen Halls: Pit of Saron (Deadca7)
 - new map: The Frozen Halls: Halls of Reflection (Deadca7)

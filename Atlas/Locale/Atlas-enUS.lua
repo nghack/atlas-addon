@@ -1498,6 +1498,12 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 	["Eck the Ferocious"] = "Eck the Ferocious";
 
+	--Icecrown Citadel
+	["Lord Marrowgar"] = "Lord Marrowgar";
+	["Lady Deathwhisper"] = "Lady Deathwhisper";
+	["Gunship Battle"] = "Gunship Battle";
+	["Deathbringer Saurfang"] = "Deathbringer Saurfang";
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
 	["Construct Quarter"] = "Construct Quarter";

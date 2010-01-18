@@ -1547,15 +1547,6 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Centrifuge Construct";
 	["Cache of Eregos"] = "Cache of Eregos";
 
-	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
-	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Ironskull";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
-	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
-	["Rimefang"] = "Rimefang";
-
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
 	["Archmage Koreln <Kirin Tor>"] = "Archmage Koreln <Kirin Tor>";
@@ -1566,9 +1557,18 @@ AtlasLocale = {
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Godfather of Souls>";
 	["Devourer of Souls"] = "Devourer of Souls";
 
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
+	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
+	["Rimefang"] = "Rimefang";
+
 	--The Frozen Halls: Halls of Reflection
-	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Wrath of the Lich King";

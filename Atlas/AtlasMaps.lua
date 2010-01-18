@@ -2337,4 +2337,24 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Gunship Battle"], OBJECT, 201873 };
 		{ GREY..INDENT..AtlasLocale["Deathbringer Saurfang"], NPC, 37813 };
 	};
+	IcecrownCitadelB = {
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [B]", 4812 };
+		Location = { AtlasLocale["Icecrown"], 210 };
+		LevelRange = "80+";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["IC"];
+		Continent = AtlasLocale["Northrend"];
+		{ BLUE.."C-H) "..AtlasLocale["Connection"] };
+		{ GREY.."4) "..AtlasLocale["Festergut"], NPC, 36626 };
+		{ GREY.."5) "..AtlasLocale["Rotface"], NPC, 36627 };
+		{ GREY.."6) "..AtlasLocale["Professor Putricide"], NPC, 36678 };
+		{ GREY.."7) "..AtlasLocale["Blood Prince Council"] };
+		{ GREY..INDENT..AtlasLocale["Prince Keleseth"], NPC, 37972 };
+		{ GREY..INDENT..AtlasLocale["Prince Taldaram"], NPC, 37973 };
+		{ GREY..INDENT..AtlasLocale["Prince Valanar"], NPC, 37970 };
+		{ GREY.."8) "..AtlasLocale["Blood-Queen Lana'thel"], NPC, 38004 };
+		{ GREY.."9) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
+		{ GREY.."10) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
+	};
 };

@@ -1513,6 +1513,7 @@ AtlasLocale = {
 	["Blood-Queen Lana'thel"] = "Blood-Queen Lana'thel";
 	["Valithria Dreamwalker"] = "Valithria Dreamwalker";
 	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Queen of the Frostbrood>";
+	["The Lich King"] = "The Lich King";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

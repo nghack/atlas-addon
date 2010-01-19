@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 16.01.2010
+-- Letztes Update: 19.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -179,7 +179,7 @@ AtlasLocale = {
     	["Lunar Festival"] = "Mondfest";
 	["Mage"] = "Magier";
 	["Meeting Stone"] = "Versammlungsstein";
-    	["Midsummer Festival"] = "Midsummer Festival";
+    	["Midsummer Festival"] = "Sonnenwendfest";
 	["Monk"] = "Mönch";
 	["Moonwell"] = "Mondbrunnen";
 	["North"] = "Nord";
@@ -1505,6 +1505,23 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Hochprophet von Akali>";
 	["Eck the Ferocious"] = "Der wilde Eck";
 
+	--Icecrown Citadel
+	["Lord Marrowgar"] = "Lord Mark'gar";
+	["Lady Deathwhisper"] = "Lady Todeswisper";
+	["Gunship Battle"] = "Der Luftschiffkampf";
+	["Deathbringer Saurfang"] = "Todesbringer Saurfang";
+	["Festergut"] = "Fauldarm";
+	["Rotface"] = "Modermiene";
+	["Professor Putricide"] = "Professor Seuchenmord";
+	["Blood Prince Council"] = "Rat der Blutprinzen";
+	["Prince Keleseth"] = "Prinz Keleseth";
+	["Prince Taldaram"] = "Prinz Taldaram";
+	["Prince Valanar"] = "Prinz Valanar";
+	["Blood-Queen Lana'thel"] = "Blutkönigin Lana'thel";
+	["Valithria Dreamwalker"] = "Valithria Traumwandler";
+	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Königin der Frostbrut>";
+	["The Lich King"] = "Der Lichkönig";
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";
 	["Construct Quarter"] = "Konstruktviertel";
@@ -1554,15 +1571,6 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Zentrifugenkonstrukt";
 	["Cache of Eregos"] = "Eregos' Lager";
 
-       	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
-	["Martin Victus"] = "Martin Victus";
-	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
-	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
-	["Rimefang"] = "Raufang";
-
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
 	["Archmage Koreln <Kirin Tor>"] = "Erzmagier Koreln <Kirin Tor>";
@@ -1573,9 +1581,18 @@ AtlasLocale = {
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Seelenpate>";
 	["Devourer of Souls"] = "Verschlinger der Seelen";
 
+       	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
+	["Krick"] = "Krick";
+	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
+	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
+	["Rimefang"] = "Raufang";
+
 	--The Frozen Halls: Halls of Reflection
-	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Flucht vor dem Lichkönig";

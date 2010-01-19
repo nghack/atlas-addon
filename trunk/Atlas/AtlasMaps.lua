@@ -2330,6 +2330,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Lord Marrowgar"], NPC, 36612 };
@@ -2345,6 +2346,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."C-H) "..AtlasLocale["Connection"] };
 		{ GREY.."4) "..AtlasLocale["Festergut"], NPC, 36626 };
 		{ GREY.."5) "..AtlasLocale["Rotface"], NPC, 36627 };
@@ -2365,6 +2367,7 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ GREY.."11) "..AtlasLocale["The Lich King"], NPC, 29983 };
 	};
 };

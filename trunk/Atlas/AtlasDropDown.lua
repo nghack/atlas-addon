@@ -42,10 +42,11 @@ Atlas_DropDownLayouts_Order = {
 		[5] = ATLAS_DDL_LEVEL_80PLUS;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
-		[1] = ATLAS_DDL_PARTYSIZE_5_AC;
-		[2] = ATLAS_DDL_PARTYSIZE_5_DZ;
-		[3] = ATLAS_DDL_PARTYSIZE_10;
-		[4] = ATLAS_DDL_PARTYSIZE_20TO40;
+		[1] = ATLAS_DDL_PARTYSIZE_5_AE;
+		[2] = ATLAS_DDL_PARTYSIZE_5_FZ;
+		[3] = ATLAS_DDL_PARTYSIZE_10_AQ;
+		[4] = ATLAS_DDL_PARTYSIZE_10_RZ;
+		[5] = ATLAS_DDL_PARTYSIZE_20TO40;
 	};
 	[ATLAS_DDL_EXPANSION] = {
 		[1] = ATLAS_DDL_EXPANSION_OLD_AO;
@@ -291,7 +292,7 @@ Atlas_DropDownLayouts = {
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
-		[ATLAS_DDL_PARTYSIZE_5_AC] = {
+		[ATLAS_DDL_PARTYSIZE_5_AE] = {
 			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchindounEnt",
@@ -309,13 +310,14 @@ Atlas_DropDownLayouts = {
 			"CoTEnt",
 			"CoTOldHillsbrad",
 			"CoTOldStratholme",
-		},
-		[ATLAS_DDL_PARTYSIZE_5_DZ] = {
+			"TrialOfTheChampion",
 			"DireMaulEast",
 			"DireMaulEnt",
 			"DireMaulNorth",
 			"DireMaulWest",
 			"DrakTharonKeep",
+		},
+		[ATLAS_DDL_PARTYSIZE_5_FZ] = {
 			"FHHallsOfReflection",
 			"FHTheForgeOfSouls",
 			"FHPitOfSaron",
@@ -331,14 +333,13 @@ Atlas_DropDownLayouts = {
 			"TempestKeepMechanar",
 			"TheNexus",
 			"TheOculus",
-			"TrialOfTheChampion",
 			"UlduarHallsofStone",
 			"UlduarHallsofLightning",
 			"UtgardeKeep",
 			"UtgardePinnacle",
 			"VioletHold",
 		},
-		[ATLAS_DDL_PARTYSIZE_10] = {
+		[ATLAS_DDL_PARTYSIZE_10_AQ] = {
 			"BlackfathomDeeps",
 			"BlackfathomDeepsEnt",
 			"BlackrockSpireEnt",
@@ -357,6 +358,12 @@ Atlas_DropDownLayouts = {
 			"Naxxramas",
 			"ObsidianSanctum",
 			"OnyxiasLair",
+			"TrialOfTheCrusader",
+			"TheDeadmines",
+			"TheDeadminesEnt",
+			"TheEyeOfEternity",
+		},
+		[ATLAS_DDL_PARTYSIZE_10_RZ] = {	
 			"RagefireChasm",
 			"RazorfenDowns",
 			"RazorfenKraul",
@@ -366,13 +373,9 @@ Atlas_DropDownLayouts = {
 			"SMEnt",
 			"SMGraveyard",
 			"SMLibrary",
-			"TheDeadmines",
-			"TheDeadminesEnt",
-			"TheEyeOfEternity",
 			"TheStockade",
 			"TheSunkenTemple",
 			"TheSunkenTempleEnt",
-			"TrialOfTheCrusader",
 			"Uldaman",
 			"UldamanEnt",
 			"UlduarA",
@@ -559,6 +562,9 @@ Atlas_DropDownLayouts = {
 			"MoltenCore",
 			"TheRuinsofAhnQiraj",
 			"TheTempleofAhnQiraj",
+			"ObsidianSanctum",
+			"TrialOfTheChampion",
+			"TrialOfTheCrusader",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_DR] = {
 			"DireMaulEast",
@@ -585,7 +591,6 @@ Atlas_DropDownLayouts = {
 			"MagistersTerrace",
 			"Maraudon",
 			"Naxxramas",
-			"ObsidianSanctum",
 			"OnyxiasLair",
 			"RagefireChasm",
 			"RazorfenDowns",
@@ -608,8 +613,6 @@ Atlas_DropDownLayouts = {
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
-			"TrialOfTheChampion",
-			"TrialOfTheCrusader",
 			"Uldaman",
 			"UlduarHallsofStone",
 			"UlduarHallsofLightning",

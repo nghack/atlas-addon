@@ -8,8 +8,10 @@ v1.16.0:
 - new map: The Frozen Halls: Pit of Saron (Deadca7)
 - new map: The Frozen Halls: Halls of Reflection (Deadca7)
 - added Toravon to VoA and updated the map (Deadca7)
+- added new instances to the dungeon locations map (Dynaletik)
 - removed Onyxia attunement (Dynaletik)
 - fixed wave 6 to wave 5 in Culling of Stratholme (Dynaletik)
+- fixed some map categorization issues
 
 v1.15.2:
 - updated TOC number to 30300 for the 3.3 patch

@@ -142,6 +142,11 @@ local myData = {
 		{ GREY..INDENT..AtlasDLLocale["Trial of the Crusader"], ZONE, 4722 };
 		{ GREY..INDENT..AtlasDLLocale["Trial of the Champion"], ZONE, 4723 };
 		{ GREY.."12) "..AtlasDLLocale["Icecrown Citadel"]..", ".._RED..AtlasDLLocale["Icecrown"], ZONE, nil, 210 };
+		{ GREY..INDENT..AtlasDLLocale["Icecrown Citadel"], ZONE, 4812 };
+		{ GREY..INDENT..AtlasDLLocale["The Frozen Halls"], ZONE, nil, 210 };		
+		{ GREY..INDENT..INDENT..AtlasDLLocale["The Forge of Souls"], ZONE, 4809 };
+		{ GREY..INDENT..INDENT..AtlasDLLocale["Pit of Saron"], ZONE, 4813 };
+		{ GREY..INDENT..INDENT..AtlasDLLocale["Halls of Reflection"], ZONE, 4820 };
 	};
 };
 

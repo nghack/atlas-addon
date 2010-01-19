@@ -1498,6 +1498,23 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉 <阿卡利高階預言者>";
 	["Eck the Ferocious"] = "『兇猛』埃克";
 
+	--Icecrown Citadel
+	["Lord Marrowgar"] = "瑪洛嘉領主";
+	["Lady Deathwhisper"] = "亡語女士";
+	["Gunship Battle"] = "砲艇戰";
+	["Deathbringer Saurfang"] = "死亡使者薩魯法爾";
+	["Festergut"] = "膿腸";
+	["Rotface"] = "腐臉";
+	["Professor Putricide"] = "普崔希德教授";
+	["Blood Prince Council"] = "血親王議會";
+	["Prince Keleseth"] = "凱雷希斯王子";
+	["Prince Taldaram"] = "泰爾達朗王子";
+	["Prince Valanar"] = "瓦拉納爾王子";
+	["Blood-Queen Lana'thel"] = "血腥女王菈娜薩爾";
+	["Valithria Dreamwalker"] = "瓦莉絲瑞雅·夢行者";
+	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>";
+	["The Lich King"] = "巫妖王";
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "畢勾沃斯先生";
 	["Construct Quarter"] = "傀儡區";
@@ -1547,15 +1564,6 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "離心傀儡";
 	["Cache of Eregos"] = "伊瑞茍斯的貯藏箱";	
 
-	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "鍛造大師加弗羅斯";
-	["Martin Victus"] = "馬汀·維特斯";
-	["Gorkun Ironskull"] = "葛剛·鐵顱";
-	["Krick"] = "克瑞克";
-	["Ick <Krick's Minion>"] = "艾克 <克瑞克的手下>";
-	["Scourgelord Tyrannus"] = "天譴領主提朗紐斯";
-	["Rimefang"] = "霜牙";
-
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
 	["Archmage Koreln <Kirin Tor>"] = "大法師寇瑞倫 <祈倫托>";
@@ -1566,9 +1574,18 @@ AtlasLocale = {
 	["Bronjahm <Godfather of Souls>"] = "布朗吉姆 <眾魂教父>";
 	["Devourer of Souls"] = "眾魂吞噬者";
 
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "鍛造大師加弗羅斯";
+	["Martin Victus"] = "馬汀·維特斯";
+	["Gorkun Ironskull"] = "葛剛·鐵顱";
+	["Krick"] = "克瑞克";
+	["Ick <Krick's Minion>"] = "艾克 <克瑞克的手下>";
+	["Scourgelord Tyrannus"] = "天譴領主提朗紐斯";
+	["Rimefang"] = "霜牙";
+
 	--The Frozen Halls: Halls of Reflection
-	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "法勒瑞克";
 	["Marwyn"] = "麥爾溫";
 	["Wrath of the Lich King"] = "巫妖王之怒";

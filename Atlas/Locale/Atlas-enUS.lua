@@ -1499,6 +1499,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Eck the Ferocious";
 
 	--Icecrown Citadel
+	["The Ashen Verdict"] = "The Ashen Verdict";
 	["Lord Marrowgar"] = "Lord Marrowgar";
 	["Lady Deathwhisper"] = "Lady Deathwhisper";
 	["Gunship Battle"] = "Gunship Battle";

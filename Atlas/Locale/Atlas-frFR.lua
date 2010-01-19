@@ -1505,6 +1505,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "Eck le Féroce";
 
 	--Icecrown Citadel
+	["The Ashen Verdict"] = "Le Verdict des cendres";
 	["Lord Marrowgar"] = "Seigneur Gargamoelle";
 	["Lady Deathwhisper"] = "Dame Murmemort";
 	["Gunship Battle"] = "Armurerie de la canonnière";

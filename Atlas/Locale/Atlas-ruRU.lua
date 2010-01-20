@@ -215,6 +215,7 @@ AtlasLocale = {
 	["Wanders"] = "Странник";
 	["Warlock"] = "Чернокнижник";
 	["Warrior"] = "Воин";
+	["Wave 5"] = "5-ая волна";
 	["Wave 6"] = "6-ая волна";
 	["Wave 10"] = "10-ая волна";
 	["Wave 12"] = "12-ая волна";
@@ -246,10 +247,11 @@ AtlasLocale = {
 	["Gundrak"] = "Гундрак";
 	["Halls of Stone"] = "Чертоги Камня";
 	["Halls of Lightning"] = "Чертоги Молний";
+	["Halls of Reflection"] = "Залы Отражений"; ["HoR"] = "ЗО";
 	["Hellfire Citadel"] = "Цитадель Адского Пламени"; ["HFC"] = "ЦАП";
 	["Hellfire Ramparts"] = "Бастионы Адского Пламени"; ["Ramp"] = "Баст";
 	["Hyjal Summit"] = "Вершина Хиджала"; ["CoT3"] = "ПВ3";
-	["Icecrown"] = "Ледяная Корона";
+	["Icecrown Citadel"] = "Цитадель Ледяной Короны";
 	["Karazhan"] = "Каражан"; ["Kara"] = "Кара";
 	["Library"] = "Библиотека"; ["Lib"] = "Биб";
 	["Magisters' Terrace"] = "Терраса Магистров"; ["MT"] = "ТМ";
@@ -260,6 +262,7 @@ AtlasLocale = {
 	["Naxxramas"] = "Наксрамас"; ["Nax"] = "Накс";
 	["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада"; ["CoT1"] = "ПВ1";
 	["Onyxia's Lair"] = "Логово Ониксии"; ["Ony"] = "Они";
+	["Pit of Saron"] = "Яма Сарона"; ["PoS"] = "Яма";
 	["Ragefire Chasm"] = "Огненная пропасть"; ["RFC"] = "ОгП";
 	["Razorfen Downs"] = "Курганы Иглошкурых"; ["RFD"] = "Курганы";
 	["Razorfen Kraul"] = "Лабиринты Иглошкурых"; ["RFK"] = "ЛабИ";
@@ -283,6 +286,8 @@ AtlasLocale = {
 	["The Deadmines"] = "Мертвые копи"; ["VC"] = "МК";
 	["The Eye"] = "Око"; ["Eye"] = "Око";
 	["The Eye of Eternity"] = "Око Вечности";
+	["The Forge of Souls"] = "Кузня Душ"; ["FoS"] = "Кузня Душ";
+	["The Frozen Halls"] = "Ледяные залы";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Мех";
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";
@@ -306,28 +311,35 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Зул'Гуруб"; ["ZG"] = "ЗГ";
 	
 	--WotLK Acronyms
-	["AN, Nerub"] = "АЖ, Неруб";
-	["Strat, CoT-Strat"] = "Страт, ПВ-Страт";
-	["DTK"] = "КДТ";
-	["Gun"] = "Гун";
-	["HoS"] = "ЧК";
-	["HoL"] = "ЧМ";
-	["OS"] = "ОС"; -- Обсидиановое святилище
-	["UK, Keep"] = "УК, Крепость"; -- Крепость Утгард
-	["UP, Pinn"] = "УВ, Вершина"; -- Вершина Утгард
-	["Nex, Nexus"] = "Некс, Нексус"; 
 	["AK, Kahet"] = "АК, Кахет"; -- Ан'кахет
-	["VH"] = "АМК"; -- Аметистовая крепость
+	["AN, Nerub"] = "АЖ, Неруб"; -- Азжол-Неруб
+	["Champ"] = "Champ"; -- Испытание чемпиона
+	["Crus"] = "Crus"; -- Испытание крестоносца
+	["DTK"] = "КДТ"; -- Крепость Драк'Тарон
+	["FoS"] = "Кузня Душ"; ["FH1"] = "ЛЗ1"; -- Кузня Душ
+	["Gun"] = "Гун"; -- Гундрак
+	["HoL"] = "ЧМ"; -- Чертоги Молний
+	["HoR"] = "ЗО"; ["FH3"] = "ЛЗ3"; -- Залы Отражения
+	["HoS"] = "ЧК"; -- Чертоги Камня
+	["IC"] = "ЦЛК"; -- Цитадель Ледяной Короны
+	["Nax"] = "Накс"; -- Наксрамас
+	["Nex, Nexus"] = "Некс, Нексус"; -- Нексус
 	["Ocu"] = "Оку"; -- Окулус
-	["VoA"] = "Склеп"; -- Склеп Аркавона
+	["OS"] = "ОС"; -- Обсидиановое святилище
+	["PoS"] = "Яма"; ["FH2"] = "ЛЗ2"; -- Яма Сарона
+	["Strat, CoT-Strat"] = "Страт, ПВ-Страт"; -- Очищение Стратхольма
 	["TEoE"] = "ОВ"; -- Око Вечности
+	["UK, Keep"] = "УК, Крепость"; -- Крепость Утгард
 	["Uldu"] = "Ульда"; -- Ульдуар
-	
+	["UP, Pinn"] = "УВ, Вершина"; -- Вершина Утгард
+	["VH"] = "АМК"; -- Аметистовая крепость
+	["VoA"] = "Склеп"; -- Склеп Аркавона
+
 	--Continents
 	["Eastern Kingdoms"] = "Восточные королевства";
 	["Kalimdor"] = "Калимдор";
-	["Outland"] = "Запределье";
 	["Northrend"] = "Нордскол";
+	["Outland"] = "Запределье";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ясеневый лес";
@@ -348,6 +360,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Седые холмы";
 	["Hellfire Peninsula"] = "Полуостров Адского Пламени";
 	["Howling Fjord"] = "Ревущий фьорд";
+	["Icecrown"] = "Ледяная Корона";
 	["Isle of Quel'Danas"] = "Остров Кель'Данас";
 	["Netherstorm"] = "Пустоверть";
 	["Orgrimmar"] = "Оргриммар";
@@ -1492,6 +1505,24 @@ AtlasLocale = {
 	["Moorabi <High Prophet of Mam'toth>"] = "Мураби <Верховный пророк Мам'тота>";
 	["Gal'darah <High Prophet of Akali>"] = "Гал'дара <Верховный пророк Акали>";
 	["Eck the Ferocious"] = "Эк Свирепый";
+	
+	--Icecrown Citadel
+	["The Ashen Verdict"] = "Пепельный союз";
+	["Lord Marrowgar"] = "Лорд Ребрад";
+	["Lady Deathwhisper"] = "Леди Смертный Шепот";
+	["Gunship Battle"] = "Бой на кораблях";
+	["Deathbringer Saurfang"] = "Саурфанг Смертоносный";
+	["Festergut"] = "Тухлопуз";
+	["Rotface"] = "Гниломорд";
+	["Professor Putricide"] = "Профессор Мерзоцид";
+	["Blood Prince Council"] = "Совет Принцев Крови";
+	["Prince Keleseth"] = "Принц Келесет";
+	["Prince Taldaram"] = "Принц Талдарам";
+	["Prince Valanar"] = "Принц Валанар";
+	["Blood-Queen Lana'thel"] = "Кровавая королева Лана'тель";
+	["Valithria Dreamwalker"] = "Валитрия Сноходица";
+	["Sindragosa <Queen of the Frostbrood>"] = "Синдрагоса";
+	["The Lich King"] = "Король-лич";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";
@@ -1542,6 +1573,32 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "Центрифужное создание";
 	["Cache of Eregos"] = "Тайник Эрегоса";
 
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "Archmage Koreln <Кирин-Тор>";
+	["Archmage Elandra <Kirin Tor>"] = "Archmage Elandra <Кирин-Тор>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Леди Сильвана Ветрокрылая";
+	["Dark Ranger Loralen"] = "Dark Ranger Loralen";
+	["Dark Ranger Kalira"] = "Dark Ranger Kalira";
+	["Bronjahm <Godfather of Souls>"] = "Броньям";
+	["Devourer of Souls"] = "Пожиратель Душ";
+
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "Начальник кузни Гарфрост";
+	["Martin Victus"] = "Martin Victus";
+	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Krick"] = "Крик";
+	["Ick <Krick's Minion>"] = "Ик <Прислужник Крика>";
+	["Scourgelord Tyrannus"] = "Повелитель Плети Тираний";
+	["Rimefang"] = "Иний";
+
+	--The Frozen Halls: Halls of Reflection
+	--3 beginning NPCs omitted, see The Forge of Souls
+	["Falric"] = "Фалрик";
+	["Marwyn"] = "Марвин";
+	["Wrath of the Lich King"] = "Король-лич";
+	
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Комната черных драконов";
 	["Sartharion <The Onyx Guardian>"] = "Сартарион <Ониксовый страж>";
@@ -1559,6 +1616,39 @@ AtlasLocale = {
 	["Cyanigosa"] = "Синигоса";
 	["The Violet Hold Key"] = "Ключ Аметистовой крепости";
 
+	--Trial of the Champion
+	["Grand Champions"] = "Абсолютные чемпионы";
+	["Champions of the Alliance"] = "Чемпионы Альянса";
+	["Marshal Jacob Alerius"] = "Маршал Якоб Алерий";
+	["Ambrose Boltspark"] = "Амброз Искрокрут";
+	["Colosos"] = "Колосус";
+	["Jaelyne Evensong"] = "Джейлин Закатная Песня";
+	["Lana Stouthammer"] = "Лана Твердомолот";
+	["Champions of the Horde"] = "Чемпионы Орды";
+	["Mokra the Skullcrusher"] = "Мокра Дробитель Черепов";
+	["Eressea Dawnsinger"] = "Эрессея Певица Рассвета";
+	["Runok Wildmane"] = "Рунок Буйногривый";
+	["Zul'tore"] = "Зул'тор";
+	["Deathstalker Visceri"] = "Страж смерти Визери";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Эдрик Чистый <Абсолютный чемпион Серебряного Авангарда>";
+	["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
+	["The Black Knight"] = "Черный рыцарь";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "Вход";
+	["Northrend Beasts"] = "Звери Нордскола";
+	["Gormok the Impaler"] = "Гормок Пронзающий Бивень";
+	["Acidmaw"] = "Кислотная Утроба";
+	["Dreadscale"] = "Жуткая Чешуя";
+	["Icehowl"] = "Ледяной Рев";
+	["Lord Jaraxxus"] = "Лорд Джараксус";
+	["Faction Champions"] = "Чемпионы фракций";
+	["Twin Val'kyr"] = "Валь'киры-близнецы";
+	["Fjola Lightbane"] = "Фьола Погибель Света";
+	["Eydis Darkbane"] = "Эйдис Погибель Тьмы";
+	["Anub'arak"] = "Ануб'арак";
+	["Heroic: Trial of the Grand Crusader"] = "Героик: Испытание великого крестоносца";
+	
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "Генерал Бьярнгрин";
 	["Volkhan"] = "Волхан";
@@ -1639,39 +1729,6 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "Аркавон Каменный Страж";
 	["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури";
 	["Koralon the Flame Watcher"] = "Коралон Страж Огня";
-	
-	--Trial of the Crusader
-	["Cavern Entrance"] = "Вход";
-	["Northrend Beasts"] = "Звери Нордскола";
-	["Gormok the Impaler"] = "Гормок Пронзающий Бивень";
-	["Acidmaw"] = "Кислотная Утроба";
-	["Dreadscale"] = "Жуткая Чешуя";
-	["Icehowl"] = "Ледяной Рев";
-	["Lord Jaraxxus"] = "Лорд Джараксус";
-	["Faction Champions"] = "Чемпионы фракций";
-	["Twin Val'kyr"] = "Валь'киры-близнецы";
-	["Fjola Lightbane"] = "Фьола Погибель Света";
-	["Eydis Darkbane"] = "Эйдис Погибель Тьмы";
-	["Anub'arak"] = "Ануб'арак";
-	["Heroic: Trial of the Grand Crusader"] = "Героик: Испытание великого крестоносца";
-
-	--Trial of the Champion
-	["Grand Champions"] = "Абсолютные чемпионы";
-	["Champions of the Alliance"] = "Чемпионы Альянса";
-	["Marshal Jacob Alerius"] = "Маршал Якоб Алерий";
-	["Ambrose Boltspark"] = "Амброз Искрокрут";
-	["Colosos"] = "Колосус";
-	["Jaelyne Evensong"] = "Джейлин Закатная Песня";
-	["Lana Stouthammer"] = "Лана Твердомолот";
-	["Champions of the Horde"] = "Чемпионы Орды";
-	["Mokra the Skullcrusher"] = "Мокра Дробитель Черепов";
-	["Eressea Dawnsinger"] = "Эрессея Певица Рассвета";
-	["Runok Wildmane"] = "Рунок Буйногривый";
-	["Zul'tore"] = "Зул'тор";
-	["Deathstalker Visceri"] = "Страж смерти Визери";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Эдрик Чистый <Абсолютный чемпион Серебряного Авангарда>";
-	["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
-	["The Black Knight"] = "Черный рыцарь";
-	
+	["Toravon the Ice Watcher"] = "Торавон Страж Льда";
 };
 end 

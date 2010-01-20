@@ -23,7 +23,7 @@
 --]]
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2009 - dernière maj : 30/09/2009
+-- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2010
 -- Many thanks to all contributors!
 
 if ( GetLocale() == "frFR" ) then

@@ -1,5 +1,5 @@
 Atlas —— 一款魔兽世界副本地图浏览器
-Copyright 2005 - 2009 Dan Gilbert
+Copyright 2005 - 2010 Dan Gilbert
 Email：loglow@gmail.com
 
 

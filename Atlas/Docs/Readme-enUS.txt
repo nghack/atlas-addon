@@ -1,5 +1,5 @@
 Atlas, a World of Warcraft instance map browser
-Copyright 2005 - 2009 Dan Gilbert
+Copyright 2005 - 2010 Dan Gilbert
 Email me at loglow@gmail.com
 
 

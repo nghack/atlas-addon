@@ -1,5 +1,5 @@
 Atlas, 魔獸世界地圖的增強插件
-著作權 Copyright 2005 - 2009 Dan Gilbert
+著作權 Copyright 2005 - 2010 Dan Gilbert
 原作電子郵件位址: loglow@gmail.com
 
 

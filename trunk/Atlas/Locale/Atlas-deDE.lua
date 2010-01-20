@@ -27,7 +27,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 19.01.2010
+-- Letztes Update: 20.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -252,30 +252,29 @@ AtlasLocale = {
 	["Graveyard"] = "Friedhof"; ["GY"] = "Friedhof";
 	["Gruul's Lair"] = "Gruuls Unterschlupf"; ["GL"] = "Gruul";
 	["Gundrak"] = "Gundrak";
-	["Halls of Stone"] = "Die Hallen des Steins";
 	["Halls of Lightning"] = "Die Hallen der Blitze";
-	["Halls of Reflection"] = "Die Hallen der Reflexion"; ["HoR"] = "HdR"; ["FH3"] = "FH3";
+	["Halls of Reflection"] = "Die Hallen der Reflexion";
+	["Halls of Stone"] = "Die Hallen des Steins";
 	["Hellfire Citadel"] = "Höllenfeuerzitadelle"; ["HFC"] = "HZ";
 	["Hellfire Ramparts"] = "Höllenfeuerbollwerk"; ["Ramp"] = "BW";
 	["Hyjal Summit"] = "Hyjalgipfel"; ["CoT3"] = "Hyjal, HdZ3";
-    	["Icecrown"] = "Eiskrone";
-	["Icecrown Citadel"] = "Eiskronenzitadelle"; ["IC"] = "ICC, Zita";
+	["Icecrown Citadel"] = "Eiskronenzitadelle";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
-	["Library"] = "Bibliothek"; ["Lib"] = "Bibli";
-	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "MT";
+	["Library"] = "Bibliothek"; ["Lib"] = "Bib";
+	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "TdM";
 	["Magtheridon's Lair"] = "Magtheridons Kammer"; ["Mag"] = "Maggi";
 	["Mana-Tombs"] = "Managruft"; ["MT"] = "Gruft";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara, Mauro";
 	["Molten Core"] = "Geschmolzener Kern"; ["MC"] = "MC";
-	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Naxx";
+	["Naxxramas"] = "Naxxramas";
 	["Old Hillsbrad Foothills"] = "Vorgebirge des Alten Hügellands"; ["CoT1"] = "Durnholde, HdZ1";
 	["Onyxia's Lair"] = "Onyxias Hort"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Die Grube von Saron"; ["PoS"] = "Grube"; ["FH2"] = "FH2";
+	["Pit of Saron"] = "Die Grube von Saron";
 	["Ragefire Chasm"] = "Der Flammenschlund"; ["RFC"] = "RF";
 	["Razorfen Downs"] = "Hügel der Klingenhauer"; ["RFD"] = "Hügel";
 	["Razorfen Kraul"] = "Kral der Klingenhauer"; ["RFK"] = "Kral";
 	["Ruins of Ahn'Qiraj"] = "Ruinen von Ahn'Qiraj"; ["AQ20"] = "AQ20";
-	["Scarlet Monastery"] = "Das scharlachrote Kloster"; ["SM"] = "SK";
+	["Scarlet Monastery"] = "Das scharlachrote Kloster"; ["SM"] = "Kloster";
 	["Scholomance"] = "Scholomance"; ["Scholo"] = "Scholo";
 	["Serpentshrine Cavern"] = "Höhle des Schlangenschreins"; ["SC"] = "SSC, HdS";
 	["Sethekk Halls"] = "Sethekkhallen"; ["Seth"] = "SH";
@@ -284,7 +283,7 @@ AtlasLocale = {
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	["Stratholme Past"] = "Das Ausmerzen von Stratholme";
 	["Sunken Temple"] = "Der Tempel von Atal'Hakkar"; ["ST"] = "Tempel";
-	["Sunwell Plateau"] = "Sonnenbrunnenplateau"; ["SP"] = "SP";
+	["Sunwell Plateau"] = "Sonnenbrunnenplateau"; ["SP"] = "Sunwell";
 	["Tempest Keep"] = "Festung der Stürme"; ["TK"] = "FdS";
 	["Temple of Ahn'Qiraj"] = "Tempel von Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "Die Arkatraz"; ["Arca"] = "Arka";
@@ -294,7 +293,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Die Todesminen"; ["VC"] = "DM";
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
-	["The Forge of Souls"] = "Die Seelenschmiede"; ["FoS"] = "Schmiede, SS"; ["FH1"] = "FH1";
+	["The Forge of Souls"] = "Die Seelenschmiede";
 	["The Frozen Halls"] = "Die gefrorenen Hallen";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
@@ -306,8 +305,8 @@ AtlasLocale = {
 	["The Stockade"] = "Das Verlies"; ["Stocks"] = "Verlies";
 	["The Underbog"] = "Der Tiefensumpf"; ["UB"] = "TS";
 	["The Violet Hold"] = "Die Violette Festung";
-    	["Trial of the Champion"] = "Prüfung des Champions"; ["PDC"] = "PDC"; 
- 	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers"; ["PDK"] = "PDK";
+    	["Trial of the Champion"] = "Prüfung des Champions";
+ 	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Burg Utgarde";
@@ -319,28 +318,35 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
-	["Strat, CoT-Strat"] = "Strat";
-	["DTK"] = "Feste"; -- Feste Drak'Tharon
-	["Gun"] = "Gun"; -- Gundrak
-	["HoS"] = "HdS"; -- Die Hallen des Steins
-	["HoL"] = "HdB"; -- Die Hallen der Blitze
-	["OS"] = "OS"; -- Das Obsidiansanktum
-	["UK, Keep"] = "Burg"; -- Burg Utgarde
-	["UP, Pinn"] = "Turm"; -- Turm Utgarde
-	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
-	["VH"] = "VF, Vio"; -- Die Violette Festung
+	["AN, Nerub"] = "AN, Azjol"; -- Azjol-Nerub
+	["Champ"] = "PDC"; -- Prüfung des Champions
+	["Crus"] = "PDK"; -- Prüfung des Kreuzfahrers
+	["DTK"] = "Feste"; -- Feste Drak'Tharon
+	["FoS"] = "Schmiede, SS"; ["FH1"] = "FH1"; -- Die Seelenschmiede
+	["Gun"] = "Gun"; -- Gundrak
+	["HoL"] = "HdB"; -- Die Hallen der Blitze
+	["HoR"] = "HdR"; ["FH3"] = "FH3"; -- Die Hallen der Reflexion
+	["HoS"] = "HdS"; -- Die Hallen des Steins
+	["IC"] = "ICC, Zita"; -- Eiskronenzitadelle
+	["Nax"] = "Naxx"; -- Naxxramas
+	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["Ocu"] = "Ocu"; -- Das Oculus
-	["VoA"] = "Archa"; -- Archavons Kammer
+	["OS"] = "OS"; -- Das Obsidiansanktum
+	["PoS"] = "Grube"; ["FH2"] = "FH2"; -- Die Grube von Saron
+	["Strat, CoT-Strat"] = "Strat, HdZ4"; -- Das Ausmerzen Von Stratholme
 	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
+	["UK, Keep"] = "Burg"; -- Burg Utgarde
 	["Uldu"] = "Uldu"; -- Ulduar
+	["UP, Pinn"] = "Turm"; -- Turm Utgarde
+	["VH"] = "VF, Vio"; -- Die Violette Festung
+	["VoA"] = "Archa"; -- Archavons Kammer
 	
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Kalimdor"] = "Kalimdor";
-	["Outland"] = "Scherbenwelt";
 	["Northrend"] = "Nordend";
+	["Outland"] = "Scherbenwelt";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Eschental";
@@ -361,6 +367,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Grizzlyhügel";
 	["Hellfire Peninsula"] = "Höllenfeuerhalbinsel";
 	["Howling Fjord"] = "Der heulende Fjord";
+    	["Icecrown"] = "Eiskrone";
 	["Isle of Quel'Danas"] = "Insel von Quel'Danas";
 	["Netherstorm"] = "Nethersturm";
 	["Orgrimmar"] = "Orgrimmar";

@@ -245,14 +245,13 @@ AtlasLocale = {
 	["Graveyard"] = "Graveyard"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Gruul's Lair"; ["GL"] = "GL";
 	["Gundrak"] = "Gundrak";
-	["Halls of Stone"] = "Halls of Stone";
 	["Halls of Lightning"] = "Halls of Lightning";
-	["Halls of Reflection"] = "Halls of Reflection"; ["HoR"] = "HoR"; ["FH3"] = "FH3";
+	["Halls of Reflection"] = "Halls of Reflection";
+	["Halls of Stone"] = "Halls of Stone";
 	["Hellfire Citadel"] = "Hellfire Citadel"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Hellfire Ramparts"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Hyjal Summit"; ["CoT3"] = "CoT3";
-	["Icecrown"] = "Icecrown";
-	["Icecrown Citadel"] = "Icecrown Citadel"; ["IC"] = "IC";
+	["Icecrown Citadel"] = "Icecrown Citadel";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Library"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Magisters' Terrace"; ["MT"] = "MT";
@@ -260,10 +259,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Mana-Tombs"; ["MT"] = "MT";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
 	["Molten Core"] = "Molten Core"; ["MC"] = "MC";
-	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
+	["Naxxramas"] = "Naxxramas";
 	["Old Hillsbrad Foothills"] = "Old Hillsbrad Foothills"; ["CoT1"] = "CoT1";
 	["Onyxia's Lair"] = "Onyxia's Lair"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Pit of Saron"; ["PoS"] = "PoS"; ["FH2"] = "FH2";
+	["Pit of Saron"] = "Pit of Saron";
 	["Ragefire Chasm"] = "Ragefire Chasm"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Razorfen Downs"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Razorfen Kraul"; ["RFK"] = "RFK";
@@ -287,7 +286,7 @@ AtlasLocale = {
 	["The Deadmines"] = "The Deadmines"; ["VC"] = "VC";
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "The Eye of Eternity";
-	["The Forge of Souls"] = "The Forge of Souls"; ["FoS"] = "FoS"; ["FH1"] = "FH1";
+	["The Forge of Souls"] = "The Forge of Souls";
 	["The Frozen Halls"] = "The Frozen Halls";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "The Nexus";
@@ -299,8 +298,8 @@ AtlasLocale = {
 	["The Stockade"] = "The Stockade"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "The Underbog"; ["UB"] = "UB";
 	["The Violet Hold"] = "The Violet Hold";
-	["Trial of the Champion"] = "Trial of the Champion"; ["Champ"] = "Champ";
-	["Trial of the Crusader"] = "Trial of the Crusader"; ["Crus"] = "Crus";
+	["Trial of the Champion"] = "Trial of the Champion";
+	["Trial of the Crusader"] = "Trial of the Crusader";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Utgarde Keep";
@@ -312,28 +311,35 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
-	["DTK"] = "DTK"; -- Drak'Tharon Keep
-	["Gun"] = "Gun"; -- Gundrak
-	["HoS"] = "HoS"; -- Halls of Stone
-	["HoL"] = "HoL"; -- Halls of Lightning
-	["OS"] = "OS"; -- The Obsidian Sanctum
-	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
-	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacl
-	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
-	["VH"] = "VH"; -- The Violet Hold
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
+	["Champ"] = "Champ"; -- Trial of the Champion
+	["Crus"] = "Crus"; -- Trial of the Crusader
+	["DTK"] = "DTK"; -- Drak'Tharon Keep
+	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
+	["Gun"] = "Gun"; -- Gundrak
+	["HoL"] = "HoL"; -- Halls of Lightning
+	["HoR"] = "HoR"; ["FH3"] = "FH3"; -- Halls of Reflection
+	["HoS"] = "HoS"; -- Halls of Stone
+ 	["IC"] = "IC"; -- Icecrown Citadel
+	["Nax"] = "Nax"; -- Naxxramas
+	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["Ocu"] = "Ocu"; -- The Oculus
-	["VoA"] = "VoA"; -- Vault of Archavon
+	["OS"] = "OS"; -- The Obsidian Sanctum
+	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
+	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
 	["Uldu"] = "Uldu"; -- Ulduar
+	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacle
+	["VH"] = "VH"; -- The Violet Hold
+	["VoA"] = "VoA"; -- Vault of Archavon
 
 	--Continents
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
 	["Kalimdor"] = "Kalimdor";
-	["Outland"] = "Outland";
 	["Northrend"] = "Northrend";
+	["Outland"] = "Outland";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ashenvale";
@@ -354,6 +360,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Grizzly Hills";
 	["Hellfire Peninsula"] = "Hellfire Peninsula";
 	["Howling Fjord"] = "Howling Fjord";
+	["Icecrown"] = "Icecrown";
 	["Isle of Quel'Danas"] = "Isle of Quel'Danas";
 	["Netherstorm"] = "Netherstorm";
 	["Orgrimmar"] = "Orgrimmar";

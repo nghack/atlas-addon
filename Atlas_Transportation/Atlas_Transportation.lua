@@ -111,18 +111,20 @@ local myData = {
 		{ GREY.."3) "..AtlasTransLocale["Tranquillien"]..", ".._RED..AtlasTransLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."4) "..AtlasTransLocale["Hatchet Hills"]..", ".._RED..AtlasTransLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."5) "..AtlasTransLocale["Light's Hope Chapel"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
-		{ GREY.."6) "..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
-		{ GREY.."7) "..AtlasTransLocale["The Sepulcher"]..", ".._RED..AtlasTransLocale["Silverpine Forest"], ZONE, 130 };
-		{ GREY.."8) "..AtlasTransLocale["Tarren Mill"]..", ".._RED..AtlasTransLocale["Hillsbrad Foothills"], ZONE, 267 };
-		{ GREY.."9) "..AtlasTransLocale["Revantusk Village"]..", ".._RED..AtlasTransLocale["The Hinterlands"], ZONE, 47 };
-		{ GREY.."10) "..AtlasTransLocale["Hammerfall"]..", ".._RED..AtlasTransLocale["Arathi Highlands"], ZONE, 45 };
-		{ GREY.."11) "..AtlasTransLocale["Thorium Point"]..", ".._RED..AtlasTransLocale["Searing Gorge"], ZONE, 51 };
-		{ GREY.."12) "..AtlasTransLocale["Kargath"]..", ".._RED..AtlasTransLocale["Badlands"], ZONE, 3 };
-		{ GREY.."13) "..AtlasTransLocale["Flame Crest"]..", ".._RED..AtlasTransLocale["Burning Steppes"], ZONE, 46 };
-		{ GREY.."14) "..AtlasTransLocale["Stonard"]..", ".._RED..AtlasTransLocale["Swamp of Sorrows"], ZONE, 8 };
-		{ GREY.."15) "..AtlasTransLocale["Grom'Gol Base Camp"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
-		{ GREY.."16) "..AtlasTransLocale["Booty Bay"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
-		{ GREY.."17) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
+		{ GREY.."6) "..AtlasTransLocale["Thonodroril River"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
+		{ GREY.."7) "..AtlasTransLocale["Bulwark"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
+		{ GREY.."8) "..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
+		{ GREY.."9) "..AtlasTransLocale["The Sepulcher"]..", ".._RED..AtlasTransLocale["Silverpine Forest"], ZONE, 130 };
+		{ GREY.."10) "..AtlasTransLocale["Tarren Mill"]..", ".._RED..AtlasTransLocale["Hillsbrad Foothills"], ZONE, 267 };
+		{ GREY.."11) "..AtlasTransLocale["Revantusk Village"]..", ".._RED..AtlasTransLocale["The Hinterlands"], ZONE, 47 };
+		{ GREY.."12) "..AtlasTransLocale["Hammerfall"]..", ".._RED..AtlasTransLocale["Arathi Highlands"], ZONE, 45 };
+		{ GREY.."13) "..AtlasTransLocale["Thorium Point"]..", ".._RED..AtlasTransLocale["Searing Gorge"], ZONE, 51 };
+		{ GREY.."14) "..AtlasTransLocale["Kargath"]..", ".._RED..AtlasTransLocale["Badlands"], ZONE, 3 };
+		{ GREY.."15) "..AtlasTransLocale["Flame Crest"]..", ".._RED..AtlasTransLocale["Burning Steppes"], ZONE, 46 };
+		{ GREY.."16) "..AtlasTransLocale["Stonard"]..", ".._RED..AtlasTransLocale["Swamp of Sorrows"], ZONE, 8 };
+		{ GREY.."17) "..AtlasTransLocale["Grom'Gol Base Camp"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
+		{ GREY.."18) "..AtlasTransLocale["Booty Bay"]..", ".._RED..AtlasTransLocale["Stranglethorn Vale"], ZONE, 33 };
+		{ GREY.."19) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
 	};
 	TransHordeWest = {
 		ZoneName = { AtlasTransLocale["Kalimdor"].." ("..AtlasTransLocale["Horde"]..")" };
@@ -158,7 +160,7 @@ local myData = {
 		ZoneName = { AtlasTransLocale["Outland"].." ("..AtlasTransLocale["Horde"]..")" };
 		{ BLUE.."A) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
 		{ BLUE.."B) "..AtlasTransLocale["Orgrimmar"]..", ".._RED..AtlasTransLocale["Durotar"], ZONE, 14 };
-		{ BLUE..INDENT..AtlasTransLocale["Thunder Bluff"]..", ".._RED..AtlasTransLocale["Mulgore"], ZONE, 215 };
+		{ BLUE.."C) "..AtlasTransLocale["Thunder Bluff"]..", ".._RED..AtlasTransLocale["Mulgore"], ZONE, 215 };
 		{ BLUE..INDENT..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
 		{ BLUE..INDENT..AtlasTransLocale["Silvermoon City"]..", ".._RED..AtlasTransLocale["Eversong Woods"], ZONE, 3430 };
 		{ BLUE..INDENT..AtlasTransLocale["Sun's Reach Sanctum"]..", ".._RED..AtlasTransLocale["Isle of Quel'Danas"], ZONE, 4080 };
@@ -188,8 +190,8 @@ local myData = {
 	TransAllianceOutland = {
 		ZoneName = { AtlasTransLocale["Outland"].." ("..AtlasTransLocale["Alliance"]..")" };
 		{ BLUE.."A) "..AtlasTransLocale["The Dark Portal"]..", ".._RED..AtlasTransLocale["Blasted Lands"], ZONE, 4 };
-		{ BLUE.."B) "..AtlasTransLocale["Ironforge"]..", ".._RED..AtlasTransLocale["Dun Morogh"], ZONE, 1 };
-		{ BLUE..INDENT..AtlasTransLocale["Stormwind City"]..", ".._RED..AtlasTransLocale["Elwynn Forest"], ZONE, 12 };
+		{ BLUE.."B) "..AtlasTransLocale["Stormwind City"]..", ".._RED..AtlasTransLocale["Elwynn Forest"], ZONE, 12 };
+		{ BLUE.."C) "..AtlasTransLocale["Ironforge"]..", ".._RED..AtlasTransLocale["Dun Morogh"], ZONE, 1 };
 		{ BLUE..INDENT..AtlasTransLocale["Darnassus"]..", ".._RED..AtlasTransLocale["Teldrassil"], ZONE, 141 };
 		{ BLUE..INDENT..AtlasTransLocale["The Exodar"]..", ".._RED..AtlasTransLocale["Azuremyst Isle"], ZONE, 3524 };
 		{ BLUE..INDENT..AtlasTransLocale["Sun's Reach Sanctum"]..", ".._RED..AtlasTransLocale["Isle of Quel'Danas"], ZONE, 4080 };

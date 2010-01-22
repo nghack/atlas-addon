@@ -111,7 +111,7 @@ local myData = {
 		{ GREY.."3) "..AtlasTransLocale["Tranquillien"]..", ".._RED..AtlasTransLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."4) "..AtlasTransLocale["Hatchet Hills"]..", ".._RED..AtlasTransLocale["Ghostlands"], ZONE, 3433 };
 		{ GREY.."5) "..AtlasTransLocale["Light's Hope Chapel"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
-		{ GREY.."6) "..AtlasTransLocale["Thonodroril River"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
+		{ GREY.."6) "..AtlasTransLocale["Thondroril River"]..", ".._RED..AtlasTransLocale["Eastern Plaguelands"], ZONE, 139 };
 		{ GREY.."7) "..AtlasTransLocale["Bulwark"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
 		{ GREY.."8) "..AtlasTransLocale["Undercity"]..", ".._RED..AtlasTransLocale["Tirisfal Glades"], ZONE, 85 };
 		{ GREY.."9) "..AtlasTransLocale["The Sepulcher"]..", ".._RED..AtlasTransLocale["Silverpine Forest"], ZONE, 130 };

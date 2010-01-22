@@ -28,7 +28,7 @@ AtlasDLLocale = {
 	--Common
 	["Battlegrounds"] = "Schlachtfelder";
 	["Blue"] = "Blau";
-	["Dungeon Locations"] = "Instanzen-Standorte";
+	["Dungeon Locations"] = "Instanz-Standorte";
 	["Instances"] = "Instanzen";
 	["White"] = "Weiß";
 

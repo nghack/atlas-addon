@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 20.01.2010
+-- Letztes Update: 22.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -247,6 +247,7 @@ AtlasLocale = {
     	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
 	["Dire Maul"] = "Düsterbruch"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Feste Drak'Tharon";
+	["Frozen Halls"] = "Gefrorene Hallen";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Friedhof"; ["GY"] = "Friedhof";
 	["Gruul's Lair"] = "Gruuls Unterschlupf"; ["GL"] = "Gruul";
@@ -293,7 +294,6 @@ AtlasLocale = {
 	["The Eye"] = "Festung der Stürme"; ["Eye"] = "FdS";
 	["The Eye of Eternity"] = "Das Auge der Ewigkeit";
 	["The Forge of Souls"] = "Die Seelenschmiede";
-	["The Frozen Halls"] = "Die gefrorenen Hallen";
 	["The Mechanar"] = "Die Mechanar"; ["Mech"] = "Mecha";
 	["The Nexus"] = "Der Nexus";
 	["The Obsidian Sanctum"] = "Das Obsidiansanktum";
@@ -331,7 +331,7 @@ AtlasLocale = {
 	["Nax"] = "Naxx"; -- Naxxramas
 	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["Ocu"] = "Ocu"; -- Das Oculus
-	["OS"] = "OS"; -- Das Obsidiansanktum
+	["OS"] = "Obsi"; -- Das Obsidiansanktum
 	["PoS"] = "Grube"; ["FH2"] = "FH2"; -- Die Grube von Saron
 	["Strat, CoT-Strat"] = "Strat, HdZ4"; -- Das Ausmerzen Von Stratholme
 	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
@@ -1594,8 +1594,7 @@ AtlasLocale = {
 	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
 	["Martin Victus"] = "Martin Victus";
 	["Gorkun Ironskull"] = "Gorkun Eisenschädel";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Kricks Diener>";
+	["Krick and Ick"] = "Krick und Ick";
 	["Scourgelord Tyrannus"] = "Geißelfürst Tyrannus";
 	["Rimefang"] = "Raufang";
 
@@ -1604,6 +1603,7 @@ AtlasLocale = {
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Flucht vor dem Lichkönig";
+	["The Captain's Chest"] = "Die Truhe des Hauptmanns";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Kammer des schwarzen Drachenschwarms";

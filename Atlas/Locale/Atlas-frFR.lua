@@ -1514,14 +1514,14 @@ AtlasLocale = {
 	["Festergut"] = "Pulentraille";
 	["Rotface"] = "Trognepus";
 	["Professor Putricide"] = "Professeur Putricide";
-	--["Blood Prince Council"] = "Blood Prince Council";
-	--["Prince Keleseth"] = "Prince Keleseth";
-	--["Prince Taldaram"] = "Prince Taldaram";
-	--["Prince Valanar"] = "Prince Valanar";
-	--["Blood-Queen Lana'thel"] = "Blood-Queen Lana'thel";
-	--["Valithria Dreamwalker"] = "Valithria Dreamwalker";
+	["Blood Prince Council"] = "Blood Prince Council";
+	["Prince Keleseth"] = "Prince Keleseth";
+	["Prince Taldaram"] = "Prince Taldaram";
+	["Prince Valanar"] = "Prince Valanar";
+	["Blood-Queen Lana'thel"] = "Reine de sang Lana'thel";
+	["Valithria Dreamwalker"] = "Valithria Marcherêve";
 	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Reine des Couvegivres>";
-	--["The Lich King"] = "The Lich King";
+	["The Lich King"] = "The Lich King";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "M. Bigglesworth";

@@ -11,7 +11,7 @@
 ## Version: 1.16.0
 ## X-Date: January, 2010
 ## Author: Dan Gilbert
-## X-Email: loglow@gmail.com
+## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## X-OptionsFrame: AtlasOptionsFrame

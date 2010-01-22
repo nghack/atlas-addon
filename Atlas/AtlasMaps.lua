@@ -2260,7 +2260,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["The Black Knight"], NPC, 35451 };
 	};
 	FHTheForgeOfSouls = {
-		ZoneName = { AtlasLocale["The Frozen Halls"]..": [A] "..AtlasLocale["The Forge of Souls"], 4809 };
+		ZoneName = { AtlasLocale["Frozen Halls"]..": "..AtlasLocale["The Forge of Souls"], 4809 };
 		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2279,7 +2279,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Devourer of Souls"], NPC, 36502 };
 	};
 	FHPitOfSaron = {
-		ZoneName = { AtlasLocale["The Frozen Halls"]..": [B] "..AtlasLocale["Pit of Saron"], 4813 };
+		ZoneName = { AtlasLocale["Frozen Halls"]..": "..AtlasLocale["Pit of Saron"], 4813 };
 		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2298,13 +2298,12 @@ AtlasMaps = {
 		{ GREY.."2) "..AtlasLocale["Forgemaster Garfrost"], NPC, 36494 };
 		{ GREY..INDENT..AtlasLocale["Martin Victus"].." ("..AtlasLocale["Alliance"]..")", NPC, 37591 };
 		{ GREY..INDENT..AtlasLocale["Gorkun Ironskull"].." ("..AtlasLocale["Horde"]..")", NPC, 37592 };
-		{ GREY.."3) "..AtlasLocale["Krick"], NPC, 36477 };
-		{ GREY..INDENT..AtlasLocale["Ick <Krick's Minion>"], NPC, 36476 };
+		{ GREY.."3) "..AtlasLocale["Krick and Ick"], NPC, 36477 };
 		{ GREY.."4) "..AtlasLocale["Scourgelord Tyrannus"], NPC, 36658 };
 		{ GREY..INDENT..AtlasLocale["Rimefang"], NPC, 36661 };
 	};	
 	FHHallsOfReflection = {
-		ZoneName = { AtlasLocale["The Frozen Halls"]..": [C] "..AtlasLocale["Halls of Reflection"], 4820 };
+		ZoneName = { AtlasLocale["Frozen Halls"]..": "..AtlasLocale["Halls of Reflection"], 4820 };
 		Location = { AtlasLocale["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2320,10 +2319,11 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Dark Ranger Loralen"].." ("..AtlasLocale["Horde"]..")", NPC, 37779 };
 		{ GREY.."2) "..AtlasLocale["Falric"], NPC, 38112 };
 		{ GREY.."3) "..AtlasLocale["Marwyn"], NPC, 38113 };
-		{ GREY.."4) "..AtlasLocale["Wrath of the Lich King"], NPC, 37226 };
+		{ GREY.."4) "..AtlasLocale["Wrath of the Lich King"].." ("..AtlasLocale["Event"]..")", NPC, 37226 };
+		{ GREY..INDENT..AtlasLocale["The Captain's Chest"], OBJECT, 201710 };
 	};
 	IcecrownCitadelA = {
-		ZoneName = { AtlasLocale["Icecrown Citadel"].." [A]", 4812 };
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [A] ("..AtlasLocale["Lower"]..")", 4812 };
 		Location = { AtlasLocale["Icecrown"], 210 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2335,11 +2335,12 @@ AtlasMaps = {
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Lord Marrowgar"], NPC, 36612 };
 		{ GREY.."2) "..AtlasLocale["Lady Deathwhisper"], NPC, 36855 };
-		{ GREY.."3) "..AtlasLocale["Gunship Battle"], OBJECT, 201873 };
-		{ GREY..INDENT..AtlasLocale["Deathbringer Saurfang"], NPC, 37813 };
+		{ GREY.."3) "..AtlasLocale["Gunship Battle"].." ("..AtlasLocale["Alliance"]..")", OBJECT, 201873 };
+		{ GREY.."4) "..AtlasLocale["Gunship Battle"].." ("..AtlasLocale["Horde"]..")", OBJECT, 201873 };
+		{ GREY.."5) "..AtlasLocale["Deathbringer Saurfang"], NPC, 37813 };
 	};
 	IcecrownCitadelB = {
-		ZoneName = { AtlasLocale["Icecrown Citadel"].." [B]", 4812 };
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [B] ("..AtlasLocale["Upper"]..")", 4812 };
 		Location = { AtlasLocale["Icecrown"], 210 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2348,19 +2349,19 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."C-H) "..AtlasLocale["Connection"] };
-		{ GREY.."4) "..AtlasLocale["Festergut"], NPC, 36626 };
-		{ GREY.."5) "..AtlasLocale["Rotface"], NPC, 36627 };
-		{ GREY.."6) "..AtlasLocale["Professor Putricide"], NPC, 36678 };
-		{ GREY.."7) "..AtlasLocale["Blood Prince Council"] };
+		{ GREY.."6) "..AtlasLocale["Festergut"], NPC, 36626 };
+		{ GREY.."7) "..AtlasLocale["Rotface"], NPC, 36627 };
+		{ GREY.."8) "..AtlasLocale["Professor Putricide"], NPC, 36678 };
+		{ GREY.."9) "..AtlasLocale["Blood Prince Council"] };
 		{ GREY..INDENT..AtlasLocale["Prince Keleseth"], NPC, 37972 };
 		{ GREY..INDENT..AtlasLocale["Prince Taldaram"], NPC, 37973 };
 		{ GREY..INDENT..AtlasLocale["Prince Valanar"], NPC, 37970 };
-		{ GREY.."8) "..AtlasLocale["Blood-Queen Lana'thel"], NPC, 38004 };
-		{ GREY.."9) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
-		{ GREY.."10) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
+		{ GREY.."10) "..AtlasLocale["Blood-Queen Lana'thel"], NPC, 38004 };
+		{ GREY.."11) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
+		{ GREY.."12) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
 	};
 	IcecrownCitadelC = {
-		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C]", 4812 };
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C] ("..AtlasLocale["Boss"]..")", 4812 };
 		Location = { AtlasLocale["Icecrown"], 210 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2368,6 +2369,6 @@ AtlasMaps = {
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
-		{ GREY.."11) "..AtlasLocale["The Lich King"], NPC, 29983 };
+		{ GREY.."13) "..AtlasLocale["The Lich King"], NPC, 29983 };
 	};
 };

@@ -241,6 +241,7 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "Crusaders' Coliseum";
 	["Dire Maul"] = "Dire Maul"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Drak'Tharon Keep";
+	["Frozen Halls"] = "Frozen Halls";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Graveyard"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Gruul's Lair"; ["GL"] = "GL";
@@ -287,7 +288,6 @@ AtlasLocale = {
 	["The Eye"] = "The Eye"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "The Eye of Eternity";
 	["The Forge of Souls"] = "The Forge of Souls";
-	["The Frozen Halls"] = "The Frozen Halls";
 	["The Mechanar"] = "The Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "The Nexus";
 	["The Obsidian Sanctum"] = "The Obsidian Sanctum";
@@ -1588,8 +1588,7 @@ AtlasLocale = {
 	["Forgemaster Garfrost"] = "Forgemaster Garfrost";
 	["Martin Victus"] = "Martin Victus";
 	["Gorkun Ironskull"] = "Gorkun Ironskull";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Krick's Minion>";
+	["Krick and Ick"] = "Krick and Ick";
 	["Scourgelord Tyrannus"] = "Scourgelord Tyrannus";
 	["Rimefang"] = "Rimefang";
 
@@ -1598,6 +1597,7 @@ AtlasLocale = {
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Wrath of the Lich King";
+	["The Captain's Chest"] = "The Captain's Chest";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Black Dragonflight Chamber";

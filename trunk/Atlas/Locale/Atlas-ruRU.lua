@@ -241,6 +241,7 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "Колизей Авангарда";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "ЗГ";
 	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";
+    ["Frozen Halls"] = "Ледяные залы";
 	["Gnomeregan"] = "Гномреган"; ["Gnome"] = "Гном";
 	["Graveyard"] = "Кладбище"; ["GY"] = "Кл";
 	["Gruul's Lair"] = "Логово Груула"; ["GL"] = "Груль";
@@ -287,7 +288,6 @@ AtlasLocale = {
 	["The Eye"] = "Око"; ["Eye"] = "Око";
 	["The Eye of Eternity"] = "Око Вечности";
 	["The Forge of Souls"] = "Кузня Душ"; ["FoS"] = "Кузня Душ";
-	["The Frozen Halls"] = "Ледяные залы";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Мех";
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";
@@ -1575,8 +1575,8 @@ AtlasLocale = {
 
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	["Archmage Koreln <Kirin Tor>"] = "Archmage Koreln <Кирин-Тор>";
-	["Archmage Elandra <Kirin Tor>"] = "Archmage Elandra <Кирин-Тор>";
+	["Archmage Koreln <Kirin Tor>"] = "Верховный маг Корелн <Кирин-Тор>";
+	["Archmage Elandra <Kirin Tor>"] = "Верховный маг Эландра <Кирин-Тор>";
 	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Леди Сильвана Ветрокрылая";
 	["Dark Ranger Loralen"] = "Dark Ranger Loralen";
 	["Dark Ranger Kalira"] = "Dark Ranger Kalira";
@@ -1586,10 +1586,9 @@ AtlasLocale = {
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
 	["Forgemaster Garfrost"] = "Начальник кузни Гарфрост";
-	["Martin Victus"] = "Martin Victus";
+	["Martin Victus"] = "Мартин Виктус"; -- нужно проверить
 	["Gorkun Ironskull"] = "Gorkun Ironskull";
-	["Krick"] = "Крик";
-	["Ick <Krick's Minion>"] = "Ик <Прислужник Крика>";
+	["Krick and Ick"] = "Ик и Крик";
 	["Scourgelord Tyrannus"] = "Повелитель Плети Тираний";
 	["Rimefang"] = "Иний";
 
@@ -1598,6 +1597,7 @@ AtlasLocale = {
 	["Falric"] = "Фалрик";
 	["Marwyn"] = "Марвин";
 	["Wrath of the Lich King"] = "Король-лич";
+	["The Captain's Chest"] = "Сундук капитана";
 	
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Комната черных драконов";

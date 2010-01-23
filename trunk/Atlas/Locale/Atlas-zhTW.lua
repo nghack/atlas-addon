@@ -251,8 +251,7 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC/火堡";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3/海山";
-	["Icecrown"] = "寒冰皇冠";
-	["Icecrown Citadel"] = "冰冠城塞"; ["IC"] = "IC";
+	["Icecrown Citadel"] = "冰冠城塞";
 	["Karazhan"] = "卡拉贊"; ["Kara"] = "Kara/卡拉";
 	["Library"] = "圖書館"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "博學者殿堂"; ["MT"] = "MT/博學";
@@ -260,10 +259,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "法力墓地"; ["MT"] = "MT/法力";
 	["Maraudon"] = "瑪拉頓"; ["Mara"] = "Mara/瑪拉";
 	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
-	["Naxxramas"] = "納克薩瑪斯"; ["Nax"] = "Nax";
+	["Naxxramas"] = "納克薩瑪斯";
 	["Old Hillsbrad Foothills"] = "希爾斯布萊德丘陵舊址"; ["CoT1"] = "CoT1/舊址";
 	["Onyxia's Lair"] = "奧妮克希亞的巢穴"; ["Ony"] = "Ony/黑龍";
-	["Pit of Saron"] = "薩倫之淵"; ["PoS"] = "PoS"; ["FH2"] = "FH2";
+	["Pit of Saron"] = "薩倫之淵";
 	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC/怒焰";
 	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "剃刀沼澤"; ["RFK"] = "RFK";
@@ -287,8 +286,7 @@ AtlasLocale = {
 	["The Deadmines"] = "死亡礦坑"; ["VC"] = "VC/死礦";
 	["The Eye"] = "風暴要塞"; ["Eye"] = "Eye";  --中文版裡 The Eye 名稱被刪除，以 風暴要塞 命名這個25人副本
 	["The Eye of Eternity"] = "永恆之眼";
-	["The Forge of Souls"] = "眾魂熔爐"; ["FoS"] = "FoS"; ["FH1"] = "FH1";
-	["The Frozen Halls"] = "冰封大廳";
+	["The Forge of Souls"] = "眾魂熔爐";
 	["The Mechanar"] = "麥克納爾"; ["Mech"] = "Mech/麥克";
 	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
@@ -312,22 +310,29 @@ AtlasLocale = {
 	["Zul'Gurub"] = "祖爾格拉布"; ["ZG"] = "ZG/祖爾";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN/奈幽"; -- Azjol-Nerub -- 阿茲歐-奈幽
-	["Strat, CoT-Strat"] = "CoT斯坦";
-	["DTK"] = "DTK/德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
-	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
-	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
-	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
-	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
-	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
-	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
-	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["AK, Kahet"] = "AK/安卡"; -- Ahn'kahet -- 安卡罕特
-	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
+	["AN, Nerub"] = "AN/奈幽"; -- Azjol-Nerub -- 阿茲歐-奈幽
+	["Champ"] = "Champ"; -- Trial of the Champion
+	["Crus"] = "Crus"; -- Trial of the Crusader
+	["DTK"] = "DTK/德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
+	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
+	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
+	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
+	["HoR"] = "HoR"; ["FH3"] = "FH3"; -- Halls of Reflection
+	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
+ 	["IC"] = "IC"; -- Icecrown Citadel
+	["Nax"] = "Nax"; -- Naxxramas
+	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
-	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
+	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
+	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
+	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
 	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar--奧杜亞	
+	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
+	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
+	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
 
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";
@@ -354,6 +359,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "灰白之丘";
 	["Hellfire Peninsula"] = "地獄火半島";
 	["Howling Fjord"] = "凜風峽灣";
+	["Icecrown"] = "寒冰皇冠";
 	["Isle of Quel'Danas"] = "奎爾達納斯之島";
 	["Netherstorm"] = "虛空風暴";
 	["Orgrimmar"] = "奧格瑪";

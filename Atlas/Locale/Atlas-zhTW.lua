@@ -295,7 +295,7 @@ AtlasLocale = {
 	["The Slave Pens"] = "奴隸監獄"; ["SP"] = "SP";
 	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV/蒸汽";
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
-	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
+	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB/深幽";
 	["The Violet Hold"] = "紫羅蘭堡";
 	["Trial of the Champion"] = "勇士試煉";
 	["Trial of the Crusader"] = "十字軍試煉";
@@ -315,21 +315,21 @@ AtlasLocale = {
 	["Champ"] = "勇士"; -- Trial of the Champion -- 勇士試煉
 	["Crus"] = "十字軍"; -- Trial of the Crusader --十字軍試煉
 	["DTK"] = "DTK/德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
-	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
+	["FoS"] = "FoS/熔爐"; ["FH1"] = "FH1"; -- The Forge of Souls -- 眾魂熔爐
 	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
 	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
-	["HoR"] = "HoR"; ["FH3"] = "FH3"; -- Halls of Reflection
+	["HoR"] = "HoR/倒影"; ["FH3"] = "FH3"; -- Halls of Reflection -- 倒影大廳
 	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
  	["IC"] = "IC"; -- Icecrown Citadel -- 冰冠城塞
-	["Nax"] = "Nax"; -- Naxxramas -- 納克薩瑪斯
+	["Nax"] = "Nax/納克"; -- Naxxramas -- 納克薩瑪斯
 	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
 	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
-	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
+	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron -- 薩倫之淵
+	["Strat, CoT-Strat"] = "CoT斯坦"; -- Culling of Stratholme -- 斯坦索姆的抉擇
 	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
 	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
-	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar--奧杜亞	
+	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar-- 奧杜亞
 	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
 	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
@@ -1079,9 +1079,9 @@ AtlasLocale = {
 	["Ramp to Medivh's Chamber"] = "通往麥迪文房間的斜坡";
 	["Spiral Stairs to Netherspace"] = "通往虛空空間的螺旋梯";
 	["The Curator"] = "館長";
-	["Wravien <The Mage>"] = "瑞依恩";
-	["Gradav <The Warlock>"] = "葛瑞戴";
-	["Kamsis <The Conjurer>"] = "坎希斯";
+	["Wravien <The Mage>"] = "瑞依恩 <法師>";
+	["Gradav <The Warlock>"] = "葛瑞戴 <術士>";
+	["Kamsis <The Conjurer>"] = "康席斯 <咒術師>";
 	["Terestian Illhoof"] = "泰瑞斯提安·疫蹄";
 	["Kil'rek"] = "基瑞克";
 	["Shade of Aran"] = "艾蘭之影";
@@ -1093,14 +1093,14 @@ AtlasLocale = {
 	
 	--Zul'Aman
 	["Harrison Jones"] = "哈利森·瓊斯";
-	["Nalorakk <Bear Avatar>"] = "納羅拉克";
+	["Nalorakk <Bear Avatar>"] = "納羅拉克 <熊化身>";
 	["Tanzar"] = "坦札爾";
 	["The Map of Zul'Aman"] = "祖阿曼地圖";
-	["Akil'Zon <Eagle Avatar>"] = "阿奇爾森>";
+	["Akil'Zon <Eagle Avatar>"] = "阿奇爾森 <雄鷹化身>";
 	["Harkor"] = "哈克爾";
-	["Jan'Alai <Dragonhawk Avatar>"] = "賈納雷";
+	["Jan'Alai <Dragonhawk Avatar>"] = "賈納雷 <龍鷹化身>";
 	["Kraz"] = "卡拉茲";
-	["Halazzi <Lynx Avatar>"] = "哈拉齊";
+	["Halazzi <Lynx Avatar>"] = "哈拉齊 <山貓化身>";
 	["Ashli"] = "阿西利";
 	["Zungam"] = "祖剛";
 	["Hex Lord Malacrass"] = "妖術領主瑪拉克雷斯";
@@ -1114,8 +1114,8 @@ AtlasLocale = {
 	["Koragg"] = "可拉格";
 	["Zul'jin"] = "祖爾金";
 	["Forest Frogs"] = "森林樹蛙";
-	["Kyren <Reagents>"] = "凱倫";
-	["Gunter <Food Vendor>"] = "甘特";
+	["Kyren <Reagents>"] = "凱倫 <施法材料>";
+	["Gunter <Food Vendor>"] = "甘特 <食物商人>";
 	["Adarrah"] = "阿達拉";
 	["Brennan"] = "布里納";
 	["Darwen"] = "達爾溫";
@@ -1138,12 +1138,12 @@ AtlasLocale = {
 	["Ellrys Duskhallow"] = "艾爾里斯·聖暮";
 	["Fizzle"] = "費索";
 	["Garaxxas"] = "卡拉克薩斯";
-	["Sliver <Garaxxas' Pet>"] = "割裂者";
+	["Sliver <Garaxxas' Pet>"] = "割裂者 <卡拉克薩斯的寵物>";
 	["Kagani Nightstrike"] = "卡嘉尼·夜擊";
 	["Warlord Salaris"] = "督軍沙拉利思";
 	["Yazzai"] = "耶賽";
 	["Zelfan"] = "塞爾汎";
-	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凱爾薩斯·逐日者";--omitted from TK: The Eye
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "凱爾薩斯·逐日者 <血精靈領主>";--omitted from TK: The Eye
 
 	--Sunwell Plateau
 	["Sathrovarr the Corruptor"] = "『墮落者』塞斯諾瓦";

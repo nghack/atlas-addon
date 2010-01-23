@@ -339,7 +339,7 @@ AtlasLocale = {
 	["Kalimdor"] = "Kalimdor";
 	["Northrend"] = "Northrend";
 	["Outland"] = "Outland";
-	
+
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ashenvale";
 	["Badlands"] = "Badlands";
@@ -392,7 +392,7 @@ AtlasLocale = {
 	["Jergosh the Invoker"] = "Jergosh the Invoker";
 	["Zelemar the Wrathful"] = "Zelemar the Wrathful";
 	["Bazzalan"] = "Bazzalan";
-	
+
 	--Wailing Caverns
 	["Disciple of Naralex"] = "Disciple of Naralex";
 	["Lord Cobrahn <Fanglord>"] = "Lord Cobrahn <Fanglord>";
@@ -405,7 +405,7 @@ AtlasLocale = {
 	["Mutanus the Devourer"] = "Mutanus the Devourer";
 	["Naralex"] = "Naralex";
 	["Deviate Faerie Dragon"] = "Deviate Faerie Dragon";
-	
+
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
 	["Lorgalis Manuscript"] = "Lorgalis Manuscript";
@@ -421,7 +421,7 @@ AtlasLocale = {
 	["Aku'mai"] = "Aku'mai";
 	["Morridune"] = "Morridune";
 	["Altar of the Deeps"] = "Altar of the Deeps";
-	
+
 	--Razorfen Kraul
 	["Roogug"] = "Roogug";
 	["Aggem Thorncurse <Death's Head Prophet>"] = "Aggem Thorncurse <Death's Head Prophet>";
@@ -445,7 +445,7 @@ AtlasLocale = {
 	["Ragglesnout"] = "Ragglesnout";
 	["Amnennar the Coldbringer"] = "Amnennar the Coldbringer";
 	["Plaguemaw the Rotting"] = "Plaguemaw the Rotting";
-	
+
 	--Zul'Farrak
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Overseer of Sul>";
 	["Theka the Martyr"] = "Theka the Martyr";
@@ -467,7 +467,7 @@ AtlasLocale = {
 	["Ruuzlu"] = "Ruuzlu";
 	["Zerillis"] = "Zerillis";
 	["Sandarr Dunereaver"] = "Sandarr Dunereaver";
-	
+
 	--Maraudon	
 	["Scepter of Celebras"] = "Scepter of Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <The Fifth Khan>";
@@ -482,7 +482,7 @@ AtlasLocale = {
 	["Rotgrip"] = "Rotgrip";
 	["Princess Theradras"] = "Princess Theradras";
 	["Elder Splitrock"] = "Elder Splitrock";
-	
+
 	--Dire Maul (East)
 	["Pusillin"] = "Pusillin";
 	["Zevrim Thornhoof"] = "Zevrim Thornhoof";
@@ -492,7 +492,7 @@ AtlasLocale = {
 	["Old Ironbark"] = "Old Ironbark";
 	["Alzzin the Wildshaper"] = "Alzzin the Wildshaper";
 	["Isalien"] = "Isalien";
-	
+
 	--Dire Maul (North)
 	["Crescent Key"] = "Crescent Key";--omitted from Dire Maul (West)
 	--"Library" omitted from here and DM West because of SM: "Library" duplicate
@@ -525,7 +525,7 @@ AtlasLocale = {
 	["Lorekeeper Mykos"] = "Lorekeeper Mykos";
 	["Shen'dralar Provisioner"] = "Shen'dralar Provisioner";
 	["Skeletal Remains of Kariel Winthalus"] = "Skeletal Remains of Kariel Winthalus";
-	
+
 	--Onyxia's Lair
 	["Onyxian Warders"] = "Onyxian Warders";
 	["Whelp Eggs"] = "Whelp Eggs";
@@ -554,7 +554,7 @@ AtlasLocale = {
 	["Arygos"] = "Arygos";
 	["Caelestrasz"] = "Caelestrasz";
 	["Merithra of the Dream"] = "Merithra of the Dream";
-	
+
 	--Ruins of Ahn'Qiraj
 	["Cenarion Circle"] = "Cenarion Circle";
 	["Kurinnaxx"] = "Kurinnaxx";
@@ -656,11 +656,11 @@ AtlasLocale = {
 	["Young Blanchy"] = "Young Blanchy";
 	["Don Carlos"] = "Don Carlos";
 	["Guerrero"] = "Guerrero";
-	
+
 --****************************
 -- Eastern Kingdoms Instances
 --****************************
-	
+
 	--Blackrock Depths
 	["Shadowforge Key"] = "Shadowforge Key";
 	["Prison Cell Key"] = "Prison Cell Key";
@@ -769,7 +769,7 @@ AtlasLocale = {
 	["Finkle Einhorn"] = "Finkle Einhorn";
 	["General Drakkisath"] = "General Drakkisath";
 	["Drakkisath's Brand"] = "Drakkisath's Brand";
-	
+
 	--Blackwing Lair
 	["Razorgore the Untamed"] = "Razorgore the Untamed";
 	["Vaelastrasz the Corrupt"] = "Vaelastrasz the Corrupt";
@@ -781,7 +781,7 @@ AtlasLocale = {
 	["Flamegor"] = "Flamegor";
 	["Chromaggus"] = "Chromaggus";
 	["Nefarian"] = "Nefarian";
-	
+
 	--Gnomeregan
 	["Workshop Key"] = "Workshop Key";
 	["Blastmaster Emi Shortfuse"] = "Blastmaster Emi Shortfuse";
@@ -801,7 +801,7 @@ AtlasLocale = {
 	["Matrix Punchograph 3005-D"] = "Matrix Punchograph 3005-D";
 	["Dark Iron Ambassador"] = "Dark Iron Ambassador";
 	["Mekgineer Thermaplugg"] = "Mekgineer Thermaplugg";
-	
+
 	--Molten Core
 	["Hydraxian Waterlords"] = "Hydraxian Waterlords";
 	["Lucifron"] = "Lucifron";
@@ -837,7 +837,7 @@ AtlasLocale = {
 	["Ironspine"] = "Ironspine";
 	["Azshir the Sleepless"] = "Azshir the Sleepless";
 	["Fallen Champion"] = "Fallen Champion";
-	
+
 	--Scholomance
 	["Skeleton Key"] = "Skeleton Key";
 	["Viewing Room Key"] = "Viewing Room Key";
@@ -867,7 +867,7 @@ AtlasLocale = {
 	["Torch Lever"] = "Torch Lever";
 	["Secret Chest"] = "Secret Chest";
 	["Alchemy Lab"] = "Alchemy Lab";
-	
+
 	--Shadowfang Keep
 	["Deathsworn Captain"] = "Deathsworn Captain";
 	["Rethilgore <The Cell Keeper>"] = "Rethilgore <The Cell Keeper>";
@@ -941,7 +941,7 @@ AtlasLocale = {
 	["Edwin VanCleef <Defias Kingpin>"] = "Edwin VanCleef <Defias Kingpin>";
 	["Mr. Smite <The Ship's First Mate>"] = "Mr. Smite <The Ship's First Mate>";
 	["Cookie <The Ship's Cook>"] = "Cookie <The Ship's Cook>";
-	
+
 	--The Stockade
 	["Targorr the Dread"] = "Targorr the Dread";
 	["Kam Deepfury"] = "Kam Deepfury";
@@ -974,7 +974,7 @@ AtlasLocale = {
 	["Spawn of Hakkar"] = "Spawn of Hakkar";
 	["Elder Starsong"] = "Elder Starsong";
 	["Statue Activation Order"] = "Statue Activation Order";
-	
+
 	--Uldaman
 	["Staff of Prehistoria"] = "Staff of Prehistoria";
 	["Baelog"] = "Baelog";
@@ -995,7 +995,7 @@ AtlasLocale = {
 	["Archaedas <Ancient Stone Watcher>"] = "Archaedas <Ancient Stone Watcher>";
 	["The Discs of Norgannon"] = "The Discs of Norgannon";
 	["Ancient Treasure"] = "Ancient Treasure";
-	
+
 	--Zul'Gurub
 	["Zandalar Tribe"] = "Zandalar Tribe";
 	["Mudskunk Lure"] = "Mudskunk Lure";
@@ -1019,7 +1019,7 @@ AtlasLocale = {
 	["Jin'do the Hexxer"] = "Jin'do the Hexxer";
 	["Hakkar"] = "Hakkar";
 	["Muddy Churning Waters"] = "Muddy Churning Waters";
-	
+
 	--Karazhan Start
 	["The Violet Eye"] = "The Violet Eye";--omitted from Karazhan End
 	["The Master's Key"] = "The Master's Key";--omitted from Karazhan End
@@ -1068,7 +1068,7 @@ AtlasLocale = {
 	["Julianne"] = "Julianne";
 	["The Master's Terrace"] = "The Master's Terrace";
 	["Nightbane"] = "Nightbane";
-	
+
 	--Karazhan End
 	["Broken Stairs"] = "Broken Stairs";
 	["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
@@ -1090,7 +1090,7 @@ AtlasLocale = {
 	["Echo of Medivh"] = "Echo of Medivh";
 	["Dust Covered Chest"] = "Dust Covered Chest";
 	["Prince Malchezaar"] = "Prince Malchezaar";
-	
+
 	--Zul'Aman
 	["Harrison Jones"] = "Harrison Jones";
 	["Nalorakk <Bear Avatar>"] = "Nalorakk <Bear Avatar>";
@@ -1123,7 +1123,7 @@ AtlasLocale = {
 	["Galathryn"] = "Galathryn";
 	["Mitzi"] = "Mitzi";
 	["Mannuth"] = "Mannuth";
-	
+
 	--Magisters Terrace
 	["Shattered Sun Offensive"] = "Shattered Sun Offensive";
 	["Selin Fireheart"] = "Selin Fireheart";
@@ -1156,13 +1156,13 @@ AtlasLocale = {
 	["M'uru"] = "M'uru";
 	["Entropius"] = "Entropius";
 	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <The Deceiver>";
-	
+
 --*******************
 -- Outland Instances
 --*******************
-	
+
 	--HFC: The Blood Furnace
-	["Thrallmar"] = "Thrallmar";--omitted from other HFC
+	["Thrallmar"] = "Thrallmar"; --omitted from other HFC
 	["Honor Hold"] = "Honor Hold";--omitted from other HFC
 	["Flamewrought Key"] = "Flamewrought Key";--omitted from other HFC
 	["The Maker"] = "The Maker";
@@ -1709,7 +1709,7 @@ AtlasLocale = {
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
 	["Prison of Yogg-Saron"] = "Prison of Yogg-Saron";
-	
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
 	["Dalronn the Controller"] = "Dalronn the Controller";
@@ -1729,4 +1729,4 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
 	["Koralon the Flame Watcher"] = "Koralon the Flame Watcher";
 	["Toravon the Ice Watcher"] = "Toravon the Ice Watcher";
-};
+}

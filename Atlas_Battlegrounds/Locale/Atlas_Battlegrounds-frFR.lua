@@ -60,17 +60,6 @@ AtlasBGLocale = {
 	["The Barrens"] = "Les Tarides";
 	["Warsong Gulch"] = "Goulet des Chanteguerres"; ["WSG"] = "WSG/Goulet";
 
-	--Arathi Basin
-	["The Defilers"] = "Les Profanateurs";
-	["The League of Arathor"] = "La Ligue d'Arathor";
-	["Trollbane Hall"] = "Manoir de Trollemort";
-	["Defiler's Den"] = "L'antre des Profanateurs";
-	["Stables"] = "Ecuries";
-	["Gold Mine"] = "Mine";
-	["Smithy"] = "Forge";
-	["Lumber Mill"] = "Scierie";
-	["Farm"] = "Ferme";
-
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Garde Foudrepique";
 	["Dun Baldar"] = "Dun Baldar";
@@ -164,6 +153,17 @@ AtlasBGLocale = {
 	["Frostwolf Relief Hut"] = "Hutte de guérison Loup-de-givre";
 	["Wildpaw Cavern"] = "Caverne des Follepatte";
 	["Frostwolf Banner"] = "Bannière Loup-de-givre";
+
+	--Arathi Basin
+	["The Defilers"] = "Les Profanateurs";
+	["The League of Arathor"] = "La Ligue d'Arathor";
+	["Trollbane Hall"] = "Manoir de Trollemort";
+	["Defiler's Den"] = "L'antre des Profanateurs";
+	["Stables"] = "Ecuries";
+	["Gold Mine"] = "Mine";
+	["Smithy"] = "Forge";
+	["Lumber Mill"] = "Scierie";
+	["Farm"] = "Ferme";
 
 	--Eye of the Storm
 	["Graveyard"] = "Cimetière";

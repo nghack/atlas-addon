@@ -240,13 +240,14 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "銀白大競技場";
 	["Dire Maul"] = "厄運之槌"; ["DM"] = "DM/厄運";
 	["Drak'Tharon Keep"] = "德拉克薩隆要塞";
+	["Frozen Halls"] = "冰封大廳";
 	["Gnomeregan"] = "諾姆瑞根"; ["Gnome"] = "Gnome/諾姆";
 	["Graveyard"] = "墓園"; ["GY"] = "GY";
 	["Gruul's Lair"] = "戈魯爾之巢"; ["GL"] = "GL/戈魯爾";
 	["Gundrak"] = "剛德拉克";
-	["Halls of Stone"] = "石之大廳";
 	["Halls of Lightning"] = "雷光大廳";
-	["Halls of Reflection"] = "倒影大廳"; ["HoR"] = "HoR"; ["FH3"] = "FH3";
+	["Halls of Reflection"] = "倒影大廳";
+	["Halls of Stone"] = "石之大廳";
 	["Hellfire Citadel"] = "地獄火堡壘"; ["HFC"] = "HFC/火堡";
 	["Hellfire Ramparts"] = "地獄火壁壘"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加爾山"; ["CoT3"] = "CoT3/海山";
@@ -1499,6 +1500,7 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "『兇猛』埃克";
 
 	--Icecrown Citadel
+	["The Ashen Verdict"] = "灰燼裁決軍";
 	["Lord Marrowgar"] = "瑪洛嘉領主";
 	["Lady Deathwhisper"] = "亡語女士";
 	["Gunship Battle"] = "砲艇戰";
@@ -1589,6 +1591,7 @@ AtlasLocale = {
 	["Falric"] = "法勒瑞克";
 	["Marwyn"] = "麥爾溫";
 	["Wrath of the Lich King"] = "巫妖王之怒";
+	["The Captain's Chest"] = "船長的箱子";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "黑龍軍團密室";

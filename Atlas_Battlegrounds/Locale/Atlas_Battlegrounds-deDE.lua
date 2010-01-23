@@ -165,12 +165,6 @@ AtlasBGLocale = {
 	["Lumber Mill"] = "Sägewerk";
 	["Farm"] = "Hof";
 
-	--Warsong Gulch
-	["Warsong Outriders"] = "Kriegshymnenklan";
-	["Silverwing Sentinels"] = "Schildwachen der Silberschwingen";
-	["Silverwing Hold"] = "Feste der Silberschwingen";
-	["Warsong Lumber Mill"] = "Sägewerk des Kriegshymnenklans";
-
 	--Eye of the Storm
 	["Graveyard"] = "Friedhof";
 	["Flag"] = "Flagge";
@@ -179,17 +173,7 @@ AtlasBGLocale = {
 	["Fel Reaver Ruins"] = "Teufelshäscherruinen";
 	["Blood Elf Tower"] = "Blutelfenturm";
 
-	--Strand of the Ancients
-	["Attacking Team"] = "Angreifende Fraktion";
-	["Defending Team"] = "Verteidigende Fraktion";
-	["Massive Seaforium Charge"] = "Massive Zephyriumladung";
-	["Battleground Demolisher"] = "Schlachtfeldverwüster";
-	["Resurrection Point"] = "Wiederbelebungspunkt";
-	["Graveyard Flag"] = "Friedhofflagge";
-	["Titan Relic"] = "Relikt der Titanen";
-	["Gates are marked with their colors."] = "Tore sind in ihren Farben eingezeichnet.";
-    
-    	--Isle of Conquest
+	--Isle of Conquest
     	["The Refinery"] = "Die Raffinerie";
     	["The Docks"] = "Die Docks";
     	["The Workshop"] = "Die Belagerungswerkstatt";
@@ -201,6 +185,22 @@ AtlasBGLocale = {
     	["Gates are marked with red bars."] = "Tore sind mit roten Balken makiert.";
     	["Overlord Agmar"] = "Oberanführer Agmar";
     	["High Commander Halford Wyrmbane <7th Legion>"] = "Hochkommandant Halford Wyrmbann <7. Legion>";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "Angreifende Fraktion";
+	["Defending Team"] = "Verteidigende Fraktion";
+	["Massive Seaforium Charge"] = "Massive Zephyriumladung";
+	["Battleground Demolisher"] = "Schlachtfeldverwüster";
+	["Resurrection Point"] = "Wiederbelebungspunkt";
+	["Graveyard Flag"] = "Friedhofflagge";
+	["Titan Relic"] = "Relikt der Titanen";
+	["Gates are marked with their colors."] = "Tore sind in ihren Farben eingezeichnet.";
+
+	--Warsong Gulch
+	["Warsong Outriders"] = "Kriegshymnenklan";
+	["Silverwing Sentinels"] = "Schildwachen der Silberschwingen";
+	["Silverwing Hold"] = "Feste der Silberschwingen";
+	["Warsong Lumber Mill"] = "Sägewerk des Kriegshymnenklans";
 
 };
 

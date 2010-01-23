@@ -58,17 +58,6 @@ AtlasBGLocale = {
 	["The Barrens"] = "The Barrens";
 	["Warsong Gulch"] = "Warsong Gulch"; ["WSG"] = "WSG";
 
-	--Arathi Basin
-	["The Defilers"] = "The Defilers";
-	["The League of Arathor"] = "The League of Arathor";
-	["Trollbane Hall"] = "Trollbane Hall";
-	["Defiler's Den"] = "Defiler's Den";
-	["Stables"] = "Stables";
-	["Gold Mine"] = "Gold Mine";
-	["Smithy"] = "Smithy";
-	["Lumber Mill"] = "Lumber Mill";
-	["Farm"] = "Farm";
-
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Stormpike Guard";
 	["Dun Baldar"] = "Dun Baldar";
@@ -162,6 +151,17 @@ AtlasBGLocale = {
 	["Frostwolf Relief Hut"] = "Frostwolf Relief Hut";
 	["Wildpaw Cavern"] = "Wildpaw Cavern";
 	["Frostwolf Banner"] = "Frostwolf Banner";
+
+	--Arathi Basin
+	["The Defilers"] = "The Defilers";
+	["The League of Arathor"] = "The League of Arathor";
+	["Trollbane Hall"] = "Trollbane Hall";
+	["Defiler's Den"] = "Defiler's Den";
+	["Stables"] = "Stables";
+	["Gold Mine"] = "Gold Mine";
+	["Smithy"] = "Smithy";
+	["Lumber Mill"] = "Lumber Mill";
+	["Farm"] = "Farm";
 
 	--Eye of the Storm
 	["Graveyard"] = "Graveyard";

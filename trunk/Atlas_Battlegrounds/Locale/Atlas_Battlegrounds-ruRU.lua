@@ -174,12 +174,6 @@ AtlasBGLocale = {
 	["Lumber Mill"] = "Лесопилка";
 	["Farm"] = "Ферма";
 
-	--Warsong Gulch
-	["Warsong Outriders"] = "Всадники Песни Войны";
-	["Silverwing Sentinels"] = "Среброкрылые Часовые";
-	["Silverwing Hold"] = "Крепость Среброкрылых";
-	["Warsong Lumber Mill"] = "Лесопилка Песни Войны";
-
 	--Eye of the Storm
 	["Graveyard"] = "Кладбище";
 	["Flag"] = "Флаг";
@@ -187,16 +181,6 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Дренейские руины";
 	["Fel Reaver Ruins"] = "Обломки Скверномора";
 	["Blood Elf Tower"] = "Башня Эльфов Крови";
-	
-	--Strand of the Ancients
-	["Attacking Team"] = "Группа штурма";
-	["Defending Team"] = "Группа защиты";
-	["Massive Seaforium Charge"] = "Сверхмощный сефориевый заряд";
-	["Battleground Demolisher"] = "Разрушитель";
-	["Resurrection Point"] = "Точки воскрешения";
-	["Graveyard Flag"] = "Кладбище";
-	["Titan Relic"] = "Реликвия титанов";
-	["Gates are marked with their colors."] = "Ворота, отмечены их цветами.";
 	
 	--Isle of Conquest
 	["The Refinery"] = "Нефтезавод";
@@ -210,6 +194,22 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Ворота помечены красным.";
 	["Overlord Agmar"] = "Командир Агмар";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Главнокомандующий Халфорд Змеевержец <7-й легион>";
+	
+	--Strand of the Ancients
+	["Attacking Team"] = "Группа штурма";
+	["Defending Team"] = "Группа защиты";
+	["Massive Seaforium Charge"] = "Сверхмощный сефориевый заряд";
+	["Battleground Demolisher"] = "Разрушитель";
+	["Resurrection Point"] = "Точки воскрешения";
+	["Graveyard Flag"] = "Кладбище";
+	["Titan Relic"] = "Реликвия титанов";
+	["Gates are marked with their colors."] = "Ворота, отмечены их цветами.";
+	
+	--Warsong Gulch
+	["Warsong Outriders"] = "Всадники Песни Войны";
+	["Silverwing Sentinels"] = "Среброкрылые Часовые";
+	["Silverwing Hold"] = "Крепость Среброкрылых";
+	["Warsong Lumber Mill"] = "Лесопилка Песни Войны";
 
 };
 

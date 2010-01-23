@@ -1520,7 +1520,7 @@ AtlasLocale = {
 	["Blood-Queen Lana'thel"] = "Reine de sang Lana'thel";
 	["Valithria Dreamwalker"] = "Valithria Marcherêve";
 	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Reine des Couvegivres>";
-	["The Lich King"] = "The Lich King";
+	["The Lich King"] = "Le roi-liche";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "M. Bigglesworth";

@@ -59,7 +59,18 @@ AtlasBGLocale = {
 	["Strand of the Ancients"] = "Rivage des Anciens"; ["SotA"] = "RdA";
 	["The Barrens"] = "Les Tarides";
 	["Warsong Gulch"] = "Goulet des Chanteguerres"; ["WSG"] = "WSG/Goulet";
-	
+
+	--Arathi Basin
+	["The Defilers"] = "Les Profanateurs";
+	["The League of Arathor"] = "La Ligue d'Arathor";
+	["Trollbane Hall"] = "Manoir de Trollemort";
+	["Defiler's Den"] = "L'antre des Profanateurs";
+	["Stables"] = "Ecuries";
+	["Gold Mine"] = "Mine";
+	["Smithy"] = "Forge";
+	["Lumber Mill"] = "Scierie";
+	["Farm"] = "Ferme";
+
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Garde Foudrepique";
 	["Dun Baldar"] = "Dun Baldar";
@@ -154,23 +165,6 @@ AtlasBGLocale = {
 	["Wildpaw Cavern"] = "Caverne des Follepatte";
 	["Frostwolf Banner"] = "Bannière Loup-de-givre";
 
-	--Arathi Basin
-	["The Defilers"] = "Les Profanateurs";
-	["The League of Arathor"] = "La Ligue d'Arathor";
-	["Trollbane Hall"] = "Manoir de Trollemort";
-	["Defiler's Den"] = "L'antre des Profanateurs";
-	["Stables"] = "Ecuries";
-	["Gold Mine"] = "Mine";
-	["Smithy"] = "Forge";
-	["Lumber Mill"] = "Scierie";
-	["Farm"] = "Ferme";
-
-	--Warsong Gulch
-	["Warsong Outriders"] = "Voltigeurs Chanteguerre";
-	["Silverwing Sentinels"] = "Sentinelles d'Aile-argent";
-	["Silverwing Hold"] = "Fort d'Aile-argent";
-	["Warsong Lumber Mill"] = "Scierie des Chanteguerre";
-
 	--Eye of the Storm
 	["Graveyard"] = "Cimetière";
 	["Flag"] = "Drapeau";
@@ -179,16 +173,6 @@ AtlasBGLocale = {
 	["Fel Reaver Ruins"] = "Ruines des saccageurs gangrenés";
 	["Blood Elf Tower"] = "Tour des elfes de sang";
 
-	--Strand of the Ancients
-	["Attacking Team"] = "Equipe en attaque";
-	["Defending Team"] = "Equipe en défense";
-	["Massive Seaforium Charge"] = "Charge d'hydroglycérine massive";
-	["Battleground Demolisher"] = "Démolisseur de champ de bataille";
-	["Resurrection Point"] = "Point de résurrection";
-	["Graveyard Flag"] = "Drapeau de cimetière";
-	["Titan Relic"] = "Relique des titans";
-	["Gates are marked with their colors."] = "Les portes sont marquées avec leur couleur.";
-	
 	--Isle of Conquest
 	["The Refinery"] = "Raffinerie";
 	["The Docks"] = "Docks";
@@ -201,5 +185,21 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Les portes sont marquées par des barres rouges.";
 	["Overlord Agmar"] = "Seigneur Agmar";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Haut commandant Halford Verroctone <7e Légion>";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "Equipe en attaque";
+	["Defending Team"] = "Equipe en défense";
+	["Massive Seaforium Charge"] = "Charge d'hydroglycérine massive";
+	["Battleground Demolisher"] = "Démolisseur de champ de bataille";
+	["Resurrection Point"] = "Point de résurrection";
+	["Graveyard Flag"] = "Drapeau de cimetière";
+	["Titan Relic"] = "Relique des titans";
+	["Gates are marked with their colors."] = "Les portes sont marquées avec leur couleur.";
+
+	--Warsong Gulch
+	["Warsong Outriders"] = "Voltigeurs Chanteguerre";
+	["Silverwing Sentinels"] = "Sentinelles d'Aile-argent";
+	["Silverwing Hold"] = "Fort d'Aile-argent";
+	["Warsong Lumber Mill"] = "Scierie des Chanteguerre";
 };
 end

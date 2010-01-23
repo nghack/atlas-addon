@@ -38,7 +38,7 @@ AtlasBGLocale = {
 	["Start"] = "Start";
 	["Summon"] = "Summon";
 	["White"] = "White";
-	
+
 	--Places
 	["Alterac Mountains"] = "Alterac Mountains";
 	["Alterac Valley"] = "Alterac Valley"; ["AV"] = "AV";
@@ -57,7 +57,18 @@ AtlasBGLocale = {
 	["Strand of the Ancients"] = "Strand of the Ancients"; ["SotA"] = "SotA";
 	["The Barrens"] = "The Barrens";
 	["Warsong Gulch"] = "Warsong Gulch"; ["WSG"] = "WSG";
-	
+
+	--Arathi Basin
+	["The Defilers"] = "The Defilers";
+	["The League of Arathor"] = "The League of Arathor";
+	["Trollbane Hall"] = "Trollbane Hall";
+	["Defiler's Den"] = "Defiler's Den";
+	["Stables"] = "Stables";
+	["Gold Mine"] = "Gold Mine";
+	["Smithy"] = "Smithy";
+	["Lumber Mill"] = "Lumber Mill";
+	["Farm"] = "Farm";
+
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Stormpike Guard";
 	["Dun Baldar"] = "Dun Baldar";
@@ -152,23 +163,6 @@ AtlasBGLocale = {
 	["Wildpaw Cavern"] = "Wildpaw Cavern";
 	["Frostwolf Banner"] = "Frostwolf Banner";
 
-	--Arathi Basin
-	["The Defilers"] = "The Defilers";
-	["The League of Arathor"] = "The League of Arathor";
-	["Trollbane Hall"] = "Trollbane Hall";
-	["Defiler's Den"] = "Defiler's Den";
-	["Stables"] = "Stables";
-	["Gold Mine"] = "Gold Mine";
-	["Smithy"] = "Smithy";
-	["Lumber Mill"] = "Lumber Mill";
-	["Farm"] = "Farm";
-
-	--Warsong Gulch
-	["Warsong Outriders"] = "Warsong Outriders";
-	["Silverwing Sentinels"] = "Silverwing Sentinels";
-	["Silverwing Hold"] = "Silverwing Hold";
-	["Warsong Lumber Mill"] = "Warsong Lumber Mill";
-
 	--Eye of the Storm
 	["Graveyard"] = "Graveyard";
 	["Flag"] = "Flag";
@@ -176,17 +170,7 @@ AtlasBGLocale = {
 	["Draenei Ruins"] = "Draenei Ruins";
 	["Fel Reaver Ruins"] = "Fel Reaver Ruins";
 	["Blood Elf Tower"] = "Blood Elf Tower";
-	
-	--Strand of the Ancients
-	["Attacking Team"] = "Attacking Team";
-	["Defending Team"] = "Defending Team";
-	["Massive Seaforium Charge"] = "Massive Seaforium Charge";
-	["Battleground Demolisher"] = "Battleground Demolisher";
-	["Resurrection Point"] = "Resurrection Point";
-	["Graveyard Flag"] = "Graveyard Flag";
-	["Titan Relic"] = "Titan Relic";
-	["Gates are marked with their colors."] = "Gates are marked with their colors.";
-	
+
 	--Isle of Conquest
 	["The Refinery"] = "The Refinery";
 	["The Docks"] = "The Docks";
@@ -199,4 +183,20 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Gates are marked with red bars.";
 	["Overlord Agmar"] = "Overlord Agmar";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "High Commander Halford Wyrmbane <7th Legion>";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "Attacking Team";
+	["Defending Team"] = "Defending Team";
+	["Massive Seaforium Charge"] = "Massive Seaforium Charge";
+	["Battleground Demolisher"] = "Battleground Demolisher";
+	["Resurrection Point"] = "Resurrection Point";
+	["Graveyard Flag"] = "Graveyard Flag";
+	["Titan Relic"] = "Titan Relic";
+	["Gates are marked with their colors."] = "Gates are marked with their colors.";
+
+	--Warsong Gulch
+	["Warsong Outriders"] = "Warsong Outriders";
+	["Silverwing Sentinels"] = "Silverwing Sentinels";
+	["Silverwing Hold"] = "Silverwing Hold";
+	["Warsong Lumber Mill"] = "Warsong Lumber Mill";
 };

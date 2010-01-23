@@ -1587,8 +1587,7 @@ AtlasLocale = {
 	["Forgemaster Garfrost"] = "鍛造大師加弗羅斯";
 	["Martin Victus"] = "馬汀·維特斯";
 	["Gorkun Ironskull"] = "葛剛·鐵顱";
-	["Krick"] = "克瑞克";
-	["Ick <Krick's Minion>"] = "艾克 <克瑞克的手下>";
+	["Krick and Ick"] = "克瑞克和艾克";
 	["Scourgelord Tyrannus"] = "天譴領主提朗紐斯";
 	["Rimefang"] = "霜牙";
 

@@ -220,6 +220,7 @@ AtlasLocale = {
 	["Wanders"] = "游荡";
 	["Warlock"] = "术士";
 	["Warrior"] = "战士";
+	["Wave 5"] = "第5波";
 	["Wave 6"] = "第6波";
 	["Wave 10"] = "第10波";
 	["Wave 12"] = "第12波";
@@ -245,16 +246,18 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "十字军大竞技场";
 	["Dire Maul"] = "厄运之槌"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "达克萨隆要塞";
+	["Frozen Halls"] = "冰封大厅";
 	["Gnomeregan"] = "诺莫瑞根"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "墓地"; ["GY"] = "GY";
 	["Gruul's Lair"] = "格鲁尔的巢穴"; ["GL"] = "GL";
 	["Gundrak"] = "古达克";
-	["Halls of Stone"] = "岩石大厅";
 	["Halls of Lightning"] = "闪电大厅";
+	["Halls of Reflection"] = "倒影大厅";
+	["Halls of Stone"] = "岩石大厅";
 	["Hellfire Citadel"] = "地狱火堡垒"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "地狱火城墙"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "海加尔峰"; ["CoT3"] = "CoT3";
-	["Icecrown"] = "寒冰皇冠";
+	["Icecrown Citadel"] = "冰冠堡垒";
 	["Karazhan"] = "卡拉赞"; ["Kara"] = "Kara";
 	["Library"] = "图书馆"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "魔导师平台"; ["MT"] = "MT";
@@ -262,9 +265,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "法力陵墓"; ["MT"] = "MT";
 	["Maraudon"] = "玛拉顿"; ["Mara"] = "Mara";
 	["Molten Core"] = "熔火之心"; ["MC"] = "MC";
-	["Naxxramas"] = "纳克萨玛斯"; ["Nax"] = "Nax";
+	["Naxxramas"] = "纳克萨玛斯";
 	["Old Hillsbrad Foothills"] = "旧希尔斯布莱德"; ["CoT1"] = "CoT1";
 	["Onyxia's Lair"] = "奥妮克希亚的巢穴"; ["Ony"] = "Ony";
+	["Pit of Saron"] = "萨伦之渊";
 	["Ragefire Chasm"] = "怒焰裂谷"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "剃刀高地"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "剃刀沼泽"; ["RFK"] = "RFK";
@@ -288,6 +292,7 @@ AtlasLocale = {
 	["The Deadmines"] = "死亡矿井"; ["VC"] = "VC";
 	["The Eye"] = "风暴之眼"; ["Eye"] = "Eye";
 	["The Eye of Eternity"] = "永恒之眼";
+	["The Forge of Souls"] = "众魂熔炉";
 	["The Mechanar"] = "能源舰"; ["Mech"] = "Mech";
 	["The Nexus"] = "魔枢";
 	["The Obsidian Sanctum"] = "黑曜石圣殿";
@@ -298,8 +303,8 @@ AtlasLocale = {
 	["The Stockade"] = "监狱"; ["Stocks"] = "Stocks";
 	["The Underbog"] = "幽暗沼泽"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫罗兰监狱";
-	["Trial of the Champion"] = "勇士试炼"; ["Champ"] = "勇士";
-	["Trial of the Crusader"] = "十字軍试炼"; ["Crus"] = "十字軍";
+	["Trial of the Champion"] = "勇士试炼";
+	["Trial of the Crusader"] = "十字軍试炼";
 	["Uldaman"] = "奥达曼"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "奥杜尔";
 	["Utgarde Keep"] = "乌特加德城堡";
@@ -311,28 +316,35 @@ AtlasLocale = {
 	["Zul'Gurub"] = "祖尔格拉布"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub";
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
-	["DTK"] = "DTK";
-	["Gun"] = "Gun";
-	["HoS"] = "HoS";
-	["HoL"] = "HoL";
-	["OS"] = "OS";
-	["UK, Keep"] = "UK, Keep";
-	["UP, Pinn"] = "UP, Pinn";
-	["Nex, Nexus"] = "Nex, Nexus";
-	["AK, Kahet"] = "AK, Kahet";
-	["VH"] = "VH";
-	["Ocu"] = "Ocu";
-	["VoA"] = "VoA"; -- Vault of Archavon
+	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
+	["Champ"] = "Champ"; -- Trial of the Champion
+	["Crus"] = "Crus"; -- Trial of the Crusader
+	["DTK"] = "DTK"; -- Drak'Tharon Keep
+	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
+	["Gun"] = "Gun"; -- Gundrak
+	["HoL"] = "HoL"; -- Halls of Lightning
+	["HoR"] = "HoR"; ["FH3"] = "FH3"; -- Halls of Reflection
+	["HoS"] = "HoS"; -- Halls of Stone
+ 	["IC"] = "IC"; -- Icecrown Citadel
+	["Nax"] = "Nax"; -- Naxxramas
+	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
+	["Ocu"] = "Ocu"; -- The Oculus
+	["OS"] = "OS"; -- The Obsidian Sanctum
+	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
+	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
 	["Uldu"] = "Uldu"; -- Ulduar
+	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacle
+	["VH"] = "VH"; -- The Violet Hold
+	["VoA"] = "VoA"; -- Vault of Archavon
 
 	--Continents
 	["Eastern Kingdoms"] = "东部王国";
 	["Kalimdor"] = "卡利姆多";
-	["Outland"] = "外域";
 	["Northrend"] = "诺森德";
+	["Outland"] = "外域";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "灰谷";
@@ -353,6 +365,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "灰熊丘陵";
 	["Hellfire Peninsula"] = "地狱火半岛";
 	["Howling Fjord"] = "嚎风峡湾";
+	["Icecrown"] = "冰冠";
 	["Isle of Quel'Danas"] = "奎尔丹纳斯岛";
 	["Netherstorm"] = "虚空风暴";
 	["Orgrimmar"] = "奥格瑞玛";
@@ -1498,6 +1511,24 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <阿卡里的高阶先知>";
 	["Eck the Ferocious"] = "凶残的伊克";
 
+	--Icecrown Citadel
+	["The Ashen Verdict"] = "灰烬裁决军";
+	["Lord Marrowgar"] = "玛洛嘉领主";
+	["Lady Deathwhisper"] = "亡语女士";
+	["Gunship Battle"] = "炮艇战";
+	["Deathbringer Saurfang"] = "死亡使者萨鲁法尔";
+	["Festergut"] = "脓肠";
+	["Rotface"] = "腐脸";
+	["Professor Putricide"] = "普崔希德教授";
+	["Blood Prince Council"] = "血亲王议会";
+	["Prince Keleseth"] = "凯雷希斯王子";
+	["Prince Taldaram"] = "泰尔达朗王子";
+	["Prince Valanar"] = "瓦拉纳尔王子";
+	["Blood-Queen Lana'thel"] = "血腥女王菈娜萨尔";
+	["Valithria Dreamwalker"] = "瓦莉丝瑞雅•梦行者";
+	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>";
+	["The Lich King"] = "巫妖王";
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "比格沃斯";
 	["Construct Quarter"] = "构造区";
@@ -1547,6 +1578,32 @@ AtlasLocale = {
 	["Centrifuge Construct"] = "离心构造体";
 	["Cache of Eregos"] = "埃雷苟斯的宝箱";
 	
+	--The Frozen Halls: The Forge of Souls
+	--Lady Jaina Proudmoore omitted, in Hyjal Summit
+	["Archmage Koreln <Kirin Tor>"] = "大法师寇瑞伦 <祈伦托>";
+	["Archmage Elandra <Kirin Tor>"] = "大法师伊兰卓 <祈伦托>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "希瓦娜斯•风行者女士 <女妖之王>";
+	["Dark Ranger Loralen"] = "黑暗游侠洛拉伦";
+	["Dark Ranger Kalira"] = "黑暗游侠卡丽菈";
+	["Bronjahm <Godfather of Souls>"] = "布朗吉姆 <众魂教父>";
+	["Devourer of Souls"] = "众魂吞噬者";
+
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "锻造大师加弗罗斯";
+	["Martin Victus"] = "马汀•维特斯";
+	["Gorkun Ironskull"] = "葛刚•铁颅";
+	["Krick and Ick"] = "克瑞克和艾克";
+	["Scourgelord Tyrannus"] = "天谴领主提朗纽斯";
+	["Rimefang"] = "霜牙";
+
+	--The Frozen Halls: Halls of Reflection
+	--3 beginning NPCs omitted, see The Forge of Souls
+	["Falric"] = "法勒瑞克";
+	["Marwyn"] = "麦尔温";
+	["Wrath of the Lich King"] = "巫妖王之怒";
+	["The Captain's Chest"] = "船长的箱子";
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "黑龙军团巢穴";
 	["Sartharion <The Onyx Guardian>"] = "萨塔里奥 <黑岩守护者>";
@@ -1563,6 +1620,39 @@ AtlasLocale = {
 	["Lavanthor"] = "拉文索尔";
 	["Cyanigosa"] = "塞安妮苟萨";
 	["The Violet Hold Key"] = "紫罗兰监狱钥匙";
+
+	--Trial of the Champion
+	["Grand Champions"] = "大勇士";
+	["Champions of the Alliance"] = "联盟大勇士";
+	["Marshal Jacob Alerius"] = "杰科布•亚雷瑞斯元帅";
+	["Ambrose Boltspark"] = "安布罗斯•拴炫";
+	["Colosos"] = "克罗索斯";
+	["Jaelyne Evensong"] = "洁琳•晚歌";
+	["Lana Stouthammer"] = "菈娜•顽锤";
+	["Champions of the Horde"] = "部落大勇士";
+	["Mokra the Skullcrusher"] = "『碎颅者』莫克拉";
+	["Eressea Dawnsinger"] = "艾瑞西雅•曦咏";
+	["Runok Wildmane"] = "鲁诺克•蛮鬃";
+	["Zul'tore"] = "祖尔拓";
+	["Deathstalker Visceri"] = "亡灵哨兵威瑟瑞";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『纯净者』埃卓克 <银白十字军大勇士>";
+	["Argent Confessor Paletress"] = "银白告解者帕尔璀丝";
+	["The Black Knight"] = "黑骑士";
+
+	--Trial of the Crusader
+	["Cavern Entrance"] = "洞穴入口";
+	["Northrend Beasts"] = "北裂境巨兽";
+	["Gormok the Impaler"] = "『穿刺者』戈莫克";
+	["Acidmaw"] = "酸喉";
+	["Dreadscale"] = "惧鳞";
+	["Icehowl"] = "冰嚎";
+	["Lord Jaraxxus"] = "贾拉克瑟斯领主";
+	["Faction Champions"] = "阵营勇士";
+	["Twin Val'kyr"] = "华尔琪双子";
+	["Fjola Lightbane"] = "菲欧拉•光寂";
+	["Eydis Darkbane"] = "艾狄丝•暗寂";
+	["Anub'arak"] = "阿努巴拉克";
+	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军试炼";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "比亚格里将军";
@@ -1644,38 +1734,6 @@ AtlasLocale = {
 	["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";
 	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
 	["Koralon the Flame Watcher"] = "烈焰看守者寇拉隆";
-
-	--Trial of the Crusader
-	["Cavern Entrance"] = "洞穴入口";
-	["Northrend Beasts"] = "北裂境野兽";
-	["Gormok the Impaler"] = "『穿刺者』戈莫克";
-	["Acidmaw"] = "酸喉";
-	["Dreadscale"] = "惧鳞";
-	["Icehowl"] = "冰嚎";
-	["Lord Jaraxxus"] = "贾拉克瑟斯领主";
-	["Faction Champions"] = "阵营勇士";
-	["Twin Val'kyr"] = "华尔琪双子";
-	["Fjola Lightbane"] = "菲欧拉•光寂";
-	["Eydis Darkbane"] = "艾狄丝•暗寂";
-	["Anub'arak"] = "阿努巴拉克";
-	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军试炼";
-
-	--Trial of the Champion
-	["Grand Champions"] = "大勇士";
-	["Champions of the Alliance"] = "联盟勇士";
-	["Marshal Jacob Alerius"] = "杰科布•亚雷瑞斯元帅";
-	["Ambrose Boltspark"] = "安布罗斯•拴炫";
-	["Colosos"] = "克罗索斯";
-	["Jaelyne Evensong"] = "洁琳•晚歌";
-	["Lana Stouthammer"] = "菈娜•顽锤";
-	["Champions of the Horde"] = "部落勇士";
-	["Mokra the Skullcrusher"] = "『碎颅者』莫克拉";
-	["Eressea Dawnsinger"] = "艾瑞西雅•曦咏";
-	["Runok Wildmane"] = "鲁诺克•蛮鬃";
-	["Zul'tore"] = "祖尔拓";
-	["Deathstalker Visceri"] = "亡灵哨兵威瑟瑞";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『纯净者』埃卓克";
-	["Argent Confessor Paletress"] = "银白告解者帕尔璀丝";
-	["The Black Knight"] = "黑骑士";
+	["Toravon the Ice Watcher"] = "寒冰看守者";
 };
 end

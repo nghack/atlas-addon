@@ -245,9 +245,9 @@ AtlasLocale = {
 	["Graveyard"] = "Кладбище"; ["GY"] = "Кл";
 	["Gruul's Lair"] = "Логово Груула"; ["GL"] = "Груль";
 	["Gundrak"] = "Гундрак";
-	["Halls of Stone"] = "Чертоги Камня";
 	["Halls of Lightning"] = "Чертоги Молний";
-	["Halls of Reflection"] = "Залы Отражений"; ["HoR"] = "ЗО";
+	["Halls of Reflection"] = "Залы Отражений";
+	["Halls of Stone"] = "Чертоги Камня";
 	["Hellfire Citadel"] = "Цитадель Адского Пламени"; ["HFC"] = "ЦАП";
 	["Hellfire Ramparts"] = "Бастионы Адского Пламени"; ["Ramp"] = "Баст";
 	["Hyjal Summit"] = "Вершина Хиджала"; ["CoT3"] = "ПВ3";
@@ -259,10 +259,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Гробницы Маны"; ["MT"] = "ГМ";
 	["Maraudon"] = "Мародон"; ["Mara"] = "Маро";
 	["Molten Core"] = "Огненные Недра"; ["MC"] = "ОН";
-	["Naxxramas"] = "Наксрамас"; ["Nax"] = "Накс";
+	["Naxxramas"] = "Наксрамас";
 	["Old Hillsbrad Foothills"] = "Старые предгорья Хилсбрада"; ["CoT1"] = "ПВ1";
 	["Onyxia's Lair"] = "Логово Ониксии"; ["Ony"] = "Они";
-	["Pit of Saron"] = "Яма Сарона"; ["PoS"] = "Яма";
+	["Pit of Saron"] = "Яма Сарона";
 	["Ragefire Chasm"] = "Огненная пропасть"; ["RFC"] = "ОгП";
 	["Razorfen Downs"] = "Курганы Иглошкурых"; ["RFD"] = "Курганы";
 	["Razorfen Kraul"] = "Лабиринты Иглошкурых"; ["RFK"] = "ЛабИ";
@@ -593,7 +593,7 @@ AtlasLocale = {
 	["Horde Encampment"] = "Стоянка орды";
 	["Thrall <Warchief>"] = "Тралл <Вождь>";
 	["Night Elf Village"] = "Деревня Ночных эльфов";
-	["Tyrande Whisperwind <High Priestess of Elune>"] = "Тиранда Шелест Ветра <Верховная жрица Элуны>";
+	["Tyrande Whisperwind <High Priestess of Elune>"] = "Тиранда Шелест Ветра";
 	["Rage Winterchill"] = "Лютый Хлад";
 	["Anetheron"] = "Анетерон";
 	["Kaz'rogal"] = "Каз'рогал";
@@ -668,9 +668,9 @@ AtlasLocale = {
 	["Banner of Provocation"] = "Знамя Вызова";
 	["Lord Roccor"] = "Лорд Роккор";
 	["Kharan Mighthammer"] = "Каран Могучий Молот";
-	["Commander Gor'shak <Kargath Expeditionary Force>"] = "Командир Гор'шак <Каргатский экспедиционный корпус>";
+	["Commander Gor'shak <Kargath Expeditionary Force>"] = "Командир Гор'шак";
 	["Marshal Windsor"] = "Маршал Винздор";
-	["High Interrogator Gerstahn <Twilight's Hammer Interrogator>"] = "Верховный дознаватель Герштан <Дознаватель культа Сумеречного Молота>";
+	["High Interrogator Gerstahn <Twilight's Hammer Interrogator>"] = "Верховный дознаватель Герштан";
 	["Ring of Law"] = "Круг закона";
 	["Anub'shiah"] = "Ануб'шиа";
 	["Eviscerator"] = "Потрошитель";
@@ -703,7 +703,7 @@ AtlasLocale = {
 	["Field Repair Bot 74A"] = "Ремонтный полевой робот 74A";
 	["The Grim Guzzler"] = "Угрюмые обжоры";
 	["Hurley Blackbreath"] = "Харли Пьянодых";
-	["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Локтос Зловещий Торговец <Братство Тория>";
+	["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Локтос Зловещий Торговец";
 	["Mistress Nagmara"] = "Госпожа Нагмара";
 	["Phalanx"] = "Фаланкс";
 	["Plugger Spazzring"] = "Штоппор Наливалс";
@@ -934,12 +934,12 @@ AtlasLocale = {
 	["Rhahk'Zor <The Foreman>"] = "Рак'Зор <Штейгер>";
 	["Miner Johnson"] = "Шахтер Джонсон";
 	["Sneed <Lumbermaster>"] = "Снид <Начальник лесозаготовки>";
-	["Sneed's Shredder <Lumbermaster>"] = "Крошшер Снида <Начальник лесозаготовки>";
+	["Sneed's Shredder <Lumbermaster>"] = "Крошшер Снида";
 	["Gilnid <The Smelter>"] = "Гилнид <Литейщик>";
 	["Defias Gunpowder"] = "Порох братства Справедливости";
 	["Captain Greenskin"] = "Капитан Зеленямс";
-	["Edwin VanCleef <Defias Kingpin>"] = "Эдвин ван Клиф <Главарь Братства Справедливости>";
-	["Mr. Smite <The Ship's First Mate>"] = "Мистер Каюк <Первый помощник капитана>";
+	["Edwin VanCleef <Defias Kingpin>"] = "Эдвин ван Клиф";
+	["Mr. Smite <The Ship's First Mate>"] = "Мистер Каюк";
 	["Cookie <The Ship's Cook>"] = "Пирожок <Корабельный кок>";
 	
 	--The Stockade
@@ -1143,7 +1143,7 @@ AtlasLocale = {
 	["Warlord Salaris"] = "Полководец Саларис";
 	["Yazzai"] = "Яззай";
 	["Zelfan"] = "Зелфан";
-	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Кель'тас Солнечный Скиталец <Правитель эльфов крови>";--omitted from TK: The Eye
+	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Кель'тас Солнечный Скиталец";--omitted from TK: The Eye
 
 	--Sunwell Plateau
 	["Sathrovarr the Corruptor"] = "Сатроварр Осквернитель";
@@ -1302,9 +1302,9 @@ AtlasLocale = {
 	["Al'ar <Phoenix God>"] = "Ал'ар <Феникс-бог>";
 	["Void Reaver"] = "Страж Бездны";
 	["High Astromancer Solarian"] = "Верховный звездочет Солариан";
-	["Thaladred the Darkener <Advisor to Kael'thas>"] = "Таладред Светокрад <Советник Кель'таса>";
-	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "Старший инженер Телоникус <Советник Кель'таса>";
-	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = " Великий Звездочет Каперниан <Советник Кель'таса>";
+	["Thaladred the Darkener <Advisor to Kael'thas>"] = "Таладред Светокрад";
+	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "Старший инженер Телоникус";
+	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = " Великий Звездочет Каперниан";
 	["Lord Sanguinar <The Blood Hammer>"] = " Лорд Сангвинар <Молот Крови>";
 
 	--Gruul's Lair
@@ -1376,7 +1376,7 @@ AtlasLocale = {
 	["Lothos Riftwaker"] = "Лотос Хранитель Портала";
 	["Franclorn Forgewright"] = "Франклорн Искусник";
 	["Orb of Command"] = "Сфера Приказа";
-	["Scarshield Quartermaster <Scarshield Legion>"] = "Интендант из легиона Изрубленного Щита <Легион Изрубленного Щита>";
+	["Scarshield Quartermaster <Scarshield Legion>"] = "Интендант из легиона Изрубленного Щита";
 
 	--Coilfang Reservoir (Entrance)
 	["Watcher Jhang"] = "Дозорный Джанг";
@@ -1422,7 +1422,7 @@ AtlasLocale = {
 	["Above the Entrance:"] = "Выше Входа:";
 	["Ebru <Disciple of Naralex>"] = "Эбру <Послушник Наралекса>";
 	["Nalpak <Disciple of Naralex>"] = "Налпак <Послушник Наралекса>";
-	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Калидан Лунный Серп <Специализированные товары для кожевников>";
+	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Калидан Лунный Серп <Спец. товары для кожевников>";
 	["Waldor <Leatherworking Trainer>"] = "Валдор <Учитель кожевничества>";
 
 	--Dire Maul (Entrance)
@@ -1568,7 +1568,7 @@ AtlasLocale = {
 	["Drakos the Interrogator"] = "Дракос Дознаватель";
 	["Mage-Lord Urom"] = "Маг-лорд Уром";
 	["Ley-Guardian Eregos"] = "Варос Заоблачный Странник";
-	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник <Лазурный повелитель рода синих драконов>";
+	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Варос Заоблачный Странник";
 	["Centrifuge Construct"] = "Центрифужное создание";
 	["Cache of Eregos"] = "Тайник Эрегоса";
 
@@ -1577,8 +1577,8 @@ AtlasLocale = {
 	["Archmage Koreln <Kirin Tor>"] = "Верховный маг Корелн <Кирин-Тор>";
 	["Archmage Elandra <Kirin Tor>"] = "Верховный маг Эландра <Кирин-Тор>";
 	["Lady Sylvanas Windrunner <Banshee Queen>"] = "Леди Сильвана Ветрокрылая";
-	["Dark Ranger Loralen"] = "Dark Ranger Loralen";
-	["Dark Ranger Kalira"] = "Dark Ranger Kalira";
+	["Dark Ranger Loralen"] = "Темный следопыт Лорален";
+	["Dark Ranger Kalira"] = "Темный следопыт Калира";
 	["Bronjahm <Godfather of Souls>"] = "Броньям";
 	["Devourer of Souls"] = "Пожиратель Душ";
 
@@ -1586,7 +1586,7 @@ AtlasLocale = {
 	--6 beginning NPCs omitted, see The Forge of Souls
 	["Forgemaster Garfrost"] = "Начальник кузни Гарфрост";
 	["Martin Victus"] = "Мартин Виктус"; -- нужно проверить
-	["Gorkun Ironskull"] = "Gorkun Ironskull";
+	["Gorkun Ironskull"] = "Горкун Железный Череп";
 	["Krick and Ick"] = "Ик и Крик";
 	["Scourgelord Tyrannus"] = "Повелитель Плети Тираний";
 	["Rimefang"] = "Иний";
@@ -1629,7 +1629,7 @@ AtlasLocale = {
 	["Runok Wildmane"] = "Рунок Буйногривый";
 	["Zul'tore"] = "Зул'тор";
 	["Deathstalker Visceri"] = "Страж смерти Визери";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Эдрик Чистый <Абсолютный чемпион Серебряного Авангарда>";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Эдрик Чистый";
 	["Argent Confessor Paletress"] = "Исповедница Серебряного Авангарда Пейлтресс";
 	["The Black Knight"] = "Черный рыцарь";
 

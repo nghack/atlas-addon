@@ -183,7 +183,6 @@ AtlasTransLocale = {
 	["Sun's Reach"] = "Confins du soleil";
 	["Sun's Reach Sanctum"] = "Sanctum des Confins du soleil";
 	["Sunreaver's Command"] = "Quartier général de Saccage-soleil";
-	["Sun Rock Retreat"] = "Retraite de Roche-Soleil";
 	["Swamp of Sorrows"] = "Marais des Chagrins";
 	["Swamprat Post"] = "Poste du Rat des marais";
 	["Sylvanaar"] = "Sylvanaar";

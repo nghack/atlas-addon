@@ -297,8 +297,8 @@ AtlasLocale = {
 	["The Stockade"] = "監獄"; ["Stocks"] = "監獄";
 	["The Underbog"] = "深幽泥沼"; ["UB"] = "UB";
 	["The Violet Hold"] = "紫羅蘭堡";
-	["Trial of the Champion"] = "勇士試煉"; ["Champ"] = "勇士";
-	["Trial of the Crusader"] = "十字軍試煉"; ["Crus"] = "十字軍";
+	["Trial of the Champion"] = "勇士試煉";
+	["Trial of the Crusader"] = "十字軍試煉";
 	["Uldaman"] = "奧達曼"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "奧杜亞";
 	["Utgarde Keep"] = "俄特加德要塞";
@@ -312,16 +312,16 @@ AtlasLocale = {
 	--WotLK Acronyms
 	["AK, Kahet"] = "AK/安卡"; -- Ahn'kahet -- 安卡罕特
 	["AN, Nerub"] = "AN/奈幽"; -- Azjol-Nerub -- 阿茲歐-奈幽
-	["Champ"] = "Champ"; -- Trial of the Champion
-	["Crus"] = "Crus"; -- Trial of the Crusader
+	["Champ"] = "勇士"; -- Trial of the Champion -- 勇士試煉
+	["Crus"] = "十字軍"; -- Trial of the Crusader --十字軍試煉
 	["DTK"] = "DTK/德拉克"; -- Drak'Tharon Keep -- 德拉克薩隆要塞
 	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
 	["Gun"] = "Gun/剛德"; -- Gundrak -- 剛德拉克
 	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
 	["HoR"] = "HoR"; ["FH3"] = "FH3"; -- Halls of Reflection
 	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
- 	["IC"] = "IC"; -- Icecrown Citadel
-	["Nax"] = "Nax"; -- Naxxramas
+ 	["IC"] = "IC"; -- Icecrown Citadel -- 冰冠城塞
+	["Nax"] = "Nax"; -- Naxxramas -- 納克薩瑪斯
 	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
 	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所

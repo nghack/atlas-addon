@@ -260,7 +260,7 @@ AtlasLocale = {
 	["Icecrown Citadel"] = "冰冠堡垒";
 	["Karazhan"] = "卡拉赞"; ["Kara"] = "Kara";
 	["Library"] = "图书馆"; ["Lib"] = "Lib";
-	["Magisters' Terrace"] = "魔导师平台"; ["MT"] = "MT";
+	["Magisters' Terrace"] = "魔导师平台"; ["MaT"] = "MT";
 	["Magtheridon's Lair"] = "玛瑟里顿的巢穴"; ["Mag"] = "Mag";
 	["Mana-Tombs"] = "法力陵墓"; ["MT"] = "MT";
 	["Maraudon"] = "玛拉顿"; ["Mara"] = "Mara";
@@ -282,7 +282,7 @@ AtlasLocale = {
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat";
 	["Stratholme Past"] = "旧斯坦索姆";
 	["Sunken Temple"] = "沉没的神庙"; ["ST"] = "ST";
-	["Sunwell Plateau"] = "太阳之井高地"; ["SP"] = "SP";
+	["Sunwell Plateau"] = "太阳之井高地"; ["SuP"] = "SP";
 	["Tempest Keep"] = "风暴要塞"; ["TK"] = "TK";
 	["Temple of Ahn'Qiraj"] = "安其拉神殿"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "禁魔监狱"; ["Arca"] = "Arca";

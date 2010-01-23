@@ -240,7 +240,7 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "Колизей Авангарда";
 	["Dire Maul"] = "Забытый Город"; ["DM"] = "ЗГ";
 	["Drak'Tharon Keep"] = "Крепость Драк'Тарон";
-    ["Frozen Halls"] = "Ледяные залы";
+	["Frozen Halls"] = "Ледяные залы";
 	["Gnomeregan"] = "Гномреган"; ["Gnome"] = "Гном";
 	["Graveyard"] = "Кладбище"; ["GY"] = "Кл";
 	["Gruul's Lair"] = "Логово Груула"; ["GL"] = "Груль";
@@ -254,7 +254,7 @@ AtlasLocale = {
 	["Icecrown Citadel"] = "Цитадель Ледяной Короны";
 	["Karazhan"] = "Каражан"; ["Kara"] = "Кара";
 	["Library"] = "Библиотека"; ["Lib"] = "Биб";
-	["Magisters' Terrace"] = "Терраса Магистров"; ["MT"] = "ТМ";
+	["Magisters' Terrace"] = "Терраса Магистров"; ["MaT"] = "ТМ";
 	["Magtheridon's Lair"] = "Логово Магтеридона"; ["Mag"] = "Магги";
 	["Mana-Tombs"] = "Гробницы Маны"; ["MT"] = "ГМ";
 	["Maraudon"] = "Мародон"; ["Mara"] = "Маро";
@@ -276,7 +276,7 @@ AtlasLocale = {
 	["Stratholme"] = "Стратхольм"; ["Strat"] = "Страт";
 	["Stratholme Past"] = "Очищение Стратхольма";
 	["Sunken Temple"] = "Затонувший храм"; ["ST"] = "ЗХ";
-	["Sunwell Plateau"] = "Солнечный Колодец"; ["SP"] = "СК";
+	["Sunwell Plateau"] = "Солнечный Колодец"; ["SuP"] = "СК";
 	["Tempest Keep"] = "Крепость Бурь"; ["TK"] = "КБ";
 	["Temple of Ahn'Qiraj"] = "Храм Ан'Киража"; ["AQ40"] = "АКУ40";
 	["The Arcatraz"] = "Аркатрац"; ["Arca"] = "Арка";

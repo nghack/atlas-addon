@@ -286,7 +286,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Мертвые копи"; ["VC"] = "МК";
 	["The Eye"] = "Око"; ["Eye"] = "Око";
 	["The Eye of Eternity"] = "Око Вечности";
-	["The Forge of Souls"] = "Кузня Душ"; ["FoS"] = "Кузня Душ";
+	["The Forge of Souls"] = "Кузня Душ";
 	["The Mechanar"] = "Механар"; ["Mech"] = "Мех";
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";

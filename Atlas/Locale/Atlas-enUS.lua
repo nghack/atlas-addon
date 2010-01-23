@@ -1729,4 +1729,4 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon the Storm Watcher";
 	["Koralon the Flame Watcher"] = "Koralon the Flame Watcher";
 	["Toravon the Ice Watcher"] = "Toravon the Ice Watcher";
-}
+};

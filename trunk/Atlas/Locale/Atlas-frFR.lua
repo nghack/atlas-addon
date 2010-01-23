@@ -293,7 +293,7 @@ AtlasLocale = {
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Eye of Eternity"] = "L'Œil de l'éternité";
 	["The Forge of Souls"] = "La Forge des âmes"; ["FoS"] = "FdA"; ["FH1"] = "FH1";
-	["The Frozen Halls"] = "La Forge des âmes";
+	["The Frozen Halls"] = "Les salles Gelées";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
 	["The Obsidian Sanctum"] = "Le sanctum Obsidien";

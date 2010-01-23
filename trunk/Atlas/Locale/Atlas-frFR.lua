@@ -55,12 +55,10 @@ ATLAS_STRING_CLEAR = "Nettoyer";
 ATLAS_STRING_MINLEVEL = "Niveau Minimum";
 
 ATLAS_OPTIONS_BUTTON = "Options";
-ATLAS_OPTIONS_TITLE = "Atlas Options";
 ATLAS_OPTIONS_SHOWBUT = "Afficher le bouton sur la mini-carte";
 ATLAS_OPTIONS_AUTOSEL = "Sélection automatique de la carte";
 ATLAS_OPTIONS_BUTPOS = "Position du bouton";
 ATLAS_OPTIONS_TRANS = "Transparence";
-ATLAS_OPTIONS_DONE = "Valider";
 ATLAS_OPTIONS_REPMAP = "Remplacer la carte du monde";
 ATLAS_OPTIONS_RCLICK = "Clic-Droit pour afficher la carte du monde";
 ATLAS_OPTIONS_SHOWMAPNAME = "Afficher le nom de la carte";
@@ -69,7 +67,6 @@ ATLAS_OPTIONS_ACRONYMS = "Afficher les acronymes VO/VF";
 ATLAS_OPTIONS_SCALE = "Echelle";
 ATLAS_OPTIONS_BUTRAD = "Rayon du bouton";
 ATLAS_OPTIONS_CLAMPED = "Fixer la fenêtre à l'écran";
-ATLAS_OPTIONS_HELP = "Clic-Gauche pour déplacer cette fenêtre.";
 ATLAS_OPTIONS_CTRL = "Maintenir la touche Ctrl enfoncée pour voir les infobulles"
 ATLAS_OPTIONS_COORDS = "Montrer les coordonnées sur la carte du monde"
 
@@ -116,8 +113,6 @@ ATLAS_DEP_MSG1 = "Atlas a détecté un ou plusieurs module(s) qui ne sont pas à
 ATLAS_DEP_MSG2 = "Ils ont été désactivés pour ce personnage.";
 ATLAS_DEP_MSG3 = "Les supprimer de votre dossier AddOns.";
 ATLAS_DEP_OK = "Ok";
-
-ATLAS_HELP = {"A propos d'Atlas\n===========\n\nAtlas est un add-on pour l'interface de World of Warcraft qui fournit de nombreuses cartes supplémentaires ainsi qu'un navigateur de cartes. Taper la commande '/atlas' ou cliquer sur l'icône de mini-carte pour ouvrir la fenêtre d'Atlas. Le panneau d'options vous permet d'enlever cette icône, d'activer ou non les différentes options : Sélection automatique, Remplacer la Carte du Monde, Clic-Droit, Changer la position de l'icône, ou ajuster la transparence de la fenêtre principale. Si l'option de Sélection automatique est activée, Atlas ouvrira automatiquement la carte de l'instance dans laquelle vous êtes. Si l'option Remplacer la Carte du Monde est activée, Atlas s'ouvrira à la place de la carte du monde lorsque vous êtes dans un donjon. Si l'option Clic-Droit est activée, vous pourrez cliquer droit sur Atlas pour ouvrir la Carte du monde. Vous pouvez déplacer la fenêtre d'Atlas en faisant un Clic-Gauche maintenu. Utilisez le petit symbole de verrou dans le coin en haut à droite pour fixer la fenêtre en place."};
 
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"] = "Le temple d'Atal'Hakkar";
@@ -246,18 +241,18 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "L'épreuve du croisé";
 	["Dire Maul"] = "Hache-tripes"; ["DM"] = "DM/HT";
 	["Drak'Tharon Keep"] = "Donjon de Drak'Tharon";
+	["Frozen Halls"] = "Les salles Gelées";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cimetière"; ["GY"] = "GY";
 	["Gruul's Lair"] = "Repaire de Gruul"; ["GL"] = "GL";
 	["Gundrak"] = "Gundrak";
-	["Halls of Stone"] = "Les salles de Pierre";
 	["Halls of Lightning"] = "Les salles de Foudre";
-	["Halls of Reflection"] = "Salles des Reflets"; ["HoR"] = "SdR"; ["FH3"] = "FH3";
+	["Halls of Reflection"] = "Salles des Reflets";
+	["Halls of Stone"] = "Les salles de Pierre";
 	["Hellfire Citadel"] = "Citadelle des Flammes infernales"; ["HFC"] = "HFC";
 	["Hellfire Ramparts"] = "Remparts des Flammes infernales"; ["Ramp"] = "Ramp";
 	["Hyjal Summit"] = "Sommet d'Hyjal"; ["CoT3"] = "CoT3/GT3";
-	["Icecrown"] = "La Couronne de glace";
-	["Icecrown Citadel"] = "Citadelle de la Couronne de glace"; ["IC"] = "ICC";
+	["Icecrown Citadel"] = "Citadelle de la Couronne de glace";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothèque"; ["Lib"] = "Lib";
 	["Magisters' Terrace"] = "Terrasse des Magistères"; ["MT"] = "MT";
@@ -265,10 +260,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Tombes-mana"; ["MT"] = "MT";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
 	["Molten Core"] = "Cœur du Magma"; ["MC"] = "MC";
-	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";
+	["Naxxramas"] = "Naxxramas";
 	["Old Hillsbrad Foothills"] = "Contreforts de Hautebrande d'antan"; ["CoT1"] = "CoT1/GT1";
 	["Onyxia's Lair"] = "Repaire d'Onyxia"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Fosse de Saron"; ["PoS"] = "FdS"; ["FH2"] = "FH2";
+	["Pit of Saron"] = "Fosse de Saron";
 	["Ragefire Chasm"] = "Gouffre de Ragefeu"; ["RFC"] = "RFC";
 	["Razorfen Downs"] = "Souilles de Tranchebauge"; ["RFD"] = "RFD";
 	["Razorfen Kraul"] = "Kraal de Tranchebauge"; ["RFK"] = "RFK";
@@ -292,8 +287,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Les Mortemines"; ["VC"] = "VC";
 	["The Eye"] = "L'Œil"; ["Eye"] = "Eye/TK";
 	["The Eye of Eternity"] = "L'Œil de l'éternité";
-	["The Forge of Souls"] = "La Forge des âmes"; ["FoS"] = "FdA"; ["FH1"] = "FH1";
-	["The Frozen Halls"] = "Les salles Gelées";
+	["The Forge of Souls"] = "La Forge des âmes";
 	["The Mechanar"] = "Le Méchanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "Le Nexus";
 	["The Obsidian Sanctum"] = "Le sanctum Obsidien";
@@ -304,8 +298,8 @@ AtlasLocale = {
 	["The Stockade"] = "La Prison"; ["Stocks"] = "Stocks/Prison";
 	["The Underbog"] = "La Basse-tourbière"; ["UB"] = "UB";
 	["The Violet Hold"] = "Le fort Pourpre";
-	["Trial of the Champion"] = "L'épreuve du champion"; ["Champ"] = "Champ";
-	["Trial of the Crusader"] = "L'épreuve du croisé"; ["Crus"] = "EDC";
+	["Trial of the Champion"] = "L'épreuve du champion";
+	["Trial of the Crusader"] = "L'épreuve du croisé";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Donjon d'Utgarde";
@@ -315,30 +309,37 @@ AtlasLocale = {
 	["Zul'Aman"] = "Zul'Aman"; ["ZA"] = "ZA";
 	["Zul'Farrak"] = "Zul'Farrak"; ["ZF"] = "ZF";
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
-	
+
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat";
-	["DTK"] = "DTK"; -- Drak'Tharon Keep
-	["Gun"] = "Gun"; -- Gundrak
-	["HoS"] = "HoS"; -- Halls of Stone
-	["HoL"] = "HoL"; -- Halls of Lightning
-	["OS"] = "OS"; -- The Obsidian Sanctum
-	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
-	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacl
-	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
-	["VH"] = "VH"; -- The Violet Hold
-	["Ocu"] = "Ocu"; -- The Oculus
-	["VoA"] = "Archa"; -- Vault of Archavon
-	["TEoE"] = "Maly"; -- The Eye of Eternity
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nérub
+	["Champ"] = "Champ"; -- L'épreuve du champion
+	["Crus"] = "EDC"; -- L'épreuve du croisé
+	["DTK"] = "DTK"; -- Donjon de Drak'Tharon
+	["FoS"] = "FdA"; ["FH1"] = "FH1"; -- La Forge des âmes
+	["Gun"] = "Gun"; -- Gundrak
+	["HoL"] = "HoL"; -- Les salles de Foudre
+	["HoR"] = "SdR"; ["FH3"] = "FH3"; -- Salles des Reflets
+	["HoS"] = "HoS"; -- Les salles de Pierre
+	["IC"] = "ICC"; -- Citadelle de la Couronne de glace
+	["Nax"] = "Nax"; -- Naxxramas
+	["Nex, Nexus"] = "Nex, Nexus"; -- Le Nexus
+	["Ocu"] = "Ocu"; -- L'Oculus
+	["OS"] = "OS"; -- Le sanctum Obsidien
+	["PoS"] = "FdS"; ["FH2"] = "FH2"; -- Fosse de Saron
+	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
+	["TEoE"] = "Maly"; -- L'Œil de l'éternité	
+	["UK, Keep"] = "UK, Keep"; -- Donjon d'Utgarde
 	["Uldu"] = "Uldu"; -- Ulduar
-	
+	["UP, Pinn"] = "UP, Pinn"; -- Cime d'Utgarde
+	["VH"] = "VH"; -- Le fort Pourpre
+	["VoA"] = "Archa"; -- Caveau d'Archavon
+
 	--Continents
 	["Eastern Kingdoms"] = "Royaumes de l'Est";
 	["Kalimdor"] = "Kalimdor";
-	["Outland"] = "Outreterre";
 	["Northrend"] = "Norfendre";
+	["Outland"] = "Outreterre";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Orneval";
@@ -359,6 +360,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Les Grisonnes";
 	["Hellfire Peninsula"] = "Péninsule des Flammes infernales";
 	["Howling Fjord"] = "Fjord Hurlant";
+	["Icecrown"] = "La Couronne de glace";
 	["Isle of Quel'Danas"] = "Île de Quel’Danas";
 	["Netherstorm"] = "Raz-de-Néant";
 	["Orgrimmar"] = "Orgrimmar";
@@ -391,7 +393,7 @@ AtlasLocale = {
 	["Jergosh the Invoker"] = "Jergosh l'Invocateur";
 	["Zelemar the Wrathful"] = "Zelemar le Courroucé";
 	["Bazzalan"] = "Bazzalan";
-	
+
 	--Wailing Caverns
 	["Disciple of Naralex"] = "Disciple de Naralex";
 	["Lord Cobrahn <Fanglord>"] = "Seigneur Cobrahn <Seigneur-Croc>";
@@ -404,7 +406,7 @@ AtlasLocale = {
 	["Mutanus the Devourer"] = "Mutanus le Dévoreur";
 	["Naralex"] = "Naralex";
 	["Deviate Faerie Dragon"] = "Dragon féerique déviant";
-	
+
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
 	["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
@@ -420,7 +422,7 @@ AtlasLocale = {
 	["Aku'mai"] = "Aku'mai";
 	["Morridune"] = "Morridune";
 	["Altar of the Deeps"] = "Autel des profondeurs";
-	
+
 	--Razorfen Kraul
 	["Roogug"] = "Roogug";
 	["Aggem Thorncurse <Death's Head Prophet>"] = "Aggem Malépine <Prophète de la Tête de mort>";
@@ -444,7 +446,7 @@ AtlasLocale = {
 	["Ragglesnout"] = "Ragglesnout";
 	["Amnennar the Coldbringer"] = "Amnennar le Porte-froid";
 	["Plaguemaw the Rotting"] = "Pestegueule le Pourrissant";
-	
+
 	--Zul'Farrak
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Surveillant de Sul>";
 	["Theka the Martyr"] = "Theka le Martyr";
@@ -466,7 +468,7 @@ AtlasLocale = {
 	["Ruuzlu"] = "Ruuzlu";
 	["Zerillis"] = "Zerillis";
 	["Sandarr Dunereaver"] = "Sandarr Ravadune";
-	
+
 	--Maraudon	
 	["Scepter of Celebras"] = "Sceptre de Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <Le cinquième Kahn>";
@@ -481,7 +483,7 @@ AtlasLocale = {
 	["Rotgrip"] = "Grippe-charogne";
 	["Princess Theradras"] = "Princesse Theradras";
 	["Elder Splitrock"] = "Ancien Pierre-fendue";
-	
+
 	--Dire Maul (East)
 	["Pusillin"] = "Pusillin";
 	["Zevrim Thornhoof"] = "Zevrim Sabot-de-ronce";
@@ -491,10 +493,10 @@ AtlasLocale = {
 	["Old Ironbark"] = "Vieil Ecorcefer";
 	["Alzzin the Wildshaper"] = "Alzzin le modeleur";
 	["Isalien"] = "Isalien";
-	
+
 	--Dire Maul (North)
-	["Crescent Key"] = "Clé en croissant";
-	["Library"] = "Bibliothèque";
+	["Crescent Key"] = "Clé en croissant";--omitted from Dire Maul (West)
+	--"Library" = "Bibliothèque"; omitted from here and DM West because of SM: "Library" duplicate
 	["Guard Mol'dar"] = "Garde Mol'dar";
 	["Stomper Kreeg <The Drunk>"] = "Kreeg le Marteleur <L'ivrogne>";
 	["Guard Fengus"] = "Garde Fengus";
@@ -524,7 +526,7 @@ AtlasLocale = {
 	["Lorekeeper Mykos"] = "Gardienne du savoir Mykos";
 	["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
 	["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
-	
+
 	--Onyxia's Lair
 	["Onyxian Warders"] = "Gardiens onyxiens";
 	["Whelp Eggs"] = "Œufs";
@@ -553,7 +555,7 @@ AtlasLocale = {
 	["Arygos"] = "Arygos";
 	["Caelestrasz"] = "Caelestrasz";
 	["Merithra of the Dream"] = "Merithra du Rêve";
-	
+
 	--Ruins of Ahn'Qiraj
 	["Cenarion Circle"] = "Cercle cénarien";
 	["Kurinnaxx"] = "Kurinnaxx";
@@ -659,7 +661,7 @@ AtlasLocale = {
 --****************************
 -- Eastern Kingdoms Instances
 --****************************
-	
+
 	--Blackrock Depths
 	["Shadowforge Key"] = "Clé ombreforge";
 	["Prison Cell Key"] = "Clé de la prison";
@@ -843,7 +845,6 @@ AtlasLocale = {
 	["Viewing Room"] = "Chambre des visions";
 	["Blood of Innocents"] = "Sang des innocents";
 	["Divination Scryer"] = "Clairvoyant";
-	["Darkreaver"] = "Ravassombre";
 	["Blood Steward of Kirtonos"] = "Régisseuse sanglante de Kirtonos";
 	["The Deed to Southshore"] = "Titre de propriété d'Austrivage";
 	["Kirtonos the Herald"] = "Kirtonos le Héraut";
@@ -887,7 +888,7 @@ AtlasLocale = {
 	["The Book of Ur"] = "Le Livre d'Ur";
 	["Wolf Master Nandos"] = "Maître-loup Nandos";
 	["Archmage Arugal"] = "Archimage Arugal";
-	
+
 	--Stratholme
 	["The Scarlet Key"] = "La Clé écarlate";
 	["Key to the City"] = "Clé de la ville";
@@ -929,7 +930,7 @@ AtlasLocale = {
 	["Fras Siabi's Postbox"] = "Boîte de Fras Siabi";
 	["3rd Box Opened"] = "3ème boîte ouverte";
 	["Postmaster Malown"] = "Postier Malown";
-	
+
 	--The Deadmines
 	["Rhahk'Zor <The Foreman>"] = "Rhahk'Zor <Le contremaître>";
 	["Miner Johnson"] = "Mineur Johnson";
@@ -949,7 +950,7 @@ AtlasLocale = {
 	["Bazil Thredd"] = "Bazil Thredd";
 	["Dextren Ward"] = "Dextren Ward";
 	["Bruegal Ironknuckle"] = "Bruegal Poing-de-fer";
-	
+
 	--The Sunken Temple
 	["The Temple of Atal'Hakkar"] = "Le temple d'Atal'Hakkar";
 	["Yeh'kinya's Scroll"] = "Parchemin de Yeh'kinya";
@@ -974,7 +975,7 @@ AtlasLocale = {
 	["Spawn of Hakkar"] = "Rejeton d'Hakkar";
 	["Elder Starsong"] = "Ancienne Chantétoile";
 	["Statue Activation Order"] = "Ordre d'activation des statues";
-	
+
 	--Uldaman
 	["Staff of Prehistoria"] = "Bâton de la préhistoire";
 	["Baelog"] = "Baelog";
@@ -1123,7 +1124,7 @@ AtlasLocale = {
 	["Galathryn"] = "Galathryn";
 	["Mitzi"] = "Mitzi";
 	["Mannuth"] = "Mannuth";
-	
+
 	--Magisters Terrace
 	["Shattered Sun Offensive"] = "Opération Soleil brisé";
 	["Selin Fireheart"] = "Selin Coeur-de-feu";
@@ -1146,7 +1147,6 @@ AtlasLocale = {
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael'thas Haut-soleil <Seigneur des elfes de sang>";
 
 	--Sunwell Plateau
-	["Kalecgos"] = "Kalecgos";
 	["Sathrovarr the Corruptor"] = "Sathrovarr le Corrupteur";
 	["Madrigosa"] = "Madrigosa";
 	["Brutallus"] = "Brutallus";
@@ -1161,7 +1161,7 @@ AtlasLocale = {
 --*******************
 -- Outland Instances
 --*******************
-	
+
 	--HFC: The Blood Furnace
 	["Thrallmar"] = "Thrallmar"; --omitted from other HFC
 	["Honor Hold"] = "Bastion de l'honneur"; --omitted from other HFC
@@ -1169,7 +1169,7 @@ AtlasLocale = {
 	["The Maker"] = "Le Faiseur";
 	["Broggok"] = "Broggok";
 	["Keli'dan the Breaker"] = "Keli'dan le Briseur";
-	
+
 	--HFC: The Shattered Halls
 	["Shattered Halls Key"] = "Clé des Salles brisées";
 	["Randy Whizzlesprocket"] = "Randy Vizirouage";
@@ -1206,7 +1206,7 @@ AtlasLocale = {
 	["Naturalist Bite"] = "Naturaliste Morsure";
 	["Quagmirran"] = "Bourbierreux";
 	["Ahune <The Frost Lord>"] = "Ahune <Le seigneur du Givre>";
-	
+
 	--CR: The Underbog
 	["Hungarfen"] = "Hungarfen";
 	["The Underspore"] = "Palme de sporielle";
@@ -1215,14 +1215,14 @@ AtlasLocale = {
 	["Swamplord Musel'ek"] = "Seigneur des marais Musel'ek";
 	["Claw <Swamplord Musel'ek's Pet>"] = "Griffe <Familier du seigneur des marais Musel'ek>";
 	["The Black Stalker"] = "La Traqueuse noire";
-	
+
 	--CR: The Steamvault
 	["Hydromancer Thespia"] = "Hydromancienne Thespia";
 	["Main Chambers Access Panel"] = "Panneau d'accès de la salle principale";
 	["Second Fragment Guardian"] = "Gardien du second fragment";
 	["Mekgineer Steamrigger"] = "Mékgénieur Montevapeur";
 	["Warlord Kalithresh"] = "Seigneur de guerre Kalithresh";
-	
+
 	--CR: Serpentshrine Cavern
 	["Hydross the Unstable <Duke of Currents>"] = "Hydross l'Instable <Duc des courants>";
 	["The Lurker Below"] = "Le Rôdeur d'En-bas";
@@ -1231,7 +1231,7 @@ AtlasLocale = {
 	["Seer Olum"] = "Voyant Olum";
 	["Morogrim Tidewalker"] = "Morogrim Marcheur-des-flots";
 	["Lady Vashj <Coilfang Matron>"] = "Dame Vashj <Matrone de Glissecroc>";
-	
+
 	--Auch: Mana-Tombs
 	["The Consortium"] = "Le Consortium";
 	["Auchenai Key"] = "Clé Auchenaï"; --omitted from other Auch
@@ -1244,14 +1244,14 @@ AtlasLocale = {
 	["Ethereal Transporter Control Panel"] = "Panneau de contrôle du transporteur étherien";
 	["Nexus-Prince Shaffar"] = "Prince-nexus Shaffar";
 	["Yor <Void Hound of Shaffar>"] = "Yor <Molosse du Vide de Shaffar>";
-	
+
 	--Auch: Auchenai Crypts
 	["Lower City"] = "Ville basse"; --omitted from other Auch
 	["Shirrak the Dead Watcher"] = "Shirrak le Veillemort";
 	["Exarch Maladaar"] = "Exarque Maladaar";
 	["Avatar of the Martyred"] = "Avatar des martyrs";
 	["D'ore"] = "D'ore";
-	
+
 	--Auch: Sethekk Halls
 	["Essence-Infused Moonstone"] = "Pierre de lune imprégnée d'essence";
 	["Darkweaver Syth"] = "Tisseur d'ombre Syth";
@@ -1259,7 +1259,7 @@ AtlasLocale = {
 	["The Saga of Terokk"] = "La Saga de Terokk";
 	["Anzu"] = "Anzu";
 	["Talon King Ikiss"] = "Roi-serre Ikiss";
-	
+
 	--Auch: Shadow Labyrinth
 	["Shadow Labyrinth Key"] = "Clé du labyrinthe des ombres";
 	["Spy To'gun"] = "Espion To'gun";
@@ -1269,7 +1269,7 @@ AtlasLocale = {
 	["The Codex of Blood"] = "Codex de sang";
 	["Murmur"] = "Marmon";
 	["First Fragment Guardian"] = "Gardien du premier fragment";
-	
+
 	--TK: The Botanica
 	["The Sha'tar"] = "Les Sha'tar"; --omitted from other TK
 	["Warpforged Key"] = "Clé dimensionnelle"; --omitted from other TK
@@ -1278,7 +1278,7 @@ AtlasLocale = {
 	["Thorngrin the Tender"] = "Rirépine le Tendre";
 	["Laj"] = "Laj";
 	["Warp Splinter"] = "Brise-dimension";
-	
+
 	--TK: The Arcatraz
 	["Key to the Arcatraz"] = "Clé de l'Arcatraz";
 	["Zereketh the Unbound"] = "Zereketh le Délié";
@@ -1289,7 +1289,7 @@ AtlasLocale = {
 	["Harbinger Skyriss"] = "Messager Cieuriss";
 	["Warden Mellichar"] = "Gardien Mellichar";
 	["Millhouse Manastorm"] = "Milhouse Tempête-de-mana";
-	
+
 	--TK: The Mechanar
 	["Gatewatcher Gyro-Kill"] = "Gardien de porte Gyro-Meurtre";
 	["Gatewatcher Iron-Hand"] = "Gardien de porte Main-en-fer";
@@ -1298,7 +1298,7 @@ AtlasLocale = {
 	["Overcharged Manacell"] = "Cellule de mana surchargée";
 	["Nethermancer Sepethrea"] = "Néantomancien Sepethrea";
 	["Pathaleon the Calculator"] = "Pathaleon le Calculateur";
-	
+
 	--TK: The Eye
 	["Al'ar <Phoenix God>"] = "Al'ar <Dieu phénix>";
 	["Void Reaver"] = "Saccageur du Vide";
@@ -1307,7 +1307,7 @@ AtlasLocale = {
 	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "Maître ingénieur Telonicus <Conseiller de Kael'thas>";
 	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "Grande astromancienne Capernian <Conseillère de Kael'thas>";
 	["Lord Sanguinar <The Blood Hammer>"] = "Seigneur Sanguinar <Le Marteau de sang>";
-	
+
 	--Gruul's Lair
 	["High King Maulgar <Lord of the Ogres>"] = "Haut Roi Maulgar <Seigneur des ogres>";
 	["Kiggler the Crazed"] = "Kiggler le Cinglé";
@@ -1315,7 +1315,7 @@ AtlasLocale = {
 	["Olm the Summoner"] = "Olm l'Invocateur";
 	["Krosh Firehand"] = "Krosh Brasemain";
 	["Gruul the Dragonkiller"] = "Gruul le Tue-dragon";
-	
+
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Ligemort Cendrelangue"; --omitted from other BT
 	["Towards Reliquary of Souls"] = "Vers Reliquaire des âmes";
@@ -1329,7 +1329,7 @@ AtlasLocale = {
 	["Aluyen <Reagents>"] = "Aluyen <Composants>";
 	["Okuno <Ashtongue Deathsworn Quartermaster>"] = "Okuno <Intendant des ligemorts cendrelangue>";
 	["Seer Kanai"] = "Voyant Kanai";
-	
+
 	--Black Temple (Basement)
 	["Gurtogg Bloodboil"] = "Gurtogg Fièvresang";
 	["Reliquary of Souls"] = "Reliquaire des âmes";
@@ -1337,7 +1337,7 @@ AtlasLocale = {
 	["Essence of Desire"] = "Essence du désir";
 	["Essence of Anger"] = "Essence de la colère";
 	["Teron Gorefiend"] = "Teron Fielsang";
-	
+
 	--Black Temple (Top)
 	["Mother Shahraz"] = "Mère Shahraz";
 	["The Illidari Council"] = "Le conseil Illidari";
@@ -1367,10 +1367,10 @@ AtlasLocale = {
 	["Spy Grik'tha"] = "Espionne Grik'tha";
 	["Provisioner Tsaalt"] = "Approvisionneur Tsaalt";
 	["Dealer Tariq <Shady Dealer>"] = "Camelot Tariq <Marchand douteux>";
-	
+
 	--Blackfathom Deeps (Entrance)
 	--Nothing to translate!
-	
+
 	--Blackrock Mountain (Entrance)
 	["Bodley"] = "Bodley";
 	["Overmaster Pyron"] = "Grand seigneur Pyron";
@@ -1378,25 +1378,25 @@ AtlasLocale = {
 	["Franclorn Forgewright"] = "Franclorn Le Forgebusier";
 	["Orb of Command"] = "Orbe de Commandement";
 	["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
-	
+
 	--Coilfang Reservoir (Entrance)
 	["Watcher Jhang"] = "Guetteur Jhang";
 	["Mortog Steamhead"] = "Mortog Têtavapeur";
-	
+
 	--Gnomeregan (Entrance)
 	["Transpolyporter"] = "Portail de multitéléportation";
 	["Sprok <Away Team>"] = "Sproque <Equipe envoyée>";
 	["Matrix Punchograph 3005-A"] = "Matrice d'Encodage 3005-A";
 	["Namdo Bizzfizzle <Engineering Supplies>"] = "Namdo Ventaperte <Fournitures d'ingénieur>";
 	["Techbot"] = "Techbot";
-	
+
 	--Maraudon (Entrance)
 	["The Nameless Prophet"] = "Le Prophète sans nom";
 	["Kolk <The First Kahn>"] = "Kolk <Le premier Khan>";
 	["Gelk <The Second Kahn>"] = "Gelk <Le deuxième Kahn>";
 	["Magra <The Third Kahn>"] = "Magra <Le troisième Kahn>";
 	["Cavindra"] = "Cavindra";
-	
+
 	--The Deadmines (Entrance)
 	["Marisa du'Paige"] = "Marisa du'Paige";
 	["Brainwashed Noble"] = "Noble manipulé";
@@ -1407,7 +1407,7 @@ AtlasLocale = {
 	["Kazkaz the Unholy"] = "Kazkaz l'Impie";
 	["Zekkis"] = "Zekkis";
 	["Veyzhak the Cannibal"] = "Veyzhak le Cannibale";
-	
+
 	--Uldaman (Entrance)
 	["Hammertoe Grez"] = "Martèlorteil Grez";
 	["Magregan Deepshadow"] = "Magregan Fondombre";
@@ -1415,7 +1415,7 @@ AtlasLocale = {
 	["Krom Stoutarm's Chest"] = "Trésor de Krom Rudebras";
 	["Garrett Family Chest"] = "Trésor de la famille Garrett";
 	["Digmaster Shovelphlange"] = "Maître des fouilles Pellaphlange";
-	
+
 	--Wailing Caverns (Entrance)
 	["Mad Magglish"] = "Magglish le Dingue";
 	["Trigore the Lasher"] = "Trigore le Flagelleur";
@@ -1425,7 +1425,7 @@ AtlasLocale = {
 	["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple de Naralex>";
 	["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "Kalldan Gangrelune <Fournitures de travailleur du cuir spécialiste>";
 	["Waldor <Leatherworking Trainer>"] = "Waldor <Maître des travailleurs du cuir>";
-	
+
 	--Dire Maul (Entrance)
 	["Dire Pool"] = "Bassin redoutable";
 	["Dire Maul Arena"] = "L'Etripoir";
@@ -1433,7 +1433,7 @@ AtlasLocale = {
 	["Skarr the Unbreakable"] = "Bâlhafr l'Invaincu";
 	["The Razza"] = "La Razza";
 	["Elder Mistwalker"] = "Ancienne Marche-brume";
-	
+
 	--Caverns of Time (Entrance)
 	["Steward of Time <Keepers of Time>"] = "Régisseur du temps <Les Gardiens du temps>";
 	["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Gargotte du temps>";
@@ -1446,7 +1446,7 @@ AtlasLocale = {
 	["Arazmodu <The Scale of Sands>"] = "Arazmodu <La Balance des sables>";
 	["Andormu <Keepers of Time>"] = "Andormu <Les Gardiens du temps>";
 	["Nozari <Keepers of Time>"] = "Nozari <Les Gardiens du temps>";
-	
+
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Archimage Leryda";
 	["Apprentice Darius"] = "Apprenti Darius";
@@ -1454,7 +1454,7 @@ AtlasLocale = {
 	["Stairs to Underground Pond"] = "Escalier vers le bassin souterrain";
 	["Stairs to Underground Well"] = "Escalier vers le puits souterrain";
 	["Charred Bone Fragment"] = "Fragment d'os carbonisé";
-	
+
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
 
@@ -1550,7 +1550,7 @@ AtlasLocale = {
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 
-	--The Nexus: The Nexus	
+	--The Nexus: The Nexus
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok le Sculpte-arbre";
 	["Grand Magus Telestra"] = "Grand Magus Telestra";
@@ -1586,8 +1586,7 @@ AtlasLocale = {
 	["Forgemaster Garfrost"] = "Maître-forge Gargivre";
 	["Martin Victus"] = "Martin Victus";
 	["Gorkun Ironskull"] = "Gorkun Crâne-de-fer";
-	["Krick"] = "Krick";
-	["Ick <Krick's Minion>"] = "Ick <Serviteur de Krick>";
+	["Krick and Ick"] = "Krick et Ick";
 	["Scourgelord Tyrannus"] = "Seigneur du Fléau Tyrannus";
 	["Rimefang"] = "Frigecroc";
 
@@ -1596,6 +1595,7 @@ AtlasLocale = {
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "Wrath of the Lich King";
+	["The Captain's Chest"] = "Le coffre du capitaine";
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
@@ -1708,7 +1708,7 @@ AtlasLocale = {
 	["General Vezax"] = "Général Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
 	["Prison of Yogg-Saron"] = "Prison de Yogg-Saron";
-	
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <Les San'layn>";
 	["Dalronn the Controller"] = "Dalronn le Contrôleur";
@@ -1722,7 +1722,7 @@ AtlasLocale = {
 	["Skadi the Ruthless"] = "Skadi le Brutal";
 	["King Ymiron"] = "Roi Ymiron";
 	["Skarvald the Constructor"] = "Skarvald le Constructeur";
-	
+
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon le Gardien des pierres";
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";

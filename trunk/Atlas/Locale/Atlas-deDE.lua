@@ -125,7 +125,7 @@ AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Tempel von Ahn'Qiraj";
 	["Karazhan"] = "Karazhan [A] (Anfang)";
 	["Der Schwarze Tempel"] = "Der Schwarze Tempel [A] (Anfang)";
-}; 
+};
 
 AtlasLocale = {
 
@@ -340,7 +340,7 @@ AtlasLocale = {
 	["UP, Pinn"] = "Turm"; -- Turm Utgarde
 	["VH"] = "VF, Vio"; -- Die Violette Festung
 	["VoA"] = "Archa"; -- Archavons Kammer
-	
+
 	--Continents
 	["Eastern Kingdoms"] = "Östliche Königreiche";
 	["Kalimdor"] = "Kalimdor";
@@ -1169,7 +1169,7 @@ AtlasLocale = {
 --*******************
 
 	--HFC: The Blood Furnace
-	["Thrallmar"] = "Thrallmar";--omitted from other HFC
+	["Thrallmar"] = "Thrallmar"; --omitted from other HFC
 	["Honor Hold"] = "Ehrenfeste";--omitted from other HFC
 	["Flamewrought Key"] = "Flammengeschmiedeter Schlüssel";--omitted from other HFC
 	["The Maker"] = "Der Schöpfer";
@@ -1485,7 +1485,7 @@ AtlasLocale = {
 	["Watcher Silthik"] = "Aufseher Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
-	
+
 	--Caverns of Time: The Culling of Stratholme
 	["The Culling of Stratholme"] = "Das Ausmerzen von Stratholme";
 	["Meathook"] = "Fleischhaken";
@@ -1504,7 +1504,7 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "Der Prophet Tharon'ja";
 	["Kurzel"] = "Kurzel";
 	["Drakuru's Brazier"] = "Drakuru's Kohlenpfanne";
-	
+
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Hochprophet des Sseratus>";
 	["Drakkari Colossus"] = "Koloss der Drakkari";
@@ -1558,7 +1558,7 @@ AtlasLocale = {
 	["Sapphiron"] = "Saphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
 
-	--The Nexus: The Nexus	
+	--The Nexus: The Nexus
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
 	["Grand Magus Telestra"] = "Großmagistrix Telestra";
@@ -1589,7 +1589,7 @@ AtlasLocale = {
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Seelenpate>";
 	["Devourer of Souls"] = "Verschlinger der Seelen";
 
-       	--The Frozen Halls: Pit of Saron
+	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
 	["Forgemaster Garfrost"] = "Schmiedemeister Garfrost";
 	["Martin Victus"] = "Martin Victus";
@@ -1622,7 +1622,7 @@ AtlasLocale = {
 	["Cyanigosa"] = "Cyanigosa";
 	["The Violet Hold Key"] = "Der Schlüssel zur Violetten Festung";
 
- 	--Trial of the Champion
+	--Trial of the Champion
  	["Grand Champions"] = "Großchampion";
  	["Champions of the Alliance"] = "Champions der Allianz";
  	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
@@ -1634,27 +1634,27 @@ AtlasLocale = {
  	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
  	["Eressea Dawnsinger"] = "Eressea Morgensänger";
     	["Runok Wildmane"] = "Runok Wildmähne";
- 	["Zul'tore"] = "Zul'tore";
+	["Zul'tore"] = "Zul'tore";
  	["Deathstalker Visceri"] = "Todespirscher Visceri";
  	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
  	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
  	["The Black Knight"] = "Der Schwarze Ritter";
 
-    	--Trial of the Crusader
+	--Trial of the Crusader
  	["Cavern Entrance"] = "Höhleneingang";
  	["Northrend Beasts"] = "Nordend Bestien";
  	["Gormok the Impaler"] = "Gormok der Pfähler";
  	["Acidmaw"] = "Ätzschlund";
  	["Dreadscale"] = "Schreckensmaul";
  	["Icehowl"] = "Eisheuler";
- 	["Lord Jaraxxus"] = "Lord Jaraxxus";
+	["Lord Jaraxxus"] = "Lord Jaraxxus";
  	["Faction Champions"] = "Fraktion-Champions";
  	["Twin Val'kyr"] = "Valkyr Zwillinge";
  	["Fjola Lightbane"] = "Fjola Lichtbann";
  	["Eydis Darkbane"] = "Eydis Nachtbann";
- 	["Anub'arak"] = "Anub'arak";
+	["Anub'arak"] = "Anub'arak";
     	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
-   
+
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
 	["Volkhan"] = "Volkhan";
@@ -1689,7 +1689,7 @@ AtlasLocale = {
 	["Tower of Flame"] = "Turm der Flammen";
 	["Tower of Frost"] = "Turm des Frostes";
 	["Tower of Storms"] = "Turm der Stürme";
-	
+
 	-- Ulduar B
 	["Assembly of Iron"] = "Versammlung des Eisens";
 	["Steelbreaker"] = "Stahlbrecher";
@@ -1700,7 +1700,7 @@ AtlasLocale = {
 	["Antechamber of Ulduar"] = "Vorkammer von Ulduar";
     	["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
     	["Archivum Console"] = "Archivumkonsole";
-	
+
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Freya";
@@ -1708,10 +1708,10 @@ AtlasLocale = {
 	["Hodir"] = "Hodir";
 	["The Shattered Walkway"] = "Der zerschmetterte Gang";
 	["The Conservatory of Life"] = "Das Konservatorium des Lebens";
-	
+
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";
-	
+
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";

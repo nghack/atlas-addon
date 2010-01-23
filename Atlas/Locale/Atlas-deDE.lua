@@ -261,7 +261,7 @@ AtlasLocale = {
 	["Icecrown Citadel"] = "Eiskronenzitadelle";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Bibliothek"; ["Lib"] = "Bib";
-	["Magisters' Terrace"] = "Terrasse der Magister"; ["MT"] = "TdM";
+	["Magisters' Terrace"] = "Terrasse der Magister"; ["MaT"] = "TdM";
 	["Magtheridon's Lair"] = "Magtheridons Kammer"; ["Mag"] = "Maggi";
 	["Mana-Tombs"] = "Managruft"; ["MT"] = "Gruft";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara, Mauro";
@@ -283,7 +283,7 @@ AtlasLocale = {
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	["Stratholme Past"] = "Das Ausmerzen von Stratholme";
 	["Sunken Temple"] = "Der Tempel von Atal'Hakkar"; ["ST"] = "Tempel";
-	["Sunwell Plateau"] = "Sonnenbrunnenplateau"; ["SP"] = "Sunwell";
+	["Sunwell Plateau"] = "Sonnenbrunnenplateau"; ["SuP"] = "Sunwell";
 	["Tempest Keep"] = "Festung der Stürme"; ["TK"] = "FdS";
 	["Temple of Ahn'Qiraj"] = "Tempel von Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "Die Arkatraz"; ["Arca"] = "Arka";

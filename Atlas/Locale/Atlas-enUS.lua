@@ -254,7 +254,7 @@ AtlasLocale = {
 	["Icecrown Citadel"] = "Icecrown Citadel";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Library"; ["Lib"] = "Lib";
-	["Magisters' Terrace"] = "Magisters' Terrace"; ["MT"] = "MT";
+	["Magisters' Terrace"] = "Magisters' Terrace"; ["MaT"] = "MT";
 	["Magtheridon's Lair"] = "Magtheridon's Lair"; ["Mag"] = "Mag";
 	["Mana-Tombs"] = "Mana-Tombs"; ["MT"] = "MT";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";
@@ -276,7 +276,7 @@ AtlasLocale = {
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	["Stratholme Past"] = "Stratholme Past";
 	["Sunken Temple"] = "Sunken Temple"; ["ST"] = "ST";
-	["Sunwell Plateau"] = "Sunwell Plateau"; ["SP"] = "SP";
+	["Sunwell Plateau"] = "Sunwell Plateau"; ["SuP"] = "SP";
 	["Tempest Keep"] = "Tempest Keep"; ["TK"] = "TK";
 	["Temple of Ahn'Qiraj"] = "Temple of Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "The Arcatraz"; ["Arca"] = "Arca";

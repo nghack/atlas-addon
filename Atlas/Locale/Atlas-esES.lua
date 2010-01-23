@@ -173,7 +173,6 @@ AtlasLocale = {
 	["Lunar"] = "Lunar";
 	["Lunar Festival"] = "Festival lunar";
 	["Mage"] = "Mago";
-
 	["Meeting Stone"] = "Piedra de encuentro";
 	["Midsummer Festival"] = "Festival del solsticio de verano";
 	["Monk"] = "Monje";	
@@ -184,7 +183,6 @@ AtlasLocale = {
 	["Outside"] = "Fuera";
 	["Paladin"] = "Paladín";
 	["Panther"] = "Pantera";
-
 	["Portal"] = "Portal";
 	["Priest"] = "Sacerdote";
 	["Protection Warrior"] = "Guerrero Protección";
@@ -225,7 +223,6 @@ AtlasLocale = {
 	["Wave 18"] = "Ola 18";
 	["West"] = "Oeste";
 
-	
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino";
 	["Ahn'Qiraj"] = "Ahn'Qiraj"; ["AQ"] = "AQ";
@@ -259,7 +256,7 @@ AtlasLocale = {
 	["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo"; ["IC"] = "CCH";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
-	["Magisters' Terrace"] = "Bancal del Magister"; ["MT"] = "BM";
+	["Magisters' Terrace"] = "Bancal del Magister"; ["MaT"] = "BM";
 	["Magtheridon's Lair"] = "Guarida de Magtheridon"; ["Mag"] = "Mag";
 	["Mana-Tombs"] = "Tumbas de Maná"; ["MT"] = "TM";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";	
@@ -281,7 +278,7 @@ AtlasLocale = {
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
 	["Stratholme Past"] = "La Matanza de Stratholme";
 	["Sunken Temple"] = "Templo de Atal'Hakkar"; ["ST"] = "TA";
-	["Sunwell Plateau"] = "Meseta del pozo del Sol"; ["SP"] = "MPS";
+	["Sunwell Plateau"] = "Meseta del pozo del Sol"; ["SuP"] = "MPS";
 	["Tempest Keep"] = "El Castillo de la Tempestad"; ["TK"] = "CT";
 	["Temple of Ahn'Qiraj"] = "Templo de Ahn'Qiraj"; ["AQ40"] = "AQ40";
 	["The Arcatraz"] = "Arcatraz"; ["Arca"] = "Arca";

@@ -1171,7 +1171,7 @@ AtlasMaps = {
 	};
 	MagistersTerrace = {
 		ZoneName = { AtlasLocale["Magisters' Terrace"], 4095 };
-		Acronym = AtlasLocale["MT"];
+		Acronym = AtlasLocale["MaT"];
 		Location = { AtlasLocale["Isle of Quel'Danas"], 4080 };
 		LevelRange = "70";
 		MinLevel = "68";
@@ -1200,7 +1200,7 @@ AtlasMaps = {
 	};
 	SunwellPlateau = {
 		ZoneName = { AtlasLocale["Sunwell Plateau"], 4075 };
-		Acronym = AtlasLocale["SP"];
+		Acronym = AtlasLocale["SuP"];
 		Location = { AtlasLocale["Isle of Quel'Danas"], 4080 };
 		LevelRange = "70";
 		MinLevel = "70";

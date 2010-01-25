@@ -1,11 +1,12 @@
 ## Interface: 30300
 ## Title: Atlas |r|cFF0099FF[Dungeon Locs]|r
+## Title-deDE: Atlas |r|cFF0099FF[Instanz-Standorte]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Расп. подземелий]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地下城位置地圖
 ## Title-zhCN: Atlas |r|cFF0099FF[副本分布图]|r
 ## Notes: Dungeon Locations
 ## Notes-ruRU: Расположение подземелий
-## Notes-deDE: Instanzen-Standorte
+## Notes-deDE: Instanz-Standorte
 ## Notes-esES: Lugar de Mazmorras
 ## Notes-frFR: Emplacements des instances
 ## Notes-koKR: 던전 지역

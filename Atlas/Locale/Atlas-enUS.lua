@@ -1522,6 +1522,13 @@ AtlasLocale = {
 	["Valithria Dreamwalker"] = "Valithria Dreamwalker";
 	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Queen of the Frostbrood>";
 	["The Lich King"] = "The Lich King";
+	["To next map"] = "To next map";
+	["From previous map"] = "From previous map";
+	["Light's Hammer"] = "Light's Hammer";
+	["Oratory of the Damned"] = "Oratory of the Damned";
+	["Rampart of Skulls"] = "Rampart of Skulls";
+	["Deathbringer's Rise"] = "Deathbringer's Rise";
+	["The Spire"] = "The Spire";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

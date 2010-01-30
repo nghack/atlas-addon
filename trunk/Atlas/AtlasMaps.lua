@@ -2332,11 +2332,16 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Connection"] };
+		{ BLUE.."C) "..AtlasLocale["To next map"] };
 		{ GREY.."1) "..AtlasLocale["Lord Marrowgar"], NPC, 36612 };
 		{ GREY.."2) "..AtlasLocale["Lady Deathwhisper"], NPC, 36855 };
 		{ GREY.."3) "..AtlasLocale["Gunship Battle"].." ("..AtlasLocale["Alliance"]..")", OBJECT, 201873 };
 		{ GREY.."4) "..AtlasLocale["Gunship Battle"].." ("..AtlasLocale["Horde"]..")", OBJECT, 201873 };
 		{ GREY.."5) "..AtlasLocale["Deathbringer Saurfang"], NPC, 37813 };
+		{ GREN.."1') "..AtlasLocale["Light's Hammer"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."2') "..AtlasLocale["Oratory of the Damned"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."3') "..AtlasLocale["Rampart of Skulls"].." ("..AtlasLocale["Teleporter"]..", "..AtlasLocale["Lower"]..")" };
+		{ GREN..INDENT..AtlasLocale["Deathbringer's Rise"].." ("..AtlasLocale["Teleporter"]..", "..AtlasLocale["Upper"]..")" };
 	};
 	IcecrownCitadelB = {
 		ZoneName = { AtlasLocale["Icecrown Citadel"].." [B] ("..AtlasLocale["Upper"]..")", 4812 };
@@ -2347,7 +2352,8 @@ AtlasMaps = {
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
-		{ BLUE.."C-H) "..AtlasLocale["Connection"] };
+		{ BLUE.."C) "..AtlasLocale["From previous map"] };
+		{ BLUE.."D-H) "..AtlasLocale["Connection"] };
 		{ GREY.."6) "..AtlasLocale["Festergut"], NPC, 36626 };
 		{ GREY.."7) "..AtlasLocale["Rotface"], NPC, 36627 };
 		{ GREY.."8) "..AtlasLocale["Professor Putricide"], NPC, 36678 };
@@ -2358,6 +2364,8 @@ AtlasMaps = {
 		{ GREY.."10) "..AtlasLocale["Blood-Queen Lana'thel"], NPC, 38004 };
 		{ GREY.."11) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
 		{ GREY.."12) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
+		{ GREN.."4') "..AtlasLocale["The Spire"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."5') "..AtlasLocale["The Lich King"].." ("..AtlasLocale["Teleporter"]..")" };
 	};
 	IcecrownCitadelC = {
 		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C] ("..AtlasLocale["Boss"]..")", 4812 };

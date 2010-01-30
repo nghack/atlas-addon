@@ -9,7 +9,7 @@
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
 ## Version: 1.16.0
-## X-Date: January, 2010
+## X-Date: February, 2010
 ## Author: Dan Gilbert
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com

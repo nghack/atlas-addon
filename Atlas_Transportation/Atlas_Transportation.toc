@@ -13,7 +13,7 @@
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 交通網路圖模組
 ## Version: 1.16.0
-## X-Date: January, 2010
+## X-Date: February, 2010
 ## Author: Dan Gilbert
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com

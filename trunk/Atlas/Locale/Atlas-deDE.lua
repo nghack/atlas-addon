@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 28.01.2010
+-- Letztes Update: 31.01.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1529,6 +1529,14 @@ AtlasLocale = {
 	["Valithria Dreamwalker"] = "Valithria Traumwandler";
 	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Königin der Frostbrut>";
 	["The Lich King"] = "Der Lichkönig";
+	["To next map"] = "Zur nächsten Karte";
+	["From previous map"] = "Von vorheriger Karte";
+	["Light's Hammer"] = "Hammer des Lichts";
+	["Oratory of the Damned"] = "Oratorium der Verdammten";
+	["Rampart of Skulls"] = "Das Schädelbollwerk";
+	["Deathbringer's Rise"] = "Dom des Todbringers";
+	["The Spire"] = "Obere Spitze";
+	["To the Lich King"] = "Zum Lichkönig";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

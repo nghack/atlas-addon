@@ -1522,6 +1522,14 @@ AtlasLocale = {
 	["Valithria Dreamwalker"] = "Валитрия Сноходица";
 	["Sindragosa <Queen of the Frostbrood>"] = "Синдрагоса";
 	["The Lich King"] = "Король-лич";
+	["To next map"] = "На следеющею карту";
+	["From previous map"] = "На предыдущую карту";
+	["Light's Hammer"] = "Молот Света";
+	["Oratory of the Damned"] = "Молельня Проклятых";
+	["Rampart of Skulls"] = "Черепной вал";
+	["Deathbringer's Rise"] = "Подъем Смертоносного";
+	["The Spire"] = "Верхний ярус";
+	["To the Lich King"] = "К Королю-личу";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";

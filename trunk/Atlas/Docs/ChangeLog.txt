@@ -20,6 +20,7 @@ v1.16.0
 - fixed many flight path routes (Dynaletik, Jeehell)
 - fixed some map categorization issues
 - rewrote and simplified the readme file
+- removed the world map coordinates feature
 
 v1.15.2
 - updated TOC number to 30300 for the 3.3 patch

@@ -78,18 +78,6 @@ function AtlasOptions_CtrlToggle()
 	Atlas_Refresh();
 end
 
-function AtlasOptions_CoordsToggle()
-	if(AtlasOptions.AtlasCoords) then
-		AtlasOptions.AtlasCoords = false;
-		Atlas_WorldMap_Frame:Hide();
-	else
-		AtlasOptions.AtlasCoords = true;
-		Atlas_WorldMap_Frame:Show();
-	end
-	AtlasOptions_Init();
-	Atlas_Refresh();
-end
-
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
 	AtlasOptions.AtlasType = 1;
@@ -120,7 +108,6 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameAcronyms:SetChecked(AtlasOptions.AtlasAcronyms);
 	AtlasOptionsFrameClamped:SetChecked(AtlasOptions.AtlasClamped);
 	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
-	AtlasOptionsFrameCoords:SetChecked(AtlasOptions.AtlasCoords);
 	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);

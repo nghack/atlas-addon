@@ -38,7 +38,7 @@ end
 
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.15.0";
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.16.0";
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -67,7 +67,6 @@ local DefaultAtlasOptions = {
 	["AtlasClamped"] = true;
 	["AtlasSortBy"] = 1;
 	["AtlasCtrl"] = false;
-	["AtlasCoords"] = false;
 };
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
@@ -555,11 +554,6 @@ function Atlas_Init()
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped);
 	AtlasButton_UpdatePosition();
 	AtlasOptions_Init();
-	if AtlasOptions.AtlasCoords then
-		Atlas_WorldMap_Frame:Show();
-	else
-		Atlas_WorldMap_Frame:Hide();
-	end
 	
 	--Cosmos integration
 	if(EarthFeature_AddButton) then
@@ -1109,44 +1103,6 @@ end
 local function round(num, idp)
    local mult = 10 ^ (idp or 0);
    return math.floor(num * mult + 0.5) / mult;
-end
-
-function Atlas_WorldMap_OnUpdate(self, elapsed)
-	local x, y = GetPlayerMapPosition("player");
-	local text, playerCoords, cursorCoords;
-	if ( x == 0 and y == 0 ) then
-		playerCoords = "---";
-	else
-		x = round(x * 100, 2);
-		y = round(y * 100, 2);
-		playerCoords = string.format("%.2f, %.2f", x, y);
-	end
-	
-	--[[
-	local x, y = GetCursorPosition();
-	local scale = WorldMapFrame:GetScale();
-	x = x / scale;
-	y = y / scale;
-	local width = WorldMapButton:GetWidth();
-	local height = WorldMapButton:GetHeight();
-	local centerX, centerY = WorldMapFrame:GetCenter();
-	local adjustedX = (x - (centerX - (width/2))) / width;
-	local adjustedY = (centerY + (height/2) - y) / height;
-	x = ( adjustedX + 0.0022 ) * 100;
-	y = ( adjustedY - 0.0262 ) * 100;
-	if ( x < 0 or x > 100 or y < 0 or y > 100 ) then
-		cursorCoords = "---";
-	else
-		x = round(x, 2);
-		y = round(y, 2);
-		cursorCoords = string.format("%.2f, %.2f", x, y);
-	end
-	
-	text = ATLAS_WORLDMAP_PLAYER..": "..playerCoords.." | "..ATLAS_WORLDMAP_CURSOR..": "..cursorCoords;
-	--]]
-	
-	text = ATLAS_WORLDMAP_PLAYER..": "..playerCoords;
-	getglobal(self:GetName().."_Text"):SetText(text);
 end
 
 function AtlasEntryTemplate_OnUpdate(self)

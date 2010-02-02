@@ -526,27 +526,4 @@
 			</OnMouseUp>
 		</Scripts>
 	</Frame>
-	<Frame name="Atlas_WorldMap_Frame" parent="WorldMapFrame" hidden="true">
-		<Layers>
-			<Layer level="OVERLAY">
-				<FontString name="$Parent_Text" inherits="GameFontHighlightSmall">
-					<Anchors>
-						<Anchor point="RIGHT" relativeTo="WorldMapQuestShowObjectives" relativePoint="LEFT">
-							<Offset>
-								<AbsDimension x="-25" y="0"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-			</Layer>
-		</Layers>
-		<Scripts>
-			<OnUpdate>
-				Atlas_WorldMap_OnUpdate(self, elapsed);
-			</OnUpdate>
-			<OnHide>
-				SetMapToCurrentZone();
-			</OnHide>
-		</Scripts>
-	</Frame>
 </Ui>

@@ -140,23 +140,6 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$ParentCoords" inherits="InterfaceOptionsSmallCheckButtonTemplate">
-				<Anchors>
-					<Anchor point="TOPLEFT">
-						<Offset>
-							<AbsDimension x="15" y="-160"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_COORDS);
-					</OnLoad>
-					<OnClick>
-						AtlasOptions_CoordsToggle();
-					</OnClick>
-				</Scripts>
-			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>

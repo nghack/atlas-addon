@@ -339,7 +339,7 @@ AtlasLocale = {
 	["Kalimdor"] = "卡林多";
 	["Outland"] = "外域";
 	["Northrend"] = "北裂境";
-	
+
 	--Outdoor zones, Locations
 	["Ashenvale"] = "梣谷";
 	["Badlands"] = "荒蕪之地";
@@ -1522,6 +1522,14 @@ AtlasLocale = {
 	["Valithria Dreamwalker"] = "瓦莉絲瑞雅·夢行者";
 	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>";
 	["The Lich King"] = "巫妖王";
+	["To next map"] = "到下一個地圖";
+	["From previous map"] = "到前一個地圖";
+	["Light's Hammer"] = "聖光之錘";
+	["Oratory of the Damned"] = "詛咒祈願室";
+	["Rampart of Skulls"] = "骸顱壁壘";
+	["Deathbringer's Rise"] = "死亡使者高崗";
+	["The Spire"] = "冰冠尖塔";
+	["To the Lich King"] = "往巫妖王";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "畢勾沃斯先生";

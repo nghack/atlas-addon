@@ -24,7 +24,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 01/10/2009
+-- Última Actualización (last update): 04/02/2010
 
 --]]
 
@@ -172,29 +172,13 @@ AtlasBGLocale = {
 	["Lumber Mill"] = "Aserradero";
 	["Farm"] = "Granja";
 
-	--Warsong Gulch
-	["Warsong Outriders"] = "Escoltas de Grito de Guerra";
-	["Silverwing Sentinels"] = "Centinelas Ala de Plata";
-	["Silverwing Hold"] = "Bastión Ala de Plata";
-	["Warsong Lumber Mill"] = "Serrería Grito de Guerra";
-
-	--Eye of the Storm
+--Eye of the Storm
 	["Graveyard"] = "Cementerio";
 	["Flag"] = "Bandera";
 	["Mage Tower"] = "Torre de los Magos";
 	["Draenei Ruins"] = "Ruinas de los Draenei";
 	["Fel Reaver Ruins"] = "Ruinas de Atracador Vil";
 	["Blood Elf Tower"] = "Torre de los Elfos de Sangre";
-
-	--Strand of the Ancients
-	["Attacking Team"] = "Equipo atacante";
-	["Defending Team"] = "Equipo defendiendo";
-	["Massive Seaforium Charge"] = "Carga de seforio enorme";
-	["Battleground Demolisher"] = "Demoledor del campo de batalla";
-	["Resurrection Point"] = "Punto de Resurrección";
-	["Graveyard Flag"] = "Bandera del Cementerio";
-	["Titan Relic"] = "Reliquia de titán";
-	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
 	--Isle of Conquest
 	["The Refinery"] = "La Refinería";
 	["The Docks"] = "El Astillero";
@@ -207,5 +191,19 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
 	["Overlord Agmar"] = "Señor supremo Agmar";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Alto comandante Halford Aterravermis <La Séptima Legión>";
+	--Strand of the Ancients
+	["Attacking Team"] = "Equipo atacante";
+	["Defending Team"] = "Equipo defendiendo";
+	["Massive Seaforium Charge"] = "Carga de seforio enorme";
+	["Battleground Demolisher"] = "Demoledor del campo de batalla";
+	["Resurrection Point"] = "Punto de Resurrección";
+	["Graveyard Flag"] = "Bandera del Cementerio";
+	["Titan Relic"] = "Reliquia de titán";
+	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
+	--Warsong Gulch
+	["Warsong Outriders"] = "Escoltas de Grito de Guerra";
+	["Silverwing Sentinels"] = "Centinelas Ala de Plata";
+	["Silverwing Hold"] = "Bastión Ala de Plata";
+	["Warsong Lumber Mill"] = "Serrería Grito de Guerra";
 };
 end

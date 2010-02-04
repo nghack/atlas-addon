@@ -26,7 +26,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 16/04/2009
+-- Úlltima Actualización (last update): 04/02/2010
 
 --]]
 if ( GetLocale() ==	"esES" ) then
@@ -62,6 +62,7 @@ AtlasTransLocale = {
 	["Bouldercrag's Refuge"] = "Refugio de Pedruscón"; --Check
 	["Brackenwall Village"] = "Poblado Murohelecho";
 	["Brann Bronzebeard's Camp"] = "Campamento base de Brann";
+	["Bulwark"] = "Baluarte"; --Check
 	["Burning Steppes"] = "Las Estepas Ardientes";
 	["Camp Mojache"] = "Campamento Mojache";
 	["Camp One'Qwah"] = "Campamento Oneqwah";
@@ -219,6 +220,7 @@ AtlasTransLocale = {
 	["The Stormspire"] = "La Flecha de la Tormenta";
 	["Thelsamar"] = "Thelsamar";
 	["Theramore Isle"] = "Isla Theramore";
+	["Thondroril River"] = "Río Thondroril";
 	["Thorium Point"] = "Puesto del Torio";
 	["Thousand Needles"] = "Las Mil Agujas";
 	["Thrallmar"] = "Thrallmar";

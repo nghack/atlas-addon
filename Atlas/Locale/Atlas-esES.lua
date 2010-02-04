@@ -24,7 +24,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 16/01/2010
+-- Última Actualización (last update): 04/02/2010
 
 --************************************************
 -- Global Atlas Strings
@@ -242,18 +242,19 @@ AtlasLocale = {
 	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
 	["Dire Maul"] = "La Masacre"; ["DM"] = "LM";	
 	["Drak'Tharon Keep"] = "Fortaleza de Drak'Tharon";
+	["Frozen Halls"] = "Cámaras Heladas";
 	["Gnomeregan"] = "Gnomeregan"; ["Gnome"] = "Gnome";
 	["Graveyard"] = "Cementerio"; ["GY"] = "Cemen";
 	["Gruul's Lair"] = "Guarida de Gruul"; ["GL"] = "Gruul";
 	["Gundrak"] = "Gundrak";
-	["Halls of Stone"] = "Cámara de Piedra";
 	["Halls of Lightning"] = "Cámaras de Relámpagos";
-	["Halls of Reflection"] = "Cámaras de Reflexión"; ["HoR"] = "CdR"; ["FH3"] = "CH3";
+	["Halls of Reflection"] = "Cámaras de Reflexión";
+	["Halls of Stone"] = "Cámara de Piedra";
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
 	["Icecrown"] = "Corona de Hielo";
-	["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo"; ["IC"] = "CCH";
+	["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
 	["Magisters' Terrace"] = "Bancal del Magister"; ["MaT"] = "BM";
@@ -261,10 +262,10 @@ AtlasLocale = {
 	["Mana-Tombs"] = "Tumbas de Maná"; ["MT"] = "TM";
 	["Maraudon"] = "Maraudon"; ["Mara"] = "Mara";	
 	["Molten Core"] = "Núcleo de Magma"; ["MC"] = "MC";	
-	["Naxxramas"] = "Naxxramas"; ["Nax"] = "Nax";	
+	["Naxxramas"] = "Naxxramas";
 	["Old Hillsbrad Foothills"] = "Laderas de Trabalomas"; ["CoT1"] = "CdT1";	
 	["Onyxia's Lair"] = "Guarida de Onyxia"; ["Ony"] = "Ony";
-	["Pit of Saron"] = "Foso de Saron"; ["PoS"] = "FdS"; ["FH2"] = "CH2";
+	["Pit of Saron"] = "Foso de Saron";
 	["Ragefire Chasm"] = "Sima Ignea"; ["RFC"] = "SI";
 	["Razorfen Downs"] = "Zahúrda Rajacieno"; ["RFD"] = "ZR";
 	["Razorfen Kraul"] = "Horado Rajacieno"; ["RFK"] = "HR";
@@ -288,8 +289,7 @@ AtlasLocale = {
 	["The Deadmines"] = "Las Minas de la Muerte"; ["VC"] = "LMM";
 	["The Eye"] = "El Ojo"; ["Eye"] = "Ojo";
 	["The Eye of Eternity"] = "El Ojo de la Eternidad";
-	["The Forge of Souls"] = "La Forja de Almas"; ["FoS"] = "FdS"; ["FH1"] = "CH1";
-	["The Frozen Halls"] = "Las cámaras heladas";
+	["The Forge of Souls"] = "La Forja de Almas";
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
@@ -300,8 +300,8 @@ AtlasLocale = {
 	["The Stockade"] = "Las Mazmorras"; ["Stocks"] = "Mazmorras";
 	["The Underbog"] = "La Sotiénaga"; ["UB"] = "Soti";
 	["The Violet Hold"] = "El Bastión Violeta";
-	["Trial of the Champion"] = "Prueba del Campeón"; ["Champ"] = "PdCa";
-	["Trial of the Crusader"] = "Prueba del cruzado"; ["Crus"] = "PdCr";
+	["Trial of the Champion"] = "Prueba del Campeón";
+	["Trial of the Crusader"] = "Prueba del cruzado";
 	["Uldaman"] = "Uldaman"; ["Uld"] = "Uld";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Fortaleza de Utgarde";
@@ -313,28 +313,35 @@ AtlasLocale = {
 	["Zul'Gurub"] = "Zul'Gurub"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
-	["Strat, CoT-Strat"] = "Strat, CdT-Strat";
-	["DTK"] = "DTK"; -- Drak'Tharon Keep
-	["Gun"] = "Gun"; -- Gundrak
-	["HoS"] = "CdP"; -- Halls of Stone
-	["HoL"] = "CdR"; -- Halls of Lightning
-	["OS"] = "SO"; -- The Obsidian Sanctum
-	["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
-	["UP, Pinn"] = "PU, Pinaculo"; -- Utgarde Pinnacl
-	["Nex, Nexus"] = "Nexo"; -- The Nexus
 	["AK, Kahet"] = "Kahet"; -- Ahn'kahet
-	["VH"] = "BV"; -- The Violet Hold
+	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
+	["Champ"] = "Camp"; -- Trial of the Champion
+	["Crus"] = "Cruz"; -- Trial of the Crusader
+	["DTK"] = "DTK"; -- Drak'Tharon Keep
+	["FoS"] = "FdA"; ["FH1"] = "FH1"; -- The Forge of Souls
+	["Gun"] = "Gun"; -- Gundrak
+	["HoL"] = "CdR"; -- Halls of Lightning
+	["HoR"] = "CdR"; ["FH3"] = "CR3"; -- Halls of Reflection
+	["HoS"] = "CdP"; -- Halls of Stone
+	["IC"] = "CCH"; -- Icecrown Citadel
+	["Nax"] = "Nax"; -- Naxxramas	
+	["Nex, Nexus"] = "Nexo"; -- The Nexus
 	["Ocu"] = "Oculus"; -- The Oculus
-	["Archavon"] = "VoA"; -- Vault of Archavon
+	["OS"] = "SO"; -- The Obsidian Sanctum
+	["PoS"] = "FdS"; ["FH2"] = "CR2"; -- Pit of Saron
+	["Strat, CoT-Strat"] = "Strat, CdT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "OE"; -- The Eye of Eternity
+	["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
 	["Uldu"] = "Uldu"; -- Ulduar
+	["UP, Pinn"] = "PU, Pinaculo"; -- Utgarde Pinnacl
+	["VH"] = "BV"; -- The Violet Hold
+	["VoA"] = "CdA"; -- Vault of Archavon
 	
 	--Continents
 	["Eastern Kingdoms"] = "Las Tierras del Este";
 	["Kalimdor"] = "Kalimdor";
-	["Outland"] = "Terrallende";
 	["Northrend"] = "Rasganorte";
+	["Outland"] = "Terrallende";
 	
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Vallefresno";
@@ -355,6 +362,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Colinas Pardas";
 	["Hellfire Peninsula"] = "Península de Fuego";
 	["Howling Fjord"] = "Fiordo Aquilonal";
+	["Icecrown"] = "Corona de Hielo";
 	["Isle of Quel'Danas"] = "Isla de Quel'Danas";
 	["Netherstorm"] = "Tormenta Abisal";
 	["Orgrimmar"] = "Orgrimmar";
@@ -1517,6 +1525,32 @@ AtlasLocale = {
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Sumo profeta de Akali>";
 	["Eck the Ferocious"] = "Eck el Feroz";
 	
+	--Icecrown Citadel
+	["The Ashen Verdict"] = "El Veredicto Cinéreo";
+	["Lord Marrowgar"] = "Lord Tuétano";
+	["Lady Deathwhisper"] = "Lady Susurramuerte";
+	["Gunship Battle"] = "Arsenal de la nave de guerra";
+	["Deathbringer Saurfang"] = "Libramorte Colmillosauro";
+	["Festergut"] = "Panzachancro";
+	["Rotface"] = "Carapútrea";
+	["Professor Putricide"] = "Profesor Putricidio";
+	["Blood Prince Council"] = "Concilio de los príncipes de sangre"; --Check
+	["Prince Keleseth"] = "Príncipe Keleseth";
+	["Prince Taldaram"] = "Príncipe Taldaram";
+	["Prince Valanar"] = "Príncipe Valanar";
+	["Blood-Queen Lana'thel"] = "Reina de Sangre Lana'thel";
+	["Valithria Dreamwalker"] = "Valithria Caminasueños";
+	["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Reina de los Razaescarcha>";
+	["The Lich King"] = "El Rey Éxanime";
+	["To next map"] = "Al siguiente mapa";
+	["From previous map"] = "Desde mapa anterior";
+	["Light's Hammer"] = "El Martillo de Light"; --Check
+	["Oratory of the Damned"] = "Oratorio de los Malditos";
+	["Rampart of Skulls"] = "Muralla de las Calaveras";
+	["Deathbringer's Rise"] = "Alto del Libramorte";
+	["The Spire"] = "La Aguja"; --Check
+	["To the Lich King"] = "Al Rey Éxanime";
+	
 	--Naxxramas
 
 	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
@@ -1545,7 +1579,6 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "Guarida Vermis de Escarcha"; --Check
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
-	
 	--The Nexus: The Nexus	
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok el Cortador de árboles";
@@ -1566,14 +1599,6 @@ AtlasLocale = {
 	["Varos Cloudstrider <Azure-Lord of the Blue Dragonflight>"] = "Varos Zancanubes <Lord Azur del Vuelo Azul>";
 	["Centrifuge Construct"] = "Ensamblaje de centrifugadora";
 	["Cache of Eregos"] = "Alijo de Eregos";
-	--The Frozen Halls: Pit of Saron
-	["Forgemaster Garfrost"] = "Maestro de forja Gargelus";
-	["Martin Victus"] = "Martin Victus"; --Check
-	["Gorkun Ironskull"] = "Gorkun Testahierro";
-	["Krick"] = "Puagh";
-	["Ick <Krick's Minion>"] = "Agh <Esbirro de Puagh>";
-	["Scourgelord Tyrannus"] = "Señor de la Plaga Tyrannus";
-	["Rimefang"] = "Dientefrío";
 
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
@@ -1584,13 +1609,21 @@ AtlasLocale = {
 	["Dark Ranger Kalira"] = "Forestal oscura Kalira";
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Padrino de almas>";
 	["Devourer of Souls"] = "Devoraalmas";
-
+	--The Frozen Halls: Pit of Saron
+	--6 beginning NPCs omitted, see The Forge of Souls
+	["Forgemaster Garfrost"] = "Maestro de forja Gargelus";
+	["Martin Victus"] = "Martin Victus"; --Check
+	["Gorkun Ironskull"] = "Gorkun Testahierro";
+	["Krick and Ick"] = "Puagh y Agh";
+	["Scourgelord Tyrannus"] = "Señor de la Plaga Tyrannus";
+	["Rimefang"] = "Dientefrío";
 	--The Frozen Halls: Halls of Reflection
-	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	--Lady Sylvanas Windrunner <Banshee Queen> omitted, in The Frozen Halls: The Forge of Souls
+	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "El Rey Exánime";
+	["The Captain's Chest"] = "El cofre del Capitán";
+
 	
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check

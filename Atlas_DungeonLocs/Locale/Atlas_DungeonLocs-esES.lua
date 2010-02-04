@@ -26,7 +26,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 01/10/2009
+-- Última Actualización (last update): 04/02/2010
 
 --]]
 
@@ -82,6 +82,7 @@ AtlasDLLocale = {
 	["Gruul's Lair"] = "Guarida de Gruul";
 	["Gundrak"] = "Gundrak";
 	["Halls of Lightning"] = "Cámaras de Relámpagos";
+	["Halls of Reflection"] = "Cámaras de Reflexión";
 	["Halls of Stone"] = "Cámara de Piedra";
 	["Hellfire Citadel"] = "Ciudadela de Fuego Infernal";
 	["Hellfire Peninsula"] = "Península del Fuego Infernal";
@@ -106,6 +107,7 @@ AtlasDLLocale = {
 	["Onyxia's Lair"] = "Guarida de Onyxia";
 	["Orgrimmar"] = "Orgrimmar";
 	["Outland"] = "Terrallende";
+	["Pit of Saron"] = "Foso de Saron";
 	["Ragefire Chasm"] = "Sima Ígnea";
 	["Razorfen Downs"] = "Horado Rajacieno";
 	["Razorfen Kraul"] = "Zahúrda Rojocieno";
@@ -138,6 +140,8 @@ AtlasDLLocale = {
 	["The Deadmines"] = "Las Minas de la Muerte";
 	["The Eye of Eternity"] = "El Ojo de la Eternidad";
 	["The Eye"] = "El Ojo";
+	["The Forge of Souls"] = "La Forja de Almas";
+	["The Frozen Halls"] = "Las Cámaras Heladas";
 	["The Mechanar"] = "El Mechanar";
 	["The Nexus"] = "El Nexo";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";

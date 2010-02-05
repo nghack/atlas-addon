@@ -2365,7 +2365,8 @@ AtlasMaps = {
 		{ GREY.."11) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
 		{ GREY.."12) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
 		{ GREN.."4') "..AtlasLocale["The Spire"].." ("..AtlasLocale["Teleporter"]..")" };
-		{ GREN.."5') "..AtlasLocale["To the Lich King"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."5') "..AtlasLocale["Sindragosa's Lair"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."6') "..AtlasLocale["To the Lich King"].." ("..AtlasLocale["Teleporter"]..")" };
 	};
 	IcecrownCitadelC = {
 		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C] ("..AtlasLocale["Boss"]..")", 4812 };

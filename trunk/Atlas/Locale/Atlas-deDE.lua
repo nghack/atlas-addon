@@ -1536,6 +1536,7 @@ AtlasLocale = {
 	["Rampart of Skulls"] = "Das Schädelbollwerk";
 	["Deathbringer's Rise"] = "Dom des Todesbringers";
 	["The Spire"] = "Obere Spitze";
+	["Sindragosa's Lair"] = "Sindragosas Hort";
 	["To the Lich King"] = "Zum Lichkönig";
 
 	--Naxxramas

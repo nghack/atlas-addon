@@ -1529,6 +1529,7 @@ AtlasLocale = {
 	["Rampart of Skulls"] = "Rampart of Skulls";
 	["Deathbringer's Rise"] = "Deathbringer's Rise";
 	["The Spire"] = "The Spire";
+	["Sindragosa's Lair"] = "Sindragosa's Lair";
 	["To the Lich King"] = "To the Lich King";
 
 	--Naxxramas

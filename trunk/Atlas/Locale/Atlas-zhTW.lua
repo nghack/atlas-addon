@@ -1529,6 +1529,7 @@ AtlasLocale = {
 	["Rampart of Skulls"] = "骸顱壁壘";
 	["Deathbringer's Rise"] = "死亡使者高崗";
 	["The Spire"] = "冰冠尖塔";
+	["Sindragosa's Lair"] = "辛德拉苟莎之巢";
 	["To the Lich King"] = "往巫妖王";
 
 	--Naxxramas

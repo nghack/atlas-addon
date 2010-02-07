@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 03.02.2010
+-- Letztes Update: 07.02.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -165,7 +165,7 @@ AtlasLocale = {
 	["Fourth Stop"] = "Vierter Halt";
 	["Front"] = "Vorne";
 	["Ghost"] = "Geist";
-	["Hallow's End"] = "Die Schlotternächte";
+	["Hallow's End"] = "Schlotternächte";
 	["Heroic"] = "Heroisch";
 	["Holy Paladin"] = "Heilig Paladin";
 	["Holy Priest"] = "Heilig Priesterin";
@@ -174,12 +174,13 @@ AtlasLocale = {
 	["Imp"] = "Wichtel";
 	["Inside"] = "Innen";
 	["Key"] = "Schlüssel";
+	["Love is in the Air"] = "Liebe liegt in der Luft";
 	["Lower"] = "Unten";
 	["Lunar"] = "Mondfest";
-    	["Lunar Festival"] = "Mondfest";
+	["Lunar Festival"] = "Mondfest";
 	["Mage"] = "Magier";
 	["Meeting Stone"] = "Versammlungsstein";
-    	["Midsummer Festival"] = "Sonnenwendfest";
+	["Midsummer Festival"] = "Sonnenwendfest";
 	["Monk"] = "Mönch";
 	["Moonwell"] = "Mondbrunnen";
 	["North"] = "Nord";
@@ -244,7 +245,7 @@ AtlasLocale = {
 	["Caverns of Time"] = "Höhlen der Zeit"; ["CoT"] = "HdZ";
 	["Chamber of Aspects"] = "Die Kammer der Aspekte";
 	["Coilfang Reservoir"] = "Der Echsenkessel"; ["CR"] = "EK";
-    	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
+	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
 	["Dire Maul"] = "Düsterbruch"; ["DM"] = "DM";
 	["Drak'Tharon Keep"] = "Feste Drak'Tharon";
 	["Frozen Halls"] = "Gefrorene Hallen";
@@ -304,8 +305,8 @@ AtlasLocale = {
 	["The Stockade"] = "Das Verlies"; ["Stocks"] = "Verlies";
 	["The Underbog"] = "Der Tiefensumpf"; ["UB"] = "TS";
 	["The Violet Hold"] = "Die Violette Festung";
-    	["Trial of the Champion"] = "Prüfung des Champions";
- 	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers";
+	["Trial of the Champion"] = "Prüfung des Champions";
+	["Trial of the Crusader"] = "Prüfung des Kreuzfahrers";
 	["Uldaman"] = "Uldaman"; ["Ulda"] = "Ulda";
 	["Ulduar"] = "Ulduar";
 	["Utgarde Keep"] = "Burg Utgarde";
@@ -366,7 +367,7 @@ AtlasLocale = {
 	["Grizzly Hills"] = "Grizzlyhügel";
 	["Hellfire Peninsula"] = "Höllenfeuerhalbinsel";
 	["Howling Fjord"] = "Der heulende Fjord";
-    	["Icecrown"] = "Eiskrone";
+	["Icecrown"] = "Eiskrone";
 	["Isle of Quel'Danas"] = "Insel von Quel'Danas";
 	["Netherstorm"] = "Nethersturm";
 	["Orgrimmar"] = "Orgrimmar";
@@ -881,7 +882,12 @@ AtlasLocale = {
 	["Sorcerer Ashcrombe"] = "Zauberhexer Aschengrund";
 	["Deathstalker Adamant"] = "Todespirscher Adamant";
 	["Landen Stilwell"] = "Landen Stillbrunn";
+	["Investigator Fezzen Brasstacks"] = "Ermittler Fezzen Kupferstapel";
 	["Deathstalker Vincent"] = "Todespirscher Vincent";
+	["Apothecary Trio"] = "Apotheker-Trio";
+	["Apothecary Hummel <Crown Chemical Co.>"] = "Apotheker Hummel <Chemiemanufaktur Krone>";
+	["Apothecary Baxter <Crown Chemical Co.>"] = "Apotheker Baxter <Chemiemanufaktur Krone>";
+	["Apothecary Frye <Crown Chemical Co.>"] = "Apotheker Frye <Chemiemanufaktur Krone>";
 	["Fel Steed"] = "Teufelsross";
 	["Jordan's Hammer"] = "Jordans Hammer";
 	["Crate of Ingots"] = "Kiste mit Blöcken";
@@ -1632,37 +1638,37 @@ AtlasLocale = {
 	["The Violet Hold Key"] = "Der Schlüssel zur Violetten Festung";
 
 	--Trial of the Champion
- 	["Grand Champions"] = "Großchampions";
- 	["Champions of the Alliance"] = "Champions der Allianz";
- 	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
- 	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
-    	["Colosos"] = "Kolosos";
- 	["Jaelyne Evensong"] = "Jaelyne Abendlied";
-    	["Lana Stouthammer"] = "Lana Starkhammer";
- 	["Champions of the Horde"] = "Champions der Horde";
- 	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
- 	["Eressea Dawnsinger"] = "Eressea Morgensänger";
-    	["Runok Wildmane"] = "Runok Wildmähne";
+	["Grand Champions"] = "Großchampions";
+	["Champions of the Alliance"] = "Champions der Allianz";
+	["Marshal Jacob Alerius"] = "Marschall Jacob Alerius";
+	["Ambrose Boltspark"] = "Ambrose Bolzenfunk";
+	["Colosos"] = "Kolosos";
+	["Jaelyne Evensong"] = "Jaelyne Abendlied";
+	["Lana Stouthammer"] = "Lana Starkhammer";
+	["Champions of the Horde"] = "Champions der Horde";
+	["Mokra the Skullcrusher"] = "Mokra der Schädelberster";
+	["Eressea Dawnsinger"] = "Eressea Morgensänger";
+	["Runok Wildmane"] = "Runok Wildmähne";
 	["Zul'tore"] = "Zul'tore";
- 	["Deathstalker Visceri"] = "Todespirscher Visceri";
- 	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
- 	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
- 	["The Black Knight"] = "Der Schwarze Ritter";
+	["Deathstalker Visceri"] = "Todespirscher Visceri";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "Eadric der Reine <Großchampion des Argentumkreuzzugs>";
+	["Argent Confessor Paletress"] = "Argentumbeichtpatin Blondlocke";
+	["The Black Knight"] = "Der Schwarze Ritter";
 
 	--Trial of the Crusader
- 	["Cavern Entrance"] = "Höhleneingang";
- 	["Northrend Beasts"] = "Nordend Bestien";
- 	["Gormok the Impaler"] = "Gormok der Pfähler";
- 	["Acidmaw"] = "Ätzschlund";
- 	["Dreadscale"] = "Schreckensmaul";
- 	["Icehowl"] = "Eisheuler";
+	["Cavern Entrance"] = "Höhleneingang";
+	["Northrend Beasts"] = "Nordend Bestien";
+	["Gormok the Impaler"] = "Gormok der Pfähler";
+	["Acidmaw"] = "Ätzschlund";
+	["Dreadscale"] = "Schreckensmaul";
+	["Icehowl"] = "Eisheuler";
 	["Lord Jaraxxus"] = "Lord Jaraxxus";
- 	["Faction Champions"] = "Fraktion-Champions";
- 	["Twin Val'kyr"] = "Valkyr Zwillinge";
- 	["Fjola Lightbane"] = "Fjola Lichtbann";
- 	["Eydis Darkbane"] = "Eydis Nachtbann";
+	["Faction Champions"] = "Fraktion-Champions";
+	["Twin Val'kyr"] = "Valkyr Zwillinge";
+	["Fjola Lightbane"] = "Fjola Lichtbann";
+	["Eydis Darkbane"] = "Eydis Nachtbann";
 	["Anub'arak"] = "Anub'arak";
-    	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
+	["Heroic: Trial of the Grand Crusader"] = "Heroisch: Prüfung des Obersten Kreuzfahrers";
 
 	--Ulduar: Halls of Lightning
 	["General Bjarngrim"] = "General Bjarngrim";
@@ -1707,8 +1713,8 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon der Beobachter";
 	["Antechamber of Ulduar"] = "Vorkammer von Ulduar";
-    	["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
-    	["Archivum Console"] = "Archivumkonsole";
+	["Prospector Doren"] = "Ausgrabungsleiter Doren"; 
+	["Archivum Console"] = "Archivumkonsole";
 
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
@@ -1730,7 +1736,7 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
 	["Dalronn the Controller"] = "Dalronn der Aufseher";
 	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
-    	["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
+	["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Kleinkeul";
@@ -1743,7 +1749,7 @@ AtlasLocale = {
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
-    	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
+	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
 
 };

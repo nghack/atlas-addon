@@ -24,7 +24,7 @@
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 04/02/2010
+-- Última Actualización (last update): 09/02/2010
 
 --************************************************
 -- Global Atlas Strings
@@ -169,6 +169,7 @@ AtlasLocale = {
 	["Imp"] = "Duendecillo";
 	["Inside"] = "Dentro";
 	["Key"] = "Llave";
+	["Love is in the Air"] = "Amor en el aire";
 	["Lower"] = "Abajo";
 	["Lunar"] = "Lunar";
 	["Lunar Festival"] = "Festival lunar";
@@ -810,7 +811,6 @@ AtlasLocale = {
 	
 	--Molten Core
 	["Hydraxian Waterlords"] = "Srs. del Agua de Hydraxis";
-
 	["Lucifron"] = "Lucifron";
 	["Magmadar"] = "Magmadar";
 	["Gehennas"] = "Gehennas";
@@ -851,7 +851,6 @@ AtlasLocale = {
 	["Viewing Room"] = "Sala de visión";
 	["Blood of Innocents"] = "Sangre de los Inocentes";	
 	["Divination Scryer"] = "Cristal de adivinación";
-
 	["Blood Steward of Kirtonos"] = "Administrador de sangre de Kirtonos";
 	["The Deed to Southshore"] = "Las escrituras de Costasur";
 	["Kirtonos the Herald"] = "Kirtonos el Heraldo";
@@ -882,7 +881,12 @@ AtlasLocale = {
 	["Sorcerer Ashcrombe"] = "Hechicero Ashcrombe";
 	["Deathstalker Adamant"] = "Mortacechador Adamant";
 	["Landen Stilwell"] = "Landen Fontana";
+	["Investigator Fezzen Brasstacks"] = "Investigador Fezzen Brasstacks"; --Check
 	["Deathstalker Vincent"] = "Mortacechador Vincent";
+	["Apothecary Trio"] = "Boticario Trio"; --Check
+	["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <La Corona, S.L>"; --Check
+	["Apothecary Baxter <Crown Chemical Co.>"] = "Boticario Baxter <La Corona, S.L>"; --Check
+	["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <La Corona, S.L>"; --Check
 	["Fel Steed"] = "Corcel vil";
 	["Jordan's Hammer"] = "Martillo de Jordan";
 	["Crate of Ingots"] = "Cajón de lingotes";
@@ -902,7 +906,6 @@ AtlasLocale = {
 	["Various Postbox Keys"] = "Varias llaves de los buzones";
 	["Living Side"] = "Lado vivo";
 	["Undead Side"] = "Lado no muerto";
-
 	["Skul"] = "Skul";
 	["Stratholme Courier"] = "Mensajero de Stratholme";
 	["Fras Siabi"] = "Fras Siabi";
@@ -1032,7 +1035,6 @@ AtlasLocale = {
 	--Karazhan Start
 	["The Violet Eye"] = "El Ojo Violeta";--omitted from Karazhan End
 	["The Master's Key"] = "La llave del maestro";--omitted from Karazhan End
-
 	["Staircase to the Ballroom"] = "Escaleras al Salón de baile";
 	["Stairs to Upper Stable"] = "Escaleras al Establo superior";
 	["Ramp to the Guest Chambers"] = "Rampa a Los aposentos de invitados";
@@ -1229,10 +1231,8 @@ AtlasLocale = {
 	--CR: The Steamvault
 	["Hydromancer Thespia"] = "Hidromántico Thespia";
 	["Main Chambers Access Panel"] = "Panel de acceso de la cámara principal";
-
 	["Second Fragment Guardian"] = "Guardián del Segundo Fragmento";
 	["Mekgineer Steamrigger"] = "Mekigeniero Vaporino";
-
 	["Warlord Kalithresh"] = "Señor de la Guerra Kalithresh";
 
 	--CR: Serpentshrine Cavern
@@ -1280,7 +1280,6 @@ AtlasLocale = {
 	["Grandmaster Vorpil"] = "Maestro mayor Vorpil";
 	["The Codex of Blood"] = "El Códice de Sangre";
 	["Murmur"] = "Murmur";
-
 	["First Fragment Guardian"] = "Guardián del Primer Fragmento";
 
 	--TK: The Botanica
@@ -1295,7 +1294,6 @@ AtlasLocale = {
 	--TK: The Arcatraz
 	["Key to the Arcatraz"] = "Llave de El Arcatraz";
 	["Zereketh the Unbound"] = "Zereketh el Desatado";
-
 	["Third Fragment Guardian"] = "Guardián del Tercer Fragmento";
 	["Dalliah the Doomsayer"] = "Dalliah la Decidora del Destino";
 	["Wrath-Scryer Soccothrates"] = "Arúspice de cólera Soccothrates";
@@ -1314,11 +1312,9 @@ AtlasLocale = {
 	["Pathaleon the Calculator"] = "Pathaleon el Calculator";
 
 	--TK: The Eye
-
 	["Al'ar <Phoenix God>"] = "Al'ar <Dios Fénix>";
 	["Void Reaver"] = "Atracador del vacío";
 	["High Astromancer Solarian"] = "Gran astromántico Solarian";
-
 	["Thaladred the Darkener <Advisor to Kael'thas>"] = "Thaladred el Ensombrecedor <Consejero de Kael'thas>";
 	["Master Engineer Telonicus <Advisor to Kael'thas>"] = "Maestro ingeniero Telonicus <Consejero de Kael'thas>";
 	["Grand Astromancer Capernian <Advisor to Kael'thas>"] = "Gran astromántica Capernian <Consejera de Kael'thas>";
@@ -1334,7 +1330,6 @@ AtlasLocale = {
 
 	--Black Temple (Start)
 	["Ashtongue Deathsworn"] = "Juramorte Lengua de Ceniza";--omitted from other BT
-
 	["Towards Reliquary of Souls"] = "Hacia Relicario de Almas";
 	["Towards Teron Gorefiend"] = "Hacia Teron Sanguino";
 	["Towards Illidan Stormrage"] = "Hacia Illidan Tempestira";
@@ -1462,8 +1457,6 @@ AtlasLocale = {
 	["Soridormi <The Scale of Sands>"] = "Soridormi <La Escama de las Arenas>";
 	["Arazmodu <The Scale of Sands>"] = "Arazmodu <La Escama de las Arenas>";
 	["Andormu <Keepers of Time>"] = "Andormu <Vigilantes del Tiempo";
-
-	
 	["Nozari <Keepers of Time>"] = "Nozari <Vigilantes del Tiempo>";
 
 	--Karazhan (Entrance)
@@ -1550,10 +1543,9 @@ AtlasLocale = {
 	["Deathbringer's Rise"] = "Alto del Libramorte";
 	["Upper Spire"] = "Aguja Superior";
 	["Sindragosa's Lair"] = "Guarida de Sindragosa";
-	["The Frozen Throne"] = "Trono Helado";
+	["The Frozen Throne"] = "El trono helado";
 	
 	--Naxxramas
-
 	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
 	["Construct Quarter"] = "Barrio de los Ensamblajes";
 	["Patchwerk"] = "Remendejo";
@@ -1624,7 +1616,6 @@ AtlasLocale = {
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "El Rey Exánime";
 	["The Captain's Chest"] = "El cofre del Capitán";
-
 	
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check
@@ -1688,7 +1679,6 @@ AtlasLocale = {
 	["Sjonnir the Ironshaper"] = "Sjonnir el Afilador";
 	["Maiden of Grief"] = "Doncella de Pena";
 	
-	
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Llave del Planetario Celestial"; --Check
 	["The Siege"] = "El asedio"; --Check
@@ -1696,7 +1686,6 @@ AtlasLocale = {
 	["The Keepers"] = "Los vigilantes"; --C Check
 	["Spark of Imagination"] = "Chispa de Imaginación"; --D Check
 	["Descent into Madness"] = "El Descenso a la Locura"; --E
-	
 	
 	-- Ulduar A
 	["Flame Leviathan"] = "Leviatán de llamas";
@@ -1707,7 +1696,6 @@ AtlasLocale = {
 	["Formation Grounds"] = "Campo de Formación";
 	["The Colossal Forge"] = "La Forja Colosal"; --Check
 	["The Scrapyard"] = "La Chatarrería";
-	
 	["Tower of Life"] = "Torre de Vida";
 	["Tower of Flame"] = "Torre de Llamas";
 	["Tower of Frost"] = "Torre de Escarcha";
@@ -1721,7 +1709,6 @@ AtlasLocale = {
 	["Kologarn"] = "Kologarn";
 	["Algalon the Observer"] = "Algalon el Observador";
 	["Antechamber of Ulduar"] = "La Antecámara de Ulduar";
-	
 	["Prospector Doren"] = "Prospector Doren";
 	["Archivum Console"] = "Consola de El Archivum";
 	
@@ -1733,10 +1720,8 @@ AtlasLocale = {
 	["The Shattered Walkway"] = "El Paseo Arrasado"; --Check
 	["The Conservatory of Life"] = "El Invernadero de Vida";
 	
-	
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";
-	
 	
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
@@ -1747,7 +1732,6 @@ AtlasLocale = {
 	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <Los San'layn>";
 	["Dalronn the Controller"] = "Dalronn el Controlador";
 	["Ingvar the Plunderer"] = "Ingvar el Desvalijador";
-	
 	["Dark Ranger Marrah"] = "Forestal oscura Marrah";
 
 	--Utgarde Keep: Utgarde Pinnacle
@@ -1758,12 +1742,10 @@ AtlasLocale = {
 	["King Ymiron"] = "Rey Ymiron";
 	["Skarvald the Constructor"] = "Skarvald el Constructor";
 	
-	
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";
 	["Koralon the Flame Watcher"] = "Koralon el Vigía de las llamas";
 	["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
-	
 };
 end

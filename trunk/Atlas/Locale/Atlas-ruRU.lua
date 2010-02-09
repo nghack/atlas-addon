@@ -1534,9 +1534,9 @@ AtlasLocale = {
 	["Oratory of the Damned"] = "Молельня Проклятых";
 	["Rampart of Skulls"] = "Черепной вал";
 	["Deathbringer's Rise"] = "Подъем Смертоносного";
+	["Upper Spire"] = "Верхний ярус";
 	["Sindragosa's Lair"] = "Логово Синдрагосы";
-	["The Spire"] = "Верхний ярус";
-	["To the Lich King"] = "К Королю-личу";
+	["The Frozen Throne"] = "The Frozen Throne";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";

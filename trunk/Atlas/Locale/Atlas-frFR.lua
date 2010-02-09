@@ -1529,14 +1529,13 @@ AtlasLocale = {
 	["The Lich King"] = "Le roi-liche";
 	["To next map"] = "Vers la carte suivante";
 	["From previous map"] = "Vers la carte précédente";
-	-- à traduire
-	["Light's Hammer"] = "Light's Hammer";
-	["Oratory of the Damned"] = "Oratory of the Damned";
-	["Rampart of Skulls"] = "Rampart of Skulls";
-	["Deathbringer's Rise"] = "Deathbringer's Rise";
-	["The Spire"] = "The Spire";
-	["Sindragosa's Lair"] = "Sindragosa's Lair";
-	["To the Lich King"] = "To the Lich King";
+	["Light's Hammer"] = "Marteau de Lumière";
+	["Oratory of the Damned"] = "L'oratoire des Damnés";
+	["Rampart of Skulls"] = "Rempart des Crânes";
+	["Deathbringer's Rise"] = "Cime du porte-mort";
+	["Upper Spire"] = "Flèche supérieure";
+	["Sindragosa's Lair"] = "Repaire de Sindragosa";
+	["The Frozen Throne"] = "Trône de glace";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "M. Bigglesworth";

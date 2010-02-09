@@ -1534,9 +1534,9 @@ AtlasLocale = {
 	["Oratory of the Damned"] = "Oratory of the Damned";
 	["Rampart of Skulls"] = "Rampart of Skulls";
 	["Deathbringer's Rise"] = "Deathbringer's Rise";
-	["The Spire"] = "The Spire";
+	["Upper Spire"] = "Upper Spire";
 	["Sindragosa's Lair"] = "Sindragosa's Lair";
-	["To the Lich King"] = "To the Lich King";
+	["The Frozen Throne"] = "The Frozen Throne";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

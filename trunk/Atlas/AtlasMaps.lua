@@ -2359,6 +2359,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."C) "..AtlasLocale["From previous map"] };
 		{ BLUE.."D-H) "..AtlasLocale["Connection"] };
+		{ BLUE.."I) "..AtlasLocale["To next map"] };
 		{ GREY.."6) "..AtlasLocale["Festergut"], NPC, 36626 };
 		{ GREY.."7) "..AtlasLocale["Rotface"], NPC, 36627 };
 		{ GREY.."8) "..AtlasLocale["Professor Putricide"], NPC, 36678 };
@@ -2369,12 +2370,11 @@ AtlasMaps = {
 		{ GREY.."10) "..AtlasLocale["Blood-Queen Lana'thel"], NPC, 38004 };
 		{ GREY.."11) "..AtlasLocale["Valithria Dreamwalker"], NPC, 36789 };
 		{ GREY.."12) "..AtlasLocale["Sindragosa <Queen of the Frostbrood>"], NPC, 37755 };
-		{ GREN.."4') "..AtlasLocale["The Spire"].." ("..AtlasLocale["Teleporter"]..")" };
+		{ GREN.."4') "..AtlasLocale["Upper Spire"].." ("..AtlasLocale["Teleporter"]..")" };
 		{ GREN.."5') "..AtlasLocale["Sindragosa's Lair"].." ("..AtlasLocale["Teleporter"]..")" };
-		{ GREN.."6') "..AtlasLocale["To the Lich King"].." ("..AtlasLocale["Teleporter"]..")" };
 	};
 	IcecrownCitadelC = {
-		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C] ("..AtlasLocale["Boss"]..")", 4812 };
+		ZoneName = { AtlasLocale["Icecrown Citadel"].." [C] ("..AtlasLocale["The Frozen Throne"]..")", 4812 };
 		Location = { AtlasLocale["Icecrown"], 210 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2382,6 +2382,7 @@ AtlasMaps = {
 		Acronym = AtlasLocale["IC"];
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
-		{ GREY.."13) "..AtlasLocale["The Lich King"], NPC, 29983 };
+		{ BLUE.."I) "..AtlasLocale["From previous map"] };
+		{ GREY.."13) "..AtlasLocale["The Lich King"], NPC, 36597 };
 	};
 };

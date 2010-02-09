@@ -1544,12 +1544,13 @@ AtlasLocale = {
 	["The Lich King"] = "El Rey Éxanime";
 	["To next map"] = "Al siguiente mapa";
 	["From previous map"] = "Desde mapa anterior";
-	["Light's Hammer"] = "El Martillo de Light"; --Check
+	["Light's Hammer"] = "Martillo de la Luz";
 	["Oratory of the Damned"] = "Oratorio de los Malditos";
 	["Rampart of Skulls"] = "Muralla de las Calaveras";
 	["Deathbringer's Rise"] = "Alto del Libramorte";
-	["The Spire"] = "La Aguja"; --Check
-	["To the Lich King"] = "Al Rey Éxanime";
+	["Upper Spire"] = "Aguja Superior";
+	["Sindragosa's Lair"] = "Guarida de Sindragosa";
+	["The Frozen Throne"] = "Trono Helado";
 	
 	--Naxxramas
 

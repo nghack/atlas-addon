@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 07.02.2010
+-- Letztes Update: 09.02.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1541,9 +1541,9 @@ AtlasLocale = {
 	["Oratory of the Damned"] = "Oratorium der Verdammten";
 	["Rampart of Skulls"] = "Das Schädelbollwerk";
 	["Deathbringer's Rise"] = "Dom des Todesbringers";
-	["The Spire"] = "Obere Spitze";
+	["Upper Spire"] = "Obere Spitze";
 	["Sindragosa's Lair"] = "Sindragosas Hort";
-	["To the Lich King"] = "Zum Lichkönig";
+	["The Frozen Throne"] = "Der Frostthron";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Mr. Bigglesworth";

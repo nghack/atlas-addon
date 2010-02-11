@@ -1536,7 +1536,7 @@ AtlasLocale = {
 	["Deathbringer's Rise"] = "Подъем Смертоносного";
 	["Upper Spire"] = "Верхний ярус";
 	["Sindragosa's Lair"] = "Логово Синдрагосы";
-	["The Frozen Throne"] = "The Frozen Throne";
+	["The Frozen Throne"] = "Ледяной Трон";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Мистер Бигглсуорт";

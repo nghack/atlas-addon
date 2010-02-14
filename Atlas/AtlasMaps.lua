@@ -563,7 +563,7 @@ AtlasMaps = {
 		{ BLUE.."C-F) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Vaelan"].." ("..AtlasLocale["Upper"]..")", NPC, 10296 };
 		{ GREY.."2) "..AtlasLocale["Warosh <The Cursed>"].." ("..AtlasLocale["Wanders"]..")", NPC, 10799 };
-		{ GREY..INDENT..AtlasLocale["Elder Stonefort"], NPC, 15560 };
+		{ GREY..INDENT..AtlasLocale["Elder Stonefort"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 15560 };
 		{ GREY.."3) "..AtlasLocale["Roughshod Pike"], OBJECT, 175886 };
 		{ GREY.."4) "..AtlasLocale["Spirestone Butcher"].." ("..AtlasLocale["Rare"]..")", NPC, 9219 };
 		{ GREY.."5) "..AtlasLocale["Highlord Omokk"], NPC, 9196 };

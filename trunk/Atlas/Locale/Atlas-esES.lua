@@ -120,7 +120,7 @@ AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
 	["Karazhan"] = "Karazhan [A] (Comienzo)";
 	["Black Temple"] = "Templo oscuro [A] (Comienzo)";
-}; 
+};
 
 AtlasLocale = {
 
@@ -254,7 +254,6 @@ AtlasLocale = {
 	["Hellfire Citadel"] = "Ciudadela del Fuego Infernal"; ["HFC"] = "CFI";
 	["Hellfire Ramparts"] = "Murallas del Fuego Infernal"; ["Ramp"] = "Murallas";	
 	["Hyjal Summit"] = "El Monte Hyjal"; ["CoT3"] = "CdT3";
-	["Icecrown"] = "Corona de Hielo";
 	["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo";
 	["Karazhan"] = "Karazhan"; ["Kara"] = "Kara";
 	["Library"] = "Librería"; ["Lib"] = "Lib";	
@@ -337,13 +336,13 @@ AtlasLocale = {
 	["UP, Pinn"] = "PU, Pinaculo"; -- Utgarde Pinnacl
 	["VH"] = "BV"; -- The Violet Hold
 	["VoA"] = "CdA"; -- Vault of Archavon
-	
+
 	--Continents
 	["Eastern Kingdoms"] = "Las Tierras del Este";
 	["Kalimdor"] = "Kalimdor";
 	["Northrend"] = "Rasganorte";
 	["Outland"] = "Terrallende";
-	
+
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Vallefresno";
 	["Badlands"] = "Tierras del Interior";
@@ -384,7 +383,7 @@ AtlasLocale = {
 	["Wintergrasp"] = "Conquista del Invierno";	
 	["Zangarmarsh"] = "Marismas de Zangar";
 	["Zul'Drak"] = "Zul'Drak";
-	
+
 --************************************************
 -- Kalimdor Instance Data
 --************************************************
@@ -396,7 +395,7 @@ AtlasLocale = {
 	["Jergosh the Invoker"] = "Jergosh el Convocador";
 	["Zelemar the Wrathful"] = "Zelemar el Colérico";
 	["Bazzalan"] = "Bazzalan";
-	
+
 	--Wailing Caverns
 	["Disciple of Naralex"] = "Discípulo de Naralex";
 	["Lord Cobrahn <Fanglord>"] = "Lord Cobrahn <Noble del Colmillo>";
@@ -409,7 +408,7 @@ AtlasLocale = {
 	["Mutanus the Devourer"] = "Mutanus el Devorador";
 	["Naralex"] = "Naralex";
 	["Deviate Faerie Dragon"] = "Dragón Férico descarriado";
-	
+
 	--Blackfathom Deeps
 	["Ghamoo-ra"] = "Ghamoo-ra";
 	["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
@@ -425,7 +424,7 @@ AtlasLocale = {
 	["Aku'mai"] = "Aku'mai";
 	["Morridune"] = "Morriduna";
 	["Altar of the Deeps"] = "Altar de las profundidades";
-	
+
 	--Razorfen Kraul
 	["Roogug"] = "Roogug";
 	["Aggem Thorncurse <Death's Head Prophet>"] = "Aggem Malaespina <Profeta de los Caramuerte>";
@@ -449,9 +448,8 @@ AtlasLocale = {
 	["Ragglesnout"] = "Morrandrajos";
 	["Amnennar the Coldbringer"] = "Amnennar el Gélido";
 	["Plaguemaw the Rotting"] = "Fauzpeste el Putrefacto";
-	
-	--Zul'Farrak
 
+	--Zul'Farrak
 	["Antu'sul <Overseer of Sul>"] = "Antu'sul <Sobrestante de Sul>";
 	["Theka the Martyr"] = "Theka el Mártir";
 	["Witch Doctor Zum'rah"] = "Médico Brujo Zum'rah";
@@ -472,7 +470,7 @@ AtlasLocale = {
 	["Ruuzlu"] = "Ruuzlu";
 	["Zerillis"] = "Zerillis";
 	["Sandarr Dunereaver"] = "Sandarr Asaltadunas";
-	
+
 	--Maraudon	
 	["Scepter of Celebras"] = "Cetro de Celebras";
 	["Veng <The Fifth Khan>"] = "Veng <El quinto Khan>";
@@ -487,7 +485,7 @@ AtlasLocale = {
 	["Rotgrip"] = "Escamapodrida";
 	["Princess Theradras"] = "Princesa Theradras";
 	["Elder Splitrock"] = "Ancestro Parterroca";
-	
+
 	--Dire Maul (East)
 	["Pusillin"] = "Pusillín";
 	["Zevrim Thornhoof"] = "Zevrim Pezuñahendida";
@@ -497,7 +495,7 @@ AtlasLocale = {
 	["Old Ironbark"] = "Viejo Cortezaférrea";
 	["Alzzin the Wildshaper"] = "Alzzin el Formaferal";
 	["Isalien"] = "Isalien";
-	
+
 	--Dire Maul (North)
 	["Crescent Key"] = "Llave creciente";--omitted from Dire Maul (West)
 	--"Library" omitted from here and DM West because of SM: "Library" duplicate
@@ -530,9 +528,8 @@ AtlasLocale = {
 	["Lorekeeper Mykos"] = "Tradicionalista Mykos";
 	["Shen'dralar Provisioner"] = "Proveedor Shen'dralar";
 	["Skeletal Remains of Kariel Winthalus"] = "Restos de Kariel Winthalus";
-	
-	--Onyxia's Lair
 
+	--Onyxia's Lair
 	["Onyxian Warders"] = "Guardas de Onyxia";
 	["Whelp Eggs"] = "Huevos de crías";
 	["Onyxia"] = "Onyxia";
@@ -560,7 +557,7 @@ AtlasLocale = {
 	["Arygos"] = "Arygos";
 	["Caelestrasz"] = "Caelestrasz";
 	["Merithra of the Dream"] = "Merithra del Sueño";
-	
+
 	--Ruins of Ahn'Qiraj
 	["Cenarion Circle"] = "Círculo Cenarion";
 	["Kurinnaxx"] = "Kurinnaxx";
@@ -662,11 +659,11 @@ AtlasLocale = {
 	["Young Blanchy"] = "Joven Blanchy";
 	["Don Carlos"] = "Don Carlos";
 	["Guerrero"] = "Guerrero";
-		
+
 --****************************
 -- Eastern Kingdoms Instances
 --****************************
-	
+
 	--Blackrock Depths
 	["Shadowforge Key"] = "Llave Forjatiniebla";
 	["Prison Cell Key"] = "Llave de Celda de Prisión";
@@ -760,7 +757,6 @@ AtlasLocale = {
 	["Burning Felguard"] = "Guarda vil ardiente";
 
 	--Blackrock Spire (Upper)
-
 	["Pyroguard Emberseer"] = "Piroguardián Brasadivino";
 	["Solakar Flamewreath"] = "Solakar Corona de Fuego";
 	["Father Flame"] = "Padre llama";
@@ -776,7 +772,7 @@ AtlasLocale = {
 	["Finkle Einhorn"] = "Finkle Unicornín";
 	["General Drakkisath"] = "General Drakkisath";
 	["Drakkisath's Brand"] = "El orbe de orden";
-	
+
 	--Blackwing Lair
 	["Razorgore the Untamed"] = "Sangrevaja el Indomable";
 	["Vaelastrasz the Corrupt"] = "Vaelastrasz el Corrupto";
@@ -788,7 +784,7 @@ AtlasLocale = {
 	["Flamegor"] = "Flamagor";
 	["Chromaggus"] = "Chromaggus";
 	["Nefarian"] = "Nefarian";
-	
+
 	--Gnomeregan
 	["Workshop Key"] = "Llave de taller";
 	["Blastmaster Emi Shortfuse"] = "Maestro Destructor Emi Plomocorto";
@@ -808,7 +804,7 @@ AtlasLocale = {
 	["Matrix Punchograph 3005-D"] = "Perforégrafo Matriz 3005-D";
 	["Dark Iron Ambassador"] = "Embajador Hierro Negro";
 	["Mekgineer Thermaplugg"] = "Mekigeniero Termochufe";
-	
+
 	--Molten Core
 	["Hydraxian Waterlords"] = "Srs. del Agua de Hydraxis";
 	["Lucifron"] = "Lucifron";
@@ -844,7 +840,7 @@ AtlasLocale = {
 	["Ironspine"] = "Dosarcerado";
 	["Azshir the Sleepless"] = "Azshir el Insomne";
 	["Fallen Champion"] = "Campeón caído";
-	
+
 	--Scholomance
 	["Skeleton Key"] = "Llave esqueleto";
 	["Viewing Room Key"] = "Llave de la Sala de visión";
@@ -874,19 +870,19 @@ AtlasLocale = {
 	["Torch Lever"] = "Antocha palanca";
 	["Secret Chest"] = "Cofre secreto";
 	["Alchemy Lab"] = "Laboratorio de alquimia";
-	
+
 	--Shadowfang Keep
 	["Deathsworn Captain"] = "Capitán Juramorte";
 	["Rethilgore <The Cell Keeper>"] = "Rethilgore <El Guardián de la celda>";
 	["Sorcerer Ashcrombe"] = "Hechicero Ashcrombe";
 	["Deathstalker Adamant"] = "Mortacechador Adamant";
 	["Landen Stilwell"] = "Landen Fontana";
-	["Investigator Fezzen Brasstacks"] = "Investigador Fezzen Brasstacks"; --Check
+	["Investigator Fezzen Brasstacks"] = "Investigador Fezzen Arreolatón";
 	["Deathstalker Vincent"] = "Mortacechador Vincent";
-	["Apothecary Trio"] = "Boticario Trio"; --Check
-	["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <La Corona, S.L>"; --Check
-	["Apothecary Baxter <Crown Chemical Co.>"] = "Boticario Baxter <La Corona, S.L>"; --Check
-	["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <La Corona, S.L>"; --Check
+	["Apothecary Trio"] = "Trío de boticarios ";
+	["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <Químicos La Corona, S.L.> ";
+	["Apothecary Baxter <Crown Chemical Co.>"] = "Boticario Baxter <Químicos La Corona, S.L.>";
+	["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <Químicos La Corona, S.L.>";
 	["Fel Steed"] = "Corcel vil";
 	["Jordan's Hammer"] = "Martillo de Jordan";
 	["Crate of Ingots"] = "Cajón de lingotes";
@@ -953,7 +949,7 @@ AtlasLocale = {
 	["Edwin VanCleef <Defias Kingpin>"] = "Edwin VanCleef <Cerebro de los Defias>";
 	["Mr. Smite <The Ship's First Mate>"] = "Don Mamporro <El contramaestre del barco>";
 	["Cookie <The Ship's Cook>"] = "Cocinitas <El cocinero del barco>";
-	
+
 	--The Stockade
 	["Targorr the Dread"] = "Targor el Pavoroso";
 	["Kam Deepfury"] = "Kam Furiahonda";
@@ -986,7 +982,7 @@ AtlasLocale = {
 	["Spawn of Hakkar"] = "Engendro de Hakkar";
 	["Elder Starsong"] = "Ancestro Cantoestelar";
 	["Statue Activation Order"] = "Orden de activación de estatuas";
-	
+
 	--Uldaman
 	["Staff of Prehistoria"] = "Basón de Prehistoria";
 	["Baelog"] = "Baelog";
@@ -1007,7 +1003,7 @@ AtlasLocale = {
 	["Archaedas <Ancient Stone Watcher>"] = "Archaedas <Vigía de piedra antiguo>";
 	["The Discs of Norgannon"] = "Los Discos de Norgannon";
 	["Ancient Treasure"] = "Tesoro Antiguo";
-	
+
 	--Zul'Gurub
 	["Zandalar Tribe"] = "Tribu Zandalar";
 	["Mudskunk Lure"] = "Mudskunk Lure";
@@ -1080,7 +1076,7 @@ AtlasLocale = {
 	["Julianne"] = "Julieta";
 	["The Master's Terrace"] = "El Bancal del Maestro";
 	["Nightbane"] = "Nocturno";
-	
+
 	--Karazhan End
 	["Broken Stairs"] = "Escaleras rotas";
 	["Ramp to Guardian's Library"] = "Rampa a la Biblioteca del Guardián";
@@ -1102,7 +1098,7 @@ AtlasLocale = {
 	["Echo of Medivh"] = "Eco de Medivh";
 	["Dust Covered Chest"] = "Evento del Ajedrez";
 	["Prince Malchezaar"] = "Príncipe Malchezaar";
-	
+
 	--Zul'Aman
 	["Harrison Jones"] = "Harrison Jones";
 	["Nalorakk <Bear Avatar>"] = "Nalorakk <Avatar de oso>";
@@ -1135,7 +1131,7 @@ AtlasLocale = {
 	["Galathryn"] = "Galathryn";
 	["Mitzi"] = "Mitzi";
 	["Mannuth"] = "Mannuth";
-	
+
 	--Magisters Terrace
 	["Shattered Sun Offensive"] = "Ofensiva del Sol Devastado";
 	["Selin Fireheart"] = "Selin corazón de fuego";
@@ -1158,7 +1154,6 @@ AtlasLocale = {
 	["Kael'thas Sunstrider <Lord of the Blood Elves>"] = "Kael’thas Caminante del Sol <Señor de los elfos de sangre>";
 
 	--Sunwell Plateau
-
 	["Sathrovarr the Corruptor"] = "Sathrovarr el Corruptor";
 	["Madrigosa"] = "Madrigosa";
 	["Brutallus"] = "Brutallus"; --FALTA
@@ -1169,7 +1164,7 @@ AtlasLocale = {
 	["M'uru"] = "M'uru";
 	["Entropius"] = "Entropius"; --FALTA
 	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <The Deceiver>"; --FALTA
-	
+
 --*******************
 -- Outland Instances
 --*******************
@@ -1470,11 +1465,11 @@ AtlasLocale = {
 	--Scarlet Monastery (Entrance)
 	--Nothing to translate!
 
-	--*****************
-	-- WotLK Instances
-	--*****************
+--*****************
+-- WotLK Instances
+--*****************
 
-	--I'm switching from continent grouping to expansion grouping.
+--I'm switching from continent grouping to expansion grouping.
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancestro Nadox";
@@ -1483,7 +1478,7 @@ AtlasLocale = {
 	["Herald Volazj"] = "Heraldo Volazj";
 	["Amanitar"] = "Amanitar";
 	["Ahn'kahet Brazier"] = "Blandón Ahn'kahet"; --Check
-	
+
 	--Azjol-Nerub: Azjol-Nerub
 	["Krik'thir the Gatewatcher"] = "Krik'thir el vigía de las puertas";
 	["Watcher Gashra"] = "Vigía Gashra";
@@ -1491,7 +1486,7 @@ AtlasLocale = {
 	["Watcher Silthik"] = "Vigía Silthik";
 	["Hadronox"] = "Hadronox";
 	["Anub'arak"] = "Anub'arak";
-	
+
 	--Caverns of Time: The Culling of Stratholme
 	["The Culling of Stratholme"] = "La Matanza de Stratholme";
 	["Meathook"] = "Gancho";
@@ -1502,7 +1497,7 @@ AtlasLocale = {
 	["Infinite Corruptor"] = "Corruptor Infinito";
 	["Guardian of Time"] = "Guardián del Tiempo";
 	["Scourge Invasion Points"] = "Puntos Invasión de la Plaga";
-	
+
 	--Drak'Tharon Keep
 	["Trollgore"] = "Cuernotrol";
 	["Novos the Summoner"] = "Novos el Invocador";
@@ -1510,14 +1505,14 @@ AtlasLocale = {
 	["The Prophet Tharon'ja"] = "El profeta Tharon'ja";
 	["Kurzel"] = "Kurzel";
 	["Drakuru's Brazier"] = "El blandón de Drakuru"; --Check
-	
+
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Sumo profeta de Sseratus>";
 	["Drakkari Colossus"] = "Coloso Drakkari";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Sumo profeta de Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Sumo profeta de Akali>";
 	["Eck the Ferocious"] = "Eck el Feroz";
-	
+
 	--Icecrown Citadel
 	["The Ashen Verdict"] = "El Veredicto Cinéreo";
 	["Lord Marrowgar"] = "Lord Tuétano";
@@ -1544,7 +1539,7 @@ AtlasLocale = {
 	["Upper Spire"] = "Aguja Superior";
 	["Sindragosa's Lair"] = "Guarida de Sindragosa";
 	["The Frozen Throne"] = "El trono helado";
-	
+
 	--Naxxramas
 	["Mr. Bigglesworth"] = "Sr. Biguelvalor";
 	["Construct Quarter"] = "Barrio de los Ensamblajes";
@@ -1572,7 +1567,8 @@ AtlasLocale = {
 	["Frostwyrm Lair"] = "Guarida Vermis de Escarcha"; --Check
 	["Sapphiron"] = "Sapphiron";
 	["Kel'Thuzad"] = "Kel'Thuzad";
-	--The Nexus: The Nexus	
+
+	--The Nexus: The Nexus
 	["Anomalus"] = "Anomalus";
 	["Ormorok the Tree-Shaper"] = "Ormorok el Cortador de árboles";
 	["Grand Magus Telestra"] = "Gran Maga Telestra";
@@ -1584,7 +1580,7 @@ AtlasLocale = {
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
 	["Key to the Focusing Iris"] = "Llave del Iris de enfoque";	
-	
+
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos el interrogador";
 	["Mage-Lord Urom"] = "Señor de la Magia Urom";
@@ -1602,6 +1598,7 @@ AtlasLocale = {
 	["Dark Ranger Kalira"] = "Forestal oscura Kalira";
 	["Bronjahm <Godfather of Souls>"] = "Bronjahm <Padrino de almas>";
 	["Devourer of Souls"] = "Devoraalmas";
+
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
 	["Forgemaster Garfrost"] = "Maestro de forja Gargelus";
@@ -1610,20 +1607,21 @@ AtlasLocale = {
 	["Krick and Ick"] = "Puagh y Agh";
 	["Scourgelord Tyrannus"] = "Señor de la Plaga Tyrannus";
 	["Rimefang"] = "Dientefrío";
+
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
 	["Falric"] = "Falric";
 	["Marwyn"] = "Marwyn";
 	["Wrath of the Lich King"] = "El Rey Exánime";
 	["The Captain's Chest"] = "El cofre del Capitán";
-	
+
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check
 	["Sartharion <The Onyx Guardian>"] = "Sartharion <El Guardíán Onyx>"; --Check
 	["Tenebron"] = "Tenebron";
 	["Shadron"] = "Shadron";
 	["Vesperon"] = "Vesperon";
-	
+
 	--The Violet Hold
 	["Erekem"] = "Erekem";
 	["Zuramat the Obliterator"] = "Zuramat el Obliterador";
@@ -1633,6 +1631,7 @@ AtlasLocale = {
 	["Lavanthor"] = "Lavanthor";
 	["Cyanigosa"] = "Cianigosa";
 	["The Violet Hold Key"] = "Llave de El Bastión Violeta";
+
 	--Trial of the Champion
 	["Grand Champions"] = "Grandes campeones";
 	["Champions of the Alliance"] = "Campeones de la Alianza";
@@ -1671,14 +1670,14 @@ AtlasLocale = {
 	["Volkhan"] = "Volkhan";
 	["Ionar"] = "Ionar";
 	["Loken"] = "Loken";
-	
+
 	--Ulduar: Halls of Stone	
 	["Tribunal Chest"] = "Cofre del tribunal";
 	["Krystallus"] = "Krystallus";
 	["Brann Bronzebeard"] = "Brann Barbabronce";
 	["Sjonnir the Ironshaper"] = "Sjonnir el Afilador";
 	["Maiden of Grief"] = "Doncella de Pena";
-	
+
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Llave del Planetario Celestial"; --Check
 	["The Siege"] = "El asedio"; --Check
@@ -1686,7 +1685,7 @@ AtlasLocale = {
 	["The Keepers"] = "Los vigilantes"; --C Check
 	["Spark of Imagination"] = "Chispa de Imaginación"; --D Check
 	["Descent into Madness"] = "El Descenso a la Locura"; --E
-	
+
 	-- Ulduar A
 	["Flame Leviathan"] = "Leviatán de llamas";
 	["Ignis the Furnace Master"] = "Ignis el Maestro de la Caldera";
@@ -1700,7 +1699,7 @@ AtlasLocale = {
 	["Tower of Flame"] = "Torre de Llamas";
 	["Tower of Frost"] = "Torre de Escarcha";
 	["Tower of Storms"] = "Torre de Tormentas";
-	
+
 	-- Ulduar B
 	["Assembly of Iron"] = "Asamblea de Hierro";
 	["Steelbreaker"] = "Rompeacero";
@@ -1711,7 +1710,7 @@ AtlasLocale = {
 	["Antechamber of Ulduar"] = "La Antecámara de Ulduar";
 	["Prospector Doren"] = "Prospector Doren";
 	["Archivum Console"] = "Consola de El Archivum";
-	
+
 	-- Ulduar C
 	["Auriaya"] = "Auriaya";
 	["Freya"] = "Don de Freya";
@@ -1719,15 +1718,15 @@ AtlasLocale = {
 	["Hodir"] = "Hodir";
 	["The Shattered Walkway"] = "El Paseo Arrasado"; --Check
 	["The Conservatory of Life"] = "El Invernadero de Vida";
-	
+
 	-- Ulduar D
 	["Mimiron"] = "Mimiron";
-	
+
 	-- Ulduar E
 	["General Vezax"] = "General Vezax";
 	["Yogg-Saron"] = "Yogg-Saron";
 	["Prison of Yogg-Saron"] = "Teletransporte de La Prisión de Yogg-Saron";	
-	
+
 	--Utgarde Keep: Utgarde Keep
 	["Prince Keleseth <The San'layn>"] = "Príncipe Keleseth <Los San'layn>";
 	["Dalronn the Controller"] = "Dalronn el Controlador";
@@ -1741,7 +1740,7 @@ AtlasLocale = {
 	["Skadi the Ruthless"] = "Skadi el Despiadado";
 	["King Ymiron"] = "Rey Ymiron";
 	["Skarvald the Constructor"] = "Skarvald el Constructor";
-	
+
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon el Vigía de piedra";
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";

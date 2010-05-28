@@ -292,6 +292,7 @@ AtlasLocale = {
 	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
 	["The Oculus"] = "奧核之眼";
+	["The Ruby Sanctum"] = "晶紅聖所";
 	["The Shattered Halls"] = "破碎大廳"; ["SH"] = "SH/破碎";
 	["The Slave Pens"] = "奴隸監獄"; ["SP"] = "SP";
 	["The Steamvault"] = "蒸汽洞窟"; ["SV"] = "SV/蒸汽";
@@ -327,6 +328,7 @@ AtlasLocale = {
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
 	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron -- 薩倫之淵
+	["RS"] = "RS/晶紅"; -- The Ruby Sanctum
 	["Strat, CoT-Strat"] = "CoT斯坦"; -- Culling of Stratholme -- 斯坦索姆的抉擇
 	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
 	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
@@ -1744,5 +1746,12 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";	
 	["Koralon the Flame Watcher"] = "『烈焰看守者』寇拉隆";
 	["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "紅龍軍團密室";
+	["Halion the Twilight Destroyer"] = "暮光毀滅者海萊恩";
+	["Saviana Ragefire"] = "莎維納‧怒火";
+	["Baltharus the Warborn"] = "「戰爭降臨」巴薩勒司";
+	["General Zarithrian"] = "札里瑞安將軍";
 };
 end

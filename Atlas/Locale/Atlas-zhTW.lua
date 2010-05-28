@@ -986,7 +986,7 @@ AtlasLocale = {
 	--Uldaman
 	["Staff of Prehistoria"] = "史前法杖";
 	["Baelog"] = "巴爾洛戈";
-	["Eric \"The Swift\""] = "『迅捷』艾利克";
+	["Eric \"The Swift\""] = "埃瑞克";
 	["Olaf"] = "奧拉夫";
 	["Baelog's Chest"] = "巴爾洛戈的箱子";
 	["Conspicuous Urn"] = "顯眼的石罐";
@@ -994,8 +994,8 @@ AtlasLocale = {
 	["Revelosh"] = "魯維羅什";
 	["Ironaya"] = "艾隆納亞";
 	["Obsidian Sentinel"] = "黑曜石哨兵";
-	["Annora <Enchanting Trainer>"] = "安諾拉 <附魔訓練師>";
-	["Ancient Stone Keeper"] = "上古之石守衛者";
+	["Annora <Enchanting Trainer>"] = "安諾拉 <附魔師>";
+	["Ancient Stone Keeper"] = "古代的石頭看守者";
 	["Galgann Firehammer"] = "加加恩·火錘";
 	["Tablet of Will"] = "意志石板";
 	["Shadowforge Cache"] = "暗影熔爐地窖";
@@ -1538,7 +1538,7 @@ AtlasLocale = {
 	["Deathbringer's Rise"] = "死亡使者高崗";
 	["Upper Spire"] = "冰冠尖塔";
 	["Sindragosa's Lair"] = "辛德拉苟莎之巢";
-	["The Frozen Throne"] = "冰封王座";
+	["The Frozen Throne"] = "The Frozen Throne";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "畢勾沃斯先生";

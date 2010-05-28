@@ -2385,4 +2385,19 @@ AtlasMaps = {
 		{ BLUE.."I) "..AtlasLocale["From previous map"] };
 		{ GREY.."13) "..AtlasLocale["The Lich King"], NPC, 36597 };
 	};
+	RubySanctum = {
+		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..AtlasLocale["The Ruby Sanctum"], 4987 };
+		Location = { AtlasLocale["Dragonblight"], 65 };
+		LevelRange = "80";
+		MinLevel = "80";
+		PlayerLimit = "10/25";
+		Acronym = AtlasLocale["RS"];
+		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Red Dragonflight Chamber"] };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ GREY.."1) "..AtlasLocale["Halion the Twilight Destroyer"], NPC, 39863 };
+		{ GREY.."2) "..AtlasLocale["Saviana Ragefire"], NPC, 39747 };
+		{ GREY.."3) "..AtlasLocale["General Zarithrian"], NPC, 39746 };
+		{ GREY.."4) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };		
+	};
 };

@@ -38,7 +38,7 @@ end
 
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.16.0";
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.16.1";
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -146,6 +146,9 @@ Atlas_SubZoneAssoc = {
 	["SMArmory"] =					"Scarlet Monastery";
 	["SMCathedral"] =				"Scarlet Monastery";
 	["SMEnt"] =						"Scarlet Monastery";
+	["IcecrownCitadelA"] =			"Icecrown Citadel";
+	["IcecrownCitadelB"] =			"Icecrown Citadel";
+	["IcecrownCitadelC"] =			"Icecrown Citadel";
 };
 
 --Default map to auto-select to when no SubZone data is available
@@ -155,6 +158,7 @@ Atlas_AssocDefaults = {
 	["Dire Maul"] =					"DireMaulNorth";
 	["Blackrock Spire"] =			"BlackrockSpireLower";
 	["Scarlet Monastery"] =			"SMEnt";
+	["Icecrown Citadel"] =			"IcecrownCitadelA";
 };
 
 --Links SubZone values with specific instance maps
@@ -279,6 +283,7 @@ Atlas_OutdoorZoneToAtlas = {
 	["Shadowmoon Valley"] =			"BlackTempleStart";
 	--["Shadowmoon Valley"] =		"BlackTempleBasement";
 	--["Shadowmoon Valley"] =		"BlackTempleTop";
+	["Icecrown"] =					"IcecrownCitadelA";
 };
 
 function Atlas_FreshOptions()

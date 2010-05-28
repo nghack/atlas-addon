@@ -145,6 +145,7 @@ AtlasDLLocale = {
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое убежищ";
 	["The Oculus"] = "Окулус";
+	["The Ruby Sanctum"] = "Рубиновое святилище";
 	["The Shattered Halls"] = "Разрушенные залы";
 	["The Slave Pens"] = "Узилище";
 	["The Steamvault"] = "Паровое Подземелье";

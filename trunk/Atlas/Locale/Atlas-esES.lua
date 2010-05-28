@@ -1750,10 +1750,11 @@ AtlasLocale = {
 	["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
 	
 	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "Red Dragonflight Chamber";
-	["Halion the Twilight Destroyer"] = "Halion el Destructor Crepuscular y sus generales";
+	["Red Dragonflight Chamber"] = "La cámara del Vuelo de Dragones Rojo";
+	["Halion the Twilight Destroyer"] = "Halion el Destructor Crepuscular";
 	["Saviana Ragefire"] = "Saviana Furia Ardiente";
 	["Baltharus the Warborn"] = "Baltharus el Batallante";
 	["General Zarithrian"] = "General Zarithrian";
+	
 };
 end

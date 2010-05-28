@@ -293,6 +293,7 @@ AtlasLocale = {
 	["The Nexus"] = "Le Nexus";
 	["The Obsidian Sanctum"] = "Le sanctum Obsidien";
 	["The Oculus"] = "L'Oculus";
+	["The Ruby Sanctum"] = "Le sanctum Rubis";
 	["The Shattered Halls"] = "Les Salles brisées"; ["SH"] = "SH";
 	["The Slave Pens"] = "Les enclos aux esclaves"; ["SP"] = "SP";
 	["The Steamvault"] = "Le Caveau de la vapeur"; ["SV"] = "SV";
@@ -327,6 +328,7 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex, Nexus"; -- Le Nexus
 	["Ocu"] = "Ocu"; -- L'Oculus
 	["OS"] = "OS"; -- Le sanctum Obsidien
+	["RS"] = "SR"; -- Le sanctum Rubis
 	["PoS"] = "FdS"; ["FH2"] = "FH2"; -- Fosse de Saron
 	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
 	["TEoE"] = "Maly"; -- L'Œil de l'éternité	
@@ -1743,5 +1745,12 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
 	["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
 	["Toravon the Ice Watcher"] = "Toravon la Sentinelle de glace";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Chambre du vol draconique Rouge";
+	["Halion the Twilight Destroyer"] = "Halion le Destructeur du Crépuscule";
+	["Saviana Ragefire"] = "Savianna Ragefeu";
+	["Baltharus the Warborn"] = "Baltharus l'Enfant de la guerre";
+	["General Zarithrian"] = "Général Zarithrian";
 };
 end

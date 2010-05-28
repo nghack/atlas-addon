@@ -297,6 +297,7 @@ AtlasLocale = {
 	["The Nexus"] = "魔枢";
 	["The Obsidian Sanctum"] = "黑曜石圣殿";
 	["The Oculus"] = "魔环";
+	["The Ruby Sanctum"] = "红宝石寺";
 	["The Shattered Halls"] = "破碎大厅"; ["SH"] = "SH";
 	["The Slave Pens"] = "奴隶围栏"; ["SP"] = "SP";
 	["The Steamvault"] = "蒸汽地窖"; ["SV"] = "SV";
@@ -331,6 +332,7 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["Ocu"] = "Ocu"; -- The Oculus
 	["OS"] = "OS"; -- The Obsidian Sanctum
+	["RS"] = "RS"; -- The Ruby Sanctum
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
 	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
@@ -1735,5 +1737,12 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
 	["Koralon the Flame Watcher"] = "烈焰看守者寇拉隆";
 	["Toravon the Ice Watcher"] = "寒冰看守者";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "红龙庭";
+	["Halion the Twilight Destroyer"] = "音色的黄昏驱逐舰";
+	["Saviana Ragefire"] = "Saviana Ragefire";
+	["Baltharus the Warborn"] = "Baltharus the Warborn";
+	["General Zarithrian"] = "General Zarithrian";
 };
 end

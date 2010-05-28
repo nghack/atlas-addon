@@ -299,6 +299,7 @@ AtlasLocale = {
 	["The Nexus"] = "Der Nexus";
 	["The Obsidian Sanctum"] = "Das Obsidiansanktum";
 	["The Oculus"] = "Das Oculus";
+	["The Ruby Sanctum"] = "Das Rubinsanktum";
 	["The Shattered Halls"] = "Die zerschmetterten Hallen"; ["SH"] = "ZH";
 	["The Slave Pens"] = "Die Sklavenunterkünfte"; ["SP"] = "SU";
 	["The Steamvault"] = "Die Dampfkammer"; ["SV"] = "DK";
@@ -333,6 +334,7 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["Ocu"] = "Ocu"; -- Das Oculus
 	["OS"] = "Obsi"; -- Das Obsidiansanktum
+	["RS"] = "RS"; -- Das Rubinsanktum";
 	["PoS"] = "Grube"; ["FH2"] = "FH2"; -- Die Grube von Saron
 	["Strat, CoT-Strat"] = "Strat, HdZ4"; -- Das Ausmerzen Von Stratholme
 	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
@@ -1751,6 +1753,13 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon der Sturmwächter";	
 	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
+	["Halion the Twilight Destroyer"] = "Halion";
+	["Saviana Ragefire"] = "Saviana Flammenschlund";
+	["Baltharus the Warborn"] = "Baltharus der Kriegsgeborene";
+	["General Zarithrian"] = "General Zarithrian";
 
 };
 

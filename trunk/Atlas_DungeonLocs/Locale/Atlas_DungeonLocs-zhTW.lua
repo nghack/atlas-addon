@@ -135,6 +135,7 @@ AtlasDLLocale = {
 	["The Nexus"] = "奧核之心";
 	["The Obsidian Sanctum"] = "黑曜聖所";
 	["The Oculus"] = "奧核之眼";
+	["The Ruby Sanctum"] = "晶紅聖所";
 	["The Shattered Halls"] = "破碎大廳";
 	["The Slave Pens"] = "奴隸監獄";
 	["The Steamvault"] = "蒸汽洞窟";

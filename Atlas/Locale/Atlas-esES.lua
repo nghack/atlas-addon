@@ -293,6 +293,7 @@ AtlasLocale = {
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
+	["The Ruby Sanctum"] = "El Sagrario Rubí";
 	["The Oculus"] = "El Oculus";
 	["The Shattered Halls"] = "Las Salas Arrasadas"; ["SH"] = "SA";
 	["The Slave Pens"] = "Recinto de los Esclavos"; ["SP"] = "Recinto";
@@ -329,6 +330,7 @@ AtlasLocale = {
 	["Ocu"] = "Oculus"; -- The Oculus
 	["OS"] = "SO"; -- The Obsidian Sanctum
 	["PoS"] = "FdS"; ["FH2"] = "CR2"; -- Pit of Saron
+	["RS"] = "SR"; -- The Ruby Sanctum
 	["Strat, CoT-Strat"] = "Strat, CdT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "OE"; -- The Eye of Eternity
 	["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
@@ -1746,5 +1748,12 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";
 	["Koralon the Flame Watcher"] = "Koralon el Vigía de las llamas";
 	["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Red Dragonflight Chamber";
+	["Halion the Twilight Destroyer"] = "Halion el Destructor Crepuscular y sus generales";
+	["Saviana Ragefire"] = "Saviana Furia Ardiente";
+	["Baltharus the Warborn"] = "Baltharus el Batallante";
+	["General Zarithrian"] = "General Zarithrian";
 };
 end

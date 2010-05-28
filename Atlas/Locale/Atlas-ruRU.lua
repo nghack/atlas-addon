@@ -292,6 +292,7 @@ AtlasLocale = {
 	["The Nexus"] = "Нексус";
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";
 	["The Oculus"] = "Окулус";
+	["The Ruby Sanctum"] = "Рубиновое святилище";
 	["The Shattered Halls"] = "Разрушенные залы"; ["SH"] = "РЗ";
 	["The Slave Pens"] = "Узилище"; ["SP"] = "Узи";
 	["The Steamvault"] = "Паровое Подземелье"; ["SV"] = "ПП";
@@ -327,6 +328,7 @@ AtlasLocale = {
 	["Ocu"] = "Оку"; -- Окулус
 	["OS"] = "ОС"; -- Обсидиановое святилище
 	["PoS"] = "Яма"; ["FH2"] = "ЛЗ2"; -- Яма Сарона
+	["OS"] = "PC"; -- Рубиновое святилище
 	["Strat, CoT-Strat"] = "Страт, ПВ-Страт"; -- Очищение Стратхольма
 	["TEoE"] = "ОВ"; -- Око Вечности
 	["UK, Keep"] = "УК, Крепость"; -- Крепость Утгард
@@ -1744,5 +1746,12 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Эмалон Созерцатель Бури";
 	["Koralon the Flame Watcher"] = "Коралон Страж Огня";
 	["Toravon the Ice Watcher"] = "Торавон Страж Льда";
+	
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Красный дракон полета палаты";
+	["Halion the Twilight Destroyer"] = "Халион Сумеречный Разрушитель";
+	["Saviana Ragefire"] = "Савиана Огненная Пропасть";
+	["Baltharus the Warborn"] = "Балтар Рожденный в Битве";
+	["General Zarithrian"] = "Генерал Заритриан";
 };
 end 

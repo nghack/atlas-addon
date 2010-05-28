@@ -1538,7 +1538,7 @@ AtlasLocale = {
 	["Deathbringer's Rise"] = "死亡使者高崗";
 	["Upper Spire"] = "冰冠尖塔";
 	["Sindragosa's Lair"] = "辛德拉苟莎之巢";
-	["The Frozen Throne"] = "The Frozen Throne";
+	["The Frozen Throne"] = "冰封王座";
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "畢勾沃斯先生";

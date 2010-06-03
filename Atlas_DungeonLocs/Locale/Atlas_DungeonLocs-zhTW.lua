@@ -126,6 +126,7 @@ AtlasDLLocale = {
 	["The Black Morass"] = "黑色沼澤";
 	["The Blood Furnace"] = "血熔爐";
 	["The Botanica"] = "波塔尼卡";
+	["The Chamber of Aspects"] = "守護巨龍的密室";
 	["The Deadmines"] = "死亡礦坑";
 	["The Eye of Eternity"] = "永恆之眼";
 	["The Eye"] = "風暴要塞";

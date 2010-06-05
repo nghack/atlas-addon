@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 09.02.2010
+-- Letztes Update: 28.05.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -334,7 +334,7 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex"; -- Der Nexus
 	["Ocu"] = "Ocu"; -- Das Oculus
 	["OS"] = "Obsi"; -- Das Obsidiansanktum
-	["RS"] = "RS"; -- Das Rubinsanktum";
+	["RS"] = "RS"; -- Das Rubinsanktum"
 	["PoS"] = "Grube"; ["FH2"] = "FH2"; -- Die Grube von Saron
 	["Strat, CoT-Strat"] = "Strat, HdZ4"; -- Das Ausmerzen Von Stratholme
 	["TEoE"] = "Maly"; -- Das Auge der Ewigkeit
@@ -1756,7 +1756,7 @@ AtlasLocale = {
 	
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
-	["Halion the Twilight Destroyer"] = "Halion";
+	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
 	["Saviana Ragefire"] = "Saviana Flammenschlund";
 	["Baltharus the Warborn"] = "Baltharus der Kriegsgeborene";
 	["General Zarithrian"] = "General Zarithrian";

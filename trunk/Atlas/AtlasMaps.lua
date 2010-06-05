@@ -2321,8 +2321,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Archmage Koreln <Kirin Tor>"].." ("..AtlasLocale["Alliance"]..")", NPC, 37582 };
 		{ GREY..INDENT..AtlasLocale["Lady Sylvanas Windrunner <Banshee Queen>"].." ("..AtlasLocale["Horde"]..")", NPC, 37223 };
 		{ GREY..INDENT..AtlasLocale["Dark Ranger Loralen"].." ("..AtlasLocale["Horde"]..")", NPC, 37779 };
-		{ GREY.."2) "..AtlasLocale["Falric"], NPC, 38112 };
-		{ GREY.."3) "..AtlasLocale["Marwyn"], NPC, 38113 };
+		{ GREY.."2) "..AtlasLocale["Falric"].." ("..AtlasLocale["Wave 5"]..")", NPC, 38112 };
+		{ GREY.."3) "..AtlasLocale["Marwyn"].." ("..AtlasLocale["Wave 10"]..")", NPC, 38113 };
 		{ GREY.."4) "..AtlasLocale["Wrath of the Lich King"].." ("..AtlasLocale["Event"]..")", NPC, 37226 };
 		{ GREY..INDENT..AtlasLocale["The Captain's Chest"], OBJECT, 201710 };
 	};
@@ -2395,7 +2395,7 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Red Dragonflight Chamber"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Halion the Twilight Destroyer"], NPC, 39863 };
+		{ GREY.."1) "..AtlasLocale["Halion <The Twilight Destroyer>"], NPC, 39863 };
 		{ GREY.."2) "..AtlasLocale["Saviana Ragefire"], NPC, 39747 };
 		{ GREY.."3) "..AtlasLocale["General Zarithrian"], NPC, 39746 };
 		{ GREY.."4) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };		

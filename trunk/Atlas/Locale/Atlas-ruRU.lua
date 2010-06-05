@@ -1749,7 +1749,7 @@ AtlasLocale = {
 	
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "Комната красных драконов";
-	["Halion the Twilight Destroyer"] = "Халион Сумеречный Разрушитель";
+	["Halion <The Twilight Destroyer>"] = "Халион Сумеречный Разрушитель";
 	["Saviana Ragefire"] = "Савиана Огненная Пропасть";
 	["Baltharus the Warborn"] = "Балтар Рожденный в Битве";
 	["General Zarithrian"] = "Генерал Заритриан";

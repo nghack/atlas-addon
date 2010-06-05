@@ -7,6 +7,11 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 = Change Log =
 ==============
 
+v1.16.1
+- new map: Ruby Sanctum
+- fixed and added some ICC entries
+- minor fixes
+
 v1.16.0
 - new map: Icecrown Citadel, in three parts (Deadca7)
 - new map: The Frozen Halls: The Forge of Souls (Deadca7)

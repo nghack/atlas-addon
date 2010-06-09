@@ -199,7 +199,7 @@ AtlasTransLocale = {
 	["Thalanaar"] = "薩蘭納爾";
 	["The Aldor"] = "奧多爾";
 	["The Argent Stand"] = "銀白看臺";
-	["The Argent Vanguard"] = "	銀白先鋒駐地";
+	["The Argent Vanguard"] = "銀白先鋒駐地";
 	["The Barrens"] = "貧瘠之地";
 	["The Dark Portal"] = "黑暗之門";
 	["The Exodar"] = "艾克索達";
@@ -250,7 +250,7 @@ AtlasTransLocale = {
 	["Zabra'jin"] = "薩布拉金";
 	["Zangarmarsh"] = "贊格沼澤";
 	["Zim'Torga"] = "辛托加";
-	["Zoram'gar Outpost"] = "左拉姆加前哨站";
+	["Zoram'gar Outpost"] = "佐拉姆加前哨站";
 	["Zul'Drak"] = "祖爾德拉克";
 
 };

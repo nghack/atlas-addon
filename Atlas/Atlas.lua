@@ -230,6 +230,13 @@ Atlas_SubZoneData = {
 	["Chapel Gardens"] =			"SMCathedral";
 	["Crusader's Chapel"] =			"SMCathedral";
 	["The Grand Vestibule"] =		"SMEnt";
+	["The Lower Citadel"] =			"IcecrownCitadelA";
+	["The Rampart of Skulls"] =		"IcecrownCitadelA";
+	["Deathbringer's Rise"] =		"IcecrownCitadelA";
+	["The Frost Queen's Lair"] =	"IcecrownCitadelB";
+	["The Upper Reaches"] =			"IcecrownCitadelB";
+	["Royal Quarters"] =			"IcecrownCitadelB";
+	["The Frozen Throne"] =			"IcecrownCitadelC";
 };
 
 --Maps to auto-select to from outdoor zones.

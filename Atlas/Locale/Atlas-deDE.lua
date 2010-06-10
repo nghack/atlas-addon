@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 28.05.2010
+-- Letztes Update: 10.06.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -211,7 +211,7 @@ Atlas_SubZoneData = {
 	["Die Seuchenwerke"] =			"IcecrownCitadelB";
 	["Seuchenmords Laboratorium der alchemistischen Schrecken und Späße"] =	"IcecrownCitadelB";
 	["Die Blutrote Halle"] =		"IcecrownCitadelB";
-	["Die Königlichen Quartiere"] =		"IcecrownCitadelB";
+	["Das Sanktum des Blutes"] =		"IcecrownCitadelB";
 	["Die Frostschwingenhallen"] =		"IcecrownCitadelB";
 	["Der Hort der Frostkönigin"] =		"IcecrownCitadelB";
 	["Der Frostthron"] =			"IcecrownCitadelC";

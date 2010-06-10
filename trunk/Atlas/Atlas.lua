@@ -73,57 +73,57 @@ local DefaultAtlasOptions = {
 
 --entrance maps to instance maps
 Atlas_EntToInstMatches = {
-	["AuchindounEnt"] =				{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
+	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
 	["BlackrockSpireEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
-	["GnomereganEnt"] =				{"Gnomeregan"};
-	["MaraudonEnt"] =				{"Maraudon"};
+	["GnomereganEnt"] =			{"Gnomeregan"};
+	["MaraudonEnt"] =			{"Maraudon"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
-	["UldamanEnt"] =				{"Uldaman"};
+	["UldamanEnt"] =			{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
-	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["CoTEnt"] =					{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
-	["KarazhanEnt"] =				{"KarazhanStart","KarazhanEnd"};
-	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
+	["CoTEnt"] =				{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
+	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
+	["SMEnt"] =				{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
 };
 
 --instance maps to entrance maps
 Atlas_InstToEntMatches = {
-	["AuchManaTombs"] =				{"AuchindounEnt"};
+	["AuchManaTombs"] =			{"AuchindounEnt"};
 	["AuchAuchenaiCrypts"] =		{"AuchindounEnt"};
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
 	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
 	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
 	["BlackrockSpireLower"] =		{"BlackrockSpireEnt"};
 	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt"};
-	["BlackwingLair"] =				{"BlackrockSpireEnt"};
+	["BlackwingLair"] =			{"BlackrockSpireEnt"};
 	["BlackrockDepths"] =			{"BlackrockSpireEnt"};
-	["MoltenCore"] =				{"BlackrockSpireEnt"};
+	["MoltenCore"] =			{"BlackrockSpireEnt"};
 	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
-	["CFRSerpentshrineCavern"] =	{"CoilfangReservoirEnt"};
-	["Gnomeregan"] =				{"GnomereganEnt"};
-	["Maraudon"] =					{"MaraudonEnt"};
-	["TheDeadmines"] =				{"TheDeadminesEnt"};
+	["CFRSerpentshrineCavern"] =		{"CoilfangReservoirEnt"};
+	["Gnomeregan"] =			{"GnomereganEnt"};
+	["Maraudon"] =				{"MaraudonEnt"};
+	["TheDeadmines"] =			{"TheDeadminesEnt"};
 	["TheSunkenTemple"] =			{"TheSunkenTempleEnt"};
-	["Uldaman"] =					{"UldamanEnt"};
+	["Uldaman"] =				{"UldamanEnt"};
 	["WailingCaverns"] =			{"WailingCavernsEnt"};
-	["DireMaulEast"] =				{"DireMaulEnt"};
-	["DireMaulNorth"] =				{"DireMaulEnt"};
-	["DireMaulWest"] =				{"DireMaulEnt"};
-	["CoTHyjal"] =					{"CoTEnt"};
+	["DireMaulEast"] =			{"DireMaulEnt"};
+	["DireMaulNorth"] =			{"DireMaulEnt"};
+	["DireMaulWest"] =			{"DireMaulEnt"};
+	["CoTHyjal"] =				{"CoTEnt"};
 	["CoTBlackMorass"] =			{"CoTEnt"};
 	["CoTOldHillsbrad"] =			{"CoTEnt"};
 	["CoTOldStratholme"] =			{"CoTEnt"};
-	["KarazhanStart"] =				{"KarazhanEnt"};
-	["KarazhanEnd"] =				{"KarazhanEnt"};
-	["SMArmory"] =					{"SMEnt"};
-	["SMLibrary"] =					{"SMEnt"};
-	["SMCathedral"] =				{"SMEnt"};
-	["SMGraveyard"] =				{"SMEnt"};
+	["KarazhanStart"] =			{"KarazhanEnt"};
+	["KarazhanEnd"] =			{"KarazhanEnt"};
+	["SMArmory"] =				{"SMEnt"};
+	["SMLibrary"] =				{"SMEnt"};
+	["SMCathedral"] =			{"SMEnt"};
+	["SMGraveyard"] =			{"SMEnt"};
 };
 
 --Links maps together that are part of the same instance
@@ -131,166 +131,29 @@ Atlas_SubZoneAssoc = {
 	["BlackTempleStart"] =			"Black Temple";
 	["BlackTempleBasement"] =		"Black Temple";
 	["BlackTempleTop"] =			"Black Temple";
-	["KarazhanStart"] =				"Karazhan";
-	["KarazhanEnd"] =				"Karazhan";
-	["KarazhanEnt"] =				"Karazhan";
-	["DireMaulNorth"] =				"Dire Maul";
-	["DireMaulEast"] =				"Dire Maul";
-	["DireMaulWest"] =				"Dire Maul";
-	["DireMaulEnt"] =				"Dire Maul";
+	["KarazhanStart"] =			"Karazhan";
+	["KarazhanEnd"] =			"Karazhan";
+	["KarazhanEnt"] =			"Karazhan";
+	["DireMaulNorth"] =			"Dire Maul";
+	["DireMaulEast"] =			"Dire Maul";
+	["DireMaulWest"] =			"Dire Maul";
+	["DireMaulEnt"] =			"Dire Maul";
 	["BlackrockSpireLower"] =		"Blackrock Spire";
 	["BlackrockSpireUpper"] =		"Blackrock Spire";
 	["BlackrockSpireEnt"] =			"Blackrock Spire";
-	["SMGraveyard"] =				"Scarlet Monastery";
-	["SMLibrary"] =					"Scarlet Monastery";
-	["SMArmory"] =					"Scarlet Monastery";
-	["SMCathedral"] =				"Scarlet Monastery";
-	["SMEnt"] =						"Scarlet Monastery";
+	["SMGraveyard"] =			"Scarlet Monastery";
+	["SMLibrary"] =				"Scarlet Monastery";
+	["SMArmory"] =				"Scarlet Monastery";
+	["SMCathedral"] =			"Scarlet Monastery";
+	["SMEnt"] =				"Scarlet Monastery";
+	["UlduarA"] =				"Ulduar";
+	["UlduarB"] =				"Ulduar";
+	["UlduarC"] =				"Ulduar";
+	["UlduarD"] =				"Ulduar";
+	["UlduarE"] =				"Ulduar";
 	["IcecrownCitadelA"] =			"Icecrown Citadel";
 	["IcecrownCitadelB"] =			"Icecrown Citadel";
 	["IcecrownCitadelC"] =			"Icecrown Citadel";
-};
-
---Default map to auto-select to when no SubZone data is available
-Atlas_AssocDefaults = {
-	["Black Temple"] =				"BlackTempleStart";
-	["Karazhan"] =					"KarazhanStart";
-	["Dire Maul"] =					"DireMaulNorth";
-	["Blackrock Spire"] =			"BlackrockSpireLower";
-	["Scarlet Monastery"] =			"SMEnt";
-	["Icecrown Citadel"] =			"IcecrownCitadelA";
-};
-
---Links SubZone values with specific instance maps
-Atlas_SubZoneData = {
-	["Karabor Sewers"] =			"BlackTempleStart";
-	["Illidari Training Grounds"] =	"BlackTempleStart";
-	["The Refectory"] =				"BlackTempleStart";
-	["Sanctuary of Shadow"] =		"BlackTempleStart";
-	["Gorefiend's Vigil"] =			"BlackTempleBasement";
-	["Halls of Anguish"] =			"BlackTempleBasement";
-	["Shrine of Lost Souls"] =		"BlackTempleBasement";
-	["Den of Mortal Delights"] =	"BlackTempleTop";
-	["Chamber of Command"] =		"BlackTempleTop";
-	["Grand Promenade"] =			"BlackTempleTop";
-	["Temple Summit"] =				"BlackTempleTop";
-	["The Gatehouse"] =				"KarazhanStart";
-	["Livery Stables"] =			"KarazhanStart";
-	["The Guardhouse"] =			"KarazhanStart";
-	["The Scullery"] =				"KarazhanStart";
-	["Servants' Quarters"] =		"KarazhanStart";
-	["The Grand Ballroom"] =		"KarazhanStart";
-	["The Banquet Hall"] =			"KarazhanStart";
-	["The Guest Chambers"] =		"KarazhanStart";
-	["The Opera Hall"] =			"KarazhanStart";
-	["The Broken Stair"] =			"KarazhanStart";
-	["Master's Terrace"] =			"KarazhanStart";
-	["The Menagerie"] =				"KarazhanEnd";
-	["Guardian's Library"] =		"KarazhanEnd";
-	["The Repository"] =			"KarazhanEnd";
-	["The Celestial Watch"] =		"KarazhanEnd";
-	["Gamesman's Hall"] =			"KarazhanEnd";
-	["Medivh's Chambers"] =			"KarazhanEnd";
-	["Master's Terrace"] =			"KarazhanEnd";
-	["Netherspace"] =				"KarazhanEnd";
-	["Halls of Destruction"] =		"DireMaulNorth";
-	["Gordok's Seat"] =				"DireMaulNorth";
-	["Warpwood Quarter"] =			"DireMaulEast";
-	["The Hidden Reach"] =			"DireMaulEast";
-	["The Conservatory"] =			"DireMaulEast";
-	["The Shrine of Eldretharr"] =	"DireMaulEast";
-	["Capital Gardens"] =			"DireMaulWest";
-	["Court of the Highborne"] =	"DireMaulWest";
-	["Prison of Immol'thar"] =		"DireMaulWest";
-	["The Athenaeum"] =				"DireMaulWest";
-	["Hordemar City"] =				"BlackrockSpireLower";
-	["Mok'Doom"] =					"BlackrockSpireLower";
-	["Tazz'Alaor"] =				"BlackrockSpireLower";
-	["Skitterweb Tunnels"] =		"BlackrockSpireLower";
-	["The Storehouse"] =			"BlackrockSpireLower";
-	["Chamber of Battle"] =			"BlackrockSpireLower";
-	["Dragonspire Hall"] =			"BlackrockSpireUpper";
-	["Hall of Binding"] =			"BlackrockSpireUpper";
-	["The Rookery"] =				"BlackrockSpireUpper";
-	["Hall of Blackhand"] =			"BlackrockSpireUpper";
-	["Blackrock Stadium"] =			"BlackrockSpireUpper";
-	["The Furnace"] =				"BlackrockSpireUpper";
-	["Hordemar City"] =				"BlackrockSpireUpper";
-	["Spire Throne"] =				"BlackrockSpireUpper";
-	["Chamber of Atonement"] =		"SMGraveyard";
-	["Forlorn Cloister"] =			"SMGraveyard";
-	["Honor's Tomb"] =				"SMGraveyard";
-	["Huntsman's Cloister"] =		"SMLibrary";
-	["Gallery of Treasures"] =		"SMLibrary";
-	["Athenaeum"] =					"SMLibrary";
-	["Training Grounds"] =			"SMArmory";
-	["Footman's Armory"] =			"SMArmory";
-	["Crusader's Armory"] =			"SMArmory";
-	["Hall of Champions"] =			"SMArmory";
-	["Chapel Gardens"] =			"SMCathedral";
-	["Crusader's Chapel"] =			"SMCathedral";
-	["The Grand Vestibule"] =		"SMEnt";
-	["The Lower Citadel"] =			"IcecrownCitadelA";
-	["The Rampart of Skulls"] =		"IcecrownCitadelA";
-	["Deathbringer's Rise"] =		"IcecrownCitadelA";
-	["The Frost Queen's Lair"] =	"IcecrownCitadelB";
-	["The Upper Reaches"] =			"IcecrownCitadelB";
-	["Royal Quarters"] =			"IcecrownCitadelB";
-	["The Frozen Throne"] =			"IcecrownCitadelC";
-};
-
---Maps to auto-select to from outdoor zones.
---Duplicates are commented out. Fuck, I hate auto-select.
-Atlas_OutdoorZoneToAtlas = {
-	["Ashenvale"] =					"BlackfathomDeepsEnt";
-	["Badlands"] =					"UldamanEnt";
-	["Blackrock Mountain"] =		"BlackrockSpireEnt";
-	["Burning Steppes"] =			"BlackrockSpireEnt";
-	["Deadwind Pass"] =				"KarazhanEnt";
-	["Desolace"] =					"MaraudonEnt";
-	["Dun Morogh"] =				"GnomereganEnt";
-	["Feralas"] =					"DireMaulEnt";
-	["Searing Gorge"] =				"BlackrockSpireEnt";
-	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
-	["Tanaris"] =					"CoTEnt";
-	--["Tanaris"] =					"ZulFarrak";
-	["Terokkar Forest"] =			"AuchindounEnt";
-	["The Barrens"] =				"WailingCavernsEnt";
-	--["The Barrens"] =				"RazorfenKraul";
-	--["The Barrens"] =				"RazorfenDowns";
-	["Tirisfal Glades"]	=			"SMEnt";
-	["Westfall"] =					"TheDeadminesEnt";
-	["Zangarmarsh"] =				"CoilfangReservoirEnt";
-	["Orgrimmar"] =					"RagefireChasm";
-	["Dustwallow Marsh"] =			"OnyxiasLair";
-	["Silithus"] =					"TheTempleofAhnQiraj";
-	--["Silithus"] =				"TheRuinsofAhnQiraj";
-	["Western Plaguelands"] =		"Scholomance";
-	["Silverpine Forest"] =			"ShadowfangKeep";
-	["Eastern Plaguelands"] =		"Stratholme";
-	--["Eastern Plaguelands"] =		"Naxxramas";
-	["Stormwind City"] =			"TheStockade";
-	["Stranglethorn Vale"] =		"ZulGurub";
-	["Ghostlands"] =				"ZulAman";
-	["Isle of Quel'Danas"] =		"MagistersTerrace";
-	--["Isle of Quel'Danas"] =		"SunwellPlateau";
-	["Hellfire Peninsula"] =		"HCHellfireRamparts";
-	--["Hellfire Peninsula"] =		"HCBloodFurnace";
-	--["Hellfire Peninsula"] =		"HCTheShatteredHalls";
-	--["Hellfire Peninsula"] =		"HCMagtheridonsLair";
-	["Zangarmarsh"] =				"CFRTheSlavePens";
-	--["Zangarmarsh"] =				"CFRTheUnderbog";
-	--["Zangarmarsh"] =				"CFRTheSteamvault";
-	--["Zangarmarsh"] =				"CFRSerpentshrineCavern";
-	["Netherstorm"] =				"TempestKeepMechanar";
-	--["Netherstorm"] =				"TempestKeepBotanica";
-	--["Netherstorm"] =				"TempestKeepArcatraz";
-	--["Netherstorm"] =				"TempestKeepTheEye";
-	["Blade's Edge Mountains"] =	"GruulsLair";
-	["Shadowmoon Valley"] =			"BlackTempleStart";
-	--["Shadowmoon Valley"] =		"BlackTempleBasement";
-	--["Shadowmoon Valley"] =		"BlackTempleTop";
-	["Icecrown"] =					"IcecrownCitadelA";
 };
 
 function Atlas_FreshOptions()
@@ -566,43 +429,6 @@ function Atlas_Init()
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped);
 	AtlasButton_UpdatePosition();
 	AtlasOptions_Init();
-	
-	--Cosmos integration
-	if(EarthFeature_AddButton) then
-		EarthFeature_AddButton(
-		{
-			id = ATLAS_TITLE;
-			name = ATLAS_TITLE;
-			subtext = ATLAS_SUBTITLE;
-			tooltip = ATLAS_DESC;
-			icon = "Interface\\AddOns\\Atlas\\Images\\AtlasIcon";
-			callback = Atlas_Toggle;
-			test = nil;
-		}
-	);
-	elseif(Cosmos_RegisterButton) then
-		Cosmos_RegisterButton(
-			ATLAS_TITLE,
-			ATLAS_SUBTITLE,
-			ATLAS_DESC,
-			"Interface\\AddOns\\Atlas\\Images\\AtlasIcon",
-			Atlas_Toggle
-		);
-	end
-	
-	--CTMod integration
-	if(CT_RegisterMod) then
-		CT_RegisterMod(
-			ATLAS_TITLE,
-			ATLAS_SUBTITLE,
-			5,
-			"Interface\\AddOns\\Atlas\\Images\\AtlasIcon",
-			ATLAS_DESC,
-			"switch",
-			"",
-			Atlas_Toggle
-		);
-	end
 	
 	--Make an LDB object
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("Atlas", {

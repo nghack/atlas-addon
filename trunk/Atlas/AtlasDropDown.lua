@@ -650,7 +650,6 @@ Atlas_DropDownLayouts = {
 			"TheSunkenTempleEnt",
 			"UldamanEnt",
 			"WailingCavernsEnt",
-			"IcecrownCitadelA",
 		},
 	},
 };

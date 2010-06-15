@@ -137,6 +137,7 @@ AtlasDLLocale = {
 	["The Black Morass"] = "La Ciénaga Negra";
 	["The Blood Furnace"] = "El Horno de la Sangre";
 	["The Botanica"] = "El Invernáculo";
+	["The Chamber of Aspects"] = "The Chamber of Aspects";  -- TO BE LOCALIZED
 	["The Deadmines"] = "Las Minas de la Muerte";
 	["The Eye of Eternity"] = "El Ojo de la Eternidad";
 	["The Eye"] = "El Ojo";

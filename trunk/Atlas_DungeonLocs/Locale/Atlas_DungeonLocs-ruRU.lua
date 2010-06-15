@@ -136,6 +136,7 @@ AtlasDLLocale = {
 	["The Black Morass"] = "Черные топи";
 	["The Blood Furnace"] = "Кузня Крови";
 	["The Botanica"] = "Ботаника";
+	["The Chamber of Aspects"] = "Драконьи чертоги";
 	["The Deadmines"] = "Мертвые копи";
 	["The Eye of Eternity"] = "Глаз Вечности";
 	["The Eye"] = "Око";

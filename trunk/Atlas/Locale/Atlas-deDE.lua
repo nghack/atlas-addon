@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 10.06.2010
+-- Letztes Update: 20.06.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -123,12 +123,12 @@ ATLAS_DEP_OK = "OK";
 
 --Default map to auto-select to when no SubZone data is available
 Atlas_AssocDefaults = {
-	["Der Schwarze Tempel"] =		"BlackTempleStart";
+	["Der Schwarze Tempel"] =		"BlackTempleBasement";
+	["Karazhan"] =				"KarazhanStart";
 	["Düsterbruch"] =			"DireMaulNorth";
 	["Schwarzfelsspitze"] =			"BlackrockSpireLower";
-	["Karazhan"] =				"KarazhanStart";
 	["Das Scharlachrote Kloster"] =		"SMEnt";
-	["Ulduar"] =				"UlduarB";
+	["Ulduar"] =				"UlduarA";
 	["Eiskronenzitadelle"] =		"IcecrownCitadelA";
 };
 
@@ -136,14 +136,14 @@ Atlas_AssocDefaults = {
 Atlas_SubZoneData = {
 	["Kanäle von Karabor"] =		"BlackTempleStart";
 	["Ausbildungsgelände der Illidari"] =	"BlackTempleStart";
-	["Der Speisesaal"] =			"BlackTempleStart";
 	["Zuflucht der Schatten"] =		"BlackTempleStart";
-	["Blutschattens Wache"] =		"BlackTempleBasement";
+	["Das Warenlager"] =			"BlackTempleStart";
+	["Blutschattens Wacht"] =		"BlackTempleBasement";
 	["Hallen der Pein"] =			"BlackTempleBasement";
-	["Reliquiar der Seelen"] =		"BlackTempleBasement";
-	--["Den of Mortal Delights"] =		"BlackTempleTop";
-	["Kommandoraum"] =			"BlackTempleTop";
+	["Schrein der verlorenen Seelen"] =	"BlackTempleBasement";
+	["Kammer des Todesrauschs"] =		"BlackTempleTop";
 	["Große Promenade"] =			"BlackTempleTop";
+	["Kommandoraum"] =			"BlackTempleTop";
 	["Tempelspitze"] =			"BlackTempleTop";
 	["Das Torhaus"] =			"KarazhanStart";
 	["Nobelställe"] =			"KarazhanStart";
@@ -158,13 +158,14 @@ Atlas_SubZoneData = {
 	--["Terrasse des Meisters"] =		"KarazhanStart";
 	["Die Menagerie"] =			"KarazhanEnd";
 	["Bibliothek des Wächters"] =		"KarazhanEnd";
-	["Das Warenlager"] =			"KarazhanEnd";
+	--["Das Warenlager"] =			"KarazhanEnd";
 	["Die Himmelswacht"] =			"KarazhanEnd";
 	["Halle der Spiele"] =			"KarazhanEnd";
 	["Medivhs Kammer"] =			"KarazhanEnd";
 	["Terrasse des Meisters"] =		"KarazhanEnd";
 	["Netherraum"] =			"KarazhanEnd";
 	["Die gebrochenen Gemeinlande"] =	"DireMaulEnt";
+	["Eldrethgasse"] =			"DireMaulEnt";
 	["Die Schlägergrube"] =			"DireMaulEnt";
 	["Hallen der Zerstörung"] =		"DireMaulNorth";
 	["Gordoks Sitz"] =			"DireMaulNorth";
@@ -209,7 +210,7 @@ Atlas_SubZoneData = {
 	["Klingenschuppes Kanzel"] =		"UlduarA";
 	["Die kolossale Schmiede"] =		"UlduarA";
 	["Der Schrottplatz"] =			"UlduarA";
-	["Die Vorkammer von Ulduar"] =		"UlduarB";
+	["Die Vorkammer"] =			"UlduarB";
 	["Die Versammlung des Eisens"] =	"UlduarB";
 	["Das Archivum"] =			"UlduarB";
 	["Das himmlische Planetarium"] =	"UlduarB";
@@ -220,6 +221,7 @@ Atlas_SubZoneData = {
 	["Das Konservatorium des Lebens"] =	"UlduarC";
 	["Die Korridore des Scharfsinns"] =	"UlduarC";
 	["Halle der Erinnerungen"] =		"UlduarC";
+	--["The LMS Mark II "] =		"UlduarD";	
 	["Der Funke der Imagination"] =		"UlduarD";
 	["Der Abstieg in den Wahnsinn"] =	"UlduarE";
 	["Das Gefängnis von Yogg-Saron"] =	"UlduarE";

@@ -7,6 +7,10 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 = Change Log =
 ==============
 
+v1.16.2
+- improved auto-selection feature for foreign languages
+- cleaned up and tweaked some code
+
 v1.16.1
 - new map: Ruby Sanctum
 - fixed and added some ICC entries

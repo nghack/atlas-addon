@@ -26,16 +26,14 @@
 --Email: loglow@gmail.com
 --AIM: dan5981
 
+local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 
-
-local Atlas_DebugMode = false;
+local Atlas_DebugMode = true;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
 	end
 end
-
-
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
 ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.16.1";
@@ -68,69 +66,301 @@ local DefaultAtlasOptions = {
 	["AtlasSortBy"] = 1;
 	["AtlasCtrl"] = false;
 };
+-- Default map to auto-select to when no SubZone data is available.
+-- Define this table entries only when the dungeon has multiple maps
+-- Not for localization      .
+Atlas_AssocDefaults = {
+	["Black Temple"] =			"BlackTempleStart";
+	["Karazhan"] =				"KarazhanStart";
+	["Dire Maul"] =				"DireMaulNorth";
+	["Blackrock Spire"] =		"BlackrockSpireLower";
+	["Scarlet Monastery"] =		"SMEnt";
+	["Ulduar"] =				"UlduarA";
+	["Icecrown Citadel"] =		"IcecrownCitadelA";
+};
+-- Default map to auto-select to when no SubZone data is available. 
+-- Define this table entries only when the dungeon has multiple maps
+-- No need to localize this table since BabbleZone lib will look for it.
+Atlas_AssocDefaults_Loc = {
+	["Black Temple"] = 			BabbleZone["Black Temple"];
+	["Karazhan"] = 				BabbleZone["Karazhan"];
+	["Dire Maul"] = 			BabbleZone["Dire Maul"];
+	["Blackrock Spire"] = 		BabbleZone["Blackrock Spire"];
+	["Scarlet Monastery"] = 	BabbleZone["Scarlet Monastery"];
+	["Ulduar"] = 				BabbleZone["Ulduar"];
+	["Icecrown Citadel"] = 		BabbleZone["Icecrown Citadel"];
+};
+
+
+-- Links SubZone values with specific instance maps. 
+-- Not for localization.
+Atlas_SubZoneData = {
+	["Karabor Sewers"] =				"BlackTempleStart";
+	["Illidari Training Grounds"] =		"BlackTempleStart";
+	["Sanctuary of Shadow"] =			"BlackTempleStart";
+	["The Refectory"] =					"BlackTempleStart";
+	["Gorefiend's Vigil"] =				"BlackTempleBasement";
+	["Halls of Anguish"] =				"BlackTempleBasement";
+	["Shrine of Lost Souls"] =			"BlackTempleBasement";
+	["Den of Mortal Delights"] =		"BlackTempleTop";
+	["Grand Promenade"] =				"BlackTempleTop";
+	["Chamber of Command"] =			"BlackTempleTop";
+	["Temple Summit"] =					"BlackTempleTop";
+	["The Gatehouse"] =					"KarazhanStart";
+	["Livery Stables"] =				"KarazhanStart";
+	["The Guardhouse"] =				"KarazhanStart";
+	["The Scullery"] =					"KarazhanStart";
+	["Servants' Quarters"] =			"KarazhanStart";
+	["The Grand Ballroom"] =			"KarazhanStart";
+	["The Banquet Hall"] =				"KarazhanStart";
+	["The Guest Chambers"] =			"KarazhanStart";
+	["The Opera Hall"] =				"KarazhanStart";
+	["The Broken Stair"] =				"KarazhanStart";
+	["Master's Terrace"] =				"KarazhanStart";
+	["The Menagerie"] =					"KarazhanEnd";
+	["Guardian's Library"] =			"KarazhanEnd";
+	["The Repository"] =				"KarazhanEnd";
+	["The Celestial Watch"] =			"KarazhanEnd";
+	["Gamesman's Hall"] =				"KarazhanEnd";
+	["Medivh's Chambers"] =				"KarazhanEnd";
+	["Master's Terrace"] =				"KarazhanEnd";
+	["Netherspace"] =					"KarazhanEnd";
+	["Broken Commons"] =				"DireMaulEnt";
+	["Eldreth Row"] =					"DireMaulEnt";
+	["The Maul"] =						"DireMaulEnt";
+	["Halls of Destruction"] =			"DireMaulNorth";
+	["Gordok's Seat"] =					"DireMaulNorth";
+	["Warpwood Quarter"] =				"DireMaulEast";
+	["The Hidden Reach"] =				"DireMaulEast";
+	["The Conservatory"] =				"DireMaulEast";
+	["The Shrine of Eldretharr"] =		"DireMaulEast";
+	["Capital Gardens"] =				"DireMaulWest";
+	["Court of the Highborne"] =		"DireMaulWest";
+	["Prison of Immol'thar"] =			"DireMaulWest";
+	["The Athenaeum"] =					"DireMaulWest";
+	["Hordemar City"] =					"BlackrockSpireLower";
+	["Mok'Doom"] =						"BlackrockSpireLower";
+	["Tazz'Alaor"] =					"BlackrockSpireLower";
+	["Skitterweb Tunnels"] =			"BlackrockSpireLower";
+	["Halycon's Lair"] =				"BlackrockSpireLower";
+	["The Storehouse"] =				"BlackrockSpireLower";
+	["Chamber of Battle"] =				"BlackrockSpireLower";
+	["Dragonspire Hall"] =				"BlackrockSpireUpper";
+	["Hall of Binding"] =				"BlackrockSpireUpper";
+	["The Rookery"] =					"BlackrockSpireUpper";
+	["Hall of Blackhand"] =				"BlackrockSpireUpper";
+	["Blackrock Stadium"] =				"BlackrockSpireUpper";
+	["The Furnace"] =					"BlackrockSpireUpper";
+	["Spire Throne"] =					"BlackrockSpireUpper";
+	["Chamber of Atonement"] =			"SMGraveyard";
+	["Forlorn Cloister"] =				"SMGraveyard";
+	["Honor's Tomb"] =					"SMGraveyard";
+	["Huntsman's Cloister"] =			"SMLibrary";
+	["Gallery of Treasures"] =			"SMLibrary";
+	["Athenaeum"] =						"SMLibrary";
+	["Training Grounds"] =				"SMArmory";
+	["Footman's Armory"] =				"SMArmory";
+	["Crusader's Armory"] =				"SMArmory";
+	["Hall of Champions"] =				"SMArmory";
+	["Chapel Gardens"] =				"SMCathedral";
+	["Crusader's Chapel"] =				"SMCathedral";
+	["The Grand Vestibule"] =			"SMEnt";
+	["Expedition Base Camp"] =			"UlduarA";
+	["Iron Concourse"] =				"UlduarA";
+	["Formation Grounds"] =				"UlduarA";
+	["Razorscale's Aerie"] =			"UlduarA";
+	["The Colossal Forge"] =			"UlduarA";
+	["The Scrapyard"] =					"UlduarA";
+	["The Antechamber"] =				"UlduarB";
+	["The Assembly of Iron"] =			"UlduarB";
+	["The Archivum"] =					"UlduarB";
+	["The Celestial Planetarium"] =		"UlduarB";
+	["The Shattered Walkway"] =			"UlduarB";
+	["The Observation Ring"] =			"UlduarC";
+	["The Halls of Winter"] =			"UlduarC";
+	["The Clash of Thunder"] =			"UlduarC";
+	["The Conservatory of Life"] =		"UlduarC";
+	["The Corridors of Ingenuity"] =	"UlduarC";
+	["Hall of Memories"] =				"UlduarC";
+	["The LMS Mark II "] =				"UlduarD";	
+	["The Spark of Imagination"] =		"UlduarD";
+	["The Descent into Madness"] =		"UlduarE";
+	["The Prison of Yogg-Saron"] =		"UlduarE";
+	["The Mind's Eye"] =				"UlduarE";
+	["Light's Hammer"] =				"IcecrownCitadelA";	
+	["Oratory of the Damned"] =			"IcecrownCitadelA";
+	["Rampart of Skulls"] =				"IcecrownCitadelA";
+	["Deathbringer's Rise"] =			"IcecrownCitadelA";
+	["The Plagueworks"] =				"IcecrownCitadelB";
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] =	"IcecrownCitadelB";
+	["The Crimson Hall"] =				"IcecrownCitadelB";
+	["The Sanctum of Blood"] =			"IcecrownCitadelB";
+	["The Frostwing Halls"] =			"IcecrownCitadelB";
+	["The Frost Queen's Lair"] =		"IcecrownCitadelB";
+	["The Frozen Throne"] =				"IcecrownCitadelC";
+};
+
+-- Maps to auto-select to from outdoor zones.
+-- Duplicates are commented out.   
+-- Not for localization.
+Atlas_OutdoorZoneToAtlas = {
+	["Ashenvale"] =					"BlackfathomDeepsEnt";
+	["Badlands"] =					"UldamanEnt";
+	["Blackrock Mountain"] =		"BlackrockSpireEnt";
+	["Burning Steppes"] =			"BlackrockSpireEnt";
+	["Deadwind Pass"] =				"KarazhanEnt";
+	["Desolace"] =					"MaraudonEnt";
+	["Dun Morogh"] =				"GnomereganEnt";
+	["Feralas"] =					"DireMaulEnt";
+	["Searing Gorge"] =				"BlackrockSpireEnt";
+	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
+	["Tanaris"] =					"CoTEnt";
+	--["Tanaris"] =					"ZulFarrak";
+	["Terokkar Forest"] =			"AuchindounEnt";
+	["The Barrens"] =				"WailingCavernsEnt";
+	--["The Barrens"] =				"RazorfenKraul";
+	--["The Barrens"] =				"RazorfenDowns";
+	["Tirisfal Glades"] =			"SMEnt";
+	["Westfall"] =					"TheDeadminesEnt";
+	["Zangarmarsh"] =				"CoilfangReservoirEnt";
+	["Orgrimmar"] =					"RagefireChasm";
+	["Dustwallow Marsh"] =			"OnyxiasLair";
+	["Silithus"] =					"TheTempleofAhnQiraj";
+	--["Silithus"] =				"TheRuinsofAhnQiraj";
+	["Western Plaguelands"] =		"Scholomance";
+	["Silverpine Forest"] =			"ShadowfangKeep";
+	["Eastern Plaguelands"] =		"Stratholme";
+	["Stormwind City"] =			"TheStockade";
+	["Stranglethorn Vale"] =		"ZulGurub";
+	["Ghostlands"] =				"ZulAman";
+	["Isle of Quel'Danas"] =		"MagistersTerrace";
+	--["Isle of Quel'Danas"] =		"SunwellPlateau";
+	["Hellfire Peninsula"] =		"HCHellfireRamparts";
+	--["Hellfire Peninsula"] =		"HCBloodFurnace";
+	--["Hellfire Peninsula"] =		"HCTheShatteredHalls";
+	--["Hellfire Peninsula"] =		"HCMagtheridonsLair";
+	--["Zangarmarsh"] =				"CFRTheSlavePens";
+	--["Zangarmarsh"] =				"CFRTheUnderbog";
+	--["Zangarmarsh"] =				"CFRTheSteamvault";
+	--["Zangarmarsh"] =				"CFRSerpentshrineCavern";
+	["Netherstorm"] =				"TempestKeepMechanar";
+	--["Netherstorm"] =				"TempestKeepBotanica";
+	--["Netherstorm"] =				"TempestKeepArcatraz";
+	--["Netherstorm"] =				"TempestKeepTheEye";
+	["Blade's Edge Mountains"] =	"GruulsLair";
+	["Shadowmoon Valley"] =			"BlackTempleStart";
+	--["Shadowmoon Valley"] =		"BlackTempleBasement";
+	--["Shadowmoon Valley"] =		"BlackTempleTop";
+	["Dragonblight"] =				"Naxxramas";
+	["Borean Tundra"] =				"TheEyeOfEternity";
+	["Wintergrasp"] =				"VaultOfArchavon";
+	["The Storm Peaks"] =			"UlduarA";	
+	["Icecrown"] =					"IcecrownCitadelA";
+};
+
+-- Maps to auto-select to from outdoor zones.
+-- No need to localize this table since BabbleZone lib will look for it.
+Atlas_OutdoorZoneToAtlas_Loc = {
+	["Ashenvale"] = 			BabbleZone["Ashenvale"];
+	["Badlands"] = 				BabbleZone["Badlands"];
+	["Blackrock Mountain"] = 	BabbleZone["Blackrock Mountain"];
+	["Burning Steppes"] = 		BabbleZone["Burning Steppes"];
+	["Deadwind Pass"] = 		BabbleZone["Deadwind Pass"];
+	["Desolace"] = 				BabbleZone["Desolace"];
+	["Dun Morogh"] = 			BabbleZone["Dun Morogh"];
+	["Feralas"] = 				BabbleZone["Feralas"];
+	["Searing Gorge"] = 		BabbleZone["Searing Gorge"];
+	["Swamp of Sorrows"] = 		BabbleZone["Swamp of Sorrows"];
+	["Tanaris"] = 				BabbleZone["Tanaris"];
+	["Terokkar Forest"] = 		BabbleZone["Terokkar Forest"];
+	["The Barrens"] = 			BabbleZone["The Barrens"];
+	["Tirisfal Glades"] = 		BabbleZone["Tirisfal Glades"];
+	["Westfall"] = 				BabbleZone["Westfall"];
+	["Zangarmarsh"] = 			BabbleZone["Zangarmarsh"];
+	["Orgrimmar"] = 			BabbleZone["Orgrimmar"];
+	["Dustwallow Marsh"] = 		BabbleZone["Dustwallow Marsh"];
+	["Silithus"] = 				BabbleZone["Silithus"];
+	["Western Plaguelands"] = 	BabbleZone["Western Plaguelands"];
+	["Silverpine Forest"] = 	BabbleZone["Silverpine Forest"];
+	["Eastern Plaguelands"] = 	BabbleZone["Eastern Plaguelands"];
+	["Stormwind City"] = 		BabbleZone["Stormwind City"];
+	["Stranglethorn Vale"] = 	BabbleZone["Stranglethorn Vale"];
+	["Ghostlands"] = 			BabbleZone["Ghostlands"];
+	["Isle of Quel'Danas"] = 	BabbleZone["Isle of Quel'Danas"];
+	["Hellfire Peninsula"] = 	BabbleZone["Hellfire Peninsula"];
+	["Zangarmarsh"] = 			BabbleZone["Zangarmarsh"];
+	["Netherstorm"] = 			BabbleZone["Netherstorm"];
+	["Blade's Edge Mountains"] = BabbleZone["Blade's Edge Mountains"];
+	["Shadowmoon Valley"] = 	BabbleZone["Shadowmoon Valley"];
+	["Dragonblight"] = 			BabbleZone["Dragonblight"];
+	["Borean Tundra"] = 		BabbleZone["Borean Tundra"];
+	["Wintergrasp"] = 			BabbleZone["Wintergrasp"];
+	["The Storm Peaks"] = 		BabbleZone["The Storm Peaks"];	
+	["Icecrown"] = 				BabbleZone["Icecrown"];
+};
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
 
 --entrance maps to instance maps
 Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
-	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockSpireEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
-	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
+	["BlackfathomDeepsEnt"] =	{"BlackfathomDeeps"};
+	["BlackrockSpireEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["CoilfangReservoirEnt"] =	{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
 	["GnomereganEnt"] =			{"Gnomeregan"};
 	["MaraudonEnt"] =			{"Maraudon"};
-	["TheDeadminesEnt"] =			{"TheDeadmines"};
-	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
+	["TheDeadminesEnt"] =		{"TheDeadmines"};
+	["TheSunkenTempleEnt"] =	{"TheSunkenTemple"};
 	["UldamanEnt"] =			{"Uldaman"};
-	["WailingCavernsEnt"] =			{"WailingCaverns"};
+	["WailingCavernsEnt"] =		{"WailingCaverns"};
 	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["CoTEnt"] =				{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
 	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
-	["SMEnt"] =				{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["SMEnt"] =					{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
 };
 
 --instance maps to entrance maps
 Atlas_InstToEntMatches = {
-	["AuchManaTombs"] =			{"AuchindounEnt"};
+	["AuchManaTombs"] =				{"AuchindounEnt"};
 	["AuchAuchenaiCrypts"] =		{"AuchindounEnt"};
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
 	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
 	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
 	["BlackrockSpireLower"] =		{"BlackrockSpireEnt"};
 	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt"};
-	["BlackwingLair"] =			{"BlackrockSpireEnt"};
+	["BlackwingLair"] =				{"BlackrockSpireEnt"};
 	["BlackrockDepths"] =			{"BlackrockSpireEnt"};
-	["MoltenCore"] =			{"BlackrockSpireEnt"};
+	["MoltenCore"] =				{"BlackrockSpireEnt"};
 	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
-	["CFRSerpentshrineCavern"] =		{"CoilfangReservoirEnt"};
-	["Gnomeregan"] =			{"GnomereganEnt"};
-	["Maraudon"] =				{"MaraudonEnt"};
-	["TheDeadmines"] =			{"TheDeadminesEnt"};
+	["CFRSerpentshrineCavern"] =	{"CoilfangReservoirEnt"};
+	["Gnomeregan"] =				{"GnomereganEnt"};
+	["Maraudon"] =					{"MaraudonEnt"};
+	["TheDeadmines"] =				{"TheDeadminesEnt"};
 	["TheSunkenTemple"] =			{"TheSunkenTempleEnt"};
-	["Uldaman"] =				{"UldamanEnt"};
+	["Uldaman"] =					{"UldamanEnt"};
 	["WailingCaverns"] =			{"WailingCavernsEnt"};
-	["DireMaulEast"] =			{"DireMaulEnt"};
-	["DireMaulNorth"] =			{"DireMaulEnt"};
-	["DireMaulWest"] =			{"DireMaulEnt"};
-	["CoTHyjal"] =				{"CoTEnt"};
+	["DireMaulEast"] =				{"DireMaulEnt"};
+	["DireMaulNorth"] =				{"DireMaulEnt"};
+	["DireMaulWest"] =				{"DireMaulEnt"};
+	["CoTHyjal"] =					{"CoTEnt"};
 	["CoTBlackMorass"] =			{"CoTEnt"};
 	["CoTOldHillsbrad"] =			{"CoTEnt"};
 	["CoTOldStratholme"] =			{"CoTEnt"};
-	["KarazhanStart"] =			{"KarazhanEnt"};
-	["KarazhanEnd"] =			{"KarazhanEnt"};
-	["SMArmory"] =				{"SMEnt"};
-	["SMLibrary"] =				{"SMEnt"};
-	["SMCathedral"] =			{"SMEnt"};
-	["SMGraveyard"] =			{"SMEnt"};
+	["KarazhanStart"] =				{"KarazhanEnt"};
+	["KarazhanEnd"] =				{"KarazhanEnt"};
+	["SMArmory"] =					{"SMEnt"};
+	["SMLibrary"] =					{"SMEnt"};
+	["SMCathedral"] =				{"SMEnt"};
+	["SMGraveyard"] =				{"SMEnt"};
 };
 
 --Links maps together that are part of the same instance
 Atlas_SubZoneAssoc = {
-	["BlackTempleStart"] =			"Black Temple";
-	["BlackTempleBasement"] =		"Black Temple";
-	["BlackTempleTop"] =			"Black Temple";
+	["BlackTempleStart"] =		"Black Temple";
+	["BlackTempleBasement"] =	"Black Temple";
+	["BlackTempleTop"] =		"Black Temple";
 	["KarazhanStart"] =			"Karazhan";
 	["KarazhanEnd"] =			"Karazhan";
 	["KarazhanEnt"] =			"Karazhan";
@@ -138,22 +368,22 @@ Atlas_SubZoneAssoc = {
 	["DireMaulEast"] =			"Dire Maul";
 	["DireMaulWest"] =			"Dire Maul";
 	["DireMaulEnt"] =			"Dire Maul";
-	["BlackrockSpireLower"] =		"Blackrock Spire";
-	["BlackrockSpireUpper"] =		"Blackrock Spire";
-	["BlackrockSpireEnt"] =			"Blackrock Spire";
+	["BlackrockSpireLower"] =	"Blackrock Spire";
+	["BlackrockSpireUpper"] =	"Blackrock Spire";
+	["BlackrockSpireEnt"] =		"Blackrock Spire";
 	["SMGraveyard"] =			"Scarlet Monastery";
 	["SMLibrary"] =				"Scarlet Monastery";
 	["SMArmory"] =				"Scarlet Monastery";
 	["SMCathedral"] =			"Scarlet Monastery";
-	["SMEnt"] =				"Scarlet Monastery";
+	["SMEnt"] =					"Scarlet Monastery";
 	["UlduarA"] =				"Ulduar";
 	["UlduarB"] =				"Ulduar";
 	["UlduarC"] =				"Ulduar";
 	["UlduarD"] =				"Ulduar";
 	["UlduarE"] =				"Ulduar";
-	["IcecrownCitadelA"] =			"Icecrown Citadel";
-	["IcecrownCitadelB"] =			"Icecrown Citadel";
-	["IcecrownCitadelC"] =			"Icecrown Citadel";
+	["IcecrownCitadelA"] =		"Icecrown Citadel";
+	["IcecrownCitadelB"] =		"Icecrown Citadel";
+	["IcecrownCitadelC"] =		"Icecrown Citadel";
 };
 
 function Atlas_FreshOptions()
@@ -778,6 +1008,37 @@ function Atlas_GetFixedZoneText()
 	return currentZone;
 end 
 
+-- Checking if current zone is defined in Atlas_AssocDefaults_Loc
+local function Atlas_CheckAssocDefaults()
+	local currentZone = Atlas_GetFixedZoneText();
+	for ka, va in pairs(Atlas_AssocDefaults_Loc) do
+		if(currentZone == va) then
+			return ka; -- return key value
+		end
+	end
+end
+
+-- Checking if current zone is defined in Atlas_SubZoneData_Loc
+local function Atlas_CheckSubZoneData()
+	local currentSubZone = GetSubZoneText();
+	for ka, va in pairs(Atlas_SubZoneData_Loc) do
+		if(currentSubZone == va) then
+			return ka; -- return key value
+		end
+	end
+end
+
+-- Checking if current zone is defined in Atlas_OutdoorZoneToAtlas_Loc
+local function Atlas_CheckOutdoorZoneData()
+	local currentZone = Atlas_GetFixedZoneText();
+	for ka, va in pairs(Atlas_OutdoorZoneToAtlas_Loc) do
+		if(currentZone == va) then
+			return ka; -- return key value
+		end
+	end
+end
+
+
 --Checks the player's current location against all Atlas maps
 --If a match is found display that map right away
 --update for Outland zones contributed by Drahcir
@@ -785,15 +1046,18 @@ end
 function Atlas_AutoSelect()
 	local currentZone = Atlas_GetFixedZoneText();
 	local currentSubZone = GetSubZoneText();
+	local assoc_default = Atlas_CheckAssocDefaults();
+	local subzonedata = Atlas_CheckSubZoneData();
+	local outdoorzone = Atlas_CheckOutdoorZoneData();
 	debug("Using auto-select to open the best map.");
 	
-	if ( Atlas_AssocDefaults[currentZone] ) then
+	if ( assoc_default ) then
 		debug("You're in a zone where SubZone data is relevant.");
-		if ( Atlas_SubZoneData[currentSubZone] ) then
+		if ( subzonedata ) then
 			debug("There's data for your current SubZone.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do
 				for kb,vb in pairs(va) do         
-					if ( Atlas_SubZoneData[currentSubZone] == vb ) then
+					if ( Atlas_SubZoneData[subzonedata] == vb ) then
 						AtlasOptions.AtlasType = ka;
 						AtlasOptions.AtlasZone = kb;
 						Atlas_Refresh();
@@ -810,7 +1074,7 @@ function Atlas_AutoSelect()
 			else
 				for ka,va in pairs(ATLAS_DROPDOWNS) do
 					for kb,vb in pairs(va) do         
-						if ( Atlas_AssocDefaults[currentZone] == vb ) then
+						if ( Atlas_AssocDefaults[assoc_default] == vb ) then
 							AtlasOptions.AtlasType = ka;
 							AtlasOptions.AtlasZone = kb;
 							Atlas_Refresh();
@@ -823,11 +1087,11 @@ function Atlas_AutoSelect()
 		end
 	else
 		debug("SubZone data isn't relevant here.");
-		if ( Atlas_OutdoorZoneToAtlas[currentZone] ) then
+		if ( Atlas_OutdoorZoneToAtlas[outdoorzone] ) then
 			debug("This world zone is associated with a map.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do
 				for kb,vb in pairs(va) do         
-					if ( Atlas_OutdoorZoneToAtlas[currentZone] == vb ) then
+					if ( Atlas_OutdoorZoneToAtlas[outdoorzone] == vb ) then
 						AtlasOptions.AtlasType = ka;
 						AtlasOptions.AtlasZone = kb;
 						Atlas_Refresh();

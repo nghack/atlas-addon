@@ -113,6 +113,90 @@ ATLAS_DEP_MSG2 = "這些模組已從這個角色被停用";
 ATLAS_DEP_MSG3 = "請將這些模組從 AddOns 目錄移除";
 ATLAS_DEP_OK = "Ok";
 
+
+--Links SubZone values with specific instance maps
+Atlas_SubZoneData_Loc = {
+	["Karabor Sewers"] = 			"Karabor Sewers";
+	["Illidari Training Grounds"] = "Illidari Training Grounds";
+	["The Refectory"] = 			"The Refectory";
+	["Sanctuary of Shadow"] = 		"Sanctuary of Shadow";
+	["Gorefiend's Vigil"] = 		"Gorefiend's Vigil";
+	["Halls of Anguish"] = 			"Halls of Anguish";
+	["Shrine of Lost Souls"] = 		"Shrine of Lost Souls";
+	["Den of Mortal Delights"] = 	"Den of Mortal Delights";
+	["Chamber of Command"] = 		"Chamber of Command";
+	["Grand Promenade"] = 			"Grand Promenade";
+	["Temple Summit"] = 			"Temple Summit";
+	["The Gatehouse"] = 			"The Gatehouse";
+	["Livery Stables"] = 			"Livery Stables";
+	["The Guardhouse"] = 			"The Guardhouse";
+	["The Scullery"] = 				"The Scullery";
+	["Servants' Quarters"] = 		"Servants' Quarters";
+	["The Grand Ballroom"] = 		"The Grand Ballroom";
+	["The Banquet Hall"] = 			"The Banquet Hall";
+	["The Guest Chambers"] = 		"The Guest Chambers";
+	["The Opera Hall"] = 			"The Opera Hall";
+	["The Broken Stair"] = 			"The Broken Stair";
+	["Master's Terrace"] = 			"Master's Terrace";
+	["The Menagerie"] = 			"The Menagerie";
+	["Guardian's Library"] = 		"Guardian's Library";
+	["The Repository"] = 			"The Repository";
+	["The Celestial Watch"] = 		"The Celestial Watch";
+	["Gamesman's Hall"] = 			"Gamesman's Hall";
+	["Medivh's Chambers"] = 		"Medivh's Chambers";
+	["Master's Terrace"] = 			"Master's Terrace";
+	["Netherspace"] = 				"Netherspace";
+	["Halls of Destruction"] = 		"Halls of Destruction";
+	["Gordok's Seat"] = 			"Gordok's Seat";
+	["Warpwood Quarter"] = 			"Warpwood Quarter";
+	["The Hidden Reach"] = 			"The Hidden Reach";
+	["The Conservatory"] = 			"The Conservatory";
+	["The Shrine of Eldretharr"] = 	"The Shrine of Eldretharr";
+	["Capital Gardens"] = 			"Capital Gardens";
+	["Court of the Highborne"] = 	"Court of the Highborne";
+	["Prison of Immol'thar"] = 		"Prison of Immol'thar";
+	["The Athenaeum"] = 			"The Athenaeum";
+	-- Blackrock Spire, Lower
+	["Hordemar City"] = 			"Hordemar City";
+	["Mok'Doom"] = 					"Mok'Doom";
+	["Tazz'Alaor"] = 				"Tazz'Alaor";
+	["Skitterweb Tunnels"] = 		"Skitterweb Tunnels";
+	["The Storehouse"] = 			"The Storehouse";
+	["Chamber of Battle"] = 		"Chamber of Battle";
+	["Hall of Blackhand"] =			"黑手大廳";
+	-- Blackrock Spire, Upper
+	["Dragonspire Hall"] =			"龍塔大廳";
+	["Hall of Binding"] =			"禁錮大廳";
+	["The Rookery"] =				"孵化間";
+	["Blackrock Stadium"] =			"黑石競技場";
+	["The Furnace"] =				"熔爐";
+	["Hordemar City"] =				"霍德瑪爾城";
+	["Spire Throne"] =				"尖塔王座";
+	-- Scarlet Monastery, Entrance
+	["The Grand Vestibule"] = 		"大門廊";
+	["Chamber of Atonement"] = 		"懺悔室";
+	["Forlorn Cloister"] = 			"孤寂迴廊";
+	["Honor's Tomb"] = 				"榮耀之墓";
+	["Huntsman's Cloister"] = 		"獵手回廊";
+	["Gallery of Treasures"] = 		"珍寶陳列室";
+	["Athenaeum"] = 				"圖書館";
+	["Training Grounds"] = 			"訓練場";
+	["Footman's Armory"] = 			"步卒武器庫";
+	["Crusader's Armory"] = 		"十字軍武器庫";
+	["Hall of Champions"] = 		"勇士大廳";
+	["Chapel Gardens"] = 			"教堂花園";
+	["Crusader's Chapel"] = 		"十字軍禮拜堂";
+	["The Lower Citadel"] = 		"The Lower Citadel";
+	["The Rampart of Skulls"] = 	"The Rampart of Skulls";
+	["Deathbringer's Rise"] = 		"Deathbringer's Rise";
+	["The Frost Queen's Lair"] = 	"The Frost Queen's Lair";
+	["The Upper Reaches"] = 		"The Upper Reaches";
+	["Royal Quarters"] = 			"Royal Quarters";
+	["The Frozen Throne"] = 		"The Frozen Throne";
+};
+
+
+
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "沈沒的神廟";
 	["Ahn'Qiraj"] = "安其拉神廟";
@@ -751,9 +835,9 @@ AtlasLocale = {
 	["Urok Doomhowl"] = "烏洛克";
 	["Quartermaster Zigris <Bloodaxe Legion>"] = "軍需官茲格雷斯";
 	["Halycon"] = "哈雷肯";
-	["Gizrul the Slavener"] = "奴役者基茲盧爾";
+	["Gizrul the Slavener"] = "『奴役者』基茲盧爾";
 	["Ghok Bashguud <Bloodaxe Champion>"] = "霍克·巴什古德";
-	["Overlord Wyrmthalak"] = "維姆薩拉克";
+	["Overlord Wyrmthalak"] = "維姆薩拉克主宰";
 	["Burning Felguard"] = "燃燒地獄衛士";
 
 	--Blackrock Spire (Upper)

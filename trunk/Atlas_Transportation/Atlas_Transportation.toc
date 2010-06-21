@@ -12,8 +12,8 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 交通網路圖模組
-## Version: 1.16.1
-## X-Date: June, 2010
+## Version: 1.16.2
+## X-Date: July, 2010
 ## Author: Dan Gilbert
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com

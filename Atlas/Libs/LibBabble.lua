@@ -1,7 +1,7 @@
 ﻿--[[
 Atlas_GetLocaleLibBabble(typ)
-Get english translations for non translated things. (Combines Locatet and English table)
-Only Useable with LibBabble
+Get english translations for non translated things. (Combines located and english table)
+Only useable with LibBabble
 ]]
 function Atlas_GetLocaleLibBabble(typ)
 

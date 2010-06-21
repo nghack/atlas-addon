@@ -33,8 +33,6 @@ if ( GetLocale() ==	"zhTW" ) then
 AtlasSortIgnore = {"the (.+)"};
 
 ATLAS_TITLE = "Atlas 地圖集";
-ATLAS_SUBTITLE = "副本地圖集";
-ATLAS_DESC = "Atlas 是一個副本地圖增強插件.";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas 按鍵設定";
 BINDING_NAME_ATLAS_TOGGLE = "開啟/關閉 Atlas";
@@ -58,16 +56,13 @@ ATLAS_OPTIONS_SHOWBUT = "在小地圖旁顯示 Atlas 按鈕";
 ATLAS_OPTIONS_AUTOSEL = "自動選擇副本地圖";
 ATLAS_OPTIONS_BUTPOS = "按鈕位置";
 ATLAS_OPTIONS_TRANS = "透明度";
-ATLAS_OPTIONS_REPMAP = "取代世界地圖";
 ATLAS_OPTIONS_RCLICK = "點擊滑鼠右鍵開啟世界地圖";
-ATLAS_OPTIONS_SHOWMAPNAME = "顯示地圖名稱";
 ATLAS_OPTIONS_RESETPOS = "重設位置";
 ATLAS_OPTIONS_ACRONYMS = "顯示副本縮寫";
 ATLAS_OPTIONS_SCALE = "視窗大小比率";
 ATLAS_OPTIONS_BUTRAD = "按鈕半徑範圍";
 ATLAS_OPTIONS_CLAMPED = "使 Atlas 視窗不超出遊戲畫面";
 ATLAS_OPTIONS_CTRL = "按住 Ctrl 鍵以顯示工具提示";
-ATLAS_OPTIONS_COORDS = "在世界地圖顯示玩家座標";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas 副本地圖";
 ATLAS_BUTTON_TOOLTIP_HINT = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
@@ -105,32 +100,33 @@ ATLAS_DDL_TYPE_ENTRANCE = "入口";
 ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜尋功能停用";
-ATLAS_WORLDMAP_PLAYER = "玩家";
-ATLAS_WORLDMAP_CURSOR = "游標";
 
 ATLAS_DEP_MSG1 = "Atlas 偵測到過期的模組";
 ATLAS_DEP_MSG2 = "這些模組已從這個角色被停用";
 ATLAS_DEP_MSG3 = "請將這些模組從 AddOns 目錄移除";
 ATLAS_DEP_OK = "Ok";
 
-
 --Links SubZone values with specific instance maps
 Atlas_SubZoneData_Loc = {
+	--Black Temple, Start
 	["Karabor Sewers"] = 			"Karabor Sewers";
-	["Illidari Training Grounds"] = "Illidari Training Grounds";
-	["The Refectory"] = 			"The Refectory";
+	["Illidari Training Grounds"] = 	"Illidari Training Grounds";
 	["Sanctuary of Shadow"] = 		"Sanctuary of Shadow";
+	["The Refectory"] = 			"The Refectory";
+	--Black Temple, Basement
 	["Gorefiend's Vigil"] = 		"Gorefiend's Vigil";
 	["Halls of Anguish"] = 			"Halls of Anguish";
 	["Shrine of Lost Souls"] = 		"Shrine of Lost Souls";
-	["Den of Mortal Delights"] = 	"Den of Mortal Delights";
-	["Chamber of Command"] = 		"Chamber of Command";
+	--Black Temple, Top
+	["Den of Mortal Delights"] = 		"Den of Mortal Delights";
 	["Grand Promenade"] = 			"Grand Promenade";
+	["Chamber of Command"] = 		"Chamber of Command";
 	["Temple Summit"] = 			"Temple Summit";
+	--Karazhan, Start
 	["The Gatehouse"] = 			"The Gatehouse";
 	["Livery Stables"] = 			"Livery Stables";
 	["The Guardhouse"] = 			"The Guardhouse";
-	["The Scullery"] = 				"The Scullery";
+	["The Scullery"] = 			"The Scullery";
 	["Servants' Quarters"] = 		"Servants' Quarters";
 	["The Grand Ballroom"] = 		"The Grand Ballroom";
 	["The Banquet Hall"] = 			"The Banquet Hall";
@@ -138,6 +134,7 @@ Atlas_SubZoneData_Loc = {
 	["The Opera Hall"] = 			"The Opera Hall";
 	["The Broken Stair"] = 			"The Broken Stair";
 	["Master's Terrace"] = 			"Master's Terrace";
+	--Karazhan, End
 	["The Menagerie"] = 			"The Menagerie";
 	["Guardian's Library"] = 		"Guardian's Library";
 	["The Repository"] = 			"The Repository";
@@ -145,57 +142,100 @@ Atlas_SubZoneData_Loc = {
 	["Gamesman's Hall"] = 			"Gamesman's Hall";
 	["Medivh's Chambers"] = 		"Medivh's Chambers";
 	["Master's Terrace"] = 			"Master's Terrace";
-	["Netherspace"] = 				"Netherspace";
+	["Netherspace"] = 			"Netherspace";
+	--Dire Maul, Entrance
+	["Broken Commons"] = 			"Broken Commons";
+	["Eldreth Row"] = 			"Eldreth Row";
+	["The Maul"] = 				"The Maul";
+	--Dire Maul, North
 	["Halls of Destruction"] = 		"Halls of Destruction";
 	["Gordok's Seat"] = 			"Gordok's Seat";
+	--Dire Maul, East
 	["Warpwood Quarter"] = 			"Warpwood Quarter";
 	["The Hidden Reach"] = 			"The Hidden Reach";
 	["The Conservatory"] = 			"The Conservatory";
-	["The Shrine of Eldretharr"] = 	"The Shrine of Eldretharr";
+	["The Shrine of Eldretharr"] = 		"The Shrine of Eldretharr";
+	--Dire Maul, West
 	["Capital Gardens"] = 			"Capital Gardens";
-	["Court of the Highborne"] = 	"Court of the Highborne";
+	["Court of the Highborne"] = 		"Court of the Highborne";
 	["Prison of Immol'thar"] = 		"Prison of Immol'thar";
 	["The Athenaeum"] = 			"The Athenaeum";
-	-- Blackrock Spire, Lower
-	["Hordemar City"] = 			"Hordemar City";
-	["Mok'Doom"] = 					"Mok'Doom";
-	["Tazz'Alaor"] = 				"Tazz'Alaor";
+	--Blackrock Spire, Lower
+	["Hordemar City"] =			"霍德瑪爾城";
+	["Mok'Doom"] = 				"Mok'Doom";
+	["Tazz'Alaor"] = 			"Tazz'Alaor";
 	["Skitterweb Tunnels"] = 		"Skitterweb Tunnels";
+	["Halycon's Lair"] = 			"Halycon's Lair";
 	["The Storehouse"] = 			"The Storehouse";
 	["Chamber of Battle"] = 		"Chamber of Battle";
-	["Hall of Blackhand"] =			"黑手大廳";
-	-- Blackrock Spire, Upper
+	--Blackrock Spire, Upper
 	["Dragonspire Hall"] =			"龍塔大廳";
 	["Hall of Binding"] =			"禁錮大廳";
-	["The Rookery"] =				"孵化間";
+	["The Rookery"] =			"孵化間";
+	["Hall of Blackhand"] =			"黑手大廳";
 	["Blackrock Stadium"] =			"黑石競技場";
-	["The Furnace"] =				"熔爐";
-	["Hordemar City"] =				"霍德瑪爾城";
-	["Spire Throne"] =				"尖塔王座";
-	-- Scarlet Monastery, Entrance
+	["The Furnace"] =			"熔爐";
+	["Spire Throne"] =			"尖塔王座";
+	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] = 		"大門廊";
+	--Scarlet Monastery, Graveyard
 	["Chamber of Atonement"] = 		"懺悔室";
 	["Forlorn Cloister"] = 			"孤寂迴廊";
-	["Honor's Tomb"] = 				"榮耀之墓";
+	["Honor's Tomb"] = 			"榮耀之墓";
+	--Scarlet Monastery, Library
 	["Huntsman's Cloister"] = 		"獵手回廊";
 	["Gallery of Treasures"] = 		"珍寶陳列室";
-	["Athenaeum"] = 				"圖書館";
+	["Athenaeum"] = 			"圖書館";
+	--Scarlet Monastery, Armory
 	["Training Grounds"] = 			"訓練場";
 	["Footman's Armory"] = 			"步卒武器庫";
 	["Crusader's Armory"] = 		"十字軍武器庫";
 	["Hall of Champions"] = 		"勇士大廳";
+	--Scarlet Monastery, Cathedral
 	["Chapel Gardens"] = 			"教堂花園";
 	["Crusader's Chapel"] = 		"十字軍禮拜堂";
-	["The Lower Citadel"] = 		"The Lower Citadel";
-	["The Rampart of Skulls"] = 	"The Rampart of Skulls";
+	--Ulduar, The Siege
+	["Expedition Base Camp"] = 		"Expedition Base Camp";
+	["Iron Concourse"] = 			"Iron Concourse";
+	["Formation Grounds"] = 		"Formation Grounds";
+	["Razorscale's Aerie"] = 		"Razorscale's Aerie";
+	["The Colossal Forge"] = 		"The Colossal Forge";
+	["The Scrapyard"] = 			"The Scrapyard";
+	--Ulduar, The Antechamber
+	["The Antechamber"] = 			"The Antechamber";
+	["The Assembly of Iron"] = 		"The Assembly of Iron";
+	["The Archivum"] = 			"The Archivum";
+	["The Celestial Planetarium"] = 	"The Celestial Planetarium";
+	["The Shattered Walkway"] = 		"The Shattered Walkway";
+	--Ulduar, The Keepers
+	["The Observation Ring"] = 		"The Observation Ring";
+	["The Halls of Winter"] = 		"The Halls of Winter";
+	["The Clash of Thunder"] = 		"The Clash of Thunder";
+	["The Conservatory of Life"] = 		"The Conservatory of Life";
+	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity";
+	["Hall of Memories"] = 			"Hall of Memories";
+	--Ulduar, Spark of Imagination
+	["The LMS Mark II "] = 			"The LMS Mark II ";	
+	["The Spark of Imagination"] = 		"The Spark of Imagination";
+	--Ulduar, Descent into Madness
+	["The Descent into Madness"] = 		"The Descent into Madness";
+	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron";
+	["The Mind's Eye"] = 			"The Mind's Eye";
+	--Icecrown Citadell, Lower
+	["Light's Hammer"] = 			"Light's Hammer";	
+	["Oratory of the Damned"] = 		"Oratory of the Damned";
+	["Rampart of Skulls"] = 		"Rampart of Skulls";
 	["Deathbringer's Rise"] = 		"Deathbringer's Rise";
-	["The Frost Queen's Lair"] = 	"The Frost Queen's Lair";
-	["The Upper Reaches"] = 		"The Upper Reaches";
-	["Royal Quarters"] = 			"Royal Quarters";
+	--Icecrown Citadell, Upper
+	["The Plagueworks"] = 			"The Plagueworks";
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun";
+	["The Crimson Hall"] = 			"The Crimson Hall";
+	["The Sanctum of Blood"] = 		"The Sanctum of Blood";
+	["The Frostwing Halls"] = 		"The Frostwing Halls";
+	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair";
+	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"The Frozen Throne";
 };
-
-
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "沈沒的神廟";

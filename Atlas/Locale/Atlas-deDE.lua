@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 20.06.2010
+-- Letztes Update: 21.06.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -41,8 +41,6 @@ AtlasSortIgnore = {
 }
 
 ATLAS_TITLE = "Atlas";
-ATLAS_SUBTITLE = "Instanzkarten";
-ATLAS_DESC = "Atlas ist ein Instanzkarten-Browser";
 
 BINDING_HEADER_ATLAS_TITLE = "Atlas Tastaturbelegungen";
 BINDING_NAME_ATLAS_TOGGLE = "Atlas an/aus";
@@ -66,16 +64,13 @@ ATLAS_OPTIONS_SHOWBUT = "Minimap-Schalter anzeigen";
 ATLAS_OPTIONS_AUTOSEL = "Automatische Karten-Auswahl";
 ATLAS_OPTIONS_BUTPOS = "Schalterposition";
 ATLAS_OPTIONS_TRANS = "Transparenz";
-ATLAS_OPTIONS_REPMAP = "Weltkarte ersetzen";
 ATLAS_OPTIONS_RCLICK = "Rechte Maustaste für Weltkarte drücken";
-ATLAS_OPTIONS_SHOWMAPNAME = "Kartenname anzeigen";
 ATLAS_OPTIONS_RESETPOS = "Position zurücksetzen";
 ATLAS_OPTIONS_ACRONYMS = "Abkürzungen anzeigen";
 ATLAS_OPTIONS_SCALE = "Skalierung";
 ATLAS_OPTIONS_BUTRAD = "Schalterradius";
 ATLAS_OPTIONS_CLAMPED = "Fenster im Bildschirm festsetzen";
 ATLAS_OPTIONS_CTRL = "Steuerung drücken, um Tooltips anzuzeigen";
-ATLAS_OPTIONS_COORDS = "Koordinaten auf der Weltkarte anzeigen";
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
 ATLAS_BUTTON_TOOLTIP_HINT = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
@@ -113,170 +108,141 @@ ATLAS_DDL_TYPE_ENTRANCE = "Eingänge";
 ATLAS_INSTANCE_BUTTON = "Instanz";
 ATLAS_ENTRANCE_BUTTON = "Eingang";
 ATLAS_SEARCH_UNAVAIL = "Suche nicht verfügbar";
-ATLAS_WORLDMAP_PLAYER = "Spieler";
-ATLAS_WORLDMAP_CURSOR = "Mauszeiger";
 
 ATLAS_DEP_MSG1 = "Atlas hat veraltete Module entdeckt.";
 ATLAS_DEP_MSG2 = "Daher wurden diese Module deaktiviert.";
 ATLAS_DEP_MSG3 = "Entfernen Sie diese aus Ihrem Verzeichnis AddOns.";
 ATLAS_DEP_OK = "OK";
 
---Default map to auto-select to when no SubZone data is available
-Atlas_AssocDefaults = {
-	["Der Schwarze Tempel"] =		"BlackTempleBasement";
-	["Karazhan"] =				"KarazhanStart";
-	["Düsterbruch"] =			"DireMaulNorth";
-	["Schwarzfelsspitze"] =			"BlackrockSpireLower";
-	["Das Scharlachrote Kloster"] =		"SMEnt";
-	["Ulduar"] =				"UlduarA";
-	["Eiskronenzitadelle"] =		"IcecrownCitadelA";
-};
-
 --Links SubZone values with specific instance maps
-Atlas_SubZoneData = {
-	["Kanäle von Karabor"] =		"BlackTempleStart";
-	["Ausbildungsgelände der Illidari"] =	"BlackTempleStart";
-	["Zuflucht der Schatten"] =		"BlackTempleStart";
-	["Das Warenlager"] =			"BlackTempleStart";
-	["Blutschattens Wacht"] =		"BlackTempleBasement";
-	["Hallen der Pein"] =			"BlackTempleBasement";
-	["Schrein der verlorenen Seelen"] =	"BlackTempleBasement";
-	["Kammer des Todesrauschs"] =		"BlackTempleTop";
-	["Große Promenade"] =			"BlackTempleTop";
-	["Kommandoraum"] =			"BlackTempleTop";
-	["Tempelspitze"] =			"BlackTempleTop";
-	["Das Torhaus"] =			"KarazhanStart";
-	["Nobelställe"] =			"KarazhanStart";
-	--["The Guardhouse"] =			"KarazhanStart";
-	["Die Küche"] =				"KarazhanStart";
-	["Bedienstetenunterkünfte"] =		"KarazhanStart";
-	["Der große Ballsaal"] =		"KarazhanStart";
-	["Der Bankettsaal"] =			"KarazhanStart";
-	["Die Gästezimmer"] =			"KarazhanStart";
-	["Der Opernsaal"] =			"KarazhanStart";
-	["Die beschädigte Treppe"] =		"KarazhanStart";
-	--["Terrasse des Meisters"] =		"KarazhanStart";
-	["Die Menagerie"] =			"KarazhanEnd";
-	["Bibliothek des Wächters"] =		"KarazhanEnd";
-	--["Das Warenlager"] =			"KarazhanEnd";
-	["Die Himmelswacht"] =			"KarazhanEnd";
-	["Halle der Spiele"] =			"KarazhanEnd";
-	["Medivhs Kammer"] =			"KarazhanEnd";
-	["Terrasse des Meisters"] =		"KarazhanEnd";
-	["Netherraum"] =			"KarazhanEnd";
-	["Die gebrochenen Gemeinlande"] =	"DireMaulEnt";
-	["Eldrethgasse"] =			"DireMaulEnt";
-	["Die Schlägergrube"] =			"DireMaulEnt";
-	["Hallen der Zerstörung"] =		"DireMaulNorth";
-	["Gordoks Sitz"] =			"DireMaulNorth";
-	["Wucherborkenviertel"] =		"DireMaulEast";
-	["Der versteckte Zugang"] =		"DireMaulEast";
-	["Das Konservatorium"] =		"DireMaulEast";
-	["Der Schrein von Eldretharr"] =	"DireMaulEast";
-	["Hauptstadtgärten"] =			"DireMaulWest";
-	["Hof der Hochgeborenen"] =		"DireMaulWest";
-	["Das Gefängnis von Immol'thar"] =	"DireMaulWest";
-	["Das Athenaeum"] =			"DireMaulWest";
-	["Hordemar"] =				"BlackrockSpireLower";
-	["Mok'Doom"] =				"BlackrockSpireLower";
-	["Tazz'Alaor"] =			"BlackrockSpireLower";
-	["Listspinnertunnel"] =			"BlackrockSpireLower";
-	["Halycons Hort"] =			"BlackrockSpireLower";
-	["Das Lagerhaus"] =			"BlackrockSpireLower";
-	["Kammer der Schlachten"] =		"BlackrockSpireLower";
-	["Drachenspitzhalle"] =			"BlackrockSpireUpper";
-	["Halle der Bindung"] =			"BlackrockSpireUpper";
-	["Der Krähenhorst"] =			"BlackrockSpireUpper";
-	["Schwarzfausthalle"] =			"BlackrockSpireUpper";
-	["Schwarzfelsstadion"] =		"BlackrockSpireUpper";
-	["Der Schmelzofen"] =			"BlackrockSpireUpper";
-	["Spitzenthron"] =			"BlackrockSpireUpper";
-	["Kammer der Buße"] =			"SMGraveyard";
-	["Unglückseliger Kreuzgang"] =		"SMGraveyard";
-	["Ehrengrabmal"] =			"SMGraveyard";
-	["Kreuzgang des Jägers"] =		"SMLibrary";
-	["Galerie der Schätze"] =		"SMLibrary";
-	["Athenaeum"] =				"SMLibrary";
-	["Ausbildungsgelände"] =		"SMArmory";
-	["Fußsoldatenwaffenkammer"] =		"SMArmory";
-	["Waffenkammer der Kreuzzügler"] =	"SMArmory";
-	["Halle der Helden"] =			"SMArmory";
-	["Kapellengarten"] =			"SMCathedral";
-	["Kapelle der Kreuzzügler"] =		"SMCathedral";
-	["Das große Vestibül"] =		"SMEnt";
-	["Basislager der Expedition"] =		"UlduarA";
-	["Der Eisenstau"] =			"UlduarA";
-	["Gestaltungsgelände"] =		"UlduarA";
-	["Klingenschuppes Kanzel"] =		"UlduarA";
-	["Die kolossale Schmiede"] =		"UlduarA";
-	["Der Schrottplatz"] =			"UlduarA";
-	["Die Vorkammer"] =			"UlduarB";
-	["Die Versammlung des Eisens"] =	"UlduarB";
-	["Das Archivum"] =			"UlduarB";
-	["Das himmlische Planetarium"] =	"UlduarB";
-	["Der zerschmetterte Gang"] =		"UlduarB";
-	["Der Beobachtungsring"] =		"UlduarC";
-	["Die Hallen des Winters"] =		"UlduarC";
-	["Der Donnerschlag"] =			"UlduarC";
-	["Das Konservatorium des Lebens"] =	"UlduarC";
-	["Die Korridore des Scharfsinns"] =	"UlduarC";
-	["Halle der Erinnerungen"] =		"UlduarC";
-	--["The LMS Mark II "] =		"UlduarD";	
-	["Der Funke der Imagination"] =		"UlduarD";
-	["Der Abstieg in den Wahnsinn"] =	"UlduarE";
-	["Das Gefängnis von Yogg-Saron"] =	"UlduarE";
-	["Das Gedankenauge"] =			"UlduarE";
-	["Hammer des Lichts"] =			"IcecrownCitadelA";
-	["Oratorium der Verdammten"] =		"IcecrownCitadelA";
-	["Das Schädelbollwerk"] =		"IcecrownCitadelA";
-	["Dom des Todesbringers"] =		"IcecrownCitadelA";
-	["Die Seuchenwerke"] =			"IcecrownCitadelB";
-	["Seuchenmords Laboratorium der alchemistischen Schrecken und Späße"] =	"IcecrownCitadelB";
-	["Die Blutrote Halle"] =		"IcecrownCitadelB";
-	["Das Sanktum des Blutes"] =		"IcecrownCitadelB";
-	["Die Frostschwingenhallen"] =		"IcecrownCitadelB";
-	["Der Hort der Frostkönigin"] =		"IcecrownCitadelB";
-	["Der Frostthron"] =			"IcecrownCitadelC";
-};
-
---Maps to auto-select to from outdoor zones.
---Duplicates are commented out.
-Atlas_OutdoorZoneToAtlas = {
-	["Eschental"] =				"BlackfathomDeepsEnt";
-	["Ödland"] =				"UldamanEnt";
-	["Der Schwarzfels"] =			"BlackrockSpireEnt";
-	["Brennende Steppe"] =			"BlackrockSpireEnt";
-	["Gebirgspass der Totenwinde"] =	"KarazhanEnt";
-	["Desolace"] =				"MaraudonEnt";
-	["Dun Morogh"] =			"GnomereganEnt";
-	["Feralas"] =				"DireMaulEnt";
-	["Sengende Schlucht"] =			"BlackrockSpireEnt";
-	["Sümpfe des Elends"] =			"TheSunkenTempleEnt";
-	["Tanaris"] =				"CoTEnt";
-	["Wälder von Terokkar"] =		"AuchindounEnt";
-	["Brachland"] =				"WailingCavernsEnt";
-	["Tirisfal"] =				"SMEnt";
-	["Westfall"] =				"TheDeadminesEnt";
-	["Zangarmarschen"] =			"CoilfangReservoirEnt";
-	["Orgrimmar"] =				"RagefireChasm";
-	["Düstermarschen"] =			"OnyxiasLair";
-	["Silithus"] =				"TheTempleofAhnQiraj";
-	["Westliche Pestländer"] =		"Scholomance";
-	["Silberwald"] =			"ShadowfangKeep";
-	["Östliche Pestländer"] =		"Stratholme";
-	["Sturmwind"] =				"TheStockade";
-	["Schlingendorntal"] =			"ZulGurub";
-	["Geisterlande"] =			"ZulAman";
-	["Insel von Quel'Danas"] =		"SunwellPlateau";
-	["Höllenfeuerhalbinsel"] =		"HCMagtheridonsLair";
-	["Nethersturm"] =			"TempestKeepTheEye";
-	["Schergrat"] =				"GruulsLair";
-	["Schattenmondtal"] =			"BlackTempleStart";
-	["Drachenöde"] =			"Naxxramas";
-	["Boreanische Tundra"] =		"TheEyeOfEternity";
-	["Tausendwintersee"] =			"VaultOfArchavon";
-	["Die Sturmgipfel"] =			"UlduarA";	
-	["Eiskrone"] =				"IcecrownCitadelA";
+Atlas_SubZoneData_Loc = {
+	--Black Temple, Start
+	["Karabor Sewers"] = 			"Kanäle von Karabor";
+	["Illidari Training Grounds"] = 	"Ausbildungsgelände der Illidari";
+	["Sanctuary of Shadow"] = 		"Zuflucht der Schatten";
+	["The Refectory"] = 			"Das Warenlager";
+	--Black Temple, Basement
+	["Gorefiend's Vigil"] = 		"Blutschattens Wacht";
+	["Halls of Anguish"] = 			"Hallen der Pein";
+	["Shrine of Lost Souls"] = 		"Schrein der verlorenen Seelen";
+	--Black Temple, Top
+	["Den of Mortal Delights"] = 		"Kammer des Todesrauschs";
+	["Grand Promenade"] = 			"Große Promenade";
+	["Chamber of Command"] = 		"Kommandoraum";
+	["Temple Summit"] = 			"Tempelspitze";
+	--Karazhan, Start
+	["The Gatehouse"] = 			"Das Torhaus";
+	["Livery Stables"] = 			"Nobelställe";
+	--["The Guardhouse"] = 			"The Guardhouse";
+	["The Scullery"] = 			"Die Küche";
+	["Servants' Quarters"] = 		"Bedienstetenunterkünfte";
+	["The Grand Ballroom"] = 		"Der große Ballsaal";
+	["The Banquet Hall"] = 			"Der Bankettsaal";
+	["The Guest Chambers"] = 		"Die Gästezimmer";
+	["The Opera Hall"] = 			"Der Opernsaal";
+	["The Broken Stair"] = 			"Die beschädigte Treppe";
+	--["Master's Terrace"] = 		"Master's Terrace";
+	--Karazhan, End
+	["The Menagerie"] = 			"Die Menagerie";
+	["Guardian's Library"] = 		"Bibliothek des Wächters";
+	["The Repository"] = 			"Das Warenlager";
+	["The Celestial Watch"] = 		"Die Himmelswacht";
+	["Gamesman's Hall"] = 			"Halle der Spiele";
+	["Medivh's Chambers"] = 		"Medivhs Kammer";
+	["Master's Terrace"] = 			"Terrasse des Meisters";
+	["Netherspace"] = 			"Netherraum";
+	--Dire Maul, Entrance
+	["Broken Commons"] = 			"Die gebrochenen Gemeinlande";
+	["Eldreth Row"] = 			"Eldrethgasse";
+	["The Maul"] = 				"Die Schlägergrube";
+	--Dire Maul, North
+	["Halls of Destruction"] = 		"Hallen der Zerstörung";
+	["Gordok's Seat"] = 			"Gordoks Sitz";
+	--Dire Maul, East
+	["Warpwood Quarter"] = 			"Wucherborkenviertel";
+	["The Hidden Reach"] = 			"Der versteckte Zugang";
+	["The Conservatory"] = 			"Das Konservatorium";
+	["The Shrine of Eldretharr"] = 		"Der Schrein von Eldretharr";
+	--Dire Maul, West
+	["Capital Gardens"] = 			"Hauptstadtgärten";
+	["Court of the Highborne"] = 		"Hof der Hochgeborenen";
+	["Prison of Immol'thar"] = 		"Das Gefängnis von Immol'thar";
+	["The Athenaeum"] = 			"Das Athenaeum";
+	--Blackrock Spire, Lower
+	["Hordemar City"] = 			"Hordemar";
+	["Mok'Doom"] = 				"Mok'Doom";
+	["Tazz'Alaor"] = 			"Tazz'Alaor";
+	["Skitterweb Tunnels"] = 		"Listspinnertunnel";
+	["Halycon's Lair"] = 			"Halycons Hort";
+	["The Storehouse"] = 			"Das Lagerhaus";
+	["Chamber of Battle"] = 		"Kammer der Schlachten";
+	--Blackrock Spire, Upper
+	["Dragonspire Hall"] = 			"Drachenspitzhalle";
+	["Hall of Binding"] = 			"Halle der Bindung";
+	["The Rookery"] = 			"Der Krähenhorst";
+	["Hall of Blackhand"] = 		"Schwarzfausthalle";
+	["Blackrock Stadium"] = 		"Schwarzfelsstadion";
+	["The Furnace"] = 			"Der Schmelzofen";
+	["Spire Throne"] = 			"Spitzenthron";
+	--Scarlet Monastery, Entrance
+	["The Grand Vestibule"] = 		"Das große Vestibül";
+	--Scarlet Monastery, Graveyard
+	["Chamber of Atonement"] = 		"Kammer der Buße";
+	["Forlorn Cloister"] = 			"Unglückseliger Kreuzgang";
+	["Honor's Tomb"] = 			"Ehrengrabmal";
+	--Scarlet Monastery, Library
+	["Huntsman's Cloister"] = 		"Kreuzgang des Jägers";
+	["Gallery of Treasures"] = 		"Galerie der Schätze";
+	["Athenaeum"] = 			"Athenaeum";
+	--Scarlet Monastery, Armory
+	["Training Grounds"] = 			"Ausbildungsgelände";
+	["Footman's Armory"] = 			"Fußsoldatenwaffenkammer";
+	["Crusader's Armory"] = 		"Waffenkammer der Kreuzzügler";
+	["Hall of Champions"] = 		"Halle der Helden";
+	--Scarlet Monastery, Cathedral
+	["Chapel Gardens"] = 			"Kapellengarten";
+	["Crusader's Chapel"] = 		"Kapelle der Kreuzzügler";
+	--Ulduar, The Siege
+	["Expedition Base Camp"] = 		"Basislager der Expedition";
+	["Iron Concourse"] = 			"Der Eisenstau";
+	["Formation Grounds"] = 		"Gestaltungsgelände";
+	["Razorscale's Aerie"] = 		"Klingenschuppes Kanzel";
+	["The Colossal Forge"] = 		"Die kolossale Schmiede";
+	["The Scrapyard"] = 			"Der Schrottplatz";
+	--Ulduar, The Antechamber
+	["The Antechamber"] = 			"Die Vorkammer";
+	["The Assembly of Iron"] = 		"Die Versammlung des Eisens";
+	["The Archivum"] = 			"Das Archivum";
+	["The Celestial Planetarium"] = 	"Das himmlische Planetarium";
+	["The Shattered Walkway"] = 		"Der zerschmetterte Gang";
+	--Ulduar, The Keepers
+	["The Observation Ring"] = 		"Der Beobachtungsring";
+	["The Halls of Winter"] = 		"Die Hallen des Winters";
+	["The Clash of Thunder"] = 		"Der Donnerschlag";
+	["The Conservatory of Life"] = 		"Das Konservatorium des Lebens";
+	["The Corridors of Ingenuity"] = 	"Die Korridore des Scharfsinns";
+	["Hall of Memories"] = 			"Halle der Erinnerungen";
+	--Ulduar, Spark of Imagination
+	--["The LMS Mark II "] = 		"The LMS Mark II ";	
+	["The Spark of Imagination"] = 		"Der Funke der Imagination";
+	--Ulduar, Descent into Madness
+	["The Descent into Madness"] = 		"Der Abstieg in den Wahnsinn";
+	["The Prison of Yogg-Saron"] = 		"Das Gefängnis von Yogg-Saron";
+	["The Mind's Eye"] = 			"Das Gedankenauge";
+	--Icecrown Citadell, Lower
+	["Light's Hammer"] = 			"Hammer des Lichts";	
+	["Oratory of the Damned"] = 		"Oratorium der Verdammten";
+	["Rampart of Skulls"] = 		"Das Schädelbollwerk";
+	["Deathbringer's Rise"] = 		"Dom des Todesbringers";
+	--Icecrown Citadell, Upper
+	["The Plagueworks"] = 			"Die Seuchenwerke";
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Seuchenmords Laboratorium der alchemistischen Schrecken und Späße";
+	["The Crimson Hall"] = 			"Die Blutrote Halle";
+	["The Sanctum of Blood"] = 		"Das Sanktum des Blutes";
+	["The Frostwing Halls"] = 		"Die Frostschwingenhallen";
+	["The Frost Queen's Lair"] = 		"Der Hort der Frostkönigin";
+	--Icecrown Citadell, Frozen Throne
+	["The Frozen Throne"] = 		"Der Frostthron";
 };
 
 AtlasZoneSubstitutions = {

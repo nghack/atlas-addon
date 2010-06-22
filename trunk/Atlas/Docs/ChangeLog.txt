@@ -8,8 +8,14 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 ==============
 
 v1.16.2
-- improved auto-selection feature for foreign languages
+- improved auto-selection feature for foreign languages (Dynaletik, arith, Lothayer)
 - cleaned up and tweaked some code
+- translation update for several languages
+  - German: Dynaletik
+  - French: dokcharlie
+  - Russian: StingerSoft
+  - Traditional Chinese: s8095324, arith
+- rewrote the readme file for Traditional Chinese (arith)
 
 v1.16.1
 - new map: Ruby Sanctum

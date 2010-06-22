@@ -4,7 +4,7 @@
 ## Notes: Instance Map Browser
 ## Notes-deDE: Instanzkarten-Browser
 ## Notes-frFR: Navigateur de cartes d'instances
-## Notes-zhTW: Atlas 地圖集核心插件
+## Notes-zhTW: Atlas 地圖集主程式
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий

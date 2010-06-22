@@ -28,7 +28,7 @@
 
 local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 
-local Atlas_DebugMode = true;
+local Atlas_DebugMode = false;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -98,7 +98,7 @@ Atlas_AssocDefaults_Loc = {
 Atlas_SubZoneData = {
 	["Karabor Sewers"] =			"BlackTempleStart";
 	["Illidari Training Grounds"] =		"BlackTempleStart";
-	["Sanctuary of Shadow"] =		"BlackTempleStart";
+	["Sanctuary of Shadows"] =		"BlackTempleStart";
 	["The Refectory"] =			"BlackTempleStart";
 	["Gorefiend's Vigil"] =			"BlackTempleBasement";
 	["Halls of Anguish"] =			"BlackTempleBasement";

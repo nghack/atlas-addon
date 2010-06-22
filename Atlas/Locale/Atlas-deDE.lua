@@ -119,7 +119,7 @@ Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
 	["Karabor Sewers"] = 			"Kanäle von Karabor";
 	["Illidari Training Grounds"] = 	"Ausbildungsgelände der Illidari";
-	["Sanctuary of Shadow"] = 		"Zuflucht der Schatten";
+	["Sanctuary of Shadows"] = 		"Zuflucht der Schatten";
 	["The Refectory"] = 			"Das Warenlager";
 	--Black Temple, Basement
 	["Gorefiend's Vigil"] = 		"Blutschattens Wacht";

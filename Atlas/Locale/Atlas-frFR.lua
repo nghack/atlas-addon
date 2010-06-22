@@ -216,7 +216,7 @@ Atlas_SubZoneData_Loc = {
 	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity";
 	["Hall of Memories"] = 			"Hall of Memories";
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II "] = 			"The LMS Mark II ";	
+	["The LMS Mark II"] = 			"The LMS Mark II";	
 	["The Spark of Imagination"] = 		"The Spark of Imagination";
 	--Ulduar, Descent into Madness
 	["The Descent into Madness"] = 		"The Descent into Madness";

@@ -223,7 +223,7 @@ Atlas_SubZoneData_Loc = {
 	["The Corridors of Ingenuity"] = 	"Die Korridore des Scharfsinns";
 	["Hall of Memories"] = 			"Halle der Erinnerungen";
 	--Ulduar, Spark of Imagination
-	--["The LMS Mark II "] = 		"The LMS Mark II ";	
+	--["The LMS Mark II"] = 		"The LMS Mark II";	
 	["The Spark of Imagination"] = 		"Der Funke der Imagination";
 	--Ulduar, Descent into Madness
 	["The Descent into Madness"] = 		"Der Abstieg in den Wahnsinn";

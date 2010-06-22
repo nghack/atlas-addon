@@ -109,65 +109,65 @@ ATLAS_DEP_OK = "Ok";
 --Links SubZone values with specific instance maps
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
-	["Karabor Sewers"] = 			"Karabor Sewers";
-	["Illidari Training Grounds"] = 	"Illidari Training Grounds";
-	["Sanctuary of Shadow"] = 		"Sanctuary of Shadow";
-	["The Refectory"] = 			"The Refectory";
+	["Karabor Sewers"] = 			"卡拉伯爾下水道";
+	["Illidari Training Grounds"] = 	"伊利達瑞訓練場";
+	["Sanctuary of Shadows"] = 		"暗影聖堂";
+	["The Refectory"] = 			"聖殿膳所";
 	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		"Gorefiend's Vigil";
-	["Halls of Anguish"] = 			"Halls of Anguish";
-	["Shrine of Lost Souls"] = 		"Shrine of Lost Souls";
+	["Gorefiend's Vigil"] = 		"血魔禁地";
+	["Halls of Anguish"] = 			"苦痛大廳";
+	["Shrine of Lost Souls"] = 		"失落靈魂神殿";
 	--Black Temple, Top
-	["Den of Mortal Delights"] = 		"Den of Mortal Delights";
-	["Grand Promenade"] = 			"Grand Promenade";
-	["Chamber of Command"] = 		"Chamber of Command";
-	["Temple Summit"] = 			"Temple Summit";
+	["Den of Mortal Delights"] = 		"凡慾邪窟";
+	["Grand Promenade"] = 			"華麗漫步庭園";
+	["Chamber of Command"] = 		"指揮大廳";
+	["Temple Summit"] = 			"神廟議會";
 	--Karazhan, Start
-	["The Gatehouse"] = 			"The Gatehouse";
-	["Livery Stables"] = 			"Livery Stables";
-	["The Guardhouse"] = 			"The Guardhouse";
-	["The Scullery"] = 			"The Scullery";
-	["Servants' Quarters"] = 		"Servants' Quarters";
-	["The Grand Ballroom"] = 		"The Grand Ballroom";
-	["The Banquet Hall"] = 			"The Banquet Hall";
-	["The Guest Chambers"] = 		"The Guest Chambers";
-	["The Opera Hall"] = 			"The Opera Hall";
-	["The Broken Stair"] = 			"The Broken Stair";
-	["Master's Terrace"] = 			"Master's Terrace";
+	["The Gatehouse"] = 			"警衛站";
+	["Livery Stables"] = 			"獸欄";
+	["The Guardhouse"] = 			"衛兵室";
+	["The Scullery"] = 			"貯藏室";
+	["Servants' Quarters"] = 		"佣人區";
+	["The Grand Ballroom"] = 		"華麗的跳舞大廳";
+	["The Banquet Hall"] = 			"宴會大廳";
+	["The Guest Chambers"] = 		"客房";
+	["The Opera Hall"] = 			"歌劇大廳";
+	["The Broken Stair"] = 			"破碎樓梯";
+	["Master's Terrace"] = 			"大師的露臺";
 	--Karazhan, End
-	["The Menagerie"] = 			"The Menagerie";
-	["Guardian's Library"] = 		"Guardian's Library";
-	["The Repository"] = 			"The Repository";
-	["The Celestial Watch"] = 		"The Celestial Watch";
-	["Gamesman's Hall"] = 			"Gamesman's Hall";
-	["Medivh's Chambers"] = 		"Medivh's Chambers";
-	["Master's Terrace"] = 			"Master's Terrace";
-	["Netherspace"] = 			"Netherspace";
+	["The Menagerie"] = 			"展示廳";
+	["Guardian's Library"] = 		"守護者圖書館";
+	["The Repository"] = 			"寶庫";
+	["The Celestial Watch"] = 		"天文觀測台";
+	["Gamesman's Hall"] = 			"投機者大廳";
+	["Medivh's Chambers"] = 		"麥迪文的房間";
+	["Master's Terrace"] = 			"大師的露臺";
+	["Netherspace"] = 			"虛空空間";
 	--Dire Maul, Entrance
-	["Broken Commons"] = 			"Broken Commons";
-	["Eldreth Row"] = 			"Eldreth Row";
-	["The Maul"] = 				"The Maul";
+	["Broken Commons"] = 			"平民區廢墟";
+	["Eldreth Row"] = 			"艾德雷斯區";
+	["The Maul"] = 				"巨槌競技場";
 	--Dire Maul, North
-	["Halls of Destruction"] = 		"Halls of Destruction";
-	["Gordok's Seat"] = 			"Gordok's Seat";
+	["Halls of Destruction"] = 		"毀滅大廳";
+	["Gordok's Seat"] = 			"戈多克的王座";
 	--Dire Maul, East
-	["Warpwood Quarter"] = 			"Warpwood Quarter";
-	["The Hidden Reach"] = 			"The Hidden Reach";
-	["The Conservatory"] = 			"The Conservatory";
-	["The Shrine of Eldretharr"] = 		"The Shrine of Eldretharr";
+	["Warpwood Quarter"] = 			"扭木廣場";
+	["The Hidden Reach"] = 			"密徑";
+	["The Conservatory"] = 			"大溫室";
+	["The Shrine of Eldretharr"] = 		"艾德雷斯神殿";
 	--Dire Maul, West
-	["Capital Gardens"] = 			"Capital Gardens";
-	["Court of the Highborne"] = 		"Court of the Highborne";
-	["Prison of Immol'thar"] = 		"Prison of Immol'thar";
-	["The Athenaeum"] = 			"The Athenaeum";
+	["Capital Gardens"] = 			"中心花園";
+	["Court of the Highborne"] = 		"精靈貴族庭院";
+	["Prison of Immol'thar"] = 		"伊莫塔爾的牢籠";
+	["The Athenaeum"] = 			"圖書館";
 	--Blackrock Spire, Lower
 	["Hordemar City"] =			"霍德瑪爾城";
-	["Mok'Doom"] = 				"Mok'Doom";
-	["Tazz'Alaor"] = 			"Tazz'Alaor";
-	["Skitterweb Tunnels"] = 		"Skitterweb Tunnels";
-	["Halycon's Lair"] = 			"Halycon's Lair";
-	["The Storehouse"] = 			"The Storehouse";
-	["Chamber of Battle"] = 		"Chamber of Battle";
+	["Mok'Doom"] = 				"摩多姆";
+	["Tazz'Alaor"] = 			"塔薩洛爾";
+	["Skitterweb Tunnels"] = 		"蛛網隧道";
+	["Halycon's Lair"] = 			"哈雷肯之巢";
+	["The Storehouse"] = 			"倉庫";
+	["Chamber of Battle"] = 		"戰鬥之廳";
 	--Blackrock Spire, Upper
 	["Dragonspire Hall"] =			"龍塔大廳";
 	["Hall of Binding"] =			"禁錮大廳";
@@ -195,46 +195,46 @@ Atlas_SubZoneData_Loc = {
 	["Chapel Gardens"] = 			"教堂花園";
 	["Crusader's Chapel"] = 		"十字軍禮拜堂";
 	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		"Expedition Base Camp";
-	["Iron Concourse"] = 			"Iron Concourse";
-	["Formation Grounds"] = 		"Formation Grounds";
-	["Razorscale's Aerie"] = 		"Razorscale's Aerie";
-	["The Colossal Forge"] = 		"The Colossal Forge";
-	["The Scrapyard"] = 			"The Scrapyard";
+	["Expedition Base Camp"] = 		"遠征隊營地";
+	["Iron Concourse"] = 			"鐵之集合場";
+	["Formation Grounds"] = 		"構築之地";
+	["Razorscale's Aerie"] = 		"銳鱗之巢";
+	["The Colossal Forge"] = 		"巨熔爐";
+	["The Scrapyard"] = 			"廢料場";
 	--Ulduar, The Antechamber
-	["The Antechamber"] = 			"The Antechamber";
-	["The Assembly of Iron"] = 		"The Assembly of Iron";
-	["The Archivum"] = 			"The Archivum";
-	["The Celestial Planetarium"] = 	"The Celestial Planetarium";
-	["The Shattered Walkway"] = 		"The Shattered Walkway";
+	["The Antechamber"] = 			"前廳";
+	["The Assembly of Iron"] = 		"鐵之集會所";
+	["The Archivum"] = 			"大資料庫";
+	["The Celestial Planetarium"] = 	"星穹渾天儀";
+	["The Shattered Walkway"] = 		"破碎走道";
 	--Ulduar, The Keepers
-	["The Observation Ring"] = 		"The Observation Ring";
-	["The Halls of Winter"] = 		"The Halls of Winter";
-	["The Clash of Thunder"] = 		"The Clash of Thunder";
-	["The Conservatory of Life"] = 		"The Conservatory of Life";
-	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity";
-	["Hall of Memories"] = 			"Hall of Memories";
+	["The Observation Ring"] = 		"觀察之環";
+	["The Halls of Winter"] = 		"凜冬之廳";
+	["The Clash of Thunder"] = 		"雷鳴之廳";
+	["The Conservatory of Life"] = 		"生命溫室";
+	["The Corridors of Ingenuity"] = 	"巧思迴廊";
+	["Hall of Memories"] = 			"回憶之廳";
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II "] = 			"The LMS Mark II ";	
-	["The Spark of Imagination"] = 		"The Spark of Imagination";
+	["The LMS Mark II"] = 			"LMS-II號";	
+	["The Spark of Imagination"] = 		"創思之廳";
 	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		"The Descent into Madness";
-	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron";
-	["The Mind's Eye"] = 			"The Mind's Eye";
+	["The Descent into Madness"] = 		"驟狂斜廊";
+	["The Prison of Yogg-Saron"] = 		"尤格薩倫之獄";
+	["The Mind's Eye"] = 			"心靈之眼";
 	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			"Light's Hammer";	
-	["Oratory of the Damned"] = 		"Oratory of the Damned";
-	["Rampart of Skulls"] = 		"Rampart of Skulls";
-	["Deathbringer's Rise"] = 		"Deathbringer's Rise";
+	["Light's Hammer"] = 			"聖光之錘";	
+	["Oratory of the Damned"] = 		"詛咒祈願室";
+	["Rampart of Skulls"] = 		"骸顱壁壘";
+	["Deathbringer's Rise"] = 		"死亡使者高崗";
 	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			"The Plagueworks";
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun";
-	["The Crimson Hall"] = 			"The Crimson Hall";
-	["The Sanctum of Blood"] = 		"The Sanctum of Blood";
-	["The Frostwing Halls"] = 		"The Frostwing Halls";
-	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair";
+	["The Plagueworks"] = 			"瘟疫工坊";
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"普崔希德的恐懼與歡樂鍊金實驗室";
+	["The Crimson Hall"] = 			"赤紅大廳";
+	["The Sanctum of Blood"] = 		"血之聖所";
+	["The Frostwing Halls"] = 		"霜翼大廳";
+	["The Frost Queen's Lair"] = 		"霜翼之巢";
 	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		"The Frozen Throne";
+	["The Frozen Throne"] = 		"冰封王座";
 };
 
 AtlasZoneSubstitutions = {
@@ -464,8 +464,8 @@ AtlasLocale = {
 	--Continents
 	["Eastern Kingdoms"] = "東部王國";
 	["Kalimdor"] = "卡林多";
-	["Outland"] = "外域";
 	["Northrend"] = "北裂境";
+	["Outland"] = "外域";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "梣谷";

@@ -173,12 +173,6 @@ AtlasBGLocale = {
 	["Lumber Mill"] = "伐木场";
 	["Farm"] = "农场";
 
-	--Warsong Gulch
-	["Warsong Outriders"] = "战歌侦察骑兵";
-	["Silverwing Sentinels"] = "银翼要塞";
-	["Silverwing Hold"] = "银翼要塞";
-	["Warsong Lumber Mill"] = "战歌伐木场";
-
 	--Eye of the Storm
 	["Graveyard"] = "墓地";
 	["Flag"] = "旗帜";
@@ -187,16 +181,6 @@ AtlasBGLocale = {
 	["Fel Reaver Ruins"] = "魔能机甲废墟";
 	["Blood Elf Tower"] = "血精灵塔";
 	
-	--Strand of the Ancients
-	["Attacking Team"] = "进攻方";
-	["Defending Team"] = "防守方";
-	["Massive Seaforium Charge"] = "大型爆盐炸弹";
-	["Battleground Demolisher"] = "战场攻城车";
-	["Resurrection Point"] = "复活点";
-	["Graveyard Flag"] = "墓地旗帜";
-	["Titan Relic"] = "泰坦圣物";
-	["Gates are marked with their colors."] = "大门以其颜色进行了标记。";
-
 	--Isle of Conquest
 	["The Refinery"] = "精炼厂";
 	["The Docks"] = "码头";
@@ -209,6 +193,22 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "闸门以红条标记.";
 	["Overlord Agmar"] = "霸主阿格玛";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "最高指挥官海弗德•龙祸";
+
+	--Strand of the Ancients
+	["Attacking Team"] = "进攻方";
+	["Defending Team"] = "防守方";
+	["Massive Seaforium Charge"] = "大型爆盐炸弹";
+	["Battleground Demolisher"] = "战场攻城车";
+	["Resurrection Point"] = "复活点";
+	["Graveyard Flag"] = "墓地旗帜";
+	["Titan Relic"] = "泰坦圣物";
+	["Gates are marked with their colors."] = "大门以其颜色进行了标记。";
+
+	--Warsong Gulch
+	["Warsong Outriders"] = "战歌侦察骑兵";
+	["Silverwing Sentinels"] = "银翼要塞";
+	["Silverwing Hold"] = "银翼要塞";
+	["Warsong Lumber Mill"] = "战歌伐木场";
 
 };
 end

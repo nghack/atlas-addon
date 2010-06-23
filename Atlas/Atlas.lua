@@ -96,17 +96,21 @@ Atlas_AssocDefaults_Loc = {
 -- Links SubZone values with specific instance maps. 
 -- Not for localization.
 Atlas_SubZoneData = {
+	--Black Temple, Start
 	["Karabor Sewers"] =			"BlackTempleStart";
 	["Illidari Training Grounds"] =		"BlackTempleStart";
 	["Sanctuary of Shadows"] =		"BlackTempleStart";
 	["The Refectory"] =			"BlackTempleStart";
+	--Black Temple, Basement
 	["Gorefiend's Vigil"] =			"BlackTempleBasement";
 	["Halls of Anguish"] =			"BlackTempleBasement";
 	["Shrine of Lost Souls"] =		"BlackTempleBasement";
+	--Black Temple, Top
 	["Den of Mortal Delights"] =		"BlackTempleTop";
 	["Grand Promenade"] =			"BlackTempleTop";
 	["Chamber of Command"] =		"BlackTempleTop";
 	["Temple Summit"] =			"BlackTempleTop";
+	--Black Temple, Top
 	["The Gatehouse"] =			"KarazhanStart";
 	["Livery Stables"] =			"KarazhanStart";
 	["The Guardhouse"] =			"KarazhanStart";
@@ -118,6 +122,7 @@ Atlas_SubZoneData = {
 	["The Opera Hall"] =			"KarazhanStart";
 	["The Broken Stair"] =			"KarazhanStart";
 	["Master's Terrace"] =			"KarazhanStart";
+	--Karazhan, End
 	["The Menagerie"] =			"KarazhanEnd";
 	["Guardian's Library"] =		"KarazhanEnd";
 	["The Repository"] =			"KarazhanEnd";
@@ -126,19 +131,24 @@ Atlas_SubZoneData = {
 	["Medivh's Chambers"] =			"KarazhanEnd";
 	["Master's Terrace"] =			"KarazhanEnd";
 	["Netherspace"] =			"KarazhanEnd";
+	--Dire Maul, Entrance
 	["Broken Commons"] =			"DireMaulEnt";
 	["Eldreth Row"] =			"DireMaulEnt";
 	["The Maul"] =				"DireMaulEnt";
+	--Dire Maul, North
 	["Halls of Destruction"] =		"DireMaulNorth";
 	["Gordok's Seat"] =			"DireMaulNorth";
+	--Dire Maul, East
 	["Warpwood Quarter"] =			"DireMaulEast";
 	["The Hidden Reach"] =			"DireMaulEast";
 	["The Conservatory"] =			"DireMaulEast";
 	["The Shrine of Eldretharr"] =		"DireMaulEast";
+	--Dire Maul, West
 	["Capital Gardens"] =			"DireMaulWest";
 	["Court of the Highborne"] =		"DireMaulWest";
 	["Prison of Immol'thar"] =		"DireMaulWest";
 	["The Athenaeum"] =			"DireMaulWest";
+	--Blackrock Spire, Lower
 	["Hordemar City"] =			"BlackrockSpireLower";
 	["Mok'Doom"] =				"BlackrockSpireLower";
 	["Tazz'Alaor"] =			"BlackrockSpireLower";
@@ -146,6 +156,7 @@ Atlas_SubZoneData = {
 	["Halycon's Lair"] =			"BlackrockSpireLower";
 	["The Storehouse"] =			"BlackrockSpireLower";
 	["Chamber of Battle"] =			"BlackrockSpireLower";
+	--Blackrock Spire, Upper
 	["Dragonspire Hall"] =			"BlackrockSpireUpper";
 	["Hall of Binding"] =			"BlackrockSpireUpper";
 	["The Rookery"] =			"BlackrockSpireUpper";
@@ -153,51 +164,64 @@ Atlas_SubZoneData = {
 	["Blackrock Stadium"] =			"BlackrockSpireUpper";
 	["The Furnace"] =			"BlackrockSpireUpper";
 	["Spire Throne"] =			"BlackrockSpireUpper";
+	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] =		"SMEnt";
+	--Scarlet Monastery, Graveyard
 	["Chamber of Atonement"] =		"SMGraveyard";
 	["Forlorn Cloister"] =			"SMGraveyard";
 	["Honor's Tomb"] =			"SMGraveyard";
+	--Scarlet Monastery, Library
 	["Huntsman's Cloister"] =		"SMLibrary";
 	["Gallery of Treasures"] =		"SMLibrary";
 	["Athenaeum"] =				"SMLibrary";
+	--Scarlet Monastery, Armory
 	["Training Grounds"] =			"SMArmory";
 	["Footman's Armory"] =			"SMArmory";
 	["Crusader's Armory"] =			"SMArmory";
 	["Hall of Champions"] =			"SMArmory";
+	--Scarlet Monastery, Cathedral
 	["Chapel Gardens"] =			"SMCathedral";
 	["Crusader's Chapel"] =			"SMCathedral";
+	--Ulduar, The Siege
 	["Expedition Base Camp"] =		"UlduarA";
 	["Iron Concourse"] =			"UlduarA";
 	["Formation Grounds"] =			"UlduarA";
 	["Razorscale's Aerie"] =		"UlduarA";
 	["The Colossal Forge"] =		"UlduarA";
 	["The Scrapyard"] =			"UlduarA";
+	--Ulduar, The Antechamber
 	["The Antechamber"] =			"UlduarB";
 	["The Assembly of Iron"] =		"UlduarB";
 	["The Archivum"] =			"UlduarB";
 	["The Celestial Planetarium"] =		"UlduarB";
 	["The Shattered Walkway"] =		"UlduarB";
+	--Ulduar, The Keepers
 	["The Observation Ring"] =		"UlduarC";
 	["The Halls of Winter"] =		"UlduarC";
 	["The Clash of Thunder"] =		"UlduarC";
 	["The Conservatory of Life"] =		"UlduarC";
 	["The Corridors of Ingenuity"] =	"UlduarC";
 	["Hall of Memories"] =			"UlduarC";
+	--Ulduar, Spark of Imagination
 	["The LMS Mark II"] =			"UlduarD";	
 	["The Spark of Imagination"] =		"UlduarD";
+	--Ulduar, Descent into Madness
 	["The Descent into Madness"] =		"UlduarE";
 	["The Prison of Yogg-Saron"] =		"UlduarE";
 	["The Mind's Eye"] =			"UlduarE";
+	--Icecrown Citadell, Lower
 	["Light's Hammer"] =			"IcecrownCitadelA";	
 	["Oratory of the Damned"] =		"IcecrownCitadelA";
 	["Rampart of Skulls"] =			"IcecrownCitadelA";
 	["Deathbringer's Rise"] =		"IcecrownCitadelA";
+	--Icecrown Citadell, Upper
 	["The Plagueworks"] =			"IcecrownCitadelB";
 	["Putricide's Laboratory of Alchemical Horrors and Fun"] =	"IcecrownCitadelB";
 	["The Crimson Hall"] =			"IcecrownCitadelB";
 	["The Sanctum of Blood"] =		"IcecrownCitadelB";
 	["The Frostwing Halls"] =		"IcecrownCitadelB";
 	["The Frost Queen's Lair"] =		"IcecrownCitadelB";
+	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] =			"IcecrownCitadelC";
 };
 

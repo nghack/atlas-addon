@@ -85,11 +85,11 @@ ATLAS_DDL_LEVEL_60TO70 = "60-70级副本";
 ATLAS_DDL_LEVEL_70TO80 = "70-80级副本";
 ATLAS_DDL_LEVEL_80PLUS = "80级以上副本";
 ATLAS_DDL_PARTYSIZE = "副本规模";
-ATLAS_DDL_PARTYSIZE_5_AE = "5人副本 (第一页)"; --NEEDS TO BE UPDATED!
-ATLAS_DDL_PARTYSIZE_5_FZ = "5人副本 (第二页)"; --NEEDS TO BE UPDATED!
-ATLAS_DDL_PARTYSIZE_10_AQ = "10人副本"; --NEEDS TO BE UPDATED!
-ATLAS_DDL_PARTYSIZE_10_RZ = "10人副本"; --NEEDS TO BE UPDATED!
-ATLAS_DDL_PARTYSIZE_20TO40 = "20-40人副本";
+ATLAS_DDL_PARTYSIZE_5_AE = "5 人副本 (第一页)";
+ATLAS_DDL_PARTYSIZE_5_FZ = "5 人副本 (第二页)";
+ATLAS_DDL_PARTYSIZE_10_AQ = "10 人副本 (第一页)";
+ATLAS_DDL_PARTYSIZE_10_RZ = "10 人副本 (第二页)";
+ATLAS_DDL_PARTYSIZE_20TO40 = "20-40 人副本";
 ATLAS_DDL_EXPANSION = "资料片";
 ATLAS_DDL_EXPANSION_OLD_AO = "旧世界副本 (第一页)";
 ATLAS_DDL_EXPANSION_OLD_PZ = "旧世界副本 (第二页)";
@@ -105,7 +105,7 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
-ATLAS_DEP_MSG1 = "检测到过期的Atlas扩展插件。";
+ATLAS_DEP_MSG1 = "检测到过期的 Atlas 扩展插件。";
 ATLAS_DEP_MSG2 = "这些插件已经被禁用。";
 ATLAS_DEP_MSG3 = "请从插件目录（AddOns）中将其删除。";
 ATLAS_DEP_OK = "确定";
@@ -113,132 +113,132 @@ ATLAS_DEP_OK = "确定";
 --Links SubZone values with specific instance maps
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
-	["Karabor Sewers"] = 			"Karabor Sewers";
-	["Illidari Training Grounds"] = 	"Illidari Training Grounds";
-	["Sanctuary of Shadows"] = 		"Sanctuary of Shadows";
-	["The Refectory"] = 			"The Refectory";
+	["Karabor Sewers"] = 			"卡拉波下水道";
+	["Illidari Training Grounds"] = 	"伊利达雷训练场";
+	["Sanctuary of Shadows"] = 		"暗影圣殿";
+	["The Refectory"] = 			"餐厅";
 	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		"Gorefiend's Vigil";
-	["Halls of Anguish"] = 			"Halls of Anguish";
-	["Shrine of Lost Souls"] = 		"Shrine of Lost Souls";
+	["Gorefiend's Vigil"] = 		"血魔之厅";
+	["Halls of Anguish"] = 			"苦痛大厅";
+	["Shrine of Lost Souls"] = 		"失落灵魂神殿";
 	--Black Temple, Top
-	["Den of Mortal Delights"] = 		"Den of Mortal Delights";
-	["Grand Promenade"] = 			"Grand Promenade";
-	["Chamber of Command"] = 		"Chamber of Command";
-	["Temple Summit"] = 			"Temple Summit";
+	["Den of Mortal Delights"] = 		"欢愉之园";
+	["Grand Promenade"] = 			"壮丽步道";
+	["Chamber of Command"] = 		"命令大厅";
+	["Temple Summit"] = 			"神殿之巅";
 	--Karazhan, Start
-	["The Gatehouse"] = 			"The Gatehouse";
-	["Livery Stables"] = 			"Livery Stables";
-	["The Guardhouse"] = 			"The Guardhouse";
-	["The Scullery"] = 			"The Scullery";
-	["Servants' Quarters"] = 		"Servants' Quarters";
-	["The Grand Ballroom"] = 		"The Grand Ballroom";
-	["The Banquet Hall"] = 			"The Banquet Hall";
-	["The Guest Chambers"] = 		"The Guest Chambers";
-	["The Opera Hall"] = 			"The Opera Hall";
-	["The Broken Stair"] = 			"The Broken Stair";
-	["Master's Terrace"] = 			"Master's Terrace";
+	["The Gatehouse"] = 			"门房";
+	["Livery Stables"] = 			"马厩";
+	["The Guardhouse"] = 			"警卫室";
+	["The Scullery"] = 			"厨房";
+	["Servants' Quarters"] = 		"仆役宿舍";
+	["The Grand Ballroom"] = 		"舞厅";
+	["The Banquet Hall"] = 			"宴会厅";
+	["The Guest Chambers"] = 		"会客间";
+	["The Opera Hall"] = 			"歌剧院";
+	["The Broken Stair"] = 			"破碎阶梯";
+	["Master's Terrace"] = 			"主宰的露台";
 	--Karazhan, End
-	["The Menagerie"] = 			"The Menagerie";
-	["Guardian's Library"] = 		"Guardian's Library";
-	["The Repository"] = 			"The Repository";
-	["The Celestial Watch"] = 		"The Celestial Watch";
-	["Gamesman's Hall"] = 			"Gamesman's Hall";
-	["Medivh's Chambers"] = 		"Medivh's Chambers";
-	["Master's Terrace"] = 			"Master's Terrace";
-	["Netherspace"] = 			"Netherspace";
+	["The Menagerie"] = 			"展览馆";
+	["Guardian's Library"] = 		"守护者的图书馆";
+	["The Repository"] = 			"储藏室";
+	["The Celestial Watch"] = 		"观星大厅";
+	["Gamesman's Hall"] = 			"象棋大厅";
+	["Medivh's Chambers"] = 		"麦迪文的房间";
+	["Master's Terrace"] = 			"主宰的露台";
+	["Netherspace"] = 			"虚空异界";
 	--Dire Maul, Entrance
-	["Broken Commons"] = 			"Broken Commons";
-	["Eldreth Row"] = 			"Eldreth Row";
-	["The Maul"] = 				"The Maul";
+	["Broken Commons"] = 			"平民区废墟";
+	["Eldreth Row"] = 			"艾德雷斯区";
+	["The Maul"] = 				"巨槌竞技场";
 	--Dire Maul, North
-	["Halls of Destruction"] = 		"Halls of Destruction";
-	["Gordok's Seat"] = 			"Gordok's Seat";
+	["Halls of Destruction"] = 		"毁灭大厅";
+	["Gordok's Seat"] = 			"戈多克的王座";
 	--Dire Maul, East
-	["Warpwood Quarter"] = 			"Warpwood Quarter";
-	["The Hidden Reach"] = 			"The Hidden Reach";
-	["The Conservatory"] = 			"The Conservatory";
-	["The Shrine of Eldretharr"] = 		"The Shrine of Eldretharr";
+	["Warpwood Quarter"] = 			"扭木广场";
+	["The Hidden Reach"] = 			"密径";
+	["The Conservatory"] = 			"温室";
+	["The Shrine of Eldretharr"] = 		"艾德雷斯神殿";
 	--Dire Maul, West
-	["Capital Gardens"] = 			"Capital Gardens";
-	["Court of the Highborne"] = 		"Court of the Highborne";
-	["Prison of Immol'thar"] = 		"Prison of Immol'thar";
-	["The Athenaeum"] = 			"The Athenaeum";
+	["Capital Gardens"] = 			"中心花园";
+	["Court of the Highborne"] = 		"上层精灵庭院";
+	["Prison of Immol'thar"] = 		"伊莫塔尔的牢笼";
+	["The Athenaeum"] = 			"图书馆";
 	--Blackrock Spire, Lower
-	["Hordemar City"] = 			"Hordemar City";
-	["Mok'Doom"] = 				"Mok'Doom";
-	["Tazz'Alaor"] = 			"Tazz'Alaor";
-	["Skitterweb Tunnels"] = 		"Skitterweb Tunnels";
-	["Halycon's Lair"] = 			"Halycon's Lair";
-	["The Storehouse"] = 			"The Storehouse";
-	["Chamber of Battle"] = 		"Chamber of Battle";
+	["Hordemar City"] = 			"霍德玛尔城";
+	["Mok'Doom"] = 				"摩多姆";
+	["Tazz'Alaor"] = 			"塔萨洛尔";
+	["Skitterweb Tunnels"] = 		"蛛网隧道";
+	["Halycon's Lair"] = 			"哈雷肯之巢";
+	["The Storehouse"] = 			"仓库";
+	["Chamber of Battle"] = 		"战斗之厅";
 	--Blackrock Spire, Upper
-	["Dragonspire Hall"] = 			"Dragonspire Hall";
-	["Hall of Binding"] = 			"Hall of Binding";
-	["The Rookery"] = 			"The Rookery";
-	["Hall of Blackhand"] = 		"Hall of Blackhand";
-	["Blackrock Stadium"] = 		"Blackrock Stadium";
-	["The Furnace"] = 			"The Furnace";
-	["Spire Throne"] = 			"Spire Throne";
+	["Dragonspire Hall"] = 			"龙塔大厅";
+	["Hall of Binding"] = 			"禁锢之厅";
+	["The Rookery"] = 			"孵化间";
+	["Hall of Blackhand"] = 		"黑手大厅";
+	["Blackrock Stadium"] = 		"黑石竞技场";
+	["The Furnace"] = 			"熔炉";
+	["Spire Throne"] = 			"尖塔王座";
 	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] = 		"The Grand Vestibule";
+	["The Grand Vestibule"] = 		"大门廊";
 	--Scarlet Monastery, Graveyard
-	["Chamber of Atonement"] = 		"Chamber of Atonement";
-	["Forlorn Cloister"] = 			"Forlorn Cloister";
-	["Honor's Tomb"] = 			"Honor's Tomb";
+	["Chamber of Atonement"] = 		"忏悔室";
+	["Forlorn Cloister"] = 			"遗忘回廊";
+	["Honor's Tomb"] = 			"荣耀之墓";
 	--Scarlet Monastery, Library
-	["Huntsman's Cloister"] = 		"Huntsman's Cloister";
-	["Gallery of Treasures"] = 		"Gallery of Treasures";
-	["Athenaeum"] = 			"Athenaeum";
+	["Huntsman's Cloister"] = 		"猎手回廊";
+	["Gallery of Treasures"] = 		"珍宝陈列室";
+	["Athenaeum"] = 			"图书馆";
 	--Scarlet Monastery, Armory
-	["Training Grounds"] = 			"Training Grounds";
-	["Footman's Armory"] = 			"Footman's Armory";
-	["Crusader's Armory"] = 		"Crusader's Armory";
-	["Hall of Champions"] = 		"Hall of Champions";
+	["Training Grounds"] = 			"训练场";
+	["Footman's Armory"] = 			"步兵武器库";
+	["Crusader's Armory"] = 		"十字军武器库";
+	["Hall of Champions"] = 		"勇士大厅";
 	--Scarlet Monastery, Cathedral
-	["Chapel Gardens"] = 			"Chapel Gardens";
-	["Crusader's Chapel"] = 		"Crusader's Chapel";
+	["Chapel Gardens"] = 			"教堂花园";
+	["Crusader's Chapel"] = 		"十字军礼拜堂";
 	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		"Expedition Base Camp";
-	["Iron Concourse"] = 			"Iron Concourse";
-	["Formation Grounds"] = 		"Formation Grounds";
-	["Razorscale's Aerie"] = 		"Razorscale's Aerie";
-	["The Colossal Forge"] = 		"The Colossal Forge";
-	["The Scrapyard"] = 			"The Scrapyard";
+	["Expedition Base Camp"] = 		"远征军营地";
+	["Iron Concourse"] = 			"钢铁广场";
+	["Formation Grounds"] = 		"练兵场";
+	["Razorscale's Aerie"] = 		"锋鳞之巢";
+	["The Colossal Forge"] = 		"巨人熔炉";
+	["The Scrapyard"] = 			"废料场";
 	--Ulduar, The Antechamber
-	["The Antechamber"] = 			"The Antechamber";
-	["The Assembly of Iron"] = 		"The Assembly of Iron";
-	["The Archivum"] = 			"The Archivum";
-	["The Celestial Planetarium"] = 	"The Celestial Planetarium";
-	["The Shattered Walkway"] = 		"The Shattered Walkway";
+	["The Antechamber"] = 			"前厅";
+	["The Assembly of Iron"] = 		"钢铁议会";
+	["The Archivum"] = 			"档案馆";
+	["The Celestial Planetarium"] = 	"天文台";
+	["The Shattered Walkway"] = 		"破碎通道";
 	--Ulduar, The Keepers
-	["The Observation Ring"] = 		"The Observation Ring";
-	["The Halls of Winter"] = 		"The Halls of Winter";
-	["The Clash of Thunder"] = 		"The Clash of Thunder";
-	["The Conservatory of Life"] = 		"The Conservatory of Life";
-	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity";
-	["Hall of Memories"] = 			"Hall of Memories";
+	["The Observation Ring"] = 		"观测场";
+	["The Halls of Winter"] = 		"寒冬大厅";
+	["The Clash of Thunder"] = 		"雷霆角斗场";
+	["The Conservatory of Life"] = 		"生命温室";
+	["The Corridors of Ingenuity"] = 	"发明回廊";
+	["Hall of Memories"] = 			"回忆大厅";
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			"The LMS Mark II";	
-	["The Spark of Imagination"] = 		"The Spark of Imagination";
+	["The LMS Mark II"] = 			"LMS-II型地铁";	
+	["The Spark of Imagination"] = 		"思想火花";
 	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		"The Descent into Madness";
-	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron";
-	["The Mind's Eye"] = 			"The Mind's Eye";
+	["The Descent into Madness"] = 		"疯狂阶梯";
+	["The Prison of Yogg-Saron"] = 		"尤格-萨隆的监狱";
+	["The Mind's Eye"] = 			"心灵之眼";
 	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			"Light's Hammer";	
-	["Oratory of the Damned"] = 		"Oratory of the Damned";
-	["Rampart of Skulls"] = 		"Rampart of Skulls";
-	["Deathbringer's Rise"] = 		"Deathbringer's Rise";
+	["Light's Hammer"] = 			"圣光之锤";	-- need to be reviewed after WoW 3.3.3 is available for China
+	["Oratory of the Damned"] = 		"诅咒祈愿室"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["Rampart of Skulls"] = 		"骸颅壁垒"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["Deathbringer's Rise"] = 		"死亡使者高岗"; -- need to be reviewed after WoW 3.3.3 is available for China
 	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			"The Plagueworks";
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun";
-	["The Crimson Hall"] = 			"The Crimson Hall";
-	["The Sanctum of Blood"] = 		"The Sanctum of Blood";
-	["The Frostwing Halls"] = 		"The Frostwing Halls";
-	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair";
+	["The Plagueworks"] = 			"瘟疫工坊"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"普崔希德的恐惧与欢乐炼金实验室"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["The Crimson Hall"] = 			"赤红大厅"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["The Sanctum of Blood"] = 		"血之圣所"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["The Frostwing Halls"] = 		"霜翼大厅"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["The Frost Queen's Lair"] = 		"霜翼之巢"; -- need to be reviewed after WoW 3.3.3 is available for China
 	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		"The Frozen Throne";
+	["The Frozen Throne"] = 		"冰封王座"; -- need to be reviewed after WoW 3.3.3 is available for China
 };
 
 AtlasZoneSubstitutions = {
@@ -295,6 +295,7 @@ AtlasLocale = {
 	["Imp"] = "小鬼";
 	["Inside"] = "内部";
 	["Key"] = "钥匙";
+	["Love is in the Air"] = "爱情的气息";
 	["Lower"] = "下层";
 	["Lunar"] = "春节";
 	["Lunar Festival"] = "春节庆典";
@@ -439,8 +440,8 @@ AtlasLocale = {
 	["Zul'Gurub"] = "祖尔格拉布"; ["ZG"] = "ZG";
 
 	--WotLK Acronyms
-	["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
-	["AN, Nerub"] = "AN, Nerub"; -- Azjol-Nerub
+	["AK, Kahet"] = "AK, 安卡"; -- Ahn'kahet
+	["AN, Nerub"] = "AN, 艾卓"; -- Azjol-Nerub
 	["Champ"] = "Champ"; -- Trial of the Champion
 	["Crus"] = "Crus"; -- Trial of the Crusader
 	["DTK"] = "DTK"; -- Drak'Tharon Keep
@@ -454,8 +455,8 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["Ocu"] = "Ocu"; -- The Oculus
 	["OS"] = "OS"; -- The Obsidian Sanctum
-	["RS"] = "RS"; -- The Ruby Sanctum
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
+	["RS"] = "RS"; -- The Ruby Sanctum
 	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
 	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
@@ -1004,7 +1005,12 @@ AtlasLocale = {
 	["Sorcerer Ashcrombe"] = "巫师阿克鲁比";
 	["Deathstalker Adamant"] = "亡灵哨兵阿达曼特";
 	["Landen Stilwell"] = "兰登·斯蒂维尔";
+	["Investigator Fezzen Brasstacks"] = "调查员菲赞•铜钉"; -- Needs review
 	["Deathstalker Vincent"] = "亡灵哨兵文森特";
+	["Apothecary Trio"] = "药剂师三人组"; -- Needs review
+	["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师胡默尔 <王冠化学制药公司>"; -- Needs review
+	["Apothecary Baxter <Crown Chemical Co.>"] = "药剂师巴克斯特 <王冠化学制药公司>"; -- Needs review
+	["Apothecary Frye <Crown Chemical Co.>"] = "药剂师弗莱伊 <王冠化学制药公司>"; -- Needs review
 	["Fel Steed"] = "地狱战马";
 	["Jordan's Hammer"] = "乔丹的铁锤";
 	["Crate of Ingots"] = "铁锭箱";
@@ -1636,22 +1642,31 @@ AtlasLocale = {
 	["Eck the Ferocious"] = "凶残的伊克";
 
 	--Icecrown Citadel
-	["The Ashen Verdict"] = "灰烬裁决军";
-	["Lord Marrowgar"] = "玛洛嘉领主";
-	["Lady Deathwhisper"] = "亡语女士";
-	["Gunship Battle"] = "炮艇战";
-	["Deathbringer Saurfang"] = "死亡使者萨鲁法尔";
-	["Festergut"] = "脓肠";
-	["Rotface"] = "腐脸";
-	["Professor Putricide"] = "普崔希德教授";
-	["Blood Prince Council"] = "血亲王议会";
-	["Prince Keleseth"] = "凯雷希斯王子";
-	["Prince Taldaram"] = "泰尔达朗王子";
-	["Prince Valanar"] = "瓦拉纳尔王子";
-	["Blood-Queen Lana'thel"] = "血腥女王菈娜萨尔";
-	["Valithria Dreamwalker"] = "瓦莉丝瑞雅•梦行者";
-	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>";
-	["The Lich King"] = "巫妖王";
+	["The Ashen Verdict"] = "灰烬裁决军"; -- Needs review after WoW 3.3.3 is available in China
+	["Lord Marrowgar"] = "玛洛嘉领主"; -- Needs review after WoW 3.3.3 is available in China
+	["Lady Deathwhisper"] = "亡语女士"; -- Needs review after WoW 3.3.3 is available in China
+	["Gunship Battle"] = "炮艇战"; -- Needs review after WoW 3.3.3 is available in China
+	["Deathbringer Saurfang"] = "死亡使者萨鲁法尔"; -- Needs review after WoW 3.3.3 is available in China
+	["Festergut"] = "脓肠"; -- Needs review after WoW 3.3.3 is available in China
+	["Rotface"] = "腐脸"; -- Needs review after WoW 3.3.3 is available in China
+	["Professor Putricide"] = "普崔希德教授"; -- Needs review after WoW 3.3.3 is available in China
+	["Blood Prince Council"] = "血亲王议会"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Keleseth"] = "凯雷希斯王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Taldaram"] = "泰尔达朗王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Valanar"] = "瓦拉纳尔王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Blood-Queen Lana'thel"] = "血腥女王菈娜萨尔"; -- Needs review after WoW 3.3.3 is available in China
+	["Valithria Dreamwalker"] = "瓦莉丝瑞雅•梦行者"; -- Needs review after WoW 3.3.3 is available in China
+	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>"; -- Needs review after WoW 3.3.3 is available in China
+	["The Lich King"] = "巫妖王"; -- Needs review after WoW 3.3.3 is available in China
+	["To next map"] = "到下一个地图";
+	["From previous map"] = "到前一个地图";
+	["Light's Hammer"] = "圣光之锤"; -- Needs review after WoW 3.3.3 is available in China
+	["Oratory of the Damned"] = "诅咒祈愿室"; -- Needs review after WoW 3.3.3 is available in China
+	["Rampart of Skulls"] = "骸颅壁垒"; -- Needs review after WoW 3.3.3 is available in China
+	["Deathbringer's Rise"] = "死亡使者高岗"; -- Needs review after WoW 3.3.3 is available in China
+	["Upper Spire"] = "冰冠尖塔"; -- Needs review after WoW 3.3.3 is available in China
+	["Sindragosa's Lair"] = "辛德拉苟莎之巢"; -- Needs review after WoW 3.3.3 is available in China
+	["The Frozen Throne"] = "冰封王座"; -- Needs review after WoW 3.3.3 is available in China
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "比格沃斯";
@@ -1861,10 +1876,11 @@ AtlasLocale = {
 	["Toravon the Ice Watcher"] = "寒冰看守者";
 	
 	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "红龙庭";
-	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰";
-	["Saviana Ragefire"] = "Saviana Ragefire";
-	["Baltharus the Warborn"] = "Baltharus the Warborn";
-	["General Zarithrian"] = "General Zarithrian";
+	["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
+	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
+	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
+	["Baltharus the Warborn"] = "「战争降临」巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
+	["General Zarithrian"] = "札里瑞安将军"; -- Needs review after WoW 3.3.5 is available in China
+
 };
 end

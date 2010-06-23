@@ -15,6 +15,7 @@ v1.16.2
   - French: dokcharlie
   - Russian: StingerSoft
   - Traditional Chinese: s8095324, arith
+  - Simplified Chinese: arith
 - rewrote the readme file for Traditional Chinese (arith)
 
 v1.16.1

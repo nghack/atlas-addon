@@ -110,7 +110,7 @@ ATLAS_DEP_OK = "Ok";
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
 	["Karabor Sewers"] = 			"Karabor Sewers";
-	["Illidari Training Grounds"] = 	"Illidari Training Grounds";
+	["Illidari Training Grounds"] = 	"Тренировочные площадки Иллидари";
 	["Sanctuary of Shadows"] = 		"Sanctuary of Shadows";
 	["The Refectory"] = 			"The Refectory";
 	--Black Temple, Basement
@@ -195,46 +195,46 @@ Atlas_SubZoneData_Loc = {
 	["Chapel Gardens"] = 			"Chapel Gardens";
 	["Crusader's Chapel"] = 		"Crusader's Chapel";
 	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		"Expedition Base Camp";
-	["Iron Concourse"] = 			"Iron Concourse";
-	["Formation Grounds"] = 		"Formation Grounds";
-	["Razorscale's Aerie"] = 		"Razorscale's Aerie";
-	["The Colossal Forge"] = 		"The Colossal Forge";
-	["The Scrapyard"] = 			"The Scrapyard";
+	["Expedition Base Camp"] = 		"Главный лагерь экспедиции";
+	["Iron Concourse"] = 			"Железный двор";
+	["Formation Grounds"] = 		"Плац";
+	["Razorscale's Aerie"] = 		"Гнездо Острокрылой";
+	["The Colossal Forge"] = 		"Гигантская кузня";
+	["The Scrapyard"] = 			"Мусорная свалка";
 	--Ulduar, The Antechamber
-	["The Antechamber"] = 			"The Antechamber";
-	["The Assembly of Iron"] = 		"The Assembly of Iron";
-	["The Archivum"] = 			"The Archivum";
-	["The Celestial Planetarium"] = 	"The Celestial Planetarium";
-	["The Shattered Walkway"] = 		"The Shattered Walkway";
+	["The Antechamber"] = 			"Вестибюль";
+	["The Assembly of Iron"] = 		"Железное Собрание";
+	["The Archivum"] = 			"Архив";
+	["The Celestial Planetarium"] = 	"Священный планетарий";
+	["The Shattered Walkway"] = 		"Обвалившаяся галерея";
 	--Ulduar, The Keepers
-	["The Observation Ring"] = 		"The Observation Ring";
-	["The Halls of Winter"] = 		"The Halls of Winter";
-	["The Clash of Thunder"] = 		"The Clash of Thunder";
-	["The Conservatory of Life"] = 		"The Conservatory of Life";
-	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity";
-	["Hall of Memories"] = 			"Hall of Memories";
+	["The Observation Ring"] = 		"Круг Наблюдения";
+	["The Halls of Winter"] = 		"Залы Зимы";
+	["The Clash of Thunder"] = 		"Раскаты Грома";
+	["The Conservatory of Life"] = 		"Оранжерея Жизни";
+	["The Corridors of Ingenuity"] = 	"Коридоры изобретательности";
+	["Hall of Memories"] = 			"Зал воспоминаний";
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			"The LMS Mark II";	
-	["The Spark of Imagination"] = 		"The Spark of Imagination";
+	["The LMS Mark II"] = 			"ЛМС Марк II";	
+	["The Spark of Imagination"] = 		"Искра Воображения";
 	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		"The Descent into Madness";
-	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron";
-	["The Mind's Eye"] = 			"The Mind's Eye";
+	["The Descent into Madness"] = 		"Провал Безумия";
+	["The Prison of Yogg-Saron"] = 		"Темница Йогг-Сарона";
+	["The Mind's Eye"] = 			"Око разума";
 	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			"Light's Hammer";	
-	["Oratory of the Damned"] = 		"Oratory of the Damned";
-	["Rampart of Skulls"] = 		"Rampart of Skulls";
-	["Deathbringer's Rise"] = 		"Deathbringer's Rise";
+	["Light's Hammer"] = 			"Молот Света";	
+	["Oratory of the Damned"] = 		"Молельня Проклятых";
+	["Rampart of Skulls"] = 		"Черепной вал";
+	["Deathbringer's Rise"] = 		"Подъем Смертоносного";
 	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			"The Plagueworks";
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun";
-	["The Crimson Hall"] = 			"The Crimson Hall";
-	["The Sanctum of Blood"] = 		"The Sanctum of Blood";
-	["The Frostwing Halls"] = 		"The Frostwing Halls";
-	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair";
+	["The Plagueworks"] = 			"Чумодельня";
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Лаборатория алхимических ужасов и забав";
+	["The Crimson Hall"] = 			"Багровый зал";
+	["The Sanctum of Blood"] = 		"Святилище Крови";
+	["The Frostwing Halls"] = 		"Залы Ледокрылых";
+	["The Frost Queen's Lair"] = 		"Логово ледяной королевы"; --??
 	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		"The Frozen Throne";
+	["The Frozen Throne"] = 		"Ледяной Трон";
 };
 
 AtlasZoneSubstitutions = {

@@ -236,6 +236,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair";
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"The Frozen Throne";
+	["Frostmourne"] = 			"Frostmourne";
 };
 
 AtlasZoneSubstitutions = {

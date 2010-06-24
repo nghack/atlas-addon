@@ -223,6 +223,7 @@ Atlas_SubZoneData = {
 	["The Frost Queen's Lair"] =		"IcecrownCitadelB";
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] =			"IcecrownCitadelC";
+	["Frostmourne"] =			"IcecrownCitadelC";
 };
 
 -- Maps to auto-select to from outdoor zones.

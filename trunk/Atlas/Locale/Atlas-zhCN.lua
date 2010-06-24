@@ -239,6 +239,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"霜翼之巢"; -- need to be reviewed after WoW 3.3.3 is available for China
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"冰封王座"; -- need to be reviewed after WoW 3.3.3 is available for China
+	["Frostmourne"] = 			"Frostmourne"; -- needs translation
 };
 
 AtlasZoneSubstitutions = {

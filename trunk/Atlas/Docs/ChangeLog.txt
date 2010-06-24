@@ -8,7 +8,7 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 ==============
 
 v1.16.2
-- improved auto-selection feature for foreign languages (Dynaletik, arith, Lothayer)
+- improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - cleaned up and tweaked some code
 - translation update for several languages
   - German: Dynaletik

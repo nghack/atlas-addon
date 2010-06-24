@@ -109,91 +109,91 @@ ATLAS_DEP_OK = "Ok";
 --Links SubZone values with specific instance maps
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
-	["Karabor Sewers"] = 			"Karabor Sewers";
+	["Karabor Sewers"] = 			"Канализация Карабора";
 	["Illidari Training Grounds"] = 	"Тренировочные площадки Иллидари";
-	["Sanctuary of Shadows"] = 		"Sanctuary of Shadows";
-	["The Refectory"] = 			"The Refectory";
+	["Sanctuary of Shadows"] = 		"Святилище Теней";
+	["The Refectory"] = 			"Трапезная";
 	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		"Gorefiend's Vigil";
-	["Halls of Anguish"] = 			"Halls of Anguish";
-	["Shrine of Lost Souls"] = 		"Shrine of Lost Souls";
+	["Gorefiend's Vigil"] = 		"Пост Кровожада";
+	["Halls of Anguish"] = 			"Залы Страданий";
+	["Shrine of Lost Souls"] = 		"Святилище Потерянных Душ";
 	--Black Temple, Top
-	["Den of Mortal Delights"] = 		"Den of Mortal Delights";
-	["Grand Promenade"] = 			"Grand Promenade";
-	["Chamber of Command"] = 		"Chamber of Command";
-	["Temple Summit"] = 			"Temple Summit";
+	["Den of Mortal Delights"] = 		"Приют Земных Наслаждений";
+	["Grand Promenade"] = 			"Центральная аллея";
+	["Chamber of Command"] = 		"Чертог Власти";
+	["Temple Summit"] = 			"Храмовая вершина";
 	--Karazhan, Start
-	["The Gatehouse"] = 			"The Gatehouse";
-	["Livery Stables"] = 			"Livery Stables";
-	["The Guardhouse"] = 			"The Guardhouse";
-	["The Scullery"] = 			"The Scullery";
-	["Servants' Quarters"] = 		"Жильё прислуги";
-	["The Grand Ballroom"] = 		"The Grand Ballroom";
-	["The Banquet Hall"] = 			"The Banquet Hall";
-	["The Guest Chambers"] = 		"Гостевая комната";
-	["The Opera Hall"] = 			"The Opera Hall";
-	["The Broken Stair"] = 			"Разбитые ступеньки";
+	["The Gatehouse"] = 			"Вестибюль";
+	["Livery Stables"] = 			"Стойла";
+	["The Guardhouse"] = 			"Казармы Стражи";
+	["The Scullery"] = 			"Судомойня";
+	["Servants' Quarters"] = 		"Комнаты Слуг";
+	["The Grand Ballroom"] = 		"Большой бальный зал";
+	["The Banquet Hall"] = 			"Пиршественный зал";
+	["The Guest Chambers"] = 		"Гостевые залы";
+	["The Opera Hall"] = 			"Оперный зал";
+	["The Broken Stair"] = 			"Разрушенная лестница";
 	["Master's Terrace"] = 			"Терраса Мастера";
 	--Karazhan, End
-	["The Menagerie"] = 			"The Menagerie";
-	["Guardian's Library"] = 		"Библиотека стражи";
-	["The Repository"] = 			"The Repository";
-	["The Celestial Watch"] = 		"Небесный надзор";
+	["The Menagerie"] = 			"Галерея";
+	["Guardian's Library"] = 		"Библиотека Стража";
+	["The Repository"] = 			"Хранилище";
+	["The Celestial Watch"] = 		"Обсерватория";
 	["Gamesman's Hall"] = 			"Игровой зал";
-	["Medivh's Chambers"] = 		"Комната Медива";
+	["Medivh's Chambers"] = 		"Покои Медива";
 	["Master's Terrace"] = 			"Терраса Мастера";
 	["Netherspace"] = 			"Пустомарь";
 	--Dire Maul, Entrance
-	["Broken Commons"] = 			"Broken Commons";
-	["Eldreth Row"] = 			"Eldreth Row";
-	["The Maul"] = 				"The Maul";
+	["Broken Commons"] = 			"Разоренные земли";
+	["Eldreth Row"] = 			"Путь Элдрета";
+	["The Maul"] = 				"Ристалище";
 	--Dire Maul, North
-	["Halls of Destruction"] = 		"Halls of Destruction";
-	["Gordok's Seat"] = 			"Gordok's Seat";
+	["Halls of Destruction"] = 		"Гибельные залы";
+	["Gordok's Seat"] = 			"Трон Гордока";
 	--Dire Maul, East
-	["Warpwood Quarter"] = 			"Warpwood Quarter";
-	["The Hidden Reach"] = 			"The Hidden Reach";
-	["The Conservatory"] = 			"The Conservatory";
-	["The Shrine of Eldretharr"] = 		"The Shrine of Eldretharr";
+	["Warpwood Quarter"] = 			"Квартал Криводревов";
+	["The Hidden Reach"] = 			"Потайной проход";
+	["The Conservatory"] = 			"Зимний сад";
+	["The Shrine of Eldretharr"] = 		"Святилище Элдретарра";
 	--Dire Maul, West
-	["Capital Gardens"] = 			"Capital Gardens";
-	["Court of the Highborne"] = 		"Court of the Highborne";
-	["Prison of Immol'thar"] = 		"Prison of Immol'thar";
-	["The Athenaeum"] = 			"The Athenaeum";
+	["Capital Gardens"] = 			"Центральный сад";
+	["Court of the Highborne"] = 		"Двор Высокорожденных";
+	["Prison of Immol'thar"] = 		"Тюрьма Бессмер'тера";
+	["The Athenaeum"] = 			"Читальня";
 	--Blackrock Spire, Lower
-	["Hordemar City"] = 			"Hordemar City";
-	["Mok'Doom"] = 				"Mok'Doom";
-	["Tazz'Alaor"] = 			"Tazz'Alaor";
-	["Skitterweb Tunnels"] = 		"Skitterweb Tunnels";
-	["Halycon's Lair"] = 			"Halycon's Lair";
-	["The Storehouse"] = 			"The Storehouse";
-	["Chamber of Battle"] = 		"Chamber of Battle";
+	["Hordemar City"] = 			"Ордамар";
+	["Mok'Doom"] = 				"Мок'Дум";
+	["Tazz'Alaor"] = 			"Тазз'Алаор";
+	["Skitterweb Tunnels"] = 		"Паучий лабиринт";
+	["Halycon's Lair"] = 			"Логово Халикона";
+	["The Storehouse"] = 			"Кладовая";
+	["Chamber of Battle"] = 		"Чертог Битвы";
 	--Blackrock Spire, Upper
-	["Dragonspire Hall"] = 			"Dragonspire Hall";
-	["Hall of Binding"] = 			"Hall of Binding";
-	["The Rookery"] = 			"The Rookery";
-	["Hall of Blackhand"] = 		"Hall of Blackhand";
-	["Blackrock Stadium"] = 		"Blackrock Stadium";
-	["The Furnace"] = 			"The Furnace";
-	["Spire Throne"] = 			"Spire Throne";
+	["Dragonspire Hall"] = 			"Зал Драконов";
+	["Hall of Binding"] = 			"Зал Оков";
+	["The Rookery"] = 			"Гнездовье";
+	["Hall of Blackhand"] = 		"Зал Чернорука";
+	["Blackrock Stadium"] = 		"Стадион Черной горы";
+	["The Furnace"] = 			"Горн";
+	["Spire Throne"] = 			"Верховный трон";
 	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] = 		"The Grand Vestibule";
+	["The Grand Vestibule"] = 		"Большой зал";
 	--Scarlet Monastery, Graveyard
-	["Chamber of Atonement"] = 		"Chamber of Atonement";
-	["Forlorn Cloister"] = 			"Forlorn Cloister";
-	["Honor's Tomb"] = 			"Honor's Tomb";
+	["Chamber of Atonement"] = 		"Чертог Искупления";
+	["Forlorn Cloister"] = 			"Покинутый скит";
+	["Honor's Tomb"] = 			"Гробница Доблести";
 	--Scarlet Monastery, Library
-	["Huntsman's Cloister"] = 		"Huntsman's Cloister";
-	["Gallery of Treasures"] = 		"Gallery of Treasures";
-	["Athenaeum"] = 			"Athenaeum";
+	["Huntsman's Cloister"] = 		"Скит Охотника";
+	["Gallery of Treasures"] = 		"Сокровищница";
+	["Athenaeum"] = 			"Читальня";
 	--Scarlet Monastery, Armory
-	["Training Grounds"] = 			"Training Grounds";
-	["Footman's Armory"] = 			"Footman's Armory";
-	["Crusader's Armory"] = 		"Crusader's Armory";
-	["Hall of Champions"] = 		"Hall of Champions";
+	["Training Grounds"] = 			"Тренировочные площадки";
+	["Footman's Armory"] = 			"Оружейная пехоты";
+	["Crusader's Armory"] = 		"Оружейная Рыцарей";
+	["Hall of Champions"] = 		"Чертог Защитников";
 	--Scarlet Monastery, Cathedral
-	["Chapel Gardens"] = 			"Chapel Gardens";
-	["Crusader's Chapel"] = 		"Crusader's Chapel";
+	["Chapel Gardens"] = 			"Церковные сады";
+	["Crusader's Chapel"] = 		"Часовня Ордена";
 	--Ulduar, The Siege
 	["Expedition Base Camp"] = 		"Главный лагерь экспедиции";
 	["Iron Concourse"] = 			"Железный двор";
@@ -212,10 +212,10 @@ Atlas_SubZoneData_Loc = {
 	["The Halls of Winter"] = 		"Залы Зимы";
 	["The Clash of Thunder"] = 		"Раскаты Грома";
 	["The Conservatory of Life"] = 		"Оранжерея Жизни";
-	["The Corridors of Ingenuity"] = 	"Коридоры изобретательности";
-	["Hall of Memories"] = 			"Зал воспоминаний";
+	["The Corridors of Ingenuity"] = 	"Коридоры Изобретательности";
+	["Hall of Memories"] = 			"Зал Воспоминаний";
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			"ЛМС Марк II";	
+	["The LMS Mark II"] = 			"ЛМС, модель II";	
 	["The Spark of Imagination"] = 		"Искра Воображения";
 	--Ulduar, Descent into Madness
 	["The Descent into Madness"] = 		"Провал Безумия";
@@ -239,8 +239,8 @@ Atlas_SubZoneData_Loc = {
 };
 
 AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"] = "Затонувший храм";
-	["Ahn'Qiraj"] = "Храм Ан'Киража";
+	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";
+	["Ahn'Qiraj"] = "Ан'Кираж";
 }; 
 
 AtlasLocale = {

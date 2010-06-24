@@ -26,7 +26,6 @@
 -- Version : Chinese (by DiabloHu)
 -- $Date$
 -- $Revision$
--- http://ngacn.cc
 
 
 if ( GetLocale() == "zhCN" ) then
@@ -79,11 +78,11 @@ ATLAS_DDL_CONTINENT_KALIMDOR = "卡利姆多副本";
 ATLAS_DDL_CONTINENT_OUTLAND = "外域副本";
 ATLAS_DDL_CONTINENT_NORTHREND = "诺森德副本";
 ATLAS_DDL_LEVEL = "副本等级";
-ATLAS_DDL_LEVEL_UNDER45 = "45级以下副本";
-ATLAS_DDL_LEVEL_45TO60 = "45-60级副本";
-ATLAS_DDL_LEVEL_60TO70 = "60-70级副本";
-ATLAS_DDL_LEVEL_70TO80 = "70-80级副本";
-ATLAS_DDL_LEVEL_80PLUS = "80级以上副本";
+ATLAS_DDL_LEVEL_UNDER45 = "45 级以下副本";
+ATLAS_DDL_LEVEL_45TO60 = "45-60 级副本";
+ATLAS_DDL_LEVEL_60TO70 = "60-70 级副本";
+ATLAS_DDL_LEVEL_70TO80 = "70-80 级副本";
+ATLAS_DDL_LEVEL_80PLUS = "80 级以上副本";
 ATLAS_DDL_PARTYSIZE = "副本规模";
 ATLAS_DDL_PARTYSIZE_5_AE = "5 人副本 (第一页)";
 ATLAS_DDL_PARTYSIZE_5_FZ = "5 人副本 (第二页)";
@@ -239,7 +238,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"霜翼之巢"; -- need to be reviewed after WoW 3.3.3 is available for China
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"冰封王座"; -- need to be reviewed after WoW 3.3.3 is available for China
-	["Frostmourne"] = 			"Frostmourne"; -- needs translation
+	["Frostmourne"] = 			"霜之哀伤";
 };
 
 AtlasZoneSubstitutions = {

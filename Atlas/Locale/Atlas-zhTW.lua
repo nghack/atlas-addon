@@ -235,7 +235,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"霜翼之巢";
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"冰封王座";
-	["Frostmourne"] = 			"Frostmourne"; -- needs translation
+	["Frostmourne"] = 			"霜之哀傷";
 };
 
 AtlasZoneSubstitutions = {
@@ -447,7 +447,7 @@ AtlasLocale = {
 	["HoL"] = "HoL/雷光"; -- Halls of Lightning --雷光大廳
 	["HoR"] = "HoR/倒影"; ["FH3"] = "FH3"; -- Halls of Reflection -- 倒影大廳
 	["HoS"] = "HoS/石廳"; -- Halls of Stone -- 石之大廳
- 	["IC"] = "IC"; -- Icecrown Citadel -- 冰冠城塞
+ 	["IC"] = "ICC/冰冠"; -- Icecrown Citadel -- 冰冠城塞
 	["Nax"] = "Nax/納克"; -- Naxxramas -- 納克薩瑪斯
 	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
@@ -1526,7 +1526,7 @@ AtlasLocale = {
 	["The Nameless Prophet"] = "無名預言者";
 	["Kolk <The First Kahn>"] = "考爾克 <第一可汗>";
 	["Gelk <The Second Kahn>"] = "吉爾克 <第二可汗>";
-	["Magra <The Third Kahn>"] = "瑪格拉 (第三可汗)";
+	["Magra <The Third Kahn>"] = "瑪格拉 <第三可汗>";
 	["Cavindra"] = "凱雯德拉";
 
 	--The Deadmines (Entrance)
@@ -1747,6 +1747,13 @@ AtlasLocale = {
 	["Shadron"] = "夏德朗";
 	["Vesperon"] = "維斯佩朗";
 
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "紅龍軍團密室";
+	["Halion <The Twilight Destroyer>"] = "暮光毀滅者海萊恩";
+	["Saviana Ragefire"] = "莎維納‧怒火";
+	["Baltharus the Warborn"] = "「戰爭降臨」巴薩勒司";
+	["General Zarithrian"] = "札里瑞安將軍";
+
 	--The Violet Hold
 	["Erekem"] = "伊銳坎";
 	["Zuramat the Obliterator"] = "『消滅者』舒拉邁特";
@@ -1871,12 +1878,5 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "『風暴看守者』艾瑪隆";	
 	["Koralon the Flame Watcher"] = "『烈焰看守者』寇拉隆";
 	["Toravon the Ice Watcher"] = "『寒冰看守者』拓拉梵";
-	
-	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "紅龍軍團密室";
-	["Halion <The Twilight Destroyer>"] = "暮光毀滅者海萊恩";
-	["Saviana Ragefire"] = "莎維納‧怒火";
-	["Baltharus the Warborn"] = "「戰爭降臨」巴薩勒司";
-	["General Zarithrian"] = "札里瑞安將軍";
 };
 end

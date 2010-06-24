@@ -1593,6 +1593,8 @@ AtlasLocale = {
 -- WotLK Instances
 --*****************
 
+--I'm switching from continent grouping to expansion grouping.
+
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
 	["Elder Nadox"] = "Ancien Nadox";
 	["Prince Taldaram"] = "Prince Taldaram";
@@ -1744,6 +1746,13 @@ AtlasLocale = {
 	["Shadron"] = "Obscuron";
 	["Vesperon"] = "Vespéron";
 
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Chambre du vol draconique Rouge";
+	["Halion <The Twilight Destroyer>"] = "Halion le Destructeur du Crépuscule";
+	["Saviana Ragefire"] = "Savianna Ragefeu";
+	["Baltharus the Warborn"] = "Baltharus l'Enfant de la guerre";
+	["General Zarithrian"] = "Général Zarithrian";
+
 	--The Violet Hold
 	["Erekem"] = "Erekem";
 	["Zuramat the Obliterator"] = "Zuramat l'Oblitérateur";
@@ -1868,12 +1877,5 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon le Guetteur d'orage";
 	["Koralon the Flame Watcher"] = "Koralon le Veilleur des flammes";
 	["Toravon the Ice Watcher"] = "Toravon la Sentinelle de glace";
-	
-	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "Chambre du vol draconique Rouge";
-	["Halion <The Twilight Destroyer>"] = "Halion le Destructeur du Crépuscule";
-	["Saviana Ragefire"] = "Savianna Ragefeu";
-	["Baltharus the Warborn"] = "Baltharus l'Enfant de la guerre";
-	["General Zarithrian"] = "Général Zarithrian";
 };
 end

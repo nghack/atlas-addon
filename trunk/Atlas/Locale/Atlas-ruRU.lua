@@ -127,22 +127,22 @@ Atlas_SubZoneData_Loc = {
 	["Livery Stables"] = 			"Livery Stables";
 	["The Guardhouse"] = 			"The Guardhouse";
 	["The Scullery"] = 			"The Scullery";
-	["Servants' Quarters"] = 		"Servants' Quarters";
+	["Servants' Quarters"] = 		"Жильё прислуги";
 	["The Grand Ballroom"] = 		"The Grand Ballroom";
 	["The Banquet Hall"] = 			"The Banquet Hall";
-	["The Guest Chambers"] = 		"The Guest Chambers";
+	["The Guest Chambers"] = 		"Гостевая комната";
 	["The Opera Hall"] = 			"The Opera Hall";
-	["The Broken Stair"] = 			"The Broken Stair";
-	["Master's Terrace"] = 			"Master's Terrace";
+	["The Broken Stair"] = 			"Разбитые ступеньки";
+	["Master's Terrace"] = 			"Терраса Мастера";
 	--Karazhan, End
 	["The Menagerie"] = 			"The Menagerie";
-	["Guardian's Library"] = 		"Guardian's Library";
+	["Guardian's Library"] = 		"Библиотека стражи";
 	["The Repository"] = 			"The Repository";
-	["The Celestial Watch"] = 		"The Celestial Watch";
-	["Gamesman's Hall"] = 			"Gamesman's Hall";
-	["Medivh's Chambers"] = 		"Medivh's Chambers";
-	["Master's Terrace"] = 			"Master's Terrace";
-	["Netherspace"] = 			"Netherspace";
+	["The Celestial Watch"] = 		"Небесный надзор";
+	["Gamesman's Hall"] = 			"Игровой зал";
+	["Medivh's Chambers"] = 		"Комната Медива";
+	["Master's Terrace"] = 			"Терраса Мастера";
+	["Netherspace"] = 			"Пустомарь";
 	--Dire Maul, Entrance
 	["Broken Commons"] = 			"Broken Commons";
 	["Eldreth Row"] = 			"Eldreth Row";
@@ -235,7 +235,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"Логово ледяной королевы"; --??
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"Ледяной Трон";
-	["Frostmourne"] = 			"Frostmourne"; -- needs translation
+	["Frostmourne"] = 			"Ледяная Скорбь";
 };
 
 AtlasZoneSubstitutions = {

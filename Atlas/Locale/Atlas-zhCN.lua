@@ -1750,6 +1750,13 @@ AtlasLocale = {
 	["Shadron"] = "沙德隆";
 	["Vesperon"] = "维斯匹隆";
 
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
+	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
+	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
+	["Baltharus the Warborn"] = "「战争降临」巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
+	["General Zarithrian"] = "札里瑞安将军"; -- Needs review after WoW 3.3.5 is available in China
+
 	--The Violet Hold
 	["Erekem"] = "埃雷克姆";
 	["Zuramat the Obliterator"] = "湮灭者祖拉玛特";
@@ -1874,13 +1881,6 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
 	["Koralon the Flame Watcher"] = "烈焰看守者寇拉隆";
 	["Toravon the Ice Watcher"] = "寒冰看守者";
-	
-	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
-	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
-	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
-	["Baltharus the Warborn"] = "「战争降临」巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
-	["General Zarithrian"] = "札里瑞安将军"; -- Needs review after WoW 3.3.5 is available in China
 
 };
 end

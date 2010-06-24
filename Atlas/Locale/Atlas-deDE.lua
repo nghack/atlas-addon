@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 21.06.2010
+-- Letztes Update: 24.06.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -133,22 +133,22 @@ Atlas_SubZoneData_Loc = {
 	--Karazhan, Start
 	["The Gatehouse"] = 			"Das Torhaus";
 	["Livery Stables"] = 			"Nobelställe";
-	--["The Guardhouse"] = 			"The Guardhouse";
+	["The Guardhouse"] = 			"Die Wachstube";
 	["The Scullery"] = 			"Die Küche";
 	["Servants' Quarters"] = 		"Bedienstetenunterkünfte";
 	["The Grand Ballroom"] = 		"Der große Ballsaal";
 	["The Banquet Hall"] = 			"Der Bankettsaal";
 	["The Guest Chambers"] = 		"Die Gästezimmer";
 	["The Opera Hall"] = 			"Der Opernsaal";
-	["The Broken Stair"] = 			"Die beschädigte Treppe";
-	--["Master's Terrace"] = 		"Master's Terrace";
+	["The Broken Stair"] = 			"Die eingestürzte Treppe";
+	--["Master's Terrace"] = 		"Terrasse des Meisters";
 	--Karazhan, End
 	["The Menagerie"] = 			"Die Menagerie";
 	["Guardian's Library"] = 		"Bibliothek des Wächters";
 	["The Repository"] = 			"Das Warenlager";
 	["The Celestial Watch"] = 		"Die Himmelswacht";
 	["Gamesman's Hall"] = 			"Halle der Spiele";
-	["Medivh's Chambers"] = 		"Medivhs Kammer";
+	["Medivh's Chambers"] = 		"Medivhs Gemächer";
 	["Master's Terrace"] = 			"Terrasse des Meisters";
 	["Netherspace"] = 			"Netherraum";
 	--Dire Maul, Entrance
@@ -223,7 +223,7 @@ Atlas_SubZoneData_Loc = {
 	["The Corridors of Ingenuity"] = 	"Die Korridore des Scharfsinns";
 	["Hall of Memories"] = 			"Halle der Erinnerungen";
 	--Ulduar, Spark of Imagination
-	--["The LMS Mark II"] = 		"The LMS Mark II";	
+	["The LMS Mark II"] =	 		"Die LMS Mark II";	
 	["The Spark of Imagination"] = 		"Der Funke der Imagination";
 	--Ulduar, Descent into Madness
 	["The Descent into Madness"] = 		"Der Abstieg in den Wahnsinn";
@@ -243,6 +243,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"Der Hort der Frostkönigin";
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"Der Frostthron";
+	["Frostmourne"] = 			"Frostgram";
 };
 
 AtlasZoneSubstitutions = {

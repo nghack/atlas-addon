@@ -235,6 +235,7 @@ Atlas_SubZoneData_Loc = {
 	["The Frost Queen's Lair"] = 		"霜翼之巢";
 	--Icecrown Citadell, Frozen Throne
 	["The Frozen Throne"] = 		"冰封王座";
+	["Frostmourne"] = 			"Frostmourne"; -- needs translation
 };
 
 AtlasZoneSubstitutions = {

@@ -416,8 +416,8 @@ AtlasLocale = {
 	["The Mechanar"] = "El Mechanar"; ["Mech"] = "Mech";
 	["The Nexus"] = "El Nexo ";
 	["The Obsidian Sanctum"] = "El Sagrario Obsidiana";
-	["The Ruby Sanctum"] = "El Sagrario Rubí";
 	["The Oculus"] = "El Oculus";
+	["The Ruby Sanctum"] = "El Sagrario Rubí";
 	["The Shattered Halls"] = "Las Salas Arrasadas"; ["SH"] = "SA";
 	["The Slave Pens"] = "Recinto de los Esclavos"; ["SP"] = "Recinto";
 	["The Steamvault"] = "Cámara de Vapor"; ["SV"] = "CV";
@@ -1747,6 +1747,13 @@ AtlasLocale = {
 	["Shadron"] = "Shadron";
 	["Vesperon"] = "Vesperon";
 
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "La cámara del Vuelo de Dragones Rojo";
+	["Halion <The Twilight Destroyer>"] = "Halion el Destructor Crepuscular";
+	["Saviana Ragefire"] = "Saviana Furia Ardiente";
+	["Baltharus the Warborn"] = "Baltharus el Batallante";
+	["General Zarithrian"] = "General Zarithrian";
+	
 	--The Violet Hold
 	["Erekem"] = "Erekem";
 	["Zuramat the Obliterator"] = "Zuramat el Obliterador";
@@ -1871,13 +1878,6 @@ AtlasLocale = {
 	["Emalon the Storm Watcher"] = "Emalon el Vigía de piedra";
 	["Koralon the Flame Watcher"] = "Koralon el Vigía de las llamas";
 	["Toravon the Ice Watcher"] = "Toravon el Vigía de Hielo";
-	
-	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "La cámara del Vuelo de Dragones Rojo";
-	["Halion <The Twilight Destroyer>"] = "Halion el Destructor Crepuscular";
-	["Saviana Ragefire"] = "Saviana Furia Ardiente";
-	["Baltharus the Warborn"] = "Baltharus el Batallante";
-	["General Zarithrian"] = "General Zarithrian";
 	
 };
 end

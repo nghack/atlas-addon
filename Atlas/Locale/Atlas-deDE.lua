@@ -1752,6 +1752,13 @@ AtlasLocale = {
 	["Shadron"] = "Shadron";
 	["Vesperon"] = "Vesperon";
 
+	--The Ruby Sanctum
+	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
+	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
+	["Saviana Ragefire"] = "Saviana Flammenschlund";
+	["Baltharus the Warborn"] = "Baltharus der Kriegsgeborene";
+	["General Zarithrian"] = "General Zarithrian";
+
 	--The Violet Hold
 	["Erekem"] = "Erekem";
 	["Zuramat the Obliterator"] = "Zuramat der Vernichter";
@@ -1877,13 +1884,6 @@ AtlasLocale = {
 	["Koralon the Flame Watcher"] = "Koralon der Flammenwächter";
 	["Toravon the Ice Watcher"] = "Toravon der Eiswächter";
 	
-	--The Ruby Sanctum
-	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
-	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
-	["Saviana Ragefire"] = "Saviana Flammenschlund";
-	["Baltharus the Warborn"] = "Baltharus der Kriegsgeborene";
-	["General Zarithrian"] = "General Zarithrian";
-
 };
 
 end

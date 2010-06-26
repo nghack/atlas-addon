@@ -176,6 +176,9 @@ Atlas_SubZoneData_Loc = {
 	["Blackrock Stadium"] = 		"Стадион Черной горы";
 	["The Furnace"] = 			"Горн";
 	["Spire Throne"] = 			"Верховный трон";
+	-- Blackrock Depths
+	["The Grinding Quarry"] = 		"Шлифовальня";
+	["The Masonary"] = 			"Каменоломня";
 	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] = 		"Большой зал";
 	--Scarlet Monastery, Graveyard

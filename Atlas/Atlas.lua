@@ -75,6 +75,7 @@ Atlas_AssocDefaults = {
 	["Karazhan"] =				"KarazhanStart";
 	["Dire Maul"] =				"DireMaulNorth";
 	["Blackrock Spire"] =			"BlackrockSpireLower";
+	["Blackrock Mountain"] =		"BlackrockSpireEnt";
 	["Scarlet Monastery"] =			"SMEnt";
 	["Ulduar"] =				"UlduarA";
 	["Icecrown Citadel"] =			"IcecrownCitadelA";
@@ -88,6 +89,7 @@ Atlas_AssocDefaults_Loc = {
 	["Karazhan"] = 				BabbleZone["Karazhan"];
 	["Dire Maul"] = 			BabbleZone["Dire Maul"];
 	["Blackrock Spire"] = 			BabbleZone["Blackrock Spire"];
+	["Blackrock Mountain"] =		BabbleZone["Blackrock Mountain"];
 	["Scarlet Monastery"] = 		BabbleZone["Scarlet Monastery"];
 	["Ulduar"] = 				BabbleZone["Ulduar"];
 	["Icecrown Citadel"] = 			BabbleZone["Icecrown Citadel"];
@@ -164,6 +166,9 @@ Atlas_SubZoneData = {
 	["Blackrock Stadium"] =			"BlackrockSpireUpper";
 	["The Furnace"] =			"BlackrockSpireUpper";
 	["Spire Throne"] =			"BlackrockSpireUpper";
+	-- Blackrock Depths
+	["The Grinding Quarry"] = "BlackrockDepths";
+	["The Masonary"] = 			"BlackrockDepths";
 	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] =		"SMEnt";
 	--Scarlet Monastery, Graveyard
@@ -232,7 +237,6 @@ Atlas_SubZoneData = {
 Atlas_OutdoorZoneToAtlas = {
 	["Ashenvale"] =				"BlackfathomDeepsEnt";
 	["Badlands"] =				"UldamanEnt";
-	["Blackrock Mountain"] =		"BlackrockSpireEnt";
 	["Burning Steppes"] =			"BlackrockSpireEnt";
 	["Deadwind Pass"] =			"KarazhanEnt";
 	["Desolace"] =				"MaraudonEnt";
@@ -499,9 +503,9 @@ local function Process_Deprecated()
 		
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
-		{ "AtlasQuest", "4.3.6" }, --updated October 7, 2009
+		{ "AtlasQuest", "4.4.2" }, --updated June 24, 2010
 		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
-		{ "AtlasLoot", "5.08.04" }, --updated October 7, 2009
+		{ "AtlasLoot", "5.11.02" }, --updated June 21, 2010
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

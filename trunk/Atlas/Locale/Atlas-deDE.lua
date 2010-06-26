@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 24.06.2010
+-- Letztes Update: 26.06.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -185,8 +185,8 @@ Atlas_SubZoneData_Loc = {
 	["The Furnace"] = 			"Der Schmelzofen";
 	["Spire Throne"] = 			"Spitzenthron";
 	-- Blackrock Depths
-	["The Grinding Quarry"] = 		"The Grinding Quarry"; -- Need translation
-	["The Masonary"] = 			"The Masonary"; -- Need translation
+	["The Grinding Quarry"] = 		"Der Mahlsteinbruch";
+	["The Masonary"] = 			"Die Freimaurerei";
 	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] = 		"Das große Vestibül";
 	--Scarlet Monastery, Graveyard

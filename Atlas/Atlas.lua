@@ -167,7 +167,7 @@ Atlas_SubZoneData = {
 	["The Furnace"] =			"BlackrockSpireUpper";
 	["Spire Throne"] =			"BlackrockSpireUpper";
 	-- Blackrock Depths
-	["The Grinding Quarry"] = "BlackrockDepths";
+	["The Grinding Quarry"] =		"BlackrockDepths";
 	["The Masonary"] = 			"BlackrockDepths";
 	--Scarlet Monastery, Entrance
 	["The Grand Vestibule"] =		"SMEnt";
@@ -294,7 +294,6 @@ Atlas_OutdoorZoneToAtlas = {
 Atlas_OutdoorZoneToAtlas_Loc = {
 	["Ashenvale"] = 			BabbleZone["Ashenvale"];
 	["Badlands"] = 				BabbleZone["Badlands"];
-	["Blackrock Mountain"] = 		BabbleZone["Blackrock Mountain"];
 	["Burning Steppes"] = 			BabbleZone["Burning Steppes"];
 	["Deadwind Pass"] = 			BabbleZone["Deadwind Pass"];
 	["Desolace"] = 				BabbleZone["Desolace"];

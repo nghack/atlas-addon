@@ -454,8 +454,8 @@ AtlasLocale = {
 	["Nex, Nexus"] = "Nex, Nexus"; -- Le Nexus
 	["Ocu"] = "Ocu"; -- L'Oculus
 	["OS"] = "OS"; -- Le sanctum Obsidien
-	["RS"] = "SR"; -- Le sanctum Rubis
 	["PoS"] = "FdS"; ["FH2"] = "FH2"; -- Fosse de Saron
+	["RS"] = "SR"; -- Le sanctum Rubis
 	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
 	["TEoE"] = "Maly"; -- L'Œil de l'éternité	
 	["UK, Keep"] = "UK, Keep"; -- Donjon d'Utgarde

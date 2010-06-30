@@ -107,139 +107,139 @@ ATLAS_DEP_MSG3 = "Удалите их из вашей папки аддонов.
 ATLAS_DEP_OK = "Ok";
 
 --Links SubZone values with specific instance maps
-Atlas_SubZoneData_Loc = {
-	--Black Temple, Start
-	["Karabor Sewers"] = 			"Канализация Карабора";
-	["Illidari Training Grounds"] = 	"Тренировочные площадки Иллидари";
-	["Sanctuary of Shadows"] = 		"Святилище Теней";
-	["The Refectory"] = 			"Трапезная";
-	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		"Пост Кровожада";
-	["Halls of Anguish"] = 			"Залы Страданий";
-	["Shrine of Lost Souls"] = 		"Святилище Потерянных Душ";
-	--Black Temple, Top
-	["Den of Mortal Delights"] = 		"Приют Земных Наслаждений";
-	["Grand Promenade"] = 			"Центральная аллея";
-	["Chamber of Command"] = 		"Чертог Власти";
-	["Temple Summit"] = 			"Храмовая вершина";
-	--Karazhan, Start
-	["The Gatehouse"] = 			"Вестибюль";
-	["Livery Stables"] = 			"Стойла";
-	["The Guardhouse"] = 			"Казармы Стражи";
-	["The Scullery"] = 			"Судомойня";
-	["Servants' Quarters"] = 		"Комнаты Слуг";
-	["The Grand Ballroom"] = 		"Большой бальный зал";
-	["The Banquet Hall"] = 			"Пиршественный зал";
-	["The Guest Chambers"] = 		"Гостевые залы";
-	["The Opera Hall"] = 			"Оперный зал";
-	["The Broken Stair"] = 			"Разрушенная лестница";
-	["Master's Terrace"] = 			"Терраса Мастера";
-	--Karazhan, End
-	["The Menagerie"] = 			"Галерея";
-	["Guardian's Library"] = 		"Библиотека Стража";
-	["The Repository"] = 			"Хранилище";
-	["The Celestial Watch"] = 		"Обсерватория";
-	["Gamesman's Hall"] = 			"Игровой зал";
-	["Medivh's Chambers"] = 		"Покои Медива";
-	["Master's Terrace"] = 			"Терраса Мастера";
-	["Netherspace"] = 			"Пустомарь";
-	--Dire Maul, Entrance
-	["Broken Commons"] = 			"Разоренные земли";
-	["Eldreth Row"] = 			"Путь Элдрета";
-	["The Maul"] = 				"Ристалище";
-	--Dire Maul, North
-	["Halls of Destruction"] = 		"Гибельные залы";
-	["Gordok's Seat"] = 			"Трон Гордока";
-	--Dire Maul, East
-	["Warpwood Quarter"] = 			"Квартал Криводревов";
-	["The Hidden Reach"] = 			"Потайной проход";
-	["The Conservatory"] = 			"Зимний сад";
-	["The Shrine of Eldretharr"] = 		"Святилище Элдретарра";
-	--Dire Maul, West
-	["Capital Gardens"] = 			"Центральный сад";
-	["Court of the Highborne"] = 		"Двор Высокорожденных";
-	["Prison of Immol'thar"] = 		"Тюрьма Бессмер'тера";
-	["The Athenaeum"] = 			"Читальня";
-	--Blackrock Spire, Lower
-	["Hordemar City"] = 			"Ордамар";
-	["Mok'Doom"] = 				"Мок'Дум";
-	["Tazz'Alaor"] = 			"Тазз'Алаор";
-	["Skitterweb Tunnels"] = 		"Паучий лабиринт";
-	["Halycon's Lair"] = 			"Логово Халикона";
-	["The Storehouse"] = 			"Кладовая";
-	["Chamber of Battle"] = 		"Чертог Битвы";
-	--Blackrock Spire, Upper
-	["Dragonspire Hall"] = 			"Зал Драконов";
-	["Hall of Binding"] = 			"Зал Оков";
-	["The Rookery"] = 			"Гнездовье";
-	["Hall of Blackhand"] = 		"Зал Чернорука";
-	["Blackrock Stadium"] = 		"Стадион Черной горы";
-	["The Furnace"] = 			"Горн";
-	["Spire Throne"] = 			"Верховный трон";
-	-- Blackrock Depths
-	["The Grinding Quarry"] = 		"Шлифовальня";
-	["The Masonary"] = 			"Каменоломня";
-	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] = 		"Большой зал";
-	--Scarlet Monastery, Graveyard
-	["Chamber of Atonement"] = 		"Чертог Искупления";
-	["Forlorn Cloister"] = 			"Покинутый скит";
-	["Honor's Tomb"] = 			"Гробница Доблести";
-	--Scarlet Monastery, Library
-	["Huntsman's Cloister"] = 		"Скит Охотника";
-	["Gallery of Treasures"] = 		"Сокровищница";
-	["Athenaeum"] = 			"Читальня";
-	--Scarlet Monastery, Armory
-	["Training Grounds"] = 			"Тренировочные площадки";
-	["Footman's Armory"] = 			"Оружейная пехоты";
-	["Crusader's Armory"] = 		"Оружейная Рыцарей";
-	["Hall of Champions"] = 		"Чертог Защитников";
-	--Scarlet Monastery, Cathedral
-	["Chapel Gardens"] = 			"Церковные сады";
-	["Crusader's Chapel"] = 		"Часовня Ордена";
-	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		"Главный лагерь экспедиции";
-	["Iron Concourse"] = 			"Железный двор";
-	["Formation Grounds"] = 		"Плац";
-	["Razorscale's Aerie"] = 		"Гнездо Острокрылой";
-	["The Colossal Forge"] = 		"Гигантская кузня";
-	["The Scrapyard"] = 			"Мусорная свалка";
-	--Ulduar, The Antechamber
-	["The Antechamber"] = 			"Вестибюль";
-	["The Assembly of Iron"] = 		"Железное Собрание";
-	["The Archivum"] = 			"Архив";
-	["The Celestial Planetarium"] = 	"Священный планетарий";
-	["The Shattered Walkway"] = 		"Обвалившаяся галерея";
-	--Ulduar, The Keepers
-	["The Observation Ring"] = 		"Круг Наблюдения";
-	["The Halls of Winter"] = 		"Залы Зимы";
-	["The Clash of Thunder"] = 		"Раскаты Грома";
-	["The Conservatory of Life"] = 		"Оранжерея Жизни";
-	["The Corridors of Ingenuity"] = 	"Коридоры Изобретательности";
-	["Hall of Memories"] = 			"Зал Воспоминаний";
-	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			"ЛМС, модель II";	
-	["The Spark of Imagination"] = 		"Искра Воображения";
-	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		"Провал Безумия";
-	["The Prison of Yogg-Saron"] = 		"Темница Йогг-Сарона";
-	["The Mind's Eye"] = 			"Око разума";
-	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			"Молот Света";	
-	["Oratory of the Damned"] = 		"Молельня Проклятых";
-	["Rampart of Skulls"] = 		"Черепной вал";
-	["Deathbringer's Rise"] = 		"Подъем Смертоносного";
-	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			"Чумодельня";
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Лаборатория алхимических ужасов и забав";
-	["The Crimson Hall"] = 			"Багровый зал";
-	["The Sanctum of Blood"] = 		"Святилище Крови";
-	["The Frostwing Halls"] = 		"Залы Ледокрылых";
-	["The Frost Queen's Lair"] = 		"Логово ледяной королевы"; --??
-	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		"Ледяной Трон";
-	["Frostmourne"] = 			"Ледяная Скорбь";
-};
+--Atlas_SubZoneData_Loc = {
+--	--Black Temple, Start
+--	["Karabor Sewers"] = 			"Канализация Карабора";
+--	["Illidari Training Grounds"] = 	"Тренировочные площадки Иллидари";
+--	["Sanctuary of Shadows"] = 		"Святилище Теней";
+--	["The Refectory"] = 			"Трапезная";
+--	--Black Temple, Basement
+--	["Gorefiend's Vigil"] = 		"Пост Кровожада";
+--	["Halls of Anguish"] = 			"Залы Страданий";
+--	["Shrine of Lost Souls"] = 		"Святилище Потерянных Душ";
+--	--Black Temple, Top
+--	["Den of Mortal Delights"] = 		"Приют Земных Наслаждений";
+--	["Grand Promenade"] = 			"Центральная аллея";
+--	["Chamber of Command"] = 		"Чертог Власти";
+--	["Temple Summit"] = 			"Храмовая вершина";
+--	--Karazhan, Start
+--	["The Gatehouse"] = 			"Вестибюль";
+--	["Livery Stables"] = 			"Стойла";
+--	["The Guardhouse"] = 			"Казармы Стражи";
+--	["The Scullery"] = 			"Судомойня";
+--	["Servants' Quarters"] = 		"Комнаты Слуг";
+--	["The Grand Ballroom"] = 		"Большой бальный зал";
+--	["The Banquet Hall"] = 			"Пиршественный зал";
+--	["The Guest Chambers"] = 		"Гостевые залы";
+--	["The Opera Hall"] = 			"Оперный зал";
+--	["The Broken Stair"] = 			"Разрушенная лестница";
+--	["Master's Terrace"] = 			"Терраса Мастера";
+--	--Karazhan, End
+--	["The Menagerie"] = 			"Галерея";
+--	["Guardian's Library"] = 		"Библиотека Стража";
+--	["The Repository"] = 			"Хранилище";
+--	["The Celestial Watch"] = 		"Обсерватория";
+--	["Gamesman's Hall"] = 			"Игровой зал";
+--	["Medivh's Chambers"] = 		"Покои Медива";
+--	["Master's Terrace"] = 			"Терраса Мастера";
+--	["Netherspace"] = 			"Пустомарь";
+--	--Dire Maul, Entrance
+--	["Broken Commons"] = 			"Разоренные земли";
+--	["Eldreth Row"] = 			"Путь Элдрета";
+--	["The Maul"] = 				"Ристалище";
+--	--Dire Maul, North
+--	["Halls of Destruction"] = 		"Гибельные залы";
+--	["Gordok's Seat"] = 			"Трон Гордока";
+--	--Dire Maul, East
+--	["Warpwood Quarter"] = 			"Квартал Криводревов";
+--	["The Hidden Reach"] = 			"Потайной проход";
+--	["The Conservatory"] = 			"Зимний сад";
+--	["The Shrine of Eldretharr"] = 		"Святилище Элдретарра";
+--	--Dire Maul, West
+--	["Capital Gardens"] = 			"Центральный сад";
+--	["Court of the Highborne"] = 		"Двор Высокорожденных";
+--	["Prison of Immol'thar"] = 		"Тюрьма Бессмер'тера";
+--	["The Athenaeum"] = 			"Читальня";
+--	--Blackrock Spire, Lower
+--	["Hordemar City"] = 			"Ордамар";
+--	["Mok'Doom"] = 				"Мок'Дум";
+--	["Tazz'Alaor"] = 			"Тазз'Алаор";
+--	["Skitterweb Tunnels"] = 		"Паучий лабиринт";
+--	["Halycon's Lair"] = 			"Логово Халикона";
+--	["The Storehouse"] = 			"Кладовая";
+--	["Chamber of Battle"] = 		"Чертог Битвы";
+--	--Blackrock Spire, Upper
+--	["Dragonspire Hall"] = 			"Зал Драконов";
+--	["Hall of Binding"] = 			"Зал Оков";
+--	["The Rookery"] = 			"Гнездовье";
+--	["Hall of Blackhand"] = 		"Зал Чернорука";
+--	["Blackrock Stadium"] = 		"Стадион Черной горы";
+--	["The Furnace"] = 			"Горн";
+--	["Spire Throne"] = 			"Верховный трон";
+--	-- Blackrock Depths
+--	["The Grinding Quarry"] = 		"Шлифовальня";
+--	["The Masonary"] = 			"Каменоломня";
+--	--Scarlet Monastery, Entrance
+--	["The Grand Vestibule"] = 		"Большой зал";
+--	--Scarlet Monastery, Graveyard
+--	["Chamber of Atonement"] = 		"Чертог Искупления";
+--	["Forlorn Cloister"] = 			"Покинутый скит";
+--	["Honor's Tomb"] = 			"Гробница Доблести";
+--	--Scarlet Monastery, Library
+--	["Huntsman's Cloister"] = 		"Скит Охотника";
+--	["Gallery of Treasures"] = 		"Сокровищница";
+--	["Athenaeum"] = 			"Читальня";
+--	--Scarlet Monastery, Armory
+--	["Training Grounds"] = 			"Тренировочные площадки";
+--	["Footman's Armory"] = 			"Оружейная пехоты";
+--	["Crusader's Armory"] = 		"Оружейная Рыцарей";
+--	["Hall of Champions"] = 		"Чертог Защитников";
+--	--Scarlet Monastery, Cathedral
+--	["Chapel Gardens"] = 			"Церковные сады";
+--	["Crusader's Chapel"] = 		"Часовня Ордена";
+--	--Ulduar, The Siege
+--	["Expedition Base Camp"] = 		"Главный лагерь экспедиции";
+--	["Iron Concourse"] = 			"Железный двор";
+--	["Formation Grounds"] = 		"Плац";
+--	["Razorscale's Aerie"] = 		"Гнездо Острокрылой";
+--	["The Colossal Forge"] = 		"Гигантская кузня";
+--	["The Scrapyard"] = 			"Мусорная свалка";
+--	--Ulduar, The Antechamber
+--	["The Antechamber"] = 			"Вестибюль";
+--	["The Assembly of Iron"] = 		"Железное Собрание";
+--	["The Archivum"] = 			"Архив";
+--	["The Celestial Planetarium"] = 	"Священный планетарий";
+--	["The Shattered Walkway"] = 		"Обвалившаяся галерея";
+--	--Ulduar, The Keepers
+--	["The Observation Ring"] = 		"Круг Наблюдения";
+--	["The Halls of Winter"] = 		"Залы Зимы";
+--	["The Clash of Thunder"] = 		"Раскаты Грома";
+--	["The Conservatory of Life"] = 		"Оранжерея Жизни";
+--	["The Corridors of Ingenuity"] = 	"Коридоры Изобретательности";
+--	["Hall of Memories"] = 			"Зал Воспоминаний";
+--	--Ulduar, Spark of Imagination
+--	["The LMS Mark II"] = 			"ЛМС, модель II";	
+--	["The Spark of Imagination"] = 		"Искра Воображения";
+--	--Ulduar, Descent into Madness
+--	["The Descent into Madness"] = 		"Провал Безумия";
+--	["The Prison of Yogg-Saron"] = 		"Темница Йогг-Сарона";
+--	["The Mind's Eye"] = 			"Око разума";
+--	--Icecrown Citadell, Lower
+--	["Light's Hammer"] = 			"Молот Света";	
+--	["Oratory of the Damned"] = 		"Молельня Проклятых";
+--	["Rampart of Skulls"] = 		"Черепной вал";
+--	["Deathbringer's Rise"] = 		"Подъем Смертоносного";
+--	--Icecrown Citadell, Upper
+--	["The Plagueworks"] = 			"Чумодельня";
+--	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Лаборатория алхимических ужасов и забав";
+--	["The Crimson Hall"] = 			"Багровый зал";
+--	["The Sanctum of Blood"] = 		"Святилище Крови";
+--	["The Frostwing Halls"] = 		"Залы Ледокрылых";
+--	["The Frost Queen's Lair"] = 		"Логово ледяной королевы"; --??
+--	--Icecrown Citadell, Frozen Throne
+--	["The Frozen Throne"] = 		"Ледяной Трон";
+--	["Frostmourne"] = 			"Ледяная Скорбь";
+--};
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";

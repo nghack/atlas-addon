@@ -1759,7 +1759,7 @@ AtlasLocale = {
 	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
 	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
 	["Saviana Ragefire"] = "Saviana Flammenschlund";
-	["Baltharus the Warborn"] = "Baltharus der Kriegsgeborene";
+	["Baltharus the Warborn"] = "Baltharus der Kriegsjünger";
 	["General Zarithrian"] = "General Zarithrian";
 
 	--The Violet Hold

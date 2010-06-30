@@ -27,8 +27,9 @@
 --AIM: dan5981
 
 local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
+local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
-local Atlas_DebugMode = false;
+local Atlas_DebugMode = true;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -230,7 +231,140 @@ Atlas_SubZoneData = {
 	["The Frozen Throne"] =			"IcecrownCitadelC";
 	["Frostmourne"] =			"IcecrownCitadelC";
 };
-
+--Links SubZone values with specific instance maps
+Atlas_SubZoneData_Loc = {
+	--Black Temple, Start
+	["Karabor Sewers"] = 			BabbleSubZone["Karabor Sewers"];
+	["Illidari Training Grounds"] = 	BabbleSubZone["Illidari Training Grounds"];
+	["Sanctuary of Shadows"] = 		BabbleSubZone["Sanctuary of Shadows"];
+	["The Refectory"] = 			BabbleSubZone["The Refectory"];
+	--Black Temple, Basement
+	["Gorefiend's Vigil"] = 		BabbleSubZone["Gorefiend's Vigil"];
+	["Halls of Anguish"] = 			BabbleSubZone["Halls of Anguish"];
+	["Shrine of Lost Souls"] = 		BabbleSubZone["Shrine of Lost Souls"];
+	--Black Temple, Top
+	["Den of Mortal Delights"] = 		BabbleSubZone["Den of Mortal Delights"];
+	["Grand Promenade"] = 			BabbleSubZone["Grand Promenade"];
+	["Chamber of Command"] = 		BabbleSubZone["Chamber of Command"];
+	["Temple Summit"] = 			BabbleSubZone["Temple Summit"];
+	--Karazhan, Start
+	["The Gatehouse"] = 			BabbleSubZone["The Gatehouse"];
+	["Livery Stables"] = 			BabbleSubZone["Livery Stables"];
+	["The Guardhouse"] = 			BabbleSubZone["The Guardhouse"];
+	["The Scullery"] = 			BabbleSubZone["The Scullery"];
+	["Servants' Quarters"] = 		BabbleSubZone["Servants' Quarters"];
+	["The Grand Ballroom"] = 		BabbleSubZone["The Grand Ballroom"];
+	["The Banquet Hall"] = 			BabbleSubZone["The Banquet Hall"];
+	["The Guest Chambers"] = 		BabbleSubZone["The Guest Chambers"];
+	["The Opera Hall"] = 			BabbleSubZone["The Opera Hall"];
+	["The Broken Stair"] = 			BabbleSubZone["The Broken Stair"];
+	["Master's Terrace"] = 			BabbleSubZone["Master's Terrace"];
+	--Karazhan, End
+	["The Menagerie"] = 			BabbleSubZone["The Menagerie"];
+	["Guardian's Library"] = 		BabbleSubZone["Guardian's Library"];
+	["The Repository"] = 			BabbleSubZone["The Repository"];
+	["The Celestial Watch"] = 		BabbleSubZone["The Celestial Watch"];
+	["Gamesman's Hall"] = 			BabbleSubZone["Gamesman's Hall"];
+	["Medivh's Chambers"] = 		BabbleSubZone["Medivh's Chambers"];
+	["Master's Terrace"] = 			BabbleSubZone["Master's Terrace"];
+	["Netherspace"] = 			BabbleSubZone["Netherspace"];
+	--Dire Maul, Entrance
+	["Broken Commons"] = 			BabbleSubZone["Broken Commons"];
+	["Eldreth Row"] = 			BabbleSubZone["Eldreth Row"];
+	["The Maul"] = 				BabbleSubZone["The Maul"];
+	--Dire Maul, North
+	["Halls of Destruction"] = 		BabbleSubZone["Halls of Destruction"];
+	["Gordok's Seat"] = 			BabbleSubZone["Gordok's Seat"];
+	--Dire Maul, East
+	["Warpwood Quarter"] = 			BabbleSubZone["Warpwood Quarter"];
+	["The Hidden Reach"] = 			BabbleSubZone["The Hidden Reach"];
+	["The Conservatory"] = 			BabbleSubZone["The Conservatory"];
+	["The Shrine of Eldretharr"] = 		BabbleSubZone["The Shrine of Eldretharr"];
+	--Dire Maul, West
+	["Capital Gardens"] = 			BabbleSubZone["Capital Gardens"];
+	["Court of the Highborne"] = 		BabbleSubZone["Court of the Highborne"];
+	["Prison of Immol'thar"] = 		BabbleSubZone["Prison of Immol'thar"];
+	["The Athenaeum"] = 			BabbleSubZone["The Athenaeum"];
+	--Blackrock Spire, Lower
+	["Hordemar City"] = 			BabbleSubZone["Hordemar City"];
+	["Mok'Doom"] = 				BabbleSubZone["Mok'Doom"];
+	["Tazz'Alaor"] = 			BabbleSubZone["Tazz'Alaor"];
+	["Skitterweb Tunnels"] = 		BabbleSubZone["Skitterweb Tunnels"];
+	["Halycon's Lair"] = 			BabbleSubZone["Halycon's Lair"];
+	["The Storehouse"] = 			BabbleSubZone["The Storehouse"];
+	["Chamber of Battle"] = 		BabbleSubZone["Chamber of Battle"];
+	--Blackrock Spire, Upper
+	["Dragonspire Hall"] = 			BabbleSubZone["Dragonspire Hall"];
+	["Hall of Binding"] = 			BabbleSubZone["Hall of Binding"];
+	["The Rookery"] = 			BabbleSubZone["The Rookery"];
+	["Hall of Blackhand"] = 		BabbleSubZone["Hall of Blackhand"];
+	["Blackrock Stadium"] = 		BabbleSubZone["Blackrock Stadium"];
+	["The Furnace"] = 			BabbleSubZone["The Furnace"];
+	["Spire Throne"] = 			BabbleSubZone["Spire Throne"];
+	-- Blackrock Depths
+	["The Grinding Quarry"] = 		BabbleSubZone["The Grinding Quarry"];
+	["The Masonary"] = 			BabbleSubZone["The Masonary"];
+	--Scarlet Monastery, Entrance
+	["The Grand Vestibule"] = 		BabbleSubZone["The Grand Vestibule"];
+	--Scarlet Monastery, Graveyard
+	["Chamber of Atonement"] = 		BabbleSubZone["Chamber of Atonement"];
+	["Forlorn Cloister"] = 			BabbleSubZone["Forlorn Cloister"];
+	["Honor's Tomb"] = 			BabbleSubZone["Honor's Tomb"];
+	--Scarlet Monastery, Library
+	["Huntsman's Cloister"] = 		BabbleSubZone["Huntsman's Cloister"];
+	["Gallery of Treasures"] = 		BabbleSubZone["Gallery of Treasures"];
+	["Athenaeum"] = 			BabbleSubZone["Athenaeum"];
+	--Scarlet Monastery, Armory
+	["Training Grounds"] = 			BabbleSubZone["Training Grounds"];
+	["Footman's Armory"] = 			BabbleSubZone["Footman's Armory"];
+	["Crusader's Armory"] = 		BabbleSubZone["Crusader's Armory"];
+	["Hall of Champions"] = 		BabbleSubZone["Hall of Champions"];
+	--Scarlet Monastery, Cathedral
+	["Chapel Gardens"] = 			BabbleSubZone["Chapel Gardens"];
+	["Crusader's Chapel"] = 		BabbleSubZone["Crusader's Chapel"];
+	--Ulduar, The Siege
+	["Expedition Base Camp"] = 		BabbleSubZone["Expedition Base Camp"];
+	["Iron Concourse"] = 			BabbleSubZone["Iron Concourse"];
+	["Formation Grounds"] = 		BabbleSubZone["Formation Grounds"];
+	["Razorscale's Aerie"] = 		BabbleSubZone["Razorscale's Aerie"];
+	["The Colossal Forge"] = 		BabbleSubZone["The Colossal Forge"];
+	["The Scrapyard"] = 			BabbleSubZone["The Scrapyard"];
+	--Ulduar, The Antechamber
+	["The Antechamber"] = 			BabbleSubZone["The Antechamber"];
+	["The Assembly of Iron"] = 		BabbleSubZone["The Assembly of Iron"];
+	["The Archivum"] = 			BabbleSubZone["The Archivum"];
+	["The Celestial Planetarium"] = 	BabbleSubZone["The Celestial Planetarium"];
+	["The Shattered Walkway"] = 		BabbleSubZone["The Shattered Walkway"];
+	--Ulduar, The Keepers
+	["The Observation Ring"] = 		BabbleSubZone["The Observation Ring"];
+	["The Halls of Winter"] = 		BabbleSubZone["The Halls of Winter"];
+	["The Clash of Thunder"] = 		BabbleSubZone["The Clash of Thunder"];
+	["The Conservatory of Life"] = 		BabbleSubZone["The Conservatory of Life"];
+	["The Corridors of Ingenuity"] = 	BabbleSubZone["The Corridors of Ingenuity"];
+	["Hall of Memories"] = 			BabbleSubZone["Hall of Memories"];
+	--Ulduar, Spark of Imagination
+	["The LMS Mark II"] = 			BabbleSubZone["The LMS Mark II"];	
+	["The Spark of Imagination"] = 		BabbleSubZone["The Spark of Imagination"];
+	--Ulduar, Descent into Madness
+	["The Descent into Madness"] = 		BabbleSubZone["The Descent into Madness"];
+	["The Prison of Yogg-Saron"] = 		BabbleSubZone["The Prison of Yogg-Saron"];
+	["The Mind's Eye"] = 			BabbleSubZone["The Mind's Eye"];
+	--Icecrown Citadell, Lower
+	["Light's Hammer"] = 			BabbleSubZone["Light's Hammer"];	
+	["Oratory of the Damned"] = 		BabbleSubZone["Oratory of the Damned"];
+	["Rampart of Skulls"] = 		BabbleSubZone["Rampart of Skulls"];
+	["Deathbringer's Rise"] = 		BabbleSubZone["Deathbringer's Rise"];
+	--Icecrown Citadell, Upper
+	["The Plagueworks"] = 			BabbleSubZone["The Plagueworks"];
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	BabbleSubZone["Putricide's Laboratory of Alchemical Horrors and Fun"];
+	["The Crimson Hall"] = 			BabbleSubZone["The Crimson Hall"];
+	["The Sanctum of Blood"] = 		BabbleSubZone["The Sanctum of Blood"];
+	["The Frostwing Halls"] = 		BabbleSubZone["The Frostwing Halls"];
+	["The Frost Queen's Lair"] = 		BabbleSubZone["The Frost Queen's Lair"];
+	--Icecrown Citadell, Frozen Throne
+	["The Frozen Throne"] = 		BabbleSubZone["The Frozen Throne"];
+	["Frostmourne"] = 			BabbleSubZone["Frostmourne"];
+};
 -- Maps to auto-select to from outdoor zones.
 -- Duplicates are commented out.   
 -- Not for localization.

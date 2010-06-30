@@ -108,139 +108,139 @@ ATLAS_DEP_MSG3 = "Les supprimer de votre dossier AddOns.";
 ATLAS_DEP_OK = "Ok";
 
 --Links SubZone values with specific instance maps
-Atlas_SubZoneData_Loc = {
-	--Black Temple, Start
-	["Karabor Sewers"] = 			"L'Apothicarium";
-	["Illidari Training Grounds"] = 	"Terrain d'entraînement Illidari";
-	["Sanctuary of Shadows"] = 		"Sanctuaire des ombres";
-	["The Refectory"] = 			"Le réfectoire";
-	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		"Veillée de Fielsang";
-	["Halls of Anguish"] = 			"Les salles de l'Angoisse";
-	["Shrine of Lost Souls"] = 		"Sanctuaire des âmes perdues";
-	--Black Temple, Top
-	["Den of Mortal Delights"] = 		"Tanière des délices mortels";
-	["Grand Promenade"] = 			"La Grande promenade";
-	["Chamber of Command"] = 		"Chambre de commandement";
-	["Temple Summit"] = 			"Sommet du temple";
-	--Karazhan, Start
-	["The Gatehouse"] = 			"La Conciergerie";
-	["Livery Stables"] = 			"Écuries";
-	["The Guardhouse"] = 			"Le Corps de garde";
-	["The Scullery"] = 			"Les cuisines";
-	["Servants' Quarters"] = 		"Quartiers des serviteurs";
-	["The Grand Ballroom"] = 		"La grande salle de bal";
-	["The Banquet Hall"] = 			"La salle de banquet";
-	["The Guest Chambers"] = 		"Les Appartements des hôtes";
-	["The Opera Hall"] = 			"L'Opéra";
-	["The Broken Stair"] = 			"L'Escalier brisé";
-	["Master's Terrace"] = 			"Terrasse du maître";
-	--Karazhan, End
-	["The Menagerie"] = 			"La Ménagerie";
-	["Guardian's Library"] = 		"Bibliothèque du Gardien";
-	["The Repository"] = 			"Le Dépôt";
-	["The Celestial Watch"] = 		"Le Guet céleste";
-	["Gamesman's Hall"] = 			"Hall du Flambeur";
-	["Medivh's Chambers"] = 		"Appartements de Medivh";
-	["Master's Terrace"] = 			"Terrasse du maître";
-	["Netherspace"] = 			"Néantespace";
-	--Dire Maul, Entrance
-	["Broken Commons"] = 			"Communs en ruine";
-	["Eldreth Row"] = 			"Allée d'Eldreth";
-	["The Maul"] = 				"L'Etripoir";
-	--Dire Maul, North
-	["Halls of Destruction"] = 		"Halls de la Destruction";
-	["Gordok's Seat"] = 			"Trône gordok";
-	--Dire Maul, East
-	["Warpwood Quarter"] = 			"Quartier de Crochebois";
-	["The Hidden Reach"] = 			"La voie cachée";
-	["The Conservatory"] = 			"Le jardin d'hiver";
-	["The Shrine of Eldretharr"] = 		"Le sanctuaire d'Eldretharr";
-	--Dire Maul, West
-	["Capital Gardens"] = 			"Grands jardins";
-	["Court of the Highborne"] = 		"Cour des Bien-nés";
-	["Prison of Immol'thar"] = 		"Prison d'Immol'thar";
-	["The Athenaeum"] = 			"L'Athenaeum";
-	--Blackrock Spire, Lower
-	["Hordemar City"] = 			"Cité d'Hordemar";
-	["Mok'Doom"] = 				"Mok'Deuil";
-	["Tazz'Alaor"] = 			"Tazz'Alaor";
-	["Skitterweb Tunnels"] = 		"Tunnels de Toile-grouillante";
-	["Halycon's Lair"] = 			"Antre d'Halycon";
-	["The Storehouse"] = 			"L'entrepôt";
-	["Chamber of Battle"] = 		"Chambre de guerre";
-	--Blackrock Spire, Upper
-	["Dragonspire Hall"] = 			"Hall de la Flèche des dragons";
-	["Hall of Binding"] = 			"Hall des liens";
-	["The Rookery"] = 			"La colonie";
-	["Hall of Blackhand"] = 		"Hall de Main-noire";
-	["Blackrock Stadium"] = 		"Stade des Rochenoires";
-	["The Furnace"] = 			"La Fournaise";
-	["Spire Throne"] = 			"Trône du Pic";
-	-- Blackrock Depths
-	["The Grinding Quarry"] = 		"La Carrière grinçante";
-	["The Masonary"] = 			"La Maçonnerie";
-	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] = 		"Grand Vestibule";
-	--Scarlet Monastery, Graveyard
-	["Chamber of Atonement"] = 		"Chambre de l'expiation";
-	["Forlorn Cloister"] = 			"Cloître solitaire";
-	["Honor's Tomb"] = 			"Tombe de l'honneur";
-	--Scarlet Monastery, Library
-	["Huntsman's Cloister"] = 		"Cloître du veneur";
-	["Gallery of Treasures"] = 		"Galerie des trésors";
-	["Athenaeum"] = 			"Athenaeum";
-	--Scarlet Monastery, Armory
-	["Training Grounds"] = 			"Terrain d'entraînement Illidari";
-	["Footman's Armory"] = 			"Armurerie des fantassins";
-	["Crusader's Armory"] = 		"Armurerie des Croisés";
-	["Hall of Champions"] = 		"Hall des Champions";
-	--Scarlet Monastery, Cathedral
-	["Chapel Gardens"] = 			"Jardins de la chapelle";
-	["Crusader's Chapel"] = 		"Chapelle des Croisés";
-	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		"Expedition Base Camp"; -- Translation required
-	["Iron Concourse"] = 			"Iron Concourse"; -- Translation required
-	["Formation Grounds"] = 		"Formation Grounds"; -- Translation required
-	["Razorscale's Aerie"] = 		"Razorscale's Aerie"; -- Translation required
-	["The Colossal Forge"] = 		"The Colossal Forge"; -- Translation required
-	["The Scrapyard"] = 			"The Scrapyard"; -- Translation required
-	--Ulduar, The Antechamber
-	["The Antechamber"] = 			"The Antechamber"; -- Translation required
-	["The Assembly of Iron"] = 		"The Assembly of Iron"; -- Translation required
-	["The Archivum"] = 			"The Archivum"; -- Translation required
-	["The Celestial Planetarium"] = 	"The Celestial Planetarium"; -- Translation required
-	["The Shattered Walkway"] = 		"The Shattered Walkway"; -- Translation required
-	--Ulduar, The Keepers
-	["The Observation Ring"] = 		"The Observation Ring"; -- Translation required
-	["The Halls of Winter"] = 		"The Halls of Winter"; -- Translation required
-	["The Clash of Thunder"] = 		"The Clash of Thunder"; -- Translation required
-	["The Conservatory of Life"] = 		"The Conservatory of Life"; -- Translation required
-	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity"; -- Translation required
-	["Hall of Memories"] = 			"Hall of Memories"; -- Translation required
-	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			"The LMS Mark II";	 -- Translation required
-	["The Spark of Imagination"] = 		"The Spark of Imagination"; -- Translation required
-	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		"The Descent into Madness"; -- Translation required
-	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron"; -- Translation required
-	["The Mind's Eye"] = 			"The Mind's Eye"; -- Translation required
-	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			"Light's Hammer";	 -- Translation required
-	["Oratory of the Damned"] = 		"Oratory of the Damned"; -- Translation required
-	["Rampart of Skulls"] = 		"Rampart of Skulls"; -- Translation required
-	["Deathbringer's Rise"] = 		"Deathbringer's Rise"; -- Translation required
-	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			"The Plagueworks"; -- Translation required
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun"; -- Translation required
-	["The Crimson Hall"] = 			"The Crimson Hall"; -- Translation required
-	["The Sanctum of Blood"] = 		"The Sanctum of Blood"; -- Translation required
-	["The Frostwing Halls"] = 		"The Frostwing Halls"; -- Translation required
-	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair"; -- Translation required
-	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		"The Frozen Throne"; -- Translation required
-	["Frostmourne"] = 			"Frostmourne"; -- Translation required
-};
+--Atlas_SubZoneData_Loc = {
+--	--Black Temple, Start
+--	["Karabor Sewers"] = 			"L'Apothicarium";
+--	["Illidari Training Grounds"] = 	"Terrain d'entraînement Illidari";
+--	["Sanctuary of Shadows"] = 		"Sanctuaire des ombres";
+--	["The Refectory"] = 			"Le réfectoire";
+--	--Black Temple, Basement
+--	["Gorefiend's Vigil"] = 		"Veillée de Fielsang";
+--	["Halls of Anguish"] = 			"Les salles de l'Angoisse";
+--	["Shrine of Lost Souls"] = 		"Sanctuaire des âmes perdues";
+--	--Black Temple, Top
+--	["Den of Mortal Delights"] = 		"Tanière des délices mortels";
+--	["Grand Promenade"] = 			"La Grande promenade";
+--	["Chamber of Command"] = 		"Chambre de commandement";
+--	["Temple Summit"] = 			"Sommet du temple";
+--	--Karazhan, Start
+--	["The Gatehouse"] = 			"La Conciergerie";
+--	["Livery Stables"] = 			"Écuries";
+--	["The Guardhouse"] = 			"Le Corps de garde";
+--	["The Scullery"] = 			"Les cuisines";
+--	["Servants' Quarters"] = 		"Quartiers des serviteurs";
+--	["The Grand Ballroom"] = 		"La grande salle de bal";
+--	["The Banquet Hall"] = 			"La salle de banquet";
+--	["The Guest Chambers"] = 		"Les Appartements des hôtes";
+--	["The Opera Hall"] = 			"L'Opéra";
+--	["The Broken Stair"] = 			"L'Escalier brisé";
+--	["Master's Terrace"] = 			"Terrasse du maître";
+--	--Karazhan, End
+--	["The Menagerie"] = 			"La Ménagerie";
+--	["Guardian's Library"] = 		"Bibliothèque du Gardien";
+--	["The Repository"] = 			"Le Dépôt";
+--	["The Celestial Watch"] = 		"Le Guet céleste";
+--	["Gamesman's Hall"] = 			"Hall du Flambeur";
+--	["Medivh's Chambers"] = 		"Appartements de Medivh";
+--	["Master's Terrace"] = 			"Terrasse du maître";
+--	["Netherspace"] = 			"Néantespace";
+--	--Dire Maul, Entrance
+--	["Broken Commons"] = 			"Communs en ruine";
+--	["Eldreth Row"] = 			"Allée d'Eldreth";
+--	["The Maul"] = 				"L'Etripoir";
+--	--Dire Maul, North
+--	["Halls of Destruction"] = 		"Halls de la Destruction";
+--	["Gordok's Seat"] = 			"Trône gordok";
+--	--Dire Maul, East
+--	["Warpwood Quarter"] = 			"Quartier de Crochebois";
+--	["The Hidden Reach"] = 			"La voie cachée";
+--	["The Conservatory"] = 			"Le jardin d'hiver";
+--	["The Shrine of Eldretharr"] = 		"Le sanctuaire d'Eldretharr";
+--	--Dire Maul, West
+--	["Capital Gardens"] = 			"Grands jardins";
+--	["Court of the Highborne"] = 		"Cour des Bien-nés";
+--	["Prison of Immol'thar"] = 		"Prison d'Immol'thar";
+--	["The Athenaeum"] = 			"L'Athenaeum";
+--	--Blackrock Spire, Lower
+--	["Hordemar City"] = 			"Cité d'Hordemar";
+--	["Mok'Doom"] = 				"Mok'Deuil";
+--	["Tazz'Alaor"] = 			"Tazz'Alaor";
+--	["Skitterweb Tunnels"] = 		"Tunnels de Toile-grouillante";
+--	["Halycon's Lair"] = 			"Antre d'Halycon";
+--	["The Storehouse"] = 			"L'entrepôt";
+--	["Chamber of Battle"] = 		"Chambre de guerre";
+--	--Blackrock Spire, Upper
+--	["Dragonspire Hall"] = 			"Hall de la Flèche des dragons";
+--	["Hall of Binding"] = 			"Hall des liens";
+--	["The Rookery"] = 			"La colonie";
+--	["Hall of Blackhand"] = 		"Hall de Main-noire";
+--	["Blackrock Stadium"] = 		"Stade des Rochenoires";
+--	["The Furnace"] = 			"La Fournaise";
+--	["Spire Throne"] = 			"Trône du Pic";
+--	-- Blackrock Depths
+--	["The Grinding Quarry"] = 		"La Carrière grinçante";
+--	["The Masonary"] = 			"La Maçonnerie";
+--	--Scarlet Monastery, Entrance
+--	["The Grand Vestibule"] = 		"Grand Vestibule";
+--	--Scarlet Monastery, Graveyard
+--	["Chamber of Atonement"] = 		"Chambre de l'expiation";
+--	["Forlorn Cloister"] = 			"Cloître solitaire";
+--	["Honor's Tomb"] = 			"Tombe de l'honneur";
+--	--Scarlet Monastery, Library
+--	["Huntsman's Cloister"] = 		"Cloître du veneur";
+--	["Gallery of Treasures"] = 		"Galerie des trésors";
+--	["Athenaeum"] = 			"Athenaeum";
+--	--Scarlet Monastery, Armory
+--	["Training Grounds"] = 			"Terrain d'entraînement Illidari";
+--	["Footman's Armory"] = 			"Armurerie des fantassins";
+--	["Crusader's Armory"] = 		"Armurerie des Croisés";
+--	["Hall of Champions"] = 		"Hall des Champions";
+--	--Scarlet Monastery, Cathedral
+--	["Chapel Gardens"] = 			"Jardins de la chapelle";
+--	["Crusader's Chapel"] = 		"Chapelle des Croisés";
+--	--Ulduar, The Siege
+--	["Expedition Base Camp"] = 		"Expedition Base Camp"; -- Translation required
+--	["Iron Concourse"] = 			"Iron Concourse"; -- Translation required
+--	["Formation Grounds"] = 		"Formation Grounds"; -- Translation required
+--	["Razorscale's Aerie"] = 		"Razorscale's Aerie"; -- Translation required
+--	["The Colossal Forge"] = 		"The Colossal Forge"; -- Translation required
+--	["The Scrapyard"] = 			"The Scrapyard"; -- Translation required
+--	--Ulduar, The Antechamber
+--	["The Antechamber"] = 			"The Antechamber"; -- Translation required
+--	["The Assembly of Iron"] = 		"The Assembly of Iron"; -- Translation required
+--	["The Archivum"] = 			"The Archivum"; -- Translation required
+--	["The Celestial Planetarium"] = 	"The Celestial Planetarium"; -- Translation required
+--	["The Shattered Walkway"] = 		"The Shattered Walkway"; -- Translation required
+--	--Ulduar, The Keepers
+--	["The Observation Ring"] = 		"The Observation Ring"; -- Translation required
+--	["The Halls of Winter"] = 		"The Halls of Winter"; -- Translation required
+--	["The Clash of Thunder"] = 		"The Clash of Thunder"; -- Translation required
+--	["The Conservatory of Life"] = 		"The Conservatory of Life"; -- Translation required
+--	["The Corridors of Ingenuity"] = 	"The Corridors of Ingenuity"; -- Translation required
+--	["Hall of Memories"] = 			"Hall of Memories"; -- Translation required
+--	--Ulduar, Spark of Imagination
+--	["The LMS Mark II"] = 			"The LMS Mark II";	 -- Translation required
+--	["The Spark of Imagination"] = 		"The Spark of Imagination"; -- Translation required
+--	--Ulduar, Descent into Madness
+--	["The Descent into Madness"] = 		"The Descent into Madness"; -- Translation required
+--	["The Prison of Yogg-Saron"] = 		"The Prison of Yogg-Saron"; -- Translation required
+--	["The Mind's Eye"] = 			"The Mind's Eye"; -- Translation required
+--	--Icecrown Citadell, Lower
+--	["Light's Hammer"] = 			"Light's Hammer";	 -- Translation required
+--	["Oratory of the Damned"] = 		"Oratory of the Damned"; -- Translation required
+--	["Rampart of Skulls"] = 		"Rampart of Skulls"; -- Translation required
+--	["Deathbringer's Rise"] = 		"Deathbringer's Rise"; -- Translation required
+--	--Icecrown Citadell, Upper
+--	["The Plagueworks"] = 			"The Plagueworks"; -- Translation required
+--	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	"Putricide's Laboratory of Alchemical Horrors and Fun"; -- Translation required
+--	["The Crimson Hall"] = 			"The Crimson Hall"; -- Translation required
+--	["The Sanctum of Blood"] = 		"The Sanctum of Blood"; -- Translation required
+--	["The Frostwing Halls"] = 		"The Frostwing Halls"; -- Translation required
+--	["The Frost Queen's Lair"] = 		"The Frost Queen's Lair"; -- Translation required
+--	--Icecrown Citadell, Frozen Throne
+--	["The Frozen Throne"] = 		"The Frozen Throne"; -- Translation required
+--	["Frostmourne"] = 			"Frostmourne"; -- Translation required
+--};
 
 AtlasZoneSubstitutions = {
 	["Le temple d'Atal'Hakkar"] = "Le temple d'Atal'Hakkar";

@@ -29,7 +29,7 @@
 local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
-local Atlas_DebugMode = true;
+local Atlas_DebugMode = false;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -638,7 +638,7 @@ local function Process_Deprecated()
 		{ "AtlasWorld", "2.4.3" },
 		{ "AtlasQuest", "4.4.2" }, --updated June 24, 2010
 		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
-		{ "AtlasLoot", "5.11.02" }, --updated June 21, 2010
+		{ "AtlasLoot", "5.11.03" }, --updated July 1, 2010
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

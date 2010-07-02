@@ -1611,17 +1611,17 @@ AtlasLocale = {
 
 	--The Obsidian Sanctum
 	["Black Dragonflight Chamber"] = "黑龍軍團密室";
-	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安";
+	["Sartharion <The Onyx Guardian>"] = "撒爾薩里安 <黑曜守護者>";
 	["Tenebron"] = "坦納伯朗";
 	["Shadron"] = "夏德朗";
 	["Vesperon"] = "維斯佩朗";
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "紅龍軍團密室";
-	["Halion <The Twilight Destroyer>"] = "暮光毀滅者海萊恩";
-	["Saviana Ragefire"] = "莎維納‧怒火";
-	["Baltharus the Warborn"] = "「戰爭降臨」巴薩勒司";
-	["General Zarithrian"] = "札里瑞安將軍";
+	["Halion <The Twilight Destroyer>"] = "海萊恩 <暮光毀滅者>";
+	["Saviana Ragefire"] = "薩薇安娜‧怒焰";
+	["Baltharus the Warborn"] = "『戰爭之子』巴爾薩魯斯";
+	["General Zarithrian"] = "扎里斯利安將軍";
 
 	--The Violet Hold
 	["Erekem"] = "伊銳坎";

@@ -139,7 +139,6 @@ AtlasLocale = {
 	["Child"] = "Enfant";
 	["Connection"] = "Connexion";
 	["DS2"] = "Set D2";
-	["East"] = "Est";
 	["Elevator"] = "Ascenseur";
 	["End"] = "Fin";
 	["Engineer"] = "Ingénieur";
@@ -168,7 +167,6 @@ AtlasLocale = {
 	["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
 	["Monk"] = "Moine";
 	["Moonwell"] = "Puits de lune";
-	["North"] = "Nord";
 	["Optional"] = "Optionel";
 	["Orange"] = "Orange";
 	["Outside"] = "Extérieur";
@@ -212,7 +210,6 @@ AtlasLocale = {
 	["Wave 10"] = "Vague 10";
 	["Wave 12"] = "Vague 12";
 	["Wave 18"] = "Vague 18";
-	["West"] = "Ouest";
 
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet : l'Ancien royaume";
@@ -220,7 +217,7 @@ AtlasLocale = {
 	["Armory"] = "Armurerie";
 	["Auchenai Crypts"] = "Cryptes Auchenaï"; ["AC"] = "AC";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "Azjol-Nérub"; ["AN"] = "AN";
+	["Azjol-Nerub"] = "Azjol-Nérub";
 	["Black Temple"] = "Temple noir"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "Profondeurs de Brassenoire"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "Profondeurs de Rochenoire"; ["BRD"] = "BRD";
@@ -267,7 +264,6 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Labyrinthe des ombres"; ["SL"] = "SL/Laby";
 	["Shadowfang Keep"] = "Donjon d'Ombrecroc"; ["SFK"] = "SFK";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-	["Stratholme Past"] = "L'Épuration de Stratholme";
 	["Sunken Temple"] = "Le temple d'Atal'Hakkar"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "Plateau du Puits de soleil"; ["SuP"] = "SP";
 	["Tempest Keep"] = "Donjon de la Tempête"; ["TK"] = "TK";
@@ -321,7 +317,7 @@ AtlasLocale = {
 	["OS"] = "OS"; -- Le sanctum Obsidien
 	["PoS"] = "FdS"; ["FH2"] = "FH2"; -- Fosse de Saron
 	["RS"] = "SR"; -- Le sanctum Rubis
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
+	["CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
 	["TEoE"] = "Maly"; -- L'Œil de l'éternité	
 	["UK, Keep"] = "UK, Keep"; -- Donjon d'Utgarde
 	["Uldu"] = "Uldu"; -- Ulduar
@@ -329,11 +325,6 @@ AtlasLocale = {
 	["VH"] = "VH"; -- Le fort Pourpre
 	["VoA"] = "Archa"; -- Caveau d'Archavon
 
-	--Continents
-	["Eastern Kingdoms"] = "Royaumes de l'Est";
-	["Kalimdor"] = "Kalimdor";
-	["Northrend"] = "Norfendre";
-	["Outland"] = "Outreterre";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Orneval";

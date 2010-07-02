@@ -141,7 +141,6 @@ AtlasLocale = {
 	["Child"] = "幼年";
 	["Connection"] = "通道";
 	["DS2"] = "副本套裝2";
-	["East"] = "東方";
 	["Elevator"] = "電梯";
 	["End"] = "結束";
 	["Engineer"] = "工程師";
@@ -170,7 +169,6 @@ AtlasLocale = {
 	["Midsummer Festival"] = "仲夏節慶";
 	["Monk"] = "僧侶";
 	["Moonwell"] = "月井";
-	["North"] = "北方";
 	["Optional"] = "可選擇";
 	["Orange"] = "橙";
 	["Outside"] = "戶外";
@@ -214,7 +212,6 @@ AtlasLocale = {
 	["Wave 10"] = "第 10 波";
 	["Wave 12"] = "第 12 波";
 	["Wave 18"] = "第 18 波";	
-	["West"] = "西方";
 
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "安卡罕特: 古王國";
@@ -222,7 +219,7 @@ AtlasLocale = {
 	["Armory"] = "軍械庫"; 
 	["Auchenai Crypts"] = "奧奇奈地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奧齊頓"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "阿茲歐-奈幽"; ["AN"] = "AN/奈幽";
+	["Azjol-Nerub"] = "阿茲歐-奈幽";
 	["Black Temple"] = "黑暗神廟"; ["BT"] = "BT/黑廟";
 	["Blackfathom Deeps"] = "黑暗深淵"; ["BFD"] = "BFD/黑淵";
 	["Blackrock Depths"] = "黑石深淵"; ["BRD"] = "BRD/黑石淵";
@@ -269,7 +266,6 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "暗影迷宮"; ["SL"] = "SL/迷宮";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK/影牙";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat/斯坦";
-	["Stratholme Past"] = "斯坦索姆廢墟";
 	["Sunken Temple"] = "沉沒的神廟"; ["ST"] = "ST/神廟";
 	["Sunwell Plateau"] = "太陽之井高地"; ["SuP"] = "SP/太陽井";
 	["Tempest Keep"] = "風暴要塞"; ["TK"] = "TK";
@@ -323,19 +319,13 @@ AtlasLocale = {
 	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron -- 薩倫之淵
 	["RS"] = "RS/晶紅"; -- The Ruby Sanctum
-	["Strat, CoT-Strat"] = "CoT斯坦"; -- Culling of Stratholme -- 斯坦索姆的抉擇
+	["CoT-Strat"] = "CoT斯坦"; -- Culling of Stratholme -- 斯坦索姆的抉擇
 	["TEoE"] = "TEoE/永恆"; -- The Eye of Eternity--永恆之眼
 	["UK, Keep"] = "UK/俄塞"; -- Utgarde Keep -- 俄特加德要塞
 	["Uldu"] = "Uldu/奧杜亞"; -- Ulduar-- 奧杜亞
 	["UP, Pinn"] = "UP/俄巔"; -- Utgarde Pinnacl -- 俄特加德之巔
 	["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
-
-	--Continents
-	["Eastern Kingdoms"] = "東部王國";
-	["Kalimdor"] = "卡林多";
-	["Northrend"] = "北裂境";
-	["Outland"] = "外域";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "梣谷";

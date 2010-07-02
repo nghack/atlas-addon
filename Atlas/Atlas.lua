@@ -26,8 +26,8 @@
 --Email: loglow@gmail.com
 --AIM: dan5981
 
-local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
+local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 
 local Atlas_DebugMode = false;
 local function debug(info)
@@ -379,42 +379,25 @@ Atlas_OutdoorZoneToAtlas = {
 	["Searing Gorge"] =			"BlackrockSpireEnt";
 	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
 	["Tanaris"] =				"CoTEnt";
-	--["Tanaris"] =				"ZulFarrak";
 	["Terokkar Forest"] =			"AuchindounEnt";
 	["The Barrens"] =			"WailingCavernsEnt";
-	--["The Barrens"] =			"RazorfenKraul";
-	--["The Barrens"] =			"RazorfenDowns";
 	["Tirisfal Glades"] =			"SMEnt";
 	["Westfall"] =				"TheDeadminesEnt";
 	["Zangarmarsh"] =			"CoilfangReservoirEnt";
 	["Orgrimmar"] =				"RagefireChasm";
 	["Dustwallow Marsh"] =			"OnyxiasLair";
 	["Silithus"] =				"TheTempleofAhnQiraj";
-	--["Silithus"] =			"TheRuinsofAhnQiraj";
 	["Western Plaguelands"] =		"Scholomance";
 	["Silverpine Forest"] =			"ShadowfangKeep";
 	["Eastern Plaguelands"] =		"Stratholme";
 	["Stormwind City"] =			"TheStockade";
 	["Stranglethorn Vale"] =		"ZulGurub";
 	["Ghostlands"] =			"ZulAman";
-	["Isle of Quel'Danas"] =		"MagistersTerrace";
-	--["Isle of Quel'Danas"] =		"SunwellPlateau";
-	["Hellfire Peninsula"] =		"HCHellfireRamparts";
-	--["Hellfire Peninsula"] =		"HCBloodFurnace";
-	--["Hellfire Peninsula"] =		"HCTheShatteredHalls";
-	--["Hellfire Peninsula"] =		"HCMagtheridonsLair";
-	--["Zangarmarsh"] =			"CFRTheSlavePens";
-	--["Zangarmarsh"] =			"CFRTheUnderbog";
-	--["Zangarmarsh"] =			"CFRTheSteamvault";
-	--["Zangarmarsh"] =			"CFRSerpentshrineCavern";
-	["Netherstorm"] =			"TempestKeepMechanar";
-	--["Netherstorm"] =			"TempestKeepBotanica";
-	--["Netherstorm"] =			"TempestKeepArcatraz";
-	--["Netherstorm"] =			"TempestKeepTheEye";
+	["Isle of Quel'Danas"] =		"SunwellPlateau";
+	["Hellfire Peninsula"] =		"HCMagtheridonsLair";
+	["Netherstorm"] =			"TempestKeepTheEye";
 	["Blade's Edge Mountains"] =		"GruulsLair";
 	["Shadowmoon Valley"] =			"BlackTempleStart";
-	--["Shadowmoon Valley"] =		"BlackTempleBasement";
-	--["Shadowmoon Valley"] =		"BlackTempleTop";
 	["Dalaran"] =				"VioletHold";
 	["Dragonblight"] =			"RubySanctum";
 	["Borean Tundra"] =			"TheEyeOfEternity";
@@ -624,7 +607,7 @@ local function Process_Deprecated()
 	--first value is the name
 	--second value is the version
 	--nil version means NO version will EVER be loaded!
-	--non-nil version mean ONLY IT OR NEWER versions will be laoded!
+	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
 		{ "Atlas_Entrances", nil }, --entrances were rolled into core addon
 		{ "Atlas_FlightPaths", nil }, --renamed to Atlas_Transportation

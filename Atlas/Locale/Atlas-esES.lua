@@ -141,7 +141,6 @@ AtlasLocale = {
 	["Child"] = "Niño";
 	["Connection"] = "Conexión";
 	["DS2"] = "DS2";
-	["East"] = "Este";
 	["Elevator"] = "Ascensor";
 	["End"] = "Fin";
 	["Engineer"] = "Ingeniero";	
@@ -170,7 +169,6 @@ AtlasLocale = {
 	["Midsummer Festival"] = "Festival del solsticio de verano";
 	["Monk"] = "Monje";	
 	["Moonwell"] = "Claro de la luna";
-	["North"] = "Norte";
 	["Optional"] = "Opcional";
 	["Orange"] = "Naranja";
 	["Outside"] = "Fuera";
@@ -214,7 +212,6 @@ AtlasLocale = {
 	["Wave 10"] = "Ola 10";
 	["Wave 12"] = "Ola 12";
 	["Wave 18"] = "Ola 18";
-	["West"] = "Oeste";
 
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino";
@@ -222,7 +219,7 @@ AtlasLocale = {
 	["Armory"] = "Armería"; ["Armory"] = "Armería";	
 	["Auchenai Crypts"] = "Criptas Auchenai"; ["AC"] = "CA";
 	["Auchindoun"] = "Auchindoun"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "Azjol-Nerub"; ["AN"] = "AN";
+	["Azjol-Nerub"] = "Azjol-Nerub";
 	["Black Temple"] = "Templo Oscuro"; ["BT"] = "TO";	
 	["Blackfathom Deeps"] = "Cavernas de Brazanegra"; ["BFD"] = "CB";
 	["Blackrock Depths"] = "Profundidades de Roca Negra"; ["BRD"] = "PRN";
@@ -269,7 +266,6 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Laberinto de las sombras"; ["SL"] = "LS";
 	["Shadowfang Keep"] = "Castillo de Colmillo Oscuro"; ["SFK"] = "CCO";
 	["Stratholme"] = "Stratholme"; ["Strat"] = "Strat";
-	["Stratholme Past"] = "La Matanza de Stratholme";
 	["Sunken Temple"] = "Templo de Atal'Hakkar"; ["ST"] = "TA";
 	["Sunwell Plateau"] = "Meseta del pozo del Sol"; ["SuP"] = "MPS";
 	["Tempest Keep"] = "El Castillo de la Tempestad"; ["TK"] = "CT";
@@ -323,19 +319,13 @@ AtlasLocale = {
 	["OS"] = "SO"; -- The Obsidian Sanctum
 	["PoS"] = "FdS"; ["FH2"] = "CR2"; -- Pit of Saron
 	["RS"] = "SR"; -- The Ruby Sanctum
-	["Strat, CoT-Strat"] = "Strat, CdT-Strat"; -- Culling of Stratholme
+	["CoT-Strat"] = "Strat, CdT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "OE"; -- The Eye of Eternity
 	["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
 	["Uldu"] = "Uldu"; -- Ulduar
 	["UP, Pinn"] = "PU, Pinaculo"; -- Utgarde Pinnacl
 	["VH"] = "BV"; -- The Violet Hold
 	["VoA"] = "CdA"; -- Vault of Archavon
-
-	--Continents
-	["Eastern Kingdoms"] = "Las Tierras del Este";
-	["Kalimdor"] = "Kalimdor";
-	["Northrend"] = "Rasganorte";
-	["Outland"] = "Terrallende";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Vallefresno";

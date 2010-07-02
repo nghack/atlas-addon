@@ -1216,8 +1216,13 @@ function Atlas_AutoSelect()
 	local outdoorzone = Atlas_CheckOutdoorZoneData();
 	debug("Using auto-select to open the best map.");
 	
+	-- Check if the current zone is defined in AssocDefaults table
+	-- If yes, means there could be multiple maps for this zone
+	-- And we will choose a proper one to be the default one.
 	if ( assoc_default ) then
 		debug("You're in a zone where SubZone data is relevant.");
+		-- Check if current subzone is defined in the SubZoneData table
+		-- If yes, means current subzone will be map to a specific map
 		if ( subzonedata ) then
 			debug("There's data for your current SubZone.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do
@@ -1231,6 +1236,8 @@ function Atlas_AutoSelect()
 					end
 				end
 			end
+		-- Check if current subzone is defined in the SubZoneData table
+		-- If no, then we will use the defined map for the major zone
 		else
 			debug("No applicable SubZone data exists.");
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then

@@ -144,7 +144,6 @@ AtlasLocale = {
 	["Child"] = "幼年";
 	["Connection"] = "通道";
 	["DS2"] = "地下城套装2";
-	["East"] = "东区";
 	["Elevator"] = "升降梯";
 	["End"] = "尾部";
 	["Engineer"] = "工程师";
@@ -173,7 +172,6 @@ AtlasLocale = {
 	["Midsummer Festival"] = "仲夏节庆典";
 	["Monk"] = "僧侣";
 	["Moonwell"] = "月亮井";
-	["North"] = "北区";
 	["Optional"] = "可跳过";
 	["Orange"] = "橙色";
 	["Outside"] = "室外";
@@ -217,7 +215,6 @@ AtlasLocale = {
 	["Wave 10"] = "第10波";
 	["Wave 12"] = "第12波";
 	["Wave 18"] = "第18波";
-	["West"] = "西区";
 
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "安卡赫特：古代王国";
@@ -225,7 +222,7 @@ AtlasLocale = {
 	["Armory"] = "军械库";
 	["Auchenai Crypts"] = "奥金尼地穴"; ["AC"] = "AC";
 	["Auchindoun"] = "奥金顿"; ["Auch"] = "Auch";
-	["Azjol-Nerub"] = "艾卓-尼鲁布"; ["AN"] = "AN";
+	["Azjol-Nerub"] = "艾卓-尼鲁布";
 	["Black Temple"] = "黑暗神殿"; ["BT"] = "BT";
 	["Blackfathom Deeps"] = "黑暗深渊"; ["BFD"] = "BFD";
 	["Blackrock Depths"] = "黑石深渊"; ["BRD"] = "BRD";
@@ -272,7 +269,6 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "暗影迷宫"; ["SL"] = "SL";
 	["Shadowfang Keep"] = "影牙城堡"; ["SFK"] = "SFK";
 	["Stratholme"] = "斯坦索姆"; ["Strat"] = "Strat";
-	["Stratholme Past"] = "旧斯坦索姆";
 	["Sunken Temple"] = "沉没的神庙"; ["ST"] = "ST";
 	["Sunwell Plateau"] = "太阳之井高地"; ["SuP"] = "SP";
 	["Tempest Keep"] = "风暴要塞"; ["TK"] = "TK";
@@ -326,19 +322,13 @@ AtlasLocale = {
 	["OS"] = "OS"; -- The Obsidian Sanctum
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
 	["RS"] = "RS"; -- The Ruby Sanctum
-	["Strat, CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
+	["CoT-Strat"] = "Strat, CoT-Strat"; -- Culling of Stratholme
 	["TEoE"] = "TEoE"; -- The Eye of Eternity
 	["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
 	["Uldu"] = "Uldu"; -- Ulduar
 	["UP, Pinn"] = "UP, Pinn"; -- Utgarde Pinnacle
 	["VH"] = "VH"; -- The Violet Hold
 	["VoA"] = "VoA"; -- Vault of Archavon
-
-	--Continents
-	["Eastern Kingdoms"] = "东部王国";
-	["Kalimdor"] = "卡利姆多";
-	["Northrend"] = "诺森德";
-	["Outland"] = "外域";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "灰谷";

@@ -139,7 +139,6 @@ AtlasLocale = {
 	["Child"] = "Ребенок";
 	["Connection"] = "Связан";
 	["DS2"] = "DS2";
-	["East"] = "Восток";
 	["Elevator"] = "Лифт";
 	["End"] = "Конец";
 	["Engineer"] = "Инженер";
@@ -168,7 +167,6 @@ AtlasLocale = {
 	["Midsummer Festival"] = "Огненный солнцеворот";
 	["Monk"] = "Монах";
 	["Moonwell"] = "Лунный колодец";
-	["North"] = "Север";
 	["Optional"] = "Необяз.";
 	["Orange"] = "Оранжевый";
 	["Outside"] = "Снаружи";
@@ -212,7 +210,6 @@ AtlasLocale = {
 	["Wave 10"] = "10-ая волна";
 	["Wave 12"] = "12-ая волна";
 	["Wave 18"] = "18-ая волна";
-	["West"] = "Запад";
 
 	--Instance names and acronyms
 	["Ahn'kahet: The Old Kingdom"] = "Ан'кахет: Старое Королевство";
@@ -220,7 +217,7 @@ AtlasLocale = {
 	["Armory"] = "Оружейная";
 	["Auchenai Crypts"] = "Аукенайские гробницы"; ["AC"] = "АГ";
 	["Auchindoun"] = "Аукиндон"; ["Auch"] = "Аук";
-	["Azjol-Nerub"] = "Азжол-Неруб"; ["AN"] = "АН";
+	["Azjol-Nerub"] = "Азжол-Неруб";
 	["Black Temple"] = "Черный Храм"; ["BT"] = "ЧХ";
 	["Blackfathom Deeps"] = "Непроглядная Пучина"; ["BFD"] = "НП";
 	["Blackrock Depths"] = "Глубины Черной горы"; ["BRD"] = "ГЧГ";
@@ -267,7 +264,6 @@ AtlasLocale = {
 	["Shadow Labyrinth"] = "Темный Лабиринт"; ["SL"] = "ТЛ";
 	["Shadowfang Keep"] = "Крепость Темного Клыка"; ["SFK"] = "КТК";
 	["Stratholme"] = "Стратхольм"; ["Strat"] = "Страт";
-	["Stratholme Past"] = "Очищение Стратхольма";
 	["Sunken Temple"] = "Затонувший храм"; ["ST"] = "ЗХ";
 	["Sunwell Plateau"] = "Солнечный Колодец"; ["SuP"] = "СК";
 	["Tempest Keep"] = "Крепость Бурь"; ["TK"] = "КБ";
@@ -321,7 +317,7 @@ AtlasLocale = {
 	["OS"] = "ОС"; -- Обсидиановое святилище
 	["PoS"] = "Яма"; ["FH2"] = "ЛЗ2"; -- Яма Сарона
 	["RS"] = "PC"; -- Рубиновое святилище
-	["Strat, CoT-Strat"] = "Страт, ПВ-Страт"; -- Очищение Стратхольма
+	["CoT-Strat"] = "Страт, ПВ-Страт"; -- Очищение Стратхольма
 	["TEoE"] = "ОВ"; -- Око Вечности
 	["UK, Keep"] = "УК, Крепость"; -- Крепость Утгард
 	["Uldu"] = "Ульда"; -- Ульдуар
@@ -329,11 +325,6 @@ AtlasLocale = {
 	["VH"] = "АМК"; -- Аметистовая крепость
 	["VoA"] = "Склеп"; -- Склеп Аркавона
 
-	--Continents
-	["Eastern Kingdoms"] = "Восточные королевства";
-	["Kalimdor"] = "Калимдор";
-	["Northrend"] = "Нордскол";
-	["Outland"] = "Запределье";
 
 	--Outdoor zones, Locations
 	["Ashenvale"] = "Ясеневый лес";

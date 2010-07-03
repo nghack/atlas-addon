@@ -21,6 +21,9 @@
 
 --]]
 
+local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
+local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
+
 local BLUE = "|cff6666ff";
 local GREY = "|cff999999";
 local GREN = "|cff66cc33";
@@ -36,29 +39,26 @@ local OBJECT = 4;
 local FACTION = 5;
 local QUEST = 6;
 
---Now with GUIDs!
-
 local myCategory = AtlasBGLocale["Battleground Maps"];
 
 local myData = {
 	AlteracValleyNorth = {
-		ZoneName = { AtlasBGLocale["Alterac Valley"].." ("..AtlasBGLocale["North"]..", "..AtlasBGLocale["Alliance"]..")", 2597 };
-		Acronym = AtlasBGLocale["AV"];
-		Location = { AtlasBGLocale["Alterac Mountains"], 36 };
+		ZoneName = { BabbleZone["Alterac Valley"].." ("..AtlasBGLocale["North"]..", "..AtlasBGLocale["Alliance"]..")", 2597 };
+		Location = { BabbleZone["Alterac Mountains"], 36 };
 		LevelRange = "51-60 / 61-70 / 71-79 / 80";
 		MinLevel = "51";
 		PlayerLimit = "40";
-		Continent = AtlasBGLocale["Eastern Kingdoms"];
+		Acronym = AtlasBGLocale["AV"];
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Stormpike Guard"], FACTION, 730 };
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"] };
-		{ BLUE.."B) "..AtlasBGLocale["Dun Baldar"] };
+		{ BLUE.."B) "..BabbleSubZone["Dun Baldar"] };
 		{ BLUE..INDENT..AtlasBGLocale["Vanndar Stormpike <Stormpike General>"], NPC, 11948 };
 		{ BLUE..INDENT..AtlasBGLocale["Dun Baldar North Marshal"], NPC, 14762 };
 		{ BLUE..INDENT..AtlasBGLocale["Dun Baldar South Marshal"], NPC, 14763 };
 		{ BLUE..INDENT..AtlasBGLocale["Icewing Marshal"], NPC, 14764 };
 		{ BLUE..INDENT..AtlasBGLocale["Stonehearth Marshal"], NPC, 14765 };
 		{ BLUE..INDENT..AtlasBGLocale["Prospector Stonehewer"], NPC, 13816 };
-		{ _RED.."1) "..AtlasBGLocale["Irondeep Mine"] };
+		{ _RED.."1) "..BabbleSubZone["Irondeep Mine"] };
 		{ GREY..INDENT..AtlasBGLocale["Morloch"].." ("..AtlasBGLocale["Neutral"]..")", NPC, 11657 };
 		{ GREY..INDENT..AtlasBGLocale["Umi Thorson"], NPC, 13078 };
 		{ GREY..INDENT..AtlasBGLocale["Keetar"].." ("..AtlasBGLocale["Horde"]..")", NPC, 13079 };
@@ -83,21 +83,21 @@ local myData = {
 		{ ORNG.."9) "..AtlasBGLocale["Dun Baldar South Bunker"] };
 		{ GREY..INDENT..AtlasBGLocale["Corporal Noreg Stormpike"], NPC, 13447 };
 		{ GREY..INDENT..AtlasBGLocale["Gaelden Hammersmith <Stormpike Supply Officer>"], NPC, 13216 };
-		{ _RED.."10) "..AtlasBGLocale["Stormpike Graveyard"] };
-		{ GREY.."11) "..AtlasBGLocale["Icewing Cavern"] };
+		{ _RED.."10) "..BabbleSubZone["Stormpike Graveyard"] };
+		{ GREY.."11) "..BabbleSubZone["Icewing Cavern"] };
 		{ GREY..INDENT..AtlasBGLocale["Stormpike Banner"], OBJECT, 179024 };
 		{ GREY.."12) "..AtlasBGLocale["Stormpike Lumber Yard"] };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Jeztor"].." ("..AtlasBGLocale["Horde"]..")", NPC, 13180 };
-		{ ORNG.."13) "..AtlasBGLocale["Icewing Bunker"] };
+		{ ORNG.."13) "..BabbleSubZone["Icewing Bunker"] };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Guse"].." ("..AtlasBGLocale["Horde"]..")", NPC, 13179 };
-		{ _RED.."14) "..AtlasBGLocale["Stonehearth Graveyard"] };
+		{ _RED.."14) "..BabbleSubZone["Stonehearth Graveyard"] };
 		{ GREY.."15) "..AtlasBGLocale["Stormpike Ram Rider Commander"], NPC, 13577 };
-		{ ORNG.."16) "..AtlasBGLocale["Stonehearth Outpost"] };
+		{ ORNG.."16) "..BabbleSubZone["Stonehearth Outpost"] };
 		{ GREY..INDENT..AtlasBGLocale["Captain Balinda Stonehearth <Stormpike Captain>"], NPC, 11949 };
-		{ _RED.."17) "..AtlasBGLocale["Snowfall Graveyard"] };
+		{ _RED.."17) "..BabbleSubZone["Snowfall Graveyard"] };
 		{ GREY..INDENT..AtlasBGLocale["Ichman's Beacon"], ITEM, 17505 };
 		{ GREY..INDENT..AtlasBGLocale["Mulverick's Beacon"].." ("..AtlasBGLocale["Horde"]..")", ITEM, 17323 };
-		{ ORNG.."18) "..AtlasBGLocale["Stonehearth Bunker"] };
+		{ ORNG.."18) "..BabbleSubZone["Stonehearth Bunker"] };
 		{ GREY.."19) "..AtlasBGLocale["Ivus the Forest Lord"].." ("..AtlasBGLocale["Summon"]..")", NPC, 13419 };
 		{ GREY.."20) "..AtlasBGLocale["Western Crater"] };
 		{ GREY..INDENT..AtlasBGLocale["Vipore's Beacon"], ITEM, 17506 };
@@ -111,16 +111,15 @@ local myData = {
 		{ GREY..AtlasBGLocale["White"]..": "..BLUE..AtlasBGLocale["Assault NPCs, Quest Areas"] };
 	};
 	AlteracValleySouth = {
-		ZoneName = { AtlasBGLocale["Alterac Valley"].." ("..AtlasBGLocale["South"]..", "..AtlasBGLocale["Horde"]..")", 2597 };
-		Acronym = AtlasBGLocale["AV"];
-		Location = { AtlasBGLocale["Hillsbrad Foothills"], 36 };
+		ZoneName = { BabbleZone["Alterac Valley"].." ("..AtlasBGLocale["South"]..", "..AtlasBGLocale["Horde"]..")", 2597 };
+		Location = { BabbleZone["Hillsbrad Foothills"], 36 };
 		LevelRange = "51-60 / 61-70 / 71-79 / 80";
 		MinLevel = "51";
 		PlayerLimit = "40";
-		Continent = AtlasBGLocale["Eastern Kingdoms"];
+		Acronym = AtlasBGLocale["AV"];
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Frostwolf Clan"], FACTION, 729 };
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
-		{ BLUE.."B) "..AtlasBGLocale["Frostwolf Keep"] };
+		{ BLUE.."B) "..BabbleSubZone["Frostwolf Keep"] };
 		{ BLUE..INDENT..AtlasBGLocale["Drek'Thar <Frostwolf General>"], NPC, 11946 };
 		{ BLUE..INDENT..AtlasBGLocale["Duros"], NPC, 12122 };
 		{ BLUE..INDENT..AtlasBGLocale["Drakan"], NPC, 12121 };
@@ -129,17 +128,17 @@ local myData = {
 		{ BLUE..INDENT..AtlasBGLocale["Tower Point Warmaster"], NPC, 14776 };
 		{ BLUE..INDENT..AtlasBGLocale["Iceblood Warmaster"], NPC, 14773 };
 		{ _RED.."1) "..AtlasBGLocale["Lokholar the Ice Lord"].." ("..AtlasBGLocale["Summon"]..")", NPC, 13256 };
-		{ ORNG.."2) "..AtlasBGLocale["Iceblood Garrison"] };
+		{ ORNG.."2) "..BabbleSubZone["Iceblood Garrison"] };
 		{ GREY..INDENT..AtlasBGLocale["Captain Galvangar <Frostwolf Captain>"], NPC, 11947 };
 		{ ORNG.."3) "..AtlasBGLocale["Iceblood Tower"] };
-		{ _RED.."4) "..AtlasBGLocale["Iceblood Graveyard"] };
+		{ _RED.."4) "..BabbleSubZone["Iceblood Graveyard"] };
 		{ ORNG.."5) "..AtlasBGLocale["Tower Point"] };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Slidore"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13438 };
-		{ _RED.."6) "..AtlasBGLocale["Coldtooth Mine"] };
+		{ _RED.."6) "..BabbleSubZone["Coldtooth Mine"] };
 		{ GREY..INDENT..AtlasBGLocale["Taskmaster Snivvle"].." ("..AtlasBGLocale["Neutral"]..")", NPC, 11677 };
 		{ GREY..INDENT..AtlasBGLocale["Masha Swiftcut"], NPC, 13088 };
 		{ GREY..INDENT..AtlasBGLocale["Aggi Rumblestomp"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13086 };
-		{ _RED.."7) "..AtlasBGLocale["Frostwolf Graveyard"] };
+		{ _RED.."7) "..BabbleSubZone["Frostwolf Graveyard"] };
 		{ GREY.."8) "..AtlasBGLocale["Wing Commander Vipore"].." ("..AtlasBGLocale["Alliance"]..")", NPC, 13439 };
 		{ GREY..INDENT..AtlasBGLocale["Jotek"], NPC, 13798 };
 		{ GREY..INDENT..AtlasBGLocale["Smith Regzar"], NPC, 13176 };
@@ -155,7 +154,7 @@ local myData = {
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Jeztor"].." ("..AtlasBGLocale["Rescued"]..")", NPC, 13180 };
 		{ GREY..INDENT..AtlasBGLocale["Wing Commander Mulverick"].." ("..AtlasBGLocale["Rescued"]..")", NPC, 13181 };
 		{ _RED.."14) "..AtlasBGLocale["Frostwolf Relief Hut"] };
-		{ GREY.."15) "..AtlasBGLocale["Wildpaw Cavern"] };
+		{ GREY.."15) "..BabbleSubZone["Wildpaw Cavern"] };
 		{ GREY..INDENT..AtlasBGLocale["Frostwolf Banner"], OBJECT, 179025 };
 		{ "" };
 		{ _RED..AtlasBGLocale["Red"]..": "..BLUE..AtlasBGLocale["Graveyards, Capturable Areas"] };
@@ -163,61 +162,57 @@ local myData = {
 		{ GREY..AtlasBGLocale["White"]..": "..BLUE..AtlasBGLocale["Assault NPCs, Quest Areas"] };
 	};
 	ArathiBasin = {
-		ZoneName = { AtlasBGLocale["Arathi Basin"], 3358 };
-		Acronym = AtlasBGLocale["AB"];
-		Location = { AtlasBGLocale["Arathi Highlands"], 45 };
+		ZoneName = { BabbleZone["Arathi Basin"], 3358 };
+		Location = { BabbleZone["Arathi Highlands"], 45 };
 		LevelRange = "20-29 / 30-39 / 40-49 / 50-59 / 60-69 / 70-79 / 80";
 		MinLevel = "20";
 		PlayerLimit = "15";
-		Continent = AtlasBGLocale["Eastern Kingdoms"];
+		Acronym = AtlasBGLocale["AB"];
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["The Defilers"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 510 };
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["The League of Arathor"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 509 };
-		{ BLUE.."A) "..AtlasBGLocale["Trollbane Hall"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ BLUE.."B) "..AtlasBGLocale["Defiler's Den"].." ("..AtlasBGLocale["Horde"]..")" };
-		{ GREY.."1) "..AtlasBGLocale["Stables"] };
-		{ GREY.."2) "..AtlasBGLocale["Gold Mine"] };
-		{ GREY.."3) "..AtlasBGLocale["Smithy"] };
-		{ GREY.."4) "..AtlasBGLocale["Lumber Mill"] };
-		{ GREY.."5) "..AtlasBGLocale["Farm"] };
+		{ BLUE.."A) "..BabbleSubZone["Trollbane Hall"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ BLUE.."B) "..BabbleSubZone["Defiler's Den"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ GREY.."1) "..BabbleSubZone["Stables"] };
+		{ GREY.."2) "..BabbleSubZone["Gold Mine"] };
+		{ GREY.."3) "..BabbleSubZone["Blacksmith"] };
+		{ GREY.."4) "..BabbleSubZone["Lumber Mill"] };
+		{ GREY.."5) "..BabbleSubZone["Farm"] };
 	};
 	WarsongGulch = {
-		ZoneName = { AtlasBGLocale["Warsong Gulch"], 3277 };
-		Acronym = AtlasBGLocale["WSG"];
-		Location = { AtlasBGLocale["Ashenvale"].." / "..AtlasBGLocale["The Barrens"], 331, 17 };
+		ZoneName = { BabbleZone["Warsong Gulch"], 3277 };
+		Location = { BabbleZone["Ashenvale"].." / "..BabbleZone["The Barrens"], 331, 17 };
 		LevelRange = "10–19 / 20–29 / 30–39 / 40–49 / 50–59 / 60–69 / 70–79 / 80";
 		MinLevel = "10";
 		PlayerLimit = "10";
-		Continent = AtlasBGLocale["Kalimdor"];
+		Acronym = AtlasBGLocale["WSG"];
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Warsong Outriders"].." ("..AtlasBGLocale["Horde"]..")", FACTION, 889 };
 		{ ORNG..AtlasBGLocale["Reputation"]..": "..AtlasBGLocale["Silverwing Sentinels"].." ("..AtlasBGLocale["Alliance"]..")", FACTION, 890 };
-		{ BLUE.."A) "..AtlasBGLocale["Silverwing Hold"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ BLUE.."B) "..AtlasBGLocale["Warsong Lumber Mill"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ BLUE.."A) "..BabbleSubZone["Silverwing Hold"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ BLUE.."B) "..BabbleSubZone["Warsong Lumber Mill"].." ("..AtlasBGLocale["Horde"]..")" };
 	};
 	EyeOfTheStorm = {
 		ZoneName = { AtlasBGLocale["Eye of the Storm"], 3820 };
-		Acronym = AtlasBGLocale["EotS"];
-		Location = { AtlasBGLocale["Netherstorm"], 3523 };
+		Location = { BabbleZone["Netherstorm"], 3523 };
 		LevelRange = "61-69 / 70-79 / 80";
 		MinLevel = "61";
 		PlayerLimit = "15";
-		Continent = AtlasBGLocale["Outland"];
+		Acronym = AtlasBGLocale["EotS"];
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Alliance"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
-		{ _RED.."X) "..AtlasBGLocale["Graveyard"] };
+		{ _RED.."X) "..BabbleZone["Graveyard"] };
 		{ ORNG.."X) "..AtlasBGLocale["Flag"] };
-		{ GREY.."1) "..AtlasBGLocale["Mage Tower"] };
-		{ GREY.."2) "..AtlasBGLocale["Draenei Ruins"] };
-		{ GREY.."3) "..AtlasBGLocale["Fel Reaver Ruins"] };
-		{ GREY.."4) "..AtlasBGLocale["Blood Elf Tower"] };
+		{ GREY.."1) "..BabbleSubZone["Mage Tower"] };
+		{ GREY.."2) "..BabbleSubZone["Draenei Ruins"] };
+		{ GREY.."3) "..BabbleSubZone["Fel Reaver Ruins"] };
+		{ GREY.."4) "..BabbleSubZone["Blood Elf Tower"] };
 	};
 	StrandOfTheAncients = {
-		ZoneName = { AtlasBGLocale["Strand of the Ancients"], 4384 };
-		Acronym = AtlasBGLocale["SotA"];
-		Location = { AtlasBGLocale["Dragonblight"], 65 };
+		ZoneName = { BabbleZone["Strand of the Ancients"], 4384 };
+		Location = { BabbleZone["Dragonblight"], 65 };
 		LevelRange = "71-79 / 80";
 		MinLevel = "71";
 		PlayerLimit = "15";
-		Continent = AtlasBGLocale["Northrend"];
+		Acronym = AtlasBGLocale["SotA"];
 		{ ORNG..AtlasBGLocale["Gates are marked with their colors."] };
 		{ BLUE.."A) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Attacking Team"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Defending Team"]..")" };
@@ -228,13 +223,12 @@ local myData = {
 		{ GREY.."5) "..AtlasBGLocale["Titan Relic"], OBJECT, 192829 };
 	};
 	IsleOfConquest = {
-		ZoneName = { AtlasBGLocale["Isle of Conquest"], 4710 };
-		Acronym = AtlasBGLocale["IoC"];
-		Location = { AtlasBGLocale["Icecrown"], 210 };
+		ZoneName = { BabbleZone["Isle of Conquest"], 4710 };
+		Location = { BabbleZone["Icecrown"], 210 };
 		LevelRange = "71-79 / 80";
 		MinLevel = "71";
 		PlayerLimit = "40";
-		Continent = AtlasBGLocale["Northrend"];
+		Acronym = AtlasBGLocale["IoC"];
 		{ ORNG..AtlasBGLocale["Gates are marked with red bars."] };
 		{ BLUE.."A) "..AtlasBGLocale["Start"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE..INDENT..AtlasBGLocale["Overlord Agmar"], NPC, 34922 };

@@ -42,34 +42,21 @@ AtlasBGLocale = {
 	["White"] = "Weiß";
 
 	--Places
-	["Alterac Mountains"] = "Alteracgebirge";
-	["Alterac Valley"] = "Alteractal"; ["AV"] = "AV";
-	["Arathi Basin"] = "Arathibecken"; ["AB"] = "AB";
-	["Arathi Highlands"] = "Arathihochland";
-	["Ashenvale"] = "Eschental";
-	["Dragonblight"] = "Drachenöde";
-	["Eastern Kingdoms"] = "Östliche Königreiche";
+	["AV"] = "AV"; -- Alterac Valley
+	["AB"] = "AB"; -- Arathi Basin
 	["Eye of the Storm"] = "Auge des Sturms"; ["EotS"] = "Auge";
-	["Hillsbrad Foothills"] = "Vorgebirge des Hügellands";
-    	["Icecrown"] = "Eiskrone";
-    	["Isle of Conquest"] = "Insel der Eroberung"; ["IoC"] = "Insel";
-	["Kalimdor"] = "Kalimdor";
-	["Netherstorm"] = "Nethersturm";
-	["Outland"] = "Scherbenwelt";
-	["Strand of the Ancients"] = "Strand der Uralten"; ["SotA"] = "SdU";
-	["The Barrens"] = "Brachland";
-	["Warsong Gulch"] = "Kriegshymnenschlucht"; ["WSG"] = "WS";
+    	["IoC"] = "Insel";-- Isle of Conquest
+	["SotA"] = "SdU"; -- Strand of the Ancients
+	["WSG"] = "WS"; -- Warsong Gulch
 
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Sturmlanzengarde";
-	["Dun Baldar"] = "Dun Baldar";
 	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Sturmlanze <General der Sturmlanzen>";
 	["Dun Baldar North Marshal"] = "Marschall der Nordtruppen von Dun Baldar";
 	["Dun Baldar South Marshal"] = "Marschall der Südtruppen von Dun Baldar";
 	["Icewing Marshal"] = "Marschall der Eisschwingentruppen";
 	["Stonehearth Marshal"] = "Marschall der Steinbruchtruppen";
 	["Prospector Stonehewer"] = "Ausgrabungsleiter Steinhauer";
-	["Irondeep Mine"] = "Eisenschachtmine";
 	["Morloch"] = "Morloch";
 	["Umi Thorson"] = "Umi Thorson";
 	["Keetar"] = "Keetar";
@@ -94,21 +81,14 @@ AtlasBGLocale = {
 	["Dun Baldar South Bunker"] = "Südbunker von Dun Baldar";
 	["Corporal Noreg Stormpike"] = "Korporal Noreg Sturmlanze";
 	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Hammerschmied <Versorgungsoffizier der Sturmlanzen>";
-	["Stormpike Graveyard"] = "Friedhof der Sturmlanzen";
-	["Icewing Cavern"] = "Eisschwingenhöhle";
 	["Stormpike Banner"] = "Banner der Sturmlanzen";
 	["Stormpike Lumber Yard"] = "Sägewerk der Sturmlanzen";
 	["Wing Commander Jeztor"] = "Schwadronskommandant Jeztor";--omitted from AVS
-	["Icewing Bunker"] = "Eisschwingenbunker";
 	["Wing Commander Guse"] = "Schwadronskommandant Guse";--omitted from AVS
-	["Stonehearth Graveyard"] = "Steinbruchfriedhof";
 	["Stormpike Ram Rider Commander"] = "Kommandant der Sturmlanzenwidderreiter";
-	["Stonehearth Outpost"] = "Steinbruchaußenposten";
 	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Hauptmann Balinda Steinbruch <Hauptmann der Sturmlanzen>";
-	["Snowfall Graveyard"] = "Schneewehenfriedhof";
 	["Ichman's Beacon"] = "Ichmans Signal";
 	["Mulverick's Beacon"] = "Mulvericks Signal";
-	["Stonehearth Bunker"] = "Steinbruchbunker";
 	["Ivus the Forest Lord"] = "Ivus der Waldfürst";
 	["Western Crater"] = "Westlicher Krater";
 	["Vipore's Beacon"] = "Vipores Signal";
@@ -122,7 +102,6 @@ AtlasBGLocale = {
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "Frostwolfklan";
-	["Frostwolf Keep"] = "Burg Frostwolf";
 	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General der Frostwölfe>";
 	["Duros"] = "Duros";
 	["Drakan"] = "Drakan";
@@ -131,16 +110,12 @@ AtlasBGLocale = {
 	["Tower Point Warmaster"] = "Kriegsmeister der Turmstellung";
 	["Iceblood Warmaster"] = "Kriegsmeister der Eisbluttruppen";
 	["Lokholar the Ice Lord"] = "Lokholar der Eislord";
-	["Iceblood Garrison"] = "Eisblutgarnison";
 	["Captain Galvangar <Frostwolf Captain>"] = "Hauptmann Galvangar <Hauptmann der Frostwölfe>";
 	["Iceblood Tower"] = "Eisblutturm";
-	["Iceblood Graveyard"] = "Eisblutfriedhof";
 	["Tower Point"] = "Turmstellung";
-	["Coldtooth Mine"] = "Eisbeißermine";
 	["Taskmaster Snivvle"] = "Zuchtmeister Schnuffel";
 	["Masha Swiftcut"] = "Masha Schnellstreich";
 	["Aggi Rumblestomp"] = "Aggi Polterbein";
-	["Frostwolf Graveyard"] = "Friedhof der Frostwölfe";
 	["Jotek"] = "Jotek";
 	["Smith Regzar"] = "Schmied Regzar";
 	["Primalist Thurloga"] = "Primalist Thurloga";
@@ -151,27 +126,14 @@ AtlasBGLocale = {
 	["West Frostwolf Tower"] = "Westlicher Frostwolfturm";
 	["East Frostwolf Tower"] = "Östlicher Frostwolfturm";
 	["Frostwolf Relief Hut"] = "Heilerhütte der Frostwölfe";
-	["Wildpaw Cavern"] = "Höhle der Wildpfoten";
 	["Frostwolf Banner"] = "Banner der Frostwölfe";
 
 	--Arathi Basin
 	["The Defilers"] = "Die Entweihten";
 	["The League of Arathor"] = "Der Bund von Arathor";
-	["Trollbane Hall"] = "Trollbanns Halle";
-	["Defiler's Den"] = "Die entweihte Feste";
-	["Stables"] = "Ställe";
-	["Gold Mine"] = "Goldmine";
-	["Smithy"] = "Schmiede";
-	["Lumber Mill"] = "Sägewerk";
-	["Farm"] = "Hof";
 
 	--Eye of the Storm
-	["Graveyard"] = "Friedhof";
 	["Flag"] = "Flagge";
-	["Mage Tower"] = "Magierturm";
-	["Draenei Ruins"] = "Draeneiruinen";
-	["Fel Reaver Ruins"] = "Teufelshäscherruinen";
-	["Blood Elf Tower"] = "Blutelfenturm";
 
 	--Isle of Conquest
     	["The Refinery"] = "Die Raffinerie";
@@ -199,8 +161,6 @@ AtlasBGLocale = {
 	--Warsong Gulch
 	["Warsong Outriders"] = "Kriegshymnenklan";
 	["Silverwing Sentinels"] = "Schildwachen der Silberschwingen";
-	["Silverwing Hold"] = "Feste der Silberschwingen";
-	["Warsong Lumber Mill"] = "Sägewerk des Kriegshymnenklans";
 
 };
 

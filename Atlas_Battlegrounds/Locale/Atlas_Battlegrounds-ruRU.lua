@@ -49,36 +49,23 @@ AtlasBGLocale = {
 	["Start"] = "Начало";
 	["Summon"] = "Призыв";
 	["White"] = "Белый";
-	
+
 	--Places
-	["Alterac Mountains"] = "Альтеракские горы";
-	["Alterac Valley"] = "Альтеракская долина"; ["AV"] = "АД";
-	["Arathi Basin"] = "Низина Арати"; ["AB"] = "НА";
-	["Arathi Highlands"] = "Нагорье Арати";
-	["Ashenvale"] = "Ясеневый лес";
-	["Dragonblight"] = "Драконий Погост";
-	["Eastern Kingdoms"] = "Восточные королевства";
+	["AV"] = "АД"; -- Alterac Valley
+	["AB"] = "НА"; -- Arathi Basin
 	["Eye of the Storm"] = "Око Бури"; ["EotS"] = "Око";
-	["Hillsbrad Foothills"] = "Старые Предгорья Хилсбрада";
-	["Icecrown"] = "Ледяная Корона";
-	["Isle of Conquest"] = "Остров Завоеваний"; ["IoC"] = "ОЗ";
-	["Kalimdor"] = "Калимдор";
-	["Netherstorm"] = "Пустоверть";
-	["Outland"] = "Запределье";
-	["Strand of the Ancients"] = "Берег Древних"; ["SotA"] = "Берег";
-	["The Barrens"] = "Степи";
-	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "УПВ";
-	
+	["IoC"] = "ОЗ"; -- Isle of Conquest
+	["SotA"] = "Берег"; -- Strand of the Ancients
+	["WSG"] = "УПВ"; -- Warsong Gulch
+
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Стража Грозовой Вершины";
-	["Dun Baldar"] = "Дун Балдар";
 	["Vanndar Stormpike <Stormpike General>"] = "Вандар Грозовая Вершина <Генерал клана Грозовой Вершины>";
 	["Dun Baldar North Marshal"] = "Маршал северного Оплота Дун Балдара";
 	["Dun Baldar South Marshal"] = "Маршал южного Оплота Дун Балдара";
 	["Icewing Marshal"] = "Маршал Ледяного Крыла";
 	["Stonehearth Marshal"] = "Маршал Каменного Очага";
 	["Prospector Stonehewer"] = "Геолог Камнегрыз";
-	["Irondeep Mine"] = "Шахтер из племени Железного Рудника";
 	["Morloch"] = "Морлох";
 	["Umi Thorson"] = "Уми Торсон";
 	["Keetar"] = "Китар";
@@ -103,21 +90,14 @@ AtlasBGLocale = {
 	["Dun Baldar South Bunker"] = "Южный Оплот Дун Болдара";
 	["Corporal Noreg Stormpike"] = "Капрал Норг Грозовая Вершина";
 	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Гаелден Кузнечный Молот <Снабженец клана Грозовой Вершины>";
-	["Stormpike Graveyard"] = "Кладбище Грозовой Вершины";
-	["Icewing Cavern"] = "Пещера Ледяного Крыла";
 	["Stormpike Banner"] = "Знамя Грозовой Вершины";
 	["Stormpike Lumber Yard"] = "Stormpike Lumber Yard";
 	["Wing Commander Jeztor"] = "Командир звена Мааша";--omitted from AVS
-	["Icewing Bunker"] = "Укрытие Ледяного Крыла";
 	["Wing Commander Guse"] = "Командир звена Смуггл";--omitted from AVS
-	["Stonehearth Graveyard"] = "Кладбище Каменного Очага";
 	["Stormpike Ram Rider Commander"] = "Командир наездников на баранах из клана Грозовой Вершины";
-	["Stonehearth Outpost"] = "Форт Каменного Очага";
 	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Капитан Балинда Каменный Очаг <Капитан клана Грозовой Вершины>";
-	["Snowfall Graveyard"] = "Кладбище Снегопада";
 	["Ichman's Beacon"] = "Маяк Ичмена";
 	["Mulverick's Beacon"] = "Маяк Малверика";
-	["Stonehearth Bunker"] = "Укрытие Каменного Очага";
 	["Ivus the Forest Lord"] = "Ивус Лесной Властелин";
 	["Western Crater"] = "Западный Кратер";
 	["Vipore's Beacon"] = "Маяк Сквороца";
@@ -131,7 +111,6 @@ AtlasBGLocale = {
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "Клан Северного Волка";
-	["Frostwolf Keep"] = "Крепость Северного Волка";
 	["Drek'Thar <Frostwolf General>"] = "Дрек'Тар <Генерал клана Северного Волка>";
 	["Duros"] = "Дарос";
 	["Drakan"] = "Дракан";
@@ -140,16 +119,12 @@ AtlasBGLocale = {
 	["Tower Point Warmaster"] = "Воевода Смотровой башня";
 	["Iceblood Warmaster"] = "Воевода Стылой Крови";
 	["Lokholar the Ice Lord"] = "Локолар Владыка Льда";
-	["Iceblood Garrison"] = "Гарнизон Стылой Крови";
 	["Captain Galvangar <Frostwolf Captain>"] = "Капитан Гальвангар <Капитан клана Северного Волка>";
 	["Iceblood Tower"] = "Башня Стылой Крови";
-	["Iceblood Graveyard"] = "Кладбище Стылой Крови";
 	["Tower Point"] = "Смотровая башня";
-	["Coldtooth Mine"] = "Рудник Ледяного Зуба";
 	["Taskmaster Snivvle"] = "Надсмотрщик Хныкс";
 	["Masha Swiftcut"] = "Маша Быстрорезка";
 	["Aggi Rumblestomp"] = "Агги Шумнотоп";
-	["Frostwolf Graveyard"] = "Кладбище Северного Волка";
 	["Jotek"] = "Джотек";
 	["Smith Regzar"] = "Кузнец Регзар";
 	["Primalist Thurloga"] = "Старейшина Турлога";
@@ -160,28 +135,15 @@ AtlasBGLocale = {
 	["West Frostwolf Tower"] = "Западная башня Северного Волка";
 	["East Frostwolf Tower"] = "Восточная башня Северного Волка";
 	["Frostwolf Relief Hut"] = "Приют Северного Волка";
-	["Wildpaw Cavern"] = "Пещера Дикой Лапы";
 	["Frostwolf Banner"] = "Знамя Северного Волка";
 
 	--Arathi Basin
 	["The Defilers"] = "Осквернители";
 	["The League of Arathor"] = "Лига Аратора";
-	["Trollbane Hall"] = "Зал Троллебоя";
-	["Defiler's Den"] = "Логово Осквернителя";
-	["Stables"] = "Стойла";
-	["Gold Mine"] = "Золотой рудник";
-	["Smithy"] = "Кузница";
-	["Lumber Mill"] = "Лесопилка";
-	["Farm"] = "Ферма";
 
 	--Eye of the Storm
-	["Graveyard"] = "Кладбище";
 	["Flag"] = "Флаг";
-	["Mage Tower"] = "Башня Магов";
-	["Draenei Ruins"] = "Дренейские руины";
-	["Fel Reaver Ruins"] = "Обломки Скверномора";
-	["Blood Elf Tower"] = "Башня Эльфов Крови";
-	
+
 	--Isle of Conquest
 	["The Refinery"] = "Нефтезавод";
 	["The Docks"] = "Причал";
@@ -194,7 +156,7 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Ворота помечены красным.";
 	["Overlord Agmar"] = "Командир Агмар";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Главнокомандующий Халфорд Змеевержец <7-й легион>";
-	
+
 	--Strand of the Ancients
 	["Attacking Team"] = "Группа штурма";
 	["Defending Team"] = "Группа защиты";
@@ -204,12 +166,10 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Кладбище";
 	["Titan Relic"] = "Реликвия титанов";
 	["Gates are marked with their colors."] = "Ворота, отмечены их цветами.";
-	
+
 	--Warsong Gulch
 	["Warsong Outriders"] = "Всадники Песни Войны";
 	["Silverwing Sentinels"] = "Среброкрылые Часовые";
-	["Silverwing Hold"] = "Крепость Среброкрылых";
-	["Warsong Lumber Mill"] = "Лесопилка Песни Войны";
 
 };
 

@@ -43,34 +43,21 @@ AtlasBGLocale = {
 	["White"] = "白";
 
 	--Places
-	["Alterac Mountains"] = "奧特蘭克山脈";
-	["Alterac Valley"] = "奧特蘭克山谷"; ["AV"] = "AV/奧山";
-	["Arathi Basin"] = "阿拉希盆地"; ["AB"] = "AB/阿拉希";
-	["Arathi Highlands"] = "阿拉希高地";
-	["Ashenvale"] = "梣谷";
-	["Dragonblight"] = "龍骨荒野";
-	["Eastern Kingdoms"] = "東部王國";
+	["AV"] = "AV/奧山"; -- Alterac Valley
+	["AB"] = "AB/阿拉希"; -- Arathi Basin
 	["Eye of the Storm"] = "暴風之眼"; ["EotS"] = "EotS/暴風";
-	["Hillsbrad Foothills"] = "希爾斯布萊德丘陵";
-	["Icecrown"] = "寒冰皇冠";
-	["Isle of Conquest"] = "征服之島"; ["IoC"] = "IoC";
-	["Kalimdor"] = "卡林多";
-	["Netherstorm"] = "虛空風暴";
-	["Outland"] = "外域";
-	["Strand of the Ancients"] = "遠祖灘頭"; ["SotA"] = "SotA/遠祖";
-	["The Barrens"] = "貧瘠之地";
-	["Warsong Gulch"] = "戰歌峽谷"; ["WSG"] = "WSG/戰歌";
+	["IoC"] = "IoC"; -- Isle of Conquest
+	["SotA"] = "SotA/遠祖"; -- Strand of the Ancients
+	["WSG"] = "WSG/戰歌"; -- Warsong Gulch
 
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "雷矛衛隊";
-	["Dun Baldar"] = "丹巴達爾";
 	["Vanndar Stormpike <Stormpike General>"] = "范達爾·雷矛";
 	["Dun Baldar North Marshal"] = "丹巴達爾北部元帥";
 	["Dun Baldar South Marshal"] = "丹巴達爾南部元帥";
 	["Icewing Marshal"] = "冰翼元帥";
 	["Stonehearth Marshal"] = "石爐元帥";
 	["Prospector Stonehewer"] = "勘察員塔雷·石鎬";
-	["Irondeep Mine"] = "深鐵礦坑";
 	["Morloch"] = "莫洛克";
 	["Umi Thorson"] = "烏米·托爾森";
 	["Keetar"] = "基塔爾";
@@ -95,21 +82,14 @@ AtlasBGLocale = {
 	["Dun Baldar South Bunker"] = "丹巴達爾南部碉堡";
 	["Corporal Noreg Stormpike"] = "諾雷格·雷矛下士";
 	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "蓋爾丁 <雷矛物資商人>";
-	["Stormpike Graveyard"] = "雷矛墓地";
-	["Icewing Cavern"] = "冰翼洞穴";
 	["Stormpike Banner"] = "雷矛軍旗";
 	["Stormpike Lumber Yard"] = "雷矛林場";
 	["Wing Commander Jeztor"] = "空軍指揮官傑斯托";--omitted from AVS
-	["Icewing Bunker"] = "冰翼碉堡";
 	["Wing Commander Guse"] = "空軍指揮官古斯";--omitted from AVS
-	["Stonehearth Graveyard"] = "石爐墓地";
 	["Stormpike Ram Rider Commander"] = "雷矛山羊騎兵指揮官";
-	["Stonehearth Outpost"] = "石爐哨站";
 	["Captain Balinda Stonehearth <Stormpike Captain>"] = "巴琳達·石爐上尉";
-	["Snowfall Graveyard"] = "落雪墓地";
 	["Ichman's Beacon"] = "艾克曼的信號燈";
 	["Mulverick's Beacon"] = "穆維里克的信號燈";
-	["Stonehearth Bunker"] = "石爐碉堡";
 	["Ivus the Forest Lord"] = "『森林之王』伊弗斯";
 	["Western Crater"] = "西部凹地";
 	["Vipore's Beacon"] = "維波里的信號燈";
@@ -123,7 +103,6 @@ AtlasBGLocale = {
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "霜狼氏族";
-	["Frostwolf Keep"] = "霜狼要塞";
 	["Drek'Thar <Frostwolf General>"] = "德雷克塔爾";
 	["Duros"] = "杜洛斯";
 	["Drakan"] = "崔坎";
@@ -132,16 +111,12 @@ AtlasBGLocale = {
 	["Tower Point Warmaster"] = "哨塔高地將領";
 	["Iceblood Warmaster"] = "冰血將領";
 	["Lokholar the Ice Lord"] = "『冰雪之王』洛克霍拉";
-	["Iceblood Garrison"] = "冰血要塞";
 	["Captain Galvangar <Frostwolf Captain>"] = "加爾范上尉";
 	["Iceblood Tower"] = "冰血哨塔";
-	["Iceblood Graveyard"] = "冰血墓地";
 	["Tower Point"] = "哨塔高地";
-	["Coldtooth Mine"] = "冷齒礦坑";
 	["Taskmaster Snivvle"] = "監工斯尼維爾";
 	["Masha Swiftcut"] = "瑪莎";
 	["Aggi Rumblestomp"] = "埃其";
-	["Frostwolf Graveyard"] = "霜狼墓地";
 	["Jotek"] = "喬泰克";
 	["Smith Regzar"] = "鐵匠雷格薩";
 	["Primalist Thurloga"] = "原獵者瑟魯加";
@@ -152,27 +127,14 @@ AtlasBGLocale = {
 	["West Frostwolf Tower"] = "西部霜狼哨塔";
 	["East Frostwolf Tower"] = "東部霜狼哨塔";
 	["Frostwolf Relief Hut"] = "霜狼急救站";
-	["Wildpaw Cavern"] = "蠻爪洞穴";
 	["Frostwolf Banner"] = "霜狼軍旗";
 
 	--Arathi Basin
 	["The Defilers"] = "污染者";
 	["The League of Arathor"] = "阿拉索聯軍";
-	["Trollbane Hall"] = "托爾貝恩大廳";
-	["Defiler's Den"] = "污染者之穴";
-	["Stables"] = "獸欄";
-	["Gold Mine"] = "金礦";
-	["Smithy"] = "鐵匠舖";
-	["Lumber Mill"] = "伐木場";
-	["Farm"] = "農場";
 
 	--Eye of the Storm
-	["Graveyard"] = "墓地";
 	["Flag"] = "旗幟";
-	["Mage Tower"] = "法師塔";
-	["Draenei Ruins"] = "德萊尼廢墟";
-	["Fel Reaver Ruins"] = "惡魔搶奪者廢墟";
-	["Blood Elf Tower"] = "血精靈哨塔";
 
 	--Isle of Conquest
 	["The Refinery"] = "精煉廠";
@@ -200,7 +162,6 @@ AtlasBGLocale = {
 	--Warsong Gulch
 	["Warsong Outriders"] = "戰歌偵察騎兵";
 	["Silverwing Sentinels"] = "銀翼要塞的戰士";
-	["Silverwing Hold"] = "銀翼要塞";
-	["Warsong Lumber Mill"] = "戰歌伐木廠";
+
 };
 end

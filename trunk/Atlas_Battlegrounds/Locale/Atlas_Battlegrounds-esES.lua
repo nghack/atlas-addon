@@ -47,36 +47,23 @@ AtlasBGLocale = {
 	["Start"] = "Comienzo";
 	["Summon"] = "Invocar";
 	["White"] = "Blanco";
-	
+
 	--Places
-	["Alterac Mountains"] = "Montañas Alterac";
-	["Alterac Valley"] = "Valle de Alterac"; ["AV"] = "VA";
-	["Arathi Basin"] = "Cuenca de Arathi"; ["AB"] = "CA";
-	["Arathi Highlands"] = "Tierras Altas de Arathi";
-	["Ashenvale"] = "Vallefresno";
-	["Dragonblight"] = "Cementerio de dragones";	
-	["Eastern Kingdoms"] = "Reinos del Este";
+	["AV"] = "VA"; -- Alterac Valley
+	["AB"] = "CA"; -- Arathi Basin
 	["Eye of the Storm"] = "El Ojo de la Tormenta"; ["EotS"] = "OT";
-	["Hillsbrad Foothills"] = "Laderas de Trabalomas";
-	["Icecrown"] = "Corona de Hielo";
-	["Isle of Conquest"] = "Isla de la Conquista"; ["IoC"] = "IcC";
-	["Kalimdor"] = "Kalimdor";
-	["Netherstorm"] = "Tormenta Abisal";
-	["Outland"] = "Terrallende";
-	["Strand of the Ancients"] = "Playa de los Ancestros"; ["SotA"] = "PDLA";
-	["The Barrens"] = "Los Baldíos";
-	["Warsong Gulch"] = "Garganta Grito de Guerra"; ["WSG"] = "GGG";
-	
+	["IoC"] = "IcC"; -- Isle of Conquest
+	["SotA"] = "PDLA"; -- Strand of the Ancients
+	["WSG"] = "GGG"; -- Warsong Gulch
+
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Guardia Pico Tormenta";
-	["Dun Baldar"] = "Dun Baldar";
 	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Pico Tormenta <General Pico Tormenta>";
 	["Dun Baldar North Marshal"] = "Alguacil de Dun Baldar Norte";
 	["Dun Baldar South Marshal"] = "Alguacil de Dun Baldar Sur";
 	["Icewing Marshal"] = "Alguacil Alahielo";
 	["Stonehearth Marshal"] = "Alguacil Piedrahogar";
 	["Prospector Stonehewer"] = "Prospectora Tallapiedra";
-	["Irondeep Mine"] = "Mina Ferrohondo";
 	["Morloch"] = "Morloch";
 	["Umi Thorson"] = "Umi Thorson";
 	["Keetar"] = "Keetar";
@@ -101,21 +88,14 @@ AtlasBGLocale = {
 	["Dun Baldar South Bunker"] = "Búnker Sur de Dun Baldar";
 	["Corporal Noreg Stormpike"] = "Cabo Noreg Pico Tormenta";
 	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Martillero <Oficial de suministros Pico Tormenta>";
-	["Stormpike Graveyard"] = "Cementerio Pico Tormenta";
-	["Icewing Cavern"] = "Cueva Ala Gélida";
 	["Stormpike Banner"] = "Estandarte de Pico Tormenta";
 	["Stormpike Lumber Yard"] = "Stormpike Lumber Yard"; --FALTA
 	["Wing Commander Jeztor"] = "Comandante del aire Jeztor";--omitted from AVS
-	["Icewing Bunker"] = "Búnker Ala Gélida";
 	["Wing Commander Guse"] = "Comandante del aire Guse";--omitted from AVS
-	["Stonehearth Graveyard"] = "Cementerio Piedrahogar";
 	["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
-	["Stonehearth Outpost"] = "Puesto de salida Piedrahogar";
 	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitana Balinda Piedrahogar <Capitana Pico Tormenta>";
-	["Snowfall Graveyard"] = "Cementerio Avalancha";
 	["Ichman's Beacon"] = "Señal de Inchman";
 	["Mulverick's Beacon"] = "Señal de Mulverick";
-	["Stonehearth Bunker"] = "Búnker Piedrahogar";
 	["Ivus the Forest Lord"] = "Ivus el Señor del Bosque";
 	["Western Crater"] = "Cráter occidental";
 	["Vipore's Beacon"] = "Señal de Vipore";
@@ -129,7 +109,6 @@ AtlasBGLocale = {
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "Clan Lobo Gélido";
-	["Frostwolf Keep"] = "Bastión Lobo Gélido";
 	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General Lobo Gélido>";
 	["Duros"] = "Duros";
 	["Drakan"] = "Drakan";
@@ -138,16 +117,12 @@ AtlasBGLocale = {
 	["Tower Point Warmaster"] = "Maestro de guerra de Punta de la Torre";
 	["Iceblood Warmaster"] = "Maestro de guerra Sangrehielo";
 	["Lokholar the Ice Lord"] = "Lokholar el Señor de Hielo";
-	["Iceblood Garrison"] = "Baluarte Sangre Fría";
 	["Captain Galvangar <Frostwolf Captain>"] = "Capitán Galvangar <Capitán Lobo Gélido>";
 	["Iceblood Tower"] = "Torre Sangre Fría";
-	["Iceblood Graveyard"] = "Cementerio Sangre Fría";
 	["Tower Point"] = "Punto Torre";
-	["Coldtooth Mine"] = "Mina Dentefrío";
 	["Taskmaster Snivvle"] = "Capataz Sniwle";
 	["Masha Swiftcut"] = "Masha Corteveloz";
 	["Aggi Rumblestomp"] = "Aggi Piesdeplomo";
-	["Frostwolf Graveyard"] = "Cementerio Lobo Gélido";
 	["Jotek"] = "Jotek";
 	["Smith Regzar"] = "Herrero Regzar";
 	["Primalist Thurloga"] = "Primalist Thurloga";
@@ -158,27 +133,15 @@ AtlasBGLocale = {
 	["West Frostwolf Tower"] = "Torre Lobo Gélido Oeste";
 	["East Frostwolf Tower"] = "Torre Lobo Gélido Este";
 	["Frostwolf Relief Hut"] = "Puesto de auxilio de Lobo Gélido";
-	["Wildpaw Cavern"] = "Caverna Zarpa Salvaje";
 	["Frostwolf Banner"] = "Estandarte de Lobo Gélido";
 
 	--Arathi Basin
 	["The Defilers"] = "Los Rapiñadores";
 	["The League of Arathor"] = "La Liga de Arathor";
-	["Trollbane Hall"] = "Bastión de Trollbane";
-	["Defiler's Den"] = "Guarida de los Rapiñadores";
-	["Stables"] = "Establo";
-	["Gold Mine"] = "Mina de Oro";
-	["Smithy"] = "Herrería";
-	["Lumber Mill"] = "Aserradero";
-	["Farm"] = "Granja";
 
---Eye of the Storm
-	["Graveyard"] = "Cementerio";
+	--Eye of the Storm
 	["Flag"] = "Bandera";
-	["Mage Tower"] = "Torre de los Magos";
-	["Draenei Ruins"] = "Ruinas de los Draenei";
-	["Fel Reaver Ruins"] = "Ruinas de Atracador Vil";
-	["Blood Elf Tower"] = "Torre de los Elfos de Sangre";
+
 	--Isle of Conquest
 	["The Refinery"] = "La Refinería";
 	["The Docks"] = "El Astillero";
@@ -191,6 +154,7 @@ AtlasBGLocale = {
 	["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
 	["Overlord Agmar"] = "Señor supremo Agmar";
 	["High Commander Halford Wyrmbane <7th Legion>"] = "Alto comandante Halford Aterravermis <La Séptima Legión>";
+
 	--Strand of the Ancients
 	["Attacking Team"] = "Equipo atacante";
 	["Defending Team"] = "Equipo defendiendo";
@@ -200,10 +164,10 @@ AtlasBGLocale = {
 	["Graveyard Flag"] = "Bandera del Cementerio";
 	["Titan Relic"] = "Reliquia de titán";
 	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
+
 	--Warsong Gulch
 	["Warsong Outriders"] = "Escoltas de Grito de Guerra";
 	["Silverwing Sentinels"] = "Centinelas Ala de Plata";
-	["Silverwing Hold"] = "Bastión Ala de Plata";
-	["Warsong Lumber Mill"] = "Serrería Grito de Guerra";
+
 };
 end

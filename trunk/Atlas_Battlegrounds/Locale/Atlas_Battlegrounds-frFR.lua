@@ -40,36 +40,23 @@ AtlasBGLocale = {
 	["Start"] = "Départ";
 	["Summon"] = "Invoqué";
 	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
-	
+
 	--Places
-	["Alterac Mountains"] = "Montagnes d'Alterac";
-	["Alterac Valley"] = "Vallée d'Alterac"; ["AV"] = "AV/Alterac";
-	["Arathi Basin"] = "Bassin d'Arathi"; ["AB"] = "AB/Arathi";
-	["Arathi Highlands"] = "Hautes-Terres d'Arathi";
-	["Ashenvale"] = "Orneval";
-	["Dragonblight"] = "Désolation des dragons";
-	["Eastern Kingdoms"] = "Royaumes de l'Est";
+	["AV"] = "AV/Alterac"; -- Alterac Valley
+	["AB"] = "AB/Arathi"; -- Arathi Basin
 	["Eye of the Storm"] = "L'Œil du cyclone"; ["EotS"] = "EotS/L'Œil";
-	["Hillsbrad Foothills"] = "Contreforts de Hautebrande";
-	["Icecrown"] = "La Couronne de glace";
-	["Isle of Conquest"] = "Île des Conquérants"; ["IoC"] = "IoC";
-	["Kalimdor"] = "Kalimdor";
-	["Netherstorm"] = "Raz-de-Néant";
-	["Outland"] = "Outreterre";
-	["Strand of the Ancients"] = "Rivage des Anciens"; ["SotA"] = "RdA";
-	["The Barrens"] = "Les Tarides";
-	["Warsong Gulch"] = "Goulet des Chanteguerres"; ["WSG"] = "WSG/Goulet";
+	["IoC"] = "IoC"; -- Isle of Conquest
+	["SotA"] = "RdA"; -- Strand of the Ancients
+	["WSG"] = "WSG/Goulet"; -- Warsong Gulch
 
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Garde Foudrepique";
-	["Dun Baldar"] = "Dun Baldar";
 	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Foudrepique <Général Foudrepique>";
 	["Dun Baldar North Marshal"] = "Maréchal de Dun Baldar nord";
 	["Dun Baldar South Marshal"] = "Maréchal de Dun Baldar sud";
 	["Icewing Marshal"] = "Maréchal de l'Aile de glace";
 	["Stonehearth Marshal"] = "Maréchal de Gîtepierre";
 	["Prospector Stonehewer"] = "Prospectrice Taillepierre";
-	["Irondeep Mine"] = "Mine de Gouffrefer";
 	["Morloch"] = "Morloch";
 	["Umi Thorson"] = "Umi Thorson";
 	["Keetar"] = "Keetar";
@@ -94,21 +81,14 @@ AtlasBGLocale = {
 	["Dun Baldar South Bunker"] = "Fortin sud de Dun Baldar";
 	["Corporal Noreg Stormpike"] = "Caporal Noreg Foudrepique";
 	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Forgemartel <Officier de ravitaillement Foudrepique>";
-	["Stormpike Graveyard"] = "Cimetière Foudrepique";
-	["Icewing Cavern"] = "Caverne de l'Aile de glace";
 	["Stormpike Banner"] = "Bannière foudrepique";
 	["Stormpike Lumber Yard"] = "Entrepôt de bois Foudrepique";
 	["Wing Commander Jeztor"] = "Chef d'escadrille Jeztor";
-	["Icewing Bunker"] = "Tour de l'Aile de glace";
 	["Wing Commander Guse"] = "Chef d'escadrille Guse";
-	["Stonehearth Graveyard"] = "Cimetière Gîtepierre";
 	["Stormpike Ram Rider Commander"] = "Commandant Chevaucheur de bélier Foudrepique";
-	["Stonehearth Outpost"] = "Avant-poste de Gîtepierre";
 	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitaine Balinda Gîtepierre <Capitaine Foudrepique>";
-	["Snowfall Graveyard"] = "Cimetière des neiges";
 	["Ichman's Beacon"] = "Balise d'Ichman";
 	["Mulverick's Beacon"] = "Balise de Mulverick";
-	["Stonehearth Bunker"] = "Tour de Gîtepierre";
 	["Ivus the Forest Lord"] = "Ivus le Seigneur de la forêt";
 	["Western Crater"] = "Cratère Ouest";
 	["Vipore's Beacon"] = "Balise de Vipore";
@@ -122,7 +102,6 @@ AtlasBGLocale = {
 
 	--Alterac Valley (South)
 	["Frostwolf Clan"] = "Clan Loup-de-givre";
-	["Frostwolf Keep"] = "Donjon Loup-de-givre";
 	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <Général Loup-de-givre>";
 	["Duros"] = "Duros";
 	["Drakan"] = "Drakan";
@@ -131,16 +110,12 @@ AtlasBGLocale = {
 	["Tower Point Warmaster"] = "Maître de guerre de la Tour de la halte";
 	["Iceblood Warmaster"] = "Maître de guerre de Glace-sang";
 	["Lokholar the Ice Lord"] = "Lokholar le Seigneur de glace";
-	["Iceblood Garrison"] = "Garnison de Glace-sang";
 	["Captain Galvangar <Frostwolf Captain>"] = "Capitaine Galvangar <Capitaine Loup-de-givre>";
 	["Iceblood Tower"] = "Tour de Glace-sang";
-	["Iceblood Graveyard"] = "Cimetière de Glace-sang";
 	["Tower Point"] = "Tour de la Halte";
-	["Coldtooth Mine"] = "Mine de Froidedent";
 	["Taskmaster Snivvle"] = "Sous-chef Snivvle";
 	["Masha Swiftcut"] = "Masha Vivecoupe";
 	["Aggi Rumblestomp"] = "Aggi Grondécrase";
-	["Frostwolf Graveyard"] = "Cimetière de Loup-de-givre";
 	["Jotek"] = "Jotek";
 	["Smith Regzar"] = "Forgeron Regzar";
 	["Primalist Thurloga"] = "Primaliste Thurloga";
@@ -151,27 +126,14 @@ AtlasBGLocale = {
 	["West Frostwolf Tower"] = "Tour Loup-de-givre occidentale";
 	["East Frostwolf Tower"] = "Tour Loup-de-givre orientale";
 	["Frostwolf Relief Hut"] = "Hutte de guérison Loup-de-givre";
-	["Wildpaw Cavern"] = "Caverne des Follepatte";
 	["Frostwolf Banner"] = "Bannière Loup-de-givre";
 
 	--Arathi Basin
 	["The Defilers"] = "Les Profanateurs";
 	["The League of Arathor"] = "La Ligue d'Arathor";
-	["Trollbane Hall"] = "Manoir de Trollemort";
-	["Defiler's Den"] = "L'antre des Profanateurs";
-	["Stables"] = "Ecuries";
-	["Gold Mine"] = "Mine";
-	["Smithy"] = "Forge";
-	["Lumber Mill"] = "Scierie";
-	["Farm"] = "Ferme";
 
 	--Eye of the Storm
-	["Graveyard"] = "Cimetière";
 	["Flag"] = "Drapeau";
-	["Mage Tower"] = "Tour des mages";
-	["Draenei Ruins"] = "Ruines draenei";
-	["Fel Reaver Ruins"] = "Ruines des saccageurs gangrenés";
-	["Blood Elf Tower"] = "Tour des elfes de sang";
 
 	--Isle of Conquest
 	["The Refinery"] = "Raffinerie";
@@ -199,7 +161,6 @@ AtlasBGLocale = {
 	--Warsong Gulch
 	["Warsong Outriders"] = "Voltigeurs Chanteguerre";
 	["Silverwing Sentinels"] = "Sentinelles d'Aile-argent";
-	["Silverwing Hold"] = "Fort d'Aile-argent";
-	["Warsong Lumber Mill"] = "Scierie des Chanteguerre";
+
 };
 end

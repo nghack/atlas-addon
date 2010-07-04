@@ -192,6 +192,22 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Namdo Bizzfizzle <Engineering Supplies>"], NPC, 2683 };
 		{ GREY.."4) "..AtlasLocale["Techbot"], NPC, 6231 };
 	};
+	HCEnt = {
+		ZoneName = { BabbleZone["Hellfire Citadel"].." ("..AtlasLocale["Entrance"]..")", 3545 };
+		Location = { BabbleZone["Hellfire Peninsula"], 3483 };
+		LevelRange = "59-70";
+		MinLevel = "55";
+		PlayerLimit = "5 / 25";
+		Acronym = "HC";
+		{ BLUE.."A) "..AtlasLocale["Steps and path to the Blood Furnace"] };
+		{ BLUE.."B) "..AtlasLocale["Path to the Hellfire Ramparts and Shattered Halls"] };
+		{ BLUE.."C) "..BabbleZone["Hellfire Ramparts"] };
+		{ BLUE.."D) "..BabbleZone["The Shattered Halls"] };
+		{ BLUE.."E) "..BabbleZone["The Blood Furnace"] };
+		{ BLUE.."F) "..BabbleZone["Magtheridon's Lair"] };
+		{ GREY.."1) "..AtlasLocale["Meeting Stone of Magtheridon's Lair"] };
+		{ GREY.."2) "..AtlasLocale["Meeting Stone of Hellfire Citadel"] };
+	};
 	KarazhanEnt = {
 		ZoneName = { BabbleZone["Karazhan"].." ("..AtlasLocale["Entrance"]..")", 2562 };
 		Location = { BabbleZone["Deadwind Pass"], 41 };

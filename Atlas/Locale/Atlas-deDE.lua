@@ -378,6 +378,12 @@ AtlasLocale = {
 	["Namdo Bizzfizzle <Engineering Supplies>"] = "Namdo Blitzzischel <Ingenieursbedarf>";
 	["Techbot"] = "Techbot";
 
+	-- Hellfire Citadel (Entrance)
+	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";
+	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";
+	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";
+
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Erzmagierin Leryda";
 	["Apprentice Darius"] = "Lehrling Darius";

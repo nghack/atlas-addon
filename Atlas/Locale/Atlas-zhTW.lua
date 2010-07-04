@@ -230,7 +230,6 @@ AtlasLocale = {
 	["Lib"] = "Lib"; -- Library 圖書館
 	["Mara"] = "Mara/瑪拉"; -- Maraudon 瑪拉頓
 	["MC"] = "MC"; -- Molten Core 熔火之心
-	["Ony"] = "Ony/黑龍"; 奧妮克希亞的巢穴
 	["RFC"] = "RFC/怒焰"; -- Ragefire Chasm 怒焰裂谷
 	["RFD"] = "RFD"; -- Razorfen Downs 剃刀高地
 	["RFK"] = "RFK"; -- Razorfen Kraul 剃刀沼澤
@@ -295,6 +294,7 @@ AtlasLocale = {
 	["Nax"] = "Nax/納克"; -- Naxxramas -- 納克薩瑪斯
 	["Nex, Nexus"] = "Nex/奧心"; -- The Nexus -- 奧核之心
 	["Ocu"] = "Ocu/奧眼"; -- The Oculus -- 奧核之眼
+	["Ony"] = "Ony/黑龍"; -- Onyxia's Lair 奧妮克希亞的巢穴
 	["OS"] = "OS/黑曜"; -- The Obsidian Sanctum -- 黑曜聖所
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron -- 薩倫之淵
 	["RS"] = "RS/晶紅"; -- The Ruby Sanctum
@@ -536,11 +536,6 @@ AtlasLocale = {
 	["Willix the Importer"] = "進口商威利克斯";
 	["Heralath Fallowbrook"] = "赫爾拉斯·靜水";
 	["Earthcaller Halmgar"] = "喚地者哈穆加";
-
-	--Onyxia's Lair
-	["Onyxian Warders"] = "奧妮克希亞守衛";
-	["Whelp Eggs"] = "雛龍蛋";
-	["Onyxia"] = "奧妮克希亞";
 
 	--Ruins of Ahn'Qiraj
 	["Cenarion Circle"] = "塞納里奧議會";
@@ -1518,6 +1513,11 @@ AtlasLocale = {
 	["Tenebron"] = "坦納伯朗";
 	["Shadron"] = "夏德朗";
 	["Vesperon"] = "維斯佩朗";
+
+	--Onyxia's Lair
+	["Onyxian Warders"] = "奧妮克希亞守衛";
+	["Whelp Eggs"] = "雛龍蛋";
+	["Onyxia"] = "奧妮克希亞";
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "紅龍軍團密室";

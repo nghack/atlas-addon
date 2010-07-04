@@ -350,6 +350,11 @@ AtlasLocale = {
 	["Isle of Quel'Danas"] = "Isla de Quel'Danas";
 	["Netherstorm"] = "Tormenta Abisal";
 	["Orgrimmar"] = "Orgrimmar";
+	-- Hellfire Citadel (Entrance)
+	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";
+	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";
+	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";
 	["Searing Gorge"] = "La Garganta de Fuego";
 	["Shadowmoon Valley"] = "Valle Sombraluna";
 	["Silithus"] = "Silithus";

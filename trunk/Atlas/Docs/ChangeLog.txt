@@ -10,6 +10,7 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 v1.16.2
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith)
+- new map: Hellfire Citadel dungen entrace map (arith)
 - cleaned up and tweaked some code
 - translation update for several languages
   - German: Dynaletik

@@ -119,7 +119,12 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "Праздника пива";
+	["Hallow's End"] = "Тыква";
+	["Lunar Festival"] = "Лунный фестиваль";
+	["Midsummer Festival"] = "Огненный солнцеворот";
+	--Misc strings
 	["Adult"] = "Взрослый";
 	["AKA"] = "AKA";
 	["Alliance"] = "Альянс";
@@ -134,7 +139,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "Чертежи кузнечного дела";
 	["Boss"] = "Босс";
 	["Brazier of Invocation"] = "Жаровня Вызова";
-	["Brewfest"] = "Праздника пива";
 	["Chase Begins"] = "Начало охоты";
 	["Chase Ends"] = "Конец охоты";
 	["Child"] = "Ребенок";
@@ -150,7 +154,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "Четвертая остановка";
 	["Front"] = "Передний";
 	["Ghost"] = "Призрак";
-	["Hallow's End"] = "Тыква";
 	["Heroic"] = "Героический";
 	["Holy Paladin"] = "Паладин-Света";
 	["Holy Priest"] = "Жрец-Света";
@@ -162,10 +165,8 @@ AtlasLocale = {
 	["Love is in the Air"] = "Любовная лихорадка";
 	["Lower"] = "Нижний";
 	["Lunar"] = "Лунный";
-	["Lunar Festival"] = "Лунный фестиваль";
 	["Mage"] = "Маг";
 	["Meeting Stone"] = "Камень встреч";
-	["Midsummer Festival"] = "Огненный солнцеворот";
 	["Monk"] = "Монах";
 	["Moonwell"] = "Лунный колодец";
 	["Optional"] = "Необяз.";
@@ -374,10 +375,10 @@ AtlasLocale = {
 	["Techbot"] = "Техбот";
 
 	-- Hellfire Citadel (Entrance)
-	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";
-	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";
-	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";
-	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";
+	["Steps and path to the Blood Furnace"] = "Подъем и путь к Кузне Крови";
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Путь к Бастионам и Разрушенным залам";
+	["Meeting Stone of Magtheridon's Lair"] = "Камень встреч Логова Магтеридона";
+	["Meeting Stone of Hellfire Citadel"] = "Камень встреч Цитадели Адского Пламени";
 
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Верховный маг Лерида";

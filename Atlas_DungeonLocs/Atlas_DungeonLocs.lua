@@ -21,6 +21,7 @@
 
 --]]
 
+local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
 
 local BLUE = "|cff6666ff";
@@ -124,7 +125,7 @@ local myData = {
 		{ GREY.."2) "..BabbleZone["Azjol-Nerub"]..", ".._RED..BabbleZone["Dragonblight"], ZONE, nil, 65 };
 		{ GREY..INDENT..BabbleZone["Azjol-Nerub"], ZONE, 3477 };
 		{ GREY..INDENT..BabbleZone["Ahn'kahet: The Old Kingdom"], ZONE, 4494 };
-		{ GREY.."3) "..AtlasDLLocale["The Chamber of Aspects"]..", ".._RED..BabbleZone["Dragonblight"], ZONE, nil, 65 };
+		{ GREY.."3) "..BabbleSubZone["Chamber of Aspects"]..", ".._RED..BabbleZone["Dragonblight"], ZONE, nil, 65 };
 		{ GREY..INDENT..BabbleZone["The Obsidian Sanctum"], ZONE, 4493 };
 		{ GREY..INDENT..BabbleZone["The Ruby Sanctum"], ZONE, 4987 };
 		{ GREY.."4) "..BabbleZone["Naxxramas"]..", ".._RED..BabbleZone["Dragonblight"], ZONE, 3456, 65 };
@@ -139,12 +140,12 @@ local myData = {
 		{ GREY..INDENT..BabbleZone["Ulduar"], ZONE, 4273 };
 		{ GREY..INDENT..BabbleZone["Halls of Stone"], ZONE, 4264 };
 		{ GREY..INDENT..BabbleZone["Halls of Lightning"], ZONE, 4272 };
-		{ GREY.."11) "..AtlasDLLocale["Crusaders' Coliseum"]..", ".._RED..BabbleZone["Icecrown"], ZONE, nil, 210 };
+		{ GREY.."11) "..BabbleSubZone["Crusaders' Coliseum"]..", ".._RED..BabbleZone["Icecrown"], ZONE, nil, 210 };
 		{ GREY..INDENT..BabbleZone["Trial of the Crusader"], ZONE, 4722 };
 		{ GREY..INDENT..BabbleZone["Trial of the Champion"], ZONE, 4723 };
 		{ GREY.."12) "..BabbleZone["Icecrown Citadel"]..", ".._RED..BabbleZone["Icecrown"], ZONE, nil, 210 };
 		{ GREY..INDENT..BabbleZone["Icecrown Citadel"], ZONE, 4812 };
-		{ GREY..INDENT..AtlasDLLocale["The Frozen Halls"], ZONE, nil, 210 };		
+		{ GREY..INDENT..BabbleSubZone["The Frozen Halls"], ZONE, nil, 210 };		
 		{ GREY..INDENT..INDENT..BabbleZone["The Forge of Souls"], ZONE, 4809 };
 		{ GREY..INDENT..INDENT..BabbleZone["Pit of Saron"], ZONE, 4813 };
 		{ GREY..INDENT..INDENT..BabbleZone["Halls of Reflection"], ZONE, 4820 };

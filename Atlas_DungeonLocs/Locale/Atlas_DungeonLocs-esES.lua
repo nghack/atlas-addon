@@ -42,10 +42,5 @@ AtlasDLLocale = {
 	["Instances"] = "Mazmorras";
 	["White"] = "Blanco";
 
-	--Places
-	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
-	["The Chamber of Aspects"] = "Cámara de los Aspectos";
-	["The Frozen Halls"] = "Las Cámaras Heladas";
-
 };
 end

@@ -41,10 +41,5 @@ AtlasDLLocale = {
 	["Instances"] = "Инстансы";
 	["White"] = "Белый";
 
-	--Places
-	["Crusaders' Coliseum"] = "Колизей Авангарда";
-	["The Chamber of Aspects"] = "Драконьи чертоги";
-	["The Frozen Halls"] = "Ледяные залы";
-
 };
 end

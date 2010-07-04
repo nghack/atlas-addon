@@ -120,6 +120,7 @@ AtlasLocale = {
 	--World Events, Festival
 	["Brewfest"] = "Brewfest";
 	["Hallow's End"] = "Hallow's End";
+	["Love is in the Air"] = "Love is in the Air";
 	["Lunar Festival"] = "Lunar Festival";
 	["Midsummer Festival"] = "Midsummer Festival";
 	--Misc strings
@@ -160,7 +161,6 @@ AtlasLocale = {
 	["Imp"] = "Imp";
 	["Inside"] = "Inside";
 	["Key"] = "Key";
-	["Love is in the Air"] = "Love is in the Air";
 	["Lower"] = "Lower";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Meeting Stone";
@@ -257,7 +257,7 @@ AtlasLocale = {
 	["CR"] = "CR"; -- Coilfang Reservoir
 	["Eye"] = "Eye"; -- The Eye
 	["GL"] = "GL"; -- Gruul's Lair
-	["HFC"] = "HFC"; -- Hellfire Citadel
+	["HC"] = "HC"; -- Hellfire Citadel
 	["Kara"] = "Kara"; -- Karazhan
 	["MaT"] = "MT"; -- Magisters' Terrace
 	["Mag"] = "Mag"; -- Magtheridon's Lair
@@ -303,9 +303,7 @@ AtlasLocale = {
 	["VoA"] = "VoA"; -- Vault of Archavon
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "Chamber of Aspects";
 	["Crusaders' Coliseum"] = "Crusaders' Coliseum"; 
-	["Frozen Halls"] = "Frozen Halls";
 
 --************************************************
 -- Instance Entrance Maps

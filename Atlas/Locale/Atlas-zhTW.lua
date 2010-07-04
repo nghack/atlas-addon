@@ -123,6 +123,7 @@ AtlasLocale = {
 	--World Events, Festival
 	["Brewfest"] = "啤酒節";
 	["Hallow's End"] = "萬鬼節";
+	["Love is in the Air"] = "愛就在身邊";
 	["Lunar Festival"] = "新年慶典";
 	["Midsummer Festival"] = "仲夏節慶";
 	--Misc strings
@@ -163,7 +164,6 @@ AtlasLocale = {
 	["Imp"] = "小鬼";
 	["Inside"] = "內部";
 	["Key"] = "鑰匙";
-	["Love is in the Air"] = "愛就在身邊";
 	["Lower"] = "下層";
 	["Mage"] = "法師";
 	["Meeting Stone"] = "集合石";
@@ -260,7 +260,7 @@ AtlasLocale = {
 	["CR"] = "CR/盤牙"; -- Coilfang Reservoir
 	["Eye"] = "Eye";  -- The Eye 中文版裡 The Eye 名稱被刪除，以 風暴要塞 命名這個25人副本
 	["GL"] = "GL/戈魯爾"; -- Gruul's Lair 戈魯爾之巢
-	["HFC"] = "HFC/火堡"; -- Hellfire Citadel 地獄火堡壘
+	["HC"] = "HFC/火堡"; -- Hellfire Citadel 地獄火堡壘
 	["Kara"] = "Kara/卡拉"; -- Karazhan 卡拉贊
 	["MaT"] = "MT/博學"; -- Magisters' Terrace 博學者殿堂
 	["Mag"] = "Mag/瑪瑟"; -- Magtheridon's Lair 瑪瑟里頓的巢穴
@@ -306,9 +306,7 @@ AtlasLocale = {
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "守護巨龍之間";
 	["Crusaders' Coliseum"] = "銀白大競技場";
-	["Frozen Halls"] = "冰封大廳";
 
 --************************************************
 -- Instance Entrance Maps

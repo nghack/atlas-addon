@@ -40,10 +40,5 @@ AtlasDLLocale = {
 	["Instances"] = "副本地下城";
 	["White"] = "白色";
 
-	--Places
-	["Crusaders' Coliseum"] = "银白大竞技场";
-	["The Chamber of Aspects"] = "守护巨龙的密室";
-	["The Frozen Halls"] = "冰封大厅";
-
 };
 end

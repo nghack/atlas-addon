@@ -227,7 +227,6 @@ AtlasLocale = {
 	["Lib"] = "Lib"; -- Library
 	["Mara"] = "Mara"; -- Maraudon
 	["MC"] = "MC"; -- Molten Core
-	["Ony"] = "Ony"; -- Onyxia's Lair
 	["RFC"] = "RFC"; -- Ragefire Chasm
 	["RFD"] = "RFD"; -- Razorfen Downs
 	["RFK"] = "RFK"; -- Razorfen Kraul
@@ -292,6 +291,7 @@ AtlasLocale = {
 	["Nax"] = "Nax"; -- Naxxramas
 	["Nex, Nexus"] = "Nex, Nexus"; -- The Nexus
 	["Ocu"] = "Ocu"; -- The Oculus
+	["Ony"] = "Ony"; -- Onyxia's Lair
 	["OS"] = "OS"; -- The Obsidian Sanctum
 	["PoS"] = "PoS"; ["FH2"] = "FH2"; -- Pit of Saron
 	["RS"] = "RS"; -- The Ruby Sanctum
@@ -533,11 +533,6 @@ AtlasLocale = {
 	["Willix the Importer"] = "Willix the Importer";
 	["Heralath Fallowbrook"] = "Heralath Fallowbrook";
 	["Earthcaller Halmgar"] = "Earthcaller Halmgar";
-
-	--Onyxia's Lair
-	["Onyxian Warders"] = "Onyxian Warders";
-	["Whelp Eggs"] = "Whelp Eggs";
-	["Onyxia"] = "Onyxia";
 
 	--Ruins of Ahn'Qiraj
 	["Cenarion Circle"] = "Cenarion Circle";
@@ -1515,6 +1510,11 @@ AtlasLocale = {
 	["Tenebron"] = "Tenebron";
 	["Shadron"] = "Shadron";
 	["Vesperon"] = "Vesperon";
+
+	--Onyxia's Lair
+	["Onyxian Warders"] = "Onyxian Warders";
+	["Whelp Eggs"] = "Whelp Eggs";
+	["Onyxia"] = "Onyxia";
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "Red Dragonflight Chamber";

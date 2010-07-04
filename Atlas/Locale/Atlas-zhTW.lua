@@ -120,9 +120,14 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "啤酒節";
+	["Hallow's End"] = "萬鬼節";
+	["Lunar Festival"] = "新年慶典";
+	["Midsummer Festival"] = "仲夏節慶";
+	--Misc strings
 	["Adult"] = "成年";
-	["AKA"] = "亦即";
+	["AKA"] = "又稱";
 	["Alliance"] = "聯盟";
 	["Arcane Container"] = "秘法容器";
 	["Argent Dawn"] = "銀色黎明";
@@ -135,7 +140,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "黑鐵鍛造圖樣";
 	["Boss"] = "首領";
 	["Brazier of Invocation"] = "祈願火盆";
-	["Brewfest"] = "啤酒節";
 	["Chase Begins"] = "追逐開始";
 	["Chase Ends"] = "追逐結束";
 	["Child"] = "幼年";
@@ -151,7 +155,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "第四停留點";
 	["Front"] = "前方";
 	["Ghost"] = "鬼魂";
-	["Hallow's End"] = "萬鬼節";
 	["Heroic"] = "英雄";
 	["Holy Paladin"] = "神聖聖騎";
 	["Holy Priest"] = "神聖牧師";
@@ -162,11 +165,8 @@ AtlasLocale = {
 	["Key"] = "鑰匙";
 	["Love is in the Air"] = "愛就在身邊";
 	["Lower"] = "下層";
-	["Lunar"] = "新年慶典";
-	["Lunar Festival"] = "新年慶典";
 	["Mage"] = "法師";
 	["Meeting Stone"] = "集合石";
-	["Midsummer Festival"] = "仲夏節慶";
 	["Monk"] = "僧侶";
 	["Moonwell"] = "月井";
 	["Optional"] = "可選擇";
@@ -306,7 +306,7 @@ AtlasLocale = {
 	["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "守護密室";
+	["Chamber of Aspects"] = "守護巨龍之間";
 	["Crusaders' Coliseum"] = "銀白大競技場";
 	["Frozen Halls"] = "冰封大廳";
 
@@ -684,7 +684,7 @@ AtlasLocale = {
 	--Blackrock Spire (Lower)
 	["Vaelan"] = "維埃蘭";
 	["Warosh <The Cursed>"] = "瓦羅什";
-	["Elder Stonefort"] = "石壘長者 (新年慶典)";
+	["Elder Stonefort"] = "石壘長者";
 	["Roughshod Pike"] = "尖銳長矛";
 	["Spirestone Butcher"] = "尖石屠夫";
 	["Highlord Omokk"] = "歐莫克大王";

@@ -117,7 +117,12 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "Brewfest";
+	["Hallow's End"] = "Hallow's End";
+	["Lunar Festival"] = "Lunar Festival";
+	["Midsummer Festival"] = "Midsummer Festival";
+	--Misc strings
 	["Adult"] = "Adult";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alliance";
@@ -132,7 +137,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "Blacksmithing Plans";
 	["Boss"] = "Boss";
 	["Brazier of Invocation"] = "Brazier of Invocation";
-	["Brewfest"] = "Brewfest";
 	["Chase Begins"] = "Chase Begins";
 	["Chase Ends"] = "Chase Ends";
 	["Child"] = "Child";
@@ -148,7 +152,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "Fourth Stop";
 	["Front"] = "Front";
 	["Ghost"] = "Ghost";
-	["Hallow's End"] = "Hallow's End";
 	["Heroic"] = "Heroic";
 	["Holy Paladin"] = "Holy Paladin";
 	["Holy Priest"] = "Holy Priest";
@@ -159,11 +162,8 @@ AtlasLocale = {
 	["Key"] = "Key";
 	["Love is in the Air"] = "Love is in the Air";
 	["Lower"] = "Lower";
-	["Lunar"] = "Lunar";
-	["Lunar Festival"] = "Lunar Festival";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Meeting Stone";
-	["Midsummer Festival"] = "Midsummer Festival";
 	["Monk"] = "Monk";
 	["Moonwell"] = "Moonwell";
 	["Optional"] = "Optional";

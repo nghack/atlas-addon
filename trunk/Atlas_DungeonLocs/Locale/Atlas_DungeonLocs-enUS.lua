@@ -30,9 +30,4 @@ AtlasDLLocale = {
 	["Instances"] = "Instances";
 	["White"] = "White";
 
-	--Places
-	["Crusaders' Coliseum"] = "Crusaders' Coliseum";
-	["The Chamber of Aspects"] = "The Chamber of Aspects";
-	["The Frozen Halls"] = "The Frozen Halls";
-
 };

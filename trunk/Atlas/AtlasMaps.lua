@@ -92,7 +92,7 @@ AtlasMaps = {
 	BlackrockSpireEnt = {
 		ZoneName = { BabbleZone["Blackrock Mountain"].." ("..AtlasLocale["Entrance"]..")", 25 };
 		Location = { BabbleZone["Searing Gorge"].." / "..BabbleZone["Burning Steppes"], 51, 46 };
-		LevelRange = "54-70";
+		LevelRange = "54-60";
 		MinLevel = "45";
 		PlayerLimit = "5/10/40";
 		Acronym = AtlasLocale["BRM"];
@@ -197,8 +197,8 @@ AtlasMaps = {
 		Location = { BabbleZone["Hellfire Peninsula"], 3483 };
 		LevelRange = "59-70";
 		MinLevel = "55";
-		PlayerLimit = "5 / 25";
-		Acronym = "HC";
+		PlayerLimit = "5/25";
+		Acronym = AtlasLocale["HC"];
 		{ BLUE.."A) "..AtlasLocale["Steps and path to the Blood Furnace"] };
 		{ BLUE.."B) "..AtlasLocale["Path to the Hellfire Ramparts and Shattered Halls"] };
 		{ BLUE.."C) "..BabbleZone["Hellfire Ramparts"] };
@@ -1850,7 +1850,7 @@ AtlasMaps = {
 		{ GREY.."6) "..AtlasLocale["Drakuru's Brazier"] };
 	};
 	FHHallsOfReflection = {
-		ZoneName = { AtlasLocale["Frozen Halls"]..": "..BabbleZone["Halls of Reflection"], 4820 };
+		ZoneName = { BabbleSubZone["The Frozen Halls"]..": "..BabbleZone["Halls of Reflection"], 4820 };
 		Location = { BabbleZone["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -1869,7 +1869,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["The Captain's Chest"], OBJECT, 201710 };
 	};
 	FHPitOfSaron = {
-		ZoneName = { AtlasLocale["Frozen Halls"]..": "..BabbleZone["Pit of Saron"], 4813 };
+		ZoneName = { BabbleSubZone["The Frozen Halls"]..": "..BabbleZone["Pit of Saron"], 4813 };
 		Location = { BabbleZone["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -1892,7 +1892,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Rimefang"], NPC, 36661 };
 	};
 	FHTheForgeOfSouls = {
-		ZoneName = { AtlasLocale["Frozen Halls"]..": "..BabbleZone["The Forge of Souls"], 4809 };
+		ZoneName = { BabbleSubZone["The Frozen Halls"]..": "..BabbleZone["The Forge of Souls"], 4809 };
 		Location = { BabbleZone["Icecrown Citadel"], 4812 };
 		LevelRange = "80+";
 		MinLevel = "80";
@@ -2016,7 +2016,7 @@ AtlasMaps = {
 		{ GREN..INDENT.."2) "..AtlasLocale["Kel'Thuzad"], NPC, 15990 };
 	};
 	ObsidianSanctum = {
-		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..BabbleZone["The Obsidian Sanctum"], 4493 };
+		ZoneName = { BabbleSubZone["Chamber of the Aspects"]..": "..BabbleZone["The Obsidian Sanctum"], 4493 };
 		Location = { BabbleZone["Dragonblight"], 65 };
 		LevelRange = "80";
 		MinLevel = "80";
@@ -2042,7 +2042,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["Onyxia"], NPC, 10184 };
 	};
 	RubySanctum = {
-		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..BabbleZone["The Ruby Sanctum"], 4987 };
+		ZoneName = { BabbleSubZone["Chamber of the Aspects"]..": "..BabbleZone["The Ruby Sanctum"], 4987 };
 		Location = { BabbleZone["Dragonblight"], 65 };
 		LevelRange = "80";
 		MinLevel = "80";

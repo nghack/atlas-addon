@@ -119,7 +119,13 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "Festival de la cerveza";
+	["Hallow's End"] = "Halloween";
+	["Love is in the Air"] = "Amor en el aire";
+	["Lunar Festival"] = "Festival lunar";
+	["Midsummer Festival"] = "Festival del solsticio de verano";
+	--Misc strings
 	["Adult"] = "Adulto";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alianza";
@@ -134,7 +140,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "Planos de herrero";
 	["Boss"] = "Jefe";
 	["Brazier of Invocation"] = "Blandón de Invocación";
-	["Brewfest"] = "Festival de la cerveza";
 	["Chase Begins"] = "Comienza persecución";
 	["Chase Ends"] = "Final persecución";
 	["Child"] = "Niño";
@@ -150,7 +155,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "Cuarta parada";
 	["Front"] = "Frente";
 	["Ghost"] = "Fantasma";
-	["Hallow's End"] = "Halloween";
 	["Heroic"] = "Heróico";
 	["Holy Paladin"] = "Paladín Sagrado";
 	["Holy Priest"] = "Sacerdote Sagrado";
@@ -159,13 +163,9 @@ AtlasLocale = {
 	["Imp"] = "Duendecillo";
 	["Inside"] = "Dentro";
 	["Key"] = "Llave";
-	["Love is in the Air"] = "Amor en el aire";
 	["Lower"] = "Abajo";
-	["Lunar"] = "Lunar";
-	["Lunar Festival"] = "Festival lunar";
 	["Mage"] = "Mago";
 	["Meeting Stone"] = "Piedra de encuentro";
-	["Midsummer Festival"] = "Festival del solsticio de verano";
 	["Monk"] = "Monje";	
 	["Moonwell"] = "Claro de la luna";
 	["Optional"] = "Opcional";
@@ -259,7 +259,7 @@ AtlasLocale = {
 	["CR"] = "RCT"; --Reserva Colmillo Torcido
 	["Eye"] = "Ojo"; --El Ojo"
 	["GL"] = "Gruul"; --Guarida de Gruul
-	["HFC"] = "CFI"; --Ciudadela del Fuego Infernal
+	["HC"] = "CFI"; --Ciudadela del Fuego Infernal
 	["Kara"] = "Kara";
 	["MaT"] = "BM"; --Bancal del Magister
 	["Mag"] = "Mag"; --Guarida de Magtheridon
@@ -305,9 +305,7 @@ AtlasLocale = {
 	["VoA"] = "CdA"; -- Vault of Archavon
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "Cámara de los Aspectos"; -- Need review
 	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
-	["Frozen Halls"] = "Cámaras Heladas";
 
 --************************************************
 -- Instance Entrance Maps

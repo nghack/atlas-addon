@@ -122,6 +122,7 @@ AtlasLocale = {
 	--World Events, Festival
 	["Brewfest"] = "Праздника пива";
 	["Hallow's End"] = "Тыква";
+	["Love is in the Air"] = "Любовная лихорадка";
 	["Lunar Festival"] = "Лунный фестиваль";
 	["Midsummer Festival"] = "Огненный солнцеворот";
 	--Misc strings
@@ -162,7 +163,6 @@ AtlasLocale = {
 	["Imp"] = "Бесс";
 	["Inside"] = "Внутри";
 	["Key"] = "Ключ";
-	["Love is in the Air"] = "Любовная лихорадка";
 	["Lower"] = "Нижний";
 	["Lunar"] = "Лунный";
 	["Mage"] = "Маг";
@@ -260,7 +260,7 @@ AtlasLocale = {
 	["CR"] = "РКК"; -- Резервуар Кривого Клыка
 	["Eye"] = "Око"; -- Око
 	["GL"] = "Груль"; -- Логово Груула
-	["HFC"] = "ЦАП"; -- Цитадель Адского Пламени
+	["HC"] = "ЦАП"; -- Цитадель Адского Пламени
 	["Kara"] = "Кара"; -- Каражан
 	["MaT"] = "ТМ"; -- Терраса Магистров
 	["Mag"] = "Маги"; -- Логово Магтеридона
@@ -306,9 +306,7 @@ AtlasLocale = {
 	["VoA"] = "Склеп"; -- Склеп Аркавона
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "Комната духов";
 	["Crusaders' Coliseum"] = "Колизей Авангарда"; 
-	["Frozen Halls"] = "Ледяные залы";
 
 --************************************************
 -- Instance Entrance Maps
@@ -1125,8 +1123,6 @@ AtlasLocale = {
 	["Erozion"] = "Эрозион";
 	["Brazen"] = "Бронзень";
 	["Landing Spot"] = "Место высадки";
-	["Southshore"] = "Южнобережье";
-	["Tarren Mill"] = "Mельницa Таррен";
 	["Lieutenant Drake"] = "Лейтенант Дрейк";
 	["Thrall"] = "Раб";
 	["Captain Skarloc"] = "Капитан Скарлок";
@@ -1163,7 +1159,6 @@ AtlasLocale = {
 	["Chef Jessen <Speciality Meat & Slop>"] = "Шеф-повар Джессен <Деликатесное мясо и похлебки>";
 	["Stalvan Mistmantle"] = "Сталван Мистмантл";
 	["Phin Odelic <The Kirin Tor>"] = "Фин Оделик <Кирин Тор>";
-	["Southshore Town Hall"] = "Ратуша южнобережья";
 	["Magistrate Henry Maleb"] = "Мировой судья Генри Малеб";
 	["Raleigh the True"] = "Роли Истинный";
 	["Nathanos Marris"] = "Натанос Маррис";

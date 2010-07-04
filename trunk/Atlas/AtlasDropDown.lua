@@ -588,7 +588,6 @@ Atlas_DropDownLayouts = {
 			"Gnomeregan",
 			"GruulsLair",
 			"Gundrak",
-			"HCEnt",
 			"HCBloodFurnace",
 			"HCHellfireRamparts",
 			"HCMagtheridonsLair",

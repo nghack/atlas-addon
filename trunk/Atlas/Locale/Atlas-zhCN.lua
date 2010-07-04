@@ -123,7 +123,13 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "美酒节";
+	["Hallow's End"] = "万圣节";
+	["Love is in the Air"] = "爱情的气息";
+	["Lunar Festival"] = "春节庆典";
+	["Midsummer Festival"] = "仲夏节庆典";
+	--Misc strings
 	["Adult"] = "成年";
 	["AKA"] = "亦作";
 	["Alliance"] = "联盟";
@@ -138,7 +144,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "锻造设计图";
 	["Boss"] = "首领";
 	["Brazier of Invocation"] = "符咒火盆";
-	["Brewfest"] = "美酒节";
 	["Chase Begins"] = "追捕开始";
 	["Chase Ends"] = "追捕结束";
 	["Child"] = "幼年";
@@ -154,7 +159,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "第四次止步";
 	["Front"] = "前门";
 	["Ghost"] = "幽灵";
-	["Hallow's End"] = "万圣节";
 	["Heroic"] = "英雄模式";
 	["Holy Paladin"] = "神圣圣骑士";
 	["Holy Priest"] = "神圣牧师";
@@ -163,13 +167,9 @@ AtlasLocale = {
 	["Imp"] = "小鬼";
 	["Inside"] = "内部";
 	["Key"] = "钥匙";
-	["Love is in the Air"] = "爱情的气息";
 	["Lower"] = "下层";
-	["Lunar"] = "春节";
-	["Lunar Festival"] = "春节庆典";
 	["Mage"] = "法师";
 	["Meeting Stone"] = "集合石";
-	["Midsummer Festival"] = "仲夏节庆典";
 	["Monk"] = "僧侣";
 	["Moonwell"] = "月亮井";
 	["Optional"] = "可跳过";
@@ -263,7 +263,7 @@ AtlasLocale = {
 	["CR"] = "CR"; -- Coilfang Reservoir
 	["Eye"] = "Eye"; -- The Eye
 	["GL"] = "GL"; -- Gruul's Lair
-	["HFC"] = "HFC"; -- Hellfire Citadel
+	["HC"] = "HC"; -- Hellfire Citadel
 	["Kara"] = "Kara"; -- Karazhan
 	["MaT"] = "MT"; -- Magisters' Terrace
 	["Mag"] = "Mag"; -- Magtheridon's Lair
@@ -309,9 +309,7 @@ AtlasLocale = {
 	["VoA"] = "VoA"; -- Vault of Archavon
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "守护巨龙大厅";
 	["Crusaders' Coliseum"] = "十字军大竞技场";
-	["Frozen Halls"] = "冰封大厅";
 
 --************************************************
 -- Instance Entrance Maps

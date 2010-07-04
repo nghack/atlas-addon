@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 03.07.2010
+-- Letztes Update: 04.07.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -124,7 +124,13 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "Braufest";
+	["Hallow's End"] = "Schlotternächte";
+	["Love is in the Air"] = "Liebe liegt in der Luft";
+	["Lunar Festival"] = "Mondfest";
+	["Midsummer Festival"] = "Sonnenwendfest";
+	--Misc strings
 	["Adult"] = "Erwachsen";
 	["AKA"] = "AKA";
 	["Alliance"] = "Allianz";
@@ -139,7 +145,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "Schmiedekunstpläne";
 	["Boss"] = "Boss";
 	["Brazier of Invocation"] = "Räuchergefäß der Anrufung";
-	["Brewfest"] = "Braufest";
 	["Chase Begins"] = "Jagd beginnt";
 	["Chase Ends"] = "Jagd endet";
 	["Child"] = "Kind";
@@ -155,7 +160,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "Vierter Halt";
 	["Front"] = "Vorne";
 	["Ghost"] = "Geist";
-	["Hallow's End"] = "Schlotternächte";
 	["Heroic"] = "Heroisch";
 	["Holy Paladin"] = "Heilig Paladin";
 	["Holy Priest"] = "Heilig Priesterin";
@@ -164,13 +168,9 @@ AtlasLocale = {
 	["Imp"] = "Wichtel";
 	["Inside"] = "Innen";
 	["Key"] = "Schlüssel";
-	["Love is in the Air"] = "Liebe liegt in der Luft";
 	["Lower"] = "Unten";
-	["Lunar"] = "Mondfest";
-	["Lunar Festival"] = "Mondfest";
 	["Mage"] = "Magier";
 	["Meeting Stone"] = "Versammlungsstein";
-	["Midsummer Festival"] = "Sonnenwendfest";
 	["Monk"] = "Mönch";
 	["Moonwell"] = "Mondbrunnen";
 	["Optional"] = "Optional";
@@ -264,7 +264,7 @@ AtlasLocale = {
 	["CR"] = "EK"; -- Coilfang Reservoir
 	["Eye"] = "FdS"; -- The Eye
 	["GL"] = "Gruul"; -- Gruul's Lair
-	["HFC"] = "HZ"; -- Hellfire Citadel
+	["HC"] = "HZ"; -- Hellfire Citadel
 	["Kara"] = "Kara"; -- Karazhan
 	["MaT"] = "TdM"; -- Magisters' Terrace
 	["Mag"] = "Maggi"; -- Magtheridon's Lair
@@ -310,9 +310,7 @@ AtlasLocale = {
 	["VoA"] = "Archa"; -- Vault of Archavon
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "Die Kammer der Aspekte";
 	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer"; 
-	["Frozen Halls"] = "Gefrorene Hallen";
 
 --************************************************
 -- Instance Entrance Maps
@@ -379,10 +377,10 @@ AtlasLocale = {
 	["Techbot"] = "Techbot";
 
 	-- Hellfire Citadel (Entrance)
-	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";
-	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";
-	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";
-	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";
+	["Steps and path to the Blood Furnace"] = "Stufen und Pfad zum Blutkessel";
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Pfad zum Höllenfeuerbollwerk und den zerschmetterten Hallen";
+	["Meeting Stone of Magtheridon's Lair"] = "Versammlungsstein für Magtheridons Kammer";
+	["Meeting Stone of Hellfire Citadel"] = "Versammlungsstein der Höllenfeuerzitadelle";
 
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Erzmagierin Leryda";

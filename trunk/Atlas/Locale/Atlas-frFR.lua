@@ -118,7 +118,13 @@ AtlasLocale = {
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
-	--Common strings
+	--World Events, Festival
+	["Brewfest"] = "Fête des Brasseurs";
+	["Hallow's End"] = "Sanssaint";
+	["Love is in the Air"] = "De l'amour dans l'air";
+	["Lunar Festival"] = "Festival lunaire";
+	["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
+	--Misc strings
 	["Adult"] = "Adulte";
 	["AKA"] = "AKA";
 	["Alliance"] = "Alliance";
@@ -133,7 +139,6 @@ AtlasLocale = {
 	["Blacksmithing Plans"] = "Plans de forge";
 	["Boss"] = "Boss";
 	["Brazier of Invocation"] = "Brasero d'invocation";
-	["Brewfest"] = "Fête des Brasseurs";
 	["Chase Begins"] = "Début de la chasse";
 	["Chase Ends"] = "Fin de la chasse";
 	["Child"] = "Enfant";
@@ -149,7 +154,6 @@ AtlasLocale = {
 	["Fourth Stop"] = "Quatrième arrêt";
 	["Front"] = "Principale"; -- Front de Front Door, trouver mieux
 	["Ghost"] = "Fantôme";
-	["Hallow's End"] = "Sanssaint";
 	["Heroic"] = "Héroïque";
 	["Holy Paladin"] = "Paladin Sacré";
 	["Holy Priest"] = "Prêtre Sacré";
@@ -158,13 +162,9 @@ AtlasLocale = {
 	["Imp"] = "Diablotin";
 	["Inside"] = "À l'intérieur";
 	["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation
-	["Love is in the Air"] = "De l'amour dans l'air";
 	["Lower"] = "En bas";
-	["Lunar"] = "Fête lunaire";
-	["Lunar Festival"] = "Festival lunaire";
 	["Mage"] = "Mage";
 	["Meeting Stone"] = "Pierre de rencontre";
-	["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
 	["Monk"] = "Moine";
 	["Moonwell"] = "Puits de lune";
 	["Optional"] = "Optionel";
@@ -258,7 +258,7 @@ AtlasLocale = {
 	["CR"] = "CR"; -- Coilfang Reservoir, Réservoir de Glissecroc
 	["Eye"] = "Eye/TK"; -- The Eye, L'Œil
 	["GL"] = "GL"; -- Gruul's Lair, Repaire de Gruul
-	["HFC"] = "HFC"; -- Hellfire Citadel, Citadelle des Flammes infernales
+	["HC"] = "HFC"; -- Hellfire Citadel, Citadelle des Flammes infernales
 	["Kara"] = "Kara"; -- Karazhan
 	["MaT"] = "MT"; -- Magisters' Terrace, Terrasse des Magistères
 	["Mag"] = "Mag"; -- Magtheridon's Lair, Le repaire de Magtheridon
@@ -304,9 +304,7 @@ AtlasLocale = {
 	["VoA"] = "Archa"; -- Caveau d'Archavon
 
 	--Zones not included in LibBabble-Zone
-	["Chamber of Aspects"] = "Chambre des Aspects";
 	["Crusaders' Coliseum"] = "L'épreuve du croisé";
-	["Frozen Halls"] = "Les salles Gelées";
 
 --************************************************
 -- Instance Entrance Maps

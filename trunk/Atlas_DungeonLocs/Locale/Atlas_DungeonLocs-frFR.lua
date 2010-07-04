@@ -32,5 +32,8 @@ AtlasDLLocale = {
 	["Instances"] = "Instances";
 	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
 
+	--Zones
+	["Crusaders' Coliseum"] = "L'épreuve du croisé";
+
 };
 end

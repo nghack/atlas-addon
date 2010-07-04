@@ -32,6 +32,9 @@ AtlasDLLocale = {
 	["Instances"] = "Instanzen";
 	["White"] = "Weiß";
 
+	--Zones
+	["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer";
+
 };
 
 end

@@ -30,6 +30,9 @@ AtlasDLLocale = {
 	["Dungeon Locations"] = "地下城位置";
 	["Instances"] = "副本";
 	["White"] = "白";
+	
+	--Zones
+	["Crusaders' Coliseum"] = "銀白大競技場";
 
 };
 end

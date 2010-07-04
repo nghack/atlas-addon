@@ -29,5 +29,8 @@ AtlasDLLocale = {
 	["Dungeon Locations"] = "Dungeon Locations";
 	["Instances"] = "Instances";
 	["White"] = "White";
+	
+	--Zones
+	["Crusaders' Coliseum"] = "Crusaders' Coliseum";
 
 };

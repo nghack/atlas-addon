@@ -78,7 +78,7 @@ local myData = {
 		{ BLUE.."A) "..BabbleSubZone["Menethil Harbor"]..", ".._RED..BabbleZone["Wetlands"], ZONE, 11 };
 		{ BLUE.."B) "..BabbleZone["Stormwind City"]..", ".._RED..BabbleZone["Elwynn Forest"], ZONE, 12 };
 		{ BLUE.."C) "..BabbleSubZone["Booty Bay"]..", ".._RED..BabbleZone["Stranglethorn Vale"], ZONE, 33 };
-		{ GREY.."1) "..BabbleSubZone["Rut'theran Village"]..", ".._RED..BabbleZone["Teldrassil"], ZONE, 141 };
+		{ GREY.."1) "..BabbleSubZone["Rut'Theran Village"]..", ".._RED..BabbleZone["Teldrassil"], ZONE, 141 };
 		{ GREY.."2) "..BabbleSubZone["Nighthaven"]..GREY..", ".._RED..BabbleZone["Moonglade"]..GREN.." ("..AtlasTransLocale["Druid-only"]..")", ZONE, 493 };
 		{ GREY.."3) "..AtlasTransLocale["South of the path along Lake Elune'ara"]..", ".._RED..BabbleZone["Moonglade"], ZONE, 493 };
 		{ GREY.."4) "..BabbleSubZone["Everlook"]..", ".._RED..BabbleZone["Winterspring"], ZONE, 618 };

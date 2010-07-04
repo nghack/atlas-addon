@@ -40,6 +40,9 @@ AtlasDLLocale = {
 	["Dungeon Locations"] = "Расположение подземелий";
 	["Instances"] = "Инстансы";
 	["White"] = "Белый";
+	
+	--Zones
+	["Crusaders' Coliseum"] = "Колизей Авангарда"; 
 
 };
 end

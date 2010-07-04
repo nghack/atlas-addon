@@ -41,6 +41,9 @@ AtlasDLLocale = {
 	["Dungeon Locations"] = "Lugares de Mazmorras";
 	["Instances"] = "Mazmorras";
 	["White"] = "Blanco";
+	
+	--Zones
+	["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
 
 };
 end

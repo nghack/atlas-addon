@@ -623,7 +623,7 @@ local function Process_Deprecated()
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
 		
 		--most recent (working) versions of known modules at time of release
-		{ "AtlasWorld", "2.4.3" },
+		{ "AtlasWorld", "3.3.5.3" }, -- updated July 18, 2010
 		{ "AtlasQuest", "4.4.2" }, --updated June 24, 2010
 		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
 		{ "AtlasLoot", "5.11.03" }, --updated July 1, 2010

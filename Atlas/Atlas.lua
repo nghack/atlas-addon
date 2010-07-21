@@ -625,7 +625,7 @@ local function Process_Deprecated()
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010
 		{ "AtlasQuest", "4.4.2" }, --updated June 24, 2010
-		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
+		{ "AtlasMajorCities", "v1.5.2" }, --updated July 20, 2010
 		{ "AtlasLoot", "5.11.03" }, --updated July 1, 2010
 	};
 

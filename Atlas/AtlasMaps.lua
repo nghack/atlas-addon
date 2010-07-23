@@ -199,14 +199,14 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "5/25";
 		Acronym = AtlasLocale["HC"];
-		{ BLUE.."A) "..AtlasLocale["Steps and path to the Blood Furnace"] };
-		{ BLUE.."B) "..AtlasLocale["Path to the Hellfire Ramparts and Shattered Halls"] };
-		{ BLUE.."C) "..BabbleZone["Hellfire Ramparts"] };
-		{ BLUE.."D) "..BabbleZone["The Shattered Halls"] };
-		{ BLUE.."E) "..BabbleZone["The Blood Furnace"] };
-		{ BLUE.."F) "..BabbleZone["Magtheridon's Lair"] };
+		{ BLUE.."A) "..BabbleZone["Hellfire Ramparts"], ZONE, 3562 };
+		{ BLUE.."B) "..BabbleZone["The Shattered Halls"], ZONE, 3714 };
+		{ BLUE.."C) "..BabbleZone["The Blood Furnace"], ZONE, 3713 };
+		{ BLUE.."D) "..BabbleZone["Magtheridon's Lair"], ZONE, 3836 };
 		{ GREY.."1) "..AtlasLocale["Meeting Stone of Magtheridon's Lair"] };
 		{ GREY.."2) "..AtlasLocale["Meeting Stone of Hellfire Citadel"] };
+		{ GREN.."1') "..AtlasLocale["Steps and path to the Blood Furnace"] };
+		{ GREN.."2') "..AtlasLocale["Path to the Hellfire Ramparts and Shattered Halls"] };
 	};
 	KarazhanEnt = {
 		ZoneName = { BabbleZone["Karazhan"].." ("..AtlasLocale["Entrance"]..")", 2562 };

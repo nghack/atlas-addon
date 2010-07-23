@@ -181,7 +181,7 @@ local myData = {
 	WarsongGulch = {
 		ZoneName = { BabbleZone["Warsong Gulch"], 3277 };
 		Location = { BabbleZone["Ashenvale"].." / "..BabbleZone["The Barrens"], 331, 17 };
-		LevelRange = "10–19 / 20–29 / 30–39 / 40–49 / 50–59 / 60–69 / 70–79 / 80";
+		LevelRange = "10-19 / 20-29 / 30-39 / 40-49 / 50-59 / 60-69 / 70-79 / 80";
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Acronym = AtlasBGLocale["WSG"];
@@ -242,6 +242,32 @@ local myData = {
 		{ GREN.."1') "..AtlasBGLocale["Contested Graveyards"] };
 		{ GREN.."2') "..AtlasBGLocale["Horde Graveyard"] };
 		{ GREN.."3') "..AtlasBGLocale["Alliance Graveyard"] };
+	};
+	-- Hellfire Peninsula PvP 
+	HellfirePeninsulaPvP = {
+		ZoneName = { BabbleZone["Hellfire Peninsula"].." ("..AtlasBGLocale["Hellfire Fortifications"]..")" };
+		Location = { BabbleZone["Hellfire Peninsula"], ZONE, 3483 };
+		{ GREY.."1) "..BabbleSubZone["The Stadium"], ZONE, 3669 };
+		{ GREY.."2) "..BabbleSubZone["The Overlook"], ZONE, 3670 };
+		{ GREY.."3) "..BabbleSubZone["Broken Hill"], ZONE, 3671 };
+	};
+	-- Zangarmarsh PvP
+	ZangarmarshPvP = {
+		ZoneName = { BabbleZone["Zangarmarsh"].." ("..BabbleSubZone["Twin Spire Ruins"]..")" };
+		Location = { BabbleZone["Zangarmarsh"], ZONE, 3521 };
+		{ GREY.."1) "..AtlasBGLocale["West Beacon"] };
+		{ GREY.."1) "..AtlasBGLocale["East Beacon"] };
+		{ GREY.."1) "..AtlasBGLocale["Twinspire Graveyard"] };
+	};
+	-- Halaa PvP
+	HalaaPvP = {
+		ZoneName = { BabbleSubZone["Halaa"] };
+		Location = { BabbleZone["Nagrand"] };
+	};
+	-- Terokkar Forest PvP
+	TerokkarForestPvP = {
+		ZoneName = { BabbleZone["Terokkar Forest"].." ("..AtlasBGLocale["Spirit Tower"]..")" };
+		Location = { BabbleZone["Terokkar Forest"] };
 	};
 };
 

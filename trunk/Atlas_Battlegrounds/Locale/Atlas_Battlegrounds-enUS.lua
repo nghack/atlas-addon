@@ -160,4 +160,14 @@ AtlasBGLocale = {
 	["Warsong Outriders"] = "Warsong Outriders";
 	["Silverwing Sentinels"] = "Silverwing Sentinels";
 
+	-- Hellfire Peninsula PvP 
+	["Hellfire Fortifications"] = "Hellfire Fortifications";
+	
+	-- Zangarmarsh PvP
+	["West Beacon"] = "West Beacon";
+	["East Beacon"] = "East Beacon";
+	["Twinspire Graveyard"] = "Twinspire Graveyard";
+	
+	-- Terokkar Forest PvP
+	["Spirit Tower"] = "Spirit Tower";
 };

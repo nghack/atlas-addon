@@ -163,5 +163,15 @@ AtlasBGLocale = {
 	["Warsong Outriders"] = "戰歌偵察騎兵";
 	["Silverwing Sentinels"] = "銀翼要塞的戰士";
 
+	-- Hellfire Peninsula PvP 
+	["Hellfire Fortifications"] = "地獄火防禦堡壘";
+	
+	-- Zangarmarsh PvP
+	["West Beacon"] = "西部哨塔";
+	["East Beacon"] = "東部哨塔";
+	["Twinspire Graveyard"] = "雙塔墓地";
+
+	-- Terokkar Forest PvP
+	["Spirit Tower"] = "精神哨塔";
 };
 end

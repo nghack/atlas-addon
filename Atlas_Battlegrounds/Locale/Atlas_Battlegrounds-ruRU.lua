@@ -171,6 +171,16 @@ AtlasBGLocale = {
 	["Warsong Outriders"] = "Всадники Песни Войны";
 	["Silverwing Sentinels"] = "Среброкрылые Часовые";
 
+	-- Hellfire Peninsula PvP 
+	["Hellfire Fortifications"] = "Штурмовые укрепления";
+	
+	-- Zangarmarsh PvP
+	["West Beacon"] = "West Beacon"; -- Need translation
+	["East Beacon"] = "East Beacon"; -- Need translation
+	["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
+	
+	-- Terokkar Forest PvP
+	["Spirit Tower"] = "Spirit Tower"; -- Need translation
 };
 
 end

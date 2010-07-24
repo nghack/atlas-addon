@@ -256,8 +256,8 @@ local myData = {
 		ZoneName = { BabbleZone["Zangarmarsh"].." ("..BabbleSubZone["Twin Spire Ruins"]..")" };
 		Location = { BabbleZone["Zangarmarsh"], ZONE, 3521 };
 		{ GREY.."1) "..AtlasBGLocale["West Beacon"] };
-		{ GREY.."1) "..AtlasBGLocale["East Beacon"] };
-		{ GREY.."1) "..AtlasBGLocale["Twinspire Graveyard"] };
+		{ GREY.."2) "..AtlasBGLocale["East Beacon"] };
+		{ GREN.."1') "..AtlasBGLocale["Twinspire Graveyard"] };
 	};
 	-- Halaa PvP
 	HalaaPvP = {

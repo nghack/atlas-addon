@@ -166,12 +166,12 @@ AtlasBGLocale = {
 	["Hellfire Fortifications"] = "Befestigung des Höllenfeuers";
 	
 	-- Zangarmarsh PvP
-	["West Beacon"] = "West Beacon"; -- Need translation
-	["East Beacon"] = "East Beacon"; -- Need translation
-	["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
+	["West Beacon"] = "Westliches Leuchtsignal";
+	["East Beacon"] = "Östliches Leuchtsignal";
+	["Twinspire Graveyard"] = "Friedhof der Zwillingsspitze";
 	
 	-- Terokkar Forest PvP
-	["Spirit Tower"] = "Spirit Tower"; -- Need translation
+	["Spirit Tower"] = "Geistertürme";
 };
 
 end

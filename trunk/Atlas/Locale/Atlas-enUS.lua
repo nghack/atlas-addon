@@ -1402,6 +1402,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "Watcher Narjil";
 	["Watcher Silthik"] = "Watcher Silthik";
 	["Hadronox"] = "Hadronox";
+	["Elder Nurgen"] = "Elder Nurgen";	
 	["Anub'arak"] = "Anub'arak";
 
 	--Caverns of Time: The Culling of Stratholme
@@ -1418,6 +1419,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "Trollgore";
 	["Novos the Summoner"] = "Novos the Summoner";
+	["Elder Kilias"] = "Elder Kilias";
 	["King Dred"] = "King Dred";
 	["The Prophet Tharon'ja"] = "The Prophet Tharon'ja";
 	["Kurzel"] = "Kurzel";
@@ -1452,6 +1454,7 @@ AtlasLocale = {
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <High Prophet of Sseratus>";
 	["Drakkari Colossus"] = "Drakkari Colossus";
+	["Elder Ohanzee"] = "Elder Ohanzee";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <High Prophet of Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <High Prophet of Akali>";
 	["Eck the Ferocious"] = "Eck the Ferocious";
@@ -1516,23 +1519,25 @@ AtlasLocale = {
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "Red Dragonflight Chamber";
-	["Halion <The Twilight Destroyer>"] = "Halion <The Twilight Destroyer>";
-	["Saviana Ragefire"] = "Saviana Ragefire";
 	["Baltharus the Warborn"] = "Baltharus the Warborn";
+	["Saviana Ragefire"] = "Saviana Ragefire";
 	["General Zarithrian"] = "General Zarithrian";
+	["Halion <The Twilight Destroyer>"] = "Halion <The Twilight Destroyer>";
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
 	["Key to the Focusing Iris"] = "Key to the Focusing Iris";
 
 	--The Nexus: The Nexus
-	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
-	["Grand Magus Telestra"] = "Grand Magus Telestra";
-	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Commander Stoutbeard";
 	["Berinand's Research"] = "Berinand's Research";
+	["Commander Stoutbeard"] = "Commander Stoutbeard";
 	["Commander Kolurg"] = "Commander Kolurg";
+	["Grand Magus Telestra"] = "Grand Magus Telestra";
+	["Anomalus"] = "Anomalus";
+	["Elder Igasho"] = "Elder Igasho";
+	["Ormorok the Tree-Shaper"] = "Ormorok the Tree-Shaper";
+	["Keristrasza"] = "Keristrasza";
+
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos the Interrogator";
@@ -1619,26 +1624,29 @@ AtlasLocale = {
 	["Ionar"] = "Ionar";
 	["Loken"] = "Loken";
 
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Tribunal Chest";
+	--Ulduar: Halls of Stone
+	["Elder Yurauk"] = "Elder Yurauk";
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebeard";
-	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
 	["Maiden of Grief"] = "Maiden of Grief";
+	["Brann Bronzebeard"] = "Brann Bronzebeard";
+	["Tribunal Chest"] = "Tribunal Chest";
+	["Sjonnir the Ironshaper"] = "Sjonnir the Ironshaper";
 
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
-	["Dalronn the Controller"] = "Dalronn the Controller";
-	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
 	["Dark Ranger Marrah"] = "Dark Ranger Marrah";
+	["Prince Keleseth <The San'layn>"] = "Prince Keleseth <The San'layn>";
+	["Elder Jarten"] = "Elder Jarten";
+	["Dalronn the Controller"] = "Dalronn the Controller";
+	["Skarvald the Constructor"] = "Skarvald the Constructor";
+	["Ingvar the Plunderer"] = "Ingvar the Plunderer";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Smallshanks";
 	["Svala Sorrowgrave"] = "Svala Sorrowgrave"; 
 	["Gortok Palehoof"] = "Gortok Palehoof";
 	["Skadi the Ruthless"] = "Skadi the Ruthless";
+	["Elder Chogan'gada"] = "Elder Chogan'gada";
 	["King Ymiron"] = "King Ymiron";
-	["Skarvald the Constructor"] = "Skarvald the Constructor";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon the Stone Watcher";

@@ -1408,6 +1408,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "看守者纳尔伊";
 	["Watcher Silthik"] = "看守者希尔希克";
 	["Hadronox"] = "哈多诺克斯";
+	["Elder Nurgen"] = "Elder Nurgen";
 	["Anub'arak"] = "阿努巴拉克";
 	
 	--Caverns of Time: The Culling of Stratholme
@@ -1424,6 +1425,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "托尔戈";
 	["Novos the Summoner"] = "召唤者诺沃斯";
+	["Elder Kilias"] = "Elder Kilias";
 	["King Dred"] = "暴龙之王爵德";
 	["The Prophet Tharon'ja"] = "先知萨隆亚";
 	["Kurzel"] = "库塞尔";
@@ -1458,6 +1460,7 @@ AtlasLocale = {
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <西莱图斯的高阶先知>";
 	["Drakkari Colossus"] = "达卡莱巨像";
+	["Elder Ohanzee"] = "Elder Ohanzee";
 	["Moorabi <High Prophet of Mam'toth>"] = "莫拉比 <犸托斯的高阶先知>";
 	["Gal'darah <High Prophet of Akali>"] = "迦尔达拉 <阿卡里的高阶先知>";
 	["Eck the Ferocious"] = "凶残的伊克";
@@ -1522,23 +1525,24 @@ AtlasLocale = {
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
-	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
-	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
 	["Baltharus the Warborn"] = "「战争降临」巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
+	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
 	["General Zarithrian"] = "札里瑞安将军"; -- Needs review after WoW 3.3.5 is available in China
+	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "玛里苟斯";
 	["Key to the Focusing Iris"] = "聚焦之虹的钥匙";
 	
 	--The Nexus: The Nexus	
-	["Anomalus"] = "阿诺玛鲁斯";
-	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
-	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
-	["Keristrasza"] = "克莉斯塔萨";
-	["Commander Stoutbeard"] = "指挥官斯托比德";
 	["Berinand's Research"] = "伯林纳德的研究笔记";
+	["Commander Stoutbeard"] = "指挥官斯托比德";
 	["Commander Kolurg"] = "指挥官库鲁尔格";
+	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
+	["Anomalus"] = "阿诺玛鲁斯";
+	["Elder Igasho"] = "Elder Igasho";
+	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
+	["Keristrasza"] = "克莉斯塔萨";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "审讯者达库斯";
@@ -1625,26 +1629,29 @@ AtlasLocale = {
 	["Ionar"] = "艾欧纳尔";
 	["Loken"] = "洛肯";
 
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "远古法庭宝箱";
+	--Ulduar: Halls of Stone
+	["Elder Yurauk"] = "Elder Yurauk";
 	["Krystallus"] = "克莱斯塔卢斯";
-	["Brann Bronzebeard"] = "布莱恩·铜须";
-	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
 	["Maiden of Grief"] = "悲伤圣女";
+	["Brann Bronzebeard"] = "布莱恩·铜须";
+	["Tribunal Chest"] = "远古法庭宝箱";
+	["Sjonnir the Ironshaper"] = "塑铁者斯约尼尔";
 
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
-	["Dalronn the Controller"] = "控制者达尔隆";
-	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
 	["Dark Ranger Marrah"] = "黑暗游侠玛尔拉";
+	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
+	["Elder Jarten"] = "Elder Jarten";
+	["Dalronn the Controller"] = "控制者达尔隆";
+	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
+	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "布雷格";
 	["Svala Sorrowgrave"] = "席瓦拉·索格蕾"; 
 	["Gortok Palehoof"] = "戈托克·苍蹄";
 	["Skadi the Ruthless"] = "残忍的斯卡迪";
+	["Elder Chogan'gada"] = "Elder Chogan'gada";
 	["King Ymiron"] = "伊米隆国王";
-	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";

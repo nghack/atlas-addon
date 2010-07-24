@@ -1405,6 +1405,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "看守者納吉爾";
 	["Watcher Silthik"] = "看守者席爾希克";
 	["Hadronox"] = "哈卓諾克斯";
+	["Elder Nurgen"] = "Elder Nurgen";
 	["Anub'arak"] = "阿努巴拉克";
 
 	--Caverns of Time: The Culling of Stratholme
@@ -1421,6 +1422,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "血角食人妖";
 	["Novos the Summoner"] = "『召喚者』諾沃司";
+	["Elder Kilias"] = "Elder Kilias";
 	["King Dred"] = "崔德王之盔";
 	["The Prophet Tharon'ja"] = "預言者薩隆杰";
 	["Kurzel"] = "庫賽爾";
@@ -1455,6 +1457,7 @@ AtlasLocale = {
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "史拉德銳 <司瑟拉圖斯高階預言者>";
 	["Drakkari Colossus"] = "德拉克瑞巨像";
+	["Elder Ohanzee"] = "Elder Ohanzee";
 	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比 <曼多司高階預言者>";
 	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉 <阿卡利高階預言者>";
 	["Eck the Ferocious"] = "『兇猛』埃克";
@@ -1519,23 +1522,24 @@ AtlasLocale = {
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "紅龍軍團密室";
-	["Halion <The Twilight Destroyer>"] = "海萊恩 <暮光毀滅者>";
-	["Saviana Ragefire"] = "薩薇安娜‧怒焰";
 	["Baltharus the Warborn"] = "『戰爭之子』巴爾薩魯斯";
+	["Saviana Ragefire"] = "薩薇安娜‧怒焰";
 	["General Zarithrian"] = "扎里斯利安將軍";
+	["Halion <The Twilight Destroyer>"] = "海萊恩 <暮光毀滅者>";
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "瑪里苟斯";
 	["Key to the Focusing Iris"] = "聚源虹膜之鑰";
 
 	--The Nexus: The Nexus	
-	["Anomalus"] = "艾諾瑪路斯";
-	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
-	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
-	["Keristrasza"] = "凱瑞史卓莎";
-	["Commander Stoutbeard"] = "指揮官厚鬚";
 	["Berinand's Research"] = "貝瑞那德的研究";
+	["Commander Stoutbeard"] = "指揮官厚鬚";
 	["Commander Kolurg"] = "指揮官寇勒格";
+	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
+	["Anomalus"] = "艾諾瑪路斯";
+	["Elder Igasho"] = "Elder Igasho";
+	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
+	["Keristrasza"] = "凱瑞史卓莎";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "『審問者』德拉高斯";
@@ -1622,26 +1626,29 @@ AtlasLocale = {
 	["Ionar"] = "埃歐納";
 	["Loken"] = "洛肯";
 
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "議庭之箱";
+	--Ulduar: Halls of Stone
+	["Elder Yurauk"] = "Elder Yurauk";	
 	["Krystallus"] = "克利斯托魯斯";
-	["Brann Bronzebeard"] = "布萊恩·銅鬚";
-	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";
 	["Maiden of Grief"] = "悲嘆少女";
+	["Brann Bronzebeard"] = "布萊恩·銅鬚";
+	["Tribunal Chest"] = "議庭之箱";
+	["Sjonnir the Ironshaper"] = "『塑鐵者』斯雍尼爾";	
 
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
-	["Dalronn the Controller"] = "『控制者』達隆恩";
-	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
 	["Dark Ranger Marrah"] = "黑暗遊俠瑪拉";
+	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
+	["Elder Jarten"] = "Elder Jarten";
+	["Dalronn the Controller"] = "『控制者』達隆恩";
+	["Skarvald the Constructor"] = "『建造者』史卡沃";
+	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "布里格·細柄";
 	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
 	["Gortok Palehoof"] = "戈托克·白蹄";
 	["Skadi the Ruthless"] = "無情的斯卡迪";
+	["Elder Chogan'gada"] = "Elder Chogan'gada";
 	["King Ymiron"] = "依米倫王";
-	["Skarvald the Constructor"] = "『建造者』史卡沃";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "『石之看守者』亞夏梵";

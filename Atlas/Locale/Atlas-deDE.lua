@@ -26,7 +26,7 @@
 -- Nihlo (ICQ: 260-869-930)
 -- Telchar (ICQ: 391-632-535)
 
--- Letztes Update: 04.07.2010
+-- Letztes Update: 25.07.2010
 
 if ( GetLocale() == "deDE" ) then
 
@@ -1409,6 +1409,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "Aufseher Narjil";
 	["Watcher Silthik"] = "Aufseher Silthik";
 	["Hadronox"] = "Hadronox";
+	["Elder Nurgen"] = "Urahne Nurgen";
 	["Anub'arak"] = "Anub'arak";
 
 	--Caverns of Time: The Culling of Stratholme
@@ -1425,6 +1426,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "Trollgrind";
 	["Novos the Summoner"] = "Novos der Beschwörer";
+	["Elder Kilias"] = "Urahne Kilias";
 	["King Dred"] = "König Dred";
 	["The Prophet Tharon'ja"] = "Der Prophet Tharon'ja";
 	["Kurzel"] = "Kurzel";
@@ -1459,6 +1461,7 @@ AtlasLocale = {
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "Slad'ran <Hochprophet des Sseratus>";
 	["Drakkari Colossus"] = "Koloss der Drakkari";
+	["Elder Ohanzee"] = "Urahne Ohanzee";
 	["Moorabi <High Prophet of Mam'toth>"] = "Moorabi <Hochprophet des Mam'toth>";
 	["Gal'darah <High Prophet of Akali>"] = "Gal'darah <Hochprophet von Akali>";
 	["Eck the Ferocious"] = "Der wilde Eck";
@@ -1523,23 +1526,24 @@ AtlasLocale = {
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
-	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
-	["Saviana Ragefire"] = "Saviana Flammenschlund";
 	["Baltharus the Warborn"] = "Baltharus der Kriegsjünger";
+	["Saviana Ragefire"] = "Saviana Flammenschlund";
 	["General Zarithrian"] = "General Zarithrian";
+	["Halion <The Twilight Destroyer>"] = "Halion <Der Zwielichtzerstörer>";
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "Malygos";
 	["Key to the Focusing Iris"] = "Schlüssel der fokussierenden Iris";
 
 	--The Nexus: The Nexus
-	["Anomalus"] = "Anomalus";
-	["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
-	["Grand Magus Telestra"] = "Großmagistrix Telestra";
-	["Keristrasza"] = "Keristrasza";
-	["Commander Stoutbeard"] = "Kommandant Starkbart";
 	["Berinand's Research"] = "Berinands Forschungsergebnisse";
+	["Commander Stoutbeard"] = "Kommandant Starkbart";
 	["Commander Kolurg"] = "Kommandant Kolurg";
+	["Grand Magus Telestra"] = "Großmagistrix Telestra";
+	["Anomalus"] = "Anomalus";
+	["Elder Igasho"] = "Urahne Igasho";
+	["Ormorok the Tree-Shaper"] = "Ormorok der Baumformer";
+	["Keristrasza"] = "Keristrasza";
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "Drakos der Befrager";
@@ -1626,26 +1630,29 @@ AtlasLocale = {
 	["Ionar"] = "Ionar";
 	["Loken"] = "Loken";
 
-	--Ulduar: Halls of Stone	
-	["Tribunal Chest"] = "Kiste des Tribunals";
+	--Ulduar: Halls of Stone
+	["Elder Yurauk"] = "Urahne Yurauk";
 	["Krystallus"] = "Krystallus";
-	["Brann Bronzebeard"] = "Brann Bronzebart";
-	["Sjonnir the Ironshaper"] = "Sjonnir der Eisenformer";
 	["Maiden of Grief"] = "Maid der Trauer";
+	["Brann Bronzebeard"] = "Brann Bronzebart";
+	["Tribunal Chest"] = "Kiste des Tribunals";
+	["Sjonnir the Ironshaper"] = "Sjonnir der Eisenformer";
 
 	--Utgarde Keep: Utgarde Keep
-	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
-	["Dalronn the Controller"] = "Dalronn der Aufseher";
-	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
 	["Dark Ranger Marrah"] = "Dunkelläuferin Marrah";
+	["Prince Keleseth <The San'layn>"] = "Prinz Keleseth <Die San'layn>";
+	["Elder Jarten"] = "Urahne Jarten";
+	["Dalronn the Controller"] = "Dalronn der Aufseher";
+	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
+	["Ingvar the Plunderer"] = "Ingvar der Brandschatzer";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	["Brigg Smallshanks"] = "Brigg Kleinkeul";
 	["Svala Sorrowgrave"] = "Svala Grabesleid"; 
 	["Gortok Palehoof"] = "Gortok Bleichhuf";
 	["Skadi the Ruthless"] = "Skadi der Skrupellose";
+	["Elder Chogan'gada"] = "Urahne Chogan'gada";
 	["King Ymiron"] = "König Ymiron";
-	["Skarvald the Constructor"] = "Skarvald der Konstrukteur";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "Archavon der Steinwächter";

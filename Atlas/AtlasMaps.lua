@@ -1809,7 +1809,8 @@ AtlasMaps = {
 		{ GREY..INDENT..AtlasLocale["Watcher Narjil"], NPC, 28729 };
 		{ GREY..INDENT..AtlasLocale["Watcher Silthik"], NPC, 28731 };
 		{ GREY.."2) "..AtlasLocale["Hadronox"], NPC, 28921 };
-		{ GREY.."3) "..AtlasLocale["Anub'arak"], NPC, 29120 };
+		{ GREY.."3) "..AtlasLocale["Elder Nurgen"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30533 };
+		{ GREY.."4) "..AtlasLocale["Anub'arak"], NPC, 29120 };
 	};
 	CoTOldStratholme = {
 		ZoneName = { BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], 4100 };
@@ -1845,9 +1846,10 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Trollgore"], NPC, 26630 };
 		{ GREY.."2) "..AtlasLocale["Kurzel"], NPC, 26664 };
 		{ GREY.."3) "..AtlasLocale["Novos the Summoner"], NPC, 26631 };
-		{ GREY.."4) "..AtlasLocale["King Dred"], NPC, 27483 };
-		{ GREY.."5) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
-		{ GREY.."6) "..AtlasLocale["Drakuru's Brazier"] };
+		{ GREY.."4) "..AtlasLocale["Elder Kilias"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30534 };
+		{ GREY.."5) "..AtlasLocale["King Dred"], NPC, 27483 };
+		{ GREY.."6) "..AtlasLocale["The Prophet Tharon'ja"], NPC, 26632 };
+		{ GREY.."7) "..AtlasLocale["Drakuru's Brazier"] };
 	};
 	FHHallsOfReflection = {
 		ZoneName = { BabbleSubZone["The Frozen Halls"]..": "..BabbleZone["Halls of Reflection"], 4820 };
@@ -1920,9 +1922,10 @@ AtlasMaps = {
 		{ BLUE.."B) "..AtlasLocale["Exit"] };
 		{ GREY.."1) "..AtlasLocale["Slad'ran <High Prophet of Sseratus>"], NPC, 29304 };
 		{ GREY.."2) "..AtlasLocale["Drakkari Colossus"], NPC, 29307 };
-		{ GREY.."3) "..AtlasLocale["Moorabi <High Prophet of Mam'toth>"], NPC, 29305 };
-		{ GREY.."4) "..AtlasLocale["Eck the Ferocious"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Summon"]..")", NPC, 29932 };
-		{ GREY.."5) "..AtlasLocale["Gal'darah <High Prophet of Akali>"], NPC, 29306 };
+		{ GREY.."3) "..AtlasLocale["Elder Ohanzee"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30537 };
+		{ GREY.."4) "..AtlasLocale["Moorabi <High Prophet of Mam'toth>"], NPC, 29305 };
+		{ GREY.."5) "..AtlasLocale["Eck the Ferocious"].." ("..AtlasLocale["Heroic"]..", "..AtlasLocale["Summon"]..")", NPC, 29932 };
+		{ GREY.."6) "..AtlasLocale["Gal'darah <High Prophet of Akali>"], NPC, 29306 };
 	};
 	IcecrownCitadelA = {
 		ZoneName = { BabbleZone["Icecrown Citadel"].." [A] ("..AtlasLocale["Lower"]..")", 4812 };
@@ -2050,10 +2053,10 @@ AtlasMaps = {
 		Acronym = AtlasLocale["RS"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Red Dragonflight Chamber"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Halion <The Twilight Destroyer>"], NPC, 39863 };
+		{ GREY.."1) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };
 		{ GREY.."2) "..AtlasLocale["Saviana Ragefire"], NPC, 39747 };
 		{ GREY.."3) "..AtlasLocale["General Zarithrian"], NPC, 39746 };
-		{ GREY.."4) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };		
+		{ GREY.."4) "..AtlasLocale["Halion <The Twilight Destroyer>"], NPC, 39863 };		
 	};
 	TheEyeOfEternity = {
 		ZoneName = { BabbleZone["The Nexus"]..": "..BabbleZone["The Eye of Eternity"], 4500 };
@@ -2073,13 +2076,14 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["Nex, Nexus"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
-		{ GREY.."2) "..AtlasLocale["Anomalus"], NPC, 26763 };
-		{ GREY.."3) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
-		{ GREY.."4) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
-		{ GREY..INDENT..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26796 };
-		{ GREY..INDENT..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..", "..AtlasLocale["Optional"]..")", NPC, 26798 };
-		{ GREY.."5) "..AtlasLocale["Keristrasza"], NPC, 26723 };
+		{ GREY.."1) "..AtlasLocale["Berinand's Research"], OBJECT, 192788 };
+		{ GREY..INDENT..AtlasLocale["Commander Stoutbeard"].." ("..AtlasLocale["Horde"]..", "..AtlasLocale["Heroic"]..")", NPC, 26796 };
+		{ GREY..INDENT..AtlasLocale["Commander Kolurg"].." ("..AtlasLocale["Alliance"]..", "..AtlasLocale["Heroic"]..")", NPC, 26798 };
+		{ GREY.."2) "..AtlasLocale["Grand Magus Telestra"], NPC, 26731 };
+		{ GREY.."3) "..AtlasLocale["Anomalus"], NPC, 26763 };
+		{ GREY.."4) "..AtlasLocale["Elder Igasho"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30536 };
+		{ GREY.."5) "..AtlasLocale["Ormorok the Tree-Shaper"], NPC, 26794 };
+		{ GREY.."6) "..AtlasLocale["Keristrasza"], NPC, 26723 };
 	};
 	TheOculus = {
 		ZoneName = { BabbleZone["The Nexus"]..": "..BabbleZone["The Oculus"], 4228 };
@@ -2247,11 +2251,12 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AtlasLocale["HoS"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Maiden of Grief"], NPC, 27975 };
+		{ GREY.."1) "..AtlasLocale["Elder Yurauk"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30535 };
 		{ GREY.."2) "..AtlasLocale["Krystallus"], NPC, 27977 };
-		{ GREY.."3) "..AtlasLocale["Brann Bronzebeard"], NPC, 28070 };
-		{ GREY.."4) "..AtlasLocale["Tribunal Chest"], OBJECT, 190586 };
-		{ GREY.."5) "..AtlasLocale["Sjonnir the Ironshaper"], NPC, 27978 };
+		{ GREY.."3) "..AtlasLocale["Maiden of Grief"], NPC, 27975 };
+		{ GREY.."4) "..AtlasLocale["Brann Bronzebeard"], NPC, 28070 };
+		{ GREY.."5) "..AtlasLocale["Tribunal Chest"], OBJECT, 190586 };
+		{ GREY.."6) "..AtlasLocale["Sjonnir the Ironshaper"], NPC, 27978 };
 	};
 	UtgardeKeep = {
 		ZoneName = { BabbleZone["Utgarde Keep"]..": "..BabbleZone["Utgarde Keep"], 206 };
@@ -2264,9 +2269,10 @@ AtlasMaps = {
 		{ BLUE..INDENT..AtlasLocale["Dark Ranger Marrah"], NPC, 24137 };
 		{ BLUE.."B-C) "..AtlasLocale["Connection"] };
 		{ GREY.."1) "..AtlasLocale["Prince Keleseth <The San'layn>"], NPC, 23953 };
-		{ GREY.."2) "..AtlasLocale["Dalronn the Controller"], NPC, 24201 };
+		{ GREY.."2) "..AtlasLocale["Elder Jarten"].." ("..AtlasLocale["Lunar Festival"]..", "..AtlasLocale["Lower"]..")", NPC, 30531 };
+		{ GREY.."3) "..AtlasLocale["Dalronn the Controller"], NPC, 24201 };
 		{ GREY..INDENT..AtlasLocale["Skarvald the Constructor"], NPC, 24200 };
-		{ GREY.."3) "..AtlasLocale["Ingvar the Plunderer"], NPC, 23980 };
+		{ GREY.."4) "..AtlasLocale["Ingvar the Plunderer"], NPC, 23980 };
 	};
 	UtgardePinnacle = {
 		ZoneName = { BabbleZone["Utgarde Keep"]..": "..BabbleZone["Utgarde Pinnacle"], 1196 };
@@ -2280,7 +2286,8 @@ AtlasMaps = {
 		{ GREY.."1) "..AtlasLocale["Svala Sorrowgrave"], NPC, 26668 };
 		{ GREY.."2) "..AtlasLocale["Gortok Palehoof"], NPC, 26687 };
 		{ GREY.."3) "..AtlasLocale["Skadi the Ruthless"], NPC, 26693 };
-		{ GREY.."4) "..AtlasLocale["King Ymiron"], NPC, 26861 };
+		{ GREY.."4) "..AtlasLocale["Elder Chogan'gada"].." ("..AtlasLocale["Lunar Festival"]..")", NPC, 30538 };
+		{ GREY.."5) "..AtlasLocale["King Ymiron"], NPC, 26861 };
 	};
 	VaultOfArchavon = {
 		ZoneName = { BabbleZone["Vault of Archavon"], 4603 };

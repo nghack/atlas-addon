@@ -627,6 +627,7 @@ local function Process_Deprecated()
 		{ "AtlasQuest", "4.4.2" }, --updated June 24, 2010
 		{ "AtlasMajorCities", "v1.5.2" }, --updated July 20, 2010
 		{ "AtlasLoot", "5.11.03" }, --updated July 1, 2010
+		{ "Atlas_Arena", "1.0" }, -- updated July, 21, 2010
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

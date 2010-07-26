@@ -1,7 +1,6 @@
 Atlas, a World of Warcraft instance map browser
 Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
-
-
+Copyright 2010 Atlas Team (http://atlasmod.com/)
 
 ==============
 = Change Log =
@@ -9,8 +8,9 @@ Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
 
 v1.16.2
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
-- introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith)
+- introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)
 - new map: Hellfire Citadel dungen entrace map (arith)
+- new maps: Halaa PvP, Hellfire Peninsula PvP, Zangarmarsh PvP, Terokkar Forest PvP (arith)
 - cleaned up and tweaked some code
 - translation update for several languages
   - German: Dynaletik
@@ -19,6 +19,8 @@ v1.16.2
   - Traditional Chinese: s8095324, arith
   - Simplified Chinese: arith
 - rewrote the readme file for Traditional Chinese (arith)
+- added Lunar Elders locations in Northrend maps (Deadca7, Dynaletik)
+- several maps refine (Deadca7)
 
 v1.16.1
 - new map: Ruby Sanctum

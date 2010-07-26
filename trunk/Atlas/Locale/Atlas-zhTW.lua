@@ -1405,7 +1405,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "看守者納吉爾";
 	["Watcher Silthik"] = "看守者席爾希克";
 	["Hadronox"] = "哈卓諾克斯";
-	["Elder Nurgen"] = "Elder Nurgen";
+	["Elder Nurgen"] = "訥金長者";
 	["Anub'arak"] = "阿努巴拉克";
 
 	--Caverns of Time: The Culling of Stratholme
@@ -1422,7 +1422,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "血角食人妖";
 	["Novos the Summoner"] = "『召喚者』諾沃司";
-	["Elder Kilias"] = "Elder Kilias";
+	["Elder Kilias"] = "奇里亞斯長者";
 	["King Dred"] = "崔德王之盔";
 	["The Prophet Tharon'ja"] = "預言者薩隆杰";
 	["Kurzel"] = "庫賽爾";
@@ -1457,7 +1457,7 @@ AtlasLocale = {
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "史拉德銳 <司瑟拉圖斯高階預言者>";
 	["Drakkari Colossus"] = "德拉克瑞巨像";
-	["Elder Ohanzee"] = "Elder Ohanzee";
+	["Elder Ohanzee"] = "歐漢茲長者";
 	["Moorabi <High Prophet of Mam'toth>"] = "慕拉比 <曼多司高階預言者>";
 	["Gal'darah <High Prophet of Akali>"] = "蓋爾達拉 <阿卡利高階預言者>";
 	["Eck the Ferocious"] = "『兇猛』埃克";
@@ -1537,9 +1537,10 @@ AtlasLocale = {
 	["Commander Kolurg"] = "指揮官寇勒格";
 	["Grand Magus Telestra"] = "大魔導師特雷斯翠";
 	["Anomalus"] = "艾諾瑪路斯";
-	["Elder Igasho"] = "Elder Igasho";
+	["Elder Igasho"] = "伊加修長者";
 	["Ormorok the Tree-Shaper"] = "『樹木造形者』歐爾莫洛克";
 	["Keristrasza"] = "凱瑞史卓莎";
+
 
 	--The Nexus: The Oculus
 	["Drakos the Interrogator"] = "『審問者』德拉高斯";
@@ -1627,7 +1628,7 @@ AtlasLocale = {
 	["Loken"] = "洛肯";
 
 	--Ulduar: Halls of Stone
-	["Elder Yurauk"] = "Elder Yurauk";	
+	["Elder Yurauk"] = "由羅克長者";	
 	["Krystallus"] = "克利斯托魯斯";
 	["Maiden of Grief"] = "悲嘆少女";
 	["Brann Bronzebeard"] = "布萊恩·銅鬚";
@@ -1637,7 +1638,7 @@ AtlasLocale = {
 	--Utgarde Keep: Utgarde Keep
 	["Dark Ranger Marrah"] = "黑暗遊俠瑪拉";
 	["Prince Keleseth <The San'layn>"] = "凱雷希斯王子";
-	["Elder Jarten"] = "Elder Jarten";
+	["Elder Jarten"] = "加坦長者";
 	["Dalronn the Controller"] = "『控制者』達隆恩";
 	["Skarvald the Constructor"] = "『建造者』史卡沃";
 	["Ingvar the Plunderer"] = "『盜掠者』因格瓦";
@@ -1647,7 +1648,7 @@ AtlasLocale = {
 	["Svala Sorrowgrave"] = "絲瓦拉·悲傷亡墓"; 
 	["Gortok Palehoof"] = "戈托克·白蹄";
 	["Skadi the Ruthless"] = "無情的斯卡迪";
-	["Elder Chogan'gada"] = "Elder Chogan'gada";
+	["Elder Chogan'gada"] = "修干加達長者";
 	["King Ymiron"] = "依米倫王";
 
 	--Vault of Archavon

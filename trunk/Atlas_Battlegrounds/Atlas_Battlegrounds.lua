@@ -245,29 +245,60 @@ local myData = {
 	};
 	-- Hellfire Peninsula PvP 
 	HellfirePeninsulaPvP = {
-		ZoneName = { BabbleZone["Hellfire Peninsula"].." ("..AtlasBGLocale["Hellfire Fortifications"]..")" };
+		ZoneName = { AtlasBGLocale["Hellfire Fortifications"] };
 		Location = { BabbleZone["Hellfire Peninsula"], ZONE, 3483 };
-		{ GREY.."1) "..BabbleSubZone["The Stadium"], ZONE, 3669 };
-		{ GREY.."2) "..BabbleSubZone["The Overlook"], ZONE, 3670 };
-		{ GREY.."3) "..BabbleSubZone["Broken Hill"], ZONE, 3671 };
+		{ ORNG.."PvP: "..AtlasBGLocale["Hellfire Fortifications"] };
+		{ "" };
+		{ BLUE.."A) "..BabbleSubZone["The Stadium"], ZONE, 3669 };
+		{ BLUE.."B) "..BabbleSubZone["The Overlook"], ZONE, 3670 };
+		{ BLUE.."C) "..BabbleSubZone["Broken Hill"], ZONE, 3671 };
 	};
 	-- Zangarmarsh PvP
 	ZangarmarshPvP = {
-		ZoneName = { BabbleZone["Zangarmarsh"].." ("..BabbleSubZone["Twin Spire Ruins"]..")" };
+		ZoneName = { BabbleSubZone["Twin Spire Ruins"] };
 		Location = { BabbleZone["Zangarmarsh"], ZONE, 3521 };
-		{ GREY.."1) "..AtlasBGLocale["West Beacon"] };
-		{ GREY.."2) "..AtlasBGLocale["East Beacon"] };
+		{ ORNG.."PvP: "..BabbleSubZone["Twin Spire Ruins"] };
+		{ "" };
+		{ BLUE.."A) "..AtlasBGLocale["West Beacon"] };
+		{ BLUE.."B) "..AtlasBGLocale["East Beacon"] };
 		{ GREN.."1') "..AtlasBGLocale["Twinspire Graveyard"] };
+		{ "" };
+		{ GREY..AtlasBGLocale["Alliance Field Scout"], NPC, 18581 };
+		{ GREY..AtlasBGLocale["Horde Field Scout"], NPC, 18564 };
+		
 	};
 	-- Halaa PvP
 	HalaaPvP = {
 		ZoneName = { BabbleSubZone["Halaa"] };
 		Location = { BabbleZone["Nagrand"] };
+		{ ORNG.."PvP: "..BabbleSubZone["Halaa"] };
+		{ "" };
+		{ GREN.."1')"..AtlasBGLocale["Wyvern Camp"] };
+		{ "" };
+		{ GREY.."1) "..AtlasBGLocale["Quartermaster Jaffrey Noreliqe"], NPC, 18821 };
+		{ GREY.."2) "..AtlasBGLocale["Quartermaster Davian Vaclav"], NPC, 18822 };
+		{ GREY.."3) "..AtlasBGLocale["Chief Researcher Amereldine"], NPC, 18816 };
+		{ GREY.."4) "..AtlasBGLocale["Chief Researcher Kartos"], NPC, 18817 };
+		{ GREY.."5) "..AtlasBGLocale["Aldraan <Blade Merchant>"], NPC, 21485 };
+		{ GREY.."6) "..AtlasBGLocale["Banro <Ammunition>"], NPC, 21488 };
+		{ GREY.."7) "..AtlasBGLocale["Cendrii <Food & Drink>"], NPC, 21487 };
+		{ GREY.."8) "..AtlasBGLocale["Coreiel <Blade Merchant>"], NPC, 21474 };
+		{ GREY.."9) "..AtlasBGLocale["Embelar <Food & Drink>"], NPC, 21484 };
+		{ GREY.."10) "..AtlasBGLocale["Tasaldan <Ammunition>"], NPC, 21483 };
 	};
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
-		ZoneName = { BabbleZone["Terokkar Forest"].." ("..AtlasBGLocale["Spirit Tower"]..")" };
+		ZoneName = { AtlasBGLocale["Spirit Tower"] };
 		Location = { BabbleZone["Terokkar Forest"] };
+		{ ORNG.."PvP: "..AtlasBGLocale["Spirit Tower"] };
+		{ "" };
+	};
+	-- Wintergrasp
+	WintergraspPvP = {
+		ZoneName = { BabbleZone["Wintergrasp"] };
+		Location = { BabbleZone["Wintergrasp"] };
+		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
+		{ "" };
 	};
 };
 

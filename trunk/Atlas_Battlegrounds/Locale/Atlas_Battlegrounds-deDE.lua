@@ -169,9 +169,24 @@ AtlasBGLocale = {
 	["West Beacon"] = "Westliches Leuchtsignal";
 	["East Beacon"] = "Östliches Leuchtsignal";
 	["Twinspire Graveyard"] = "Friedhof der Zwillingsspitze";
+	["Alliance Field Scout"] = "Feldspäher der Allianz";
+	["Horde Field Scout"] = "Feldspäher der Horde";
 	
 	-- Terokkar Forest PvP
 	["Spirit Tower"] = "Geistertürme";
+
+	-- Halaa
+	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
+	["Quartermaster Jaffrey Noreliqe"] = "Rüstmeister Jaffrey Keinespuhr";
+	["Quartermaster Davian Vaclav"] = "Rüstmeister Davian Watzlav";
+	["Chief Researcher Amereldine"] = "Forschungsleiterin Amereldine";
+	["Chief Researcher Kartos"] = "Forschungsleiter Kartos";
+	["Aldraan <Blade Merchant>"] = "Aldraan <Klingenhändler>";
+	["Banro <Ammunition>"] = "Banro <Munition>";
+	["Cendrii <Food & Drink>"] = "Cendrii <Speis & Trank>";
+	["Coreiel <Blade Merchant>"] = "Coreiel <Klingenhändlerin>";
+	["Embelar <Food & Drink>"] = "Embelar <Speis & Trank>";
+	["Tasaldan <Ammunition>"] = "Tasaldan <Munition>";
 };
 
 end

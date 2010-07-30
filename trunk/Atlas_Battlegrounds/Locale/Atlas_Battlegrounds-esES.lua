@@ -176,8 +176,24 @@ AtlasBGLocale = {
 	["West Beacon"] = "West Beacon"; -- Need translation
 	["East Beacon"] = "East Beacon"; -- Need translation
 	["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
+	["Alliance Field Scout"] = "Explorador de campo de la Alianza";
+	["Horde Field Scout"] = "Explorador de campo de la Horda";
 	
 	-- Terokkar Forest PvP
 	["Spirit Tower"] = "Spirit Tower"; -- Need translation
+
+	-- Halaa
+	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
+	["Quartermaster Jaffrey Noreliqe"] = "Intendente Jaffrey Noreliqe";
+	["Quartermaster Davian Vaclav"] = "Intendente Davian Vaclav";
+	["Chief Researcher Amereldine"] = "Jefa de investigación Amereldine";
+	["Chief Researcher Kartos"] = "Jefe de investigación Kartos";
+	["Aldraan <Blade Merchant>"] = "Aldraan <Mercader de armas de filo>";
+	["Banro <Ammunition>"] = "Banro <Munición>";
+	["Cendrii <Food & Drink>"] = "Cendrii <Alimentos y bebidas>";
+	["Coreiel <Blade Merchant>"] = "Coreiel <Mercader de armas de filo>";
+	["Embelar <Food & Drink>"] = "Embelar <Alimentos y bebidas>";
+	["Tasaldan <Ammunition>"] = "Tasaldan <Munición>";
 };
+
 end

@@ -170,8 +170,23 @@ AtlasBGLocale = {
 	["West Beacon"] = "西部哨塔";
 	["East Beacon"] = "東部哨塔";
 	["Twinspire Graveyard"] = "雙塔墓地";
+	["Alliance Field Scout"] = "聯盟戰場斥候";
+	["Horde Field Scout"] = "部落戰場斥候";
 
 	-- Terokkar Forest PvP
 	["Spirit Tower"] = "精神哨塔";
+
+	-- Halaa
+	["Wyvern Camp"] = "雙足翼龍營地";
+	["Quartermaster Jaffrey Noreliqe"] = "軍需官傑夫利·諾利克";
+	["Quartermaster Davian Vaclav"] = "軍需官戴夫恩·瓦克拉夫";
+	["Chief Researcher Amereldine"] = "首席調查員阿莫瑞丹";
+	["Chief Researcher Kartos"] = "首席調查員卡托斯";
+	["Aldraan <Blade Merchant>"] = "阿爾德蘭 <劍刃武器商>";
+	["Banro <Ammunition>"] = "班洛 <彈藥商>";
+	["Cendrii <Food & Drink>"] = "善德利 <食物和飲料>";
+	["Coreiel <Blade Merchant>"] = "寇瑞歐 <劍刃武器商>";
+	["Embelar <Food & Drink>"] = "安畢拉爾 <食物和飲料>";
+	["Tasaldan <Ammunition>"] = "塔薩丹 <彈藥商>";
 };
 end

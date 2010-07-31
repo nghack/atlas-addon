@@ -173,7 +173,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "Feldspäher der Horde";
 	
 	-- Terokkar Forest PvP
-	["Spirit Tower"] = "Geistertürme";
+	["Auchindoun Spirit Tower"] = "Geistertürme"; -- Need review
 
 	-- Halaa
 	["Wyvern Camp"] = "Flügeldrachenlager";

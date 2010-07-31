@@ -298,6 +298,28 @@ local myData = {
 		Location = { BabbleZone["Wintergrasp"] };
 		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
 		{ "" };
+		{ BLUE.."A) "..BabbleSubZone["Wintergrasp Fortress"] };
+		{ BLUE.."B) "..BabbleSubZone["Valiance Landing Camp"] };
+		{ BLUE.."C) "..BabbleSubZone["Warsong Landing Camp"] };
+		{ ORNG.."1) "..BabbleSubZone["Wintergrasp Fortress"] };
+		{ ORNG..INDENT..AtlasBGLocale["Fortress Vihecal Workshop (E)"] };
+		{ ORNG..INDENT..AtlasBGLocale["Fortress Vihecal Workshop (W)"] };
+		{ ORNG.."2) "..BabbleSubZone["The Sunken Ring"] };
+		{ ORNG..INDENT..AtlasBGLocale["Sunken Ring Vihecal Workshop"] };
+		{ ORNG.."3) "..BabbleSubZone["The Broken Temple"] };
+		{ ORNG..INDENT..AtlasBGLocale["Broken Temple Vihecal Workshop"] };
+		{ ORNG.."4) "..BabbleSubZone["Eastspark Workshop"] };
+		{ ORNG..INDENT..AtlasBGLocale["Eastspark Vihecale Workshop"] };
+		{ ORNG.."5) "..BabbleSubZone["Westspark Workshop"] };
+		{ ORNG..INDENT..AtlasBGLocale["Westspark Vihecale Workshop"] };
+		{ GREN.."6) "..BabbleSubZone["Flamewatch Tower"] };
+		{ GREN.."7) "..BabbleSubZone["Winter's Edge Tower"] };
+		{ GREN.."8) "..BabbleSubZone["Shadowsight Tower"] };
+		{ GREY.."9) "..AtlasBGLocale["Wintergrasp Graveyard"] };
+		{ GREY.."10) "..AtlasBGLocale["Sunken Ring Graveyard"] };
+		{ GREY.."11) "..AtlasBGLocale["Broken Temple Graveyard"] };
+		{ GREY.."12) "..AtlasBGLocale["Southeast Graveyard"] };
+		{ GREY.."13) "..AtlasBGLocale["Southwest Graveyard"] };
 	};
 };
 

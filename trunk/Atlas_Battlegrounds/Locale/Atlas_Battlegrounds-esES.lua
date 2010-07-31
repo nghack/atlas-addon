@@ -194,6 +194,19 @@ AtlasBGLocale = {
 	["Coreiel <Blade Merchant>"] = "Coreiel <Mercader de armas de filo>";
 	["Embelar <Food & Drink>"] = "Embelar <Alimentos y bebidas>";
 	["Tasaldan <Ammunition>"] = "Tasaldan <Munición>";
+
+	-- Wintergrasp
+	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
+	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
+	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
+	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
+	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
+	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
+	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
+	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
+	["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
+	["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
+	["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
 };
 
 end

@@ -190,17 +190,17 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "塔薩丹 <彈藥商>";
 
 	-- Wintergrasp
-	["Defender's Portal"] = "Defender's Portal"; -- Need translation
-	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
-	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
-	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
-	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
-	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
-	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
-	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
-	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
-	["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
-	["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
-	["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
+	["Portal to Vault of Archavon"] = "Portal to Vault of Archavon";
+	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)";
+	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)";
+	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop";
+	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop";
+	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop";
+	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop";
+	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard";
+	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard";
+	["Broken Temple Graveyard"] = "Broken Temple Graveyard";
+	["Southeast Graveyard"] = "Southeast Graveyard";
+	["Southwest Graveyard"] = "Southwest Graveyard";
 };
 end

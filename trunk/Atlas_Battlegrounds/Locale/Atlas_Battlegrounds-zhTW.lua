@@ -202,5 +202,8 @@ AtlasBGLocale = {
 	["Broken Temple Graveyard"] = "破碎神殿墓地";
 	["Southeast Graveyard"] = "東南墓地";
 	["Southwest Graveyard"] = "西南墓地";
+
+	-- Eastern Plaguelands - Game of Tower
+	["Game of Tower"] = "哨塔爭奪戰";
 };
 end

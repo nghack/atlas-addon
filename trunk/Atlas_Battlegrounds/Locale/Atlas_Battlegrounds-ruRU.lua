@@ -198,6 +198,7 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "Тасалдан <Боеприпасы>";
 
 	-- Wintergrasp
+	["Defender's Portal"] = "Defender's Portal"; -- Need translation
 	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
 	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
 	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation

@@ -332,6 +332,20 @@ local myData = {
 		{ GREY.."12) "..AtlasBGLocale["Southeast Graveyard"] };
 		{ GREY.."13) "..AtlasBGLocale["Southwest Graveyard"] };
 	};
+	-- Eastern Plaguelands - Game of Tower
+	GameOfTower = {
+		ZoneName = { AtlasBGLocale["Game of Tower"] };
+		Location = { BabbleZone["Eastern Plaguelands"] };
+		LevelRange = "53-80";
+		MinLevel = "53";
+		{ ORNG.."PvP: "..AtlasBGLocale["Game of Tower"] };
+		{ "" };
+		{ BLUE.."A) "..BabbleSubZone["Light's Hope Chapel"] };
+		{ GREY.."1) "..BabbleSubZone["Crown Guard Tower"] };
+		{ GREY.."2) "..BabbleSubZone["Eastwall Tower"] };
+		{ GREY.."3) "..BabbleSubZone["Northpass Tower"] };
+		{ GREY.."4) "..BabbleSubZone["Plaguewood Tower"] };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

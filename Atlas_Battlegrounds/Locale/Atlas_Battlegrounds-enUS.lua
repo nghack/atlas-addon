@@ -199,5 +199,8 @@ AtlasBGLocale = {
 	["Broken Temple Graveyard"] = "Broken Temple Graveyard";
 	["Southeast Graveyard"] = "Southeast Graveyard";
 	["Southwest Graveyard"] = "Southwest Graveyard";
+	
+	-- Eastern Plaguelands - Game of Tower
+	["Game of Tower"] = "Game of Tower";
 };
 

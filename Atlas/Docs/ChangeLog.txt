@@ -11,7 +11,7 @@ v1.17.0
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)
 - new maps: Hellfire Citadel dungen entrace map (arith)
 - new maps: Halaa PvP, Hellfire Peninsula PvP, Zangarmarsh PvP, 
-            Terokkar Forest PvP, Wintergrasp PvP, Game of Tower (arith)
+            Terokkar Forest PvP, Wintergrasp PvP, Game of Tower, Silithyst Must Flow (arith)
 - cleaned up and tweaked some code
 - translation update for several languages
   - German: Dynaletik

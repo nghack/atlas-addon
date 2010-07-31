@@ -176,7 +176,7 @@ AtlasBGLocale = {
 	["Spirit Tower"] = "Geistertürme";
 
 	-- Halaa
-	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
+	["Wyvern Camp"] = "Flügeldrachenlager";
 	["Quartermaster Jaffrey Noreliqe"] = "Rüstmeister Jaffrey Keinespuhr";
 	["Quartermaster Davian Vaclav"] = "Rüstmeister Davian Watzlav";
 	["Chief Researcher Amereldine"] = "Forschungsleiterin Amereldine";

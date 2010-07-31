@@ -37,7 +37,7 @@ local function debug(info)
 end
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.16.1";
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0";
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -401,7 +401,6 @@ Atlas_OutdoorZoneToAtlas = {
 	["Dalaran"] =				"VioletHold";
 	["Dragonblight"] =			"RubySanctum";
 	["Borean Tundra"] =			"TheEyeOfEternity";
-	["Wintergrasp"] =			"VaultOfArchavon";
 	["The Storm Peaks"] =			"UlduarA";	
 	["Icecrown"] =				"IcecrownCitadelA";
 };
@@ -442,7 +441,6 @@ Atlas_OutdoorZoneToAtlas_Loc = {
 	["Dalaran"] = 				BabbleZone["Dalaran"];
 	["Dragonblight"] = 			BabbleZone["Dragonblight"];
 	["Borean Tundra"] = 			BabbleZone["Borean Tundra"];
-	["Wintergrasp"] = 			BabbleZone["Wintergrasp"];
 	["The Storm Peaks"] = 			BabbleZone["The Storm Peaks"];	
 	["Icecrown"] = 				BabbleZone["Icecrown"];
 };

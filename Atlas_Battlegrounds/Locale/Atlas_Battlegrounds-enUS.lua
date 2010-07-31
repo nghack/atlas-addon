@@ -187,7 +187,6 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "Tasaldan <Ammunition>";
 	
 	-- Wintergrasp
-	["Portal to Vault of Archavon"] = "Portal to Vault of Archavon";
 	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)";
 	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)";
 	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop";

@@ -190,7 +190,6 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "塔薩丹 <彈藥商>";
 
 	-- Wintergrasp
-	["Portal to Vault of Archavon"] = "通往亞夏梵穹殿的傳送門";
 	["Fortress Vihecal Workshop (E)"] = "堡壘載具工坊 (東)";
 	["Fortress Vihecal Workshop (W)"] = "堡壘載具工坊 (西)";
 	["Sunken Ring Vihecal Workshop"] = "沉沒之環載具工坊";

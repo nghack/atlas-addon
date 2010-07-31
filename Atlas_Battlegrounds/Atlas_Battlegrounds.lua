@@ -245,7 +245,7 @@ local myData = {
 	};
 	-- Hellfire Peninsula PvP 
 	HellfirePeninsulaPvP = {
-		ZoneName = { AtlasBGLocale["Hellfire Fortifications"] };
+		ZoneName = { BabbleZone["Hellfire Peninsula"].." - "..AtlasBGLocale["Hellfire Fortifications"] };
 		Location = { BabbleZone["Hellfire Peninsula"], ZONE, 3483 };
 		LevelRange = "58-80";
 		MinLevel = "58";
@@ -257,7 +257,7 @@ local myData = {
 	};
 	-- Zangarmarsh PvP
 	ZangarmarshPvP = {
-		ZoneName = { BabbleSubZone["Twin Spire Ruins"] };
+		ZoneName = { BabbleZone["Zangarmarsh"].." - "..BabbleSubZone["Twin Spire Ruins"] };
 		Location = { BabbleZone["Zangarmarsh"], ZONE, 3521 };
 		LevelRange = "60-80";
 		MinLevel = "60";
@@ -273,7 +273,7 @@ local myData = {
 	};
 	-- Halaa PvP
 	HalaaPvP = {
-		ZoneName = { BabbleSubZone["Halaa"] };
+		ZoneName = { BabbleZone["Nagrand"].." - "..BabbleSubZone["Halaa"] };
 		Location = { BabbleZone["Nagrand"] };
 		LevelRange = "64-80";
 		MinLevel = "64";
@@ -294,7 +294,7 @@ local myData = {
 	};
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
-		ZoneName = { AtlasBGLocale["Auchindoun Spirit Tower"] };
+		ZoneName = { BabbleZone["Terokkar Forest"].." - "..AtlasBGLocale["Auchindoun Spirit Tower"] };
 		Location = { BabbleZone["Terokkar Forest"] };
 		LevelRange = "62-80";
 		MinLevel = "62";
@@ -309,7 +309,7 @@ local myData = {
 		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["Wintergrasp Fortress"] };
-		{ BLUE..INDENT..AtlasBGLocale["Portal to Vault of Archavon"] };
+		{ BLUE..INDENT..BabbleZone["Vault of Archavon"] };
 		{ BLUE.."B) "..BabbleSubZone["Valiance Landing Camp"] };
 		{ BLUE.."C) "..BabbleSubZone["Warsong Landing Camp"] };
 		{ ORNG.."1) "..BabbleSubZone["Wintergrasp Fortress"] };
@@ -334,7 +334,7 @@ local myData = {
 	};
 	-- Eastern Plaguelands - Game of Tower
 	GameOfTower = {
-		ZoneName = { AtlasBGLocale["Game of Tower"] };
+		ZoneName = { BabbleZone["Eastern Plaguelands"].." - "..AtlasBGLocale["Game of Tower"] };
 		Location = { BabbleZone["Eastern Plaguelands"] };
 		LevelRange = "53-80";
 		MinLevel = "53";
@@ -348,7 +348,7 @@ local myData = {
 	};
 	-- Silithus - The Silithyst Must Flow
 	SilithystMustFlow = {
-		ZoneName = { AtlasBGLocale["Silithyst Must Flow"] };
+		ZoneName = { BabbleZone["Silithus"].." - "..AtlasBGLocale["Silithyst Must Flow"] };
 		Location = { BabbleZone["Silithus"] };
 		LevelRange = "55-80";
 		MinLevel = "55";

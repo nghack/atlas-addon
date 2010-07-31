@@ -173,7 +173,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "Feldspäher der Horde";
 	
 	-- Terokkar Forest PvP
-	["Auchindoun Spirit Tower"] = "Geistertürme"; -- Need review
+	["Auchindoun Spirit Tower"] = "Auchindoun Geistertürme";
 
 	-- Halaa
 	["Wyvern Camp"] = "Flügeldrachenlager";
@@ -189,26 +189,25 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "Tasaldan <Munition>";
 
 	-- Wintergrasp
-	["Portal to Vault of Archavon"] = "Portal to Vault of Archavon"; -- Need translation
-	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
-	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
-	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
-	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
-	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
-	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
-	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
-	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
-	["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
-	["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
-	["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
+	["Fortress Vihecal Workshop (E)"] = "Fahrzeugwerkstatt der Feste (O)";
+	["Fortress Vihecal Workshop (W)"] = "Fahrzeugwerkstatt der Feste (W)";
+	["Sunken Ring Vihecal Workshop"] = "Fahrzeugwerkstatt des versunkenen Rings";
+	["Broken Temple Vihecal Workshop"] = "Fahrzeugwerkstatt des zerbrochenen Tempels";
+	["Eastspark Vihecale Workshop"] = "Fahrzeugwerkstatt Ostfunk";
+	["Westspark Vihecale Workshop"] = "Fahrzeugwerkstatt Westfunk";
+	["Wintergrasp Graveyard"] = "Friedhof der Festung";
+	["Sunken Ring Graveyard"] = "Friedhof des versunkenen Rings";
+	["Broken Temple Graveyard"] = "Friedhof des zerbrochenen Tempels";
+	["Southeast Graveyard"] = "Südöstlicher Friedhof";
+	["Southwest Graveyard"] = "Südwestlicher Friedhof";
 
 	-- Eastern Plaguelands - Game of Tower
-	["Game of Tower"] = "Game of Tower"; -- Need translation
+	["Game of Tower"] = "Türme einnehmen";
 
 	-- Silithus - The Silithyst Must Flow
-	["Silithyst Must Flow"] = "Silithyst Must Flow"; -- Need translation
-	["Alliance's Camp"] = "Alliance's Camp"; -- Need translation
-	["Horde's Camp"] = "Horde's Camp"; -- Need translation
+	["Silithyst Must Flow"] = "Silithyst sammeln";
+	["Alliance's Camp"] = "Allianzlager";
+	["Horde's Camp"] = "Hordelager";
 };
 
 end

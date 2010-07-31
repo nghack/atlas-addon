@@ -299,7 +299,7 @@ local myData = {
 		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["Wintergrasp Fortress"] };
-		{ BLUE..INDENT..AtlasBGLocale["Defender's Portal"] };
+		{ BLUE..INDENT..AtlasBGLocale["Portal to Vault of Archavon"] };
 		{ BLUE.."B) "..BabbleSubZone["Valiance Landing Camp"] };
 		{ BLUE.."C) "..BabbleSubZone["Warsong Landing Camp"] };
 		{ ORNG.."1) "..BabbleSubZone["Wintergrasp Fortress"] };

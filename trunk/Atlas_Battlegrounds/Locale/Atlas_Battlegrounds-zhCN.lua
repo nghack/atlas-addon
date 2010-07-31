@@ -181,7 +181,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "Horde Field Scout"; -- Need translation
 	
 	-- Terokkar Forest PvP
-	["Spirit Tower"] = "Spirit Tower"; -- Need translation
+	["Auchindoun Spirit Tower"] = "Auchindoun Spirit Tower"; -- Need translation
 
 	-- Halaa
 	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation

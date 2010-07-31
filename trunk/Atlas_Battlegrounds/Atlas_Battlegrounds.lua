@@ -247,6 +247,8 @@ local myData = {
 	HellfirePeninsulaPvP = {
 		ZoneName = { AtlasBGLocale["Hellfire Fortifications"] };
 		Location = { BabbleZone["Hellfire Peninsula"], ZONE, 3483 };
+		LevelRange = "58-80";
+		MinLevel = "58";
 		{ ORNG.."PvP: "..AtlasBGLocale["Hellfire Fortifications"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["The Stadium"], ZONE, 3669 };
@@ -257,6 +259,8 @@ local myData = {
 	ZangarmarshPvP = {
 		ZoneName = { BabbleSubZone["Twin Spire Ruins"] };
 		Location = { BabbleZone["Zangarmarsh"], ZONE, 3521 };
+		LevelRange = "60-80";
+		MinLevel = "60";
 		{ ORNG.."PvP: "..BabbleSubZone["Twin Spire Ruins"] };
 		{ "" };
 		{ BLUE.."A) "..AtlasBGLocale["West Beacon"] };
@@ -271,6 +275,8 @@ local myData = {
 	HalaaPvP = {
 		ZoneName = { BabbleSubZone["Halaa"] };
 		Location = { BabbleZone["Nagrand"] };
+		LevelRange = "64-80";
+		MinLevel = "64";
 		{ ORNG.."PvP: "..BabbleSubZone["Halaa"] };
 		{ "" };
 		{ GREN.."1') "..AtlasBGLocale["Wyvern Camp"] };
@@ -288,14 +294,18 @@ local myData = {
 	};
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
-		ZoneName = { AtlasBGLocale["Spirit Tower"] };
+		ZoneName = { AtlasBGLocale["Auchindoun Spirit Tower"] };
 		Location = { BabbleZone["Terokkar Forest"] };
-		{ ORNG.."PvP: "..AtlasBGLocale["Spirit Tower"] };
+		LevelRange = "62-80";
+		MinLevel = "62";
+		{ ORNG.."PvP: "..AtlasBGLocale["Auchindoun Spirit Tower"] };
 	};
 	-- Wintergrasp
 	WintergraspPvP = {
 		ZoneName = { BabbleZone["Wintergrasp"] };
 		Location = { BabbleZone["Wintergrasp"] };
+		LevelRange = "73-80";
+		MinLevel = "73";
 		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["Wintergrasp Fortress"] };

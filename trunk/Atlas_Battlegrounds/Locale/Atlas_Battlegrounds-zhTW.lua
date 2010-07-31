@@ -22,7 +22,7 @@
 --]]
 -- $Date$
 -- $Revision$
-if ( GetLocale() ==	"zhTW" ) then
+if ( GetLocale() == "zhTW" ) then
 
 AtlasBGLocale = {
 
@@ -174,7 +174,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "部落戰場斥候";
 
 	-- Terokkar Forest PvP
-	["Spirit Tower"] = "精神哨塔";
+	["Auchindoun Spirit Tower"] = "奧齊頓精神哨塔";
 
 	-- Halaa
 	["Wyvern Camp"] = "雙足翼龍營地";

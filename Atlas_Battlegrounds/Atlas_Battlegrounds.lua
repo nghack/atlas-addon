@@ -346,6 +346,18 @@ local myData = {
 		{ GREY.."3) "..BabbleSubZone["Northpass Tower"] };
 		{ GREY.."4) "..BabbleSubZone["Plaguewood Tower"] };
 	};
+	-- Silithus - The Silithyst Must Flow
+	SilithystMustFlow = {
+		ZoneName = { AtlasBGLocale["Silithyst Must Flow"] };
+		Location = { BabbleZone["Silithus"] };
+		LevelRange = "55-80";
+		MinLevel = "55";
+		{ ORNG.."PvP: "..AtlasBGLocale["Silithyst Must Flow"] };
+		{ "" };
+		{ BLUE.."A) "..BabbleSubZone["Cenarion Hold"] };
+		{ GREY.."1) "..AtlasBGLocale["Alliance's Camp"] };
+		{ GREY.."2) "..AtlasBGLocale["Horde's Camp"] };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

@@ -202,5 +202,10 @@ AtlasBGLocale = {
 	
 	-- Eastern Plaguelands - Game of Tower
 	["Game of Tower"] = "Game of Tower";
+	
+	-- Silithus - The Silithyst Must Flow
+	["Silithyst Must Flow"] = "Silithyst Must Flow";
+	["Alliance's Camp"] = "Alliance's Camp";
+	["Horde's Camp"] = "Horde's Camp";
 };
 

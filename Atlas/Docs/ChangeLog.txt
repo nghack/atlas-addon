@@ -10,7 +10,8 @@ v1.17.0
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)
 - new maps: Hellfire Citadel dungen entrace map (arith)
-- new maps: Halaa PvP, Hellfire Peninsula PvP, Zangarmarsh PvP, Terokkar Forest PvP, Wintergrasp PvP (arith)
+- new maps: Halaa PvP, Hellfire Peninsula PvP, Zangarmarsh PvP, 
+            Terokkar Forest PvP, Wintergrasp PvP, Game of Tower (arith)
 - cleaned up and tweaked some code
 - translation update for several languages
   - German: Dynaletik

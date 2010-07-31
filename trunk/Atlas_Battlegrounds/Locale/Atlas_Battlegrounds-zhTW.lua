@@ -190,17 +190,17 @@ AtlasBGLocale = {
 	["Tasaldan <Ammunition>"] = "塔薩丹 <彈藥商>";
 
 	-- Wintergrasp
-	["Portal to Vault of Archavon"] = "Portal to Vault of Archavon";
-	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)";
-	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)";
-	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop";
-	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop";
-	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop";
-	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop";
-	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard";
-	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard";
-	["Broken Temple Graveyard"] = "Broken Temple Graveyard";
-	["Southeast Graveyard"] = "Southeast Graveyard";
-	["Southwest Graveyard"] = "Southwest Graveyard";
+	["Portal to Vault of Archavon"] = "通往亞夏梵穹殿的傳送門";
+	["Fortress Vihecal Workshop (E)"] = "堡壘載具工坊 (東)";
+	["Fortress Vihecal Workshop (W)"] = "堡壘載具工坊 (西)";
+	["Sunken Ring Vihecal Workshop"] = "沉沒之環載具工坊";
+	["Broken Temple Vihecal Workshop"] = "破碎神殿載具工坊";
+	["Eastspark Vihecale Workshop"] = "東炫載具工坊";
+	["Westspark Vihecale Workshop"] = "西炫載具工坊";
+	["Wintergrasp Graveyard"] = "堡壘墓地";
+	["Sunken Ring Graveyard"] = "沉沒之環墓地";
+	["Broken Temple Graveyard"] = "破碎神殿墓地";
+	["Southeast Graveyard"] = "東南墓地";
+	["Southwest Graveyard"] = "西南墓地";
 };
 end

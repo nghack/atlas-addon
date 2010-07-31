@@ -12,8 +12,8 @@
 ## Notes-koKR: 전장 지도
 ## Notes-zhCN: 战场地图
 ## Notes-zhTW: Atlas 戰場地圖模組
-## Version: 1.16.2
-## X-Date: July, 2010
+## Version: 1.17.0
+## X-Date: August, 2010
 ## Author: Dan Gilbert
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com

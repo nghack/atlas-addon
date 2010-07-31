@@ -273,7 +273,7 @@ local myData = {
 		Location = { BabbleZone["Nagrand"] };
 		{ ORNG.."PvP: "..BabbleSubZone["Halaa"] };
 		{ "" };
-		{ GREN.."1')"..AtlasBGLocale["Wyvern Camp"] };
+		{ GREN.."1') "..AtlasBGLocale["Wyvern Camp"] };
 		{ "" };
 		{ GREY.."1) "..AtlasBGLocale["Quartermaster Jaffrey Noreliqe"], NPC, 18821 };
 		{ GREY.."2) "..AtlasBGLocale["Quartermaster Davian Vaclav"], NPC, 18822 };
@@ -291,7 +291,6 @@ local myData = {
 		ZoneName = { AtlasBGLocale["Spirit Tower"] };
 		Location = { BabbleZone["Terokkar Forest"] };
 		{ ORNG.."PvP: "..AtlasBGLocale["Spirit Tower"] };
-		{ "" };
 	};
 	-- Wintergrasp
 	WintergraspPvP = {

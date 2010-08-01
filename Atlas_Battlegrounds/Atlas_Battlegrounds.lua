@@ -295,7 +295,7 @@ local myData = {
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
 		ZoneName = { BabbleZone["Terokkar Forest"].." - "..AtlasBGLocale["Auchindoun Spirit Towers"] };
-		Location = { BabbleSubZone[""Bone Wastes""] ..", "..BabbleZone["Terokkar Forest"] };
+		Location = { BabbleSubZone["Bone Wastes"] ..", "..BabbleZone["Terokkar Forest"] };
 		LevelRange = "62-80";
 		MinLevel = "62";
 		{ ORNG.."PvP: "..AtlasBGLocale["Auchindoun Spirit Towers"] };

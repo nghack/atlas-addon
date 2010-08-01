@@ -171,7 +171,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "Horde Field Scout";
 	
 	-- Terokkar Forest PvP
-	["Auchindoun Spirit Tower"] = "Auchindoun Spirit Tower";
+	["Auchindoun Spirit Towers"] = "Auchindoun Spirit Towers";
 	
 	-- Halaa
 	["Wyvern Camp"] = "Wyvern Camp";
@@ -200,10 +200,10 @@ AtlasBGLocale = {
 	["Southwest Graveyard"] = "Southwest Graveyard";
 	
 	-- Eastern Plaguelands - Game of Tower
-	["Game of Tower"] = "Game of Tower";
+	["A Game of Towers"] = "AGame of Towers";
 	
 	-- Silithus - The Silithyst Must Flow
-	["Silithyst Must Flow"] = "Silithyst Must Flow";
+	["The Silithyst Must Flow"] = "The Silithyst Must Flow";
 	["Alliance's Camp"] = "Alliance's Camp";
 	["Horde's Camp"] = "Horde's Camp";
 };

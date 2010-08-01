@@ -174,7 +174,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "部落戰場斥候";
 
 	-- Terokkar Forest PvP
-	["Auchindoun Spirit Tower"] = "奧齊頓精神哨塔";
+	["Auchindoun Spirit Towers"] = "奧齊頓精神哨塔";
 
 	-- Halaa
 	["Wyvern Camp"] = "雙足翼龍營地";
@@ -203,10 +203,10 @@ AtlasBGLocale = {
 	["Southwest Graveyard"] = "西南墓地";
 
 	-- Eastern Plaguelands - Game of Tower
-	["Game of Tower"] = "哨塔爭奪戰";
+	["A Game of Towers"] = "哨塔爭奪戰";
 	
 	-- Silithus - The Silithyst Must Flow
-	["Silithyst Must Flow"] = "收集希利塞斯";
+	["The Silithyst Must Flow"] = "收集希利塞斯";
 	["Alliance's Camp"] = "聯盟營地";
 	["Horde's Camp"] = "部落營地";
 };

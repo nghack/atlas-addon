@@ -180,7 +180,7 @@ AtlasBGLocale = {
 	["Horde Field Scout"] = "Explorador de campo de la Horda";
 	
 	-- Terokkar Forest PvP
-	["Auchindoun Spirit Tower"] = "Auchindoun Spirit Tower"; -- Need translation
+	["Auchindoun Spirit Towers"] = "Auchindoun Spirit Towers"; -- Need translation
 
 	-- Halaa
 	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
@@ -209,10 +209,10 @@ AtlasBGLocale = {
 	["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
 
 	-- Eastern Plaguelands - Game of Tower
-	["Game of Tower"] = "Game of Tower"; -- Need translation
+	["A Game of Towers"] = "Game of Tower"; -- Need translation
 
 	-- Silithus - The Silithyst Must Flow
-	["Silithyst Must Flow"] = "Silithyst Must Flow"; -- Need translation
+	["The Silithyst Must Flow"] = "The Silithyst Must Flow"; -- Need translation
 	["Alliance's Camp"] = "Alliance's Camp"; -- Need translation
 	["Horde's Camp"] = "Horde's Camp"; -- Need translation
 };

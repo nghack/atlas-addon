@@ -294,16 +294,16 @@ local myData = {
 	};
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
-		ZoneName = { BabbleZone["Terokkar Forest"].." - "..AtlasBGLocale["Auchindoun Spirit Tower"] };
-		Location = { BabbleZone["Terokkar Forest"] };
+		ZoneName = { BabbleZone["Terokkar Forest"].." - "..AtlasBGLocale["Auchindoun Spirit Towers"] };
+		Location = { BabbleSubZone[""Bone Wastes""] ..", "..BabbleZone["Terokkar Forest"] };
 		LevelRange = "62-80";
 		MinLevel = "62";
-		{ ORNG.."PvP: "..AtlasBGLocale["Auchindoun Spirit Tower"] };
+		{ ORNG.."PvP: "..AtlasBGLocale["Auchindoun Spirit Towers"] };
 	};
 	-- Wintergrasp
 	WintergraspPvP = {
 		ZoneName = { BabbleZone["Wintergrasp"] };
-		Location = { BabbleZone["Wintergrasp"] };
+--		Location = { BabbleZone["Wintergrasp"] };
 		LevelRange = "73-80";
 		MinLevel = "73";
 		{ ORNG.."PvP: "..BabbleZone["Wintergrasp"] };
@@ -334,11 +334,11 @@ local myData = {
 	};
 	-- Eastern Plaguelands - Game of Tower
 	GameOfTower = {
-		ZoneName = { BabbleZone["Eastern Plaguelands"].." - "..AtlasBGLocale["Game of Tower"] };
-		Location = { BabbleZone["Eastern Plaguelands"] };
+		ZoneName = { BabbleZone["Eastern Plaguelands"].." - "..AtlasBGLocale["A Game of Towers"] };
+--		Location = { BabbleZone["Eastern Plaguelands"] };
 		LevelRange = "53-80";
 		MinLevel = "53";
-		{ ORNG.."PvP: "..AtlasBGLocale["Game of Tower"] };
+		{ ORNG.."PvP: "..AtlasBGLocale["A Game of Towers"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["Light's Hope Chapel"] };
 		{ GREY.."1) "..BabbleSubZone["Crown Guard Tower"] };
@@ -349,7 +349,7 @@ local myData = {
 	-- Silithus - The Silithyst Must Flow
 	SilithystMustFlow = {
 		ZoneName = { BabbleZone["Silithus"].." - "..AtlasBGLocale["Silithyst Must Flow"] };
-		Location = { BabbleZone["Silithus"] };
+--		Location = { BabbleZone["Silithus"] };
 		LevelRange = "55-80";
 		MinLevel = "55";
 		{ ORNG.."PvP: "..AtlasBGLocale["Silithyst Must Flow"] };

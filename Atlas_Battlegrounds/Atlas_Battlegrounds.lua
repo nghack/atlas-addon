@@ -295,7 +295,7 @@ local myData = {
 	-- Terokkar Forest PvP
 	TerokkarForestPvP = {
 		ZoneName = { BabbleZone["Terokkar Forest"].." - "..AtlasBGLocale["Auchindoun Spirit Towers"] };
-		Location = { BabbleSubZone["Bone Wastes"] ..", "..BabbleZone["Terokkar Forest"] };
+		Location = { BabbleSubZone["The Bone Wastes"]..", "..BabbleZone["Terokkar Forest"] };
 		LevelRange = "62-80";
 		MinLevel = "62";
 		{ ORNG.."PvP: "..AtlasBGLocale["Auchindoun Spirit Towers"] };
@@ -348,11 +348,11 @@ local myData = {
 	};
 	-- Silithus - The Silithyst Must Flow
 	SilithystMustFlow = {
-		ZoneName = { BabbleZone["Silithus"].." - "..AtlasBGLocale["Silithyst Must Flow"] };
+		ZoneName = { BabbleZone["Silithus"].." - "..AtlasBGLocale["The Silithyst Must Flow"] };
 --		Location = { BabbleZone["Silithus"] };
 		LevelRange = "55-80";
 		MinLevel = "55";
-		{ ORNG.."PvP: "..AtlasBGLocale["Silithyst Must Flow"] };
+		{ ORNG.."PvP: "..AtlasBGLocale["The Silithyst Must Flow"] };
 		{ "" };
 		{ BLUE.."A) "..BabbleSubZone["Cenarion Hold"] };
 		{ GREY.."1) "..AtlasBGLocale["Alliance's Camp"] };

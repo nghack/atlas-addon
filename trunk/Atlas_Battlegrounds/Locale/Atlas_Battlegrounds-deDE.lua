@@ -205,7 +205,7 @@ AtlasBGLocale = {
 	["A Game of Towers"] = "Türme einnehmen";
 
 	-- Silithus - The Silithyst Must Flow
-	["The Silithyst Must Flow"] = "Silithyst sammeln"; -- Need review
+	["The Silithyst Must Flow"] = "Silithyst sammeln";
 	["Alliance's Camp"] = "Allianzlager";
 	["Horde's Camp"] = "Hordelager";
 };

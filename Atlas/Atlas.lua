@@ -37,7 +37,7 @@ local function debug(info)
 end
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0";
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0"; -- Only update the version if there is any new option parameter added
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -68,9 +68,18 @@ local DefaultAtlasOptions = {
 	["AtlasCtrl"] = false;
 };
 
--- Default map to auto-select to when no SubZone data is available.
--- Define this table entries only when the dungeon has multiple maps
--- Not for localization.
+--[[
+  Atlas_AssocDefaults{}
+  
+  Default map to auto-select to when no SubZone data is available.
+  Define this table entries only when the dungeon has multiple maps
+
+  Table index is zone name, it need to be localized value, but we will handle
+  the localization with Atlas_AssocDefaults_Loc{} and function Atlas_CheckAssocDefaults()
+  The table value is map's key-name.
+  
+  Do not localize this table.
+]]
 Atlas_AssocDefaults = {
 	["Black Temple"] =			"BlackTempleBasement";
 	["Karazhan"] =				"KarazhanStart";
@@ -82,9 +91,13 @@ Atlas_AssocDefaults = {
 	["Icecrown Citadel"] =			"IcecrownCitadelA";
 };
 
--- Default map to auto-select to when no SubZone data is available. 
--- Define this table entries only when the dungeon has multiple maps
--- No need to localize this table since BabbleZone lib will look for it.
+--[[
+  Atlas_AssocDefaults_Loc{}
+  
+  Maps the AssicDefault table with localized zone names.
+  
+  Translation is taken by LibBabble-SubZone()
+]]
 Atlas_AssocDefaults_Loc = {
 	["Black Temple"] = 			BabbleZone["Black Temple"];
 	["Karazhan"] = 				BabbleZone["Karazhan"];
@@ -96,8 +109,16 @@ Atlas_AssocDefaults_Loc = {
 	["Icecrown Citadel"] = 			BabbleZone["Icecrown Citadel"];
 };
 
--- Links SubZone values with specific instance maps. 
--- Not for localization.
+--[[
+  Atlas_SubZoneData{}
+  
+  Links SubZone values with specific instance maps. 
+  Table index is sub-zone name, it need to be localized value, but we will handle
+  the localization with Atlas_SubZoneData_Loc{} and function Atlas_CheckSubZoneData()
+  The table value is map's key-name.
+  
+  Do not localize this table.
+]]
 Atlas_SubZoneData = {
 	--Black Temple, Start
 	["Karabor Sewers"] =			"BlackTempleStart";
@@ -231,7 +252,13 @@ Atlas_SubZoneData = {
 	["The Frozen Throne"] =			"IcecrownCitadelC";
 	["Frostmourne"] =			"IcecrownCitadelC";
 };
---Links SubZone values with specific instance maps
+
+--[[
+  Atlas_SubZoneData_Loc{}
+  
+  Mapping the subzone table with localized values.
+  Translation is taken by LibBabble-SubZone()
+]]
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
 	["Karabor Sewers"] = 			BabbleSubZone["Karabor Sewers"];
@@ -365,9 +392,14 @@ Atlas_SubZoneData_Loc = {
 	["The Frozen Throne"] = 		BabbleSubZone["The Frozen Throne"];
 	["Frostmourne"] = 			BabbleSubZone["Frostmourne"];
 };
--- Maps to auto-select to from outdoor zones.
--- Duplicates are commented out.   
--- Not for localization.
+
+--[[
+  Atlas_OutdoorZoneToAtlas{}
+  
+  Maps to auto-select to from outdoor zones.
+  Duplicates are commented out.   
+  Not for localization.
+]]
 Atlas_OutdoorZoneToAtlas = {
 	["Ashenvale"] =				"BlackfathomDeepsEnt";
 	["Badlands"] =				"UldamanEnt";
@@ -405,8 +437,12 @@ Atlas_OutdoorZoneToAtlas = {
 	["Icecrown"] =				"IcecrownCitadelA";
 };
 
--- Maps to auto-select to from outdoor zones.
--- No need to localize this table since BabbleZone lib will look for it.
+--[[
+  Atlas_OutdoorZoneToAtlas_Loc{}
+  
+  Maps OutDoor table with localized zone names
+  No need to localize this table since BabbleZone lib will look for it.
+]]
 Atlas_OutdoorZoneToAtlas_Loc = {
 	["Ashenvale"] = 			BabbleZone["Ashenvale"];
 	["Badlands"] = 				BabbleZone["Badlands"];

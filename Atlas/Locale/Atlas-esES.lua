@@ -372,11 +372,11 @@ AtlasLocale = {
 	["Techbot"] = "Tecnobot";
 
 	-- Hellfire Citadel (Entrance)
-	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace"; -- Need translation
-	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls"; -- Need translation
-	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair"; -- Need translation
-	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel"; -- Need translation
-
+	["Steps and path to the Blood Furnace"] = "Escaleras y camino hacia Hornos de Sangre"; 
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Camino hacia Las Salas Arrasadas y Muros del Fuego Infernal";
+	["Meeting Stone of Magtheridon's Lair"] = "Roca de encuentro de la Guarida de Magtheridon";
+	["Meeting Stone of Hellfire Citadel"] = "Roca de encuentro de La Ciudadela del Fuego Infernal";
+	
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Archimaga Leryda";
 	["Apprentice Darius"] = "Aprendiz Darius";
@@ -635,9 +635,9 @@ AtlasLocale = {
 	["Hedrum the Creeper"] = "Hedrum el Trepador";
 	["Ok'thor the Breaker"] = "Ok'thor el Rompedor";
 	["Theldren"] = "Theldren";
-	["Lefty"] = "Lefty"; --FALTA
-	["Malgen Longspear"] = "Malgen Longspear"; --FALTA
-	["Gnashjaw <Malgen Longspear's Pet>"] = "Gnashjaw <Malgen Longspear's Pet>"; --FALTA
+	["Lefty"] = "Zurdito";
+	["Malgen Longspear"] = "Malgen Lanzalarga";
+	["Gnashjaw <Malgen Longspear's Pet>"] = "Rechinador <Mascota de Malgen Lanzalarga>";
 	["Rotfang"] = "Colmipútreo";
 	["Va'jashni"] = "Va'jashni";
 	["Houndmaster Grebmar"] = "Maestro de canes Grebmar";
@@ -666,7 +666,7 @@ AtlasLocale = {
 	["Private Rocknot"] = "Soldado Sinrroca";
 	["Ribbly Screwspigot"] = "Ribbly Llavenrosca";
 	["Coren Direbrew"] = "Coren Brebaje Temible";
-	["Griz Gutshank <Arena Vendor>"] = "Griz Gutshank <Arena Vendor>"; --Fix
+	["Griz Gutshank <Arena Vendor>"] = "Griz Pataguata <Vendedor de arena>";
 	["Ambassador Flamelash"] = "Embajador Latifuego";
 	["Panzor the Invincible"] = "Panzor el Invencible";
 	["Summoner's Tomb"] = "Tumba del Invocador";
@@ -861,7 +861,7 @@ AtlasLocale = {
 	["Atiesh <Hand of Sargeras>"] = "Atiesh <Mano de Sargeras>"; --Check
 	["Hearthsinger Forresten"] = "Escupezones Foreste";
 	["The Unforgiven"] = "El imperdonable";
-	["Elder Farwhisper"] = "Elder Farwhisper"; --FALTA
+	["Elder Farwhisper"] = "Ancestro Levesusurro";
 	["Timmy the Cruel"] = "Timmy el Cruel";
 	["Malor the Zealous"] = "Malor el Entusiasta";
 	["Malor's Strongbox"] = "Caja fuerte de Malor";
@@ -1223,7 +1223,7 @@ AtlasLocale = {
 	["Connection to Master's Terrace"] = "Conexión con: El Bancal del Maestro";
 	["Path to the Broken Stairs"] = "Camino a las Escaleras rotas"; --omitted from Karazhan End
 	["Hastings <The Caretaker>"] = "Hastings <El Custodio>";
-	["Servant Quarters"] = "Los sirvientes"; --Check
+	["Servant Quarters"] = "Aposentos de los sirvientes";
 	["Hyakiss the Lurker"] = "Hyakiss el Rondador";
 	["Rokad the Ravager"] = "Rokad el Devastador";
 	["Shadikith the Glider"] = "Shadikith el Planeador";
@@ -1307,14 +1307,14 @@ AtlasLocale = {
 	--Sunwell Plateau
 	["Sathrovarr the Corruptor"] = "Sathrovarr el Corruptor";
 	["Madrigosa"] = "Madrigosa";
-	["Brutallus"] = "Brutallus"; --FALTA
+	["Brutallus"] = "Brutallus";
 	["Felmyst"] = "Brumavil";
 	["Eredar Twins"] = "Gemelas Eredar";
-	["Grand Warlock Alythess"] = "Gran Brujo Alythess"; --Check
-	["Lady Sacrolash"] = "Lady Sacrolash"; --FALTA
+	["Grand Warlock Alythess"] = "Bruja suprema Alythess";
+	["Lady Sacrolash"] = "Lady Sacrolash";
 	["M'uru"] = "M'uru";
-	["Entropius"] = "Entropius"; --FALTA
-	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <The Deceiver>"; --FALTA
+	["Entropius"] = "Entropius";
+	["Kil'jaeden <The Deceiver>"] = "Kil'jaeden <El Falsario>";
 
 	--TK: The Arcatraz
 	["Key to the Arcatraz"] = "Llave de El Arcatraz";
@@ -1438,7 +1438,7 @@ AtlasLocale = {
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
 	["Forgemaster Garfrost"] = "Maestro de forja Gargelus";
-	["Martin Victus"] = "Martin Victus"; --Check
+	["Martin Victus"] = "Martin Victus";
 	["Gorkun Ironskull"] = "Gorkun Testahierro";
 	["Krick and Ick"] = "Puagh y Agh";
 	["Scourgelord Tyrannus"] = "Señor de la Plaga Tyrannus";
@@ -1471,7 +1471,7 @@ AtlasLocale = {
 	["Festergut"] = "Panzachancro";
 	["Rotface"] = "Carapútrea";
 	["Professor Putricide"] = "Profesor Putricidio";
-	["Blood Prince Council"] = "Concilio de los príncipes de sangre"; --Check
+	["Blood Prince Council"] = "Consejo de Príncipes de Sangre";
 	["Prince Keleseth"] = "Príncipe Keleseth";
 	["Prince Taldaram"] = "Príncipe Taldaram";
 	["Prince Valanar"] = "Príncipe Valanar";
@@ -1583,8 +1583,8 @@ AtlasLocale = {
 	["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";
 
 	-- Ulduar General
-	["Celestial Planetarium Key"] = "Llave del Planetario Celestial"; --Check
-	["The Siege"] = "El asedio"; --Check
+	["Celestial Planetarium Key"] = "Llave de El Planetario Celestial";
+	["The Siege"] = "El asedio";
 	["The Keepers"] = "Los vigilantes"; --C Check
 
 	-- Ulduar A

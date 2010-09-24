@@ -64,12 +64,12 @@ ATLAS_OPTIONS_RESETPOS 		= "重置位置";
 ATLAS_OPTIONS_ACRONYMS 		= "显示简称";
 ATLAS_OPTIONS_SCALE 		= "窗口大小";
 ATLAS_OPTIONS_BUTRAD 		= "图标半径";
-ATLAS_OPTIONS_CLAMPED		= "使 Atlas 不超出游戏画面"
+ATLAS_OPTIONS_CLAMPED		= "使Atlas不超出游戏画面"
 ATLAS_OPTIONS_CTRL 		= "弹出工具说明 (按住CTRL指向内容)"
 
 ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
-ATLAS_BUTTON_TOOLTIP_HINT = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
-ATLAS_LDB_HINT = "单击打开 Atlas\n右键点击打开设置";
+ATLAS_BUTTON_TOOLTIP_HINT = "单击打开Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
+ATLAS_LDB_HINT = "单击打开Atlas\n右键点击打开设置";
 
 ATLAS_OPTIONS_CATDD = "副本地图排序方式";
 ATLAS_DDL_CONTINENT = "所属大陆";
@@ -104,7 +104,7 @@ ATLAS_INSTANCE_BUTTON = "副本";
 ATLAS_ENTRANCE_BUTTON = "入口";
 ATLAS_SEARCH_UNAVAIL = "搜索不可用";
 
-ATLAS_DEP_MSG1 = "检测到过期的 Atlas 扩展插件。";
+ATLAS_DEP_MSG1 = "检测到过期的Atlas扩展插件。";
 ATLAS_DEP_MSG2 = "这些插件已经被禁用。";
 ATLAS_DEP_MSG3 = "请从插件目录（AddOns）中将其删除。";
 ATLAS_DEP_OK = "确定";
@@ -126,9 +126,9 @@ AtlasLocale = {
 	--World Events, Festival
 	["Brewfest"] = "美酒节";
 	["Hallow's End"] = "万圣节";
-	["Love is in the Air"] = "爱情的气息";
-	["Lunar Festival"] = "春节庆典";
-	["Midsummer Festival"] = "仲夏节庆典";
+	["Love is in the Air"] = "情人节";
+	["Lunar Festival"] = "春节";
+	["Midsummer Festival"] = "仲夏火焰节";
 	--Misc strings
 	["Adult"] = "成年";
 	["AKA"] = "亦作";
@@ -284,9 +284,9 @@ AtlasLocale = {
 	--WotLK Acronyms
 	["AK, Kahet"] = "AK, 安卡"; -- Ahn'kahet
 	["AN, Nerub"] = "AN, 艾卓"; -- Azjol-Nerub
-	["Champ"] = "Champ"; -- Trial of the Champion
+	["Champ"] = "Champ, 试炼"; -- Trial of the Champion
 	["CoT-Strat"] = "CoT-Strat"; -- Culling of Stratholme
-	["Crus"] = "Crus"; -- Trial of the Crusader
+	["Crus"] = "Crus, ToC"; -- Trial of the Crusader
 	["DTK"] = "DTK"; -- Drak'Tharon Keep
 	["FoS"] = "FoS"; ["FH1"] = "FH1"; -- The Forge of Souls
 	["Gun"] = "Gun"; -- Gundrak
@@ -810,7 +810,7 @@ AtlasLocale = {
 	["Sorcerer Ashcrombe"] = "巫师阿克鲁比";
 	["Deathstalker Adamant"] = "亡灵哨兵阿达曼特";
 	["Landen Stilwell"] = "兰登·斯蒂维尔";
-	["Investigator Fezzen Brasstacks"] = "调查员菲赞•铜钉"; -- Needs review
+	["Investigator Fezzen Brasstacks"] = "调查员菲赞·铜钉"; -- Needs review
 	["Deathstalker Vincent"] = "亡灵哨兵文森特";
 	["Apothecary Trio"] = "药剂师三人组"; -- Needs review
 	["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师胡默尔 <王冠化学制药公司>"; -- Needs review
@@ -1408,7 +1408,7 @@ AtlasLocale = {
 	["Watcher Narjil"] = "看守者纳尔伊";
 	["Watcher Silthik"] = "看守者希尔希克";
 	["Hadronox"] = "哈多诺克斯";
-	["Elder Nurgen"] = "Elder Nurgen";
+	["Elder Nurgen"] = "长者努尔根";
 	["Anub'arak"] = "阿努巴拉克";
 	
 	--Caverns of Time: The Culling of Stratholme
@@ -1425,7 +1425,7 @@ AtlasLocale = {
 	--Drak'Tharon Keep
 	["Trollgore"] = "托尔戈";
 	["Novos the Summoner"] = "召唤者诺沃斯";
-	["Elder Kilias"] = "Elder Kilias";
+	["Elder Kilias"] = "长者基里亚斯";
 	["King Dred"] = "暴龙之王爵德";
 	["The Prophet Tharon'ja"] = "先知萨隆亚";
 	["Kurzel"] = "库塞尔";
@@ -1433,29 +1433,29 @@ AtlasLocale = {
 	
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
-	["Falric"] = "法勒瑞克";
-	["Marwyn"] = "麦尔温";
+	["Falric"] = "法瑞克";
+	["Marwyn"] = "玛维恩";
 	["Wrath of the Lich King"] = "巫妖王之怒";
 	["The Captain's Chest"] = "船长的箱子";
 
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
-	["Forgemaster Garfrost"] = "锻造大师加弗罗斯";
-	["Martin Victus"] = "马汀•维特斯";
-	["Gorkun Ironskull"] = "葛刚•铁颅";
-	["Krick and Ick"] = "克瑞克和艾克";
-	["Scourgelord Tyrannus"] = "天谴领主提朗纽斯";
+	["Forgemaster Garfrost"] = "熔炉之主加弗斯特";
+	["Martin Victus"] = "马汀·维特斯";
+	["Gorkun Ironskull"] = "葛刚·铁颅";
+	["Krick and Ick"] = "伊克和科瑞克";
+	["Scourgelord Tyrannus"] = "天灾领主泰兰努斯";
 	["Rimefang"] = "霜牙";
 
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	["Archmage Koreln <Kirin Tor>"] = "大法师寇瑞伦 <祈伦托>";
-	["Archmage Elandra <Kirin Tor>"] = "大法师伊兰卓 <祈伦托>";
-	["Lady Sylvanas Windrunner <Banshee Queen>"] = "希瓦娜斯•风行者女士 <女妖之王>";
+	["Archmage Koreln <Kirin Tor>"] = "大法师寇瑞伦 <肯瑞托>";
+	["Archmage Elandra <Kirin Tor>"] = "大法师伊兰卓 <肯瑞托>";
+	["Lady Sylvanas Windrunner <Banshee Queen>"] = "希瓦娜斯·风行者女士 <女妖之王>";
 	["Dark Ranger Loralen"] = "黑暗游侠洛拉伦";
 	["Dark Ranger Kalira"] = "黑暗游侠卡丽菈";
-	["Bronjahm <Godfather of Souls>"] = "布朗吉姆 <众魂教父>";
-	["Devourer of Souls"] = "众魂吞噬者";
+	["Bronjahm <Godfather of Souls>"] = "布隆亚姆 <众魂教父>";
+	["Devourer of Souls"] = "灵魂吞噬者";
 
 	--Gundrak
 	["Slad'ran <High Prophet of Sseratus>"] = "斯拉德兰 <西莱图斯的高阶先知>";
@@ -1467,25 +1467,25 @@ AtlasLocale = {
 
 	--Icecrown Citadel
 	["The Ashen Verdict"] = "灰烬裁决军"; -- Needs review after WoW 3.3.3 is available in China
-	["Lord Marrowgar"] = "玛洛嘉领主"; -- Needs review after WoW 3.3.3 is available in China
-	["Lady Deathwhisper"] = "亡语女士"; -- Needs review after WoW 3.3.3 is available in China
+	["Lord Marrowgar"] = "玛洛加尔领主"; -- Needs review after WoW 3.3.3 is available in China
+	["Lady Deathwhisper"] = "亡语者女士"; -- Needs review after WoW 3.3.3 is available in China
 	["Gunship Battle"] = "炮艇战"; -- Needs review after WoW 3.3.3 is available in China
 	["Deathbringer Saurfang"] = "死亡使者萨鲁法尔"; -- Needs review after WoW 3.3.3 is available in China
-	["Festergut"] = "脓肠"; -- Needs review after WoW 3.3.3 is available in China
-	["Rotface"] = "腐脸"; -- Needs review after WoW 3.3.3 is available in China
-	["Professor Putricide"] = "普崔希德教授"; -- Needs review after WoW 3.3.3 is available in China
-	["Blood Prince Council"] = "血亲王议会"; -- Needs review after WoW 3.3.3 is available in China
-	["Prince Keleseth"] = "凯雷希斯王子"; -- Needs review after WoW 3.3.3 is available in China
-	["Prince Taldaram"] = "泰尔达朗王子"; -- Needs review after WoW 3.3.3 is available in China
-	["Prince Valanar"] = "瓦拉纳尔王子"; -- Needs review after WoW 3.3.3 is available in China
-	["Blood-Queen Lana'thel"] = "血腥女王菈娜萨尔"; -- Needs review after WoW 3.3.3 is available in China
-	["Valithria Dreamwalker"] = "瓦莉丝瑞雅•梦行者"; -- Needs review after WoW 3.3.3 is available in China
-	["Sindragosa <Queen of the Frostbrood>"] = "辛德拉苟莎 <霜育之后>"; -- Needs review after WoW 3.3.3 is available in China
+	["Festergut"] = "烂肠"; -- Needs review after WoW 3.3.3 is available in China
+	["Rotface"] = "腐面"; -- Needs review after WoW 3.3.3 is available in China
+	["Professor Putricide"] = "普崔塞德教授"; -- Needs review after WoW 3.3.3 is available in China
+	["Blood Prince Council"] = "鲜血王子议会"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Keleseth"] = "凯雷塞斯王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Taldaram"] = "塔达拉姆王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Prince Valanar"] = "瓦兰纳王子"; -- Needs review after WoW 3.3.3 is available in China
+	["Blood-Queen Lana'thel"] = "鲜血女王兰娜瑟尔"; -- Needs review after WoW 3.3.3 is available in China
+	["Valithria Dreamwalker"] = "踏梦者瓦莉瑟瑞娅"; -- Needs review after WoW 3.3.3 is available in China
+	["Sindragosa <Queen of the Frostbrood>"] = "辛达苟萨 <霜育之后>"; -- Needs review after WoW 3.3.3 is available in China
 	["The Lich King"] = "巫妖王"; -- Needs review after WoW 3.3.3 is available in China
 	["To next map"] = "到下一个地图";
 	["From previous map"] = "到前一个地图";
 	["Upper Spire"] = "冰冠尖塔"; -- Needs review after WoW 3.3.3 is available in China
-	["Sindragosa's Lair"] = "辛德拉苟莎之巢"; -- Needs review after WoW 3.3.3 is available in China
+	["Sindragosa's Lair"] = "辛达苟萨之巢"; -- Needs review after WoW 3.3.3 is available in China
 
 	--Naxxramas
 	["Mr. Bigglesworth"] = "比格沃斯";
@@ -1525,10 +1525,10 @@ AtlasLocale = {
 
 	--The Ruby Sanctum
 	["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
-	["Baltharus the Warborn"] = "「战争降临」巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
+	["Baltharus the Warborn"] = "巴萨勒司"; -- Needs review after WoW 3.3.5 is available in China
 	["Saviana Ragefire"] = "莎维纳‧怒火"; -- Needs review after WoW 3.3.5 is available in China
 	["General Zarithrian"] = "札里瑞安将军"; -- Needs review after WoW 3.3.5 is available in China
-	["Halion <The Twilight Destroyer>"] = "音色的黄昏驱逐舰"; -- Needs review after WoW 3.3.5 is available in China
+	["Halion <The Twilight Destroyer>"] = "海里昂 <暮光毁灭者>"; -- Needs review after WoW 3.3.5 is available in China
 
 	--The Nexus: The Eye of Eternity
 	["Malygos"] = "玛里苟斯";
@@ -1540,7 +1540,7 @@ AtlasLocale = {
 	["Commander Kolurg"] = "指挥官库鲁尔格";
 	["Grand Magus Telestra"] = "大魔导师泰蕾丝塔";
 	["Anomalus"] = "阿诺玛鲁斯";
-	["Elder Igasho"] = "Elder Igasho";
+	["Elder Igasho"] = "长者伊加苏";
 	["Ormorok the Tree-Shaper"] = "塑树者奥莫洛克";
 	["Keristrasza"] = "克莉斯塔萨";
 
@@ -1553,37 +1553,37 @@ AtlasLocale = {
 	["Cache of Eregos"] = "埃雷苟斯的宝箱";
 
 	--Trial of the Champion
-	["Grand Champions"] = "大勇士";
-	["Champions of the Alliance"] = "联盟大勇士";
-	["Marshal Jacob Alerius"] = "杰科布•亚雷瑞斯元帅";
-	["Ambrose Boltspark"] = "安布罗斯•拴炫";
+	["Grand Champions"] = "总冠军";
+	["Champions of the Alliance"] = "联盟冠军";
+	["Marshal Jacob Alerius"] = "雅克布·奥勒留斯元帅";
+	["Ambrose Boltspark"] = "安布罗斯·雷钉";
 	["Colosos"] = "克罗索斯";
-	["Jaelyne Evensong"] = "洁琳•晚歌";
-	["Lana Stouthammer"] = "菈娜•顽锤";
-	["Champions of the Horde"] = "部落大勇士";
-	["Mokra the Skullcrusher"] = "『碎颅者』莫克拉";
-	["Eressea Dawnsinger"] = "艾瑞西雅•曦咏";
-	["Runok Wildmane"] = "鲁诺克•蛮鬃";
-	["Zul'tore"] = "祖尔拓";
-	["Deathstalker Visceri"] = "亡灵哨兵威瑟瑞";
-	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "『纯净者』埃卓克 <银白十字军大勇士>";
-	["Argent Confessor Paletress"] = "银白告解者帕尔璀丝";
+	["Jaelyne Evensong"] = "娅琳·永歌";
+	["Lana Stouthammer"] = "拉娜·硬锤";
+	["Champions of the Horde"] = "部落冠军";
+	["Mokra the Skullcrusher"] = "碎颅者莫克拉";
+	["Eressea Dawnsinger"] = "埃雷希·晨歌";
+	["Runok Wildmane"] = "鲁诺克·蛮鬃";
+	["Zul'tore"] = "祖尔托";
+	["Deathstalker Visceri"] = "死亡猎手维赛里";
+	["Eadric the Pure <Grand Champion of the Argent Crusade>"] = "纯洁者耶德瑞克 <银色北伐军总冠军>";
+	["Argent Confessor Paletress"] = "银色神官帕尔崔丝";
 	["The Black Knight"] = "黑骑士";
 
 	--Trial of the Crusader
 	["Cavern Entrance"] = "洞穴入口";
-	["Northrend Beasts"] = "北裂境巨兽";
-	["Gormok the Impaler"] = "『穿刺者』戈莫克";
+	["Northrend Beasts"] = "诺森德猛兽";
+	["Gormok the Impaler"] = "穿刺者戈莫克";
 	["Acidmaw"] = "酸喉";
-	["Dreadscale"] = "惧鳞";
-	["Icehowl"] = "冰嚎";
-	["Lord Jaraxxus"] = "贾拉克瑟斯领主";
-	["Faction Champions"] = "阵营勇士";
-	["Twin Val'kyr"] = "华尔琪双子";
-	["Fjola Lightbane"] = "菲欧拉•光寂";
-	["Eydis Darkbane"] = "艾狄丝•暗寂";
+	["Dreadscale"] = "恐鳞";
+	["Icehowl"] = "冰吼";
+	["Lord Jaraxxus"] = "加拉克苏斯大王";
+	["Faction Champions"] = "阵营冠军";
+	["Twin Val'kyr"] = "瓦格里双子";
+	["Fjola Lightbane"] = "菲欧拉·光寂";
+	["Eydis Darkbane"] = "艾狄丝·暗寂";
 	["Anub'arak"] = "阿努巴拉克";
-	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军试炼";
+	["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军的试炼";
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "天文馆钥匙";
@@ -1650,14 +1650,14 @@ AtlasLocale = {
 	["Svala Sorrowgrave"] = "席瓦拉·索格蕾"; 
 	["Gortok Palehoof"] = "戈托克·苍蹄";
 	["Skadi the Ruthless"] = "残忍的斯卡迪";
-	["Elder Chogan'gada"] = "Elder Chogan'gada";
+	["Elder Chogan'gada"] = "长者甘达加";
 	["King Ymiron"] = "伊米隆国王";
 
 	--Vault of Archavon
 	["Archavon the Stone Watcher"] = "岩石看守者阿尔卡冯";
-	["Emalon the Storm Watcher"] = "风暴看守者埃玛隆";
-	["Koralon the Flame Watcher"] = "烈焰看守者寇拉隆";
-	["Toravon the Ice Watcher"] = "寒冰看守者";
+	["Emalon the Storm Watcher"] = "风暴看守者埃玛尔隆";
+	["Koralon the Flame Watcher"] = "火焰看守者科拉隆";
+	["Toravon the Ice Watcher"] = "寒冰看守者图拉旺";
 
 	--The Violet Hold
 	["Erekem"] = "埃雷克姆";

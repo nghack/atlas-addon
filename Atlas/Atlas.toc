@@ -8,15 +8,15 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Version: 1.17.0
+## Version: 1.17.1
 ## Author: Lothaer, arith, Dynaletik
-## X-Date: August, 2010
+## X-Date: October, 2010
 ## X-credits: Dan Gilbert
 ## X-Email: lothayer@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## X-OptionsFrame: AtlasOptionsFrame
-## SavedVariablesPerCharacter: AtlasOptions
+## SavedVariables: AtlasOptions
 
 Libs\LibStub.lua
 Libs\CallbackHandler-1.0.lua

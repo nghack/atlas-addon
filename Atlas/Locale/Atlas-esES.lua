@@ -32,7 +32,7 @@
 
 if ( GetLocale() == "esES" ) then
 
-AtlasSortIgnore = {"the (.+)"}
+AtlasSortIgnore = {"the (.+)"};
 
 ATLAS_TITLE = "Atlas";
 
@@ -501,7 +501,6 @@ AtlasLocale = {
 	["Rotgrip"] = "Escamapodrida";
 	["Princess Theradras"] = "Princesa Theradras";
 	["Elder Splitrock"] = "Ancestro Parterroca";
-
 
 	--Ragefire Chasm
 	["Maur Grimtotem"] = "Maur Totem Siniestro";

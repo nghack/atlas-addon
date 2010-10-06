@@ -6,6 +6,12 @@ Copyright 2010 Atlas Team (http://atlasmod.com/)
 = Change Log =
 ==============
 
+v1.17.1
+- translation update
+  - Simplified Chinese (DiabloHu)
+  - Spanish (maqjav)
+- change the options to be per account instead of per character
+
 v1.17.0
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)

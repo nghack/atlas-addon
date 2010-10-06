@@ -1057,7 +1057,7 @@ AtlasLocale = {
 	["Veras Darkshadow"] = "薇尔莱丝·深影";
 	["Illidan Stormrage <The Betrayer>"] = "伊利丹·怒风 <背叛者>";
 
-	--CFR: Serpentshrine Cavern
+	--CR: Serpentshrine Cavern
 	["Hydross the Unstable <Duke of Currents>"] = "不稳定的海度斯 <水流公爵>";
 	["The Lurker Below"] = "鱼斯拉";
 	["Leotheras the Blind"] = "盲眼者莱欧瑟拉斯";
@@ -1066,7 +1066,7 @@ AtlasLocale = {
 	["Morogrim Tidewalker"] = "莫洛格里·踏潮者";
 	["Lady Vashj <Coilfang Matron>"] = "瓦丝琪 <盘牙女王>";
 
-	--CFR: The Slave Pens
+	--CR: The Slave Pens
 	["Cenarion Expedition"] = "塞纳里奥远征队";--omitted from other CR
 	["Reservoir Key"] = "水库钥匙";--omitted from other CR
 	["Mennu the Betrayer"] = "背叛者门努";
@@ -1077,14 +1077,14 @@ AtlasLocale = {
 	["Quagmirran"] = "夸格米拉";
 	["Ahune <The Frost Lord>"] = "埃霍恩 <冰霜之王>";
 
-	--CFR: The Steamvault
+	--CR: The Steamvault
 	["Hydromancer Thespia"] = "水术师瑟丝比娅";
 	["Main Chambers Access Panel"] = "主厅控制面板";
 	["Second Fragment Guardian"] = "第二块碎片的守护者";
 	["Mekgineer Steamrigger"] = "机械师斯蒂里格";
 	["Warlord Kalithresh"] = "督军卡利瑟里斯";
 
-	--CFR: The Underbog
+	--CR: The Underbog
 	["Hungarfen"] = "霍加尔芬";
 	["The Underspore"] = "幽暗孢子";
 	["Ghaz'an"] = "加兹安";
@@ -1630,7 +1630,7 @@ AtlasLocale = {
 	["Loken"] = "洛肯";
 
 	--Ulduar: Halls of Stone
-	["Elder Yurauk"] = "Elder Yurauk";
+	["Elder Yurauk"] = "由罗克长者"; -- needs review
 	["Krystallus"] = "克莱斯塔卢斯";
 	["Maiden of Grief"] = "悲伤圣女";
 	["Brann Bronzebeard"] = "布莱恩·铜须";
@@ -1640,7 +1640,7 @@ AtlasLocale = {
 	--Utgarde Keep: Utgarde Keep
 	["Dark Ranger Marrah"] = "黑暗游侠玛尔拉";
 	["Prince Keleseth <The San'layn>"] = "凯雷塞斯王子 <萨莱因>";
-	["Elder Jarten"] = "Elder Jarten";
+	["Elder Jarten"] = "加坦长者"; -- needs review
 	["Dalronn the Controller"] = "控制者达尔隆";
 	["Skarvald the Constructor"] = "建筑师斯卡瓦尔德";
 	["Ingvar the Plunderer"] = "劫掠者因格瓦尔";

@@ -11,6 +11,7 @@ v1.17.1
   - Simplified Chinese (DiabloHu)
   - Spanish (maqjav)
 - change the options to be per account instead of per character
+- fixed Ruby Sanctum map
 
 v1.17.0
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)

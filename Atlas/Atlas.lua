@@ -21,10 +21,9 @@
 
 --]]
 
---Atlas, an instance map browser
---Author: Dan Gilbert
---Email: loglow@gmail.com
---AIM: dan5981
+-- Atlas, an instance map browser
+-- Initiator and previous author: Dan Gilbert, loglow@gmail.com
+-- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
 
 local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
@@ -37,7 +36,6 @@ local function debug(info)
 end
 
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0"; -- Only update the version if there is any new option parameter added
 
 --all in one place now
 ATLAS_DROPDOWNS = {};
@@ -49,6 +47,9 @@ ATLAS_SCROLL_LIST = {};
 
 ATLAS_DATA = {};
 ATLAS_SEARCH_METHOD = nil;
+
+-- Only update below version number when the options has been revised and a force update is needed.
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0";
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
@@ -595,13 +596,25 @@ ATLAS_PLUGINS = {};
 ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
 
+-- Below to temporary create a table to store the core map's data
+-- in order to identify the dropdown's zoneID is belonging to the
+-- core Atlas or plugins
+local CoreAtlasMapsKey = {};
+local CoreAtlasMapsKey_Index = 0;
+for kc, vc in pairs(AtlasMaps) do
+	CoreAtlasMapsKey[CoreAtlasMapsKey_Index] = kc;
+	CoreAtlasMapsKey_Index = CoreAtlasMapsKey_Index + 1;
+end
+
 Atlas_MapTypes = {};
 function Atlas_RegisterPlugin(name, myCategory, myData)
-	table.insert(ATLAS_PLUGINS, name);
+	--table.insert(ATLAS_PLUGINS, name);
+	ATLAS_PLUGINS[name] = {};
 	local i = getn(Atlas_MapTypes) + 1;
 	Atlas_MapTypes[i] = GREN..myCategory;
 	
 	for k,v in pairs(myData) do
+		table.insert(ATLAS_PLUGINS[name], k);
 		AtlasMaps[k] = v;
 	end
 	
@@ -697,19 +710,19 @@ end
 
 --Called when the Atlas frame is first loaded
 --We CANNOT assume that data in other files is available yet!
-function Atlas_OnLoad()
+function Atlas_OnLoad(self)
 
 	Process_Deprecated();
 
 	--Register the Atlas frame for the following events
-	this:RegisterEvent("PLAYER_LOGIN");
-	this:RegisterEvent("ADDON_LOADED");
+	self:RegisterEvent("PLAYER_LOGIN");
+	self:RegisterEvent("ADDON_LOADED");
 
 	--Allows Atlas to be closed with the Escape key
 	tinsert(UISpecialFrames, "AtlasFrame");
 	
 	--Dragging involves some special registration
-	AtlasFrame:RegisterForDrag("LeftButton");
+	self:RegisterForDrag("LeftButton");
 	
 	--Setting up slash commands involves referencing some strage auto-generated variables
 	SLASH_ATLAS1 = ATLAS_SLASH;
@@ -754,8 +767,8 @@ end
 
 
 --Main Atlas event handler
-function Atlas_OnEvent()
-
+function Atlas_OnEvent(self, event, ...)
+	local arg1, arg2 = ...;
 	if (event == "ADDON_LOADED" and arg1 == "Atlas") then
 		Atlas_Init();
 	end
@@ -892,9 +905,9 @@ function Atlas_UpdateLock()
 end
 
 --Begin moving the Atlas frame if it's unlocked
-function Atlas_StartMoving()
+function Atlas_StartMoving(self)
 	if(not AtlasOptions.AtlasLocked) then
-		AtlasFrame:StartMoving();
+		self:StartMoving();
 	end
 end
 
@@ -941,11 +954,18 @@ function Atlas_Refresh()
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
 	local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-	
-	if ( not builtIn ) then
-		for k,v in pairs(ATLAS_PLUGINS) do
-			if ( AtlasMap:SetTexture("Interface\\AddOns\\"..v.."\\Images\\"..zoneID) ) then
-				break;
+	for k,v in pairs(CoreAtlasMapsKey) do
+		if(zoneID == v) then
+			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+			break;
+		else
+			for ka,va in pairs(ATLAS_PLUGINS) do
+				for kb,vb in pairs(ATLAS_PLUGINS[ka]) do
+					if (zoneID == vb) then
+						AtlasMap:SetTexture("Interface\\AddOns\\"..ka.."\\Images\\"..zoneID);
+						break;
+					end
+				end
 			end
 		end
 	end
@@ -1001,7 +1021,7 @@ function Atlas_Refresh()
 
 	--create and align any new entry buttons that we need
 	for i=1,ATLAS_CUR_LINES do
-		if ( not getglobal("AtlasEntry"..i) ) then
+		if ( not _G["AtlasEntry"..i] ) then
 			local f = CreateFrame("Button", "AtlasEntry"..i, AtlasFrame, "AtlasEntryTemplate");
 			if i==1 then
 				f:SetPoint("TOPLEFT", "AtlasScrollBar", "TOPLEFT", 16, -2);
@@ -1087,8 +1107,8 @@ function AtlasSwitchDD_OnLoad()
 	end
 end
 
-function AtlasSwitchDD_OnClick()
-	AtlasSwitchDD_Set(this:GetID());
+function AtlasSwitchDD_OnClick(self)
+	AtlasSwitchDD_Set(self:GetID());
 end
 
 function AtlasSwitchDD_Set(index)
@@ -1146,8 +1166,8 @@ end
 
 --Called whenever an item in the map type dropdown menu is clicked
 --Sets the main dropdown menu contents to reflect the category of map selected
-function AtlasFrameDropDownType_OnClick()
-	local thisID = this:GetID();
+function AtlasFrameDropDownType_OnClick(self)
+	local thisID = self:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDownType, thisID);
 	AtlasOptions.AtlasType = thisID;
 	AtlasOptions.AtlasZone = 1;
@@ -1179,8 +1199,8 @@ end
 
 --Called whenever an item in the main dropdown menu is clicked
 --Sets the newly selected map as current and refreshes the frame
-function AtlasFrameDropDown_OnClick()
-	i = this:GetID();
+function AtlasFrameDropDown_OnClick(self)
+	i = self:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDown, i);
 	AtlasOptions.AtlasZone = i;
 	Atlas_Refresh();
@@ -1358,10 +1378,10 @@ function AtlasScrollBar_Update()
 	for line=1,ATLAS_NUM_LINES do
 		lineplusoffset = line + FauxScrollFrame_GetOffset(AtlasScrollBar);
 		if ( lineplusoffset <= ATLAS_CUR_LINES ) then
-			getglobal("AtlasEntry"..line.."_Text"):SetText(ATLAS_SCROLL_LIST[lineplusoffset]);
-			getglobal("AtlasEntry"..line):Show();
-		elseif ( getglobal("AtlasEntry"..line) ) then
-			getglobal("AtlasEntry"..line):Hide();
+			_G["AtlasEntry"..line.."_Text"]:SetText(ATLAS_SCROLL_LIST[lineplusoffset]);
+			_G["AtlasEntry"..line]:Show();
+		elseif ( _G["AtlasEntry"..line] ) then
+			_G["AtlasEntry"..line]:Hide();
 		end
 	end
 end

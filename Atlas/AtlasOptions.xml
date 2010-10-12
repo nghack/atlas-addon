@@ -48,7 +48,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_SHOWBUT);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_SHOWBUT);
 					</OnLoad>
 					<OnClick>
 						AtlasButton_Toggle();
@@ -65,7 +65,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_AUTOSEL);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_AUTOSEL);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_AutoSelectToggle();
@@ -82,7 +82,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_RCLICK);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_RCLICK);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_RightClickToggle();
@@ -99,7 +99,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_ACRONYMS);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_ACRONYMS);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_AcronymsToggle();
@@ -116,7 +116,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_CLAMPED);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_CLAMPED);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_ClampedToggle();
@@ -133,7 +133,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(this:GetName().."Text"):SetText(ATLAS_OPTIONS_CTRL);
+						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_CTRL);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_CtrlToggle();
@@ -153,11 +153,11 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(ATLAS_OPTIONS_BUTPOS, 0, 360, 1);
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BUTPOS, 0, 360, 1);
 					</OnLoad>
 					<OnValueChanged>
-						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_BUTPOS);
-						AtlasOptions.AtlasButtonPosition = this:GetValue();
+						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BUTPOS);
+						AtlasOptions.AtlasButtonPosition = self:GetValue();
 						AtlasButton_UpdatePosition();
 					</OnValueChanged>
 				</Scripts>
@@ -175,11 +175,11 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(ATLAS_OPTIONS_BUTRAD, 0, 200, 1);
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BUTRAD, 0, 200, 1);
 					</OnLoad>
 					<OnValueChanged>
-						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_BUTRAD);
-						AtlasOptions.AtlasButtonRadius = this:GetValue();
+						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BUTRAD);
+						AtlasOptions.AtlasButtonRadius = self:GetValue();
 						AtlasButton_UpdatePosition();
 					</OnValueChanged>
 				</Scripts>
@@ -197,11 +197,11 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(ATLAS_OPTIONS_TRANS, 0.25, 1.0, 0.01);
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_TRANS, 0.25, 1.0, 0.01);
 					</OnLoad>
 					<OnValueChanged>
-						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_TRANS);
-						AtlasOptions.AtlasAlpha = this:GetValue();
+						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_TRANS);
+						AtlasOptions.AtlasAlpha = self:GetValue();
 						Atlas_UpdateAlpha();
 					</OnValueChanged>
 				</Scripts>
@@ -219,11 +219,11 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(ATLAS_OPTIONS_SCALE, 0.25, 1.5, 0.01);
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_SCALE, 0.25, 1.5, 0.01);
 					</OnLoad>
 					<OnValueChanged>
-						AtlasOptions_UpdateSlider(ATLAS_OPTIONS_SCALE);
-						AtlasOptions.AtlasScale = this:GetValue();
+						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_SCALE);
+						AtlasOptions.AtlasScale = self:GetValue();
 						Atlas_UpdateScale();
 					</OnValueChanged>
 				</Scripts>

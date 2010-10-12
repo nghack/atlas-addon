@@ -1,6 +1,6 @@
 Atlas —— 一款魔兽世界副本地图浏览器
-Copyright 2005 - 2010 Dan Gilbert
-Email：loglow@gmail.com
+Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 Atlas Team (http://atlasmod.com/)
 
 
 
@@ -118,9 +118,7 @@ http://www.atlasmod.com/
 = 联系方式 =
 ============
 
-姓名：Dan Gilbert
-Email：loglow@gmail.com
-AIM：dan5981
+http://www.atlasmod.com/phpBB3/
 
 
 

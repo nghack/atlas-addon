@@ -143,12 +143,12 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						this:SetAutoFocus(false);
-						this:SetTextInsets(0, 8, 0, 0);
+						self:SetAutoFocus(false);
+						self:SetTextInsets(0, 8, 0, 0);
 					</OnLoad>
 					<OnEnterPressed>
-						Atlas_SearchAndRefresh(this:GetText());
-						this:ClearFocus();
+						Atlas_SearchAndRefresh(self:GetText());
+						self:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
 				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
@@ -501,10 +501,10 @@
 		</Layers>
 		<Scripts>
 			<OnLoad>
-				Atlas_OnLoad();
+				Atlas_OnLoad(self);
 			</OnLoad>
 			<OnEvent>
-				Atlas_OnEvent();
+				Atlas_OnEvent(self, event, ...);
 			</OnEvent>
 			<OnShow>
 				Atlas_OnShow();
@@ -513,8 +513,8 @@
 				AtlasFrame:StopMovingOrSizing();
 			</OnHide>
 			<OnDragStart>
-				if(arg1 == "LeftButton") then
-					Atlas_StartMoving();
+				if(button == "LeftButton") then
+					Atlas_StartMoving(self);
 				end
 			</OnDragStart>
 			<OnDragStop>

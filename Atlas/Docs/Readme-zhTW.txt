@@ -1,5 +1,7 @@
 Atlas, 魔獸世界地圖的增強插件
-著作權 Copyright 2005 - 2010 Dan Gilbert
+著作權:
+    2005 - 2010 Dan Gilbert
+    2010 Atlas Team (http://atlasmod.com/)
 
 
 ===============
@@ -36,9 +38,6 @@ http://www.atlasmod.com/
 
 如有疑問或是需要任何的支援，請造訪我們的論壇:
 http://www.atlasmod.com/phpBB3/
-
-You can also contact me directly at:
-dan.b.gilbert@gmail.com
 
 
 ========

@@ -7,6 +7,7 @@ Copyright 2010 Atlas Team (http://atlasmod.com/)
 ==============
 
 v1.17.1
+- support WoW 4.0
 - translation update
   - Simplified Chinese (DiabloHu)
   - Spanish (maqjav)

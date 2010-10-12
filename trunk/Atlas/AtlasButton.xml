@@ -75,17 +75,17 @@
 				</Layers>
 				<Scripts>
 					<OnLoad>
-						this:RegisterForDrag("RightButton");
-						this.dragme = false;
+						self:RegisterForDrag("RightButton");
+						self.dragme = false;
 					</OnLoad>
 					<OnDragStart> 
-						this.dragme = true;
+						self.dragme = true;
 					</OnDragStart> 
 					<OnDragStop>
-						this.dragme = false;
+						self.dragme = false;
 					</OnDragStop>
 					<OnUpdate>
-						if(this.dragme == true) then
+						if(self.dragme == true) then
 							AtlasButton_BeingDragged();
 						end
 					</OnUpdate>
@@ -98,7 +98,7 @@
 						end
 					</OnMouseUp>
 					<OnEnter>
-						AtlasButton_OnEnter();
+						AtlasButton_OnEnter(self);
 					</OnEnter>
 					<OnLeave>
 						GameTooltip:Hide();
@@ -108,7 +108,7 @@
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				this:RegisterEvent("VARIABLES_LOADED");
+				self:RegisterEvent("VARIABLES_LOADED");
 			</OnLoad>
 			<OnEvent>
 				AtlasButton_Init();

@@ -76,8 +76,8 @@ function AtlasButton_SetPosition(v)
     AtlasButton_UpdatePosition();
 end
 
-function AtlasButton_OnEnter()
-    GameTooltip:SetOwner(this, "ANCHOR_LEFT");
+function AtlasButton_OnEnter(self)
+    GameTooltip:SetOwner(self, "ANCHOR_LEFT");
     GameTooltip:SetText(ATLAS_BUTTON_TOOLTIP_TITLE);
 	GameTooltipTextLeft1:SetTextColor(1, 1, 1);
     GameTooltip:AddLine(ATLAS_BUTTON_TOOLTIP_HINT);

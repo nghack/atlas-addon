@@ -125,11 +125,11 @@ function AtlasOptions_ResetPosition()
 	AtlasOptions_Init();
 end
 
-function AtlasOptions_SetupSlider(text, mymin, mymax, step)
-	this:SetMinMaxValues(mymin, mymax);
-	getglobal(this:GetName().."Low"):SetText(mymin);
-	getglobal(this:GetName().."High"):SetText(mymax);
-	this:SetValueStep(step);
+function AtlasOptions_SetupSlider(self, text, mymin, mymax, step)
+	self:SetMinMaxValues(mymin, mymax);
+	_G[self:GetName().."Low"]:SetText(mymin);
+	_G[self:GetName().."High"]:SetText(mymax);
+	self:SetValueStep(step);
 end
 
 local function round(num, idp)
@@ -137,8 +137,8 @@ local function round(num, idp)
    return math.floor(num * mult + 0.5) / mult;
 end
 
-function AtlasOptions_UpdateSlider(text)
-	getglobal(this:GetName().."Text"):SetText("|cffffd200"..text.." ("..round(this:GetValue(),2)..")");
+function AtlasOptions_UpdateSlider(self, text)
+	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(),2)..")");
 end
 
 
@@ -163,8 +163,8 @@ function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_SetWidth(AtlasOptionsFrameDropDownCats, 100);
 end
 
-function AtlasOptionsFrameDropDownCats_OnClick()
-	local thisID = this:GetID();
+function AtlasOptionsFrameDropDownCats_OnClick(self)
+	local thisID = self:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, thisID);
 	AtlasOptions.AtlasSortBy = thisID;
 	Reset_Dropdowns();

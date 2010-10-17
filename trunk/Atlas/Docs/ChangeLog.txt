@@ -5,6 +5,9 @@ Copyright 2010 Atlas Team (http://atlasmod.com/)
 ==============
 = Change Log =
 ==============
+v1.17.2
+- Hotfix to resolve the plugins maps won't show when AtlasLoot is enabled.
+- Added About panel.
 
 v1.17.1
 - support WoW 4.0

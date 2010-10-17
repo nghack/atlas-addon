@@ -57,7 +57,7 @@ local DefaultAtlasOptions = {
 	["AtlasAlpha"] = 1.0;
 	["AtlasLocked"] = false;
 	["AtlasAutoSelect"] = false;
-	["AtlasButtonPosition"] = 356;
+	["AtlasButtonPosition"] = 26;
 	["AtlasButtonRadius"] = 78;
 	["AtlasButtonShown"] = true;
 	["AtlasRightClick"] = false;
@@ -599,11 +599,11 @@ local GREN = "|cff66cc33";
 -- Below to temporary create a table to store the core map's data
 -- in order to identify the dropdown's zoneID is belonging to the
 -- core Atlas or plugins
-local CoreAtlasMapsKey = {};
-local CoreAtlasMapsKey_Index = 0;
+Atlas_CoreMapsKey = {};
+Atlas_CoreMapsKey_Index = 0;
 for kc, vc in pairs(AtlasMaps) do
-	CoreAtlasMapsKey[CoreAtlasMapsKey_Index] = kc;
-	CoreAtlasMapsKey_Index = CoreAtlasMapsKey_Index + 1;
+	Atlas_CoreMapsKey[Atlas_CoreMapsKey_Index] = kc;
+	Atlas_CoreMapsKey_Index = Atlas_CoreMapsKey_Index + 1;
 end
 
 Atlas_MapTypes = {};
@@ -953,8 +953,8 @@ function Atlas_Refresh()
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
-	local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-	for k,v in pairs(CoreAtlasMapsKey) do
+	--local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+	for k,v in pairs(Atlas_CoreMapsKey) do
 		if(zoneID == v) then
 			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
 			break;

@@ -99,6 +99,9 @@ function AtlasOptions_OnLoad(panel)
 	panel.name = "Atlas";
 	panel.default = AtlasOptions_Reset;
 	InterfaceOptions_AddCategory(panel);
+	if (LibStub:GetLibrary("LibAboutPanel", true)) then
+		LibStub("LibAboutPanel").new(ATLAS_TITLE, "Atlas");
+	end
 end
 
 function AtlasOptions_Init()

@@ -35,15 +35,16 @@ Locale\Atlas-frFR.lua
 Locale\Atlas-zhCN.lua
 Locale\Atlas-esES.lua
 Locale\Atlas-zhTW.lua
-AtlasMaps.lua
 
-AtlasDropDown.lua
+Core\AtlasMaps.lua
 
-Atlas.lua
-Atlas.xml
+Core\AtlasDropDown.lua
 
-AtlasButton.lua
-AtlasButton.xml
+Core\Atlas.lua
+Core\Atlas.xml
 
-AtlasOptions.lua
-AtlasOptions.xml
+Core\AtlasButton.lua
+Core\AtlasButton.xml
+
+Core\AtlasOptions.lua
+Core\AtlasOptions.xml

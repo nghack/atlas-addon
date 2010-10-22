@@ -371,10 +371,10 @@ AtlasLocale = {
 	["Techbot"] = "Techbot";
 
 	-- Hellfire Citadel (Entrance)
-	["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace"; -- Need translation
-	["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls"; -- Need translation
-	["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair"; -- Need translation
-	["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel"; -- Need translation
+	["Steps and path to the Blood Furnace"] = "Marches et chemin vers la Fournaise du sang";
+	["Path to the Hellfire Ramparts and Shattered Halls"] = "Chemin vers les Remparts des Flammes infernales et les salles Brisées";
+	["Meeting Stone of Magtheridon's Lair"] = "Pierre de rencontre du repaire de Magtheridon";
+	["Meeting Stone of Hellfire Citadel"] = "Pierre de rencontre de la Citadelle des Flammes Infernales";
 
 	--Karazhan (Entrance)
 	["Archmage Leryda"] = "Archimage Leryda";
@@ -1578,7 +1578,7 @@ AtlasLocale = {
 	["Fjola Lightbane"] = "Fjola Plaie-lumineuse";
 	["Eydis Darkbane"] = "Eydis Plaie-sombre";
 	["Anub'arak"] = "Anub'arak";
-	["Heroic: Trial of the Grand Crusader"] = "Héroïque: L'appel de la grande Croisade";
+	["Heroic: Trial of the Grand Crusader"] = "Héroïque : L'appel de la grande Croisade";
 
 	-- Ulduar General
 	["Celestial Planetarium Key"] = "Clé du planétarium céleste";

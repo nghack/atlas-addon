@@ -1,0 +1,49 @@
+﻿## Interface: 40000
+## Title: Atlas
+## Notes: Instance Map Browser
+## Author: Lothaer, arith, Dynaletik, Deadca7
+## Version: 1.17.2
+## X-Category: Map
+## X-Email: lothayer@gmail.com
+## X-Credits: Dan Gilbert
+## X-License: GPLv2
+## X-Website: http://www.atlasmod.com
+## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW
+## X-Date: October, 2010
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地圖集
+## Notes-deDE: Instanzkarten-Browser
+## Notes-frFR: Navigateur de cartes d'instances
+## Notes-zhTW: Atlas 地圖集主程式
+## Notes-zhCN: 副本地图浏览器
+## Notes-esES: Navegador de Mapas de Mazmorras
+## Notes-ruRU: Обозреватель подземелий
+## X-OptionsFrame: AtlasOptionsFrame
+## SavedVariables: AtlasOptions
+
+Libs\LibStub.lua
+Libs\LibAboutPanel\lib.xml
+Libs\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1.lua
+Libs\LibBabble-Zone-3.0\lib.xml
+Libs\LibBabble-SubZone-3.0\lib.xml
+Libs\LibBabble.lua
+
+Locale\Atlas-enUS.lua
+Locale\Atlas-ruRU.lua
+Locale\Atlas-deDE.lua
+Locale\Atlas-frFR.lua
+Locale\Atlas-zhCN.lua
+Locale\Atlas-esES.lua
+Locale\Atlas-zhTW.lua
+AtlasMaps.lua
+
+AtlasDropDown.lua
+
+Atlas.lua
+Atlas.xml
+
+AtlasButton.lua
+AtlasButton.xml
+
+AtlasOptions.lua
+AtlasOptions.xml

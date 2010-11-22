@@ -877,12 +877,12 @@ AtlasMaps = {
 		Acronym = AL["SFK"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B-C) "..AL["Connection"] };
-		{ WHIT.."1) "..AL["Baron Ashbury"], NPC, 46962 };
+		{ WHIT.."1) "..BB["Baron Ashbury"], NPC, 46962 };
 		{ WHIT.."2) "..BB["Baron Silverlaine"], NPC, 3887 };
 		{ WHIT..INDENT..BB["Odo the Blindwatcher"], NPC, 4279 };
 		{ WHIT.."3) "..BB["Commander Springvale"], NPC, 4278 };
-		{ WHIT.."4) "..AL["Lord Walden"], NPC, 46963 };
-		{ WHIT.."5) "..AL["Lord Godfrey"], NPC, 46964 };
+		{ WHIT.."4) "..BB["Lord Walden"], NPC, 46963 };
+		{ WHIT.."5) "..BB["Lord Godfrey"], NPC, 46964 };
 		{ ORNG.."1) "..AL["Apothecary Trio"].." ("..AL["Love is in the Air"]..")" };
 		{ ORNG..INDENT..AL["Apothecary Hummel <Crown Chemical Co.>"], NPC, 36296 };
 		{ ORNG..INDENT..AL["Apothecary Baxter <Crown Chemical Co.>"], NPC, 36565 };
@@ -898,7 +898,7 @@ AtlasMaps = {
 		MinLevel = "20";
 		PlayerLimit = "5";
 		Acronym = AL["Armory"];
-			{ BLUE.."A) "..AL["Entrance"] };
+		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Herod"], NPC, 3975 };
 	};
 	SMCathedral = {
@@ -950,16 +950,16 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ WHIT.."1) "..BB["The Unforgiven"], NPC, 10516 };
 		{ WHIT.."2) "..BB["Timmy the Cruel"], NPC, 10808 };
-		{ WHIT.."3) "..AL["Commander Malor"], NPC, 11032 };
-		{ WHIT.."4) "..AL["Willey Hopebreaker <Cannon Master>"], NPC, 10997 };
+		{ WHIT.."3) "..BB["Commander Malor"], NPC, 11032 };
+		{ WHIT.."4) "..BB["Willey Hopebreaker"], NPC, 10997 };
 		{ GREN..INDENT..AL["Malor's Strongbox"], OBJECT, 176112 };
-		{ WHIT.."5) "..AL["Instructor Galford"], NPC, 10811 };
+		{ WHIT.."5) "..BB["Instructor Galford"], NPC, 10811 };
 		{ WHIT.."6) "..BB["Grand Crusader Dathrohan"], NPC, 10812 };
 		{ WHIT..INDENT..BB["Balnazzar"], NPC, 10813 };
 		{ ORNG.."1) "..AL["Stratholme Courier"], NPC, 11082 };
 		{ GREN..INDENT..AL["Fras Siabi's Postbox"] };
 		{ ORNG.."2) "..BB["Hearthsinger Forresten"].." ("..AL["Varies"]..")", NPC, 10558 };
-		{ ORNG.."3) "..AL["Risen Hammersmith"].." ("..AL["Summon"]..")", NPC, 11120 };
+		{ ORNG.."3) "..BB["Risen Hammersmith"].." ("..AL["Summon"]..")", NPC, 11120 };
 		{ GREN..INDENT..AL["Blacksmithing Plans"], OBJECT, 173232 };
 		{ GREN.."1') "..AL["King's Square Postbox"] };
 		{ GREN.."2') "..AL["Festival Lane Postbox"] };
@@ -982,7 +982,7 @@ AtlasMaps = {
 		{ WHIT.."3) "..BB["Maleki the Pallid"], NPC, 10438 };
 		{ WHIT.."4) "..BB["Magistrate Barthilas"].." ("..AL["Varies"]..")", NPC, 10435 };
 		{ WHIT.."5) "..BB["Ramstein the Gorger"], NPC, 10439 };
-		{ WHIT.."6) "..AL["Lord Aurius Rivendare"], NPC, 45412 };
+		{ WHIT.."6) "..BB["Lord Aurius Rivendare"], NPC, 45412 };
 		{ ORNG.."1) "..BB["Black Guard Swordsmith"].." ("..AL["Summon"]..")", NPC, 11121 };
 		{ GREN..INDENT..AL["Blacksmithing Plans"], OBJECT, 173232 };
 		{ GREN.."1') "..AL["Elders' Square Postbox"] };
@@ -996,13 +996,13 @@ AtlasMaps = {
 		Acronym = AL["VC"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Exit"] };
-		{ WHIT.."1) "..AL["Glubtok <The Foreman>"], NPC, 47162 };
+		{ WHIT.."1) "..BB["Glubtok"], NPC, 47162 };
 		{ WHIT.."2) "..AL["Lumbering Oaf"], NPC, 47297 };
-		{ WHIT..INDENT..AL["Helix Gearbreaker"], NPC, 47296 };
-		{ WHIT.."3) "..AL["Foe Reaper 5000"], NPC, 1763 };
-		{ WHIT.."4) "..AL["Admiral Ripsnarl"], NPC, 47626 };
-		{ WHIT..INDENT..AL["\"Captain\" Cookie"], NPC, 47739 };
-		{ WHIT..INDENT..AL["Vanessa VanCleef"].." ("..AL["Heroic"]..")", NPC, 42371 };
+		{ WHIT..INDENT..BB["Helix Gearbreaker"], NPC, 47296 };
+		{ WHIT.."3) "..BB["Foe Reaper 5000"], NPC, 1763 };
+		{ WHIT.."4) "..BB["Admiral Ripsnarl"], NPC, 47626 };
+		{ WHIT..INDENT..BB["\"Captain\" Cookie"], NPC, 47739 };
+		{ WHIT..INDENT..BB["Vanessa VanCleef"].." ("..AL["Heroic"]..")", NPC, 42371 };
 		{ GREN..INDENT..AL["Lieutenant Horatio Laine"].." ("..BF["Alliance"]..")", NPC, 46612 };
 		{ GREN..INDENT..AL["Kagtha"].." ("..BF["Horde"]..")", NPC, 46889 };
 		{ GREN..INDENT..AL["Slinky Sharpshiv"].." ("..BF["Horde"]..")", NPC, 46906 };
@@ -1021,9 +1021,9 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["Stocks"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..AL["Randolph Moloch"], NPC, 1696 };
-		{ WHIT.."2) "..AL["Hogger"], NPC, 1666 };
-		{ WHIT.."3) "..AL["Lord Overheat"], NPC, 1717 };
+		{ WHIT.."1) "..BB["Randolph Moloch"], NPC, 1696 };
+		{ WHIT.."2) "..BB["Hogger"], NPC, 1666 };
+		{ WHIT.."3) "..BB["Lord Overheat"], NPC, 1717 };
 	};
 	TheSunkenTemple = {
 		ZoneName = { BZ["Sunken Temple"], 1417 };

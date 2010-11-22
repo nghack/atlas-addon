@@ -136,7 +136,7 @@ if AL then
 	AL["North"] = "North";
 	AL["South"] = "South";
 	AL["West"] = "West";
-	
+
 	--World Events, Festival
 	AL["Brewfest"] = "Brewfest";
 	AL["Hallow's End"] = "Hallow's End";
@@ -585,9 +585,6 @@ if AL then
 	AL["Alchemy Lab"] = "Alchemy Lab";
 
 	--Shadowfang Keep
-	AL["Baron Ashbury"] = "Baron Ashbury";
-	AL["Lord Walden"] = "Lord Walden";
-	AL["Lord Godfrey"] = "Lord Godfrey";
 	AL["Apothecary Trio"] = "Apothecary Trio";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothecary Hummel <Crown Chemical Co.>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothecary Baxter <Crown Chemical Co.>";
@@ -610,13 +607,9 @@ if AL then
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Various Postbox Keys";
-	AL["Commander Malor"] = "Commander Malor";
-	AL["Willey Hopebreaker <Cannon Master>"] = "Willey Hopebreaker <Cannon Master>";
 	AL["Malor's Strongbox"] = "Malor's Strongbox";
-	AL["Instructor Galford"] = "Instructor Galford";
 	AL["Stratholme Courier"] = "Stratholme Courier";
 	AL["Fras Siabi's Postbox"] = "Fras Siabi's Postbox";
-	AL["Risen Hammersmith"] = "Risen Hammersmith";
 	AL["King's Square Postbox"] = "King's Square Postbox";
 	AL["Festival Lane Postbox"] = "Festival Lane Postbox";
 	AL["Elder Farwhisper"] = "Elder Farwhisper";
@@ -624,17 +617,10 @@ if AL then
 	AL["Crusaders' Square Postbox"] = "Crusaders' Square Postbox";
 
 	--Stratholme - The Gauntlet
-	AL["Lord Aurius Rivendare"] = "Lord Aurius Rivendare";
 	AL["Elders' Square Postbox"] = "Elders' Square Postbox";
 
 	--The Deadmines
-	AL["Glubtok <The Foreman>"] = "Glubtok <The Foreman>";
 	AL["Lumbering Oaf"] = "Lumbering Oaf";
-	AL["Helix Gearbreaker"] = "Helix Gearbreaker";
-	AL["Foe Reaper 5000"] = "Foe Reaper 5000";
-	AL["Admiral Ripsnarl"] = "Admiral Ripsnarl";
-	AL["\"Captain\" Cookie"] = "\"Captain\" Cookie";
-	AL["Vanessa VanCleef"] = "Vanessa VanCleef";
 	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	AL["Kagtha"] = "Kagtha";
 	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
@@ -643,9 +629,6 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
 
 	--The Stockade
-	AL["Randolph Moloch"] = "Randolph Moloch";
-	AL["Hogger"] = "Hogger";
-	AL["Lord Overheat"] = "Lord Overheat";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Lord Itharius";

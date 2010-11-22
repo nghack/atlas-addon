@@ -141,9 +141,9 @@ if AL then
 	--Common strings
 	AL["East"] = "Ost";
 	AL["North"] = "Nord";
-	AL["South"] = "Süden";
+	AL["South"] = "Süd";
 	AL["West"] = "West";
-	
+
 	--World Events, Festival
 	AL["Brewfest"] = "Braufest";
 	AL["Hallow's End"] = "Schlotternächte";
@@ -592,9 +592,6 @@ if AL then
 	AL["Alchemy Lab"] = "Alchimielabor";
 
 	--Shadowfang Keep
-	AL["Baron Ashbury"] = "Baron Ashbury";
-	AL["Lord Walden"] = "Lord Walden";
-	AL["Lord Godfrey"] = "Lord Godfrey";
 	AL["Apothecary Trio"] = "Apotheker-Trio";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apotheker Hummel <Chemiemanufaktur Krone>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apotheker Baxter <Chemiemanufaktur Krone>";
@@ -617,13 +614,9 @@ if AL then
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Verschiedene Briefkastenschlüssel";
-	AL["Commander Malor"] = "Kommandant Malor";
-	AL["Willey Hopebreaker <Cannon Master>"] = "Willey Hoffnungsbrecher <Kanonenmeister>";
 	AL["Malor's Strongbox"] = "Malors Geldkassette";
-	AL["Instructor Galford"] = "Instrukteur Galford";
 	AL["Stratholme Courier"] = "Kurier von Stratholme";
 	AL["Fras Siabi's Postbox"] = "Fras Siabis Briefkasten";
-	AL["Risen Hammersmith"] = "Auferstandener Hammerschmied";
 	AL["King's Square Postbox"] = "Briefkasten am Königsplatz";
 	AL["Festival Lane Postbox"] = "Briefkasten in der Feststraße";
 	AL["Elder Farwhisper"] = "Urahne Fernwisper";
@@ -631,17 +624,10 @@ if AL then
 	AL["Crusaders' Square Postbox"] = "Briefkasten am Kreuzzüglerplatz";
 
 	--Stratholme - The Gauntlet
-	AL["Lord Aurius Rivendare"] = "Baron Aurius Totenschwur";
 	AL["Elders' Square Postbox"] = "Briefkasten am Ältestenplatz";
 
 	--The Deadmines
-	AL["Glubtok <The Foreman>"] = "Glubtok <Der Vorarbeiter>";
 	AL["Lumbering Oaf"] = "Trampel";
-	AL["Helix Gearbreaker"] = "Helix Ritzelbrecher";
-	AL["Foe Reaper 5000"] = "Feindschnitter 5000";
-	AL["Admiral Ripsnarl"] = "Admiral Knurrreißer";
-	AL["\"Captain\" Cookie"] = "\"Kapitän\" Krümel";
-	AL["Vanessa VanCleef"] = "Vanessa van Cleef";
 	AL["Lieutenant Horatio Laine"] = "Leutnant Horatio Laine";
 	AL["Kagtha"] = "Kagtha";
 	AL["Slinky Sharpshiv"] = "Slinky Scharfklinge";
@@ -650,9 +636,6 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "Kauf-o-Mat 1-A";
 
 	--The Stockade
-	AL["Randolph Moloch"] = "Randolph Moloch";
-	AL["Hogger"] = "Hogger";
-	AL["Lord Overheat"] = "Fürst Gluthitze";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Lord Itharius";

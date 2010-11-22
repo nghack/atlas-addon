@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,18 +22,26 @@
 
 --]]
 
-if ( GetLocale() == "frFR" ) then
-AtlasTransLocale = {
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Transportation", "frFR", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
-	["Alliance"] = "Alliance";
-	["Druid-only"] = "Druide seulement";
-	["Horde"] = "Horde";
-	["Requires honored faction with Sha'tari Skyguard"] = "Honoré avec la Garde-ciel sha'tari";
-	["South of the path along Lake Elune'ara"] = "Sud du chemin du lac d'Elune'ara";
-	["The Aldor"] = "Les Aldor";
-	["The Scryers"] = "Les Clairvoyants";
-	["Transportation Maps"] = "Cartes des Transports";
-	["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
+if AL then
+	AL["Death Knight Only"] = "Death Knight Only";		-- Need translation
+	AL["Druid-only"] = "Druide seulement";
+	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Orb of Translocation";	-- Need translation
+	AL["Portal Destinations"] = "Portal Destinations";	-- Need translation
+	AL["Portals"] = "Portals";				-- Need translation
+	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
+	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Requires honored faction with Sha'tari Skyguard"] = "Honoré avec la Garde-ciel sha'tari";
+	AL["Seahorse"] = "Seahorse";				-- Need translation
+	AL["South of the path along Lake Elune'ara"] = "Sud du chemin du lac d'Elune'ara";
+	AL["Taxi Nodes"] = "Taxi Nodes";			-- Need translation
+	AL["Transportation Maps"] = "Cartes des Transports";
+	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
+	AL["Zeppelin Towers"] = "Zeppelin Towers";		-- Need translation
 
-};
 end

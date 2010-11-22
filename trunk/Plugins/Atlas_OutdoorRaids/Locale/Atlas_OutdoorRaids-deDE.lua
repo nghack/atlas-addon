@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,49 +22,33 @@
 
 --]]
 
-if ( GetLocale() == "deDE" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
 
-AtlasORLocale = {
-
-	["Ancient Skull Pile"] = "Uralter Schädelhaufen";
-	["Azuregos"] = "Azuregos";
-	["Darkscreecher Akkarai"] = "Dunkelkreischer Akkarai";
-	["Doom Lord Kazzak"] = "Verdammnislord Kazzak";
-	["Doomwalker"] = "Verdammniswandler";
-	["Dragons of Nightmare"] = "Alptraumdrachen";
-	["Dreamroarer"] = "Traumbrüller";
-	["Dreamstalker"] = "Traumpirscher";
-	["Dreamtracker"] = "Traumsucher";
-	["Emeriss"] = "Smariss";
-	["Gezzarak the Huntress"] = "Gezzarak die Jägerin";
-	["Grella <Skyguard Quartermaster>"] = "Grella <Rüstmeister der Himmelswache>";
-	["Hazzik"] = "Hazzik";
-	["Hazzik's Package"] = "Hazziks Päckchen";
-	["Karrog"] = "Karrog";
-	["Lethlas"] = "Lethlas";
-	["Lethon"] = "Lethon";
-	["Outdoor Raid Encounters"] = "Außenweltschlachtzüge";
-	["Phantim"] = "Phantim";
-	["Random"] = "Zufällig";
-	["Rothos"] = "Rothos";
-	["Sahaak <Keeper of Scrolls>"] = "Sahaak <Hüter der Schriftrollen>";
-	["Severin <Skyguard Medic>"] = "Severin <Sanitäter der Himmelswache>";
-	["Skull Pile"] = "Schädelhaufen";
-	["Sky Commander Adaris"] = "Himmelskommandant Adaris";
-	["Sky Sergeant Doryn"] = "Himmelsoffizier Doryn";
-	["Skyguard Handler Deesak"] = "Deesak der Tierführer der Himmelswache";
-	["Skyguard Prisoner"] = "Gefangene Himmelswache";
-	["Summon"] = "Beschwörbar";
-	["Taerar"] = "Taerar";
-	["Talonpriest Ishaal"] = "Krallenpriester Ishaal";
-	["Talonpriest Skizzik"] = "Krallenpriester Skizzik";
-	["Talonpriest Zellek"] = "Krallenpriester Zellek";
-	["Terokk"] = "Terokk";
-	["The Dragons"] = "Die Drachen";
-	["Vakkiz the Windrager"] = "Vakkiz der Windzürner";
-	["Various"] = "Verschieden";
-	["Ysondre"] = "Ysondre";
-
-};
-
+if AL then
+	AL["Ancient Skull Pile"] = "Uralter Schädelhaufen";
+	AL["Darkscreecher Akkarai"] = "Dunkelkreischer Akkarai";
+	AL["Gezzarak the Huntress"] = "Gezzarak die Jägerin";
+	AL["Grella <Skyguard Quartermaster>"] = "Grella <Rüstmeister der Himmelswache>";
+	AL["Hazzik"] = "Hazzik";
+	AL["Hazzik's Package"] = "Hazziks Päckchen";
+	AL["Karrog"] = "Karrog";
+	AL["Outdoor Raid Encounters"] = "Außenweltschlachtzüge";
+	AL["Random"] = "Zufällig";
+	AL["Sahaak <Keeper of Scrolls>"] = "Sahaak <Hüter der Schriftrollen>";
+	AL["Severin <Skyguard Medic>"] = "Severin <Sanitäter der Himmelswache>";
+	AL["Skull Pile"] = "Schädelhaufen";
+	AL["Sky Commander Adaris"] = "Himmelskommandant Adaris";
+	AL["Sky Sergeant Doryn"] = "Himmelsoffizier Doryn";
+	AL["Skyguard Handler Deesak"] = "Deesak der Tierführer der Himmelswache";
+	AL["Skyguard Prisoner"] = "Gefangene Himmelswache";
+	AL["Summon"] = "Beschwörbar";
+	AL["Talonpriest Ishaal"] = "Krallenpriester Ishaal";
+	AL["Talonpriest Skizzik"] = "Krallenpriester Skizzik";
+	AL["Talonpriest Zellek"] = "Krallenpriester Zellek";
+	AL["Terokk"] = "Terokk";
+	AL["Vakkiz the Windrager"] = "Vakkiz der Windzürner";
+	AL["Graveyard"] = "Friedhof";
 end

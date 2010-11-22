@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -28,19 +29,26 @@
 -- Last Update : 11/4/2008
 --]]
 
-if ( GetLocale() == "ruRU" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Transportation", "ruRU", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
-AtlasTransLocale = {
+if AL then
+	AL["Death Knight Only"] = "Death Knight Only";		-- Need translation
+	AL["Druid-only"] = "Только-Друид";
+	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Orb of Translocation";	-- Need translation
+	AL["Portal Destinations"] = "Portal Destinations";	-- Need translation
+	AL["Portals"] = "Portals";				-- Need translation
+	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
+	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Requires honored faction with Sha'tari Skyguard"] = "Требуется Уважение с фракцией Стражи Небес Ша'тар";
+	AL["Seahorse"] = "Seahorse";				-- Need translation
+	AL["South of the path along Lake Elune'ara"] = "Южный путь вдоль Озера Алуне'ара";
+	AL["Taxi Nodes"] = "Taxi Nodes";			-- Need translation
+	AL["Transportation Maps"] = "Маршруты полётов";
+	AL["West of the path to Timbermaw Hold"] = "Западный путь в Крепость Древобрюхов";
+	AL["Zeppelin Towers"] = "Zeppelin Towers";		-- Need translation
 
-	["Alliance"] = "Альянс";
-	["Druid-only"] = "Только-Друид";
-	["Horde"] = "Орда";
-	["Requires honored faction with Sha'tari Skyguard"] = "Требуется Уважение с фракцией Стражи Небес Ша'тар";
-	["South of the path along Lake Elune'ara"] = "Южный путь вдоль Озера Алуне'ара";
-	["The Aldor"] = "Алдоры";
-	["The Scryers"] = "Провидцы";
-	["Transportation Maps"] = "Маршруты полётов";
-	["West of the path to Timbermaw Hold"] = "Западный путь в Крепость Древобрюхов";
-
-};
 end

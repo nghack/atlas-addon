@@ -12,21 +12,14 @@
 ## Notes-koKR: 던전 지역
 ## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置地圖模組，顯示各個地下城 (副本) 所在位置
-## Version: 1.17.2
+## Version: 1.18.0
 ## Author: Lothaer, arith, Dynaletik
-## X-Date: October, 2010
+## X-Date: December, 2010
 ## X-credits: Dan Gilbert
 ## X-Email: lothayer@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## RequiredDeps: Atlas
 
-Locale\Atlas_DungeonLocs-enUS.lua
-Locale\Atlas_DungeonLocs-ruRU.lua
-Locale\Atlas_DungeonLocs-frFR.lua
-Locale\Atlas_DungeonLocs-deDE.lua
-Locale\Atlas_DungeonLocs-zhCN.lua
-Locale\Atlas_DungeonLocs-zhTW.lua
-Locale\Atlas_DungeonLocs-esES.lua
-
+Locale\Locales.xml
 Atlas_DungeonLocs.lua

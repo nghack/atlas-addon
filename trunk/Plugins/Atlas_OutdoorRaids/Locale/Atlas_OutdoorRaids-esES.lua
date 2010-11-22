@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -29,48 +30,33 @@
 -- Úlltima Actualización (last update): 16/04/2009
 
 --]]
-if ( GetLocale() == "esES" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "esES", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
 
-AtlasORLocale = {
-
-	["Ancient Skull Pile"] = "Montón de cráneos antiguos";
-	["Azuregos"] = "Azuregos";
-	["Darkscreecher Akkarai"] = "Estridador oscuro Akkarai";
-	["Doom Lord Kazzak"] = "Señor Apocalíptico Kazzak";
-	["Doomwalker"] = "Caminante del Destino";
-	["Dragons of Nightmare"] = "Dragones de la Pesadilla";
-	["Dreamroarer"] = "Bramasueños";
-	["Dreamstalker"] = "Acechasueños";
-	["Dreamtracker"] = "Rastreasueños";
-	["Emeriss"] = "Emeriss";
-	["Gezzarak the Huntress"] = "Gezzarak la Cazadora";
-	["Grella <Skyguard Quartermaster>"] = "Grella <Intendente de la Guardia del cielo>";
-	["Hazzik"] = "Hazzik";
-	["Hazzik's Package"] = "Paquete de Hazzik";
-	["Karrog"] = "Karrog";
-	["Lethlas"] = "Lethlas";
-	["Lethon"] = "Lethon";
-	["Outdoor Raid Encounters"] = "Encuentros de banda";
-	["Phantim"] = "Fantím";
-	["Random"] = "Aleatorio";
-	["Rothos"] = "Rothos";
-	["Sahaak <Keeper of Scrolls>"] = "Sahaak <Vigilante de pergaminos>";
-	["Severin <Skyguard Medic>"] = "Severin <Médico de la Guardia del cielo>";
-	["Skull Pile"] = "Montón de cráneos";
-	["Sky Commander Adaris"] = "Comandante del cielo Adaris";
-	["Sky Sergeant Doryn"] = "Sargento del cielo Doryn";
-	["Skyguard Handler Deesak"] = "Cuidador de la Guardia del cielo Deesak";
-	["Skyguard Prisoner"] = "Prisionero de la Guardia del cielo";
-	["Summon"] = "Invocar";
-	["Taerar"] = "Taerar";
-	["Talonpriest Ishaal"] = "Sacerdote de la garra Ishaal";
-	["Talonpriest Skizzik"] = "Sacerdote de la garra Skizzik";
-	["Talonpriest Zellek"] = "Sacerdote de la garra Zellek";
-	["Terokk"] = "Terokk";
-	["The Dragons"] = "Los Dragones";
-	["Vakkiz the Windrager"] = "Vakkiz el Furibundo del Viento";
-	["Various"] = "Varios";
-	["Ysondre"] = "Ysondre";
-
-};
+if AL then
+	AL["Ancient Skull Pile"] = "Montón de cráneos antiguos";
+	AL["Darkscreecher Akkarai"] = "Estridador oscuro Akkarai";
+	AL["Gezzarak the Huntress"] = "Gezzarak la Cazadora";
+	AL["Grella <Skyguard Quartermaster>"] = "Grella <Intendente de la Guardia del cielo>";
+	AL["Hazzik"] = "Hazzik";
+	AL["Hazzik's Package"] = "Paquete de Hazzik";
+	AL["Karrog"] = "Karrog";
+	AL["Outdoor Raid Encounters"] = "Encuentros de banda";
+	AL["Random"] = "Aleatorio";
+	AL["Sahaak <Keeper of Scrolls>"] = "Sahaak <Vigilante de pergaminos>";
+	AL["Severin <Skyguard Medic>"] = "Severin <Médico de la Guardia del cielo>";
+	AL["Skull Pile"] = "Montón de cráneos";
+	AL["Sky Commander Adaris"] = "Comandante del cielo Adaris";
+	AL["Sky Sergeant Doryn"] = "Sargento del cielo Doryn";
+	AL["Skyguard Handler Deesak"] = "Cuidador de la Guardia del cielo Deesak";
+	AL["Skyguard Prisoner"] = "Prisionero de la Guardia del cielo";
+	AL["Summon"] = "Invocar";
+	AL["Talonpriest Ishaal"] = "Sacerdote de la garra Ishaal";
+	AL["Talonpriest Skizzik"] = "Sacerdote de la garra Skizzik";
+	AL["Talonpriest Zellek"] = "Sacerdote de la garra Zellek";
+	AL["Terokk"] = "Terokk";
+	AL["Vakkiz the Windrager"] = "Vakkiz el Furibundo del Viento";
+	AL["Graveyard"] = "Cementerio";
 end

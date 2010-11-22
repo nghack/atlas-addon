@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -25,8 +26,7 @@
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
 -- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
 
-local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
-local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
+local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
 local Atlas_DebugMode = false;
 local function debug(info)
@@ -86,8 +86,9 @@ Atlas_AssocDefaults = {
 	["Karazhan"] =				"KarazhanStart";
 	["Dire Maul"] =				"DireMaulNorth";
 	["Blackrock Spire"] =			"BlackrockSpireLower";
-	["Blackrock Mountain"] =		"BlackrockSpireEnt";
-	["Scarlet Monastery"] =			"SMEnt";
+	["Blackrock Mountain"] =		"BlackrockMountainEnt";
+	["Scarlet Monastery"] =			"ScarletMonasteryEnt";
+	["Stratholme"] =			"StratholmeGauntlet";
 	["Ulduar"] =				"UlduarA";
 	["Icecrown Citadel"] =			"IcecrownCitadelA";
 };
@@ -100,14 +101,15 @@ Atlas_AssocDefaults = {
   Translation is taken by LibBabble-SubZone()
 ]]
 Atlas_AssocDefaults_Loc = {
-	["Black Temple"] = 			BabbleZone["Black Temple"];
-	["Karazhan"] = 				BabbleZone["Karazhan"];
-	["Dire Maul"] = 			BabbleZone["Dire Maul"];
-	["Blackrock Spire"] = 			BabbleZone["Blackrock Spire"];
-	["Blackrock Mountain"] =		BabbleZone["Blackrock Mountain"];
-	["Scarlet Monastery"] = 		BabbleZone["Scarlet Monastery"];
-	["Ulduar"] = 				BabbleZone["Ulduar"];
-	["Icecrown Citadel"] = 			BabbleZone["Icecrown Citadel"];
+	["Black Temple"] = 			BZ["Black Temple"];
+	["Karazhan"] = 				BZ["Karazhan"];
+	["Dire Maul"] = 			BZ["Dire Maul"];
+	["Blackrock Spire"] = 			BZ["Blackrock Spire"];
+	["Blackrock Mountain"] =		BZ["Blackrock Mountain"];
+	["Scarlet Monastery"] = 		BZ["Scarlet Monastery"];
+	["Stratholme"] =			BZ["Stratholme"];
+	["Ulduar"] = 				BZ["Ulduar"];
+	["Icecrown Citadel"] = 			BZ["Icecrown Citadel"];
 };
 
 --[[
@@ -189,11 +191,8 @@ Atlas_SubZoneData = {
 	["Blackrock Stadium"] =			"BlackrockSpireUpper";
 	["The Furnace"] =			"BlackrockSpireUpper";
 	["Spire Throne"] =			"BlackrockSpireUpper";
-	-- Blackrock Depths
-	["The Grinding Quarry"] =		"BlackrockDepths";
-	["The Masonary"] = 			"BlackrockDepths";
 	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] =		"SMEnt";
+	["The Grand Vestibule"] =		"ScarletMonasteryEnt";
 	--Scarlet Monastery, Graveyard
 	["Chamber of Atonement"] =		"SMGraveyard";
 	["Forlorn Cloister"] =			"SMGraveyard";
@@ -210,6 +209,20 @@ Atlas_SubZoneData = {
 	--Scarlet Monastery, Cathedral
 	["Chapel Gardens"] =			"SMCathedral";
 	["Crusader's Chapel"] =			"SMCathedral";
+	--Stratholme - Crusader's Square
+	["King's Square"] =			"StratholmeCrusader";
+	["Festival Lane"] =			"StratholmeCrusader";
+	["Market Row"] =			"StratholmeCrusader";
+	["Crusaders' Square"] =			"StratholmeCrusader";
+	["The Scarlet Bastion"] =		"StratholmeCrusader";
+	["The Hall of Lights"] =		"StratholmeCrusader";
+	["The Hoard"] =				"StratholmeCrusader";
+	["The Crimson Throne"] =		"StratholmeCrusader";
+	--Stratholme - The Gauntlet
+	["Elders' Square"] =			"StratholmeGauntlet";
+	["The Gauntlet"] =			"StratholmeGauntlet";
+	["Slaughter Square"] =			"StratholmeGauntlet";
+	["The Slaughter House"] =		"StratholmeGauntlet";
 	--Ulduar, The Siege
 	["Expedition Base Camp"] =		"UlduarA";
 	["Iron Concourse"] =			"UlduarA";
@@ -262,136 +275,147 @@ Atlas_SubZoneData = {
 ]]
 Atlas_SubZoneData_Loc = {
 	--Black Temple, Start
-	["Karabor Sewers"] = 			BabbleSubZone["Karabor Sewers"];
-	["Illidari Training Grounds"] = 	BabbleSubZone["Illidari Training Grounds"];
-	["Sanctuary of Shadows"] = 		BabbleSubZone["Sanctuary of Shadows"];
-	["The Refectory"] = 			BabbleSubZone["The Refectory"];
+	["Karabor Sewers"] = 			BZ["Karabor Sewers"];
+	["Illidari Training Grounds"] = 	BZ["Illidari Training Grounds"];
+	["Sanctuary of Shadows"] = 		BZ["Sanctuary of Shadows"];
+	["The Refectory"] = 			BZ["The Refectory"];
 	--Black Temple, Basement
-	["Gorefiend's Vigil"] = 		BabbleSubZone["Gorefiend's Vigil"];
-	["Halls of Anguish"] = 			BabbleSubZone["Halls of Anguish"];
-	["Shrine of Lost Souls"] = 		BabbleSubZone["Shrine of Lost Souls"];
+	["Gorefiend's Vigil"] = 		BZ["Gorefiend's Vigil"];
+	["Halls of Anguish"] = 			BZ["Halls of Anguish"];
+	["Shrine of Lost Souls"] = 		BZ["Shrine of Lost Souls"];
 	--Black Temple, Top
-	["Den of Mortal Delights"] = 		BabbleSubZone["Den of Mortal Delights"];
-	["Grand Promenade"] = 			BabbleSubZone["Grand Promenade"];
-	["Chamber of Command"] = 		BabbleSubZone["Chamber of Command"];
-	["Temple Summit"] = 			BabbleSubZone["Temple Summit"];
+	["Den of Mortal Delights"] = 		BZ["Den of Mortal Delights"];
+	["Grand Promenade"] = 			BZ["Grand Promenade"];
+	["Chamber of Command"] = 		BZ["Chamber of Command"];
+	["Temple Summit"] = 			BZ["Temple Summit"];
 	--Karazhan, Start
-	["The Gatehouse"] = 			BabbleSubZone["The Gatehouse"];
-	["Livery Stables"] = 			BabbleSubZone["Livery Stables"];
-	["The Guardhouse"] = 			BabbleSubZone["The Guardhouse"];
-	["The Scullery"] = 			BabbleSubZone["The Scullery"];
-	["Servants' Quarters"] = 		BabbleSubZone["Servants' Quarters"];
-	["The Grand Ballroom"] = 		BabbleSubZone["The Grand Ballroom"];
-	["The Banquet Hall"] = 			BabbleSubZone["The Banquet Hall"];
-	["The Guest Chambers"] = 		BabbleSubZone["The Guest Chambers"];
-	["The Opera Hall"] = 			BabbleSubZone["The Opera Hall"];
-	["The Broken Stair"] = 			BabbleSubZone["The Broken Stair"];
-	["Master's Terrace"] = 			BabbleSubZone["Master's Terrace"];
+	["The Gatehouse"] = 			BZ["The Gatehouse"];
+	["Livery Stables"] = 			BZ["Livery Stables"];
+	["The Guardhouse"] = 			BZ["The Guardhouse"];
+	["The Scullery"] = 			BZ["The Scullery"];
+	["Servants' Quarters"] = 		BZ["Servants' Quarters"];
+	["The Grand Ballroom"] = 		BZ["The Grand Ballroom"];
+	["The Banquet Hall"] = 			BZ["The Banquet Hall"];
+	["The Guest Chambers"] = 		BZ["The Guest Chambers"];
+	["The Opera Hall"] = 			BZ["The Opera Hall"];
+	["The Broken Stair"] = 			BZ["The Broken Stair"];
+	["Master's Terrace"] = 			BZ["Master's Terrace"];
 	--Karazhan, End
-	["The Menagerie"] = 			BabbleSubZone["The Menagerie"];
-	["Guardian's Library"] = 		BabbleSubZone["Guardian's Library"];
-	["The Repository"] = 			BabbleSubZone["The Repository"];
-	["The Celestial Watch"] = 		BabbleSubZone["The Celestial Watch"];
-	["Gamesman's Hall"] = 			BabbleSubZone["Gamesman's Hall"];
-	["Medivh's Chambers"] = 		BabbleSubZone["Medivh's Chambers"];
-	["Master's Terrace"] = 			BabbleSubZone["Master's Terrace"];
-	["Netherspace"] = 			BabbleSubZone["Netherspace"];
+	["The Menagerie"] = 			BZ["The Menagerie"];
+	["Guardian's Library"] = 		BZ["Guardian's Library"];
+	["The Repository"] = 			BZ["The Repository"];
+	["The Celestial Watch"] = 		BZ["The Celestial Watch"];
+	["Gamesman's Hall"] = 			BZ["Gamesman's Hall"];
+	["Medivh's Chambers"] = 		BZ["Medivh's Chambers"];
+	["Master's Terrace"] = 			BZ["Master's Terrace"];
+	["Netherspace"] = 			BZ["Netherspace"];
 	--Dire Maul, Entrance
-	["Broken Commons"] = 			BabbleSubZone["Broken Commons"];
-	["Eldreth Row"] = 			BabbleSubZone["Eldreth Row"];
-	["The Maul"] = 				BabbleSubZone["The Maul"];
+	["Broken Commons"] = 			BZ["Broken Commons"];
+	["Eldreth Row"] = 			BZ["Eldreth Row"];
+	["The Maul"] = 				BZ["The Maul"];
 	--Dire Maul, North
-	["Halls of Destruction"] = 		BabbleSubZone["Halls of Destruction"];
-	["Gordok's Seat"] = 			BabbleSubZone["Gordok's Seat"];
+	["Halls of Destruction"] = 		BZ["Halls of Destruction"];
+	["Gordok's Seat"] = 			BZ["Gordok's Seat"];
 	--Dire Maul, East
-	["Warpwood Quarter"] = 			BabbleSubZone["Warpwood Quarter"];
-	["The Hidden Reach"] = 			BabbleSubZone["The Hidden Reach"];
-	["The Conservatory"] = 			BabbleSubZone["The Conservatory"];
-	["The Shrine of Eldretharr"] = 		BabbleSubZone["The Shrine of Eldretharr"];
+	["Warpwood Quarter"] = 			BZ["Warpwood Quarter"];
+	["The Hidden Reach"] = 			BZ["The Hidden Reach"];
+	["The Conservatory"] = 			BZ["The Conservatory"];
+	["The Shrine of Eldretharr"] = 		BZ["The Shrine of Eldretharr"];
 	--Dire Maul, West
-	["Capital Gardens"] = 			BabbleSubZone["Capital Gardens"];
-	["Court of the Highborne"] = 		BabbleSubZone["Court of the Highborne"];
-	["Prison of Immol'thar"] = 		BabbleSubZone["Prison of Immol'thar"];
-	["The Athenaeum"] = 			BabbleSubZone["The Athenaeum"];
+	["Capital Gardens"] = 			BZ["Capital Gardens"];
+	["Court of the Highborne"] = 		BZ["Court of the Highborne"];
+	["Prison of Immol'thar"] = 		BZ["Prison of Immol'thar"];
+	["The Athenaeum"] = 			BZ["The Athenaeum"];
 	--Blackrock Spire, Lower
-	["Hordemar City"] = 			BabbleSubZone["Hordemar City"];
-	["Mok'Doom"] = 				BabbleSubZone["Mok'Doom"];
-	["Tazz'Alaor"] = 			BabbleSubZone["Tazz'Alaor"];
-	["Skitterweb Tunnels"] = 		BabbleSubZone["Skitterweb Tunnels"];
-	["Halycon's Lair"] = 			BabbleSubZone["Halycon's Lair"];
-	["The Storehouse"] = 			BabbleSubZone["The Storehouse"];
-	["Chamber of Battle"] = 		BabbleSubZone["Chamber of Battle"];
+	["Hordemar City"] = 			BZ["Hordemar City"];
+	["Mok'Doom"] = 				BZ["Mok'Doom"];
+	["Tazz'Alaor"] = 			BZ["Tazz'Alaor"];
+	["Skitterweb Tunnels"] = 		BZ["Skitterweb Tunnels"];
+	["Halycon's Lair"] = 			BZ["Halycon's Lair"];
+	["The Storehouse"] = 			BZ["The Storehouse"];
+	["Chamber of Battle"] = 		BZ["Chamber of Battle"];
 	--Blackrock Spire, Upper
-	["Dragonspire Hall"] = 			BabbleSubZone["Dragonspire Hall"];
-	["Hall of Binding"] = 			BabbleSubZone["Hall of Binding"];
-	["The Rookery"] = 			BabbleSubZone["The Rookery"];
-	["Hall of Blackhand"] = 		BabbleSubZone["Hall of Blackhand"];
-	["Blackrock Stadium"] = 		BabbleSubZone["Blackrock Stadium"];
-	["The Furnace"] = 			BabbleSubZone["The Furnace"];
-	["Spire Throne"] = 			BabbleSubZone["Spire Throne"];
-	-- Blackrock Depths
-	["The Grinding Quarry"] = 		BabbleSubZone["The Grinding Quarry"];
-	["The Masonary"] = 			BabbleSubZone["The Masonary"];
+	["Dragonspire Hall"] = 			BZ["Dragonspire Hall"];
+	["Hall of Binding"] = 			BZ["Hall of Binding"];
+	["The Rookery"] = 			BZ["The Rookery"];
+	["Hall of Blackhand"] = 		BZ["Hall of Blackhand"];
+	["Blackrock Stadium"] = 		BZ["Blackrock Stadium"];
+	["The Furnace"] = 			BZ["The Furnace"];
+	["Spire Throne"] = 			BZ["Spire Throne"];
 	--Scarlet Monastery, Entrance
-	["The Grand Vestibule"] = 		BabbleSubZone["The Grand Vestibule"];
+	["The Grand Vestibule"] = 		BZ["The Grand Vestibule"];
 	--Scarlet Monastery, Graveyard
-	["Chamber of Atonement"] = 		BabbleSubZone["Chamber of Atonement"];
-	["Forlorn Cloister"] = 			BabbleSubZone["Forlorn Cloister"];
-	["Honor's Tomb"] = 			BabbleSubZone["Honor's Tomb"];
+	["Chamber of Atonement"] = 		BZ["Chamber of Atonement"];
+	["Forlorn Cloister"] = 			BZ["Forlorn Cloister"];
+	["Honor's Tomb"] = 			BZ["Honor's Tomb"];
 	--Scarlet Monastery, Library
-	["Huntsman's Cloister"] = 		BabbleSubZone["Huntsman's Cloister"];
-	["Gallery of Treasures"] = 		BabbleSubZone["Gallery of Treasures"];
-	["Athenaeum"] = 			BabbleSubZone["Athenaeum"];
+	["Huntsman's Cloister"] = 		BZ["Huntsman's Cloister"];
+	["Gallery of Treasures"] = 		BZ["Gallery of Treasures"];
+	["Athenaeum"] = 			BZ["Athenaeum"];
 	--Scarlet Monastery, Armory
-	["Training Grounds"] = 			BabbleSubZone["Training Grounds"];
-	["Footman's Armory"] = 			BabbleSubZone["Footman's Armory"];
-	["Crusader's Armory"] = 		BabbleSubZone["Crusader's Armory"];
-	["Hall of Champions"] = 		BabbleSubZone["Hall of Champions"];
+	["Training Grounds"] = 			BZ["Training Grounds"];
+	["Footman's Armory"] = 			BZ["Footman's Armory"];
+	["Crusader's Armory"] = 		BZ["Crusader's Armory"];
+	["Hall of Champions"] = 		BZ["Hall of Champions"];
 	--Scarlet Monastery, Cathedral
-	["Chapel Gardens"] = 			BabbleSubZone["Chapel Gardens"];
-	["Crusader's Chapel"] = 		BabbleSubZone["Crusader's Chapel"];
+	["Chapel Gardens"] = 			BZ["Chapel Gardens"];
+	["Crusader's Chapel"] = 		BZ["Crusader's Chapel"];
+	--Stratholme - Crusader's Square
+	["King's Square"] =			BZ["King's Square"];
+	["Festival Lane"] =			BZ["Festival Lane"];
+	["Market Row"] =			BZ["Market Row"];
+	["Crusaders' Square"] =			BZ["Crusaders' Square"];
+	["The Scarlet Bastion"] =		BZ["The Scarlet Bastion"];
+	["The Hall of Lights"] =		BZ["The Hall of Lights"];
+	["The Hoard"] =				BZ["The Hoard"];
+	["The Crimson Throne"] =		BZ["The Crimson Throne"];
+	--Stratholme - The Gauntlet
+	["Elders' Square"] =			BZ["Elders' Square"];
+	["The Gauntlet"] =			BZ["The Gauntlet"];
+	["Slaughter Square"] =			BZ["Slaughter Square"];
+	["The Slaughter House"] =		BZ["The Slaughter House"];
 	--Ulduar, The Siege
-	["Expedition Base Camp"] = 		BabbleSubZone["Expedition Base Camp"];
-	["Iron Concourse"] = 			BabbleSubZone["Iron Concourse"];
-	["Formation Grounds"] = 		BabbleSubZone["Formation Grounds"];
-	["Razorscale's Aerie"] = 		BabbleSubZone["Razorscale's Aerie"];
-	["The Colossal Forge"] = 		BabbleSubZone["The Colossal Forge"];
-	["The Scrapyard"] = 			BabbleSubZone["The Scrapyard"];
+	["Expedition Base Camp"] = 		BZ["Expedition Base Camp"];
+	["Iron Concourse"] = 			BZ["Iron Concourse"];
+	["Formation Grounds"] = 		BZ["Formation Grounds"];
+	["Razorscale's Aerie"] = 		BZ["Razorscale's Aerie"];
+	["The Colossal Forge"] = 		BZ["The Colossal Forge"];
+	["The Scrapyard"] = 			BZ["The Scrapyard"];
 	--Ulduar, The Antechamber
-	["The Antechamber"] = 			BabbleSubZone["The Antechamber"];
-	["The Assembly of Iron"] = 		BabbleSubZone["The Assembly of Iron"];
-	["The Archivum"] = 			BabbleSubZone["The Archivum"];
-	["The Celestial Planetarium"] = 	BabbleSubZone["The Celestial Planetarium"];
-	["The Shattered Walkway"] = 		BabbleSubZone["The Shattered Walkway"];
+	["The Antechamber"] = 			BZ["The Antechamber"];
+	["The Assembly of Iron"] = 		BZ["The Assembly of Iron"];
+	["The Archivum"] = 			BZ["The Archivum"];
+	["The Celestial Planetarium"] = 	BZ["The Celestial Planetarium"];
+	["The Shattered Walkway"] = 		BZ["The Shattered Walkway"];
 	--Ulduar, The Keepers
-	["The Observation Ring"] = 		BabbleSubZone["The Observation Ring"];
-	["The Halls of Winter"] = 		BabbleSubZone["The Halls of Winter"];
-	["The Clash of Thunder"] = 		BabbleSubZone["The Clash of Thunder"];
-	["The Conservatory of Life"] = 		BabbleSubZone["The Conservatory of Life"];
-	["The Corridors of Ingenuity"] = 	BabbleSubZone["The Corridors of Ingenuity"];
-	["Hall of Memories"] = 			BabbleSubZone["Hall of Memories"];
+	["The Observation Ring"] = 		BZ["The Observation Ring"];
+	["The Halls of Winter"] = 		BZ["The Halls of Winter"];
+	["The Clash of Thunder"] = 		BZ["The Clash of Thunder"];
+	["The Conservatory of Life"] = 		BZ["The Conservatory of Life"];
+	["The Corridors of Ingenuity"] = 	BZ["The Corridors of Ingenuity"];
+	["Hall of Memories"] = 			BZ["Hall of Memories"];
 	--Ulduar, Spark of Imagination
-	["The LMS Mark II"] = 			BabbleSubZone["The LMS Mark II"];	
-	["The Spark of Imagination"] = 		BabbleSubZone["The Spark of Imagination"];
+	["The LMS Mark II"] = 			BZ["The LMS Mark II"];	
+	["The Spark of Imagination"] = 		BZ["The Spark of Imagination"];
 	--Ulduar, Descent into Madness
-	["The Descent into Madness"] = 		BabbleSubZone["The Descent into Madness"];
-	["The Prison of Yogg-Saron"] = 		BabbleSubZone["The Prison of Yogg-Saron"];
-	["The Mind's Eye"] = 			BabbleSubZone["The Mind's Eye"];
+	["The Descent into Madness"] = 		BZ["The Descent into Madness"];
+	["The Prison of Yogg-Saron"] = 		BZ["The Prison of Yogg-Saron"];
+	["The Mind's Eye"] = 			BZ["The Mind's Eye"];
 	--Icecrown Citadell, Lower
-	["Light's Hammer"] = 			BabbleSubZone["Light's Hammer"];	
-	["Oratory of the Damned"] = 		BabbleSubZone["Oratory of the Damned"];
-	["Rampart of Skulls"] = 		BabbleSubZone["Rampart of Skulls"];
-	["Deathbringer's Rise"] = 		BabbleSubZone["Deathbringer's Rise"];
+	["Light's Hammer"] = 			BZ["Light's Hammer"];	
+	["Oratory of the Damned"] = 		BZ["Oratory of the Damned"];
+	["Rampart of Skulls"] = 		BZ["Rampart of Skulls"];
+	["Deathbringer's Rise"] = 		BZ["Deathbringer's Rise"];
 	--Icecrown Citadell, Upper
-	["The Plagueworks"] = 			BabbleSubZone["The Plagueworks"];
-	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	BabbleSubZone["Putricide's Laboratory of Alchemical Horrors and Fun"];
-	["The Crimson Hall"] = 			BabbleSubZone["The Crimson Hall"];
-	["The Sanctum of Blood"] = 		BabbleSubZone["The Sanctum of Blood"];
-	["The Frostwing Halls"] = 		BabbleSubZone["The Frostwing Halls"];
-	["The Frost Queen's Lair"] = 		BabbleSubZone["The Frost Queen's Lair"];
+	["The Plagueworks"] = 			BZ["The Plagueworks"];
+	["Putricide's Laboratory of Alchemical Horrors and Fun"] = 	BZ["Putricide's Laboratory of Alchemical Horrors and Fun"];
+	["The Crimson Hall"] = 			BZ["The Crimson Hall"];
+	["The Sanctum of Blood"] = 		BZ["The Sanctum of Blood"];
+	["The Frostwing Halls"] = 		BZ["The Frostwing Halls"];
+	["The Frost Queen's Lair"] = 		BZ["The Frost Queen's Lair"];
 	--Icecrown Citadell, Frozen Throne
-	["The Frozen Throne"] = 		BabbleSubZone["The Frozen Throne"];
-	["Frostmourne"] = 			BabbleSubZone["Frostmourne"];
+	["The Frozen Throne"] = 		BZ["The Frozen Throne"];
+	["Frostmourne"] = 			BZ["Frostmourne"];
 };
 
 --[[
@@ -402,84 +426,98 @@ Atlas_SubZoneData_Loc = {
   Not for localization.
 ]]
 Atlas_OutdoorZoneToAtlas = {
+	["Ahn'Qiraj: The Fallen Kingdom"] =	"TheTempleofAhnQiraj";
 	["Ashenvale"] =				"BlackfathomDeepsEnt";
 	["Badlands"] =				"UldamanEnt";
-	["Burning Steppes"] =			"BlackrockSpireEnt";
+	["Burning Steppes"] =			"BlackrockMountainEnt";
 	["Deadwind Pass"] =			"KarazhanEnt";
 	["Desolace"] =				"MaraudonEnt";
 	["Dun Morogh"] =			"GnomereganEnt";
-	["Feralas"] =				"DireMaulEnt";
-	["Searing Gorge"] =			"BlackrockSpireEnt";
-	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
-	["Tanaris"] =				"CoTEnt";
-	["Terokkar Forest"] =			"AuchindounEnt";
-	["The Barrens"] =			"WailingCavernsEnt";
-	["Tirisfal Glades"] =			"SMEnt";
-	["Westfall"] =				"TheDeadminesEnt";
-	["Zangarmarsh"] =			"CoilfangReservoirEnt";
-	["Orgrimmar"] =				"RagefireChasm";
 	["Dustwallow Marsh"] =			"OnyxiasLair";
+	["Eastern Plaguelands"] =		"StratholmeGauntlet";
+	["Feralas"] =				"DireMaulEnt";
+	["Northern Barrens"] =			"WailingCavernsEnt";
+	["Orgrimmar"] =				"RagefireChasm";
+	["Searing Gorge"] =			"BlackrockMountainEnt";
 	["Silithus"] =				"TheTempleofAhnQiraj";
-	["Western Plaguelands"] =		"Scholomance";
 	["Silverpine Forest"] =			"ShadowfangKeep";
-	["Eastern Plaguelands"] =		"Stratholme";
+	["Southern Barrens"] =			"RazorfenKraul";
 	["Stormwind City"] =			"TheStockade";
-	["Stranglethorn Vale"] =		"ZulGurub";
-	["Ghostlands"] =			"ZulAman";
-	["Isle of Quel'Danas"] =		"SunwellPlateau";
-	["Hellfire Peninsula"] =		"HCEnt";
-	["Netherstorm"] =			"TempestKeepTheEye";
+	["Swamp of Sorrows"] =			"TheSunkenTempleEnt";
+	["Tanaris"] =				"CavernsofTimeEnt";
+	["Terokkar Forest"] =			"AuchindounEnt";
+	["Thousand Needles"] =			"RazorfenDowns";
+	["Tirisfal Glades"] =			"ScarletMonasteryEnt";
+	["Western Plaguelands"] =		"Scholomance";
+	["Westfall"] =				"TheDeadminesEnt";
 	["Blade's Edge Mountains"] =		"GruulsLair";
+	["Ghostlands"] =			"ZulAman";
+	["Hellfire Peninsula"] =		"HellfireCitadelEnt";
+	["Isle of Quel'Danas"] =		"SunwellPlateau";
+	["Netherstorm"] =			"TempestKeepTheEye";
 	["Shadowmoon Valley"] =			"BlackTempleStart";
+	["Zangarmarsh"] =			"CoilfangReservoirEnt";
+	["Borean Tundra"] =			"TheEyeOfEternity";
 	["Dalaran"] =				"VioletHold";
 	["Dragonblight"] =			"RubySanctum";
-	["Borean Tundra"] =			"TheEyeOfEternity";
-	["The Storm Peaks"] =			"UlduarA";	
-	["Icecrown"] =				"IcecrownCitadelA";
+	["Icecrown"] =				"IcecrownEnt";
+	["The Storm Peaks"] =			"UlduarA";
+	["Abyssal Depths"] =			"ThroneOfTheTides";
+	["Deepholm"] =				"TheStonecore";
+	["Tol Barad"] =				"BaradinHold";
+	["Twilight Highlands"] =		"TheBastionOfTwilight";
+	["Uldum"] =				"ThroneOfTheFourWinds";
 };
 
 --[[
   Atlas_OutdoorZoneToAtlas_Loc{}
   
   Maps OutDoor table with localized zone names
-  No need to localize this table since BabbleZone lib will look for it.
+  No need to localize this table since BabbleSubZone lib will look for it.
 ]]
 Atlas_OutdoorZoneToAtlas_Loc = {
-	["Ashenvale"] = 			BabbleZone["Ashenvale"];
-	["Badlands"] = 				BabbleZone["Badlands"];
-	["Burning Steppes"] = 			BabbleZone["Burning Steppes"];
-	["Deadwind Pass"] = 			BabbleZone["Deadwind Pass"];
-	["Desolace"] = 				BabbleZone["Desolace"];
-	["Dun Morogh"] = 			BabbleZone["Dun Morogh"];
-	["Feralas"] = 				BabbleZone["Feralas"];
-	["Searing Gorge"] = 			BabbleZone["Searing Gorge"];
-	["Swamp of Sorrows"] = 			BabbleZone["Swamp of Sorrows"];
-	["Tanaris"] = 				BabbleZone["Tanaris"];
-	["Terokkar Forest"] = 			BabbleZone["Terokkar Forest"];
-	["The Barrens"] = 			BabbleZone["The Barrens"];
-	["Tirisfal Glades"] = 			BabbleZone["Tirisfal Glades"];
-	["Westfall"] = 				BabbleZone["Westfall"];
-	["Zangarmarsh"] = 			BabbleZone["Zangarmarsh"];
-	["Orgrimmar"] = 			BabbleZone["Orgrimmar"];
-	["Dustwallow Marsh"] = 			BabbleZone["Dustwallow Marsh"];
-	["Silithus"] = 				BabbleZone["Silithus"];
-	["Western Plaguelands"] = 		BabbleZone["Western Plaguelands"];
-	["Silverpine Forest"] = 		BabbleZone["Silverpine Forest"];
-	["Eastern Plaguelands"] = 		BabbleZone["Eastern Plaguelands"];
-	["Stormwind City"] = 			BabbleZone["Stormwind City"];
-	["Stranglethorn Vale"] = 		BabbleZone["Stranglethorn Vale"];
-	["Ghostlands"] = 			BabbleZone["Ghostlands"];
-	["Isle of Quel'Danas"] = 		BabbleZone["Isle of Quel'Danas"];
-	["Hellfire Peninsula"] = 		BabbleZone["Hellfire Peninsula"];
-	["Zangarmarsh"] = 			BabbleZone["Zangarmarsh"];
-	["Netherstorm"] = 			BabbleZone["Netherstorm"];
-	["Blade's Edge Mountains"] = 		BabbleZone["Blade's Edge Mountains"];
-	["Shadowmoon Valley"] = 		BabbleZone["Shadowmoon Valley"];
-	["Dalaran"] = 				BabbleZone["Dalaran"];
-	["Dragonblight"] = 			BabbleZone["Dragonblight"];
-	["Borean Tundra"] = 			BabbleZone["Borean Tundra"];
-	["The Storm Peaks"] = 			BabbleZone["The Storm Peaks"];	
-	["Icecrown"] = 				BabbleZone["Icecrown"];
+	["Ahn'Qiraj: The Fallen Kingdom"] =	BZ["Ahn'Qiraj: The Fallen Kingdom"];
+	["Ashenvale"] = 			BZ["Ashenvale"];
+	["Badlands"] = 				BZ["Badlands"];
+	["Burning Steppes"] = 			BZ["Burning Steppes"];
+	["Deadwind Pass"] = 			BZ["Deadwind Pass"];
+	["Desolace"] = 				BZ["Desolace"];
+	["Dun Morogh"] = 			BZ["Dun Morogh"];
+	["Dustwallow Marsh"] = 			BZ["Dustwallow Marsh"];
+	["Eastern Plaguelands"] = 		BZ["Eastern Plaguelands"];
+	["Feralas"] = 				BZ["Feralas"];
+	["Northern Barrens"] = 			BZ["Northern Barrens"];
+	["Orgrimmar"] = 			BZ["Orgrimmar"];
+	["Searing Gorge"] = 			BZ["Searing Gorge"];
+	["Silithus"] = 				BZ["Silithus"];
+	["Silverpine Forest"] = 		BZ["Silverpine Forest"];
+	["Southern Barrens"] = 			BZ["Southern Barrens"];
+	["Stormwind City"] = 			BZ["Stormwind City"];
+	["Swamp of Sorrows"] = 			BZ["Swamp of Sorrows"];
+	["Tanaris"] = 				BZ["Tanaris"];
+	["Terokkar Forest"] = 			BZ["Terokkar Forest"];
+	["Thousand Needles"] = 			BZ["Thousand Needles"];
+	["Tirisfal Glades"] = 			BZ["Tirisfal Glades"];
+	["Western Plaguelands"] = 		BZ["Western Plaguelands"];
+	["Westfall"] = 				BZ["Westfall"];
+	["Blade's Edge Mountains"] = 		BZ["Blade's Edge Mountains"];
+	["Ghostlands"] = 			BZ["Ghostlands"];
+	["Hellfire Peninsula"] = 		BZ["Hellfire Peninsula"];
+	["Isle of Quel'Danas"] = 		BZ["Isle of Quel'Danas"];
+	["Netherstorm"] = 			BZ["Netherstorm"];
+	["Shadowmoon Valley"] = 		BZ["Shadowmoon Valley"];
+	["Zangarmarsh"] = 			BZ["Zangarmarsh"];
+	["Borean Tundra"] = 			BZ["Borean Tundra"];
+	["Dalaran"] = 				BZ["Dalaran"];
+	["Dragonblight"] = 			BZ["Dragonblight"];
+	["Icecrown"] = 				BZ["Icecrown"];
+	["The Storm Peaks"] = 			BZ["The Storm Peaks"];
+	["Abyssal Depths"] =			BZ["Abyssal Depths"];
+	["Deepholm"] =				BZ["Deepholm"];
+	--["Tol Barad"] =			BZ["Tol Barad"];
+	["Twilight Highlands"] =		BZ["Twilight Highlands"];
+	["Uldum"] =				BZ["Uldum"];
+	--Will be enabled, when BabbleSubZone got updated
 };
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
@@ -488,19 +526,20 @@ Atlas_OutdoorZoneToAtlas_Loc = {
 Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockSpireEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore","BlackrockCaverns","BlackwingDescent"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
+	["CavernsofTimeEnt"] =			{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
+	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["GnomereganEnt"] =			{"Gnomeregan"};
-	["HCEnt"] = 				{"HCBloodFurnace", "HCHellfireRamparts", "HCMagtheridonsLair", "HCTheShatteredHalls"};
+	["HellfireCitadelEnt"] = 		{"HCBloodFurnace", "HCHellfireRamparts", "HCMagtheridonsLair", "HCTheShatteredHalls"};
+	["IcecrownEnt"] =			{"FHHallsOfReflection", "FHPitOfSaron", "FHTheForgeOfSouls", "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC"};
+	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
 	["MaraudonEnt"] =			{"Maraudon"};
+	["ScarletMonasteryEnt"] =		{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
 	["UldamanEnt"] =			{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
-	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["CoTEnt"] =				{"CoTHyjal","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
-	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
-	["SMEnt"] =				{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
 };
 
 --instance maps to entrance maps
@@ -510,38 +549,46 @@ Atlas_InstToEntMatches = {
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
 	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
 	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
-	["BlackrockSpireLower"] =		{"BlackrockSpireEnt"};
-	["BlackrockSpireUpper"] =		{"BlackrockSpireEnt"};
-	["BlackwingLair"] =			{"BlackrockSpireEnt"};
-	["BlackrockDepths"] =			{"BlackrockSpireEnt"};
-	["MoltenCore"] =			{"BlackrockSpireEnt"};
+	["BlackrockSpireLower"] =		{"BlackrockMountainEnt"};
+	["BlackrockSpireUpper"] =		{"BlackrockMountainEnt"};
+	["BlackwingLair"] =			{"BlackrockMountainEnt"};
+	["BlackrockDepths"] =			{"BlackrockMountainEnt"};
+	["MoltenCore"] =			{"BlackrockMountainEnt"};
+	["BlackrockCaverns"] =			{"BlackrockMountainEnt"};
+	["BlackwingDescent"] =			{"BlackrockMountainEnt"};
 	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
 	["CFRSerpentshrineCavern"] =		{"CoilfangReservoirEnt"};
+	["CoTHyjal"] =				{"CavernsofTimeEnt"};
+	["CoTBlackMorass"] =			{"CavernsofTimeEnt"};
+	["CoTOldHillsbrad"] =			{"CavernsofTimeEnt"};
+	["CoTOldStratholme"] =			{"CavernsofTimeEnt"};
+	["DireMaulEast"] =			{"DireMaulEnt"};
+	["DireMaulNorth"] =			{"DireMaulEnt"};
+	["DireMaulWest"] =			{"DireMaulEnt"};
 	["Gnomeregan"] =			{"GnomereganEnt"};
-	["HCBloodFurnace"] = 			{"HCEnt"};
-	["HCHellfireRamparts"] = 		{"HCEnt"};
-	["HCMagtheridonsLair"] = 		{"HCEnt"};
-	["HCTheShatteredHalls"] = 		{"HCEnt"};
+	["HCBloodFurnace"] = 			{"HellfireCitadelEnt"};
+	["HCHellfireRamparts"] = 		{"HellfireCitadelEnt"};
+	["HCMagtheridonsLair"] = 		{"HellfireCitadelEnt"};
+	["HCTheShatteredHalls"] = 		{"HellfireCitadelEnt"};
+	["FHHallsOfReflection"] =		{"IcecrownEnt"};
+	["FHPitOfSaron"] =			{"IcecrownEnt"};
+	["FHTheForgeOfSouls"] =			{"IcecrownEnt"};
+	["IcecrownCitadelA"] =			{"IcecrownEnt"};
+	["IcecrownCitadelB"] =			{"IcecrownEnt"};
+	["IcecrownCitadelC"] =			{"IcecrownEnt"};
+	["KarazhanStart"] =			{"KarazhanEnt"};
+	["KarazhanEnd"] =			{"KarazhanEnt"};
 	["Maraudon"] =				{"MaraudonEnt"};
+	["SMArmory"] =				{"ScarletMonasteryEnt"};
+	["SMLibrary"] =				{"ScarletMonasteryEnt"};
+	["SMCathedral"] =			{"ScarletMonasteryEnt"};
+	["SMGraveyard"] =			{"ScarletMonasteryEnt"};
 	["TheDeadmines"] =			{"TheDeadminesEnt"};
 	["TheSunkenTemple"] =			{"TheSunkenTempleEnt"};
 	["Uldaman"] =				{"UldamanEnt"};
 	["WailingCaverns"] =			{"WailingCavernsEnt"};
-	["DireMaulEast"] =			{"DireMaulEnt"};
-	["DireMaulNorth"] =			{"DireMaulEnt"};
-	["DireMaulWest"] =			{"DireMaulEnt"};
-	["CoTHyjal"] =				{"CoTEnt"};
-	["CoTBlackMorass"] =			{"CoTEnt"};
-	["CoTOldHillsbrad"] =			{"CoTEnt"};
-	["CoTOldStratholme"] =			{"CoTEnt"};
-	["KarazhanStart"] =			{"KarazhanEnt"};
-	["KarazhanEnd"] =			{"KarazhanEnt"};
-	["SMArmory"] =				{"SMEnt"};
-	["SMLibrary"] =				{"SMEnt"};
-	["SMCathedral"] =			{"SMEnt"};
-	["SMGraveyard"] =			{"SMEnt"};
 };
 
 --Links maps together that are part of the same instance
@@ -558,12 +605,14 @@ Atlas_SubZoneAssoc = {
 	["DireMaulEnt"] =			"Dire Maul";
 	["BlackrockSpireLower"] =		"Blackrock Spire";
 	["BlackrockSpireUpper"] =		"Blackrock Spire";
-	["BlackrockSpireEnt"] =			"Blackrock Spire";
+	["BlackrockMountainEnt"] =		"Blackrock Spire";
 	["SMGraveyard"] =			"Scarlet Monastery";
 	["SMLibrary"] =				"Scarlet Monastery";
 	["SMArmory"] =				"Scarlet Monastery";
 	["SMCathedral"] =			"Scarlet Monastery";
-	["SMEnt"] =				"Scarlet Monastery";
+	["ScarletMonasteryEnt"] =		"Scarlet Monastery";
+	["StratholmeCrusader"] =		"Stratholme";
+	["StratholmeGauntlet"] =		"Stratholme";
 	["UlduarA"] =				"Ulduar";
 	["UlduarB"] =				"Ulduar";
 	["UlduarC"] =				"Ulduar";
@@ -572,6 +621,7 @@ Atlas_SubZoneAssoc = {
 	["IcecrownCitadelA"] =			"Icecrown Citadel";
 	["IcecrownCitadelB"] =			"Icecrown Citadel";
 	["IcecrownCitadelC"] =			"Icecrown Citadel";
+	["IcecrownEnt"] =			"Icecrown Citadel";
 };
 
 function Atlas_FreshOptions()
@@ -654,7 +704,6 @@ function Atlas_SearchAndRefresh(text)
 end
 
 local function Process_Deprecated()
-
 	--list of deprecated Atlas modules.
 	--first value is the name
 	--second value is the version
@@ -673,7 +722,7 @@ local function Process_Deprecated()
 		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010
 		{ "AtlasQuest", "4.5.0" }, -- updated October 12, 2010
 		{ "AtlasMajorCities", "v1.5.2" }, -- updated July 20, 2010
-		{ "AtlasLoot", "5.11.05" }, -- updated October 12, 2010
+		{ "AtlasLoot", "6.00.00" }, -- updated December xx, 2010
 		{ "Atlas_Arena", "1.1" }, -- updated October, 12, 2010
 	};
 
@@ -972,7 +1021,7 @@ function Atlas_Refresh()
 	
 	local tName = base.ZoneName[1];
 	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
-		local _RED = "|cffcc6666";
+		local _RED = "|cffcc3333";
 		tName = tName.._RED.." ["..base.Acronym.."]";
 	end
 	AtlasText_ZoneName_Text:SetText(tName);
@@ -1362,6 +1411,7 @@ end
 --Bugfix code by Cold
 --Runs when the Atlas frame is clicked on
 --RightButton closes Atlas and open the World Map if the RightClick option is turned on
+--[[ We don't need below function as to call it inside Atlas.xml will be more straight forward - Arith
 function Atlas_OnClick()
 	if ( arg1 == "RightButton" ) then
 		if (AtlasOptions.AtlasRightClick) then
@@ -1370,6 +1420,7 @@ function Atlas_OnClick()
 		end
 	end
 end
+]]
 
 function AtlasScrollBar_Update()
 	GameTooltip:Hide();

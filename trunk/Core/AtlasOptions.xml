@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -48,11 +49,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_SHOWBUT);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_SHOWBUT);
 					</OnLoad>
 					<OnClick>
 						AtlasButton_Toggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_SHOWBUT_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentAutoSelect" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -65,11 +73,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_AUTOSEL);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_AUTOSEL);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_AutoSelectToggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_AUTOSEL_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentRightClick" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -82,11 +97,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_RCLICK);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_RCLICK);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_RightClickToggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_RCLICK_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentAcronyms" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -99,11 +121,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_ACRONYMS);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_ACRONYMS);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_AcronymsToggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_ACRONYMS_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentClamped" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -116,11 +145,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_CLAMPED);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CLAMPED);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_ClampedToggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_CLAMPED_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentCtrl" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -133,11 +169,18 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						getglobal(self:GetName().."Text"):SetText(ATLAS_OPTIONS_CTRL);
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CTRL);
 					</OnLoad>
 					<OnClick>
 						AtlasOptions_CtrlToggle();
 					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_CTRL_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">

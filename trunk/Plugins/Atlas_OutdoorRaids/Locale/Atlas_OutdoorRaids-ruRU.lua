@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -30,48 +31,33 @@
 
 --]]
 
-if ( GetLocale() == "ruRU" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "ruRU", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
 
-AtlasORLocale = {
-
-	["Ancient Skull Pile"] = "Груда древних черепов";
-	["Azuregos"] = "Азурегос";
-	["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
-	["Doom Lord Kazzak"] = "Владыка Судеб Каззак";
-	["Doomwalker"] = "Владыка Рока";
-	["Dragons of Nightmare"] = "Драконы Кошмаров";
-	["Dreamroarer"] = "Рыкун Сна";
-	["Dreamstalker"] = "Ловчий Снов";
-	["Dreamtracker"] = "Сноходец";
-	["Emeriss"] = "Эмерисс";
-	["Gezzarak the Huntress"] = "Геззарак Охотница";
-	["Grella <Skyguard Quartermaster>"] = "Грелла <Интендант Стражи небес>";
-	["Hazzik"] = "Хаззик";
-	["Hazzik's Package"] = " Сверток Хаззика";
-	["Karrog"] = "Каррог";
-	["Lethlas"] = "Летлас";
-	["Lethon"] = "Летон";
-	["Outdoor Raid Encounters"] = "Места внешних рейдовых схваток";
-	["Phantim"] = "Фантим";
-	["Random"] = "Случайный";
-	["Rothos"] = "Ротос";
-	["Sahaak <Keeper of Scrolls>"] = "Сахаак <Хранитель Свитков>";
-	["Severin <Skyguard Medic>"] = "Северин <Врач Стражи небес>";
-	["Skull Pile"] = "Груда черепов";
-	["Sky Commander Adaris"] = "Небесный командир Адарис";
-	["Sky Sergeant Doryn"] = "Небесный сержант Дорин";
-	["Skyguard Handler Deesak"] = "Укротитель Диисак из Стражи Небес";
-	["Skyguard Prisoner"] = "Плененный Страж Небес";
-	["Summon"] = "Призыв";
-	["Taerar"] = "Таэрар";
-	["Talonpriest Ishaal"] = "Жрец Когтя Ишааль";
-	["Talonpriest Skizzik"] = "Жрец Когтя Скиззик";
-	["Talonpriest Zellek"] = "Жрец Когтя Зеллек";
-	["Terokk"] = "Терокк";
-	["The Dragons"] = "Драконы";
-	["Vakkiz the Windrager"] = "Ваккиз Ветроярость";
-	["Various"] = "Различное";
-	["Ysondre"] = "Исондра";
-
-};
+if AL then
+	AL["Ancient Skull Pile"] = "Груда древних черепов";
+	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
+	AL["Gezzarak the Huntress"] = "Геззарак Охотница";
+	AL["Grella <Skyguard Quartermaster>"] = "Грелла <Интендант Стражи небес>";
+	AL["Hazzik"] = "Хаззик";
+	AL["Hazzik's Package"] = " Сверток Хаззика";
+	AL["Karrog"] = "Каррог";
+	AL["Outdoor Raid Encounters"] = "Места внешних рейдовых схваток";
+	AL["Random"] = "Случайный";
+	AL["Sahaak <Keeper of Scrolls>"] = "Сахаак <Хранитель Свитков>";
+	AL["Severin <Skyguard Medic>"] = "Северин <Врач Стражи небес>";
+	AL["Skull Pile"] = "Груда черепов";
+	AL["Sky Commander Adaris"] = "Небесный командир Адарис";
+	AL["Sky Sergeant Doryn"] = "Небесный сержант Дорин";
+	AL["Skyguard Handler Deesak"] = "Укротитель Диисак из Стражи Небес";
+	AL["Skyguard Prisoner"] = "Плененный Страж Небес";
+	AL["Summon"] = "Призыв";
+	AL["Talonpriest Ishaal"] = "Жрец Когтя Ишааль";
+	AL["Talonpriest Skizzik"] = "Жрец Когтя Скиззик";
+	AL["Talonpriest Zellek"] = "Жрец Когтя Зеллек";
+	AL["Terokk"] = "Терокк";
+	AL["Vakkiz the Windrager"] = "Ваккиз Ветроярость";
+	AL["Graveyard"] = "Кладбище";
 end

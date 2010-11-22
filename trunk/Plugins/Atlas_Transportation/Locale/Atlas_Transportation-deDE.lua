@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,20 +22,26 @@
 
 --]]
 
-if ( GetLocale() == "deDE" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Transportation", "deDE", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
-AtlasTransLocale = {
-
-	["Alliance"] = "Allianz";
-	["Druid-only"] = "Nur Druiden";
-	["Horde"] = "Horde";
-	["Requires honored faction with Sha'tari Skyguard"] = "Benötigt wohlwollenden Ruf bei Himmelswache der Sha'tari";
-	["South of the path along Lake Elune'ara"] = "Südlich des Elune'ara Seewegs";
-	["The Aldor"] = "Die Aldor";
-	["The Scryers"] = "Die Seher";
-	["Transportation Maps"] = "Beförderungsrouten";
-	["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
-
-};
+if AL then
+	AL["Death Knight Only"] = "Nur Todesritter";
+	AL["Druid-only"] = "Nur Druiden";
+	AL["Legend"] = "Legende";
+	AL["Orb of Translocation"] = "Translokationskugel";
+	AL["Portal Destinations"] = "Portalziele";
+	AL["Portals"] = "Portale";
+	AL["Portal / Waygate Path to the destination"] = "Portal / Torpfad zum Ziel";
+	AL["Ship / Zeppelin sailing path to destination"] = "Schiff / Zeppelinpfad zum Ziel";
+	AL["Requires honored faction with Sha'tari Skyguard"] = "Benötigt wohlwollenden Ruf bei Himmelswache der Sha'tari";
+	AL["Seahorse"] = "Seepferdchen";
+	AL["South of the path along Lake Elune'ara"] = "Südlich des Elune'ara Seewegs";
+	AL["Taxi Nodes"] = "Flugpunkte";
+	AL["Transportation Maps"] = "Beförderungsrouten";
+	AL["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
+	AL["Zeppelin Towers"] = "Zeppelintürme";
 
 end

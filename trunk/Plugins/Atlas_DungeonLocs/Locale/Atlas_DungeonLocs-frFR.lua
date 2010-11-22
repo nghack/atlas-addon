@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,19 +22,19 @@
 
 --]]
 
-if ( GetLocale() == "frFR" ) then
-
-AtlasDLLocale = {
-
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "frFR", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "deDE", false);
+if AL then
 	--Common
-	["Battlegrounds"] = "Champs de bataille";
-	["Blue"] = "Bleu "; -- Espace pour le blanc avant une double ponctuation française
-	["Dungeon Locations"] = "Emplacements des instances";
-	["Instances"] = "Instances";
-	["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
+	AL["Battlegrounds"] = "Champs de bataille";
+	AL["Blue"] = "Bleu "; -- Espace pour le blanc avant une double ponctuation française
+	AL["Dungeon Locations"] = "Emplacements des instances";
+	AL["Green"] = "Green";
+	AL["Instances"] = "Instances";
+	AL["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
 
 	--Zones
-	["Crusaders' Coliseum"] = "L'épreuve du croisé";
-
-};
+	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
 end

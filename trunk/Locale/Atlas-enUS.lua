@@ -326,7 +326,7 @@ if AL then
 	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
-	AL["LCoT"] = "LCoT"; --Lost City of Tol'vir
+	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
 	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds

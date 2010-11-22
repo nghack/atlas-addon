@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -93,7 +94,7 @@
 						AtlasButton_OnClick();
 					</OnClick>
 					<OnMouseUp>
-						if ( arg1 == "MiddleButton" ) then
+						if ( button == "MiddleButton" ) then
 							AtlasOptions_Toggle();
 						end
 					</OnMouseUp>

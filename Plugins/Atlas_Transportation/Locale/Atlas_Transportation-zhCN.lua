@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -29,19 +30,26 @@
 -- http://ngacn.cc
 
 
-if ( GetLocale() == "zhCN" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Transportation", "zhCN", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
-AtlasTransLocale = {
+if AL then
+	AL["Death Knight Only"] = "死亡骑士专用";
+	AL["Druid-only"] = "德鲁伊专用";
+	AL["Legend"] = "图例";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "传送之门";
+	AL["Portal Destinations"] = "传送门目的地";
+	AL["Portals"] = "传送门";
+	AL["Portal / Waygate Path to the destination"] = "传送门 / 界门传往目的地的路径";
+	AL["Ship / Zeppelin sailing path to destination"] = "船只 / 飞船航向目的地的路径";
+	AL["Requires honored faction with Sha'tari Skyguard"] = "需要 沙塔尔天空卫队 - 尊敬";
+	AL["Seahorse"] = "海马";
+	AL["South of the path along Lake Elune'ara"] = "月神湖旁小径的南方";
+	AL["Taxi Nodes"] = "飞航点";
+	AL["Transportation Maps"] = "交通线路图";
+	AL["West of the path to Timbermaw Hold"] = "通往木喉要塞道路的西方";
+	AL["Zeppelin Towers"] = "飞船空塔";
 
-	["Alliance"] = "联盟";
-	["Druid-only"] = "德鲁伊专用";
-	["Horde"] = "部落";
-	["Requires honored faction with Sha'tari Skyguard"] = "需要 沙塔尔天空卫队 - 尊敬";
-	["South of the path along Lake Elune'ara"] = "月神湖旁小径的南方";
-	["The Aldor"] = "奥尔多";
-	["The Scryers"] = "占星者";
-	["Transportation Maps"] = "交通线路图";
-	["West of the path to Timbermaw Hold"] = "通往木喉要塞道路的西方";
-
-};
 end

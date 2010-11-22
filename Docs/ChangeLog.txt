@@ -5,6 +5,31 @@ Copyright 2010 Atlas Team (http://atlasmod.com/)
 ==============
 = Change Log =
 ==============
+
+v1.18.0
+- Prepared Atlas for the Cataclysm Maps
+- Added Baradin Hold
+- Added Blackrock Caverns
+- Added Blackwing Descent
+- Added Grim Batol
+- Added Halls of Origination
+- Added Lost City of the Tol'vir
+- Added The Bastion of Twilight
+- Added The Stonecore
+- Added The Vortex Pinnacle
+- Added Throne of the Four Winds
+- Added Throne of the Tides
+- Added Battleground maps
+  - The Battle For Gilneas
+  - Tol Barad
+  - Twin Peaks
+- Revamped and updated all old maps
+- Added some locals to LibBabble:Zone
+- Introduced LibBabble-Boss to Atlas
+- Introduced LibBabble-Faction to Atlas
+- Fixed the right-click won't bring up WorldMap issue
+- Fixed minimap Middle-Click won't bring up Atlas Options window
+
 v1.17.2
 - Hotfix to resolve the plugins maps won't show when AtlasLoot is enabled.
 - Added About panel.

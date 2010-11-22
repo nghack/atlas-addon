@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,15 +22,19 @@
 
 --]]
 
-local BabbleSubZone = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
-local BabbleZone = Atlas_GetLocaleLibBabble("LibBabble-Zone-3.0");
+local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
+local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
+local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_OutdoorRaids");
 
 local BLUE = "|cff6666ff";
-local GREY = "|cff999999";
 local GREN = "|cff66cc33";
-local _RED = "|cffcc6666";
+local LBLU = "|cff33cccc";
+local _RED = "|cffcc3333";
 local ORNG = "|cffcc9933";
+local PINK = "|ccfcc33cc";
 local PURP = "|cff9900ff";
+local WHIT = "|cffffffff";
+local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
 local ZONE = 1;
@@ -41,87 +46,56 @@ local QUEST = 6;
 
 --Now with GUIDs!
 
-local myCategory = AtlasORLocale["Outdoor Raid Encounters"];
+local myCategory = AL["Outdoor Raid Encounters"];
 
 local myData = {
-	Azuregos = {
-		ZoneName = { AtlasORLocale["Azuregos"], NPC, 6109 };
-		Location = { BabbleZone["Azshara"], ZONE, 16 };
-		LevelRange = "60+";
-		MinLevel = "--";
-		PlayerLimit = "40";
-		{ GREY.."1) "..AtlasORLocale["Azuregos"], NPC, 6109 };
-	};
-	FourDragons = {
-		ZoneName = { AtlasORLocale["Dragons of Nightmare"] };
-		Location = { AtlasORLocale["Various"] };
-		LevelRange = "60+";
-		MinLevel = "--";
-		PlayerLimit = "40";
-		{ GREY.."1) "..BabbleSubZone["Twilight Grove"]..", ".._RED..BabbleZone["Duskwood"], ZONE, 10 };
-		{ GREY.."2) "..BabbleSubZone["Seradane"]..", ".._RED..BabbleZone["The Hinterlands"], ZONE, 47 };
-		{ GREY..INDENT..AtlasORLocale["Rothos"], NPC, 5718 };
-		{ GREY..INDENT..AtlasORLocale["Dreamtracker"], NPC, 12496 };
-		{ GREY.."3) "..BabbleSubZone["Dream Bough"]..", ".._RED..BabbleZone["Feralas"], ZONE, 357 };
-		{ GREY..INDENT..AtlasORLocale["Lethlas"], NPC, 5312 };
-		{ GREY..INDENT..AtlasORLocale["Dreamroarer"], NPC, 12497 };
-		{ GREY.."4) "..BabbleSubZone["Bough Shadow"]..", ".._RED..BabbleZone["Ashenvale"], ZONE, 331 };
-		{ GREY..INDENT..AtlasORLocale["Phantim"], NPC, 5314 };
-		{ GREY..INDENT..AtlasORLocale["Dreamstalker"], NPC, 12498 };
-		{ "" };
-		{ GREN..AtlasORLocale["The Dragons"] };
-		{ GREY..INDENT..AtlasORLocale["Lethon"], NPC, 14888 };
-		{ GREY..INDENT..AtlasORLocale["Emeriss"], NPC, 14889 };
-		{ GREY..INDENT..AtlasORLocale["Taerar"], NPC, 14890 };
-		{ GREY..INDENT..AtlasORLocale["Ysondre"], NPC, 14887 };
-	};
 	DoomLordKazzak = {
-		ZoneName = { AtlasORLocale["Doom Lord Kazzak"], NPC, 18728 };
-		Location = { BabbleZone["Hellfire Peninsula"], ZONE, 3483 };
+		ZoneName = { BB["Doom Lord Kazzak"], NPC, 18728 };
+		Location = { BZ["Hellfire Peninsula"], ZONE, 3483 };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ GREY.."1) "..AtlasORLocale["Doom Lord Kazzak"], NPC, 18728 };
-		{ GREY.."2) "..BabbleSubZone["Invasion Point: Annihilator"] };
-		{ GREY.."3) "..BabbleSubZone["Forge Camp: Rage"] };
-		{ GREY.."4) "..BabbleSubZone["Forge Camp: Mageddon"] };
-		{ GREY.."5) "..BabbleSubZone["Thrallmar"] };
+		{ WHIT.."1) "..BB["Doom Lord Kazzak"], NPC, 18728 };
+		{ WHIT.."2) "..BZ["Invasion Point: Annihilator"] };
+		{ WHIT.."3) "..BZ["Forge Camp: Rage"] };
+		{ WHIT.."4) "..BZ["Forge Camp: Mageddon"] };
+		{ WHIT.."5) "..BZ["Thrallmar"] };
 	};
 	Doomwalker = {
-		ZoneName = { AtlasORLocale["Doomwalker"], NPC, 17711 };
-		Location = { BabbleZone["Shadowmoon Valley"], ZONE, 3520 };
+		ZoneName = { BB["Doomwalker"], NPC, 17711 };
+		Location = { BZ["Shadowmoon Valley"], ZONE, 3520 };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ GREY.."1) "..AtlasORLocale["Doomwalker"], NPC, 17711 };
+		{ WHIT.."1) "..BB["Doomwalker"], NPC, 17711 };
 	};
 	Skettis = {
-		ZoneName = { BabbleSubZone["Skettis"] };
-		Location = { BabbleSubZone["Blackwind Valley"]..", "..BabbleZone["Terokkar Forest"], ZONE, 3519 };
+		ZoneName = { BZ["Skettis"] };
+		Location = { BZ["Blackwind Valley"]..", "..BZ["Terokkar Forest"], ZONE, 3519 };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ GREY.."1) "..BabbleSubZone["Blackwind Landing"] };
-		{ GREY..INDENT..AtlasORLocale["Sky Commander Adaris"], NPC, 23038 };
-		{ GREY..INDENT..AtlasORLocale["Sky Sergeant Doryn"], NPC, 23048 };
-		{ GREY..INDENT..AtlasORLocale["Skyguard Handler Deesak"], NPC, 23415 };
-		{ GREY..INDENT..AtlasORLocale["Severin <Skyguard Medic>"], NPC, 23042 };
-		{ GREY..INDENT..AtlasORLocale["Grella <Skyguard Quartermaster>"], NPC, 23367 };
-		{ GREY..INDENT..AtlasORLocale["Hazzik"], NPC, 23306 };
-		{ GREY.."2) "..AtlasORLocale["Ancient Skull Pile"], OBJECT, 185928 };
-		{ GREY..INDENT..AtlasORLocale["Terokk"].." ("..AtlasORLocale["Summon"]..")", NPC, 21838 };
-		{ GREY.."3) "..AtlasORLocale["Sahaak <Keeper of Scrolls>"], NPC, 23363 };
-		{ GREY.."4) "..AtlasORLocale["Skyguard Prisoner"].." ("..AtlasORLocale["Random"]..")", NPC, 23383 };
-		{ GREY.."5) "..AtlasORLocale["Talonpriest Ishaal"], NPC, 23066 };
-		{ GREY.."6) "..AtlasORLocale["Talonpriest Skizzik"], NPC, 23067 };
-		{ GREY.."7) "..AtlasORLocale["Talonpriest Zellek"], NPC, 23068 };
-		{ GREY.."8) "..AtlasORLocale["Hazzik's Package"], OBJECT, 185954 };
-		{ GREY.."9) "..BabbleZone["Graveyard"] };
-		{ GREN.."1') "..AtlasORLocale["Skull Pile"], OBJECT, 185913 };
-		{ GREN..INDENT..AtlasORLocale["Darkscreecher Akkarai"].." ("..AtlasORLocale["Summon"]..")", NPC, 23161 };
-		{ GREN..INDENT..AtlasORLocale["Gezzarak the Huntress"].." ("..AtlasORLocale["Summon"]..")", NPC, 23163 };
-		{ GREN..INDENT..AtlasORLocale["Karrog"].." ("..AtlasORLocale["Summon"]..")", NPC, 23165 };
-		{ GREN..INDENT..AtlasORLocale["Vakkiz the Windrager"].." ("..AtlasORLocale["Summon"]..")", NPC, 23162 };
+		{ WHIT.."1) "..BZ["Blackwind Landing"] };
+		{ WHIT..INDENT..AL["Sky Commander Adaris"], NPC, 23038 };
+		{ WHIT..INDENT..AL["Sky Sergeant Doryn"], NPC, 23048 };
+		{ WHIT..INDENT..AL["Skyguard Handler Deesak"], NPC, 23415 };
+		{ WHIT..INDENT..AL["Severin <Skyguard Medic>"], NPC, 23042 };
+		{ WHIT..INDENT..AL["Grella <Skyguard Quartermaster>"], NPC, 23367 };
+		{ WHIT..INDENT..AL["Hazzik"], NPC, 23306 };
+		{ WHIT.."2) "..AL["Ancient Skull Pile"], OBJECT, 185928 };
+		{ WHIT..INDENT..AL["Terokk"].." ("..AL["Summon"]..")", NPC, 21838 };
+		{ WHIT.."3) "..AL["Sahaak <Keeper of Scrolls>"], NPC, 23363 };
+		{ WHIT.."4) "..AL["Skyguard Prisoner"].." ("..AL["Random"]..")", NPC, 23383 };
+		{ WHIT.."5) "..AL["Talonpriest Ishaal"], NPC, 23066 };
+		{ WHIT.."6) "..AL["Talonpriest Skizzik"], NPC, 23067 };
+		{ WHIT.."7) "..AL["Talonpriest Zellek"], NPC, 23068 };
+		{ WHIT.."8) "..AL["Hazzik's Package"], OBJECT, 185954 };
+		{ WHIT.."9) "..AL["Graveyard"] };
+		{ GREN.."1') "..AL["Skull Pile"], OBJECT, 185913 };
+		{ GREN..INDENT..AL["Darkscreecher Akkarai"].." ("..AL["Summon"]..")", NPC, 23161 };
+		{ GREN..INDENT..AL["Gezzarak the Huntress"].." ("..AL["Summon"]..")", NPC, 23163 };
+		{ GREN..INDENT..AL["Karrog"].." ("..AL["Summon"]..")", NPC, 23165 };
+		{ GREN..INDENT..AL["Vakkiz the Windrager"].." ("..AL["Summon"]..")", NPC, 23162 };
 	};
 };
 

@@ -1,7 +1,8 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -28,193 +29,181 @@
 
 --]]
 
-if ( GetLocale() == "esES" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "esES", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "deDE", false);
 
-AtlasBGLocale = {
-
+if AL then
 	--Common
-	["Alliance"] = "Alianza";
-	["Battleground Maps"] = "Mapas de Campos de Batalla";
-	["Entrance"] = "Entrada";
-	["Horde"] = "Horda";
-	["Neutral"] = "Neutral";
-	["North"] = "Norte";
-	["Orange"] = "Naranja";
-	["Red"] = "Rojo";
-	["Reputation"] = "Reputación";
-	["Rescued"] = "Rescate";
-	["South"] = "Sur";
-	["Start"] = "Comienzo";
-	["Summon"] = "Invocar";
-	["White"] = "Blanco";
+	AL["Battleground Maps"] = "Mapas de Campos de Batalla";
+	AL["Entrance"] = "Entrada";
+	AL["North"] = "Norte";
+	AL["Orange"] = "Naranja";
+	AL["Red"] = "Rojo";
+	AL["Reputation"] = "Reputación";
+	AL["Rescued"] = "Rescate";
+	AL["South"] = "Sur";
+	AL["Start"] = "Comienzo";
+	AL["Summon"] = "Invocar";
+	AL["White"] = "Blanco";
 
 	--Places
-	["AV"] = "VA"; -- Alterac Valley
-	["AB"] = "CA"; -- Arathi Basin
-	["Eye of the Storm"] = "El Ojo de la Tormenta"; ["EotS"] = "OT";
-	["IoC"] = "IcC"; -- Isle of Conquest
-	["SotA"] = "PDLA"; -- Strand of the Ancients
-	["WSG"] = "GGG"; -- Warsong Gulch
+	AL["AV"] = "VA"; -- Alterac Valley
+	AL["AB"] = "CA"; -- Arathi Basin
+	AL["EotS"] = "OT";
+	AL["IoC"] = "IcC"; -- Isle of Conquest
+	AL["SotA"] = "PDLA"; -- Strand of the Ancients
+	AL["WSG"] = "GGG"; -- Warsong Gulch
 
 	--Alterac Valley (North)
-	["Stormpike Guard"] = "Guardia Pico Tormenta";
-	["Vanndar Stormpike <Stormpike General>"] = "Vanndar Pico Tormenta <General Pico Tormenta>";
-	["Dun Baldar North Marshal"] = "Alguacil de Dun Baldar Norte";
-	["Dun Baldar South Marshal"] = "Alguacil de Dun Baldar Sur";
-	["Icewing Marshal"] = "Alguacil Alahielo";
-	["Stonehearth Marshal"] = "Alguacil Piedrahogar";
-	["Prospector Stonehewer"] = "Prospectora Tallapiedra";
-	["Morloch"] = "Morloch";
-	["Umi Thorson"] = "Umi Thorson";
-	["Keetar"] = "Keetar";
-	["Arch Druid Renferal"] = "Archidruida Renferal";
-	["Dun Baldar North Bunker"] = "Búnker Norte de Dun Baldar";
-	["Wing Commander Mulverick"] = "Comandante del aire Mulverick";--omitted from AVS
-	["Murgot Deepforge"] = "Murgot Forjahonda";
-	["Dirk Swindle <Bounty Hunter>"] = "Dirk Estafa <Cazador de recompensas>";
-	["Athramanis <Bounty Hunter>"] = "Athramanis <Cazadora de recompensas>";
-	["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Cebatruenos <Suministros de herrería>";
-	["Stormpike Aid Station"] = "Puesto de socorro de Pico Tormenta";
-	["Stormpike Stable Master <Stable Master>"] = "Maestra de establo de Pico Tormenta <Maestra de establos>";
-	["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
-	["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Montelejano <Objetos comerciables>";
-	["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Barbacebada <Suministros de venenos y componentes>";
-	["Stormpike Quartermaster"] = "Intendente de Pico Tormenta";
-	["Jonivera Farmountain <General Goods>"] = "Jonivera Montelejano <Pertrechos>";
-	["Brogus Thunderbrew <Food & Drink>"] = "Brogus Cebatruenos <Alimentos y bebidas>";
-	["Wing Commander Ichman"] = "Comandante del aire Ichman";--omitted from AVS
-	["Wing Commander Slidore"] = "Comandante del aire Slidore";--omitted from AVS
-	["Wing Commander Vipore"] = "Comandante del aire Vipore";--omitted from AVS
-	["Dun Baldar South Bunker"] = "Búnker Sur de Dun Baldar";
-	["Corporal Noreg Stormpike"] = "Cabo Noreg Pico Tormenta";
-	["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Martillero <Oficial de suministros Pico Tormenta>";
-	["Stormpike Banner"] = "Estandarte de Pico Tormenta";
-	["Stormpike Lumber Yard"] = "Stormpike Lumber Yard"; --FALTA
-	["Wing Commander Jeztor"] = "Comandante del aire Jeztor";--omitted from AVS
-	["Wing Commander Guse"] = "Comandante del aire Guse";--omitted from AVS
-	["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
-	["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitana Balinda Piedrahogar <Capitana Pico Tormenta>";
-	["Ichman's Beacon"] = "Señal de Inchman";
-	["Mulverick's Beacon"] = "Señal de Mulverick";
-	["Ivus the Forest Lord"] = "Ivus el Señor del Bosque";
-	["Western Crater"] = "Cráter occidental";
-	["Vipore's Beacon"] = "Señal de Vipore";
-	["Jeztor's Beacon"] = "Señal de Jeztor";
-	["Eastern Crater"] = "Cráter del este";
-	["Slidore's Beacon"] = "Señal de Slidore";
-	["Guse's Beacon"] = "Señal de Guse";
-	["Graveyards, Capturable Areas"] = "Cementerios, Areas capturables";--omitted from AVS
-	["Bunkers, Towers, Destroyable Areas"] = "Búnkers, Torres, Areas destruibles";--omitted from AVS
-	["Assault NPCs, Quest Areas"] = "Personajes de asalto, Areas de Misiones";--omitted from AVS
+	AL["Vanndar Stormpike <Stormpike General>"] = "Vanndar Pico Tormenta <General Pico Tormenta>";
+	AL["Dun Baldar North Marshal"] = "Alguacil de Dun Baldar Norte";
+	AL["Dun Baldar South Marshal"] = "Alguacil de Dun Baldar Sur";
+	AL["Icewing Marshal"] = "Alguacil Alahielo";
+	AL["Stonehearth Marshal"] = "Alguacil Piedrahogar";
+	AL["Prospector Stonehewer"] = "Prospectora Tallapiedra";
+	AL["Morloch"] = "Morloch";
+	AL["Umi Thorson"] = "Umi Thorson";
+	AL["Keetar"] = "Keetar";
+	AL["Arch Druid Renferal"] = "Archidruida Renferal";
+	AL["Dun Baldar North Bunker"] = "Búnker Norte de Dun Baldar";
+	AL["Wing Commander Mulverick"] = "Comandante del aire Mulverick";--omitted from AVS
+	AL["Murgot Deepforge"] = "Murgot Forjahonda";
+	AL["Dirk Swindle <Bounty Hunter>"] = "Dirk Estafa <Cazador de recompensas>";
+	AL["Athramanis <Bounty Hunter>"] = "Athramanis <Cazadora de recompensas>";
+	AL["Lana Thunderbrew <Blacksmithing Supplies>"] = "Lana Cebatruenos <Suministros de herrería>";
+	AL["Stormpike Aid Station"] = "Puesto de socorro de Pico Tormenta";
+	AL["Stormpike Stable Master <Stable Master>"] = "Maestra de establo de Pico Tormenta <Maestra de establos>";
+	AL["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
+	AL["Svalbrad Farmountain <Trade Goods>"] = "Svalbrad Montelejano <Objetos comerciables>";
+	AL["Kurdrum Barleybeard <Reagents & Poison Supplies>"] = "Kurdrum Barbacebada <Suministros de venenos y componentes>";
+	AL["Stormpike Quartermaster"] = "Intendente de Pico Tormenta";
+	AL["Jonivera Farmountain <General Goods>"] = "Jonivera Montelejano <Pertrechos>";
+	AL["Brogus Thunderbrew <Food & Drink>"] = "Brogus Cebatruenos <Alimentos y bebidas>";
+	AL["Wing Commander Ichman"] = "Comandante del aire Ichman";--omitted from AVS
+	AL["Wing Commander Slidore"] = "Comandante del aire Slidore";--omitted from AVS
+	AL["Wing Commander Vipore"] = "Comandante del aire Vipore";--omitted from AVS
+	AL["Dun Baldar South Bunker"] = "Búnker Sur de Dun Baldar";
+	AL["Corporal Noreg Stormpike"] = "Cabo Noreg Pico Tormenta";
+	AL["Gaelden Hammersmith <Stormpike Supply Officer>"] = "Gaelden Martillero <Oficial de suministros Pico Tormenta>";
+	AL["Stormpike Banner"] = "Estandarte de Pico Tormenta";
+	AL["Stormpike Lumber Yard"] = "Stormpike Lumber Yard"; --FALTA
+	AL["Wing Commander Jeztor"] = "Comandante del aire Jeztor";--omitted from AVS
+	AL["Wing Commander Guse"] = "Comandante del aire Guse";--omitted from AVS
+	AL["Stormpike Ram Rider Commander"] = "Comandante de jinetes de carneros de Pico Tormenta";
+	AL["Captain Balinda Stonehearth <Stormpike Captain>"] = "Capitana Balinda Piedrahogar <Capitana Pico Tormenta>";
+	AL["Ichman's Beacon"] = "Señal de Inchman";
+	AL["Mulverick's Beacon"] = "Señal de Mulverick";
+	AL["Ivus the Forest Lord"] = "Ivus el Señor del Bosque";
+	AL["Western Crater"] = "Cráter occidental";
+	AL["Vipore's Beacon"] = "Señal de Vipore";
+	AL["Jeztor's Beacon"] = "Señal de Jeztor";
+	AL["Eastern Crater"] = "Cráter del este";
+	AL["Slidore's Beacon"] = "Señal de Slidore";
+	AL["Guse's Beacon"] = "Señal de Guse";
+	AL["Graveyards, Capturable Areas"] = "Cementerios, Areas capturables";--omitted from AVS
+	AL["Bunkers, Towers, Destroyable Areas"] = "Búnkers, Torres, Areas destruibles";--omitted from AVS
+	AL["Assault NPCs, Quest Areas"] = "Personajes de asalto, Areas de Misiones";--omitted from AVS
 
 	--Alterac Valley (South)
-	["Frostwolf Clan"] = "Clan Lobo Gélido";
-	["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General Lobo Gélido>";
-	["Duros"] = "Duros";
-	["Drakan"] = "Drakan";
-	["West Frostwolf Warmaster"] = "Maestro de guerra del oeste Lobo Gélido";
-	["East Frostwolf Warmaster"] = "Maestro de guerra del este Lobo Gélido";
-	["Tower Point Warmaster"] = "Maestro de guerra de Punta de la Torre";
-	["Iceblood Warmaster"] = "Maestro de guerra Sangrehielo";
-	["Lokholar the Ice Lord"] = "Lokholar el Señor de Hielo";
-	["Captain Galvangar <Frostwolf Captain>"] = "Capitán Galvangar <Capitán Lobo Gélido>";
-	["Iceblood Tower"] = "Torre Sangre Fría";
-	["Tower Point"] = "Punto Torre";
-	["Taskmaster Snivvle"] = "Capataz Sniwle";
-	["Masha Swiftcut"] = "Masha Corteveloz";
-	["Aggi Rumblestomp"] = "Aggi Piesdeplomo";
-	["Jotek"] = "Jotek";
-	["Smith Regzar"] = "Herrero Regzar";
-	["Primalist Thurloga"] = "Primalist Thurloga";
-	["Sergeant Yazra Bloodsnarl"] = "Sargento Yazra Gruñidosangriento";
-	["Frostwolf Stable Master <Stable Master>"] = "Maestra de establo Lobo Gélido <Maestro de establos>";
-	["Frostwolf Wolf Rider Commander"] = "Comandate jinete de lobos Lobo Gélido";
-	["Frostwolf Quartermaster"] = "Intendente Lobo Gélido";
-	["West Frostwolf Tower"] = "Torre Lobo Gélido Oeste";
-	["East Frostwolf Tower"] = "Torre Lobo Gélido Este";
-	["Frostwolf Relief Hut"] = "Puesto de auxilio de Lobo Gélido";
-	["Frostwolf Banner"] = "Estandarte de Lobo Gélido";
+	AL["Drek'Thar <Frostwolf General>"] = "Drek'Thar <General Lobo Gélido>";
+	AL["Duros"] = "Duros";
+	AL["Drakan"] = "Drakan";
+	AL["West Frostwolf Warmaster"] = "Maestro de guerra del oeste Lobo Gélido";
+	AL["East Frostwolf Warmaster"] = "Maestro de guerra del este Lobo Gélido";
+	AL["Tower Point Warmaster"] = "Maestro de guerra de Punta de la Torre";
+	AL["Iceblood Warmaster"] = "Maestro de guerra Sangrehielo";
+	AL["Lokholar the Ice Lord"] = "Lokholar el Señor de Hielo";
+	AL["Captain Galvangar <Frostwolf Captain>"] = "Capitán Galvangar <Capitán Lobo Gélido>";
+	AL["Iceblood Tower"] = "Torre Sangre Fría";
+	AL["Tower Point"] = "Punto Torre";
+	AL["Taskmaster Snivvle"] = "Capataz Sniwle";
+	AL["Masha Swiftcut"] = "Masha Corteveloz";
+	AL["Aggi Rumblestomp"] = "Aggi Piesdeplomo";
+	AL["Jotek"] = "Jotek";
+	AL["Smith Regzar"] = "Herrero Regzar";
+	AL["Primalist Thurloga"] = "Primalist Thurloga";
+	AL["Sergeant Yazra Bloodsnarl"] = "Sargento Yazra Gruñidosangriento";
+	AL["Frostwolf Stable Master <Stable Master>"] = "Maestra de establo Lobo Gélido <Maestro de establos>";
+	AL["Frostwolf Wolf Rider Commander"] = "Comandate jinete de lobos Lobo Gélido";
+	AL["Frostwolf Quartermaster"] = "Intendente Lobo Gélido";
+	AL["West Frostwolf Tower"] = "Torre Lobo Gélido Oeste";
+	AL["East Frostwolf Tower"] = "Torre Lobo Gélido Este";
+	AL["Frostwolf Relief Hut"] = "Puesto de auxilio de Lobo Gélido";
+	AL["Frostwolf Banner"] = "Estandarte de Lobo Gélido";
 
 	--Arathi Basin
-	["The Defilers"] = "Los Rapiñadores";
-	["The League of Arathor"] = "La Liga de Arathor";
 
 	--Eye of the Storm
-	["Flag"] = "Bandera";
+	AL["Flag"] = "Bandera";
 
 	--Isle of Conquest
-	["The Refinery"] = "La Refinería";
-	["The Docks"] = "El Astillero";
-	["The Workshop"] = "El Taller de Asedio";
-	["The Hangar"] = "El Hangar";
-	["The Quarry"] = "La Cantera";
-	["Contested Graveyards"] = "Cementerios de disputa";
-	["Horde Graveyard"] = "Cementerio de la Horda";
-	["Alliance Graveyard"] = "Cementerio de la Alianza";
-	["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
-	["Overlord Agmar"] = "Señor supremo Agmar";
-	["High Commander Halford Wyrmbane <7th Legion>"] = "Alto comandante Halford Aterravermis <La Séptima Legión>";
+	AL["The Refinery"] = "La Refinería";
+	AL["The Docks"] = "El Astillero";
+	AL["The Workshop"] = "El Taller de Asedio";
+	AL["The Hangar"] = "El Hangar";
+	AL["The Quarry"] = "La Cantera";
+	AL["Contested Graveyards"] = "Cementerios de disputa";
+	AL["Horde Graveyard"] = "Cementerio de la Horda";
+	AL["Alliance Graveyard"] = "Cementerio de la Alianza";
+	AL["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
+	AL["Overlord Agmar"] = "Señor supremo Agmar";
+	AL["High Commander Halford Wyrmbane <7th Legion>"] = "Alto comandante Halford Aterravermis <La Séptima Legión>";
 
 	--Strand of the Ancients
-	["Attacking Team"] = "Equipo atacante";
-	["Defending Team"] = "Equipo defendiendo";
-	["Massive Seaforium Charge"] = "Carga de seforio enorme";
-	["Battleground Demolisher"] = "Demoledor del campo de batalla";
-	["Resurrection Point"] = "Punto de Resurrección";
-	["Graveyard Flag"] = "Bandera del Cementerio";
-	["Titan Relic"] = "Reliquia de titán";
-	["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
+	AL["Attacking Team"] = "Equipo atacante";
+	AL["Defending Team"] = "Equipo defendiendo";
+	AL["Massive Seaforium Charge"] = "Carga de seforio enorme";
+	AL["Battleground Demolisher"] = "Demoledor del campo de batalla";
+	AL["Resurrection Point"] = "Punto de Resurrección";
+	AL["Graveyard Flag"] = "Bandera del Cementerio";
+	AL["Titan Relic"] = "Reliquia de titán";
+	AL["Gates are marked with their colors."] = "Las puertas están marcadas con sus colores.";
 
 	--Warsong Gulch
-	["Warsong Outriders"] = "Escoltas de Grito de Guerra";
-	["Silverwing Sentinels"] = "Centinelas Ala de Plata";
 
 	-- Hellfire Peninsula PvP 
-	["Hellfire Fortifications"] = "Fortificaciones de la Península de fuego";
-	
+	AL["Hellfire Fortifications"] = "Fortificaciones de la Península de fuego";
+
 	-- Zangarmarsh PvP
-	["West Beacon"] = "West Beacon"; -- Need translation
-	["East Beacon"] = "East Beacon"; -- Need translation
-	["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
-	["Alliance Field Scout"] = "Explorador de campo de la Alianza";
-	["Horde Field Scout"] = "Explorador de campo de la Horda";
-	
+	AL["West Beacon"] = "West Beacon"; -- Need translation
+	AL["East Beacon"] = "East Beacon"; -- Need translation
+	AL["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
+	AL["Alliance Field Scout"] = "Explorador de campo de la Alianza";
+	AL["Horde Field Scout"] = "Explorador de campo de la Horda";
+
 	-- Terokkar Forest PvP
-	["Auchindoun Spirit Towers"] = "Auchindoun Spirit Towers"; -- Need translation
+	AL["Auchindoun Spirit Towers"] = "Auchindoun Spirit Towers"; -- Need translation
 
 	-- Halaa
-	["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
-	["Quartermaster Jaffrey Noreliqe"] = "Intendente Jaffrey Noreliqe";
-	["Quartermaster Davian Vaclav"] = "Intendente Davian Vaclav";
-	["Chief Researcher Amereldine"] = "Jefa de investigación Amereldine";
-	["Chief Researcher Kartos"] = "Jefe de investigación Kartos";
-	["Aldraan <Blade Merchant>"] = "Aldraan <Mercader de armas de filo>";
-	["Banro <Ammunition>"] = "Banro <Munición>";
-	["Cendrii <Food & Drink>"] = "Cendrii <Alimentos y bebidas>";
-	["Coreiel <Blade Merchant>"] = "Coreiel <Mercader de armas de filo>";
-	["Embelar <Food & Drink>"] = "Embelar <Alimentos y bebidas>";
-	["Tasaldan <Ammunition>"] = "Tasaldan <Munición>";
+	AL["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
+	AL["Quartermaster Jaffrey Noreliqe"] = "Intendente Jaffrey Noreliqe";
+	AL["Quartermaster Davian Vaclav"] = "Intendente Davian Vaclav";
+	AL["Chief Researcher Amereldine"] = "Jefa de investigación Amereldine";
+	AL["Chief Researcher Kartos"] = "Jefe de investigación Kartos";
+	AL["Aldraan <Blade Merchant>"] = "Aldraan <Mercader de armas de filo>";
+	AL["Banro <Ammunition>"] = "Banro <Munición>";
+	AL["Cendrii <Food & Drink>"] = "Cendrii <Alimentos y bebidas>";
+	AL["Coreiel <Blade Merchant>"] = "Coreiel <Mercader de armas de filo>";
+	AL["Embelar <Food & Drink>"] = "Embelar <Alimentos y bebidas>";
+	AL["Tasaldan <Ammunition>"] = "Tasaldan <Munición>";
 
 	-- Wintergrasp
-	["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
-	["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
-	["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
-	["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
-	["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
-	["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
-	["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
-	["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
-	["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
-	["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
-	["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
-
-	-- Eastern Plaguelands - Game of Tower
-	["A Game of Towers"] = "Game of Tower"; -- Need translation
+	AL["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
+	AL["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
+	AL["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
+	AL["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
+	AL["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
+	AL["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
+	AL["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
+	AL["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
+	AL["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
+	AL["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
+	AL["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
 
 	-- Silithus - The Silithyst Must Flow
-	["The Silithyst Must Flow"] = "The Silithyst Must Flow"; -- Need translation
-	["Alliance's Camp"] = "Alliance's Camp"; -- Need translation
-	["Horde's Camp"] = "Horde's Camp"; -- Need translation
-};
-
+	AL["The Silithyst Must Flow"] = "The Silithyst Must Flow"; -- Need translation
+	AL["Alliance's Camp"] = "Alliance's Camp"; -- Need translation
+	AL["Horde's Camp"] = "Horde's Camp"; -- Need translation
 end

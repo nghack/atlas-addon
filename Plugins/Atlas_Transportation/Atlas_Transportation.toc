@@ -12,21 +12,14 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 交通網路圖模組
-## Version: 1.17.2
+## Version: 1.18.0
 ## Author: Lothaer, arith, Dynaletik
-## X-Date: October, 2010
+## X-Date: December, 2010
 ## X-credits: Dan Gilbert
 ## X-Email: lothayer@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## RequiredDeps: Atlas
 
-Locale\Atlas_Transportation-enUS.lua
-Locale\Atlas_Transportation-ruRU.lua
-Locale\Atlas_Transportation-deDE.lua
-Locale\Atlas_Transportation-frFR.lua
-Locale\Atlas_Transportation-zhCN.lua
-Locale\Atlas_Transportation-esES.lua
-Locale\Atlas_Transportation-zhTW.lua
-
+Locale\Locales.xml
 Atlas_Transportation.lua

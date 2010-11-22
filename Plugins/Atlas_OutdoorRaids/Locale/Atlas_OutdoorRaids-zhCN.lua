@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -28,48 +29,33 @@
 -- $Revision$
 -- http://www.dreamgen.cn
 
-if ( GetLocale() == "zhCN" ) then
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "zjCN", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
 
-AtlasORLocale = {
-
-	["Ancient Skull Pile"] = "上古颅骨堆";
-	["Azuregos"] = "艾索雷葛斯";
-	["Darkscreecher Akkarai"] = "黑暗尖啸者阿克卡莱";
-	["Doom Lord Kazzak"] = "末日领主卡扎克";
-	["Doomwalker"] = "末日行者";
-	["Dragons of Nightmare"] = "梦魇巨龙";
-	["Dreamroarer"] = "睡梦咆哮者";
-	["Dreamstalker"] = "巡梦者";
-	["Dreamtracker"] = "寻梦者";
-	["Emeriss"] = "艾莫莉丝";
-	["Gezzarak the Huntress"] = "猎手吉萨拉克";
-	["Grella <Skyguard Quartermaster>"] = "格蕾拉 <天空卫队军需官>";
-	["Hazzik"] = "哈吉克";
-	["Hazzik's Package"] = "哈吉克的包裹";
-	["Karrog"] = "卡尔洛格";
-	["Lethlas"] = "莱萨拉斯";
-	["Lethon"] = "莱索恩";
-	["Outdoor Raid Encounters"] = "户外首领分布图";
-	["Phantim"] = "范迪姆";
-	["Random"] = "随机";
-	["Rothos"] = "洛索斯";
-	["Sahaak <Keeper of Scrolls>"] = "萨哈克 <卷轴保管者>";
-	["Severin <Skyguard Medic>"] = "瑟维里 <天空卫队医师>";
-	["Skull Pile"] = "颅骨堆";
-	["Sky Commander Adaris"] = "空军指挥官阿达利斯";
-	["Sky Sergeant Doryn"] = "空军上尉杜尔因";
-	["Skyguard Handler Deesak"] = "天空卫队训练师德萨克";
-	["Skyguard Prisoner"] = "天空卫队囚犯";
-	["Summon"] = "召唤";
-	["Taerar"] = "泰拉尔";
-	["Talonpriest Ishaal"] = "鸦爪祭司伊沙尔";
-	["Talonpriest Skizzik"] = "鸦爪祭司斯卡基克";
-	["Talonpriest Zellek"] = "鸦爪祭司塞尔利克";
-	["Terokk"] = "泰罗克";
-	["The Dragons"] = "梦魇巨龙";
-	["Vakkiz the Windrager"] = "风怒者瓦克奇斯";
-	["Various"] = "多个位置";
-	["Ysondre"] = "伊森德雷";
-
-};
+if AL then
+	AL["Ancient Skull Pile"] = "上古颅骨堆";
+	AL["Darkscreecher Akkarai"] = "黑暗尖啸者阿克卡莱";
+	AL["Gezzarak the Huntress"] = "猎手吉萨拉克";
+	AL["Grella <Skyguard Quartermaster>"] = "格蕾拉 <天空卫队军需官>";
+	AL["Hazzik"] = "哈吉克";
+	AL["Hazzik's Package"] = "哈吉克的包裹";
+	AL["Karrog"] = "卡尔洛格";
+	AL["Outdoor Raid Encounters"] = "户外首领分布图";
+	AL["Random"] = "随机";
+	AL["Sahaak <Keeper of Scrolls>"] = "萨哈克 <卷轴保管者>";
+	AL["Severin <Skyguard Medic>"] = "瑟维里 <天空卫队医师>";
+	AL["Skull Pile"] = "颅骨堆";
+	AL["Sky Commander Adaris"] = "空军指挥官阿达利斯";
+	AL["Sky Sergeant Doryn"] = "空军上尉杜尔因";
+	AL["Skyguard Handler Deesak"] = "天空卫队训练师德萨克";
+	AL["Skyguard Prisoner"] = "天空卫队囚犯";
+	AL["Summon"] = "召唤";
+	AL["Talonpriest Ishaal"] = "鸦爪祭司伊沙尔";
+	AL["Talonpriest Skizzik"] = "鸦爪祭司斯卡基克";
+	AL["Talonpriest Zellek"] = "鸦爪祭司塞尔利克";
+	AL["Terokk"] = "泰罗克";
+	AL["Vakkiz the Windrager"] = "风怒者瓦克奇斯";
+	AL["Graveyard"] = "墓地";
 end

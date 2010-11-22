@@ -2,6 +2,7 @@
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2010 Lothaer <lothayer@gmail.com >, Atlas Team
 
 	This file is part of Atlas.
 
@@ -21,16 +22,26 @@
 
 --]]
 
-AtlasTransLocale = {
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas_Transportation", "enUS", true);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
-	["Alliance"] = "Alliance";
-	["Druid-only"] = "Druid-only";
-	["Horde"] = "Horde";
-	["Requires honored faction with Sha'tari Skyguard"] = "Requires honored faction with Sha'tari Skyguard";
-	["South of the path along Lake Elune'ara"] = "South of the path along Lake Elune'ara";
-	["The Aldor"] = "The Aldor";
-	["The Scryers"] = "The Scryers";
-	["Transportation Maps"] = "Transportation Maps";
-	["West of the path to Timbermaw Hold"] = "West of the path to Timbermaw Hold";
+if AL then
+	AL["Death Knight Only"] = "Death Knight Only";		-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
+	AL["Druid-only"] = "Druid-only";			-- Taxi node in Nighthaven, Moonglade which is only for Druid
+	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Orb of Translocation";	-- The Orb in Silvermonn City and Ruins of Lordaeron
+	AL["Portal Destinations"] = "Portal Destinations";
+	AL["Portals"] = "Portals";
+	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
+	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Requires honored faction with Sha'tari Skyguard"] = "Requires honored faction with Sha'tari Skyguard";
+	AL["Seahorse"] = "Seahorse";
+	AL["South of the path along Lake Elune'ara"] = "South of the path along Lake Elune'ara";
+	AL["Taxi Nodes"] = "Taxi Nodes";
+	AL["Transportation Maps"] = "Transportation Maps";
+	AL["West of the path to Timbermaw Hold"] = "West of the path to Timbermaw Hold";
+	AL["Zeppelin Towers"] = "Zeppelin Towers";
 
-};
+end

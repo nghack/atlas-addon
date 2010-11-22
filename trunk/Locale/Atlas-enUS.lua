@@ -1031,7 +1031,7 @@ if AL then
 
 	--Halls of Origination
 
-	--Lost City of Tol'vir
+	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";
 
 	--Sulfuron Keep

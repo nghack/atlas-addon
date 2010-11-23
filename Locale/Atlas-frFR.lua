@@ -69,21 +69,21 @@ if AL then
 
 	AL["ATLAS_OPTIONS_BUTTON"] = "Options";
 	AL["ATLAS_OPTIONS_SHOWBUT"] = "Afficher le bouton sur la mini-carte";
-		AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "Show Atlas button around the minimap."; -- A traduire
+	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "Afficher le bouton Atlas autour de la mini-carte";
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Sélection automatique de la carte";
-		AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Auto-select instance map, Atlas will detect your location to choose the best instance map for you.";
+	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Sélection automatique de la carte, Atlas détectera votre localisation pour choisir votre instance à afficher.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Position du bouton";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparence";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Clic-Droit pour afficher la carte du monde";
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Position initiale";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Afficher les acronymes VO/VF";
-		AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Display the instance's acronym in the map details.";
+	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Afficher les acronymes de l'instance dans les détails de la carte";
 	AL["ATLAS_OPTIONS_SCALE"] = "Echelle";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Rayon du bouton";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fixer la fenêtre à l'écran";
-		AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Clamp Atlas window to screen, disable to allow Atlas window can be dragged outside the game screen.";
+	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Fixer la fenêtre à l'écran, désactiver pour permettre de déplacer le fenêtre d'Atlas.";
 	AL["ATLAS_OPTIONS_CTRL"] = "Maintenir la touche Ctrl enfoncée pour voir les infobulles";
-		AL["ATLAS_OPTIONS_CTRL_TIP"] = "Enable to show tooltips text while hold down control key and mouse over the map info. Useful when the text is too long to be displayed in the window.";
+	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Maintenir la touche Ctrl enfoncée pour voir les infobulles au passage de la souris. Très utile quand le texte est trop long pour apparaitre dans la fenêtre.";
 
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour déplacer ce bouton.";
@@ -148,7 +148,7 @@ if AL then
 	--Misc strings
 	AL["Adult"] = "Adulte";
 	AL["AKA"] = "AKA";
-		AL["Arcane Container"] = "Arcane Container";
+	AL["Arcane Container"] = "Récipient arcanique";
 	AL["Arms Warrior"] = "Guerrier Armes";
 	AL["Attunement Required"] = "Harmonisation requise";
 	AL["Back"] = "de derrière"; -- Back de Back Door, trouver mieux
@@ -170,7 +170,7 @@ if AL then
 	AL["Fourth Stop"] = "Quatrième arrêt";
 	AL["Front"] = "Principale"; -- Front de Front Door, trouver mieux
 	AL["Ghost"] = "Fantôme";
-		AL["Graveyard"] = "Graveyard";
+	AL["Graveyard"] = "Cimetière";
 	AL["Heroic"] = "Héroïque";
 	AL["Holy Paladin"] = "Paladin Sacré";
 	AL["Holy Priest"] = "Prêtre Sacré";
@@ -181,7 +181,7 @@ if AL then
 	AL["Lower"] = "En bas";
 	AL["Mage"] = "Mage";
 	AL["Meeting Stone"] = "Pierre de rencontre";
-		AL["Middle"] = "Middle";
+	AL["Middle"] = "Milieu";
 	AL["Monk"] = "Moine";
 	AL["Moonwell"] = "Puits de lune";
 	AL["Optional"] = "Optionel";
@@ -222,23 +222,6 @@ if AL then
 	AL["Wave 10"] = "Vague 10";
 	AL["Wave 12"] = "Vague 12";
 	AL["Wave 18"] = "Vague 18";
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
@@ -311,11 +294,9 @@ if AL then
 	AL["Crus"] = "EDC"; -- L'épreuve du croisé
 	AL["DTK"] = "DTK"; -- Donjon de Drak'Tharon
 	AL["FoS"] = "FdA"; AL["FH1"] = "FH1"; -- La Forge des âmes
-		AL["FH1"] = "FH1"; -- The Forge of Souls
 	AL["Gun"] = "Gun"; -- Gundrak
 	AL["HoL"] = "HoL"; -- Les salles de Foudre
 	AL["HoR"] = "SdR"; AL["FH3"] = "FH3"; -- Salles des Reflets
-		AL["FH3"] = "FH3"; -- Halls of Reflection
 	AL["HoS"] = "HoS"; -- Les salles de Pierre
 	AL["IC"] = "ICC"; -- Citadelle de la Couronne de glace
 	AL["Nax"] = "Nax"; -- Naxxramas
@@ -324,7 +305,6 @@ if AL then
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
 	AL["OS"] = "OS"; -- Le sanctum Obsidien
 	AL["PoS"] = "FdS"; AL["FH2"] = "FH2"; -- Fosse de Saron
-		AL["FH2"] = "FH2"; -- Pit of Saron
 	AL["RS"] = "SR"; -- Le sanctum Rubis
 	AL["TEoE"] = "Maly"; -- L'Œil de l'éternité	
 	AL["UK, Keep"] = "UK, Keep"; -- Donjon d'Utgarde
@@ -335,21 +315,22 @@ if AL then
 
 	--Zones not included in LibBabble-Zone
 	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
-		--Cataclysm Acronyms
-		--AL["AM"] = "AM"; --Abyssal Maw
-		AL["BH"] = "BH"; --Baradin Hold
-		AL["BoT"] = "BoT"; --Bastion of Twilight
-		AL["BRC"] = "BRC"; --Blackrock Caverns
-		AL["BWD"] = "BWD"; --Blackwing Descent
-		--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
-		AL["GB"] = "GB"; --Grim Batol
-		AL["HoO"] = "HoO"; --Halls of Origination
-		AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-		--AL["SK"] = "SK"; --Sulfuron Keep
-		AL["TSC"] = "TSC"; --The Stonecore
-		AL["TWT"] = "TWT"; --Throne of the Four Winds
-		AL["ToTT"] = "ToTT"; --Throne of the Tides
-		AL["VP"] = "VP"; --The Vortex Pinnacle
+
+	--Cataclysm Acronyms
+	--AL["AM"] = "AM"; --Abyssal Maw
+	AL["BH"] = "BH"; --Baradin Hold
+	AL["BoT"] = "BoT"; --Bastion of Twilight
+	AL["BRC"] = "BRC"; --Blackrock Caverns
+	AL["BWD"] = "BWD"; --Blackwing Descent
+	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
+	AL["GB"] = "GB"; --Grim Batol
+	AL["HoO"] = "HoO"; --Halls of Origination
+	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	--AL["SK"] = "SK"; --Sulfuron Keep
+	AL["TSC"] = "TSC"; --The Stonecore
+	AL["TWT"] = "TWT"; --Throne of the Four Winds
+	AL["ToTT"] = "ToTT"; --Throne of the Tides
+	AL["VP"] = "VP"; --The Vortex Pinnacle
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -394,7 +375,8 @@ if AL then
 	AL["Arazmodu <The Scale of Sands>"] = "Arazmodu <La Balance des sables>";
 	AL["Andormu <Keepers of Time>"] = "Andormu <Les Gardiens du temps>";
 	AL["Nozari <Keepers of Time>"] = "Nozari <Les Gardiens du temps>";
-		AL["Anachronos <Keepers of Time>"] = "Anachronos <Keepers of Time>";
+	AL["Anachronos <Keepers of Time>"] = "Anachronos <Gardiens du Temps>";
+	
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "Bassin redoutable";
 	AL["Dire Maul Arena"] = "L'Etripoir";
@@ -402,12 +384,15 @@ if AL then
 
 	--Gnomeregan (Entrance)
 		AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zapblast <Teleportation Specialist>";
+	
 	-- Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "Marches et chemin vers la Fournaise du sang";
 	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Chemin vers les Remparts des Flammes infernales et les salles Brisées";
 	AL["Meeting Stone of Magtheridon's Lair"] = "Pierre de rencontre du repaire de Magtheridon";
 	AL["Meeting Stone of Hellfire Citadel"] = "Pierre de rencontre de la Citadelle des Flammes Infernales";
+	
 	--Icecrown Citadel (Entrance)
+	
 	--Karazhan (Entrance)
 	AL["Archmage Leryda"] = "Archimage Leryda";
 	AL["Archmage Alturus"] = "Archimage Alturus";
@@ -465,6 +450,7 @@ if AL then
 	AL["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
 	AL["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
 	AL["Shen'dralar Ancient"] = "Ancienne de Shen'Dralar";
+	
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Esprit de Veng <Le cinquième Kahn>";
 	AL["Spirit of Maraudos <The Fourth Khan>"] = "Esprit Maraudos <Le quatrième Kahn>";
@@ -512,67 +498,68 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-		AL["Prison Cell Key"] = "Prison Cell Key";
-		AL["Jail Break!"] = "Jail Break!";
-		AL["Relic Coffer Key"] = "Relic Coffer Key";
-		AL["Dark Keeper Key"] = "Dark Keeper Key";
-		AL["The Black Anvil"] = "The Black Anvil";
-		AL["The Vault"] = "The Vault";
-		AL["Watchman Doomgrip"] = "Watchman Doomgrip";
-		AL["High Justice Grimstone"] = "High Justice Grimstone";
-		AL["Elder Morndeep"] = "Elder Morndeep";
-		AL["Schematic: Field Repair Bot 74A"] = "Schematic: Field Repair Bot 74A";
-		AL["Private Rocknot"] = "Private Rocknot";
-		AL["Summoner's Tomb"] = "Summoner's Tomb";
-		AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Sprig <Morgan's Militia>";
+	AL["Prison Cell Key"] = "Clé de la prison";
+	AL["Jail Break!"] = "Évasion !";
+	AL["Relic Coffer Key"] = "Clé du coffret à relique";
+	AL["Dark Keeper Key"] = "Clé du gardien noir";
+	AL["The Black Anvil"] = "L'Enclume noire";
+	AL["The Vault"] = "La Chambre forte";
+	AL["Watchman Doomgrip"] = "Sentinelle Ruinepoigne";
+	AL["High Justice Grimstone"] = "Juge Supérieur Mornepierre";
+	AL["Elder Morndeep"] = "Ancien Gouffre-du-matin";
+	AL["Schematic: Field Repair Bot 74A"] = "Schéma : Robot réparateur 74A";
+	AL["Private Rocknot"] = "Soldat Rochenoeud";
+	AL["Summoner's Tomb"] = "La tombe des invocateurs";
+		AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Morgan's Militia>";
 		AL["Oralius <Morgan's Militia>"] = "Oralius <Morgan's Militia>";
-		AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Proudtusk <Kargath Expeditionary Force>";
-		AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "Galamav the Marksman <Kargath Expeditionary Force>";
-		AL["Maxwort Uberglint"] = "Maxwort Uberglint";
-		AL["Tinkee Steamboil"] = "Tinkee Steamboil";
-		AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Screwspigot <Engineering Supplies>";
+	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Fière-défense <Corps expéditionnaire de Kargath>";
+	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "Galamav le Tireur d'élite <Corps expéditionnaire de Kargath>";
+	AL["Maxwort Uberglint"] = "Maxwort Uberbrille";
+	AL["Tinkee Steamboil"] = "Brikolette Toutevapeur";
+		AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Fermevanne <Engineering Supplies>";
 		AL["Abandonded Mole Machine"] = "Abandonded Mole Machine";
 		AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>";
-		AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Kargath Expeditionary Force>";
-		AL["Prospector Seymour <Morgan's Militia>"] = "Prospector Seymour <Morgan's Militia>";
-		AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'blade <Kargath Expeditionary Force>";
-		AL["The Shadowforge Lock"] = "The Shadowforge Lock";
-		AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Brightwing <Morgan's Militia>";
-		AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierophant Theodora Mulvadania <Kargath Expeditionary Force>";
-		AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Darkbargainer <The Thorium Brotherhood>";
-		AL["The Black Forge"] = "The Black Forge";
+	AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Corps expéditionnaire de Kargath>";
+		AL["Prospector Seymour <Morgan's Militia>"] = "Prospecteur Seymour <Morgan's Militia>";
+	AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'lame <Corps expéditionnaire de Kargath>";
+	AL["The Shadowforge Lock"] = "Le verrou d'Ombreforge";
+		AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Morgan's Militia>";
+	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hiérophante Theodora Mulvadania <Corps expéditionnaire de Kargath>";
+	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Sombrescompte <La Confrérie du thorium>";
+	AL["The Black Forge"] = "La Forge noire";
 		AL["Shadowforge Brazier"] = "Shadowforge Brazier";
-		AL["Kharan Mighthammer"] = "Kharan Mighthammer";
-		AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Commander Gor'shak <Kargath Expeditionary Force>";
-		AL["Mistress Nagmara"] = "Mistress Nagmara";
-		AL["Griz Gutshank <Arena Vendor>"] = "Griz Gutshank <Arena Vendor>";
+	AL["Kharan Mighthammer"] = "Kharan Force-martel";
+	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Commandant Gor'shak <Corps expéditionnaire de Kargath>";
+	AL["Mistress Nagmara"] = "Gouvernante Nagmara";
+	AL["Griz Gutshank <Arena Vendor>"] = "Griz Cannebide <Vendeur de l'arène>";
 
 	--Blackrock Spire (Lower)
-		AL["Urok's Tribute Pile"] = "Urok's Tribute Pile";
-		AL["Acride <Scarshield Legion>"] = "Acride <Scarshield Legion>";
+	AL["Urok's Tribute Pile"] = "Autel des offrandes d'Urok";
+		AL["Acride <Scarshield Legion>"] = "Acride <Légion du Bouclier balafré>";
 	AL["Warosh <The Cursed>"] = "Warosh <Les maudits>";
 	AL["Elder Stonefort"] = "Ancien Fort-de-pierre";
 	AL["Roughshod Pike"] = "Pique de fortune";
 	AL["Bijou"] = "Bijou";
-		AL["Unfired Plate Gauntlets"] = "Unfired Plate Gauntlets";
-		AL["Fifth Mosh'aru Tablet"] = "Fifth Mosh'aru Tablet";
+	AL["Unfired Plate Gauntlets"] = "Gantelets en plaques inachevés";
+	AL["Fifth Mosh'aru Tablet"] = "Cinquième tablette Mosh'aru";
 	AL["Sixth Mosh'aru Tablet"] = "Sixième tablette Mosh'aru";
 	AL["Bijou's Belongings"] = "Affaires de Bijou";
 	AL["Human Remains"] = "Restes humains";
 
 	--Blackrock Spire (Upper)
 	AL["Finkle Einhorn"] = "Finkle Einhorn";
-		AL["Drakkisath's Brand"] = "Drakkisath's Brand";
+	AL["Drakkisath's Brand"] = "Marque de Drakkisath";
 	AL["Father Flame"] = "Père des flammes";
 	AL["Awbee"] = "Awbee";
 	AL["Darkstone Tablet"] = "Darkstone Tablet";
 	AL["Doomrigger's Coffer"] = "Doomrigger's Coffer";
+	
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Orb of Domination";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 
 	--Gnomeregan
-		AL["Chomper"] = "Chomper";
+	AL["Chomper"] = "Mâchouilleur";
 	AL["Blastmaster Emi Shortfuse"] = "Maître-dynamiteur Emi Courtemèche";
 	AL["Matrix Punchograph 3005-C"] = "Matrix Punchograph 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.A.F.E.>";
@@ -606,13 +593,15 @@ if AL then
 	--SM: Armory
 
 	--SM: Cathedral
-		AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
+	AL["Cathedral"] = "Cathédrale"; -- Subzone of Scarlet Monastery
+		
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Sanctuaire Citrouille";
 
 	--SM: Library
-		AL["Library"] = "Library"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Bibliothèque"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+		
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Clé des boîtes à lettres";
 	AL["Malor's Strongbox"] = "Coffre de Malor";
@@ -623,6 +612,7 @@ if AL then
 	AL["Elder Farwhisper"] = "Ancien Murmeloin";
 	AL["Market Row Postbox"] = "Boîte de l'allée du Marché";
 	AL["Crusaders' Square Postbox"] = "Boîte de la place des Croisés";
+	
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Boîte de la place des Anciens";
 
@@ -808,8 +798,9 @@ if AL then
 	AL["Ebonlocke <The Noble>"] = "Bouclenoire <Les nobles>";
 	AL["Sebastian <The Organist>"] = "Sebastian <L'Organiste>";
 	AL["Barnes <The Stage Manager>"] = "Barnes <Le Régisseur>";
+	
 	--Karazhan End
-		AL["Path to the Broken Stairs"] = "Path to the Broken Stairs";
+	AL["Path to the Broken Stairs"] = "Passage vers l'Escalier brisé";
 	AL["Broken Stairs"] = "L'Escalier brisé";
 	AL["Ramp to Guardian's Library"] = "Rampe vers la Bibliothèque du Gardien";
 	AL["Suspicious Bookshelf"] = "Bibliotheque suspecte";
@@ -931,13 +922,14 @@ if AL then
 	AL["From previous map"] = "Vers la carte précédente";
 	AL["Upper Spire"] = "Flèche supérieure";
 	AL["Sindragosa's Lair"] = "Repaire de Sindragosa";
-	AL["Stinky"] = "Stinky";
-	AL["Precious"] = "Precious";
+	AL["Stinky"] = "Kifouette";
+	AL["Precious"] = "Bijou";
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "M. Bigglesworth";
 	AL["Frostwyrm Lair"] = "Repaire de la Wyrm des glaces";
-		AL["Teleporter to Middle"] = "Teleporter to Middle";
+	AL["Teleporter to Middle"] = "Téléporteur vers le centre";
+
 	--The Obsidian Sanctum
 	AL["Black Dragonflight Chamber"] = "Chambre du vol draconique noir";
 
@@ -1027,31 +1019,24 @@ if AL then
 	--Caverns of Time: War of the Ancients
 
 	--Grim Batol
-	AL["Baleflame"] = "Baleflame";
-	AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
-	AL["Velastrasza"] = "Velastrasza";
+		AL["Baleflame"] = "Baleflame";
+		AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
+		AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
 
 	--Lost City of the Tol'vir
-	AL["Captain Hadan"] = "Captain Hadan";
+		AL["Captain Hadan"] = "Captain Hadan";
 
 	--Sulfuron Keep
 
 	--The Bastion of Twilight
 
 	--The Stonecore
-	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
+		AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
 
 	--The Vortex Pinnacle
-
-
-
-
-
-
-
-	AL["Itesh"] = "Itesh";
+		AL["Itesh"] = "Itesh";
 
 	--Throne of the Four Winds
 

@@ -183,15 +183,15 @@ if AL then
 	AL["Tasaldan <Ammunition>"] = "Tasaldan <Munitions>";
 
 	-- Wintergrasp
-	AL["Fortress Vihecal Workshop (E)"] = "Usine de la Forteresse (E)";
-	AL["Fortress Vihecal Workshop (W)"] = "Usine de la Forteresse (O)";)
-	AL["Sunken Ring Vihecal Workshop"] = "Usine de l'arène Engloutie";
-	AL["Broken Temple Vihecal Workshop"] = "Usine du Temple Brisé";
-	AL["Eastspark Vihecale Workshop"] = "Usine de l'Estincelle";
-	AL["Westspark Vihecale Workshop"] = "Usine de l'Ouestincelle";
+	AL["Fortress Vihecal Workshop (E)"] = "Atelier de la Forteresse (E)";
+	AL["Fortress Vihecal Workshop (W)"] = "Atelier de la Forteresse (O)";)
+	AL["Sunken Ring Vihecal Workshop"] = "Atelier de l'arène Engloutie";
+	AL["Broken Temple Vihecal Workshop"] = "Atelier du temple Brisé";
+	AL["Eastspark Vihecale Workshop"] = "Atelier de l'Estincelle";
+	AL["Westspark Vihecale Workshop"] = "Atelier de l'Ouestincelle";
 	AL["Wintergrasp Graveyard"] = "Cimetière du Joud-d'hiver";
 	AL["Sunken Ring Graveyard"] = "Cimetière de l'arène Engloutie";
-	AL["Broken Temple Graveyard"] = "Cimetière du Temple Brisé";
+	AL["Broken Temple Graveyard"] = "Cimetière du temple Brisé";
 	AL["Southeast Graveyard"] = "Cimetière Sud-Est";
 	AL["Southwest Graveyard"] = "Cimetière Sud-Ouest";
 

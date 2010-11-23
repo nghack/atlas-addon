@@ -28,20 +28,20 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "Death Knight Only";		-- Need translation
+	AL["Death Knight Only"] = "Chevalier de la mort seulement";	
 	AL["Druid-only"] = "Druide seulement";
-	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
-	AL["Orb of Translocation"] = "Orb of Translocation";	-- Need translation
-	AL["Portal Destinations"] = "Portal Destinations";	-- Need translation
-	AL["Portals"] = "Portals";				-- Need translation
-	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
-	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Legend"] = "Légende";
+	AL["Orb of Translocation"] = "Orbe de transposition";
+	AL["Portal Destinations"] = "Destinations de portail";
+	AL["Portals"] = "Portails";
+	AL["Portal / Waygate Path to the destination"] = "Destination de Portail / Porte de transport";
+	AL["Ship / Zeppelin sailing path to destination"] = "Chemin de navigation de Vaisseau / Zeppelin";
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Honoré avec la Garde-ciel sha'tari";
-	AL["Seahorse"] = "Seahorse";				-- Need translation
+	AL["Seahorse"] = "Hippocampe";
 	AL["South of the path along Lake Elune'ara"] = "Sud du chemin du lac d'Elune'ara";
-	AL["Taxi Nodes"] = "Taxi Nodes";			-- Need translation
+	AL["Taxi Nodes"] = "Nœuds de transports";
 	AL["Transportation Maps"] = "Cartes des Transports";
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
-	AL["Zeppelin Towers"] = "Zeppelin Towers";		-- Need translation
-
+	AL["Zeppelin Towers"] = "Tours de Zeppelin";
+	
 end

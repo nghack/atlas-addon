@@ -34,7 +34,7 @@ if AL then
 	AL["North"] = "Nord";
 	AL["Orange"] = "Orange "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Red"] = "Rouge "; -- Espace pour le blanc avant une double ponctuation française
-	AL["Reputation"] = "Réputation ";
+	AL["Reputation"] = "Réputation "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Rescued"] = "Sauvé";
 	AL["South"] = "Sud";
 	AL["Start"] = "Départ";
@@ -160,17 +160,17 @@ if AL then
 	AL["Hellfire Fortifications"] = "Fortifications des flammes infernales";
 
 	-- Zangarmarsh PvP
-	AL["West Beacon"] = "West Beacon"; -- Need translation
-	AL["East Beacon"] = "East Beacon"; -- Need translation
-	AL["Twinspire Graveyard"] = "Twinspire Graveyard"; -- Need translation
+	AL["West Beacon"] = "Balise Ouest";
+	AL["East Beacon"] = "Balise Est";
+	AL["Twinspire Graveyard"] = "Cimetière des flèches jumelles";
 	AL["Alliance Field Scout"] = "Eclaireur de terrain de l'Alliance";
 	AL["Horde Field Scout"] = "Eclaireur de terrain de la Horde";
 
 	-- Terokkar Forest PvP
-	AL["Auchindoun Spirit Towers"] = "Auchindoun Spirit Towers"; -- Need translation
+	AL["Auchindoun Spirit Towers"] = "Tour des esprits d'Auchindoun";
 
 	-- Halaa
-	AL["Wyvern Camp"] = "Wyvern Camp"; -- Need translation
+	AL["Wyvern Camp"] = "Camp de la wyverne";
 	AL["Quartermaster Jaffrey Noreliqe"] = "Intendant Jaffrey Noreliqe";
 	AL["Quartermaster Davian Vaclav"] = "Intendant Davian Vaclav";
 	AL["Chief Researcher Amereldine"] = "Directrice de recherches Amereldine";
@@ -183,20 +183,20 @@ if AL then
 	AL["Tasaldan <Ammunition>"] = "Tasaldan <Munitions>";
 
 	-- Wintergrasp
-	AL["Fortress Vihecal Workshop (E)"] = "Fortress Vihecal Workshop (E)"; -- Need translation
-	AL["Fortress Vihecal Workshop (W)"] = "Fortress Vihecal Workshop (W)"; -- Need translation
-	AL["Sunken Ring Vihecal Workshop"] = "Sunken Ring Vihecal Workshop"; -- Need translation
-	AL["Broken Temple Vihecal Workshop"] = "Broken Temple Vihecal Workshop"; -- Need translation
-	AL["Eastspark Vihecale Workshop"] = "Eastspark Vihecale Workshop"; -- Need translation
-	AL["Westspark Vihecale Workshop"] = "Westspark Vihecale Workshop"; -- Need translation
-	AL["Wintergrasp Graveyard"] = "Wintergrasp Graveyard"; -- Need translation
-	AL["Sunken Ring Graveyard"] = "Sunken Ring Graveyard"; -- Need translation
-	AL["Broken Temple Graveyard"] = "Broken Temple Graveyard"; -- Need translation
-	AL["Southeast Graveyard"] = "Southeast Graveyard"; -- Need translation
-	AL["Southwest Graveyard"] = "Southwest Graveyard"; -- Need translation
+	AL["Fortress Vihecal Workshop (E)"] = "Usine de la Forteresse (E)";
+	AL["Fortress Vihecal Workshop (W)"] = "Usine de la Forteresse (O)";)
+	AL["Sunken Ring Vihecal Workshop"] = "Usine de l'arène Engloutie";
+	AL["Broken Temple Vihecal Workshop"] = "Usine du Temple Brisé";
+	AL["Eastspark Vihecale Workshop"] = "Usine de l'Estincelle";
+	AL["Westspark Vihecale Workshop"] = "Usine de l'Ouestincelle";
+	AL["Wintergrasp Graveyard"] = "Cimetière du Joud-d'hiver";
+	AL["Sunken Ring Graveyard"] = "Cimetière de l'arène Engloutie";
+	AL["Broken Temple Graveyard"] = "Cimetière du Temple Brisé";
+	AL["Southeast Graveyard"] = "Cimetière Sud-Est";
+	AL["Southwest Graveyard"] = "Cimetière Sud-Ouest";
 
 	-- Silithus - The Silithyst Must Flow
-	AL["The Silithyst Must Flow"] = "The Silithyst Must Flow"; -- Need translation
-	AL["Alliance's Camp"] = "Alliance's Camp"; -- Need translation
-	AL["Horde's Camp"] = "Horde's Camp"; -- Need translation
+	AL["The Silithyst Must Flow"] = "Le silithyste doit couler à flots ";
+	AL["Alliance's Camp"] = "Camp de l'Alliance";
+	AL["Horde's Camp"] = "Camp de la Horde";
 end

@@ -28,6 +28,8 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 -- Atlas French Localization
 -- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2010
 -- Many thanks to all contributors!
+-- $Date$
+-- $Revision$
 
 if ( GetLocale() == "frFR" ) then
 -- Define the leading strings to be ignored while sorting
@@ -75,6 +77,7 @@ if AL then
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Position du bouton";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparence";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Clic-Droit pour afficher la carte du monde";
+	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Enable the Right-Click in Atlas window to switch to WoW World Map."; -- Need translation
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Position initiale";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Afficher les acronymes VO/VF";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Afficher les acronymes de l'instance dans les détails de la carte";
@@ -139,6 +142,7 @@ if AL then
 	AL["North"] = "Nord";
 	AL["South"] = "Sud";
 	AL["West"] = "Ouest";
+
 	--World Events, Festival
 	AL["Brewfest"] = "Fête des Brasseurs";
 	AL["Hallow's End"] = "Sanssaint";
@@ -331,6 +335,7 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
 	AL["VP"] = "VP"; --The Vortex Pinnacle
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -403,9 +408,9 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "Le Prophète sans nom";
-	AL["Kolk <The First Kahn>"] = "Kolk <Le premier Khan>";
-	AL["Gelk <The Second Kahn>"] = "Gelk <Le deuxième Kahn>";
-	AL["Magra <The Third Kahn>"] = "Magra <Le troisième Kahn>";
+	AL["Spirit of Kolk <The First Kahn>"] = "Esprit de Kolk <Le premier Kahn>";
+	AL["Spirit of Gelk <The Second Kahn>"] = "Esprit de Gelk <Le deuxième Kahn>";
+	AL["Spirit of Magra <The Third Kahn>"] = "Esprit de Magra <Le troisième Kahn>";
 	AL["Cavindra"] = "Cavindra";
 
 	--Scarlet Monastery (Entrance)
@@ -426,8 +431,8 @@ if AL then
 	AL["Shrine of Gelihast"] = "Autel de Gelihast";
 	AL["Fathom Stone"] = "Noyau de la Brasse";
 	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
-		AL["Scout Thaelrid"] = "Scout Thaelrid";
-		AL["Flaming Eradicator"] = "Flaming Eradicator";	
+	AL["Scout Thaelrid"] = "Scout Thaelrid";
+	AL["Flaming Eradicator"] = "Flaming Eradicator";	
 	AL["Altar of the Deeps"] = "Autel des profondeurs";
 	AL["Morridune"] = "Morridune";
 	
@@ -490,7 +495,7 @@ if AL then
 
 	--Zul'Farrak
 	AL["Weegli Blastfuse"] = "Gigoto Explomèche";
-	AL["Murta Grimgut"] = "Murta Mornentraille";
+	AL["Raven"] = "Corbeau";
 	AL["Elder Wildmane"] = "Ancienne Crin-sauvage";
 
 --****************************
@@ -510,24 +515,24 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "Schéma : Robot réparateur 74A";
 	AL["Private Rocknot"] = "Soldat Rochenoeud";
 	AL["Summoner's Tomb"] = "La tombe des invocateurs";
-		AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Morgan's Militia>";
-		AL["Oralius <Morgan's Militia>"] = "Oralius <Morgan's Militia>";
+	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Morgan's Militia>";
+	AL["Oralius <Morgan's Militia>"] = "Oralius <Morgan's Militia>";
 	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Fière-défense <Corps expéditionnaire de Kargath>";
 	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "Galamav le Tireur d'élite <Corps expéditionnaire de Kargath>";
 	AL["Maxwort Uberglint"] = "Maxwort Uberbrille";
 	AL["Tinkee Steamboil"] = "Brikolette Toutevapeur";
-		AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Fermevanne <Engineering Supplies>";
-		AL["Abandonded Mole Machine"] = "Abandonded Mole Machine";
-		AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>";
+	AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Fermevanne <Engineering Supplies>";
+	AL["Abandonded Mole Machine"] = "Abandonded Mole Machine";
+	AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>";
 	AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Corps expéditionnaire de Kargath>";
-		AL["Prospector Seymour <Morgan's Militia>"] = "Prospecteur Seymour <Morgan's Militia>";
+	AL["Prospector Seymour <Morgan's Militia>"] = "Prospecteur Seymour <Morgan's Militia>";
 	AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'lame <Corps expéditionnaire de Kargath>";
 	AL["The Shadowforge Lock"] = "Le verrou d'Ombreforge";
-		AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Morgan's Militia>";
+	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Morgan's Militia>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hiérophante Theodora Mulvadania <Corps expéditionnaire de Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Sombrescompte <La Confrérie du thorium>";
 	AL["The Black Forge"] = "La Forge noire";
-		AL["Shadowforge Brazier"] = "Shadowforge Brazier";
+	AL["Shadowforge Brazier"] = "Shadowforge Brazier";
 	AL["Kharan Mighthammer"] = "Kharan Force-martel";
 	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Commandant Gor'shak <Corps expéditionnaire de Kargath>";
 	AL["Mistress Nagmara"] = "Gouvernante Nagmara";
@@ -535,7 +540,7 @@ if AL then
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Autel des offrandes d'Urok";
-		AL["Acride <Scarshield Legion>"] = "Acride <Légion du Bouclier balafré>";
+	AL["Acride <Scarshield Legion>"] = "Acride <Légion du Bouclier balafré>";
 	AL["Warosh <The Cursed>"] = "Warosh <Les maudits>";
 	AL["Elder Stonefort"] = "Ancien Fort-de-pierre";
 	AL["Roughshod Pike"] = "Pique de fortune";
@@ -567,7 +572,7 @@ if AL then
 	AL["The Sparklematic 5200"] = "Le Brille-o-Matic 5200";
 	AL["Mail Box"] = "Boîte aux lettres";
 	AL["Matrix Punchograph 3005-B"] = "Matrice d'Encodage 3005-B";
-	AL["Matrix Punchograph 3005-C"] = "Matrice d'Encodage 3005-C";
+	AL["Matrix Punchograph 3005-D"] = "Matrice d'Encodage 3005-D";
 
 	--Molten Core
 
@@ -587,9 +592,10 @@ if AL then
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothicaire Hummel <Cie de Chimie La Royale>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothicaire Baxter <Cie de Chimie La Royale>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apothicaire Frye <Cie de Chimie La Royale>";
-		AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang";
-		AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
+	AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang";
+	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
 	AL["Investigator Fezzen Brasstacks"] = " Enquêteur Fezzen Desfaits";
+
 	--SM: Armory
 
 	--SM: Cathedral
@@ -617,13 +623,13 @@ if AL then
 	AL["Elders' Square Postbox"] = "Boîte de la place des Anciens";
 
 	--The Deadmines
-		AL["Lumbering Oaf"] = "Lumbering Oaf";
-		AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
-		AL["Kagtha"] = "Kagtha";
-		AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
-		AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>";
-		AL["Miss Mayhem"] = "Miss Mayhem";
-		AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
+	AL["Lumbering Oaf"] = "Lumbering Oaf";
+	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
+	AL["Kagtha"] = "Kagtha";
+	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
+	AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>";
+	AL["Miss Mayhem"] = "Miss Mayhem";
+	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
 
 	--The Stockade
 
@@ -633,10 +639,10 @@ if AL then
 
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Bâton de la préhistoire";
-	AL["Baelog"] = "Baelog";
-		AL["High Examiner Tae'thelan Bloodwatcher"] = "High Examiner Tae'thelan Bloodwatcher";
-		AL["Lidia Sunglow"] = "Lidia Sunglow";
-		AL["Aoren Sunglow"] = "Aoren Sunglow";
+	AL["Baelog's Chest"] = "Baelog"; -- Needs review
+	AL["High Examiner Tae'thelan Bloodwatcher"] = "High Examiner Tae'thelan Bloodwatcher";
+	AL["Lidia Sunglow"] = "Lidia Sunglow";
+	AL["Aoren Sunglow"] = "Aoren Sunglow";
 	AL["Remains of a Paladin"] = "Restes d'un paladin";
 	AL["Ancient Treasure"] = "Trésor Antique";
 	AL["The Discs of Norgannon"] = "Les Disques de Norgannon";
@@ -646,7 +652,7 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-		AL["Auchenai Key"] = "Auchenai Key";
+	AL["Auchenai Key"] = "Auchenai Key";
 	AL["Avatar of the Martyred"] = "Avatar des martyrs";
 	AL["D'ore"] = "D'ore";
 
@@ -663,8 +669,9 @@ if AL then
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "Codex de sang";
-		AL["First Fragment Guardian"] = "First Fragment Guardian";
+	AL["First Fragment Guardian"] = "First Fragment Guardian";
 	AL["Spy To'gun"] = "Espion To'gun";
+
 	--Black Temple (Start)
 	AL["Towards Reliquary of Souls"] = "Vers Reliquaire des âmes";
 	AL["Towards Teron Gorefiend"] = "Vers Teron Fielsang";
@@ -698,7 +705,7 @@ if AL then
 
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "Ouverture de la Porte des Ténèbres";
-	AL["Keepers of Time"] = "Gardiens du Temps";
+	AL["Key of Time"] = "Clé du Temps";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
 	AL["The Dark Portal"] = "La Porte des Ténèbres";
 
@@ -828,11 +835,12 @@ if AL then
 	AL["Zelfan"] = "Zelfan";
 	AL["Tyrith"] = "Tyrith";
 	AL["Scrying Orb"] = "Orbe de divination";
+
 	--Sunwell Plateau
 	AL["Madrigosa"] = "Madrigosa";
 
 	--TK: The Arcatraz
-		AL["Warpforged Key"] = "Warpforged Key";
+	AL["Warpforged Key"] = "Warpforged Key";
 	AL["Millhouse Manastorm"] = "Milhouse Tempête-de-mana";
 	AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
 	AL["Udalo"] = "Udalo";
@@ -961,6 +969,7 @@ if AL then
 	--Trial of the Crusader
 	AL["Heroic: Trial of the Grand Crusader"] = "Héroïque: L'appel de la grande Croisade";
 	AL["Cavern Entrance"] = "Entrée de la caverne";
+
 	-- Ulduar General
 	AL["Celestial Planetarium Key"] = "Clé du planétarium céleste";
 	AL["The Siege"] = "Le Siège";
@@ -1019,24 +1028,24 @@ if AL then
 	--Caverns of Time: War of the Ancients
 
 	--Grim Batol
-		AL["Baleflame"] = "Baleflame";
-		AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
-		AL["Velastrasza"] = "Velastrasza";
+	AL["Baleflame"] = "Baleflame";
+	AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
+	AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
 
 	--Lost City of the Tol'vir
-		AL["Captain Hadan"] = "Captain Hadan";
+	AL["Captain Hadan"] = "Captain Hadan";
 
 	--Sulfuron Keep
 
 	--The Bastion of Twilight
 
 	--The Stonecore
-		AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
+	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
 
 	--The Vortex Pinnacle
-		AL["Itesh"] = "Itesh";
+	AL["Itesh"] = "Itesh";
 
 	--Throne of the Four Winds
 

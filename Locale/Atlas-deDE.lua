@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 25.11.2010
+-- Letztes Update: 24.11.2010
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting

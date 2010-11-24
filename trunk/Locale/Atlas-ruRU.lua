@@ -68,26 +68,26 @@ if AL then
 
 	AL["ATLAS_OPTIONS_BUTTON"] = "Настройки";
 	AL["ATLAS_OPTIONS_SHOWBUT"] = "Показывать кнопку у мини-карты";
-	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "Show Atlas button around the minimap."; -- Needs translation
+	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "Отображать кнопку Атласа у мини-карты.";
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Автоматический выбор поздемелья";
-	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Auto-select instance map, Atlas will detect your location to choose the best instance map for you."; -- Needs translation
+	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Автоматический выбор карты поздемелья, Атлас будет определить ваше местоположение, чтобы выбрать лучшую карту подземелья для вас.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Расположение кнопки";
 	AL["ATLAS_OPTIONS_TRANS"] = "Прозрачность";
-	AL["ATLAS_OPTIONS_RCLICK"] = "[Правая клавиша мыши] для показа карты мира";
-	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Enable the Right-Click in Atlas window to switch to WoW World Map."; -- Needs translation
+	AL["ATLAS_OPTIONS_RCLICK"] = "[ПКМ] для карты мира";
+	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Включает отображение мировой карты при нажатии ПКМ в окне Атласа.";
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Сбросить позиции";
-	AL["ATLAS_OPTIONS_ACRONYMS"] = "Отображать короткие названия";
-	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Display the instance's acronym in the map details."; -- Needs translation
+	AL["ATLAS_OPTIONS_ACRONYMS"] = "Короткие названия";
+	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Будут отображаться сокрощенные названия подземелий в информации о карте.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Размер";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Радиус расположения кнопки";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Не заходить за размеры экрана";
-	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Clamp Atlas window to screen, disable to allow Atlas window can be dragged outside the game screen."; -- Needs translation
-	AL["ATLAS_OPTIONS_CTRL"] = "Удерживайте клавишу [Control] для сравнений";
-	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Enable to show tooltips text while hold down control key and mouse over the map info. Useful when the text is too long to be displayed in the window."; -- Needs translation
+	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Фиксировать окно Атласа на экране, отключение позволит перемещать окно Атласа за пределы игрового экрана.";
+	AL["ATLAS_OPTIONS_CTRL"] = "Удерживайте клавишу [CTRL] для сравнений";
+	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Включить/отключить отображение подсказки при удерживании клавиши CTRL и наведении курсора мышки на информационной карте. Полезно тогда, когда текст слишком длинный, для отображения в окне.";
 
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Атлас";
-	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "[Левая клавиша мыши] - открывает Атлас.\n[Средняя клавиша мыши] - открывает настройки Атласа.\n[Правая клавиша мыши] + [перемещение] - изменяет позицию кнопки Атласа.";
-	AL["ATLAS_LDB_HINT"] = "[Левая клавиша мыши] - открывает Атлас.\n[Правая клавиша мыши] - открывает настройки Атласа.";
+	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "[ЛКМ] - открывает Атлас.\n[СКМ] - открывает настройки Атласа.\n[ПКМ] + [перемещение] - изменяет позицию кнопки Атласа.";
+	AL["ATLAS_LDB_HINT"] = "[ЛКМ] - открывает Атлас.\n[СКМ] - открывает настройки Атласа.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Сортировать подземелья по:";
 	AL["ATLAS_DDL_CONTINENT"] = "Контитенту";
@@ -114,7 +114,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Подземелья Старого Мира P-Z";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Подземелья Пылающего Крестового Похода";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Подземелья Wrath of the Lich King";
-	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances"; -- Needs translation
+	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm "; -- Needs translation
 	AL["ATLAS_DDL_TYPE"] = "Типу";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Подземелья A-C";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Подземелья D-R";
@@ -135,10 +135,10 @@ if AL then
 --************************************************
 
 	--Common strings
-	AL["East"] = "East"; -- Needs translation
-	AL["North"] = "North"; -- Needs translation
-	AL["South"] = "South"; -- Needs translation
-	AL["West"] = "West"; -- Needs translation
+	AL["East"] = "Восток";
+	AL["North"] = "Север";
+	AL["South"] = "Юг";
+	AL["West"] = "Запад";
 
 	--World Events, Festival
 	AL["Brewfest"] = "Праздника пива";
@@ -182,7 +182,7 @@ if AL then
 	AL["Lower"] = "Нижний";
 	AL["Mage"] = "Маг";
 	AL["Meeting Stone"] = "Камень встреч";
-	AL["Middle"] = "Middle"; -- Needs translation
+	AL["Middle"] = "Центр"; --???
 	AL["Monk"] = "Монах";
 	AL["Moonwell"] = "Лунный колодец";
 	AL["Optional"] = "Необяз.";
@@ -322,19 +322,19 @@ if AL then
 
 	--Cataclysm Acronyms
 	--AL["AM"] = "AM"; --Abyssal Maw
-	AL["BH"] = "BH"; --Baradin Hold
-	AL["BoT"] = "BoT"; --Bastion of Twilight
-	AL["BRC"] = "BRC"; --Blackrock Caverns
-	AL["BWD"] = "BWD"; --Blackwing Descent
-	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
-	AL["GB"] = "GB"; --Grim Batol
-	AL["HoO"] = "HoO"; --Halls of Origination
-	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	AL["BH"] = "КБ"; --Крепость Барадин
+	AL["BoT"] = "СБ"; --Сумеречный бастион
+	AL["BRC"] = "ПСГ"; --Пещеры Черной горы
+	AL["BWD"] = "ТКТ"; --Твердыня Крыла Тьмы
+	--AL["CoT-WA"] = "CoT-WA"; --Война древних
+	AL["GB"] = "ГБ"; --Грим Батол
+	AL["HoO"] = "ЧТГС"; --Чертоги Созидания
+	AL["LCoT"] = "ЗГТВ"; --Затерянный город Тол'вир
 	--AL["SK"] = "SK"; --Sulfuron Keep
-	AL["TSC"] = "TSC"; --The Stonecore
-	AL["TWT"] = "TWT"; --Throne of the Four Winds
-	AL["ToTT"] = "ToTT"; --Throne of the Tides
-	AL["VP"] = "VP"; --The Vortex Pinnacle
+	AL["TSC"] = "КН"; --Каменные Недра
+	AL["TWT"] = "ТЧВ"; --Трон Четырех Ветров
+	AL["ToTT"] = "ТП"; --Трон Приливов
+	AL["VP"] = "ВС"; --Вершина смерча
 
 --************************************************
 -- Instance Entrance Maps
@@ -431,7 +431,7 @@ if AL then
 	AL["Shrine of Gelihast"] = "Святыня Гелихастa";
 	AL["Fathom Stone"] = "Глубинный Камень";
 	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
-	AL["Scout Thaelrid"] = "Scout Thaelrid"; -- Needs translation
+	AL["Scout Thaelrid"] = "Страж Талрид";
 	AL["Flaming Eradicator"] = "Flaming Eradicator"; -- Needs translation	
 	AL["Altar of the Deeps"] = "Алтарь пучины";
 	AL["Morridune"] = "Морридан";
@@ -541,7 +541,7 @@ if AL then
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Груда приношений Арроку";
-	AL["Acride <Scarshield Legion>"] = "Acride <Scarshield Legion>"; -- Needs translation
+	AL["Acride <Scarshield Legion>"] = "Секретный агент <Легион Изрубленного Щита>";
 	AL["Warosh <The Cursed>"] = "Варош <Проклятый >";
 	AL["Elder Stonefort"] = "Старейшина Камнеград";
 	AL["Roughshod Pike"] = "Наконечник Грубой силы ";
@@ -568,7 +568,7 @@ if AL then
 	AL["Chomper"] = "Чавккер";
 	AL["Blastmaster Emi Shortfuse"] = "Взрывник Ими Фитилюшка";
 	AL["Matrix Punchograph 3005-C"] = "Матричный перфограф 3005-C";
-	AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.A.F.E.>"; -- Needs translation
+	AL["Murd Doc <S.A.F.E.>"] = "Мерд-Док <S.A.F.E.>"; --
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Звяк Пружиносвист <Инженерные материалы>";
 	AL["The Sparklematic 5200"] = "Чистер 5200!";
 	AL["Mail Box"] = "Почтовый яшик";
@@ -589,7 +589,7 @@ if AL then
 	AL["Alchemy Lab"] = "Лаборатория Алхимии";
 
 	--Shadowfang Keep
-	AL["Apothecary Trio"] = "троих аптекарей"; --Check
+	AL["Apothecary Trio"] = "Трио аптекарей"; --
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Аптекарь Бакстер <Королевская химическая компания>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "Аптекарь Фрай <Королевская химическая компания>";
@@ -600,14 +600,14 @@ if AL then
 	--SM: Armory
 
 	--SM: Cathedral
-	AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
+	AL["Cathedral"] = "Собор"; -- Subzone of Scarlet Monastery
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Воррел Сенгутц";
 	AL["Pumpkin Shrine"] = "Святящаяся тыква";
 
 	--SM: Library
-	AL["Library"] = "Library"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Библиотека"; -- The Library appeared in the Dire Maul and Scarlet Monastery
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Различные Ключи Почтового ящика";
@@ -623,13 +623,13 @@ if AL then
 	AL["Elders' Square Postbox"] = "Ключ от почтового ящика на Площади старейшины";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Lumbering Oaf";
-	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
-	AL["Kagtha"] = "Kagtha";
-	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
-	AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>";
-	AL["Miss Mayhem"] = "Miss Mayhem";
-	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
+	AL["Lumbering Oaf"] = "Lumbering Oaf"; -- Needs translation
+	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine"; -- Needs translation
+	AL["Kagtha"] = "Kagtha"; -- Needs translation
+	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Needs translation
+	AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>"; -- Needs translation
+	AL["Miss Mayhem"] = "Miss Mayhem"; -- Needs translation
+	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe"; -- Needs translation
 
 	--The Stockade
 
@@ -807,7 +807,7 @@ if AL then
 	AL["Barnes <The Stage Manager>"] = "Барнс <Конферансье>";
 
 	--Karazhan End
-	AL["Path to the Broken Stairs"] = "Path to the Broken Stairs"; -- Needs translation
+	AL["Path to the Broken Stairs"] = "Путь к разрушенным лестницам";
 	AL["Broken Stairs"] = "Сломаная лесница";
 	AL["Ramp to Guardian's Library"] = "Рампа к библиотеку стражи";
 	AL["Suspicious Bookshelf"] = "Подозрительные книжные полки";
@@ -910,7 +910,7 @@ if AL then
 
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
-	AL["Martin Victus"] = "Мартин Виктус"; -- нужно проверить
+	AL["Martin Victus"] = "Мартин Викт";
 	AL["Gorkun Ironskull"] = "Горкун Железный Череп";
 	AL["Rimefang"] = "Иний";
 
@@ -936,7 +936,7 @@ if AL then
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "Мистер Бигглсуорт";
 	AL["Frostwyrm Lair"] = "Логово Ледяного Змея";
-	AL["Teleporter to Middle"] = "Teleporter to Middle"; -- Needs translation
+	AL["Teleporter to Middle"] = "Телепорт в центр";
 
 	--The Obsidian Sanctum
 	AL["Black Dragonflight Chamber"] = "Комната черных драконов";

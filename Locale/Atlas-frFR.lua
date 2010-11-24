@@ -515,20 +515,20 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "Schéma : Robot réparateur 74A";
 	AL["Private Rocknot"] = "Soldat Rochenoeud";
 	AL["Summoner's Tomb"] = "La tombe des invocateurs";
-	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Morgan's Militia>"; -- Need translation
-	AL["Oralius <Morgan's Militia>"] = "Oralius <Morgan's Militia>"; -- Need translation
+	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Milice de Morgan>";
+	AL["Oralius <Morgan's Militia>"] = "Oralius <Milice de Morgan>";
 	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Fière-défense <Corps expéditionnaire de Kargath>";
 	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "Galamav le Tireur d'élite <Corps expéditionnaire de Kargath>";
 	AL["Maxwort Uberglint"] = "Maxwort Uberbrille";
 	AL["Tinkee Steamboil"] = "Brikolette Toutevapeur";
 	AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Fermevanne <Fournitures d'ingénieur>";
 	AL["Abandonded Mole Machine"] = "Abandonded Mole Machine"; -- Need translation
-	AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>"; -- Need translation
+	AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Milice de Morgan>";
 	AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Corps expéditionnaire de Kargath>";
-	AL["Prospector Seymour <Morgan's Militia>"] = "Prospecteur Seymour <Morgan's Militia>"; -- Need translation
+	AL["Prospector Seymour <Morgan's Militia>"] = "Prospecteur Seymour <Milice de Morgan>";
 	AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'lame <Corps expéditionnaire de Kargath>";
 	AL["The Shadowforge Lock"] = "Le verrou d'Ombreforge";
-	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Morgan's Militia>"; -- Need translation
+	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Milice de Morgan>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hiérophante Theodora Mulvadania <Corps expéditionnaire de Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Sombrescompte <La Confrérie du thorium>";
 	AL["The Black Forge"] = "La Forge noire";
@@ -624,7 +624,7 @@ if AL then
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Lumbering Oaf"; -- Need translation
-	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine"; -- Need translation
+	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	AL["Kagtha"] = "Kagtha"; -- Need translation
 	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Need translation
 	AL["Quartermaster Lewis <Quartermaster>"] = "Intendant Lewis <Intendant>"; -- Need confirmation

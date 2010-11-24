@@ -576,11 +576,15 @@ local myData = {
 	TransAllianceNorthrend = {
 		ZoneName = { BZ["Northrend"].." ("..BF["Alliance"]..")" };
 		{ _RED..BZ["Docks"] };
-		{ BLUE.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"], ZONE, 12 };
-		{ BLUE.." B') "..BZ["Menethil Harbor"]..", "..BZ["Wetlands"], ZONE, 11 };
+		{ ORNG.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
+		{ ORNG.." B') "..BZ["Menethil Harbor"]..", "..BZ["Wetlands"]..", "..BZ["Eastern Kingdoms"] };
 		{ "" };
 		{ _RED..AL["Portals"].." / "..BZ["Waygate"] };
-		{ BLUE.." ?) "..BZ["Caverns of Time"]..", "..BZ["Tanaris"], ZONE, 440 };
+		{ PURP.." A) "..BZ["Waygate"]..", "..BZ["Sholazar Basin"] };
+		{ PURP.." B) "..BZ["Wintergrasp Fortress"]..", "..BZ["Wintergrasp"] };
+		{ PURP.." C) "..BZ["Violet Stand"]..", "..BZ["Crystalsong Forest"] };
+		{ PURP.." A') "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"]..", "..BZ["Kalimdor"] };
+		{ PURP.." B') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["Borean Tundra"] };

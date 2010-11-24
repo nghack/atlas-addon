@@ -24,11 +24,14 @@ v1.18.0
   - Tol Barad
   - Twin Peaks
 - Revamped and updated all old maps
-- Added some locals to LibBabble:Zone
-- Introduced LibBabble-Boss to Atlas
-- Introduced LibBabble-Faction to Atlas
+- Introduced LibBabble-Boss, LibBabble-Faction to Atlas
 - Fixed the right-click won't bring up WorldMap issue
 - Fixed minimap Middle-Click won't bring up Atlas Options window
+- Translation update
+  - German (Dynaletik)
+  - French (mr.kevin.fischer)
+  - Russian (StingerSoft)
+  - Traditional Chinese (arith)
 
 v1.17.2
 - Hotfix to resolve the plugins maps won't show when AtlasLoot is enabled.

@@ -184,7 +184,7 @@ if AL then
 
 	-- Wintergrasp
 	AL["Fortress Vihecal Workshop (E)"] = "Atelier de la Forteresse (E)";
-	AL["Fortress Vihecal Workshop (W)"] = "Atelier de la Forteresse (O)";)
+	AL["Fortress Vihecal Workshop (W)"] = "Atelier de la Forteresse (O)";
 	AL["Sunken Ring Vihecal Workshop"] = "Atelier de l'arène Engloutie";
 	AL["Broken Temple Vihecal Workshop"] = "Atelier du temple Brisé";
 	AL["Eastspark Vihecale Workshop"] = "Atelier de l'Estincelle";

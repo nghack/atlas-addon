@@ -388,7 +388,7 @@ if AL then
 	AL["Elder Mistwalker"] = "Ancienne Marche-brume";
 
 	--Gnomeregan (Entrance)
-	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zapblast <Teleportation Specialist>";  -- Need translation
+	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zoupébaf <Spécialiste en téléportation>";
 	
 	-- Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "Marches et chemin vers la Fournaise du sang";

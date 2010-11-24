@@ -29,7 +29,7 @@ v1.18.0
 - Fixed minimap Middle-Click won't bring up Atlas Options window
 - Translation update
   - German (Dynaletik)
-  - French (mr.kevin.fischer)
+  - French (Khiria)
   - Russian (StingerSoft)
   - Traditional Chinese (arith)
 

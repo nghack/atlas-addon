@@ -212,6 +212,6 @@ if AL then
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Kommandant Zanoth <Höllschreis Hand>"; -- needs check
 
 	-- Twin Peaks
-	AL["Wildhammer Longhouse"] = "Wildhammer Longhouse"; -- needs translation
-	AL["Dragonmaw Clan Compound"] = "Drachenmalklan Compound"; -- needs translation
+	AL["Wildhammer Longhouse"] = "Langhaus der Wildhämmer";
+	AL["Dragonmaw Clan Compound"] = "Truppenlager des Drachenmalklans";
 end

@@ -30,6 +30,7 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "enUS", true);
 if AL then
 	AL["Death Knight Only"] = "Death Knight Only";		-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
 	AL["Druid-only"] = "Druid-only";			-- Taxi node in Nighthaven, Moonglade which is only for Druid
+	AL["Honor Point"] = "Honor Point";			-- The flight point in Hellfire Peninsula for quest "Go to the Front", will be included in LibBabble-SubZone in the next release
 	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
 	AL["Orb of Translocation"] = "Orb of Translocation";	-- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portal Destinations"] = "Portal Destinations";

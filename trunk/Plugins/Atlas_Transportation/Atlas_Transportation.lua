@@ -227,8 +227,8 @@ local myData = {
 		{ "" };
 		{ BLUE..BZ["Northern Barrens"].." / "..BZ["Southern Barrens"] };
 		{ WHIT.."28) "..BZ["Ratchet"] };
-		{ WHIT.."29) "..BZ["Northwatch Hold"] };
-		{ WHIT.."30) "..BZ["Honor's Stand"] };
+		{ WHIT.."29) "..BZ["Honor's Stand"] };
+		{ WHIT.."30) "..BZ["Northwatch Hold"] };
 		{ WHIT.."31) "..BZ["Fort Triumph"] };
 		{ "" };
 		{ BLUE..BZ["Dustwallow Marsh"] };

@@ -37,65 +37,56 @@ local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
-local ZONE = 1;
-local NPC = 2;
-local ITEM = 3;
-local OBJECT = 4;
-local FACTION = 5;
-local QUEST = 6;
-
---Now with GUIDs!
-
 local myCategory = AL["Outdoor Raid Encounters"];
 
 local myData = {
 	DoomLordKazzak = {
-		ZoneName = { BB["Doom Lord Kazzak"], NPC, 18728 };
-		Location = { BZ["Hellfire Peninsula"], ZONE, 3483 };
+		ZoneName = { BB["Doom Lord Kazzak"] };
+		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ WHIT.."1) "..BB["Doom Lord Kazzak"], NPC, 18728 };
+		{ WHIT.."1) "..BB["Doom Lord Kazzak"] };
 		{ WHIT.."2) "..BZ["Invasion Point: Annihilator"] };
 		{ WHIT.."3) "..BZ["Forge Camp: Rage"] };
 		{ WHIT.."4) "..BZ["Forge Camp: Mageddon"] };
 		{ WHIT.."5) "..BZ["Thrallmar"] };
 	};
 	Doomwalker = {
-		ZoneName = { BB["Doomwalker"], NPC, 17711 };
-		Location = { BZ["Shadowmoon Valley"], ZONE, 3520 };
+		ZoneName = { BB["Doomwalker"] };
+		Location = { BZ["Shadowmoon Valley"] };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ WHIT.."1) "..BB["Doomwalker"], NPC, 17711 };
+		{ WHIT.."1) "..BB["Doomwalker"] };
 	};
 	Skettis = {
 		ZoneName = { BZ["Skettis"] };
-		Location = { BZ["Blackwind Valley"]..", "..BZ["Terokkar Forest"], ZONE, 3519 };
+		Location = { BZ["Blackwind Valley"]..", "..BZ["Terokkar Forest"] };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
 		{ WHIT.."1) "..BZ["Blackwind Landing"] };
-		{ WHIT..INDENT..AL["Sky Commander Adaris"], NPC, 23038 };
-		{ WHIT..INDENT..AL["Sky Sergeant Doryn"], NPC, 23048 };
-		{ WHIT..INDENT..AL["Skyguard Handler Deesak"], NPC, 23415 };
-		{ WHIT..INDENT..AL["Severin <Skyguard Medic>"], NPC, 23042 };
-		{ WHIT..INDENT..AL["Grella <Skyguard Quartermaster>"], NPC, 23367 };
-		{ WHIT..INDENT..AL["Hazzik"], NPC, 23306 };
-		{ WHIT.."2) "..AL["Ancient Skull Pile"], OBJECT, 185928 };
-		{ WHIT..INDENT..AL["Terokk"].." ("..AL["Summon"]..")", NPC, 21838 };
-		{ WHIT.."3) "..AL["Sahaak <Keeper of Scrolls>"], NPC, 23363 };
-		{ WHIT.."4) "..AL["Skyguard Prisoner"].." ("..AL["Random"]..")", NPC, 23383 };
-		{ WHIT.."5) "..AL["Talonpriest Ishaal"], NPC, 23066 };
-		{ WHIT.."6) "..AL["Talonpriest Skizzik"], NPC, 23067 };
-		{ WHIT.."7) "..AL["Talonpriest Zellek"], NPC, 23068 };
-		{ WHIT.."8) "..AL["Hazzik's Package"], OBJECT, 185954 };
+		{ WHIT..INDENT..AL["Sky Commander Adaris"] };
+		{ WHIT..INDENT..AL["Sky Sergeant Doryn"] };
+		{ WHIT..INDENT..AL["Skyguard Handler Deesak"] };
+		{ WHIT..INDENT..AL["Severin <Skyguard Medic>"] };
+		{ WHIT..INDENT..AL["Grella <Skyguard Quartermaster>"] };
+		{ WHIT..INDENT..AL["Hazzik"] };
+		{ WHIT.."2) "..AL["Ancient Skull Pile"] };
+		{ WHIT..INDENT..AL["Terokk"].." ("..AL["Summon"]..")" };
+		{ WHIT.."3) "..AL["Sahaak <Keeper of Scrolls>"] };
+		{ WHIT.."4) "..AL["Skyguard Prisoner"].." ("..AL["Random"]..")" };
+		{ WHIT.."5) "..AL["Talonpriest Ishaal"] };
+		{ WHIT.."6) "..AL["Talonpriest Skizzik"] };
+		{ WHIT.."7) "..AL["Talonpriest Zellek"] };
+		{ WHIT.."8) "..AL["Hazzik's Package"] };
 		{ WHIT.."9) "..AL["Graveyard"] };
-		{ GREN.."1') "..AL["Skull Pile"], OBJECT, 185913 };
-		{ GREN..INDENT..AL["Darkscreecher Akkarai"].." ("..AL["Summon"]..")", NPC, 23161 };
-		{ GREN..INDENT..AL["Gezzarak the Huntress"].." ("..AL["Summon"]..")", NPC, 23163 };
-		{ GREN..INDENT..AL["Karrog"].." ("..AL["Summon"]..")", NPC, 23165 };
-		{ GREN..INDENT..AL["Vakkiz the Windrager"].." ("..AL["Summon"]..")", NPC, 23162 };
+		{ GREN.."1') "..AL["Skull Pile"] };
+		{ GREN..INDENT..AL["Darkscreecher Akkarai"].." ("..AL["Summon"]..")" };
+		{ GREN..INDENT..AL["Gezzarak the Huntress"].." ("..AL["Summon"]..")" };
+		{ GREN..INDENT..AL["Karrog"].." ("..AL["Summon"]..")" };
+		{ GREN..INDENT..AL["Vakkiz the Windrager"].." ("..AL["Summon"]..")" };
 	};
 };
 

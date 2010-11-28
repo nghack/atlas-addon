@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 04/02/2010
+-- Última Actualización (last update): 28/11/2010
 
 --]]
 
@@ -41,7 +41,7 @@ if AL then
 	AL["Battlegrounds"] = "Campos de Batalla";
 	AL["Blue"] = "Azul";
 	AL["Dungeon Locations"] = "Lugares de Mazmorras";
-	AL["Green"] = "Green";
+	AL["Green"] = "Verde";
 	AL["Instances"] = "Mazmorras";
 	AL["White"] = "Blanco";
 

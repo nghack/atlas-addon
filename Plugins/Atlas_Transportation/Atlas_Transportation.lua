@@ -523,7 +523,7 @@ local myData = {
 		{ BLUE..BZ["Hellfire Peninsula"] };
 		{ WHIT.." 1) "..BZ["The Dark Portal"] };
 		{ WHIT.." 2) "..BZ["Shatter Point"] };
-		{ WHIT.." 3) "..AL["Honor Point"] };
+		{ WHIT.." 3) "..BZ["Honor Point"] };
 		{ WHIT.." 4) "..BZ["Honor Hold"] };
 		{ WHIT.." 5) "..BZ["Temple of Telhamat"] };
 		{ "" };

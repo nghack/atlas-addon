@@ -36,13 +36,6 @@ local CYAN = "|cff00ffff";
 local GREY = "|cff999999";
 local INDENT = "      ";
 
-local ZONE = 1;
-local NPC = 2;
-local ITEM = 3;
-local OBJECT = 4;
-local FACTION = 5;
-local QUEST = 6;
-
 local myCategory = AL["Transportation Maps"];
 
 local myData = {

@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 04/02/2010
+-- Úlltima Actualización (last update): 28/11/2010
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -36,20 +36,20 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "esES", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "Death Knight Only";		-- Need translation
+	AL["Death Knight Only"] = "Solo caballeros de la muerte";
 	AL["Druid-only"] = "Solo druidas";
-	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
-	AL["Orb of Translocation"] = "Orb of Translocation";	-- Need translation
-	AL["Portal Destinations"] = "Portal Destinations";	-- Need translation
-	AL["Portals"] = "Portals";				-- Need translation
-	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
-	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Legend"] = "Leyenda";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Orbe de traslado";	
+	AL["Portal Destinations"] = "Destinos de los portales";
+	AL["Portals"] = "Portales";				
+	AL["Portal / Waygate Path to the destination"] = "Portal / Puerta con destino";
+	AL["Ship / Zeppelin sailing path to destination"] = "Barco / Velero Zepelín con destino";
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Requiere honorable con la facción Guardia del cielo Sha'tari";
-	AL["Seahorse"] = "Seahorse";				-- Need translation
+	AL["Seahorse"] = "Cabllito de mar";				
 	AL["South of the path along Lake Elune'ara"] = "Sur del camino a Lago Elune'ara";
-	AL["Taxi Nodes"] = "Taxi Nodes";			-- Need translation
+	AL["Taxi Nodes"] = "Paradas de Taxi";			
 	AL["Transportation Maps"] = "Mapas de Transportes";
 	AL["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
-	AL["Zeppelin Towers"] = "Zeppelin Airports";		-- Need translation
+	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
 
 end

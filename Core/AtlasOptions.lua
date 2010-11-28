@@ -101,7 +101,7 @@ function AtlasOptions_OnLoad(panel)
 	panel.default = AtlasOptions_Reset;
 	InterfaceOptions_AddCategory(panel);
 	if (LibStub:GetLibrary("LibAboutPanel", true)) then
-		LibStub("LibAboutPanel").new(ATLAS_TITLE, "Atlas");
+		LibStub("LibAboutPanel").new("Atlas", "Atlas");
 	end
 end
 

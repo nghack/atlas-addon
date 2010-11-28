@@ -41,6 +41,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "Sud du chemin du lac d'Elune'ara";
 	AL["Taxi Nodes"] = "Nœuds de transports";
 	AL["Transportation Maps"] = "Cartes des Transports";
+	AL["Transporter"] = "Transporteur";
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
 	AL["Zeppelin Towers"] = "Tours de Zeppelin";
 	

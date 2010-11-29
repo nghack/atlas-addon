@@ -41,6 +41,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "月神湖南方小徑";
 	AL["Taxi Nodes"] = "飛航點";
 	AL["Transportation Maps"] = "交通網路地圖";
+	AL["Transporter"] = "輸送者";
 	AL["West of the path to Timbermaw Hold"] = "往木喉要塞小徑西方";
 	AL["Zeppelin Towers"] = "飛船空塔";
 

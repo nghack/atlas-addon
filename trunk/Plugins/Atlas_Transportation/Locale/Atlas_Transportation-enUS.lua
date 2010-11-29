@@ -41,7 +41,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "South of the path along Lake Elune'ara";
 	AL["Taxi Nodes"] = "Taxi Nodes";
 	AL["Transportation Maps"] = "Transportation Maps";
-	AL["Transporter"] = "Transporter";
+	AL["Transporter"] = "Transporter";			-- The NPC who can transport you to other place
 	AL["West of the path to Timbermaw Hold"] = "West of the path to Timbermaw Hold";
 	AL["Zeppelin Towers"] = "Zeppelin Towers";
 

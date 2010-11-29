@@ -31,14 +31,14 @@ if AL then
 	AL["Ancient Skull Pile"] = "古老的顱骨堆";
 	AL["Darkscreecher Akkarai"] = "黑暗尖叫者阿卡萊";
 	AL["Gezzarak the Huntress"] = "女獵人吉札拉";
-	AL["Grella <Skyguard Quartermaster>"] = "葛瑞拉";
+	AL["Grella <Skyguard Quartermaster>"] = "葛瑞拉 <禦天者軍需官>";
 	AL["Hazzik"] = "海茲克";
 	AL["Hazzik's Package"] = "海茲克的包裹";
 	AL["Karrog"] = "凱羅格";
 	AL["Outdoor Raid Encounters"] = "戶外首領地圖";
 	AL["Random"] = "隨機";
-	AL["Sahaak <Keeper of Scrolls>"] = "撒哈克";
-	AL["Severin <Skyguard Medic>"] = "瑟弗林";
+	AL["Sahaak <Keeper of Scrolls>"] = "撒哈克 <卷軸看守者>";
+	AL["Severin <Skyguard Medic>"] = "瑟弗林 <禦天者醫療員>";
 	AL["Skull Pile"] = "顱骨堆";
 	AL["Sky Commander Adaris"] = "天空指揮官艾德瑞斯";
 	AL["Sky Sergeant Doryn"] = "天空士官多林";
@@ -51,4 +51,5 @@ if AL then
 	AL["Terokk"] = "泰洛克";
 	AL["Vakkiz the Windrager"] = "『風怒者』瓦奇茲";
 	AL["Graveyard"] = "墓地";
+
 end

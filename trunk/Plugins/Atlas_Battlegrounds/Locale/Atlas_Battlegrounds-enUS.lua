@@ -176,7 +176,7 @@ if AL then
 	-- The Battle for Gilneas
 	AL["Mines"] = "Mines";
 	AL["Lighthouse"] = "Lighthouse";
-	AL["Waterworks"] = "Waterworks";
+--	AL["Waterworks"] = "Waterworks"; -- translated in BabbleSubZone
 
 	-- Tol Barad
 	AL["Attackers"] = "Attackers";

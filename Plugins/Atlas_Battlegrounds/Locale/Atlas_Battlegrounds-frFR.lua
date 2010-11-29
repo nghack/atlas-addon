@@ -145,7 +145,7 @@ if AL then
 	AL["The Docks"] = "Docks";
 	AL["The Workshop"] = "Atelier";
 	AL["The Hangar"] = "Hangar";
-	AL["The Quarry"] = " Carrière";
+	AL["The Quarry"] = "Carrière";
 	AL["Contested Graveyards"] = "Cimetières contestés";
 	AL["Horde Graveyard"] = "Cimetière de la Horde";
 	AL["Alliance Graveyard"] = "Cimetière de l'Alliance";

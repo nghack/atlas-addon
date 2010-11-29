@@ -31,7 +31,7 @@ if AL then
 	AL["Battlegrounds"] = "Champs de bataille";
 	AL["Blue"] = "Bleu "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Dungeon Locations"] = "Emplacements des instances";
-	AL["Green"] = "Green";
+	AL["Green"] = "Vert "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Instances"] = "Instances";
 	AL["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
 

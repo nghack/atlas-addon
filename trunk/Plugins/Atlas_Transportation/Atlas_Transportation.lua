@@ -240,8 +240,8 @@ local myData = {
 		{ "" };
 		{ BLUE..BZ["Tanaris"] };
 		{ WHIT.."35) "..BZ["Gadgetzan"] };
-		{ WHIT.."36) "..BZ["Gunstan's Dig"] };
-		{ WHIT.."37) "..BZ["Bootlegger Outpost"] };
+		{ WHIT.."36) "..BZ["Bootlegger Outpost"] };
+		{ WHIT.."37) "..BZ["Gunstan's Dig"] };
 		{ "" };
 		{ BLUE..BZ["Un'Goro Crater"] };
 		{ WHIT.."38) "..BZ["Marshal's Stand"] };

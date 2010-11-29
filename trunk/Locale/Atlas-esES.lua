@@ -389,10 +389,10 @@ if AL then
 	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Pumzas <Especialista en teletransporte>";
 
 	--Hellfire Citadel (Entrance)
-	AL["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";	-- Needs translation
-	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";	-- Needs translation
-	AL["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";	-- Needs translation
-	AL["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";	-- Needs translation
+	AL["Steps and path to the Blood Furnace"] = "Escaleras y camino hacia Hornos de Sangre";
+	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Camino a Murallas y Salas Arrasadas";
+	AL["Meeting Stone of Magtheridon's Lair"] = "Piedra de encuentro de la Guarida de Magtheridon";
+	AL["Meeting Stone of Hellfire Citadel"] = "Piedra de encuentro de la Ciudadela de Fuego Infernal";
 
 	--Icecrown Citadel (Entrance)
 

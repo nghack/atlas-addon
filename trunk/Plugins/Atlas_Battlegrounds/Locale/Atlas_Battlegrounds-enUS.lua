@@ -174,9 +174,6 @@ if AL then
 	AL["Southwest Graveyard"] = "Southwest Graveyard";
 
 	-- The Battle for Gilneas
-	AL["Mines"] = "Mines";
-	AL["Lighthouse"] = "Lighthouse";
---	AL["Waterworks"] = "Waterworks"; -- translated in BabbleSubZone
 
 	-- Tol Barad
 	AL["Attackers"] = "Attackers";

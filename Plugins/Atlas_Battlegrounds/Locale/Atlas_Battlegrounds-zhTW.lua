@@ -175,9 +175,6 @@ if AL then
 	AL["Southwest Graveyard"] = "西南墓地";
 
 	-- The Battle for Gilneas
-	AL["Mines"] = "地雷";
-	AL["Lighthouse"] = "燈塔";
---	AL["Waterworks"] = "供水設備";
 
 	-- Tol Barad
 	AL["Attackers"] = "攻擊者";

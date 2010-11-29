@@ -174,9 +174,6 @@ if AL then
 	AL["Southwest Graveyard"] = "Südwestlicher Friedhof";
 
 	-- The Battle for Gilneas
-	AL["Mines"] = "Minen";
-	AL["Lighthouse"] = "Lichthaus"; -- needs check
-	AL["Waterworks"] = "Wasserwerke"; -- needs check
 
 	-- Tol Barad
 	AL["Attackers"] = "Angreifer";

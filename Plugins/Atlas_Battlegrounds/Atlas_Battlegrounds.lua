@@ -308,8 +308,8 @@ local myData = {
 		{ BLUE.."A) "..BZ["Gilnean Stronghold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..INDENT..AL["Alliance Graveyard"] };
 		{ BLUE.."B) "..BZ["Horde Landing"].." ("..BF["Horde"]..")" };
-		{ GREN.."1) "..AL["Mines"] };
-		{ GREN.."2) "..AL["Lighthouse"] };
+		{ GREN.."1) "..BZ["Mines"] };
+		{ GREN.."2) "..BZ["Lighthouse"] };
 		{ GREN.."3) "..BZ["Waterworks"] };
 		{ ORNG.."1) "..AL["Horde Graveyard"] };
 		{ ORNG.."2) "..AL["Contested Graveyards"] };

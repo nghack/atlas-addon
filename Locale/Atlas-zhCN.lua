@@ -71,16 +71,22 @@ if AL then
 
 	AL["ATLAS_OPTIONS_BUTTON"] = "设置";
 	AL["ATLAS_OPTIONS_SHOWBUT"] = "在小地图周围显示Atlas图标";
+	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "在小地图旁显示 Atlas 按钮";
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "自动选择副本地图";
+	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可侦测您目前所在的副区域以判定您所在的副本, 开启 Atlas 时将会自动选择到该副本地图";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "图标位置";
 	AL["ATLAS_OPTIONS_TRANS"] = "透明度";
 	AL["ATLAS_OPTIONS_RCLICK"] = "点击右键打开世界地图";
+	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "启用在 Atlas 窗口中按下鼠标右键自动切换到魔兽的世界地图";
 	AL["ATLAS_OPTIONS_RESETPOS"] = "重置位置";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "显示简称";
+	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地图的详尽叙述中显示副本的缩写";
 	AL["ATLAS_OPTIONS_SCALE"] = "窗口大小";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "图标半径";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "使 Atlas 不超出游戏画面";
+	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界";
 	AL["ATLAS_OPTIONS_CTRL"] = "弹出工具说明 (按住CTRL指向内容)";
+	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾选后, 当鼠标移到地图信息字段时, 按下 Ctrl 控制键, 则会将信息的完整信息以提示型态显示. 当信息过长而被截断时很有用.";
 
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
@@ -97,18 +103,21 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "45-60 级副本";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "60-70 级副本";
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "70-80 级副本";
-	AL["ATLAS_DDL_LEVEL_80PLUS"] = "80 级以上副本";
+	AL["ATLAS_DDL_LEVEL_80TO85"] = "80-85 级副本";
+	AL["ATLAS_DDL_LEVEL_85PLUS"] = "85 级以上副本";
 	AL["ATLAS_DDL_PARTYSIZE"] = "副本规模";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 (第一页)";
-	AL["ATLAS_DDL_PARTYSIZE_5_FZ"] = "5 人副本 (第二页)";
-	AL["ATLAS_DDL_PARTYSIZE_10_AQ"] = "10 人副本 (第一页)";
-	AL["ATLAS_DDL_PARTYSIZE_10_RZ"] = "10 人副本 (第二页)";
+	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 (第二页)";
+	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "5 人副本 (第三页)";
+	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "10 人副本 (第一页)";
+	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "10 人副本 (第二页)";
 	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "20-40 人副本";
 	AL["ATLAS_DDL_EXPANSION"] = "资料片";
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "旧世界副本 (第一页)";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "旧世界副本 (第二页)";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "《燃烧的远征》副本";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "《巫妖王之怒》副本";
+	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大灾变》副本";
 	AL["ATLAS_DDL_TYPE"] = "类型";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "副本 (第一页)";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 (第二页)";
@@ -128,6 +137,12 @@ if AL then
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
+	--Common strings
+	AL["East"] = "东";
+	AL["North"] = "北";
+	AL["South"] = "南";
+	AL["West"] = "西";
+
 	--World Events, Festival
 	AL["Brewfest"] = "美酒节";
 	AL["Hallow's End"] = "万圣节";
@@ -137,18 +152,13 @@ if AL then
 	--Misc strings
 	AL["Adult"] = "成年";
 	AL["AKA"] = "亦作";
-	AL["Alliance"] = "联盟";
 	AL["Arcane Container"] = "奥术容器";
-	AL["Argent Dawn"] = "银色黎明";
-	AL["Argent Crusade"] = "银色远征军";
 	AL["Arms Warrior"] = "武器战士";
 	AL["Attunement Required"] = "需要完成入口任务";
 	AL["Back"] = "后门";
 	AL["Basement"] = "底层";
-	AL["Bat"] = "蝙蝠";
 	AL["Blacksmithing Plans"] = "锻造设计图";
 	AL["Boss"] = "首领";
-	AL["Brazier of Invocation"] = "符咒火盆";
 	AL["Chase Begins"] = "追捕开始";
 	AL["Chase Ends"] = "追捕结束";
 	AL["Child"] = "幼年";
@@ -167,7 +177,6 @@ if AL then
 	AL["Heroic"] = "英雄模式";
 	AL["Holy Paladin"] = "神圣圣骑士";
 	AL["Holy Priest"] = "神圣牧师";
-	AL["Horde"] = "部落";
 	AL["Hunter"] = "猎人";
 	AL["Imp"] = "小鬼";
 	AL["Inside"] = "内部";
@@ -181,13 +190,11 @@ if AL then
 	AL["Orange"] = "橙色";
 	AL["Outside"] = "室外";
 	AL["Paladin"] = "圣骑士";
-	AL["Panther"] = "猎豹";
 	AL["Portal"] = "传送";
 	AL["Priest"] = "牧师";
 	AL["Protection Warrior"] = "防护战士";
 	AL["Purple"] = "紫色";
 	AL["Random"] = "随机";
-	AL["Raptor"] = "迅猛龙";
 	AL["Rare"] = "稀有";
 	AL["Reputation"] = "阵营";
 	AL["Repair"] = "修理";
@@ -198,16 +205,13 @@ if AL then
 	AL["Shadow Priest"] = "暗影牧师";
 	AL["Shaman"] = "萨满祭司";
 	AL["Side"] = "旁门";
-	AL["Snake"] = "毒蛇";
 	AL["Spawn Point"] = "刷新点";
-	AL["Spider"] = "蜘蛛";
 	AL["Start"] = "起始";
 	AL["Summon"] = "召唤";
 	AL["Teleporter"] = "传送";
 	AL["Third Stop"] = "第三次止步";
 	AL["Tiger"] = "猛虎";
 	AL["Top"] = "顶层";
-	AL["Undead"] = "亡灵";
 	AL["Underwater"] = "水下";
 	AL["Unknown"] = "未知";
 	AL["Upper"] = "上层";
@@ -252,7 +256,6 @@ if AL then
 	AL["VC"] = "VC"; -- The Deadmines
 	AL["WC"] = "WC"; -- Wailing Caverns
 	AL["ZF"] = "ZF"; -- Zul'Farrak
-	AL["ZG"] = "ZG"; -- Zul'Gurub
 
 	--BC Acronyms
 	AL["AC"] = "AC"; -- Auchenai Crypts
@@ -266,7 +269,6 @@ if AL then
 	AL["CoT2"] = "CoT2"; -- The Black Morass
 	AL["CoT3"] = "CoT3"; -- Hyjal Summit
 	AL["CR"] = "CR"; -- Coilfang Reservoir
-	AL["Eye"] = "Eye"; -- The Eye
 	AL["GL"] = "GL"; -- Gruul's Lair
 	AL["HC"] = "HC"; -- Hellfire Citadel
 	AL["Kara"] = "Kara"; -- Karazhan
@@ -293,10 +295,12 @@ if AL then
 	AL["CoT-Strat"] = "CoT-Strat"; -- Culling of Stratholme
 	AL["Crus"] = "Crus, ToC"; -- Trial of the Crusader
 	AL["DTK"] = "DTK"; -- Drak'Tharon Keep
-	AL["FoS"] = "FoS"; AL["FH1"] = "FH1"; -- The Forge of Souls
+	AL["FoS"] = "FoS"; 
+	AL["FH1"] = "FH1"; -- The Forge of Souls
 	AL["Gun"] = "Gun"; -- Gundrak
 	AL["HoL"] = "HoL"; -- Halls of Lightning
-	AL["HoR"] = "HoR"; AL["FH3"] = "FH3"; -- Halls of Reflection
+	AL["HoR"] = "HoR"; 
+	AL["FH3"] = "FH3"; -- Halls of Reflection
 	AL["HoS"] = "HoS"; -- Halls of Stone
  	AL["IC"] = "IC"; -- Icecrown Citadel
 	AL["Nax"] = "Nax"; -- Naxxramas
@@ -304,7 +308,8 @@ if AL then
 	AL["Ocu"] = "Ocu"; -- The Oculus
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
 	AL["OS"] = "OS"; -- The Obsidian Sanctum
-	AL["PoS"] = "PoS"; AL["FH2"] = "FH2"; -- Pit of Saron
+	AL["PoS"] = "PoS"; 
+	AL["FH2"] = "FH2"; -- Pit of Saron
 	AL["RS"] = "RS"; -- The Ruby Sanctum
 	AL["TEoE"] = "TEoE"; -- The Eye of Eternity
 	AL["UK, Keep"] = "UK, Keep"; -- Utgarde Keep
@@ -338,15 +343,11 @@ if AL then
 	AL["Dealer Tariq <Shady Dealer>"] = "商人塔利基 <毒药商>";
 
 	--Blackfathom Deeps (Entrance)
-	--Nothing to translate!
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "伯德雷";
-	AL["Overmaster Pyron"] = "征服者派隆";
-	AL["Lothos Riftwaker"] = "洛索斯·天痕";
-	AL["Franclorn Forgewright"] = "弗兰克罗恩·铸铁";
-	AL["Orb of Command"] = "命令宝珠";
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾军需官 <裂盾军团>";
+	AL["Orb of Command"] = "命令宝珠";
 
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "观察者杰哈恩";
@@ -357,8 +358,8 @@ if AL then
 	AL["Alexston Chrome <Tavern of Time>"] = "阿历克斯顿·克罗姆 <时间旅店>";
 	AL["Yarley <Armorer>"] = "亚尔雷 <护甲商>";
 	AL["Bortega <Reagents & Poison Supplies>"] = "波特加 <材料与毒药商>";
-	AL["Galgrom <Provisioner>"] = "加尔戈罗姆 <供给商人>";
 	AL["Alurmi <Keepers of Time Quartermaster>"] = "艾鲁尔米 <时光守护者军需官>";
+	AL["Galgrom <Provisioner>"] = "加尔戈罗姆 <供给商人>";
 	AL["Zaladormu"] = "扎拉多姆";
 	AL["Soridormi <The Scale of Sands>"] = "索莉多米 <流沙之鳞>";
 	AL["Arazmodu <The Scale of Sands>"] = "阿拉兹姆多 <流沙之鳞>";
@@ -368,9 +369,6 @@ if AL then
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "厄运之池";
 	AL["Dire Maul Arena"] = "厄运之槌竞技场";
-	AL["Mushgog"] = "姆斯高格";
-	AL["Skarr the Unbreakable"] = "无敌的斯卡尔";
-	AL["The Razza"] = "拉扎尔";
 	AL["Elder Mistwalker"] = "迷雾长者";
 
 	--Gnomeregan (Entrance)

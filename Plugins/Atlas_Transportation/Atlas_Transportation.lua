@@ -257,9 +257,9 @@ local myData = {
 		{ WHIT.."44) "..BZ["Talonbranch Glade"] };
 		{ "" };
 		{ BLUE..BZ["Moonglade"] };
-		{ GREN.."45) "..BZ["Nighthaven"].." ("..AL["Druid-only"]..")" };
-		{ WHIT.."46) "..BZ["Moonglade"] };
+		{ WHIT.."45) "..BZ["Moonglade"] };
 		{ WHIT..INDENT.."("..AL["South of the path along Lake Elune'ara"]..")" };
+		{ GREN.."46) "..BZ["Nighthaven"].." ("..AL["Druid-only"]..")" };
 		{ "" };
 		{ BLUE..BZ["Winterspring"] };
 		{ WHIT.."47) "..BZ["Everlook"] };

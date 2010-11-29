@@ -49,6 +49,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "Sur del camino a Lago Elune'ara";
 	AL["Taxi Nodes"] = "Paradas de Taxi";			
 	AL["Transportation Maps"] = "Mapas de Transportes";
+	AL["Transporter"] = "Transporter";			-- The NPC who can transport you to other place  -- Nees translation
 	AL["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
 	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
 

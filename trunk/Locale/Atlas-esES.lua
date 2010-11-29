@@ -253,7 +253,6 @@ if AL then
 	AL["VC"] = "LMM"; --The Deadmines, Las Minas de la Muerte
 	AL["WC"] = "CL"; -- Wailing Caverns, Las Cuevas de los Lamentos
 	AL["ZF"] = "ZF"; -- Zul'Farrak
-	AL["ZG"] = "ZG"; -- Zul'Gurub
 
 	--BC Acronyms
 	AL["AC"] = "CA"; --Criptas Auchenai 
@@ -267,7 +266,6 @@ if AL then
 	AL["CoT2"] = "CdT2"; --La Ciénaga Negra
 	AL["CoT3"] = "CdT3"; --El Monte Hyjal
 	AL["CR"] = "RCT"; --Reserva Colmillo Torcido
-	AL["Eye"] = "Ojo"; --El Ojo"
 	AL["GL"] = "Gruul"; --Guarida de Gruul
 	AL["HC"] = "CFI"; --Ciudadela del Fuego Infernal
 	AL["Kara"] = "Kara";
@@ -294,10 +292,12 @@ if AL then
 	AL["CoT-Strat"] = "Strat, CdT-Strat"; -- Culling of Stratholme
 	AL["Crus"] = "Cruz"; -- Trial of the Crusader
 	AL["DTK"] = "DTK"; -- Drak'Tharon Keep
-	AL["FoS"] = "FdA"; AL["FH1"] = "FH1"; -- The Forge of Souls
+	AL["FoS"] = "FdA"; 
+	AL["FH1"] = "FH1"; -- The Forge of Souls
 	AL["Gun"] = "Gun"; -- Gundrak
 	AL["HoL"] = "CdR"; -- Halls of Lightning
-	AL["HoR"] = "CdR"; AL["FH3"] = "CR3"; -- Halls of Reflection
+	AL["HoR"] = "CdR"; 
+	AL["FH3"] = "CR3"; -- Halls of Reflection
 	AL["HoS"] = "CdP"; -- Halls of Stone
 	AL["IC"] = "CCH"; -- Icecrown Citadel
 	AL["Nax"] = "Nax"; -- Naxxramas	
@@ -305,7 +305,8 @@ if AL then
 	AL["Ocu"] = "Oculus"; -- The Oculus
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
 	AL["OS"] = "SO"; -- The Obsidian Sanctum
-	AL["PoS"] = "FdS"; AL["FH2"] = "CR2"; -- Pit of Saron
+	AL["PoS"] = "FdS"; 
+	AL["FH2"] = "CR2"; -- Pit of Saron
 	AL["RS"] = "SR"; -- The Ruby Sanctum
 	AL["TEoE"] = "OE"; -- The Eye of Eternity
 	AL["UK, Keep"] = "GU, Guarida"; -- Utgarde Keep
@@ -316,6 +317,7 @@ if AL then
 
 	--Zones not included in LibBabble-Zone
 	AL["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
+
 	--Cataclysm Acronyms
 	--AL["AM"] = "AM"; --Abyssal Maw
 	AL["BH"] = "BH"; --Baradin Hold
@@ -331,6 +333,7 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
 	AL["VP"] = "VP"; --The Vortex Pinnacle
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -353,7 +356,6 @@ if AL then
 	AL["Dealer Tariq <Shady Dealer>"] = "Tratante Tariq <Vendedor sospechoso>";
 
 	--Blackfathom Deeps (Entrance)
-	--Nothing to translate!
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Bodley";
@@ -385,6 +387,14 @@ if AL then
 
 	--Gnomeregan (Entrance)
 	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Pumzas <Especialista en teletransporte>";
+
+	--Hellfire Citadel (Entrance)
+	AL["Steps and path to the Blood Furnace"] = "Steps and path to the Blood Furnace";	-- Needs translation
+	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Path to the Hellfire Ramparts and Shattered Halls";	-- Needs translation
+	AL["Meeting Stone of Magtheridon's Lair"] = "Meeting Stone of Magtheridon's Lair";	-- Needs translation
+	AL["Meeting Stone of Hellfire Citadel"] = "Meeting Stone of Hellfire Citadel";	-- Needs translation
+
+	--Icecrown Citadel (Entrance)
 
 	--Karazhan (Entrance)
 	AL["Archmage Leryda"] = "Archimaga Leryda";
@@ -448,7 +458,6 @@ if AL then
 	AL["Spirit of Veng <The Fifth Khan>"] = "Espíritu de Veng <El Quinto kahn>";
 	AL["Spirit of Maraudos <The Fourth Khan>"] = "Espíritu de Maraudos <El Cuarto kahn>";
 	AL["Elder Splitrock"] = "Ancestro Parterroca";
-
 
 	--Ragefire Chasm
 

@@ -310,7 +310,7 @@ local myData = {
 		{ BLUE.."B) "..BZ["Horde Landing"].." ("..BF["Horde"]..")" };
 		{ GREN.."1) "..AL["Mines"] };
 		{ GREN.."2) "..AL["Lighthouse"] };
-		{ GREN.."3) "..AL["Waterworks"] };
+		{ GREN.."3) "..BZ["Waterworks"] };
 		{ ORNG.."1) "..AL["Horde Graveyard"] };
 		{ ORNG.."2) "..AL["Contested Graveyards"] };
 	};

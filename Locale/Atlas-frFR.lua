@@ -24,6 +24,8 @@
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "frFR", false);
+-- Localize file must set above to false, for example:
+--    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 -- Atlas French Localization
 -- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2010
@@ -297,10 +299,12 @@ if AL then
 	AL["CoT-Strat"] = "Strat, CoT-Strat"; -- L'Épuration de Stratholme	
 	AL["Crus"] = "EDC"; -- L'épreuve du croisé
 	AL["DTK"] = "DTK"; -- Donjon de Drak'Tharon
-	AL["FoS"] = "FdA"; AL["FH1"] = "FH1"; -- La Forge des âmes
+	AL["FoS"] = "FdA"; -- La Forge des âmes
+	AL["FH1"] = "FH1"; -- La Forge des âmes
 	AL["Gun"] = "Gun"; -- Gundrak
 	AL["HoL"] = "HoL"; -- Les salles de Foudre
-	AL["HoR"] = "SdR"; AL["FH3"] = "FH3"; -- Salles des Reflets
+	AL["HoR"] = "SdR"; -- Salles des Reflets
+	AL["FH3"] = "FH3"; -- Salles des Reflets
 	AL["HoS"] = "HoS"; -- Les salles de Pierre
 	AL["IC"] = "ICC"; -- Citadelle de la Couronne de glace
 	AL["Nax"] = "Nax"; -- Naxxramas
@@ -308,7 +312,8 @@ if AL then
 	AL["Ocu"] = "Ocu"; -- L'Oculus
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
 	AL["OS"] = "OS"; -- Le sanctum Obsidien
-	AL["PoS"] = "FdS"; AL["FH2"] = "FH2"; -- Fosse de Saron
+	AL["PoS"] = "FdS"; -- Fosse de Saron
+	AL["FH2"] = "FH2"; -- Fosse de Saron
 	AL["RS"] = "SR"; -- Le sanctum Rubis
 	AL["TEoE"] = "Maly"; -- L'Œil de l'éternité	
 	AL["UK, Keep"] = "UK, Keep"; -- Donjon d'Utgarde

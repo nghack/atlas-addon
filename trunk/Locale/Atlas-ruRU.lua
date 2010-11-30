@@ -388,9 +388,9 @@ if AL then
 	AL["Elder Mistwalker"] = "Старейшина Странник Туманов ";
 
 	--Gnomeregan (Entrance)
-	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zapblast <Teleportation Specialist>"; -- Needs translation
+	AL["Torben Zapblast <Teleportation Specialist>"] = "Торбен Запрыгуль <Мастер телепортации>";
 
-	-- Hellfire Citadel (Entrance)
+	--Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "Подъем и путь к Кузне Крови";
 	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Путь к Бастионам и Разрушенным залам";
 	AL["Meeting Stone of Magtheridon's Lair"] = "Камень встреч Логова Магтеридона";
@@ -408,9 +408,9 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "Безымянный пророк";
-	AL["Kolk <The First Kahn>"] = "Колк <Первый хан>";
-	AL["Gelk <The Second Kahn>"] = "Гелк <Второй хан>";
-	AL["Magra <The Third Kahn>"] = "Магра <Третий хан>";
+	AL["Spirit of Kolk <The First Kahn>"] = "Дух Колка <Первый хан>";
+	AL["Spirit of Gelk <The Second Kahn>"] = "Дух Гелкf <Второй хан>";
+	AL["Spirit of Magra <The Third Kahn>"] = "Дух Магра <Третий хан>";
 	AL["Cavindra"] = "Кавиндра";
 
 	--Scarlet Monastery (Entrance)
@@ -432,7 +432,7 @@ if AL then
 	AL["Fathom Stone"] = "Глубинный Камень";
 	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
 	AL["Scout Thaelrid"] = "Страж Талрид";
-	AL["Flaming Eradicator"] = "Flaming Eradicator"; -- Needs translation	
+	AL["Flaming Eradicator"] = "Пылающий искоренитель";
 	AL["Altar of the Deeps"] = "Алтарь пучины";
 	AL["Morridune"] = "Морридан";
 
@@ -505,9 +505,8 @@ if AL then
 	--Blackrock Depths
 	AL["Prison Cell Key"] = "Ключ от тюремной камеры";
 	AL["Jail Break!"] = "Побег!";
-	AL["Jail Break!"] = "Jail Break!";
-	AL["Relic Coffer Key"] = "Relic Coffer Key";
-	AL["Dark Keeper Key"] = "Dark Keeper Key";
+	AL["Relic Coffer Key"] = "Ключ от древнего сундука";
+	AL["Dark Keeper Key"] = "Ключ темного хранителя";
 	AL["The Black Anvil"] = "Черная наковальня";
 	AL["The Vault"] = "Подземелье";
 	AL["Watchman Doomgrip"] = "Сторож Хватка Смерти";
@@ -523,17 +522,17 @@ if AL then
 	AL["Maxwort Uberglint"] = "Максворт Суперблеск";
 	AL["Tinkee Steamboil"] = "Тинки Кипеллер";
 	AL["Yuka Screwspigot <Engineering Supplies>"] = "Юка Крутипроб";
-	AL["Abandonded Mole Machine"] = "Abandonded Mole Machine"; -- Needs translation
-	AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>";
-	AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Kargath Expeditionary Force>";
-	AL["Prospector Seymour <Morgan's Militia>"] = "Prospector Seymour <Morgan's Militia>";
-	AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'blade <Kargath Expeditionary Force>";
-	AL["The Shadowforge Lock"] = "The Shadowforge Lock";
-	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Brightwing <Morgan's Militia>";
-	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierophant Theodora Mulvadania <Kargath Expeditionary Force>";
+	AL["Abandonded Mole Machine"] = "Брошенная буровая установка";
+	AL["Kevin Dawson <Morgan's Militia>"] = "Кевин Доусон <Отряд Морганы>";
+	AL["Lexlort <Kargath Expeditionary Force>"] = "Лекслорт <Каргатский экспедиционный корпус>";
+	AL["Prospector Seymour <Morgan's Militia>"] = "Геолог Сеймур <Отряд Морганы>";
+	AL["Razal'blade <Kargath Expeditionary Force>"] = "Разал'меч <Каргатский экспедиционный корпус>";
+	AL["The Shadowforge Lock"] = "Замок Тенегорна"; --need check
+	AL["Mayara Brightwing <Morgan's Militia>"] = "Майра Светлое Крыло <Отряд Морганы>";
+	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Верховная Жрица Теодора Мальвадания";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Локтос Зловещий Торговец";
 	AL["The Black Forge"] = "Черная Кузня";
-	AL["Shadowforge Brazier"] = "Shadowforge Brazier";
+	AL["Shadowforge Brazier"] = "Жаровня Тенегорна"; --need check
 	AL["Kharan Mighthammer"] = "Каран Могучий Молот";
 	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Командир Гор'шак";
 	AL["Mistress Nagmara"] = "Госпожа Нагмара";
@@ -568,7 +567,7 @@ if AL then
 	AL["Chomper"] = "Чавккер";
 	AL["Blastmaster Emi Shortfuse"] = "Взрывник Ими Фитилюшка";
 	AL["Matrix Punchograph 3005-C"] = "Матричный перфограф 3005-C";
-	AL["Murd Doc <S.A.F.E.>"] = "Мерд-Док <S.A.F.E.>"; --
+	AL["Murd Doc <S.A.F.E.>"] = "Мерд-Док <С.П.А.С.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Звяк Пружиносвист <Инженерные материалы>";
 	AL["The Sparklematic 5200"] = "Чистер 5200!";
 	AL["Mail Box"] = "Почтовый яшик";
@@ -593,8 +592,8 @@ if AL then
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Аптекарь Бакстер <Королевская химическая компания>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "Аптекарь Фрай <Королевская химическая компания>";
-	AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang"; -- Needs translation
-	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont"; -- Needs translation
+	AL["Packleader Ivar Bloodfang"] = "Вожак стаи Ивар Кровавый Клык";
+	AL["Deathstalker Commander Belmont"] = "Командир стражей смерти Бельмонт";
 	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
 
 	--SM: Armory
@@ -619,17 +618,18 @@ if AL then
 	AL["Elder Farwhisper"] = "Старейшина Тихий Шепот";
 	AL["Market Row Postbox"] = "Ключ от почтового ящика в торговом ряду";
 	AL["Crusaders' Square Postbox"] = "Ключ от почтового ящика на Площади рыцарей";
+	
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Ключ от почтового ящика на Площади старейшины";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Lumbering Oaf"; -- Needs translation
-	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine"; -- Needs translation
-	AL["Kagtha"] = "Kagtha"; -- Needs translation
-	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Needs translation
-	AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>"; -- Needs translation
-	AL["Miss Mayhem"] = "Miss Mayhem"; -- Needs translation
-	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe"; -- Needs translation
+	AL["Lumbering Oaf"] = "Болванчик";
+	AL["Lieutenant Horatio Laine"] = "Лейтенант Горацио Лейн";
+	AL["Kagtha"] = "Кагта";
+	AL["Slinky Sharpshiv"] = "Крадли Дротик";
+	AL["Quartermaster Lewis <Quartermaster>"] = "Интендант Льюис <Интендант>";
+	AL["Miss Mayhem"] = "Мисс Кавардак";
+	AL["Vend-O-Tron D-Luxe"] = "Торг-о-трон делюкс";
 
 	--The Stockade
 
@@ -640,9 +640,9 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Посох Древнейшей Истории";
 	AL["Baelog's Chest"] = "Сундук Бейлога";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "High Examiner Tae'thelan Bloodwatcher"; -- Needs translation
-	AL["Lidia Sunglow"] = "Lidia Sunglow"; -- Needs translation
-	AL["Aoren Sunglow"] = "Aoren Sunglow"; -- Needs translation
+	AL["High Examiner Tae'thelan Bloodwatcher"] = "Главный дознаватель Тей'телан Кровавый Взор";
+	AL["Lidia Sunglow"] = "Лидия Солнечное Сияние";
+	AL["Aoren Sunglow"] = "Аорен Солнечное Сияние";
 	AL["Remains of a Paladin"] = "Останки паладина";
 	AL["Ancient Treasure"] = "Древнее сокровище";
 	AL["The Discs of Norgannon"] = "Диски Норганнона";
@@ -884,7 +884,7 @@ if AL then
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
-	AL["Ahn'kahet Brazier"] = "Ан'кахетская жаровня ";
+	AL["Ahn'kahet Brazier"] = "Ан'кахетская жаровня";
 
 	--Azjol-Nerub: Azjol-Nerub
 	AL["Watcher Gashra"] = "Дозорный Гашра";
@@ -970,27 +970,27 @@ if AL then
 	AL["Heroic: Trial of the Grand Crusader"] = "Героик: Испытание великого крестоносца";
 	AL["Cavern Entrance"] = "Вход";
 
-	-- Ulduar General
+	--Ulduar General
 	AL["Celestial Planetarium Key"] = "Ключ к Священному планетарию";
 	AL["The Siege"] = "Осада"; --A
 	AL["The Keepers"] = "Хранители"; --C
 
-	-- Ulduar A
+	--Ulduar A
 	AL["Tower of Life"] = "Башня Жизни";
 	AL["Tower of Flame"] = "Башня Пламени";
 	AL["Tower of Frost"] = "Башня Холода";
 	AL["Tower of Storms"] = "Башня Гроз";
 
-	-- Ulduar B
+	--Ulduar B
 	AL["Prospector Doren"] = "Геолог Дорен";
 	AL["Archivum Console"] = "Панель управления Архивом";
 
 	--Ulduar C
 	AL["Sif"] = "Сиф";
 
-	-- Ulduar D
+	--Ulduar D
 
-	-- Ulduar E
+	--Ulduar E
 
 	--Ulduar: Halls of Lightning
 
@@ -1035,7 +1035,7 @@ if AL then
 	--Halls of Origination
 
 	--Lost City of the Tol'vir
-	AL["Captain Hadan"] = "Captain Hadan";
+	AL["Captain Hadan"] = "Капитан Хадан"; --need check
 
 	--Sulfuron Keep
 

@@ -35,20 +35,21 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "ruRU", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "Death Knight Only";		-- Need translation
-	AL["Druid-only"] = "Только-Друид";
-	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
-	AL["Orb of Translocation"] = "Orb of Translocation";	-- Need translation
-	AL["Portal Destinations"] = "Portal Destinations";	-- Need translation
-	AL["Portals"] = "Portals";				-- Need translation
-	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
-	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
+	AL["Death Knight Only"] = "Только Рыцарю Смерти";
+	AL["Druid-only"] = "Только Друиду";
+	AL["Legend"] = "Легенда";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Шар Транслокации";
+	AL["Portal Destinations"] = "Портал назначения";
+	AL["Portals"] = "Порталы";	
+	AL["Portal / Waygate Path to the destination"] = "Портал / путь по Связующей спирали";
+	AL["Ship / Zeppelin sailing path to destination"] = "Путь Корабля / Цеппелина";
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Требуется Уважение с фракцией Стражи Небес Ша'тар";
-	AL["Seahorse"] = "Seahorse";				-- Need translation
+	AL["Seahorse"] = "Морской конек"; -- Need check
 	AL["South of the path along Lake Elune'ara"] = "Южный путь вдоль Озера Алуне'ара";
-	AL["Taxi Nodes"] = "Taxi Nodes";			-- Need translation
+	AL["Taxi Nodes"] = "Мастера полетов";
 	AL["Transportation Maps"] = "Маршруты полётов";
+	AL["Transporter"] = "Транспорт";			-- The NPC who can transport you to other place
 	AL["West of the path to Timbermaw Hold"] = "Западный путь в Крепость Древобрюхов";
-	AL["Zeppelin Towers"] = "Zeppelin Towers";		-- Need translation
+	AL["Zeppelin Towers"] = "Башни Цеппелинов";
 
 end

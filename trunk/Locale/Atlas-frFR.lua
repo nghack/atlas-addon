@@ -632,7 +632,7 @@ if AL then
 	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	AL["Kagtha"] = "Kagtha"; -- Need translation
 	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Need translation
-	AL["Quartermaster Lewis <Quartermaster>"] = "Intendant Lewis <Intendant>"; -- Need confirmation
+	AL["Quartermaster Lewis <Quartermaster>"] = "Intendant Lewis <Intendant>";
 	AL["Miss Mayhem"] = "Mademoiselle Désordre"; -- Need confirmation
 	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe"; -- Need translation
 

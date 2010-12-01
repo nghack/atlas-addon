@@ -24,6 +24,7 @@ v1.18.0
   - Tol Barad
   - Twin Peaks
 - Revamped and updated all old maps
+- Dungeon Level info updated
 - Introduced LibBabble-Boss, LibBabble-Faction to Atlas
 - Fixed the right-click won't bring up WorldMap issue
 - Fixed minimap Middle-Click won't bring up Atlas Options window

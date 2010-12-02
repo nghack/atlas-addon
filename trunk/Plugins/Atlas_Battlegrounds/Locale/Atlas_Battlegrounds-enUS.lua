@@ -34,6 +34,7 @@ if AL then
 	AL["North"] = "North";
 	AL["Reputation"] = "Reputation";
 	AL["Rescued"] = "Rescued";
+	AL["Span of 5"] = "Span of 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
 	AL["South"] = "South";
 	AL["Start"] = "Start";
 	AL["Summon"] = "Summon";

@@ -25,6 +25,7 @@ v1.18.0
   - Twin Peaks
 - Revamped and updated all old maps
 - Dungeon Level info updated
+- Battleground Level info updated
 - Introduced LibBabble-Boss, LibBabble-Faction to Atlas
 - Fixed the right-click won't bring up WorldMap issue
 - Fixed minimap Middle-Click won't bring up Atlas Options window

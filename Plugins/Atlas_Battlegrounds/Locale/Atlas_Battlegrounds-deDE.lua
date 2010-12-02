@@ -34,6 +34,7 @@ if AL then
 	AL["North"] = "Nord";
 	AL["Reputation"] = "Ruf";
 	AL["Rescued"] = "Gerettet";
+	AL["Span of 5"] = "5er Schritte";
 	AL["South"] = "Süd";
 	AL["Start"] = "Anfang";
 	AL["Summon"] = "Beschwörbar";

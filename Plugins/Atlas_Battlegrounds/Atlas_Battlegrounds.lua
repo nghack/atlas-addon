@@ -43,8 +43,8 @@ local myData = {
 	AlteracValleyNorth = {
 		ZoneName = { BZ["Alterac Valley"].." ("..AL["North"]..", "..BF["Alliance"]..")" };
 		Location = { BZ["Alterac Mountains"] };
-		LevelRange = "51-60 / 61-70 / 71-79 / 80";
-		MinLevel = "51";
+		LevelRange = "45-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "45";
 		PlayerLimit = "40";
 		Acronym = AL["AV"];
 		{ ORNG..AL["Reputation"]..": "..BF["Stormpike Guard"] };
@@ -97,8 +97,8 @@ local myData = {
 	AlteracValleySouth = {
 		ZoneName = { BZ["Alterac Valley"].." ("..AL["South"]..", "..BF["Horde"]..")" };
 		Location = { BZ["Hillsbrad Foothills"] };
-		LevelRange = "51-60 / 61-70 / 71-79 / 80";
-		MinLevel = "51";
+		LevelRange = "45-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "45";
 		PlayerLimit = "40";
 		Acronym = AL["AV"];
 		{ ORNG..AL["Reputation"]..": "..BF["Frostwolf Clan"] };
@@ -134,8 +134,8 @@ local myData = {
 	ArathiBasin = {
 		ZoneName = { BZ["Arathi Basin"] };
 		Location = { BZ["Arathi Highlands"] };
-		LevelRange = "20-29 / 30-39 / 40-49 / 50-59 / 60-69 / 70-79 / 80";
-		MinLevel = "20";
+		LevelRange = "10-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "10";
 		PlayerLimit = "15";
 		Acronym = AL["AB"];
 		{ ORNG..AL["Reputation"]..": "..BF["The League of Arathor"].." ("..BF["Alliance"]..")" };
@@ -151,7 +151,7 @@ local myData = {
 	WarsongGulch = {
 		ZoneName = { BZ["Warsong Gulch"] };
 		Location = { BZ["Ashenvale"].." / "..BZ["Northern Barrens"] };
-		LevelRange = "10-19 / 20-29 / 30-39 / 40-49 / 50-59 / 60-69 / 70-79 / 80";
+		LevelRange = "10-84 ("..AL["Span of 5"]..") / 85";
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Acronym = AL["WSG"];
@@ -163,7 +163,7 @@ local myData = {
 	SilithystMustFlow = {
 		ZoneName = { BZ["Silithus"].." - "..AL["The Silithyst Must Flow"] };
 		--Location = { BZ["Silithus"] };
-		LevelRange = "55-80";
+		LevelRange = "55-85";
 		MinLevel = "55";
 		{ ORNG.."PvP: "..AL["The Silithyst Must Flow"] };
 		{ BLUE.."A) "..BZ["Cenarion Hold"] };
@@ -173,8 +173,8 @@ local myData = {
 	EyeOfTheStorm = {
 		ZoneName = { BZ["Eye of the Storm"] };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "61-69 / 70-79 / 80";
-		MinLevel = "61";
+		LevelRange = "35-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "35";
 		PlayerLimit = "15";
 		Acronym = AL["EotS"];
 		{ BLUE.."A) "..AL["Entrance"].." ("..BF["Alliance"]..")" };
@@ -189,7 +189,7 @@ local myData = {
 	HalaaPvP = {
 		ZoneName = { BZ["Nagrand"].." - "..BZ["Halaa"] };
 		Location = { BZ["Nagrand"] };
-		LevelRange = "64-80";
+		LevelRange = "64-85";
 		MinLevel = "64";
 		{ ORNG.."PvP: "..BZ["Halaa"] };
 		{ GREN.."1) "..BZ["Halaa"] };
@@ -206,7 +206,7 @@ local myData = {
 	HellfirePeninsulaPvP = {
 		ZoneName = { BZ["Hellfire Peninsula"].." - "..AL["Hellfire Fortifications"] };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "58-80";
+		LevelRange = "58-85";
 		MinLevel = "58";
 		{ ORNG.."PvP: "..AL["Hellfire Fortifications"] };
 		{ GREN.."1) "..BZ["The Stadium"] };
@@ -216,7 +216,7 @@ local myData = {
 	TerokkarForestPvP = {
 		ZoneName = { BZ["Terokkar Forest"].." - "..AL["Spirit Towers"] };
 		Location = { BZ["The Bone Wastes"]..", "..BZ["Terokkar Forest"] };
-		LevelRange = "62-80";
+		LevelRange = "62-85";
 		MinLevel = "62";
 		{ ORNG.."PvP: "..BZ["Auchindoun"].." "..AL["Spirit Towers"] };
 		{ GREN.."1) "..AL["Spirit Towers"] };
@@ -224,7 +224,7 @@ local myData = {
 	ZangarmarshPvP = {
 		ZoneName = { BZ["Zangarmarsh"].." - "..BZ["Twin Spire Ruins"] };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "60-80";
+		LevelRange = "60-85";
 		MinLevel = "60";
 		{ ORNG.."PvP: "..BZ["Twin Spire Ruins"] };
 		{ GREN.."1) "..AL["West Beacon"] };
@@ -236,8 +236,8 @@ local myData = {
 	IsleOfConquest = {
 		ZoneName = { BZ["Isle of Conquest"] };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "71-79 / 80";
-		MinLevel = "71";
+		LevelRange = "75-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "75";
 		PlayerLimit = "40";
 		Acronym = AL["IoC"];
 		{ ORNG..AL["Gates are marked with red bars."] };
@@ -257,8 +257,8 @@ local myData = {
 	StrandOfTheAncients = {
 		ZoneName = { BZ["Strand of the Ancients"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "71-79 / 80";
-		MinLevel = "71";
+		LevelRange = "65-84 ("..AL["Span of 5"]..") / 85";
+		MinLevel = "65";
 		PlayerLimit = "15";
 		Acronym = AL["SotA"];
 		{ ORNG..AL["Gates are marked with their colors."] };
@@ -273,7 +273,7 @@ local myData = {
 	WintergraspPvP = {
 		ZoneName = { BZ["Wintergrasp"] };
 		--Location = { BZ["Wintergrasp"] };
-		LevelRange = "73-80";
+		LevelRange = "73-85";
 		MinLevel = "73";
 		{ ORNG.."PvP: "..BZ["Wintergrasp"] };
 		{ BLUE.."A) "..BZ["Wintergrasp Fortress"] };

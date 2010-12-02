@@ -34,6 +34,7 @@ if AL then
 	AL["North"] = "Nord";
 	AL["Reputation"] = "Réputation "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Rescued"] = "Sauvé";
+	AL["Span of 5"] = "par tranche de 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
 	AL["South"] = "Sud";
 	AL["Start"] = "Départ";
 	AL["Summon"] = "Invoqué";

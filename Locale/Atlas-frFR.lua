@@ -28,7 +28,7 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Kiria, Trasher en 2007 / 2010
+-- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2010
 -- Many thanks to all contributors!
 -- $Date$
 -- $Revision$

@@ -43,6 +43,7 @@ if AL then
 	AL["North"] = "Север";
 	AL["Reputation"] = "Реп";
 	AL["Rescued"] = "Спасенный";
+	AL["Span of 5"] = "Диапазон: 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
 	AL["South"] = "Юг";
 	AL["Start"] = "Начало";
 	AL["Summon"] = "Призыв";

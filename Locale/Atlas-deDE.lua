@@ -442,23 +442,23 @@ if AL then
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Eisenborke der Große";
+	AL["Ironbark the Redeemed"] = "Eisenborke der Erlöste";
 
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "Knot Zwingschraub";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "J'eevees Glas";
-	AL["Ancient Equine Spirit"] = "Uralter Pferdegeist";
 	AL["Ferra"] = "Ferra";
 	AL["Pylons"] = "Pylonen";
-	AL["Falrin Treeshaper"] = "Falrin Rankenweber";
-	AL["Lorekeeper Lydros"] = "Hüter des Wissens Lydros";
-	AL["Lorekeeper Javon"] = "Hüter des Wissens Javon";
-	AL["Lorekeeper Kildrath"] = "Hüter des Wissens Kildrath";
-	AL["Lorekeeper Mykos"] = "Hüterin des Wissens Mykos";
-	AL["Shen'dralar Provisioner"] = "Versorger der Shen'dralar";
-	AL["Skeletal Remains of Kariel Winthalus"] = "Die sterblichen Überreste von Kariel Winthalus";
+	AL["Ancient Equine Spirit"] = "Uralter Pferdegeist";
 	AL["Shen'dralar Ancient"] = "Uralte Shen'dralar";
+	AL["Falrin Treeshaper"] = "Falrin Rankenweber";
+	AL["Lorekeeper Lydros"] = "Wissenshüter Lydros";
+	AL["Lorekeeper Javon"] = "Wissenshüter Javon";
+	AL["Lorekeeper Kildrath"] = "Wissenshüter Kildrath";
+	AL["Lorekeeper Mykos"] = "Wissenshüter Mykos";
+	AL["Shen'dralar Provisioner"] = "Versorger der Shen'dralar";
 
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Geist von Veng <Der fünfte Khan>";
@@ -610,7 +610,7 @@ if AL then
 	AL["Pumpkin Shrine"] = "Kürbisschrein";
 
 	--SM: Library
-	AL["Library"] = "Bibliothek"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Bibliothek";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Verschiedene Briefkastenschlüssel";

@@ -175,9 +175,6 @@ AtlasMaps = {
 		{ BLUE.."D) "..BZ["Dire Maul"].." ("..AL["West"]..")", ZONE, 2557 };
 		{ GREN.."1') "..AL["Dire Pool"] };
 		{ GREN.."2') "..AL["Dire Maul Arena"] };
-		{ WHIT..INDENT..BB["Mushgog"].." ("..AL["Random"]..")", NPC, 11447 };
-		{ WHIT..INDENT..BB["Skarr the Unbreakable"].." ("..AL["Random"]..")", NPC, 11498 };
-		{ WHIT..INDENT..BB["The Razza"].." ("..AL["Random"]..")", NPC, 11497 };
 		{ GREN..INDENT..AL["Elder Mistwalker"].." ("..AL["Lunar Festival"]..")", NPC, 15587 };
 	};
 	GnomereganEnt = {
@@ -373,7 +370,7 @@ AtlasMaps = {
 		{ WHIT.."4) "..BB["Alzzin the Wildshaper"], NPC, 11492 };
 		{ GREN.."1') "..BB["Pusillin"].." ("..AL["Chase Begins"]..")", NPC, 14354 };
 		{ GREN.."2') "..BB["Pusillin"].." ("..AL["Chase Ends"]..")", NPC, 14354 };
-		{ GREN.."3') "..AL["Old Ironbark"], NPC, 11491 };
+		{ GREN.."3') "..AL["Old Ironbark"].." / "..AL["Ironbark the Redeemed"] };
 	};
 	DireMaulNorth = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["North"]..")", 2557 };
@@ -383,7 +380,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) "..AL["Library"] };
 		{ WHIT.."1) "..BB["Guard Mol'dar"], NPC, 14326 };
 		{ WHIT.."2) "..BB["Stomper Kreeg"], NPC, 14322 };
 		{ WHIT.."3) "..BB["Guard Fengus"], NPC, 14321 };
@@ -402,10 +398,8 @@ AtlasMaps = {
 		Acronym = AL["DM"];
 		{ ORNG..AL["Key"]..": "..AL["J'eevee's Jar"].." ("..BB["Lord Hel'nurath"]..")", ITEM, 18663 };
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) "..BZ["Dire Maul"].." ("..AL["North"]..")" };
-		{ BLUE.."C-F) "..AL["Connection"] };
+		{ BLUE.."B-E) "..AL["Connection"] };
 		{ WHIT.."1) "..BB["Tendris Warpwood"], NPC, 11489 };
-		{ GREN..INDENT..AL["Ancient Equine Spirit"], NPC, 14566 };
 		{ WHIT.."2) "..BB["Magister Kalendris"], NPC, 11487 };
 		{ WHIT.."3) "..BB["Illyanna Ravenoak"], NPC, 11488 };
 		{ WHIT..INDENT..AL["Ferra"], NPC, 14308 };
@@ -413,16 +407,16 @@ AtlasMaps = {
 		{ ORNG..INDENT..BB["Lord Hel'nurath"].." ("..AL["Summon"]..")", NPC, 14506 };
 		{ WHIT.."5) "..BB["Prince Tortheldrin"], NPC, 11486 };
 		{ GREN.."1') "..AL["Pylons"] };
-		{ GREN.."2') "..AL["Library"] };
+		{ GREN.."2') "..AL["Ancient Equine Spirit"], NPC, 14566 };
+		{ GREN.."3') "..AL["Shen'dralar Ancient"], NPC, 14358 };
+		{ GREN.."4') "..BZ["The Athenaeum"] };
 		{ GREN..INDENT..AL["Falrin Treeshaper"], NPC, 16032 };
 		{ GREN..INDENT..AL["Lorekeeper Lydros"], NPC, 14368 };
 		{ GREN..INDENT..AL["Lorekeeper Javon"], NPC, 14381 };
 		{ GREN..INDENT..AL["Lorekeeper Kildrath"], NPC, 14383 };
 		{ GREN..INDENT..AL["Lorekeeper Mykos"], NPC, 14382 };
 		{ GREN..INDENT..AL["Shen'dralar Provisioner"], NPC, 14371 };
-		{ GREN..INDENT..AL["Skeletal Remains of Kariel Winthalus"], OBJECT, 179544 };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..AL["Shen'dralar Ancient"], NPC, 14358 };
 		{ _RED.."0') "..BB["Tsu'zee"].." ("..AL["Rare"]..")", NPC, 11467 };
 	};
 	Maraudon = {
@@ -715,6 +709,7 @@ AtlasMaps = {
 		{ WHIT.."7) "..BB["Halycon"], NPC, 10220 };
 		{ WHIT..INDENT..BB["Gizrul the Slavener"], NPC, 10268 };
 		{ WHIT.."8) "..BB["Overlord Wyrmthalak"], NPC, 9568 };
+		{ ORNG.."1) "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")", NPC, 9596 };
 		{ GREN.."1') "..AL["Acride <Scarshield Legion>"], NPC, 48292 };
 		{ GREN.."2') "..AL["Warosh <The Cursed>"].." ("..AL["Wanders"]..")", NPC, 10799 };
 		{ GREN..INDENT..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")", NPC, 15560 };
@@ -729,7 +724,6 @@ AtlasMaps = {
 		{ _RED.."0') "..AL["Sixth Mosh'aru Tablet"], OBJECT, 175950 };
 		{ _RED.."0') "..AL["Bijou's Belongings"], OBJECT, 175334 };
 		{ _RED.."0') "..AL["Human Remains"].." ("..AL["Lower"]..")", OBJECT, 176090 };
-		{ _RED.."0') "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")", NPC, 9596 };
 		{ _RED.."0') "..BB["Crystal Fang"].." ("..AL["Rare"]..")", NPC, 10376 };
 		{ _RED.."0') "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")", NPC, 9718 };
 		{ _RED.."0') "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")", NPC, 10263 };

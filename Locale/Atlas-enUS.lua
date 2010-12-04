@@ -435,23 +435,23 @@ if AL then
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Old Ironbark";
+	AL["Ironbark the Redeemed"] = "Ironbark the Redeemed";
 
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "Knot Thimblejack";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "J'eevee's Jar";
-	AL["Ancient Equine Spirit"] = "Ancient Equine Spirit";
 	AL["Ferra"] = "Ferra";
 	AL["Pylons"] = "Pylons";
+	AL["Ancient Equine Spirit"] = "Ancient Equine Spirit";
+	AL["Shen'dralar Ancient"] = "Shen'dralar Ancient";
 	AL["Falrin Treeshaper"] = "Falrin Treeshaper";
 	AL["Lorekeeper Lydros"] = "Lorekeeper Lydros";
 	AL["Lorekeeper Javon"] = "Lorekeeper Javon";
 	AL["Lorekeeper Kildrath"] = "Lorekeeper Kildrath";
 	AL["Lorekeeper Mykos"] = "Lorekeeper Mykos";
 	AL["Shen'dralar Provisioner"] = "Shen'dralar Provisioner";
-	AL["Skeletal Remains of Kariel Winthalus"] = "Skeletal Remains of Kariel Winthalus";	
-	AL["Shen'dralar Ancient"] = "Shen'dralar Ancient";
 
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Spirit of Veng <The Fifth Khan>";
@@ -603,7 +603,7 @@ if AL then
 	AL["Pumpkin Shrine"] = "Pumpkin Shrine";
 
 	--SM: Library
-	AL["Library"] = "Library"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Library";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Various Postbox Keys";

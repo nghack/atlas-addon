@@ -198,7 +198,7 @@ if AL then
 	AL["Protection Warrior"] = "Defensiv Krieger";
 	AL["Purple"] = "Lila";
 	AL["Random"] = "Zufällig";
-	AL["Rare"] = "Rar";
+	AL["Rare"] = "Selten";
 	AL["Reputation"] = "Ruf";
 	AL["Repair"] = "Reparieren";
 	AL["Retribution Paladin"] = "Vergeltungs Paladin";

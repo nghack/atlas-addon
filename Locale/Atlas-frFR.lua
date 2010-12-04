@@ -443,23 +443,23 @@ if AL then
 	
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Vieil Ecorcefer";
-
+	AL["Ironbark the Redeemed"] = "Ecorcefer le Racheté";
+	
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "Noué Dédodevie";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "Bocal de J'eevee";
-	AL["Ancient Equine Spirit"] = "Ancien esprit équin";
 	AL["Ferra"] = "Ferra";
 	AL["Pylons"] = "Pylônes";
+	AL["Ancient Equine Spirit"] = "Ancien esprit équin";
+	AL["Shen'dralar Ancient"] = "Ancienne de Shen'Dralar";
 	AL["Falrin Treeshaper"] = "Falrin Sculpteflore";
 	AL["Lorekeeper Lydros"] = "Gardien du savoir Lydros";
 	AL["Lorekeeper Javon"] = "Gardien du savoir Javon";
 	AL["Lorekeeper Kildrath"] = "Gardien du savoir Kildrath";
 	AL["Lorekeeper Mykos"] = "Gardienne du savoir Mykos";
 	AL["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
-	AL["Skeletal Remains of Kariel Winthalus"] = "Restes squelettiques de Kariel Winthalus";
-	AL["Shen'dralar Ancient"] = "Ancienne de Shen'Dralar";
 	
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Esprit de Veng <Le cinquième Kahn>";
@@ -611,7 +611,7 @@ if AL then
 	AL["Pumpkin Shrine"] = "Sanctuaire Citrouille";
 
 	--SM: Library
-	AL["Library"] = "Bibliothèque"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Bibliothèque";
 		
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Clé des boîtes à lettres";

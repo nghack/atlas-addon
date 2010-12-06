@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -22,12 +23,12 @@
 
 --]]
 
---]]
+--[[
 
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 16/04/2009
+-- Úlltima Actualización (last update): $Date$
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -25,8 +26,6 @@
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- $Date$
--- $Revision$
 -- http://www.dreamgen.cn
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");

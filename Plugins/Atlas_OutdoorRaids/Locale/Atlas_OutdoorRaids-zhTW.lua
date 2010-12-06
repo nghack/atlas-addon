@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -21,7 +22,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- $Id$
+
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "zhTW", false);
 -- Localize file must set above to false, for example:
@@ -51,5 +52,4 @@ if AL then
 	AL["Terokk"] = "泰洛克";
 	AL["Vakkiz the Windrager"] = "『風怒者』瓦奇茲";
 	AL["Graveyard"] = "墓地";
-
 end

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -51,5 +52,4 @@ if AL then
 	AL["Terokk"] = "Terokk";
 	AL["Vakkiz the Windrager"] = "Vakkiz the Windrager";
 	AL["Graveyard"] = "Graveyard";
-
 end

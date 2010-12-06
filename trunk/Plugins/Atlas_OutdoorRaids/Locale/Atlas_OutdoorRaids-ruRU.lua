@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -27,7 +28,7 @@
 -- Atlas Data  (Russian)
 -- Compiled by StingerSoft
 -- stingersoft@gmail.com
--- Last Update: 27.09.2008
+-- Last Update: $Date$
 
 --]]
 

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -27,7 +28,7 @@
 -- Atlas Data  (Russian)
 -- Compiled by StingerSoft
 -- stingersoft@gmail.com
--- Last Update: 27.09.2008
+-- Last Update: $Date$
 
 --]]
 
@@ -40,7 +41,7 @@ if AL then
 	AL["Battlegrounds"] = "Поля сражений";
 	AL["Blue"] = "Синий";
 	AL["Dungeon Locations"] = "Расположение подземелий";
-	AL["Green"] = "Green";
+	AL["Green"] = "Green"; -- Need translation
 	AL["Instances"] = "Инстансы";
 	AL["White"] = "Белый";
 

@@ -13,8 +13,8 @@
 ## Notes-zhCN: 飞行路线图
 ## Notes-zhTW: Atlas 交通網路圖模組
 ## Version: 1.18.0
-## Author: Lothaer, arith, Dynaletik
-## X-Date: December, 2010
+## Author: Lothaer, arith, Dynaletik, Deadca7
+## X-Date: December 7th, 2010
 ## X-credits: Dan Gilbert
 ## X-Email: lothayer@gmail.com
 ## X-Website: http://www.atlasmod.com

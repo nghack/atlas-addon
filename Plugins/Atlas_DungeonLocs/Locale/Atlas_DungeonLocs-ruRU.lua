@@ -41,7 +41,7 @@ if AL then
 	AL["Battlegrounds"] = "Поля сражений";
 	AL["Blue"] = "Синий";
 	AL["Dungeon Locations"] = "Расположение подземелий";
-	AL["Green"] = "Green"; -- Need translation
+	AL["Green"] = "Зеленый";
 	AL["Instances"] = "Инстансы";
 	AL["White"] = "Белый";
 

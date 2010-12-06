@@ -439,23 +439,23 @@ if AL then
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Старик Железной Коры";
+	AL["Ironbark the Redeemed"] = "Железная Кора - отмщенный";
 
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "Уззл Наперстяк";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "Флакон Д'жииви";
-	AL["Ancient Equine Spirit"] = "Дух древнего коня";
 	AL["Ferra"] = "Ферра";
 	AL["Pylons"] = "Опоры";
+	AL["Ancient Equine Spirit"] = "Дух древнего коня";
+	AL["Shen'dralar Ancient"] = "Шен'драларский поставщик";
 	AL["Falrin Treeshaper"] = "Фалрин Садовник";
 	AL["Lorekeeper Lydros"] = "Сказитель Лидрос";
 	AL["Lorekeeper Javon"] = " Сказитель Явон";
 	AL["Lorekeeper Kildrath"] = "Сказитель Килдрат";
 	AL["Lorekeeper Mykos"] = "Сказительница Микос";
 	AL["Shen'dralar Provisioner"] = "Шен'драларский поставщик";
-	AL["Skeletal Remains of Kariel Winthalus"] = "Скелет Кариэля Винтхалуса";
-	AL["Shen'dralar Ancient"] = "Прародительница Шен'дралар";
 
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Дух Венга <Пятый хан>";

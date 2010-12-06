@@ -27,11 +27,7 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "zhTW", false);
 
 -- Atlas Traditional Chinese Localization
--- $Date$
--- $Revision$
-
-
-if ( GetLocale() ==	"zhTW" ) then
+if ( GetLocale() == "zhTW" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
 AtlasSortIgnore = {};
@@ -347,23 +343,23 @@ if AL then
 	AL["Greatfather Aldrimus"] = "大祖父阿爾崔瑪斯";
 	AL["Clarissa"] = "克萊瑞莎";
 	AL["Ramdor the Mad"] = "瘋狂者藍姆多";
-	AL["Horvon the Armorer <Armorsmith>"] = "護甲匠霍沃";
+	AL["Horvon the Armorer <Armorsmith>"] = "護甲匠霍沃 <護甲鍛造師>";
 	AL["Nexus-Prince Haramad"] = "奈薩斯王子哈拉瑪德";
 	AL["Artificer Morphalius"] = "工匠莫法利厄司";
 	AL["Mamdy the \"Ologist\""] = "學家瑪姆迪";
-	AL["\"Slim\" <Shady Dealer>"] = "「史令姆」";
+	AL["\"Slim\" <Shady Dealer>"] = "『瘦子』 <黑市商人>";
 	AL["\"Captain\" Kaftiz"] = "隊長卡夫提茲";
 	AL["Isfar"] = "伊斯法";
 	AL["Field Commander Mahfuun"] = "戰場元帥瑪赫范";
 	AL["Spy Grik'tha"] = "間諜葛瑞克薩";
 	AL["Provisioner Tsaalt"] = "糧食供應者·茲索特";
-	AL["Dealer Tariq <Shady Dealer>"] = "商人塔爾利奎";
+	AL["Dealer Tariq <Shady Dealer>"] = "商人塔爾利奎 <黑市商人>";
 
 	--Blackfathom Deeps (Entrance)
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "布德利";
-	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾軍需官";
+	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾軍需官 <裂盾軍團>";
 	AL["Orb of Command"] = "命令寶珠";
 
 	--Coilfang Reservoir (Entrance)
@@ -371,18 +367,18 @@ if AL then
 	AL["Mortog Steamhead"] = "莫塔格·史提海德";
 
 	--Caverns of Time (Entrance)
-	AL["Steward of Time <Keepers of Time>"] = "時間服務員";
-	AL["Alexston Chrome <Tavern of Time>"] = "艾力克斯頓·科洛米";
-	AL["Yarley <Armorer>"] = "亞利";
-	AL["Bortega <Reagents & Poison Supplies>"] = "伯特卡";
-	AL["Alurmi <Keepers of Time Quartermaster>"] = "阿勒米";
-	AL["Galgrom <Provisioner>"] = "卡葛隆姆";
+	AL["Steward of Time <Keepers of Time>"] = "時間服務員 <時光守望者>";
+	AL["Alexston Chrome <Tavern of Time>"] = "艾力克斯頓·科洛米 <時間酒館>";
+	AL["Yarley <Armorer>"] = "亞利 <護甲商>";
+	AL["Bortega <Reagents & Poison Supplies>"] = "伯特卡 <施法材料和毒藥供應商>";
+	AL["Alurmi <Keepers of Time Quartermaster>"] = "阿勒米 <時光守望者軍需官>";
+	AL["Galgrom <Provisioner>"] = "卡葛隆姆 <物資供應者>";
 	AL["Zaladormu"] = "薩拉多姆";
-	AL["Soridormi <The Scale of Sands>"] = "索芮朵蜜";
-	AL["Arazmodu <The Scale of Sands>"] = "阿拉斯莫杜";
-	AL["Andormu <Keepers of Time>"] = "安杜姆";
-	AL["Nozari <Keepers of Time>"] = "諾札瑞";
-	AL["Anachronos <Keepers of Time>"] = "安納克羅斯";
+	AL["Soridormi <The Scale of Sands>"] = "索芮朵蜜 <流沙之鱗>";
+	AL["Arazmodu <The Scale of Sands>"] = "阿拉斯莫杜 <流沙之鱗>";
+	AL["Andormu <Keepers of Time>"] = "安杜姆 <時光守望者>";
+	AL["Nozari <Keepers of Time>"] = "諾札瑞 <時光守望者>";
+	AL["Anachronos <Keepers of Time>"] = "安納克羅斯 <時光守望者>";
 
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "厄運之池";
@@ -390,7 +386,7 @@ if AL then
 	AL["Elder Mistwalker"] = "霧行長者";
 
 	--Gnomeregan (Entrance)
-	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zapblast <Teleportation Specialist>";  -- Need translation
+	AL["Torben Zapblast <Teleportation Specialist>"] = "托爾班·速轟 <傳送專家>";
 
 	-- Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "通往血熔爐的階梯與通道";
@@ -432,7 +428,7 @@ if AL then
 	--Blackfathom Deeps
 	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
 	AL["Fathom Stone"] = "深淵之石";
-	AL["Lorgalis Manuscript"] = "Lorgalis Manuscript"; -- Need translation
+	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	AL["Scout Thaelrid"] = "斥候塞爾瑞德";
 	AL["Flaming Eradicator"] = "Flaming Eradicator"; -- Need translation	
 	AL["Altar of the Deeps"] = "瑪塞斯特拉祭壇";
@@ -440,23 +436,23 @@ if AL then
 	
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";
+	AL["Ironbark the Redeemed"] = "贖罪的鐵朴";
 	
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "諾特·希姆加克";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "耶維爾的瓶子";
-	AL["Ancient Equine Spirit"] = "上古聖馬之魂";
 	AL["Ferra"] = "費拉";
-	AL["Pylons"] = "塔"; -- Needs review
+	AL["Pylons"] = "水晶塔";
+	AL["Ancient Equine Spirit"] = "上古聖馬之魂";
+	AL["Shen'dralar Ancient"] = "辛德拉古靈";
 	AL["Falrin Treeshaper"] = "法琳·樹形者";
 	AL["Lorekeeper Lydros"] = "博學者萊德羅斯";
 	AL["Lorekeeper Javon"] = "博學者亞沃";
 	AL["Lorekeeper Kildrath"] = "博學者基爾達斯";
 	AL["Lorekeeper Mykos"] = "博學者麥庫斯";
 	AL["Shen'dralar Provisioner"] = "辛德拉聖職者";
-	AL["Skeletal Remains of Kariel Winthalus"] = "卡里爾·溫薩魯斯的骸骨";
-	AL["Shen'dralar Ancient"] = "辛德拉古靈";
 	
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "溫格之靈 <第五可汗>";
@@ -485,9 +481,9 @@ if AL then
 	AL["Safe Room"] = "安全的空間";
 
 	--Temple of Ahn'Qiraj
-	AL["Andorgos <Brood of Malygos>"] = "安多葛斯";
-	AL["Vethsera <Brood of Ysera>"] = "溫瑟拉";
-	AL["Kandrostrasz <Brood of Alexstrasza>"] = "坎多斯特拉茲";
+	AL["Andorgos <Brood of Malygos>"] = "安多葛斯 <瑪里苟斯的後裔>";
+	AL["Vethsera <Brood of Ysera>"] = "溫瑟拉 <伊瑟拉的後裔>";
+	AL["Kandrostrasz <Brood of Alexstrasza>"] = "坎多斯塔茲 <雅立史卓莎的後裔>";
 	AL["Arygos"] = "亞雷戈斯";
 	AL["Caelestrasz"] = "凱雷斯特拉茲";
 	AL["Merithra of the Dream"] = "夢境之龍麥琳瑟拉";
@@ -517,33 +513,33 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "結構圖:戰地修理機器人74A型";
 	AL["Private Rocknot"] = "羅克諾特下士";
 	AL["Summoner's Tomb"] = "召喚者之墓";
-	AL["Jalinda Sprig <Morgan's Militia>"] = "加琳達";
-	AL["Oralius <Morgan's Militia>"] = "奧拉留斯";
-	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "薩特拉克·長齒";
-	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "『神射手』賈拉瑪弗";
+	AL["Jalinda Sprig <Morgan's Militia>"] = "加琳達 <摩根的民兵>";
+	AL["Oralius <Morgan's Militia>"] = "奧拉留斯 <摩根的民兵>";
+	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "薩特拉克·長齒 <卡加斯遠征軍>";
+	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "『神射手』賈拉瑪弗 <卡加斯遠征軍>";
 	AL["Maxwort Uberglint"] = "麥克斯沃特·尤柏格林";
 	AL["Tinkee Steamboil"] = "丁奇·斯迪波爾";
-	AL["Yuka Screwspigot <Engineering Supplies>"] = "尤卡·斯庫比格特";
-	AL["Abandonded Mole Machine"] = "Abandonded Mole Machine"; -- Need translation
-	AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>"; -- Need translation
-	AL["Lexlort <Kargath Expeditionary Force>"] = "雷克斯洛特";
-	AL["Prospector Seymour <Morgan's Militia>"] = "Prospector Seymour <Morgan's Militia>"; -- Need translation
-	AL["Razal'blade <Kargath Expeditionary Force>"] = "拉札布雷德";
+	AL["Yuka Screwspigot <Engineering Supplies>"] = "尤卡·斯庫比格特 <工程學供應商>";
+	AL["Abandonded Mole Machine"] = "棄置的鑽地機";
+	AL["Kevin Dawson <Morgan's Militia>"] = "凱文·多森 <摩根的民兵>";
+	AL["Lexlort <Kargath Expeditionary Force>"] = "雷克斯洛特 <卡加斯遠征軍>";
+	AL["Prospector Seymour <Morgan's Militia>"] = "勘查員希摩爾 <摩根的民兵>";
+	AL["Razal'blade <Kargath Expeditionary Force>"] = "拉札布雷德 <卡加斯遠征軍>";
 	AL["The Shadowforge Lock"] = "暗爐之鎖";
-	AL["Mayara Brightwing <Morgan's Militia>"] = "瑪亞拉·亮翼";
-	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "祭師塞朵拉·穆瓦丹尼";
+	AL["Mayara Brightwing <Morgan's Militia>"] = "瑪亞拉·亮翼 <摩根的民兵>";
+	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "祭師塞朵拉·穆瓦丹尼 <卡加斯遠征軍>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "羅克圖斯·暗契";
 	AL["The Black Forge"] = "黑熔爐";
 	AL["Shadowforge Brazier"] = "暗爐火盆";
 	AL["Kharan Mighthammer"] = "卡蘭·巨錘";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "指揮官哥沙克";
+	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "指揮官哥沙克 <卡加斯遠征軍>";
 	AL["Mistress Nagmara"] = "娜瑪拉小姐";
 	AL["Griz Gutshank <Arena Vendor>"] = "格利茲·易柄";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "烏洛克的貢品堆";
 	AL["Acride <Scarshield Legion>"] = "裂盾滲透者";
-	AL["Warosh <The Cursed>"] = "瓦羅什";
+	AL["Warosh <The Cursed>"] = "瓦羅什 <被詛咒者>";
 	AL["Elder Stonefort"] = "石壘長者";
 	AL["Roughshod Pike"] = "尖銳長矛";
 	AL["Bijou"] = "比修";
@@ -570,7 +566,7 @@ if AL then
 	AL["Blastmaster Emi Shortfuse"] = "爆破專家艾米·短線";
 	AL["Matrix Punchograph 3005-C"] = "矩陣式打孔電腦 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "哮·狼的護腿";
-	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "丁克·鐵哨";
+	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "丁克·鐵哨 <工程學供應商>";
 	AL["The Sparklematic 5200"] = "超級清潔器5200型！";
 	AL["Mail Box"] = "鎖甲箱";
 	AL["Matrix Punchograph 3005-B"] = "矩陣式打孔電腦 3005-B";
@@ -589,12 +585,12 @@ if AL then
 	AL["Secret Chest"] = "舊寶藏箱";
 	AL["Alchemy Lab"] = "煉金實驗室";
 	
-	--Shadowfang Keep
+	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "藥劑師胡默爾 <王冠化學製藥公司>";
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "藥劑師巴克斯特 <王冠化學製藥公司>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
-	AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang"; -- Need translation
+	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
 	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont"; -- Need translation
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 

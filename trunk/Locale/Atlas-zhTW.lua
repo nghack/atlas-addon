@@ -591,7 +591,7 @@ if AL then
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "藥劑師巴克斯特 <王冠化學製藥公司>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
 	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
-	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont"; -- Need translation
+	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特"; -- Need review
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
 	--SM: Armory
@@ -621,8 +621,8 @@ if AL then
 	AL["Elders' Square Postbox"] = "長者廣場郵箱";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Lumbering Oaf"; -- Need translation
-	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine"; -- Need translation
+	AL["Lumbering Oaf"] = "笨重的歐弗";
+	AL["Lieutenant Horatio Laine"] = "何瑞修·萊恩中尉";
 	AL["Kagtha"] = "Kagtha"; -- Need translation
 	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Need translation
 	AL["Quartermaster Lewis <Quartermaster>"] = "軍需官路易斯";

@@ -21,12 +21,13 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
+-- $Id$
 
 --[[
 -- Atlas Localization Data (Russian)
 -- Translated by Nitrogen (Exorsus Guild)
 -- Свежеватель Душ
--- Last Update : 11/4/2008
+-- Last Update : $Date$
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");

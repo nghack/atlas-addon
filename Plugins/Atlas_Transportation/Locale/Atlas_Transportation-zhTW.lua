@@ -28,10 +28,10 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "zhTW", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "僅限死亡騎士";
-	AL["Druid-only"] = "僅限德魯伊";
+	AL["Death Knight Only"] = "僅限死亡騎士";	-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
+	AL["Druid-only"] = "僅限德魯伊";		-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "圖例";				-- The chart's legend, for example, the purple line means the portal's path
-	AL["Orb of Translocation"] = "傳送之門";
+	AL["Orb of Translocation"] = "傳送之門";	-- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portal Destinations"] = "傳送門目的地";
 	AL["Portals"] = "傳送門";
 	AL["Portal / Waygate Path to the destination"] = "傳送門 / 甬道之門傳往目的地的路徑";

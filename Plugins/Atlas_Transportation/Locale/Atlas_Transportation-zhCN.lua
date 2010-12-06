@@ -21,12 +21,10 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
+-- $Id$
 -- Atlas Localization Data (Chinese)
 -- Initial translation by DiabloHu
 -- Version : Chinese (by DiabloHu)
--- $Date$
--- $Revision$
 -- http://ngacn.cc
 
 
@@ -36,7 +34,7 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "zhCN", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "死亡骑士专用";
+	AL["Death Knight Only"] = "死亡骑士专用";	-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
 	AL["Druid-only"] = "德鲁伊专用";
 	AL["Legend"] = "图例";				-- The chart's legend, for example, the purple line means the portal's path
 	AL["Orb of Translocation"] = "传送之门";
@@ -49,6 +47,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "月神湖旁小径的南方";
 	AL["Taxi Nodes"] = "飞航点";
 	AL["Transportation Maps"] = "交通线路图";
+	AL["Transporter"] = "输送者";
 	AL["West of the path to Timbermaw Hold"] = "通往木喉要塞道路的西方";
 	AL["Zeppelin Towers"] = "飞船空塔";
 

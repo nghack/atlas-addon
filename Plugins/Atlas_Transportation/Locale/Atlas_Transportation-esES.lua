@@ -21,13 +21,14 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
+-- $Id$
 
---]]
+--[[
 
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 29/11/2010
+-- Úlltima Actualización (last update): $Date$
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -49,7 +50,7 @@ if AL then
 	AL["South of the path along Lake Elune'ara"] = "Sur del camino a Lago Elune'ara";
 	AL["Taxi Nodes"] = "Paradas de Taxi";			
 	AL["Transportation Maps"] = "Mapas de Transportes";
-	AL["Transporter"] = "Transportador";			-- The NPC who can transport you to other place  -- Nees translation
+	AL["Transporter"] = "Transportador";			-- The NPC who can transport you to other place
 	AL["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
 	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
 

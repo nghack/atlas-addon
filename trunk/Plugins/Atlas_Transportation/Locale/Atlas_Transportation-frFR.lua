@@ -21,17 +21,17 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
+-- $Id$
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_Transportation", "frFR", false);
 -- Localize file must set above to false, for example:
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "Chevalier de la mort seulement";	
-	AL["Druid-only"] = "Druide seulement";
-	AL["Legend"] = "Légende";
-	AL["Orb of Translocation"] = "Orbe de transposition";
+	AL["Death Knight Only"] = "Chevalier de la mort seulement";	-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
+	AL["Druid-only"] = "Druide seulement";				-- Taxi node in Nighthaven, Moonglade which is only for Druid
+	AL["Legend"] = "Légende";					-- The chart's legend, for example, the purple line means the portal's path
+	AL["Orb of Translocation"] = "Orbe de transposition";		- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portal Destinations"] = "Destinations de portail";
 	AL["Portals"] = "Portails";
 	AL["Portal / Waygate Path to the destination"] = "Destination de Portail / Porte de transport";

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -39,7 +40,7 @@ if AL then
 	AL["Battlegrounds"] = "战场";
 	AL["Blue"] = "蓝色";
 	AL["Dungeon Locations"] = "副本分布";
-	AL["Green"] = "Green";
+	AL["Green"] = "绿";
 	AL["Instances"] = "副本地下城";
 	AL["White"] = "白色";
 

@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -21,7 +22,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- $Id$
+
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "zhTW", false);
 -- Localize file must set above to false, for example:
@@ -31,7 +32,7 @@ if AL then
 	AL["Battlegrounds"] = "戰場";
 	AL["Blue"] = "藍";
 	AL["Dungeon Locations"] = "地下城位置";
-	AL["Green"] = "Green";
+	AL["Green"] = "綠";
 	AL["Instances"] = "副本";
 	AL["White"] = "白";
 

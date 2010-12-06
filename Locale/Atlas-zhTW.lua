@@ -650,7 +650,7 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-	AL["Auchenai Key"] = "奧奇奈鑰匙";--omitted from other Auch
+	AL["Auchenai Key"] = "奧奇奈鑰匙";
 	AL["Avatar of the Martyred"] = "馬丁瑞德的化身";
 	AL["D'ore"] = "迪歐瑞";
 
@@ -688,7 +688,7 @@ if AL then
 	AL["Seer Olum"] = "先知歐蘭";
 
 	--CFR: The Slave Pens
-	AL["Reservoir Key"] = "蓄湖之鑰";--omitted from other CR
+	AL["Reservoir Key"] = "蓄湖之鑰";
 	AL["Weeder Greenthumb"] = "威德·綠指";
 	AL["Skar'this the Heretic"] = "異教徒司卡利斯";
 	AL["Naturalist Bite"] = "博物學家·拜特";

@@ -35,7 +35,6 @@ if AL then
 	AL["Green"] = "Green";
 	AL["Instances"] = "Instances";
 	AL["White"] = "White";
-	AL["Green"] = "Green";
 
 	--Zones
 	AL["Crusaders' Coliseum"] = "Crusaders' Coliseum";

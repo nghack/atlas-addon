@@ -1,3 +1,4 @@
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -21,6 +22,10 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
+
+-- Atlas, an instance map browser
+-- Initiator and previous author: Dan Gilbert, loglow@gmail.com
+-- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
 
 function AtlasOptions_Toggle()
 	if InterfaceOptionsFrame:IsVisible() then

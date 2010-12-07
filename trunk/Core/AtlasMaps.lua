@@ -688,6 +688,7 @@ AtlasMaps = {
 		{ _RED.."0') "..AL["Commander Gor'shak <Kargath Expeditionary Force>"], NPC, 9020 };  -- Still there in the old position
 		--{ _RED.."0') "..AL["Griz Gutshank <Arena Vendor>"], NPC, 28225 }; -- He is gone.
 		{ _RED.."0') "..BB["Panzor the Invincible"].." ("..AL["Rare"]..")", NPC, 8923 };
+		--{ _RED.."0') "..AL["Marshal Maxwell"] }; -- Do we need him?
 	};
 	BlackrockSpireLower = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")", 1583 };

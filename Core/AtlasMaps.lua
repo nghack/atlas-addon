@@ -655,6 +655,7 @@ AtlasMaps = {
 		{ WHIT.."14) "..BB["Phalanx"], NPC, 9502 };
 		{ WHIT..INDENT..BB["Plugger Spazzring"], NPC, 9499 };
 		{ GREN..INDENT..AL["Private Rocknot"], NPC, 9503 };
+		{ GREN..INDENT..AL["Mistress Nagmara"], NPC, 9500 }; 
 		{ WHIT.."15) "..BB["Ambassador Flamelash"], NPC, 9156 };
 		{ WHIT.."16) "..AL["Summoner's Tomb"] };
 		{ WHIT.."17) "..BB["Magmus"], NPC, 9938 };
@@ -683,10 +684,9 @@ AtlasMaps = {
 		{ GREN.."10') "..AL["The Black Forge"] };
 		{ GREN.."11') "..AL["Shadowforge Brazier"] };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..AL["Kharan Mighthammer"], NPC, 9021 };
-		{ _RED.."0') "..AL["Commander Gor'shak <Kargath Expeditionary Force>"], NPC, 9020 };
-		{ _RED.."0') "..AL["Mistress Nagmara"], NPC, 9500 };
-		{ _RED.."0') "..AL["Griz Gutshank <Arena Vendor>"], NPC, 28225 };
+		{ _RED.."0') "..AL["Kharan Mighthammer"], NPC, 9021 };  -- Still there in the old position
+		{ _RED.."0') "..AL["Commander Gor'shak <Kargath Expeditionary Force>"], NPC, 9020 };  -- Still there in the old position
+		--{ _RED.."0') "..AL["Griz Gutshank <Arena Vendor>"], NPC, 28225 }; -- He is gone.
 		{ _RED.."0') "..BB["Panzor the Invincible"].." ("..AL["Rare"]..")", NPC, 8923 };
 	};
 	BlackrockSpireLower = {

@@ -1029,9 +1029,9 @@ if AL then
 	--Caverns of Time: War of the Ancients
 
 	--Grim Batol
-	AL["Baleflame"] = "Baleflame";
-	AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
-	AL["Velastrasza"] = "Velastrasza";
+	AL["Baleflame"] = "Пламегон";
+	AL["Farseer Tooranu <The Earthen Ring>"] = "Предсказатель Тоорану <Служители Земли>";
+	AL["Velastrasza"] = "Веластраза";
 
 	--Halls of Origination
 
@@ -1043,10 +1043,10 @@ if AL then
 	--The Bastion of Twilight
 
 	--The Stonecore
-	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
+	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Хранитель земли Изра <Служители Земли>";
 
 	--The Vortex Pinnacle
-	AL["Itesh"] = "Itesh";
+	AL["Itesh"] = "Итеш";
 
 	--Throne of the Four Winds
 

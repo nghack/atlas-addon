@@ -2316,7 +2316,7 @@ AtlasMaps = {
 		Acronym = AL["BWD"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Magmaw"] };
-		{ WHIT.."2) "..BB["Omnitron Defense System"] };
+		{ WHIT.."2) "..BB["Omnotron Defense System"] };
 		{ WHIT.."3) "..BB["Maloriak"] };
 		{ WHIT.."4) "..BB["Atramedes"] };
 		{ WHIT.."5) "..BB["Chimaeron"] };

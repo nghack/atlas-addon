@@ -169,7 +169,8 @@ local myData = {
 		{ CYAN.."64) "..BZ["Sandy Beach"].." ("..AL["Seahorse"]..")" };
 		{ CYAN.."65) "..BZ["Silver Tide Hollow"].." ("..AL["Seahorse"]..")" };
 		{ CYAN.."66) "..BZ["Tranquil Wash"].." ("..AL["Seahorse"]..")" };
-		{ CYAN.."67) "..BZ["Darkbreak Cove"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."67) "..BZ["Voldrin's Hold"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."68) "..BZ["Darkbreak Cove"].." ("..AL["Seahorse"]..")" };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };

@@ -32,8 +32,8 @@ if AL then
 	AL["Death Knight Only"] = "Death Knight Only";		-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
 	AL["Druid-only"] = "Druid-only";			-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path
+	AL["Gryphon"] = "Gryphon";
 	AL["Orb of Translocation"] = "Orb of Translocation";	-- The Orb in Silvermonn City and Ruins of Lordaeron
-	AL["Portal Destinations"] = "Portal Destinations";
 	AL["Portals"] = "Portals";
 	AL["Portal / Waygate Path to the destination"] = "Portal / Waygate Path to the destination";
 	AL["Ship / Zeppelin sailing path to destination"] = "Ship / Zeppelin sailing path to destination";
@@ -44,6 +44,7 @@ if AL then
 	AL["Transportation Maps"] = "Transportation Maps";
 	AL["Transporter"] = "Transporter";			-- The NPC who can transport you to other place
 	AL["West of the path to Timbermaw Hold"] = "West of the path to Timbermaw Hold";
+	AL["Wind Rider"] = "Wind Rider";
 	AL["Zeppelin Towers"] = "Zeppelin Towers";
 
 end

@@ -32,8 +32,8 @@ if AL then
 	AL["Death Knight Only"] = "Nur Todesritter";
 	AL["Druid-only"] = "Nur Druiden";
 	AL["Legend"] = "Legende";
+	AL["Gryphon"] = "Greif";
 	AL["Orb of Translocation"] = "Translokationskugel";
-	AL["Portal Destinations"] = "Portalziele";
 	AL["Portals"] = "Portale";
 	AL["Portal / Waygate Path to the destination"] = "Portal / Torpfad zum Ziel";
 	AL["Ship / Zeppelin sailing path to destination"] = "Schiff / Zeppelinpfad zum Ziel";
@@ -44,6 +44,7 @@ if AL then
 	AL["Transportation Maps"] = "Beförderungsrouten";
 	AL["Transporter"] = "Transporter";
 	AL["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
+	AL["Wind Rider"] = "Windreiter";
 	AL["Zeppelin Towers"] = "Zeppelintürme";
 
 end

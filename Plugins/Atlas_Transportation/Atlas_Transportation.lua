@@ -58,7 +58,7 @@ local myData = {
 		{ PURP.." B) "..BZ["Baradin Base Camp"]..", "..BZ["Tol Barad Peninsula"] };
 		{ PURP.." A') "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
-		{ PURP.." C') "..BZ["Deepholm"] };
+		{ PURP.." C') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["Isle of Quel'Danas"] };
@@ -412,7 +412,7 @@ local myData = {
 		{ _RED..AL["Portals"].." / "..BZ["Waygate"] };
 		{ PURP.." A) "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"] };
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
-		{ PURP.." B') "..BZ["Deepholm"] };
+		{ PURP.." B') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ PURP.." C') "..BZ["Hellscream's Grasp"]..", "..BZ["Tol Barad Peninsula"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." D') "..BZ["Vashj'ir"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." E') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };

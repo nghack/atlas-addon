@@ -187,6 +187,7 @@ if AL then
 	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <Baradin's Wardens>"; --FALTA
 	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Baradin's Wardens>"; --FALTA
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <Hellscream's Reach>"; --FALTA
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <Hellscream's Reach>"; --FALTA
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <Hellscream's Reach>"; --FALTA
 
 	-- Twin Peaks

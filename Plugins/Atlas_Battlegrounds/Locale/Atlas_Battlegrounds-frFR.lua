@@ -181,7 +181,6 @@ if AL then
 	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <Baradin's Wardens>"; -- Need Translation
 	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Baradin's Wardens>"; -- Need Translation
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <Hellscream's Reach>"; -- Need Translation
-	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <Hellscream's Reach>"; -- Need Translation
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <Hellscream's Reach>"; -- Need Translation
 
 	-- Twin Peaks

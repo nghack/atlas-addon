@@ -181,6 +181,7 @@ if AL then
 	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <Baradin's Wardens>";
 	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Baradin's Wardens>";
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <Hellscream's Reach>";
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <Hellscream's Reach>";
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <Hellscream's Reach>";
 
 	-- Twin Peaks

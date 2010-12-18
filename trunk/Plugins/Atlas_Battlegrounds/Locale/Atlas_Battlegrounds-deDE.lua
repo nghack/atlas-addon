@@ -181,6 +181,7 @@ if AL then
 	AL["Commander Stevens <Baradin's Wardens>"] = "Kommandant Stevens <Wächter von Baradin>"; -- needs check
 	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Wächter von Baradin>"; -- needs check
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Kommandant Zanoth <Höllschreis Hand>";
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmeister Razgoth <Höllschreis Hand>";
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Truppenoffizier Lazgar <Höllschreis Hand>";
 
 	-- Twin Peaks

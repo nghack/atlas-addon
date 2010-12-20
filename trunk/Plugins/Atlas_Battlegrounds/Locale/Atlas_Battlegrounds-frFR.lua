@@ -178,11 +178,11 @@ if AL then
 
 	-- Tol Barad
 	AL["Attackers"] = "Attaquants";
-	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <Baradin's Wardens>"; -- Need Translation
-	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Baradin's Wardens>"; -- Need Translation
-	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <Hellscream's Reach>"; -- Need Translation
-	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <Hellscream's Reach>"; -- Need Translation
-	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <Hellscream's Reach>"; -- Need Translation
+	AL["Commander Stevens <Baradin's Wardens>"] = "Commandant Stevens <Gardiens de Baradin>";
+	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergent Parker <Gardiens de Baradin>";
+	AL["Commander Zanoth <Hellscream's Reach>"] = "Commandant Zanoth <Poing de Hurlenfer>";
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Maître de manœuvre Razgoth <Poing de Hurlenfer>";
+	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Sergent-chef Lazgar <Poing de Hurlenfer>";
 
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Wildhammer Longhouse";  -- Need Translation

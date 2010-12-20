@@ -178,10 +178,13 @@ if AL then
 
 	-- Tol Barad
 	AL["Attackers"] = "Angreifer";
-	AL["Commander Stevens <Baradin's Wardens>"] = "Kommandant Stevens <Wächter von Baradin>"; -- needs check
-	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Wächter von Baradin>"; -- needs check
+	AL["Sergeant Parker <Baradin's Wardens>"] = "Unteroffizier Parker <Wächter von Baradin>";
+	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "Unterleutnant Wansworth <Wächter von Baradin>";
+	AL["Commander Stevens <Baradin's Wardens>"] = "Kommandant Stevens <Wächter von Baradin>";
+	AL["Marshal Fallows <Baradin's Wardens>"] = "Marschall Falbs <Wächter von Baradin>";
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Kommandant Zanoth <Höllschreis Hand>";
 	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmeister Razgoth <Höllschreis Hand>";
+	AL["Private Garnoth <Hellscream's Reach>"] = "Gefreiter Garnoth <Höllschreis Hand>";
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Truppenoffizier Lazgar <Höllschreis Hand>";
 
 	-- Twin Peaks

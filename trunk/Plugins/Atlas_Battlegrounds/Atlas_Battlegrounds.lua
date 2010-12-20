@@ -328,10 +328,13 @@ local myData = {
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.."A) "..AL["Attackers"] };
 		{ BLUE.."B) "..BZ["Baradin Hold"] };
-		{ GREN..INDENT..AL["Commander Stevens <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Sergeant Parker <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["2nd Lieutenant Wansworth <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Commander Stevens <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Marshal Fallows <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Commander Zanoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
 		{ GREN..INDENT..AL["Drillmaster Razgoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..AL["Private Garnoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
 		{ GREN..INDENT..AL["Staff Sergeant Lazgar <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
 		{ GREN.."1) "..BZ["Ironclad Garrison"] };
 		{ GREN.."2) "..BZ["Warden's Vigil"] };

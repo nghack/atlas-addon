@@ -2432,8 +2432,8 @@ AtlasMaps = {
 		Acronym = AL["VP"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Itesh"] };
-		{ WHIT.."1) "..BB["Altarius"] };
-		{ WHIT.."2) "..BB["Grand Vizier Ertan"] };
+		{ WHIT.."1) "..BB["Grand Vizier Ertan"] };
+		{ WHIT.."2) "..BB["Altarius"] };
 		{ WHIT.."3) "..BB["Asim al Akir"] };
 	};
 	ThroneOfTheFourWinds = {

@@ -187,10 +187,13 @@ if AL then
 
 	-- Tol Barad
 	AL["Attackers"] = "Attackers";
-	AL["Commander Stevens <Baradin's Wardens>"] = "Командир Стивенс <Защитники Тол Барада>";
 	AL["Sergeant Parker <Baradin's Wardens>"] = "Сержант Паркер <Защитники Тол Барада>";
+	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "Второй лейтенант Вансворт <Защитники Тол Барада>";
+	AL["Commander Stevens <Baradin's Wardens>"] = "Командир Стивенс <Защитники Тол Барада>";
+	AL["Marshal Fallows <Baradin's Wardens>"] = "Маршал Фэллоус <Защитники Тол Барада>";
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Командир Занот <Батальон Адского Крика>";
 	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Военный инструктор Разгот <Батальон Адского Крика>";
+	AL["Private Garnoth <Hellscream's Reach>"] = "Рядовой Гарнот <Батальон Адского Крика>";
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Штаб-сержант Лазгар <Батальон Адского Крика>";
 
 	-- Twin Peaks

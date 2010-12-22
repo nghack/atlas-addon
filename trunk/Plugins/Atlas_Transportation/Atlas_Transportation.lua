@@ -278,8 +278,8 @@ local myData = {
 		{ "" };
 		{ BLUE..BZ["Uldum"] };
 		{ WHIT.."52) "..BZ["Ramkahen"] };
-		{ WHIT.."53) "..BZ["Oasis of Vir'sar"] };
-		{ WHIT.."54) "..BZ["Schnottz's Landing"] };
+		{ WHIT.."53) "..BZ["Schnottz's Landing"] };
+		{ WHIT.."54) "..BZ["Oasis of Vir'sar"] };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
@@ -510,8 +510,8 @@ local myData = {
 		{ "" };
 		{ BLUE..BZ["Uldum"] };
 		{ WHIT.."54) "..BZ["Ramkahen"] };
-		{ WHIT.."55) "..BZ["Oasis of Vir'sar"] };
-		{ WHIT.."56) "..BZ["Schnottz's Landing"] };
+		{ WHIT.."55) "..BZ["Schnottz's Landing"] };
+		{ WHIT.."56) "..BZ["Oasis of Vir'sar"] };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };

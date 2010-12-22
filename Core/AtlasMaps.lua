@@ -2289,6 +2289,8 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["BH"];
+		{ ORNG..AL["Reputation"]..": "..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
+		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Argaloth"] };
 	};
@@ -2378,6 +2380,7 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Captain Hadan"] };
 		{ WHIT.."1) "..BB["General Husam"] };
 		{ WHIT.."2) "..BB["Lockmaw"] };
+		{ WHIT..INDENT..AL["Augh"] };
 		{ WHIT.."3) "..BB["High Prophet Barim"] };
 		{ WHIT.."4) "..BB["Siamat, Lord of South Wind"] };
 	};

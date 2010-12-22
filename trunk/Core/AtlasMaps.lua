@@ -2377,8 +2377,8 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Captain Hadan"] };
 		{ WHIT.."1) "..BB["General Husam"] };
-		{ WHIT.."2) "..BB["High Prophet Barim"] };
-		{ WHIT.."3) "..BB["Lockmaw"] };
+		{ WHIT.."2) "..BB["Lockmaw"] };
+		{ WHIT.."3) "..BB["High Prophet Barim"] };
 		{ WHIT.."4) "..BB["Siamat, Lord of South Wind"] };
 	};
 --[[

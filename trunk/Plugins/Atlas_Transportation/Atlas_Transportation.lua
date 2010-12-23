@@ -58,7 +58,7 @@ local myData = {
 		{ PURP.." B) "..BZ["Baradin Base Camp"]..", "..BZ["Tol Barad Peninsula"] };
 		{ PURP.." C) "..BZ["Highbank"]..", "..BZ["Twilight Highlands"] };
 		{ PURP.." A') "..BZ["Nordrassil"]..", "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
-		{ PURP.." B') "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
+		{ PURP.." B') "..BZ["Ramkahen"]..", "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." D') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ "" };

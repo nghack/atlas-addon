@@ -1056,6 +1056,9 @@ if AL then
 	--Throne of the Four Winds
 
 	--Throne of the Tides
+	AL["Captain Taylor"] = "Kapitän Taylor";
+	AL["Legionnaire Nazgrim"] = "Legionär Nazgrim";
+	AL["Neptulon"] = "Neptulon";
 
 	--Babble strings, remove later
 	--AL["Sulfuron Keep"] = "Sulfuronfestung";

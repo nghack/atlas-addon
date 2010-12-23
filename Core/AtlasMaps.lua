@@ -2458,10 +2458,14 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["ToTT"];
 		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Captain Taylor"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Legionnaire Nazgrim"].." ("..BF["Horde"]..")" };
 		{ BLUE.."B) "..AL["Connection"] };
 		{ WHIT.."1) "..BB["Lady Naz'jar"] };
 		{ WHIT.."2) "..BB["Commander Ulthok"] };
 		{ WHIT.."3) "..BB["Erunak Stonespeaker"].." & "..BB["Mindbender Ghur'sha"] };
 		{ WHIT.."4) "..BB["Ozumat"] };
+		{ GREN..INDENT..AL["Neptulon"] };
+		{ GREN.."1') "..AL["Teleporter"] };
 	};
 };

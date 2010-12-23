@@ -56,9 +56,11 @@ local myData = {
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
 		{ PURP.." B) "..BZ["Baradin Base Camp"]..", "..BZ["Tol Barad Peninsula"] };
-		{ PURP.." A') "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
-		{ PURP.." B') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
-		{ PURP.." C') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
+		{ PURP.." C) "..BZ["Highbank"]..", "..BZ["Twilight Highlands"] };
+		{ PURP.." A') "..BZ["Nordrassil"]..", "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
+		{ PURP.." B') "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
+		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
+		{ PURP.." D') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["Isle of Quel'Danas"] };

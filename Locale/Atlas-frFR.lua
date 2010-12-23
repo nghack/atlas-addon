@@ -1057,6 +1057,9 @@ if AL then
 	--Throne of the Four Winds
 
 	--Throne of the Tides
+	AL["Captain Taylor"] = "Capitaine Taylor";
+	AL["Legionnaire Nazgrim"] = "Légionnaire Nazgrim";
+	AL["Neptulon"] = "Neptulon";
 
 --[[
 -- Cataclysm Zone Names	

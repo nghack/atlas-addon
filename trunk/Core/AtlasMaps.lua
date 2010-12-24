@@ -2319,9 +2319,9 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Magmaw"] };
 		{ WHIT.."2) "..BB["Omnotron Defense System"] };
-		{ WHIT.."3) "..BB["Maloriak"] };
-		{ WHIT.."4) "..BB["Atramedes"] };
-		{ WHIT.."5) "..BB["Chimaeron"] };
+		{ WHIT.."3) "..BB["Chimaeron"] };
+		{ WHIT.."4) "..BB["Maloriak"] };
+		{ WHIT.."5) "..BB["Atramedes"] };
 		{ WHIT.."6) "..BB["Nefarian"] };
 	};
 --[[
@@ -2425,6 +2425,7 @@ AtlasMaps = {
 		{ WHIT.."2) "..BB["Slabhide"] };
 		{ WHIT.."3) "..BB["Ozruk"] };
 		{ WHIT.."4) "..BB["High Priestess Azil"] };
+		{ GREN.."1') "..AL["Teleporter"] };
 	};
 	TheVortexPinnacle = {
 		ZoneName = { BZ["The Vortex Pinnacle"] };

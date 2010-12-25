@@ -430,7 +430,7 @@ if AL then
 	AL["Fathom Stone"] = "深淵之石";
 	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	AL["Scout Thaelrid"] = "斥候塞爾瑞德";
-	AL["Flaming Eradicator"] = "Flaming Eradicator"; -- Need translation	
+	AL["Flaming Eradicator"] = "火焰根除者";
 	AL["Altar of the Deeps"] = "瑪塞斯特拉祭壇";
 	AL["Morridune"] = "莫瑞杜恩";
 	
@@ -591,7 +591,7 @@ if AL then
 	AL["Apothecary Baxter <Crown Chemical Co.>"] = "藥劑師巴克斯特 <王冠化學製藥公司>";
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
 	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
-	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特"; -- Need review
+	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特";
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
 	--SM: Armory
@@ -623,10 +623,10 @@ if AL then
 	--The Deadmines
 	AL["Lumbering Oaf"] = "笨重的歐弗";
 	AL["Lieutenant Horatio Laine"] = "何瑞修·萊恩中尉";
-	AL["Kagtha"] = "Kagtha"; -- Need translation
-	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv"; -- Need translation
+	AL["Kagtha"] = "卡格薩";
+	AL["Slinky Sharpshiv"] = "史琳琪·利刀";
 	AL["Quartermaster Lewis <Quartermaster>"] = "軍需官路易斯";
-	AL["Miss Mayhem"] = "Miss Mayhem"; -- Need translation
+	AL["Miss Mayhem"] = "暴行小姐";
 	AL["Vend-O-Tron D-Luxe"] = "高級自動販賣機";
 	
 	--The Stockade
@@ -638,9 +638,9 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "High Examiner Tae'thelan Bloodwatcher"; -- Needs translation
-	AL["Lidia Sunglow"] = "Lidia Sunglow"; -- Needs translation
-	AL["Aoren Sunglow"] = "Aoren Sunglow"; -- Needs translation
+	AL["High Examiner Tae'thelan Bloodwatcher"] = "高階審查員泰瑟連·血腥看守者";
+	AL["Lidia Sunglow"] = "莉蒂雅·日耀";
+	AL["Aoren Sunglow"] = "安歐連·日耀";
 	AL["Remains of a Paladin"] = "聖騎士的遺體";
 	AL["Ancient Treasure"] = "古代寶藏";
 	AL["The Discs of Norgannon"] = "諾甘農圓盤";
@@ -971,7 +971,7 @@ if AL then
 	-- Ulduar General
 	AL["Celestial Planetarium Key"] = "星穹渾天儀之鑰";
 	AL["The Siege"] = "攻城區";
-	AL["The Keepers"] = "守護者"; --C
+	AL["The Keepers"] = "守護者"
 
 	-- Ulduar A
 	AL["Tower of Life"] = "生命之塔";
@@ -1027,20 +1027,21 @@ if AL then
 
 	--Grim Batol
 	AL["Baleflame"] = "罪火";
-	AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
-	AL["Velastrasza"] = "Velastrasza";
+	AL["Farseer Tooranu <The Earthen Ring>"] = "先知圖拉奴 <陶土議會>";
+	AL["Velastrasza"] = "維菈史卓莎";
 
 	--Halls of Origination
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "哈丹隊長";
+	AL["Augh"] = "奧各";
 
 	--Sulfuron Keep
 
 	--The Bastion of Twilight
 
 	--The Stonecore
-	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
+	AL["Earthwarden Yrsa <The Earthen Ring>"] = "大地守望者伊爾薩 <陶土議會>";
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "伊塔許";
@@ -1048,6 +1049,9 @@ if AL then
 	--Throne of the Four Winds
 
 	--Throne of the Tides
+	AL["Captain Taylor"] = "泰勒隊長";
+	AL["Legionnaire Nazgrim"] = "軍團士兵納茲格寧姆";
+	AL["Neptulon"] = "奈普圖隆";
 
 --[[
 -- Cataclysm Zone Names	

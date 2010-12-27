@@ -179,16 +179,16 @@ if AL then
 
 	-- Tol Barad
 	AL["Attackers"] = "攻擊者";
-	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <巴拉丁鐵衛>";
+	AL["Sergeant Parker <Baradin's Wardens>"] = "派克中士 <巴拉丁鐵衛>";
 	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "2nd Lieutenant Wansworth <巴拉丁鐵衛>";
-	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <巴拉丁鐵衛>";
-	AL["Marshal Fallows <Baradin's Wardens>"] = "Marshal Fallows <Baradin's Wardens>";
+	AL["Commander Stevens <Baradin's Wardens>"] = "指揮官史蒂文斯 <巴拉丁鐵衛>";
+	AL["Marshal Fallows <Baradin's Wardens>"] = "Marshal Fallows <巴拉丁鐵衛>";
 	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <地獄吼先鋒>";
 	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <地獄吼先鋒>";
 	AL["Private Garnoth <Hellscream's Reach>"] = "Private Garnoth <地獄吼先鋒>";
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <地獄吼先鋒>";
 
 	-- Twin Peaks
-	AL["Wildhammer Longhouse"] = "Wildhammer Longhouse";
+	AL["Wildhammer Longhouse"] = "蠻錘長屋";
 	AL["Dragonmaw Clan Compound"] = "Dragonmaw Clan Compound";
 end

@@ -6,6 +6,15 @@ Copyright 2010 Atlas Team (http://atlasmod.com/)
 = Change Log =
 ==============
 
+v1.18.1
+- Translation update
+  - German (Dynaletik)
+  - French (Khiria)
+  - Russian (StingerSoft)
+  - Traditional Chinese (arith)
+- Maps and NPC update for several dungeons and continents
+- Resolve Eastern Kingdom dungeon menu display issue by spliting into two parts
+  
 v1.18.0
 - Prepared Atlas for the Cataclysm Maps
 - Added Baradin Hold

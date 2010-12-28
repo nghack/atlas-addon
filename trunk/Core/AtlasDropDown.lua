@@ -34,10 +34,11 @@ Atlas_DropDownLayouts_Order = {
 	[4] = ATLAS_DDL_EXPANSION;
 	[5] = ATLAS_DDL_TYPE;
 	[ATLAS_DDL_CONTINENT] = {
-		[1] = ATLAS_DDL_CONTINENT_EASTERN;
-		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
-		[3] = ATLAS_DDL_CONTINENT_OUTLAND;
-		[4] = ATLAS_DDL_CONTINENT_NORTHREND;
+		[1] = ATLAS_DDL_CONTINENT_EASTERN1;
+		[2] = ATLAS_DDL_CONTINENT_EASTERN2;
+		[3] = ATLAS_DDL_CONTINENT_KALIMDOR;
+		[4] = ATLAS_DDL_CONTINENT_OUTLAND;
+		[5] = ATLAS_DDL_CONTINENT_NORTHREND;
 	};
 	[ATLAS_DDL_LEVEL] = {
 		[1] = ATLAS_DDL_LEVEL_UNDER45;
@@ -72,7 +73,7 @@ Atlas_DropDownLayouts_Order = {
 
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
-		[ATLAS_DDL_CONTINENT_EASTERN] = {
+		[ATLAS_DDL_CONTINENT_EASTERN1] = {
 			--"AbyssalMaw",
 			"BaradinHold",
 			"BlackrockCaverns",
@@ -90,6 +91,8 @@ Atlas_DropDownLayouts = {
 			"KarazhanStart",
 			"MagistersTerrace",
 			"MoltenCore",
+		},
+		[ATLAS_DDL_CONTINENT_EASTERN2] = {
 			"Scholomance",
 			"ShadowfangKeep",
 			"SMArmory",

@@ -1037,6 +1037,7 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Капитан Хадан"; --need check
+	AL["Augh"] = "Ауг";
 
 	--Sulfuron Keep
 
@@ -1051,6 +1052,9 @@ if AL then
 	--Throne of the Four Winds
 
 	--Throne of the Tides
+	AL["Captain Taylor"] = "Капитан Тейлор";
+	AL["Legionnaire Nazgrim"] = "Легионер Назгрим";
+	AL["Neptulon"] = "Нептулон";
 
 --[[
 -- Cataclysm Zone Names	

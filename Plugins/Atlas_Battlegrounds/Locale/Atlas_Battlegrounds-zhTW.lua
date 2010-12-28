@@ -160,7 +160,7 @@ if AL then
 	AL["Titan Relic"] = "泰坦聖物";
 	AL["Battleground Demolisher"] = "戰場石毀車";
 	AL["Graveyard Flag"] = "墓地旗幟";
-	AL["Resurrection Point"] = "復活術點";
+	AL["Resurrection Point"] = "復活點";
 
 	-- Wintergrasp
 	AL["Fortress Vihecal Workshop (E)"] = "堡壘載具工坊 (東)";
@@ -178,17 +178,17 @@ if AL then
 	-- The Battle for Gilneas
 
 	-- Tol Barad
-	AL["Attackers"] = "攻擊者";
+	AL["Attackers"] = "攻擊方";
 	AL["Sergeant Parker <Baradin's Wardens>"] = "派克中士 <巴拉丁鐵衛>";
-	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "2nd Lieutenant Wansworth <巴拉丁鐵衛>";
+	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "第二中尉文斯沃斯 <巴拉丁鐵衛>";
 	AL["Commander Stevens <Baradin's Wardens>"] = "指揮官史蒂文斯 <巴拉丁鐵衛>";
-	AL["Marshal Fallows <Baradin's Wardens>"] = "Marshal Fallows <巴拉丁鐵衛>";
-	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <地獄吼先鋒>";
-	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <地獄吼先鋒>";
-	AL["Private Garnoth <Hellscream's Reach>"] = "Private Garnoth <地獄吼先鋒>";
-	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <地獄吼先鋒>";
+	AL["Marshal Fallows <Baradin's Wardens>"] = "法洛斯元帥 <巴拉丁鐵衛>";
+	AL["Commander Zanoth <Hellscream's Reach>"] = "指揮官札諾斯 <地獄吼先鋒>";
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "訓練員拉茲苟斯 <地獄吼先鋒>";
+	AL["Private Garnoth <Hellscream's Reach>"] = "士兵卡爾諾斯 <地獄吼先鋒>";
+	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "兵官中士拉茲加爾 <地獄吼先鋒>";
 
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "蠻錘長屋";
-	AL["Dragonmaw Clan Compound"] = "Dragonmaw Clan Compound";
+	AL["Dragonmaw Clan Compound"] = "龍喉氏族營地";
 end

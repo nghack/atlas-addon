@@ -126,7 +126,7 @@ if AL then
 	AL["ATLAS_DEP_MSG1"] = "Atlas 偵測到過期的模組";
 	AL["ATLAS_DEP_MSG2"] = "這些模組已從這個角色被停用";
 	AL["ATLAS_DEP_MSG3"] = "請將這些模組從 AddOns 目錄移除";
-	AL["ATLAS_DEP_OK"] = "Ok";
+	AL["ATLAS_DEP_OK"] = "OK";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

@@ -87,7 +87,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
 	AL["ATLAS_LDB_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
 
-	AL["ATLAS_OPTIONS_CATDD"] = "副本地圖排序方式:";
+	AL["ATLAS_OPTIONS_CATDD"] = "副本地圖分類方式:";
 	AL["ATLAS_DDL_CONTINENT"] = "大陸";
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "東部王國副本";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "卡林多副本";
@@ -101,22 +101,22 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "副本等級介於 80-85";
 	AL["ATLAS_DDL_LEVEL_85PLUS"] = "副本等級大於 85";
 	AL["ATLAS_DDL_PARTYSIZE"] = "隊伍人數";
-	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 A-E";
-	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 F-S";
-	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "5 人副本 T-Z";
-	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "10 人副本 A-N";
-	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "10 人副本 O-Z";
+	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 1/3";
+	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 2/3";
+	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "5 人副本 3/3";
+	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "10 人副本 1/2";
+	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "10 人副本 2/2";
 	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "20-40 人副本";
 	AL["ATLAS_DDL_EXPANSION"] = "資料片";
-	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "舊世界副本 A-O";
-	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "舊世界副本 P-Z";
+	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "舊世界副本 1/2";
+	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "舊世界副本 2/2";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "燃燒的遠征副本";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "巫妖王之怒副本";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "浩劫與重生副本";
 	AL["ATLAS_DDL_TYPE"] = "類型";
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "副本 A-C";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 D-R";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "副本 S-Z";
+	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "副本 1/3";
+	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 2/3";
+	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "副本 3/3";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "入口";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "副本";
@@ -630,6 +630,9 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "高級自動販賣機";
 	
 	--The Stockade
+	AL["Rifle Commander Coe"] = "步槍指揮官寇伊";
+	AL["Warden Thelwater"] = "典獄官塞爾沃特";
+	AL["Nurse Lillian"] = "護士莉蓮";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "伊薩里奧斯領主";

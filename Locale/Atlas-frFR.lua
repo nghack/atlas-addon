@@ -638,6 +638,9 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
 
 	--The Stockade
+	AL["Rifle Commander Coe"] = "Commandant d'infanterie légère Coe";
+	AL["Warden Thelwater"] = "Gardien Thelwater";
+	AL["Nurse Lillian"] = "Infirmière Lillian";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Lord Itharius";

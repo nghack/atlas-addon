@@ -101,6 +101,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Instances de Kalimdor";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Instances de l'Outreterre";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Instances de Norfendre";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Instances du Tréfonds";
 	AL["ATLAS_DDL_LEVEL"] = "Niveau";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances avant Niveau 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Niveau 45-60";

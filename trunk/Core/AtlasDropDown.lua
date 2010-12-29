@@ -39,6 +39,7 @@ Atlas_DropDownLayouts_Order = {
 		[3] = ATLAS_DDL_CONTINENT_KALIMDOR;
 		[4] = ATLAS_DDL_CONTINENT_OUTLAND;
 		[5] = ATLAS_DDL_CONTINENT_NORTHREND;
+		[6] = ATLAS_DDL_CONTINENT_DEEPHOLM;
 	};
 	[ATLAS_DDL_LEVEL] = {
 		[1] = ATLAS_DDL_LEVEL_UNDER45;
@@ -100,7 +101,6 @@ Atlas_DropDownLayouts = {
 			"ScarletMonasteryEnt",
 			"SMGraveyard",
 			"SMLibrary",
-			"TheStonecore",
 			"StratholmeCrusader",
 			"StratholmeGauntlet",
 			"SunwellPlateau",
@@ -201,6 +201,9 @@ Atlas_DropDownLayouts = {
 			"TrialOfTheCrusader",
 			"VaultOfArchavon",
 			"VioletHold",
+		},
+		[ATLAS_DDL_CONTINENT_DEEPHOLM] = {
+			"TheStonecore",
 		},
 	},
 	[ATLAS_DDL_LEVEL] = {

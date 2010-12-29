@@ -100,6 +100,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Instanzen von Kalimdor";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Instanzen der Scherbenwelt";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Instanzen von Nordend";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Instanzen in Tiefenheim";
 	AL["ATLAS_DDL_LEVEL"] = "Stufe";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instanzen unter Stufe 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instanzen Stufe 45-60";

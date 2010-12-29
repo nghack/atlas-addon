@@ -769,10 +769,11 @@ local myData = {
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
 		{ CYAN.."-- : "..AL["Ship / Zeppelin sailing path to destination"] };	
 	};
-	TransMaelstrom = {
+	TransDeepholm = {
 		ZoneName= { BZ["Deepholm"] };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Temple of Earth"] };
+		{ PURP.." B) "..BZ["Therazane's Throne"] };
 		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." B') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ "" };

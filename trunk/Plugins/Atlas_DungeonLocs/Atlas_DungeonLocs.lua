@@ -170,9 +170,9 @@ local myData = {
 		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
 		{ GREN..AL["Green"]..": "..ORNG..AL["Battlegrounds"] };
 	};
-	DLMaelstrom = {
-		ZoneName = { BZ["The Maelstrom"] };
-		{ WHIT.."1) "..BZ["The Stonecore"]..", ".._RED..BZ["Deepholm"] };
+	DLDeepholm = {
+		ZoneName = { BZ["Deepholm"] };
+		{ WHIT.."1) "..BZ["The Stonecore"] };
 	};
 };
 

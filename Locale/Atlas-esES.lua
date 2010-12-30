@@ -34,13 +34,14 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
-AtlasSortIgnore = {"the (.+)"}
+AtlasSortIgnore = {"the (.+)"};
 
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
 	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";
 };
 end
+
 
 if AL then
 --************************************************
@@ -94,6 +95,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Mazmorras de Kalimdor";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Mazmorras de Terrallende";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Mazmorras de Rasganorte";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = ""Mazmorras de Infralar";
 	AL["ATLAS_DDL_LEVEL"] = "Nivel";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Mazmorras de nivel inferior a 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Mazmorras de nivel 45-60";
@@ -437,23 +439,23 @@ if AL then
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Viejo Cortezaférrea";
+	AL["Ironbark the Redeemed"] = "Cortezaférrea el Redimido";
 
 	--Dire Maul (North)
-	AL["Knot Thimblejack"] = "Knot Thimblejack";
+	AL["Knot Thimblejack"] = "Knot Llavededo";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "Jarra de J'eevee";
-	AL["Ancient Equine Spirit"] = "Antiguo espíritu equino";
 	AL["Ferra"] = "Ferra";
 	AL["Pylons"] = "Pilones";
+	AL["Ancient Equine Spirit"] = "Antiguo espíritu equino";
+	AL["Shen'dralar Ancient"] = "Ancestro Shen'dralar";
 	AL["Falrin Treeshaper"] = "Falrin Tallarbol";
 	AL["Lorekeeper Lydros"] = "Tradicionalista Lydros";
 	AL["Lorekeeper Javon"] = "Tradicionalista Javon";
 	AL["Lorekeeper Kildrath"] = "Tradicionalista Kildrath";
 	AL["Lorekeeper Mykos"] = "Tradicionalista Mykos";
 	AL["Shen'dralar Provisioner"] = "Proveedor Shen'dralar";
-	AL["Skeletal Remains of Kariel Winthalus"] = "Restos de Kariel Winthalus";
-	AL["Shen'dralar Ancient"] = "Shen'dralar Ancient"; --FALTA
 
 	--Maraudon	
 	AL["Spirit of Veng <The Fifth Khan>"] = "Espíritu de Veng <El Quinto kahn>";
@@ -631,6 +633,9 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "Vendo-trón Deluxe";
 
 	--The Stockade
+	AL["Rifle Commander Coe"] = "Comandante de rifles Coe";
+	AL["Warden Thelwater"] = "Celador Thelagua";
+	AL["Nurse Lillian"] = "Enfermera Lillian";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Lord Itharius";
@@ -1035,6 +1040,7 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Capitán Hadan";
+	AL["Augh"] = "Augh";
 
 	--Sulfuron Keep
 
@@ -1049,6 +1055,9 @@ if AL then
 	--Throne of the Four Winds
 
 	--Throne of the Tides
+	AL["Captain Taylor"] = "Capitán Taylor";
+	AL["Legionnaire Nazgrim"] = "Legionario Nazgrim";
+	AL["Neptulon"] = "Neptulon";
 
 --[[
 -- Cataclysm Zone Names	

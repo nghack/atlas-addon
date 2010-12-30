@@ -188,6 +188,6 @@ if AL then
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Sergent-chef Lazgar <Poing de Hurlenfer>";
 
 	-- Twin Peaks
-	AL["Wildhammer Longhouse"] = "Wildhammer Longhouse";  -- Need Translation
-	AL["Dragonmaw Clan Compound"] = "Dragonmaw Clan Compound";  -- Need Translation
+	AL["Wildhammer Longhouse"] = "Bastion des Marteaux-hardis";
+	AL["Dragonmaw Clan Compound"] = "Forge des Gueules-de-Dragon";
 end

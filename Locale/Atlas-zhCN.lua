@@ -99,6 +99,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "卡利姆多副本";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "外域副本";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "诺森德副本";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "地深之源副本"; -- Needs review
 	AL["ATLAS_DDL_LEVEL"] = "副本等级";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "45 级以下副本";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "45-60 级副本";
@@ -175,6 +176,7 @@ if AL then
 	AL["Fourth Stop"] = "第四次止步";
 	AL["Front"] = "前门";
 	AL["Ghost"] = "幽灵";
+	AL["Graveyard"] = "墓地";
 	AL["Heroic"] = "英雄模式";
 	AL["Holy Paladin"] = "神圣圣骑士";
 	AL["Holy Priest"] = "神圣牧师";
@@ -185,6 +187,7 @@ if AL then
 	AL["Lower"] = "下层";
 	AL["Mage"] = "法师";
 	AL["Meeting Stone"] = "集合石";
+	AL["Middle"] = "中间";
 	AL["Monk"] = "僧侣";
 	AL["Moonwell"] = "月亮井";
 	AL["Optional"] = "可跳过";
@@ -366,6 +369,7 @@ if AL then
 	AL["Arazmodu <The Scale of Sands>"] = "阿拉兹姆多 <流沙之鳞>";
 	AL["Andormu <Keepers of Time>"] = "安多姆 <时光守护者>";
 	AL["Nozari <Keepers of Time>"] = "诺萨莉 <时光守护者>";
+	AL["Anachronos <Keepers of Time>"] = "阿纳克洛斯 <时光守护者>";
 
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "厄运之池";
@@ -373,11 +377,7 @@ if AL then
 	AL["Elder Mistwalker"] = "迷雾长者";
 
 	--Gnomeregan (Entrance)
-	AL["Transpolyporter"] = "传送器";
-	AL["Sprok <Away Team>"] = "斯普洛克 <客队>";
-	AL["Matrix Punchograph 3005-A"] = "矩阵式打孔计算机3005-A";
-	AL["Namdo Bizzfizzle <Engineering Supplies>"] = "纳姆杜 <工程学供应商>";
-	AL["Techbot"] = "尖端机器人";
+	AL["Torben Zapblast <Teleportation Specialist>"] = "托尔班•速轰 <传送专家>"; -- Needs review
 
 	-- Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "通往鲜血熔炉的阶梯与通道";
@@ -385,10 +385,12 @@ if AL then
 	AL["Meeting Stone of Magtheridon's Lair"] = "集合石 - 玛瑟里顿的巢穴";
 	AL["Meeting Stone of Hellfire Citadel"] = "集合石 - 地狱火堡垒";
 
+	--Icecrown Citadel (Entrance)
+
 	--Karazhan (Entrance)
 	AL["Archmage Leryda"] = "大法师蕾尔达";
-	AL["Apprentice Darius"] = "学徒达里乌斯";
 	AL["Archmage Alturus"] = "大法师奥图鲁斯";
+	AL["Apprentice Darius"] = "学徒达里乌斯";
 	AL["Stairs to Underground Pond"] = "通往地下水池的楼梯";
 	AL["Stairs to Underground Well"] = "通往地下水井的楼梯";
 	AL["Charred Bone Fragment"] = "焦骨碎块";
@@ -401,153 +403,65 @@ if AL then
 	AL["Cavindra"] = "凯雯德拉";
 
 	--Scarlet Monastery (Entrance)
-	--Nothing to translate!
 
 	--The Deadmines (Entrance)
-	AL["Marisa du'Paige"] = "玛里莎·杜派格";
-	AL["Brainwashed Noble"] = "被洗脑的贵族";
-	AL["Foreman Thistlenettle"] = "工头希斯耐特";
 
 	--Sunken Temple (Entrance)
-	AL["Jade"] = "玉龙";
-	AL["Kazkaz the Unholy"] = "邪恶的卡萨卡兹";
-	AL["Zekkis"] = "泽基斯";
-	AL["Veyzhak the Cannibal"] = "食尸者维萨克";
 
 	--Uldaman (Entrance)
-	AL["Hammertoe Grez"] = "铁趾格雷兹";
-	AL["Magregan Deepshadow"] = "马格雷甘·深影";
-	AL["Tablet of Ryun'Eh"] = "雷乌纳石板";
-	AL["Krom Stoutarm's Chest"] = "克罗姆·粗臂的箱子";
-	AL["Garrett Family Chest"] = "加勒特的宝箱";
-	AL["Digmaster Shovelphlange"] = "挖掘专家舒尔弗拉格";
 
 	--Wailing Caverns (Entrance)
-	AL["Mad Magglish"] = "疯狂的马格利什";
-	AL["Trigore the Lasher"] = "鞭笞者特里高雷";
-	AL["Boahn <Druid of the Fang>"] = "博艾恩 <尖牙德鲁伊>";
-	AL["Above the Entrance:"] = "入口上方: ";
-	AL["Ebru <Disciple of Naralex>"] = "厄布鲁 <纳拉雷克斯的信徒>";
-	AL["Nalpak <Disciple of Naralex>"] = "纳尔帕克 <纳拉雷克斯的信徒>";
-	AL["Kalldan Felmoon <Specialist Leatherworking Supplies>"] = "卡尔丹·暗月 <特殊制皮物资>";
-	AL["Waldor <Leatherworking Trainer>"] = "瓦多尔 <制皮训练师>";
 
 --************************************************
 -- Kalimdor Instances (Classic)
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Ghamoo-ra"] = "加摩拉";
-	AL["Lorgalis Manuscript"] = "潮湿的便笺";
-	AL["Lady Sarevess"] = "萨利维丝";
-	AL["Argent Guard Thaelrid <The Argent Dawn>"] = "银月守卫塞尔瑞德 <银色黎明>";
-	AL["Gelihast"] = "格里哈斯特";
 	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
-	AL["Lorgus Jett"] = "洛古斯·杰特";
 	AL["Fathom Stone"] = "深渊之核";
-	AL["Baron Aquanis"] = "阿奎尼斯男爵";
-	AL["Twilight Lord Kelris"] = "梦游者克尔里斯";
-	AL["Old Serra'kis"] = "瑟拉吉斯";
-	AL["Aku'mai"] = "阿库迈尔";
-	AL["Morridune"] = "莫瑞杜恩";
+	AL["Lorgalis Manuscript"] = "潮湿的便笺";
+	AL["Scout Thaelrid"] = "斥候塞尔瑞德"; -- Needs review
+	AL["Flaming Eradicator"] = "火焰根除者"; -- Needs review
 	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
-	
+	AL["Morridune"] = "莫瑞杜恩";
+
 	--Dire Maul (East)
-	AL["Pusillin"] = "普希林";
-	AL["Zevrim Thornhoof"] = "瑟雷姆·刺蹄";
-	AL["Hydrospawn"] = "海多斯博恩";
-	AL["Lethtendris"] = "雷瑟塔帝丝";
-	AL["Pimgib"] = "匹姆吉布";
 	AL["Old Ironbark"] = "埃隆巴克";
-	AL["Alzzin the Wildshaper"] = "奥兹恩";
-	AL["Isalien"] = "伊萨莉恩";
+	AL["Ironbark the Redeemed"] = "赎罪的埃隆巴克";
 	
 	--Dire Maul (North)
-	AL["Crescent Key"] = "月牙钥匙";--omitted from Dire Maul (West)
-	--"Library" omitted from here and DM West because of SM: "Library" duplicate
-	AL["Guard Mol'dar"] = "卫兵摩尔达";
-	AL["Stomper Kreeg <The Drunk>"] = "践踏者克雷格 <醉鬼>";
-	AL["Guard Fengus"] = "卫兵芬古斯";
 	AL["Knot Thimblejack"] = "诺特·希姆加可";
-	AL["Guard Slip'kik"] = "卫兵斯里基克";
-	AL["Captain Kromcrush"] = "克罗卡斯";
-	AL["King Gordok"] = "戈多克大王";
-	AL["Cho'Rush the Observer"] = "观察者克鲁什";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "耶维尔的瓶子";
-	AL["Pylons"] = "水晶塔";
-	AL["Shen'dralar Ancient"] = "辛德拉古灵";
-	AL["Tendris Warpwood"] = "特迪斯·扭木";
-	AL["Ancient Equine Spirit"] = "上古圣马之魂";
-	AL["Illyanna Ravenoak"] = "伊琳娜·暗木";
 	AL["Ferra"] = "费拉";
-	AL["Magister Kalendris"] = "卡雷迪斯镇长";
-	AL["Tsu'zee"] = "苏斯";
-	AL["Immol'thar"] = "伊莫塔尔";
-	AL["Lord Hel'nurath"] = "赫尔努拉斯";
-	AL["Prince Tortheldrin"] = "托塞德林王子";
+	AL["Pylons"] = "水晶塔";
+	AL["Ancient Equine Spirit"] = "上古圣马之魂";
+	AL["Shen'dralar Ancient"] = "辛德拉古灵";
 	AL["Falrin Treeshaper"] = "法尔林·树影";
 	AL["Lorekeeper Lydros"] = "博学者莱德罗斯";
 	AL["Lorekeeper Javon"] = "博学者亚沃";
 	AL["Lorekeeper Kildrath"] = "博学者基尔达斯";
 	AL["Lorekeeper Mykos"] = "博学者麦库斯";
 	AL["Shen'dralar Provisioner"] = "辛德拉圣职者";
-	AL["Skeletal Remains of Kariel Winthalus"] = "卡里尔·温萨鲁斯的骸骨";
 	
 	--Maraudon	
-	AL["Scepter of Celebras"] = "塞雷布拉斯节杖";
 	AL["Veng <The Fifth Khan>"] = "温格 <第五可汗>";
-	AL["Noxxion"] = "诺克赛恩";
-	AL["Razorlash"] = "锐刺鞭笞者";
 	AL["Maraudos <The Fourth Khan>"] = "玛劳杜斯 <第四可汗>";
-	AL["Lord Vyletongue"] = "维利塔恩";
-	AL["Meshlok the Harvester"] = "收割者麦什洛克";
-	AL["Celebras the Cursed"] = "被诅咒的塞雷布拉斯";
-	AL["Landslide"] = "兰斯利德";
-	AL["Tinkerer Gizlock"] = "工匠吉兹洛克";
-	AL["Rotgrip"] = "洛特格里普";
-	AL["Princess Theradras"] = "瑟莱德丝公主";
 	AL["Elder Splitrock"] = "碎石长者";
 	
 	--Ragefire Chasm
-	AL["Maur Grimtotem"] = "玛尔·恐怖图腾";
-	AL["Oggleflint <Ragefire Chieftain>"] = "奥格弗林特 <怒焰酋长>";
-	AL["Taragaman the Hungerer"] = "饥饿者塔拉加曼";
-	AL["Jergosh the Invoker"] = "祈求者耶戈什";
-	AL["Zelemar the Wrathful"] = "愤怒者塞雷玛尔";
-	AL["Bazzalan"] = "巴扎兰";
 	
 	--Razorfen Downs
-	AL["Tuten'kash"] = "图特卡什";
-	AL["Henry Stern"] = "亨利·斯特恩";
 	AL["Belnistrasz"] = "奔尼斯特拉兹";
-	AL["Sah'rhee"] = "萨哈斯";
-	AL["Mordresh Fire Eye"] = "火眼莫德雷斯";
-	AL["Glutton"] = "暴食者";
-	AL["Ragglesnout"] = "拉戈斯诺特";
-	AL["Amnennar the Coldbringer"] = "寒冰之王亚门纳尔";
-	AL["Plaguemaw the Rotting"] = "腐烂的普雷莫尔";
 	
 	--Razorfen Kraul
-	AL["Roogug"] = "鲁古格";
-	AL["Aggem Thorncurse <Death's Head Prophet>"] = "阿格姆 <亡首预言者>";
-	AL["Death Speaker Jargba <Death's Head Captain>"] = "亡语者贾格巴 <亡首队长>";
-	AL["Overlord Ramtusk"] = "主宰拉姆塔斯";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
-	AL["Agathelos the Raging"] = "暴怒的阿迦赛罗斯";
-	AL["Blind Hunter"] = "盲眼猎手";
-	AL["Charlga Razorflank <The Crone>"] = "卡尔加·刺肋 <长者>";
 	AL["Willix the Importer"] = "进口商威利克斯";
 	AL["Heralath Fallowbrook"] = "赫尔拉斯·静水";
-	AL["Earthcaller Halmgar"] = "唤地者哈穆加";
 
 	--Ruins of Ahn'Qiraj
-	AL["Cenarion Circle"] = "塞纳里奥议会";
-	AL["Kurinnaxx"] = "库林纳克斯";
-	AL["Lieutenant General Andorov"] = "安多洛夫中将";
 	AL["Four Kaldorei Elites"] = "卡多雷四精英";
-	AL["General Rajaxx"] = "拉贾克斯将军";
 	AL["Captain Qeez"] = "奎兹上尉";
 	AL["Captain Tuubid"] = "图比德上尉";
 	AL["Captain Drenn"] = "德雷恩上尉";
@@ -555,29 +469,9 @@ if AL then
 	AL["Major Yeggeth"] = "耶吉斯少校";
 	AL["Major Pakkon"] = "帕库少校";
 	AL["Colonel Zerran"] = "泽兰上校";
-	AL["Moam"] = "莫阿姆";
-	AL["Buru the Gorger"] = "吞咽者布鲁";
-	AL["Ayamiss the Hunter"] = "狩猎者阿亚米斯";
-	AL["Ossirian the Unscarred"] = "无疤者奥斯里安";
 	AL["Safe Room"] = "安全房间";
 
 	--Temple of Ahn'Qiraj
-	AL["Brood of Nozdormu"] = "诺兹多姆的子嗣";
-	AL["The Prophet Skeram"] = "预言者斯克拉姆";
-	AL["The Bug Family"] = "虫人家庭";
-	AL["Vem"] = "维姆";
-	AL["Lord Kri"] = "克里勋爵";
-	AL["Princess Yauj"] = "亚尔基公主";
-	AL["Battleguard Sartura"] = "沙尔图拉";
-	AL["Fankriss the Unyielding"] = "顽强的范克瑞斯";
-	AL["Viscidus"] = "维希度斯";
-	AL["Princess Huhuran"] = "哈霍兰公主";
-	AL["Twin Emperors"] = "双子皇帝";
-	AL["Emperor Vek'lor"] = "维克洛尔大帝";
-	AL["Emperor Vek'nilash"] = "维克尼拉斯大帝";
-	AL["Ouro"] = "奥罗";
-	AL["Eye of C'Thun"] = "克苏恩之眼";
-	AL["C'Thun"] = "克苏恩";
 	AL["Andorgos <Brood of Malygos>"] = "安多葛斯 <玛里苟斯的后裔>";
 	AL["Vethsera <Brood of Ysera>"] = "温瑟拉 <伊瑟拉的后裔>";
 	AL["Kandrostrasz <Brood of Alexstrasza>"] = "坎多斯特拉兹 <阿莱克丝塔萨的后裔>";
@@ -587,38 +481,11 @@ if AL then
 	
 	--Wailing Caverns
 	AL["Disciple of Naralex"] = "纳拉雷克斯的信徒";
-	AL["Lord Cobrahn <Fanglord>"] = "考布莱恩 <毒牙之王>";
-	AL["Lady Anacondra <Fanglord>"] = "安娜科德拉 <毒牙之王>";
-	AL["Kresh"] = "克雷什";
-	AL["Lord Pythas <Fanglord>"] = "皮萨斯 <毒牙之王>";
-	AL["Skum"] = "斯卡姆";
-	AL["Lord Serpentis <Fanglord>"] = "瑟芬迪斯 <毒牙之王>";
-	AL["Verdan the Everliving"] = "永生者沃尔丹";
-	AL["Mutanus the Devourer"] = "吞噬者穆坦努斯";
-	AL["Naralex"] = "纳拉雷克斯";
-	AL["Deviate Faerie Dragon"] = "变异精灵龙";
 	
 	--Zul'Farrak
-	AL["Antu'sul <Overseer of Sul>"] = "安图苏尔 <苏尔督军>";
-	AL["Theka the Martyr"] = "殉教者塞卡";
-	AL["Witch Doctor Zum'rah"] = "巫医祖穆拉恩";
-	AL["Zul'Farrak Dead Hero"] = "祖尔法拉克阵亡英雄";
-	AL["Nekrum Gutchewer"] = "耐克鲁姆";
-	AL["Shadowpriest Sezz'ziz"] = "暗影祭司塞瑟斯";
-	AL["Dustwraith"] = "灰尘怨灵";
-	AL["Sergeant Bly"] = "布莱中士";
 	AL["Weegli Blastfuse"] = "维格利";
-	AL["Murta Grimgut"] = "穆尔塔";
 	AL["Raven"] = "拉文";
-	AL["Oro Eyegouge"] = "欧罗·血眼";
-	AL["Sandfury Executioner"] = "沙怒刽子手";
-	AL["Hydromancer Velratha"] = "水占师维蕾萨";
-	AL["Gahz'rilla"] = "加兹瑞拉";
 	AL["Elder Wildmane"] = "蛮鬃长者";
-	AL["Chief Ukorz Sandscalp"] = "乌克兹·沙顶";
-	AL["Ruuzlu"] = "卢兹鲁";
-	AL["Zerillis"] = "泽雷利斯";
-	AL["Sandarr Dunereaver"] = "杉达尔·沙掠者";
 
 --****************************
 -- Eastern Kingdoms Instances (Classic)

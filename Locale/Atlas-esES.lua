@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 28/11/2010
+-- Última Actualización (last update): 31/12/2010
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -95,7 +95,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Mazmorras de Kalimdor";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Mazmorras de Terrallende";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Mazmorras de Rasganorte";
-	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = ""Mazmorras de Infralar";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Mazmorras de Infralar";
 	AL["ATLAS_DDL_LEVEL"] = "Nivel";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Mazmorras de nivel inferior a 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Mazmorras de nivel 45-60";
@@ -401,8 +401,8 @@ if AL then
 
 	--Karazhan (Entrance)
 	AL["Archmage Leryda"] = "Archimaga Leryda";
-	AL["Apprentice Darius"] = "Aprendiz Darius";
 	AL["Archmage Alturus"] = "Archimago Alturus";
+	AL["Apprentice Darius"] = "Aprendiz Darius";
 	AL["Stairs to Underground Pond"] = "Escaleras a Underground Pond";
 	AL["Stairs to Underground Well"] = "Escaleras a Underground Well";
 	AL["Charred Bone Fragment"] = "Trozo de hueso carbonizado";
@@ -933,7 +933,7 @@ if AL then
 	AL["To next map"] = "Al siguiente mapa";
 	AL["From previous map"] = "Desde mapa anterior";
 	AL["Upper Spire"] = "Aguja Superior";
-	AL["Sindragosa <Queen of the Frostbrood>"] = "Sindragosa <Reina de los Razaescarcha>";
+	AL["Sindragosa's Lair"] = "Guarida de Sindragosa";
 	AL["Stinky"] = "Apestoso";
 	AL["Precious"] = "Precioso";
 

@@ -25,7 +25,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 28/11/2010
+-- Última Actualización (last update): 31/12/2010
 
 --]]
 
@@ -41,6 +41,7 @@ if AL then
 	AL["North"] = "Norte";
 	AL["Reputation"] = "Reputación";
 	AL["Rescued"] = "Rescate";
+	AL["Span of 5"] = "Espacio de 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
 	AL["South"] = "Sur";
 	AL["Start"] = "Comienzo";
 	AL["Summon"] = "Invocar";
@@ -184,11 +185,14 @@ if AL then
 
 	-- Tol Barad
 	AL["Attackers"] = "Atacantes";
-	AL["Commander Stevens <Baradin's Wardens>"] = "Commander Stevens <Baradin's Wardens>"; --FALTA
-	AL["Sergeant Parker <Baradin's Wardens>"] = "Sergeant Parker <Baradin's Wardens>"; --FALTA
-	AL["Commander Zanoth <Hellscream's Reach>"] = "Commander Zanoth <Hellscream's Reach>"; --FALTA
-	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Drillmaster Razgoth <Hellscream's Reach>"; --FALTA
-	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Staff Sergeant Lazgar <Hellscream's Reach>"; --FALTA
+	AL["Sergeant Parker <Baradin's Wardens>"] = "Sargento Parker <Celadores de Baradin>";
+	AL["2nd Lieutenant Wansworth <Baradin's Wardens>"] = "Segundo teniente Wansworth <Celadores de Baradin>";
+	AL["Commander Stevens <Baradin's Wardens>"] = "Comandante Stevens <Celadores de Baradin>";
+	AL["Marshal Fallows <Baradin's Wardens>"] = "Alguacil Fallows <Celadores de Baradin>";
+	AL["Commander Zanoth <Hellscream's Reach>"] = "Comandante Zanoth <Mando Grito Infernal>";
+	AL["Drillmaster Razgoth <Hellscream's Reach>"] = "Maestro de maniobras Razgoth <Mando Grito Infernal>";
+	AL["Private Garnoth <Hellscream's Reach>"] = "Soldado Garnoth <Mando Grito Infernal>";
+	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Sargento de segunda Lazgar <Mando Grito Infernal>";
 
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Casa Martillo Salvaje"; --Check

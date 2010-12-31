@@ -28,7 +28,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): $Date$
+-- Úlltima Actualización (last update): 31/12/2010
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -37,10 +37,11 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "esES", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Death Knight Only"] = "Solo caballeros de la muerte";
-	AL["Druid-only"] = "Solo druidas";
+	AL["Death Knight Only"] = "Solo caballeros de la muerte";		-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
+	AL["Druid-only"] = "Solo druidas";			-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "Leyenda";				-- The chart's legend, for example, the purple line means the portal's path
-	AL["Orb of Translocation"] = "Orbe de traslado";	
+	AL["Gryphon"] = "Grifo";
+	AL["Orb of Translocation"] = "Orbe de traslado";	-- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portal Destinations"] = "Destinos de los portales";
 	AL["Portals"] = "Portales";				
 	AL["Portal / Waygate Path to the destination"] = "Portal / Puerta con destino";
@@ -52,6 +53,7 @@ if AL then
 	AL["Transportation Maps"] = "Mapas de Transportes";
 	AL["Transporter"] = "Transportador";			-- The NPC who can transport you to other place
 	AL["West of the path to Timbermaw Hold"] = "Oeste del camino al Puesto Vigóa del Cubil";
+	AL["Wind Rider"] = "Jinete del viento";
 	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
 
 end

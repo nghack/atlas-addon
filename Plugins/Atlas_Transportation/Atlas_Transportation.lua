@@ -297,6 +297,7 @@ local myData = {
 		{ _RED..AL["Portals"].." / "..AL["Orb of Translocation"] };
 		{ PURP.." A) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
 		{ PURP.." B) "..BZ["Hellscream's Grasp"]..", "..BZ["Tol Barad Peninsula"] };
+		{ PURP.." C) "..BZ["Dragonmaw Port"]..", "..BZ["Twilight Highlands"] };
 		{ PURP.." A') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." B') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ "" };
@@ -417,7 +418,8 @@ local myData = {
 		{ PURP.." B') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ PURP.." C') "..BZ["Hellscream's Grasp"]..", "..BZ["Tol Barad Peninsula"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." D') "..BZ["Vashj'ir"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." E') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." E') "..BZ["Dragonmaw Port"]..", "..BZ["Twilight Highlands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." F') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["Mulgore"] };

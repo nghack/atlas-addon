@@ -41,6 +41,7 @@ local PURP = "|cff9900ff";
 local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
+local BULLET = " - ";
 
 local myCategory = AL["Battleground Maps"];
 
@@ -198,14 +199,16 @@ local myData = {
 		MinLevel = "64";
 		{ ORNG.."PvP: "..BZ["Halaa"] };
 		{ GREN.."1) "..BZ["Halaa"] };
-		{ GREN..INDENT..AL["Quartermaster Davian Vaclav"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Chief Researcher Kartos"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Aldraan <Blade Merchant>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Cendrii <Food & Drink>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Quartermaster Jaffrey Noreliqe"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Chief Researcher Amereldine"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Coreiel <Blade Merchant>"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Embelar <Food & Drink>"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..BF["Alliance"] };
+		{ GREN..INDENT..BULLET..AL["Quartermaster Davian Vaclav"] };
+		{ GREN..INDENT..BULLET..AL["Chief Researcher Kartos"] };
+		{ GREN..INDENT..BULLET..AL["Aldraan <Blade Merchant>"] };
+		{ GREN..INDENT..BULLET..AL["Cendrii <Food & Drink>"] };
+		{ GREN..INDENT..BF["Horde"] };
+		{ GREN..INDENT..BULLET..AL["Quartermaster Jaffrey Noreliqe"] };
+		{ GREN..INDENT..BULLET..AL["Chief Researcher Amereldine"] };
+		{ GREN..INDENT..BULLET..AL["Coreiel <Blade Merchant>"] };
+		{ GREN..INDENT..BULLET..AL["Embelar <Food & Drink>"] };
 		{ GREN.."2) "..AL["Wyvern Camp"] };
 	};
 	HellfirePeninsulaPvP = {
@@ -328,14 +331,16 @@ local myData = {
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.."A) "..AL["Attackers"] };
 		{ BLUE.."B) "..BZ["Baradin Hold"] };
-		{ GREN..INDENT..AL["Sergeant Parker <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["2nd Lieutenant Wansworth <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Commander Stevens <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Marshal Fallows <Baradin's Wardens>"].." ("..BF["Alliance"]..")" };
-		{ GREN..INDENT..AL["Commander Zanoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Drillmaster Razgoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Private Garnoth <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Staff Sergeant Lazgar <Hellscream's Reach>"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..BF["Alliance"] };
+		{ GREN..INDENT..BULLET..AL["Sergeant Parker <Baradin's Wardens>"]};
+		{ GREN..INDENT..BULLET..AL["2nd Lieutenant Wansworth <Baradin's Wardens>"]};
+		{ GREN..INDENT..BULLET..AL["Commander Stevens <Baradin's Wardens>"]};
+		{ GREN..INDENT..BULLET..AL["Marshal Fallows <Baradin's Wardens>"]};
+		{ GREN..INDENT..BF["Horde"] };
+		{ GREN..INDENT..BULLET..AL["Commander Zanoth <Hellscream's Reach>"] };
+		{ GREN..INDENT..BULLET..AL["Drillmaster Razgoth <Hellscream's Reach>"] };
+		{ GREN..INDENT..BULLET..AL["Private Garnoth <Hellscream's Reach>"] };
+		{ GREN..INDENT..BULLET..AL["Staff Sergeant Lazgar <Hellscream's Reach>"] };
 		{ GREN.."1) "..BZ["Ironclad Garrison"] };
 		{ GREN.."2) "..BZ["Warden's Vigil"] };
 		{ GREN.."3) "..BZ["Slagworks"] };

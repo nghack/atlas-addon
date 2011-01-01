@@ -96,6 +96,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Подземелья Калимдора";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Подземелья Запределья";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Подземелья Нордскола";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Подземелья Подземья";
 	AL["ATLAS_DDL_LEVEL"] = "Уровня";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Подземелья уровня ниже 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Подземелья уровня 45-60";
@@ -115,7 +116,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Подземелья Старого Мира P-Z";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Подземелья Пылающего Крестового Похода";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Подземелья Wrath of the Lich King";
-	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm "; -- Needs translation
+	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm ";
 	AL["ATLAS_DDL_TYPE"] = "Типу";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Подземелья A-C";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Подземелья D-R";

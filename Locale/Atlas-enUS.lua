@@ -438,7 +438,7 @@ if AL then
 	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
 	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
 	AL["Ashelan Northwood"] = "Ashelan Northwood";
-	
+
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Old Ironbark";
 	AL["Ironbark the Redeemed"] = "Ironbark the Redeemed";

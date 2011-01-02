@@ -357,10 +357,6 @@ if AL then
 	AL["Dealer Tariq <Shady Dealer>"] = "Dealer Tariq <Shady Dealer>";
 
 	--Blackfathom Deeps (Entrance)
-	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
-	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
-	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
-	AL["Ashelan Northwood"] = "Ashelan Northwood";
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Bodley";
@@ -438,7 +434,11 @@ if AL then
 	AL["Flaming Eradicator"] = "Flaming Eradicator";	
 	AL["Altar of the Deeps"] = "Altar of the Deeps";
 	AL["Morridune"] = "Morridune";
-
+	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
+	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
+	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
+	AL["Ashelan Northwood"] = "Ashelan Northwood";
+	
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Old Ironbark";
 	AL["Ironbark the Redeemed"] = "Ironbark the Redeemed";

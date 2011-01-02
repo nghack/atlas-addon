@@ -441,11 +441,10 @@ if AL then
 	AL["Scout Thaelrid"] = "Eclaireur Thaelrid";
 	AL["Flaming Eradicator"] = "Eradicateur enflammé";
 	AL["Altar of the Deeps"] = "Autel des profondeurs";
-	AL["Morridune"] = "Morridune";
-	AL["Sentinel-trainee Issara"] = "Apprentie sentinelle Issara";
-	AL["Sentinel Aluwyn"] = "Sentinelle Aluwyn";
-	AL["Relwyn Shadestar"] = "Relwyn Sombrétoile";
 	AL["Ashelan Northwood"] = "Ashelan Bois-du-nord";
+	AL["Relwyn Shadestar"] = "Relwyn Sombrétoile";
+	AL["Sentinel Aluwyn"] = "Sentinelle Aluwyn";
+	AL["Sentinel-trainee Issara"] = "Apprentie sentinelle Issara";
 	
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Vieil Ecorcefer";

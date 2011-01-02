@@ -428,16 +428,15 @@ if AL then
 
 	--Blackfathom Deeps
 	AL["Shrine of Gelihast"] = "Shrine of Gelihast";
-	AL["Fathom Stone"] = "Fathom Stone";	
+	AL["Fathom Stone"] = "Fathom Stone";
 	AL["Lorgalis Manuscript"] = "Lorgalis Manuscript";
 	AL["Scout Thaelrid"] = "Scout Thaelrid";
-	AL["Flaming Eradicator"] = "Flaming Eradicator";	
+	AL["Flaming Eradicator"] = "Flaming Eradicator";
 	AL["Altar of the Deeps"] = "Altar of the Deeps";
-	AL["Morridune"] = "Morridune";
-	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
-	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
-	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
 	AL["Ashelan Northwood"] = "Ashelan Northwood";
+	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
+	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
+	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Old Ironbark";

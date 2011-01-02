@@ -344,15 +344,16 @@ AtlasMaps = {
 		{ ORNG.."1) "..BB["Lorgus Jett"].." ("..AL["Varies"]..")", NPC, 12902 };
 		{ ORNG.."2) "..BB["Baron Aquanis"].." ("..AL["Summon"]..")", NPC, 12876 };
 		{ GREN..INDENT..AL["Fathom Stone"], OBJECT, 177964 };
-		{ GREN.."1') "..AL["Lorgalis Manuscript"], ITEM, 5359 };
-		{ GREN.."2') "..AL["Scout Thaelrid"], NPC, 4787 };
-		{ GREN.."3') "..AL["Flaming Eradicator"], NPC, 44387 };
-		{ GREN.."4') "..AL["Altar of the Deeps"] };
-		-- Below NPCs to be added
-		--{ GREN.."X') "..AL["Sentinel-trainee Issara"] };
-		--{ GREN..INDENT..AL["Sentinel Aluwyn"] };
-		--{ GREN..INDENT..AL["Relwyn Shadestar"] };
-		--{ GREN..INDENT..AL["Ashelan Northwood"] };
+		{ GREN.."1') "..AL["Ashelan Northwood"] };
+		{ GREN..INDENT..AL["Relwyn Shadestar"] };
+		{ GREN..INDENT..AL["Sentinel Aluwyn"] };
+		{ GREN..INDENT..AL["Sentinel-trainee Issara"] };
+		{ GREN.."2') "..AL["Lorgalis Manuscript"], ITEM, 5359 };
+		{ GREN.."3') "..AL["Scout Thaelrid"], NPC, 4787 };
+		{ GREN.."4') "..AL["Flaming Eradicator"], NPC, 44387 };
+		{ GREN.."5') "..AL["Altar of the Deeps"] };
+
+
 	};
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")", 2557 };
@@ -1001,15 +1002,13 @@ AtlasMaps = {
 		{ WHIT.."4) "..BB["Admiral Ripsnarl"], NPC, 47626 };
 		{ WHIT..INDENT..BB["\"Captain\" Cookie"], NPC, 47739 };
 		{ WHIT..INDENT..BB["Vanessa VanCleef"].." ("..AL["Heroic"]..")", NPC, 42371 };
-		{ GREN..INDENT..AL["Lieutenant Horatio Laine"].." ("..BF["Alliance"]..")", NPC, 46612 };
-		{ GREN..INDENT..AL["Kagtha"].." ("..BF["Horde"]..")", NPC, 46889 };
-		{ GREN..INDENT..AL["Slinky Sharpshiv"].." ("..BF["Horde"]..")", NPC, 46906 };
 		{ GREN.."1') "..AL["Lieutenant Horatio Laine"].." ("..BF["Alliance"]..")", NPC, 46612 };
 		{ GREN..INDENT..AL["Quartermaster Lewis <Quartermaster>"].." ("..BF["Alliance"]..")", NPC, 46889 };
 		{ GREN..INDENT..AL["Slinky Sharpshiv"].." ("..BF["Horde"]..")", NPC, 46906 };
 		{ GREN..INDENT..AL["Kagtha"].." ("..BF["Horde"]..")", NPC, 46889 };
 		{ GREN..INDENT..AL["Miss Mayhem"].." ("..BF["Horde"]..")", NPC, 46902 };
 		{ GREN..INDENT..AL["Vend-O-Tron D-Luxe"].." ("..BF["Horde"]..")", OBJECT, 24935 };
+		{ GREN.."2') "..AL["Teleporter"] };
 	};
 	TheStockade = {
 		ZoneName = { BZ["The Stockade"], 717 };
@@ -1022,6 +1021,9 @@ AtlasMaps = {
 		{ WHIT.."1) "..BB["Randolph Moloch"], NPC, 1696 };
 		{ WHIT.."2) "..BB["Hogger"], NPC, 1666 };
 		{ WHIT.."3) "..BB["Lord Overheat"], NPC, 1717 };
+		{ GREN.."1') "..AL["Rifle Commander Coe"] };
+		{ GREN.."2') "..AL["Warden Thelwater"] };
+		{ GREN.."3') "..AL["Nurse Lillian"] };
 	};
 	TheSunkenTemple = {
 		ZoneName = { BZ["Sunken Temple"], 1417 };
@@ -2311,6 +2313,8 @@ AtlasMaps = {
 		{ WHIT.."4) "..BB["Beauty"] };
 		{ WHIT.."5) "..BB["Ascendant Lord Obsidius"] };
 		{ GREN.."1') "..AL["Finkle Einhorn"] };
+		{ GREN..INDENT..AL["Teleporter"] };
+		{ GREN.."2') "..AL["Teleporter"] };
 	};
 	BlackwingDescent = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Descent"] };
@@ -2349,7 +2353,7 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["General Umbriss"] };
 		{ WHIT.."2) "..BB["Forgemaster Throngus"] };
-		{ WHIT.."3) "..BB["Drahga Shodowburner"] };
+		{ WHIT.."3) "..BB["Drahga Shodowburner"].." & "..BB["Valiona"] };
 		{ WHIT.."4) "..BB["Erudax"] };
 		{ GREN.."1') "..AL["Baleflame"] };
 		{ GREN..INDENT..AL["Farseer Tooranu <The Earthen Ring>"] };
@@ -2371,6 +2375,7 @@ AtlasMaps = {
 		{ WHIT.."6) "..BB["Setesh"] };
 		{ WHIT.."7) "..BB["Rajh"] };
 		{ GREN.."1') "..AL["Teleporter"] };
+		{ GREN.."2') "..AL["Brann Bronzebeard"] };
 	};
 	LostCityOfTolvir = {
 		ZoneName = { BZ["Lost City of the Tol'vir"] };

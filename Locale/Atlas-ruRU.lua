@@ -436,7 +436,6 @@ if AL then
 	AL["Scout Thaelrid"] = "Страж Талрид";
 	AL["Flaming Eradicator"] = "Пылающий искоренитель";
 	AL["Altar of the Deeps"] = "Алтарь пучины";
-	AL["Morridune"] = "Морридан";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Старик Железной Коры";

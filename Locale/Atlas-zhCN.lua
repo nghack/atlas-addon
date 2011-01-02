@@ -423,7 +423,6 @@ if AL then
 	AL["Scout Thaelrid"] = "斥候塞尔瑞德"; -- Needs review
 	AL["Flaming Eradicator"] = "火焰根除者"; -- Needs review
 	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
-	AL["Morridune"] = "莫瑞杜恩";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";

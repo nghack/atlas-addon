@@ -357,6 +357,10 @@ if AL then
 	AL["Dealer Tariq <Shady Dealer>"] = "Dealer Tariq <Shady Dealer>";
 
 	--Blackfathom Deeps (Entrance)
+	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
+	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
+	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
+	AL["Ashelan Northwood"] = "Ashelan Northwood";
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Bodley";

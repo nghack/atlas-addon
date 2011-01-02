@@ -348,8 +348,11 @@ AtlasMaps = {
 		{ GREN.."2') "..AL["Scout Thaelrid"], NPC, 4787 };
 		{ GREN.."3') "..AL["Flaming Eradicator"], NPC, 44387 };
 		{ GREN.."4') "..AL["Altar of the Deeps"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..AL["Morridune"], NPC, 6729 };
+		-- Below NPCs to be added
+		--{ GREN.."X') "..AL["Sentinel-trainee Issara"] };
+		--{ GREN..INDENT..AL["Sentinel Aluwyn"] };
+		--{ GREN..INDENT..AL["Relwyn Shadestar"] };
+		--{ GREN..INDENT..AL["Ashelan Northwood"] };
 	};
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")", 2557 };

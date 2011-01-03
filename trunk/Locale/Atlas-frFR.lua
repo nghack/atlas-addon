@@ -368,9 +368,11 @@ if AL then
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Bodley";
-	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
+	AL["Lothos Riftwaker"] = "Lothos Ouvrefaille";
 	AL["Orb of Command"] = "Orbe de Commandement";
-
+	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
+	AL["The Behemoth"] = "Le Béhémoth";
+	
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "Guetteur Jhang";
 	AL["Mortog Steamhead"] = "Mortog Têtavapeur";

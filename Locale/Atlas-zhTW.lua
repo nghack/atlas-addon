@@ -360,8 +360,10 @@ if AL then
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "布德利";
-	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾軍需官 <裂盾軍團>";
+	AL["Lothos Riftwaker"] = "洛索斯·天痕";
 	AL["Orb of Command"] = "命令寶珠";
+	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾軍需官 <裂盾軍團>";
+	AL["The Behemoth"] = "貝希摩斯";
 
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "看守者詹汗格";
@@ -433,6 +435,10 @@ if AL then
 	AL["Scout Thaelrid"] = "斥候塞爾瑞德";
 	AL["Flaming Eradicator"] = "火焰根除者";
 	AL["Altar of the Deeps"] = "瑪塞斯特拉祭壇";
+	AL["Ashelan Northwood"] = "阿謝蘭·北木";
+	AL["Relwyn Shadestar"] = "芮爾溫·影星";
+	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
+	AL["Sentinel-trainee Issara"] = "哨兵受訓員伊薩拉";
 	
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";

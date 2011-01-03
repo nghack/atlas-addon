@@ -362,8 +362,10 @@ if AL then
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Bodley";
-	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendente del Escudo del Estigma <Legión Escudo del Estigma>";
+	AL["Lothos Riftwaker"] = "Lothos Levantagrietas";
 	AL["Orb of Command"] = "Orbe de orden";
+	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendente del Escudo del Estigma <Legión Escudo del Estigma>";
+	AL["The Behemoth"] = "El Behemoth";
 	
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "Vigía Jhang";
@@ -435,6 +437,10 @@ if AL then
 	AL["Scout Thaelrid"] = "Guardia Argenta Thaelrid <El Alba Argenta>";
 	AL["Flaming Eradicator"] = "Erradicador flameante";
 	AL["Altar of the Deeps"] = "Altar de las profundidades";
+	AL["Ashelan Northwood"] = "Ashelan Bosquenorte";
+	AL["Relwyn Shadestar"] = "Relwyn Sombrestrella";
+	AL["Sentinel Aluwyn"] = "Centinela Aluwyn";
+	AL["Sentinel-trainee Issara"] = "Centinela practicante Issara";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Viejo Cortezaférrea";

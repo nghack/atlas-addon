@@ -620,6 +620,7 @@ Atlas_DropDownLayouts = {
 			"BaradinHold",
 			"TheBastionOfTwilight",
 			"BlackrockCaverns",
+			"BlackrockMountainEnt",
 			"BlackwingDescent",
 			--"CoTWaroftheAncients",
 			"GrimBatol",

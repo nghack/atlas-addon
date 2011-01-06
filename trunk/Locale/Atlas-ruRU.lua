@@ -363,8 +363,10 @@ if AL then
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "Бодли";
-	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Интендант из легиона Изрубленного Щита";
+	AL["Lothos Riftwaker"] = "Лотос Хранитель Портала";
 	AL["Orb of Command"] = "Сфера Приказа";
+	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Интендант из легиона Изрубленного Щита";
+	AL["The Behemoth"] = "Чудище";
 
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "Дозорный Джанг";
@@ -436,6 +438,10 @@ if AL then
 	AL["Scout Thaelrid"] = "Страж Талрид";
 	AL["Flaming Eradicator"] = "Пылающий искоренитель";
 	AL["Altar of the Deeps"] = "Алтарь пучины";
+	AL["Ashelan Northwood"] = "Эшлан Северный Лес";
+	AL["Relwyn Shadestar"] = "Релвин Тень Звезды";
+	AL["Sentinel Aluwyn"] = "Часовой Алувин";
+	AL["Sentinel-trainee Issara"] = "Курсант-часовой Иссара";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Старик Железной Коры";
@@ -633,6 +639,9 @@ if AL then
 	AL["Vend-O-Tron D-Luxe"] = "Торг-о-трон делюкс";
 
 	--The Stockade
+	AL["Rifle Commander Coe"] = "Командир стрелков Коу";
+	AL["Warden Thelwater"] = "Тюремщик Телвотер";
+	AL["Nurse Lillian"] = "Медсестра Лилиан";
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Лорд Итар";
@@ -775,7 +784,7 @@ if AL then
 	--HFC: Magtheridon's Lair
 
 	--HFC: The Shattered Halls
-	AL["Shattered Halls Key"] = "Ключ Разрушенных залов";
+	AL["Shattered Hand Executioner"] = "Палач из клана Изувеченной Длани";
 	AL["Private Jacint"] = "Рядовой Джасинт";
 	AL["Rifleman Brownbeard"] = "Ружейник Буробород";
 	AL["Captain Alina"] = "Капитан Алина";
@@ -1036,7 +1045,7 @@ if AL then
 	--Halls of Origination
 
 	--Lost City of the Tol'vir
-	AL["Captain Hadan"] = "Капитан Хадан"; --need check
+	AL["Captain Hadan"] = "Капитан Хадан";
 	AL["Augh"] = "Ауг";
 
 	--Sulfuron Keep

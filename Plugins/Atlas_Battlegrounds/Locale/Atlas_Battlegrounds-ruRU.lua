@@ -197,6 +197,6 @@ if AL then
 	AL["Staff Sergeant Lazgar <Hellscream's Reach>"] = "Штаб-сержант Лазгар <Батальон Адского Крика>";
 
 	-- Twin Peaks
-	AL["Wildhammer Longhouse"] = "Wildhammer Longhouse";
-	AL["Dragonmaw Clan Compound"] = "Dragonmaw Clan Compound";
+	AL["Wildhammer Longhouse"] = "Клан Громового Молота";
+	AL["Dragonmaw Clan Compound"] = "Клан Драконьей Пасти";
 end

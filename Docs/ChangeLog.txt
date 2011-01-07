@@ -1,12 +1,12 @@
 Atlas, a World of Warcraft instance map browser
-Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
-Copyright 2010 Atlas Team (http://atlasmod.com/)
+Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 
 ==============
 = Change Log =
 ==============
 
-v1.18.1
+v1.18.1 (Jan 06, 2011)
 - Translation update
   - German (Dynaletik)
   - French (Khiria)
@@ -16,7 +16,7 @@ v1.18.1
 - Maps and NPCs update for several dungeons and continents
 - Resolve Eastern Kingdom dungeon menu display issue by spliting into two parts
   
-v1.18.0
+v1.18.0 (Dec 07, 2010)
 - Prepared Atlas for the Cataclysm Maps
 - Added Baradin Hold
 - Added Blackrock Caverns
@@ -46,11 +46,11 @@ v1.18.0
   - Spanish (maqjav)
   - Traditional Chinese (arith)
 
-v1.17.2
+v1.17.2 (Oct 18, 2010)
 - Hotfix to resolve the plugins maps won't show when AtlasLoot is enabled.
 - Added About panel.
 
-v1.17.1
+v1.17.1 (Oct 13, 2010)
 - support WoW 4.0
 - translation update
   - Simplified Chinese (DiabloHu)
@@ -58,7 +58,7 @@ v1.17.1
 - change the options to be per account instead of per character
 - fixed Ruby Sanctum map
 
-v1.17.0
+v1.17.0 (Aug 15, 2010)
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)
 - new map: Hellfire Citadel dungeon entrace map (arith)
@@ -75,7 +75,7 @@ v1.17.0
 - added Lunar Elders locations in Northrend maps (Deadca7, Dynaletik)
 - several maps refine (Deadca7)
 
-v1.16.1
+v1.16.1 (Jun 07, 2010)
 - new map: Ruby Sanctum
 - fixed and added some ICC entries
 - minor fixes
@@ -96,16 +96,16 @@ v1.16.0
 - rewrote and simplified the readme file
 - removed the world map coordinates feature
 
-v1.15.2
+v1.15.2 (Dec 18, 2009)
 - updated TOC number to 30300 for the 3.3 patch
 - fix for zhTW (Traditional Chinese) translation (s8095324)
 
-v1.15.1
+v1.15.1 (Oct 10, 2009)
 - fix for deDE (German) translation
 - updated version check for some Atlas addons
 - settings will now be preserved between some updates
 
-v1.15.0
+v1.15.0 (Oct 07, 2009)
 - new map: Crusaders' Coliseum: Trial of the Champion (Deadca7)
 - new map: Crusaders' Coliseum: Trial of the Crusader (Deadca7)
 - new map: Isle of Conquest (Deadca7, Celellach)
@@ -131,13 +131,13 @@ v1.15.0
 - current zhCN (Simplified Chinese) translation (arith)
 - current zhTW (Traditional Chinese) translation (arith)
 
-v1.14.2
+v1.14.2 (Aug 19, 2009)
 - updated TOC number to 30200 for the 3.2 patch
 
-v1.14.1
+v1.14.1 (May 12, 2009)
 - fixed some locations in Blackwing Lair (Celellach)
 
-v1.14.0
+v1.14.0 (Apr 28, 2009)
 - updated TOC number to 30100 for the 3.1 patch
 - new map: Ulduar [in 5 parts] (deadca7, everyone else!)
 - new map: Vault of Archavon (deadca7)
@@ -188,7 +188,7 @@ v1.14.0
 - current zhCN (Simplified Chinese) translation (DiabloHu)
 - current zhTW (Traditional Chinese) translation (banana, arith)
 
-v1.13.0
+v1.13.0 (Nov 24, 2008)
 - added tons of new WotLK instance maps!
 - added most if not all WotLK map data (thanks to DiabloHu, Deadca7, and others!)
 - corrected some map category grouping issues
@@ -204,7 +204,7 @@ v1.13.0
 - resetting defaults now properly updates the status of the lock button
 - other minor tweaks and improvements
 
-v1.12.3
+v1.12.3 (Oct 26, 2008)
 - fixed various errors on non-English clients
 - fixed the right-click to toggle world map bug
 - added LibDataBroker support
@@ -213,12 +213,12 @@ v1.12.3
 - added support for the built-in defaults button
 - removed the minimap button icon's green tint
 
-v1.12.2
+v1.12.2 (Oct 15, 2008)
 - scrolling error fix
 - all remaining instances of 'Rep' changed to 'Reputation' in the locale files
 - non-English readme files should have no more messed up characters
 
-v1.12.1
+v1.12.1 (Oct 15, 2008)
 - updated TOC number to 30000 for the 3.0 patch
 - some compatibility fixes for the new patch
 - added 'Ahn'Qiraj' and 'Blackrock Mountain' as a prefix for the instances within them
@@ -227,7 +227,7 @@ v1.12.1
 - added a Minimum Level for SP
 - renamed 'Rep' to 'Reputation'
 
-v1.12.0
+v1.12.0 (Jul 25, 2008)
 - changed the Atlas data format to include GUID information (no in-game change)
 - changed the frame strata back to MEDIUM so Atlas can cover/be-covered-by other windows
 - added a fix for some UI elements that appear above the Atlas window
@@ -279,7 +279,7 @@ v1.12.0
 - added Ahune <The Frost Lord> to Slave Pens (Nihlo, Telchar)
 - this is a giant update, my apologies if I've forgotten anything
 
-v1.11.0
+v1.11.0 (Mar 26, 2008)
 - updated TOC number to 20400 for the 2.4 patch
 - new map: Magisters' Terrace
 - new map: Sunwell Plateau
@@ -319,7 +319,7 @@ v1.11.0
 - revamped the auto-select feature to make use of SubZone data
 - Titan Panel support fix and some updates
 
-v1.10.3
+v1.10.3 (Nov 30, 2007)
 - the Atlas source is now hosted at Google Code
 - updated TOC number to 20300 for the 2.3 patch
 - new Zul'Aman map (Nifl, Celellach)
@@ -384,10 +384,10 @@ v1.10.3
 - current Traditional Chinese translation (arith)
 - current German translation (Telchar)
 
-v1.10.2
+v1.10.2 (Sep 28, 2007)
 - updated TOC number to 20200 for the 2.2 patch
 
-v1.10.1
+v1.10.1 (Sep 05, 2007)
 - added individual instance names to Outland DL map (Telchar)
 - changed/fixed the CoT instance names in the West DL map (Telchar)
 - added class types to Maulgar's adds in Gruul's Lair (Lothaer, Yegg)
@@ -407,7 +407,7 @@ v1.10.1
 - added Zelemar the Wrathful the RFC (Kiria)
 - added Dire Pool to DM entrance map (Celellach)
 
-v1.10.0
+v1.10.0 (Aug 20, 2007)
 - fixed the Forest Song, Ashenvale flight point
 - renumbered the Alliance Kalimdor flight path map
 - translated into zhCN / Simplified Chinese (DiabloHu)
@@ -417,7 +417,7 @@ v1.10.0
 - translated into esES / Spanish (maqjav)
 - koKR / Korean translation still needed
 
-v1.10.0pre5
+v1.10.0pre5 (Aug 15, 2007)
 - added class tags to Moroes adds in Karazhan
 - added Sneed's Shredder to The Deadmines
 - renumbered The Arcatraz for better flow
@@ -445,7 +445,7 @@ v1.10.0pre5
 - added Blackwind Landing to Skyguard Outpost flight path
 - thanks to Celellach for providing so much data!
 
-v1.10.0pre4
+v1.10.0pre4 (Aug 10, 2007)
 - removed optional tags in Kara (Nalumis)
 - changed cot3 name back to Hyjal Summit (Celellach)
 - re-lettered Black Temple maps (Celellach)
@@ -473,7 +473,7 @@ v1.10.0pre4
 - added Mortog Steamhead to CFR entrance
 - changed player limit for CFR entrance to 5/25
 
-v1.10.0pre3
+v1.10.0pre3 (Aug 06, 2007)
 - finally added data to Battle for Mount Hyjal
 - modified Hyjal map; shaded the top half
 - fixed Lothos Riftwaker's name in Blackrock Mountain
@@ -485,7 +485,7 @@ v1.10.0pre3
 - once again, special thanks to Celellach
 - fixed "Slim" in Auch entrance (Nihlo)
 
-v1.10.0pre2
+v1.10.0pre2 (Aug 06, 2007)
 - new map: Black Temple (Full)
 - updated Maraudon entrance map
 - updated Deadmines entrance map
@@ -499,7 +499,7 @@ v1.10.0pre2
 - changed all entrance markers to letters
 - thanks to Celellach for the majority of the notes
 
-v1.10.0pre
+v1.10.0pre (Aug 05, 2007)
 - new maps: Black Temple (three levels)
 - new plugin containing entrance maps
 - changed Durnholde Keep to Old Hillsbrad Foothills
@@ -514,13 +514,13 @@ v1.10.0pre
 - added Seer Udalo to The Arcatraz
 - added several mobs to The Eye
 
-v1.9.1
+v1.9.1 (May 23, 2007)
 - updated TOC number to 20100 for the 2.1 patch
 - removed Interface/AddOns structure from archive
 - fixed two swapped mobs in The Eye (avatarshokpin)
 - minor updates to French (frFR) translation
 
-v1.9
+v1.9 (May 21, 2007)
 - made several database changes and additions
 - archive now contains Interface/AddOns structure
 - updated level ranges (needs some more work)
@@ -528,13 +528,13 @@ v1.9
 - contains translations for enUS, deDE, frFR, koKR, zhCN, zhTW
 - still needs readme and GPL files for koKR (Korean)
 
-v1.9RC2
+v1.9RC2 (Apr 16, 2007)
 - split Scarlet Monastery into four different maps
 - made many database changes, additions, and corrections
 - added auto-select code for Outland instances (Drahcir)
 - renumbered LBRS and Stratholme maps (Celellach)
 
-v1.9RC1
+v1.9RC1 (Mar 23, 2007)
 - new maps: The Eye, Doom Lord Kazzak, Doomwalker
 - new maps: Outland dungeon locations and flight paths
 - changed Kazzak encounter to Highlord Kruul
@@ -545,7 +545,7 @@ v1.9RC1
 - tweaked appearance of certain maps for consistancy
 - probably more stuff that I'm forgetting right now
 
-v1.9b1
+v1.9b1 (Feb 22, 2007)
 - many new Burning Crusade maps
 - many database additions and fixes
 - cleaned up options panel

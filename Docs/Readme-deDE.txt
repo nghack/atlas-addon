@@ -1,6 +1,6 @@
 Atlas, ein World-of-Warcraft-Instanzkarten-Browser
-Copyright 2005-2010 Dan Gilbert <dan.b.gilbert@gmail.com>
-Copyright 2010 Atlas Team (http://atlasmod.com/)
+Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 
 
 ===============

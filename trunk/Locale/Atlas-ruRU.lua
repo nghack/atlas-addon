@@ -553,8 +553,6 @@ if AL then
 	AL["Roughshod Pike"] = "Наконечник Грубой силы ";
 	AL["Bijou"] = "Блестяшка";
 	AL["Unfired Plate Gauntlets"] = "Неопалимые латные рукавицы";
-	AL["Fifth Mosh'aru Tablet"] = "Пятая табличка Мошару";
-	AL["Sixth Mosh'aru Tablet"] = "Шестая табличка Мошару";
 	AL["Bijou's Belongings"] = "Вещи Блестяшки";
 	AL["Human Remains"] = "Человеческие останки";
 

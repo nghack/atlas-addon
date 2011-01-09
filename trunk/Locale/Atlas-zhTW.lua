@@ -550,8 +550,6 @@ if AL then
 	AL["Roughshod Pike"] = "尖銳長矛";
 	AL["Bijou"] = "比修";
 	AL["Unfired Plate Gauntlets"] = "未淬火的鎧甲護手";
-	AL["Fifth Mosh'aru Tablet"] = "第五塊摩沙魯石板";
-	AL["Sixth Mosh'aru Tablet"] = "第六塊摩沙魯石板";
 	AL["Bijou's Belongings"] = "比修的裝置";
 	AL["Human Remains"] = "人類殘骸";
 

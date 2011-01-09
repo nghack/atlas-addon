@@ -562,11 +562,9 @@ if AL then
 	AL["Spirestone Battle Lord"] = "尖石统帅";
 	AL["Spirestone Lord Magus"] = "尖石首席法师";
 	AL["Shadow Hunter Vosh'gajin"] = "暗影猎手沃什加斯";
-	AL["Fifth Mosh'aru Tablet"] = "第五块摩沙鲁石板";
 	AL["Bijou"] = "比修";
 	AL["War Master Voone"] = "指挥官沃恩";
 	AL["Mor Grayhoof"] = "莫尔·灰蹄";
-	AL["Sixth Mosh'aru Tablet"] = "第六块摩沙鲁石板";
 	AL["Bijou's Belongings"] = "比修的装置";
 	AL["Human Remains"] = "人类遗骸";
 	AL["Unfired Plate Gauntlets"] = "未淬火的板甲护手";

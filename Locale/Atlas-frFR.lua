@@ -558,8 +558,6 @@ if AL then
 	AL["Roughshod Pike"] = "Pique de fortune";
 	AL["Bijou"] = "Bijou";
 	AL["Unfired Plate Gauntlets"] = "Gantelets en plaques inachevés";
-	AL["Fifth Mosh'aru Tablet"] = "Cinquième tablette Mosh'aru";
-	AL["Sixth Mosh'aru Tablet"] = "Sixième tablette Mosh'aru";
 	AL["Bijou's Belongings"] = "Affaires de Bijou";
 	AL["Human Remains"] = "Restes humains";
 

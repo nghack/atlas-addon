@@ -550,8 +550,6 @@ if AL then
 	AL["Roughshod Pike"] = "Roughshod Pike";
 	AL["Bijou"] = "Bijou";
 	AL["Unfired Plate Gauntlets"] = "Unfired Plate Gauntlets";
-	AL["Fifth Mosh'aru Tablet"] = "Fifth Mosh'aru Tablet";
-	AL["Sixth Mosh'aru Tablet"] = "Sixth Mosh'aru Tablet";
 	AL["Bijou's Belongings"] = "Bijou's Belongings";
 	AL["Human Remains"] = "Human Remains";
 

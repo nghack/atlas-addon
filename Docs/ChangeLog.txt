@@ -6,6 +6,9 @@ Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 = Change Log =
 ==============
 
+v1.18.2 (Feb xx, 2011)
+- NPC map updates for several dungeons
+
 v1.18.1 (Jan 06, 2011)
 - Translation update
   - German (Dynaletik)

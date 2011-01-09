@@ -583,13 +583,15 @@ if AL then
 	--Scholomance
 	AL["Blood of Innocents"] = "Blood of Innocents";
 	AL["Divination Scryer"] = "Divination Scryer";
+	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <House of Barov>";
+	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <House of Barov>";
+	AL["Eva Sarkhoff"] = "Eva Sarkhoff";
+	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
 	AL["The Deed to Caer Darrow"] = "The Deed to Caer Darrow";	
 	AL["The Deed to Southshore"] = "The Deed to Southshore";
 	AL["Torch Lever"] = "Torch Lever";
 	AL["The Deed to Tarren Mill"] = "The Deed to Tarren Mill";
 	AL["The Deed to Brill"] = "The Deed to Brill";
-	AL["Secret Chest"] = "Secret Chest";
-	AL["Alchemy Lab"] = "Alchemy Lab";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";
@@ -601,20 +603,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
 	--SM: Armory
+	AL["Joseph the Crazed"] = "Joseph the Crazed";
+	AL["Dark Ranger Velonara"] = "Dark Ranger Velonara";
+	AL["Dominic"] = "Dominic";
 
 	--SM: Cathedral
 	AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph the Insane <Scarlet Champion>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Pumpkin Shrine";
+	AL["Joseph the Awakened"] = "Joseph the Awakened";
 
 	--SM: Library
 	AL["Library"] = "Library";
+	AL["Compendium of the Fallen"] = "Compendium of the Fallen";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Various Postbox Keys";
-	AL["Malor's Strongbox"] = "Malor's Strongbox";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Packmaster Stonebruiser <Brotherhood of the Light>";
 	AL["Stratholme Courier"] = "Stratholme Courier";
 	AL["Fras Siabi's Postbox"] = "Fras Siabi's Postbox";
 	AL["King's Square Postbox"] = "King's Square Postbox";
@@ -625,6 +635,8 @@ if AL then
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Elders' Square Postbox";
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Archmage Angela Dosantos <Brotherhood of the Light>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Crusade Commander Korfax <Brotherhood of the Light>";
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Lumbering Oaf";

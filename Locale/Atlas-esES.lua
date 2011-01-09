@@ -590,8 +590,6 @@ if AL then
 	AL["Torch Lever"] = "Antocha palanca";
 	AL["The Deed to Tarren Mill"] = "Las escrituras de Molino Tarren";
 	AL["The Deed to Brill"] = "Las escrituras de Rémol";
-	AL["Secret Chest"] = "Cofre secreto";
-	AL["Alchemy Lab"] = "Laboratorio de alquimia";
 	
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trío de boticarios ";

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 24.11.2010
+-- Letztes Update: 09.01.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -590,13 +590,15 @@ if AL then
 	--Scholomance
 	AL["Blood of Innocents"] = "Das Blut Unschuldiger";
 	AL["Divination Scryer"] = "Orakel der Anrufung";
+	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <Haus Barov>"
+	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <Haus Barov>"
+	AL["Eva Sarkhoff"] = "Eva Sarkhoff"
+	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff"
 	AL["The Deed to Caer Darrow"] = "Die Besitzurkunde für Darrowehr";
 	AL["The Deed to Southshore"] = "Die Besitzurkunde für Süderstade";
 	AL["Torch Lever"] = "Fackelhebel";
 	AL["The Deed to Tarren Mill"] = "Die Besitzurkunde für Tarrens Mühle";
 	AL["The Deed to Brill"] = "Die Besitzurkunde für Brill";
-	AL["Secret Chest"] = "Geheime Truhe";
-	AL["Alchemy Lab"] = "Alchimielabor";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apotheker-Trio";
@@ -608,20 +610,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "Ermittler Fezzen Kupferstapel";
 
 	--SM: Armory
+	AL["Joseph the Crazed"] = "Joseph der Wahnsinnige";
+	AL["Dark Ranger Velonara"] = "Dunkle Waldläuferin Velonara";
+	AL["Dominic"] = "Dominic";
 
 	--SM: Cathedral
 	AL["Cathedral"] = "Kathedrale"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph der Rasende <Scharlachroter Champion>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Kürbisschrein";
+	AL["Joseph the Awakened"] = "Joseph der Erweckte";
 
 	--SM: Library
 	AL["Library"] = "Bibliothek";
+	AL["Compendium of the Fallen"] = "Kompendium der Gefallenen";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Verschiedene Briefkastenschlüssel";
-	AL["Malor's Strongbox"] = "Malors Geldkassette";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Kreuzzugskommandant Eligor Morgenbringer <Bruderschaft des Lichts>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Meisterhandwerker Wilhelm <Bruderschaft des Lichts>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Rottenkommandant Steinberster <Bruderschaft des Lichts>";
 	AL["Stratholme Courier"] = "Kurier von Stratholme";
 	AL["Fras Siabi's Postbox"] = "Fras Siabis Briefkasten";
 	AL["King's Square Postbox"] = "Briefkasten am Königsplatz";
@@ -632,6 +642,8 @@ if AL then
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Briefkasten am Ältestenplatz";
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Erzmagierin Angela Dosantos <Bruderschaft des Lichts>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Kreuzzugskommandant Korfax <Bruderschaft des Lichts>";
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Trampel";

@@ -671,8 +671,6 @@ if AL then
 	AL["Lady Illucia Barov"] = "伊露希亚·巴罗夫";
 	AL["Darkmaster Gandling"] = "黑暗院长加丁";
 	AL["Torch Lever"] = "火炬";
-	AL["Secret Chest"] = "旧宝藏箱";
-	AL["Alchemy Lab"] = "炼金实验室";
 
 	--Shadowfang Keep
 	AL["Deathsworn Captain"] = "死亡之誓";

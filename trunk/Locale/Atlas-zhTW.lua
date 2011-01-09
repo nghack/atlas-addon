@@ -588,8 +588,6 @@ if AL then
 	AL["Torch Lever"] = "火炬";
 	AL["The Deed to Tarren Mill"] = "塔倫米爾地契";
 	AL["The Deed to Brill"] = "布瑞爾地契";
-	AL["Secret Chest"] = "舊寶藏箱";
-	AL["Alchemy Lab"] = "煉金實驗室";
 	
 	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";

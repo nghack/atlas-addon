@@ -596,8 +596,6 @@ if AL then
 	AL["Torch Lever"] = "Torche levier";
 	AL["The Deed to Tarren Mill"] = "Titre de propriété de Moulin-de-Tarren";
 	AL["The Deed to Brill"] = "Titre de propriété de Brill";
-	AL["Secret Chest"] = "Vieux coffre au trésor";
-	AL["Alchemy Lab"] = "Laboratoire d'alchimie";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trio d'apothicaires";

@@ -272,6 +272,17 @@ AtlasMaps = {
 		{ BLUE.."D) "..AL["Armory"], ZONE, 796 };
 		{ BLUE.."E) "..AL["Library"], ZONE, 796 };
 	};
+	TempestKeepEnt = {
+		ZoneName = { BZ["Tempest Keep"]..": ".."("..AL["Entrance"]..")" };
+		Location = { BZ["Netherstorm"], 3523 };
+		LevelRange = "68-70";
+		MinLevel= "68";
+		PlayerLimit = "5/25";
+		{ BLUE.."A) "..BZ["The Botanica"] };
+		{ BLUE.."B) "..BZ["The Mechanar"] };
+		{ BLUE.."C) "..BZ["The Arcatraz"] };
+		{ BLUE.."D) "..BZ["Tempest Keep"] };
+	};
 	TheDeadminesEnt = {
 		ZoneName = { BZ["The Deadmines"].." ("..AL["Entrance"]..")", 1581 };
 		Location = { BZ["Westfall"], 40 };

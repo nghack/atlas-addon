@@ -1158,6 +1158,7 @@ AtlasMaps = {
 		{ WHIT.."2) "..BB["Anzu"].." ("..AL["Heroic"]..")", NPC, 23035 };
 		{ GREN..INDENT..AL["The Saga of Terokk"], OBJECT, 183050 };
 		{ WHIT.."3) "..BB["Talon King Ikiss"], NPC, 18473 };
+		{ GREN..INDENT..AL["Terokk's Quill"] };
 	};
 	AuchShadowLabyrinth = {
 		ZoneName = { BZ["Auchindoun"]..": "..BZ["Shadow Labyrinth"], 3789 };

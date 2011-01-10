@@ -683,6 +683,7 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "Lakka";
 	AL["The Saga of Terokk"] = "The Saga of Terokk";
+	AL["Terokk's Quill"] = "Terokk's Quill";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "The Codex of Blood";

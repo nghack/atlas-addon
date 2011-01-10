@@ -273,8 +273,8 @@ AtlasMaps = {
 		{ BLUE.."E) "..AL["Library"], ZONE, 796 };
 	};
 	TempestKeepEnt = {
-		ZoneName = { BZ["Tempest Keep"]..": ".."("..AL["Entrance"]..")" };
-		Location = { BZ["Netherstorm"], 3523 };
+		ZoneName = { BZ["Tempest Keep"].." ("..AL["Entrance"]..")" };
+		Location = { BZ["Netherstorm"] };
 		LevelRange = "68-70";
 		MinLevel= "68";
 		PlayerLimit = "5/25";

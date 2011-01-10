@@ -581,6 +581,10 @@ if AL then
 	--Scholomance
 	AL["Blood of Innocents"] = "鑰匙: 無辜者之血";
 	AL["Divination Scryer"] = "鑰匙: 預言水晶球";
+	AL["Alexi Barov <House of Barov>"] = "阿萊克斯·巴羅夫 <巴羅夫家族>";
+	AL["Weldon Barov <House of Barov>"] = "維爾頓·巴羅夫 <巴羅夫家族>";
+	AL["Eva Sarkhoff"] = "伊娃·薩克霍夫";
+	AL["Lucien Sarkhoff"] = "盧森·薩克霍夫";
 	AL["The Deed to Caer Darrow"] = "凱爾達隆地契";
 	AL["The Deed to Southshore"] = "南海鎮地契";
 	AL["Torch Lever"] = "火炬";
@@ -597,20 +601,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
 	--SM: Armory
+	AL["Joseph the Crazed"] = "發瘋的約瑟夫";
+	AL["Dark Ranger Velonara"] = "黑暗遊俠薇蘿娜拉";
+	AL["Dominic"] = "多明尼克";
 
 	--SM: Cathedral
 	AL["Cathedral"] = "大教堂"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "瘋掉的約瑟夫 <血色勇士>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "沃瑞爾·森古斯";
 	AL["Pumpkin Shrine"] = "無頭騎士南瓜";
+	AL["Joseph the Awakened"] = "甦醒的約瑟夫";
 
 	--SM: Library
 	AL["Library"] = "圖書館"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Compendium of the Fallen"] = "墮落者綱要";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "郵箱鑰匙";
-	AL["Malor's Strongbox"] = "瑪洛爾的保險箱";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "指揮官艾利格·黎明使者 <聖光兄弟會>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "工匠大師維爾海姆 <聖光兄弟會>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "軍需籌備官石漢 <聖光兄弟會>";
 	AL["Stratholme Courier"] = "斯坦索姆信差";
 	AL["Fras Siabi's Postbox"] = "弗拉斯·希亞比的郵箱";
 	AL["King's Square Postbox"] = "國王廣場郵箱";
@@ -621,6 +633,8 @@ if AL then
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "長者廣場郵箱";
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "大法師安琪拉·多桑杜 <聖光兄弟會>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "『聖光勇士』柯菲斯 <聖光兄弟會>";
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "笨重的歐弗";
@@ -669,6 +683,7 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "拉卡";
 	AL["The Saga of Terokk"] = "泰洛克的傳說";
+	AL["Terokk's Quill"] = "泰洛克羽毛";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "血之聖典";

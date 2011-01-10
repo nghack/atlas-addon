@@ -588,10 +588,10 @@ if AL then
 	--Scholomance
 	AL["Blood of Innocents"] = "Das Blut Unschuldiger";
 	AL["Divination Scryer"] = "Orakel der Anrufung";
-	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <Haus Barov>"
-	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <Haus Barov>"
-	AL["Eva Sarkhoff"] = "Eva Sarkhoff"
-	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff"
+	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <Haus Barov>";
+	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <Haus Barov>";
+	AL["Eva Sarkhoff"] = "Eva Sarkhoff";
+	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
 	AL["The Deed to Caer Darrow"] = "Die Besitzurkunde für Darrowehr";
 	AL["The Deed to Southshore"] = "Die Besitzurkunde für Süderstade";
 	AL["Torch Lever"] = "Fackelhebel";

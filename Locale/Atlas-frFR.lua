@@ -589,6 +589,10 @@ if AL then
 	--Scholomance
 	AL["Blood of Innocents"] = "Sang des innocents";
 	AL["Divination Scryer"] = "Clairvoyant";
+	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <Maison Barov>";
+	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <Maison Barov>";
+	AL["Eva Sarkhoff"] = "Eva Sarkhoff";
+	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
 	AL["The Deed to Caer Darrow"] = "Titre de propriété de Caer Darrow";
 	AL["The Deed to Southshore"] = "Titre de propriété d'Austrivage";
 	AL["Torch Lever"] = "Torche levier";
@@ -605,20 +609,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = " Enquêteur Fezzen Desfaits";
 
 	--SM: Armory
-
+	AL["Joseph the Crazed"] = "Joseph l'Affolé";
+	AL["Dark Ranger Velonara"] = "Forestier-sombre Velonara";
+	AL["Dominic"] = "Dominic";
+	
 	--SM: Cathedral
 	AL["Cathedral"] = "Cathédrale"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph le Dément <Champion écarlate>";
 		
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Sanctuaire Citrouille";
-
+	AL["Joseph the Awakened"] = "Joseph l'Éveillé";
+	
 	--SM: Library
 	AL["Library"] = "Bibliothèque";
+	AL["Compendium of the Fallen"] = "Compendium des Déchus";
 		
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Clé des boîtes à lettres";
-	AL["Malor's Strongbox"] = "Coffre de Malor";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Maître-artisan Wilhelm <Confrérie de la Lumière>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Maître-fourrier Navrepierre <Confrérie de la Lumière>";
 	AL["Stratholme Courier"] = "Messager de Stratholme";
 	AL["Fras Siabi's Postbox"] = "Boîte de Fras Siabi";
 	AL["King's Square Postbox"] = "Boîte de la place du Roi";
@@ -629,7 +641,9 @@ if AL then
 	
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Boîte de la place des Anciens";
-
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Archimage Angela Dosantos <Confrérie de la Lumière>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Commandant de la croisade Korfax <Confrérie de la Lumière>";
+	
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Dadais chancelant";
 	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
@@ -677,6 +691,7 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "Lakka";
 	AL["The Saga of Terokk"] = "La Saga de Terokk";
+	AL["Terokk's Quill"] = "Rémige de Terokk";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "Codex de sang";

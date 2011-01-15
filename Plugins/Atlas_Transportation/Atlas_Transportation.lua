@@ -622,6 +622,7 @@ local myData = {
 		{ PURP.." A) "..BZ["Waygate"]..", "..BZ["Sholazar Basin"] };
 		{ PURP.." B) "..BZ["Wintergrasp Fortress"]..", "..BZ["Wintergrasp"] };
 		{ PURP.." C) "..BZ["Violet Stand"]..", "..BZ["Crystalsong Forest"] };
+		{ PURP.." D) "..BZ["Garm's Rise"]..", "..BZ["The Storm Peaks"] };
 		{ PURP.." A') "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ "" };
@@ -700,6 +701,7 @@ local myData = {
 		{ PURP.." A) "..BZ["Waygate"]..", "..BZ["Sholazar Basin"] };
 		{ PURP.." B) "..BZ["Wintergrasp Fortress"]..", "..BZ["Wintergrasp"] };
 		{ PURP.." C) "..BZ["Violet Stand"]..", "..BZ["Crystalsong Forest"] };
+		{ PURP.." D) "..BZ["Garm's Rise"]..", "..BZ["The Storm Peaks"] };
 		{ PURP.." A') "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ "" };

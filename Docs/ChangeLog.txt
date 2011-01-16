@@ -8,6 +8,8 @@ Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 
 v1.18.2 (Feb xx, 2011)
 - NPC map updates for several dungeons
+- Added Tempest Keep Entrance map
+- Added Ulduar Entrance map
 
 v1.18.1 (Jan 06, 2011)
 - Translation update

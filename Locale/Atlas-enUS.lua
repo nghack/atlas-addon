@@ -421,6 +421,10 @@ if AL then
 	--Sunken Temple (Entrance)
 
 	--Uldaman (Entrance)
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "Shavalius the Fancy <Flight Master>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "Chester Copperpot <General & Trade Supplies>";
+	AL["Slosh <Food & Drink>"] = "Slosh <Food & Drink>";
 
 	--Wailing Caverns (Entrance)
 

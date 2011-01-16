@@ -319,6 +319,21 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..BZ["Uldaman"], ZONE, 1337 };
 	};
+	UlduarEnt = {
+		ZoneName = { BZ["Ulduar"].." ("..AL["Entrance"]..")" };
+		Location = { BZ["The Storm Peaks"] };
+		LevelRange = "77-80";
+		MinLevel = "72";
+		PlayerLimit = "5/10/25";
+		{ BLUE.."A) "..BZ["Ulduar"]..": "..BZ["Halls of Stone"] };
+		{ BLUE.."B) "..BZ["Ulduar"]..": "..BZ["Halls of Lightning"] };
+		{ BLUE.."C) "..BZ["Ulduar"] };
+		{ GREN.."1') "..AL["Meeting Stone"] };
+		{ GREN.."2') "..AL["Graveyard"] };
+		{ GREN.."3') "..AL["Shavalius the Fancy <Flight Master>"] };
+		{ GREN..INDENT..AL["Chester Copperpot <General & Trade Supplies>"] };
+		{ GREN..INDENT..AL["Slosh <Food & Drink>"] };
+	};
 	WailingCavernsEnt = {
 		ZoneName = { BZ["Wailing Caverns"].." ("..AL["Entrance"]..")", 718 };
 		Location = { BZ["Northern Barrens"], 17 };

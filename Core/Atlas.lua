@@ -541,6 +541,7 @@ Atlas_EntToInstMatches = {
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
 	["UldamanEnt"] =			{"Uldaman"};
+	["UlduarEnt"] = 			{"UlduarHallsofStone", "UlduarHallsofLightning", "UlduarA", "UlduarB", "UlduarC", "UlduarD", "UlduarE"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 };
 
@@ -594,6 +595,13 @@ Atlas_InstToEntMatches = {
 	["TheDeadmines"] =			{"TheDeadminesEnt"};
 	["TheSunkenTemple"] =			{"TheSunkenTempleEnt"};
 	["Uldaman"] =				{"UldamanEnt"};
+	["UlduarHallsofStone"] = 		{"UlduarEnt"}; 
+	["UlduarHallsofLightning"] = 		{"UlduarEnt"};
+	["UlduarA"] = 				{"UlduarEnt"};
+	["UlduarB"] = 				{"UlduarEnt"};
+	["UlduarC"] = 				{"UlduarEnt"};
+	["UlduarD"] = 				{"UlduarEnt"};
+	["UlduarE"] = 				{"UlduarEnt"};
 	["WailingCaverns"] =			{"WailingCavernsEnt"};
 };
 

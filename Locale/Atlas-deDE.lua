@@ -429,6 +429,11 @@ if AL then
 
 	--Uldaman (Entrance)
 
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "Shavalius der Adrette <Flugmeister>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "Chester Kupferkessel <Gemischt- & Handwerkswaren>";
+	AL["Slosh <Food & Drink>"] = "Slosh <Speis & Trank>";
+
 	--Wailing Caverns (Entrance)
 
 --************************************************

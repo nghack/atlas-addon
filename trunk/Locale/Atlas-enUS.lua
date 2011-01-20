@@ -512,8 +512,6 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	AL["Prison Cell Key"] = "Prison Cell Key";
-	AL["Jail Break!"] = "Jail Break!";
 	AL["Relic Coffer Key"] = "Relic Coffer Key";
 	AL["Dark Keeper Key"] = "Dark Keeper Key";
 	AL["The Black Anvil"] = "The Black Anvil";

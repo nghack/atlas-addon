@@ -650,7 +650,6 @@ AtlasMaps = {
 		MinLevel = "42";
 		PlayerLimit = "5";
 		Acronym = AL["BRD"];
-		{ ORNG..AL["Key"]..": "..AL["Prison Cell Key"].." ("..AL["Jail Break!"]..")", ITEM, 11140 };
 		{ ORNG..AL["Key"]..": "..AL["Relic Coffer Key"], ITEM, 11078 };
 		{ ORNG..AL["Key"]..": "..AL["Dark Keeper Key"], ITEM, 11197 };
 		{ BLUE.."A) "..AL["Entrance"] };

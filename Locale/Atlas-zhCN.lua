@@ -492,8 +492,6 @@ if AL then
 	
 	--Blackrock Depths
 	AL["Shadowforge Key"] = "暗炉钥匙";
-	AL["Prison Cell Key"] = "监狱牢房钥匙";
-	AL["Jail Break!"] = "冲破牢笼";
 	AL["Banner of Provocation"] = "挑衅之旗";
 	AL["Lord Roccor"] = "洛考尔";
 	AL["Kharan Mighthammer"] = "卡兰·巨锤";

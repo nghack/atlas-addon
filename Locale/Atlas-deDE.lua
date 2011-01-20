@@ -519,8 +519,6 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	AL["Prison Cell Key"] = "Gefängniszellenschlüssel";
-	AL["Jail Break!"] = "Gefängnisausbruch!";
 	AL["Relic Coffer Key"] = "Reliktkastenschlüssel";
 	AL["Dark Keeper Key"] = "Schlüssel des Dunkelbewahrers";
 	AL["The Black Anvil"] = "Der Schwarze Amboss";

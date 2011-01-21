@@ -422,6 +422,11 @@ if AL then
 
 	--Uldaman (Entrance)
 
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "『狂想』夏瓦利厄斯 <飛行管理員>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "查斯特·銅壺 <一般與貿易供應商>";
+	AL["Slosh <Food & Drink>"] = "斯洛許 <食物和飲料>";
+
 	--Wailing Caverns (Entrance)
 
 --************************************************
@@ -516,6 +521,7 @@ if AL then
 	AL["Elder Morndeep"] = "深晨長者";
 	AL["Schematic: Field Repair Bot 74A"] = "結構圖:戰地修理機器人74A型";
 	AL["Private Rocknot"] = "羅克諾特下士";
+	AL["Mistress Nagmara"] = "娜瑪拉小姐";
 	AL["Summoner's Tomb"] = "召喚者之墓";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "加琳達 <摩根的民兵>";
 	AL["Oralius <Morgan's Militia>"] = "奧拉留斯 <摩根的民兵>";
@@ -532,17 +538,17 @@ if AL then
 	AL["The Shadowforge Lock"] = "暗爐之鎖";
 	AL["Mayara Brightwing <Morgan's Militia>"] = "瑪亞拉·亮翼 <摩根的民兵>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "祭師塞朵拉·穆瓦丹尼 <卡加斯遠征軍>";
-	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "羅克圖斯·暗契";
+	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "羅克圖斯·暗契 <瑟銀兄弟會>";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "巡山人歐弗斯 <摩根的民兵>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "桑德哈特 <卡加斯遠征軍>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "麥斯威爾元帥 <摩根的民兵>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "督軍高圖斯 <卡加斯遠征軍>";
 	AL["The Black Forge"] = "黑熔爐";
 	AL["Shadowforge Brazier"] = "暗爐火盆";
-	AL["Kharan Mighthammer"] = "卡蘭·巨錘";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "指揮官哥沙克 <卡加斯遠征軍>";
-	AL["Mistress Nagmara"] = "娜瑪拉小姐";
-	AL["Griz Gutshank <Arena Vendor>"] = "格利茲·易柄";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "烏洛克的貢品堆";
-	AL["Acride <Scarshield Legion>"] = "裂盾滲透者";
+	AL["Acride <Scarshield Legion>"] = "裂盾滲透者 <裂盾軍團>";
 	AL["Elder Stonefort"] = "石壘長者";
 	AL["Roughshod Pike"] = "尖銳長矛";
 
@@ -558,10 +564,13 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "咀嚼者";
 	AL["Blastmaster Emi Shortfuse"] = "爆破專家艾米·短線";
-	AL["Murd Doc <S.A.F.E.>"] = "哮·狼的護腿";
+	AL["Murd Doc <S.A.F.E.>"] = "哮·狼的護腿 <S.A.F.E.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "丁克·鐵哨 <工程學供應商>";
 	AL["The Sparklematic 5200"] = "超級清潔器5200型！";
 	AL["Mail Box"] = "鎖甲箱";
+	AL["B.E Barechus <S.A.F.E.>"] = "怪怪頭 <S.A.F.E.>";
+	AL["Face <S.A.F.E.>"] = "小白臉 <S.A.F.E.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "漢·泥巴 <S.A.F.E.>";
 
 	--Molten Core
 
@@ -628,7 +637,7 @@ if AL then
 	AL["Lieutenant Horatio Laine"] = "何瑞修·萊恩中尉";
 	AL["Kagtha"] = "卡格薩";
 	AL["Slinky Sharpshiv"] = "史琳琪·利刀";
-	AL["Quartermaster Lewis <Quartermaster>"] = "軍需官路易斯";
+	AL["Quartermaster Lewis <Quartermaster>"] = "軍需官路易斯 <軍需官>";
 	AL["Miss Mayhem"] = "暴行小姐";
 	AL["Vend-O-Tron D-Luxe"] = "高級自動販賣機";
 	
@@ -711,7 +720,7 @@ if AL then
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "開啟黑暗之門";
 	AL["Key of Time"] = "時光之鑰";
-	AL["Sa'at <Keepers of Time>"] = "塞特";
+	AL["Sa'at <Keepers of Time>"] = "塞特 <時光守望者>";
 	AL["The Dark Portal"] = "黑暗之門";
 
 	--CoT: Hyjal Summit
@@ -721,7 +730,7 @@ if AL then
 	AL["Horde Encampment"] = "部落營地";
 	AL["Thrall <Warchief>"] = "索爾 <首領>";
 	AL["Night Elf Village"] = "夜精靈村";
-	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "泰蘭妲·語風";
+	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "泰蘭妲·語風 <伊露恩的高階女祭司>";
 
 	--CoT: Old Hillsbrad Foothills
 	AL["Escape from Durnholde Keep"] = "逃離敦霍爾德";
@@ -732,7 +741,7 @@ if AL then
 	AL["Taretha"] = "塔蕾莎";
 	AL["Don Carlos"] = "卡洛斯大爺";
 	AL["Guerrero"] = "葛雷洛";
-	AL["Thomas Yance <Travelling Salesman>"] = "湯瑪斯·陽斯";
+	AL["Thomas Yance <Travelling Salesman>"] = "湯瑪斯·陽斯 <旅行商人>";
 	AL["Aged Dalaran Wizard"] = "年邁的達拉然法師";
 	AL["Jonathan Revah"] = "強納森·瑞瓦";
 	AL["Jerry Carter"] = "傑瑞·卡特";
@@ -744,8 +753,8 @@ if AL then
 	AL["Herod the Bully"] = "流氓希洛特";
 	AL["Nat Pagle"] = "納特·帕格";
 	AL["Hal McAllister"] = "哈爾·馬克奧里斯特";
-	AL["Zixil <Aspiring Merchant>"] = "吉克希爾";
-	AL["Overwatch Mark 0 <Protector>"] = "守候者零型";
+	AL["Zixil <Aspiring Merchant>"] = "吉克希爾 <高級商人>";
+	AL["Overwatch Mark 0 <Protector>"] = "守候者零型 <保衛者>";
 	AL["Southshore Inn"] = "南海鎮旅館";
 	AL["Captain Edward Hanes"] = "隊長艾德華·漢尼斯";
 	AL["Captain Sanders"] = "桑德斯船長";
@@ -754,11 +763,11 @@ if AL then
 	AL["Abbendis"] = "阿比迪斯";
 	AL["Fairbanks"] = "費爾班克";
 	AL["Taelan"] = "泰蘭";
-	AL["Barkeep Kelly <Bartender>"] = "酒吧老闆凱利";
-	AL["Frances Lin <Barmaid>"] = "法蘭斯·林";
-	AL["Chef Jessen <Speciality Meat & Slop>"] = "廚師傑森";
+	AL["Barkeep Kelly <Bartender>"] = "酒吧老闆凱利 <酒保>";
+	AL["Frances Lin <Barmaid>"] = "法蘭斯·林 <酒吧女服務員>";
+	AL["Chef Jessen <Speciality Meat & Slop>"] = "廚師傑森 <特殊肉品和食物>";
 	AL["Stalvan Mistmantle"] = "斯塔文·密斯特曼托";
-	AL["Phin Odelic <The Kirin Tor>"] = "費恩·奧德利克";
+	AL["Phin Odelic <The Kirin Tor>"] = "費恩·奧德利克 <祈倫托>";
 	AL["Magistrate Henry Maleb"] = "赫尼·馬雷布鎮長";
 	AL["Raleigh the True"] = "純真者洛歐欸";
 	AL["Nathanos Marris"] = "納薩諾斯·瑪瑞斯";
@@ -801,15 +810,15 @@ if AL then
 	AL["Wizard of Oz"] = "綠野仙蹤";
 	AL["The Master's Terrace"] = "大師的露臺";
 	AL["Servant Quarters"] = "伺從區";
-	AL["Hastings <The Caretaker>"] = "哈斯丁";
-	AL["Berthold <The Doorman>"] = "勃特霍德";
-	AL["Calliard <The Nightman>"] = "卡利卡";
-	AL["Koren <The Blacksmith>"] = "卡爾侖";
-	AL["Bennett <The Sergeant at Arms>"] = "班尼特";
+	AL["Hastings <The Caretaker>"] = "哈斯丁 <照料者>";
+	AL["Berthold <The Doorman>"] = "勃特霍德 <看門人>";
+	AL["Calliard <The Nightman>"] = "卡利卡 <夜間工作者>";
+	AL["Koren <The Blacksmith>"] = "卡爾侖 <鐵匠>";
+	AL["Bennett <The Sergeant at Arms>"] = "班尼特 <待命中的中士>";
 	AL["Keanna's Log"] = "琪安娜的日誌";
-	AL["Ebonlocke <The Noble>"] = "埃伯洛克";
-	AL["Sebastian <The Organist>"] = "塞巴斯汀";
-	AL["Barnes <The Stage Manager>"] = "巴奈斯";
+	AL["Ebonlocke <The Noble>"] = "埃伯洛克 <貴族>";
+	AL["Sebastian <The Organist>"] = "塞巴斯汀 <風琴演奏家>";
+	AL["Barnes <The Stage Manager>"] = "巴奈斯 <舞台管理員>";
 
 	--Karazhan End
 	AL["Path to the Broken Stairs"] = "通往損壞的階梯的通道";

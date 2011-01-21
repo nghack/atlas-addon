@@ -775,10 +775,7 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Drakkisath's Brand"], OBJECT, 179880 };
 		{ GREN.."1') "..AL["Acride <Scarshield Legion>"], NPC, 48292 };
 		{ GREN.."2') "..AL["Father Flame"], OBJECT, 175245 };
-		{ GREN.."3') "..AL["Awbee"], NPC, 10740 };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..AL["Darkstone Tablet"], OBJECT, 175385 };
-		{ _RED.."0') "..AL["Doomrigger's Coffer"], OBJECT, 175382 };
 		{ _RED.."0') "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")", NPC, 10509 };
 	};
 	BlackwingLair = {

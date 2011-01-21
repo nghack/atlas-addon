@@ -451,6 +451,8 @@ if AL then
 	AL["Relwyn Shadestar"] = "Relwyn Schattenstern";
 	AL["Sentinel Aluwyn"] = "Schildwache Aluwyn";
 	AL["Sentinel-trainee Issara"] = "Schildwachenschülerin Issara";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <Der Irdene Ring>";
+	AL["Zeya"] = "Zeya";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Eisenborke der Große";
@@ -485,7 +487,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "Speerträger der Klingenhauer";
 	AL["Willix the Importer"] = "Willix der Importeur";
-	AL["Heralath Fallowbrook"] = "Heralath Bachquell";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "Vier Elitesoldaten der Kaldorei";
@@ -660,9 +661,12 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Stab der Prähistorie";
 	AL["Baelog's Chest"] = "Baelogs Truhe";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "Oberster Prüfer Tae'thelan Blutwächter";
-	AL["Lidia Sunglow"] = "Lidia Sonnenglanz";
-	AL["Aoren Sunglow"] = "Aoren Sonnenglanz";
+	AL["Kand Sandseeker <Explorer's League>"] = "Kand Sandsucher <Forscherliga>";
+	AL["Lead Prospector Durdin <Explorer's League>"] = "Oberausgrabungsleiter Durdin <Forscherliga>";
+	AL["Olga Runesworn <Explorer's League>"] = "Olga Runenschwur <Forscherliga>";
+	AL["Aoren Sunglow <The Reliquary>"] = "Aoren Sonnenglanz <Die Archäologische Akademie>";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "Oberster Prüfer Tae'thelan Blutwächter <Die Archäologische Akademie>";
+	AL["Lidia Sunglow <The Reliquary>"] = "Lidia Sonnenglanz <Die Archäologische Akademie>";
 	AL["Ancient Treasure"] = "Antiker Schatz";
 	AL["The Discs of Norgannon"] = "Die Scheiben von Norgannon";
 

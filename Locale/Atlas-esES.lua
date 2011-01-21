@@ -472,10 +472,13 @@ if AL then
 	--Ragefire Chasm
 
 	--Razorfen Downs
+	AL["Koristrasza"] = "Koristrasza";
 	AL["Belnistrasz"] = "Belnistrasz";
 
 	--Razorfen Kraul
+	AL["Auld Stonespire"] = "Auld Picopiedra";
 	AL["Razorfen Spearhide"] = "Cuerolanza de Rajacieno";
+	AL["Spirit of Agamaggan <Ancient>"] = "Espíritu de Agamaggan <Anciano>";
 	AL["Willix the Importer"] = "Willix el Importador";
 
 	--Ruins of Ahn'Qiraj

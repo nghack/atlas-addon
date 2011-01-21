@@ -501,6 +501,9 @@ if AL then
 	AL["Disciple of Naralex"] = "Discípulo de Naralex";
 
 	--Zul'Farrak
+	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Ingeniero jefe Pasaquillas <Compañía de aguas de Gadgetzan>";
+	AL["Mazoga's Spirit"] = "Espíritu de Mazoga";
+	AL["Tran'rek"] = "Tran'rek";
 	AL["Weegli Blastfuse"] = "Weegli Plomofundido";
 	AL["Raven"] = "Cuervo";
 	AL["Elder Wildmane"] = "Ancestro Barvacrín";

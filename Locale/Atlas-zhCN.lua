@@ -577,13 +577,10 @@ if AL then
 	AL["Pyroguard Emberseer"] = "烈焰卫士艾博希尔";
 	AL["Solakar Flamewreath"] = "索拉卡·火冠";
 	AL["Father Flame"] = "烈焰之父";
-	AL["Darkstone Tablet"] = "黑暗石板";
-	AL["Doomrigger's Coffer"] = "末日扣环";
 	AL["Jed Runewatcher <Blackhand Legion>"] = "杰德 <黑手军团>";
 	AL["Goraluk Anvilcrack <Blackhand Legion Armorsmith>"] = "古拉鲁克 <黑手军团铸甲师>";
 	AL["Warchief Rend Blackhand"] = "大酋长雷德·黑手";
 	AL["Gyth <Rend Blackhand's Mount>"] = "盖斯 <雷德·黑手的坐骑>";
-	AL["Awbee"] = "奥比";
 	AL["The Beast"] = "比斯巨兽";
 	AL["Lord Valthalak"] = "瓦塔拉克公爵";
 	AL["Finkle Einhorn"] = "芬克·恩霍尔";

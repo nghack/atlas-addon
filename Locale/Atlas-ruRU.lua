@@ -553,9 +553,6 @@ if AL then
 	AL["Finkle Einhorn"] = "Айс Вентурон";
 	AL["Drakkisath's Brand"] = "Клеймо Драккисата";
 	AL["Father Flame"] = "Огонь отцов";
-	AL["Awbee"] = "Ауби";
-	AL["Darkstone Tablet"] = "Табличка Темного Камня";
-	AL["Doomrigger's Coffer"] = "Металлический ящик Рокового Зажима";
 
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Сфера Приказа";

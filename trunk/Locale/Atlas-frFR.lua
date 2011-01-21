@@ -580,6 +580,9 @@ if AL then
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Bricolo Sifflepignon <Fournitures d'ingénieur>";
 	AL["The Sparklematic 5200"] = "Le Brille-o-Matic 5200";
 	AL["Mail Box"] = "Boîte aux lettres";
+	AL["B.E Barechus <S.A.F.E.>"] = "Bar-à-Coups-Bas <IMUN>";
+	AL["Face <S.A.F.E.>"] = "Fuité <IMUN>";
+	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <IMUN>";
 
 	--Molten Core
 

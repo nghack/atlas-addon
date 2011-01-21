@@ -744,16 +744,11 @@ AtlasMaps = {
 		{ ORNG.."1) "..BB["Spirestone Butcher"].." ("..AL["Rare"]..")" };
 		{ ORNG.."2) "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")" };
 		{ GREN.."1') "..AL["Acride <Scarshield Legion>"] };
-		{ GREN.."2') "..AL["Warosh <The Cursed>"].." ("..AL["Wanders"]..")" };
-		{ GREN..INDENT..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
+		{ GREN.."2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.."3') "..AL["Roughshod Pike"] };
-		{ GREN.."4') "..AL["Bijou"] };
-		{ GREN.."5') "..AL["Unfired Plate Gauntlets"] };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
 		{ _RED.."0') "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")", NPC, 9218 };
 		{ _RED.."0') "..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")", NPC, 9217 };
-		{ _RED.."0') "..AL["Bijou's Belongings"], OBJECT, 175334 };
-		{ _RED.."0') "..AL["Human Remains"].." ("..AL["Lower"]..")", OBJECT, 176090 };
 		{ _RED.."0') "..BB["Crystal Fang"].." ("..AL["Rare"]..")", NPC, 10376 };
 		{ _RED.."0') "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")", NPC, 9718 };
 		{ _RED.."0') "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")", NPC, 10263 };

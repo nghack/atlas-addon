@@ -546,13 +546,8 @@ if AL then
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Груда приношений Арроку";
 	AL["Acride <Scarshield Legion>"] = "Секретный агент <Легион Изрубленного Щита>";
-	AL["Warosh <The Cursed>"] = "Варош <Проклятый >";
 	AL["Elder Stonefort"] = "Старейшина Камнеград";
 	AL["Roughshod Pike"] = "Наконечник Грубой силы ";
-	AL["Bijou"] = "Блестяшка";
-	AL["Unfired Plate Gauntlets"] = "Неопалимые латные рукавицы";
-	AL["Bijou's Belongings"] = "Вещи Блестяшки";
-	AL["Human Remains"] = "Человеческие останки";
 
 	--Blackrock Spire (Upper)
 	AL["Finkle Einhorn"] = "Айс Вентурон";

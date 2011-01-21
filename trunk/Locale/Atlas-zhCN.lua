@@ -552,7 +552,6 @@ if AL then
 
 	--Blackrock Spire (Lower)
 	AL["Vaelan"] = "维埃兰";
-	AL["Warosh <The Cursed>"] = "瓦罗什 <被诅咒者>";
 	AL["Elder Stonefort"] = "石墙长者";
 	AL["Roughshod Pike"] = "尖锐长矛";
 	AL["Spirestone Butcher"] = "尖石屠夫";
@@ -560,12 +559,8 @@ if AL then
 	AL["Spirestone Battle Lord"] = "尖石统帅";
 	AL["Spirestone Lord Magus"] = "尖石首席法师";
 	AL["Shadow Hunter Vosh'gajin"] = "暗影猎手沃什加斯";
-	AL["Bijou"] = "比修";
 	AL["War Master Voone"] = "指挥官沃恩";
 	AL["Mor Grayhoof"] = "莫尔·灰蹄";
-	AL["Bijou's Belongings"] = "比修的装置";
-	AL["Human Remains"] = "人类遗骸";
-	AL["Unfired Plate Gauntlets"] = "未淬火的板甲护手";
 	AL["Bannok Grimaxe <Firebrand Legion Champion>"] = "班诺克·巨斧 <火印军团勇士>";
 	AL["Mother Smolderweb"] = "烟网蛛后";
 	AL["Crystal Fang"] = "水晶之牙";

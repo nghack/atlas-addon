@@ -548,13 +548,8 @@ if AL then
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Urok's Tribute Pile";
 	AL["Acride <Scarshield Legion>"] = "Acride <Scarshield Legion>";
-	AL["Warosh <The Cursed>"] = "Warosh <The Cursed>";
 	AL["Elder Stonefort"] = "Elder Stonefort";
 	AL["Roughshod Pike"] = "Roughshod Pike";
-	AL["Bijou"] = "Bijou";
-	AL["Unfired Plate Gauntlets"] = "Unfired Plate Gauntlets";
-	AL["Bijou's Belongings"] = "Bijou's Belongings";
-	AL["Human Remains"] = "Human Remains";
 
 	--Blackrock Spire (Upper)
 	AL["Finkle Einhorn"] = "Finkle Einhorn";

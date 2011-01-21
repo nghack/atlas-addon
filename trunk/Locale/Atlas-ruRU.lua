@@ -38,10 +38,10 @@ if ( GetLocale() == "ruRU" ) then
 AtlasSortIgnore = {"(.+)"};
 
 AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";
 	["Ahn'Qiraj"] = "Ан'Кираж";
+	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";
 };
-end
+--end
 
 
 if AL then
@@ -423,7 +423,10 @@ if AL then
 
 	--Sunken Temple (Entrance)
 
-	--Uldaman (Entrance)
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "Шавалий Модник <Распорядитель полетов>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "Честер Медноковш <Потребительские и хозяйственные товары>";
+	AL["Slosh <Food & Drink>"] = "Хлюп <Еда и напитки>";
 
 	--Wailing Caverns (Entrance)
 
@@ -523,6 +526,7 @@ if AL then
 	AL["Elder Morndeep"] = "Старейшина Рассветень";
 	AL["Schematic: Field Repair Bot 74A"] = "Схема: полевой ремонтный робот 74A";
 	AL["Private Rocknot"] = "Рядовой Камнеузл";
+	AL["Mistress Nagmara"] = "Госпожа Нагмара";
 	AL["Summoner's Tomb"] = "Гробница Призывателей";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Джалинда Тирлипунька";
 	AL["Oralius <Morgan's Militia>"] = "Орелий";
@@ -540,12 +544,12 @@ if AL then
 	AL["Mayara Brightwing <Morgan's Militia>"] = "Майра Светлое Крыло <Отряд Морганы>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Верховная Жрица Теодора Мальвадания";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Локтос Зловещий Торговец";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "Горный пехотинец Орфус <Отряд Морганы>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "Громосерд <Каргатский экспедиционный корпус>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "Маршал Максвелл <Отряд Морганы>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Полководец Клинозуб <Каргатский экспедиционный корпус>";
 	AL["The Black Forge"] = "Черная Кузня";
-	AL["Shadowforge Brazier"] = "Жаровня Тенегорна"; --need check
-	AL["Kharan Mighthammer"] = "Каран Могучий Молот";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Командир Гор'шак";
-	AL["Mistress Nagmara"] = "Госпожа Нагмара";
-	AL["Griz Gutshank <Arena Vendor>"] = "Гриз Потрошмяк <Продавец экипировки арены>";
+	AL["Shadowforge Brazier"] = "Жаровня Тенегорна";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Груда приношений Арроку";
@@ -569,12 +573,19 @@ if AL then
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Звяк Пружиносвист <Инженерные материалы>";
 	AL["The Sparklematic 5200"] = "Чистер 5200!";
 	AL["Mail Box"] = "Почтовый яшик";
+	AL["B.E Barechus <S.A.F.E.>"] = "Б.Е. Барекус <С.П.А.С.>";
+	AL["Face <S.A.F.E.>"] = "Физий <С.П.А.С.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "Ганни Бал <С.П.А.С.>";
 
 	--Molten Core
 
 	--Scholomance
 	AL["Blood of Innocents"] = "Кровь невинных";
 	AL["Divination Scryer"] = "Гадательный кристалл";
+	AL["Alexi Barov <House of Barov>"] = "Алексий Баров <Род Баровых>";
+	AL["Weldon Barov <House of Barov>"] = "Вэлдон Баров <Род Баровых>";
+	AL["Eva Sarkhoff"] = "Ева Саркофф";
+	AL["Lucien Sarkhoff"] = "Люсьен Саркофф";
 	AL["The Deed to Caer Darrow"] = "Документы на Каэр Дарроу";
 	AL["The Deed to Southshore"] = "Документы на Южнобережье";
 	AL["Torch Lever"] = "Рукоятка факела";
@@ -591,20 +602,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
 
 	--SM: Armory
+	AL["Joseph the Crazed"] = "Джозеф Безумный";
+	AL["Dark Ranger Velonara"] = "Темный следопыт Велонара";
+	AL["Dominic"] = "Доминик";
 
 	--SM: Cathedral
 	AL["Cathedral"] = "Собор"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "Джозеф Чокнутый <Воитель из Алого ордена>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Воррел Сенгутц";
 	AL["Pumpkin Shrine"] = "Святящаяся тыква";
+	AL["Joseph the Awakened"] = "Джозеф Беспокойный";
 
 	--SM: Library
 	AL["Library"] = "Библиотека"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Compendium of the Fallen"] = "\"Компендиум павших\"";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Различные Ключи Почтового ящика";
-	AL["Malor's Strongbox"] = "Сейф Малора";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Командир Элигор Вестник Рассвета <Братство Света>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Мастер-ремесленник Вильгельм <Братство Света>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Караванщик Камнетес <Братство Света>";
 	AL["Stratholme Courier"] = "Стратхольмский курьер";
 	AL["Fras Siabi's Postbox"] = "Ключ от почтового ящика Фраса Сиаби";
 	AL["King's Square Postbox"] = "Ключ от почтового ящика на Королевской площали";
@@ -615,6 +634,8 @@ if AL then
 	
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Ключ от почтового ящика на Площади старейшины";
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Верховный маг Анджела Досантос <Братство Света>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Командир рыцарей Корфакс <Братство Света>";
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Болванчик";
@@ -665,6 +686,7 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "Лакка";
 	AL["The Saga of Terokk"] = "Сага о Терокке";
+	AL["Terokk's Quill"] = "Перо Терокка";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "Кодекс Крови";

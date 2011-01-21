@@ -442,6 +442,8 @@ if AL then
 	AL["Relwyn Shadestar"] = "Релвин Тень Звезды";
 	AL["Sentinel Aluwyn"] = "Часовой Алувин";
 	AL["Sentinel-trainee Issara"] = "Курсант-часовой Иссара";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "Дже'неу Санкри <Служители Земли>";
+	AL["Zeya"] = "Зейя";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Старик Железной Коры";
@@ -476,7 +478,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "Копьешкур из племени Иглошкурых";
 	AL["Willix the Importer"] = "Импортер Вилликс";
-	AL["Heralath Fallowbrook"] = "Гералат Бурый Ручей";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "4 Кальдорайских гвардейцев";
@@ -633,9 +634,12 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Посох Древнейшей Истории";
 	AL["Baelog's Chest"] = "Сундук Бейлога";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "Главный дознаватель Тей'телан Кровавый Взор";
-	AL["Lidia Sunglow"] = "Лидия Солнечное Сияние";
-	AL["Aoren Sunglow"] = "Аорен Солнечное Сияние";
+	AL["Kand Sandseeker <Explorer's League>"] = "Канд Искатель Песков <Лига исследователей>";
+	AL["Lead Prospector Durdin <Explorer's League>"] = "Старший геолог Дардин <Лига исследователей>";
+	AL["Olga Runesworn <Explorer's League>"] = "Ольга Преданная Рунам <Лига исследователей>";
+	AL["Aoren Sunglow <The Reliquary>"] = "Аорен Солнечное Сияние <Реликварий>";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "Главный дознаватель Тей'телан Кровавый Взор <Реликварий>";
+	AL["Lidia Sunglow <The Reliquary>"] = "Лидия Солнечное Сияние <Реликварий>";
 	AL["Ancient Treasure"] = "Древнее сокровище";
 	AL["The Discs of Norgannon"] = "Диски Норганнона";
 

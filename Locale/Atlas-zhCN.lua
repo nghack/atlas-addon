@@ -457,7 +457,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
 	AL["Willix the Importer"] = "进口商威利克斯";
-	AL["Heralath Fallowbrook"] = "赫尔拉斯·静水";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "卡多雷四精英";

@@ -478,7 +478,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
 	AL["Willix the Importer"] = "進口商威利克斯";
-	AL["Heralath Fallowbrook"] = "赫爾拉斯·靜水";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "四個卡多雷精英";
@@ -653,9 +652,9 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "高階審查員泰瑟連·血腥看守者";
-	AL["Lidia Sunglow"] = "莉蒂雅·日耀";
-	AL["Aoren Sunglow"] = "安歐連·日耀";
+	AL["Aoren Sunglow <The Reliquary>"] = "安歐連·日耀";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "高階審查員泰瑟連·血腥看守者";
+	AL["Lidia Sunglow <The Reliquary>"] = "莉蒂雅·日耀";
 	AL["Ancient Treasure"] = "古代寶藏";
 	AL["The Discs of Norgannon"] = "諾甘農圓盤";
 	

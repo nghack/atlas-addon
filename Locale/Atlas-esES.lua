@@ -441,6 +441,8 @@ if AL then
 	AL["Relwyn Shadestar"] = "Relwyn Sombrestrella";
 	AL["Sentinel Aluwyn"] = "Centinela Aluwyn";
 	AL["Sentinel-trainee Issara"] = "Centinela practicante Issara";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <El Anillo de la Tierra>";
+	AL["Zeya"] = "Zeya";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Viejo Cortezaférrea";
@@ -475,7 +477,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "Cuerolanza de Rajacieno";
 	AL["Willix the Importer"] = "Willix el Importador";
-	AL["Heralath Fallowbrook"] = "Heralath Arroyobarbecho";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "Cuatro Elites Kaldorei";
@@ -632,9 +633,12 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Basón de Prehistoria";
 	AL["Baelog's Chest"] = "El Cofre de Baelog";
-	AL["High Examiner Tae'thelan Bloodwatcher"] = "Alto examinador Tae'thelan Mirasangre <El Relicario>";
-	AL["Lidia Sunglow"] = "Lidia Brillo del Sol <El Relicario>";
-	AL["Aoren Sunglow"] = "Aoren Brillo del Sol <El Relicario>";
+	AL["Kand Sandseeker <Explorer's League>"] = "Kand Buscadunas <Liga de Expedicionarios>";
+	AL["Lead Prospector Durdin <Explorer's League>"] = "Prospector jefe Durdin <Liga de Expedicionarios>";
+	AL["Olga Runesworn <Explorer's League>"] = "Olga Jurarruna <Liga de Expedicionarios>";
+	AL["Aoren Sunglow <The Reliquary>"] = "Aoren Brillo del Sol <El Relicario>";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "Alto examinador Tae'thelan Mirasangre <El Relicario>";
+	AL["Lidia Sunglow <The Reliquary>"] = "Lidia Brillo del Sol <El Relicario>";
 	AL["Ancient Treasure"] = "Tesoro Antiguo";
 	AL["The Discs of Norgannon"] = "Los Discos de Norgannon";
 

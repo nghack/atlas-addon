@@ -528,6 +528,7 @@ if AL then
 	AL["Elder Morndeep"] = "Urahne Schwermut";
 	AL["Schematic: Field Repair Bot 74A"] = "Bauplan: Feldreparaturbot 74A";
 	AL["Private Rocknot"] = "Gefreiter Rocknot";
+	AL["Mistress Nagmara"] = "Herrin Nagmara";
 	AL["Summoner's Tomb"] = "Grab des Beschwörers";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Sprig <Morgans Miliz>";
 	AL["Oralius <Morgan's Militia>"] = "Oralius <Morgans Miliz>";
@@ -545,12 +546,12 @@ if AL then
 	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Wolkenglanz <Morgans Miliz>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierophantin Theodora Mulvadania <Expeditionskorps von Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Düsterfeilsch <Die Thoriumbruderschaft>";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "Gebirgsjäger Orfus <Morgans Miliz>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "Donnerherz <Expeditionskorps von Kargath>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "Marschall Maxwell <Morgans Miliz>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Kriegsherr Bluthauer <Expeditionskorps von Kargath>";
 	AL["The Black Forge"] = "Die schwarze Schmiede";
 	AL["Shadowforge Brazier"] = "Schattenschmiedekohlenpfanne";
-	AL["Kharan Mighthammer"] = "Kharan Hammermacht";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Kommandant Gor'shak <Expeditionskorps von Kargath>";
-	AL["Mistress Nagmara"] = "Herrin Nagmara";
-	AL["Griz Gutshank <Arena Vendor>"] = "Griz Mummwinkel <Arenaverkäufer>";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Uroks Tributhaufen";

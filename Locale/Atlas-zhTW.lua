@@ -656,7 +656,6 @@ if AL then
 	AL["High Examiner Tae'thelan Bloodwatcher"] = "高階審查員泰瑟連·血腥看守者";
 	AL["Lidia Sunglow"] = "莉蒂雅·日耀";
 	AL["Aoren Sunglow"] = "安歐連·日耀";
-	AL["Remains of a Paladin"] = "聖騎士的遺體";
 	AL["Ancient Treasure"] = "古代寶藏";
 	AL["The Discs of Norgannon"] = "諾甘農圓盤";
 	

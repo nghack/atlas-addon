@@ -656,7 +656,6 @@ if AL then
 	AL["High Examiner Tae'thelan Bloodwatcher"] = "High Examiner Tae'thelan Bloodwatcher";
 	AL["Lidia Sunglow"] = "Lidia Sunglow";
 	AL["Aoren Sunglow"] = "Aoren Sunglow";
-	AL["Remains of a Paladin"] = "Remains of a Paladin";
 	AL["Ancient Treasure"] = "Ancient Treasure";
 	AL["The Discs of Norgannon"] = "The Discs of Norgannon";
 

@@ -575,7 +575,6 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴尔洛戈的箱子";
-	AL["Remains of a Paladin"] = "圣骑士的遗体";
 	AL["Ancient Treasure"] = "古代宝藏";
 	AL["The Discs of Norgannon"] = "诺甘农圆盘";
 

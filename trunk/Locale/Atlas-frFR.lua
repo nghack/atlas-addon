@@ -529,6 +529,7 @@ if AL then
 	AL["Elder Morndeep"] = "Ancien Gouffre-du-matin";
 	AL["Schematic: Field Repair Bot 74A"] = "Schéma : Robot réparateur 74A";
 	AL["Private Rocknot"] = "Soldat Rochenoeud";
+	AL["Mistress Nagmara"] = "Gouvernante Nagmara";
 	AL["Summoner's Tomb"] = "La tombe des invocateurs";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Milice de Morgan>";
 	AL["Oralius <Morgan's Militia>"] = "Oralius <Milice de Morgan>";
@@ -546,6 +547,10 @@ if AL then
 	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Luisaile <Milice de Morgan>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hiérophante Theodora Mulvadania <Corps expéditionnaire de Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Sombrescompte <La Confrérie du thorium>";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "Montagnard Orfus <Milice de Morgan>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "Cœur-de-tonnerre <Corps expéditionnaire de Kargath>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "Maréchal Maxwell <Milice de Morgan>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Seigneur de guerre Sangredent <Corps expéditionnaire de Kargath>";
 	AL["The Black Forge"] = "La Forge noire";
 	AL["Shadowforge Brazier"] = "Brasero d'ombreforge"; -- Need confirmation
 	AL["Kharan Mighthammer"] = "Kharan Force-martel";

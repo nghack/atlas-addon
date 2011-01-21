@@ -571,13 +571,13 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "Mümmler";
 	AL["Blastmaster Emi Shortfuse"] = "Sprengmeisterin Emi Schnellzünd";
-	AL["Matrix Punchograph 3005-C"] = "Matrix-Prägograph 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.I.C.H.E.R.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Tink Sprosspfiff <Ingenieursbedarf>";
 	AL["The Sparklematic 5200"] = "Der Funkelmat 5200";
 	AL["Mail Box"] = "Briefkasten";
-	AL["Matrix Punchograph 3005-B"] = "Matrix-Prägograph 3005-B";
-	AL["Matrix Punchograph 3005-D"] = "Matrix-Prägograph 3005-D";
+	AL["B.E Barechus <S.A.F.E.>"] = "Bi'ay Bäräkuss <S.I.C.H.E.R.>";
+	AL["Face <S.A.F.E.>"] = "Fähs <S.I.C.H.E.R.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.I.C.H.E.R.>";
 
 	--Molten Core
 

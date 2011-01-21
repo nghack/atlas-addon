@@ -138,7 +138,7 @@ if AL then
 	AL["North"] = "北";
 	AL["South"] = "南";
 	AL["West"] = "西";
-	
+
 	--World Events, Festival
 	AL["Brewfest"] = "啤酒節";
 	AL["Hallow's End"] = "萬鬼節";
@@ -439,7 +439,7 @@ if AL then
 	AL["Relwyn Shadestar"] = "芮爾溫·影星";
 	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
 	AL["Sentinel-trainee Issara"] = "哨兵受訓員伊薩拉";
-	
+
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";
 	AL["Ironbark the Redeemed"] = "贖罪的鐵朴";
@@ -501,7 +501,7 @@ if AL then
 	AL["Weegli Blastfuse"] = "維格利";
 	AL["Raven"] = "拉文";
 	AL["Elder Wildmane"] = "蠻鬃長者";
-	
+
 --****************************
 -- Eastern Kingdoms Instances (Classic)
 --****************************
@@ -558,14 +558,11 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "咀嚼者";
 	AL["Blastmaster Emi Shortfuse"] = "爆破專家艾米·短線";
-	AL["Matrix Punchograph 3005-C"] = "矩陣式打孔電腦 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "哮·狼的護腿";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "丁克·鐵哨 <工程學供應商>";
 	AL["The Sparklematic 5200"] = "超級清潔器5200型！";
 	AL["Mail Box"] = "鎖甲箱";
-	AL["Matrix Punchograph 3005-B"] = "矩陣式打孔電腦 3005-B";
-	AL["Matrix Punchograph 3005-D"] = "矩陣式打孔電腦 3005-D";
-	
+
 	--Molten Core
 
 	--Scholomance
@@ -580,7 +577,7 @@ if AL then
 	AL["Torch Lever"] = "火炬";
 	AL["The Deed to Tarren Mill"] = "塔倫米爾地契";
 	AL["The Deed to Brill"] = "布瑞爾地契";
-	
+
 	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "藥劑師胡默爾 <王冠化學製藥公司>";
@@ -886,7 +883,7 @@ if AL then
 	AL["Galathryn"] = "加拉瑟林";
 	AL["Mitzi"] = "米特辛";
 	AL["Mannuth"] = "曼努斯";
-	
+
 --*****************
 -- WotLK Instances
 --*****************
@@ -993,7 +990,7 @@ if AL then
 	AL["Prospector Doren"] = "勘察員多倫";
 	AL["Archivum Console"] = "大資料庫控制臺";
 
-	--Ulduar C
+	-- Ulduar C
 	AL["Sif"] = "希芙";
 
 	-- Ulduar D

@@ -564,13 +564,13 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "Chomper";
 	AL["Blastmaster Emi Shortfuse"] = "Blastmaster Emi Shortfuse";
-	AL["Matrix Punchograph 3005-C"] = "Matrix Punchograph 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.A.F.E.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Tink Sprocketwhistle <Engineering Supplies>";
 	AL["The Sparklematic 5200"] = "The Sparklematic 5200";
 	AL["Mail Box"] = "Mail Box";
-	AL["Matrix Punchograph 3005-B"] = "Matrix Punchograph 3005-B";
-	AL["Matrix Punchograph 3005-D"] = "Matrix Punchograph 3005-D";
+	AL["B.E Barechus <S.A.F.E.>"] = "B.E Barechus <S.A.F.E.>";
+	AL["Face <S.A.F.E.>"] = "Face <S.A.F.E.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.A.F.E.>";
 
 	--Molten Core
 

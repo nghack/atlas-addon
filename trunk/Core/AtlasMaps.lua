@@ -802,8 +802,8 @@ AtlasMaps = {
 		{ _RED.."0) "..AL["Master Elemental Shaper Krixix"], NPC, 14401 };
 	};
 	Gnomeregan = {
-		ZoneName = { BZ["Gnomeregan"], 133 };
-		Location = { BZ["Dun Morogh"], 1 };
+		ZoneName = { BZ["Gnomeregan"] };
+		Location = { BZ["Dun Morogh"] };
 		LevelRange = "24-34";
 		MinLevel = "19";
 		PlayerLimit = "5";
@@ -811,21 +811,21 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.."B) "..AL["Entrance"].." ("..AL["Back"]..")" };
 		{ BLUE.."C-F) "..AL["Connection"] };
-		{ WHIT.."1) "..BB["Grubbis"], NPC, 7361 };
-		{ WHIT..INDENT..AL["Chomper"], NPC, 6215 };
-		{ GREN..INDENT..AL["Blastmaster Emi Shortfuse"], NPC, 7998 };
-		{ WHIT.."2) "..BB["Viscous Fallout"].." ("..AL["Wanders"]..")", NPC, 7079 };
-		{ WHIT.."3) "..BB["Electrocutioner 6000"], NPC, 6235 };
-		{ GREN..INDENT..AL["Matrix Punchograph 3005-C"], OBJECT, 142476 };
-		{ WHIT.."4) "..BB["Crowd Pummeler 9-60"], NPC, 6229 };
-		{ WHIT.."5) "..BB["Mekgineer Thermaplugg"], NPC, 7800 };
-		{ GREN.."1') "..AL["Murd Doc <S.A.F.E.>"].." ("..BF["Alliance"]..")", NPC, 44556 };
+		{ WHIT.."1) "..BB["Grubbis"] };
+		{ WHIT..INDENT..AL["Chomper"] };
+		{ GREN..INDENT..AL["Blastmaster Emi Shortfuse"] };
+		{ WHIT.."2) "..BB["Viscous Fallout"].." ("..AL["Wanders"]..")" };
+		{ WHIT.."3) "..BB["Electrocutioner 6000"] };
+		{ WHIT.."4) "..BB["Crowd Pummeler 9-60"] };
+		{ WHIT.."5) "..BB["Mekgineer Thermaplugg"] };
+		{ GREN.."1') "..AL["Murd Doc <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
 		{ GREN.."2') "..BZ["The Clean Zone"] };
-		{ GREN..INDENT..AL["Tink Sprocketwhistle <Engineering Supplies>"], NPC, 9676 };
-		{ GREN..INDENT..AL["The Sparklematic 5200"], OBJECT, 142487 };
+		{ GREN..INDENT..AL["Tink Sprocketwhistle <Engineering Supplies>"] };
+		{ GREN..INDENT..AL["The Sparklematic 5200"] };
 		{ GREN..INDENT..AL["Mail Box"] };
-		{ GREN.."3') "..AL["Matrix Punchograph 3005-B"], OBJECT, 142475 };
-		{ GREN.."4') "..AL["Matrix Punchograph 3005-D"], OBJECT, 142696 };
+		{ GREN.."3') "..AL["B.E Barechus <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
+		{ GREN.."4') "..AL["Face <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
+		{ GREN.."5') "..AL["Hann Ibal <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
 	};
 	MoltenCore = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Molten Core"], 2717 };

@@ -560,13 +560,10 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "Mastic";
 	AL["Blastmaster Emi Shortfuse"] = "Maestro Destructor Emi Plomocorto";
-	AL["Matrix Punchograph 3005-C"] = "Perforégrafo Matriz 3005-C";
 	AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.E.G.U.R.O.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Tink Silbadentado <Suministros de ingeniería>";
 	AL["The Sparklematic 5200"] = "El Destellamatic 5200";
 	AL["Mail Box"] = "Buzón";
-	AL["Matrix Punchograph 3005-B"] = "Perforégrafo Matriz 3005-B";
-	AL["Matrix Punchograph 3005-D"] = "Perforégrafo Matriz 3005-D";
 
 	--Molten Core
 

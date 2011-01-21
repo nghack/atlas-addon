@@ -545,13 +545,8 @@ if AL then
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Pila de tributo a Urok";
 	AL["Acride <Scarshield Legion>"] = "Infiltrado del Escudo del Estigma <Legión Escudo del Estigma>"; --Check
-	AL["Warosh <The Cursed>"] = "Warosh <El Maldito>";
 	AL["Elder Stonefort"] = "Ancestro Petraforte";
 	AL["Roughshod Pike"] = "Pica férrea";
-	AL["Bijou"] = "Bijou";
-	AL["Unfired Plate Gauntlets"] = "Guanteletes de placas sin templar";
-	AL["Bijou's Belongings"] = "Pertenencias de Bijou";
-	AL["Human Remains"] = "Restos humanos";
 
 	--Blackrock Spire (Upper)
 	AL["Finkle Einhorn"] = "Finkle Unicornín";

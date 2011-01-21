@@ -543,13 +543,8 @@ if AL then
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "烏洛克的貢品堆";
 	AL["Acride <Scarshield Legion>"] = "裂盾滲透者";
-	AL["Warosh <The Cursed>"] = "瓦羅什 <被詛咒者>";
 	AL["Elder Stonefort"] = "石壘長者";
 	AL["Roughshod Pike"] = "尖銳長矛";
-	AL["Bijou"] = "比修";
-	AL["Unfired Plate Gauntlets"] = "未淬火的鎧甲護手";
-	AL["Bijou's Belongings"] = "比修的裝置";
-	AL["Human Remains"] = "人類殘骸";
 
 	--Blackrock Spire (Upper)
 	AL["Finkle Einhorn"] = "芬克·恩霍爾";

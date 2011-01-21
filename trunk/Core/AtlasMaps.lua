@@ -473,7 +473,6 @@ AtlasMaps = {
 		{ GREN.."3') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")", NPC, 15556 };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
 		{ _RED.."0') "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")", NPC, 12237 };
-
 	};
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"], 2437 };
@@ -526,7 +525,6 @@ AtlasMaps = {
 		{ _RED.."We don't know if these are in Cataclysm yet"};
 		{ _RED.."0) "..BB["Blind Hunter"].." ("..AL["Rare"]..")" };
 		{ _RED.."0) "..BB["Earthcaller Halmgar"].." ("..AL["Rare"]..")" };
-		
 	};
 	TheRuinsofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..": "..BZ["Ruins of Ahn'Qiraj"], 3429 };
@@ -605,7 +603,6 @@ AtlasMaps = {
 		{ GREN.."1') "..AL["Disciple of Naralex"], NPC, 3678 };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
 		{ _RED.."0') "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")", NPC, 5912 };
-		
 	};
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };
@@ -615,6 +612,9 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["ZF"];
 		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] };
+		{ GREN..INDENT..AL["Mazoga's Spirit"] };
+		{ GREN..INDENT..AL["Tran'rek"] };
 		{ WHIT.."1) "..BB["Gahz'rilla"].." ("..AL["Summon"]..")" };
 		{ WHIT.."2) "..BB["Sandfury Executioner"] };
 		{ WHIT..INDENT..AL["Weegli Blastfuse"] };
@@ -635,7 +635,6 @@ AtlasMaps = {
 		{ _RED.."We don't know if these are in Cataclysm yet"};
 		{ _RED.."0') "..BB["Dustwraith"].." ("..AL["Rare"]..")" };
 		{ _RED.."0') "..BB["Zerillis"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" }
-
 	};
 
 --************************************************

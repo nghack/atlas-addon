@@ -537,6 +537,7 @@ if AL then
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierofante Theodora Mulvadania <Fuerza Expedicionaria de Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Tratoscuro <La Hermandad del Torio>";
 	AL["The Black Forge"] = "La Forjanegra";
+	AL["Core Fragment"] = "Trozo del Núcleo";
 	AL["Shadowforge Brazier"] = "Brasero Forjatiniebla"; --Check
 	AL["Kharan Mighthammer"] = "Kharan Martillo Poderoso";
 	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Comandante Gor'shak <Fuerza Expedicionaria de Kargath>";

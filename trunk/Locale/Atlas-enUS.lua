@@ -545,6 +545,7 @@ if AL then
 	AL["Marshal Maxwell <Morgan's Militia>"] = "Marshal Maxwell <Morgan's Militia>";
 	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Warlord Goretooth <Kargath Expeditionary Force>";
 	AL["The Black Forge"] = "The Black Forge";
+	AL["Core Fragment"] = "Core Fragment";
 	AL["Shadowforge Brazier"] = "Shadowforge Brazier";
 
 	--Blackrock Spire (Lower)
@@ -682,7 +683,6 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "Lakka";
 	AL["The Saga of Terokk"] = "The Saga of Terokk";
-	AL["Terokk's Quill"] = "Terokk's Quill";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "The Codex of Blood";

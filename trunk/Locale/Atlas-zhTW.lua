@@ -671,7 +671,6 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "拉卡";
 	AL["The Saga of Terokk"] = "泰洛克的傳說";
-	AL["Terokk's Quill"] = "泰洛克羽毛";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "血之聖典";

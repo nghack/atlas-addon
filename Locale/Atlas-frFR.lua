@@ -553,6 +553,7 @@ if AL then
 	AL["Marshal Maxwell <Morgan's Militia>"] = "Maréchal Maxwell <Milice de Morgan>";
 	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Seigneur de guerre Sangredent <Corps expéditionnaire de Kargath>";
 	AL["The Black Forge"] = "La Forge noire";
+	AL["Core Fragment"] = "Fragment du Magma";
 	AL["Shadowforge Brazier"] = "Brasero d'ombreforge"; -- Need confirmation
 	AL["Kharan Mighthammer"] = "Kharan Force-martel";
 	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Commandant Gor'shak <Corps expéditionnaire de Kargath>";
@@ -694,7 +695,6 @@ if AL then
 	--Auch: Sethekk Halls
 	AL["Lakka"] = "Lakka";
 	AL["The Saga of Terokk"] = "La Saga de Terokk";
-	AL["Terokk's Quill"] = "Rémige de Terokk";
 
 	--Auch: Shadow Labyrinth
 	AL["The Codex of Blood"] = "Codex de sang";

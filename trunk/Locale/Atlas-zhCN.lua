@@ -397,10 +397,6 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "无名预言者";
-	AL["Spirit of Kolk <The First Kahn>"] = "考尔克 <第一可汗>";
-	AL["Spirit of Gelk <The Second Kahn>"] = "格尔克 <第二可汗>";
-	AL["Spirit of Magra <The Third Kahn>"] = "玛格拉 <第三可汗>";
-	AL["Cavindra"] = "凯雯德拉";
 
 	--Scarlet Monastery (Entrance)
 
@@ -445,8 +441,6 @@ if AL then
 	AL["Shen'dralar Provisioner"] = "辛德拉圣职者";
 
 	--Maraudon	
-	AL["Spirit of Veng <The Fifth Khan>"] = "温格 <第五可汗>";
-	AL["Spirit of Maraudos <The Fourth Khan>"] = "玛劳杜斯 <第四可汗>";
 	AL["Elder Splitrock"] = "碎石长者";
 
 	--Ragefire Chasm

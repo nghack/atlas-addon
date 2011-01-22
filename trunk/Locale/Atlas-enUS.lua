@@ -409,10 +409,6 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "The Nameless Prophet";
-	AL["Spirit of Kolk <The First Kahn>"] = "Spirit of Kolk <The First Kahn>";
-	AL["Spirit of Gelk <The Second Kahn>"] = "Spirit of Gelk <The Second Kahn>";
-	AL["Spirit of Magra <The Third Kahn>"] = "Spirit of Magra <The Third Kahn>";
-	AL["Cavindra"] = "Cavindra";
 
 	--Scarlet Monastery (Entrance)
 
@@ -468,8 +464,6 @@ if AL then
 	AL["Shen'dralar Provisioner"] = "Shen'dralar Provisioner";
 
 	--Maraudon	
-	AL["Spirit of Veng <The Fifth Khan>"] = "Spirit of Veng <The Fifth Khan>";
-	AL["Spirit of Maraudos <The Fourth Khan>"] = "Spirit of Maraudos <The Fourth Khan>";
 	AL["Elder Splitrock"] = "Elder Splitrock";
 
 	--Ragefire Chasm

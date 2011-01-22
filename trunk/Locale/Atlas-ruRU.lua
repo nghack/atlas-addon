@@ -41,7 +41,7 @@ AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Ан'Кираж";
 	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";
 };
---end
+end
 
 
 if AL then
@@ -412,10 +412,6 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "Безымянный пророк";
-	AL["Spirit of Kolk <The First Kahn>"] = "Дух Колка <Первый хан>";
-	AL["Spirit of Gelk <The Second Kahn>"] = "Дух Гелкf <Второй хан>";
-	AL["Spirit of Magra <The Third Kahn>"] = "Дух Магра <Третий хан>";
-	AL["Cavindra"] = "Кавиндра";
 
 	--Scarlet Monastery (Entrance)
 
@@ -469,8 +465,6 @@ if AL then
 	AL["Shen'dralar Provisioner"] = "Шен'драларский поставщик";
 
 	--Maraudon	
-	AL["Spirit of Veng <The Fifth Khan>"] = "Дух Венга <Пятый хан>";
-	AL["Spirit of Maraudos <The Fourth Khan>"] = "Дух Мародоса <Четвертый хан>";
 	AL["Elder Splitrock"] = "Старейшина Камнепад ";
 
 	--Ragefire Chasm

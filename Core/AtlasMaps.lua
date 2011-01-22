@@ -479,7 +479,6 @@ AtlasMaps = {
 		{ WHIT.."1) "..BB["Oggleflint"] };
 		{ WHIT.."2) "..BB["Taragaman the Hungerer"] };
 		{ WHIT.."3) "..BB["Jergosh the Invoker"] };
-		{ ORNG..INDENT..BB["Zelemar the Wrathful"].." ("..AL["Summon"]..")" };
 		{ WHIT.."4) "..BB["Bazzalan"] };
 	};
 	RazorfenDowns = {

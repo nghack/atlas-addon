@@ -254,10 +254,6 @@ AtlasMaps = {
 		{ BLUE.."B) "..BZ["Maraudon"].." ("..AL["Purple"]..")" };
 		{ BLUE.."C) "..BZ["Maraudon"].." ("..AL["Orange"]..")" };
 		{ BLUE.."D) "..BZ["Maraudon"].." ("..AL["Portal"]..")" };
-		{ WHIT.."1) "..AL["Spirit of Kolk <The First Kahn>"] };
-		{ WHIT.."2) "..AL["Spirit of Gelk <The Second Kahn>"].." ("..AL["Lower"]..")" };
-		{ WHIT.."3) "..AL["Spirit of Magra <The Third Kahn>"] };
-		{ GREN.."1') "..AL["Cavindra"] };
 	};
 	ScarletMonasteryEnt = {
 		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")" };
@@ -451,8 +447,8 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Shen'dralar Provisioner"] };
 	};
 	Maraudon = {
-		ZoneName = { BZ["Maraudon"], 2100 };
-		Location = { BZ["Desolace"], 405 };
+		ZoneName = { BZ["Maraudon"] };
+		Location = { BZ["Desolace"] };
 		LevelRange = "30-44";
 		MinLevel = "25";
 		PlayerLimit = "5";
@@ -460,19 +456,17 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"].." ("..AL["Orange"]..")" };
 		{ BLUE.."B) "..AL["Entrance"].." ("..AL["Purple"]..")" };
 		{ BLUE.."C) "..AL["Entrance"].." ("..AL["Portal"]..")" };
-		{ WHIT.."1) "..BB["Noxxion"], NPC, 13282 };
-		{ WHIT.."2) "..BB["Razorlash"], NPC, 12258 };
-		{ WHIT.."3) "..BB["Lord Vyletongue"], NPC, 12236 };
-		{ WHIT.."4) "..BB["Tinkerer Gizlock"], NPC, 13601 };
-		{ WHIT.."5) "..BB["Celebras the Cursed"], NPC, 12225 };
-		{ WHIT.."6) "..BB["Landslide"], NPC, 12203 };
-		{ WHIT.."7) "..BB["Rotgrip"], NPC, 13596 };
-		{ WHIT.."8) "..BB["Princess Theradras"], NPC, 12201 };
-		{ GREN.."1') "..AL["Spirit of Veng <The Fifth Khan>"].." ("..AL["Wanders"]..")", NPC, 13738 };
-		{ GREN.."2') "..AL["Spirit of Maraudos <The Fourth Khan>"].." ("..AL["Wanders"]..")", NPC, 13739 };
-		{ GREN.."3') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")", NPC, 15556 };
+		{ WHIT.."1) "..BB["Noxxion"] };
+		{ WHIT.."2) "..BB["Razorlash"] };
+		{ WHIT.."3) "..BB["Lord Vyletongue"] };
+		{ WHIT.."4) "..BB["Tinkerer Gizlock"] };
+		{ WHIT.."5) "..BB["Celebras the Cursed"] };
+		{ WHIT.."6) "..BB["Landslide"] };
+		{ WHIT.."7) "..BB["Rotgrip"] };
+		{ WHIT.."8) "..BB["Princess Theradras"] };
+		{ GREN.."1') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")" };
 		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")", NPC, 12237 };
+		{ _RED.."0') "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")" };
 	};
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"] };

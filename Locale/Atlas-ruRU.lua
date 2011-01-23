@@ -418,6 +418,8 @@ if AL then
 	--The Deadmines (Entrance)
 
 	--Sunken Temple (Entrance)
+	AL["Priestess Udum'bra"] = "Жрица Удум'бра";
+	AL["Gomora the Bloodletter"] = "Гомора Кровопускатель";
 
 	--Uldaman (Entrance)
 

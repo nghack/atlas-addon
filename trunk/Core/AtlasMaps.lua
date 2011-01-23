@@ -297,6 +297,9 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Meeting Stone"] };
 		{ GREN..INDENT..AL["Lord Itharius"] };
 		{ BLUE.."B) "..BZ["Sunken Temple"] };
+		{ WHIT.."1) "..AL["Priestess Udum'bra"] };
+		{ WHIT.."2) "..AL["Gomora the Bloodletter"] };
+		{ WHIT.."3) "..BB["Jammal'an the Prophet"] };
 	};
 	UldamanEnt = {
 		ZoneName = { BZ["Uldaman"].." ("..AL["Entrance"]..")" };

@@ -895,7 +895,8 @@ AtlasMaps = {
 		{ ORNG..INDENT..AL["Apothecary Frye <Crown Chemical Co.>"] };
 		{ GREN.."1') "..AL["Packleader Ivar Bloodfang"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Deathstalker Commander Belmont"].." ("..BF["Horde"]..")" };
-		{ GREN.."2') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
+		{ GREN.."2') "..AL["Haunted Stable Hand"].." ("..AL["Teleporter"]..")" };
+		{ GREN.."3') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
 	};
 	SMArmory = {
 		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Armory"] };
@@ -2475,6 +2476,7 @@ AtlasMaps = {
 		{ WHIT.."1) "..BB["Grand Vizier Ertan"] };
 		{ WHIT.."2) "..BB["Altarius"] };
 		{ WHIT.."3) "..BB["Asim al Akir"] };
+		{ GREN.."1') "..AL["Teleporter"] };
 	};
 	ThroneOfTheFourWinds = {
 		ZoneName = { BZ["Throne of the Four Winds"] };

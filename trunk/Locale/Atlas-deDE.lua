@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 09.01.2011
+-- Letztes Update: 23.01.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1078,9 +1078,5 @@ if AL then
 	AL["Captain Taylor"] = "Kapitän Taylor";
 	AL["Legionnaire Nazgrim"] = "Legionär Nazgrim";
 	AL["Neptulon"] = "Neptulon";
-
-	--Babble strings, remove later
-	--AL["Sulfuron Keep"] = "Sulfuronfestung";
-	--AL["War of the Ancients"] = "Krieg der Ahnen";
 
 end

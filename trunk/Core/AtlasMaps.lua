@@ -333,7 +333,7 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..BZ["Wailing Caverns"] };
 		{ WHIT.."1) "..BB["Mad Magglish"].." ("..AL["Varies"]..")" };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
+		{ _RED.."Rare mobs, if you find one, report it please!"};
 		{ _RED.."0) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
 		{ _RED.."0) "..BB["Boahn"].." ("..AL["Rare"]..")" };
 	};
@@ -458,8 +458,8 @@ AtlasMaps = {
 		{ WHIT.."7) "..BB["Rotgrip"] };
 		{ WHIT.."8) "..BB["Princess Theradras"] };
 		{ GREN.."1') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")" };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")" };
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")" };
 	};
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"] };
@@ -490,8 +490,8 @@ AtlasMaps = {
 		{ ORNG.."1) "..BB["Plaguemaw the Rotting"] };
 		{ GREN.."1') "..AL["Belnistrasz"] };
 		{ GREN.."2') "..BB["Henry Stern"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Ragglesnout"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Ragglesnout"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 	};
 	RazorfenKraul = {
 		ZoneName = { BZ["Razorfen Kraul"] };
@@ -511,7 +511,7 @@ AtlasMaps = {
 		{ ORNG.."1) "..BB["Roogug"] };
 		{ GREN.."1') "..AL["Spirit of Agamaggan <Ancient>"] };
 		{ GREN.."2') "..AL["Willix the Importer"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
+		{ _RED.."Rare mobs, if you find one, report it please!"};
 		{ _RED.."0) "..BB["Blind Hunter"].." ("..AL["Rare"]..")" };
 		{ _RED.."0) "..BB["Earthcaller Halmgar"].." ("..AL["Rare"]..")" };
 	};
@@ -590,8 +590,8 @@ AtlasMaps = {
 		{ WHIT.."7) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
 		{ WHIT.."8) "..BB["Mutanus the Devourer"] };
 		{ GREN.."1') "..AL["Disciple of Naralex"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")" };
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")" };
 	};
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };
@@ -621,9 +621,9 @@ AtlasMaps = {
 		{ ORNG.."2) "..BB["Hydromancer Velratha"] };
 		{ ORNG.."3) "..BB["Theka the Martyr"] };
 		{ GREN.."1') "..AL["Elder Wildmane"].." ("..AL["Lunar Festival"]..")" };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Dustwraith"].." ("..AL["Rare"]..")" };
-		{ _RED.."0') "..BB["Zerillis"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" }
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Dustwraith"].." ("..AL["Rare"]..")" };
+		{ _RED.."0) "..BB["Zerillis"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" }
 	};
 
 --************************************************
@@ -733,12 +733,12 @@ AtlasMaps = {
 		{ GREN.."1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.."2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.."3') "..AL["Roughshod Pike"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
-		{ _RED.."0') "..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
-		{ _RED.."0') "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
-		{ _RED.."0') "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
-		{ _RED.."0') "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
+		{ _RED.."0) "..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
+		{ _RED.."0) "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
+		{ _RED.."0) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
+		{ _RED.."0) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
 	};
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
@@ -762,8 +762,8 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Drakkisath's Brand"] };
 		{ GREN.."1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.."2') "..AL["Father Flame"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
-		{ _RED.."0') "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
+		{ _RED.."Rare mobs, if you find one, report it please!"};
+		{ _RED.."0) "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
 	};
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Lair"] };
@@ -785,7 +785,7 @@ AtlasMaps = {
 		{ WHIT.."7) "..BB["Flamegor"] };
 		{ WHIT.."8) "..BB["Chromaggus"] };
 		{ WHIT.."9) "..BB["Nefarian"] };
-		{ _RED.."We don't know if these are in Cataclysm yet"};
+		{ _RED.."Rare mobs, if you find one, report it please!"};
 		{ _RED.."0) "..AL["Master Elemental Shaper Krixix"] };
 	};
 	Gnomeregan = {

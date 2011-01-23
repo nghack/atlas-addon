@@ -598,6 +598,7 @@ if AL then
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <Químicos La Corona, S.L.>";
 	AL["Packleader Ivar Bloodfang"] = "Maestro de manada Ivar Colmillo de Sangre";
 	AL["Deathstalker Commander Belmont"] = "Comandante Mortacechador Belmont";
+	AL["Haunted Stable Hand"] = "Mozo de cuadra encantado";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
 
 	--SM: Armory

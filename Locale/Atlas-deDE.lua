@@ -603,6 +603,7 @@ if AL then
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apotheker Frye <Chemiemanufaktur Krone>";
 	AL["Packleader Ivar Bloodfang"] = "Rudelführer Ivar Blutfang";
 	AL["Deathstalker Commander Belmont"] = "Todespirscherkommandant Belmont";
+	AL["Haunted Stable Hand"] = "Geisterhafter Stallknecht";
 	AL["Investigator Fezzen Brasstacks"] = "Ermittler Fezzen Kupferstapel";
 
 	--SM: Armory

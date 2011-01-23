@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 31/12/2010
+-- Última Actualización (last update): 23/01/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -140,7 +140,7 @@ if AL then
 	AL["North"] = "Norte";
 	AL["South"] = "Sur";
 	AL["West"] = "Oeste";
-	
+
 	--World Events, Festival
 	AL["Brewfest"] = "Festival de la cerveza";
 	AL["Hallow's End"] = "Halloween";
@@ -229,7 +229,7 @@ if AL then
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
-	AL["Armory"] = "Armería";	-- Armory
+	AL["Armory"] = "Armería"; -- Armory
 	AL["BFD"] = "CB"; -- Blackfathom Deeps, Cavernas de Brazanegra
 	AL["BRD"] = "PRN"; -- Blackrock Depths, Profundidades de Roca Negra
 	AL["BRM"] = "MRN"; -- Blackrock Mountain, Montaña Roca Negra"
@@ -238,10 +238,10 @@ if AL then
 	AL["DM"] = "LM"; -- Dire Maul, La Masacre	
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["GY"] = "Cemen"; -- Graveyard, Cementerio
-	AL["LBRS"] = "CRNI";  -- Lower Blackrock Spire
-	AL["Lib"] = "Lib";	 -- Library
-	AL["Mara"] = "Mara";	 -- Maraudon
-	AL["MC"] = "MC";	-- Molten Core, Núcleo de Magma
+	AL["LBRS"] = "CRNI"; -- Lower Blackrock Spire
+	AL["Lib"] = "Lib"; -- Library
+	AL["Mara"] = "Mara"; -- Maraudon
+	AL["MC"] = "MC";-- Molten Core, Núcleo de Magma
 	AL["RFC"] = "SI"; -- Ragefire Chasm, Sima Ignea
 	AL["RFD"] = "ZR"; --Razorfen Downs, Zahúrda Rajacieno
 	AL["RFK"] = "HR"; -- Razorfen Kraul, Horado Rajacieno
@@ -265,7 +265,7 @@ if AL then
 	AL["BT"] = "TO"; --Templo Oscuro	
 	AL["Bota"] = "Inver"; --El Invernáculo
 	AL["CoT"] = "CdT"; --Cavernas del Tiempo
-	AL["CoT1"] = "CdT1";	--Laderas de Trabalomas
+	AL["CoT1"] = "CdT1"; --Laderas de Trabalomas
 	AL["CoT2"] = "CdT2"; --La Ciénaga Negra
 	AL["CoT3"] = "CdT3"; --El Monte Hyjal
 	AL["CR"] = "RCT"; --Reserva Colmillo Torcido
@@ -276,7 +276,7 @@ if AL then
 	AL["Mag"] = "Mag"; --Guarida de Magtheridon
 	AL["Mech"] = "Mech"; --El Mechanar
 	AL["MT"] = "TM"; --Tumbas de Maná
-	AL["Ramp"] = "Murallas";	 --Murallas del Fuego Infernal
+	AL["Ramp"] = "Murallas"; --Murallas del Fuego Infernal
 	AL["SC"] = "CSS"; --Caverna Santuario Serpiente
 	AL["Seth"] = "Seth"; --Salas Sethekk
 	AL["SH"] = "SA"; --Las Salas Arrasadas
@@ -286,7 +286,7 @@ if AL then
 	AL["SV"] = "CV"; --Cámara de Vapor
 	AL["TK"] = "CT"; --El Castillo de la Tempestad
 	AL["UB"] = "Soti"; --La Sotiénaga
-	AL["ZA"] = "ZA";
+	AL["ZA"] = "ZA"; -- Zul'Aman
 
 	--WotLK Acronyms
 	AL["AK, Kahet"] = "Kahet"; -- Ahn'kahet
@@ -303,7 +303,7 @@ if AL then
 	AL["FH3"] = "CR3"; -- Halls of Reflection
 	AL["HoS"] = "CdP"; -- Halls of Stone
 	AL["IC"] = "CCH"; -- Icecrown Citadel
-	AL["Nax"] = "Nax"; -- Naxxramas	
+	AL["Nax"] = "Nax"; -- Naxxramas
 	AL["Nex, Nexus"] = "Nexo"; -- The Nexus
 	AL["Ocu"] = "Oculus"; -- The Oculus
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
@@ -366,7 +366,7 @@ if AL then
 	AL["Orb of Command"] = "Orbe de orden";
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendente del Escudo del Estigma <Legión Escudo del Estigma>";
 	AL["The Behemoth"] = "El Behemoth";
-	
+
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "Vigía Jhang";
 	AL["Mortog Steamhead"] = "Mortog Testavapor";
@@ -419,6 +419,11 @@ if AL then
 	--Sunken Temple (Entrance)
 
 	--Uldaman (Entrance)
+
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "Shavalius el Extravagante <Maestro de vuelo>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "Chester Tarrodecobre <Suministros generales y objetos comerciales>";
+	AL["Slosh <Food & Drink>"] = "Slosh <Alimentos y bebidas>";
 
 	--Wailing Caverns (Entrance)
 
@@ -519,6 +524,7 @@ if AL then
 	AL["Elder Morndeep"] = "Ancestro Alborhondo";
 	AL["Schematic: Field Repair Bot 74A"] = "Esquema: robot de reparación de campo 74A";
 	AL["Private Rocknot"] = "Soldado Sinroca";
+	AL["Mistress Nagmara"] = "Coima Nagmara";
 	AL["Summoner's Tomb"] = "Tumba de los invocadores"; --Check
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Espiga <Milicia de Morgan>";
 	AL["Oralius <Morgan's Militia>"] = "Oralius <Milicia de Morgan>";
@@ -536,13 +542,13 @@ if AL then
 	AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Alasol <Milicia de Morgan>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierofante Theodora Mulvadania <Fuerza Expedicionaria de Kargath>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Lokhtos Tratoscuro <La Hermandad del Torio>";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "Montaraz Orfus <Milicia de Morgan>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "Corazón Atronador <Fuerza Expedicionaria de Kargath>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "Mariscal Maxwell <Milicia de Morgan>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Señor de la guerra Dientegore <Fuerza Expedicionaria de Kargath>";
 	AL["The Black Forge"] = "La Forjanegra";
 	AL["Core Fragment"] = "Trozo del Núcleo";
 	AL["Shadowforge Brazier"] = "Brasero Forjatiniebla"; --Check
-	AL["Kharan Mighthammer"] = "Kharan Martillo Poderoso";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Comandante Gor'shak <Fuerza Expedicionaria de Kargath>";
-	AL["Mistress Nagmara"] = "Coima Nagmara";
-	AL["Griz Gutshank <Arena Vendor>"] = "Griz Pataguata <Vendedor de arena>";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Pila de tributo a Urok";
@@ -566,18 +572,25 @@ if AL then
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "Tink Silbadentado <Suministros de ingeniería>";
 	AL["The Sparklematic 5200"] = "El Destellamatic 5200";
 	AL["Mail Box"] = "Buzón";
+	AL["B.E Barechus <S.A.F.E.>"] = "B.E Barechus <S.E.G.U.R.O.>";
+	AL["Face <S.A.F.E.>"] = "Cara <S.E.G.U.R.O.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.E.G.U.R.O.>";
 
 	--Molten Core
 
 	--Scholomance
 	AL["Blood of Innocents"] = "Sangre de los Inocentes";	
 	AL["Divination Scryer"] = "Cristal de adivinación";
+	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <Casa Barov>";
+	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <Casa Barov>";
+	AL["Eva Sarkhoff"] = "Eva Sarkhoff";
+	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
 	AL["The Deed to Caer Darrow"] = "Las escrituras de Castel Darrow";
 	AL["The Deed to Southshore"] = "Las escrituras de Costasur";
 	AL["Torch Lever"] = "Antocha palanca";
 	AL["The Deed to Tarren Mill"] = "Las escrituras de Molino Tarren";
 	AL["The Deed to Brill"] = "Las escrituras de Rémol";
-	
+
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trío de boticarios ";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <Químicos La Corona, S.L.> ";
@@ -588,20 +601,28 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
 
 	--SM: Armory
+	AL["Joseph the Crazed"] = "Joseph el Enloquecido";
+	AL["Dark Ranger Velonara"] = "Forestal oscura Velonara";
+	AL["Dominic"] = "Dominic";
 
 	--SM: Cathedral
 	AL["Cathedral"] = "Catedral"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph el Loco <Campeón Escarlata>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Calabaza Santuario";
+	AL["Joseph the Awakened"] = "Joseph el Despierto";
 
 	--SM: Library
-	AL["Library"] = "Librería"; -- The Library appeared in the Dire Maul and Scarlet Monastery
+	AL["Library"] = "Librería";
+	AL["Compendium of the Fallen"] = "Compendio de los Caídos";
 
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Varias llaves de los buzones";
-	AL["Malor's Strongbox"] = "Caja fuerte de Malor";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Comandante de Cruzada Eligor Albar <Hermandad de la Luz>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Maestro artesano Wilhelm <Hermandad de la Luz>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Maestro de manada Mazadura <Hermandad de la Luz>";
 	AL["Stratholme Courier"] = "Mensajero de Stratholme";
 	AL["Fras Siabi's Postbox"] = "Buzón de Fras Siabi";
 	AL["King's Square Postbox"] = "Buzón de la Plaza del Rey";
@@ -612,7 +633,9 @@ if AL then
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Buzón de la plaza de los Ancianos";
-	
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Archimaga Angela Dosantos <Hermandad de la Luz>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Comandante de Cruzada Korfax <Hermandad de la Luz>";
+
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Patán inútil";
 	AL["Lieutenant Horatio Laine"] = "Teniente Horatio Laine";
@@ -828,7 +851,7 @@ if AL then
 	AL["Kagani Nightstrike"] = "Kajani Golpe de la Noche";
 	AL["Warlord Salaris"] = "Señor de la Guerra Salaris";
 	AL["Yazzai"] = "Yazzai";
-	AL["Zelfan"] = "Zelfan";	
+	AL["Zelfan"] = "Zelfan";
 	AL["Tyrith"] = "Tyrith";
 	AL["Scrying Orb"] = "Orbe de visión";
 
@@ -847,7 +870,7 @@ if AL then
 	AL["Overcharged Manacell"] = "Célula de maná sobrecargada";
 
 	--TK: The Eye
-	
+
 	--Zul'Aman
 	AL["Harrison Jones"] = "Harrison Jones";
 	AL["Tanzar"] = "Tanzar";
@@ -933,7 +956,7 @@ if AL then
 	AL["Mr. Bigglesworth"] = "Sr. Biguelvalor";
 	AL["Frostwyrm Lair"] = "Guarida Vermis de Escarcha";
 	AL["Teleporter to Middle"] = "Teletransporte al centro";
-	
+
 	--The Obsidian Sanctum
 	AL["Black Dragonflight Chamber"] = "Cámara del vuelo Negro"; --Check
 
@@ -966,27 +989,27 @@ if AL then
 	AL["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";
 	AL["Cavern Entrance"] = "Entrada a la caverna";
 
-	-- Ulduar General
+	--Ulduar General
 	AL["Celestial Planetarium Key"] = "Llave de El Planetario Celestial";
 	AL["The Siege"] = "El asedio";
 	AL["The Keepers"] = "Los vigilantes"; --C Check
 
-	-- Ulduar A
+	--Ulduar A
 	AL["Tower of Life"] = "Torre de Vida";
 	AL["Tower of Flame"] = "Torre de Llamas";
 	AL["Tower of Frost"] = "Torre de Escarcha";
 	AL["Tower of Storms"] = "Torre de Tormentas";
 
-	-- Ulduar B
+	--Ulduar B
 	AL["Prospector Doren"] = "Prospector Doren";
 	AL["Archivum Console"] = "Consola de El Archivum";
 
-	-- Ulduar C
+	--Ulduar C
 	AL["Sif"] = "Sif";
 
-	-- Ulduar D
+	--Ulduar D
 
-	-- Ulduar E
+	--Ulduar E
 
 	--Ulduar: Halls of Lightning
 
@@ -1004,7 +1027,7 @@ if AL then
 	AL["Elder Chogan'gada"] = "Ancestro Chogan'gada";
 
 	--Vault of Archavon
-	
+
 	--The Violet Hold
 	AL["The Violet Hold Key"] = "Llave de El Bastión Violeta";
 
@@ -1051,12 +1074,4 @@ if AL then
 	AL["Legionnaire Nazgrim"] = "Legionario Nazgrim";
 	AL["Neptulon"] = "Neptulon";
 
---[[
--- Cataclysm Zone Names	
---
--- Not for translation, they will be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
 end

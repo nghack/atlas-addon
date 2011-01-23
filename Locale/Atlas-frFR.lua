@@ -230,7 +230,7 @@ if AL then
 	AL["Wave 10"] = "Vague 10";
 	AL["Wave 12"] = "Vague 12";
 	AL["Wave 18"] = "Vague 18";
-	
+
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj, Ruines d'Ahn'Qiraj
@@ -372,7 +372,7 @@ if AL then
 	AL["Orb of Command"] = "Orbe de Commandement";
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
 	AL["The Behemoth"] = "Le Béhémoth";
-	
+
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "Guetteur Jhang";
 	AL["Mortog Steamhead"] = "Mortog Têtavapeur";
@@ -390,7 +390,7 @@ if AL then
 	AL["Andormu <Keepers of Time>"] = "Andormu <Les Gardiens du temps>";
 	AL["Nozari <Keepers of Time>"] = "Nozari <Les Gardiens du temps>";
 	AL["Anachronos <Keepers of Time>"] = "Anachronos <Les Gardiens du temps>";
-	
+
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "Bassin redoutable";
 	AL["Dire Maul Arena"] = "L'Etripoir";
@@ -398,15 +398,15 @@ if AL then
 
 	--Gnomeregan (Entrance)
 	AL["Torben Zapblast <Teleportation Specialist>"] = "Torben Zoupébaf <Spécialiste en téléportation>";
-	
-	-- Hellfire Citadel (Entrance)
+
+	--Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "Marches et chemin vers la Fournaise du sang";
 	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "Chemin vers les Remparts des Flammes infernales et les salles Brisées";
 	AL["Meeting Stone of Magtheridon's Lair"] = "Pierre de rencontre du repaire de Magtheridon";
 	AL["Meeting Stone of Hellfire Citadel"] = "Pierre de rencontre de la Citadelle des Flammes Infernales";
-	
+
 	--Icecrown Citadel (Entrance)
-	
+
 	--Karazhan (Entrance)
 	AL["Archmage Leryda"] = "Archimage Leryda";
 	AL["Archmage Alturus"] = "Archimage Alturus";
@@ -450,11 +450,11 @@ if AL then
 	AL["Sentinel-trainee Issara"] = "Apprentie sentinelle Issara";
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <Le Cercle terrestre>";
 	AL["Zeya"] = "Zeya";
-	
+
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "Vieil Ecorcefer";
 	AL["Ironbark the Redeemed"] = "Ecorcefer le Racheté";
-	
+
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "Noué Dédodevie";
 
@@ -470,7 +470,7 @@ if AL then
 	AL["Lorekeeper Kildrath"] = "Gardien du savoir Kildrath";
 	AL["Lorekeeper Mykos"] = "Gardienne du savoir Mykos";
 	AL["Shen'dralar Provisioner"] = "Approvisionneur Shen'dralar";
-	
+
 	--Maraudon	
 	AL["Elder Splitrock"] = "Ancien Pierre-fendue";
 
@@ -555,10 +555,6 @@ if AL then
 	AL["The Black Forge"] = "La Forge noire";
 	AL["Core Fragment"] = "Fragment du Magma";
 	AL["Shadowforge Brazier"] = "Brasero d'ombreforge"; -- Need confirmation
-	AL["Kharan Mighthammer"] = "Kharan Force-martel";
-	AL["Commander Gor'shak <Kargath Expeditionary Force>"] = "Commandant Gor'shak <Corps expéditionnaire de Kargath>";
-	AL["Mistress Nagmara"] = "Gouvernante Nagmara";
-	AL["Griz Gutshank <Arena Vendor>"] = "Griz Cannebide <Vendeur de l'arène>";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Autel des offrandes d'Urok";
@@ -570,7 +566,7 @@ if AL then
 	AL["Finkle Einhorn"] = "Finkle Einhorn";
 	AL["Drakkisath's Brand"] = "Marque de Drakkisath";
 	AL["Father Flame"] = "Père des flammes";
-	
+
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Orb of Domination";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
@@ -614,20 +610,20 @@ if AL then
 	AL["Joseph the Crazed"] = "Joseph l'Affolé";
 	AL["Dark Ranger Velonara"] = "Forestier-sombre Velonara";
 	AL["Dominic"] = "Dominic";
-	
+
 	--SM: Cathedral
 	AL["Cathedral"] = "Cathédrale"; -- Subzone of Scarlet Monastery
 	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph le Dément <Champion écarlate>";
-		
+
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
 	AL["Pumpkin Shrine"] = "Sanctuaire Citrouille";
 	AL["Joseph the Awakened"] = "Joseph l'Éveillé";
-	
+
 	--SM: Library
 	AL["Library"] = "Bibliothèque";
 	AL["Compendium of the Fallen"] = "Compendium des Déchus";
-		
+
 	--Stratholme - Crusader's Square
 	AL["Various Postbox Keys"] = "Clé des boîtes à lettres";
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
@@ -640,12 +636,12 @@ if AL then
 	AL["Elder Farwhisper"] = "Ancien Murmeloin";
 	AL["Market Row Postbox"] = "Boîte de l'allée du Marché";
 	AL["Crusaders' Square Postbox"] = "Boîte de la place des Croisés";
-	
+
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Boîte de la place des Anciens";
 	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Archimage Angela Dosantos <Confrérie de la Lumière>";
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Commandant de la croisade Korfax <Confrérie de la Lumière>";
-	
+
 	--The Deadmines
 	AL["Lumbering Oaf"] = "Dadais chancelant";
 	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
@@ -727,7 +723,7 @@ if AL then
 	--CFR: The Steamvault
 	AL["Main Chambers Access Panel"] = "Panneau d'accès de la salle principale";
 	AL["Second Fragment Guardian"] = "Gardien du second fragment";
-	
+
 	--CFR: The Underbog
 	AL["The Underspore"] = "Palme de sporielle";
 	AL["Earthbinder Rayge"] = "Lieur de terre Rayge";
@@ -834,7 +830,7 @@ if AL then
 	AL["Ebonlocke <The Noble>"] = "Bouclenoire <Les nobles>";
 	AL["Sebastian <The Organist>"] = "Sebastian <L'Organiste>";
 	AL["Barnes <The Stage Manager>"] = "Barnes <Le Régisseur>";
-	
+
 	--Karazhan End
 	AL["Path to the Broken Stairs"] = "Passage vers l'Escalier brisé";
 	AL["Broken Stairs"] = "L'Escalier brisé";
@@ -999,27 +995,27 @@ if AL then
 	AL["Heroic: Trial of the Grand Crusader"] = "Héroïque : L'appel de la grande Croisade";
 	AL["Cavern Entrance"] = "Entrée de la caverne";
 
-	-- Ulduar General
+	--Ulduar General
 	AL["Celestial Planetarium Key"] = "Clé du planétarium céleste";
 	AL["The Siege"] = "Le Siège";
 	AL["The Keepers"] = "Les Gardiens";
 
-	-- Ulduar A
+	--Ulduar A
 	AL["Tower of Life"] = "Tour de la vie";
 	AL["Tower of Flame"] = "Tour des flammes";
 	AL["Tower of Frost"] = "Tour du givre";
 	AL["Tower of Storms"] = "Tour des tempêtes";
 
-	-- Ulduar B
+	--Ulduar B
 	AL["Prospector Doren"] = "Prospecteur Doren";
 	AL["Archivum Console"] = "Console de l'Archivum";
 
-	-- Ulduar C
+	--Ulduar C
 	AL["Sif"] = "Sif";
 
-	-- Ulduar D
+	--Ulduar D
 
-	-- Ulduar E
+	--Ulduar E
 
 	--Ulduar: Halls of Lightning
 
@@ -1066,7 +1062,7 @@ if AL then
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Capitaine Hadan";
 	AL["Augh"] = "Augh";
-	
+
 	--Sulfuron Keep
 
 	--The Bastion of Twilight
@@ -1084,12 +1080,4 @@ if AL then
 	AL["Legionnaire Nazgrim"] = "Légionnaire Nazgrim";
 	AL["Neptulon"] = "Neptulon";
 
---[[
--- Cataclysm Zone Names	
---
--- Not for translation, they will be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
 end

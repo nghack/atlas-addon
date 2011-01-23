@@ -391,7 +391,7 @@ if AL then
 	--Gnomeregan (Entrance)
 	AL["Torben Zapblast <Teleportation Specialist>"] = "托爾班·速轟 <傳送專家>";
 
-	-- Hellfire Citadel (Entrance)
+	--Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "通往血熔爐的階梯與通道";
 	AL["Path to the Hellfire Ramparts and Shattered Halls"] = "通往地獄火壁壘與破碎大廳的通道";
 	AL["Meeting Stone of Magtheridon's Lair"] = "集合石 - 瑪瑟里頓的巢穴";
@@ -444,7 +444,7 @@ if AL then
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";
 	AL["Ironbark the Redeemed"] = "贖罪的鐵朴";
-	
+
 	--Dire Maul (North)
 	AL["Knot Thimblejack"] = "諾特·希姆加克";
 
@@ -460,7 +460,7 @@ if AL then
 	AL["Lorekeeper Kildrath"] = "博學者基爾達斯";
 	AL["Lorekeeper Mykos"] = "博學者麥庫斯";
 	AL["Shen'dralar Provisioner"] = "辛德拉聖職者";
-	
+
 	--Maraudon	
 	AL["Elder Splitrock"] = "劈石長者";
 
@@ -468,7 +468,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Belnistrasz"] = "貝尼斯特拉茲";
-	
+
 	--Razorfen Kraul
 	AL["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
 	AL["Willix the Importer"] = "進口商威利克斯";
@@ -491,10 +491,10 @@ if AL then
 	AL["Arygos"] = "亞雷戈斯";
 	AL["Caelestrasz"] = "凱雷斯特拉茲";
 	AL["Merithra of the Dream"] = "夢境之龍麥琳瑟拉";
-	
+
 	--Wailing Caverns
 	AL["Disciple of Naralex"] = "納拉雷克斯的信徒";
-	
+
 	--Zul'Farrak
 	AL["Weegli Blastfuse"] = "維格利";
 	AL["Raven"] = "拉文";
@@ -503,7 +503,7 @@ if AL then
 --****************************
 -- Eastern Kingdoms Instances (Classic)
 --****************************
-	
+
 	--Blackrock Depths
 	AL["Relic Coffer Key"] = "古物寶庫鑰匙";
 	AL["Dark Keeper Key"] = "黑暗守衛者鑰匙";
@@ -549,11 +549,11 @@ if AL then
 	AL["Finkle Einhorn"] = "芬克·恩霍爾";
 	AL["Drakkisath's Brand"] = "達基薩斯徽記";
 	AL["Father Flame"] = "烈焰之父";
-	
+
 	--Blackwing Lair
 	AL["Orb of Domination"] = "統禦寶珠";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
-	
+
 	--Gnomeregan
 	AL["Chomper"] = "咀嚼者";
 	AL["Blastmaster Emi Shortfuse"] = "爆破專家艾米·短線";
@@ -633,7 +633,7 @@ if AL then
 	AL["Quartermaster Lewis <Quartermaster>"] = "軍需官路易斯 <軍需官>";
 	AL["Miss Mayhem"] = "暴行小姐";
 	AL["Vend-O-Tron D-Luxe"] = "高級自動販賣機";
-	
+
 	--The Stockade
 	AL["Rifle Commander Coe"] = "步槍指揮官寇伊";
 	AL["Warden Thelwater"] = "典獄官塞爾沃特";
@@ -642,7 +642,7 @@ if AL then
 	--The Sunken Temple
 	AL["Lord Itharius"] = "伊薩里奧斯領主";
 	AL["Elder Starsong"] = "星歌長者";
-	
+
 	--Uldaman
 	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
@@ -651,7 +651,7 @@ if AL then
 	AL["Lidia Sunglow <The Reliquary>"] = "莉蒂雅·日耀";
 	AL["Ancient Treasure"] = "古代寶藏";
 	AL["The Discs of Norgannon"] = "諾甘農圓盤";
-	
+
 --*******************
 -- Burning Crusade Instances
 --*******************
@@ -825,7 +825,7 @@ if AL then
 	AL["Kamsis <The Conjurer>"] = "康席斯 <咒術師>";
 	AL["Ythyar"] = "伊斯亞爾";
 	AL["Echo of Medivh"] = "麥迪文的回音";
-	
+
 	--Magisters Terrace
 	AL["Fel Crystals"] = "惡魔水晶";
 	AL["Apoko"] = "阿波考";
@@ -954,7 +954,7 @@ if AL then
 	--The Nexus: The Eye of Eternity
 	AL["Key to the Focusing Iris"] = "聚源虹膜之鑰";
 
-	--The Nexus: The Nexus	
+	--The Nexus: The Nexus
 	AL["Berinand's Research"] = "貝瑞那德的研究";
 	AL["Elder Igasho"] = "伊加修長者";
 
@@ -975,27 +975,27 @@ if AL then
 	AL["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字軍試煉";
 	AL["Cavern Entrance"] = "洞穴入口";
 
-	-- Ulduar General
+	--Ulduar General
 	AL["Celestial Planetarium Key"] = "星穹渾天儀之鑰";
 	AL["The Siege"] = "攻城區";
 	AL["The Keepers"] = "守護者"
 
-	-- Ulduar A
+	--Ulduar A
 	AL["Tower of Life"] = "生命之塔";
 	AL["Tower of Flame"] = "烈焰之塔";
 	AL["Tower of Frost"] = "冰霜之塔";
 	AL["Tower of Storms"] = "風暴之塔";
 
-	-- Ulduar B
+	--Ulduar B
 	AL["Prospector Doren"] = "勘察員多倫";
 	AL["Archivum Console"] = "大資料庫控制臺";
 
-	-- Ulduar C
+	--Ulduar C
 	AL["Sif"] = "希芙";
 
-	-- Ulduar D
+	--Ulduar D
 
-	-- Ulduar E
+	--Ulduar E
 
 	--Ulduar: Halls of Lightning
 
@@ -1060,12 +1060,4 @@ if AL then
 	AL["Legionnaire Nazgrim"] = "軍團士兵納茲格寧姆";
 	AL["Neptulon"] = "奈普圖隆";
 
---[[
--- Cataclysm Zone Names	
---
--- Not for translation, they will be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
 end

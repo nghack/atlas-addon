@@ -28,7 +28,7 @@ local AL = AceLocale:NewLocale("Atlas", "ruRU", false);
 
 -- Atlas Russian Localization
 -- Compiled by Eugene Filatov, bigoblin, StingerSoft
--- Last Update: 03.07.2010
+-- Last Update: 23.01.2011
 -- $Date$
 -- $Revision$
 
@@ -419,6 +419,8 @@ if AL then
 
 	--Sunken Temple (Entrance)
 
+	--Uldaman (Entrance)
+
 	--Ulduar (Entrance)
 	AL["Shavalius the Fancy <Flight Master>"] = "Шавалий Модник <Распорядитель полетов>";
 	AL["Chester Copperpot <General & Trade Supplies>"] = "Честер Медноковш <Потребительские и хозяйственные товары>";
@@ -629,7 +631,7 @@ if AL then
 	AL["Elder Farwhisper"] = "Старейшина Тихий Шепот";
 	AL["Market Row Postbox"] = "Ключ от почтового ящика в торговом ряду";
 	AL["Crusaders' Square Postbox"] = "Ключ от почтового ящика на Площади рыцарей";
-	
+
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Ключ от почтового ящика на Площади старейшины";
 	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Верховный маг Анджела Досантос <Братство Света>";
@@ -1073,12 +1075,4 @@ if AL then
 	AL["Legionnaire Nazgrim"] = "Легионер Назгрим";
 	AL["Neptulon"] = "Нептулон";
 
---[[
--- Cataclysm Zone Names	
---
--- Not for translation, they will be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
 end

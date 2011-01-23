@@ -50,7 +50,7 @@ ATLAS_DATA = {};
 ATLAS_SEARCH_METHOD = nil;
 
 -- Only update below version number when the options has been revised and a force update is needed.
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.17.0";
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2";
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
@@ -734,10 +734,10 @@ local function Process_Deprecated()
 		
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010
-		{ "AtlasQuest", "4.5.0" }, -- updated October 12, 2010
-		{ "AtlasMajorCities", "v1.5.2" }, -- updated July 20, 2010
-		{ "AtlasLoot", "6.01.02" }, -- updated December 22, 2010
-		{ "Atlas_Arena", "1.2" }, -- updated January, 04, 2011
+		{ "AtlasQuest", "4.6.0" }, -- updated December 18, 2010
+		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010
+		{ "AtlasLoot", "6.02.00" }, -- updated January 26, 2011
+		{ "Atlas_Arena", "1.3" }, -- updated January, 10, 2011
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

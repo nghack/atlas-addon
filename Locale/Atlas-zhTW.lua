@@ -415,6 +415,8 @@ if AL then
 	--The Deadmines (Entrance)
 
 	--Sunken Temple (Entrance)
+	AL["Priestess Udum'bra"] = "女祭師烏丹姆布拉";
+	AL["Gomora the Bloodletter"] = "『放血者』高摩拉";
 
 	--Uldaman (Entrance)
 
@@ -440,6 +442,8 @@ if AL then
 	AL["Relwyn Shadestar"] = "芮爾溫·影星";
 	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
 	AL["Sentinel-trainee Issara"] = "哨兵受訓員伊薩拉";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努薩克雷 <陶土議會>";
+	AL["Zeya"] = "仄亞";
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";
@@ -467,10 +471,13 @@ if AL then
 	--Ragefire Chasm
 
 	--Razorfen Downs
+	AL["Koristrasza"] = "柯莉史卓莎";
 	AL["Belnistrasz"] = "貝尼斯特拉茲";
 
 	--Razorfen Kraul
+	AL["Auld Stonespire"] = "奧爾德·石塔";
 	AL["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
+	AL["Spirit of Agamaggan <Ancient>"] = "阿迦瑪甘之靈 <先祖>";
 	AL["Willix the Importer"] = "進口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
@@ -496,6 +503,9 @@ if AL then
 	AL["Disciple of Naralex"] = "納拉雷克斯的信徒";
 
 	--Zul'Farrak
+	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "首席工程師膨嘯 <加基森水業公司>";
+	AL["Mazoga's Spirit"] = "瑪柔伽的靈魂";
+	AL["Tran'rek"] = "特蘭雷克";
 	AL["Weegli Blastfuse"] = "維格利";
 	AL["Raven"] = "拉文";
 	AL["Elder Wildmane"] = "蠻鬃長者";
@@ -537,6 +547,7 @@ if AL then
 	AL["Marshal Maxwell <Morgan's Militia>"] = "麥斯威爾元帥 <摩根的民兵>";
 	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "督軍高圖斯 <卡加斯遠征軍>";
 	AL["The Black Forge"] = "黑熔爐";
+	AL["Core Fragment"] = "熔核碎片";
 	AL["Shadowforge Brazier"] = "暗爐火盆";
 
 	--Blackrock Spire (Lower)
@@ -587,6 +598,7 @@ if AL then
 	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
 	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
 	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特";
+	AL["Haunted Stable Hand"] = "鬼怪獸欄僕人";
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
 	--SM: Armory
@@ -646,8 +658,11 @@ if AL then
 	--Uldaman
 	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴爾洛戈的箱子";
+	AL["Kand Sandseeker <Explorer's League>"] = "坎德·覓沙 <探險者協會>";
+	AL["Lead Prospector Durdin <Explorer's League>"] = "首席勘察員杜爾丁 <探險者協會>";
+	AL["Olga Runesworn <Explorer's League>"] = "歐嘉·符誓 <探險者協會>";
 	AL["Aoren Sunglow <The Reliquary>"] = "安歐連·日耀";
-	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "高階審查員泰瑟連·血腥看守者";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "高階審查員泰瑟連·血腥看守者 <聖匣守護者>";
 	AL["Lidia Sunglow <The Reliquary>"] = "莉蒂雅·日耀";
 	AL["Ancient Treasure"] = "古代寶藏";
 	AL["The Discs of Norgannon"] = "諾甘農圓盤";

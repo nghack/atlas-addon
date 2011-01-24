@@ -373,10 +373,6 @@ if AL then
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Intendant du Bouclier balafré <Légion du Bouclier balafré>";
 	AL["The Behemoth"] = "Le Béhémoth";
 
-	--Coilfang Reservoir (Entrance)
-	AL["Watcher Jhang"] = "Guetteur Jhang";
-	AL["Mortog Steamhead"] = "Mortog Têtavapeur";
-
 	--Caverns of Time (Entrance)
 	AL["Steward of Time <Keepers of Time>"] = "Régisseur du temps <Les Gardiens du temps>";
 	AL["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Gargotte du temps>";
@@ -390,6 +386,14 @@ if AL then
 	AL["Andormu <Keepers of Time>"] = "Andormu <Les Gardiens du temps>";
 	AL["Nozari <Keepers of Time>"] = "Nozari <Les Gardiens du temps>";
 	AL["Anachronos <Keepers of Time>"] = "Anachronos <Les Gardiens du temps>";
+
+	--Caverns of Time: Hyjal (Entrance)
+	AL["Indormi <Keeper of Ancient Gem Lore>"] = "Indormi <Gardienne du savoir ancien des gemmes>";
+	AL["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Gardien des artéfacts sha'tari>";
+
+	--Coilfang Reservoir (Entrance)
+	AL["Watcher Jhang"] = "Guetteur Jhang";
+	AL["Mortog Steamhead"] = "Mortog Têtavapeur";
 
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "Bassin redoutable";

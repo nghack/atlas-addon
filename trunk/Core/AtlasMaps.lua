@@ -112,22 +112,6 @@ AtlasMaps = {
 		{ GREN.."1') "..AL["Meeting Stone"].." ("..AL["BRD"]..")" };
 		{ GREN.."2') "..AL["Meeting Stone"].." ("..AL["LBRS"]..", "..AL["UBRS"]..")" };
 	};
-	CoilfangReservoirEnt = {
-		ZoneName = { BZ["Coilfang Reservoir"].." ("..AL["Entrance"]..")" };
-		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "61-70+";
-		MinLevel = "55";
-		PlayerLimit = "5/25";
-		Acronym = AL["CR"];
-		{ BLUE.."A) "..BZ["The Slave Pens"] };
-		{ BLUE.."B) "..BZ["The Steamvault"] };
-		{ BLUE.."C) "..BZ["Serpentshrine Cavern"] };
-		{ BLUE.."D) "..BZ["The Underbog"] };
-		{ BLUE.."E) "..AL["Entrance"].." ("..AL["Underwater"]..")" };
-		{ GREN.."1') "..AL["Watcher Jhang"] };
-		{ GREN..INDENT..AL["Meeting Stone"] };
-		{ GREN.."2') "..AL["Mortog Steamhead"] };
-	};
 	CavernsOfTimeEnt = {
 		ZoneName = { BZ["Caverns of Time"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Tanaris"] };
@@ -156,6 +140,38 @@ AtlasMaps = {
 		{ GREN.."9') "..AL["Anachronos <Keepers of Time>"] };
 		{ GREN.."10') "..AL["Andormu <Keepers of Time>"].." ("..AL["Adult"]..")" };
 		{ GREN..INDENT..AL["Nozari <Keepers of Time>"].." ("..AL["Adult"]..")" };
+	};
+	CoTHyjalEnt = {
+		ZoneName = { BZ["Caverns of Time"]..": "..BZ["Hyjal Summit"].." ("..AL["Entrance"]..")" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "70+";
+		MinLevel = "70";
+		PlayerLimit = "25";
+		Acronym = AL["CoT3"];
+		{ PURP..AL["Event"]..": "..AL["Battle for Mount Hyjal"] };
+		{ ORNG..AL["Reputation"]..": "..BF["The Scale of the Sands"] };
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ BLUE.."B) "..AL["Alliance Base"] };
+		{ BLUE.."C) "..AL["Horde Encampment"] };
+		{ BLUE.."D) "..AL["Night Elf Village"] };
+		{ GREN.."1') "..AL["Indormi <Keeper of Ancient Gem Lore>"] };
+		{ GREN..INDENT..AL["Tydormu <Keeper of Lost Artifacts>"] };
+	};
+	CoilfangReservoirEnt = {
+		ZoneName = { BZ["Coilfang Reservoir"].." ("..AL["Entrance"]..")" };
+		Location = { BZ["Zangarmarsh"] };
+		LevelRange = "61-70+";
+		MinLevel = "55";
+		PlayerLimit = "5/25";
+		Acronym = AL["CR"];
+		{ BLUE.."A) "..BZ["The Slave Pens"] };
+		{ BLUE.."B) "..BZ["The Steamvault"] };
+		{ BLUE.."C) "..BZ["Serpentshrine Cavern"] };
+		{ BLUE.."D) "..BZ["The Underbog"] };
+		{ BLUE.."E) "..AL["Entrance"].." ("..AL["Underwater"]..")" };
+		{ GREN.."1') "..AL["Watcher Jhang"] };
+		{ GREN..INDENT..AL["Meeting Stone"] };
+		{ GREN.."2') "..AL["Mortog Steamhead"] };
 	};
 	DireMaulEnt = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["Entrance"]..")" };

@@ -365,10 +365,6 @@ if AL then
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "Scarshield Quartermaster <Scarshield Legion>";
 	AL["The Behemoth"] = "The Behemoth";
 
-	--Coilfang Reservoir (Entrance)
-	AL["Watcher Jhang"] = "Watcher Jhang";
-	AL["Mortog Steamhead"] = "Mortog Steamhead";
-
 	--Caverns of Time (Entrance)
 	AL["Steward of Time <Keepers of Time>"] = "Steward of Time <Keepers of Time>";
 	AL["Alexston Chrome <Tavern of Time>"] = "Alexston Chrome <Tavern of Time>";
@@ -382,6 +378,14 @@ if AL then
 	AL["Andormu <Keepers of Time>"] = "Andormu <Keepers of Time>";
 	AL["Nozari <Keepers of Time>"] = "Nozari <Keepers of Time>";
 	AL["Anachronos <Keepers of Time>"] = "Anachronos <Keepers of Time>";
+
+	--Caverns of Time: Hyjal (Entrance)
+	AL["Indormi <Keeper of Ancient Gem Lore>"] = "Indormi <Keeper of Ancient Gem Lore>";
+	AL["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Keeper of Lost Artifacts>";
+
+	--Coilfang Reservoir (Entrance)
+	AL["Watcher Jhang"] = "Watcher Jhang";
+	AL["Mortog Steamhead"] = "Mortog Steamhead";
 
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "Dire Pool";

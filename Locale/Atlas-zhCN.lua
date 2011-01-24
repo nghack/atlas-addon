@@ -353,10 +353,6 @@ if AL then
 	AL["Orb of Command"] = "命令宝珠";
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾军需官 <裂盾军团>";
 
-	--Coilfang Reservoir (Entrance)
-	AL["Watcher Jhang"] = "观察者杰哈恩";
-	AL["Mortog Steamhead"] = "莫尔托格";
-
 	--Caverns of Time (Entrance)
 	AL["Steward of Time <Keepers of Time>"] = "时间管理者 <时光守护者>";
 	AL["Alexston Chrome <Tavern of Time>"] = "阿历克斯顿·克罗姆 <时间旅店>";
@@ -370,6 +366,10 @@ if AL then
 	AL["Andormu <Keepers of Time>"] = "安多姆 <时光守护者>";
 	AL["Nozari <Keepers of Time>"] = "诺萨莉 <时光守护者>";
 	AL["Anachronos <Keepers of Time>"] = "阿纳克洛斯 <时光守护者>";
+
+	--Coilfang Reservoir (Entrance)
+	AL["Watcher Jhang"] = "观察者杰哈恩";
+	AL["Mortog Steamhead"] = "莫尔托格";
 
 	--Dire Maul (Entrance)
 	AL["Dire Pool"] = "厄运之池";

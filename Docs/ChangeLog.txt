@@ -8,6 +8,7 @@ Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 
 v1.18.2 (Jan 26, 2011)
 - NPC map updates for several dungeons
+- Added Caverns of Time: Hyjal Entrance map
 - Added Tempest Keep Entrance map
 - Added Ulduar Entrance map
 

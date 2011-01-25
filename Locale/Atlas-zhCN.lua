@@ -350,8 +350,10 @@ if AL then
 
 	--Blackrock Mountain (Entrance)
 	AL["Bodley"] = "伯德雷";
+	AL["Lothos Riftwaker"] = "洛索斯·天痕";
 	AL["Orb of Command"] = "命令宝珠";
 	AL["Scarshield Quartermaster <Scarshield Legion>"] = "裂盾军需官 <裂盾军团>";
+	AL["The Behemoth"] = "贝哈默斯";
 
 	--Caverns of Time (Entrance)
 	AL["Steward of Time <Keepers of Time>"] = "时间管理者 <时光守护者>";
@@ -366,6 +368,10 @@ if AL then
 	AL["Andormu <Keepers of Time>"] = "安多姆 <时光守护者>";
 	AL["Nozari <Keepers of Time>"] = "诺萨莉 <时光守护者>";
 	AL["Anachronos <Keepers of Time>"] = "阿纳克洛斯 <时光守护者>";
+
+	--Caverns of Time: Hyjal (Entrance)
+	AL["Indormi <Keeper of Ancient Gem Lore>"] = "因多米 <上古宝石保管者>";
+	AL["Tydormu <Keeper of Lost Artifacts>"] = "泰多姆 <失落神器的保管者>";
 
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "观察者杰哈恩";
@@ -403,8 +409,15 @@ if AL then
 	--The Deadmines (Entrance)
 
 	--Sunken Temple (Entrance)
+	AL["Priestess Udum'bra"] = "女祭师乌丹姆布拉";	-- Needs review after Cataclysm is available in China
+	AL["Gomora the Bloodletter"] = "『放血者』高摩拉";	-- Needs review after Cataclysm is available in China
 
 	--Uldaman (Entrance)
+
+	--Ulduar (Entrance)
+	AL["Shavalius the Fancy <Flight Master>"] = "古怪的沙瓦留斯 <飞行管理员>";
+	AL["Chester Copperpot <General & Trade Supplies>"] = "切斯特·考伯特 <杂货商>";
+	AL["Slosh <Food & Drink>"] = "斯洛什 <食物与饮料>";
 
 	--Wailing Caverns (Entrance)
 
@@ -416,9 +429,15 @@ if AL then
 	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
 	AL["Fathom Stone"] = "深渊之核";
 	AL["Lorgalis Manuscript"] = "潮湿的便笺";
-	AL["Scout Thaelrid"] = "斥候塞尔瑞德"; -- Needs review
-	AL["Flaming Eradicator"] = "火焰根除者"; -- Needs review
+	AL["Scout Thaelrid"] = "斥候塞尔瑞德";	-- Needs review after Cataclysm is available in China
+	AL["Flaming Eradicator"] = "火焰根除者";	-- Needs review after Cataclysm is available in China
 	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
+	AL["Ashelan Northwood"] = "阿谢兰•北木";	-- Needs review after Cataclysm is available in China
+	AL["Relwyn Shadestar"] = "芮尔温•影星";	-- Needs review after Cataclysm is available in China
+	AL["Sentinel Aluwyn"] = "哨兵阿露温";	-- Needs review after Cataclysm is available in China
+	AL["Sentinel-trainee Issara"] = "哨兵受训员伊萨拉";	-- Needs review after Cataclysm is available in China
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努萨克雷 <陶土议会>";	-- Needs review after Cataclysm is available in China
+	AL["Zeya"] = "仄亚";	-- Needs review after Cataclysm is available in China
 
 	--Dire Maul (East)
 	AL["Old Ironbark"] = "埃隆巴克";
@@ -446,10 +465,13 @@ if AL then
 	--Ragefire Chasm
 
 	--Razorfen Downs
+	AL["Koristrasza"] = "柯莉史卓莎";	-- Needs review after Cataclysm is available in China
 	AL["Belnistrasz"] = "奔尼斯特拉兹";
 
 	--Razorfen Kraul
+	AL["Auld Stonespire"] = "奥尔德·石塔 ";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
+	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘之灵 <先祖>";	-- Needs review after Cataclysm is available in China
 	AL["Willix the Importer"] = "进口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
@@ -475,6 +497,9 @@ if AL then
 	AL["Disciple of Naralex"] = "纳拉雷克斯的信徒";
 
 	--Zul'Farrak
+	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "首席工程师沙克斯·比格维兹 <加基森水业公司>";
+	AL["Mazoga's Spirit"] = "玛柔伽的灵魂";	-- Needs review after Cataclysm is available in China
+	AL["Tran'rek"] = "特兰雷克";
 	AL["Weegli Blastfuse"] = "维格利";
 	AL["Raven"] = "拉文";
 	AL["Elder Wildmane"] = "蛮鬃长者";
@@ -484,6 +509,8 @@ if AL then
 --****************************
 
 	--Blackrock Depths
+	AL["Relic Coffer Key"] = "遗物宝箱钥匙";
+	AL["Dark Keeper Key"] = "黑暗守护者钥匙";
 	AL["The Black Anvil"] = "黑铁砧";
 	AL["The Vault"] = "黑色宝库";
 	AL["Watchman Doomgrip"] = "卫兵杜格瑞普";

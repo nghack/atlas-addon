@@ -380,6 +380,8 @@ if AL then
 	AL["Anachronos <Keepers of Time>"] = "安納克羅斯 <時光守望者>";
 
 	--Caverns of Time: Hyjal (Entrance)
+	AL["Indormi <Keeper of Ancient Gem Lore>"] = "隱多米 <寶石傳說的守護者>";
+	AL["Tydormu <Keeper of Lost Artifacts>"] = "提多姆 <失落的神器看管者>";
 
 	--Coilfang Reservoir (Entrance)
 	AL["Watcher Jhang"] = "看守者詹汗格";

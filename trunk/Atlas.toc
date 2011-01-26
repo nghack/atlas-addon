@@ -9,7 +9,7 @@
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com
 ## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW
-## X-Date: January 26th, 2011
+## X-Date: January 28th, 2011
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 地圖集[主程式]
 ## Notes-deDE: Instanzkarten-Browser
 ## Notes-frFR: Navigateur de cartes d'instances

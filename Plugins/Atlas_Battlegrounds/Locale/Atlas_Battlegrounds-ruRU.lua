@@ -40,6 +40,7 @@ if AL then
 	--Common
 	AL["Battleground Maps"] = "Карты Полей Сражений";
 	AL["Entrance"] = "Вход";
+	AL["Meeting Stone"] = "Камень встреч";
 	AL["North"] = "Север";
 	AL["Reputation"] = "Реп";
 	AL["Rescued"] = "Спасенный";

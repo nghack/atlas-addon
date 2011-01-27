@@ -32,6 +32,7 @@ if AL then
 	--Common
 	AL["Battleground Maps"] = "戰場地圖";
 	AL["Entrance"] = "入口";
+	AL["Meeting Stone"] = "集合石";
 	AL["North"] = "北";
 	AL["Reputation"] = "聲望";
 	AL["Rescued"] = "營救";

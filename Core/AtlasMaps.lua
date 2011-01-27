@@ -801,11 +801,10 @@ AtlasMaps = {
 		{ WHIT.."4) "..BB["Broodlord Lashlayer"] };
 		{ WHIT.."5) "..BB["Firemaw"] };
 		{ WHIT.."6) "..BB["Ebonroc"] };
+		{ WHIT..INDENT..AL["Master Elemental Shaper Krixix"] };
 		{ WHIT.."7) "..BB["Flamegor"] };
 		{ WHIT.."8) "..BB["Chromaggus"] };
 		{ WHIT.."9) "..BB["Nefarian"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..AL["Master Elemental Shaper Krixix"] };
 	};
 	Gnomeregan = {
 		ZoneName = { BZ["Gnomeregan"] };

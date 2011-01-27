@@ -31,6 +31,7 @@ if AL then
 	--Common
 	AL["Battleground Maps"] = "Cartes des champs de bataille";
 	AL["Entrance"] = "Entrée";
+	AL["Meeting Stone"] = "Pierre de rencontre";
 	AL["North"] = "Nord";
 	AL["Reputation"] = "Réputation "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Rescued"] = "Sauvé";

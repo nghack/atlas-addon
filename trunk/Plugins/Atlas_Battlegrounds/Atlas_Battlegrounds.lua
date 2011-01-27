@@ -344,6 +344,7 @@ local myData = {
 		{ GREN.."1) "..BZ["Ironclad Garrison"] };
 		{ GREN.."2) "..BZ["Warden's Vigil"] };
 		{ GREN.."3) "..BZ["Slagworks"] };
+		{ GREN.."1') "..AL["Meeting Stone"] };
 		{ _RED.."1) "..BZ["West Spire"] };
 		{ _RED.."2) "..BZ["East Spire"] };
 		{ _RED.."3) "..BZ["South Spire"] };

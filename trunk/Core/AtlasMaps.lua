@@ -399,6 +399,8 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
 		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["\"Ambassador\" Dagg'thol"] };
+		{ GREN..INDENT..AL["Furgus Warpwood"] };
 		{ BLUE.."B) "..AL["Entrance"] };
 		{ BLUE.."C) "..AL["Entrance"] };
 		{ BLUE.."D) "..AL["Connection"] };
@@ -420,6 +422,8 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
 		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Druid of the Talon"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Stonemaul Ogre"].." ("..BF["Horde"]..")" };
 		{ WHIT.."1) "..BB["Guard Mol'dar"] };
 		{ WHIT.."2) "..BB["Stomper Kreeg"] };
 		{ WHIT.."3) "..BB["Guard Fengus"] };
@@ -447,10 +451,12 @@ AtlasMaps = {
 		{ ORNG..INDENT..BB["Lord Hel'nurath"].." ("..AL["Summon"]..")" };
 		{ WHIT.."5) "..BB["Prince Tortheldrin"] };
 		{ ORNG.."1) "..BB["Tsu'zee"].." ("..AL["Rare"]..")" };
-		{ GREN.."1') "..AL["Pylons"] };
-		{ GREN.."2') "..AL["Ancient Equine Spirit"] };
-		{ GREN.."3') "..AL["Shen'dralar Ancient"] };
-		{ GREN.."4') "..BZ["The Athenaeum"] };
+		{ GREN.."1') "..AL["Estulan <The Highborne>"] };
+		{ GREN..INDENT..AL["Shen'dralar Watcher"] };
+		{ GREN.."2') "..AL["Pylons"] };
+		{ GREN.."3') "..AL["Ancient Equine Spirit"] };
+		{ GREN.."4') "..AL["Shen'dralar Ancient"] };
+		{ GREN.."5') "..BZ["The Athenaeum"] };
 		{ GREN..INDENT..AL["Falrin Treeshaper"] };
 		{ GREN..INDENT..AL["Lorekeeper Lydros"] };
 		{ GREN..INDENT..AL["Lorekeeper Javon"] };
@@ -492,6 +498,8 @@ AtlasMaps = {
 		{ WHIT.."2) "..BB["Taragaman the Hungerer"] };
 		{ WHIT.."3) "..BB["Jergosh the Invoker"] };
 		{ WHIT.."4) "..BB["Bazzalan"] };
+		{ GREN.."1') "..AL["Bovaal Whitehorn"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..AL["Stone Guard Kurjack"].." ("..BF["Horde"]..")" };
 	};
 	RazorfenDowns = {
 		ZoneName = { BZ["Razorfen Downs"] };

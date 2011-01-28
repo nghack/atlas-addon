@@ -453,15 +453,21 @@ if AL then
 	AL["Zeya"] = "Зейя";
 
 	--Dire Maul (East)
+	AL["\"Ambassador\" Dagg'thol"] = "\"Посланник\"Дагг'тол";
+	AL["Furgus Warpwood"] = "Фургус Криводрев";
 	AL["Old Ironbark"] = "Старик Железной Коры";
 	AL["Ironbark the Redeemed"] = "Железная Кора - отмщенный";
 
 	--Dire Maul (North)
+	AL["Druid of the Talon"] = "Друид-ворон";
+	AL["Stonemaul Ogre"] = "Огр из клана Каменного Молота";
 	AL["Knot Thimblejack"] = "Уззл Наперстяк";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "Флакон Д'жииви";
 	AL["Ferra"] = "Ферра";
+	AL["Estulan <The Highborne>"] = "Эстулан <Высокорожденный>";
+	AL["Shen'dralar Watcher"] = "Шен'драларский дозорный";
 	AL["Pylons"] = "Опоры";
 	AL["Ancient Equine Spirit"] = "Дух древнего коня";
 	AL["Shen'dralar Ancient"] = "Шен'драларский поставщик";
@@ -476,6 +482,8 @@ if AL then
 	AL["Elder Splitrock"] = "Старейшина Камнепад ";
 
 	--Ragefire Chasm
+	AL["Bovaal Whitehorn"] = "Боваал Белый Рог";
+	AL["Stone Guard Kurjack"] = "Каменный cтраж Курджак";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";

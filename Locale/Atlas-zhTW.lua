@@ -450,15 +450,21 @@ if AL then
 	AL["Zeya"] = "仄亞";
 
 	--Dire Maul (East)
+	AL["\"Ambassador\" Dagg'thol"] = "達格索大使";
+	AL["Furgus Warpwood"] = "佛格斯·扭木";
 	AL["Old Ironbark"] = "埃隆巴克";
 	AL["Ironbark the Redeemed"] = "贖罪的鐵朴";
 
 	--Dire Maul (North)
+	AL["Druid of the Talon"] = "猛禽德魯伊";
+	AL["Stonemaul Ogre"] = "石槌巨魔";
 	AL["Knot Thimblejack"] = "諾特·希姆加克";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "耶維爾的瓶子";
 	AL["Ferra"] = "費拉";
+	AL["Estulan <The Highborne>"] = "艾斯圖蘭";
+	AL["Shen'dralar Watcher"] = "辛德拉看守者";
 	AL["Pylons"] = "水晶塔";
 	AL["Ancient Equine Spirit"] = "上古聖馬之魂";
 	AL["Shen'dralar Ancient"] = "辛德拉古靈";
@@ -473,6 +479,8 @@ if AL then
 	AL["Elder Splitrock"] = "劈石長者";
 
 	--Ragefire Chasm
+	AL["Bovaal Whitehorn"] = "波瓦爾·白角";
+	AL["Stone Guard Kurjack"] = "石衛士療舉";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "柯莉史卓莎";

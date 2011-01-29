@@ -2500,8 +2500,8 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Itesh"] };
 		{ WHIT.."1) "..BB["Grand Vizier Ertan"] };
-		{ WHIT.."2) "..BB["Altarius"] };
-		{ WHIT.."3) "..BB["Asim al Akir"] };
+		{ WHIT.."2) "..BB["Altairus"] };
+		{ WHIT.."3) "..BB["Asaad"] };
 		{ GREN.."1') "..AL["Teleporter"] };
 	};
 	ThroneOfTheFourWinds = {

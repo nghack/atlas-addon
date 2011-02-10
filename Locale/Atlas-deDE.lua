@@ -1075,7 +1075,7 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Kapitän Hadan";
-	AL["Augh"] = "Autsch";
+	AL["Augh"] = "Augh";
 
 	--Sulfuron Keep
 

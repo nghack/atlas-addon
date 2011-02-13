@@ -13,10 +13,10 @@
 ## Notes-zhCN: 副本分布图
 ## Notes-zhTW: Atlas 地下城位置地圖模組，顯示各個地下城 (副本) 所在位置
 ## Version: 1.18.2
-## Author: Lothaer, arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, Deadca7
 ## X-Date: January 28th, 2011
-## X-credits: Dan Gilbert
-## X-Email: lothayer@gmail.com
+## X-Credits: Dan Gilbert, Lothaer
+## X-Email: atlas.wowaddom@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## RequiredDeps: Atlas

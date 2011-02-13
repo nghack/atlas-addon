@@ -1,11 +1,11 @@
 ﻿## Interface: 40000
 ## Title: Atlas
 ## Notes: Instance Map Browser
-## Author: Lothaer, arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, Deadca7
 ## Version: 1.18.2
 ## X-Category: Map
-## X-Email: lothayer@gmail.com
-## X-Credits: Dan Gilbert
+## X-Email: atlas.wowaddom@gmail.com
+## X-Credits: Dan Gilbert, Lothaer
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com
 ## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW

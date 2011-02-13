@@ -1,7 +1,8 @@
 Atlas, 魔獸世界地圖的增強插件
 著作權:
-    2005 - 2010 Dan Gilbert
-    2010 - 2011 Atlas Team (http://atlasmod.com/)
+Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
+Copyright 2011 - Arith Hsu <atlas.wowaddom@gmail.com>
 
 
 ===============

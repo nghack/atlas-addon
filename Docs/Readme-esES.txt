@@ -1,7 +1,7 @@
 Atlas, un visor de mapas de mazmorras para World of Warcraft
 Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu <atlas.wowaddom@gmail.com>
+Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 
 
 ===============

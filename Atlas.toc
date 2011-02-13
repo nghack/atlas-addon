@@ -4,7 +4,7 @@
 ## Author: arith, Dynaletik, Deadca7
 ## Version: 1.18.2
 ## X-Category: Map
-## X-Email: atlas.wowaddom@gmail.com
+## X-Email: atlas.wowaddon@gmail.com
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com

@@ -284,8 +284,8 @@ AtlasMaps = {
 		LevelRange = "68-70";
 		MinLevel= "68";
 		PlayerLimit = "5/25";
-		{ BLUE.."A) "..BZ["The Botanica"] };
-		{ BLUE.."B) "..BZ["The Mechanar"] };
+		{ BLUE.."A) "..BZ["The Mechanar"] };
+		{ BLUE.."B) "..BZ["The Botanica"] };
 		{ BLUE.."C) "..BZ["The Arcatraz"] };
 		{ BLUE.."D) "..BZ["Tempest Keep"] };
 	};

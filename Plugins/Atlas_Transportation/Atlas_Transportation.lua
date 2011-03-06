@@ -183,11 +183,17 @@ local myData = {
 	TransAllianceWest = {
 		ZoneName = { BZ["Kalimdor"].." ("..BF["Alliance"]..")" };
 		{ _RED..BZ["Docks"] };
+		{ ORNG.." A) "..BZ["Valaar's Berth"]..", "..BZ["Azuremyst Isle"] };
+		{ WHIT.." 3) "..BZ["Rut'theran Village"]..", "..BZ["Teldrassil"] };
+		{ WHIT.."28) "..BZ["Ratchet"]..", "..BZ["Northern Barrens"] };
+		{ WHIT.."32) "..BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		{ ORNG.." A') "..BZ["Stormwind Harbor"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ ORNG.." B') "..BZ["Menethil Harbor"]..", "..BZ["Wetlands"]..", "..BZ["Eastern Kingdoms"] };
 		{ ORNG.." C') "..BZ["Booty Bay"]..", "..BZ["The Cape of Stranglethorn"]..", "..BZ["Eastern Kingdoms"] };
 		{ "" };
 		{ _RED..AL["Portals"].." / "..BZ["Waygate"] };
+		{ WHIT.." 2) "..BZ["Temple of the Moon"]..", "..BZ["Darnassus"]..", "..BZ["Teldrassil"] };
+		{ WHIT.." 5) "..BZ["The Vault of Lights"]..", "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"] };
 		{ PURP.." A) "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"] };
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
 		{ PURP.." B') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };

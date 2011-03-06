@@ -30,6 +30,7 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "enUS", true);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
+	AL["The Bogpaddle Bullet"] = "The Bogpaddle Bullet";
 	AL["Death Knight Only"] = "Death Knight Only";		-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
 	AL["Druid-only"] = "Druid-only";			-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "Legend";				-- The chart's legend, for example, the purple line means the portal's path

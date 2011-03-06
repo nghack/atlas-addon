@@ -44,6 +44,7 @@ if AL then
 	AL["Taxi Nodes"] = "航行點";
 	AL["Transportation Maps"] = "交通網路地圖";
 	AL["Transporter"] = "輸送者";
+	AL["Transporters by the sea and on the cliff"] = "傳送器位於懸崖上與懸崖下"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
 	AL["West of the path to Timbermaw Hold"] = "往木喉要塞小徑西方";
 	AL["Wind Rider"] = "雙足飛龍";
 	AL["Zeppelin Towers"] = "飛船空塔";

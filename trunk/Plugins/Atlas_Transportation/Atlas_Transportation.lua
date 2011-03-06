@@ -48,6 +48,9 @@ local myData = {
 	TransAllianceEast = {
 		ZoneName = { BZ["Eastern Kingdoms"].." ("..BF["Alliance"]..")" };
 		{ _RED..BZ["Docks"] };
+		{ WHIT.."21) "..BZ["Menethil Harbor"]..", "..BZ["Wetlands"] };
+		{ WHIT.."42) "..BZ["Stormwind Harbor"]..", "..BZ["Elwynn Forest"] };
+		{ WHIT.."59) "..BZ["Booty Bay"]..", "..BZ["The Cape of Stranglethorn"] };
 		{ ORNG.." A') "..BZ["Valgarde"]..", "..BZ["Howling Fjord"]..", "..BZ["Northrend"] };
 		{ ORNG.." B') "..BZ["Valiance Keep"]..", "..BZ["Borean Tundra"]..", "..BZ["Northrend"] };
 		{ ORNG.." C') "..BZ["Rut'theran Village"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
@@ -58,6 +61,10 @@ local myData = {
 		{ PURP.." A) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
 		{ PURP.." B) "..BZ["Baradin Base Camp"]..", "..BZ["Tol Barad Peninsula"] };
 		{ PURP.." C) "..BZ["Highbank"]..", "..BZ["Twilight Highlands"] };
+		{ PURP.." D) "..BZ["Fuselight-by-the-Sea"]..", "..BZ["Badlands"] };
+		{ PURP..INDENT.."("..AL["Transporters by the sea and on the cliff"]..")" };
+		{ WHIT.."29) "..BZ["The Mystic Ward"]..", "..BZ["Ironforge"]..", "..BZ["Dun Morogh"] };
+		{ WHIT.."42) "..BZ["Mage Quarter"]..", "..BZ["Stormwind"]..", "..BZ["Elwynn Forest"] };
 		{ PURP.." A') "..BZ["Nordrassil"]..", "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Ramkahen"]..", "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };

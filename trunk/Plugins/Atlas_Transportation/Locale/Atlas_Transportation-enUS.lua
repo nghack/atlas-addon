@@ -44,6 +44,7 @@ if AL then
 	AL["Taxi Nodes"] = "Taxi Nodes";
 	AL["Transportation Maps"] = "Transportation Maps";
 	AL["Transporter"] = "Transporter";			-- The NPC who can transport you to other place
+	AL["Transporters by the sea and on the cliff"] = "Transporters by the sea and on the cliff"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
 	AL["West of the path to Timbermaw Hold"] = "West of the path to Timbermaw Hold";
 	AL["Wind Rider"] = "Wind Rider";
 	AL["Zeppelin Towers"] = "Zeppelin Towers";

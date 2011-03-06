@@ -30,6 +30,7 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
+	AL["The Bogpaddle Bullet"] = "La balle de Brasse-Tourbe";
 	AL["Death Knight Only"] = "Chevalier de la mort seulement";	-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
 	AL["Druid-only"] = "Druide seulement";				-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "Légende";					-- The chart's legend, for example, the purple line means the portal's path
@@ -44,6 +45,7 @@ if AL then
 	AL["Taxi Nodes"] = "Nœuds de transports";
 	AL["Transportation Maps"] = "Cartes des Transports";
 	AL["Transporter"] = "Transporteur";
+    AL["Transporters by the sea and on the cliff"] = "Transporteurs par la mer et sur la falaise"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
 	AL["Wind Rider"] = "Coursier du vent";
 	AL["Zeppelin Towers"] = "Tours de Zeppelin";

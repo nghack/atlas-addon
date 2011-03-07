@@ -30,6 +30,7 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "deDE", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
+	AL["The Bogpaddle Bullet"] = "Der Kraulsumpfexpress";
 	AL["Death Knight Only"] = "Nur Todesritter";
 	AL["Druid-only"] = "Nur Druiden";
 	AL["Legend"] = "Legende";
@@ -44,6 +45,7 @@ if AL then
 	AL["Taxi Nodes"] = "Flugpunkte";
 	AL["Transportation Maps"] = "Beförderungsrouten";
 	AL["Transporter"] = "Transporter";
+	AL["Transporters by the sea and on the cliff"] = "Transporter übers Meer und am Kliff";
 	AL["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
 	AL["Wind Rider"] = "Windreiter";
 	AL["Zeppelin Towers"] = "Zeppelintürme";

@@ -5,14 +5,17 @@ Copyright 2010 - 2011 Atlas Team (http://atlasmod.com/)
 ==============
 = Change Log =
 ==============
+v1.18.3 (Xxx. XX, XXXX)
+- TempestKeep Entrance map info update
+- Transportation map update
 
-v1.18.2 (Jan 28, 2011)
+v1.18.2 (Jan. 28, 2011)
 - NPC map updates for several dungeons
 - Added Caverns of Time: Hyjal Entrance map
 - Added Tempest Keep Entrance map
 - Added Ulduar Entrance map
 
-v1.18.1 (Jan 06, 2011)
+v1.18.1 (Jan. 06, 2011)
 - Translation update
   - German (Dynaletik)
   - French (Khiria)
@@ -22,7 +25,7 @@ v1.18.1 (Jan 06, 2011)
 - Maps and NPCs update for several dungeons and continents
 - Resolve Eastern Kingdom dungeon menu display issue by spliting into two parts
   
-v1.18.0 (Dec 07, 2010)
+v1.18.0 (Dec. 07, 2010)
 - Prepared Atlas for the Cataclysm Maps
 - Added Baradin Hold
 - Added Blackrock Caverns
@@ -52,11 +55,11 @@ v1.18.0 (Dec 07, 2010)
   - Spanish (maqjav)
   - Traditional Chinese (arith)
 
-v1.17.2 (Oct 18, 2010)
+v1.17.2 (Oct. 18, 2010)
 - Hotfix to resolve the plugins maps won't show when AtlasLoot is enabled.
 - Added About panel.
 
-v1.17.1 (Oct 13, 2010)
+v1.17.1 (Oct. 13, 2010)
 - support WoW 4.0
 - translation update
   - Simplified Chinese (DiabloHu)
@@ -64,7 +67,7 @@ v1.17.1 (Oct 13, 2010)
 - change the options to be per account instead of per character
 - fixed Ruby Sanctum map
 
-v1.17.0 (Aug 15, 2010)
+v1.17.0 (Aug. 15, 2010)
 - improved auto-selection feature for foreign languages (Dynaletik, arith, Lothaer)
 - introduced LibBabble-Zone and LibBabble-SubZone to Atlas (arith, Dynaletik)
 - new map: Hellfire Citadel dungeon entrace map (arith)
@@ -81,12 +84,12 @@ v1.17.0 (Aug 15, 2010)
 - added Lunar Elders locations in Northrend maps (Deadca7, Dynaletik)
 - several maps refine (Deadca7)
 
-v1.16.1 (Jun 07, 2010)
+v1.16.1 (Jun. 07, 2010)
 - new map: Ruby Sanctum
 - fixed and added some ICC entries
 - minor fixes
 
-v1.16.0
+v1.16.0 (never released)
 - new map: Icecrown Citadel, in three parts (Deadca7)
 - new map: The Frozen Halls: The Forge of Souls (Deadca7)
 - new map: The Frozen Halls: Pit of Saron (Deadca7)
@@ -102,16 +105,16 @@ v1.16.0
 - rewrote and simplified the readme file
 - removed the world map coordinates feature
 
-v1.15.2 (Dec 18, 2009)
+v1.15.2 (Dec. 18, 2009)
 - updated TOC number to 30300 for the 3.3 patch
 - fix for zhTW (Traditional Chinese) translation (s8095324)
 
-v1.15.1 (Oct 10, 2009)
+v1.15.1 (Oct. 10, 2009)
 - fix for deDE (German) translation
 - updated version check for some Atlas addons
 - settings will now be preserved between some updates
 
-v1.15.0 (Oct 07, 2009)
+v1.15.0 (Oct. 07, 2009)
 - new map: Crusaders' Coliseum: Trial of the Champion (Deadca7)
 - new map: Crusaders' Coliseum: Trial of the Crusader (Deadca7)
 - new map: Isle of Conquest (Deadca7, Celellach)
@@ -137,13 +140,13 @@ v1.15.0 (Oct 07, 2009)
 - current zhCN (Simplified Chinese) translation (arith)
 - current zhTW (Traditional Chinese) translation (arith)
 
-v1.14.2 (Aug 19, 2009)
+v1.14.2 (Aug. 19, 2009)
 - updated TOC number to 30200 for the 3.2 patch
 
 v1.14.1 (May 12, 2009)
 - fixed some locations in Blackwing Lair (Celellach)
 
-v1.14.0 (Apr 28, 2009)
+v1.14.0 (Apr. 28, 2009)
 - updated TOC number to 30100 for the 3.1 patch
 - new map: Ulduar [in 5 parts] (deadca7, everyone else!)
 - new map: Vault of Archavon (deadca7)
@@ -194,7 +197,7 @@ v1.14.0 (Apr 28, 2009)
 - current zhCN (Simplified Chinese) translation (DiabloHu)
 - current zhTW (Traditional Chinese) translation (banana, arith)
 
-v1.13.0 (Nov 24, 2008)
+v1.13.0 (Nov. 24, 2008)
 - added tons of new WotLK instance maps!
 - added most if not all WotLK map data (thanks to DiabloHu, Deadca7, and others!)
 - corrected some map category grouping issues
@@ -210,7 +213,7 @@ v1.13.0 (Nov 24, 2008)
 - resetting defaults now properly updates the status of the lock button
 - other minor tweaks and improvements
 
-v1.12.3 (Oct 26, 2008)
+v1.12.3 (Oct. 26, 2008)
 - fixed various errors on non-English clients
 - fixed the right-click to toggle world map bug
 - added LibDataBroker support
@@ -219,12 +222,12 @@ v1.12.3 (Oct 26, 2008)
 - added support for the built-in defaults button
 - removed the minimap button icon's green tint
 
-v1.12.2 (Oct 15, 2008)
+v1.12.2 (Oct. 15, 2008)
 - scrolling error fix
 - all remaining instances of 'Rep' changed to 'Reputation' in the locale files
 - non-English readme files should have no more messed up characters
 
-v1.12.1 (Oct 15, 2008)
+v1.12.1 (Oct. 15, 2008)
 - updated TOC number to 30000 for the 3.0 patch
 - some compatibility fixes for the new patch
 - added 'Ahn'Qiraj' and 'Blackrock Mountain' as a prefix for the instances within them
@@ -233,7 +236,7 @@ v1.12.1 (Oct 15, 2008)
 - added a Minimum Level for SP
 - renamed 'Rep' to 'Reputation'
 
-v1.12.0 (Jul 25, 2008)
+v1.12.0 (Jul. 25, 2008)
 - changed the Atlas data format to include GUID information (no in-game change)
 - changed the frame strata back to MEDIUM so Atlas can cover/be-covered-by other windows
 - added a fix for some UI elements that appear above the Atlas window
@@ -285,7 +288,7 @@ v1.12.0 (Jul 25, 2008)
 - added Ahune <The Frost Lord> to Slave Pens (Nihlo, Telchar)
 - this is a giant update, my apologies if I've forgotten anything
 
-v1.11.0 (Mar 26, 2008)
+v1.11.0 (Mar. 26, 2008)
 - updated TOC number to 20400 for the 2.4 patch
 - new map: Magisters' Terrace
 - new map: Sunwell Plateau
@@ -325,7 +328,7 @@ v1.11.0 (Mar 26, 2008)
 - revamped the auto-select feature to make use of SubZone data
 - Titan Panel support fix and some updates
 
-v1.10.3 (Nov 30, 2007)
+v1.10.3 (Nov. 30, 2007)
 - the Atlas source is now hosted at Google Code
 - updated TOC number to 20300 for the 2.3 patch
 - new Zul'Aman map (Nifl, Celellach)
@@ -390,10 +393,10 @@ v1.10.3 (Nov 30, 2007)
 - current Traditional Chinese translation (arith)
 - current German translation (Telchar)
 
-v1.10.2 (Sep 28, 2007)
+v1.10.2 (Sep. 28, 2007)
 - updated TOC number to 20200 for the 2.2 patch
 
-v1.10.1 (Sep 05, 2007)
+v1.10.1 (Sep. 05, 2007)
 - added individual instance names to Outland DL map (Telchar)
 - changed/fixed the CoT instance names in the West DL map (Telchar)
 - added class types to Maulgar's adds in Gruul's Lair (Lothaer, Yegg)
@@ -413,7 +416,7 @@ v1.10.1 (Sep 05, 2007)
 - added Zelemar the Wrathful the RFC (Kiria)
 - added Dire Pool to DM entrance map (Celellach)
 
-v1.10.0 (Aug 20, 2007)
+v1.10.0 (Aug. 20, 2007)
 - fixed the Forest Song, Ashenvale flight point
 - renumbered the Alliance Kalimdor flight path map
 - translated into zhCN / Simplified Chinese (DiabloHu)
@@ -423,7 +426,7 @@ v1.10.0 (Aug 20, 2007)
 - translated into esES / Spanish (maqjav)
 - koKR / Korean translation still needed
 
-v1.10.0pre5 (Aug 15, 2007)
+v1.10.0pre5 (Aug. 15, 2007)
 - added class tags to Moroes adds in Karazhan
 - added Sneed's Shredder to The Deadmines
 - renumbered The Arcatraz for better flow
@@ -451,7 +454,7 @@ v1.10.0pre5 (Aug 15, 2007)
 - added Blackwind Landing to Skyguard Outpost flight path
 - thanks to Celellach for providing so much data!
 
-v1.10.0pre4 (Aug 10, 2007)
+v1.10.0pre4 (Aug. 10, 2007)
 - removed optional tags in Kara (Nalumis)
 - changed cot3 name back to Hyjal Summit (Celellach)
 - re-lettered Black Temple maps (Celellach)
@@ -479,7 +482,7 @@ v1.10.0pre4 (Aug 10, 2007)
 - added Mortog Steamhead to CFR entrance
 - changed player limit for CFR entrance to 5/25
 
-v1.10.0pre3 (Aug 06, 2007)
+v1.10.0pre3 (Aug. 06, 2007)
 - finally added data to Battle for Mount Hyjal
 - modified Hyjal map; shaded the top half
 - fixed Lothos Riftwaker's name in Blackrock Mountain
@@ -491,7 +494,7 @@ v1.10.0pre3 (Aug 06, 2007)
 - once again, special thanks to Celellach
 - fixed "Slim" in Auch entrance (Nihlo)
 
-v1.10.0pre2 (Aug 06, 2007)
+v1.10.0pre2 (Aug. 06, 2007)
 - new map: Black Temple (Full)
 - updated Maraudon entrance map
 - updated Deadmines entrance map
@@ -505,7 +508,7 @@ v1.10.0pre2 (Aug 06, 2007)
 - changed all entrance markers to letters
 - thanks to Celellach for the majority of the notes
 
-v1.10.0pre (Aug 05, 2007)
+v1.10.0pre (Aug. 05, 2007)
 - new maps: Black Temple (three levels)
 - new plugin containing entrance maps
 - changed Durnholde Keep to Old Hillsbrad Foothills
@@ -534,13 +537,13 @@ v1.9 (May 21, 2007)
 - contains translations for enUS, deDE, frFR, koKR, zhCN, zhTW
 - still needs readme and GPL files for koKR (Korean)
 
-v1.9RC2 (Apr 16, 2007)
+v1.9RC2 (Apr. 16, 2007)
 - split Scarlet Monastery into four different maps
 - made many database changes, additions, and corrections
 - added auto-select code for Outland instances (Drahcir)
 - renumbered LBRS and Stratholme maps (Celellach)
 
-v1.9RC1 (Mar 23, 2007)
+v1.9RC1 (Mar. 23, 2007)
 - new maps: The Eye, Doom Lord Kazzak, Doomwalker
 - new maps: Outland dungeon locations and flight paths
 - changed Kazzak encounter to Highlord Kruul
@@ -551,12 +554,12 @@ v1.9RC1 (Mar 23, 2007)
 - tweaked appearance of certain maps for consistancy
 - probably more stuff that I'm forgetting right now
 
-v1.9b1 (Feb 22, 2007)
+v1.9b1 (Feb. 22, 2007)
 - many new Burning Crusade maps
 - many database additions and fixes
 - cleaned up options panel
 
-v1.8.6
+v1.8.6 (Feb. 01, 2007)
 - updated TOC number to 20003
 - disabled "Replace World Map" for taint issues
 - various translation updates across the board
@@ -589,7 +592,7 @@ v1.8.6b
 - integrated Titan Panel support
 - truly massive internal restructuring
 
-v1.8.5
+v1.8.5 (Dec. 02, 2006)
 - wide release in anticipation of WoW v2 patch
 - fixed options frame dragging compatibility
 - fixed Spanish (esES) localization file
@@ -628,7 +631,7 @@ v1.8.5b
 - higher quality minimap icon, with new default position
 - changed naming scheme of localization files
 
-v1.8.4
+v1.8.4 (Oct. 21, 2006)
 - since the beta NDA has been lifted, the HC maps are back; see:
 - http://forums.worldofwarcraft.com/thread.html?topicId=32338600
 - changed Spanish (esES) localization to be automatic
@@ -636,7 +639,7 @@ v1.8.4
 - updated German (deDE) text (Dynaletik)
 - updated Korean (koKR) text (k2hyun)
 
-v1.8.3
+v1.8.3 (Oct. 11, 2006)
 - removed HC maps as per Blizzard's wishes, see:
 - http://forums.worldofwarcraft.com/thread.html?topicId=32338600
 - updated French (frFR) text (Pherus)
@@ -648,7 +651,7 @@ v1.8.3
 - added Ony as Onyxia short version (Pherus)
 - added Onyxia as fire damage (Pherus)
 
-v1.8.2
+v1.8.2 (Oct. 07, 2006)
 - new map: Hellfire Citadel, The Blood Furnaces (Patrick M.)
 - new map: Hellfire Citadel, The Shatterd Halls (Patrick M.)
 - updated Chinese Simplified (zhCN) text and readme (DiabloHu)
@@ -659,12 +662,12 @@ v1.8.2
 - added damage type to ZG, MC, BWL, AQ20, AQ40, Nax (Pauper)
 - added druid-only flight paths
 
-v1.8.1
+v1.8.1 (Aug. 22, 2006)
 - updated TOC number to 11200 for the 1.12 patch
 - fixed a serious World Map error caused by 1.12
 - fixed a bug in the French translation (KKram)
 
-v1.8
+v1.8 (Aug. 17, 2006)
 - new map category: Raid Encounters
 - new maps: Azuregos, FourDragons, and Kazzak
 - added Death Knight Darkreaver to Scholo (Aludian)
@@ -674,7 +677,7 @@ v1.8
 - changed "n/a" to "---" for localization reasons
 - fixed BRD data so everything shows up
 
-v1.7.5
+v1.7.5 (June 30, 2006)
 - updated Chinese Simplified (zhCN) text and readme (DiabloHu)
 - updated Chinese Traditional (zhTW) text (arith, Suzuna)
 - updated French (frFR) text (Pherus)
@@ -683,7 +686,7 @@ v1.7.5
 - added some localizations to the TOC file
 - removed the separate Spanish TOC file
 
-v1.7.4
+v1.7.4 (June 20, 2006)
 - updated TOC number to 11100 for the 1.11 patch
 - added the new flight hubs and paths
 - updated Catalan text (Lehn)
@@ -697,7 +700,7 @@ v1.7.4
 - added Dungeon Set Quest Bosses (Niflheim)
 - added EarthFeatureFrame as optional dep (Ryan S.)
 
-v1.7.3
+v1.7.3 (June 6, 2006)
 - updated Chinese Simplified (zhCN) text (DiabloHu)
 - updated Chinese Traditional (zhTW) text (arith)
 - updated French (frFR) text (Pherus)
@@ -712,7 +715,7 @@ v1.7.3
 - fixed numbers for Dungeon Locations West (Mox)
 - added some acronyms and abbreviations (thegabbert)
 
-v1.7.2
+v1.7.2 (May 29, 2006)
 - new map category: Dungeon Locations
 - new maps: Dungeon Locations (East and West)
 - tweaked Uldaman, Sunken Temple, and ZG maps
@@ -725,10 +728,10 @@ v1.7.2
 - AQ20 might work with auto-select now (Cold)
 - bugfix for the right-click feature (Cold)
 
-v1.7.1
+v1.7.1 (May 24, 2006)
 - quick fix for the PURP error with non-En clients
 
-v1.7
+v1.7 (May 24, 2006)
 - new map: Naxxramas (eDark, Cryect)
 - updated the resolution of many maps (Niflheim)
 - added Catalan text, see above for use (Lehn)
@@ -744,7 +747,7 @@ v1.7
 - escape once again closes the Atlas window, sorry about that
 - TitanAtlas, MapAtlas, and AtlasLoot will be (re)appearing soon!
 
-v1.6.2
+v1.6.2 (April 8, 2006)
 - updated TOC number to 11000 for the 1.10 patch
 - removed Titan Panel support (TitanAtlas) for the time being
 - hopefully fixed the awful load-time errors (send me feedback)
@@ -766,7 +769,7 @@ v1.6.2
 - added flight: Sepulcher and Tarren Mill
 - fixed "Kraal de Tranchebauge" in frFR text (Sparrows)
 
-v1.6.1
+v1.6.1 (March 1, 2006)
 - fixed a clarity problem with BWL (placebo)
 - fixed a typo in the name of Arygos in AQ40 (Foogray)
 - fixed some location errors in AQ40 (anon, Manias)
@@ -825,22 +828,22 @@ v1.5
 - added Right-Click for World Map feature (tyroney)
 - added Interface/Addons directory structure to the zip file
 
-v1.4.1
+v1.4.1 (January 14, 2006)
 - updated Chinese Simplified (zhCN) text (DiabloHu)
 - updated German (deDE) text (EarMaster)
 - fixed an error-causing bug in non-Enlish clients
 
-v1.4
+v1.4 (January 13, 2006)
 - new feature: Replace World Map
 - new map: The Temple of Ahn'Qiraj (wowguru.com)
 - changed the minimap button's tooltip to be more user friendly (Yatlas)
 - the position of the minimap button can be changed with the mouse (Yatlas)
 
-v1.3.3
+v1.3.3 (January 11, 2006)
 - updated Chinese Simplified (zhCN) text (Slaytanic)
 - updated German (deDE) text (Maischter)
 
-v1.3.2
+v1.3.2 (January 9, 2006)
 - updated TOC number to 10900 for the 1.9 patch
 - added Spirestone Battle Lord (Rare) to LBRS (Bhaerau)
 - fixed a number of Stratholme spawns (Ville K.)
@@ -852,7 +855,7 @@ v1.3.2
 - fixed a bug with the sanitize function (Pherus)
 - changed minimum transparency from zero to 0.25
 
-v1.3.1
+v1.3.1 (December 6, 2005)
 - updated French (frFR) localization (Pherus)
 - added Deviate Faerie Dragon to Wailing Caverns (Searing)
 - added Spirestone Butcher to Lower Blackrock Spire (Gauss)

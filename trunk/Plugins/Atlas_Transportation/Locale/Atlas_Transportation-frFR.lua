@@ -35,6 +35,7 @@ if AL then
 	AL["Druid-only"] = "Druide seulement";				-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "Légende";					-- The chart's legend, for example, the purple line means the portal's path
 	AL["Gryphon"] = "Griffon";
+	AL["Only available after winning the PvP battle"] = "Disponible uniquement après avoir remporté une bataille JcJ";
 	AL["Orb of Translocation"] = "Orbe de transposition";		-- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portals"] = "Portails";
 	AL["Portal / Waygate Path to the destination"] = "Destination de Portail / Porte de transport";

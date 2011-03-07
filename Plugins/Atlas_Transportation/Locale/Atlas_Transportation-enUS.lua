@@ -42,6 +42,7 @@ if AL then
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Requires honored faction with Sha'tari Skyguard";
 	AL["Seahorse"] = "Seahorse";
 	AL["South of the path along Lake Elune'ara"] = "South of the path along Lake Elune'ara";
+	AL["Special transportation"] = "Special transportation";
 	AL["Taxi Nodes"] = "Taxi Nodes";
 	AL["Transportation Maps"] = "Transportation Maps";
 	AL["Transporter"] = "Transporter";			-- The NPC who can transport you to other place

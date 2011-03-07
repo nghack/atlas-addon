@@ -35,6 +35,7 @@ if AL then
 	AL["Druid-only"] = "僅限德魯伊";		-- Taxi node in Nighthaven, Moonglade which is only for Druid
 	AL["Legend"] = "圖例";				-- The chart's legend, for example, the purple line means the portal's path
 	AL["Gryphon"] = "獅鷲獸";
+	AL["Only available after winning the PvP battle"] = "僅限贏得戰場勝利後";
 	AL["Orb of Translocation"] = "傳送之門";	-- The Orb in Silvermonn City and Ruins of Lordaeron
 	AL["Portals"] = "傳送門";
 	AL["Portal / Waygate Path to the destination"] = "傳送門 / 甬道之門傳往目的地的路徑";
@@ -42,6 +43,7 @@ if AL then
 	AL["Requires honored faction with Sha'tari Skyguard"] = "需薩塔空防陣營榮譽";
 	AL["Seahorse"] = "海馬";
 	AL["South of the path along Lake Elune'ara"] = "月神湖南方小徑";
+	AL["Special transportation"] = "特殊運輸工具";
 	AL["Taxi Nodes"] = "航行點";
 	AL["Transportation Maps"] = "交通網路地圖";
 	AL["Transporter"] = "輸送者";

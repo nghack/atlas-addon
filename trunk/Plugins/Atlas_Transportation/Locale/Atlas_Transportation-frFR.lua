@@ -46,6 +46,7 @@ if AL then
 	AL["Transportation Maps"] = "Cartes des Transports";
 	AL["Transporter"] = "Transporteur";
     AL["Transporters by the sea and on the cliff"] = "Transporteurs par la mer et sur la falaise"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
+	AL["Special transportation"] = "Transport spécial";
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
 	AL["Wind Rider"] = "Coursier du vent";
 	AL["Zeppelin Towers"] = "Tours de Zeppelin";

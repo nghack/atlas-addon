@@ -35,6 +35,7 @@ if AL then
 	AL["Druid-only"] = "Nur Druiden";
 	AL["Legend"] = "Legende";
 	AL["Gryphon"] = "Greif";
+	AL["Only available after winning the PvP battle"] = "Nur nach Sieg in der PvP Schlacht verfügbar";
 	AL["Orb of Translocation"] = "Translokationskugel";
 	AL["Portals"] = "Portale";
 	AL["Portal / Waygate Path to the destination"] = "Portal / Torpfad zum Ziel";
@@ -42,6 +43,7 @@ if AL then
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Benötigt wohlwollenden Ruf bei Himmelswache der Sha'tari";
 	AL["Seahorse"] = "Seepferdchen";
 	AL["South of the path along Lake Elune'ara"] = "Südlich des Elune'ara Seewegs";
+	AL["Special transportation"] = "Spezielle Beförderungsroute";
 	AL["Taxi Nodes"] = "Flugpunkte";
 	AL["Transportation Maps"] = "Beförderungsrouten";
 	AL["Transporter"] = "Transporter";

@@ -93,6 +93,7 @@ local myData = {
 		{ WHIT.."11) "..BZ["Hearthglen"] };
 		{ WHIT.."12) "..BZ["The Menders' Stead"] };
 		{ WHIT.."13) "..BZ["Andorhal"] };
+		{ WHIT..INDENT.."("..AL["Won't be available once Thassarian departed"]..")" };
 		{ WHIT.."14) "..BZ["Chillwind Camp"] };
 		{ "" };
 		{ BLUE..BZ["The Hinterlands"] };

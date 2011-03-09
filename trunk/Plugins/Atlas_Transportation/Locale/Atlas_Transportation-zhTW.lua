@@ -50,6 +50,7 @@ if AL then
 	AL["Transporters by the sea and on the cliff"] = "傳送器位於懸崖上與懸崖下"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
 	AL["West of the path to Timbermaw Hold"] = "往木喉要塞小徑西方";
 	AL["Wind Rider"] = "雙足飛龍";
+	AL["Won't be available once Thassarian departed"] = "薩沙理安離開後飛行點將會消失"; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "飛船空塔";
 
 end

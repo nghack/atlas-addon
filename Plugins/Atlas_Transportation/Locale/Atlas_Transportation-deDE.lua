@@ -50,7 +50,7 @@ if AL then
 	AL["Transporters by the sea and on the cliff"] = "Transporter übers Meer und am Kliff";
 	AL["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
 	AL["Wind Rider"] = "Windreiter";
-	AL["Won't be available once Thassarian departed"] = "Nicht mehr verfügbar, nachdem Thassarian abgereist ist";
+	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Nicht mehr verfügbar, wenn die Schlacht um Andorhal abgeschlossen ist.";
 	AL["Zeppelin Towers"] = "Zeppelintürme";
 
 end

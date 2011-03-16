@@ -1,68 +1,75 @@
-Atlas, un visor de mapas de mazmorras para World of Warcraft
+Atlas, a World of Warcraft instance map browser
 Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
 Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 
 
-===============
-= Sobre Atlas =
-===============
+===================
+= Acerca de Atlas =
+===================
 
-Atlas es un complemento para World of Warcraft que incluye mapas detallados 
-de todos los mapas de las mazmorras. Originalmente Blizzard se negÃ³ a 
-incluir dichos mapas. Sin embargo, despuÃ©s de varios aÃ±os, Blizzard ha 
-decidido incluir mapas oficiales para algunas de las mazmorras. Estos mapas 
-oficiales siguen el mismo estilo de dibujo a mano con el que se crearon el 
-resto de mapas. En cambio, los mapas de Atlas estÃ¡n basados en la vista del 
-minimapa, la cual proporciona muchos mas detalles, precisiÃ³n y colorido que 
-los oficiales. Puedes pararte a pensar en esta diferencia comparando un mapa 
-de calles con una imagen de satÃ©lite.
+Atlas es un accesorio para World of Warcraft que incluye mapas detallados para 
+cada mazmorra del juego. Inicialmente, Blizzard se negó a incluir mapas para 
+las mazmorras. Sin embargo, después de varios años, Blizzard comenzó a introducir
+mapas oficionales para algunas mazmorras. Estos mapas oficiales ofrecen el mismo
+estilo de dibujo a mano que los mapas del mundo. Por otro lado, los mapas de Atlas 
+están basados en la información obtenida del mini-mapa, lo que ofrece mucho mas detalle, 
+precisión y colorido en su representación. Para que te hagas una idea, puedes pensar
+en las diferecias entre un mapa de calles y una imagen desde satelite.
 
-AdemÃ¡s, mientras que los mapas incluidos en el juego muestran solo la posiciÃ³n 
-de algunos de los principales jefes, Atlas proporciona una informaciÃ³n mucho 
-mas detallada y precisa sobre todas las criaturas, PNJs, objectos y eventos 
-que puedes encontrar en cada una de las mazmorras. TambiÃ©n se proporciona 
-informaciÃ³n general sobre cada zona, incluyendo su localizaciÃ³n, rango de 
-niveles, nÃºmero mÃ¡ximo de jugadores, armonizaciones requeridas y sus facciones 
-asociadas. Todas las entradas, salidas, portales y conexiones son indicadas 
-clÃ¡ramente. Debido a que hay muchas mazmorras en el juego, puedes 
-cataloguizarlas por tipo, nivel, nÃºmero de jugadores, continente o expansiÃ³n.
+Mas lejos, mientras que los mapas de Blizzard ofrecen la posición de los jefes mas
+grandes, Atlas proporciona con mas detalle y precisión información sobre todas las
+criaturas, PNJs, objectos y eventos que te encontrarás en cada mazmorra. También se
+ofrece información de cada zona, incluyendo su localización, rango de niveles, límite
+de jugadores, requerimientos de armonizaciones, y su facción asociada. Todas las entradas,
+salidas, portales y conexiones se encuentran etiquetadas claramente. Como existen tantas
+mazmorras en el juego, estas se pueden catalogar por su tipo, nivel, número de jugadores, 
+continente o expansión.
 
-Finalmente, en relaciÃ³n a las mazmorras, Atlas viene con una gran cantidad 
-de componentes que introducen incluso mas mapas. Se incluyen mapas de zonas 
-de banda, mapas globales de todos los transportes, mapas sobre la situaciÃ³n 
-de las mazmorras y mapas de los campos de batalla. Cada uno de estos 
-componentes opcionales pueden ser activados, desactivados o eliminados 
-individualmente. Por otra parte, existen un cierto nÃºmero de extensiones 
-para Atlas que aumentan mucho mas las funcionalidades de Atlas. AtlasLoot 
-es uno de los mas populares, proporcionando detalles sobre todos los objetos 
-del mundo e informaciÃ³n sobre cada encuentro, pero ademÃ¡s existen otros 
-paquetes que incluyen informaciÃ³n sobre las misiones o mapas de las ciudades.
+Dejando a un lado las mazmorras, Atlas viene con un puñazo de componentes opcionales 
+que añaden mas información con otros mapas. Estos incluyen mapas donde se producen 
+encuentros fuera de mazmorras, mapas con los transportes globales, mapas con la situación
+de cada mazmorra y mapas de los campos de batalla. Cada componente es opcional y se puede
+activar, desactivar o eliminar individualmente. También existen un gran número de componentes
+de terceros para Atlas, que aumentan su funcionalidad. Atlasloot es el mas popular
+de todos estos accesorios y proporciona con gran detalle información sobre las 
+recompensas de cada encuentro, pero también se pueden encontrar extensiones que introducen
+información sobre las misiones de mazmorra o mapas de las ciudades.
 
 
 
-============
-= Recursos =
-============
+=============
+= Recursos  =
+=============
 
-El sitio oficial de Atlas:
+La página web oficial de Atlas es:
 http://www.atlasmod.com/
 
-Para preguntas o soporte, por favor visita los foros:
+Para preguntas o soporte, por favor visitar los foros (en inglés):
 http://www.atlasmod.com/phpBB3/
 
-TambiÃ©n puedes contactarme directamente en:
-lothayer@gmail.com
-
-
-
 ============
-= Licencia =
-===========)
+= Contacto =
+============
 
-Atlas estÃ¡ desarrollado con una Licencia Publica General GNU 
-GNU General Public License (GPL)).
-Para leer el texto completo de la licencia puedes consultar: 
-pl-v2-esES.txt 
+Puedes contactar con el propietario del proyecto en la siguiente dirección:
+Arith Hsu <atlas.wowaddon@gmail.com>
+O visitar nuestro foro y dejar un mensaje.
 
 
+===========
+= License =
+===========
+
+Atlas is released under the GNU General Public License (GPL).
+For the full license text please see: gpl-v2-enUS.txt
+
+We also included several languages' translation of GNU GPL license document in 
+our addon, so that you will be easier to understand it in your preferred 
+language. 
+You can use this addon without any charge. If you would like to make some 
+donation, you are welcome to do so.
+You can also distribute this addon but only with no charge to your users. 
+If you are going to include part of the codes, graphics, or any file(s) from 
+this addon in your own product(s), please write us an email to inform us, and 
+please also to include our team members¡¦ name as part of your product credits.

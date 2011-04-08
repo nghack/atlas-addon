@@ -481,8 +481,7 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Rotgrip"] };
 		{ WHIT.." 8) "..BB["Princess Theradras"] };
 		{ GREN.." 1') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")" };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 1) "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" };
 	};
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"] };

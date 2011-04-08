@@ -350,6 +350,9 @@ local myData = {
 		{ _RED.."2) "..BZ["East Spire"] };
 		{ _RED.."3) "..BZ["South Spire"] };
 		{ ORNG.."1) "..AL["Graveyard"] };
+		{ ORNG.."2) "..BZ["Cursed Depths"] };
+		{ ORNG.."3) "..BZ["The Hole"] };
+		{ ORNG.."4) "..BZ["D-Block"] };
 	};
 	TwinPeaks = {
 		ZoneName = { BZ["Twin Peaks"] };

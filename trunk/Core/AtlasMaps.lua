@@ -353,9 +353,6 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ WHIT.." 1) "..BB["Mad Magglish"].." ("..AL["Varies"]..")" };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Boahn"].." ("..AL["Rare"]..")" };
 	};
 
 --************************************************
@@ -618,8 +615,9 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 8) "..BB["Mutanus the Devourer"] };
 		{ GREN.." 1') "..AL["Disciple of Naralex"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 	};
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };

@@ -965,6 +965,9 @@ if AL then
 	AL["Sindragosa's Lair"] = "Sindragosa's Lair";
 	AL["Stinky"] = "Stinky";
 	AL["Precious"] = "Precious";
+	AL["Rimefang"] = "Rimefang";	-- NPC: 37533
+	AL["Spinestalker"] = "Spinestalker";	-- NPC: 37534
+	AL["Sister Svalna"] = "Sister Svalna";	-- NPC: 37126
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "Mr. Bigglesworth";
@@ -1066,12 +1069,12 @@ if AL then
 	AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
-	AL["Large Stone Obelisk"] = "Large Stone Obelisk";
+	AL["Large Stone Obelisk"] = "Large Stone Obelisk"; -- Object: 207410
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";
 	AL["Augh"] = "Augh";
-	AL["Tol'vir Grave"] = "Tol'vir Grave";
+	AL["Tol'vir Grave"] = "Tol'vir Grave"; -- Object: 207409
 
 	--Sulfuron Keep
 
@@ -1082,7 +1085,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Itesh";
-	AL["Magical Brazier"] = "Magical Brazier";
+	AL["Magical Brazier"] = "Magical Brazier"; -- Object: 207408
 
 	--Throne of the Four Winds
 

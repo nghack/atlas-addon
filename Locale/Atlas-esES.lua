@@ -967,6 +967,9 @@ if AL then
 	AL["Sindragosa's Lair"] = "Guarida de Sindragosa";
 	AL["Stinky"] = "Apestoso";
 	AL["Precious"] = "Precioso";
+	AL["Rimefang"] = "Dientefrío";
+	AL["Spinestalker"] = "Acechaespinas";
+	AL["Sister Svalna"] = "Hermana Svalna";
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "Sr. Biguelvalor";
@@ -1068,6 +1071,7 @@ if AL then
 	AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
+	AL["Large Stone Obelisk"] = "Obelisco de piedra grande";
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Capitán Hadan";

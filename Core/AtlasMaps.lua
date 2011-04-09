@@ -750,16 +750,16 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Halycon"] };
 		{ WHIT..INDENT..BB["Gizrul the Slavener"] };
 		{ WHIT.." 8) "..BB["Overlord Wyrmthalak"] };
-		{ ORNG.." 1) "..BB["Spirestone Butcher"].." ("..AL["Rare"]..")" };
-		{ ORNG.." 2) "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")" };
 		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.." 3') "..AL["Roughshod Pike"] };
-		{ ORNG.." 3) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 1) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
+		{ ORNG.." 2) "..BB["Spirestone Butcher"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 3) "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 4) "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 5) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
 		{ ORNG..INDENT..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
---		{ _RED.."0) "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
-		{ ORNG.." 4) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
---		{ _RED.."0) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
+		{ ORNG.." 6) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
 	};
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
@@ -1959,8 +1959,11 @@ AtlasMaps = {
 		{ WHIT..INDENT..BB["Prince Taldaram"] };
 		{ WHIT..INDENT..BB["Prince Valanar"] };
 		{ WHIT.."12) "..BB["Blood-Queen Lana'thel"] };
-		{ WHIT.."13) "..BB["Valithria Dreamwalker"] };
-		{ WHIT.."14) "..BB["Sindragosa"] };
+		{ WHIT.."13) "..AL["Sister Svalna"] };
+		{ WHIT.."14) "..BB["Valithria Dreamwalker"] };
+		{ WHIT.."15) "..BB["Sindragosa"] };
+		{ WHIT..INDENT..AL["Rimefang"] };
+		{ WHIT..INDENT..AL["Spinestalker"] };
 		{ GREN.." 4') "..AL["Upper Spire"].." ("..AL["Teleporter"]..")" };
 		{ GREN.." 5') "..AL["Sindragosa's Lair"].." ("..AL["Teleporter"]..")" };
 	};
@@ -1973,7 +1976,7 @@ AtlasMaps = {
 		Acronym = AL["IC"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Ashen Verdict"] };
 		{ BLUE.." I) "..AL["From previous map"] };
-		{ WHIT.."15) "..BB["The Lich King"] };
+		{ WHIT.."16) "..BB["The Lich King"] };
 	};
 	Naxxramas = {
 		ZoneName = { BZ["Naxxramas"] };

@@ -755,12 +755,11 @@ AtlasMaps = {
 		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.." 3') "..AL["Roughshod Pike"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
+		{ ORNG.." 3) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
+--		{ _RED.."0) "..BB["Crystal Fang"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 4) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
+--		{ _RED.."0) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
 	};
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };

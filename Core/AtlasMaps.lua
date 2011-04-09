@@ -532,11 +532,10 @@ AtlasMaps = {
 		{ WHIT.." 4) "..BB["Agathelos the Raging"] };
 		{ WHIT.." 5) "..BB["Charlga Razorflank"] };
 		{ ORNG.." 1) "..BB["Roogug"] };
+		{ ORNG.." 2) "..BB["Blind Hunter"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 3) "..BB["Earthcaller Halmgar"].." ("..AL["Rare"]..")" };
 		{ GREN.." 1') "..AL["Spirit of Agamaggan <Ancient>"] };
 		{ GREN.." 2') "..AL["Willix the Importer"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Blind Hunter"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Earthcaller Halmgar"].." ("..AL["Rare"]..")" };
 	};
 	TheRuinsofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..": "..BZ["Ruins of Ahn'Qiraj"] };

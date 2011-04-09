@@ -512,10 +512,9 @@ AtlasMaps = {
 		{ WHIT.." 3) "..BB["Glutton"] };
 		{ WHIT.." 4) "..BB["Amnennar the Coldbringer"] };
 		{ ORNG.." 1) "..BB["Plaguemaw the Rotting"] };
+		{ ORNG.." 2) "..BB["Ragglesnout"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 		{ GREN.." 1') "..AL["Belnistrasz"] };
 		{ GREN.." 2') "..BB["Henry Stern"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Ragglesnout"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 	};
 	RazorfenKraul = {
 		ZoneName = { BZ["Razorfen Kraul"] };

@@ -643,10 +643,9 @@ AtlasMaps = {
 		{ ORNG.." 1) "..BB["Sandarr Dunereaver"].." ("..AL["Rare"]..")" };
 		{ ORNG.." 2) "..BB["Hydromancer Velratha"] };
 		{ ORNG.." 3) "..BB["Theka the Martyr"] };
+		{ ORNG.." 4) "..BB["Dustwraith"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ ORNG.." 5) "..BB["Zerillis"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" }
 		{ GREN.." 1') "..AL["Elder Wildmane"].." ("..AL["Lunar Festival"]..")" };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Dustwraith"].." ("..AL["Rare"]..")" };
-		{ _RED.."0) "..BB["Zerillis"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" }
 	};
 
 --************************************************

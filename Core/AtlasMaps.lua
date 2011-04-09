@@ -2425,6 +2425,7 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Rajh"] };
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
+		{ GREN.." 3') "..AL["Large Stone Obelisk"] };
 	};
 	LostCityOfTolvir = {
 		ZoneName = { BZ["Lost City of the Tol'vir"] };
@@ -2440,6 +2441,7 @@ AtlasMaps = {
 		{ WHIT..INDENT..AL["Augh"] };
 		{ WHIT.." 3) "..BB["High Prophet Barim"] };
 		{ WHIT.." 4) "..BB["Siamat, Lord of South Wind"] };
+		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
 --[[
 	SulfuronKeep = {
@@ -2497,6 +2499,7 @@ AtlasMaps = {
 		{ WHIT.." 2) "..BB["Altairus"] };
 		{ WHIT.." 3) "..BB["Asaad"] };
 		{ GREN.." 1') "..AL["Teleporter"] };
+		{ GREN.." 2') "..AL["Magical Brazier"] };
 	};
 	ThroneOfTheFourWinds = {
 		ZoneName = { BZ["Throne of the Four Winds"] };

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 23/01/2011
+-- Última Actualización (last update): 09/04/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1072,6 +1072,7 @@ if AL then
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Capitán Hadan";
 	AL["Augh"] = "Augh";
+	AL["Tol'vir Grave"] = "Tumba de tol'vir";
 
 	--Sulfuron Keep
 
@@ -1082,6 +1083,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Itesh";
+	AL["Magical Brazier"] = "Blandón mágico";
 
 	--Throne of the Four Winds
 

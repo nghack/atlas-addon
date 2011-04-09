@@ -1066,10 +1066,12 @@ if AL then
 	AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
+	AL["Large Stone Obelisk"] = "Large Stone Obelisk";
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";
 	AL["Augh"] = "Augh";
+	AL["Tol'vir Grave"] = "Tol'vir Grave";
 
 	--Sulfuron Keep
 
@@ -1080,6 +1082,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Itesh";
+	AL["Magical Brazier"] = "Magical Brazier";
 
 	--Throne of the Four Winds
 

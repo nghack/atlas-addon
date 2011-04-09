@@ -972,6 +972,9 @@ if AL then
 	AL["Sindragosa's Lair"] = "Sindragosas Hort";
 	AL["Stinky"] = "Stinki";
 	AL["Precious"] = "Schatz";
+	AL["Rimefang"] = "Raufang";
+	AL["Spinestalker"] = "Wirbelpirscher";
+	AL["Sister Svalna"] = "Schwester Svalna";
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "Mr. Bigglesworth";
@@ -1073,10 +1076,12 @@ if AL then
 	AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
+	AL["Large Stone Obelisk"] = "Große Steintafel";
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Kapitän Hadan";
 	AL["Augh"] = "Augh";
+	AL["Tol'vir Grave"] = "Grab der Tol'vir";
 
 	--Sulfuron Keep
 
@@ -1087,6 +1092,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Itesh";
+	AL["Magical Brazier"] = "Magische Kohlenpfanne";
 
 	--Throne of the Four Winds
 

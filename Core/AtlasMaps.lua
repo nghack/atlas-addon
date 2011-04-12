@@ -783,8 +783,7 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Drakkisath's Brand"] };
 		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.." 2') "..AL["Father Flame"] };
-		{ _RED.."Rare mobs, if you find one, report it please!"};
-		{ _RED.."0) "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 1) "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
 	};
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Lair"] };

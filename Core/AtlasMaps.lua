@@ -861,7 +861,7 @@ AtlasMaps = {
 		MinLevel = "33";
 		PlayerLimit = "5";
 		Acronym = AL["Scholo"];
-		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
+--		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
 		{ ORNG..AL["Key"]..": "..AL["Blood of Innocents"].." ("..BB["Kirtonos the Herald"]..")" };
 		{ ORNG..AL["Key"]..": "..AL["Divination Scryer"].." ("..BB["Death Knight Darkreaver"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -983,7 +983,7 @@ AtlasMaps = {
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
-		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
+--		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
 		{ ORNG..AL["Key"]..": "..AL["Various Postbox Keys"].." ("..BB["Postmaster Malown"]..")" };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] };
@@ -1014,7 +1014,7 @@ AtlasMaps = {
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
-		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
+--		{ ORNG..AL["Reputation"]..": "..BF["Argent Dawn"] };
 		{ ORNG..AL["Key"]..": "..AL["Various Postbox Keys"].." ("..BB["Postmaster Malown"]..")" };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Packmaster Stonebruiser <Brotherhood of the Light>"] };

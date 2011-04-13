@@ -14,7 +14,7 @@
 ## Notes-zhTW: Atlas 戰場地圖模組
 ## Version: 1.18.3
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: April 15th, 2011
+## X-Date: April 13th, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Website: http://www.atlasmod.com

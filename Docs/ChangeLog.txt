@@ -6,12 +6,13 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 ==============
 = Change Log =
 ==============
-v1.18.3 (Apr.15, 2011)
+v1.18.3 (Apr. 13, 2011)
 - TempestKeep Entrance map info update
 - Transportation maps update
 - TolBarad 3 cell blocks added
 - Rare mobs locations updated in several dungeon maps
 - Archaeology Quest in Uldum 5 men dungeons
+- Remove Argent Dawn faction from dungeon maps
 
 v1.18.2 (Jan. 28, 2011)
 - NPC map updates for several dungeons

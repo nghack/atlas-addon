@@ -19,7 +19,7 @@
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com
 ## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW
-## X-Date: April 15th, 2011
+## X-Date: April 13th, 2011
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariables: AtlasOptions
 

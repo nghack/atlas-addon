@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Maintainers: Arith, Dynaletik, Deadca7
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 

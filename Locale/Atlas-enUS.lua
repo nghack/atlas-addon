@@ -335,6 +335,8 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
 	AL["VP"] = "VP"; --The Vortex Pinnacle
+	AL["ZG"] = "ZG"; --Zul'Gurub
+
 
 --************************************************
 -- Instance Entrance Maps
@@ -1093,6 +1095,8 @@ if AL then
 	AL["Captain Taylor"] = "Captain Taylor";
 	AL["Legionnaire Nazgrim"] = "Legionnaire Nazgrim";
 	AL["Neptulon"] = "Neptulon";
+	
+	--Zul'Gurub
 
 --[[
 -- Cataclysm Zone Names	

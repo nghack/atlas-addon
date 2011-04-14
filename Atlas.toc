@@ -1,4 +1,4 @@
-﻿## Interface: 40000
+﻿## Interface: 41000
 ## Title: Atlas
 ## Title-deDE: Atlas
 ## Title-ruRU: Atlas
@@ -12,7 +12,7 @@
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
 ## Author: arith, Dynaletik, Deadca7
-## Version: 1.18.3
+## Version: 1.19.0
 ## X-Category: Map
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Credits: Dan Gilbert, Lothaer

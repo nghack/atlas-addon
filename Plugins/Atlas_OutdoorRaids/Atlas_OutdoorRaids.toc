@@ -1,4 +1,4 @@
-﻿## Interface: 40000
+﻿## Interface: 41000
 ## Title: Atlas |r|cFF0099FF[Outdoor Raids]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Außenweltschlachtzüge]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Внешние Рейды]|r
@@ -12,7 +12,7 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 戶外首領地圖模組
-## Version: 1.18.3
+## Version: 1.19.0
 ## Author: arith, Dynaletik, Deadca7
 ## X-Date: April 13th, 2011
 ## X-Credits: Dan Gilbert, Lothaer

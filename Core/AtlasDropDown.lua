@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Maintainers: Arith, Dynaletik, Deadca7, Lothaer
 
 Atlas_DropDownLayouts_Order = {
 	[1] = ATLAS_DDL_CONTINENT;
@@ -115,6 +115,7 @@ Atlas_DropDownLayouts = {
 			"Uldaman",
 			"UldamanEnt",
 			"ZulAman",
+			"ZulGurub",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
 			"BlackfathomDeeps",
@@ -308,7 +309,7 @@ Atlas_DropDownLayouts = {
 			"UtgardeKeep",
 			"UtgardePinnacle",
 			"VioletHold",
-			"ZulAman",
+			--"ZulAman",
 		},
 		[ATLAS_DDL_LEVEL_80TO85] = {
 			--"AbyssalMaw",
@@ -346,6 +347,8 @@ Atlas_DropDownLayouts = {
 			--"CoTWaroftheAncients",
 			--"SulfuronKeep",
 			"ThroneOfTheFourWinds",
+			"ZulAman",
+			"ZulGurub",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -436,7 +439,9 @@ Atlas_DropDownLayouts = {
 			"VioletHold",
 			"WailingCaverns",
 			"WailingCavernsEnt",
+			"ZulAman",
 			"ZulFarrak",
+			"ZulGurub",
 		},
 		[ATLAS_DDL_PARTYSIZE_10_AN] = {
 			"BaradinHold",
@@ -468,7 +473,7 @@ Atlas_DropDownLayouts = {
 			"UlduarD",
 			"UlduarE",
 			"VaultOfArchavon",
-			"ZulAman",
+			--"ZulAman",
 		},
 		[ATLAS_DDL_PARTYSIZE_20TO40] = {
 			"BaradinHold",
@@ -592,7 +597,7 @@ Atlas_DropDownLayouts = {
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
-			"ZulAman",
+			--"ZulAman",
 		},
 		[ATLAS_DDL_EXPANSION_WOTLK] = {
 			"AhnKahet",
@@ -648,6 +653,8 @@ Atlas_DropDownLayouts = {
 			"TheVortexPinnacle",
 			"ThroneOfTheFourWinds",
 			"ThroneOfTheTides",
+			"ZulAman",
+			"ZulGurub",
 		},
 	},
 	[ATLAS_DDL_TYPE] = {
@@ -760,6 +767,7 @@ Atlas_DropDownLayouts = {
 			"WailingCaverns",
 			"ZulAman",
 			"ZulFarrak",
+			"ZulGurub",
 		},
 		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"AuchindounEnt",

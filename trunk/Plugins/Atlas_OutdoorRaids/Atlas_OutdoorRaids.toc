@@ -1,4 +1,4 @@
-﻿## Interface: 41000
+﻿## Interface: 40100
 ## Title: Atlas |r|cFF0099FF[Outdoor Raids]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Außenweltschlachtzüge]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Внешние Рейды]|r

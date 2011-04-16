@@ -1,4 +1,4 @@
-﻿## Interface: 41000
+﻿## Interface: 40100
 ## Title: Atlas
 ## Title-deDE: Atlas
 ## Title-ruRU: Atlas

@@ -342,6 +342,7 @@ if AL then
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
 	AL["VP"] = "VG"; --The Vortex Pinnacle
+	AL["ZG"] = "ZG"; --Zul'Gurub
 
 --************************************************
 -- Instance Entrance Maps
@@ -1100,5 +1101,7 @@ if AL then
 	AL["Captain Taylor"] = "Kapitän Taylor";
 	AL["Legionnaire Nazgrim"] = "Legionär Nazgrim";
 	AL["Neptulon"] = "Neptulon";
+
+	--Zul'Gurub
 
 end

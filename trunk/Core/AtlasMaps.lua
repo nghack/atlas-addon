@@ -480,8 +480,8 @@ AtlasMaps = {
 		{ WHIT.." 6) "..BB["Landslide"] };
 		{ WHIT.." 7) "..BB["Rotgrip"] };
 		{ WHIT.." 8) "..BB["Princess Theradras"] };
-		{ GREN.." 1') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")" };
 		{ ORNG.." 1) "..BB["Meshlok the Harvester"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" };
+		{ GREN.." 1') "..AL["Elder Splitrock"].." ("..AL["Lunar Festival"]..")" };
 	};
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"] };
@@ -611,10 +611,10 @@ AtlasMaps = {
 		{ WHIT.." 6) "..BB["Lord Serpentis"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 7) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 8) "..BB["Mutanus the Devourer"] };
-		{ GREN.." 1') "..AL["Disciple of Naralex"] };
 		{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
 		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
 		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ GREN.." 1') "..AL["Disciple of Naralex"] };
 	};
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };
@@ -750,9 +750,6 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Halycon"] };
 		{ WHIT..INDENT..BB["Gizrul the Slavener"] };
 		{ WHIT.." 8) "..BB["Overlord Wyrmthalak"] };
-		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
-		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
-		{ GREN.." 3') "..AL["Roughshod Pike"] };
 		{ ORNG.." 1) "..BB["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")" };
 		{ ORNG.." 2) "..BB["Spirestone Butcher"].." ("..AL["Rare"]..")" };
 		{ ORNG.." 3) "..BB["Bannok Grimaxe"].." ("..AL["Rare"]..")" };
@@ -760,6 +757,9 @@ AtlasMaps = {
 		{ ORNG.." 5) "..BB["Spirestone Battle Lord"].." ("..AL["Rare"]..")" };
 		{ ORNG..INDENT..BB["Spirestone Lord Magus"].." ("..AL["Rare"]..")" };
 		{ ORNG.." 6) "..BB["Ghok Bashguud"].." ("..AL["Rare"]..")" };
+		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
+		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
+		{ GREN.." 3') "..AL["Roughshod Pike"] };
 	};
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
@@ -781,9 +781,9 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Finkle Einhorn"] };
 		{ WHIT.." 6) "..BB["General Drakkisath"] };
 		{ GREN..INDENT..AL["Drakkisath's Brand"] };
+		{ ORNG.." 1) "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
 		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
 		{ GREN.." 2') "..AL["Father Flame"] };
-		{ ORNG.." 1) "..BB["Jed Runewatcher"].." ("..AL["Rare"]..")" };
 	};
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Lair"] };

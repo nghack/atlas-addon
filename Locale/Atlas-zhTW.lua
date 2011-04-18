@@ -335,6 +335,8 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds 四風王座
 	AL["ToTT"] = "ToTT"; --Throne of the Tides 海潮王座
 	AL["VP"] = "VP"; --The Vortex Pinnacle 漩渦尖塔
+	AL["ZG"] = "ZG"; --Zul'Gurub 祖爾格拉布
+
 
 --************************************************
 -- Instance Entrance Maps
@@ -965,6 +967,9 @@ if AL then
 	AL["Sindragosa's Lair"] = "辛德拉苟莎之巢";
 	AL["Stinky"] = "臭皮";
 	AL["Precious"] = "普萊瑟斯";
+	AL["Rimefang"] = "霜牙";	-- NPC: 37533
+	AL["Spinestalker"] = "骨脊潛獵者";	-- NPC: 37534
+	AL["Sister Svalna"] = "絲瓦娜姐妹";	-- NPC: 37126
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "畢勾沃斯先生";
@@ -1090,5 +1095,7 @@ if AL then
 	AL["Captain Taylor"] = "泰勒隊長";
 	AL["Legionnaire Nazgrim"] = "軍團士兵納茲格寧姆";
 	AL["Neptulon"] = "奈普圖隆";
+	
+	--Zul'Gurub
 
 end

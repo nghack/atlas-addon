@@ -1097,7 +1097,21 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 	
 	--Zul'Gurub
-
+	AL["Briney Boltcutter"] = "Briney Boltcutter";
+	AL["Vehini"] = "Vehini";
+	AL["Overseer Blingbang"] = "Overseer Blingbang";
+	AL["Bloodslayer Zala <Darkspear Veeran>"] = "Bloodslayer Zala <Darkspear Veeran>";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
+	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
+	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
+	AL["High Priest Venoxis"] = "High Priest Venoxis";
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler";
+	AL["Kaulema the Mover"] = "Kaulema the Mover";
+	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
+	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Bloodlord Mandokir"] = "Bloodlord Mandokir";
+	AL["Zandalari Hierophant"] = "Zandalari Hierophant";
 --[[
 -- Cataclysm Zone Names	
 --

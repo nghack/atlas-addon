@@ -2541,5 +2541,22 @@ AtlasMaps = {
 		Acronym = AL["ZG"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Meeting Stone"] };
+		{ GREN.." 2') "..AL["Briney Boltcutter"] };
+		{ GREN.." 3') "..AL["Vehini"] }; -- Assault Provisions
+		{ GREN..INDENT..AL["Overseer Blingbang"] };
+		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veeran>"] };
+		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };
+		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
+		{ WHIT.." 1) "..AL["Tiki Lord Mu'Loa"] };
+		{ WHIT.." 2) "..AL["High Priest Venoxis"] };
+		{ WHIT.." 3) "..AL["Tor-Tun <The Slumberer>"] };
+		{ WHIT.." 4) "..AL["Mor'Lek the Dismantler"] };
+		{ WHIT.." 5) "..AL["Kaulema the Mover"] };
+		{ WHIT.." 6) "..AL["Berserking Boulder Roller"] };
+		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Fomula"] };
+		{ WHIT.." 7) "..AL["Bloodlord Mandokir"] };
+		{ WHIT..INDENT..AL["Zandalari Hierophant"] };
+		
+		
 	};
 };

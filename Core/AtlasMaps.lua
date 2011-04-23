@@ -2548,13 +2548,13 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
 		{ WHIT.." 1) "..AL["Tiki Lord Mu'Loa"] };
-		{ WHIT.." 2) "..AL["High Priest Venoxis"] };
+		{ WHIT.." 2) "..BB["High Priest Venoxis"] };
 		{ WHIT.." 3) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 4) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.." 5) "..AL["Kaulema the Mover"] };
 		{ WHIT.." 6) "..AL["Berserking Boulder Roller"] };
 		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Fomula"] };
-		{ WHIT.." 7) "..AL["Bloodlord Mandokir"] };
+		{ WHIT.." 7) "..BB["Bloodlord Mandokir"] };
 		{ WHIT..INDENT..AL["Zandalari Hierophant"] };
 		
 		

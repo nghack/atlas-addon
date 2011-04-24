@@ -309,7 +309,6 @@ Atlas_DropDownLayouts = {
 			"UtgardeKeep",
 			"UtgardePinnacle",
 			"VioletHold",
-			--"ZulAman",
 		},
 		[ATLAS_DDL_LEVEL_80TO85] = {
 			--"AbyssalMaw",
@@ -473,7 +472,6 @@ Atlas_DropDownLayouts = {
 			"UlduarD",
 			"UlduarE",
 			"VaultOfArchavon",
-			--"ZulAman",
 		},
 		[ATLAS_DDL_PARTYSIZE_20TO40] = {
 			"BaradinHold",
@@ -597,7 +595,6 @@ Atlas_DropDownLayouts = {
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
-			--"ZulAman",
 		},
 		[ATLAS_DDL_EXPANSION_WOTLK] = {
 			"AhnKahet",

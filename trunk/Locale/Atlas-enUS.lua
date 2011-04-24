@@ -1097,25 +1097,41 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 	
 	--Zul'Gurub
-	AL["Briney Boltcutter"] = "Briney Boltcutter";
-	AL["Vehini"] = "Vehini";
-	AL["Overseer Blingbang"] = "Overseer Blingbang";
-	AL["Bloodslayer Zala <Darkspear Veeran>"] = "Bloodslayer Zala <Darkspear Veeran>";
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
-	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
-	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
-	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
-	AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler";
-	AL["Kaulema the Mover"] = "Kaulema the Mover";
-	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
+	AL["Briney Boltcutter"] = "Briney Boltcutter"; -- npc: 53043
+	AL["Edge of Madness"] = "Edge of Madness";
+	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
+	AL["Vehini"] = "Vehini"; -- npc: 53040
+	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
 	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	AL["Zandalari Hierophant"] = "Zandalari Hierophant";
+	
 --[[
--- Cataclysm Zone Names	
---
--- Not for translation, they will be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
+    Temp area. Below entries may not need to be translated as these zone-names / boss-names
+    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
 	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
+
+	--Zul'Gurub
+	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
+	AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
+	AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
+	AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
+	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
+	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
+	AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	AL["Zanzil"] = "Zanzil"; -- 52053
+
+
 end

@@ -14,7 +14,7 @@
 ## Notes-zhTW: Atlas 地下城位置地圖模組，顯示各個地下城 (副本) 所在位置
 ## Version: 1.19.0
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: April 13th, 2011
+## X-Date: April 28th, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Website: http://www.atlasmod.com

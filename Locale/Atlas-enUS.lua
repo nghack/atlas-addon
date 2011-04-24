@@ -1106,7 +1106,8 @@ if AL then
 	AL["Vehini"] = "Vehini"; -- npc: 53040
 	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
 	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	AL["Zandalari Hierophant"] = "Zandalari Hierophant";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names

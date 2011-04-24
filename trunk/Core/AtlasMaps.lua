@@ -2559,7 +2559,6 @@ AtlasMaps = {
 		{ WHIT.." 8) "..AL["Berserking Boulder Roller"] };
 		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Fomula"] };
 		{ WHIT.." 9) "..BB["Bloodlord Mandokir"] };
-		{ WHIT..INDENT..AL["Zandalari Hierophant"] };
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
@@ -2570,8 +2569,11 @@ AtlasMaps = {
 		{ WHIT..INDENT..BB["Wushoolay"].." ("..AL["Random"]..")" };
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
-		{ WHIT.."15) "..AL["High Priestess Kilnara"] };
+		{ WHIT.."15) "..AL["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
 		{ WHIT.."16) "..AL["Zanzil"] };
+		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
+		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Fomula"] };
+		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."17) "..AL["Jin'do the Godbreaker"] };
 	};
 };

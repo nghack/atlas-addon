@@ -738,7 +738,7 @@ local function Process_Deprecated()
 		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010
 		{ "AtlasQuest", "4.6.2" }, -- updated March 23, 2011
 		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010
-		{ "AtlasLoot", "6.02.00" }, -- updated January 30, 2011
+		{ "AtlasLoot", "6.03.00" }, -- updated April 27, 2011
 		{ "Atlas_Arena", "1.3" }, -- updated January, 10, 2011
 	};
 

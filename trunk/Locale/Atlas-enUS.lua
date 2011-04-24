@@ -337,7 +337,6 @@ if AL then
 	AL["VP"] = "VP"; --The Vortex Pinnacle
 	AL["ZG"] = "ZG"; --Zul'Gurub
 
-
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -887,33 +886,6 @@ if AL then
 
 	--TK: The Eye
 
-	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones";
-	AL["Tanzar"] = "Tanzar";
-	AL["The Map of Zul'Aman"] = "The Map of Zul'Aman";
-	AL["Harkor"] = "Harkor";
-	AL["Kraz"] = "Kraz";
-	AL["Ashli"] = "Ashli";
-	AL["Thurg"] = "Thurg";
-	AL["Gazakroth"] = "Gazakroth";
-	AL["Lord Raadan"] = "Lord Raadan";
-	AL["Darkheart"] = "Darkheart";
-	AL["Alyson Antille"] = "Alyson Antille";
-	AL["Slither"] = "Slither";
-	AL["Fenstalker"] = "Fenstalker";
-	AL["Koragg"] = "Koragg";
-	AL["Zungam"] = "Zungam";
-	AL["Forest Frogs"] = "Forest Frogs";
-	AL["Kyren <Reagents>"] = "Kyren <Reagents>";
-	AL["Gunter <Food Vendor>"] = "Gunter <Food Vendor>";
-	AL["Adarrah"] = "Adarrah";
-	AL["Brennan"] = "Brennan";
-	AL["Darwen"] = "Darwen";
-	AL["Deez"] = "Deez";
-	AL["Galathryn"] = "Galathryn";
-	AL["Mitzi"] = "Mitzi";
-	AL["Mannuth"] = "Mannuth";
-
 --*****************
 -- WotLK Instances
 --*****************
@@ -1095,7 +1067,34 @@ if AL then
 	AL["Captain Taylor"] = "Captain Taylor";
 	AL["Legionnaire Nazgrim"] = "Legionnaire Nazgrim";
 	AL["Neptulon"] = "Neptulon";
-	
+
+	--Zul'Aman
+	AL["Harrison Jones"] = "Harrison Jones";
+	AL["Tanzar"] = "Tanzar";
+	AL["The Map of Zul'Aman"] = "The Map of Zul'Aman";
+	AL["Harkor"] = "Harkor";
+	AL["Kraz"] = "Kraz";
+	AL["Ashli"] = "Ashli";
+	AL["Thurg"] = "Thurg";
+	AL["Gazakroth"] = "Gazakroth";
+	AL["Lord Raadan"] = "Lord Raadan";
+	AL["Darkheart"] = "Darkheart";
+	AL["Alyson Antille"] = "Alyson Antille";
+	AL["Slither"] = "Slither";
+	AL["Fenstalker"] = "Fenstalker";
+	AL["Koragg"] = "Koragg";
+	AL["Zungam"] = "Zungam";
+	AL["Forest Frogs"] = "Forest Frogs";
+	AL["Kyren <Reagents>"] = "Kyren <Reagents>";
+	AL["Gunter <Food Vendor>"] = "Gunter <Food Vendor>";
+	AL["Adarrah"] = "Adarrah";
+	AL["Brennan"] = "Brennan";
+	AL["Darwen"] = "Darwen";
+	AL["Deez"] = "Deez";
+	AL["Galathryn"] = "Galathryn";
+	AL["Mitzi"] = "Mitzi";
+	AL["Mannuth"] = "Mannuth";
+
 	--Zul'Gurub
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
@@ -1107,6 +1106,7 @@ if AL then
 	AL["Vehini"] = "Vehini"; -- npc: 53040
 	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
 	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zandalari Hierophant"] = "Zandalari Hierophant";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
@@ -1115,6 +1115,9 @@ if AL then
 
 	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
+
+	--Zul'Aman
+	AL["Daakara"] = "Daakara";
 
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
@@ -1132,6 +1135,5 @@ if AL then
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
 	AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
 	AL["Zanzil"] = "Zanzil"; -- 52053
-
 
 end

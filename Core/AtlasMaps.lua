@@ -2544,19 +2544,34 @@ AtlasMaps = {
 		{ GREN.." 2') "..AL["Briney Boltcutter"] };
 		{ GREN.." 3') "..AL["Vehini"] }; -- Assault Provisions
 		{ GREN..INDENT..AL["Overseer Blingbang"] };
-		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veeran>"] };
+		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };
+		{ GREN..INDENT..AL["Bloodslayer Vaena <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
-		{ WHIT.." 1) "..AL["Tiki Lord Mu'Loa"] };
-		{ WHIT.." 2) "..BB["High Priest Venoxis"] };
-		{ WHIT.." 3) "..AL["Tor-Tun <The Slumberer>"] };
-		{ WHIT.." 4) "..AL["Mor'Lek the Dismantler"] };
-		{ WHIT.." 5) "..AL["Kaulema the Mover"] };
-		{ WHIT.." 6) "..AL["Berserking Boulder Roller"] };
+		{ GREN..INDENT..AL["Voodoo Pile"] };
+		{ WHIT.." 1) "..AL["Venomancer Mauri <The Snake's Whisper>"] };
+		{ WHIT.." 2) "..AL["Tiki Lord Mu'Loa"] };
+		{ WHIT.." 3) "..AL["Gub <Destroyer of Fish>"] };
+		{ WHIT.." 4) "..AL["Venomancer T'Kulu <The Toxic Bite>"] };
+		{ WHIT.." 5) "..BB["High Priest Venoxis"] };
+		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
+		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
+		{ WHIT.." 8) "..AL["Berserking Boulder Roller"] };
 		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Fomula"] };
-		{ WHIT.." 7) "..BB["Bloodlord Mandokir"] };
+		{ WHIT.." 9) "..BB["Bloodlord Mandokir"] };
 		{ WHIT..INDENT..AL["Zandalari Hierophant"] };
-		
-		
+		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
+		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
+		{ GREN.." 5') "..AL["Zanza the Restless"] };
+		{ WHIT.."12) "..AL["Edge of Madness"] };
+		{ WHIT..INDENT..BB["Gri'lek"].." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..BB["Hazza'rah"].." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..BB["Renataki"].." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..BB["Wushoolay"].." ("..AL["Random"]..")" };
+		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
+		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
+		{ WHIT.."15) "..AL["High Priestess Kilnara"] };
+		{ WHIT.."16) "..AL["Zanzil"] };
+		{ WHIT.."17) "..AL["Jin'do the Godbreaker"] };
 	};
 };

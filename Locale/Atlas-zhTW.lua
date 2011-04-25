@@ -337,7 +337,6 @@ if AL then
 	AL["VP"] = "VP"; --The Vortex Pinnacle 漩渦尖塔
 	AL["ZG"] = "ZG"; --Zul'Gurub 祖爾格拉布
 
-
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -887,33 +886,6 @@ if AL then
 
 	--TK: The Eye
 
-	--Zul'Aman
-	AL["Harrison Jones"] = "哈利森·瓊斯";
-	AL["Tanzar"] = "坦札爾";
-	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
-	AL["Harkor"] = "哈克爾";
-	AL["Kraz"] = "卡拉茲";
-	AL["Ashli"] = "阿西利";
-	AL["Thurg"] = "瑟吉";
-	AL["Gazakroth"] = "葛薩克羅司";
-	AL["Lord Raadan"] = "領主雷阿登";
-	AL["Darkheart"] = "黑心";
-	AL["Alyson Antille"] = "艾利森·安第列";
-	AL["Slither"] = "史立塞";
-	AL["Fenstalker"] = "沼群巡者";
-	AL["Koragg"] = "可拉格";
-	AL["Zungam"] = "祖剛";
-	AL["Forest Frogs"] = "森林樹蛙";
-	AL["Kyren <Reagents>"] = "凱倫 <施法材料>";
-	AL["Gunter <Food Vendor>"] = "甘特 <食物商人>";
-	AL["Adarrah"] = "阿達拉";
-	AL["Brennan"] = "布里納";
-	AL["Darwen"] = "達爾溫";
-	AL["Deez"] = "迪滋";
-	AL["Galathryn"] = "加拉瑟林";
-	AL["Mitzi"] = "米特辛";
-	AL["Mannuth"] = "曼努斯";
-
 --*****************
 -- WotLK Instances
 --*****************
@@ -1095,7 +1067,74 @@ if AL then
 	AL["Captain Taylor"] = "泰勒隊長";
 	AL["Legionnaire Nazgrim"] = "軍團士兵納茲格寧姆";
 	AL["Neptulon"] = "奈普圖隆";
-	
+
+	--Zul'Aman
+	AL["Harrison Jones"] = "哈利森·瓊斯";
+	AL["Tanzar"] = "坦札爾";
+	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
+	AL["Harkor"] = "哈克爾";
+	AL["Kraz"] = "卡拉茲";
+	AL["Ashli"] = "阿西利";
+	AL["Thurg"] = "瑟吉";
+	AL["Gazakroth"] = "葛薩克羅司";
+	AL["Lord Raadan"] = "領主雷阿登";
+	AL["Darkheart"] = "黑心";
+	AL["Alyson Antille"] = "艾利森·安第列";
+	AL["Slither"] = "史立塞";
+	AL["Fenstalker"] = "沼群巡者";
+	AL["Koragg"] = "可拉格";
+	AL["Zungam"] = "祖剛";
+	AL["Forest Frogs"] = "森林樹蛙";
+	AL["Kyren <Reagents>"] = "凱倫 <施法材料>";
+	AL["Gunter <Food Vendor>"] = "甘特 <食物商人>";
+	AL["Adarrah"] = "阿達拉";
+	AL["Brennan"] = "布里納";
+	AL["Darwen"] = "達爾溫";
+	AL["Deez"] = "迪滋";
+	AL["Galathryn"] = "加拉瑟林";
+	AL["Mitzi"] = "米特辛";
+	AL["Mannuth"] = "曼努斯";
+
 	--Zul'Gurub
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
+	AL["Briney Boltcutter"] = "Briney Boltcutter"; -- npc: 53043
+	AL["Edge of Madness"] = "Edge of Madness";
+	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
+	AL["Vehini"] = "Vehini"; -- npc: 53040
+	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	
+--[[
+    Temp area. Below entries may not need to be translated as these zone-names / boss-names
+    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
+]]
+
+	--AL["Sulfuron Keep"] = "Sulfuron Keep";
+	--AL["War of the Ancients"] = "War of the Ancients";
+
+	--Zul'Aman
+	AL["Daakara"] = "達卡拉";
+
+	--Zul'Gurub
+	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
+	AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
+	AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
+	AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
+	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
+	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
+	AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	AL["Zanzil"] = "Zanzil"; -- 52053
 
 end

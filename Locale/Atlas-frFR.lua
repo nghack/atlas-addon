@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2010
+-- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2011
 -- Many thanks to all contributors!
 -- $Date$
 -- $Revision$
@@ -49,6 +49,7 @@ AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Temple d'Ahn'Qiraj";
 };
 end
+
 
 if AL then
 --************************************************
@@ -343,6 +344,7 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
 	AL["VP"] = "VP"; --The Vortex Pinnacle
+	AL["ZG"] = "ZG"; --Zul'Gurub
 
 --************************************************
 -- Instance Entrance Maps
@@ -893,33 +895,6 @@ if AL then
 
 	--TK: The Eye
 
-	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones";
-	AL["Tanzar"] = "Tanzar";
-	AL["The Map of Zul'Aman"] = "Carte de Zul'Aman de Budd";
-	AL["Harkor"] = "Harkor";
-	AL["Kraz"] = "Kraz";
-	AL["Ashli"] = "Ashli";
-	AL["Thurg"] = "Thurg";
-	AL["Gazakroth"] = "Gazakroth";
-	AL["Lord Raadan"] = "Seigneur Raadan";
-	AL["Darkheart"] = "Sombrecoeur";
-	AL["Alyson Antille"] = "Alyson Antille";
-	AL["Slither"] = "Sinueux";
-	AL["Fenstalker"] = "Traquetourbe";
-	AL["Koragg"] = "Koragg";
-	AL["Zungam"] = "Zungam";
-	AL["Forest Frogs"] = "Grenouilles forestière";
-	AL["Kyren <Reagents>"] = "Kyren <Composants>";
-	AL["Gunter <Food Vendor>"] = "Gunter <Vendeur de nourriture>";
-	AL["Adarrah"] = "Adarrah";
-	AL["Brennan"] = "Brennan";
-	AL["Darwen"] = "Darwen";
-	AL["Deez"] = "Deez";
-	AL["Galathryn"] = "Galathryn";
-	AL["Mitzi"] = "Mitzi";
-	AL["Mannuth"] = "Mannuth";
-
 --*****************
 -- WotLK Instances
 --*****************
@@ -1101,5 +1076,46 @@ if AL then
 	AL["Captain Taylor"] = "Capitaine Taylor";
 	AL["Legionnaire Nazgrim"] = "Légionnaire Nazgrim";
 	AL["Neptulon"] = "Neptulon";
+
+	--Zul'Aman
+	AL["Harrison Jones"] = "Harrison Jones";
+	AL["Tanzar"] = "Tanzar";
+	AL["The Map of Zul'Aman"] = "La carte de Zul'Aman";
+	AL["Harkor"] = "Harkor";
+	AL["Kraz"] = "Kraz";
+	AL["Ashli"] = "Ashli";
+	AL["Thurg"] = "Thurg";
+	AL["Gazakroth"] = "Gazakroth";
+	AL["Lord Raadan"] = "Seigneur Raadan";
+	AL["Darkheart"] = "Sombrecoeur";
+	AL["Alyson Antille"] = "Alyson Antille";
+	AL["Slither"] = "Sinueux";
+	AL["Fenstalker"] = "Traquetourbe";
+	AL["Koragg"] = "Koragg";
+	AL["Zungam"] = "Zungam";
+	AL["Forest Frogs"] = "Grenouilles forestière";
+	AL["Kyren <Reagents>"] = "Kyren <Composants>";
+	AL["Gunter <Food Vendor>"] = "Gunter <Vendeur de nourriture>";
+	AL["Adarrah"] = "Adarrah";
+	AL["Brennan"] = "Brennan";
+	AL["Darwen"] = "Darwen";
+	AL["Deez"] = "Deez";
+	AL["Galathryn"] = "Galathryn";
+	AL["Mitzi"] = "Mitzi";
+	AL["Mannuth"] = "Mannuth";
+
+	--Zul'Gurub
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
+	AL["Briney Boltcutter"] = "Briney Boltcutter"; -- npc: 53043
+	AL["Edge of Madness"] = "Edge of Madness";
+	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
+	AL["Vehini"] = "Vehini"; -- npc: 53040
+	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 
 end

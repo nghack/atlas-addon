@@ -604,16 +604,16 @@ AtlasMaps = {
 		Acronym = AL["WC"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Lady Anacondra"] };
-		{ WHIT.." 2) "..BB["Kresh"].." ("..AL["Varies"]..")" };
+		{ WHIT.." 2) "..BB["Lord Pythas"] };
 		{ WHIT.." 3) "..BB["Lord Cobrahn"] };
-		{ WHIT.." 4) "..BB["Lord Pythas"] };
-		{ WHIT.." 5) "..BB["Skum"] };
-		{ WHIT.." 6) "..BB["Lord Serpentis"].." ("..AL["Upper"]..")" };
-		{ WHIT.." 7) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
-		{ WHIT.." 8) "..BB["Mutanus the Devourer"] };
-		{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
+		{ WHIT.." 4) "..BB["Skum"] };
+		{ WHIT.." 5) "..BB["Lord Serpentis"].." ("..AL["Upper"]..")" };
+		{ WHIT.." 6) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
+		{ WHIT.." 7) "..BB["Mutanus the Devourer"] };
+		{ ORNG.." 1) "..BB["Kresh"].." ("..AL["Varies"]..")" };
+		{ ORNG.." 2) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
 		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
-		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ ORNG.." 3) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 		{ GREN.." 1') "..AL["Disciple of Naralex"] };
 	};
 	ZulFarrak = {

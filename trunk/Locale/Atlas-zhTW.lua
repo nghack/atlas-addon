@@ -285,7 +285,6 @@ if AL then
 	AL["SV"] = "SV/蒸汽"; -- The Steamvault 蒸汽洞窟
 	AL["TK"] = "TK/風暴"; -- Tempest Keep 風暴要塞
 	AL["UB"] = "UB/深幽"; -- The Underbog 深幽泥沼
-	AL["ZA"] = "ZA"; -- Zul'Aman 祖阿曼
 
 	--WotLK Acronyms
 	AL["AK, Kahet"] = "AK/安卡"; -- Ahn'kahet -- 安卡罕特
@@ -335,6 +334,7 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds 四風王座
 	AL["ToTT"] = "ToTT"; --Throne of the Tides 海潮王座
 	AL["VP"] = "VP"; --The Vortex Pinnacle 漩渦尖塔
+	AL["ZA"] = "ZA"; -- Zul'Aman 祖阿曼
 	AL["ZG"] = "ZG"; --Zul'Gurub 祖爾格拉布
 
 --************************************************
@@ -1096,18 +1096,18 @@ if AL then
 	AL["Mannuth"] = "曼努斯";
 
 	--Zul'Gurub
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
-	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
-	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
-	AL["Briney Boltcutter"] = "Briney Boltcutter"; -- npc: 53043
-	AL["Edge of Madness"] = "Edge of Madness";
-	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
-	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
-	AL["Vehini"] = "Vehini"; -- npc: 53040
-	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
+	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
+	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
+	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
+	AL["Edge of Madness"] = "瘋狂之緣";
+	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
+	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
+	--AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
@@ -1121,20 +1121,20 @@ if AL then
 	AL["Daakara"] = "達卡拉";
 
 	--Zul'Gurub
-	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
-	AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
-	AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
-	AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
-	AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
-	AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
-	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
-	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
-	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
-	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
-	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
-	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
-	AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
-	AL["Zanzil"] = "Zanzil"; -- 52053
+	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
+	--AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
+	--AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
+	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
+	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
+	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
+	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
+	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
+	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
+	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
+	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	--AL["Zanzil"] = "Zanzil"; -- 52053
 
 end

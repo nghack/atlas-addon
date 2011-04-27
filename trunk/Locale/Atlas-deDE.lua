@@ -292,7 +292,6 @@ if AL then
 	AL["SV"] = "DK"; -- The Steamvault
 	AL["TK"] = "FdS"; -- Tempest Keep
 	AL["UB"] = "TS"; -- The Underbog
-	AL["ZA"] = "ZA"; -- Zul'Aman
 
 	--WotLK Acronyms
 	AL["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
@@ -342,6 +341,7 @@ if AL then
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
 	AL["VP"] = "VG"; --The Vortex Pinnacle
+	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
 
 --************************************************
@@ -1106,11 +1106,11 @@ if AL then
 	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
 	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
 	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>";
-	--AL["Briney Boltcutter"] = "Briney Boltcutter";
+	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
 	AL["Edge of Madness"] = "Der Hort des Wahnsinns";
 	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
 	--AL["Overseer Blingbang"] = "Overseer Blingbang";
-	--AL["Vehini"] = "Vehini";
+	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
 	--AL["Voodoo Pile"] = "Voodoo Pile";
 	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
 	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";

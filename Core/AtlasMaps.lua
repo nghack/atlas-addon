@@ -2538,8 +2538,8 @@ AtlasMaps = {
 		Acronym = AL["ZG"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Meeting Stone"] };
-		{ GREN.." 2') "..AL["Briney Boltcutter"] };
-		{ GREN.." 3') "..AL["Vehini"] }; -- Assault Provisions
+		{ GREN.." 2') "..AL["Briney Boltcutter <Blackwater Financial Interests>"] };
+		{ GREN.." 3') "..AL["Vehini <Assault Provisions>"] }; -- Assault Provisions
 		{ GREN..INDENT..AL["Overseer Blingbang"] };
 		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };

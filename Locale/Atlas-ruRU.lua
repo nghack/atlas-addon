@@ -288,7 +288,6 @@ if AL then
 	AL["SV"] = "ПП"; -- Паровое Подземелье
 	AL["TK"] = "КБ"; -- Крепость Бурь
 	AL["UB"] = "НТ"; -- Нижетопь
-	AL["ZA"] = "ЗА"; -- Зул'Аман
 
 	--WotLK Acronyms
 	AL["AK, Kahet"] = "АК, Кахет"; -- Ан'кахет
@@ -338,6 +337,7 @@ if AL then
 	AL["TWT"] = "ТЧВ"; --Трон Четырех Ветров
 	AL["ToTT"] = "ТП"; --Трон Приливов
 	AL["VP"] = "ВС"; --Вершина смерча
+	AL["ZA"] = "ЗА"; -- Зул'Аман
 	AL["ZG"] = "ЗГ"; --Зул'Гуруб
 
 --************************************************
@@ -889,33 +889,6 @@ if AL then
 
 	--TK: The Eye
 
-	--Zul'Aman
-	AL["Harrison Jones"] = "Харрисон Джонс";
-	AL["Tanzar"] = "Танзар";
-	AL["The Map of Zul'Aman"] = "Карта Зул'Амана";
-	AL["Harkor"] = "Харкор";
-	AL["Kraz"] = "Краз";
-	AL["Ashli"] = "Эшли";
-	AL["Thurg"] = "Тург";
-	AL["Gazakroth"] = "Газакрот";
-	AL["Lord Raadan"] = "Лорд Раадан";
-	AL["Darkheart"] = "Черносерд";
-	AL["Alyson Antille"] = "Алисон Антиль";
-	AL["Slither"] = "Скользь";
-	AL["Fenstalker"] = "Болотный ловец";
-	AL["Koragg"] = "Корагг";
-	AL["Zungam"] = "Зангам";
-	AL["Forest Frogs"] = "Лесная лягушка";
-	AL["Kyren <Reagents>"] = "Кирен <Реагенты>";
-	AL["Gunter <Food Vendor>"] = "Гюнтер <Продавец еды>";
-	AL["Adarrah"] = "Адарра";
-	AL["Brennan"] = "Бреннан";
-	AL["Darwen"] = "Стрел";
-	AL["Deez"] = "Диз";
-	AL["Galathryn"] = "Калатрин";
-	AL["Mitzi"] = "Митци";
-	AL["Mannuth"] = "Маннут";
-
 --*****************
 -- WotLK Instances
 --*****************
@@ -1097,5 +1070,74 @@ if AL then
 	AL["Captain Taylor"] = "Капитан Тейлор";
 	AL["Legionnaire Nazgrim"] = "Легионер Назгрим";
 	AL["Neptulon"] = "Нептулон";
+
+	--Zul'Aman
+	AL["Harrison Jones"] = "Харрисон Джонс";
+	AL["Tanzar"] = "Танзар";
+	AL["The Map of Zul'Aman"] = "Карта Зул'Амана";
+	AL["Harkor"] = "Харкор";
+	AL["Kraz"] = "Краз";
+	AL["Ashli"] = "Эшли";
+	AL["Thurg"] = "Тург";
+	AL["Gazakroth"] = "Газакрот";
+	AL["Lord Raadan"] = "Лорд Раадан";
+	AL["Darkheart"] = "Черносерд";
+	AL["Alyson Antille"] = "Алисон Антиль";
+	AL["Slither"] = "Скользь";
+	AL["Fenstalker"] = "Болотный ловец";
+	AL["Koragg"] = "Корагг";
+	AL["Zungam"] = "Зангам";
+	AL["Forest Frogs"] = "Лесная лягушка";
+	AL["Kyren <Reagents>"] = "Кирен <Реагенты>";
+	AL["Gunter <Food Vendor>"] = "Гюнтер <Продавец еды>";
+	AL["Adarrah"] = "Адарра";
+	AL["Brennan"] = "Бреннан";
+	AL["Darwen"] = "Стрел";
+	AL["Deez"] = "Диз";
+	AL["Galathryn"] = "Калатрин";
+	AL["Mitzi"] = "Митци";
+	AL["Mannuth"] = "Маннут";
+
+	--Zul'Gurub
+	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
+	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
+	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
+	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
+	--AL["Edge of Madness"] = "Edge of Madness";
+	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
+	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
+	--AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	
+--[[
+    Temp area. Below entries may not need to be translated as these zone-names / boss-names
+    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
+]]
+
+	--AL["Sulfuron Keep"] = "Sulfuron Keep";
+	--AL["War of the Ancients"] = "War of the Ancients";
+
+	--Zul'Aman
+	--AL["Daakara"] = "Daakara";
+
+	--Zul'Gurub
+	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
+	--AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
+	--AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
+	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
+	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
+	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
+	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
+	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
+	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
+	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
+	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	--AL["Zanzil"] = "Zanzil"; -- 52053
 
 end

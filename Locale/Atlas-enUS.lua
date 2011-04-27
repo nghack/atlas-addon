@@ -285,7 +285,6 @@ if AL then
 	AL["SV"] = "SV"; -- The Steamvault
 	AL["TK"] = "TK"; -- Tempest Keep
 	AL["UB"] = "UB"; -- The Underbog
-	AL["ZA"] = "ZA"; -- Zul'Aman
 
 	--WotLK Acronyms
 	AL["AK, Kahet"] = "AK, Kahet"; -- Ahn'kahet
@@ -335,6 +334,7 @@ if AL then
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
 	AL["VP"] = "VP"; --The Vortex Pinnacle
+	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
 
 --************************************************
@@ -1099,11 +1099,11 @@ if AL then
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
-	AL["Briney Boltcutter"] = "Briney Boltcutter"; -- npc: 53043
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
 	AL["Edge of Madness"] = "Edge of Madness";
 	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
 	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
-	AL["Vehini"] = "Vehini"; -- npc: 53040
+	AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
 	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
@@ -1130,7 +1130,7 @@ if AL then
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
 	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
 	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
-	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>"; -- 52414
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322

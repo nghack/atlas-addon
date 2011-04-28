@@ -1103,17 +1103,17 @@ if AL then
 	AL["Mannuth"] = "Mannuth";
 
 	--Zul'Gurub
-	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
-	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
-	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>";
-	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Blutschlächterin T'ara <Dunkelspeerveteranin>>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Blutschlächterin Vaena <Dunkelspeerveteranin>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Blutschlächterin Zala <Dunkelspeerveteranin>";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Schraubschneider <Schwarzmeer Kapitalbeteiligungen>>"; -- npc: 53043
 	AL["Edge of Madness"] = "Der Hort des Wahnsinns";
-	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
-	--AL["Overseer Blingbang"] = "Overseer Blingbang";
-	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
-	--AL["Voodoo Pile"] = "Voodoo Pile";
+	AL["Helpful Jungle Monkey"] = "Hilfreicher Dschungelaffe";
+	AL["Overseer Blingbang"] = "Aufseher Klunkerknall";
+	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>"; -- npc: 53040
+	AL["Voodoo Pile"] = "Voodoohaufen";
 	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzils Kessel der giftigen Grausamkeit";
 	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
 --[[
@@ -1128,20 +1128,20 @@ if AL then
 	--AL["Daakara"] = "Daakara";
 
 	--Zul'Gurub
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
-	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>";
+	AL["Berserking Boulder Roller"] = "Wütender Felsroller";
+	AL["Gub <Destroyer of Fish>"] = "Gub <Fischvernichter>";
 	AL["High Priestess Kilnara"] = "Hohepriesterin Kilnara";
 	AL["Jin'do the Godbreaker"] = "Jin'do der Götterbrecher";
-	--AL["Kaulema the Mover"] = "Kaulema the Mover";
-	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler";
-	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>";
-	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
+	AL["Kaulema the Mover"] = "Kaulema der Beweger";
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek der Zerleger";
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <Das Schlagen der Stunde>";
+	AL["Tiki Lord Mu'Loa"] = "Tikilord Mu'Loa";
 	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
-	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
-	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>";
-	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>";
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>";
-	--AL["Zanza the Restless"] = "Zanza the Restless";
-	--AL["Zanzil"] = "Zanzil";
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <Der Schläfer>";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Giftmischer Mauri <Das Flüstern der Schlange>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Giftmischer T'Kulu <Der Toxische Biss>";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Hexendoktor Qu'in <Medizinfrau>";
+	AL["Zanza the Restless"] = "Zanza der Ruhelose";
+	AL["Zanzil"] = "Zanzil";
 
 end

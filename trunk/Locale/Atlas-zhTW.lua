@@ -1096,17 +1096,17 @@ if AL then
 	AL["Mannuth"] = "曼努斯";
 
 	--Zul'Gurub
-	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
-	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
-	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
-	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "血腥殺戮者特亞拉 <暗矛精兵>"; -- npc: 53023
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "血腥殺戮者瓦那 <暗矛精兵>"; -- npc: 53025
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "血腥殺戮者札拉 <暗矛精兵>"; -- npc: 53024
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布蘭尼·破壞剪 <黑水金融>"; -- npc: 53043
 	AL["Edge of Madness"] = "瘋狂之緣";
-	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
-	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
-	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
-	--AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	AL["Helpful Jungle Monkey"] = "好幫手叢林猴"; -- npc: 52820
+	AL["Overseer Blingbang"] = "監督者閃砰"; -- npc: 53151
+	AL["Vehini <Assault Provisions>"] = "維希尼 <突襲物資供應者>"; -- npc: 53040
+	AL["Voodoo Pile"] = "巫毒堆"; -- object=208549
 	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "贊吉爾的毒物折磨大鍋"; -- 52529
 	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
 --[[
@@ -1121,20 +1121,20 @@ if AL then
 	AL["Daakara"] = "達卡拉";
 
 	--Zul'Gurub
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
-	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
-	--AL["High Priestess Kilnara"] = "High Priestess Kilnara"; -- 52059
-	--AL["Jin'do the Godbreaker"] = "Jin'do the Godbreaker"; -- 52148
-	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
-	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
-	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
-	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
-	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
-	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
-	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
-	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
-	--AL["Zanzil"] = "Zanzil"; -- 52053
+	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者"; -- 52348
+	AL["Gub <Destroyer of Fish>"] = "古布 <魚類滅殺者>"; -- 52440
+	AL["High Priestess Kilnara"] = "高階祭司基爾娜拉"; -- 52059
+	AL["Jin'do the Godbreaker"] = "破神者金度"; -- 52148
+	AL["Kaulema the Mover"] = "移石者考勒瑪"; -- 52422
+	AL["Mor'Lek the Dismantler"] = "拆卸人摩勒克"; -- 52405
+	AL["Mortaxx <The Tolling Bell>"] = "莫爾塔克斯 <鐘鳴者>"; -- 52438
+	AL["Tiki Lord Mu'Loa"] = "提基王穆羅亞"; -- 52340
+	AL["Tiki Lord Zim'wae"] = "提基王辛瓦"; -- 52362
+	AL["Tor-Tun <The Slumberer>"] = "托通 <沉睡者>";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "怨毒法師莫里 <蛇之耳語>"; -- 52380
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "怨毒法師堤庫魯 <毒咬>"; -- 52381
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "巫醫枯因 <女巫醫>"; --52322
+	AL["Zanza the Restless"] = "『無眠者』贊札"; -- 52429
+	AL["Zanzil"] = "贊吉爾"; -- 52053
 
 end

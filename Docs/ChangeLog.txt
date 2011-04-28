@@ -6,10 +6,9 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 ==============
 = Change Log =
 ==============
-v1.19.0 (Apr 28, 2011)
+v1.19.0 (Apr. 28, 2011)
 - Support WoW 4.1
 - Added Zul'Gurub dungeon map
-- Revise Zul'Aman dungeon map...
 - Dungeon level info update
 
 v1.18.3 (Apr. 13, 2011)

@@ -353,7 +353,7 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ WHIT.." 1) "..BB["Mad Magglish"].." ("..AL["Varies"]..")" };
-        { ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
 		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
 	};
 
@@ -2516,7 +2516,7 @@ AtlasMaps = {
 		{ WHIT..INDENT..AL["Slither"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Fenstalker"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Koragg"].." ("..AL["Random"]..")" };
-		{ WHIT.." 6) "..AL["Daakara"] };
+		{ WHIT.." 6) "..BB["Daakara"] };
 		{ GREN.." 1') "..AL["Zungam"] };
 		{ GREN.." 2') "..AL["Forest Frogs"] };
 		{ GREN..INDENT..AL["Kyren <Reagents>"] };
@@ -2566,8 +2566,8 @@ AtlasMaps = {
 		{ WHIT..INDENT..BB["Wushoolay"].." ("..AL["Random"]..")" };
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
-		{ WHIT.."15) "..AL["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
-		{ WHIT.."16) "..AL["Zanzil"] };
+		{ WHIT.."15) "..BB["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
+		{ WHIT.."16) "..BB["Zanzil"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Fomula"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };

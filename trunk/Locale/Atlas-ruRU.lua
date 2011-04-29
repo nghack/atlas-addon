@@ -1120,13 +1120,9 @@ if AL then
 	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
 
-	--Zul'Aman
-	AL["Daakara"] = "Даакара";
-
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "Яростный выворачиватель валунов"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "Габ <Гроза рыб>"; -- 52440
-	AL["High Priestess Kilnara"] = "Верховная жрица Килнара"; -- 52059
 	AL["Jin'do the Godbreaker"] = "Джин'до Низвержитель Богов"; -- 52148
 	AL["Kaulema the Mover"] = "Каулема Толкатель"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "Мор'Лек Расчленитель"; -- 52405
@@ -1138,6 +1134,5 @@ if AL then
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Ядомант Т'Кулу <Ядовитый укус>"; -- 52381
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Доктор Ку'ин <Тролль-знахарка>"; --52322
 	AL["Zanza the Restless"] = "Занза Неупокоенный"; -- 52429
-	AL["Zanzil"] = "Занзил"; -- 52053
 
 end

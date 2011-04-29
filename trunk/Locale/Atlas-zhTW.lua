@@ -1117,13 +1117,9 @@ if AL then
 	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
 
-	--Zul'Aman
-	AL["Daakara"] = "達卡拉";
-
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "古布 <魚類滅殺者>"; -- 52440
-	AL["High Priestess Kilnara"] = "高階祭司基爾娜拉"; -- 52059
 	AL["Jin'do the Godbreaker"] = "破神者金度"; -- 52148
 	AL["Kaulema the Mover"] = "移石者考勒瑪"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "拆卸人摩勒克"; -- 52405
@@ -1135,6 +1131,5 @@ if AL then
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "怨毒法師堤庫魯 <毒咬>"; -- 52381
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "巫醫枯因 <女巫醫>"; --52322
 	AL["Zanza the Restless"] = "『無眠者』贊札"; -- 52429
-	AL["Zanzil"] = "贊吉爾"; -- 52053
 
 end

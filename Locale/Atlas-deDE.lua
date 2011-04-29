@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 24.04.2011
+-- Letztes Update: 29.04.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1124,13 +1124,9 @@ if AL then
 	--AL["Sulfuron Keep"] = "Sulfuronfeste";
 	--AL["War of the Ancients"] = "Krieg der Ahnen";
 
-	--Zul'Aman
-	--AL["Daakara"] = "Daakara";
-
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "Wütender Felsroller";
 	AL["Gub <Destroyer of Fish>"] = "Gub <Fischvernichter>";
-	AL["High Priestess Kilnara"] = "Hohepriesterin Kilnara";
 	AL["Jin'do the Godbreaker"] = "Jin'do der Götterbrecher";
 	AL["Kaulema the Mover"] = "Kaulema der Beweger";
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek der Zerleger";
@@ -1142,6 +1138,5 @@ if AL then
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Giftmischer T'Kulu <Der Toxische Biss>";
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Hexendoktor Qu'in <Medizinfrau>";
 	AL["Zanza the Restless"] = "Zanza der Ruhelose";
-	AL["Zanzil"] = "Zanzil";
 
 end

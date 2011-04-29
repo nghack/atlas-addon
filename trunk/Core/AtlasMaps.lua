@@ -353,8 +353,8 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ WHIT.." 1) "..BB["Mad Magglish"].." ("..AL["Varies"]..")" };
-		{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
-		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
+		--{ ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" }; Commented out until seen after 4.0
+		--{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" }; Commented out until seen after 4.0
 	};
 
 --************************************************

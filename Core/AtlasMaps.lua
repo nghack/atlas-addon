@@ -353,6 +353,8 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ WHIT.." 1) "..BB["Mad Magglish"].." ("..AL["Varies"]..")" };
+        { ORNG.." 1) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
 	};
 
 --************************************************
@@ -611,9 +613,7 @@ AtlasMaps = {
 		{ WHIT.." 6) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 7) "..BB["Mutanus the Devourer"] };
 		{ ORNG.." 1) "..BB["Kresh"].." ("..AL["Varies"]..")" };
-		{ ORNG.." 2) "..BB["Trigore the Lasher"].." ("..AL["Rare"]..")" };
-		{ ORNG..INDENT..BB["Boahn"].." ("..AL["Rare"]..")" };
-		{ ORNG.." 3) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 		{ GREN.." 1') "..AL["Disciple of Naralex"] };
 	};
 	ZulFarrak = {

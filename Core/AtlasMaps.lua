@@ -614,7 +614,9 @@ AtlasMaps = {
 		{ WHIT.." 7) "..BB["Mutanus the Devourer"] };
 		{ ORNG.." 1) "..BB["Kresh"].." ("..AL["Varies"]..")" };
 		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
-		{ GREN.." 1') "..AL["Disciple of Naralex"] };
+		{ GREN.." 1') "..AL["Ebru <Disciple of Naralex>"] };
+		{ GREN..INDENT..AL["Nalpak <Disciple of Naralex>"] };
+		{ GREN..INDENT..AL["Muyoh <Disciple of Naralex>"] };
 	};
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };

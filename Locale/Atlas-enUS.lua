@@ -514,7 +514,9 @@ if AL then
 	AL["Merithra of the Dream"] = "Merithra of the Dream";
 
 	--Wailing Caverns
-	AL["Disciple of Naralex"] = "Disciple of Naralex";
+	AL["Ebru <Disciple of Naralex>"] = "Ebru <Disciple of Naralex>"; -- 5768
+	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple of Naralex>"; -- 5767
+	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Disciple of Naralex>"; 
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>";

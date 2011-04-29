@@ -611,6 +611,7 @@ AtlasMaps = {
 		{ WHIT.." 5) "..BB["Lord Serpentis"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 6) "..BB["Verdan the Everliving"].." ("..AL["Upper"]..")" };
 		{ WHIT.." 7) "..BB["Mutanus the Devourer"] };
+		{ GREN..INDENT..AL["Naralex"] };
 		{ ORNG.." 1) "..BB["Kresh"].." ("..AL["Varies"]..")" };
 		{ ORNG.." 2) "..BB["Deviate Faerie Dragon"].." ("..AL["Rare"]..", "..AL["Varies"]..")" };
 		{ GREN.." 1') "..AL["Ebru <Disciple of Naralex>"] };

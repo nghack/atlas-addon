@@ -516,7 +516,8 @@ if AL then
 	--Wailing Caverns
 	AL["Ebru <Disciple of Naralex>"] = "Ebru <Disciple of Naralex>"; -- 5768
 	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple of Naralex>"; -- 5767
-	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Disciple of Naralex>"; 
+	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Disciple of Naralex>";  -- 3678
+	AL["Naralex"] = "Naralex"; -- 3679
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>";

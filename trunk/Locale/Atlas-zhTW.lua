@@ -514,7 +514,10 @@ if AL then
 	AL["Merithra of the Dream"] = "夢境之龍麥琳瑟拉";
 
 	--Wailing Caverns
-	AL["Disciple of Naralex"] = "納拉雷克斯的信徒";
+	AL["Ebru <Disciple of Naralex>"] = "厄布魯 <納拉雷克斯的侍徒>"; -- 5768
+	AL["Nalpak <Disciple of Naralex>"] = "納爾派克 <納拉雷克斯的侍徒>"; -- 5767
+	AL["Muyoh <Disciple of Naralex>"] = "繆幽 <納拉雷克斯的侍徒>";  -- 3678
+	AL["Naralex"] = "納拉雷克斯"; -- 3679
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "首席工程師膨嘯 <加基森水業公司>";

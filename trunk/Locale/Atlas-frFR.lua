@@ -524,6 +524,10 @@ if AL then
 
 	--Wailing Caverns
 	AL["Disciple of Naralex"] = "Disciple de Naralex";
+	AL["Ebru <Disciple of Naralex>"] = "Ebru <Disciple de Naralex>";
+	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple de Naralex>";
+	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Disciple de Naralex>";
+	AL["Naralex"] = "Naralex";
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Ingénieur en chef Vizisanie <Cie des eaux de Gadgetzan>";
@@ -1109,7 +1113,7 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Occiseuse Vaena <Vétéran sombrelance>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Occiseuse Zala <Vétéran sombrelance>"; -- npc: 53024
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Coupécrou <Intérêts financiers de Baille-Fonds>"; -- npc: 53043
-	--AL["Edge of Madness"] = "Edge of Madness";
+	AL["Edge of Madness"] = "L'antre de la Folie";
 	AL["Helpful Jungle Monkey"] = "Singe de la jungle serviable"; -- npc: 52820
 	AL["Overseer Blingbang"] = "Surveillant Blingbang"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Vehini <Provisions d’assaut>"; -- npc: 53040

@@ -6,6 +6,10 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 ==============
 = Change Log =
 ==============
+
+v1.19.1 (May xx, 2011)
+- Updated Wailing Caverns map
+
 v1.19.0 (Apr. 28, 2011)
 - Support WoW 4.1
 - Added Zul'Gurub dungeon map

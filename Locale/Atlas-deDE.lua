@@ -1106,18 +1106,18 @@ if AL then
 	AL["Mannuth"] = "Mannuth";
 
 	--Zul'Gurub
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Blutschlächterin T'ara <Dunkelspeerveteranin>>";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Blutschlächterin T'ara <Dunkelspeerveteranin>";
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Blutschlächterin Vaena <Dunkelspeerveteranin>";
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Blutschlächterin Zala <Dunkelspeerveteranin>";
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Schraubschneider <Schwarzmeer Kapitalbeteiligungen>>"; -- npc: 53043
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Schraubschneider <Schwarzmeer Kapitalbeteiligungen>";
 	AL["Edge of Madness"] = "Der Hort des Wahnsinns";
 	AL["Helpful Jungle Monkey"] = "Hilfreicher Dschungelaffe";
 	AL["Overseer Blingbang"] = "Aufseher Klunkerknall";
-	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>"; -- npc: 53040
+	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>";
 	AL["Voodoo Pile"] = "Voodoohaufen";
-	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzils Kessel der Frostbrandformel";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzils Kessel der giftigen Grausamkeit";
-	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennendes Blutes";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
@@ -1135,9 +1135,9 @@ if AL then
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek der Zerleger";
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <Das Schlagen der Stunde>";
 	AL["Tiki Lord Mu'Loa"] = "Tikilord Mu'Loa";
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
+	AL["Tiki Lord Zim'wae"] = "Tikilord Zim'wae";
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <Der Schläfer>";
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "Giftmischer Mauri <Das Flüstern der Schlange>";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Giftmischerin Mauri <Das Flüstern der Schlange>";
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Giftmischer T'Kulu <Der Toxische Biss>";
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Hexendoktor Qu'in <Medizinfrau>";
 	AL["Zanza the Restless"] = "Zanza der Ruhelose";

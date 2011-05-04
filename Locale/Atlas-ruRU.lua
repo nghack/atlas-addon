@@ -517,7 +517,10 @@ if AL then
 	AL["Merithra of the Dream"] = "Меритра из Сна";
 
 	--Wailing Caverns
-	AL["Disciple of Naralex"] = "Послушник Наралекса";
+	AL["Ebru <Disciple of Naralex>"] = "Эбру <Ученица Наралекса>"; -- 5768
+	AL["Nalpak <Disciple of Naralex>"] = "Налпак <Ученик Наралекса>"; -- 5767
+	AL["Muyoh <Disciple of Naralex>"] = "Муйон <Ученик Наралекса>";  -- 3678
+	AL["Naralex"] = "Наралекс"; -- 3679
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Главный инженер Чепухастер <Компания \"Воды Прибамбасска\">";
@@ -1108,9 +1111,9 @@ if AL then
 	AL["Overseer Blingbang"] = "Инспектор Бадабум"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Вехини <Поставщик провизии для армии>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Куча черепов вуду"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Котел Занзила с раствором обжигающего холода";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Котел Занзила с едкой щелочью";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Котел Занзила с пылающей кровью";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names

@@ -737,10 +737,10 @@ local function Process_Deprecated()
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
 		
 		--most recent (working) versions of known modules at time of release
-		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010
-		{ "AtlasQuest", "4.6.2" }, -- updated March 23, 2011
-		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010
-		{ "AtlasLoot", "6.03.00" }, -- updated April 27, 2011
+--		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
+		{ "AtlasQuest", "4.6.3" }, -- updated May 04, 2011
+--		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
+		{ "AtlasLoot", "6.03.01" }, -- updated May 03, 2011
 		{ "Atlas_Arena", "1.3.2" }, -- updated April, 28, 2011
 		{ "Atlas_WorldEvents", "2.1" }, -- updated April 28, 2011
 	};

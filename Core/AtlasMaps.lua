@@ -2556,7 +2556,7 @@ AtlasMaps = {
 		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
 		{ WHIT.." 8) "..AL["Berserking Boulder Roller"] };
-		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Fomula"] };
+		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ WHIT.." 9) "..BB["Bloodlord Mandokir"] };
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };

@@ -1106,12 +1106,11 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Умертвительница Ваэна <Ветеран Черного Копья>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Умертвительница Залла <Ветеран Черного Копья>"; -- npc: 53024
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Брини Болторез <Финансовый воротила пиратов Черноводья>"; -- npc: 53043
-	AL["Edge of Madness"] = "Грань Безумия";
 	AL["Helpful Jungle Monkey"] = "Услужливая мартышка"; -- npc: 52820
 	AL["Overseer Blingbang"] = "Инспектор Бадабум"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Вехини <Поставщик провизии для армии>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Куча черепов вуду"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Котел Занзила с раствором обжигающего холода";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Котел Занзила с раствором обжигающего холода";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Котел Занзила с едкой щелочью";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Котел Занзила с пылающей кровью";
 	

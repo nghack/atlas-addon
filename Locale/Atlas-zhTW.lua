@@ -1103,14 +1103,13 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "血腥殺戮者瓦那 <暗矛精兵>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "血腥殺戮者札拉 <暗矛精兵>"; -- npc: 53024
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布蘭尼·破壞剪 <黑水金融>"; -- npc: 53043
-	AL["Edge of Madness"] = "瘋狂之緣";
 	AL["Helpful Jungle Monkey"] = "好幫手叢林猴"; -- npc: 52820
 	AL["Overseer Blingbang"] = "監督者閃砰"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "維希尼 <突襲物資供應者>"; -- npc: 53040
 	AL["Voodoo Pile"] = "巫毒堆"; -- object=208549
-	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "贊吉爾的霜燃配方";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "贊吉爾的毒物折磨大鍋"; -- 52529
-	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Zanzil's Cauldron of Burning Blood"] = "贊吉爾的燃燒之血";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names

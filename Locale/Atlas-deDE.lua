@@ -1110,12 +1110,11 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Blutschlächterin Vaena <Dunkelspeerveteranin>";
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Blutschlächterin Zala <Dunkelspeerveteranin>";
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Schraubschneider <Schwarzmeer Kapitalbeteiligungen>";
-	AL["Edge of Madness"] = "Der Hort des Wahnsinns";
 	AL["Helpful Jungle Monkey"] = "Hilfreicher Dschungelaffe";
 	AL["Overseer Blingbang"] = "Aufseher Klunkerknall";
 	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>";
 	AL["Voodoo Pile"] = "Voodoohaufen";
-	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzils Kessel der Frostbrandformel";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzils Kessel der Frostbrandformel";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzils Kessel der giftigen Grausamkeit";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennendes Blutes";
 	

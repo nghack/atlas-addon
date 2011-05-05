@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -1103,12 +1103,11 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
-	AL["Edge of Madness"] = "Edge of Madness";
 	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
 	AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment"; -- 52529
 	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	

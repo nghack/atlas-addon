@@ -2541,7 +2541,7 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Meeting Stone"] };
 		{ GREN.." 2') "..AL["Briney Boltcutter <Blackwater Financial Interests>"] };
-		{ GREN.." 3') "..AL["Vehini <Assault Provisions>"] }; -- Assault Provisions
+		{ GREN.." 3') "..AL["Vehini <Assault Provisions>"] };
 		{ GREN..INDENT..AL["Overseer Blingbang"] };
 		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };
@@ -2561,7 +2561,7 @@ AtlasMaps = {
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
-		{ WHIT.."12) "..AL["Edge of Madness"] };
+		{ WHIT.."12) "..BZ["Edge of Madness"] };
 		{ WHIT..INDENT..BB["Gri'lek"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..BB["Hazza'rah"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..BB["Renataki"].." ("..AL["Random"]..")" };
@@ -2571,7 +2571,7 @@ AtlasMaps = {
 		{ WHIT.."15) "..BB["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
 		{ WHIT.."16) "..BB["Zanzil"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Fomula"] };
+		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."17) "..AL["Jin'do the Godbreaker"] };
 	};

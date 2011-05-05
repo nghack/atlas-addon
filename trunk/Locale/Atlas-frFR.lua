@@ -1113,12 +1113,11 @@ if AL then
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Occiseuse Vaena <Vétéran sombrelance>"; -- npc: 53025
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Occiseuse Zala <Vétéran sombrelance>"; -- npc: 53024
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Coupécrou <Intérêts financiers de Baille-Fonds>"; -- npc: 53043
-	AL["Edge of Madness"] = "L'antre de la Folie";
 	AL["Helpful Jungle Monkey"] = "Singe de la jungle serviable"; -- npc: 52820
 	AL["Overseer Blingbang"] = "Surveillant Blingbang"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Vehini <Provisions d’assaut>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Pile vaudou"; -- object=208549
-	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
+	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Chaudron de tourment toxique de Zanzil"; -- npc: 52529
 	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
@@ -1131,14 +1130,14 @@ if AL then
 	--AL["War of the Ancients"] = "War of the Ancients";
 
 	--Zul'Gurub
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	AL["Berserking Boulder Roller"] = "Lance-rocher berserker"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "Gub <Destructeur de poissons>"; -- 52440
 	AL["Jin'do the Godbreaker"] = "Jin'do le Briseur de dieux"; -- 52148
 	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek le Démanteleur"; -- 52405
-	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La cloche du glas>"; -- 52438
 	AL["Tiki Lord Mu'Loa"] = "Seigneur-tiki Mu'Loa"; -- 52340
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	AL["Tiki Lord Zim'wae"] = "Seigneur-tiki Zim'wae"; -- 52362
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <Le Dormeur>"; -- 52414
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venimancienne Mauri <Le murmure du serpent>"; -- 52380
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venimancien T'Kulu <La morsure toxique>"; -- 52381

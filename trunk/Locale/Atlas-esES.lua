@@ -1102,13 +1102,12 @@ if AL then
 	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
 	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
 	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
-	--AL["Edge of Madness"] = "Edge of Madness";
 	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
 	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
 	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
-	--AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
-	--AL["Zanzil's Cauldron of Frostburn Fomula"] = "Zanzil's Cauldron of Frostburn Fomula";
-	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Voodoo Pile"] = "Montón vudú"; -- object=208549
+	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Caldero de tormento tóxico de Zanzil";
 	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 	
 --[[
@@ -1131,7 +1130,7 @@ if AL then
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <El dormilón>";
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomante Mauri <El susurro de la serpiente>"; -- 52380
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomante T'Kulu <La mordedura tóxica>"; -- 52381
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Médica bruja Qu'in <Médica bruja>"; --52322
 	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
 
 end

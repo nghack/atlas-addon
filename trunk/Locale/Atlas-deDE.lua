@@ -1104,6 +1104,9 @@ if AL then
 	AL["Galathryn"] = "Galathryn";
 	AL["Mitzi"] = "Mitzi";
 	AL["Mannuth"] = "Mannuth";
+	AL["Vol'jin"] = "Vol'jin"; -- npc=52924
+	AL["Witch Doctor T'wansi"] = "Hexendoktor T'wansi"; -- npc=52925
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blutwache Hakkuz <Elite der Dunkelspeere>"; -- npc=52933
 
 	--Zul'Gurub
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Blutschlächterin T'ara <Dunkelspeerveteranin>";

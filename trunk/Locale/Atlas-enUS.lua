@@ -1072,7 +1072,7 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones";
+	AL["Harrison Jones"] = "Harrison Jones"; -- can be removed?
 	AL["Tanzar"] = "Tanzar";
 	AL["The Map of Zul'Aman"] = "The Map of Zul'Aman";
 	AL["Harkor"] = "Harkor";
@@ -1097,6 +1097,9 @@ if AL then
 	AL["Galathryn"] = "Galathryn";
 	AL["Mitzi"] = "Mitzi";
 	AL["Mannuth"] = "Mannuth";
+	AL["Vol'jin"] = "Vol'jin"; -- npc=52924
+	AL["Witch Doctor T'wansi"] = "Witch Doctor T'wansi"; -- npc=52925
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blood Guard Hakkuz <Darkspear Elite>"; -- npc=52933
 
 	--Zul'Gurub
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023

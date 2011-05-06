@@ -2499,7 +2499,10 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["ZA"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ GREN..INDENT..AL["Harrison Jones"] };
+		{ GREN..INDENT..AL["Vol'jin"] };
+		{ GREN..INDENT..AL["Witch Doctor T'wansi"] };
+		{ GREN..INDENT..AL["Blood Guard Hakkuz <Darkspear Elite>"] };
+		{ GREN..INDENT..AL["Voodoo Pile"] };
 		{ WHIT.." 1) "..BB["Nalorakk"] };
 		{ GREN..INDENT..AL["Tanzar"] };
 		{ GREN..INDENT..AL["The Map of Zul'Aman"] };

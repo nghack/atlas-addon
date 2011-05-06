@@ -1097,6 +1097,9 @@ if AL then
 	AL["Galathryn"] = "加拉瑟林";
 	AL["Mitzi"] = "米特辛";
 	AL["Mannuth"] = "曼努斯";
+	AL["Vol'jin"] = "沃金"; -- npc=52924
+	AL["Witch Doctor T'wansi"] = "巫醫塔灣西"; -- npc=52925
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血衛士哈庫茲 <暗矛精英>"; -- npc=52933
 
 	--Zul'Gurub
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "血腥殺戮者特亞拉 <暗矛精兵>"; -- npc: 53023

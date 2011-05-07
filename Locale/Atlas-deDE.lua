@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 29.04.2011
+-- Letztes Update: 06.05.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1079,7 +1079,6 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones";
 	AL["Tanzar"] = "Tanzar";
 	AL["The Map of Zul'Aman"] = "Karte von Zul'Aman";
 	AL["Harkor"] = "Harkor";
@@ -1104,9 +1103,9 @@ if AL then
 	AL["Galathryn"] = "Galathryn";
 	AL["Mitzi"] = "Mitzi";
 	AL["Mannuth"] = "Mannuth";
-	AL["Vol'jin"] = "Vol'jin"; -- npc=52924
-	AL["Witch Doctor T'wansi"] = "Hexendoktor T'wansi"; -- npc=52925
-	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blutwache Hakkuz <Elite der Dunkelspeere>"; -- npc=52933
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Witch Doctor T'wansi"] = "Hexendoktor T'wansi";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blutwache Hakkuz <Elite der Dunkelspeere>";
 
 	--Zul'Gurub
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Blutschlächterin T'ara <Dunkelspeerveteranin>";

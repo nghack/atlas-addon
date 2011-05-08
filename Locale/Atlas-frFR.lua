@@ -1120,9 +1120,9 @@ if AL then
 	AL["Overseer Blingbang"] = "Surveillant Blingbang"; -- npc: 53151
 	AL["Vehini <Assault Provisions>"] = "Vehini <Provisions d’assaut>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Pile vaudou"; -- object=208549
-	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Chaudron de formule de brûlure du givre de Zanzil";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Chaudron de tourment toxique de Zanzil"; -- npc: 52529
-	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Chaudron de sang ardent de Zanzil";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
@@ -1136,7 +1136,7 @@ if AL then
 	AL["Berserking Boulder Roller"] = "Lance-rocher berserker"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "Gub <Destructeur de poissons>"; -- 52440
 	AL["Jin'do the Godbreaker"] = "Jin'do le Briseur de dieux"; -- 52148
-	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
+	AL["Kaulema the Mover"] = "Kaulema le Déplaceur"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek le Démanteleur"; -- 52405
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La cloche du glas>"; -- 52438
 	AL["Tiki Lord Mu'Loa"] = "Seigneur-tiki Mu'Loa"; -- 52340
@@ -1144,7 +1144,7 @@ if AL then
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <Le Dormeur>"; -- 52414
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venimancienne Mauri <Le murmure du serpent>"; -- 52380
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venimancien T'Kulu <La morsure toxique>"; -- 52381
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
-	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Féticheuse Qu'in"; --52322
+	AL["Zanza the Restless"] = "Zanza le Sans-Repos"; -- 52429
 
 end

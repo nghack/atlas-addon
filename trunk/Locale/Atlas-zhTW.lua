@@ -1125,7 +1125,6 @@ if AL then
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "古布 <魚類滅殺者>"; -- 52440
-	AL["Jin'do the Godbreaker"] = "破神者金度"; -- 52148
 	AL["Kaulema the Mover"] = "移石者考勒瑪"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "拆卸人摩勒克"; -- 52405
 	AL["Mortaxx <The Tolling Bell>"] = "莫爾塔克斯 <鐘鳴者>"; -- 52438

@@ -2576,6 +2576,6 @@ AtlasMaps = {
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
-		{ WHIT.."17) "..AL["Jin'do the Godbreaker"] };
+		{ WHIT.."17) "..BB["Jin'do the Godbreaker"] };
 	};
 };

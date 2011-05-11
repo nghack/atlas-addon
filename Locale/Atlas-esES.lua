@@ -1124,7 +1124,6 @@ if AL then
 	--Zul'Gurub
 	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>"; -- 52440
-	AL["Jin'do the Godbreaker"] = "Jin'do el Sojuzgadioses"; -- 52148
 	AL["Kaulema the Mover"] = "Kaulema el Influyente"; -- 52422
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor"; -- 52405
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>"; -- 52438

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 09/04/2011
+-- Última Actualización (last update): 18/05/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -568,7 +568,7 @@ if AL then
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Pila de tributo a Urok";
-	AL["Acride <Scarshield Legion>"] = "Infiltrado del Escudo del Estigma <Legión Escudo del Estigma>"; --Check
+	AL["Acride <Scarshield Legion>"] = "Acride <Legión Escudo del Estigma>";
 	AL["Elder Stonefort"] = "Ancestro Petraforte";
 	AL["Roughshod Pike"] = "Pica férrea";
 
@@ -578,7 +578,7 @@ if AL then
 	AL["Father Flame"] = "Padre llama";
 
 	--Blackwing Lair
-	AL["Orb of Domination"] = "Orbe de Dominacion"; --Check
+	AL["Orb of Domination"] = "Orbe de dominación";
 	AL["Master Elemental Shaper Krixix"] = "Maestro de los elementos Formacio Krixix";
 
 	--Gnomeregan
@@ -669,7 +669,7 @@ if AL then
 
 	--The Sunken Temple
 	AL["Lord Itharius"] = "Lord Itharius";
-	AL["Elder Starsong"] = "Ancestro Canción Estrella"; --Check
+	AL["Elder Starsong"] = "Ancestro Cantoestelar";
 
 	--Uldaman
 	AL["Staff of Prehistoria"] = "Basón de Prehistoria";
@@ -985,7 +985,7 @@ if AL then
 	--Ulduar General
 	AL["Celestial Planetarium Key"] = "Llave de El Planetario Celestial";
 	AL["The Siege"] = "El asedio";
-	AL["The Keepers"] = "Los vigilantes"; --C Check
+	AL["The Keepers"] = "Los guardiantes";
 
 	--Ulduar A
 	AL["Tower of Life"] = "Torre de Vida";
@@ -1057,7 +1057,7 @@ if AL then
 	--The Bastion of Twilight
 
 	--The Stonecore
-	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Celadora de la tierra Yrsa"; --Needs Acronym
+	AL["Earthwarden Yrsa <The Earthen Ring>"] = "Celadora de la tierra Yrsa <El Anillo de la Tierra>";
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Itesh";
@@ -1096,43 +1096,43 @@ if AL then
 	AL["Galathryn"] = "Galathryn";
 	AL["Mitzi"] = "Mitzi";
 	AL["Mannuth"] = "Mannuth";
-	AL["Vol'jin"] = "Vol'jin"; -- npc=52924
-	AL["Witch Doctor T'wansi"] = "Médico brujo T'wansi"; -- npc=52925
-	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Guardia de sangre Hakkuz <Élite Lanza Negra>"; -- npc=52933
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Witch Doctor T'wansi"] = "Médico brujo T'wansi";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Guardia de sangre Hakkuz <Élite Lanza Negra>"; 
 
 	--Zul'Gurub
-	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
-	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
-	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
-	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
-	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Cercenacastas T'ara <Veterana Lanza Negra>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Cercenacastas Vaena <Veterana Lanza Negra>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Cercenacastas Zala <Veterana Lanza Negra>";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";
+	AL["Helpful Jungle Monkey"] = "Mono de la selva servicial";
 	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
 	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Montón vudú"; -- object=208549
-	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Caldero de fórmula de abrasión de escarcha de Zanzil";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Caldero de tormento tóxico de Zanzil";
-	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	ZL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
+	AL["Sulfuron Keep"] = "Guarida de Sulfuron"; --Check
+	AL["War of the Ancients"] = "Guerra de los ancestros";
 
 	--Zul'Gurub
 	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
-	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>"; -- 52440
-	AL["Kaulema the Mover"] = "Kaulema el Influyente"; -- 52422
-	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor"; -- 52405
-	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>"; -- 52438
-	AL["Tiki Lord Mu'Loa"] = "Señor Tiki Mu'Loa"; -- 52340
+	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>";
+	AL["Kaulema the Mover"] = "Kaulema el Influyente";
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor";
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
+	AL["Tiki Lord Mu'Loa"] = "Señor Tiki Mu'Loa";
 	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <El dormilón>";
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomante Mauri <El susurro de la serpiente>"; -- 52380
-	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomante T'Kulu <La mordedura tóxica>"; -- 52381
-	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Médica bruja Qu'in <Médica bruja>"; --52322
-	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomante Mauri <El susurro de la serpiente>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomante T'Kulu <La mordedura tóxica>";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Médica bruja Qu'in <Médica bruja>";
+	AL["Zanza the Restless"] = "Zanza el Incansable";
 
 end

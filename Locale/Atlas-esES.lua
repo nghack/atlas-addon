@@ -1106,12 +1106,12 @@ if AL then
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Cercenacastas Zala <Veterana Lanza Negra>";
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";
 	AL["Helpful Jungle Monkey"] = "Mono de la selva servicial";
-	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
-	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
+	AL["Overseer Blingbang"] = "Sobrestante Blingbang"; -- npc: 53151
+	AL["Vehini <Assault Provisions>"] = "Vehini <Provisiones de ataque>"; -- npc: 53040
 	AL["Voodoo Pile"] = "Montón vudú"; -- object=208549
 	AL["Zanzil's Cauldron of Frostburn Formula"] = "Caldero de fórmula de abrasión de escarcha de Zanzil";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Caldero de tormento tóxico de Zanzil";
-	ZL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names

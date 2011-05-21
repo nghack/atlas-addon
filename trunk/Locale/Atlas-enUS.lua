@@ -35,9 +35,11 @@ local AL = AceLocale:NewLocale("Atlas", "enUS", true);
 -- Ex: The Stockade
 AtlasSortIgnore = {"the (.+)"};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Temple of Ahn'Qiraj";
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
+	["Throne of Tides"] = "The Abyssal Maw: Throne of the Tides";
 };
 --end
 

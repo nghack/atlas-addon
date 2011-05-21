@@ -123,6 +123,8 @@ Atlas_AssocDefaults_Loc = {
   The table value is map's key-name.
   
   Do not localize this table.
+
+  Syntax: ["loc_sub_zone_name"] = "atlas_map_name";
 ]]
 Atlas_SubZoneData = {
 	--Black Temple, Start
@@ -225,6 +227,9 @@ Atlas_SubZoneData = {
 	["The Gauntlet"] =			"StratholmeGauntlet";
 	["Slaughter Square"] =			"StratholmeGauntlet";
 	["The Slaughter House"] =		"StratholmeGauntlet";
+	--Throne of the Tides
+	["Abyssal Halls"] = 			"ThroneOfTheTides";
+	["Throne of Neptulon"] = 		"ThroneOfTheTides";
 	--Ulduar, The Siege
 	["Expedition Base Camp"] =		"UlduarA";
 	["Iron Concourse"] =			"UlduarA";
@@ -376,6 +381,9 @@ Atlas_SubZoneData_Loc = {
 	["The Gauntlet"] =			BZ["The Gauntlet"];
 	["Slaughter Square"] =			BZ["Slaughter Square"];
 	["The Slaughter House"] =		BZ["The Slaughter House"];
+	--Throne of the Tides
+	["Abyssal Halls"] = 			BZ["Abyssal Halls"];
+	["Throne of Neptulon"] = 		BZ["Throne of Neptulon"];
 	--Ulduar, The Siege
 	["Expedition Base Camp"] = 		BZ["Expedition Base Camp"];
 	["Iron Concourse"] = 			BZ["Iron Concourse"];
@@ -465,6 +473,7 @@ Atlas_OutdoorZoneToAtlas = {
 	["Icecrown"] =				"IcecrownEnt";
 	["The Storm Peaks"] =			"UlduarEnt";
 	["Abyssal Depths"] =			"ThroneOfTheTides";
+	["Abyssal Breach"] =			"ThroneOfTheTides";
 	["Deepholm"] =				"TheStonecore";
 	["Northern Stranglethorn"] =		"ZulGurub";
 	["Tol Barad"] =				"BaradinHold";
@@ -516,6 +525,7 @@ Atlas_OutdoorZoneToAtlas_Loc = {
 	["Icecrown"] = 				BZ["Icecrown"];
 	["The Storm Peaks"] = 			BZ["The Storm Peaks"];
 	["Abyssal Depths"] =			BZ["Abyssal Depths"];
+	["Abyssal Breach"] = 			BZ["Abyssal Breach"];
 	["Deepholm"] =				BZ["Deepholm"];
 	["Northern Stranglethorn"] =		BZ["Northern Stranglethorn"];
 	--["Tol Barad"] =			BZ["Tol Barad"];
@@ -740,7 +750,7 @@ local function Process_Deprecated()
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.3" }, -- updated May 04, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "6.03.01" }, -- updated May 03, 2011
+		{ "AtlasLoot", "6.03.02" }, -- updated May 09, 2011
 		{ "Atlas_Arena", "1.3.2" }, -- updated April, 28, 2011
 		{ "Atlas_WorldEvents", "2.1" }, -- updated April 28, 2011
 	};
@@ -1331,9 +1341,9 @@ function Atlas_AutoSelect()
 	-- If yes, means there could be multiple maps for this zone
 	-- And we will choose a proper one to be the default one.
 	if ( assoc_default ) then
-		debug("You're in a zone where SubZone data is relevant.");
+		debug("You're in a zone where SubZone data is relevant. Current subzone is: "..currentSubZone);
 		-- Check if current subzone is defined in the SubZoneData table
-		-- If yes, means current subzone will be map to a specific map
+		-- If yes, means current subzone will be mapped to a specific map
 		if ( subzonedata ) then
 			debug("There's data for your current SubZone.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do

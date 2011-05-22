@@ -42,9 +42,11 @@ AtlasSortIgnore = {
 	"das (.+)"
 }
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Tempel von Ahn'Qiraj";
 	["Der Tempel von Atal'Hakkar"] = "Versunkener Tempel";
+--	["Throne of Tides"] = "The Abyssal Maw: Throne of the Tides";
 };
 end
 

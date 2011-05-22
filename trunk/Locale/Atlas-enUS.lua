@@ -39,7 +39,7 @@ AtlasSortIgnore = {"the (.+)"};
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Temple of Ahn'Qiraj";
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
-	["Throne of Tides"] = "The Abyssal Maw: Throne of the Tides";
+--	["Throne of Tides"] = "The Abyssal Maw: Throne of the Tides";
 };
 --end
 

@@ -7,8 +7,8 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 = Change Log =
 ==============
 v1.19.2 (XXX. XX, 2011)
-- Dungeon maps' auto-select feature fixed for Throne of Tides and 
-  Blackrock Spire
+- Dungeon maps' auto-select feature fixed for Throne of Tides, 
+  Blackrock Spire, and Wailing Caverns
 - Maps' auto-select database enhancement
 - Transportation map update:
    - Added Kalimdor (Horde) - Vendetta Point in Southern Barrens

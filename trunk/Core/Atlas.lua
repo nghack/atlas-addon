@@ -88,17 +88,18 @@ local DefaultAtlasOptions = {
   The table value is map's key-name.
 ]]
 Atlas_AssocDefaults = {
-	[BZ["Black Temple"]] =			"BlackTempleBasement";
-	[BZ["Karazhan"]] =			"KarazhanStart";
-	[BZ["Dire Maul"]] =			"DireMaulNorth";
+	[BZ["Blackrock Mountain"]] =		"BlackrockMountainEnt";
 	[BZ["Blackrock Spire"]] =		"BlackrockSpireLower";
 	[BZ["Hall of Blackhand"]] =		"BlackrockSpireLower";
-	[BZ["Blackrock Mountain"]] =		"BlackrockMountainEnt";
+	[BZ["Black Temple"]] =			"BlackTempleBasement";
+	[BZ["Dire Maul"]] =			"DireMaulNorth";
+	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
+	[BZ["Karazhan"]] =			"KarazhanStart";
 	[BZ["Scarlet Monastery"]] =		"ScarletMonasteryEnt";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
+	[BZ["The Wailing Caverns"]] = 		"WailingCavernsEnt";
 	[BZ["Ulduar"]] =			"UlduarA";
-	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 };
 
 --[[
@@ -112,6 +113,22 @@ Atlas_AssocDefaults = {
   Syntax: ["loc_sub_zone_name"] = "atlas_map_name";
 ]]
 Atlas_SubZoneData = {
+	--Blackrock Spire, Lower
+	[BZ["Hordemar City"]] =			"BlackrockSpireLower";
+	[BZ["Mok'Doom"]] =			"BlackrockSpireLower";
+	[BZ["Tazz'Alaor"]] =			"BlackrockSpireLower";
+	[BZ["Skitterweb Tunnels"]] =		"BlackrockSpireLower";
+	[BZ["Halycon's Lair"]] =		"BlackrockSpireLower";
+	[BZ["The Storehouse"]] =		"BlackrockSpireLower";
+	[BZ["Chamber of Battle"]] =		"BlackrockSpireLower";
+	--Blackrock Spire, Upper
+	[BZ["Dragonspire Hall"]] =		"BlackrockSpireUpper";
+	[BZ["Hall of Binding"]] =		"BlackrockSpireUpper";
+	[BZ["The Rookery"]] =			"BlackrockSpireUpper";
+	[BZ["Hall of Blackhand"]] =		"BlackrockSpireUpper";
+	[BZ["Blackrock Stadium"]] =		"BlackrockSpireUpper";
+	[BZ["The Furnace"]] =			"BlackrockSpireUpper";
+	[BZ["Spire Throne"]] =			"BlackrockSpireUpper";
 	--Black Temple, Start
 	[BZ["Karabor Sewers"]] =		"BlackTempleStart";
 	[BZ["Illidari Training Grounds"]] =	"BlackTempleStart";
@@ -138,15 +155,6 @@ Atlas_SubZoneData = {
 	[BZ["The Opera Hall"]] =		"KarazhanStart";
 	[BZ["The Broken Stair"]] =		"KarazhanStart";
 	[BZ["Master's Terrace"]] =		"KarazhanStart";
-	--Karazhan, End
-	[BZ["The Menagerie"]] =			"KarazhanEnd";
-	[BZ["Guardian's Library"]] =		"KarazhanEnd";
-	[BZ["The Repository"]] =		"KarazhanEnd";
-	[BZ["The Celestial Watch"]] =		"KarazhanEnd";
-	[BZ["Gamesman's Hall"]] =		"KarazhanEnd";
-	[BZ["Medivh's Chambers"]] =		"KarazhanEnd";
-	[BZ["Master's Terrace"]] =		"KarazhanEnd";
-	[BZ["Netherspace"]] =			"KarazhanEnd";
 	--Dire Maul, Entrance
 	[BZ["Broken Commons"]] =		"DireMaulEnt";
 -- Comment out below as they are currently redundant due to the Zone is Feralas
@@ -165,22 +173,30 @@ Atlas_SubZoneData = {
 	[BZ["Court of the Highborne"]] =	"DireMaulWest";
 	[BZ["Prison of Immol'thar"]] =		"DireMaulWest";
 	[BZ["The Athenaeum"]] =			"DireMaulWest";
-	--Blackrock Spire, Lower
-	[BZ["Hordemar City"]] =			"BlackrockSpireLower";
-	[BZ["Mok'Doom"]] =			"BlackrockSpireLower";
-	[BZ["Tazz'Alaor"]] =			"BlackrockSpireLower";
-	[BZ["Skitterweb Tunnels"]] =		"BlackrockSpireLower";
-	[BZ["Halycon's Lair"]] =		"BlackrockSpireLower";
-	[BZ["The Storehouse"]] =		"BlackrockSpireLower";
-	[BZ["Chamber of Battle"]] =		"BlackrockSpireLower";
-	--Blackrock Spire, Upper
-	[BZ["Dragonspire Hall"]] =		"BlackrockSpireUpper";
-	[BZ["Hall of Binding"]] =		"BlackrockSpireUpper";
-	[BZ["The Rookery"]] =			"BlackrockSpireUpper";
-	[BZ["Hall of Blackhand"]] =		"BlackrockSpireUpper";
-	[BZ["Blackrock Stadium"]] =		"BlackrockSpireUpper";
-	[BZ["The Furnace"]] =			"BlackrockSpireUpper";
-	[BZ["Spire Throne"]] =			"BlackrockSpireUpper";
+	--Icecrown Citadell, Lower
+	[BZ["Light's Hammer"]] =		"IcecrownCitadelA";	
+	[BZ["Oratory of the Damned"]] =		"IcecrownCitadelA";
+	[BZ["Rampart of Skulls"]] =		"IcecrownCitadelA";
+	[BZ["Deathbringer's Rise"]] =		"IcecrownCitadelA";
+	--Icecrown Citadell, Upper
+	[BZ["The Plagueworks"]] =		"IcecrownCitadelB";
+	[BZ["Putricide's Laboratory of Alchemical Horrors and Fun"]] =	"IcecrownCitadelB";
+	[BZ["The Crimson Hall"]] =		"IcecrownCitadelB";
+	[BZ["The Sanctum of Blood"]] =		"IcecrownCitadelB";
+	[BZ["The Frostwing Halls"]] =		"IcecrownCitadelB";
+	[BZ["The Frost Queen's Lair"]] =	"IcecrownCitadelB";
+	--Icecrown Citadell, Frozen Throne
+	[BZ["The Frozen Throne"]] =		"IcecrownCitadelC";
+	[BZ["Frostmourne"]] =			"IcecrownCitadelC";
+	--Karazhan, End
+	[BZ["The Menagerie"]] =			"KarazhanEnd";
+	[BZ["Guardian's Library"]] =		"KarazhanEnd";
+	[BZ["The Repository"]] =		"KarazhanEnd";
+	[BZ["The Celestial Watch"]] =		"KarazhanEnd";
+	[BZ["Gamesman's Hall"]] =		"KarazhanEnd";
+	[BZ["Medivh's Chambers"]] =		"KarazhanEnd";
+	[BZ["Master's Terrace"]] =		"KarazhanEnd";
+	[BZ["Netherspace"]] =			"KarazhanEnd";
 	--Scarlet Monastery, Entrance
 	[BZ["The Grand Vestibule"]] =		"ScarletMonasteryEnt";
 	--Scarlet Monastery, Graveyard
@@ -243,21 +259,13 @@ Atlas_SubZoneData = {
 	[BZ["The Descent into Madness"]] =	"UlduarE";
 	[BZ["The Prison of Yogg-Saron"]] =	"UlduarE";
 	[BZ["The Mind's Eye"]] =		"UlduarE";
-	--Icecrown Citadell, Lower
-	[BZ["Light's Hammer"]] =		"IcecrownCitadelA";	
-	[BZ["Oratory of the Damned"]] =		"IcecrownCitadelA";
-	[BZ["Rampart of Skulls"]] =		"IcecrownCitadelA";
-	[BZ["Deathbringer's Rise"]] =		"IcecrownCitadelA";
-	--Icecrown Citadell, Upper
-	[BZ["The Plagueworks"]] =		"IcecrownCitadelB";
-	[BZ["Putricide's Laboratory of Alchemical Horrors and Fun"]] =	"IcecrownCitadelB";
-	[BZ["The Crimson Hall"]] =		"IcecrownCitadelB";
-	[BZ["The Sanctum of Blood"]] =		"IcecrownCitadelB";
-	[BZ["The Frostwing Halls"]] =		"IcecrownCitadelB";
-	[BZ["The Frost Queen's Lair"]] =	"IcecrownCitadelB";
-	--Icecrown Citadell, Frozen Throne
-	[BZ["The Frozen Throne"]] =		"IcecrownCitadelC";
-	[BZ["Frostmourne"]] =			"IcecrownCitadelC";
+	-- Wailing Caverns
+	[BZ["Cavern of Mists"]] = 		"WailingCavernsEnt";
+	[BZ["Screaming Gully"]] = 		"WailingCaverns";
+	[BZ["Dreamer's Rock"]] = 		"WailingCaverns";
+	[BZ["Pit of Fangs"]] = 			"WailingCaverns";
+	[BZ["Crag of the Everliving"]] = 	"WailingCaverns";
+	[BZ["Pit of Fangs"]] = 			"WailingCaverns";
 };
 
 --[[
@@ -273,49 +281,50 @@ Atlas_SubZoneData = {
   Not for localization.
 ]]
 Atlas_OutdoorZoneToAtlas = {
-	[BZ["Ahn'Qiraj: The Fallen Kingdom"]] =	"TheTempleofAhnQiraj";
-	[BZ["Ashenvale"]] =			"BlackfathomDeepsEnt";
-	[BZ["Badlands"]] =			"UldamanEnt";
-	[BZ["Burning Steppes"]] =		"BlackrockMountainEnt";
-	[BZ["Deadwind Pass"]] =			"KarazhanEnt";
-	[BZ["Desolace"]] =			"MaraudonEnt";
-	[BZ["Dun Morogh"]] =			"GnomereganEnt";
-	[BZ["Dustwallow Marsh"]] =		"OnyxiasLair";
-	[BZ["Eastern Plaguelands"]] =		"StratholmeGauntlet";
-	[BZ["Feralas"]] =			"DireMaulEnt";
-	[BZ["Northern Barrens"]] =		"WailingCavernsEnt";
-	[BZ["Orgrimmar"]] =			"RagefireChasm";
-	[BZ["Searing Gorge"]] =			"BlackrockMountainEnt";
-	[BZ["Silithus"]] =			"TheTempleofAhnQiraj";
-	[BZ["Silverpine Forest"]] =		"ShadowfangKeep";
-	[BZ["Southern Barrens"]] =		"RazorfenKraul";
-	[BZ["Stormwind City"]] =		"TheStockade";
-	[BZ["Swamp of Sorrows"]] =		"TheSunkenTempleEnt";
-	[BZ["Tanaris"]] =			"CavernsOfTimeEnt";
-	[BZ["Terokkar Forest"]] =		"AuchindounEnt";
-	[BZ["Thousand Needles"]] =		"RazorfenDowns";
-	[BZ["Tirisfal Glades"]] =		"ScarletMonasteryEnt";
-	[BZ["Western Plaguelands"]] =		"Scholomance";
-	[BZ["Westfall"]] =			"TheDeadminesEnt";
-	[BZ["Blade's Edge Mountains"]] =	"GruulsLair";
-	[BZ["Ghostlands"]] =			"ZulAman";
-	[BZ["Hellfire Peninsula"]] =		"HellfireCitadelEnt";
-	[BZ["Isle of Quel'Danas"]] =		"SunwellPlateau";
-	[BZ["Netherstorm"]] =			"TempestKeepEnt";
-	[BZ["Shadowmoon Valley"]] =		"BlackTempleStart";
-	[BZ["Zangarmarsh"]] =			"CoilfangReservoirEnt";
-	[BZ["Borean Tundra"]] =			"TheEyeOfEternity";
-	[BZ["Dalaran"]] =			"VioletHold";
-	[BZ["Dragonblight"]] =			"RubySanctum";
-	[BZ["Icecrown"]] =			"IcecrownEnt";
-	[BZ["The Storm Peaks"]] =		"UlduarEnt";
-	[BZ["Abyssal Depths"]] =		"ThroneOfTheTides";
-	[BZ["Abyssal Breach"]] =		"ThroneOfTheTides";
-	[BZ["Deepholm"]] =			"TheStonecore";
-	[BZ["Northern Stranglethorn"]] =	"ZulGurub";
-	[BZ["Tol Barad"]] =			"BaradinHold";
-	[BZ["Twilight Highlands"]] =		"TheBastionOfTwilight";
-	[BZ["Uldum"]] =				"ThroneOfTheFourWinds";
+	[BZ["Terokkar Forest"]] = 		"AuchindounEnt";
+	[BZ["Tol Barad"]] = 			"BaradinHold";
+	[BZ["Ashenvale"]] = 			"BlackfathomDeepsEnt";
+	[BZ["Burning Steppes"]] = 		"BlackrockMountainEnt";
+	[BZ["Searing Gorge"]] = 		"BlackrockMountainEnt";
+	[BZ["Shadowmoon Valley"]] = 		"BlackTempleStart";
+	[BZ["Tanaris"]] = 			"CavernsOfTimeEnt";
+	[BZ["Zangarmarsh"]] = 			"CoilfangReservoirEnt";
+	[BZ["Feralas"]] = 			"DireMaulEnt";
+	[BZ["Dun Morogh"]] = 			"GnomereganEnt";
+	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";
+	[BZ["Hellfire Peninsula"]] = 		"HellfireCitadelEnt";
+	[BZ["Icecrown"]] = 			"IcecrownEnt";
+	[BZ["Deadwind Pass"]] = 		"KarazhanEnt";
+	[BZ["Desolace"]] = 			"MaraudonEnt";
+	[BZ["Dustwallow Marsh"]] = 		"OnyxiasLair";
+	[BZ["Orgrimmar"]] = 			"RagefireChasm";
+	[BZ["Thousand Needles"]] = 		"RazorfenDowns";
+	[BZ["Southern Barrens"]] = 		"RazorfenKraul";
+	[BZ["Dragonblight"]] = 			"RubySanctum";
+	[BZ["Tirisfal Glades"]] = 		"ScarletMonasteryEnt";
+	[BZ["Western Plaguelands"]] = 		"Scholomance";
+	[BZ["Silverpine Forest"]] = 		"ShadowfangKeep";
+	[BZ["Eastern Plaguelands"]] = 		"StratholmeGauntlet";
+	[BZ["Isle of Quel'Danas"]] = 		"SunwellPlateau";
+	[BZ["Netherstorm"]] = 			"TempestKeepEnt";
+	[BZ["Twilight Highlands"]] = 		"TheBastionOfTwilight";
+	[BZ["Westfall"]] = 			"TheDeadminesEnt";
+	[BZ["Borean Tundra"]] = 		"TheEyeOfEternity";
+	[BZ["Stormwind City"]] = 		"TheStockade";
+	[BZ["Deepholm"]] = 			"TheStonecore";
+	[BZ["Swamp of Sorrows"]] = 		"TheSunkenTempleEnt";
+	[BZ["Ahn'Qiraj: The Fallen Kingdom"]] = "TheTempleofAhnQiraj";
+	[BZ["Silithus"]] = 			"TheTempleofAhnQiraj";
+	[BZ["Uldum"]] = 			"ThroneOfTheFourWinds";
+	[BZ["Abyssal Depths"]] = 		"ThroneOfTheTides";
+	[BZ["Abyssal Breach"]] = 		"ThroneOfTheTides";
+	[BZ["Badlands"]] = 			"UldamanEnt";
+	[BZ["The Storm Peaks"]] = 		"UlduarEnt";
+	[BZ["Dalaran"]] = 			"VioletHold";
+	[BZ["Northern Barrens"]] = 		"WailingCavernsEnt";
+	[BZ["Ghostlands"]] = 			"ZulAman";
+	[BZ["Northern Stranglethorn"]] = 	"ZulGurub";
+
 };
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance

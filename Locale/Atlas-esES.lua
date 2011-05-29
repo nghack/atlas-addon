@@ -1122,13 +1122,13 @@ if AL then
 	AL["War of the Ancients"] = "Guerra de los ancestros";
 
 	--Zul'Gurub
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
+	AL["Berserking Boulder Roller"] = "Rodador de piedra rabioso"; -- 52348
 	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>";
 	AL["Kaulema the Mover"] = "Kaulema el Influyente";
 	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor";
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
 	AL["Tiki Lord Mu'Loa"] = "Señor Tiki Mu'Loa";
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
+	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae"; -- 52362
 	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <El dormilón>";
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomante Mauri <El susurro de la serpiente>";
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomante T'Kulu <La mordedura tóxica>";

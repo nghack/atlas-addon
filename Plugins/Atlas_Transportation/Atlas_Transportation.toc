@@ -11,10 +11,10 @@
 ## Notes-frFR: Cartes des trajets aériens
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 飞行路线图
-## Notes-zhTW: Atlas 交通網路圖模組
-## Version: 1.19.1
+## Notes-zhTW: Atlas 交通網路圖模組，顯示各大陸的海陸空交通節點
+## Version: 1.19.2
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: May 06, 2011
+## X-Date: May 30, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Website: http://www.atlasmod.com

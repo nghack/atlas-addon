@@ -2406,10 +2406,10 @@ AtlasMaps = {
 	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
-		Location = { BZ["Mount Hyjal"].." / "..BZ["Firelands"] };
+		Location = { BZ["Mount Hyjal"] };
 		LevelRange = "85+";
 		MinLevel = "85";
-		PlayerLimit = "5";
+		PlayerLimit = "10/25";
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Ragnaros"] };
 	};

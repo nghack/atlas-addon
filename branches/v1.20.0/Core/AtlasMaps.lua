@@ -2404,18 +2404,15 @@ AtlasMaps = {
 		{ WHIT.." 4) "..BB["Siamat, Lord of South Wind"] };
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
---[[
 	Firelands = {
-		ZoneName = { AL["Firelands"] };
+		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"].." / "..BZ["Firelands"] };
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "5";
-		Acronym = AL["SK"];
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ WHIT.."1) "..BB["Ragnaros"] };
 	};
-]]--
 	TheBastionOfTwilight = {
 		ZoneName = { BZ["The Bastion of Twilight"] };
 		Location = { BZ["Twilight Highlands"] };

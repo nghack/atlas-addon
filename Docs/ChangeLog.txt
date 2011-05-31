@@ -8,6 +8,7 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 ==============
 v1.20.0 (xxx. ##, 2011)
 - TOC update to support WoW 4.2
+- Added new dungeon maps: Firelands (draft)
 
 v1.19.2 (May 30, 2011)
 - Dungeon maps' auto-select feature fixed for Throne of Tides, 

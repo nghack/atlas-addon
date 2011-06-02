@@ -1072,7 +1072,7 @@ if AL then
 	AL["Neptulon"] = "奈普圖隆";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "哈利森·瓊斯";
+	AL["Harrison Jones"] = "哈里遜·瓊斯"; -- can be removed?
 	AL["Tanzar"] = "坦札爾";
 	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
 	AL["Harkor"] = "哈克爾";
@@ -1119,8 +1119,8 @@ if AL then
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
-	--AL["War of the Ancients"] = "War of the Ancients";
+	--AL["Sulfuron Keep"] = "薩弗隆要塞";
+	--AL["War of the Ancients"] = "先祖之戰";
 
 	--Zul'Gurub
 	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者"; -- 52348

@@ -639,7 +639,6 @@ if AL then
 	AL["Compendium of the Fallen"] = "Compendium of the Fallen";
 
 	--Stratholme - Crusader's Square
-	AL["Various Postbox Keys"] = "Various Postbox Keys";
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
 	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Packmaster Stonebruiser <Brotherhood of the Light>";
@@ -675,7 +674,6 @@ if AL then
 	AL["Elder Starsong"] = "Elder Starsong";
 
 	--Uldaman
-	AL["Staff of Prehistoria"] = "Staff of Prehistoria";
 	AL["Baelog's Chest"] = "Baelog's Chest";
 	AL["Kand Sandseeker <Explorer's League>"] = "Kand Sandseeker <Explorer's League>";
 	AL["Lead Prospector Durdin <Explorer's League>"] = "Lead Prospector Durdin <Explorer's League>";
@@ -691,12 +689,10 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-	AL["Auchenai Key"] = "Auchenai Key";
 	AL["Avatar of the Martyred"] = "Avatar of the Martyred";
 	AL["D'ore"] = "D'ore";
 
 	--Auch: Mana-Tombs
-	AL["The Eye of Haramad"] = "The Eye of Haramad";
 	AL["Shadow Lord Xiraxis"] = "Shadow Lord Xiraxis";
 	AL["Ambassador Pax'ivi"] = "Ambassador Pax'ivi";
 	AL["Cryo-Engineer Sha'heen"] = "Cryo-Engineer Sha'heen";
@@ -729,7 +725,6 @@ if AL then
 	AL["Seer Olum"] = "Seer Olum";
 
 	--CFR: The Slave Pens
-	AL["Reservoir Key"] = "Reservoir Key";
 	AL["Weeder Greenthumb"] = "Weeder Greenthumb";
 	AL["Skar'this the Heretic"] = "Skar'this the Heretic";
 	AL["Naturalist Bite"] = "Naturalist Bite";
@@ -744,7 +739,6 @@ if AL then
 
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "Opening of the Dark Portal";
-	AL["Key of Time"] = "Key of Time";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
 	AL["The Dark Portal"] = "The Dark Portal";
 
@@ -805,7 +799,6 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
-	AL["Flamewrought Key"] = "Flamewrought Key";
 
 	--HFC: Hellfire Ramparts
 	AL["Reinforced Fel Iron Chest"] = "Reinforced Fel Iron Chest";
@@ -824,7 +817,6 @@ if AL then
 	AL["Drisella"] = "Drisella";
 
 	--Karazhan Start
-	AL["The Master's Key"] = "The Master's Key";
 	AL["Baroness Dorothea Millstipe"] = "Baroness Dorothea Millstipe";
 	AL["Lady Catriona Von'Indi"] = "Lady Catriona Von'Indi";
 	AL["Lady Keira Berrybuck"] = "Lady Keira Berrybuck";
@@ -879,7 +871,6 @@ if AL then
 	AL["Madrigosa"] = "Madrigosa";
 
 	--TK: The Arcatraz
-	AL["Warpforged Key"] = "Warpforged Key";
 	AL["Millhouse Manastorm"] = "Millhouse Manastorm";
 	AL["Third Fragment Guardian"] = "Third Fragment Guardian";
 	AL["Udalo"] = "Udalo";
@@ -962,7 +953,6 @@ if AL then
 	AL["Red Dragonflight Chamber"] = "Red Dragonflight Chamber";
 
 	--The Nexus: The Eye of Eternity
-	AL["Key to the Focusing Iris"] = "Key to the Focusing Iris";
 
 	--The Nexus: The Nexus
 	AL["Berinand's Research"] = "Berinand's Research";
@@ -986,7 +976,6 @@ if AL then
 	AL["Cavern Entrance"] = "Cavern Entrance";
 
 	--Ulduar General
-	AL["Celestial Planetarium Key"] = "Celestial Planetarium Key";
 	AL["The Siege"] = "The Siege";
 	AL["The Keepers"] = "The Keepers";
 
@@ -1025,7 +1014,6 @@ if AL then
 	--Vault of Archavon
 
 	--The Violet Hold
-	AL["The Violet Hold Key"] = "The Violet Hold Key";
 
 --*********************
 -- Cataclysm Instances
@@ -1074,7 +1062,6 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones"; -- can be removed?
 	AL["Tanzar"] = "Tanzar";
 	AL["The Map of Zul'Aman"] = "The Map of Zul'Aman";
 	AL["Harkor"] = "Harkor";
@@ -1121,7 +1108,6 @@ if AL then
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
 
 	--Zul'Gurub

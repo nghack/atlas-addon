@@ -2284,6 +2284,7 @@ AtlasMaps = {
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Argaloth"] };
+		{ WHIT.." 2) "..AL["Occu'thar"] };
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Caverns"] };
@@ -2329,6 +2330,22 @@ AtlasMaps = {
 		{ WHIT.."1) "..AL["TBD"] };
 	};
 ]]--
+	Firelands = {
+		ZoneName = { BZ["Firelands"] };
+		Location = { BZ["Mount Hyjal"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["FL"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ WHIT.."1) "..AL["Beth'tilac"] };
+		{ WHIT.."2) "..AL["Lord Rhyolith"] };
+		{ WHIT.."3) "..AL["Alysrazor"] };
+		{ WHIT.."4) "..AL["Shannox"] };
+		{ WHIT.."5) "..AL["Baleroc"] };
+		{ WHIT.."6) "..AL["Staghelm"] };
+		{ WHIT.."7) "..BB["Ragnaros"] };
+	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
 		Location = { BZ["Twilight Highlands"] };
@@ -2379,15 +2396,6 @@ AtlasMaps = {
 		{ WHIT.." 3) "..BB["High Prophet Barim"] };
 		{ WHIT.." 4) "..BB["Siamat, Lord of South Wind"] };
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
-	};
-	Firelands = {
-		ZoneName = { BZ["Firelands"] };
-		Location = { BZ["Mount Hyjal"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..BB["Ragnaros"] };
 	};
 	TheBastionOfTwilight = {
 		ZoneName = { BZ["The Bastion of Twilight"] };

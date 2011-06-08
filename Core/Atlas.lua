@@ -291,6 +291,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Zangarmarsh"]] = 			"CoilfangReservoirEnt";
 	[BZ["Feralas"]] = 			"DireMaulEnt";
 	[BZ["Dun Morogh"]] = 			"GnomereganEnt";
+	[BZ["Mount Hyjal"]] = 			"Firelands";
 	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";
 	[BZ["Hellfire Peninsula"]] = 		"HellfireCitadelEnt";
 	[BZ["Icecrown"]] = 			"IcecrownEnt";

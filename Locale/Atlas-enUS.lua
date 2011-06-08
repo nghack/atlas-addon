@@ -328,10 +328,10 @@ if AL then
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
 	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
+	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1023,12 +1023,21 @@ if AL then
 	--AL["TBD"] = "TBD"; --To Be Determined
 
 	--Baradin Hold
+	AL["Occu'thar"] = "Occu'thar";
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
 	--Caverns of Time: War of the Ancients
+
+	--Firelands
+	AL["Beth'tilac"] = "Beth'tilac"
+	AL["Lord Rhyolith"] = "Lord Rhyolith"
+	AL["Alysrazor"] = "Alysrazor"
+	AL["Shannox"] = "Shannox"
+	AL["Baleroc"] = "Baleroc"
+	AL["Staghelm"] = "Staghelm"
 
 	--Grim Batol
 	AL["Baleflame"] = "Baleflame";
@@ -1042,8 +1051,6 @@ if AL then
 	AL["Captain Hadan"] = "Captain Hadan";
 	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Tol'vir Grave"; -- Object: 207409
-
-	--Sulfuron Keep
 
 	--The Bastion of Twilight
 

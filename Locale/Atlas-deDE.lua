@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 07.06.2011
+-- Letztes Update: 08.06.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -335,10 +335,10 @@ if AL then
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
 	--AL["CoT-WA"] = "KdA, HdZ5"; --War of the Ancients
+	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HdU"; --Halls of Origination
 	AL["LCoT"] = "VSdT"; --Lost City of the Tol'vir
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "DSK"; --The Stonecore
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
@@ -1037,6 +1037,8 @@ if AL then
 
 	--Caverns of Time: War of the Ancients
 
+	--Firelands
+
 	--Grim Batol
 	AL["Baleflame"] = "Unheilsflamme";
 	AL["Farseer Tooranu <The Earthen Ring>"] = "Scharfseher Tooranu <Der Irdene Ring>";
@@ -1049,8 +1051,6 @@ if AL then
 	AL["Captain Hadan"] = "Kapitän Hadan";
 	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Grab der Tol'vir";
-
-	--Sulfuron Keep
 
 	--The Bastion of Twilight
 

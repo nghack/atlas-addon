@@ -1143,6 +1143,7 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["MT"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Consortium"] };
+		{ ORNG..AL["Key"]..": "..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..BB["Yor"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Pandemonius"] };
 		{ ORNG..INDENT..AL["Shadow Lord Xiraxis"].." ("..AL["Summon"]..")" };

@@ -700,6 +700,7 @@ if AL then
 	AL["D'ore"] = "D'ore";
 
 	--Auch: Mana-Tombs
+	AL["The Eye of Haramad"] = "L'Oeil d'Haramad";
 	AL["Shadow Lord Xiraxis"] = "Seigneur des ténèbres Xiraxis";
 	AL["Ambassador Pax'ivi"] = "Ambassadeur Pax'ivi";
 	AL["Cryo-Engineer Sha'heen"] = "Cryo-Ingénieur Sha'heen";

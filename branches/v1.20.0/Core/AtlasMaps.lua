@@ -905,6 +905,7 @@ AtlasMaps = {
 		{ WHIT.." 2) "..BB["Baron Silverlaine"] };
 		{ WHIT..INDENT..BB["Odo the Blindwatcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Razorclaw the Butcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT..INDENT..BB["Rethilgore"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Wolf Master Nandos"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT.." 3) "..BB["Commander Springvale"] };
 		{ WHIT.." 4) "..BB["Lord Walden"] };
@@ -2344,7 +2345,7 @@ AtlasMaps = {
 		{ WHIT.."3) "..AL["Alysrazor"] };
 		{ WHIT.."4) "..AL["Shannox"] };
 		{ WHIT.."5) "..AL["Baleroc"] };
-		{ WHIT.."6) "..AL["Staghelm"] };
+		{ WHIT.."6) "..AL["Majordomo Staghelm"] };
 		{ WHIT.."7) "..BB["Ragnaros"] };
 	};
 	GrimBatol = {

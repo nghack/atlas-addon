@@ -1038,7 +1038,7 @@ if AL then
 	AL["Alysrazor"] = "Alysrazor"
 	AL["Shannox"] = "Shannox"
 	AL["Baleroc"] = "Baleroc"
-	AL["Staghelm"] = "Staghelm"
+	AL["Majordomo Staghelm"] = "Majordomo Staghelm"
 
 	--Grim Batol
 	AL["Baleflame"] = "Baleflame";

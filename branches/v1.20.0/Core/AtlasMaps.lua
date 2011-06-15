@@ -2535,9 +2535,11 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
 		{ WHIT.." 1) "..AL["Venomancer Mauri <The Snake's Whisper>"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT.." 2) "..AL["Tiki Lord Mu'Loa"] };
 		{ WHIT.." 3) "..AL["Gub <Destroyer of Fish>"] };
 		{ WHIT.." 4) "..AL["Venomancer T'Kulu <The Toxic Bite>"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT.." 5) "..BB["High Priest Venoxis"] };
 		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
@@ -2554,11 +2556,13 @@ AtlasMaps = {
 		{ WHIT..INDENT..BB["Wushoolay"].." ("..AL["Random"]..")" };
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."15) "..BB["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
+		{ GREN.." 5') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ WHIT.."16) "..BB["Zanzil"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."17) "..BB["Jin'do the Godbreaker"] };
 	};
 };

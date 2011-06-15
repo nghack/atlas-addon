@@ -1107,9 +1107,9 @@ if AL then
 	AL["Overseer Blingbang"] = "Aufseher Klunkerknall";
 	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>";
 	AL["Voodoo Pile"] = "Voodoohaufen";
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzils Kessel der Frostbrandformel";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzils Kessel des frierenden Fleisches";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzils Kessel der giftigen Grausamkeit";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennendes Blutes";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennenden Blutes";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names

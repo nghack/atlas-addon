@@ -9,13 +9,15 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
 v1.20.0 (xxx. ##, 2011)
 - TOC update to support WoW 4.2
 - Added new dungeon maps: Firelands (draft)
+- Transportation maps update
+- Zul'Gurub Map update
 
 v1.19.2 (May 30, 2011)
 - Dungeon maps' auto-select feature fixed for Throne of Tides, 
   Blackrock Spire, and Wailing Caverns
 - Maps' auto-select database enhancement
 - Transportation map update:
-   - Added flight point - Vendetta Point (Horde) in Southern Barrens, Kalimdor
+  - Added flight point - Vendetta Point (Horde) in Southern Barrens, Kalimdor
 - Translation minor update
   - Spanish (maqjav)
 

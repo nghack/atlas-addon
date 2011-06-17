@@ -291,6 +291,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Zangarmarsh"]] = 			"CoilfangReservoirEnt";
 	[BZ["Feralas"]] = 			"DireMaulEnt";
 	[BZ["Dun Morogh"]] = 			"GnomereganEnt";
+	[BZ["Mount Hyjal"]] = 			"Firelands";
 	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";
 	[BZ["Hellfire Peninsula"]] = 		"HellfireCitadelEnt";
 	[BZ["Icecrown"]] = 			"IcecrownEnt";
@@ -543,7 +544,7 @@ local function Process_Deprecated()
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.3" }, -- updated May 04, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "6.03.02" }, -- updated May 09, 2011
+		{ "AtlasLoot", "6.04.00" }, -- updated June XX, 2011
 		{ "Atlas_Arena", "1.3.2" }, -- updated April, 28, 2011
 		{ "Atlas_WorldEvents", "2.1" }, -- updated April 28, 2011
 	};

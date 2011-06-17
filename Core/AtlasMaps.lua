@@ -905,6 +905,7 @@ AtlasMaps = {
 		{ WHIT.." 2) "..BB["Baron Silverlaine"] };
 		{ WHIT..INDENT..BB["Odo the Blindwatcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Razorclaw the Butcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT..INDENT..BB["Rethilgore"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Wolf Master Nandos"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT.." 3) "..BB["Commander Springvale"] };
 		{ WHIT.." 4) "..BB["Lord Walden"] };
@@ -984,7 +985,6 @@ AtlasMaps = {
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
-		{ ORNG..AL["Key"]..": "..AL["Various Postbox Keys"].." ("..BB["Postmaster Malown"]..")" };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] };
 		{ GREN..INDENT..AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] };
@@ -1014,7 +1014,6 @@ AtlasMaps = {
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
-		{ ORNG..AL["Key"]..": "..AL["Various Postbox Keys"].." ("..BB["Postmaster Malown"]..")" };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Packmaster Stonebruiser <Brotherhood of the Light>"] };
 		{ WHIT.." 1) "..BB["Baroness Anastari"] };
@@ -1095,7 +1094,6 @@ AtlasMaps = {
 		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Ulda"];
-		{ ORNG..AL["Key"]..": "..AL["Staff of Prehistoria"].." ("..BB["Ironaya"]..")" };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
 		{ BLUE.." C) "..AL["Connection"] };
@@ -1132,7 +1130,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["AC"];
 		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
-		{ ORNG..AL["Key"]..": "..AL["Auchenai Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Shirrak the Dead Watcher"] };
 		{ WHIT.." 2) "..BB["Exarch Maladaar"] };
@@ -1147,7 +1144,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["MT"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Consortium"] };
-		{ ORNG..AL["Key"]..": "..AL["Auchenai Key"].." ("..AL["Heroic"]..")" };
 		{ ORNG..AL["Key"]..": "..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..BB["Yor"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Pandemonius"] };
@@ -1167,7 +1163,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["Seth"];
 		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
-		{ ORNG..AL["Key"]..": "..AL["Auchenai Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Darkweaver Syth"] };
 		{ GREN..INDENT..AL["Lakka"] };
@@ -1183,7 +1178,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["SL"];
 		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
-		{ ORNG..AL["Key"]..": "..AL["Auchenai Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Ambassador Hellmaw"] };
 		{ WHIT.." 2) "..BB["Blackheart the Inciter"] };
@@ -1275,7 +1269,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["SP"];
 		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
-		{ ORNG..AL["Key"]..": "..AL["Reservoir Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Mennu the Betrayer"] };
 		{ WHIT.." 2) "..BB["Rokmar the Crackler"] };
@@ -1293,7 +1286,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["SV"];
 		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
-		{ ORNG..AL["Key"]..": "..AL["Reservoir Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Hydromancer Thespia"] };
 		{ GREN..INDENT..AL["Main Chambers Access Panel"] };
@@ -1311,7 +1303,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["UB"];
 		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
-		{ ORNG..AL["Key"]..": "..AL["Reservoir Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Hungarfen"] };
 		{ GREN..INDENT..AL["The Underspore"] };
@@ -1331,7 +1322,6 @@ AtlasMaps = {
 		{ PURP..AL["Event"]..": "..AL["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..": "..BF["Keepers of Time"] };
-		{ ORNG..AL["Key"]..": "..AL["Key of Time"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Sa'at <Keepers of Time>"] };
 		{ ORNG.." X) "..AL["Portal"].." ("..AL["Spawn Point"]..")" };
@@ -1372,7 +1362,6 @@ AtlasMaps = {
 		{ PURP..AL["Event"]..": "..AL["Escape from Durnholde Keep"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..": "..BF["Keepers of Time"] };
-		{ ORNG..AL["Key"]..": "..AL["Key of Time"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Erozion"] };
 		{ GREN..INDENT..AL["Brazen"] };
@@ -1461,7 +1450,6 @@ AtlasMaps = {
 		Acronym = AL["BF"];
 		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
-		{ ORNG..AL["Key"]..": "..AL["Flamewrought Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["The Maker"] };
 		{ WHIT.." 2) "..BB["Broggok"] };
@@ -1476,7 +1464,6 @@ AtlasMaps = {
 		Acronym = AL["Ramp"];
 		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
-		{ ORNG..AL["Key"]..": "..AL["Flamewrought Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Watchkeeper Gargolmar"] };
 		{ WHIT.." 2) "..BB["Omor the Unscarred"] };
@@ -1503,7 +1490,6 @@ AtlasMaps = {
 		Acronym = AL["SH"];
 		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
-		{ ORNG..AL["Key"]..": "..AL["Flamewrought Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Grand Warlock Nethekurse"] };
 		{ WHIT.." 2) "..BB["Blood Guard Porung"].." ("..AL["Heroic"]..")" };
@@ -1527,7 +1513,6 @@ AtlasMaps = {
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Violet Eye"] };
-		{ ORNG..AL["Key"]..": "..AL["The Master's Key"] };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B-J) "..AL["Connection"] };
 		{ WHIT.." 1) "..BB["Attumen the Huntsman"] };
@@ -1577,7 +1562,6 @@ AtlasMaps = {
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Violet Eye"] };
-		{ ORNG..AL["Key"]..": "..AL["The Master's Key"] };
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
 		{ BLUE.." J) "..AL["Broken Stairs"] };
 		{ BLUE.." K) "..AL["Ramp to Guardian's Library"].." ("..BB["Shade of Aran"]..")" };
@@ -1657,7 +1641,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["Arca"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
-		{ ORNG..AL["Key"]..": "..AL["Warpforged Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Zereketh the Unbound"] };
 		{ WHIT.." 2) "..BB["Dalliah the Doomsayer"] };
@@ -1677,7 +1660,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["Bota"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
-		{ ORNG..AL["Key"]..": "..AL["Warpforged Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..BB["Commander Sarannis"] };
@@ -1694,7 +1676,6 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["Mech"];
 		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
-		{ ORNG..AL["Key"]..": "..AL["Warpforged Key"].." ("..AL["Heroic"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..BB["Gatewatcher Gyro-Kill"] };
@@ -2020,7 +2001,6 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["TEoE"];
-		{ ORNG..AL["Key"]..": "..AL["Key to the Focusing Iris"] };
 		{ BLUE.." A) "..AL["Entrance"].." / "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..BB["Malygos"] };
 	};
@@ -2133,7 +2113,6 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
-		{ ORNG..AL["Key"]..": "..AL["Celestial Planetarium Key"].." ("..BB["Algalon the Observer"]..")" };
 		{ BLUE.." B) "..AL["The Siege"] };
 		{ BLUE.." C) "..AL["The Keepers"] };
 		{ WHIT.." 5) "..BB["Assembly of Iron"].." ("..AL["Optional"]..")" };
@@ -2271,7 +2250,6 @@ AtlasMaps = {
 		MinLevel = "70";
 		PlayerLimit = "5";
 		Acronym = AL["VH"];
-		{ ORNG..AL["Key"]..": "..AL["The Violet Hold Key"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Erekem"].." ("..AL["Random"]..")" };
 		{ WHIT.." 2) "..BB["Zuramat the Obliterator"].." ("..AL["Upper"]..", "..AL["Random"]..")" };
@@ -2308,6 +2286,7 @@ AtlasMaps = {
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Argaloth"] };
+		{ WHIT.." 2) "..AL["Occu'thar"] };
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Caverns"] };
@@ -2353,6 +2332,22 @@ AtlasMaps = {
 		{ WHIT.."1) "..AL["TBD"] };
 	};
 ]]--
+	Firelands = {
+		ZoneName = { BZ["Firelands"] };
+		Location = { BZ["Mount Hyjal"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["FL"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ WHIT.."1) "..AL["Beth'tilac"] };
+		{ WHIT.."2) "..AL["Lord Rhyolith"] };
+		{ WHIT.."3) "..AL["Alysrazor"] };
+		{ WHIT.."4) "..AL["Shannox"] };
+		{ WHIT.."5) "..AL["Baleroc"] };
+		{ WHIT.."6) "..AL["Majordomo Staghelm"] };
+		{ WHIT.."7) "..BB["Ragnaros"] };
+	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
 		Location = { BZ["Twilight Highlands"] };
@@ -2404,18 +2399,6 @@ AtlasMaps = {
 		{ WHIT.." 4) "..BB["Siamat, Lord of South Wind"] };
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
---[[
-	Firelands = {
-		ZoneName = { AL["Firelands"] };
-		Location = { BZ["Mount Hyjal"].." / "..BZ["Firelands"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "5";
-		Acronym = AL["SK"];
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..BB["Ragnaros"] };
-	};
-]]--
 	TheBastionOfTwilight = {
 		ZoneName = { BZ["The Bastion of Twilight"] };
 		Location = { BZ["Twilight Highlands"] };
@@ -2552,9 +2535,11 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
 		{ WHIT.." 1) "..AL["Venomancer Mauri <The Snake's Whisper>"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT.." 2) "..AL["Tiki Lord Mu'Loa"] };
 		{ WHIT.." 3) "..AL["Gub <Destroyer of Fish>"] };
 		{ WHIT.." 4) "..AL["Venomancer T'Kulu <The Toxic Bite>"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ WHIT.." 5) "..BB["High Priest Venoxis"] };
 		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
@@ -2571,11 +2556,13 @@ AtlasMaps = {
 		{ WHIT..INDENT..BB["Wushoolay"].." ("..AL["Random"]..")" };
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."15) "..BB["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
+		{ GREN.." 5') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ WHIT.."16) "..BB["Zanzil"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
+		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
 		{ WHIT.."17) "..BB["Jin'do the Godbreaker"] };
 	};
 };

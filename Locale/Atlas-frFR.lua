@@ -523,7 +523,6 @@ if AL then
 	AL["Merithra of the Dream"] = "Merithra du Rêve";
 
 	--Wailing Caverns
-	AL["Disciple of Naralex"] = "Disciple de Naralex";
 	AL["Ebru <Disciple of Naralex>"] = "Ebru <Disciple de Naralex>";
 	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Disciple de Naralex>";
 	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Disciple de Naralex>";
@@ -647,7 +646,6 @@ if AL then
 	AL["Compendium of the Fallen"] = "Compendium des Déchus";
 
 	--Stratholme - Crusader's Square
-	AL["Various Postbox Keys"] = "Clé des boîtes à lettres";
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Maître-artisan Wilhelm <Confrérie de la Lumière>";
 	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Maître-fourrier Navrepierre <Confrérie de la Lumière>";
@@ -683,7 +681,6 @@ if AL then
 	AL["Elder Starsong"] = "Ancienne Chantétoile";
 
 	--Uldaman
-	AL["Staff of Prehistoria"] = "Bâton de la préhistoire";
 	AL["Baelog's Chest"] = "Coffre de Baelog";
 	AL["Kand Sandseeker <Explorer's League>"] = "Kand Scrutesable <Ligue des explorateurs>";
 	AL["Lead Prospector Durdin <Explorer's League>"] = "Prospecteur en chef Durdin <Ligue des explorateurs>";
@@ -699,7 +696,6 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-	AL["Auchenai Key"] = "Clé auchenaï";
 	AL["Avatar of the Martyred"] = "Avatar des martyrs";
 	AL["D'ore"] = "D'ore";
 
@@ -737,7 +733,6 @@ if AL then
 	AL["Seer Olum"] = "Voyant Olum";
 
 	--CFR: The Slave Pens
-	AL["Reservoir Key"] = "Clé du réservoir"; --omitted from other CFR
 	AL["Weeder Greenthumb"] = "Weeder la Main-verte";
 	AL["Skar'this the Heretic"] = "Skar'this l'Hérétique";
 	AL["Naturalist Bite"] = "Naturaliste Morsure";
@@ -752,7 +747,6 @@ if AL then
 
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "Ouverture de la Porte des Ténèbres";
-	AL["Key of Time"] = "Clé du Temps";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
 	AL["The Dark Portal"] = "La Porte des Ténèbres";
 
@@ -813,7 +807,6 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
-	AL["Flamewrought Key"] = "Clé en flammes forgées"; --omitted from other HFC
 
 	--HFC: Hellfire Ramparts
 	AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
@@ -832,7 +825,6 @@ if AL then
 	AL["Drisella"] = "Drisella";
 
 	--Karazhan Start
-	AL["The Master's Key"] = "La clé du maître"; --omitted from Karazhan End
 	AL["Baroness Dorothea Millstipe"] = "Baronne Dorothea Millstipe";
 	AL["Lady Catriona Von'Indi"] = "Dame Catriona Von'Indi";
 	AL["Lady Keira Berrybuck"] = "Dame Keira Berrybuck";
@@ -887,7 +879,6 @@ if AL then
 	AL["Madrigosa"] = "Madrigosa";
 
 	--TK: The Arcatraz
-	AL["Warpforged Key"] = "Clé dimensionnelle";
 	AL["Millhouse Manastorm"] = "Milhouse Tempête-de-mana";
 	AL["Third Fragment Guardian"] = "Gardien du troisième fragment";
 	AL["Udalo"] = "Udalo";
@@ -970,7 +961,6 @@ if AL then
 	AL["Red Dragonflight Chamber"] = "Chambre du vol draconique Rouge";
 
 	--The Nexus: The Eye of Eternity
-	AL["Key to the Focusing Iris"] = "Clé de l'iris de focalisation";
 
 	--The Nexus: The Nexus
 	AL["Berinand's Research"] = "Recherches de Bérinand";
@@ -994,7 +984,6 @@ if AL then
 	AL["Cavern Entrance"] = "Entrée de la caverne";
 
 	--Ulduar General
-	AL["Celestial Planetarium Key"] = "Clé du planétarium céleste";
 	AL["The Siege"] = "Le Siège";
 	AL["The Keepers"] = "Les Gardiens";
 
@@ -1033,7 +1022,6 @@ if AL then
 	--Vault of Archavon
 
 	--The Violet Hold
-	AL["The Violet Hold Key"] = "La clé du Fort pourpre";
 
 --*********************
 -- Cataclysm Instances
@@ -1082,7 +1070,6 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "Harrison Jones";
 	AL["Tanzar"] = "Tanzar";
 	AL["The Map of Zul'Aman"] = "La carte de Zul'Aman";
 	AL["Harkor"] = "Harkor";
@@ -1129,7 +1116,6 @@ if AL then
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
 
 	--Zul'Gurub

@@ -643,7 +643,6 @@ if AL then
 	--AL["Compendium of the Fallen"] = "Compendium of the Fallen";
 
 	--Stratholme - Crusader's Square
-	AL["Various Postbox Keys"] = "邮箱钥匙";
 	--AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
 	--AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
 	--AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Packmaster Stonebruiser <Brotherhood of the Light>";
@@ -679,7 +678,6 @@ if AL then
 	AL["Elder Starsong"] = "星歌长者";
 
 	--Uldaman
-	AL["Staff of Prehistoria"] = "史前法杖";
 	AL["Baelog's Chest"] = "巴尔洛戈的箱子";
 	--AL["Kand Sandseeker <Explorer's League>"] = "Kand Sandseeker <Explorer's League>";
 	--AL["Lead Prospector Durdin <Explorer's League>"] = "Lead Prospector Durdin <Explorer's League>";
@@ -695,7 +693,6 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-	AL["Auchenai Key"] = "奥金尼钥匙";
 	AL["Avatar of the Martyred"] = "殉难者的化身";
 	AL["D'ore"] = "德欧里";
 
@@ -733,7 +730,6 @@ if AL then
 	AL["Seer Olum"] = "先知奥鲁姆";
 
 	--CFR: The Slave Pens
-	AL["Reservoir Key"] = "水库钥匙";
 	AL["Weeder Greenthumb"] = "除草者格林萨姆";
 	AL["Skar'this the Heretic"] = "异教徒斯卡希斯";
 	AL["Naturalist Bite"] = "博学者拜特";
@@ -748,7 +744,6 @@ if AL then
 
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "开启黑暗之门";
-	AL["Key of Time"] = "时光之匙";
 	AL["Sa'at <Keepers of Time>"] = "萨艾特 <时光守护者>";
 	AL["The Dark Portal"] = "黑暗之门";
 
@@ -809,7 +804,6 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
-	AL["Flamewrought Key"] = "焰铸钥匙";--omitted from other HFC
 
 	--HFC: Hellfire Ramparts
 	AL["Reinforced Fel Iron Chest"] = "强化魔铁箱";
@@ -828,7 +822,6 @@ if AL then
 	AL["Drisella"] = "德雷希拉";
 
 	--Karazhan Start
-	AL["The Master's Key"] = "麦迪文的钥匙";--omitted from Karazhan End
 	AL["Baroness Dorothea Millstipe"] = "杜萝希·米尔斯提女伯爵";
 	AL["Lady Catriona Von'Indi"] = "卡翠欧娜·冯因迪女伯爵";
 	AL["Lady Keira Berrybuck"] = "吉拉·拜瑞巴克女伯爵";
@@ -883,7 +876,6 @@ if AL then
 	AL["Madrigosa"] = "玛蒂苟萨";
 
 	--TK: The Arcatraz
-	AL["Warpforged Key"] = "星船钥匙";--omitted from other TK
 	AL["Millhouse Manastorm"] = "米尔豪斯·法力风暴";
 	AL["Third Fragment Guardian"] = "第三块碎片的守护者";
 	AL["Udalo"] = "先知乌达鲁";
@@ -966,7 +958,6 @@ if AL then
 	AL["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
 
 	--The Nexus: The Eye of Eternity
-	AL["Key to the Focusing Iris"] = "聚焦之虹的钥匙";
 
 	--The Nexus: The Nexus
 	AL["Berinand's Research"] = "伯林纳德的研究笔记";
@@ -990,7 +981,6 @@ if AL then
 	AL["Cavern Entrance"] = "洞穴入口";
 
 	--Ulduar General
-	AL["Celestial Planetarium Key"] = "天文馆钥匙";
 	AL["The Siege"] = "城墙";
 	AL["The Keepers"] = "守护者"; --C
 
@@ -1029,7 +1019,6 @@ if AL then
 	--Vault of Archavon
 
 	--The Violet Hold
-	AL["The Violet Hold Key"] = "紫罗兰监狱钥匙";
 
 --*********************
 -- Cataclysm Instances
@@ -1078,7 +1067,6 @@ if AL then
 	--AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
-	AL["Harrison Jones"] = "哈里森·琼斯";
 	AL["Tanzar"] = "坦扎尔";
 	AL["The Map of Zul'Aman"] = "巴德的祖阿曼地图";
 	AL["Harkor"] = "哈考尔";
@@ -1122,7 +1110,6 @@ if AL then
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuron Keep";
 	--AL["War of the Ancients"] = "War of the Ancients";
 
 	--Zul'Gurub

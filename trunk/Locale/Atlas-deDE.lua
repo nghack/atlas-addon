@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 06.05.2011
+-- Letztes Update: 08.06.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -335,10 +335,10 @@ if AL then
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
 	--AL["CoT-WA"] = "KdA, HdZ5"; --War of the Ancients
+	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HdU"; --Halls of Origination
 	AL["LCoT"] = "VSdT"; --Lost City of the Tol'vir
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "DSK"; --The Stonecore
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
@@ -646,7 +646,6 @@ if AL then
 	AL["Compendium of the Fallen"] = "Kompendium der Gefallenen";
 
 	--Stratholme - Crusader's Square
-	AL["Various Postbox Keys"] = "Verschiedene Briefkastenschlüssel";
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Kreuzzugskommandant Eligor Morgenbringer <Bruderschaft des Lichts>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Meisterhandwerker Wilhelm <Bruderschaft des Lichts>";
 	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Rottenkommandant Steinberster <Bruderschaft des Lichts>";
@@ -682,7 +681,6 @@ if AL then
 	AL["Elder Starsong"] = "Urahnin Sternensang";
 
 	--Uldaman
-	AL["Staff of Prehistoria"] = "Stab der Prähistorie";
 	AL["Baelog's Chest"] = "Baelogs Truhe";
 	AL["Kand Sandseeker <Explorer's League>"] = "Kand Sandsucher <Forscherliga>";
 	AL["Lead Prospector Durdin <Explorer's League>"] = "Oberausgrabungsleiter Durdin <Forscherliga>";
@@ -698,7 +696,6 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
-	AL["Auchenai Key"] = "Schlüssel der Auchenai";
 	AL["Avatar of the Martyred"] = "Avatar des Gemarterten";
 	AL["D'ore"] = "D'ore";
 
@@ -736,7 +733,6 @@ if AL then
 	AL["Seer Olum"] = "Seher Olum";
 
 	--CFR: The Slave Pens
-	AL["Reservoir Key"] = "Schlüssel des Kessels";
 	AL["Weeder Greenthumb"] = "Jäter Gründaum";
 	AL["Skar'this the Heretic"] = "Nar'biss der Ketzer";
 	AL["Naturalist Bite"] = "Naturalist Biss";
@@ -751,7 +747,6 @@ if AL then
 
 	--CoT: The Black Morass
 	AL["Opening of the Dark Portal"] = "Öffnung des Dunklen Portals";
-	AL["Key of Time"] = "Schlüssel der Zeit";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Hüter der Zeit>";
 	AL["The Dark Portal"] = "Das Dunkle Portal";
 
@@ -812,7 +807,6 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
-	AL["Flamewrought Key"] = "Flammengeschmiedeter Schlüssel";
 
 	--HFC: Hellfire Ramparts
 	AL["Reinforced Fel Iron Chest"] = "Verstärkte Teufelseisentruhe";
@@ -831,7 +825,6 @@ if AL then
 	AL["Drisella"] = "Drisella";
 
 	--Karazhan Start
-	AL["The Master's Key"] = "Der Schlüssel des Meisters";
 	AL["Baroness Dorothea Millstipe"] = "Baroness Dorothea Mühlenstein";
 	AL["Lady Catriona Von'Indi"] = "Lady Catriona Von'Indi";
 	AL["Lady Keira Berrybuck"] = "Lady Keira Beerhas";
@@ -886,7 +879,6 @@ if AL then
 	AL["Madrigosa"] = "Madrigosa";
 
 	--TK: The Arcatraz
-	AL["Warpforged Key"] = "Warpgeschmiedeter Schlüssel";
 	AL["Millhouse Manastorm"] = "Millhaus Manasturm";
 	AL["Third Fragment Guardian"] = "Wächter des dritten Teils";
 	AL["Udalo"] = "Udalo";
@@ -969,7 +961,6 @@ if AL then
 	AL["Red Dragonflight Chamber"] = "Kammer des roten Drachenschwarms";
 
 	--The Nexus: The Eye of Eternity
-	AL["Key to the Focusing Iris"] = "Schlüssel der fokussierenden Iris";
 
 	--The Nexus: The Nexus
 	AL["Berinand's Research"] = "Berinands Forschungsergebnisse";
@@ -993,7 +984,6 @@ if AL then
 	AL["Cavern Entrance"] = "Höhleneingang";
 
 	--Ulduar General
-	AL["Celestial Planetarium Key"] = "Schlüssel des Himmlischen Planetariums";
 	AL["The Siege"] = "Die Belagerung";
 	AL["The Keepers"] = "Die Hüter";
 
@@ -1032,7 +1022,6 @@ if AL then
 	--Vault of Archavon
 
 	--The Violet Hold
-	AL["The Violet Hold Key"] = "Der Schlüssel zur Violetten Festung";
 
 --*********************
 -- Cataclysm Instances
@@ -1049,6 +1038,8 @@ if AL then
 
 	--Caverns of Time: War of the Ancients
 
+	--Firelands
+
 	--Grim Batol
 	AL["Baleflame"] = "Unheilsflamme";
 	AL["Farseer Tooranu <The Earthen Ring>"] = "Scharfseher Tooranu <Der Irdene Ring>";
@@ -1061,8 +1052,6 @@ if AL then
 	AL["Captain Hadan"] = "Kapitän Hadan";
 	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Grab der Tol'vir";
-
-	--Sulfuron Keep
 
 	--The Bastion of Twilight
 
@@ -1118,16 +1107,15 @@ if AL then
 	AL["Overseer Blingbang"] = "Aufseher Klunkerknall";
 	AL["Vehini <Assault Provisions>"] = "Vehini <Angriffsvorräte>";
 	AL["Voodoo Pile"] = "Voodoohaufen";
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzils Kessel der Frostbrandformel";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzils Kessel des frierenden Fleisches";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzils Kessel der giftigen Grausamkeit";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennendes Blutes";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzils Kessel des brennenden Blutes";
 	
 --[[
     Temp area. Below entries may not need to be translated as these zone-names / boss-names
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "Sulfuronfeste";
 	--AL["War of the Ancients"] = "Krieg der Ahnen";
 
 	--Zul'Gurub

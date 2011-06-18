@@ -516,6 +516,9 @@ if AL then
 	AL["Merithra of the Dream"] = "Merithra del Sueño";
 
 	--Wailing Caverns
+	AL["Ebru <Disciple of Naralex>"] = "Ebru <Discípula de Naralex>"; -- 5768
+	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Discípulo de Naralex>"; -- 5767
+	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Discípulo de Naralex>";  -- 3678
 	AL["Disciple of Naralex"] = "Discípulo de Naralex";
 
 	--Zul'Farrak
@@ -1021,6 +1024,7 @@ if AL then
 	--AL["TBD"] = "TBD"; --To Be Determined
 
 	--Baradin Hold
+	AL["Occu'thar"] = "Occu'thar";
 
 	--Blackrock Caverns
 
@@ -1028,6 +1032,13 @@ if AL then
 
 	--Caverns of Time: War of the Ancients
 
+	--Firelands
+	AL["Beth'tilac"] = "Beth'tilac"
+	AL["Lord Rhyolith"] = "Lord Rhyolith"
+	AL["Alysrazor"] = "Alysrazor"
+	AL["Shannox"] = "Shannox"
+	AL["Baleroc"] = "Baleroc"
+	AL["Majordomo Staghelm"] = "Mayordomo Staghelm"
 	--Grim Batol
 	AL["Baleflame"] = "Fardollama";
 	AL["Farseer Tooranu <The Earthen Ring>"] = "Clarividente Tooranu <El Anillo de la Tierra>";
@@ -1040,8 +1051,6 @@ if AL then
 	AL["Captain Hadan"] = "Capitán Hadan";
 	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Tumba de tol'vir";
-
-	--Sulfuron Keep
 
 	--The Bastion of Twilight
 

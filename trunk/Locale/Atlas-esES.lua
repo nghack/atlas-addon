@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 18/05/2011
+-- Última Actualización (last update): 18/06/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1034,7 +1034,7 @@ if AL then
 
 	--Firelands
 	AL["Beth'tilac"] = "Beth'tilac"
-	AL["Lord Rhyolith"] = "Lord Rhyolith"
+	AL["Lord Rhyolith"] = "Lord Piroclasto"
 	AL["Alysrazor"] = "Alysrazor"
 	AL["Shannox"] = "Shannox"
 	AL["Baleroc"] = "Baleroc"

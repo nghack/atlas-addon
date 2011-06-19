@@ -53,4 +53,8 @@ if AL then
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Won't be available once the Battle for Andorhal chain is finished."; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Zeppelin Towers";
 
+	
+	-- Mount Hyjal
+	AL["Nordune Ridge"] = "Nordune Ridge"; -- Will be available in Babble-SubZone soon
+
 end

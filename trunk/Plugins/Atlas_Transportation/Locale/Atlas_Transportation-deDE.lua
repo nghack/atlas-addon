@@ -52,5 +52,8 @@ if AL then
 	AL["Wind Rider"] = "Windreiter";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Nicht mehr verfügbar, wenn die Schlacht um Andorhal abgeschlossen ist.";
 	AL["Zeppelin Towers"] = "Zeppelintürme";
+	
+	-- Mount Hyjal
+	AL["Nordune Ridge"] = "Nordunegrat";
 
 end

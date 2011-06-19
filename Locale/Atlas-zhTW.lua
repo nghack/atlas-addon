@@ -326,10 +326,10 @@ if AL then
 	AL["BRC"] = "BRC"; --Blackrock Caverns 黑石洞穴
 	AL["BWD"] = "BWD"; --Blackwing Descent 黑翼陷窟
 	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients 先祖之戰
+	AL["FL"] = "FL"; --Firelands 火源之界
 	AL["GB"] = "GB"; --Grim Batol 格瑞姆巴托
 	AL["HoO"] = "HoO"; --Halls of Origination 起源大廳
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 托維爾的失落之城
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "TSC"; --The Stonecore 石岩之心
 	AL["TWT"] = "TWT"; --Throne of the Four Winds 四風王座
 	AL["ToTT"] = "ToTT"; --Throne of the Tides 海潮王座
@@ -1022,12 +1022,21 @@ if AL then
 	--AL["TBD"] = "TBD"; --To Be Determined
 
 	--Baradin Hold
+	AL["Occu'thar"] = "歐庫薩";
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
 	--Caverns of Time: War of the Ancients
+
+	--Firelands
+	AL["Beth'tilac"] = "貝絲堤拉克"
+	AL["Lord Rhyolith"] = "萊爾利斯領主"
+	AL["Alysrazor"] = "艾里絲拉卓"
+	AL["Shannox"] = "夏諾克斯"
+	AL["Baleroc"] = "巴勒羅克"
+	--AL["Majordomo Staghelm"] = "管理者范達爾·鹿盔" -- Needs review
 
 	--Grim Batol
 	AL["Baleflame"] = "罪火";
@@ -1041,8 +1050,6 @@ if AL then
 	AL["Captain Hadan"] = "哈丹隊長";
 	AL["Augh"] = "奧各";
 	AL["Tol'vir Grave"] = "托維爾墓地";
-
-	--Sulfuron Keep
 
 	--The Bastion of Twilight
 
@@ -1107,7 +1114,6 @@ if AL then
     may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
 ]]
 
-	--AL["Sulfuron Keep"] = "薩弗隆要塞";
 	--AL["War of the Ancients"] = "先祖之戰";
 
 	--Zul'Gurub

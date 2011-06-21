@@ -44,6 +44,11 @@ local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
+local function EJ(encounterID)
+	local ename = EJ_GetEncounterInfo(encounterID);
+	return ename;
+end
+
 AtlasMaps = {
 
 --************************************************
@@ -2340,13 +2345,13 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AL["FL"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..AL["Beth'tilac"] };
-		{ WHIT.."2) "..AL["Lord Rhyolith"] };
-		{ WHIT.."3) "..AL["Alysrazor"] };
-		{ WHIT.."4) "..AL["Shannox"] };
-		{ WHIT.."5) "..AL["Baleroc"] };
-		{ WHIT.."6) "..AL["Majordomo Staghelm"] };
-		{ WHIT.."7) "..BB["Ragnaros"] };
+		{ WHIT.."1) "..EJ(192) }; -- Beth'tilac
+		{ WHIT.."2) "..EJ(193) }; -- Lord Rhyolith
+		{ WHIT.."3) "..EJ(194) }; -- Alysrazor
+		{ WHIT.."4) "..EJ(195) }; -- Shannox
+		{ WHIT.."5) "..EJ(196) }; -- Baleroc, the Gatekeeper
+		{ WHIT.."6) "..EJ(197) }; -- Majordomo Staghelm
+		{ WHIT.."7) "..EJ(198) }; -- Ragnaros
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };

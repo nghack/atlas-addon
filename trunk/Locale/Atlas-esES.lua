@@ -322,16 +322,14 @@ if AL then
 	AL["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
 
 	--Cataclysm Acronyms
-	--AL["AM"] = "AM"; --Abyssal Maw
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
-	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
+	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1020,25 +1018,14 @@ if AL then
 -- Cataclysm Instances
 --*********************
 
-	--Abyssal Maw
-	--AL["TBD"] = "TBD"; --To Be Determined
-
 	--Baradin Hold
-	AL["Occu'thar"] = "Occu'thar";
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
-	--Caverns of Time: War of the Ancients
-
 	--Firelands
-	AL["Beth'tilac"] = "Beth'tilac";
-	AL["Lord Rhyolith"] = "Lord Piroclasto";
-	AL["Alysrazor"] = "Alysrazor";
-	AL["Shannox"] = "Shannox";
-	AL["Baleroc"] = "Baleroc";
-	AL["Majordomo Staghelm"] = "Mayordomo Staghelm";
+
 	--Grim Batol
 	AL["Baleflame"] = "Fardollama";
 	AL["Farseer Tooranu <The Earthen Ring>"] = "Clarividente Tooranu <El Anillo de la Tierra>";
@@ -1069,6 +1056,10 @@ if AL then
 	AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Witch Doctor T'wansi"] = "Médico brujo T'wansi";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Guardia de sangre Hakkuz <Élite Lanza Negra>"; 
+	AL["Voodoo Pile"] = "Montón vudú";
 	AL["Tanzar"] = "Tanzar";
 	AL["The Map of Zul'Aman"] = "Mapa de Zul'Aman de Budd";
 	AL["Harkor"] = "Harkor";
@@ -1093,42 +1084,29 @@ if AL then
 	AL["Galathryn"] = "Galathryn";
 	AL["Mitzi"] = "Mitzi";
 	AL["Mannuth"] = "Mannuth";
-	AL["Vol'jin"] = "Vol'jin";
-	AL["Witch Doctor T'wansi"] = "Médico brujo T'wansi";
-	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Guardia de sangre Hakkuz <Élite Lanza Negra>"; 
 
 	--Zul'Gurub
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";
+	AL["Vehini <Assault Provisions>"] = "Vehini <Provisiones de ataque>";
+	AL["Overseer Blingbang"] = "Sobrestante Blingbang";
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Cercenacastas T'ara <Veterana Lanza Negra>";
 	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Cercenacastas Vaena <Veterana Lanza Negra>";
 	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Cercenacastas Zala <Veterana Lanza Negra>";
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";
 	AL["Helpful Jungle Monkey"] = "Mono de la selva servicial";
-	AL["Overseer Blingbang"] = "Sobrestante Blingbang"; -- npc: 53151
-	AL["Vehini <Assault Provisions>"] = "Vehini <Provisiones de ataque>"; -- npc: 53040
-	AL["Voodoo Pile"] = "Montón vudú"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "Caldero de fórmula de abrasión de escarcha de Zanzil";
-	AL["Zanzil's Cauldron of Toxic Torment"] = "Caldero de tormento tóxico de Zanzil";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
-	
---[[
-    Temp area. Below entries may not need to be translated as these zone-names / boss-names
-    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	AL["War of the Ancients"] = "Guerra de los ancestros";
-
-	--Zul'Gurub
-	AL["Berserking Boulder Roller"] = "Rodador de piedra rabioso"; -- 52348
-	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>";
-	AL["Kaulema the Mover"] = "Kaulema el Influyente";
-	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor";
-	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
-	AL["Tiki Lord Mu'Loa"] = "Señor Tiki Mu'Loa";
-	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae"; -- 52362
-	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <El dormilón>";
 	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomante Mauri <El susurro de la serpiente>";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Caldero de tormento tóxico de Zanzil";
+	AL["Tiki Lord Mu'Loa"] = "Señor Tiki Mu'Loa";
+	AL["Gub <Destroyer of Fish>"] = "Gub <Destructor de peces>";
 	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomante T'Kulu <La mordedura tóxica>";
+	AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <El dormilón>";
+	AL["Kaulema the Mover"] = "Kaulema el Influyente";
+	AL["Berserking Boulder Roller"] = "Rodador de piedra rabioso";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Caldero de fórmula de abrasión de escarcha de Zanzil";
+	AL["Mor'Lek the Dismantler"] = "Mor'Lek el Destructor";
 	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Médica bruja Qu'in <Médica bruja>";
 	AL["Zanza the Restless"] = "Zanza el Incansable";
+	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
+	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
 
 end

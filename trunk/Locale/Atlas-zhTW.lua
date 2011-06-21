@@ -320,12 +320,10 @@ if AL then
 	AL["Crusaders' Coliseum"] = "銀白大競技場";
 
 	--Cataclysm Acronyms
-	--AL["AM"] = "AM"; --Abyssal Maw
 	AL["BH"] = "BH"; --Baradin Hold 巴拉丁堡
 	AL["BoT"] = "BoT"; --Bastion of Twilight 暮光堡壘
 	AL["BRC"] = "BRC"; --Blackrock Caverns 黑石洞穴
 	AL["BWD"] = "BWD"; --Blackwing Descent 黑翼陷窟
-	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients 先祖之戰
 	AL["FL"] = "FL"; --Firelands 火源之界
 	AL["GB"] = "GB"; --Grim Batol 格瑞姆巴托
 	AL["HoO"] = "HoO"; --Halls of Origination 起源大廳
@@ -1018,25 +1016,13 @@ if AL then
 -- Cataclysm Instances
 --*********************
 
-	--Abyssal Maw
-	--AL["TBD"] = "TBD"; --To Be Determined
-
 	--Baradin Hold
-	AL["Occu'thar"] = "歐庫薩";
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
-	--Caverns of Time: War of the Ancients
-
 	--Firelands
-	AL["Beth'tilac"] = "貝絲堤拉克"
-	AL["Lord Rhyolith"] = "萊爾利斯領主"
-	AL["Alysrazor"] = "艾里絲拉卓"
-	AL["Shannox"] = "夏諾克斯"
-	AL["Baleroc"] = "巴勒羅克"
-	--AL["Majordomo Staghelm"] = "管理者范達爾·鹿盔" -- Needs review
 
 	--Grim Batol
 	AL["Baleflame"] = "罪火";
@@ -1068,6 +1054,10 @@ if AL then
 	AL["Neptulon"] = "奈普圖隆";
 
 	--Zul'Aman
+	AL["Vol'jin"] = "沃金";
+	AL["Witch Doctor T'wansi"] = "巫醫塔灣西";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血衛士哈庫茲 <暗矛精英>";
+	AL["Voodoo Pile"] = "巫毒堆";
 	AL["Tanzar"] = "坦札爾";
 	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
 	AL["Harkor"] = "哈克爾";
@@ -1092,42 +1082,29 @@ if AL then
 	AL["Galathryn"] = "加拉瑟林";
 	AL["Mitzi"] = "米特辛";
 	AL["Mannuth"] = "曼努斯";
-	AL["Vol'jin"] = "沃金"; -- npc=52924
-	AL["Witch Doctor T'wansi"] = "巫醫塔灣西"; -- npc=52925
-	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血衛士哈庫茲 <暗矛精英>"; -- npc=52933
 
 	--Zul'Gurub
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "血腥殺戮者特亞拉 <暗矛精兵>"; -- npc: 53023
-	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "血腥殺戮者瓦那 <暗矛精兵>"; -- npc: 53025
-	AL["Bloodslayer Zala <Darkspear Veteran>"] = "血腥殺戮者札拉 <暗矛精兵>"; -- npc: 53024
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布蘭尼·破壞剪 <黑水金融>"; -- npc: 53043
-	AL["Helpful Jungle Monkey"] = "好幫手叢林猴"; -- npc: 52820
-	AL["Overseer Blingbang"] = "監督者閃砰"; -- npc: 53151
-	AL["Vehini <Assault Provisions>"] = "維希尼 <突襲物資供應者>"; -- npc: 53040
-	AL["Voodoo Pile"] = "巫毒堆"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "贊吉爾的霜燃配方";
-	AL["Zanzil's Cauldron of Toxic Torment"] = "贊吉爾的毒物折磨大鍋"; -- 52529
-	AL["Zanzil's Cauldron of Burning Blood"] = "贊吉爾的燃燒之血";
-	
---[[
-    Temp area. Below entries may not need to be translated as these zone-names / boss-names
-    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["War of the Ancients"] = "先祖之戰";
-
-	--Zul'Gurub
-	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者"; -- 52348
-	AL["Gub <Destroyer of Fish>"] = "古布 <魚類滅殺者>"; -- 52440
-	AL["Kaulema the Mover"] = "移石者考勒瑪"; -- 52422
-	AL["Mor'Lek the Dismantler"] = "拆卸人摩勒克"; -- 52405
-	AL["Mortaxx <The Tolling Bell>"] = "莫爾塔克斯 <鐘鳴者>"; -- 52438
-	AL["Tiki Lord Mu'Loa"] = "提基王穆羅亞"; -- 52340
-	AL["Tiki Lord Zim'wae"] = "提基王辛瓦"; -- 52362
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布蘭尼·破壞剪 <黑水金融>";
+	AL["Vehini <Assault Provisions>"] = "維希尼 <突襲物資供應者>";
+	AL["Overseer Blingbang"] = "監督者閃砰";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "血腥殺戮者特亞拉 <暗矛精兵>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "血腥殺戮者瓦那 <暗矛精兵>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "血腥殺戮者札拉 <暗矛精兵>";
+	AL["Helpful Jungle Monkey"] = "好幫手叢林猴";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "怨毒法師莫里 <蛇之耳語>";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "贊吉爾的毒物折磨大鍋";
+	AL["Tiki Lord Mu'Loa"] = "提基王穆羅亞";
+	AL["Gub <Destroyer of Fish>"] = "古布 <魚類滅殺者>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "怨毒法師堤庫魯 <毒咬>";
 	AL["Tor-Tun <The Slumberer>"] = "托通 <沉睡者>";
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "怨毒法師莫里 <蛇之耳語>"; -- 52380
-	AL["Venomancer T'Kulu <The Toxic Bite>"] = "怨毒法師堤庫魯 <毒咬>"; -- 52381
-	AL["Witch Doctor Qu'in <Medicine Woman>"] = "巫醫枯因 <女巫醫>"; --52322
-	AL["Zanza the Restless"] = "『無眠者』贊札"; -- 52429
+	AL["Kaulema the Mover"] = "移石者考勒瑪";
+	AL["Berserking Boulder Roller"] = "狂暴巨礫滾動者";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "贊吉爾的霜燃配方";
+	AL["Mor'Lek the Dismantler"] = "拆卸人摩勒克";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "巫醫枯因 <女巫醫>";
+	AL["Zanza the Restless"] = "『無眠者』贊札";
+	AL["Mortaxx <The Tolling Bell>"] = "莫爾塔克斯 <鐘鳴者>";
+	AL["Tiki Lord Zim'wae"] = "提基王辛瓦";
+	AL["Zanzil's Cauldron of Burning Blood"] = "贊吉爾的燃燒之血";
 
 end

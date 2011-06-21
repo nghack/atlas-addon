@@ -1033,12 +1033,12 @@ if AL then
 	--Caverns of Time: War of the Ancients
 
 	--Firelands
-	AL["Beth'tilac"] = "Beth'tilac"
-	AL["Lord Rhyolith"] = "Lord Piroclasto"
-	AL["Alysrazor"] = "Alysrazor"
-	AL["Shannox"] = "Shannox"
-	AL["Baleroc"] = "Baleroc"
-	AL["Majordomo Staghelm"] = "Mayordomo Staghelm"
+	AL["Beth'tilac"] = "Beth'tilac";
+	AL["Lord Rhyolith"] = "Lord Piroclasto";
+	AL["Alysrazor"] = "Alysrazor";
+	AL["Shannox"] = "Shannox";
+	AL["Baleroc"] = "Baleroc";
+	AL["Majordomo Staghelm"] = "Mayordomo Staghelm";
 	--Grim Batol
 	AL["Baleflame"] = "Fardollama";
 	AL["Farseer Tooranu <The Earthen Ring>"] = "Clarividente Tooranu <El Anillo de la Tierra>";

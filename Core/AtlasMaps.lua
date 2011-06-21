@@ -906,15 +906,15 @@ AtlasMaps = {
 		Acronym = AL["SFK"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
-		{ WHIT.." 1) "..BB["Baron Ashbury"] };
-		{ WHIT.." 2) "..BB["Baron Silverlaine"] };
+		{ WHIT.." 1) "..EJ(96) }; -- Baron Ashbury
+		{ WHIT.." 2) "..EJ(97) }; -- Baron Silverlaine
 		{ WHIT..INDENT..BB["Odo the Blindwatcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Razorclaw the Butcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Rethilgore"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Wolf Master Nandos"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT.." 3) "..BB["Commander Springvale"] };
-		{ WHIT.." 4) "..BB["Lord Walden"] };
-		{ WHIT.." 5) "..BB["Lord Godfrey"] };
+		{ WHIT.." 3) "..EJ(98) }; -- Commander Springvale
+		{ WHIT.." 4) "..EJ(99) }; -- Lord Walden
+		{ WHIT.." 5) "..EJ(100) }; -- Lord Godfrey
 		{ ORNG.." 1) "..AL["Apothecary Trio"].." ("..AL["Love is in the Air"]..")" };
 		{ ORNG..INDENT..AL["Apothecary Hummel <Crown Chemical Co.>"] };
 		{ ORNG..INDENT..AL["Apothecary Baxter <Crown Chemical Co.>"] };
@@ -1044,13 +1044,13 @@ AtlasMaps = {
 		Acronym = AL["VC"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
-		{ WHIT.." 1) "..BB["Glubtok"] };
+		{ WHIT.." 1) "..EJ(89) }; -- Glubtok
 		{ WHIT.." 2) "..AL["Lumbering Oaf"] };
-		{ WHIT..INDENT..BB["Helix Gearbreaker"] };
-		{ WHIT.." 3) "..BB["Foe Reaper 5000"] };
-		{ WHIT.." 4) "..BB["Admiral Ripsnarl"] };
-		{ WHIT..INDENT..BB["\"Captain\" Cookie"] };
-		{ WHIT..INDENT..BB["Vanessa VanCleef"].." ("..AL["Heroic"]..")" };
+		{ WHIT..INDENT..EJ(90) }; -- Helix Gearbreaker
+		{ WHIT.." 3) "..EJ(91) }; -- Foe Reaper 5000
+		{ WHIT.." 4) "..EJ(92) }; -- Admiral Ripsnarl
+		{ WHIT..INDENT..EJ(93) }; -- "Captain" Cookie
+		{ WHIT..INDENT..EJ(95).." ("..AL["Heroic"]..")" }; -- Vanessa VanCleef
 		{ GREN.." 1') "..AL["Lieutenant Horatio Laine"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Quartermaster Lewis <Quartermaster>"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Slinky Sharpshiv"].." ("..BF["Horde"]..")" };
@@ -2268,18 +2268,7 @@ AtlasMaps = {
 --************************************************
 -- Cataclysm Instances
 --************************************************
---[[
-	AbyssalMaw = {
-		ZoneName = { BZ["The Abyssal Maw"]..": "..BZ["The Abyssal Maw"] };
-		Location = { BZ["Abyssal Depths"].." / "..BZ["The Abyssal Maw"] };
-		LevelRange = "80-85";
-		MinLevel = "80";
-		PlayerLimit = "5";
-		Acronym = AL["AM"];
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..AL["TBD"] };
-	};
-]]--
+
 	BaradinHold = {
 		ZoneName = { BZ["Baradin Hold"] };
 		Location = { BZ["Tol Barad"] };
@@ -2290,8 +2279,8 @@ AtlasMaps = {
 		{ ORNG..AL["Reputation"]..": "..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["Argaloth"] };
-		{ WHIT.." 2) "..AL["Occu'thar"] };
+		{ WHIT.." 1) "..EJ(139) }; -- Argaloth
+		{ WHIT.." 2) "..EJ(140) }; -- Occu'thar
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Caverns"] };
@@ -2301,11 +2290,11 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["BRC"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["Rom'ogg Bonecrusher"] };
-		{ WHIT.." 2) "..BB["Corla, Herald of Twilight"] };
-		{ WHIT.." 3) "..BB["Karsh Steelbender"] };
-		{ WHIT.." 4) "..BB["Beauty"] };
-		{ WHIT.." 5) "..BB["Ascendant Lord Obsidius"] };
+		{ WHIT.." 1) "..EJ(105) }; -- Rom'ogg Bonecrusher
+		{ WHIT.." 2) "..EJ(106) }; -- Corla, Herald of Twilight
+		{ WHIT.." 3) "..EJ(107) }; -- Karsh Steelbender
+		{ WHIT.." 4) "..EJ(108) }; -- Beauty
+		{ WHIT.." 5) "..EJ(109) }; -- Ascendant Lord Obsidius
 		{ GREN.." 1') "..AL["Finkle Einhorn"] };
 		{ GREN..INDENT..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Teleporter"] };
@@ -2318,25 +2307,14 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AL["BWD"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["Magmaw"] };
-		{ WHIT.." 2) "..BB["Omnotron Defense System"] };
-		{ WHIT.." 3) "..BB["Chimaeron"] };
-		{ WHIT.." 4) "..BB["Maloriak"] };
-		{ WHIT.." 5) "..BB["Atramedes"] };
-		{ WHIT.." 6) "..BB["Nefarian"] };
+		{ WHIT.." 1) "..EJ(170) }; -- Magmaw
+		{ WHIT.." 2) "..EJ(169) }; -- Omnotron Defense System
+		{ WHIT.." 3) "..EJ(172) }; -- Chimaeron
+		{ WHIT.." 4) "..EJ(173) }; -- Maloriak
+		{ WHIT.." 5) "..EJ(171) }; -- Atramedes
+		{ WHIT.." 6) "..EJ(174) }; -- Nefarian's End
 	};
---[[
-	CoTWaroftheAncients = {
-		ZoneName = { BZ["Caverns of Time"]..": "..AL["War of the Ancients"] };
-		Location = { BZ["Tanaris"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
-		Acronym = AL["CoT-WA"];
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..AL["TBD"] };
-	};
-]]--
+
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
@@ -2344,14 +2322,16 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["FL"];
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ WHIT.."1) "..EJ(192) }; -- Beth'tilac
-		{ WHIT.."2) "..EJ(193) }; -- Lord Rhyolith
-		{ WHIT.."3) "..EJ(194) }; -- Alysrazor
-		{ WHIT.."4) "..EJ(195) }; -- Shannox
-		{ WHIT.."5) "..EJ(196) }; -- Baleroc, the Gatekeeper
-		{ WHIT.."6) "..EJ(197) }; -- Majordomo Staghelm
-		{ WHIT.."7) "..EJ(198) }; -- Ragnaros
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Connection"] };
+		{ WHIT.." 1) "..EJ(192) }; -- Beth'tilac
+		{ WHIT.." 2) "..EJ(193) }; -- Lord Rhyolith
+		{ WHIT.." 3) "..EJ(194) }; -- Alysrazor
+		{ WHIT.." 4) "..EJ(195) }; -- Shannox
+		{ WHIT.." 5) "..EJ(196) }; -- Baleroc, the Gatekeeper
+		{ WHIT.." 6) "..EJ(197) }; -- Majordomo Staghelm
+		{ WHIT.." 7) "..EJ(198) }; -- Ragnaros
+		{ WHIT.." 8) "..EJ(198).." ("..AL["Heroic"]..")" }; -- Ragnaros
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
@@ -2361,10 +2341,10 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["GB"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["General Umbriss"] };
-		{ WHIT.." 2) "..BB["Forgemaster Throngus"] };
-		{ WHIT.." 3) "..BB["Drahga Shodowburner"].." & "..BB["Valiona"] };
-		{ WHIT.." 4) "..BB["Erudax"] };
+		{ WHIT.." 1) "..EJ(131) }; -- General Umbriss
+		{ WHIT.." 2) "..EJ(132) }; -- Forgemaster Throngus
+		{ WHIT.." 3) "..EJ(133).." & "..BB["Valiona"] }; -- Drahga Shodowburner
+		{ WHIT.." 4) "..EJ(134) }; -- Erudax, the Duke of Below
 		{ GREN.." 1') "..AL["Baleflame"] };
 		{ GREN..INDENT..AL["Farseer Tooranu <The Earthen Ring>"] };
 		{ GREN..INDENT..AL["Velastrasza"] };
@@ -2377,13 +2357,13 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Acronym = AL["HoO"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["Temple Guardian Anhuur"] };
-		{ WHIT.." 2) "..BB["Earthrager Ptah"] };
-		{ WHIT.." 3) "..BB["Anraphet"] };
-		{ WHIT.." 4) "..BB["Isiset"] };
-		{ WHIT.." 5) "..BB["Ammunae"] };
-		{ WHIT.." 6) "..BB["Setesh"] };
-		{ WHIT.." 7) "..BB["Rajh"] };
+		{ WHIT.." 1) "..EJ(124) }; -- Temple Guardian Anhuur
+		{ WHIT.." 2) "..EJ(125) }; -- Earthrager Ptah
+		{ WHIT.." 3) "..EJ(126) }; -- Anraphet
+		{ WHIT.." 4) "..EJ(127) }; -- Isiset, Construct of Magic
+		{ WHIT.." 5) "..EJ(128) }; -- Ammunae, Construct of Life
+		{ WHIT.." 6) "..EJ(129) }; -- Setesh, Construct of Destruction
+		{ WHIT.." 7) "..EJ(130) }; -- Rajh, Construct of Sun
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
 		{ GREN.." 3') "..AL["Large Stone Obelisk"] };
@@ -2397,11 +2377,11 @@ AtlasMaps = {
 		Acronym = AL["LCoT"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Captain Hadan"] };
-		{ WHIT.." 1) "..BB["General Husam"] };
-		{ WHIT.." 2) "..BB["Lockmaw"] };
+		{ WHIT.." 1) "..EJ(117) }; -- General Husam
+		{ WHIT.." 2) "..EJ(118) }; -- Lockmaw
 		{ WHIT..INDENT..AL["Augh"] };
-		{ WHIT.." 3) "..BB["High Prophet Barim"] };
-		{ WHIT.." 4) "..BB["Siamat, Lord of South Wind"] };
+		{ WHIT.." 3) "..EJ(119) }; -- High Prophet Barim
+		{ WHIT.." 4) "..EJ(122) }; -- Siamat
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
 	TheBastionOfTwilight = {
@@ -2413,11 +2393,11 @@ AtlasMaps = {
 		Acronym = AL["BoT"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..BB["Halfus Wyrmbreaker"] };
-		{ WHIT.." 2) "..BB["Valiona and Theralion"] };
-		{ WHIT.." 3) "..BB["Ascendant Council"] };
-		{ WHIT.." 4) "..BB["Cho'gall"] };
-		{ WHIT.." 5) "..BB["Sinestra"].." ("..AL["Heroic"]..")" };
+		{ WHIT.." 1) "..EJ(156) }; -- Halfus Wyrmbreaker
+		{ WHIT.." 2) "..EJ(157) }; -- Theralion and Valiona
+		{ WHIT.." 3) "..EJ(158) }; -- Ascendant Council
+		{ WHIT.." 4) "..EJ(167) }; -- Cho'gall
+		{ WHIT.." 5) "..EJ(168).." ("..AL["Heroic"]..")" }; -- Sinestra
 	};
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
@@ -2429,10 +2409,10 @@ AtlasMaps = {
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Earthwarden Yrsa <The Earthen Ring>"] };
 		{ BLUE.." B) "..AL["Exit"] };
-		{ WHIT.." 1) "..BB["Corborus"] };
-		{ WHIT.." 2) "..BB["Slabhide"] };
-		{ WHIT.." 3) "..BB["Ozruk"] };
-		{ WHIT.." 4) "..BB["High Priestess Azil"] };
+		{ WHIT.." 1) "..EJ(110) }; -- Corborus
+		{ WHIT.." 2) "..EJ(111) }; -- Slabhide
+		{ WHIT.." 3) "..EJ(112) }; -- Ozruk
+		{ WHIT.." 4) "..EJ(113) }; -- High Priestess Azil
 		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	TheVortexPinnacle = {
@@ -2444,9 +2424,9 @@ AtlasMaps = {
 		Acronym = AL["VP"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Itesh"] };
-		{ WHIT.." 1) "..BB["Grand Vizier Ertan"] };
-		{ WHIT.." 2) "..BB["Altairus"] };
-		{ WHIT.." 3) "..BB["Asaad"] };
+		{ WHIT.." 1) "..EJ(114) }; -- Grand Vizier Ertan
+		{ WHIT.." 2) "..EJ(115) }; -- Altairus
+		{ WHIT.." 3) "..EJ(116) }; -- Asaad, Caliph of Zephyrs
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Magical Brazier"] };
 	};
@@ -2458,8 +2438,8 @@ AtlasMaps = {
 		PlayerLimit = "10/25";
 		Acronym = AL["TWT"];
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..BB["Conclave of Wind"] };
-		{ WHIT.." 2) "..BB["Al'Akir"] };
+		{ WHIT.." 1) "..EJ(154) }; -- The Conclave of Wind
+		{ WHIT.." 2) "..EJ(155) }; -- Al'Akir
 	};
 	ThroneOfTheTides = {
 		ZoneName = { BZ["The Abyssal Maw"]..": "..BZ["Throne of the Tides"] };
@@ -2472,10 +2452,10 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Captain Taylor"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Legionnaire Nazgrim"].." ("..BF["Horde"]..")" };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..BB["Lady Naz'jar"] };
-		{ WHIT.." 2) "..BB["Commander Ulthok"] };
-		{ WHIT.." 3) "..BB["Erunak Stonespeaker"].." & "..BB["Mindbender Ghur'sha"] };
-		{ WHIT.." 4) "..BB["Ozumat"] };
+		{ WHIT.." 1) "..EJ(101) }; -- Lady Naz'jar
+		{ WHIT.." 2) "..EJ(102) }; -- Commander Ulthok, the Festering Prince
+		{ WHIT.." 3) "..BB["Erunak Stonespeaker"].." & "..EJ(103) }; -- Mindbender Ghur'sha
+		{ WHIT.." 4) "..EJ(104) }; -- Ozumat
 		{ GREN..INDENT..AL["Neptulon"] };
 		{ GREN.." 1') "..AL["Teleporter"] };
 	};
@@ -2491,16 +2471,16 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Witch Doctor T'wansi"] };
 		{ GREN..INDENT..AL["Blood Guard Hakkuz <Darkspear Elite>"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
-		{ WHIT.." 1) "..BB["Nalorakk"] };
+		{ WHIT.." 1) "..EJ(187) }; -- Nalorakk
 		{ GREN..INDENT..AL["Tanzar"] };
 		{ GREN..INDENT..AL["The Map of Zul'Aman"] };
-		{ WHIT.." 2) "..BB["Akil'zon"] };
+		{ WHIT.." 2) "..EJ(186) }; -- Akil'zon
 		{ GREN..INDENT..AL["Harkor"] };
-		{ WHIT.." 3) "..BB["Jan'alai"] };
+		{ WHIT.." 3) "..EJ(188) }; -- Jan'alai
 		{ GREN..INDENT..AL["Kraz"] };
-		{ WHIT.." 4) "..BB["Halazzi"] };
+		{ WHIT.." 4) "..EJ(189) }; -- Halazzi
 		{ GREN..INDENT..AL["Ashli"] };
-		{ WHIT.." 5) "..BB["Hex Lord Malacrass"] };
+		{ WHIT.." 5) "..EJ(190) }; -- Hex Lord Malacrass
 		{ WHIT..INDENT..AL["Thurg"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Gazakroth"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Lord Raadan"].." ("..AL["Random"]..")" };
@@ -2509,7 +2489,7 @@ AtlasMaps = {
 		{ WHIT..INDENT..AL["Slither"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Fenstalker"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Koragg"].." ("..AL["Random"]..")" };
-		{ WHIT.." 6) "..BB["Daakara"] };
+		{ WHIT.." 6) "..EJ(191) }; -- Daakara
 		{ GREN.." 1') "..AL["Zungam"] };
 		{ GREN.." 2') "..AL["Forest Frogs"] };
 		{ GREN..INDENT..AL["Kyren <Reagents>"] };
@@ -2534,9 +2514,9 @@ AtlasMaps = {
 		{ GREN.." 2') "..AL["Briney Boltcutter <Blackwater Financial Interests>"] };
 		{ GREN.." 3') "..AL["Vehini <Assault Provisions>"] };
 		{ GREN..INDENT..AL["Overseer Blingbang"] };
-		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Bloodslayer T'ara <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Bloodslayer Vaena <Darkspear Veteran>"] };
+		{ GREN..INDENT..AL["Bloodslayer Zala <Darkspear Veteran>"] };
 		{ GREN..INDENT..AL["Helpful Jungle Monkey"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
 		{ WHIT.." 1) "..AL["Venomancer Mauri <The Snake's Whisper>"] };
@@ -2545,12 +2525,12 @@ AtlasMaps = {
 		{ WHIT.." 3) "..AL["Gub <Destroyer of Fish>"] };
 		{ WHIT.." 4) "..AL["Venomancer T'Kulu <The Toxic Bite>"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
-		{ WHIT.." 5) "..BB["High Priest Venoxis"] };
+		{ WHIT.." 5) "..EJ(175) }; -- High Priest Venoxis
 		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
 		{ WHIT.." 8) "..AL["Berserking Boulder Roller"] };
 		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT.." 9) "..BB["Bloodlord Mandokir"] };
+		{ WHIT.." 9) "..EJ(176) }; -- Bloodlord Mandokir
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
@@ -2562,12 +2542,12 @@ AtlasMaps = {
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
-		{ WHIT.."15) "..BB["High Priestess Kilnara"].." ("..AL["Basement"]..")" };
+		{ WHIT.."15) "..EJ(181).." ("..AL["Basement"]..")" }; -- High Priestess Kilnara
 		{ GREN.." 5') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT.."16) "..BB["Zanzil"] };
+		{ WHIT.."16) "..EJ(184) }; -- Zanzil
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
-		{ WHIT.."17) "..BB["Jin'do the Godbreaker"] };
+		{ WHIT.."17) "..EJ(185) }; -- Jin'do the Godbreaker
 	};
 };

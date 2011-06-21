@@ -323,16 +323,13 @@ if AL then
 	AL["Crusaders' Coliseum"] = "Колизей Авангарда"; 
 
 	--Cataclysm Acronyms
-	--AL["AM"] = "AM"; --Abyssal Maw
 	AL["BH"] = "КБ"; --Крепость Барадин
 	AL["BoT"] = "СБ"; --Сумеречный бастион
 	AL["BRC"] = "ПСГ"; --Пещеры Черной горы
 	AL["BWD"] = "ТКТ"; --Твердыня Крыла Тьмы
-	--AL["CoT-WA"] = "CoT-WA"; --Война древних
 	AL["GB"] = "ГБ"; --Грим Батол
 	AL["HoO"] = "ЧТГС"; --Чертоги Созидания
 	AL["LCoT"] = "ЗГТВ"; --Затерянный город Тол'вир
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "КН"; --Каменные Недра
 	AL["TWT"] = "ТЧВ"; --Трон Четырех Ветров
 	AL["ToTT"] = "ТП"; --Трон Приливов
@@ -1021,16 +1018,13 @@ if AL then
 -- Cataclysm Instances
 --*********************
 
-	--Abyssal Maw
-	--AL["TBD"] = "TBD"; --To Be Determined
-
 	--Baradin Hold
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
-	--Caverns of Time: War of the Ancients
+	--Firelands
 
 	--Grim Batol
 	AL["Baleflame"] = "Пламегон";
@@ -1038,14 +1032,12 @@ if AL then
 	AL["Velastrasza"] = "Веластраза";
 
 	--Halls of Origination
-	AL["Large Stone Obelisk"] = "Большой каменный обелиск"; -- Object: 207410
+	AL["Large Stone Obelisk"] = "Большой каменный обелиск";
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Капитан Хадан";
 	AL["Augh"] = "Ауг";
-	AL["Tol'vir Grave"] = "Тол'вирская могила"; -- Object: 207409
-
-	--Sulfuron Keep
+	AL["Tol'vir Grave"] = "Тол'вирская могила";
 
 	--The Bastion of Twilight
 
@@ -1054,7 +1046,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	AL["Itesh"] = "Итеш";
-	AL["Magical Brazier"] = "Магическая жаровня"; -- Object: 207408
+	AL["Magical Brazier"] = "Магическая жаровня";
 
 	--Throne of the Four Winds
 
@@ -1062,8 +1054,12 @@ if AL then
 	AL["Captain Taylor"] = "Капитан Тейлор";
 	AL["Legionnaire Nazgrim"] = "Легионер Назгрим";
 	AL["Neptulon"] = "Нептулон";
-	
+
 	--Zul'Aman
+	AL["Vol'jin"] = "Вол'джин";
+	AL["Witch Doctor T'wansi"] = "Знахарь Т'ванши";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Кровавый страж Хаккуз <Элита племени Черного Копья>";
+	AL["Voodoo Pile"] = "Куча черепов вуду";
 	AL["Tanzar"] = "Танзар";
 	AL["The Map of Zul'Aman"] = "Карта Зул'Амана";
 	AL["Harkor"] = "Харкор";
@@ -1088,42 +1084,29 @@ if AL then
 	AL["Galathryn"] = "Калатрин";
 	AL["Mitzi"] = "Митци";
 	AL["Mannuth"] = "Маннут";
-	AL["Vol'jin"] = "Вол'джин"; -- npc=52924
-	AL["Witch Doctor T'wansi"] = "Знахарь Т'ванши"; -- npc=52925
-	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Кровавый страж Хаккуз <Элита племени Черного Копья>"; -- npc=52933
 
 	--Zul'Gurub
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Умертвительница Т'ара <Ветеран Черного Копья>"; -- npc: 53023
-	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Умертвительница Ваэна <Ветеран Черного Копья>"; -- npc: 53025
-	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Умертвительница Залла <Ветеран Черного Копья>"; -- npc: 53024
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Брини Болторез <Финансовый воротила пиратов Черноводья>"; -- npc: 53043
-	AL["Helpful Jungle Monkey"] = "Услужливая мартышка"; -- npc: 52820
-	AL["Overseer Blingbang"] = "Инспектор Бадабум"; -- npc: 53151
-	AL["Vehini <Assault Provisions>"] = "Вехини <Поставщик провизии для армии>"; -- npc: 53040
-	AL["Voodoo Pile"] = "Куча черепов вуду"; -- object=208549
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "Котел Занзила с раствором обжигающего холода";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Брини Болторез <Финансовый воротила пиратов Черноводья>";
+	AL["Vehini <Assault Provisions>"] = "Вехини <Поставщик провизии для армии>";
+	AL["Overseer Blingbang"] = "Инспектор Бадабум";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Умертвительница Т'ара <Ветеран Черного Копья>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Умертвительница Ваэна <Ветеран Черного Копья>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "Умертвительница Залла <Ветеран Черного Копья>";
+	AL["Helpful Jungle Monkey"] = "Услужливая мартышка";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Ядомант Маури <Змееязыкая>";
 	AL["Zanzil's Cauldron of Toxic Torment"] = "Котел Занзила с едкой щелочью";
+	AL["Tiki Lord Mu'Loa"] = "Вождь тики Му'Лоа";
+	AL["Gub <Destroyer of Fish>"] = "Габ <Гроза рыб>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Ядомант Т'Кулу <Ядовитый укус>";
+	AL["Tor-Tun <The Slumberer>"] = "Тор-Тун <Спящий>";
+	AL["Kaulema the Mover"] = "Каулема Толкатель";
+	AL["Berserking Boulder Roller"] = "Яростный выворачиватель валунов";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Котел Занзила с раствором обжигающего холода";
+	AL["Mor'Lek the Dismantler"] = "Мор'Лек Расчленитель";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Доктор Ку'ин <Тролль-знахарка>";
+	AL["Zanza the Restless"] = "Занза Неупокоенный";
+	AL["Mortaxx <The Tolling Bell>"] = "Мортакс <Предвестник смерти>";
+	AL["Tiki Lord Zim'wae"] = "Вождь тики Зим'вэ";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Котел Занзила с пылающей кровью";
-	
---[[
-    Temp area. Below entries may not need to be translated as these zone-names / boss-names
-    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["War of the Ancients"] = "War of the Ancients";
-
-	--Zul'Gurub
-	AL["Berserking Boulder Roller"] = "Яростный выворачиватель валунов"; -- 52348
-	AL["Gub <Destroyer of Fish>"] = "Габ <Гроза рыб>"; -- 52440
-	AL["Kaulema the Mover"] = "Каулема Толкатель"; -- 52422
-	AL["Mor'Lek the Dismantler"] = "Мор'Лек Расчленитель"; -- 52405
-	AL["Mortaxx <The Tolling Bell>"] = "Мортакс <Предвестник смерти>"; -- 52438
-	AL["Tiki Lord Mu'Loa"] = "Вождь тики Му'Лоа"; -- 52340
-	AL["Tiki Lord Zim'wae"] = "Вождь тики Зим'вэ"; -- 52362
-	AL["Tor-Tun <The Slumberer>"] = "Тор-Тун <Спящий>"; -- 52414
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "Ядомант Маури <Змееязыкая>"; -- 52380
-	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Ядомант Т'Кулу <Ядовитый укус>"; -- 52381
-	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Доктор Ку'ин <Тролль-знахарка>"; --52322
-	AL["Zanza the Restless"] = "Занза Неупокоенный"; -- 52429
 
 end

@@ -326,16 +326,14 @@ if AL then
 	AL["Crusaders' Coliseum"] = "十字军大竞技场";
 
 	--Cataclysm Acronyms
-	--AL["AM"] = "AM"; --Abyssal Maw
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
-	--AL["CoT-WA"] = "CoT-WA"; --War of the Ancients
+	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-	--AL["SK"] = "SK"; --Sulfuron Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1024,16 +1022,13 @@ if AL then
 -- Cataclysm Instances
 --*********************
 
-	--Abyssal Maw
-	--AL["TBD"] = "TBD"; --To Be Determined
-
 	--Baradin Hold
 
 	--Blackrock Caverns
 
 	--Blackwing Descent
 
-	--Caverns of Time: War of the Ancients
+	--Firelands
 
 	--Grim Batol
 	--AL["Baleflame"] = "Baleflame";
@@ -1041,14 +1036,12 @@ if AL then
 	--AL["Velastrasza"] = "Velastrasza";
 
 	--Halls of Origination
-	--AL["Large Stone Obelisk"] = "Large Stone Obelisk"; -- Object: 207410
+	--AL["Large Stone Obelisk"] = "Large Stone Obelisk";
 
 	--Lost City of the Tol'vir
 	--AL["Captain Hadan"] = "Captain Hadan";
 	--AL["Augh"] = "Augh";
-	--AL["Tol'vir Grave"] = "Tol'vir Grave"; -- Object: 207409
-
-	--Sulfuron Keep
+	--AL["Tol'vir Grave"] = "Tol'vir Grave";
 
 	--The Bastion of Twilight
 
@@ -1057,7 +1050,7 @@ if AL then
 
 	--The Vortex Pinnacle
 	--AL["Itesh"] = "Itesh";
-	--AL["Magical Brazier"] = "Magical Brazier"; -- Object: 207408
+	--AL["Magical Brazier"] = "Magical Brazier";
 
 	--Throne of the Four Winds
 
@@ -1067,6 +1060,10 @@ if AL then
 	--AL["Neptulon"] = "Neptulon";
 
 	--Zul'Aman
+	--AL["Vol'jin"] = "Vol'jin";
+	--AL["Witch Doctor T'wansi"] = "Witch Doctor T'wansi";
+	--AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blood Guard Hakkuz <Darkspear Elite>";
+	--AL["Voodoo Pile"] = "Voodoo Pile";
 	AL["Tanzar"] = "坦扎尔";
 	AL["The Map of Zul'Aman"] = "巴德的祖阿曼地图";
 	AL["Harkor"] = "哈考尔";
@@ -1093,37 +1090,27 @@ if AL then
 	AL["Mannuth"] = "曼努斯";
 
 	--Zul'Gurub
-	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>"; -- npc: 53023
-	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>"; -- npc: 53025
-	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>"; -- npc: 53024
-	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>"; -- npc: 53043
-	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey"; -- npc: 52820
-	--AL["Overseer Blingbang"] = "Overseer Blingbang"; -- npc: 53151
-	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>"; -- npc: 53040
-	--AL["Voodoo Pile"] = "Voodoo Pile"; -- object=208549
+	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>";
+	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>";
+	--AL["Overseer Blingbang"] = "Overseer Blingbang";
+	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
+	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
+	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>";
+	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
+	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>";
+	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
+	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>";
+	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>";
+	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
+	--AL["Kaulema the Mover"] = "Kaulema the Mover";
+	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
 	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
-	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment"; -- 52529
+	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler";
+	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>";
+	--AL["Zanza the Restless"] = "Zanza the Restless";
+	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>";
+	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
 	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
-	
---[[
-    Temp area. Below entries may not need to be translated as these zone-names / boss-names
-    may be included in Lib-Babble-Zone or Lib-Babble-SubZone in the near future
-]]
-
-	--AL["War of the Ancients"] = "War of the Ancients";
-
-	--Zul'Gurub
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller"; -- 52348
-	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>"; -- 52440
-	--AL["Kaulema the Mover"] = "Kaulema the Mover"; -- 52422
-	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler"; -- 52405
-	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>"; -- 52438
-	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa"; -- 52340
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae"; -- 52362
-	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>"; -- 52414
-	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>"; -- 52380
-	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>"; -- 52381
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>"; --52322
-	--AL["Zanza the Restless"] = "Zanza the Restless"; -- 52429
 
 end

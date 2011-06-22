@@ -6,10 +6,10 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>, Atlas Teams
 ==============
 = Change Log =
 ==============
-v1.20.0 (xxx. ##, 2011)
+v1.20.0 (June. 28, 2011)
 - TOC update to support WoW 4.2
 - Maps added / updated:
-    - New dungeon map - Firelands (dubca7)
+    - New raid map - Firelands (dubca7)
     - Dungeon location map update (dubca7, Dynaletik)
     - Baradin Hold map update (dubca7, Dynaletik)
     - Transportation maps update (arith)

@@ -1060,9 +1060,9 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "Знахарь Т'ванши";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Кровавый страж Хаккуз <Элита племени Черного Копья>";
 	AL["Voodoo Pile"] = "Куча черепов вуду";
+	AL["Harkor"] = "Харкор";
 	AL["Tanzar"] = "Танзар";
 	AL["The Map of Zul'Aman"] = "Карта Зул'Амана";
-	AL["Harkor"] = "Харкор";
 	AL["Kraz"] = "Краз";
 	AL["Ashli"] = "Эшли";
 	AL["Thurg"] = "Тург";

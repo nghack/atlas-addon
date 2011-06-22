@@ -1058,9 +1058,9 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "巫醫塔灣西";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血衛士哈庫茲 <暗矛精英>";
 	AL["Voodoo Pile"] = "巫毒堆";
+	AL["Harkor"] = "哈克爾";
 	AL["Tanzar"] = "坦札爾";
 	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
-	AL["Harkor"] = "哈克爾";
 	AL["Kraz"] = "卡拉茲";
 	AL["Ashli"] = "阿西利";
 	AL["Thurg"] = "瑟吉";

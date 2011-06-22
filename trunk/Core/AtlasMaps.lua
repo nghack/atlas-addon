@@ -2314,7 +2314,6 @@ AtlasMaps = {
 		{ WHIT.." 5) "..EJ(171) }; -- Atramedes
 		{ WHIT.." 6) "..EJ(174) }; -- Nefarian's End
 	};
-
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
@@ -2471,11 +2470,11 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Witch Doctor T'wansi"] };
 		{ GREN..INDENT..AL["Blood Guard Hakkuz <Darkspear Elite>"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
-		{ WHIT.." 1) "..EJ(187) }; -- Nalorakk
+		{ WHIT.." 1) "..EJ(186) }; -- Akil'zon
+		{ GREN..INDENT..AL["Harkor"] };
+		{ WHIT.." 2) "..EJ(187) }; -- Nalorakk
 		{ GREN..INDENT..AL["Tanzar"] };
 		{ GREN..INDENT..AL["The Map of Zul'Aman"] };
-		{ WHIT.." 2) "..EJ(186) }; -- Akil'zon
-		{ GREN..INDENT..AL["Harkor"] };
 		{ WHIT.." 3) "..EJ(188) }; -- Jan'alai
 		{ GREN..INDENT..AL["Kraz"] };
 		{ WHIT.." 4) "..EJ(189) }; -- Halazzi

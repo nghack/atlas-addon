@@ -205,9 +205,9 @@ local myData = {
 		{ "" };
 		{ _RED..AL["Portals"].." / "..BZ["Waygate"] };
 		{ PURP.." A) "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"] };
-		{ PURP.." B) "..AL["Nordune Ridge"]..", "..BZ["Mount Hyjal"] };
+		{ PURP.." B) "..BZ["Nordune Ridge"]..", "..BZ["Mount Hyjal"] };
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
-		{ PURP.." B') "..BZ["Firelands"] };
+		{ PURP.." B') "..BZ["Molten Front"] };
 		{ PURP.." C') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." C') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
 		{ WHIT.." 2) "..BZ["Temple of the Moon"]..", "..BZ["Darnassus"]..", "..BZ["Teldrassil"] };
@@ -453,9 +453,9 @@ local myData = {
 		{ "" };
 		{ _RED..AL["Portals"].." / "..BZ["Waygate"] };
 		{ PURP.." A) "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"] };
-		{ PURP.." B) "..AL["Nordune Ridge"]..", "..BZ["Mount Hyjal"] };
+		{ PURP.." B) "..BZ["Nordune Ridge"]..", "..BZ["Mount Hyjal"] };
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
-		{ PURP.." B') "..BZ["Firelands"] };
+		{ PURP.." B') "..BZ["Molten Front"] };
 		{ PURP.." C') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ PURP.." D') "..BZ["Hellscream's Grasp"]..", "..BZ["Tol Barad Peninsula"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." E') "..BZ["Vashj'ir"]..", "..BZ["Eastern Kingdoms"] };

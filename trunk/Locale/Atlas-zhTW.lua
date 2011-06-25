@@ -1058,11 +1058,11 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "巫醫塔灣西";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血衛士哈庫茲 <暗矛精英>";
 	AL["Voodoo Pile"] = "巫毒堆";
-	AL["Harkor"] = "哈克爾";
-	AL["Tanzar"] = "坦札爾";
+	AL["Bakkalzu"] = "巴卡祖";
+	AL["Hazlek"] = "哈茲雷克";
 	AL["The Map of Zul'Aman"] = "祖阿曼地圖";
-	AL["Kraz"] = "卡拉茲";
-	AL["Ashli"] = "阿西利";
+	AL["Norkani"] = "諾卡尼";
+	AL["Kasha"] = "卡沙";
 	AL["Thurg"] = "瑟吉";
 	AL["Gazakroth"] = "葛薩克羅司";
 	AL["Lord Raadan"] = "領主雷阿登";
@@ -1073,15 +1073,18 @@ if AL then
 	AL["Koragg"] = "可拉格";
 	AL["Zungam"] = "祖剛";
 	AL["Forest Frogs"] = "森林樹蛙";
-	AL["Kyren <Reagents>"] = "凱倫 <施法材料>";
-	AL["Gunter <Food Vendor>"] = "甘特 <食物商人>";
-	AL["Adarrah"] = "阿達拉";
-	AL["Brennan"] = "布里納";
-	AL["Darwen"] = "達爾溫";
-	AL["Deez"] = "迪滋";
-	AL["Galathryn"] = "加拉瑟林";
-	AL["Mitzi"] = "米特辛";
-	AL["Mannuth"] = "曼努斯";
+	AL["Eulinda <Reagents>"] = "尤琳達";
+	AL["Harald <Food Vendor>"] = "哈拉德";
+	AL["Arinoth"] = "阿瑞諾斯";
+	AL["Kaldrick"] = "卡爾崔克";
+	AL["Lenzo"] = "蘭佐";
+	AL["Mawago"] = "瑪哇苟";
+	AL["Melasong"] = "馬拉頌";
+	AL["Melissa"] = "梅麗莎";
+	AL["Micah"] = "米迦";
+	AL["Relissa"] = "瑞麗莎";
+	AL["Rosa"] = "羅莎";
+	AL["Tyllan"] = "怪物";
 
 	--Zul'Gurub
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布蘭尼·破壞剪 <黑水金融>";

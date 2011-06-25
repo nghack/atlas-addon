@@ -2471,14 +2471,14 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Blood Guard Hakkuz <Darkspear Elite>"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
 		{ WHIT.." 1) "..EJ(186) }; -- Akil'zon
-		{ GREN..INDENT..AL["Harkor"] };
+		{ GREN..INDENT..AL["Bakkalzu"] };
 		{ WHIT.." 2) "..EJ(187) }; -- Nalorakk
-		{ GREN..INDENT..AL["Tanzar"] };
+		{ GREN..INDENT..AL["Hazlek"] };
 		{ GREN..INDENT..AL["The Map of Zul'Aman"] };
 		{ WHIT.." 3) "..EJ(188) }; -- Jan'alai
-		{ GREN..INDENT..AL["Kraz"] };
+		{ GREN..INDENT..AL["Norkani"] };
 		{ WHIT.." 4) "..EJ(189) }; -- Halazzi
-		{ GREN..INDENT..AL["Ashli"] };
+		{ GREN..INDENT..AL["Kasha"] };
 		{ WHIT.." 5) "..EJ(190) }; -- Hex Lord Malacrass
 		{ WHIT..INDENT..AL["Thurg"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Gazakroth"].." ("..AL["Random"]..")" };
@@ -2491,15 +2491,18 @@ AtlasMaps = {
 		{ WHIT.." 6) "..EJ(191) }; -- Daakara
 		{ GREN.." 1') "..AL["Zungam"] };
 		{ GREN.." 2') "..AL["Forest Frogs"] };
-		{ GREN..INDENT..AL["Kyren <Reagents>"] };
-		{ GREN..INDENT..AL["Gunter <Food Vendor>"] };
-		{ GREN..INDENT..AL["Adarrah"] };
-		{ GREN..INDENT..AL["Brennan"] };
-		{ GREN..INDENT..AL["Darwen"] };
-		{ GREN..INDENT..AL["Deez"] };
-		{ GREN..INDENT..AL["Galathryn"] };
-		{ GREN..INDENT..AL["Mitzi"] };
-		{ GREN..INDENT..AL["Mannuth"] };
+		{ GREN..INDENT..AL["Eulinda <Reagents>"] };
+		{ GREN..INDENT..AL["Harald <Food Vendor>"] };
+		{ GREN..INDENT..AL["Arinoth"] };
+		{ GREN..INDENT..AL["Kaldrick"] };
+		{ GREN..INDENT..AL["Lenzo"] };
+		{ GREN..INDENT..AL["Mawago"] };
+		{ GREN..INDENT..AL["Melasong"] };
+		{ GREN..INDENT..AL["Melissa"] };
+		{ GREN..INDENT..AL["Micah"] };
+		{ GREN..INDENT..AL["Relissa"] };
+		{ GREN..INDENT..AL["Rosa"] };
+		{ GREN..INDENT..AL["Tyllan"] };
 	};	
 	ZulGurub = {
 		ZoneName = { BZ["Zul'Gurub"] };

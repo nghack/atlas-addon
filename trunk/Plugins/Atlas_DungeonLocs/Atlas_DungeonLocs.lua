@@ -161,7 +161,7 @@ local myData = {
 		{ WHIT.." 9) "..BZ["Azjol-Nerub"]..", ".._RED..BZ["Dragonblight"] };
 		{ WHIT..INDENT..BZ["Azjol-Nerub"] };
 		{ WHIT..INDENT..BZ["Ahn'kahet: The Old Kingdom"] };
-		{ WHIT.."10) "..BZ["Chamber of the Aspects"]..", ".._RED..BZ["Dragonblight"] };
+		{ WHIT.."10) "..BZ["Wyrmrest Temple"]..", ".._RED..BZ["Dragonblight"] };
 		{ WHIT..INDENT..BZ["The Obsidian Sanctum"] };
 		{ WHIT..INDENT..BZ["The Ruby Sanctum"] };
 		{ WHIT.."11) "..BZ["Naxxramas"]..", ".._RED..BZ["Dragonblight"] };

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 18/06/2011
+-- Última Actualización (last update): 25/06/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1060,11 +1060,11 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "Médico brujo T'wansi";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Guardia de sangre Hakkuz <Élite Lanza Negra>"; 
 	AL["Voodoo Pile"] = "Montón vudú";
-	AL["Harkor"] = "Harkor";
-	AL["Tanzar"] = "Tanzar";
+	AL["Bakkalzu"] = "Bakkalzu";
+	AL["Hazlek"] = "Hazlek";
 	AL["The Map of Zul'Aman"] = "Mapa de Zul'Aman de Budd";
-	AL["Kraz"] = "Kraz";
-	AL["Ashli"] = "Ashli";
+	AL["Norkani"] = "Norkani";
+	AL["Kasha"] = "Kasha";
 	AL["Thurg"] = "Thurg";
 	AL["Gazakroth"] = "Gazakroth";
 	AL["Lord Raadan"] = "Lord Raadan";
@@ -1075,15 +1075,18 @@ if AL then
 	AL["Koragg"] = "Koragg";
 	AL["Zungam"] = "Zungam";
 	AL["Forest Frogs"] = "Ranas del bosque";
-	AL["Kyren <Reagents>"] = "Kyren <Componentes>";
-	AL["Gunter <Food Vendor>"] = "Gunter <Vendedor de comida>";
-	AL["Adarrah"] = "Adarrah";
-	AL["Brennan"] = "Brennan";
-	AL["Darwen"] = "Darwen";
-	AL["Deez"] = "Deez";
-	AL["Galathryn"] = "Galathryn";
-	AL["Mitzi"] = "Mitzi";
-	AL["Mannuth"] = "Mannuth";
+	AL["Eulinda <Reagents>"] = "Eulinda <Componentes>";
+	AL["Harald <Food Vendor>"] = "Harald <Vendedor de alimentos>";
+	AL["Arinoth"] = "Arinoth";
+	AL["Kaldrick"] = "Kaldrick";
+	AL["Lenzo"] = "Lenzo";
+	AL["Mawago"] = "Mawago";
+	AL["Melasong"] = "Melasong";
+	AL["Melissa"] = "Melissa";
+	AL["Micah"] = "Micah";
+	AL["Relissa"] = "Relissa";
+	AL["Rosa"] = "Rosa";
+	AL["Tyllan"] = "Tyllan";
 
 	--Zul'Gurub
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";

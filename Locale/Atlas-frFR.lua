@@ -1067,11 +1067,11 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "Féticheur T'wansi";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Garde de sang Hakkuz <Soldat d'élite sombrelance>";
 	AL["Voodoo Pile"] = "Pile vaudou";
-	AL["Harkor"] = "Harkor";
-	AL["Tanzar"] = "Tanzar";
+	AL["Bakkalzu"] = "Bakkalzu";
+	AL["Hazlek"] = "Hazlek";
 	AL["The Map of Zul'Aman"] = "La carte de Zul'Aman";
-	AL["Kraz"] = "Kraz";
-	AL["Ashli"] = "Ashli";
+	AL["Norkani"] = "Norkani";
+	AL["Kasha"] = "Kasha";
 	AL["Thurg"] = "Thurg";
 	AL["Gazakroth"] = "Gazakroth";
 	AL["Lord Raadan"] = "Seigneur Raadan";
@@ -1082,15 +1082,18 @@ if AL then
 	AL["Koragg"] = "Koragg";
 	AL["Zungam"] = "Zungam";
 	AL["Forest Frogs"] = "Grenouilles forestière";
-	AL["Kyren <Reagents>"] = "Kyren <Composants>";
-	AL["Gunter <Food Vendor>"] = "Gunter <Vendeur de nourriture>";
-	AL["Adarrah"] = "Adarrah";
-	AL["Brennan"] = "Brennan";
-	AL["Darwen"] = "Darwen";
-	AL["Deez"] = "Deez";
-	AL["Galathryn"] = "Galathryn";
-	AL["Mitzi"] = "Mitzi";
-	AL["Mannuth"] = "Mannuth";
+	AL["Eulinda <Reagents>"] = "Eulinda <Composants>";
+	AL["Harald <Food Vendor>"] = "Harald <Vendeur de nourriture>";
+	AL["Arinoth"] = "Arinoth";
+	AL["Kaldrick"] = "Kaldrick";
+	AL["Lenzo"] = "Lenzo";
+	AL["Mawago"] = "Mawago";
+	AL["Melasong"] = "Mélachant";
+	AL["Melissa"] = "Mélissa";
+	AL["Micah"] = "Micah";
+	AL["Relissa"] = "Relissa";
+	AL["Rosa"] = "Rosa";
+	AL["Tyllan"] = "Tyllan";
 
 	--Zul'Gurub
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Coupécrou <Intérêts financiers de Baille-Fonds>";

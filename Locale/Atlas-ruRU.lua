@@ -1060,11 +1060,11 @@ if AL then
 	AL["Witch Doctor T'wansi"] = "Знахарь Т'ванши";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Кровавый страж Хаккуз <Элита племени Черного Копья>";
 	AL["Voodoo Pile"] = "Куча черепов вуду";
-	AL["Harkor"] = "Харкор";
-	AL["Tanzar"] = "Танзар";
+	AL["Bakkalzu"] = "Баккальзу";
+	AL["Hazlek"] = "Хазлек";
 	AL["The Map of Zul'Aman"] = "Карта Зул'Амана";
-	AL["Kraz"] = "Краз";
-	AL["Ashli"] = "Эшли";
+	AL["Norkani"] = "Норкани";
+	AL["Kasha"] = "Кайша";
 	AL["Thurg"] = "Тург";
 	AL["Gazakroth"] = "Газакрот";
 	AL["Lord Raadan"] = "Лорд Раадан";
@@ -1075,15 +1075,18 @@ if AL then
 	AL["Koragg"] = "Корагг";
 	AL["Zungam"] = "Зангам";
 	AL["Forest Frogs"] = "Лесная лягушка";
-	AL["Kyren <Reagents>"] = "Кирен <Реагенты>";
-	AL["Gunter <Food Vendor>"] = "Гюнтер <Продавец еды>";
-	AL["Adarrah"] = "Адарра";
-	AL["Brennan"] = "Бреннан";
-	AL["Darwen"] = "Стрел";
-	AL["Deez"] = "Диз";
-	AL["Galathryn"] = "Калатрин";
-	AL["Mitzi"] = "Митци";
-	AL["Mannuth"] = "Маннут";
+	AL["Eulinda <Reagents>"] = "Эулинда <Реагенты>";
+	AL["Harald <Food Vendor>"] = "Гаральд <Продавец еды>";
+	AL["Arinoth"] = "Аринот";
+	AL["Kaldrick"] = "Кальдрик";
+	AL["Lenzo"] = "Ленцо";
+	AL["Mawago"] = "Маваго";
+	AL["Melasong"] = "Меласонг";
+	AL["Melissa"] = "Мелисса";
+	AL["Micah"] = "Мика";
+	AL["Relissa"] = "Релисса";
+	AL["Rosa"] = "Роза";
+	AL["Tyllan"] = "Тиллан";
 
 	--Zul'Gurub
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Брини Болторез <Финансовый воротила пиратов Черноводья>";

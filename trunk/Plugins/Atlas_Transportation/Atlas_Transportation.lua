@@ -236,7 +236,7 @@ local myData = {
 		{ WHIT.."12) "..BZ["Stardust Spire"] };
 		{ "" };
 		{ BLUE..BZ["Stonetalon Mountains"] };
-		{ WHIT.."13) "..BZ["Windshear Fortress"] };
+		{ WHIT.."13) "..BZ["Windshear Hold"] };
 		{ WHIT.."14) "..BZ["Mirkfallon Post"] };
 		{ WHIT.."15) "..BZ["Thal'darah Overlook"] };
 		{ WHIT.."16) "..BZ["Farwatcher's Glen"] };

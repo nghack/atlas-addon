@@ -2536,7 +2536,7 @@ AtlasMaps = {
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
-		{ WHIT.."12) "..BZ["Edge of Madness"] };
+		{ WHIT.."12) "..BZ["The Cache of Madness"] };
 		{ WHIT..INDENT..BB["Gri'lek"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..BB["Hazza'rah"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..BB["Renataki"].." ("..AL["Random"]..")" };

@@ -532,6 +532,7 @@ local function Process_Deprecated()
 	--nil version means NO version will EVER be loaded!
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
+--[[
 		{ "Atlas_Entrances", nil }, --entrances were rolled into core addon
 		{ "Atlas_FlightPaths", nil }, --renamed to Atlas_Transportation
 		{ "AtlasEntrances", nil }, --old name for entrances module
@@ -539,7 +540,7 @@ local function Process_Deprecated()
 		{ "AtlasDungeonLocs", nil }, --old name for dungeon location module
 		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
-		
+]]		
 		--most recent (working) versions of known modules at time of release
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.4" }, -- updated May 24, 2011

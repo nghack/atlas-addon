@@ -9,18 +9,20 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>, Atlas Teams
 v1.20.0 (June. 28, 2011)
 - TOC update to support WoW 4.2
 - Maps added / updated:
-    - New raid map - Firelands (dubca7)
+    - New raid map - Firelands (dubca7, Dynaletik)
     - Dungeon location map update (dubca7, Dynaletik)
     - Baradin Hold map update (dubca7, Dynaletik)
     - Transportation maps update (arith)
-    - Zul'Gurub map update (arith)
+    - Zul'Gurub map update (arith, Dynaletik)
     - Zul'Aman map update (dubca7, Dynaletik)
 - Remove dungeon keys (Dynaletik)
 - Boss name translation enhancement by using Encounter Journal feature (Dynaletik, arith)
+- Fixed some dungeon level ranges (Dynaletik)
 - Translation update
   - German (Dynaletik)
-  - Traditional Chinese (zhTW, arith)
+  - Russian (StingerSoft)
   - Spanish (maqjav)
+  - Traditional Chinese (zhTW, arith)
 
 v1.19.2 (May 30, 2011)
 - Dungeon maps' auto-select feature fixed for Throne of Tides, 

@@ -483,7 +483,7 @@ function Atlas_RegisterPlugin(name, myCategory, myData)
 	--table.insert(ATLAS_PLUGINS, name);
 	ATLAS_PLUGINS[name] = {};
 	local i = getn(Atlas_MapTypes) + 1;
-	Atlas_MapTypes[i] = GREN..myCategory;
+	Atlas_MapTypes[i] = GREN..myCategory; -- plugin category name to be added with green color, and then added to array
 	
 	for k,v in pairs(myData) do
 		table.insert(ATLAS_PLUGINS[name], k);
@@ -814,7 +814,7 @@ function Atlas_Toggle()
 end
 
 --Refreshes the Atlas frame, usually because a new map needs to be displayed
---The zoneID variable represents the internal name used for each map
+--The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"
 --Also responsible for updating all the text when a map is changed
 function Atlas_Refresh()
 	
@@ -826,13 +826,17 @@ function Atlas_Refresh()
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
-	--local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+	-- searching for the map path from Atlas or from plugins
 	for k,v in pairs(Atlas_CoreMapsKey) do
+		-- if selected map is Atlas' core map
 		if(zoneID == v) then
 			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
 			break;
+		-- if selected map is from plugin
 		else
+			-- searching for plugins
 			for ka,va in pairs(ATLAS_PLUGINS) do
+				-- searching for plugin's maps
 				for kb,vb in pairs(ATLAS_PLUGINS[ka]) do
 					if (zoneID == vb) then
 						AtlasMap:SetTexture("Interface\\AddOns\\"..ka.."\\Images\\"..zoneID);
@@ -843,6 +847,7 @@ function Atlas_Refresh()
 		end
 	end
 	
+	-- zone name acronym
 	local tName = base.ZoneName[1];
 	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
 		local _RED = "|cffcc3333";
@@ -905,7 +910,6 @@ function Atlas_Refresh()
 	end
 	
 	AtlasScrollBar_Update();
-	
 	
 	
 	--deal with the switch to entrance/instance button here

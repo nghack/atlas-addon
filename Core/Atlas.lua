@@ -542,11 +542,11 @@ local function Process_Deprecated()
 		
 		--most recent (working) versions of known modules at time of release
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
-		{ "AtlasQuest", "4.6.3" }, -- updated May 04, 2011
+		{ "AtlasQuest", "4.6.4" }, -- updated May 24, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
 		{ "AtlasLoot", "6.04.00" }, -- updated June XX, 2011
-		{ "Atlas_Arena", "1.3.2" }, -- updated April, 28, 2011
-		{ "Atlas_WorldEvents", "2.1" }, -- updated April 28, 2011
+		{ "Atlas_Arena", "1.3.3" }, -- updated June, 28, 2011
+		{ "Atlas_WorldEvents", "2.3" }, -- updated June 28, 2011
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

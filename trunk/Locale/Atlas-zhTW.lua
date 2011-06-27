@@ -69,10 +69,10 @@ if AL then
 	AL["ATLAS_OPTIONS_SHOWBUT"] = "在小地圖旁顯示 Atlas 按鈕";
 	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "在小地圖旁顯示 Atlas 按鈕";
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "自動選擇副本地圖";
-	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可偵測您目前所在的副區域以判定您所在的副本, 開啟 Atlas 時將會自動選擇到該副本地圖";
+	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可偵測您目前所在的副區域以顯示一個最佳的副本地圖";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "按鈕位置";
 	AL["ATLAS_OPTIONS_TRANS"] = "透明度";
-	AL["ATLAS_OPTIONS_RCLICK"] = "點擊滑鼠右鍵開啟世界地圖";
+	AL["ATLAS_OPTIONS_RCLICK"] = "滑鼠右鍵開啟世界地圖";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "啟用在 Atlas 視窗中按下滑鼠右鍵自動切換到魔獸的世界地圖";
 	AL["ATLAS_OPTIONS_RESETPOS"] = "重設位置";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "顯示副本縮寫";
@@ -89,13 +89,13 @@ if AL then
 	AL["ATLAS_LDB_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "副本地圖分類方式:";
-	AL["ATLAS_DDL_CONTINENT"] = "大陸";
+	AL["ATLAS_DDL_CONTINENT"] = "依不同大陸分類";
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "東部王國副本";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "卡林多副本";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "外域副本";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "北裂境副本";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "地深之源副本";
-	AL["ATLAS_DDL_LEVEL"] = "等級";
+	AL["ATLAS_DDL_LEVEL"] = "依等級分類";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "副本等級低於 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "副本等級介於 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "副本等級介於 60-70";

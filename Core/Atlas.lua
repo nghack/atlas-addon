@@ -1296,3 +1296,37 @@ function AtlasEntryTemplate_OnUpdate(self)
 		end
 	end
 end
+
+--[[ Test code for future added, to display boss description
+function AtlasEntryTemplate_OnEnter(self)
+	if ( MouseIsOver(self) ) then
+		if ( IsControlKeyDown() ) then
+			if ( not GameTooltip:IsShown() ) then
+				local str = _G[self:GetName().."_Text"]:GetText();
+				if ( str ) then
+					GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+					GameTooltip:SetBackdropBorderColor(0,0,0,0);
+					GameTooltip:SetBackdropColor(0,0,0,1);
+					local colorCheck = string.sub(str, 1, 4);
+					if ( colorCheck == "|cff" ) then
+						local color = string.sub(str, 1, 10);
+						local stripped = strtrim(string.sub(str, 11));
+						GameTooltip:SetText(color..stripped,1,1,1,1);
+					else
+						GameTooltip:SetText(str,1,1,1,1);
+					end
+				end
+			end
+		else
+			if ( not GameTooltip:IsShown() ) then
+				--local bossname = _G[self:GetName().."_Text"]:GetText();
+				local ejbossname, description = EJ_GetEncounterInfo(195);
+				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+				GameTooltip:SetBackdropBorderColor(0,0,0,0);
+				GameTooltip:SetBackdropColor(0,0,0,1);
+				GameTooltip:SetText(ejbossname,1,1,1,1);
+			end
+		end
+	end
+end
+]]

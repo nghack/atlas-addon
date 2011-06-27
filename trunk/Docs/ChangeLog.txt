@@ -16,12 +16,14 @@ v1.20.0 (June. 28, 2011)
     - Zul'Gurub map update (arith, Dynaletik)
     - Zul'Aman map update (dubca7, Dynaletik)
 - Remove dungeon keys (Dynaletik)
-- Boss name translation enhancement by using Encounter Journal feature (Dynaletik, arith)
+- Boss name translation enhancement by using Encounter Journal feature 
+  (Dynaletik, arith)
 - Fixed some dungeon level ranges (Dynaletik)
 - Translation update
   - German (Dynaletik)
-  - Russian (StingerSoft)
-  - Spanish (maqjav)
+  - Russian (StingerSoft, Dynaletik)
+  - Spanish (maqjav, Dynaletik)
+  - French (Dynaletik)
   - Traditional Chinese (zhTW, arith)
 
 v1.19.2 (May 30, 2011)

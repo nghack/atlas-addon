@@ -2321,6 +2321,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["FL"];
+		--{ ORNG..AL["Reputation"]..": "..BF["Avengers of Hyjal"] }; --add as soon as BabbleFaction includes it
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..EJ(192) }; -- Beth'tilac

@@ -6,6 +6,10 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>, Atlas Teams
 ==============
 = Change Log =
 ==============
+v1.20.1 (July. xx, 2011)
+- Updated Eye of the Storm map (deadca7)
+- minor additions & bugfixes
+
 v1.20.0 (June. 28, 2011)
 - TOC update to support WoW 4.2
 - Maps added / updated:

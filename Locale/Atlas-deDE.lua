@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 25.06.2011
+-- Letztes Update: 30.06.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1032,6 +1032,8 @@ if AL then
 	--Blackwing Descent
 
 	--Firelands
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Zornranke <Sammlerin kristallisierten Feuersteins>";
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Sturmwut <Rüstmeister der Rächer des Hyjal>";
 
 	--Grim Batol
 	AL["Baleflame"] = "Unheilsflamme";

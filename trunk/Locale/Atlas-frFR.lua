@@ -1032,6 +1032,8 @@ if AL then
 	--Blackwing Descent
 
 	--Firelands
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Irevigne <Collectionneuse de pierres de feu cristallisées>";
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Furie-des-Tempêtes <Intendant des Vengeurs d’Hyjal>";
 
 	--Grim Batol
 	AL["Baleflame"] = "Flammosphère";

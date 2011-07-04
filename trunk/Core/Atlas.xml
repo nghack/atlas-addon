@@ -417,18 +417,18 @@
 			</Frame>
 			<Button name="Atlas_JournalEncounter_InstanceButton" toplevel="true">
 				<Size>
-					<AbsDimension x="25" y="25" />
+					<AbsDimension x="32" y="32" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPRIGHT">
 						<Offset>
-							<AbsDimension x="-18" y="-155"/>
+							<AbsDimension x="-14" y="-153"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
-				<NormalTexture file="Interface\EncounterJournal\UI-EJ-PortraitIcon"/>
-				<PushedTexture file="Interface\EncounterJournal\UI-EJ-PortraitIcon"/>
-				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>
+				<NormalTexture file="Interface\AddOns\Atlas\Images\UI-EJ-PortraitIcon"/>
+				<PushedTexture file="Interface\AddOns\Atlas\Images\UI-EJ-PortraitIcon"/>
+				<HighlightTexture file="Interface\Buttons\CheckButtonHilight" alphaMode="ADD"/>
 				<Scripts>
 					<OnEnter>
 						Atlas_JournalEncounter_InstanceButton_OnEnter(self);
@@ -526,7 +526,7 @@
 			</Layer>
 			<Layer level="BACKGROUND">
 				<Texture name="AtlasMap"/>
-          	</Layer>
+			</Layer>
 		</Layers>
 		<Scripts>
 			<OnLoad>

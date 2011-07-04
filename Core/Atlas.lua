@@ -876,6 +876,13 @@ function Atlas_Refresh()
 	AtlasText_MinLevel_Text:SetText(tML);
 	AtlasText_PlayerLimit_Text:SetText(tPL);
 
+	-- Check if Journal Encounter Instance is available
+	if ( base.JournalInstanceID ) then
+		Atlas_JournalEncounter_InstanceButton:Show();
+	else
+		Atlas_JournalEncounter_InstanceButton:Hide();
+	end
+
 	ATLAS_DATA = base;
 	ATLAS_SEARCH_METHOD = data.Search;
 	

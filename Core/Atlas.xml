@@ -89,6 +89,23 @@
 				<PushedTexture name="AtlasLockPush"/>
 				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" AlphaMode="ADD"/>
 			</Button>
+			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_BUTTON">
+				<Size>
+					<AbsDimension x="80" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="RIGHT" relativeTo="AtlasFrameLockButton" relativePoint="LEFT">
+						<Offset>
+							<AbsDimension x="6" y="1"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						AtlasOptions_Toggle();
+					</OnClick>
+				</Scripts>
+			</Button>
 			<Button name="AtlasFrameDropDownType" inherits="UIDropDownMenuTemplate">
 				<Layers>
 					<Layer level="BACKGROUND">
@@ -135,7 +152,7 @@
 			</Button>
 			<EditBox name="AtlasSearchEditBox" inherits="InputBoxTemplate" letters="80">
 				<Size>
-					<AbsDimension x="144" y="32"></AbsDimension>
+					<AbsDimension x="134" y="32"></AbsDimension>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOMRIGHT">
@@ -176,7 +193,7 @@
 			</Button>
 			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
 				<Size>
-					<AbsDimension x="69" y="32"/>
+					<AbsDimension x="74" y="32"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativePoint="RIGHT">
@@ -194,7 +211,7 @@
 			</Button>
 			<Button name="AtlasSearchClearButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_STRING_CLEAR">
 				<Size>
-					<AbsDimension x="58" y="32"/>
+					<AbsDimension x="63" y="32"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="AtlasSearchButton" relativePoint="RIGHT">
@@ -208,23 +225,6 @@
 						AtlasSearchEditBox:SetText("");
 						Atlas_SearchAndRefresh(AtlasSearchEditBox:GetText());
 						AtlasSearchEditBox:ClearFocus();
-					</OnClick>
-				</Scripts>
-			</Button>
-			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_BUTTON">
-				<Size>
-					<AbsDimension x="80" y="20"/>
-				</Size>
-				<Anchors>
-					<Anchor point="TOPRIGHT">
-						<Offset>
-							<AbsDimension x="-20" y="-50"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnClick>
-						AtlasOptions_Toggle();
 					</OnClick>
 				</Scripts>
 			</Button>
@@ -415,6 +415,32 @@
 					</OnLeave>
 				</Scripts>
 			</Frame>
+			<Button name="Atlas_JournalEncounter_InstanceButton" toplevel="true">
+				<Size>
+					<AbsDimension x="25" y="25" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="-18" y="-155"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<NormalTexture file="Interface\EncounterJournal\UI-EJ-PortraitIcon"/>
+				<PushedTexture file="Interface\EncounterJournal\UI-EJ-PortraitIcon"/>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/>
+				<Scripts>
+					<OnEnter>
+						Atlas_JournalEncounter_InstanceButton_OnEnter(self);
+					</OnEnter>
+					<OnClick>
+						Atlas_JournalEncounter_InstanceButton_OnClick(self);
+					</OnClick>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
 		</Frames>
 		<Layers>
 			<Layer level="ARTWORK">
@@ -487,12 +513,12 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString inherits="GameFontNormalSmall" text="ATLAS_VERSION">
+				<FontString inherits="GameFontNormalSmall" text="ATLAS_VERSION_TEXT">
 					<Color r="0.4" g="0.4" b="0.4"/>
 					<Anchors>
 						<Anchor point="TOPRIGHT">
 							<Offset>
-								<AbsDimension x="-52" y="-18"/>
+								<AbsDimension x="-132" y="-18"/>
 							</Offset>
 						</Anchor>
 					</Anchors>

@@ -32,6 +32,7 @@ Core\AtlasDropDown.lua
 
 Core\Atlas.lua
 Core\Atlas.xml
+Core\AtlasJournalEncounter.lua
 
 Core\AtlasButton.lua
 Core\AtlasButton.xml

@@ -50,6 +50,21 @@ local function EJ(encounterID)
 end
 
 AtlasMaps = {
+--[[
+Syntax: 
+	MapName = {
+		ZoneName = { "Map name" };
+		Location = { "Location of this map" };
+		LevelRange = "level range";
+		MinLevel = "minimum level";
+		PlayerLimit = "player limit";
+		Acronym = "acronym";
+		{ "list entry 1" };
+		{ "list entry 2" };
+		{ "list entry 3" };
+		{ "list entry 4" };
+	};
+]]
 
 --************************************************
 -- Instance Entrance Maps
@@ -301,6 +316,7 @@ AtlasMaps = {
 		MinLevel = "10";
 		PlayerLimit = "5";
 		Acronym = AL["VC"];
+		JournalInstanceID = "63";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Meeting Stone"] };
 		{ BLUE.." B) "..BZ["The Deadmines"] };
@@ -904,6 +920,7 @@ AtlasMaps = {
 		MinLevel = "11";
 		PlayerLimit = "5";
 		Acronym = AL["SFK"];
+		JournalInstanceID = "64";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..EJ(96) }; -- Baron Ashbury
@@ -1042,6 +1059,7 @@ AtlasMaps = {
 		MinLevel = "10";
 		PlayerLimit = "5";
 		Acronym = AL["VC"];
+		JournalInstanceID = "63";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..EJ(89) }; -- Glubtok
@@ -2276,6 +2294,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["BH"];
+		JournalInstanceID = "75";
 		{ ORNG..AL["Reputation"]..": "..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2289,6 +2308,7 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "5";
 		Acronym = AL["BRC"];
+		JournalInstanceID = "66";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(105) }; -- Rom'ogg Bonecrusher
 		{ WHIT.." 2) "..EJ(106) }; -- Corla, Herald of Twilight
@@ -2306,6 +2326,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["BWD"];
+		JournalInstanceID = "73";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(170) }; -- Magmaw
 		{ WHIT.." 2) "..EJ(169) }; -- Omnotron Defense System
@@ -2321,6 +2342,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["FL"];
+		JournalInstanceID = "78";
 		{ ORNG..AL["Reputation"]..": "..BF["Avengers of Hyjal"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
@@ -2342,6 +2364,7 @@ AtlasMaps = {
 		MinLevel = "84";
 		PlayerLimit = "5";
 		Acronym = AL["GB"];
+		JournalInstanceID = "71";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(131) }; -- General Umbriss
 		{ WHIT.." 2) "..EJ(132) }; -- Forgemaster Throngus
@@ -2358,6 +2381,7 @@ AtlasMaps = {
 		MinLevel = "84";
 		PlayerLimit = "5";
 		Acronym = AL["HoO"];
+		JournalInstanceID = "70";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(124) }; -- Temple Guardian Anhuur
 		{ WHIT.." 2) "..EJ(125) }; -- Earthrager Ptah
@@ -2377,6 +2401,7 @@ AtlasMaps = {
 		MinLevel = "84";
 		PlayerLimit = "5";
 		Acronym = AL["LCoT"];
+		JournalInstanceID = "69";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Captain Hadan"] };
 		{ WHIT.." 1) "..EJ(117) }; -- General Husam
@@ -2393,6 +2418,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["BoT"];
+		JournalInstanceID = "72";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..EJ(156) }; -- Halfus Wyrmbreaker
@@ -2408,6 +2434,7 @@ AtlasMaps = {
 		MinLevel = "81";
 		PlayerLimit = "5";
 		Acronym = AL["TSC"];
+		JournalInstanceID = "67";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Earthwarden Yrsa <The Earthen Ring>"] };
 		{ BLUE.." B) "..AL["Exit"] };
@@ -2424,6 +2451,7 @@ AtlasMaps = {
 		MinLevel = "81";
 		PlayerLimit = "5";
 		Acronym = AL["VP"];
+		JournalInstanceID = "68";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Itesh"] };
 		{ WHIT.." 1) "..EJ(114) }; -- Grand Vizier Ertan
@@ -2439,6 +2467,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "10/25";
 		Acronym = AL["TWT"];
+		JournalInstanceID = "74";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(154) }; -- The Conclave of Wind
 		{ WHIT.." 2) "..EJ(155) }; -- Al'Akir
@@ -2450,6 +2479,7 @@ AtlasMaps = {
 		MinLevel = "80";
 		PlayerLimit = "5";
 		Acronym = AL["ToTT"];
+		JournalInstanceID = "65";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Captain Taylor"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Legionnaire Nazgrim"].." ("..BF["Horde"]..")" };
@@ -2468,6 +2498,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "5";
 		Acronym = AL["ZA"];
+		JournalInstanceID = "77";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Vol'jin"] };
 		{ GREN..INDENT..AL["Witch Doctor T'wansi"] };
@@ -2514,6 +2545,7 @@ AtlasMaps = {
 		MinLevel = "85";
 		PlayerLimit = "5";
 		Acronym = AL["ZG"];
+		JournalInstanceID = "76";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Meeting Stone"] };
 		{ GREN.." 2') "..AL["Briney Boltcutter <Blackwater Financial Interests>"] };

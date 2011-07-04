@@ -52,7 +52,8 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 		EJ_SelectInstance(base.JournalInstanceID);
 	
 		local name, description = EJ_GetInstanceInfo();
-		GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
+
+		GameTooltip:SetOwner(frame, "ANCHOR_CURSOR");
 		GameTooltip:SetText(name);
 		GameTooltipTextLeft1:SetTextColor(1, 1, 1);
 		GameTooltip:AddLine(description, nil, nil, nil, true);

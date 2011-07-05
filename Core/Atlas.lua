@@ -28,6 +28,7 @@
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
 -- Maintainers: Arith, Dynaletik, Deadca7
 
+local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
 local Atlas_DebugMode = false;
@@ -860,20 +861,23 @@ function Atlas_Refresh()
 	local tML = "";
 	local tPL = "";
 	if ( base.Location ) then
-		tLoc = ATLAS_STRING_LOCATION..": "..base.Location[1];
-	end
-	if ( base.LevelRange ) then
-		tLR = ATLAS_STRING_LEVELRANGE..": "..base.LevelRange;
-	end
-	if ( base.MinLevel ) then
-		tML = ATLAS_STRING_MINLEVEL..": "..base.MinLevel;
-	end
-	if ( base.PlayerLimit ) then
-		tPL = ATLAS_STRING_PLAYERLIMIT..": "..base.PlayerLimit;
+		tLoc = ATLAS_STRING_LOCATION..AL["Colon"]..base.Location[1];
 	end
 	AtlasText_Location_Text:SetText(tLoc);
+
+	if ( base.LevelRange ) then
+		tLR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..base.LevelRange;
+	end
 	AtlasText_LevelRange_Text:SetText(tLR);
+
+	if ( base.MinLevel ) then
+		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..base.MinLevel;
+	end
 	AtlasText_MinLevel_Text:SetText(tML);
+
+	if ( base.PlayerLimit ) then
+		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..base.PlayerLimit;
+	end
 	AtlasText_PlayerLimit_Text:SetText(tPL);
 
 	-- Check if Journal Encounter Instance is available

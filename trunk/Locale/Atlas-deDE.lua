@@ -156,6 +156,7 @@ if AL then
 	AL["Lunar Festival"] = "Mondfest";
 	AL["Midsummer Festival"] = "Sonnenwendfest";
 	--Misc strings
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Erwachsen";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Arkaner Behälter";

@@ -26,6 +26,8 @@
 
 -- Atlas JournalEncounter Integration
 
+local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+
 function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
@@ -34,11 +36,11 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	EncounterJournal_ListInstances();
 	EncounterJournal_DisplayInstance(base.JournalInstanceID);
 
-	if not EncounterJournal:IsShown() then
-		EncounterJournal:Show()
+	if ( not EncounterJournal:IsShown() ) then
+		EncounterJournal:Show();
 	else
-		EncounterJournal:Hide()
-		EncounterJournal:Show()
+		EncounterJournal:Hide();
+		EncounterJournal:Show();
 	end
 
 end
@@ -53,10 +55,11 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	
 		local name, description = EJ_GetInstanceInfo();
 
-		GameTooltip:SetOwner(frame, "ANCHOR_CURSOR");
+		GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
 		GameTooltip:SetText(name);
 		GameTooltipTextLeft1:SetTextColor(1, 1, 1);
 		GameTooltip:AddLine(description, nil, nil, nil, true);
+		GameTooltip:AddLine(AL["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
 		GameTooltip:Show();
 	else
 		GameTooltip:Hide();

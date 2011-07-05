@@ -156,7 +156,7 @@ if AL then
 	AL["Lunar Festival"] = "Mondfest";
 	AL["Midsummer Festival"] = "Sonnenwendfest";
 	--Misc strings
-	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Colon"] = ": ";
 	AL["Adult"] = "Erwachsen";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Arkaner Behälter";
@@ -169,6 +169,7 @@ if AL then
 	AL["Chase Begins"] = "Jagd beginnt";
 	AL["Chase Ends"] = "Jagd endet";
 	AL["Child"] = "Kind";
+	AL["Click to open Dungeon Journal window."] = "Zum Öffnen des Dungeonkompendiums klicken.";
 	AL["Connection"] = "Verbindung";
 	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Aufzug";

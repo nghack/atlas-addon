@@ -8,8 +8,8 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>, Atlas Teams
 ==============
 v1.20.1 (Jul. 06, 2011)
 - Updated Eye of the Storm map (dubca7)
-- Added Journal Encounter button to Atlas frame (arith)
-- minor additions & bugfixes
+- Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
+- Minor additions, bugfixes, and layout tuning (Dynaletik, arith)
 - Translation update
   - German (Dynaletik)
   - Russian (StingerSoft)

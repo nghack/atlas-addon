@@ -14,7 +14,7 @@
 ## Notes-zhTW: Atlas 交通網路圖模組，顯示各大陸的海陸空交通節點
 ## Version: 1.20.1
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: July xx, 2011
+## X-Date: July 06, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Website: http://www.atlasmod.com

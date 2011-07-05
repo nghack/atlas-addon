@@ -14,7 +14,7 @@
 ## Notes-zhTW: Atlas 戶外首領地圖模組
 ## Version: 1.20.1
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: July xx, 2011
+## X-Date: July 06, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.wowaddon@gmail.com
 ## X-Website: http://www.atlasmod.com

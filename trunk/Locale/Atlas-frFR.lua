@@ -155,8 +155,9 @@ if AL then
 	AL["Love is in the Air"] = "De l'amour dans l'air";
 	AL["Lunar Festival"] = "Festival lunaire";
 	AL["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
+	
 	--Misc strings
-	AL["Colon"] = " : "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Colon"] = " : ";
 	AL["Adult"] = "Adulte";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Récipient arcanique";
@@ -169,13 +170,14 @@ if AL then
 	AL["Chase Begins"] = "Début de la chasse";
 	AL["Chase Ends"] = "Fin de la chasse";
 	AL["Child"] = "Enfant";
+	AL["Click to open Dungeon Journal window."] = "Cliquer pour ouvrir la fenêtre du codex des donjons";
 	AL["Connection"] = "Connexion";
 	AL["DS2"] = "Set D2";
 	AL["Elevator"] = "Ascenseur";
 	AL["End"] = "Fin";
 	AL["Engineer"] = "Ingénieur";
 	AL["Entrance"] = "Entrée";
-	AL["Event"] = "Evènement "; -- Espace pour le blanc avant une double ponctuation
+	AL["Event"] = "Evènement";
 	AL["Exalted"] = "Exalté";
 	AL["Exit"] = "Sortie";
 	AL["Fourth Stop"] = "Quatrième arrêt";
@@ -188,7 +190,7 @@ if AL then
 	AL["Hunter"] = "Chasseur";
 	AL["Imp"] = "Diablotin";
 	AL["Inside"] = "À l'intérieur";
-	AL["Key"] = "Clé "; -- Espace pour le blanc avant une double ponctuation
+	AL["Key"] = "Clé";
 	AL["Lower"] = "En bas";
 	AL["Mage"] = "Mage";
 	AL["Meeting Stone"] = "Pierre de rencontre";
@@ -205,7 +207,7 @@ if AL then
 	AL["Purple"] = "Violet";
 	AL["Random"] = "Aléatoire";
 	AL["Rare"] = "Rare";
-	AL["Reputation"] = "Réputation "; -- Espace pour le blanc avant une double ponctuation 
+	AL["Reputation"] = "Réputation";
 	AL["Repair"] = "Réparation";
 	AL["Retribution Paladin"] = "Paladin Vindicte";
 	AL["Rewards"] = "Récompenses";

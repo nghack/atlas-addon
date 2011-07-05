@@ -330,7 +330,7 @@
 			</Frame>
 			<Frame name="AtlasText_LevelRange">
 				<Size>
-					<AbsDimension x="351" y="15" />
+					<AbsDimension x="300" y="15" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
@@ -343,7 +343,7 @@
 					<Layer level="OVERLAY">
 						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
 							<Size>
-								<AbsDimension x="351" y="15"/>
+								<AbsDimension x="300" y="15"/>
 							</Size>
 						</FontString>
 					</Layer>
@@ -359,7 +359,7 @@
 			</Frame>
 			<Frame name="AtlasText_MinLevel">
 				<Size>
-					<AbsDimension x="351" y="15" />
+					<AbsDimension x="300" y="15" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
@@ -372,7 +372,7 @@
 					<Layer level="OVERLAY">
 						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
 							<Size>
-								<AbsDimension x="351" y="15"/>
+								<AbsDimension x="300" y="15"/>
 							</Size>
 						</FontString>
 					</Layer>
@@ -388,7 +388,7 @@
 			</Frame>
 			<Frame name="AtlasText_PlayerLimit">
 				<Size>
-					<AbsDimension x="351" y="15" />
+					<AbsDimension x="300" y="15" />
 				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
@@ -401,7 +401,7 @@
 					<Layer level="OVERLAY">
 						<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
 							<Size>
-								<AbsDimension x="351" y="15"/>
+								<AbsDimension x="300" y="15"/>
 							</Size>
 						</FontString>
 					</Layer>

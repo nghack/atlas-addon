@@ -162,6 +162,7 @@ if AL then
 	AL["Chase Begins"] = "Chase Begins";
 	AL["Chase Ends"] = "Chase Ends";
 	AL["Child"] = "Child";
+	AL["Click to open Dungeon Journal window."] = "Click to open Dungeon Journal window.";
 	AL["Connection"] = "Connection";
 	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Elevator";

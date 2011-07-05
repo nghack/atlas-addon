@@ -164,14 +164,14 @@ Syntax:
 		{ GREN..INDENT..AL["Nozari <Keepers of Time>"].." ("..AL["Adult"]..")" };
 	};
 	CoTHyjalEnt = {
-		ZoneName = { BZ["Caverns of Time"]..": "..BZ["Hyjal Summit"].." ("..AL["Entrance"]..")" };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hyjal Summit"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["CoT3"];
-		{ PURP..AL["Event"]..": "..AL["Battle for Mount Hyjal"] };
-		{ ORNG..AL["Reputation"]..": "..BF["The Scale of the Sands"] };
+		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Alliance Base"] };
 		{ BLUE.." C) "..AL["Horde Encampment"] };
@@ -356,8 +356,8 @@ Syntax:
 		LevelRange = "75-83";
 		MinLevel = "72";
 		PlayerLimit = "5/10/25";
-		{ BLUE.." A) "..BZ["Ulduar"]..": "..BZ["Halls of Stone"] };
-		{ BLUE.." B) "..BZ["Ulduar"]..": "..BZ["Halls of Lightning"] };
+		{ BLUE.." A) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Stone"] };
+		{ BLUE.." B) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Lightning"] };
 		{ BLUE.." C) "..BZ["Ulduar"] };
 		{ GREN.." 1') "..AL["Meeting Stone"] };
 		{ GREN.." 2') "..AL["Graveyard"] };
@@ -461,7 +461,7 @@ Syntax:
 		MinLevel = "31";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
-		{ ORNG..AL["Key"]..": "..AL["J'eevee's Jar"].." ("..BB["Lord Hel'nurath"]..")" };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["J'eevee's Jar"].." ("..BB["Lord Hel'nurath"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-E) "..AL["Connection"] };
 		{ WHIT.." 1) "..BB["Tendris Warpwood"] };
@@ -561,13 +561,13 @@ Syntax:
 		{ GREN.." 2') "..AL["Willix the Importer"] };
 	};
 	TheRuinsofAhnQiraj = {
-		ZoneName = { BZ["Ahn'Qiraj"]..": "..BZ["Ruins of Ahn'Qiraj"] };
+		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Ruins of Ahn'Qiraj"] };
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		LevelRange = "60-63";
 		MinLevel = "50";
 		PlayerLimit = "20";
 		Acronym = AL["AQ20"];
-		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Circle"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Circle"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Kurinnaxx"] };
 		{ GREN..INDENT..BB["Lieutenant General Andorov"] };
@@ -587,13 +587,13 @@ Syntax:
 		{ GREN.." 1') "..AL["Safe Room"] };
 	};
 	TheTempleofAhnQiraj = {
-		ZoneName = { BZ["Ahn'Qiraj"]..": "..BZ["Temple of Ahn'Qiraj"] };
+		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Temple of Ahn'Qiraj"] };
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		LevelRange = "60-63";
 		MinLevel = "50";
 		PlayerLimit = "40";
 		Acronym = AL["AQ40"];
-		{ ORNG..AL["Reputation"]..": "..BF["Brood of Nozdormu"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Brood of Nozdormu"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..BB["The Prophet Skeram"].." ("..AL["Outside"]..")" };
@@ -677,14 +677,14 @@ Syntax:
 --************************************************
 	
 	BlackrockDepths = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Depths"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Depths"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "53-56";
 		MinLevel = "42";
 		PlayerLimit = "5";
 		Acronym = AL["BRD"];
-		{ ORNG..AL["Key"]..": "..AL["Relic Coffer Key"] };
-		{ ORNG..AL["Key"]..": "..AL["Dark Keeper Key"] };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["Relic Coffer Key"] };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["Dark Keeper Key"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ BLUE.." E) "..BZ["Molten Core"] };
@@ -755,7 +755,7 @@ Syntax:
 		{ GREN.."14') "..AL["Shadowforge Brazier"] };
 	};
 	BlackrockSpireLower = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "55-58";
 		MinLevel = "48";
@@ -786,7 +786,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Roughshod Pike"] };
 	};
 	BlackrockSpireUpper = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "55-58";
 		MinLevel = "48";
@@ -810,7 +810,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Father Flame"] };
 	};
 	BlackwingLair = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Lair"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "60-63";
 		MinLevel = "55";
@@ -858,14 +858,14 @@ Syntax:
 		{ GREN.." 5') "..AL["Hann Ibal <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
 	};
 	MoltenCore = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Molten Core"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Molten Core"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "60-63";
 		MinLevel = "50";
 		PlayerLimit = "40";
 		Acronym = AL["MC"];
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..": "..BF["Hydraxian Waterlords"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Hydraxian Waterlords"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Lucifron"] };
 		{ WHIT.." 2) "..BB["Magmadar"] };
@@ -885,8 +885,8 @@ Syntax:
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Scholo"];
-		{ ORNG..AL["Key"]..": "..AL["Blood of Innocents"].." ("..BB["Kirtonos the Herald"]..")" };
-		{ ORNG..AL["Key"]..": "..AL["Divination Scryer"].." ("..BB["Death Knight Darkreaver"]..")" };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["Blood of Innocents"].." ("..BB["Kirtonos the Herald"]..")" };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["Divination Scryer"].." ("..BB["Death Knight Darkreaver"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Alexi Barov <House of Barov>"] };
 		{ GREN..INDENT..AL["Weldon Barov <House of Barov>"] };
@@ -943,7 +943,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
 	};
 	SMArmory = {
-		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Armory"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Armory"] };
 		Location = { BZ["Tirisfal Glades"] };
 		LevelRange = "31-34";
 		MinLevel = "21";
@@ -956,7 +956,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Dominic"] };
 	};
 	SMCathedral = {
-		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Cathedral"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Cathedral"] };
 		Location = { BZ["Tirisfal Glades"] };
 		LevelRange = "31-34";
 		MinLevel = "21";
@@ -971,7 +971,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Dominic"] };
 	};
 	SMGraveyard = {
-		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Graveyard"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Graveyard"] };
 		Location = { BZ["Tirisfal Glades"] };
 		LevelRange = "31-34";
 		MinLevel = "21";
@@ -987,7 +987,7 @@ Syntax:
 		{ GREN..INDENT..AL["Dark Ranger Velonara"].." ("..BF["Horde"]..")" };
 	};
 	SMLibrary = {
-		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Library"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Library"] };
 		Location = { BZ["Tirisfal Glades"] };
 		LevelRange = "31-34";
 		MinLevel = "21";
@@ -1100,7 +1100,7 @@ Syntax:
 		MinLevel = "45";
 		PlayerLimit = "5";
 		Acronym = AL["ST"];
-		{ ORNG..AL["AKA"]..": "..BZ["The Temple of Atal'Hakkar"] };
+		{ ORNG..AL["AKA"]..AL["Colon"]..BZ["The Temple of Atal'Hakkar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Avatar of Hakkar"] };
 		{ WHIT.." 2) "..BB["Jammal'an the Prophet"] };
@@ -1147,13 +1147,13 @@ Syntax:
 --************************************************
 
 	AuchAuchenaiCrypts = {
-		ZoneName = { BZ["Auchindoun"]..": "..BZ["Auchenai Crypts"] };
+		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Auchenai Crypts"] };
 		Location = { BZ["Terokkar Forest"] };
 		LevelRange = "65-67 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["AC"];
-		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Shirrak the Dead Watcher"] };
 		{ WHIT.." 2) "..BB["Exarch Maladaar"] };
@@ -1161,14 +1161,14 @@ Syntax:
 		{ GREN..INDENT..AL["D'ore"] };
 	};
 	AuchManaTombs = {
-		ZoneName = { BZ["Auchindoun"]..": "..BZ["Mana-Tombs"] };
+		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Mana-Tombs"] };
 		Location = { BZ["Terokkar Forest"] };
 		LevelRange = "64-66 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["MT"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Consortium"] };
-		{ ORNG..AL["Key"]..": "..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..BB["Yor"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Consortium"] };
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..BB["Yor"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Pandemonius"] };
 		{ ORNG..INDENT..AL["Shadow Lord Xiraxis"].." ("..AL["Summon"]..")" };
@@ -1180,13 +1180,13 @@ Syntax:
 		{ GREN..INDENT..AL["Ethereal Transporter Control Panel"] };
 	};
 	AuchSethekkHalls = {
-		ZoneName = { BZ["Auchindoun"]..": "..BZ["Sethekk Halls"] };
+		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Sethekk Halls"] };
 		Location = { BZ["Terokkar Forest"] };
 		LevelRange = "67-68 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["Seth"];
-		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Darkweaver Syth"] };
 		{ GREN..INDENT..AL["Lakka"] };
@@ -1195,13 +1195,13 @@ Syntax:
 		{ WHIT.." 3) "..BB["Talon King Ikiss"] };
 	};
 	AuchShadowLabyrinth = {
-		ZoneName = { BZ["Auchindoun"]..": "..BZ["Shadow Labyrinth"] };
+		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Shadow Labyrinth"] };
 		Location = { BZ["Terokkar Forest"] };
 		LevelRange = "67-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
 		Acronym = AL["SL"];
-		{ ORNG..AL["Reputation"]..": "..BF["Lower City"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Ambassador Hellmaw"] };
 		{ WHIT.." 2) "..BB["Blackheart the Inciter"] };
@@ -1219,7 +1219,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
-		{ ORNG..AL["Reputation"]..": "..BF["Ashtongue Deathsworn"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Towards Reliquary of Souls"] };
 		{ BLUE.." C) "..AL["Towards Teron Gorefiend"] };
@@ -1240,7 +1240,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
-		{ ORNG..AL["Reputation"]..": "..BF["Ashtongue Deathsworn"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." B) "..AL["Entrance"] };
 		{ BLUE.." C) "..AL["Entrance"] };
 		{ WHIT.." 4) "..BB["Gurtogg Bloodboil"] };
@@ -1257,7 +1257,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
-		{ ORNG..AL["Reputation"]..": "..BF["Ashtongue Deathsworn"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." D) "..AL["Entrance"] };
 		{ BLUE.." E) "..AL["Connection"] };
 		{ WHIT.." 7) "..BB["Mother Shahraz"] };
@@ -1269,13 +1269,13 @@ Syntax:
 		{ WHIT.." 9) "..BB["Illidan Stormrage"] };
 	};
 	CFRSerpentshrineCavern = {
-		ZoneName = { BZ["Coilfang Reservoir"]..": "..BZ["Serpentshrine Cavern"] };
+		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["Serpentshrine Cavern"] };
 		Location = { BZ["Zangarmarsh"] };
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["SC"];
-		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Hydross the Unstable"] };
 		{ WHIT.." 2) "..BB["The Lurker Below"] };
@@ -1286,13 +1286,13 @@ Syntax:
 		{ WHIT.." 6) "..BB["Lady Vashj"] };
 	};
 	CFRTheSlavePens = {
-		ZoneName = { BZ["Coilfang Reservoir"]..": "..BZ["The Slave Pens"] };
+		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Slave Pens"] };
 		Location = { BZ["Zangarmarsh"] };
 		LevelRange = "62-64 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SP"];
-		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Mennu the Betrayer"] };
 		{ WHIT.." 2) "..BB["Rokmar the Crackler"] };
@@ -1303,13 +1303,13 @@ Syntax:
 		{ GREN.." 3') "..AL["Naturalist Bite"] };
 	};
 	CFRTheSteamvault = {
-		ZoneName = { BZ["Coilfang Reservoir"]..": "..BZ["The Steamvault"] };
+		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Steamvault"] };
 		Location = { BZ["Zangarmarsh"] };
 		LevelRange = "67-75";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SV"];
-		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Hydromancer Thespia"] };
 		{ GREN..INDENT..AL["Main Chambers Access Panel"] };
@@ -1320,13 +1320,13 @@ Syntax:
 		{ GREN..INDENT..AL["Arcane Container"] };
 	};
 	CFRTheUnderbog = {
-		ZoneName = { BZ["Coilfang Reservoir"]..": "..BZ["The Underbog"] };
+		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Underbog"] };
 		Location = { BZ["Zangarmarsh"] };
 		LevelRange = "63-65 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["UB"];
-		{ ORNG..AL["Reputation"]..": "..BF["Cenarion Expedition"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Hungarfen"] };
 		{ GREN..INDENT..AL["The Underspore"] };
@@ -1337,33 +1337,33 @@ Syntax:
 		{ GREN.." 1') "..AL["Earthbinder Rayge"] };
 	};
 	CoTBlackMorass = {
-		ZoneName = { BZ["Caverns of Time"]..": "..BZ["The Black Morass"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["The Black Morass"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "68-75";
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["CoT2"];
-		{ PURP..AL["Event"]..": "..AL["Opening of the Dark Portal"] };
+		{ PURP..AL["Event"]..AL["Colon"]..AL["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..": "..BF["Keepers of Time"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Sa'at <Keepers of Time>"] };
 		{ ORNG.." X) "..AL["Portal"].." ("..AL["Spawn Point"]..")" };
-		{ WHIT..INDENT..AL["Wave 6"]..": "..BB["Chrono Lord Deja"] };
-		{ WHIT..INDENT..AL["Wave 12"]..": "..BB["Temporus"] };
-		{ WHIT..INDENT..AL["Wave 18"]..": "..BB["Aeonus"] };
+		{ WHIT..INDENT..AL["Wave 6"]..AL["Colon"]..BB["Chrono Lord Deja"] };
+		{ WHIT..INDENT..AL["Wave 12"]..AL["Colon"]..BB["Temporus"] };
+		{ WHIT..INDENT..AL["Wave 18"]..AL["Colon"]..BB["Aeonus"] };
 		{ GREN.." 1') "..AL["The Dark Portal"] };
 		{ GREN..INDENT..BB["Medivh"] };
 	};
 	CoTHyjal = {
-		ZoneName = { BZ["Caverns of Time"]..": "..BZ["Hyjal Summit"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hyjal Summit"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["CoT3"];
-		{ PURP..AL["Event"]..": "..AL["Battle for Mount Hyjal"] };
-		{ ORNG..AL["Reputation"]..": "..BF["The Scale of the Sands"] };
+		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Alliance Base"] };
 		{ GREN..INDENT..AL["Lady Jaina Proudmoore"] };
 		{ BLUE.." B) "..AL["Horde Encampment"] };
@@ -1377,15 +1377,15 @@ Syntax:
 		{ WHIT.." 5) "..BB["Archimonde"] };
 	};
 	CoTOldHillsbrad = {
-		ZoneName = { BZ["Caverns of Time"]..": "..BZ["Old Hillsbrad Foothills"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Old Hillsbrad Foothills"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "66-68 / 70";
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["CoT1"];
-		{ PURP..AL["Event"]..": "..AL["Escape from Durnholde Keep"] };
+		{ PURP..AL["Event"]..AL["Colon"]..AL["Escape from Durnholde Keep"] };
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..": "..BF["Keepers of Time"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Erozion"] };
 		{ GREN..INDENT..AL["Brazen"] };
@@ -1466,28 +1466,28 @@ Syntax:
 		{ WHIT.." 2) "..BB["Gruul the Dragonkiller"] };
 	};
 	HCBloodFurnace = {
-		ZoneName = { BZ["Hellfire Citadel"]..": "..BZ["The Blood Furnace"] };
+		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["The Blood Furnace"] };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "61-63 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["BF"];
-		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
-		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["The Maker"] };
 		{ WHIT.." 2) "..BB["Broggok"] };
 		{ WHIT.." 3) "..BB["Keli'dan the Breaker"] };
 	};
 	HCHellfireRamparts = {
-		ZoneName = { BZ["Hellfire Citadel"]..": "..BZ["Hellfire Ramparts"] };
+		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["Hellfire Ramparts"] };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "59-62 / 70";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["Ramp"];
-		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
-		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Watchkeeper Gargolmar"] };
 		{ WHIT.." 2) "..BB["Omor the Unscarred"] };
@@ -1496,7 +1496,7 @@ Syntax:
 		{ GREN..INDENT..AL["Reinforced Fel Iron Chest"] };
 	};
 	HCMagtheridonsLair = {
-		ZoneName = { BZ["Hellfire Citadel"]..": "..BZ["Magtheridon's Lair"] };
+		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["Magtheridon's Lair"] };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "70-73";
 		MinLevel = "65";
@@ -1506,14 +1506,14 @@ Syntax:
 		{ WHIT.." 1) "..BB["Magtheridon"] };
 	};
 	HCTheShatteredHalls = {
-		ZoneName = { BZ["Hellfire Citadel"]..": "..BZ["The Shattered Halls"] };
+		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["The Shattered Halls"] };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "67-75";
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SH"];
-		{ ORNG..AL["Reputation"]..": "..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
-		{ ORNG..AL["Reputation"]..": "..BF["Thrallmar"].." ("..BF["Horde"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Grand Warlock Nethekurse"] };
 		{ WHIT.." 2) "..BB["Blood Guard Porung"].." ("..AL["Heroic"]..")" };
@@ -1536,7 +1536,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Violet Eye"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B-J) "..AL["Connection"] };
 		{ WHIT.." 1) "..BB["Attumen the Huntsman"] };
@@ -1585,7 +1585,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Violet Eye"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
 		{ BLUE.." J) "..AL["Broken Stairs"] };
 		{ BLUE.." K) "..AL["Ramp to Guardian's Library"].." ("..BB["Shade of Aran"]..")" };
@@ -1615,7 +1615,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Acronym = AL["MaT"];
-		{ ORNG..AL["Reputation"]..": "..BF["Shattered Sun Offensive"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shattered Sun Offensive"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..BB["Selin Fireheart"] };
@@ -1658,13 +1658,13 @@ Syntax:
 		{ WHIT.." 4) "..BB["Kil'jaeden"] };
 	};
 	TempestKeepArcatraz = {
-		ZoneName = { BZ["Tempest Keep"]..": "..BZ["The Arcatraz"] };
+		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Arcatraz"] };
 		Location = { BZ["Netherstorm"] };
 		LevelRange = "68-75";
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Acronym = AL["Arca"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Zereketh the Unbound"] };
 		{ WHIT.." 2) "..BB["Dalliah the Doomsayer"] };
@@ -1677,13 +1677,13 @@ Syntax:
 		{ GREN.." 1') "..AL["Udalo"] };
 	};
 	TempestKeepBotanica = {
-		ZoneName = { BZ["Tempest Keep"]..": "..BZ["The Botanica"] };
+		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Botanica"] };
 		Location = { BZ["Netherstorm"] };
 		LevelRange = "67-75";
 		MinLevel = "67";
 		PlayerLimit = "5";
 		Acronym = AL["Bota"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..BB["Commander Sarannis"] };
@@ -1693,13 +1693,13 @@ Syntax:
 		{ WHIT.." 5) "..BB["Warp Splinter"] };
 	};
 	TempestKeepMechanar = {
-		ZoneName = { BZ["Tempest Keep"]..": "..BZ["The Mechanar"] };
+		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Mechanar"] };
 		Location = { BZ["Netherstorm"] };
 		LevelRange = "67-75";
 		MinLevel = "67";
 		PlayerLimit = "5";
 		Acronym = AL["Mech"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..BB["Gatewatcher Gyro-Kill"] };
@@ -1711,13 +1711,13 @@ Syntax:
 		{ GREN.." 1') "..BB["Cache of the Legion"] };
 	};
 	TempestKeepTheEye = {
-		ZoneName = { BZ["Tempest Keep"]..": "..BZ["The Eye"] };
+		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Eye"] };
 		Location = { BZ["Netherstorm"] };
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["TK"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Sha'tar"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Al'ar"] };
 		{ WHIT.." 2) "..BB["Void Reaver"] };
@@ -1768,18 +1768,18 @@ Syntax:
 		{ GREN.." 1') "..AL["Elder Nurgen"].." ("..AL["Lunar Festival"]..")" };
 	};
 	CoTOldStratholme = {
-		ZoneName = { BZ["Caverns of Time"]..": "..BZ["The Culling of Stratholme"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["The Culling of Stratholme"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "79 / 80";
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["CoT-Strat"];
-		{ PURP..AL["Event"]..": "..AL["The Culling of Stratholme"] };
+		{ PURP..AL["Event"]..AL["Colon"]..AL["The Culling of Stratholme"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ ORNG.." X) "..AL["Scourge Invasion Points"] };
-		{ WHIT..INDENT..AL["Wave 5"]..": "..BB["Meathook"] };
-		{ WHIT..INDENT..AL["Wave 10"]..": "..BB["Salramm the Fleshcrafter"] };
+		{ WHIT..INDENT..AL["Wave 5"]..AL["Colon"]..BB["Meathook"] };
+		{ WHIT..INDENT..AL["Wave 10"]..AL["Colon"]..BB["Salramm the Fleshcrafter"] };
 		{ WHIT.." 3) "..BB["Chrono-Lord Epoch"] };
 		{ WHIT.." 4) "..BB["Infinite Corruptor"].." ("..AL["Heroic"]..")" };
 		{ GREN..INDENT..AL["Guardian of Time"] };
@@ -1805,7 +1805,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Drakuru's Brazier"] };
 	};
 	FHHallsOfReflection = {
-		ZoneName = { BZ["The Frozen Halls"]..": "..BZ["Halls of Reflection"] };
+		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["Halls of Reflection"] };
 		Location = { BZ["Icecrown Citadel"] };
 		LevelRange = "80";
 		MinLevel = "75";
@@ -1824,7 +1824,7 @@ Syntax:
 		{ GREN..INDENT..AL["Dark Ranger Loralen"].." ("..BF["Horde"]..")" };
 	};
 	FHPitOfSaron = {
-		ZoneName = { BZ["The Frozen Halls"]..": "..BZ["Pit of Saron"] };
+		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["Pit of Saron"] };
 		Location = { BZ["Icecrown Citadel"] };
 		LevelRange = "80";
 		MinLevel = "75";
@@ -1847,7 +1847,7 @@ Syntax:
 		{ GREN..INDENT..AL["Dark Ranger Kalira"].." ("..BF["Horde"]..")" };
 	};
 	FHTheForgeOfSouls = {
-		ZoneName = { BZ["The Frozen Halls"]..": "..BZ["The Forge of Souls"] };
+		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["The Forge of Souls"] };
 		Location = { BZ["Icecrown Citadel"] };
 		LevelRange = "80";
 		MinLevel = "75";
@@ -1887,7 +1887,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Ashen Verdict"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ BLUE.." C) "..AL["To next map"] };
@@ -1908,7 +1908,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Ashen Verdict"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." C) "..AL["From previous map"] };
 		{ BLUE.." D-H) "..AL["Connection"] };
 		{ BLUE.." I) "..AL["To next map"] };
@@ -1937,7 +1937,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
-		{ ORNG..AL["Reputation"]..": "..BF["The Ashen Verdict"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." I) "..AL["From previous map"] };
 		{ WHIT.."16) "..BB["The Lich King"] };
 	};
@@ -1981,13 +1981,13 @@ Syntax:
 		{ GREN.." 1') "..AL["Teleporter to Middle"] };
 	};
 	ObsidianSanctum = {
-		ZoneName = { BZ["Wyrmrest Temple"]..": "..BZ["The Obsidian Sanctum"] };
+		ZoneName = { BZ["Wyrmrest Temple"]..AL["Colon"]..BZ["The Obsidian Sanctum"] };
 		Location = { BZ["Dragonblight"] };
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["OS"];
-		{ ORNG..AL["AKA"]..": "..AL["Black Dragonflight Chamber"] };
+		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Black Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Tenebron"] };
 		{ WHIT.." 2) "..BB["Shadron"] };
@@ -2005,13 +2005,13 @@ Syntax:
 		{ WHIT.." 1) "..BB["Onyxia"] };
 	};
 	RubySanctum = {
-		ZoneName = { BZ["Wyrmrest Temple"]..": "..BZ["The Ruby Sanctum"] };
+		ZoneName = { BZ["Wyrmrest Temple"]..AL["Colon"]..BZ["The Ruby Sanctum"] };
 		Location = { BZ["Dragonblight"] };
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["RS"];
-		{ ORNG..AL["AKA"]..": "..AL["Red Dragonflight Chamber"] };
+		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Red Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..BB["Baltharus the Warborn"] };
 		{ WHIT.." 2) "..BB["Saviana Ragefire"] };
@@ -2019,7 +2019,7 @@ Syntax:
 		{ WHIT.." 4) "..BB["Halion"] };		
 	};
 	TheEyeOfEternity = {
-		ZoneName = { BZ["The Nexus"]..": "..BZ["The Eye of Eternity"] };
+		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Eye of Eternity"] };
 		Location = { BZ["Borean Tundra"] };
 		LevelRange = "80-83";
 		MinLevel = "80";
@@ -2029,7 +2029,7 @@ Syntax:
 		{ WHIT.." 1) "..BB["Malygos"] };
 	};
 	TheNexus = {
-		ZoneName = { BZ["The Nexus"]..": "..BZ["The Nexus"] };
+		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Nexus"] };
 		Location = { BZ["Borean Tundra"] };
 		LevelRange = "71-73 / 80";
 		MinLevel = "66";
@@ -2046,7 +2046,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Elder Igasho"].." ("..AL["Lunar Festival"]..")" };
 	};
 	TheOculus = {
-		ZoneName = { BZ["The Nexus"]..": "..BZ["The Oculus"] };
+		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Oculus"] };
 		Location = { BZ["The Nexus"] };
 		LevelRange = "79 / 80";
 		MinLevel = "75";
@@ -2062,7 +2062,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Cache of Eregos"].." ("..AL["Upper"]..")" };
 	};
 	TrialOfTheChampion = {
-		ZoneName = { AL["Crusaders' Coliseum"]..": "..BZ["Trial of the Champion"] };
+		ZoneName = { AL["Crusaders' Coliseum"]..AL["Colon"]..BZ["Trial of the Champion"] };
 		Location = { BZ["Icecrown"] };
 		LevelRange = "78-80";
 		MinLevel = "75";
@@ -2087,7 +2087,7 @@ Syntax:
 		{ WHIT..INDENT..BB["The Black Knight"] };
 	};
 	TrialOfTheCrusader = {
-		ZoneName = { AL["Crusaders' Coliseum"]..": "..BZ["Trial of the Crusader"] };
+		ZoneName = { AL["Crusaders' Coliseum"]..AL["Colon"]..BZ["Trial of the Crusader"] };
 		Location = { BZ["Icecrown"] };
 		LevelRange = "80-83";
 		MinLevel = "80";
@@ -2195,7 +2195,7 @@ Syntax:
 		{ GREN.."10') "..BZ["The Prison of Yogg-Saron"].." ("..AL["Teleporter"]..")" };
 	};
 	UlduarHallsofLightning = {
-		ZoneName = { BZ["Ulduar"]..": "..BZ["Halls of Lightning"] };
+		ZoneName = { BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Lightning"] };
 		Location = { BZ["The Storm Peaks"] };
 		LevelRange = "79 / 80";
 		MinLevel = "75";
@@ -2208,7 +2208,7 @@ Syntax:
 		{ WHIT.." 4) "..BB["Loken"] };
 	};
 	UlduarHallsofStone = {
-		ZoneName = { BZ["Ulduar"]..": "..BZ["Halls of Stone"] };
+		ZoneName = { BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Stone"] };
 		Location = { BZ["The Storm Peaks"] };
 		LevelRange = "77-78 / 80";
 		MinLevel = "72";
@@ -2224,7 +2224,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
 	};
 	UtgardeKeep = {
-		ZoneName = { BZ["Utgarde Keep"]..": "..BZ["Utgarde Keep"] };
+		ZoneName = { BZ["Utgarde Keep"]..AL["Colon"]..BZ["Utgarde Keep"] };
 		Location = { BZ["Howling Fjord"] };
 		LevelRange = "69-72 / 80";
 		MinLevel = "65";
@@ -2240,7 +2240,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Elder Jarten"].." ("..AL["Lunar Festival"]..", "..AL["Lower"]..")" };
 	};
 	UtgardePinnacle = {
-		ZoneName = { BZ["Utgarde Keep"]..": "..BZ["Utgarde Pinnacle"] };
+		ZoneName = { BZ["Utgarde Keep"]..AL["Colon"]..BZ["Utgarde Pinnacle"] };
 		Location = { BZ["Utgarde Keep"] };
 		LevelRange = "79 / 80";
 		MinLevel = "75";
@@ -2296,14 +2296,14 @@ Syntax:
 		PlayerLimit = "10/25";
 		Acronym = AL["BH"];
 		JournalInstanceID = "75";
-		{ ORNG..AL["Reputation"]..": "..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
-		{ ORNG..AL["Reputation"]..": "..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(139) }; -- Argaloth
 		{ WHIT.." 2) "..EJ(140) }; -- Occu'thar
 	};
 	BlackrockCaverns = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackrock Caverns"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Caverns"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "80-82 / 85";
 		MinLevel = "80";
@@ -2321,7 +2321,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Teleporter"] };
 	};
 	BlackwingDescent = {
-		ZoneName = { BZ["Blackrock Mountain"]..": "..BZ["Blackwing Descent"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Descent"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2344,7 +2344,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		Acronym = AL["FL"];
 		JournalInstanceID = "78";
-		{ ORNG..AL["Reputation"]..": "..BF["Avengers of Hyjal"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Avengers of Hyjal"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
 		{ GREN..INDENT..AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] };
@@ -2474,7 +2474,7 @@ Syntax:
 		{ WHIT.." 2) "..EJ(155) }; -- Al'Akir
 	};
 	ThroneOfTheTides = {
-		ZoneName = { BZ["The Abyssal Maw"]..": "..BZ["Throne of the Tides"] };
+		ZoneName = { BZ["The Abyssal Maw"]..AL["Colon"]..BZ["Throne of the Tides"] };
 		Location = { BZ["Abyssal Depths"].." / "..BZ["The Abyssal Maw"] };
 		LevelRange = "80-82 / 85";
 		MinLevel = "80";

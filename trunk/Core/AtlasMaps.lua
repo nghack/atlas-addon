@@ -59,6 +59,7 @@ Syntax:
 		MinLevel = "minimum level";
 		PlayerLimit = "player limit";
 		Acronym = "acronym";
+		JournalInstanceID = "journal instance ID";
 		{ "list entry 1" };
 		{ "list entry 2" };
 		{ "list entry 3" };

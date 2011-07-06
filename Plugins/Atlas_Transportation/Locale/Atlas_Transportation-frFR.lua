@@ -43,11 +43,11 @@ if AL then
 	AL["Requires honored faction with Sha'tari Skyguard"] = "Honoré avec la Garde-ciel sha'tari";
 	AL["Seahorse"] = "Hippocampe";
 	AL["South of the path along Lake Elune'ara"] = "Sud du chemin du lac d'Elune'ara";
+	AL["Special transportation"] = "Transport spécial";
 	AL["Taxi Nodes"] = "Nœuds de transports";
 	AL["Transportation Maps"] = "Cartes des Transports";
 	AL["Transporter"] = "Transporteur";
     AL["Transporters by the sea and on the cliff"] = "Transporteurs par la mer et sur la falaise"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
-	AL["Special transportation"] = "Transport spécial";
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
 	AL["Wind Rider"] = "Coursier du vent";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "N'est plus disponible une fois la série de quêtes de la Bataille pour Andorhal terminée."; -- After quest "Alas, Andorhal" (27206) is completed.

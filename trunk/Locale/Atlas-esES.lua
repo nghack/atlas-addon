@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 25/06/2011
+-- Última Actualización (last update): 06/07/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -161,6 +161,7 @@ if AL then
 	AL["Chase Begins"] = "Comienza persecución";
 	AL["Chase Ends"] = "Final persecución";
 	AL["Child"] = "Niño";
+	AL["Click to open Dungeon Journal window."] = "Click para abrir la ventana de la Guía de mazmorras.";
 	AL["Connection"] = "Conexión";
 	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Ascensor";
@@ -1025,8 +1026,8 @@ if AL then
 	--Blackwing Descent
 
 	--Firelands
-	--AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>"; -- 54402
-	--AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>"; -- 54401
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Vid de la Ira <Coleccionista de piedras de fuego cristalizadas>"; -- 54402
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Furiatormenta <Intendente de los Vengadores de Hyjal>"; -- 54401
 
 	--Grim Batol
 	AL["Baleflame"] = "Fardollama";

@@ -163,6 +163,7 @@ if AL then
 	AL["Chase Begins"] = "Начало охоты";
 	AL["Chase Ends"] = "Конец охоты";
 	AL["Child"] = "Ребенок";
+	AL["Click to open Dungeon Journal window."] = "[ЛКМ] - открывает окно журнала подземелий.";
 	AL["Connection"] = "Связан";
 	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Лифт";

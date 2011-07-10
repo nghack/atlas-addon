@@ -85,6 +85,18 @@ function AtlasOptions_CtrlToggle()
 	Atlas_Refresh();
 end
 
+function AtlasOptions_ToggleLock()
+	if(AtlasOptions.AtlasLocked) then
+		AtlasOptions.AtlasLocked = false;
+		Atlas_UpdateLock();
+	else
+		AtlasOptions.AtlasLocked = true;
+		Atlas_UpdateLock();
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
 	AtlasOptions.AtlasType = 1;
@@ -118,6 +130,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameAcronyms:SetChecked(AtlasOptions.AtlasAcronyms);
 	AtlasOptionsFrameClamped:SetChecked(AtlasOptions.AtlasClamped);
 	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
+	AtlasOptionsFrameLock:SetChecked(AtlasOptions.AtlasLocked);
 	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);

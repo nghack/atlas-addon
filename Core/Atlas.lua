@@ -360,13 +360,7 @@ end
 
 --Simple function to toggle the Atlas frame's lock status and update it's appearance
 function Atlas_ToggleLock()
-	if(AtlasOptions.AtlasLocked) then
-		AtlasOptions.AtlasLocked = false;
-		Atlas_UpdateLock();
-	else
-		AtlasOptions.AtlasLocked = true;
-		Atlas_UpdateLock();
-	end
+	AtlasOptions_ToggleLock();
 end
 
 --Updates the appearance of the lock button based on the status of AtlasLocked

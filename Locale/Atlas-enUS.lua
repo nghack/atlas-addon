@@ -73,6 +73,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Auto-Select Instance Map";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Auto-select instance map, Atlas will detect your location to choose the best instance map for you.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Button Position";
+	AL["ATLAS_OPTIONS_LOCK"] = "Lock Atlas window";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "Toggle lock / unlock of Atlas window.";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparency";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Right-Click for World Map";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Enable the Right-Click in Atlas window to switch to WoW World Map.";

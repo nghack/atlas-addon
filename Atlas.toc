@@ -19,23 +19,12 @@
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com
 ## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW
-## X-Date: July 06, 2011
+## X-Date: July 11, 2011
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariables: AtlasOptions
 
 Libs\Libs.xml
 Locale\Locales.xml
-
-Core\AtlasMaps.lua
-
-Core\AtlasDropDown.lua
-
-Core\Atlas.lua
 Core\Atlas.xml
-Core\AtlasJournalEncounter.lua
-
-Core\AtlasButton.lua
-Core\AtlasButton.xml
-
-Core\AtlasOptions.lua
 Core\AtlasOptions.xml
+Core\AtlasButton.xml

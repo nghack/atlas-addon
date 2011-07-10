@@ -6,7 +6,7 @@ Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>, Atlas Teams
 ==============
 = Change Log =
 ==============
-v1.20.1 (Jul. 06, 2011)
+v1.20.1 (Jul. 11, 2011)
 - Updated Eye of the Storm map (dubca7)
 - Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
 - Minor additions, bugfixes, and layout tuning (Dynaletik, arith)
@@ -15,6 +15,8 @@ v1.20.1 (Jul. 06, 2011)
   - Russian (StingerSoft)
   - French (Khiria)
   - Traditional Chinese (arith)
+  - Spanish (maqjav)
+  - Russian (StingerSoft)
 
 v1.20.0 (Jun. 28, 2011)
 - TOC update to support WoW 4.2

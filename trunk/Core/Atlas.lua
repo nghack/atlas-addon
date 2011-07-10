@@ -38,21 +38,20 @@ local function debug(info)
 	end
 end
 
+-- Initialization
 ATLAS_VERSION = GetAddOnMetadata("Atlas", "Version");
-
---all in one place now
 ATLAS_DROPDOWNS = {};
 ATLAS_INST_ENT_DROPDOWN = {};
-
 ATLAS_NUM_LINES = 24;
 ATLAS_CUR_LINES = 0;
 ATLAS_SCROLL_LIST = {};
-
 ATLAS_DATA = {};
 ATLAS_SEARCH_METHOD = nil;
-
--- Only update below version number when the options has been revised and a force update is needed.
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2";
+ATLAS_PLUGINS = {};
+ATLAS_PLUGIN_DATA = {};
+local GREN = "|cff66cc33";
+-- Only update this version number when the options have been revised and a force update is needed.
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
@@ -72,13 +71,12 @@ local DefaultAtlasOptions = {
 	["AtlasCtrl"] = false;
 };
 
-
 function Atlas_FreshOptions()
 	AtlasOptions = CloneTable(DefaultAtlasOptions);
 end
 
 --Code by Grayhoof (SCT)
-function CloneTable(t)				-- return a copy of the table t
+local function CloneTable(t)				-- return a copy of the table t
 	local new = {};					-- create a new table
 	local i, v = next(t, nil);		-- i is an index of t, v = t[i]
 	while i do
@@ -90,10 +88,6 @@ function CloneTable(t)				-- return a copy of the table t
 	end
 	return new;
 end
-
-ATLAS_PLUGINS = {};
-ATLAS_PLUGIN_DATA = {};
-local GREN = "|cff66cc33";
 
 -- Below to temporary create a table to store the core map's data
 -- in order to identify the dropdown's zoneID is belonging to the
@@ -159,15 +153,6 @@ local function Process_Deprecated()
 	--nil version means NO version will EVER be loaded!
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
---[[
-		{ "Atlas_Entrances", nil }, --entrances were rolled into core addon
-		{ "Atlas_FlightPaths", nil }, --renamed to Atlas_Transportation
-		{ "AtlasEntrances", nil }, --old name for entrances module
-		{ "AtlasFlightPaths", nil }, --old name for flight paths module
-		{ "AtlasDungeonLocs", nil }, --old name for dungeon location module
-		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
-		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
-]]		
 		--most recent (working) versions of known modules at time of release
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.4" }, -- updated May 24, 2011
@@ -227,10 +212,7 @@ function Atlas_OnLoad(self)
 	--Setting up slash commands involves referencing some strage auto-generated variables
 	SLASH_ATLAS1 = ATLAS_SLASH;
 	SlashCmdList["ATLAS"] = Atlas_SlashCommand;
-	
-
 end
-
 
 --Removal of articles in map names (for proper alphabetic sorting)
 --For example: "The Deadmines" will become "Deadmines"
@@ -253,9 +235,6 @@ local function Atlas_SanitizeName(text)
    return text;
 end
 
-
-
-
 --Comparator function for alphabetic sorting of maps
 --yey, one function for everything
 local function Atlas_SortZonesAlpha(a, b)
@@ -263,8 +242,6 @@ local function Atlas_SortZonesAlpha(a, b)
 	local bb = Atlas_SanitizeName(AtlasMaps[b].ZoneName[1]);
 	return aa < bb;
 end
-
-
 
 --Main Atlas event handler
 function Atlas_OnEvent(self, event, ...)
@@ -344,7 +321,6 @@ function Atlas_Init()
 	
 	--populate the dropdown lists...yeeeah this is so much nicer!
 	Atlas_PopulateDropdowns();
-	
 	
 	if ( ATLAS_DROPDOWNS[AtlasOptions.AtlasType] == nil ) then
 		ATLAS_OLD_TYPE = AtlasOptions.AtlasType;
@@ -594,7 +570,6 @@ function Atlas_Refresh()
 	
 end
 
-
 --when the switch button is clicked
 --we can basically assume that there's a match
 --find it, set it, then update menus and the maps
@@ -645,12 +620,9 @@ function AtlasSwitchDD_Sort(a, b)
 	return aa < bb;
 end
 
-
-
 --Function used to initialize the map type dropdown menu
 --Cycle through Atlas_MapTypes to populate the dropdown
 function AtlasFrameDropDownType_Initialize()
-
 	local info, i;
 	local catName = Atlas_DropDownLayouts_Order[AtlasOptions.AtlasSortBy];
 	local subcatOrder = Atlas_DropDownLayouts_Order[catName];
@@ -668,7 +640,6 @@ function AtlasFrameDropDownType_Initialize()
 		};
 		UIDropDownMenu_AddButton(info);
 	end
-	
 end
 
 --Called whenever the map type dropdown menu is shown
@@ -692,7 +663,6 @@ end
 --Function used to initialize the main dropdown menu
 --Looks at the status of AtlasType to determine how to populate the list
 function AtlasFrameDropDown_Initialize()
-
 	local info;
 	for k,v in pairs(ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) do
 		info = {
@@ -729,7 +699,6 @@ function Atlas_GetFixedZoneText()
 	end
 	return currentZone;
 end 
-
 
 --Checks the player's current location against all Atlas maps
 --If a match is found display that map right away
@@ -934,36 +903,3 @@ function AtlasEntryTemplate_OnUpdate(self)
 	end
 end
 
---[[ Test code for future added, to display boss description
-function AtlasEntryTemplate_OnEnter(self)
-	if ( MouseIsOver(self) ) then
-		if ( IsControlKeyDown() ) then
-			if ( not GameTooltip:IsShown() ) then
-				local str = _G[self:GetName().."_Text"]:GetText();
-				if ( str ) then
-					GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
-					GameTooltip:SetBackdropBorderColor(0,0,0,0);
-					GameTooltip:SetBackdropColor(0,0,0,1);
-					local colorCheck = string.sub(str, 1, 4);
-					if ( colorCheck == "|cff" ) then
-						local color = string.sub(str, 1, 10);
-						local stripped = strtrim(string.sub(str, 11));
-						GameTooltip:SetText(color..stripped,1,1,1,1);
-					else
-						GameTooltip:SetText(str,1,1,1,1);
-					end
-				end
-			end
-		else
-			if ( not GameTooltip:IsShown() ) then
-				--local bossname = _G[self:GetName().."_Text"]:GetText();
-				local ejbossname, description = EJ_GetEncounterInfo(195);
-				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
-				GameTooltip:SetBackdropBorderColor(0,0,0,0);
-				GameTooltip:SetBackdropColor(0,0,0,1);
-				GameTooltip:SetText(ejbossname,1,1,1,1);
-			end
-		end
-	end
-end
-]]

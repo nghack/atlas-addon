@@ -80,6 +80,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Automatische Karten-Auswahl";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Instanzkarte automatisch auswählen. Atlas wählt je nach aktueller Position die beste Instanzkarte aus.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Schalterposition";
+	AL["ATLAS_OPTIONS_LOCK"] = "Bewegung des Atlasfensters sperren";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "Bewegungssperre des Fensters ein / ausschalten.";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparenz";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Rechte Maustaste für Weltkarte drücken";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Aktiviert das Rechtsklicken im Atlasfenster, um die WoW Weltkarte anzuzeigen.";

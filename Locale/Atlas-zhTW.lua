@@ -71,6 +71,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "自動選擇副本地圖";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可偵測您目前所在的副區域以顯示一個最佳的副本地圖";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "按鈕位置";
+	AL["ATLAS_OPTIONS_LOCK"] = "鎖定 Atlas 視窗位置";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "設定將 Atlas 視窗位置鎖定或不鎖定";
 	AL["ATLAS_OPTIONS_TRANS"] = "透明度";
 	AL["ATLAS_OPTIONS_RCLICK"] = "滑鼠右鍵開啟世界地圖";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "啟用在 Atlas 視窗中按下滑鼠右鍵自動切換到魔獸的世界地圖";

@@ -14,7 +14,7 @@
 ## Author: arith, Dynaletik, Deadca7
 ## Version: 1.20.1
 ## X-Category: Map
-## X-Email: atlas.wowaddon@gmail.com
+## X-Email: atlas.ddon@gmail.com
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-License: GPLv2
 ## X-Website: http://www.atlasmod.com

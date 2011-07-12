@@ -1,7 +1,7 @@
 ﻿Atlas, ein World-of-Warcraft-Instanzkarten-Browser
 Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
+Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 
 ===============
@@ -49,7 +49,7 @@ http://www.atlasmod.com/phpBB3/
 ===========
 
 Sie können den Projekteigentümer unter folgender Adresse erreichen:
-Arith Hsu <atlas.wowaddon@gmail.com>
+Arith Hsu
 Oder hinterlassen Sie eine Nachricht im Forum.
 
 

@@ -16,7 +16,7 @@
 ## Author: arith, Dynaletik, Deadca7
 ## X-Date: July 11, 2011
 ## X-Credits: Dan Gilbert, Lothaer
-## X-Email: atlas.wowaddon@gmail.com
+## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
 ## RequiredDeps: Atlas

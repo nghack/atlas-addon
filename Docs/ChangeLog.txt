@@ -10,6 +10,7 @@ v1.20.1 (Jul. 11, 2011)
 - Updated Eye of the Storm map (dubca7)
 - Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
 - Minor additions, bugfixes, and layout tuning (Dynaletik, arith)
+- Firelands map info updated (Dynaletik)
 - Translation update
   - German (Dynaletik)
   - Russian (StingerSoft)

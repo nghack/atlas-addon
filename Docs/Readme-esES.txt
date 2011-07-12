@@ -1,7 +1,7 @@
 ﻿Atlas, a World of Warcraft instance map browser
 Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu <atlas.wowaddon@gmail.com>
+Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 
 ===================
@@ -53,7 +53,7 @@ http://www.atlasmod.com/phpBB3/
 ============
 
 Puedes contactar con el propietario del proyecto en la siguiente dirección:
-Arith Hsu <atlas.wowaddon@gmail.com>
+Arith Hsu
 O visitar nuestro foro y dejar un mensaje.
 
 

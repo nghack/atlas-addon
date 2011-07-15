@@ -155,7 +155,7 @@ local function Process_Deprecated()
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
-		{ "AtlasQuest", "4.6.4" }, -- updated May 24, 2011
+		{ "AtlasQuest", "4.6.5" }, -- updated July 15, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
 		{ "AtlasLoot", "6.04.04" }, -- updated July 11, 2011
 		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011

@@ -15,12 +15,14 @@
 ## Version: 1.20.1
 ## OptionalDeps: Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-SubZone-3.0, LibDataBroker-1.1, LibAboutPanel, CallbackHandler-1.0
 ## X-Category: Map
-## X-Email: atlas.ddon@gmail.com
 ## X-Credits: Dan Gilbert, Lothaer
-## X-License: GPLv2
-## X-Website: http://www.atlasmod.com
-## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhCN, zhTW
 ## X-Date: July 11, 2011
+## X-Donate: http://pledgie.com/campaigns/14729
+## X-Email: atlas.addon@gmail.com
+## X-Feedback: http://www.atlasmod.com/phpBB3/
+## X-License: GPLv2
+## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhTW, zhCN (outdated)
+## X-Website: http://www.atlasmod.com
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariables: AtlasOptions
 

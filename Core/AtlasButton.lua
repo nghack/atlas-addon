@@ -33,6 +33,9 @@ function AtlasButton_OnClick()
 end
 
 function AtlasButton_Init()
+	if ( AtlasOptions == nil ) then
+		Atlas_FreshOptions();
+	end
 	if(AtlasOptions.AtlasButtonShown) then
 		AtlasButtonFrame:Show();
 	else

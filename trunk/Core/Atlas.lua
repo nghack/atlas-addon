@@ -77,7 +77,7 @@ local function Atlas_CloneTable(t)		-- return a copy of the table t
 	local i, v = next(t, nil);		-- i is an index of t, v = t[i]
 	while i do
 		if type(v)=="table" then 
-			v=CloneTable(v);
+			v=Atlas_CloneTable(v);
 		end 
 		new[i] = v;
 		i, v = next(t, i);		-- get next index

@@ -71,12 +71,8 @@ local DefaultAtlasOptions = {
 	["AtlasCtrl"] = false;
 };
 
-function Atlas_FreshOptions()
-	AtlasOptions = CloneTable(DefaultAtlasOptions);
-end
-
 --Code by Grayhoof (SCT)
-local function CloneTable(t)				-- return a copy of the table t
+local function Atlas_CloneTable(t)				-- return a copy of the table t
 	local new = {};					-- create a new table
 	local i, v = next(t, nil);		-- i is an index of t, v = t[i]
 	while i do
@@ -88,6 +84,11 @@ local function CloneTable(t)				-- return a copy of the table t
 	end
 	return new;
 end
+
+function Atlas_FreshOptions()
+	AtlasOptions = Atlas_CloneTable(DefaultAtlasOptions);
+end
+
 
 -- Below to temporary create a table to store the core map's data
 -- in order to identify the dropdown's zoneID is belonging to the

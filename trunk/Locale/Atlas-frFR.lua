@@ -80,6 +80,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Sélection automatique de la carte";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Sélection automatique de la carte, Atlas détectera votre localisation pour choisir votre instance à afficher.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Position du bouton";
+	AL["ATLAS_OPTIONS_LOCK"] = "Verrouiller la fenêtre d'Atlas";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "Verrouiller/déverrouiller la fenêtre d'Atlas";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparence";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Clic-Droit pour afficher la carte du monde";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Active le clic-droit dans la fenêtre Atlas pour afficher la carte du monde.";

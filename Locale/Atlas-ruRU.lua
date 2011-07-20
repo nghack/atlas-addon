@@ -74,6 +74,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Автоматический выбор поздемелья";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Автоматический выбор карты поздемелья, Атлас будет определить ваше местоположение, чтобы выбрать лучшую карту подземелья для вас.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Расположение кнопки";
+	AL["ATLAS_OPTIONS_LOCK"] = "Закрепить окно Атласа";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "Закрепить / освободить окно Атласа.";
 	AL["ATLAS_OPTIONS_TRANS"] = "Прозрачность";
 	AL["ATLAS_OPTIONS_RCLICK"] = "[ПКМ] для карты мира";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Включает отображение мировой карты при нажатии ПКМ в окне Атласа.";

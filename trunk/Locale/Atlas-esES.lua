@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 06/07/2011
+-- Última Actualización (last update): 20/07/2011
 
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
@@ -73,6 +73,8 @@ if AL then
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "Auto-Seleccionar mazmorra";
 	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Auto seleccionar mapa de mazmorra. Atlas detectará tu posición y elegirá mostrarte el mapa mas idóneo.";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "Posición del icono";
+	AL["ATLAS_OPTIONS_LOCK"] = "Bloquea la ventana de Atlas";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "Bloquea / desbloquea la ventana de Atlas.";
 	AL["ATLAS_OPTIONS_TRANS"] = "Transparencia";
 	AL["ATLAS_OPTIONS_RCLICK"] = "Botón derecho para mapa del mundo";
 	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "Activa click derecho en la ventana del Atlas para cambiar al mapa del mundo.";
@@ -566,7 +568,7 @@ if AL then
 	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Señor de la guerra Dientegore <Fuerza Expedicionaria de Kargath>";
 	AL["The Black Forge"] = "La Forjanegra";
 	AL["Core Fragment"] = "Trozo del Núcleo";
-	AL["Shadowforge Brazier"] = "Brasero Forjatiniebla"; --Check
+	AL["Shadowforge Brazier"] = "Blandón Forjatiniebla"; --Check
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Pila de tributo a Urok";

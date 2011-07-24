@@ -55,34 +55,34 @@ ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2";
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
-	["AtlasZone"] = 1;
-	["AtlasAlpha"] = 1.0;
-	["AtlasLocked"] = false;
-	["AtlasAutoSelect"] = false;
-	["AtlasButtonPosition"] = 26;
-	["AtlasButtonRadius"] = 78;
-	["AtlasButtonShown"] = true;
-	["AtlasRightClick"] = false;
-	["AtlasType"] = 1;
-	["AtlasAcronyms"] = true;
-	["AtlasScale"] = 1.0;
-	["AtlasClamped"] = true;
-	["AtlasSortBy"] = 1;
-	["AtlasCtrl"] = false;
+	["AtlasAlpha"] = 1.0;		-- Atlas frame's transparency
+	["AtlasLocked"] = false;	-- lock Atlas frame position
+	["AtlasAutoSelect"] = false;	-- auto select map
+	["AtlasButtonPosition"] = 26;	-- minimap button position
+	["AtlasButtonRadius"] = 78;	-- minimap button radius
+	["AtlasButtonShown"] = true;	-- show / hide Atlas button
+	["AtlasRightClick"] = false;	-- right click to open world map
+	["AtlasType"] = 1;		-- default or last selected map type (category)
+	["AtlasZone"] = 1;		-- default or last selected map / zone
+	["AtlasAcronyms"] = true;	-- show dungeon's acronyms
+	["AtlasScale"] = 1.0;		-- Atlas frame scale
+	["AtlasClamped"] = true;	-- clamp to WoW window
+	["AtlasSortBy"] = 1;		-- maps' sorting type, 1: CONTINENT; 2: LEVEL; 3: PARTYSIZE; 4: EXPANSION; 5: TYPE
+	["AtlasCtrl"] = false;		-- press ctrl and mouse over to show full description text
 };
 
 --Code by Grayhoof (SCT)
-local function Atlas_CloneTable(t)		-- return a copy of the table t
-	local new = {};				-- create a new table
-	local i, v = next(t, nil);		-- i is an index of t, v = t[i]
-	while i do
-		if type(v)=="table" then 
-			v=Atlas_CloneTable(v);
+local function Atlas_CloneTable(tablein)	-- return a copy of the table tablein
+	local new_table = {};			-- create a new table
+	local ka, va = next(tablein, nil);	-- ka is an index of tablein; va = tablein[ka]
+	while ka do
+		if type(va)=="table" then 
+			va=Atlas_CloneTable(va);
 		end 
-		new[i] = v;
-		i, v = next(t, i);		-- get next index
+		new_table[ka] = va;
+		ka, va = next(tablein, ka);	-- get next index
 	end
-	return new;
+	return new_table;
 end
 
 function Atlas_FreshOptions()

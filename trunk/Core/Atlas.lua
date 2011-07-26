@@ -709,22 +709,12 @@ function Atlas_AutoSelect()
 	-- And we will choose a proper one to be the default one.
 	debug("currentZone: "..currentZone..", currentSubZone: "..currentSubZone);
 	if ( Atlas_AssocDefaults[currentZone] ) then
-		debug("You're in a zone where SubZone data is relevant. Current subzone is: "..currentSubZone);
+		local search_zone;
 		-- Check if current subzone is defined in the SubZoneData table
 		-- If yes, means current subzone will be mapped to a specific map
 		if ( Atlas_SubZoneData[currentSubZone] ) then
 			debug("There's data for your current SubZone.");
-			for ka,va in pairs(ATLAS_DROPDOWNS) do
-				for kb,vb in pairs(va) do         
-					if ( Atlas_SubZoneData[currentSubZone] == vb ) then
-						AtlasOptions.AtlasType = ka;
-						AtlasOptions.AtlasZone = kb;
-						Atlas_Refresh();
-						debug("Map changed directly based on SubZone data.");
-						return;
-					end
-				end
-			end
+			search_zone = Atlas_SubZoneData[currentSubZone];
 		-- Check if current subzone is defined in the SubZoneData table
 		-- If no, then we will use the defined map for the major zone
 		else
@@ -732,17 +722,16 @@ function Atlas_AutoSelect()
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
 				debug("You're in the same instance as the former map. Doing nothing.");
 				return;
-			else
-				for ka,va in pairs(ATLAS_DROPDOWNS) do
-					for kb,vb in pairs(va) do         
-						if ( Atlas_AssocDefaults[currentZone] == vb ) then
-							AtlasOptions.AtlasType = ka;
-							AtlasOptions.AtlasZone = kb;
-							Atlas_Refresh();
-							debug("You just arrived here. Using the default map.");
-							return;
-						end
-					end
+			end
+			search_zone = Atlas_AssocDefaults[currentZone];
+		end
+		for ka,va in pairs(ATLAS_DROPDOWNS) do
+			for kb,vb in pairs(va) do         
+				if ( search_zone == vb ) then
+					AtlasOptions.AtlasType = ka;
+					AtlasOptions.AtlasZone = kb;
+					Atlas_Refresh();
+					return;
 				end
 			end
 		end
@@ -867,8 +856,8 @@ function AtlasSimpleSearch(data, text)
 end
 
 local function round(num, idp)
-   local mult = 10 ^ (idp or 0);
-   return math.floor(num * mult + 0.5) / mult;
+	local mult = 10 ^ (idp or 0);
+	return math.floor(num * mult + 0.5) / mult;
 end
 
 function AtlasEntryTemplate_OnUpdate(self)

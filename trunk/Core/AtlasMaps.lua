@@ -2356,7 +2356,6 @@ Syntax:
 		{ WHIT.." 5) "..EJ(196) }; -- Baleroc, the Gatekeeper
 		{ WHIT.." 6) "..EJ(197) }; -- Majordomo Staghelm
 		{ WHIT.." 7) "..EJ(198) }; -- Ragnaros
-		{ WHIT.." 8) "..EJ(198).." ("..AL["Heroic"]..")" }; -- Ragnaros
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };

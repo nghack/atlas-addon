@@ -23,14 +23,11 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
--- Atlas Localization Data (Chinese)
+-- Atlas Localization Data (Simplified Chinese)
 -- Initial translation by DiabloHu
--- Version : Chinese (by DiabloHu)
+-- Maintained by DiabloHu, arith, Ananhaid
 -- $Date$
 -- $Revision$
--- http://www.dreamgen.cn
-
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_DungeonLocs", "zhCN", false);
@@ -40,9 +37,9 @@ if AL then
 	--Common
 	AL["Battlegrounds"] = "战场";
 	AL["Blue"] = "蓝色";
-	AL["Dungeon Locations"] = "副本分布";
-	AL["Green"] = "绿";
-	AL["Instances"] = "副本地下城";
+	AL["Dungeon Locations"] = "副本区域";
+	AL["Green"] = "绿色";
+	AL["Instances"] = "副本";
 	AL["White"] = "白色";
 
 	--Zones

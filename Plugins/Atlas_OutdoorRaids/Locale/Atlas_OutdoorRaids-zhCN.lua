@@ -23,14 +23,14 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
--- Atlas Localization Data (Chinese)
+-- Atlas Localization Data (Simplified Chinese)
 -- Initial translation by DiabloHu
--- Version : Chinese (by DiabloHu)
--- http://www.dreamgen.cn
+-- Maintained by DiabloHu, arith, Ananhaid
+-- $Date$
+-- $Revision$
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "zjCN", false);
+local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "zhCN", false);
 -- Localize file must set above to false, for example:
 --    local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "deDE", false);
 

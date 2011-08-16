@@ -21,7 +21,7 @@
 ## X-Email: atlas.addon@gmail.com
 ## X-Feedback: http://www.atlasmod.com/phpBB3/
 ## X-License: GPLv2
-## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhTW, zhCN (outdated)
+## X-Localizations: enUS, deDE, esES, frFR, ruRU, zhTW, zhCN
 ## X-Website: http://www.atlasmod.com
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariables: AtlasOptions

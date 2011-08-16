@@ -978,7 +978,7 @@ if AL then
 
 	--Ulduar General
 	AL["The Siege"] = "攻城區";
-	AL["The Keepers"] = "守護者"
+	AL["The Keepers"] = "守護者";
 
 	--Ulduar A
 	AL["Tower of Life"] = "生命之塔";

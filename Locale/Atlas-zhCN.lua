@@ -23,16 +23,14 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
-
-local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local AL = AceLocale:NewLocale("Atlas", "zhCN", false);
-
--- Atlas Localization Data (Chinese)
+-- Atlas Localization Data (Simplified Chinese)
 -- Initial translation by DiabloHu
--- Maintained by DiabloHu, arith
+-- Maintained by DiabloHu, arith, Ananhaid
 -- $Date$
 -- $Revision$
 
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
+local AL = AceLocale:NewLocale("Atlas", "zhCN", false);
 
 if ( GetLocale() == "zhCN" ) then
 -- Define the leading strings to be ignored while sorting
@@ -41,9 +39,7 @@ AtlasSortIgnore = {};
 
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "安其拉神殿";
-	["The Temple of Atal'Hakkar"] = "沉没的神庙";
-	["Old Hillsbrad Foothills"] = "时光之穴 - 旧希尔斯布莱德";
-	["The Eye"] = "风暴要塞 - 风暴之眼";
+	["The Temple of Atal'Hakkar"] = "阿塔哈卡神庙";
 };
 end
 
@@ -54,15 +50,15 @@ if AL then
 --************************************************
 	AL["ATLAS_TITLE"] = "Atlas";
 
-	AL["BINDING_HEADER_ATLAS_TITLE"] = "Atlas 按键设置";
-	AL["BINDING_NAME_ATLAS_TOGGLE"] = "开启/关闭 Atlas";
-	AL["BINDING_NAME_ATLAS_OPTIONS"] = "切换设置";
+	AL["BINDING_HEADER_ATLAS_TITLE"] = "Atlas 绑定";
+	AL["BINDING_NAME_ATLAS_TOGGLE"] = "切换 Atlas";
+	AL["BINDING_NAME_ATLAS_OPTIONS"] = "切换选项";
 	AL["BINDING_NAME_ATLAS_AUTOSEL"] = "自动选择";
 
 	AL["ATLAS_SLASH"] = "/atlas";
 	AL["ATLAS_SLASH_OPTIONS"] = "options";
 
-	AL["ATLAS_STRING_LOCATION"] = "所属区域";
+	AL["ATLAS_STRING_LOCATION"] = "区域";
 	AL["ATLAS_STRING_LEVELRANGE"] = "等级跨度";
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "人数上限";
 	AL["ATLAS_STRING_SELECT_CAT"] = "选择分类";
@@ -71,37 +67,39 @@ if AL then
 	AL["ATLAS_STRING_CLEAR"] = "重置";
 	AL["ATLAS_STRING_MINLEVEL"] = "需要等级";
 
-	AL["ATLAS_OPTIONS_BUTTON"] = "设置";
-	AL["ATLAS_OPTIONS_SHOWBUT"] = "在小地图周围显示Atlas图标";
-	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "在小地图旁显示 Atlas 按钮";
+	AL["ATLAS_OPTIONS_BUTTON"] = "选项";
+	AL["ATLAS_OPTIONS_SHOWBUT"] = "在小地图周围显示图标";
+	AL["ATLAS_OPTIONS_SHOWBUT_TIP"] = "在小地图旁显示 Atlas 按钮。";
 	AL["ATLAS_OPTIONS_AUTOSEL"] = "自动选择副本地图";
-	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可侦测您目前所在的副区域以判定您所在的副本, 开启 Atlas 时将会自动选择到该副本地图";
+	AL["ATLAS_OPTIONS_AUTOSEL_TIP"] = "Atlas 可侦测您目前所在的副区域以判定您所在的副本，开启 Atlas 时将会自动选择到该副本地图。";
 	AL["ATLAS_OPTIONS_BUTPOS"] = "图标位置";
+	AL["ATLAS_OPTIONS_LOCK"] = "锁定 Atlas 窗口";
+	AL["ATLAS_OPTIONS_LOCK_TIP"] = "切换锁定/解锁 Atlas 窗口。";
 	AL["ATLAS_OPTIONS_TRANS"] = "透明度";
-	AL["ATLAS_OPTIONS_RCLICK"] = "点击右键打开世界地图";
-	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "启用在 Atlas 窗口中按下鼠标右键自动切换到魔兽的世界地图";
+	AL["ATLAS_OPTIONS_RCLICK"] = "右击打开世界地图";
+	AL["ATLAS_OPTIONS_RCLICK_TIP"] = "在 Atlas 窗口中右击自动切换到魔兽的世界地图。";
 	AL["ATLAS_OPTIONS_RESETPOS"] = "重置位置";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "显示简称";
-	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地图的详尽叙述中显示副本的缩写";
-	AL["ATLAS_OPTIONS_SCALE"] = "窗口大小";
+	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地图的详尽叙述中显示副本的缩写。";
+	AL["ATLAS_OPTIONS_SCALE"] = "缩放";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "图标半径";
-	AL["ATLAS_OPTIONS_CLAMPED"] = "使 Atlas 不超出游戏画面";
-	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界";
-	AL["ATLAS_OPTIONS_CTRL"] = "弹出工具说明 (按住CTRL指向内容)";
-	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾选后, 当鼠标移到地图信息字段时, 按下 Ctrl 控制键, 则会将信息的完整信息以提示型态显示. 当信息过长而被截断时很有用.";
+	AL["ATLAS_OPTIONS_CLAMPED"] = "不超出游戏画面";
+	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界。";
+	AL["ATLAS_OPTIONS_CTRL"] = "按下 Ctrl 显示弹出工具说明";
+	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾选后当鼠标移到地图信息字段时，按下 Ctrl 控制键，则会将信息的完整信息以提示型态显示。当信息过长而被截断时很有用。";
 
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
-	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "单击打开 Atlas\n中键单击打开设置\n按住右键可移动这个按钮";
-	AL["ATLAS_LDB_HINT"] = "单击打开 Atlas\n右键点击打开设置";
+	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "单击打开 Atlas。\n中键单击打开 Atlas 选项。\n右击可移动这个按钮。";
+	AL["ATLAS_LDB_HINT"] = "单击打开 Atlas。\n右击打开 Atlas 选项。";
 
-	AL["ATLAS_OPTIONS_CATDD"] = "副本地图排序方式";
+	AL["ATLAS_OPTIONS_CATDD"] = "副本地图排序方式：";
 	AL["ATLAS_DDL_CONTINENT"] = "所属大陆";
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "东部王国副本";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "卡利姆多副本";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "外域副本";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "诺森德副本";
-	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "地深之源副本"; -- Needs review once Cataclysm is available in China
-	AL["ATLAS_DDL_LEVEL"] = "副本等级";
+	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "深岩之洲副本";
+	AL["ATLAS_DDL_LEVEL"] = "等级";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "45 级以下副本";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "45-60 级副本";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "60-70 级副本";
@@ -120,7 +118,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "旧世界副本 (第二页)";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "《燃烧的远征》副本";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "《巫妖王之怒》副本";
-	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大灾变》副本";
+	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大地的裂变》副本";
 	AL["ATLAS_DDL_TYPE"] = "类型";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "副本 (第一页)";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 (第二页)";
@@ -166,6 +164,7 @@ if AL then
 	AL["Chase Begins"] = "追捕开始";
 	AL["Chase Ends"] = "追捕结束";
 	AL["Child"] = "幼年";
+	AL["Click to open Dungeon Journal window."] = "单击打开Dungeon Journal窗口。";
 	AL["Connection"] = "通道";
 	AL["DS2"] = "地下城套装2";
 	AL["Elevator"] = "升降梯";
@@ -235,12 +234,12 @@ if AL then
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
-	AL["Armory"] = "Armory"; -- Armory
+	AL["Armory"] = "军械库"; -- Armory
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	AL["BRD"] = "BRD"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
 	AL["BWL"] = "BWL"; -- Blackwing Lair
-	AL["Cath"] = "Cath"; -- Cathedral
+	AL["Cath"] = "大教堂"; -- Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["GY"] = "GY"; -- Graveyard
@@ -256,7 +255,7 @@ if AL then
 	AL["SM"] = "SM"; -- Scarlet Monastery
 	AL["ST"] = "ST"; -- Sunken Temple
 	AL["Strat"] = "Strat"; -- Stratholme
-	AL["Stocks"] = "Stocks"; -- The Stockade
+	AL["Stocks"] = "监狱"; -- The Stockade
 	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
 	AL["Ulda"] = "Ulda"; -- Uldaman
 	AL["VC"] = "VC"; -- The Deadmines
@@ -298,13 +297,13 @@ if AL then
 	AL["AN, Nerub"] = "AN, 艾卓"; -- Azjol-Nerub
 	AL["Champ"] = "Champ, 试炼"; -- Trial of the Champion
 	AL["CoT-Strat"] = "CoT-Strat"; -- Culling of Stratholme
-	AL["Crus"] = "Crus, ToC"; -- Trial of the Crusader
+	AL["Crus"] = "Crus"; -- Trial of the Crusader
 	AL["DTK"] = "DTK"; -- Drak'Tharon Keep
-	AL["FoS"] = "FoS"; 
+	AL["FoS"] = "FoS"; -- The Forge of Souls
 	AL["FH1"] = "FH1"; -- The Forge of Souls
 	AL["Gun"] = "Gun"; -- Gundrak
 	AL["HoL"] = "HoL"; -- Halls of Lightning
-	AL["HoR"] = "HoR"; 
+	AL["HoR"] = "HoR"; -- Halls of Reflection
 	AL["FH3"] = "FH3"; -- Halls of Reflection
 	AL["HoS"] = "HoS"; -- Halls of Stone
 	AL["IC"] = "IC"; -- Icecrown Citadel
@@ -313,7 +312,7 @@ if AL then
 	AL["Ocu"] = "Ocu"; -- The Oculus
 	AL["Ony"] = "Ony"; -- Onyxia's Lair
 	AL["OS"] = "OS"; -- The Obsidian Sanctum
-	AL["PoS"] = "PoS"; 
+	AL["PoS"] = "PoS"; -- Pit of Saron
 	AL["FH2"] = "FH2"; -- Pit of Saron
 	AL["RS"] = "RS"; -- The Ruby Sanctum
 	AL["TEoE"] = "TEoE"; -- The Eye of Eternity
@@ -400,7 +399,7 @@ if AL then
 	AL["Elder Mistwalker"] = "迷雾长者";
 
 	--Gnomeregan (Entrance)
-	AL["Torben Zapblast <Teleportation Specialist>"] = "托尔班•速轰 <传送专家>"; -- Needs review
+	AL["Torben Zapblast <Teleportation Specialist>"] = "托尔本·光爆 <传送专家>";
 
 	--Hellfire Citadel (Entrance)
 	AL["Steps and path to the Blood Furnace"] = "通往鲜血熔炉的阶梯与通道";
@@ -426,15 +425,15 @@ if AL then
 	--The Deadmines (Entrance)
 
 	--Sunken Temple (Entrance)
-	AL["Priestess Udum'bra"] = "女祭师乌丹姆布拉";	-- Needs review after Cataclysm is available in China
-	AL["Gomora the Bloodletter"] = "『放血者』高摩拉";	-- Needs review after Cataclysm is available in China
+	AL["Priestess Udum'bra"] = "女祭司乌达布拉";
+	AL["Gomora the Bloodletter"] = "放血者古穆拉";
 
 	--Uldaman (Entrance)
 
 	--Ulduar (Entrance)
 	AL["Shavalius the Fancy <Flight Master>"] = "古怪的沙瓦留斯 <飞行管理员>";
 	AL["Chester Copperpot <General & Trade Supplies>"] = "切斯特·考伯特 <杂货商>";
-	AL["Slosh <Food & Drink>"] = "斯洛什 <食物与饮料>";
+	AL["Slosh <Food & Drink>"] = "斯洛什 <餐饮供应商>";
 
 	--Wailing Caverns (Entrance)
 
@@ -446,32 +445,32 @@ if AL then
 	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
 	AL["Fathom Stone"] = "深渊之核";
 	AL["Lorgalis Manuscript"] = "潮湿的便笺";
-	AL["Scout Thaelrid"] = "斥候塞尔瑞德";	-- Needs review after Cataclysm is available in China
-	AL["Flaming Eradicator"] = "火焰根除者";	-- Needs review after Cataclysm is available in China
+	AL["Scout Thaelrid"] = "斥候塞尔瑞德";
+	AL["Flaming Eradicator"] = "烈焰根除者";
 	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
-	AL["Ashelan Northwood"] = "阿谢兰•北木";	-- Needs review after Cataclysm is available in China
-	AL["Relwyn Shadestar"] = "芮尔温•影星";	-- Needs review after Cataclysm is available in China
-	AL["Sentinel Aluwyn"] = "哨兵阿露温";	-- Needs review after Cataclysm is available in China
-	AL["Sentinel-trainee Issara"] = "哨兵受训员伊萨拉";	-- Needs review after Cataclysm is available in China
-	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努萨克雷 <陶土议会>";	-- Needs review after Cataclysm is available in China
-	AL["Zeya"] = "仄亚";	-- Needs review after Cataclysm is available in China
+	AL["Ashelan Northwood"] = "阿舍兰·北林";
+	AL["Relwyn Shadestar"] = "莱温·影星";
+	AL["Sentinel Aluwyn"] = "哨兵阿露温";
+	AL["Sentinel-trainee Issara"] = "受训哨兵伊莎娜";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努萨克雷 <大地之环>";
+	AL["Zeya"] = "泽雅";
 
 	--Dire Maul (East)
-	--AL["\"Ambassador\" Dagg'thol"] = "\"Ambassador\" Dagg'thol";
-	--AL["Furgus Warpwood"] = "Furgus Warpwood";
+	AL["\"Ambassador\" Dagg'thol"] = "“大使”达戈索尔";
+	AL["Furgus Warpwood"] = "费尔古斯·扭木";
 	AL["Old Ironbark"] = "埃隆巴克";
 	AL["Ironbark the Redeemed"] = "赎罪的埃隆巴克";
 
 	--Dire Maul (North)
-	--AL["Druid of the Talon"] = "Druid of the Talon";
-	--AL["Stonemaul Ogre"] = "Stonemaul Ogre";
-	AL["Knot Thimblejack"] = "诺特·希姆加可";
+	AL["Druid of the Talon"] = "猛禽德鲁伊";
+	AL["Stonemaul Ogre"] = "石槌食人魔";
+	AL["Knot Thimblejack"] = "诺特·希姆加克";
 
 	--Dire Maul (West)
 	AL["J'eevee's Jar"] = "耶维尔的瓶子";
 	AL["Ferra"] = "费拉";
-	--AL["Estulan <The Highborne>"] = "Estulan <The Highborne>";
-	--AL["Shen'dralar Watcher"] = "Shen'dralar Watcher";
+	AL["Estulan <The Highborne>"] = "埃斯图兰 <上层精灵>";
+	AL["Shen'dralar Watcher"] = "辛德拉观察者";
 	AL["Pylons"] = "水晶塔";
 	AL["Ancient Equine Spirit"] = "上古圣马之魂";
 	AL["Shen'dralar Ancient"] = "辛德拉古灵";
@@ -486,17 +485,17 @@ if AL then
 	AL["Elder Splitrock"] = "碎石长者";
 
 	--Ragefire Chasm
-	--AL["Bovaal Whitehorn"] = "Bovaal Whitehorn";
-	--AL["Stone Guard Kurjack"] = "Stone Guard Kurjack";
+	AL["Bovaal Whitehorn"] = "波瓦·白角";
+	AL["Stone Guard Kurjack"] = "石头守卫库尔加克";
 
 	--Razorfen Downs
-	AL["Koristrasza"] = "柯莉史卓莎";	-- Needs review after Cataclysm is available in China
+	AL["Koristrasza"] = "克莉丝塔萨";
 	AL["Belnistrasz"] = "奔尼斯特拉兹";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奥尔德·石塔 ";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
-	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘之灵 <先祖>";	-- Needs review after Cataclysm is available in China
+	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘的灵魂 <先祖>";
 	AL["Willix the Importer"] = "进口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
@@ -521,12 +520,12 @@ if AL then
 	--Wailing Caverns
 	AL["Ebru <Disciple of Naralex>"] = "厄布鲁 <纳拉雷克斯的信徒>"; -- 5768
 	AL["Nalpak <Disciple of Naralex>"] = "纳尔帕克 <纳拉雷克斯的信徒>"; -- 5767
-	AL["Muyoh <Disciple of Naralex>"] = "缪幽 <纳拉雷克斯的信徒>";  -- 3678; needs review once WoW 4.1 is available in China
+	AL["Muyoh <Disciple of Naralex>"] = "穆约 <纳拉雷克斯的信徒>";  -- 3678
 	AL["Naralex"] = "纳拉雷克斯"; -- 3679
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "首席工程师沙克斯·比格维兹 <加基森水业公司>";
-	AL["Mazoga's Spirit"] = "玛柔伽的灵魂";	-- Needs review after Cataclysm is available in China
+	AL["Mazoga's Spirit"] = "玛佐加的灵魂";
 	AL["Tran'rek"] = "特兰雷克";
 	AL["Weegli Blastfuse"] = "维格利";
 	AL["Raven"] = "拉文";
@@ -548,33 +547,33 @@ if AL then
 	AL["Private Rocknot"] = "罗克诺特下士";
 	AL["Mistress Nagmara"] = "娜玛拉小姐";
 	AL["Summoner's Tomb"] = "召唤者之墓";
-	--AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Sprig <Morgan's Militia>";
-	--AL["Oralius <Morgan's Militia>"] = "Oralius <Morgan's Militia>";
-	--AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Proudtusk <Kargath Expeditionary Force>";
-	--AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "Galamav the Marksman <Kargath Expeditionary Force>";
-	--AL["Maxwort Uberglint"] = "Maxwort Uberglint";
-	--AL["Tinkee Steamboil"] = "Tinkee Steamboil";
-	--AL["Yuka Screwspigot <Engineering Supplies>"] = "Yuka Screwspigot <Engineering Supplies>";
-	--AL["Abandonded Mole Machine"] = "Abandonded Mole Machine";
-	--AL["Kevin Dawson <Morgan's Militia>"] = "Kevin Dawson <Morgan's Militia>";
-	--AL["Lexlort <Kargath Expeditionary Force>"] = "Lexlort <Kargath Expeditionary Force>";
-	--AL["Prospector Seymour <Morgan's Militia>"] = "Prospector Seymour <Morgan's Militia>";
-	--AL["Razal'blade <Kargath Expeditionary Force>"] = "Razal'blade <Kargath Expeditionary Force>";
+	AL["Jalinda Sprig <Morgan's Militia>"] = "加琳达 <摩根民兵团>";
+	AL["Oralius <Morgan's Militia>"] = "奥拉留斯 <摩根民兵团>";
+	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "萨特拉克 <卡加斯远征军>";
+	AL["Galamav the Marksman <Kargath Expeditionary Force>"] = "神射手贾拉玛弗 <卡加斯远征军>";
+	AL["Maxwort Uberglint"] = "麦克斯沃特·尤博格林";
+	AL["Tinkee Steamboil"] = "丁奇·斯迪波尔";
+	AL["Yuka Screwspigot <Engineering Supplies>"] = "尤卡·斯库比格特 <工程学供应商>";
+	AL["Abandonded Mole Machine"] = "被弃用的挖掘机";
+	AL["Kevin Dawson <Morgan's Militia>"] = "凯文·达森 <摩根民兵团>";
+	AL["Lexlort <Kargath Expeditionary Force>"] = "雷克斯洛特 <卡加斯远征军>";
+	AL["Prospector Seymour <Morgan's Militia>"] = "勘测员塞莫尔 <摩根民兵团>";
+	AL["Razal'blade <Kargath Expeditionary Force>"] = "拉扎布雷德 <卡加斯远征军>";
 	AL["The Shadowforge Lock"] = "暗炉之锁";
-	--AL["Mayara Brightwing <Morgan's Militia>"] = "Mayara Brightwing <Morgan's Militia>";
-	--AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Hierophant Theodora Mulvadania <Kargath Expeditionary Force>";
+	AL["Mayara Brightwing <Morgan's Militia>"] = "玛亚拉·布莱特文 <摩根民兵团>";
+	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "塞朵拉·穆瓦丹尼 <卡加斯远征军>";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "罗克图斯·暗契 <瑟银兄弟会>";
-	--AL["Mountaineer Orfus <Morgan's Militia>"] = "Mountaineer Orfus <Morgan's Militia>";
-	--AL["Thunderheart <Kargath Expeditionary Force>"] = "Thunderheart <Kargath Expeditionary Force>";
-	--AL["Marshal Maxwell <Morgan's Militia>"] = "Marshal Maxwell <Morgan's Militia>";
-	--AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Warlord Goretooth <Kargath Expeditionary Force>";
+	AL["Mountaineer Orfus <Morgan's Militia>"] = "巡山人奥弗斯 <摩根民兵团>";
+	AL["Thunderheart <Kargath Expeditionary Force>"] = "桑德哈特 <卡加斯远征军>";
+	AL["Marshal Maxwell <Morgan's Militia>"] = "麦克斯韦尔元帅 <摩根民兵团>";
+	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "军官高图斯 <卡加斯远征军>";
 	AL["The Black Forge"] = "黑熔炉";
-	--AL["Core Fragment"] = "Core Fragment";
-	--AL["Shadowforge Brazier"] = "Shadowforge Brazier";
+	AL["Core Fragment"] = "熔火碎片";
+	AL["Shadowforge Brazier"] = "暗炉炭火";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "乌洛克的贡品堆";
-	--AL["Acride <Scarshield Legion>"] = "Acride <Scarshield Legion>";
+	AL["Acride <Scarshield Legion>"] = "阿克莱德 <裂盾军团>";
 	AL["Elder Stonefort"] = "石墙长者";
 	AL["Roughshod Pike"] = "尖锐长矛";
 
@@ -590,23 +589,23 @@ if AL then
 	--Gnomeregan
 	AL["Chomper"] = "咀嚼者";
 	AL["Blastmaster Emi Shortfuse"] = "爆破专家艾米·短线";
-	--AL["Murd Doc <S.A.F.E.>"] = "Murd Doc <S.A.F.E.>";
+	AL["Murd Doc <S.A.F.E.>"] = "莫多克 <S.A.F.E.>";
 	AL["Tink Sprocketwhistle <Engineering Supplies>"] = "丁克·铁哨 <工程学供应商>";
 	AL["The Sparklematic 5200"] = "超级清洁器5200型";
 	AL["Mail Box"] = "邮箱";
-	--AL["B.E Barechus <S.A.F.E.>"] = "B.E Barechus <S.A.F.E.>";
-	--AL["Face <S.A.F.E.>"] = "Face <S.A.F.E.>";
-	--AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.A.F.E.>";
+	AL["B.E Barechus <S.A.F.E.>"] = "“坏脾气”巴拉克斯 <S.A.F.E.>";
+	AL["Face <S.A.F.E.>"] = "费斯 <S.A.F.E.>";
+	AL["Hann Ibal <S.A.F.E.>"] = "汉尼巴尔 <S.A.F.E.>";
 
 	--Molten Core
 
 	--Scholomance
 	AL["Blood of Innocents"] = "无辜者之血";
 	AL["Divination Scryer"] = "预言水晶球";
-	--AL["Alexi Barov <House of Barov>"] = "Alexi Barov <House of Barov>";
-	--AL["Weldon Barov <House of Barov>"] = "Weldon Barov <House of Barov>";
-	--AL["Eva Sarkhoff"] = "Eva Sarkhoff";
-	--AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
+	AL["Alexi Barov <House of Barov>"] = "阿莱克斯·巴罗夫 <巴罗夫家族>";
+	AL["Weldon Barov <House of Barov>"] = "维尔顿·巴罗夫 <巴罗夫家族>";
+	AL["Eva Sarkhoff"] = "艾瓦·萨克霍夫";
+	AL["Lucien Sarkhoff"] = "卢森·萨克霍夫";
 	AL["The Deed to Caer Darrow"] = "凯尔达隆地契";
 	AL["The Deed to Southshore"] = "南海镇地契";
 	AL["Torch Lever"] = "火炬";
@@ -614,37 +613,37 @@ if AL then
 	AL["The Deed to Brill"] = "布瑞尔地契";
 
 	--Shadowfang Keep
-	AL["Apothecary Trio"] = "药剂师三人组"; -- Needs review
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师胡默尔 <王冠化学制药公司>"; -- Needs review
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "药剂师巴克斯特 <王冠化学制药公司>"; -- Needs review
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "药剂师弗莱伊 <王冠化学制药公司>"; -- Needs review
-	--AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang";
-	--AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
-	--AL["Haunted Stable Hand"] = "Haunted Stable Hand";
-	AL["Investigator Fezzen Brasstacks"] = "调查员菲赞•铜钉"; -- Needs review
+	AL["Apothecary Trio"] = "药剂师三人组";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师汉摩尔 <皇冠药剂公司>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "药剂师拜克斯特 <皇冠药剂公司>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "药剂师弗莱 <皇冠药剂公司>";
+	AL["Packleader Ivar Bloodfang"] = "狼群首领伊瓦·血牙";
+	AL["Deathstalker Commander Belmont"] = "死亡猎手指挥官贝尔蒙特";
+	AL["Haunted Stable Hand"] = "鬼怪马夫";
+	AL["Investigator Fezzen Brasstacks"] = "调查员费岑·布莱斯塔克";
 
 	--SM: Armory
-	--AL["Joseph the Crazed"] = "Joseph the Crazed";
-	--AL["Dark Ranger Velonara"] = "Dark Ranger Velonara";
-	--AL["Dominic"] = "Dominic";
+	AL["Joseph the Crazed"] = "发疯的约瑟夫";
+	AL["Dark Ranger Velonara"] = "黑暗游侠维罗娜拉";
+	AL["Dominic"] = "多米尼克";
 
 	--SM: Cathedral
-	--AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
-	--AL["Joseph the Insane <Scarlet Champion>"] = "Joseph the Insane <Scarlet Champion>";
+	AL["Cathedral"] = "大教堂"; -- Subzone of Scarlet Monastery
+	AL["Joseph the Insane <Scarlet Champion>"] = "癫狂的约瑟夫 <血色勇士>";
 
 	--SM: Graveyard
 	AL["Vorrel Sengutz"] = "沃瑞尔·森加斯";
 	AL["Pumpkin Shrine"] = "南瓜神龛";
-	--AL["Joseph the Awakened"] = "Joseph the Awakened";
+	AL["Joseph the Awakened"] = "醒悟的约瑟夫";
 
 	--SM: Library
-	--AL["Library"] = "Library";
-	--AL["Compendium of the Fallen"] = "Compendium of the Fallen";
+	AL["Library"] = "图书馆";
+	AL["Compendium of the Fallen"] = "堕落者纲要";
 
 	--Stratholme - Crusader's Square
-	--AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
-	--AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
-	--AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "Packmaster Stonebruiser <Brotherhood of the Light>";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
+	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "工匠大师威尔海姆 <圣光兄弟会>";
+	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "马队管理者布鲁斯·石锤 <圣光兄弟会>";
 	AL["Stratholme Courier"] = "斯坦索姆信使";
 	AL["Fras Siabi's Postbox"] = "弗拉斯·希亚比的邮箱";
 	AL["King's Square Postbox"] = "国王广场邮箱";
@@ -655,35 +654,35 @@ if AL then
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "长者广场邮箱";
-	--AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "Archmage Angela Dosantos <Brotherhood of the Light>";
-	--AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Crusade Commander Korfax <Brotherhood of the Light>";
+	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "大法师安吉拉·杜萨图斯 <圣光兄弟会>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "指挥官科尔法克斯 <圣光兄弟会>";
 
 	--The Deadmines
-	--AL["Lumbering Oaf"] = "Lumbering Oaf";
-	--AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
-	--AL["Kagtha"] = "Kagtha";
-	--AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
-	--AL["Quartermaster Lewis <Quartermaster>"] = "Quartermaster Lewis <Quartermaster>";
-	--AL["Miss Mayhem"] = "Miss Mayhem";
-	--AL["Vend-O-Tron D-Luxe"] = "Vend-O-Tron D-Luxe";
+	AL["Lumbering Oaf"] = "伐木场巨怪";
+	AL["Lieutenant Horatio Laine"] = "霍拉提奥·莱茵中尉";
+	AL["Kagtha"] = "卡格萨";
+	AL["Slinky Sharpshiv"] = "史莉琪·剃刀";
+	AL["Quartermaster Lewis <Quartermaster>"] = "军需官刘易斯 <军需官>";
+	AL["Miss Mayhem"] = "迈赫米小姐";
+	AL["Vend-O-Tron D-Luxe"] = "售货机器人豪华版";
 
 	--The Stockade
-	--AL["Rifle Commander Coe"] = "Rifle Commander Coe";
-	--AL["Warden Thelwater"] = "Warden Thelwater";
-	--AL["Nurse Lillian"] = "Nurse Lillian";
+	AL["Rifle Commander Coe"] = "火枪手指挥官柯伊";
+	AL["Warden Thelwater"] = "典狱官塞尔沃特";
+	AL["Nurse Lillian"] = "护士莉莲";
 
 	--The Sunken Temple
-	--AL["Lord Itharius"] = "Lord Itharius";
+	AL["Lord Itharius"] = "伊萨里奥斯勋爵";
 	AL["Elder Starsong"] = "星歌长者";
 
 	--Uldaman
 	AL["Baelog's Chest"] = "巴尔洛戈的箱子";
-	--AL["Kand Sandseeker <Explorer's League>"] = "Kand Sandseeker <Explorer's League>";
-	--AL["Lead Prospector Durdin <Explorer's League>"] = "Lead Prospector Durdin <Explorer's League>";
-	--AL["Olga Runesworn <Explorer's League>"] = "Olga Runesworn <Explorer's League>";
-	--AL["Aoren Sunglow <The Reliquary>"] = "Aoren Sunglow <The Reliquary>";
-	--AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "High Examiner Tae'thelan Bloodwatcher <The Reliquary>";
-	--AL["Lidia Sunglow <The Reliquary>"] = "Lidia Sunglow <The Reliquary>";
+	AL["Kand Sandseeker <Explorer's League>"] = "坎德·沙寻者 <探险者协会>";
+	AL["Lead Prospector Durdin <Explorer's League>"] = "首席勘探员杜尔林 <探险者协会>";
+	AL["Olga Runesworn <Explorer's League>"] = "奥尔达·符誓 <探险者协会>";
+	AL["Aoren Sunglow <The Reliquary>"] = "奥伦·日冕 <神圣遗物学会>";
+	AL["High Examiner Tae'thelan Bloodwatcher <The Reliquary>"] = "高阶考察者泰瑟兰·血望者 <神圣遗物学会>";
+	AL["Lidia Sunglow <The Reliquary>"] = "莉迪亚·日冕 <神圣遗物学会>";
 	AL["Ancient Treasure"] = "古代宝藏";
 	AL["The Discs of Norgannon"] = "诺甘农圆盘";
 
@@ -756,7 +755,7 @@ if AL then
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "泰兰德·语风 <艾露恩的高阶女祭司>";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "逃离敦霍尔德堡";
+	AL["Escape from Durnholde Keep"] = "逃出敦霍尔德城堡";
 	AL["Erozion"] = "伊洛希恩";
 	AL["Brazen"] = "布拉森";
 	AL["Landing Spot"] = "着陆点";
@@ -842,7 +841,7 @@ if AL then
 	AL["Barnes <The Stage Manager>"] = "巴内斯 <舞台管理员>";
 
 	--Karazhan End
-	AL["Path to the Broken Stairs"] = "通往破碎阶梯的通道";--omitted from Karazhan End
+	AL["Path to the Broken Stairs"] = "通往破碎阶梯的通道";
 	AL["Broken Stairs"] = "破碎阶梯";
 	AL["Ramp to Guardian's Library"] = "通往守护者的图书馆的斜坡";
 	AL["Suspicious Bookshelf"] = "奇怪的书架";
@@ -917,44 +916,44 @@ if AL then
 
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
-	AL["Martin Victus"] = "马汀·维特斯";
-	AL["Gorkun Ironskull"] = "葛刚·铁颅";
+	AL["Martin Victus"] = "马丁·维克图斯";
+	AL["Gorkun Ironskull"] = "戈库恩·铁颅";
 	AL["Rimefang"] = "霜牙";
 
 	--The Frozen Halls: The Forge of Souls
 	--Lady Jaina Proudmoore omitted, in Hyjal Summit
-	AL["Archmage Koreln <Kirin Tor>"] = "大法师寇瑞伦 <肯瑞托>";
-	AL["Archmage Elandra <Kirin Tor>"] = "大法师伊兰卓 <肯瑞托>";
-	AL["Lady Sylvanas Windrunner <Banshee Queen>"] = "希瓦娜斯·风行者女士 <女妖之王>";
-	AL["Dark Ranger Loralen"] = "黑暗游侠洛拉伦";
-	AL["Dark Ranger Kalira"] = "黑暗游侠卡丽菈";
+	AL["Archmage Koreln <Kirin Tor>"] = "大法师克雷林 <肯瑞托>";
+	AL["Archmage Elandra <Kirin Tor>"] = "大法师埃兰德拉 <肯瑞托>";
+	AL["Lady Sylvanas Windrunner <Banshee Queen>"] = "希尔瓦娜斯·风行者 <女妖之王>";
+	AL["Dark Ranger Loralen"] = "黑暗游侠萝拉兰";
+	AL["Dark Ranger Kalira"] = "黑暗游侠卡丽拉";
 
 	--Gundrak
-	AL["Elder Ohanzee"] = "Elder Ohanzee";
+	AL["Elder Ohanzee"] = "长者奥哈齐";
 
 	--Icecrown Citadel
 	AL["To next map"] = "到下一个地图";
 	AL["From previous map"] = "到前一个地图";
-	AL["Upper Spire"] = "冰冠尖塔"; -- Needs review after WoW 3.3.3 is available in China
-	AL["Sindragosa's Lair"] = "辛达苟萨之巢"; -- Needs review after WoW 3.3.3 is available in China
-	--AL["Stinky"] = "Stinky";
-	--AL["Precious"] = "Precious";
-	--AL["Rimefang"] = "Rimefang";	-- NPC: 37533
-	--AL["Spinestalker"] = "Spinestalker";	-- NPC: 37534
-	--AL["Sister Svalna"] = "Sister Svalna";	-- NPC: 37126
+	AL["Upper Spire"] = "上层之塔";
+	AL["Sindragosa's Lair"] = "冰霜女王的巢穴";
+	AL["Stinky"] = "大臭";
+	AL["Precious"] = "小宝";
+	AL["Rimefang"] = "霜牙";	-- NPC: 37533
+	AL["Spinestalker"] = "猎脊冰龙";	-- NPC: 37534
+	AL["Sister Svalna"] = "女武神席瓦娜";	-- NPC: 37126
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "比格沃斯";
-	AL["Frostwyrm Lair"] = "冰霜巨龙巢穴";
-	--AL["Teleporter to Middle"] = "Teleporter to Middle";
+	AL["Frostwyrm Lair"] = "萨菲隆之巢";
+	AL["Teleporter to Middle"] = "传送到中间";
 
 	--The Obsidian Sanctum
-	AL["Black Dragonflight Chamber"] = "黑龙军团巢穴";
+	AL["Black Dragonflight Chamber"] = "黑龙军团密室";
 
 	--Onyxia's Lair
 
 	--The Ruby Sanctum
-	AL["Red Dragonflight Chamber"] = "红龙庭"; -- Needs review after WoW 3.3.5 is available in China
+	AL["Red Dragonflight Chamber"] = "红龙军团密室";
 
 	--The Nexus: The Eye of Eternity
 
@@ -981,7 +980,7 @@ if AL then
 
 	--Ulduar General
 	AL["The Siege"] = "城墙";
-	AL["The Keepers"] = "守护者"; --C
+	AL["The Keepers"] = "守护者";
 
 	--Ulduar A
 	AL["Tower of Life"] = "生命之塔";
@@ -991,10 +990,10 @@ if AL then
 
 	--Ulduar B
 	AL["Prospector Doren"] = "勘察员多伦";
-	AL["Archivum Console"] = "大数据库控制台";
+	AL["Archivum Console"] = "档案馆控制台";
 
 	--Ulduar C
-	--AL["Sif"] = "Sif";
+	AL["Sif"] = "西芙";
 
 	--Ulduar D
 
@@ -1004,16 +1003,16 @@ if AL then
 
 	--Ulduar: Halls of Stone
 	AL["Tribunal Chest"] = "远古法庭宝箱";
-	AL["Elder Yurauk"] = "由罗克长者"; -- needs review
+	AL["Elder Yurauk"] = "长者尤拉克";
 	AL["Brann Bronzebeard"] = "布莱恩·铜须";
 
 	--Utgarde Keep: Utgarde Keep
 	AL["Dark Ranger Marrah"] = "黑暗游侠玛尔拉";
-	AL["Elder Jarten"] = "加坦长者"; -- needs review
+	AL["Elder Jarten"] = "长者亚尔特恩";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "布雷格";
-	AL["Elder Chogan'gada"] = "长者甘达加";
+	AL["Elder Chogan'gada"] = "长者库甘达加";
 
 	--Vault of Archavon
 
@@ -1030,48 +1029,48 @@ if AL then
 	--Blackwing Descent
 
 	--Firelands
-	--AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>";
-	--AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>";
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>";
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>";
 
 	--Grim Batol
-	--AL["Baleflame"] = "Baleflame";
-	--AL["Farseer Tooranu <The Earthen Ring>"] = "Farseer Tooranu <The Earthen Ring>";
-	--AL["Velastrasza"] = "Velastrasza";
+	AL["Baleflame"] = "烽焰";
+	AL["Farseer Tooranu <The Earthen Ring>"] = "先知图拉努 <大地之环>";
+	AL["Velastrasza"] = "瓦莱斯塔萨";
 
 	--Halls of Origination
-	--AL["Large Stone Obelisk"] = "Large Stone Obelisk";
+	AL["Large Stone Obelisk"] = "巨石方尖碑";
 
 	--Lost City of the Tol'vir
-	--AL["Captain Hadan"] = "Captain Hadan";
-	--AL["Augh"] = "Augh";
-	--AL["Tol'vir Grave"] = "Tol'vir Grave";
+	AL["Captain Hadan"] = "哈丹队长";
+	AL["Augh"] = "奥弗";
+	AL["Tol'vir Grave"] = "托维尔之墓";
 
 	--The Bastion of Twilight
 
 	--The Stonecore
-	--AL["Earthwarden Yrsa <The Earthen Ring>"] = "Earthwarden Yrsa <The Earthen Ring>";
+	AL["Earthwarden Yrsa <The Earthen Ring>"] = "大地看守者伊尔萨 <大地之环>";
 
 	--The Vortex Pinnacle
-	--AL["Itesh"] = "Itesh";
-	--AL["Magical Brazier"] = "Magical Brazier";
+	AL["Itesh"] = "伊特什";
+	AL["Magical Brazier"] = "魔法火盆";
 
 	--Throne of the Four Winds
 
 	--Throne of the Tides
-	--AL["Captain Taylor"] = "Captain Taylor";
-	--AL["Legionnaire Nazgrim"] = "Legionnaire Nazgrim";
-	--AL["Neptulon"] = "Neptulon";
+	AL["Captain Taylor"] = "泰勒上尉";
+	AL["Legionnaire Nazgrim"] = "军团士兵纳兹戈林";
+	AL["Neptulon"] = "奈普图隆";
 
 	--Zul'Aman
-	--AL["Vol'jin"] = "Vol'jin";
-	--AL["Witch Doctor T'wansi"] = "Witch Doctor T'wansi";
-	--AL["Blood Guard Hakkuz <Darkspear Elite>"] = "Blood Guard Hakkuz <Darkspear Elite>";
-	--AL["Voodoo Pile"] = "Voodoo Pile";
-	--AL["Bakkalzu"] = "Bakkalzu";
-	--AL["Hazlek"] = "Hazlek";
-	AL["The Map of Zul'Aman"] = "巴德的祖阿曼地图";
-	--AL["Norkani"] = "Norkani";
-	--AL["Kasha"] = "Kasha";
+	AL["Vol'jin"] = "沃金";
+	AL["Witch Doctor T'wansi"] = "巫医提旺司";
+	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血卫士哈库佐 <暗矛精英>";
+	AL["Voodoo Pile"] = "厄运巫毒堆";
+	AL["Bakkalzu"] = "巴卡祖鲁";
+	AL["Hazlek"] = "哈兹莱克";
+	AL["The Map of Zul'Aman"] = "祖阿曼地图";
+	AL["Norkani"] = "洛尔卡尼";
+	AL["Kasha"] = "卡莎";
 	AL["Thurg"] = "索尔格";
 	AL["Gazakroth"] = "卡扎克洛斯";
 	AL["Lord Raadan"] = "兰尔丹";
@@ -1081,42 +1080,42 @@ if AL then
 	AL["Fenstalker"] = "沼泽猎手";
 	AL["Koragg"] = "库拉格";
 	AL["Zungam"] = "苏加姆";
-	AL["Forest Frogs"] = "丛林蛙, 其原型为: ";
-	--AL["Eulinda <Reagents>"] = "Eulinda <Reagents>";
-	--AL["Harald <Food Vendor>"] = "Harald <Food Vendor>";
-	--AL["Arinoth"] = "Arinoth";
-	--AL["Kaldrick"] = "Kaldrick";
-	--AL["Lenzo"] = "Lenzo";
-	--AL["Mawago"] = "Mawago";
-	--AL["Melasong"] = "Melasong";
-	--AL["Melissa"] = "Melissa";
-	--AL["Micah"] = "Micah";
-	--AL["Relissa"] = "Relissa";
-	--AL["Rosa"] = "Rosa";
-	--AL["Tyllan"] = "Tyllan";
+	AL["Forest Frogs"] = "森林蛙";
+	AL["Eulinda <Reagents>"] = "Eulinda <材料商>";
+	AL["Harald <Food Vendor>"] = "Harald <餐饮供应商>";
+	AL["Arinoth"] = "Arinoth";
+	AL["Kaldrick"] = "Kaldrick";
+	AL["Lenzo"] = "Lenzo";
+	AL["Mawago"] = "Mawago";
+	AL["Melasong"] = "Melasong";
+	AL["Melissa"] = "Melissa";
+	AL["Micah"] = "Micah";
+	AL["Relissa"] = "Relissa";
+	AL["Rosa"] = "Rosa";
+	AL["Tyllan"] = "Tyllan";
 
 	--Zul'Gurub
-	--AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Briney Boltcutter <Blackwater Financial Interests>";
-	--AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>";
-	--AL["Overseer Blingbang"] = "Overseer Blingbang";
-	--AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Bloodslayer T'ara <Darkspear Veteran>";
-	--AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
-	--AL["Bloodslayer Zala <Darkspear Veteran>"] = "Bloodslayer Zala <Darkspear Veteran>";
-	--AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
-	--AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>";
-	--AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
-	--AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
-	--AL["Gub <Destroyer of Fish>"] = "Gub <Destroyer of Fish>";
-	--AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>";
-	--AL["Tor-Tun <The Slumberer>"] = "Tor-Tun <The Slumberer>";
-	--AL["Kaulema the Mover"] = "Kaulema the Mover";
-	--AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
-	--AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
-	--AL["Mor'Lek the Dismantler"] = "Mor'Lek the Dismantler";
-	--AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>";
-	--AL["Zanza the Restless"] = "Zanza the Restless";
-	--AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>";
-	--AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
-	--AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布里尼·栓钳 <Blackwater Financial Interests>";
+	AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>";
+	AL["Overseer Blingbang"] = "工头灵灵爆";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "鲜血杀手塔莱 <Darkspear Veteran>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "鲜血杀手扎拉 <Darkspear Veteran>";
+	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
+	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
+	AL["Gub <Destroyer of Fish>"] = "伽布 <Destroyer of Fish>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>";
+	AL["Tor-Tun <The Slumberer>"] = "托尔图恩 <沉睡者>";
+	AL["Kaulema the Mover"] = "搬运者伽乌里马";
+	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
+	AL["Mor'Lek the Dismantler"] = "撕裂者莫尔雷克";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>";
+	AL["Zanza the Restless"] = "Zanza the Restless";
+	AL["Mortaxx <The Tolling Bell>"] = "莫尔塔克斯 <死亡丧钟>";
+	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
+	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
 
 end

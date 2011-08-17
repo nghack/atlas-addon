@@ -123,7 +123,7 @@ Syntax:
 		{ BLUE.." D) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..", "..AL["LBRS"]..")" };
 		{ BLUE..INDENT..BZ["Blackrock Spire"].." ("..AL["Upper"]..", "..AL["UBRS"]..")" };
 		{ GREN..INDENT..AL["Bodley"].." ("..AL["Ghost"]..")" };
-		{ BLUE.." E) "..BZ["Molten Core"].." ("..AL["MC"]..")" };
+		{ BLUE.." E) "..BZ["The Molten Core"].." ("..AL["MC"]..")" };
 		{ GREN..INDENT..AL["Lothos Riftwaker"] };
 		{ BLUE.." F) "..BZ["Blackwing Lair"].." ("..AL["BWL"]..")" };
 		{ GREN..INDENT..AL["Orb of Command"] };
@@ -687,7 +687,7 @@ Syntax:
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Dark Keeper Key"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
-		{ BLUE.." E) "..BZ["Molten Core"] };
+		{ BLUE.." E) "..BZ["The Molten Core"] };
 		{ WHIT.." 1) "..BB["High Interrogator Gerstahn"] };
 		{ WHIT.." 2) "..BB["Lord Roccor"].." ("..AL["Wanders"]..")" };
 		{ WHIT.." 3) "..BB["Houndmaster Grebmar"] };
@@ -858,7 +858,7 @@ Syntax:
 		{ GREN.." 5') "..AL["Hann Ibal <S.A.F.E.>"].." ("..BF["Alliance"]..")" };
 	};
 	MoltenCore = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Molten Core"] };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["The Molten Core"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		LevelRange = "60-63";
 		MinLevel = "50";

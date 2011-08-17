@@ -6,7 +6,7 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>, Atlas Teams
 ==============
 = Change Log =
 ==============
-v1.20.1 (Jul. 11, 2011)
+v1.20.1 (Aug. xx, 2011)
 - Updated Eye of the Storm map (dubca7)
 - Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
 - Minor additions, bugfixes, and layout tuning (Dynaletik, arith)
@@ -16,6 +16,7 @@ v1.20.1 (Jul. 11, 2011)
   - Russian (StingerSoft)
   - French (Khiria)
   - Traditional Chinese (arith)
+  - Simplified Chinese (Ananhaid)
   - Spanish (maqjav)
   - Russian (StingerSoft)
 

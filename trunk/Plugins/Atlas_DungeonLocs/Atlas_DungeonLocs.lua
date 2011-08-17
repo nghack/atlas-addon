@@ -65,7 +65,7 @@ local myData = {
 		{ WHIT.."14) "..BZ["Blackrock Mountain"]..", ".._RED..BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		{ WHIT..INDENT..BZ["Blackrock Depths"] };
 		{ WHIT..INDENT..BZ["Blackrock Spire"] };
-		{ WHIT..INDENT..BZ["Molten Core"]..", ".._RED..BZ["Blackrock Depths"] };
+		{ WHIT..INDENT..BZ["The Molten Core"]..", ".._RED..BZ["Blackrock Depths"] };
 		{ WHIT..INDENT..BZ["Blackwing Lair"]..", ".._RED..BZ["Blackrock Spire"] };
 		{ WHIT..INDENT..BZ["Blackrock Caverns"] };
 		{ WHIT..INDENT..BZ["Blackwing Descent"] };

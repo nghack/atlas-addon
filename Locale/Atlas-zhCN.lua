@@ -26,8 +26,6 @@
 -- Atlas Localization Data (Simplified Chinese)
 -- Initial translation by DiabloHu
 -- Maintained by DiabloHu, arith, Ananhaid
--- $Date$
--- $Revision$
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "zhCN", false);
@@ -1065,7 +1063,7 @@ if AL then
 	AL["Vol'jin"] = "沃金";
 	AL["Witch Doctor T'wansi"] = "巫医提旺司";
 	AL["Blood Guard Hakkuz <Darkspear Elite>"] = "血卫士哈库佐 <暗矛精英>";
-	AL["Voodoo Pile"] = "厄运巫毒堆";
+	AL["Voodoo Pile"] = "巫毒堆";
 	AL["Bakkalzu"] = "巴卡祖鲁";
 	AL["Hazlek"] = "哈兹莱克";
 	AL["The Map of Zul'Aman"] = "祖阿曼地图";
@@ -1095,27 +1093,27 @@ if AL then
 	AL["Tyllan"] = "Tyllan";
 
 	--Zul'Gurub
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布里尼·栓钳 <Blackwater Financial Interests>";
-	AL["Vehini <Assault Provisions>"] = "Vehini <Assault Provisions>";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布里尼·栓钳 <黑水金融>";
+	AL["Vehini <Assault Provisions>"] = "维希尼 <前线供应商>";
 	AL["Overseer Blingbang"] = "工头灵灵爆";
-	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "鲜血杀手塔莱 <Darkspear Veteran>";
-	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "Bloodslayer Vaena <Darkspear Veteran>";
-	AL["Bloodslayer Zala <Darkspear Veteran>"] = "鲜血杀手扎拉 <Darkspear Veteran>";
-	AL["Helpful Jungle Monkey"] = "Helpful Jungle Monkey";
-	AL["Venomancer Mauri <The Snake's Whisper>"] = "Venomancer Mauri <The Snake's Whisper>";
-	AL["Zanzil's Cauldron of Toxic Torment"] = "Zanzil's Cauldron of Toxic Torment";
-	AL["Tiki Lord Mu'Loa"] = "Tiki Lord Mu'Loa";
-	AL["Gub <Destroyer of Fish>"] = "伽布 <Destroyer of Fish>";
-	AL["Venomancer T'Kulu <The Toxic Bite>"] = "Venomancer T'Kulu <The Toxic Bite>";
+	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "鲜血杀手塔莱 <暗矛老兵>";
+	AL["Bloodslayer Vaena <Darkspear Veteran>"] = "鲜血杀手瓦伊纳 <暗矛老兵>";
+	AL["Bloodslayer Zala <Darkspear Veteran>"] = "鲜血杀手扎拉 <暗矛老兵>";
+	AL["Helpful Jungle Monkey"] = "有用的丛林猴子";
+	AL["Venomancer Mauri <The Snake's Whisper>"] = "制毒师玛乌里 <蛇之呢喃>";
+	AL["Zanzil's Cauldron of Toxic Torment"] = "赞吉尔的剧毒折磨坩埚";
+	AL["Tiki Lord Mu'Loa"] = "蒂基面具之王姆罗亚";
+	AL["Gub <Destroyer of Fish>"] = "伽布 <鲜鱼毁灭者>";
+	AL["Venomancer T'Kulu <The Toxic Bite>"] = "制毒师提库鲁 <剧毒叮咬>";
 	AL["Tor-Tun <The Slumberer>"] = "托尔图恩 <沉睡者>";
 	AL["Kaulema the Mover"] = "搬运者伽乌里马";
-	AL["Berserking Boulder Roller"] = "Berserking Boulder Roller";
-	AL["Zanzil's Cauldron of Frostburn Formula"] = "Zanzil's Cauldron of Frostburn Formula";
+	AL["Berserking Boulder Roller"] = "狂暴滚石者";
+	AL["Zanzil's Cauldron of Frostburn Formula"] = "赞吉尔的霜灼药方坩埚";
 	AL["Mor'Lek the Dismantler"] = "撕裂者莫尔雷克";
-	AL["Witch Doctor Qu'in <Medicine Woman>"] = "Witch Doctor Qu'in <Medicine Woman>";
-	AL["Zanza the Restless"] = "Zanza the Restless";
+	AL["Witch Doctor Qu'in <Medicine Woman>"] = "巫医库因 <女药师>";
+	AL["Zanza the Restless"] = "无眠者赞扎";
 	AL["Mortaxx <The Tolling Bell>"] = "莫尔塔克斯 <死亡丧钟>";
-	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
-	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+	AL["Tiki Lord Zim'wae"] = "蒂基面具之王泽姆维";
+	AL["Zanzil's Cauldron of Burning Blood"] = "赞吉尔的燃烧之血坩埚";
 
 end

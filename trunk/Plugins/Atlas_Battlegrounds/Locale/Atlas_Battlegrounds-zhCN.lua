@@ -26,8 +26,6 @@
 -- Atlas Localization Data (Simplified Chinese)
 -- Initial translation by DiabloHu
 -- Maintained by DiabloHu, arith, Ananhaid
--- $Date$
--- $Revision$
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "zhCN", false);

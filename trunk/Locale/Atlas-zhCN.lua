@@ -1079,18 +1079,18 @@ if AL then
 	AL["Koragg"] = "库拉格";
 	AL["Zungam"] = "苏加姆";
 	AL["Forest Frogs"] = "森林蛙";
-	AL["Eulinda <Reagents>"] = "Eulinda <材料商>";
-	AL["Harald <Food Vendor>"] = "Harald <餐饮供应商>";
-	AL["Arinoth"] = "Arinoth";
-	AL["Kaldrick"] = "Kaldrick";
-	AL["Lenzo"] = "Lenzo";
-	AL["Mawago"] = "Mawago";
-	AL["Melasong"] = "Melasong";
-	AL["Melissa"] = "Melissa";
-	AL["Micah"] = "Micah";
-	AL["Relissa"] = "Relissa";
-	AL["Rosa"] = "Rosa";
-	AL["Tyllan"] = "Tyllan";
+	AL["Eulinda <Reagents>"] = "尤琳达 <材料商>";
+	AL["Harald <Food Vendor>"] = "阿拉尔德 <食物商人>";
+	AL["Arinoth"] = "阿瑞诺思";
+	AL["Kaldrick"] = "卡尔德里克";
+	AL["Lenzo"] = "雷恩佐";
+	AL["Mawago"] = "玛瓦戈";
+	AL["Melasong"] = "梅拉桑";
+	AL["Melissa"] = "梅丽莎";
+	AL["Micah"] = "米迦";
+	AL["Relissa"] = "蕾莉莎";
+	AL["Rosa"] = "罗莎";
+	AL["Tyllan"] = "泰兰";
 
 	--Zul'Gurub
 	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "布里尼·栓钳 <黑水金融>";

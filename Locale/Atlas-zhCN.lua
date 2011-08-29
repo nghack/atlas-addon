@@ -1089,7 +1089,7 @@ if AL then
 	AL["Melissa"] = "梅丽莎";
 	AL["Micah"] = "米迦";
 	AL["Relissa"] = "蕾莉莎";
-	AL["Rosa"] = "罗莎";
+	AL["Rosa"] = "洛莎";
 	AL["Tyllan"] = "泰兰";
 
 	--Zul'Gurub

@@ -2368,7 +2368,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(131) }; -- General Umbriss
 		{ WHIT.." 2) "..EJ(132) }; -- Forgemaster Throngus
-		{ WHIT.." 3) "..EJ(133).." & "..BB["Valiona"] }; -- Drahga Shodowburner
+		{ WHIT.." 3) "..EJ(133).." & "..BB["Valiona"] }; -- Drahga Shadowburner
 		{ WHIT.." 4) "..EJ(134) }; -- Erudax, the Duke of Below
 		{ GREN.." 1') "..AL["Baleflame"] };
 		{ GREN..INDENT..AL["Farseer Tooranu <The Earthen Ring>"] };

@@ -2471,8 +2471,8 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ(154) }; -- The Conclave of Wind
 		{ WHIT..INDENT..BB["Anshal"] };
-		{ WHIT..INDENT..BB["Rohash"] };
 		{ WHIT..INDENT..BB["Nezir"] };
+		{ WHIT..INDENT..BB["Rohash"] };
 		{ WHIT.." 2) "..EJ(155) }; -- Al'Akir
 	};
 	ThroneOfTheTides = {

@@ -709,28 +709,50 @@ function Atlas_AutoSelect()
 	-- And we will choose a proper one to be the default one.
 	debug("currentZone: "..currentZone..", currentSubZone: "..currentSubZone);
 	if ( Atlas_AssocDefaults[currentZone] ) then
-		local search_zone;
-		-- Check if current subzone is defined in the SubZoneData table
-		-- If yes, means current subzone will be mapped to a specific map
-		if ( Atlas_SubZoneData[currentSubZone] ) then
-			debug("There's data for your current SubZone.");
-			search_zone = Atlas_SubZoneData[currentSubZone];
-		-- Check if current subzone is defined in the SubZoneData table
-		-- If no, then we will use the defined map for the major zone
-		else
-			debug("No applicable SubZone data exists.");
+		local selected_map = "";
+
+		for k_instance, v_instance in pairs(Atlas_SubZoneData) do
+			for k_instance_map, v_instance_map in pairs(Atlas_SubZoneData[k_instance]) do
+				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[k_instance][k_instance_map]) do
+					if(v_subzone == currentSubZone) then
+						selected_map = k_instance_map;
+						debug("currentSubZone: "..currentSubZone.." found, now we will use map: \""..selected_map.."\" for instance: "..k_instance);
+						break;
+					end
+				end
+			end
+		end
+		if(selected_map == nil) then
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
 				debug("You're in the same instance as the former map. Doing nothing.");
 				return;
 			end
-			search_zone = Atlas_AssocDefaults[currentZone];
+			selected_map = Atlas_AssocDefaults[currentZone];
 		end
+
+--		-- Check if current subzone is defined in the SubZoneData table
+--		-- If yes, means current subzone will be mapped to a specific map
+--		if ( Atlas_SubZoneData[currentSubZone] ) then
+--			selected_map = Atlas_SubZoneData[currentSubZone];
+--			debug("There's data for your current SubZone. Map \""..selected_map.."\" will be used.");
+--		-- Check if current subzone is defined in the SubZoneData table
+--		-- If no, then we will use the defined map for the major zone
+--		else
+--			debug("No applicable SubZone data exists.");
+--			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+--				debug("You're in the same instance as the former map. Doing nothing.");
+--				return;
+--			end
+--			selected_map = Atlas_AssocDefaults[currentZone];
+--		end
+		debug("Selecting the map...");
 		for ka,va in pairs(ATLAS_DROPDOWNS) do
 			for kb,vb in pairs(va) do         
-				if ( search_zone == vb ) then
+				if ( selected_map == vb ) then
 					AtlasOptions.AtlasType = ka;
 					AtlasOptions.AtlasZone = kb;
 					Atlas_Refresh();
+					debug("Map selected! Type: "..ka..", Zone: "..kb);
 					return;
 				end
 			end

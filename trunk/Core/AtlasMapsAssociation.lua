@@ -68,160 +68,239 @@ Atlas_AssocDefaults = {
   
   Syntax: ["loc_sub_zone_name"] = "atlas_map_name";
 ]]
-Atlas_SubZoneData = {
-	--Blackrock Spire, Lower
-	[BZ["Hordemar City"]] =			"BlackrockSpireLower";
-	[BZ["Mok'Doom"]] =			"BlackrockSpireLower";
-	[BZ["Tazz'Alaor"]] =			"BlackrockSpireLower";
-	[BZ["Skitterweb Tunnels"]] =		"BlackrockSpireLower";
-	[BZ["Halycon's Lair"]] =		"BlackrockSpireLower";
-	[BZ["The Storehouse"]] =		"BlackrockSpireLower";
-	[BZ["Chamber of Battle"]] =		"BlackrockSpireLower";
-	--Blackrock Spire, Upper
-	[BZ["Dragonspire Hall"]] =		"BlackrockSpireUpper";
-	[BZ["Hall of Binding"]] =		"BlackrockSpireUpper";
-	[BZ["The Rookery"]] =			"BlackrockSpireUpper";
-	[BZ["Hall of Blackhand"]] =		"BlackrockSpireUpper";
-	[BZ["Blackrock Stadium"]] =		"BlackrockSpireUpper";
-	[BZ["The Furnace"]] =			"BlackrockSpireUpper";
-	[BZ["Spire Throne"]] =			"BlackrockSpireUpper";
-	--Black Temple, Start
-	[BZ["Karabor Sewers"]] =		"BlackTempleStart";
-	[BZ["Illidari Training Grounds"]] =	"BlackTempleStart";
-	[BZ["Sanctuary of Shadows"]] =		"BlackTempleStart";
-	[BZ["The Refectory"]] =			"BlackTempleStart";
-	--Black Temple, Basement
-	[BZ["Gorefiend's Vigil"]] =		"BlackTempleBasement";
-	[BZ["Halls of Anguish"]] =		"BlackTempleBasement";
-	[BZ["Shrine of Lost Souls"]] =		"BlackTempleBasement";
-	--Black Temple, Top
-	[BZ["Den of Mortal Delights"]] =	"BlackTempleTop";
-	[BZ["Grand Promenade"]] =		"BlackTempleTop";
-	[BZ["Chamber of Command"]] =		"BlackTempleTop";
-	[BZ["Temple Summit"]] =			"BlackTempleTop";
-	--Black Temple, Top
-	[BZ["The Gatehouse"]] =			"KarazhanStart";
-	[BZ["Livery Stables"]] =		"KarazhanStart";
-	[BZ["The Guardhouse"]] =		"KarazhanStart";
-	[BZ["The Scullery"]] =			"KarazhanStart";
-	[BZ["Servants' Quarters"]] =		"KarazhanStart";
-	[BZ["The Grand Ballroom"]] =		"KarazhanStart";
-	[BZ["The Banquet Hall"]] =		"KarazhanStart";
-	[BZ["The Guest Chambers"]] =		"KarazhanStart";
-	[BZ["The Opera Hall"]] =		"KarazhanStart";
-	[BZ["The Broken Stair"]] =		"KarazhanStart";
-	[BZ["Master's Terrace"]] =		"KarazhanStart";
-	--Dire Maul, Entrance
-	[BZ["Broken Commons"]] =		"DireMaulEnt";
--- Comment out below as they are currently redundant due to the Zone is Feralas
---	[BZ["Eldreth Row"]] =			"DireMaulEnt";
---	[BZ["The Maul"]] =			"DireMaulEnt";
-	--Dire Maul, North
-	[BZ["Halls of Destruction"]] =		"DireMaulNorth";
-	[BZ["Gordok's Seat"]] =			"DireMaulNorth";
-	--Dire Maul, East
-	[BZ["Warpwood Quarter"]] =		"DireMaulEast";
-	[BZ["The Hidden Reach"]] =		"DireMaulEast";
-	[BZ["The Conservatory"]] =		"DireMaulEast";
-	[BZ["The Shrine of Eldretharr"]] =	"DireMaulEast";
-	--Dire Maul, West
-	[BZ["Capital Gardens"]] =		"DireMaulWest";
-	[BZ["Court of the Highborne"]] =	"DireMaulWest";
-	[BZ["Prison of Immol'thar"]] =		"DireMaulWest";
-	[BZ["The Athenaeum"]] =			"DireMaulWest";
-	--Icecrown Citadell, Lower
-	[BZ["Light's Hammer"]] =		"IcecrownCitadelA";	
-	[BZ["Oratory of the Damned"]] =		"IcecrownCitadelA";
-	[BZ["Rampart of Skulls"]] =		"IcecrownCitadelA";
-	[BZ["Deathbringer's Rise"]] =		"IcecrownCitadelA";
-	--Icecrown Citadell, Upper
-	[BZ["The Plagueworks"]] =		"IcecrownCitadelB";
-	[BZ["Putricide's Laboratory of Alchemical Horrors and Fun"]] =	"IcecrownCitadelB";
-	[BZ["The Crimson Hall"]] =		"IcecrownCitadelB";
-	[BZ["The Sanctum of Blood"]] =		"IcecrownCitadelB";
-	[BZ["The Frostwing Halls"]] =		"IcecrownCitadelB";
-	[BZ["The Frost Queen's Lair"]] =	"IcecrownCitadelB";
-	--Icecrown Citadell, Frozen Throne
-	[BZ["The Frozen Throne"]] =		"IcecrownCitadelC";
-	[BZ["Frostmourne"]] =			"IcecrownCitadelC";
-	--Karazhan, End
-	[BZ["The Menagerie"]] =			"KarazhanEnd";
-	[BZ["Guardian's Library"]] =		"KarazhanEnd";
-	[BZ["The Repository"]] =		"KarazhanEnd";
-	[BZ["The Celestial Watch"]] =		"KarazhanEnd";
-	[BZ["Gamesman's Hall"]] =		"KarazhanEnd";
-	[BZ["Medivh's Chambers"]] =		"KarazhanEnd";
-	[BZ["Master's Terrace"]] =		"KarazhanEnd";
-	[BZ["Netherspace"]] =			"KarazhanEnd";
-	--Scarlet Monastery, Entrance
-	[BZ["The Grand Vestibule"]] =		"ScarletMonasteryEnt";
-	--Scarlet Monastery, Graveyard
-	[BZ["Chamber of Atonement"]] =		"SMGraveyard";
-	[BZ["Forlorn Cloister"]] =		"SMGraveyard";
-	[BZ["Honor's Tomb"]] =			"SMGraveyard";
-	--Scarlet Monastery, Library
-	[BZ["Huntsman's Cloister"]] =		"SMLibrary";
-	[BZ["Gallery of Treasures"]] =		"SMLibrary";
-	[BZ["Athenaeum"]] =			"SMLibrary";
-	--Scarlet Monastery, Armory
-	[BZ["Training Grounds"]] =		"SMArmory";
-	[BZ["Footman's Armory"]] =		"SMArmory";
-	[BZ["Crusader's Armory"]] =		"SMArmory";
-	[BZ["Hall of Champions"]] =		"SMArmory";
-	--Scarlet Monastery, Cathedral
-	[BZ["Chapel Gardens"]] =		"SMCathedral";
-	[BZ["Crusader's Chapel"]] =		"SMCathedral";
-	--Stratholme - Crusader's Square
-	[BZ["King's Square"]] =			"StratholmeCrusader";
-	[BZ["Festival Lane"]] =			"StratholmeCrusader";
-	[BZ["Market Row"]] =			"StratholmeCrusader";
-	[BZ["Crusaders' Square"]] =		"StratholmeCrusader";
-	[BZ["The Scarlet Bastion"]] =		"StratholmeCrusader";
-	[BZ["The Hall of Lights"]] =		"StratholmeCrusader";
-	[BZ["The Hoard"]] =			"StratholmeCrusader";
-	[BZ["The Crimson Throne"]] =		"StratholmeCrusader";
-	--Stratholme - The Gauntlet
-	[BZ["Elders' Square"]] =		"StratholmeGauntlet";
-	[BZ["The Gauntlet"]] =			"StratholmeGauntlet";
-	[BZ["Slaughter Square"]] =		"StratholmeGauntlet";
-	[BZ["The Slaughter House"]] =		"StratholmeGauntlet";
-	--Throne of the Tides
-	[BZ["Abyssal Halls"]] = 		"ThroneOfTheTides";
-	[BZ["Throne of Neptulon"]] = 		"ThroneOfTheTides";
-	--Ulduar, The Siege
-	[BZ["Expedition Base Camp"]] =		"UlduarA";
-	[BZ["Iron Concourse"]] =		"UlduarA";
-	[BZ["Formation Grounds"]] =		"UlduarA";
-	[BZ["Razorscale's Aerie"]] =		"UlduarA";
-	[BZ["The Colossal Forge"]] =		"UlduarA";
-	[BZ["The Scrapyard"]] =			"UlduarA";
-	--Ulduar, The Antechamber
-	[BZ["The Antechamber"]] =		"UlduarB";
-	[BZ["The Assembly of Iron"]] =		"UlduarB";
-	[BZ["The Archivum"]] =			"UlduarB";
-	[BZ["The Celestial Planetarium"]] =	"UlduarB";
-	[BZ["The Shattered Walkway"]] =		"UlduarB";
-	--Ulduar, The Keepers
-	[BZ["The Observation Ring"]] =		"UlduarC";
-	[BZ["The Halls of Winter"]] =		"UlduarC";
-	[BZ["The Clash of Thunder"]] =		"UlduarC";
-	[BZ["The Conservatory of Life"]] =	"UlduarC";
-	[BZ["The Corridors of Ingenuity"]] =	"UlduarC";
-	[BZ["Hall of Memories"]] =		"UlduarC";
-	--Ulduar, Spark of Imagination
-	[BZ["The LMS Mark II"]] =		"UlduarD";	
-	[BZ["The Spark of Imagination"]] =	"UlduarD";
-	--Ulduar, Descent into Madness
-	[BZ["The Descent into Madness"]] =	"UlduarE";
-	[BZ["The Prison of Yogg-Saron"]] =	"UlduarE";
-	[BZ["The Mind's Eye"]] =		"UlduarE";
-	-- Wailing Caverns
-	[BZ["Cavern of Mists"]] = 		"WailingCavernsEnt";
-	[BZ["Screaming Gully"]] = 		"WailingCaverns";
-	[BZ["Dreamer's Rock"]] = 		"WailingCaverns";
-	[BZ["Pit of Fangs"]] = 			"WailingCaverns";
-	[BZ["Crag of the Everliving"]] = 	"WailingCaverns";
-	[BZ["Pit of Fangs"]] = 			"WailingCaverns";
+Atlas_SubZoneData1 = {
+	[BZ["Blackrock Spire"]] = {
+		--Blackrock Spire, Lower
+		["BlackrockSpireLower"] = {
+			BZ["Hordemar City"],
+			BZ["Mok'Doom"],
+			BZ["Tazz'Alaor"],
+			BZ["Skitterweb Tunnels"],
+			BZ["Halycon's Lair"],
+			BZ["The Storehouse"],
+			BZ["Chamber of Battle"],
+		},
+		--Blackrock Spire, Upper   
+		["BlackrockSpireUpper"] = {
+			BZ["Dragonspire Hall"],
+			BZ["Hall of Binding"],
+			BZ["The Rookery"],
+			BZ["Hall of Blackhand"],
+			BZ["Blackrock Stadium"],
+			BZ["The Furnace"],
+			BZ["Spire Throne"],
+		},
+	},
+	[BZ["Black Temple"]] = {
+		--Black Temple, Start
+		["BlackTempleStart"] = {
+			BZ["Karabor Sewers"],
+			BZ["Illidari Training Grounds"],
+			BZ["Sanctuary of Shadows"],
+			BZ["The Refectory"],
+		},
+		--Black Temple, Basement
+		["BlackTempleBasement"] = {
+			BZ["Gorefiend's Vigil"],
+			BZ["Halls of Anguish"],
+			BZ["Shrine of Lost Souls"],
+		},
+		--Black Temple, Top
+		["BlackTempleTop"] = {
+			BZ["Den of Mortal Delights"],
+			BZ["Grand Promenade"],
+			BZ["Chamber of Command"],
+			BZ["Temple Summit"],
+		},
+	},
+	[BZ["Dire Maul"]] = {
+		--Dire Maul, Entrance
+		["DireMaulEnt"] = {
+			BZ["Broken Commons"],
+			-- Comment out below as they are currently redundant due to the Zone is Feralas
+			-- BZ["Eldreth Row"],
+			-- BZ["The Maul"],
+		},
+		--Dire Maul, North
+		["DireMaulNorth"] = {
+			BZ["Halls of Destruction"],
+			BZ["Gordok's Seat"],
+		},
+		--Dire Maul, East
+		["DireMaulEast"] = {
+			BZ["Warpwood Quarter"],
+			BZ["The Hidden Reach"],
+			BZ["The Conservatory"],
+			BZ["The Shrine of Eldretharr"],
+		},
+		--Dire Maul, West
+		["DireMaulWest"] = {
+			BZ["Capital Gardens"],
+			BZ["Court of the Highborne"],
+			BZ["Prison of Immol'thar"],
+			BZ["The Athenaeum"],
+		},
+	},
+	[BZ["Icecrown Citadel"]] = {
+		--Icecrown Citadell, Lower
+		["IcecrownCitadelA"] = {
+			BZ["Light's Hammer"],	
+			BZ["Oratory of the Damned"],
+			BZ["Rampart of Skulls"],
+			BZ["Deathbringer's Rise"],
+		},
+		--Icecrown Citadell, Upper
+		["IcecrownCitadelB"] = {
+			BZ["The Plagueworks"],
+			BZ["Putricide's Laboratory of Alchemical Horrors and Fun"],
+			BZ["The Crimson Hall"],
+			BZ["The Sanctum of Blood"],
+			BZ["The Frostwing Halls"],
+			BZ["The Frost Queen's Lair"],
+		},
+		--Icecrown Citadell, Frozen Throne
+		["IcecrownCitadelC"] = {
+			BZ["The Frozen Throne"],
+			BZ["Frostmourne"],
+		},
+	},
+	[BZ["Karazhan"]] = {
+		--Karazhan, Start
+		["KarazhanStart"] = {
+			BZ["The Gatehouse"],
+			BZ["Livery Stables"],
+			BZ["The Guardhouse"],
+			BZ["The Scullery"],
+			BZ["Servants' Quarters"],
+			BZ["The Grand Ballroom"],
+			BZ["The Banquet Hall"],
+			BZ["The Guest Chambers"],
+			BZ["The Opera Hall"],
+			BZ["The Broken Stair"],
+			BZ["Master's Terrace"],
+		},
+		--Karazhan, End
+		["KarazhanEnd"] = {
+			BZ["The Menagerie"],
+			BZ["Guardian's Library"],
+			BZ["The Repository"],
+			BZ["The Celestial Watch"],
+			BZ["Gamesman's Hall"],
+			BZ["Medivh's Chambers"],
+			BZ["Master's Terrace"],
+			BZ["Netherspace"],
+		},
+	},
+	[BZ["Scarlet Monastery"]] = {
+		--Scarlet Monastery, Entrance
+		["ScarletMonasteryEnt"] = {
+			BZ["The Grand Vestibule"],
+		},
+		--Scarlet Monastery, Graveyard
+		["SMGraveyard"] = {
+			BZ["Chamber of Atonement"],
+			BZ["Forlorn Cloister"],
+			BZ["Honor's Tomb"],
+		},
+		--Scarlet Monastery, Library
+		["SMLibrary"] = {
+			BZ["Huntsman's Cloister"],
+			BZ["Gallery of Treasures"],
+			BZ["Athenaeum"],
+		},
+		--Scarlet Monastery, Armory
+		["SMArmory"] = {
+			BZ["Training Grounds"],
+			BZ["Footman's Armory"],
+			BZ["Crusader's Armory"],
+			BZ["Hall of Champions"],
+		},
+		--Scarlet Monastery, Cathedral
+		["SMCathedral"] = {
+			BZ["Chapel Gardens"],
+			BZ["Crusader's Chapel"],
+		},
+	},
+	[BZ["Stratholme"]] = {
+		--Stratholme - Crusader's Square
+		["StratholmeCrusader"] = {
+			BZ["King's Square"],
+			BZ["Festival Lane"],
+			BZ["Market Row"],
+			BZ["Crusaders' Square"],
+			BZ["The Scarlet Bastion"],
+			BZ["The Hall of Lights"],
+			BZ["The Hoard"],
+			BZ["The Crimson Throne"],
+		},
+		--Stratholme - The Gauntlet
+		["StratholmeGauntlet"] = {
+			BZ["Elders' Square"],
+			BZ["The Gauntlet"],
+			BZ["Slaughter Square"],
+			BZ["The Slaughter House"],
+		},
+	},
+	[BZ["Throne of Tides"]] = {
+		--Throne of the Tides
+		["ThroneOfTheTides"] = {
+			BZ["Abyssal Halls"],
+			BZ["Throne of Neptulon"],
+		},
+	},
+	[BZ["Ulduar"]] = {
+		--Ulduar, The Siege
+		["UlduarA"] = {
+			BZ["Expedition Base Camp"],
+			BZ["Iron Concourse"],
+			BZ["Formation Grounds"],
+			BZ["Razorscale's Aerie"],
+			BZ["The Colossal Forge"],
+			BZ["The Scrapyard"],
+		},
+		--Ulduar, The Antechamber
+		["UlduarB"] = {
+			BZ["The Antechamber"],
+			BZ["The Assembly of Iron"],
+			BZ["The Archivum"],
+			BZ["The Celestial Planetarium"],
+			BZ["The Shattered Walkway"],
+		},
+		--Ulduar, The Keepers
+		["UlduarC"] = {
+			BZ["The Observation Ring"],
+			BZ["The Halls of Winter"],
+			BZ["The Clash of Thunder"],
+			BZ["The Conservatory of Life"],
+			BZ["The Corridors of Ingenuity"],
+			BZ["Hall of Memories"],
+		},
+		--Ulduar, Spark of Imagination
+		["UlduarD"] = {
+			BZ["The LMS Mark II"],
+			BZ["The Spark of Imagination"],
+		},
+		--Ulduar, Descent into Madness
+		["UlduarE"] = {
+			BZ["The Descent into Madness"],
+			BZ["The Prison of Yogg-Saron"],
+			BZ["The Mind's Eye"],
+		},
+	},
+	[BZ["Wailing Caverns"]] = {
+		-- Wailing Caverns, Entrance
+		["WailingCavernsEnt"] = {
+			BZ["Cavern of Mists"],
+		},
+		-- Wailing Caverns
+		["WailingCaverns"] = {
+			BZ["Screaming Gully"],
+			BZ["Dreamer's Rock"],
+			BZ["Pit of Fangs"],
+			BZ["Crag of the Everliving"],
+			BZ["Pit of Fangs"],
+		},
+	},
 };
 
 --[[

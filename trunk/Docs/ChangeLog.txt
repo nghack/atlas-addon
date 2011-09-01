@@ -6,17 +6,23 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>, Atlas Teams
 ==============
 = Change Log =
 ==============
-v1.20.1 (Aug. xx, 2011)
-- Updated Eye of the Storm map (dubca7)
+v1.20.1 (Sep. xx, 2011)
 - Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
+- Maps updated:
+    - Eye of the Storm (dubca7)
+    - Black Temple (dubca7)
+- Maps info updated:
+    - Firelands map info updated (Dynaletik)
+    - Throne of the Four Winds map info updated (arith, Dynaletik)
+- Map auto-selection algorithm enhancement to fix the problem when different
+  dungeons' subzone have same translation in other language(s)
 - Minor additions, bugfixes, and layout tuning (Dynaletik, arith)
-- Firelands map info updated (Dynaletik)
-- Translation update
+- Translation updated
   - German (Dynaletik)
   - Russian (StingerSoft)
   - French (Khiria)
   - Traditional Chinese (arith)
-  - Simplified Chinese (Ananhaid)
+  - Simplified Chinese (snanhaid)
   - Spanish (maqjav)
   - Russian (StingerSoft)
 

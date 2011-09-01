@@ -68,7 +68,7 @@ Atlas_AssocDefaults = {
   
   Syntax: ["loc_sub_zone_name"] = "atlas_map_name";
 ]]
-Atlas_SubZoneData1 = {
+Atlas_SubZoneData = {
 	[BZ["Blackrock Spire"]] = {
 		--Blackrock Spire, Lower
 		["BlackrockSpireLower"] = {

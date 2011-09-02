@@ -31,7 +31,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
-local Atlas_DebugMode = true;
+local Atlas_DebugMode = false;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);

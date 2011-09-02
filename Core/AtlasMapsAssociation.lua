@@ -72,6 +72,11 @@ Atlas_SubZoneData = {
 	[BZ["Blackrock Spire"]] = {
 		--Blackrock Spire, Lower
 		["BlackrockSpireLower"] = {
+		},
+	},
+	[BZ["Hall of Blackhand"]] = {
+		--Blackrock Spire, Lower
+		["BlackrockSpireLower"] = {
 			BZ["Hordemar City"],
 			BZ["Mok'Doom"],
 			BZ["Tazz'Alaor"],

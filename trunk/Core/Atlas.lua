@@ -31,7 +31,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
-local Atlas_DebugMode = false;
+local Atlas_DebugMode = true;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -709,25 +709,29 @@ function Atlas_AutoSelect()
 	-- And we will choose a proper one to be the default one.
 	debug("currentZone: "..currentZone..", currentSubZone: "..currentSubZone);
 	if ( Atlas_AssocDefaults[currentZone] ) then
-		local selected_map = "";
+		debug("currentZone: "..currentZone.." matched the one defined in Atlas_AssocDefaults{}.");
+		local selected_map;
 
-		for k_instance, v_instance in pairs(Atlas_SubZoneData) do
-			for k_instance_map, v_instance_map in pairs(Atlas_SubZoneData[k_instance]) do
-				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[k_instance][k_instance_map]) do
+--		for k_instance, v_instance in pairs(Atlas_SubZoneData) do
+			for k_instance_map, v_instance_map in pairs(Atlas_SubZoneData[currentZone]) do
+				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[currentZone][k_instance_map]) do
 					if(v_subzone == currentSubZone) then
 						selected_map = k_instance_map;
-						debug("currentSubZone: "..currentSubZone.." found, now we will use map: \""..selected_map.."\" for instance: "..k_instance);
+						debug("currentSubZone: "..currentSubZone.." found, now we will use map: \""..selected_map.."\" for instance: "..currentZone);
 						break;
 					end
 				end
 			end
-		end
-		if(selected_map == nil) then
+--		end
+		if( selected_map == nil ) then
+			debug("No subzone matched, now checking if we should specify a default map.");
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
 				debug("You're in the same instance as the former map. Doing nothing.");
 				return;
+			else
+				selected_map = Atlas_AssocDefaults[currentZone];
+				debug("We will use the map: "..selected_map.." for the current zone: "..currentZone..".");
 			end
-			selected_map = Atlas_AssocDefaults[currentZone];
 		end
 
 --		-- Check if current subzone is defined in the SubZoneData table

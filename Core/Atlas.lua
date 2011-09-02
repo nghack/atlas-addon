@@ -712,7 +712,7 @@ function Atlas_AutoSelect()
 		debug("currentZone: "..currentZone.." matched the one defined in Atlas_AssocDefaults{}.");
 		local selected_map;
 
---		for k_instance, v_instance in pairs(Atlas_SubZoneData) do
+		if(Atlas_SubZoneData[currentZone]) then
 			for k_instance_map, v_instance_map in pairs(Atlas_SubZoneData[currentZone]) do
 				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[currentZone][k_instance_map]) do
 					if(v_subzone == currentSubZone) then
@@ -722,7 +722,8 @@ function Atlas_AutoSelect()
 					end
 				end
 			end
---		end
+		end
+
 		if( selected_map == nil ) then
 			debug("No subzone matched, now checking if we should specify a default map.");
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then

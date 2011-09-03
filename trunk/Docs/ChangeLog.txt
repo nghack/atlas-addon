@@ -22,7 +22,7 @@ v1.20.1 (Sep. xx, 2011)
   - Russian (StingerSoft)
   - French (Khiria)
   - Traditional Chinese (arith)
-  - Simplified Chinese (snanhaid)
+  - Simplified Chinese (ananhaid)
   - Spanish (maqjav)
   - Russian (StingerSoft)
 

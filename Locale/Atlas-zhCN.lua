@@ -1087,7 +1087,7 @@ if AL then
 	AL["Mawago"] = "玛瓦戈";
 	AL["Melasong"] = "梅拉桑";
 	AL["Melissa"] = "梅丽莎";
-	AL["Micah"] = "米迦";
+	AL["Micah"] = "米凯尔";
 	AL["Relissa"] = "蕾莉莎";
 	AL["Rosa"] = "洛莎";
 	AL["Tyllan"] = "泰兰";

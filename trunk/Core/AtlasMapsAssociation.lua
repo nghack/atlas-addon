@@ -61,19 +61,18 @@ Atlas_AssocDefaults = {
 --[[
   Atlas_SubZoneData{}
   
-  Links SubZone values with specific instance maps. 
-  Table index is sub-zone name, it need to be localized value, but we will handle
-  the localization with BabbleSubZone library.
-  The table value is map's key-name.
+  Define SubZone data for default map to be selected for dungeon which has multiple maps.
   
-  Syntax: ["loc_sub_zone_name"] = "atlas_map_name";
-]]
-Atlas_SubZoneData = {
-	[BZ["Blackrock Spire"]] = {
-		--Blackrock Spire, Lower
-		["BlackrockSpireLower"] = {
+  Array Syntax: 
+	["localized zone name"] = {
+		["atlas map name"] = {
+			["localized subzone name 1"],
+			["localized subzone name 2"],
 		},
 	},
+]]
+Atlas_SubZoneData = {
+	-- Hall of Blackhand
 	[BZ["Hall of Blackhand"]] = {
 		--Blackrock Spire, Lower
 		["BlackrockSpireLower"] = {
@@ -96,6 +95,7 @@ Atlas_SubZoneData = {
 			BZ["Spire Throne"],
 		},
 	},
+	-- Black Temple
 	[BZ["Black Temple"]] = {
 		--Black Temple, Start
 		["BlackTempleStart"] = {
@@ -118,6 +118,7 @@ Atlas_SubZoneData = {
 			BZ["Temple Summit"],
 		},
 	},
+	-- Dire Maul
 	[BZ["Dire Maul"]] = {
 		--Dire Maul, Entrance
 		["DireMaulEnt"] = {
@@ -146,6 +147,7 @@ Atlas_SubZoneData = {
 			BZ["The Athenaeum"],
 		},
 	},
+	-- Icecrown Citadell
 	[BZ["Icecrown Citadel"]] = {
 		--Icecrown Citadell, Lower
 		["IcecrownCitadelA"] = {
@@ -169,6 +171,7 @@ Atlas_SubZoneData = {
 			BZ["Frostmourne"],
 		},
 	},
+	-- Karazhan
 	[BZ["Karazhan"]] = {
 		--Karazhan, Start
 		["KarazhanStart"] = {
@@ -196,6 +199,7 @@ Atlas_SubZoneData = {
 			BZ["Netherspace"],
 		},
 	},
+	-- Scarlet Monastery
 	[BZ["Scarlet Monastery"]] = {
 		--Scarlet Monastery, Entrance
 		["ScarletMonasteryEnt"] = {
@@ -226,6 +230,7 @@ Atlas_SubZoneData = {
 			BZ["Crusader's Chapel"],
 		},
 	},
+	-- Stratholme
 	[BZ["Stratholme"]] = {
 		--Stratholme - Crusader's Square
 		["StratholmeCrusader"] = {
@@ -246,6 +251,8 @@ Atlas_SubZoneData = {
 			BZ["The Slaughter House"],
 		},
 	},
+	-- Throne of the Tides
+	-- 2011/09/05: Arith - Do we really need this?
 	[BZ["Throne of Tides"]] = {
 		--Throne of the Tides
 		["ThroneOfTheTides"] = {
@@ -253,6 +260,7 @@ Atlas_SubZoneData = {
 			BZ["Throne of Neptulon"],
 		},
 	},
+	-- Ulduar
 	[BZ["Ulduar"]] = {
 		--Ulduar, The Siege
 		["UlduarA"] = {
@@ -292,6 +300,7 @@ Atlas_SubZoneData = {
 			BZ["The Mind's Eye"],
 		},
 	},
+	-- Wailing Caverns
 	[BZ["Wailing Caverns"]] = {
 		-- Wailing Caverns, Entrance
 		["WailingCavernsEnt"] = {
@@ -369,7 +378,6 @@ Atlas_OutdoorZoneToAtlas = {
 };
 
 --yes, the following two tables are redundant, but they're both here in case there's ever more than one entrance map for an instance
-
 --entrance maps to instance maps
 Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
@@ -455,33 +463,33 @@ Atlas_InstToEntMatches = {
 
 --Links maps together that are part of the same instance
 Atlas_SubZoneAssoc = {
-	["BlackTempleStart"] =			"Black Temple";
-	["BlackTempleBasement"] =		"Black Temple";
-	["BlackTempleTop"] =			"Black Temple";
-	["KarazhanStart"] =			"Karazhan";
-	["KarazhanEnd"] =			"Karazhan";
-	["KarazhanEnt"] =			"Karazhan";
-	["DireMaulNorth"] =			"Dire Maul";
-	["DireMaulEast"] =			"Dire Maul";
-	["DireMaulWest"] =			"Dire Maul";
-	["DireMaulEnt"] =			"Dire Maul";
-	["BlackrockSpireLower"] =		"Blackrock Spire";
-	["BlackrockSpireUpper"] =		"Blackrock Spire";
-	["BlackrockMountainEnt"] =		"Blackrock Spire";
-	["SMGraveyard"] =			"Scarlet Monastery";
-	["SMLibrary"] =				"Scarlet Monastery";
-	["SMArmory"] =				"Scarlet Monastery";
-	["SMCathedral"] =			"Scarlet Monastery";
-	["ScarletMonasteryEnt"] =		"Scarlet Monastery";
-	["StratholmeCrusader"] =		"Stratholme";
-	["StratholmeGauntlet"] =		"Stratholme";
-	["UlduarA"] =				"Ulduar";
-	["UlduarB"] =				"Ulduar";
-	["UlduarC"] =				"Ulduar";
-	["UlduarD"] =				"Ulduar";
-	["UlduarE"] =				"Ulduar";
-	["IcecrownCitadelA"] =			"Icecrown Citadel";
-	["IcecrownCitadelB"] =			"Icecrown Citadel";
-	["IcecrownCitadelC"] =			"Icecrown Citadel";
-	["IcecrownEnt"] =			"Icecrown Citadel";
+	["BlackTempleStart"] =			BZ["Black Temple"];
+	["BlackTempleBasement"] =		BZ["Black Temple"];
+	["BlackTempleTop"] =			BZ["Black Temple"];
+	["KarazhanStart"] =			BZ["Karazhan"];
+	["KarazhanEnd"] =			BZ["Karazhan"];
+	["KarazhanEnt"] =			BZ["Karazhan"];
+	["DireMaulNorth"] =			BZ["Dire Maul"];
+	["DireMaulEast"] =			BZ["Dire Maul"];
+	["DireMaulWest"] =			BZ["Dire Maul"];
+	["DireMaulEnt"] =			BZ["Dire Maul"];
+	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
+	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
+	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
+	["SMGraveyard"] =			BZ["Scarlet Monastery"];
+	["SMLibrary"] =				BZ["Scarlet Monastery"];
+	["SMArmory"] =				BZ["Scarlet Monastery"];
+	["SMCathedral"] =			BZ["Scarlet Monastery"];
+	["ScarletMonasteryEnt"] =		BZ["Scarlet Monastery"];
+	["StratholmeCrusader"] =		BZ["Stratholme"];
+	["StratholmeGauntlet"] =		BZ["Stratholme"];
+	["UlduarA"] =				BZ["Ulduar"];
+	["UlduarB"] =				BZ["Ulduar"];
+	["UlduarC"] =				BZ["Ulduar"];
+	["UlduarD"] =				BZ["Ulduar"];
+	["UlduarE"] =				BZ["Ulduar"];
+	["IcecrownCitadelA"] =			BZ["Icecrown Citadel"];
+	["IcecrownCitadelB"] =			BZ["Icecrown Citadel"];
+	["IcecrownCitadelC"] =			BZ["Icecrown Citadel"];
+	["IcecrownEnt"] =			BZ["Icecrown Citadel"];
 };

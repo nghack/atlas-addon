@@ -158,7 +158,7 @@ local function Process_Deprecated()
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.5" }, -- updated July 15, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "6.04.04" }, -- updated July 11, 2011
+		{ "AtlasLoot", "6.04.04" }, -- updated Sep. XX, 2011
 		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011
 		{ "Atlas_WorldEvents", "2.3" }, -- updated June 28, 2011
 	};
@@ -717,13 +717,12 @@ function Atlas_AutoSelect()
 				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[currentZone][k_instance_map]) do
 					if(v_subzone == currentSubZone) then
 						selected_map = k_instance_map;
-						debug("currentSubZone: "..currentSubZone.." found, now we will use map: \""..selected_map.."\" for instance: "..currentZone);
+						debug("currentSubZone: "..currentSubZone.." matched found, now we will use map: \""..selected_map.."\" for instance: "..currentZone);
 						break;
 					end
 				end
 			end
 		end
-
 		if( selected_map == nil ) then
 			debug("No subzone matched, now checking if we should specify a default map.");
 			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
@@ -734,30 +733,14 @@ function Atlas_AutoSelect()
 				debug("We will use the map: "..selected_map.." for the current zone: "..currentZone..".");
 			end
 		end
-
---		-- Check if current subzone is defined in the SubZoneData table
---		-- If yes, means current subzone will be mapped to a specific map
---		if ( Atlas_SubZoneData[currentSubZone] ) then
---			selected_map = Atlas_SubZoneData[currentSubZone];
---			debug("There's data for your current SubZone. Map \""..selected_map.."\" will be used.");
---		-- Check if current subzone is defined in the SubZoneData table
---		-- If no, then we will use the defined map for the major zone
---		else
---			debug("No applicable SubZone data exists.");
---			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
---				debug("You're in the same instance as the former map. Doing nothing.");
---				return;
---			end
---			selected_map = Atlas_AssocDefaults[currentZone];
---		end
 		debug("Selecting the map...");
-		for ka,va in pairs(ATLAS_DROPDOWNS) do
-			for kb,vb in pairs(va) do         
-				if ( selected_map == vb ) then
-					AtlasOptions.AtlasType = ka;
-					AtlasOptions.AtlasZone = kb;
+		for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
+			for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
+				if ( selected_map == v_DropDownZone ) then
+					AtlasOptions.AtlasType = k_DropDownType;
+					AtlasOptions.AtlasZone = k_DropDownZone;
 					Atlas_Refresh();
-					debug("Map selected! Type: "..ka..", Zone: "..kb);
+					debug("Map selected! Type: "..k_DropDownType..", Zone: "..k_DropDownZone..", "..ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]);
 					return;
 				end
 			end
@@ -765,14 +748,14 @@ function Atlas_AutoSelect()
 	else
 		debug("SubZone data isn't relevant here. Checking if it's outdoor zone.");
 		if ( Atlas_OutdoorZoneToAtlas[currentZone] ) then
-			debug("This world zone is associated with a map.");
-			for ka,va in pairs(ATLAS_DROPDOWNS) do
-				for kb,vb in pairs(va) do         
-					if ( Atlas_OutdoorZoneToAtlas[currentZone] == vb ) then
-						AtlasOptions.AtlasType = ka;
-						AtlasOptions.AtlasZone = kb;
+			debug("This world zone "..currentZone.." is associated with a map.");
+			for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
+				for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
+					if ( Atlas_OutdoorZoneToAtlas[currentZone] == v_DropDownZone ) then
+						AtlasOptions.AtlasType = k_DropDownType;
+						AtlasOptions.AtlasZone = k_DropDownZone;
 						Atlas_Refresh();
-						debug("Map changed to the associated map.");
+						debug("Map changed to the associated map: "..ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]);
 						return;
 					end
 				end
@@ -794,12 +777,12 @@ function Atlas_AutoSelect()
 			end
 		end
 		debug("Searching through all maps for a ZoneName match.");
-		for ka,va in pairs(ATLAS_DROPDOWNS) do
-			for kb,vb in pairs(va) do         
+		for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
+			for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
 				-- Compare the currentZone to the new substr of ZoneName
-				if ( currentZone == strsub(AtlasMaps[vb].ZoneName[1], strlen(AtlasMaps[vb].ZoneName[1]) - strlen(currentZone) + 1) ) then
-					AtlasOptions.AtlasType = ka;
-					AtlasOptions.AtlasZone = kb;
+				if ( currentZone == strsub(AtlasMaps[v_DropDownZone].ZoneName[1], strlen(AtlasMaps[v_DropDownZone].ZoneName[1]) - strlen(currentZone) + 1) ) then
+					AtlasOptions.AtlasType = k_DropDownType;
+					AtlasOptions.AtlasZone = k_DropDownZone;
 					Atlas_Refresh();
 					debug("Found a match. Map has been changed.");
 					return;

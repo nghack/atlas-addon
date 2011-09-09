@@ -17,6 +17,8 @@ externals:
     Libs/LibDataBroker-1.1: git://git.wowace.com/wow/libdatabroker-1-1/mainline.git
 
 ignore:
+    - Libs/LibAboutPanel
+    - Libs/LibDataBroker-1.1
 
 move-folders:
     Atlas/Plugins/Atlas_Battlegrounds:  Atlas_Battlegrounds

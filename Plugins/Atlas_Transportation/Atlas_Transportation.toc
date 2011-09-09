@@ -12,7 +12,7 @@
 ## Notes-koKR: 비행경로 지도
 ## Notes-zhCN: 交通地图
 ## Notes-zhTW: Atlas 交通網路圖模組，顯示各大陸的海陸空交通節點
-## Version: 1.20.1
+## Version: 1.20.2
 ## Author: arith, Dynaletik, Deadca7
 ## X-Date: September 09, 2011
 ## X-Credits: Dan Gilbert, Lothaer

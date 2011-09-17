@@ -44,8 +44,8 @@ local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
-local function EJ_GetBossName(DungeonID)
-	local ename = EJ_GetEncounterInfo(DungeonID);
+local function EJ_GetBossName(BossId)
+	local ename = EJ_GetEncounterInfo(BossId);
 	return ename;
 end
 

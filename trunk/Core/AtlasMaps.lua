@@ -44,8 +44,8 @@ local WHIT = "|cffffffff";
 local YLOW = "|cffcccc33";
 local INDENT = "      ";
 
-local function EJ(encounterID)
-	local ename = EJ_GetEncounterInfo(encounterID);
+local function EJ_GetBossName(DungeonID)
+	local ename = EJ_GetEncounterInfo(DungeonID);
 	return ename;
 end
 
@@ -924,15 +924,15 @@ Syntax:
 		JournalInstanceID = "64";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
-		{ WHIT.." 1) "..EJ(96) }; -- Baron Ashbury
-		{ WHIT.." 2) "..EJ(97) }; -- Baron Silverlaine
+		{ WHIT.." 1) "..EJ_GetBossName(96) }; -- Baron Ashbury
+		{ WHIT.." 2) "..EJ_GetBossName(97) }; -- Baron Silverlaine
 		{ WHIT..INDENT..BB["Odo the Blindwatcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Razorclaw the Butcher"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Rethilgore"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
 		{ WHIT..INDENT..BB["Wolf Master Nandos"].." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT.." 3) "..EJ(98) }; -- Commander Springvale
-		{ WHIT.." 4) "..EJ(99) }; -- Lord Walden
-		{ WHIT.." 5) "..EJ(100) }; -- Lord Godfrey
+		{ WHIT.." 3) "..EJ_GetBossName(98) }; -- Commander Springvale
+		{ WHIT.." 4) "..EJ_GetBossName(99) }; -- Lord Walden
+		{ WHIT.." 5) "..EJ_GetBossName(100) }; -- Lord Godfrey
 		{ ORNG.." 1) "..AL["Apothecary Trio"].." ("..AL["Love is in the Air"]..")" };
 		{ ORNG..INDENT..AL["Apothecary Hummel <Crown Chemical Co.>"] };
 		{ ORNG..INDENT..AL["Apothecary Baxter <Crown Chemical Co.>"] };
@@ -1063,13 +1063,13 @@ Syntax:
 		JournalInstanceID = "63";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
-		{ WHIT.." 1) "..EJ(89) }; -- Glubtok
+		{ WHIT.." 1) "..EJ_GetBossName(89) }; -- Glubtok
 		{ WHIT.." 2) "..AL["Lumbering Oaf"] };
-		{ WHIT..INDENT..EJ(90) }; -- Helix Gearbreaker
-		{ WHIT.." 3) "..EJ(91) }; -- Foe Reaper 5000
-		{ WHIT.." 4) "..EJ(92) }; -- Admiral Ripsnarl
-		{ WHIT..INDENT..EJ(93) }; -- "Captain" Cookie
-		{ WHIT..INDENT..EJ(95).." ("..AL["Heroic"]..")" }; -- Vanessa VanCleef
+		{ WHIT..INDENT..EJ_GetBossName(90) }; -- Helix Gearbreaker
+		{ WHIT.." 3) "..EJ_GetBossName(91) }; -- Foe Reaper 5000
+		{ WHIT.." 4) "..EJ_GetBossName(92) }; -- Admiral Ripsnarl
+		{ WHIT..INDENT..EJ_GetBossName(93) }; -- "Captain" Cookie
+		{ WHIT..INDENT..EJ_GetBossName(95).." ("..AL["Heroic"]..")" }; -- Vanessa VanCleef
 		{ GREN.." 1') "..AL["Lieutenant Horatio Laine"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Quartermaster Lewis <Quartermaster>"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Slinky Sharpshiv"].." ("..BF["Horde"]..")" };
@@ -2299,8 +2299,8 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Hellscream's Reach"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(139) }; -- Argaloth
-		{ WHIT.." 2) "..EJ(140) }; -- Occu'thar
+		{ WHIT.." 1) "..EJ_GetBossName(139) }; -- Argaloth
+		{ WHIT.." 2) "..EJ_GetBossName(140) }; -- Occu'thar
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Caverns"] };
@@ -2311,11 +2311,11 @@ Syntax:
 		Acronym = AL["BRC"];
 		JournalInstanceID = "66";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(105) }; -- Rom'ogg Bonecrusher
-		{ WHIT.." 2) "..EJ(106) }; -- Corla, Herald of Twilight
-		{ WHIT.." 3) "..EJ(107) }; -- Karsh Steelbender
-		{ WHIT.." 4) "..EJ(108) }; -- Beauty
-		{ WHIT.." 5) "..EJ(109) }; -- Ascendant Lord Obsidius
+		{ WHIT.." 1) "..EJ_GetBossName(105) }; -- Rom'ogg Bonecrusher
+		{ WHIT.." 2) "..EJ_GetBossName(106) }; -- Corla, Herald of Twilight
+		{ WHIT.." 3) "..EJ_GetBossName(107) }; -- Karsh Steelbender
+		{ WHIT.." 4) "..EJ_GetBossName(108) }; -- Beauty
+		{ WHIT.." 5) "..EJ_GetBossName(109) }; -- Ascendant Lord Obsidius
 		{ GREN.." 1') "..AL["Finkle Einhorn"] };
 		{ GREN..INDENT..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Teleporter"] };
@@ -2329,12 +2329,12 @@ Syntax:
 		Acronym = AL["BWD"];
 		JournalInstanceID = "73";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(170) }; -- Magmaw
-		{ WHIT.." 2) "..EJ(169) }; -- Omnotron Defense System
-		{ WHIT.." 3) "..EJ(172) }; -- Chimaeron
-		{ WHIT.." 4) "..EJ(173) }; -- Maloriak
-		{ WHIT.." 5) "..EJ(171) }; -- Atramedes
-		{ WHIT.." 6) "..EJ(174) }; -- Nefarian's End
+		{ WHIT.." 1) "..EJ_GetBossName(170) }; -- Magmaw
+		{ WHIT.." 2) "..EJ_GetBossName(169) }; -- Omnotron Defense System
+		{ WHIT.." 3) "..EJ_GetBossName(172) }; -- Chimaeron
+		{ WHIT.." 4) "..EJ_GetBossName(173) }; -- Maloriak
+		{ WHIT.." 5) "..EJ_GetBossName(171) }; -- Atramedes
+		{ WHIT.." 6) "..EJ_GetBossName(174) }; -- Nefarian's End
 	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
@@ -2349,13 +2349,13 @@ Syntax:
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
 		{ GREN..INDENT..AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..EJ(192) }; -- Beth'tilac
-		{ WHIT.." 2) "..EJ(193) }; -- Lord Rhyolith
-		{ WHIT.." 3) "..EJ(194) }; -- Alysrazor
-		{ WHIT.." 4) "..EJ(195) }; -- Shannox
-		{ WHIT.." 5) "..EJ(196) }; -- Baleroc, the Gatekeeper
-		{ WHIT.." 6) "..EJ(197) }; -- Majordomo Staghelm
-		{ WHIT.." 7) "..EJ(198) }; -- Ragnaros
+		{ WHIT.." 1) "..EJ_GetBossName(192) }; -- Beth'tilac
+		{ WHIT.." 2) "..EJ_GetBossName(193) }; -- Lord Rhyolith
+		{ WHIT.." 3) "..EJ_GetBossName(194) }; -- Alysrazor
+		{ WHIT.." 4) "..EJ_GetBossName(195) }; -- Shannox
+		{ WHIT.." 5) "..EJ_GetBossName(196) }; -- Baleroc, the Gatekeeper
+		{ WHIT.." 6) "..EJ_GetBossName(197) }; -- Majordomo Staghelm
+		{ WHIT.." 7) "..EJ_GetBossName(198) }; -- Ragnaros
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
@@ -2366,10 +2366,10 @@ Syntax:
 		Acronym = AL["GB"];
 		JournalInstanceID = "71";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(131) }; -- General Umbriss
-		{ WHIT.." 2) "..EJ(132) }; -- Forgemaster Throngus
-		{ WHIT.." 3) "..EJ(133).." & "..BB["Valiona"] }; -- Drahga Shadowburner
-		{ WHIT.." 4) "..EJ(134) }; -- Erudax, the Duke of Below
+		{ WHIT.." 1) "..EJ_GetBossName(131) }; -- General Umbriss
+		{ WHIT.." 2) "..EJ_GetBossName(132) }; -- Forgemaster Throngus
+		{ WHIT.." 3) "..EJ_GetBossName(133).." & "..BB["Valiona"] }; -- Drahga Shadowburner
+		{ WHIT.." 4) "..EJ_GetBossName(134) }; -- Erudax, the Duke of Below
 		{ GREN.." 1') "..AL["Baleflame"] };
 		{ GREN..INDENT..AL["Farseer Tooranu <The Earthen Ring>"] };
 		{ GREN..INDENT..AL["Velastrasza"] };
@@ -2383,13 +2383,13 @@ Syntax:
 		Acronym = AL["HoO"];
 		JournalInstanceID = "70";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(124) }; -- Temple Guardian Anhuur
-		{ WHIT.." 2) "..EJ(125) }; -- Earthrager Ptah
-		{ WHIT.." 3) "..EJ(126) }; -- Anraphet
-		{ WHIT.." 4) "..EJ(127) }; -- Isiset, Construct of Magic
-		{ WHIT.." 5) "..EJ(128) }; -- Ammunae, Construct of Life
-		{ WHIT.." 6) "..EJ(129) }; -- Setesh, Construct of Destruction
-		{ WHIT.." 7) "..EJ(130) }; -- Rajh, Construct of Sun
+		{ WHIT.." 1) "..EJ_GetBossName(124) }; -- Temple Guardian Anhuur
+		{ WHIT.." 2) "..EJ_GetBossName(125) }; -- Earthrager Ptah
+		{ WHIT.." 3) "..EJ_GetBossName(126) }; -- Anraphet
+		{ WHIT.." 4) "..EJ_GetBossName(127) }; -- Isiset, Construct of Magic
+		{ WHIT.." 5) "..EJ_GetBossName(128) }; -- Ammunae, Construct of Life
+		{ WHIT.." 6) "..EJ_GetBossName(129) }; -- Setesh, Construct of Destruction
+		{ WHIT.." 7) "..EJ_GetBossName(130) }; -- Rajh, Construct of Sun
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
 		{ GREN.." 3') "..AL["Large Stone Obelisk"] };
@@ -2404,11 +2404,11 @@ Syntax:
 		JournalInstanceID = "69";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Captain Hadan"] };
-		{ WHIT.." 1) "..EJ(117) }; -- General Husam
-		{ WHIT.." 2) "..EJ(118) }; -- Lockmaw
+		{ WHIT.." 1) "..EJ_GetBossName(117) }; -- General Husam
+		{ WHIT.." 2) "..EJ_GetBossName(118) }; -- Lockmaw
 		{ WHIT..INDENT..AL["Augh"] };
-		{ WHIT.." 3) "..EJ(119) }; -- High Prophet Barim
-		{ WHIT.." 4) "..EJ(122) }; -- Siamat
+		{ WHIT.." 3) "..EJ_GetBossName(119) }; -- High Prophet Barim
+		{ WHIT.." 4) "..EJ_GetBossName(122) }; -- Siamat
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
 	TheBastionOfTwilight = {
@@ -2421,11 +2421,11 @@ Syntax:
 		JournalInstanceID = "72";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..EJ(156) }; -- Halfus Wyrmbreaker
-		{ WHIT.." 2) "..EJ(157) }; -- Theralion and Valiona
-		{ WHIT.." 3) "..EJ(158) }; -- Ascendant Council
-		{ WHIT.." 4) "..EJ(167) }; -- Cho'gall
-		{ WHIT.." 5) "..EJ(168).." ("..AL["Heroic"]..")" }; -- Sinestra
+		{ WHIT.." 1) "..EJ_GetBossName(156) }; -- Halfus Wyrmbreaker
+		{ WHIT.." 2) "..EJ_GetBossName(157) }; -- Theralion and Valiona
+		{ WHIT.." 3) "..EJ_GetBossName(158) }; -- Ascendant Council
+		{ WHIT.." 4) "..EJ_GetBossName(167) }; -- Cho'gall
+		{ WHIT.." 5) "..EJ_GetBossName(168).." ("..AL["Heroic"]..")" }; -- Sinestra
 	};
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
@@ -2438,10 +2438,10 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Earthwarden Yrsa <The Earthen Ring>"] };
 		{ BLUE.." B) "..AL["Exit"] };
-		{ WHIT.." 1) "..EJ(110) }; -- Corborus
-		{ WHIT.." 2) "..EJ(111) }; -- Slabhide
-		{ WHIT.." 3) "..EJ(112) }; -- Ozruk
-		{ WHIT.." 4) "..EJ(113) }; -- High Priestess Azil
+		{ WHIT.." 1) "..EJ_GetBossName(110) }; -- Corborus
+		{ WHIT.." 2) "..EJ_GetBossName(111) }; -- Slabhide
+		{ WHIT.." 3) "..EJ_GetBossName(112) }; -- Ozruk
+		{ WHIT.." 4) "..EJ_GetBossName(113) }; -- High Priestess Azil
 		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	TheVortexPinnacle = {
@@ -2454,9 +2454,9 @@ Syntax:
 		JournalInstanceID = "68";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Itesh"] };
-		{ WHIT.." 1) "..EJ(114) }; -- Grand Vizier Ertan
-		{ WHIT.." 2) "..EJ(115) }; -- Altairus
-		{ WHIT.." 3) "..EJ(116) }; -- Asaad, Caliph of Zephyrs
+		{ WHIT.." 1) "..EJ_GetBossName(114) }; -- Grand Vizier Ertan
+		{ WHIT.." 2) "..EJ_GetBossName(115) }; -- Altairus
+		{ WHIT.." 3) "..EJ_GetBossName(116) }; -- Asaad, Caliph of Zephyrs
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Magical Brazier"] };
 	};
@@ -2469,11 +2469,11 @@ Syntax:
 		Acronym = AL["TWT"];
 		JournalInstanceID = "74";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ(154) }; -- The Conclave of Wind
+		{ WHIT.." 1) "..EJ_GetBossName(154) }; -- The Conclave of Wind
 		{ WHIT..INDENT..BB["Anshal"] };
 		{ WHIT..INDENT..BB["Nezir"] };
 		{ WHIT..INDENT..BB["Rohash"] };
-		{ WHIT.." 2) "..EJ(155) }; -- Al'Akir
+		{ WHIT.." 2) "..EJ_GetBossName(155) }; -- Al'Akir
 	};
 	ThroneOfTheTides = {
 		ZoneName = { BZ["The Abyssal Maw"]..AL["Colon"]..BZ["Throne of the Tides"] };
@@ -2487,10 +2487,10 @@ Syntax:
 		{ GREN..INDENT..AL["Captain Taylor"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Legionnaire Nazgrim"].." ("..BF["Horde"]..")" };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..EJ(101) }; -- Lady Naz'jar
-		{ WHIT.." 2) "..EJ(102) }; -- Commander Ulthok, the Festering Prince
-		{ WHIT.." 3) "..BB["Erunak Stonespeaker"].." & "..EJ(103) }; -- Mindbender Ghur'sha
-		{ WHIT.." 4) "..EJ(104) }; -- Ozumat
+		{ WHIT.." 1) "..EJ_GetBossName(101) }; -- Lady Naz'jar
+		{ WHIT.." 2) "..EJ_GetBossName(102) }; -- Commander Ulthok, the Festering Prince
+		{ WHIT.." 3) "..BB["Erunak Stonespeaker"].." & "..EJ_GetBossName(103) }; -- Mindbender Ghur'sha
+		{ WHIT.." 4) "..EJ_GetBossName(104) }; -- Ozumat
 		{ GREN..INDENT..AL["Neptulon"] };
 		{ GREN.." 1') "..AL["Teleporter"] };
 	};
@@ -2507,16 +2507,16 @@ Syntax:
 		{ GREN..INDENT..AL["Witch Doctor T'wansi"] };
 		{ GREN..INDENT..AL["Blood Guard Hakkuz <Darkspear Elite>"] };
 		{ GREN..INDENT..AL["Voodoo Pile"] };
-		{ WHIT.." 1) "..EJ(186) }; -- Akil'zon
+		{ WHIT.." 1) "..EJ_GetBossName(186) }; -- Akil'zon
 		{ GREN..INDENT..AL["Bakkalzu"] };
-		{ WHIT.." 2) "..EJ(187) }; -- Nalorakk
+		{ WHIT.." 2) "..EJ_GetBossName(187) }; -- Nalorakk
 		{ GREN..INDENT..AL["Hazlek"] };
 		{ GREN..INDENT..AL["The Map of Zul'Aman"] };
-		{ WHIT.." 3) "..EJ(188) }; -- Jan'alai
+		{ WHIT.." 3) "..EJ_GetBossName(188) }; -- Jan'alai
 		{ GREN..INDENT..AL["Norkani"] };
-		{ WHIT.." 4) "..EJ(189) }; -- Halazzi
+		{ WHIT.." 4) "..EJ_GetBossName(189) }; -- Halazzi
 		{ GREN..INDENT..AL["Kasha"] };
-		{ WHIT.." 5) "..EJ(190) }; -- Hex Lord Malacrass
+		{ WHIT.." 5) "..EJ_GetBossName(190) }; -- Hex Lord Malacrass
 		{ WHIT..INDENT..AL["Thurg"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Gazakroth"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Lord Raadan"].." ("..AL["Random"]..")" };
@@ -2525,7 +2525,7 @@ Syntax:
 		{ WHIT..INDENT..AL["Slither"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Fenstalker"].." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..AL["Koragg"].." ("..AL["Random"]..")" };
-		{ WHIT.." 6) "..EJ(191) }; -- Daakara
+		{ WHIT.." 6) "..EJ_GetBossName(191) }; -- Daakara
 		{ GREN.." 1') "..AL["Zungam"] };
 		{ GREN.." 2') "..AL["Forest Frogs"] };
 		{ GREN..INDENT..AL["Eulinda <Reagents>"] };
@@ -2565,12 +2565,12 @@ Syntax:
 		{ WHIT.." 3) "..AL["Gub <Destroyer of Fish>"] };
 		{ WHIT.." 4) "..AL["Venomancer T'Kulu <The Toxic Bite>"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
-		{ WHIT.." 5) "..EJ(175) }; -- High Priest Venoxis
+		{ WHIT.." 5) "..EJ_GetBossName(175) }; -- High Priest Venoxis
 		{ WHIT.." 6) "..AL["Tor-Tun <The Slumberer>"] };
 		{ WHIT.." 7) "..AL["Kaulema the Mover"] };
 		{ WHIT.." 8) "..AL["Berserking Boulder Roller"] };
 		{ GREN.." 4') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT.." 9) "..EJ(176) }; -- Bloodlord Mandokir
+		{ WHIT.." 9) "..EJ_GetBossName(176) }; -- Bloodlord Mandokir
 		{ WHIT.."10) "..AL["Mor'Lek the Dismantler"] };
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
@@ -2582,12 +2582,12 @@ Syntax:
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
-		{ WHIT.."15) "..EJ(181).." ("..AL["Basement"]..")" }; -- High Priestess Kilnara
+		{ WHIT.."15) "..EJ_GetBossName(181).." ("..AL["Basement"]..")" }; -- High Priestess Kilnara
 		{ GREN.." 5') "..AL["Zanzil's Cauldron of Frostburn Formula"] };
-		{ WHIT.."16) "..EJ(184) }; -- Zanzil
+		{ WHIT.."16) "..EJ_GetBossName(184) }; -- Zanzil
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Toxic Torment"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Frostburn Formula"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };
-		{ WHIT.."17) "..EJ(185) }; -- Jin'do the Godbreaker
+		{ WHIT.."17) "..EJ_GetBossName(185) }; -- Jin'do the Godbreaker
 	};
 };

@@ -2336,6 +2336,34 @@ Syntax:
 		{ WHIT.." 5) "..EJ_GetBossName(171) }; -- Atramedes
 		{ WHIT.." 6) "..EJ_GetBossName(174) }; -- Nefarian's End
 	};
+	CoTEndTime = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["End Time"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT:ET"];
+		--JournalInstanceID = "68";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..AL["Echo of Sylvanas"] };
+		{ WHIT.." 2) "..AL["Echo of Tyrande"] };
+		{ WHIT.." 3) "..AL["Echo of Jaina"] };
+		{ WHIT.." 4) "..AL["Echo of Baine"] };
+		{ WHIT.." 5) "..AL["Murozond"] };
+	};
+	CoTWellOfEternity = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Well of Eternity"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT:WoE"];
+		--JournalInstanceID = "68";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..AL["Peroth'arn"] };
+		{ WHIT.." 2) "..AL["Azshara"] };
+		{ WHIT.." 3) "..AL["Mannoroth and Varo'then"] };
+	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
@@ -2394,6 +2422,19 @@ Syntax:
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
 		{ GREN.." 3') "..AL["Large Stone Obelisk"] };
 	};
+	HourOfTwilight = {
+		ZoneName = { AL["Hour of Twilight"] };
+		Location = { BZ["Dragonblight"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["HoT"];
+		--JournalInstanceID = "68";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..AL["Arcurion"] };
+		{ WHIT.." 2) "..AL["Asira Dawnslayer"] };
+		{ WHIT.." 3) "..AL["Archbishop Benedictus"] };
+	};
 	LostCityOfTolvir = {
 		ZoneName = { BZ["Lost City of the Tol'vir"] };
 		Location = { BZ["Uldum"] };
@@ -2427,6 +2468,24 @@ Syntax:
 		{ WHIT.." 4) "..EJ_GetBossName(167) }; -- Cho'gall
 		{ WHIT.." 5) "..EJ_GetBossName(168).." ("..AL["Heroic"]..")" }; -- Sinestra
 	};
+	TheDragonSoul = {
+		ZoneName = { AL["The Dragon Soul"] };
+		Location = { BZ["Dragonblight"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["TDS"];
+		--JournalInstanceID = "68";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..AL["Morchok"] };
+		{ WHIT.." 2) "..AL["Warlord Zon'ozz"] };
+		{ WHIT.." 3) "..AL["Yor'sahj the Unsleeping"] };
+		{ WHIT.." 4) "..AL["Hagara the Binder"] };
+		{ WHIT.." 5) "..AL["Ultraxion"] };
+		{ WHIT.." 6) "..AL["Warmaster Blackhorn"] };
+		{ WHIT.." 7) "..AL["Deathwing's back"] };
+		{ WHIT.." 8) "..AL["Deathwing"] };
+	},
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
 		Location = { BZ["Deepholm"] };

@@ -1,4 +1,4 @@
-﻿## Interface: 40200
+﻿## Interface: 40300
 ## Title: Atlas |r|cFF0099FF[Battlegrounds]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Schlachtfelder]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Поля Сражений]|r
@@ -12,9 +12,9 @@
 ## Notes-koKR: 전장 지도
 ## Notes-zhCN: 战场地图
 ## Notes-zhTW: Atlas 戰場地圖模組
-## Version: 1.20.2
+## Version: 1.20.3
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: September 09, 2011
+## X-Date: September 27, 2011
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

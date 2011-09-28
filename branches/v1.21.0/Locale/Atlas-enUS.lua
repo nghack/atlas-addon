@@ -330,14 +330,14 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
-	AL["CoT:ET"] = "CoT:ET"; --Caverns of Time: End Time
-	AL["CoT:WoE"] = "CoT:WoE"; --Caverns of Time: Well of Eternity
+	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["HoT"] = "HoT"; --Hour of Twilight
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-	AL["TDS"] = "TDS"; --The Dragon Soul
+	AL["DS"] = "DS"; --Dragon Soul
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1031,25 +1031,15 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
-	
-	--End Time
+
+	--Caverns of Time: End Time
 	AL["End Time"] = "End Time";
-	AL["Echo of Sylvanas"] = "Echo of Sylvanas";
-	AL["Echo of Tyrande"] = "Echo of Tyrande";
-	AL["Echo of Jaina"] = "Echo of Jaina";
-	AL["Echo of Baine"] = "Echo of Baine";
-	AL["Murozond"] = "Murozond";
-	
-	--The Dragon Soul
-	AL["The Dragon Soul"] = "The Dragon Soul";
-	AL["Morchok"] = "Morchok";
-	AL["Warlord Zon'ozz"] = "Warlord Zon'ozz";
-	AL["Yor'sahj the Unsleeping"] = "Yor'sahj the Unsleeping";
-	AL["Hagara the Binder"] = "Hagara the Binder";
-	AL["Ultraxion"] = "Ultraxion";
-	AL["Warmaster Blackhorn"] = "Warmaster Blackhorn";
-	AL["Deathwing's back"] = "Deathwing's back";
-	AL["Deathwing"] = "Deathwing";
+
+	--Caverns of Time: Well of Eternity
+	AL["Well of Eternity"] = "Well of Eternity";
+
+	--Dragon Soul
+	AL["Dragon Soul"] = "Dragon Soul";
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>"; -- 54402
@@ -1065,10 +1055,7 @@ if AL then
 
 	--Hour of Twilight
 	AL["Hour of Twilight"] = "Hour of Twilight";
-	AL["Arcurion"] = "Arcurion";
-	AL["Asira Dawnslayer"] = "Asira Dawnslayer";
-	AL["Archbishop Benedictus"] = "Archbishop Benedictus";
-	
+
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";
 	AL["Augh"] = "Augh";
@@ -1090,12 +1077,6 @@ if AL then
 	AL["Legionnaire Nazgrim"] = "Legionnaire Nazgrim";
 	AL["Neptulon"] = "Neptulon";
 
-	--Well of Eternity
-	AL["Well of Eternity"] = "Well of Eternity";
-	AL["Peroth'arn"] = "Peroth'arn";
-	AL["Azshara"] = "Azshara";
-	AL["Mannoroth and Varo'then"] = "Mannoroth and Varo'then";
-	
 	--Zul'Aman
 	AL["Vol'jin"] = "Vol'jin";
 	AL["Witch Doctor T'wansi"] = "Witch Doctor T'wansi";

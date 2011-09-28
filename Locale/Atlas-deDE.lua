@@ -337,10 +337,14 @@ if AL then
 	AL["BoT"] = "BdZ"; --Bastion of Twilight
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-ET"] = "HdZ-EZ"; --Caverns of Time: End Time
+	AL["CoT-WoE"] = "HdZ-BdE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HdU"; --Halls of Origination
+	AL["HoT"] = "SdZ"; --Hour of Twilight
 	AL["LCoT"] = "VSdT"; --Lost City of the Tol'vir
+	AL["DS"] = "DS"; --Dragon Soul
 	AL["TSC"] = "DSK"; --The Stonecore
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
@@ -1035,6 +1039,12 @@ if AL then
 
 	--Blackwing Descent
 
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Well of Eternity
+
+	--Dragon Soul
+
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Zornranke <Sammlerin kristallisierten Feuersteins>";
 	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Sturmwut <Rüstmeister der Rächer des Hyjal>";
@@ -1046,6 +1056,8 @@ if AL then
 
 	--Halls of Origination
 	AL["Large Stone Obelisk"] = "Große Steintafel";
+
+	--Hour of Twilight
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Kapitän Hadan";

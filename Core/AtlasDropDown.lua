@@ -76,7 +76,6 @@ Atlas_DropDownLayouts_Order = {
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN1] = {
-			--"AbyssalMaw",
 			"BaradinHold",
 			"BlackrockCaverns",
 			"BlackrockDepths",
@@ -178,6 +177,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_CONTINENT_NORTHREND] = {
 			"AhnKahet",
 			"AzjolNerub",
+			"DragonSoul",
 			"DrakTharonKeep",
 			"FHHallsOfReflection",
 			"FHTheForgeOfSouls",
@@ -201,7 +201,6 @@ Atlas_DropDownLayouts = {
 			"RubySanctum",
 			"UtgardeKeep",
 			"UtgardePinnacle",
-			"TheDragonSoul",
 			"TheEyeOfEternity",
 			"TheNexus",
 			"TheOculus",
@@ -314,7 +313,6 @@ Atlas_DropDownLayouts = {
 			"VioletHold",
 		},
 		[ATLAS_DDL_LEVEL_80TO85] = {
-			--"AbyssalMaw",
 			"BlackrockCaverns",
 			"GrimBatol",
 			"HallsOfOrigination",
@@ -348,9 +346,9 @@ Atlas_DropDownLayouts = {
 			"BlackwingDescent",
 			"CoTEndTime",
 			"CoTWellOfEternity",
+			"DragonSoul",
 			"Firelands",
 			"HourOfTwilight",
-			"TheDragonSoul",
 			"ThroneOfTheFourWinds",
 			"ZulAman",
 			"ZulGurub",
@@ -358,7 +356,6 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
 		[ATLAS_DDL_PARTYSIZE_5_AE] = {
-			--"AbyssalMaw",
 			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchindounEnt",
@@ -456,7 +453,7 @@ Atlas_DropDownLayouts = {
 			"TheBastionOfTwilight",
 			"BlackrockMountainEnt",
 			"BlackwingDescent",
-			--"CoTWaroftheAncients",
+			"DragonSoul",
 			"Firelands",
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
@@ -471,7 +468,6 @@ Atlas_DropDownLayouts = {
 			"ObsidianSanctum",
 			"OnyxiasLair",
 			"RubySanctum",
-			"TheDragonSoul",
 			"TheRuinsofAhnQiraj",
 			"TrialOfTheCrusader",
 			"TheEyeOfEternity",
@@ -497,7 +493,7 @@ Atlas_DropDownLayouts = {
 			"CavernsOfTimeEnt",
 			"CoTHyjal",
 			"CoTHyjalEnt",
-			--"CoTWaroftheAncients",
+			"DragonSoul",
 			"Firelands",
 			"GruulsLair",
 			"HCMagtheridonsLair",
@@ -514,7 +510,6 @@ Atlas_DropDownLayouts = {
 			"SunwellPlateau",
 			"TempestKeepEnt",
 			"TempestKeepTheEye",
-			"TheDragonSoul",
 			"TheEyeOfEternity",
 			"TheTempleofAhnQiraj",
 			"ThroneOfTheFourWinds",
@@ -644,7 +639,6 @@ Atlas_DropDownLayouts = {
 			"VioletHold",
 		},
 		[ATLAS_DDL_EXPANSION_CATA] = {
-			--"AbyssalMaw",
 			"BaradinHold",
 			"TheBastionOfTwilight",
 			"BlackrockCaverns",
@@ -652,6 +646,7 @@ Atlas_DropDownLayouts = {
 			"BlackwingDescent",
 			"CoTEndTime",
 			"CoTWellOfEternity",
+			"DragonSoul",
 			"Firelands",
 			"GrimBatol",
 			"HallsOfOrigination",
@@ -660,7 +655,6 @@ Atlas_DropDownLayouts = {
 			"ShadowfangKeep",
 			"TheDeadmines",
 			"TheDeadminesEnt",
-			"TheDragonSoul",
 			"TheStonecore",
 			"TheVortexPinnacle",
 			"ThroneOfTheFourWinds",
@@ -671,7 +665,6 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_INSTANCE_AC] = {
-			--"AbyssalMaw",
 			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchManaTombs",
@@ -713,6 +706,7 @@ Atlas_DropDownLayouts = {
 			"DireMaulEast",
 			"DireMaulNorth",
 			"DireMaulWest",
+			"DragonSoul",
 			"DrakTharonKeep",
 			"TheEyeOfEternity",
 			"TheDeadmines",
@@ -759,7 +753,6 @@ Atlas_DropDownLayouts = {
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
-			"TheDragonSoul",
 			"TheStockade",
 			"TheStonecore",
 			"TheSunkenTemple",

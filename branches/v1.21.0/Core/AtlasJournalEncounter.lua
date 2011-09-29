@@ -33,6 +33,9 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	if not EncounterJournal or not EncounterJournal:IsShown() then
+		ToggleEncounterJournal();
+	end
 	EncounterJournal_ListInstances();
 	EncounterJournal_DisplayInstance(base.JournalInstanceID);
 

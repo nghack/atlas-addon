@@ -331,7 +331,7 @@ if AL then
 	AL["BoT"] = "BdZ"; --Bastion of Twilight
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
-	AL["CoTDS"] = "HdZ-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-DS"] = "HdZ-DS"; --Caverns of Time: Dragon Soul
 	AL["CoT-ET"] = "HdZ-EZ"; --Caverns of Time: End Time
 	AL["CoT-HoT"] = "HdZ-SdZ"; --Caverns of Time: Hour of Twilight
 	AL["CoT-WoE"] = "HdZ-BdE"; --Caverns of Time: Well of Eternity

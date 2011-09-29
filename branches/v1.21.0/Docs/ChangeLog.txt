@@ -8,6 +8,14 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 v1.21.0 (XXX. XX, 2011)
 - Update TOC to support WoW 4.3
+- Maps updated: 
+    - Firelands (dubca7)
+    - Baradin Hold (dubca7)
+- New maps added:
+    - The Dragon Soul (dubca7)
+    - Well of Eternity (dubca7)
+    - Hour of Twilight (dubca7)
+    - End Time (dubca7)
 
 v1.20.2 (XXX. XX, 2011)
 - ....

@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 30.06.2011
+-- Letztes Update: 29.09.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -167,13 +167,11 @@ if AL then
 	AL["Back"] = "Hinten";
 	AL["Basement"] = "Keller";
 	AL["Blacksmithing Plans"] = "Schmiedekunstpläne";
-	AL["Boss"] = "Boss";
 	AL["Chase Begins"] = "Jagd beginnt";
 	AL["Chase Ends"] = "Jagd endet";
 	AL["Child"] = "Kind";
 	AL["Click to open Dungeon Journal window."] = "Zum Öffnen des Dungeonkompendiums klicken.";
 	AL["Connection"] = "Verbindung";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Aufzug";
 	AL["End"] = "Ende";
 	AL["Engineer"] = "Ingenieur";
@@ -190,7 +188,6 @@ if AL then
 	AL["Holy Priest"] = "Heilig Priesterin";
 	AL["Hunter"] = "Jäger";
 	AL["Imp"] = "Wichtel";
-	AL["Inside"] = "Innen";
 	AL["Key"] = "Schlüssel";
 	AL["Lower"] = "Unten";
 	AL["Mage"] = "Magier";
@@ -216,16 +213,13 @@ if AL then
 	AL["Second Stop"] = "Zweiter Halt";
 	AL["Shadow Priest"] = "Schatten Priesterin";
 	AL["Shaman"] = "Schamane";
-	AL["Side"] = "Seite";
 	AL["Spawn Point"] = "Spawnpunkt";
 	AL["Start"] = "Anfang";
 	AL["Summon"] = "Beschwörbar";
 	AL["Teleporter"] = "Teleporter";
 	AL["Third Stop"] = "Dritter Halt";
-	AL["Tiger"] = "Tiger";
 	AL["Top"] = "Spitze";
 	AL["Underwater"] = "Unter Wasser";
-	AL["Unknown"] = "Unbekannt";
 	AL["Upper"] = "Oben";
 	AL["Varies"] = "Variiert";
 	AL["Wanders"] = "Wandert";
@@ -337,14 +331,14 @@ if AL then
 	AL["BoT"] = "BdZ"; --Bastion of Twilight
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoTDS"] = "HdZ-DS"; --Caverns of Time: Dragon Soul
 	AL["CoT-ET"] = "HdZ-EZ"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "HdZ-SdZ"; --Caverns of Time: Hour of Twilight
 	AL["CoT-WoE"] = "HdZ-BdE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HdU"; --Halls of Origination
-	AL["HoT"] = "SdZ"; --Hour of Twilight
 	AL["LCoT"] = "VSdT"; --Lost City of the Tol'vir
-	AL["DS"] = "DS"; --Dragon Soul
 	AL["TSC"] = "DSK"; --The Stonecore
 	AL["TWT"] = "TdVW"; --Throne of the Four Winds
 	AL["ToTT"] = "TdG"; --Throne of the Tides
@@ -1039,11 +1033,17 @@ if AL then
 
 	--Blackwing Descent
 
+	--Caverns of Time: Dragon Soul
+	AL["Dragon Soul"] = "Drachenseele";
+
 	--Caverns of Time: End Time
+	AL["End Time"] = "Endzeit";
+
+	--Caverns of Time: Hour of Twilight
+	AL["Hour of Twilight"] = "Die Stunde des Zwielichts";
 
 	--Caverns of Time: Well of Eternity
-
-	--Dragon Soul
+	AL["Well of Eternity"] = "Brunnen der Ewigkeit";
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Zornranke <Sammlerin kristallisierten Feuersteins>";
@@ -1056,8 +1056,6 @@ if AL then
 
 	--Halls of Origination
 	AL["Large Stone Obelisk"] = "Große Steintafel";
-
-	--Hour of Twilight
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Kapitän Hadan";

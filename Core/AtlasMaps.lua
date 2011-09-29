@@ -146,6 +146,10 @@ Syntax:
 		{ BLUE.." C) "..BZ["Old Hillsbrad Foothills"] };
 		{ BLUE.." D) "..BZ["The Black Morass"] };
 		{ BLUE.." E) "..BZ["The Culling of Stratholme"] };
+		{ BLUE.." F) "..AL["Dragon Soul"] };
+		{ BLUE.." G) "..AL["End Time"] };
+		{ BLUE.." H) "..AL["Well of Eternity"] };
+		{ BLUE.." I) "..AL["Hour of Twilight"] };
 		{ GREN.." 1') "..AL["Steward of Time <Keepers of Time>"] };
 		{ GREN.." 2') "..AL["Alexston Chrome <Tavern of Time>"] };
 		{ GREN.." 3') "..AL["Graveyard"] };

@@ -2337,8 +2337,8 @@ Syntax:
 		{ WHIT.." 5) "..EJ_GetBossName(171) }; -- Atramedes
 		{ WHIT.." 6) "..EJ_GetBossName(174) }; -- Nefarian's End
 	};
-	CoTDragonSoul = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"] };
+	CoTDragonSoulA = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [A]" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2354,6 +2354,33 @@ Syntax:
 		{ WHIT.." 6) "..EJ_GetBossName(332) }; -- Warmaster Blackhorn
 		{ WHIT.." 7) "..EJ_GetBossName(318) }; -- Spine of Deathwing
 		{ WHIT.." 8) "..EJ_GetBossName(333) }; -- Madness of Deathwing
+	},
+	CoTDragonSoulB = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [B]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+	},
+	CoTDragonSoulC = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [C]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+	},
+	CoTDragonSoulD = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [D]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
 	},
 	CoTEndTime = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["End Time"] };

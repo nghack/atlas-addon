@@ -2301,6 +2301,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..EJ_GetBossName(139) }; -- Argaloth
 		{ WHIT.." 2) "..EJ_GetBossName(140) }; -- Occu'thar
+		{ WHIT.." 3) "..EJ_GetBossName(339) }; -- Alizabal, Mistress of Hate
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Caverns"] };
@@ -2336,6 +2337,24 @@ Syntax:
 		{ WHIT.." 5) "..EJ_GetBossName(171) }; -- Atramedes
 		{ WHIT.." 6) "..EJ_GetBossName(174) }; -- Nefarian's End
 	};
+	CoTDragonSoul = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..EJ_GetBossName(311) }; -- Morchok
+		{ WHIT.." 2) "..EJ_GetBossName(324) }; -- Warlord Zon'ozz
+		{ WHIT.." 3) "..EJ_GetBossName(325) }; -- Yor'sahj the Unsleeping
+		{ WHIT.." 4) "..EJ_GetBossName(317) }; -- Hagara the Stormbinder
+		{ WHIT.." 5) "..EJ_GetBossName(331) }; -- Ultraxion
+		{ WHIT.." 6) "..EJ_GetBossName(332) }; -- Warmaster Blackhorn
+		{ WHIT.." 7) "..EJ_GetBossName(318) }; -- Spine of Deathwing
+		{ WHIT.." 8) "..EJ_GetBossName(333) }; -- Madness of Deathwing
+	},
 	CoTEndTime = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["End Time"] };
 		Location = { BZ["Tanaris"] };
@@ -2351,6 +2370,19 @@ Syntax:
 		{ WHIT.." 4) "..EJ_GetBossName(283) }; -- Echo of Tyrande
 		{ WHIT.." 5) "..EJ_GetBossName(289) }; -- Murozond
 	};
+	CoTHourOfTwilight = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Hour of Twilight"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85".." "..AL["Heroic"];
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT-HoT"];
+		JournalInstanceID = "186";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..EJ_GetBossName(322) }; -- Arcurion
+		{ WHIT.." 2) "..EJ_GetBossName(342) }; -- Asira Dawnslayer
+		{ WHIT.." 3) "..EJ_GetBossName(341) }; -- Archbishop Benedictus
+	};
 	CoTWellOfEternity = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Well of Eternity"] };
 		Location = { BZ["Tanaris"] };
@@ -2364,24 +2396,6 @@ Syntax:
 		{ WHIT.." 2) "..EJ_GetBossName(291) }; -- Queen Azshara
 		{ WHIT.." 3) "..EJ_GetBossName(292) }; -- Mannoroth and Varo'then
 	};
-	DragonSoul = {
-		ZoneName = { AL["Dragon Soul"] };
-		Location = { BZ["Dragonblight"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
-		Acronym = AL["DS"];
-		JournalInstanceID = "187";
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ_GetBossName(311) }; -- Morchok
-		{ WHIT.." 2) "..EJ_GetBossName(324) }; -- Warlord Zon'ozz
-		{ WHIT.." 3) "..EJ_GetBossName(325) }; -- Yor'sahj the Unsleeping
-		{ WHIT.." 4) "..EJ_GetBossName(317) }; -- Hagara the Stormbinder
-		{ WHIT.." 5) "..EJ_GetBossName(331) }; -- Ultraxion
-		{ WHIT.." 6) "..EJ_GetBossName(332) }; -- Warmaster Blackhorn
-		{ WHIT.." 7) "..EJ_GetBossName(318) }; -- Spine of Deathwing
-		{ WHIT.." 8) "..EJ_GetBossName(333) }; -- Madness of Deathwing
-	},
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
@@ -2439,19 +2453,6 @@ Syntax:
 		{ GREN.." 1') "..AL["Teleporter"] };
 		{ GREN.." 2') "..AL["Brann Bronzebeard"] };
 		{ GREN.." 3') "..AL["Large Stone Obelisk"] };
-	};
-	HourOfTwilight = {
-		ZoneName = { AL["Hour of Twilight"] };
-		Location = { BZ["Dragonblight"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
-		Acronym = AL["HoT"];
-		JournalInstanceID = "186";
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..EJ_GetBossName(322) }; -- Arcurion
-		{ WHIT.." 2) "..EJ_GetBossName(342) }; -- Asira Dawnslayer
-		{ WHIT.." 3) "..EJ_GetBossName(341) }; -- Archbishop Benedictus
 	};
 	LostCityOfTolvir = {
 		ZoneName = { BZ["Lost City of the Tol'vir"] };

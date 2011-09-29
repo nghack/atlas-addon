@@ -160,13 +160,11 @@ if AL then
 	AL["Back"] = "Back";
 	AL["Basement"] = "Basement";
 	AL["Blacksmithing Plans"] = "Blacksmithing Plans";
-	AL["Boss"] = "Boss";
 	AL["Chase Begins"] = "Chase Begins";
 	AL["Chase Ends"] = "Chase Ends";
 	AL["Child"] = "Child";
 	AL["Click to open Dungeon Journal window."] = "Click to open Dungeon Journal window.";
 	AL["Connection"] = "Connection";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Elevator";
 	AL["End"] = "End";
 	AL["Engineer"] = "Engineer";
@@ -183,7 +181,6 @@ if AL then
 	AL["Holy Priest"] = "Holy Priest";
 	AL["Hunter"] = "Hunter";
 	AL["Imp"] = "Imp";
-	AL["Inside"] = "Inside";
 	AL["Key"] = "Key";
 	AL["Lower"] = "Lower";
 	AL["Mage"] = "Mage";
@@ -209,16 +206,13 @@ if AL then
 	AL["Second Stop"] = "Second Stop";
 	AL["Shadow Priest"] = "Shadow Priest";
 	AL["Shaman"] = "Shaman";
-	AL["Side"] = "Side";
 	AL["Spawn Point"] = "Spawn Point";
 	AL["Start"] = "Start";
 	AL["Summon"] = "Summon";
 	AL["Teleporter"] = "Teleporter";
 	AL["Third Stop"] = "Third Stop";
-	AL["Tiger"] = "Tiger";
 	AL["Top"] = "Top";
 	AL["Underwater"] = "Underwater";
-	AL["Unknown"] = "Unknown";
 	AL["Upper"] = "Upper";
 	AL["Varies"] = "Varies";
 	AL["Wanders"] = "Wanders";
@@ -330,14 +324,14 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CoT-DS"; --Caverns of Time: Dragon Soul
 	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CoT-HoT"; --Caverns of Time: Hour of Twilight
 	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
-	AL["HoT"] = "HoT"; --Hour of Twilight
-	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
-	AL["DS"] = "DS"; --Dragon Soul
+	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1032,18 +1026,21 @@ if AL then
 
 	--Blackwing Descent
 
+	--Caverns of Time: Dragon Soul
+	AL["Dragon Soul"] = "Dragon Soul";
+
 	--Caverns of Time: End Time
 	AL["End Time"] = "End Time";
+
+	--Caverns of Time: Hour of Twilight
+	AL["Hour of Twilight"] = "Hour of Twilight";
 
 	--Caverns of Time: Well of Eternity
 	AL["Well of Eternity"] = "Well of Eternity";
 
-	--Dragon Soul
-	AL["Dragon Soul"] = "Dragon Soul";
-
 	--Firelands
-	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>"; -- 54402
-	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>"; -- 54401
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>";
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>";
 
 	--Grim Batol
 	AL["Baleflame"] = "Baleflame";
@@ -1052,9 +1049,6 @@ if AL then
 
 	--Halls of Origination
 	AL["Large Stone Obelisk"] = "Large Stone Obelisk";
-
-	--Hour of Twilight
-	AL["Hour of Twilight"] = "Hour of Twilight";
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";

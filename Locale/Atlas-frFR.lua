@@ -168,13 +168,11 @@ if AL then
 	AL["Back"] = "de derrière"; -- Back de Back Door, trouver mieux
 	AL["Basement"] = "Sous-sol";
 	AL["Blacksmithing Plans"] = "Plans de forge";
-	AL["Boss"] = "Boss";
 	AL["Chase Begins"] = "Début de la chasse";
 	AL["Chase Ends"] = "Fin de la chasse";
 	AL["Child"] = "Enfant";
 	AL["Click to open Dungeon Journal window."] = "Cliquer pour ouvrir la fenêtre du codex des donjons";
 	AL["Connection"] = "Connexion";
-	AL["DS2"] = "Set D2";
 	AL["Elevator"] = "Ascenseur";
 	AL["End"] = "Fin";
 	AL["Engineer"] = "Ingénieur";
@@ -191,7 +189,6 @@ if AL then
 	AL["Holy Priest"] = "Prêtre Sacré";
 	AL["Hunter"] = "Chasseur";
 	AL["Imp"] = "Diablotin";
-	AL["Inside"] = "À l'intérieur";
 	AL["Key"] = "Clé";
 	AL["Lower"] = "En bas";
 	AL["Mage"] = "Mage";
@@ -217,16 +214,13 @@ if AL then
 	AL["Second Stop"] = "Deuxième arrêt";
 	AL["Shadow Priest"] = "Prêtre Ombre";
 	AL["Shaman"] = "Chaman";
-	AL["Side"] = "Coté";
 	AL["Spawn Point"] = "Points d'apparition";
 	AL["Start"] = "Début";
 	AL["Summon"] = "Invoqué";
 	AL["Teleporter"] = "Téléporteur";
 	AL["Third Stop"] = "Troisième arrêt";
-	AL["Tiger"] = "Tigre";
 	AL["Top"] = "Haut";
 	AL["Underwater"] = "Sous l'eau";
-	AL["Unknown"] = "Inconnu";
 	AL["Upper"] = "En haut";
 	AL["Varies"] = "Variable";
 	AL["Wanders"] = "Errant";
@@ -338,10 +332,14 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CoT-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CoT-HoT"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
-	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
@@ -1035,6 +1033,18 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+	AL["Dragon Soul"] = "L'Âme des Dragons";
+
+	--Caverns of Time: End Time
+	AL["End Time"] = "La Fin des temps";
+
+	--Caverns of Time: Hour of Twilight
+	AL["Hour of Twilight"] = "L'Heure du Crépuscule";
+
+	--Caverns of Time: Well of Eternity
+	AL["Well of Eternity"] = "Le Puits d’éternité";
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Irevigne <Collectionneuse de pierres de feu cristallisées>";

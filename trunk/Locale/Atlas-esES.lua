@@ -30,16 +30,19 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 20/07/2011
+-- Última Actualización (last update): 01/08/2011
 
+-- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
 AtlasSortIgnore = {"the (.+)"};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
 	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";
+--	["Throne of Tides"] = "Fauce Abisal: Trono de las Mareas";
 };
 end
 
@@ -151,6 +154,7 @@ if AL then
 	AL["Lunar Festival"] = "Festival lunar";
 	AL["Midsummer Festival"] = "Festival del solsticio de verano";
 	--Misc strings
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Adulto";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Contenedor Arcano";	
@@ -906,7 +910,7 @@ if AL then
 	--Drak'Tharon Keep
 	AL["Kurzel"] = "Kurzel";
 	AL["Elder Kilias"] = "Ancestro Kilias";
-	AL["Drakuru's Brazier"] = "El blandón de Drakuru"; --Check
+	AL["Drakuru's Brazier"] = "Pedestal de Drakuru";
 
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls

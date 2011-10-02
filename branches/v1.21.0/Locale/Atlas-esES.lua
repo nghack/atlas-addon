@@ -30,16 +30,19 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 20/07/2011
+-- Última Actualización (last update): 02/08/2011
 
+-- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
 AtlasSortIgnore = {"the (.+)"};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Templo de Ahn'Qiraj";
 	["The Temple of Atal'Hakkar"] = "El Templo de Atal'Hakkar";
+--	["Throne of Tides"] = "Fauce Abisal: Trono de las Mareas";
 };
 end
 
@@ -151,6 +154,7 @@ if AL then
 	AL["Lunar Festival"] = "Festival lunar";
 	AL["Midsummer Festival"] = "Festival del solsticio de verano";
 	--Misc strings
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Adulto";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Contenedor Arcano";	
@@ -329,6 +333,10 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CdT-AD"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CdT-FD"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CdT-HC"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CdT-PdT"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
@@ -1027,6 +1035,17 @@ if AL then
 
 	--Blackwing Descent
 
+	--Caverns of Time: Dragon Soul
+	AL["Dragon Soul"] = "Alma de Dragón";
+
+	--Caverns of Time: End Time
+	AL["End Time"] = "Fin de los Días";
+
+	--Caverns of Time: Hour of Twilight
+	AL["Hour of Twilight"] = "Hora del Crepúsculo";
+
+	--Caverns of Time: Well of Eternity
+	AL["Well of Eternity"] = "Pozo de la Eternidad";
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Vid de la Ira <Coleccionista de piedras de fuego cristalizadas>"; -- 54402
 	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Furiatormenta <Intendente de los Vengadores de Hyjal>"; -- 54401

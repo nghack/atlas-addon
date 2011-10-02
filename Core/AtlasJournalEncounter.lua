@@ -27,12 +27,16 @@
 -- Atlas JournalEncounter Integration
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 
 function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	if not EncounterJournal or not EncounterJournal:IsShown() then
+		ToggleEncounterJournal();
+	end
 	EncounterJournal_ListInstances();
 	EncounterJournal_DisplayInstance(base.JournalInstanceID);
 
@@ -66,3 +70,16 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	end
 end
 
+function Atlas_GetBossName(bossname, encounterID)
+	if ( encounterID and EJ_GetEncounterInfo(encounterID) ) then
+		bossname = EJ_GetEncounterInfo(encounterID);
+	elseif ( bossname and BB[bossname] ) then
+		bossname = BB[bossname];
+	elseif ( bossname and AL[bossname] ) then
+		bossname = AL[bossname];
+	else
+		--bossname = bossname;
+	end
+
+	return bossname;
+end

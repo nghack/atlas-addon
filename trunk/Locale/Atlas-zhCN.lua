@@ -162,7 +162,7 @@ if AL then
 	AL["Chase Begins"] = "追捕开始";
 	AL["Chase Ends"] = "追捕结束";
 	AL["Child"] = "幼年";
-	AL["Click to open Dungeon Journal window."] = "单击打开Dungeon Journal窗口。";
+	AL["Click to open Dungeon Journal window."] = "单击打开地下城手册窗口。";
 	AL["Connection"] = "通道";
 	AL["DS2"] = "地下城套装2";
 	AL["Elevator"] = "升降梯";
@@ -1027,8 +1027,8 @@ if AL then
 	--Blackwing Descent
 
 	--Firelands
-	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>";
-	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Stormfury <Avengers of Hyjal Quartermaster>";
+	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "鲁娜·怒藤 <火石结晶收集者>";
+	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "纳瑟尔·雷怒 <海加尔复仇者军需官>";
 
 	--Grim Batol
 	AL["Baleflame"] = "烽焰";

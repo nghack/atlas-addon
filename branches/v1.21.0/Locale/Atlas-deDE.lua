@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 29.09.2011
+-- Letztes Update: 14.10.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -146,10 +146,10 @@ if AL then
 --************************************************
 
 	--Common strings
-	AL["East"] = "Ost";
-	AL["North"] = "Nord";
-	AL["South"] = "Süd";
-	AL["West"] = "West";
+	AL["East"] = "Osten";
+	AL["North"] = "Norden";
+	AL["South"] = "Süden";
+	AL["West"] = "Westen";
 
 	--World Events, Festival
 	AL["Brewfest"] = "Braufest";
@@ -217,6 +217,7 @@ if AL then
 	AL["Start"] = "Anfang";
 	AL["Summon"] = "Beschwörbar";
 	AL["Teleporter"] = "Teleporter";
+	AL["Teleporter destination"] = "Teleportziel";
 	AL["Third Stop"] = "Dritter Halt";
 	AL["Top"] = "Spitze";
 	AL["Underwater"] = "Unter Wasser";

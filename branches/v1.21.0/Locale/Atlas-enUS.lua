@@ -210,6 +210,7 @@ if AL then
 	AL["Start"] = "Start";
 	AL["Summon"] = "Summon";
 	AL["Teleporter"] = "Teleporter";
+	AL["Teleporter destination"] = "Teleporter destination";
 	AL["Third Stop"] = "Third Stop";
 	AL["Top"] = "Top";
 	AL["Underwater"] = "Underwater";

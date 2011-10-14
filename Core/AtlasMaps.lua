@@ -608,15 +608,17 @@ Syntax:
 		{ WHIT.." 7) "..Atlas_GetBossName("The Twin Emperors") };
 		{ WHIT..INDENT..Atlas_GetBossName("Emperor Vek'lor") };
 		{ WHIT..INDENT..Atlas_GetBossName("Emperor Vek'nilash") };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("Ouro").." ("..AL["Optional"]..")" };
 		{ WHIT.." 9) "..Atlas_GetBossName("Eye of C'Thun") };
 		{ WHIT..INDENT..Atlas_GetBossName("C'Thun") };
-		{ GREN.." 1') "..AL["Andorgos <Brood of Malygos>"] };
+		{ GREN.." 1') "..AL["Andorgos <Brood of Malygos>"].." ("..AL["Teleporter"]..")" };
 		{ GREN..INDENT..AL["Vethsera <Brood of Ysera>"] };
 		{ GREN..INDENT..AL["Kandrostrasz <Brood of Alexstrasza>"] };
 		{ GREN.." 2') "..AL["Arygos"] };
 		{ GREN..INDENT..AL["Caelestrasz"] };
 		{ GREN..INDENT..AL["Merithra of the Dream"] };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 	};
 	WailingCaverns = {
 		ZoneName = { BZ["Wailing Caverns"] };
@@ -2391,10 +2393,12 @@ Syntax:
 		Acronym = AL["CoT-ET"];
 		JournalInstanceID = "184";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Echo of Baine", 340) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Echo of Jaina", 285) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Echo of Sylvanas", 323) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Echo of Tyrande", 283) };
+		{ BLUE..INDENT..AL["Portal"] };
+		{ BLUE.." B-F) "..AL["Portal"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Echo of Baine", 340).." ("..AL["Random"]..")" };
+		{ WHIT.." 2) "..Atlas_GetBossName("Echo of Jaina", 285).." ("..AL["Random"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Echo of Sylvanas", 323).." ("..AL["Random"]..")" };
+		{ WHIT.." 4) "..Atlas_GetBossName("Echo of Tyrande", 283).." ("..AL["Random"]..")" };
 		{ WHIT.." 5) "..Atlas_GetBossName("Murozond", 289) };
 	};
 	CoTHourOfTwilight = {
@@ -2435,7 +2439,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
 		{ GREN..INDENT..AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] };
-		{ BLUE.." B) "..AL["Connection"] };
+		{ BLUE.." B) "..AL["Connection"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Beth'tilac", 192) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lord Rhyolith", 193) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Alysrazor", 194) };
@@ -2443,6 +2447,8 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Baleroc, the Gatekeeper", 196) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Majordomo Staghelm", 197) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Ragnaros", 198) };
+		{ GREN.." 1') "..AL["Teleporter"] };
+		{ GREN.." 2') "..AL["Teleporter destination"] };
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
@@ -2510,9 +2516,12 @@ Syntax:
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Halfus Wyrmbreaker", 156) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Theralion and Valiona", 157) };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ascendant Council", 158) };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Cho'gall", 167) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Sinestra", 168).." ("..AL["Heroic"]..")" };
+		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
@@ -2557,9 +2566,9 @@ Syntax:
 		JournalInstanceID = "74";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Conclave of Wind", 154) };
-		{ WHIT..INDENT..Atlas_GetBossName("Anshal") };
-		{ WHIT..INDENT..Atlas_GetBossName("Nezir") };
-		{ WHIT..INDENT..Atlas_GetBossName("Rohash") };
+		{ WHIT..INDENT..Atlas_GetBossName("Anshal").." ("..AL["West"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Nezir").." ("..AL["North"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Rohash").." ("..AL["East"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Al'Akir", 155) };
 	};
 	ThroneOfTheTides = {

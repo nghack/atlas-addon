@@ -2448,7 +2448,6 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Majordomo Staghelm", 197) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Ragnaros", 198) };
 		{ GREN.." 1') "..AL["Teleporter"] };
-		{ GREN.." 2') "..AL["Teleporter destination"] };
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };

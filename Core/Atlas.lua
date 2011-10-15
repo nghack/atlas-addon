@@ -415,12 +415,18 @@ function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
+	if (not AtlasMap_Text) then
+		AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
+	end
 
 	AtlasMap:ClearAllPoints();
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
 	-- searching for the map path from Atlas or from plugins
+
+	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
+
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
 		if(zoneID == v) then
@@ -447,9 +453,9 @@ function Atlas_MapRefresh()
 	
 	if ( AtlasMap:GetTexture() == nil) then
 		AtlasMap:SetTexture(0, 0, 0);
-		local AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
-		AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
-		AtlasMap_Text:SetText("Current selected dungeon does not have a \ncorresponding map image associated with. \n\nPlease make sure you have installed \nthe corresponding Atlas map module(s).");
+		AtlasMap_Text:SetText(AL["MapsNotFound"]);
+	else 
+		AtlasMap_Text:SetText("");
 	end
 end
 

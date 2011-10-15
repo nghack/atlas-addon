@@ -1028,16 +1028,12 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
-	AL["Dragon Soul"] = "Dragon Soul";
 
 	--Caverns of Time: End Time
-	AL["End Time"] = "End Time";
 
 	--Caverns of Time: Hour of Twilight
-	AL["Hour of Twilight"] = "Hour of Twilight";
 
 	--Caverns of Time: Well of Eternity
-	AL["Well of Eternity"] = "Well of Eternity";
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>";

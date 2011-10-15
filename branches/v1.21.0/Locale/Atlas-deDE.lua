@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 14.10.2011
+-- Letztes Update: 15.10.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1035,16 +1035,12 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
-	AL["Dragon Soul"] = "Drachenseele";
 
 	--Caverns of Time: End Time
-	AL["End Time"] = "Endzeit";
 
 	--Caverns of Time: Hour of Twilight
-	AL["Hour of Twilight"] = "Die Stunde des Zwielichts";
 
 	--Caverns of Time: Well of Eternity
-	AL["Well of Eternity"] = "Brunnen der Ewigkeit";
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Zornranke <Sammlerin kristallisierten Feuersteins>";

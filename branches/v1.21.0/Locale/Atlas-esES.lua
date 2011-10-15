@@ -1036,16 +1036,13 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
-	AL["Dragon Soul"] = "Alma de Dragón";
 
 	--Caverns of Time: End Time
-	AL["End Time"] = "Fin de los Días";
 
 	--Caverns of Time: Hour of Twilight
-	AL["Hour of Twilight"] = "Hora del Crepúsculo";
 
 	--Caverns of Time: Well of Eternity
-	AL["Well of Eternity"] = "Pozo de la Eternidad";
+
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Vid de la Ira <Coleccionista de piedras de fuego cristalizadas>"; -- 54402
 	AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] = "Naresir Furiatormenta <Intendente de los Vengadores de Hyjal>"; -- 54401

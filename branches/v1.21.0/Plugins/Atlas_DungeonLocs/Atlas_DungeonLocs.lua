@@ -98,6 +98,10 @@ local myData = {
 		{ WHIT..INDENT..BZ["The Black Morass"] };
 		{ WHIT..INDENT..BZ["Hyjal Summit"] };
 		{ WHIT..INDENT..BZ["The Culling of Stratholme"] };
+		{ WHIT..INDENT..BZ["End Time"] };
+		{ WHIT..INDENT..BZ["Well of Eternity"] };
+		{ WHIT..INDENT..BZ["Hour of Twilight"] };
+		{ WHIT..INDENT..BZ["Dragon Soul"] };
 		{ WHIT.."12) "..BZ["Ahn'Qiraj"]..", ".._RED..BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		{ WHIT..INDENT..BZ["Ruins of Ahn'Qiraj"] };
 		{ WHIT..INDENT..BZ["Temple of Ahn'Qiraj"] };

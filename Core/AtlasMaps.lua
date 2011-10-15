@@ -389,6 +389,7 @@ Syntax:
 		MinLevel = "15";
 		PlayerLimit = "5";
 		Acronym = AL["BFD"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ghamoo-ra") };
@@ -419,6 +420,7 @@ Syntax:
 		MinLevel = "31";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["\"Ambassador\" Dagg'thol"] };
 		{ GREN..INDENT..AL["Furgus Warpwood"] };
@@ -442,6 +444,7 @@ Syntax:
 		MinLevel = "31";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Druid of the Talon"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Stonemaul Ogre"].." ("..BF["Horde"]..")" };
@@ -461,6 +464,7 @@ Syntax:
 		MinLevel = "31";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["J'eevee's Jar"].." ("..Atlas_GetBossName("Lord Hel'nurath")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-E) "..AL["Connection"] };
@@ -492,6 +496,7 @@ Syntax:
 		MinLevel = "25";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Orange"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Purple"]..")" };
 		{ BLUE.." C) "..AL["Entrance"].." ("..AL["Portal"]..")" };
@@ -513,6 +518,7 @@ Syntax:
 		MinLevel = "10";
 		PlayerLimit = "5";
 		Acronym = AL["RFC"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Oggleflint") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Taragaman the Hungerer") };
@@ -528,6 +534,7 @@ Syntax:
 		MinLevel = "35";
 		PlayerLimit = "5";
 		Acronym = AL["RFD"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Koristrasza"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Tuten'kash") };
@@ -546,6 +553,7 @@ Syntax:
 		MinLevel = "25";
 		PlayerLimit = "5";
 		Acronym = AL["RFK"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Auld Stonespire"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Aggem Thorncurse") };
@@ -567,6 +575,7 @@ Syntax:
 		MinLevel = "50";
 		PlayerLimit = "20";
 		Acronym = AL["AQ20"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Circle"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Kurinnaxx") };
@@ -593,6 +602,7 @@ Syntax:
 		MinLevel = "50";
 		PlayerLimit = "40";
 		Acronym = AL["AQ40"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Brood of Nozdormu"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
@@ -627,6 +637,7 @@ Syntax:
 		MinLevel = "10";
 		PlayerLimit = "5";
 		Acronym = AL["WC"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Lady Anacondra") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lord Pythas") };
@@ -649,6 +660,7 @@ Syntax:
 		MinLevel = "39";
 		PlayerLimit = "5";
 		Acronym = AL["ZF"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] };
 		{ GREN..INDENT..AL["Mazoga's Spirit"] };
@@ -685,6 +697,7 @@ Syntax:
 		MinLevel = "42";
 		PlayerLimit = "5";
 		Acronym = AL["BRD"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Relic Coffer Key"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Dark Keeper Key"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -763,6 +776,7 @@ Syntax:
 		MinLevel = "48";
 		PlayerLimit = "5";
 		Acronym = AL["LBRS"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
 		{ BLUE.." C-F) "..AL["Connection"] };
@@ -794,6 +808,7 @@ Syntax:
 		MinLevel = "48";
 		PlayerLimit = "5";
 		Acronym = AL["UBRS"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
 		{ BLUE.." C-D) "..AL["Connection"] };
@@ -818,6 +833,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "40";
 		Acronym = AL["BWL"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
@@ -840,6 +856,7 @@ Syntax:
 		MinLevel = "19";
 		PlayerLimit = "5";
 		Acronym = AL["Gnome"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
 		{ BLUE.." C-F) "..AL["Connection"] };
@@ -866,6 +883,7 @@ Syntax:
 		MinLevel = "50";
 		PlayerLimit = "40";
 		Acronym = AL["MC"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Hydraxian Waterlords"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -887,6 +905,7 @@ Syntax:
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Scholo"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Blood of Innocents"].." ("..Atlas_GetBossName("Kirtonos the Herald")..")" };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Divination Scryer"].." ("..Atlas_GetBossName("Death Knight Darkreaver")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -924,6 +943,7 @@ Syntax:
 		PlayerLimit = "5";
 		Acronym = AL["SFK"];
 		JournalInstanceID = "64";
+		--Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Baron Ashbury", 96) };
@@ -951,6 +971,7 @@ Syntax:
 		MinLevel = "21";
 		PlayerLimit = "5";
 		Acronym = AL["Armory"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Joseph the Crazed"].." ("..BF["Alliance"]..")" };
 		{ GREN..INDENT..AL["Dark Ranger Velonara"].." ("..BF["Horde"]..")" };
@@ -964,6 +985,7 @@ Syntax:
 		MinLevel = "21";
 		PlayerLimit = "5";
 		Acronym = AL["Cath"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("High Inquisitor Fairbanks") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Scarlet Commander Mograine") };
@@ -979,6 +1001,7 @@ Syntax:
 		MinLevel = "21";
 		PlayerLimit = "5";
 		Acronym = AL["GY"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Interrogator Vishas") };
 		{ GREN..INDENT..AL["Vorrel Sengutz"] };
@@ -995,6 +1018,7 @@ Syntax:
 		MinLevel = "21";
 		PlayerLimit = "5";
 		Acronym = AL["Lib"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Houndmaster Loksey") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Arcanist Doan") };
@@ -1010,6 +1034,7 @@ Syntax:
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] };
 		{ GREN..INDENT..AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] };
@@ -1039,6 +1064,7 @@ Syntax:
 		MinLevel = "37";
 		PlayerLimit = "5";
 		Acronym = AL["Strat"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Packmaster Stonebruiser <Brotherhood of the Light>"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Baroness Anastari") };
@@ -1063,6 +1089,7 @@ Syntax:
 		PlayerLimit = "5";
 		Acronym = AL["VC"];
 		JournalInstanceID = "63";
+		--Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Glubtok", 89) };
@@ -1087,6 +1114,7 @@ Syntax:
 		MinLevel = "15";
 		PlayerLimit = "5";
 		Acronym = AL["Stocks"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Randolph Moloch") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Hogger") };
@@ -1102,6 +1130,7 @@ Syntax:
 		MinLevel = "45";
 		PlayerLimit = "5";
 		Acronym = AL["ST"];
+		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["AKA"]..AL["Colon"]..BZ["The Temple of Atal'Hakkar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Avatar of Hakkar") };
@@ -1120,6 +1149,7 @@ Syntax:
 		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Ulda"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
 		{ BLUE.." C) "..AL["Connection"] };
@@ -1155,6 +1185,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["AC"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Shirrak the Dead Watcher") };
@@ -1169,6 +1200,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["MT"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Consortium"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..Atlas_GetBossName("Yor")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1188,6 +1220,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["Seth"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Darkweaver Syth") };
@@ -1203,6 +1236,7 @@ Syntax:
 		MinLevel = "65";
 		PlayerLimit = "5";
 		Acronym = AL["SL"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ambassador Hellmaw") };
@@ -1221,6 +1255,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Towards Reliquary of Souls"] };
@@ -1242,6 +1277,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." B) "..AL["Entrance"] };
 		{ BLUE.." C) "..AL["Entrance"] };
@@ -1259,6 +1295,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["BT"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
 		{ BLUE.." D) "..AL["Entrance"] };
 		{ BLUE.." E) "..AL["Connection"] };
@@ -1277,6 +1314,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["SC"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hydross the Unstable") };
@@ -1294,6 +1332,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SP"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Mennu the Betrayer") };
@@ -1311,6 +1350,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SV"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hydromancer Thespia") };
@@ -1328,6 +1368,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["UB"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hungarfen") };
@@ -1345,6 +1386,7 @@ Syntax:
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["CoT2"];
+		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Keepers of Time"] };
@@ -1364,6 +1406,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["CoT3"];
+		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Alliance Base"] };
@@ -1385,6 +1428,7 @@ Syntax:
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["CoT1"];
+		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Escape from Durnholde Keep"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Keepers of Time"] };
@@ -1459,6 +1503,7 @@ Syntax:
 		MinLevel = "65";
 		PlayerLimit = "25";
 		Acronym = AL["GL"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("High King Maulgar") };
 		{ WHIT..INDENT..Atlas_GetBossName("Kiggler the Crazed").." ("..AL["Shaman"]..")" };
@@ -1474,6 +1519,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["BF"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1488,6 +1534,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["Ramp"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1504,6 +1551,7 @@ Syntax:
 		MinLevel = "65";
 		PlayerLimit = "25";
 		Acronym = AL["Mag"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Magtheridon") };
 	};
@@ -1514,6 +1562,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["SH"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1538,6 +1587,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B-J) "..AL["Connection"] };
@@ -1587,6 +1637,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
 		{ BLUE.." J) "..AL["Broken Stairs"] };
@@ -1617,6 +1668,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Acronym = AL["MaT"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shattered Sun Offensive"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
@@ -1646,6 +1698,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["SuP"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Kalecgos") };
 		{ WHIT..INDENT..Atlas_GetBossName("Sathrovarr the Corruptor") };
@@ -1666,6 +1719,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Acronym = AL["Arca"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Zereketh the Unbound") };
@@ -1685,6 +1739,7 @@ Syntax:
 		MinLevel = "67";
 		PlayerLimit = "5";
 		Acronym = AL["Bota"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
@@ -1701,6 +1756,7 @@ Syntax:
 		MinLevel = "67";
 		PlayerLimit = "5";
 		Acronym = AL["Mech"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
@@ -1719,6 +1775,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["TK"];
+		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Al'ar") };
@@ -1742,6 +1799,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "5";
 		Acronym = AL["AK, Kahet"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Elder Nadox") };
@@ -1758,6 +1816,7 @@ Syntax:
 		MinLevel = "67";
 		PlayerLimit = "5";
 		Acronym = AL["AN, Nerub"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ BLUE.." C) "..AL["Exit"] };
@@ -1776,6 +1835,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["CoT-Strat"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["The Culling of Stratholme"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
@@ -1796,6 +1856,7 @@ Syntax:
 		MinLevel = "69";
 		PlayerLimit = "5";
 		Acronym = AL["DTK"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trollgore") };
@@ -1813,6 +1874,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["HoR"]..", "..AL["FH3"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"].." ("..BZ["Dalaran"]..")" };
@@ -1832,6 +1894,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["PoS"]..", "..AL["FH2"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"].." ("..BZ["Halls of Reflection"]..")" };
@@ -1855,6 +1918,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["FoS"]..", "..AL["FH1"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"].." ("..BZ["Pit of Saron"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Bronjahm") };
@@ -1873,6 +1937,7 @@ Syntax:
 		MinLevel = "71";
 		PlayerLimit = "5";
 		Acronym = AL["Gun"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Slad'ran") };
@@ -1889,6 +1954,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
@@ -1910,6 +1976,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." C) "..AL["From previous map"] };
 		{ BLUE.." D-H) "..AL["Connection"] };
@@ -1939,6 +2006,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["IC"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
 		{ BLUE.." I) "..AL["From previous map"] };
 		{ WHIT.."16) "..Atlas_GetBossName("The Lich King") };
@@ -1950,6 +2018,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Nax"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Mr. Bigglesworth"].." ("..AL["Wanders"]..")" };
 		{ WHIT..BZ["The Construct Quarter"] };
@@ -1989,6 +2058,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["OS"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Black Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Tenebron") };
@@ -2003,6 +2073,7 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Onyxia") };
 	};
@@ -2013,6 +2084,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["RS"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Red Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Baltharus the Warborn") };
@@ -2027,6 +2099,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["TEoE"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"].." / "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Malygos") };
 	};
@@ -2037,6 +2110,7 @@ Syntax:
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["Nex, Nexus"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Commander Kolurg").." ("..BF["Alliance"]..", "..AL["Heroic"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Commander Stoutbeard").." ("..BF["Horde"]..", "..AL["Heroic"]..")" };
@@ -2054,6 +2128,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["Ocu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Drakos the Interrogator").." ("..AL["Lower"]..")" };
@@ -2070,6 +2145,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["Champ"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Grand Champions") };
 		{ ORNG..INDENT..AL["Champions of the Alliance"] };
@@ -2095,6 +2171,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Crus"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Heroic: Trial of the Grand Crusader"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Cavern Entrance"] };
@@ -2117,6 +2194,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["The Antechamber"] };
 		{ ORNG.." A') "..AL["Tower of Life"] };
@@ -2139,6 +2217,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." B) "..AL["The Siege"] };
 		{ BLUE.." C) "..AL["The Keepers"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Assembly of Iron").." ("..AL["Optional"]..")" };
@@ -2158,6 +2237,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." C) "..BZ["The Antechamber"] };
 		{ BLUE.." D) "..BZ["The Spark of Imagination"] };
 		{ BLUE.." E) "..BZ["The Descent into Madness"] };
@@ -2179,6 +2259,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." D) "..AL["The Keepers"] };
 		{ WHIT.."15) "..Atlas_GetBossName("Mimiron") };
 		{ GREN.." 9') "..BZ["The Spark of Imagination"].." ("..AL["Teleporter"]..")" };
@@ -2190,6 +2271,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["Uldu"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." E) "..AL["The Keepers"] };
 		{ WHIT.."16) "..Atlas_GetBossName("General Vezax") };
 		{ WHIT.."17) "..Atlas_GetBossName("Yogg-Saron") };
@@ -2203,6 +2285,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["HoL"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("General Bjarngrim").." ("..AL["Wanders"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Volkhan") };
@@ -2216,6 +2299,7 @@ Syntax:
 		MinLevel = "72";
 		PlayerLimit = "5";
 		Acronym = AL["HoS"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Krystallus") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Maiden of Grief") };
@@ -2232,6 +2316,7 @@ Syntax:
 		MinLevel = "65";
 		PlayerLimit = "5";
 		Acronym = AL["UK, Keep"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Dark Ranger Marrah"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
@@ -2248,6 +2333,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5";
 		Acronym = AL["UP, Pinn"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Brigg Smallshanks"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Svala Sorrowgrave") };
@@ -2263,6 +2349,7 @@ Syntax:
 		MinLevel = "80";
 		PlayerLimit = "10/25";
 		Acronym = AL["VoA"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Archavon the Stone Watcher") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Emalon the Storm Watcher") };
@@ -2276,6 +2363,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "5";
 		Acronym = AL["VH"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Erekem").." ("..AL["Random"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Zuramat the Obliterator").." ("..AL["Upper"]..", "..AL["Random"]..")" };

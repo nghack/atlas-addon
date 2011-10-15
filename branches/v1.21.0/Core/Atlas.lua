@@ -25,7 +25,7 @@
 --]]
 
 -- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
+-- Initiator and previous author: Dan Gilbert
 -- Maintainers: Arith, Dynaletik, Deadca7
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
@@ -411,11 +411,7 @@ function Atlas_Toggle()
 	end
 end
 
---Refreshes the Atlas frame, usually because a new map needs to be displayed
---The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"
---Also responsible for updating all the text when a map is changed
-function Atlas_Refresh()
-	
+function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
@@ -428,7 +424,11 @@ function Atlas_Refresh()
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
 		if(zoneID == v) then
-			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+			if ( base.Module ) then
+				AtlasMap:SetTexture("Interface\\AddOns\\"..base.Module.."\\Images\\"..zoneID);
+			else
+				AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+			end
 			break;
 		-- if selected map is from plugin
 		else
@@ -444,6 +444,25 @@ function Atlas_Refresh()
 			end
 		end
 	end
+	
+	if ( AtlasMap:GetTexture() == nil) then
+		AtlasMap:SetTexture(0, 0, 0);
+		local AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
+		AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
+		AtlasMap_Text:SetText("Current selected dungeon does not have a \ncorresponding map image associated with. \n\nPlease make sure you have installed \nthe corresponding Atlas map module(s).");
+	end
+end
+
+--Refreshes the Atlas frame, usually because a new map needs to be displayed
+--The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"
+--Also responsible for updating all the text when a map is changed
+function Atlas_Refresh()
+	
+	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
+	local data = AtlasMaps;
+	local base = data[zoneID];
+
+	Atlas_MapRefresh();
 	
 	-- zone name acronym
 	local tName = base.ZoneName[1];

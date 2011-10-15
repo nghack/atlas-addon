@@ -31,7 +31,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
-local Atlas_DebugMode = false;
+local Atlas_DebugMode = true;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -419,6 +419,7 @@ function Atlas_Refresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
+	local target_map;
 
 	AtlasMap:ClearAllPoints();
 	AtlasMap:SetWidth(512);
@@ -428,7 +429,11 @@ function Atlas_Refresh()
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
 		if(zoneID == v) then
-			AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+			if ( base.Module ) then
+				AtlasMap:SetTexture("Interface\\AddOns\\"..base.Module.."\\Images\\"..zoneID);
+			else
+				AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
+			end
 			break;
 		-- if selected map is from plugin
 		else

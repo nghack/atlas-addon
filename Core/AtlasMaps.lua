@@ -937,7 +937,7 @@ Syntax:
 		PlayerLimit = "5";
 		Acronym = AL["SFK"];
 		JournalInstanceID = "64";
-		Module = "Atlas_ClassicWoW";
+		--Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Baron Ashbury", 96) };
@@ -1083,7 +1083,7 @@ Syntax:
 		PlayerLimit = "5";
 		Acronym = AL["VC"];
 		JournalInstanceID = "63";
-		Module = "Atlas_ClassicWoW";
+		--Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Glubtok", 89) };

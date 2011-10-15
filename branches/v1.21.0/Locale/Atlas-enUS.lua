@@ -224,6 +224,7 @@ if AL then
 	AL["Wave 10"] = "Wave 10";
 	AL["Wave 12"] = "Wave 12";
 	AL["Wave 18"] = "Wave 18";
+	AL["MapsNotFound"] = "Current selected dungeon does not have a \ncorresponding map image associated with. \n\nPlease make sure you have installed \nthe corresponding Atlas map module(s).";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

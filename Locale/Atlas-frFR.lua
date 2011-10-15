@@ -157,7 +157,6 @@ if AL then
 	AL["Love is in the Air"] = "De l'amour dans l'air";
 	AL["Lunar Festival"] = "Festival lunaire";
 	AL["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
-	
 	--Misc strings
 	AL["Colon"] = " : ";
 	AL["Adult"] = "Adulte";
@@ -218,6 +217,7 @@ if AL then
 	AL["Start"] = "Début";
 	AL["Summon"] = "Invoqué";
 	AL["Teleporter"] = "Téléporteur";
+	AL["Teleporter destination"] = "Destination du téléporteur";
 	AL["Third Stop"] = "Troisième arrêt";
 	AL["Top"] = "Haut";
 	AL["Underwater"] = "Sous l'eau";
@@ -231,6 +231,7 @@ if AL then
 	AL["Wave 10"] = "Vague 10";
 	AL["Wave 12"] = "Vague 12";
 	AL["Wave 18"] = "Vague 18";
+	AL["MapsNotFound"] = "Le donjon actuellement sélectionné n'a pas d'image de la carte correspondante.\nAssurez-vous d'avoir installé le bon module de cartes d'Atlas";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

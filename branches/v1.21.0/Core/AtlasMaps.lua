@@ -2340,7 +2340,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Nefarian's End", 174) };
 	};
 	CoTDragonSoulA = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [A]" };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [A]" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2358,7 +2358,7 @@ Syntax:
 		{ WHIT.." 8) "..Atlas_GetBossName("Madness of Deathwing", 333) };
 	},
 	CoTDragonSoulB = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [B]" };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [B]" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2367,7 +2367,7 @@ Syntax:
 		JournalInstanceID = "187";
 	},
 	CoTDragonSoulC = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [C]" };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [C]" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2376,7 +2376,7 @@ Syntax:
 		JournalInstanceID = "187";
 	},
 	CoTDragonSoulD = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Dragon Soul"].." [D]" };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [D]" };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85+";
 		MinLevel = "85";
@@ -2385,7 +2385,7 @@ Syntax:
 		JournalInstanceID = "187";
 	},
 	CoTEndTime = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["End Time"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["End Time"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
@@ -2402,7 +2402,7 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Murozond", 289) };
 	};
 	CoTHourOfTwilight = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Hour of Twilight"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hour of Twilight"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
@@ -2415,7 +2415,7 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Archbishop Benedictus", 341) };
 	};
 	CoTWellOfEternity = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..AL["Well of Eternity"] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Well of Eternity"] };
 		Location = { BZ["Tanaris"] };
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";

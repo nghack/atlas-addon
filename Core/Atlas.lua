@@ -454,6 +454,9 @@ function Atlas_MapRefresh()
 	if ( AtlasMap:GetTexture() == nil) then
 		AtlasMap:SetTexture(0, 0, 0);
 		AtlasMap_Text:SetText(AL["MapsNotFound"]);
+		if (not AtlasMap_Text:IsShown() ) then
+			AtlasMap_Text:Show();
+		end
 	else 
 		AtlasMap_Text:SetText("");
 	end

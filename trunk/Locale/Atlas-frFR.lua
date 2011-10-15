@@ -222,6 +222,7 @@ if AL then
 	AL["Start"] = "Début";
 	AL["Summon"] = "Invoqué";
 	AL["Teleporter"] = "Téléporteur";
+	AL["Teleporter destination"] = "Destination du téléporteur";
 	AL["Third Stop"] = "Troisième arrêt";
 	AL["Tiger"] = "Tigre";
 	AL["Top"] = "Haut";
@@ -237,7 +238,8 @@ if AL then
 	AL["Wave 10"] = "Vague 10";
 	AL["Wave 12"] = "Vague 12";
 	AL["Wave 18"] = "Vague 18";
-
+	AL["MapsNotFound"] = "Le donjon actuellement sélectionné n'a pas d'image de la carte correspondante.\nAssurez-vous d'avoir installé le bon module de cartes d'Atlas";
+	
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj, Ruines d'Ahn'Qiraj

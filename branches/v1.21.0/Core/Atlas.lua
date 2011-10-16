@@ -155,6 +155,13 @@ local function Process_Deprecated()
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
+		{ "Atlas_Battlegrounds", "1.20.1" },
+		{ "Atlas_DungeonLocs", "1.20.1" },
+		{ "Atlas_OutdoorRaids", "1.20.1" },
+		{ "Atlas_Transportation", "1.20.1" },
+		{ "Atlas_BurningCrusade", "1.21.0" },
+		{ "Atlas_ClassicWoW", "1.21.0" },
+		{ "Atlas_WrathoftheLichKing", "1.21.0" },
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.6" }, -- updated Aug. 31, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained

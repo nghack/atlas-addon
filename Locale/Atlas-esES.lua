@@ -232,6 +232,7 @@ if AL then
 	AL["Wave 10"] = "Ola 10";
 	AL["Wave 12"] = "Ola 12";
 	AL["Wave 18"] = "Ola 18";
+	AL["MapsNotFound"] = "La mazmorra actual no dispone de su \nimagen de mapa correspondiente. \n\nPor favor, asegurate de tener instalado \nel módulo(s) de mapas Atlas correspondiente.";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

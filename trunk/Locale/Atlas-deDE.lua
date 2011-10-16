@@ -236,6 +236,7 @@ if AL then
 	AL["Wave 10"] = "Welle 10";
 	AL["Wave 12"] = "Welle 12";
 	AL["Wave 18"] = "Welle 18";
+	AL["MapsNotFound"] = "Für die gewählte Instanz wurde \nkeine anzuzeigende Karte gefunden. \n\nBitte stellen Sie sicher, dass die erforderlichen \nAtlas-Kartenmodule installiert sind.";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

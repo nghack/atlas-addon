@@ -74,6 +74,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5";
 		Acronym = AL["Auch"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["Auchenai Crypts"] };
 		{ BLUE.." B) "..BZ["Mana-Tombs"] };
 		{ BLUE.." C) "..BZ["Sethekk Halls"] };
@@ -103,6 +104,7 @@ Syntax:
 		MinLevel = "15";
 		PlayerLimit = "5";
 		Acronym = AL["BFD"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackfathom Deeps"] };
 	};
@@ -166,6 +168,7 @@ Syntax:
 		MinLevel = "70";
 		PlayerLimit = "25";
 		Acronym = AL["CoT3"];
+		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -182,6 +185,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5/25";
 		Acronym = AL["CR"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["The Slave Pens"] };
 		{ BLUE.." B) "..BZ["The Steamvault"] };
 		{ BLUE.." C) "..BZ["Serpentshrine Cavern"] };
@@ -198,6 +202,7 @@ Syntax:
 		MinLevel = "31";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Dire Maul"].." ("..AL["East"]..")" };
 		{ BLUE.." C) "..BZ["Dire Maul"].." ("..AL["North"]..")" };
@@ -213,6 +218,7 @@ Syntax:
 		MinLevel = "19";
 		PlayerLimit = "5";
 		Acronym = AL["Gnome"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Meeting Stone"] };
 		{ BLUE.." B) "..BZ["Gnomeregan"].." ("..AL["Front"]..")" };
@@ -228,6 +234,7 @@ Syntax:
 		MinLevel = "55";
 		PlayerLimit = "5/25";
 		Acronym = AL["HC"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["Hellfire Ramparts"] };
 		{ BLUE.." B) "..BZ["The Shattered Halls"] };
 		{ BLUE.." C) "..BZ["The Blood Furnace"] };
@@ -244,6 +251,7 @@ Syntax:
 		MinLevel = "75";
 		PlayerLimit = "5/10/25";
 		Acronym = AL["IC"];
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["The Forge of Souls"] };
 		{ BLUE.." C) "..BZ["Pit of Saron"] };
@@ -258,6 +266,7 @@ Syntax:
 		MinLevel = "68";
 		PlayerLimit = "10";
 		Acronym = AL["Kara"];
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["Karazhan"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..BZ["Karazhan"].." ("..AL["Back"]..")" };
 		{ GREN.." 1') "..AL["Archmage Leryda"] };
@@ -276,6 +285,7 @@ Syntax:
 		MinLevel = "25";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT..INDENT..AL["The Nameless Prophet"].." ("..AL["Lower"]..")" };
 		{ BLUE.." B) "..BZ["Maraudon"].." ("..AL["Purple"]..")" };
@@ -289,6 +299,7 @@ Syntax:
 		MinLevel = "21";
 		PlayerLimit = "5";
 		Acronym = AL["SM"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Graveyard"] };
 		{ BLUE.." C) "..AL["Cathedral"] };
@@ -301,6 +312,7 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel= "67";
 		PlayerLimit = "5/25";
+		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["The Mechanar"] };
 		{ BLUE.." B) "..BZ["The Botanica"] };
 		{ BLUE.." C) "..BZ["The Arcatraz"] };
@@ -328,6 +340,7 @@ Syntax:
 		MinLevel = "45";
 		PlayerLimit = "5";
 		Acronym = AL["ST"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Meeting Stone"] };
 		{ GREN..INDENT..AL["Lord Itharius"] };
@@ -343,6 +356,7 @@ Syntax:
 		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Ulda"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Uldaman"] };
 	};
@@ -352,6 +366,7 @@ Syntax:
 		LevelRange = "75-83";
 		MinLevel = "72";
 		PlayerLimit = "5/10/25";
+		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Stone"] };
 		{ BLUE.." B) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Lightning"] };
 		{ BLUE.." C) "..BZ["Ulduar"] };
@@ -368,6 +383,7 @@ Syntax:
 		MinLevel = "10";
 		PlayerLimit = "5";
 		Acronym = AL["WC"];
+		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ ORNG.." 1) "..Atlas_GetBossName("Trigore the Lasher").." ("..AL["Rare"]..")" };

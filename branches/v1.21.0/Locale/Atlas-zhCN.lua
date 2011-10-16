@@ -162,7 +162,7 @@ if AL then
 	AL["Chase Begins"] = "追捕开始";
 	AL["Chase Ends"] = "追捕结束";
 	AL["Child"] = "幼年";
-	AL["Click to open Dungeon Journal window."] = "单击打开Dungeon Journal窗口。";
+	AL["Click to open Dungeon Journal window."] = "单击打开地下城手册窗口。";
 	AL["Connection"] = "通道";
 	AL["DS2"] = "地下城套装2";
 	AL["Elevator"] = "升降梯";

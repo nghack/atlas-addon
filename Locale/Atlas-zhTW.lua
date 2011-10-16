@@ -158,13 +158,11 @@ if AL then
 	AL["Back"] = "後方";
 	AL["Basement"] = "地下室";
 	AL["Blacksmithing Plans"] = "黑鐵鍛造圖樣";
-	AL["Boss"] = "首領";
 	AL["Chase Begins"] = "追逐開始";
 	AL["Chase Ends"] = "追逐結束";
 	AL["Child"] = "幼年";
 	AL["Click to open Dungeon Journal window."] = "按下以開啟地城導覽視窗.";
 	AL["Connection"] = "通道";
-	AL["DS2"] = "副本套裝2";
 	AL["Elevator"] = "電梯";
 	AL["End"] = "結束";
 	AL["Engineer"] = "工程師";
@@ -181,7 +179,6 @@ if AL then
 	AL["Holy Priest"] = "神聖牧師";
 	AL["Hunter"] = "獵人";
 	AL["Imp"] = "小鬼";
-	AL["Inside"] = "內部";
 	AL["Key"] = "鑰匙";
 	AL["Lower"] = "下層";
 	AL["Mage"] = "法師";
@@ -207,16 +204,14 @@ if AL then
 	AL["Second Stop"] = "第二停留點";
 	AL["Shadow Priest"] = "暗影牧師";
 	AL["Shaman"] = "薩滿";
-	AL["Side"] = "側邊";
 	AL["Spawn Point"] = "生成點";
 	AL["Start"] = "開始";
 	AL["Summon"] = "召喚";
 	AL["Teleporter"] = "傳送";
+	AL["Teleporter destination"] = "傳送目的地";
 	AL["Third Stop"] = "第三停留點";
-	AL["Tiger"] = "虎";
 	AL["Top"] = "上方";
 	AL["Underwater"] = "水下";
-	AL["Unknown"] = "未知";
 	AL["Upper"] = "上層";
 	AL["Varies"] = "多處";
 	AL["Wanders"] = "徘徊";
@@ -227,6 +222,7 @@ if AL then
 	AL["Wave 10"] = "第 10 波";
 	AL["Wave 12"] = "第 12 波";
 	AL["Wave 18"] = "第 18 波";	
+	AL["MapsNotFound"] = "目前的副本找不到對應的地圖影像檔.\n\n請確認您是否有安裝 Atlas 相關的副本地圖模組.";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj 安其拉
@@ -328,6 +324,10 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight 暮光堡壘
 	AL["BRC"] = "BRC"; --Blackrock Caverns 黑石洞穴
 	AL["BWD"] = "BWD"; --Blackwing Descent 黑翼陷窟
+	AL["CoT-DS"] = "CoT-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CoT-HoT"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands 火源之界
 	AL["GB"] = "GB"; --Grim Batol 格瑞姆巴托
 	AL["HoO"] = "HoO"; --Halls of Origination 起源大廳
@@ -1025,6 +1025,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "盧拉·怒藤 <晶化火石收集者>";

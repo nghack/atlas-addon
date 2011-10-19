@@ -29,6 +29,7 @@
 	<Script file="AtlasMapsAssociation.lua"/>
 	<Script file="AtlasJournalEncounter.lua"/>
 	<Script file="AtlasMaps.lua"/>
+	<Script file="AtlasMaps_NPC_DB.lua"/>
 	<Script file="AtlasDropDown.lua"/>
 	<Script file="Atlas.lua"/>
 

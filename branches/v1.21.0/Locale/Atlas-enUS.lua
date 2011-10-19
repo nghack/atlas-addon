@@ -81,7 +81,8 @@ if AL then
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Reset Position";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Display Acronyms";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Display the instance's acronym in the map details.";
-	AL["ATLAS_OPTIONS_SCALE"] = "Scale";
+	AL["ATLAS_OPTIONS_SCALE"] = "Atlas Frame Scale";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Button Radius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Clamp window to screen";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Clamp Atlas window to screen, disable to allow Atlas window can be dragged outside the game screen.";

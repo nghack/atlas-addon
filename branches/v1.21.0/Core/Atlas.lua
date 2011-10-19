@@ -25,7 +25,7 @@
 --]]
 
 -- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert
+-- Initiator and previous author: Dan Gilbert, Lothaer
 -- Maintainers: Arith, Dynaletik, Deadca7
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
@@ -69,6 +69,7 @@ local DefaultAtlasOptions = {
 	["AtlasClamped"] = true;	-- clamp to WoW window
 	["AtlasSortBy"] = 1;		-- maps' sorting type, 1: CONTINENT; 2: LEVEL; 3: PARTYSIZE; 4: EXPANSION; 5: TYPE
 	["AtlasCtrl"] = false;		-- press ctrl and mouse over to show full description text
+	["AtlasBossDescScale"] = 0.9;	-- the boss description GameToolTip scale
 };
 
 --Code by Grayhoof (SCT)
@@ -321,6 +322,11 @@ function Atlas_Init()
 	if ( AtlasOptions == nil ) then
 		Atlas_FreshOptions();
 	end
+	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
+	--can be removed after 1.21.0 release
+	if (AtlasOptions["AtlasBossDescScale"] == nil) then
+		AtlasOptions["AtlasBossDescScale"] = 0.9;
+	end
 	
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
@@ -430,20 +436,21 @@ function Atlas_MapRefresh()
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
-	-- searching for the map path from Atlas or from plugins
 
 	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
 
+	-- searching for the map path from Atlas or from plugins
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
 		if(zoneID == v) then
 			if ( base.Module ) then
+				-- if the map belong to a module, set the path to module
 				AtlasMap:SetTexture("Interface\\AddOns\\"..base.Module.."\\Images\\"..zoneID);
 			else
 				AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
 			end
 			break;
-		-- if selected map is from plugin
+		-- check if selected map is from plugin
 		else
 			-- searching for plugins
 			for ka,va in pairs(ATLAS_PLUGINS) do
@@ -466,6 +473,42 @@ function Atlas_MapRefresh()
 		end
 	else 
 		AtlasMap_Text:SetText("");
+	end
+
+	local npc_table = AtlasMaps_NPC_DB[zoneID];
+	local i = 1;
+	if ( npc_table ~= nil ) then
+		while ( npc_table[i] ~= nil ) do
+			local AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMap_NPC_Text_Frame_"..i, AtlasFrame);
+			AtlasMap_NPC_Text_Frame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 20 + npc_table[i][3], -80 - npc_table[i][4]);
+			AtlasMap_NPC_Text_Frame:SetWidth(15);
+			AtlasMap_NPC_Text_Frame:SetHeight(15);
+			AtlasMap_NPC_Text_Frame:SetID(npc_table[i][2]);
+			AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate)
+			AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide)
+			i = i + 1;
+		end
+	end
+
+end
+
+function AtlasMaps_NPC_Text_OnUpdate(self)
+	if ( not GameTooltip:IsShown() ) then
+		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
+		if ( ejbossname ) then
+			if ( (IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown()) ) then
+				-- do nothing
+			else
+				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+				GameTooltip:SetBackdropColor(0,0,0,1);
+				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
+				GameTooltip:AddLine(description, nil, nil, nil, 1);
+				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"]);
+				GameTooltip:Show();
+			end
+		end
+	else
+		GameTooltip:Hide();
 	end
 end
 

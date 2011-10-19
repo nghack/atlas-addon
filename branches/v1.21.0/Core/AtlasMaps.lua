@@ -25,8 +25,8 @@
 --]]
 
 -- Atlas Map Data
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Initiator and previous author: Dan Gilbert, Lothaer
+-- Maintainers: Arith, Dynaletik, Deadca7
 
 local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0");

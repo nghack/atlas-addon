@@ -8,18 +8,31 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 v1.21.0 (XXX. XX, 2011)
 - Update TOC to support WoW 4.3
+- Splitted plugins into separated addons
+- Splitted dungeon maps into separated modules based on the expansion sets;
+  note that if you would like to have all the dungeon maps to be displayed 
+  in Atlas, you have to download all the modules.
 - Maps updated: 
     - Firelands (dubca7)
     - Baradin Hold (dubca7)
+    - Caverns of Time Dungeon Entrance (dubca7)
+    - Throne ff the Four Winds (dubca7)
 - New maps added:
     - The Dragon Soul (dubca7)
     - Well of Eternity (dubca7)
     - Hour of Twilight (dubca7)
     - End Time (dubca7)
-
-v1.20.2 (XXX. XX, 2011)
-- ....
-
+- New Feature:
+    - Added boss description to the map which was associated with Dungeon Journal
+- Translation updated
+    - German (Dynaletik)
+    - Russian (StingerSoft)
+    - French (Khiria)
+    - Traditional Chinese (arith)
+    - Simplified Chinese (ananhaid)
+    - Spanish (maqjav)
+    - Russian (StingerSoft)
+    
 v1.20.1 (Sep. 09, 2011)
 - Added Journal Encounter button to Atlas frame (lag, arith, Dynaletik)
 - Maps updated:

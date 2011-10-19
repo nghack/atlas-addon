@@ -88,7 +88,8 @@ if AL then
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Position zurücksetzen";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Abkürzungen anzeigen";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Zeigt die Instanz-Abkürzungen in den Kartendetails an.";
-	AL["ATLAS_OPTIONS_SCALE"] = "Skalierung";
+	AL["ATLAS_OPTIONS_SCALE"] = "Skalierung des Atlas Fensters";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Skalierung des ToolTips für die Bossbeschreibungen auf der Karte";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Schalterradius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fenster im Bildschirm festhalten";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Atlasfenster im Bildschirm festhalten. Deaktivieren, um das Atlasfenster über den Spielfensterrand hinaus bewegen zu können.";

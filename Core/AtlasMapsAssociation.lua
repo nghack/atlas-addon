@@ -49,6 +49,7 @@ Atlas_AssocDefaults = {
 	[BZ["Hall of Blackhand"]] =		"BlackrockSpireLower";
 	[BZ["Black Temple"]] =			"BlackTempleBasement";
 	[BZ["Dire Maul"]] =			"DireMaulNorth";
+	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
 	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 	[BZ["Karazhan"]] =			"KarazhanStart";
 	[BZ["Scarlet Monastery"]] =		"ScarletMonasteryEnt";
@@ -145,6 +146,29 @@ Atlas_SubZoneData = {
 			BZ["Court of the Highborne"],
 			BZ["Prison of Immol'thar"],
 			BZ["The Athenaeum"],
+		},
+	},
+	-- Dragon Soul
+	[BZ["Dragon Soul"]] = {
+		--Dragon Soul A
+		["CoTDragonSoulA"] = {
+			BZ["Path of the Titans"],
+			BZ["Wyrmrest Summit"],
+		},
+		--Dragon Soul B
+		["CoTDragonSoulB"] = {
+			BZ["Maw of Unmaking"],
+			BZ["Maw of Ruin"],
+			BZ["Eye of Eternity"],
+		},
+		--Dragon Soul C
+		["CoTDragonSoulC"] = {
+			BZ["The Skyfire"],
+			BZ["Deathwing"],
+		},
+		--Dragon Soul D
+		["CoTDragonSoulD"] = {
+			BZ["The Maelstrom"],
 		},
 	},
 	-- Icecrown Citadell

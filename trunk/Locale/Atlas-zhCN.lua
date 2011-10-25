@@ -227,6 +227,7 @@ if AL then
 	AL["Wave 10"] = "第10波";
 	AL["Wave 12"] = "第12波";
 	AL["Wave 18"] = "第18波";
+	AL["MapsNotFound"] = "当前选定的地下城没有 \n与之相对应的地图图像。 \n\n请确认已经安装 \n相应的 Atlas 地图模块。";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

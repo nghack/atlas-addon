@@ -88,7 +88,8 @@ if AL then
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Position initiale";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Afficher les acronymes VO/VF";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Afficher les acronymes de l'instance dans les détails de la carte";
-	AL["ATLAS_OPTIONS_SCALE"] = "Echelle";
+	AL["ATLAS_OPTIONS_SCALE"] = "Mise à l'échelle de la fenêtre Atlas";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Mise à l'échelle de l'info-bulles pour les descriptions de boss sur la carte";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Rayon du bouton";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fixer la fenêtre à l'écran";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Fixer la fenêtre à l'écran, désactiver pour permettre de déplacer le fenêtre d'Atlas.";

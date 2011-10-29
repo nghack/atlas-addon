@@ -157,8 +157,8 @@ Atlas_SubZoneData = {
 		},
 		--Dragon Soul B
 		["CoTDragonSoulB"] = {
-			BZ["Maw of Unmaking"],
-			BZ["Maw of Ruin"],
+			BZ["Maw of Go'rath"],
+			BZ["Maw of Shu'ma"],
 			BZ["Eye of Eternity"],
 		},
 		--Dragon Soul C

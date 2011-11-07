@@ -25,7 +25,7 @@
 --]]
 
 -- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
+-- Initiator and previous author: Dan Gilbert, Lothaer
 -- Maintainers: Arith, Dynaletik, Deadca7
 
 function AtlasOptions_Toggle()
@@ -135,6 +135,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);
 	AtlasOptionsFrameSliderScale:SetValue(AtlasOptions.AtlasScale);
+	AtlasOptionsFrameSliderBossDescScale:SetValue(AtlasOptions.AtlasBossDescScale);
 	AtlasOptionsFrameDropDownCats_OnShow();
 end
 

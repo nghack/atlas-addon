@@ -25,8 +25,8 @@
 --]]
 
 -- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Arith, Dynaletik, Deadca7, Lothaer
+-- Initiator and previous author: Dan Gilbert, Lothaer
+-- Maintainers: Arith, Dynaletik, Deadca7
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 
@@ -74,6 +74,7 @@ ATLAS_OPTIONS_RESETPOS		= AL["ATLAS_OPTIONS_RESETPOS"];
 ATLAS_OPTIONS_ACRONYMS		= AL["ATLAS_OPTIONS_ACRONYMS"];
 ATLAS_OPTIONS_ACRONYMS_TIP	= AL["ATLAS_OPTIONS_ACRONYMS_TIP"];
 ATLAS_OPTIONS_SCALE		= AL["ATLAS_OPTIONS_SCALE"];
+ATLAS_OPTIONS_BOSS_DESC_SCALE	= AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"];
 ATLAS_OPTIONS_BUTRAD		= AL["ATLAS_OPTIONS_BUTRAD"];
 ATLAS_OPTIONS_CLAMPED		= AL["ATLAS_OPTIONS_CLAMPED"];
 ATLAS_OPTIONS_CLAMPED_TIP	= AL["ATLAS_OPTIONS_CLAMPED_TIP"];

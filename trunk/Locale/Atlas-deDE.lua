@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 30.06.2011
+-- Letztes Update: 15.10.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -88,7 +88,8 @@ if AL then
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Position zurücksetzen";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Abkürzungen anzeigen";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Zeigt die Instanz-Abkürzungen in den Kartendetails an.";
-	AL["ATLAS_OPTIONS_SCALE"] = "Skalierung";
+	AL["ATLAS_OPTIONS_SCALE"] = "Skalierung des Atlas Fensters";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Skalierung des ToolTips für die Bossbeschreibungen auf der Karte";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Schalterradius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fenster im Bildschirm festhalten";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Atlasfenster im Bildschirm festhalten. Deaktivieren, um das Atlasfenster über den Spielfensterrand hinaus bewegen zu können.";
@@ -146,10 +147,10 @@ if AL then
 --************************************************
 
 	--Common strings
-	AL["East"] = "Ost";
-	AL["North"] = "Nord";
-	AL["South"] = "Süd";
-	AL["West"] = "West";
+	AL["East"] = "Osten";
+	AL["North"] = "Norden";
+	AL["South"] = "Süden";
+	AL["West"] = "Westen";
 
 	--World Events, Festival
 	AL["Brewfest"] = "Braufest";
@@ -167,13 +168,11 @@ if AL then
 	AL["Back"] = "Hinten";
 	AL["Basement"] = "Keller";
 	AL["Blacksmithing Plans"] = "Schmiedekunstpläne";
-	AL["Boss"] = "Boss";
 	AL["Chase Begins"] = "Jagd beginnt";
 	AL["Chase Ends"] = "Jagd endet";
 	AL["Child"] = "Kind";
 	AL["Click to open Dungeon Journal window."] = "Zum Öffnen des Dungeonkompendiums klicken.";
 	AL["Connection"] = "Verbindung";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Aufzug";
 	AL["End"] = "Ende";
 	AL["Engineer"] = "Ingenieur";
@@ -190,7 +189,6 @@ if AL then
 	AL["Holy Priest"] = "Heilig Priesterin";
 	AL["Hunter"] = "Jäger";
 	AL["Imp"] = "Wichtel";
-	AL["Inside"] = "Innen";
 	AL["Key"] = "Schlüssel";
 	AL["Lower"] = "Unten";
 	AL["Mage"] = "Magier";
@@ -216,16 +214,14 @@ if AL then
 	AL["Second Stop"] = "Zweiter Halt";
 	AL["Shadow Priest"] = "Schatten Priesterin";
 	AL["Shaman"] = "Schamane";
-	AL["Side"] = "Seite";
 	AL["Spawn Point"] = "Spawnpunkt";
 	AL["Start"] = "Anfang";
 	AL["Summon"] = "Beschwörbar";
 	AL["Teleporter"] = "Teleporter";
+	AL["Teleporter destination"] = "Teleportziel";
 	AL["Third Stop"] = "Dritter Halt";
-	AL["Tiger"] = "Tiger";
 	AL["Top"] = "Spitze";
 	AL["Underwater"] = "Unter Wasser";
-	AL["Unknown"] = "Unbekannt";
 	AL["Upper"] = "Oben";
 	AL["Varies"] = "Variiert";
 	AL["Wanders"] = "Wandert";
@@ -338,6 +334,10 @@ if AL then
 	AL["BoT"] = "BdZ"; --Bastion of Twilight
 	AL["BRC"] = "BRH"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "HdZ-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "HdZ-EZ"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "HdZ-SdZ"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "HdZ-BdE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HdU"; --Halls of Origination
@@ -1035,6 +1035,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Zornranke <Sammlerin kristallisierten Feuersteins>";

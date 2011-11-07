@@ -49,6 +49,7 @@ Atlas_AssocDefaults = {
 	[BZ["Hall of Blackhand"]] =		"BlackrockSpireLower";
 	[BZ["Black Temple"]] =			"BlackTempleBasement";
 	[BZ["Dire Maul"]] =			"DireMaulNorth";
+	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
 	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 	[BZ["Karazhan"]] =			"KarazhanStart";
 	[BZ["Scarlet Monastery"]] =		"ScarletMonasteryEnt";
@@ -145,6 +146,29 @@ Atlas_SubZoneData = {
 			BZ["Court of the Highborne"],
 			BZ["Prison of Immol'thar"],
 			BZ["The Athenaeum"],
+		},
+	},
+	-- Dragon Soul
+	[BZ["Dragon Soul"]] = {
+		--Dragon Soul A
+		["CoTDragonSoulA"] = {
+			BZ["Path of the Titans"],
+			BZ["Wyrmrest Summit"],
+		},
+		--Dragon Soul B
+		["CoTDragonSoulB"] = {
+			BZ["Maw of Go'rath"],
+			BZ["Maw of Shu'ma"],
+			BZ["Eye of Eternity"],
+		},
+		--Dragon Soul C
+		["CoTDragonSoulC"] = {
+			BZ["The Skyfire"],
+			BZ["Deathwing"],
+		},
+		--Dragon Soul D
+		["CoTDragonSoulD"] = {
+			BZ["The Maelstrom"],
 		},
 	},
 	-- Icecrown Citadell
@@ -384,7 +408,7 @@ Atlas_EntToInstMatches = {
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
 	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore","BlackrockCaverns","BlackwingDescent"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
-	["CavernsOfTimeEnt"] =			{"CoTHyjal","CoTHyjalEnt","CoTBlackMorass","CoTOldHillsbrad","CoTOldStratholme"};
+	["CavernsOfTimeEnt"] =			{"CoTBlackMorass","CoTDragonSoulA","CoTDragonSoulB","CoTDragonSoulC","CoTDragonSoulD","CoTEndTime","CoTHyjal","CoTHyjalEnt","CoTHourOfTwilight","CoTOldHillsbrad","CoTOldStratholme","CoTWellOfEternity"};
 	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["GnomereganEnt"] =			{"Gnomeregan"};
 	["HellfireCitadelEnt"] = 		{"HCBloodFurnace", "HCHellfireRamparts", "HCMagtheridonsLair", "HCTheShatteredHalls"};
@@ -418,11 +442,18 @@ Atlas_InstToEntMatches = {
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
 	["CFRSerpentshrineCavern"] =		{"CoilfangReservoirEnt"};
+	["CoTBlackMorass"] =			{"CavernsOfTimeEnt"};
+	["CoTDragonSoulA"] =			{"CavernsOfTimeEnt"};
+	["CoTDragonSoulB"] =			{"CavernsOfTimeEnt"};
+	["CoTDragonSoulC"] =			{"CavernsOfTimeEnt"};
+	["CoTDragonSoulD"] =			{"CavernsOfTimeEnt"};
+	["CoTEndTime"] =			{"CavernsOfTimeEnt"};
 	["CoTHyjal"] =				{"CavernsOfTimeEnt"};
 	["CoTHyjalEnt"] =			{"CavernsOfTimeEnt"};
-	["CoTBlackMorass"] =			{"CavernsOfTimeEnt"};
+	["CoTHourOfTwilight"] =			{"CavernsOfTimeEnt"};
 	["CoTOldHillsbrad"] =			{"CavernsOfTimeEnt"};
 	["CoTOldStratholme"] =			{"CavernsOfTimeEnt"};
+	["CoTWellOfEternity"] =			{"CavernsOfTimeEnt"};
 	["DireMaulEast"] =			{"DireMaulEnt"};
 	["DireMaulNorth"] =			{"DireMaulEnt"};
 	["DireMaulWest"] =			{"DireMaulEnt"};

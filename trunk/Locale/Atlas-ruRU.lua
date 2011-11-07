@@ -38,9 +38,11 @@ if ( GetLocale() == "ruRU" ) then
 -- Ex: The Stockade
 AtlasSortIgnore = {"(.+)"};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "Ан'Кираж";
 	["The Temple of Atal'Hakkar"] = "Храм Атал'Хаккара";
+--	["Throne of Tides"] = "Бездонная пучина: Трон Приливов";
 };
 end
 
@@ -83,6 +85,7 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Короткие названия";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Будут отображаться сокрощенные названия подземелий в информации о карте.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Размер";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Размер подсказки описания босса на карте";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Радиус расположения кнопки";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Не заходить за размеры экрана";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Фиксировать окно Атласа на экране, отключение позволит перемещать окно Атласа за пределы игрового экрана.";
@@ -161,13 +164,11 @@ if AL then
 	AL["Back"] = "Назад";
 	AL["Basement"] = "Подвал";
 	AL["Blacksmithing Plans"] = "Чертежи кузнечного дела";
-	AL["Boss"] = "Босс";
 	AL["Chase Begins"] = "Начало охоты";
 	AL["Chase Ends"] = "Конец охоты";
 	AL["Child"] = "Ребенок";
 	AL["Click to open Dungeon Journal window."] = "[ЛКМ] - открывает окно журнала подземелий.";
 	AL["Connection"] = "Связан";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Лифт";
 	AL["End"] = "Конец";
 	AL["Engineer"] = "Инженер";
@@ -184,7 +185,6 @@ if AL then
 	AL["Holy Priest"] = "Жрец-Света";
 	AL["Hunter"] = "Охотник";
 	AL["Imp"] = "Бесс";
-	AL["Inside"] = "Внутри";
 	AL["Key"] = "Ключ";
 	AL["Lower"] = "Нижний";
 	AL["Mage"] = "Маг";
@@ -210,16 +210,14 @@ if AL then
 	AL["Second Stop"] = "Вторая остановка";
 	AL["Shadow Priest"] = "Жрец-Темной магии";
 	AL["Shaman"] = "Шаман";
-	AL["Side"] = "Сторона";
 	AL["Spawn Point"] = "Точка рождения";
 	AL["Start"] = "Начало";
 	AL["Summon"] = "Вызов";
 	AL["Teleporter"] = "Телепорт";
+	AL["Teleporter destination"] = "Назначение телепорта";
 	AL["Third Stop"] = "Третья остановка";
-	AL["Tiger"] = "Тигр";
 	AL["Top"] = "Верхний";
 	AL["Underwater"] = "Подводный";
-	AL["Unknown"] = "Неизвестный";
 	AL["Upper"] = "Верхний";
 	AL["Varies"] = "Изменяется";
 	AL["Wanders"] = "Странник";
@@ -332,6 +330,10 @@ if AL then
 	AL["BoT"] = "СБ"; --Сумеречный бастион
 	AL["BRC"] = "ПСГ"; --Пещеры Черной горы
 	AL["BWD"] = "ТКТ"; --Твердыня Крыла Тьмы
+	AL["CoT-DS"] = "ПВ-ДД"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "ПВ-КВ"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "ПВ-ЧС"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "ПВ-ИВ"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "ОП"; --Firelands
 	AL["GB"] = "ГБ"; --Грим Батол
 	AL["HoO"] = "ЧТГС"; --Чертоги Созидания
@@ -1029,6 +1031,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Лура Гневная Лоза <Собиратель кристаллизованного кремня>";

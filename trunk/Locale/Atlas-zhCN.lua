@@ -35,6 +35,7 @@ if ( GetLocale() == "zhCN" ) then
 -- Ex: The Stockade
 AtlasSortIgnore = {};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["Ahn'Qiraj"] = "安其拉神殿";
 	["The Temple of Atal'Hakkar"] = "阿塔哈卡神庙";
@@ -80,6 +81,7 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "显示简称";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地图的详尽叙述中显示副本的缩写。";
 	AL["ATLAS_OPTIONS_SCALE"] = "缩放";
+	--AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "图标半径";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "不超出游戏画面";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界。";
@@ -158,13 +160,11 @@ if AL then
 	AL["Back"] = "后门";
 	AL["Basement"] = "底层";
 	AL["Blacksmithing Plans"] = "锻造设计图";
-	AL["Boss"] = "首领";
 	AL["Chase Begins"] = "追捕开始";
 	AL["Chase Ends"] = "追捕结束";
 	AL["Child"] = "幼年";
 	AL["Click to open Dungeon Journal window."] = "单击打开地下城手册窗口。";
 	AL["Connection"] = "通道";
-	AL["DS2"] = "地下城套装2";
 	AL["Elevator"] = "升降梯";
 	AL["End"] = "尾部";
 	AL["Engineer"] = "工程师";
@@ -181,7 +181,6 @@ if AL then
 	AL["Holy Priest"] = "神圣牧师";
 	AL["Hunter"] = "猎人";
 	AL["Imp"] = "小鬼";
-	AL["Inside"] = "内部";
 	AL["Key"] = "钥匙";
 	AL["Lower"] = "下层";
 	AL["Mage"] = "法师";
@@ -207,16 +206,14 @@ if AL then
 	AL["Second Stop"] = "第二次止步";
 	AL["Shadow Priest"] = "暗影牧师";
 	AL["Shaman"] = "萨满祭司";
-	AL["Side"] = "旁门";
 	AL["Spawn Point"] = "刷新点";
 	AL["Start"] = "起始";
 	AL["Summon"] = "召唤";
 	AL["Teleporter"] = "传送";
+	--AL["Teleporter destination"] = "Teleporter destination";
 	AL["Third Stop"] = "第三次止步";
-	AL["Tiger"] = "猛虎";
 	AL["Top"] = "顶层";
 	AL["Underwater"] = "水下";
-	AL["Unknown"] = "未知";
 	AL["Upper"] = "上层";
 	AL["Varies"] = "多个位置";
 	AL["Wanders"] = "游荡";
@@ -329,6 +326,10 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CoT-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CoT-HoT"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
@@ -1026,6 +1027,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "鲁娜·怒藤 <火石结晶收集者>";

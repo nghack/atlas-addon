@@ -153,6 +153,7 @@ Atlas_SubZoneData = {
 		--Dragon Soul A
 		["CoTDragonSoulA"] = {
 			BZ["Path of the Titans"],
+			BZ["The Dragon Wastes"],
 			BZ["Wyrmrest Summit"],
 		},
 		--Dragon Soul B
@@ -163,6 +164,7 @@ Atlas_SubZoneData = {
 		},
 		--Dragon Soul C
 		["CoTDragonSoulC"] = {
+			BZ["Above the Frozen Sea"],
 			BZ["The Skyfire"],
 			BZ["Deathwing"],
 		},

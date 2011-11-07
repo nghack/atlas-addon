@@ -81,7 +81,8 @@ if AL then
 	AL["ATLAS_OPTIONS_RESETPOS"] = "Reset Position";
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Display Acronyms";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Display the instance's acronym in the map details.";
-	AL["ATLAS_OPTIONS_SCALE"] = "Scale";
+	AL["ATLAS_OPTIONS_SCALE"] = "Atlas Frame Scale";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Button Radius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Clamp window to screen";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Clamp Atlas window to screen, disable to allow Atlas window can be dragged outside the game screen.";
@@ -150,23 +151,22 @@ if AL then
 	AL["Love is in the Air"] = "Love is in the Air";
 	AL["Lunar Festival"] = "Lunar Festival";
 	AL["Midsummer Festival"] = "Midsummer Festival";
+
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Adult";
-	AL["AKA"] = "AKA";
+	AL["AKA"] = "AKA"; -- As Known As
 	AL["Arcane Container"] = "Arcane Container";
 	AL["Arms Warrior"] = "Arms Warrior";
 	AL["Attunement Required"] = "Attunement Required";
 	AL["Back"] = "Back";
 	AL["Basement"] = "Basement";
 	AL["Blacksmithing Plans"] = "Blacksmithing Plans";
-	AL["Boss"] = "Boss";
 	AL["Chase Begins"] = "Chase Begins";
 	AL["Chase Ends"] = "Chase Ends";
 	AL["Child"] = "Child";
 	AL["Click to open Dungeon Journal window."] = "Click to open Dungeon Journal window.";
 	AL["Connection"] = "Connection";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Elevator";
 	AL["End"] = "End";
 	AL["Engineer"] = "Engineer";
@@ -183,7 +183,6 @@ if AL then
 	AL["Holy Priest"] = "Holy Priest";
 	AL["Hunter"] = "Hunter";
 	AL["Imp"] = "Imp";
-	AL["Inside"] = "Inside";
 	AL["Key"] = "Key";
 	AL["Lower"] = "Lower";
 	AL["Mage"] = "Mage";
@@ -209,16 +208,14 @@ if AL then
 	AL["Second Stop"] = "Second Stop";
 	AL["Shadow Priest"] = "Shadow Priest";
 	AL["Shaman"] = "Shaman";
-	AL["Side"] = "Side";
 	AL["Spawn Point"] = "Spawn Point";
 	AL["Start"] = "Start";
 	AL["Summon"] = "Summon";
 	AL["Teleporter"] = "Teleporter";
+	AL["Teleporter destination"] = "Teleporter destination";
 	AL["Third Stop"] = "Third Stop";
-	AL["Tiger"] = "Tiger";
 	AL["Top"] = "Top";
 	AL["Underwater"] = "Underwater";
-	AL["Unknown"] = "Unknown";
 	AL["Upper"] = "Upper";
 	AL["Varies"] = "Varies";
 	AL["Wanders"] = "Wanders";
@@ -331,6 +328,10 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CoT-DS"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CoT-ET"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CoT-HoT"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CoT-WoE"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
@@ -1028,6 +1029,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Wrathvine <Crystallized Firestone Collector>"; -- 54402

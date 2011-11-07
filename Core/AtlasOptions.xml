@@ -298,6 +298,27 @@
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
+			<Slider name="$ParentSliderBossDescScale" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="360" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP">
+						<Offset>
+							<AbsDimension x="0" y="-355" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BOSS_DESC_SCALE, 0.5, 1.5, 0.1);
+					</OnLoad>
+					<OnValueChanged>
+						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BOSS_DESC_SCALE);
+						AtlasOptions.AtlasBossDescScale = self:GetValue();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
 			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
 				<Layers>
 					<Layer level="BACKGROUND">

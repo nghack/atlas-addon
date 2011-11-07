@@ -25,8 +25,8 @@
 --]]
 
 -- Atlas Map Data
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Initiator and previous author: Dan Gilbert, Lothaer
+-- Maintainers: Arith, Dynaletik, Deadca7
 
 local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0");
@@ -144,6 +144,10 @@ Syntax:
 		{ BLUE.." C) "..BZ["Old Hillsbrad Foothills"] };
 		{ BLUE.." D) "..BZ["The Black Morass"] };
 		{ BLUE.." E) "..BZ["The Culling of Stratholme"] };
+		{ BLUE.." F) "..BZ["Dragon Soul"] };
+		{ BLUE.." G) "..BZ["End Time"] };
+		{ BLUE.." H) "..BZ["Well of Eternity"] };
+		{ BLUE.." I) "..BZ["Hour of Twilight"] };
 		{ GREN.." 1') "..AL["Steward of Time <Keepers of Time>"] };
 		{ GREN.." 2') "..AL["Alexston Chrome <Tavern of Time>"] };
 		{ GREN.." 3') "..AL["Graveyard"] };
@@ -312,6 +316,7 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel= "67";
 		PlayerLimit = "5/25";
+		Acronym = AL["TK"];
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["The Mechanar"] };
 		{ BLUE.." B) "..BZ["The Botanica"] };
@@ -366,6 +371,7 @@ Syntax:
 		LevelRange = "75-83";
 		MinLevel = "72";
 		PlayerLimit = "5/10/25";
+		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Stone"] };
 		{ BLUE.." B) "..BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Lightning"] };
@@ -630,15 +636,17 @@ Syntax:
 		{ WHIT.." 7) "..Atlas_GetBossName("The Twin Emperors") };
 		{ WHIT..INDENT..Atlas_GetBossName("Emperor Vek'lor") };
 		{ WHIT..INDENT..Atlas_GetBossName("Emperor Vek'nilash") };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("Ouro").." ("..AL["Optional"]..")" };
 		{ WHIT.." 9) "..Atlas_GetBossName("Eye of C'Thun") };
 		{ WHIT..INDENT..Atlas_GetBossName("C'Thun") };
-		{ GREN.." 1') "..AL["Andorgos <Brood of Malygos>"] };
+		{ GREN.." 1') "..AL["Andorgos <Brood of Malygos>"].." ("..AL["Teleporter"]..")" };
 		{ GREN..INDENT..AL["Vethsera <Brood of Ysera>"] };
 		{ GREN..INDENT..AL["Kandrostrasz <Brood of Alexstrasza>"] };
 		{ GREN.." 2') "..AL["Arygos"] };
 		{ GREN..INDENT..AL["Caelestrasz"] };
 		{ GREN..INDENT..AL["Merithra of the Dream"] };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 	};
 	WailingCaverns = {
 		ZoneName = { BZ["Wailing Caverns"] };
@@ -2401,6 +2409,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Argaloth", 139) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Occu'thar", 140) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Alizabal, Mistress of Hate", 339) };
 	};
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Caverns"] };
@@ -2436,6 +2445,94 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Atramedes", 171) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Nefarian's End", 174) };
 	};
+	CoTDragonSoulA = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [A]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Morchok", 311) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Ultraxion", 331) };
+	},
+	CoTDragonSoulB = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [B]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+		{ WHIT.." 2) "..Atlas_GetBossName("Warlord Zon'ozz", 324) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Yor'sahj the Unsleeping", 325) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Hagara the Stormbinder", 317) };
+	},
+	CoTDragonSoulC = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [C]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+		{ WHIT.." 6) "..Atlas_GetBossName("Warmaster Blackhorn", 332) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Spine of Deathwing", 318) };
+	},
+	CoTDragonSoulD = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [D]" };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85+";
+		MinLevel = "85";
+		PlayerLimit = "10/25";
+		Acronym = AL["CoT-DS"];
+		JournalInstanceID = "187";
+		{ WHIT.." 8) "..Atlas_GetBossName("Madness of Deathwing", 333) };
+	},
+	CoTEndTime = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["End Time"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85".." "..AL["Heroic"];
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT-ET"];
+		JournalInstanceID = "184";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE..INDENT..AL["Portal"] };
+		{ BLUE.." B-F) "..AL["Portal"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Echo of Baine", 340).." ("..AL["Random"]..")" };
+		{ WHIT.." 2) "..Atlas_GetBossName("Echo of Jaina", 285).." ("..AL["Random"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Echo of Sylvanas", 323).." ("..AL["Random"]..")" };
+		{ WHIT.." 4) "..Atlas_GetBossName("Echo of Tyrande", 283).." ("..AL["Random"]..")" };
+		{ WHIT.." 5) "..Atlas_GetBossName("Murozond", 289) };
+	};
+	CoTHourOfTwilight = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hour of Twilight"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85".." "..AL["Heroic"];
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT-HoT"];
+		JournalInstanceID = "186";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Arcurion", 322) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Asira Dawnslayer", 342) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Archbishop Benedictus", 341) };
+	};
+	CoTWellOfEternity = {
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Well of Eternity"] };
+		Location = { BZ["Tanaris"] };
+		LevelRange = "85".." "..AL["Heroic"];
+		MinLevel = "85";
+		PlayerLimit = "5";
+		Acronym = AL["CoT-WoE"];
+		JournalInstanceID = "185";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Peroth'arn", 290) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Queen Azshara", 291) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Mannoroth and Varo'then", 292) };
+	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
@@ -2448,7 +2545,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
 		{ GREN..INDENT..AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] };
-		{ BLUE.." B) "..AL["Connection"] };
+		{ BLUE.." B) "..AL["Connection"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Beth'tilac", 192) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lord Rhyolith", 193) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Alysrazor", 194) };
@@ -2456,6 +2553,7 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Baleroc, the Gatekeeper", 196) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Majordomo Staghelm", 197) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Ragnaros", 198) };
+		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
@@ -2523,9 +2621,12 @@ Syntax:
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Halfus Wyrmbreaker", 156) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Theralion and Valiona", 157) };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ascendant Council", 158) };
+		{ GREN..INDENT..AL["Teleporter destination"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Cho'gall", 167) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Sinestra", 168).." ("..AL["Heroic"]..")" };
+		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
@@ -2570,9 +2671,9 @@ Syntax:
 		JournalInstanceID = "74";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Conclave of Wind", 154) };
-		{ WHIT..INDENT..Atlas_GetBossName("Anshal") };
-		{ WHIT..INDENT..Atlas_GetBossName("Nezir") };
-		{ WHIT..INDENT..Atlas_GetBossName("Rohash") };
+		{ WHIT..INDENT..Atlas_GetBossName("Anshal").." ("..AL["West"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Nezir").." ("..AL["North"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Rohash").." ("..AL["East"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Al'Akir", 155) };
 	};
 	ThroneOfTheTides = {

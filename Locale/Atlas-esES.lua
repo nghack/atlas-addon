@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 01/08/2011
+-- Última Actualización (last update): 15/10/2011
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -85,6 +85,7 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Mostrar acrónimos";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Muestra el acrónimo de la mazmorra en los detalles del mapa.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Escala";
+	--AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Radio del botón";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Ajustar ventana a la pantalla";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Fija la ventana de Atlas. Desactiva el poder mover la ventana de Atlas fuera de la pantalla del juego.";
@@ -153,6 +154,7 @@ if AL then
 	AL["Love is in the Air"] = "Amor en el aire";
 	AL["Lunar Festival"] = "Festival lunar";
 	AL["Midsummer Festival"] = "Festival del solsticio de verano";
+
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Adulto";
@@ -163,13 +165,11 @@ if AL then
 	AL["Back"] = "Atras";
 	AL["Basement"] = "Sótano";
 	AL["Blacksmithing Plans"] = "Planos de herrero";
-	AL["Boss"] = "Jefe";
 	AL["Chase Begins"] = "Comienza persecución";
 	AL["Chase Ends"] = "Final persecución";
 	AL["Child"] = "Niño";
 	AL["Click to open Dungeon Journal window."] = "Click para abrir la ventana de la Guía de mazmorras.";
 	AL["Connection"] = "Conexión";
-	AL["DS2"] = "DS2";
 	AL["Elevator"] = "Ascensor";
 	AL["End"] = "Fin";
 	AL["Engineer"] = "Ingeniero";	
@@ -186,7 +186,6 @@ if AL then
 	AL["Holy Priest"] = "Sacerdote Sagrado";
 	AL["Hunter"] = "Cazador";
 	AL["Imp"] = "Duendecillo";
-	AL["Inside"] = "Dentro";
 	AL["Key"] = "Llave";
 	AL["Lower"] = "Abajo";
 	AL["Mage"] = "Mago";
@@ -212,7 +211,6 @@ if AL then
 	AL["Second Stop"] = "Segunda parada";
 	AL["Shadow Priest"] = "Sacerdote Sombras";
 	AL["Shaman"] = "Chamán";
-	AL["Side"] = "Lado";
 	AL["Spawn Point"] = "Punto de aparición";
 	AL["Start"] = "Comienzo";
 	AL["Summon"] = "Invocar";
@@ -221,7 +219,6 @@ if AL then
 	AL["Tiger"] = "Tigre";
 	AL["Top"] = "Arriba";
 	AL["Underwater"] = "Bajo el agua";
-	AL["Unknown"] = "Desconocido";
 	AL["Upper"] = "Arriba";
 	AL["Varies"] = "Varios";
 	AL["Wanders"] = "Rondando";
@@ -334,6 +331,10 @@ if AL then
 	AL["BoT"] = "BoT"; --Bastion of Twilight
 	AL["BRC"] = "BRC"; --Blackrock Caverns
 	AL["BWD"] = "BWD"; --Blackwing Descent
+	AL["CoT-DS"] = "CdT-AD"; --Caverns of Time: Dragon Soul
+	AL["CoT-ET"] = "CdT-FD"; --Caverns of Time: End Time
+	AL["CoT-HoT"] = "CdT-HC"; --Caverns of Time: Hour of Twilight
+	AL["CoT-WoE"] = "CdT-PdT"; --Caverns of Time: Well of Eternity
 	AL["FL"] = "FL"; --Firelands
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
@@ -525,7 +526,7 @@ if AL then
 	AL["Ebru <Disciple of Naralex>"] = "Ebru <Discípula de Naralex>"; -- 5768
 	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Discípulo de Naralex>"; -- 5767
 	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Discípulo de Naralex>";  -- 3678
-	AL["Disciple of Naralex"] = "Discípulo de Naralex";
+	AL["Naralex"] = "Naralex";
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Ingeniero jefe Pasaquillas <Compañía de aguas de Gadgetzan>";
@@ -911,7 +912,7 @@ if AL then
 	--Drak'Tharon Keep
 	AL["Kurzel"] = "Kurzel";
 	AL["Elder Kilias"] = "Ancestro Kilias";
-	AL["Drakuru's Brazier"] = "Pedestal de Drakuru";
+	AL["Drakuru's Brazier"] = "El blandón de Drakuru"; --Check
 
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
@@ -1031,6 +1032,14 @@ if AL then
 	--Blackrock Caverns
 
 	--Blackwing Descent
+
+	--Caverns of Time: Dragon Soul
+
+	--Caverns of Time: End Time
+
+	--Caverns of Time: Hour of Twilight
+
+	--Caverns of Time: Well of Eternity
 
 	--Firelands
 	AL["Lurah Wrathvine <Crystallized Firestone Collector>"] = "Lurah Vid de la Ira <Coleccionista de piedras de fuego cristalizadas>"; -- 54402

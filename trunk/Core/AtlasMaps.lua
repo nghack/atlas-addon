@@ -2477,8 +2477,8 @@ Syntax:
 		PlayerLimit = "10/25";
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
-		{ WHIT..INDENT..Atlas_GetBossName("Warmaster Blackhorn", 332) };
-		{ WHIT..INDENT..Atlas_GetBossName("Spine of Deathwing", 318) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Warmaster Blackhorn", 332) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Spine of Deathwing", 318) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Madness of Deathwing", 333) };
 	},
 	CoTEndTime = {

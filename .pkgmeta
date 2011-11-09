@@ -19,13 +19,11 @@ externals:
 ignore:
     - Libs/LibAboutPanel
     - Libs/LibDataBroker-1.1
-
-move-folders:
-    Atlas/Plugins/Atlas_Battlegrounds:      Atlas_Battlegrounds
-    Atlas/Plugins/Atlas_DungeonLocs:        Atlas_DungeonLocs
-    Atlas/Plugins/Atlas_OutdoorRaids:       Atlas_OutdoorRaids
-    Atlas/Plugins/Atlas_Transportation:     Atlas_Transportation
-    Atlas/Modules/Atlas_BurningCrusade:     Atlas_BurningCrusade
-    Atlas/Modules/Atlas_ClassicWoW:         Atlas_ClassicWoW
-    Atlas/Modules/Atlas_WrathoftheLichKing: Atlas_WrathoftheLichKing
+    - Plugins/Atlas_Battlegrounds
+    - Plugins/Atlas_DungeonLocs
+    - Plugins/Atlas_OutdoorRaids
+    - Plugins/Atlas_Transportation
+    - Modules/Atlas_BurningCrusade
+    - Modules/Atlas_ClassicWoW
+    - Modules/Atlas_WrathoftheLichKing
 

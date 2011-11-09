@@ -31,6 +31,7 @@
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
+-- Turn ON / OFF Atlas debug mode
 local Atlas_DebugMode = false;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
@@ -50,6 +51,10 @@ ATLAS_SEARCH_METHOD = nil;
 ATLAS_PLUGINS = {};
 ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
+local AtlasMap_NPC_Text_Frame_Num = 0;
+-- To temporary disable the NPC Text feature until the function is ready
+Atlas_NPC_Text = false;
+
 -- Only update this version number when the options have been revised and a force update is needed.
 ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
 
@@ -324,6 +329,7 @@ function Atlas_Init()
 	end
 	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
 	--can be removed after 1.21.0 release
+	
 	if (AtlasOptions["AtlasBossDescScale"] == nil) then
 		AtlasOptions["AtlasBossDescScale"] = 0.9;
 	end
@@ -424,20 +430,64 @@ function Atlas_Toggle()
 	end
 end
 
+-- Adopted some of the codes from AlasMajorCitiesEnhanced
+function Atlas_Clean_NPC_TextFrame()
+	-- Clean up NPC text frames
+	local i;
+	if (AtlasMap_NPC_Text_Frame_Num == 0) then 
+	debug("AtlasMap_NPC_Text_Frame_Num == 0");
+		return; 
+	end
+	if (AtlasMap_NPC_Text_Frame_Num > 0) then
+		debug("AtlasMap_NPC_Text_Frame_Num: "..AtlasMap_NPC_Text_Frame_Num);
+		for i = 1, AtlasMap_NPC_Text_Frame_Num do
+			--local AtlasMap_NPC_Text_Frame = _G["AtlasMapNPCTextFrame"..i];
+			if (_G["AtlasMapNPCTextFrame"..i]) then
+				debug("Clear frame AtlasMapNPCTextFrame"..i);
+				_G["AtlasMapNPCTextFrame"..i]:ClearAllPoints();
+			end
+			--local AtlasMap_NPC_Text = _G["AtlasMapNPCText"..i];
+			if (_G["AtlasMapNPCText"..i]) then
+				debug("Reset NPC text AtlasMapNPCText"..i);
+				_G["AtlasMapNPCText"..i]:SetText("");
+			end
+		end
+		AtlasMap_NPC_Text_Frame_Num = 0;
+	end
+end
+
+
+function AtlasMaps_NPC_Text_OnUpdate(self)
+	if ( not GameTooltip:IsShown() ) then
+		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
+		if ( ejbossname ) then
+			if ( (IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown()) ) then
+				-- do nothing
+			else
+				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+				GameTooltip:SetBackdropColor(0,0,0,1);
+				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
+				GameTooltip:AddLine(description, nil, nil, nil, 1);
+				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"]);
+				GameTooltip:Show();
+			end
+		end
+	else
+		GameTooltip:Hide();
+	end
+end
+
+
 function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
-	if (not AtlasMap_Text) then
-		AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
-	end
 
 	AtlasMap:ClearAllPoints();
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
 
-	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
 	-- searching for the map path from Atlas or from plugins
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
@@ -464,6 +514,12 @@ function Atlas_MapRefresh()
 		end
 	end
 
+	local AtlasMap_Text = _G["AtlasMap_Text"];
+	if (not AtlasMap_Text) then
+		AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
+	end
+	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
+	-- Check if the map image is available, if not replace with black and Map Not Found text
 	if ( AtlasMap:GetTexture() == nil) then
 		AtlasMap:SetTexture(0, 0, 0);
 		AtlasMap_Text:SetText(AL["MapsNotFound"]);
@@ -473,40 +529,37 @@ function Atlas_MapRefresh()
 	else 
 		AtlasMap_Text:SetText("");
 	end
-	local npc_table = AtlasMaps_NPC_DB[zoneID];
-	local i = 1;
-	if ( npc_table ~= nil ) then
-		while ( npc_table[i] ~= nil ) do
-			local AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMap_NPC_Text_Frame_"..i, AtlasFrame);
-			AtlasMap_NPC_Text_Frame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 20 + npc_table[i][3], -80 - npc_table[i][4]);
-			AtlasMap_NPC_Text_Frame:SetWidth(15);
-			AtlasMap_NPC_Text_Frame:SetHeight(15);
-			AtlasMap_NPC_Text_Frame:SetID(npc_table[i][2]);
-			AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate)
-			AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide)
-			i = i + 1;
-		end
-	end
-end
-function AtlasMaps_NPC_Text_OnUpdate(self)
-	if ( not GameTooltip:IsShown() ) then
-		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
-		if ( ejbossname ) then
-			if ( (IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown()) ) then
-				-- do nothing
-			else
-				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
-				GameTooltip:SetBackdropColor(0,0,0,1);
-				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
-				GameTooltip:AddLine(description, nil, nil, nil, 1);
-				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"]);
-				GameTooltip:Show();
+
+	-- To temporary disable the NPC Text feature until it is ready
+	if (Atlas_NPC_Text) then
+		Atlas_Clean_NPC_TextFrame();
+
+		local npc_table = AtlasMaps_NPC_DB[zoneID];
+		if ( npc_table ~= nil ) then
+			AtlasMap_NPC_Text_Frame_Num = 1;
+			while ( npc_table[AtlasMap_NPC_Text_Frame_Num] ~= nil ) do
+				debug("Creating frame: AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num);
+				local AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num, AtlasFrame);
+--				AtlasMap_NPC_Text_Frame:ClearAllPoints();
+--				AtlasMap_NPC_Text_Frame:SetParent(AtlasFrame);
+				AtlasMap_NPC_Text_Frame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 20 + npc_table[AtlasMap_NPC_Text_Frame_Num][3], -80 - npc_table[AtlasMap_NPC_Text_Frame_Num][4]);
+				AtlasMap_NPC_Text_Frame:SetWidth(15);
+				AtlasMap_NPC_Text_Frame:SetHeight(15);
+				AtlasMap_NPC_Text_Frame:SetID(npc_table[AtlasMap_NPC_Text_Frame_Num][2]);
+				AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate)
+				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide)
+				local AtlasMap_NPC_Text = AtlasMap_NPC_Text_Frame:CreateFontString("AtlasMapNPCText"..AtlasMap_NPC_Text_Frame_Num, "MEDIUM", "GameFontHighlightLarge");
+				AtlasMap_NPC_Text:SetPoint("CENTER", AtlasMap_NPC_Text_Frame, "CENTER", 0, 0);
+				AtlasMap_NPC_Text:SetText(npc_table[AtlasMap_NPC_Text_Frame_Num][1]);
+
+				AtlasMap_NPC_Text_Frame_Num = AtlasMap_NPC_Text_Frame_Num + 1;
+			
 			end
+			AtlasMap_NPC_Text_Frame_Num = AtlasMap_NPC_Text_Frame_Num - 1;
 		end
-	else
-		GameTooltip:Hide();
 	end
 end
+
 
 --Refreshes the Atlas frame, usually because a new map needs to be displayed
 --The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"

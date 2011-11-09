@@ -136,6 +136,9 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);
 	AtlasOptionsFrameSliderScale:SetValue(AtlasOptions.AtlasScale);
 	AtlasOptionsFrameSliderBossDescScale:SetValue(AtlasOptions.AtlasBossDescScale);
+	if (not Atlas_NPC_Text) then
+		AtlasOptionsFrameSliderBossDescScale:Hide();
+	end
 	AtlasOptionsFrameDropDownCats_OnShow();
 end
 

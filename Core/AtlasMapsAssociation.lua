@@ -167,9 +167,6 @@ Atlas_SubZoneData = {
 			BZ["Above the Frozen Sea"],
 			BZ["The Skyfire"],
 			BZ["Deathwing"],
-		},
-		--Dragon Soul D
-		["CoTDragonSoulD"] = {
 			BZ["The Maelstrom"],
 		},
 	},
@@ -410,7 +407,7 @@ Atlas_EntToInstMatches = {
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
 	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore","BlackrockCaverns","BlackwingDescent"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
-	["CavernsOfTimeEnt"] =			{"CoTBlackMorass","CoTDragonSoulA","CoTDragonSoulB","CoTDragonSoulC","CoTDragonSoulD","CoTEndTime","CoTHyjal","CoTHyjalEnt","CoTHourOfTwilight","CoTOldHillsbrad","CoTOldStratholme","CoTWellOfEternity"};
+	["CavernsOfTimeEnt"] =			{"CoTBlackMorass","CoTDragonSoulA","CoTDragonSoulB","CoTDragonSoulC","CoTEndTime","CoTHyjal","CoTHyjalEnt","CoTHourOfTwilight","CoTOldHillsbrad","CoTOldStratholme","CoTWellOfEternity"};
 	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["GnomereganEnt"] =			{"Gnomeregan"};
 	["HellfireCitadelEnt"] = 		{"HCBloodFurnace", "HCHellfireRamparts", "HCMagtheridonsLair", "HCTheShatteredHalls"};
@@ -448,7 +445,6 @@ Atlas_InstToEntMatches = {
 	["CoTDragonSoulA"] =			{"CavernsOfTimeEnt"};
 	["CoTDragonSoulB"] =			{"CavernsOfTimeEnt"};
 	["CoTDragonSoulC"] =			{"CavernsOfTimeEnt"};
-	["CoTDragonSoulD"] =			{"CavernsOfTimeEnt"};
 	["CoTEndTime"] =			{"CavernsOfTimeEnt"};
 	["CoTHyjal"] =				{"CavernsOfTimeEnt"};
 	["CoTHyjalEnt"] =			{"CavernsOfTimeEnt"};
@@ -525,4 +521,7 @@ Atlas_SubZoneAssoc = {
 	["IcecrownCitadelB"] =			BZ["Icecrown Citadel"];
 	["IcecrownCitadelC"] =			BZ["Icecrown Citadel"];
 	["IcecrownEnt"] =			BZ["Icecrown Citadel"];
+	["CoTDragonSoulA"] =			BZ["Dragon Soul"];
+	["CoTDragonSoulB"] =			BZ["Dragon Soul"];
+	["CoTDragonSoulC"] =			BZ["Dragon Soul"];
 };

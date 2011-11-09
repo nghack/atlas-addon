@@ -431,6 +431,7 @@ if AL then
 	--Sunken Temple (Entrance)
 	AL["Priestess Udum'bra"] = "Жрица Удум'бра";
 	AL["Gomora the Bloodletter"] = "Гомора Кровопускатель";
+	AL["Captain Wyrmak"] = "Капитан Змеюк";
 
 	--Uldaman (Entrance)
 

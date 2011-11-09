@@ -353,6 +353,7 @@ Syntax:
 		{ WHIT.." 1) "..AL["Priestess Udum'bra"] };
 		{ WHIT.." 2) "..AL["Gomora the Bloodletter"] };
 		{ WHIT.." 3) "..Atlas_GetBossName("Jammal'an the Prophet") };
+		{ ORNG.." 1) "..AL["Captain Wyrmak"].." ("..AL["Rare"]..")" };
 	};
 	UldamanEnt = {
 		ZoneName = { BZ["Uldaman"].." ("..AL["Entrance"]..")" };
@@ -1154,9 +1155,11 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Avatar of Hakkar") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Jammal'an the Prophet") };
 		{ WHIT..INDENT..Atlas_GetBossName("Ogom the Wretched") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Hazzas").." ("..AL["Wanders"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Dreamscythe").." ("..AL["Wanders"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Weaver").." ("..AL["Wanders"]..")" };
+		{ WHIT.." 4) "..Atlas_GetBossName("Hazzas").." ("..AL["Wanders"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Morphaz").." ("..AL["Wanders"]..")" };
-		{ WHIT.." 4) "..Atlas_GetBossName("Shade of Eranikus") };
+		{ WHIT.." 5) "..Atlas_GetBossName("Shade of Eranikus") };
 		{ GREN.." 1') "..AL["Lord Itharius"] };
 		{ GREN.." 2') "..AL["Elder Starsong"].." ("..AL["Lunar Festival"]..")" };
 	};

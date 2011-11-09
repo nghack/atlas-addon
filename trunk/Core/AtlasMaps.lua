@@ -2456,7 +2456,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Morchok", 311) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Ultraxion", 331) };
-	},
+	};
 	CoTDragonSoulB = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [B]" };
 		Location = { BZ["Tanaris"] };
@@ -2468,7 +2468,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Warlord Zon'ozz", 324) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Yor'sahj the Unsleeping", 325) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Hagara the Stormbinder", 317) };
-	},
+	};
 	CoTDragonSoulC = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [C]" };
 		Location = { BZ["Tanaris"] };
@@ -2480,7 +2480,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Warmaster Blackhorn", 332) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Spine of Deathwing", 318) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Madness of Deathwing", 333) };
-	},
+	};
 	CoTEndTime = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["End Time"] };
 		Location = { BZ["Tanaris"] };

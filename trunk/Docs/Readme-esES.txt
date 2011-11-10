@@ -1,7 +1,7 @@
-﻿Atlas, a World of Warcraft instance map browser
+﻿Atlas, un navegador de mapas de mazmorras para World of Warcraft
 Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
-Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+Copyright 2010 - Lothaer <lothayer@gmail.com>, equipo de Atlas
+Copyright 2011 - Arith Hsu, equipo de Atlas <atlas.addon@gmail.com>
 
 
 ===================
@@ -26,7 +26,7 @@ salidas, portales y conexiones se encuentran etiquetadas claramente. Como existe
 mazmorras en el juego, estas se pueden catalogar por su tipo, nivel, número de jugadores, 
 continente o expansión.
 
-Dejando a un lado las mazmorras, Atlas viene con un puñazo de componentes opcionales 
+Dejando a un lado las mazmorras, Atlas viene con un puñado de componentes opcionales 
 que añaden mas información con otros mapas. Estos incluyen mapas donde se producen 
 encuentros fuera de mazmorras, mapas con los transportes globales, mapas con la situación
 de cada mazmorra y mapas de los campos de batalla. Cada componente es opcional y se puede
@@ -53,23 +53,24 @@ http://www.atlasmod.com/phpBB3/
 ============
 
 Puedes contactar con el propietario del proyecto en la siguiente dirección:
-Arith Hsu
+atlas.addon@gmail.com
 O visitar nuestro foro y dejar un mensaje.
 
 
-===========
-= License =
-===========
+============
+= Licencia =
+============
 
-Atlas is released under the GNU General Public License (GPL).
-For the full license text please see: gpl-v2-enUS.txt
+Atlas está publicado bajo GNU General Public License (GPL).
+Puedes encontrar el texto completo de la licencia en: gpl-v2-esES.txt
 
-We also included several languages' translation of GNU GPL license document in 
-our addon, so that you will be easier to understand it in your preferred 
-language. 
-You can use this addon without any charge. If you would like to make some 
-donation, you are welcome to do so.
-You can also distribute this addon but only with no charge to your users. 
-If you are going to include part of the codes, graphics, or any file(s) from 
-this addon in your own product(s), please write us an email to inform us, and 
-please also to include our team members¡¦ name as part of your product credits.
+También incluimos varias traducciones a diferentes idiomas del documento 
+de la licenia GNU GPL en nuestro accesorio para que te sea mas sencillo entenderlo en 
+tu idioma preferido.
+Puedes utilizar este accesorio totalmente gratis. Si quieres puedes hacer una 
+donación, eres bienvenido a hacerlo.
+Puedes distribuir este accesorio sólamente si no cobras a tus usuarios.
+Si vas a incluir parte del código, gráficos, o cualquier fichero de este accesorio 
+en tu propio producto(s), por favor escribenos un correo para informarnos, y por 
+favor también incluye los nombres de nuestros miembros del equipo en los créditos del
+producto.

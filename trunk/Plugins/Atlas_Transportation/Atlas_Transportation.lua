@@ -209,7 +209,7 @@ local myData = {
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
 		{ PURP.." B') "..BZ["Molten Front"] };
 		{ PURP.." C') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." C') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." D') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
 		{ WHIT.." 2) "..BZ["Temple of the Moon"]..", "..BZ["Darnassus"]..", "..BZ["Teldrassil"] };
 		{ WHIT.." 3) "..BZ["Rut'theran Village"]..", "..BZ["Teldrassil"] };
 		{ WHIT.." 5) "..BZ["The Vault of Lights"]..", "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"] };

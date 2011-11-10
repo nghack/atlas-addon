@@ -11,7 +11,9 @@ v1.21.0 (XXX. XX, 2011)
 - Splitted from core Atlas addon to be a separated plugin addon
 - Transportation maps updated:
     - Northrend - Alliance: Added portal from Dalaran to Stormwind City
-    = Northrend - Horde: Added portal from Dalaran to Ogrimmar
+    - Northrend - Horde: Added portal from Dalaran to Ogrimmar
+    - Kalimdor - Alliance: Fixed the portal mark from Darnassus / Exodar to
+      the Dark Portal
 
 v1.20.1 (Sep. 09, 2011)
 

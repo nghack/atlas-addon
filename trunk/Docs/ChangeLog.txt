@@ -12,17 +12,18 @@ v1.21.0 (XXX. XX, 2011)
 - Splitted dungeon maps into separated modules based on the expansion sets;
   note that if you would like to have all the dungeon maps to be displayed 
   in Atlas, you have to download all the modules.
+- New maps added:
+    - The Dragon Soul (dubca7, Dynaletik)
+    - Well of Eternity (dubca7, Dynaletik)
+    - Hour of Twilight (dubca7, Dynaletik)
+    - End Time (dubca7, Dynaletik)
 - Maps updated: 
     - Firelands (dubca7)
     - Baradin Hold (dubca7)
     - Caverns of Time Dungeon Entrance (dubca7)
     - Throne ff the Four Winds (dubca7)
     - The Bastion Of Twilight (dubca7)
-- New maps added:
-    - The Dragon Soul (dubca7)
-    - Well of Eternity (dubca7)
-    - Hour of Twilight (dubca7)
-    - End Time (dubca7)
+    - The Sunken Temple Instance / Entrance (dubca7, Dynaletik, Celellach)
 - Translation updated
     - German (Dynaletik)
     - Russian (StingerSoft)

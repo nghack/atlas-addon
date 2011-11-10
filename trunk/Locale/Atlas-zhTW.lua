@@ -149,6 +149,7 @@ if AL then
 	AL["Love is in the Air"] = "愛就在身邊";
 	AL["Lunar Festival"] = "新年慶典";
 	AL["Midsummer Festival"] = "仲夏節慶";
+
 	--Misc strings
 	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
@@ -426,6 +427,7 @@ if AL then
 	--Sunken Temple (Entrance)
 	AL["Priestess Udum'bra"] = "女祭師烏丹姆布拉";
 	AL["Gomora the Bloodletter"] = "『放血者』高摩拉";
+	AL["Captain Wyrmak"] = "維爾瑪克隊長";
 
 	--Uldaman (Entrance)
 

@@ -679,6 +679,7 @@ local myData = {
 		{ PURP.." D) "..BZ["Garm's Rise"]..", "..BZ["The Storm Peaks"] };
 		{ PURP.." A') "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
+		{ PURP.." C') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ WHIT.."25) "..BZ["Dalaran"]..", "..BZ["Crystalsong Forest"] };
 		{ WHIT.."27) "..BZ["K3"]..", "..BZ["The Storm Peaks"] };
 		{ "" };
@@ -765,6 +766,7 @@ local myData = {
 		{ PURP.." D) "..BZ["Garm's Rise"]..", "..BZ["The Storm Peaks"] };
 		{ PURP.." A') "..BZ["Shaper's Terrace"]..", "..BZ["Un'Goro Crater"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
+		{ PURP.." C') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ WHIT.."27) "..BZ["Dalaran"]..", "..BZ["Crystalsong Forest"] };
 		{ WHIT.."28) "..BZ["K3"]..", "..BZ["The Storm Peaks"] };
 		{ "" };

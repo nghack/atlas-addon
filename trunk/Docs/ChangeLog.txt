@@ -12,6 +12,7 @@ v1.21.0 (XXX. XX, 2011)
 - Splitted dungeon maps into separated modules based on the expansion sets;
   note that if you would like to have all the dungeon maps to be displayed 
   in Atlas, you have to download all the modules.
+- Fixed Frozen Halls dungeons missing in level categorizing method (Celellach)
 - New maps added:
     - The Dragon Soul (dubca7, Dynaletik)
     - Well of Eternity (dubca7, Dynaletik)

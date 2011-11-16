@@ -25,7 +25,7 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local AL = AceLocale:NewLocale("Atlas", "enUS", true);
+local AL = AceLocale:NewLocale("Atlas", "enUS", true, true);
 -- Localize file must set above to false, for example:
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 

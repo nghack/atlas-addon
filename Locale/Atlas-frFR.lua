@@ -90,6 +90,8 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Afficher les acronymes VO/VF";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Afficher les acronymes de l'instance dans les détails de la carte";
 	AL["ATLAS_OPTIONS_SCALE"] = "Mise à l'échelle de la fenêtre Atlas";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "Afficher la description des boss, si disponible";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "Afficher la description d'un boss au passage de la souris sur son numéro, si disponible.";
 	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Mise à l'échelle de l'info-bulles pour les descriptions de boss sur la carte";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Rayon du bouton";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fixer la fenêtre à l'écran";

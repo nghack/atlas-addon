@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 15.10.2011
+-- Letztes Update: 21.11.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -89,7 +89,9 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Abkürzungen anzeigen";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Zeigt die Instanz-Abkürzungen in den Kartendetails an.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Skalierung des Atlas Fensters";
-	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Skalierung des ToolTips für die Bossbeschreibungen auf der Karte";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "Bossbeschreibungen anzeigen, wenn verfügbar";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "Beim Überfahren der Bossnummer mit dem Mauszeiger wird, wenn verfügbar, eine Bossbeschreibung angezeigt.";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Skalierung der Bossbeschreibungen auf der Karte";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Schalterradius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Fenster im Bildschirm festhalten";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Atlasfenster im Bildschirm festhalten. Deaktivieren, um das Atlasfenster über den Spielfensterrand hinaus bewegen zu können.";

@@ -2770,10 +2770,10 @@ Syntax:
 		{ WHIT.."11) "..AL["Witch Doctor Qu'in <Medicine Woman>"] };
 		{ GREN.." 5') "..AL["Zanza the Restless"] };
 		{ WHIT.."12) "..BZ["The Cache of Madness"] };
-		{ WHIT..INDENT..Atlas_GetBossName("Gri'lek").." ("..AL["Random"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Hazza'rah").." ("..AL["Random"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Renataki").." ("..AL["Random"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Wushoolay").." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Gri'lek", 177).." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Hazza'rah", 178).." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Renataki", 179).." ("..AL["Random"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Wushoolay", 180).." ("..AL["Random"]..")" };
 		{ WHIT.."13) "..AL["Mortaxx <The Tolling Bell>"] };
 		{ WHIT.."14) "..AL["Tiki Lord Zim'wae"] };
 		{ GREN..INDENT..AL["Zanzil's Cauldron of Burning Blood"] };

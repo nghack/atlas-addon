@@ -82,6 +82,8 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Display Acronyms";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Display the instance's acronym in the map details.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Atlas Frame Scale";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "Show boss description when available.";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "When mouse hover the boss number, display the boss description when relative informaion is available.";
 	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Button Radius";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Clamp window to screen";

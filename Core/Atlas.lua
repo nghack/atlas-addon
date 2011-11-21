@@ -53,7 +53,7 @@ ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
 local AtlasMap_NPC_Text_Frame_Num = 0;
 -- To temporary disable the NPC Text feature until the function is ready
-Atlas_NPC_Text = false;
+--Atlas_NPC_Text = false;
 
 -- Only update this version number when the options have been revised and a force update is needed.
 ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
@@ -74,6 +74,7 @@ local DefaultAtlasOptions = {
 	["AtlasClamped"] = true;	-- clamp to WoW window
 	["AtlasSortBy"] = 1;		-- maps' sorting type, 1: CONTINENT; 2: LEVEL; 3: PARTYSIZE; 4: EXPANSION; 5: TYPE
 	["AtlasCtrl"] = false;		-- press ctrl and mouse over to show full description text
+	["AtlasBossDesc"] = true;	-- toggle to show boss description or not
 	["AtlasBossDescScale"] = 0.9;	-- the boss description GameToolTip scale
 };
 
@@ -333,6 +334,9 @@ function Atlas_Init()
 	if (AtlasOptions["AtlasBossDescScale"] == nil) then
 		AtlasOptions["AtlasBossDescScale"] = 0.9;
 	end
+	if (AtlasOptions["AtlasBossDesc"] == nil) then
+		AtlasOptions["AtlasBossDesc"] = true;
+	end
 	
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
@@ -431,32 +435,31 @@ function Atlas_Toggle()
 end
 
 -- Adopted some of the codes from AlasMajorCitiesEnhanced
+-- function to cleanup the text frame
 function Atlas_Clean_NPC_TextFrame()
 	-- Clean up NPC text frames
 	local i;
 	if (AtlasMap_NPC_Text_Frame_Num == 0) then 
-	debug("AtlasMap_NPC_Text_Frame_Num == 0");
 		return; 
 	end
 	if (AtlasMap_NPC_Text_Frame_Num > 0) then
-		debug("AtlasMap_NPC_Text_Frame_Num: "..AtlasMap_NPC_Text_Frame_Num);
 		for i = 1, AtlasMap_NPC_Text_Frame_Num do
-			--local AtlasMap_NPC_Text_Frame = _G["AtlasMapNPCTextFrame"..i];
-			if (_G["AtlasMapNPCTextFrame"..i]) then
-				debug("Clear frame AtlasMapNPCTextFrame"..i);
-				_G["AtlasMapNPCTextFrame"..i]:ClearAllPoints();
+			local AtlasMap_NPC_Text_Frame = _G["AtlasMapNPCTextFrame"..i];
+			if (AtlasMap_NPC_Text_Frame) then
+				AtlasMap_NPC_Text_Frame:Hide();
+				AtlasMap_NPC_Text_Frame:ClearAllPoints();
 			end
-			--local AtlasMap_NPC_Text = _G["AtlasMapNPCText"..i];
-			if (_G["AtlasMapNPCText"..i]) then
-				debug("Reset NPC text AtlasMapNPCText"..i);
-				_G["AtlasMapNPCText"..i]:SetText("");
+			local AtlasMap_NPC_Text = _G["AtlasMapNPCText"..i];
+			if (AtlasMap_NPC_Text) then
+				AtlasMap_NPC_Text:SetText("");
 			end
 		end
 		AtlasMap_NPC_Text_Frame_Num = 0;
 	end
 end
 
-
+-- function to handle the boss description to be added as GameToolTip
+-- description is adopted from Dungeon Journal
 function AtlasMaps_NPC_Text_OnUpdate(self)
 	if ( not GameTooltip:IsShown() ) then
 		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
@@ -465,10 +468,10 @@ function AtlasMaps_NPC_Text_OnUpdate(self)
 				-- do nothing
 			else
 				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
-				GameTooltip:SetBackdropColor(0,0,0,1);
+				GameTooltip:SetBackdropColor(0, 0, 0, 1 * AtlasOptions["AtlasAlpha"]);
 				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
 				GameTooltip:AddLine(description, nil, nil, nil, 1);
-				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"]);
+				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"] * AtlasOptions["AtlasScale"]);
 				GameTooltip:Show();
 			end
 		end
@@ -483,6 +486,10 @@ function Atlas_MapRefresh()
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	if (AtlasOptions["AtlasBossDesc"]) then
+		Atlas_Clean_NPC_TextFrame();
+	end
+	
 	AtlasMap:ClearAllPoints();
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
@@ -530,33 +537,38 @@ function Atlas_MapRefresh()
 		AtlasMap_Text:SetText("");
 	end
 
-	-- To temporary disable the NPC Text feature until it is ready
-	if (Atlas_NPC_Text) then
-		Atlas_Clean_NPC_TextFrame();
-
-		local npc_table = AtlasMaps_NPC_DB[zoneID];
-		if ( npc_table ~= nil ) then
+	-- The boss description to be added here
+	if (AtlasOptions["AtlasBossDesc"]) then
+		local NPC_Table = AtlasMaps_NPC_DB[zoneID];
+		if ( NPC_Table ~= nil and AtlasMap_NPC_Text_Frame_Num == 0) then
 			AtlasMap_NPC_Text_Frame_Num = 1;
-			while ( npc_table[AtlasMap_NPC_Text_Frame_Num] ~= nil ) do
-				debug("Creating frame: AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num);
-				local AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num, AtlasFrame);
---				AtlasMap_NPC_Text_Frame:ClearAllPoints();
---				AtlasMap_NPC_Text_Frame:SetParent(AtlasFrame);
-				AtlasMap_NPC_Text_Frame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 20 + npc_table[AtlasMap_NPC_Text_Frame_Num][3], -80 - npc_table[AtlasMap_NPC_Text_Frame_Num][4]);
+			while ( NPC_Table[AtlasMap_NPC_Text_Frame_Num] ~= nil ) do
+				local AtlasMap_NPC_Text_Frame = _G["AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num];
+				if (not AtlasMap_NPC_Text_Frame) then
+					AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num, AtlasFrame);
+				else
+					AtlasMap_NPC_Text_Frame:Show();
+				end
+				AtlasMap_NPC_Text_Frame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 20 + NPC_Table[AtlasMap_NPC_Text_Frame_Num][3], -80 - NPC_Table[AtlasMap_NPC_Text_Frame_Num][4]);
 				AtlasMap_NPC_Text_Frame:SetWidth(15);
 				AtlasMap_NPC_Text_Frame:SetHeight(15);
-				AtlasMap_NPC_Text_Frame:SetID(npc_table[AtlasMap_NPC_Text_Frame_Num][2]);
+				AtlasMap_NPC_Text_Frame:SetID(NPC_Table[AtlasMap_NPC_Text_Frame_Num][2]);
 				AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate)
 				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide)
+
 				local AtlasMap_NPC_Text = AtlasMap_NPC_Text_Frame:CreateFontString("AtlasMapNPCText"..AtlasMap_NPC_Text_Frame_Num, "MEDIUM", "GameFontHighlightLarge");
 				AtlasMap_NPC_Text:SetPoint("CENTER", AtlasMap_NPC_Text_Frame, "CENTER", 0, 0);
-				AtlasMap_NPC_Text:SetText(npc_table[AtlasMap_NPC_Text_Frame_Num][1]);
+				-- Disable the set text unless one day we want the text to be added dynamatically
+				-- Or, enable it for debugging purpose
+--				AtlasMap_NPC_Text:SetText(NPC_Table[AtlasMap_NPC_Text_Frame_Num][1]);
 
 				AtlasMap_NPC_Text_Frame_Num = AtlasMap_NPC_Text_Frame_Num + 1;
-			
 			end
+			-- We started the counting from 1, plus 1 in each loop, need to adjust by removing 1 after the loop is ended
 			AtlasMap_NPC_Text_Frame_Num = AtlasMap_NPC_Text_Frame_Num - 1;
 		end
+	else
+		Atlas_Clean_NPC_TextFrame();
 	end
 end
 

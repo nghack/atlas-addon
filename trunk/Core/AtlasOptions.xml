@@ -210,6 +210,30 @@
 					</OnLeave>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$ParentBossDesc" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-180"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_BOSS_DESC);
+					</OnLoad>
+					<OnClick>
+						AtlasOptions_ToggleBossDesc();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_BOSS_DESC_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
@@ -217,7 +241,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-215" />
+							<AbsDimension x="0" y="-235" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -239,7 +263,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-250" />
+							<AbsDimension x="0" y="-270" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -261,7 +285,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-285" />
+							<AbsDimension x="0" y="-305" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -283,7 +307,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-320" />
+							<AbsDimension x="0" y="-340" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -305,7 +329,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-355" />
+							<AbsDimension x="0" y="-375" />
 						</Offset>
 					</Anchor>
 				</Anchors>

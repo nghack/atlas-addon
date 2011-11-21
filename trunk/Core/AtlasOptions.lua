@@ -28,6 +28,17 @@
 -- Initiator and previous author: Dan Gilbert, Lothaer
 -- Maintainers: Arith, Dynaletik, Deadca7
 
+function AtlasOptions_ResetPosition()
+	AtlasFrame:ClearAllPoints();
+	AtlasFrame:SetPoint("TOPLEFT", 0, -104);
+	AtlasOptions.AtlasButtonPosition = 356;
+	AtlasOptions.AtlasButtonRadius = 78;
+	AtlasOptions.AtlasAlpha = 1.0;
+	AtlasOptions.AtlasScale = 1.0;
+	AtlasOptions_Init();
+end
+
+
 function AtlasOptions_Toggle()
 	if InterfaceOptionsFrame:IsVisible() then
 		InterfaceOptionsFrame:Hide();
@@ -35,6 +46,7 @@ function AtlasOptions_Toggle()
 		InterfaceOptionsFrame_OpenToCategory("Atlas");
 	end
 end
+
 
 function AtlasOptions_AutoSelectToggle()
 	if(AtlasOptions.AtlasAutoSelect) then
@@ -45,6 +57,7 @@ function AtlasOptions_AutoSelectToggle()
 	AtlasOptions_Init();
 end
 
+
 function AtlasOptions_RightClickToggle()
 	if(AtlasOptions.AtlasRightClick) then
 		AtlasOptions.AtlasRightClick = false;
@@ -53,6 +66,7 @@ function AtlasOptions_RightClickToggle()
 	end
 	AtlasOptions_Init();
 end
+
 
 function AtlasOptions_AcronymsToggle()
 	if(AtlasOptions.AtlasAcronyms) then
@@ -63,6 +77,7 @@ function AtlasOptions_AcronymsToggle()
 	AtlasOptions_Init();
 	Atlas_Refresh();
 end
+
 
 function AtlasOptions_ClampedToggle()
 	if(AtlasOptions.AtlasClamped) then
@@ -75,6 +90,7 @@ function AtlasOptions_ClampedToggle()
 	Atlas_Refresh();
 end
 
+
 function AtlasOptions_CtrlToggle()
 	if(AtlasOptions.AtlasCtrl) then
 		AtlasOptions.AtlasCtrl = false;
@@ -84,6 +100,7 @@ function AtlasOptions_CtrlToggle()
 	AtlasOptions_Init();
 	Atlas_Refresh();
 end
+
 
 function AtlasOptions_ToggleLock()
 	if(AtlasOptions.AtlasLocked) then
@@ -97,6 +114,18 @@ function AtlasOptions_ToggleLock()
 	Atlas_Refresh();
 end
 
+
+function AtlasOptions_ToggleBossDesc()
+	if(AtlasOptions.AtlasBossDesc) then
+		AtlasOptions.AtlasBossDesc = false;
+	else
+		AtlasOptions.AtlasBossDesc = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+
+
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
 	AtlasOptions.AtlasType = 1;
@@ -106,6 +135,7 @@ local function Reset_Dropdowns()
 	AtlasFrameDropDown_OnShow();
 end
 
+
 function AtlasOptions_Reset()
 	Atlas_FreshOptions();
 	AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
@@ -113,6 +143,7 @@ function AtlasOptions_Reset()
 	AtlasButton_Init();
 	Atlas_UpdateLock();
 end
+
 
 function AtlasOptions_OnLoad(panel)
 	panel.name = "Atlas";
@@ -123,6 +154,7 @@ function AtlasOptions_OnLoad(panel)
 	end
 end
 
+
 function AtlasOptions_Init()
 	AtlasOptionsFrameToggleButton:SetChecked(AtlasOptions.AtlasButtonShown);
 	AtlasOptionsFrameAutoSelect:SetChecked(AtlasOptions.AtlasAutoSelect);
@@ -131,26 +163,20 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameClamped:SetChecked(AtlasOptions.AtlasClamped);
 	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
 	AtlasOptionsFrameLock:SetChecked(AtlasOptions.AtlasLocked);
+	AtlasOptionsFrameBossDesc:SetChecked(AtlasOptions.AtlasBossDesc);
 	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);
 	AtlasOptionsFrameSliderScale:SetValue(AtlasOptions.AtlasScale);
 	AtlasOptionsFrameSliderBossDescScale:SetValue(AtlasOptions.AtlasBossDescScale);
-	if (not Atlas_NPC_Text) then
+	--[[
+	if (not AtlasOptions["AtlasBossDesc"]) then
 		AtlasOptionsFrameSliderBossDescScale:Hide();
 	end
+	]]
 	AtlasOptionsFrameDropDownCats_OnShow();
 end
 
-function AtlasOptions_ResetPosition()
-	AtlasFrame:ClearAllPoints();
-	AtlasFrame:SetPoint("TOPLEFT", 0, -104);
-	AtlasOptions.AtlasButtonPosition = 356;
-	AtlasOptions.AtlasButtonRadius = 78;
-	AtlasOptions.AtlasAlpha = 1.0;
-	AtlasOptions.AtlasScale = 1.0;
-	AtlasOptions_Init();
-end
 
 function AtlasOptions_SetupSlider(self, text, mymin, mymax, step)
 	self:SetMinMaxValues(mymin, mymax);
@@ -159,10 +185,12 @@ function AtlasOptions_SetupSlider(self, text, mymin, mymax, step)
 	self:SetValueStep(step);
 end
 
+
 local function round(num, idp)
    local mult = 10 ^ (idp or 0);
    return math.floor(num * mult + 0.5) / mult;
 end
+
 
 function AtlasOptions_UpdateSlider(self, text)
 	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(),2)..")");
@@ -189,6 +217,7 @@ function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, AtlasOptions.AtlasSortBy);
 	UIDropDownMenu_SetWidth(AtlasOptionsFrameDropDownCats, 100);
 end
+
 
 function AtlasOptionsFrameDropDownCats_OnClick(self)
 	local thisID = self:GetID();

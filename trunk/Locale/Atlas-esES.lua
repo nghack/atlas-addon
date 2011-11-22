@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 15/10/2011
+-- Última Actualización (last update): 22/11/2011
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -85,7 +85,9 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Mostrar acrónimos";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Muestra el acrónimo de la mazmorra en los detalles del mapa.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Escala";
-	--AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "Muestra la descripción del jefe cuando este disponible";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "Cuando pasas el ratón por encima del número del jefe, muestra la descripción del jefe si la información está disponible.";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Escala de las ventanitas con la descripción del jefe en el mapa";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Radio del botón";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Ajustar ventana a la pantalla";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Fija la ventana de Atlas. Desactiva el poder mover la ventana de Atlas fuera de la pantalla del juego.";

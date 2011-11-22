@@ -80,6 +80,8 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "顯示副本縮寫";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地圖的詳盡敘述中顯示副本的縮寫";
 	AL["ATLAS_OPTIONS_SCALE"] = "Atlas 視窗大小比率";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "當首領資訊可獲取時, 顯示該資訊";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "當滑鼠游標移動到地圖上首領的標號時, 並且首領資訊可獲取時, 顯示該首領的相關資訊.";
 	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "首領描述提示視窗大小";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "按鈕半徑範圍";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "使 Atlas 視窗不超出遊戲畫面";

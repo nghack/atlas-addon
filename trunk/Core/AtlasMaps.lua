@@ -56,6 +56,8 @@ Syntax:
 		PlayerLimit = "player limit";
 		Acronym = "acronym";
 		JournalInstanceID = "journal instance ID";
+		DungeonID = "LFGDungeon ID";
+		DungeonHeoricID = "LFGDungeon ID for Heroic mode";
 		{ "list entry 1" };
 		{ "list entry 2" };
 		{ "list entry 3" };
@@ -407,6 +409,7 @@ Syntax:
 		LevelRange = "22-25";
 		MinLevel = "15";
 		PlayerLimit = "5";
+		DungeonID = "10";
 		Acronym = AL["BFD"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -438,6 +441,7 @@ Syntax:
 		LevelRange = "44-47";
 		MinLevel = "31";
 		PlayerLimit = "5";
+		DungeonID = "34";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -462,6 +466,7 @@ Syntax:
 		LevelRange = "44-47";
 		MinLevel = "31";
 		PlayerLimit = "5";
+		DungeonID = "36";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -482,6 +487,7 @@ Syntax:
 		LevelRange = "44-47";
 		MinLevel = "31";
 		PlayerLimit = "5";
+		DungeonID = "38";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["J'eevee's Jar"].." ("..Atlas_GetBossName("Lord Hel'nurath")..")" };
@@ -511,8 +517,8 @@ Syntax:
 	Maraudon = {
 		ZoneName = { BZ["Maraudon"] };
 		Location = { BZ["Desolace"] };
-		LevelRange = "36-39";
-		MinLevel = "25";
+		LevelRange = "32-39";
+		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
 		Module = "Atlas_ClassicWoW";
@@ -536,6 +542,7 @@ Syntax:
 		LevelRange = "15-16";
 		MinLevel = "10";
 		PlayerLimit = "5";
+		DungeonID = "4";
 		Acronym = AL["RFC"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -552,6 +559,7 @@ Syntax:
 		LevelRange = "42-45";
 		MinLevel = "35";
 		PlayerLimit = "5";
+		DungeonID = "20";
 		Acronym = AL["RFD"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -571,6 +579,7 @@ Syntax:
 		LevelRange = "32-35";
 		MinLevel = "25";
 		PlayerLimit = "5";
+		DungeonID = "16";
 		Acronym = AL["RFK"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -592,7 +601,8 @@ Syntax:
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		LevelRange = "60-63";
 		MinLevel = "50";
-		PlayerLimit = "20";
+		PlayerLimit = "10";
+		DungeonID = "160";
 		Acronym = AL["AQ20"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Circle"] };
@@ -620,6 +630,7 @@ Syntax:
 		LevelRange = "60-63";
 		MinLevel = "50";
 		PlayerLimit = "40";
+		DungeonID = "161";
 		Acronym = AL["AQ40"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Brood of Nozdormu"] };
@@ -655,6 +666,7 @@ Syntax:
 		LevelRange = "17-20";
 		MinLevel = "10";
 		PlayerLimit = "5";
+		DungeonID = "1";
 		Acronym = AL["WC"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -678,6 +690,7 @@ Syntax:
 		LevelRange = "46-49";
 		MinLevel = "39";
 		PlayerLimit = "5";
+		DungeonID = "24";
 		Acronym = AL["ZF"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -712,8 +725,8 @@ Syntax:
 	BlackrockDepths = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Depths"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "53-56";
-		MinLevel = "42";
+		LevelRange = "49-56";
+		MinLevel = "47";
 		PlayerLimit = "5";
 		Acronym = AL["BRD"];
 		Module = "Atlas_ClassicWoW";
@@ -794,6 +807,7 @@ Syntax:
 		LevelRange = "55-58";
 		MinLevel = "48";
 		PlayerLimit = "5";
+		DungeonID = "32";
 		Acronym = AL["LBRS"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -826,6 +840,7 @@ Syntax:
 		LevelRange = "55-58";
 		MinLevel = "48";
 		PlayerLimit = "5";
+		DungeonID = "330";
 		Acronym = AL["UBRS"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -851,6 +866,7 @@ Syntax:
 		LevelRange = "60-63";
 		MinLevel = "55";
 		PlayerLimit = "40";
+		DungeonID = "50";
 		Acronym = AL["BWL"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
@@ -874,6 +890,7 @@ Syntax:
 		LevelRange = "26-29";
 		MinLevel = "19";
 		PlayerLimit = "5";
+		DungeonID = "9";
 		Acronym = AL["Gnome"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
@@ -901,6 +918,7 @@ Syntax:
 		LevelRange = "60-63";
 		MinLevel = "50";
 		PlayerLimit = "40";
+		DungeonID = "48";
 		Acronym = AL["MC"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
@@ -923,6 +941,7 @@ Syntax:
 		LevelRange = "40-43";
 		MinLevel = "33";
 		PlayerLimit = "5";
+		DungeonID = "2";
 		Acronym = AL["Scholo"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Blood of Innocents"].." ("..Atlas_GetBossName("Kirtonos the Herald")..")" };
@@ -960,9 +979,11 @@ Syntax:
 		LevelRange = "18-21 / 85";
 		MinLevel = "11";
 		PlayerLimit = "5";
+		DungeonID = "8";
+		DungeonHeroicID = "327";
 		Acronym = AL["SFK"];
 		JournalInstanceID = "64";
-		--Module = "Atlas_ClassicWoW";
+		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in Cataclysm
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Baron Ashbury", 96) };
@@ -989,6 +1010,7 @@ Syntax:
 		LevelRange = "31-34";
 		MinLevel = "21";
 		PlayerLimit = "5";
+		DungeonID = "163";
 		Acronym = AL["Armory"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1003,6 +1025,7 @@ Syntax:
 		LevelRange = "31-34";
 		MinLevel = "21";
 		PlayerLimit = "5";
+		DungeonID = "164";
 		Acronym = AL["Cath"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1019,6 +1042,7 @@ Syntax:
 		LevelRange = "31-34";
 		MinLevel = "21";
 		PlayerLimit = "5";
+		DungeonID = "18";
 		Acronym = AL["GY"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1036,6 +1060,7 @@ Syntax:
 		LevelRange = "31-34";
 		MinLevel = "21";
 		PlayerLimit = "5";
+		DungeonID = "165";
 		Acronym = AL["Lib"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1052,6 +1077,7 @@ Syntax:
 		LevelRange = "48-51";
 		MinLevel = "37";
 		PlayerLimit = "5";
+		DungeonID = "40";
 		Acronym = AL["Strat"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
@@ -1082,6 +1108,7 @@ Syntax:
 		LevelRange = "48-51";
 		MinLevel = "37";
 		PlayerLimit = "5";
+		DungeonID = "274";
 		Acronym = AL["Strat"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
@@ -1106,9 +1133,11 @@ Syntax:
 		LevelRange = "15-16 / 85";
 		MinLevel = "10";
 		PlayerLimit = "5";
+		DungeonID = "6";
+		DungeonHeroicID = "326";
 		Acronym = AL["VC"];
 		JournalInstanceID = "63";
-		--Module = "Atlas_ClassicWoW";
+		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in Cataclysm
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Glubtok", 89) };
@@ -1132,6 +1161,7 @@ Syntax:
 		LevelRange = "22-25";
 		MinLevel = "15";
 		PlayerLimit = "5";
+		DungeonID = "12";
 		Acronym = AL["Stocks"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1148,6 +1178,7 @@ Syntax:
 		LevelRange = "52-55";
 		MinLevel = "45";
 		PlayerLimit = "5";
+		DungeonID = "28";
 		Acronym = AL["ST"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["AKA"]..AL["Colon"]..BZ["The Temple of Atal'Hakkar"] };
@@ -1169,6 +1200,7 @@ Syntax:
 		LevelRange = "37-40";
 		MinLevel = "30";
 		PlayerLimit = "5";
+		DungeonID = "22";
 		Acronym = AL["Ulda"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
@@ -1205,6 +1237,8 @@ Syntax:
 		LevelRange = "65-67 / 70";
 		MinLevel = "62";
 		PlayerLimit = "5";
+		DungeonID = "149";
+		DungeonHeroicID = "178";
 		Acronym = AL["AC"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
@@ -1220,6 +1254,8 @@ Syntax:
 		LevelRange = "64-66 / 70";
 		MinLevel = "61";
 		PlayerLimit = "5";
+		DungeonID = "148";
+		DungeonHeroicID = "179";
 		Acronym = AL["MT"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Consortium"] };
@@ -1240,6 +1276,8 @@ Syntax:
 		LevelRange = "67-68 / 70";
 		MinLevel = "63";
 		PlayerLimit = "5";
+		DungeonID = "150";
+		DungeonHeroicID = "180";
 		Acronym = AL["Seth"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
@@ -1256,6 +1294,8 @@ Syntax:
 		LevelRange = "67-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		DungeonID = "151";
+		DungeonHeroicID = "181";
 		Acronym = AL["SL"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
@@ -1275,6 +1315,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
@@ -1297,6 +1338,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
@@ -1315,6 +1357,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Ashtongue Deathsworn"] };
@@ -1334,6 +1377,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "194";
 		Acronym = AL["SC"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
@@ -1352,6 +1396,8 @@ Syntax:
 		LevelRange = "62-64 / 70";
 		MinLevel = "59";
 		PlayerLimit = "5";
+		DungeonID = "140";
+		DungeonHeroicID = "184";
 		Acronym = AL["SP"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
@@ -1370,6 +1416,8 @@ Syntax:
 		LevelRange = "67-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		DungeonID = "147";
+		DungeonHeroicID = "185";
 		Acronym = AL["SV"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
@@ -1388,6 +1436,8 @@ Syntax:
 		LevelRange = "63-65 / 70";
 		MinLevel = "60";
 		PlayerLimit = "5";
+		DungeonID = "146";
+		DungeonHeroicID = "186";
 		Acronym = AL["UB"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
@@ -1523,6 +1573,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "65";
 		PlayerLimit = "25";
+		DungeonID = "177";
 		Acronym = AL["GL"];
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1539,6 +1590,8 @@ Syntax:
 		LevelRange = "61-63 / 70";
 		MinLevel = "58";
 		PlayerLimit = "5";
+		DungeonID = "137";
+		DungeonHeroicID = "187";
 		Acronym = AL["BF"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
@@ -1554,6 +1607,8 @@ Syntax:
 		LevelRange = "59-62 / 70";
 		MinLevel = "57";
 		PlayerLimit = "5";
+		DungeonID = "136";
+		DungeonHeroicID = "188";
 		Acronym = AL["Ramp"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
@@ -1571,6 +1626,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "65";
 		PlayerLimit = "25";
+		DungeonID = "176";
 		Acronym = AL["Mag"];
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1582,6 +1638,8 @@ Syntax:
 		LevelRange = "67-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		DungeonID = "138";
+		DungeonHeroicID = "189";
 		Acronym = AL["SH"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
@@ -1607,6 +1665,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "68";
 		PlayerLimit = "10";
+		DungeonID = "175";
 		Acronym = AL["Kara"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
@@ -1657,6 +1716,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "68";
 		PlayerLimit = "10";
+		DungeonID = "175";
 		Acronym = AL["Kara"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Violet Eye"] };
@@ -1688,6 +1748,8 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		DungeonID = "198";
+		DungeonHeroicID = "201";
 		Acronym = AL["MaT"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shattered Sun Offensive"] };
@@ -1718,6 +1780,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "199";
 		Acronym = AL["SuP"];
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1739,6 +1802,8 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel = "65";
 		PlayerLimit = "5";
+		DungeonID = "174";
+		DungeonHeroicID = "190";
 		Acronym = AL["Arca"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
@@ -1759,6 +1824,8 @@ Syntax:
 		LevelRange = "67-75";
 		MinLevel = "67";
 		PlayerLimit = "5";
+		DungeonID = "173";
+		DungeonHeroicID = "191";
 		Acronym = AL["Bota"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
@@ -1776,6 +1843,8 @@ Syntax:
 		LevelRange = "67-75";
 		MinLevel = "67";
 		PlayerLimit = "5";
+		DungeonID = "172";
+		DungeonHeroicID = "192";
 		Acronym = AL["Mech"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
@@ -1795,6 +1864,7 @@ Syntax:
 		LevelRange = "70-73";
 		MinLevel = "70";
 		PlayerLimit = "25";
+		DungeonID = "193";
 		Acronym = AL["TK"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
@@ -1819,6 +1889,8 @@ Syntax:
 		LevelRange = "73-75 / 80";
 		MinLevel = "70";
 		PlayerLimit = "5";
+		DungeonID = "218";
+		DungeonHeroicID = "219";
 		Acronym = AL["AK, Kahet"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1836,6 +1908,8 @@ Syntax:
 		LevelRange = "72-74 / 80";
 		MinLevel = "69";
 		PlayerLimit = "5";
+		DungeonID = "204";
+		DungeonHeroicID = "241";
 		Acronym = AL["AN, Nerub"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1855,6 +1929,8 @@ Syntax:
 		LevelRange = "79 / 80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		DungeonID = "209";
+		DungeonHeroicID = "210";
 		Acronym = AL["CoT-Strat"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["The Culling of Stratholme"] };
@@ -1876,6 +1952,8 @@ Syntax:
 		LevelRange = "74-76 / 80";
 		MinLevel = "71";
 		PlayerLimit = "5";
+		DungeonID = "214";
+		DungeonHeroicID = "215";
 		Acronym = AL["DTK"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1894,6 +1972,8 @@ Syntax:
 		LevelRange = "80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+--		DungeonID = "255";
+--		DungeonHeroicID = "256";
 		Acronym = AL["HoR"]..", "..AL["FH3"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
@@ -1914,6 +1994,8 @@ Syntax:
 		LevelRange = "80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+--		DungeonID = "253";
+--		DungeonHeroicID = "254";
 		Acronym = AL["PoS"]..", "..AL["FH2"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
@@ -1938,6 +2020,8 @@ Syntax:
 		LevelRange = "80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+--		DungeonID = "251";
+--		DungeonHeroicID = "252";
 		Acronym = AL["FoS"]..", "..AL["FH1"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1957,6 +2041,8 @@ Syntax:
 		LevelRange = "76-78 / 80";
 		MinLevel = "73";
 		PlayerLimit = "5";
+		DungeonID = "216";
+		DungeonHeroicID = "217";
 		Acronym = AL["Gun"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1974,6 +2060,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "279";
+		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
@@ -1996,6 +2084,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "279";
+		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
@@ -2026,6 +2116,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "279";
+		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Ashen Verdict"] };
@@ -2038,6 +2130,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "159";
+		DungeonHeroicID = "227";
 		Acronym = AL["Nax"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2078,6 +2172,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "224";
+		DungeonHeroicID = "238";
 		Acronym = AL["OS"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Black Dragonflight Chamber"] };
@@ -2094,6 +2190,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "46";
+		DungeonHeroicID = "257";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Onyxia") };
@@ -2104,6 +2202,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "293";
+		DungeonHeroicID = "294";
 		Acronym = AL["RS"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Red Dragonflight Chamber"] };
@@ -2119,6 +2219,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "223";
+		DungeonHeroicID = "237";
 		Acronym = AL["TEoE"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"].." / "..AL["Exit"].." ("..AL["Portal"]..")" };
@@ -2130,6 +2232,8 @@ Syntax:
 		LevelRange = "71-73 / 80";
 		MinLevel = "68";
 		PlayerLimit = "5";
+		DungeonID = "225";
+		DungeonHeroicID = "226";
 		Acronym = AL["Nex, Nexus"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2148,6 +2252,8 @@ Syntax:
 		LevelRange = "79 / 80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		DungeonID = "206";
+		DungeonHeroicID = "211";
 		Acronym = AL["Ocu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2165,6 +2271,8 @@ Syntax:
 		LevelRange = "78-80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+--		DungeonID = "245";
+--		DungeonHeroicID = "249";
 		Acronym = AL["Champ"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2191,6 +2299,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "246";
+		DungeonHeroicID = "248";
 		Acronym = AL["Crus"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Heroic: Trial of the Grand Crusader"] };
@@ -2214,6 +2324,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "243";
+		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2237,6 +2349,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "243";
+		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." B) "..AL["The Siege"] };
@@ -2257,6 +2371,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "243";
+		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." C) "..BZ["The Antechamber"] };
@@ -2279,6 +2395,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "243";
+		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." D) "..AL["The Keepers"] };
@@ -2291,6 +2409,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "243";
+		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." E) "..AL["The Keepers"] };
@@ -2305,6 +2425,8 @@ Syntax:
 		LevelRange = "79 / 80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		DungeonID = "207";
+		DungeonHeroicID = "212";
 		Acronym = AL["HoL"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2319,6 +2441,8 @@ Syntax:
 		LevelRange = "77-78 / 80";
 		MinLevel = "74";
 		PlayerLimit = "5";
+		DungeonID = "208";
+		DungeonHeroicID = "213";
 		Acronym = AL["HoS"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2336,6 +2460,8 @@ Syntax:
 		LevelRange = "69-72 / 80";
 		MinLevel = "67";
 		PlayerLimit = "5";
+		DungeonID = "202";
+		DungeonHeroicID = "242";
 		Acronym = AL["UK, Keep"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2353,6 +2479,8 @@ Syntax:
 		LevelRange = "79 / 80";
 		MinLevel = "75";
 		PlayerLimit = "5";
+		DungeonID = "203";
+		DungeonHeroicID = "205";
 		Acronym = AL["UP, Pinn"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2369,6 +2497,8 @@ Syntax:
 		LevelRange = "80-83";
 		MinLevel = "80";
 		PlayerLimit = "10/25";
+		DungeonID = "239";
+		DungeonHeroicID = "240";
 		Acronym = AL["VoA"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2383,6 +2513,8 @@ Syntax:
 		LevelRange = "75-77 / 80";
 		MinLevel = "72";
 		PlayerLimit = "5";
+		DungeonID = "220";
+		DungeonHeroicID = "221";
 		Acronym = AL["VH"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2405,6 +2537,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "328";
+		DungeonHeroicID = "329";
 		Acronym = AL["BH"];
 		JournalInstanceID = "75";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Baradin's Wardens"].." ("..BF["Alliance"]..")" };
@@ -2420,6 +2554,8 @@ Syntax:
 		LevelRange = "80-82 / 85";
 		MinLevel = "80";
 		PlayerLimit = "5";
+		DungeonID = "303";
+		DungeonHeroicID = "323";
 		Acronym = AL["BRC"];
 		JournalInstanceID = "66";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2438,6 +2574,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "313";
+		DungeonHeroicID = "314";
 		Acronym = AL["BWD"];
 		JournalInstanceID = "73";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2454,6 +2592,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "447";
+		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2466,6 +2606,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "447";
+		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
 		{ WHIT.." 2) "..Atlas_GetBossName("Warlord Zon'ozz", 324) };
@@ -2478,6 +2620,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "447";
+		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
 		{ WHIT.." 6) "..Atlas_GetBossName("Warmaster Blackhorn", 332) };
@@ -2490,6 +2634,7 @@ Syntax:
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
 		PlayerLimit = "5";
+		DungeonID = "435";
 		Acronym = AL["CoT-ET"];
 		JournalInstanceID = "184";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2507,6 +2652,7 @@ Syntax:
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
 		PlayerLimit = "5";
+		DungeonID = "439";
 		Acronym = AL["CoT-HoT"];
 		JournalInstanceID = "186";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2520,6 +2666,7 @@ Syntax:
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
 		PlayerLimit = "5";
+		DungeonID = "437";
 		Acronym = AL["CoT-WoE"];
 		JournalInstanceID = "185";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2533,6 +2680,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "361";
+		DungeonHeroicID = "362";
 		Acronym = AL["FL"];
 		JournalInstanceID = "78";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Avengers of Hyjal"] };
@@ -2555,6 +2704,8 @@ Syntax:
 		LevelRange = "85";
 		MinLevel = "84";
 		PlayerLimit = "5";
+		DungeonID = "304";
+		DungeonHeroicID = "322";
 		Acronym = AL["GB"];
 		JournalInstanceID = "71";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2572,6 +2723,8 @@ Syntax:
 		LevelRange = "85";
 		MinLevel = "84";
 		PlayerLimit = "5";
+		DungeonID = "305";
+		DungeonHeroicID = "321";
 		Acronym = AL["HoO"];
 		JournalInstanceID = "70";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2592,6 +2745,8 @@ Syntax:
 		LevelRange = "85";
 		MinLevel = "84";
 		PlayerLimit = "5";
+		DungeonID = "312";
+		DungeonHeroicID = "325";
 		Acronym = AL["LCoT"];
 		JournalInstanceID = "69";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2609,6 +2764,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "315";
+		DungeonHeroicID = "316";
 		Acronym = AL["BoT"];
 		JournalInstanceID = "72";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2628,6 +2785,8 @@ Syntax:
 		LevelRange = "82-84 / 85";
 		MinLevel = "81";
 		PlayerLimit = "5";
+		DungeonID = "307";
+		DungeonHeroicID = "320";
 		Acronym = AL["TSC"];
 		JournalInstanceID = "67";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2645,6 +2804,8 @@ Syntax:
 		LevelRange = "82-84 / 85";
 		MinLevel = "81";
 		PlayerLimit = "5";
+		DungeonID = "311";
+		DungeonHeroicID = "319";
 		Acronym = AL["VP"];
 		JournalInstanceID = "68";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2661,6 +2822,8 @@ Syntax:
 		LevelRange = "85+";
 		MinLevel = "85";
 		PlayerLimit = "10/25";
+		DungeonID = "317";
+		DungeonHeroicID = "318";
 		Acronym = AL["TWT"];
 		JournalInstanceID = "74";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2676,6 +2839,8 @@ Syntax:
 		LevelRange = "80-82 / 85";
 		MinLevel = "80";
 		PlayerLimit = "5";
+		DungeonID = "302";
+		DungeonHeroicID = "324";
 		Acronym = AL["ToTT"];
 		JournalInstanceID = "65";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2695,6 +2860,7 @@ Syntax:
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
 		PlayerLimit = "5";
+		DungeonID = "340";
 		Acronym = AL["ZA"];
 		JournalInstanceID = "77";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2742,6 +2908,7 @@ Syntax:
 		LevelRange = "85".." "..AL["Heroic"];
 		MinLevel = "85";
 		PlayerLimit = "5";
+		DungeonID = "334";
 		Acronym = AL["ZG"];
 		JournalInstanceID = "76";
 		{ BLUE.." A) "..AL["Entrance"] };

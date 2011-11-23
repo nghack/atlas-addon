@@ -486,6 +486,13 @@ function Atlas_MapRefresh()
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	if ( base.DungeonID ) then 
+		name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
+	end
+	if ( base.DungeonHeroicID ) then
+		nameH, typeIDH, subtypeIDH, minLevelH, maxLevelH, recLevelH, minRecLevelH, maxRecLevelH, expansionLevelH, groupIDH, textureFilenameH, difficultyH, maxPlayersH, descriptionH, isHolidayH = GetLFGDungeonInfo(base.DungeonHeroicID);
+	end
+	
 	-- Zone Name Acronym
 	local tName = base.ZoneName[1];
 	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
@@ -503,22 +510,46 @@ function Atlas_MapRefresh()
 
 	-- Map Level Range
 	local tLR = "";
-	if ( base.LevelRange ) then
+	if ( base.DungeonID ) then 
+		local tmp_LR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..minLevel.."-"..maxLevel;
+		local tmp_RLR = ATLAS_STRING_RECLEVELRANGE..AL["Colon"]..minRecLevel.."-"..maxRecLevel;
+		if ( base.DungeonHeroicID ) then
+			tmp_LR = tmp_LR.." / "..minLevelH.."-"..maxLevelH;
+			tmp_RLR = tmp_RLR.." / "..minRecLevelH.."-"..maxRecLevelH;
+		end
+		tLR = tmp_LR.."; "..tmp_RLR;
+	elseif ( base.LevelRange ) then
 		tLR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..base.LevelRange;
+	else
+		-- do nothing
 	end
 	AtlasText_LevelRange_Text:SetText(tLR);
 
 	-- Map's Minimum Level
 	local tML = "";
-	if ( base.MinLevel ) then
+	if ( base.DungeonID ) then 
+		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..minLevel;
+		if ( base.DungeonHeroicID ) then
+			tML = tML.." / "..minLevelH;
+		end
+	elseif ( base.MinLevel ) then
 		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..base.MinLevel;
+	else
+		-- do nothing
 	end
 	AtlasText_MinLevel_Text:SetText(tML);
 
 	-- Player Limit
 	local tPL = "";
-	if ( base.PlayerLimit ) then
+	if ( base.DungeonID ) then 
+		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..maxPlayers;
+		if ( base.DungeonHeroicID and maxPlayers ~= maxPlayersH) then
+			tPL = tPL.." / "..maxPlayersH;
+		end
+	elseif ( base.PlayerLimit ) then
 		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..base.PlayerLimit;
+	else
+		-- do nothing
 	end
 	AtlasText_PlayerLimit_Text:SetText(tPL);
 

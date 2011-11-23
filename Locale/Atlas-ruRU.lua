@@ -85,6 +85,8 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "Короткие названия";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "Будут отображаться сокрощенные названия подземелий в информации о карте.";
 	AL["ATLAS_OPTIONS_SCALE"] = "Размер";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "Показать описание босса (если доступно)";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "При наведении курсора мышки над номером босса, будет показано описание босса, если такая информация доступна.";
 	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Размер подсказки описания босса на карте";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "Радиус расположения кнопки";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "Не заходить за размеры экрана";
@@ -154,6 +156,7 @@ if AL then
 	AL["Love is in the Air"] = "Любовная лихорадка";
 	AL["Lunar Festival"] = "Лунный фестиваль";
 	AL["Midsummer Festival"] = "Огненный солнцеворот";
+	
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Взрослый";

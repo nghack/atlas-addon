@@ -16,19 +16,22 @@ v1.21.0 (XXX. XX, 2011)
     - Added boss description as game tooltip to the map which was associated 
       with Dungeon Journal
 - Fixed Frozen Halls dungeons missing in level categorizing method (Celellach)
-- New maps added:
+- Dungeon information enhancement: now the dungeons' level range, recommended 
+  level range, minimum level, and player limit will be synchronized with 
+  Dungeon Finder info.
+- New Maps Added:
     - The Dragon Soul (dubca7, Dynaletik)
     - Well of Eternity (dubca7, Dynaletik)
     - Hour of Twilight (dubca7, Dynaletik)
     - End Time (dubca7, Dynaletik)
-- Maps updated: 
+- Maps Updated: 
     - Firelands (dubca7)
     - Baradin Hold (dubca7)
     - Caverns of Time Dungeon Entrance (dubca7)
     - Throne ff the Four Winds (dubca7)
     - The Bastion Of Twilight (dubca7)
     - The Sunken Temple Instance / Entrance (dubca7, Dynaletik, Celellach)
-- Translation updated
+- Translation Updated
     - German (Dynaletik)
     - Russian (StingerSoft)
     - French (Khiria)

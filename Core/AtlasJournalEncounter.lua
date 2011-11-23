@@ -34,6 +34,10 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	if ( EJ_GetInstanceInfo(base.JournalInstanceID) == nil ) then
+		return;
+	end
+
 	if not EncounterJournal or not EncounterJournal:IsShown() then
 		ToggleEncounterJournal();
 	end
@@ -55,16 +59,18 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	local base = data[zoneID];
 
 	if ( MouseIsOver(frame) ) then
-		EJ_SelectInstance(base.JournalInstanceID);
+		if ( EJ_GetInstanceInfo(base.JournalInstanceID) ) then
+			EJ_SelectInstance(base.JournalInstanceID);
 	
-		local name, description = EJ_GetInstanceInfo();
-
-		GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
-		GameTooltip:SetText(name);
-		GameTooltipTextLeft1:SetTextColor(1, 1, 1);
-		GameTooltip:AddLine(description, nil, nil, nil, true);
-		GameTooltip:AddLine(AL["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
-		GameTooltip:Show();
+			local name, description = EJ_GetInstanceInfo();
+	
+			GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
+			GameTooltip:SetText(name);
+			GameTooltipTextLeft1:SetTextColor(1, 1, 1);
+			GameTooltip:AddLine(description, nil, nil, nil, true);
+			GameTooltip:AddLine(AL["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
+			GameTooltip:Show();
+		end
 	else
 		GameTooltip:Hide();
 	end

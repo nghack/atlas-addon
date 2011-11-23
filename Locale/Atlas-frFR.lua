@@ -68,6 +68,7 @@ if AL then
 
 	AL["ATLAS_STRING_LOCATION"] = "Lieu";
 	AL["ATLAS_STRING_LEVELRANGE"] = "Niveau";
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "Niveau recommandé";
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "Limite de joueurs";
 	AL["ATLAS_STRING_SELECT_CAT"] = "Choix de la catégorie";
 	AL["ATLAS_STRING_SELECT_MAP"] = "Choix de la carte";

@@ -11,7 +11,7 @@
 ## Notes-frFR: Rencontres de Raid
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领战斗
-## Notes-zhTW: Atlas 戶外首領地圖模組
+## Notes-zhTW: Atlas 戶外首領地圖插件
 ## Version: 1.21.0
 ## Author: arith, Dynaletik, Deadca7
 ## X-Date: November XX, 2011

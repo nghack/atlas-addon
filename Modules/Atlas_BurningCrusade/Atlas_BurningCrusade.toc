@@ -5,7 +5,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 燃燒的遠征
 ## Notes: Burning Crusade Dungeon Maps
 ## Notes-deDE: Burning Crusade Instanzkarten
-## Notes-zhTW: 燃燒的遠征副本地圖
+## Notes-zhTW: 燃燒的遠征副本地圖模組
 ## Version: 1.21.0
 ## Author: arith, Dynaletik, Deadca7
 ## X-Date: November XX, 2011

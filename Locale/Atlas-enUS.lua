@@ -59,8 +59,8 @@ if AL then
 	AL["ATLAS_SLASH_OPTIONS"] = "options";
 
 	AL["ATLAS_STRING_LOCATION"] = "Location";
-	AL["ATLAS_STRING_LEVELRANGE"] = "Level Range";
-	AL["ATLAS_STRING_RECLEVELRANGE"] = "Rec. Level Range"; -- abbrevation of "Recommended Level Range", the dungeon's recommended level range
+	AL["ATLAS_STRING_LEVELRANGE"] = "Level"; -- shorten from "Level Range" as we are running out of space
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "Rec. Level"; -- abbrevation and shorten of "Recommended Level Range", the dungeon's recommended level range
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "Player Limit";
 	AL["ATLAS_STRING_SELECT_CAT"] = "Select Category";
 	AL["ATLAS_STRING_SELECT_MAP"] = "Select Map";

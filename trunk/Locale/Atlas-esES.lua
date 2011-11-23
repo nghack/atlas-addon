@@ -63,6 +63,7 @@ if AL then
 
 	AL["ATLAS_STRING_LOCATION"] = "Localización";
 	AL["ATLAS_STRING_LEVELRANGE"] = "Rango de nivel";
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "Rng. nivel"; -- abbrevation and shorten of "Recommended Level Range", the dungeon's recommended level range
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "Límite de Jugadores";
 	AL["ATLAS_STRING_SELECT_CAT"] = "Seleccionar Categoría";
 	AL["ATLAS_STRING_SELECT_MAP"] = "Seleccionar Mapa";

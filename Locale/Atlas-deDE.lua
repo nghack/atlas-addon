@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 21.11.2011
+-- Letztes Update: 23.11.2011
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -66,7 +66,8 @@ if AL then
 	AL["ATLAS_SLASH_OPTIONS"] = "Optionen";
 
 	AL["ATLAS_STRING_LOCATION"] = "Region";
-	AL["ATLAS_STRING_LEVELRANGE"] = "Stufenbereich";
+	AL["ATLAS_STRING_LEVELRANGE"] = "Stufe";
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "Empf. Stufe";
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "Max. Spielerzahl";
 	AL["ATLAS_STRING_SELECT_CAT"] = "Kategorie wählen";
 	AL["ATLAS_STRING_SELECT_MAP"] = "Karte wählen";

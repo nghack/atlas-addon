@@ -486,6 +486,50 @@ function Atlas_MapRefresh()
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
+	-- Zone Name Acronym
+	local tName = base.ZoneName[1];
+	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
+		local _RED = "|cffcc3333";
+		tName = tName.._RED.." ["..base.Acronym.."]";
+	end
+	AtlasText_ZoneName_Text:SetText(tName);
+	
+	-- Map Location
+	local tLoc = "";
+	if ( base.Location ) then
+		tLoc = ATLAS_STRING_LOCATION..AL["Colon"]..base.Location[1];
+	end
+	AtlasText_Location_Text:SetText(tLoc);
+
+	-- Map Level Range
+	local tLR = "";
+	if ( base.LevelRange ) then
+		tLR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..base.LevelRange;
+	end
+	AtlasText_LevelRange_Text:SetText(tLR);
+
+	-- Map's Minimum Level
+	local tML = "";
+	if ( base.MinLevel ) then
+		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..base.MinLevel;
+	end
+	AtlasText_MinLevel_Text:SetText(tML);
+
+	-- Player Limit
+	local tPL = "";
+	if ( base.PlayerLimit ) then
+		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..base.PlayerLimit;
+	end
+	AtlasText_PlayerLimit_Text:SetText(tPL);
+
+	-- Check if Journal Encounter Instance is available
+	if ( base.JournalInstanceID ) then
+		Atlas_JournalEncounter_InstanceButton:Show();
+	else
+		Atlas_JournalEncounter_InstanceButton:Hide();
+	end
+	
+	-- Clear boss description gametooltip when map is refreshing
 	if (AtlasOptions["AtlasBossDesc"]) then
 		Atlas_Clean_NPC_TextFrame();
 	end
@@ -584,45 +628,6 @@ function Atlas_Refresh()
 
 	Atlas_MapRefresh();
 	
-	-- zone name acronym
-	local tName = base.ZoneName[1];
-	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
-		local _RED = "|cffcc3333";
-		tName = tName.._RED.." ["..base.Acronym.."]";
-	end
-	AtlasText_ZoneName_Text:SetText(tName);
-	
-	local tLoc = "";
-	local tLR = "";
-	local tML = "";
-	local tPL = "";
-	if ( base.Location ) then
-		tLoc = ATLAS_STRING_LOCATION..AL["Colon"]..base.Location[1];
-	end
-	AtlasText_Location_Text:SetText(tLoc);
-
-	if ( base.LevelRange ) then
-		tLR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..base.LevelRange;
-	end
-	AtlasText_LevelRange_Text:SetText(tLR);
-
-	if ( base.MinLevel ) then
-		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..base.MinLevel;
-	end
-	AtlasText_MinLevel_Text:SetText(tML);
-
-	if ( base.PlayerLimit ) then
-		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..base.PlayerLimit;
-	end
-	AtlasText_PlayerLimit_Text:SetText(tPL);
-
-	-- Check if Journal Encounter Instance is available
-	if ( base.JournalInstanceID ) then
-		Atlas_JournalEncounter_InstanceButton:Show();
-	else
-		Atlas_JournalEncounter_InstanceButton:Hide();
-	end
-
 	ATLAS_DATA = base;
 	ATLAS_SEARCH_METHOD = data.Search;
 	

@@ -218,8 +218,8 @@ if AL then
 	AL["Start"] = "Comienzo";
 	AL["Summon"] = "Invocar";
 	AL["Teleporter"] = "Teletransportador";
+	AL["Teleporter destination"] = "Teletransportador de destino";
 	AL["Third Stop"] = "Tercera parada";
-	AL["Tiger"] = "Tigre";
 	AL["Top"] = "Arriba";
 	AL["Underwater"] = "Bajo el agua";
 	AL["Upper"] = "Arriba";

@@ -161,6 +161,7 @@ if AL then
 	AL["Love is in the Air"] = "Liebe liegt in der Luft";
 	AL["Lunar Festival"] = "Mondfest";
 	AL["Midsummer Festival"] = "Sonnenwendfest";
+
 	--Misc strings
 	AL["Colon"] = ": ";
 	AL["Adult"] = "Erwachsen";

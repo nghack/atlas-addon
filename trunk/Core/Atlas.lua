@@ -488,9 +488,22 @@ function Atlas_MapRefresh()
 
 	if ( base.DungeonID ) then 
 		name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
+		-- for some unknown reason, some of the dungeons do not have recommended level range
+		if ( minRecLevel == 0 ) then 
+			minRecLevel = minLevel;
+		end
+		if ( maxRecLevel == 0 ) then
+			maxRecLevel = maxLevel;
+		end
 	end
 	if ( base.DungeonHeroicID ) then
 		nameH, typeIDH, subtypeIDH, minLevelH, maxLevelH, recLevelH, minRecLevelH, maxRecLevelH, expansionLevelH, groupIDH, textureFilenameH, difficultyH, maxPlayersH, descriptionH, isHolidayH = GetLFGDungeonInfo(base.DungeonHeroicID);
+		if ( minRecLevelH == 0 ) then
+			minRecLevelH = minRecLevel;
+		end
+		if ( maxRecLevelH == 0 ) then
+			maxRecLevelH = maxRecLevel;
+		end
 	end
 	
 	-- Zone Name Acronym

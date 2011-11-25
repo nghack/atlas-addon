@@ -73,7 +73,7 @@ Syntax:
 		ZoneName = { BZ["Auchindoun"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Terokkar Forest"] };
 		LevelRange = "64-75";
-		MinLevel = "61";
+		MinLevel = "62";
 		PlayerLimit = "5";
 		Acronym = AL["Auch"];
 		Module = "Atlas_BurningCrusade";
@@ -103,7 +103,7 @@ Syntax:
 		ZoneName = { BZ["Blackfathom Deeps"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Ashenvale"] };
 		LevelRange = "22-25";
-		MinLevel = "15";
+		MinLevel = "20";
 		PlayerLimit = "5";
 		Acronym = AL["BFD"];
 		Module = "Atlas_ClassicWoW";
@@ -113,8 +113,8 @@ Syntax:
 	BlackrockMountainEnt = {
 		ZoneName = { BZ["Blackrock Mountain"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "53-85+";
-		MinLevel = "42";
+		LevelRange = "49-85+";
+		MinLevel = "47";
 		PlayerLimit = "5/10/25/40";
 		Acronym = AL["BRM"];
 		{ BLUE.." A) "..BZ["Searing Gorge"] };
@@ -187,8 +187,8 @@ Syntax:
 	CoilfangReservoirEnt = {
 		ZoneName = { BZ["Coilfang Reservoir"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "62-75";
-		MinLevel = "59";
+		LevelRange = "62-73";
+		MinLevel = "61";
 		PlayerLimit = "5/25";
 		Acronym = AL["CR"];
 		Module = "Atlas_BurningCrusade";
@@ -204,8 +204,8 @@ Syntax:
 	DireMaulEnt = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Feralas"] };
-		LevelRange = "44-47";
-		MinLevel = "31";
+		LevelRange = "38-47";
+		MinLevel = "36";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
@@ -220,9 +220,7 @@ Syntax:
 	GnomereganEnt = {
 		ZoneName = { BZ["Gnomeregan"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Dun Morogh"] };
-		LevelRange = "26-29";
-		MinLevel = "19";
-		PlayerLimit = "5";
+		DungeonID = "14";
 		Acronym = AL["Gnome"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -236,7 +234,7 @@ Syntax:
 	HellfireCitadelEnt = {
 		ZoneName = { BZ["Hellfire Citadel"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "59-75";
+		LevelRange = "59-73";
 		MinLevel = "57";
 		PlayerLimit = "5/25";
 		Acronym = AL["HC"];
@@ -268,9 +266,7 @@ Syntax:
 	KarazhanEnt = {
 		ZoneName = { BZ["Karazhan"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Deadwind Pass"] };
-		LevelRange = "70-73";
-		MinLevel = "68";
-		PlayerLimit = "10";
+		DungeonID = "175";
 		Acronym = AL["Kara"];
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..BZ["Karazhan"].." ("..AL["Front"]..")" };
@@ -287,8 +283,8 @@ Syntax:
 	MaraudonEnt = {
 		ZoneName = { BZ["Maraudon"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Desolace"] };
-		LevelRange = "36-39";
-		MinLevel = "25";
+		LevelRange = "32-39";
+		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
 		Module = "Atlas_ClassicWoW";
@@ -301,8 +297,8 @@ Syntax:
 	ScarletMonasteryEnt = {
 		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Tirisfal Glades"] };
-		LevelRange = "31-34";
-		MinLevel = "21";
+		LevelRange = "28-40";
+		MinLevel = "26";
 		PlayerLimit = "5";
 		Acronym = AL["SM"];
 		Module = "Atlas_ClassicWoW";
@@ -315,8 +311,8 @@ Syntax:
 	TempestKeepEnt = {
 		ZoneName = { BZ["Tempest Keep"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "67-75";
-		MinLevel= "65";
+		LevelRange = "70-73";
+		MinLevel= "67";
 		PlayerLimit = "5/25";
 		Acronym = AL["TK"];
 		Module = "Atlas_BurningCrusade";
@@ -329,7 +325,7 @@ Syntax:
 		ZoneName = { BZ["The Deadmines"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Westfall"] };
 		LevelRange = "15-16 / 85";
-		MinLevel = "10";
+		MinLevel = "15";
 		PlayerLimit = "5";
 		Acronym = AL["VC"];
 		JournalInstanceID = "63";
@@ -343,9 +339,7 @@ Syntax:
 	TheSunkenTempleEnt = {
 		ZoneName = { BZ["Sunken Temple"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Swamp of Sorrows"] };
-		LevelRange = "52-55";
-		MinLevel = "45";
-		PlayerLimit = "5";
+		DungeonID = "28";
 		Acronym = AL["ST"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -360,9 +354,7 @@ Syntax:
 	UldamanEnt = {
 		ZoneName = { BZ["Uldaman"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Badlands"] };
-		LevelRange = "37-40";
-		MinLevel = "30";
-		PlayerLimit = "5";
+		DungeonID = "22";
 		Acronym = AL["Ulda"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -372,7 +364,7 @@ Syntax:
 		ZoneName = { BZ["Ulduar"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		LevelRange = "77-83";
-		MinLevel = "74";
+		MinLevel = "75";
 		PlayerLimit = "5/10/25";
 		Acronym = AL["Uldu"];
 		Module = "Atlas_WrathoftheLichKing";
@@ -388,9 +380,7 @@ Syntax:
 	WailingCavernsEnt = {
 		ZoneName = { BZ["Wailing Caverns"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Northern Barrens"] };
-		LevelRange = "17-20";
-		MinLevel = "10";
-		PlayerLimit = "5";
+		DungeonID = "1";
 		Acronym = AL["WC"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -406,9 +396,6 @@ Syntax:
 	BlackfathomDeeps = {
 		ZoneName = { BZ["Blackfathom Deeps"] };
 		Location = { BZ["Ashenvale"] };
-		LevelRange = "22-25";
-		MinLevel = "15";
-		PlayerLimit = "5";
 		DungeonID = "10";
 		Acronym = AL["BFD"];
 		Module = "Atlas_ClassicWoW";
@@ -438,9 +425,6 @@ Syntax:
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")" };
 		Location = { BZ["Feralas"] };
-		LevelRange = "44-47";
-		MinLevel = "31";
-		PlayerLimit = "5";
 		DungeonID = "34";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
@@ -463,9 +447,6 @@ Syntax:
 	DireMaulNorth = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["North"]..")" };
 		Location = { BZ["Feralas"] };
-		LevelRange = "44-47";
-		MinLevel = "31";
-		PlayerLimit = "5";
 		DungeonID = "36";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
@@ -484,9 +465,6 @@ Syntax:
 	DireMaulWest = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["West"]..")" };
 		Location = { BZ["Feralas"] };
-		LevelRange = "44-47";
-		MinLevel = "31";
-		PlayerLimit = "5";
 		DungeonID = "38";
 		Acronym = AL["DM"];
 		Module = "Atlas_ClassicWoW";
@@ -539,9 +517,6 @@ Syntax:
 	RagefireChasm = {
 		ZoneName = { BZ["Ragefire Chasm"] };
 		Location = { BZ["Orgrimmar"] };
-		LevelRange = "15-16";
-		MinLevel = "10";
-		PlayerLimit = "5";
 		DungeonID = "4";
 		Acronym = AL["RFC"];
 		Module = "Atlas_ClassicWoW";
@@ -556,9 +531,6 @@ Syntax:
 	RazorfenDowns = {
 		ZoneName = { BZ["Razorfen Downs"] };
 		Location = { BZ["Thousand Needles"] };
-		LevelRange = "42-45";
-		MinLevel = "35";
-		PlayerLimit = "5";
 		DungeonID = "20";
 		Acronym = AL["RFD"];
 		Module = "Atlas_ClassicWoW";
@@ -576,9 +548,6 @@ Syntax:
 	RazorfenKraul = {
 		ZoneName = { BZ["Razorfen Kraul"] };
 		Location = { BZ["Southern Barrens"] };
-		LevelRange = "32-35";
-		MinLevel = "25";
-		PlayerLimit = "5";
 		DungeonID = "16";
 		Acronym = AL["RFK"];
 		Module = "Atlas_ClassicWoW";
@@ -599,9 +568,6 @@ Syntax:
 	TheRuinsofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Ruins of Ahn'Qiraj"] };
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
-		LevelRange = "60-63";
-		MinLevel = "50";
-		PlayerLimit = "10";
 		DungeonID = "160";
 		Acronym = AL["AQ20"];
 		Module = "Atlas_ClassicWoW";
@@ -627,9 +593,6 @@ Syntax:
 	TheTempleofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Temple of Ahn'Qiraj"] };
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
-		LevelRange = "60-63";
-		MinLevel = "50";
-		PlayerLimit = "40";
 		DungeonID = "161";
 		Acronym = AL["AQ40"];
 		Module = "Atlas_ClassicWoW";
@@ -663,9 +626,6 @@ Syntax:
 	WailingCaverns = {
 		ZoneName = { BZ["Wailing Caverns"] };
 		Location = { BZ["Northern Barrens"] };
-		LevelRange = "17-20";
-		MinLevel = "10";
-		PlayerLimit = "5";
 		DungeonID = "1";
 		Acronym = AL["WC"];
 		Module = "Atlas_ClassicWoW";
@@ -687,9 +647,6 @@ Syntax:
 	ZulFarrak = {
 		ZoneName = { BZ["Zul'Farrak"] };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "46-49";
-		MinLevel = "39";
-		PlayerLimit = "5";
 		DungeonID = "24";
 		Acronym = AL["ZF"];
 		Module = "Atlas_ClassicWoW";
@@ -804,9 +761,6 @@ Syntax:
 	BlackrockSpireLower = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "55-58";
-		MinLevel = "48";
-		PlayerLimit = "5";
 		DungeonID = "32";
 		Acronym = AL["LBRS"];
 		Module = "Atlas_ClassicWoW";
@@ -837,9 +791,6 @@ Syntax:
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "55-58";
-		MinLevel = "48";
-		PlayerLimit = "5";
 		DungeonID = "330";
 		Acronym = AL["UBRS"];
 		Module = "Atlas_ClassicWoW";
@@ -863,9 +814,6 @@ Syntax:
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "60-63";
-		MinLevel = "55";
-		PlayerLimit = "40";
 		DungeonID = "50";
 		Acronym = AL["BWL"];
 		Module = "Atlas_ClassicWoW";
@@ -887,9 +835,6 @@ Syntax:
 	Gnomeregan = {
 		ZoneName = { BZ["Gnomeregan"] };
 		Location = { BZ["Dun Morogh"] };
-		LevelRange = "26-29";
-		MinLevel = "19";
-		PlayerLimit = "5";
 		DungeonID = "9";
 		Acronym = AL["Gnome"];
 		Module = "Atlas_ClassicWoW";
@@ -915,9 +860,6 @@ Syntax:
 	MoltenCore = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["The Molten Core"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "60-63";
-		MinLevel = "50";
-		PlayerLimit = "40";
 		DungeonID = "48";
 		Acronym = AL["MC"];
 		Module = "Atlas_ClassicWoW";
@@ -938,9 +880,6 @@ Syntax:
 	Scholomance = {
 		ZoneName = { BZ["Scholomance"] };
 		Location = { BZ["Western Plaguelands"] };
-		LevelRange = "40-43";
-		MinLevel = "33";
-		PlayerLimit = "5";
 		DungeonID = "2";
 		Acronym = AL["Scholo"];
 		Module = "Atlas_ClassicWoW";
@@ -976,9 +915,6 @@ Syntax:
 	ShadowfangKeep = {
 		ZoneName = { BZ["Shadowfang Keep"] };
 		Location = { BZ["Silverpine Forest"] };
-		LevelRange = "18-21 / 85";
-		MinLevel = "11";
-		PlayerLimit = "5";
 		DungeonID = "8";
 		DungeonHeroicID = "327";
 		Acronym = AL["SFK"];
@@ -1007,9 +943,6 @@ Syntax:
 	SMArmory = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Armory"] };
 		Location = { BZ["Tirisfal Glades"] };
-		LevelRange = "31-34";
-		MinLevel = "21";
-		PlayerLimit = "5";
 		DungeonID = "163";
 		Acronym = AL["Armory"];
 		Module = "Atlas_ClassicWoW";
@@ -1022,9 +955,6 @@ Syntax:
 	SMCathedral = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Cathedral"] };
 		Location = { BZ["Tirisfal Glades"] };
-		LevelRange = "31-34";
-		MinLevel = "21";
-		PlayerLimit = "5";
 		DungeonID = "164";
 		Acronym = AL["Cath"];
 		Module = "Atlas_ClassicWoW";
@@ -1039,9 +969,6 @@ Syntax:
 	SMGraveyard = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Graveyard"] };
 		Location = { BZ["Tirisfal Glades"] };
-		LevelRange = "31-34";
-		MinLevel = "21";
-		PlayerLimit = "5";
 		DungeonID = "18";
 		Acronym = AL["GY"];
 		Module = "Atlas_ClassicWoW";
@@ -1057,9 +984,6 @@ Syntax:
 	SMLibrary = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Library"] };
 		Location = { BZ["Tirisfal Glades"] };
-		LevelRange = "31-34";
-		MinLevel = "21";
-		PlayerLimit = "5";
 		DungeonID = "165";
 		Acronym = AL["Lib"];
 		Module = "Atlas_ClassicWoW";
@@ -1074,9 +998,6 @@ Syntax:
 	StratholmeCrusader = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
 		Location = { BZ["Eastern Plaguelands"] };
-		LevelRange = "48-51";
-		MinLevel = "37";
-		PlayerLimit = "5";
 		DungeonID = "40";
 		Acronym = AL["Strat"];
 		Module = "Atlas_ClassicWoW";
@@ -1105,9 +1026,6 @@ Syntax:
 	StratholmeGauntlet = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["The Gauntlet"] };
 		Location = { BZ["Eastern Plaguelands"] };
-		LevelRange = "48-51";
-		MinLevel = "37";
-		PlayerLimit = "5";
 		DungeonID = "274";
 		Acronym = AL["Strat"];
 		Module = "Atlas_ClassicWoW";
@@ -1130,9 +1048,6 @@ Syntax:
 	TheDeadmines = {
 		ZoneName = { BZ["The Deadmines"] };
 		Location = { BZ["Westfall"] };
-		LevelRange = "15-16 / 85";
-		MinLevel = "10";
-		PlayerLimit = "5";
 		DungeonID = "6";
 		DungeonHeroicID = "326";
 		Acronym = AL["VC"];
@@ -1158,9 +1073,6 @@ Syntax:
 	TheStockade = {
 		ZoneName = { BZ["The Stockade"] };
 		Location = { BZ["Stormwind City"] };
-		LevelRange = "22-25";
-		MinLevel = "15";
-		PlayerLimit = "5";
 		DungeonID = "12";
 		Acronym = AL["Stocks"];
 		Module = "Atlas_ClassicWoW";
@@ -1175,9 +1087,6 @@ Syntax:
 	TheSunkenTemple = {
 		ZoneName = { BZ["Sunken Temple"] };
 		Location = { BZ["Swamp of Sorrows"] };
-		LevelRange = "52-55";
-		MinLevel = "45";
-		PlayerLimit = "5";
 		DungeonID = "28";
 		Acronym = AL["ST"];
 		Module = "Atlas_ClassicWoW";
@@ -1197,9 +1106,6 @@ Syntax:
 	Uldaman = {
 		ZoneName = { BZ["Uldaman"] };
 		Location = { BZ["Badlands"] };
-		LevelRange = "37-40";
-		MinLevel = "30";
-		PlayerLimit = "5";
 		DungeonID = "22";
 		Acronym = AL["Ulda"];
 		Module = "Atlas_ClassicWoW";
@@ -1234,9 +1140,6 @@ Syntax:
 	AuchAuchenaiCrypts = {
 		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Auchenai Crypts"] };
 		Location = { BZ["Terokkar Forest"] };
-		LevelRange = "65-67 / 70";
-		MinLevel = "62";
-		PlayerLimit = "5";
 		DungeonID = "149";
 		DungeonHeroicID = "178";
 		Acronym = AL["AC"];
@@ -1251,9 +1154,6 @@ Syntax:
 	AuchManaTombs = {
 		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Mana-Tombs"] };
 		Location = { BZ["Terokkar Forest"] };
-		LevelRange = "64-66 / 70";
-		MinLevel = "61";
-		PlayerLimit = "5";
 		DungeonID = "148";
 		DungeonHeroicID = "179";
 		Acronym = AL["MT"];
@@ -1273,9 +1173,6 @@ Syntax:
 	AuchSethekkHalls = {
 		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Sethekk Halls"] };
 		Location = { BZ["Terokkar Forest"] };
-		LevelRange = "67-68 / 70";
-		MinLevel = "63";
-		PlayerLimit = "5";
 		DungeonID = "150";
 		DungeonHeroicID = "180";
 		Acronym = AL["Seth"];
@@ -1291,9 +1188,6 @@ Syntax:
 	AuchShadowLabyrinth = {
 		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Shadow Labyrinth"] };
 		Location = { BZ["Terokkar Forest"] };
-		LevelRange = "67-75";
-		MinLevel = "65";
-		PlayerLimit = "5";
 		DungeonID = "151";
 		DungeonHeroicID = "181";
 		Acronym = AL["SL"];
@@ -1312,9 +1206,6 @@ Syntax:
 	BlackTempleStart = {
 		ZoneName = { BZ["Black Temple"].." [A] ("..AL["Start"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
@@ -1335,9 +1226,6 @@ Syntax:
 	BlackTempleBasement = {
 		ZoneName = { BZ["Black Temple"].." [B] ("..AL["Basement"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
@@ -1354,9 +1242,6 @@ Syntax:
 	BlackTempleTop = {
 		ZoneName = { BZ["Black Temple"].." [C] ("..AL["Top"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "196";
 		Acronym = AL["BT"];
 		Module = "Atlas_BurningCrusade";
@@ -1374,9 +1259,6 @@ Syntax:
 	CFRSerpentshrineCavern = {
 		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["Serpentshrine Cavern"] };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "194";
 		Acronym = AL["SC"];
 		Module = "Atlas_BurningCrusade";
@@ -1393,9 +1275,6 @@ Syntax:
 	CFRTheSlavePens = {
 		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Slave Pens"] };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "62-64 / 70";
-		MinLevel = "59";
-		PlayerLimit = "5";
 		DungeonID = "140";
 		DungeonHeroicID = "184";
 		Acronym = AL["SP"];
@@ -1413,9 +1292,6 @@ Syntax:
 	CFRTheSteamvault = {
 		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Steamvault"] };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "67-75";
-		MinLevel = "65";
-		PlayerLimit = "5";
 		DungeonID = "147";
 		DungeonHeroicID = "185";
 		Acronym = AL["SV"];
@@ -1433,9 +1309,6 @@ Syntax:
 	CFRTheUnderbog = {
 		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["The Underbog"] };
 		Location = { BZ["Zangarmarsh"] };
-		LevelRange = "63-65 / 70";
-		MinLevel = "60";
-		PlayerLimit = "5";
 		DungeonID = "146";
 		DungeonHeroicID = "186";
 		Acronym = AL["UB"];
@@ -1570,9 +1443,6 @@ Syntax:
 	GruulsLair = {
 		ZoneName = { BZ["Gruul's Lair"] };
 		Location = { BZ["Blade's Edge Mountains"] };
-		LevelRange = "70-73";
-		MinLevel = "65";
-		PlayerLimit = "25";
 		DungeonID = "177";
 		Acronym = AL["GL"];
 		Module = "Atlas_BurningCrusade";
@@ -1587,9 +1457,6 @@ Syntax:
 	HCBloodFurnace = {
 		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["The Blood Furnace"] };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "61-63 / 70";
-		MinLevel = "58";
-		PlayerLimit = "5";
 		DungeonID = "137";
 		DungeonHeroicID = "187";
 		Acronym = AL["BF"];
@@ -1604,9 +1471,6 @@ Syntax:
 	HCHellfireRamparts = {
 		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["Hellfire Ramparts"] };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "59-62 / 70";
-		MinLevel = "57";
-		PlayerLimit = "5";
 		DungeonID = "136";
 		DungeonHeroicID = "188";
 		Acronym = AL["Ramp"];
@@ -1623,9 +1487,6 @@ Syntax:
 	HCMagtheridonsLair = {
 		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["Magtheridon's Lair"] };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "70-73";
-		MinLevel = "65";
-		PlayerLimit = "25";
 		DungeonID = "176";
 		Acronym = AL["Mag"];
 		Module = "Atlas_BurningCrusade";
@@ -1635,9 +1496,6 @@ Syntax:
 	HCTheShatteredHalls = {
 		ZoneName = { BZ["Hellfire Citadel"]..AL["Colon"]..BZ["The Shattered Halls"] };
 		Location = { BZ["Hellfire Peninsula"] };
-		LevelRange = "67-75";
-		MinLevel = "65";
-		PlayerLimit = "5";
 		DungeonID = "138";
 		DungeonHeroicID = "189";
 		Acronym = AL["SH"];
@@ -1662,9 +1520,6 @@ Syntax:
 	KarazhanStart = {
 		ZoneName = { BZ["Karazhan"].." [A] ("..AL["Start"]..")" };
 		Location = { BZ["Deadwind Pass"] };
-		LevelRange = "70-73";
-		MinLevel = "68";
-		PlayerLimit = "10";
 		DungeonID = "175";
 		Acronym = AL["Kara"];
 		Module = "Atlas_BurningCrusade";
@@ -1713,9 +1568,6 @@ Syntax:
 	KarazhanEnd = {
 		ZoneName = { BZ["Karazhan"].." [B] ("..AL["End"]..")" };
 		Location = { BZ["Deadwind Pass"] };
-		LevelRange = "70-73";
-		MinLevel = "68";
-		PlayerLimit = "10";
 		DungeonID = "175";
 		Acronym = AL["Kara"];
 		Module = "Atlas_BurningCrusade";
@@ -1745,9 +1597,6 @@ Syntax:
 	MagistersTerrace = {
 		ZoneName = { BZ["Magisters' Terrace"] };
 		Location = { BZ["Isle of Quel'Danas"] };
-		LevelRange = "68-75";
-		MinLevel = "65";
-		PlayerLimit = "5";
 		DungeonID = "198";
 		DungeonHeroicID = "201";
 		Acronym = AL["MaT"];
@@ -1777,9 +1626,6 @@ Syntax:
 	SunwellPlateau = {
 		ZoneName = { BZ["Sunwell Plateau"] };
 		Location = { BZ["Isle of Quel'Danas"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "199";
 		Acronym = AL["SuP"];
 		Module = "Atlas_BurningCrusade";
@@ -1799,9 +1645,6 @@ Syntax:
 	TempestKeepArcatraz = {
 		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Arcatraz"] };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "68-75";
-		MinLevel = "65";
-		PlayerLimit = "5";
 		DungeonID = "174";
 		DungeonHeroicID = "190";
 		Acronym = AL["Arca"];
@@ -1821,9 +1664,6 @@ Syntax:
 	TempestKeepBotanica = {
 		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Botanica"] };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "67-75";
-		MinLevel = "67";
-		PlayerLimit = "5";
 		DungeonID = "173";
 		DungeonHeroicID = "191";
 		Acronym = AL["Bota"];
@@ -1840,9 +1680,6 @@ Syntax:
 	TempestKeepMechanar = {
 		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Mechanar"] };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "67-75";
-		MinLevel = "67";
-		PlayerLimit = "5";
 		DungeonID = "172";
 		DungeonHeroicID = "192";
 		Acronym = AL["Mech"];
@@ -1861,9 +1698,6 @@ Syntax:
 	TempestKeepTheEye = {
 		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Eye"] };
 		Location = { BZ["Netherstorm"] };
-		LevelRange = "70-73";
-		MinLevel = "70";
-		PlayerLimit = "25";
 		DungeonID = "193";
 		Acronym = AL["TK"];
 		Module = "Atlas_BurningCrusade";
@@ -1886,9 +1720,6 @@ Syntax:
 	AhnKahet = {
 		ZoneName = { BZ["Ahn'kahet: The Old Kingdom"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "73-75 / 80";
-		MinLevel = "70";
-		PlayerLimit = "5";
 		DungeonID = "218";
 		DungeonHeroicID = "219";
 		Acronym = AL["AK, Kahet"];
@@ -1905,9 +1736,6 @@ Syntax:
 	AzjolNerub = {
 		ZoneName = { BZ["Azjol-Nerub"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "72-74 / 80";
-		MinLevel = "69";
-		PlayerLimit = "5";
 		DungeonID = "204";
 		DungeonHeroicID = "241";
 		Acronym = AL["AN, Nerub"];
@@ -1926,9 +1754,6 @@ Syntax:
 	CoTOldStratholme = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["The Culling of Stratholme"] };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "79 / 80";
-		MinLevel = "75";
-		PlayerLimit = "5";
 		DungeonID = "209";
 		DungeonHeroicID = "210";
 		Acronym = AL["CoT-Strat"];
@@ -1949,9 +1774,6 @@ Syntax:
 	DrakTharonKeep = {
 		ZoneName = { BZ["Drak'Tharon Keep"] };
 		Location = { BZ["Grizzly Hills"] };
-		LevelRange = "74-76 / 80";
-		MinLevel = "71";
-		PlayerLimit = "5";
 		DungeonID = "214";
 		DungeonHeroicID = "215";
 		Acronym = AL["DTK"];
@@ -1969,11 +1791,8 @@ Syntax:
 	FHHallsOfReflection = {
 		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["Halls of Reflection"] };
 		Location = { BZ["Icecrown Citadel"] };
-		LevelRange = "80";
-		MinLevel = "75";
-		PlayerLimit = "5";
---		DungeonID = "255";
---		DungeonHeroicID = "256";
+		DungeonID = "255";
+		DungeonHeroicID = "256";
 		Acronym = AL["HoR"]..", "..AL["FH3"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
@@ -1991,11 +1810,8 @@ Syntax:
 	FHPitOfSaron = {
 		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["Pit of Saron"] };
 		Location = { BZ["Icecrown Citadel"] };
-		LevelRange = "80";
-		MinLevel = "75";
-		PlayerLimit = "5";
---		DungeonID = "253";
---		DungeonHeroicID = "254";
+		DungeonID = "253";
+		DungeonHeroicID = "254";
 		Acronym = AL["PoS"]..", "..AL["FH2"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
@@ -2017,11 +1833,8 @@ Syntax:
 	FHTheForgeOfSouls = {
 		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["The Forge of Souls"] };
 		Location = { BZ["Icecrown Citadel"] };
-		LevelRange = "80";
-		MinLevel = "75";
-		PlayerLimit = "5";
---		DungeonID = "251";
---		DungeonHeroicID = "252";
+		DungeonID = "251";
+		DungeonHeroicID = "252";
 		Acronym = AL["FoS"]..", "..AL["FH1"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2038,9 +1851,6 @@ Syntax:
 	Gundrak = {
 		ZoneName = { BZ["Gundrak"] };
 		Location = { BZ["Zul'Drak"] };
-		LevelRange = "76-78 / 80";
-		MinLevel = "73";
-		PlayerLimit = "5";
 		DungeonID = "216";
 		DungeonHeroicID = "217";
 		Acronym = AL["Gun"];
@@ -2057,9 +1867,6 @@ Syntax:
 	IcecrownCitadelA = {
 		ZoneName = { BZ["Icecrown Citadel"].." [A] ("..AL["Lower"]..")" };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
@@ -2081,9 +1888,6 @@ Syntax:
 	IcecrownCitadelB = {
 		ZoneName = { BZ["Icecrown Citadel"].." [B] ("..AL["Upper"]..")" };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
@@ -2113,9 +1917,6 @@ Syntax:
 	IcecrownCitadelC = {
 		ZoneName = { BZ["Icecrown Citadel"].." [C] ("..BZ["The Frozen Throne"]..")" };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
@@ -2127,9 +1928,6 @@ Syntax:
 	Naxxramas = {
 		ZoneName = { BZ["Naxxramas"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "159";
 		DungeonHeroicID = "227";
 		Acronym = AL["Nax"];
@@ -2169,9 +1967,6 @@ Syntax:
 	ObsidianSanctum = {
 		ZoneName = { BZ["Wyrmrest Temple"]..AL["Colon"]..BZ["The Obsidian Sanctum"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "224";
 		DungeonHeroicID = "238";
 		Acronym = AL["OS"];
@@ -2187,9 +1982,6 @@ Syntax:
 		ZoneName = { BZ["Onyxia's Lair"] };
 		Acronym = AL["Ony"];
 		Location = { BZ["Dustwallow Marsh"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "46";
 		DungeonHeroicID = "257";
 		Module = "Atlas_WrathoftheLichKing";
@@ -2199,9 +1991,6 @@ Syntax:
 	RubySanctum = {
 		ZoneName = { BZ["Wyrmrest Temple"]..AL["Colon"]..BZ["The Ruby Sanctum"] };
 		Location = { BZ["Dragonblight"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "293";
 		DungeonHeroicID = "294";
 		Acronym = AL["RS"];
@@ -2216,9 +2005,6 @@ Syntax:
 	TheEyeOfEternity = {
 		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Eye of Eternity"] };
 		Location = { BZ["Borean Tundra"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "223";
 		DungeonHeroicID = "237";
 		Acronym = AL["TEoE"];
@@ -2229,9 +2015,6 @@ Syntax:
 	TheNexus = {
 		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Nexus"] };
 		Location = { BZ["Borean Tundra"] };
-		LevelRange = "71-73 / 80";
-		MinLevel = "68";
-		PlayerLimit = "5";
 		DungeonID = "225";
 		DungeonHeroicID = "226";
 		Acronym = AL["Nex, Nexus"];
@@ -2249,9 +2032,6 @@ Syntax:
 	TheOculus = {
 		ZoneName = { BZ["The Nexus"]..AL["Colon"]..BZ["The Oculus"] };
 		Location = { BZ["The Nexus"] };
-		LevelRange = "79 / 80";
-		MinLevel = "75";
-		PlayerLimit = "5";
 		DungeonID = "206";
 		DungeonHeroicID = "211";
 		Acronym = AL["Ocu"];
@@ -2268,11 +2048,8 @@ Syntax:
 	TrialOfTheChampion = {
 		ZoneName = { AL["Crusaders' Coliseum"]..AL["Colon"]..BZ["Trial of the Champion"] };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "78-80";
-		MinLevel = "75";
-		PlayerLimit = "5";
---		DungeonID = "245";
---		DungeonHeroicID = "249";
+		DungeonID = "245";
+		DungeonHeroicID = "249";
 		Acronym = AL["Champ"];
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2296,9 +2073,6 @@ Syntax:
 	TrialOfTheCrusader = {
 		ZoneName = { AL["Crusaders' Coliseum"]..AL["Colon"]..BZ["Trial of the Crusader"] };
 		Location = { BZ["Icecrown"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "246";
 		DungeonHeroicID = "248";
 		Acronym = AL["Crus"];
@@ -2321,9 +2095,6 @@ Syntax:
 	UlduarA = {
 		ZoneName = { BZ["Ulduar"].." [A] ("..AL["The Siege"]..")" };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
@@ -2346,9 +2117,6 @@ Syntax:
 	UlduarB = {
 		ZoneName = { BZ["Ulduar"].." [B] ("..BZ["The Antechamber"]..")" };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
@@ -2368,9 +2136,6 @@ Syntax:
 	UlduarC = {
 		ZoneName = { BZ["Ulduar"].." [C] ("..AL["The Keepers"]..")" };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
@@ -2392,9 +2157,6 @@ Syntax:
 	UlduarD = {
 		ZoneName = { BZ["Ulduar"].." [D] ("..BZ["The Spark of Imagination"]..")" };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
@@ -2406,9 +2168,6 @@ Syntax:
 	UlduarE = {
 		ZoneName = { BZ["Ulduar"].." [E] ("..BZ["The Descent into Madness"]..")" };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
@@ -2422,9 +2181,6 @@ Syntax:
 	UlduarHallsofLightning = {
 		ZoneName = { BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Lightning"] };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "79 / 80";
-		MinLevel = "75";
-		PlayerLimit = "5";
 		DungeonID = "207";
 		DungeonHeroicID = "212";
 		Acronym = AL["HoL"];
@@ -2438,9 +2194,6 @@ Syntax:
 	UlduarHallsofStone = {
 		ZoneName = { BZ["Ulduar"]..AL["Colon"]..BZ["Halls of Stone"] };
 		Location = { BZ["The Storm Peaks"] };
-		LevelRange = "77-78 / 80";
-		MinLevel = "74";
-		PlayerLimit = "5";
 		DungeonID = "208";
 		DungeonHeroicID = "213";
 		Acronym = AL["HoS"];
@@ -2457,9 +2210,6 @@ Syntax:
 	UtgardeKeep = {
 		ZoneName = { BZ["Utgarde Keep"]..AL["Colon"]..BZ["Utgarde Keep"] };
 		Location = { BZ["Howling Fjord"] };
-		LevelRange = "69-72 / 80";
-		MinLevel = "67";
-		PlayerLimit = "5";
 		DungeonID = "202";
 		DungeonHeroicID = "242";
 		Acronym = AL["UK, Keep"];
@@ -2476,9 +2226,6 @@ Syntax:
 	UtgardePinnacle = {
 		ZoneName = { BZ["Utgarde Keep"]..AL["Colon"]..BZ["Utgarde Pinnacle"] };
 		Location = { BZ["Utgarde Keep"] };
-		LevelRange = "79 / 80";
-		MinLevel = "75";
-		PlayerLimit = "5";
 		DungeonID = "203";
 		DungeonHeroicID = "205";
 		Acronym = AL["UP, Pinn"];
@@ -2494,9 +2241,6 @@ Syntax:
 	VaultOfArchavon = {
 		ZoneName = { BZ["Vault of Archavon"] };
 		Location = { BZ["Wintergrasp"] };
-		LevelRange = "80-83";
-		MinLevel = "80";
-		PlayerLimit = "10/25";
 		DungeonID = "239";
 		DungeonHeroicID = "240";
 		Acronym = AL["VoA"];
@@ -2510,9 +2254,6 @@ Syntax:
 	VioletHold = {
 		ZoneName = { BZ["The Violet Hold"] };
 		Location = { BZ["Dalaran"] };
-		LevelRange = "75-77 / 80";
-		MinLevel = "72";
-		PlayerLimit = "5";
 		DungeonID = "220";
 		DungeonHeroicID = "221";
 		Acronym = AL["VH"];
@@ -2534,9 +2275,6 @@ Syntax:
 	BaradinHold = {
 		ZoneName = { BZ["Baradin Hold"] };
 		Location = { BZ["Tol Barad"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "328";
 		DungeonHeroicID = "329";
 		Acronym = AL["BH"];
@@ -2551,9 +2289,6 @@ Syntax:
 	BlackrockCaverns = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Caverns"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "80-82 / 85";
-		MinLevel = "80";
-		PlayerLimit = "5";
 		DungeonID = "303";
 		DungeonHeroicID = "323";
 		Acronym = AL["BRC"];
@@ -2571,9 +2306,6 @@ Syntax:
 	BlackwingDescent = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Descent"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "313";
 		DungeonHeroicID = "314";
 		Acronym = AL["BWD"];
@@ -2589,9 +2321,6 @@ Syntax:
 	CoTDragonSoulA = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [A]" };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
@@ -2603,9 +2332,6 @@ Syntax:
 	CoTDragonSoulB = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [B]" };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
@@ -2617,9 +2343,6 @@ Syntax:
 	CoTDragonSoulC = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [C]" };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
@@ -2631,9 +2354,6 @@ Syntax:
 	CoTEndTime = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["End Time"] };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
 		DungeonID = "435";
 		Acronym = AL["CoT-ET"];
 		JournalInstanceID = "184";
@@ -2649,9 +2369,6 @@ Syntax:
 	CoTHourOfTwilight = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hour of Twilight"] };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
 		DungeonID = "439";
 		Acronym = AL["CoT-HoT"];
 		JournalInstanceID = "186";
@@ -2663,9 +2380,6 @@ Syntax:
 	CoTWellOfEternity = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Well of Eternity"] };
 		Location = { BZ["Tanaris"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
 		DungeonID = "437";
 		Acronym = AL["CoT-WoE"];
 		JournalInstanceID = "185";
@@ -2677,9 +2391,6 @@ Syntax:
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };
 		Location = { BZ["Mount Hyjal"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "361";
 		DungeonHeroicID = "362";
 		Acronym = AL["FL"];
@@ -2701,9 +2412,6 @@ Syntax:
 	GrimBatol = {
 		ZoneName = { BZ["Grim Batol"] };
 		Location = { BZ["Twilight Highlands"] };
-		LevelRange = "85";
-		MinLevel = "84";
-		PlayerLimit = "5";
 		DungeonID = "304";
 		DungeonHeroicID = "322";
 		Acronym = AL["GB"];
@@ -2720,9 +2428,6 @@ Syntax:
 	HallsOfOrigination = {
 		ZoneName = { BZ["Halls of Origination"] };
 		Location = { BZ["Uldum"] };
-		LevelRange = "85";
-		MinLevel = "84";
-		PlayerLimit = "5";
 		DungeonID = "305";
 		DungeonHeroicID = "321";
 		Acronym = AL["HoO"];
@@ -2742,9 +2447,6 @@ Syntax:
 	LostCityOfTolvir = {
 		ZoneName = { BZ["Lost City of the Tol'vir"] };
 		Location = { BZ["Uldum"] };
-		LevelRange = "85";
-		MinLevel = "84";
-		PlayerLimit = "5";
 		DungeonID = "312";
 		DungeonHeroicID = "325";
 		Acronym = AL["LCoT"];
@@ -2761,9 +2463,6 @@ Syntax:
 	TheBastionOfTwilight = {
 		ZoneName = { BZ["The Bastion of Twilight"] };
 		Location = { BZ["Twilight Highlands"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "315";
 		DungeonHeroicID = "316";
 		Acronym = AL["BoT"];
@@ -2782,9 +2481,6 @@ Syntax:
 	TheStonecore = {
 		ZoneName = { BZ["The Stonecore"] };
 		Location = { BZ["Deepholm"] };
-		LevelRange = "82-84 / 85";
-		MinLevel = "81";
-		PlayerLimit = "5";
 		DungeonID = "307";
 		DungeonHeroicID = "320";
 		Acronym = AL["TSC"];
@@ -2801,9 +2497,6 @@ Syntax:
 	TheVortexPinnacle = {
 		ZoneName = { BZ["The Vortex Pinnacle"] };
 		Location = { BZ["Uldum"] };
-		LevelRange = "82-84 / 85";
-		MinLevel = "81";
-		PlayerLimit = "5";
 		DungeonID = "311";
 		DungeonHeroicID = "319";
 		Acronym = AL["VP"];
@@ -2819,9 +2512,6 @@ Syntax:
 	ThroneOfTheFourWinds = {
 		ZoneName = { BZ["Throne of the Four Winds"] };
 		Location = { BZ["Uldum"] };
-		LevelRange = "85+";
-		MinLevel = "85";
-		PlayerLimit = "10/25";
 		DungeonID = "317";
 		DungeonHeroicID = "318";
 		Acronym = AL["TWT"];
@@ -2836,9 +2526,6 @@ Syntax:
 	ThroneOfTheTides = {
 		ZoneName = { BZ["The Abyssal Maw"]..AL["Colon"]..BZ["Throne of the Tides"] };
 		Location = { BZ["Abyssal Depths"].." / "..BZ["The Abyssal Maw"] };
-		LevelRange = "80-82 / 85";
-		MinLevel = "80";
-		PlayerLimit = "5";
 		DungeonID = "302";
 		DungeonHeroicID = "324";
 		Acronym = AL["ToTT"];
@@ -2857,9 +2544,6 @@ Syntax:
 	ZulAman = {
 		ZoneName = { BZ["Zul'Aman"] };
 		Location = { BZ["Ghostlands"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
 		DungeonID = "340";
 		Acronym = AL["ZA"];
 		JournalInstanceID = "77";
@@ -2905,9 +2589,6 @@ Syntax:
 	ZulGurub = {
 		ZoneName = { BZ["Zul'Gurub"] };
 		Location = { BZ["Northern Stranglethorn"] };
-		LevelRange = "85".." "..AL["Heroic"];
-		MinLevel = "85";
-		PlayerLimit = "5";
 		DungeonID = "334";
 		Acronym = AL["ZG"];
 		JournalInstanceID = "76";

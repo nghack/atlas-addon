@@ -58,6 +58,7 @@ if AL then
 
 	AL["ATLAS_STRING_LOCATION"] = "所在位置";
 	AL["ATLAS_STRING_LEVELRANGE"] = "等級範圍";
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "建議等級"; -- abbrevation and shorten of "Recommended Level Range", the dungeon's recommended level range
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "人數上限";
 	AL["ATLAS_STRING_SELECT_CAT"] = "選擇類別";
 	AL["ATLAS_STRING_SELECT_MAP"] = "選擇地圖";
@@ -153,7 +154,7 @@ if AL then
 	AL["Midsummer Festival"] = "仲夏節慶";
 
 	--Misc strings
-	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
 	AL["AKA"] = "又稱";
 	AL["Arcane Container"] = "秘法容器";

@@ -81,7 +81,9 @@ if AL then
 	AL["ATLAS_OPTIONS_ACRONYMS"] = "显示简称";
 	AL["ATLAS_OPTIONS_ACRONYMS_TIP"] = "在地图的详尽叙述中显示副本的缩写。";
 	AL["ATLAS_OPTIONS_SCALE"] = "缩放";
-	--AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "Boss Description Map ToolTip Scale";
+	AL["ATLAS_OPTIONS_BOSS_DESC"] = "当首领信息可获取时, 显示该信息";
+	AL["ATLAS_OPTIONS_BOSS_DESC_TIP"] = "当鼠标光标移动到地图上首领的标号时, 并且首领信息可获取时, 显示该首领的相关信息.";
+	AL["ATLAS_OPTIONS_BOSS_DESC_SCALE"] = "首领信息提示窗口大小比率";
 	AL["ATLAS_OPTIONS_BUTRAD"] = "图标半径";
 	AL["ATLAS_OPTIONS_CLAMPED"] = "不超出游戏画面";
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界。";
@@ -150,6 +152,7 @@ if AL then
 	AL["Love is in the Air"] = "情人节";
 	AL["Lunar Festival"] = "春节庆典";
 	AL["Midsummer Festival"] = "仲夏火焰节";
+
 	--Misc strings
 	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
@@ -210,7 +213,7 @@ if AL then
 	AL["Start"] = "起始";
 	AL["Summon"] = "召唤";
 	AL["Teleporter"] = "传送";
-	--AL["Teleporter destination"] = "Teleporter destination";
+	AL["Teleporter destination"] = "传送目的地";
 	AL["Third Stop"] = "第三次止步";
 	AL["Top"] = "顶层";
 	AL["Underwater"] = "水下";

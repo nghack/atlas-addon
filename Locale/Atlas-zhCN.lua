@@ -59,6 +59,7 @@ if AL then
 
 	AL["ATLAS_STRING_LOCATION"] = "区域";
 	AL["ATLAS_STRING_LEVELRANGE"] = "等级跨度";
+	AL["ATLAS_STRING_RECLEVELRANGE"] = "建议等级"; -- abbrevation and shorten of "Recommended Level Range", the dungeon's recommended level range
 	AL["ATLAS_STRING_PLAYERLIMIT"] = "人数上限";
 	AL["ATLAS_STRING_SELECT_CAT"] = "选择分类";
 	AL["ATLAS_STRING_SELECT_MAP"] = "选择地图";

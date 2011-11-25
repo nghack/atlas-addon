@@ -6,7 +6,7 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
-v1.21.0 (XXX. XX, 2011)
+v1.21.0 (Nov. 29, 2011)
 - Update TOC to support WoW 4.3
 - Splitted plugins into separated addons
 - Splitted dungeon maps into separated modules based on the expansion sets;

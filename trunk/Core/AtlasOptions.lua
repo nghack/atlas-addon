@@ -215,7 +215,7 @@ end
 function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_Initialize(AtlasOptionsFrameDropDownCats, AtlasOptionsFrameDropDownCats_Initialize);
 	UIDropDownMenu_SetSelectedID(AtlasOptionsFrameDropDownCats, AtlasOptions.AtlasSortBy);
-	UIDropDownMenu_SetWidth(AtlasOptionsFrameDropDownCats, 100);
+	UIDropDownMenu_SetWidth(AtlasOptionsFrameDropDownCats, 160);
 end
 
 

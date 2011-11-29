@@ -1,0 +1,11 @@
+Atlas, a World of Warcraft instance map browser
+Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
+Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+
+==============
+= Change Log =
+==============
+v1.21.0 (Nov. 29, 2011)
+- Splitted from Atlas core addon
+

@@ -1,0 +1,17 @@
+﻿## Interface: 40300
+## Title: Atlas |r|cFF0099FF[Classic WoW]|r
+## Title-deDE: Atlas |r|cFF0099FF[Classic WoW]|r
+## Title-ruRU: Atlas |r|cFF0099FF[Classic WoW]|r
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 艾澤拉斯
+## Notes: Classic WoW Dungeon Maps
+## Notes-deDE: Classic WoW Instanzkarten
+## Notes-zhTW: 艾澤拉斯副本地圖模組
+## Version: 1.21.0
+## Author: arith, Dynaletik, Deadca7
+## X-Date: November 29, 2011
+## X-Credits: Dan Gilbert, Lothaer
+## X-Email: atlas.addon@gmail.com
+## X-Website: http://www.atlasmod.com
+## X-Category: Map
+## RequiredDeps: Atlas
+

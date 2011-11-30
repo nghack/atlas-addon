@@ -9,6 +9,9 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.21.1 (Dec. xx, 2011)
 - Updated Dragon soul info
+- Updated End Time info
+- Updated Well of Eternity info
+- Updated Hour of Twilight info
 - Fixed Caverns of Time entrance map
 
 v1.21.0 (Nov. 29, 2011)

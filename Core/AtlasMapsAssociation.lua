@@ -154,6 +154,7 @@ Atlas_SubZoneData = {
 		["CoTDragonSoulA"] = {
 			BZ["Path of the Titans"],
 			BZ["The Dragon Wastes"],
+			BZ["Wyrmrest Temple"],
 			BZ["Wyrmrest Summit"],
 		},
 		--Dragon Soul B

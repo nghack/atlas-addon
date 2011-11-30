@@ -2326,6 +2326,7 @@ Syntax:
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Portal"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Morchok", 311) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Ultraxion", 331) };
 	};
@@ -2336,6 +2337,7 @@ Syntax:
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
 		JournalInstanceID = "187";
+		{ BLUE.." C-E) "..AL["Portal"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Warlord Zon'ozz", 324) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Yor'sahj the Unsleeping", 325) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Hagara the Stormbinder", 317) };

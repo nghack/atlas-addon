@@ -2360,13 +2360,13 @@ Syntax:
 		Acronym = AL["CoT-ET"];
 		JournalInstanceID = "184";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE..INDENT..AL["Portal"] };
-		{ BLUE.." B-F) "..AL["Portal"] };
+		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Echo of Baine", 340).." ("..AL["Random"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Echo of Jaina", 285).." ("..AL["Random"]..")" };
 		{ WHIT.." 3) "..Atlas_GetBossName("Echo of Sylvanas", 323).." ("..AL["Random"]..")" };
 		{ WHIT.." 4) "..Atlas_GetBossName("Echo of Tyrande", 283).." ("..AL["Random"]..")" };
 		{ WHIT.." 5) "..Atlas_GetBossName("Murozond", 289) };
+		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	CoTHourOfTwilight = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Hour of Twilight"] };
@@ -2375,9 +2375,11 @@ Syntax:
 		Acronym = AL["CoT-HoT"];
 		JournalInstanceID = "186";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Arcurion", 322) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Asira Dawnslayer", 342) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Archbishop Benedictus", 341) };
+		{ BLUE..INDENT..AL["Portal"].." ("..BZ["Stormwind"].." / "..BZ["Orgrimmar"]..")" };
 	};
 	CoTWellOfEternity = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Well of Eternity"] };
@@ -2386,9 +2388,11 @@ Syntax:
 		Acronym = AL["CoT-WoE"];
 		JournalInstanceID = "185";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Peroth'arn", 290) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Queen Azshara", 291) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Mannoroth and Varo'then", 292) };
+		{ GREN.." 1') "..AL["Teleporter"] };
 	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };

@@ -363,6 +363,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Tanaris"]] = 			"CavernsOfTimeEnt";
 	[BZ["Zangarmarsh"]] = 			"CoilfangReservoirEnt";
 	[BZ["Feralas"]] = 			"DireMaulEnt";
+	[BZ["The Dragon Wastes"]] = 		"CoTDragonSoulA";
 	[BZ["Dun Morogh"]] = 			"GnomereganEnt";
 	[BZ["Mount Hyjal"]] = 			"Firelands";
 	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";

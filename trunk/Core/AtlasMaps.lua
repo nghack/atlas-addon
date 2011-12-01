@@ -835,7 +835,7 @@ Syntax:
 	Gnomeregan = {
 		ZoneName = { BZ["Gnomeregan"] };
 		Location = { BZ["Dun Morogh"] };
-		DungeonID = "9";
+		DungeonID = "14";
 		Acronym = AL["Gnome"];
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };

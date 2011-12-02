@@ -7,5 +7,6 @@
 	<Script file="Atlas_Battlegrounds-frFR.lua"/>
 	<Script file="Atlas_Battlegrounds-zhCN.lua"/>
 	<Script file="Atlas_Battlegrounds-esES.lua"/>
+	<Script file="Atlas_Battlegrounds-esMX.lua"/>
 	<Script file="Atlas_Battlegrounds-zhTW.lua"/>
 </Ui>

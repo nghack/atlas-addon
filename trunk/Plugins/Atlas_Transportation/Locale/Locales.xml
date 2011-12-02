@@ -7,5 +7,6 @@
 	<Script file="Atlas_Transportation-frFR.lua"/>
 	<Script file="Atlas_Transportation-zhCN.lua"/>
 	<Script file="Atlas_Transportation-esES.lua"/>
+	<Script file="Atlas_Transportation-esMX.lua"/>
 	<Script file="Atlas_Transportation-zhTW.lua"/>
 </Ui>

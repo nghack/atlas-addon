@@ -7,5 +7,6 @@
 	<Script file="Atlas_DungeonLocs-frFR.lua"/>
 	<Script file="Atlas_DungeonLocs-zhCN.lua"/>
 	<Script file="Atlas_DungeonLocs-esES.lua"/>
+	<Script file="Atlas_DungeonLocs-esMX.lua"/>
 	<Script file="Atlas_DungeonLocs-zhTW.lua"/>
 </Ui>

@@ -7,5 +7,6 @@
 	<Script file="Atlas_OutdoorRaids-frFR.lua"/>
 	<Script file="Atlas_OutdoorRaids-zhCN.lua"/>
 	<Script file="Atlas_OutdoorRaids-esES.lua"/>
+	<Script file="Atlas_OutdoorRaids-esMX.lua"/>
 	<Script file="Atlas_OutdoorRaids-zhTW.lua"/>
 </Ui>

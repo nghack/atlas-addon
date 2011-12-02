@@ -234,12 +234,12 @@ if AL then
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
-	AL["Armory"] = "军械库"; -- Armory
+	AL["Armory"] = "Armory"; -- Armory
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	AL["BRD"] = "BRD"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
 	AL["BWL"] = "BWL"; -- Blackwing Lair
-	AL["Cath"] = "大教堂"; -- Cathedral
+	AL["Cath"] = "Cath"; -- Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["GY"] = "GY"; -- Graveyard
@@ -255,7 +255,7 @@ if AL then
 	AL["SM"] = "SM"; -- Scarlet Monastery
 	AL["ST"] = "ST"; -- Sunken Temple
 	AL["Strat"] = "Strat"; -- Stratholme
-	AL["Stocks"] = "监狱"; -- The Stockade
+	AL["Stocks"] = "Stocks"; -- The Stockade
 	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
 	AL["Ulda"] = "Ulda"; -- Uldaman
 	AL["VC"] = "VC"; -- The Deadmines
@@ -438,7 +438,7 @@ if AL then
 	--Ulduar (Entrance)
 	AL["Shavalius the Fancy <Flight Master>"] = "古怪的沙瓦留斯 <飞行管理员>";
 	AL["Chester Copperpot <General & Trade Supplies>"] = "切斯特·考伯特 <杂货商>";
-	AL["Slosh <Food & Drink>"] = "斯洛什 <餐饮供应商>";
+	AL["Slosh <Food & Drink>"] = "斯洛什 <食物与饮料>";
 
 	--Wailing Caverns (Entrance)
 
@@ -448,8 +448,8 @@ if AL then
 
 	--Blackfathom Deeps
 	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
-	AL["Fathom Stone"] = "深渊之核";
-	AL["Lorgalis Manuscript"] = "潮湿的便笺";
+	AL["Fathom Stone"] = "深渊之石";
+	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	AL["Scout Thaelrid"] = "斥候塞尔瑞德";
 	AL["Flaming Eradicator"] = "烈焰根除者";
 	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
@@ -500,7 +500,7 @@ if AL then
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奥尔德·石塔 ";
 	AL["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
-	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘的灵魂 <先祖>";
+	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘之魂 <远古半神>";
 	AL["Willix the Importer"] = "进口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
@@ -548,7 +548,7 @@ if AL then
 	AL["Watchman Doomgrip"] = "卫兵杜格瑞普";
 	AL["High Justice Grimstone"] = "裁决者格里斯通";
 	AL["Elder Morndeep"] = "黎明长者";
-	AL["Schematic: Field Repair Bot 74A"] = "修理机器人74A型";
+	AL["Schematic: Field Repair Bot 74A"] = "结构图：战地修理机器人74A型";
 	AL["Private Rocknot"] = "罗克诺特下士";
 	AL["Mistress Nagmara"] = "娜玛拉小姐";
 	AL["Summoner's Tomb"] = "召唤者之墓";
@@ -588,7 +588,7 @@ if AL then
 	AL["Father Flame"] = "烈焰之父";
 
 	--Blackwing Lair
-	AL["Orb of Domination"] = "统御宝珠";
+	AL["Orb of Domination"] = "龙翼祭坛";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
 
 	--Gnomeregan
@@ -646,7 +646,7 @@ if AL then
 	AL["Compendium of the Fallen"] = "堕落者纲要";
 
 	--Stratholme - Crusader's Square
-	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
+	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "十字军指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "工匠大师威尔海姆 <圣光兄弟会>";
 	AL["Packmaster Stonebruiser <Brotherhood of the Light>"] = "马队管理者布鲁斯·石锤 <圣光兄弟会>";
 	AL["Stratholme Courier"] = "斯坦索姆信使";
@@ -660,7 +660,7 @@ if AL then
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "长者广场邮箱";
 	AL["Archmage Angela Dosantos <Brotherhood of the Light>"] = "大法师安吉拉·杜萨图斯 <圣光兄弟会>";
-	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "指挥官科尔法克斯 <圣光兄弟会>";
+	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "十字军指挥官科尔法克斯 <圣光兄弟会>";
 
 	--The Deadmines
 	AL["Lumbering Oaf"] = "伐木场巨怪";
@@ -917,7 +917,7 @@ if AL then
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
 	AL["Wrath of the Lich King"] = "巫妖王之怒";
-	AL["The Captain's Chest"] = "船长的箱子";
+	AL["The Captain's Chest"] = "队长的箱子";
 
 	--The Frozen Halls: Pit of Saron
 	--6 beginning NPCs omitted, see The Forge of Souls
@@ -984,7 +984,7 @@ if AL then
 	AL["Cavern Entrance"] = "洞穴入口";
 
 	--Ulduar General
-	AL["The Siege"] = "城墙";
+	AL["The Siege"] = "攻城区域";
 	AL["The Keepers"] = "守护者";
 
 	--Ulduar A
@@ -994,7 +994,7 @@ if AL then
 	AL["Tower of Storms"] = "风暴之塔";
 
 	--Ulduar B
-	AL["Prospector Doren"] = "勘察员多伦";
+	AL["Prospector Doren"] = "勘探员多尔伦";
 	AL["Archivum Console"] = "档案馆控制台";
 
 	--Ulduar C
@@ -1072,7 +1072,7 @@ if AL then
 	--Throne of the Tides
 	AL["Captain Taylor"] = "泰勒上尉";
 	AL["Legionnaire Nazgrim"] = "军团士兵纳兹戈林";
-	AL["Neptulon"] = "奈普图隆";
+	AL["Neptulon"] = "耐普图隆";
 
 	--Zul'Aman
 	AL["Vol'jin"] = "沃金";

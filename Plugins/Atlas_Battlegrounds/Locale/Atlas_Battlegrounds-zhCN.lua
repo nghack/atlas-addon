@@ -40,7 +40,7 @@ if AL then
 	AL["North"] = "北部";
 	AL["Reputation"] = "阵营";
 	AL["Rescued"] = "被营救";
-	AL["Span of 5"] = "Span of 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
+	AL["Span of 5"] = "每5级一阶"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
 	AL["South"] = "南部";
 	AL["Start"] = "起始点";
 	AL["Summon"] = "召唤";

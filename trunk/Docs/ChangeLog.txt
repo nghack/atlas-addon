@@ -8,11 +8,21 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 
 v1.21.1 (Dec. xx, 2011)
-- Updated Dragon soul info
-- Updated End Time info
-- Updated Well of Eternity info
-- Updated Hour of Twilight info
-- Fixed Caverns of Time entrance map
+- Maps Updated: 
+    - Dragon Soul (dubca7, Dynaletik)
+    - End Time (dubca7, Dynaletik)
+    - Well of Eternity (dubca7, Dynaletik)
+    - Hour of Twilight (dubca7, Dynaletik)
+    - Caverns of Time (dubca7, Dynaletik)
+- Fixed Gnomeregan map info to point to correct dungeon ID
+- Fixed Dragon Soul map's auto-selection issue (Dynaletik)
+- Translation update
+    - zhCN translation update (dh0000)
+    - Copy esES to esMX
+    - Added ptBR and ptPT translation (Barkend, limited translation for now)
+- Lib update:
+    - Update Lib-BabbleSubZone to release 4 to prevent from multiple addons
+      loaded the same lib and causing translation missing issue
 
 v1.21.0 (Nov. 29, 2011)
 - Update TOC to support WoW 4.3

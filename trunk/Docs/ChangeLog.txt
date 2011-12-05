@@ -7,7 +7,7 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.21.1 (Dec. xx, 2011)
+v1.21.1 (Dec. 06, 2011)
 - Maps Updated: 
     - Dragon Soul (dubca7, Dynaletik)
     - End Time (dubca7, Dynaletik)

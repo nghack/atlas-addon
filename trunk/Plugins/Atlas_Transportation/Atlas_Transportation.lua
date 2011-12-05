@@ -69,6 +69,7 @@ local myData = {
 		{ PURP.." B') "..BZ["Ramkahen"]..", "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." D') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
+		{ PURP.." E') "..BZ["Darkmoon Island"] };
 		{ WHIT.."29) "..BZ["The Mystic Ward"]..", "..BZ["Ironforge"]..", "..BZ["Dun Morogh"] };
 		{ WHIT.."43) "..BZ["Mage Quarter"]..", "..BZ["Stormwind"]..", "..BZ["Elwynn Forest"] };
 		{ "" };
@@ -461,6 +462,7 @@ local myData = {
 		{ PURP.." E') "..BZ["Vashj'ir"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." F') "..BZ["Dragonmaw Port"]..", "..BZ["Twilight Highlands"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." G') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." H') "..BZ["Darkmoon Island"] };
 		{ WHIT.." 2) "..BZ["Spirit Rise"]..", "..BZ["Thunder Bluff"]..", "..BZ["Mulgore"] };
 		{ WHIT.." 5) "..BZ["Valley of Spirits"]..", "..BZ["Orgrimmar"]..", "..BZ["Durotar"] };
 		{ "" };
@@ -839,7 +841,7 @@ local myData = {
 		{ CYAN.."-- : "..AL["Ship / Zeppelin sailing path to destination"] };	
 	};
 	TransDeepholm = {
-		ZoneName= { BZ["Deepholm"] };
+		ZoneName = { BZ["Deepholm"] };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Temple of Earth"] };
 		{ PURP.." B) "..BZ["Therazane's Throne"] };
@@ -849,6 +851,12 @@ local myData = {
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
 		
+	};
+	DarkmoonFaire = {
+		ZoneName = { BZ["Darkmoon Island"] };
+		{ PURP.." A) "..AL["Portals"] };
+		{ PURP..INDENT.." -> "..BZ["Elwynn Forest"] };
+		{ PURP..INDENT.." -> "..BZ["Mulgore"] };
 	};
 };
 

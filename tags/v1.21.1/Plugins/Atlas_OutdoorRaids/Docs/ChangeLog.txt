@@ -1,0 +1,38 @@
+Atlas, a World of Warcraft instance map browser
+Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
+Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+
+==============
+= Change Log =
+==============
+v1.21.0 (Nov. 29, 2011)
+- Update TOC to support WoW 4.3
+- Splitted from core Atlas addon to be a separated plugin addon
+
+v1.20.1 (Sep. 09, 2011)
+
+v1.20.0 (Jun. 28, 2011)
+- TOC update to support WoW 4.2
+
+v1.19.2 (May 30, 2011)
+
+v1.19.1 (May 06, 2011)
+
+v1.19.0 (Apr. 28, 2011)
+- Support WoW 4.1
+
+v1.18.3 (Apr. 13, 2011)
+
+v1.18.2 (Jan. 28, 2011)
+
+v1.18.1 (Jan. 06, 2011)
+  
+v1.18.0 (Dec. 07, 2010)
+
+v1.17.2 (Oct. 18, 2010)
+
+v1.17.1 (Oct. 13, 2010)
+- support WoW 4.0
+
+v1.17.0 (Aug. 15, 2010)

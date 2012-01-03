@@ -98,7 +98,9 @@ if AL then
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Atlasfenster im Bildschirm festhalten. Deaktivieren, um das Atlasfenster über den Spielfensterrand hinaus bewegen zu können.";
 	AL["ATLAS_OPTIONS_CTRL"] = "Steuerung drücken, um Tooltips anzuzeigen";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Aktivieren, um die Kartendetails beim Drücken der Strg-Taste und Überfahren eines Eintrages anzuzeigen. Nützlich, falls der dargestellte Text länger als das Fenster groß ist.";
+	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Diese Information nicht erneut anzeigen.";
 
+	AL["ATLAS_BUTTON_CLOSE"] = "Schließen";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
 	AL["ATLAS_LDB_HINT"] = "Linke Maustaste drücken, um Atlas zu öffnen.\nRechte Maustaste drücken, um die Atlas Optionen anzuzeigen.";
@@ -144,6 +146,9 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "Daher wurden diese Module deaktiviert.";
 	AL["ATLAS_DEP_MSG3"] = "Entfernen Sie diese aus Ihrem Verzeichnis AddOns.";
 	AL["ATLAS_DEP_OK"] = "OK";
+
+	AL["ATLAS_INFO"] = "Atlas Information";
+	AL["ATLAS_INFO_SPTACK"] = "Wichtiger Hinweis:\n\nDa die Addondatei stets größer wird, wurde ein Teil \nder Instanzkarten in getrennte Module verschoben.\n\nBeim Download des Addons von den bekannten Webseiten \nerhält man daher nun lediglich das Haupt-Addon mit den Kernfunktionen \nund den Instanzkarten von Cataclysm.\n\nWer alle alten Instanzkarten und alle Atlas Plugins benötigt, \nmuss diese seperat herunterladen.\n\nMehr Infos dazu gibt es im Forum:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

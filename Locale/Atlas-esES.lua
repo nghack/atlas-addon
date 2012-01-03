@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 22/11/2011
+-- Última Actualización (last update): 03/01/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -94,7 +94,9 @@ if AL then
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Fija la ventana de Atlas. Desactiva el poder mover la ventana de Atlas fuera de la pantalla del juego.";
 	AL["ATLAS_OPTIONS_CTRL"] = "Pulsar control para ver las herramientas";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Activa mostrar ventanas emergentes de texto mientras pulsas Ctrl y pasas el ratón por encima de la información del mapa. Es util cuando el texto es demasiado largo y no se puede mostrar en la ventana.";
+	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "No mostrar la misma información de nuevo.";
 
+	AL["ATLAS_BUTTON_CLOSE"] = "Cerrar";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho y arrastrar para mover el icono.";
 	AL["ATLAS_LDB_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho para mostrar el menú.";
@@ -140,8 +142,11 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "Se han sido desactivados para este personaje.";
 	AL["ATLAS_DEP_MSG3"] = "Borralos de tu directorio AddOns.";
 	AL["ATLAS_DEP_OK"] = "Vale";
+	
+	AL["ATLAS_INFO"] = "Información de Atlas";
+	AL["ATLAS_INFO_SPTACK"] = "Aviso importante:\n\nDebido a motivos de aumento en el tamaño de los archivos del accesorio, hemos \nextraido parte de nuestros mapas de mazmorras y otros accesorios internos \nen módulos separados.\n\nLos usuarios que descarguen nuestro accesorio desde famosas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de mazmorras de Cataclysm.\n\nLos usuarios que también quieran descargar todos los mapas de \nlas mazmorras antiguas y los mapas de todos los \nplug-ins de Atlas hechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes leer debajo el topic del foro :\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
---************************************************
+	--************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 

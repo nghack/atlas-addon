@@ -36,6 +36,51 @@ detailed drop and item information for every encounter, but there are also
 packages for quest information and major city maps as well.
 
 
+==================
+= Recent Changes =
+==================
+You should always check our change logs to see the list of changes in each 
+release, although in most of cases we are only list it briefly.
+
+Note that started from v1.21.0, due to the total size of our addon is 
+increasing bigger and bigger since we are having more and more maps, we have 
+heard many users complaining about the download issue, and suggested us to 
+find some workaround.
+
+We have discussed internally and also discuss with Curse team, our final 
+decision is to separate our built-in plugins into individual addon packages 
+(also individual addon projects).
+
+Also, we have moved out the old dungeon maps and re-categorized them based on 
+the expansion set. For example, Burning Crusade dungeon maps are now only 
+available in another addon package.
+
+This provide the flexibility of addon downloading. Users who don't need any 
+specific plugin or expansion dungeon maps can decide not to download them. 
+Or, those plugins and old dungeon maps won't get frequently updated, therefore, 
+users who have download all the Atlas addon packages don't need to download 
+all the packages each time when there is a new release. 
+
+Please read below our forum post for the core addon, modules, and plugins' 
+download path:
+http://www.atlasmod.com/phpBB3/viewtopic.php?t=1522
+
+
+==================
+= How to Install =
+==================
+Unzip the package into your World of Warcraft folder. Your zip software must 
+preserve directory structures. 
+
+For example, assuming your WoW was installed on your C:\Games\WoW, then you
+should extract the ZIP into C:\Games\WoW\Interface\Addons.
+
+So you should have below folder after extracted:
+C:\Games\WoW\Interface\Addons\Atlas
+
+If you're having trouble, please visit the Atlas FAQ:
+http://www.atlasmod.com/phpBB3/viewtopic.php?t=3 
+
 
 =============
 = Resources =
@@ -46,6 +91,7 @@ http://www.atlasmod.com/
 
 For questions or support, please visit the forums:
 http://www.atlasmod.com/phpBB3/
+
 
 ===========
 = Contact =

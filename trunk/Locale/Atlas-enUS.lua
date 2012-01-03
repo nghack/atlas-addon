@@ -91,7 +91,9 @@ if AL then
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "Clamp Atlas window to screen, disable to allow Atlas window can be dragged outside the game screen.";
 	AL["ATLAS_OPTIONS_CTRL"] = "Hold down Control for tooltips";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Enable to show tooltips text while hold down control key and mouse over the map info. Useful when the text is too long to be displayed in the window.";
+	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Don't show the same information again.";
 
+	AL["ATLAS_BUTTON_CLOSE"] = "Close";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
 	AL["ATLAS_LDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.";
@@ -137,6 +139,9 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "They have been disabled for this character.";
 	AL["ATLAS_DEP_MSG3"] = "Delete them from your AddOns folder.";
 	AL["ATLAS_DEP_OK"] = "Ok";
+	
+	AL["ATLAS_INFO"] = "Atlas Information";
+	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in addons into separated modules.\n\nUsers who download our addons from some of the famous game web sites \nmay only get the core addon which only include the Atlas core function \nand the Cataclysm dungeon maps.\n\nUsers who also want to download all the old dungeon maps and all the \nAtlas plug-ins made by us would need to download them separately.\n\nRead below forum topic for more information:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 	
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

@@ -60,22 +60,23 @@ ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2";
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
-	["AtlasAlpha"] = 1.0;		-- Atlas frame's transparency
-	["AtlasLocked"] = false;	-- lock Atlas frame position
-	["AtlasAutoSelect"] = false;	-- auto select map
-	["AtlasButtonPosition"] = 26;	-- minimap button position
-	["AtlasButtonRadius"] = 78;	-- minimap button radius
-	["AtlasButtonShown"] = true;	-- show / hide Atlas button
-	["AtlasRightClick"] = false;	-- right click to open world map
-	["AtlasType"] = 1;		-- default or last selected map type (category)
-	["AtlasZone"] = 1;		-- default or last selected map / zone
-	["AtlasAcronyms"] = true;	-- show dungeon's acronyms
-	["AtlasScale"] = 1.0;		-- Atlas frame scale
-	["AtlasClamped"] = true;	-- clamp to WoW window
-	["AtlasSortBy"] = 1;		-- maps' sorting type, 1: CONTINENT; 2: LEVEL; 3: PARTYSIZE; 4: EXPANSION; 5: TYPE
-	["AtlasCtrl"] = false;		-- press ctrl and mouse over to show full description text
-	["AtlasBossDesc"] = true;	-- toggle to show boss description or not
-	["AtlasBossDescScale"] = 0.9;	-- the boss description GameToolTip scale
+	["AtlasAlpha"] = 1.0;			-- Atlas frame's transparency
+	["AtlasLocked"] = false;		-- lock Atlas frame position
+	["AtlasAutoSelect"] = false;		-- auto select map
+	["AtlasButtonPosition"] = 26;		-- minimap button position
+	["AtlasButtonRadius"] = 78;		-- minimap button radius
+	["AtlasButtonShown"] = true;		-- show / hide Atlas button
+	["AtlasRightClick"] = false;		-- right click to open world map
+	["AtlasType"] = 1;			-- default or last selected map type (category)
+	["AtlasZone"] = 1;			-- default or last selected map / zone
+	["AtlasAcronyms"] = true;		-- show dungeon's acronyms
+	["AtlasScale"] = 1.0;			-- Atlas frame scale
+	["AtlasClamped"] = true;		-- clamp to WoW window
+	["AtlasSortBy"] = 1;			-- maps' sorting type, 1: CONTINENT; 2: LEVEL; 3: PARTYSIZE; 4: EXPANSION; 5: TYPE
+	["AtlasCtrl"] = false;			-- press ctrl and mouse over to show full description text
+	["AtlasBossDesc"] = true;		-- toggle to show boss description or not
+	["AtlasBossDescScale"] = 0.9;		-- the boss description GameToolTip scale
+	["AtlasDontShowInfo"] = false;		-- Atlas latest information
 };
 
 --Code by Grayhoof (SCT)
@@ -304,9 +305,51 @@ function Atlas_PopulateDropdowns()
 	end
 end
 
+-- function to pop up a window to show the latest addon information
+local function Atlas_ShowInfo()
+	if (AtlasOptions["AtlasDontShowInfo"] == true) then
+		return;
+	else
+		AtlasInfoFrame:Show();
+		AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo);
+	end
+end
+
+function Atlas_ShowInfo_Toggle()
+	if (AtlasOptions["AtlasDontShowInfo"]) then
+		AtlasOptions["AtlasDontShowInfo"] = false;
+	else
+		AtlasOptions["AtlasDontShowInfo"] = true;
+	end
+	AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo);
+end
 
 ATLAS_OLD_TYPE = false;
 ATLAS_OLD_ZONE = false;
+
+function Atlas_InitOptions()
+	--init saved vars for a new install
+	if ( AtlasOptions == nil ) then
+		Atlas_FreshOptions();
+	end
+	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
+	--can be removed after 1.21.0 release
+	if (AtlasOptions["AtlasBossDescScale"] == nil) then
+		AtlasOptions["AtlasBossDescScale"] = 0.9;
+	end
+	if (AtlasOptions["AtlasBossDesc"] == nil) then
+		AtlasOptions["AtlasBossDesc"] = true;
+	end
+
+	if (AtlasOptions["AtlasDontShowInfo"] == nil) then
+		AtlasOptions["AtlasDontShowInfo"] = false;
+	end
+	
+	--saved options version check
+	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
+		Atlas_FreshOptions();
+	end
+end
 
 --Initializes everything relating to saved variables and data in other lua files
 --This should be called ONLY when we're sure our variables are in memory
@@ -324,25 +367,8 @@ function Atlas_Init()
 	--make the Atlas window go all the way to the edge of the screen, exactly
 	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);
 
-	--init saved vars for a new install
-	if ( AtlasOptions == nil ) then
-		Atlas_FreshOptions();
-	end
-	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
-	--can be removed after 1.21.0 release
-	
-	if (AtlasOptions["AtlasBossDescScale"] == nil) then
-		AtlasOptions["AtlasBossDescScale"] = 0.9;
-	end
-	if (AtlasOptions["AtlasBossDesc"] == nil) then
-		AtlasOptions["AtlasBossDesc"] = true;
-	end
-	
-	--saved options version check
-	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
-		Atlas_FreshOptions();
-	end
-	
+	Atlas_InitOptions();
+
 	--populate the dropdown lists...yeeeah this is so much nicer!
 	Atlas_PopulateDropdowns();
 	
@@ -380,6 +406,7 @@ function Atlas_Init()
 		end,
 	})
 	
+	Atlas_ShowInfo();
 end
 
 --Simple function to toggle the Atlas frame's lock status and update it's appearance

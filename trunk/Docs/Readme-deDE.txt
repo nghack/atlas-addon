@@ -31,6 +31,47 @@ AtlasLoot ist die wohl bekannteste und versorgt Sie mit detaillierten Drop- und 
 der jeweiligen Bosse. Es gibt allerdings auch Pakete für Questinformationen und größere Städte.
 
 
+=======================
+= Aktuelle Änderungen =
+=======================
+
+Sie sollten immer das Changelog in jedem Release beachten,
+welcher in aller Kürze die Änderungen auflistet.
+
+Seit Version 1.21.0 haben wir sämtliche Karten des Addons
+in verschiedene Module und Plugins aufgeteilt, da durch die steigende
+Anzahl der Instanzkarten die Größe des Downloadarchivs stetig zunimmt.
+
+So enthält das Kernaddon jetzt nur noch die Instanzkarten der aktuellen Erweiterung.
+Instanzkarten älterer Erweiterungen sowie Schlachtfeldkarten u.ä. befinden sich daher
+nun in separaten Addonpaketen.
+
+Wenn Sie also alte oder zusätzliche Karten nicht benötigen, müssen Sie diese nun
+nicht mehr herunterladen. Da Änderungen meistens nur an den aktuellen Karten
+vorgenommen werden, müssen die "alten" Pakete darüber hinaus nicht jedes Mal
+aktualisiert werden. 
+
+Bitte schauen Sie im Forum nach den Downloadmöglichkeiten des Kernaddons,
+der Module und Plugins:
+http://www.atlasmod.com/phpBB3/viewtopic.php?t=1522
+
+
+================
+= Installation =
+================
+
+Entpacken Sie das Archiv in Ihren World of Warcraft Addons Ordner.
+Das ZIP-Programm muss die Verzeichnisstuktur beibehalten. 
+
+Wenn Sie  WoW zum Beispiel nach C:\Games\WoW installiert haben,
+müssen Sie das ZIP Archiv nach C:\Games\WoW\Interface\Addons entpacken.
+
+Der folgende Ordner sollte dann entpackt worden sein:
+C:\Games\WoW\Interface\Addons\Atlas
+
+Sollten Probleme auftreten, schauen Sie in die Atlas FAQ:
+http://www.atlasmod.com/phpBB3/viewtopic.php?t=3
+
 
 =============
 = Ressourcen =
@@ -43,13 +84,12 @@ Für Fragen oder Unterstützung besuchen Sie bitte das Forum:
 http://www.atlasmod.com/phpBB3/
 
 
-
 ===========
 = Kontakt =
 ===========
 
 Sie können den Projekteigentümer unter folgender Adresse erreichen:
-Arith Hsu
+atlas.addon@gmail.com
 Oder hinterlassen Sie eine Nachricht im Forum.
 
 

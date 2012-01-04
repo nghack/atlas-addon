@@ -39,6 +39,7 @@ packages for quest information and major city maps as well.
 ==================
 = Recent Changes =
 ==================
+
 You should always check our change logs to see the list of changes in each 
 release, although in most of cases we are only list it briefly.
 
@@ -69,6 +70,7 @@ http://www.atlasmod.com/phpBB3/viewtopic.php?t=1522
 ==================
 = How to Install =
 ==================
+
 Unzip the package into your World of Warcraft folder. Your zip software must 
 preserve directory structures. 
 

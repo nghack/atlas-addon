@@ -90,7 +90,9 @@ if AL then
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 窗口被拖曳时不会超出游戏主画面的边界, 关闭此选项则可将 Atlas 窗口拖曳并超出游戏画面边界。";
 	AL["ATLAS_OPTIONS_CTRL"] = "按下 Ctrl 显示弹出工具说明";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾选后当鼠标移到地图信息字段时，按下 Ctrl 控制键，则会将信息的完整信息以提示型态显示。当信息过长而被截断时很有用。";
+	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "不再显示相同信息。";
 
+	AL["ATLAS_BUTTON_CLOSE"] = "关闭";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "单击打开 Atlas。\n中键单击打开 Atlas 选项。\n右击可移动这个按钮。";
 	AL["ATLAS_LDB_HINT"] = "单击打开 Atlas。\n右击打开 Atlas 选项。";
@@ -136,6 +138,9 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "这些插件已经被禁用。";
 	AL["ATLAS_DEP_MSG3"] = "请从插件目录（AddOns）中将其删除。";
 	AL["ATLAS_DEP_OK"] = "确定";
+
+	AL["ATLAS_INFO"] = "Atlas 信息";
+	AL["ATLAS_INFO_SPTACK"] = "重要提示：\n\n由于增加插件文件大小的关注，我们移出\n部分地下城地图和内置插件到单独模块。\n\n用户可以从各大知名的游戏站点下载我们\n的插件可能只包含了 Atlas 核心功能以及\n大灾变地图。\n\n用户如果想下载全部旧地下城地图和全部\n我们制作的 Atlas 其他模块需要单独下载。\n\n阅读更多信息在下面的论坛主题：\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

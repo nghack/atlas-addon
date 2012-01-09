@@ -89,7 +89,9 @@ if AL then
 	AL["ATLAS_OPTIONS_CLAMPED_TIP"] = "使 Atlas 視窗被拖曳時不會超出遊戲主畫面的邊界, 關閉此選項則可將 Atlas 視窗拖曳並超出遊戲畫面邊界";
 	AL["ATLAS_OPTIONS_CTRL"] = "按住 Ctrl 鍵以顯示工具提示";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾選後, 當滑鼠移到地圖資訊欄位時, 按下 Ctrl 控制鍵, 則會將資訊的完整資訊以提示型態顯示. 當資訊過長而被截斷時很有用.";
+	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "不再顯示相同訊息。";
 
+	AL["ATLAS_BUTTON_CLOSE"] = "關閉";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas 副本地圖";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
 	AL["ATLAS_LDB_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
@@ -135,6 +137,9 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "這些模組已從這個角色被停用";
 	AL["ATLAS_DEP_MSG3"] = "請將這些模組從 AddOns 目錄移除";
 	AL["ATLAS_DEP_OK"] = "OK";
+
+	AL["ATLAS_INFO"] = "Atlas 訊息";
+	AL["ATLAS_INFO_SPTACK"] = "重要提示：\n\n由於增加插件文件大小的關注，我們移出\n部分地城地圖和內置插件到單獨模組。\n\n用戶可以從各大知名的遊戲站點下載我們\n的插件可能只包含了 Atlas 核心功能以及\n大災變地圖。\n\n用戶如果想下載全部舊地城地圖和全部\n我們製作的 Atlas 其他模組需要單獨下載\n\n閱讀更多訊息在下面的論壇主題：\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

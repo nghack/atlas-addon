@@ -597,7 +597,7 @@ if AL then
 	AL["Father Flame"] = "Père des flammes";
 
 	--Blackwing Lair
-	AL["Orb of Domination"] = "Orb of Domination";
+	AL["Orb of Domination"] = "Orbe de domination";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
 
 	--Gnomeregan

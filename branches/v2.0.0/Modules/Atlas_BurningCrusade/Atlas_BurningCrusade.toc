@@ -1,4 +1,4 @@
-﻿## Interface: 40300
+﻿## Interface: 50000
 ## Title: Atlas |r|cFF0099FF[Burning Crusade]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Burning Crusade]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Burning Crusade]|r
@@ -6,9 +6,9 @@
 ## Notes: Burning Crusade Dungeon Maps
 ## Notes-deDE: Burning Crusade Instanzkarten
 ## Notes-zhTW: 燃燒的遠征副本地圖模組
-## Version: 1.21.0
+## Version: 2.0.0
 ## Author: arith, Dynaletik, Deadca7
-## X-Date: November 29, 2011
+## X-Date: 
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

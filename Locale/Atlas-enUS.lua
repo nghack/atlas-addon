@@ -105,13 +105,15 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Outland Instances";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Northrend Instances";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Deepholm Instances";
+	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Pandaria Instances";
 	AL["ATLAS_DDL_LEVEL"] = "Level";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances Under Level 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Level 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "Instances Level 60-70";
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Instances Level 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Instances Level 80-85";
-	AL["ATLAS_DDL_LEVEL_85PLUS"] = "Instances Level 85+";
+	AL["ATLAS_DDL_LEVEL_85TO90"] = "Instances Level 85-90";
+	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Instances Level 90+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Instances for 5 Players A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Instances for 5 Players F-S";
@@ -125,6 +127,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Burning Crusade Instances";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Wrath of the Lich King Instances";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances";
+	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mists of Pandaria Instances";
 	AL["ATLAS_DDL_TYPE"] = "Type";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Instances A-C";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instances D-R";
@@ -240,7 +243,6 @@ if AL then
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
-	AL["Armory"] = "Armory"; -- Armory
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	AL["BRD"] = "BRD"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
@@ -248,9 +250,7 @@ if AL then
 	AL["Cath"] = "Cath"; -- Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
-	AL["GY"] = "GY"; -- Graveyard
 	AL["LBRS"] = "LBRS"; -- Lower Blackrock Spire
-	AL["Lib"] = "Lib"; -- Library
 	AL["Mara"] = "Mara"; -- Maraudon
 	AL["MC"] = "MC"; -- Molten Core
 	AL["RFC"] = "RFC"; -- Ragefire Chasm
@@ -350,6 +350,17 @@ if AL then
 	AL["VP"] = "VP"; --The Vortex Pinnacle
 	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
+
+	--MoP Acronyms
+	AL["GSS"] = "GSS"; --Gate of the Setting Sun
+	AL["HoF"] = "HoF; --Heart of Fear
+	AL["MP"] = "MP"; --Mogu'shan Palace
+	AL["MV"] = "MV"; --Mogu'shan Vaults
+	AL["SPM"] = "SPM"; --Shado-pan Monastery
+	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
+	AL["SB"] = "SB"; --Stormstout Brewery
+	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
+	AL["TES"] = "TES"; --Terrace of Endless Spring
 
 --************************************************
 -- Instance Entrance Maps
@@ -633,23 +644,11 @@ if AL then
 	AL["Haunted Stable Hand"] = "Haunted Stable Hand";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
-	--SM: Armory
-	AL["Joseph the Crazed"] = "Joseph the Crazed";
-	AL["Dark Ranger Velonara"] = "Dark Ranger Velonara";
-	AL["Dominic"] = "Dominic";
-
 	--SM: Cathedral
 	AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
-	AL["Joseph the Insane <Scarlet Champion>"] = "Joseph the Insane <Scarlet Champion>";
 
-	--SM: Graveyard
-	AL["Vorrel Sengutz"] = "Vorrel Sengutz";
-	AL["Pumpkin Shrine"] = "Pumpkin Shrine";
-	AL["Joseph the Awakened"] = "Joseph the Awakened";
-
-	--SM: Library
-	AL["Library"] = "Library";
-	AL["Compendium of the Fallen"] = "Compendium of the Fallen";
+	--SM: Halls
+	AL["Halls"] = "Halls"; -- Subzone of Scarlet Monastery
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
@@ -897,7 +896,7 @@ if AL then
 	--TK: The Eye
 
 --*****************
--- WotLK Instances
+-- Wrath of the Lich King Instances
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
@@ -1136,5 +1135,47 @@ if AL then
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <The Tolling Bell>";
 	AL["Tiki Lord Zim'wae"] = "Tiki Lord Zim'wae";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Zanzil's Cauldron of Burning Blood";
+
+--*********************
+-- Mists of Pandaria Instances
+--*********************
+
+	--Gate of the Setting Sun
+
+	--Heart of Fear
+
+	--Mogu'shan Palace
+
+	--Mogu'shan Vaults
+
+	--Shado-pan Monastery
+
+	--Siege of Niuzao Temple
+
+	--Stormstout Brewery
+
+	--Temple of the Jade Serpent
+
+	--Terrace of Endless Spring
+
+
+--*********************
+-- SubZone strings, DO NOT TRANSLATE, they will get replaced when Babble-SubZone is updated
+--*********************
+
+	AL["Gate of the Setting Sun"] = "Gate of the Setting Sun";
+	AL["Heart of Fear"] = "Heart of Fear";
+	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
+	AL["Mogu'shan Palace"] = "Mogu'shan Palace";
+	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
+	AL["Shado-pan Monastery"] = "Shado-pan Monastery";
+	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";
+	AL["Stormstout Brewery"] = "Stormstout Brewery";
+	AL["Temple of the Jade Serpent"] = "Temple of the Jade Serpent";
+	AL["Terrace of Endless Spring"] = "Terrace of Endless Spring";
+	AL["The Jade Forest"] = "The Jade Forest";
+	AL["Townlong Steppes"] = "Townlong Steppes";
+	AL["Vale of Eternal Blossoms"] = "Vale of Eternal Blossoms";
+	AL["Valley of the Four Winds"] = "Valley of the Four Winds";
 
 end

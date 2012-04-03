@@ -33,11 +33,13 @@ if AL then
 	AL["Ancient Skull Pile"] = "Ancient Skull Pile";
 	AL["Darkscreecher Akkarai"] = "Darkscreecher Akkarai";
 	AL["Gezzarak the Huntress"] = "Gezzarak the Huntress";
+	AL["Graveyard"] = "Graveyard";
 	AL["Grella <Skyguard Quartermaster>"] = "Grella <Skyguard Quartermaster>";
 	AL["Hazzik"] = "Hazzik";
 	AL["Hazzik's Package"] = "Hazzik's Package";
 	AL["Karrog"] = "Karrog";
 	AL["Outdoor Raid Encounters"] = "Outdoor Raid Encounters";
+	AL["Pandaria World Bosses"] = "Pandaria World Bosses";
 	AL["Random"] = "Random";
 	AL["Sahaak <Keeper of Scrolls>"] = "Sahaak <Keeper of Scrolls>";
 	AL["Severin <Skyguard Medic>"] = "Severin <Skyguard Medic>";
@@ -52,5 +54,8 @@ if AL then
 	AL["Talonpriest Zellek"] = "Talonpriest Zellek";
 	AL["Terokk"] = "Terokk";
 	AL["Vakkiz the Windrager"] = "Vakkiz the Windrager";
-	AL["Graveyard"] = "Graveyard";
+
+-- DO NOT TRANSLATE FOLLOWING, will get updated
+	AL["Pandaria"] = "Pandaria";
+
 end

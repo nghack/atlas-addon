@@ -6,6 +6,10 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v2.0.0 (Sep. xx, 2012)
+- Added back Blackrock Mountain Entrance, Shadowfang Keep, The Deadmines, The Deadmines Entrance maps
+- Removed Scarlet Monastery Entrance, SM Armory, SM Cathedral, SM Graveyard, SM Libraray, Scholomance maps
+
 v1.21.0 (Nov. 29, 2011)
 - Splitted from Atlas core addon
 - Maps updated: 

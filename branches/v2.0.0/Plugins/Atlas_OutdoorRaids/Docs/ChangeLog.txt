@@ -6,6 +6,9 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v2.0.0 (Sep. xx, 2012)
+- Added Mists of Pandaria world bosses
+
 v1.21.0 (Nov. 29, 2011)
 - Update TOC to support WoW 4.3
 - Splitted from core Atlas addon to be a separated plugin addon

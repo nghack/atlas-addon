@@ -6,6 +6,9 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v2.0.0 (Sep. xx, 2012)
+- Added back Caverns Of Time Entrance map
+
 v1.21.0 (Nov. 29, 2011)
 - Splitted from Atlas core addon
 

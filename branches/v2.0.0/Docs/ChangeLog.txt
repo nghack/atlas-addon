@@ -7,6 +7,26 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v2.0.0 (Sep. XX, 2012)
+-----------------------
+- Added support for Mists of Pandaria
+- Maps added:
+    - Gate of the Setting Sun
+    - Heart of Fear
+    - Mogu'shan Palace
+    - Mogu'shan Vaults
+    - Shado-pan Monastery
+    - Siege of Niuzao Temple
+    - Stormstout Brewery
+    - Temple of the Jade Serpent
+    - Terrace of Endless Spring
+- Maps updated:
+    - Ragefire Chasm
+    - Scarlet Monastery
+    - Scholomance
+- Updated lots of boss names to use the dungeon journal
+
+
 v1.21.2 (Jan. XX, 2012)
 -----------------------
 - Added Atlas Information window when the addon is loaded

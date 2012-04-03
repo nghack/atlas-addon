@@ -229,20 +229,11 @@ Atlas_SubZoneData = {
 		["ScarletMonasteryEnt"] = {
 			BZ["The Grand Vestibule"],
 		},
-		--Scarlet Monastery, Graveyard
-		["SMGraveyard"] = {
-			BZ["Chamber of Atonement"],
-			BZ["Forlorn Cloister"],
-			BZ["Honor's Tomb"],
-		},
-		--Scarlet Monastery, Library
-		["SMLibrary"] = {
+		--Scarlet Monastery, Halls
+		["SMHalls"] = {
 			BZ["Huntsman's Cloister"],
 			BZ["Gallery of Treasures"],
 			BZ["Athenaeum"],
-		},
-		--Scarlet Monastery, Armory
-		["SMArmory"] = {
 			BZ["Training Grounds"],
 			BZ["Footman's Armory"],
 			BZ["Crusader's Armory"],
@@ -250,6 +241,9 @@ Atlas_SubZoneData = {
 		},
 		--Scarlet Monastery, Cathedral
 		["SMCathedral"] = {
+			BZ["Chamber of Atonement"],
+			BZ["Forlorn Cloister"],
+			BZ["Honor's Tomb"],
 			BZ["Chapel Gardens"],
 			BZ["Crusader's Chapel"],
 		},
@@ -416,7 +410,7 @@ Atlas_EntToInstMatches = {
 	["IcecrownEnt"] =			{"FHHallsOfReflection", "FHPitOfSaron", "FHTheForgeOfSouls", "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC"};
 	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
 	["MaraudonEnt"] =			{"Maraudon"};
-	["ScarletMonasteryEnt"] =		{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["ScarletMonasteryEnt"] =		{"SMCathedral","SMHalls"};
 	["TempestKeepEnt"] = 			{"TempestKeepArcatraz", "TempestKeepBotanica", "TempestKeepMechanar", "TempestKeepTheEye"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
@@ -471,10 +465,8 @@ Atlas_InstToEntMatches = {
 	["KarazhanStart"] =			{"KarazhanEnt"};
 	["KarazhanEnd"] =			{"KarazhanEnt"};
 	["Maraudon"] =				{"MaraudonEnt"};
-	["SMArmory"] =				{"ScarletMonasteryEnt"};
-	["SMLibrary"] =				{"ScarletMonasteryEnt"};
 	["SMCathedral"] =			{"ScarletMonasteryEnt"};
-	["SMGraveyard"] =			{"ScarletMonasteryEnt"};
+	["SMHalls"] =				{"ScarletMonasteryEnt"};
 	["TempestKeepArcatraz"] = 		{"TempestKeepEnt"};
 	["TempestKeepBotanica"] = 		{"TempestKeepEnt"}; 
 	["TempestKeepMechanar"] = 		{"TempestKeepEnt"}; 
@@ -507,10 +499,8 @@ Atlas_SubZoneAssoc = {
 	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
 	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
 	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
-	["SMGraveyard"] =			BZ["Scarlet Monastery"];
-	["SMLibrary"] =				BZ["Scarlet Monastery"];
-	["SMArmory"] =				BZ["Scarlet Monastery"];
 	["SMCathedral"] =			BZ["Scarlet Monastery"];
+	["SMHalls"] =				BZ["Scarlet Monastery"];
 	["ScarletMonasteryEnt"] =		BZ["Scarlet Monastery"];
 	["StratholmeCrusader"] =		BZ["Stratholme"];
 	["StratholmeGauntlet"] =		BZ["Stratholme"];

@@ -28,7 +28,6 @@
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
 -- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
 
-local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_OutdoorRaids");
 
@@ -47,24 +46,32 @@ local myCategory = AL["Outdoor Raid Encounters"];
 
 local myData = {
 	DoomLordKazzak = {
-		ZoneName = { BB["Doom Lord Kazzak"] };
+		ZoneName = { Atlas_GetBossName("Doom Lord Kazzak") };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ WHIT.."1) "..BB["Doom Lord Kazzak"] };
+		{ WHIT.."1) "..Atlas_GetBossName("Doom Lord Kazzak") };
 		{ WHIT.."2) "..BZ["Invasion Point: Annihilator"] };
 		{ WHIT.."3) "..BZ["Forge Camp: Rage"] };
 		{ WHIT.."4) "..BZ["Forge Camp: Mageddon"] };
 		{ WHIT.."5) "..BZ["Thrallmar"] };
 	};
 	Doomwalker = {
-		ZoneName = { BB["Doomwalker"] };
+		ZoneName = { Atlas_GetBossName("Doomwalker") };
 		Location = { BZ["Shadowmoon Valley"] };
 		LevelRange = "70+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ WHIT.."1) "..BB["Doomwalker"] };
+		{ WHIT.."1) "..Atlas_GetBossName("Doomwalker") };
+	};
+	Pandaria = {
+		ZoneName = { AL["Pandaria World Bosses"] };
+		Location = { AL["Pandaria"] };
+		LevelRange = "90+";
+		MinLevel = "--";
+		PlayerLimit = "40";
+		{ WHIT.." 1) "..Atlas_GetBossName("Sha of Anger") };
 	};
 	Skettis = {
 		ZoneName = { BZ["Skettis"] };

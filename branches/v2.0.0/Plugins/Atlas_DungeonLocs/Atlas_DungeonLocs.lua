@@ -181,6 +181,18 @@ local myData = {
 		ZoneName = { BZ["Deepholm"] };
 		{ WHIT.." 1) "..BZ["The Stonecore"] };
 	};
+	DLPandaria = {
+		ZoneName = { BZ["Pandaria"] };
+		{ WHIT.." 1) "..AL["Shado-pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
+		{ WHIT.." 2) "..AL["Terrace of Endless Spring"].." };
+		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };
+		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Townlong Steppes"] };
+		{ WHIT.." 5) "..AL["Mogu'shan Palace"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
+		{ WHIT.." 6) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
+		{ WHIT.." 7) "..AL["Temple of the Jade Serpent"]..", ".._RED..AL["The Jade Forest"] };
+		{ WHIT.." 8) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
+		{ WHIT.." 9) "..AL["Heart of Fear"].." };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_DungeonLocs", myCategory, myData);

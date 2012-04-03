@@ -32,7 +32,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 
 -- Turn ON / OFF Atlas debug mode
-local Atlas_DebugMode = false;
+local Atlas_DebugMode = true;
 local function debug(info)
 	if ( Atlas_DebugMode ) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
@@ -56,7 +56,7 @@ local AtlasMap_NPC_Text_Frame_Num = 0;
 --Atlas_NPC_Text = false;
 
 -- Only update this version number when the options have been revised and a force update is needed.
-ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
+ATLAS_OLDEST_VERSION_SAME_SETTINGS = "2.0.0"; 
 
 local DefaultAtlasOptions = {
 	["AtlasVersion"] = ATLAS_OLDEST_VERSION_SAME_SETTINGS;
@@ -163,17 +163,18 @@ local function Process_Deprecated()
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
-		{ "Atlas_Battlegrounds", "1.21.1" },
-		{ "Atlas_DungeonLocs", "1.21.0" },
-		{ "Atlas_OutdoorRaids", "1.21.0" },
-		{ "Atlas_Transportation", "1.21.1" },
-		{ "Atlas_BurningCrusade", "1.21.0" },
-		{ "Atlas_ClassicWoW", "1.21.0" },
-		{ "Atlas_WrathoftheLichKing", "1.21.0" },
+		{ "Atlas_Battlegrounds", "2.0.0" },
+		{ "Atlas_DungeonLocs", "2.0.0" },
+		{ "Atlas_OutdoorRaids", "2.0.0" },
+		{ "Atlas_Transportation", "2.0.0" },
+		{ "Atlas_BurningCrusade", "2.0.0" },
+		{ "Atlas_Cataclysm", "2.0.0" },
+		{ "Atlas_ClassicWoW", "2.0.0" },
+		{ "Atlas_WrathoftheLichKing", "2.0.0" },
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.7" }, -- updated Dec. 01, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "6.05.01" }, -- updated Dec. 06, 2011
+		{ "AtlasLoot", "7.00.00" }, -- updated Sep. xx, 2012
 		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011
 		{ "Atlas_WorldEvents", "2.4" }, -- updated Dec. 05, 2011
 	};

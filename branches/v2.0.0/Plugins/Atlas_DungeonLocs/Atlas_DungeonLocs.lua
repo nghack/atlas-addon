@@ -182,7 +182,7 @@ local myData = {
 		{ WHIT.." 1) "..BZ["The Stonecore"] };
 	};
 	DLPandaria = {
-		ZoneName = { BZ["Pandaria"] };
+		ZoneName = { AL["Pandaria"] };
 		{ WHIT.." 1) "..AL["Shado-pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
 		{ WHIT.." 2) "..AL["Terrace of Endless Spring"] };
 		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };

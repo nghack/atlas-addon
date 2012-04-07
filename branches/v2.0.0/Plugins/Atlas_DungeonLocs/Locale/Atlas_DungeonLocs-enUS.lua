@@ -58,5 +58,6 @@ if AL then
 	AL["Townlong Steppes"] = "Townlong Steppes";
 	AL["Vale of Eternal Blossoms"] = "Vale of Eternal Blossoms";
 	AL["Valley of the Four Winds"] = "Valley of the Four Winds";
+	AL["Pandaria"] = "Pandaria";
 
 end

@@ -353,7 +353,7 @@ if AL then
 
 	--MoP Acronyms
 	AL["GSS"] = "GSS"; --Gate of the Setting Sun
-	AL["HoF"] = "HoF; --Heart of Fear
+	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
 	AL["SPM"] = "SPM"; --Shado-pan Monastery

@@ -526,14 +526,14 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Slagmaw") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lava Guard Gordoth") };
 
---{{		TO BE CHECKED WHEN AVAILABLE
+--[[		TO BE CHECKED WHEN AVAILABLE
 		{ WHIT.." 1) "..Atlas_GetBossName("Oggleflint") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Taragaman the Hungerer") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Jergosh the Invoker") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Bazzalan") };
 		{ GREN.." 1') "..AL["Bovaal Whitehorn"].." ("..BF["Horde"]..")" };
 		{ GREN..INDENT..AL["Stone Guard Kurjack"].." ("..BF["Horde"]..")" };
-}}--
+]]
 
 	};
 	RazorfenDowns = {
@@ -898,7 +898,7 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Darkmaster Gandling") };
 	};
 
---{{		TO BE CHECKED WHEN AVAILABLE
+--[[		TO BE CHECKED WHEN AVAILABLE
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Blood of Innocents"].." ("..Atlas_GetBossName("Kirtonos the Herald")..")" };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Divination Scryer"].." ("..Atlas_GetBossName("Death Knight Darkreaver")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -927,7 +927,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Torch Lever"] };
 		{ GREN.." 4') "..AL["The Deed to Tarren Mill"] };
 		{ GREN.." 5') "..AL["The Deed to Brill"] };
-}}--
+]]
 
 	ShadowfangKeep = {
 		ZoneName = { BZ["Shadowfang Keep"] };

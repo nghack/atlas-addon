@@ -291,7 +291,7 @@ if AL then
 	AL["Mech"] = "Mech"; --El Mechanar
 	AL["MT"] = "TM"; --Tumbas de Maná
 	AL["Ramp"] = "Murallas"; --Murallas del Fuego Infernal
-	AL["SC"] = "CSS"; --Caverna Santuario Serpiente
+	AL["SSC"] = "CSS"; --Caverna Santuario Serpiente
 	AL["Seth"] = "Seth"; --Salas Sethekk
 	AL["SH"] = "SA"; --Las Salas Arrasadas
 	AL["SL"] = "LS"; --Laberinto de las sombras

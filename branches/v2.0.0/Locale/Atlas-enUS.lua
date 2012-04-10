@@ -247,9 +247,10 @@ if AL then
 	AL["BRD"] = "BRD"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
 	AL["BWL"] = "BWL"; -- Blackwing Lair
-	AL["Cath"] = "Cath"; -- Cathedral
+	AL["Cath"] = "Cath"; -- Scarlet Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
+	AL["Halls"] = "Halls"; -- Scarlet Halls
 	AL["LBRS"] = "LBRS"; -- Lower Blackrock Spire
 	AL["Mara"] = "Mara"; -- Maraudon
 	AL["MC"] = "MC"; -- Molten Core
@@ -288,7 +289,7 @@ if AL then
 	AL["Mech"] = "Mech"; -- The Mechanar
 	AL["MT"] = "MT"; -- Mana-Tombs
 	AL["Ramp"] = "Ramp"; -- Hellfire Ramparts
-	AL["SC"] = "SC"; -- Serpentshrine Cavern
+	AL["SSC"] = "SSC"; -- Serpentshrine Cavern
 	AL["Seth"] = "Seth"; -- Sethekk Halls
 	AL["SH"] = "SH"; -- The Shattered Halls
 	AL["SL"] = "SL"; -- Shadow Labyrinth
@@ -507,8 +508,8 @@ if AL then
 	AL["Elder Splitrock"] = "Elder Splitrock";
 
 	--Ragefire Chasm
-	AL["Bovaal Whitehorn"] = "Bovaal Whitehorn";
-	AL["Stone Guard Kurjack"] = "Stone Guard Kurjack";
+	AL["Commander Bagran"] = "Commander Bagran";
+	AL["Invoker Xorenth"] = "Invoker Xorenth";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -622,17 +623,9 @@ if AL then
 	--Molten Core
 
 	--Scholomance
-	AL["Blood of Innocents"] = "Blood of Innocents";
-	AL["Divination Scryer"] = "Divination Scryer";
-	AL["Alexi Barov <House of Barov>"] = "Alexi Barov <House of Barov>";
-	AL["Weldon Barov <House of Barov>"] = "Weldon Barov <House of Barov>";
-	AL["Eva Sarkhoff"] = "Eva Sarkhoff";
-	AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
-	AL["The Deed to Caer Darrow"] = "The Deed to Caer Darrow";	
-	AL["The Deed to Southshore"] = "The Deed to Southshore";
-	AL["Torch Lever"] = "Torch Lever";
-	AL["The Deed to Tarren Mill"] = "The Deed to Tarren Mill";
-	AL["The Deed to Brill"] = "The Deed to Brill";
+	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["Professor Slate"] = "Professor Slate";
+	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";
@@ -645,10 +638,10 @@ if AL then
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
 	--SM: Cathedral
-	AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
 
 	--SM: Halls
-	AL["Halls"] = "Halls"; -- Subzone of Scarlet Monastery
+	AL["Hunter Commander"] = "Hunter Commander";
+	AL["Archery Target"] = "Archery Target";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
@@ -1168,6 +1161,8 @@ if AL then
 	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
 	AL["Mogu'shan Palace"] = "Mogu'shan Palace";
 	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
+	AL["Scarlet Cathedral"] = "Scarlet Cathedral";
+	AL["Scarlet Halls"] = "Scarlet Halls";
 	AL["Shado-pan Monastery"] = "Shado-pan Monastery";
 	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";
 	AL["Stormstout Brewery"] = "Stormstout Brewery";

@@ -291,7 +291,7 @@ if AL then
 	AL["Mech"] = "Mech"; -- The Mechanar, Le Méchanar
 	AL["MT"] = "MT"; -- Mana-Tombs, Tombes-mana
 	AL["Ramp"] = "Ramp"; -- Hellfire Ramparts, Remparts des Flammes infernales
-	AL["SC"] = "SSC"; -- Serpentshrine Cavern, Caverne du sanctuaire du Serpent
+	AL["SSC"] = "SSC"; -- Serpentshrine Cavern, Caverne du sanctuaire du Serpent
 	AL["Seth"] = "Seth"; -- Sethekk Halls, Les salles des Sethekk
 	AL["SH"] = "SH"; -- The Shattered Halls, Les Salles brisées
 	AL["SL"] = "SL/Laby"; -- Shadow Labyrinth, Labyrinthe des ombres

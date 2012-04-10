@@ -283,7 +283,7 @@ if AL then
 	--AL["Mech"] = "Mech"; -- The Mechanar
 	--AL["MT"] = "MT"; -- Mana-Tombs
 	--AL["Ramp"] = "Ramp"; -- Hellfire Ramparts
-	--AL["SC"] = "SC"; -- Serpentshrine Cavern
+	--AL["SSC"] = "SSC"; -- Serpentshrine Cavern
 	--AL["Seth"] = "Seth"; -- Sethekk Halls
 	--AL["SH"] = "SH"; -- The Shattered Halls
 	--AL["SL"] = "SL"; -- Shadow Labyrinth

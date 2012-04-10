@@ -295,7 +295,7 @@ if AL then
 	AL["Mech"] = "Mecha"; -- The Mechanar
 	AL["MT"] = "Gruft"; -- Mana-Tombs
 	AL["Ramp"] = "BW"; -- Hellfire Ramparts
-	AL["SC"] = "SSC, HdS"; -- Serpentshrine Cavern
+	AL["SSC"] = "SSC, HdS"; -- Serpentshrine Cavern
 	AL["Seth"] = "SH"; -- Sethekk Halls
 	AL["SH"] = "ZH"; -- The Shattered Halls
 	AL["SL"] = "Laby"; -- Shadow Labyrinth

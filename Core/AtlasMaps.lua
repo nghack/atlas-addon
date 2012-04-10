@@ -302,10 +302,10 @@ Syntax:
 		MinLevel = "26";
 		PlayerLimit = "5";
 		Acronym = AL["SM"];
-		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in MoP
+		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..AL["Cathedral"] };
-		{ BLUE.." C) "..AL["Halls"] };
+		{ BLUE.." B) "..AL["Scarlet Cathedral"] };
+		{ BLUE.." C) "..AL["Scarlet Halls"] };
 	};
 	TempestKeepEnt = {
 		ZoneName = { BZ["Tempest Keep"].." ("..AL["Entrance"]..")" };
@@ -525,16 +525,8 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Dark Shaman Koranthal") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Slagmaw") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lava Guard Gordoth") };
-
---[[		TO BE CHECKED WHEN AVAILABLE
-		{ WHIT.." 1) "..Atlas_GetBossName("Oggleflint") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Taragaman the Hungerer") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Jergosh the Invoker") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Bazzalan") };
-		{ GREN.." 1') "..AL["Bovaal Whitehorn"].." ("..BF["Horde"]..")" };
-		{ GREN..INDENT..AL["Stone Guard Kurjack"].." ("..BF["Horde"]..")" };
-]]
-
+		{ GREN.." 1') "..AL["Commander Bagran"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..AL["Invoker Xorenth"].." ("..BF["Horde"]..")" };
 	};
 	RazorfenDowns = {
 		ZoneName = { BZ["Razorfen Downs"] };
@@ -890,45 +882,16 @@ Syntax:
 		Location = { BZ["Western Plaguelands"] };
 		DungeonID = "2";
 		Acronym = AL["Scholo"];
-		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in MoP
+		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss") };
-		{ WHIT.." 5) "..Atlas_GetBossName("Darkmaster Gandling") };
+		{ GREN..INDENT..AL["Coffer of Forgotten Souls"] };
+		{ WHIT.." 5) "..AL["Professor Slate"] };
+		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
+		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling") };
 	};
-
---[[		TO BE CHECKED WHEN AVAILABLE
-		{ ORNG..AL["Key"]..AL["Colon"]..AL["Blood of Innocents"].." ("..Atlas_GetBossName("Kirtonos the Herald")..")" };
-		{ ORNG..AL["Key"]..AL["Colon"]..AL["Divination Scryer"].." ("..Atlas_GetBossName("Death Knight Darkreaver")..")" };
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ GREN..INDENT..AL["Alexi Barov <House of Barov>"] };
-		{ GREN..INDENT..AL["Weldon Barov <House of Barov>"] };
-		{ GREN..INDENT..AL["Eva Sarkhoff"] };
-		{ GREN..INDENT..AL["Lucien Sarkhoff"] };
-		{ BLUE.." B-F) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Kirtonos the Herald").." ("..AL["Summon"]..")" };
-		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore").." ("..AL["Lower"]..")" };
-		{ ORNG..INDENT..Atlas_GetBossName("Death Knight Darkreaver").." ("..AL["Summon"]..")" };
-		{ WHIT.." 4) "..Atlas_GetBossName("Ras Frostwhisper") };
-		{ WHIT.." 5) "..Atlas_GetBossName("Lorekeeper Polkelt") };
-		{ WHIT.." 6) "..Atlas_GetBossName("Doctor Theolen Krastinov") };
-		{ WHIT.." 7) "..Atlas_GetBossName("Instructor Malicia") };	
-		{ WHIT.." 8) "..Atlas_GetBossName("Lady Illucia Barov") };
-		{ WHIT.." 9) "..Atlas_GetBossName("Lord Alexei Barov") };
-		{ GREN..INDENT..AL["The Deed to Caer Darrow"] };
-		{ WHIT.."10) "..Atlas_GetBossName("The Ravenian") };
-		{ WHIT.."11) "..Atlas_GetBossName("Darkmaster Gandling") };
-		{ ORNG.." 1) "..Atlas_GetBossName("Marduk Blackpool") };
-		{ ORNG..INDENT..Atlas_GetBossName("Vectus") };
-		{ GREN.." 1') "..Atlas_GetBossName("Blood Steward of Kirtonos") };
-		{ GREN.." 2') "..AL["The Deed to Southshore"] };
-		{ GREN.." 3') "..AL["Torch Lever"] };
-		{ GREN.." 4') "..AL["The Deed to Tarren Mill"] };
-		{ GREN.." 5') "..AL["The Deed to Brill"] };
-]]
-
 	ShadowfangKeep = {
 		ZoneName = { BZ["Shadowfang Keep"] };
 		Location = { BZ["Silverpine Forest"] };
@@ -958,26 +921,29 @@ Syntax:
 		{ GREN.." 3') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
 	};
 	SMCathedral = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Cathedral"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Cathedral"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "164";
 		Acronym = AL["Cath"];
-		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in MoP
+		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) Brother Korlof" };
-		{ WHIT.." 2) Commander Durand" };
-		{ WHIT.." 3) Thalnos the Soulrender" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender") };
+		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korlof") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Durand") };
+		{ WHIT..INDENT..Atlas_GetBossName("High Inquisitor Whitemane") };
 	};
 	SMHalls = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Halls"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Halls"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "163";
 		Acronym = AL["Halls"];
-		--Module = "Atlas_ClassicWoW"; -- comment out because this has been updated in MoP
+		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) Armsmaster Harlan" };
-		{ WHIT.." 2) Houndmaster Braun" };
-		{ WHIT.." 3) Flameweaver Koegler" };
+		{ WHIT.." 1) "..AL["Hunter Commander"] };
+		{ GREN..INDENT..AL["Archery Target"] };
+		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan") };
+		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler") };
 	};
 	StratholmeCrusader = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
@@ -1244,7 +1210,7 @@ Syntax:
 		ZoneName = { BZ["Coilfang Reservoir"]..AL["Colon"]..BZ["Serpentshrine Cavern"] };
 		Location = { BZ["Zangarmarsh"] };
 		DungeonID = "194";
-		Acronym = AL["SC"];
+		Acronym = AL["SSC"];
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };

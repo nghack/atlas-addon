@@ -286,7 +286,7 @@ if AL then
 	AL["Mech"] = "Mech/麥克"; -- The Mechanar 麥克納爾
 	AL["MT"] = "MT/法力"; -- Mana-Tombs 法力墓地
 	AL["Ramp"] = "Ramp"; -- Hellfire Ramparts 地獄火壁壘
-	AL["SC"] = "SC/毒蛇"; -- Serpentshrine Cavern 毒蛇神殿洞穴
+	AL["SSC"] = "SSC/毒蛇"; -- Serpentshrine Cavern 毒蛇神殿洞穴
 	AL["Seth"] = "Seth/塞司克"; -- Sethekk Halls 塞司克大廳
 	AL["SH"] = "SH/破碎"; -- The Shattered Halls 破碎大廳
 	AL["SL"] = "SL/迷宮"; -- Shadow Labyrinth 暗影迷宮

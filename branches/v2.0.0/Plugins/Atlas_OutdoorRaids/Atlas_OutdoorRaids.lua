@@ -71,7 +71,8 @@ local myData = {
 		LevelRange = "90+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ WHIT.." 1) "..Atlas_GetBossName("Sha of Anger") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Salyis' Warband") };
+		{ WHIT.." 2) "..Atlas_GetBossName("Sha of Anger") };
 	};
 	Skettis = {
 		ZoneName = { BZ["Skettis"] };

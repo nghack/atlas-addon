@@ -2660,8 +2660,9 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder") };
-		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Emporers") };
-		{ WHIT.." 5) "..Atlas_GetBossName("Will of the Emperor") };
+		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Emperors") };
+		{ WHIT.." 5) "..Atlas_GetBossName("Elegon") };
+		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor") };
 	};
 	ShadopanMonastery = {
 		ZoneName = { AL["Shado-pan Monastery"] };
@@ -2684,8 +2685,9 @@ Syntax:
 		Acronym = AL["SNT"];
 		--JournalInstanceID = "x";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Resin Harvester") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak") };
 		{ WHIT.." 2) "..Atlas_GetBossName("General Pa'valak") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Wing Leader Ner'onok") };
 	};
 	StormstoutBrewery = {
 		ZoneName = { AL["Stormstout Brewery"] };

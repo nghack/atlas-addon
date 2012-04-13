@@ -81,22 +81,17 @@ Syntax:
 		{ BLUE.." C) "..BZ["Sethekk Halls"] };
 		{ BLUE.." D) "..BZ["Shadow Labyrinth"] };
 		{ BLUE.." E) "..AL["Entrance"] };
-		{ GREN.." 1') "..AL["Ha'Lei"] };
+		{ GREN.." 1') "..AL["Clarissa"] };
 		{ GREN..INDENT..AL["Greatfather Aldrimus"] };
-		{ GREN..INDENT..AL["Clarissa"] };
-		{ GREN..INDENT..AL["Ramdor the Mad"] };
+		{ GREN..INDENT..AL["Ha'lei"] };
 		{ GREN..INDENT..AL["Horvon the Armorer <Armorsmith>"] };
+		{ GREN..INDENT..AL["Ramdor the Mad"] };
 		{ GREN.." 2') "..AL["Nexus-Prince Haramad"] };
-		{ GREN..INDENT..AL["Artificer Morphalius"] };
-		{ GREN..INDENT..AL["Mamdy the \"Ologist\""] };
 		{ GREN..INDENT..AL["\"Slim\" <Shady Dealer>"] };
 		{ GREN..INDENT..AL["\"Captain\" Kaftiz"] };
-		{ GREN.." 3') "..AL["Isfar"] };
-		{ GREN.." 4') "..AL["Field Commander Mahfuun"] };
-		{ GREN..INDENT..AL["Spy Grik'tha"] };
+		{ GREN.." 3') "..AL["Dealer Tariq <Shady Dealer>"] };
 		{ GREN..INDENT..AL["Provisioner Tsaalt"] };
-		{ GREN..INDENT..AL["Dealer Tariq <Shady Dealer>"] };
-		{ GREN.." 5') "..AL["Meeting Stone"] };
+		{ GREN.." 4') "..AL["Meeting Stone"] };
 	};
 	BlackfathomDeepsEnt = {
 		ZoneName = { BZ["Blackfathom Deeps"].." ("..AL["Entrance"]..")" };
@@ -198,8 +193,7 @@ Syntax:
 		{ BLUE.." C) "..BZ["Serpentshrine Cavern"] };
 		{ BLUE.." D) "..BZ["The Underbog"] };
 		{ BLUE.." E) "..AL["Entrance"].." ("..AL["Underwater"]..")" };
-		{ GREN.." 1') "..AL["Watcher Jhang"] };
-		{ GREN..INDENT..AL["Meeting Stone"] };
+		{ GREN.." 1') "..AL["Meeting Stone"] };
 		{ GREN.." 2') "..AL["Mortog Steamhead"] };
 	};
 	DireMaulEnt = {
@@ -294,6 +288,7 @@ Syntax:
 		{ BLUE.." B) "..BZ["Maraudon"].." ("..AL["Purple"]..")" };
 		{ BLUE.." C) "..BZ["Maraudon"].." ("..AL["Orange"]..")" };
 		{ BLUE.." D) "..BZ["Maraudon"].." ("..AL["Portal"]..")" };
+		{ ORNG.." 1) "..AL["Cursed Centaur"].." ("..AL["Rare"]..")" };
 	};
 	ScarletMonasteryEnt = {
 		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")" };
@@ -1096,10 +1091,12 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Draenei Spirit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Shirrak the Dead Watcher") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Exarch Maladaar") };
 		{ WHIT..INDENT..AL["Avatar of the Martyred"] };
 		{ GREN..INDENT..AL["D'ore"] };
+		{ GREN.." 1') "..AL["Tormented Soulpriest"] };
 	};
 	AuchManaTombs = {
 		ZoneName = { BZ["Auchindoun"]..AL["Colon"]..BZ["Mana-Tombs"] };
@@ -1111,6 +1108,8 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Consortium"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..Atlas_GetBossName("Yor")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Artificer Morphalius"] };
+		{ GREN..INDENT..AL["Mamdy the \"Ologist\""] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Pandemonius") };
 		{ ORNG..INDENT..AL["Shadow Lord Xiraxis"].." ("..AL["Summon"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Tavarok") };
@@ -1129,7 +1128,9 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Isfar"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Darkweaver Syth") };
+		{ GREN..INDENT..AL["Dealer Vijaad"] };
 		{ GREN..INDENT..AL["Lakka"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Anzu").." ("..AL["Heroic"]..")" };
 		{ GREN..INDENT..AL["The Saga of Terokk"] };
@@ -1144,6 +1145,8 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Field Commander Mahfuun"] };
+		{ GREN..INDENT..AL["Spy Grik'tha"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ambassador Hellmaw") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Blackheart the Inciter") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Grandmaster Vorpil") };
@@ -1231,6 +1234,8 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Nahuud"] };
+		{ GREN..INDENT..AL["Watcher Jhang"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Mennu the Betrayer") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Rokmar the Crackler") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Quagmirran") };
@@ -1248,6 +1253,9 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Naturalist Bite"] };
+		{ GREN..INDENT..AL["Watcher Jhang"] };
+		{ GREN..INDENT..AL["Windcaller Claw"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hydromancer Thespia") };
 		{ GREN..INDENT..AL["Main Chambers Access Panel"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Mekgineer Steamrigger") };
@@ -1265,6 +1273,9 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Naturalist Bite"] };
+		{ GREN..INDENT..AL["T'shu"] };
+		{ GREN..INDENT..AL["Watcher Jhang"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hungarfen") };
 		{ GREN..INDENT..AL["The Underspore"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Ghaz'an") };
@@ -1414,6 +1425,8 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Gunny"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Caza'rez"].." ("..BF["Horde"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Maker") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Broggok") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Keli'dan the Breaker") };
@@ -1428,6 +1441,8 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Advance Scout Chadwick"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Stone Guard Stok'ton"].." ("..BF["Horde"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Watchkeeper Gargolmar") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Omor the Unscarred") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Vazruden") };
@@ -1453,6 +1468,10 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Advance Scout Chadwick"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Gunny"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Caza'rez"].." ("..BF["Horde"]..")" };
+		{ GREN..INDENT..AL["Stone Guard Stok'ton"].." ("..BF["Horde"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Grand Warlock Nethekurse") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Blood Guard Porung").." ("..AL["Heroic"]..")" };
 		{ WHIT.." 3) "..Atlas_GetBossName("Warbringer O'mrogg") };
@@ -1553,6 +1572,7 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shattered Sun Offensive"] };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Exarch Larethor"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Selin Fireheart") };
 		{ GREN..INDENT..AL["Fel Crystals"] };
@@ -1639,7 +1659,7 @@ Syntax:
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gatewatcher Gyro-Kill") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gatewatcher Iron-Hand") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Mechano-Lord Capacitus") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Mechano-Lord Capacitus").." ("..AL["Wanders"]..")" };
 		{ GREN..INDENT..AL["Overcharged Manacell"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Nethermancer Sepethrea") };
 		{ WHIT.." 5) "..Atlas_GetBossName("Pathaleon the Calculator") };
@@ -2282,7 +2302,9 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Morchok", 311) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Ultraxion", 331) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Ultraxion", 331).." ("..AL["Upper"]..")" };
+		{ GREN..INDENT..AL["Dasnurimi <Geologist & Conservator>"].." ("..AL["Lower"]..")" };
+		{ GREN..INDENT..AL["Lord Afrasastrasz"].." ("..AL["Lower"]..")" };
 	};
 	CoTDragonSoulB = {
 		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"].." [B]" };
@@ -2317,6 +2339,8 @@ Syntax:
 		JournalInstanceID = "184";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Alurmi"] };
+		{ GREN..INDENT..AL["Nozdormu"] };
 		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Echo of Baine", 340).." ("..AL["Random"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Echo of Jaina", 285).." ("..AL["Random"]..")" };
@@ -2333,6 +2357,7 @@ Syntax:
 		JournalInstanceID = "186";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Thrall"] };
 		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Arcurion", 322) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Asira Dawnslayer", 342) };
@@ -2347,11 +2372,15 @@ Syntax:
 		JournalInstanceID = "185";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Alurmi"] };
+		{ GREN..INDENT..AL["Nozdormu"] };
 		{ GREN..INDENT..AL["Teleporter"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Peroth'arn", 290) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Queen Azshara", 291) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Mannoroth and Varo'then", 292) };
-		{ GREN.." 1') "..AL["Teleporter"] };
+		{ GREN..INDENT..AL["Chromie"] };
+		{ GREN.." 1') "..Atlas_GetBossName("Illidan Stormrage") };
+		{ GREN.." 2') "..AL["Teleporter"] };
 	};
 	Firelands = {
 		ZoneName = { BZ["Firelands"] };

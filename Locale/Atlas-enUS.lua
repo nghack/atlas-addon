@@ -368,21 +368,16 @@ if AL then
 --************************************************
 
 	--Auchindoun (Entrance)
-	AL["Ha'Lei"] = "Ha'Lei";
-	AL["Greatfather Aldrimus"] = "Greatfather Aldrimus";
 	AL["Clarissa"] = "Clarissa";
-	AL["Ramdor the Mad"] = "Ramdor the Mad";
+	AL["Greatfather Aldrimus"] = "Greatfather Aldrimus";
+	AL["Ha'lei"] = "Ha'lei";
 	AL["Horvon the Armorer <Armorsmith>"] = "Horvon the Armorer <Armorsmith>";
+	AL["Ramdor the Mad"] = "Ramdor the Mad";
 	AL["Nexus-Prince Haramad"] = "Nexus-Prince Haramad";
-	AL["Artificer Morphalius"] = "Artificer Morphalius";
-	AL["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
 	AL["\"Slim\" <Shady Dealer>"] = "\"Slim\" <Shady Dealer>";
 	AL["\"Captain\" Kaftiz"] = "\"Captain\" Kaftiz";
-	AL["Isfar"] = "Isfar";
-	AL["Field Commander Mahfuun"] = "Field Commander Mahfuun";
-	AL["Spy Grik'tha"] = "Spy Grik'tha";
-	AL["Provisioner Tsaalt"] = "Provisioner Tsaalt";
 	AL["Dealer Tariq <Shady Dealer>"] = "Dealer Tariq <Shady Dealer>";
+	AL["Provisioner Tsaalt"] = "Provisioner Tsaalt";
 
 	--Blackfathom Deeps (Entrance)
 
@@ -412,7 +407,6 @@ if AL then
 	AL["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Keeper of Lost Artifacts>";
 
 	--Coilfang Reservoir (Entrance)
-	AL["Watcher Jhang"] = "Watcher Jhang";
 	AL["Mortog Steamhead"] = "Mortog Steamhead";
 
 	--Dire Maul (Entrance)
@@ -441,6 +435,7 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "The Nameless Prophet";
+	AL["Cursed Centaur"] = "Cursed Centaur";
 
 	--Scarlet Monastery (Entrance)
 
@@ -694,21 +689,29 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
+	AL["Draenei Spirit"] = "Draenei Spirit";
 	AL["Avatar of the Martyred"] = "Avatar of the Martyred";
 	AL["D'ore"] = "D'ore";
+	AL["Tormented Soulpriest"] = "Tormented Soulpriest";
 
 	--Auch: Mana-Tombs
 	AL["The Eye of Haramad"] = "The Eye of Haramad";
+	AL["Artificer Morphalius"] = "Artificer Morphalius";
+	AL["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
 	AL["Shadow Lord Xiraxis"] = "Shadow Lord Xiraxis";
 	AL["Ambassador Pax'ivi"] = "Ambassador Pax'ivi";
 	AL["Cryo-Engineer Sha'heen"] = "Cryo-Engineer Sha'heen";
 	AL["Ethereal Transporter Control Panel"] = "Ethereal Transporter Control Panel";
 
 	--Auch: Sethekk Halls
+	AL["Isfar"] = "Isfar";
+	AL["Dealer Vijaad"] = "Dealer Vijaad";
 	AL["Lakka"] = "Lakka";
 	AL["The Saga of Terokk"] = "The Saga of Terokk";
 
 	--Auch: Shadow Labyrinth
+	AL["Field Commander Mahfuun"] = "Field Commander Mahfuun";
+	AL["Spy Grik'tha"] = "Spy Grik'tha";
 	AL["The Codex of Blood"] = "The Codex of Blood";
 	AL["First Fragment Guardian"] = "First Fragment Guardian";
 	AL["Spy To'gun"] = "Spy To'gun";
@@ -731,15 +734,19 @@ if AL then
 	AL["Seer Olum"] = "Seer Olum";
 
 	--CFR: The Slave Pens
+	AL["Nahuud"] = "Nahuud";
+	AL["Watcher Jhang"] = "Watcher Jhang";
 	AL["Weeder Greenthumb"] = "Weeder Greenthumb";
 	AL["Skar'this the Heretic"] = "Skar'this the Heretic";
 	AL["Naturalist Bite"] = "Naturalist Bite";
 
 	--CFR: The Steamvault
+	AL["Windcaller Claw"] = "Windcaller Claw";
 	AL["Main Chambers Access Panel"] = "Main Chambers Access Panel";
 	AL["Second Fragment Guardian"] = "Second Fragment Guardian";
 
 	--CFR: The Underbog
+	AL["T'shu"] = "T'shu";
 	AL["The Underspore"] = "The Underspore";
 	AL["Earthbinder Rayge"] = "Earthbinder Rayge";
 
@@ -805,8 +812,12 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
+	AL["Gunny"] = "Gunny";
+	AL["Caza'rez"] = "Caza'rez";
 
 	--HFC: Hellfire Ramparts
+	AL["Advance Scout Chadwick"] = "Advance Scout Chadwick";
+	AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
 	AL["Reinforced Fel Iron Chest"] = "Reinforced Fel Iron Chest";
 
 	--HFC: Magtheridon's Lair
@@ -859,6 +870,7 @@ if AL then
 	AL["Echo of Medivh"] = "Echo of Medivh";
 
 	--Magisters Terrace
+	AL["Exarch Larethor"] = "Exarch Larethor";
 	AL["Fel Crystals"] = "Fel Crystals";
 	AL["Apoko"] = "Apoko";
 	AL["Eramas Brightblaze"] = "Eramas Brightblaze";
@@ -1032,8 +1044,12 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
+	AL["Dasnurimi <Geologist & Conservator>"] = "Dasnurimi <Geologist & Conservator>";
+	AL["Lord Afrasastrasz"] = "Lord Afrasastrasz";
 
 	--Caverns of Time: End Time
+	AL["Alurmi"] = "Alurmi";
+	AL["Nozdormu"] = "Nozdormu";
 
 	--Caverns of Time: Hour of Twilight
 

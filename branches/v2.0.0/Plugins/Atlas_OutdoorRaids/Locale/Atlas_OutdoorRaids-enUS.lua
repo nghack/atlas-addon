@@ -31,7 +31,9 @@ local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "enUS", true);
 
 if AL then
 	AL["Ancient Skull Pile"] = "Ancient Skull Pile";
+	AL["Chief Salyis"] = "Chief Salyis";
 	AL["Darkscreecher Akkarai"] = "Darkscreecher Akkarai";
+	AL["Galleon"] = "Galleon";
 	AL["Gezzarak the Huntress"] = "Gezzarak the Huntress";
 	AL["Graveyard"] = "Graveyard";
 	AL["Grella <Skyguard Quartermaster>"] = "Grella <Skyguard Quartermaster>";

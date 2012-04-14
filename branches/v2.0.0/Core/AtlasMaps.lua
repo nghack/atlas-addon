@@ -2723,7 +2723,7 @@ Syntax:
 	GateoftheSettingSun = {
 		ZoneName = { AL["Gate of the Setting Sun"] };
 		Location = { AL["Townlong Steppes"] };
-		DungeonID = "467";
+		--DungeonID = "x";
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
@@ -2739,21 +2739,21 @@ Syntax:
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["HoF"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "330";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Garalon") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Garalon", 713) };
 	};
 	MogushanPalace = {
 		ZoneName = { AL["Mogu'shan Palace"] };
 		Location = { AL["Vale of Eternal Blossoms"] };
-		--DungeonID = "x";
+		DungeonID = "467";
 		--DungeonHeroicID = "x";
 		Acronym = AL["MP"];
 		JournalInstanceID = "321";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Clan Leaders of the Mogu") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Clan Leaders of the Mogu", 708) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
 	};
 	MogushanVaults = {
 		ZoneName = { AL["Mogu'shan Vaults"] };
@@ -2767,7 +2767,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed", 689) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder", 682) };
 		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Emperors", 687) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Elegon") };
+		{ WHIT.." 5) "..Atlas_GetBossName("Elegon", 726) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
 	};
 	ShadopanMonastery = {
@@ -2791,9 +2791,9 @@ Syntax:
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak") };
-		{ WHIT.." 2) "..Atlas_GetBossName("General Pa'valak") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Wing Leader Ner'onok") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
+		{ WHIT.." 2) "..Atlas_GetBossName("General Pa'valak", 692) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
 	};
 	StormstoutBrewery = {
 		ZoneName = { AL["Stormstout Brewery"] };
@@ -2829,6 +2829,6 @@ Syntax:
 		JournalInstanceID = "320";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 655) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Sha of Fear") };
+		{ WHIT.." 2) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
 };

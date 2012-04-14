@@ -52,7 +52,6 @@ Atlas_AssocDefaults = {
 	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
 	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 	[BZ["Karazhan"]] =			"KarazhanStart";
-	[BZ["Scarlet Monastery"]] =		"ScarletMonasteryEnt";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
 	[BZ["The Wailing Caverns"]] = 		"WailingCavernsEnt";
@@ -221,31 +220,6 @@ Atlas_SubZoneData = {
 			BZ["Medivh's Chambers"],
 			BZ["Master's Terrace"],
 			BZ["Netherspace"],
-		},
-	},
-	-- Scarlet Monastery
-	[BZ["Scarlet Monastery"]] = {
-		--Scarlet Monastery, Entrance
-		["ScarletMonasteryEnt"] = {
-			BZ["The Grand Vestibule"],
-		},
-		--Scarlet Monastery, Halls
-		["SMHalls"] = {
-			BZ["Huntsman's Cloister"],
-			BZ["Gallery of Treasures"],
-			BZ["Athenaeum"],
-			BZ["Training Grounds"],
-			BZ["Footman's Armory"],
-			BZ["Crusader's Armory"],
-			BZ["Hall of Champions"],
-		},
-		--Scarlet Monastery, Cathedral
-		["SMCathedral"] = {
-			BZ["Chamber of Atonement"],
-			BZ["Forlorn Cloister"],
-			BZ["Honor's Tomb"],
-			BZ["Chapel Gardens"],
-			BZ["Crusader's Chapel"],
 		},
 	},
 	-- Stratholme

@@ -905,9 +905,11 @@ if AL then
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	AL["Seer Ixit"] = "Seer Ixit";
 	AL["Ahn'kahet Brazier"] = "Ahn'kahet Brazier";
 
 	--Azjol-Nerub: Azjol-Nerub
+	AL["Reclaimer A'zak"] = "Reclaimer A'zak";
 	AL["Watcher Gashra"] = "Watcher Gashra";
 	AL["Watcher Narjil"] = "Watcher Narjil";
 	AL["Watcher Silthik"] = "Watcher Silthik";
@@ -920,6 +922,7 @@ if AL then
 	AL["Chromie"] = "Chromie";
 
 	--Drak'Tharon Keep
+	AL["Image of Drakuru"] = "Image of Drakuru";
 	AL["Kurzel"] = "Kurzel";
 	AL["Elder Kilias"] = "Elder Kilias";
 	AL["Drakuru's Brazier"] = "Drakuru's Brazier";
@@ -944,6 +947,8 @@ if AL then
 	AL["Dark Ranger Kalira"] = "Dark Ranger Kalira";
 
 	--Gundrak
+	AL["Chronicler Bah'Kini"] = "Chronicler Bah'Kini";
+	AL["Tol'mar"] = "Tol'mar";
 	AL["Elder Ohanzee"] = "Elder Ohanzee";
 
 	--Icecrown Citadel
@@ -973,10 +978,14 @@ if AL then
 	--The Nexus: The Eye of Eternity
 
 	--The Nexus: The Nexus
+	AL["Warmage Kaitlyn"] = "Warmage Kaitlyn";
 	AL["Berinand's Research"] = "Berinand's Research";
 	AL["Elder Igasho"] = "Elder Igasho";
 
 	--The Nexus: The Oculus
+	AL["Belgaristrasz"] = "Belgaristrasz";
+	AL["Eternos"] = "Eternos";
+	AL["Verdisa"] = "Verdisa";
 	AL["Centrifuge Construct"] = "Centrifuge Construct";
 	AL["Cache of Eregos"] = "Cache of Eregos";
 
@@ -1015,23 +1024,28 @@ if AL then
 	--Ulduar E
 
 	--Ulduar: Halls of Lightning
+	AL["Stormherald Eljrrin"] = "Stormherald Eljrrin";
 
 	--Ulduar: Halls of Stone
+	AL["Kaldir Ironbane"] = "Kaldir Ironbane";
 	AL["Tribunal Chest"] = "Tribunal Chest";
 	AL["Elder Yurauk"] = "Elder Yurauk";
 	AL["Brann Bronzebeard"] = "Brann Bronzebeard";
 
 	--Utgarde Keep: Utgarde Keep
+	AL["Defender Mordun"] = "Defender Mordun";
 	AL["Dark Ranger Marrah"] = "Dark Ranger Marrah";
 	AL["Elder Jarten"] = "Elder Jarten";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "Brigg Smallshanks";
+	AL["Image of Argent Confessor Paletress"] = "Image of Argent Confessor Paletress";
 	AL["Elder Chogan'gada"] = "Elder Chogan'gada";
 
 	--Vault of Archavon
 
 	--The Violet Hold
+	AL["Lieutenant Sinclari"] = "Lieutenant Sinclari";
 
 --*********************
 -- Cataclysm Instances

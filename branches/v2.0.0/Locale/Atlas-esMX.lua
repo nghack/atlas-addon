@@ -27,8 +27,6 @@
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 
-
-
 -- Atlas Spanish (México) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
@@ -108,43 +106,6 @@ if AL then
 
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho y arrastrar para mover el icono.";
 	AL["ATLAS_LDB_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho para mostrar el menú.";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	AL["ATLAS_OPTIONS_CATDD"] = "Ordenar los mapas de mazmorra por:";
 	AL["ATLAS_DDL_CONTINENT"] = "Continente";
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "Mazmorras de los Reinos del Este";
@@ -178,10 +139,6 @@ if AL then
 
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Mazmorras S-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entradas";
-
-
-
-
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Mazmorra";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Entrada";
@@ -1176,7 +1133,7 @@ if AL then
 	AL["Tyllan"] = "Tyllan";
 
 	--Zul'Gurub
-	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <InteresMX financieros Aguasnegras>";
+	AL["Briney Boltcutter <Blackwater Financial Interests>"] = "Salobre Cortarrayos <Intereses financieros Aguasnegras>";
 	AL["Vehini <Assault Provisions>"] = "Vehini <Provisiones de ataque>";
 	AL["Overseer Blingbang"] = "Sobrestante Blingbang";
 	AL["Bloodslayer T'ara <Darkspear Veteran>"] = "Cercenacastas T'ara <Veterana Lanza Negra>";

@@ -100,6 +100,7 @@ Syntax:
 		MinLevel = "20";
 		PlayerLimit = "5";
 		Acronym = AL["BFD"];
+		JournalInstanceID = "227";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackfathom Deeps"] };
@@ -203,6 +204,7 @@ Syntax:
 		MinLevel = "36";
 		PlayerLimit = "5";
 		Acronym = AL["DM"];
+		JournalInstanceID = "230";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Dire Maul"].." ("..AL["East"]..")" };
@@ -217,6 +219,7 @@ Syntax:
 		Location = { BZ["Dun Morogh"] };
 		DungeonID = "14";
 		Acronym = AL["Gnome"];
+		JournalInstanceID = "231";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Meeting Stone"] };
@@ -282,6 +285,7 @@ Syntax:
 		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
+		JournalInstanceID = "232";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT..INDENT..AL["The Nameless Prophet"].." ("..AL["Lower"]..")" };
@@ -336,6 +340,7 @@ Syntax:
 		Location = { BZ["Swamp of Sorrows"] };
 		DungeonID = "28";
 		Acronym = AL["ST"];
+		JournalInstanceID = "237";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Meeting Stone"] };
@@ -351,6 +356,7 @@ Syntax:
 		Location = { BZ["Badlands"] };
 		DungeonID = "22";
 		Acronym = AL["Ulda"];
+		JournalInstanceID = "239";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Uldaman"] };
@@ -377,6 +383,7 @@ Syntax:
 		Location = { BZ["Northern Barrens"] };
 		DungeonID = "1";
 		Acronym = AL["WC"];
+		JournalInstanceID = "240";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
@@ -393,6 +400,7 @@ Syntax:
 		Location = { BZ["Ashenvale"] };
 		DungeonID = "10";
 		Acronym = AL["BFD"];
+		JournalInstanceID = "227";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
@@ -422,6 +430,7 @@ Syntax:
 		Location = { BZ["Feralas"] };
 		DungeonID = "34";
 		Acronym = AL["DM"];
+		JournalInstanceID = "230";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["\"Ambassador\" Dagg'thol"] };
@@ -444,6 +453,7 @@ Syntax:
 		Location = { BZ["Feralas"] };
 		DungeonID = "36";
 		Acronym = AL["DM"];
+		JournalInstanceID = "230";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Druid of the Talon"].." ("..BF["Alliance"]..")" };
@@ -462,6 +472,7 @@ Syntax:
 		Location = { BZ["Feralas"] };
 		DungeonID = "38";
 		Acronym = AL["DM"];
+		JournalInstanceID = "230";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["J'eevee's Jar"].." ("..Atlas_GetBossName("Lord Hel'nurath")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -494,6 +505,7 @@ Syntax:
 		MinLevel = "30";
 		PlayerLimit = "5";
 		Acronym = AL["Mara"];
+		JournalInstanceID = "232";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Orange"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Purple"]..")" };
@@ -514,12 +526,13 @@ Syntax:
 		Location = { BZ["Orgrimmar"] };
 		DungeonID = "4";
 		Acronym = AL["RFC"];
+		JournalInstanceID = "226";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Adarogg") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Dark Shaman Koranthal") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Slagmaw") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Lava Guard Gordoth") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Adarogg", 694) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Dark Shaman Koranthal", 695) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Slagmaw", 696) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Lava Guard Gordoth", 697) };
 		{ GREN.." 1') "..AL["Commander Bagran"].." ("..BF["Horde"]..")" };
 		{ GREN..INDENT..AL["Invoker Xorenth"].." ("..BF["Horde"]..")" };
 	};
@@ -528,6 +541,7 @@ Syntax:
 		Location = { BZ["Thousand Needles"] };
 		DungeonID = "20";
 		Acronym = AL["RFD"];
+		JournalInstanceID = "233";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Koristrasza"] };
@@ -545,6 +559,7 @@ Syntax:
 		Location = { BZ["Southern Barrens"] };
 		DungeonID = "16";
 		Acronym = AL["RFK"];
+		JournalInstanceID = "234";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Auld Stonespire"] };
@@ -623,6 +638,7 @@ Syntax:
 		Location = { BZ["Northern Barrens"] };
 		DungeonID = "1";
 		Acronym = AL["WC"];
+		JournalInstanceID = "240";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Lady Anacondra") };
@@ -644,6 +660,7 @@ Syntax:
 		Location = { BZ["Tanaris"] };
 		DungeonID = "24";
 		Acronym = AL["ZF"];
+		JournalInstanceID = "241";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] };
@@ -681,6 +698,7 @@ Syntax:
 		MinLevel = "47";
 		PlayerLimit = "5";
 		Acronym = AL["BRD"];
+		JournalInstanceID = "228";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Relic Coffer Key"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["Dark Keeper Key"] };
@@ -758,6 +776,7 @@ Syntax:
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "32";
 		Acronym = AL["LBRS"];
+		JournalInstanceID = "229";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
@@ -788,6 +807,7 @@ Syntax:
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "330";
 		Acronym = AL["UBRS"];
+		JournalInstanceID = "229";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
@@ -832,6 +852,7 @@ Syntax:
 		Location = { BZ["Dun Morogh"] };
 		DungeonID = "14";
 		Acronym = AL["Gnome"];
+		JournalInstanceID = "231";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
@@ -876,16 +897,18 @@ Syntax:
 		ZoneName = { BZ["Scholomance"] };
 		Location = { BZ["Western Plaguelands"] };
 		DungeonID = "2";
+		DungeonHeroicID = "472";
 		Acronym = AL["Scholo"];
+		JournalInstanceID = "246";
 		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
-		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov", 663) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore", 665) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss", 666) };
 		{ GREN..INDENT..AL["Coffer of Forgotten Souls"] };
 		{ WHIT.." 5) "..AL["Professor Slate"] };
 		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
-		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling") };
+		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
 	};
 	ShadowfangKeep = {
 		ZoneName = { BZ["Shadowfang Keep"] };
@@ -919,32 +942,37 @@ Syntax:
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Cathedral"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "164";
+		DungeonHeroicID = "474";
 		Acronym = AL["Cath"];
+		JournalInstanceID = "316";
 		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korlof") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Commander Durand") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korlof", 671) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Durand", 674) };
 		{ WHIT..INDENT..Atlas_GetBossName("High Inquisitor Whitemane") };
 	};
 	SMHalls = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Halls"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "163";
+		DungeonHeroicID = "473";
 		Acronym = AL["Halls"];
+		JournalInstanceID = "311";
 		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..AL["Hunter Commander"] };
 		{ GREN..INDENT..AL["Archery Target"] };
-		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler") };
+		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan", 654) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
 	};
 	StratholmeCrusader = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
 		Location = { BZ["Eastern Plaguelands"] };
 		DungeonID = "40";
 		Acronym = AL["Strat"];
+		JournalInstanceID = "236";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] };
@@ -973,6 +1001,7 @@ Syntax:
 		Location = { BZ["Eastern Plaguelands"] };
 		DungeonID = "274";
 		Acronym = AL["Strat"];
+		JournalInstanceID = "236";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ GREN..INDENT..AL["Packmaster Stonebruiser <Brotherhood of the Light>"] };
@@ -1020,6 +1049,7 @@ Syntax:
 		Location = { BZ["Stormwind City"] };
 		DungeonID = "12";
 		Acronym = AL["Stocks"];
+		JournalInstanceID = "238";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Randolph Moloch") };
@@ -1034,6 +1064,7 @@ Syntax:
 		Location = { BZ["Swamp of Sorrows"] };
 		DungeonID = "28";
 		Acronym = AL["ST"];
+		JournalInstanceID = "237";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["AKA"]..AL["Colon"]..BZ["The Temple of Atal'Hakkar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1053,6 +1084,7 @@ Syntax:
 		Location = { BZ["Badlands"] };
 		DungeonID = "22";
 		Acronym = AL["Ulda"];
+		JournalInstanceID = "239";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
@@ -1088,6 +1120,7 @@ Syntax:
 		DungeonID = "149";
 		DungeonHeroicID = "178";
 		Acronym = AL["AC"];
+		JournalInstanceID = "247";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1104,6 +1137,7 @@ Syntax:
 		DungeonID = "148";
 		DungeonHeroicID = "179";
 		Acronym = AL["MT"];
+		JournalInstanceID = "250";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Consortium"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..AL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..Atlas_GetBossName("Yor")..")" };
@@ -1125,6 +1159,7 @@ Syntax:
 		DungeonID = "150";
 		DungeonHeroicID = "180";
 		Acronym = AL["Seth"];
+		JournalInstanceID = "252";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1142,6 +1177,7 @@ Syntax:
 		DungeonID = "151";
 		DungeonHeroicID = "181";
 		Acronym = AL["SL"];
+		JournalInstanceID = "253";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1231,6 +1267,7 @@ Syntax:
 		DungeonID = "140";
 		DungeonHeroicID = "184";
 		Acronym = AL["SP"];
+		JournalInstanceID = "260";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1250,6 +1287,7 @@ Syntax:
 		DungeonID = "147";
 		DungeonHeroicID = "185";
 		Acronym = AL["SV"];
+		JournalInstanceID = "261";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1270,6 +1308,7 @@ Syntax:
 		DungeonID = "146";
 		DungeonHeroicID = "186";
 		Acronym = AL["UB"];
+		JournalInstanceID = "262";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1290,7 +1329,8 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel = "68";
 		PlayerLimit = "5";
-		Acronym = AL["CoT2"];
+		Acronym = AL["CoT2"]
+		JournalInstanceID = "255";;
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
@@ -1333,6 +1373,7 @@ Syntax:
 		MinLevel = "66";
 		PlayerLimit = "5";
 		Acronym = AL["CoT1"];
+		JournalInstanceID = "251";
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Escape from Durnholde Keep"] };
 		{ ORNG..AL["Attunement Required"] };
@@ -1421,6 +1462,7 @@ Syntax:
 		DungeonID = "137";
 		DungeonHeroicID = "187";
 		Acronym = AL["BF"];
+		JournalInstanceID = "256";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
@@ -1437,6 +1479,7 @@ Syntax:
 		DungeonID = "136";
 		DungeonHeroicID = "188";
 		Acronym = AL["Ramp"];
+		JournalInstanceID = "248";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
@@ -1464,6 +1507,7 @@ Syntax:
 		DungeonID = "138";
 		DungeonHeroicID = "189";
 		Acronym = AL["SH"];
+		JournalInstanceID = "259";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Honor Hold"].." ("..BF["Alliance"]..")" };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Thrallmar"].." ("..BF["Horde"]..")" };
@@ -1569,6 +1613,7 @@ Syntax:
 		DungeonID = "198";
 		DungeonHeroicID = "201";
 		Acronym = AL["MaT"];
+		JournalInstanceID = "249";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shattered Sun Offensive"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1618,6 +1663,7 @@ Syntax:
 		DungeonID = "174";
 		DungeonHeroicID = "190";
 		Acronym = AL["Arca"];
+		JournalInstanceID = "254";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1637,6 +1683,7 @@ Syntax:
 		DungeonID = "173";
 		DungeonHeroicID = "191";
 		Acronym = AL["Bota"];
+		JournalInstanceID = "257";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1653,6 +1700,7 @@ Syntax:
 		DungeonID = "172";
 		DungeonHeroicID = "192";
 		Acronym = AL["Mech"];
+		JournalInstanceID = "258";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1693,8 +1741,10 @@ Syntax:
 		DungeonID = "218";
 		DungeonHeroicID = "219";
 		Acronym = AL["AK, Kahet"];
+		JournalInstanceID = "271";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Seer Ixit"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Elder Nadox") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Prince Taldaram") };
@@ -1709,8 +1759,10 @@ Syntax:
 		DungeonID = "204";
 		DungeonHeroicID = "241";
 		Acronym = AL["AN, Nerub"];
+		JournalInstanceID = "272";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Reclaimer A'zak"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ BLUE.." C) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Krik'thir the Gatewatcher") };
@@ -1727,6 +1779,7 @@ Syntax:
 		DungeonID = "209";
 		DungeonHeroicID = "210";
 		Acronym = AL["CoT-Strat"];
+		JournalInstanceID = "279";
 		Module = "Atlas_WrathoftheLichKing";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["The Culling of Stratholme"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1747,16 +1800,18 @@ Syntax:
 		DungeonID = "214";
 		DungeonHeroicID = "215";
 		Acronym = AL["DTK"];
+		JournalInstanceID = "273";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Image of Drakuru"] };
+		{ GREN..INDENT..AL["Kurzel"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trollgore") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Novos the Summoner") };
 		{ WHIT.." 3) "..Atlas_GetBossName("King Dred") };
 		{ WHIT.." 4) "..Atlas_GetBossName("The Prophet Tharon'ja") };
-		{ GREN.." 1') "..AL["Kurzel"] };
-		{ GREN.." 2') "..AL["Elder Kilias"].." ("..AL["Lunar Festival"]..")" };
-		{ GREN.." 3') "..AL["Drakuru's Brazier"] };
+		{ GREN.." 1') "..AL["Elder Kilias"].." ("..AL["Lunar Festival"]..")" };
+		{ GREN.." 2') "..AL["Drakuru's Brazier"] };
 	};
 	FHHallsOfReflection = {
 		ZoneName = { BZ["The Frozen Halls"]..AL["Colon"]..BZ["Halls of Reflection"] };
@@ -1764,6 +1819,7 @@ Syntax:
 		DungeonID = "255";
 		DungeonHeroicID = "256";
 		Acronym = AL["HoR"]..", "..AL["FH3"];
+		JournalInstanceID = "276";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1783,6 +1839,7 @@ Syntax:
 		DungeonID = "253";
 		DungeonHeroicID = "254";
 		Acronym = AL["PoS"]..", "..AL["FH2"];
+		JournalInstanceID = "278";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1806,6 +1863,7 @@ Syntax:
 		DungeonID = "251";
 		DungeonHeroicID = "252";
 		Acronym = AL["FoS"]..", "..AL["FH1"];
+		JournalInstanceID = "280";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"].." ("..BZ["Pit of Saron"]..")" };
@@ -1824,8 +1882,10 @@ Syntax:
 		DungeonID = "216";
 		DungeonHeroicID = "217";
 		Acronym = AL["Gun"];
+		JournalInstanceID = "274";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Chronicler Bah'Kini"].." / "..AL["Tol'mar"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Slad'ran") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Drakkari Colossus") };
@@ -1988,8 +2048,10 @@ Syntax:
 		DungeonID = "225";
 		DungeonHeroicID = "226";
 		Acronym = AL["Nex, Nexus"];
+		JournalInstanceID = "281";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Warmage Kaitlyn"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Commander Kolurg").." ("..BF["Alliance"]..", "..AL["Heroic"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Commander Stoutbeard").." ("..BF["Horde"]..", "..AL["Heroic"]..")" };
 		{ GREN..INDENT..AL["Berinand's Research"] };
@@ -2005,10 +2067,14 @@ Syntax:
 		DungeonID = "206";
 		DungeonHeroicID = "211";
 		Acronym = AL["Ocu"];
+		JournalInstanceID = "282";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Portal"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Drakos the Interrogator").." ("..AL["Lower"]..")" };
+		{ GREN..INDENT..AL["Belgaristrasz"] };
+		{ GREN..INDENT..AL["Eternos"] };
+		{ GREN..INDENT..AL["Verdisa"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Varos Cloudstrider") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Mage-Lord Urom").." ("..AL["Middle"]..")" };
 		{ WHIT.." 4) "..Atlas_GetBossName("Ley-Guardian Eregos").." ("..AL["Upper"]..")" };
@@ -2021,6 +2087,7 @@ Syntax:
 		DungeonID = "245";
 		DungeonHeroicID = "249";
 		Acronym = AL["Champ"];
+		JournalInstanceID = "284";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Grand Champions") };
@@ -2154,8 +2221,10 @@ Syntax:
 		DungeonID = "207";
 		DungeonHeroicID = "212";
 		Acronym = AL["HoL"];
+		JournalInstanceID = "275";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Stormherald Eljrrin"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("General Bjarngrim").." ("..AL["Wanders"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Volkhan") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ionar") };
@@ -2167,8 +2236,10 @@ Syntax:
 		DungeonID = "208";
 		DungeonHeroicID = "213";
 		Acronym = AL["HoS"];
+		JournalInstanceID = "277";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Kaldir Ironbane"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Krystallus") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Maiden of Grief") };
 		{ WHIT.." 3) "..Atlas_GetBossName("The Tribunal of Ages").." ("..AL["Event"]..")" };
@@ -2183,9 +2254,11 @@ Syntax:
 		DungeonID = "202";
 		DungeonHeroicID = "242";
 		Acronym = AL["UK, Keep"];
+		JournalInstanceID = "285";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ GREN..INDENT..AL["Dark Ranger Marrah"] };
+		{ GREN..INDENT..AL["Defender Mordun"].." ("..BF["Alliance"]..")" };
+		{ GREN..INDENT..AL["Dark Ranger Marrah"].." ("..BF["Horde"]..")" };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Prince Keleseth") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Dalronn the Controller") };
@@ -2199,9 +2272,11 @@ Syntax:
 		DungeonID = "203";
 		DungeonHeroicID = "205";
 		Acronym = AL["UP, Pinn"];
+		JournalInstanceID = "286";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Brigg Smallshanks"] };
+		{ GREN..INDENT..AL["Image of Argent Confessor Paletress"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Svala Sorrowgrave") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gortok Palehoof") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Skadi the Ruthless") };
@@ -2227,8 +2302,10 @@ Syntax:
 		DungeonID = "220";
 		DungeonHeroicID = "221";
 		Acronym = AL["VH"];
+		JournalInstanceID = "283";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Lieutenant Sinclari"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Erekem").." ("..AL["Random"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Zuramat the Obliterator").." ("..AL["Upper"]..", "..AL["Random"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Xevozz").." ("..AL["Lower"]..", "..AL["Random"]..")" };
@@ -2646,15 +2723,15 @@ Syntax:
 	GateoftheSettingSun = {
 		ZoneName = { AL["Gate of the Setting Sun"] };
 		Location = { AL["Townlong Steppes"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "467";
+		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "303";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Striker Ga'dok") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Commander Ri'mok") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Saboteur Kip'tilak") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Raigonn") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Striker Ga'dok", 675) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Commander Ri'mok", 676) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Saboteur Kip'tilak", 655) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Raigonn", 649) };
 	};
 	HeartofFear = {
 		ZoneName = { AL["Heart of Fear"] };
@@ -2672,10 +2749,10 @@ Syntax:
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["MP"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "321";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Clan Leaders of the Mogu") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan") };
+		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster") };
 	};
 	MogushanVaults = {
@@ -2684,27 +2761,27 @@ Syntax:
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["MV"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "317";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder") };
-		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Emperors") };
+		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard", 679) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed", 689) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder", 682) };
+		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Emperors", 687) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Elegon") };
-		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor") };
+		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
 	};
 	ShadopanMonastery = {
 		ZoneName = { AL["Shado-pan Monastery"] };
 		Location = { AL["Kun-Lai Summit"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "466";
+		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "312";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	SiegeofNiuzaoTemple = {
 		ZoneName = { AL["Siege of Niuzao Temple"] };
@@ -2712,7 +2789,7 @@ Syntax:
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["SNT"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "324";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak") };
 		{ WHIT.." 2) "..Atlas_GetBossName("General Pa'valak") };
@@ -2721,27 +2798,27 @@ Syntax:
 	StormstoutBrewery = {
 		ZoneName = { AL["Stormstout Brewery"] };
 		Location = { AL["Valley of the Four Winds"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "465";
+		DungeonHeroicID = "469";
 		Acronym = AL["SB"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "302";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Hoptallus") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Yan-Zhu the Uncasked") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook", 668) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Hoptallus", 669) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Yan-Zhu the Uncasked", 670) };
 	};
 	TempleoftheJadeSerpent = {
 		ZoneName = { AL["Temple of the Jade Serpent"] };
 		Location = { AL["The Jade Forest"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "464";
+		DungeonHeroicID = "468";
 		Acronym = AL["TJS"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "313";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Wise Mari") };
-		{ WHIT.." 2) "..Atlas_GetBossName("Library Event") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Liu Flameheart") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Doubt") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Wise Mari", 672) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Library Event", 664) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Liu Flameheart", 658) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Doubt", 335) };
 	};
 	TerraceofEndlessSpring = {
 		ZoneName = { AL["Terrace of Endless Spring"] };
@@ -2749,9 +2826,9 @@ Syntax:
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["TES"];
-		--JournalInstanceID = "x";
+		JournalInstanceID = "320";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 655) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Sha of Fear") };
 	};
 };

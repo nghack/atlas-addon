@@ -575,7 +575,6 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "Esquema: robot de reparación de campo 74A";
 	AL["Private Rocknot"] = "Soldado Sinroca";
 	AL["Mistress Nagmara"] = "Coima Nagmara";
-	AL["Summoner's Tomb"] = "Tumba de los invocadores"; --Check
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Espiga <Milicia de Morgan>";
 	AL["Oralius <Morgan's Militia>"] = "Oralius <Milicia de Morgan>";
 	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Colmillo Orgulloso <Fuerza Expedicionaria de Kargath>";
@@ -937,7 +936,6 @@ if AL then
 
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
-	AL["Wrath of the Lich King"] = "El Rey Exánime";
 	AL["The Captain's Chest"] = "El cofre del Capitán";
 
 	--The Frozen Halls: Pit of Saron
@@ -992,13 +990,11 @@ if AL then
 	AL["Cache of Eregos"] = "Alijo de Eregos";
 
 	--Trial of the Champion
-	AL["Champions of the Alliance"] = "Campeones de la Alianza";
 	AL["Marshal Jacob Alerius"] = "Mariscal Jacob Alerius";
 	AL["Ambrose Boltspark"] = "Ambrose Chisparrayo";
 	AL["Colosos"] = "Colosos";
 	AL["Jaelyne Evensong"] = "Jaelyne Unicanto";
 	AL["Lana Stouthammer"] = "Lana Martillotenaz";
-	AL["Champions of the Horde"] = "Campeones de la Horda";
 
 	--Trial of the Crusader
 	AL["Heroic: Trial of the Grand Crusader"] = "Heróica: Prueba del Gran Cruzado";

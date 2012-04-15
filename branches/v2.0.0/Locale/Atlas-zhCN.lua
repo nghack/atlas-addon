@@ -556,7 +556,6 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "结构图：战地修理机器人74A型";
 	AL["Private Rocknot"] = "罗克诺特下士";
 	AL["Mistress Nagmara"] = "娜玛拉小姐";
-	AL["Summoner's Tomb"] = "召唤者之墓";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "加琳达 <摩根民兵团>";
 	AL["Oralius <Morgan's Militia>"] = "奥拉留斯 <摩根民兵团>";
 	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "萨特拉克 <卡加斯远征军>";
@@ -921,7 +920,6 @@ if AL then
 
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
-	AL["Wrath of the Lich King"] = "巫妖王之怒";
 	AL["The Captain's Chest"] = "队长的箱子";
 
 	--The Frozen Halls: Pit of Saron
@@ -976,13 +974,11 @@ if AL then
 	AL["Cache of Eregos"] = "埃雷苟斯的宝箱";
 
 	--Trial of the Champion
-	AL["Champions of the Alliance"] = "联盟冠军";
 	AL["Marshal Jacob Alerius"] = "雅克布·奥勒留斯元帅";
 	AL["Ambrose Boltspark"] = "安布罗斯·雷钉";
 	AL["Colosos"] = "克罗索斯";
 	AL["Jaelyne Evensong"] = "娅琳·永歌";
 	AL["Lana Stouthammer"] = "拉娜·硬锤";
-	AL["Champions of the Horde"] = "部落冠军";
 
 	--Trial of the Crusader
 	AL["Heroic: Trial of the Grand Crusader"] = "英雄: 大十字军的试炼";

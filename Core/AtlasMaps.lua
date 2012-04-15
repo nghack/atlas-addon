@@ -30,42 +30,42 @@
 
 --[[
 # Structure of JournalInstalce.dbc
-Column	Fiels			Type		Notes
+Column	Field		Type		Notes
 ------	-------------	--------	----------------------------------------------------------------------------------------------
-1		ID				Integer
-2		Map ID			Integer		Map ID refer to Map.dbc's 1st column
-3		Area ID			Integer		Area ID refer to AreaTable.dbc's 1st column
-4~6						Integer
-7						Integer
-8		Name			String
-9		Description		String
+1	ID		Integer
+2	Map ID		Integer		Map ID refer to Map.dbc's 1st column
+3	Area ID		Integer		Area ID refer to AreaTable.dbc's 1st column
+4~6			Integer
+7			Integer
+8	Name		String
+9	Description	String
 
 
 # Structure of JournalInstalce.dbc
-Column	Fiels			Type		Notes
+Column	Field		Type		Notes
 ------	-------------	--------	----------------------------------------------------------------------------------------------
-1		ID				Integer
-2		Map ID?			Integer
-3		Area ID?		Integer
-4~5						Float
-6		Selection ID	Integer
-7		Instance ID		Integer		Refer to JournalInstalce.dbc's 1st column
-8		Index			Integer		Boss index
+1	ID		Integer
+2	Map ID?		Integer
+3	Area ID?	Integer
+4~5			Float
+6	Selection ID	Integer
+7	Instance ID	Integer		Refer to JournalInstalce.dbc's 1st column
+8	Index		Integer		Boss index
 9
-10		Name			String		Boss name
-11		Description		String		Boss description
+10	Name		String		Boss name
+11	Description	String		Boss description
 
 
 # Structure of LFGDungeons.dbc
-Column	Field 			Type 		Notes
+Column	Field 		Type 		Notes
 ------	-------------	--------	----------------------------------------------------------------------------------------------
-1		ID 				Integer 		
-2 		sRefName 		String 		Area/Instance (zone) name
+1	ID 		Integer 		
+2 	sRefName 	String 		Area/Instance (zone) name
 3-10 	Localization 	String* 	
-11 		level_min 		Integer 	Minimum level to participate.
-12 		level_max 		Integer 	Maximum level when this dungeon becomes trivial.
-13 		Unknown 		Integer 	Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)?
-14 		faction 		Integer 	Faction type to participate. -1 all; 0 horde; 1 alliance; 
+11 	level_min 	Integer 	Minimum level to participate.
+12 	level_max 	Integer 	Maximum level when this dungeon becomes trivial.
+13 	Unknown 	Integer 	Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)?
+14 	faction 	Integer 	Faction type to participate. -1 all; 0 horde; 1 alliance; 
 
 ]]
 

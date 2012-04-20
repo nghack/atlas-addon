@@ -329,11 +329,12 @@ Syntax:
 		JournalInstanceID = "232";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ ORNG..INDENT..AL["Cursed Centaur"].." ("..AL["Rare"]..")" };
 		{ WHIT..INDENT..AL["The Nameless Prophet"].." ("..AL["Lower"]..")" };
 		{ BLUE.." B) "..BZ["Maraudon"].." ("..AL["Purple"]..")" };
 		{ BLUE.." C) "..BZ["Maraudon"].." ("..AL["Orange"]..")" };
 		{ BLUE.." D) "..BZ["Maraudon"].." ("..AL["Portal"]..")" };
-		{ ORNG.." 1) "..AL["Cursed Centaur"].." ("..AL["Rare"]..")" };
+		{ GREN.." 1') "..AL["Kherrah"] };
 	};
 	ScarletMonasteryEnt = {
 		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")" };

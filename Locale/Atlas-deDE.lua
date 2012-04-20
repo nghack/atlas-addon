@@ -443,6 +443,7 @@ if AL then
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "Der namenlose Prophet";
 	AL["Cursed Centaur"] = "Verfluchter Zentaur";
+	AL["Kherrah"] = "Kherrah";
 
 	--Scarlet Monastery (Entrance)
 

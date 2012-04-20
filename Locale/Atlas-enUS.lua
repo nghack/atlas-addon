@@ -436,6 +436,7 @@ if AL then
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "The Nameless Prophet";
 	AL["Cursed Centaur"] = "Cursed Centaur";
+	AL["Kherrah"] = "Kherrah";
 
 	--Scarlet Monastery (Entrance)
 

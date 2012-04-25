@@ -364,7 +364,7 @@ if AL then
 	AL["HoF"] = "HdF"; --Heart of Fear
 	AL["MP"] = "MP, Palast"; --Mogu'shan Palace
 	AL["MV"] = "MS, Kammer"; --Mogu'shan Vaults
-	AL["SPM"] = "SPK"; --Shado-pan Monastery
+	AL["SPM"] = "SPK"; --Shado-Pan Monastery
 	AL["SNT"] = "BNT, Niuzao"; --Siege of Niuzao Temple
 	AL["SB"] = "BS, Brauerei"; --Stormstout Brewery
 	AL["TJS"] = "TdJ, Jade"; --Temple of the Jade Serpent
@@ -1175,7 +1175,7 @@ if AL then
 
 	--Mogu'shan Vaults
 
-	--Shado-pan Monastery
+	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
 

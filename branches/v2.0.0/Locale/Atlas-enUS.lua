@@ -357,7 +357,7 @@ if AL then
 	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
-	AL["SPM"] = "SPM"; --Shado-pan Monastery
+	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
@@ -1168,7 +1168,7 @@ if AL then
 
 	--Mogu'shan Vaults
 
-	--Shado-pan Monastery
+	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
 
@@ -1183,6 +1183,7 @@ if AL then
 -- SubZone strings, DO NOT TRANSLATE, they will get replaced when Babble-SubZone is updated
 --*********************
 
+	AL["Dread Wastes"] = "Dread Wastes";
 	AL["Gate of the Setting Sun"] = "Gate of the Setting Sun";
 	AL["Heart of Fear"] = "Heart of Fear";
 	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
@@ -1190,7 +1191,7 @@ if AL then
 	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
 	AL["Scarlet Cathedral"] = "Scarlet Cathedral";
 	AL["Scarlet Halls"] = "Scarlet Halls";
-	AL["Shado-pan Monastery"] = "Shado-pan Monastery";
+	AL["Shado-Pan Monastery"] = "Shado-Pan Monastery";
 	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";
 	AL["Stormstout Brewery"] = "Stormstout Brewery";
 	AL["Temple of the Jade Serpent"] = "Temple of the Jade Serpent";

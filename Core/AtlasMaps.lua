@@ -990,8 +990,8 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korlof", 671) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Commander Durand", 674) };
-		{ WHIT..INDENT..Atlas_GetBossName("High Inquisitor Whitemane") };
+		{ WHIT.." 3) "..Atlas_GetBossName("High Inquisitor Whitemane", 674) };
+		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand") };
 	};
 	SMHalls = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Halls"] };
@@ -2765,7 +2765,6 @@ Syntax:
 	GateoftheSettingSun = {
 		ZoneName = { AL["Gate of the Setting Sun"] };
 		Location = { AL["Townlong Steppes"] };
-		--DungeonID = "x";
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
@@ -2777,13 +2776,17 @@ Syntax:
 	};
 	HeartofFear = {
 		ZoneName = { AL["Heart of Fear"] };
-		--Location = { BZ["x"] };
+		Location = { AL["Dread Wastes"] };
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["HoF"];
 		JournalInstanceID = "330";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Garalon", 713) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Blade Lord Ta'yak", 744) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Garalon", 713) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Amber-Shaper Un'sok", 737) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
 	};
 	MogushanPalace = {
 		ZoneName = { AL["Mogu'shan Palace"] };
@@ -2793,7 +2796,7 @@ Syntax:
 		Acronym = AL["MP"];
 		JournalInstanceID = "321";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Clan Leaders of the Mogu", 708) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
 	};
@@ -2813,7 +2816,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
 	};
 	ShadopanMonastery = {
-		ZoneName = { AL["Shado-pan Monastery"] };
+		ZoneName = { AL["Shado-Pan Monastery"] };
 		Location = { AL["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
@@ -2828,14 +2831,14 @@ Syntax:
 	SiegeofNiuzaoTemple = {
 		ZoneName = { AL["Siege of Niuzao Temple"] };
 		Location = { AL["Townlong Steppes"] };
-		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
-		{ WHIT.." 2) "..Atlas_GetBossName("General Pa'valak", 692) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
+		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
 	};
 	StormstoutBrewery = {
 		ZoneName = { AL["Stormstout Brewery"] };
@@ -2858,7 +2861,7 @@ Syntax:
 		JournalInstanceID = "313";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Wise Mari", 672) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Library Event", 664) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Lorewalker Stonestep", 664) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Liu Flameheart", 658) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Doubt", 335) };
 	};
@@ -2871,6 +2874,8 @@ Syntax:
 		JournalInstanceID = "320";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 655) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Sha of Fear", 709) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Nalomoni", 742) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
 };

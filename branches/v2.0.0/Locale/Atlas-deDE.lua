@@ -254,7 +254,6 @@ if AL then
 	AL["BRD"] = "BRT"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
 	AL["BWL"] = "BWL"; -- Blackwing Lair
-	AL["Cath"] = "Kathe"; -- Scarlet Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Halls"] = "Hallen"; -- Scarlet Halls
@@ -625,6 +624,7 @@ if AL then
 	--Molten Core
 
 	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Instrukteur Kaltherz' Phylakterium";
 	AL["Coffer of Forgotten Souls"] = "Truhe vergessener Seelen";
 	AL["Professor Slate"] = "Professor Schiefer";
 	AL["Polyformic Acid Potion"] = "Polyformgift";
@@ -643,7 +643,7 @@ if AL then
 
 	--SM: Halls
 	AL["Hunter Commander"] = "Jägerkommandant";
-	AL["Archery Target"] = "Schießscheibe";
+	AL["Reinforced Archery Target"] = "Verstärkte Zielscheibe";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Kreuzzugskommandant Eligor Morgenbringer <Bruderschaft des Lichts>";

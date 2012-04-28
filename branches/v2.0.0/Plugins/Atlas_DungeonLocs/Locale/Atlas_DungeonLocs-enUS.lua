@@ -44,12 +44,14 @@ if AL then
 -- SubZone strings, DO NOT TRANSLATE, they will get replaced when Babble-SubZone is updated
 --*********************
 
+	AL["Dread Wastes"] = "Dread Wastes";
 	AL["Gate of the Setting Sun"] = "Gate of the Setting Sun";
 	AL["Heart of Fear"] = "Heart of Fear";
 	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
 	AL["Mogu'shan Palace"] = "Mogu'shan Palace";
 	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
-	AL["Shado-pan Monastery"] = "Shado-pan Monastery";
+	AL["Scarlet Halls"] = "Scarlet Halls";
+	AL["Shado-Pan Monastery"] = "Shado-Pan Monastery";
 	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";
 	AL["Stormstout Brewery"] = "Stormstout Brewery";
 	AL["Temple of the Jade Serpent"] = "Temple of the Jade Serpent";

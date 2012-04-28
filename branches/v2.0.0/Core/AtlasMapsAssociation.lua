@@ -243,15 +243,6 @@ Atlas_SubZoneData = {
 			BZ["The Slaughter House"],
 		},
 	},
-	-- Throne of the Tides
-	-- 2011/09/05: Arith - Do we really need this?
-	[BZ["Throne of Tides"]] = {
-		--Throne of the Tides
-		["ThroneOfTheTides"] = {
-			BZ["Abyssal Halls"],
-			BZ["Throne of Neptulon"],
-		},
-	},
 	-- Ulduar
 	[BZ["Ulduar"]] = {
 		--Ulduar, The Siege
@@ -384,7 +375,7 @@ Atlas_EntToInstMatches = {
 	["IcecrownEnt"] =			{"FHHallsOfReflection", "FHPitOfSaron", "FHTheForgeOfSouls", "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC"};
 	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
 	["MaraudonEnt"] =			{"Maraudon"};
-	["ScarletMonasteryEnt"] =		{"SMCathedral","SMHalls"};
+	["ScarletMonasteryEnt"] =		{"SMHalls","SMMonastery"};
 	["TempestKeepEnt"] = 			{"TempestKeepArcatraz", "TempestKeepBotanica", "TempestKeepMechanar", "TempestKeepTheEye"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
@@ -439,8 +430,8 @@ Atlas_InstToEntMatches = {
 	["KarazhanStart"] =			{"KarazhanEnt"};
 	["KarazhanEnd"] =			{"KarazhanEnt"};
 	["Maraudon"] =				{"MaraudonEnt"};
-	["SMCathedral"] =			{"ScarletMonasteryEnt"};
 	["SMHalls"] =				{"ScarletMonasteryEnt"};
+	["SMMonastery"] =			{"ScarletMonasteryEnt"};
 	["TempestKeepArcatraz"] = 		{"TempestKeepEnt"};
 	["TempestKeepBotanica"] = 		{"TempestKeepEnt"}; 
 	["TempestKeepMechanar"] = 		{"TempestKeepEnt"}; 
@@ -473,9 +464,6 @@ Atlas_SubZoneAssoc = {
 	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
 	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
 	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
-	["SMCathedral"] =			BZ["Scarlet Monastery"];
-	["SMHalls"] =				BZ["Scarlet Monastery"];
-	["ScarletMonasteryEnt"] =		BZ["Scarlet Monastery"];
 	["StratholmeCrusader"] =		BZ["Stratholme"];
 	["StratholmeGauntlet"] =		BZ["Stratholme"];
 	["UlduarA"] =				BZ["Ulduar"];

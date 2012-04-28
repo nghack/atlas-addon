@@ -247,7 +247,6 @@ if AL then
 	AL["BRD"] = "BRD"; -- Blackrock Depths
 	AL["BRM"] = "BRM"; -- Blackrock Mountain
 	AL["BWL"] = "BWL"; -- Blackwing Lair
-	AL["Cath"] = "Cath"; -- Scarlet Cathedral
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Halls"] = "Halls"; -- Scarlet Halls
@@ -618,6 +617,7 @@ if AL then
 	--Molten Core
 
 	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
 	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 	AL["Professor Slate"] = "Professor Slate";
 	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
@@ -636,7 +636,7 @@ if AL then
 
 	--SM: Halls
 	AL["Hunter Commander"] = "Hunter Commander";
-	AL["Archery Target"] = "Archery Target";
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
@@ -1189,7 +1189,6 @@ if AL then
 	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
 	AL["Mogu'shan Palace"] = "Mogu'shan Palace";
 	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
-	AL["Scarlet Cathedral"] = "Scarlet Cathedral";
 	AL["Scarlet Halls"] = "Scarlet Halls";
 	AL["Shado-Pan Monastery"] = "Shado-Pan Monastery";
 	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";

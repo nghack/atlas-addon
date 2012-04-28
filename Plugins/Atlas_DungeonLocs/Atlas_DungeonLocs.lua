@@ -54,6 +54,8 @@ local myData = {
 		{ WHIT..INDENT..BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
 		{ WHIT..INDENT..BZ["Stratholme"].." - "..BZ["The Gauntlet"] };
 		{ WHIT.." 5) "..BZ["Scarlet Monastery"]..", ".._RED..BZ["Tirisfal Glades"] };
+		{ WHIT..INDENT..AL["Scarlet Halls"] };
+		{ WHIT..INDENT..BZ["Scarlet Monastery"] };
 		{ WHIT.." 6) "..BZ["Scholomance"]..", ".._RED..BZ["Western Plaguelands"] };
 		{ WHIT.." 7) "..BZ["Shadowfang Keep"]..", ".._RED..BZ["Silverpine Forest"] };
 		{ WHIT.." 8) "..BZ["Baradin Hold"]..", ".._RED..BZ["Tol Barad"] };
@@ -183,7 +185,7 @@ local myData = {
 	};
 	DLPandaria = {
 		ZoneName = { AL["Pandaria"] };
-		{ WHIT.." 1) "..AL["Shado-pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
+		{ WHIT.." 1) "..AL["Shado-Pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
 		{ WHIT.." 2) "..AL["Terrace of Endless Spring"] };
 		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };
 		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Townlong Steppes"] };
@@ -191,7 +193,7 @@ local myData = {
 		{ WHIT.." 6) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
 		{ WHIT.." 7) "..AL["Temple of the Jade Serpent"]..", ".._RED..AL["The Jade Forest"] };
 		{ WHIT.." 8) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
-		{ WHIT.." 9) "..AL["Heart of Fear"] };
+		{ WHIT.." 9) "..AL["Heart of Fear"]..", ".._RED..AL["Dread Wastes"] };
 	};
 };
 

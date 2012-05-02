@@ -2765,7 +2765,7 @@ Syntax:
 
 	GateoftheSettingSun = {
 		ZoneName = { AL["Gate of the Setting Sun"] };
-		Location = { AL["Townlong Steppes"] };
+		Location = { AL["Dread Wastes"].." / "..AL["Vale of Eternal Blossoms"] };
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
@@ -2804,7 +2804,7 @@ Syntax:
 	};
 	MogushanVaults = {
 		ZoneName = { AL["Mogu'shan Vaults"] };
-		Location = { AL["Vale of Eternal Blossoms"] };
+		Location = { AL["Kun-Lai Summit"] };
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["MV"];
@@ -2869,7 +2869,7 @@ Syntax:
 	};
 	TerraceofEndlessSpring = {
 		ZoneName = { AL["Terrace of Endless Spring"] };
-		--Location = { BZ["x"] };
+		Location = { AL["The Veiled Stair"] };
 		--DungeonID = "x";
 		--DungeonHeroicID = "x";
 		Acronym = AL["TES"];

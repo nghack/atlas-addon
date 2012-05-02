@@ -57,6 +57,7 @@ if AL then
 	AL["Temple of the Jade Serpent"] = "Temple of the Jade Serpent";
 	AL["Terrace of Endless Spring"] = "Terrace of Endless Spring";
 	AL["The Jade Forest"] = "The Jade Forest";
+	AL["The Veiled Stair"] = "The Veiled Stair";
 	AL["Townlong Steppes"] = "Townlong Steppes";
 	AL["Vale of Eternal Blossoms"] = "Vale of Eternal Blossoms";
 	AL["Valley of the Four Winds"] = "Valley of the Four Winds";

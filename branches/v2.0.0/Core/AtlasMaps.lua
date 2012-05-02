@@ -1022,7 +1022,7 @@ Syntax:
 		{ GREN..INDENT..AL["Packmaster Stonebruiser <Brotherhood of the Light>"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Unforgiven", 450) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Timmy the Cruel", 445) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Commander Malor") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Malor", 749) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Willey Hopebreaker", 446) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Instructor Galford", 448) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Balnazzar", 449) };
@@ -1138,7 +1138,7 @@ Syntax:
 		{ GREN..INDENT..AL["Baelog's Chest"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Revelosh", 467) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ironaya", 469) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Obsidian Sentinel") };
+		{ WHIT.." 4) "..Atlas_GetBossName("Obsidian Sentinel", 748) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Ancient Stone Keeper", 470) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Galgann Firehammer", 471) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Grimlok", 472) };

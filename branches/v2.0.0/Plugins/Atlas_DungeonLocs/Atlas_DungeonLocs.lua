@@ -186,14 +186,14 @@ local myData = {
 	DLPandaria = {
 		ZoneName = { AL["Pandaria"] };
 		{ WHIT.." 1) "..AL["Shado-Pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
-		{ WHIT.." 2) "..AL["Terrace of Endless Spring"] };
+		{ WHIT.." 2) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Kun-Lai Summit"] };
 		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };
-		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Townlong Steppes"] };
+		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Dread Wastes"].." / ".._RED..AL["Vale of Eternal Blossoms"] };
 		{ WHIT.." 5) "..AL["Mogu'shan Palace"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
-		{ WHIT.." 6) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
+		{ WHIT.." 6) "..AL["Terrace of Endless Spring"]..", ".._RED..AL["The Veiled Stair"] };
 		{ WHIT.." 7) "..AL["Temple of the Jade Serpent"]..", ".._RED..AL["The Jade Forest"] };
-		{ WHIT.." 8) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
-		{ WHIT.." 9) "..AL["Heart of Fear"]..", ".._RED..AL["Dread Wastes"] };
+		{ WHIT.." 8) "..AL["Heart of Fear"]..", ".._RED..AL["Dread Wastes"] };
+		{ WHIT.." 9) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
 	};
 };
 

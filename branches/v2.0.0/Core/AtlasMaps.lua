@@ -2778,8 +2778,8 @@ Syntax:
 	HeartofFear = {
 		ZoneName = { AL["Heart of Fear"] };
 		Location = { AL["Dread Wastes"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "533";
+		DungeonHeroicID = "534";
 		Acronym = AL["HoF"];
 		JournalInstanceID = "330";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2805,8 +2805,8 @@ Syntax:
 	MogushanVaults = {
 		ZoneName = { AL["Mogu'shan Vaults"] };
 		Location = { AL["Kun-Lai Summit"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "531";
+		DungeonHeroicID = "532";
 		Acronym = AL["MV"];
 		JournalInstanceID = "317";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2870,8 +2870,8 @@ Syntax:
 	TerraceofEndlessSpring = {
 		ZoneName = { AL["Terrace of Endless Spring"] };
 		Location = { AL["The Veiled Stair"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "535";
+		DungeonHeroicID = "536";
 		Acronym = AL["TES"];
 		JournalInstanceID = "320";
 		{ BLUE.." A) "..AL["Entrance"] };

@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, Deadca7
+-- Maintainers: Arith, Dynaletik, dubcat
 
 Atlas_DropDownLayouts_Order = {
 	[1] = ATLAS_DDL_CONTINENT;

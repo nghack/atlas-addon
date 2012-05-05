@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, Deadca7
+-- Maintainers: Arith, Dynaletik, dubcat
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 

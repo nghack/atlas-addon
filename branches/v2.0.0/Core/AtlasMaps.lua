@@ -990,10 +990,10 @@ Syntax:
 		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..AL["Hunter Commander"] };
-		{ GREN..INDENT..AL["Reinforced Archery Target"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan", 654) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
+		{ GREN.." 1') "..AL["Reinforced Archery Target"] };
 	};
 	SMMonastery = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Monastery"] };
@@ -2850,6 +2850,7 @@ Syntax:
 		Acronym = AL["SB"];
 		JournalInstanceID = "302";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-E) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook", 668) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Hoptallus", 669) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Yan-Zhu the Uncasked", 670) };

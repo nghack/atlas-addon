@@ -7,7 +7,7 @@
 ## Notes-deDE: Classic WoW Instanzkarten
 ## Notes-zhTW: 艾澤拉斯副本地圖模組
 ## Version: 2.0.0
-## Author: arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, dubcat
 ## X-Date: 
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com

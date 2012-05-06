@@ -11,7 +11,7 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Author: arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, dubcat
 ## Version: 2.0.0
 ## OptionalDeps: Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-SubZone-3.0, LibDataBroker-1.1, LibAboutPanel, CallbackHandler-1.0
 ## X-Category: Map

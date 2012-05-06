@@ -13,7 +13,7 @@
 ## Notes-zhCN: 副本位置
 ## Notes-zhTW: Atlas 地下城位置地圖插件，顯示各個地下城 (副本) 所在位置
 ## Version: 2.0.0
-## Author: arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, dubcat
 ## X-Date: 
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com

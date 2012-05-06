@@ -13,7 +13,7 @@
 ## Notes-zhCN: 户外首领战斗
 ## Notes-zhTW: Atlas 戶外首領地圖插件
 ## Version: 2.0.0
-## Author: arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, dubcat
 ## X-Date: 
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com

@@ -13,7 +13,7 @@
 ## Notes-zhCN: 交通地图
 ## Notes-zhTW: Atlas 交通網路圖插件，顯示各大陸的海陸空交通節點
 ## Version: 2.0.0
-## Author: arith, Dynaletik, Deadca7
+## Author: arith, Dynaletik, dubcat
 ## X-Date: 
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com

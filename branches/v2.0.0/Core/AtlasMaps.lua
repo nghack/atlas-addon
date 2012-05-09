@@ -2877,7 +2877,7 @@ Syntax:
 		JournalInstanceID = "320";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 655) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Nalomoni", 742) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Tsulong", 742) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};

@@ -1372,8 +1372,8 @@ Syntax:
 		LevelRange = "68-75";
 		MinLevel = "68";
 		PlayerLimit = "5";
-		Acronym = AL["CoT2"]
-		JournalInstanceID = "255";;
+		Acronym = AL["CoT2"];
+		JournalInstanceID = "255";
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };

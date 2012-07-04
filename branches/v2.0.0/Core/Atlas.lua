@@ -333,18 +333,6 @@ function Atlas_InitOptions()
 	if ( AtlasOptions == nil ) then
 		Atlas_FreshOptions();
 	end
-	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
-	--can be removed after 1.21.0 release
-	if (AtlasOptions["AtlasBossDescScale"] == nil) then
-		AtlasOptions["AtlasBossDescScale"] = 0.9;
-	end
-	if (AtlasOptions["AtlasBossDesc"] == nil) then
-		AtlasOptions["AtlasBossDesc"] = true;
-	end
-
-	if (AtlasOptions["AtlasDontShowInfo"] == nil) then
-		AtlasOptions["AtlasDontShowInfo"] = false;
-	end
 	
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
@@ -1020,20 +1008,6 @@ function Atlas_OnShow()
 	AtlasFrameDropDown_OnShow();
 end
 
---Code provided by tyroney
---Bugfix code by Cold
---Runs when the Atlas frame is clicked on
---RightButton closes Atlas and open the World Map if the RightClick option is turned on
---[[ We don't need below function as to call it inside Atlas.xml will be more straight forward - Arith
-function Atlas_OnClick()
-	if ( arg1 == "RightButton" ) then
-		if (AtlasOptions.AtlasRightClick) then
-			Atlas_Toggle();
-			ToggleFrame(WorldMapFrame);
-		end
-	end
-end
-]]
 
 function AtlasScrollBar_Update()
 	GameTooltip:Hide();

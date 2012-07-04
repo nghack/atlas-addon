@@ -1,4 +1,4 @@
-﻿## Interface: 50000
+﻿## Interface: 50001
 ## Title: Atlas
 ## Title-deDE: Atlas
 ## Title-ruRU: Atlas
@@ -31,3 +31,4 @@ Locale\Locales.xml
 Core\Atlas.xml
 Core\AtlasOptions.xml
 Core\AtlasButton.xml
+##Core\AtlasWorldMap.xml

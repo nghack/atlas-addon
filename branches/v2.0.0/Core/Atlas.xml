@@ -103,7 +103,7 @@
 				<PushedTexture name="AtlasLockPush"/>
 				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" AlphaMode="ADD"/>
 			</Button>
-			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_BUTTON">
+			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate" text="ATLAS_OPTIONS_BUTTON">
 				<Size>
 					<AbsDimension x="80" y="20"/>
 				</Size>

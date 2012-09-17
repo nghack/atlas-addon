@@ -5,6 +5,7 @@
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 浩劫與重生
 ## Notes: Cataclysm Dungeon Maps
 ## Notes-deDE: Cataclysm Instanzkarten
+## Notes-zhTW: 浩劫與重生副本地圖模組
 ## Version: 1.22.0
 ## Author: arith, Dynaletik, dubcat
 ## X-Date: September xx, 2012

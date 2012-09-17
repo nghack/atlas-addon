@@ -385,7 +385,7 @@ function Atlas_Init()
 	Atlas_UpdateLock();
 	Atlas_UpdateAlpha();
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped);
-	AtlasButton_UpdatePosition();
+--	AtlasButton_UpdatePosition();
 	AtlasOptions_Init();
 	
 	--Make an LDB object

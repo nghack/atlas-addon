@@ -234,6 +234,7 @@
 					</OnLeave>
 				</Scripts>
 			</CheckButton>
+<!--
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
@@ -278,6 +279,7 @@
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
+-->
 			<Slider name="$ParentSliderAlpha" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>

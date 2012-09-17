@@ -34,13 +34,22 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local addon = LibStub("AceAddon-3.0"):NewAddon("Atlas", "AceConsole-3.0")
 local AtlasMiniMapLDB = LibStub("LibDataBroker-1.1"):NewDataObject("Atlas", {
 	type = "launcher",
-	text = AL["Atlas"],
+	text = AL["ATLAS_TITLE"],
 	icon = "Interface\\WorldMap\\WorldMap-Icon",
+	OnClick = function(_, msg)
+		if msg == "LeftButton" then
+			Atlas_Toggle();
+		elseif msg == "RightButton" then
+			AtlasOptions_Toggle();
+		end
+	end,
+	OnTooltipShow = function(tooltip)
+		if not tooltip or not tooltip.AddLine then return end
+		tooltip:AddLine("|cffffffff"..ATLAS_TITLE)
+		tooltip:AddLine(ATLAS_MINIMAPLDB_HINT)
+	end,
 })
 
-function AtlasMiniMapLDB:OnClick(button,down)
-	Atlas_Toggle();
-end
 
 local AtlasMiniMapIcon = LibStub("LibDBIcon-1.0")
 

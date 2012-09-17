@@ -144,7 +144,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Ok";
 
 	AL["ATLAS_INFO"] = "Atlas Information";
-	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in addons into separated modules.\n\nUsers who download our addons from some of the famous game web sites \nmay only get the core addon which only include the Atlas core function \nand the Cataclysm dungeon maps.\n\nUsers who also want to download all the old dungeon maps and all the \nAtlas plug-ins made by us would need to download them separately.\n\nRead below forum topic for more information:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in addons into separated modules.\n\nUsers who download our addons from some of the famous game web sites \nmay only get the core addon which only include the Atlas core function \nand the latest WoW expansion maps.\n\nUsers who also want to download all the old dungeon maps and all the \nAtlas plug-ins made by us would need to download them separately.\n\nRead below forum topic for more information:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

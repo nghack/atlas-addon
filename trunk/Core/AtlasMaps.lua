@@ -2760,31 +2760,28 @@ Syntax:
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	SiegeofNiuzaoTempleA = {
-		ZoneName = { BZ["Siege of Niuzao Temple"] };
+		ZoneName = { BZ["Siege of Niuzao Temple"].." [A]" };
 		Location = { BZ["Townlong Steppes"] };
 		DungeonHeroicID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
-		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
 	};
 	SiegeofNiuzaoTempleB = {
-		ZoneName = { BZ["Siege of Niuzao Temple"] };
+		ZoneName = { BZ["Siege of Niuzao Temple"].." [B]" };
 		Location = { BZ["Townlong Steppes"] };
 		DungeonHeroicID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };

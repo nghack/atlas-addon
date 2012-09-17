@@ -174,7 +174,7 @@ local function Process_Deprecated()
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.7" }, -- updated Dec. 01, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "7.00.00" }, -- updated Sep. xx, 2012
+		{ "AtlasLoot", "7.00.01" }, -- updated Aug. 29, 2012
 		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011
 		{ "Atlas_WorldEvents", "2.4" }, -- updated Dec. 05, 2011
 	};
@@ -570,7 +570,7 @@ function Atlas_MapRefresh()
 
 	-- Player Limit
 	local tPL = "";
-	if ( base.DungeonID ) then 
+	if ( base.DungeonID and maxPlayers ~= 0) then 
 		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..maxPlayers;
 		if ( base.DungeonHeroicID and maxPlayers ~= maxPlayersH) then
 			tPL = tPL.." / "..maxPlayersH;
@@ -681,7 +681,6 @@ end
 --The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"
 --Also responsible for updating all the text when a map is changed
 function Atlas_Refresh()
-	
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];

@@ -237,18 +237,17 @@ end
 local function Atlas_SanitizeName(text)
    text = string.lower(text);
    if (AtlasSortIgnore) then
-	local _, value
-	for _, value in pairs(AtlasSortIgnore) do
-		local match; 
-		if ( string.gmatch ) then 
-			match = string.gmatch(text, value)();
-		else 
-			match = string.gfind(text, value)(); 
-		end
-		if (match) and ((string.len(text) - string.len(match)) <= 4) then
-			return match;
-		end
-	end
+	   for _,v in pairs(AtlasSortIgnore) do
+		   local match; 
+           if ( string.gmatch ) then 
+                match = string.gmatch(text, v)();
+           else 
+                match = string.gfind(text, v)(); 
+           end
+		   if (match) and ((string.len(text) - string.len(match)) <= 4) then
+			   return match;
+		   end
+	   end
    end
    return text;
 end

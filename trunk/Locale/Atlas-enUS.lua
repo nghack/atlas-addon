@@ -97,6 +97,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
 	AL["ATLAS_LDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.\nRight-click and drag to move this button.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Sort Instance Maps by:";
 	AL["ATLAS_DDL_CONTINENT"] = "Continent";

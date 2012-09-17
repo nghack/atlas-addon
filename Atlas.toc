@@ -31,4 +31,4 @@ Locale\Locales.xml
 Core\Atlas.xml
 Core\AtlasOptions.xml
 Core\AtlasButton.xml
-##Core\AtlasWorldMap.xml
+Core\AtlasWorldMapFrame.xml

@@ -57,15 +57,16 @@ Column	Field		Type		Notes
 
 
 # Structure of LFGDungeons.dbc
-Column	Field 		Type 		Notes
-------	-------------	--------	----------------------------------------------------------------------------------------------
+Column	Field 		Type 		Patch	Notes
+------	-------------	--------	-----	----------------------------------------------------------------------------------------------
 1	ID 		Integer 		
-2 	sRefName 	String 		Area/Instance (zone) name
-3-10 	Localization 	String* 	
-11 	level_min 	Integer 	Minimum level to participate.
-12 	level_max 	Integer 	Maximum level when this dungeon becomes trivial.
-13 	Unknown 	Integer 	Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)?
-14 	faction 	Integer 	Faction type to participate. -1 all; 0 horde; 1 alliance; 
+2-18 	sRefName 	String + Loc		Area/Instance (zone) name 	
+19 	level_min 	Integer 		Minimum level to participate. 
+20 	level_max 	Integer 		Maximum level when this dungeon becomes trivial. 
+21 	Unknown 	Integer 		Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)? 
+22 	faction 	Integer 		Faction type to participate. -1 all; 0 horde; 1 alliance; 
+23 	Map ID	        Integer 	 	Here you must add the Map Id where you will be ported
+24 	Expansion 	Integer 	5965 	Does this just denote it's part of TBC or a toggle of some kind? 
 
 ]]
 
@@ -332,7 +333,7 @@ Syntax:
 		Acronym = AL["SM"];
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Scarlet Monastery"] };
-		{ BLUE.." C) "..AL["Scarlet Halls"] };
+		{ BLUE.." C) "..BZ["Scarlet Halls"] };
 	};
 	TempestKeepEnt = {
 		ZoneName = { BZ["Tempest Keep"].." ("..AL["Entrance"]..")" };
@@ -850,6 +851,7 @@ Syntax:
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "50";
+		PlayerLimit = "40";
 		Acronym = AL["BWL"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
@@ -2696,8 +2698,8 @@ Syntax:
 --************************************************
 
 	GateoftheSettingSun = {
-		ZoneName = { AL["Gate of the Setting Sun"] };
-		Location = { AL["Dread Wastes"].." / "..AL["Vale of Eternal Blossoms"] };
+		ZoneName = { BZ["Gate of the Setting Sun"] };
+		Location = { BZ["Dread Wastes"].." / "..BZ["Vale of Eternal Blossoms"] };
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
@@ -2708,8 +2710,8 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Raigonn", 649) };
 	};
 	HeartofFear = {
-		ZoneName = { AL["Heart of Fear"] };
-		Location = { AL["Dread Wastes"] };
+		ZoneName = { BZ["Heart of Fear"] };
+		Location = { BZ["Dread Wastes"] };
 		DungeonID = "533";
 		DungeonHeroicID = "534";
 		Acronym = AL["HoF"];
@@ -2723,8 +2725,8 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
 	};
 	MogushanPalace = {
-		ZoneName = { AL["Mogu'shan Palace"] };
-		Location = { AL["Vale of Eternal Blossoms"] };
+		ZoneName = { BZ["Mogu'shan Palace"] };
+		Location = { BZ["Vale of Eternal Blossoms"] };
 		DungeonID = "467";
 		DungeonHeroicID = "519";
 		Acronym = AL["MP"];
@@ -2735,8 +2737,8 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
 	};
 	MogushanVaults = {
-		ZoneName = { AL["Mogu'shan Vaults"] };
-		Location = { AL["Kun-Lai Summit"] };
+		ZoneName = { BZ["Mogu'shan Vaults"] };
+		Location = { BZ["Kun-Lai Summit"] };
 		DungeonID = "531";
 		DungeonHeroicID = "532";
 		Acronym = AL["MV"];
@@ -2750,26 +2752,35 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
 	};
 	ShadoPanMonastery = {
-		ZoneName = { AL["Shado-Pan Monastery"] };
+		ZoneName = { BZ["Shado-Pan Monastery"] };
 		Location = { AL["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
-	SiegeofNiuzaoTemple = {
-		ZoneName = { AL["Siege of Niuzao Temple"] };
-		Location = { AL["Townlong Steppes"] };
-		--DungeonHeroicID = "x";
+	SiegeofNiuzaoTempleA = {
+		ZoneName = { BZ["Siege of Niuzao Temple"].." [A]" };
+		Location = { BZ["Townlong Steppes"] };
+		DungeonHeroicID = "554";
+		Acronym = AL["SNT"];
+		JournalInstanceID = "324";
+		{ BLUE.." C) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
+	};
+	SiegeofNiuzaoTempleB = {
+		ZoneName = { BZ["Siege of Niuzao Temple"].." [B]" };
+		Location = { BZ["Townlong Steppes"] };
+		DungeonHeroicID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
@@ -2792,8 +2803,8 @@ Syntax:
 		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
 		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
 	};
-	SMHalls = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Halls"] };
+	ScarletHalls = {
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Halls"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "163";
 		DungeonHeroicID = "473";
@@ -2807,7 +2818,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
 		{ GREN.." 1') "..AL["Reinforced Archery Target"] };
 	};
-	SMMonastery = {
+	ScarletMonastery = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Monastery"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "164";
@@ -2822,8 +2833,8 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand") };
 	};
 	StormstoutBrewery = {
-		ZoneName = { AL["Stormstout Brewery"] };
-		Location = { AL["Valley of the Four Winds"] };
+		ZoneName = { BZ["Stormstout Brewery"] };
+		Location = { BZ["Valley of the Four Winds"] };
 		DungeonID = "465";
 		DungeonHeroicID = "469";
 		Acronym = AL["SB"];
@@ -2835,8 +2846,8 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Yan-Zhu the Uncasked", 670) };
 	};
 	TempleoftheJadeSerpent = {
-		ZoneName = { AL["Temple of the Jade Serpent"] };
-		Location = { AL["The Jade Forest"] };
+		ZoneName = { BZ["Temple of the Jade Serpent"] };
+		Location = { BZ["The Jade Forest"] };
 		DungeonID = "464";
 		DungeonHeroicID = "468";
 		Acronym = AL["TJS"];
@@ -2848,8 +2859,8 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Doubt", 335) };
 	};
 	TerraceofEndlessSpring = {
-		ZoneName = { AL["Terrace of Endless Spring"] };
-		Location = { AL["The Veiled Stair"] };
+		ZoneName = { BZ["Terrace of Endless Spring"] };
+		Location = { BZ["The Veiled Stair"] };
 		DungeonID = "535";
 		DungeonHeroicID = "536";
 		Acronym = AL["TES"];

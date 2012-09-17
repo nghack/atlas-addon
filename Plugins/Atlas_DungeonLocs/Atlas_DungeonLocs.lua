@@ -185,15 +185,15 @@ local myData = {
 	};
 	DLPandaria = {
 		ZoneName = { BZ["Pandaria"] };
-		{ WHIT.." 1) "..AL["Shado-Pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
-		{ WHIT.." 2) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Kun-Lai Summit"] };
-		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };
-		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Dread Wastes"].." / ".._RED..AL["Vale of Eternal Blossoms"] };
-		{ WHIT.." 5) "..AL["Mogu'shan Palace"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
-		{ WHIT.." 6) "..AL["Terrace of Endless Spring"]..", ".._RED..AL["The Veiled Stair"] };
-		{ WHIT.." 7) "..AL["Temple of the Jade Serpent"]..", ".._RED..AL["The Jade Forest"] };
-		{ WHIT.." 8) "..AL["Heart of Fear"]..", ".._RED..AL["Dread Wastes"] };
-		{ WHIT.." 9) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
+		{ WHIT.." 1) "..BZ["Shado-Pan Monastery"]..", ".._RED..BZ["Kun-Lai Summit"] };
+		{ WHIT.." 2) "..BZ["Mogu'shan Vaults"]..", ".._RED..BZ["Kun-Lai Summit"] };
+		{ WHIT.." 3) "..BZ["Siege of Niuzao Temple"]..", ".._RED..BZ["Townlong Steppes"] };
+		{ WHIT.." 4) "..BZ["Gate of the Setting Sun"]..", ".._RED..BZ["Dread Wastes"].." / ".._RED..BZ["Vale of Eternal Blossoms"] };
+		{ WHIT.." 5) "..BZ["Mogu'shan Palace"]..", ".._RED..BZ["Vale of Eternal Blossoms"] };
+		{ WHIT.." 6) "..BZ["Terrace of Endless Spring"]..", ".._RED..BZ["The Veiled Stair"] };
+		{ WHIT.." 7) "..BZ["Temple of the Jade Serpent"]..", ".._RED..BZ["The Jade Forest"] };
+		{ WHIT.." 8) "..BZ["Heart of Fear"]..", ".._RED..BZ["Dread Wastes"] };
+		{ WHIT.." 9) "..BZ["Stormstout Brewery"]..", ".._RED..BZ["Valley of the Four Winds"] };
 	};
 };
 

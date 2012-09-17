@@ -6,6 +6,6 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
-v2.0.0 (Sep. xx, 2012)
+v1.22.0 (Sep. xx, 2012)
 - Splitted from Atlas core addon
 

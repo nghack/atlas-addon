@@ -57,15 +57,16 @@ Column	Field		Type		Notes
 
 
 # Structure of LFGDungeons.dbc
-Column	Field 		Type 		Notes
-------	-------------	--------	----------------------------------------------------------------------------------------------
-1	ID 		Integer 		
-2 	sRefName 	String 		Area/Instance (zone) name
-3-10 	Localization 	String* 	
-11 	level_min 	Integer 	Minimum level to participate.
-12 	level_max 	Integer 	Maximum level when this dungeon becomes trivial.
-13 	Unknown 	Integer 	Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)?
-14 	faction 	Integer 	Faction type to participate. -1 all; 0 horde; 1 alliance; 
+Column	Field 		Type 		Patch	Notes
+------	-------------	--------	-----	----------------------------------------------------------------------------------------------
+1 	ID 		Integer 		
+2-18 	sRefName 	String + Loc		Area/Instance (zone) name 	
+19 	level_min 	Integer 		Minimum level to participate. 
+20 	level_max 	Integer 		Maximum level when this dungeon becomes trivial. 
+21 	Unknown 	Integer 		Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)? 
+22 	faction 	Integer 		Faction type to participate. -1 all; 0 horde; 1 alliance; 
+23 	Map ID	        Integer 	 	Here you must add the Map Id where you will be ported
+24 	Expansion 	Integer 	5965 	Does this just denote it's part of TBC or a toggle of some kind? 
 
 ]]
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0");
@@ -851,6 +852,7 @@ Syntax:
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "50";
+		PlayerLimit = "40";
 		Acronym = AL["BWL"];
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
@@ -2763,7 +2765,19 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
-	SiegeofNiuzaoTemple = {
+	SiegeofNiuzaoTempleA = {
+		ZoneName = { BZ["Siege of Niuzao Temple"] };
+		Location = { BZ["Townlong Steppes"] };
+		DungeonHeroicID = "554";
+		Acronym = AL["SNT"];
+		JournalInstanceID = "324";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
+		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
+	};
+	SiegeofNiuzaoTempleB = {
 		ZoneName = { BZ["Siege of Niuzao Temple"] };
 		Location = { BZ["Townlong Steppes"] };
 		DungeonHeroicID = "554";
@@ -2793,7 +2807,7 @@ Syntax:
 		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
 		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
 	};
-	SMHalls = {
+	ScarletHalls = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Halls"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "163";
@@ -2808,7 +2822,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
 		{ GREN.." 1') "..AL["Reinforced Archery Target"] };
 	};
-	SMMonastery = {
+	ScarletMonastery = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Monastery"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "164";

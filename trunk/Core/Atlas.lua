@@ -582,7 +582,7 @@ function Atlas_MapRefresh()
 
 	-- Player Limit
 	local tPL = "";
-	if ( base.DungeonID ) then 
+	if ( base.DungeonID and maxPlayers ~= 0) then 
 		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..maxPlayers;
 		if ( base.DungeonHeroicID and maxPlayers ~= maxPlayersH) then
 			tPL = tPL.." / "..maxPlayersH;

@@ -7,7 +7,11 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.21.1 (Dec. XX, 2011)
+v1.22.0 (Sep. xx, 2012)
+- Map added:
+    - Temple of Kotmogu
+
+v1.21.1 (Dec. 05, 2011)
 - zhCN translation update (dh0000)
 
 v1.21.0 (Nov. 29, 2011)

@@ -370,7 +370,7 @@
 					</OnShow>
 				</Scripts>
 			</Button>
-			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_RESETPOS">
+			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate" text="ATLAS_OPTIONS_RESETPOS">
 				<Size>
 					<AbsDimension x="160" y="32"/>
 				</Size>

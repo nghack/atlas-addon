@@ -24,6 +24,7 @@ ignore:
     - Plugins/Atlas_OutdoorRaids
     - Plugins/Atlas_Transportation
     - Modules/Atlas_BurningCrusade
+    - Modules/Atlas_Cataclysm
     - Modules/Atlas_ClassicWoW
     - Modules/Atlas_WrathoftheLichKing
 

@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, Deadca7
+-- Maintainers: Arith, Dynaletik, dubcat
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
@@ -163,17 +163,18 @@ local function Process_Deprecated()
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
-		{ "Atlas_Battlegrounds", "1.21.1" },
-		{ "Atlas_DungeonLocs", "1.21.0" },
-		{ "Atlas_OutdoorRaids", "1.21.0" },
-		{ "Atlas_Transportation", "1.21.1" },
-		{ "Atlas_BurningCrusade", "1.21.0" },
-		{ "Atlas_ClassicWoW", "1.21.0" },
-		{ "Atlas_WrathoftheLichKing", "1.21.0" },
+		{ "Atlas_Battlegrounds", "1.22.0" },
+		{ "Atlas_DungeonLocs", "1.22.0" },
+		{ "Atlas_OutdoorRaids", "1.22.0" },
+		{ "Atlas_Transportation", "1.22.0" },
+		{ "Atlas_BurningCrusade", "1.22.0" },
+		{ "Atlas_Cataclysm", "1.22.0" },
+		{ "Atlas_ClassicWoW", "1.22.0" },
+		{ "Atlas_WrathoftheLichKing", "1.22.0" },
 --		{ "AtlasWorld", "3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", "4.6.7" }, -- updated Dec. 01, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", "6.05.01" }, -- updated Dec. 06, 2011
+		{ "AtlasLoot", "7.00.01" }, -- updated Aug. 29, 2012
 		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011
 		{ "Atlas_WorldEvents", "2.4" }, -- updated Dec. 05, 2011
 	};
@@ -1019,20 +1020,6 @@ function Atlas_OnShow()
 	AtlasFrameDropDown_OnShow();
 end
 
---Code provided by tyroney
---Bugfix code by Cold
---Runs when the Atlas frame is clicked on
---RightButton closes Atlas and open the World Map if the RightClick option is turned on
---[[ We don't need below function as to call it inside Atlas.xml will be more straight forward - Arith
-function Atlas_OnClick()
-	if ( arg1 == "RightButton" ) then
-		if (AtlasOptions.AtlasRightClick) then
-			Atlas_Toggle();
-			ToggleFrame(WorldMapFrame);
-		end
-	end
-end
-]]
 
 function AtlasScrollBar_Update()
 	GameTooltip:Hide();

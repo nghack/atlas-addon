@@ -1,0 +1,15 @@
+﻿## Interface: 50001
+## Title: Atlas |r|cFF0099FF[Cataclysm]|r
+## Title-deDE: Atlas |r|cFF0099FF[Cataclysm]|r
+## Title-ruRU: Atlas |r|cFF0099FF[Cataclysm]|r
+## Notes: Cataclysm Dungeon Maps
+## Notes-deDE: Cataclysm Instanzkarten
+## Version: 2.0.0
+## Author: arith, Dynaletik, dubcat
+## X-Date: 
+## X-Credits: Dan Gilbert, Lothaer
+## X-Email: atlas.addon@gmail.com
+## X-Website: http://www.atlasmod.com
+## X-Category: Map
+## RequiredDeps: Atlas
+

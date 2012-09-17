@@ -6,6 +6,11 @@ Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v1.22.0 (Sep. xx, 2012)
+- Entrance map now moved to core addon
+- Maps updated:
+    - Drak'Tharon Keep
+
 v1.21.0 (Nov. 29, 2011)
 - Splitted from Atlas core addon
 

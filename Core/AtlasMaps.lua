@@ -2820,7 +2820,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Reinforced Archery Target"] };
 	};
 	ScarletMonastery = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..AL["Scarlet Monastery"] };
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Monastery"] };
 		Location = { BZ["Tirisfal Glades"] };
 		DungeonID = "164";
 		DungeonHeroicID = "474";

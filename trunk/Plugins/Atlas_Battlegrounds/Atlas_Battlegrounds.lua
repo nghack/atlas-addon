@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Maintainers: Lothaer, Dynaletik, Arith, dubcat
 
 local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
@@ -365,6 +365,13 @@ local myData = {
 		{ BLUE.."B) "..AL["Dragonmaw Clan Compound"].." ("..BF["Horde"]..")" };
 		{ ORNG.."1) "..AL["Alliance Graveyard"] };
 		{ ORNG.."2) "..AL["Horde Graveyard"] };
+	};
+	TempleofKotmogu = {
+		ZoneName = { BZ["Temple of Kotmogu"] };
+		--Location = { };
+		--LevelRange = "85+";
+		--MinLevel = "85";
+		--{ };
 	};
 };
 

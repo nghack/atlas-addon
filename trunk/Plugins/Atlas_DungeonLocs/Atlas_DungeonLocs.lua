@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, Deadca7
+-- Maintainers: Lothaer, Dynaletik, Arith, dubcat
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_DungeonLocs");
@@ -54,6 +54,8 @@ local myData = {
 		{ WHIT..INDENT..BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
 		{ WHIT..INDENT..BZ["Stratholme"].." - "..BZ["The Gauntlet"] };
 		{ WHIT.." 5) "..BZ["Scarlet Monastery"]..", ".._RED..BZ["Tirisfal Glades"] };
+		{ WHIT..INDENT..BZ["Scarlet Halls"] };
+		{ WHIT..INDENT..BZ["Scarlet Monastery"] };
 		{ WHIT.." 6) "..BZ["Scholomance"]..", ".._RED..BZ["Western Plaguelands"] };
 		{ WHIT.." 7) "..BZ["Shadowfang Keep"]..", ".._RED..BZ["Silverpine Forest"] };
 		{ WHIT.." 8) "..BZ["Baradin Hold"]..", ".._RED..BZ["Tol Barad"] };
@@ -180,6 +182,18 @@ local myData = {
 	DLDeepholm = {
 		ZoneName = { BZ["Deepholm"] };
 		{ WHIT.." 1) "..BZ["The Stonecore"] };
+	};
+	DLPandaria = {
+		ZoneName = { BZ["Pandaria"] };
+		{ WHIT.." 1) "..AL["Shado-Pan Monastery"]..", ".._RED..AL["Kun-Lai Summit"] };
+		{ WHIT.." 2) "..AL["Mogu'shan Vaults"]..", ".._RED..AL["Kun-Lai Summit"] };
+		{ WHIT.." 3) "..AL["Siege of Niuzao Temple"]..", ".._RED..AL["Townlong Steppes"] };
+		{ WHIT.." 4) "..AL["Gate of the Setting Sun"]..", ".._RED..AL["Dread Wastes"].." / ".._RED..AL["Vale of Eternal Blossoms"] };
+		{ WHIT.." 5) "..AL["Mogu'shan Palace"]..", ".._RED..AL["Vale of Eternal Blossoms"] };
+		{ WHIT.." 6) "..AL["Terrace of Endless Spring"]..", ".._RED..AL["The Veiled Stair"] };
+		{ WHIT.." 7) "..AL["Temple of the Jade Serpent"]..", ".._RED..AL["The Jade Forest"] };
+		{ WHIT.." 8) "..AL["Heart of Fear"]..", ".._RED..AL["Dread Wastes"] };
+		{ WHIT.." 9) "..AL["Stormstout Brewery"]..", ".._RED..AL["Valley of the Four Winds"] };
 	};
 };
 

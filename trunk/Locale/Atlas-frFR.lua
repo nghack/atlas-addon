@@ -291,7 +291,7 @@ if AL then
 	AL["Mech"] = "Mech"; -- The Mechanar, Le Méchanar
 	AL["MT"] = "MT"; -- Mana-Tombs, Tombes-mana
 	AL["Ramp"] = "Ramp"; -- Hellfire Ramparts, Remparts des Flammes infernales
-	AL["SC"] = "SSC"; -- Serpentshrine Cavern, Caverne du sanctuaire du Serpent
+	AL["SSC"] = "SSC"; -- Serpentshrine Cavern, Caverne du sanctuaire du Serpent
 	AL["Seth"] = "Seth"; -- Sethekk Halls, Les salles des Sethekk
 	AL["SH"] = "SH"; -- The Shattered Halls, Les Salles brisées
 	AL["SL"] = "SL/Laby"; -- Shadow Labyrinth, Labyrinthe des ombres
@@ -560,7 +560,6 @@ if AL then
 	AL["Schematic: Field Repair Bot 74A"] = "Schéma : Robot réparateur 74A";
 	AL["Private Rocknot"] = "Soldat Rochenoeud";
 	AL["Mistress Nagmara"] = "Gouvernante Nagmara";
-	AL["Summoner's Tomb"] = "La tombe des invocateurs";
 	AL["Jalinda Sprig <Morgan's Militia>"] = "Jalinda Brindille <Milice de Morgan>";
 	AL["Oralius <Morgan's Militia>"] = "Oralius <Milice de Morgan>";
 	AL["Thal'trak Proudtusk <Kargath Expeditionary Force>"] = "Thal'trak Fière-défense <Corps expéditionnaire de Kargath>";
@@ -925,7 +924,6 @@ if AL then
 
 	--The Frozen Halls: Halls of Reflection
 	--3 beginning NPCs omitted, see The Forge of Souls
-	AL["Wrath of the Lich King"] = "Wrath of the Lich King";
 	AL["The Captain's Chest"] = "Le coffre du capitaine";
 
 	--The Frozen Halls: Pit of Saron
@@ -980,13 +978,11 @@ if AL then
 	AL["Cache of Eregos"] = "Cache d'Eregos";
 
 	--Trial of the Champion
-	AL["Champions of the Alliance"] = "Champions de l'Alliance";
 	AL["Marshal Jacob Alerius"] = "Maréchal Jacob Alerius";
 	AL["Ambrose Boltspark"] = "Ambrose Étinceboulon";
 	AL["Colosos"] = "Colossos";
 	AL["Jaelyne Evensong"] = "Jaelyne Chant-du-soir";
 	AL["Lana Stouthammer"] = "Lana Rudemartel";
-	AL["Champions of the Horde"] = "Champions de la Horde";
 
 	--Trial of the Crusader
 	AL["Heroic: Trial of the Grand Crusader"] = "Héroïque : L'appel de la grande Croisade";

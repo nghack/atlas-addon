@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, Deadca7
+-- Maintainers: Arith, Dynaletik, dubcat
 
 function AtlasButton_OnClick()
 	Atlas_Toggle();

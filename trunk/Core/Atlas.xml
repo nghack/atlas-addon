@@ -103,7 +103,7 @@
 				<PushedTexture name="AtlasLockPush"/>
 				<HighlightTexture file="Interface\Buttons\UI-Panel-MinimizeButton-Highlight" AlphaMode="ADD"/>
 			</Button>
-			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate2" text="ATLAS_OPTIONS_BUTTON">
+			<Button name="AtlasFrameOptionsButton" inherits="UIPanelButtonTemplate" text="ATLAS_OPTIONS_BUTTON">
 				<Size>
 					<AbsDimension x="80" y="20"/>
 				</Size>
@@ -188,7 +188,7 @@
 				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
 			<Frame name="AtlasSwitchDD" inherits="UIDropDownMenuTemplate" />
-  			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox">
+  			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox">
 				<Size>
 					<AbsDimension x="80" y="20"/>
 				</Size>
@@ -205,7 +205,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
+			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
 				<Size>
 					<AbsDimension x="74" y="32"/>
 				</Size>
@@ -223,7 +223,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="AtlasSearchClearButton" inherits="UIPanelButtonTemplate2" parent="AtlasSearchEditBox" text="ATLAS_STRING_CLEAR">
+			<Button name="AtlasSearchClearButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_CLEAR">
 				<Size>
 					<AbsDimension x="63" y="32"/>
 				</Size>

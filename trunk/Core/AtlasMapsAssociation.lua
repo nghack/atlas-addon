@@ -52,7 +52,6 @@ Atlas_AssocDefaults = {
 	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
 	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 	[BZ["Karazhan"]] =			"KarazhanStart";
-	[BZ["Scarlet Monastery"]] =		"ScarletMonasteryEnt";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
 	[BZ["The Wailing Caverns"]] = 		"WailingCavernsEnt";
@@ -223,37 +222,6 @@ Atlas_SubZoneData = {
 			BZ["Netherspace"],
 		},
 	},
-	-- Scarlet Monastery
-	[BZ["Scarlet Monastery"]] = {
-		--Scarlet Monastery, Entrance
-		["ScarletMonasteryEnt"] = {
-			BZ["The Grand Vestibule"],
-		},
-		--Scarlet Monastery, Graveyard
-		["SMGraveyard"] = {
-			BZ["Chamber of Atonement"],
-			BZ["Forlorn Cloister"],
-			BZ["Honor's Tomb"],
-		},
-		--Scarlet Monastery, Library
-		["SMLibrary"] = {
-			BZ["Huntsman's Cloister"],
-			BZ["Gallery of Treasures"],
-			BZ["Athenaeum"],
-		},
-		--Scarlet Monastery, Armory
-		["SMArmory"] = {
-			BZ["Training Grounds"],
-			BZ["Footman's Armory"],
-			BZ["Crusader's Armory"],
-			BZ["Hall of Champions"],
-		},
-		--Scarlet Monastery, Cathedral
-		["SMCathedral"] = {
-			BZ["Chapel Gardens"],
-			BZ["Crusader's Chapel"],
-		},
-	},
 	-- Stratholme
 	[BZ["Stratholme"]] = {
 		--Stratholme - Crusader's Square
@@ -273,15 +241,6 @@ Atlas_SubZoneData = {
 			BZ["The Gauntlet"],
 			BZ["Slaughter Square"],
 			BZ["The Slaughter House"],
-		},
-	},
-	-- Throne of the Tides
-	-- 2011/09/05: Arith - Do we really need this?
-	[BZ["Throne of Tides"]] = {
-		--Throne of the Tides
-		["ThroneOfTheTides"] = {
-			BZ["Abyssal Halls"],
-			BZ["Throne of Neptulon"],
 		},
 	},
 	-- Ulduar
@@ -416,7 +375,7 @@ Atlas_EntToInstMatches = {
 	["IcecrownEnt"] =			{"FHHallsOfReflection", "FHPitOfSaron", "FHTheForgeOfSouls", "IcecrownCitadelA", "IcecrownCitadelB", "IcecrownCitadelC"};
 	["KarazhanEnt"] =			{"KarazhanStart","KarazhanEnd"};
 	["MaraudonEnt"] =			{"Maraudon"};
-	["ScarletMonasteryEnt"] =		{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["ScarletMonasteryEnt"] =		{"SMHalls","SMMonastery"};
 	["TempestKeepEnt"] = 			{"TempestKeepArcatraz", "TempestKeepBotanica", "TempestKeepMechanar", "TempestKeepTheEye"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
 	["TheSunkenTempleEnt"] =		{"TheSunkenTemple"};
@@ -471,10 +430,8 @@ Atlas_InstToEntMatches = {
 	["KarazhanStart"] =			{"KarazhanEnt"};
 	["KarazhanEnd"] =			{"KarazhanEnt"};
 	["Maraudon"] =				{"MaraudonEnt"};
-	["SMArmory"] =				{"ScarletMonasteryEnt"};
-	["SMLibrary"] =				{"ScarletMonasteryEnt"};
-	["SMCathedral"] =			{"ScarletMonasteryEnt"};
-	["SMGraveyard"] =			{"ScarletMonasteryEnt"};
+	["SMHalls"] =				{"ScarletMonasteryEnt"};
+	["SMMonastery"] =			{"ScarletMonasteryEnt"};
 	["TempestKeepArcatraz"] = 		{"TempestKeepEnt"};
 	["TempestKeepBotanica"] = 		{"TempestKeepEnt"}; 
 	["TempestKeepMechanar"] = 		{"TempestKeepEnt"}; 
@@ -507,11 +464,6 @@ Atlas_SubZoneAssoc = {
 	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
 	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
 	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
-	["SMGraveyard"] =			BZ["Scarlet Monastery"];
-	["SMLibrary"] =				BZ["Scarlet Monastery"];
-	["SMArmory"] =				BZ["Scarlet Monastery"];
-	["SMCathedral"] =			BZ["Scarlet Monastery"];
-	["ScarletMonasteryEnt"] =		BZ["Scarlet Monastery"];
 	["StratholmeCrusader"] =		BZ["Stratholme"];
 	["StratholmeGauntlet"] =		BZ["Stratholme"];
 	["UlduarA"] =				BZ["Ulduar"];

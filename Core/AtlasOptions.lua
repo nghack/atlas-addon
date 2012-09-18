@@ -28,6 +28,7 @@
 -- Initiator and previous author: Dan Gilbert, Lothaer
 -- Maintainers: Arith, Dynaletik, dubcat
 
+--[[
 function AtlasOptions_ResetPosition()
 	AtlasFrame:ClearAllPoints();
 	AtlasFrame:SetPoint("TOPLEFT", 0, -104);
@@ -37,7 +38,7 @@ function AtlasOptions_ResetPosition()
 	AtlasOptions.AtlasScale = 1.0;
 	AtlasOptions_Init();
 end
-
+]]
 
 function AtlasOptions_Toggle()
 	if InterfaceOptionsFrame:IsVisible() then
@@ -138,7 +139,7 @@ end
 
 function AtlasOptions_Reset()
 	Atlas_FreshOptions();
-	AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
+	--AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
 	Reset_Dropdowns(); --also calls Atlas_Refresh()
 	AtlasButton_Init();
 	Atlas_UpdateLock();

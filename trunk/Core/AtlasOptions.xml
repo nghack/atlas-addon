@@ -372,6 +372,7 @@
 					</OnShow>
 				</Scripts>
 			</Button>
+<!--
 			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate" text="ATLAS_OPTIONS_RESETPOS">
 				<Size>
 					<AbsDimension x="160" y="32"/>
@@ -389,6 +390,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
+-->
 		</Frames>
 		<Scripts>
 			<OnLoad>

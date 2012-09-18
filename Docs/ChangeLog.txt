@@ -13,30 +13,34 @@ v1.22.0 (Sep. XX, 2012)
 - Added support for Mists of Pandaria
 - Maps added:
     - Gate of the Setting Sun
-    - Heart of Fear
+    - Heart of Fear (Raid)
     - Mogu'shan Palace
-    - Mogu'shan Vaults
+    - Mogu'shan Vaults(Raid)
+    - Scarlet Halls
     - Shado-pan Monastery
     - Siege of Niuzao Temple
     - Stormstout Brewery
     - Temple of the Jade Serpent
-    - Terrace of Endless Spring
+    - Terrace of Endless Spring (Raid)
 - Maps updated:
     - Ragefire Chasm
     - Scarlet Monastery
     - Scholomance
     - Auchindoun: Auchenai Crypts
-	- Coilfang Reservoir: The Slave Pens
-	- Maraudon
-	- Razorfen Kraul
-	- Drak'Tharon Keep
+        - Coilfang Reservoir: The Slave Pens
+        - Maraudon
+        - Razorfen Kraul
+        - Drak'Tharon Keep
 - New Calalycsm module created, core module only to keep the current expansion new and revised maps
 - Updated lots of boss names to use the dungeon journal
 - Added Atlas Information window when the addon is loaded
 - Readme update
 - Translation update
     - deDE (Dynaletik)
-	- esES (maqjav)
+    - esES (maqjav)
+    - ruRU (StingerSoft)
+- added the use of following Libs: AceAddon-3.0, AceConsole-3.0, AceDB-3.0, LibDBIcon-1.0;
+    - Minimap button now rendering with LibDBIcon
 
 
 v1.21.1 (Dec. 06, 2011)

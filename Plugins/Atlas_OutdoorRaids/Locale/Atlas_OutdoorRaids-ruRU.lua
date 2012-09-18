@@ -40,13 +40,17 @@ local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "ruRU", false);
 
 if AL then
 	AL["Ancient Skull Pile"] = "Груда древних черепов";
+	AL["Chief Salyis"] = "Шеф Сальис";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
+	AL["Galleon"] = "Галлеон";
 	AL["Gezzarak the Huntress"] = "Геззарак Охотница";
+	AL["Graveyard"] = "Кладбище";
 	AL["Grella <Skyguard Quartermaster>"] = "Грелла <Интендант Стражи небес>";
 	AL["Hazzik"] = "Хаззик";
 	AL["Hazzik's Package"] = " Сверток Хаззика";
 	AL["Karrog"] = "Каррог";
 	AL["Outdoor Raid Encounters"] = "Места внешних рейдовых схваток";
+	AL["Pandaria World Bosses"] = "Pandaria World Bosses";
 	AL["Random"] = "Случайный";
 	AL["Sahaak <Keeper of Scrolls>"] = "Сахаак <Хранитель Свитков>";
 	AL["Severin <Skyguard Medic>"] = "Северин <Врач Стражи небес>";
@@ -61,5 +65,4 @@ if AL then
 	AL["Talonpriest Zellek"] = "Жрец Когтя Зеллек";
 	AL["Terokk"] = "Терокк";
 	AL["Vakkiz the Windrager"] = "Ваккиз Ветроярость";
-	AL["Graveyard"] = "Кладбище";
 end

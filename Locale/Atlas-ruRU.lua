@@ -99,7 +99,8 @@ if AL then
 	AL["ATLAS_BUTTON_CLOSE"] = "Закрыть";	
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Атлас";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "[ЛКМ] - открывает Атлас.\n[СКМ] - открывает настройки Атласа.\n[ПКМ] + [перемещение] - изменяет позицию кнопки Атласа.";
-	AL["ATLAS_LDB_HINT"] = "[ЛКМ] - открывает Атлас.\n[СКМ] - открывает настройки Атласа.";
+	AL["ATLAS_LDB_HINT"] = "[ЛКМ] - открывает Атлас.\n[ПКМ] - открывает настройки Атласа.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "[ЛКМ] - открывает Атлас.\n[ПКМ] + открывает настройки Атласа.\n[ПКМ] + [перемещение] - изменяет позицию кнопки.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Сортировать подземелья по:";
 	AL["ATLAS_DDL_CONTINENT"] = "Контитенту";
@@ -108,13 +109,15 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Подземелья Запределья";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Подземелья Нордскола";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Подземелья Подземья";
+	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Подземелья Пандории";
 	AL["ATLAS_DDL_LEVEL"] = "Уровня";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Подземелья уровня ниже 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Подземелья уровня 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "Подземелья уровня 60-70";
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Подземелья уровня 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Подземелья уровня 80-85";
-	AL["ATLAS_DDL_LEVEL_85PLUS"] = "Подземелья уровня 85+";
+	AL["ATLAS_DDL_LEVEL_85TO90"] = "Подземелья уровня 85-90";
+	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Подземелья уровня 90+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Размеру группы";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Подземелья на 5 игроков A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Подземелья на 5 игроков F-S";
@@ -127,7 +130,8 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Подземелья Старого Мира P-Z";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Подземелья Пылающего Крестового Похода";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Подземелья Wrath of the Lich King";
-	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm ";
+	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm";
+	AL["ATLAS_DDL_EXPANSION_MOP"] = "Подземелья Mists of Pandaria";
 	AL["ATLAS_DDL_TYPE"] = "Типу";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Подземелья A-C";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Подземелья D-R";
@@ -243,17 +247,14 @@ if AL then
 	AL["AQ"] = "АКУ"; -- Ан'Кираж
 	AL["AQ20"] = "АКУ20"; -- Руины Ан'Киража
 	AL["AQ40"] = "АКУ40"; -- Храм Ан'Киража
-	AL["Armory"] = "Оружейная"; -- Оружейная
 	AL["BFD"] = "НП"; -- Непроглядная Пучина
 	AL["BRD"] = "ГЧГ"; -- Глубины Черной горы
 	AL["BRM"] = "ЧГ"; -- Черная гора
 	AL["BWL"] = "ЛКТ"; -- Логово Крыла Тьмы
-	AL["Cath"] = "Соб"; -- Собор
 	AL["DM"] = "ЗГ"; -- Забытый Город
 	AL["Gnome"] = "Гном"; -- Гномреган
-	AL["GY"] = "Кл"; -- Кладбище
+	AL["Halls"] = "ЗАо"; -- Кладбище
 	AL["LBRS"] = "НЧГ"; -- Нижняя часть Вершины Черной горы
-	AL["Lib"] = "Биб"; -- Библиотека
 	AL["Mara"] = "Маро"; -- Мародон
 	AL["MC"] = "ОН"; -- Огненные Недра
 	AL["RFC"] = "ОгП"; -- Огненная пропасть
@@ -353,27 +354,32 @@ if AL then
 	AL["VP"] = "ВС"; --Вершина смерча
 	AL["ZA"] = "ЗА"; -- Зул'Аман
 	AL["ZG"] = "ЗГ"; --Зул'Гуруб
-
+	
+	--MoP Acronyms
+	AL["GSS"] = "ВЗС"; --Врата Заходящего Солнца
+	AL["HoF"] = "СС"; --Сердце Страха
+	AL["MP"] = "ДМОГ"; --Дворец Могу'шан
+	AL["MV"] = "ПМ"; --Подземелья Могу'шан
+	AL["SPM"] = "МШадо"; --Монастырь Шадо-Пан
+	AL["SNT"] = "ОХН"; --Осада храма Нюцзао
+	AL["SB"] = "ХБП"; --Хмелеварня Буйных Портеров
+	AL["TJS"] = "ХНЗ"; --Храм Нефритовой Змеи
+	AL["TES"] = "ТВВ"; --Терраса Вечной Весны
 --************************************************
 -- Instance Entrance Maps
 --************************************************
 
 	--Auchindoun (Entrance)
-	AL["Ha'Lei"] = "Ха'лей";
-	AL["Greatfather Aldrimus"] = "Великий Отец Алдримус";
 	AL["Clarissa"] = "Кларисса";
-	AL["Ramdor the Mad"] = "Рамдор Безумный";
+	AL["Greatfather Aldrimus"] = "Великий Отец Алдримус";
+	AL["Ha'Lei"] = "Ха'лей";
 	AL["Horvon the Armorer <Armorsmith>"] = "Хорвон Бронник <Бронник>";
+	AL["Ramdor the Mad"] = "Рамдор Безумный";
 	AL["Nexus-Prince Haramad"] = "Принц Харамад";
-	AL["Artificer Morphalius"] = "Работник Морфалиус";
-	AL["Mamdy the \"Ologist\""] = "Мамди по кличке \"Олог\"";
 	AL["\"Slim\" <Shady Dealer>"] = "Тип <Сомнительный делец>";
 	AL["\"Captain\" Kaftiz"] = "Капитан Кафтиц";
-	AL["Isfar"] = "Исфар";
-	AL["Field Commander Mahfuun"] = "Боевой командир Мафуун";
-	AL["Spy Grik'tha"] = "Шпион Грик'та";
-	AL["Provisioner Tsaalt"] = "Поставщик Тсаальт";
 	AL["Dealer Tariq <Shady Dealer>"] = "Делец Тариг <Сомнительный делец>";
+	AL["Provisioner Tsaalt"] = "Поставщик Тсаальт";
 
 	--Blackfathom Deeps (Entrance)
 
@@ -403,7 +409,6 @@ if AL then
 	AL["Tydormu <Keeper of Lost Artifacts>"] = "Тайдорму <Хранитель утраченных артефактов>";
 
 	--Coilfang Reservoir (Entrance)
-	AL["Watcher Jhang"] = "Дозорный Джанг";
 	AL["Mortog Steamhead"] = "Мортог Горячая Голова";
 
 	--Dire Maul (Entrance)
@@ -432,6 +437,8 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "Безымянный пророк";
+	AL["Cursed Centaur"] = "Проклятый кентавр";
+	AL["Kherrah"] = "Керра";
 
 	--Scarlet Monastery (Entrance)
 
@@ -499,8 +506,8 @@ if AL then
 	AL["Elder Splitrock"] = "Старейшина Камнепад ";
 
 	--Ragefire Chasm
-	AL["Bovaal Whitehorn"] = "Боваал Белый Рог";
-	AL["Stone Guard Kurjack"] = "Каменный cтраж Курджак";
+	AL["Commander Bagran"] = "Commander Bagran"; --need check
+	AL["Invoker Xorenth"] = "Invoker Xorenth"; --need check
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
@@ -613,17 +620,10 @@ if AL then
 	--Molten Core
 
 	--Scholomance
-	AL["Blood of Innocents"] = "Кровь невинных";
-	AL["Divination Scryer"] = "Гадательный кристалл";
-	AL["Alexi Barov <House of Barov>"] = "Алексий Баров <Род Баровых>";
-	AL["Weldon Barov <House of Barov>"] = "Вэлдон Баров <Род Баровых>";
-	AL["Eva Sarkhoff"] = "Ева Саркофф";
-	AL["Lucien Sarkhoff"] = "Люсьен Саркофф";
-	AL["The Deed to Caer Darrow"] = "Документы на Каэр Дарроу";
-	AL["The Deed to Southshore"] = "Документы на Южнобережье";
-	AL["Torch Lever"] = "Рукоятка факела";
-	AL["The Deed to Tarren Mill"] = "Документы на Мельницу Таррен";
-	AL["The Deed to Brill"] = "Документы на Брилл";
+	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery"; --need check
+	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
+	AL["Professor Slate"] = "Professor Slate"; --need check
+	AL["Polyformic Acid Potion"] = "Наука о кислоте";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Трио аптекарей"; --
@@ -635,23 +635,11 @@ if AL then
 	AL["Haunted Stable Hand"] = "Дух помощника смотрителя стойл";
 	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
 
-	--SM: Armory
-	AL["Joseph the Crazed"] = "Джозеф Безумный";
-	AL["Dark Ranger Velonara"] = "Темный следопыт Велонара";
-	AL["Dominic"] = "Доминик";
-
 	--SM: Cathedral
-	AL["Cathedral"] = "Собор"; -- Subzone of Scarlet Monastery
-	AL["Joseph the Insane <Scarlet Champion>"] = "Джозеф Чокнутый <Воитель из Алого ордена>";
 
-	--SM: Graveyard
-	AL["Vorrel Sengutz"] = "Воррел Сенгутц";
-	AL["Pumpkin Shrine"] = "Святящаяся тыква";
-	AL["Joseph the Awakened"] = "Джозеф Беспокойный";
-
-	--SM: Library
-	AL["Library"] = "Библиотека"; -- The Library appeared in the Dire Maul and Scarlet Monastery
-	AL["Compendium of the Fallen"] = "\"Компендиум павших\"";
+	--SM: Halls
+	AL["Hunter Commander"] = "Hunter Commander"; --need check
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target"; --need check
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Командир Элигор Вестник Рассвета <Братство Света>";
@@ -704,21 +692,29 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
+	AL["Draenei Spirit"] = "Дух дренея";
 	AL["Avatar of the Martyred"] = "Аватара Мученика";
 	AL["D'ore"] = "Д'оре";
+	AL["Tormented Soulpriest"] = "Измученный жрец душ";
 
 	--Auch: Mana-Tombs
 	AL["The Eye of Haramad"] = "Око Харамада";
+	AL["Artificer Morphalius"] = "Работник Морфалиус";
+	AL["Mamdy the \"Ologist\""] = "Мамди по кличке \"Олог\"";
 	AL["Shadow Lord Xiraxis"] = "Владыка теней Зираксис";
 	AL["Ambassador Pax'ivi"] = "Посол Пакс'иви";
 	AL["Cryo-Engineer Sha'heen"] = "Крио-инженер Ша'хин";
 	AL["Ethereal Transporter Control Panel"] = "Пульт управления астрального телепорта";
 
 	--Auch: Sethekk Halls
+	AL["Isfar"] = "Исфар";
+	AL["Dealer Vijaad"] = "Делец Виджад";
 	AL["Lakka"] = "Лакка";
 	AL["The Saga of Terokk"] = "Сага о Терокке";
 
 	--Auch: Shadow Labyrinth
+	AL["Field Commander Mahfuun"] = "Боевой командир Мафуун";
+	AL["Spy Grik'tha"] = "Шпион Грик'та";
 	AL["The Codex of Blood"] = "Кодекс Крови";
 	AL["First Fragment Guardian"] = "Страж первого фрагмента";
 	AL["Spy To'gun"] = "Шпион То'гун";
@@ -741,15 +737,19 @@ if AL then
 	AL["Seer Olum"] = "Провидец Олум";
 
 	--CFR: The Slave Pens
+	AL["Nahuud"] = "Нахууд";
+	AL["Watcher Jhang"] = "Дозорный Джанг";
 	AL["Weeder Greenthumb"] = "Культиватор Зеленопал";
 	AL["Skar'this the Heretic"] = "Скартис Еретик";
 	AL["Naturalist Bite"] = "Натуралист Кус";
 
 	--CFR: The Steamvault
+	AL["Windcaller Claw"] = "Призыватель ветров Коготь";
 	AL["Main Chambers Access Panel"] = "Главная камера сгорания - Панель доступа";
 	AL["Second Fragment Guardian"] = "Страж второго фрагмента";
 
 	--CFR: The Underbog
+	AL["T'shu"] = "Тшу";
 	AL["The Underspore"] = "Подспорник";
 	AL["Earthbinder Rayge"] = "Землепряд Гневвс";
 
@@ -815,8 +815,12 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
+	AL["Gunny"] = "Пушкаренок";
+	AL["Caza'rez"] = "Каса'рес";
 
 	--HFC: Hellfire Ramparts
+	AL["Advance Scout Chadwick"] = "Главный разведчик Чадвик";
+	AL["Stone Guard Stok'ton"] = "Каменный страж Сток'тон";
 	AL["Reinforced Fel Iron Chest"] = "Укрепленный сундук из оскверненного железа";
 
 	--HFC: Magtheridon's Lair
@@ -869,6 +873,7 @@ if AL then
 	AL["Echo of Medivh"] = "Эхо Медива";
 
 	--Magisters Terrace
+	AL["Exarch Larethor"] = "Экзарх Ларетор";
 	AL["Fel Crystals"] = "Кристалл Скверны";
 	AL["Apoko"] = "Апоко";
 	AL["Eramas Brightblaze"] = "Эрамас Сияющее Пламя";
@@ -899,13 +904,15 @@ if AL then
 	--TK: The Eye
 
 --*****************
--- WotLK Instances
+-- Wrath of the Lich King Instances
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
+	AL["Seer Ixit"] = "Провидец Изит";
 	AL["Ahn'kahet Brazier"] = "Ан'кахетская жаровня";
 
 	--Azjol-Nerub: Azjol-Nerub
+	AL["Reclaimer A'zak"] = "Завоеватель А'зак";
 	AL["Watcher Gashra"] = "Дозорный Гашра";
 	AL["Watcher Narjil"] = "Дозорный Нарджил";
 	AL["Watcher Silthik"] = "Дозорный Силтик";
@@ -918,6 +925,7 @@ if AL then
 	AL["Chromie"] = "Хроми";
 
 	--Drak'Tharon Keep
+	AL["Image of Drakuru"] = "Проекция Дракуру";
 	AL["Kurzel"] = "Курцель";
 	AL["Elder Kilias"] = "Предок Килиас";
 	AL["Drakuru's Brazier"] = "Жаровня Дракуру";
@@ -941,6 +949,8 @@ if AL then
 	AL["Dark Ranger Kalira"] = "Темный следопыт Калира";
 
 	--Gundrak
+	AL["Chronicler Bah'Kini"] = "Летописец Ба'кини";
+	AL["Tol'mar"] = "Тол'мар";
 	AL["Elder Ohanzee"] = "Предок Оханзи";
 
 	--Icecrown Citadel
@@ -970,10 +980,14 @@ if AL then
 	--The Nexus: The Eye of Eternity
 
 	--The Nexus: The Nexus
+	AL["Warmage Kaitlyn"] = "Боевой маг Кейтлин";
 	AL["Berinand's Research"] = "Исследования Беринарда";
 	AL["Elder Igasho"] = "Предок Игашо";
 
 	--The Nexus: The Oculus
+	AL["Belgaristrasz"] = "Белгаристраз";
+	AL["Eternos"] = "Этернос";
+	AL["Verdisa"] = "Вердиса";
 	AL["Centrifuge Construct"] = "Центрифужное создание";
 	AL["Cache of Eregos"] = "Тайник Эрегоса";
 
@@ -1010,23 +1024,28 @@ if AL then
 	--Ulduar E
 
 	--Ulduar: Halls of Lightning
+	AL["Stormherald Eljrrin"] = "Штормовестник Элдррин";
 
 	--Ulduar: Halls of Stone
+	AL["Kaldir Ironbane"] = "Калдир Железоруб";
 	AL["Tribunal Chest"] = "Сундук Трибунала";
 	AL["Elder Yurauk"] = "Предок Яруак";
 	AL["Brann Bronzebeard"] = "Бранн Бронзобород";
 
 	--Utgarde Keep: Utgarde Keep
+	AL["Defender Mordun"] = "Защитник Мордун";
 	AL["Dark Ranger Marrah"] = "Темный следопыт Марра";
 	AL["Elder Jarten"] = "Предок Яртен";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "Бригг Мелкотруб";
+	AL["Image of Argent Confessor Paletress"] = "Проекция исповедницы Серебряного Авангарда Пейлтресс";
 	AL["Elder Chogan'gada"] = "Предок Чоган'гада";
 
 	--Vault of Archavon
 
 	--The Violet Hold
+	AL["Lieutenant Sinclari"] = "Лейтенант Синклари";
 
 --*********************
 -- Cataclysm Instances
@@ -1039,8 +1058,12 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
+	AL["Dasnurimi <Geologist & Conservator>"] = "Даснурими <Геолог>";
+	AL["Lord Afrasastrasz"] = "Лорд Афрасастраз";
 
 	--Caverns of Time: End Time
+	AL["Alurmi"] = "Алурми";
+	AL["Nozdormu"] = "Ноздорму";
 
 	--Caverns of Time: Hour of Twilight
 
@@ -1135,5 +1158,31 @@ if AL then
 	AL["Mortaxx <The Tolling Bell>"] = "Мортакс <Предвестник смерти>";
 	AL["Tiki Lord Zim'wae"] = "Вождь тики Зим'вэ";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Котел Занзила с пылающей кровью";
+	
+--*********************
+-- Mists of Pandaria Instances
+--*********************
+
+	--Gate of the Setting Sun
+
+	--Heart of Fear
+
+	--Mogu'shan Palace
+
+	--Mogu'shan Vaults
+
+	--Shado-Pan Monastery
+	
+	--Scarlet Halls
+	AL["Hooded Crusader"] = "Hooded Crusader"; --need check
+	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food"; --need check
+
+	--Siege of Niuzao Temple
+
+	--Stormstout Brewery
+
+	--Temple of the Jade Serpent
+
+	--Terrace of Endless Spring
 
 end

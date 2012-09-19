@@ -153,7 +153,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Ok";
 
 	AL["ATLAS_INFO"] = "Atlas Information";
-	AL["ATLAS_INFO_SPTACK"] = "Information importante :\n\nEn raison de l'accroissement de la taille de l'addon, nous avons \ndéplacé une partie de nos cartes et créer avec des modules séparés.\n\nLes utilisateurs qui téléchargent les addons à partir de site tier \npourrait n'avoir que le module de base qui n'inclue que les fonctions de bases \net les cartes de la dernière extension.\n\nLes utilisateurs qui veulent télécharger les vieilles cartes et tous \nles autres modules Atlas doivent les télécharger séparément.\n\nLire le sujet suivant sur notre forum pour plus d'information :\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_SPTACK"] = "Information importante : \n\nSuite à l'augmentation de la taille des fichiers de l'addon, nous avons déplacé \nune partie de nos cartes des donjons et créé des modules séparés avec. \n\nLes utilisateurs qui téléchargent nos addons à partir de fameux sites tiers \npourraient n'avoir que l'addon principal qui ne contient que les fonctions de \nbase et les cartes de la dernière extension de WoW. \n\nSi vous souhaitez également voir les cartes des vieilles extensions, et donc \navoir tous ces modules Atlas que nous avons fait, vous devez les télécharger \net les installer séparément. \n\nPour plus d'information, lire le sujet suivant sur notre forum : \n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff \n\nOu visiter notre site web pour voir où les télécharger. \n|cff6666ffhttp://www.atlasmod.com/|cfffffff";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
@@ -595,7 +595,7 @@ if AL then
 	AL["Warlord Goretooth <Kargath Expeditionary Force>"] = "Seigneur de guerre Sangredent <Corps expéditionnaire de Kargath>";
 	AL["The Black Forge"] = "La Forge noire";
 	AL["Core Fragment"] = "Fragment du Magma";
-	AL["Shadowforge Brazier"] = "Brasero d'ombreforge"; -- Need confirmation
+	AL["Shadowforge Brazier"] = "Brasero d'ombreforge";
 
 	--Blackrock Spire (Lower)
 	AL["Urok's Tribute Pile"] = "Autel des offrandes d'Urok";
@@ -626,10 +626,10 @@ if AL then
 	--Molten Core
 
 	--Scholomance
-AL["Instructor Chillheart's Phylactery"] = "Phylactère Instructor Chillheart's Phylactery";
+AL["Instructor Chillheart's Phylactery"] = "Phylactère Instructor Chillheart's Phylactery"; -- Translation needed
 	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
-AL["Professor Slate"] = "Professor Slate";
-AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+AL["Professor Slate"] = "Professor Slate"; -- Translation needed
+AL["Polyformic Acid Potion"] = "Polyformic Acid Potion"; -- Translation needed
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trio d'apothicaires";
@@ -644,8 +644,8 @@ AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
 	--SM: Cathedral
 
 	--SM: Halls
-AL["Hunter Commander"] = "Hunter Commander";
-AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+AL["Hunter Commander"] = "Hunter Commander"; -- Translation needed
+AL["Reinforced Archery Target"] = "Reinforced Archery Target"; -- Translation needed
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
@@ -698,10 +698,10 @@ AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 --*******************
 
 	--Auch: Auchenai Crypts
-AL["Draenei Spirit"] = "Esprit Draenei";
+AL["Draenei Spirit"] = "Esprit Draenei"; -- Translation needed
 	AL["Avatar of the Martyred"] = "Avatar des martyrs";
 	AL["D'ore"] = "D'ore";
-AL["Tormented Soulpriest"] = "Tormented Soulpriest";
+AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 
 	--Auch: Mana-Tombs
 	AL["The Eye of Haramad"] = "L'Oeil d'Haramad";
@@ -825,9 +825,9 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest";
 	AL["Caza'rez"] = "Caza'rez";
 
 	--HFC: Hellfire Ramparts
-AL["Advance Scout Chadwick"] = "Advance Scout Chadwick";
-AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
-	AL["Reinforced Fel Iron Chest"] = "Reinforced Fel Iron Chest";	AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
+AL["Advance Scout Chadwick"] = "Advance Scout Chadwick"; -- Translation needed
+AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton"; -- Translation needed
+	AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
 
 	--HFC: Magtheridon's Lair
 
@@ -966,9 +966,9 @@ AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
 	AL["Sindragosa's Lair"] = "Repaire de Sindragosa";
 	AL["Stinky"] = "Kifouette";
 	AL["Precious"] = "Bijou";
-	AL["Rimefang"] = "Frigecroc";	-- NPC: 37533
-	AL["Spinestalker"] = "Traquépine";	-- NPC: 37534
-	AL["Sister Svalna"] = "Sœur Svalna";	-- NPC: 37126
+	AL["Rimefang"] = "Frigecroc";
+	AL["Spinestalker"] = "Traquépine";
+	AL["Sister Svalna"] = "Sœur Svalna";
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "M. Bigglesworth";
@@ -986,7 +986,7 @@ AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
 	--The Nexus: The Eye of Eternity
 
 	--The Nexus: The Nexus
-AL["Warmage Kaitlyn"] = "Warmage Kaitlyn";
+AL["Warmage Kaitlyn"] = "Warmage Kaitlyn"; -- Translation needed
 	AL["Berinand's Research"] = "Recherches de Bérinand";
 	AL["Elder Igasho"] = "Ancien Igasho";
 
@@ -1180,8 +1180,8 @@ AL["Warmage Kaitlyn"] = "Warmage Kaitlyn";
 	--Shado-Pan Monastery
 	
 	--Scarlet Halls
-AL["Hooded Crusader"] = "Hooded Crusader";
-AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+AL["Hooded Crusader"] = "Hooded Crusader"; -- Translation needed
+AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food"; -- Translation needed
 
 	--Siege of Niuzao Temple
 

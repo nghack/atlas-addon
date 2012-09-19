@@ -1,17 +1,21 @@
 Atlas, a World of Warcraft instance map browser
-Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 ==============
 = Change Log =
 ==============
-v1.22.0 (Sep. xx, 2012)
+
+v1.22.0 Beta r.1664(Sep. 19, 2012)
+-----------------------
+- Update TOC to support WoW 5.0
 - Maps updated:
     - Auchindoun: Auchenai Crypts
     - Coilfang Reservoir: The Slave Pens
 - Entrance map now moved to core addon
 
 v1.21.0 (Nov. 29, 2011)
+-----------------------
 - Splitted from Atlas core addon
 

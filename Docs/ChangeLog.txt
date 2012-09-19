@@ -1,13 +1,13 @@
 Atlas, a World of Warcraft instance map browser
-Copyright 2005 - 2010 Dan Gilbert <dan.b.gilbert@gmail.com>
+Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 ==============
 = Change Log =
 ==============
 
-v1.22.0 (Sep. XX, 2012)
+v1.22.0 Beta r.1664(Sep. 19, 2012)
 -----------------------
 - Update TOC to support WoW 5.0
 - Added support for Mists of Pandaria
@@ -41,6 +41,8 @@ v1.22.0 (Sep. XX, 2012)
     - ruRU (StingerSoft)
 - added the use of following Libs: AceAddon-3.0, AceConsole-3.0, AceDB-3.0, LibDBIcon-1.0;
     - Minimap button now rendering with LibDBIcon
+    - New chatcommand '/atlasbutton' to toggle the Atlas minimap button
+
 
 
 v1.21.1 (Dec. 06, 2011)

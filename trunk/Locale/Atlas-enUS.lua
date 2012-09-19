@@ -100,14 +100,14 @@ if AL then
 	AL["ATLAS_MINIMAPLDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.\nRight-click and drag to move this button.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Sort Instance Maps by:";
-	AL["ATLAS_DDL_CONTINENT"] = "Continent";
+	AL["ATLAS_DDL_CONTINENT"] = "Continent";	-- Sort Instance Maps by: Continent
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "Eastern Kingdoms Instances";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Kalimdor Instances";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Outland Instances";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Northrend Instances";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Deepholm Instances";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Pandaria Instances";
-	AL["ATLAS_DDL_LEVEL"] = "Level";
+	AL["ATLAS_DDL_LEVEL"] = "Level";		-- Sort Instance Maps by: Level
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances Under Level 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Level 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "Instances Level 60-70";
@@ -115,21 +115,21 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Instances Level 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Instances Level 85-90";
 	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Instances Level 90+";
-	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";
+	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";	-- Sort Instance Maps by: Party Size
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Instances for 5 Players A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Instances for 5 Players F-S";
 	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "Instances for 5 Players T-Z";
 	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "Instances for 10 Players A-N";
 	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "Instances for 10 Players O-Z";
 	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "Instances for 20-40 Players";
-	AL["ATLAS_DDL_EXPANSION"] = "Expansion";
+	AL["ATLAS_DDL_EXPANSION"] = "Expansion";	-- Sort Instance Maps by: Expansion
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "Old World Instances A-O";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Old World Instances P-Z";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Burning Crusade Instances";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Wrath of the Lich King Instances";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mists of Pandaria Instances";
-	AL["ATLAS_DDL_TYPE"] = "Type";
+	AL["ATLAS_DDL_TYPE"] = "Type";			-- -- Sort Instance Maps by: Map Type
 	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Instances A-C";
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instances D-R";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instances S-Z";
@@ -145,7 +145,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Ok";
 
 	AL["ATLAS_INFO"] = "Atlas Information";
-	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in addons into separated modules.\n\nUsers who download our addons from some of the famous game web sites \nmay only get the core addon which only include the Atlas core function \nand the latest WoW expansion maps.\n\nUsers who also want to download all the old dungeon maps and all the \nAtlas plug-ins made by us would need to download them separately.\n\nRead below forum topic for more information:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in plug-ins into separated addon package.\n\nUsers who download our addons from some of the famous game web sites \nmay only get our core addon which only include the Atlas core function \nand the latest WoW expansion maps.\n\nIf you also want to see all the old expansions' maps, and also want all those \nAtlas plug-ins made by us, you have to download and install them separately.\n\nRead below forum topic for more information:\n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff\n\nOr visit our website to see where to download:\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

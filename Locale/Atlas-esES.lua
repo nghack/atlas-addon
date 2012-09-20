@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 05/05/2012
+-- Última Actualización (last update): 20/09/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -100,6 +100,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho y arrastrar para mover el icono.";
 	AL["ATLAS_LDB_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho para mostrar el menú.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Click izquierdo para abrir Atlas.\nClick derecho para mostrar las opciones.\nClick derecho y arrastrar para mover este botón.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Ordenar los mapas de mazmorra por:";
 	AL["ATLAS_DDL_CONTINENT"] = "Continente";
@@ -1170,6 +1171,10 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	
+	--Scarlet Halls
+	AL["Hooded Crusader"] = "Cruzada encapuchada";
+	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --CHECK
 
 	--Siege of Niuzao Temple
 

@@ -39,6 +39,7 @@ v1.22.0 Beta r.1664(Sep. 19, 2012)
     - deDE (Dynaletik)
     - esES (maqjav)
     - ruRU (StingerSoft)
+    - frFR (Khiria)
 - added the use of following Libs: AceAddon-3.0, AceConsole-3.0, AceDB-3.0, LibDBIcon-1.0;
     - Minimap button now rendering with LibDBIcon
     - New chatcommand '/atlasbutton' to toggle the Atlas minimap button

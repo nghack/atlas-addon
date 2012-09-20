@@ -1168,6 +1168,10 @@ if AL then
 
 	--Shado-Pan Monastery
 
+	--Scarlet Halls
+--	AL["Hooded Crusader"] = "Hooded Crusader";
+--	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+
 	--Siege of Niuzao Temple
 
 	--Stormstout Brewery

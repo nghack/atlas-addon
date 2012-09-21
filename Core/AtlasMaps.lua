@@ -2705,9 +2705,9 @@ Syntax:
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Striker Ga'dok", 675) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Commander Ri'mok", 676) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Saboteur Kip'tilak", 655) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Saboteur Kip'tilak", 655) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Striker Ga'dok", 675) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Ri'mok", 676) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Raigonn", 649) };
 	};
 	HeartofFear = {

@@ -2718,12 +2718,13 @@ Syntax:
 		Acronym = AL["HoF"];
 		JournalInstanceID = "330";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Blade Lord Ta'yak", 744) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Imperial Vizier Zor'lok", 745) };
+		{ BLUE.." B) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Imperial Vizier Zor'lok", 745) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Blade Lord Ta'yak", 744) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Garalon", 713) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Amber-Shaper Un'sok", 737) };
-		{ WHIT.." 6) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
+		{ INDENT..WHIT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Amber-Shaper Un'sok", 737) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
 	};
 	MogushanPalace = {
 		ZoneName = { BZ["Mogu'shan Palace"] };

@@ -374,7 +374,7 @@ local myData = {
 		--{ };
 	};
 	SilvershardMines = {
-		ZoneName = { BZ["SilvershardMines"] };
+		ZoneName = { BZ["Silvershard Mines"] };
 		--Location = { };
 		--LevelRange = "85+";
 		--MinLevel = "85";

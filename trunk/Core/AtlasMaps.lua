@@ -2784,7 +2784,8 @@ Syntax:
 		DungeonHeroicID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		{ BLUE.." C) "..AL["Connection"] };
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
 	};
 	SiegeofNiuzaoTempleB = {
@@ -2793,7 +2794,7 @@ Syntax:
 		DungeonHeroicID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };

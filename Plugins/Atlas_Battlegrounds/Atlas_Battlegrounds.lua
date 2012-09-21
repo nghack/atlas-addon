@@ -373,6 +373,13 @@ local myData = {
 		--MinLevel = "85";
 		--{ };
 	};
+	SilvershardMines = {
+		ZoneName = { BZ["SilvershardMines"] };
+		--Location = { };
+		--LevelRange = "85+";
+		--MinLevel = "85";
+		--{ };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

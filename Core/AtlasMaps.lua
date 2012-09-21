@@ -2734,6 +2734,7 @@ Syntax:
 		Acronym = AL["MP"];
 		JournalInstanceID = "321";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };

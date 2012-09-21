@@ -2752,19 +2752,28 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Elegon", 726) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
 	};
-	ShadoPanMonastery = {
-		ZoneName = { BZ["Shado-Pan Monastery"] };
+	ShadoPanMonasteryA = {
+		ZoneName = { BZ["Shado-Pan Monastery"].." [A]" };
+		Location = { AL["Kun-Lai Summit"] };
+		DungeonID = "466";
+		DungeonHeroicID = "470";
+		Acronym = AL["SPM"];
+		JournalInstanceID = "312";
+		{ BLUE.." B-H) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
+	};
+	ShadoPanMonasteryB = {
+		ZoneName = { BZ["Shado-Pan Monastery"].." [B]" };
 		Location = { AL["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B-C) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
+		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	SiegeofNiuzaoTempleA = {
 		ZoneName = { BZ["Siege of Niuzao Temple"].." [A]" };

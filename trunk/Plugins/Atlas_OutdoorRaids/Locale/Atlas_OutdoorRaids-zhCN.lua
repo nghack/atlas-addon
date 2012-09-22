@@ -34,13 +34,17 @@ local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "zhCN", false);
 
 if AL then
 	AL["Ancient Skull Pile"] = "上古颅骨堆";
+	AL["Chief Salyis"] = "头领萨莱斯";
 	AL["Darkscreecher Akkarai"] = "黑暗尖啸者阿克卡莱";
+	AL["Galleon"] = "炮舰";
 	AL["Gezzarak the Huntress"] = "猎手吉萨拉克";
+	AL["Graveyard"] = "墓地";
 	AL["Grella <Skyguard Quartermaster>"] = "格蕾拉 <天空卫队军需官>";
 	AL["Hazzik"] = "哈吉克";
 	AL["Hazzik's Package"] = "哈吉克的包裹";
 	AL["Karrog"] = "卡尔洛格";
 	AL["Outdoor Raid Encounters"] = "户外首领分布图";
+	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
 	AL["Random"] = "随机";
 	AL["Sahaak <Keeper of Scrolls>"] = "萨哈克 <卷轴保管者>";
 	AL["Severin <Skyguard Medic>"] = "瑟维里 <天空卫队医师>";
@@ -55,5 +59,4 @@ if AL then
 	AL["Talonpriest Zellek"] = "鸦爪祭司塞尔利克";
 	AL["Terokk"] = "泰罗克";
 	AL["Vakkiz the Windrager"] = "风怒者瓦克奇斯";
-	AL["Graveyard"] = "墓地";
 end

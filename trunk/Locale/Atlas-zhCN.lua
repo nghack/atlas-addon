@@ -617,9 +617,9 @@ if AL then
 
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
-	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls"; --
+	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
 	AL["Professor Slate"] = "斯雷特教授";
-	AL["Polyformic Acid Potion"] = "蚁酸药剂"; --
+	AL["Polyformic Acid Potion"] = "蚁酸药水";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "药剂师三人组";
@@ -634,8 +634,8 @@ if AL then
 	--SM: Cathedral
 
 	--SM: Halls
-	AL["Hunter Commander"] = "猎人指挥官";
-	AL["Reinforced Archery Target"] = "强化箭靶";
+	AL["Hunter Commander"] = "指挥官林顿";
+	AL["Reinforced Archery Target"] = "强固箭靶";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "十字军指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
@@ -1171,7 +1171,7 @@ if AL then
 	
 	--Scarlet Halls
 	AL["Hooded Crusader"] = "蒙面的十字军战士";
-	AL["Bucket of Meaty Dog Food"] = "一桶丰盛狗食"; --
+	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食"; --
 
 	--Siege of Niuzao Temple
 

@@ -120,6 +120,8 @@ Syntax:
 		{ "4", "489", "260", "190" }; -- Chief Ukorz Sandscalp
 		{ "5", "486", "259", "101" }; -- Witch Doctor Zum'rah
 		{ "6", "484", "399", "147" }; -- Antu'sul
+		{ "2", "482", "160", "197" }; -- Hydromancer Velratha
+		{ "3", "485", "324", "150" }; -- Theka the Martyr
 	};
 
 

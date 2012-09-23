@@ -697,7 +697,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Oro Eyegouge") };
 		{ WHIT..INDENT..Atlas_GetBossName("Murta Grimgut") };
 		{ WHIT.." 3) "..Atlas_GetBossName("Nekrum Gutchewer and Shadow Priest Sezz'ziz", 487) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Chief Ukorz Sandscalp", 488) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Chief Ukorz Sandscalp", 489) };
 		{ WHIT..INDENT..Atlas_GetBossName("Ruuzlu") };
 		{ WHIT.." 5) "..Atlas_GetBossName("Witch Doctor Zum'rah", 486) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Antu'sul", 484) };

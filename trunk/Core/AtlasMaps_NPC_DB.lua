@@ -38,6 +38,92 @@ Syntax:
 ]]
 
 --************************************************
+-- Kalimdor Instances (Classic)
+--************************************************
+
+	BlackfathomDeeps = {
+		{ "1", "368", "191", "182" }; -- Ghamoo-ra
+		{ "2", "436", "76", "110" }; -- Lady Sarevess
+		{ "3", "426", "296", "168" }; -- Gelihast
+		{ "4", "447", "416", "359" }; -- Old Serra'kis
+		{ "5", "437", "244", "447" }; -- Twilight Lord Kelris
+		{ "6", "444", "459", "465" }; -- Aku'mai
+	};
+	DireMaulEast = {
+		{ "1", "404", "212", "109" }; -- Lethtendris
+		{ "2", "403", "352", "401" }; -- Hydrospawn
+		{ "3", "402", "384", "415" }; -- Zevrim Thornhoof
+		{ "4", "405", "376", "213" }; -- Alzzin the Wildshaper
+	};
+	DireMaulNorth = {
+		{ "1", "411", "406", "365" }; -- Guard Mol'dar
+		{ "2", "412", "348", "318" }; -- Stomper Kreeg
+		{ "3", "413", "240", "383" }; -- Guard Fengus
+		{ "4", "414", "50", "253" }; -- Guard Slip'kik
+		{ "5", "415", "88", "225" }; -- Captain Kromcrush
+		{ "6", "417", "88", "91" }; -- King Gordok
+	};
+	DireMaulWest = {
+		{ "1", "406", "287", "347" }; -- Tendris Warpwood
+		{ "2", "408", "386", "127" }; -- Magister Kalendris
+		{ "3", "407", "245", "410" }; -- Illyanna Ravenoak
+		{ "4", "409", "102", "218" }; -- Immol'thar
+		{ "5", "410", "231", "111" }; -- Prince Tortheldrin
+	};
+	Maraudon = {
+		{ "1", "423", "264", "13" }; -- Noxxion
+		{ "2", "424", "193", "73" }; -- Razorlash
+		{ "3", "427", "271", "159" }; -- Lord Vyletongue
+		{ "4", "425", "316", "124" }; -- Tinkerer Gizlock
+		{ "5", "428", "160", "164" }; -- Celebras the Cursed
+		{ "6", "429", "262", "306" }; -- Landslide
+		{ "7", "430", "266", "440" }; -- Rotgrip
+		{ "8", "431", "169", "430" }; -- Princess Theradras
+	};
+	RagefireChasm = {
+		{ "1", "694", "429", "342" }; -- Adarogg
+		{ "2", "695", "277", "151" }; -- Dark Shaman Koranthal
+		{ "3", "696", "182", "299" }; -- Slagmaw
+		{ "4", "697", "153", "444" }; -- Lava Guard Gordoth
+	};
+	RazorfenDowns = {
+		{ "1", "432", "265", "184" }; -- Tuten'kash
+		{ "2", "433", "435", "241" }; -- Mordresh Fire Eye
+		{ "3", "434", "98", "329" }; -- Glutton
+		{ "4", "435", "172", "299" }; -- Amnennar the Coldbringer
+	};
+	RazorfenKraul = {
+		{ "1", "439", "437", "257" }; -- Aggem Thorncurse
+		{ "2", "438", "477", "212" }; -- Death Speaker Jargba
+		{ "3", "440", "307", "165" }; -- Overlord Ramtusk
+		{ "4", "441", "45", "310" }; -- Agathelos the Raging
+		{ "5", "442", "138", "168" }; -- Charlga Razorflank
+	};
+	TheRuinsofAhnQiraj = {
+		-- N/A
+	};
+	TheTempleofAhnQiraj = {
+		-- N/A
+	};
+	WailingCaverns = {
+		{ "1", "474", "196", "229" }; -- Lady Anacondra
+		{ "2", "476", "121", "225" }; -- Lord Pythas
+		{ "3", "475", "99", "306" }; -- Lord Cobrahn
+		{ "4", "478", "395", "335" }; -- Skum
+		{ "5", "479", "424", "255" }; -- Lord Serpentis
+		{ "6", "480", "370", "231" }; -- Verdan the Everliving
+		{ "7", "481", "212", "116" }; -- Mutanus the Devourer
+	};
+	ZulFarrak = {
+		{ "1", "483", "178", "218" }; -- Gahz'rilla
+		{ "3", "487", "166", "112" }; -- Nekrum Gutchewer and Shadow Priest Sezz'ziz
+		{ "4", "489", "260", "190" }; -- Chief Ukorz Sandscalp
+		{ "5", "486", "259", "101" }; -- Witch Doctor Zum'rah
+		{ "6", "484", "399", "147" }; -- Antu'sul
+	};
+
+
+--************************************************
 -- Eastern Kingdoms Instances (Classic)
 --************************************************
 

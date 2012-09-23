@@ -859,7 +859,7 @@ local myData = {
 		{ PURP..INDENT.." -> "..BZ["Elwynn Forest"] };
 		{ PURP..INDENT.." -> "..BZ["Mulgore"] };
 	};
---[[	TransAlliancePandaria = {
+	TransAlliancePandaria = {
 		ZoneName = { BZ["Pandaria"].." ("..BF["Alliance"]..")" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };
@@ -962,7 +962,7 @@ local myData = {
 		{ BLUE..BZ["Vale of Eternal Blossoms"] };
 		{ WHIT.."33) "..BZ["White Moon Shrine"] };
 		{ WHIT.."34) "..BZ["Main Gate Dungeon"] };
-	};]]--
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Transportation", myCategory, myData);

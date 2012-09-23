@@ -70,6 +70,7 @@ local myData = {
 		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." D') "..BZ["Temple of Earth"]..", "..BZ["Deepholm"] };
 		{ PURP.." E') "..BZ["Darkmoon Island"] };
+		{ PURP.." F') "..BZ["Paw'don Village"]..", "..BZ["Pandaria"] };
 		{ WHIT.."29) "..BZ["The Mystic Ward"]..", "..BZ["Ironforge"]..", "..BZ["Dun Morogh"] };
 		{ WHIT.."43) "..BZ["Mage Quarter"]..", "..BZ["Stormwind"]..", "..BZ["Elwynn Forest"] };
 		{ "" };

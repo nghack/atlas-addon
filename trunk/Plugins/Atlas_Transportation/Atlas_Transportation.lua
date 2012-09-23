@@ -866,7 +866,7 @@ local myData = {
 		{ WHIT.." 1) "..BZ["Dawn's Blossom"] };
 		{ WHIT.." 2) "..BZ["Emperor's Omen"] };
 		{ WHIT.." 3) "..BZ["Jade Temple Grounds"] };
-		{ WHIT.." 4) "..BZ["Paw'Don Village"] };
+		{ WHIT.." 4) "..BZ["Paw'don Village"] };
 		{ WHIT.." 5) "..BZ["Pearlfin Village"] };
 		{ WHIT.." 6) "..BZ["Serpent's Overlook"] };
 		{ WHIT.." 7) "..BZ["Sri-La Village"] };

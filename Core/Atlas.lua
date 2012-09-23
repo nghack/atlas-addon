@@ -669,8 +669,8 @@ function Atlas_MapRefresh()
 				AtlasMap_NPC_Text_Frame:SetWidth(15);
 				AtlasMap_NPC_Text_Frame:SetHeight(15);
 				AtlasMap_NPC_Text_Frame:SetID(NPC_Table[AtlasMap_NPC_Text_Frame_Num][2]);
-				AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate)
-				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide)
+				AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate);
+				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide);
 
 				local AtlasMap_NPC_Text = AtlasMap_NPC_Text_Frame:CreateFontString("AtlasMapNPCText"..AtlasMap_NPC_Text_Frame_Num, "MEDIUM", "GameFontHighlightLarge");
 				AtlasMap_NPC_Text:SetPoint("CENTER", AtlasMap_NPC_Text_Frame, "CENTER", 0, 0);

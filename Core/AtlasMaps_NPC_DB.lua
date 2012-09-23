@@ -186,4 +186,90 @@ Syntax:
 		{ "16", "184", "141", "103" }; -- Zanzil
 		{ "17", "185", "306", "194" }; -- Jin'do the Godbreaker
 	};
+
+--************************************************
+-- Mists of Pandaria Instances
+--************************************************
+
+
+	GateoftheSettingSun = {
+		{ "1", "655", "235", "400" }; -- Saboteur Kip'tilak
+		{ "2", "675", "235", "169" }; -- Striker Ga'dok
+		{ "3", "676", "235", "138" }; -- Commander Ri'mok
+		{ "4", "649", "229", "284" }; -- Raigonn
+	};
+	HeartofFear = {
+		{ "1", "745", "287", "194" }; -- Imperial Vizier Zor'lok
+		{ "2", "744", "273", "56" }; -- Blade Lord Ta'yak
+		{ "3", "713", "430", "104" }; -- Garalon
+--		{ INDENT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
+		{ "4", "737", "287", "357" }; -- Amber-Shaper Un'sok
+		{ "5", "743", "67", "358" }; -- Grand Empress Shek'zeer
+	};
+	MogushanPalace = {
+		{ "1", "708", "203", "454" }; -- Trial of the King
+		{ "2", "690", "83", "247" }; -- Gekkan
+		{ "3", "698", "379", "309" }; -- Xin the Weaponmaster
+	};
+	MogushanVaults = {
+		{ "1", "679", "364", "315" }; -- The Stone Guard
+		{ "2", "689", "316", "240" }; -- Feng the Accursed
+		{ "3", "682", "318", "116" }; -- Gara'jal the Spiritbinder
+		{ "4", "687", "181", "142" }; -- The Spirit Kings
+		{ "5", "726", "46", "303" }; -- Elegon
+		{ "6", "677", "236", "382" }; -- Will of the Emperor
+	};
+	ShadoPanMonasteryA = {
+		{ "1", "673", "329", "310" }; -- Gu Cloudstrike
+		{ "4", "686", "366", "236" }; -- Taran Zhu
+	};
+	ShadoPanMonasteryB = {
+		{ "2", "657", "55", "307" }; -- Master Snowdrift
+		{ "3", "685", "373", "373" }; -- Sha of Violence
+	};
+	SiegeofNiuzaoTempleA = {
+		{ "1", "693", "143", "158" }; -- Vizier Jin'bak
+	};
+	SiegeofNiuzaoTempleB = {
+		{ "2", "738", "205", "325" }; -- Commander Vo'jak
+		{ "3", "692", "304", "236" }; -- General Pa'valak
+		{ "4", "727", "301", "141" }; -- Wing Leader Ner'onok
+	};
+	Scholomance = {
+		{ "1", "659", "0", "0" }; -- Instructor Chillheart
+		{ "2", "663", "0", "0" }; -- Jandice Barov
+		{ "3", "665", "0", "0" }; -- Rattlegore
+		{ "4", "666", "0", "0" }; -- Lilian Voss
+		{ "6", "684", "0", "0" }; -- Darkmaster Gandling
+	};
+	ScarletHalls = {
+		{ "2", "660", "260", "308" }; -- Houndmaster Braun
+		{ "3", "654", "326", "113" }; -- Armsmaster Harlan
+		{ "4", "656", "223", "21" }; -- Flameweaver Koegler
+	};
+	ScarletMonastery = {
+		{ "1", "688", "131", "61" }; -- Thalnos the Soulrender
+		{ "2", "671", "231", "332" }; -- Brother Korloff
+		{ "3", "674", "226", "439" }; -- High Inquisitor Whitemane
+	};
+	StormstoutBrewery = {
+		{ "1", "668", "121", "340" }; -- Ook-Ook
+		{ "2", "669", "334", "280" }; -- Hoptallus
+		{ "3", "670", "430", "400" }; -- Yan-Zhu the Uncasked
+	};
+	TempleoftheJadeSerpent = {
+		{ "1", "672", "218", "68" }; -- Wise Mari
+		{ "2", "664", "65", "380" }; -- Lorewalker Stonestep
+		{ "3", "658", "243", "259" }; -- Liu Flameheart
+		{ "4", "335", "355", "296" }; -- Sha of Doubt
+	};
+	TerraceofEndlessSpring = {
+		{ "1", "683", "398", "265" }; -- Protectors of the Endless
+		{ "2", "742", "360", "265" }; -- Tsulong
+		{ "3", "729", "296", "265" }; -- Lei Shi
+		{ "4", "709", "204", "265" }; -- Sha of Fear
+	};
+
+
+	
 };

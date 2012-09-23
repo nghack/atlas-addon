@@ -2826,12 +2826,13 @@ Syntax:
 		JournalInstanceID = "311";
 		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ GREN.." 1') "..AL["Hooded Crusader"] };
+		{ GREN.." 1') "..AL["Reinforced Archery Target"] };
+		{ GREN.." 2') "..AL["Hooded Crusader"] };
+		{ INDENT..GREN..AL["Bucket of Meaty Dog Food"] };
 		{ WHIT.." 1) "..AL["Hunter Commander"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan", 654) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
-		{ GREN.." 2') "..AL["Reinforced Archery Target"] };
 	};
 	ScarletMonastery = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Monastery"] };

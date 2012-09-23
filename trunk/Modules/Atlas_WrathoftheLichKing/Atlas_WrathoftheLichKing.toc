@@ -3,9 +3,11 @@
 ## Title-deDE: Atlas |r|cFF0099FF[Wrath of the Lich King]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Wrath of the Lich King]|r
 ## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 巫妖王之怒
+## Title-zhCN: Atlas |r|cFF0099FF[巫妖王之怒]|r
 ## Notes: Wrath of the Lich King Dungeon Maps
 ## Notes-deDE: Wrath of the Lich King Instanzkarten
 ## Notes-zhTW: 巫妖王之怒副本地圖模組
+## Notes-zhCN: 巫妖王之怒地图
 ## Version: 1.22.0
 ## Author: arith, Dynaletik, dubcat
 ## X-Date: September xx, 2012

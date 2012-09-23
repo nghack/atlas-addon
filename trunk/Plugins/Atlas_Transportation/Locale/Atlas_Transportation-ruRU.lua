@@ -59,5 +59,4 @@ if AL then
 	AL["Wind Rider"] = "Укротитель ветрокрылов";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Не будет доступна пока не завершена серия Битвы за Андорал."; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Башни Цеппелинов";
-
 end

@@ -27,7 +27,6 @@
 -- Atlas Map NPC Description Data
 -- Maintainers: Arith, Dynaletik, dubcat
 
-
 AtlasMaps_NPC_DB = {
 --[[
 Syntax: 
@@ -231,6 +230,129 @@ Syntax:
 		{ "7", "472", "68", "112" }; -- Grimlok
 		{ "8", "473", "343", "65" }; -- Archaedas
 	};
+
+--************************************************
+-- Burning Crusade Instances
+--************************************************
+
+	AuchAuchenaiCrypts = {
+		{ "1", "523", "220", "362" }; -- Shirrak the Dead Watcher
+		{ "2", "524", "448", "227" }; -- Exarch Maladaar
+	};
+	AuchManaTombs = {
+		{ "1", "534", "253", "142" }; -- Pandemonius
+		{ "2", "535", "357", "394" }; -- Tavarok
+		{ "3", "537", "127", "266" }; -- Nexus-Prince Shaffar
+	};
+	AuchSethekkHalls = {
+		{ "1", "541", "230", "317" }; -- Darkweaver Syth
+		{ "2", "542", "91", "253" }; -- Anzu
+		{ "3", "543", "95", "88" }; -- Talon King Ikiss
+	};
+	AuchShadowLabyrinth = {
+		{ "1", "544", "60", "217" }; -- Ambassador Hellmaw
+		{ "2", "545", "95", "363" }; -- Blackheart the Inciter
+		{ "3", "546", "272", "293" }; -- Grandmaster Vorpil
+		{ "4", "547", "456", "216" }; -- Murmur
+	};
+	BlackTempleStart = {
+		-- N/A
+	};
+	BlackTempleBasement = {
+		-- N/A
+	};
+	BlackTempleTop = {
+		-- N/A
+	};
+	CFRSerpentshrineCavern = {
+		-- N/A
+	};
+	CFRTheSlavePens = {
+		{ "1", "570", "243", "167" }; -- Mennu the Betrayer
+		{ "2", "571", "288", "220" }; -- Rokmar the Crackler
+		{ "3", "572", "401", "369" }; -- Quagmirran
+	};
+	CFRTheSteamvault = {
+		{ "1", "573", "270", "80" }; -- Hydromancer Thespia
+		{ "2", "574", "123", "401" }; -- Mekgineer Steamrigger
+		{ "3", "575", "470", "217" }; -- Warlord Kalithresh
+	};
+	CFRTheUnderbog = {
+		{ "1", "576", "360", "423" }; -- Hungarfen
+		{ "2", "577", "414", "169" }; -- Ghaz'an
+		{ "3", "578", "195", "148" }; -- Swamplord Musel'ek
+		{ "4", "579", "101", "230" }; -- The Black Stalker
+	};
+	CoTBlackMorass = {
+		-- N/A
+	};
+	CoTHyjal = {
+		-- N/A
+	};
+	CoTOldHillsbrad = {
+		{ "1", "538", "402", "286" }; -- Lieutenant Drake
+		{ "2", "539", "355", "298" }; -- Captain Skarloc
+		{ "3", "540", "220", "123" }; -- Epoch Hunter
+	};
+	GruulsLair = {
+		-- N/A
+	};
+	HCBloodFurnace = {
+		{ "1", "555", "138", "191" }; -- The Maker
+		{ "2", "556", "198", "80" }; -- Broggok
+		{ "3", "557", "323", "191" }; -- Keli'dan the Breaker
+	};
+	HCHellfireRamparts = {
+		{ "1", "527", "392", "143" }; -- Watchkeeper Gargolmar
+		{ "2", "528", "106", "80" }; -- Omor the Unscarred
+		{ "3", "529", "77", "418" }; -- Vazruden the Herald
+	};
+	HCMagtheridonsLair = {
+		-- N/A
+	};
+	HCTheShatteredHalls = {
+		{ "1", "566", "114", "328" }; -- Grand Warlock Nethekurse
+		{ "2", "728", "69", "47" }; -- Blood Guard Porung
+		{ "3", "568", "283", "166" }; -- Warbringer O'mrogg
+		{ "4", "569", "401", "287" }; -- Warchief Kargath Bladefist
+	};
+	KarazhanStart = {
+		-- N/A
+	};
+	KarazhanEnd = {
+		-- N/A
+	};
+	MagistersTerrace = {
+		{ "1", "530", "210", "123" }; -- Selin Fireheart
+		{ "2", "531", "424", "153" }; -- Vexallus
+		{ "3", "532", "190", "257" }; -- Priestess Delrissa
+		{ "4", "533", "34", "236" }; -- Kael'thas Sunstrider
+	};
+	SunwellPlateau = {
+		-- N/A
+	};
+	TempestKeepArcatraz = {
+		{ "1", "548", "331", "234" }; -- Zereketh the Unbound
+		{ "2", "549", "142", "353" }; -- Dalliah the Doomsayer
+		{ "3", "550", "65", "353" }; -- Wrath-Scryer Soccothrates
+		{ "4", "551", "364", "81" }; -- Harbinger Skyriss
+	};
+	TempestKeepBotanica = {
+		{ "1", "558", "221", "144" }; -- Commander Sarannis
+		{ "2", "559", "114", "144" }; -- High Botanist Freywinn
+		{ "3", "560", "31", "235" }; -- Thorngrin the Tender
+		{ "4", "561", "167", "352" }; -- Laj
+		{ "5", "562", "168", "197" }; -- Warp Splinter
+	};
+	TempestKeepMechanar = {
+		{ "3", "563", "295", "175" }; -- Mechano-Lord Capacitus
+		{ "4", "564", "234", "25" }; -- Nethermancer Sepethrea
+		{ 5, 565, 82, 232 }; -- Pathaleon the Calculator	
+	};
+	TempestKeepTheEye = {
+		-- N/A
+	};
+
 --************************************************
 -- Cataclysm Instances
 --************************************************

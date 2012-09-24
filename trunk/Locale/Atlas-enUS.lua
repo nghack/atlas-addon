@@ -1176,7 +1176,7 @@ if AL then
 
 	AL["Talking Skull"] = "Talking Skull";
 	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
-	AL["Kel'Thuzad's Deep Knowledge"]
+	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
 	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Siege of Niuzao Temple

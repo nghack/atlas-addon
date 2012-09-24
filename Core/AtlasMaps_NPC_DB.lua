@@ -218,6 +218,7 @@ Syntax:
 	TheSunkenTemple = {
 		{ "1", "457", "52", "220" }; -- Avatar of Hakkar
 		{ "2", "458", "448", "176" }; -- Jammal'an the Prophet
+		{ "4", "459", "254", "430" }; -- Wardens of the Dream
 		{ "5", "463", "408", "429" }; -- Shade of Eranikus
 	};
 	Uldaman = {

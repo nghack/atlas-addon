@@ -1,4 +1,4 @@
--- $Id: AtlasMaps_NPC_DB.lua 1512 2011-10-19 15:43:07Z arithmandar $
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -354,6 +354,150 @@ Syntax:
 	};
 
 --************************************************
+-- Wrath of the Lich King Instances
+--************************************************
+
+	AhnKahet = {
+		{ 1, 580, 340, 192 }; -- Elder Nadox
+		{ 2, 581, 312, 258 }; -- Prince Taldaram
+		{ 3, 583, 320, 333 }; -- Amanitar
+		{ 4, 582, 244, 335 }; -- Jedoga Shadowseeker
+		{ 5, 584, 125, 263 }; -- Herald Volazj
+	};
+	AzjolNerub = {
+		{ 1, 585, 180, 120 }; -- Krik'thir the Gatewatcher
+		{ 2, 586, 301, 118 }; -- Hadronox
+		{ 3, 587, 308, 352 }; -- Anub'arak
+	};
+	CoTOldStratholme = {
+		{ 3, 613, 312, 80 }; -- Chrono-Lord Epoch
+		{ 5, 614, 117, 161 }; -- Mal'Ganis
+	};
+	DrakTharonKeep = {
+		{ 1, 588, 170, 50 }; -- Trollgore
+		{ 2, 589, 236, 155 }; -- Novos the Summoner
+		{ 3, 590, 415, 441 }; -- King Dred
+		{ 4, 591, 418, 174 }; -- The Prophet Tharon'ja
+	};
+	FHHallsOfReflection = {
+		{ 1, 601, 213, 375 }; -- Falric
+		{ 2, 602, 273, 317 }; -- Marwyn
+		{ 3, 603, 47, 153 }; -- Escape from Arthas
+	};
+	FHPitOfSaron = {
+		{ 1, 608, 387, 289 }; -- Forgemaster Garfrost
+		{ 2, 609, 241, 205 }; -- Ick & Krick
+		{ 3, 610, 223, 148 }; -- Scourgelord Tyrannus
+	};
+	FHTheForgeOfSouls = {
+		{ 1, 615, 150, 250 }; -- Bronjahm
+		{ 2, 616, 148, 34 }; -- Devourer of Souls
+	};
+	Gundrak = {
+		{ 1, 592, 345, 244 }; -- Slad'ran
+		{ 2, 593, 266, 340 }; -- Drakkari Colossus
+		{ 3, 594, 198, 245 }; -- Moorabi
+		{ 4, 595, 83, 367 }; -- Eck the Ferocious
+		{ 5, 596, 267, 90}; -- Gal'darah
+	};
+	IcecrownCitadelA = {
+		-- N/A
+	};
+	IcecrownCitadelB = {
+		-- N/A
+	};
+	IcecrownCitadelC = {
+		-- N/A
+	};
+	Naxxramas = {
+		-- N/A
+	};
+	ObsidianSanctum = {
+		-- N/A
+	};
+	OnyxiasLair = {
+		-- N/A
+	};
+	RubySanctum = {
+		-- N/A	
+	};
+	TheEyeOfEternity = {
+		-- N/A
+	};
+	TheNexus = {
+		{ 1, 617, 30, 268 }; -- Frozen Commander
+		{ 2, 618, 110, 192 }; -- Grand Magus Telestra
+		{ 3, 619, 430, 79 }; -- Anomalus
+		{ 4, 620, 369, 407 }; -- Ormorok the Tree-Shaper
+		{ 5, 621, 189, 363 }; -- Keristrasza
+	};
+	TheOculus = {
+		{ 1, 622, 259, 434 }; -- Drakos the Interrogator
+		{ 2, 623, 229, 83 }; -- Varos Cloudstrider
+		{ 3, 624, 258, 416 }; -- Mage-Lord Urom
+		{ 3, 624, 368, 201 }; -- Mage-Lord Urom
+		{ 3, 624, 121, 215 }; -- Mage-Lord Urom
+		{ 3, 624, 250, 262 }; -- Mage-Lord Urom
+		{ 4, 625, 250, 287 }; -- Ley-Guardian Eregos
+	};
+	TrialOfTheChampion = {
+		-- N/A
+	};
+	TrialOfTheCrusader = {
+		-- N/A
+	};
+	UlduarA = {
+		-- N/A
+	};
+	UlduarB = {
+		-- N/A
+	};
+	UlduarC = {
+		-- N/A
+	};
+	UlduarD = {
+		-- N/A
+	};
+	UlduarE = {
+		-- N/A
+	};
+	UlduarHallsofLightning = {
+		{ 1, 597, 247, 142 }; -- General Bjarngrim
+		{ 2, 598, 320, 145 }; -- Volkhan
+		{ 3, 599, 435, 352 }; -- Ionar
+		{ 4, 600, 199, 250 }; -- Loken
+	};
+	UlduarHallsofStone = {
+		{ 1, 604, 138, 313 }; -- Krystallus
+		{ 2, 605, 209, 434 }; -- Maiden of Grief
+		{ 3, 606, 463, 387 }; -- Tribunal of Ages
+		{ 4, 607, 211, 83 }; -- Sjonnir The Ironshaper
+	};
+	UtgardeKeep = {
+		{ 1, 638, 157, 131 }; -- Prince Keleseth
+		{ 2, 639, 217, 419 }; -- Skarvold & Dalronn
+		{ 3, 640, 444, 383 }; -- Ingvar the Plunderer
+	};
+	UtgardePinnacle = {
+		{ 1, 641, 215, 390 }; -- Svala Sorrowgrave
+		{ 2, 642, 347, 364 }; -- Gortok Palehoof
+		{ 3, 643, 426, 215 }; -- Skadi the Ruthless
+		{ 4, 644, 144, 263 }; -- King Ymiron
+	};
+	VaultOfArchavon = {
+		-- N/A
+	};
+	VioletHold = {
+		{ 1, 626, 74, 266 }; -- Erekem
+		{ 2, 631, 106, 132 }; -- Zuramat the Obliterator
+		{ 3, 628, 345, 117 }; -- Ichoron
+		{ 4, 627, 383, 216 }; -- Moragg
+		{ 5, 630, 338, 323 }; -- Lavanthor
+		{ 6, 632, 229, 227 }; -- Cyanigosa
+	};
+
+
+--************************************************
 -- Cataclysm Instances
 --************************************************
 	BaradinHold = {
@@ -386,16 +530,16 @@ Syntax:
 		{ 4, 317,393, 130 }; -- Hagara the Stormbinder
 	};
 	CoTDragonSoulC = {
-		{ "6", "332", "101", "86"}; -- Warmaster Blackhorn
-		{ "7", "318", "69", "345"}; -- Spine of Deathwing
-		{ "8", "333", "333", "318"}; -- Madness of Deathwing	
+		{ 6, 332,101, 86 }; -- Warmaster Blackhorn
+		{ 7, 318,69, 345 }; -- Spine of Deathwing
+		{ 8, 333,333, 318 }; -- Madness of Deathwing	
 	};
 	CoTEndTime = {
-		{ "1", "340", "94", "143"}; -- Echo of Baine
-		{ "2", "285", "294", "409"}; -- Echo of Jaina
-		{ "3", "323", "218", "259"}; -- Echo of Sylvanas
-		{ "4", "283", "380", "467"}; -- Echo of Tyrande
-		{ "5", "289", "475", "183"}; -- Murozond
+		{ 1, 340,94, 143 }; -- Echo of Baine
+		{ 2, 285,294, 409 }; -- Echo of Jaina
+		{ 3, 323,218, 259 }; -- Echo of Sylvanas
+		{ 4, 283,380, 467 }; -- Echo of Tyrande
+		{ 5, 289,475, 183 }; -- Murozond
 	};
 	CoTHourOfTwilight = {
 		{ 1, 322,340, 101 }; -- Arcurion
@@ -565,7 +709,4 @@ Syntax:
 		{ 3, 729,296, 265 }; -- Lei Shi
 		{ 4, 709,204, 265 }; -- Sha of Fear
 	};
-
-
-	
 };

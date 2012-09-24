@@ -31,8 +31,8 @@ AtlasMaps_NPC_DB = {
 --[[
 Syntax: 
 	MapName = {
-		{ "number", "EJ_BossID", "X coordinate", "Y coordinate" };
-		{ "2", "193", "339", "435" };
+		{ number, EJ_BossID,X coordinate, Y coordinate };
+		{ 2, 193,339, 435 };
 	};
 ]]
 
@@ -41,62 +41,62 @@ Syntax:
 --************************************************
 
 	BlackfathomDeeps = {
-		{ "1", "368", "191", "182" }; -- Ghamoo-ra
-		{ "2", "436", "76", "110" }; -- Lady Sarevess
-		{ "3", "426", "296", "168" }; -- Gelihast
-		{ "4", "447", "416", "359" }; -- Old Serra'kis
-		{ "5", "437", "244", "447" }; -- Twilight Lord Kelris
-		{ "6", "444", "459", "465" }; -- Aku'mai
+		{ 1, 368,191, 182 }; -- Ghamoo-ra
+		{ 2, 436,76, 110 }; -- Lady Sarevess
+		{ 3, 426,296, 168 }; -- Gelihast
+		{ 4, 447,416, 359 }; -- Old Serra'kis
+		{ 5, 437,244, 447 }; -- Twilight Lord Kelris
+		{ 6, 444,459, 465 }; -- Aku'mai
 	};
 	DireMaulEast = {
-		{ "1", "404", "212", "109" }; -- Lethtendris
-		{ "2", "403", "352", "401" }; -- Hydrospawn
-		{ "3", "402", "384", "415" }; -- Zevrim Thornhoof
-		{ "4", "405", "376", "213" }; -- Alzzin the Wildshaper
+		{ 1, 404,212, 109 }; -- Lethtendris
+		{ 2, 403,352, 401 }; -- Hydrospawn
+		{ 3, 402,384, 415 }; -- Zevrim Thornhoof
+		{ 4, 405,376, 213 }; -- Alzzin the Wildshaper
 	};
 	DireMaulNorth = {
-		{ "1", "411", "406", "365" }; -- Guard Mol'dar
-		{ "2", "412", "348", "318" }; -- Stomper Kreeg
-		{ "3", "413", "240", "383" }; -- Guard Fengus
-		{ "4", "414", "50", "253" }; -- Guard Slip'kik
-		{ "5", "415", "88", "225" }; -- Captain Kromcrush
-		{ "6", "417", "88", "91" }; -- King Gordok
+		{ 1, 411,406, 365 }; -- Guard Mol'dar
+		{ 2, 412,348, 318 }; -- Stomper Kreeg
+		{ 3, 413,240, 383 }; -- Guard Fengus
+		{ 4, 414,50, 253 }; -- Guard Slip'kik
+		{ 5, 415,88, 225 }; -- Captain Kromcrush
+		{ 6, 417,88, 91 }; -- King Gordok
 	};
 	DireMaulWest = {
-		{ "1", "406", "287", "347" }; -- Tendris Warpwood
-		{ "2", "408", "386", "127" }; -- Magister Kalendris
-		{ "3", "407", "245", "410" }; -- Illyanna Ravenoak
-		{ "4", "409", "102", "218" }; -- Immol'thar
-		{ "5", "410", "231", "111" }; -- Prince Tortheldrin
+		{ 1, 406,287, 347 }; -- Tendris Warpwood
+		{ 2, 408,386, 127 }; -- Magister Kalendris
+		{ 3, 407,245, 410 }; -- Illyanna Ravenoak
+		{ 4, 409,102, 218 }; -- Immol'thar
+		{ 5, 410,231, 111 }; -- Prince Tortheldrin
 	};
 	Maraudon = {
-		{ "1", "423", "264", "13" }; -- Noxxion
-		{ "2", "424", "193", "73" }; -- Razorlash
-		{ "3", "427", "271", "159" }; -- Lord Vyletongue
-		{ "4", "425", "316", "124" }; -- Tinkerer Gizlock
-		{ "5", "428", "160", "164" }; -- Celebras the Cursed
-		{ "6", "429", "262", "306" }; -- Landslide
-		{ "7", "430", "266", "440" }; -- Rotgrip
-		{ "8", "431", "169", "430" }; -- Princess Theradras
+		{ 1, 423,264, 13 }; -- Noxxion
+		{ 2, 424,193, 73 }; -- Razorlash
+		{ 3, 427,271, 159 }; -- Lord Vyletongue
+		{ 4, 425,316, 124 }; -- Tinkerer Gizlock
+		{ 5, 428,160, 164 }; -- Celebras the Cursed
+		{ 6, 429,262, 306 }; -- Landslide
+		{ 7, 430,266, 440 }; -- Rotgrip
+		{ 8, 431,169, 430 }; -- Princess Theradras
 	};
 	RagefireChasm = {
-		{ "1", "694", "429", "342" }; -- Adarogg
-		{ "2", "695", "277", "151" }; -- Dark Shaman Koranthal
-		{ "3", "696", "182", "299" }; -- Slagmaw
-		{ "4", "697", "153", "444" }; -- Lava Guard Gordoth
+		{ 1, 694,429, 342 }; -- Adarogg
+		{ 2, 695,277, 151 }; -- Dark Shaman Koranthal
+		{ 3, 696,182, 299 }; -- Slagmaw
+		{ 4, 697,153, 444 }; -- Lava Guard Gordoth
 	};
 	RazorfenDowns = {
-		{ "1", "432", "265", "184" }; -- Tuten'kash
-		{ "2", "433", "435", "241" }; -- Mordresh Fire Eye
-		{ "3", "434", "98", "329" }; -- Glutton
-		{ "4", "435", "172", "299" }; -- Amnennar the Coldbringer
+		{ 1, 432,265, 184 }; -- Tuten'kash
+		{ 2, 433,435, 241 }; -- Mordresh Fire Eye
+		{ 3, 434,98, 329 }; -- Glutton
+		{ 4, 435,172, 299 }; -- Amnennar the Coldbringer
 	};
 	RazorfenKraul = {
-		{ "1", "439", "437", "257" }; -- Aggem Thorncurse
-		{ "2", "438", "477", "212" }; -- Death Speaker Jargba
-		{ "3", "440", "307", "165" }; -- Overlord Ramtusk
-		{ "4", "441", "45", "310" }; -- Agathelos the Raging
-		{ "5", "442", "138", "168" }; -- Charlga Razorflank
+		{ 1, 439,437, 257 }; -- Aggem Thorncurse
+		{ 2, 438,477, 212 }; -- Death Speaker Jargba
+		{ 3, 440,307, 165 }; -- Overlord Ramtusk
+		{ 4, 441,45, 310 }; -- Agathelos the Raging
+		{ 5, 442,138, 168 }; -- Charlga Razorflank
 	};
 	TheRuinsofAhnQiraj = {
 		-- N/A
@@ -105,22 +105,22 @@ Syntax:
 		-- N/A
 	};
 	WailingCaverns = {
-		{ "1", "474", "196", "229" }; -- Lady Anacondra
-		{ "2", "476", "121", "225" }; -- Lord Pythas
-		{ "3", "475", "99", "306" }; -- Lord Cobrahn
-		{ "4", "478", "395", "335" }; -- Skum
-		{ "5", "479", "424", "255" }; -- Lord Serpentis
-		{ "6", "480", "370", "231" }; -- Verdan the Everliving
-		{ "7", "481", "212", "116" }; -- Mutanus the Devourer
+		{ 1, 474,196, 229 }; -- Lady Anacondra
+		{ 2, 476,121, 225 }; -- Lord Pythas
+		{ 3, 475,99, 306 }; -- Lord Cobrahn
+		{ 4, 478,395, 335 }; -- Skum
+		{ 5, 479,424, 255 }; -- Lord Serpentis
+		{ 6, 480,370, 231 }; -- Verdan the Everliving
+		{ 7, 481,212, 116 }; -- Mutanus the Devourer
 	};
 	ZulFarrak = {
-		{ "1", "483", "178", "218" }; -- Gahz'rilla
-		{ "3", "487", "166", "112" }; -- Nekrum Gutchewer and Shadow Priest Sezz'ziz
-		{ "4", "489", "260", "190" }; -- Chief Ukorz Sandscalp
-		{ "5", "486", "259", "101" }; -- Witch Doctor Zum'rah
-		{ "6", "484", "399", "147" }; -- Antu'sul
-		{ "2", "482", "160", "197" }; -- Hydromancer Velratha
-		{ "3", "485", "324", "150" }; -- Theka the Martyr
+		{ 1, 483,178, 218 }; -- Gahz'rilla
+		{ 3, 487,166, 112 }; -- Nekrum Gutchewer and Shadow Priest Sezz'ziz
+		{ 4, 489,260, 190 }; -- Chief Ukorz Sandscalp
+		{ 5, 486,259, 101 }; -- Witch Doctor Zum'rah
+		{ 6, 484,399, 147 }; -- Antu'sul
+		{ 2, 482,160, 197 }; -- Hydromancer Velratha
+		{ 3, 485,324, 150 }; -- Theka the Martyr
 	};
 
 
@@ -129,106 +129,106 @@ Syntax:
 --************************************************
 
 	BlackrockDepths = {
-		{ "1", "369", "360", "407" }; -- High Interrogator Gerstahn
-		{ "2", "370", "411", "263" }; -- Lord Roccor
-		{ "3", "371", "381", "279" }; -- Houndmaster Grebmar
-		{ "4", "377", "216", "234" }; -- Bael'Gar
-		{ "5", "374", "419", "142" }; -- Lord Incendius
-		{ "6", "376", "462", "97" }; -- Fineous Darkvire
-		{ "7", "375", "202", "327" }; -- Warder Stilgiss
-		{ "8", "373", "152", "464" }; -- Pyromancer Loregrain
-		{ "9", "372", "123", "433" }; -- Ring of Law
-		{ "10", "378", "20", "399" }; -- General Angerforge
-		{ "11", "379", "21", "309" }; -- Golem Lord Argelmach
-		{ "12", "380", "105", "283" }; -- Hurley Blackbreath
-		{ "13", "382", "111", "301" }; -- Ribbly Screwspigot
-		{ "14", "381", "131", "300" }; -- Phalanx
-		{ "15", "384", "151", "230" }; -- Ambassador Flamelash
-		{ "16", "385", "160", "107" }; -- The Seven
-		{ "17", "386", "340", "50" }; -- Magmus
-		{ "18", "387", "429", "49" }; -- Emperor Dagran Thaurissan
+		{ 1, 369,360, 407 }; -- High Interrogator Gerstahn
+		{ 2, 370,411, 263 }; -- Lord Roccor
+		{ 3, 371,381, 279 }; -- Houndmaster Grebmar
+		{ 4, 377,216, 234 }; -- Bael'Gar
+		{ 5, 374,419, 142 }; -- Lord Incendius
+		{ 6, 376,462, 97 }; -- Fineous Darkvire
+		{ 7, 375,202, 327 }; -- Warder Stilgiss
+		{ 8, 373,152, 464 }; -- Pyromancer Loregrain
+		{ 9, 372,123, 433 }; -- Ring of Law
+		{ 10, 378,20, 399 }; -- General Angerforge
+		{ 11, 379,21, 309 }; -- Golem Lord Argelmach
+		{ 12, 380,105, 283 }; -- Hurley Blackbreath
+		{ 13, 382,111, 301 }; -- Ribbly Screwspigot
+		{ 14, 381,131, 300 }; -- Phalanx
+		{ 15, 384,151, 230 }; -- Ambassador Flamelash
+		{ 16, 385,160, 107 }; -- The Seven
+		{ 17, 386,340, 50 }; -- Magmus
+		{ 18, 387,429, 49 }; -- Emperor Dagran Thaurissan
 	};
 	BlackrockSpireLower = {
-		{ "1", "388", "111", "143" }; -- Highlord Omokk
-		{ "2", "389", "297", "321" }; -- Shadow Hunter Vosh'gajin
-		{ "3", "390", "368", "354" }; -- War Master Voone
-		{ "4", "391", "444", "472" }; -- Mother Smolderweb
-		{ "5", "392", "251", "366" }; -- Urok Doomhowl
-		{ "6", "393", "196", "392" }; -- Quartermaster Zigris
-		{ "7", "394", "43", "387" }; -- Halycon
-		{ "8", "396", "202", "223" }; -- Overlord Wyrmthalak
+		{ 1, 388,111, 143 }; -- Highlord Omokk
+		{ 2, 389,297, 321 }; -- Shadow Hunter Vosh'gajin
+		{ 3, 390,368, 354 }; -- War Master Voone
+		{ 4, 391,444, 472 }; -- Mother Smolderweb
+		{ 5, 392,251, 366 }; -- Urok Doomhowl
+		{ 6, 393,196, 392 }; -- Quartermaster Zigris
+		{ 7, 394,43, 387 }; -- Halycon
+		{ 8, 396,202, 223 }; -- Overlord Wyrmthalak
 	};
 	BlackrockSpireUpper = {
-		{ "1", "397", "392", "97" }; -- Pyroguard Emberseer
-		{ "2", "398", "372", "200" }; -- Solakar Flamewreath
-		{ "4", "399", "270", "245" }; -- Warchief Rend Blackhand
-		{ "5", "400", "425", "359" }; -- The Beast
-		{ "6", "401", "118", "417" }; -- General Drakkisath
+		{ 1, 397,392, 97 }; -- Pyroguard Emberseer
+		{ 2, 398,372, 200 }; -- Solakar Flamewreath
+		{ 4, 399,270, 245 }; -- Warchief Rend Blackhand
+		{ 5, 400,425, 359 }; -- The Beast
+		{ 6, 401,118, 417 }; -- General Drakkisath
 	};
 	BlackwingLair = {
 		-- N/A
 	};
 	Gnomeregan = {
-		{ "1", "419", "196", "175" }; -- Grubbis
-		{ "2", "420", "454", "53" }; -- Viscous Fallout
-		{ "3", "421", "260", "109" }; -- Electrocutioner 6000
-		{ "4", "418", "110", "483" }; -- Crowd Pummeler 9-60
-		{ "5", "422", "291", "229" }; -- Mekgineer Thermaplugg
+		{ 1, 419,196, 175 }; -- Grubbis
+		{ 2, 420,454, 53 }; -- Viscous Fallout
+		{ 3, 421,260, 109 }; -- Electrocutioner 6000
+		{ 4, 418,110, 483 }; -- Crowd Pummeler 9-60
+		{ 5, 422,291, 229 }; -- Mekgineer Thermaplugg
 	};
 	MoltenCore = {
 		-- N/A
 	};
 	ShadowfangKeep = {
-		{ "1", "96", "363", "408" }; -- Baron Ashbury
-		{ "2", "97", "54", "339" }; -- Baron Silverlaine
-		{ "3", "98", "171", "353" }; -- Commander Springvale
-		{ "4", "99", "290", "173" }; -- Lord Walden
-		{ "5", "100", "207", "51" }; -- Lord Godfrey
+		{ 1, 96,363, 408 }; -- Baron Ashbury
+		{ 2, 97,54, 339 }; -- Baron Silverlaine
+		{ 3, 98,171, 353 }; -- Commander Springvale
+		{ 4, 99,290, 173 }; -- Lord Walden
+		{ 5, 100,207, 51 }; -- Lord Godfrey
 	};
 	StratholmeCrusader = {
-		{ "1", "450", "387", "151" }; -- The Unforgiven
-		{ "2", "445", "180", "173" }; -- Timmy the Cruel
-		{ "3", "749", "151", "228" }; -- Commander Malor
-		{ "4", "446", "11", "268" }; -- Willey Hopebreaker
-		{ "5", "448", "137", "352" }; -- Instructor Galford
-		{ "6", "449", "99", "378" }; -- Balnazzar
+		{ 1, 450,387, 151 }; -- The Unforgiven
+		{ 2, 445,180, 173 }; -- Timmy the Cruel
+		{ 3, 749,151, 228 }; -- Commander Malor
+		{ 4, 446,11, 268 }; -- Willey Hopebreaker
+		{ 5, 448,137, 352 }; -- Instructor Galford
+		{ 6, 449,99, 378 }; -- Balnazzar
 	};
 	StratholmeGauntlet = {
-		{ "1", "451", "400", "248" }; -- Baroness Anastari
-		{ "2", "452", "241", "247" }; -- Nerub'enkan
-		{ "3", "453", "340", "96" }; -- Maleki the Pallid
-		{ "4", "454", "316", "414" }; -- Magistrate Barthilas
-		{ "5", "455", "144", "96" }; -- Ramstein the Gorger
-		{ "6", "456", "91", "96" }; -- Lord Aurius Rivendare
+		{ 1, 451,400, 248 }; -- Baroness Anastari
+		{ 2, 452,241, 247 }; -- Nerub'enkan
+		{ 3, 453,340, 96 }; -- Maleki the Pallid
+		{ 4, 454,316, 414 }; -- Magistrate Barthilas
+		{ 5, 455,144, 96 }; -- Ramstein the Gorger
+		{ 6, 456,91, 96 }; -- Lord Aurius Rivendare
 	};
 	TheDeadmines = {
-		{ "1", "89", "113", "287" }; -- Glubtok
-		{ "2", "90", "178", "399" }; -- Helix Gearbreaker
-		{ "3", "91", "228", "300" }; -- Foe Reaper 5000 
-		{ "4", "92", "397", "178" }; -- Admiral Ripsnarl
-		{ "4'", "93", "400", "190" }; -- "Captain" Cookie
-		{ "4''", "95", "416", "178" }; -- Vanessa VanCleef
+		{ 1, 89,113, 287 }; -- Glubtok
+		{ 2, 90,178, 399 }; -- Helix Gearbreaker
+		{ 3, 91,228, 300 }; -- Foe Reaper 5000 
+		{ 4, 92,397, 178 }; -- Admiral Ripsnarl
+		{ "4'", 93,400, 190 }; -- "Captain" Cookie
+		{ "4''", 95,416, 178 }; -- Vanessa VanCleef
 	};
 	TheStockade = {
-		{ "1", "466", "257", "182" }; -- Randolph Moloch
-		{ "2", "464", "58", "198" }; -- Hogger
-		{ "3", "465", "443", "298" }; -- Lord Overheat
+		{ 1, 466,257, 182 }; -- Randolph Moloch
+		{ 2, 464,58, 198 }; -- Hogger
+		{ 3, 465,443, 298 }; -- Lord Overheat
 	};
 	TheSunkenTemple = {
-		{ "1", "457", "52", "220" }; -- Avatar of Hakkar
-		{ "2", "458", "448", "176" }; -- Jammal'an the Prophet
-		{ "4", "459", "254", "430" }; -- Wardens of the Dream
-		{ "5", "463", "408", "429" }; -- Shade of Eranikus
+		{ 1, 457,52, 220 }; -- Avatar of Hakkar
+		{ 2, 458,448, 176 }; -- Jammal'an the Prophet
+		{ 4, 459,254, 430 }; -- Wardens of the Dream
+		{ 5, 463,408, 429 }; -- Shade of Eranikus
 	};
 	Uldaman = {
-		{ "1", "468", "370", "485" }; -- The Lost Dwarves
-		{ "2", "467", "323", "368" }; -- Revelosh
-		{ "3", "469", "193", "376" }; -- Ironaya
-		{ "4", "748", "126", "309" }; -- Obsidian Sentinel
-		{ "5", "470", "277", "208" }; -- Ancient Stone Keeper
-		{ "6", "471", "104", "169" }; -- Galgann Firehammer
-		{ "7", "472", "68", "112" }; -- Grimlok
-		{ "8", "473", "343", "65" }; -- Archaedas
+		{ 1, 468,370, 485 }; -- The Lost Dwarves
+		{ 2, 467,323, 368 }; -- Revelosh
+		{ 3, 469,193, 376 }; -- Ironaya
+		{ 4, 748,126, 309 }; -- Obsidian Sentinel
+		{ 5, 470,277, 208 }; -- Ancient Stone Keeper
+		{ 6, 471,104, 169 }; -- Galgann Firehammer
+		{ 7, 472,68, 112 }; -- Grimlok
+		{ 8, 473,343, 65 }; -- Archaedas
 	};
 
 --************************************************
@@ -236,24 +236,24 @@ Syntax:
 --************************************************
 
 	AuchAuchenaiCrypts = {
-		{ "1", "523", "220", "362" }; -- Shirrak the Dead Watcher
-		{ "2", "524", "448", "227" }; -- Exarch Maladaar
+		{ 1, 523,220, 362 }; -- Shirrak the Dead Watcher
+		{ 2, 524,448, 227 }; -- Exarch Maladaar
 	};
 	AuchManaTombs = {
-		{ "1", "534", "253", "142" }; -- Pandemonius
-		{ "2", "535", "357", "394" }; -- Tavarok
-		{ "3", "537", "127", "266" }; -- Nexus-Prince Shaffar
+		{ 1, 534,253, 142 }; -- Pandemonius
+		{ 2, 535,357, 394 }; -- Tavarok
+		{ 3, 537,127, 266 }; -- Nexus-Prince Shaffar
 	};
 	AuchSethekkHalls = {
-		{ "1", "541", "230", "317" }; -- Darkweaver Syth
-		{ "2", "542", "91", "253" }; -- Anzu
-		{ "3", "543", "95", "88" }; -- Talon King Ikiss
+		{ 1, 541,230, 317 }; -- Darkweaver Syth
+		{ 2, 542,91, 253 }; -- Anzu
+		{ 3, 543,95, 88 }; -- Talon King Ikiss
 	};
 	AuchShadowLabyrinth = {
-		{ "1", "544", "60", "217" }; -- Ambassador Hellmaw
-		{ "2", "545", "95", "363" }; -- Blackheart the Inciter
-		{ "3", "546", "272", "293" }; -- Grandmaster Vorpil
-		{ "4", "547", "456", "216" }; -- Murmur
+		{ 1, 544,60, 217 }; -- Ambassador Hellmaw
+		{ 2, 545,95, 363 }; -- Blackheart the Inciter
+		{ 3, 546,272, 293 }; -- Grandmaster Vorpil
+		{ 4, 547,456, 216 }; -- Murmur
 	};
 	BlackTempleStart = {
 		-- N/A
@@ -268,20 +268,20 @@ Syntax:
 		-- N/A
 	};
 	CFRTheSlavePens = {
-		{ "1", "570", "243", "167" }; -- Mennu the Betrayer
-		{ "2", "571", "288", "220" }; -- Rokmar the Crackler
-		{ "3", "572", "401", "369" }; -- Quagmirran
+		{ 1, 570,243, 167 }; -- Mennu the Betrayer
+		{ 2, 571,288, 220 }; -- Rokmar the Crackler
+		{ 3, 572,401, 369 }; -- Quagmirran
 	};
 	CFRTheSteamvault = {
-		{ "1", "573", "270", "80" }; -- Hydromancer Thespia
-		{ "2", "574", "123", "401" }; -- Mekgineer Steamrigger
-		{ "3", "575", "470", "217" }; -- Warlord Kalithresh
+		{ 1, 573,270, 80 }; -- Hydromancer Thespia
+		{ 2, 574,123, 401 }; -- Mekgineer Steamrigger
+		{ 3, 575,470, 217 }; -- Warlord Kalithresh
 	};
 	CFRTheUnderbog = {
-		{ "1", "576", "360", "423" }; -- Hungarfen
-		{ "2", "577", "414", "169" }; -- Ghaz'an
-		{ "3", "578", "195", "148" }; -- Swamplord Musel'ek
-		{ "4", "579", "101", "230" }; -- The Black Stalker
+		{ 1, 576,360, 423 }; -- Hungarfen
+		{ 2, 577,414, 169 }; -- Ghaz'an
+		{ 3, 578,195, 148 }; -- Swamplord Musel'ek
+		{ 4, 579,101, 230 }; -- The Black Stalker
 	};
 	CoTBlackMorass = {
 		-- N/A
@@ -290,31 +290,31 @@ Syntax:
 		-- N/A
 	};
 	CoTOldHillsbrad = {
-		{ "1", "538", "402", "286" }; -- Lieutenant Drake
-		{ "2", "539", "355", "298" }; -- Captain Skarloc
-		{ "3", "540", "220", "123" }; -- Epoch Hunter
+		{ 1, 538,402, 286 }; -- Lieutenant Drake
+		{ 2, 539,355, 298 }; -- Captain Skarloc
+		{ 3, 540,220, 123 }; -- Epoch Hunter
 	};
 	GruulsLair = {
 		-- N/A
 	};
 	HCBloodFurnace = {
-		{ "1", "555", "138", "191" }; -- The Maker
-		{ "2", "556", "198", "80" }; -- Broggok
-		{ "3", "557", "323", "191" }; -- Keli'dan the Breaker
+		{ 1, 555,138, 191 }; -- The Maker
+		{ 2, 556,198, 80 }; -- Broggok
+		{ 3, 557,323, 191 }; -- Keli'dan the Breaker
 	};
 	HCHellfireRamparts = {
-		{ "1", "527", "392", "143" }; -- Watchkeeper Gargolmar
-		{ "2", "528", "106", "80" }; -- Omor the Unscarred
-		{ "3", "529", "77", "418" }; -- Vazruden the Herald
+		{ 1, 527,392, 143 }; -- Watchkeeper Gargolmar
+		{ 2, 528,106, 80 }; -- Omor the Unscarred
+		{ 3, 529,77, 418 }; -- Vazruden the Herald
 	};
 	HCMagtheridonsLair = {
 		-- N/A
 	};
 	HCTheShatteredHalls = {
-		{ "1", "566", "114", "328" }; -- Grand Warlock Nethekurse
-		{ "2", "728", "69", "47" }; -- Blood Guard Porung
-		{ "3", "568", "283", "166" }; -- Warbringer O'mrogg
-		{ "4", "569", "401", "287" }; -- Warchief Kargath Bladefist
+		{ 1, 566,114, 328 }; -- Grand Warlock Nethekurse
+		{ 2, 728,69, 47 }; -- Blood Guard Porung
+		{ 3, 568,283, 166 }; -- Warbringer O'mrogg
+		{ 4, 569,401, 287 }; -- Warchief Kargath Bladefist
 	};
 	KarazhanStart = {
 		-- N/A
@@ -323,30 +323,30 @@ Syntax:
 		-- N/A
 	};
 	MagistersTerrace = {
-		{ "1", "530", "210", "123" }; -- Selin Fireheart
-		{ "2", "531", "424", "153" }; -- Vexallus
-		{ "3", "532", "190", "257" }; -- Priestess Delrissa
-		{ "4", "533", "34", "236" }; -- Kael'thas Sunstrider
+		{ 1, 530,210, 123 }; -- Selin Fireheart
+		{ 2, 531,424, 153 }; -- Vexallus
+		{ 3, 532,190, 257 }; -- Priestess Delrissa
+		{ 4, 533,34, 236 }; -- Kael'thas Sunstrider
 	};
 	SunwellPlateau = {
 		-- N/A
 	};
 	TempestKeepArcatraz = {
-		{ "1", "548", "331", "234" }; -- Zereketh the Unbound
-		{ "2", "549", "142", "353" }; -- Dalliah the Doomsayer
-		{ "3", "550", "65", "353" }; -- Wrath-Scryer Soccothrates
-		{ "4", "551", "364", "81" }; -- Harbinger Skyriss
+		{ 1, 548,331, 234 }; -- Zereketh the Unbound
+		{ 2, 549,142, 353 }; -- Dalliah the Doomsayer
+		{ 3, 550,65, 353 }; -- Wrath-Scryer Soccothrates
+		{ 4, 551,364, 81 }; -- Harbinger Skyriss
 	};
 	TempestKeepBotanica = {
-		{ "1", "558", "221", "144" }; -- Commander Sarannis
-		{ "2", "559", "114", "144" }; -- High Botanist Freywinn
-		{ "3", "560", "31", "235" }; -- Thorngrin the Tender
-		{ "4", "561", "167", "352" }; -- Laj
-		{ "5", "562", "168", "197" }; -- Warp Splinter
+		{ 1, 558,221, 144 }; -- Commander Sarannis
+		{ 2, 559,114, 144 }; -- High Botanist Freywinn
+		{ 3, 560,31, 235 }; -- Thorngrin the Tender
+		{ 4, 561,167, 352 }; -- Laj
+		{ 5, 562,168, 197 }; -- Warp Splinter
 	};
 	TempestKeepMechanar = {
-		{ "3", "563", "295", "175" }; -- Mechano-Lord Capacitus
-		{ "4", "564", "234", "25" }; -- Nethermancer Sepethrea
+		{ 3, 563,295, 175 }; -- Mechano-Lord Capacitus
+		{ 4, 564,234, 25 }; -- Nethermancer Sepethrea
 		{ 5, 565, 82, 232 }; -- Pathaleon the Calculator	
 	};
 	TempestKeepTheEye = {
@@ -357,33 +357,33 @@ Syntax:
 -- Cataclysm Instances
 --************************************************
 	BaradinHold = {
-		{ "1", "139", "425", "320" }; -- Argaloth
-		{ "2", "140", "72", "319" }; -- Occu'thar
-		{ "3", "339", "249", "139" }; -- Alizabal, Mistress of Hate
+		{ 1, 139,425, 320 }; -- Argaloth
+		{ 2, 140,72, 319 }; -- Occu'thar
+		{ 3, 339,249, 139 }; -- Alizabal, Mistress of Hate
 	};
 	BlackrockCaverns = {
-		{ "1", "105", "166", "311" }; -- Rom'ogg Bonecrusher
-		{ "2", "106", "143", "102" }; -- Corla, Herald of Twilight
-		{ "3", "107", "281", "301" }; -- Karsh Steelbender
-		{ "4", "108", "363", "381" }; -- Beauty
-		{ "5", "109", "377", "236" }; -- Ascendant Lord Obsidius
+		{ 1, 105,166, 311 }; -- Rom'ogg Bonecrusher
+		{ 2, 106,143, 102 }; -- Corla, Herald of Twilight
+		{ 3, 107,281, 301 }; -- Karsh Steelbender
+		{ 4, 108,363, 381 }; -- Beauty
+		{ 5, 109,377, 236 }; -- Ascendant Lord Obsidius
 	};
 	BlackwingDescent = {
-		{ "1", "170", "132", "370" }; -- Magmaw
-		{ "2", "169", "311", "372" }; -- Omnotron Defense System
-		{ "3", "172", "77", "246" }; -- Chimaeron
-		{ "4", "173", "364", "247" }; -- Maloriak
-		{ "5", "171", "224", "109" }; -- Atramedes
-		{ "6", "174", "223", "246" }; -- Nefarian's End
+		{ 1, 170,132, 370 }; -- Magmaw
+		{ 2, 169,311, 372 }; -- Omnotron Defense System
+		{ 3, 172,77, 246 }; -- Chimaeron
+		{ 4, 173,364, 247 }; -- Maloriak
+		{ 5, 171,224, 109 }; -- Atramedes
+		{ 6, 174,223, 246 }; -- Nefarian's End
 	};
 	CoTDragonSoulA = {
-		{ "1", "311", "250", "301" }; -- Morchok
-		{ "5", "331", "248", "252" }; -- Ultraxion
+		{ 1, 311,250, 301 }; -- Morchok
+		{ 5, 331,248, 252 }; -- Ultraxion
 	};
 	CoTDragonSoulB = {
-		{ "2", "324", "135", "132" }; -- Warlord Zon'ozz
-		{ "3", "325", "302", "370" }; -- Yor'sahj the Unsleeping
-		{ "4", "317", "393", "130" }; -- Hagara the Stormbinder
+		{ 2, 324,135, 132 }; -- Warlord Zon'ozz
+		{ 3, 325,302, 370 }; -- Yor'sahj the Unsleeping
+		{ 4, 317,393, 130 }; -- Hagara the Stormbinder
 	};
 	CoTDragonSoulC = {
 		{ "6", "332", "101", "86"}; -- Warmaster Blackhorn
@@ -398,89 +398,89 @@ Syntax:
 		{ "5", "289", "475", "183"}; -- Murozond
 	};
 	CoTHourOfTwilight = {
-		{ "1", "322", "340", "101" }; -- Arcurion
-		{ "2", "342", "187", "231" }; -- Asira Dawnslayer
-		{ "3", "341", "270", "435" }; -- Archbishop Benedictus
+		{ 1, 322,340, 101 }; -- Arcurion
+		{ 2, 342,187, 231 }; -- Asira Dawnslayer
+		{ 3, 341,270, 435 }; -- Archbishop Benedictus
 	};
 	CoTWellOfEternity = {
-		{ "1", "290", "138", "311" }; -- Peroth'arn
-		{ "2", "291", "241", "278" }; -- Queen Azshara
-		{ "3", "292", "424", "314" }; -- Mannoroth and Varo'then
+		{ 1, 290,138, 311 }; -- Peroth'arn
+		{ 2, 291,241, 278 }; -- Queen Azshara
+		{ 3, 292,424, 314 }; -- Mannoroth and Varo'then
 	};
 	Firelands = {
-		{ "1", "192", "140", "320" }; -- Beth'tilac
-		{ "2", "193", "336", "438" }; -- Lord Rhyolith
-		{ "3", "194", "339", "330" }; -- Alysrazor
-		{ "4", "195", "263", "353" }; -- Shannox
-		{ "5", "196", "264", "308" }; -- Baleroc, the Gatekeeper
-		{ "6", "197", "265", "190" }; -- Majordomo Staghelm
-		{ "7", "198", "264", "56" }; -- Ragnaros
+		{ 1, 192,140, 320 }; -- Beth'tilac
+		{ 2, 193,336, 438 }; -- Lord Rhyolith
+		{ 3, 194,339, 330 }; -- Alysrazor
+		{ 4, 195,263, 353 }; -- Shannox
+		{ 5, 196,264, 308 }; -- Baleroc, the Gatekeeper
+		{ 6, 197,265, 190 }; -- Majordomo Staghelm
+		{ 7, 198,264, 56 }; -- Ragnaros
 	};
 	GrimBatol = {
-		{ "1", "131", "176", "320" }; -- General Umbriss
-		{ "2", "132", "238", "181" }; -- Forgemaster Throngus
-		{ "3", "133", "336", "135" }; -- Drahga Shadowburner
-		{ "4", "134", "429", "343" }; -- Erudax, the Duke of Below
+		{ 1, 131,176, 320 }; -- General Umbriss
+		{ 2, 132,238, 181 }; -- Forgemaster Throngus
+		{ 3, 133,336, 135 }; -- Drahga Shadowburner
+		{ 4, 134,429, 343 }; -- Erudax, the Duke of Below
 	};
 	HallsOfOrigination = {
-		{ "1", "124", "85", "290" }; -- Temple Guardian Anhuur
-		{ "2", "125", "348", "230" }; -- Earthrager Ptah
-		{ "3", "126", "72", "93" }; -- Anraphet
-		{ "4", "127", "170", "382" }; -- Isiset, Construct of Magic
-		{ "5", "128", "245", "454" }; -- Ammunae, Construct of Life
-		{ "6", "129", "319", "382" }; -- Setesh, Construct of Destruction
-		{ "7", "130", "242", "306" }; -- Rajh, Construct of Sun
+		{ 1, 124,85, 290 }; -- Temple Guardian Anhuur
+		{ 2, 125,348, 230 }; -- Earthrager Ptah
+		{ 3, 126,72, 93 }; -- Anraphet
+		{ 4, 127,170, 382 }; -- Isiset, Construct of Magic
+		{ 5, 128,245, 454 }; -- Ammunae, Construct of Life
+		{ 6, 129,319, 382 }; -- Setesh, Construct of Destruction
+		{ 7, 130,242, 306 }; -- Rajh, Construct of Sun
 	};
 	LostCityOfTolvir = {
-		{ "1", "117", "234", "219" }; -- General Husam
-		{ "2", "118", "379", "313" }; -- Lockmaw
-		{ "3", "119", "183", "286" }; -- High Prophet Barim
-		{ "4", "122", "248", "253" }; -- Siamat
+		{ 1, 117,234, 219 }; -- General Husam
+		{ 2, 118,379, 313 }; -- Lockmaw
+		{ 3, 119,183, 286 }; -- High Prophet Barim
+		{ 4, 122,248, 253 }; -- Siamat
 	};
 	TheBastionOfTwilight = {
-		{ "1", "156", "154", "103" }; -- Halfus Wyrmbreaker
-		{ "2", "157", "155", "280" }; -- Theralion and Valiona
-		{ "3", "158", "112", "395" }; -- Ascendant Council
-		{ "4", "167", "222", "458" }; -- Cho'gall
-		{ "5", "168", "393", "302" }; -- Sinestra
+		{ 1, 156,154, 103 }; -- Halfus Wyrmbreaker
+		{ 2, 157,155, 280 }; -- Theralion and Valiona
+		{ 3, 158,112, 395 }; -- Ascendant Council
+		{ 4, 167,222, 458 }; -- Cho'gall
+		{ 5, 168,393, 302 }; -- Sinestra
 	};
 	TheStonecore = {
-		{ "1", "110", "336", "289" }; -- Corborus
-		{ "2", "111", "128", "219" }; -- Slabhide
-		{ "3", "112", "221", "108" }; -- Ozruk
-		{ "4", "113", "282", "197" }; -- High Priestess Azil
+		{ 1, 110,336, 289 }; -- Corborus
+		{ 2, 111,128, 219 }; -- Slabhide
+		{ 3, 112,221, 108 }; -- Ozruk
+		{ 4, 113,282, 197 }; -- High Priestess Azil
 	};
 	TheVortexPinnacle = {
-		{ "1", "114", "341", "216" }; -- Grand Vizier Ertan
-		{ "2", "115", "312", "455" }; -- Altairus
-		{ "3", "116", "100", "171" }; -- Asaad, Caliph of Zephyrs
+		{ 1, 114,341, 216 }; -- Grand Vizier Ertan
+		{ 2, 115,312, 455 }; -- Altairus
+		{ 3, 116,100, 171 }; -- Asaad, Caliph of Zephyrs
 	};
 	ThroneOfTheFourWinds = {
-		{ "1", "154", "134", "250" }; -- The Conclave of Wind
-		{ "1", "154", "249", "137" }; -- The Conclave of Wind
-		{ "1", "154", "364", "251" }; -- The Conclave of Wind
-		{ "2", "155", "248", "250" }; -- Al'Akir
+		{ 1, 154,134, 250 }; -- The Conclave of Wind
+		{ 1, 154,249, 137 }; -- The Conclave of Wind
+		{ 1, 154,364, 251 }; -- The Conclave of Wind
+		{ 2, 155,248, 250 }; -- Al'Akir
 	};
 	ThroneOfTheTides = {
-		{ "1", "101", "249", "45" }; -- Lady Naz'jar
-		{ "2", "102", "248", "119" }; -- Commander Ulthok, the Festering Prince
-		{ "3", "103", "339", "253" }; -- Mindbender Ghur'sha
-		{ "4", "104", "158", "254" }; -- Ozumat
+		{ 1, 101,249, 45 }; -- Lady Naz'jar
+		{ 2, 102,248, 119 }; -- Commander Ulthok, the Festering Prince
+		{ 3, 103,339, 253 }; -- Mindbender Ghur'sha
+		{ 4, 104,158, 254 }; -- Ozumat
 	};
 	ZulAman = {
-		{ "1", "186", "117", "145" }; -- Akil'zon
-		{ "2", "187", "147", "364" }; -- Nalorakk
-		{ "3", "188", "240", "343" }; -- Jan'alai
-		{ "4", "189", "254", "143" }; -- Halazzi
-		{ "5", "190", "328", "268" }; -- Hex Lord Malacrass
-		{ "6", "191", "452", "268" }; -- Daakara
+		{ 1, 186,117, 145 }; -- Akil'zon
+		{ 2, 187,147, 364 }; -- Nalorakk
+		{ 3, 188,240, 343 }; -- Jan'alai
+		{ 4, 189,254, 143 }; -- Halazzi
+		{ 5, 190,328, 268 }; -- Hex Lord Malacrass
+		{ 6, 191,452, 268 }; -- Daakara
 	};	
 	ZulGurub = {
-		{ "5", "175", "323", "293" }; -- High Priest Venoxis
-		{ "9", "176", "414", "445" }; -- Bloodlord Mandokir
-		{ "15", "181", "288", "72" }; -- High Priestess Kilnara
-		{ "16", "184", "141", "103" }; -- Zanzil
-		{ "17", "185", "306", "194" }; -- Jin'do the Godbreaker
+		{ 5, 175,323, 293 }; -- High Priest Venoxis
+		{ 9, 176,414, 445 }; -- Bloodlord Mandokir
+		{ 15, 181,288, 72 }; -- High Priestess Kilnara
+		{ 16, 184,141, 103 }; -- Zanzil
+		{ 17, 185,306, 194 }; -- Jin'do the Godbreaker
 	};
 
 --************************************************
@@ -489,81 +489,81 @@ Syntax:
 
 
 	GateoftheSettingSun = {
-		{ "1", "655", "235", "400" }; -- Saboteur Kip'tilak
-		{ "2", "675", "235", "169" }; -- Striker Ga'dok
-		{ "3", "676", "235", "138" }; -- Commander Ri'mok
-		{ "4", "649", "229", "284" }; -- Raigonn
+		{ 1, 655,235, 400 }; -- Saboteur Kip'tilak
+		{ 2, 675,235, 169 }; -- Striker Ga'dok
+		{ 3, 676,235, 138 }; -- Commander Ri'mok
+		{ 4, 649,229, 284 }; -- Raigonn
 	};
 	HeartofFear = {
-		{ "1", "745", "287", "194" }; -- Imperial Vizier Zor'lok
-		{ "2", "744", "273", "56" }; -- Blade Lord Ta'yak
-		{ "3", "713", "430", "104" }; -- Garalon
+		{ 1, 745,287, 194 }; -- Imperial Vizier Zor'lok
+		{ 2, 744,273, 56 }; -- Blade Lord Ta'yak
+		{ 3, 713,430, 104 }; -- Garalon
 --		{ INDENT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
-		{ "4", "737", "287", "357" }; -- Amber-Shaper Un'sok
-		{ "5", "743", "67", "358" }; -- Grand Empress Shek'zeer
+		{ 4, 737,287, 357 }; -- Amber-Shaper Un'sok
+		{ 5, 743,67, 358 }; -- Grand Empress Shek'zeer
 	};
 	MogushanPalace = {
-		{ "1", "708", "203", "454" }; -- Trial of the King
-		{ "2", "690", "83", "247" }; -- Gekkan
-		{ "3", "698", "379", "309" }; -- Xin the Weaponmaster
+		{ 1, 708,203, 454 }; -- Trial of the King
+		{ 2, 690,83, 247 }; -- Gekkan
+		{ 3, 698,379, 309 }; -- Xin the Weaponmaster
 	};
 	MogushanVaults = {
-		{ "1", "679", "364", "315" }; -- The Stone Guard
-		{ "2", "689", "316", "240" }; -- Feng the Accursed
-		{ "3", "682", "318", "116" }; -- Gara'jal the Spiritbinder
-		{ "4", "687", "181", "142" }; -- The Spirit Kings
-		{ "5", "726", "46", "303" }; -- Elegon
-		{ "6", "677", "236", "382" }; -- Will of the Emperor
+		{ 1, 679,364, 315 }; -- The Stone Guard
+		{ 2, 689,316, 240 }; -- Feng the Accursed
+		{ 3, 682,318, 116 }; -- Gara'jal the Spiritbinder
+		{ 4, 687,181, 142 }; -- The Spirit Kings
+		{ 5, 726,46, 303 }; -- Elegon
+		{ 6, 677,236, 382 }; -- Will of the Emperor
 	};
 	ShadoPanMonasteryA = {
-		{ "1", "673", "329", "310" }; -- Gu Cloudstrike
-		{ "4", "686", "366", "236" }; -- Taran Zhu
+		{ 1, 673,329, 310 }; -- Gu Cloudstrike
+		{ 4, 686,366, 236 }; -- Taran Zhu
 	};
 	ShadoPanMonasteryB = {
-		{ "2", "657", "55", "307" }; -- Master Snowdrift
-		{ "3", "685", "373", "373" }; -- Sha of Violence
+		{ 2, 657,55, 307 }; -- Master Snowdrift
+		{ 3, 685,373, 373 }; -- Sha of Violence
 	};
 	SiegeofNiuzaoTempleA = {
-		{ "1", "693", "143", "158" }; -- Vizier Jin'bak
+		{ 1, 693,143, 158 }; -- Vizier Jin'bak
 	};
 	SiegeofNiuzaoTempleB = {
-		{ "2", "738", "205", "325" }; -- Commander Vo'jak
-		{ "3", "692", "304", "236" }; -- General Pa'valak
-		{ "4", "727", "301", "141" }; -- Wing Leader Ner'onok
+		{ 2, 738,205, 325 }; -- Commander Vo'jak
+		{ 3, 692,304, 236 }; -- General Pa'valak
+		{ 4, 727,301, 141 }; -- Wing Leader Ner'onok
 	};
 	Scholomance = {
-		{ "1", "659", "0", "0" }; -- Instructor Chillheart
-		{ "2", "663", "0", "0" }; -- Jandice Barov
-		{ "3", "665", "0", "0" }; -- Rattlegore
-		{ "4", "666", "0", "0" }; -- Lilian Voss
-		{ "6", "684", "0", "0" }; -- Darkmaster Gandling
+		{ 1, 659,0, 0 }; -- Instructor Chillheart
+		{ 2, 663,0, 0 }; -- Jandice Barov
+		{ 3, 665,0, 0 }; -- Rattlegore
+		{ 4, 666,0, 0 }; -- Lilian Voss
+		{ 6, 684,0, 0 }; -- Darkmaster Gandling
 	};
 	ScarletHalls = {
-		{ "2", "660", "260", "308" }; -- Houndmaster Braun
-		{ "3", "654", "326", "113" }; -- Armsmaster Harlan
-		{ "4", "656", "223", "21" }; -- Flameweaver Koegler
+		{ 2, 660,260, 308 }; -- Houndmaster Braun
+		{ 3, 654,326, 113 }; -- Armsmaster Harlan
+		{ 4, 656,223, 21 }; -- Flameweaver Koegler
 	};
 	ScarletMonastery = {
-		{ "1", "688", "131", "61" }; -- Thalnos the Soulrender
-		{ "2", "671", "231", "332" }; -- Brother Korloff
-		{ "3", "674", "226", "439" }; -- High Inquisitor Whitemane
+		{ 1, 688,131, 61 }; -- Thalnos the Soulrender
+		{ 2, 671,231, 332 }; -- Brother Korloff
+		{ 3, 674,226, 439 }; -- High Inquisitor Whitemane
 	};
 	StormstoutBrewery = {
-		{ "1", "668", "121", "340" }; -- Ook-Ook
-		{ "2", "669", "334", "280" }; -- Hoptallus
-		{ "3", "670", "430", "400" }; -- Yan-Zhu the Uncasked
+		{ 1, 668,121, 340 }; -- Ook-Ook
+		{ 2, 669,334, 280 }; -- Hoptallus
+		{ 3, 670,430, 400 }; -- Yan-Zhu the Uncasked
 	};
 	TempleoftheJadeSerpent = {
-		{ "1", "672", "218", "68" }; -- Wise Mari
-		{ "2", "664", "65", "380" }; -- Lorewalker Stonestep
-		{ "3", "658", "243", "259" }; -- Liu Flameheart
-		{ "4", "335", "355", "296" }; -- Sha of Doubt
+		{ 1, 672,218, 68 }; -- Wise Mari
+		{ 2, 664,65, 380 }; -- Lorewalker Stonestep
+		{ 3, 658,243, 259 }; -- Liu Flameheart
+		{ 4, 335,355, 296 }; -- Sha of Doubt
 	};
 	TerraceofEndlessSpring = {
-		{ "1", "683", "398", "265" }; -- Protectors of the Endless
-		{ "2", "742", "360", "265" }; -- Tsulong
-		{ "3", "729", "296", "265" }; -- Lei Shi
-		{ "4", "709", "204", "265" }; -- Sha of Fear
+		{ 1, 683,398, 265 }; -- Protectors of the Endless
+		{ 2, 742,360, 265 }; -- Tsulong
+		{ 3, 729,296, 265 }; -- Lei Shi
+		{ 4, 709,204, 265 }; -- Sha of Fear
 	};
 
 

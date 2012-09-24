@@ -2807,15 +2807,22 @@ Syntax:
 		Acronym = AL["Scholo"];
 		JournalInstanceID = "246";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because this has been updated in MoP
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };
 		{ WHIT..INDENT..AL["Instructor Chillheart's Phylactery"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov", 663) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore", 665) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss", 666) };
-		{ GREN..INDENT..AL["Coffer of Forgotten Souls"] };
 		{ WHIT.." 5) "..AL["Professor Slate"] };
 		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
+		{ GREN..INDENT..AL["The Dark Grimoire"] };
 		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
+		{ GREN.." 1') "..AL["Talking Skull"] };
+		{ GREN.." 2') "..AL["In the Shadow of the Light"] };
+		{ GREN.." 3') "..AL["Kel'Thuzad's Deep Knowledge"] };
+		{ GREN.." 4') "..AL["Kel'Thuzad's Deep Knowledge"] };
+		{ GREN.." 5') "..AL["Coffer of Forgotten Souls"] };
 	};
 	ScarletHalls = {
 		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Halls"] };

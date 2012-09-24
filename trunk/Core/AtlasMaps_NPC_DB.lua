@@ -129,12 +129,78 @@ Syntax:
 -- Eastern Kingdoms Instances (Classic)
 --************************************************
 
+	BlackrockDepths = {
+		{ "1", "369", "360", "407" }; -- High Interrogator Gerstahn
+		{ "2", "370", "411", "263" }; -- Lord Roccor
+		{ "3", "371", "381", "279" }; -- Houndmaster Grebmar
+		{ "4", "377", "216", "234" }; -- Bael'Gar
+		{ "5", "374", "419", "142" }; -- Lord Incendius
+		{ "6", "376", "462", "97" }; -- Fineous Darkvire
+		{ "7", "375", "202", "327" }; -- Warder Stilgiss
+		{ "8", "373", "152", "464" }; -- Pyromancer Loregrain
+		{ "9", "372", "123", "433" }; -- Ring of Law
+		{ "10", "378", "20", "399" }; -- General Angerforge
+		{ "11", "379", "21", "309" }; -- Golem Lord Argelmach
+		{ "12", "380", "105", "283" }; -- Hurley Blackbreath
+		{ "13", "382", "111", "301" }; -- Ribbly Screwspigot
+		{ "14", "381", "131", "300" }; -- Phalanx
+		{ "15", "384", "151", "230" }; -- Ambassador Flamelash
+		{ "16", "385", "160", "107" }; -- The Seven
+		{ "17", "386", "340", "50" }; -- Magmus
+		{ "18", "387", "429", "49" }; -- Emperor Dagran Thaurissan
+	};
+	BlackrockSpireLower = {
+		{ "1", "388", "111", "143" }; -- Highlord Omokk
+		{ "2", "389", "297", "321" }; -- Shadow Hunter Vosh'gajin
+		{ "3", "390", "368", "354" }; -- War Master Voone
+		{ "4", "391", "444", "472" }; -- Mother Smolderweb
+		{ "5", "392", "251", "366" }; -- Urok Doomhowl
+		{ "6", "393", "196", "392" }; -- Quartermaster Zigris
+		{ "7", "394", "43", "387" }; -- Halycon
+		{ "8", "396", "202", "223" }; -- Overlord Wyrmthalak
+	};
+	BlackrockSpireUpper = {
+		{ "1", "397", "392", "97" }; -- Pyroguard Emberseer
+		{ "2", "398", "372", "200" }; -- Solakar Flamewreath
+		{ "4", "399", "270", "245" }; -- Warchief Rend Blackhand
+		{ "5", "400", "425", "359" }; -- The Beast
+		{ "6", "401", "118", "417" }; -- General Drakkisath
+	};
+	BlackwingLair = {
+		-- N/A
+	};
+	Gnomeregan = {
+		{ "1", "419", "196", "175" }; -- Grubbis
+		{ "2", "420", "454", "53" }; -- Viscous Fallout
+		{ "3", "421", "260", "109" }; -- Electrocutioner 6000
+		{ "4", "418", "110", "483" }; -- Crowd Pummeler 9-60
+		{ "5", "422", "291", "229" }; -- Mekgineer Thermaplugg
+	};
+	MoltenCore = {
+		-- N/A
+	};
 	ShadowfangKeep = {
 		{ "1", "96", "363", "408" }; -- Baron Ashbury
 		{ "2", "97", "54", "339" }; -- Baron Silverlaine
 		{ "3", "98", "171", "353" }; -- Commander Springvale
 		{ "4", "99", "290", "173" }; -- Lord Walden
 		{ "5", "100", "207", "51" }; -- Lord Godfrey
+	};
+	StratholmeCrusader = {
+		{ "1", "450", "387", "151" }; -- The Unforgiven
+		{ "2", "445", "180", "173" }; -- Timmy the Cruel
+		{ "3", "749", "151", "228" }; -- Commander Malor
+		{ "4", "446", "11", "268" }; -- Willey Hopebreaker
+		{ "5", "448", "137", "352" }; -- Instructor Galford
+		{ "6", "449", "99", "378" }; -- Balnazzar
+	};
+	StratholmeGauntlet = {
+		{ "1", "451", "400", "248" }; -- Baroness Anastari
+		{ "2", "452", "241", "247" }; -- Nerub'enkan
+		{ "3", "453", "340", "96" }; -- Maleki the Pallid
+		{ "4", "454", "316", "414" }; -- Magistrate Barthilas
+		{ "5", "455", "144", "96" }; -- Ramstein the Gorger
+		{ "6", "456", "91", "96" }; -- Lord Aurius Rivendare
 	};
 	TheDeadmines = {
 		{ "1", "89", "113", "287" }; -- Glubtok
@@ -144,7 +210,26 @@ Syntax:
 		{ "4'", "93", "400", "190" }; -- "Captain" Cookie
 		{ "4''", "95", "416", "178" }; -- Vanessa VanCleef
 	};
-
+	TheStockade = {
+		{ "1", "466", "257", "182" }; -- Randolph Moloch
+		{ "2", "464", "58", "198" }; -- Hogger
+		{ "3", "465", "443", "298" }; -- Lord Overheat
+	};
+	TheSunkenTemple = {
+		{ "1", "457", "52", "220" }; -- Avatar of Hakkar
+		{ "2", "458", "448", "176" }; -- Jammal'an the Prophet
+		{ "5", "463", "408", "429" }; -- Shade of Eranikus
+	};
+	Uldaman = {
+		{ "1", "468", "370", "485" }; -- The Lost Dwarves
+		{ "2", "467", "323", "368" }; -- Revelosh
+		{ "3", "469", "193", "376" }; -- Ironaya
+		{ "4", "748", "126", "309" }; -- Obsidian Sentinel
+		{ "5", "470", "277", "208" }; -- Ancient Stone Keeper
+		{ "6", "471", "104", "169" }; -- Galgann Firehammer
+		{ "7", "472", "68", "112" }; -- Grimlok
+		{ "8", "473", "343", "65" }; -- Archaedas
+	};
 --************************************************
 -- Cataclysm Instances
 --************************************************

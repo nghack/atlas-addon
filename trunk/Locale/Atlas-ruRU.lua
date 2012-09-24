@@ -506,8 +506,8 @@ if AL then
 	AL["Elder Splitrock"] = "Старейшина Камнепад ";
 
 	--Ragefire Chasm
-	AL["Commander Bagran"] = "Commander Bagran"; --need check
-	AL["Invoker Xorenth"] = "Invoker Xorenth"; --need check
+	AL["Commander Bagran"] = "Командир Багран";
+	AL["Invoker Xorenth"] = "Заклинатель Ксорент";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
@@ -619,12 +619,6 @@ if AL then
 
 	--Molten Core
 
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery"; --need check
-	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
-	AL["Professor Slate"] = "Professor Slate"; --need check
-	AL["Polyformic Acid Potion"] = "Наука о кислоте";
-
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Трио аптекарей"; --
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
@@ -639,7 +633,7 @@ if AL then
 
 	--SM: Halls
 	AL["Hunter Commander"] = "Hunter Commander"; --need check
-	AL["Reinforced Archery Target"] = "Reinforced Archery Target"; --need check
+	AL["Reinforced Archery Target"] = "Укрепленная мишень";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Командир Элигор Вестник Рассвета <Братство Света>";
@@ -1174,8 +1168,19 @@ if AL then
 	--Shado-Pan Monastery
 	
 	--Scarlet Halls
-	AL["Hooded Crusader"] = "Hooded Crusader"; --need check
-	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food"; --need check
+	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
+	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
+	
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
+	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
+	AL["Professor Slate"] = "Профессор Слейт";
+	AL["Polyformic Acid Potion"] = "Наука о кислоте";
+	
+	AL["Talking Skull"] = "Говорящий череп";
+	AL["In the Shadow of the Light"] = "В тени света";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
+	AL["The Dark Grimoire"] = "Гримуар Тьмы";
 
 	--Siege of Niuzao Temple
 

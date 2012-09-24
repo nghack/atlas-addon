@@ -431,7 +431,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Lady Sarevess", 436) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Gelihast", 4226) };
 		{ GREN..INDENT..AL["Shrine of Gelihast"] };
-		{ WHIT.." 4) "..Atlas_GetBossName("Old Serra'kis, 447") };
+		{ WHIT.." 4) "..Atlas_GetBossName("Old Serra'kis", 447) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Twilight Lord Kelris", 437) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Aku'mai", 444) };
 		{ ORNG.." 1) "..Atlas_GetBossName("Lorgus Jett").." ("..AL["Varies"]..")" };
@@ -2757,7 +2757,7 @@ Syntax:
 	};
 	ShadoPanMonasteryA = {
 		ZoneName = { BZ["Shado-Pan Monastery"].." [A]" };
-		Location = { AL["Kun-Lai Summit"] };
+		Location = { BZ["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
@@ -2768,7 +2768,7 @@ Syntax:
 	};
 	ShadoPanMonasteryB = {
 		ZoneName = { BZ["Shado-Pan Monastery"].." [B]" };
-		Location = { AL["Kun-Lai Summit"] };
+		Location = { BZ["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];

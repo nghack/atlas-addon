@@ -616,12 +616,6 @@ if AL then
 
 	--Molten Core
 
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
-	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
-	AL["Professor Slate"] = "Professor Slate";
-	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
-
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothecary Hummel <Crown Chemical Co.>";
@@ -1173,6 +1167,17 @@ if AL then
 	--Scarlet Halls
 	AL["Hooded Crusader"] = "Hooded Crusader";
 	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
+	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["Professor Slate"] = "Professor Slate";
+	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+
+	AL["Talking Skull"] = "Talking Skull";
+	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+	AL["Kel'Thuzad's Deep Knowledge"]
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Siege of Niuzao Temple
 

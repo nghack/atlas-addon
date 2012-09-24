@@ -67,7 +67,7 @@ local myData = {
 	};
 	Pandaria = {
 		ZoneName = { AL["Pandaria World Bosses"] };
-		Location = { BZ["Pandaria"] };
+		Location = { BZ["Kun-Lai Summit"]..", "..BZ["Pandaria"] };
 		LevelRange = "90+";
 		MinLevel = "--";
 		PlayerLimit = "40";

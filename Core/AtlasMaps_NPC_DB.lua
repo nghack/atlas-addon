@@ -47,7 +47,7 @@ Syntax:
 		{ 4, 447, 416, 359 }; -- Old Serra'kis
 		{ 5, 437, 244, 447 }; -- Twilight Lord Kelris
 		{ 6, 444, 459, 465 }; -- Aku'mai
-	};                
+	};
 	DireMaulEast = {
 		{ 1, 404, 212, 109 }; -- Lethtendris
 		{ 2, 403, 352, 401 }; -- Hydrospawn

@@ -1173,11 +1173,12 @@ if AL then
 	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 	AL["Professor Slate"] = "Professor Slate";
 	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	AL["Talking Skull"] = "Talking Skull";
 	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
-	AL["The Dark Grimoire"] = "The Dark Grimoire";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
 
 	--Siege of Niuzao Temple
 

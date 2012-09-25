@@ -2821,7 +2821,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Talking Skull"] };
 		{ GREN.." 2') "..AL["In the Shadow of the Light"] };
 		{ GREN.." 3') "..AL["Kel'Thuzad's Deep Knowledge"] };
-		{ GREN.." 4') "..AL["Kel'Thuzad's Deep Knowledge"] };
+		{ GREN.." 4') "..AL["Forbidden Rites and other Rituals Necromantic"] };
 		{ GREN.." 5') "..AL["Coffer of Forgotten Souls"] };
 	};
 	ScarletHalls = {

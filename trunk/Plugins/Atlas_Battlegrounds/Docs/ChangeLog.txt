@@ -7,6 +7,12 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.22.1 (Oct. XX, 2012)
+-----------------------
+- Battleground information update
+    - Temple of Kotmogu
+    - Silvershard Mines
+
 v1.22.0 (Sep. 25, 2012)
 -----------------------
 - Update TOC to support WoW 5.0

@@ -368,17 +368,23 @@ local myData = {
 	};
 	TempleofKotmogu = {
 		ZoneName = { BZ["Temple of Kotmogu"] };
-		--Location = { };
-		--LevelRange = "85+";
-		--MinLevel = "85";
-		--{ };
+		Location = { BZ["Vale of Eternal Blossoms"]..", "..BZ["Pandaria"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "10";
+		{ BLUE.." A) "..AL["Start"].." - "..BF["Alliance"] };
+		{ BLUE.." B) "..AL["Start"].." - "..BF["Horde"] };
+		{ ORNG.." 1) "..AL["Scoring Point"] };
 	};
 	SilvershardMines = {
 		ZoneName = { BZ["Silvershard Mines"] };
-		--Location = { };
-		--LevelRange = "85+";
-		--MinLevel = "85";
-		--{ };
+		Location = { BZ["Stranglethorn Vale"]..", "..BZ["Eastern Kingdoms"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "10";
+		{ BLUE.." A) "..AL["Start"].." - "..BF["Alliance"] };
+		{ BLUE.." B) "..AL["Start"].." - "..BF["Horde"] };
+		{ GREN.."1-4) "..AL["Capture Point"] };
 	};
 };
 

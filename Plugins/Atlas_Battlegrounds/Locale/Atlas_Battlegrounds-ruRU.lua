@@ -201,4 +201,10 @@ if AL then
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Клан Громового Молота";
 	AL["Dragonmaw Clan Compound"] = "Клан Драконьей Пасти";
+	
+	-- Temple of Kotmogu
+	AL["Scoring Point"] = "Точка набора очков";
+	
+	-- Silvershard Mines
+	AL["Capture Point"] = "Точка захвата"; -- the area where the carts spwan and you need to capture them
 end

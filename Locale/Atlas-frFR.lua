@@ -625,12 +625,6 @@ if AL then
 
 	--Molten Core
 
-	--Scholomance
-AL["Instructor Chillheart's Phylactery"] = "Phylactère Instructor Chillheart's Phylactery"; -- Translation needed
-	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
-AL["Professor Slate"] = "Professor Slate"; -- Translation needed
-AL["Polyformic Acid Potion"] = "Polyformic Acid Potion"; -- Translation needed
-
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trio d'apothicaires";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothicaire Hummel <Cie de Chimie La Royale>";
@@ -1182,6 +1176,18 @@ AL["Warmage Kaitlyn"] = "Warmage Kaitlyn"; -- Translation needed
 	--Scarlet Halls
 AL["Hooded Crusader"] = "Hooded Crusader"; -- Translation needed
 AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food"; -- Translation needed
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
+	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
+AL["Professor Slate"] = "Professor Slate"; -- Translation needed
+AL["Polyformic Acid Potion"] = "Polyformic Acid Potion"; -- Translation needed
+	AL["The Dark Grimoire"] = "Le grimoire noir";
+
+AL["Talking Skull"] = "Talking Skull"; -- Translation needed
+	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
 
 	--Siege of Niuzao Temple
 

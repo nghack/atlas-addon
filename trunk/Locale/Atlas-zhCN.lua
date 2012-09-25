@@ -615,12 +615,6 @@ if AL then
 
 	--Molten Core
 
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
-	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
-	AL["Professor Slate"] = "斯雷特教授";
-	AL["Polyformic Acid Potion"] = "蚁酸药水";
-
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "药剂师三人组";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师汉摩尔 <皇冠药剂公司>";
@@ -1171,7 +1165,19 @@ if AL then
 	
 	--Scarlet Halls
 	AL["Hooded Crusader"] = "蒙面的十字军战士";
-	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食"; --
+	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
+	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
+	AL["Professor Slate"] = "斯雷特教授";
+	AL["Polyformic Acid Potion"] = "蚁酸药水";
+	AL["The Dark Grimoire"] = "黑暗法典";
+
+	AL["Talking Skull"] = "缚魂魔袋";
+	AL["In the Shadow of the Light"] = "光明下的阴影";
+	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
 
 	--Siege of Niuzao Temple
 

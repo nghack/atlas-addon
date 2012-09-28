@@ -67,12 +67,12 @@ local myData = {
 	};
 	Pandaria = {
 		ZoneName = { AL["Pandaria World Bosses"] };
-		Location = { BZ["Kun-Lai Summit"]..", "..BZ["Pandaria"] };
+		Location = { BZ["Pandaria"] };
 		LevelRange = "90+";
 		MinLevel = "--";
 		PlayerLimit = "40";
 		{ WHIT.." 1) "..Atlas_GetBossName("Sha of Anger", 691) };
-		{ WHIT..INDENT..Atlas_GetBossName("Salyis' Warband", 725) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Salyis' Warband", 725) };
 		{ WHIT..INDENT..AL["Chief Salyis"] };
 		{ WHIT..INDENT..AL["Galleon"] };
 	};

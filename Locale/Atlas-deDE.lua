@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 23.11.2011
+-- Letztes Update: 28.09.2012
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -104,6 +104,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Linke Maustaste drücken, um Atlas zu öffnen.\nMittlere Maustaste drücken, um Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
 	AL["ATLAS_LDB_HINT"] = "Linke Maustaste drücken, um Atlas zu öffnen.\nRechte Maustaste drücken, um die Atlas Optionen anzuzeigen.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Linke Maustaste drücken, um Atlas zu öffnen.\nRechte Maustaste drücken, um die Atlas Optionen anzuzeigen.\nRechte Maustaste gedrückt halten, um diesen Schalter zu verschieben.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Sortierung der Karten nach:";
 	AL["ATLAS_DDL_CONTINENT"] = "Kontinent";
@@ -622,11 +623,24 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Reinforced Archery Target"] = "Verstärkte Zielscheibe";
+	AL["Hooded Crusader"] = "Vermummte Kreuzfahrerin";
+	AL["Bucket of Meaty Dog Food"] = "Eimer mit fleischigem Hundefutter";
+	AL["Hunter Commander"] = "Jägerkommandant";
+
+	--Scarlet Monastery
+
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Instrukteur Kaltherz' Phylakterium";
-	AL["Coffer of Forgotten Souls"] = "Truhe vergessener Seelen";
 	AL["Professor Slate"] = "Professor Schiefer";
 	AL["Polyformic Acid Potion"] = "Polyformgift";
+	AL["The Dark Grimoire"] = "Der dunkle Zauberfoliant";
+	AL["Talking Skull"] = "Sprechender Schädel";
+	AL["In the Shadow of the Light"] = "Im Schatten des Lichts";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzads tiefgründiges Wissen";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Verbotene Riten und andere nekromantische Rituale";
+	AL["Coffer of Forgotten Souls"] = "Truhe der vergessenen Seelen";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apotheker-Trio";
@@ -637,12 +651,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "Todespirscherkommandant Belmont";
 	AL["Haunted Stable Hand"] = "Geisterhafter Stallknecht";
 	AL["Investigator Fezzen Brasstacks"] = "Ermittler Fezzen Kupferstapel";
-
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "Jägerkommandant";
-	AL["Reinforced Archery Target"] = "Verstärkte Zielscheibe";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Kreuzzugskommandant Eligor Morgenbringer <Bruderschaft des Lichts>";

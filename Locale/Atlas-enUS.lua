@@ -616,6 +616,25 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+	AL["Hooded Crusader"] = "Hooded Crusader";
+	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+	AL["Hunter Commander"] = "Hunter Commander";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
+	AL["Professor Slate"] = "Professor Slate";
+	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
+	AL["Talking Skull"] = "Talking Skull";
+	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothecary Hummel <Crown Chemical Co.>";
@@ -625,12 +644,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
 	AL["Haunted Stable Hand"] = "Haunted Stable Hand";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
-
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "Hunter Commander";
-	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
@@ -1163,22 +1176,6 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-	
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "Hooded Crusader";
-	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
-	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
-	AL["Professor Slate"] = "Professor Slate";
-	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
-	AL["The Dark Grimoire"] = "The Dark Grimoire";
-
-	AL["Talking Skull"] = "Talking Skull";
-	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
 
 	--Siege of Niuzao Temple
 

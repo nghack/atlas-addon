@@ -2781,8 +2781,9 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Imperial Vizier Zor'lok", 745) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Blade Lord Ta'yak", 744) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Garalon", 713) };
-		{ INDENT..WHIT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
+		{ WHIT..INDENT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Amber-Shaper Un'sok", 737) };
+		{ WHIT..INDENT..Atlas_GetBossName("Amber Monstrosity") };
 		{ WHIT.." 5) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
 	};
 	MoguShanPalace = {
@@ -2796,6 +2797,9 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
+		{ WHIT..INDENT..Atlas_GetBossName("Haiyan the Unstoppable") };
+		{ WHIT..INDENT..Atlas_GetBossName("Kuai the Brute") };
+		{ WHIT..INDENT..Atlas_GetBossName("Ming the Cunning") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
 	};
@@ -2810,11 +2814,21 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard", 679) };
+		{ WHIT..INDENT..Atlas_GetBossName("Amethyst Guardian") };
+		{ WHIT..INDENT..Atlas_GetBossName("Cobalt Guardian") };
+		{ WHIT..INDENT..Atlas_GetBossName("Jade Guardian") };
+		{ WHIT..INDENT..Atlas_GetBossName("Jasper Guardian") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed", 689) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder", 682) };
 		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Kings", 687) };
+		{ WHIT..INDENT..Atlas_GetBossName("Meng the Demented") };
+		{ WHIT..INDENT..Atlas_GetBossName("Qiang the Merciless") };
+		{ WHIT..INDENT..Atlas_GetBossName("Subetai the Swift") };
+		{ WHIT..INDENT..Atlas_GetBossName("Zian of the Endless Shadow") };
 		{ WHIT.." 5) "..Atlas_GetBossName("Elegon", 726) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
+		{ WHIT..INDENT..Atlas_GetBossName("Jan-xi") };
+		{ WHIT..INDENT..Atlas_GetBossName("Qin-xi") };
 	};
 	ShadoPanMonasteryA = {
 		ZoneName = { BZ["Shado-Pan Monastery"].." [A]" };
@@ -2826,6 +2840,7 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
+		{ WHIT..INDENT..Atlas_GetBossName("Azure Serpent") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	ShadoPanMonasteryB = {
@@ -2902,6 +2917,9 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 683) };
+		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani") };
+		{ WHIT..INDENT..Atlas_GetBossName("Elder Regail") };
+		{ WHIT..INDENT..Atlas_GetBossName("Protector Kaolan") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Tsulong", 742) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };

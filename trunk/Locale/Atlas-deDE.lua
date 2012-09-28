@@ -632,7 +632,7 @@ if AL then
 	--Scarlet Monastery
 
 	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Instrukteur Kaltherz' Phylakterium";
+	AL["Instructor Chillheart's Phylactery"] = "Ausbilderin Kaltherz' Phylakterium";
 	AL["Professor Slate"] = "Professor Schiefer";
 	AL["Polyformic Acid Potion"] = "Polyformgift";
 	AL["The Dark Grimoire"] = "Der dunkle Zauberfoliant";

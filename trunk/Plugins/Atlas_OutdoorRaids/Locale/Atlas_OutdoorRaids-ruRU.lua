@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -40,9 +40,7 @@ local AL = AceLocale:NewLocale("Atlas_OutdoorRaids", "ruRU", false);
 
 if AL then
 	AL["Ancient Skull Pile"] = "Груда древних черепов";
-	AL["Chief Salyis"] = "Шеф Сальис";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
-	AL["Galleon"] = "Галлеон";
 	AL["Gezzarak the Huntress"] = "Геззарак Охотница";
 	AL["Graveyard"] = "Кладбище";
 	AL["Grella <Skyguard Quartermaster>"] = "Грелла <Интендант Стражи небес>";

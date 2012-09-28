@@ -71,6 +71,7 @@ local myData = {
 		LevelRange = "90+";
 		MinLevel = "--";
 		PlayerLimit = "40";
+		JournalInstanceID = "322";
 		{ WHIT.." 1) "..Atlas_GetBossName("Sha of Anger", 691) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Salyis' Warband", 725) };
 		{ WHIT..INDENT..Atlas_GetBossName("Chief Salyis") };

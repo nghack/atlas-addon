@@ -646,12 +646,12 @@ Syntax:
 		{ 4, 737, 287, 357 }; -- Amber-Shaper Un'sok
 		{ 5, 743, 67, 358 }; -- Grand Empress Shek'zeer
 	};
-	MogushanPalace = {
+	MoguShanPalace = {
 		{ 1, 708, 203, 454 }; -- Trial of the King
 		{ 2, 690, 83, 247 }; -- Gekkan
 		{ 3, 698, 379, 309 }; -- Xin the Weaponmaster
 	};
-	MogushanVaults = {
+	MoguShanVaults = {
 		{ 1, 679, 364, 315 }; -- The Stone Guard
 		{ 2, 689, 316, 240 }; -- Feng the Accursed
 		{ 3, 682, 318, 116 }; -- Gara'jal the Spiritbinder
@@ -697,7 +697,7 @@ Syntax:
 		{ 2, 669, 334, 280 }; -- Hoptallus
 		{ 3, 670, 430, 400 }; -- Yan-Zhu the Uncasked
 	};
-	TempleoftheJadeSerpent = {
+	TempleOfTheJadeSerpent = {
 		{ 1, 672, 218, 68 }; -- Wise Mari
 		{ 2, 664, 65, 380 }; -- Lorewalker Stonestep
 		{ 3, 658, 243, 259 }; -- Liu Flameheart

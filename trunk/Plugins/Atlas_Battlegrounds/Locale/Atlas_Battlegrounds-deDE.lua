@@ -192,4 +192,10 @@ if AL then
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Langhaus der Wildhämmer";
 	AL["Dragonmaw Clan Compound"] = "Truppenlager des Drachenmalklans";
+
+	-- Silvershard Mines
+	AL["Capture Point"] = "Zu erobernde Minenloren";
+
+	-- Temple of Kotmogu
+	AL["Scoring Point"] = "Mitte des Tempels von Katmogu";
 end

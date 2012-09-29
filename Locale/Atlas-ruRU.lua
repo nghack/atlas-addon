@@ -619,6 +619,25 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Reinforced Archery Target"] = "Укрепленная мишень";
+	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
+	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
+	AL["Hunter Commander"] = "Hunter Commander";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
+	AL["Professor Slate"] = "Профессор Слейт";
+	AL["Polyformic Acid Potion"] = "Наука о кислоте";
+	AL["The Dark Grimoire"] = "Гримуар Тьмы";
+	AL["Talking Skull"] = "Говорящий череп";
+	AL["In the Shadow of the Light"] = "В тени света";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
+	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
+
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Трио аптекарей"; --
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
@@ -628,12 +647,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "Командир стражей смерти Бельмонт";
 	AL["Haunted Stable Hand"] = "Дух помощника смотрителя стойл";
 	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
-
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "Hunter Commander"; --need check
-	AL["Reinforced Archery Target"] = "Укрепленная мишень";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Командир Элигор Вестник Рассвета <Братство Света>";
@@ -1166,22 +1179,6 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-	
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
-	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
-	
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
-	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
-	AL["Professor Slate"] = "Профессор Слейт";
-	AL["Polyformic Acid Potion"] = "Наука о кислоте";
-	AL["The Dark Grimoire"] = "Гримуар Тьмы";
-	
-	AL["Talking Skull"] = "Говорящий череп";
-	AL["In the Shadow of the Light"] = "В тени света";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
 
 	--Siege of Niuzao Temple
 

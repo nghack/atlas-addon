@@ -615,6 +615,25 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Reinforced Archery Target"] = "强固箭靶";
+	AL["Hooded Crusader"] = "蒙面的十字军战士";
+	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
+	AL["Hunter Commander"] = "指挥官林顿";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
+	AL["Professor Slate"] = "斯雷特教授";
+	AL["Polyformic Acid Potion"] = "蚁酸药水";
+	AL["The Dark Grimoire"] = "黑暗法典";
+	AL["Talking Skull"] = "缚魂魔袋";
+	AL["In the Shadow of the Light"] = "光明下的阴影";
+	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
+	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
+
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "药剂师三人组";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师汉摩尔 <皇冠药剂公司>";
@@ -624,12 +643,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "死亡猎手指挥官贝尔蒙特";
 	AL["Haunted Stable Hand"] = "鬼怪马夫";
 	AL["Investigator Fezzen Brasstacks"] = "调查员费岑·布莱斯塔克";
-
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "指挥官林顿";
-	AL["Reinforced Archery Target"] = "强固箭靶";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "十字军指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
@@ -1162,22 +1175,6 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-	
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "蒙面的十字军战士";
-	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
-	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
-	AL["Professor Slate"] = "斯雷特教授";
-	AL["Polyformic Acid Potion"] = "蚁酸药水";
-	AL["The Dark Grimoire"] = "黑暗法典";
-
-	AL["Talking Skull"] = "缚魂魔袋";
-	AL["In the Shadow of the Light"] = "光明下的阴影";
-	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
 
 	--Siege of Niuzao Temple
 

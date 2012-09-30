@@ -623,7 +623,7 @@ if AL then
 	AL["Reinforced Archery Target"] = "Укрепленная мишень";
 	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
 	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
-	AL["Hunter Commander"] = "Hunter Commander";
+	AL["Commander Lindon"] = "Командир Линдон";
 
 	--Scarlet Monastery
 
@@ -631,11 +631,11 @@ if AL then
 	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
 	AL["Professor Slate"] = "Профессор Слейт";
 	AL["Polyformic Acid Potion"] = "Наука о кислоте";
-	AL["The Dark Grimoire"] = "Гримуар Тьмы";
 	AL["Talking Skull"] = "Говорящий череп";
 	AL["In the Shadow of the Light"] = "В тени света";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
+	AL["The Dark Grimoire"] = "Гримуар Тьмы";
 	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
 
 	--Shadowfang Keep

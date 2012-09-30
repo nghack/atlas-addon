@@ -623,15 +623,15 @@ if AL then
 	--Scarlet Monastery
 
 	--Scholomance
---	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
---	AL["Professor Slate"] = "Professor Slate";
---	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
---	AL["The Dark Grimoire"] = "The Dark Grimoire";
---	AL["Talking Skull"] = "Talking Skull";
---	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
---	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
---	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
---	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["Instructor Chillheart's Phylactery"] = "講師冷心的骨匣";
+	AL["Professor Slate"] = "史雷特教授";
+	AL["Polyformic Acid Potion"] = "變體蟻酸藥水";
+	AL["Talking Skull"] = "說話的骨頭";
+	AL["In the Shadow of the Light"] = "在聖光的陰影之中";
+	AL["Kel'Thuzad's Deep Knowledge"] = "科爾蘇加德的深層知識";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌儀式與其他死靈儀式";
+	AL["The Dark Grimoire"] = "闇黑魔典";
+	AL["Coffer of Forgotten Souls"] = "遺忘靈魂的法櫃";
 
 	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";

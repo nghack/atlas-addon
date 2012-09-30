@@ -628,11 +628,11 @@ if AL then
 	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
 	AL["Professor Slate"] = "Professor Slate";
 	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
-	AL["The Dark Grimoire"] = "The Dark Grimoire";
 	AL["Talking Skull"] = "Talking Skull";
 	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 
 	--Shadowfang Keep

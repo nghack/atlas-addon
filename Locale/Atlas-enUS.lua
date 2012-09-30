@@ -620,7 +620,7 @@ if AL then
 	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 	AL["Hooded Crusader"] = "Hooded Crusader";
 	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
-	AL["Hunter Commander"] = "Hunter Commander";
+	AL["Commander Lindon"] = "Commander Lindon";
 
 	--Scarlet Monastery
 

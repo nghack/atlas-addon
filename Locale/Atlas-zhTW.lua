@@ -614,11 +614,24 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Reinforced Archery Target"] = "強化箭靶";
+	AL["Hooded Crusader"] = "戴頭罩的十字軍";
+	AL["Bucket of Meaty Dog Food"] = "一桶豐盛狗食";
+	AL["Commander Lindon"] = "指揮官林敦";
+
+	--Scarlet Monastery
+
 	--Scholomance
 --	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
---	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 --	AL["Professor Slate"] = "Professor Slate";
 --	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+--	AL["The Dark Grimoire"] = "The Dark Grimoire";
+--	AL["Talking Skull"] = "Talking Skull";
+--	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+--	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
+--	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+--	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 
 	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";
@@ -629,12 +642,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特";
 	AL["Haunted Stable Hand"] = "鬼怪獸欄僕人";
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
-
-	--SM: Cathedral
-
-	--SM: Halls
---	AL["Hunter Commander"] = "Hunter Commander";
---	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "指揮官艾利格·黎明使者 <聖光兄弟會>";
@@ -1167,10 +1174,6 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-
-	--Scarlet Halls
---	AL["Hooded Crusader"] = "Hooded Crusader";
---	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
 
 	--Siege of Niuzao Temple
 

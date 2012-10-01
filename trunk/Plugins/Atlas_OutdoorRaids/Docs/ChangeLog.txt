@@ -6,6 +6,8 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v1.22.1 (Oct. xx, 2012)
+- Update Pandaria outdoor map
 
 v1.22.0 (Sep. 25, 2012)
 -----------------------

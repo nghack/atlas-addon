@@ -7,6 +7,11 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.22.1 (Oct. XX, 2012)
+-----------------------
+- Map update
+    - Stratholme - Crusaders' Square
+
 v1.22.0 (Sep. 25, 2012)
 -----------------------
 - Update TOC to support WoW 5.0
@@ -18,7 +23,6 @@ v1.22.0 (Sep. 25, 2012)
     - Razorfen Kraul
     - Shadowfang Keep
     - The Deadmines
-
 
 v1.21.0 (Nov. 29, 2011)
 -----------------------

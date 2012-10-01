@@ -513,7 +513,7 @@ if AL then
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Kommandant Bagran";
 	AL["Invoker Xorenth"] = "Herbeirufer Xorenth";
-	--AL["Scout Cage"] = "Scout Cage";
+	AL["Scout Cage"] = "Späherkäfig";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";

@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 28.09.2012
+-- Letztes Update: 01.10.2012
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -508,10 +508,12 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Urahne Splitterfels";
+	AL["Celebras the Redeemed"] = "Celebras der Erlöste";
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Kommandant Bagran";
 	AL["Invoker Xorenth"] = "Herbeirufer Xorenth";
+	--AL["Scout Cage"] = "Scout Cage";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -662,7 +664,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Briefkasten in der Feststraße";
 	AL["Elder Farwhisper"] = "Urahne Fernwisper";
 	AL["Market Row Postbox"] = "Briefkasten in der Marktgasse";
-	AL["Crusaders' Square Postbox"] = "Briefkasten am Kreuzzüglerplatz";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Briefkasten am Ältestenplatz";

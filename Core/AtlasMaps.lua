@@ -1031,7 +1031,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Festival Lane Postbox"] };
 		{ GREN.." 3') "..AL["Elder Farwhisper"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.." 4') "..AL["Market Row Postbox"] };
-		{ GREN..INDENT..AL["Postmaster Malown"].." ("..AL["Varies"]..")" };
+		{ GREN..INDENT..Atlas_GetBossName("Postmaster Malown").." ("..AL["Varies"]..")" };
 	};
 	StratholmeGauntlet = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["The Gauntlet"] };

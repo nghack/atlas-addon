@@ -317,12 +317,12 @@ Syntax:
 		Acronym = AL["Mara"];
 		JournalInstanceID = "232";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ ORNG..INDENT..AL["Cursed Centaur"].." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..AL["Cursed Centaur"].." ("..AL["Rare"]..", "..AL["Wanders"]..")" };
 		{ WHIT..INDENT..AL["The Nameless Prophet"].." ("..AL["Lower"]..")" };
 		{ BLUE.." B) "..BZ["Maraudon"].." ("..AL["Purple"]..")" };
 		{ BLUE.." C) "..BZ["Maraudon"].." ("..AL["Orange"]..")" };
-		{ BLUE.." D) "..BZ["Maraudon"].." ("..AL["Portal"]..")" };
-		{ GREN.." 1') "..AL["Kherrah"] };
+		{ BLUE.." D) "..BZ["Maraudon"].." ("..AL["Portal"]..", "..AL["Lower"]..")" };
+		{ GREN.." 1') "..AL["Kherrah"].." ("..AL["Lower"]..")" };
 	};
 	ScarletMonasteryEnt = {
 		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")" };
@@ -538,6 +538,7 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Lord Vyletongue", 427) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tinkerer Gizlock", 425) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Celebras the Cursed", 428) };
+		{ GREN..INDENT..AL["Celebras the Redeemed"] };
 		{ WHIT.." 6) "..Atlas_GetBossName("Landslide", 429) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Rotgrip", 430) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Princess Theradras", 431) };

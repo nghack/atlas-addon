@@ -501,6 +501,7 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Elder Splitrock";
+	AL["Celebras the Redeemed"] = "Celebras the Redeemed";
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Commander Bagran";

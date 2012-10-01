@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 20/09/2012
+-- Última Actualización (last update): 01/10/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -504,10 +504,12 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Ancestro Parterroca";
+	AL["Celebras the Redeemed"] = "Celebras el Redimido";
 
 	--Ragefire Chasm
-	AL["Commander Bagran"] = "Comandante Bagran"; --Check
+	AL["Commander Bagran"] = "Comandante Bagran";
 	AL["Invoker Xorenth"] = "Invocador Xorenth"; --Check
+	AL["Scout Cage"] = "Scout Cage"; --Check
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -619,11 +621,25 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "Commander Lindon"; --FALTA
+	AL["Hooded Crusader"] = "Hooded Crusader"; --FALTA
+	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --Check
+	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
+	
+	--Scarlet Monastery
+	
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Filacteria del Instructor Corazón de hielo"; --Check
-	AL["Coffer of Forgotten Souls"] = "Cofre de las almas olvidadas"; --Check
+
 	AL["Professor Slate"] = "Profesor Slate"; 
-	AL["Polyformic Acid Potion"] = "Poción ácida multiforma"; --Check
+	AL["Polyformic Acid Potion"] = "La ciencia del ácido polifórmico";
+	AL["Talking Skull"] = "Talking Skull"; -- FALTA
+	AL["In the Shadow of the Light"] = "A la sombra de la Luz";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Saber profundo de Kel'Thuzad";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Ritos prohibidos y otros rituales nigrománticos";
+	AL["Coffer of Forgotten Souls"] = "Arca de las almas olvidadas";
+	AL["The Dark Grimoire"] = "El grimorio oscuro";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trío de boticarios ";
@@ -635,11 +651,11 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Haunted Stable Hand"] = "Mozo de cuadra encantado";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
 
-	--SM: Cathedral
 
-	--SM: Halls
-	AL["Hunter Commander"] = "Comandante cazador"; --Check
-	AL["Reinforced Archery Target"] = "Diana de arquero reforzada"; --Check
+
+
+
+
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Comandante de Cruzada Eligor Albar <Hermandad de la Luz>";
@@ -651,7 +667,7 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Festival Lane Postbox"] = "Buzón de la calle del Festival";
 	AL["Elder Farwhisper"] = "Ancestro Levesusurro";
 	AL["Market Row Postbox"] = "Buzón de la Fila del Mercado";
-	AL["Crusaders' Square Postbox"] = "Buzón de la Plaza del Cruzado";
+
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Buzón de la plaza de los Ancianos";
@@ -1158,6 +1174,8 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
 	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
+
+	
 --*********************
 -- Mists of Pandaria Instances
 --*********************
@@ -1171,10 +1189,10 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-	
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "Cruzada encapuchada";
-	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --CHECK
+
+
+
+
 
 	--Siege of Niuzao Temple
 

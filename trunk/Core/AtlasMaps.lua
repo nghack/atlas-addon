@@ -559,6 +559,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Lava Guard Gordoth", 697) };
 		{ GREN.." 1') "..AL["Commander Bagran"].." ("..BF["Horde"]..")" };
 		{ GREN..INDENT..AL["Invoker Xorenth"].." ("..BF["Horde"]..")" };
+		{ GREN.." 2') "..AL["Scout Cage"] };
 	};
 	RazorfenDowns = {
 		ZoneName = { BZ["Razorfen Downs"] };

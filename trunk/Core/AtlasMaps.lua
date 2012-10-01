@@ -429,7 +429,7 @@ Syntax:
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ghamoo-ra", 368) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lady Sarevess", 436) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Gelihast", 4226) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Gelihast", 426) };
 		{ GREN..INDENT..AL["Shrine of Gelihast"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Old Serra'kis", 447) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Twilight Lord Kelris", 437) };

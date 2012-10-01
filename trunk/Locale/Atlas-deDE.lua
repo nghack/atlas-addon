@@ -624,10 +624,10 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Reinforced Archery Target"] = "Verstärkte Zielscheibe";
+	AL["Commander Lindon"] = "Kommandant Lindon";
 	AL["Hooded Crusader"] = "Vermummte Kreuzfahrerin";
 	AL["Bucket of Meaty Dog Food"] = "Eimer mit fleischigem Hundefutter";
-	AL["Hunter Commander"] = "Jägerkommandant";
+	AL["Reinforced Archery Target"] = "Verstärkte Zielscheibe";
 
 	--Scarlet Monastery
 
@@ -635,12 +635,12 @@ if AL then
 	AL["Instructor Chillheart's Phylactery"] = "Ausbilderin Kaltherz' Phylakterium";
 	AL["Professor Slate"] = "Professor Schiefer";
 	AL["Polyformic Acid Potion"] = "Polyformgift";
-	AL["The Dark Grimoire"] = "Der dunkle Zauberfoliant";
 	AL["Talking Skull"] = "Sprechender Schädel";
 	AL["In the Shadow of the Light"] = "Im Schatten des Lichts";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzads tiefgründiges Wissen";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Verbotene Riten und andere nekromantische Rituale";
 	AL["Coffer of Forgotten Souls"] = "Truhe der vergessenen Seelen";
+	AL["The Dark Grimoire"] = "Der dunkle Zauberfoliant";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apotheker-Trio";

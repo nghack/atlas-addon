@@ -1029,7 +1029,7 @@ Syntax:
 		{ GREN.." 2') "..AL["Festival Lane Postbox"] };
 		{ GREN.." 3') "..AL["Elder Farwhisper"].." ("..AL["Lunar Festival"]..")" };
 		{ GREN.." 4') "..AL["Market Row Postbox"] };
-		{ GREN.." 5') "..AL["Crusaders' Square Postbox"] };
+		{ GREN..INDENT..AL["Postmaster Malown"].." ("..AL["Varies"]..")" };
 	};
 	StratholmeGauntlet = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["The Gauntlet"] };
@@ -1048,8 +1048,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Lord Aurius Rivendare", 456) };
 		{ ORNG.." 1) "..Atlas_GetBossName("Black Guard Swordsmith").." ("..AL["Summon"]..")" };
 		{ GREN..INDENT..AL["Blacksmithing Plans"] };
-		{ GREN.." 1') "..AL["Elders' Square Postbox"] };
-		{ GREN..INDENT..AL["Archmage Angela Dosantos <Brotherhood of the Light>"] };
+		{ GREN.." 1') "..AL["Archmage Angela Dosantos <Brotherhood of the Light>"] };
 		{ GREN..INDENT..AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] };
 		{ GREN..INDENT..AL["Crusade Commander Korfax <Brotherhood of the Light>"] };
 		{ GREN..INDENT..AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] };

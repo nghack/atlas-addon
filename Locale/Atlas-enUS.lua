@@ -617,10 +617,10 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+	AL["Commander Lindon"] = "Commander Lindon";
 	AL["Hooded Crusader"] = "Hooded Crusader";
 	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
-	AL["Commander Lindon"] = "Commander Lindon";
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
 
 	--Scarlet Monastery
 
@@ -632,8 +632,8 @@ if AL then
 	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
-	AL["The Dark Grimoire"] = "The Dark Grimoire";
 	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";

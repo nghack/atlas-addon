@@ -657,8 +657,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Festival Lane Postbox";
 	AL["Elder Farwhisper"] = "Elder Farwhisper";
 	AL["Market Row Postbox"] = "Market Row Postbox";
-	AL["Crusaders' Square Postbox"] = "Crusaders' Square Postbox"; -- useless now
-	AL["Postmaster Malown"] = "Postmaster Malown";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Elders' Square Postbox";

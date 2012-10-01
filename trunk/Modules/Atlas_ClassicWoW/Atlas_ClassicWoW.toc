@@ -8,9 +8,9 @@
 ## Notes-deDE: Classic WoW Instanzkarten
 ## Notes-zhTW: 艾澤拉斯副本地圖模組
 ## Notes-zhCN: 经典旧世地图
-## Version: 1.22.0
+## Version: 1.22.1
 ## Author: arith, Dynaletik, dubcat
-## X-Date: September 25, 2012
+## X-Date: Oct. XX, 2012
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

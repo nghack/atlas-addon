@@ -1179,6 +1179,7 @@ if AL then
 	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu";
 
 	--Stormstout Brewery
 

@@ -2868,6 +2868,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
+		{ GREN.." 1') "..AL["Shado-Master Chum Kiu"] };
 	};
 	SiegeofNiuzaoTempleB = {
 		ZoneName = { BZ["Siege of Niuzao Temple"].." [B]" };

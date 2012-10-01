@@ -224,6 +224,18 @@ Atlas_SubZoneData = {
 			BZ["Netherspace"],
 		},
 	},
+	-- Siege of Niuzao Temple
+	[BZ["Siege of Niuzao Temple"]] = {
+		--Siege of Niuzao Temple A
+		["SiegeofNiuzaoTempleA"] = {
+			BZ["Hollowed Out Tree"],
+		},
+		--Siege of Niuzao Temple B
+		["SiegeofNiuzaoTempleB"] = {
+			BZ["Rear Staging Area"],
+			BZ["Forward Assault Camp"],
+		},
+	},
 	-- Stratholme
 	[BZ["Stratholme"]] = {
 		--Stratholme - Crusader's Square

@@ -1,4 +1,5 @@
-﻿--[[
+﻿-- $Id$
+--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
@@ -22,8 +23,7 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 --]]
--- $Date$
--- $Revision$
+
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "zhTW", false);
 -- Localize file must set above to false, for example:
@@ -193,4 +193,10 @@ if AL then
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "蠻錘長屋";
 	AL["Dragonmaw Clan Compound"] = "龍喉氏族營地";
+
+	-- Silvershard Mines
+	AL["Capture Point"] = "資源獲取點"; -- the area where the carts spwan and you need to capture them
+
+	-- Temple of Kotmogu
+	AL["Scoring Point"] = "得分點";
 end

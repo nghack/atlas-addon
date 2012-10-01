@@ -432,8 +432,8 @@ if AL then
 
 	--Maraudon (Entrance)
 	AL["The Nameless Prophet"] = "無名預言者";
---	AL["Cursed Centaur"] = "Cursed Centaur";
---	AL["Kherrah"] = "Kherrah";
+	AL["Cursed Centaur"] = "被詛咒的半人馬";
+	AL["Kherrah"] = "凱拉";
 
 	--Scarlet Monastery (Entrance)
 
@@ -499,10 +499,12 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "劈石長者";
+	AL["Celebras the Redeemed"] = "贖罪的塞雷布拉斯";
 
 	--Ragefire Chasm
---	AL["Commander Bagran"] = "Commander Bagran";
---	AL["Invoker Xorenth"] = "Invoker Xorenth";
+	AL["Commander Bagran"] = "指揮官巴格仁";
+	AL["Invoker Xorenth"] = "塑能師索倫斯";
+	AL["Scout Cage"] = "斥侯牢籠";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "柯莉史卓莎";
@@ -654,6 +656,7 @@ if AL then
 	AL["Elder Farwhisper"] = "遙語長者";
 	AL["Market Row Postbox"] = "市場郵箱";
 	AL["Crusaders' Square Postbox"] = "十字軍廣場郵箱";
+	AL["Postmaster Malown"] = "郵政局長瑪羅恩";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "長者廣場郵箱";
@@ -694,29 +697,29 @@ if AL then
 --*******************
 
 	--Auch: Auchenai Crypts
---	AL["Draenei Spirit"] = "Draenei Spirit";
+	AL["Draenei Spirit"] = "德萊尼靈魂";
 	AL["Avatar of the Martyred"] = "馬丁瑞德的化身";
 	AL["D'ore"] = "迪歐瑞";
---	AL["Tormented Soulpriest"] = "Tormented Soulpriest";
+	AL["Tormented Soulpriest"] = "受折磨的靈魂牧師";
 
 	--Auch: Mana-Tombs
 	AL["The Eye of Haramad"] = "哈拉瑪德之眼";
---	AL["Artificer Morphalius"] = "Artificer Morphalius";
---	AL["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
+	AL["Artificer Morphalius"] = "工匠莫法利厄司";
+	AL["Mamdy the \"Ologist\""] = "『學家』瑪姆迪";
 	AL["Shadow Lord Xiraxis"] = "暗影領主希瑞西斯";
 	AL["Ambassador Pax'ivi"] = "帕克西維大使";
 	AL["Cryo-Engineer Sha'heen"] = "工程師薩希恩";
 	AL["Ethereal Transporter Control Panel"] = "虛空傳送者控制面板";
 
 	--Auch: Sethekk Halls
---	AL["Isfar"] = "Isfar";
---	AL["Dealer Vijaad"] = "Dealer Vijaad";
+	AL["Isfar"] = "伊斯法";
+	AL["Dealer Vijaad"] = "商人維傑";
 	AL["Lakka"] = "拉卡";
 	AL["The Saga of Terokk"] = "泰洛克的傳說";
 
 	--Auch: Shadow Labyrinth
---	AL["Field Commander Mahfuun"] = "Field Commander Mahfuun";
---	AL["Spy Grik'tha"] = "Spy Grik'tha";
+	AL["Field Commander Mahfuun"] = "戰場元帥瑪赫范";
+	AL["Spy Grik'tha"] = "間諜葛瑞克莎";
 	AL["The Codex of Blood"] = "血之聖典";
 	AL["First Fragment Guardian"] = "第一碎片守衛者";
 	AL["Spy To'gun"] = "間諜·吐剛";
@@ -739,19 +742,19 @@ if AL then
 	AL["Seer Olum"] = "先知歐蘭";
 
 	--CFR: The Slave Pens
---	AL["Nahuud"] = "Nahuud";
---	AL["Watcher Jhang"] = "Watcher Jhang";
+	AL["Nahuud"] = "納霍德";
+	AL["Watcher Jhang"] = "看守者詹汗格";
 	AL["Weeder Greenthumb"] = "威德·綠指";
 	AL["Skar'this the Heretic"] = "異教徒司卡利斯";
-	AL["Naturalist Bite"] = "博物學家·拜特";
+	AL["Naturalist Bite"] = "自然學家拜特";
 
 	--CFR: The Steamvault
---	AL["Windcaller Claw"] = "Windcaller Claw";
+	AL["Windcaller Claw"] = "喚風者卡勞";
 	AL["Main Chambers Access Panel"] = "主房間通道面板";
 	AL["Second Fragment Guardian"] = "第二碎片守衛者";
 
 	--CFR: The Underbog
---	AL["T'shu"] = "T'shu";
+	AL["T'shu"] = "塔蘇";
 	AL["The Underspore"] = "地孢";
 	AL["Earthbinder Rayge"] = "縛地者瑞吉";
 
@@ -817,12 +820,12 @@ if AL then
 	--Gruul's Lair
 
 	--HFC: The Blood Furnace
---	AL["Gunny"] = "Gunny";
---	AL["Caza'rez"] = "Caza'rez";
+	AL["Gunny"] = "甘尼";
+	AL["Caza'rez"] = "卡沙瑞斯";
 
 	--HFC: Hellfire Ramparts
---	AL["Advance Scout Chadwick"] = "Advance Scout Chadwick";
---	AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton";
+	AL["Advance Scout Chadwick"] = "先遣斥候查德威克";
+	AL["Stone Guard Stok'ton"] = "石衛士史托克頓";
 	AL["Reinforced Fel Iron Chest"] = "強化惡魔鐵箱";
 
 	--HFC: Magtheridon's Lair

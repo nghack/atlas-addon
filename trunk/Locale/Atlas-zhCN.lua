@@ -616,10 +616,10 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Reinforced Archery Target"] = "强固箭靶";
+	AL["Commander Lindon"] = "指挥官林顿";
 	AL["Hooded Crusader"] = "蒙面的十字军战士";
 	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
-	AL["Hunter Commander"] = "指挥官林顿";
+	AL["Reinforced Archery Target"] = "强固箭靶";
 
 	--Scarlet Monastery
 
@@ -627,12 +627,12 @@ if AL then
 	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
 	AL["Professor Slate"] = "斯雷特教授";
 	AL["Polyformic Acid Potion"] = "蚁酸药水";
-	AL["The Dark Grimoire"] = "黑暗法典";
 	AL["Talking Skull"] = "缚魂魔袋";
 	AL["In the Shadow of the Light"] = "光明下的阴影";
 	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
 	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
+	AL["The Dark Grimoire"] = "黑暗法典";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "药剂师三人组";

@@ -615,10 +615,10 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Reinforced Archery Target"] = "強化箭靶";
+	AL["Commander Lindon"] = "指揮官林敦";
 	AL["Hooded Crusader"] = "戴頭罩的十字軍";
 	AL["Bucket of Meaty Dog Food"] = "一桶豐盛狗食";
-	AL["Commander Lindon"] = "指揮官林敦";
+	AL["Reinforced Archery Target"] = "強化箭靶";
 
 	--Scarlet Monastery
 
@@ -630,8 +630,8 @@ if AL then
 	AL["In the Shadow of the Light"] = "在聖光的陰影之中";
 	AL["Kel'Thuzad's Deep Knowledge"] = "科爾蘇加德的深層知識";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌儀式與其他死靈儀式";
-	AL["The Dark Grimoire"] = "闇黑魔典";
 	AL["Coffer of Forgotten Souls"] = "遺忘靈魂的法櫃";
+	AL["The Dark Grimoire"] = "闇黑魔典";
 
 	--Shadowfang Keep 影牙城堡
 	AL["Apothecary Trio"] = "藥劑師三人組";

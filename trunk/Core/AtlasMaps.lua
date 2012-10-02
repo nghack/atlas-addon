@@ -2766,7 +2766,7 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Saboteur Kip'tilak", 655) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Striker Ga'dok", 675) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Striker Ga'dok", 675).." ("..AL["Upper"]..")" };
 		{ WHIT.." 3) "..Atlas_GetBossName("Commander Ri'mok", 676) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Raigonn", 649) };
 	};
@@ -2804,6 +2804,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Ming the Cunning") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
+		{ GREN..INDENT..AL["Sinan the Dreamer"] };
 	};
 	MoguShanVaults = {
 		ZoneName = { BZ["Mogu'shan Vaults"] };

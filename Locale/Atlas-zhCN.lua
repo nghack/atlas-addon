@@ -500,10 +500,12 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "碎石长者";
+	AL["Celebras the Redeemed"] = "赎罪的塞雷布拉斯";
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "指挥官巴格兰";
 	AL["Invoker Xorenth"] = "祈求者克索伦斯";
+	AL["Scout Cage"] = "斥候牢笼";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "克莉丝塔萨";
@@ -1171,12 +1173,14 @@ if AL then
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "梦想家思南";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "影踪大师楚秋";
 
 	--Stormstout Brewery
 

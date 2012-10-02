@@ -2969,7 +2969,10 @@ Syntax:
 	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };
-		Location = { "" };
+		Location = { BZ["Unga Ingoo"]..", "..BZ["Krasarang Wilds"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_BrewmoonFestival = {

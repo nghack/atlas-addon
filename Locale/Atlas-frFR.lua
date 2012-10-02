@@ -510,10 +510,12 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Ancien Pierre-fendue";
+AL["Celebras the Redeemed"] = "Celebras the Redeemed"; -- translation needed
 
 	--Ragefire Chasm
 	AL["Bovaal Whitehorn"] = "Bovaal Corne-blanche";
 	AL["Stone Guard Kurjack"] = "Garde de pierre Kurjack";
+AL["Scout Cage"] = "Scout Cage"; -- translation needed
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -911,7 +913,7 @@ AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton"; -- Translation needed
 	AL["Seer Ixit"] = "Voyant Ixit";
 	AL["Ahn'kahet Brazier"] = "Brasero d'Ahn'kahet";
 
-	--Azjol-Nerub
+	--Azjol-Nerub: Azjol-Nerub
 	AL["Reclaimer A'zak"] = "Récupérateur A'zak";
 	AL["Watcher Gashra"] = "Gardien Gashra";
 	AL["Watcher Narjil"] = "Gardien Narjil";
@@ -1174,8 +1176,8 @@ AL["Warmage Kaitlyn"] = "Warmage Kaitlyn"; -- Translation needed
 	--Shado-Pan Monastery
 	
 	--Scarlet Halls
-AL["Hooded Crusader"] = "Hooded Crusader"; -- Translation needed
-AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food"; -- Translation needed
+	AL["Hooded Crusader"] = "Croisée capuchonnée";
+	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
 
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
@@ -1190,8 +1192,11 @@ AL["Talking Skull"] = "Talking Skull"; -- Translation needed
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
 
 	--Siege of Niuzao Temple
+AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu"; -- Translation needed
 
 	--Stormstout Brewery
+AL["Auntie Stormstout"] = "Auntie Stormstout"; -- Translation needed
+AL["Chen Stormstout"] = "Chen Stormstout"; -- Translation needed
 
 	--Temple of the Jade Serpent
 

@@ -1184,6 +1184,8 @@ if AL then
 	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu";
 
 	--Stormstout Brewery
+	AL["Auntie Stormstout"] = "Auntie Stormstout";
+	AL["Chen Stormstout"] = "Chen Stormstout";
 
 	--Temple of the Jade Serpent
 

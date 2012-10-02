@@ -2896,6 +2896,8 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook", 668) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Hoptallus", 669) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Yan-Zhu the Uncasked", 670) };
+		{ GREN.." 1') "..AL["Auntie Stormstout"] };
+		{ GREN..INDENT..AL["Chen Stormstout"] };
 	};
 	TempleOfTheJadeSerpent = {
 		ZoneName = { BZ["Temple of the Jade Serpent"] };

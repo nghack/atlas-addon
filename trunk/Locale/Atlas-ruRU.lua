@@ -137,6 +137,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Подземелья D-R";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Подземелья S-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Входы";
+	AL["ATLAS_DDL_TYPE_SCENARIO"] = "Сценарии";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Подземелье";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Вход";

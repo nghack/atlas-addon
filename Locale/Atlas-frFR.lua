@@ -510,7 +510,7 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Ancien Pierre-fendue";
-AL["Celebras the Redeemed"] = "Celebras the Redeemed"; -- translation needed
+	AL["Celebras the Redeemed"] = "Celebras le Racheté";
 
 	--Ragefire Chasm
 	AL["Bovaal Whitehorn"] = "Bovaal Corne-blanche";
@@ -821,8 +821,8 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 	AL["Caza'rez"] = "Caza'rez";
 
 	--HFC: Hellfire Ramparts
-AL["Advance Scout Chadwick"] = "Advance Scout Chadwick"; -- Translation needed
-AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton"; -- Translation needed
+	AL["Advance Scout Chadwick"] = "Eclaireur avancé Chadwick";
+	AL["Stone Guard Stok'ton"] = "Garde de pierre Stok'ton";
 	AL["Reinforced Fel Iron Chest"] = "Coffre en gangrefer renforcé";
 
 	--HFC: Magtheridon's Lair
@@ -982,7 +982,7 @@ AL["Stone Guard Stok'ton"] = "Stone Guard Stok'ton"; -- Translation needed
 	--The Nexus: The Eye of Eternity
 
 	--The Nexus: The Nexus
-AL["Warmage Kaitlyn"] = "Warmage Kaitlyn"; -- Translation needed
+	AL["Warmage Kaitlyn"] = "Mage de guerre Kaitlyn";
 	AL["Berinand's Research"] = "Recherches de Bérinand";
 	AL["Elder Igasho"] = "Ancien Igasho";
 
@@ -1195,8 +1195,8 @@ AL["Talking Skull"] = "Talking Skull"; -- Translation needed
 AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu"; -- Translation needed
 
 	--Stormstout Brewery
-AL["Auntie Stormstout"] = "Auntie Stormstout"; -- Translation needed
-AL["Chen Stormstout"] = "Chen Stormstout"; -- Translation needed
+AL["Auntie Stormstout"] = "Auntie Brune d’Orage"; -- Translation needed
+	AL["Chen Stormstout"] = "Chen Brune d’Orage";
 
 	--Temple of the Jade Serpent
 

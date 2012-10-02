@@ -2948,7 +2948,10 @@ Syntax:
 	};
 	SC_AssaultonZanvess = {
 		ZoneName = { BZ["Assault on Zan'vess"] };
-		Location = { "" };
+		Location = { BZ["Zan'vess"]..", "..BZ["Dread Wastes"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_TheramoresFallAlliance = {

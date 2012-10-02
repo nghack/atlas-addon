@@ -73,6 +73,7 @@ Atlas_DropDownLayouts_Order = {
 		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
 		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
 		[4] = ATLAS_DDL_TYPE_ENTRANCE;
+		[5] = ATLAS_DDL_TYPE_SCENARIO;
 	};
 };
 
@@ -882,6 +883,18 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"UlduarEnt",
 			"WailingCavernsEnt",
+		},
+		[ATLAS_DDL_TYPE_SCENARIO] = {
+			"SC_ABrewingStorm",
+			"SC_ArenaofAnnihilation",
+			"SC_AssaultonZanvess",
+			"SC_TheramoresFall",
+			"SC_UngaIngoo",
+			"SC_BrewmoonFestival",
+			"SC_GreenstoneVillage",
+			"SC_CryptofForgottenKings",
+			"SC_PeakofSerenity",
+			"SC_TempleofKotmogu",
 		},
 	},
 };

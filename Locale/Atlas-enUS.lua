@@ -134,6 +134,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instances D-R";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instances S-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entrances";
+	AL["ATLAS_DDL_TYPE_SCENARIO"] = "Scenarios";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Instance";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Entrance";

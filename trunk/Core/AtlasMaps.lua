@@ -2967,8 +2967,8 @@ Syntax:
 	SC_TheramoresFallHorde = {
 		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
-		LevelRange = "85-90";
-		MinLevel = "85";
+		LevelRange = "90";
+		MinLevel = "90";
 		PlayerLimit = "3";
 		{ "" };
 	};

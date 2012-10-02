@@ -2933,8 +2933,13 @@ Syntax:
 --************************************************
 	SC_ABrewingStorm = {
 		ZoneName = { BZ["A Brewing Storm"] };
-		Location = { "" };
-		{ "" };
+		Location = { BZ["Thunderpaw Overlook"]..", "..BZ["The Jade Forest"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		--Acronym = "";
+		{ BLUE.." A) "..BZ["Thunderpaw Overlook"] };
+		{ BLUE.." B) "..BZ["Thunderpaw Refuge"] };
 	};
 	SC_ArenaofAnnihilation = {
 		ZoneName = { BZ["Arena of Annihilation"] };

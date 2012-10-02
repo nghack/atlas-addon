@@ -655,8 +655,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "節日小道郵箱";
 	AL["Elder Farwhisper"] = "遙語長者";
 	AL["Market Row Postbox"] = "市場郵箱";
-	AL["Crusaders' Square Postbox"] = "十字軍廣場郵箱";
-	AL["Postmaster Malown"] = "郵政局長瑪羅恩";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "長者廣場郵箱";
@@ -1173,12 +1171,14 @@ if AL then
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "『夢旅者』司南";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "影潘宗師成樵";
 
 	--Stormstout Brewery
 

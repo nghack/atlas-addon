@@ -656,7 +656,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "节日小道邮箱";
 	AL["Elder Farwhisper"] = "远风长者";
 	AL["Market Row Postbox"] = "市场邮箱";
-	AL["Crusaders' Square Postbox"] = "十字军广场邮箱";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "长者广场邮箱";

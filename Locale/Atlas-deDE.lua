@@ -1180,6 +1180,7 @@ if AL then
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "Sinan die Träumerin";
 
 	--Mogu'shan Vaults
 

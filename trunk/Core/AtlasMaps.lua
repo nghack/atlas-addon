@@ -2804,7 +2804,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Ming the Cunning") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
-		{ GREN..INDENT..AL["Sinan the Dreamer"] };
+		{ GREN.." 1') "..AL["Sinan the Dreamer"] };
 	};
 	MoguShanVaults = {
 		ZoneName = { BZ["Mogu'shan Vaults"] };

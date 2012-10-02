@@ -503,11 +503,13 @@ if AL then
 	AL["Shen'dralar Provisioner"] = "Шен'драларский поставщик";
 
 	--Maraudon	
-	AL["Elder Splitrock"] = "Старейшина Камнепад ";
+	AL["Elder Splitrock"] = "Старейшина Камнепад";
+	AL["Celebras the Redeemed"] = "Келебрас Освобожденный";
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Командир Багран";
 	AL["Invoker Xorenth"] = "Заклинатель Ксорент";
+	AL["Scout Cage"] = "Scout Cage";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
@@ -635,8 +637,8 @@ if AL then
 	AL["In the Shadow of the Light"] = "В тени света";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
-	AL["The Dark Grimoire"] = "Гримуар Тьмы";
 	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
+	AL["The Dark Grimoire"] = "Гримуар Тьмы";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Трио аптекарей"; --
@@ -658,7 +660,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Ключ от почтового ящика на Праздничной улице";
 	AL["Elder Farwhisper"] = "Старейшина Тихий Шепот";
 	AL["Market Row Postbox"] = "Ключ от почтового ящика в торговом ряду";
-	AL["Crusaders' Square Postbox"] = "Ключ от почтового ящика на Площади рыцарей";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Ключ от почтового ящика на Площади старейшины";
@@ -1175,12 +1176,14 @@ if AL then
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "Сынань Мечтательница";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "Шадо-мастер Чум Киу";
 
 	--Stormstout Brewery
 

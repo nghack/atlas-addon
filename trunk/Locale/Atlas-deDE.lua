@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 01.10.2012
+-- Letztes Update: 03.10.2012
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -141,6 +141,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instanzen D-R";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instanzen S-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Eingänge";
+	AL["ATLAS_DDL_TYPE_SCENARIO"] = "Szenarien";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Instanz";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Eingang";

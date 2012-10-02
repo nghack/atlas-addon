@@ -2951,9 +2951,20 @@ Syntax:
 		Location = { "" };
 		{ "" };
 	};
-	SC_TheramoresFall = {
-		ZoneName = { BZ["Theramore's Fall"] };
-		Location = { "" };
+	SC_TheramoresFallAlliance = {
+		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Alliance"] };
+		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
+		LevelRange = "85-90";
+		MinLevel = "85";
+		PlayerLimit = "3";
+		{ "" };
+	};
+	SC_TheramoresFallHorde = {
+		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
+		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
+		LevelRange = "85-90";
+		MinLevel = "85";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_UngaIngoo = {

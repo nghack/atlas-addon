@@ -2928,4 +2928,57 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
+--************************************************
+-- Scenarios
+--************************************************
+	SC_ABrewingStorm = {
+		ZoneName = { BZ["A Brewing Storm"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_ArenaofAnnihilation = {
+		ZoneName = { BZ["Arena of Annihilation"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_AssaultonZanvess = {
+		ZoneName = { BZ["Assault on Zan'vess"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_TheramoresFall = {
+		ZoneName = { BZ["Theramore's Fall"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_UngaIngoo = {
+		ZoneName = { BZ["Unga Ingoo"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_BrewmoonFestival = {
+		ZoneName = { BZ["Brewmoon Festival"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_GreenstoneVillage = {
+		ZoneName = { BZ["Greenstone Village"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_CryptofForgottenKings = {
+		ZoneName = { BZ["Crypt of Forgotten Kings"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_PeakofSerenity = {
+		ZoneName = { BZ["Peak of Serenity"] };
+		Location = { "" };
+		{ "" };
+	};
+	SC_TempleofKotmogu = {
+		ZoneName = { BZ["Temple of Kotmogu"] };
+		Location = { "" };
+		{ "" };
+	};
 };

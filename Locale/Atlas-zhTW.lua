@@ -1185,6 +1185,8 @@ if AL then
 	AL["Chen Stormstout"] = "老陳·風暴烈酒";
 
 	--Temple of the Jade Serpent
+	AL["Master Windstrong"] = "風強大師";
+	AL["Priestess Summerpetal"] = "女司祭夏瓣";
 
 	--Terrace of Endless Spring
 

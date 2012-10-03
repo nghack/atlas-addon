@@ -28,5 +28,5 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-
+	AL["Scenarios Maps"] = "Cartes des scénarios";
 end

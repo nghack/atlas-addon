@@ -2982,7 +2982,10 @@ Syntax:
 	};
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };
-		Location = { "" };
+		Location = { BZ["Binan Village"]..", "..BZ["Kun-Lai Summit"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_GreenstoneVillage = {

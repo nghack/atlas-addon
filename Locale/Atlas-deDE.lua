@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -141,7 +141,6 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instanzen D-R";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instanzen S-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Eingänge";
-	AL["ATLAS_DDL_TYPE_SCENARIO"] = "Szenarien";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Instanz";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Eingang";

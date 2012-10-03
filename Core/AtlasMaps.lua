@@ -2912,6 +2912,8 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Lorewalker Stonestep", 664) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Liu Flameheart", 658) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Doubt", 335) };
+		{ GREN.." 1') "..AL["Master Windstrong"] };
+		{ GREN..INDENT..AL["Priestess Summerpetal"] };
 	};
 	TerraceofEndlessSpring = {
 		ZoneName = { BZ["Terrace of Endless Spring"] };

@@ -2990,22 +2990,34 @@ Syntax:
 	};
 	SC_GreenstoneVillage = {
 		ZoneName = { BZ["Greenstone Village"] };
-		Location = { "" };
+		Location = { BZ["Greenstone Village"]..", "..BZ["Jade Forest"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_CryptofForgottenKings = {
 		ZoneName = { BZ["Crypt of Forgotten Kings"] };
 		Location = { "" };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_PeakofSerenity = {
 		ZoneName = { BZ["Peak of Serenity"] };
-		Location = { "" };
+		Location = { BZ["Peak of Serenity"]..", "..BZ["Kun-Lai Summit"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 	SC_TempleofKotmogu = {
 		ZoneName = { BZ["Temple of Kotmogu"] };
 		Location = { "" };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
 		{ "" };
 	};
 };

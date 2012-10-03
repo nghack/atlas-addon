@@ -133,6 +133,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 (第二页)";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "副本 (第三页)";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "入口";
+	AL["ATLAS_DDL_TYPE_SCENARIO"] = "场景战役";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "副本";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "入口";
@@ -1182,6 +1183,8 @@ if AL then
 	AL["Shado-Master Chum Kiu"] = "影踪大师楚秋";
 
 	--Stormstout Brewery
+	AL["Auntie Stormstout"] = "风暴烈酒大婶";
+	AL["Chen Stormstout"] = "陈·风暴烈酒";
 
 	--Temple of the Jade Serpent
 

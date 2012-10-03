@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -133,7 +133,6 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 (第二页)";
 	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "副本 (第三页)";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "入口";
-	AL["ATLAS_DDL_TYPE_SCENARIO"] = "场景战役";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "副本";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "入口";

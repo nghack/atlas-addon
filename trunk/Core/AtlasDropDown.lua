@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -73,7 +73,6 @@ Atlas_DropDownLayouts_Order = {
 		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
 		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
 		[4] = ATLAS_DDL_TYPE_ENTRANCE;
-		[5] = ATLAS_DDL_TYPE_SCENARIO;
 	};
 };
 
@@ -883,19 +882,6 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"UlduarEnt",
 			"WailingCavernsEnt",
-		},
-		[ATLAS_DDL_TYPE_SCENARIO] = {
-			"SC_ABrewingStorm",
-			"SC_ArenaofAnnihilation",
-			"SC_AssaultonZanvess",
-			"SC_TheramoresFallAlliance",
-			"SC_TheramoresFallHorde",
-			"SC_UngaIngoo",
-			"SC_BrewmoonFestival",
-			"SC_GreenstoneVillage",
-			"SC_CryptofForgottenKings",
-			"SC_PeakofSerenity",
-			"SC_TempleofKotmogu",
 		},
 	},
 };

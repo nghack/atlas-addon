@@ -28,5 +28,5 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "zhCN", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-
+	AL["Scenarios Maps"] = "场景战役地图";
 end

@@ -30,8 +30,8 @@ local AL = AceLocale:NewLocale("Atlas", "ruRU", false);
 -- Atlas Russian Localization
 -- Compiled by Eugene Filatov, bigoblin, StingerSoft
 -- Last Update: 23.01.2011
--- $Date$
--- $Revision$
+-- $Date: 2012-10-03 22:56:00 +0800 (Wed, 03 Oct 2012) $
+-- $Revision: 1771 $
 
 if ( GetLocale() == "ruRU" ) then
 -- Define the leading strings to be ignored while sorting

@@ -32,8 +32,8 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 -- Atlas French Localization
 -- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2012
 -- Many thanks to all contributors!
--- $Date$
--- $Revision$
+-- $Date: 2012-10-03 22:56:00 +0800 (Wed, 03 Oct 2012) $
+-- $Revision: 1771 $
 
 if ( GetLocale() == "frFR" ) then
 -- Define the leading strings to be ignored while sorting

@@ -1187,6 +1187,8 @@ if AL then
 	AL["Chen Stormstout"] = "Chen Stormstout";
 
 	--Temple of the Jade Serpent
+	AL["Master Windstrong"] = "Master Windstrong";
+	AL["Priestess Summerpetal"] = "Priestess Summerpetal";
 
 	--Terrace of Endless Spring
 

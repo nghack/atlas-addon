@@ -1182,17 +1182,17 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
 	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
-AL["Professor Slate"] = "Professor Slate"; -- Translation needed
-AL["Polyformic Acid Potion"] = "Polyformic Acid Potion"; -- Translation needed
+	AL["Professor Slate"] = "Professeur Alambic";
+	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
 	AL["The Dark Grimoire"] = "Le grimoire noir";
 
-AL["Talking Skull"] = "Talking Skull"; -- Translation needed
+	AL["Talking Skull"] = "Crâne parlant";
 	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
 
 	--Siege of Niuzao Temple
-AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu"; -- Translation needed
+	AL["Shado-Master Chum Kiu"] = "Maître-pandashan Chum Kiu";
 
 	--Stormstout Brewery
 AL["Auntie Stormstout"] = "Auntie Brune d’Orage"; -- Translation needed

@@ -23,31 +23,10 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local AL = AceLocale:NewLocale("Atlas_Transportation", "deDE", false);
+local AL = AceLocale:NewLocale("Atlas_Scenarios", "deDE", false);
 -- Localize file must set above to false, for example:
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["The Bogpaddle Bullet"] = "Der Kraulsumpfexpress";
-	AL["Death Knight Only"] = "Nur Todesritter";
-	AL["Druid-only"] = "Nur Druiden";
-	AL["Legend"] = "Legende";
-	AL["Gryphon"] = "Greif";
-	AL["Only available after winning the PvP battle"] = "Nur nach Sieg in der PvP Schlacht verfügbar";
-	AL["Orb of Translocation"] = "Translokationskugel";
-	AL["Portals"] = "Portale";
-	AL["Portal / Waygate Path to the destination"] = "Portal / Torpfad zum Ziel";
-	AL["Ship / Zeppelin sailing path to destination"] = "Schiff / Zeppelinpfad zum Ziel";
-	AL["Requires honored faction with Sha'tari Skyguard"] = "Benötigt wohlwollenden Ruf bei Himmelswache der Sha'tari";
-	AL["Seahorse"] = "Seepferdchen";
-	AL["South of the path along Lake Elune'ara"] = "Südlich des Elune'ara Seewegs";
-	AL["Special transportation"] = "Spezielle Beförderungsroute";
-	AL["Taxi Nodes"] = "Flugpunkte";
-	AL["Transportation Maps"] = "Beförderungsrouten";
-	AL["Transporter"] = "Transporter";
-	AL["Transporters by the sea and on the cliff"] = "Transporter übers Meer und am Kliff";
-	AL["West of the path to Timbermaw Hold"] = "Westlich des Weges zur Holzschlundfeste";
-	AL["Wind Rider"] = "Windreiter";
-	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Nicht mehr verfügbar, wenn die Schlacht um Andorhal abgeschlossen ist.";
-	AL["Zeppelin Towers"] = "Zeppelintürme";
+	AL["Scenarios Maps"] = "Szenariokarten";
 end

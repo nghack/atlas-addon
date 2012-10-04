@@ -224,6 +224,19 @@ Atlas_SubZoneData = {
 			BZ["Netherspace"],
 		},
 	},
+	-- Shado-Pan Monastery
+	[BZ["Shado-Pan Monastery"]] = {
+		--Shado-Pan Monastery A
+		["ShadoPanMonasteryA"] = {
+			BZ["Cloudstrike Dojo"],
+			BZ["Grove of Falling Blossoms"],
+		},
+		--Shado-Pan Monastery B
+		["ShadoPanMonasteryB"] = {
+			BZ["Snowdrift Dojo"],
+			BZ["Sealed Chambers"],
+		},
+	},
 	-- Siege of Niuzao Temple
 	[BZ["Siege of Niuzao Temple"]] = {
 		--Siege of Niuzao Temple A

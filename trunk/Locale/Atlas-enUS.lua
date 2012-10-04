@@ -1169,6 +1169,7 @@ if AL then
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "Bowmistress Li <Guard Captain>";
 
 	--Heart of Fear
 

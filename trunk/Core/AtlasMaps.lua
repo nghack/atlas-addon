@@ -2766,6 +2766,7 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Bowmistress Li <Guard Captain>"] };
+		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Saboteur Kip'tilak", 655) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Striker Ga'dok", 675).." ("..AL["Upper"]..")" };
 		{ WHIT.." 3) "..Atlas_GetBossName("Commander Ri'mok", 676) };

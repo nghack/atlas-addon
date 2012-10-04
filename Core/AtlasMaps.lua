@@ -2858,6 +2858,7 @@ Syntax:
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Violence", 685) };
+		{ GREN.." 1') "..AL["Ban Bearheart"] };
 	};
 	SiegeofNiuzaoTempleA = {
 		ZoneName = { BZ["Siege of Niuzao Temple"].." [A]" };

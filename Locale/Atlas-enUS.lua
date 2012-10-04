@@ -1178,6 +1178,7 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	AL["Ban Bearheart"] = "Ban Bearheart";
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu";

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 01/10/2012
+-- Última Actualización (last update): 04/10/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -148,7 +148,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Vale";
 	
 	AL["ATLAS_INFO"] = "Información de Atlas";
-	AL["ATLAS_INFO_SPTACK"] = "Aviso importante:\n\nDebido a motivos de aumento en el tamaño de los archivos del accesorio, hemos \nextraido parte de nuestros mapas de mazmorras y otros accesorios internos \nen módulos separados.\n\nLos usuarios que descarguen nuestro accesorio desde famosas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de mazmorras de Cataclysm.\n\nLos usuarios que también quieran descargar todos los mapas de \nlas mazmorras antiguas y los mapas de todos los \nplug-ins de Atlas hechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes leer debajo el topic del foro :\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_SPTACK"] = "Aviso importante:\n\nDebido al aumento del tamaño en los archivos de este accesorio, \nse han separado parte de los mapas de mazmorras, y otros accesorios \ninternos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras \nantiguas y los mapas de todos los plug-ins de Atlas \nhechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes acceder al foro en:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 	--************************************************
 -- Zone Names, Acronyms, and Common Strings
@@ -1174,33 +1174,36 @@ AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
 	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
-
 	
+
 --*********************
 -- Mists of Pandaria Instances
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "Bowmistress Li <Guard Captain>"; --FALTA
 
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "Sinan the Dreamer"; --FALTA
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-
-
-
-
+	AL["Ban Bearheart"] = "Ban Bearheart"; --FALTA
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu"; --FALTA
 
 	--Stormstout Brewery
+	AL["Auntie Stormstout"] = "Auntie Stormstout"; --FALTA
+	AL["Chen Stormstout"] = "Chen Stormstout"; --FALTA
 
 	--Temple of the Jade Serpent
+	AL["Master Windstrong"] = "Master Windstrong"; --FALTA
+	AL["Priestess Summerpetal"] = "Priestess Summerpetal"; --FALTA
 
 	--Terrace of Endless Spring
-
 
 end

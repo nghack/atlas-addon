@@ -1168,6 +1168,7 @@ if AL then
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "女射手李琪薇 <守卫队长>";
 
 	--Heart of Fear
 
@@ -1177,6 +1178,7 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	AL["Ban Bearheart"] = "班·熊心";
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "影踪大师楚秋";

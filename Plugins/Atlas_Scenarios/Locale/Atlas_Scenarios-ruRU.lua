@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -28,5 +28,5 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "ruRU", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-
+	AL["Scenarios Maps"] = "Карты сценариев";
 end

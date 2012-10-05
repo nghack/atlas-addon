@@ -73,9 +73,12 @@ function addon:Toggle()
 	self.db.profile.minimap.hide = not self.db.profile.minimap.hide
 	if self.db.profile.minimap.hide then
 		AtlasMiniMapIcon:Hide("Atlas")
+		AtlasOptions.AtlasButtonShown = false;
 	else
 		AtlasMiniMapIcon:Show("Atlas")
+		AtlasOptions.AtlasButtonShown = true;
 	end
+	AtlasOptions_Init();
 end
 
 function AtlasButton_Toggle()

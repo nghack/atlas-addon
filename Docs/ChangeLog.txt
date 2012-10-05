@@ -9,7 +9,24 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.22.1 (Oct. XX, 2012)
 -----------------------
-- 
+- Maps and legend info update:
+    - Gate of the Setting Sun
+    - Mogu'Shan Palace
+    - Shado-Pan Monastery
+    - Stormstout Brewery
+    - Temple Of The Jade Serpent
+    - Scholomance
+    - ScarletHalls
+    - MoguShanVaults
+- Translation update
+    - deDE (Dynaletik)
+    - esES/esMX (maqjav)
+    - ruRU (StingerSoft)
+    - frFR (Khiria)
+    - zhCN/zhTW (ananhaid)
+- Bugs fixed:
+    - minimap button toggle issue
+
 
 v1.22.0 (Sep. 25, 2012)
 -----------------------

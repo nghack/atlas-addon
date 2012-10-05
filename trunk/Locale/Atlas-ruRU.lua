@@ -103,14 +103,14 @@ if AL then
 	AL["ATLAS_MINIMAPLDB_HINT"] = "[ЛКМ] - открывает Атлас.\n[ПКМ] + открывает настройки Атласа.\n[ПКМ] + [перемещение] - изменяет позицию кнопки.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Сортировать подземелья по:";
-	AL["ATLAS_DDL_CONTINENT"] = "Контитенту";
+	AL["ATLAS_DDL_CONTINENT"] = "Континенту";
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "Подземелья Восточных королевств";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Подземелья Калимдора";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Подземелья Запределья";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Подземелья Нордскола";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Подземелья Подземья";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Подземелья Пандории";
-	AL["ATLAS_DDL_LEVEL"] = "Уровня";
+	AL["ATLAS_DDL_LEVEL"] = "Уровню";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Подземелья уровня ниже 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Подземелья уровня 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "Подземелья уровня 60-70";
@@ -509,7 +509,7 @@ if AL then
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Командир Багран";
 	AL["Invoker Xorenth"] = "Заклинатель Ксорент";
-	AL["Scout Cage"] = "Scout Cage";
+	AL["Scout Cage"] = "Scout Cage"; --need check
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
@@ -581,7 +581,7 @@ if AL then
 	AL["Lexlort <Kargath Expeditionary Force>"] = "Лекслорт <Каргатский экспедиционный корпус>";
 	AL["Prospector Seymour <Morgan's Militia>"] = "Геолог Сеймур <Отряд Морганы>";
 	AL["Razal'blade <Kargath Expeditionary Force>"] = "Разал'меч <Каргатский экспедиционный корпус>";
-	AL["The Shadowforge Lock"] = "Замок Тенегорна"; --need check
+	AL["The Shadowforge Lock"] = "Замок Тенегорна";
 	AL["Mayara Brightwing <Morgan's Militia>"] = "Майра Светлое Крыло <Отряд Морганы>";
 	AL["Hierophant Theodora Mulvadania <Kargath Expeditionary Force>"] = "Верховная Жрица Теодора Мальвадания";
 	AL["Lokhtos Darkbargainer <The Thorium Brotherhood>"] = "Локтос Зловещий Торговец";
@@ -622,10 +622,10 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Reinforced Archery Target"] = "Укрепленная мишень";
+	AL["Commander Lindon"] = "Командир Линдон";
 	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
 	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
-	AL["Commander Lindon"] = "Командир Линдон";
+	AL["Reinforced Archery Target"] = "Укрепленная мишень";
 
 	--Scarlet Monastery
 
@@ -1172,6 +1172,7 @@ if AL then
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "Лучница Ли <Капитан стражи>";
 
 	--Heart of Fear
 
@@ -1181,13 +1182,18 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	AL["Ban Bearheart"] = "Бань Медвежье Сердце";
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Шадо-мастер Чум Киу";
 
 	--Stormstout Brewery
+	AL["Auntie Stormstout"] = "Тетушка Буйный Портер";
+	AL["Chen Stormstout"] = "Чэнь Буйный Портер";
 
 	--Temple of the Jade Serpent
+	AL["Master Windstrong"] = "Мастер Порывистый Ветер";
+	AL["Priestess Summerpetal"] = "Жрица Летний Лепесток";
 
 	--Terrace of Endless Spring
 

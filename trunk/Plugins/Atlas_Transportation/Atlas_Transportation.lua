@@ -927,7 +927,7 @@ local myData = {
 	TransHordePandaria = {
 		ZoneName = { BZ["Pandaria"].." ("..BF["Horde"]..")" };
 		{ _RED..AL["Portals"] };
-		{ PURP.." A) "..BZ["Honeydew Village"]..", "..;BZ["The Jade Forest"] };
+		{ PURP.." A) "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };

@@ -154,6 +154,8 @@ if AL then
 
 	AL["ATLAS_INFO"] = "Atlas Information";
 	AL["ATLAS_INFO_SPTACK"] = "Information importante : \n\nSuite à l'augmentation de la taille des fichiers de l'addon, nous avons déplacé \nune partie de nos cartes des donjons et créé des modules séparés avec. \n\nLes utilisateurs qui téléchargent nos addons à partir de fameux sites tiers \npourraient n'avoir que l'addon principal qui ne contient que les fonctions de \nbase et les cartes de la dernière extension de WoW. \n\nSi vous souhaitez également voir les cartes des vieilles extensions, et donc \navoir tous ces modules Atlas que nous avons fait, vous devez les télécharger \net les installer séparément. \n\nPour plus d'information, lire le sujet suivant sur notre forum : \n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff \n\nOu visiter notre site web pour voir où les télécharger. \n|cff6666ffhttp://www.atlasmod.com/|cfffffff";
+	AL["ATLAS_INFO_12201"] = "Please be advised that we have created a new plug-in - |cff6666ffAtlas Scenarios|cffffffff, to \nprovide the brand-new Scenarios maps introduced in WoW 5.0. \n\nCheck out our web site for more details, and don't forget to download / \ninstall it separately.";
+	AL["ATLAS_INFO_12201"] = "Veuillez noter que nous avons créé un nouveau plug-in - |cff6666ffAtlas Scenarios|cffffffff, \nafin de fournir les cartes des scénarios introduits dans WoW 5.0. \n\nVisitez notre site web pour plus de détail, et n'oubliez pas de le \ntélécharger/installer séparément.";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
@@ -1166,14 +1168,17 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "Maître-archer Li <Capitaine de la Garde>";
 
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "Sinan la Rêveuse";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	AL["Ban Bearheart"] = "Ban Cœur d’Ours";
 	
 	--Scarlet Halls
 	AL["Hooded Crusader"] = "Croisée capuchonnée";
@@ -1198,7 +1203,8 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 AL["Auntie Stormstout"] = "Auntie Brune d’Orage"; -- Translation needed
 	AL["Chen Stormstout"] = "Chen Brune d’Orage";
 
-	--Temple of the Jade Serpent
+AL["Master Windstrong"] = "Master Windstrong"; -- Translation needed
+AL["Priestess Summerpetal"] = "Priestess Summerpetal"; -- Translation needed
 
 	--Terrace of Endless Spring
 

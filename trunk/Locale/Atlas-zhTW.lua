@@ -144,7 +144,7 @@ if AL then
 
 	AL["ATLAS_INFO"] = "Atlas 訊息";
 	AL["ATLAS_INFO_SPTACK"] = "重要提示：\n\n由於副本插件檔案大小日益增加，我們已獨立出部分副本地圖和內建插件\n到單獨的模組。\n\n您從各大遊戲插件網站所下載的 Atlas 插件，可能只包含了主要的核心功能\n與最新資料片裡的副本地圖。\n\n若您想要取得包含舊的資料片的所有地圖，以及 Atlas 團隊所開發的其他\n模組，您必須分別下載這些獨立模組的壓縮檔並分別進行安裝。\n\n請詳讀我們論壇的這個討論串以了解更多詳情：\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522\n或造訪我們的首頁：\nhttp://www.atlasmod.com/";
-	AL["ATLAS_INFO_12201"] = "我們最近新增了一個新的 Atlas 插件 - |cff6666ffAtlas 情境地圖|cff6666ff，用以提供 \nWoW 5.0 起新增的情境事件的地圖。\n\n請參見我們的網站已取得更詳細的資訊，並請記得分別下載並安裝此插件。";
+	AL["ATLAS_INFO_12201"] = "我們最近新增了一個新的 Atlas 插件 - |cff6666ffAtlas 情境地圖|cff6666ff，用以提供 \nWoW 5.0 起新增的情境事件的地圖。\n\n請參見我們的網站以取得更詳細的資訊，並請記得分別下載並安裝此插件。";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings

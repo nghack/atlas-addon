@@ -352,7 +352,6 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Feralas"]] = 			"DireMaulEnt";
 	[BZ["Mount Hyjal"]] = 			"Firelands";
 	[BZ["Dun Morogh"]] = 			"GnomereganEnt";
-	[BZ["Vale of Eternal Blossoms"]] = 	"GateoftheSettingSun";
 	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";
 	[BZ["Dread Wastes"]] =			"HeartofFear";
 	[BZ["Hellfire Peninsula"]] = 		"HellfireCitadelEnt";

@@ -147,7 +147,7 @@ if AL then
 	AL["ATLAS_INFO"] = "Atlas Information";
 	AL["ATLAS_INFO_12200"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in plug-ins into separated addon package.\n\nUsers who download our addons from some of the famous game web sites \nmay only get our core addon which only include the Atlas core function \nand the latest WoW expansion maps.\n\nIf you also want to see all the old expansions' maps, and also want all those \nAtlas plug-ins made by us, you have to download and install them separately.\n\nRead below forum topic for more information:\n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff\n\nOr visit our website to see where to download:\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 	AL["ATLAS_INFO_12201"] = "Please be advised that we have created a new plug-in - |cff6666ffAtlas Scenarios|cffffffff, to \nprovide the brand-new Scenarios maps introduced in WoW 5.0. \n\nCheck out our web site for more details, and don't forget to download / \ninstall it separately.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
-	
+
 	AL["ATLAS_MISSING_MODULE"] = "Atlas has detected missing module(s) / plugin(s): ";
 
 --************************************************

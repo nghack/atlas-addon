@@ -155,6 +155,8 @@ if AL then
 	AL["ATLAS_INFO_12200"] = "Wichtiger Hinweis:\n\nDa die Addondatei stets größer wird, wurde ein Teil \nder Instanzkarten in getrennte Module verschoben.\n\nBeim Download des Addons von den bekannten Webseiten \nerhält man daher nun lediglich das Haupt-Addon mit den Kernfunktionen \nund den Instanzkarten von Cataclysm.\n\nWer alle alten Instanzkarten und alle Atlas Plugins benötigt, \nmuss diese seperat herunterladen.\n\nMehr Infos dazu gibt es im Forum:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 	AL["ATLAS_INFO_12201"] = "Bitte beachten Sie, dass ein neues Plugin |cff6666ffAtlas Scenarios|cffffffff mit den Karten der neuen Szenarien erstellt wurde. \n\nBesuchen Sie für weitere Details unsere Webseite und vergessen Sie nicht,\ndas Plugin separat zu installieren.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
+	AL["ATLAS_MISSING_MODULE"] = "Atlas hat fehlende Module / Plugins erkannt: ";
+
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************

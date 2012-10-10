@@ -92,6 +92,8 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "Hold down Control for tooltips";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Enable to show tooltips text while hold down control key and mouse over the map info. Useful when the text is too long to be displayed in the window.";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Don't show the same information again.";
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Remind me for missing module(s) / plug-in(s).";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Atals will check if there is any missing module / plugin and remind when login.";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Close";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";

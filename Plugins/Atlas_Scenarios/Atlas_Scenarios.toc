@@ -9,7 +9,7 @@
 ## Notes-zhTW: Atlas 史詩情境模式地圖插件
 ## Version: 1.22.1
 ## Author: arith, Dynaletik, dubcat
-## X-Date: Oct. XX, 2012
+## X-Date: Oct. 10, 2012
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map

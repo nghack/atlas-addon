@@ -105,7 +105,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour déplacer ce bouton.";
 	AL["ATLAS_LDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour le menu d'affichage.";
-	AL["ATLAS_MINIMAPLDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Droit pour les options d'Atlas.\nClic-Droit et glisser pour déplacer ce bouton.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Droit pour les options d'Atlas.\nClic-Droit et glisser pour déplacer ce bouton.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Trier les instances par :";
 	AL["ATLAS_DDL_CONTINENT"] = "Continent";
@@ -153,7 +153,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Ok";
 
 	AL["ATLAS_INFO"] = "Atlas Information";
-	AL["ATLAS_INFO_SPTACK"] = "Information importante : \n\nSuite à l'augmentation de la taille des fichiers de l'addon, nous avons déplacé \nune partie de nos cartes des donjons et créé des modules séparés avec. \n\nLes utilisateurs qui téléchargent nos addons à partir de fameux sites tiers \npourraient n'avoir que l'addon principal qui ne contient que les fonctions de \nbase et les cartes de la dernière extension de WoW. \n\nSi vous souhaitez également voir les cartes des vieilles extensions, et donc \navoir tous ces modules Atlas que nous avons fait, vous devez les télécharger \net les installer séparément. \n\nPour plus d'information, lire le sujet suivant sur notre forum : \n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff \n\nOu visiter notre site web pour voir où les télécharger. \n|cff6666ffhttp://www.atlasmod.com/|cfffffff";
+	AL["ATLAS_INFO_12200"] = "Information importante : \n\nSuite à l'augmentation de la taille des fichiers de l'addon, nous avons déplacé \nune partie de nos cartes des donjons et créé des modules séparés avec. \n\nLes utilisateurs qui téléchargent nos addons à partir de fameux sites tiers \npourraient n'avoir que l'addon principal qui ne contient que les fonctions de \nbase et les cartes de la dernière extension de WoW. \n\nSi vous souhaitez également voir les cartes des vieilles extensions, et donc \navoir tous ces modules Atlas que nous avons fait, vous devez les télécharger \net les installer séparément. \n\nPour plus d'information, lire le sujet suivant sur notre forum : \n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff \n\nOu visiter notre site web pour voir où les télécharger. \n|cff6666ffhttp://www.atlasmod.com/|cfffffff";
 	AL["ATLAS_INFO_12201"] = "Veuillez noter que nous avons créé un nouveau plug-in - |cff6666ffAtlas Scenarios|cffffffff, \nafin de fournir les cartes des scénarios introduits dans WoW 5.0. \n\nVisitez notre site web pour plus de détail, et n'oubliez pas de le \ntélécharger/installer séparément.";
 
 --************************************************

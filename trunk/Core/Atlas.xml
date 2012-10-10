@@ -618,7 +618,7 @@
 				</FontString>
 			</Layer>
 			<Layer level="OVERLAY">
-				<FontString inherits="GameFontWhite" justifyH="LEFT" justifyV="TOP" text="ATLAS_INFO_SPTACK">
+				<FontString inherits="GameFontWhite" justifyH="LEFT" justifyV="TOP" text="ATLAS_INFO_MSG">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasInfoFrame">
 							<Offset>

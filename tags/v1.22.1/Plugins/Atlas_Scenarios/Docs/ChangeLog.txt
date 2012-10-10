@@ -1,0 +1,12 @@
+$Id$
+
+Atlas, a World of Warcraft instance map browser
+Copyright 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+
+==============
+= Change Log =
+==============
+
+v1.22.1 (Oct. 10, 2012)
+-----------------------
+- Initial version as Scenarios were introduced in WoW 5.0

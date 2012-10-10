@@ -234,6 +234,30 @@
 					</OnLeave>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$ParentCheckModule" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-200"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CHECKMODULE);
+					</OnLoad>
+					<OnClick>
+						AtlasOptions_ToggleCheckModule();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_CHECKMODULE_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
 <!--
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>

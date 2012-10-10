@@ -864,7 +864,10 @@ local myData = {
 		ZoneName = { BZ["Pandaria"].." ("..BF["Alliance"]..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Paw'Don Village"]..", "..BZ["The Jade Forest"] };
-		{ PURP.." A') "..BZ["Stormwind"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." B') "..BZ["Ironforge"]..", "..BZ["Dun Morogh"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." C') "..BZ["Darnassus"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
+		{ PURP.." D') "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"]..", "..BZ["Kalimdor"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };

@@ -12,9 +12,9 @@
 ## Notes-koKR: 전장 지도
 ## Notes-zhCN: 战场地图
 ## Notes-zhTW: Atlas 戰場地圖插件
-## Version: 1.22.0
+## Version: 1.22.1
 ## Author: arith, Dynaletik, dubcat
-## X-Date: September 25, 2012
+## X-Date: Oct. 10, 2012
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

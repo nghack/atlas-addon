@@ -170,7 +170,7 @@ local function Process_Deprecated()
 		{ "Atlas_WrathoftheLichKing", 	"1.22.0" },
 		{ "Atlas_BurningCrusade", 	"1.22.0" },
 		{ "Atlas_ClassicWoW", 		"1.22.1" },
-		{ "Atlas_Battlegrounds", 	"1.22.0" },
+		{ "Atlas_Battlegrounds", 	"1.22.1" },
 		{ "Atlas_DungeonLocs", 		"1.22.0" },
 		{ "Atlas_OutdoorRaids", 	"1.22.1" },
 		{ "Atlas_Transportation", 	"1.22.1" },

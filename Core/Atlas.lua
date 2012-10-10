@@ -241,7 +241,7 @@ local function Atlas_Check_Modules()
 			textList = textList.."\n"..str;
 		end
 		StaticPopupDialogs["DetectMissing"] = {
-			text = AL["ATLAS_MISSING_MODULE1"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
+			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
 			button1 = ATLAS_DEP_OK,
 			timeout = 0,
 			exclusive = 1,

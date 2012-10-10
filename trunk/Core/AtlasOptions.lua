@@ -127,6 +127,17 @@ function AtlasOptions_ToggleBossDesc()
 end
 
 
+function AtlasOptions_ToggleCheckModule()
+	if(AtlasOptions.AtlasCheckModule) then
+		AtlasOptions.AtlasCheckModule = false;
+	else
+		AtlasOptions.AtlasCheckModule = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+
+
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
 	AtlasOptions.AtlasType = 1;
@@ -165,6 +176,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
 	AtlasOptionsFrameLock:SetChecked(AtlasOptions.AtlasLocked);
 	AtlasOptionsFrameBossDesc:SetChecked(AtlasOptions.AtlasBossDesc);
+	AtlasOptionsFrameCheckModule:SetChecked(AtlasOptions.AtlasCheckModule);
 --	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 --	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);

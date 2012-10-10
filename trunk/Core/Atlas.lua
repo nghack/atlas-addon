@@ -78,6 +78,7 @@ local DefaultAtlasOptions = {
 	["AtlasBossDescScale"] = 0.9;		-- the boss description GameToolTip scale
 	["AtlasDontShowInfo"] = false; 		-- Atlas latest information
 	["AtlasDontShowInfo_12201"] = false;	
+	["AtlasCheckModule"] = true;
 };
 
 --Code by Grayhoof (SCT)
@@ -212,51 +213,11 @@ local function Process_Deprecated()
 	end
 end
 
--- Detect if not all modules / plugins are installed
-local function Atlas_Check_Modules()
-	local Module_List = {
-		"Atlas_Scenarios",
-		"Atlas_Cataclysm",
-		"Atlas_WrathoftheLichKing",
-		"Atlas_BurningCrusade",
-		"Atlas_ClassicWoW",
-		"Atlas_Battlegrounds",
-		"Atlas_DungeonLocs",
-		"Atlas_OutdoorRaids",
-		"Atlas_Transportation",
-	};
-
-	--check for outdated modules, build a list of them, then disable them and tell the player.
-	local List = {};
-	for _,module in pairs(Module_List) do
-		local enabled, loadable = select(4, GetAddOnInfo(module));
-		if (not enabled) or (not loadable) then
-			table.insert(List, module);
-		end
-	end
-	if table.getn(List) > 0 then
-		local textList = "";
-		for _,str in pairs(List) do
-			print(str);
-			textList = textList.."\n"..str;
-		end
-		StaticPopupDialogs["DetectMissing"] = {
-			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
-			button1 = ATLAS_DEP_OK,
-			timeout = 0,
-			exclusive = 1,
-			whileDead = 1,
-		}
-		StaticPopup_Show("DetectMissing")
-	end
-end
-
 --Called when the Atlas frame is first loaded
 --We CANNOT assume that data in other files is available yet!
 function Atlas_OnLoad(self)
 
 	Process_Deprecated();
-	Atlas_Check_Modules();
 
 	--Register the Atlas frame for the following events
 	self:RegisterEvent("PLAYER_LOGIN");
@@ -348,6 +309,51 @@ function Atlas_PopulateDropdowns()
 	end
 end
 
+-- Detect if not all modules / plugins are installed
+local function Atlas_Check_Modules()
+	if (AtlasOptions["AtlasCheckModule"] == nil) then
+		AtlasOptions["AtlasCheckModule"] = true;
+	end
+	if (AtlasOptions["AtlasCheckModule"] == false) then
+		return;
+	end
+	local Module_List = {
+		"Atlas_Scenarios",
+		"Atlas_Cataclysm",
+		"Atlas_WrathoftheLichKing",
+		"Atlas_BurningCrusade",
+		"Atlas_ClassicWoW",
+		"Atlas_Battlegrounds",
+		"Atlas_DungeonLocs",
+		"Atlas_OutdoorRaids",
+		"Atlas_Transportation",
+	};
+
+	--check for outdated modules, build a list of them, then disable them and tell the player.
+	local List = {};
+	for _,module in pairs(Module_List) do
+		local enabled, loadable = select(4, GetAddOnInfo(module));
+		if (not enabled) or (not loadable) then
+			table.insert(List, module);
+		end
+	end
+	if table.getn(List) > 0 then
+		local textList = "";
+		for _,str in pairs(List) do
+			print(str);
+			textList = textList.."\n"..str;
+		end
+		StaticPopupDialogs["DetectMissing"] = {
+			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
+			button1 = ATLAS_DEP_OK,
+			timeout = 0,
+			exclusive = 1,
+			whileDead = 1,
+		}
+		StaticPopup_Show("DetectMissing")
+	end
+end
+
 -- function to pop up a window to show the latest addon information
 function Atlas_ShowInfo()
 	if (AtlasOptions["AtlasDontShowInfo_12201"] == true) then
@@ -386,6 +392,10 @@ function Atlas_InitOptions()
 
 	if (AtlasOptions["AtlasDontShowInfo_12201"] == nil) then
 		AtlasOptions["AtlasDontShowInfo_12201"] = false;
+	end
+	
+	if (AtlasOptions["AtlasCheckModule"] == nil) then
+		AtlasOptions["AtlasCheckModule"] = true;
 	end
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
@@ -439,6 +449,7 @@ function Atlas_Init()
 		end,
 	})
 	
+	Atlas_Check_Modules();
 	Atlas_ShowInfo();
 end
 

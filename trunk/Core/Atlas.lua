@@ -212,11 +212,51 @@ local function Process_Deprecated()
 	end
 end
 
+-- Detect if not all modules / plugins are installed
+local function Atlas_Check_Modules()
+	local Module_List = {
+		"Atlas_Scenarios",
+		"Atlas_Cataclysm",
+		"Atlas_WrathoftheLichKing",
+		"Atlas_BurningCrusade",
+		"Atlas_ClassicWoW",
+		"Atlas_Battlegrounds",
+		"Atlas_DungeonLocs",
+		"Atlas_OutdoorRaids",
+		"Atlas_Transportation",
+	};
+
+	--check for outdated modules, build a list of them, then disable them and tell the player.
+	local List = {};
+	for _,module in pairs(Module_List) do
+		local enabled, loadable = select(4, GetAddOnInfo(module));
+		if (not enabled) or (not loadable) then
+			table.insert(List, module);
+		end
+	end
+	if table.getn(List) > 0 then
+		local textList = "";
+		for _,str in pairs(List) do
+			print(str);
+			textList = textList.."\n"..str;
+		end
+		StaticPopupDialogs["DetectMissing"] = {
+			text = AL["ATLAS_MISSING_MODULE1"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
+			button1 = ATLAS_DEP_OK,
+			timeout = 0,
+			exclusive = 1,
+			whileDead = 1,
+		}
+		StaticPopup_Show("DetectMissing")
+	end
+end
+
 --Called when the Atlas frame is first loaded
 --We CANNOT assume that data in other files is available yet!
 function Atlas_OnLoad(self)
 
 	Process_Deprecated();
+	Atlas_Check_Modules();
 
 	--Register the Atlas frame for the following events
 	self:RegisterEvent("PLAYER_LOGIN");
@@ -629,12 +669,16 @@ function Atlas_MapRefresh()
 		end
 	end
 
+	--[[
 	local AtlasMap_Text = _G["AtlasMap_Text"];
 	if (not AtlasMap_Text) then
 		AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
 	end
 	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
+	]]
 	-- Check if the map image is available, if not replace with black and Map Not Found text
+	-- Below checking won't work anymore since WoW 5.0.4
+	--[[
 	if ( AtlasMap:GetTexture() == nil) then
 		AtlasMap:SetTexture(0, 0, 0);
 		AtlasMap_Text:SetText(AL["MapsNotFound"]);
@@ -644,6 +688,7 @@ function Atlas_MapRefresh()
 	else 
 		AtlasMap_Text:SetText("");
 	end
+	]]
 
 	-- The boss description to be added here
 	if (AtlasOptions["AtlasBossDesc"]) then

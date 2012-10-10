@@ -7,7 +7,7 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.22.1 (Oct. XX, 2012)
+v1.22.1 (Oct. 10, 2012)
 -----------------------
 - Maps and legend info update:
     - Gate of the Setting Sun

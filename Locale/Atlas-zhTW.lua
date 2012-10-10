@@ -90,6 +90,8 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "按住 Ctrl 鍵以顯示工具提示";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾選後, 當滑鼠移到地圖資訊欄位時, 按下 Ctrl 控制鍵, 則會將資訊的完整資訊以提示型態顯示. 當資訊過長而被截斷時很有用.";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "不再顯示相同訊息。";
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "提醒我是否有遺失的模組或插件";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "勾選以在每次登入 WoW 時檢查是否有遺失的 Atlas 模組或插件。";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "關閉";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas 副本地圖";

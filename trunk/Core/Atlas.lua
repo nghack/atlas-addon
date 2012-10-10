@@ -340,7 +340,6 @@ local function Atlas_Check_Modules()
 	if table.getn(List) > 0 then
 		local textList = "";
 		for _,str in pairs(List) do
-			print(str);
 			textList = textList.."\n"..str;
 		end
 		StaticPopupDialogs["DetectMissing"] = {

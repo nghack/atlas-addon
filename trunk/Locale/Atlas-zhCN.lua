@@ -91,6 +91,8 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "按下 Ctrl 显示弹出工具说明";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "勾选后当鼠标移到地图信息字段时，按下 Ctrl 控制键，则会将信息的完整信息以提示型态显示。当信息过长而被截断时很有用。";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "不再显示相同信息。";
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "提醒我是否有遗失的模块或插件";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "勾选以在每次登入 WoW 时检查是否有遗失的 Atlas 模块或插件。";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "关闭";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";

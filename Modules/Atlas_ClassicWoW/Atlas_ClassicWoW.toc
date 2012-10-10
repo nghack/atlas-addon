@@ -10,7 +10,7 @@
 ## Notes-zhCN: 经典旧世地图
 ## Version: 1.22.1
 ## Author: arith, Dynaletik, dubcat
-## X-Date: Oct. XX, 2012
+## X-Date: Oct. 10, 2012
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

@@ -76,7 +76,8 @@ local DefaultAtlasOptions = {
 	["AtlasCtrl"] = false;			-- press ctrl and mouse over to show full description text
 	["AtlasBossDesc"] = true;		-- toggle to show boss description or not
 	["AtlasBossDescScale"] = 0.9;		-- the boss description GameToolTip scale
-	["AtlasDontShowInfo"] = false;		-- Atlas latest information
+	["AtlasDontShowInfo"] = false; 		-- Atlas latest information
+	["AtlasDontShowInfo_12201"] = false;	
 };
 
 --Code by Grayhoof (SCT)
@@ -175,8 +176,8 @@ local function Process_Deprecated()
 		{ "AtlasQuest", "4.6.7" }, -- updated Dec. 01, 2011
 --		{ "AtlasMajorCities", "v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
 		{ "AtlasLoot", "7.02.00" }, -- updated Oct. 03, 2012
-		{ "Atlas_Arena", "1.3.4" }, -- updated June, 28, 2011
-		{ "Atlas_WorldEvents", "2.4" }, -- updated Dec. 05, 2011
+		{ "Atlas_Arena", "1.3.6" }, -- updated Sep 25, 2012
+		{ "Atlas_WorldEvents", "2.8" }, -- updated Oct 03, 2012
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.
@@ -307,22 +308,22 @@ function Atlas_PopulateDropdowns()
 end
 
 -- function to pop up a window to show the latest addon information
-local function Atlas_ShowInfo()
-	if (AtlasOptions["AtlasDontShowInfo"] == true) then
+function Atlas_ShowInfo()
+	if (AtlasOptions["AtlasDontShowInfo_12201"] == true) then
 		return;
 	else
 		AtlasInfoFrame:Show();
-		AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo);
+		AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo_12201);
 	end
 end
 
 function Atlas_ShowInfo_Toggle()
-	if (AtlasOptions["AtlasDontShowInfo"]) then
-		AtlasOptions["AtlasDontShowInfo"] = false;
+	if (AtlasOptions["AtlasDontShowInfo_12201"]) then
+		AtlasOptions["AtlasDontShowInfo_12201"] = false;
 	else
-		AtlasOptions["AtlasDontShowInfo"] = true;
+		AtlasOptions["AtlasDontShowInfo_12201"] = true;
 	end
-	AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo);
+	AtlasInfoFrameToggleButton:SetChecked(AtlasOptions.AtlasDontShowInfo_12201);
 end
 
 ATLAS_OLD_TYPE = false;
@@ -342,10 +343,9 @@ function Atlas_InitOptions()
 		AtlasOptions["AtlasBossDesc"] = true;
 	end
 
-	if (AtlasOptions["AtlasDontShowInfo"] == nil) then
-		AtlasOptions["AtlasDontShowInfo"] = false;
+	if (AtlasOptions["AtlasDontShowInfo_12201"] == nil) then
+		AtlasOptions["AtlasDontShowInfo_12201"] = false;
 	end
-	
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
 		Atlas_FreshOptions();
@@ -355,15 +355,6 @@ end
 --Initializes everything relating to saved variables and data in other lua files
 --This should be called ONLY when we're sure our variables are in memory
 function Atlas_Init()
-
-	--fix for certain UI elements that appear on top of the Atlas window
-	--[[
-	MultiBarBottomLeft:SetFrameStrata("MEDIUM");
-	MultiBarBottomRight:SetFrameStrata("MEDIUM");
-	MultiBarLeft:SetFrameStrata("MEDIUM");
-	MultiBarRight:SetFrameStrata("MEDIUM");
-	MainMenuBarOverlayFrame:SetFrameStrata("LOW");
-	--]]
 
 	--make the Atlas window go all the way to the edge of the screen, exactly
 	AtlasFrame:SetClampRectInsets(12, 0, -12, 0);

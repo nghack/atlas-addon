@@ -148,7 +148,7 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Vale";
 	
 	AL["ATLAS_INFO"] = "Información de Atlas";
-	AL["ATLAS_INFO_SPTACK"] = "Aviso importante:\n\nDebido al aumento del tamaño en los archivos de este accesorio, \nse han separado parte de los mapas de mazmorras, y otros accesorios \ninternos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras \nantiguas y los mapas de todos los plug-ins de Atlas \nhechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes acceder al foro en:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_12200"] = "Aviso importante:\n\nDebido al aumento del tamaño en los archivos de este accesorio, \nse han separado parte de los mapas de mazmorras, y otros accesorios \ninternos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras \nantiguas y los mapas de todos los plug-ins de Atlas \nhechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes acceder al foro en:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 
 	--************************************************
 -- Zone Names, Acronyms, and Common Strings

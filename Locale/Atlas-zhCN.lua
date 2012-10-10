@@ -147,6 +147,8 @@ if AL then
 	AL["ATLAS_INFO_12200"] = "重要提示：\n\n由于增加插件文件大小的关注，我们移出\n部分地下城地图和内置插件到单独模块。\n\n用户可以从各大知名的游戏站点下载我们\n的插件可能只包含了 Atlas 核心功能以及\n大灾变地图。\n\n用户如果想下载全部旧地下城地图和全部\n我们制作的 Atlas 其他模块需要单独下载。\n\n阅读更多信息在下面的论坛主题：\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 	AL["ATLAS_INFO_12201"] = "我们最近新增了一个新的 Atlas 插件 - |cff6666ffAtlas 情景战役|cffffffff，用以提供 WoW 5.0 \n起新增的情景战役的地图。\n\n请详见我们的网站以取得更详细的信息，并请记得分别下载并安装此插件。\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
+	AL["ATLAS_MISSING_MODULE"] = "Atlas 已侦测到遗失的模块/插件：";
+
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************

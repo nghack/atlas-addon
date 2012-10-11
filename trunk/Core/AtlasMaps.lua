@@ -2877,7 +2877,7 @@ Syntax:
 	SiegeofNiuzaoTempleB = {
 		ZoneName = { BZ["Siege of Niuzao Temple"].." [B]" };
 		Location = { BZ["Townlong Steppes"] };
-		DungeonHeroicID = "554";
+		DungeonID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current

@@ -95,7 +95,8 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "Pulsar control para ver las herramientas";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Activa mostrar ventanas emergentes de texto mientras pulsas Ctrl y pasas el ratón por encima de la información del mapa. Es util cuando el texto es demasiado largo y no se puede mostrar en la ventana.";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "No mostrar la misma información de nuevo.";
-
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Recuérdame que módulo(s) / plug-in(s) falta(n).";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Activar para comprobar si falta algún módulo / plug-in de Atlas después del inicio de WoW.";
 	AL["ATLAS_BUTTON_CLOSE"] = "Cerrar";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Click izquierdo para abrir Atlas.\nClick central para opciones.\nClick derecho y arrastrar para mover el icono.";
@@ -148,8 +149,10 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Vale";
 	
 	AL["ATLAS_INFO"] = "Información de Atlas";
-	AL["ATLAS_INFO_12200"] = "Aviso importante:\n\nDebido al aumento del tamaño en los archivos de este accesorio, \nse han separado parte de los mapas de mazmorras, y otros accesorios \ninternos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web \ndeberían de obtener únicamente el núcleo del accesorio, el cual solo contiene \nla función del núcleo y los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras \nantiguas y los mapas de todos los plug-ins de Atlas \nhechos por nosotros, tendrán que descargarselos por separado.\n\nPara mas información puedes acceder al foro en:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_12200"] = "Aviso importante:\n\nDebido al aumento del tamaño en los \narchivos de este accesorio, se han separado parte de los mapas de mazmorras, \ny otros accesorios internos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web obtendrán \núnicamente el núcleo del accesorio, el cual solo contiene la función del núcleo \ny los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras antiguas y \nlos mapas de todos los plug-ins \nde Atlas hechos por nosotros, tendrán que \ndescargarselos por separado.\n\nPara mas información accede a:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_12201"] = "Te informamos de que hemos creado un nuevo plug-in - |cff6666ffAtlas Escenarios|cffffffff, \nque contiene los nuevos mapas de los escenarios introducidos en WoW 5.0. \n\nPara mas detalles aacede a nuestra web, y no olvides de descargarlo / \ninstalarlo por separado.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
+	AL["ATLAS_MISSING_MODULE"] = "Atlas has detected missing module(s) / plugin(s): ";
 	--************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
@@ -252,7 +255,7 @@ if AL then
 	AL["BRM"] = "MRN"; -- Blackrock Mountain, Montaña Roca Negra"
 	AL["BWL"] = "GAN"; -- Blackwing Lair, Guarida Alanegra
 	AL["DM"] = "LM"; -- Dire Maul, La Masacre	
-AL["Gnome"] = "Gnome"; -- Gnomeregan
+	AL["Gnome"] = "Gnome"; -- Gnomeregan
 	AL["Halls"] = "Salones"; -- Scarlet Halls
 	AL["LBRS"] = "CRNI"; -- Lower Blackrock Spire
 	AL["Mara"] = "Mara"; -- Maraudon

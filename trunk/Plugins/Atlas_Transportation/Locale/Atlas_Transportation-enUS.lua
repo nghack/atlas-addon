@@ -52,4 +52,8 @@ if AL then
 	AL["Wind Rider"] = "Wind Rider";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Won't be available once the Battle for Andorhal chain is finished."; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Zeppelin Towers";
+	AL["Climbing Rope"] = "Climbing Rope";
+	AL["Rappelling Rope"] = "Rappelling Rope";
+	AL["Abandoned Kite"] = "Abandoned Kite";
+	AL["From see level to ground level"] = "From see level to ground level";
 end

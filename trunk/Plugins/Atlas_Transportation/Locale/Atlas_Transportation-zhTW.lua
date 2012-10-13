@@ -52,4 +52,7 @@ if AL then
 	AL["Wind Rider"] = "雙足飛龍";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "安多哈爾任務線完成後飛行點將會消失"; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "飛船空塔";
+	AL["Climbing Rope"] = "登山繩";
+	AL["Rappelling Rope"] = "垂降繩";
+	AL["Abandoned Kite"] = "被遺棄的鳶";
 end

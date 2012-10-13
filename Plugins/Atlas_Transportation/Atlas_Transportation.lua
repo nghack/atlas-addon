@@ -869,6 +869,16 @@ local myData = {
 		{ PURP.." C') "..BZ["Darnassus"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
 		{ PURP.." D') "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"]..", "..BZ["Kalimdor"] };
 		{ "" };
+		{ _RED..AL["Special transportation"] };
+		{ ORNG.." A) "..BZ["The Arboretum"]..", "..BZ["The Jade Forest"] };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ ORNG.." B) "..BZ["Thunder Hold"]..", "..BZ["The Jade Forest"] };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ ORNG.." C) "..BZ["Strongarm Airstrip"]..", "..BZ["The Jade Forest"].." / "..BZ["Serenity Falls"] };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ ORNG.." D) "..BZ["Winds' Edge"]..", "..BZ["Valley of the Four Winds"].." / "..BZ["The Deepwild"]..", "..BZ["Krasarang Wilds"] };
+		{ INDENT..GREY..AL["Rappelling Rope"].." / "..AL["Climbing Rope"] };
+		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };
 		{ WHIT.." 1) "..BZ["Paw'Don Village"] };

@@ -7,7 +7,12 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.22.2 (XXX. XX, 2012)
+-----------------------
+- Update Pandaria map to add the ropes and Abandoned Kite trabsportation nodes
+
 v1.22.1 (Oct. 10, 2012)
+-----------------------
 - Update Pandaria maps and legend info
 
 v1.22.0 (Sep. 25, 2012)

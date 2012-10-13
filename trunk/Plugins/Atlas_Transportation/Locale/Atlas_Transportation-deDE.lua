@@ -52,4 +52,8 @@ if AL then
 	AL["Wind Rider"] = "Windreiter";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Nicht mehr verfügbar, wenn die Schlacht um Andorhal abgeschlossen ist.";
 	AL["Zeppelin Towers"] = "Zeppelintürme";
+	AL["Climbing Rope"] = "Kletterseil";
+	AL["Rappelling Rope"] = "Abseilstrick";
+	AL["Abandoned Kite"] = "Herrenloser Drachen";
+	AL["From see level to ground level"] = "Von Meereshöhe auf Grundhöhe";
 end

@@ -55,4 +55,6 @@ if AL then
 	AL["Climbing Rope"] = "登山繩";
 	AL["Rappelling Rope"] = "垂降繩";
 	AL["Abandoned Kite"] = "被遺棄的鳶";
+	AL["From see level to ground level"] = "從海平面到地面";
+	AL["Whispercloud's Balloon"] = "雲語的氣球";
 end

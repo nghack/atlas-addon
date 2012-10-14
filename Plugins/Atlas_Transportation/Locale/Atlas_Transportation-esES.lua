@@ -64,4 +64,5 @@ if AL then
 	AL["Rappelling Rope"] = "Soga de rápel";
 --	AL["Abandoned Kite"] = "Abandoned Kite";
 --	AL["From see level to ground level"] = "From see level to ground level";
+--	AL["Whispercloud's Balloon"] = "Whispercloud's Balloon";
 end

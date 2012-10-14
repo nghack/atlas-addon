@@ -878,6 +878,8 @@ local myData = {
 		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
 		{ ORNG.." D) "..BZ["Winds' Edge"]..", "..BZ["Valley of the Four Winds"].." / "..BZ["The Deepwild"]..", "..BZ["Krasarang Wilds"] };
 		{ INDENT..GREY..AL["Rappelling Rope"].." / "..AL["Climbing Rope"] };
+		{ ORNG.." E) "..BZ["Whispercloud Rise"].." / "..BZ["Zouchin Province"]..", "..BZ["Kun-Lai Summit"] };
+		{ INDENT..GREY..AL["Whispercloud's Balloon"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };

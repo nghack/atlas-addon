@@ -62,5 +62,6 @@ if AL then
 	AL["Climbing Rope"] = "Канат";
 	AL["Rappelling Rope"] = "Канат для спуска";
 	AL["Abandoned Kite"] = "Брошенный воздушный змей";
-	AL["From see level to ground level"] = "From see level to ground level";
+--	AL["From see level to ground level"] = "From see level to ground level";
+	AL["Whispercloud's Balloon"] = "Воздушный шар Шепота Облака";
 end

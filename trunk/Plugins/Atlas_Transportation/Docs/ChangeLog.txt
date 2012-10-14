@@ -10,8 +10,10 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.22.2 (XXX. XX, 2012)
 -----------------------
 - Update Pandaria map:
-    - Add the ropes and Abandoned Kite trabsportation nodes
-    - Add the Whispercloud's Balloon nodes
+    - Added the ropes and Abandoned Kite trabsportation nodes
+    - Added the Whispercloud's Balloon nodes
+    - Added transportation portal path from Shrine of Seven Stars to 
+      Shattrath City and Dalaran
 
 v1.22.1 (Oct. 10, 2012)
 -----------------------

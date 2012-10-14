@@ -868,6 +868,8 @@ local myData = {
 		{ PURP.." B') "..BZ["Ironforge"]..", "..BZ["Dun Morogh"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." C') "..BZ["Darnassus"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
 		{ PURP.." D') "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"]..", "..BZ["Kalimdor"] };
+		{ PURP.." E') "..BZ["Shattrath City"]..", "..BZ["Terokkar Forest"]..", "..BZ["Outland"] };
+		{ PURP.." F') "..BZ["Dalaran"]..", "..BZ["Crystalsong Forest"]..", "..BZ["Northrend"] };
 		{ "" };
 		{ _RED..AL["Special transportation"] };
 		{ ORNG.." A) "..BZ["The Arboretum"]..", "..BZ["The Jade Forest"] };

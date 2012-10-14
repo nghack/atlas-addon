@@ -59,4 +59,8 @@ if AL then
 	AL["Wind Rider"] = "Укротитель ветрокрылов";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "Не будет доступна пока не завершена серия Битвы за Андорал."; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Башни Цеппелинов";
+	AL["Climbing Rope"] = "Канат";
+	AL["Rappelling Rope"] = "Канат для спуска";
+	AL["Abandoned Kite"] = "Брошенный воздушный змей";
+	AL["From see level to ground level"] = "From see level to ground level";
 end

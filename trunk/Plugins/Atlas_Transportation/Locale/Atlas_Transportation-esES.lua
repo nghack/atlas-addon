@@ -60,4 +60,8 @@ if AL then
 	AL["Wind Rider"] = "Jinete del viento";
 	AL["Won't be available once Thassarian departed"] = "No estará disponible una vez se marche Thassarian"; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
+	AL["Climbing Rope"] = "Cuerda de escalar";
+	AL["Rappelling Rope"] = "Soga de rápel";
+--	AL["Abandoned Kite"] = "Abandoned Kite";
+--	AL["From see level to ground level"] = "From see level to ground level";
 end

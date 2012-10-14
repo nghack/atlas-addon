@@ -47,9 +47,13 @@ if AL then
 	AL["Taxi Nodes"] = "Nœuds de transports";
 	AL["Transportation Maps"] = "Cartes des Transports";
 	AL["Transporter"] = "Transporteur";
-    AL["Transporters by the sea and on the cliff"] = "Transporteurs par la mer et sur la falaise"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
+	AL["Transporters by the sea and on the cliff"] = "Transporteurs par la mer et sur la falaise"; -- The transporters (machine) can be found at Fuselight-by-the-Sea
 	AL["West of the path to Timbermaw Hold"] = "Ouest du chemin du Repaire des Grumegueules";
 	AL["Wind Rider"] = "Coursier du vent";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "N'est plus disponible une fois la série de quêtes de la Bataille pour Andorhal terminée."; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "Tours de Zeppelin";
+	AL["Climbing Rope"] = "Corde d’escalade";
+	AL["Rappelling Rope"] = "Corde de rappel";
+	AL["Abandoned Kite"] = "Cerf-volant abandonné";
+	AL["From see level to ground level"] = "From see level to ground level";
 end

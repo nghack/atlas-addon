@@ -954,11 +954,11 @@ local myData = {
 		{ "" };
 		{ _RED..AL["Special transportation"] };
 		{ ORNG.." A) "..BZ["The Arboretum"]..", "..BZ["The Jade Forest"] };
-		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From sea level to ground level"]..")" };
 		{ ORNG.." B) "..BZ["Thunder Hold"]..", "..BZ["The Jade Forest"] };
-		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From sea level to ground level"]..")" };
 		{ ORNG.." C) "..BZ["Strongarm Airstrip"]..", "..BZ["The Jade Forest"].." / "..BZ["Serenity Falls"] };
-		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From see level to ground level"]..")" };
+		{ INDENT..GREY..AL["Abandoned Kite"].." ("..AL["From sea level to ground level"]..")" };
 		{ ORNG.." D) "..BZ["Winds' Edge"]..", "..BZ["Valley of the Four Winds"].." / "..BZ["The Deepwild"]..", "..BZ["Krasarang Wilds"] };
 		{ INDENT..GREY..AL["Rappelling Rope"].." / "..AL["Climbing Rope"] };
 		{ ORNG.." E) "..BZ["Whispercloud Rise"].." / "..BZ["Zouchin Province"]..", "..BZ["Kun-Lai Summit"] };

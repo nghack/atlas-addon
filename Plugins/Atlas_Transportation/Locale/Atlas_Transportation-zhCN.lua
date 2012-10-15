@@ -55,4 +55,9 @@ if AL then
 	AL["Wind Rider"] = "驭风者";
 	AL["Won't be available once the Battle for Andorhal chain is finished."] = "“安多哈尔之战”任务链完成之前不可使用。"; -- After quest "Alas, Andorhal" (27206) is completed.
 	AL["Zeppelin Towers"] = "飞艇塔";
+--	AL["Climbing Rope"] = "Climbing Rope";
+--	AL["Rappelling Rope"] = "Rappelling Rope";
+--	AL["Abandoned Kite"] = "Abandoned Kite";
+--	AL["From sea level to ground level"] = "From sea level to ground level";
+--	AL["Whispercloud's Balloon"] = "Whispercloud's Balloon";
 end

@@ -55,6 +55,6 @@ if AL then
 	AL["Climbing Rope"] = "Climbing Rope";
 	AL["Rappelling Rope"] = "Rappelling Rope";
 	AL["Abandoned Kite"] = "Abandoned Kite";
-	AL["From see level to ground level"] = "From see level to ground level";
+	AL["From sea level to ground level"] = "From sea level to ground level";
 	AL["Whispercloud's Balloon"] = "Whispercloud's Balloon";
 end

@@ -882,6 +882,8 @@ local myData = {
 		{ INDENT..GREY..AL["Rappelling Rope"].." / "..AL["Climbing Rope"] };
 		{ ORNG.." E) "..BZ["Whispercloud Rise"].." / "..BZ["Zouchin Province"]..", "..BZ["Kun-Lai Summit"] };
 		{ INDENT..GREY..AL["Whispercloud's Balloon"] };
+		{ ORNG.." F) "..BZ["Serpent's Spine"]..", "..BZ["Vale of Eternal Blossoms"].." / "..BZ["Terrace of Gurthan"]..", "..BZ["Dread Wastes"] };
+		{ INDENT..GREY..AL["Shado-Pan Rope"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };
@@ -963,6 +965,8 @@ local myData = {
 		{ INDENT..GREY..AL["Rappelling Rope"].." / "..AL["Climbing Rope"] };
 		{ ORNG.." E) "..BZ["Whispercloud Rise"].." / "..BZ["Zouchin Province"]..", "..BZ["Kun-Lai Summit"] };
 		{ INDENT..GREY..AL["Whispercloud's Balloon"] };
+		{ ORNG.." F) "..BZ["Serpent's Spine"]..", "..BZ["Vale of Eternal Blossoms"].." / "..BZ["Terrace of Gurthan"]..", "..BZ["Dread Wastes"] };
+		{ INDENT..GREY..AL["Shado-Pan Rope"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["The Jade Forest"] };

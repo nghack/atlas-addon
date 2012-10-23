@@ -7,6 +7,10 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.22.3 (Oct. XX, 2012)
+- Update Pandaria map:
+    - Added Shado-Pan Rope position
+
 v1.22.2 (Oct. 17, 2012)
 -----------------------
 - Update Pandaria map:

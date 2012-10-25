@@ -193,10 +193,11 @@ if AL then
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Bastion des Marteaux-hardis";
 	AL["Dragonmaw Clan Compound"] = "Forge des Gueules-de-Dragon";
-	
-	-- Temple of Kotmogu
-AL["Scoring Point"] = "Scoring Point"; -- Translation needed
 
 	-- Silvershard Mines
 	AL["Capture Point"] = "Point de capture";
+
+	-- Temple of Kotmogu
+	AL["Scoring Point"] = "Point de but"; -- Translation needed
+
 end

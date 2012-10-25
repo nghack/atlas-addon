@@ -1201,5 +1201,8 @@ if AL then
 	AL["Priestess Summerpetal"] = "Жрица Летний Лепесток";
 
 	--Terrace of Endless Spring
-
+	AL["Elder Asani"] = "Старейшина Асани";
+	AL["Elder Regail"] = "Старейшина Регейл";
+	AL["Protector Kaolan"] = "Защитник Каолань";
+	
 end

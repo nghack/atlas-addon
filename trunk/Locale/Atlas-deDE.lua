@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 03.10.2012
+-- Letztes Update: 25.10.2012
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1205,5 +1205,8 @@ if AL then
 	AL["Priestess Summerpetal"] = "Priesterin Sommerblatt";
 
 	--Terrace of Endless Spring
+	AL["Elder Asani"] = "Ältester Asani";
+	AL["Elder Regail"] = "Ältester Regail";
+	AL["Protector Kaolan"] = "Beschützer Kaolan"
 
 end

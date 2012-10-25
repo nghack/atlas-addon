@@ -32,8 +32,8 @@ local AL = AceLocale:NewLocale("Atlas_Transportation", "frFR", false);
 if AL then
 	AL["The Bogpaddle Bullet"] = "La balle de Brasse-Tourbe";
 	AL["Death Knight Only"] = "Chevalier de la mort seulement";	-- Taxi node in Acherus: The Ebon Hold, which is only for Death Knight
-	AL["Druid-only"] = "Druide seulement";				-- Taxi node in Nighthaven, Moonglade which is only for Druid
-	AL["Legend"] = "Légende";					-- The chart's legend, for example, the purple line means the portal's path
+	AL["Druid-only"] = "Druide seulement";						-- Taxi node in Nighthaven, Moonglade which is only for Druid
+	AL["Legend"] = "Légende";									-- The chart's legend, for example, the purple line means the portal's path
 	AL["Gryphon"] = "Griffon";
 	AL["Only available after winning the PvP battle"] = "Disponible uniquement après avoir remporté une bataille JcJ";
 	AL["Orb of Translocation"] = "Orbe de transposition";		-- The Orb in Silvermonn City and Ruins of Lordaeron
@@ -55,6 +55,7 @@ if AL then
 	AL["Climbing Rope"] = "Corde d’escalade";
 	AL["Rappelling Rope"] = "Corde de rappel";
 	AL["Abandoned Kite"] = "Cerf-volant abandonné";
---	AL["From sea level to ground level"] = "From sea level to ground level";
---	AL["Whispercloud's Balloon"] = "Whispercloud's Balloon";
+	AL["From sea level to ground level"] = "De la mer vers la terre ferme";
+	AL["Whispercloud's Balloon"] = "Montgolfière de Murmure de Nuage";
+	AL["Shado-Pan Rope"] = "Corde pandashan";
 end

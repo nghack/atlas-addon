@@ -100,6 +100,8 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "Maintenir la touche Ctrl enfoncée pour voir les infobulles";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Maintenir la touche Ctrl enfoncée pour voir les infobulles au passage de la souris. Très utile quand le texte est trop long pour apparaitre dans la fenêtre.";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Ne pas remontrer de nouveau l'information";
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Me rappeler en cas de module(s)/plug-in(s) manquant.";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Activer pour vérifier après le chargement de WoW s'il manque un module/plug-in Atlas.";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Fermer";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
@@ -114,7 +116,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Instances de l'Outreterre";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Instances de Norfendre";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Instances du Tréfonds";
-	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Instances de Pandaria";
+	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Instances de Pandarie";
 	AL["ATLAS_DDL_LEVEL"] = "Niveau";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances avant Niveau 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Niveau 45-60";
@@ -155,6 +157,8 @@ if AL then
 	AL["ATLAS_INFO"] = "Atlas Information";
 	AL["ATLAS_INFO_12200"] = "Information importante : \n\nSuite à l'augmentation de la taille des fichiers de l'addon, nous avons déplacé \nune partie de nos cartes des donjons et créé des modules séparés avec. \n\nLes utilisateurs qui téléchargent nos addons à partir de fameux sites tiers \npourraient n'avoir que l'addon principal qui ne contient que les fonctions de \nbase et les cartes de la dernière extension de WoW. \n\nSi vous souhaitez également voir les cartes des vieilles extensions, et donc \navoir tous ces modules Atlas que nous avons fait, vous devez les télécharger \net les installer séparément. \n\nPour plus d'information, lire le sujet suivant sur notre forum : \n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff \n\nOu visiter notre site web pour voir où les télécharger. \n|cff6666ffhttp://www.atlasmod.com/|cfffffff";
 	AL["ATLAS_INFO_12201"] = "Veuillez noter que nous avons créé un nouveau plug-in - |cff6666ffAtlas Scenarios|cffffffff, \nafin de fournir les cartes des scénarios introduits dans WoW 5.0. \n\nVisitez notre site web pour plus de détail, et n'oubliez pas de le \ntélécharger/installer séparément.";
+
+	AL["ATLAS_MISSING_MODULE"] = "Atlas a détecté des module(s)/plug-in(s) manquant : ";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
@@ -516,7 +520,7 @@ if AL then
 	--Ragefire Chasm
 	AL["Bovaal Whitehorn"] = "Bovaal Corne-blanche";
 	AL["Stone Guard Kurjack"] = "Garde de pierre Kurjack";
-AL["Scout Cage"] = "Scout Cage"; -- translation needed
+	AL["Scout Cage"] = "Cage d'eclaireur"; -- translation needed
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -641,8 +645,8 @@ AL["Scout Cage"] = "Scout Cage"; -- translation needed
 	--SM: Cathedral
 
 	--SM: Halls
-AL["Hunter Commander"] = "Hunter Commander"; -- Translation needed
-AL["Reinforced Archery Target"] = "Reinforced Archery Target"; -- Translation needed
+	AL["Hunter Commander"] = "Commandant des chasseurs"; -- Translation needed
+	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
@@ -695,10 +699,10 @@ AL["Reinforced Archery Target"] = "Reinforced Archery Target"; -- Translation ne
 --*******************
 
 	--Auch: Auchenai Crypts
-AL["Draenei Spirit"] = "Esprit Draenei"; -- Translation needed
+	AL["Draenei Spirit"] = "Esprit Draenei"; -- Translation needed
 	AL["Avatar of the Martyred"] = "Avatar des martyrs";
 	AL["D'ore"] = "D'ore";
-AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
+	AL["Tormented Soulpriest"] = "Prêtre de l'âme tourmenté"; -- Translation needed
 
 	--Auch: Mana-Tombs
 	AL["The Eye of Haramad"] = "L'Oeil d'Haramad";
@@ -1189,7 +1193,6 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 	AL["Professor Slate"] = "Professeur Alambic";
 	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
 	AL["The Dark Grimoire"] = "Le grimoire noir";
-
 	AL["Talking Skull"] = "Crâne parlant";
 	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
@@ -1199,12 +1202,16 @@ AL["Tormented Soulpriest"] = "Tormented Soulpriest"; -- Translation needed
 	AL["Shado-Master Chum Kiu"] = "Maître-pandashan Chum Kiu";
 
 	--Stormstout Brewery
-AL["Auntie Stormstout"] = "Auntie Brune d’Orage"; -- Translation needed
+	AL["Auntie Stormstout"] = "Tatie Brune d’Orage"; -- Translation needed
 	AL["Chen Stormstout"] = "Chen Brune d’Orage";
 
-AL["Master Windstrong"] = "Master Windstrong"; -- Translation needed
-AL["Priestess Summerpetal"] = "Priestess Summerpetal"; -- Translation needed
+	--Temple of the Jade Serpent
+AL["Master Windstrong"] = "Maître Windstrong"; -- Translation needed
+	AL["Priestess Summerpetal"] = "Prêtresse Pétale de l’Été"; -- Translation needed
 
 	--Terrace of Endless Spring
+	AL["Elder Asani"] = "Ancien Asani"; -- Translation needed
+	AL["Elder Regail"] = "Ancien Regail"; -- Translation needed
+	AL["Protector Kaolan"] = "Protecteur Kaolan"; -- Translation needed
 
 end

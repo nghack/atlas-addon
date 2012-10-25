@@ -62,6 +62,7 @@ if AL then
 	AL["Climbing Rope"] = "Канат";
 	AL["Rappelling Rope"] = "Канат для спуска";
 	AL["Abandoned Kite"] = "Брошенный воздушный змей";
---	AL["From sea level to ground level"] = "From sea level to ground level";
+	AL["From sea level to ground level"] = "От уровня моря к земле";
 	AL["Whispercloud's Balloon"] = "Воздушный шар Шепота Облака";
+	AL["Shado-Pan Rope"] = "Шадопанская веревка"; -- 66390
 end

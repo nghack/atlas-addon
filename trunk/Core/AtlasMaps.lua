@@ -2928,9 +2928,9 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 683) };
-		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani") };
-		{ WHIT..INDENT..Atlas_GetBossName("Elder Regail") };
-		{ WHIT..INDENT..Atlas_GetBossName("Protector Kaolan") };
+		{ WHIT..INDENT..AL["Elder Asani"] };
+		{ WHIT..INDENT..AL["Elder Regail"] };
+		{ WHIT..INDENT..AL["Protector Kaolan"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Tsulong", 742) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };

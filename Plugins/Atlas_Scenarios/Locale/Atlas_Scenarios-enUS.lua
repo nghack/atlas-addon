@@ -33,9 +33,12 @@ if AL then
 	-- Common Strings
 	AL["Stage 1"] = "Stage 1";
 	AL["Stage 2"] = "Stage 2";
+	AL["Stage 3"] = "Stage 3";
+	AL["Stage 4"] = "Stage 4";
 	AL["Final Stage"] = "Final Stage";
 	AL["Start"] = "Start";
 	AL["End"] = "End";
+	AL["Random"] = "Random";
 	
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -45,4 +48,12 @@ if AL then
 	AL["Save Thunderpaw Refuge"] = "Save Thunderpaw Refuge";
 	AL["Defeat Borokhula the Destroyer."] = "Defeat Borokhula the Destroyer.";
 
+	-- Arena of Annihilation
+	AL["Defeat Scar-shell"] = "Defeat Scar-shell";
+	AL["Defeat Jol'grum"] = "Defeat Jol'grum";
+	AL["Defeat Little Liuyang"] = "Defeat Little Liuyang";
+	AL["Defeat Chagan Firehoof"] = "Defeat Chagan Firehoof";
+	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
+	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
+	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
 end

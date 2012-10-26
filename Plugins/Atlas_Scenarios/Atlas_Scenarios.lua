@@ -122,6 +122,21 @@ local myData = {
 		PlayerLimit = "3";
 		{ "" };
 	};
+	SC_ArenaOfAnnihilation = {
+		ZoneName = { BZ["Arena of Annihilation"] };
+		Location = { BZ["Temple of the White Tiger"]..", "..BZ["Kun-Lai Summit"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ INDENT..YELL..AL["Stage 1"].." - "..AL["Defeat Scar-shell"] };
+		{ INDENT..YELL..AL["Stage 2"].." - "..AL["Defeat Jol'grum"] };
+		{ INDENT..YELL..AL["Stage 3"].." - "..AL["Defeat Little Liuyang"] };
+		{ INDENT..YELL..AL["Stage 4"].." - "..AL["Defeat Chagan Firehoof"] };
+		{ INDENT..YELL..AL["Final Stage"].." ("..AL["Random"]..")" };
+		{ INDENT..INDENT..YELL..AL["Defeat Maki Waterblade"] };
+		{ INDENT..INDENT..YELL..AL["Defeat Satay Byu"] };
+		{ INDENT..INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
+	};
 
 };
 

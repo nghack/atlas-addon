@@ -34,6 +34,7 @@ local PURP = "|cff9900ff";
 local WHIT = "|cffffffff";
 local CYAN = "|cff00ffff";
 local GREY = "|cff999999";
+local YELL = "|cffcccc00";
 local INDENT = "      ";
 
 local myCategory = AL["Scenarios Maps"];
@@ -48,8 +49,14 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..BZ["Thunderpaw Overlook"] };
-		{ BLUE.." B) "..BZ["Thunderpaw Refuge"] };
+		{ BLUE.." A) "..BZ["Thunderpaw Overlook"].." - "..AL["Start"] };
+		{ INDENT..YELL..AL["Stage 1"].." - "..AL["Make Boomer's Brew"] };
+		{ INDENT..INDENT..GREY..AL["Assist Blanche in brewing her famous Boomer's Brew."] };
+		{ INDENT..YELL..AL["Stage 2"].." - "..AL["Road to Thunderpaw"] };
+		{ INDENT..INDENT..GREY..AL["Escort Blanche down Thunderpaw Road."] };
+		{ BLUE.." B) "..BZ["Thunderpaw Refuge"].." - "..AL["End"] };
+		{ INDENT..YELL..AL["Final Stage"].." - "..AL["Save Thunderpaw Refuge"] };
+		{ INDENT..INDENT..GREY..AL["Defeat Borokhula the Destroyer."] };
 	};
 	SC_AssaultonZanvess = {
 		ZoneName = { BZ["Assault on Zan'vess"] };

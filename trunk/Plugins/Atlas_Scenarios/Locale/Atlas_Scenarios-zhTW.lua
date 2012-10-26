@@ -33,6 +33,9 @@ if AL then
 	-- Common Strings
 	AL["Stage 1"] = "階段 1";
 	AL["Stage 2"] = "階段 2";
+	AL["Stage 3"] = "階段 3";
+	AL["Stage 4"] = "階段 4";
+	AL["Stage 5"] = "階段 5";
 	AL["Final Stage"] = "最後階段";
 	AL["Start"] = "開始";
 	AL["End"] = "結束";
@@ -41,7 +44,7 @@ if AL then
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "協助白蘭琪釀造她遠近馳名的轟雷酒。";
 	AL["Road to Thunderpaw"] = "前往雷爪靜修居";
-	AL["Escort Blanche down Thunderpaw Road."] = "Escort Blanche down Thunderpaw Road.";
+	AL["Escort Blanche down Thunderpaw Road."] = "護送白蘭琪安全通過雷爪路。";
 	AL["Save Thunderpaw Refuge"] = "拯救雷爪靜修居";
 	AL["Defeat Borokhula the Destroyer."] = "殺死『毀滅者』波羅庫拉。";
 

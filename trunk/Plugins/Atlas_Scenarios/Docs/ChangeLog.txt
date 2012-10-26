@@ -8,8 +8,10 @@ Copyright 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 
 v1.22.2 (XXX. XX, 2012)
-- Map update:
+- Map updated:
     - A Brewing Storm
+- Map added: 
+    - Arena of Annihilation
 
 v1.22.1 (Oct. 10, 2012)
 -----------------------

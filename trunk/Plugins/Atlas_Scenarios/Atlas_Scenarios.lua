@@ -154,15 +154,15 @@ local myData = {
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ YELL..AL["Stage 1"].." - "..AL["Rescue the Villagers"] };
-		AL["Defeat the monsters attacking the Greenstone villagers."] };
+		{ INDENT..YELL..AL["Defeat the monsters attacking the Greenstone villagers."] };
 		{ YELL..AL["Stage 2"].." - "..AL["Rescue the Dojo"] };
-		AL["Defeat the monsters attacking Greenstone's dojo."] };
+		{ INDENT..YELL..AL["Defeat the monsters attacking Greenstone's dojo."] };
 		{ YELL..AL["Stage 3"].." - "..AL["Recover Burgled Barrels"] };
-		AL["Find burgled brew barrels in the forest and return them to the village dojo."] };
+		{ INDENT..YELL..AL["Find burgled brew barrels in the forest and return them to the village dojo."] };
 		{ YELL..AL["Stage 4"].." - "..AL["Rescue Greenstone Masons"] };
-		AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] };
+		{ INDENT..YELL..AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] };
 		{ YELL..AL["Final Stage"].." - "..AL["Defeat Vengeful Hui"] };
-		AL["Defeat Vengeful Hui."] };
+		{ INDENT..YELL..AL["Defeat Vengeful Hui."] };
 	};
 	SC_CryptofForgottenKings = {
 		ZoneName = { BZ["Crypt of Forgotten Kings"] };

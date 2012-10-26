@@ -29,4 +29,20 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "enUS", true);
 
 if AL then
 	AL["Scenarios Maps"] = "Scenarios Maps";
+	
+	-- Common Strings
+	AL["Stage 1"] = "Stage 1";
+	AL["Stage 2"] = "Stage 2";
+	AL["Final Stage"] = "Final Stage";
+	AL["Start"] = "Start";
+	AL["End"] = "End";
+	
+	-- Brewing Storm
+	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
+	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Assist Blanche in brewing her famous Boomer's Brew.";
+	AL["Road to Thunderpaw"] = "Road to Thunderpaw";
+	AL["Escort Blanche down Thunderpaw Road."] = "Escort Blanche down Thunderpaw Road.";
+	AL["Save Thunderpaw Refuge"] = "Save Thunderpaw Refuge";
+	AL["Defeat Borokhula the Destroyer."] = "Defeat Borokhula the Destroyer.";
+
 end

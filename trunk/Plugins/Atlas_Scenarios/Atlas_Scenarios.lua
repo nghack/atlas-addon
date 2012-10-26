@@ -166,7 +166,7 @@ local myData = {
 	};
 	SC_CryptofForgottenKings = {
 		ZoneName = { BZ["Crypt of Forgotten Kings"] };
-		Location = { "" };
+		Location = { BZ["Vale of Eternal Blossoms"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";

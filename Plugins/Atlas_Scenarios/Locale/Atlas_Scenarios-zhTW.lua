@@ -39,7 +39,8 @@ if AL then
 	AL["Final Stage"] = "最後階段";
 	AL["Start"] = "開始";
 	AL["End"] = "結束";
-	
+	AL["Random"] = "隨機";
+
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "協助白蘭琪釀造她遠近馳名的轟雷酒。";

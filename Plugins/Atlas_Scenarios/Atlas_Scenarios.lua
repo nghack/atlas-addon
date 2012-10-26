@@ -58,6 +58,22 @@ local myData = {
 		{ INDENT..YELL..AL["Final Stage"].." - "..AL["Save Thunderpaw Refuge"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Borokhula the Destroyer."] };
 	};
+	SC_ArenaOfAnnihilation = {
+		ZoneName = { BZ["Arena of Annihilation"] };
+		Location = { BZ["Temple of the White Tiger"]..", "..BZ["Kun-Lai Summit"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL..AL["Stage 1"].." - "..AL["Defeat Scar-shell"] };
+		{ YELL..AL["Stage 2"].." - "..AL["Defeat Jol'grum"] };
+		{ YELL..AL["Stage 3"].." - "..AL["Defeat Little Liuyang"] };
+		{ YELL..AL["Stage 4"].." - "..AL["Defeat Chagan Firehoof"] };
+		{ YELL..AL["Final Stage"].." - "..AL["Defeat the Final Challenger!"].." ("..AL["Random"]..")" };
+		{ INDENT..YELL..AL["Defeat Maki Waterblade"] };
+		{ INDENT..YELL..AL["Defeat Satay Byu"] };
+		{ INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
+	};
+--[[
 	SC_AssaultonZanvess = {
 		ZoneName = { BZ["Assault on Zan'vess"] };
 		Location = { BZ["Zan'vess"]..", "..BZ["Dread Wastes"] };
@@ -66,13 +82,23 @@ local myData = {
 		PlayerLimit = "3";
 		{ "" };
 	};
+]]
 	SC_TheramoresFallAlliance = {
 		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Alliance"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["To the Waterline!"] };
+		{ INDENT..YELL..AL["Rig powder barrels on all six ships."] };
+		{ YELL..AL["Stage 2"].." - "..AL["The Blastmaster"] };
+		{ INDENT..YELL..AL["Inform Blastmaster Sparkfuse of your success."] };
+		{ YELL..AL["Stage 3"].." - "..AL["Gryphon, Down"] };
+		{ INDENT..YELL..AL["Slay Baldruc and his gryphons."] };
+		{ YELL..AL["Stage 4"].." - "..AL["Tanks for Nothing!"] };
+		{ INDENT..YELL..AL["Destroy Big Bessa and sabotage any unmanned tanks."] };
+		{ YELL..AL["Stage 5"].." - "..AL["Fly, Spy!"] };
+		{ INDENT..YELL..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
 	};
 	SC_TheramoresFallHorde = {
 		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
@@ -80,7 +106,18 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["Welcome to Theramore"] };
+		{ INDENT..YELL..AL["Defend the ship from oncoming Horde."] };
+		{ YELL..AL["Stage 2"].." - "..AL["Sweep the Harbor"] };
+		{ INDENT..YELL..AL["Defeat the Horde in the harbor."] };
+		{ YELL..AL["Stage 3"].." - "..AL["Into the Ruins"] };
+		{ INDENT..YELL..AL["Fight past the enemy into the heart of ruined Theramore."] };
+		{ YELL..AL["Stage 4"].." - "..AL["The Lady Proudmoore"] };
+		{ INDENT..YELL..AL["Locate Jaina in the Mana Bomb crater."] };
+		{ YELL..AL["Stage 5"].." - "..AL["Destroy the Destroyer"] };
+		{ INDENT..YELL..AL["Destroy the siege engine at the west gate and recover the stolen standards."] };
+		{ YELL..AL["Final Stage"].." - "..AL["The Last Stand"] };
+		{ INDENT..YELL..AL["Protect Jaina while she attunes to the Focusing Iris."] };
 	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };
@@ -88,7 +125,12 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["Escort Brewmaster Bo"] };
+		{ INDENT..YELL..AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] };
+		{ YELL..AL["Stage 2"].." - "..AL["Fill the Brewing Cauldron"] };
+		{ INDENT..YELL..AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] };
+		{ YELL..AL["Final Stage"].." - "..AL["Defeat Captain Ook"] };
+		{ INDENT..YELL..AL["Defeat Captain Ook."] };
 	};
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };
@@ -96,7 +138,14 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["The Brewmoon Festival!"] };
+		{ INDENT..YELL..AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] };
+		{ YELL..AL["Stage 2"].." - "..AL["The Scouts Report."] };
+		{ INDENT..YELL..AL["Investigate the Yaungol sightings."] };
+		{ YELL..AL["Stage 3"].." - "..AL["The Yaungol attack!"] };
+		{ INDENT..YELL..AL["Stop the Bataari invasion on Binan Village."] };
+		{ YELL..AL["Final Stage"].." - "..AL["Warbringer Qobi"] };
+		{ INDENT..YELL..AL["Defeat Warbringer Qobi."] };
 	};
 	SC_GreenstoneVillage = {
 		ZoneName = { BZ["Greenstone Village"] };
@@ -104,7 +153,16 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["Rescue the Villagers"] };
+		AL["Defeat the monsters attacking the Greenstone villagers."] };
+		{ YELL..AL["Stage 2"].." - "..AL["Rescue the Dojo"] };
+		AL["Defeat the monsters attacking Greenstone's dojo."] };
+		{ YELL..AL["Stage 3"].." - "..AL["Recover Burgled Barrels"] };
+		AL["Find burgled brew barrels in the forest and return them to the village dojo."] };
+		{ YELL..AL["Stage 4"].." - "..AL["Rescue Greenstone Masons"] };
+		AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] };
+		{ YELL..AL["Final Stage"].." - "..AL["Defeat Vengeful Hui"] };
+		AL["Defeat Vengeful Hui."] };
 	};
 	SC_CryptofForgottenKings = {
 		ZoneName = { BZ["Crypt of Forgotten Kings"] };
@@ -112,9 +170,16 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL..AL["Stage 1"].." - "..AL["End the Terror"] };
+		{ INDENT..YELL..AL["Defeat the corrupted Shado-Pan Leader."] };
+		{ YELL..AL["Stage 2"].." - "..AL["The Pool of Life"] };
+		{ INDENT..YELL..AL["Cleanse the Sha corruption from the Pool of Life."] };
+		{ YELL..AL["Stage 3"].." - "..AL["Search the Crypts"] };
+		{ INDENT..YELL..AL["Delve deeper into the crypt and search the bottom level."] };
+		{ YELL..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
+		{ INDENT..YELL..AL["Destroy the Abomination of Anger."] };
 	};
-	SC_PeakofSerenity = {
+--[[	SC_PeakofSerenity = {
 		ZoneName = { BZ["Peak of Serenity"] };
 		Location = { BZ["Peak of Serenity"]..", "..BZ["Kun-Lai Summit"] };
 		LevelRange = "90";
@@ -122,22 +187,7 @@ local myData = {
 		PlayerLimit = "3";
 		{ "" };
 	};
-	SC_ArenaOfAnnihilation = {
-		ZoneName = { BZ["Arena of Annihilation"] };
-		Location = { BZ["Temple of the White Tiger"]..", "..BZ["Kun-Lai Summit"] };
-		LevelRange = "90";
-		MinLevel = "90";
-		PlayerLimit = "3";
-		{ INDENT..YELL..AL["Stage 1"].." - "..AL["Defeat Scar-shell"] };
-		{ INDENT..YELL..AL["Stage 2"].." - "..AL["Defeat Jol'grum"] };
-		{ INDENT..YELL..AL["Stage 3"].." - "..AL["Defeat Little Liuyang"] };
-		{ INDENT..YELL..AL["Stage 4"].." - "..AL["Defeat Chagan Firehoof"] };
-		{ INDENT..YELL..AL["Final Stage"].." ("..AL["Random"]..")" };
-		{ INDENT..INDENT..YELL..AL["Defeat Maki Waterblade"] };
-		{ INDENT..INDENT..YELL..AL["Defeat Satay Byu"] };
-		{ INDENT..INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
-	};
-
+]]
 };
 
 Atlas_RegisterPlugin("Atlas_Scenarios", myCategory, myData);

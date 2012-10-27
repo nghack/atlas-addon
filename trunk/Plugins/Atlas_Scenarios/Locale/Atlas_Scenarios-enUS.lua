@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "enUS", true);
 
 if AL then
 	AL["Scenarios Maps"] = "Scenarios Maps";
-	
+
 	-- Common Strings
 	AL["Stage 1"] = "Stage 1";
 	AL["Stage 2"] = "Stage 2";
@@ -40,7 +40,7 @@ if AL then
 	AL["Start"] = "Start";
 	AL["End"] = "End";
 	AL["Random"] = "Random";
-	
+
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Assist Blanche in brewing her famous Boomer's Brew.";
@@ -60,7 +60,7 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
 
 	-- Assault on Zan'vess
-	
+
 	-- Theramore's Fall - Alliance
 	AL["To the Waterline!"] = "To the Waterline!";
 	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
@@ -128,5 +128,5 @@ if AL then
 	AL["Destroy the Abomination of Anger."] = "Destroy the Abomination of Anger.";
 
 	-- Peak of Serenity
-	
+
 end

@@ -88,6 +88,7 @@ if AL then
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protect Jaina while she attunes to the Focusing Iris.";
 
 	-- Unga Ingoo
+	AL["Brewing Cauldron"] = "Brewing Cauldron";
 	AL["Escort Brewmaster Bo"] = "Escort Brewmaster Bo";
 	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron.";
 	AL["Fill the Brewing Cauldron"] = "Fill the Brewing Cauldron";

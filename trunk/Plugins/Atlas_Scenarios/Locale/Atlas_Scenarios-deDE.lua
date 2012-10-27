@@ -40,6 +40,7 @@ if AL then
 	AL["Start"] = "Anfang";
 	AL["End"] = "Ende";
 	AL["Random"] = "Zufällig";
+	AL["Summon"] = "Beschwörbar";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Braut Hammerbräu";
@@ -51,10 +52,15 @@ if AL then
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Narbenpanzer";
+	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Beschwört und bezwingt die mächtige Drachenschildkröte Narbenpanzer.";
 	AL["Jol'grum"] = "Jol'Grum";
+	AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] = "Beschwört und bezwingt den grummelfressenden, schneepirschenden Schrecken Jol'Grum.";
 	AL["Little Liuyang"] = "Klein Liuyang";
+	AL["Summon and defeat the playful fire spirit, Liuyang."] = "Beschwört und bezwingt den verspielten Feuergeist, Liuyang.";
 	AL["Chagan Firehoof"] = "Chagan Feuerhuf";
+	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Beschwört und bezwingt den wandernden Yaungolkrieger Chagan Feuerhuf.";
 	AL["Defeat the Final Challenger!"] = "Bezwingt den letzten Herausforderer!";
+	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Beschwört und bezwingt den letzten Herausforderer und holt Euch bei Wodin Eure Belohnung ab!";
 	AL["Defeat Maki Waterblade"] = "Bezwingt Maki Wasserklinge";
 	AL["Defeat Satay Byu"] = "Bezwingt Satay Byu";
 	AL["Defeat Cloudbender Kobo"] = "Bezwingt Wolkenformer Kobo";
@@ -86,8 +92,13 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Zerstört die Belagerungsmaschine am Westtor und holt die gestohlenen Standarten zurück.";
 	AL["The Last Stand"] = "Das letzte Gefecht";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Beschützt Jaina, während sie sich auf die fokussierende Iris einstimmt.";
+	AL["Horde Ship"] = "Horde-Schiff";
+	AL["The heart of ruined Theramore"] = "Herz der Ruinen von Theramore";
+	AL["Jaina"] = "Jaina";
+	AL["West Gate"] = "Westtor";
 
 	-- Unga Ingoo
+	AL["Brewing Cauldron"] = "Braukessel";
 	AL["Escort Brewmaster Bo"] = "Eskortiert Braumeister Bo";
 	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Bringt Braumeister Bo zum Braukessel von Unga Ingu.";
 	AL["Fill the Brewing Cauldron"] = "Füllt den Braukessel";

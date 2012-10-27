@@ -67,7 +67,7 @@ if AL then
 
 	-- Assault on Zan'vess
 
-	-- Theramore's Fall - Alliance
+	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "To the Waterline!";
 	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
 	AL["The Blastmaster"] = "The Blastmaster";
@@ -79,7 +79,7 @@ if AL then
 	AL["Fly, Spy!"] = "Fly, Spy!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
 
-	-- Theramore's Fall - Horde
+	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Welcome to Theramore";
 	AL["Defend the ship from oncoming Horde."] = "Defend the ship from oncoming Horde.";
 	AL["Sweep the Harbor"] = "Sweep the Harbor";
@@ -92,6 +92,10 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Destroy the siege engine at the west gate and recover the stolen standards.";
 	AL["The Last Stand"] = "The Last Stand";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protect Jaina while she attunes to the Focusing Iris.";
+	AL["Horde Ship"] = "Horde Ship";
+	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
+	AL["Jaina"] = "Jaina";
+	AL["West Gate"] = "West Gate";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Brewing Cauldron";

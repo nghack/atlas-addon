@@ -61,7 +61,7 @@ if AL then
 
 	-- Assault on Zan'vess
 
-	-- Theramore's Fall - Alliance
+	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Ein Schlag ins Wasser!";
 	AL["Rig powder barrels on all six ships."] = "Manipuliert die Pulverfässer auf allen sechs Schiffen.";
 	AL["The Blastmaster"] = "Der Sprengmeister";
@@ -73,7 +73,7 @@ if AL then
 	AL["Fly, Spy!"] = "Auf der Flucht!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Tötet Hedric Ebenstab und befreit Thalen Sangweber aus der Wehrzitadelle.";
 
-	-- Theramore's Fall - Horde
+	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Willkommen in Theramore";
 	AL["Defend the ship from oncoming Horde."] = "Verteidigt das Schiff gegen die anstürmende Horde.";
 	AL["Sweep the Harbor"] = "Kehrstunde im Hafen";

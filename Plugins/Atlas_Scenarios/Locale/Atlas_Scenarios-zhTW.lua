@@ -49,4 +49,12 @@ if AL then
 	AL["Save Thunderpaw Refuge"] = "拯救雷爪靜修居";
 	AL["Defeat Borokhula the Destroyer."] = "殺死『毀滅者』波羅庫拉。";
 
+	-- Unga Ingoo
+	AL["Brewing Cauldron"] = "釀酒鍋";
+	AL["Escort Brewmaster Bo"] = "護送釀酒大師阿波";
+	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "帶釀酒大師阿波到仰加印古的釀酒鍋。";
+	AL["Fill the Brewing Cauldron"] = "倒滿釀酒鍋";
+	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "帶200個仰加叢林酒到釀酒鍋。";
+	AL["Defeat Captain Ook"] = "殺死烏克船長";
+	AL["Defeat Captain Ook."] = "殺死烏克船長。";
 end

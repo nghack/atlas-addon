@@ -40,6 +40,7 @@ if AL then
 	AL["Start"] = "開始";
 	AL["End"] = "結束";
 	AL["Random"] = "隨機";
+	AL["Summon"] = "召喚";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";

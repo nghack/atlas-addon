@@ -50,10 +50,10 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Bezwingt Borokhula den Zerstörer";
 
 	-- Arena of Annihilation
-	AL["Defeat Scar-shell"] = "Bezwingt Narbenpanzer";
-	AL["Defeat Jol'grum"] = "Bezwingt Jol'Grum";
-	AL["Defeat Little Liuyang"] = "Bezwingt Klein Liuyang";
-	AL["Defeat Chagan Firehoof"] = "Bezwingt Chagan Feuerhuf";
+	AL["Scar-shell"] = "Narbenpanzer";
+	AL["Jol'grum"] = "Jol'Grum";
+	AL["Little Liuyang"] = "Klein Liuyang";
+	AL["Chagan Firehoof"] = "Chagan Feuerhuf";
 	AL["Defeat the Final Challenger!"] = "Bezwingt den letzten Herausforderer!";
 	AL["Defeat Maki Waterblade"] = "Bezwingt Maki Wasserklinge";
 	AL["Defeat Satay Byu"] = "Bezwingt Satay Byu";

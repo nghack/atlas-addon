@@ -89,8 +89,8 @@ local myData = {
 		{ "" };
 	};
 ]]
-	SC_TheramoresFallAlliance = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Alliance"] };
+	SC_TheramoresFallHorde = {
+		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -106,24 +106,30 @@ local myData = {
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["Fly, Spy!"] };
 		{ INDENT..GREY..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
 	};
-	SC_TheramoresFallHorde = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
+	SC_TheramoresFallAlliance = {
+		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Alliance"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["Welcome to Theramore"] };
-		{ INDENT..GREY..AL["Defend the ship from oncoming Horde."] };
-		{ YELL.."- "..AL["Stage 2"].." - "..AL["Sweep the Harbor"] };
-		{ INDENT..GREY..AL["Defeat the Horde in the harbor."] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["Into the Ruins"] };
-		{ INDENT..GREY..AL["Fight past the enemy into the heart of ruined Theramore."] };
-		{ YELL.."- "..AL["Stage 4"].." - "..AL["The Lady Proudmoore"] };
-		{ INDENT..GREY..AL["Locate Jaina in the Mana Bomb crater."] };
-		{ YELL.."- "..AL["Stage 5"].." - "..AL["Destroy the Destroyer"] };
-		{ INDENT..GREY..AL["Destroy the siege engine at the west gate and recover the stolen standards."] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["The Last Stand"] };
-		{ INDENT..GREY..AL["Protect Jaina while she attunes to the Focusing Iris."] };
+		{ BLUE.." A) "..AL["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Welcome to Theramore"] };
+		{ INDENT..INDENT..GREY..AL["Defend the ship from oncoming Horde."] };
+		{ BLUE.." B) "..AL["Horde Ship"] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Sweep the Harbor"] };
+		{ INDENT..INDENT..GREY..AL["Defeat the Horde in the harbor."] };
+		{ BLUE.." C) "..AL["The heart of ruined Theramore"] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Into the Ruins"] };
+		{ INDENT..INDENT..GREY..AL["Fight past the enemy into the heart of ruined Theramore."] };
+		{ BLUE.." D) "..AL["Jaina"] };
+		{ INDENT..YELL.."- "..AL["Stage 4"].." - "..AL["The Lady Proudmoore"] };
+		{ INDENT..INDENT..GREY..AL["Locate Jaina in the Mana Bomb crater."] };
+		{ BLUE.." E) "..AL["West Gate"] };
+		{ INDENT..YELL.."- "..AL["Stage 5"].." - "..AL["Destroy the Destroyer"] };
+		{ INDENT..INDENT..GREY..AL["Destroy the siege engine at the west gate and recover the stolen standards."] };
+		{ BLUE.." D) "..AL["Jaina"] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["The Last Stand"] };
+		{ INDENT..INDENT..GREY..AL["Protect Jaina while she attunes to the Focusing Iris."] };
 	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };

@@ -64,14 +64,20 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["Defeat Scar-shell"] };
-		{ YELL.."- "..AL["Stage 2"].." - "..AL["Defeat Jol'grum"] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["Defeat Little Liuyang"] };
-		{ YELL.."- "..AL["Stage 4"].." - "..AL["Defeat Chagan Firehoof"] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Final Challenger!"].." ("..AL["Random"]..")" };
-		{ INDENT..YELL..AL["Defeat Maki Waterblade"] };
-		{ INDENT..YELL..AL["Defeat Satay Byu"] };
-		{ INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
+		{ BLUE.." A) "..AL["Summon"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Scar-shell"] };
+		{ INDENT..INDENT..GREY..AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Jol'grum"] };
+		{ INDENT..INDENT..GREY..AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Little Liuyang"] };
+		{ INDENT..INDENT..GREY..AL["Summon and defeat the playful fire spirit, Liuyang."] };
+		{ INDENT..YELL.."- "..AL["Stage 4"].." - "..AL["Chagan Firehoof"] };
+		{ INDENT..INDENT..GREY..AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Final Challenger!"].." ("..AL["Random"]..")" };
+		{ INDENT..INDENT..GREY..AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] };
+		{ INDENT..INDENT..YELL..AL["Defeat Maki Waterblade"] };
+		{ INDENT..INDENT..YELL..AL["Defeat Satay Byu"] };
+		{ INDENT..INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
 	};
 --[[
 	SC_AssaultonZanvess = {

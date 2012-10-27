@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -40,6 +40,7 @@ if AL then
 	AL["Start"] = "Start";
 	AL["End"] = "End";
 	AL["Random"] = "Random";
+	AL["Summon"] = "Summon";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -50,11 +51,16 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Defeat Borokhula the Destroyer.";
 
 	-- Arena of Annihilation
-	AL["Defeat Scar-shell"] = "Defeat Scar-shell";
-	AL["Defeat Jol'grum"] = "Defeat Jol'grum";
-	AL["Defeat Little Liuyang"] = "Defeat Little Liuyang";
-	AL["Defeat Chagan Firehoof"] = "Defeat Chagan Firehoof";
+	AL["Scar-shell"] = "Scar-shell";
+	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Summon and defeat the mighty dragon turtle, Scar-Shell.";
+	AL["Jol'grum"] = "Jol'grum";
+	AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] = "Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum.";
+	AL["Little Liuyang"] = "Little Liuyang";
+	AL["Summon and defeat the playful fire spirit, Liuyang."] = "Summon and defeat the playful fire spirit, Liuyang.";
+	AL["Chagan Firehoof"] = "Chagan Firehoof";
+	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Summon and defeat the wandering yaungol warrior, Chagan Firehoof.";
 	AL["Defeat the Final Challenger!"] = "Defeat the Final Challenger!";
+	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Summon and defeat the final challenger and then claim your reward from Wodin!";
 	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
 	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
 	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";

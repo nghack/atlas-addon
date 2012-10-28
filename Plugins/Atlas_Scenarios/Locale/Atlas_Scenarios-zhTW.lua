@@ -50,6 +50,35 @@ if AL then
 	AL["Save Thunderpaw Refuge"] = "拯救雷爪靜修居";
 	AL["Defeat Borokhula the Destroyer."] = "殺死『毀滅者』波羅庫拉。";
 
+	-- Arena of Annihilation
+	AL["Scar-shell"] = "疤殼";
+	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "召喚並擊敗強大的龍龜疤殼！";
+	AL["Jol'grum"] = "悠格魯姆";
+	AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] = "召喚並擊敗專吃咕魯摩的冰原恐懼：悠格魯姆。";
+	AL["Little Liuyang"] = "小劉楊";
+	AL["Summon and defeat the playful fire spirit, Liuyang."] = "召喚並擊敗好動的火靈，劉楊。";
+	AL["Chagan Firehoof"] = "查剛·火蹄";
+	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "召喚並擊敗流浪的揚古戰士，查剛·火蹄。";
+	AL["Defeat the Final Challenger!"] = "擊敗最後挑戰者！";
+	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "召喚並擊敗最後一位挑戰者，然後向烏丁領取獎賞。";
+	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
+	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
+	AL["Defeat Cloudbender Kobo"] = "擊敗屈雲者·柯博";
+
+	-- Assault on Zan'vess
+
+	-- Theramore's Fall - Horde
+--	AL["To the Waterline!"] = "To the Waterline!";
+--	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
+--	AL["The Blastmaster"] = "The Blastmaster";
+--	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
+--	AL["Gryphon, Down"] = "Gryphon, Down";
+--	AL["Slay Baldruc and his gryphons."] = "Slay Baldruc and his gryphons.";
+--	AL["Tanks for Nothing!"] = "Tanks for Nothing!";
+--	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Destroy Big Bessa and sabotage any unmanned tanks.";
+--	AL["Fly, Spy!"] = "Fly, Spy!";
+--	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
+
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "歡迎來到塞拉摩";
 	AL["Defend the ship from oncoming Horde."] = "防衛船艦。";
@@ -103,4 +132,17 @@ if AL then
 	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "前往石匠區，喚醒昏迷的村民。";
 	AL["Defeat Vengeful Hui"] = "殺死復仇之穢";
 	AL["Defeat Vengeful Hui."] = "殺死復仇之穢。";
+
+	-- Crypt of Forgotten Kings
+--	AL["End the Terror"] = "End the Terror";
+--	AL["Defeat the corrupted Shado-Pan Leader."] = "Defeat the corrupted Shado-Pan Leader.";
+--	AL["The Pool of Life"] = "The Pool of Life";
+--	AL["Cleanse the Sha corruption from the Pool of Life."] = "Cleanse the Sha corruption from the Pool of Life.";
+--	AL["Search the Crypts"] = "Search the Crypts";
+--	AL["Delve deeper into the crypt and search the bottom level."] = "Delve deeper into the crypt and search the bottom level.";
+--	AL["Destroy the Sha"] = "Destroy the Sha";
+--	AL["Destroy the Abomination of Anger."] = "Destroy the Abomination of Anger.";
+
+	-- Peak of Serenity
+
 end

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 04/10/2012
+-- Última Actualización (last update): 28/10/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -1179,36 +1179,39 @@ if AL then
 	AL["Mortaxx <The Tolling Bell>"] = "Mortaxx <La campana que dobla>";
 	AL["Tiki Lord Zim'wae"] = "Señor Tiki Zim'wae";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Caldero de sangre ardiente de Zanzil";
-	
+
 
 --*********************
 -- Mists of Pandaria Instances
 --*********************
 
 	--Gate of the Setting Sun
-	AL["Bowmistress Li <Guard Captain>"] = "Bowmistress Li <Guard Captain>"; --FALTA
+	AL["Bowmistress Li <Guard Captain>"] = "Maestra arquera Li <Capitana de la Guardia>";
 
 	--Heart of Fear
 
 	--Mogu'shan Palace
-	AL["Sinan the Dreamer"] = "Sinan the Dreamer"; --FALTA
+	AL["Sinan the Dreamer"] = "Sinan la Soñadora <Custodia>";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
-	AL["Ban Bearheart"] = "Ban Bearheart"; --FALTA
+	AL["Ban Bearheart"] = "Ban Corazón Fiero";
 
 	--Siege of Niuzao Temple
-	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu"; --FALTA
+	AL["Shado-Master Chum Kiu"] = "Maestro Shado Chum Kiu";
 
 	--Stormstout Brewery
-	AL["Auntie Stormstout"] = "Auntie Stormstout"; --FALTA
-	AL["Chen Stormstout"] = "Chen Stormstout"; --FALTA
+	AL["Auntie Stormstout"] = "Tía Cerveza de Trueno";
+	AL["Chen Stormstout"] = "Chen Cerveza de Trueno";
 
 	--Temple of the Jade Serpent
-	AL["Master Windstrong"] = "Master Windstrong"; --FALTA
-	AL["Priestess Summerpetal"] = "Priestess Summerpetal"; --FALTA
+	AL["Master Windstrong"] = "Maestro Viento Impetuoso";
+	AL["Priestess Summerpetal"] = "Sacerdotisa Pétalo Estival";
 
 	--Terrace of Endless Spring
+	AL["Elder Asani"] = "Elder Asani";--FALTA
+	AL["Elder Regail"] = "Elder Regail";--FALTA
+	AL["Protector Kaolan"] = "Protector Kaolan";--FALTA
 
 end

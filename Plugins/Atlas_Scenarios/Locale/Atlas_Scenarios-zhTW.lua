@@ -92,4 +92,15 @@ if AL then
 	AL["Brewmaster Boof"] = "釀酒大師布夫";
 	AL["Defence Point"] = "防禦點";
 	
+	-- Greenstone Village
+	AL["Rescue the Villagers"] = "拯救村民";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "消滅攻擊綠石村村民的怪物。";
+	AL["Rescue the Dojo"] = "拯救道場";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "擊敗攻擊綠石村道場的怪物。";
+	AL["Recover Burgled Barrels"] = "取回遭竊的酒桶";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "在森林裡尋找遭竊的酒桶，然後送回村莊的道場。";
+	AL["Rescue Greenstone Masons"] = "拯救綠石石匠區";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "前往石匠區，喚醒昏迷的村民。";
+	AL["Defeat Vengeful Hui"] = "殺死復仇之穢";
+	AL["Defeat Vengeful Hui."] = "殺死復仇之穢。";
 end

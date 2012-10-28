@@ -76,4 +76,20 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "帶200個仰加叢林酒到釀酒鍋。";
 	AL["Defeat Captain Ook"] = "殺死烏克船長";
 	AL["Defeat Captain Ook."] = "殺死烏克船長。";
+
+	-- Brewmoon Festival
+	AL["The Brewmoon Festival!"] = "酒月節";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "幫助釀酒大師布夫的助手收集崑萊好勁道所需的原料。";
+	AL["The Scouts Report."] = "偵查報告";
+	AL["Investigate the Yaungol sightings."] = "調查揚古出沒的狀況。";
+	AL["The Yaungol attack!"] = "揚古入侵!";
+	AL["Stop the Bataari invasion on Binan Village."] = "阻止巴塔利入侵濱南村。";
+	AL["Warbringer Qobi"] = "戰爭使者闊畢";
+	AL["Defeat Warbringer Qobi."] = "殺死戰爭使者闊畢。";
+	AL["Karsar the Bloodletter"] = "『放血者』卡爾薩";
+	AL["Li Te"] = "李忒";
+	AL["Den Mother Moof"] = "巢母莫夫";
+	AL["Brewmaster Boof"] = "釀酒大師布夫";
+	AL["Defence Point"] = "防禦點";
+	
 end

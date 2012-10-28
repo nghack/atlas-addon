@@ -29,7 +29,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 09/03/2011
+-- Úlltima Actualización (last update): 28/10/2012
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -62,7 +62,8 @@ if AL then
 	AL["Zeppelin Towers"] = "Aeropuertos Zepelín";		
 	AL["Climbing Rope"] = "Cuerda de escalar";
 	AL["Rappelling Rope"] = "Soga de rápel";
---	AL["Abandoned Kite"] = "Abandoned Kite";
---	AL["From sea level to ground level"] = "From sea level to ground level";
---	AL["Whispercloud's Balloon"] = "Whispercloud's Balloon";
+	AL["Abandoned Kite"] = "Cometa abandonada";
+	AL["From sea level to ground level"] = "Del nivel del mar al nivel de tierra";
+	AL["Whispercloud's Balloon"] = "Globo de la Nube Susurrante";
+	AL["Shado-Pan Rope"] = "Cuerda del Shadopan"; -- 66390
 end

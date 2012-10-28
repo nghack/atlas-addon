@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Última Actualización (last update): 31/12/2010
+-- Última Actualización (last update): 28/10/2012
 
 --]]
 
@@ -200,4 +200,10 @@ if AL then
 	-- Twin Peaks
 	AL["Wildhammer Longhouse"] = "Casa Martillo Salvaje"; --Check
 	AL["Dragonmaw Clan Compound"] = "Compuesto Clan Faucedraco"; --Check
+
+	-- Silvershard Mines
+	AL["Capture Point"] = "Punto de captura"; -- the area where the carts spwan and you need to capture them
+
+	-- Temple of Kotmogu
+	AL["Scoring Point"] = "Punto de marcaje";
 end

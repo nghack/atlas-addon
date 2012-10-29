@@ -115,6 +115,11 @@ if AL then
 	AL["Stop the Bataari invasion on Binan Village."] = "Halte die Invasion der Bataari auf Binan auf.";
 	AL["Warbringer Qobi"] = "Kriegshetzer Qobi";
 	AL["Defeat Warbringer Qobi."] = "Bezwingt Kriegshetzer Qobi.";
+	AL["Karsar the Bloodletter"] = "Karsar der Blutvergießer";
+	AL["Li Te"] = "Li Te";
+	AL["Den Mother Moof"] = "Höhlenmutter Muuf";
+	AL["Brewmaster Boof"] = "Braumeister Boof";
+	AL["Defence Point"] = "Verteidigungspunkt";
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Rettet die Dorfbewohner";

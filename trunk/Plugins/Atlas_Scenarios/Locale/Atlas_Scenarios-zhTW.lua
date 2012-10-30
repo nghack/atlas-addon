@@ -41,6 +41,7 @@ if AL then
 	AL["End"] = "結束";
 	AL["Random"] = "隨機";
 	AL["Summon"] = "召喚";
+	AL["Connection"] = "通道";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";
@@ -134,15 +135,19 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "殺死復仇之穢。";
 
 	-- Crypt of Forgotten Kings
---	AL["End the Terror"] = "End the Terror";
---	AL["Defeat the corrupted Shado-Pan Leader."] = "Defeat the corrupted Shado-Pan Leader.";
---	AL["The Pool of Life"] = "The Pool of Life";
---	AL["Cleanse the Sha corruption from the Pool of Life."] = "Cleanse the Sha corruption from the Pool of Life.";
---	AL["Search the Crypts"] = "Search the Crypts";
---	AL["Delve deeper into the crypt and search the bottom level."] = "Delve deeper into the crypt and search the bottom level.";
---	AL["Destroy the Sha"] = "Destroy the Sha";
---	AL["Destroy the Abomination of Anger."] = "Destroy the Abomination of Anger.";
-
+	AL["End the Terror"] = "終結恐懼";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "殺死腐化的影潘首領。";
+	AL["The Pool of Life"] = "生命之池";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "淨化煞對生命之池的汙染。";
+	AL["Search the Crypts"] = "搜尋墓穴";
+	AL["Delve deeper into the crypt and search the bottom level."] = "深入墓穴，到底層進行搜索。";
+	AL["Destroy the Sha"] = "消滅煞";
+	AL["Destroy the Abomination of Anger."] = "消滅憤怒的憎惡獸。";
+	AL["Jin Ironfist"] = "鐵拳阿金";
+	AL["Pool of Life"] = "生命之池";
+	AL["Treasure Urn"] = "藏寶罈";
+	AL["Abomination of Anger"] = "憎惡獸";
+	
 	-- Peak of Serenity
 
 end

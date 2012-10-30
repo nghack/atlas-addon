@@ -194,14 +194,19 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["End the Terror"] };
-		{ INDENT..GREY..AL["Defeat the corrupted Shado-Pan Leader."] };
-		{ YELL.."- "..AL["Stage 2"].." - "..AL["The Pool of Life"] };
-		{ INDENT..GREY..AL["Cleanse the Sha corruption from the Pool of Life."] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypts"] };
-		{ INDENT..GREY..AL["Delve deeper into the crypt and search the bottom level."] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
-		{ INDENT..GREY..AL["Destroy the Abomination of Anger."] };
+		{ BLUE.." A) "..AL["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["End the Terror"] };
+		{ INDENT..INDENT..GREY..AL["Defeat the corrupted Shado-Pan Leader."] };
+		{ INDENT..INDENT..WHIT.." 1) "..AL["Jin Ironfist"] };
+		{ BLUE.." B) "..AL["Pool of Life"] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Pool of Life"] };
+		{ INDENT..INDENT..GREY..AL["Cleanse the Sha corruption from the Pool of Life."] };
+		{ BLUE.." C) "..AL["Treasure Urn"] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypts"] };
+		{ INDENT..INDENT..GREY..AL["Delve deeper into the crypt and search the bottom level."] };
+		{ WHIT.." 2) "..AL["Abomination of Anger"] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
+		{ INDENT..INDENT..GREY..AL["Destroy the Abomination of Anger."] };
 	};
 --[[	SC_PeakofSerenity = {
 		ZoneName = { BZ["Peak of Serenity"] };

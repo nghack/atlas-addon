@@ -41,6 +41,7 @@ if AL then
 	AL["End"] = "End";
 	AL["Random"] = "Random";
 	AL["Summon"] = "Summon";
+	AL["Connection"] = "Connection";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -142,6 +143,10 @@ if AL then
 	AL["Delve deeper into the crypt and search the bottom level."] = "Delve deeper into the crypt and search the bottom level.";
 	AL["Destroy the Sha"] = "Destroy the Sha";
 	AL["Destroy the Abomination of Anger."] = "Destroy the Abomination of Anger.";
+	AL["Jin Ironfist"] = "Jin Ironfist";
+	AL["Pool of Life"] = "Pool of Life";
+	AL["Treasure Urn"] = "Treasure Urn";
+	AL["Abomination of Anger"] = "Abomination of Anger";
 
 	-- Peak of Serenity
 

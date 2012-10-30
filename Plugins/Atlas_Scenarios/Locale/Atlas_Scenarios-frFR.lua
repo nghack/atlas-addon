@@ -142,6 +142,10 @@ if AL then
 	AL["Delve deeper into the crypt and search the bottom level."] = "S’enfoncer dans les profondeurs de la crypte et fouiller le niveau inférieur.";
 	AL["Destroy the Sha"] = "Détruire le sha";
 	AL["Destroy the Abomination of Anger."] = "Détruire l’abomination de colère.";
+	AL["Jin Ironfist"] = "Jin Poing de Fer";
+	AL["Pool of Life"] = "Bassin de la vie";
+	AL["Treasure Urn"] = "Urne au trésor";
+	AL["Abomination of Anger"] = "Abomination de colère";
 
 	-- Peak of Serenity
 

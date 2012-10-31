@@ -6,10 +6,10 @@
 ## Title-zhCN: Atlas |r|cFF0099FF[场景战役]|r
 ## Notes: Scenarios Maps
 ## Notes-zhCN: 场景战役地图
-## Notes-zhTW: Atlas 史詩情境模式地圖插件
+## Notes-zhTW: Atlas 史詩情境事件模式地圖插件
 ## Version: 1.22.2
 ## Author: arith, Dynaletik, dubcat
-## X-Date: XXX. XX, 2012
+## X-Date: Nov. 01, 2012
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map

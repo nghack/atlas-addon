@@ -49,102 +49,112 @@ if AL then
 	AL["End"] = "Final";
 	AL["Random"] = "Aleatorio";
 	AL["Summon"] = "Invocar";
+	AL["Connection"] = "Conexión";
 
 	-- Brewing Storm
-	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
-	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Assist Blanche in brewing her famous Boomer's Brew.";
-	AL["Road to Thunderpaw"] = "Road to Thunderpaw";
-	AL["Escort Blanche down Thunderpaw Road."] = "Escort Blanche down Thunderpaw Road.";
-	AL["Save Thunderpaw Refuge"] = "Save Thunderpaw Refuge";
-	AL["Defeat Borokhula the Destroyer."] = "Defeat Borokhula the Destroyer.";
+	AL["Make Boomer's Brew"] = "Fermenta cerveza relámpago";
+	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Ayuda a Clara a fermentar su famosa cerveza relámpago.";
+	AL["Road to Thunderpaw"] = "Camino a Zarpa Atronadora";
+	AL["Escort Blanche down Thunderpaw Road."] = "Escolta a Clara por el camino a Zarpa Atronadora.";
+	AL["Save Thunderpaw Refuge"] = "Salva el Refugio Zarpa Atronadora";
+	AL["Defeat Borokhula the Destroyer."] = "Derrota a Borokhula el Destructor.";
 
 	-- Arena of Annihilation
-	AL["Scar-shell"] = "Scar-shell";
-	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Summon and defeat the mighty dragon turtle, Scar-Shell.";
-	AL["Jol'grum"] = "Jol'grum";
-	AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] = "Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum.";
-	AL["Little Liuyang"] = "Little Liuyang";
-	AL["Summon and defeat the playful fire spirit, Liuyang."] = "Summon and defeat the playful fire spirit, Liuyang.";
-	AL["Chagan Firehoof"] = "Chagan Firehoof";
-	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Summon and defeat the wandering yaungol warrior, Chagan Firehoof.";
-	AL["Defeat the Final Challenger!"] = "Defeat the Final Challenger!";
-	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Summon and defeat the final challenger and then claim your reward from Wodin!";
-	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
-	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
-	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
+	AL["Scar-shell"] = "Escaraza";
+	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Invoca y derrota a la poderosa tortuga dragón, Escaraza.";
+	AL["Jol'grum"] = "Jol'Grum";
+	AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] = "Invoca y derrota al horror comedor de grúmel y acechador de las nieves, Jol'Grum.";
+	AL["Little Liuyang"] = "Pequeña Liuyang";
+	AL["Summon and defeat the playful fire spirit, Liuyang."] = "Invoca y derrota a la espíritu del fuego juguetona, Liuyang.";
+	AL["Chagan Firehoof"] = "Chagan Pezuña Ígnea";
+	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Invoca y derrota al guerrero yaungol errante, Chagan Pezuña Ígnea.";
+	AL["Defeat the Final Challenger!"] = "¡Derrota al contendiente final!";
+	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Invoca y derrota al contendiente final y reclama tu recompensa a Wodin.";
+--	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
+--	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
+--	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
 
 	-- Assault on Zan'vess
 
 	-- Theramore's Fall - Horde
-	AL["To the Waterline!"] = "To the Waterline!";
-	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
-	AL["The Blastmaster"] = "The Blastmaster";
-	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
-	AL["Gryphon, Down"] = "Gryphon, Down";
-	AL["Slay Baldruc and his gryphons."] = "Slay Baldruc and his gryphons.";
-	AL["Tanks for Nothing!"] = "Tanks for Nothing!";
-	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Destroy Big Bessa and sabotage any unmanned tanks.";
-	AL["Fly, Spy!"] = "Fly, Spy!";
-	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
+	AL["To the Waterline!"] = "¡A la línea de flotación!";
+	AL["Rig powder barrels on all six ships."] = "Prepara los barriles de pólvora en los seis barcos.";
+	AL["The Blastmaster"] = "El maestro destructor";
+	AL["Inform Blastmaster Sparkfuse of your success."] = "Informa al maestro destructor Mechacentella de tu éxito.";
+	AL["Gryphon, Down"] = "Grifo derribado";
+	AL["Slay Baldruc and his gryphons."] = "Asesina a Baldruc y a sus grifos.";
+	AL["Tanks for Nothing!"] = "¡Tanques para nada!";
+	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Acaba con Gran Bessa y sabotea todos los tanques desocupados.";
+	AL["Fly, Spy!"] = "¡Vuela, espía!";
+	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Asesina a Hedric Cañalisa y libera a Thalen Tejecanto de la Ciudadela Garrida.";
 
 	-- Theramore's Fall - Alliance
-	AL["Welcome to Theramore"] = "Welcome to Theramore";
-	AL["Defend the ship from oncoming Horde."] = "Defend the ship from oncoming Horde.";
-	AL["Sweep the Harbor"] = "Sweep the Harbor";
-	AL["Defeat the Horde in the harbor."] = "Defeat the Horde in the harbor.";
-	AL["Into the Ruins"] = "Into the Ruins";
-	AL["Fight past the enemy into the heart of ruined Theramore."] = "Fight past the enemy into the heart of ruined Theramore.";
-	AL["The Lady Proudmoore"] = "The Lady Proudmoore";
-	AL["Locate Jaina in the Mana Bomb crater."] = "Locate Jaina in the Mana Bomb crater.";
-	AL["Destroy the Destroyer"] = "Destroy the Destroyer";
-	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Destroy the siege engine at the west gate and recover the stolen standards.";
-	AL["The Last Stand"] = "The Last Stand";
-	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protect Jaina while she attunes to the Focusing Iris.";
-	AL["Horde Ship"] = "Horde Ship";
-	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
+	AL["Welcome to Theramore"] = "Bienvenidos a Theramore";
+	AL["Defend the ship from oncoming Horde."] = "Defiende el barco de la Horda.";
+	AL["Sweep the Harbor"] = "Arrasa el puerto";
+	AL["Defeat the Horde in the harbor."] = "Derrota a la Horda en el puerto.";
+	AL["Into the Ruins"] = "En las ruinas";
+	AL["Fight past the enemy into the heart of ruined Theramore."] = "Ábrete paso entre el enemigo hasta el corazón de las ruinas de Theramore.";
+	AL["The Lady Proudmoore"] = "Lady Valiente";
+	AL["Locate Jaina in the Mana Bomb crater."] = "Localiza a Jaina en el cráter de la bomba de maná.";
+	AL["Destroy the Destroyer"] = "Destruir el destructor";
+	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Destruye la máquina de asedio en la puerta oeste y recupera los confalones robados.";
+	AL["The Last Stand"] = "La resistencia final";
+	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protege a Jaina mientras sintoniza el Iris de enfoque.";
+--	AL["Horde Ship"] = "Horde Ship";
+--	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
 	AL["Jaina"] = "Jaina";
-	AL["West Gate"] = "West Gate";
+--	AL["West Gate"] = "West Gate";
 
 	-- Unga Ingoo
-	AL["Brewing Cauldron"] = "Brewing Cauldron";
-	AL["Escort Brewmaster Bo"] = "Escort Brewmaster Bo";
-	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron.";
-	AL["Fill the Brewing Cauldron"] = "Fill the Brewing Cauldron";
-	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Bring 200 Unga Jungle Brew to the Brewing Cauldron.";
-	AL["Defeat Captain Ook"] = "Defeat Captain Ook";
-	AL["Defeat Captain Ook."] = "Defeat Captain Ook.";
+--	AL["Brewing Cauldron"] = "Brewing Cauldron";
+	AL["Escort Brewmaster Bo"] = "Escolta al maestro cervecero Bo";
+	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Lleva al maestro cervecero Bo hasta el caldero de fermentación de Unga Ingoo.";
+	AL["Fill the Brewing Cauldron"] = "Llena el caldero de fermentación";
+	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Lleva 200 brebajes de jungla de Unga al caldero de fermentación.";
+	AL["Defeat Captain Ook"] = "Derrota al capitán Ook";
+	AL["Defeat Captain Ook."] = "Derrota al capitán Ook.";
 
 	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "The Brewmoon Festival!";
-	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker.";
-	AL["The Scouts Report."] = "The Scouts Report.";
-	AL["Investigate the Yaungol sightings."] = "Investigate the Yaungol sightings.";
-	AL["The Yaungol attack!"] = "The Yaungol attack!";
-	AL["Stop the Bataari invasion on Binan Village."] = "Stop the Bataari invasion on Binan Village.";
-	AL["Warbringer Qobi"] = "Warbringer Qobi";
-	AL["Defeat Warbringer Qobi."] = "Defeat Warbringer Qobi.";
+	AL["The Brewmoon Festival!"] = "El Festival de la Cerveza Lunar";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Ayuda a los asistentes del maestro cervecero Boof a reunir los ingredientes para la pateadora de Kun-Lai.";
+	AL["The Scouts Report."] = "El informe de los exploradores";
+	AL["Investigate the Yaungol sightings."] = "Investiga los avistamientos yaungol.";
+	AL["The Yaungol attack!"] = "¡El ataque yaungol!";
+	AL["Stop the Bataari invasion on Binan Village."] = "Detén la invasión Bataari en la Aldea Binan.";
+	AL["Warbringer Qobi"] = "Belisario Qobi";
+	AL["Defeat Warbringer Qobi."] = "Derrota al belisario Qobi.";
+	AL["Karsar the Bloodletter"] = "Karsar el Sangrador";
+	AL["Li Te"] = "Li Te";
+	AL["Den Mother Moof"] = "Madre del cubil Moof";
+	AL["Brewmaster Boof"] = "Maestro cervecero Boof";
+--	AL["Defence Point"] = "Defence Point";
 
 	-- Greenstone Village
-	AL["Rescue the Villagers"] = "Rescue the Villagers";
-	AL["Defeat the monsters attacking the Greenstone villagers."] = "Defeat the monsters attacking the Greenstone villagers.";
-	AL["Rescue the Dojo"] = "Rescue the Dojo";
-	AL["Defeat the monsters attacking Greenstone's dojo."] = "Defeat the monsters attacking Greenstone's dojo.";
-	AL["Recover Burgled Barrels"] = "Recover Burgled Barrels";
-	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Find burgled brew barrels in the forest and return them to the village dojo.";
-	AL["Rescue Greenstone Masons"] = "Rescue Greenstone Masons";
-	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Travel to the Masons' Quarter and awaken the unconscious villagers.";
-	AL["Defeat Vengeful Hui"] = "Defeat Vengeful Hui";
-	AL["Defeat Vengeful Hui."] = "Defeat Vengeful Hui.";
+	AL["Rescue the Villagers"] = "Salva a los habitantes";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "Derrota a los monstruos que atacan a los habitantes de Verdemar.";
+	AL["Rescue the Dojo"] = "Salva el dojo";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "Derrota a los monstruos que están atacando el dojo de Verdemar.";
+	AL["Recover Burgled Barrels"] = "Recupera los barriles robados";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Encuentra los barriles robados en el bosque y devuélveselos al dojo de la aldea.";
+	AL["Rescue Greenstone Masons"] = "Rescata a los canteros de Verdemar";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Viaja al Barrio de Canteros y despierta a los aldeanos inconscientes.";
+	AL["Defeat Vengeful Hui"] = "Derrota a Hui el Vengativo";
+	AL["Defeat Vengeful Hui."] = "Derrota a Hui el Vengativo.";
 
 	-- Crypt of Forgotten Kings
-	AL["End the Terror"] = "End the Terror";
-	AL["Defeat the corrupted Shado-Pan Leader."] = "Defeat the corrupted Shado-Pan Leader.";
-	AL["The Pool of Life"] = "The Pool of Life";
-	AL["Cleanse the Sha corruption from the Pool of Life."] = "Cleanse the Sha corruption from the Pool of Life.";
-	AL["Search the Crypts"] = "Search the Crypts";
-	AL["Delve deeper into the crypt and search the bottom level."] = "Delve deeper into the crypt and search the bottom level.";
-	AL["Destroy the Sha"] = "Destroy the Sha";
-	AL["Destroy the Abomination of Anger."] = "Destroy the Abomination of Anger.";
+	AL["End the Terror"] = "Acaba con el terror";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "Derrota al líder del Shadopan corrupto.";
+	AL["The Pool of Life"] = "La Poza de vida";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "Limpia la corrupción sha de la Poza de vida.";
+	AL["Search the Crypts"] = "Investiga las criptas";
+	AL["Delve deeper into the crypt and search the bottom level."] = "Investiga más a fondo la cripta y rastrea el nivel inferior.";
+	AL["Destroy the Sha"] = "Acaba con el sha.";
+	AL["Destroy the Abomination of Anger."] = "Acaba con la Abominación de ira.";
+	AL["Jin Ironfist"] = "Jin Puñoferro";
+	AL["Pool of Life"] = "Poza de vida";
+	AL["Treasure Urn"] = "Urna de tesoro";
+	AL["Abomination of Anger"] = "Abominación de ira";
 
 	-- Peak of Serenity
 end

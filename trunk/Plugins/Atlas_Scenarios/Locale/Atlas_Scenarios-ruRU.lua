@@ -31,11 +31,11 @@ if AL then
 	AL["Scenarios Maps"] = "Карты сценариев";
 
 	-- Common Strings
---	AL["Stage 1"] = "Stage 1";
---	AL["Stage 2"] = "Stage 2";
---	AL["Stage 3"] = "Stage 3";
---	AL["Stage 4"] = "Stage 4";
---	AL["Stage 5"] = "Stage 5";
+	AL["Stage 1"] = "1 этап";
+	AL["Stage 2"] = "2 этап";
+	AL["Stage 3"] = "3 этап";
+	AL["Stage 4"] = "4 этап";
+	AL["Stage 5"] = "5 этап";
 	AL["Final Stage"] = "Финальный этап";
 	AL["Start"] = "Начало";
 	AL["End"] = "Конец";
@@ -62,9 +62,9 @@ if AL then
 	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Призовите и одолейте странствующего яунгола-воина Чагана Огненное Копыто.";
 	AL["Defeat the Final Challenger!"] = "Победите последнего противника!";
 	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Вызовите и одолейте последнего противника и получите награду у Водина.";
---	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
---	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
---	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
+	AL["Defeat Maki Waterblade"] = "Убейте Маки Водореза";
+	AL["Defeat Satay Byu"] = "Убейте Сатая Бюя";
+	AL["Defeat Cloudbender Kobo"] = "Убейте сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
 
@@ -93,10 +93,10 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Уничтожьте осадную машину у западных ворот и найдите украденные штандарты.";
 	AL["The Last Stand"] = "Последний рубеж";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Защищайте Джайну, пока она открывает доступ к Радужному Средоточию.";
---	AL["Horde Ship"] = "Horde Ship";
---	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
---	AL["Jaina"] = "Jaina";
---	AL["West Gate"] = "West Gate";
+	AL["Horde Ship"] = "Корабль Орды"; --need check
+	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
+	AL["Jaina"] = "Джайна"; --need check
+	AL["West Gate"] = "Западные ворота"; --need check
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Brewing Cauldron";
@@ -120,7 +120,7 @@ if AL then
 	AL["Li Te"] = "Ли Тэ";
 	AL["Den Mother Moof"] = "Мать логова Муф";
 	AL["Brewmaster Boof"] = "Хмелевар Буф";
---	AL["Defence Point"] = "Defence Point";
+	AL["Defence Point"] = "Точка обороны"; --need check
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Спасение жителей деревни";

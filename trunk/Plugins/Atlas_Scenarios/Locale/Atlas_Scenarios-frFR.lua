@@ -41,6 +41,7 @@ if AL then
 	AL["End"] = "Fin";
 	AL["Random"] = "Aléatoire";
 	AL["Summon"] = "Invoquer";
+	AL["Connection"] = "Connexion";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Faire de la bière détonante";

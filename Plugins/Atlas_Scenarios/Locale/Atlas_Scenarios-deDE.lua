@@ -41,6 +41,7 @@ if AL then
 	AL["End"] = "Ende";
 	AL["Random"] = "Zufällig";
 	AL["Summon"] = "Beschwörbar";
+	AL["Connection"] = "Verbindung";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Braut Hammerbräu";
@@ -142,6 +143,10 @@ if AL then
 	AL["Delve deeper into the crypt and search the bottom level."] = "Geht tiefer in die Krypta hinein und durchsucht die untere Ebene.";
 	AL["Destroy the Sha"] = "Bezwingt das Sha";
 	AL["Destroy the Abomination of Anger."] = "Bezwingt die Monstrosität des Zorns.";
+	AL["Jin Ironfist"] = "Jin Eisenfaust";
+	AL["Pool of Life"] = "Teich des Lebens";
+	AL["Treasure Urn"] = "Schatzurne";
+	AL["Abomination of Anger"] = "Monstrosität des Zorns";
 
 	-- Peak of Serenity
 

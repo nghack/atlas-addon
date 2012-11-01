@@ -360,7 +360,6 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Desolace"]] = 			"MaraudonEnt";
 	[BZ["Vale of Eternal Blossoms"]] = 	"MoguShanPalace";
 	[BZ["Kun-Lai Summit"]] = 		"MoguShanVaults";
-	[BZ["Dustwallow Marsh"]] = 		"OnyxiasLair";
 	[BZ["Orgrimmar"]] = 			"RagefireChasm";
 	[BZ["Thousand Needles"]] = 		"RazorfenDowns";
 	[BZ["Southern Barrens"]] = 		"RazorfenKraul";

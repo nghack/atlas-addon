@@ -62,23 +62,23 @@ if AL then
 	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "召喚並擊敗流浪的揚古戰士，查剛·火蹄。";
 	AL["Defeat the Final Challenger!"] = "擊敗最後挑戰者！";
 	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "召喚並擊敗最後一位挑戰者，然後向烏丁領取獎賞。";
-	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
-	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
-	AL["Defeat Cloudbender Kobo"] = "擊敗屈雲者·柯博";
+	AL["Defeat Maki Waterblade"] = "殺死真樹·水刃";
+	AL["Defeat Satay Byu"] = "殺死沙喋·鰾";
+	AL["Defeat Cloudbender Kobo"] = "殺死屈雲者·柯博";
 
 	-- Assault on Zan'vess
 
 	-- Theramore's Fall - Horde
---	AL["To the Waterline!"] = "To the Waterline!";
---	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
---	AL["The Blastmaster"] = "The Blastmaster";
---	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
---	AL["Gryphon, Down"] = "Gryphon, Down";
---	AL["Slay Baldruc and his gryphons."] = "Slay Baldruc and his gryphons.";
---	AL["Tanks for Nothing!"] = "Tanks for Nothing!";
---	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Destroy Big Bessa and sabotage any unmanned tanks.";
---	AL["Fly, Spy!"] = "Fly, Spy!";
---	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
+	AL["To the Waterline!"] = "前往水岸!";
+	AL["Rig powder barrels on all six ships."] = "在全部六艘船上設置火藥桶。";
+	AL["The Blastmaster"] = "爆破專家";
+	AL["Inform Blastmaster Sparkfuse of your success."] = "通知爆破專家火星塞你的成功。";
+	AL["Gryphon, Down"] = "獅鷲獸墜落";
+	AL["Slay Baldruc and his gryphons."] = "殺死巴德拉克和他的獅鷲獸。";
+	AL["Tanks for Nothing!"] = "消失吧，坦克!";
+	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "摧毀大貝紗，並且破壞任何無人駕駛的坦克。";
+	AL["Fly, Spy!"] = "飛吧，間諜!";
+	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "殺死海瑞克·雙杖，然後釋放塔倫織歌者離開據點城塞。";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "歡迎來到塞拉摩";

@@ -118,8 +118,8 @@ if AL then
 	AL["Defeat Warbringer Qobi."] = "击败战争使者虬碧。";
 	AL["Karsar the Bloodletter"] = "放血者卡萨尔";
 	AL["Li Te"] = "李铁";
-	AL["Den Mother Moof"] = "巢母莫夫";  --review
-	AL["Brewmaster Boof"] = "釀酒大師布夫";  --review
+	AL["Den Mother Moof"] = "巢穴主母墨芙";
+	AL["Brewmaster Boof"] = "酿酒大师布夫";
 	AL["Defence Point"] = "防御点";
 	
 	-- Greenstone Village
@@ -145,7 +145,7 @@ if AL then
 	AL["Destroy the Abomination of Anger."] = "消灭怒煞畸体。";
 	AL["Jin Ironfist"] = "金·铁拳";
 	AL["Pool of Life"] = "生命之池";
-	AL["Treasure Urn"] = "藏寶罈";  --review
+	AL["Treasure Urn"] = "藏宝瓮";
 	AL["Abomination of Anger"] = "怒煞畸体";
 	
 	-- Peak of Serenity

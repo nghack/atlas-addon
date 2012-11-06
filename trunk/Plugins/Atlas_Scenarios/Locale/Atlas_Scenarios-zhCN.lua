@@ -36,7 +36,7 @@ if AL then
 	AL["Stage 3"] = "阶段 3";
 	AL["Stage 4"] = "阶段 4";
 	AL["Stage 5"] = "阶段 5";
-	AL["Final Stage"] = "最後阶段";
+	AL["Final Stage"] = "最后阶段";
 	AL["Start"] = "开始";
 	AL["End"] = "结束";
 	AL["Random"] = "随机";

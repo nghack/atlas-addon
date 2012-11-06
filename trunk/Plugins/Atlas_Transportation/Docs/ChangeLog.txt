@@ -7,9 +7,11 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.22.3 (Oct. XX, 2012)
-- Update Pandaria map:
+v1.22.3 (Nov. XX, 2012)
+- Update Pandaria maps:
     - Added Shado-Pan Rope position
+- Update Outland maps:
+    - Added portal from Shattrath City to Stormwind and Orgrimmar
 
 v1.22.2 (Oct. 17, 2012)
 -----------------------

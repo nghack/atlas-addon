@@ -202,11 +202,12 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Pool of Life"] };
 		{ INDENT..INDENT..GREY..AL["Cleanse the Sha corruption from the Pool of Life."] };
 		{ BLUE.." C) "..AL["Treasure Urn"] };
+		{ BLUE.." D) "..AL["Connection"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypts"] };
 		{ INDENT..INDENT..GREY..AL["Delve deeper into the crypt and search the bottom level."] };
-		{ WHIT.." 2) "..AL["Abomination of Anger"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
 		{ INDENT..INDENT..GREY..AL["Destroy the Abomination of Anger."] };
+		{ INDENT..INDENT..WHIT.." 2) "..AL["Abomination of Anger"] };
 	};
 --[[	SC_PeakofSerenity = {
 		ZoneName = { BZ["Peak of Serenity"] };

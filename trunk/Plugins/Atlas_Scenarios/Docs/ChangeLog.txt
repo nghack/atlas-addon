@@ -10,7 +10,9 @@ Copyright 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.22.3 (Nov. XX, 2012)
 - Map update:
     - revamp Brewing Storm map
-
+- Map legend update:
+    - Crypt of Forgotten Kings
+    
 v1.22.2 (Nov. 01, 2012)
 - All Maps and legend information updated
 - Map added: 

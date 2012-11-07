@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 -- Atlas Spanish (México) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 28/10/2012
+-- Última Actualización (last update): 07/11/2012
 
 -- Atlas Spanish (Mexico) Localization
 if ( GetLocale() == "esMX" ) then
@@ -625,19 +625,19 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Commander Lindon"] = "Commander Lindon"; --FALTA
-	AL["Hooded Crusader"] = "Hooded Crusader"; --FALTA
+	AL["Commander Lindon"] = "Comandante Lindon";
+	AL["Hooded Crusader"] = "Cruzada encapuchada";
 	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --Check
 	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
 	
 	--Scarlet Monastery
 	
 	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Filacteria del Instructor Corazón de hielo"; --Check
+	AL["Instructor Chillheart's Phylactery"] = "Filacteria de la instructora Corazón Álgido";
 
 	AL["Professor Slate"] = "Profesor Slate"; 
 	AL["Polyformic Acid Potion"] = "La ciencia del ácido polifórmico";
-	AL["Talking Skull"] = "Talking Skull"; -- FALTA
+	AL["Talking Skull"] = "Calavera parlante";
 	AL["In the Shadow of the Light"] = "A la sombra de la Luz";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Saber profundo de Kel'Thuzad";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Ritos prohibidos y otros rituales nigrománticos";

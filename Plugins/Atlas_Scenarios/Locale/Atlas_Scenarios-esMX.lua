@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 28/10/2012
+-- Úlltima Actualización (last update): 07/11/2012
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -36,7 +36,7 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "esMX", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Scenarios Maps"] = "Mapas de escenarios";
+	AL["Scenarios Maps"] = "Mapas de gestas";
 
 	-- Common Strings
 	AL["Stage 1"] = "Escenario 1";
@@ -70,9 +70,9 @@ if AL then
 	AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] = "Invoca y derrota al guerrero yaungol errante, Chagan Pezuña Ígnea.";
 	AL["Defeat the Final Challenger!"] = "¡Derrota al contendiente final!";
 	AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] = "Invoca y derrota al contendiente final y reclama tu recompensa a Wodin.";
---	AL["Defeat Maki Waterblade"] = "Defeat Maki Waterblade";
---	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
---	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
+	AL["Defeat Maki Waterblade"] = "Derrota a Maki Espadagua";
+	AL["Defeat Satay Byu"] = "Derrota a Satay Byu";
+	AL["Defeat Cloudbender Kobo"] = "Derrota a Doblanubes Kobo";
 
 	-- Assault on Zan'vess
 
@@ -101,13 +101,13 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Destruye la máquina de asedio en la puerta oeste y recupera los confalones robados.";
 	AL["The Last Stand"] = "La resistencia final";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protege a Jaina mientras sintoniza el Iris de enfoque.";
---	AL["Horde Ship"] = "Horde Ship";
---	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
+	AL["Horde Ship"] = "Barco de la Horda";
+	AL["The heart of ruined Theramore"] = "El corazón de las ruinas de Theramore";
 	AL["Jaina"] = "Jaina";
---	AL["West Gate"] = "West Gate";
+	AL["West Gate"] = "Puesta del oeste";
 
 	-- Unga Ingoo
---	AL["Brewing Cauldron"] = "Brewing Cauldron";
+	AL["Brewing Cauldron"] = "Caldero de fermentación";
 	AL["Escort Brewmaster Bo"] = "Escolta al maestro cervecero Bo";
 	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Lleva al maestro cervecero Bo hasta el caldero de fermentación de Unga Ingoo.";
 	AL["Fill the Brewing Cauldron"] = "Llena el caldero de fermentación";
@@ -128,7 +128,7 @@ if AL then
 	AL["Li Te"] = "Li Te";
 	AL["Den Mother Moof"] = "Madre del cubil Moof";
 	AL["Brewmaster Boof"] = "Maestro cervecero Boof";
---	AL["Defence Point"] = "Defence Point";
+	AL["Defence Point"] = "Lugar de defensa";
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Salva a los habitantes";

@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 28/10/2012
+-- Última Actualización (last update): 07/11/2012
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -627,19 +627,19 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
-	AL["Commander Lindon"] = "Commander Lindon"; --FALTA
-	AL["Hooded Crusader"] = "Hooded Crusader"; --FALTA
+	AL["Commander Lindon"] = "Comandante Lindon";
+	AL["Hooded Crusader"] = "Cruzada encapuchada";
 	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --Check
 	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
 	
 	--Scarlet Monastery
 	
 	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Filacteria del Instructor Corazón de hielo"; --Check
+	AL["Instructor Chillheart's Phylactery"] = "Filacteria de la instructora Corazón Álgido";
 
 	AL["Professor Slate"] = "Profesor Slate"; 
 	AL["Polyformic Acid Potion"] = "La ciencia del ácido polifórmico";
-	AL["Talking Skull"] = "Talking Skull"; -- FALTA
+	AL["Talking Skull"] = "Calavera parlante";
 	AL["In the Shadow of the Light"] = "A la sombra de la Luz";
 	AL["Kel'Thuzad's Deep Knowledge"] = "Saber profundo de Kel'Thuzad";
 	AL["Forbidden Rites and other Rituals Necromantic"] = "Ritos prohibidos y otros rituales nigrománticos";
@@ -656,12 +656,6 @@ if AL then
 	AL["Haunted Stable Hand"] = "Mozo de cuadra encantado";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
 
-
-
-
-
-
-
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Comandante de Cruzada Eligor Albar <Hermandad de la Luz>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Maestro artesano Wilhelm <Hermandad de la Luz>";
@@ -672,7 +666,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Buzón de la calle del Festival";
 	AL["Elder Farwhisper"] = "Ancestro Levesusurro";
 	AL["Market Row Postbox"] = "Buzón de la Fila del Mercado";
-
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Buzón de la plaza de los Ancianos";

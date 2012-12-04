@@ -7,7 +7,9 @@ Copyright 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.22.3 (Nov. XX, 2012)
+v1.23.0 (Dec. 07, 2012)
+-----------------------
+- TOC update to support WoW 5.1
 - Map update:
     - revamp Brewing Storm map
 - Map legend update:

@@ -1,4 +1,4 @@
-﻿## Interface: 50001
+﻿## Interface: 50100
 ## Title: Atlas
 ## Title-deDE: Atlas
 ## Title-ruRU: Atlas
@@ -12,11 +12,11 @@
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
 ## Author: arith, Dynaletik, dubcat
-## Version: 1.22.1
+## Version: 1.23.0
 ## OptionalDeps: Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-SubZone-3.0, LibDataBroker-1.1, LibAboutPanel, CallbackHandler-1.0, LibDBIcon-1.0
 ## X-Category: Map
 ## X-Credits: Dan Gilbert, Lothaer
-## X-Date: Oct. 10, 2012
+## X-Date: Dec. 07, 2012
 ## X-Donate: http://pledgie.com/campaigns/14729
 ## X-Email: atlas.addon@gmail.com
 ## X-Feedback: http://www.atlasmod.com/phpBB3/

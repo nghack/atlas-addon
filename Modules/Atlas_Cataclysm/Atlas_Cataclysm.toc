@@ -1,4 +1,4 @@
-﻿## Interface: 50001
+﻿## Interface: 50100
 ## Title: Atlas |r|cFF0099FF[Cataclysm]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Cataclysm]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Cataclysm]|r
@@ -8,9 +8,9 @@
 ## Notes-deDE: Cataclysm Instanzkarten
 ## Notes-zhTW: 浩劫與重生副本地圖模組
 ## Notes-zhCN: 大地的裂变地图
-## Version: 1.22.0
+## Version: 1.23.0
 ## Author: arith, Dynaletik, dubcat
-## X-Date: September 25, 2012
+## X-Date: Dec. 07, 2012
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

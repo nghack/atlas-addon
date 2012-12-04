@@ -6,6 +6,11 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+
+v1.23.0 (Dec. 07, 2012)
+-----------------------
+- TOC update to support WoW 5.1
+
 v1.22.1 (Oct. 10, 2012)
 - Update Pandaria outdoor map
 

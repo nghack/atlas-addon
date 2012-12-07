@@ -165,19 +165,19 @@ local function Process_Deprecated()
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
-		{ "Atlas_Scenarios", 		"1.22.1" },
-		{ "Atlas_Cataclysm", 		"1.22.0" },
-		{ "Atlas_WrathoftheLichKing", 	"1.22.0" },
-		{ "Atlas_BurningCrusade", 	"1.22.0" },
-		{ "Atlas_ClassicWoW", 		"1.22.1" },
-		{ "Atlas_Battlegrounds", 	"1.22.1" },
-		{ "Atlas_DungeonLocs", 		"1.22.0" },
-		{ "Atlas_OutdoorRaids", 	"1.22.1" },
-		{ "Atlas_Transportation", 	"1.22.1" },
+		{ "Atlas_Scenarios", 		"1.23.0" },
+		{ "Atlas_Cataclysm", 		"1.23.0" },
+		{ "Atlas_WrathoftheLichKing", 	"1.23.0" },
+		{ "Atlas_BurningCrusade", 	"1.23.0" },
+		{ "Atlas_ClassicWoW", 		"1.23.0" },
+		{ "Atlas_Battlegrounds", 	"1.23.0" },
+		{ "Atlas_DungeonLocs", 		"1.23.0" },
+		{ "Atlas_OutdoorRaids", 	"1.23.0" },
+		{ "Atlas_Transportation", 	"1.23.0" },
 --		{ "AtlasWorld", 		"3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
-		{ "AtlasQuest", 		"4.6.7" }, -- updated Dec. 01, 2011
+		{ "AtlasQuest", 		"4.8.1" }, -- updated Oct. 17, 2011
 --		{ "AtlasMajorCities", 		"v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", 			"7.03.00" }, -- updated Oct. 10, 2012
+		{ "AtlasLoot", 			"7.04.01" }, -- updated Nov. 30, 2012
 		{ "Atlas_Arena", 		"1.3.6" }, -- updated Sep 25, 2012
 		{ "Atlas_WorldEvents", 		"2.8" }, -- updated Oct 03, 2012
 	};

@@ -1,0 +1,26 @@
+$Id$
+
+Atlas, a World of Warcraft instance map browser
+Copyright 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+
+==============
+= Change Log =
+==============
+
+v1.23.0 (Dec. 07, 2012)
+-----------------------
+- TOC update to support WoW 5.1
+- Map update:
+    - revamp Brewing Storm map
+- Map legend update:
+    - Crypt of Forgotten Kings
+    
+v1.22.2 (Nov. 01, 2012)
+- All Maps and legend information updated
+- Map added: 
+    - Arena of Annihilation
+    - Crypt of Forgotten Kings
+
+v1.22.1 (Oct. 10, 2012)
+-----------------------
+- Initial version as Scenarios were introduced in WoW 5.0

@@ -881,8 +881,7 @@ if AL then
 	AL["Echo of Medivh"] = "麥迪文的回音";
 
 	--Magisters Terrace
---	AL["Exarch Larethor"] = "Exarch Larethor";
-	AL["Fel Crystals"] = "惡魔水晶";
+	AL["Exarch Larethor"] = "主教雷索爾";
 	AL["Apoko"] = "阿波考";
 	AL["Eramas Brightblaze"] = "依拉瑪·火光";
 	AL["Ellrys Duskhallow"] = "艾爾里斯·聖暮";

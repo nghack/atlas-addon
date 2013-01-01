@@ -203,6 +203,7 @@ local function Process_Deprecated()
 			DisableAddOn(v);
 		end
 		StaticPopupDialogs["ATLAS_OLD_MODULES"] = {
+			preferredIndex = 3;
 			text = ATLAS_DEP_MSG1.."\n"..ATLAS_DEP_MSG2.."\n"..ATLAS_DEP_MSG3.."\n|cff6666ff"..textList.."|r";
 			button1 = ATLAS_DEP_OK,
 			timeout = 0,
@@ -343,6 +344,7 @@ local function Atlas_Check_Modules()
 			textList = textList.."\n"..str;
 		end
 		StaticPopupDialogs["DetectMissing"] = {
+			preferredIndex = 3;
 			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
 			button1 = ATLAS_DEP_OK,
 			timeout = 0,

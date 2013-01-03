@@ -1210,8 +1210,5 @@ AL["Master Windstrong"] = "Maître Windstrong"; -- Translation needed
 	AL["Priestess Summerpetal"] = "Prêtresse Pétale de l’Été"; -- Translation needed
 
 	--Terrace of Endless Spring
-	AL["Elder Asani"] = "Ancien Asani"; -- Translation needed
-	AL["Elder Regail"] = "Ancien Regail"; -- Translation needed
-	AL["Protector Kaolan"] = "Protecteur Kaolan"; -- Translation needed
 
 end

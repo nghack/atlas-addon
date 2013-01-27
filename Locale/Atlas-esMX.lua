@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 -- Atlas Spanish (México) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 07/11/2012
+-- Última Actualización (last update): 27/01/2013
 
 -- Atlas Spanish (Mexico) Localization
 if ( GetLocale() == "esMX" ) then
@@ -368,6 +368,7 @@ if AL then
 	AL["SB"] = "SB"; --Stormstout Brewery
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
+	AL["ToT"] = "ToT"; --Throne of Thunder
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -1203,4 +1204,5 @@ if AL then
 
 	--Terrace of Endless Spring
 
+	--Throne of Thunder
 end

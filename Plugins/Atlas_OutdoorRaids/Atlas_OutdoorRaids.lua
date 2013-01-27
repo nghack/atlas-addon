@@ -72,8 +72,10 @@ local myData = {
 		MinLevel = "--";
 		PlayerLimit = "40";
 		JournalInstanceID = "322";
-		{ WHIT.." 1) "..Atlas_GetBossName("Sha of Anger", 691) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Salyis's Warband", 725) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Nalak, The Storm Lord", 814) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Oondasta", 826) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Anger", 691) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Salyis's Warband", 725) };
 		{ WHIT..INDENT..Atlas_GetBossName("Chief Salyis") };
 		{ WHIT..INDENT..Atlas_GetBossName("Galleon") };
 	};

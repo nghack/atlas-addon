@@ -374,7 +374,7 @@ if AL then
 	AL["SB"] = "BS, Brauerei"; --Stormstout Brewery
 	AL["TJS"] = "TdJ, Jade"; --Temple of the Jade Serpent
 	AL["TES"] = "TdEF, Terrasse"; --Terrace of Endless Spring
-	AL["ToS"] = "TdD"; --Throne of Thunder
+	AL["ToT"] = "TdD"; --Throne of Thunder
 
 --************************************************
 -- Instance Entrance Maps

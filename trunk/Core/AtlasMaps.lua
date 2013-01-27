@@ -2935,5 +2935,27 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
-
+	--[[ThroneofThunder = {
+		ZoneName = { BZ["Throne of Thunder"] };
+		Location = { BZ["Isle of Thunder"] };
+		DungeonID = "x";
+		DungeonHeroicID = "x";
+		Acronym = AL["ToS"];
+		JournalInstanceID = "362";
+		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Horridon, 819) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Council of Elders", 816) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Ji-Kun", 828) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
+		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
+		{ WHIT.." 9) "..Atlas_GetBossName("Dark Animus", 824) };
+		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
+		{ WHIT.." 11) "..Atlas_GetBossName("Twin Consorts", 829) };
+		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
+		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
+	};--]]
 };

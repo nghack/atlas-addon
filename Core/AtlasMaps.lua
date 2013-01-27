@@ -2940,7 +2940,7 @@ Syntax:
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "x";
 		DungeonHeroicID = "x";
-		Acronym = AL["ToS"];
+		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };

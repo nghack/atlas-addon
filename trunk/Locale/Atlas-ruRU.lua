@@ -370,6 +370,8 @@ if AL then
 	AL["SB"] = "ХБП"; --Хмелеварня Буйных Портеров
 	AL["TJS"] = "ХНЗ"; --Храм Нефритовой Змеи
 	AL["TES"] = "ТВВ"; --Терраса Вечной Весны
+	AL["ToT"] = "ЗМ"; --Throne of Thunder
+	
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -1201,5 +1203,7 @@ if AL then
 	AL["Priestess Summerpetal"] = "Жрица Летний Лепесток";
 
 	--Terrace of Endless Spring
-	
+
+	--Throne of Thunder
+
 end

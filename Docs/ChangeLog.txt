@@ -7,9 +7,18 @@ Copyright 2011 ~ 2012 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.23.1 (Jan. XX, 2013)
+v1.24.0 (Mar. XX, 2013)
 -----------------------
-- Enhance the UI to reduce the chance of UI taint
+- TOC update to support WoW 5.2
+- Introduce the use of LibDialog
+- Maps added:
+    - ....
+    - ....
+- Maps updated:
+    - ....
+- Translation update
+    - ....
+    - ....
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

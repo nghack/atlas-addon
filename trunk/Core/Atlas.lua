@@ -28,8 +28,15 @@
 -- Initiator and previous author: Dan Gilbert, Lothaer
 -- Maintainers: Arith, Dynaletik, dubcat
 
+local _G = getfenv(0);
+local pairs = _G.pairs;
+local math = _G.math;
+local table = _G.table;
+
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
+local LibDialog = LibStub("LibDialog-1.0");
+
 
 -- Turn ON / OFF Atlas debug mode
 local Atlas_DebugMode = false;
@@ -52,8 +59,6 @@ ATLAS_PLUGINS = {};
 ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
 local AtlasMap_NPC_Text_Frame_Num = 0;
--- To temporary disable the NPC Text feature until the function is ready
---Atlas_NPC_Text = false;
 
 -- Only update this version number when the options have been revised and a force update is needed.
 ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
@@ -202,8 +207,9 @@ local function Process_Deprecated()
 			textList = textList.."\n"..v..", "..GetAddOnMetadata(v, "Version");
 			DisableAddOn(v);
 		end
+--[[
 		StaticPopupDialogs["ATLAS_OLD_MODULES"] = {
-			preferredIndex = 3;
+			preferredIndex = 4;
 			text = ATLAS_DEP_MSG1.."\n"..ATLAS_DEP_MSG2.."\n"..ATLAS_DEP_MSG3.."\n|cff6666ff"..textList.."|r";
 			button1 = ATLAS_DEP_OK,
 			timeout = 0,
@@ -211,6 +217,16 @@ local function Process_Deprecated()
 			whileDead = 1,
 		}
 		StaticPopup_Show("ATLAS_OLD_MODULES")
+]]
+		LibDialog:Register("ATLAS_OLD_MODULES", {
+			text = ATLAS_DEP_MSG1.."\n"..ATLAS_DEP_MSG2.."\n"..ATLAS_DEP_MSG3.."\n|cff6666ff"..textList.."|r",
+			buttons = {
+				text = ATLAS_DEP_OK,
+			},
+			show_while_dead = false,
+			hide_on_escape = true,
+		});
+		LibDialog:Spawn("ATLAS_OLD_MODULES");
 	end
 end
 
@@ -343,8 +359,9 @@ local function Atlas_Check_Modules()
 		for _,str in pairs(List) do
 			textList = textList.."\n"..str;
 		end
+--[[
 		StaticPopupDialogs["DetectMissing"] = {
-			preferredIndex = 3;
+			preferredIndex = 4;
 			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
 			button1 = ATLAS_DEP_OK,
 			timeout = 0,
@@ -352,6 +369,16 @@ local function Atlas_Check_Modules()
 			whileDead = 1,
 		}
 		StaticPopup_Show("DetectMissing")
+]]
+		LibDialog:Register("DetectMissing", {
+			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"],
+			buttons = {
+				text = ATLAS_DEP_OK,
+			},
+			show_while_dead = false,
+			hide_on_escape = true,
+		});
+		LibDialog:Spawn("DetectMissing");
 	end
 end
 

@@ -8,7 +8,7 @@
 ## Notes-deDE: Classic WoW Instanzkarten
 ## Notes-zhTW: 艾澤拉斯副本地圖模組
 ## Notes-zhCN: 经典旧世地图
-## Version: 1.24.0
+## Version: 1.24.00
 ## Author: arith, Dynaletik, dubcat
 ## X-Date: Mar. XX, 2013
 ## X-Credits: Dan Gilbert, Lothaer

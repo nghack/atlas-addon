@@ -2943,10 +2943,15 @@ Syntax:
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Horridon, 819) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Council of Elders", 816) };
+		{ WHIT..INDENT..Atlas_GetBossName("Frost King Malakk") };
+		{ WHIT..INDENT..Atlas_GetBossName("High Priestess Mar'li") };
+		{ WHIT..INDENT..Atlas_GetBossName("Kazra'jin") };
+		{ WHIT..INDENT..Atlas_GetBossName("Sul the Sandcrawler") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Ji-Kun", 828) };
@@ -2954,7 +2959,12 @@ Syntax:
 		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Dark Animus", 824) };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
+		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren") };
+		{ WHIT..INDENT..Atlas_GetBossName("Quet'zal") };
+		{ WHIT..INDENT..Atlas_GetBossName("Ro'shak") };
 		{ WHIT.." 11) "..Atlas_GetBossName("Twin Consorts", 829) };
+		{ WHIT..INDENT..Atlas_GetBossName("Lu'lin") };
+		{ WHIT..INDENT..Atlas_GetBossName("Suen") };
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
 	};--]]

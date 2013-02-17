@@ -164,10 +164,12 @@ end
 
 local function Process_Deprecated()
 	--list of deprecated Atlas modules.
-	--first value is the name
+	--first value is the addon name
 	--second value is the version
 	--nil version means NO version will EVER be loaded!
 	--non-nil version mean ONLY IT OR NEWER versions will be loaded!
+	--note that 2.10 isn't greater than 2.9 (2.10 >= 2.9 will fail), so the addon version number must be with the same digits
+	--for example, name it as 2.09 instead of 2.9
 	local Deprecated_List = {
 		--most recent (working) versions of known modules at time of release
 		{ "Atlas_Scenarios", 		"1.23.0" },

@@ -185,7 +185,7 @@ local myData = {
 	};
 	DLPandaria = {
 		ZoneName = { BZ["Pandaria"] };
-		{ WHIT.." 1) "..BZ["Throne of Thunder"]..", ".._RED..BZ["Isle of Thunder] };
+		{ WHIT.." 1) "..BZ["Throne of Thunder"]..", ".._RED..BZ["Isle of Thunder"] };
 		{ WHIT.." 2) "..BZ["Shado-Pan Monastery"]..", ".._RED..BZ["Kun-Lai Summit"] };
 		{ WHIT.." 3) "..BZ["Mogu'shan Vaults"]..", ".._RED..BZ["Kun-Lai Summit"] };
 		{ WHIT.." 4) "..BZ["Siege of Niuzao Temple"]..", ".._RED..BZ["Townlong Steppes"] };

@@ -1010,9 +1010,9 @@ local myData = {
 		{ WHIT.."26) "..BZ["One Keg"] };
 		{ WHIT.."27) "..BZ["Temple of the White Tiger"] };
 		{ WHIT.."28) "..BZ["Zouchin Village"] };
+		{ WHIT.."29) "..BZ["Serpent's Spine"] };
 		{ "" };
 		{ BLUE..BZ["Townlong Steppes"] };
-		{ WHIT.."29) "..BZ["Hellscream's Fist"] };
 		{ WHIT.."30) "..BZ["Longying Outpost"] };
 		{ WHIT.."31) "..BZ["Gao-Ran Battlefront"] };
 		{ WHIT.."32) "..BZ["Rensai's Watchpost"] };

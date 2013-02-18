@@ -941,6 +941,9 @@ local myData = {
 		{ WHIT.."38) "..BZ["Serpent's Spine"] };
 		{ WHIT.."39) "..BZ["Shrine of Seven Stars"] };
 		{ "" };
+		{ BLUE..BZ["Isle of Giants"] };
+		{ WHIT.."40) "..BZ["Beeble's Wreck"] };
+		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
 	};
@@ -1024,6 +1027,9 @@ local myData = {
 		{ BLUE..BZ["Vale of Eternal Blossoms"] };
 		{ WHIT.."38) "..BZ["Serpent's Spine"] };    
 		{ WHIT.."39) "..BZ["Shrine of Two Moons"] };
+		{ "" };
+		{ BLUE..BZ["Isle of Giants"] };
+		{ WHIT.."40) "..BZ["Bozzle's Wreck"] };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };

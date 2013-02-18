@@ -11,8 +11,8 @@ v1.24.00 (Mar. XX, 2013)
 - TOC update to support WoW 5.2
 - Pandaria maps updated
     - Updated with new land base image
-    - Added Alliance new flight node - Lion's Landing
-    - Added Horde new flight node - Domination Point
+    - Added Alliance new flight node - Lion's Landing (Krasarang Wilds), Beeble's Wreck (Isle Of Giants)
+    - Added Horde new flight node - Domination Point (Krasarang Wilds), Bozzle's Wreck (Isle Of Giants)
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

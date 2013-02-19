@@ -62,7 +62,6 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Derrota a Borokhula el Destructor.";
 
 	-- A Little Patience
-
 	AL["Prepare the Defenses"] = "Prepara las defensas";
 	AL["Assist the two groups of laborers in the construction of their defenses."] = "Ayuda a los dos grupos de obreros a construir sus defensas.";
 	AL["Kill Commander Scargash"] = "Mata al comandante Sangrescara";
@@ -224,47 +223,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Lleva 200 brebajes de jungla de Unga al caldero de fermentación.";
 	AL["Defeat Captain Ook"] = "Derrota al capitán Ook";
 	AL["Defeat Captain Ook."] = "Derrota al capitán Ook.";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 end

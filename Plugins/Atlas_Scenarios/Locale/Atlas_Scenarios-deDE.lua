@@ -36,6 +36,8 @@ if AL then
 	AL["Stage 3"] = "Phase 3";
 	AL["Stage 4"] = "Phase 4";
 	AL["Stage 5"] = "Phase 5";
+	AL["Stage 6"] = "Phase 6";
+	AL["Stage 7"] = "Phase 7";
 	AL["Final Stage"] = "Letzte Phase";
 	AL["Start"] = "Anfang";
 	AL["End"] = "Ende";
@@ -50,6 +52,32 @@ if AL then
 	AL["Escort Blanche down Thunderpaw Road."] = "Eskortiert Blanche entlang des Donnerpfotenpfads.";
 	AL["Save Thunderpaw Refuge"] = "Rettet das Donnerpfotenrefugium";
 	AL["Defeat Borokhula the Destroyer."] = "Bezwingt Borokhula den Zerstörer";
+
+	-- A Little Patience
+	AL["Prepare the Defenses"] = "Bereitet die Verteidigung vor";
+	AL["Assist the two groups of laborers in the construction of their defenses."] = "Unterstützt die beiden Arbeitergruppen bei der Errichtung ihrer Verteidigungsanlagen.";
+	AL["Kill Commander Scargash"] = "Tötet Kommandant Schlitznarbe";
+	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Bezwingt Kommandant Schlitznarbe und erobert den Tempel des Roten Kranichs zurück.";
+	AL["Traps"] = "Fallen";
+	AL["Commander Skargash"] = "Kommandant Schlitznarbe";
+
+	-- Dagger in the Dark
+	AL["The Mission..."] = "Die Mission...";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Sprecht mit Vol'jin, um die Suche nach der Saurokhöhle zu beginnen.";
+	AL["We Ride!"] = "Unterwegs!";
+	AL["Find the entrance to the Saurok Cave."] = "Findet den Eingang zur Saurokhöhle";
+	AL["Guards!"] = "Wachen!";
+	AL["Defeat the Saurok guarding the cave."] = "Besiegt die Saurok, die die Höhle bewachen.";
+	AL["Into the Cave"] = "In die Höhle";
+	AL["Make your way deeper into the cave."] = "Dringt tiefer in die Höhle vor.";
+	AL["The Source"] = "Der Ursprung";
+	AL["Find the source of the Saurok."] = "Findet heraus, woher die Saurok stammen.";
+	AL["The Broodmaster"] = "Der Brutmeister";
+	AL["Defeat Broodmaster Noshi."] = "Bezwingt Brutmeister Noshi.";
+	AL["Investigation"] = "Untersuchung";
+	AL["Investigate the Mogu Statues."] = "Untersucht die Mogustatuen.";
+	AL["Ambush!"] = "Hinterhalt!";
+	AL["Fend off the Kor'kron ambush."] = "Wehrt den Angriff der Kor'kron ab.";
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Narbenpanzer";
@@ -67,6 +95,14 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Bezwingt Wolkenformer Kobo";
 
 	-- Assault on Zan'vess
+	AL["Assault on Zan'vess"] = "Angriff auf Zan'vess";
+	AL["Launch an assault on the island of Zan'vess."] = "Leitet einen Angriff auf die Insel Zan'vess ein";
+	AL["Defenses of Zan'vess"] = "Verteidigung von Zan'vess";
+	AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] = "Zerstört die Schalltürme und deaktiviert das Verteidigungsfeld von Zan'vess.";
+	AL["The Heart of Zan'vess"] = "Das Herz von Zan'vess";
+	AL["Storm the beach and reach the Heart of Zan'vess."] = "Erstürmt den Strand und erreicht das Herz von Zan'vess.";
+	AL["Weapons of Zan'vess"] = "Die Waffen von Zan'vess";
+	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Bezwingt Kommandant Tel'vrak und besorgt die Waffen der Mantis.";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Ein Schlag ins Wasser!";

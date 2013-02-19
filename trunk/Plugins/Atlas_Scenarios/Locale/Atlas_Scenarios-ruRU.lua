@@ -93,7 +93,7 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Уничтожьте осадную машину у западных ворот и найдите украденные штандарты.";
 	AL["The Last Stand"] = "Последний рубеж";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Защищайте Джайну, пока она открывает доступ к Радужному Средоточию.";
-	AL["Horde Ship"] = "Корабль Орды"; --need check
+	AL["Horde Ships"] = "Корабль Орды"; --need check
 	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
 	AL["Jaina"] = "Джайна"; --need check
 	AL["West Gate"] = "Западные ворота"; --need check

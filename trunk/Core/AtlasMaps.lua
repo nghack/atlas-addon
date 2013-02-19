@@ -2064,9 +2064,8 @@ Syntax:
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Warmage Kaitlyn"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Frozen Commander", 617) };
-		{ WHIT..INDENT..Atlas_GetBossName("Commander Kolurg").." ("..BF["Alliance"]..", "..AL["Heroic"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Commander Stoutbeard").." ("..BF["Horde"]..", "..AL["Heroic"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Commander Kolurg", 833).." ("..BF["Alliance"]..", "..AL["Heroic"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Commander Stoutbeard", 617).." ("..BF["Horde"]..", "..AL["Heroic"]..")" };
 		{ GREN..INDENT..AL["Berinand's Research"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Grand Magus Telestra", 618) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Anomalus", 619) };
@@ -2104,13 +2103,13 @@ Syntax:
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Grand Champions") };
-		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions (Alliance)", 633) };
+		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions", 834).." ("..BF["Alliance"]..")" };
 		{ WHIT..INDENT..INDENT..AL["Marshal Jacob Alerius"] };
 		{ WHIT..INDENT..INDENT..AL["Ambrose Boltspark"] };
 		{ WHIT..INDENT..INDENT..AL["Colosos"] };
 		{ WHIT..INDENT..INDENT..AL["Jaelyne Evensong"] };
 		{ WHIT..INDENT..INDENT..AL["Lana Stouthammer"] };
-		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions (Horde)", 634) };
+		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions", 634).." ("..BF["Horde"]..")" };
 		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Mokra the Skullcrusher") };
 		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Eressea Dawnsinger") };
 		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Runok Wildmane") };

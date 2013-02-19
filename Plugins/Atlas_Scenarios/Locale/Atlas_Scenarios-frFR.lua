@@ -93,7 +93,7 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Détruire l’engin de siège à la porte ouest et récupérer les étendards volés.";
 	AL["The Last Stand"] = "Le dernier rempart";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Protéger Jaina pendant qu’elle s’accorde à l’iris de focalisation.";
-	AL["Horde Ship"] = "Navire de la Horde";
+	AL["Horde Ships"] = "Navire de la Horde";
 	AL["The heart of ruined Theramore"] = "Cœur des ruines de Theramore";
 	AL["Jaina"] = "Jaina";
 	AL["West Gate"] = "Porte Ouest";

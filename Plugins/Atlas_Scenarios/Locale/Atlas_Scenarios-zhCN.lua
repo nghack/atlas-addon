@@ -93,7 +93,7 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "摧毁西边城门的攻城车，并找回失窃的旗帜。";
 	AL["The Last Stand"] = "背水一战";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "在吉安娜调校聚焦之虹时保护她。";
-	AL["Horde Ship"] = "部落船只";
+	AL["Horde Ships"] = "部落船只";
 	AL["The heart of ruined Theramore"] = "塞拉摩废墟的核心"
 	AL["Jaina"] = "吉安娜";
 	AL["West Gate"] = "西边城门";

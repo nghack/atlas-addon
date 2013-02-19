@@ -60,7 +60,7 @@ if AL then
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Defeat Commander Scargash and reclaim the Temple of the Red Crane.";
 	AL["Traps"] = "Traps";
 	AL["Commander Skargash"] = "Commander Skargash";
-	
+
 	-- Dagger in the Dark
 	AL["The Mission..."] = "The Mission...";
 	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Speak with Vol'jin to begin the search for the Saurok cave.";

@@ -58,6 +58,20 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Save Thunderpaw Refuge"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Borokhula the Destroyer."] };
 	};
+	SC_ALittlePatience = {
+		ZoneName = { BZ["A Little Patience"] };
+		Location = { BZ["The Deepwild"]..", "..BZ["Krasarang Wilds"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ BLUE.." A) "..AL["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Prepare the Defenses"] };
+		{ INDENT..INDENT..GREY..AL["Assist the two groups of laborers in the construction of their defenses."] };
+		{ INDENT..BLUE.." B) "..AL["Traps"] };
+		{ BLUE.." C) "..AL["Commander Skargash"] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Kill Commander Scargash"] };
+		{ INDENT..INDENT..GREY..AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] };
+	}; 
 	SC_ArenaOfAnnihilation = {
 		ZoneName = { BZ["Arena of Annihilation"] };
 		Location = { BZ["Temple of the White Tiger"]..", "..BZ["Kun-Lai Summit"] };
@@ -79,14 +93,44 @@ local myData = {
 		{ INDENT..INDENT..YELL..AL["Defeat Satay Byu"] };
 		{ INDENT..INDENT..YELL..AL["Defeat Cloudbender Kobo"] };
 	};
---[[
 	SC_AssaultonZanvess = {
 		ZoneName = { BZ["Assault on Zan'vess"] };
 		Location = { BZ["Zan'vess"]..", "..BZ["Dread Wastes"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ "" };
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["Assault on Zan'vess"] };
+		{ INDENT..GREY..AL["Launch an assault on the island of Zan'vess."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Defenses of Zan'vess"] };
+		{ INDENT..GREY..AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Heart of Zan'vess"] };
+		{ INDENT..GREY..AL["Storm the beach and reach the Heart of Zan'vess."] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Weapons of Zan'vess"] };
+		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
+	};
+--[[
+	SC_DaggerintheDark = {
+		ZoneName = { BZ["Dagger in the Dark"] };
+		Location = { BZ["The Veiled Stair"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Mission..."] };
+		{ INDENT..GREY..AL["Speak with Vol'jin to begin the search for the Saurok cave."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["We Ride!"] };
+		{ INDENT..GREY..AL["Find the entrance to the Saurok Cave."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["Guards!"] };
+		{ INDENT..GREY..AL["Defeat the Saurok guarding the cave."] };
+		{ YELL.."- "..AL["Stage 4"].." - "..AL["Into the Cave"] };
+		{ INDENT..GREY..AL["Make your way deeper into the cave."] };
+		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Source"] };
+		{ INDENT..GREY..AL["Find the source of the Saurok."] };
+		{ YELL.."- "..AL["Stage 6"].." - "..AL["The Broodmaster"] };
+		{ INDENT..GREY..AL["Defeat Broodmaster Noshi."] };
+		{ YELL.."- "..AL["Stage 7"].." - "..AL["Investigation"] };
+		{ INDENT..GREY..AL["Investigate the Mogu Statues."] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Ambush!"] };
+		{ INDENT..GREY..AL["Fend off the Kor'kron ambush."] };
 	};
 ]]
 	SC_TheramoresFallHorde = {

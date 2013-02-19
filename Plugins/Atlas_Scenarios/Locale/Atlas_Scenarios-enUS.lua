@@ -36,6 +36,8 @@ if AL then
 	AL["Stage 3"] = "Stage 3";
 	AL["Stage 4"] = "Stage 4";
 	AL["Stage 5"] = "Stage 5";
+	AL["Stage 6"] = "Stage 6";
+	AL["Stage 7"] = "Stage 7";
 	AL["Final Stage"] = "Final Stage";
 	AL["Start"] = "Start";
 	AL["End"] = "End";
@@ -50,6 +52,32 @@ if AL then
 	AL["Escort Blanche down Thunderpaw Road."] = "Escort Blanche down Thunderpaw Road.";
 	AL["Save Thunderpaw Refuge"] = "Save Thunderpaw Refuge";
 	AL["Defeat Borokhula the Destroyer."] = "Defeat Borokhula the Destroyer.";
+
+	-- A Little Patience
+	AL["Prepare the Defenses"] = "Prepare the Defenses";
+	AL["Assist the two groups of laborers in the construction of their defenses."] = "Assist the two groups of laborers in the construction of their defenses.";
+	AL["Kill Commander Scargash"] = "Kill Commander Scargash";
+	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Defeat Commander Scargash and reclaim the Temple of the Red Crane.";
+	AL["Traps"] = "Traps";
+	AL["Commander Skargash"] = "Commander Skargash";
+	
+	-- Dagger in the Dark
+	AL["The Mission..."] = "The Mission...";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Speak with Vol'jin to begin the search for the Saurok cave.";
+	AL["We Ride!"] = "We Ride!";
+	AL["Find the entrance to the Saurok Cave."] = "Find the entrance to the Saurok Cave.";
+	AL["Guards!"] = "Guards!";
+	AL["Defeat the Saurok guarding the cave."] = "Defeat the Saurok guarding the cave.";
+	AL["Into the Cave"] = "Into the Cave";
+	AL["Make your way deeper into the cave."] = "Make your way deeper into the cave.";
+	AL["The Source"] = "The Source";
+	AL["Find the source of the Saurok."] = "Find the source of the Saurok.";
+	AL["The Broodmaster"] = "The Broodmaster";
+	AL["Defeat Broodmaster Noshi."] = "Defeat Broodmaster Noshi.";
+	AL["Investigation"] = "Investigation";
+	AL["Investigate the Mogu Statues."] = "Investigate the Mogu Statues.";
+	AL["Ambush!"] = "Ambush!";
+	AL["Fend off the Kor'kron ambush."] = "Fend off the Kor'kron ambush.";
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Scar-shell";
@@ -67,6 +95,14 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
 
 	-- Assault on Zan'vess
+	AL["Assault on Zan'vess"] = "Assault on Zan'vess";
+	AL["Launch an assault on the island of Zan'vess."] = "Launch an assault on the island of Zan'vess.";
+	AL["Defenses of Zan'vess"] = "Defenses of Zan'vess";
+	AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] = "Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield.";
+	AL["The Heart of Zan'vess"] = "The Heart of Zan'vess";
+	AL["Storm the beach and reach the Heart of Zan'vess."] = "Storm the beach and reach the Heart of Zan'vess.";
+	AL["Weapons of Zan'vess"] = "Weapons of Zan'vess";
+	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Defeat Commander Tel'vrak and retrieve the Mantid weapon cache.";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "To the Waterline!";

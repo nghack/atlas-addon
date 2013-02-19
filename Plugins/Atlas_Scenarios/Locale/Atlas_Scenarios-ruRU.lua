@@ -45,7 +45,7 @@ if AL then
 	AL["Summon"] = "Вызов";
 	AL["Connection"] = "Связан";
 
-	-- Brewing Storm
+	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Варка взрывного лагера";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Помогите Бланш сварить ее легендарный взрывной лагер.";
 	AL["Road to Thunderpaw"] = "Дорога к пику Громовой Лапы";
@@ -54,6 +54,12 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Одолейте Борохалу Разрушителя.";
 
 	-- A Little Patience
+	AL["Prepare the Defenses"] = "Подготовка укреплений";
+	AL["Assist the two groups of laborers in the construction of their defenses."] = "Помогите как минимум двум группам рабочих построить укрепления.";
+	AL["Kill Commander Scargash"] = "Убить командира Глубокого Шрама";
+	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Победить командира Глубокого Шрама и вернуть Храм Красного Журавля.";
+	AL["Traps"] = "Ловушки";
+	AL["Commander Skargash"] = "Командир Глубокий Шрам";
 	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Потертый Панцирь";
@@ -71,6 +77,14 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Убейте сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
+	AL["Assault on Zan'vess"] = "Атака на Зан'весс";
+	AL["Launch an assault on the island of Zan'vess."] = "Присоединитесь к атаке на Зан'весс.";
+	AL["Defenses of Zan'vess"] = "Защитное поле Зан'весса";
+	AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] = "Разрушьте звуковые колонны и отключите защитный щит Зан'весса.";
+	AL["The Heart of Zan'vess"] = "Сердце Зан'весса";
+	AL["Storm the beach and reach the Heart of Zan'vess."] = "Захватите плацдарм на берегу и доберитесь до Сердца Зан'весса.";
+	AL["Weapons of Zan'vess"] = "Оружие Зан'весса";
+	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Победите командора Тел'врака и найдите склад оружия мантидов.";
 
 	-- Brewmoon Festival
 	AL["The Brewmoon Festival!"] = "Фестиваль Хмельнолуния!";
@@ -102,8 +116,38 @@ if AL then
 	AL["Abomination of Anger"] = "Порождение Гнева";
 
 	-- Dagger in the Dark
+	AL["The Mission..."] = "Миссия…";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Поговорите с Вол'джином, чтобы приступить к поискам пещеры сауроков.";
+	AL["We Ride!"] = "Мы едем!";
+	AL["Find the entrance to the Saurok Cave."] = "Найдите вход в пещеру сауроков.";
+	AL["Guards!"] = "Стража!";
+	AL["Defeat the Saurok guarding the cave."] = "Победите сауроков, охраняющих пещеру.";
+	AL["Into the Cave"] = "В пещеру";
+	AL["Make your way deeper into the cave."] = "Проникните вглубь пещеры.";
+	AL["The Source"] = "Происхождение";
+	AL["Find the source of the Saurok."] = "Найдите источник происхождения сауроков.";
+	AL["The Broodmaster"] = "Праматерь";
+	AL["Defeat Broodmaster Noshi."] = "Победите праматерь Ноши.";
+	AL["Investigation"] = "Осмотр";
+	AL["Investigate the Mogu Statues."] = "Осмотрите статуи могу.";
+	AL["Ambush!"] = "Нападение!";
+	AL["Fend off the Kor'kron ambush."] = "Отразите кор'кронское нападение.";
 
 	-- Domination Point
+	AL["The Flight Master"] = "Распорядитель полетов";
+	AL["Join up with Kromthar."] = "Примите в отряд Кромтар.";
+	AL["A.C.E.s High"] = "А.С. на высоте";
+	AL["Fight your way through the burning refinery to General Nazgrim."] = "Пробейтесь через горящий нефтезавод к генералу Назгриму.";
+	AL["Reclaim the Court!"] = "Возвращение контроля над двором";
+	AL["Defeat the Alliance forces assaulting the keep."] = "Разбейте силы Альянса, осаждающие крепость.";
+	AL["The Warlord"] = "Полководец";
+	AL["Locate Warlord Bloodhilt and help repel the Alliance assault."] = "Найдите полководца Кровавого Эфеса и помогите отразить нападение Альянса.";
+	AL["Legwork"] = "Беготня";
+	AL["Gather information about the Alliance and Horde forces."] = "Соберите информацию о силах Орды и Альянса.";
+	AL["Setting Up"] = "Установка";
+	AL["Set up Rivett's weapons and prepare to defend the keep!"] = "Установите орудия Риветта и приготовьтесь защищать крепость!";
+	AL["Hold the Line!"] = "Держать строй!";
+	AL["Hold the gate against waves of Alliance invaders and their commander."] = "Защитите ворота от атаки Альянса и возглавляющего ее командира.";
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Спасение жителей деревни";
@@ -118,6 +162,15 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Одолейте Мстительного Хуэя.";
 
 	-- Lion's Landing
+	AL["Join up with Daggin Windbeard."] = "Примите в отряд Даггина Ветроборода.";
+	AL["Death on the Docks"] = "Смерть на пристани";
+	AL["Fight your way through the docks to Admiral Taylor."] = "Пробейтесь к пристани, где находится адмирал Тейлор.";
+	AL["Defeat the Horde forces assaulting the keep."] = "Одержите победу над силами Орды, атакующими крепость.";
+	AL["The High Marshal"] = "Верховный маршал";
+	AL["Locate High Marshal Twinbraid and help repel the Horde assault."] = "Найдите Верховного маршала Двукоссу и помогите отразить нападение Орды.";
+	AL["Gather information from the SI:7 team."] = "Получите информацию от команды ШРУ.";
+	AL["Set up Sully's weapons and prepare to defend the keep!"] = "Установите орудия Салли и приготовьтесь защищать крепость!";
+	AL["Hold the keep against waves of Horde invaders and their commander."] = "Защитите крепость от атаки Орды и возглавляющего ее командира.";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "До ватерлинии!";
@@ -149,13 +202,13 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Уничтожьте осадную машину у западных ворот и найдите украденные штандарты.";
 	AL["The Last Stand"] = "Последний рубеж";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Защищайте Джайну, пока она открывает доступ к Радужному Средоточию.";
-	AL["Horde Ships"] = "Корабль Орды"; --need check
+	AL["Horde Ships"] = "Корабли Орды"; --need check
 	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
 	AL["Jaina"] = "Джайна"; --need check
 	AL["West Gate"] = "Западные ворота"; --need check
 
 	-- Unga Ingoo
-	AL["Brewing Cauldron"] = "Brewing Cauldron";
+	AL["Brewing Cauldron"] = "Хмелевареный котел"; --need check
 	AL["Escort Brewmaster Bo"] = "Сопровождение хмелевара Бо";
 	AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] = "Проведите хмелевара Бо к кипящему котлу Унга-Ингу.";
 	AL["Fill the Brewing Cauldron"] = "Наполнение хмелеваренного котла";

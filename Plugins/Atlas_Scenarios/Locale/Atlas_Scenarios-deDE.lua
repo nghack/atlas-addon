@@ -45,7 +45,7 @@ if AL then
 	AL["Summon"] = "Beschwörbar";
 	AL["Connection"] = "Verbindung";
 
-	-- Brewing Storm
+	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Braut Hammerbräu";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Helft Blanche dabei, ihr berühmtes Hammerbräu zu brauen.";
 	AL["Road to Thunderpaw"] = "Donnerpfotenpfad";
@@ -134,6 +134,20 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Wehrt den Angriff der Kor'kron ab.";
 
 	-- Domination Point
+	AL["The Flight Master"] = "Die Flugmeisterin";
+	AL["Join up with Kromthar."] = "Schließt Euch Kromthar an.";
+	AL["A.C.E.s High"] = "Spaß mit A.S.S.";
+	AL["Fight your way through the burning refinery to General Nazgrim."] = "Kämpft Euch durch die brennende Raffinerie zu General Nazgrim.";
+	AL["Reclaim the Court!"] = "Die Rückeroberung des Hofes!";
+	AL["Defeat the Alliance forces assaulting the keep."] = "Besiegt die Streitkräfte der Allianz, die die Burg angreifen.";
+	AL["The Warlord"] = "Der Kriegsfürst";
+	AL["Locate Warlord Bloodhilt and help repel the Alliance assault."] = "Findet Kriegsfürst Blutheft und helft dabei, den Angriff der Allianz abzuwehren.";
+	AL["Legwork"] = "Laufere";
+	AL["Gather information about the Alliance and Horde forces."] = "Sammelt Informationen über die Streitkräfte der Allianz und Horde.";
+	AL["Setting Up"] = "Vorbereitung";
+	AL["Set up Rivett's weapons and prepare to defend the keep!"] = "Macht Nietis Waffen bereit und wappnet Euch für die Verteidigung der Burg!";
+	AL["Hold the Line!"] = "Weicht nicht zurück!";
+	AL["Hold the gate against waves of Alliance invaders and their commander."] = "Haltet das Tor gegen den Ansturm der Allianztruppen und ihrer Kommandantin.";
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Rettet die Dorfbewohner";
@@ -148,6 +162,15 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Bezwingt den rachsüchtigen Hui.";
 
 	-- Lion's Landing
+	AL["Join up with Daggin Windbeard."] = "Schließt Euch Daggin Windbart an.";
+	AL["Death on the Docks"] = "Tod auf den Docks";
+	AL["Fight your way through the docks to Admiral Taylor."] = "Kämpft Euch durch die Gegner bis zu Admiral Taylor auf den Docks.";
+	AL["Defeat the Horde forces assaulting the keep."] = "Besiegt die Streitkräfte der Horde, die die Burg angreifen.";
+	AL["The High Marshal"] = "Der Hochmarschall";
+	AL["Locate High Marshal Twinbraid and help repel the Horde assault."] = "Findet Hochmarschall Doppelzopf und helft dabei, den Angriff der Horde abzuwehren.";
+	AL["Gather information from the SI:7 team."] = "Erlangt Informationen von den Agenten des SI:7.";
+	AL["Set up Sully's weapons and prepare to defend the keep!"] = "Macht Sullys Waffen bereitet und wappnet Euch für die Verteidigung der Burg!";
+	AL["Hold the keep against waves of Horde invaders and their commander."] = "Verteidigt die Burg gegen die Angriffswellen der Horde und ihre Kommandantin.";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Ein Schlag ins Wasser!";

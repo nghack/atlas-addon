@@ -44,6 +44,8 @@ if AL then
 	AL["Stage 3"] = "Escenario 3";
 	AL["Stage 4"] = "Escenario 4";
 	AL["Stage 5"] = "Escenario 5";
+	AL["Stage 6"] = "Escenario 6";
+	AL["Stage 7"] = "Escenario 7";
 	AL["Final Stage"] = "Escenario final";
 	AL["Start"] = "Inicio";
 	AL["End"] = "Final";
@@ -59,6 +61,8 @@ if AL then
 	AL["Save Thunderpaw Refuge"] = "Salva el Refugio Zarpa Atronadora";
 	AL["Defeat Borokhula the Destroyer."] = "Derrota a Borokhula el Destructor.";
 
+	-- A Little Patience
+	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Escaraza";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Invoca y derrota a la poderosa tortuga dragón, Escaraza.";
@@ -76,6 +80,50 @@ if AL then
 
 	-- Assault on Zan'vess
 
+	-- Brewmoon Festival
+	AL["The Brewmoon Festival!"] = "El Festival de la Cerveza Lunar";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Ayuda a los asistentes del maestro cervecero Boof a reunir los ingredientes para la pateadora de Kun-Lai.";
+	AL["The Scouts Report."] = "El informe de los exploradores";
+	AL["Investigate the Yaungol sightings."] = "Investiga los avistamientos yaungol.";
+	AL["The Yaungol attack!"] = "¡El ataque yaungol!";
+	AL["Stop the Bataari invasion on Binan Village."] = "Detén la invasión Bataari en la Aldea Binan.";
+	AL["Warbringer Qobi"] = "Belisario Qobi";
+	AL["Defeat Warbringer Qobi."] = "Derrota al belisario Qobi.";
+	AL["Karsar the Bloodletter"] = "Karsar el Sangrador";
+	AL["Li Te"] = "Li Te";
+	AL["Den Mother Moof"] = "Madre del cubil Moof";
+	AL["Brewmaster Boof"] = "Maestro cervecero Boof";
+	AL["Defence Point"] = "Lugar de defensa";
+
+	-- Crypt of Forgotten Kings
+	AL["End the Terror"] = "Acaba con el terror";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "Derrota al líder del Shadopan corrupto.";
+	AL["The Pool of Life"] = "La Poza de vida";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "Limpia la corrupción sha de la Poza de vida.";
+	AL["Search the Crypts"] = "Investiga las criptas";
+	AL["Delve deeper into the crypt and search the bottom level."] = "Investiga más a fondo la cripta y rastrea el nivel inferior.";
+	AL["Destroy the Sha"] = "Acaba con el sha.";
+	AL["Destroy the Abomination of Anger."] = "Acaba con la Abominación de ira.";
+	AL["Jin Ironfist"] = "Jin Puñoferro";
+	AL["Pool of Life"] = "Poza de vida";
+	AL["Treasure Urn"] = "Urna de tesoro";
+	AL["Abomination of Anger"] = "Abominación de ira";
+
+	-- Dagger in the Dark
+	-- Domination Point
+	-- Greenstone Village
+	AL["Rescue the Villagers"] = "Salva a los habitantes";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "Derrota a los monstruos que atacan a los habitantes de Verdemar.";
+	AL["Rescue the Dojo"] = "Salva el dojo";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "Derrota a los monstruos que están atacando el dojo de Verdemar.";
+	AL["Recover Burgled Barrels"] = "Recupera los barriles robados";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Encuentra los barriles robados en el bosque y devuélveselos al dojo de la aldea.";
+	AL["Rescue Greenstone Masons"] = "Rescata a los canteros de Verdemar";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Viaja al Barrio de Canteros y despierta a los aldeanos inconscientes.";
+	AL["Defeat Vengeful Hui"] = "Derrota a Hui el Vengativo";
+	AL["Defeat Vengeful Hui."] = "Derrota a Hui el Vengativo.";
+
+	-- Lion's Landing
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "¡A la línea de flotación!";
 	AL["Rig powder barrels on all six ships."] = "Prepara los barriles de pólvora en los seis barcos.";
@@ -114,48 +162,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Lleva 200 brebajes de jungla de Unga al caldero de fermentación.";
 	AL["Defeat Captain Ook"] = "Derrota al capitán Ook";
 	AL["Defeat Captain Ook."] = "Derrota al capitán Ook.";
-
-	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "El Festival de la Cerveza Lunar";
-	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Ayuda a los asistentes del maestro cervecero Boof a reunir los ingredientes para la pateadora de Kun-Lai.";
-	AL["The Scouts Report."] = "El informe de los exploradores";
-	AL["Investigate the Yaungol sightings."] = "Investiga los avistamientos yaungol.";
-	AL["The Yaungol attack!"] = "¡El ataque yaungol!";
-	AL["Stop the Bataari invasion on Binan Village."] = "Detén la invasión Bataari en la Aldea Binan.";
-	AL["Warbringer Qobi"] = "Belisario Qobi";
-	AL["Defeat Warbringer Qobi."] = "Derrota al belisario Qobi.";
-	AL["Karsar the Bloodletter"] = "Karsar el Sangrador";
-	AL["Li Te"] = "Li Te";
-	AL["Den Mother Moof"] = "Madre del cubil Moof";
-	AL["Brewmaster Boof"] = "Maestro cervecero Boof";
-	AL["Defence Point"] = "Lugar de defensa";
-
-	-- Greenstone Village
-	AL["Rescue the Villagers"] = "Salva a los habitantes";
-	AL["Defeat the monsters attacking the Greenstone villagers."] = "Derrota a los monstruos que atacan a los habitantes de Verdemar.";
-	AL["Rescue the Dojo"] = "Salva el dojo";
-	AL["Defeat the monsters attacking Greenstone's dojo."] = "Derrota a los monstruos que están atacando el dojo de Verdemar.";
-	AL["Recover Burgled Barrels"] = "Recupera los barriles robados";
-	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Encuentra los barriles robados en el bosque y devuélveselos al dojo de la aldea.";
-	AL["Rescue Greenstone Masons"] = "Rescata a los canteros de Verdemar";
-	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Viaja al Barrio de Canteros y despierta a los aldeanos inconscientes.";
-	AL["Defeat Vengeful Hui"] = "Derrota a Hui el Vengativo";
-	AL["Defeat Vengeful Hui."] = "Derrota a Hui el Vengativo.";
-
-	-- Crypt of Forgotten Kings
-	AL["End the Terror"] = "Acaba con el terror";
-	AL["Defeat the corrupted Shado-Pan Leader."] = "Derrota al líder del Shadopan corrupto.";
-	AL["The Pool of Life"] = "La Poza de vida";
-	AL["Cleanse the Sha corruption from the Pool of Life."] = "Limpia la corrupción sha de la Poza de vida.";
-	AL["Search the Crypts"] = "Investiga las criptas";
-	AL["Delve deeper into the crypt and search the bottom level."] = "Investiga más a fondo la cripta y rastrea el nivel inferior.";
-	AL["Destroy the Sha"] = "Acaba con el sha.";
-	AL["Destroy the Abomination of Anger."] = "Acaba con la Abominación de ira.";
-	AL["Jin Ironfist"] = "Jin Puñoferro";
-	AL["Pool of Life"] = "Poza de vida";
-	AL["Treasure Urn"] = "Urna de tesoro";
-	AL["Abomination of Anger"] = "Abominación de ira";
-
-	-- Peak of Serenity
 
 end

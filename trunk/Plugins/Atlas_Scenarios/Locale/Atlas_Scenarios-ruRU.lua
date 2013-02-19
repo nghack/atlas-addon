@@ -36,6 +36,8 @@ if AL then
 	AL["Stage 3"] = "3 этап";
 	AL["Stage 4"] = "4 этап";
 	AL["Stage 5"] = "5 этап";
+	AL["Stage 6"] = "6 этап";
+	AL["Stage 7"] = "7 этап";
 	AL["Final Stage"] = "Финальный этап";
 	AL["Start"] = "Начало";
 	AL["End"] = "Конец";
@@ -51,6 +53,8 @@ if AL then
 	AL["Save Thunderpaw Refuge"] = "Защита Укрытия Громовой Лапы";
 	AL["Defeat Borokhula the Destroyer."] = "Одолейте Борохалу Разрушителя.";
 
+	-- A Little Patience
+	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Потертый Панцирь";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Призовите и одолейте могучую драконью черепаху Потертый Панцирь.";
@@ -67,6 +71,53 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Убейте сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
+
+	-- Brewmoon Festival
+	AL["The Brewmoon Festival!"] = "Фестиваль Хмельнолуния!";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Помогите помощникам хмелевара Буфа собрать ингредиенты для куньлайского сногсшибателя.";
+	AL["The Scouts Report."] = "Результаты разведки";
+	AL["Investigate the Yaungol sightings."] = "Осмотрите места, где были замечены яунголы.";
+	AL["The Yaungol attack!"] = "Атака яунголов!";
+	AL["Stop the Bataari invasion on Binan Village."] = "Остановите атаку батааров на деревню Бинан.";
+	AL["Warbringer Qobi"] = "Воинственный Коби";
+	AL["Defeat Warbringer Qobi."] = "Победите Воинственного Коби.";
+	AL["Karsar the Bloodletter"] = "Карсар Кровопускатель";
+	AL["Li Te"] = "Ли Тэ";
+	AL["Den Mother Moof"] = "Мать логова Муф";
+	AL["Brewmaster Boof"] = "Хмелевар Буф";
+	AL["Defence Point"] = "Точка обороны"; --need check
+
+	-- Crypt of Forgotten Kings
+	AL["End the Terror"] = "Конец ужаса";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "Одолейте поддавшегося скверне лидера Шадо-Пан.";
+	AL["The Pool of Life"] = "Источник жизни";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "Очистите источник жизни от скверны ша.";
+	AL["Search the Crypts"] = "Поиски в гробницах";
+	AL["Delve deeper into the crypt and search the bottom level."] = "Спуститесь еще глубже и обыщите нижний уровень гробниц.";
+	AL["Destroy the Sha"] = "Уничтожьте ша";
+	AL["Destroy the Abomination of Anger."] = "Уничтожьте Порождение Гнева.";
+	AL["Jin Ironfist"] = "Цзинь Железный Кулак";
+	AL["Pool of Life"] = "Источник жизни";
+	AL["Treasure Urn"] = "Гробница Забытых Королей";
+	AL["Abomination of Anger"] = "Порождение Гнева";
+
+	-- Dagger in the Dark
+
+	-- Domination Point
+
+	-- Greenstone Village
+	AL["Rescue the Villagers"] = "Спасение жителей деревни";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "Одолейте монстров, атакующих жителей деревни Зеленой Скалы.";
+	AL["Rescue the Dojo"] = "Спасение додзё";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "Уничтожьте монстров, атакующих додзё Зеленой Скалы.";
+	AL["Recover Burgled Barrels"] = "Возвращение украденных бочонков";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Найдите в лесу украденные бочонки и верните их в додзё деревни .";
+	AL["Rescue Greenstone Masons"] = "Спасение каменщиков Зеленой Скалы";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Отправьтесь в Поселок Каменщиков и приведите в сознание жителей.";
+	AL["Defeat Vengeful Hui"] = "Победа над Мстительным Хуэем";
+	AL["Defeat Vengeful Hui."] = "Одолейте Мстительного Хуэя.";
+
+	-- Lion's Landing
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "До ватерлинии!";
@@ -111,48 +162,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Вылейте в хмелеваренный котел 200 порций тропического отвара Унга.";
 	AL["Defeat Captain Ook"] = "Победа над капитаном Уком";
 	AL["Defeat Captain Ook."] = "Одолейте капитана Ука.";
-
-	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "Фестиваль Хмельнолуния!";
-	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Помогите помощникам хмелевара Буфа собрать ингредиенты для куньлайского сногсшибателя.";
-	AL["The Scouts Report."] = "Результаты разведки";
-	AL["Investigate the Yaungol sightings."] = "Осмотрите места, где были замечены яунголы.";
-	AL["The Yaungol attack!"] = "Атака яунголов!";
-	AL["Stop the Bataari invasion on Binan Village."] = "Остановите атаку батааров на деревню Бинан.";
-	AL["Warbringer Qobi"] = "Воинственный Коби";
-	AL["Defeat Warbringer Qobi."] = "Победите Воинственного Коби.";
-	AL["Karsar the Bloodletter"] = "Карсар Кровопускатель";
-	AL["Li Te"] = "Ли Тэ";
-	AL["Den Mother Moof"] = "Мать логова Муф";
-	AL["Brewmaster Boof"] = "Хмелевар Буф";
-	AL["Defence Point"] = "Точка обороны"; --need check
-
-	-- Greenstone Village
-	AL["Rescue the Villagers"] = "Спасение жителей деревни";
-	AL["Defeat the monsters attacking the Greenstone villagers."] = "Одолейте монстров, атакующих жителей деревни Зеленой Скалы.";
-	AL["Rescue the Dojo"] = "Спасение додзё";
-	AL["Defeat the monsters attacking Greenstone's dojo."] = "Уничтожьте монстров, атакующих додзё Зеленой Скалы.";
-	AL["Recover Burgled Barrels"] = "Возвращение украденных бочонков";
-	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Найдите в лесу украденные бочонки и верните их в додзё деревни .";
-	AL["Rescue Greenstone Masons"] = "Спасение каменщиков Зеленой Скалы";
-	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Отправьтесь в Поселок Каменщиков и приведите в сознание жителей.";
-	AL["Defeat Vengeful Hui"] = "Победа над Мстительным Хуэем";
-	AL["Defeat Vengeful Hui."] = "Одолейте Мстительного Хуэя.";
-
-	-- Crypt of Forgotten Kings
-	AL["End the Terror"] = "Конец ужаса";
-	AL["Defeat the corrupted Shado-Pan Leader."] = "Одолейте поддавшегося скверне лидера Шадо-Пан.";
-	AL["The Pool of Life"] = "Источник жизни";
-	AL["Cleanse the Sha corruption from the Pool of Life."] = "Очистите источник жизни от скверны ша.";
-	AL["Search the Crypts"] = "Поиски в гробницах";
-	AL["Delve deeper into the crypt and search the bottom level."] = "Спуститесь еще глубже и обыщите нижний уровень гробниц.";
-	AL["Destroy the Sha"] = "Уничтожьте ша";
-	AL["Destroy the Abomination of Anger."] = "Уничтожьте Порождение Гнева.";
-	AL["Jin Ironfist"] = "Цзинь Железный Кулак";
-	AL["Pool of Life"] = "Источник жизни";
-	AL["Treasure Urn"] = "Гробница Забытых Королей";
-	AL["Abomination of Anger"] = "Порождение Гнева";
-
-	-- Peak of Serenity
 
 end

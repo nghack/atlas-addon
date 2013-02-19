@@ -36,6 +36,8 @@ if AL then
 	AL["Stage 3"] = "阶段 3";
 	AL["Stage 4"] = "阶段 4";
 	AL["Stage 5"] = "阶段 5";
+	AL["Stage 6"] = "阶段 6";
+	AL["Stage 7"] = "阶段 7";
 	AL["Final Stage"] = "最后阶段";
 	AL["Start"] = "开始";
 	AL["End"] = "结束";
@@ -67,6 +69,53 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "击杀驾云者科博";
 
 	-- Assault on Zan'vess
+
+	-- Brewmoon Festival
+	AL["The Brewmoon Festival!"] = "酿月祭";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "帮酒仙布夫的助手收集昆莱劲酒的酿造材料。";
+	AL["The Scouts Report."] = "斥候来报。";
+	AL["Investigate the Yaungol sightings."] = "调查野牛人的眼线。";
+	AL["The Yaungol attack!"] = "野牛人入侵！";
+	AL["Stop the Bataari invasion on Binan Village."] = "阻止巴塔里野牛人对滨岸村的入侵。";
+	AL["Warbringer Qobi"] = "战争使者虬碧";
+	AL["Defeat Warbringer Qobi."] = "击败战争使者虬碧。";
+	AL["Karsar the Bloodletter"] = "放血者卡萨尔";
+	AL["Li Te"] = "李铁";
+	AL["Den Mother Moof"] = "巢穴主母墨芙";
+	AL["Brewmaster Boof"] = "酿酒大师布夫";
+	AL["Defence Point"] = "防御点";
+	
+	-- Crypt of Forgotten Kings
+	AL["End the Terror"] = "终结恐惧";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "击败被腐蚀的影踪派掌门。";
+	AL["The Pool of Life"] = "生命之池";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "为生命之池消除煞能腐蚀。";
+	AL["Search the Crypts"] = "搜索地穴";
+	AL["Delve deeper into the crypt and search the bottom level."] = "深度挖掘地穴并搜索地穴的底层。";
+	AL["Destroy the Sha"] = "消灭煞魔";
+	AL["Destroy the Abomination of Anger."] = "消灭怒煞畸体。";
+	AL["Jin Ironfist"] = "金·铁拳";
+	AL["Pool of Life"] = "生命之池";
+	AL["Treasure Urn"] = "藏宝瓮";
+	AL["Abomination of Anger"] = "怒煞畸体";
+
+	-- Dagger in the Dark
+
+	-- Domination Point
+
+	-- Greenstone Village
+	AL["Rescue the Villagers"] = "拯救村民";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "击败那些攻击绿石村民的怪物。";
+	AL["Rescue the Dojo"] = "拯救道场";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "击败围攻绿石道场的怪物。";
+	AL["Recover Burgled Barrels"] = "找回失窃的桶";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "从森林里找回失窃的酒桶，并将它们送回村里的道场。";
+	AL["Rescue Greenstone Masons"] = "拯救绿石工匠区";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "前往绿石工匠区并唤醒失去意识的村民。";
+	AL["Defeat Vengeful Hui"] = "击败仇灰";
+	AL["Defeat Vengeful Hui."] = "击败仇灰。";
+
+	-- Lion's Landing
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "炸毁敌舰！";
@@ -106,48 +155,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "带上200桶盎迦丛林酒去酿酒大锅。";
 	AL["Defeat Captain Ook"] = "击败乌克头领";
 	AL["Defeat Captain Ook."] = "击败乌克头领。";
-
-	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "酿月祭";
-	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "帮酒仙布夫的助手收集昆莱劲酒的酿造材料。";
-	AL["The Scouts Report."] = "斥候来报。";
-	AL["Investigate the Yaungol sightings."] = "调查野牛人的眼线。";
-	AL["The Yaungol attack!"] = "野牛人入侵！";
-	AL["Stop the Bataari invasion on Binan Village."] = "阻止巴塔里野牛人对滨岸村的入侵。";
-	AL["Warbringer Qobi"] = "战争使者虬碧";
-	AL["Defeat Warbringer Qobi."] = "击败战争使者虬碧。";
-	AL["Karsar the Bloodletter"] = "放血者卡萨尔";
-	AL["Li Te"] = "李铁";
-	AL["Den Mother Moof"] = "巢穴主母墨芙";
-	AL["Brewmaster Boof"] = "酿酒大师布夫";
-	AL["Defence Point"] = "防御点";
 	
-	-- Greenstone Village
-	AL["Rescue the Villagers"] = "拯救村民";
-	AL["Defeat the monsters attacking the Greenstone villagers."] = "击败那些攻击绿石村民的怪物。";
-	AL["Rescue the Dojo"] = "拯救道场";
-	AL["Defeat the monsters attacking Greenstone's dojo."] = "击败围攻绿石道场的怪物。";
-	AL["Recover Burgled Barrels"] = "找回失窃的桶";
-	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "从森林里找回失窃的酒桶，并将它们送回村里的道场。";
-	AL["Rescue Greenstone Masons"] = "拯救绿石工匠区";
-	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "前往绿石工匠区并唤醒失去意识的村民。";
-	AL["Defeat Vengeful Hui"] = "击败仇灰";
-	AL["Defeat Vengeful Hui."] = "击败仇灰。";
-
-	-- Crypt of Forgotten Kings
-	AL["End the Terror"] = "终结恐惧";
-	AL["Defeat the corrupted Shado-Pan Leader."] = "击败被腐蚀的影踪派掌门。";
-	AL["The Pool of Life"] = "生命之池";
-	AL["Cleanse the Sha corruption from the Pool of Life."] = "为生命之池消除煞能腐蚀。";
-	AL["Search the Crypts"] = "搜索地穴";
-	AL["Delve deeper into the crypt and search the bottom level."] = "深度挖掘地穴并搜索地穴的底层。";
-	AL["Destroy the Sha"] = "消灭煞魔";
-	AL["Destroy the Abomination of Anger."] = "消灭怒煞畸体。";
-	AL["Jin Ironfist"] = "金·铁拳";
-	AL["Pool of Life"] = "生命之池";
-	AL["Treasure Urn"] = "藏宝瓮";
-	AL["Abomination of Anger"] = "怒煞畸体";
-	
-	-- Peak of Serenity
-
 end

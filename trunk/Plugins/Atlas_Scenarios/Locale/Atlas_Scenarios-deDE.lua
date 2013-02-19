@@ -61,24 +61,6 @@ if AL then
 	AL["Traps"] = "Fallen";
 	AL["Commander Skargash"] = "Kommandant Schlitznarbe";
 
-	-- Dagger in the Dark
-	AL["The Mission..."] = "Die Mission...";
-	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Sprecht mit Vol'jin, um die Suche nach der Saurokhöhle zu beginnen.";
-	AL["We Ride!"] = "Unterwegs!";
-	AL["Find the entrance to the Saurok Cave."] = "Findet den Eingang zur Saurokhöhle";
-	AL["Guards!"] = "Wachen!";
-	AL["Defeat the Saurok guarding the cave."] = "Besiegt die Saurok, die die Höhle bewachen.";
-	AL["Into the Cave"] = "In die Höhle";
-	AL["Make your way deeper into the cave."] = "Dringt tiefer in die Höhle vor.";
-	AL["The Source"] = "Der Ursprung";
-	AL["Find the source of the Saurok."] = "Findet heraus, woher die Saurok stammen.";
-	AL["The Broodmaster"] = "Der Brutmeister";
-	AL["Defeat Broodmaster Noshi."] = "Bezwingt Brutmeister Noshi.";
-	AL["Investigation"] = "Untersuchung";
-	AL["Investigate the Mogu Statues."] = "Untersucht die Mogustatuen.";
-	AL["Ambush!"] = "Hinterhalt!";
-	AL["Fend off the Kor'kron ambush."] = "Wehrt den Angriff der Kor'kron ab.";
-
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Narbenpanzer";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Beschwört und bezwingt die mächtige Drachenschildkröte Narbenpanzer.";
@@ -103,6 +85,69 @@ if AL then
 	AL["Storm the beach and reach the Heart of Zan'vess."] = "Erstürmt den Strand und erreicht das Herz von Zan'vess.";
 	AL["Weapons of Zan'vess"] = "Die Waffen von Zan'vess";
 	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Bezwingt Kommandant Tel'vrak und besorgt die Waffen der Mantis.";
+
+	-- Brewmoon Festival
+	AL["The Brewmoon Festival!"] = "Das Braumondfest!";
+	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Helft den Gehilfen von Braumeister Boof dabei, die Zutaten für den Kun-Lai-Hammer zu sammeln.";
+	AL["The Scouts Report."] = "Berichte der Späher";
+	AL["Investigate the Yaungol sightings."] = "Untersucht die Sichtungen der Yaungol.";
+	AL["The Yaungol attack!"] = "Die Yaungol greifen an!";
+	AL["Stop the Bataari invasion on Binan Village."] = "Halte die Invasion der Bataari auf Binan auf.";
+	AL["Warbringer Qobi"] = "Kriegshetzer Qobi";
+	AL["Defeat Warbringer Qobi."] = "Bezwingt Kriegshetzer Qobi.";
+	AL["Karsar the Bloodletter"] = "Karsar der Blutvergießer";
+	AL["Li Te"] = "Li Te";
+	AL["Den Mother Moof"] = "Höhlenmutter Muuf";
+	AL["Brewmaster Boof"] = "Braumeister Boof";
+	AL["Defence Point"] = "Verteidigungspunkt";
+
+	-- Crypt of Forgotten Kings
+	AL["End the Terror"] = "Beendet den Alptraum";
+	AL["Defeat the corrupted Shado-Pan Leader."] = "Bezwingt den verderbten Anführer der Shado-Pan.";
+	AL["The Pool of Life"] = "Der Teich des Lebens";
+	AL["Cleanse the Sha corruption from the Pool of Life."] = "Läutert den Teich des Lebens von der Sha-Verderbnis.";
+	AL["Search the Crypts"] = "Durchsucht die Krypta";
+	AL["Delve deeper into the crypt and search the bottom level."] = "Geht tiefer in die Krypta hinein und durchsucht die untere Ebene.";
+	AL["Destroy the Sha"] = "Bezwingt das Sha";
+	AL["Destroy the Abomination of Anger."] = "Bezwingt die Monstrosität des Zorns.";
+	AL["Jin Ironfist"] = "Jin Eisenfaust";
+	AL["Pool of Life"] = "Teich des Lebens";
+	AL["Treasure Urn"] = "Schatzurne";
+	AL["Abomination of Anger"] = "Monstrosität des Zorns";
+
+	-- Dagger in the Dark
+	AL["The Mission..."] = "Die Mission...";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Sprecht mit Vol'jin, um die Suche nach der Saurokhöhle zu beginnen.";
+	AL["We Ride!"] = "Unterwegs!";
+	AL["Find the entrance to the Saurok Cave."] = "Findet den Eingang zur Saurokhöhle";
+	AL["Guards!"] = "Wachen!";
+	AL["Defeat the Saurok guarding the cave."] = "Besiegt die Saurok, die die Höhle bewachen.";
+	AL["Into the Cave"] = "In die Höhle";
+	AL["Make your way deeper into the cave."] = "Dringt tiefer in die Höhle vor.";
+	AL["The Source"] = "Der Ursprung";
+	AL["Find the source of the Saurok."] = "Findet heraus, woher die Saurok stammen.";
+	AL["The Broodmaster"] = "Der Brutmeister";
+	AL["Defeat Broodmaster Noshi."] = "Bezwingt Brutmeister Noshi.";
+	AL["Investigation"] = "Untersuchung";
+	AL["Investigate the Mogu Statues."] = "Untersucht die Mogustatuen.";
+	AL["Ambush!"] = "Hinterhalt!";
+	AL["Fend off the Kor'kron ambush."] = "Wehrt den Angriff der Kor'kron ab.";
+
+	-- Domination Point
+
+	-- Greenstone Village
+	AL["Rescue the Villagers"] = "Rettet die Dorfbewohner";
+	AL["Defeat the monsters attacking the Greenstone villagers."] = "Bezwingt die Monster, die die Dorfbewohner von Grünstein angreifen.";
+	AL["Rescue the Dojo"] = "Rettet den Dojo";
+	AL["Defeat the monsters attacking Greenstone's dojo."] = "Bezwingt die Monster, die den Dojo von Grünstein angreifen.";
+	AL["Recover Burgled Barrels"] = "Findet die gestohlenen Fässer";
+	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Findet gestohlene Braufässer im Wald und bringt sie zum Dojo des Dorfes zurück.";
+	AL["Rescue Greenstone Masons"] = "Rettet die Steinmetze von Grünstein";
+	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Reist zum Steinmetzviertel und weckt die bewusstlosen Dorfbewohner auf.";
+	AL["Defeat Vengeful Hui"] = "Bezwingt den rachsüchtigen Hui";
+	AL["Defeat Vengeful Hui."] = "Bezwingt den rachsüchtigen Hui.";
+
+	-- Lion's Landing
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Ein Schlag ins Wasser!";
@@ -147,48 +192,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "Bringt 200 Becher Ungadschungelbräu zum Braukessel.";
 	AL["Defeat Captain Ook"] = "Bezwingt Kapitän Uuk";
 	AL["Defeat Captain Ook."] = "Bezwingt Kapitän Uuk.";
-
-	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "Das Braumondfest!";
-	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Helft den Gehilfen von Braumeister Boof dabei, die Zutaten für den Kun-Lai-Hammer zu sammeln.";
-	AL["The Scouts Report."] = "Berichte der Späher";
-	AL["Investigate the Yaungol sightings."] = "Untersucht die Sichtungen der Yaungol.";
-	AL["The Yaungol attack!"] = "Die Yaungol greifen an!";
-	AL["Stop the Bataari invasion on Binan Village."] = "Halte die Invasion der Bataari auf Binan auf.";
-	AL["Warbringer Qobi"] = "Kriegshetzer Qobi";
-	AL["Defeat Warbringer Qobi."] = "Bezwingt Kriegshetzer Qobi.";
-	AL["Karsar the Bloodletter"] = "Karsar der Blutvergießer";
-	AL["Li Te"] = "Li Te";
-	AL["Den Mother Moof"] = "Höhlenmutter Muuf";
-	AL["Brewmaster Boof"] = "Braumeister Boof";
-	AL["Defence Point"] = "Verteidigungspunkt";
-
-	-- Greenstone Village
-	AL["Rescue the Villagers"] = "Rettet die Dorfbewohner";
-	AL["Defeat the monsters attacking the Greenstone villagers."] = "Bezwingt die Monster, die die Dorfbewohner von Grünstein angreifen.";
-	AL["Rescue the Dojo"] = "Rettet den Dojo";
-	AL["Defeat the monsters attacking Greenstone's dojo."] = "Bezwingt die Monster, die den Dojo von Grünstein angreifen.";
-	AL["Recover Burgled Barrels"] = "Findet die gestohlenen Fässer";
-	AL["Find burgled brew barrels in the forest and return them to the village dojo."] = "Findet gestohlene Braufässer im Wald und bringt sie zum Dojo des Dorfes zurück.";
-	AL["Rescue Greenstone Masons"] = "Rettet die Steinmetze von Grünstein";
-	AL["Travel to the Masons' Quarter and awaken the unconscious villagers."] = "Reist zum Steinmetzviertel und weckt die bewusstlosen Dorfbewohner auf.";
-	AL["Defeat Vengeful Hui"] = "Bezwingt den rachsüchtigen Hui";
-	AL["Defeat Vengeful Hui."] = "Bezwingt den rachsüchtigen Hui.";
-
-	-- Crypt of Forgotten Kings
-	AL["End the Terror"] = "Beendet den Alptraum";
-	AL["Defeat the corrupted Shado-Pan Leader."] = "Bezwingt den verderbten Anführer der Shado-Pan.";
-	AL["The Pool of Life"] = "Der Teich des Lebens";
-	AL["Cleanse the Sha corruption from the Pool of Life."] = "Läutert den Teich des Lebens von der Sha-Verderbnis.";
-	AL["Search the Crypts"] = "Durchsucht die Krypta";
-	AL["Delve deeper into the crypt and search the bottom level."] = "Geht tiefer in die Krypta hinein und durchsucht die untere Ebene.";
-	AL["Destroy the Sha"] = "Bezwingt das Sha";
-	AL["Destroy the Abomination of Anger."] = "Bezwingt die Monstrosität des Zorns.";
-	AL["Jin Ironfist"] = "Jin Eisenfaust";
-	AL["Pool of Life"] = "Teich des Lebens";
-	AL["Treasure Urn"] = "Schatzurne";
-	AL["Abomination of Anger"] = "Monstrosität des Zorns";
-
-	-- Peak of Serenity
 
 end

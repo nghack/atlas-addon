@@ -15,9 +15,9 @@ v1.24.00 (Mar. XX, 2013)
 -Map added:
     - Added A Little Patience map
     - Added Assault on Zan'vess map
-    - TBD: Dagger in the Dark
-    - TBD: Domination Point
-    - TBD: Lion's Landing
+    - Added Dagger in the Dark
+    - Added Domination Point
+    - Added Lion's Landing
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

@@ -79,6 +79,11 @@ if AL then
 	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Zerstört die Dicke Bessa und sabotiert alle unbemannten Panzer.";
 	AL["Fly, Spy!"] = "Auf der Flucht!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Tötet Hedric Ebenstab und befreit Thalen Sangweber aus der Wehrzitadelle.";
+	AL["Alliance Ships"] = "Allianz-Schiffe";
+	AL["The Blastmaster"] = "Der Sprengmeister";
+	AL["Baldruc and Gryphon"] = "Baldruc und Greif";
+	AL["Tanks"] = "Panzer";
+	AL["Thalen Songweaver"] = "Thalen Sangweber";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Willkommen in Theramore";
@@ -93,7 +98,7 @@ if AL then
 	AL["Destroy the siege engine at the west gate and recover the stolen standards."] = "Zerstört die Belagerungsmaschine am Westtor und holt die gestohlenen Standarten zurück.";
 	AL["The Last Stand"] = "Das letzte Gefecht";
 	AL["Protect Jaina while she attunes to the Focusing Iris."] = "Beschützt Jaina, während sie sich auf die fokussierende Iris einstimmt.";
-	AL["Horde Ships"] = "Horde-Schiff";
+	AL["Horde Ships"] = "Horde-Schiffe";
 	AL["The heart of ruined Theramore"] = "Herz der Ruinen von Theramore";
 	AL["Jaina"] = "Jaina";
 	AL["West Gate"] = "Westtor";

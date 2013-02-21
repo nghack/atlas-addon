@@ -641,10 +641,10 @@ Syntax:
 	HeartofFear = {
 		{ 1, 745, 287, 194 }; -- Imperial Vizier Zor'lok
 		{ 2, 744, 273, 56 }; -- Blade Lord Ta'yak
-		{ 3, 713, 430, 104 }; -- Garalon
---		{ INDENT..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
-		{ 4, 737, 287, 357 }; -- Amber-Shaper Un'sok
-		{ 5, 743, 67, 358 }; -- Grand Empress Shek'zeer
+		{ 3, 713, 428, 53 }; -- Garalon
+		{ 4, 741, 428, 104 }; -- Wind Lord Mel'jarak
+		{ 5, 737, 287, 357 }; -- Amber-Shaper Un'sok
+		{ 6, 743, 67, 358 }; -- Grand Empress Shek'zeer
 	};
 	MoguShanPalace = {
 		{ 1, 708, 203, 454 }; -- Trial of the King
@@ -677,7 +677,7 @@ Syntax:
 	};
 	Scholomance = {
 		{ 1, 659, 140, 133 }; -- Instructor Chillheart
-		{ 2, 663, 303, 89 }; -- Jandice Barov
+		{ 2, 663, 394, 57 }; -- Jandice Barov
 		{ 3, 665, 329, 90 }; -- Rattlegore
 		{ 4, 666, 356, 165 }; -- Lilian Voss
 		{ 6, 684, 286, 391 }; -- Darkmaster Gandling
@@ -694,13 +694,13 @@ Syntax:
 	};
 	StormstoutBrewery = {
 		{ 1, 668, 175, 340 }; -- Ook-Ook
-		{ 2, 669, 334, 280 }; -- Hoptallus
+		{ 2, 669, 314, 280 }; -- Hoptallus
 		{ 3, 670, 430, 400 }; -- Yan-Zhu the Uncasked
 	};
 	TempleOfTheJadeSerpent = {
 		{ 1, 672, 218, 68 }; -- Wise Mari
 		{ 2, 664, 65, 380 }; -- Lorewalker Stonestep
-		{ 3, 658, 243, 259 }; -- Liu Flameheart
+		{ 3, 658, 213, 252 }; -- Liu Flameheart
 		{ 4, 335, 355, 296 }; -- Sha of Doubt
 	};
 	TerraceofEndlessSpring = {

@@ -70,7 +70,7 @@ local myData = {
 		Location = { BZ["Pandaria"] };
 		LevelRange = "90+";
 		MinLevel = "--";
-		PlayerLimit = "40";
+		PlayerLimit = "--";
 		JournalInstanceID = "322";
 		{ WHIT.." 1) "..Atlas_GetBossName("Nalak, The Storm Lord", 814) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Oondasta", 826) };

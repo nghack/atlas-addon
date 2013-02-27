@@ -58,7 +58,8 @@ Atlas_DropDownLayouts_Order = {
 		[3] = ATLAS_DDL_PARTYSIZE_5_TZ;
 		[4] = ATLAS_DDL_PARTYSIZE_10_AN;
 		[5] = ATLAS_DDL_PARTYSIZE_10_OZ;
-		[6] = ATLAS_DDL_PARTYSIZE_20TO40;
+		[6] = ATLAS_DDL_PARTYSIZE_20TO40AH;
+		[7] = ATLAS_DDL_PARTYSIZE_20TO40IZ;
 	};
 	[ATLAS_DDL_EXPANSION] = {
 		[1] = ATLAS_DDL_EXPANSION_OLD_AO;
@@ -69,10 +70,12 @@ Atlas_DropDownLayouts_Order = {
 		[6] = ATLAS_DDL_EXPANSION_MOP;
 	};
 	[ATLAS_DDL_TYPE] = {
-		[1] = ATLAS_DDL_TYPE_INSTANCE_AC;
-		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
-		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
-		[4] = ATLAS_DDL_TYPE_ENTRANCE;
+		[1] = ATLAS_DDL_TYPE_INSTANCE_AB;
+		[2] = ATLAS_DDL_TYPE_INSTANCE_CF;
+		[3] = ATLAS_DDL_TYPE_INSTANCE_GM;
+		[4] = ATLAS_DDL_TYPE_INSTANCE_NS;
+		[5] = ATLAS_DDL_TYPE_INSTANCE_TZ;
+		[6] = ATLAS_DDL_TYPE_ENTRANCE;
 	};
 };
 
@@ -227,6 +230,7 @@ Atlas_DropDownLayouts = {
 			"StormstoutBrewery",
 			"TempleOfTheJadeSerpent",
 			"TerraceofEndlessSpring",
+			"ThroneofThunder",
 		},
 	},
 	[ATLAS_DDL_LEVEL] = {
@@ -313,6 +317,7 @@ Atlas_DropDownLayouts = {
 			"FHTheForgeOfSouls",
 			"GruulsLair",
 			"Gundrak",
+			"HellfireCitadelEnt",
 			"HCMagtheridonsLair",
 			"KarazhanEnd",
 			"KarazhanEnt",
@@ -391,6 +396,7 @@ Atlas_DropDownLayouts = {
 			"SiegeofNiuzaoTempleA",
 			"SiegeofNiuzaoTempleB",
 			"TerraceofEndlessSpring",
+			"ThroneofThunder",
 		},
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -519,10 +525,11 @@ Atlas_DropDownLayouts = {
 			"RubySanctum",
 			"TerraceofEndlessSpring",
 			"TheBastionOfTwilight",
-			"TheRuinsofAhnQiraj",
-			"TrialOfTheCrusader",
 			"TheEyeOfEternity",
+			"TheRuinsofAhnQiraj",
 			"ThroneOfTheFourWinds",
+			"ThroneofThunder",
+			"TrialOfTheCrusader",
 			"UlduarA",
 			"UlduarB",
 			"UlduarC",
@@ -530,7 +537,7 @@ Atlas_DropDownLayouts = {
 			"UlduarE",
 			"VaultOfArchavon",
 		},
-		[ATLAS_DDL_PARTYSIZE_20TO40] = {
+		[ATLAS_DDL_PARTYSIZE_20TO40AH] = {
 			"BaradinHold",
 			"TheBastionOfTwilight",
 			"BlackrockMountainEnt",
@@ -549,27 +556,31 @@ Atlas_DropDownLayouts = {
 			"CoTHyjalEnt",
 			"Firelands",
 			"GruulsLair",
+			"HellfireCitadelEnt",
 			"HCMagtheridonsLair",
 			"HeartofFear",
+			"MoltenCore",
+			"TheTempleofAhnQiraj",
+			"TrialOfTheCrusader",
+		},
+		[ATLAS_DDL_PARTYSIZE_20TO40IZ] = {
+
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
 			"IcecrownEnt",
 			"MoguShanVaults",
-			"MoltenCore",
 			"Naxxramas",
 			"ObsidianSanctum",
 			"OnyxiasLair",
 			"RubySanctum",
-			"Firelands",
 			"SunwellPlateau",
 			"TempestKeepEnt",
 			"TempestKeepTheEye",
 			"TerraceofEndlessSpring",
 			"TheEyeOfEternity",
-			"TheTempleofAhnQiraj",
 			"ThroneOfTheFourWinds",
-			"TrialOfTheCrusader",
+			"ThroneofThunder",
 			"UlduarA",
 			"UlduarB",
 			"UlduarC",
@@ -735,10 +746,11 @@ Atlas_DropDownLayouts = {
 			"StormstoutBrewery",
 			"TempleOfTheJadeSerpent",
 			"TerraceofEndlessSpring",
+			"ThroneofThunder",
 		},
 	},
 	[ATLAS_DDL_TYPE] = {
-		[ATLAS_DDL_TYPE_INSTANCE_AC] = {
+		[ATLAS_DDL_TYPE_INSTANCE_AB] = {
 			"AhnKahet",
 			"AuchAuchenaiCrypts",
 			"AuchManaTombs",
@@ -756,6 +768,12 @@ Atlas_DropDownLayouts = {
 			"BlackTempleTop",
 			"BlackwingDescent",
 			"BlackwingLair",
+			"MoltenCore",
+			"TheBastionOfTwilight",
+			"TheRuinsofAhnQiraj",
+			"TheTempleofAhnQiraj",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_CF] = {
 			"CFRSerpentshrineCavern",
 			"CFRTheSlavePens",
 			"CFRTheSteamvault",
@@ -771,23 +789,19 @@ Atlas_DropDownLayouts = {
 			"CoTOldHillsbrad",
 			"CoTOldStratholme",
 			"CoTWellOfEternity",
-			"MoltenCore",
-			"TheRuinsofAhnQiraj",
-			"TheTempleofAhnQiraj",
-			"TrialOfTheChampion",
-			"TrialOfTheCrusader",
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_DR] = {
 			"DireMaulEast",
 			"DireMaulNorth",
 			"DireMaulWest",
 			"DrakTharonKeep",
-			"TheEyeOfEternity",
 			"TheDeadmines",
 			"Firelands",
 			"FHHallsOfReflection",
 			"FHTheForgeOfSouls",
 			"FHPitOfSaron",
+			"TrialOfTheChampion",
+			"TrialOfTheCrusader",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_GM] = {
 			"GateoftheSettingSun",
 			"Gnomeregan",
 			"GrimBatol",
@@ -809,17 +823,13 @@ Atlas_DropDownLayouts = {
 			"Maraudon",
 			"MoguShanPalace",
 			"MoguShanVaults",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_NS] = {
 			"Naxxramas",
 			"OnyxiasLair",
 			"RagefireChasm",
 			"RazorfenDowns",
 			"RazorfenKraul",
-			"TheNexus",
-			"TheOculus",
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_SZ] = {
-			"ObsidianSanctum",
-			"RubySanctum",
 			"Scholomance",
 			"ShadoPanMonasteryA",
 			"ShadoPanMonasteryB",
@@ -832,19 +842,26 @@ Atlas_DropDownLayouts = {
 			"StratholmeCrusader",
 			"StratholmeGauntlet",
 			"SunwellPlateau",
+			"TheNexus",
+			"TheEyeOfEternity",
+			"TheOculus",
+			"TheStockade",
+			"TheStonecore",
+			"TheSunkenTemple",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_TZ] = {
+			"ObsidianSanctum",
+			"RubySanctum",
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
 			"TempestKeepMechanar",
 			"TempestKeepTheEye",
 			"TempleOfTheJadeSerpent",
 			"TerraceofEndlessSpring",
-			"TheBastionOfTwilight",
-			"TheStockade",
-			"TheStonecore",
-			"TheSunkenTemple",
 			"TheVortexPinnacle",
 			"ThroneOfTheFourWinds",
 			"ThroneOfTheTides",
+			"ThroneofThunder",
 			"Uldaman",
 			"UlduarHallsofStone",
 			"UlduarHallsofLightning",

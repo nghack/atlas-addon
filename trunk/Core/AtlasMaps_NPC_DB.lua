@@ -709,4 +709,19 @@ Syntax:
 		{ 3, 729, 296, 265 }; -- Lei Shi
 		{ 4, 709, 204, 265 }; -- Sha of Fear
 	};
+	--[[ThroneofThunder = {
+		{ 1, 827, x, x }; -- Jin'rokh the Breaker
+		{ 2, 819, x, x }; -- Horridon
+		{ 3, 816, x, x }; -- Council of Elders
+		{ 4, 825, x, x }; -- Tortos
+		{ 5, 821, x, x }; -- Megaera
+		{ 6, 828, x, x }; -- Ji-Kun
+		{ 7, 818, x, x }; -- Durumu the Forgotten
+		{ 8, 820, x, x }; -- Primordius
+		{ 9, 824, x, x }; -- Dark Animus
+		{ 10, 817, x, x }; -- Iron Qon
+		{ 11, 829, x, x }; -- Twin Consorts
+		{ 12, 832, x, x }; -- Lei Shen
+		{ 13, 831, x, x }; -- Ra-den
+	};--]]
 };

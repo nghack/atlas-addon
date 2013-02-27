@@ -123,7 +123,8 @@ if AL then
 	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "Instances for 5 Players T-Z";
 	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "Instances for 10 Players A-N";
 	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "Instances for 10 Players O-Z";
-	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "Instances for 20-40 Players";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40AH"] = "Instances for 20-40 Players A-H";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40IZ"] = "Instances for 20-40 Players I-Z";
 	AL["ATLAS_DDL_EXPANSION"] = "Expansion";	-- Sort Instance Maps by: Expansion
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "Old World Instances A-O";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Old World Instances P-Z";
@@ -132,9 +133,11 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mists of Pandaria Instances";
 	AL["ATLAS_DDL_TYPE"] = "Type";			-- -- Sort Instance Maps by: Map Type
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Instances A-C";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instances D-R";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instances S-Z";
+	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Instances A-B";
+	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Instances C-F";
+	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Instances G-M";
+	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Instances N-S";
+	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Instances T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entrances";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Instance";

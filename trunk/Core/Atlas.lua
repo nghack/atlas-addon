@@ -184,7 +184,7 @@ local function Process_Deprecated()
 --		{ "AtlasWorld", 		"3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", 		"4.8.1" }, -- updated Oct. 17, 2011
 --		{ "AtlasMajorCities", 		"v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", 			"7.04.01" }, -- updated Nov. 30, 2012
+		{ "AtlasLoot", 			"7.05.00" }, -- updated Mar. xx, 2013
 		{ "Atlas_Arena", 		"1.3.6" }, -- updated Sep 25, 2012
 		{ "Atlas_WorldEvents", 		"2.8" }, -- updated Oct 03, 2012
 	};

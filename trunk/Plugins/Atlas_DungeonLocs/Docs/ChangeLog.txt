@@ -10,6 +10,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.24.00 (Mar. XX, 2013)
 -----------------------
 - TOC update to support WoW 5.2
+- Added location of Throne of Thunder
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

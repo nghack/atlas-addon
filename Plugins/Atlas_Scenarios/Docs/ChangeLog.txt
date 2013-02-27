@@ -12,7 +12,7 @@ v1.24.00 (Mar. XX, 2013)
 - TOC update to support WoW 5.2
 - Map update:
     - Update SC_TheramoresFallHorde map
--Map added:
+- Map added:
     - Added A Little Patience map
     - Added Assault on Zan'vess map
     - Added Dagger in the Dark

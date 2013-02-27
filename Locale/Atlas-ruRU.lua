@@ -126,7 +126,8 @@ if AL then
 	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "Подземелья на 5 игроков T-Z";
 	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "Подземелья на 10 игроков A-N";
 	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "Подземелья на 10 игроков O-Z";
-	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "Подземелья на 20-40 игроков";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40AH"] = "Подземелья на 20-40 игроков A-H";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40IZ"] = "Подземелья на 20-40 игроков I-Z";
 	AL["ATLAS_DDL_EXPANSION"] = "Дополнению";
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "Подземелья Старого Мира A-O";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Подземелья Старого Мира P-Z";
@@ -135,9 +136,11 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Подземелья Mists of Pandaria";
 	AL["ATLAS_DDL_TYPE"] = "Типу";
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Подземелья A-C";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Подземелья D-R";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Подземелья S-Z";
+	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Подземелья A-B";
+	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Подземелья C-F";
+	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Подземелья G-M";
+	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Подземелья N-S";
+	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Подземелья T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Входы";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Подземелье";

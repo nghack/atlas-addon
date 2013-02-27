@@ -2934,18 +2934,18 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
-	--[[ThroneofThunder = {
+	ThroneofThunder = {
 		ZoneName = { BZ["Throne of Thunder"] };
 		Location = { BZ["Isle of Thunder"] };
-		DungeonID = "x";
-		DungeonHeroicID = "x";
+		--DungeonID = "x";
+		--DungeonHeroicID = "x";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
+		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Horridon, 819) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Horridon", 819) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Council of Elders", 816) };
 		{ WHIT..INDENT..Atlas_GetBossName("Frost King Malakk") };
 		{ WHIT..INDENT..Atlas_GetBossName("High Priestess Mar'li") };
@@ -2966,5 +2966,5 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Suen") };
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
-	};--]]
+	};
 };

@@ -126,7 +126,8 @@ if AL then
 	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "Mazmorras para 5 jugadores T-Z";
 	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "Mazmorras para 10 jugadores A-N";
 	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "Mazmorras para 10 jugadores O-Z";
-	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "Mazmorras para 20-40 jugadores";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40AH"] = "Mazmorras para 20-40 jugadores A-H";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40IZ"] = "Mazmorras para 20-40 jugadores I-Z";
 	AL["ATLAS_DDL_EXPANSION"] = "Expansión";
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "Antiguas Mazmorras A-O";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Antiguas Mazmorras P-Z";
@@ -135,9 +136,11 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Mazmorras de Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mazmorras de Mists of Pandaria";
 	AL["ATLAS_DDL_TYPE"] = "Tipo";
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Mazmorras A-C";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Mazmorras D-R";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Mazmorras S-Z";
+	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Mazmorras A-B";
+	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Mazmorras C-F";
+	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Mazmorras G-M";
+	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Mazmorras N-S";
+	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Mazmorras T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entradas";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Mazmorra";

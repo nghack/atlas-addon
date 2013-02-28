@@ -14,10 +14,11 @@ v1.24.00 (Mar. XX, 2013)
 - Maps added:
     - Raid: Throne of Thunder
 - Maps updated:
-    - ....
+    - Heart of Fear
 - Translation update
     - deDE (Dynaletik)
-    - ....
+    - esES/esMX (maqjav)
+    - ruRU (StingerSoft)
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

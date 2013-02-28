@@ -2937,8 +2937,8 @@ Syntax:
 	ThroneofThunder = {
 		ZoneName = { BZ["Throne of Thunder"] };
 		Location = { BZ["Isle of Thunder"] };
-		--DungeonID = "x";
-		--DungeonHeroicID = "x";
+		DungeonID = "633";
+		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current

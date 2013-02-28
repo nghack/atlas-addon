@@ -117,12 +117,13 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "85-90 级以副本";
 	AL["ATLAS_DDL_LEVEL_90PLUS"] = "90 级以上副本";
 	AL["ATLAS_DDL_PARTYSIZE"] = "副本规模";
-	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 (第一页)";
-	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 (第二页)";
-	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "5 人副本 (第三页)";
-	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "10 人副本 (第一页)";
-	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "10 人副本 (第二页)";
-	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "20-40 人副本";
+	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 1/3";
+	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 2/3";
+	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "5 人副本 3/3";
+	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "10 人副本 1/2";
+	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "10 人副本 2/2";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "20-40 人副本 1/2";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40IZ"] = "20-40 人副本 2/2";
 	AL["ATLAS_DDL_EXPANSION"] = "资料片";	-- Sort Instance Maps by: Expansion
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "旧世界副本 (第一页)";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "旧世界副本 (第二页)";
@@ -131,9 +132,11 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大地的裂变》副本";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "《熊猫人之谜》副本";
 	AL["ATLAS_DDL_TYPE"] = "类型";
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "副本 (第一页)";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "副本 (第二页)";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "副本 (第三页)";
+	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "副本 1/5";
+	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "副本 2/5";
+	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "副本 3/5";
+	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "副本 4/5";
+	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "副本 5/5";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "入口";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "副本";

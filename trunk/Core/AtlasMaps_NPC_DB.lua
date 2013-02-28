@@ -639,12 +639,12 @@ Syntax:
 		{ 4, 649, 229, 284 }; -- Raigonn
 	};
 	HeartofFear = {
-		{ 1, 745, 287, 194 }; -- Imperial Vizier Zor'lok
-		{ 2, 744, 273, 56 }; -- Blade Lord Ta'yak
-		{ 3, 713, 428, 53 }; -- Garalon
-		{ 4, 741, 428, 104 }; -- Wind Lord Mel'jarak
-		{ 5, 737, 287, 357 }; -- Amber-Shaper Un'sok
-		{ 6, 743, 67, 358 }; -- Grand Empress Shek'zeer
+		{ 1, 745, 318, 250 }; -- Imperial Vizier Zor'lok
+		{ 2, 744, 269, 74 }; -- Blade Lord Ta'yak
+		{ 3, 713, 428, 46 }; -- Garalon
+		{ 4, 741, 427, 124 }; -- Wind Lord Mel'jarak
+		{ 5, 737, 225, 377 }; -- Amber-Shaper Un'sok
+		{ 6, 743, 64, 377 }; -- Grand Empress Shek'zeer
 	};
 	MoguShanPalace = {
 		{ 1, 708, 203, 454 }; -- Trial of the King
@@ -709,19 +709,25 @@ Syntax:
 		{ 3, 729, 296, 265 }; -- Lei Shi
 		{ 4, 709, 204, 265 }; -- Sha of Fear
 	};
-	--[[ThroneofThunder = {
-		{ 1, 827, x, x }; -- Jin'rokh the Breaker
-		{ 2, 819, x, x }; -- Horridon
-		{ 3, 816, x, x }; -- Council of Elders
-		{ 4, 825, x, x }; -- Tortos
-		{ 5, 821, x, x }; -- Megaera
-		{ 6, 828, x, x }; -- Ji-Kun
-		{ 7, 818, x, x }; -- Durumu the Forgotten
-		{ 8, 820, x, x }; -- Primordius
-		{ 9, 824, x, x }; -- Dark Animus
-		{ 10, 817, x, x }; -- Iron Qon
-		{ 11, 829, x, x }; -- Twin Consorts
-		{ 12, 832, x, x }; -- Lei Shen
-		{ 13, 831, x, x }; -- Ra-den
-	};--]]
+	ThroneofThunderA = {
+		{ 1, 827, 111, 196 }; -- Jin'rokh the Breaker
+		{ 2, 819, 266, 335 }; -- Horridon
+		{ 3, 816, 372, 149 }; -- Council of Elders
+	};
+	ThroneofThunderB = {
+		{ 4, 825, 88, 359 }; -- Tortos
+		{ 5, 821, 296, 185 }; -- Megaera
+		{ 6, 828, 406, 308 }; -- Ji-Kun
+	};
+	ThroneofThunderC = {
+		{ 7, 818, 392, 173 }; -- Durumu the Forgotten
+		{ 8, 820, 235, 414 }; -- Primordius
+		{ 9, 824, 156, 304 }; -- Dark Animus
+	};
+	ThroneofThunderD = {
+		{ 10, 817, 146, 160 }; -- Iron Qon
+		{ 11, 829, 405, 79 }; -- Twin Consorts
+		{ 12, 832, 118, 339 }; -- Lei Shen
+		{ 13, 831, 370, 453 }; -- Ra-den
+	};
 };

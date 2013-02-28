@@ -2934,8 +2934,8 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
-	ThroneofThunder = {
-		ZoneName = { BZ["Throne of Thunder"] };
+	ThroneofThunderA = {
+		ZoneName = { BZ["Throne of Thunder"].." [A]" };
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "633";
 		DungeonHeroicID = "634";
@@ -2944,6 +2944,7 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Horridon", 819) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Council of Elders", 816) };
@@ -2951,12 +2952,45 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("High Priestess Mar'li") };
 		{ WHIT..INDENT..Atlas_GetBossName("Kazra'jin") };
 		{ WHIT..INDENT..Atlas_GetBossName("Sul the Sandcrawler") };
+	};
+	ThroneofThunderB = {
+		ZoneName = { BZ["Throne of Thunder"].." [B]" };
+		Location = { BZ["Isle of Thunder"] };
+		DungeonID = "633";
+		DungeonHeroicID = "634";
+		Acronym = AL["ToT"];
+		JournalInstanceID = "362";
+		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Ji-Kun", 828) };
+	};
+	ThroneofThunderC = {
+		ZoneName = { BZ["Throne of Thunder"].." [C]" };
+		Location = { BZ["Isle of Thunder"] };
+		DungeonID = "633";
+		DungeonHeroicID = "634";
+		Acronym = AL["ToT"];
+		JournalInstanceID = "362";
+		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Dark Animus", 824) };
+	};
+	ThroneofThunderD = {
+		ZoneName = { BZ["Throne of Thunder"].." [D]" };
+		Location = { BZ["Isle of Thunder"] };
+		DungeonID = "633";
+		DungeonHeroicID = "634";
+		Acronym = AL["ToT"];
+		JournalInstanceID = "362";
+		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
 		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren") };
 		{ WHIT..INDENT..Atlas_GetBossName("Quet'zal") };

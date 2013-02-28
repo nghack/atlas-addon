@@ -19,6 +19,7 @@ v1.24.00 (Mar. XX, 2013)
     - deDE (Dynaletik)
     - esES/esMX (maqjav)
     - ruRU (StingerSoft)
+    - zhCN/zhTW (ananhaid)
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

@@ -284,6 +284,19 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["The Last Stand"] };
 		{ INDENT..INDENT..GREY..AL["Protect Jaina while she attunes to the Focusing Iris."] };
 	};
+	SC_TrovesoftheThunderKing = {
+		ZoneName = { AL["Troves of the Thunder King"] };
+		Location = { BZ["Thunder King's Citadel"]..", "..BZ["Isle of Thunder"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "1";
+		{ ORNG..AL["Key"]..AL["Colon"]..AL["Key to the Palace of Lei Shen"] };
+		{ BLUE.." A) "..AL["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Speak to Taoshi"] };
+		{ INDENT..INDENT..GREY..AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Reach the Exit"] };
+		{ INDENT..INDENT..GREY..AL["Grab as much treasure as you can and reach the exit before the timer expires."] };
+	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };
 		Location = { BZ["Unga Ingoo"]..", "..BZ["Krasarang Wilds"] };

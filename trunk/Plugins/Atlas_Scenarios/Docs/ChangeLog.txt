@@ -11,13 +11,14 @@ v1.24.00 (Mar. XX, 2013)
 -----------------------
 - TOC update to support WoW 5.2
 - Map update:
-    - Update SC_TheramoresFallHorde map
+    - Theramore's Fall (Horde)
 - Map added:
-    - Added A Little Patience map
-    - Added Assault on Zan'vess map
-    - Added Dagger in the Dark
-    - Added Domination Point
-    - Added Lion's Landing
+    - A Little Patience
+    - Assault on Zan'vess
+    - Dagger in the Dark
+    - Domination Point
+    - Lion's Landing
+    - Troves of the Thunder King
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

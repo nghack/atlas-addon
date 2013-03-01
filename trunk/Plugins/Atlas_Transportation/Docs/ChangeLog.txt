@@ -12,7 +12,9 @@ v1.24.00 (Mar. XX, 2013)
 - TOC update to support WoW 5.2
 - Pandaria maps updated
     - Updated with new land base image
+    - Added Alliance new portal - Violet Rise (Isle of Thunder)
     - Added Alliance new flight node - Lion's Landing (Krasarang Wilds), Beeble's Wreck (Isle Of Giants)
+    - Added Horde new portal - Dawnseeker Promontory (Isle of Thunder)
     - Added Horde new flight node - Domination Point (Krasarang Wilds), Bozzle's Wreck (Isle Of Giants)
     - Changed Horde's FP Hellscream's Fist (Townlong Steppes) to Serpent's Spine (Kun-Lai Summit)
 

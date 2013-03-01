@@ -31,6 +31,12 @@ if AL then
 	AL["Scenarios Maps"] = "Карты сценариев";
 
 	-- Common Strings
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Connection"] = "Связан";
+	AL["End"] = "Конец";
+	AL["Final Stage"] = "Последний этап";
+	AL["Key"] = "Ключ";
+	AL["Random"] = "Случайный";
 	AL["Stage 1"] = "1 этап";
 	AL["Stage 2"] = "2 этап";
 	AL["Stage 3"] = "3 этап";
@@ -38,12 +44,8 @@ if AL then
 	AL["Stage 5"] = "5 этап";
 	AL["Stage 6"] = "6 этап";
 	AL["Stage 7"] = "7 этап";
-	AL["Final Stage"] = "Финальный этап";
 	AL["Start"] = "Начало";
-	AL["End"] = "Конец";
-	AL["Random"] = "Случайный";
 	AL["Summon"] = "Вызов";
-	AL["Connection"] = "Связан";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Варка взрывного лагера";
@@ -206,6 +208,14 @@ if AL then
 	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
 	AL["Jaina"] = "Джайна"; --need check
 	AL["West Gate"] = "Западные ворота"; --need check
+	
+	-- Troves of the Thunder King
+	AL["Troves of the Thunder King"] = "Сокрошищя Властелина Грома"; --need check
+	AL["Key to the Palace of Lei Shen"] = "Ключ от дворца Лэй Шэня";
+	AL["Speak to Taoshi"] = "Поговорите с Таоши";
+	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "За ограниченное количество времени вам надо будет собрать как можно больше сокровищ. Когда вы будете готовы, поговорите с Таоши."; --need check
+	AL["Reach the Exit"] = "Добраться до выхода";
+	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Соберите как можно больша сокрошищ и дойдите до выхода, пока не истекло время.";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Хмелевареный котел"; --need check

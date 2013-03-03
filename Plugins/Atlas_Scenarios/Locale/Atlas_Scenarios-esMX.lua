@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 19/02/2013
+-- Úlltima Actualización (last update): 03/03/2013
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -39,6 +39,12 @@ if AL then
 	AL["Scenarios Maps"] = "Mapas de gestas";
 
 	-- Common Strings
+	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Connection"] = "Conexión";
+	AL["End"] = "Final";
+	AL["Final Stage"] = "Fase final";
+	AL["Key"] = "Llave";
+	AL["Random"] = "Aleatorio";
 	AL["Stage 1"] = "Fase 1";
 	AL["Stage 2"] = "Fase 2";
 	AL["Stage 3"] = "Fase 3";
@@ -46,14 +52,10 @@ if AL then
 	AL["Stage 5"] = "Fase 5";
 	AL["Stage 6"] = "Fase 6";
 	AL["Stage 7"] = "Fase 7";
-	AL["Final Stage"] = "Fase final";
 	AL["Start"] = "Inicio";
-	AL["End"] = "Final";
-	AL["Random"] = "Aleatorio";
 	AL["Summon"] = "Invocar";
-	AL["Connection"] = "Conexión";
 
-	-- Brewing Storm
+	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Fermenta cerveza relámpago";
 	AL["Assist Blanche in brewing her famous Boomer's Brew."] = "Ayuda a Clara a fermentar su famosa cerveza relámpago.";
 	AL["Road to Thunderpaw"] = "Camino a Zarpa Atronadora";
@@ -62,7 +64,6 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Derrota a Borokhula el Destructor.";
 
 	-- A Little Patience
-
 	AL["Prepare the Defenses"] = "Prepara las defensas";
 	AL["Assist the two groups of laborers in the construction of their defenses."] = "Ayuda a los dos grupos de obreros a construir sus defensas.";
 	AL["Kill Commander Scargash"] = "Mata al comandante Sangrescara";
@@ -216,6 +217,14 @@ if AL then
 	AL["Jaina"] = "Jaina";
 	AL["West Gate"] = "Puesta del oeste";
 
+	-- Troves of the Thunder King -- CHECK
+	AL["Troves of the Thunder King"] = "Tesoros del Rey Trueno";
+	AL["Key to the Palace of Lei Shen"] = "Llave del Palacio de Lei Shen";
+	AL["Speak to Taoshi"] = "Habla con Taoshi";
+	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "Tendrás un tiempo limitado para recoger todos los tesoros que puedas. Habla con Taoshi cuando estes preparado para empezar.";
+	AL["Reach the Exit"] = "Llega a la Salida";
+	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Recoge tantos tesoros como puedas y llega a la salida antes de que se acabe el tiempo.";
+	
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Caldero de fermentación";
 	AL["Escort Brewmaster Bo"] = "Escolta al maestro cervecero Bo";

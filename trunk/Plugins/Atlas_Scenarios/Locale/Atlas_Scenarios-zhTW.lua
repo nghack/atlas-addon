@@ -29,8 +29,14 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "zhTW", false);
 
 if AL then
 	AL["Scenarios Maps"] = "情境地圖";
-	
+
 	-- Common Strings
+	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Connection"] = "通道";
+	AL["End"] = "結束";
+	AL["Final Stage"] = "最後階段";
+	AL["Key"] = "關鍵點";
+	AL["Random"] = "隨機";
 	AL["Stage 1"] = "階段 1";
 	AL["Stage 2"] = "階段 2";
 	AL["Stage 3"] = "階段 3";
@@ -38,12 +44,8 @@ if AL then
 	AL["Stage 5"] = "階段 5";
 	AL["Stage 6"] = "階段 6";
 	AL["Stage 7"] = "階段 7";
-	AL["Final Stage"] = "最後階段";
 	AL["Start"] = "開始";
-	AL["End"] = "結束";
-	AL["Random"] = "隨機";
 	AL["Summon"] = "召喚";
-	AL["Connection"] = "通道";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";
@@ -54,7 +56,7 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "殺死『毀滅者』波羅庫拉。";
 
 	-- A Little Patience
-	
+
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "疤殼";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "召喚並擊敗強大的龍龜疤殼！";
@@ -86,7 +88,7 @@ if AL then
 	AL["Den Mother Moof"] = "巢母莫夫";
 	AL["Brewmaster Boof"] = "釀酒大師布夫";
 	AL["Defence Point"] = "防禦點";
-	
+
 	-- Crypt of Forgotten Kings
 	AL["End the Terror"] = "終結恐懼";
 	AL["Defeat the corrupted Shado-Pan Leader."] = "殺死腐化的影潘首領。";
@@ -149,6 +151,7 @@ if AL then
 	AL["Jaina"] = "珍娜";
 	AL["West Gate"] = "西門";
 
+
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "釀酒鍋";
 	AL["Escort Brewmaster Bo"] = "護送釀酒大師阿波";
@@ -157,5 +160,5 @@ if AL then
 	AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] = "帶200個仰加叢林酒到釀酒鍋。";
 	AL["Defeat Captain Ook"] = "殺死烏克船長";
 	AL["Defeat Captain Ook."] = "殺死烏克船長。";
-	
+
 end

@@ -369,6 +369,8 @@ if AL then
 	AL["SB"] = "SB"; --Stormstout Brewery
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
+	AL["ToT"] = "ToT"; --Throne of Thunder
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -1200,5 +1202,7 @@ if AL then
 	AL["Priestess Summerpetal"] = "女牧师夏蕊";
 
 	--Terrace of Endless Spring
+
+	--Throne of Thunder
 
 end

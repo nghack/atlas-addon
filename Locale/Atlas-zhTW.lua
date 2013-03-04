@@ -27,12 +27,12 @@
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "zhTW", false);
 
--- Atlas Traditional Chinese Localization
 if ( GetLocale() == "zhTW" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
 AtlasSortIgnore = {};
 
+-- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "沈沒的神廟";
 	["Ahn'Qiraj"] = "安其拉神廟";
@@ -171,7 +171,7 @@ if AL then
 	AL["Midsummer Festival"] = "仲夏節慶";
 
 	--Misc strings
-	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Colon"] = ":"; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
 	AL["AKA"] = "又稱";
 	AL["Arcane Container"] = "秘法容器";
@@ -368,6 +368,8 @@ if AL then
 	AL["SB"] = "SB"; --Stormstout Brewery
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
+	AL["ToT"] = "ToT"; --Throne of Thunder
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -919,11 +921,11 @@ if AL then
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
---	AL["Seer Ixit"] = "Seer Ixit";
+	AL["Seer Ixit"] = "先知伊須特";
 	AL["Ahn'kahet Brazier"] = "安卡罕特火盆";
 
 	--Azjol-Nerub: Azjol-Nerub
---	AL["Reclaimer A'zak"] = "Reclaimer A'zak";
+	AL["Reclaimer A'zak"] = "回收者阿札克";
 	AL["Watcher Gashra"] = "看守者賈西拉";
 	AL["Watcher Narjil"] = "看守者納吉爾";
 	AL["Watcher Silthik"] = "看守者席爾希克";
@@ -936,7 +938,7 @@ if AL then
 	AL["Chromie"] = "克羅米";
 
 	--Drak'Tharon Keep
---	AL["Image of Drakuru"] = "Image of Drakuru";
+	AL["Image of Drakuru"] = "德拉庫魯的影像";
 	AL["Kurzel"] = "庫賽爾";
 	AL["Elder Kilias"] = "奇里亞斯長者";
 	AL["Drakuru's Brazier"] = "德拉庫魯的火盆";
@@ -960,8 +962,8 @@ if AL then
 	AL["Dark Ranger Kalira"] = "黑暗遊俠卡麗菈";
 
 	--Gundrak
---	AL["Chronicler Bah'Kini"] = "Chronicler Bah'Kini";
---	AL["Tol'mar"] = "Tol'mar";
+	AL["Chronicler Bah'Kini"] = "撰史者巴琪妮";
+	AL["Tol'mar"] = "托爾瑪";
 	AL["Elder Ohanzee"] = "歐漢茲長者";
 
 	--Icecrown Citadel
@@ -978,7 +980,7 @@ if AL then
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "畢勾沃斯先生";
 	AL["Frostwyrm Lair"] = "冰霜巨龍的巢穴";
-	AL["Teleporter to Middle"] = "傳送到中間的傳送門"; -- Needs review
+	AL["Teleporter to Middle"] = "傳送到中間";
 
 	--The Obsidian Sanctum
 	AL["Black Dragonflight Chamber"] = "黑龍軍團密室";
@@ -991,14 +993,14 @@ if AL then
 	--The Nexus: The Eye of Eternity
 
 	--The Nexus: The Nexus
---	AL["Warmage Kaitlyn"] = "Warmage Kaitlyn";
+	AL["Warmage Kaitlyn"] = "戰爭法師凱特林";
 	AL["Berinand's Research"] = "貝瑞那德的研究";
 	AL["Elder Igasho"] = "伊加修長者";
 
 	--The Nexus: The Oculus
---	AL["Belgaristrasz"] = "Belgaristrasz";
---	AL["Eternos"] = "Eternos";
---	AL["Verdisa"] = "Verdisa";
+	AL["Belgaristrasz"] = "貝加瑞斯塔茲";
+	AL["Eternos"] = "伊特諾斯";
+	AL["Verdisa"] = "薇爾迪莎";
 	AL["Centrifuge Construct"] = "離心傀儡";
 	AL["Cache of Eregos"] = "伊瑞茍斯的貯藏箱";	
 
@@ -1035,28 +1037,28 @@ if AL then
 	--Ulduar E
 
 	--Ulduar: Halls of Lightning
---	AL["Stormherald Eljrrin"] = "Stormherald Eljrrin";
+	AL["Stormherald Eljrrin"] = "風暴信使埃利林";
 
 	--Ulduar: Halls of Stone
---	AL["Kaldir Ironbane"] = "Kaldir Ironbane";
+	AL["Kaldir Ironbane"] = "卡迪爾·鐵禍";
 	AL["Tribunal Chest"] = "議庭之箱";
 	AL["Elder Yurauk"] = "由羅克長者";	
 	AL["Brann Bronzebeard"] = "布萊恩·銅鬚";
 
 	--Utgarde Keep: Utgarde Keep
---	AL["Defender Mordun"] = "Defender Mordun";
+	AL["Defender Mordun"] = "防衛者摩丹";
 	AL["Dark Ranger Marrah"] = "黑暗遊俠瑪拉";
 	AL["Elder Jarten"] = "加坦長者";
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "布里格·細柄";
---	AL["Image of Argent Confessor Paletress"] = "Image of Argent Confessor Paletress";
+	AL["Image of Argent Confessor Paletress"] = "銀白告解者帕爾璀絲的影像";
 	AL["Elder Chogan'gada"] = "修干加達長者";
 
 	--Vault of Archavon
 
 	--The Violet Hold
---	AL["Lieutenant Sinclari"] = "Lieutenant Sinclari";
+	AL["Lieutenant Sinclari"] = "辛克拉麗中尉";
 
 --*********************
 -- Cataclysm Instances
@@ -1069,12 +1071,12 @@ if AL then
 	--Blackwing Descent
 
 	--Caverns of Time: Dragon Soul
---	AL["Dasnurimi <Geologist & Conservator>"] = "Dasnurimi <Geologist & Conservator>";
---	AL["Lord Afrasastrasz"] = "Lord Afrasastrasz";
+	AL["Dasnurimi <Geologist & Conservator>"] = "達斯魯黎米 <地理學家與護存者>";
+	AL["Lord Afrasastrasz"] = "艾弗薩斯塔茲領主";
 
 	--Caverns of Time: End Time
---	AL["Alurmi"] = "Alurmi";
---	AL["Nozdormu"] = "Nozdormu";
+	AL["Alurmi"] = "阿勒米";
+	AL["Nozdormu"] = "諾茲多姆";
 
 	--Caverns of Time: Hour of Twilight
 
@@ -1199,5 +1201,7 @@ if AL then
 	AL["Priestess Summerpetal"] = "女司祭夏瓣";
 
 	--Terrace of Endless Spring
+
+	--Throne of Thunder
 
 end

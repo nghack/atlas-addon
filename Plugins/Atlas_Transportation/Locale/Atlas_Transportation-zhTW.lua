@@ -57,4 +57,5 @@ if AL then
 	AL["Abandoned Kite"] = "被遺棄的鳶";
 	AL["From sea level to ground level"] = "從海平面到地面";
 	AL["Whispercloud's Balloon"] = "雲語的氣球";
+	AL["Shado-Pan Rope"] = "影潘索 "; -- 66390
 end

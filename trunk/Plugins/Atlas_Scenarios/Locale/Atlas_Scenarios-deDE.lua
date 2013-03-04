@@ -186,7 +186,6 @@ if AL then
 	AL["Fly, Spy!"] = "Auf der Flucht!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Tötet Hedric Ebenstab und befreit Thalen Sangweber aus der Wehrzitadelle.";
 	AL["Alliance Ships"] = "Allianz-Schiffe";
-	AL["The Blastmaster"] = "Der Sprengmeister";
 	AL["Baldruc and Gryphon"] = "Baldruc und Greif";
 	AL["Tanks"] = "Panzer";
 	AL["Thalen Songweaver"] = "Thalen Sangweber";

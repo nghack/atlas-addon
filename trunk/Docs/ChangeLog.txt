@@ -7,7 +7,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.24.00 (Mar. XX, 2013)
+v1.24.00 (Mar. 05, 2013)
 -----------------------
 - TOC update to support WoW 5.2
 - Introduce the use of LibDialog
@@ -20,6 +20,8 @@ v1.24.00 (Mar. XX, 2013)
     - esES/esMX (maqjav)
     - ruRU (StingerSoft)
     - zhCN/zhTW (ananhaid)
+- Minor issues fixed
+    - WotLK map's info
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

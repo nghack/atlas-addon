@@ -136,7 +136,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Fend off the Kor'kron ambush.";
 
 	-- Domination Point
-	AL["The Flight Master"] = "The Flight Master";
+	AL["The Flight MasterDP"] = "The Flight Master";
 	AL["Join up with Kromthar."] = "Join up with Kromthar.";
 	AL["A.C.E.s High"] = "A.C.E.s High";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "Fight your way through the burning refinery to General Nazgrim.";
@@ -164,6 +164,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Defeat Vengeful Hui.";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "The Flight Master";
 	AL["Join up with Daggin Windbeard."] = "Join up with Daggin Windbeard.";
 	AL["Death on the Docks"] = "Death on the Docks";
 	AL["Fight your way through the docks to Admiral Taylor."] = "Fight your way through the docks to Admiral Taylor.";
@@ -176,7 +177,7 @@ if AL then
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "To the Waterline!";
-	AL["Rig powder barrels on all six ships."] = "Rig powder barrels on all six ships.";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Slay Alliance captains and rig powder barrels on all ships.";
 	AL["The Blastmaster"] = "The Blastmaster";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
 	AL["Gryphon, Down"] = "Gryphon, Down";

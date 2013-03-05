@@ -62,7 +62,7 @@ if AL then
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Победить командира Глубокого Шрама и вернуть Храм Красного Журавля.";
 	AL["Traps"] = "Ловушки";
 	AL["Commander Scargash"] = "Командир Глубокий Шрам";
-	
+
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Потертый Панцирь";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Призовите и одолейте могучую драконью черепаху Потертый Панцирь.";
@@ -136,7 +136,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Отразите кор'кронское нападение.";
 
 	-- Domination Point
-	AL["The Flight Master"] = "Распорядитель полетов";
+	AL["The Flight MasterDP"] = "Распорядитель полетов";
 	AL["Join up with Kromthar."] = "Примите в отряд Кромтар.";
 	AL["A.C.E.s High"] = "А.С. на высоте";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "Пробейтесь через горящий нефтезавод к генералу Назгриму.";
@@ -164,6 +164,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Одолейте Мстительного Хуэя.";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "Распорядитель полетов";
 	AL["Join up with Daggin Windbeard."] = "Примите в отряд Даггина Ветроборода.";
 	AL["Death on the Docks"] = "Смерть на пристани";
 	AL["Fight your way through the docks to Admiral Taylor."] = "Пробейтесь к пристани, где находится адмирал Тейлор.";
@@ -176,7 +177,7 @@ if AL then
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "До ватерлинии!";
-	AL["Rig powder barrels on all six ships."] = "Подготовьте бочки с порохом на всех шести кораблях к взрыву.";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Убейте капитанов Альянса и подготовьте бочки с порохом на всех кораблях к взрыву.";
 	AL["The Blastmaster"] = "Подрывник";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "Сообщите подрывнику Бомбастеру об успехе операции.";
 	AL["Gryphon, Down"] = "Конец грифонам";
@@ -189,7 +190,7 @@ if AL then
 	AL["Baldruc and Gryphon"] = "Бальдрук и грифон";
 	AL["Tanks"] = "Танки";
 	AL["Thalen Songweaver"] = "Тален Созвучие Песни";
-	
+
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Добро пожаловать в Терамор!";
 	AL["Defend the ship from oncoming Horde."] = "Защитите корабль от войск Орды.";
@@ -207,7 +208,7 @@ if AL then
 	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
 	AL["Jaina"] = "Джайна"; --need check
 	AL["West Gate"] = "Западные ворота"; --need check
-	
+
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "Сокрошищя Властелина Грома"; --need check
 	AL["Key to the Palace of Lei Shen"] = "Ключ от дворца Лэй Шэня";

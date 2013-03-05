@@ -180,7 +180,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Flight Master"] };
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Flight MasterDP"] };
 		{ INDENT..GREY..AL["Join up with Kromthar."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["A.C.E.s High"] };
 		{ INDENT..GREY..AL["Fight your way through the burning refinery to General Nazgrim."] };
@@ -221,7 +221,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Flight Master"] };
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Flight MasterLL"] };
 		{ INDENT..GREY..AL["Join up with Daggin Windbeard."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Death on the Docks"] };
 		{ INDENT..GREY..AL["Fight your way through the docks to Admiral Taylor."] };
@@ -245,7 +245,7 @@ local myData = {
 		{ BLUE.." A) "..AL["Start"] };
 		{ BLUE.." B) "..AL["Alliance Ships"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["To the Waterline!"] };
-		{ INDENT..INDENT..GREY..AL["Rig powder barrels on all six ships."] };
+		{ INDENT..INDENT..GREY..AL["Slay Alliance captains and rig powder barrels on all ships."] };
 		{ GREN.." C) "..AL["The Blastmaster"] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Blastmaster"] };
 		{ INDENT..INDENT..GREY..AL["Inform Blastmaster Sparkfuse of your success."] };

@@ -62,7 +62,7 @@ if AL then
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Terrassez le commandant Coupentaille et reprenez le temple de la Grue rouge.";
 	AL["Traps"] = "Pièges";
 	AL["Commander Scargash"] = "Commandant Coupentaille";
-	
+
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Ecaille-balafrée";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Invoquer et vaincre la puissante tortue-dragon, Écaille-Balafrée.";
@@ -136,7 +136,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Repoussez l’embuscade kor’kronne.";
 
 	-- Domination Point
-	AL["The Flight Master"] = "Le maître de vol";
+	AL["The Flight MasterDP"] = "Le maître de vol";
 	AL["Join up with Kromthar."] = "Rejoignez Kromthar.";
 	AL["A.C.E.s High"] = "Un as dans la manche";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "Frayez-vous un chemin à travers la raffinerie en flammes jusqu’au général Nazgrim.";
@@ -164,6 +164,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Vaincre le Hui vengeur.";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "Le maître de vol";
 	AL["Join up with Daggin Windbeard."] = "Rejoignez Daggin Barbe-du-Vent.";
 	AL["Death on the Docks"] = "Mort sur les quais";
 	AL["Fight your way through the docks to Admiral Taylor."] = "Frayez-vous un chemin sur les quais jusqu’à l’amiral Taylor.";
@@ -176,7 +177,7 @@ if AL then
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Sur la ligne de flottaison !";
-	AL["Rig powder barrels on all six ships."] = "Trafiquer des barils de poudre sur les six bateaux.";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Tuez tous les capitaines de l’Alliance et placez des barils de poudre sur tous les bateaux.";
 	AL["The Blastmaster"] = "Le maître-dynamiteur";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "Informer le maître-dynamiteur Mèchétincelle de votre réussite.";
 	AL["Gryphon, Down"] = "Un griffon, fon, fon";

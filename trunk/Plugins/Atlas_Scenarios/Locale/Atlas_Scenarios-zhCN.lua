@@ -61,7 +61,7 @@ if AL then
 	AL["Kill Commander Scargash"] = "击败指挥官斯卡戈什";
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "击败指挥官斯卡戈什并夺回朱鹤寺。";
 	AL["Traps"] = "陷阱";
-	AL["Commander Skargash"] = "指挥官斯卡戈什";
+	AL["Commander Scargash"] = "指挥官斯卡戈什";
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "刀疤壳";

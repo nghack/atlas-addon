@@ -210,7 +210,7 @@ if AL then
 	AL["West Gate"] = "西門";
 
 	-- Troves of the Thunder King
-	AL["Troves of the Thunder King"] = "Troves of the Thunder King";
+	AL["Troves of the Thunder King"] = "雷王的珍寶";
 --	AL["Key to the Palace of Lei Shen"] = "Key to the Palace of Lei Shen";
 	AL["Speak to Taoshi"] = "與陶氏說話";
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "你只有有限的時間盡可能地收集寶藏。等你準備好開始時，跟陶氏說話。";

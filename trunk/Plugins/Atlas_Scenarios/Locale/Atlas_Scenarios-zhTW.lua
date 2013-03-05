@@ -56,6 +56,12 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "殺死『毀滅者』波羅庫拉。";
 
 	-- A Little Patience
+	AL["Prepare the Defenses"] = "防守準備";
+	AL["Assist the two groups of laborers in the construction of their defenses."] = "幫助兩組苦力建立他們的防衛力量。";
+	AL["Kill Commander Scargash"] = "殺了指揮官疤口";
+	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "打敗指揮官疤口並收復紅鶴寺。";
+	AL["Traps"] = "陷阱";
+	AL["Commander Scargash"] = "指揮官疤口";
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "疤殼";
@@ -73,6 +79,14 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "殺死屈雲者·柯博";
 
 	-- Assault on Zan'vess
+	AL["Assault on Zan'vess"] = "襲擊贊斐斯";
+	AL["Launch an assault on the island of Zan'vess."] = "對贊斐斯島發動攻擊。";
+	AL["Defenses of Zan'vess"] = "贊斐斯的防禦";
+	AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] = "摧毀音波控制哨塔並關閉贊斐斯防護盾。";
+	AL["The Heart of Zan'vess"] = "贊斐斯之心";
+	AL["Storm the beach and reach the Heart of Zan'vess."] = "攻擊沙灘並抵達贊斐斯之心。";
+	AL["Weapons of Zan'vess"] = "贊斐斯的武器";
+	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "打敗指揮官泰弗瑞克並取回螳螂人武器貯藏箱。";
 
 	-- Brewmoon Festival
 	AL["The Brewmoon Festival!"] = "酒月節";
@@ -104,8 +118,38 @@ if AL then
 	AL["Abomination of Anger"] = "憎惡獸";
 
 	-- Dagger in the Dark
+	AL["The Mission..."] = "任務...";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "與沃金交談來開始尋找薩烏洛克洞穴。";
+	AL["We Ride!"] = "我們策騎奔馳!";
+	AL["Find the entrance to the Saurok Cave."] = "尋找薩烏洛克洞穴的入口。";
+	AL["Guards!"] = "守衛!";
+	AL["Defeat the Saurok guarding the cave."] = "打敗看守洞穴的薩烏洛克。";
+	AL["Into the Cave"] = "進入洞穴";
+	AL["Make your way deeper into the cave."] = "進入洞穴的更深處。";
+	AL["The Source"] = "源頭";
+	AL["Find the source of the Saurok."] = "找出薩烏洛克的來源。";
+	AL["The Broodmaster"] = "育主";
+	AL["Defeat Broodmaster Noshi."] = "打敗育主諾許。";
+	AL["Investigation"] = "調查";
+	AL["Investigate the Mogu Statues."] = "調查魔古雕像。";
+	AL["Ambush!"] = "突襲!";
+	AL["Fend off the Kor'kron ambush."] = "擊退柯爾克隆的突襲。";
 
 	-- Domination Point
+	AL["The Flight Master"] = "飛行管理員";
+	AL["Join up with Kromthar."] = "加入達金·風鬚。";
+	AL["A.C.E.s High"] = "A.C.E.部隊來襲";
+	AL["Fight your way through the burning refinery to General Nazgrim."] = "一路奮戰，穿過燃燒的精煉廠去找納茲格寧姆將軍。";
+	AL["Reclaim the Court!"] = "收復中庭!";
+	AL["Defeat the Alliance forces assaulting the keep."] = "打敗攻擊要塞的聯盟軍隊。";
+	AL["The Warlord"] = "督軍";
+	AL["Locate Warlord Bloodhilt and help repel the Alliance assault."] = "找到督軍血柄並幫忙擊退入侵的聯盟。";
+	AL["Legwork"] = "跑腿";
+	AL["Gather information about the Alliance and Horde forces."] = "收集關於聯盟和部落軍隊的相關資訊。";
+	AL["Setting Up"] = "做好準備";
+	AL["Set up Rivett's weapons and prepare to defend the keep!"] = "準備好理弗特的武器，等著保衛要塞!";
+	AL["Hold the Line!"] = "守住陣線!";
+	AL["Hold the gate against waves of Alliance invaders and their commander."] = "保衛要塞抵抗源源不絕的聯盟入侵者與他們的指揮官。";
 
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "拯救村民";
@@ -120,6 +164,15 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "殺死復仇之穢。";
 
 	-- Lion's Landing
+	AL["Join up with Daggin Windbeard."] = "加入達金·風鬚。";
+	AL["Death on the Docks"] = "死亡碼頭";
+	AL["Fight your way through the docks to Admiral Taylor."] = "奮戰穿越碼頭去找泰勒上將。";
+	AL["Defeat the Horde forces assaulting the keep."] = "打敗攻擊要塞的部落軍隊。";
+	AL["The High Marshal"] = "大元帥";
+	AL["Locate High Marshal Twinbraid and help repel the Horde assault."] = "找到大元帥塔文布萊德並幫忙擊退入侵的部落。";
+	AL["Gather information from the SI:7 team."] = "從軍情七處小隊那裡收集資訊。";
+	AL["Set up Sully's weapons and prepare to defend the keep!"] = "準備好蘇利的武器，等著保衛要塞!";
+	AL["Hold the keep against waves of Horde invaders and their commander."] = "保衛要塞抵抗源源不絕的部落入侵者與他們的指揮官。";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "前往水岸!";
@@ -132,6 +185,10 @@ if AL then
 	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "摧毀大貝紗，並且破壞任何無人駕駛的坦克。";
 	AL["Fly, Spy!"] = "飛吧，間諜!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "殺死海瑞克·雙杖，然後釋放塔倫織歌者離開據點城塞。";
+	AL["Alliance Ships"] = "聯盟船隻";
+	AL["Baldruc and Gryphon"] = "巴德拉克和獅鷲獸";
+	AL["Tanks"] = "坦克";
+--	AL["Thalen Songweaver"] = "Thalen Songweaver";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "歡迎來到塞拉摩";
@@ -151,6 +208,13 @@ if AL then
 	AL["Jaina"] = "珍娜";
 	AL["West Gate"] = "西門";
 
+	-- Troves of the Thunder King
+	AL["Troves of the Thunder King"] = "Troves of the Thunder King";
+--	AL["Key to the Palace of Lei Shen"] = "Key to the Palace of Lei Shen";
+	AL["Speak to Taoshi"] = "與陶氏說話";
+	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "你只有有限的時間盡可能地收集寶藏。等你準備好開始時，跟陶氏說話。";
+	AL["Reach the Exit"] = "抵達出口";
+	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "盡可能地收集寶藏然後在時間結束前抵達出口。";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "釀酒鍋";

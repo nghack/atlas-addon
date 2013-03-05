@@ -31,6 +31,12 @@ if AL then
 	AL["Scenarios Maps"] = "Scenarios Maps";
 
 	-- Common Strings
+	AL["Colon"] = " : "; -- The colon symbol to be used in string, ex: "Zone: Firelands
+	AL["Connection"] = "Connexion";
+	AL["End"] = "Fin";
+	AL["Final Stage"] = "Dernière phase";
+	AL["Key"] = "Clé";
+	AL["Random"] = "Aléatoire";
 	AL["Stage 1"] = "Phase 1";
 	AL["Stage 2"] = "Phase 2";
 	AL["Stage 3"] = "Phase 3";
@@ -38,12 +44,8 @@ if AL then
 	AL["Stage 5"] = "Phase 5";
 	AL["Stage 6"] = "Phase 6";
 	AL["Stage 7"] = "Phase 7";
-	AL["Final Stage"] = "Dernière phase";
 	AL["Start"] = "Début";
-	AL["End"] = "Fin";
-	AL["Random"] = "Aléatoire";
 	AL["Summon"] = "Invoquer";
-	AL["Connection"] = "Connexion";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "Faire de la bière détonante";
@@ -54,6 +56,12 @@ if AL then
 	AL["Defeat Borokhula the Destroyer."] = "Vaincre Borokhula le Destructeur.";
 
 	-- A Little Patience
+	AL["Prepare the Defenses"] = "Préparer les défenses";
+	AL["Assist the two groups of laborers in the construction of their defenses."] = "Aidez les deux groupes de travailleurs à construire leurs défenses.";
+	AL["Kill Commander Scargash"] = "Tuer le commandant Coupentaille";
+	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Terrassez le commandant Coupentaille et reprenez le temple de la Grue rouge.";
+	AL["Traps"] = "Pièges";
+	AL["Commander Scargash"] = "Commandant Coupentaille";
 	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Ecaille-balafrée";
@@ -71,6 +79,14 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Vaincre Maki Lame-d’Eau";
 
 	-- Assault on Zan'vess
+	AL["Assault on Zan'vess"] = "L’attaque de Zan’vess";
+	AL["Launch an assault on the island of Zan'vess."] = "Lancez une attaque sur l’île de Zan’vess.";
+	AL["Defenses of Zan'vess"] = "Les défenses de Zan’vess";
+	AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] = "Détruisez les tours de contrôle soniques et désactivez le bouclier défensif de Zan’vess.";
+	AL["The Heart of Zan'vess"] = "Le cœur de Zan’vess";
+	AL["Storm the beach and reach the Heart of Zan'vess."] = "Débarquez sur la plage et avancez jusqu’au cœur de Zan’vess.";
+	AL["Weapons of Zan'vess"] = "Les armes de Zan’vess";
+	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Terrassez le commandant Tel’vrak et récupérez le contenu de la cache d’armes des mantides.";
 
 	-- Brewmoon Festival
 	AL["The Brewmoon Festival!"] = "Le festival de Brasse-Lune";
@@ -102,8 +118,39 @@ if AL then
 	AL["Abomination of Anger"] = "Abomination de colère";
 
 	-- Dagger in the Dark
+	AL["The Mission..."] = "La mission…";
+	AL["Speak with Vol'jin to begin the search for the Saurok cave."] = "Parlez à Vol’jin pour vous mettre à la recherche de la caverne des sauroks.";
+	AL["We Ride!"] = "En route !";
+	AL["Find the entrance to the Saurok Cave."] = "Trouvez l’entrée de la caverne des sauroks.";
+	AL["Guards!"] = "Des gardes !";
+	AL["Defeat the Saurok guarding the cave."] = "Terrassez les sauroks qui gardent la caverne.";
+	AL["Into the Cave"] = "Dans la grotte";
+	AL["Make your way deeper into the cave."] = "Enfoncez-vous dans les profondeurs de la grotte.";
+	AL["The Source"] = "La source";
+	AL["Find the source of the Saurok."] = "Découvrir d’où viennent les sauroks.";
+	AL["The Broodmaster"] = "Le maître des couvées";
+	AL["Defeat Broodmaster Noshi."] = "Terrassez le maître des couvées Noshi.";
+	AL["Investigation"] = "Enquête";
+	AL["Investigate the Mogu Statues."] = "Examinez les statues mogu.";
+	AL["Ambush!"] = "C’est une embuscade !";
+	AL["Fend off the Kor'kron ambush."] = "Repoussez l’embuscade kor’kronne.";
 
 	-- Domination Point
+	AL["The Flight Master"] = "Le maître de vol";
+	AL["Join up with Kromthar."] = "Rejoignez Kromthar.";
+	AL["A.C.E.s High"] = "Un as dans la manche";
+	AL["Fight your way through the burning refinery to General Nazgrim."] = "Frayez-vous un chemin à travers la raffinerie en flammes jusqu’au général Nazgrim.";
+	AL["Reclaim the Court!"] = "Reprenez la cour !";
+	AL["Defeat the Alliance forces assaulting the keep."] = "Terrassez les troupes de l’Alliance prenant d’assaut le donjon.";
+	AL["The Warlord"] = "Le seigneur de guerre";
+	AL["Locate Warlord Bloodhilt and help repel the Alliance assault."] = "Retrouvez le seigneur de guerre Garde-Sanglante et aidez-le à repousser l’attaque de l’Alliance.";
+	AL["Legwork"] = "Travail sur le terrain";
+	AL["Gather information about the Alliance and Horde forces."] = "Rassemblez des informations sur les troupes de l’Alliance et de la Horde.";
+	AL["Setting Up"] = "Préparatifs";
+	AL["Set up Rivett's weapons and prepare to defend the keep!"] = "Installez les armes de Rivett et préparez-vous à défendre le donjon !";
+	AL["Hold the Line!"] = "Tenir le front !";
+	AL["Hold the gate against waves of Alliance invaders and their commander."] = "Tenez le château en repoussant les vagues d’envahisseurs de l’Alliance et leur commandant.";
+
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Sauver les villageois";
 	AL["Defeat the monsters attacking the Greenstone villagers."] = "Vaincre les monstres qui attaquent les villageois de Pierre-Verte.";
@@ -117,6 +164,15 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Vaincre le Hui vengeur.";
 
 	-- Lion's Landing
+	AL["Join up with Daggin Windbeard."] = "Rejoignez Daggin Barbe-du-Vent.";
+	AL["Death on the Docks"] = "Mort sur les quais";
+	AL["Fight your way through the docks to Admiral Taylor."] = "Frayez-vous un chemin sur les quais jusqu’à l’amiral Taylor.";
+	AL["Defeat the Horde forces assaulting the keep."] = "Terrassez les troupes de la Horde prenant d’assaut le donjon.";
+	AL["The High Marshal"] = "Le haut maréchal";
+	AL["Locate High Marshal Twinbraid and help repel the Horde assault."] = "Retrouvez le haut maréchal Doublenattes et aidez-le à repousser l’attaque de la Horde.";
+	AL["Gather information from the SI:7 team."] = "Rassemblez des informations sur l’équipe du SI:7.";
+	AL["Set up Sully's weapons and prepare to defend the keep!"] = "Installez les armes de Sully et préparez-vous à défendre le donjon !";
+	AL["Hold the keep against waves of Horde invaders and their commander."] = "Tenez le château en repoussant les vagues d’envahisseurs de la Horde et leur commandant.";
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Sur la ligne de flottaison !";
@@ -129,6 +185,10 @@ if AL then
 	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Détruire la Grosse Bessa et saboter tous les chars inoccupés.";
 	AL["Fly, Spy!"] = "Espionnage aérien !";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Tuer Hédric Cannelisse et libérer Thalen Tissechant de la citadelle de Theramore.";
+	AL["Alliance Ships"] = "Navires de l’Alliance";
+	AL["Baldruc and Gryphon"] = "Baldruc et  Griffon";
+	AL["Tanks"] = "Tanks";
+	AL["Thalen Songweaver"] = "Thalen Tissechant";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Bienvenue à Theramore";
@@ -147,6 +207,14 @@ if AL then
 	AL["The heart of ruined Theramore"] = "Cœur des ruines de Theramore";
 	AL["Jaina"] = "Jaina";
 	AL["West Gate"] = "Porte Ouest";
+
+	-- Troves of the Thunder King
+	AL["Troves of the Thunder King"] = "Le fabuleux trésor du roi-tonnerre";
+	AL["Key to the Palace of Lei Shen"] = "Clé du palais de Lei Shen";
+	AL["Speak to Taoshi"] = "Parler à Taoshi";
+	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "Vous disposez d’un temps limité pour récupérer autant de butin que vous pouvez. Parlez à Taoshi quand vous voudrez commencer.";
+	AL["Reach the Exit"] = "Atteindre la sortie";
+	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Emportez autant de trésors que possible et atteignez la sortie avant que le décompte ne soit terminé.";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Chaudron de brassage";

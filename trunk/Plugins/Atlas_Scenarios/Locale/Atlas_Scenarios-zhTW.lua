@@ -189,7 +189,7 @@ if AL then
 	AL["Alliance Ships"] = "聯盟船隻";
 	AL["Baldruc and Gryphon"] = "巴德拉克和獅鷲獸";
 	AL["Tanks"] = "坦克";
---	AL["Thalen Songweaver"] = "Thalen Songweaver";
+	AL["Thalen Songweaver"] = "塔倫織歌者";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "歡迎來到塞拉摩";

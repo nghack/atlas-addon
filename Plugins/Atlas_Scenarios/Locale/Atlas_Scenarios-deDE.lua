@@ -61,7 +61,7 @@ if AL then
 	AL["Kill Commander Scargash"] = "Tötet Kommandant Schlitznarbe";
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Bezwingt Kommandant Schlitznarbe und erobert den Tempel des Roten Kranichs zurück.";
 	AL["Traps"] = "Fallen";
-	AL["Commander Skargash"] = "Kommandant Schlitznarbe";
+	AL["Commander Scargash"] = "Kommandant Schlitznarbe";
 
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Narbenpanzer";

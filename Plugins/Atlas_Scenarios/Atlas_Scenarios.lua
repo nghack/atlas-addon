@@ -68,7 +68,7 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Prepare the Defenses"] };
 		{ INDENT..INDENT..GREY..AL["Assist the two groups of laborers in the construction of their defenses."] };
 		{ INDENT..BLUE.." B) "..AL["Traps"] };
-		{ BLUE.." C) "..AL["Commander Skargash"] };
+		{ BLUE.." C) "..AL["Commander Scargash"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Kill Commander Scargash"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] };
 	}; 

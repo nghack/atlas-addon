@@ -61,7 +61,7 @@ if AL then
 	AL["Kill Commander Scargash"] = "Убить командира Глубокого Шрама";
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Победить командира Глубокого Шрама и вернуть Храм Красного Журавля.";
 	AL["Traps"] = "Ловушки";
-	AL["Commander Skargash"] = "Командир Глубокий Шрам";
+	AL["Commander Scargash"] = "Командир Глубокий Шрам";
 	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Потертый Панцирь";

@@ -69,7 +69,7 @@ if AL then
 	AL["Kill Commander Scargash"] = "Mata al comandante Sangrescara";
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Derrota al comandante Sangrescara y reclama el Templo de la Grulla Roja.";
 	AL["Traps"] = "Trampas";
-	AL["Commander Skargash"] = "Comandante Sangrescara";
+	AL["Commander Scargash"] = "Comandante Sangrescara";
 	
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Escaraza";

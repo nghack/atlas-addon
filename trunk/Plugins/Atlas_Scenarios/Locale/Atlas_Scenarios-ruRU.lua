@@ -186,7 +186,6 @@ if AL then
 	AL["Fly, Spy!"] = "Лети, шпион!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Убейте Хедрика Ровноступа и вызволите Талена Созвучие Песни из Цитадели.";
 	AL["Alliance Ships"] = "Корабли Альянса";
-	AL["The Blastmaster"] = "Подрывник";
 	AL["Baldruc and Gryphon"] = "Бальдрук и грифон";
 	AL["Tanks"] = "Танки";
 	AL["Thalen Songweaver"] = "Тален Созвучие Песни";

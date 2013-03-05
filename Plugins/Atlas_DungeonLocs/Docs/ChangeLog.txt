@@ -7,10 +7,13 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.24.00 (Mar. XX, 2013)
+v1.24.00 (Mar. 05, 2013)
 -----------------------
 - TOC update to support WoW 5.2
-- Added location of Throne of Thunder
+- Map update:
+    - Pandaria
+        - replace with new world map images
+	- Added location of Throne of Thunder
 
 v1.23.0 (Dec. 07, 2012)
 -----------------------

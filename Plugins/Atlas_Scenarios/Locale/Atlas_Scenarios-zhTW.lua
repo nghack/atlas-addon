@@ -136,7 +136,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "擊退柯爾克隆的突襲。";
 
 	-- Domination Point
-	AL["The Flight Master"] = "飛行管理員";
+	AL["The Flight MasterDP"] = "飛行管理員";
 	AL["Join up with Kromthar."] = "加入達金·風鬚。";
 	AL["A.C.E.s High"] = "A.C.E.部隊來襲";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "一路奮戰，穿過燃燒的精煉廠去找納茲格寧姆將軍。";
@@ -164,6 +164,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "殺死復仇之穢。";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "飛行管理員";
 	AL["Join up with Daggin Windbeard."] = "加入達金·風鬚。";
 	AL["Death on the Docks"] = "死亡碼頭";
 	AL["Fight your way through the docks to Admiral Taylor."] = "奮戰穿越碼頭去找泰勒上將。";
@@ -176,7 +177,7 @@ if AL then
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "前往水岸!";
-	AL["Rig powder barrels on all six ships."] = "在全部六艘船上設置火藥桶。";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "殺了聯盟船長並在所有船上安置火藥桶。";
 	AL["The Blastmaster"] = "爆破專家";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "通知爆破專家火星塞你的成功。";
 	AL["Gryphon, Down"] = "獅鷲獸墜落";

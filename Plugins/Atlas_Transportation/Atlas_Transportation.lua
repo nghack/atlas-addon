@@ -864,7 +864,7 @@ local myData = {
 		ZoneName = { BZ["Pandaria"].." ("..BF["Alliance"]..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Paw'Don Village"]..", "..BZ["The Jade Forest"] };
-		{ PURP.." B) "..BZ["Violet Rise"]..", "..BZ["Isle of Thunder"] };
+		{ PURP.." B) "..BZ["The Seabolt"] / BZ["Za'Tual"]..", "..BZ["Isle of Thunder"] };
 		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." B') "..BZ["Ironforge"]..", "..BZ["Dun Morogh"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." C') "..BZ["Darnassus"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
@@ -952,7 +952,7 @@ local myData = {
 		ZoneName = { BZ["Pandaria"].." ("..BF["Horde"]..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"] };
-		{ PURP.." B) "..BZ["Dawnseeker Promontory"]..", "..BZ["Isle of Thunder"] };
+		{ PURP.." B) "..BZ["The Crimson Treader"].." / "..BZ["Court of Bones"]..", "..BZ["Isle of Thunder"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Thunder Bluff"]..", "..BZ["Mulgore"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["Shattrath City"]..", "..BZ["Terokkar Forest"]..", "..BZ["Outland"] };

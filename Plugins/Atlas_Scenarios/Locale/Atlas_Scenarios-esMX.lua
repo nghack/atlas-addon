@@ -194,7 +194,7 @@ if AL then
 	AL["Fly, Spy!"] = "¡Vuela, espía!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Asesina a Hedric Cañalisa y libera a Thalen Tejecanto de la Ciudadela Garrida.";
 	AL["Alliance Ships"] = "Barcos de la Alianza";
-	AL["The Blastmaster"] = "El destructor";
+--	AL["The Blastmaster"] = "El destructor"; -- string kep is duplicated, do we have two local names?
 	AL["Baldruc and Gryphon"] = "Baldruc y el grifo";
 	AL["Tanks"] = "Tanques";
 	AL["Thalen Songweaver"] = "Thalen Tejecanto";

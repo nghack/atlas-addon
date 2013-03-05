@@ -136,7 +136,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Wehrt den Angriff der Kor'kron ab.";
 
 	-- Domination Point
-	AL["The Flight Master"] = "Die Flugmeisterin";
+	AL["The Flight MasterDP"] = "Die Flugmeisterin";
 	AL["Join up with Kromthar."] = "Schließt Euch Kromthar an.";
 	AL["A.C.E.s High"] = "Spaß mit A.S.S.";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "Kämpft Euch durch die brennende Raffinerie zu General Nazgrim.";
@@ -164,6 +164,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Bezwingt den rachsüchtigen Hui.";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "Der Flugmeister";
 	AL["Join up with Daggin Windbeard."] = "Schließt Euch Daggin Windbart an.";
 	AL["Death on the Docks"] = "Tod auf den Docks";
 	AL["Fight your way through the docks to Admiral Taylor."] = "Kämpft Euch durch die Gegner bis zu Admiral Taylor auf den Docks.";
@@ -176,7 +177,7 @@ if AL then
 
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "Ein Schlag ins Wasser!";
-	AL["Rig powder barrels on all six ships."] = "Manipuliert die Pulverfässer auf allen sechs Schiffen.";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Tötet Allianzkapitäne und manipuliert Pulverfässer auf allen Schiffen.";
 	AL["The Blastmaster"] = "Der Sprengmeister";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "Informiert Sprengmeister Zündlunte über Euren Erfolg.";
 	AL["Gryphon, Down"] = "Greif am Boden";

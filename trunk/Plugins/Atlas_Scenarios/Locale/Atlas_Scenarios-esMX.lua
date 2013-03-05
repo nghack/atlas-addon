@@ -70,7 +70,7 @@ if AL then
 	AL["Defeat Commander Scargash and reclaim the Temple of the Red Crane."] = "Derrota al comandante Sangrescara y reclama el Templo de la Grulla Roja.";
 	AL["Traps"] = "Trampas";
 	AL["Commander Scargash"] = "Comandante Sangrescara";
-	
+
 	-- Arena of Annihilation
 	AL["Scar-shell"] = "Escaraza";
 	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Invoca y derrota a la poderosa tortuga dragón, Escaraza.";
@@ -95,7 +95,7 @@ if AL then
 	AL["Storm the beach and reach the Heart of Zan'vess."] = "Irrumpe en la playa y llega hasta el corazón de Zan'vess.";
 	AL["Weapons of Zan'vess"] = "Armas de Zan'vess";
 	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Derrota al comandante Tel'vrak y recupera el alijo de armas mántide.";
-	
+
 	-- Brewmoon Festival
 	AL["The Brewmoon Festival!"] = "El Festival de la Cerveza Lunar";
 	AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] = "Ayuda a los asistentes del maestro cervecero Boof a reunir los ingredientes para la pateadora de Kun-Lai.";
@@ -144,7 +144,7 @@ if AL then
 	AL["Fend off the Kor'kron ambush."] = "Esquiva la emboscada Kor'kron.";
 
 	-- Domination Point
-	AL["The Flight Master"] = "El maestro de vuelo";
+	AL["The Flight MasterDP"] = "El maestro de vuelo";
 	AL["Join up with Kromthar."] = "Únete a Kromthar.";
 	AL["A.C.E.s High"] = "El fuego de la venganza";
 	AL["Fight your way through the burning refinery to General Nazgrim."] = "Ábrete paso a través de la refinería en llamas del general Nazgrim.";
@@ -158,7 +158,7 @@ if AL then
 	AL["Set up Rivett's weapons and prepare to defend the keep!"] = "¡Monta las armas de Perno y prepárate para defender el bastión!";
 	AL["Hold the Line!"] = "¡Mantén la formación!";
 	AL["Hold the gate against waves of Alliance invaders and their commander."] = "Protege la puerta contra las oleadas de invasores de la Alianza y su comandante.";
-	
+
 	-- Greenstone Village
 	AL["Rescue the Villagers"] = "Salva a los habitantes";
 	AL["Defeat the monsters attacking the Greenstone villagers."] = "Derrota a los monstruos que atacan a los habitantes de Verdemar.";
@@ -172,6 +172,7 @@ if AL then
 	AL["Defeat Vengeful Hui."] = "Derrota a Hui el Vengativo.";
 
 	-- Lion's Landing
+	AL["The Flight MasterLL"] = "El maestro de vuelo";
 	AL["Join up with Daggin Windbeard."] = "Únete a Daggin Barbaviento.";
 	AL["Death on the Docks"] = "Muerte en los muelles";
 	AL["Fight your way through the docks to Admiral Taylor."] = "Ábrete paso a través de los muelles hasta el almirante Taylor.";
@@ -181,10 +182,10 @@ if AL then
 	AL["Gather information from the SI:7 team."] = "Reúne información del equipo del IV:7.";
 	AL["Set up Sully's weapons and prepare to defend the keep!"] = "¡Monta las armas de Sully y prepárate para defender el bastión!";
 	AL["Hold the keep against waves of Horde invaders and their commander."] = "Protege el bastión contra las oleadas de invasores de la Horda y su comandante.";
-	
+
 	-- Theramore's Fall - Horde
 	AL["To the Waterline!"] = "¡A la línea de flotación!";
-	AL["Rig powder barrels on all six ships."] = "Prepara los barriles de pólvora en los seis barcos.";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Mata a los Capitanes de la Alianza y prepara los barriles de pólvora en todos los barcos.";
 	AL["The Blastmaster"] = "El maestro destructor";
 	AL["Inform Blastmaster Sparkfuse of your success."] = "Informa al maestro destructor Mechacentella de tu éxito.";
 	AL["Gryphon, Down"] = "Grifo derribado";
@@ -194,7 +195,6 @@ if AL then
 	AL["Fly, Spy!"] = "¡Vuela, espía!";
 	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Asesina a Hedric Cañalisa y libera a Thalen Tejecanto de la Ciudadela Garrida.";
 	AL["Alliance Ships"] = "Barcos de la Alianza";
---	AL["The Blastmaster"] = "El destructor"; -- string kep is duplicated, do we have two local names?
 	AL["Baldruc and Gryphon"] = "Baldruc y el grifo";
 	AL["Tanks"] = "Tanques";
 	AL["Thalen Songweaver"] = "Thalen Tejecanto";
@@ -224,7 +224,7 @@ if AL then
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "Tendrás un tiempo limitado para recoger todos los tesoros que puedas. Habla con Taoshi cuando estes preparado para empezar.";
 	AL["Reach the Exit"] = "Llega a la Salida";
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Recoge tantos tesoros como puedas y llega a la salida antes de que se acabe el tiempo.";
-	
+
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Caldero de fermentación";
 	AL["Escort Brewmaster Bo"] = "Escolta al maestro cervecero Bo";

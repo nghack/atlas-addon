@@ -194,7 +194,7 @@ if AL then
 	AL["Paladin"] = "Paladin";
 	AL["Holy Paladin"] = "Holy Paladin";
 	AL["Retribution Paladin"] = "Retribution Paladin";
-	
+
 	-- Areas in Maraudon
 	AL["Orange"] = "Orange";
 	AL["Purple"] = "Purple";

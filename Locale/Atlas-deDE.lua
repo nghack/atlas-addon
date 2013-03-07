@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 27.02.2013
+-- Letztes Update: 07.03.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -187,8 +187,8 @@ if AL then
 	AL["Warlock"] = "Hexenmeister";
 
 	AL["Warrior"] = "Krieger";
-	AL["Arms Warrior"] = "Offensiv Krieger";
-	AL["Protection Warrior"] = "Defensiv Krieger";
+	AL["Arms Warrior"] = "Waffen Krieger";
+	AL["Protection Warrior"] = "Schutz Krieger";
 
 	AL["Rogue"] = "Schurke";
 

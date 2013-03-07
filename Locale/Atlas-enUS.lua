@@ -156,7 +156,7 @@ if AL then
 	AL["ATLAS_MISSING_MODULE"] = "Atlas has detected missing module(s) / plugin(s): ";
 
 --************************************************
--- Zone Names, Acronyms, and Common Strings
+-- Zone Names, Acronyms, Common, and Misc. Strings
 --************************************************
 
 	--Common strings
@@ -172,75 +172,88 @@ if AL then
 	AL["Lunar Festival"] = "Lunar Festival";
 	AL["Midsummer Festival"] = "Midsummer Festival";
 
+	-- Classes
+	AL["Hunter"] = "Hunter";
+
+	AL["Mage"] = "Mage";
+
+	AL["Warlock"] = "Warlock";
+
+	AL["Warrior"] = "Warrior";
+	AL["Arms Warrior"] = "Arms Warrior";
+	AL["Protection Warrior"] = "Protection Warrior";
+
+	AL["Rogue"] = "Rogue";
+
+	AL["Shaman"] = "Shaman";
+
+	AL["Priest"] = "Priest";
+	AL["Holy Priest"] = "Holy Priest";
+	AL["Shadow Priest"] = "Shadow Priest";
+
+	AL["Paladin"] = "Paladin";
+	AL["Holy Paladin"] = "Holy Paladin";
+	AL["Retribution Paladin"] = "Retribution Paladin";
+	
+	-- Areas in Maraudon
+	AL["Orange"] = "Orange";
+	AL["Purple"] = "Purple";
+
+	-- Old Hillsbrad Foothills' stages
+	AL["Second Stop"] = "Second Stop";
+	AL["Third Stop"] = "Third Stop";
+	AL["Fourth Stop"] = "Fourth Stop";
+
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
-	AL["Adult"] = "Adult";
+	AL["Adult"] = "Adult";  -- Caverns of Time, Andormu / Nozari's adult age
 	AL["AKA"] = "AKA"; -- As Known As
 	AL["Arcane Container"] = "Arcane Container";
-	AL["Arms Warrior"] = "Arms Warrior";
 	AL["Attunement Required"] = "Attunement Required";
 	AL["Back"] = "Back";
 	AL["Basement"] = "Basement";
 	AL["Blacksmithing Plans"] = "Blacksmithing Plans";
-	AL["Chase Begins"] = "Chase Begins";
-	AL["Chase Ends"] = "Chase Ends";
-	AL["Child"] = "Child";
+	AL["Chase Begins"] = "Chase Begins"; -- Pusillin in Dire Maul East
+	AL["Chase Ends"] = "Chase Ends"; -- Pusillin in Dire Maul East
+	AL["Child"] = "Child";  -- Caverns of Time, Andormu / Nozari's child age
 	AL["Click to open Dungeon Journal window."] = "Click to open Dungeon Journal window.";
-	AL["Connection"] = "Connection";
+	AL["Connection"] = "Connection"; -- this could be a tunnel, stair, or simply a door which connect two maps
 	AL["Elevator"] = "Elevator";
 	AL["End"] = "End";
-	AL["Engineer"] = "Engineer";
+	AL["Engineer"] = "Engineer"; -- Zelfan in Magisters' Terrace
 	AL["Entrance"] = "Entrance";
 	AL["Event"] = "Event";
 	AL["Exalted"] = "Exalted";
 	AL["Exit"] = "Exit";
-	AL["Fourth Stop"] = "Fourth Stop";
 	AL["Front"] = "Front";
 	AL["Ghost"] = "Ghost";
 	AL["Graveyard"] = "Graveyard";
 	AL["Heroic"] = "Heroic";
-	AL["Holy Paladin"] = "Holy Paladin";
-	AL["Holy Priest"] = "Holy Priest";
-	AL["Hunter"] = "Hunter";
 	AL["Imp"] = "Imp";
 	AL["Key"] = "Key";
 	AL["Lower"] = "Lower";
-	AL["Mage"] = "Mage";
 	AL["Meeting Stone"] = "Meeting Stone";
 	AL["Middle"] = "Middle";
 	AL["Monk"] = "Monk";
-	AL["Moonwell"] = "Moonwell";
+	AL["Moonwell"] = "Moonwell"; -- appeared in Caverns of Time
 	AL["Optional"] = "Optional";
-	AL["Orange"] = "Orange";
 	AL["Outside"] = "Outside";
-	AL["Paladin"] = "Paladin";
 	AL["Portal"] = "Portal";
-	AL["Priest"] = "Priest";
-	AL["Protection Warrior"] = "Protection Warrior";
-	AL["Purple"] = "Purple";
 	AL["Random"] = "Random";
 	AL["Rare"] = "Rare";
 	AL["Reputation"] = "Reputation";
 	AL["Repair"] = "Repair";
-	AL["Retribution Paladin"] = "Retribution Paladin";
 	AL["Rewards"] = "Rewards";
-	AL["Rogue"] = "Rogue";
-	AL["Second Stop"] = "Second Stop";
-	AL["Shadow Priest"] = "Shadow Priest";
-	AL["Shaman"] = "Shaman";
 	AL["Spawn Point"] = "Spawn Point";
 	AL["Start"] = "Start";
 	AL["Summon"] = "Summon";
 	AL["Teleporter"] = "Teleporter";
 	AL["Teleporter destination"] = "Teleporter destination";
-	AL["Third Stop"] = "Third Stop";
 	AL["Top"] = "Top";
 	AL["Underwater"] = "Underwater";
 	AL["Upper"] = "Upper";
 	AL["Varies"] = "Varies";
 	AL["Wanders"] = "Wanders";
-	AL["Warlock"] = "Warlock";
-	AL["Warrior"] = "Warrior";
 	AL["Wave 5"] = "Wave 5";
 	AL["Wave 6"] = "Wave 6";
 	AL["Wave 10"] = "Wave 10";
@@ -248,6 +261,7 @@ if AL then
 	AL["Wave 18"] = "Wave 18";
 	AL["MapsNotFound"] = "Current selected dungeon does not have a \ncorresponding map image associated with. \n\nPlease make sure you have installed \nthe corresponding Atlas map module(s).";
 
+	
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
@@ -337,9 +351,6 @@ if AL then
 	AL["VH"] = "VH"; -- The Violet Hold
 	AL["VoA"] = "VoA"; -- Vault of Archavon
 
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "Crusaders' Coliseum"; 
-
 	--Cataclysm Acronyms
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
@@ -371,6 +382,10 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "Crusaders' Coliseum"; 
+
 
 --************************************************
 -- Instance Entrance Maps

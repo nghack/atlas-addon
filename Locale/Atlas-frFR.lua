@@ -180,12 +180,43 @@ if AL then
 	AL["Lunar Festival"] = "Festival lunaire";
 	AL["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
 
+	-- Classes
+	AL["Hunter"] = "Chasseur";
+
+	AL["Mage"] = "Mage";
+
+	AL["Warlock"] = "Démoniste";
+
+	AL["Warrior"] = "Guerrier";
+	AL["Arms Warrior"] = "Guerrier Armes";
+	AL["Protection Warrior"] = "Guerrier Protection";
+
+	AL["Rogue"] = "Voleur";
+
+	AL["Shaman"] = "Chaman";
+
+	AL["Priest"] = "Prêtre";
+	AL["Holy Priest"] = "Prêtre Sacré";
+	AL["Shadow Priest"] = "Prêtre Ombre";
+
+	AL["Paladin"] = "Paladin";
+	AL["Holy Paladin"] = "Paladin Sacré";
+	AL["Retribution Paladin"] = "Paladin Vindicte";
+
+	-- Areas in Maraudon
+	AL["Orange"] = "Orange";
+	AL["Purple"] = "Violet";
+
+	-- Old Hillsbrad Foothills' stages
+	AL["Second Stop"] = "Deuxième arrêt";
+	AL["Third Stop"] = "Troisième arrêt";
+	AL["Fourth Stop"] = "Quatrième arrêt";
+
 	--Misc strings
 	AL["Colon"] = " : ";
 	AL["Adult"] = "Adulte";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Récipient arcanique";
-	AL["Arms Warrior"] = "Guerrier Armes";
 	AL["Attunement Required"] = "Harmonisation requise";
 	AL["Back"] = "de derrière"; -- Back de Back Door, trouver mieux
 	AL["Basement"] = "Sous-sol";
@@ -202,53 +233,35 @@ if AL then
 	AL["Event"] = "Evènement";
 	AL["Exalted"] = "Exalté";
 	AL["Exit"] = "Sortie";
-	AL["Fourth Stop"] = "Quatrième arrêt";
 	AL["Front"] = "Principale"; -- Front de Front Door, trouver mieux
 	AL["Ghost"] = "Fantôme";
 	AL["Graveyard"] = "Cimetière";
 	AL["Heroic"] = "Héroïque";
-	AL["Holy Paladin"] = "Paladin Sacré";
-	AL["Holy Priest"] = "Prêtre Sacré";
-	AL["Hunter"] = "Chasseur";
 	AL["Imp"] = "Diablotin";
 	AL["Key"] = "Clé";
 	AL["Lower"] = "En bas";
-	AL["Mage"] = "Mage";
 	AL["Meeting Stone"] = "Pierre de rencontre";
 	AL["Middle"] = "Milieu";
 	AL["Monk"] = "Moine";
 	AL["Moonwell"] = "Puits de lune";
 	AL["Optional"] = "Optionel";
-	AL["Orange"] = "Orange";
 	AL["Outside"] = "Extérieur";
-	AL["Paladin"] = "Paladin";
 	AL["Portal"] = "Portail";
-	AL["Priest"] = "Prêtre";
-	AL["Protection Warrior"] = "Guerrier Protection";
-	AL["Purple"] = "Violet";
 	AL["Random"] = "Aléatoire";
 	AL["Rare"] = "Rare";
 	AL["Reputation"] = "Réputation";
 	AL["Repair"] = "Réparation";
-	AL["Retribution Paladin"] = "Paladin Vindicte";
 	AL["Rewards"] = "Récompenses";
-	AL["Rogue"] = "Voleur";
-	AL["Second Stop"] = "Deuxième arrêt";
-	AL["Shadow Priest"] = "Prêtre Ombre";
-	AL["Shaman"] = "Chaman";
 	AL["Spawn Point"] = "Points d'apparition";
 	AL["Start"] = "Début";
 	AL["Summon"] = "Invoqué";
 	AL["Teleporter"] = "Téléporteur";
 	AL["Teleporter destination"] = "Destination du téléporteur";
-	AL["Third Stop"] = "Troisième arrêt";
 	AL["Top"] = "Haut";
 	AL["Underwater"] = "Sous l'eau";
 	AL["Upper"] = "En haut";
 	AL["Varies"] = "Variable";
 	AL["Wanders"] = "Errant";
-	AL["Warlock"] = "Démoniste";
-	AL["Warrior"] = "Guerrier";
 	AL["Wave 5"] = "Vague 5";
 	AL["Wave 6"] = "Vague 6";
 	AL["Wave 10"] = "Vague 10";
@@ -345,9 +358,6 @@ if AL then
 	AL["VH"] = "VH"; -- Le fort Pourpre
 	AL["VoA"] = "Archa"; -- Caveau d'Archavon
 
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
-
 	--Cataclysm Acronyms
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
@@ -378,6 +388,11 @@ if AL then
 	AL["SB"] = "SB"; --Stormstout Brewery
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
+	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
+
 
 --************************************************
 -- Instance Entrance Maps
@@ -521,8 +536,8 @@ if AL then
 	AL["Celebras the Redeemed"] = "Celebras le Racheté";
 
 	--Ragefire Chasm
-	AL["Bovaal Whitehorn"] = "Bovaal Corne-blanche";
-	AL["Stone Guard Kurjack"] = "Garde de pierre Kurjack";
+--	AL["Commander Bagran"] = "Commander Bagran";
+--	AL["Invoker Xorenth"] = "Invoker Xorenth";
 	AL["Scout Cage"] = "Cage d'eclaireur"; -- translation needed
 
 	--Razorfen Downs
@@ -635,6 +650,25 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+--	AL["Commander Lindon"] = "Commander Lindon";
+	AL["Hooded Crusader"] = "Croisée capuchonnée";
+	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
+	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
+	AL["Professor Slate"] = "Professeur Alambic";
+	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
+	AL["Talking Skull"] = "Crâne parlant";
+	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
+	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
+	AL["The Dark Grimoire"] = "Le grimoire noir";
+
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Trio d'apothicaires";
 	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothicaire Hummel <Cie de Chimie La Royale>";
@@ -644,12 +678,6 @@ if AL then
 	AL["Deathstalker Commander Belmont"] = "Commandant nécrotraqueur Belmont";
 	AL["Haunted Stable Hand"] = "Palefrenier hanté";
 	AL["Investigator Fezzen Brasstacks"] = " Enquêteur Fezzen Desfaits";
-
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "Commandant des chasseurs"; -- Translation needed
-	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
@@ -661,7 +689,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Boîte de l'allée du Festival";
 	AL["Elder Farwhisper"] = "Ancien Murmeloin";
 	AL["Market Row Postbox"] = "Boîte de l'allée du Marché";
-	AL["Crusaders' Square Postbox"] = "Boîte de la place des Croisés";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Boîte de la place des Anciens";
@@ -1185,21 +1212,6 @@ if AL then
 
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "Ban Cœur d’Ours";
-	
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "Croisée capuchonnée";
-	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
-	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
-	AL["Professor Slate"] = "Professeur Alambic";
-	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
-	AL["The Dark Grimoire"] = "Le grimoire noir";
-	AL["Talking Skull"] = "Crâne parlant";
-	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Maître-pandashan Chum Kiu";
@@ -1209,9 +1221,11 @@ if AL then
 	AL["Chen Stormstout"] = "Chen Brune d’Orage";
 
 	--Temple of the Jade Serpent
-AL["Master Windstrong"] = "Maître Windstrong"; -- Translation needed
+	AL["Master Windstrong"] = "Maître Windstrong"; -- Translation needed
 	AL["Priestess Summerpetal"] = "Prêtresse Pétale de l’Été"; -- Translation needed
 
 	--Terrace of Endless Spring
+
+	--Throne of Thunder
 
 end

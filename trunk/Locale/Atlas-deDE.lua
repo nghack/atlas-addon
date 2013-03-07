@@ -179,12 +179,43 @@ if AL then
 	AL["Lunar Festival"] = "Mondfest";
 	AL["Midsummer Festival"] = "Sonnenwendfest";
 
+	-- Classes
+	AL["Hunter"] = "Jäger";
+
+	AL["Mage"] = "Magier";
+
+	AL["Warlock"] = "Hexenmeister";
+
+	AL["Warrior"] = "Krieger";
+	AL["Arms Warrior"] = "Offensiv Krieger";
+	AL["Protection Warrior"] = "Defensiv Krieger";
+
+	AL["Rogue"] = "Schurke";
+
+	AL["Shaman"] = "Schamane";
+
+	AL["Priest"] = "Priester";
+	AL["Holy Priest"] = "Heilig Priesterin";
+	AL["Shadow Priest"] = "Schatten Priesterin";
+
+	AL["Paladin"] = "Paladin";
+	AL["Holy Paladin"] = "Heilig Paladin";
+	AL["Retribution Paladin"] = "Vergeltungs Paladin";
+
+	-- Areas in Maraudon
+	AL["Orange"] = "Orange";
+	AL["Purple"] = "Lila";
+
+	-- Old Hillsbrad Foothills' stages
+	AL["Second Stop"] = "Zweiter Halt";
+	AL["Third Stop"] = "Dritter Halt";
+	AL["Fourth Stop"] = "Vierter Halt";
+
 	--Misc strings
 	AL["Colon"] = ": ";
 	AL["Adult"] = "Erwachsen";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Arkaner Behälter";
-	AL["Arms Warrior"] = "Offensiv Krieger";
 	AL["Attunement Required"] = "Zugangsquest erforderlich";
 	AL["Back"] = "Hinten";
 	AL["Basement"] = "Keller";
@@ -201,53 +232,35 @@ if AL then
 	AL["Event"] = "Ereignis";
 	AL["Exalted"] = "Ehrfürchtig";
 	AL["Exit"] = "Ausgang";
-	AL["Fourth Stop"] = "Vierter Halt";
 	AL["Front"] = "Vorne";
 	AL["Ghost"] = "Geist";
 	AL["Graveyard"] = "Friedhof";
 	AL["Heroic"] = "Heroisch";
-	AL["Holy Paladin"] = "Heilig Paladin";
-	AL["Holy Priest"] = "Heilig Priesterin";
-	AL["Hunter"] = "Jäger";
 	AL["Imp"] = "Wichtel";
 	AL["Key"] = "Schlüssel";
 	AL["Lower"] = "Unten";
-	AL["Mage"] = "Magier";
 	AL["Meeting Stone"] = "Versammlungsstein";
 	AL["Middle"] = "Mitte";
 	AL["Monk"] = "Mönch";
 	AL["Moonwell"] = "Mondbrunnen";
 	AL["Optional"] = "Optional";
-	AL["Orange"] = "Orange";
 	AL["Outside"] = "Außerhalb";
-	AL["Paladin"] = "Paladin";
 	AL["Portal"] = "Portal";
-	AL["Priest"] = "Priester";
-	AL["Protection Warrior"] = "Defensiv Krieger";
-	AL["Purple"] = "Lila";
 	AL["Random"] = "Zufällig";
 	AL["Rare"] = "Selten";
 	AL["Reputation"] = "Ruf";
 	AL["Repair"] = "Reparieren";
-	AL["Retribution Paladin"] = "Vergeltungs Paladin";
 	AL["Rewards"] = "Belohnungen";
-	AL["Rogue"] = "Schurke";
-	AL["Second Stop"] = "Zweiter Halt";
-	AL["Shadow Priest"] = "Schatten Priesterin";
-	AL["Shaman"] = "Schamane";
 	AL["Spawn Point"] = "Spawnpunkt";
 	AL["Start"] = "Anfang";
 	AL["Summon"] = "Beschwörbar";
 	AL["Teleporter"] = "Teleporter";
 	AL["Teleporter destination"] = "Teleportziel";
-	AL["Third Stop"] = "Dritter Halt";
 	AL["Top"] = "Spitze";
 	AL["Underwater"] = "Unter Wasser";
 	AL["Upper"] = "Oben";
 	AL["Varies"] = "Variiert";
 	AL["Wanders"] = "Wandert";
-	AL["Warlock"] = "Hexenmeister";
-	AL["Warrior"] = "Krieger";
 	AL["Wave 5"] = "Welle 5";
 	AL["Wave 6"] = "Welle 6";
 	AL["Wave 10"] = "Welle 10";
@@ -344,9 +357,6 @@ if AL then
 	AL["VH"] = "VF, Vio"; -- The Violet Hold
 	AL["VoA"] = "Archa"; -- Vault of Archavon
 
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer";
-
 	--Cataclysm Acronyms
 	AL["BH"] = "BF"; --Baradin Hold
 	AL["BoT"] = "BdZ"; --Bastion of Twilight
@@ -378,6 +388,10 @@ if AL then
 	AL["TJS"] = "TdJ, Jade"; --Temple of the Jade Serpent
 	AL["TES"] = "TdEF, Terrasse"; --Terrace of Endless Spring
 	AL["ToT"] = "TdD"; --Throne of Thunder
+
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "Kolloseum der Kreuzfahrer";
+
 
 --************************************************
 -- Instance Entrance Maps

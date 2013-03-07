@@ -175,12 +175,43 @@ if AL then
 	AL["Lunar Festival"] = "Festival lunar";
 	AL["Midsummer Festival"] = "Festival del solsticio de verano";
 
+	-- Classes
+	AL["Hunter"] = "Cazador";
+
+	AL["Mage"] = "Mago";
+
+	AL["Warlock"] = "Brujo";
+
+	AL["Warrior"] = "Guerrero";
+	AL["Arms Warrior"] = "Guerrero Armas";
+	AL["Protection Warrior"] = "Guerrero Protección";
+
+	AL["Rogue"] = "Pícaro";
+
+	AL["Shaman"] = "Chamán";
+
+	AL["Priest"] = "Sacerdote";
+	AL["Holy Priest"] = "Sacerdote Sagrado";
+	AL["Shadow Priest"] = "Sacerdote Sombras";
+
+	AL["Paladin"] = "Paladín";
+	AL["Holy Paladin"] = "Paladín Sagrado";
+	AL["Retribution Paladin"] = "Paladín Reprensión";
+
+	-- Areas in Maraudon
+	AL["Orange"] = "Naranja";
+	AL["Purple"] = "Morado";
+
+	-- Old Hillsbrad Foothills' stages
+	AL["Second Stop"] = "Segunda parada";
+	AL["Third Stop"] = "Tercera parada";
+	AL["Fourth Stop"] = "Cuarta parada";
+
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Adulto";
 	AL["AKA"] = "AKA";
 	AL["Arcane Container"] = "Contenedor Arcano";	
-	AL["Arms Warrior"] = "Guerrero Armas";
 	AL["Attunement Required"] = "Armonización requerida";
 	AL["Back"] = "Atras";
 	AL["Basement"] = "Sótano";
@@ -197,53 +228,35 @@ if AL then
 	AL["Event"] = "Evento";
 	AL["Exalted"] = "Exaltado";
 	AL["Exit"] = "Salida";
-	AL["Fourth Stop"] = "Cuarta parada";
 	AL["Front"] = "Frente";
 	AL["Ghost"] = "Fantasma";
 	AL["Graveyard"] = "Cementerio";
 	AL["Heroic"] = "Heróico";
-	AL["Holy Paladin"] = "Paladín Sagrado";
-	AL["Holy Priest"] = "Sacerdote Sagrado";
-	AL["Hunter"] = "Cazador";
 	AL["Imp"] = "Duendecillo";
 	AL["Key"] = "Llave";
 	AL["Lower"] = "Abajo";
-	AL["Mage"] = "Mago";
 	AL["Meeting Stone"] = "Piedra de encuentro";
 	AL["Middle"] = "Medio";
 	AL["Monk"] = "Monje";	
 	AL["Moonwell"] = "Claro de la luna";
 	AL["Optional"] = "Opcional";
-	AL["Orange"] = "Naranja";
 	AL["Outside"] = "Fuera";
-	AL["Paladin"] = "Paladín";
 	AL["Portal"] = "Portal";
-	AL["Priest"] = "Sacerdote";
-	AL["Protection Warrior"] = "Guerrero Protección";
-	AL["Purple"] = "Morado";
 	AL["Random"] = "Aleatorio";
 	AL["Rare"] = "Raro";
 	AL["Reputation"] = "Reputación";
 	AL["Repair"] = "Reparar";
-	AL["Retribution Paladin"] = "Paladín Reprensión";
 	AL["Rewards"] = "Recompensas";
-	AL["Rogue"] = "Pícaro";
-	AL["Second Stop"] = "Segunda parada";
-	AL["Shadow Priest"] = "Sacerdote Sombras";
-	AL["Shaman"] = "Chamán";
 	AL["Spawn Point"] = "Punto de aparición";
 	AL["Start"] = "Comienzo";
 	AL["Summon"] = "Invocar";
 	AL["Teleporter"] = "Teletransportador";
 	AL["Teleporter destination"] = "Teletransportador de destino";
-	AL["Third Stop"] = "Tercera parada";
 	AL["Top"] = "Arriba";
 	AL["Underwater"] = "Bajo el agua";
 	AL["Upper"] = "Arriba";
 	AL["Varies"] = "Varios";
 	AL["Wanders"] = "Rondando";
-	AL["Warlock"] = "Brujo";
-	AL["Warrior"] = "Guerrero";
 	AL["Wave 5"] = "Ola 5";
 	AL["Wave 6"] = "Ola 6";
 	AL["Wave 10"] = "Ola 10";
@@ -340,9 +353,6 @@ if AL then
 	AL["VH"] = "BV"; -- The Violet Hold
 	AL["VoA"] = "CdA"; -- Vault of Archavon
 
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
-
 	--Cataclysm Acronyms
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
@@ -374,6 +384,11 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "Coliseo de los Cruzados";
+
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************

@@ -170,12 +170,43 @@ if AL then
 	AL["Lunar Festival"] = "新年慶典";
 	AL["Midsummer Festival"] = "仲夏節慶";
 
+	-- Classes
+	AL["Hunter"] = "獵人";
+
+	AL["Mage"] = "法師";
+
+	AL["Warlock"] = "術士";
+
+	AL["Warrior"] = "戰士";
+	AL["Arms Warrior"] = "武戰";
+	AL["Protection Warrior"] = "防戰";
+
+	AL["Rogue"] = "盜賊";
+
+	AL["Shaman"] = "薩滿";
+
+	AL["Priest"] = "牧師";
+	AL["Holy Priest"] = "神聖牧師";
+	AL["Shadow Priest"] = "暗影牧師";
+
+	AL["Paladin"] = "聖騎士";
+	AL["Holy Paladin"] = "神聖聖騎";
+	AL["Retribution Paladin"] = "懲戒聖騎";
+
+	-- Areas in Maraudon
+	AL["Orange"] = "橙";
+	AL["Purple"] = "紫";
+
+	-- Old Hillsbrad Foothills' stages
+	AL["Second Stop"] = "第二停留點";
+	AL["Third Stop"] = "第三停留點";
+	AL["Fourth Stop"] = "第四停留點";
+
 	--Misc strings
 	AL["Colon"] = ":"; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
 	AL["AKA"] = "又稱";
 	AL["Arcane Container"] = "秘法容器";
-	AL["Arms Warrior"] = "武戰";
 	AL["Attunement Required"] = "需完成傳送門/鑰匙前置任務";
 	AL["Back"] = "後方";
 	AL["Basement"] = "地下室";
@@ -192,53 +223,35 @@ if AL then
 	AL["Event"] = "事件";
 	AL["Exalted"] = "崇拜";
 	AL["Exit"] = "出口";
-	AL["Fourth Stop"] = "第四停留點";
 	AL["Front"] = "前方";
 	AL["Ghost"] = "鬼魂";
 	AL["Graveyard"] = "墓地";
 	AL["Heroic"] = "英雄";
-	AL["Holy Paladin"] = "神聖聖騎";
-	AL["Holy Priest"] = "神聖牧師";
-	AL["Hunter"] = "獵人";
 	AL["Imp"] = "小鬼";
 	AL["Key"] = "鑰匙";
 	AL["Lower"] = "下層";
-	AL["Mage"] = "法師";
 	AL["Meeting Stone"] = "集合石";
 	AL["Middle"] = "中間";
 	AL["Monk"] = "僧侶";
 	AL["Moonwell"] = "月井";
 	AL["Optional"] = "可選擇";
-	AL["Orange"] = "橙";
 	AL["Outside"] = "戶外";
-	AL["Paladin"] = "聖騎士";
 	AL["Portal"] = "入口/傳送門";
-	AL["Priest"] = "牧師";
-	AL["Protection Warrior"] = "防戰";
-	AL["Purple"] = "紫";
 	AL["Random"] = "隨機";
 	AL["Rare"] = "稀有";
 	AL["Reputation"] = "聲望";
 	AL["Repair"] = "修理";
-	AL["Retribution Paladin"] = "懲戒聖騎";
 	AL["Rewards"] = "獎勵";
-	AL["Rogue"] = "盜賊";
-	AL["Second Stop"] = "第二停留點";
-	AL["Shadow Priest"] = "暗影牧師";
-	AL["Shaman"] = "薩滿";
 	AL["Spawn Point"] = "生成點";
 	AL["Start"] = "開始";
 	AL["Summon"] = "召喚";
 	AL["Teleporter"] = "傳送";
 	AL["Teleporter destination"] = "傳送目的地";
-	AL["Third Stop"] = "第三停留點";
 	AL["Top"] = "上方";
 	AL["Underwater"] = "水下";
 	AL["Upper"] = "上層";
 	AL["Varies"] = "多處";
 	AL["Wanders"] = "徘徊";
-	AL["Warlock"] = "術士";
-	AL["Warrior"] = "戰士";
 	AL["Wave 5"] = "第 5 波";
 	AL["Wave 6"] = "第 6 波";
 	AL["Wave 10"] = "第 10 波";
@@ -335,9 +348,6 @@ if AL then
 	AL["VH"] = "VH/紫堡"; -- The Violet Hold -- 紫羅蘭堡
 	AL["VoA"] = "VoA/亞夏"; -- Vault of Archavon--亞夏梵穹殿
 
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "銀白大競技場";
-
 	--Cataclysm Acronyms
 	AL["BH"] = "BH"; --Baradin Hold 巴拉丁堡
 	AL["BoT"] = "BoT"; --Bastion of Twilight 暮光堡壘
@@ -369,6 +379,10 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "銀白大競技場";
+
 
 --************************************************
 -- Instance Entrance Maps

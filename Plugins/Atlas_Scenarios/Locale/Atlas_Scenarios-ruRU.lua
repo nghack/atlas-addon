@@ -210,12 +210,12 @@ if AL then
 	AL["West Gate"] = "Западные ворота"; --need check
 
 	-- Troves of the Thunder King
-	AL["Troves of the Thunder King"] = "Сокрошищя Властелина Грома"; --need check
+	AL["Troves of the Thunder King"] = "Сокровищница Властелина Грома";
 	AL["Key to the Palace of Lei Shen"] = "Ключ от дворца Лэй Шэня";
-	AL["Speak to Taoshi"] = "Поговорите с Таоши";
-	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "За ограниченное количество времени вам надо будет собрать как можно больше сокровищ. Когда вы будете готовы, поговорите с Таоши."; --need check
+	AL["Speak to Taoshi"] = "Поговорить с Таоши";
+	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "В течение ограниченного времени соберите как можно больше сокровищ. Поговорите с Таоши, когда будете готовы начать.";
 	AL["Reach the Exit"] = "Добраться до выхода";
-	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Соберите как можно больша сокрошищ и дойдите до выхода, пока не истекло время.";
+	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Соберите как можно больше сокровищ и дойдите до выхода, пока не истекло время.";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Хмелевареный котел"; --need check

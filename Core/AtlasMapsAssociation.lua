@@ -275,7 +275,9 @@ Atlas_SubZoneData = {
 	[BZ["Throne of Thunder"]] = {
 		--Throne of Thunder A
 		["ThroneofThunderA"] = {
+			BZ["Ruined Approach"],
 			BZ["Overgrown Statuary"],
+			BZ["Grand Overlook"],
 			BZ["Royal Amphitheater"],
 			BZ["Lightning Promenade"],
 		},

@@ -2942,7 +2942,7 @@ Syntax:
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
@@ -2961,7 +2961,7 @@ Syntax:
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
@@ -2975,7 +2975,7 @@ Syntax:
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
 		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
@@ -2989,7 +2989,7 @@ Syntax:
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ ORNG..AL["Reputation"]..AL["Colon"].."Shado-Pan Assault" };
+		{ ORNG..AL["Reputation"]..AL["Colon"]..BF["Shado-Pan Assault"] };
 		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
 		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren") };

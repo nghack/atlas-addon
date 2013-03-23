@@ -56,7 +56,7 @@ Atlas_AssocDefaults = {
 	[BZ["Siege of Niuzao Temple"]] =	"SiegeofNiuzaoTempleA";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
-	[BZ["Throne of Thunder"]] = 		"ThroneofThunderA";
+	[BZ["Throne of Thunder"]] = 		"ThroneofThunderB";
 	[BZ["The Wailing Caverns"]] = 		"WailingCavernsEnt";
 	[BZ["Ulduar"]] =			"UlduarA";
 };
@@ -286,6 +286,7 @@ Atlas_SubZoneData = {
 			BZ["Lair of Tortos"],
 			BZ["Forgotten Depths"],
 			BZ["Roost of Ji-Kun"],
+			BZ["Refuse Disposal"],
 		},
 		--Throne of Thunder C
 		["ThroneofThunderC"] = {

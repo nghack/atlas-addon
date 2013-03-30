@@ -31,12 +31,7 @@ if AL then
 	AL["Scenarios Maps"] = "情境地圖";
 
 	-- Common Strings
-	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
-	AL["Connection"] = "通道";
-	AL["End"] = "結束";
 	AL["Final Stage"] = "最後階段";
-	AL["Key"] = "關鍵點";
-	AL["Random"] = "隨機";
 	AL["Stage 1"] = "階段 1";
 	AL["Stage 2"] = "階段 2";
 	AL["Stage 3"] = "階段 3";
@@ -45,7 +40,6 @@ if AL then
 	AL["Stage 6"] = "階段 6";
 	AL["Stage 7"] = "階段 7";
 	AL["Start"] = "開始";
-	AL["Summon"] = "召喚";
 
 	-- Brewing Storm
 	AL["Make Boomer's Brew"] = "釀造轟雷酒";
@@ -211,7 +205,6 @@ if AL then
 
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "雷王的珍寶";
-	AL["Key to the Palace of Lei Shen"] = "雷神皇宮鑰匙";
 	AL["Speak to Taoshi"] = "與陶氏說話";
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "你只有有限的時間盡可能地收集寶藏。等你準備好開始時，跟陶氏說話。";
 	AL["Reach the Exit"] = "抵達出口";

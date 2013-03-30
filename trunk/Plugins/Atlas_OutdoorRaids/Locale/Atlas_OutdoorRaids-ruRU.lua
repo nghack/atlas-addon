@@ -42,14 +42,12 @@ if AL then
 	AL["Ancient Skull Pile"] = "Груда древних черепов";
 	AL["Darkscreecher Akkarai"] = "Темный Крикун Аккарай";
 	AL["Gezzarak the Huntress"] = "Геззарак Охотница";
-	AL["Graveyard"] = "Кладбище";
 	AL["Grella <Skyguard Quartermaster>"] = "Грелла <Интендант Стражи небес>";
 	AL["Hazzik"] = "Хаззик";
 	AL["Hazzik's Package"] = " Сверток Хаззика";
 	AL["Karrog"] = "Каррог";
 	AL["Outdoor Raid Encounters"] = "Места внешних рейдовых схваток";
 	AL["Pandaria World Bosses"] = "Pandaria World Bosses";
-	AL["Random"] = "Случайный";
 	AL["Sahaak <Keeper of Scrolls>"] = "Сахаак <Хранитель Свитков>";
 	AL["Severin <Skyguard Medic>"] = "Северин <Врач Стражи небес>";
 	AL["Skull Pile"] = "Груда черепов";
@@ -57,7 +55,6 @@ if AL then
 	AL["Sky Sergeant Doryn"] = "Небесный сержант Дорин";
 	AL["Skyguard Handler Deesak"] = "Укротитель Диисак из Стражи Небес";
 	AL["Skyguard Prisoner"] = "Плененный Страж Небес";
-	AL["Summon"] = "Призыв";
 	AL["Talonpriest Ishaal"] = "Жрец Когтя Ишааль";
 	AL["Talonpriest Skizzik"] = "Жрец Когтя Скиззик";
 	AL["Talonpriest Zellek"] = "Жрец Когтя Зеллек";

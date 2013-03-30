@@ -22,9 +22,10 @@
 
 --]]
 
-local BF = Atlas_GetLocaleLibBabble("LibBabble-Faction-3.0");
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_Scenarios");
+local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+local ALIL = Atlas_IngameLocales;
 
 local BLUE = "|cff6666ff";
 local GREN = "|cff66cc33";
@@ -54,7 +55,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Assist Blanche in brewing her famous Boomer's Brew."] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Road to Thunderpaw"] };
 		{ INDENT..INDENT..GREY..AL["Escort Blanche down Thunderpaw Road."] };
-		{ BLUE.." B) "..BZ["Thunderpaw Refuge"].." - "..AL["End"] };
+		{ BLUE.." B) "..BZ["Thunderpaw Refuge"].." - "..ALC["End"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Save Thunderpaw Refuge"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Borokhula the Destroyer."] };
 	};
@@ -78,7 +79,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Summon"] };
+		{ BLUE.." A) "..ALC["Summon"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Scar-shell"] };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Jol'grum"] };
@@ -87,7 +88,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the playful fire spirit, Liuyang."] };
 		{ INDENT..YELL.."- "..AL["Stage 4"].." - "..AL["Chagan Firehoof"] };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the wandering yaungol warrior, Chagan Firehoof."] };
-		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Final Challenger!"].." ("..AL["Random"]..")" };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Final Challenger!"].." ("..ALC["Random"]..")" };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the final challenger and then claim your reward from Wodin!"] };
 		{ INDENT..INDENT..YELL..AL["Defeat Maki Waterblade"] };
 		{ INDENT..INDENT..YELL..AL["Defeat Satay Byu"] };
@@ -108,6 +109,40 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Weapons of Zan'vess"] };
 		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
 	};
+	--[[SC_BattleontheHighSeas = {
+		ZoneName = { BZ["Battle on the High Seas"] };
+		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
+		{ INDENT..GREY..AL["Protect the Ship! Defeat the Horde Boarding party."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
+		{ INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
+		{ INDENT..GREY..AL["Plant explosives on the Alliance Ship to destroy it!"] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
+		{ INDENT..GREY..AL["Defeat Admiral Hodgson."] };
+	};
+	SC_BloodintheSnow = {
+		ZoneName = { BZ["Blood in the Snow"] };
+		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Mountaineers"] };
+		{ INDENT..GREY..AL["Contact the Dark Iron Mountaineers atop Shimmer Ridge and find a way to stop the storm."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Save Scout Stonebeard"] };
+		{ INDENT..GREY..AL["Slay the trolls cooking Scout Stonebeard and free him."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["Save Scout Boldbrew"] };
+		{ INDENT..GREY..AL["Slay the trolls trying to cook Scout Boldbrew."] };
+		{ YELL.."- "..AL["Stage 4"].." - "..AL["Save Scout Forgefellow"] };
+		{ INDENT..GREY..AL["Slay the trolls about to sacrifice Scout Forgefellow."] };
+		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Cold Cave"] };
+		{ INDENT..GREY..AL["Slay the elemental spirit in the ice cave to end the snowstorm."] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Victory or Death"] };
+		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and captures the Frostmane village."] };
+	};--]]
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };
 		Location = { BZ["Binan Village"]..", "..BZ["Kun-Lai Summit"] };
@@ -144,7 +179,7 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Pool of Life"] };
 		{ INDENT..INDENT..GREY..AL["Cleanse the Sha corruption from the Pool of Life."] };
 		{ BLUE.." C) "..AL["Treasure Urn"] };
-		{ BLUE.." D) "..AL["Connection"] };
+		{ BLUE.." D) "..ALC["Connection"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypts"] };
 		{ INDENT..INDENT..GREY..AL["Delve deeper into the crypt and search the bottom level."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
@@ -174,6 +209,23 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Ambush!"] };
 		{ INDENT..GREY..AL["Fend off the Kor'kron ambush."] };
 	};
+	--[[SC_DarkHeartofPandaria = {
+		ZoneName = { BZ["Dark Heart of Pandaria"] };
+		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["Talk to the Boss"] };
+		{ INDENT..GREY..AL["Speak with Grizzle Gearslip."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Rock Grinding"] };
+		{ INDENT..GREY..AL["Destroy the greater elemental ravaging the Big Blossom Mine."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["Time is Money"] };
+		{ INDENT..GREY..AL["Finish gathering the archaeology fragments from the dig site."] };
+		{ YELL.."- "..AL["Stage 4"].." - "..AL["End of the Mine"] };
+		{ INDENT..GREY..AL["Travel deep into Big Blossom Mine and blast open the wall."] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
+		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
+	};--]]
 	SC_DominationPoint = {
 		ZoneName = { BZ["Domination Point"] };
 		Location = { BZ["Krasarang Wilds"] };
@@ -236,8 +288,25 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Hold the Line!"] };
 		{ INDENT..GREY..AL["Hold the keep against waves of Horde invaders and their commander."] };
 	};
+	--[[SC_TheSecretsofEmberdeep = {
+		ZoneName = { BZ["The Secrets of Emberdeep"] };
+		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["Infiltration"] };
+		{ INDENT..GREY..AL["Breach the main chamber and stop the mongrel forces."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Reconnaissance"] };
+		{ INDENT..GREY..AL["Investigate the main chamber."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Sealed Gate"] };
+		{ INDENT..GREY..AL["Help Ticker build a device to open the next gate."] };
+		{ YELL.."- "..AL["Stage 4"].." - "..AL["Holdout"] };
+		{ INDENT..GREY..AL["Defend the Gob Squad while Patch establishes an escape route."] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Egress"] };
+		{ INDENT..GREY..AL["Escape with the Gob Squad."] };
+	};--]]
 	SC_TheramoresFallHorde = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Horde"] };
+		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Horde"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -260,7 +329,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
 	};
 	SC_TheramoresFallAlliance = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..BF["Alliance"] };
+		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Alliance"] };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -290,12 +359,15 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "1";
-		{ ORNG..AL["Key"]..AL["Colon"]..AL["Key to the Palace of Lei Shen"] };
+		{ ORNG..ALC["Key"]..ALC["Colon"]..ALIL["Key to the Palace of Lei Shen"] };
+		{ ORNG..ALC["Key"]..ALC["Colon"]..ALIL["Burial Trove Key"] };
 		{ BLUE.." A) "..AL["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Speak to Taoshi"] };
 		{ INDENT..INDENT..GREY..AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Reach the Exit"] };
 		{ INDENT..INDENT..GREY..AL["Grab as much treasure as you can and reach the exit before the timer expires."] };
+		{ INDENT..INDENT..WHIT.." 1) "..AL["God-Hulk Gulkan"] };
+		{ INDENT..INDENT..GREN.." 1) "..AL["Lever"] };
 	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };
@@ -306,21 +378,12 @@ local myData = {
 		{ BLUE.." A) "..AL["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Escort Brewmaster Bo"] };
 		{ INDENT..INDENT..GREY..AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] };
-		{ BLUE.." B) "..AL["Brewing Cauldron"].." / "..AL["End"] };
+		{ BLUE.." B) "..AL["Brewing Cauldron"].." / "..ALC["End"] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Fill the Brewing Cauldron"] };
 		{ INDENT..INDENT..GREY..AL["Bring 200 Unga Jungle Brew to the Brewing Cauldron."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat Captain Ook"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Captain Ook."] };
 	};
---[[	SC_PeakofSerenity = {
-		ZoneName = { BZ["Peak of Serenity"] };
-		Location = { BZ["Peak of Serenity"]..", "..BZ["Kun-Lai Summit"] };
-		LevelRange = "90";
-		MinLevel = "90";
-		PlayerLimit = "3";
-		{ "" };
-	};
-]]
 };
 
 Atlas_RegisterPlugin("Atlas_Scenarios", myCategory, myData);

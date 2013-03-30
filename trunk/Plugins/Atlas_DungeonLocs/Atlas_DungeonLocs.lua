@@ -30,6 +30,7 @@
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_DungeonLocs");
+local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 
 local BLUE = "|cff6666ff";
 local GREN = "|cff66cc33";
@@ -147,7 +148,7 @@ local myData = {
 		{ WHIT..INDENT..BZ["Ulduar"] };
 		{ WHIT..INDENT..BZ["Halls of Stone"] };
 		{ WHIT..INDENT..BZ["Halls of Lightning"] };
-		{ WHIT.." 2) "..AL["Crusaders' Coliseum"]..", ".._RED..BZ["Icecrown"] };
+		{ WHIT.." 2) "..ALC["Crusaders' Coliseum"]..", ".._RED..BZ["Icecrown"] };
 		{ WHIT..INDENT..BZ["Trial of the Crusader"] };
 		{ WHIT..INDENT..BZ["Trial of the Champion"] };
 		{ WHIT.." 3) "..BZ["Gundrak"]..", ".._RED..BZ["Zul'Drak"] };

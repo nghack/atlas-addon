@@ -36,7 +36,4 @@ if AL then
 	AL["Green"] = "Vert "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Instances"] = "Instances";
 	AL["White"] = "Blanc "; -- Espace pour le blanc avant une double ponctuation française
-
-	--Zones
-	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
 end

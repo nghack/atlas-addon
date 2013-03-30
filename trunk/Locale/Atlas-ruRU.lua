@@ -175,43 +175,13 @@ if AL then
 	AL["Lunar Festival"] = "Лунный фестиваль";
 	AL["Midsummer Festival"] = "Огненный солнцеворот";
 
-	-- Classes
-	AL["Hunter"] = "Охотник";
-
-	AL["Mage"] = "Маг";
-
-	AL["Warlock"] = "Чернокнижник";
-
-	AL["Warrior"] = "Воин";
-	AL["Arms Warrior"] = "Воин-Оружия";
-	AL["Protection Warrior"] = "Воин-Защиты";
-
-	AL["Rogue"] = "Разбойник";
-
-	AL["Shaman"] = "Шаман";
-
-	AL["Priest"] = "Жрец";
-	AL["Holy Priest"] = "Жрец-Света";
-	AL["Shadow Priest"] = "Жрец-Темной магии";
-
-	AL["Paladin"] = "Паладин";
-	AL["Holy Paladin"] = "Паладин-Света";
-	AL["Retribution Paladin"] = "Паладин-Возмездия";
-	
-	-- Areas in Maraudon
-	AL["Orange"] = "Оранжевый";
-	AL["Purple"] = "Пурпурный";
-
-	-- Old Hillsbrad Foothills' stages
-	AL["Second Stop"] = "Вторая остановка";
-	AL["Third Stop"] = "Третья остановка";
-	AL["Fourth Stop"] = "Четвертая остановка";
-
 	--Misc strings
 	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "Взрослый";
 	AL["AKA"] = "AKA";
+	AL["Alliance"] = "Альянс";
 	AL["Arcane Container"] = "Волшебный контейнер";
+	AL["Arms Warrior"] = "Воин-Оружия";
 	AL["Attunement Required"] = "Необходима подготавка";
 	AL["Back"] = "Назад";
 	AL["Basement"] = "Подвал";
@@ -228,35 +198,54 @@ if AL then
 	AL["Event"] = "Событие";
 	AL["Exalted"] = "Превознесение";
 	AL["Exit"] = "Выход";
+	AL["Fourth Stop"] = "Четвертая остановка";
 	AL["Front"] = "Передний";
 	AL["Ghost"] = "Призрак";
 	AL["Graveyard"] = "Кладбище";
 	AL["Heroic"] = "Героический";
+	AL["Holy Paladin"] = "Паладин-Света";
+	AL["Holy Priest"] = "Жрец-Света";
+	AL["Horde"] = "Орда";
+	AL["Hunter"] = "Охотник";
 	AL["Imp"] = "Бесс";
 	AL["Key"] = "Ключ";
 	AL["Lower"] = "Нижний";
+	AL["Mage"] = "Маг";
 	AL["Meeting Stone"] = "Камень встреч";
 	AL["Middle"] = "Центр"; --???
 	AL["Monk"] = "Монах";
 	AL["Moonwell"] = "Лунный колодец";
 	AL["Optional"] = "Необяз.";
+	AL["Orange"] = "Оранжевый";
 	AL["Outside"] = "Снаружи";
+	AL["Paladin"] = "Паладин";
 	AL["Portal"] = "Портал";
+	AL["Priest"] = "Жрец";
+	AL["Protection Warrior"] = "Воин-Защиты";
+	AL["Purple"] = "Пурпурный";
 	AL["Random"] = "Случайный";
 	AL["Rare"] = "Редкий";
 	AL["Reputation"] = "Репа";
 	AL["Repair"] = "Починка";
+	AL["Retribution Paladin"] = "Паладин-Возмездия";
 	AL["Rewards"] = "Награды";
+	AL["Rogue"] = "Разбойник";
+	AL["Second Stop"] = "Вторая остановка";
+	AL["Shadow Priest"] = "Жрец-Темной магии";
+	AL["Shaman"] = "Шаман";
 	AL["Spawn Point"] = "Точка рождения";
 	AL["Start"] = "Начало";
 	AL["Summon"] = "Вызов";
 	AL["Teleporter"] = "Телепорт";
 	AL["Teleporter destination"] = "Назначение телепорта";
+	AL["Third Stop"] = "Третья остановка";
 	AL["Top"] = "Верхний";
 	AL["Underwater"] = "Подводный";
 	AL["Upper"] = "Верхний";
 	AL["Varies"] = "Изменяется";
 	AL["Wanders"] = "Странник";
+	AL["Warlock"] = "Чернокнижник";
+	AL["Warrior"] = "Воин";
 	AL["Wave 5"] = "5-ая волна";
 	AL["Wave 6"] = "6-ая волна";
 	AL["Wave 10"] = "10-ая волна";
@@ -353,6 +342,9 @@ if AL then
 	AL["VH"] = "АМК"; -- Аметистовая крепость
 	AL["VoA"] = "Склеп"; -- Склеп Аркавона
 
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "Колизей Авангарда"; 
+
 	--Cataclysm Acronyms
 	AL["BH"] = "КБ"; --Крепость Барадин
 	AL["BoT"] = "СБ"; --Сумеречный бастион
@@ -372,7 +364,7 @@ if AL then
 	AL["VP"] = "ВС"; --Вершина смерча
 	AL["ZA"] = "ЗА"; -- Зул'Аман
 	AL["ZG"] = "ЗГ"; --Зул'Гуруб
-	
+
 	--MoP Acronyms
 	AL["GSS"] = "ВЗС"; --Врата Заходящего Солнца
 	AL["HoF"] = "СС"; --Сердце Страха
@@ -384,10 +376,6 @@ if AL then
 	AL["TJS"] = "ХНЗ"; --Храм Нефритовой Змеи
 	AL["TES"] = "ТВВ"; --Терраса Вечной Весны
 	AL["ToT"] = "ЗМ"; --Throne of Thunder
-	
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "Колизей Авангарда"; 
-
 
 --************************************************
 -- Instance Entrance Maps
@@ -512,7 +500,6 @@ if AL then
 	AL["Knot Thimblejack"] = "Уззл Наперстяк";
 
 	--Dire Maul (West)
-	AL["J'eevee's Jar"] = "Флакон Д'жииви";
 	AL["Ferra"] = "Ферра";
 	AL["Estulan <The Highborne>"] = "Эстулан <Высокорожденный>";
 	AL["Shen'dralar Watcher"] = "Шен'драларский дозорный";
@@ -583,8 +570,6 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	AL["Relic Coffer Key"] = "Ключ от древнего сундука";
-	AL["Dark Keeper Key"] = "Ключ темного хранителя";
 	AL["The Black Anvil"] = "Черная наковальня";
 	AL["The Vault"] = "Подземелье";
 	AL["Watchman Doomgrip"] = "Сторож Хватка Смерти";
@@ -730,7 +715,6 @@ if AL then
 	AL["Tormented Soulpriest"] = "Измученный жрец душ";
 
 	--Auch: Mana-Tombs
-	AL["The Eye of Haramad"] = "Око Харамада";
 	AL["Artificer Morphalius"] = "Работник Морфалиус";
 	AL["Mamdy the \"Ologist\""] = "Мамди по кличке \"Олог\"";
 	AL["Shadow Lord Xiraxis"] = "Владыка теней Зираксис";
@@ -1190,7 +1174,7 @@ if AL then
 	AL["Mortaxx <The Tolling Bell>"] = "Мортакс <Предвестник смерти>";
 	AL["Tiki Lord Zim'wae"] = "Вождь тики Зим'вэ";
 	AL["Zanzil's Cauldron of Burning Blood"] = "Котел Занзила с пылающей кровью";
-	
+
 --*********************
 -- Mists of Pandaria Instances
 --*********************

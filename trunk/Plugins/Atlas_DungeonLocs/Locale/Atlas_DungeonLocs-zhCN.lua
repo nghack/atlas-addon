@@ -39,7 +39,4 @@ if AL then
 	AL["Green"] = "绿色";
 	AL["Instances"] = "副本";
 	AL["White"] = "白色";
-
-	--Zones
-	AL["Crusaders' Coliseum"] = "十字军大竞技场";
 end

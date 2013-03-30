@@ -32,15 +32,8 @@ local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "frFR", false);
 if AL then
 	--Common
 	AL["Battleground Maps"] = "Cartes des champs de bataille";
-	AL["Entrance"] = "Entrée";
-	AL["Meeting Stone"] = "Pierre de rencontre";
-	AL["North"] = "Nord";
-	AL["Reputation"] = "Réputation "; -- Espace pour le blanc avant une double ponctuation française
 	AL["Rescued"] = "Sauvé";
 	AL["Span of 5"] = "par tranche de 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
-	AL["South"] = "Sud";
-	AL["Start"] = "Départ";
-	AL["Summon"] = "Invoqué";
 
 	--Places
 	AL["AV"] = "AV/Alterac"; -- Alterac Valley
@@ -115,7 +108,6 @@ if AL then
 
 	--Eye of the Storm
 	AL["Flag"] = "Drapeau";
-	AL["Graveyard"] = "Cimetière";
 
 	-- Halaa
 	AL["Quartermaster Davian Vaclav"] = "Intendant Davian Vaclav";
@@ -199,5 +191,4 @@ if AL then
 
 	-- Temple of Kotmogu
 	AL["Scoring Point"] = "Point de but"; -- Translation needed
-
 end

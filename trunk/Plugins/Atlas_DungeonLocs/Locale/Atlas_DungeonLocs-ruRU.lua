@@ -45,7 +45,4 @@ if AL then
 	AL["Green"] = "Зеленый";
 	AL["Instances"] = "Инстансы";
 	AL["White"] = "Белый";
-
-	--Zones
-	AL["Crusaders' Coliseum"] = "Колизей Авангарда"; 
 end

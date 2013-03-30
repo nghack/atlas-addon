@@ -31,12 +31,7 @@ if AL then
 	AL["Scenarios Maps"] = "Scenarios Maps";
 
 	-- Common Strings
-	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
-	AL["Connection"] = "Connection";
-	AL["End"] = "End";
 	AL["Final Stage"] = "Final Stage";
-	AL["Key"] = "Key";
-	AL["Random"] = "Random";
 	AL["Stage 1"] = "Stage 1";
 	AL["Stage 2"] = "Stage 2";
 	AL["Stage 3"] = "Stage 3";
@@ -45,7 +40,6 @@ if AL then
 	AL["Stage 6"] = "Stage 6";
 	AL["Stage 7"] = "Stage 7";
 	AL["Start"] = "Start";
-	AL["Summon"] = "Summon";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -211,11 +205,12 @@ if AL then
 
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "Troves of the Thunder King";
-	AL["Key to the Palace of Lei Shen"] = "Key to the Palace of Lei Shen";
 	AL["Speak to Taoshi"] = "Speak to Taoshi";
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin.";
 	AL["Reach the Exit"] = "Reach the Exit";
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Grab as much treasure as you can and reach the exit before the timer expires.";
+	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
+	AL["Lever"] = "Lever";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Brewing Cauldron";

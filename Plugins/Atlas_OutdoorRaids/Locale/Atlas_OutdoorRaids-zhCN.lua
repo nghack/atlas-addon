@@ -36,14 +36,12 @@ if AL then
 	AL["Ancient Skull Pile"] = "上古颅骨堆";
 	AL["Darkscreecher Akkarai"] = "黑暗尖啸者阿克卡莱";
 	AL["Gezzarak the Huntress"] = "猎手吉萨拉克";
-	AL["Graveyard"] = "墓地";
 	AL["Grella <Skyguard Quartermaster>"] = "格蕾拉 <天空卫队军需官>";
 	AL["Hazzik"] = "哈吉克";
 	AL["Hazzik's Package"] = "哈吉克的包裹";
 	AL["Karrog"] = "卡尔洛格";
 	AL["Outdoor Raid Encounters"] = "户外首领分布图";
 	AL["Pandaria World Bosses"] = "潘达利亚世界首领";
-	AL["Random"] = "随机";
 	AL["Sahaak <Keeper of Scrolls>"] = "萨哈克 <卷轴保管者>";
 	AL["Severin <Skyguard Medic>"] = "瑟维里 <天空卫队医师>";
 	AL["Skull Pile"] = "颅骨堆";
@@ -51,7 +49,6 @@ if AL then
 	AL["Sky Sergeant Doryn"] = "空军上尉杜尔因";
 	AL["Skyguard Handler Deesak"] = "天空卫队训练师德萨克";
 	AL["Skyguard Prisoner"] = "天空卫队囚犯";
-	AL["Summon"] = "召唤";
 	AL["Talonpriest Ishaal"] = "鸦爪祭司伊沙尔";
 	AL["Talonpriest Skizzik"] = "鸦爪祭司斯卡基克";
 	AL["Talonpriest Zellek"] = "鸦爪祭司塞尔利克";

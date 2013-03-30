@@ -30,6 +30,7 @@
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_OutdoorRaids");
+local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas");
 
 local BLUE = "|cff6666ff";
 local GREN = "|cff66cc33";
@@ -93,19 +94,19 @@ local myData = {
 		{ WHIT..INDENT..AL["Grella <Skyguard Quartermaster>"] };
 		{ WHIT..INDENT..AL["Hazzik"] };
 		{ WHIT.."2) "..AL["Ancient Skull Pile"] };
-		{ WHIT..INDENT..AL["Terokk"].." ("..AL["Summon"]..")" };
+		{ WHIT..INDENT..AL["Terokk"].." ("..ALC["Summon"]..")" };
 		{ WHIT.."3) "..AL["Sahaak <Keeper of Scrolls>"] };
-		{ WHIT.."4) "..AL["Skyguard Prisoner"].." ("..AL["Random"]..")" };
+		{ WHIT.."4) "..AL["Skyguard Prisoner"].." ("..ALC["Random"]..")" };
 		{ WHIT.."5) "..AL["Talonpriest Ishaal"] };
 		{ WHIT.."6) "..AL["Talonpriest Skizzik"] };
 		{ WHIT.."7) "..AL["Talonpriest Zellek"] };
 		{ WHIT.."8) "..AL["Hazzik's Package"] };
-		{ WHIT.."9) "..AL["Graveyard"] };
+		{ WHIT.."9) "..ALC["Graveyard"] };
 		{ GREN.."1') "..AL["Skull Pile"] };
-		{ GREN..INDENT..AL["Darkscreecher Akkarai"].." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Gezzarak the Huntress"].." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Karrog"].." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Vakkiz the Windrager"].." ("..AL["Summon"]..")" };
+		{ GREN..INDENT..AL["Darkscreecher Akkarai"].." ("..ALC["Summon"]..")" };
+		{ GREN..INDENT..AL["Gezzarak the Huntress"].." ("..ALC["Summon"]..")" };
+		{ GREN..INDENT..AL["Karrog"].." ("..ALC["Summon"]..")" };
+		{ GREN..INDENT..AL["Vakkiz the Windrager"].." ("..ALC["Summon"]..")" };
 	};
 };
 

@@ -32,15 +32,8 @@ local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "enUS", true);
 if AL then
 	--Common
 	AL["Battleground Maps"] = "Battleground Maps";
-	AL["Entrance"] = "Entrance";
-	AL["Meeting Stone"] = "Meeting Stone";
-	AL["North"] = "North";
-	AL["Reputation"] = "Reputation";
 	AL["Rescued"] = "Rescued";
 	AL["Span of 5"] = "Span of 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
-	AL["South"] = "South";
-	AL["Start"] = "Start";
-	AL["Summon"] = "Summon";
 
 	--Places
 	AL["AV"] = "AV"; -- Alterac Valley
@@ -115,7 +108,6 @@ if AL then
 
 	--Eye of the Storm
 	AL["Flag"] = "Flag";
-	AL["Graveyard"] = "Graveyard";
 
 	-- Halaa
 	AL["Quartermaster Davian Vaclav"] = "Quartermaster Davian Vaclav";

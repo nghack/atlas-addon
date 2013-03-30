@@ -6,6 +6,9 @@ Copyright 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v1.24.01 (Apr. xx, 2013)
+-----------------------
+- added God-Hulk Gulkan and Lever locations to Troves of the Thunder King
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

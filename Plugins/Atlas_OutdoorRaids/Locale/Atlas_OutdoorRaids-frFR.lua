@@ -33,14 +33,12 @@ if AL then
 	AL["Ancient Skull Pile"] = "Ancienne pile de crânes";
 	AL["Darkscreecher Akkarai"] = "Akkarai le Hurle-sombre";
 	AL["Gezzarak the Huntress"] = "Gezzarak la Chasseresse";
-	AL["Graveyard"] = "Cimetière";
 	AL["Grella <Skyguard Quartermaster>"] = "Grella <Intendante de la Garde-ciel>";
 	AL["Hazzik"] = "Hazzik";
 	AL["Hazzik's Package"] = "Paquet d'Hazzik";
 	AL["Karrog"] = "Karrog";
 	AL["Outdoor Raid Encounters"] = "Rencontres de raids extérieurs";
 	AL["Pandaria World Bosses"] = "Boss de Monde de Pandarie";
-	AL["Random"] = "Aléatoire";
 	AL["Sahaak <Keeper of Scrolls>"] = "Sahaak <Gardiens des parchemins>";
 	AL["Severin <Skyguard Medic>"] = "Séverin <Infirmier de la Garde-ciel>";
 	AL["Skull Pile"] = "Pile de crânes";
@@ -48,7 +46,6 @@ if AL then
 	AL["Sky Sergeant Doryn"] = "Sergent Doryn de la Garde-ciel";
 	AL["Skyguard Handler Deesak"] = "Dresseur Deesak de la Garde-ciel";
 	AL["Skyguard Prisoner"] = "Prisonnier de la Garde-ciel";
-	AL["Summon"] = "Invoqué";
 	AL["Talonpriest Ishaal"] = "Prêtre de la serre Ishaal";
 	AL["Talonpriest Skizzik"] = "Prêtre de la serre Skizzik";
 	AL["Talonpriest Zellek"] = "Prêtre de la serre Zellek";

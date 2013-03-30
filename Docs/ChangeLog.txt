@@ -6,6 +6,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v1.24.01 (Apr. xx, 2013)
+-----------------------
+- add ingame locales for factions & items
+- remove BabbleFaction
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

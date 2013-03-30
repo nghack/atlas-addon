@@ -32,15 +32,8 @@ local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "deDE", false);
 if AL then
 	--Common
 	AL["Battleground Maps"] = "Schlachtfeldkarten";
-	AL["Entrance"] = "Eingang";
-	AL["Meeting Stone"] = "Versammlungsstein";
-	AL["North"] = "Nord";
-	AL["Reputation"] = "Ruf";
 	AL["Rescued"] = "Gerettet";
 	AL["Span of 5"] = "5er Schritte";
-	AL["South"] = "Süd";
-	AL["Start"] = "Anfang";
-	AL["Summon"] = "Beschwörbar";
 
 	--Places
 	AL["AV"] = "AV"; -- Alterac Valley
@@ -115,7 +108,6 @@ if AL then
 
 	--Eye of the Storm
 	AL["Flag"] = "Flagge";
-	AL["Graveyard"] = "Friedhof";
 
 	-- Halaa
 	AL["Quartermaster Davian Vaclav"] = "Rüstmeister Davian Watzlav";

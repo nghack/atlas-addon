@@ -31,12 +31,7 @@ if AL then
 	AL["Scenarios Maps"] = "Карты сценариев";
 
 	-- Common Strings
-	AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
-	AL["Connection"] = "Связан";
-	AL["End"] = "Конец";
 	AL["Final Stage"] = "Последний этап";
-	AL["Key"] = "Ключ";
-	AL["Random"] = "Случайный";
 	AL["Stage 1"] = "1 этап";
 	AL["Stage 2"] = "2 этап";
 	AL["Stage 3"] = "3 этап";
@@ -45,7 +40,6 @@ if AL then
 	AL["Stage 6"] = "6 этап";
 	AL["Stage 7"] = "7 этап";
 	AL["Start"] = "Начало";
-	AL["Summon"] = "Вызов";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Варка взрывного лагера";
@@ -211,7 +205,6 @@ if AL then
 
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "Сокровищница Властелина Грома";
-	AL["Key to the Palace of Lei Shen"] = "Ключ от дворца Лэй Шэня";
 	AL["Speak to Taoshi"] = "Поговорить с Таоши";
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "В течение ограниченного времени соберите как можно больше сокровищ. Поговорите с Таоши, когда будете готовы начать.";
 	AL["Reach the Exit"] = "Добраться до выхода";

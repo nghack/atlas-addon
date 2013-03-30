@@ -33,14 +33,12 @@ if AL then
 	AL["Ancient Skull Pile"] = "Uralter Schädelhaufen";
 	AL["Darkscreecher Akkarai"] = "Dunkelkreischer Akkarai";
 	AL["Gezzarak the Huntress"] = "Gezzarak die Jägerin";
-	AL["Graveyard"] = "Friedhof";
 	AL["Grella <Skyguard Quartermaster>"] = "Grella <Rüstmeister der Himmelswache>";
 	AL["Hazzik"] = "Hazzik";
 	AL["Hazzik's Package"] = "Hazziks Päckchen";
 	AL["Karrog"] = "Karrog";
 	AL["Outdoor Raid Encounters"] = "Außenweltschlachtzüge";
 	AL["Pandaria World Bosses"] = "Pandaria Weltbosse";
-	AL["Random"] = "Zufällig";
 	AL["Sahaak <Keeper of Scrolls>"] = "Sahaak <Hüter der Schriftrollen>";
 	AL["Severin <Skyguard Medic>"] = "Severin <Sanitäter der Himmelswache>";
 	AL["Skull Pile"] = "Schädelhaufen";
@@ -48,7 +46,6 @@ if AL then
 	AL["Sky Sergeant Doryn"] = "Himmelsoffizier Doryn";
 	AL["Skyguard Handler Deesak"] = "Deesak der Tierführer der Himmelswache";
 	AL["Skyguard Prisoner"] = "Gefangene Himmelswache";
-	AL["Summon"] = "Beschwörbar";
 	AL["Talonpriest Ishaal"] = "Krallenpriester Ishaal";
 	AL["Talonpriest Skizzik"] = "Krallenpriester Skizzik";
 	AL["Talonpriest Zellek"] = "Krallenpriester Zellek";

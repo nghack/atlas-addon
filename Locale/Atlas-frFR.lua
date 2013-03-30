@@ -180,43 +180,13 @@ if AL then
 	AL["Lunar Festival"] = "Festival lunaire";
 	AL["Midsummer Festival"] = "Solstice d'été : la fête du Feu";
 
-	-- Classes
-	AL["Hunter"] = "Chasseur";
-
-	AL["Mage"] = "Mage";
-
-	AL["Warlock"] = "Démoniste";
-
-	AL["Warrior"] = "Guerrier";
-	AL["Arms Warrior"] = "Guerrier Armes";
-	AL["Protection Warrior"] = "Guerrier Protection";
-
-	AL["Rogue"] = "Voleur";
-
-	AL["Shaman"] = "Chaman";
-
-	AL["Priest"] = "Prêtre";
-	AL["Holy Priest"] = "Prêtre Sacré";
-	AL["Shadow Priest"] = "Prêtre Ombre";
-
-	AL["Paladin"] = "Paladin";
-	AL["Holy Paladin"] = "Paladin Sacré";
-	AL["Retribution Paladin"] = "Paladin Vindicte";
-
-	-- Areas in Maraudon
-	AL["Orange"] = "Orange";
-	AL["Purple"] = "Violet";
-
-	-- Old Hillsbrad Foothills' stages
-	AL["Second Stop"] = "Deuxième arrêt";
-	AL["Third Stop"] = "Troisième arrêt";
-	AL["Fourth Stop"] = "Quatrième arrêt";
-
 	--Misc strings
 	AL["Colon"] = " : ";
 	AL["Adult"] = "Adulte";
 	AL["AKA"] = "AKA";
+	AL["Alliance"] = "Alliance";
 	AL["Arcane Container"] = "Récipient arcanique";
+	AL["Arms Warrior"] = "Guerrier Armes";
 	AL["Attunement Required"] = "Harmonisation requise";
 	AL["Back"] = "de derrière"; -- Back de Back Door, trouver mieux
 	AL["Basement"] = "Sous-sol";
@@ -233,42 +203,61 @@ if AL then
 	AL["Event"] = "Evènement";
 	AL["Exalted"] = "Exalté";
 	AL["Exit"] = "Sortie";
+	AL["Fourth Stop"] = "Quatrième arrêt";
 	AL["Front"] = "Principale"; -- Front de Front Door, trouver mieux
 	AL["Ghost"] = "Fantôme";
 	AL["Graveyard"] = "Cimetière";
 	AL["Heroic"] = "Héroïque";
+	AL["Holy Paladin"] = "Paladin Sacré";
+	AL["Holy Priest"] = "Prêtre Sacré";
+	AL["Horde"] = "Horde";
+	AL["Hunter"] = "Chasseur";
 	AL["Imp"] = "Diablotin";
 	AL["Key"] = "Clé";
 	AL["Lower"] = "En bas";
+	AL["Mage"] = "Mage";
 	AL["Meeting Stone"] = "Pierre de rencontre";
 	AL["Middle"] = "Milieu";
 	AL["Monk"] = "Moine";
 	AL["Moonwell"] = "Puits de lune";
 	AL["Optional"] = "Optionel";
+	AL["Orange"] = "Orange";
 	AL["Outside"] = "Extérieur";
+	AL["Paladin"] = "Paladin";
 	AL["Portal"] = "Portail";
+	AL["Priest"] = "Prêtre";
+	AL["Protection Warrior"] = "Guerrier Protection";
+	AL["Purple"] = "Violet";
 	AL["Random"] = "Aléatoire";
 	AL["Rare"] = "Rare";
 	AL["Reputation"] = "Réputation";
 	AL["Repair"] = "Réparation";
+	AL["Retribution Paladin"] = "Paladin Vindicte";
 	AL["Rewards"] = "Récompenses";
+	AL["Rogue"] = "Voleur";
+	AL["Second Stop"] = "Deuxième arrêt";
+	AL["Shadow Priest"] = "Prêtre Ombre";
+	AL["Shaman"] = "Chaman";
 	AL["Spawn Point"] = "Points d'apparition";
 	AL["Start"] = "Début";
 	AL["Summon"] = "Invoqué";
 	AL["Teleporter"] = "Téléporteur";
 	AL["Teleporter destination"] = "Destination du téléporteur";
+	AL["Third Stop"] = "Troisième arrêt";
 	AL["Top"] = "Haut";
 	AL["Underwater"] = "Sous l'eau";
 	AL["Upper"] = "En haut";
 	AL["Varies"] = "Variable";
 	AL["Wanders"] = "Errant";
+	AL["Warlock"] = "Démoniste";
+	AL["Warrior"] = "Guerrier";
 	AL["Wave 5"] = "Vague 5";
 	AL["Wave 6"] = "Vague 6";
 	AL["Wave 10"] = "Vague 10";
 	AL["Wave 12"] = "Vague 12";
 	AL["Wave 18"] = "Vague 18";
 	AL["MapsNotFound"] = "Le donjon actuellement sélectionné n'a pas d'image de la carte correspondante.\nAssurez-vous d'avoir installé le bon module de cartes d'Atlas";
-	
+
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj, Ruines d'Ahn'Qiraj
@@ -358,6 +347,9 @@ if AL then
 	AL["VH"] = "VH"; -- Le fort Pourpre
 	AL["VoA"] = "Archa"; -- Caveau d'Archavon
 
+	--Zones not included in LibBabble-Zone
+	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
+
 	--Cataclysm Acronyms
 	AL["BH"] = "BH"; --Baradin Hold
 	AL["BoT"] = "BoT"; --Bastion of Twilight
@@ -389,10 +381,6 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
-
-	--Zones not included in LibBabble-Zone
-	AL["Crusaders' Coliseum"] = "L'épreuve du croisé";
-
 
 --************************************************
 -- Instance Entrance Maps
@@ -517,7 +505,6 @@ if AL then
 	AL["Knot Thimblejack"] = "Noué Dédodevie";
 
 	--Dire Maul (West)
-	AL["J'eevee's Jar"] = "Bocal de J'eevee";
 	AL["Ferra"] = "Ferra";
 	AL["Estulan <The Highborne>"] = "Estulan <Le Bien-né>";
 	AL["Shen'dralar Watcher"] = "Gardien Shen'dralar";
@@ -536,8 +523,6 @@ if AL then
 	AL["Celebras the Redeemed"] = "Celebras le Racheté";
 
 	--Ragefire Chasm
---	AL["Commander Bagran"] = "Commander Bagran";
---	AL["Invoker Xorenth"] = "Invoker Xorenth";
 	AL["Scout Cage"] = "Cage d'eclaireur"; -- translation needed
 
 	--Razorfen Downs
@@ -588,8 +573,6 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	AL["Relic Coffer Key"] = "Clé du coffret à relique";
-	AL["Dark Keeper Key"] = "Clé du gardien noir";
 	AL["The Black Anvil"] = "L'Enclume noire";
 	AL["The Vault"] = "La Chambre forte";
 	AL["Watchman Doomgrip"] = "Sentinelle Ruinepoigne";
@@ -651,7 +634,6 @@ if AL then
 	--Molten Core
 
 	--Scarlet Halls
---	AL["Commander Lindon"] = "Commander Lindon";
 	AL["Hooded Crusader"] = "Croisée capuchonnée";
 	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
 	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
@@ -735,7 +717,6 @@ if AL then
 	AL["Tormented Soulpriest"] = "Prêtre de l'âme tourmenté"; -- Translation needed
 
 	--Auch: Mana-Tombs
-	AL["The Eye of Haramad"] = "L'Oeil d'Haramad";
 	AL["Artificer Morphalius"] = "Artificier Morphalius";
 	AL["Mamdy the \"Ologist\""] = "Mamdy \"l'Ologiste\"";
 	AL["Shadow Lord Xiraxis"] = "Seigneur des ténèbres Xiraxis";

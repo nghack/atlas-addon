@@ -39,15 +39,8 @@ local AL = AceLocale:NewLocale("Atlas_Battlegrounds", "esES", false);
 if AL then
 	--Common
 	AL["Battleground Maps"] = "Mapas de Campos de Batalla";
-	AL["Entrance"] = "Entrada";
-	AL["Meeting Stone"] = "Piedra de encuentro";
-	AL["North"] = "Norte";
-	AL["Reputation"] = "Reputación";
 	AL["Rescued"] = "Rescate";
 	AL["Span of 5"] = "Espacio de 5"; -- Blizzard's span to put players with similar level range into a BG (10-14, 15-29)
-	AL["South"] = "Sur";
-	AL["Start"] = "Comienzo";
-	AL["Summon"] = "Invocar";
 
 	--Places
 	AL["AV"] = "VA"; -- Alterac Valley
@@ -112,9 +105,9 @@ if AL then
 	AL["Frostwolf Relief Hut"] = "Puesto de auxilio de Lobo Gélido";
 
 	--Arathi Basin
-	
+
 	--Warsong Gulch
-	
+
 	-- The Silithyst Must Flow
 	AL["The Silithyst Must Flow"] = "El silitista debe fluir"; --check
 	AL["Alliance's Camp"] = "Campamento de la Alianza";
@@ -122,8 +115,7 @@ if AL then
 
 	--Eye of the Storm
 	AL["Flag"] = "Bandera";
-	AL["Graveyard"] = "Cementerio";
-	
+
 	-- Halaa
 	AL["Quartermaster Davian Vaclav"] = "Intendente Davian Vaclav";
 	AL["Chief Researcher Kartos"] = "Jefe de investigación Kartos";
@@ -147,7 +139,7 @@ if AL then
 	AL["Horde Field Scout"] = "Explorador de campo de la Horda";
 	AL["Alliance Field Scout"] = "Explorador de campo de la Alianza";
 	AL["Twinspire Graveyard"] = "Cementerio de las Agujas Gemelas"; --Check
-	
+
 	--Isle of Conquest
 	AL["Gates are marked with red bars."] = "Las puertas están marcadas con barras rojas.";
 	AL["Overlord Agmar"] = "Señor supremo Agmar";
@@ -183,7 +175,7 @@ if AL then
 	AL["Broken Temple Graveyard"] = "Cementerio del Templo Quebrado";
 	AL["Southeast Graveyard"] = "Cementerio sureste"; 
 	AL["Southwest Graveyard"] = "Cementerio suroeste"; 
-	
+
 	-- The Battle for Gilneas
 
 	-- Tol Barad

@@ -31,12 +31,7 @@ if AL then
 	AL["Scenarios Maps"] = "Szenariokarten";
 
 	-- Common Strings
-	AL["Colon"] = ": ";
-	AL["Connection"] = "Verbindung";
-	AL["End"] = "Ende";
 	AL["Final Stage"] = "Letzte Phase";
-	AL["Key"] = "Schlüssel";
-	AL["Random"] = "Zufällig";
 	AL["Stage 1"] = "Phase 1";
 	AL["Stage 2"] = "Phase 2";
 	AL["Stage 3"] = "Phase 3";
@@ -45,7 +40,6 @@ if AL then
 	AL["Stage 6"] = "Phase 6";
 	AL["Stage 7"] = "Phase 7";
 	AL["Start"] = "Anfang";
-	AL["Summon"] = "Beschwörbar";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Braut Hammerbräu";
@@ -211,11 +205,12 @@ if AL then
 
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "Schatzkammer des Donnerkönigs";
-	AL["Key to the Palace of Lei Shen"] = "Schlüssel zu Lei Shens Palast";
 	AL["Speak to Taoshi"] = "Sprecht mit Taoshi";
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "Euch steht nur ein begrenzter Zeitraum zur Verfügung, um so viele Schätze aufzusammeln, wie Ihr nur könnt. Sprecht mit Taoshi, wenn Ihr bereit seid.";
 	AL["Reach the Exit"] = "Erreicht den Ausgang";
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Greift Euch so viel Beute, wie Ihr könnt und erreicht den Ausgang, bevor die Zeit ausläuft.";
+	AL["God-Hulk Gulkan"] = "Gottkoloss Gulkan";
+	AL["Lever"] = "Hebel";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Braukessel";

@@ -1726,7 +1726,7 @@ Syntax:
 		{ GREN.." 1') "..Atlas_GetBossName("Cache of the Legion") };
 	};
 	TempestKeepTheEye = {
-		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["The Eye"] };
+		ZoneName = { BZ["Tempest Keep"]..AL["Colon"]..BZ["Tempest Keep"] };
 		Location = { BZ["Netherstorm"] };
 		DungeonID = "193";
 		Acronym = AL["TK"];

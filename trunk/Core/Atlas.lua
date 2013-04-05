@@ -59,6 +59,7 @@ ATLAS_PLUGINS = {};
 ATLAS_PLUGIN_DATA = {};
 local GREN = "|cff66cc33";
 local AtlasMap_NPC_Text_Frame_Num = 0;
+local AtlasMap_Temp_Scale = GameTooltip:GetScale();
 
 -- Only update this version number when the options have been revised and a force update is needed.
 ATLAS_OLDEST_VERSION_SAME_SETTINGS = "1.18.2"; 
@@ -581,6 +582,10 @@ function AtlasMaps_NPC_Text_OnUpdate(self)
 	end
 end
 
+function AtlasMaps_NPC_Text_Hide(self)
+	GameTooltip_Hide();
+	GameTooltip:SetScale(AtlasMap_Temp_Scale);
+end
 
 function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
@@ -748,7 +753,7 @@ function Atlas_MapRefresh()
 				AtlasMap_NPC_Text_Frame:SetHeight(15);
 				AtlasMap_NPC_Text_Frame:SetID(NPC_Table[AtlasMap_NPC_Text_Frame_Num][2]);
 				AtlasMap_NPC_Text_Frame:SetScript("OnEnter", AtlasMaps_NPC_Text_OnUpdate);
-				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", GameTooltip_Hide);
+				AtlasMap_NPC_Text_Frame:SetScript("OnLeave", AtlasMaps_NPC_Text_Hide);
 
 				local AtlasMap_NPC_Text = AtlasMap_NPC_Text_Frame:CreateFontString("AtlasMapNPCText"..AtlasMap_NPC_Text_Frame_Num, "MEDIUM", "GameFontHighlightLarge");
 				AtlasMap_NPC_Text:SetPoint("CENTER", AtlasMap_NPC_Text_Frame, "CENTER", 0, 0);

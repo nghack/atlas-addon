@@ -291,8 +291,8 @@ Atlas_SubZoneData = {
 		--Throne of Thunder C
 		["ThroneofThunderC"] = {
 			BZ["Watcher's Sanctum"],
-			BZ["Saurok Creation Pit"],
 			BZ["Halls of Flesh-Shaping"],
+			BZ["Saurok Creation Pit"],
 		},
 		--Throne of Thunder D
 		["ThroneofThunderD"] = {

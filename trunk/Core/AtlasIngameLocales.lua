@@ -1,4 +1,4 @@
--- $Id: AtlasIngameLocales.lua 1891 2013-02-17 15:41:01Z arithmandar $
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser

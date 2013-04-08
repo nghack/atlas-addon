@@ -10,6 +10,7 @@ v1.24.01 (Apr. xx, 2013)
 -----------------------
 - add ingame locales for factions & items
 - remove BabbleFaction
+- fixed boss gametooltip's scaling issue
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

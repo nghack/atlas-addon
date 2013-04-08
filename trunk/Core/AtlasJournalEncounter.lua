@@ -26,8 +26,8 @@
 
 -- Atlas JournalEncounter Integration
 
-local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
-local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
+local AtlasLocale = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+local BabbleBoss = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 
 function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
@@ -68,7 +68,7 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 			GameTooltip:SetText(name);
 			GameTooltipTextLeft1:SetTextColor(1, 1, 1);
 			GameTooltip:AddLine(description, nil, nil, nil, true);
-			GameTooltip:AddLine(AL["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
+			GameTooltip:AddLine(AtlasLocale["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
 			GameTooltip:Show();
 		end
 	else
@@ -76,13 +76,18 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	end
 end
 
+-- ------------------------------------------------------------
+-- Call this function to translate boss name
+-- Syntax 1: Atlas_GetBossName(bossname);
+-- Syntax 2: Atlas_GetBossName(bossname, encounterID);
+-- ------------------------------------------------------------
 function Atlas_GetBossName(bossname, encounterID)
 	if ( encounterID and EJ_GetEncounterInfo(encounterID) ) then
 		bossname = EJ_GetEncounterInfo(encounterID);
-	elseif ( bossname and BB[bossname] ) then
-		bossname = BB[bossname];
-	elseif ( bossname and AL[bossname] ) then
-		bossname = AL[bossname];
+	elseif ( bossname and BabbleBoss[bossname] ) then
+		bossname = BabbleBoss[bossname];
+	elseif ( bossname and AtlasLocale[bossname] ) then
+		bossname = AtlasLocale[bossname];
 	else
 		--bossname = bossname;
 	end

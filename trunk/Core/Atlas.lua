@@ -675,8 +675,10 @@ function Atlas_MapRefresh()
 	-- Check if Journal Encounter Instance is available
 	if ( base.JournalInstanceID ) then
 		Atlas_JournalEncounter_InstanceButton:Show();
+		--AtlasSetEJBackground(base.JournalInstanceID);
 	else
 		Atlas_JournalEncounter_InstanceButton:Hide();
+		--AtlasSetEJBackground();
 	end
 	
 	-- Clear boss description gametooltip when map is refreshing
@@ -1182,3 +1184,23 @@ function AtlasEntryTemplate_OnUpdate(self)
 	end
 end
 
+-- In Development, this could be fun
+--[[
+function AtlasSetEJBackground(instanceID)
+	AtlasEJBackground = CreateFrame("Frame", "AtlasEJBackground", AtlasFrame);	
+	if ( instanceID ) then
+		AtlasEJBackground:ClearAllPoints();
+		AtlasEJBackground:SetWidth(512);
+		AtlasEJBackground:SetHeight(512);
+		AtlasEJBackground:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 534, -178);
+		local t = AtlasEJBackground:CreateTexture(nil,"BACKGROUND");
+		local name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link = EJ_GetInstanceInfo(instanceID)
+		t:SetTexture(bgImage);
+		t:SetAllPoints(AtlasEJBackground);
+		AtlasEJBackground.texture = t;
+		AtlasEJBackground:Show()
+	else
+		--AtlasEJBackground:Hide()
+	end
+end
+]]

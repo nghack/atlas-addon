@@ -8,6 +8,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 v1.24.01 (Apr. xx, 2013)
 -----------------------
+- add Rare mob locations to Throne of Thunder
 - add ingame locales for factions & items
 - remove BabbleFaction
 - fixed boss gametooltip's scaling issue

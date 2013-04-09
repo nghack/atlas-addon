@@ -1,4 +1,3 @@
-﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -1198,15 +1197,20 @@ if AL then
 	AL["Shado-Master Chum Kiu"] = "Maître-pandashan Chum Kiu";
 
 	--Stormstout Brewery
-	AL["Auntie Stormstout"] = "Tatie Brune d’Orage"; -- Translation needed
+	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
 	AL["Chen Stormstout"] = "Chen Brune d’Orage";
 
 	--Temple of the Jade Serpent
-	AL["Master Windstrong"] = "Maître Windstrong"; -- Translation needed
-	AL["Priestess Summerpetal"] = "Prêtresse Pétale de l’Été"; -- Translation needed
+	AL["Master Windstrong"] = "Maître Vent Violent";
+	AL["Priestess Summerpetal"] = "Prêtresse Pétale de l’Été";
 
 	--Terrace of Endless Spring
 
 	--Throne of Thunder
+	AL["Monara <The Last Queen>"] = "Monara <La dernière reine>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "No'ku Stormsayer <Lord of Tempest>"; -- Translation needed
+	AL["Archritualist Kelada"] = "Archiritualiste Kelada";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Carne’rok le Malade <Horreur saurok primordiale>";
+	AL["Zao'cho <The Emperor's Shield>"] = "Zao’cho <Le bouclier de l’empereur>";
 
 end

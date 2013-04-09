@@ -1203,5 +1203,10 @@ if AL then
 	--Terrace of Endless Spring
 
 	--Throne of Thunder
+	AL["Monara <The Last Queen>"] = "Monara <The Last Queen>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "No'ku Stormsayer <Lord of Tempest>";
+	AL["Archritualist Kelada"] = "Archritualist Kelada";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok the Diseased <Primordial Saurok Horror>";
+	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <The Emperor's Shield>";
 
 end

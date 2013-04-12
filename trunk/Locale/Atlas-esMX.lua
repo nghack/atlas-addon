@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 -- Atlas Spanish (México) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 27/01/2013
+-- Última Actualización (last update): 12/04/2013
 
 -- Atlas Spanish (Mexico) Localization
 if ( GetLocale() == "esMX" ) then
@@ -135,7 +135,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Mazmorras Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Mazmorras de Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mazmorras de Mists of Pandaria";
-	AL["ATLAS_DDL_TYPE"] = "Tipo";
+	AL["ATLAS_DDL_TYPE"] = "Tipo";			-- -- Sort Instance Maps by: Map Type
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Mazmorras A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Mazmorras C-F";
 	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Mazmorras G-M";
@@ -519,7 +519,7 @@ if AL then
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Comandante Bagran";
-	AL["Invoker Xorenth"] = "Invocador Xorenth"; --Check
+	AL["Invoker Xorenth"] = "Convocador Xorenth";
 	AL["Scout Cage"] = "Scout Cage"; --Check
 
 	--Razorfen Downs
@@ -633,7 +633,7 @@ if AL then
 	--Scarlet Halls
 	AL["Commander Lindon"] = "Comandante Lindon";
 	AL["Hooded Crusader"] = "Cruzada encapuchada";
-	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --Check
+	AL["Bucket of Meaty Dog Food"] = "Cubo de comida para perros carnosa";
 	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
 
 	--Scarlet Monastery
@@ -924,7 +924,7 @@ if AL then
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
-	AL["Seer Ixit"] = "Seer Ixit"; --Check
+	AL["Seer Ixit"] = "Vidente Ixit";
 	AL["Ahn'kahet Brazier"] = "Blandón Ahn'kahet"; --Check
 
 	--Azjol-Nerub: Azjol-Nerub
@@ -1055,7 +1055,7 @@ if AL then
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "Brigg Espinillas";
-	AL["Image of Argent Confessor Paletress"] = "Imagen de la Confesora Argenta Cabelloclaro"; --Check
+	AL["Image of Argent Confessor Paletress"] = "Imagen de la confesora Argenta Cabelloclaro";
 	AL["Elder Chogan'gada"] = "Ancestro Chogan'gada";
 
 	--Vault of Archavon
@@ -1206,5 +1206,10 @@ if AL then
 	--Terrace of Endless Spring
 
 	--Throne of Thunder
+	AL["Monara <The Last Queen>"] = "Monara <La Última Reina>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "Orador de la tormenta No'ku <Señor de la Tempestad>"; --check
+	AL["Archritualist Kelada"] = "Archiritualista Kelada";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok el Enfermo <Horror saurok primordial>";
+	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <El escudo del Emperador>"; --check
 
 end

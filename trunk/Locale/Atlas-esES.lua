@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 27/01/2013
+-- Última Actualización (last update): 12/04/2013
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -135,7 +135,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Mazmorras Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Mazmorras de Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mazmorras de Mists of Pandaria";
-	AL["ATLAS_DDL_TYPE"] = "Tipo";
+	AL["ATLAS_DDL_TYPE"] = "Tipo";			-- -- Sort Instance Maps by: Map Type
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Mazmorras A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Mazmorras C-F";
 	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Mazmorras G-M";
@@ -151,14 +151,14 @@ if AL then
 	AL["ATLAS_DEP_MSG2"] = "Se han sido desactivados para este personaje.";
 	AL["ATLAS_DEP_MSG3"] = "Borralos de tu directorio AddOns.";
 	AL["ATLAS_DEP_OK"] = "Vale";
-	
+
 	AL["ATLAS_INFO"] = "Información de Atlas";
 	AL["ATLAS_INFO_12200"] = "Aviso importante:\n\nDebido al aumento del tamaño en los \narchivos de este accesorio, se han separado parte de los mapas de mazmorras, \ny otros accesorios internos en módulos separados.\n\nLos usuarios que descarguen este accesorio desde conocidas páginas web obtendrán \núnicamente el núcleo del accesorio, el cual solo contiene la función del núcleo \ny los mapas de la última expansión.\n\nLos usuarios que también quieran descargar los mapas de las mazmorras antiguas y \nlos mapas de todos los plug-ins \nde Atlas hechos por nosotros, tendrán que \ndescargarselos por separado.\n\nPara mas información accede a:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
 	AL["ATLAS_INFO_12201"] = "Te informamos de que hemos creado un nuevo plug-in - |cff6666ffAtlas Escenarios|cffffffff, \nque contiene los nuevos mapas de los escenarios introducidos en WoW 5.0. \n\nPara mas detalles aacede a nuestra web, y no olvides de descargarlo / \ninstalarlo por separado.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
 	AL["ATLAS_MISSING_MODULE"] = "Atlas has detected missing module(s) / plugin(s): ";
 
-	--************************************************
+--************************************************
 -- Zone Names, Acronyms, and Common Strings
 --************************************************
 
@@ -376,6 +376,7 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
 --************************************************
 -- Instance Entrance Maps
 --************************************************
@@ -518,7 +519,7 @@ if AL then
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Comandante Bagran";
-	AL["Invoker Xorenth"] = "Invocador Xorenth"; --Check
+	AL["Invoker Xorenth"] = "Convocador Xorenth";
 	AL["Scout Cage"] = "Scout Cage"; --Check
 
 	--Razorfen Downs
@@ -632,11 +633,11 @@ if AL then
 	--Scarlet Halls
 	AL["Commander Lindon"] = "Comandante Lindon";
 	AL["Hooded Crusader"] = "Cruzada encapuchada";
-	AL["Bucket of Meaty Dog Food"] = "Cubo de comida de perro"; --Check
+	AL["Bucket of Meaty Dog Food"] = "Cubo de comida para perros carnosa";
 	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
-	
+
 	--Scarlet Monastery
-	
+
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Filacteria de la instructora Corazón Álgido";
 	AL["Professor Slate"] = "Profesor Slate"; 
@@ -923,7 +924,7 @@ if AL then
 --*****************
 
 	--Azjol-Nerub: Ahn'kahet: The Old Kingdom
-	AL["Seer Ixit"] = "Seer Ixit"; --Check
+	AL["Seer Ixit"] = "Vidente Ixit";
 	AL["Ahn'kahet Brazier"] = "Blandón Ahn'kahet"; --Check
 
 	--Azjol-Nerub: Azjol-Nerub
@@ -1054,7 +1055,7 @@ if AL then
 
 	--Utgarde Keep: Utgarde Pinnacle
 	AL["Brigg Smallshanks"] = "Brigg Espinillas";
-	AL["Image of Argent Confessor Paletress"] = "Imagen de la Confesora Argenta Cabelloclaro"; --Check
+	AL["Image of Argent Confessor Paletress"] = "Imagen de la confesora Argenta Cabelloclaro";
 	AL["Elder Chogan'gada"] = "Ancestro Chogan'gada";
 
 	--Vault of Archavon
@@ -1205,5 +1206,10 @@ if AL then
 	--Terrace of Endless Spring
 
 	--Throne of Thunder
+	AL["Monara <The Last Queen>"] = "Monara <La Última Reina>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "Orador de la tormenta No'ku <Señor de la Tempestad>"; --check
+	AL["Archritualist Kelada"] = "Archiritualista Kelada";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok el Enfermo <Horror saurok primordial>";
+	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <El escudo del Emperador>"; --check
 
 end

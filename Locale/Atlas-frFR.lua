@@ -1,4 +1,4 @@
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
@@ -1208,7 +1208,8 @@ if AL then
 
 	--Throne of Thunder
 	AL["Monara <The Last Queen>"] = "Monara <La dernière reine>";
-	AL["No'ku Stormsayer <Lord of Tempest>"] = "No'ku Stormsayer <Lord of Tempest>"; -- Translation needed
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "No’ku Parle-Tempête <Seigneur de la tourmente>";
+	AL["Rocky Horror"] = "Horreur rocheuse";
 	AL["Archritualist Kelada"] = "Archiritualiste Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Carne’rok le Malade <Horreur saurok primordiale>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao’cho <Le bouclier de l’empereur>";

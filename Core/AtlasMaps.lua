@@ -2968,6 +2968,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Ji-Kun", 828) };
+		{ ORNG.." 3) "..AL["Rocky Horror"].." ("..AL["Rare"]..")" };
 	};
 	ThroneofThunderC = {
 		ZoneName = { BZ["Throne of Thunder"].." [C]" };
@@ -2982,8 +2983,8 @@ Syntax:
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Dark Animus", 824) };
-		{ ORNG.." 3) "..AL["Archritualist Kelada"].." ("..AL["Rare"]..")" };
-		{ ORNG.." 4) "..AL["Flesh'rok the Diseased <Primordial Saurok Horror>"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 4) "..AL["Archritualist Kelada"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 5) "..AL["Flesh'rok the Diseased <Primordial Saurok Horror>"].." ("..AL["Rare"]..")" };
 	};
 	ThroneofThunderD = {
 		ZoneName = { BZ["Throne of Thunder"].." [D]" };
@@ -3004,6 +3005,6 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Suen") };
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
-		{ ORNG.." 5) "..AL["Zao'cho <The Emperor's Shield>"].." ("..AL["Rare"]..")" };
+		{ ORNG.." 6) "..AL["Zao'cho <The Emperor's Shield>"].." ("..AL["Rare"]..")" };
 	};
 };

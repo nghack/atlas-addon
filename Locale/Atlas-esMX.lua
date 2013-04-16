@@ -1207,7 +1207,8 @@ if AL then
 
 	--Throne of Thunder
 	AL["Monara <The Last Queen>"] = "Monara <La Última Reina>";
-	AL["No'ku Stormsayer <Lord of Tempest>"] = "Orador de la tormenta No'ku <Señor de la Tempestad>"; --check
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "Orador de la tormenta No'ku <Señor de la Tempestad>";
+	AL["Rocky Horror"] = "Horror rocoso";
 	AL["Archritualist Kelada"] = "Archiritualista Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok el Enfermo <Horror saurok primordial>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <El escudo del Emperador>"; --check

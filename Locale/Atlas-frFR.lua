@@ -1210,6 +1210,8 @@ if AL then
 	AL["Monara <The Last Queen>"] = "Monara <La dernière reine>";
 	AL["No'ku Stormsayer <Lord of Tempest>"] = "No’ku Parle-Tempête <Seigneur de la tourmente>";
 	AL["Rocky Horror"] = "Horreur rocheuse";
+	AL["Focused Eye"] = "Oeil focalisé";
+	AL["Unblinking Eye"] = "Oeil impassible";
 	AL["Archritualist Kelada"] = "Archiritualiste Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Carne’rok le Malade <Horreur saurok primordiale>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao’cho <Le bouclier de l’empereur>";

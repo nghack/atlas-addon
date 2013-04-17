@@ -109,14 +109,29 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Weapons of Zan'vess"] };
 		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
 	};
-	--[[SC_BattleontheHighSeas = {
-		ZoneName = { BZ["Battle on the High Seas"] };
+	--[[SC_BattleontheHighSeasAlliance = {
+		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Alliance"] };
 		Location = { BZ["xxx"]..", "..BZ["xxx"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
 		{ INDENT..GREY..AL["Protect the Ship! Defeat the Horde Boarding party."] };
+		{ YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
+		{ INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
+		{ INDENT..GREY..AL["Plant explosives on the Horde Ship to destroy it!"] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
+		{ INDENT..GREY..AL["Defeat Admiral Hagman."] };
+	};
+	SC_BattleontheHighSeasHorde = {
+		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Horde"] };
+		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
+		{ INDENT..GREY..AL["Protect the Ship! Defeat the Alliance Boarding party."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
 		{ INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
@@ -288,14 +303,14 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Hold the Line!"] };
 		{ INDENT..GREY..AL["Hold the keep against waves of Horde invaders and their commander."] };
 	};
-	--[[SC_TheSecretsofEmberdeep = {
-		ZoneName = { BZ["The Secrets of Emberdeep"] };
-		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+	--[[SC_TheSecretsofRagefire = {
+		ZoneName = { BZ["The Secrets of Ragefire"] };
+		Location = { BZ["Ragefire Chasm"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["Infiltration"] };
-		{ INDENT..GREY..AL["Breach the main chamber and stop the mongrel forces."] };
+		{ INDENT..GREY..AL["Breach the main chamber and stop the abductions."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Reconnaissance"] };
 		{ INDENT..GREY..AL["Investigate the main chamber."] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Sealed Gate"] };

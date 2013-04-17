@@ -294,12 +294,14 @@ Atlas_SubZoneData = {
 			BZ["Watcher's Sanctum"],
 			BZ["Halls of Flesh-Shaping"],
 			BZ["Saurok Creation Pit"],
+			BZ["Sewer Access Point"],
 		},
 		--Throne of Thunder D
 		["ThroneofThunderD"] = {
-			BZ["Hall of Kings"],
 			BZ["Grand Courtyard"],
+			BZ["Hall of Kings"],
 			BZ["Celestial Enclave"],
+			BZ["Lightning Ascent"],
 			BZ["Pinnacle of Storms"],
 			BZ["Hidden Cell"],
 		},

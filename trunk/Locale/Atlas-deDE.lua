@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 09.04.2013
+-- Letztes Update: 17.04.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -1213,6 +1213,8 @@ if AL then
 	AL["Monara <The Last Queen>"] = "Monara <Die Letzte Königin>";
 	AL["No'ku Stormsayer <Lord of Tempest>"] = "No'ku Sturmsprecher <Herr der Stürme>";
 	AL["Rocky Horror"] = "Krankenstein";
+	AL["Focused Eye"] = "Fokussiertes Auge";
+	AL["Unblinking Eye"] = "Starrendes Auge";
 	AL["Archritualist Kelada"] = "Erzritualist Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Fleisch'rok der Verpestete <Urzeitlicher Saurokschrecken>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <Der Schild des Kaisers>";

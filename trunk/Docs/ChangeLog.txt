@@ -6,8 +6,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
-v1.24.01 (Apr. xx, 2013)
+
+v1.24.01 (May xx, 2013)
 -----------------------
+- TOC update to support WoW 5.3
 - add Rare mob locations to Throne of Thunder
 - add ingame locales for factions & items
 - remove BabbleFaction

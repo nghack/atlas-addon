@@ -1,4 +1,4 @@
-﻿## Interface: 50200
+﻿## Interface: 50300
 ## Title: Atlas |r|cFF0099FF[Scenarios]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Szenarien]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Сценарии]|r
@@ -9,7 +9,7 @@
 ## Notes-zhTW: Atlas 史詩情境事件模式地圖插件
 ## Version: 1.24.01
 ## Author: arith, Dynaletik, dubcat
-## X-Date: Apr. xx, 2013
+## X-Date: May xx, 2013
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map

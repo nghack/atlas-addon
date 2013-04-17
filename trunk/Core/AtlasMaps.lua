@@ -2981,6 +2981,8 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
+		{ ORNG..INDENT..AL["Focused Eye"].." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..AL["Unblinking Eye"].." ("..AL["Rare"]..")" };
 		{ WHIT.." 8) "..Atlas_GetBossName("Primordius", 820) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Dark Animus", 824) };
 		{ ORNG.." 4) "..AL["Archritualist Kelada"].." ("..AL["Rare"]..")" };

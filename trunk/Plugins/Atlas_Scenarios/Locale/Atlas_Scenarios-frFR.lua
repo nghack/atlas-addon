@@ -1,4 +1,4 @@
-﻿-- $Id$
+ -- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -28,7 +28,7 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 
 if AL then
-	AL["Scenarios Maps"] = "Scenarios Maps";
+	AL["Scenarios Maps"] = "Cartes des scénarios";
 
 	-- Common Strings
 	AL["Final Stage"] = "Dernière phase";

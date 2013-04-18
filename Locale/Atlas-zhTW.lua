@@ -1203,6 +1203,9 @@ if AL then
 	--Throne of Thunder
 	AL["Monara <The Last Queen>"] = "魔娜菈 <The Last Queen>";
 	AL["No'ku Stormsayer <Lord of Tempest>"] = "諾庫·風暴預言者 <Lord of Tempest>";
+	AL["Rocky Horror"] = "磐石駭獸";
+	AL["Focused Eye"] = "集束之眼";
+	AL["Unblinking Eye"] = "堅定無畏之眼";
 	AL["Archritualist Kelada"] = "大祭儀師凱烈德";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "『瘟疫獸』血腐洛克 <Primordial Saurok Horror>";
 	AL["Zao'cho <The Emperor's Shield>"] = "趙仇 <The Emperor's Shield>";

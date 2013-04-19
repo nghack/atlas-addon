@@ -88,4 +88,3 @@ v1.17.0 (Aug. 15, 2010)
 -----------------------
 - new maps: Halaa PvP, Hellfire Peninsula PvP, Zangarmarsh PvP, 
             Terokkar Forest PvP, Wintergrasp PvP, Game of Tower, Silithyst Must Flow (arith)
-

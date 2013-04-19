@@ -127,5 +127,3 @@ http://www.atlasmod.com/phpBB3/
 
 Atlas 遵循 GNU 通用公共许可证（GPL）发布。
 有关该许可的详细信息请查看：gpl-v2-zhCN.txt
-
-

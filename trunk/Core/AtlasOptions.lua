@@ -193,8 +193,8 @@ end
 
 function AtlasOptions_SetupSlider(self, text, mymin, mymax, step)
 	self:SetMinMaxValues(mymin, mymax);
-	_G[self:GetName().."Low"]:SetText(mymin);
-	_G[self:GetName().."High"]:SetText(mymax);
+	--_G[self:GetName().."Low"]:SetText(mymin);
+	--_G[self:GetName().."High"]:SetText(mymax);
 	self:SetValueStep(step);
 end
 
@@ -206,7 +206,7 @@ end
 
 
 function AtlasOptions_UpdateSlider(self, text)
-	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(),2)..")");
+	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(), 3)..")");
 end
 
 
@@ -239,3 +239,10 @@ function AtlasOptionsFrameDropDownCats_OnClick(self)
 	Reset_Dropdowns();
 end
 
+function AtlasOptions_OnMouseWheel(self, delta)
+	if delta > 0 then
+		self:SetValue(self:GetValue() + self:GetValueStep())
+	else
+		self:SetValue(self:GetValue() - self:GetValueStep())
+	end
+end

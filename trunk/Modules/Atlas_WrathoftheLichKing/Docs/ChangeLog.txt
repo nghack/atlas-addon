@@ -29,4 +29,3 @@ v1.22.0 (Sep. 25, 2012)
 v1.21.0 (Nov. 29, 2011)
 -----------------------
 - Splitted from Atlas core addon
-

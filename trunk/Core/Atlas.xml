@@ -167,12 +167,12 @@
 			</Button>
 			<EditBox name="AtlasSearchEditBox" inherits="InputBoxTemplate" letters="80">
 				<Size>
-					<AbsDimension x="134" y="32"></AbsDimension>
+					<AbsDimension x="135" y="32"/>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="-147" y="15"/>
+							<AbsDimension x="-157" y="15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -191,7 +191,7 @@
 			<Frame name="AtlasSwitchDD" inherits="UIDropDownMenuTemplate" />
   			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox">
 				<Size>
-					<AbsDimension x="80" y="20"/>
+					<AbsDimension x="80" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="RIGHT" relativePoint="LEFT">
@@ -208,7 +208,7 @@
 			</Button>
 			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
 				<Size>
-					<AbsDimension x="74" y="32"/>
+					<AbsDimension x="69" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativePoint="RIGHT">
@@ -226,7 +226,7 @@
 			</Button>
 			<Button name="AtlasSearchClearButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_CLEAR">
 				<Size>
-					<AbsDimension x="63" y="32"/>
+					<AbsDimension x="69" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="AtlasSearchButton" relativePoint="RIGHT">
@@ -437,7 +437,7 @@
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPRIGHT">
 						<Offset>
-							<AbsDimension x="-14" y="-153"/>
+							<AbsDimension x="-17" y="-149"/>
 						</Offset>
 					</Anchor>
 				</Anchors>

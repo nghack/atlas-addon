@@ -268,4 +268,4 @@ CLDP 譯注
     * 霍東靈 <foka@debian.org>
     * 謝東翰 <thhsieh@linux.org.tw>
     * 洪朝貴 <ckhung@cyut.edu.tw>
-    * 黃志偉 <cwhuang@linux.org.tw> 
+    * 黃志偉 <cwhuang@linux.org.tw>

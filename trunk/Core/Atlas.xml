@@ -186,7 +186,6 @@
 						self:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
-				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
 			<Frame name="AtlasSwitchDD" inherits="UIDropDownMenuTemplate" />
   			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox">

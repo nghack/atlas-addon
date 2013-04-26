@@ -209,6 +209,7 @@ if AL then
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "В течение ограниченного времени соберите как можно больше сокровищ. Поговорите с Таоши, когда будете готовы начать.";
 	AL["Reach the Exit"] = "Добраться до выхода";
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Соберите как можно больше сокровищ и дойдите до выхода, пока не истекло время.";
+	AL["Tenwu of the Red Smoke"] = "Тэнь-у Красный Дым";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Хмелевареный котел"; --need check

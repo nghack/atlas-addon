@@ -211,6 +211,7 @@ if AL then
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Greift Euch so viel Beute, wie Ihr könnt und erreicht den Ausgang, bevor die Zeit ausläuft.";
 	AL["God-Hulk Gulkan"] = "Gottkoloss Gulkan";
 	AL["Lever"] = "Hebel";
+	AL["Tenwu of the Red Smoke"] = "Tenwu der Rote Rauch";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Braukessel";

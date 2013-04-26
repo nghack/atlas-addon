@@ -382,7 +382,8 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Reach the Exit"] };
 		{ INDENT..INDENT..GREY..AL["Grab as much treasure as you can and reach the exit before the timer expires."] };
 		{ INDENT..INDENT..WHIT.." 1) "..AL["God-Hulk Gulkan"] };
-		{ INDENT..INDENT..GREN.." 1) "..AL["Lever"] };
+		{ INDENT..INDENT..GREN.." 1') "..AL["Lever"] };
+		{ INDENT..INDENT..GREN.." 2') "..AL["Tenwu of the Red Smoke"] };
 	};
 	SC_UngaIngoo = {
 		ZoneName = { BZ["Unga Ingoo"] };

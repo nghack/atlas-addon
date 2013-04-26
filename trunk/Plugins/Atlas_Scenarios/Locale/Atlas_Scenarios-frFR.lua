@@ -1,4 +1,4 @@
- -- $Id$
+﻿ -- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -209,6 +209,7 @@ if AL then
 	AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] = "Vous disposez d’un temps limité pour récupérer autant de butin que vous pouvez. Parlez à Taoshi quand vous voudrez commencer.";
 	AL["Reach the Exit"] = "Atteindre la sortie";
 	AL["Grab as much treasure as you can and reach the exit before the timer expires."] = "Emportez autant de trésors que possible et atteignez la sortie avant que le décompte ne soit terminé.";
+	AL["Tenwu of the Red Smoke"] = "Tenwu de la Fumée rouge";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "Chaudron de brassage";

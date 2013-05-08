@@ -2759,7 +2759,8 @@ Syntax:
 	GateoftheSettingSun = {
 		ZoneName = { BZ["Gate of the Setting Sun"] };
 		Location = { BZ["Dread Wastes"].." / "..BZ["Vale of Eternal Blossoms"] };
-		DungeonID = "471";
+		DungeonID = "631";
+		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current

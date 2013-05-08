@@ -375,6 +375,7 @@ Atlas_DropDownLayouts = {
 			"CoTHourOfTwilight",
 			"CoTWellOfEternity",
 			"Firelands",
+			"GateoftheSettingSun",
 			"MoguShanPalace",
 			"ShadoPanMonasteryA",
 			"ShadoPanMonasteryB",

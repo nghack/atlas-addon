@@ -11,13 +11,15 @@ v1.25.00 (May xx, 2013)
 -----------------------
 - TOC update to support WoW 5.3
 - added God-Hulk Gulkan and Lever locations to Troves of the Thunder King
+- Maps added:
+    - Battle on the High Seas
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------
 - TOC update to support WoW 5.2
 - Map update:
     - Theramore's Fall (Horde)
-- Map added:
+- Maps added:
     - A Little Patience
     - Assault on Zan'vess
     - Dagger in the Dark
@@ -35,7 +37,7 @@ v1.23.0 (Dec. 07, 2012)
     
 v1.22.2 (Nov. 01, 2012)
 - All Maps and legend information updated
-- Map added: 
+- Maps added: 
     - Arena of Annihilation
     - Crypt of Forgotten Kings
 

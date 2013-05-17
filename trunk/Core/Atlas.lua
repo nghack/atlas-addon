@@ -1122,6 +1122,9 @@ function AtlasScrollBar_Update()
 end
 
 function AtlasSimpleSearch(data, text)
+	if (string.trim(text or "") == "") then
+		return data
+	end
 	local new = {};-- create a new table
 	local i;
 	local v;

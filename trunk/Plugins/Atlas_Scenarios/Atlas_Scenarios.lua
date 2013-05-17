@@ -50,7 +50,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..BZ["Thunderpaw Overlook"].." - "..AL["Start"] };
+		{ BLUE.." A) "..BZ["Thunderpaw Overlook"].." - "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Make Boomer's Brew"] };
 		{ INDENT..INDENT..GREY..AL["Assist Blanche in brewing her famous Boomer's Brew."] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Road to Thunderpaw"] };
@@ -65,7 +65,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Prepare the Defenses"] };
 		{ INDENT..INDENT..GREY..AL["Assist the two groups of laborers in the construction of their defenses."] };
 		{ INDENT..BLUE.." B) "..AL["Traps"] };
@@ -109,46 +109,46 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Weapons of Zan'vess"] };
 		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
 	};
-	--[[SC_BattleontheHighSeasAlliance = {
+	SC_BattleontheHighSeasAlliance = {
 		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Alliance"] };
-		Location = { BZ["xxx"]..", "..BZ["xxx"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
-		{ INDENT..GREY..AL["Protect the Ship! Defeat the Horde Boarding party."] };
-		{ YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
-		{ INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
-		{ INDENT..GREY..AL["Plant explosives on the Horde Ship to destroy it!"] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
-		{ INDENT..GREY..AL["Defeat Admiral Hagman."] };
+		{ BLUE.." A) "..ALC["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
+		{ INDENT..INDENT..GREY..AL["Protect the Ship! Defeat the Horde Boarding party."] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
+		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
+		{ INDENT..INDENT..GREY..AL["Plant explosives on the Horde Ship to destroy it!"] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
+		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hagman."] };
 	};
 	SC_BattleontheHighSeasHorde = {
 		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Horde"] };
-		Location = { BZ["xxx"]..", "..BZ["xxx"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
-		{ INDENT..GREY..AL["Protect the Ship! Defeat the Alliance Boarding party."] };
-		{ YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
-		{ INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
-		{ INDENT..GREY..AL["Plant explosives on the Alliance Ship to destroy it!"] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
-		{ INDENT..GREY..AL["Defeat Admiral Hodgson."] };
+		{ BLUE.." A) "..ALC["Start"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
+		{ INDENT..INDENT..GREY..AL["Protect the Ship! Defeat the Alliance Boarding party."] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
+		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
+		{ INDENT..INDENT..GREY..AL["Plant explosives on the Alliance Ship to destroy it!"] };
+		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
+		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hodgson."] };
 	};
 	SC_BloodintheSnow = {
-		ZoneName = { BZ["Blood in the Snow"] };
-		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+		ZoneName = { AL["Blood in the Snow"] };
+		Location = { BZ["Dun Morogh"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Mountaineers"] };
 		{ INDENT..GREY..AL["Contact the Dark Iron Mountaineers atop Shimmer Ridge and find a way to stop the storm."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Save Scout Stonebeard"] };
-		{ INDENT..GREY..AL["Slay the trolls cooking Scout Stonebeard and free him."] };
+		{ INDENT..GREY..AL["Free Scout Stonebeard from the trolls' roasting spit."] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["Save Scout Boldbrew"] };
 		{ INDENT..GREY..AL["Slay the trolls trying to cook Scout Boldbrew."] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["Save Scout Forgefellow"] };
@@ -156,15 +156,15 @@ local myData = {
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Cold Cave"] };
 		{ INDENT..GREY..AL["Slay the elemental spirit in the ice cave to end the snowstorm."] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Victory or Death"] };
-		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and captures the Frostmane village."] };
-	};--]]
+		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and capture the Frostmane village."] };
+	};
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };
 		Location = { BZ["Binan Village"]..", "..BZ["Kun-Lai Summit"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["The Brewmoon Festival!"] };
 		{ INDENT..INDENT..GREY..AL["Help Brewmaster Boof's assistants gather the ingredients for the Kun-Lai Kicker."] };
 		{ INDENT..INDENT..WHIT.." 1) "..AL["Den Mother Moof"] };
@@ -186,7 +186,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["End the Terror"] };
 		{ INDENT..INDENT..GREY..AL["Defeat the corrupted Shado-Pan Leader."] };
 		{ INDENT..INDENT..WHIT.." 1) "..AL["Jin Ironfist"] };
@@ -224,23 +224,23 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Ambush!"] };
 		{ INDENT..GREY..AL["Fend off the Kor'kron ambush."] };
 	};
-	--[[SC_DarkHeartofPandaria = {
-		ZoneName = { BZ["Dark Heart of Pandaria"] };
-		Location = { BZ["xxx"]..", "..BZ["xxx"] };
+	SC_DarkHeartofPandaria = {
+		ZoneName = { AL["Dark Heart of Pandaria"] };
+		Location = { BZ["Vale of Eternal Blossoms"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["Talk to the Boss"] };
 		{ INDENT..GREY..AL["Speak with Grizzle Gearslip."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Rock Grinding"] };
-		{ INDENT..GREY..AL["Destroy the greater elemental ravaging the Big Blossom Mine."] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["Time is Money"] };
-		{ INDENT..GREY..AL["Finish gathering the archaeology fragments from the dig site."] };
+		{ INDENT..GREY..AL["Destroy the greater elemental ravaging the Big Blossom Excavation site."] };
+		{ YELL.."- "..AL["Stage 3"].." - "..AL["Economic Recovery"] };
+		{ INDENT..GREY..AL["Collect artifacts for Gearslip while his workers clear the mine entrance."] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["End of the Mine"] };
 		{ INDENT..GREY..AL["Travel deep into Big Blossom Mine and blast open the wall."] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
 		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
-	};--]]
+	};
 	SC_DominationPoint = {
 		ZoneName = { BZ["Domination Point"] };
 		Location = { BZ["Krasarang Wilds"] };
@@ -268,7 +268,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Rescue the Villagers"] };
 		{ INDENT..INDENT..GREY..AL["Defeat the monsters attacking the Greenstone villagers."] };
 		{ BLUE.." B) "..BZ["Greenstone Dojo"] };
@@ -303,7 +303,7 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Hold the Line!"] };
 		{ INDENT..GREY..AL["Hold the keep against waves of Horde invaders and their commander."] };
 	};
-	--[[SC_TheSecretsofRagefire = {
+	SC_TheSecretsofRagefire = {
 		ZoneName = { BZ["The Secrets of Ragefire"] };
 		Location = { BZ["Ragefire Chasm"] };
 		LevelRange = "90";
@@ -315,33 +315,8 @@ local myData = {
 		{ INDENT..GREY..AL["Investigate the main chamber."] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Sealed Gate"] };
 		{ INDENT..GREY..AL["Help Ticker build a device to open the next gate."] };
-		{ YELL.."- "..AL["Stage 4"].." - "..AL["Holdout"] };
+		{ YELL.."- "..AL["Final Stage"].." - "..AL["Holdout"] };
 		{ INDENT..GREY..AL["Defend the Gob Squad while Patch establishes an escape route."] };
-		{ YELL.."- "..AL["Final Stage"].." - "..AL["Egress"] };
-		{ INDENT..GREY..AL["Escape with the Gob Squad."] };
-	};--]]
-	SC_TheramoresFallHorde = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Horde"] };
-		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
-		LevelRange = "90";
-		MinLevel = "90";
-		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
-		{ BLUE.." B) "..AL["Alliance Ships"] };
-		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["To the Waterline!"] };
-		{ INDENT..INDENT..GREY..AL["Slay Alliance captains and rig powder barrels on all ships."] };
-		{ GREN.." C) "..AL["The Blastmaster"] };
-		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Blastmaster"] };
-		{ INDENT..INDENT..GREY..AL["Inform Blastmaster Sparkfuse of your success."] };
-		{ BLUE.." D) "..AL["Baldruc and Gryphon"] };
-		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Gryphon, Down"] };
-		{ INDENT..INDENT..GREY..AL["Slay Baldruc and his gryphons."] };
-		{ BLUE.." E) "..AL["Tanks"] };
-		{ INDENT..YELL.."- "..AL["Stage 4"].." - "..AL["Tanks for Nothing!"] };
-		{ INDENT..INDENT..GREY..AL["Destroy Big Bessa and sabotage any unmanned tanks."] };
-		{ BLUE.." F) "..AL["Thalen Songweaver"] };
-		{ INDENT..YELL.."- "..AL["Stage 5"].." - "..AL["Fly, Spy!"] };
-		{ INDENT..INDENT..GREY..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
 	};
 	SC_TheramoresFallAlliance = {
 		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Alliance"] };
@@ -349,7 +324,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Welcome to Theramore"] };
 		{ INDENT..INDENT..GREY..AL["Defend the ship from oncoming Horde."] };
 		{ BLUE.." B) "..AL["Horde Ships"] };
@@ -368,6 +343,29 @@ local myData = {
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["The Last Stand"] };
 		{ INDENT..INDENT..GREY..AL["Protect Jaina while she attunes to the Focusing Iris."] };
 	};
+	SC_TheramoresFallHorde = {
+		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Horde"] };
+		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "3";
+		{ BLUE.." A) "..ALC["Start"] };
+		{ BLUE.." B) "..AL["Alliance Ships"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["To the Waterline!"] };
+		{ INDENT..INDENT..GREY..AL["Slay Alliance captains and rig powder barrels on all ships."] };
+		{ GREN.." C) "..AL["The Blastmaster"] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["The Blastmaster"] };
+		{ INDENT..INDENT..GREY..AL["Inform Blastmaster Sparkfuse of your success."] };
+		{ BLUE.." D) "..AL["Baldruc and Gryphon"] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Gryphon, Down"] };
+		{ INDENT..INDENT..GREY..AL["Slay Baldruc and his gryphons."] };
+		{ BLUE.." E) "..AL["Tanks"] };
+		{ INDENT..YELL.."- "..AL["Stage 4"].." - "..AL["Tanks for Nothing!"] };
+		{ INDENT..INDENT..GREY..AL["Destroy Big Bessa and sabotage any unmanned tanks."] };
+		{ BLUE.." F) "..AL["Thalen Songweaver"] };
+		{ INDENT..YELL.."- "..AL["Stage 5"].." - "..AL["Fly, Spy!"] };
+		{ INDENT..INDENT..GREY..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
+	};
 	SC_TrovesoftheThunderKing = {
 		ZoneName = { AL["Troves of the Thunder King"] };
 		Location = { BZ["Thunder King's Citadel"]..", "..BZ["Isle of Thunder"] };
@@ -376,7 +374,7 @@ local myData = {
 		PlayerLimit = "1";
 		{ ORNG..ALC["Key"]..ALC["Colon"]..ALIL["Key to the Palace of Lei Shen"] };
 		{ ORNG..ALC["Key"]..ALC["Colon"]..ALIL["Burial Trove Key"] };
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Speak to Taoshi"] };
 		{ INDENT..INDENT..GREY..AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Reach the Exit"] };
@@ -391,7 +389,7 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
-		{ BLUE.." A) "..AL["Start"] };
+		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Escort Brewmaster Bo"] };
 		{ INDENT..INDENT..GREY..AL["Bring Brewmaster Bo to the Unga Ingoo Brewing Cauldron."] };
 		{ BLUE.." B) "..AL["Brewing Cauldron"].." / "..ALC["End"] };

@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -39,7 +39,6 @@ if AL then
 	AL["Stage 5"] = "阶段 5";
 	AL["Stage 6"] = "阶段 6";
 	AL["Stage 7"] = "阶段 7";
-	AL["Start"] = "开始";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "酿造闪电陈酿";

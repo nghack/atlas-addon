@@ -47,7 +47,6 @@ if AL then
 	AL["Stage 5"] = "Fase 5";
 	AL["Stage 6"] = "Fase 6";
 	AL["Stage 7"] = "Fase 7";
-	AL["Start"] = "Inicio";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Fermenta cerveza relámpago";

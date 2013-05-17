@@ -39,7 +39,6 @@ if AL then
 	AL["Stage 5"] = "Stage 5";
 	AL["Stage 6"] = "Stage 6";
 	AL["Stage 7"] = "Stage 7";
-	AL["Start"] = "Start";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -81,6 +80,36 @@ if AL then
 	AL["Storm the beach and reach the Heart of Zan'vess."] = "Storm the beach and reach the Heart of Zan'vess.";
 	AL["Weapons of Zan'vess"] = "Weapons of Zan'vess";
 	AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] = "Defeat Commander Tel'vrak and retrieve the Mantid weapon cache.";
+
+	-- Battle on the High Seas - Alliance
+	AL["Boarding Party!"] = "Boarding Party!";
+	AL["Protect the Ship! Defeat the Horde Boarding party."] = "Protect the Ship! Defeat the Horde Boarding party.";
+	AL["Explosives Acquisition"] = "Explosives Acquisition";
+	AL["Steal Explosives from enemy Demolitionists."] = "Steal Explosives from enemy Demolitionists.";
+	AL["To Smithereens!"] = "To Smithereens!";
+	AL["Plant explosives on the Horde Ship to destroy it!"] = "Plant explosives on the Horde Ship to destroy it!";
+	AL["Defeat the Admiral!"] = "Defeat the Admiral!";
+	AL["Defeat Admiral Hagman."] = "Defeat Admiral Hagman.";
+
+	-- Battle on the High Seas - Horde
+	AL["Protect the Ship! Defeat the Alliance Boarding party."] = "Protect the Ship! Defeat the Alliance Boarding party.";
+	AL["Plant explosives on the Alliance Ship to destroy it!"] = "Plant explosives on the Alliance Ship to destroy it!";
+	AL["Defeat Admiral Hodgson."] = "Defeat Admiral Hodgson.";
+
+	-- Blood in the Snow
+	AL["Blood in the Snow"] = "Blood in the Snow";
+	AL["The Mountaineers"] = "The Mountaineers";
+	AL["Contact the Dark Iron Mountaineers atop Shimmer Ridge and find a way to stop the storm."] = "Contact the Dark Iron Mountaineers atop Shimmer Ridge and find a way to stop the storm.";
+	AL["Save Scout Stonebeard"] = "Save Scout Stonebeard";
+	AL["Free Scout Stonebeard from the trolls' roasting spit."] = "Free Scout Stonebeard from the trolls' roasting spit.";
+	AL["Save Scout Boldbrew"] = "Save Scout Boldbrew";
+	AL["Slay the trolls trying to cook Scout Boldbrew."] = "Slay the trolls trying to cook Scout Boldbrew.";
+	AL["Save Scout Forgefellow"] = "Save Scout Forgefellow";
+	AL["Slay the trolls about to sacrifice Scout Forgefellow."] = "Slay the trolls about to sacrifice Scout Forgefellow.";
+	AL["The Cold Cave"] = "The Cold Cave";
+	AL["Slay the elemental spirit in the ice cave to end the snowstorm."] = "Slay the elemental spirit in the ice cave to end the snowstorm.";
+	AL["Victory or Death"] = "Victory or Death";
+	AL["Join Moira's forces, slay the Zandalari leader, and capture the Frostmane village."] = "Join Moira's forces, slay the Zandalari leader, and capture the Frostmane village.";
 
 	-- Brewmoon Festival
 	AL["The Brewmoon Festival!"] = "The Brewmoon Festival!";
@@ -129,6 +158,19 @@ if AL then
 	AL["Ambush!"] = "Ambush!";
 	AL["Fend off the Kor'kron ambush."] = "Fend off the Kor'kron ambush.";
 
+	-- Dark Heart of Pandaria
+	AL["Dark Heart of Pandaria"] = "Dark Heart of Pandaria";
+	AL["Talk to the Boss"] = "Talk to the Boss";
+	AL["Speak with Grizzle Gearslip."] = "Speak with Grizzle Gearslip.";
+	AL["Rock Grinding"] = "Rock Grinding";
+	AL["Destroy the greater elemental ravaging the Big Blossom Excavation site."] = "Destroy the greater elemental ravaging the Big Blossom Excavation site.";
+	AL["Economic Recovery"] = "Economic Recovery";
+	AL["Collect artifacts for Gearslip while his workers clear the mine entrance."] = "Collect artifacts for Gearslip while his workers clear the mine entrance.";
+	AL["End of the Mine"] = "End of the Mine";
+	AL["Travel deep into Big Blossom Mine and blast open the wall."] = "Travel deep into Big Blossom Mine and blast open the wall.";
+	AL["Heartbreak"] = "Heartbreak";
+	AL["Destroy the Echo of Y'Sharrj."] = "Destroy the Echo of Y'Sharrj.";
+
 	-- Domination Point
 	AL["The Flight MasterDP"] = "The Flight Master";
 	AL["Join up with Kromthar."] = "Join up with Kromthar.";
@@ -169,21 +211,15 @@ if AL then
 	AL["Set up Sully's weapons and prepare to defend the keep!"] = "Set up Sully's weapons and prepare to defend the keep!";
 	AL["Hold the keep against waves of Horde invaders and their commander."] = "Hold the keep against waves of Horde invaders and their commander.";
 
-	-- Theramore's Fall - Horde
-	AL["To the Waterline!"] = "To the Waterline!";
-	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Slay Alliance captains and rig powder barrels on all ships.";
-	AL["The Blastmaster"] = "The Blastmaster";
-	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
-	AL["Gryphon, Down"] = "Gryphon, Down";
-	AL["Slay Baldruc and his gryphons."] = "Slay Baldruc and his gryphons.";
-	AL["Tanks for Nothing!"] = "Tanks for Nothing!";
-	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Destroy Big Bessa and sabotage any unmanned tanks.";
-	AL["Fly, Spy!"] = "Fly, Spy!";
-	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
-	AL["Alliance Ships"] = "Alliance Ships";
-	AL["Baldruc and Gryphon"] = "Baldruc and Gryphon";
-	AL["Tanks"] = "Tanks";
-	AL["Thalen Songweaver"] = "Thalen Songweaver";
+	-- The Secrets of Ragefire
+	AL["Infiltration"] = "Infiltration";
+	AL["Breach the main chamber and stop the abductions."] = "Breach the main chamber and stop the abductions.";
+	AL["Reconnaissance"] = "Reconnaissance";
+	AL["Investigate the main chamber."] = "Investigate the main chamber.";
+	AL["The Sealed Gate"] = "The Sealed Gate";
+	AL["Help Ticker build a device to open the next gate."] = "Help Ticker build a device to open the next gate.";
+	AL["Holdout"] = "Holdout";
+	AL["Defend the Gob Squad while Patch establishes an escape route."] = "Defend the Gob Squad while Patch establishes an escape route.";
 
 	-- Theramore's Fall - Alliance
 	AL["Welcome to Theramore"] = "Welcome to Theramore";
@@ -202,6 +238,22 @@ if AL then
 	AL["The heart of ruined Theramore"] = "The heart of ruined Theramore";
 	AL["Jaina"] = "Jaina";
 	AL["West Gate"] = "West Gate";
+
+	-- Theramore's Fall - Horde
+	AL["To the Waterline!"] = "To the Waterline!";
+	AL["Slay Alliance captains and rig powder barrels on all ships."] = "Slay Alliance captains and rig powder barrels on all ships.";
+	AL["The Blastmaster"] = "The Blastmaster";
+	AL["Inform Blastmaster Sparkfuse of your success."] = "Inform Blastmaster Sparkfuse of your success.";
+	AL["Gryphon, Down"] = "Gryphon, Down";
+	AL["Slay Baldruc and his gryphons."] = "Slay Baldruc and his gryphons.";
+	AL["Tanks for Nothing!"] = "Tanks for Nothing!";
+	AL["Destroy Big Bessa and sabotage any unmanned tanks."] = "Destroy Big Bessa and sabotage any unmanned tanks.";
+	AL["Fly, Spy!"] = "Fly, Spy!";
+	AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] = "Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel.";
+	AL["Alliance Ships"] = "Alliance Ships";
+	AL["Baldruc and Gryphon"] = "Baldruc and Gryphon";
+	AL["Tanks"] = "Tanks";
+	AL["Thalen Songweaver"] = "Thalen Songweaver";
 
 	-- Troves of the Thunder King
 	AL["Troves of the Thunder King"] = "Troves of the Thunder King";

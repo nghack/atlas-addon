@@ -387,6 +387,18 @@ local myData = {
 		{ BLUE.." B) "..ALC["Start"].." - "..ALC["Horde"] };
 		{ GREN.."1-4) "..AL["Capture Point"] };
 	};
+	DeepwindGorge = {
+		ZoneName = { BZ["Deepwind Gorge"] };
+		Location = { BZ["Valley of the Four Winds"]..", "..BZ["Pandaria"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "15";
+		{ BLUE.." A) "..ALC["Start"].." - "..ALC["Horde"] };
+		{ BLUE.." B) "..ALC["Start"].." - "..ALC["Alliance"] };
+		{ GREN.."1) "..BZ["Pandaren Mine"] };
+		{ GREN.."2) "..AL["Center Mine"] };
+		{ GREN.."3) "..BZ["Goblin Mine"] };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

@@ -15,5 +15,6 @@
 ## X-Category: Map
 ## RequiredDeps: Atlas
 
+Atlas_ScenariosDB.lua
 Locale\Locales.xml
 Atlas_Scenarios.lua

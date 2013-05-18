@@ -157,18 +157,25 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
+		{ BLUE.." A) "..ALC["Start"] };
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Mountaineers"] };
 		{ INDENT..GREY..AL["Contact the Dark Iron Mountaineers atop Shimmer Ridge and find a way to stop the storm."] };
+		{ INDENT..GREN.."1) "..AL["Dark Iron Mountaineers"] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Save Scout Stonebeard"] };
 		{ INDENT..GREY..AL["Free Scout Stonebeard from the trolls' roasting spit."] };
+		{ INDENT..GREN.."2) "..AL["Scout Stonebeard"] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["Save Scout Boldbrew"] };
 		{ INDENT..GREY..AL["Slay the trolls trying to cook Scout Boldbrew."] };
+		{ INDENT..GREN.."3) "..AL["Scout Boldbrew"] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["Save Scout Forgefellow"] };
 		{ INDENT..GREY..AL["Slay the trolls about to sacrifice Scout Forgefellow."] };
+		{ INDENT..GREN.."3) "..AL["Scout Forgefellow"] };
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Cold Cave"] };
 		{ INDENT..GREY..AL["Slay the elemental spirit in the ice cave to end the snowstorm."] };
+		{ INDENT..WHIT.."1) "..AL["Farastu"] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Victory or Death"] };
 		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and captures the Frostmane village."] };
+		{ INDENT..WHIT.."2) "..AL["Hekima the Wise"] };
 	};
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };

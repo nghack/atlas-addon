@@ -71,6 +71,12 @@ if AL then
 	-- Battle on the High Seas - Horde
 
 	-- Blood in the Snow
+	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";
+	AL["Scout Stonebeard"] = "Scout Stonebeard";
+	AL["Scout Boldbrew"] = "Scout Boldbrew";
+	AL["Scout Forgefellow"] = "Scout Forgefellow";
+	AL["Farastu"] = "Farastu";
+	AL["Hekima the Wise"] = "Hekima the Wise";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "Karsar the Bloodletter";

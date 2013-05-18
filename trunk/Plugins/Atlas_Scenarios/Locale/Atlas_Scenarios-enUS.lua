@@ -39,6 +39,8 @@ if AL then
 	AL["Stage 5"] = "Stage 5";
 	AL["Stage 6"] = "Stage 6";
 	AL["Stage 7"] = "Stage 7";
+	AL["Bonus Objectives"] = "Bonus Objectives";
+	AL["Complete the Bonus Objective to receive bonus Valor."] = "Complete the Bonus Objective to receive bonus Valor.";
 
 	-- A Brewing Storm
 	AL["Make Boomer's Brew"] = "Make Boomer's Brew";
@@ -83,7 +85,7 @@ if AL then
 
 	-- Battle on the High Seas - Alliance
 	AL["Boarding Party!"] = "Boarding Party!";
-	AL["Protect the Ship! Defeat the Horde Boarding party."] = "Protect the Ship! Defeat the Horde Boarding party.";
+	AL["Protect the Ship!  Defeat the Horde Boarding party."] = "Protect the Ship!  Defeat the Horde Boarding party.";
 	AL["Explosives Acquisition"] = "Explosives Acquisition";
 	AL["Steal Explosives from enemy Demolitionists."] = "Steal Explosives from enemy Demolitionists.";
 	AL["To Smithereens!"] = "To Smithereens!";
@@ -167,7 +169,7 @@ if AL then
 	AL["Economic Recovery"] = "Economic Recovery";
 	AL["Collect artifacts for Gearslip while his workers clear the mine entrance."] = "Collect artifacts for Gearslip while his workers clear the mine entrance.";
 	AL["End of the Mine"] = "End of the Mine";
-	AL["Travel deep into Big Blossom Mine and blast open the wall."] = "Travel deep into Big Blossom Mine and blast open the wall.";
+	AL["Travel deep into the Big Blossom Mine and blast open the wall."] = "Travel deep into the Big Blossom Mine and blast open the wall.";
 	AL["Heartbreak"] = "Heartbreak";
 	AL["Destroy the Echo of Y'Sharrj."] = "Destroy the Echo of Y'Sharrj.";
 

@@ -98,6 +98,19 @@ if AL then
 	AL["The Flight MasterLL"] = "The Flight Master";
 
 	-- The Secrets of Ragefire
+	AL["Door"] = "Door";
+	AL["Dark Shaman Xorenth"] = "Dark Shaman Xorenth";
+	AL["Supply Crates"] = "Supply Crates";
+	AL["Proto-drake Eggs"] = "Proto-drake Eggs";
+	AL["Pandaria Artifacts"] = "Pandaria Artifacts";
+	AL["Battery"] = "Battery";
+	AL["Pool Pony"] = "Pool Pony";
+	AL["Sealed Gate"] = "Sealed Gate";
+	AL["Cannon Balls"] = "Cannon Balls";
+	AL["Broken Proto-Drake Egg"] = "Broken Proto-Drake Egg";
+	AL["Flame Hound"] = "Flame Hound";
+	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier";
+	AL["Overseer Elaglo"] = "Overseer Elaglo";
 
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "Horde Ships";

@@ -69,6 +69,11 @@ if AL then
 	AL["Admiral Hagman"] = "Admiral Hagman";
 
 	-- Battle on the High Seas - Horde
+	AL["Lieutenant Parker"] = "Lieutenant Parker";
+	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
+	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
+	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
+	AL["Admiral Hodgson"]
 
 	-- Blood in the Snow
 	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";

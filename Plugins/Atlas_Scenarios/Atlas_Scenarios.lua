@@ -116,7 +116,7 @@ local myData = {
 		PlayerLimit = "3";
 		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
-		{ INDENT..INDENT..GREY..AL["Protect the Ship! Defeat the Horde Boarding party."] };
+		{ INDENT..INDENT..GREY..AL["Protect the Ship!  Defeat the Horde Boarding party."] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
 		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
@@ -131,7 +131,7 @@ local myData = {
 		PlayerLimit = "3";
 		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
-		{ INDENT..INDENT..GREY..AL["Protect the Ship! Defeat the Alliance Boarding party."] };
+		{ INDENT..INDENT..GREY..AL["Protect the Ship!  Defeat the Alliance Boarding party."] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
 		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
@@ -237,7 +237,7 @@ local myData = {
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["Economic Recovery"] };
 		{ INDENT..GREY..AL["Collect artifacts for Gearslip while his workers clear the mine entrance."] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["End of the Mine"] };
-		{ INDENT..GREY..AL["Travel deep into Big Blossom Mine and blast open the wall."] };
+		{ INDENT..GREY..AL["Travel deep into the Big Blossom Mine and blast open the wall."] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
 		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
 	};

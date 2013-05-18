@@ -80,9 +80,9 @@ local myData = {
 		MinLevel = "90";
 		PlayerLimit = "3";
 		{ BLUE.." A) "..ALC["Summon"] };
-		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Scar-shell"] };
+		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Scar-Shell"] };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] };
-		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Jol'grum"] };
+		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Jol'Grum"] };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the grummle-eating, snow-stalking horror, Jol'Grum."] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Little Liuyang"] };
 		{ INDENT..INDENT..GREY..AL["Summon and defeat the playful fire spirit, Liuyang."] };
@@ -140,7 +140,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hodgson."] };
 	};
 	SC_BloodintheSnow = {
-		ZoneName = { AL["Blood in the Snow"] };
+		ZoneName = { BZ["Blood in the Snow"] };
 		Location = { BZ["Dun Morogh"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -156,7 +156,7 @@ local myData = {
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Cold Cave"] };
 		{ INDENT..GREY..AL["Slay the elemental spirit in the ice cave to end the snowstorm."] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Victory or Death"] };
-		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and capture the Frostmane village."] };
+		{ INDENT..GREY..AL["Join Moira's forces, slay the Zandalari leader, and captures the Frostmane village."] };
 	};
 	SC_BrewmoonFestival = {
 		ZoneName = { BZ["Brewmoon Festival"] };
@@ -195,7 +195,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Cleanse the Sha corruption from the Pool of Life."] };
 		{ BLUE.." C) "..AL["Treasure Urn"] };
 		{ BLUE.." D) "..ALC["Connection"] };
-		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypts"] };
+		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["Search the Crypt"] };
 		{ INDENT..INDENT..GREY..AL["Delve deeper into the crypt and search the bottom level."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Destroy the Sha"] };
 		{ INDENT..INDENT..GREY..AL["Destroy the Abomination of Anger."] };
@@ -225,7 +225,7 @@ local myData = {
 		{ INDENT..GREY..AL["Fend off the Kor'kron ambush."] };
 	};
 	SC_DarkHeartofPandaria = {
-		ZoneName = { AL["Dark Heart of Pandaria"] };
+		ZoneName = { BZ["Dark Heart of Pandaria"] };
 		Location = { BZ["Vale of Eternal Blossoms"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -367,7 +367,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Slay Hedric Evencane and free Thalen Songweaver from Foothold Citadel."] };
 	};
 	SC_TrovesoftheThunderKing = {
-		ZoneName = { AL["Troves of the Thunder King"] };
+		ZoneName = { BZ["Troves of the Thunder King"] };
 		Location = { BZ["Thunder King's Citadel"]..", "..BZ["Isle of Thunder"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -376,7 +376,7 @@ local myData = {
 		{ ORNG..ALC["Key"]..ALC["Colon"]..ALIL["Burial Trove Key"] };
 		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Speak to Taoshi"] };
-		{ INDENT..INDENT..GREY..AL["You will only have a limited amount of time to gather as much treasure as you can. Speak to Taoshi when you're ready to begin."] };
+		{ INDENT..INDENT..GREY..AL["You will only have a limited amount of time to gather as much treasure as you can.  Speak to Taoshi when you're ready to begin."] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Reach the Exit"] };
 		{ INDENT..INDENT..GREY..AL["Grab as much treasure as you can and reach the exit before the timer expires."] };
 		{ INDENT..INDENT..WHIT.." 1) "..AL["God-Hulk Gulkan"] };

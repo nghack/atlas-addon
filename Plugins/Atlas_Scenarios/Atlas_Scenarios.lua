@@ -144,12 +144,23 @@ local myData = {
 		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
 		{ INDENT..INDENT..GREY..AL["Protect the Ship!  Defeat the Alliance Boarding party."] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Parker"] };
+		{ INDENT..BLUE.."B) "..AL["Transport Cannon"] };
+		{ BLUE.." C) "..AL["Rope Pile"] };
+		{ BLUE.." D) "..AL["Steal Explosives"] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
 		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Fuseblast"] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Fizzboil"] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Boltblaster"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
 		{ INDENT..INDENT..GREY..AL["Plant explosives on the Alliance Ship to destroy it!"] };
+		{ INDENT..INDENT.._RED..AL["Run to the top deck and swin away!"] };
+		{ INDENT..BLUE.."E) "..AL["Rope Pile"] };
+		{ INDENT..BLUE.."F) "..AL["Transport Cannon"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hodgson."] };
+		{ INDENT..INDENT.."- "..AL["Admiral Hodgson"] };
 	};
 	SC_BloodintheSnow = {
 		ZoneName = { BZ["Blood in the Snow"] };

@@ -58,6 +58,15 @@ if AL then
 	-- Assault on Zan'vess
 
 	-- Battle on the High Seas - Alliance
+	AL["Lieutenant Drak'on"] = "Lieutenant Drak'on";
+	AL["Transport Cannon"] = "Transport Cannon";
+	AL["Rope Pile"] = "Rope Pile";
+	AL["Steal Explosives"] = "Steal Explosives";
+	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
+	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
+	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
+	AL["Run to the top deck and swin away!"] = "Run to the top deck and swin away!";
+	AL["Admiral Hagman"] = "Admiral Hagman";
 
 	-- Battle on the High Seas - Horde
 

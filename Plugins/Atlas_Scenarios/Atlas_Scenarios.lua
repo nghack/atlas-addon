@@ -117,12 +117,24 @@ local myData = {
 		{ BLUE.." A) "..ALC["Start"] };
 		{ INDENT..YELL.."- "..AL["Stage 1"].." - "..AL["Boarding Party!"] };
 		{ INDENT..INDENT..GREY..AL["Protect the Ship!  Defeat the Horde Boarding party."] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Drak'on"] };
+		{ INDENT..BLUE.."B) "..AL["Transport Cannon"] };
+		{ BLUE.." C) "..AL["Rope Pile"] };
+		{ BLUE.." D) "..AL["Steal Explosives"] };
 		{ INDENT..YELL.."- "..AL["Stage 2"].." - "..AL["Explosives Acquisition"] };
 		{ INDENT..INDENT..GREY..AL["Steal Explosives from enemy Demolitionists."] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Sparklighter"] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Fizzel"] };
+		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Blasthammer"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
 		{ INDENT..INDENT..GREY..AL["Plant explosives on the Horde Ship to destroy it!"] };
+		{ INDENT..INDENT.._RED..AL["Run to the top deck and swin away!"] };
+		{ INDENT..BLUE.."E) "..AL["Rope Pile"] };
+		{ INDENT..BLUE.."F) "..AL["Transport Cannon"] };
+		{ BLUE.." G) "..AL["Admiral Hagman"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hagman."] };
+		{ INDENT..INDENT.."- "..AL["Admiral Hagman"] };
 	};
 	SC_BattleontheHighSeasHorde = {
 		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Horde"] };

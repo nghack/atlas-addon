@@ -10,9 +10,14 @@ Copyright 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.25.00 (May xx, 2013)
 -----------------------
 - TOC update to support WoW 5.3
-- added God-Hulk Gulkan, Tenwu of the Red Smoke and Lever locations to Troves of the Thunder King
+- Map update:
+    - Troves of the Thunder King: 
+        - added God-Hulk Gulkan, Tenwu of the Red Smoke and Lever locations
 - Maps added:
     - Battle on the High Seas
+    - Blood in the Snow
+    - Dark Heart of Pandaria
+    - The Secrets of Ragefire
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

@@ -112,6 +112,19 @@ if AL then
 
 	-- Lion's Landing
 	AL["The Flight MasterLL"] = "The Flight Master";
+	AL["Daggin Windbeard"] = "Daggin Windbeard";
+	AL["Attackers"] = "Attackers";
+	AL["High Marshal Twinbraid"] = "High Marshal Twinbraid";
+	AL["Admiral Taylor"] = "Admiral Taylor";
+	AL["Wolf-Rider Gaja"] = "Wolf-Rider Gaja";
+	AL["Amber Kearmen"] = "Amber Kearmen";
+	AL["Sully \"The Pickle\" McLeary"] = "Sully \"The Pickle\" McLeary";
+	AL["Mishka"] = "Mishka";
+	AL["Weapons"] = "Weapons";
+	AL["Wave One"] = "Wave One";
+	AL["Wave Two"] = "Wave Two";
+	AL["Wave Three"] = "Wave Three";
+	AL["Thaumaturge Saresse"] = "Thaumaturge Saresse";
 
 	-- The Secrets of Ragefire
 	AL["Door"] = "Door";

@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 17.04.2013
+-- Letztes Update: 19.05.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -242,6 +242,7 @@ if AL then
 	AL["Teleporter destination"] = "Teleportziel";
 	AL["Third Stop"] = "Dritter Halt";
 	AL["Top"] = "Spitze";
+	AL["Tunnel"] = "Tunnel";
 	AL["Underwater"] = "Unter Wasser";
 	AL["Upper"] = "Oben";
 	AL["Varies"] = "Variiert";

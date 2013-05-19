@@ -110,7 +110,7 @@ local myData = {
 		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
 	};
 	SC_BattleontheHighSeasAlliance = {
-		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Alliance"] };
+		ZoneName = { BZ["Battle on the High Seas"].." - "..FACTION_ALLIANCE };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
@@ -128,7 +128,7 @@ local myData = {
 		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Blasthammer"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
 		{ INDENT..INDENT..GREY..AL["Plant explosives on the Horde Ship to destroy it!"] };
-		{ INDENT..INDENT.._RED..AL["Run to the top deck and swin away!"] };
+		{ INDENT..INDENT.._RED..AL["Run to the top deck and swing away!"] };
 		{ INDENT..BLUE.."E) "..AL["Rope Pile"] };
 		{ INDENT..BLUE.."F) "..AL["Transport Cannon"] };
 		{ BLUE.." G) "..AL["Admiral Hagman"] };
@@ -137,7 +137,7 @@ local myData = {
 		{ INDENT..INDENT.."- "..AL["Admiral Hagman"] };
 	};
 	SC_BattleontheHighSeasHorde = {
-		ZoneName = { BZ["Battle on the High Seas"].." - "..ALC["Horde"] };
+		ZoneName = { BZ["Battle on the High Seas"].." - "..FACTION_HORDE };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
@@ -155,9 +155,10 @@ local myData = {
 		{ INDENT..INDENT..WHIT.."- "..AL["Lieutenant Boltblaster"] };
 		{ INDENT..YELL.."- "..AL["Stage 3"].." - "..AL["To Smithereens!"] };
 		{ INDENT..INDENT..GREY..AL["Plant explosives on the Alliance Ship to destroy it!"] };
-		{ INDENT..INDENT.._RED..AL["Run to the top deck and swin away!"] };
+		{ INDENT..INDENT.._RED..AL["Run to the top deck and swing away!"] };
 		{ INDENT..BLUE.."E) "..AL["Rope Pile"] };
 		{ INDENT..BLUE.."F) "..AL["Transport Cannon"] };
+		{ BLUE.." G) "..AL["Admiral Hodgson"] };
 		{ INDENT..YELL.."- "..AL["Final Stage"].." - "..AL["Defeat the Admiral!"] };
 		{ INDENT..INDENT..GREY..AL["Defeat Admiral Hodgson."] };
 		{ INDENT..INDENT.."- "..AL["Admiral Hodgson"] };
@@ -274,7 +275,7 @@ local myData = {
 		{ BLUE.."B) "..ALC["Tunnel"] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["End of the Mine"] };
 		{ INDENT..GREY..AL["Travel deep into the Big Blossom Mine and blast open the wall."] };
-		{ INDENT..GREN.."1) "..AL["Crafty the Ambitious"] };
+		{ INDENT..GREN.."2) "..AL["Crafty the Ambitious"] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
 		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
 		{ INDENT..WHIT.."2) "..AL["Echo of Y'Sharrj"] };
@@ -371,7 +372,7 @@ local myData = {
 		{ INDENT..INDENT..WHIT..AL["Overseer Elaglo"] };
 	};
 	SC_TheramoresFallAlliance = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Alliance"] };
+		ZoneName = { BZ["Theramore's Fall"].." - "..FACTION_ALLIANCE };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";
@@ -396,7 +397,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..AL["Protect Jaina while she attunes to the Focusing Iris."] };
 	};
 	SC_TheramoresFallHorde = {
-		ZoneName = { BZ["Theramore's Fall"].." - "..ALC["Horde"] };
+		ZoneName = { BZ["Theramore's Fall"].." - "..FACTION_HORDE };
 		Location = { BZ["Theramore"]..", "..BZ["Dustwallow Marsh"] };
 		LevelRange = "90";
 		MinLevel = "90";

@@ -104,6 +104,15 @@ atlas.addon@gmail.com
 Or visit our forum and leave your message.
 
 
+================
+= Authors Team =
+================
+* Arith - Project Manager
+* dubcat - Artist
+* Dynaletik - Co-author
+* Resike - Co-author
+
+
 ===========
 = License =
 ===========

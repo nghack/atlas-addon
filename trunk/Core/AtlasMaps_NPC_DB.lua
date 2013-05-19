@@ -25,7 +25,7 @@
 --]]
 
 -- Atlas Map NPC Description Data
--- Maintainers: Arith, Dynaletik, dubcat
+-- Maintainers: Arith, Dynaletik, dubcat, Resike 
 
 AtlasMaps_NPC_DB = {
 --[[

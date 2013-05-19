@@ -26,7 +26,7 @@
 
 -- Atlas, an instance map browser
 -- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, dubcat
+-- Maintainers: Arith, Dynaletik, dubcat, Resike 
 
 local _G = getfenv(0);
 local pairs = _G.pairs;

@@ -117,7 +117,7 @@ if AL then
 	AL["High Marshal Twinbraid"] = "High Marshal Twinbraid";
 	AL["Admiral Taylor"] = "Admiral Taylor";
 	AL["Wolf-Rider Gaja"] = "Wolf-Rider Gaja";
-	AL["Amber Kearmen"] = "Amber Kearmen";
+	AL["Amber Kearnen"] = "Amber Kearnen";
 	AL["Sully \"The Pickle\" McLeary"] = "Sully \"The Pickle\" McLeary";
 	AL["Mishka"] = "Mishka";
 	AL["Weapons"] = "Weapons";

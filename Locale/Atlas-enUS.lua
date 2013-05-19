@@ -237,6 +237,7 @@ if AL then
 	AL["Teleporter destination"] = "Teleporter destination";
 	AL["Third Stop"] = "Third Stop";
 	AL["Top"] = "Top";
+	AL["Tunnel"] = "Tunnel";
 	AL["Underwater"] = "Underwater";
 	AL["Upper"] = "Upper";
 	AL["Varies"] = "Varies";

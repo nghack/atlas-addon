@@ -73,7 +73,7 @@ if AL then
 	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
 	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
 	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
-	AL["Admiral Hodgson"]
+	AL["Admiral Hodgson"] = "Admiral Hodgson";
 
 	-- Blood in the Snow
 	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";
@@ -99,6 +99,7 @@ if AL then
 	-- Dagger in the Dark
 
 	-- Dark Heart of Pandaria
+	AL["Grizzle Gearslip"] = "Grizzle Gearslip";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "The Flight Master";

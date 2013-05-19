@@ -344,7 +344,7 @@ local myData = {
 		{ INDENT..WHIT.."- "..AL["Wolf-Rider Gaja"] };
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["Legwork"] };
 		{ INDENT..GREY..AL["Gather information from the SI:7 team."] };
-		{ INDENT..GREN.."4) "..AL["Amber Kearmen"] };
+		{ INDENT..GREN.."4) "..AL["Amber Kearnen"] };
 		{ INDENT..GREN.."5) "..AL["Sully \"The Pickle\" McLeary"] };
 		{ INDENT..GREN.."6) "..AL["Mishka"] };
 		{ YELL.."- "..AL["Stage 6"].." - "..AL["Setting Up"] };

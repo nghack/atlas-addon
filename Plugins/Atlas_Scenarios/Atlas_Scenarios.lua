@@ -164,7 +164,7 @@ local myData = {
 	};
 	SC_BloodintheSnow = {
 		ZoneName = { BZ["Blood in the Snow"] };
-		Location = { BZ["Dun Morogh"] };
+		Location = { BZ["Shimmer Ridge"]..", "..BZ["Dun Morogh"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
@@ -212,7 +212,7 @@ local myData = {
 	};
 	SC_CryptofForgottenKings = {
 		ZoneName = { BZ["Crypt of Forgotten Kings"] };
-		Location = { BZ["Vale of Eternal Blossoms"] };
+		Location = { BZ["Guo-Lai Halls"]..", "..BZ["Vale of Eternal Blossoms"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
@@ -237,8 +237,10 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
+		{ BLUE.." A) "..ALC["Start"] };
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["The Mission..."] };
 		{ INDENT..GREY..AL["Speak with Vol'jin to begin the search for the Saurok cave."] };
+		{ INDENT..GREN.."- "..AL["Grizzle Gearslip"] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["We Ride!"] };
 		{ INDENT..GREY..AL["Find the entrance to the Saurok Cave."] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["Guards!"] };
@@ -256,7 +258,7 @@ local myData = {
 	};
 	SC_DarkHeartofPandaria = {
 		ZoneName = { BZ["Dark Heart of Pandaria"] };
-		Location = { BZ["Vale of Eternal Blossoms"] };
+		Location = { BZ["Big Blossom Excavation"]..", "..BZ["Vale of Eternal Blossoms"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";

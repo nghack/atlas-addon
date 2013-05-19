@@ -159,7 +159,6 @@ if AL then
 	--AL["Colon"] = ": "; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	--AL["Adult"] = "Adult";
 	--AL["AKA"] = "AKA"; -- As Known As
-	AL["Alliance"] = "Aliança";
 	--AL["Arcane Container"] = "Arcane Container";
 	--AL["Arms Warrior"] = "Arms Warrior";
 	--AL["Attunement Required"] = "Attunement Required";
@@ -185,7 +184,6 @@ if AL then
 	--AL["Heroic"] = "Heroic";
 	--AL["Holy Paladin"] = "Holy Paladin";
 	--AL["Holy Priest"] = "Holy Priest";
-	AL["Horde"] = "Horda";
 	--AL["Hunter"] = "Hunter";
 	--AL["Imp"] = "Imp";
 	--AL["Key"] = "Key";

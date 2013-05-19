@@ -183,7 +183,6 @@ if AL then
 	AL["Colon"] = " : ";
 	AL["Adult"] = "Adulte";
 	AL["AKA"] = "AKA";
-	AL["Alliance"] = "Alliance";
 	AL["Arcane Container"] = "Récipient arcanique";
 	AL["Arms Warrior"] = "Guerrier Armes";
 	AL["Attunement Required"] = "Harmonisation requise";
@@ -209,7 +208,6 @@ if AL then
 	AL["Heroic"] = "Héroïque";
 	AL["Holy Paladin"] = "Paladin Sacré";
 	AL["Holy Priest"] = "Prêtre Sacré";
-	AL["Horde"] = "Horde";
 	AL["Hunter"] = "Chasseur";
 	AL["Imp"] = "Diablotin";
 	AL["Key"] = "Clé";

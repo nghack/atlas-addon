@@ -65,7 +65,7 @@ if AL then
 	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
 	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
 	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
-	AL["Run to the top deck and swin away!"] = "Run to the top deck and swin away!";
+	AL["Run to the top deck and swing away!"] = "Run to the top deck and swing away!";
 	AL["Admiral Hagman"] = "Admiral Hagman";
 
 	-- Battle on the High Seas - Horde

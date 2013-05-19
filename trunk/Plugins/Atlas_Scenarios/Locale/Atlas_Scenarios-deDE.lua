@@ -58,10 +58,30 @@ if AL then
 	-- Assault on Zan'vess
 
 	-- Battle on the High Seas - Alliance
+	AL["Lieutenant Drak'on"] = "Leutnant Drak'on";
+	AL["Transport Cannon"] = "Transportkanone";
+	AL["Rope Pile"] = "Seilhaufen";
+	AL["Steal Explosives"] = "Sprengladungen stehlen";
+	AL["Lieutenant Sparklighter"] = "Leutnant Zündfunken";
+	AL["Lieutenant Fizzel"] = "Leutnant Zischel";
+	AL["Lieutenant Blasthammer"] = "Leutnant Sprenghammer";
+	AL["Run to the top deck and swing away!"] = "Lauft aufs Oberdeck und schwingt Euch vom Schiff!";
+	AL["Admiral Hagman"] = "Admiral Hagman";
 
 	-- Battle on the High Seas - Horde
+	AL["Lieutenant Parker"] = "Leutnant Parker";
+	AL["Lieutenant Fuseblast"] = "Leutnant Luntenschuss";
+	AL["Lieutenant Fizzboil"] = "Leutnant Zischelzünd";
+	AL["Lieutenant Boltblaster"] = "Leutnant Bolzenspreng";
+	AL["Admiral Hodgson"] = "Admiral Hodgson";
 
 	-- Blood in the Snow
+	AL["Dark Iron Mountaineers"] = "Dunkeleisengebirgsjäger";
+	AL["Scout Stonebeard"] = "Späher Steinbart";
+	AL["Scout Boldbrew"] = "Späherin Kühnbräu";
+	AL["Scout Forgefellow"] = "Späher Schmiedebalg";
+	AL["Farastu"] = "Farastu";
+	AL["Hekima the Wise"] = "Hekima der Weise";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "Karsar der Blutvergießer";
@@ -79,6 +99,11 @@ if AL then
 	-- Dagger in the Dark
 
 	-- Dark Heart of Pandaria
+	AL["Grizzle Gearslip"] = "Grizzle Radflutsch";
+	AL["Urtharges the Destroyer"] = "Urtharges der Zerstörer";
+	AL["Crafty the Ambitious"] = "Pfiffikus der Clevere";
+	AL["Norkurian"] = "Norkurian";
+	AL["Echo of Y'Sharrj"] = "Echo von Y'Sharrj";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "Die Flugmeisterin";
@@ -89,6 +114,19 @@ if AL then
 	AL["The Flight MasterLL"] = "Der Flugmeister";
 
 	-- The Secrets of Ragefire
+	AL["Door"] = "Tür";
+	AL["Dark Shaman Xorenth"] = "Dunkelschamane Xorenth";
+	AL["Supply Crates"] = "Vorratskisten";
+	AL["Proto-drake Eggs"] = "Protodracheneier";
+	AL["Pandaria Artifacts"] = "Pandarianische Artefakte";
+	AL["Battery"] = "Batterie";
+	AL["Pool Pony"] = "Poolpony";
+	AL["Sealed Gate"] = "Versiegeltes Tor";
+	AL["Cannon Balls"] = "Kanonenkugeln";
+	AL["Broken Proto-Drake Egg"] = "Zerbrochenes Protodrachenei";
+	AL["Flame Hound"] = "Flammenhund";
+	AL["Kor'kron Dire Soldier"] = "Terrorsoldat der Kor'kron";
+	AL["Overseer Elaglo"] = "Aufseher Elaglo";
 
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "Horde-Schiffe";

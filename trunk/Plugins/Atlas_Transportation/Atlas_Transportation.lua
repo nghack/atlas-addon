@@ -47,7 +47,7 @@ local myCategory = AL["Transportation Maps"];
 
 local myData = {
 	TransAllianceEast = {
-		ZoneName = { BZ["Eastern Kingdoms"].." ("..ALC["Alliance"]..")" };
+		ZoneName = { BZ["Eastern Kingdoms"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..BZ["Docks"] };
 		{ ORNG.." A') "..BZ["Valgarde"]..", "..BZ["Howling Fjord"]..", "..BZ["Northrend"] };
 		{ ORNG.." B') "..BZ["Valiance Keep"]..", "..BZ["Borean Tundra"]..", "..BZ["Northrend"] };
@@ -196,7 +196,7 @@ local myData = {
 		{ GREN.."-- : "..BZ["Deeprun Tram"].." / "..AL["Special transportation"] };
 	};
 	TransAllianceWest = {
-		ZoneName = { BZ["Kalimdor"].." ("..ALC["Alliance"]..")" };
+		ZoneName = { BZ["Kalimdor"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..BZ["Docks"] };
 		{ ORNG.." A) "..BZ["Valaar's Berth"]..", "..BZ["Azuremyst Isle"] };
 		{ ORNG.." A') "..BZ["Stormwind Harbor"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
@@ -315,7 +315,7 @@ local myData = {
 		{ CYAN.."-- : "..AL["Ship / Zeppelin sailing path to destination"] };	
 	};
 	TransHordeEast = {
-		ZoneName = { BZ["Eastern Kingdoms"].." ("..ALC["Horde"]..")" };
+		ZoneName = { BZ["Eastern Kingdoms"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Zeppelin Towers"].." / "..BZ["Docks"] };
 		{ ORNG.." A') "..BZ["Vengeance Landing"]..", "..BZ["Howling Fjord"]..", "..BZ["Northrend"] };
 		{ ORNG.." B') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
@@ -444,7 +444,7 @@ local myData = {
 		{ GREN.."-- : "..AL["Special transportation"] };
 	};
 	TransHordeWest = {
-		ZoneName = { BZ["Kalimdor"].." ("..ALC["Horde"]..")" };
+		ZoneName = { BZ["Kalimdor"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Zeppelin Towers"].." / "..BZ["Docks"] };
 		{ ORNG.." A') "..BZ["Warsong Hold"]..", "..BZ["Borean Tundra"]..", "..BZ["Northrend"] };
 		{ ORNG.." B') "..BZ["Undercity"]..", "..BZ["Tirisfal Glades"]..", "..BZ["Eastern Kingdoms"] };
@@ -572,7 +572,7 @@ local myData = {
 		{ CYAN.."-- : "..AL["Ship / Zeppelin sailing path to destination"] };	
 	};
 	TransAllianceOutland = {
-		ZoneName = { BZ["Outland"].." ("..ALC["Alliance"]..")" };
+		ZoneName = { BZ["Outland"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..AL["Portals"].." / "..AL["Transporter"] };
 		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." B') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
@@ -620,7 +620,7 @@ local myData = {
 		{ WHIT.."21) "..BZ["Cosmowrench"] };
 	};
 	TransHordeOutland = {
-		ZoneName = { BZ["Outland"].." ("..ALC["Horde"]..")" };
+		ZoneName = { BZ["Outland"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Portals"].." / "..AL["Transporter"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
@@ -667,7 +667,7 @@ local myData = {
 		{ WHIT.."20) "..BZ["Cosmowrench"] };
 	};
 	TransAllianceNorthrend = {
-		ZoneName = { BZ["Northrend"].." ("..ALC["Alliance"]..")" };
+		ZoneName = { BZ["Northrend"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..BZ["Docks"] };
 		{ ORNG.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ ORNG.." B') "..BZ["Menethil Harbor"]..", "..BZ["Wetlands"]..", "..BZ["Eastern Kingdoms"] };
@@ -754,7 +754,7 @@ local myData = {
 		{ CYAN.."-- : "..AL["Ship / Zeppelin sailing path to destination"] };	
 	};
 	TransHordeNorthrend = {
-		ZoneName = { BZ["Northrend"].." ("..ALC["Horde"]..")" };
+		ZoneName = { BZ["Northrend"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Zeppelin Towers"] };
 		{ ORNG.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ ORNG.." B') "..BZ["Undercity"]..", "..BZ["Tirisfal Glades"]..", "..BZ["Eastern Kingdoms"] };
@@ -862,7 +862,7 @@ local myData = {
 		{ PURP..INDENT.." -> "..BZ["Mulgore"] };
 	};
 	TransAlliancePandaria = {
-		ZoneName = { BZ["Pandaria"].." ("..ALC["Alliance"]..")" };
+		ZoneName = { BZ["Pandaria"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Paw'Don Village"]..", "..BZ["The Jade Forest"] };
 		{ PURP.." B) "..BZ["The Seabolt"].." / "..BZ["Za'Tual"]..", "..BZ["Isle of Thunder"] };
@@ -950,7 +950,7 @@ local myData = {
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
 	};
 	TransHordePandaria = {
-		ZoneName = { BZ["Pandaria"].." ("..ALC["Horde"]..")" };
+		ZoneName = { BZ["Pandaria"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"] };
 		{ PURP.." B) "..BZ["The Crimson Treader"].." / "..BZ["Court of Bones"]..", "..BZ["Isle of Thunder"] };

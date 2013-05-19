@@ -180,7 +180,7 @@ local myData = {
 		{ INDENT..GREN.."3) "..AL["Scout Boldbrew"] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["Save Scout Forgefellow"] };
 		{ INDENT..GREY..AL["Slay the trolls about to sacrifice Scout Forgefellow."] };
-		{ INDENT..GREN.."3) "..AL["Scout Forgefellow"] };
+		{ INDENT..GREN.."4) "..AL["Scout Forgefellow"] };
 		{ YELL.."- "..AL["Stage 5"].." - "..AL["The Cold Cave"] };
 		{ INDENT..GREY..AL["Slay the elemental spirit in the ice cave to end the snowstorm."] };
 		{ INDENT..WHIT.."1) "..AL["Farastu"] };

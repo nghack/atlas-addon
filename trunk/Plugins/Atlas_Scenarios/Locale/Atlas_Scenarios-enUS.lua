@@ -100,6 +100,10 @@ if AL then
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Grizzle Gearslip";
+	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer";
+	AL["Crafty the Ambitious"] = "Crafty the Ambitious";
+	AL["Norkurian"] = "Norkurian";
+	AL["Echo of Y'Sharrj"] = "Echo of Y'Sharrj";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "The Flight Master";

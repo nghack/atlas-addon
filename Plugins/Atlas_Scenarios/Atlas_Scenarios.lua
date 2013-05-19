@@ -262,16 +262,23 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
+		{ BLUE.."A) "..ALC["Start"] };
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["Talk to the Boss"] };
 		{ INDENT..GREY..AL["Speak with Grizzle Gearslip."] };
+		{ INDENT..GREN.."1) "..AL["Grizzle Gearslip"] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Rock Grinding"] };
 		{ INDENT..GREY..AL["Destroy the greater elemental ravaging the Big Blossom Excavation site."] };
+		{ INDENT..WHIT.."1) "..AL["Urtharges the Destroyer"].." ("..ALC["Wanders"] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["Economic Recovery"] };
 		{ INDENT..GREY..AL["Collect artifacts for Gearslip while his workers clear the mine entrance."] };
+		{ BLUE.."B) "..ALC["Tunnel"] };
 		{ YELL.."- "..AL["Stage 4"].." - "..AL["End of the Mine"] };
 		{ INDENT..GREY..AL["Travel deep into the Big Blossom Mine and blast open the wall."] };
+		{ INDENT..GREN.."1) "..AL["Crafty the Ambitious"] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
 		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
+		{ INDENT..WHIT.."2) "..AL["Echo of Y'Sharrj"] };
+		{ INDENT..GREN.."3) "..AL["Norkurian"] };
 	};
 	SC_DominationPoint = {
 		ZoneName = { BZ["Domination Point"] };

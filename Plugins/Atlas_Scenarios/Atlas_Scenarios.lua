@@ -324,7 +324,7 @@ local myData = {
 	};
 	SC_LionsLanding = {
 		ZoneName = { BZ["Lion's Landing"] };
-		Location = { BZ["Krasarang Wilds"] };
+		Location = { BZ["Krasarang Cove"]..", "..BZ["Krasarang Wilds"] };
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";

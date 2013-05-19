@@ -175,7 +175,6 @@ if AL then
 	AL["Colon"] = "："; -- The colon symbol to be used in string, ex: "Zone: Firelands
 	AL["Adult"] = "成年";
 	AL["AKA"] = "亦作";
-	AL["Alliance"] = "联盟";
 	AL["Arcane Container"] = "奥术容器";
 	AL["Arms Warrior"] = "武器战士";
 	AL["Attunement Required"] = "需要完成入口任务";
@@ -201,7 +200,6 @@ if AL then
 	AL["Heroic"] = "英雄模式";
 	AL["Holy Paladin"] = "神圣圣骑士";
 	AL["Holy Priest"] = "神圣牧师";
-	AL["Horde"] = "部落";
 	AL["Hunter"] = "猎人";
 	AL["Imp"] = "小鬼";
 	AL["Key"] = "钥匙";

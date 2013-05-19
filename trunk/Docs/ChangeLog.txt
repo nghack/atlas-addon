@@ -10,10 +10,19 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.25.00 (May xx, 2013)
 -----------------------
 - TOC update to support WoW 5.3
-- add Rare mob locations to Throne of Thunder
-- add ingame locales for factions & items
-- remove BabbleFaction
-- fixed boss gametooltip's scaling issue
+- Added Rare mob locations to Throne of Thunder
+- Added ingame locales for factions & items
+- Removed BabbleFaction library
+- Issues fixed:
+    - Boss gametooltip's scaling
+    - FrameXML override bug
+    - Options check button tooltip
+    - Dungeon journal button location
+    - Instance/Entrance button location
+    - Search and Clear button size and location
+- Options sliders now can be adjusted with mouse wheel
+- Slider min-max value changes
+- Moved "Instance sort by" dropdown menu under to the checkbuttons.
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

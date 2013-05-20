@@ -198,4 +198,7 @@ if AL then
 
 	-- Temple of Kotmogu
 	AL["Scoring Point"] = "Punto de marcaje";
+
+	-- Deepwind Gorge
+	AL["Center Mine"] = "Mina del centro";
 end

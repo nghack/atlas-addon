@@ -1056,7 +1056,7 @@ Syntax:
 		{ GREN..INDENT..AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] };
 	};
 	TheStockade = {
-		ZoneName = { BZ["The Stockade"] };
+		ZoneName = { BZ["Stormwind Stockade"] };
 		Location = { BZ["Stormwind City"] };
 		DungeonID = "12";
 		Acronym = AL["Stocks"];

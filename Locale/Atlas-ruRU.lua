@@ -238,6 +238,7 @@ if AL then
 	AL["Teleporter destination"] = "Назначение телепорта";
 	AL["Third Stop"] = "Третья остановка";
 	AL["Top"] = "Верхний";
+	AL["Tunnel"] = "Туннель";
 	AL["Underwater"] = "Подводный";
 	AL["Upper"] = "Верхний";
 	AL["Varies"] = "Изменяется";

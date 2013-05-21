@@ -271,6 +271,13 @@ Atlas_SubZoneData = {
 			BZ["The Slaughter House"],
 		},
 	},
+	-- The Stockade
+	[BZ["The Stockade"]] = {
+		-- The Stockade
+		["TheStockade"] = {
+			BZ["Stormwind Stockade"],
+		},
+	},
 	-- Throne of Thunder
 	[BZ["Throne of Thunder"]] = {
 		--Throne of Thunder A

@@ -72,7 +72,7 @@ local myData = {
 		{ WHIT..INDENT..BZ["Blackwing Lair"]..", ".._RED..BZ["Blackrock Spire"] };
 		{ WHIT..INDENT..BZ["Blackrock Caverns"] };
 		{ WHIT..INDENT..BZ["Blackwing Descent"] };
-		{ WHIT.."15) "..BZ["Stormwind Stockade"]..", ".._RED..BZ["Stormwind City"] };
+		{ WHIT.."15) "..BZ["The Stockade"]..", ".._RED..BZ["Stormwind City"] };
 		{ WHIT.."16) "..BZ["Sunken Temple"]..", ".._RED..BZ["Swamp of Sorrows"] };
 		{ WHIT.."17) "..BZ["The Deadmines"]..", ".._RED..BZ["Westfall"] };
 		{ WHIT.."18) "..BZ["Karazhan"]..", ".._RED..BZ["Deadwind Pass"] };

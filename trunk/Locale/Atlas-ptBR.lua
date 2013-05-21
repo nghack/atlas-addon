@@ -723,21 +723,14 @@ if AL then
 	--AL["Earthbinder Rayge"] = "Earthbinder Rayge";
 
 	--CoT: The Black Morass
-	--AL["Opening of the Dark Portal"] = "Opening of the Dark Portal";
 	--AL["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
-	--AL["The Dark Portal"] = "The Dark Portal";
 
 	--CoT: Hyjal Summit
-	--AL["Battle for Mount Hyjal"] = "Battle for Mount Hyjal";
-	--AL["Alliance Base"] = "Alliance Base";
 	--AL["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
-	--AL["Horde Encampment"] = "Horde Encampment";
 	--AL["Thrall <Warchief>"] = "Thrall <Warchief>";
-	--AL["Night Elf Village"] = "Night Elf Village";
 	--AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Whisperwind <High Priestess of Elune>";
 
 	--CoT: Old Hillsbrad Foothills
-	--AL["Escape from Durnholde Keep"] = "Escape from Durnholde Keep";
 	--AL["Erozion"] = "Erozion";
 	--AL["Brazen"] = "Brazen";
 	--AL["Landing Spot"] = "Landing Spot";

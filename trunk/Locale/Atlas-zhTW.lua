@@ -233,6 +233,7 @@ if AL then
 	AL["Teleporter destination"] = "傳送目的地";
 	AL["Third Stop"] = "第三停留點";
 	AL["Top"] = "上方";
+	AL["Tunnel"] = "通道";
 	AL["Underwater"] = "水下";
 	AL["Upper"] = "上層";
 	AL["Varies"] = "多處";
@@ -763,21 +764,14 @@ if AL then
 	AL["Earthbinder Rayge"] = "縛地者瑞吉";
 
 	--CoT: The Black Morass
-	AL["Opening of the Dark Portal"] = "開啟黑暗之門";
 	AL["Sa'at <Keepers of Time>"] = "塞特 <時光守望者>";
-	AL["The Dark Portal"] = "黑暗之門";
 
 	--CoT: Hyjal Summit
-	AL["Battle for Mount Hyjal"] = "海加爾山戰場";
-	AL["Alliance Base"] = "聯盟營地";
 	AL["Lady Jaina Proudmoore"] = "珍娜·普勞德摩爾女士";
-	AL["Horde Encampment"] = "部落營地";
 	AL["Thrall <Warchief>"] = "索爾 <首領>";
-	AL["Night Elf Village"] = "夜精靈村";
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "泰蘭妲·語風 <伊露恩的高階女祭司>";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "逃離敦霍爾德";
 	AL["Erozion"] = "伊洛森";
 	AL["Brazen"] = "布瑞茲恩";
 	AL["Landing Spot"] = "降落點";

@@ -31,8 +31,8 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 -- Atlas French Localization
 -- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2012
 -- Many thanks to all contributors!
--- $Date: 2012-10-03 22:56:00 +0800 (Wed, 03 Oct 2012) $
--- $Revision: 1771 $
+-- $Date$
+-- $Revision$
 
 if ( GetLocale() == "frFR" ) then
 -- Define the leading strings to be ignored while sorting
@@ -769,21 +769,14 @@ if AL then
 	AL["Earthbinder Rayge"] = "Lieur de terre Rayge";
 
 	--CoT: The Black Morass
-	AL["Opening of the Dark Portal"] = "Ouverture de la Porte des Ténèbres";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Les Gardiens du temps>";
-	AL["The Dark Portal"] = "La Porte des Ténèbres";
 
 	--CoT: Hyjal Summit
-	AL["Battle for Mount Hyjal"] = "Bataille pour le Mont Hyjal";
-	AL["Alliance Base"] = "Base de l'Alliance";
 	AL["Lady Jaina Proudmoore"] = "Dame Jaina Portvaillant";
-	AL["Horde Encampment"] = "Campement de la Horde";
 	AL["Thrall <Warchief>"] = "Thrall <Chef de guerre>";
-	AL["Night Elf Village"] = "Village des Elfes de la Nuit";
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Murmevent <Grande prêtresse d'Elune>";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "L'évasion du Fort-de-Durn";
 	AL["Erozion"] = "Erozion";
 	AL["Brazen"] = "Airain";
 	AL["Landing Spot"] = "Zone d'atterrissage";

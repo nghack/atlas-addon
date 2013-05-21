@@ -196,6 +196,10 @@ local myData = {
 		{ WHIT.." 8) "..BZ["Temple of the Jade Serpent"]..", ".._RED..BZ["The Jade Forest"] };
 		{ WHIT.." 9) "..BZ["Heart of Fear"]..", ".._RED..BZ["Dread Wastes"] };
 		{ WHIT.."10) "..BZ["Stormstout Brewery"]..", ".._RED..BZ["Valley of the Four Winds"] };
+		{ GREN.." 1') "..BZ["Deepwind Gorge"]..", ".._RED..BZ["Valley of the Four Winds"] };
+		{ "" };
+		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
+		{ GREN..AL["Green"]..": "..ORNG..AL["Battlegrounds"] };
 	};
 };
 

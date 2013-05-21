@@ -23,6 +23,12 @@ v1.25.00 (May 21, 2013)
 - Options sliders now can be adjusted with mouse wheel
 - Slider min-max value changes
 - Moved "Instance sort by" dropdown menu under to the checkbuttons.
+- Translation update
+    - deDE (Dynaletik)
+    - esES/esMX (maqjav)
+    - ruRU (StingerSoft)
+    - frFR (Khiria)
+    - zhCN/zhTW (ananhaid)
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

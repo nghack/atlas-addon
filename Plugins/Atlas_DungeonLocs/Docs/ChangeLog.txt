@@ -7,9 +7,11 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.25.00 (May xx, 2013)
+v1.25.00 (May 21, 2013)
 -----------------------
 - TOC update to support WoW 5.3
+- Map update: 
+    - Pandaria: added Deepwind Gorge battleground location
 
 v1.24.00 (Mar. 05, 2013)
 -----------------------

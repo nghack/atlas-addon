@@ -10,7 +10,7 @@
 ## Notes-zhCN: 巫妖王之怒地图
 ## Version: 1.25.00
 ## Author: arith, Dynaletik, dubcat
-## X-Date: May xx, 2013
+## X-Date: May 21, 2013
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

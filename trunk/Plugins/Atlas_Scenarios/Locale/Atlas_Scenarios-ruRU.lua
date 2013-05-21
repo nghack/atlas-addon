@@ -51,20 +51,40 @@ if AL then
 	AL["Commander Scargash"] = "Командир Глубокий Шрам";
 
 	-- Arena of Annihilation
-	AL["Scar-shell"] = "Потертый Панцирь";
-	AL["Summon and defeat the mighty dragon turtle, Scar-Shell."] = "Призовите и одолейте могучую драконью черепаху Потертый Панцирь.";
-	AL["Jol'grum"] = "Джол'Грум";
+	AL["Defeat Maki Waterblade"] = "Убейте Маки Водореза";
+	AL["Defeat Satay Byu"] = "Убейте Сатай Бюй";
+	AL["Defeat Cloudbender Kobo"] = "Убейте Сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
 
 	-- Battle on the High Seas - Alliance
+--	AL["Lieutenant Drak'on"] = "Lieutenant Drak'on";
+--	AL["Transport Cannon"] = "Transport Cannon";
+--	AL["Rope Pile"] = "Rope Pile";
+--	AL["Steal Explosives"] = "Steal Explosives";
+--	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
+--	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
+--	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
+--	AL["Run to the top deck and swing away!"] = "Run to the top deck and swing away!";
+--	AL["Admiral Hagman"] = "Admiral Hagman";
 
 	-- Battle on the High Seas - Horde
+--	AL["Lieutenant Parker"] = "Lieutenant Parker";
+--	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
+--	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
+--	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
+--	AL["Admiral Hodgson"] = "Admiral Hodgson";
 
 	-- Blood in the Snow
+--	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";
+--	AL["Scout Stonebeard"] = "Scout Stonebeard";
+--	AL["Scout Boldbrew"] = "Scout Boldbrew";
+--	AL["Scout Forgefellow"] = "Scout Forgefellow";
+--	AL["Farastu"] = "Farastu";
+--	AL["Hekima the Wise"] = "Hekima the Wise";
 
 	-- Brewmoon Festival
-	AL["The Brewmoon Festival!"] = "Фестиваль Хмельнолуния!";
+	AL["Karsar the Bloodletter"] = "Карсар Кровопускатель";
 	AL["Li Te"] = "Ли Тэ";
 	AL["Den Mother Moof"] = "Мать логова Муф";
 	AL["Brewmaster Boof"] = "Хмелевар Буф";
@@ -79,6 +99,11 @@ if AL then
 	-- Dagger in the Dark
 
 	-- Dark Heart of Pandaria
+	AL["Grizzle Gearslip"] = "Гриззл Скрипетол";
+--	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer";
+--	AL["Crafty the Ambitious"] = "Crafty the Ambitious";
+--	AL["Norkurian"] = "Norkurian";
+--	AL["Echo of Y'Sharrj"] = "Echo of Y'Sharrj";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "Распорядитель полетов";
@@ -87,8 +112,35 @@ if AL then
 
 	-- Lion's Landing
 	AL["The Flight MasterLL"] = "Распорядитель полетов";
+	AL["Daggin Windbeard"] = "Даггин Ветробород";
+	AL["Attackers"] = "Attackers";
+	AL["High Marshal Twinbraid"] = "Верховный маршал Двукосса";
+	AL["Admiral Taylor"] = "Адмирал Тейлор";
+	AL["Wolf-Rider Gaja"] = "Наездница Гайа";
+	AL["Amber Kearnen"] = "Эмбер Кеарнен";
+	AL["Sully \"The Pickle\" McLeary"] = "Салли \"Рассольный\" Маклири";
+	AL["Mishka"] = "Мишка";
+	AL["Weapons"] = "Оружие";
+	AL["Wave One"] = "1-ая волна";
+	AL["Wave Two"] = "2-ая волна";
+	AL["Wave Three"] = "3-ая волна";
+	AL["Thaumaturge Saresse"] = "Чародейка Саресс";
 
-
+	-- The Secrets of Ragefire
+--	AL["Door"] = "Door";
+--	AL["Dark Shaman Xorenth"] = "Dark Shaman Xorenth";
+--	AL["Supply Crates"] = "Supply Crates";
+--	AL["Proto-drake Eggs"] = "Proto-drake Eggs";
+--	AL["Pandaria Artifacts"] = "Pandaria Artifacts";
+--	AL["Battery"] = "Battery";
+--	AL["Pool Pony"] = "Pool Pony";
+--	AL["Sealed Gate"] = "Sealed Gate";
+--	AL["Cannon Balls"] = "Cannon Balls";
+--	AL["Broken Proto-Drake Egg"] = "Broken Proto-Drake Egg";
+--	AL["Flame Hound"] = "Flame Hound";
+--	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier";
+--	AL["Overseer Elaglo"] = "Overseer Elaglo";
+	
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "Корабли Орды"; --need check
 	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
@@ -102,8 +154,8 @@ if AL then
 	AL["Thalen Songweaver"] = "Тален Созвучие Песни";
 
 	-- Troves of the Thunder King
---	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
---	AL["Lever"] = "Lever";
+	AL["God-Hulk Gulkan"] = "Бог-исполин Гулкан";
+	AL["Lever"] = "Рычаг";
 	AL["Tenwu of the Red Smoke"] = "Тэнь-у Красный Дым";
 
 	-- Unga Ingoo

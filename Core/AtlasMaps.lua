@@ -211,9 +211,9 @@ Syntax:
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..AL["Alliance Base"] };
-		{ BLUE.." C) "..AL["Horde Encampment"] };
-		{ BLUE.." D) "..AL["Night Elf Village"] };
+		{ BLUE.." B) "..BZ["Alliance Base"] };
+		{ BLUE.." C) "..BZ["Horde Encampment"] };
+		{ BLUE.." D) "..BZ["Night Elf Village"] };
 		{ GREN.." 1') "..AL["Indormi <Keeper of Ancient Gem Lore>"] };
 		{ GREN..INDENT..AL["Tydormu <Keeper of Lost Artifacts>"] };
 	};
@@ -1344,7 +1344,7 @@ Syntax:
 		Acronym = AL["CoT2"];
 		JournalInstanceID = "255";
 		Module = "Atlas_BurningCrusade";
-		{ PURP..AL["Event"]..AL["Colon"]..AL["Opening of the Dark Portal"] };
+		{ PURP..AL["Event"]..AL["Colon"]..BZ["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1353,7 +1353,7 @@ Syntax:
 		{ WHIT..INDENT..AL["Wave 6"]..AL["Colon"]..Atlas_GetBossName("Chrono Lord Deja", 552) };
 		{ WHIT..INDENT..AL["Wave 12"]..AL["Colon"]..Atlas_GetBossName("Temporus", 553) };
 		{ WHIT..INDENT..AL["Wave 18"]..AL["Colon"]..Atlas_GetBossName("Aeonus", 554) };
-		{ GREN.." 1') "..AL["The Dark Portal"] };
+		{ GREN.." 1') "..BZ["The Dark Portal"] };
 		{ GREN..INDENT..Atlas_GetBossName("Medivh") };
 	};
 	CoTHyjal = {
@@ -1364,13 +1364,13 @@ Syntax:
 		PlayerLimit = "25";
 		Acronym = AL["CoT3"];
 		Module = "Atlas_BurningCrusade";
-		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
+		{ PURP..AL["Event"]..AL["Colon"]..BZ["The Battle for Mount Hyjal"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Scale of the Sands"] };
-		{ BLUE.." A) "..AL["Alliance Base"] };
+		{ BLUE.." A) "..BZ["Alliance Base"] };
 		{ GREN..INDENT..AL["Lady Jaina Proudmoore"] };
-		{ BLUE.." B) "..AL["Horde Encampment"] };
+		{ BLUE.." B) "..BZ["Horde Encampment"] };
 		{ GREN..INDENT..AL["Thrall <Warchief>"] };
-		{ BLUE.." C) "..AL["Night Elf Village"] };
+		{ BLUE.." C) "..BZ["Night Elf Village"] };
 		{ GREN..INDENT..AL["Tyrande Whisperwind <High Priestess of Elune>"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Rage Winterchill") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Anetheron") };
@@ -1387,7 +1387,7 @@ Syntax:
 		Acronym = AL["CoT1"];
 		JournalInstanceID = "251";
 		Module = "Atlas_BurningCrusade";
-		{ PURP..AL["Event"]..AL["Colon"]..AL["Escape from Durnholde Keep"] };
+		{ PURP..AL["Event"]..AL["Colon"]..BZ["The Escape From Durnholde"] };
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };

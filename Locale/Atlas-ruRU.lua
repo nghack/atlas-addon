@@ -30,8 +30,8 @@ local AL = AceLocale:NewLocale("Atlas", "ruRU", false);
 -- Atlas Russian Localization
 -- Compiled by Eugene Filatov, bigoblin, StingerSoft
 -- Last Update: 23.01.2011
--- $Date: 2012-10-03 22:56:00 +0800 (Wed, 03 Oct 2012) $
--- $Revision: 1771 $
+-- $Date$
+-- $Revision$
 
 if ( GetLocale() == "ruRU" ) then
 -- Define the leading strings to be ignored while sorting
@@ -768,21 +768,14 @@ if AL then
 	AL["Earthbinder Rayge"] = "Землепряд Гневвс";
 
 	--CoT: The Black Morass
-	AL["Opening of the Dark Portal"] = "Открытие Темных врат";
 	AL["Sa'at <Keepers of Time>"] = "Са'ат <Хранители Времени>";
-	AL["The Dark Portal"] = "Темный портал";
 
 	--CoT: Hyjal Summit
-	AL["Battle for Mount Hyjal"] = "Битва за Гору Хиджала";
-	AL["Alliance Base"] = "База Альянса";
 	AL["Lady Jaina Proudmoore"] = "Леди Джайна Праудмур";
-	AL["Horde Encampment"] = "Стоянка орды";
 	AL["Thrall <Warchief>"] = "Тралл <Вождь>";
-	AL["Night Elf Village"] = "Деревня Ночных эльфов";
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Тиранда Шелест Ветра";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "Побег из Крепости Дарнхольда";
 	AL["Erozion"] = "Эрозион";
 	AL["Brazen"] = "Бронзень";
 	AL["Landing Spot"] = "Место высадки";

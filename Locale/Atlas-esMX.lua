@@ -768,21 +768,14 @@ if AL then
 	AL["Earthbinder Rayge"] = "Lingaterra Rayge";
 
 	--CoT: The Black Morass
-	AL["Opening of the Dark Portal"] = "Apertura del Portal Oscuro";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Vigilantes del Tiempo>";
-	AL["The Dark Portal"] = "El Portal Oscuro";
 
 	--CoT: Hyjal Summit
-	AL["Battle for Mount Hyjal"] = "Batalla por el Monte Hyjal";
-	AL["Alliance Base"] = "Base de la Alianza";
 	AL["Lady Jaina Proudmoore"] = "Lady Jaina Valiente";
-	AL["Horde Encampment"] = "Campamento de la Horda";
 	AL["Thrall <Warchief>"] = "Thrall <Jefe de Guerra>";
-	AL["Night Elf Village"] = "Pueblo de los Elfos de la Noche";
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Susurravientos <Suma sacerdotisa de Elune>";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "Escape del Castillo de Durnholde";
 	AL["Erozion"] = "Erozion";
 	AL["Brazen"] = "Brazen";
 	AL["Landing Spot"] = "Punto de Aterrizaje";

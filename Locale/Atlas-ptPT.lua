@@ -729,11 +729,8 @@ if AL then
 
 	--CoT: Hyjal Summit
 	--AL["Battle for Mount Hyjal"] = "Battle for Mount Hyjal";
-	--AL["Alliance Base"] = "Alliance Base";
 	--AL["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
-	--AL["Horde Encampment"] = "Horde Encampment";
 	--AL["Thrall <Warchief>"] = "Thrall <Warchief>";
-	--AL["Night Elf Village"] = "Night Elf Village";
 	--AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Whisperwind <High Priestess of Elune>";
 
 	--CoT: Old Hillsbrad Foothills

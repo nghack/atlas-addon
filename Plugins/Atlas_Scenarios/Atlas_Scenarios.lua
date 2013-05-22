@@ -100,14 +100,23 @@ local myData = {
 		LevelRange = "90";
 		MinLevel = "90";
 		PlayerLimit = "3";
+		{ BLUE.."A) "..ALC["Start"].." ("..FACTION_HORDE..")" };
+		{ BLUE.."B) "..ALC["Start"].." ("..FACTION_ALLIANCE..")" };
 		{ YELL.."- "..AL["Stage 1"].." - "..AL["Assault on Zan'vess"] };
 		{ INDENT..GREY..AL["Launch an assault on the island of Zan'vess."] };
 		{ YELL.."- "..AL["Stage 2"].." - "..AL["Defenses of Zan'vess"] };
+		{ BLUE.."C) "..AL["Kyparite Quarry Sonic Control Towers"] };
+		{ BLUE.."D) "..AL["Whispering Stones Sonic Control Towers"] };
+		{ BLUE.."E) "..AL["Venomsting Pits Sonic Control Towers"] };
 		{ INDENT..GREY..AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] };
+		{ BLUE.."F) "..AL["Landing"] };
 		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Heart of Zan'vess"] };
 		{ INDENT..GREY..AL["Storm the beach and reach the Heart of Zan'vess."] };
+		{ INDENT..WHIT.."1) "..AL["Squad Leader Bosh"] };
+		{ BLUE.."G) "..AL["Heart of Zan'vess"] };
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Weapons of Zan'vess"] };
 		{ INDENT..GREY..AL["Defeat Commander Tel'vrak and retrieve the Mantid weapon cache."] };
+		{ INDENT..WHIT.."- "..AL["Commander Tel'vrak"] };
 	};
 	SC_BattleontheHighSeasAlliance = {
 		ZoneName = { BZ["Battle on the High Seas"].." - "..FACTION_ALLIANCE };

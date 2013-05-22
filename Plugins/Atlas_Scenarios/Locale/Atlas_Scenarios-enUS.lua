@@ -97,6 +97,17 @@ if AL then
 	AL["Abomination of Anger"] = "Abomination of Anger";
 
 	-- Dagger in the Dark
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Saurok Cave"] = "Saurok Cave";
+	AL["Darkhatched Lizard-Lord"] = "Darkhatched Lizard-Lord";
+	AL["The Spring Drifter"] = "The Spring Drifter";
+	AL["Cave"] = "Cave";
+	AL["Docking"] = "Docking";
+	AL["Saurok Hatchery"] = "Saurok Hatchery";
+	AL["Broodmaster Noshi"] = "Broodmaster Noshi"
+	AL["West Statue"] = "West Statue";
+	AL["East Statue"] = "East Statue";
+	AL["Rak'gor Bloodrazor"] = "Rak'gor Bloodrazor";
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Grizzle Gearslip";

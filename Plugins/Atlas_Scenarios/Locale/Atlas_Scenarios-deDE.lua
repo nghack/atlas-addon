@@ -56,6 +56,13 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Bezwingt Wolkenformer Kobo";
 
 	-- Assault on Zan'vess
+	AL["Kyparite Quarry Sonic Control Towers"] = "Schallsteuerungstürme des Kyparitsteinbruchs";
+	AL["Whispering Stones Sonic Control Towers"] = "Schallsteuerungstürme der Flüsternden Steine";
+	AL["Venomsting Pits Sonic Control Towers"] = "Schallsteuerungstürme der Giftstechergruben";
+	AL["Landing"] = "Landung";
+	AL["Squad Leader Bosh"] = "Schwadronsführer Bosh";
+	AL["Heart of Zan'vess"] = "Herz von Zan'vess";
+	AL["Commander Tel'vrak"] = "Kommandant Tel'vrak";
 
 	-- Battle on the High Seas - Alliance
 	AL["Lieutenant Drak'on"] = "Leutnant Drak'on";
@@ -97,6 +104,17 @@ if AL then
 	AL["Abomination of Anger"] = "Monstrosität des Zorns";
 
 	-- Dagger in the Dark
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Saurok Cave"] = "Saurok-Höhle";
+	AL["Darkhatched Lizard-Lord"] = "Echsenlord der Schattennester";
+	AL["The Spring Drifter"] = "Die Frühlingsbummler";
+	AL["Cave"] = "Höhle";
+	AL["Docking"] = "Andocken";
+	AL["Saurok Hatchery"] = "Saurok-Brutstätte";
+	AL["Broodmaster Noshi"] = "Brutmeister Noshi"
+	AL["West Statue"] = "Westliche Statue";
+	AL["East Statue"] = "Östliche Statue";
+	AL["Rak'gor Bloodrazor"] = "Rak'gor Blutklinge";
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Grizzle Radflutsch";
@@ -107,6 +125,13 @@ if AL then
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "Die Flugmeisterin";
+	AL["General Nazgrim"] = "General Nazgrim";
+	AL["Warlord Bloodhilt"] = "Kriegsfürst Blutheft";
+	AL["Cordfellow Hack"] = "Kabelfreund Hack";
+	AL["Rivett Clutchpop"] = "Nieti Kuppelplopp";
+	AL["Shademaster Kiryn"] = "Schattenmeisterin Kiryn";
+	AL["Shokia"] = "Shokia";
+	AL["Joan Lorraine"] = "Joan Lorraine";
 
 	-- Greenstone Village
 

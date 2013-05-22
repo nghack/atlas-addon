@@ -61,7 +61,6 @@ if AL then
 	AL["Venomsting Pits Sonic Control Towers"] = "Venomsting Pits Sonic Control Towers";
 	AL["Landing"] = "Landing";
 	AL["Squad Leader Bosh"] = "Squad Leader Bosh";
-	AL["Heart of Zan'vess"] = "Heart of Zan'vess";
 	AL["Commander Tel'vrak"] = "Commander Tel'vrak";
 
 	-- Battle on the High Seas - Alliance

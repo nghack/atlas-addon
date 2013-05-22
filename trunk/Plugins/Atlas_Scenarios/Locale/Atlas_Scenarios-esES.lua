@@ -110,7 +110,7 @@ if AL then
 	AL["Grizzle Gearslip"] = "Grizzle Engranesuelto";
 	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer"; --falta
 	AL["Crafty the Ambitious"] = "Crafty the Ambitious"; --falta
-	AL["Norkurian"] = "Norkurian"; --check
+	AL["Norushen"] = "Norushen"; --check
 	AL["Echo of Y'Sharrj"] = "Echo of Y'Sharrj"; --falta
 
 	-- Domination Point

@@ -279,7 +279,7 @@ local myData = {
 		{ YELL.."- "..AL["Final Stage"].." - "..AL["Heartbreak"] };
 		{ INDENT..GREY..AL["Destroy the Echo of Y'Sharrj."] };
 		{ INDENT..WHIT.."2) "..AL["Echo of Y'Sharrj"] };
-		{ INDENT..GREN.."3) "..AL["Norkurian"] };
+		{ INDENT..GREN.."3) "..AL["Norushen"] };
 	};
 	SC_DominationPoint = {
 		ZoneName = { BZ["Domination Point"] };

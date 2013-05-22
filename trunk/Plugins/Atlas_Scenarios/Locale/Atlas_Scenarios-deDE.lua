@@ -102,7 +102,7 @@ if AL then
 	AL["Grizzle Gearslip"] = "Grizzle Radflutsch";
 	AL["Urtharges the Destroyer"] = "Urtharges der Zerstörer";
 	AL["Crafty the Ambitious"] = "Pfiffikus der Clevere";
-	AL["Norkurian"] = "Norkurian";
+	AL["Norushen"] = "Norushen";
 	AL["Echo of Y'Sharrj"] = "Echo von Y'Sharrj";
 
 	-- Domination Point

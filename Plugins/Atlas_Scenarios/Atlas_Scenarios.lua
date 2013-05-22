@@ -110,7 +110,7 @@ local myData = {
 		{ BLUE.."E) "..AL["Venomsting Pits Sonic Control Towers"] };
 		{ INDENT..GREY..AL["Destroy the Sonic Towers and deactivate the Zan'vess Defense Shield."] };
 		{ BLUE.."F) "..AL["Landing"] };
-		{ YELL.."- "..AL["Stage 3"].." - "..AL["The Heart of Zan'vess"] };
+		{ YELL.."- "..AL["Stage 3"].." - "..BZ["The Heart of Zan'vess"] };
 		{ INDENT..GREY..AL["Storm the beach and reach the Heart of Zan'vess."] };
 		{ INDENT..WHIT.."1) "..AL["Squad Leader Bosh"] };
 		{ BLUE.."G) "..AL["Heart of Zan'vess"] };

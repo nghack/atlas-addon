@@ -61,7 +61,6 @@ if AL then
 	AL["Venomsting Pits Sonic Control Towers"] = "Schallsteuerungstürme der Giftstechergruben";
 	AL["Landing"] = "Landung";
 	AL["Squad Leader Bosh"] = "Schwadronsführer Bosh";
-	AL["Heart of Zan'vess"] = "Herz von Zan'vess";
 	AL["Commander Tel'vrak"] = "Kommandant Tel'vrak";
 
 	-- Battle on the High Seas - Alliance

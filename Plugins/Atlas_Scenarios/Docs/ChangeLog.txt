@@ -10,6 +10,7 @@ Copyright 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.25.01 (May XX, 2013)
 - Maps update:
     - Dagger in the Dark: map revamp
+    - Domination Point: map revamp
 
 v1.25.00 (May 21, 2013)
 -----------------------

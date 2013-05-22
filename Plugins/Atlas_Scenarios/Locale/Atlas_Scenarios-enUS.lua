@@ -118,6 +118,13 @@ if AL then
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "The Flight Master";
+	AL["General Nazgrim"] = "General Nazgrim";
+	AL["Warlord Bloodhilt"] = "Warlord Bloodhilt";
+	AL["Cordfellow Hack"] = "Cordfellow Hack";
+	AL["Rivett Clutchpop"] = "Rivett Clutchpop";
+	AL["Shademaster Kiryn"] = "Shademaster Kiryn";
+	AL["Shokia"] = "Shokia";
+	AL["Joan Lorraine"] = "Joan Lorraine";
 
 	-- Greenstone Village
 

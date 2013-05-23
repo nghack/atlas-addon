@@ -56,24 +56,30 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Убейте Сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
+--	AL["Kyparite Quarry Sonic Control Towers"] = "Kyparite Quarry Sonic Control Towers";
+--	AL["Whispering Stones Sonic Control Towers"] = "Whispering Stones Sonic Control Towers";
+--	AL["Venomsting Pits Sonic Control Towers"] = "Venomsting Pits Sonic Control Towers";
+	AL["Landing"] = "Плацдарм";
+	AL["Squad Leader Bosh"] = "Командир роты Бош";
+	AL["Commander Tel'vrak"] = "Командир Тел'врак";
 
 	-- Battle on the High Seas - Alliance
---	AL["Lieutenant Drak'on"] = "Lieutenant Drak'on";
---	AL["Transport Cannon"] = "Transport Cannon";
---	AL["Rope Pile"] = "Rope Pile";
---	AL["Steal Explosives"] = "Steal Explosives";
---	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
---	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
---	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
---	AL["Run to the top deck and swing away!"] = "Run to the top deck and swing away!";
---	AL["Admiral Hagman"] = "Admiral Hagman";
+	AL["Lieutenant Drak'on"] = "Лейтенант Драк'он";
+	AL["Transport Cannon"] = "Пушка для перелетов";
+	AL["Rope Pile"] = "Моток веревки";
+	AL["Steal Explosives"] = "Украдите взрывчатку";
+	AL["Lieutenant Sparklighter"] = "Лейтенант Искрожгунстер";
+	AL["Lieutenant Fizzel"] = "Лейтенант Быщ";
+	AL["Lieutenant Blasthammer"] = "Лейтенант Взрывчер";
+	AL["Run to the top deck and swing away!"] = "Беги на верхнюю палубу и спасайся!";
+	AL["Admiral Hagman"] = "Адмирал Хагман";
 
 	-- Battle on the High Seas - Horde
---	AL["Lieutenant Parker"] = "Lieutenant Parker";
---	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
---	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
---	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
---	AL["Admiral Hodgson"] = "Admiral Hodgson";
+	AL["Lieutenant Parker"] = "Лейтенант Паркер";
+	AL["Lieutenant Fuseblast"] = "Лейтенант Бумфитиль";
+	AL["Lieutenant Fizzboil"] = "Лейтенант Шипокипун";
+	AL["Lieutenant Boltblaster"] = "Лейтенант Стрелобам";
+	AL["Admiral Hodgson"] = "Адмирал Ходжсон";
 
 	-- Blood in the Snow
 --	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";
@@ -97,6 +103,17 @@ if AL then
 	AL["Abomination of Anger"] = "Порождение Гнева";
 
 	-- Dagger in the Dark
+	AL["Vol'jin"] = "Вол'джин";
+	AL["Saurok Cave"] = "Пещера сауроков";
+	AL["Darkhatched Lizard-Lord"] = "Чеуйчатый повелитель Темной Кладки";
+	AL["The Spring Drifter"] = "\"Весенняя лодка\"";
+	AL["Cave"] = "Пещера";
+--	AL["Docking"] = "Docking";
+--	AL["Saurok Hatchery"] = "Saurok Hatchery";
+	AL["Broodmaster Noshi"] = "Праматерь Ноши"
+	AL["West Statue"] = "Статуя - Запад";
+	AL["East Statue"] = "Статуя - Восток";
+	AL["Rak'gor Bloodrazor"] = "Рак'гор Кровавая Бритва";
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Гриззл Скрипетол";
@@ -107,6 +124,13 @@ if AL then
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "Распорядитель полетов";
+	AL["General Nazgrim"] = "Генерал Назгрим";
+	AL["Warlord Bloodhilt"] = "Полководец Кровавый Эфес";
+	AL["Cordfellow Hack"] = "Каблик Хак";
+	AL["Rivett Clutchpop"] = "Риветт Сталехват";
+	AL["Shademaster Kiryn"] = "Темный мастер Кирин";
+	AL["Shokia"] = "Шокиа";
+	AL["Joan Lorraine"] = "Джоан Лоррейн";
 
 	-- Greenstone Village
 

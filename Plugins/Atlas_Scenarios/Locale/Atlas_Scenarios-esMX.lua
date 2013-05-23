@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 20/05/2013
+-- Úlltima Actualización (last update): 23/05/2013
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -64,6 +64,12 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Derrota a Doblanubes Kobo";
 
 	-- Assault on Zan'vess
+	AL["Kyparite Quarry Sonic Control Towers"] = "Kyparite Quarry Sonic Control Towers"; --falta
+	AL["Whispering Stones Sonic Control Towers"] = "Whispering Stones Sonic Control Towers"; --falta
+	AL["Venomsting Pits Sonic Control Towers"] = "Venomsting Pits Sonic Control Towers"; --falta
+	AL["Landing"] = "Aterrizaje";
+	AL["Squad Leader Bosh"] = "Líder de escuadrón Bosh";
+	AL["Commander Tel'vrak"] = "Comandante Tel'vrak";
 
 	-- Battle on the High Seas - Alliance
 	AL["Lieutenant Drak'on"] = "Teniente Drak'on"; --check
@@ -105,6 +111,17 @@ if AL then
 	AL["Abomination of Anger"] = "Abominación de ira";
 
 	-- Dagger in the Dark
+	AL["Vol'jin"] = "Vol'jin";
+	AL["Saurok Cave"] = "Cueva de Saurok";
+	AL["Darkhatched Lizard-Lord"] = "Señor lagarto Incubasombras";
+	AL["The Spring Drifter"] = "El Morador de la Primavera";
+	AL["Cave"] = "Cueva";
+	AL["Docking"] = "Embarcamiento"; --check
+	AL["Saurok Hatchery"] = "Criadero de Saurok"; --check
+	AL["Broodmaster Noshi"] = "Maestro de linaje Noshi"
+	AL["West Statue"] = "Estatua del oeste";
+	AL["East Statue"] = "Estatua del este";
+	AL["Rak'gor Bloodrazor"] = "Rak'gor Hojasangre";
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Grizzle Engranesuelto";
@@ -115,6 +132,13 @@ if AL then
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "El maestro de vuelo";
+	AL["General Nazgrim"] = "General Nazgrim";
+	AL["Warlord Bloodhilt"] = "Warlord Bloodhilt"; --falta
+	AL["Cordfellow Hack"] = "Cordfellow Hack"; --falta
+	AL["Rivett Clutchpop"] = "Rivett Clutchpop"; --falta
+	AL["Shademaster Kiryn"] = "Shademaster Kiryn"; --falta
+	AL["Shokia"] = "Shokia";
+	AL["Joan Lorraine"] = "Joan Lorraine"; --falta
 
 	-- Greenstone Village
 

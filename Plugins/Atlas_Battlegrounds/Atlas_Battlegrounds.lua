@@ -367,16 +367,6 @@ local myData = {
 		{ ORNG.."1) "..AL["Alliance Graveyard"] };
 		{ ORNG.."2) "..AL["Horde Graveyard"] };
 	};
-	TempleofKotmogu = {
-		ZoneName = { BZ["Temple of Kotmogu"] };
-		Location = { BZ["Vale of Eternal Blossoms"]..", "..BZ["Pandaria"] };
-		LevelRange = "90";
-		MinLevel = "90";
-		PlayerLimit = "10";
-		{ BLUE.."A) "..ALC["Start"].." - "..FACTION_ALLIANCE };
-		{ BLUE.."B) "..ALC["Start"].." - "..FACTION_HORDE };
-		{ ORNG.."1) "..AL["Scoring Point"] };
-	};
 	SilvershardMines = {
 		ZoneName = { BZ["Silvershard Mines"] };
 		Location = { BZ["Stranglethorn Vale"]..", "..BZ["Eastern Kingdoms"] };
@@ -385,7 +375,19 @@ local myData = {
 		PlayerLimit = "10";
 		{ BLUE.."A) "..ALC["Start"].." - "..FACTION_ALLIANCE };
 		{ BLUE.."B) "..ALC["Start"].." - "..FACTION_HORDE };
-		{ GREN.."1-4) "..AL["Capture Point"] };
+		{ GREN.."1) "..AL["Mine Cart Spawn Point"] };
+		{ GREN.."2) "..AL["Mine Cart Depot"] };
+	};
+	TempleofKotmogu = {
+		ZoneName = { BZ["Temple of Kotmogu"] };
+		Location = { BZ["Vale of Eternal Blossoms"]..", "..BZ["Pandaria"] };
+		LevelRange = "90";
+		MinLevel = "90";
+		PlayerLimit = "10";
+		{ BLUE.."A) "..ALC["Start"].." - "..FACTION_ALLIANCE };
+		{ BLUE.."B) "..ALC["Start"].." - "..FACTION_HORDE };
+		{ GREN.."1) "..AL["Orb of Power"] };
+		{ GREN.."2) "..AL["Center Point (Maximum Points)"] };
 	};
 	DeepwindGorge = {
 		ZoneName = { BZ["Deepwind Gorge"] };

@@ -187,10 +187,12 @@ if AL then
 	AL["Dragonmaw Clan Compound"] = "Truppenlager des Drachenmalklans";
 
 	-- Silvershard Mines
-	AL["Capture Point"] = "Zu erobernde Minenloren";
+	AL["Mine Cart Spawn Point"] = "Minenloren-Startpunkt";
+	AL["Mine Cart Depot"] = "Minenloren-Depot";
 
 	-- Temple of Kotmogu
-	AL["Scoring Point"] = "Mitte des Tempels von Katmogu";
+	AL["Orb of Power"] = "Kugel der Macht";
+	AL["Center Point (Maximum Points)"] = "Zentrum (Maximale Punkte)";
 
 	-- Deepwind Gorge
 	AL["Center Mine"] = "Mittlere Mine";

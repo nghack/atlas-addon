@@ -6,6 +6,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 = Change Log =
 ==============
+v1.25.01 (May XX, 2013)
+- Maps update:
+    - Silvershard Mines: map revamp
+    - Temple of Kotmogu: map revamp
 
 v1.25.00 (May 21, 2013)
 -----------------------

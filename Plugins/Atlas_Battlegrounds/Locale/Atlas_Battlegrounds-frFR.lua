@@ -187,8 +187,10 @@ if AL then
 	AL["Dragonmaw Clan Compound"] = "Forge des Gueules-de-Dragon";
 
 	-- Silvershard Mines
-	AL["Capture Point"] = "Point de capture";
+	AL["Mine Cart Spawn Point"] = "Mine Cart Spawn Point";
+	AL["Mine Cart Depot"] = "Mine Cart Depot";
 
 	-- Temple of Kotmogu
-	AL["Scoring Point"] = "Point de but"; -- Translation needed
+	AL["Orb of Power"] = "Orb of Power";
+	AL["Center Point (Maximum Points)"] = "Center Point (Maximum Points)";
 end

@@ -194,10 +194,12 @@ if AL then
 	AL["Dragonmaw Clan Compound"] = "Compuesto Clan Faucedraco"; --Check
 
 	-- Silvershard Mines
-	AL["Capture Point"] = "Punto de captura"; -- the area where the carts spwan and you need to capture them
+	AL["Mine Cart Spawn Point"] = "Mine Cart Spawn Point";
+	AL["Mine Cart Depot"] = "Mine Cart Depot";
 
 	-- Temple of Kotmogu
-	AL["Scoring Point"] = "Punto de marcaje";
+	AL["Orb of Power"] = "Orb of Power";
+	AL["Center Point (Maximum Points)"] = "Center Point (Maximum Points)";
 
 	-- Deepwind Gorge
 	AL["Center Mine"] = "Mina del centro";

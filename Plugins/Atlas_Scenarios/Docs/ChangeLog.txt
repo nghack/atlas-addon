@@ -7,13 +7,17 @@ Copyright 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.25.01 (May XX, 2013)
+v1.25.01 (May 24, 2013)
 - Maps update:
     - Dagger in the Dark: map revamp
     - Domination Point: map revamp
     - Lion's Landing: map revamp
     - Assault on Zan'vess: map revamp
-
+- Translation update:
+    - deDE (Dynaletik)
+    - esES/esMX (maqjav)
+    - ruRU (StingerSoft)
+    
 v1.25.00 (May 21, 2013)
 -----------------------
 - TOC update to support WoW 5.3

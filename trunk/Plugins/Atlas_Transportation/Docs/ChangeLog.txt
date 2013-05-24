@@ -7,7 +7,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.25.01 (May XX, 2013)
+v1.25.01 (May 24, 2013)
 - Fixed Isle of Thunder portal destinations
 
 v1.25.00 (May 21, 2013)

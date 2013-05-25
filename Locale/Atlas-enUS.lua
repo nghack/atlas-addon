@@ -866,7 +866,7 @@ if AL then
 	AL["Path to the Broken Stairs"] = "Path to the Broken Stairs";
 	AL["Broken Stairs"] = "Broken Stairs";
 	AL["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
-	AL["Suspicious Bookshelf"] = "Suspicious Bookshelf";
+	AL["Mysterious Bookshelf"] = "Mysterious Bookshelf";
 	AL["Ramp up to the Celestial Watch"] = "Ramp up to the Celestial Watch";
 	AL["Ramp down to the Gamesman's Hall"] = "Ramp down to the Gamesman's Hall";
 	AL["Ramp to Medivh's Chamber"] = "Ramp to Medivh's Chamber";

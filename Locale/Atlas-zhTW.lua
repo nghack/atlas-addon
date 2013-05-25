@@ -864,7 +864,7 @@ if AL then
 	AL["Path to the Broken Stairs"] = "通往損壞的階梯的通道";
 	AL["Broken Stairs"] = "損壞的階梯";
 	AL["Ramp to Guardian's Library"] = "通往管理員圖書館的斜坡";
-	AL["Suspicious Bookshelf"] = "神秘的書架";
+	AL["Mysterious Bookshelf"] = "神秘的書架";
 	AL["Ramp up to the Celestial Watch"] = "通往天文觀測台的斜坡";
 	AL["Ramp down to the Gamesman's Hall"] = "通往投機者大廳的斜坡";
 	AL["Ramp to Medivh's Chamber"] = "通往麥迪文房間的斜坡";

@@ -869,7 +869,7 @@ if AL then
 	AL["Path to the Broken Stairs"] = "Путь к разрушенным лестницам";
 	AL["Broken Stairs"] = "Сломаная лесница";
 	AL["Ramp to Guardian's Library"] = "Рампа к библиотеку стражи";
-	AL["Suspicious Bookshelf"] = "Подозрительные книжные полки";
+	AL["Mysterious Bookshelf"] = "Подозрительные книжные полки";
 	AL["Ramp up to the Celestial Watch"] = "Подъём к небесному надзору";
 	AL["Ramp down to the Gamesman's Hall"] = "Спуск в игровой зал";
 	AL["Ramp to Medivh's Chamber"] = "Рампа в комнату Медива";

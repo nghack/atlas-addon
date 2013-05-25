@@ -1600,7 +1600,7 @@ Syntax:
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
 		{ BLUE.." J) "..AL["Broken Stairs"] };
 		{ BLUE.." K) "..AL["Ramp to Guardian's Library"].." ("..Atlas_GetBossName("Shade of Aran")..")" };
-		{ BLUE.." L) "..AL["Suspicious Bookshelf"].." ("..Atlas_GetBossName("Terestian Illhoof")..")" };
+		{ BLUE.." L) "..AL["Mysterious Bookshelf"].." ("..Atlas_GetBossName("Terestian Illhoof")..")" };
 		{ BLUE.." M) "..AL["Ramp up to the Celestial Watch"].." ("..Atlas_GetBossName("Netherspite")..")" };
 		{ BLUE..INDENT..AL["Ramp down to the Gamesman's Hall"].." ("..Atlas_GetBossName("Chess Event")..")" };
 		{ BLUE.." N) "..AL["Ramp to Medivh's Chamber"] };

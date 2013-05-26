@@ -56,9 +56,9 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "Убейте Сокрушителя облаков Кобо";
 
 	-- Assault on Zan'vess
---	AL["Kyparite Quarry Sonic Control Towers"] = "Kyparite Quarry Sonic Control Towers";
---	AL["Whispering Stones Sonic Control Towers"] = "Whispering Stones Sonic Control Towers";
---	AL["Venomsting Pits Sonic Control Towers"] = "Venomsting Pits Sonic Control Towers";
+	AL["Kyparite Quarry Sonic Control Towers"] = "Кипаритовый карьер - Звуковая колонна";
+	AL["Whispering Stones Sonic Control Towers"] = "Шепчущие камни - Звуковая колонна";
+	AL["Venomsting Pits Sonic Control Towers"] = "Ямы ядохвостов - Звуковая колонна";
 	AL["Landing"] = "Плацдарм";
 	AL["Squad Leader Bosh"] = "Командир роты Бош";
 	AL["Commander Tel'vrak"] = "Командир Тел'врак";
@@ -82,12 +82,12 @@ if AL then
 	AL["Admiral Hodgson"] = "Адмирал Ходжсон";
 
 	-- Blood in the Snow
---	AL["Dark Iron Mountaineers"] = "Dark Iron Mountaineers";
---	AL["Scout Stonebeard"] = "Scout Stonebeard";
---	AL["Scout Boldbrew"] = "Scout Boldbrew";
---	AL["Scout Forgefellow"] = "Scout Forgefellow";
---	AL["Farastu"] = "Farastu";
---	AL["Hekima the Wise"] = "Hekima the Wise";
+	AL["Dark Iron Mountaineers"] = "Горный пехотинец Черного Железа";
+	AL["Scout Stonebeard"] = "Разведчик Камнебород";
+	AL["Scout Boldbrew"] = "Разведчица Резковар";
+	AL["Scout Forgefellow"] = "Разведчик Кузнебрат";
+	AL["Farastu"] = "Фарасту";
+	AL["Hekima the Wise"] = "Хекима Мудрый";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "Карсар Кровопускатель";
@@ -108,8 +108,8 @@ if AL then
 	AL["Darkhatched Lizard-Lord"] = "Чеуйчатый повелитель Темной Кладки";
 	AL["The Spring Drifter"] = "\"Весенняя лодка\"";
 	AL["Cave"] = "Пещера";
---	AL["Docking"] = "Docking";
---	AL["Saurok Hatchery"] = "Saurok Hatchery";
+	AL["Docking"] = "Швартовка";
+	AL["Saurok Hatchery"] = "Кладка яиц сауроков";
 	AL["Broodmaster Noshi"] = "Праматерь Ноши"
 	AL["West Statue"] = "Статуя - Запад";
 	AL["East Statue"] = "Статуя - Восток";
@@ -117,10 +117,10 @@ if AL then
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Гриззл Скрипетол";
---	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer";
---	AL["Crafty the Ambitious"] = "Crafty the Ambitious";
---	AL["Norushen"] = "Norushen";
---	AL["Echo of Y'Sharrj"] = "Echo of Y'Sharrj";
+	AL["Urtharges the Destroyer"] = "Уртардж Разрушитель";
+	AL["Crafty the Ambitious"] = "Хитрюга Амбициозный";
+	AL["Norushen"] = "Норусхен";
+	AL["Echo of Y'Sharrj"] = "Эхо И'Шараджа";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "Распорядитель полетов";
@@ -151,23 +151,23 @@ if AL then
 	AL["Thaumaturge Saresse"] = "Чародейка Саресс";
 
 	-- The Secrets of Ragefire
---	AL["Door"] = "Door";
---	AL["Dark Shaman Xorenth"] = "Dark Shaman Xorenth";
---	AL["Supply Crates"] = "Supply Crates";
---	AL["Proto-drake Eggs"] = "Proto-drake Eggs";
---	AL["Pandaria Artifacts"] = "Pandaria Artifacts";
---	AL["Battery"] = "Battery";
---	AL["Pool Pony"] = "Pool Pony";
---	AL["Sealed Gate"] = "Sealed Gate";
---	AL["Cannon Balls"] = "Cannon Balls";
---	AL["Broken Proto-Drake Egg"] = "Broken Proto-Drake Egg";
---	AL["Flame Hound"] = "Flame Hound";
---	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier";
---	AL["Overseer Elaglo"] = "Overseer Elaglo";
+	AL["Door"] = "Двери";
+	AL["Dark Shaman Xorenth"] = "Темный шаман Ксорент";
+	AL["Supply Crates"] = "Ящики с припасами";
+	AL["Proto-drake Eggs"] = "Яйца протодракона";
+	AL["Pandaria Artifacts"] = "Артефакты Пандарии";
+	AL["Battery"] = "Батарея";
+	AL["Pool Pony"] = "Надувной пони";
+	AL["Sealed Gate"] = "Закрытые врата";
+	AL["Cannon Balls"] = "Пушечные ядра";
+	AL["Broken Proto-Drake Egg"] = "Разбитое яйцо протодракона";
+	AL["Flame Hound"] = "Гончая пламени";
+	AL["Kor'kron Dire Soldier"] = "Кор'кронский яростный воин";
+	AL["Overseer Elaglo"] = "Надзиратель Элагло";
 	
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "Корабли Орды"; --need check
-	AL["The heart of ruined Theramore"] = "Руины Терамора "; --need check
+	AL["The heart of ruined Theramore"] = "Руины Терамора"; --need check
 	AL["Jaina"] = "Джайна"; --need check
 	AL["West Gate"] = "Западные ворота"; --need check
 

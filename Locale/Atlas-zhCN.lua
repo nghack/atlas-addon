@@ -234,6 +234,7 @@ if AL then
 	AL["Teleporter destination"] = "传送目的地";
 	AL["Third Stop"] = "第三次止步";
 	AL["Top"] = "顶层";
+	AL["Tunnel"] = "通道";
 	AL["Underwater"] = "水下";
 	AL["Upper"] = "上层";
 	AL["Varies"] = "多个位置";

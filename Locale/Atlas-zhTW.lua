@@ -34,10 +34,8 @@ AtlasSortIgnore = {};
 
 -- Syntax: ["real_zone_name"] = "localized map zone name"
 AtlasZoneSubstitutions = {
-	["The Temple of Atal'Hakkar"] = "沈沒的神廟";
 	["Ahn'Qiraj"] = "安其拉神廟";
 	["Karazhan"] = "卡拉贊 - 1.開始";
-	["Black Temple"] = "黑暗神廟 - 1.開始";
 };
 end
 
@@ -378,7 +376,7 @@ if AL then
 	--Auchindoun (Entrance)
 	AL["Clarissa"] = "克萊瑞莎";
 	AL["Greatfather Aldrimus"] = "大祖父阿爾崔瑪斯";
-	AL["Ha'Lei"] = "哈勒";
+	AL["Ha'lei"] = "哈勒";
 	AL["Horvon the Armorer <Armorsmith>"] = "護甲匠霍沃 <護甲鍛造師>";
 	AL["Ramdor the Mad"] = "瘋狂者藍姆多";
 	AL["Nexus-Prince Haramad"] = "奈薩斯王子哈拉瑪德";

@@ -27,7 +27,7 @@
 -- Datos de Atlas (Español)
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@hotmail.com
--- Úlltima Actualización (last update): 23/05/2013
+-- Úlltima Actualización (last update): 03/06/2013
 
 --]]
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
@@ -72,30 +72,30 @@ if AL then
 	AL["Commander Tel'vrak"] = "Comandante Tel'vrak";
 
 	-- Battle on the High Seas - Alliance
-	AL["Lieutenant Drak'on"] = "Teniente Drak'on"; --check
-	AL["Transport Cannon"] = "Transportar cañón"; --check
-	AL["Rope Pile"] = "Montón de cuerda"; --check
-	AL["Steal Explosives"] = "Robar explosivos"; --check
-	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter"; --falta
+	AL["Lieutenant Drak'on"] = "Teniente Drak'on";
+	AL["Transport Cannon"] = "Cañón de transporte";
+	AL["Rope Pile"] = "Montón de cuerda";
+	AL["Steal Explosives"] = "Robar explosivos";
+	AL["Lieutenant Sparklighter"] = "Teniente Chispaviva";
 	AL["Lieutenant Fizzel"] = "Teniente Fizzel";
-	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer"; --falta
-	AL["Run to the top deck and swing away!"] = "¡Corre a la cubierta superior y escapa nadando!"; --check
-	AL["Admiral Hagman"] = "Almirante Hagman"; --check
+	AL["Lieutenant Blasthammer"] = "Teniente Martillón";
+	AL["Run to the top deck and swing away!"] = "¡Corre a la cubierta superior y escapa con una cuerda!";
+	AL["Admiral Hagman"] = "Almirante Hagman";
 
 	-- Battle on the High Seas - Horde
-	AL["Lieutenant Parker"] = "Teniente Parker"; --check
-	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast"; --falta
-	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil"; --falta
-	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster"; --falta
-	AL["Admiral Hodgson"] = "Almirante Hodgson"; --check
+	AL["Lieutenant Parker"] = "Teniente Parker";
+	AL["Lieutenant Fuseblast"] = "Teniente Muchamecha";
+	AL["Lieutenant Fizzboil"] = "Teniente Borboteras";
+	AL["Lieutenant Boltblaster"] = "Teniente Bombarrayo";
+	AL["Admiral Hodgson"] = "Almirante Hodgson";
 
 	-- Blood in the Snow
-	AL["Dark Iron Mountaineers"] = "Montañeros Hierro Negro"; --check
-	AL["Scout Stonebeard"] = "Explorador Barbapétrea"; --check
-	AL["Scout Boldbrew"] = "Scout Boldbrew"; --falta
-	AL["Scout Forgefellow"] = "Scout Forgefellow"; --falta
-	AL["Farastu"] = "Farastu"; --falta
-	AL["Hekima the Wise"] = "Hekima el Sabio"; --check
+	AL["Dark Iron Mountaineers"] = "Montaraces Hierro Negro";
+	AL["Scout Stonebeard"] = "Explorador Barbapétrea";
+	AL["Scout Boldbrew"] = "Exploradora Birraudaz";
+	AL["Scout Forgefellow"] = "Explorador Forjaleal";
+	AL["Farastu"] = "Farastu";
+	AL["Hekima the Wise"] = "Hekima el Sabio";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "Karsar el Sangrador";
@@ -116,7 +116,7 @@ if AL then
 	AL["Darkhatched Lizard-Lord"] = "Señor lagarto Incubasombras";
 	AL["The Spring Drifter"] = "El Morador de la Primavera";
 	AL["Cave"] = "Cueva";
-	AL["Docking"] = "Embarcamiento"; --check
+	AL["Docking"] = "Embarcamiento";
 	AL["Saurok Hatchery"] = "Criadero de Saurok"; --check
 	AL["Broodmaster Noshi"] = "Maestro de linaje Noshi"
 	AL["West Statue"] = "Estatua del oeste";
@@ -125,20 +125,20 @@ if AL then
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "Grizzle Engranesuelto";
-	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer"; --falta
-	AL["Crafty the Ambitious"] = "Crafty the Ambitious"; --falta
-	AL["Norushen"] = "Norushen"; --check
-	AL["Echo of Y'Sharrj"] = "Echo of Y'Sharrj"; --falta
+	AL["Urtharges the Destroyer"] = "Urtharges el Destructor";
+	AL["Crafty the Ambitious"] = "Ingenioso el Ambicioso";
+	AL["Norushen"] = "Norushen";
+	AL["Echo of Y'Sharrj"] = "Eco de Y'Shaarj";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "El maestro de vuelo";
 	AL["General Nazgrim"] = "General Nazgrim";
-	AL["Warlord Bloodhilt"] = "Warlord Bloodhilt"; --falta
-	AL["Cordfellow Hack"] = "Cordfellow Hack"; --falta
-	AL["Rivett Clutchpop"] = "Rivett Clutchpop"; --falta
-	AL["Shademaster Kiryn"] = "Shademaster Kiryn"; --falta
+	AL["Warlord Bloodhilt"] = "Señor de la guerra Sangrastil";
+	AL["Cordfellow Hack"] = "Cablero Hack";
+	AL["Rivett Clutchpop"] = "Perno Rompemarchas";
+	AL["Shademaster Kiryn"] = "Maestra tétrica Kiryn";
 	AL["Shokia"] = "Shokia";
-	AL["Joan Lorraine"] = "Joan Lorraine"; --falta
+	AL["Joan Lorraine"] = "Joan Lorraine";
 
 	-- Greenstone Village
 
@@ -160,18 +160,18 @@ if AL then
 
 	-- The Secrets of Ragefire
 	AL["Door"] = "Puerta";
-	AL["Dark Shaman Xorenth"] = "Xorenth el Chamám Oscuro"; --check
+	AL["Dark Shaman Xorenth"] = "Chamán oscuro Xorenth";
 	AL["Supply Crates"] = "Cajones de suministros";
 	AL["Proto-drake Eggs"] = "Huevos de protodraco";
-	AL["Pandaria Artifacts"] = "Artefactos de Pandaria"; --check
+	AL["Pandaria Artifacts"] = "Artefactos de Pandaria";
 	AL["Battery"] = "Bastería";
-	AL["Pool Pony"] = "Pool Pony"; --falta
-	AL["Sealed Gate"] = "Puerta sellada"; --check
-	AL["Cannon Balls"] = "Balas de cañón"; --check
-	AL["Broken Proto-Drake Egg"] = "Huevo de protodraco roto"; --check
-	AL["Flame Hound"] = "Can de llamas"; --check
-	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier"; --falta
-	AL["Overseer Elaglo"] = "Overseer Elaglo"; --falta
+	AL["Pool Pony"] = "Poni flotador";
+	AL["Sealed Gate"] = "Puerta sellada";
+	AL["Cannon Balls"] = "Balas de cañón";
+	AL["Broken Proto-Drake Egg"] = "Huevo de protodraco roto";
+	AL["Flame Hound"] = "Can de llamas";
+	AL["Kor'kron Dire Soldier"] = "Soldado temible Kor'kron";
+	AL["Overseer Elaglo"] = "Sobrestante Elaglo";
 
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "Barco de la Horda";
@@ -185,9 +185,9 @@ if AL then
 	AL["Tanks"] = "Tanques";
 	AL["Thalen Songweaver"] = "Thalen Tejecanto";
 
-	-- Troves of the Thunder King -- CHECK
---	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
---	AL["Lever"] = "Lever";
+	-- Troves of the Thunder King
+	AL["God-Hulk Gulkan"] = "Dios mole Gulkan";
+	AL["Lever"] = "Palanca";
 	AL["Tenwu of the Red Smoke"] = "Tenwu del Humo Rojo";
 
 	-- Unga Ingoo

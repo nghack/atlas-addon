@@ -659,22 +659,6 @@ Syntax:
 		{ 5, 726, 46, 303 }; -- Elegon
 		{ 6, 677, 236, 382 }; -- Will of the Emperor
 	};
-	ShadoPanMonasteryA = {
-		{ 1, 673, 329, 310 }; -- Gu Cloudstrike
-		{ 4, 686, 366, 236 }; -- Taran Zhu
-	};
-	ShadoPanMonasteryB = {
-		{ 2, 657, 55, 307 }; -- Master Snowdrift
-		{ 3, 685, 373, 373 }; -- Sha of Violence
-	};
-	SiegeofNiuzaoTempleA = {
-		{ 1, 693, 143, 158 }; -- Vizier Jin'bak
-	};
-	SiegeofNiuzaoTempleB = {
-		{ 2, 738, 205, 325 }; -- Commander Vo'jak
-		{ 3, 692, 304, 236 }; -- General Pa'valak
-		{ 4, 727, 301, 141 }; -- Wing Leader Ner'onok
-	};
 	Scholomance = {
 		{ 1, 659, 140, 133 }; -- Instructor Chillheart
 		{ 2, 663, 394, 57 }; -- Jandice Barov
@@ -692,6 +676,38 @@ Syntax:
 		{ 2, 671, 231, 332 }; -- Brother Korloff
 		{ 3, 674, 226, 439 }; -- High Inquisitor Whitemane
 	};
+	ShadoPanMonasteryA = {
+		{ 1, 673, 329, 310 }; -- Gu Cloudstrike
+		{ 4, 686, 366, 236 }; -- Taran Zhu
+	};
+	ShadoPanMonasteryB = {
+		{ 2, 657, 55, 307 }; -- Master Snowdrift
+		{ 3, 685, 373, 373 }; -- Sha of Violence
+	};
+	SiegeofNiuzaoTempleA = {
+		{ 1, 693, 143, 158 }; -- Vizier Jin'bak
+	};
+	SiegeofNiuzaoTempleB = {
+		{ 2, 738, 205, 325 }; -- Commander Vo'jak
+		{ 3, 692, 304, 236 }; -- General Pa'valak
+		{ 4, 727, 301, 141 }; -- Wing Leader Ner'onok
+	};
+--[[	SiegeofOrgrimmar = {
+		{ 1, 852, xxx, xxx }; -- Immerseus
+		{ 2, 849, xxx, xxx }; -- The Fallen Protectors
+		{ 3, 866, xxx, xxx }; -- Norushen
+		{ 4, 867, xxx, xxx }; -- Sha of Pride
+		{ 5, 868, xxx, xxx }; -- Galakras
+		{ 6, 864, xxx, xxx }; -- Iron Juggernaut
+		{ 7, 856, xxx, xxx }; -- Kor'kron Dark Shaman
+		{ 8, 850, xxx, xxx }; -- General Nazgrim
+		{ 9, 846, xxx, xxx }; -- Malkorok
+		{ 10, 870, xxx, xxx }; -- Spoils of Pandaria
+		{ 11, 851, xxx, xxx }; -- Thok the Bloodthirsty
+		{ 12, 865, xxx, xxx }; -- Siegecrafter Blackfuse
+		{ 13, 853, xxx, xxx }; -- Paragons of the Klaxxi
+		{ 14, 869, xxx, xxx }; -- Garrosh Hellscream
+	};--]
 	StormstoutBrewery = {
 		{ 1, 668, 175, 340 }; -- Ook-Ook
 		{ 2, 669, 314, 280 }; -- Hoptallus

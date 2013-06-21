@@ -2886,6 +2886,46 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
 	};
+--[[	SiegeofOrgrimmar = {
+		ZoneName = { BZ["Siege of Orgrimmar"] };
+		Location = { BZ["Vale of Eternal Blossoms"].." / "..BZ["Orgrimmar"] };
+		DungeonID = "714";
+		DungeonHeroicID = "715";
+		Acronym = AL["SoO"];
+		JournalInstanceID = "369";
+		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
+		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
+		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot") };
+		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe") };
+		{ WHIT..INDENT..Atlas_GetBossName("Sun Tenderheart") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Norushen", 866) };
+		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption") };
+		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Pride", 867) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Kor'kron Dark Shaman", 856) };
+		{ WHIT..INDENT..Atlas_GetBossName("Earthbreaker Haromm") };
+		{ WHIT..INDENT..Atlas_GetBossName("Wavebinder Kardris") };
+		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
+		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
+		{ WHIT.."10) "..Atlas_GetBossName("Spoils of Pandaria", 870) };
+		{ WHIT.."11) "..Atlas_GetBossName("Thok the Bloodthirsty", 851) };
+		{ WHIT..INDENT..Atlas_GetBossName("Kor'kron Jailer") };
+		{ WHIT.."12) "..Atlas_GetBossName("Siegecrafter Blackfuse", 865) };
+		{ WHIT.."13) "..Atlas_GetBossName("Paragons of the Klaxxi", 853) };
+		{ WHIT..INDENT..Atlas_GetBossName("Hisek the Swarmkeeper") };
+		{ WHIT..INDENT..Atlas_GetBossName("Iyyokuk the Lucid") };
+		{ WHIT..INDENT..Atlas_GetBossName("Ka'roz the Locust") };
+		{ WHIT..INDENT..Atlas_GetBossName("Kaz'tik the Manipulator") };
+		{ WHIT..INDENT..Atlas_GetBossName("Kil'ruk the Wind-Reaver") };
+		{ WHIT..INDENT..Atlas_GetBossName("Korven the Prime") };
+		{ WHIT..INDENT..Atlas_GetBossName("Rik'kal the Dissector") };
+		{ WHIT..INDENT..Atlas_GetBossName("Skeer the Bloodseeker") };
+		{ WHIT..INDENT..Atlas_GetBossName("Xaril the Poisoned Mind") };
+		{ WHIT.."14) "..Atlas_GetBossName("Garrosh Hellscream", 869) };
+	};--]]
 	StormstoutBrewery = {
 		ZoneName = { BZ["Stormstout Brewery"] };
 		Location = { BZ["Valley of the Four Winds"] };

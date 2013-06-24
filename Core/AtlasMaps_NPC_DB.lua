@@ -692,7 +692,7 @@ Syntax:
 		{ 3, 692, 304, 236 }; -- General Pa'valak
 		{ 4, 727, 301, 141 }; -- Wing Leader Ner'onok
 	};
---[[	SiegeofOrgrimmar = {
+--[[SiegeofOrgrimmar = {
 		{ 1, 852, xxx, xxx }; -- Immerseus
 		{ 2, 849, xxx, xxx }; -- The Fallen Protectors
 		{ 3, 866, xxx, xxx }; -- Norushen
@@ -745,5 +745,5 @@ Syntax:
 		{ 11, 829, 405, 79 }; -- Twin Consorts
 		{ 12, 832, 118, 339 }; -- Lei Shen
 		{ 13, 831, 370, 453 }; -- Ra-den
-	};
+	};]]
 };

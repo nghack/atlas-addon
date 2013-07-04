@@ -368,6 +368,7 @@ if AL then
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
+	AL["SoO"] = "SoO"; --Siege of Orgrimmar
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
@@ -1183,6 +1184,8 @@ if AL then
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "影踪大师楚秋";
 
+	--Siege of Orgrimmar
+
 	--Stormstout Brewery
 	AL["Auntie Stormstout"] = "风暴烈酒大婶";
 	AL["Chen Stormstout"] = "陈·风暴烈酒";
@@ -1194,13 +1197,13 @@ if AL then
 	--Terrace of Endless Spring
 
 	--Throne of Thunder
-	AL["Monara <The Last Queen>"] = "莫纳拉 <The Last Queen>";
-	AL["No'ku Stormsayer <Lord of Tempest>"] = "颂风者诺库 <Lord of Tempest>";
+	AL["Monara <The Last Queen>"] = "莫纳拉 <末代皇后>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "颂风者诺库 <狂风领主>";
 	AL["Rocky Horror"] = "岩石恐魔";
 	AL["Focused Eye"] = "聚焦之眼";
 	AL["Unblinking Eye"] = "不眠之眼";
 	AL["Archritualist Kelada"] = "大祭师克拉达";
-	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "弗赖什鲁克 <Primordial Saurok Horror>";
-	AL["Zao'cho <The Emperor's Shield>"] = "曹卓 <The Emperor's Shield>";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "感染者弗赖什鲁克 <源生蜥蜴恐魔>";
+	AL["Zao'cho <The Emperor's Shield>"] = "曹卓 <皇帝之盾>";
 
 end

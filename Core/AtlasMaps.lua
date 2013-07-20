@@ -2911,6 +2911,7 @@ Syntax:
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
 		{ WHIT.."10) "..Atlas_GetBossName("Spoils of Pandaria", 870) };
+		{ WHIT..INDENT..Atlas_GetBossName("Secured Stockpile of Pandaren Spoils") };
 		{ WHIT.."11) "..Atlas_GetBossName("Thok the Bloodthirsty", 851) };
 		{ WHIT..INDENT..Atlas_GetBossName("Kor'kron Jailer") };
 		{ WHIT.."12) "..Atlas_GetBossName("Siegecrafter Blackfuse", 865) };

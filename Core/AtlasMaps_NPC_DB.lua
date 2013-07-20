@@ -707,7 +707,7 @@ Syntax:
 		{ 12, 865, xxx, xxx }; -- Siegecrafter Blackfuse
 		{ 13, 853, xxx, xxx }; -- Paragons of the Klaxxi
 		{ 14, 869, xxx, xxx }; -- Garrosh Hellscream
-	};--]
+	};--]]
 	StormstoutBrewery = {
 		{ 1, 668, 175, 340 }; -- Ook-Ook
 		{ 2, 669, 314, 280 }; -- Hoptallus
@@ -745,5 +745,5 @@ Syntax:
 		{ 11, 829, 405, 79 }; -- Twin Consorts
 		{ 12, 832, 118, 339 }; -- Lei Shen
 		{ 13, 831, 370, 453 }; -- Ra-den
-	};]]
+	};
 };

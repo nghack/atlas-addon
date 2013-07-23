@@ -7,6 +7,14 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.26.00 (XX XX, 2013)
+-----------------------
+- TOC update to support WoW 5.4
+- Map added:
+    - Siege of Orgrimmar (TBD)
+- Translation update
+    - zhCN/zhTW (ananhaid)
+
 v1.25.00 (May 21, 2013)
 -----------------------
 - TOC update to support WoW 5.3

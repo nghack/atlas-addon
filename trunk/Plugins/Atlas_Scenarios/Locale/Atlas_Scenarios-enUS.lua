@@ -55,7 +55,7 @@ if AL then
 	AL["Defeat Satay Byu"] = "Defeat Satay Byu";
 	AL["Defeat Cloudbender Kobo"] = "Defeat Cloudbender Kobo";
 
-	-- Assault on Zan'vess]
+	-- Assault on Zan'vess
 	AL["Kyparite Quarry Sonic Control Towers"] = "Kyparite Quarry Sonic Control Towers";
 	AL["Whispering Stones Sonic Control Towers"] = "Whispering Stones Sonic Control Towers";
 	AL["Venomsting Pits Sonic Control Towers"] = "Venomsting Pits Sonic Control Towers";

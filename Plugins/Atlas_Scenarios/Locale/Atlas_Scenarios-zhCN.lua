@@ -56,12 +56,38 @@ if AL then
 	AL["Defeat Cloudbender Kobo"] = "击杀驾云者科博";
 
 	-- Assault on Zan'vess
+	AL["Kyparite Quarry Sonic Control Towers"] = "凯帕琥珀采掘场声波控制塔";
+	AL["Whispering Stones Sonic Control Towers"] = "低语之石声波控制塔";
+	AL["Venomsting Pits Sonic Control Towers"] = "毒刺蝎巢声波控制塔";
+	AL["Landing"] = "Landing";
+	AL["Squad Leader Bosh"] = "Squad Leader Bosh";
+	AL["Commander Tel'vrak"] = "指挥官泰尔伏拉克";
 
 	-- Battle on the High Seas - Alliance
+	AL["Lieutenant Drak'on"] = "Lieutenant Drak'on";
+	AL["Transport Cannon"] = "Transport Cannon";
+	AL["Rope Pile"] = "Rope Pile";
+	AL["Steal Explosives"] = "窃取炸药";
+	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
+	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
+	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
+	AL["Run to the top deck and swing away!"] = "Run to the top deck and swing away!";
+	AL["Admiral Hagman"] = "海军上将哈格曼";
 
 	-- Battle on the High Seas - Horde
+	AL["Lieutenant Parker"] = "Lieutenant Parker";
+	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
+	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
+	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
+	AL["Admiral Hodgson"] = "海军上将霍奇逊";
 
 	-- Blood in the Snow
+	AL["Dark Iron Mountaineers"] = "黑铁巡山人";
+	AL["Scout Stonebeard"] = "斥候石须";
+	AL["Scout Boldbrew"] = "斥候粗酿";
+	AL["Scout Forgefellow"] = "斥候炉匠";
+	AL["Farastu"] = "Farastu";
+	AL["Hekima the Wise"] = "Hekima the Wise";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "放血者卡萨尔";
@@ -77,18 +103,67 @@ if AL then
 	AL["Abomination of Anger"] = "怒煞畸体";
 
 	-- Dagger in the Dark
+	AL["Vol'jin"] = "沃金";
+	AL["Saurok Cave"] = "蜥蜴人洞穴";
+	AL["Darkhatched Lizard-Lord"] = "Darkhatched Lizard-Lord";
+	AL["The Spring Drifter"] = "The Spring Drifter";
+	AL["Cave"] = "洞穴";
+	AL["Docking"] = "Docking";
+	AL["Saurok Hatchery"] = "Saurok Hatchery";
+	AL["Broodmaster Noshi"] = "孵化大师诺什"
+	AL["West Statue"] = "West Statue";
+	AL["East Statue"] = "East Statue";
+	AL["Rak'gor Bloodrazor"] = "Rak'gor Bloodrazor";
 
 	-- Dark Heart of Pandaria
+	AL["Grizzle Gearslip"] = "格里兹尔·轮滑";
+	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer";
+	AL["Crafty the Ambitious"] = "Crafty the Ambitious";
+	AL["Norushen"] = "Norushen";
+	AL["Echo of Y'Sharrj"] = "亚煞极的回响";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "飞行管理员";
+	AL["General Nazgrim"] = "纳兹戈林将军";
+	AL["Warlord Bloodhilt"] = "血柄督军";
+	AL["Cordfellow Hack"] = "Cordfellow Hack";
+	AL["Rivett Clutchpop"] = "Rivett Clutchpop";
+	AL["Shademaster Kiryn"] = "Shademaster Kiryn";
+	AL["Shokia"] = "Shokia";
+	AL["Joan Lorraine"] = "Joan Lorraine";
 
 	-- Greenstone Village
 
 	-- Lion's Landing
 	AL["The Flight MasterLL"] = "飞行管理员";
+	AL["Daggin Windbeard"] = "达金·风须";
+	AL["Attackers"] = "Attackers";
+	AL["High Marshal Twinbraid"] = "大元帅双辫";
+	AL["Admiral Taylor"] = "海军上将泰勒";
+	AL["Wolf-Rider Gaja"] = "Wolf-Rider Gaja";
+	AL["Amber Kearnen"] = "安玻·吉尔妮";
+	AL["Sully \"The Pickle\" McLeary"] = "“腌菜”苏利·麦克莱利";
+	AL["Mishka"] = "米希卡";
+	AL["Weapons"] = "Weapons";
+	AL["Wave One"] = "Wave One";
+	AL["Wave Two"] = "Wave Two";
+	AL["Wave Three"] = "Wave Three";
+	AL["Thaumaturge Saresse"] = "Thaumaturge Saresse";
 
 	-- The Secrets of Ragefire
+	AL["Door"] = "Door";
+	AL["Dark Shaman Xorenth"] = "Dark Shaman Xorenth";
+	AL["Supply Crates"] = "Supply Crates";
+	AL["Proto-drake Eggs"] = "Proto-drake Eggs";
+	AL["Pandaria Artifacts"] = "Pandaria Artifacts";
+	AL["Battery"] = "Battery";
+	AL["Pool Pony"] = "Pool Pony";
+	AL["Sealed Gate"] = "Sealed Gate";
+	AL["Cannon Balls"] = "Cannon Balls";
+	AL["Broken Proto-Drake Egg"] = "Broken Proto-Drake Egg";
+	AL["Flame Hound"] = "Flame Hound";
+	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier";
+	AL["Overseer Elaglo"] = "Overseer Elaglo";
 
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "部落船只";
@@ -103,9 +178,9 @@ if AL then
 	AL["Thalen Songweaver"] = "萨伦·织歌者";
 
 	-- Troves of the Thunder King
---	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
---	AL["Lever"] = "Lever";
---	AL["Tenwu of the Red Smoke"] = "Tenwu of the Red Smoke";
+	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
+	AL["Lever"] = "Lever";
+	AL["Tenwu of the Red Smoke"] = "Tenwu of the Red Smoke";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "酿酒大锅";

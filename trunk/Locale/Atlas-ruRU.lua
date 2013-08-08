@@ -372,6 +372,7 @@ if AL then
 	AL["SPM"] = "МШадо"; --Монастырь Шадо-Пан
 	AL["SNT"] = "ОХН"; --Осада храма Нюцзао
 	AL["SB"] = "ХБП"; --Хмелеварня Буйных Портеров
+	AL["SoO"] = "Оо"; --Осада Оргриммара
 	AL["TJS"] = "ХНЗ"; --Храм Нефритовой Змеи
 	AL["TES"] = "ТВВ"; --Терраса Вечной Весны
 	AL["ToT"] = "ЗМ"; --Throne of Thunder
@@ -1186,6 +1187,8 @@ if AL then
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Шадо-мастер Чум Киу";
+
+	--Siege of Orgrimmar
 
 	--Stormstout Brewery
 	AL["Auntie Stormstout"] = "Тетушка Буйный Портер";

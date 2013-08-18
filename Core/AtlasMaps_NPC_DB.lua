@@ -692,14 +692,20 @@ Syntax:
 		{ 3, 692, 304, 236 }; -- General Pa'valak
 		{ 4, 727, 301, 141 }; -- Wing Leader Ner'onok
 	};
---[[SiegeofOrgrimmar = {
-		{ 1, 852, xxx, xxx }; -- Immerseus
-		{ 2, 849, xxx, xxx }; -- The Fallen Protectors
+	--[[SiegeofOrgrimmarA = {
+		{ 1, 849, xxx, xxx }; -- The Fallen Protectors
+	};
+	SiegeofOrgrimmarB = {
+		{ 2, 852, xxx, xxx }; -- Immerseus
 		{ 3, 866, xxx, xxx }; -- Norushen
 		{ 4, 867, xxx, xxx }; -- Sha of Pride
+	};
+	SiegeofOrgrimmarC = {
 		{ 5, 868, xxx, xxx }; -- Galakras
 		{ 6, 864, xxx, xxx }; -- Iron Juggernaut
 		{ 7, 856, xxx, xxx }; -- Kor'kron Dark Shaman
+	};
+	SiegeofOrgrimmarD = {
 		{ 8, 850, xxx, xxx }; -- General Nazgrim
 		{ 9, 846, xxx, xxx }; -- Malkorok
 		{ 10, 870, xxx, xxx }; -- Spoils of Pandaria

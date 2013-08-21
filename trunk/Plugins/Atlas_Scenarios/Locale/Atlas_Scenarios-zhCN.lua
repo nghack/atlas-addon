@@ -59,26 +59,26 @@ if AL then
 	AL["Kyparite Quarry Sonic Control Towers"] = "凯帕琥珀采掘场声波控制塔";
 	AL["Whispering Stones Sonic Control Towers"] = "低语之石声波控制塔";
 	AL["Venomsting Pits Sonic Control Towers"] = "毒刺蝎巢声波控制塔";
-	AL["Landing"] = "Landing";
-	AL["Squad Leader Bosh"] = "Squad Leader Bosh";
+	AL["Landing"] = "着陆";
+	AL["Squad Leader Bosh"] = "小队长波什";
 	AL["Commander Tel'vrak"] = "指挥官泰尔伏拉克";
 
 	-- Battle on the High Seas - Alliance
-	AL["Lieutenant Drak'on"] = "Lieutenant Drak'on";
-	AL["Transport Cannon"] = "Transport Cannon";
-	AL["Rope Pile"] = "Rope Pile";
+	AL["Lieutenant Drak'on"] = "达克昂上尉";
+	AL["Transport Cannon"] = "传送火炮";
+	AL["Rope Pile"] = "绳子堆";
 	AL["Steal Explosives"] = "窃取炸药";
-	AL["Lieutenant Sparklighter"] = "Lieutenant Sparklighter";
-	AL["Lieutenant Fizzel"] = "Lieutenant Fizzel";
-	AL["Lieutenant Blasthammer"] = "Lieutenant Blasthammer";
-	AL["Run to the top deck and swing away!"] = "Run to the top deck and swing away!";
+	AL["Lieutenant Sparklighter"] = "火花上尉";
+	AL["Lieutenant Fizzel"] = "沸腾上尉";
+	AL["Lieutenant Blasthammer"] = "爆锤上尉";
+	AL["Run to the top deck and swing away!"] = "跑到顶层甲板上并荡走！";
 	AL["Admiral Hagman"] = "海军上将哈格曼";
 
 	-- Battle on the High Seas - Horde
-	AL["Lieutenant Parker"] = "Lieutenant Parker";
-	AL["Lieutenant Fuseblast"] = "Lieutenant Fuseblast";
-	AL["Lieutenant Fizzboil"] = "Lieutenant Fizzboil";
-	AL["Lieutenant Boltblaster"] = "Lieutenant Boltblaster";
+	AL["Lieutenant Parker"] = "派克上尉";
+	AL["Lieutenant Fuseblast"] = "爆索上尉";
+	AL["Lieutenant Fizzboil"] = "燃剂上尉";
+	AL["Lieutenant Boltblaster"] = "爆栓上尉";
 	AL["Admiral Hodgson"] = "海军上将霍奇逊";
 
 	-- Blood in the Snow
@@ -86,8 +86,8 @@ if AL then
 	AL["Scout Stonebeard"] = "斥候石须";
 	AL["Scout Boldbrew"] = "斥候粗酿";
 	AL["Scout Forgefellow"] = "斥候炉匠";
-	AL["Farastu"] = "Farastu";
-	AL["Hekima the Wise"] = "Hekima the Wise";
+	AL["Farastu"] = "法拉斯图";
+	AL["Hekima the Wise"] = "睿智的哈基玛";
 
 	-- Brewmoon Festival
 	AL["Karsar the Bloodletter"] = "放血者卡萨尔";
@@ -105,65 +105,65 @@ if AL then
 	-- Dagger in the Dark
 	AL["Vol'jin"] = "沃金";
 	AL["Saurok Cave"] = "蜥蜴人洞穴";
-	AL["Darkhatched Lizard-Lord"] = "Darkhatched Lizard-Lord";
-	AL["The Spring Drifter"] = "The Spring Drifter";
+	AL["Darkhatched Lizard-Lord"] = "暗生蜥蜴领主";
+	AL["The Spring Drifter"] = "溪流漂流船";
 	AL["Cave"] = "洞穴";
-	AL["Docking"] = "Docking";
-	AL["Saurok Hatchery"] = "Saurok Hatchery";
+	AL["Docking"] = "码头";
+	AL["Saurok Hatchery"] = "黑暗孵化间";
 	AL["Broodmaster Noshi"] = "孵化大师诺什"
-	AL["West Statue"] = "West Statue";
-	AL["East Statue"] = "East Statue";
-	AL["Rak'gor Bloodrazor"] = "Rak'gor Bloodrazor";
+	AL["West Statue"] = "西部雕像";
+	AL["East Statue"] = "东部雕像";
+	AL["Rak'gor Bloodrazor"] = "拉克戈尔·血刃";
 
 	-- Dark Heart of Pandaria
 	AL["Grizzle Gearslip"] = "格里兹尔·轮滑";
-	AL["Urtharges the Destroyer"] = "Urtharges the Destroyer";
-	AL["Crafty the Ambitious"] = "Crafty the Ambitious";
-	AL["Norushen"] = "Norushen";
+	AL["Urtharges the Destroyer"] = "毁灭者乌萨吉";
+	AL["Crafty the Ambitious"] = "野心勃勃的克拉夫提";
+	AL["Norushen"] = "诺鲁什";
 	AL["Echo of Y'Sharrj"] = "亚煞极的回响";
 
 	-- Domination Point
 	AL["The Flight MasterDP"] = "飞行管理员";
 	AL["General Nazgrim"] = "纳兹戈林将军";
 	AL["Warlord Bloodhilt"] = "血柄督军";
-	AL["Cordfellow Hack"] = "Cordfellow Hack";
-	AL["Rivett Clutchpop"] = "Rivett Clutchpop";
-	AL["Shademaster Kiryn"] = "Shademaster Kiryn";
-	AL["Shokia"] = "Shokia";
-	AL["Joan Lorraine"] = "Joan Lorraine";
+	AL["Cordfellow Hack"] = "科德费勒·海克/阿罗克·碎石";
+	AL["Rivett Clutchpop"] = "利维特·急刹";
+	AL["Shademaster Kiryn"] = "匿踪大师琪麟";
+	AL["Shokia"] = "夏琪亚";
+	AL["Joan Lorraine"] = "琼·洛林/奇术士月塔/女牧师拉瑞勒";
 
 	-- Greenstone Village
 
 	-- Lion's Landing
 	AL["The Flight MasterLL"] = "飞行管理员";
 	AL["Daggin Windbeard"] = "达金·风须";
-	AL["Attackers"] = "Attackers";
+	AL["Attackers"] = "进攻者";
 	AL["High Marshal Twinbraid"] = "大元帅双辫";
 	AL["Admiral Taylor"] = "海军上将泰勒";
-	AL["Wolf-Rider Gaja"] = "Wolf-Rider Gaja";
+	AL["Wolf-Rider Gaja"] = "狼骑兵格夏";
 	AL["Amber Kearnen"] = "安玻·吉尔妮";
 	AL["Sully \"The Pickle\" McLeary"] = "“腌菜”苏利·麦克莱利";
 	AL["Mishka"] = "米希卡";
-	AL["Weapons"] = "Weapons";
-	AL["Wave One"] = "Wave One";
-	AL["Wave Two"] = "Wave Two";
-	AL["Wave Three"] = "Wave Three";
-	AL["Thaumaturge Saresse"] = "Thaumaturge Saresse";
+	AL["Weapons"] = "武器";
+	AL["Wave One"] = "第一波";
+	AL["Wave Two"] = "第二波";
+	AL["Wave Three"] = "第三波";
+	AL["Thaumaturge Saresse"] = "魔术师萨瑞瑟/烈日行者查贡";
 
 	-- The Secrets of Ragefire
-	AL["Door"] = "Door";
-	AL["Dark Shaman Xorenth"] = "Dark Shaman Xorenth";
-	AL["Supply Crates"] = "Supply Crates";
-	AL["Proto-drake Eggs"] = "Proto-drake Eggs";
-	AL["Pandaria Artifacts"] = "Pandaria Artifacts";
-	AL["Battery"] = "Battery";
-	AL["Pool Pony"] = "Pool Pony";
-	AL["Sealed Gate"] = "Sealed Gate";
-	AL["Cannon Balls"] = "Cannon Balls";
-	AL["Broken Proto-Drake Egg"] = "Broken Proto-Drake Egg";
-	AL["Flame Hound"] = "Flame Hound";
-	AL["Kor'kron Dire Soldier"] = "Kor'kron Dire Soldier";
-	AL["Overseer Elaglo"] = "Overseer Elaglo";
+	AL["Door"] = "门";
+	AL["Dark Shaman Xorenth"] = "黑暗萨满克索伦斯";
+	AL["Supply Crates"] = "补给箱";
+	AL["Proto-drake Eggs"] = "始祖龙蛋";
+	AL["Pandaria Artifacts"] = "潘达利亚遗物";
+	AL["Battery"] = "电池";
+	AL["Pool Pony"] = "池塘小马";
+	AL["Sealed Gate"] = "封闭的大门";
+	AL["Cannon Balls"] = "炮弹";
+	AL["Broken Proto-Drake Egg"] = "破碎的始祖龙蛋";
+	AL["Flame Hound"] = "烈焰猎犬";
+	AL["Kor'kron Dire Soldier"] = "库卡隆恐怖战士";
+	AL["Overseer Elaglo"] = "监视者伊拉格罗";
 
 	-- Theramore's Fall - Alliance
 	AL["Horde Ships"] = "部落船只";
@@ -178,9 +178,9 @@ if AL then
 	AL["Thalen Songweaver"] = "萨伦·织歌者";
 
 	-- Troves of the Thunder King
-	AL["God-Hulk Gulkan"] = "God-Hulk Gulkan";
-	AL["Lever"] = "Lever";
-	AL["Tenwu of the Red Smoke"] = "Tenwu of the Red Smoke";
+	AL["God-Hulk Gulkan"] = "巨灵神古尔坎";
+	AL["Lever"] = "杠杆";
+	AL["Tenwu of the Red Smoke"] = "“赤烟”腾武";
 
 	-- Unga Ingoo
 	AL["Brewing Cauldron"] = "酿酒大锅";

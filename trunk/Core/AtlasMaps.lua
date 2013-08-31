@@ -1205,7 +1205,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Spy To'gun"] };
 	};
 	BlackTempleStart = {
-		ZoneName = { BZ["Black Temple"]..AL[MapA].." ("..AL["Start"]..")" };
+		ZoneName = { BZ["Black Temple"]..AL["MapA"].." ("..AL["Start"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
@@ -1225,7 +1225,7 @@ Syntax:
 		{ GREN..INDENT..AL["Seer Kanai"] };
 	};
 	BlackTempleBasement = {
-		ZoneName = { BZ["Black Temple"]..AL[MapB].." ("..AL["Basement"]..")" };
+		ZoneName = { BZ["Black Temple"]..AL["MapB"].." ("..AL["Basement"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
@@ -1241,7 +1241,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Teron Gorefiend") };
 	};
 	BlackTempleTop = {
-		ZoneName = { BZ["Black Temple"]..AL[MapC].." ("..AL["Top"]..")" };
+		ZoneName = { BZ["Black Temple"]..AL["MapC"].." ("..AL["Top"]..")" };
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
@@ -1543,7 +1543,7 @@ Syntax:
 		{ GREN..INDENT..AL["Drisella"].." ("..FACTION_HORDE..", "..AL["Heroic"]..")" };
 	};
 	KarazhanStart = {
-		ZoneName = { BZ["Karazhan"]..AL[MapA].." ("..AL["Start"]..")" };
+		ZoneName = { BZ["Karazhan"]..AL["MapA"].." ("..AL["Start"]..")" };
 		Location = { BZ["Deadwind Pass"] };
 		DungeonID = "175";
 		Acronym = AL["Kara"];
@@ -1591,7 +1591,7 @@ Syntax:
 		{ GREN.." 9') "..AL["Barnes <The Stage Manager>"] };
 	};
 	KarazhanEnd = {
-		ZoneName = { BZ["Karazhan"]..AL[MapB].." ("..AL["End"]..")" };
+		ZoneName = { BZ["Karazhan"]..AL["MapB"].." ("..AL["End"]..")" };
 		Location = { BZ["Deadwind Pass"] };
 		DungeonID = "175";
 		Acronym = AL["Kara"];
@@ -1907,7 +1907,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Elder Ohanzee"].." ("..AL["Lunar Festival"]..")" };
 	};
 	IcecrownCitadelA = {
-		ZoneName = { BZ["Icecrown Citadel"]..AL[MapA].." ("..AL["Lower"]..")" };
+		ZoneName = { BZ["Icecrown Citadel"]..AL["MapA"].." ("..AL["Lower"]..")" };
 		Location = { BZ["Icecrown"] };
 		DungeonID = "279";
 		DungeonHeroicID = "280";
@@ -1928,7 +1928,7 @@ Syntax:
 		{ GREN..INDENT..BZ["Deathbringer's Rise"].." ("..AL["Teleporter"]..", "..AL["Upper"]..")" };
 	};
 	IcecrownCitadelB = {
-		ZoneName = { BZ["Icecrown Citadel"]..AL[MapB].." ("..AL["Upper"]..")" };
+		ZoneName = { BZ["Icecrown Citadel"]..AL["MapB"].." ("..AL["Upper"]..")" };
 		Location = { BZ["Icecrown"] };
 		DungeonID = "279";
 		DungeonHeroicID = "280";
@@ -1957,7 +1957,7 @@ Syntax:
 		{ GREN.." 5') "..AL["Sindragosa's Lair"].." ("..AL["Teleporter"]..")" };
 	};
 	IcecrownCitadelC = {
-		ZoneName = { BZ["Icecrown Citadel"]..AL[MapC].." ("..BZ["The Frozen Throne"]..")" };
+		ZoneName = { BZ["Icecrown Citadel"]..AL["MapC"].." ("..BZ["The Frozen Throne"]..")" };
 		Location = { BZ["Icecrown"] };
 		DungeonID = "279";
 		DungeonHeroicID = "280";
@@ -2142,7 +2142,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Anub'arak") };
 	};
 	UlduarA = {
-		ZoneName = { BZ["Ulduar"]..AL[MapA].." ("..AL["The Siege"]..")" };
+		ZoneName = { BZ["Ulduar"]..AL["MapA"].." ("..AL["The Siege"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		DungeonID = "243";
 		DungeonHeroicID = "244";
@@ -2164,7 +2164,7 @@ Syntax:
 		{ GREN.." 4') "..BZ["The Scrapyard"].." ("..AL["Teleporter"]..")" };
 	};
 	UlduarB = {
-		ZoneName = { BZ["Ulduar"]..AL[MapB].." ("..BZ["The Antechamber"]..")" };
+		ZoneName = { BZ["Ulduar"]..AL["MapB"].." ("..BZ["The Antechamber"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		DungeonID = "243";
 		DungeonHeroicID = "244";
@@ -2183,7 +2183,7 @@ Syntax:
 		{ GREN..INDENT..AL["Archivum Console"] };
 	};
 	UlduarC = {
-		ZoneName = { BZ["Ulduar"]..AL[MapC].." ("..AL["The Keepers"]..")" };
+		ZoneName = { BZ["Ulduar"]..AL["MapC"].." ("..AL["The Keepers"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		DungeonID = "243";
 		DungeonHeroicID = "244";
@@ -2204,7 +2204,7 @@ Syntax:
 		{ GREN.." 8') "..BZ["The Conservatory of Life"].." ("..AL["Teleporter"]..")" };
 	};
 	UlduarD = {
-		ZoneName = { BZ["Ulduar"]..AL[MapD].." ("..BZ["The Spark of Imagination"]..")" };
+		ZoneName = { BZ["Ulduar"]..AL["MapD"].." ("..BZ["The Spark of Imagination"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		DungeonID = "243";
 		DungeonHeroicID = "244";
@@ -2215,7 +2215,7 @@ Syntax:
 		{ GREN.." 9') "..BZ["The Spark of Imagination"].." ("..AL["Teleporter"]..")" };
 	};
 	UlduarE = {
-		ZoneName = { BZ["Ulduar"]..AL[MapE].." ("..BZ["The Descent into Madness"]..")" };
+		ZoneName = { BZ["Ulduar"]..AL["MapE"].." ("..BZ["The Descent into Madness"]..")" };
 		Location = { BZ["The Storm Peaks"] };
 		DungeonID = "243";
 		DungeonHeroicID = "244";
@@ -2380,7 +2380,7 @@ Syntax:
 		{ WHIT.." 6) "..Atlas_GetBossName("Nefarian's End", 174) };
 	};
 	CoTDragonSoulA = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL[MapA] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL["MapA"] };
 		Location = { BZ["Tanaris"] };
 		DungeonID = "447";
 		DungeonHeroicID = "448";
@@ -2395,7 +2395,7 @@ Syntax:
 		{ GREN..INDENT..AL["Lord Afrasastrasz"].." ("..AL["Lower"]..")" };
 	};
 	CoTDragonSoulB = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL[MapB] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL["MapB"] };
 		Location = { BZ["Tanaris"] };
 		DungeonID = "447";
 		DungeonHeroicID = "448";
@@ -2408,7 +2408,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Hagara the Stormbinder", 317) };
 	};
 	CoTDragonSoulC = {
-		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL[MapC] };
+		ZoneName = { BZ["Caverns of Time"]..AL["Colon"]..BZ["Dragon Soul"]..AL["MapC"] };
 		Location = { BZ["Tanaris"] };
 		DungeonID = "447";
 		DungeonHeroicID = "448";
@@ -2836,7 +2836,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Qin-xi") };
 	};
 	ShadoPanMonasteryA = {
-		ZoneName = { BZ["Shado-Pan Monastery"]..AL[MapA] };
+		ZoneName = { BZ["Shado-Pan Monastery"]..AL["MapA"] };
 		Location = { BZ["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
@@ -2849,7 +2849,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	ShadoPanMonasteryB = {
-		ZoneName = { BZ["Shado-Pan Monastery"]..AL[MapB] };
+		ZoneName = { BZ["Shado-Pan Monastery"]..AL["MapB"] };
 		Location = { BZ["Kun-Lai Summit"] };
 		DungeonID = "466";
 		DungeonHeroicID = "470";
@@ -2863,7 +2863,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Ban Bearheart"] };
 	};
 	SiegeofNiuzaoTempleA = {
-		ZoneName = { BZ["Siege of Niuzao Temple"]..AL[MapA] };
+		ZoneName = { BZ["Siege of Niuzao Temple"]..AL["MapA"] };
 		Location = { BZ["Townlong Steppes"] };
 		DungeonID = "554";
 		Acronym = AL["SNT"];
@@ -2875,7 +2875,7 @@ Syntax:
 		{ GREN.." 1') "..AL["Shado-Master Chum Kiu"] };
 	};
 	SiegeofNiuzaoTempleB = {
-		ZoneName = { BZ["Siege of Niuzao Temple"]..AL[MapB] };
+		ZoneName = { BZ["Siege of Niuzao Temple"]..AL["MapB"] };
 		Location = { BZ["Townlong Steppes"] };
 		DungeonID = "554";
 		Acronym = AL["SNT"];
@@ -2887,7 +2887,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Wing Leader Ner'onok", 727) };
 	};
 	SiegeofOrgrimmarA = {
-		ZoneName = { BZ["Siege of Orgrimmar"]..AL[MapA] };
+		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapA"] };
 		Location = { BZ["Vale of Eternal Blossoms"].." / "..BZ["Orgrimmar"] };
 		DungeonID = "714";
 		DungeonHeroicID = "715";
@@ -2898,7 +2898,7 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("The Fallen Protectors", 849) };
 	};
 	SiegeofOrgrimmarB = {
-		ZoneName = { BZ["Siege of Orgrimmar"]..AL[MapB] };
+		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapB"] };
 		Location = { BZ["Vale of Eternal Blossoms"].." / "..BZ["Orgrimmar"] };
 		DungeonID = "714";
 		DungeonHeroicID = "715";
@@ -2915,7 +2915,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Pride", 867) };
 	};
 	SiegeofOrgrimmarC = {
-		ZoneName = { BZ["Siege of Orgrimmar"]..AL[MapC] };
+		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapC"] };
 		Location = { BZ["Vale of Eternal Blossoms"].." / "..BZ["Orgrimmar"] };
 		DungeonID = "714";
 		DungeonHeroicID = "715";
@@ -2930,7 +2930,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Wavebinder Kardris") };
 	};
 	SiegeofOrgrimmarD = {
-		ZoneName = { BZ["Siege of Orgrimmar"]..AL[MapD] };
+		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapD"] };
 		Location = { BZ["Vale of Eternal Blossoms"].." / "..BZ["Orgrimmar"] };
 		DungeonID = "714";
 		DungeonHeroicID = "715";
@@ -3007,7 +3007,7 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
 	};
 	ThroneofThunderA = {
-		ZoneName = { BZ["Throne of Thunder"]..AL[MapA] };
+		ZoneName = { BZ["Throne of Thunder"]..AL["MapA"] };
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "633";
 		DungeonHeroicID = "634";
@@ -3028,7 +3028,7 @@ Syntax:
 		{ ORNG.." 2) "..AL["No'ku Stormsayer <Lord of Tempest>"].." ("..AL["Rare"]..")" };
 	};
 	ThroneofThunderB = {
-		ZoneName = { BZ["Throne of Thunder"]..AL[MapB] };
+		ZoneName = { BZ["Throne of Thunder"]..AL["MapB"] };
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "633";
 		DungeonHeroicID = "634";
@@ -3043,7 +3043,7 @@ Syntax:
 		{ ORNG.." 3) "..AL["Rocky Horror"].." ("..AL["Rare"]..")" };
 	};
 	ThroneofThunderC = {
-		ZoneName = { BZ["Throne of Thunder"]..AL[MapC] };
+		ZoneName = { BZ["Throne of Thunder"]..AL["MapC"] };
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "633";
 		DungeonHeroicID = "634";
@@ -3061,7 +3061,7 @@ Syntax:
 		{ ORNG.." 5) "..AL["Flesh'rok the Diseased <Primordial Saurok Horror>"].." ("..AL["Rare"]..")" };
 	};
 	ThroneofThunderD = {
-		ZoneName = { BZ["Throne of Thunder"]..AL[MapD] };
+		ZoneName = { BZ["Throne of Thunder"]..AL["MapD"] };
 		Location = { BZ["Isle of Thunder"] };
 		DungeonID = "633";
 		DungeonHeroicID = "634";

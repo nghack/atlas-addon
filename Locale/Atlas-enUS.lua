@@ -375,12 +375,12 @@ if AL then
 	AL["ToT"] = "ToT"; --Throne of Thunder
 	
 	--Map sections
-	AL[MapA] = " [A]"; -- For example: Shado-Pan Monastery [A]
-	AL[MapB] = " [B]";
-	AL[MapC] = " [C]";
-	AL[MapD] = " [D]";
-	AL[MapE] = " [E]";
-	AL[MapF] = " [F]";
+	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [B]";
+	AL["MapC"] = " [C]";
+	AL["MapD"] = " [D]";
+	AL["MapE"] = " [E]";
+	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps

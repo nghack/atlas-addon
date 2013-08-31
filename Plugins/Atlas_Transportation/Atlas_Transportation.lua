@@ -946,6 +946,9 @@ local myData = {
 		{ BLUE..BZ["Isle of Giants"] };
 		{ WHIT.."40) "..BZ["Beeble's Wreck"] };
 		{ "" };
+		{ BLUE..BZ["Timeless Isle"] };
+		{ WHIT.."41) "..BZ["Tushui Landing"] };
+		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
 	};
@@ -1033,6 +1036,9 @@ local myData = {
 		{ "" };
 		{ BLUE..BZ["Isle of Giants"] };
 		{ WHIT.."40) "..BZ["Bozzle's Wreck"] };
+		{ "" };
+		{ BLUE..BZ["Timeless Isle"] };
+		{ WHIT.."41) "..BZ["Huojin Landing"] };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };

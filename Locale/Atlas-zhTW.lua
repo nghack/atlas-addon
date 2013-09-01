@@ -369,6 +369,14 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+	
+	--Map sections
+	AL["MapA"] = " [一]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [二]";
+	AL["MapC"] = " [三]";
+	AL["MapD"] = " [四]";
+	AL["MapE"] = " [五]";
+	AL["MapF"] = " [六]";
 
 --************************************************
 -- Instance Entrance Maps

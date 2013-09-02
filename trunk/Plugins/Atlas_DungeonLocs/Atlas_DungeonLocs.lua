@@ -191,11 +191,12 @@ local myData = {
 		{ WHIT.." 3) "..BZ["Mogu'shan Vaults"]..", ".._RED..BZ["Kun-Lai Summit"] };
 		{ WHIT.." 4) "..BZ["Siege of Niuzao Temple"]..", ".._RED..BZ["Townlong Steppes"] };
 		{ WHIT.." 5) "..BZ["Gate of the Setting Sun"]..", ".._RED..BZ["Dread Wastes"].." / ".._RED..BZ["Vale of Eternal Blossoms"] };
-		{ WHIT.." 6) "..BZ["Mogu'shan Palace"]..", ".._RED..BZ["Vale of Eternal Blossoms"] };
-		{ WHIT.." 7) "..BZ["Terrace of Endless Spring"]..", ".._RED..BZ["The Veiled Stair"] };
-		{ WHIT.." 8) "..BZ["Temple of the Jade Serpent"]..", ".._RED..BZ["The Jade Forest"] };
-		{ WHIT.." 9) "..BZ["Heart of Fear"]..", ".._RED..BZ["Dread Wastes"] };
-		{ WHIT.."10) "..BZ["Stormstout Brewery"]..", ".._RED..BZ["Valley of the Four Winds"] };
+		{ WHIT.." 6) "..BZ["Siege of Orgrimmar"]..", ".._RED..BZ["Vale of Eternal Blossoms"] };
+		{ WHIT.." 7) "..BZ["Mogu'shan Palace"]..", ".._RED..BZ["Vale of Eternal Blossoms"] };
+		{ WHIT.." 8) "..BZ["Terrace of Endless Spring"]..", ".._RED..BZ["The Veiled Stair"] };
+		{ WHIT.." 9) "..BZ["Temple of the Jade Serpent"]..", ".._RED..BZ["The Jade Forest"] };
+		{ WHIT.."10) "..BZ["Heart of Fear"]..", ".._RED..BZ["Dread Wastes"] };
+		{ WHIT.."11) "..BZ["Stormstout Brewery"]..", ".._RED..BZ["Valley of the Four Winds"] };
 		{ GREN.." 1') "..BZ["Deepwind Gorge"]..", ".._RED..BZ["Valley of the Four Winds"] };
 		{ "" };
 		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };

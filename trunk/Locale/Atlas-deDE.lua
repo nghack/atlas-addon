@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 19.05.2013
+-- Letztes Update: 02.09.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -376,9 +376,18 @@ if AL then
 	AL["SPM"] = "SPK"; --Shado-Pan Monastery
 	AL["SNT"] = "BNT, Niuzao"; --Siege of Niuzao Temple
 	AL["SB"] = "BS, Brauerei"; --Stormstout Brewery
+	AL["SoO"] = "SuO, OG"; --Siege of Orgrimmar
 	AL["TJS"] = "TdJ, Jade"; --Temple of the Jade Serpent
 	AL["TES"] = "TdEF, Terrasse"; --Terrace of Endless Spring
 	AL["ToT"] = "TdD"; --Throne of Thunder
+
+	--Map sections
+	AL["MapA"] = " [A]";
+	AL["MapB"] = " [B]";
+	AL["MapC"] = " [C]";
+	AL["MapD"] = " [D]";
+	AL["MapE"] = " [E]";
+	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps
@@ -1190,6 +1199,8 @@ if AL then
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Shado-Meister Chum-Kiu";
+
+	--Siege of Orgrimmar
 
 	--Stormstout Brewery
 	AL["Auntie Stormstout"] = "Tantchen Sturmbräu";

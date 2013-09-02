@@ -45,6 +45,7 @@ Atlas_IngameLocales = {
 	-- ######################################################################
 	-- Mists of Pandaria
 	["Shado-Pan Assault"] = GetFactionInfoByID(1435),
+	["The August Celestials"] = GetFactionInfoByID(1341),
 
 	-- Cataclysm
 	["Avengers of Hyjal"] = GetFactionInfoByID(1204),

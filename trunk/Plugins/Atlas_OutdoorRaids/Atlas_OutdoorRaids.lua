@@ -31,6 +31,7 @@
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_OutdoorRaids");
 local ALC = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+local ALIL = Atlas_IngameLocales;
 
 local BLUE = "|cff6666ff";
 local GREN = "|cff66cc33";
@@ -75,15 +76,16 @@ local myData = {
 		JournalInstanceID = "322";
 		{ WHIT.." 1) "..Atlas_GetBossName("Nalak, The Storm Lord", 814) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Oondasta", 826) };
-		--{ WHIT.." 3) "..Atlas_GetBossName("Xuen, The White Tiger", 860) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Sha of Anger", 691) };
-		--{ WHIT.." 5) "..Atlas_GetBossName("Ordos, Fire-God of the Yaungol", 861) };
-		--{ WHIT.." 6) "..Atlas_GetBossName("Niuzao, The Black Ox", 859) };
-		--{ WHIT.." 7) "..Atlas_GetBossName("Yu'lon, The Jade Serpent", 858) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Salyis's Warband", 725) };
 		{ WHIT..INDENT..Atlas_GetBossName("Chief Salyis") };
 		{ WHIT..INDENT..Atlas_GetBossName("Galleon") };
-		--{ WHIT.." 9) "..Atlas_GetBossName("Chi-Ji, The Red Crane", 857) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Ordos, Fire-God of the Yaungol", 861) };
+		{ WHIT.." 6) "..ALIL["The August Celestials"] };
+		{ WHIT..INDENT..Atlas_GetBossName("Chi-Ji, The Red Crane", 857) };
+		{ WHIT..INDENT..Atlas_GetBossName("Niuzao, The Black Ox", 859) };
+		{ WHIT..INDENT..Atlas_GetBossName("Yu'lon, The Jade Serpent", 858) };
+		{ WHIT..INDENT..Atlas_GetBossName("Xuen, The White Tiger", 860) };
 	};
 	Skettis = {
 		ZoneName = { BZ["Skettis"] };

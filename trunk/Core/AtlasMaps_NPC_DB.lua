@@ -692,28 +692,28 @@ Syntax:
 		{ 3, 692, 304, 236 }; -- General Pa'valak
 		{ 4, 727, 301, 141 }; -- Wing Leader Ner'onok
 	};
-	--[[SiegeofOrgrimmarA = {
-		{ 1, 849, xxx, xxx }; -- The Fallen Protectors
+	SiegeofOrgrimmarA = {
+		{ 1, 852, 208, 101 }; -- Immerseus
+		{ 3, 866, 272, 349 }; -- Norushen
+		{ 4, 867, 129, 380 }; -- Sha of Pride
 	};
 	SiegeofOrgrimmarB = {
-		{ 2, 852, xxx, xxx }; -- Immerseus
-		{ 3, 866, xxx, xxx }; -- Norushen
-		{ 4, 867, xxx, xxx }; -- Sha of Pride
+		{ 2, 849, 168, 195 }; -- The Fallen Protectors
 	};
 	SiegeofOrgrimmarC = {
-		{ 5, 868, xxx, xxx }; -- Galakras
-		{ 6, 864, xxx, xxx }; -- Iron Juggernaut
-		{ 7, 856, xxx, xxx }; -- Kor'kron Dark Shaman
+		{ 5, 868, 430, 266 }; -- Galakras
+		{ 6, 864, 185, 308 }; -- Iron Juggernaut
+		{ 7, 856, 169, 158 }; -- Kor'kron Dark Shaman
 	};
 	SiegeofOrgrimmarD = {
-		{ 8, 850, xxx, xxx }; -- General Nazgrim
-		{ 9, 846, xxx, xxx }; -- Malkorok
-		{ 10, 870, xxx, xxx }; -- Spoils of Pandaria
-		{ 11, 851, xxx, xxx }; -- Thok the Bloodthirsty
-		{ 12, 865, xxx, xxx }; -- Siegecrafter Blackfuse
-		{ 13, 853, xxx, xxx }; -- Paragons of the Klaxxi
-		{ 14, 869, xxx, xxx }; -- Garrosh Hellscream
-	};--]]
+		{ 8, 850, 127, 282 }; -- General Nazgrim
+		{ 9, 846, 197, 180 }; -- Malkorok
+		{ 10, 870, 266, 252 }; -- Spoils of Pandaria
+		{ 11, 851, 286, 380 }; -- Thok the Bloodthirsty
+		{ 12, 865, 389, 130 }; -- Siegecrafter Blackfuse
+		{ 13, 853, 434, 235 }; -- Paragons of the Klaxxi
+		{ 14, 869, 451, 410 }; -- Garrosh Hellscream
+	};
 	StormstoutBrewery = {
 		{ 1, 668, 175, 340 }; -- Ook-Ook
 		{ 2, 669, 314, 280 }; -- Hoptallus

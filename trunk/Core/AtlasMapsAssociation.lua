@@ -54,6 +54,7 @@ Atlas_AssocDefaults = {
 	[BZ["Karazhan"]] =			"KarazhanStart";
 	[BZ["Shado-Pan Monastery"]] =		"ShadoPanMonasteryA";
 	[BZ["Siege of Niuzao Temple"]] =	"SiegeofNiuzaoTempleA";
+	[BZ["Siege of Orgrimmar"]] =		"SiegeofOrgrimmarA";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
 	[BZ["Throne of Thunder"]] = 		"ThroneofThunderB";
@@ -250,6 +251,45 @@ Atlas_SubZoneData = {
 			BZ["Forward Assault Camp"],
 		},
 	},
+	-- Siege of Orgrimmar
+	[BZ["Siege of Orgrimmar"]] = {
+		--Siege of Orgrimmar A
+		["SiegeofOrgrimmarA"] = {
+			BZ["Pools of Power"],
+			BZ["Big Blossom Mine"],
+			BZ["Chamber of Purification"],
+			BZ["Vault of Y'Shaarj"],
+		},
+		--Siege of Orgrimmar B
+		["SiegeofOrgrimmarB"] = {
+			BZ["Scarred Vale"],
+		},
+		--Siege of Orgrimmar C
+		["SiegeofOrgrimmarC"] = {
+			BZ["Dranosh'ar Landing"],
+			BZ["The Darkspear Offensive"],
+			BZ["Before the Gates"],
+			BZ["Gates of Orgrimmar"],
+			BZ["Valley of Strength"],
+			BZ["The Drag"],
+		},
+		--Siege of Orgrimmar D
+		["SiegeofOrgrimmarD"] = {
+			BZ["Cleft of Shadow"],
+			BZ["Ragefire Chasm"],
+			BZ["The Descent"],
+			BZ["Kor'kron Barracks"],
+			BZ["Underhold Nexus"],
+			BZ["Artifact Storage"],
+			BZ["The Menagerie"],
+			BZ["The Siegeworks"],
+			BZ["Chamber of the Paragons"],
+			BZ["The Inner Sanctum"],
+			BZ["Terrace of Endless Spring"],
+			BZ["Temple of the Jade Serpent"],
+			BZ["Temple of the Red Crane"],
+		},
+	},
 	-- Stratholme
 	[BZ["Stratholme"]] = {
 		--Stratholme - Crusader's Square
@@ -401,7 +441,6 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Icecrown"]] = 			"IcecrownEnt";
 	[BZ["Deadwind Pass"]] = 		"KarazhanEnt";
 	[BZ["Desolace"]] = 			"MaraudonEnt";
-	[BZ["Vale of Eternal Blossoms"]] = 	"SiegeofOrgrimmarA";
 	[BZ["Kun-Lai Summit"]] = 		"MoguShanVaults";
 	[BZ["Orgrimmar"]] = 			"RagefireChasm";
 	[BZ["Thousand Needles"]] = 		"RazorfenDowns";
@@ -411,6 +450,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Western Plaguelands"]] = 		"Scholomance";
 	[BZ["Silverpine Forest"]] = 		"ShadowfangKeep";
 	[BZ["Townlong Steppes"]] = 		"SiegeofNiuzaoTempleA";
+	[BZ["Vale of Eternal Blossoms"]] = 	"SiegeofOrgrimmarA";
 	[BZ["Valley of the Four Winds"]] = 	"StormstoutBrewery";
 	[BZ["Eastern Plaguelands"]] = 		"StratholmeGauntlet";
 	[BZ["Isle of Quel'Danas"]] = 		"SunwellPlateau";

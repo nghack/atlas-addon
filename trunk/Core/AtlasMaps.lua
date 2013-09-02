@@ -2894,8 +2894,12 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("The Fallen Protectors", 849) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Norushen", 866) };
+		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption") };
+		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Pride", 867) };
 	};
 	SiegeofOrgrimmarB = {
 		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapB"] };
@@ -2905,14 +2909,11 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 2) "..Atlas_GetBossName("Immerseus", 852) };
+		{ BLUE.." B) "..AL["Connection"] };
+		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
 		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot") };
 		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe") };
 		{ WHIT..INDENT..Atlas_GetBossName("Sun Tenderheart") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Norushen", 866) };
-		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Pride", 867) };
 	};
 	SiegeofOrgrimmarC = {
 		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapC"] };
@@ -2922,7 +2923,7 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ BLUE.." B) "..AL["Connection"] };
+		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Kor'kron Dark Shaman", 856) };
@@ -2937,7 +2938,7 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
 		{ WHIT.."10) "..Atlas_GetBossName("Spoils of Pandaria", 870) };

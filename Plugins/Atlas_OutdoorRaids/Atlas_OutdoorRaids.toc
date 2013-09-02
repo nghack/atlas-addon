@@ -14,7 +14,7 @@
 ## Notes-zhTW: Atlas 戶外首領地圖插件
 ## Version: 1.26.00
 ## Author: arith, Dynaletik, dubcat
-## X-Date: XXX XX, 2013
+## X-Date: Sep. XX, 2013
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com

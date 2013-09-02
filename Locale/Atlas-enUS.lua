@@ -373,7 +373,7 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
-	
+
 	--Map sections
 	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
 	AL["MapB"] = " [B]";

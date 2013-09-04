@@ -84,8 +84,8 @@ local myData = {
 		{ WHIT.." 6) "..ALIL["The August Celestials"] };
 		{ WHIT..INDENT..Atlas_GetBossName("Chi-Ji, The Red Crane", 857) };
 		{ WHIT..INDENT..Atlas_GetBossName("Niuzao, The Black Ox", 859) };
-		{ WHIT..INDENT..Atlas_GetBossName("Yu'lon, The Jade Serpent", 858) };
 		{ WHIT..INDENT..Atlas_GetBossName("Xuen, The White Tiger", 860) };
+		{ WHIT..INDENT..Atlas_GetBossName("Yu'lon, The Jade Serpent", 858) };
 	};
 	Skettis = {
 		ZoneName = { BZ["Skettis"] };

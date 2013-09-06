@@ -571,7 +571,6 @@
 						ToggleFrame(WorldMapFrame);
 					end
 				end
---				Atlas_OnClick();
 			</OnMouseUp>
 		</Scripts>
 	</Frame>

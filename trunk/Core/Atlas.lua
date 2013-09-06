@@ -409,7 +409,7 @@ ATLAS_OLD_ZONE = false;
 
 function Atlas_InitOptions()
 	--init saved vars for a new install
-	if (AtlasOptions) then
+	if (not AtlasOptions) then
 		Atlas_FreshOptions();
 	end
 	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything

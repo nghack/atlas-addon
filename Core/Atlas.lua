@@ -41,7 +41,7 @@ local LibDialog = LibStub("LibDialog-1.0");
 -- Turn ON / OFF Atlas debug mode
 local Atlas_DebugMode = false;
 local function debug(info)
-	if ( Atlas_DebugMode ) then
+	if (Atlas_DebugMode) then
 		DEFAULT_CHAT_FRAME:AddMessage("[Atlas] "..info);
 	end
 end
@@ -130,7 +130,7 @@ function Atlas_RegisterPlugin(name, myCategory, myData)
 	
 	table.insert(ATLAS_PLUGIN_DATA, myData);
 	
-	if ( ATLAS_OLD_TYPE and ATLAS_OLD_TYPE <= getn(AtlasMaps) ) then
+	if (ATLAS_OLD_TYPE and ATLAS_OLD_TYPE <= getn(AtlasMaps)) then
 		AtlasOptions.AtlasType = ATLAS_OLD_TYPE;
 		AtlasOptions.AtlasZone = ATLAS_OLD_ZONE;
 	end
@@ -285,7 +285,7 @@ end
 
 --Main Atlas event handler
 function Atlas_OnEvent(self, event, ...)
-	local arg1, arg2 = ...;
+	local arg1 = ...;
 	if (event == "ADDON_LOADED" and arg1 == "Atlas") then
 		Atlas_Init();
 	end
@@ -310,7 +310,7 @@ function Atlas_PopulateDropdowns()
 		i = n + 1;
 	end
 	
-	if ( ATLAS_PLUGIN_DATA ) then
+	if (ATLAS_PLUGIN_DATA) then
 		for ka,va in pairs(ATLAS_PLUGIN_DATA) do
 		
 			ATLAS_DROPDOWNS[i] = {};
@@ -331,10 +331,10 @@ end
 
 -- Detect if not all modules / plugins are installed
 local function Atlas_Check_Modules()
-	if (AtlasOptions["AtlasCheckModule"] == nil) then
+	if (not AtlasOptions["AtlasCheckModule"]) then
 		AtlasOptions["AtlasCheckModule"] = true;
 	end
-	if (AtlasOptions["AtlasCheckModule"] == false) then
+	if (not AtlasOptions["AtlasCheckModule"]) then
 		return;
 	end
 	local Module_List = {
@@ -387,7 +387,7 @@ end
 
 -- function to pop up a window to show the latest addon information
 function Atlas_ShowInfo()
-	if (AtlasOptions["AtlasDontShowInfo_12201"] == true) then
+	if (AtlasOptions["AtlasDontShowInfo_12201"]) then
 		return;
 	else
 		AtlasInfoFrame:Show();
@@ -409,27 +409,27 @@ ATLAS_OLD_ZONE = false;
 
 function Atlas_InitOptions()
 	--init saved vars for a new install
-	if ( AtlasOptions == nil ) then
+	if (AtlasOptions) then
 		Atlas_FreshOptions();
 	end
 	--init the newly added "AtlasBossDescScale" and don't bother user to reset everything
 	--can be removed after 1.21.0 release
-	if (AtlasOptions["AtlasBossDescScale"] == nil) then
+	if (not AtlasOptions["AtlasBossDescScale"]) then
 		AtlasOptions["AtlasBossDescScale"] = 0.9;
 	end
-	if (AtlasOptions["AtlasBossDesc"] == nil) then
+	if (not AtlasOptions["AtlasBossDesc"]) then
 		AtlasOptions["AtlasBossDesc"] = true;
 	end
 
-	if (AtlasOptions["AtlasDontShowInfo_12201"] == nil) then
+	if (not AtlasOptions["AtlasDontShowInfo_12201"]) then
 		AtlasOptions["AtlasDontShowInfo_12201"] = false;
 	end
 	
-	if (AtlasOptions["AtlasCheckModule"] == nil) then
+	if (not AtlasOptions["AtlasCheckModule"]) then
 		AtlasOptions["AtlasCheckModule"] = true;
 	end
 	--saved options version check
-	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
+	if (AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS) then
 		Atlas_FreshOptions();
 	end
 end
@@ -446,7 +446,7 @@ function Atlas_Init()
 	--populate the dropdown lists...yeeeah this is so much nicer!
 	Atlas_PopulateDropdowns();
 	
-	if ( ATLAS_DROPDOWNS[AtlasOptions.AtlasType] == nil ) then
+	if (not ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) then
 		ATLAS_OLD_TYPE = AtlasOptions.AtlasType;
 		ATLAS_OLD_ZONE = AtlasOptions.AtlasZone;
 		AtlasOptions.AtlasType = 1;
@@ -502,7 +502,7 @@ end
 
 --Begin moving the Atlas frame if it's unlocked
 function Atlas_StartMoving(self)
-	if(not AtlasOptions.AtlasLocked) then
+	if (not AtlasOptions.AtlasLocked) then
 		self:StartMoving();
 	end
 end
@@ -510,7 +510,7 @@ end
 --Parses slash commands
 --If an unrecognized command is given, toggle Atlas
 function Atlas_SlashCommand(msg)
-	if(msg == ATLAS_SLASH_OPTIONS) then
+	if (msg == ATLAS_SLASH_OPTIONS) then
 		AtlasOptions_Toggle();
 	else
 		Atlas_Toggle();
@@ -529,7 +529,7 @@ end
 
 --Simple function to toggle the visibility of the Atlas frame
 function Atlas_Toggle()
-	if(AtlasFrame:IsVisible()) then
+	if (AtlasFrame:IsVisible()) then
 		HideUIPanel(AtlasFrame);
 	else
 		ShowUIPanel(AtlasFrame);
@@ -563,10 +563,10 @@ end
 -- function to handle the boss description to be added as GameToolTip
 -- description is adopted from Dungeon Journal
 function AtlasMaps_NPC_Text_OnUpdate(self)
-	if ( not GameTooltip:IsShown() ) then
+	if (not GameTooltip:IsShown()) then
 		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
-		if ( ejbossname ) then
-			if ( (IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown()) ) then
+		if (ejbossname) then
+			if ((IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown())) then
 				-- do nothing
 			else
 				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
@@ -592,29 +592,29 @@ function Atlas_MapRefresh()
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
-	if ( base.DungeonID ) then 
+	if (base.DungeonID) then 
 		name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
 		-- for some unknown reason, some of the dungeons do not have recommended level range
-		if ( minRecLevel == 0 ) then 
+		if (minRecLevel == 0) then 
 			minRecLevel = minLevel;
 		end
-		if ( maxRecLevel == 0 ) then
+		if (maxRecLevel == 0) then
 			maxRecLevel = maxLevel;
 		end
 	end
-	if ( base.DungeonHeroicID ) then
+	if (base.DungeonHeroicID) then
 		nameH, typeIDH, subtypeIDH, minLevelH, maxLevelH, recLevelH, minRecLevelH, maxRecLevelH, expansionLevelH, groupIDH, textureFilenameH, difficultyH, maxPlayersH, descriptionH, isHolidayH = GetLFGDungeonInfo(base.DungeonHeroicID);
-		if ( minRecLevelH == 0 ) then
+		if (minRecLevelH == 0) then
 			minRecLevelH = minRecLevel;
 		end
-		if ( maxRecLevelH == 0 ) then
+		if (maxRecLevelH == 0) then
 			maxRecLevelH = maxRecLevel;
 		end
 	end
 	
 	-- Zone Name Acronym
 	local tName = base.ZoneName[1];
-	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
+	if (AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
 		local _RED = "|cffcc3333";
 		tName = tName.._RED.." ["..base.Acronym.."]";
 	end
@@ -622,22 +622,22 @@ function Atlas_MapRefresh()
 	
 	-- Map Location
 	local tLoc = "";
-	if ( base.Location ) then
+	if (base.Location) then
 		tLoc = ATLAS_STRING_LOCATION..AL["Colon"]..base.Location[1];
 	end
 	AtlasText_Location_Text:SetText(tLoc);
 
 	-- Map Level Range
 	local tLR = "";
-	if ( base.DungeonID ) then 
+	if (base.DungeonID) then 
 		local tmp_LR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..minLevel.."-"..maxLevel;
 		local tmp_RLR = ATLAS_STRING_RECLEVELRANGE..AL["Colon"]..minRecLevel.."-"..maxRecLevel;
-		if ( base.DungeonHeroicID ) then
+		if (base.DungeonHeroicID) then
 			tmp_LR = tmp_LR.." / "..minLevelH.."-"..maxLevelH;
 			tmp_RLR = tmp_RLR.." / "..minRecLevelH.."-"..maxRecLevelH;
 		end
 		tLR = tmp_LR.."; "..tmp_RLR;
-	elseif ( base.LevelRange ) then
+	elseif (base.LevelRange) then
 		tLR = ATLAS_STRING_LEVELRANGE..AL["Colon"]..base.LevelRange;
 	else
 		-- do nothing
@@ -646,12 +646,12 @@ function Atlas_MapRefresh()
 
 	-- Map's Minimum Level
 	local tML = "";
-	if ( base.DungeonID ) then 
+	if (base.DungeonID) then 
 		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..minLevel;
-		if ( base.DungeonHeroicID ) then
+		if (base.DungeonHeroicID) then
 			tML = tML.." / "..minLevelH;
 		end
-	elseif ( base.MinLevel ) then
+	elseif (base.MinLevel) then
 		tML = ATLAS_STRING_MINLEVEL..AL["Colon"]..base.MinLevel;
 	else
 		-- do nothing
@@ -660,12 +660,12 @@ function Atlas_MapRefresh()
 
 	-- Player Limit
 	local tPL = "";
-	if ( base.DungeonID and maxPlayers ~= 0) then 
+	if (base.DungeonID and maxPlayers ~= 0) then 
 		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..maxPlayers;
-		if ( base.DungeonHeroicID and maxPlayers ~= maxPlayersH) then
+		if (base.DungeonHeroicID and maxPlayers ~= maxPlayersH) then
 			tPL = tPL.." / "..maxPlayersH;
 		end
-	elseif ( base.PlayerLimit ) then
+	elseif (base.PlayerLimit) then
 		tPL = ATLAS_STRING_PLAYERLIMIT..AL["Colon"]..base.PlayerLimit;
 	else
 		-- do nothing
@@ -673,7 +673,7 @@ function Atlas_MapRefresh()
 	AtlasText_PlayerLimit_Text:SetText(tPL);
 
 	-- Check if Journal Encounter Instance is available
-	if ( base.JournalInstanceID ) then
+	if (base.JournalInstanceID) then
 		Atlas_JournalEncounter_InstanceButton:Show();
 		--AtlasSetEJBackground(base.JournalInstanceID);
 	else
@@ -694,8 +694,8 @@ function Atlas_MapRefresh()
 	-- searching for the map path from Atlas or from plugins
 	for k,v in pairs(Atlas_CoreMapsKey) do
 		-- if selected map is Atlas' core map
-		if(zoneID == v) then
-			if ( base.Module ) then
+		if (zoneID == v) then
+			if (base.Module) then
 				-- if the map belong to a module, set the path to module
 				AtlasMap:SetTexture("Interface\\AddOns\\"..base.Module.."\\Images\\"..zoneID);
 			else
@@ -741,9 +741,9 @@ function Atlas_MapRefresh()
 	-- The boss description to be added here
 	if (AtlasOptions["AtlasBossDesc"]) then
 		local NPC_Table = AtlasMaps_NPC_DB[zoneID];
-		if ( NPC_Table ~= nil and AtlasMap_NPC_Text_Frame_Num == 0) then
+		if (NPC_Table and AtlasMap_NPC_Text_Frame_Num == 0) then
 			AtlasMap_NPC_Text_Frame_Num = 1;
-			while ( NPC_Table[AtlasMap_NPC_Text_Frame_Num] ~= nil ) do
+			while (NPC_Table[AtlasMap_NPC_Text_Frame_Num]) do
 				local AtlasMap_NPC_Text_Frame = _G["AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num];
 				if (not AtlasMap_NPC_Text_Frame) then
 					AtlasMap_NPC_Text_Frame = CreateFrame("Frame", "AtlasMapNPCTextFrame"..AtlasMap_NPC_Text_Frame_Num, AtlasFrame);
@@ -778,7 +778,6 @@ end
 --The zoneID variable represents the internal name used for each map, ex: "BlackfathomDeeps"
 --Also responsible for updating all the text when a map is changed
 function Atlas_Refresh()
-	
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
@@ -787,15 +786,12 @@ function Atlas_Refresh()
 	
 	ATLAS_DATA = base;
 	ATLAS_SEARCH_METHOD = data.Search;
-	
-	if ( data.Search == nil ) then
-		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
-	end
-	
-	if ( data.Search ~= false ) then
+
+	if (data.Search) then
 		AtlasSearchEditBox:Show();
 		AtlasNoSearch:Hide();
 	else
+		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
 		AtlasSearchEditBox:Hide();
 		AtlasNoSearch:Show();
 		ATLAS_SEARCH_METHOD = nil;
@@ -807,10 +803,10 @@ function Atlas_Refresh()
 	AtlasSearchEditBox:ClearFocus();
 
 	--create and align any new entry buttons that we need
-	for i=1,ATLAS_CUR_LINES do
-		if ( not _G["AtlasEntry"..i] ) then
+	for i = 1,ATLAS_CUR_LINES do
+		if (not _G["AtlasEntry"..i]) then
 			local f = CreateFrame("Button", "AtlasEntry"..i, AtlasFrame, "AtlasEntryTemplate");
-			if i==1 then
+			if i == 1 then
 				f:SetPoint("TOPLEFT", "AtlasScrollBar", "TOPLEFT", 16, -2);
 			else
 				f:SetPoint("TOPLEFT", "AtlasEntry"..(i-1), "BOTTOMLEFT");
@@ -828,14 +824,14 @@ function Atlas_Refresh()
 	local matchFound = {nil};
 	local sayEntrance = nil;
 	for k,v in pairs(Atlas_EntToInstMatches) do
-		if ( k == zoneID ) then
+		if (k == zoneID) then
 			matchFound = v;
 			sayEntrance = false;
 		end
 	end
-	if ( not matchFound[1] ) then
+	if (not matchFound[1]) then
 		for k,v in pairs(Atlas_InstToEntMatches) do
-			if ( k == zoneID ) then
+			if (k == zoneID) then
 				matchFound = v;
 				sayEntrance = true;
 			end
@@ -843,13 +839,13 @@ function Atlas_Refresh()
 	end
 	
 	--set the button's text, populate the dropdown menu, and show or hide the button
-	if ( matchFound[1] ~= nil ) then
+	if (matchFound[1]) then
 		ATLAS_INST_ENT_DROPDOWN = {};
 		for k,v in pairs(matchFound) do
 			table.insert(ATLAS_INST_ENT_DROPDOWN, v);
 		end
 		table.sort(ATLAS_INST_ENT_DROPDOWN, AtlasSwitchDD_Sort);
-		if ( sayEntrance ) then
+		if (sayEntrance) then
 			AtlasSwitchButton:SetText(ATLAS_ENTRANCE_BUTTON);
 		else
 			AtlasSwitchButton:SetText(ATLAS_INSTANCE_BUTTON);
@@ -860,7 +856,7 @@ function Atlas_Refresh()
 		AtlasSwitchButton:Hide();
 	end
 	
-	if ( TitanPanelButton_UpdateButton ) then
+	if (TitanPanelButton_UpdateButton) then
 		TitanPanelButton_UpdateButton("Atlas");
 	end
 	
@@ -872,7 +868,7 @@ end
 function AtlasSwitchButton_OnClick()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	
-	if ( getn(ATLAS_INST_ENT_DROPDOWN) == 1 ) then
+	if (getn(ATLAS_INST_ENT_DROPDOWN) == 1) then
 		--one link, so we can just go there right away
 		AtlasSwitchDD_Set(1);
 	else
@@ -882,7 +878,7 @@ function AtlasSwitchButton_OnClick()
 end
 
 function AtlasSwitchDD_OnLoad()
-	local info, i;
+	local info;
 	for k,v in pairs(ATLAS_INST_ENT_DROPDOWN) do
 		info = {
 			text = AtlasMaps[v].ZoneName[1];
@@ -899,7 +895,7 @@ end
 function AtlasSwitchDD_Set(index)
 	for k,v in pairs(ATLAS_DROPDOWNS) do
 		for k2,v2 in pairs(v) do
-			if ( v2 == ATLAS_INST_ENT_DROPDOWN[index] ) then
+			if (v2 == ATLAS_INST_ENT_DROPDOWN[index]) then
 				AtlasOptions.AtlasType = k;
 				AtlasOptions.AtlasZone = k2;
 			end
@@ -919,7 +915,7 @@ end
 --Function used to initialize the map type dropdown menu
 --Cycle through Atlas_MapTypes to populate the dropdown
 function AtlasFrameDropDownType_Initialize()
-	local info, i;
+	local info;
 	local catName = Atlas_DropDownLayouts_Order[AtlasOptions.AtlasSortBy];
 	local subcatOrder = Atlas_DropDownLayouts_Order[catName];
 	for i = 1, getn(subcatOrder), 1 do
@@ -980,7 +976,7 @@ end
 --Called whenever an item in the main dropdown menu is clicked
 --Sets the newly selected map as current and refreshes the frame
 function AtlasFrameDropDown_OnClick(self)
-	i = self:GetID();
+	local i = self:GetID();
 	UIDropDownMenu_SetSelectedID(AtlasFrameDropDown, i);
 	AtlasOptions.AtlasZone = i;
 	Atlas_Refresh();
@@ -1009,14 +1005,14 @@ function Atlas_AutoSelect()
 	-- If yes, means there could be multiple maps for this zone
 	-- And we will choose a proper one to be the default one.
 	debug("currentZone: "..currentZone..", currentSubZone: "..currentSubZone);
-	if ( Atlas_AssocDefaults[currentZone] ) then
+	if (Atlas_AssocDefaults[currentZone]) then
 		debug("currentZone: "..currentZone.." matched the one defined in Atlas_AssocDefaults{}.");
 		local selected_map;
 
-		if(Atlas_SubZoneData[currentZone]) then
+		if (Atlas_SubZoneData[currentZone]) then
 			for k_instance_map, v_instance_map in pairs(Atlas_SubZoneData[currentZone]) do
 				for k_subzone, v_subzone in pairs(Atlas_SubZoneData[currentZone][k_instance_map]) do
-					if(v_subzone == currentSubZone) then
+					if (v_subzone == currentSubZone) then
 						selected_map = k_instance_map;
 						debug("currentSubZone: "..currentSubZone.." matched found, now we will use map: \""..selected_map.."\" for instance: "..currentZone);
 						break;
@@ -1024,9 +1020,9 @@ function Atlas_AutoSelect()
 				end
 			end
 		end
-		if( selected_map == nil ) then
+		if (not selected_map) then
 			debug("No subzone matched, now checking if we should specify a default map.");
-			if ( currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+			if (currentZone == Atlas_SubZoneAssoc[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) then
 				debug("You're in the same instance as the former map. Doing nothing.");
 				return;
 			else
@@ -1037,7 +1033,7 @@ function Atlas_AutoSelect()
 		debug("Selecting the map...");
 		for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
 			for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
-				if ( selected_map == v_DropDownZone ) then
+				if (selected_map == v_DropDownZone) then
 					AtlasOptions.AtlasType = k_DropDownType;
 					AtlasOptions.AtlasZone = k_DropDownZone;
 					Atlas_Refresh();
@@ -1048,11 +1044,11 @@ function Atlas_AutoSelect()
 		end
 	else
 		debug("SubZone data isn't relevant here. Checking if it's outdoor zone.");
-		if ( Atlas_OutdoorZoneToAtlas[currentZone] ) then
+		if (Atlas_OutdoorZoneToAtlas[currentZone]) then
 			debug("This world zone "..currentZone.." is associated with a map.");
 			for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
 				for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
-					if ( Atlas_OutdoorZoneToAtlas[currentZone] == v_DropDownZone ) then
+					if (Atlas_OutdoorZoneToAtlas[currentZone] == v_DropDownZone) then
 						AtlasOptions.AtlasType = k_DropDownType;
 						AtlasOptions.AtlasZone = k_DropDownZone;
 						Atlas_Refresh();
@@ -1061,17 +1057,17 @@ function Atlas_AutoSelect()
 					end
 				end
 			end
-		debug("Checking if instance/entrance pair can be found.");
-		elseif ( Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+			debug("Checking if instance/entrance pair can be found.");
+		elseif (Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) then
 			for ka,va in pairs(Atlas_InstToEntMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
-				if ( currentZone == AtlasMaps[va].ZoneName[1] ) then
+				if (currentZone == AtlasMaps[va].ZoneName[1]) then
 					debug("Instance/entrance pair found. Doing nothing.");
 					return;
 				end
 			end
-		elseif ( Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]] ) then
+		elseif (Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) then
 			for ka,va in pairs(Atlas_EntToInstMatches[ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]]) do
-				if ( currentZone == AtlasMaps[va].ZoneName[1] ) then
+				if (currentZone == AtlasMaps[va].ZoneName[1]) then
 					debug("Instance/entrance pair found. Doing nothing.");
 					return;
 				end
@@ -1081,7 +1077,7 @@ function Atlas_AutoSelect()
 		for k_DropDownType,v_DropDownType in pairs(ATLAS_DROPDOWNS) do
 			for k_DropDownZone,v_DropDownZone in pairs(v_DropDownType) do         
 				-- Compare the currentZone to the new substr of ZoneName
-				if ( currentZone == strsub(AtlasMaps[v_DropDownZone].ZoneName[1], strlen(AtlasMaps[v_DropDownZone].ZoneName[1]) - strlen(currentZone) + 1) ) then
+				if (currentZone == strsub(AtlasMaps[v_DropDownZone].ZoneName[1], strlen(AtlasMaps[v_DropDownZone].ZoneName[1]) - strlen(currentZone) + 1)) then
 					AtlasOptions.AtlasType = k_DropDownType;
 					AtlasOptions.AtlasZone = k_DropDownZone;
 					Atlas_Refresh();
@@ -1096,7 +1092,7 @@ end
 
 --Called whenever the Atlas frame is displayed
 function Atlas_OnShow()
-	if(AtlasOptions.AtlasAutoSelect) then
+	if (AtlasOptions.AtlasAutoSelect) then
 		Atlas_AutoSelect();
 	end
 
@@ -1110,12 +1106,12 @@ function AtlasScrollBar_Update()
 	GameTooltip:Hide();
 	local line, lineplusoffset;
 	FauxScrollFrame_Update(AtlasScrollBar,ATLAS_CUR_LINES,ATLAS_NUM_LINES,15);
-	for line=1,ATLAS_NUM_LINES do
+	for line = 1,ATLAS_NUM_LINES do
 		lineplusoffset = line + FauxScrollFrame_GetOffset(AtlasScrollBar);
-		if ( lineplusoffset <= ATLAS_CUR_LINES ) then
+		if (lineplusoffset <= ATLAS_CUR_LINES) then
 			_G["AtlasEntry"..line.."_Text"]:SetText(ATLAS_SCROLL_LIST[lineplusoffset]);
 			_G["AtlasEntry"..line]:Show();
-		elseif ( _G["AtlasEntry"..line] ) then
+		elseif (_G["AtlasEntry"..line]) then
 			_G["AtlasEntry"..line]:Hide();
 		end
 	end
@@ -1161,17 +1157,17 @@ local function round(num, idp)
 end
 
 function AtlasEntryTemplate_OnUpdate(self)
-	if ( AtlasOptions.AtlasCtrl ) then
-		if ( MouseIsOver(self) ) then
-			if ( IsControlKeyDown() ) then
-				if ( not GameTooltip:IsShown() ) then
+	if (AtlasOptions.AtlasCtrl) then
+		if (MouseIsOver(self)) then
+			if (IsControlKeyDown()) then
+				if (not GameTooltip:IsShown()) then
 					local str = _G[self:GetName().."_Text"]:GetText();
-					if ( str ) then
+					if (str) then
 						GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
 						GameTooltip:SetBackdropBorderColor(0,0,0,0);
 						GameTooltip:SetBackdropColor(0,0,0,1);
 						local colorCheck = string.sub(str, 1, 4);
-						if ( colorCheck == "|cff" ) then
+						if (colorCheck == "|cff") then
 							local color = string.sub(str, 1, 10);
 							local stripped = strtrim(string.sub(str, 11));
 							GameTooltip:SetText(color..stripped,1,1,1,1);

@@ -90,7 +90,7 @@
 						self.dragme = false;
 					</OnDragStop>
 					<OnUpdate>
-						if(self.dragme == true) then
+						if (self.dragme) then
 							AtlasButton_BeingDragged();
 						end
 					</OnUpdate>
@@ -98,7 +98,7 @@
 						AtlasButton_OnClick();
 					</OnClick>
 					<OnMouseUp>
-						if ( button == "MiddleButton" ) then
+						if (button == "MiddleButton") then
 							AtlasOptions_Toggle();
 						end
 					</OnMouseUp>

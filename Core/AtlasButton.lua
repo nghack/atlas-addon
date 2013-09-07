@@ -36,10 +36,10 @@ local AtlasMiniMapLDB = LibStub("LibDataBroker-1.1"):NewDataObject("Atlas", {
 	type = "launcher",
 	text = AL["ATLAS_TITLE"],
 	icon = "Interface\\WorldMap\\WorldMap-Icon",
-	OnClick = function(_, msg)
-		if msg == "LeftButton" then
+	OnClick = function(self, button)
+		if button == "LeftButton" then
 			Atlas_Toggle();
-		elseif msg == "RightButton" then
+		elseif button == "RightButton" then
 			AtlasOptions_Toggle();
 		end
 	end,
@@ -54,7 +54,7 @@ local AtlasMiniMapLDB = LibStub("LibDataBroker-1.1"):NewDataObject("Atlas", {
 local AtlasMiniMapIcon = LibStub("LibDBIcon-1.0")
 
 function addon:OnInitialize()
-	-- Obviously you'll need a ## SavedVariables: BunniesDB line in your TOC, duh!
+	-- Obviously you'll need a ##SavedVariables: BunniesDB line in your TOC, duh!
 	self.db = LibStub("AceDB-3.0"):New("AtlasDB", {
 		profile = {
 			minimap = {
@@ -64,7 +64,7 @@ function addon:OnInitialize()
 	})
 	AtlasMiniMapIcon:Register("Atlas", AtlasMiniMapLDB, self.db.profile.minimap);
 	self:RegisterChatCommand("atlasbutton", AtlasButton_Toggle)
-	if ( AtlasOptions == nil ) then
+	if (not AtlasOption) then
 		Atlas_FreshOptions();
 	end
 end
@@ -91,7 +91,7 @@ function AtlasButton_OnClick()
 end
 
 function AtlasButton_Init()
-	if ( AtlasOptions == nil ) then
+	if (not AtlasOptions) then
 		Atlas_FreshOptions();
 	end
 	if(AtlasOptions.AtlasButtonShown) then
@@ -113,13 +113,7 @@ function AtlasButton_Toggle()
 end
 
 function AtlasButton_UpdatePosition()
-	AtlasButtonFrame:SetPoint(
-		"TOPLEFT",
-		"Minimap",
-		"TOPLEFT",
-		54 - (AtlasOptions.AtlasButtonRadius * cos(AtlasOptions.AtlasButtonPosition)),
-		(AtlasOptions.AtlasButtonRadius * sin(AtlasOptions.AtlasButtonPosition)) - 55
-	);
+	AtlasButtonFrame:SetPoint("TOPLEFT", "Minimap", "TOPLEFT", 54 - (AtlasOptions.AtlasButtonRadius * cos(AtlasOptions.AtlasButtonPosition)), (AtlasOptions.AtlasButtonRadius * sin(AtlasOptions.AtlasButtonPosition)) - 55);
 	AtlasOptions_Init();
 end
 
@@ -136,7 +130,7 @@ function AtlasButton_BeingDragged()
 end
 
 function AtlasButton_SetPosition(v)
-    if(v < 0) then
+    if (v < 0) then
         v = v + 360;
     end
 

@@ -83,7 +83,7 @@ local DefaultAtlasOptions = {
 	["AtlasBossDesc"] = true;		-- Toggle to show boss description or not
 	["AtlasBossDescScale"] = 0.9;		-- The boss description GameToolTip scale
 	["AtlasDontShowInfo"] = false; 		-- Atlas latest information
-	["AtlasDontShowInfo_12201"] = false;	
+	["AtlasDontShowInfo_12201"] = false;
 	["AtlasCheckModule"] = true;
 };
 
@@ -480,7 +480,9 @@ function Atlas_Init()
 	})
 	
 	Atlas_Check_Modules();
-	Atlas_ShowInfo();
+	if (AtlasOptions["AtlasDontShowInfo_12201"]) then
+		Atlas_ShowInfo();
+	end
 end
 
 -- Simple function to toggle the Atlas frame's lock status and update it's appearance
@@ -490,7 +492,7 @@ end
 
 -- Updates the appearance of the lock button based on the status of AtlasLocked
 function Atlas_UpdateLock()
-	if(AtlasOptions.AtlasLocked) then
+	if (AtlasOptions.AtlasLocked) then
 		AtlasLockNorm:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Up");
 		AtlasLockPush:SetTexture("Interface\\AddOns\\Atlas\\Images\\LockButton-Locked-Down");
 	else

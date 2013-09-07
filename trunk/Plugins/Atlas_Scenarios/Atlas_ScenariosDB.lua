@@ -367,4 +367,3 @@ Atlas_ScenariosDB =
 --for key, value in pairs(Atlas_ScenariosDB) do
 --		print(value[1]);
 --end
-

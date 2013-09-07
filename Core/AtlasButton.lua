@@ -64,9 +64,6 @@ function addon:OnInitialize()
 	})
 	AtlasMiniMapIcon:Register("Atlas", AtlasMiniMapLDB, self.db.profile.minimap);
 	self:RegisterChatCommand("atlasbutton", AtlasButton_Toggle)
-	if (not AtlasOption) then
-		Atlas_FreshOptions();
-	end
 end
 
 function addon:Toggle()

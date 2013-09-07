@@ -50,7 +50,7 @@ end
 
 
 function AtlasOptions_AutoSelectToggle()
-	if(AtlasOptions.AtlasAutoSelect) then
+	if (AtlasOptions.AtlasAutoSelect) then
 		AtlasOptions.AtlasAutoSelect = false;
 	else
 		AtlasOptions.AtlasAutoSelect = true;
@@ -60,7 +60,7 @@ end
 
 
 function AtlasOptions_RightClickToggle()
-	if(AtlasOptions.AtlasRightClick) then
+	if (AtlasOptions.AtlasRightClick) then
 		AtlasOptions.AtlasRightClick = false;
 	else
 		AtlasOptions.AtlasRightClick = true;
@@ -70,7 +70,7 @@ end
 
 
 function AtlasOptions_AcronymsToggle()
-	if(AtlasOptions.AtlasAcronyms) then
+	if (AtlasOptions.AtlasAcronyms) then
 		AtlasOptions.AtlasAcronyms = false;
 	else
 		AtlasOptions.AtlasAcronyms = true;
@@ -81,7 +81,7 @@ end
 
 
 function AtlasOptions_ClampedToggle()
-	if(AtlasOptions.AtlasClamped) then
+	if (AtlasOptions.AtlasClamped) then
 		AtlasOptions.AtlasClamped = false;
 	else
 		AtlasOptions.AtlasClamped = true;
@@ -93,7 +93,7 @@ end
 
 
 function AtlasOptions_CtrlToggle()
-	if(AtlasOptions.AtlasCtrl) then
+	if (AtlasOptions.AtlasCtrl) then
 		AtlasOptions.AtlasCtrl = false;
 	else
 		AtlasOptions.AtlasCtrl = true;
@@ -104,7 +104,7 @@ end
 
 
 function AtlasOptions_ToggleLock()
-	if(AtlasOptions.AtlasLocked) then
+	if (AtlasOptions.AtlasLocked) then
 		AtlasOptions.AtlasLocked = false;
 		Atlas_UpdateLock();
 	else
@@ -117,7 +117,7 @@ end
 
 
 function AtlasOptions_ToggleBossDesc()
-	if(AtlasOptions.AtlasBossDesc) then
+	if (AtlasOptions.AtlasBossDesc) then
 		AtlasOptions.AtlasBossDesc = false;
 	else
 		AtlasOptions.AtlasBossDesc = true;
@@ -128,7 +128,7 @@ end
 
 
 function AtlasOptions_ToggleCheckModule()
-	if(AtlasOptions.AtlasCheckModule) then
+	if (AtlasOptions.AtlasCheckModule) then
 		AtlasOptions.AtlasCheckModule = false;
 	else
 		AtlasOptions.AtlasCheckModule = true;
@@ -211,19 +211,14 @@ end
 
 
 function AtlasOptionsFrameDropDownCats_Initialize()
-
-	local i;
-	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
+	for i = 1, getn(Atlas_DropDownLayouts_Order) do
 		info = {
 			text = Atlas_DropDownLayouts_Order[i];
 			func = AtlasOptionsFrameDropDownCats_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
-		i = i + 1;
 	end
-	
 end
-
 
 function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_Initialize(AtlasOptionsFrameDropDownCats, AtlasOptionsFrameDropDownCats_Initialize);

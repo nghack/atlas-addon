@@ -34,7 +34,7 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
-	if ( EJ_GetInstanceInfo(base.JournalInstanceID) == nil ) then
+	if (not EJ_GetInstanceInfo(base.JournalInstanceID)) then
 		return;
 	end
 
@@ -44,7 +44,7 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	EncounterJournal_ListInstances();
 	EncounterJournal_DisplayInstance(base.JournalInstanceID);
 
-	if ( not EncounterJournal:IsShown() ) then
+	if (not EncounterJournal:IsShown()) then
 		EncounterJournal:Show();
 	else
 		EncounterJournal:Hide();
@@ -58,12 +58,12 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
-	if ( MouseIsOver(frame) ) then
-		if ( EJ_GetInstanceInfo(base.JournalInstanceID) ) then
+	if (MouseIsOver(frame)) then
+		if (EJ_GetInstanceInfo(base.JournalInstanceID)) then
 			EJ_SelectInstance(base.JournalInstanceID);
-	
+
 			local name, description = EJ_GetInstanceInfo();
-	
+
 			GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
 			GameTooltip:SetText(name);
 			GameTooltipTextLeft1:SetTextColor(1, 1, 1);
@@ -82,11 +82,11 @@ end
 -- Syntax 2: Atlas_GetBossName(bossname, encounterID);
 -- ------------------------------------------------------------
 function Atlas_GetBossName(bossname, encounterID)
-	if ( encounterID and EJ_GetEncounterInfo(encounterID) ) then
+	if (encounterID and EJ_GetEncounterInfo(encounterID)) then
 		bossname = EJ_GetEncounterInfo(encounterID);
-	elseif ( bossname and BabbleBoss[bossname] ) then
+	elseif (bossname and BabbleBoss[bossname]) then
 		bossname = BabbleBoss[bossname];
-	elseif ( bossname and AtlasLocale[bossname] ) then
+	elseif (bossname and AtlasLocale[bossname]) then
 		bossname = AtlasLocale[bossname];
 	else
 		--bossname = bossname;

@@ -85,5 +85,7 @@ Atlas_IngameLocales = {
 }
 
 do
-	setmetatable(Atlas_IngameLocales, { __index = function(tab, key) return rawget(tab, key) or key end } )
+	setmetatable(Atlas_IngameLocales, {__index = function(tab, key)
+		return rawget(tab, key) or key end
+	})
 end

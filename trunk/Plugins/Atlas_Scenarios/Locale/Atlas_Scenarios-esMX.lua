@@ -37,7 +37,7 @@ local AL = AceLocale:NewLocale("Atlas_Scenarios", "esMX", false);
 
 if AL then
 	for key, value in pairs(Atlas_ScenariosDB) do
-		AL[value[1]] = value[1];
+		AL[value[1]] = value[4];
 	end
 
 	AL["Scenarios Maps"] = "Mapas de gestas";

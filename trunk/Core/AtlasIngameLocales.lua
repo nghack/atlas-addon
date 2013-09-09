@@ -24,9 +24,6 @@
 
 --]]
 
--- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, dubcat, Resike 
 
 Atlas_IngameLocales = {
 	-- ######################################################################

@@ -25,8 +25,6 @@
 --]]
 
 -- Atlas Map Data
--- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, dubcat, Resike 
 
 --[[
 # Structure of JournalInstance.dbc

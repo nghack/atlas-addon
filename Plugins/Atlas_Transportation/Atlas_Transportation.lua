@@ -24,9 +24,6 @@
 
 --]]
 
--- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, loglow@gmail.com
--- Maintainers: Lothaer, Dynaletik, Arith, dubcat
 
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas_Transportation");

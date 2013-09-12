@@ -371,12 +371,12 @@ if AL then
 	AL["ToT"] = "ToT"; --Throne of Thunder
 	
 	--Map sections
-	AL["MapA"] = " [一]"; -- For example: Shado-Pan Monastery [A]
-	AL["MapB"] = " [二]";
-	AL["MapC"] = " [三]";
-	AL["MapD"] = " [四]";
-	AL["MapE"] = " [五]";
-	AL["MapF"] = " [六]";
+	AL["MapA"] = " [1]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [2]"; -- 一, 二, 三...won't work as somehow it will be sorted as 一, 三, 二, 四. so need to change to digits
+	AL["MapC"] = " [3]";
+	AL["MapD"] = " [4]";
+	AL["MapE"] = " [5]";
+	AL["MapF"] = " [6]";
 
 --************************************************
 -- Instance Entrance Maps

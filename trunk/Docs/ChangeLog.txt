@@ -7,6 +7,9 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.26.01 (Sep. XX, 2013)
+- Fix the issue that CheckModule will always through a warning window
+
 v1.26.00 (Sep. 09, 2013)
 -----------------------
 - TOC update to support WoW 5.4

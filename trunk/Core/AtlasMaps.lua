@@ -2896,7 +2896,7 @@ Syntax:
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Norushen", 866) };
-		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption") };
+		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption", 866, 2) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Pride", 867) };
 	};
 	SiegeofOrgrimmarB = {
@@ -2909,9 +2909,9 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
-		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot") };
-		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe") };
-		{ WHIT..INDENT..Atlas_GetBossName("Sun Tenderheart") };
+		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot", 849, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe", 849, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Sun Tenderheart", 849, 3) };
 	};
 	SiegeofOrgrimmarC = {
 		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapC"] };
@@ -2925,8 +2925,8 @@ Syntax:
 		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Kor'kron Dark Shaman", 856) };
-		{ WHIT..INDENT..Atlas_GetBossName("Earthbreaker Haromm") };
-		{ WHIT..INDENT..Atlas_GetBossName("Wavebinder Kardris") };
+		{ WHIT..INDENT..Atlas_GetBossName("Earthbreaker Haromm", 856, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Wavebinder Kardris", 856, 2) };
 	};
 	SiegeofOrgrimmarD = {
 		ZoneName = { BZ["Siege of Orgrimmar"]..AL["MapD"] };
@@ -2940,20 +2940,20 @@ Syntax:
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
 		{ WHIT.."10) "..Atlas_GetBossName("Spoils of Pandaria", 870) };
-		{ WHIT..INDENT..Atlas_GetBossName("Secured Stockpile of Pandaren Spoils") };
+		{ WHIT..INDENT..Atlas_GetBossName("Secured Stockpile of Pandaren Spoils", 870, 1) };
 		{ WHIT.."11) "..Atlas_GetBossName("Thok the Bloodthirsty", 851) };
-		{ WHIT..INDENT..Atlas_GetBossName("Kor'kron Jailer") };
+		{ WHIT..INDENT..Atlas_GetBossName("Kor'kron Jailer", 851, 2) };
 		{ WHIT.."12) "..Atlas_GetBossName("Siegecrafter Blackfuse", 865) };
 		{ WHIT.."13) "..Atlas_GetBossName("Paragons of the Klaxxi", 853) };
-		{ WHIT..INDENT..Atlas_GetBossName("Hisek the Swarmkeeper") };
-		{ WHIT..INDENT..Atlas_GetBossName("Iyyokuk the Lucid") };
-		{ WHIT..INDENT..Atlas_GetBossName("Ka'roz the Locust") };
-		{ WHIT..INDENT..Atlas_GetBossName("Kaz'tik the Manipulator") };
-		{ WHIT..INDENT..Atlas_GetBossName("Kil'ruk the Wind-Reaver") };
-		{ WHIT..INDENT..Atlas_GetBossName("Korven the Prime") };
-		{ WHIT..INDENT..Atlas_GetBossName("Rik'kal the Dissector") };
-		{ WHIT..INDENT..Atlas_GetBossName("Skeer the Bloodseeker") };
-		{ WHIT..INDENT..Atlas_GetBossName("Xaril the Poisoned Mind") };
+		{ WHIT..INDENT..Atlas_GetBossName("Hisek the Swarmkeeper", 853, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Iyyokuk the Lucid", 853, 7) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ka'roz the Locust", 853, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Kaz'tik the Manipulator", 853, 5) };
+		{ WHIT..INDENT..Atlas_GetBossName("Kil'ruk the Wind-Reaver", 853, 9) };
+		{ WHIT..INDENT..Atlas_GetBossName("Korven the Prime", 853, 4) };
+		{ WHIT..INDENT..Atlas_GetBossName("Rik'kal the Dissector", 853, 7) };
+		{ WHIT..INDENT..Atlas_GetBossName("Skeer the Bloodseeker", 853, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Xaril the Poisoned Mind", 853, 6) };
 		{ WHIT.."14) "..Atlas_GetBossName("Garrosh Hellscream", 869) };
 	};
 	StormstoutBrewery = {

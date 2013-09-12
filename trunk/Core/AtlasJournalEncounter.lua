@@ -80,10 +80,19 @@ end
 -- Call this function to translate boss name
 -- Syntax 1: Atlas_GetBossName(bossname);
 -- Syntax 2: Atlas_GetBossName(bossname, encounterID);
+-- Syntax 2: Atlas_GetBossName(bossname, encounterID, creatureIndex);
 -- ------------------------------------------------------------
-function Atlas_GetBossName(bossname, encounterID)
-	if (encounterID and EJ_GetEncounterInfo(encounterID)) then
-		bossname = EJ_GetEncounterInfo(encounterID);
+function Atlas_GetBossName(bossname, encounterID, creatureIndex)
+	if (encounterID) then
+		if (creatureIndex) then
+			if (EJ_GetCreatureInfo(creatureIndex, encounterID)) then
+				_, bossname = EJ_GetCreatureInfo(creatureIndex, encounterID);
+			end
+		else 
+			if (EJ_GetEncounterInfo(encounterID)) then
+				bossname = EJ_GetEncounterInfo(encounterID);
+			end
+		end
 	elseif (bossname and BabbleBoss[bossname]) then
 		bossname = BabbleBoss[bossname];
 	elseif (bossname and AtlasLocale[bossname]) then

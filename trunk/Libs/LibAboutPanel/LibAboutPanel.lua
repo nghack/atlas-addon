@@ -15,15 +15,6 @@ Author: Tekkub, Ackis
 local lib, oldminor = LibStub:NewLibrary("LibAboutPanel", 2)
 if not lib then return end
 
-function lib.new(parent, addonname)
-	local frame = CreateFrame("Frame", nil, UIParent)
-	frame.name, frame.parent, frame.addonname = not parent and gsub(addonname," ","") or "About", parent, gsub(addonname," ","") -- Remove spaces from addonname because GetMetadata doesn't like that
-	frame:Hide()
-	frame:SetScript("OnShow", lib.OnShow)
-	InterfaceOptions_AddCategory(frame)
-	return frame
-end
-
 local GAME_LOCALE = GetLocale()
 
 local L = {}
@@ -60,10 +51,39 @@ elseif GAME_LOCALE == "zhCN" then
 elseif GAME_LOCALE == "zhTW" then
 	L["About"] = "關於"
 	L["Click and press Ctrl-C to copy"] = "左鍵點擊並按下 Ctrl-C 以複製字串"
+	L["Version"] = "版本"
+	L["Author"] = "作者"
+	L["Category"] = "類別"
+	L["License"] = "授權"
+	L["Email"] = "電子郵件"
+	L["Website"] = "網站"
+	L["Credits"] = "特別感謝"
+	L["Localizations"] = "本地化"
+	L["Donate"] = "贊助"
 -- enUS and non-localized
 else
 	L["About"] ="About"
 	L["Click and press Ctrl-C to copy"] = "Click and press Ctrl-C to copy"
+	L["Version"] = "Version"
+	L["Author"] = "Author"
+	L["Category"] = "Category"
+	L["License"] = "License"
+	L["Email"] = "Email"
+	L["Email"] = "Email"
+	L["eMail"] = "eMail"
+	L["Website"] = "Website"
+	L["Credits"] = "Credits"
+	L["Localizations"] = "Localizations"
+	L["Donate"] = "Donate"
+end
+
+function lib.new(parent, addonname)
+	local frame = CreateFrame("Frame", nil, UIParent)
+	frame.name, frame.parent, frame.addonname = not parent and gsub(addonname," ","") or L["About"], parent, gsub(addonname," ","") -- Remove spaces from addonname because GetMetadata doesn't like that
+	frame:Hide()
+	frame:SetScript("OnShow", lib.OnShow)
+	InterfaceOptions_AddCategory(frame)
+	return frame
 end
 
 local editbox = CreateFrame('EditBox', nil, UIParent)
@@ -169,7 +189,7 @@ function lib.OnShow(frame)
 				title:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -10)
 			end
 			title:SetJustifyH("RIGHT")
-			title:SetText(field:gsub("X%-", ""))
+			title:SetText(L[field:gsub("X%-", "")])
 
 			if not frame[field .. "_detail"] then
 				frame[field .. "_detail"] = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")

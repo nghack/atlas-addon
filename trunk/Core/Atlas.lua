@@ -244,10 +244,6 @@ function Atlas_OnLoad(self)
 	
 	-- Dragging involves some special registration
 	self:RegisterForDrag("LeftButton");
-	
-	-- Setting up slash commands involves referencing some strage auto-generated variables
-	SLASH_ATLAS1 = ATLAS_SLASH;
-	SlashCmdList["ATLAS"] = Atlas_SlashCommand;
 end
 
 -- Removal of articles in map names (for proper alphabetic sorting)
@@ -505,7 +501,7 @@ function Atlas_StartMoving(self)
 end
 
 -- Parses slash commands
--- If an unrecognized command is given, toggle Atlas
+-- If an un-recognized command is given, toggle Atlas
 function Atlas_SlashCommand(msg)
 	if (msg == ATLAS_SLASH_OPTIONS) then
 		AtlasOptions_Toggle();

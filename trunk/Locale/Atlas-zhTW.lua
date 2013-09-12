@@ -52,7 +52,7 @@ if AL then
 	AL["BINDING_NAME_ATLAS_AUTOSEL"] = "自動選擇";
 
 	AL["ATLAS_SLASH"] = "/atlas";
-	AL["ATLAS_SLASH_OPTIONS"] = "選項";
+	AL["ATLAS_SLASH_OPTIONS"] = "options";
 
 	AL["ATLAS_STRING_LOCATION"] = "所在位置";
 	AL["ATLAS_STRING_LEVELRANGE"] = "等級範圍";

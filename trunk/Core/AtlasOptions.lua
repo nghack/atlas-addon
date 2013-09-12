@@ -37,10 +37,12 @@ function AtlasOptions_ResetPosition()
 end
 ]]
 
+-- Show the Atlas Options
 function AtlasOptions_Toggle()
 	if InterfaceOptionsFrame:IsVisible() then
 		InterfaceOptionsFrame:Hide();
 	else
+		InterfaceOptionsFrame_OpenToCategory("Atlas");
 		InterfaceOptionsFrame_OpenToCategory("Atlas");
 	end
 end

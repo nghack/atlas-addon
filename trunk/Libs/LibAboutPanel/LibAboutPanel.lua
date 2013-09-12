@@ -69,8 +69,6 @@ else
 	L["Category"] = "Category"
 	L["License"] = "License"
 	L["Email"] = "Email"
-	L["Email"] = "Email"
-	L["eMail"] = "eMail"
 	L["Website"] = "Website"
 	L["Credits"] = "Credits"
 	L["Localizations"] = "Localizations"

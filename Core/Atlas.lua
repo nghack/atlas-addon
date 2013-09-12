@@ -326,10 +326,10 @@ end
 
 -- Detect if not all modules / plugins are installed
 local function Atlas_Check_Modules()
-	if (not AtlasOptions["AtlasCheckModule"]) then
+	if (AtlasOptions["AtlasCheckModule"] == nil) then
 		AtlasOptions["AtlasCheckModule"] = true;
 	end
-	if (not AtlasOptions["AtlasCheckModule"]) then
+	if (AtlasOptions["AtlasCheckModule"] == false) then
 		return;
 	end
 	local Module_List = {
@@ -404,23 +404,23 @@ ATLAS_OLD_ZONE = false;
 
 function Atlas_InitOptions()
 	-- Init saved vars for a new install
-	if (not AtlasOptions) then
+	if ( AtlasOptions == nil ) then
 		Atlas_FreshOptions();
 	end
 	-- Init the newly added "AtlasBossDescScale" and don't bother user to reset everything
 	-- Can be removed after 1.21.0 release
-	if (not AtlasOptions["AtlasBossDescScale"]) then
+	if (AtlasOptions["AtlasBossDescScale"] == nil) then
 		AtlasOptions["AtlasBossDescScale"] = 0.9;
 	end
-	if (not AtlasOptions["AtlasBossDesc"]) then
+	if (AtlasOptions["AtlasBossDesc"] == nil) then
 		AtlasOptions["AtlasBossDesc"] = true;
 	end
 
-	if (not AtlasOptions["AtlasDontShowInfo_12201"]) then
+	if (AtlasOptions["AtlasDontShowInfo_12201"] == nil) then
 		AtlasOptions["AtlasDontShowInfo_12201"] = false;
 	end
 	
-	if (not AtlasOptions["AtlasCheckModule"]) then
+	if (AtlasOptions["AtlasCheckModule"] == nil) then
 		AtlasOptions["AtlasCheckModule"] = true;
 	end
 	--saved options version check

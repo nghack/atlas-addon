@@ -95,7 +95,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas 副本地圖";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
 	AL["ATLAS_LDB_HINT"] = "左鍵開啟 Atlas.\n中鍵開啟 Atlas 選項.\n右鍵打開顯示選單.";
-	AL["ATLAS_MINIMAPLDB_HINT"] = "左鍵開啟 Atlas.\n右鍵開啟 Atlas 選項.\n右鍵並拖曳以移動圖示按鈕位置.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "左鍵開啟 Atlas.\n右鍵開啟 Atlas 選項.\n左鍵並拖曳以移動圖示按鈕位置.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "副本地圖分類方式:";
 	AL["ATLAS_DDL_CONTINENT"] = "依不同大陸分類";

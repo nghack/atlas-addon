@@ -773,11 +773,14 @@ function Atlas_Refresh()
 	ATLAS_DATA = base;
 	ATLAS_SEARCH_METHOD = data.Search;
 
-	if (data.Search) then
+	if ( data.Search == nil ) then
+		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
+	end
+	
+	if ( data.Search ~= false ) then
 		AtlasSearchEditBox:Show();
 		AtlasNoSearch:Hide();
 	else
-		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
 		AtlasSearchEditBox:Hide();
 		AtlasNoSearch:Show();
 		ATLAS_SEARCH_METHOD = nil;

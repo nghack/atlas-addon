@@ -9,6 +9,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.26.01 (Sep. XX, 2013)
 - Fix the issue that CheckModule will always through a warning window
+- Fix the issue while clicking the Option button the first time won't lead you to the Atlas option panel
 
 v1.26.00 (Sep. 09, 2013)
 -----------------------

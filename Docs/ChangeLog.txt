@@ -13,6 +13,7 @@ v1.26.01 (Sep. 12, 2013)
 - Added Atlas_MapSeries array and new feature, when an instance have series 
   map, additional button will appear so that user will be easier to switch
   to other maps
+- Enhance Atlas_GetBossName() to lookup minibosses' name
 
   
 v1.26.01 (Sep. 12, 2013)

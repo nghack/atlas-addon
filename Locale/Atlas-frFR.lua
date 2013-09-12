@@ -106,7 +106,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour déplacer ce bouton.";
 	AL["ATLAS_LDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Milieu pour les options d'Atlas.\nClic-Droit pour le menu d'affichage.";
-	AL["ATLAS_MINIMAPLDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Droit pour les options d'Atlas.\nClic-Gauche et glisser pour déplacer ce bouton.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Clic-Gauche pour ouvrir Atlas.\nClic-Droit pour les options d'Atlas.\nClic-Droit et glisser pour déplacer ce bouton.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Trier les instances par :";
 	AL["ATLAS_DDL_CONTINENT"] = "Continent";

@@ -80,7 +80,7 @@ local DefaultAtlasOptions = {
 	["AtlasBossDescScale"] = 0.9;		-- The boss description GameToolTip scale
 	["AtlasDontShowInfo"] = false; 		-- Atlas latest information
 	["AtlasDontShowInfo_12201"] = false;
-	["AtlasCheckModule"] = true;		-- Check if there is missing module / plugin
+	["AtlasCheckModule"] = true;
 };
 
 -- Code by Grayhoof (SCT)

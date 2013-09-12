@@ -98,7 +98,7 @@ if AL then
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "单击打开 Atlas。\n中键单击打开 Atlas 选项。\n右击可移动这个按钮。";
 	AL["ATLAS_LDB_HINT"] = "单击打开 Atlas。\n右击打开 Atlas 选项。";
-	AL["ATLAS_MINIMAPLDB_HINT"] = "单击打开 Atlas。\n右击打开 Atlas 选项。\n单击並拖拉可移动这个按钮。";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "单击打开 Atlas。\n右击打开 Atlas 选项。\n右击並拖拉可移动这个按钮。";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "副本地图排序方式：";
 	AL["ATLAS_DDL_CONTINENT"] = "所属大陆";

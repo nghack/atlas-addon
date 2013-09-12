@@ -10,13 +10,20 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.26.01 (Sep. 12, 2013)
 -----------------------
 - Restore back the simple search feature
+- Added Atlas_MapSeries array and new feature, when an instance have series 
+  map, additional button will appear so that user will be easier to switch
+  to other maps
 
+  
 v1.26.01 (Sep. 12, 2013)
 -----------------------
 - Fix the issue that CheckModule will always through a warning window
-- Fix the issue while clicking the Option button the first time won't lead you to the Atlas option panel
-- Translation minor update to correct the description on how to drag the minimap button
+- Fix the issue while clicking the Option button the first time won't lead you 
+  to the Atlas option panel
+- Translation minor update to correct the description on how to drag the 
+  minimap button
 
+  
 v1.26.00 (Sep. 09, 2013)
 -----------------------
 - TOC update to support WoW 5.4
@@ -31,6 +38,7 @@ v1.26.00 (Sep. 09, 2013)
 - Minor enhancemnet:
     - Codes cleanup
 
+    
 v1.25.00 (May 21, 2013)
 -----------------------
 - TOC update to support WoW 5.3
@@ -54,6 +62,7 @@ v1.25.00 (May 21, 2013)
     - frFR (Khiria)
     - zhCN/zhTW (ananhaid)
 
+    
 v1.24.00 (Mar. 05, 2013)
 -----------------------
 - TOC update to support WoW 5.2
@@ -70,9 +79,11 @@ v1.24.00 (Mar. 05, 2013)
 - Minor issues fixed
     - WotLK map's info
 
+    
 v1.23.0 (Dec. 07, 2012)
 -----------------------
 - TOC update to support WoW 5.1
+
 
 v1.22.1 (Oct. 10, 2012)
 -----------------------
@@ -119,7 +130,8 @@ v1.22.0 (Sep. 25, 2012)
         - Maraudon
         - Razorfen Kraul
         - Drak'Tharon Keep
-- New Calalycsm module created, core module only to keep the current expansion new and revised maps
+- New Calalycsm module created, core module only to keep the current expansion 
+  new and revised maps
 - Updated lots of boss names to use the dungeon journal
 - Added Atlas Information window when the addon is loaded
 - Readme update
@@ -129,11 +141,11 @@ v1.22.0 (Sep. 25, 2012)
     - ruRU (StingerSoft)
     - frFR (Khiria)
     - zhCN (ananhaid)
-- added the use of following Libs: AceAddon-3.0, AceConsole-3.0, AceDB-3.0, LibDBIcon-1.0;
+- added the use of following Libs: AceAddon-3.0, AceConsole-3.0, AceDB-3.0, 
+  LibDBIcon-1.0;
     - Minimap button now rendering with LibDBIcon
     - New chatcommand '/atlasbutton' to toggle the Atlas minimap button
 - Added most of the dungeons' boss description when mouse is hover
-
 
 
 v1.21.1 (Dec. 06, 2011)

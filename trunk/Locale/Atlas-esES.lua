@@ -526,7 +526,6 @@ if AL then
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Picopiedra";
-	AL["Razorfen Spearhide"] = "Cuerolanza de Rajacieno";
 	AL["Spirit of Agamaggan <Ancient>"] = "Espíritu de Agamaggan <Anciano>";
 	AL["Willix the Importer"] = "Willix el Importador";
 
@@ -571,7 +570,6 @@ if AL then
 	AL["The Black Anvil"] = "El Yunquenegro";
 	AL["The Vault"] = "Cámara Negra";
 	AL["Watchman Doomgrip"] = "Vigía Presaletal";
-	AL["High Justice Grimstone"] = "Alto Justiciero Pedrasiniestra";
 	AL["Elder Morndeep"] = "Ancestro Alborhondo";
 	AL["Schematic: Field Repair Bot 74A"] = "Esquema: robot de reparación de campo 74A";
 	AL["Private Rocknot"] = "Soldado Sinroca";
@@ -674,7 +672,6 @@ if AL then
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Comandante de Cruzada Korfax <Hermandad de la Luz>";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Patán inútil";
 	AL["Lieutenant Horatio Laine"] = "Teniente Horatio Laine";
 	AL["Kagtha"] = "Kagtha";
 	AL["Slinky Sharpshiv"] = "Finta Navajazos";
@@ -1090,7 +1087,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Capitán Hadan";
-	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Tumba de tol'vir";
 
 	--The Bastion of Twilight
@@ -1185,6 +1181,8 @@ if AL then
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Maestro Shado Chum Kiu";
+
+	--Siege of Orgrimmar
 
 	--Stormstout Brewery
 	AL["Auntie Stormstout"] = "Tía Cerveza de Trueno";

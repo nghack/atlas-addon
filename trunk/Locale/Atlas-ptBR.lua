@@ -493,7 +493,6 @@ if AL then
 
 	--Razorfen Kraul
 	--AL["Auld Stonespire"] = "Auld Stonespire";
-	--AL["Razorfen Spearhide"] = "Razorfen Spearhide";
 	--AL["Spirit of Agamaggan <Ancient>"] = "Spirit of Agamaggan <Ancient>";
 	--AL["Willix the Importer"] = "Willix the Importer";
 
@@ -538,7 +537,6 @@ if AL then
 	--AL["The Black Anvil"] = "The Black Anvil";
 	--AL["The Vault"] = "The Vault";
 	--AL["Watchman Doomgrip"] = "Watchman Doomgrip";
-	--AL["High Justice Grimstone"] = "High Justice Grimstone";
 	--AL["Elder Morndeep"] = "Elder Morndeep";
 	--AL["Schematic: Field Repair Bot 74A"] = "Schematic: Field Repair Bot 74A";
 	--AL["Private Rocknot"] = "Private Rocknot";
@@ -641,7 +639,6 @@ if AL then
 	--AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Crusade Commander Korfax <Brotherhood of the Light>";
 
 	--The Deadmines
-	--AL["Lumbering Oaf"] = "Lumbering Oaf";
 	--AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	--AL["Kagtha"] = "Kagtha";
 	--AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
@@ -1022,7 +1019,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	--AL["Captain Hadan"] = "Captain Hadan";
-	--AL["Augh"] = "Augh";
 	--AL["Tol'vir Grave"] = "Tol'vir Grave";
 
 	--The Bastion of Twilight

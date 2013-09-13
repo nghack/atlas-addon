@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 02.09.2013
+-- Letztes Update: 13.09.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -540,7 +540,6 @@ if AL then
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Steinkeil";
-	AL["Razorfen Spearhide"] = "Speerträger der Klingenhauer";
 	AL["Spirit of Agamaggan <Ancient>"] = "Geist von Agamaggan <Uralter>";
 	AL["Willix the Importer"] = "Willix der Importeur";
 
@@ -585,7 +584,6 @@ if AL then
 	AL["The Black Anvil"] = "Der Schwarze Amboss";
 	AL["The Vault"] = "Der Tresorraum";
 	AL["Watchman Doomgrip"] = "Wachmann Stahlgriff";
-	AL["High Justice Grimstone"] = "Oberrichter Grimmstein";
 	AL["Elder Morndeep"] = "Urahne Schwermut";
 	AL["Schematic: Field Repair Bot 74A"] = "Bauplan: Feldreparaturbot 74A";
 	AL["Private Rocknot"] = "Gefreiter Rocknot";
@@ -688,7 +686,6 @@ if AL then
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Kreuzzugskommandant Korfax <Bruderschaft des Lichts>";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Trampel";
 	AL["Lieutenant Horatio Laine"] = "Leutnant Horatio Laine";
 	AL["Kagtha"] = "Kagtha";
 	AL["Slinky Sharpshiv"] = "Slinky Scharfklinge";
@@ -1104,7 +1101,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Kapitän Hadan";
-	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Grab der Tol'vir";
 
 	--The Bastion of Twilight

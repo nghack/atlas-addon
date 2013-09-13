@@ -529,7 +529,6 @@ if AL then
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奧爾德·石塔";
-	AL["Razorfen Spearhide"] = "剃刀沼澤刺鬃守衛";
 	AL["Spirit of Agamaggan <Ancient>"] = "阿迦瑪甘之靈 <先祖>";
 	AL["Willix the Importer"] = "進口商威利克斯";
 
@@ -574,7 +573,6 @@ if AL then
 	AL["The Black Anvil"] = "黑鐵砧";
 	AL["The Vault"] = "地窖";
 	AL["Watchman Doomgrip"] = "衛兵杜格瑞普";
-	AL["High Justice Grimstone"] = "裁決者格里斯通";
 	AL["Elder Morndeep"] = "深晨長者";
 	AL["Schematic: Field Repair Bot 74A"] = "結構圖:戰地修理機器人74A型";
 	AL["Private Rocknot"] = "羅克諾特下士";
@@ -677,7 +675,6 @@ if AL then
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "『聖光勇士』柯菲斯 <聖光兄弟會>";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "笨重的歐弗";
 	AL["Lieutenant Horatio Laine"] = "何瑞修·萊恩中尉";
 	AL["Kagtha"] = "卡格薩";
 	AL["Slinky Sharpshiv"] = "史琳琪·利刀";
@@ -1093,7 +1090,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "哈丹隊長";
-	AL["Augh"] = "奧各";
 	AL["Tol'vir Grave"] = "托維爾墓地";
 
 	--The Bastion of Twilight

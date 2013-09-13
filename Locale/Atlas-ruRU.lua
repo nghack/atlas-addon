@@ -528,7 +528,6 @@ if AL then
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Ольд Каменное Копье";
-	AL["Razorfen Spearhide"] = "Копьешкур из племени Иглошкурых";
 	AL["Spirit of Agamaggan <Ancient>"] = "Дух Агамаггана <Древний>";
 	AL["Willix the Importer"] = "Импортер Вилликс";
 
@@ -573,7 +572,6 @@ if AL then
 	AL["The Black Anvil"] = "Черная наковальня";
 	AL["The Vault"] = "Подземелье";
 	AL["Watchman Doomgrip"] = "Сторож Хватка Смерти";
-	AL["High Justice Grimstone"] = "Верховный судья Мрачнокамень";
 	AL["Elder Morndeep"] = "Старейшина Рассветень";
 	AL["Schematic: Field Repair Bot 74A"] = "Схема: полевой ремонтный робот 74A";
 	AL["Private Rocknot"] = "Рядовой Камнеузл";
@@ -676,7 +674,6 @@ if AL then
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Командир рыцарей Корфакс <Братство Света>";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Болванчик";
 	AL["Lieutenant Horatio Laine"] = "Лейтенант Горацио Лейн";
 	AL["Kagtha"] = "Кагта";
 	AL["Slinky Sharpshiv"] = "Крадли Дротик";
@@ -1092,7 +1089,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Капитан Хадан";
-	AL["Augh"] = "Ауг";
 	AL["Tol'vir Grave"] = "Тол'вирская могила";
 
 	--The Bastion of Twilight

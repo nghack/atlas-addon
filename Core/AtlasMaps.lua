@@ -589,7 +589,7 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Aggem Thorncurse", 439) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Death Speaker Jargba", 438) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Overlord Ramtusk", 440) };
-		{ WHIT..INDENT..AL["Razorfen Spearhide"] };
+		{ WHIT..INDENT..Atlas_GetBossName("Razorfen Spearhide", 440, 2) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Agathelos the Raging", 441) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Charlga Razorflank", 442) };
 		{ ORNG.." 1) "..Atlas_GetBossName("Roogug") };
@@ -740,7 +740,7 @@ Syntax:
 		{ WHIT..INDENT..AL["Watchman Doomgrip"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("Pyromancer Loregrain", 373) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Ring of Law", 372) };
-		{ ORNG..INDENT..AL["High Justice Grimstone"] };
+		{ ORNG..INDENT..Atlas_GetBossName("High Justice Grimstone", 372, 1) };
 		{ WHIT..INDENT..Atlas_GetBossName("Anub'shiah").." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Eviscerator").." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Gorosh the Dervish").." ("..AL["Random"]..")" };
@@ -839,7 +839,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Solakar Flamewreath", 398) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Goraluk Anvilcrack") };
 		{ WHIT.." 4) "..Atlas_GetBossName("Warchief Rend Blackhand", 399) };
-		{ WHIT..INDENT..Atlas_GetBossName("Gyth") };
+		{ WHIT..INDENT..Atlas_GetBossName("Gyth", 399, 2) };
 		{ WHIT.." 5) "..Atlas_GetBossName("The Beast", 400) };
 		{ GREN..INDENT..AL["Finkle Einhorn"] };
 		{ WHIT.." 6) "..Atlas_GetBossName("General Drakkisath", 401) };
@@ -947,7 +947,7 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korloff", 671) };
 		{ WHIT.." 3) "..Atlas_GetBossName("High Inquisitor Whitemane", 674) };
-		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand") };
+		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand", 674, 2) };
 	};
 	Scholomance = {
 		ZoneName = { BZ["Scholomance"] };
@@ -1080,10 +1080,10 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Avatar of Hakkar", 457) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Jammal'an the Prophet", 458) };
 		{ WHIT..INDENT..Atlas_GetBossName("Ogom the Wretched") };
-		{ WHIT.." 3) "..Atlas_GetBossName("Dreamscythe").." ("..AL["Wanders"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Weaver").." ("..AL["Wanders"]..")" };
-		{ WHIT.." 4) "..Atlas_GetBossName("Hazzas").." ("..AL["Wanders"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Morphaz").." ("..AL["Wanders"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Dreamscythe", 459, 1).." ("..AL["Wanders"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Weaver", 459, 2).." ("..AL["Wanders"]..")" };
+		{ WHIT.." 4) "..Atlas_GetBossName("Hazzas", 459, 4).." ("..AL["Wanders"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Morphaz", 459, 3).." ("..AL["Wanders"]..")" };
 		{ WHIT.." 5) "..Atlas_GetBossName("Shade of Eranikus", 463) };
 		{ GREN.." 1') "..AL["Lord Itharius"] };
 		{ GREN.." 2') "..AL["Elder Starsong"].." ("..AL["Lunar Festival"]..")" };
@@ -1099,9 +1099,9 @@ Syntax:
 		{ BLUE.." B) "..AL["Entrance"].." ("..AL["Back"]..")" };
 		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Lost Dwarves", 468).." ("..FACTION_HORDE..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Olaf") };
-		{ WHIT..INDENT..Atlas_GetBossName("Eric \"The Swift\"") };
-		{ WHIT..INDENT..Atlas_GetBossName("Baelog") };
+		{ WHIT..INDENT..Atlas_GetBossName("Olaf", 468, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Eric \"The Swift\"", 468, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Baelog", 468, 1) };
 		{ GREN..INDENT..AL["Baelog's Chest"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Revelosh", 467) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ironaya", 469) };
@@ -2100,19 +2100,19 @@ Syntax:
 		JournalInstanceID = "284";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Grand Champions") };
+		{ WHIT.." 1) "..Atlas_GetBossName("Grand Champions", 834) };
 		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions", 834).." ("..FACTION_ALLIANCE..")" };
-		{ WHIT..INDENT..INDENT..AL["Marshal Jacob Alerius"] };
-		{ WHIT..INDENT..INDENT..AL["Ambrose Boltspark"] };
-		{ WHIT..INDENT..INDENT..AL["Colosos"] };
-		{ WHIT..INDENT..INDENT..AL["Jaelyne Evensong"] };
-		{ WHIT..INDENT..INDENT..AL["Lana Stouthammer"] };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Marshal Jacob Alerius", 834, 1) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Ambrose Boltspark", 834, 2) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Colosos", 834, 5) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Jaelyne Evensong", 834, 3) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Lana Stouthammer", 834, 4) };
 		{ ORNG..INDENT..Atlas_GetBossName("Grand Champions", 634).." ("..FACTION_HORDE..")" };
-		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Mokra the Skullcrusher") };
-		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Eressea Dawnsinger") };
-		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Runok Wildmane") };
-		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Zul'tore") };
-		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Deathstalker Visceri") };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Mokra the Skullcrusher", 634, 1) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Eressea Dawnsinger", 634, 2) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Runok Wildmane", 634, 3) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Zul'tore", 634, 4) };
+		{ WHIT..INDENT..INDENT..Atlas_GetBossName("Deathstalker Visceri", 634, 5) };
 		{ WHIT..INDENT..Atlas_GetBossName("Eadric the Pure", 635).." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Argent Confessor Paletress", 636).." ("..AL["Random"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("The Black Knight", 637) };
@@ -2501,7 +2501,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("General Umbriss", 131) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Forgemaster Throngus", 132) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Drahga Shadowburner", 133).." & "..Atlas_GetBossName("Valiona") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Drahga Shadowburner", 133).." & "..Atlas_GetBossName("Valiona", 133, 2) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Erudax, the Duke of Below", 134) };
 		{ GREN.." 1') "..AL["Baleflame"] };
 		{ GREN..INDENT..AL["Farseer Tooranu <The Earthen Ring>"] };
@@ -2539,7 +2539,7 @@ Syntax:
 		{ GREN..INDENT..AL["Captain Hadan"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("General Husam", 117) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lockmaw", 118) };
-		{ WHIT..INDENT..AL["Augh"] };
+		{ WHIT..INDENT..Atlas_GetBossName("Augh", 118, 2) };
 		{ WHIT.." 3) "..Atlas_GetBossName("High Prophet Barim", 119) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Siamat", 122) };
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
@@ -2574,7 +2574,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Glubtok", 89) };
-		{ WHIT.." 2) "..AL["Lumbering Oaf"] };
+		{ WHIT.." 2) "..Atlas_GetBossName("Lumbering Oaf", 90, 2) };
 		{ WHIT..INDENT..Atlas_GetBossName("Helix Gearbreaker", 90) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Foe Reaper 5000", 91) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Admiral Ripsnarl", 92) };
@@ -2631,9 +2631,9 @@ Syntax:
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Conclave of Wind", 154) };
-		{ WHIT..INDENT..Atlas_GetBossName("Anshal").." ("..AL["West"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Nezir").." ("..AL["North"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Rohash").." ("..AL["East"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Anshal", 154, 1).." ("..AL["West"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Nezir", 154, 2).." ("..AL["North"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Rohash", 154, 3).." ("..AL["East"]..")" };
 		{ WHIT.." 2) "..Atlas_GetBossName("Al'Akir", 155) };
 	};
 	ThroneOfTheTides = {
@@ -2785,7 +2785,7 @@ Syntax:
 		{ WHIT.." 3) "..Atlas_GetBossName("Garalon", 713) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Wind Lord Mel'jarak", 741) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Amber-Shaper Un'sok", 737) };
-		{ WHIT..INDENT..Atlas_GetBossName("Amber Monstrosity") };
+		{ WHIT..INDENT..Atlas_GetBossName("Amber Monstrosity", 737, 2) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Grand Empress Shek'zeer", 743) };
 	};
 	MoguShanPalace = {
@@ -2799,9 +2799,9 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
-		{ WHIT..INDENT..Atlas_GetBossName("Haiyan the Unstoppable") };
-		{ WHIT..INDENT..Atlas_GetBossName("Kuai the Brute") };
-		{ WHIT..INDENT..Atlas_GetBossName("Ming the Cunning") };
+		{ WHIT..INDENT..Atlas_GetBossName("Haiyan the Unstoppable", 708, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Kuai the Brute", 708, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ming the Cunning", 708, 2) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Gekkan", 690) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Xin the Weaponmaster", 698) };
 		{ GREN.." 1') "..AL["Sinan the Dreamer"] };
@@ -2817,21 +2817,21 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard", 679) };
-		{ WHIT..INDENT..Atlas_GetBossName("Amethyst Guardian") };
-		{ WHIT..INDENT..Atlas_GetBossName("Cobalt Guardian") };
-		{ WHIT..INDENT..Atlas_GetBossName("Jade Guardian") };
-		{ WHIT..INDENT..Atlas_GetBossName("Jasper Guardian") };
+		{ WHIT..INDENT..Atlas_GetBossName("Amethyst Guardian", 679, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Cobalt Guardian", 679, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Jade Guardian", 679, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Jasper Guardian", 679, 4) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Feng the Accursed", 689) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Gara'jal the Spiritbinder", 682) };
 		{ WHIT.." 4) "..Atlas_GetBossName("The Spirit Kings", 687) };
-		{ WHIT..INDENT..Atlas_GetBossName("Meng the Demented") };
-		{ WHIT..INDENT..Atlas_GetBossName("Qiang the Merciless") };
-		{ WHIT..INDENT..Atlas_GetBossName("Subetai the Swift") };
-		{ WHIT..INDENT..Atlas_GetBossName("Zian of the Endless Shadow") };
+		{ WHIT..INDENT..Atlas_GetBossName("Meng the Demented", 687, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Qiang the Merciless", 687, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Subetai the Swift", 687, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Zian of the Endless Shadow", 687, 4) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Elegon", 726) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Will of the Emperor", 677) };
-		{ WHIT..INDENT..Atlas_GetBossName("Jan-xi") };
-		{ WHIT..INDENT..Atlas_GetBossName("Qin-xi") };
+		{ WHIT..INDENT..Atlas_GetBossName("Jan-xi", 677, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Qin-xi", 677, 2) };
 	};
 	ShadoPanMonasteryA = {
 		ZoneName = { BZ["Shado-Pan Monastery"]..AL["MapA"] };
@@ -2843,7 +2843,7 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
-		{ WHIT..INDENT..Atlas_GetBossName("Azure Serpent") };
+		{ WHIT..INDENT..Atlas_GetBossName("Azure Serpent", 673, 2) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Taran Zhu", 686) };
 	};
 	ShadoPanMonasteryB = {
@@ -2909,8 +2909,8 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
-		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot", 849, 1) };
-		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe", 849, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot", 849, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Rook Stonetoe", 849, 1) };
 		{ WHIT..INDENT..Atlas_GetBossName("Sun Tenderheart", 849, 3) };
 	};
 	SiegeofOrgrimmarC = {
@@ -2946,7 +2946,7 @@ Syntax:
 		{ WHIT.."12) "..Atlas_GetBossName("Siegecrafter Blackfuse", 865) };
 		{ WHIT.."13) "..Atlas_GetBossName("Paragons of the Klaxxi", 853) };
 		{ WHIT..INDENT..Atlas_GetBossName("Hisek the Swarmkeeper", 853, 2) };
-		{ WHIT..INDENT..Atlas_GetBossName("Iyyokuk the Lucid", 853, 7) };
+		{ WHIT..INDENT..Atlas_GetBossName("Iyyokuk the Lucid", 853, 8) };
 		{ WHIT..INDENT..Atlas_GetBossName("Ka'roz the Locust", 853, 3) };
 		{ WHIT..INDENT..Atlas_GetBossName("Kaz'tik the Manipulator", 853, 5) };
 		{ WHIT..INDENT..Atlas_GetBossName("Kil'ruk the Wind-Reaver", 853, 9) };
@@ -2998,9 +2998,9 @@ Syntax:
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 683) };
-		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani") };
-		{ WHIT..INDENT..Atlas_GetBossName("Elder Regail") };
-		{ WHIT..INDENT..Atlas_GetBossName("Protector Kaolan") };
+		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani", 683, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Elder Regail", 683, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Protector Kaolan", 683, 1) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Tsulong", 742) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Lei Shi", 729) };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sha of Fear", 709) };
@@ -3019,10 +3019,10 @@ Syntax:
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Horridon", 819) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Council of Elders", 816) };
-		{ WHIT..INDENT..Atlas_GetBossName("Frost King Malakk") };
-		{ WHIT..INDENT..Atlas_GetBossName("High Priestess Mar'li") };
-		{ WHIT..INDENT..Atlas_GetBossName("Kazra'jin") };
-		{ WHIT..INDENT..Atlas_GetBossName("Sul the Sandcrawler") };
+		{ WHIT..INDENT..Atlas_GetBossName("Frost King Malakk", 816, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("High Priestess Mar'li", 816, 4) };
+		{ WHIT..INDENT..Atlas_GetBossName("Kazra'jin", 816, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Sul the Sandcrawler", 816, 2) };
 		{ ORNG.." 1) "..AL["Monara <The Last Queen>"].." ("..AL["Rare"]..")" };
 		{ ORNG.." 2) "..AL["No'ku Stormsayer <Lord of Tempest>"].." ("..AL["Rare"]..")" };
 	};
@@ -3070,12 +3070,12 @@ Syntax:
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
-		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren") };
-		{ WHIT..INDENT..Atlas_GetBossName("Quet'zal") };
-		{ WHIT..INDENT..Atlas_GetBossName("Ro'shak") };
+		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren", 817, 4) };
+		{ WHIT..INDENT..Atlas_GetBossName("Quet'zal", 817, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ro'shak", 817, 2) };
 		{ WHIT.." 11) "..Atlas_GetBossName("Twin Consorts", 829) };
-		{ WHIT..INDENT..Atlas_GetBossName("Lu'lin") };
-		{ WHIT..INDENT..Atlas_GetBossName("Suen") };
+		{ WHIT..INDENT..Atlas_GetBossName("Lu'lin", 829, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Suen", 829, 2) };
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
 		{ ORNG.." 6) "..AL["Zao'cho <The Emperor's Shield>"].." ("..AL["Rare"]..")" };

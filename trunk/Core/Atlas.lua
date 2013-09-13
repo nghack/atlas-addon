@@ -583,7 +583,9 @@ function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
-
+	local name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday;
+	local nameH, typeIDH, subtypeIDH, minLevelH, maxLevelH, recLevelH, minRecLevelH, maxRecLevelH, expansionLevelH, groupIDH, textureFilenameH, difficultyH, maxPlayersH, descriptionH, isHolidayH
+	
 	if (base.DungeonID) then 
 		name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
 		-- For some unknown reason, some of the dungeons do not have recommended level range

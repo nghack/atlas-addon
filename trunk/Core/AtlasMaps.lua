@@ -55,16 +55,19 @@ Column	Field		Type		Notes
 
 
 # Structure of LFGDungeons.dbc
-Column	Field 		Type 		Patch	Notes
-------	-------------	--------	-----	----------------------------------------------------------------------------------------------
-1 	ID 		Integer 		
-2-18 	sRefName 	String + Loc		Area/Instance (zone) name 	
-19 	level_min 	Integer 		Minimum level to participate. 
-20 	level_max 	Integer 		Maximum level when this dungeon becomes trivial. 
-21 	Unknown 	Integer 		Grouping of some type (5 = Battleground, 4 = Normal world zones? , 2 = Raid, 1 = 5 man)? 
-22 	faction 	Integer 		Faction type to participate. -1 all; 0 horde; 1 alliance; 
-23 	Map ID	        Integer 	 	Here you must add the Map Id where you will be ported
-24 	Expansion 	Integer 	5965 	Does this just denote it's part of TBC or a toggle of some kind? 
+Column	Field 			Type 		Patch	Notes
+------	-------------		--------	-----	----------------------------------------------------------------------------------------------
+1 	ID 			Integer 		
+2	Map Name		String			Dungeon Name
+3	level_min 		Integer 		Minimum level to participate. 
+4 	level_max 		Integer 		Maximum level when this dungeon becomes trivial. 
+5	rec_level		Integer
+6	rec_minlevel		Integer
+7	rec_maxlevel		Integer
+8 	Map ID	        	Integer 	 	Here you must add the Map Id where you will be ported
+9	difficulty		Integer
+13	systemname
+14	expansion
 
 ]]
 local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");

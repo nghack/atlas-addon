@@ -256,6 +256,7 @@ Atlas_SubZoneData = {
 		-- Siege of Orgrimmar A
 		["SiegeofOrgrimmarA"] = {
 			BZ["Pools of Power"],
+			BZ["Ruined Passage"],
 			BZ["Big Blossom Mine"],
 			BZ["Chamber of Purification"],
 			BZ["Vault of Y'Shaarj"],

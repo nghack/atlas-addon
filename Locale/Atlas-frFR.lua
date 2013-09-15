@@ -520,7 +520,9 @@ if AL then
 	AL["Celebras the Redeemed"] = "Celebras le Racheté";
 
 	--Ragefire Chasm
-	AL["Scout Cage"] = "Cage d'eclaireur"; -- translation needed
+	AL["Commander Bagran"] = "Commandant Bagran";
+	AL["Invoker Xorenth"] = "Invocateur Xorenth";
+	AL["Scout Cage"] = "Cage d'éclaireur";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";

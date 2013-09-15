@@ -54,18 +54,29 @@ Column	Field		Type		Notes
 11	Description	String		Boss description
 
 
+# Structure of JournalEncounterCreature.dbc
+Column	Field 		Type 		Notes
+------	-------------	--------	----------------------------------------------------------------------------------------------
+1	ID		Integer
+2	encounterID	Integer
+3	modelID		Integer
+4	Index		Integer
+5			Integer
+6	name		String
+
+
 # Structure of LFGDungeons.dbc
-Column	Field 			Type 		Patch	Notes
-------	-------------		--------	-----	----------------------------------------------------------------------------------------------
-1 	ID 			Integer 		
-2	Map Name		String			Dungeon Name
-3	level_min 		Integer 		Minimum level to participate. 
-4 	level_max 		Integer 		Maximum level when this dungeon becomes trivial. 
-5	rec_level		Integer
-6	rec_minlevel		Integer
-7	rec_maxlevel		Integer
-8 	Map ID	        	Integer 	 	Here you must add the Map Id where you will be ported
-9	difficulty		Integer
+Column	Field 		Type 		Notes
+------	-------------	--------	----------------------------------------------------------------------------------------------
+1 	ID 		Integer 		
+2	Map Name	String		Dungeon Name
+3	level_min 	Integer 	Minimum level to participate. 
+4 	level_max 	Integer 	Maximum level when this dungeon becomes trivial. 
+5	rec_level	Integer
+6	rec_minlevel	Integer
+7	rec_maxlevel	Integer
+8 	Map ID	        Integer 	Here you must add the Map Id where you will be ported
+9	difficulty	Integer
 13	systemname
 14	expansion
 

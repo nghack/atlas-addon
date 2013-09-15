@@ -81,6 +81,7 @@ local DefaultAtlasOptions = {
 	["AtlasDontShowInfo"] = false; 		-- Atlas latest information
 	["AtlasDontShowInfo_12201"] = false;
 	["AtlasCheckModule"] = true;		-- Check if there is missing module / plugin
+	["AtlasColoringDropDown"] = true;	-- Coloring dungeon dropdown list with difficulty colors
 };
 
 -- Code by Grayhoof (SCT)
@@ -419,6 +420,11 @@ function Atlas_InitOptions()
 	if (AtlasOptions["AtlasCheckModule"] == nil) then
 		AtlasOptions["AtlasCheckModule"] = true;
 	end
+	
+	if (AtlasOptions["AtlasColoringDropDown"] == nil) then
+		AtlasOptions["AtlasColoringDropDown"] = true;
+	end
+	
 	--saved options version check
 	if (AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS) then
 		Atlas_FreshOptions();
@@ -982,11 +988,11 @@ function AtlasFrameDropDown_Initialize()
 	local colortag;
 	for k, v in pairs(ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) do
 		
-		if (AtlasMaps[v].DungeonID) then
+		if (AtlasOptions["AtlasColoringDropDown"] and AtlasMaps[v].DungeonID) then
 			local _, _, _, _, _, _, minRecLevel = GetLFGDungeonInfo(AtlasMaps[v].DungeonID);
 			local dungeon_difficulty = Atlas_DungeonDifficulty(minRecLevel);
 			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
-		elseif (AtlasMaps[v].MinLevel) then
+		elseif (AtlasOptions["AtlasColoringDropDown"] and AtlasMaps[v].MinLevel) then
 			local dungeon_difficulty = Atlas_DungeonDifficulty(AtlasMaps[v].MinLevel);
 			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
 		else

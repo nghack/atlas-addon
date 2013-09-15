@@ -312,6 +312,43 @@
 					</OnLeave>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$ParentColoringDropdown" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-220"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_COLORINGDROPDOWN);
+					</OnLoad>
+					<OnClick>
+						--AtlasOptions_ToggleColoringDropdown();
+						if (AtlasOptions.AtlasColoringDropDown) then
+							AtlasOptions.AtlasColoringDropDown = false;
+						else
+							AtlasOptions.AtlasColoringDropDown = true;
+						end
+						AtlasOptions_Init();
+						Atlas_Refresh();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_COLORINGDROPDOWN_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
 			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
 				<Layers>
 					<Layer level="BACKGROUND">
@@ -329,7 +366,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="1" y="-240"/>
+							<AbsDimension x="1" y="-260"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -396,7 +433,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-305" />
+							<AbsDimension x="0" y="-325" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -424,7 +461,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-340" />
+							<AbsDimension x="0" y="-360" />
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -452,7 +489,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-375" />
+							<AbsDimension x="0" y="-395" />
 						</Offset>
 					</Anchor>
 				</Anchors>

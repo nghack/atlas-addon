@@ -136,6 +136,17 @@ function AtlasOptions_ToggleCheckModule()
 	Atlas_Refresh();
 end
 
+--[[
+function AtlasOptions_ToggleColoringDropDown()
+	if (AtlasOptions.AtlasColoringDropDown) then
+		AtlasOptions.AtlasColoringDropDown = false;
+	else
+		AtlasOptions.AtlasColoringDropDown = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+]]
 
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
@@ -176,6 +187,7 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameLock:SetChecked(AtlasOptions.AtlasLocked);
 	AtlasOptionsFrameBossDesc:SetChecked(AtlasOptions.AtlasBossDesc);
 	AtlasOptionsFrameCheckModule:SetChecked(AtlasOptions.AtlasCheckModule);
+	AtlasOptionsFrameColoringDropdown:SetChecked(AtlasOptions.AtlasColoringDropDown);
 --	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
 --	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);

@@ -31,7 +31,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Deutsche Lokalisierung (German, deDE)
 -- Dynaletik (ICQ: 176-289-585)
 -- Nihlo (ICQ: 260-869-930)
--- Letztes Update: 13.09.2013
+-- Letztes Update: 15.09.2013
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -101,6 +101,8 @@ if AL then
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Diese Information nicht erneut anzeigen.";
 	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Über fehlende Module / Plugins benachrichtigen.";
 	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Aktivieren Sie diese Option, um nach dem Starten von WoW zu prüfen, ob Module / Plugins fehlen.";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "Instanzlisten in Stufenfarben anzeigen";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Zeigt die Instanzlisten je nach minimaler Stufe und Spielerstufe mit unterschiedlichen Farben zur Indikation des Schwierigkeitsgrades an. ";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Schließen";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";

@@ -601,6 +601,7 @@ function Atlas_MapRefresh()
 	if (base.DungeonHeroicID) then
 		-- nameH, typeIDH, subtypeIDH, minLevelH, maxLevelH, recLevelH, minRecLevelH, maxRecLevelH, expansionLevelH, groupIDH, textureFilenameH, difficultyH, maxPlayersH, descriptionH, isHolidayH = GetLFGDungeonInfo(base.DungeonHeroicID);
 		_, _, _, minLevelH, maxLevelH, _, minRecLevelH, maxRecLevelH, _, _, _, _, maxPlayersH = GetLFGDungeonInfo(base.DungeonHeroicID);
+
 		if (minRecLevelH == 0) then
 			minRecLevelH = minRecLevel;
 		end
@@ -951,13 +952,48 @@ function AtlasFrameDropDownType_OnClick(self)
 	Atlas_Refresh();
 end
 
+-- Calculate the dungeon difficulty based on the dungeon's level and player's level
+-- Codes adopted from FastQuest_Classic
+local function Atlas_DungeonDifficulty(minRecLevel)
+	local lDiff = minRecLevel - UnitLevel("player");
+	local color;
+	if (lDiff >= 0) then
+		for i= 1.00, 0.10, -0.10 do
+			color = {r = 1.00, g = i, b = 0.00};
+			if ((i/0.10)==(10-lDiff)) then return color; end
+		end
+	elseif ( -lDiff < GetQuestGreenRange() ) then
+		for i= 0.90, 0.10, -0.10 do
+			color = {r = i, g = 1.00, b = 0.00};
+			if ((9-i/0.10)==(-1*lDiff)) then return color; end
+		end
+	elseif ( -lDiff == GetQuestGreenRange() ) then
+		color = {r = 0.50, g = 1.00, b = 0.50};
+	else
+		color = {r = 0.75, g = 0.75, b = 0.75};
+	end
+	return color;
+end
+
 -- Function used to initialize the main dropdown menu
 -- Looks at the status of AtlasType to determine how to populate the list
 function AtlasFrameDropDown_Initialize()
 	local info;
+	local colortag;
 	for k, v in pairs(ATLAS_DROPDOWNS[AtlasOptions.AtlasType]) do
+		
+		if (AtlasMaps[v].DungeonID) then
+			local _, _, _, _, _, _, minRecLevel = GetLFGDungeonInfo(AtlasMaps[v].DungeonID);
+			local dungeon_difficulty = Atlas_DungeonDifficulty(minRecLevel);
+			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
+		elseif (AtlasMaps[v].MinLevel) then
+			local dungeon_difficulty = Atlas_DungeonDifficulty(AtlasMaps[v].MinLevel);
+			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
+		else
+			colortag = ""
+		end
 		info = {
-			text = AtlasMaps[v].ZoneName[1];
+			text = colortag..AtlasMaps[v].ZoneName[1];
 			func = AtlasFrameDropDown_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
@@ -1176,6 +1212,7 @@ function AtlasEntryTemplate_OnUpdate(self)
 		end
 	end
 end
+
 
 -- In Development, this could be fun
 --[[

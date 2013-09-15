@@ -14,6 +14,8 @@ v1.26.01 (Sep. 12, 2013)
   map, additional button will appear so that user will be easier to switch
   to other maps
 - Enhance Atlas_GetBossName() to lookup minibosses' name
+- Enhance dungoen list to show difficulties based on the dungeon's recommended 
+  minimum level the player's level
 
   
 v1.26.01 (Sep. 12, 2013)

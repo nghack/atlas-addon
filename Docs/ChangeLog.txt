@@ -21,6 +21,7 @@ v1.26.02 (Sep. xx, 2013)
 - Translation update
     - deDE (Dynaletik)
     - esES/esMX (maqjav)
+    - frFR (Khiria)
     - zhCN/zhTW (ananhaid / Arith)
   
 v1.26.01 (Sep. 12, 2013)

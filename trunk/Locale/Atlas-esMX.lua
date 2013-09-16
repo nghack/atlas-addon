@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 -- Atlas Spanish (México) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 12/04/2013
+-- Última Actualización (last update): 16/09/2013
 
 -- Atlas Spanish (Mexico) Localization
 if ( GetLocale() == "esMX" ) then
@@ -97,6 +97,8 @@ if AL then
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "No mostrar la misma información de nuevo.";
 	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Recuérdame que módulo(s) / plug-in(s) falta(n).";
 	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Activar para comprobar si falta algún módulo / plug-in de Atlas después del inicio de WoW.";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "Mostrar listado de mazmorras con colores";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Muestra con colores el nivel de dificultad de la mazmorra, basándose en el nivel mínimo recomendado de la mazmorra y en el nivel del personaje. ";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Cerrar";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
@@ -238,6 +240,7 @@ if AL then
 	AL["Teleporter destination"] = "Teletransportador de destino";
 	AL["Third Stop"] = "Tercera parada";
 	AL["Top"] = "Arriba";
+	AL["Tunnel"] = "Túnel";
 	AL["Underwater"] = "Bajo el agua";
 	AL["Upper"] = "Arriba";
 	AL["Varies"] = "Varios";
@@ -371,9 +374,18 @@ if AL then
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
+	AL["SoO"] = "SoO"; --Siege of Orgrimmar
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Map sections
+	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [B]";
+	AL["MapC"] = " [C]";
+	AL["MapD"] = " [D]";
+	AL["MapE"] = " [E]";
+	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps

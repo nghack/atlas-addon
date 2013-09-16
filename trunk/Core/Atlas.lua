@@ -994,8 +994,12 @@ function AtlasFrameDropDown_Initialize()
 			local dungeon_difficulty = Atlas_DungeonDifficulty(minRecLevel);
 			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
 		elseif (AtlasOptions["AtlasColoringDropDown"] and AtlasMaps[v].MinLevel) then
-			local dungeon_difficulty = Atlas_DungeonDifficulty(AtlasMaps[v].MinLevel);
-			colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
+			if (type(AtlasMaps[v].MinLevel) == number) then
+				local dungeon_difficulty = Atlas_DungeonDifficulty(AtlasMaps[v].MinLevel);
+				colortag = string.format("|cff%02x%02x%02x", dungeon_difficulty.r * 255, dungeon_difficulty.g * 255, dungeon_difficulty.b * 255);
+			else
+				colortag = ""
+			end
 		else
 			colortag = ""
 		end

@@ -267,6 +267,7 @@ Atlas_SubZoneData = {
 		},
 		-- Siege of Orgrimmar C
 		["SiegeofOrgrimmarC"] = {
+			BZ["Bladefist Bay"],
 			BZ["Dranosh'ar Landing"],
 			BZ["The Darkspear Offensive"],
 			BZ["Before the Gates"],

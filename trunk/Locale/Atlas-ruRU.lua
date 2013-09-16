@@ -97,6 +97,8 @@ if AL then
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Не отображать одинаковую информацию снова.";
 	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Напоминать о недостоющих модулях / плагинах.";
 	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Выполнение проверки после загрузки WoW, на наличие недостающих модулей / плагинов Atlas'а.";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "Цвет ур. сложности подземелья";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Полагаясь на предложенный минимальный уровень подземелья и уровень игрока, окрашивать названия подземелий с учетом их уровня сложности.";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Закрыть";	
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Атлас";

@@ -331,7 +331,6 @@
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_COLORINGDROPDOWN);
 					</OnLoad>
 					<OnClick>
-						--AtlasOptions_ToggleColoringDropdown();
 						if (AtlasOptions.AtlasColoringDropDown) then
 							AtlasOptions.AtlasColoringDropDown = false;
 						else
@@ -339,6 +338,7 @@
 						end
 						AtlasOptions_Init();
 						Atlas_Refresh();
+						AtlasFrameDropDown_OnShow();
 					</OnClick>
 					<OnEnter>
 						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");

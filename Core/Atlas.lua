@@ -976,7 +976,8 @@ local function Atlas_DungeonDifficulty(minRecLevel)
 	elseif ( -lDiff == GetQuestGreenRange() ) then
 		color = {r = 0.50, g = 1.00, b = 0.50};
 	else
-		color = {r = 0.75, g = 0.75, b = 0.75};
+		--color = {r = 0.75, g = 0.75, b = 0.75};
+		color = {r = 1.00, g = 1.00, b = 1.00};
 	end
 	return color;
 end

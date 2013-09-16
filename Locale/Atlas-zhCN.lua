@@ -93,6 +93,8 @@ if AL then
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "不再显示相同信息。";
 	AL["ATLAS_OPTIONS_CHECKMODULE"] = "提醒我是否有遗失的模块或插件";
 	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "勾选以在每次登入 WoW 时检查是否有遗失的 Atlas 模块或插件。";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "副本列表以难易度色彩显示";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "依据副本建议的最低进入等级、以及玩家现今等级的差异，将副本列表以难易度色彩显示。";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "关闭";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";

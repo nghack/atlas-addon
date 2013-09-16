@@ -47,7 +47,6 @@ local myData = {
 		ZoneName = { Atlas_GetBossName("Doom Lord Kazzak") };
 		Location = { BZ["Hellfire Peninsula"] };
 		LevelRange = "70+";
-		MinLevel = "--";
 		PlayerLimit = "40";
 		{ WHIT.."1) "..Atlas_GetBossName("Doom Lord Kazzak") };
 		{ WHIT.."2) "..BZ["Invasion Point: Annihilator"] };
@@ -59,7 +58,6 @@ local myData = {
 		ZoneName = { Atlas_GetBossName("Doomwalker") };
 		Location = { BZ["Shadowmoon Valley"] };
 		LevelRange = "70+";
-		MinLevel = "--";
 		PlayerLimit = "40";
 		{ WHIT.."1) "..Atlas_GetBossName("Doomwalker") };
 	};
@@ -67,7 +65,6 @@ local myData = {
 		ZoneName = { AL["Pandaria World Bosses"] };
 		Location = { BZ["Pandaria"] };
 		LevelRange = "90+";
-		MinLevel = "--";
 		PlayerLimit = "--";
 		JournalInstanceID = "322";
 		{ WHIT.." 1) "..Atlas_GetBossName("Nalak, The Storm Lord", 814) };
@@ -87,7 +84,6 @@ local myData = {
 		ZoneName = { BZ["Skettis"] };
 		Location = { BZ["Blackwind Valley"]..", "..BZ["Terokkar Forest"] };
 		LevelRange = "70+";
-		MinLevel = "--";
 		PlayerLimit = "40";
 		{ WHIT.."1) "..BZ["Blackwind Landing"] };
 		{ WHIT..INDENT..AL["Sky Commander Adaris"] };

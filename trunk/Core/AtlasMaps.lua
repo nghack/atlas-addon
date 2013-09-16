@@ -2907,7 +2907,7 @@ Syntax:
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B-C) "..AL["Connection"] };
+		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Norushen", 866) };
 		{ WHIT..INDENT..Atlas_GetBossName("Amalgam of Corruption", 866, 2) };
@@ -2935,7 +2935,7 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ BLUE.." D) "..AL["Connection"] };
+		{ BLUE.." D-E) "..AL["Connection"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Kor'kron Dark Shaman", 856) };
@@ -2950,7 +2950,7 @@ Syntax:
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
 		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
-		{ BLUE.." D) "..AL["Connection"] };
+		{ BLUE.." E) "..AL["Connection"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
 		{ WHIT.."10) "..Atlas_GetBossName("Spoils of Pandaria", 870) };

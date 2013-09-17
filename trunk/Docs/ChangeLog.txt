@@ -7,7 +7,7 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.26.02 (Sep. xx, 2013)
+v1.26.02 (Sep. 17, 2013)
 -----------------------
 - Restore back the simple search feature
 - Added Atlas_MapSeries array and new feature, when an instance have series 
@@ -23,7 +23,8 @@ v1.26.02 (Sep. xx, 2013)
     - esES/esMX (maqjav)
     - frFR (Khiria)
     - zhCN/zhTW (ananhaid / Arith)
-  
+    - ruRU (StingerSoft)
+ 
 v1.26.01 (Sep. 12, 2013)
 -----------------------
 - Fix the issue that CheckModule will always through a warning window

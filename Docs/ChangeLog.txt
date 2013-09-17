@@ -7,6 +7,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.26.03 (XXX. XX, 2013)
+-----------------------
+
+
 v1.26.02 (Sep. 17, 2013)
 -----------------------
 - Restore back the simple search feature

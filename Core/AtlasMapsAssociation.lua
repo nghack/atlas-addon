@@ -280,6 +280,7 @@ Atlas_SubZoneData = {
 			BZ["Cleft of Shadow"],
 			BZ["Ragefire Chasm"],
 			BZ["The Descent"],
+			BZ["Rough-Hewn Passage"],
 			BZ["Kor'kron Barracks"],
 			BZ["Underhold Nexus"],
 			BZ["Artifact Storage"],

@@ -343,7 +343,7 @@ local function Atlas_Check_Modules()
 
 	-- Check for outdated modules, build a list of them, then disable them and tell the player
 	local List = {};
-	for _,module in pairs(Module_List) do
+	for _, module in pairs(Module_List) do
 		local enabled, loadable = select(4, GetAddOnInfo(module));
 		if (not enabled) or (not loadable) then
 			table.insert(List, module);
@@ -351,7 +351,7 @@ local function Atlas_Check_Modules()
 	end
 	if table.getn(List) > 0 then
 		local textList = "";
-		for _,str in pairs(List) do
+		for _, str in pairs(List) do
 			textList = textList.."\n"..str;
 		end
 --[[
@@ -587,12 +587,13 @@ end
 
 function Atlas_MapRefresh()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
+	local _;
 	local data = AtlasMaps;
 	local base = data[zoneID];
 	local minLevel, maxLevel, minRecLevel, maxRecLevel, maxPlayers;
 	local minLevelH, maxLevelH, minRecLevelH, maxRecLevelH, maxPlayersH;
 	
-	if (base.DungeonID) then 
+	if (base.DungeonID) the
 		-- name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
 		_, _, _, minLevel, maxLevel, _, minRecLevel, maxRecLevel, _, _, _, _, maxPlayers = GetLFGDungeonInfo(base.DungeonID);
 

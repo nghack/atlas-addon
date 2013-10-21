@@ -86,6 +86,7 @@ function Atlas_GetBossName(bossname, encounterID, creatureIndex)
 	if (encounterID) then
 		if (creatureIndex) then
 			if (EJ_GetCreatureInfo(creatureIndex, encounterID)) then
+				local _;
 				_, bossname = EJ_GetCreatureInfo(creatureIndex, encounterID);
 			end
 		else 

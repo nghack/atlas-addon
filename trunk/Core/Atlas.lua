@@ -593,7 +593,7 @@ function Atlas_MapRefresh()
 	local minLevel, maxLevel, minRecLevel, maxRecLevel, maxPlayers;
 	local minLevelH, maxLevelH, minRecLevelH, maxRecLevelH, maxPlayersH;
 	
-	if (base.DungeonID) the
+	if (base.DungeonID) then
 		-- name, typeID, subtypeID, minLevel, maxLevel, recLevel, minRecLevel, maxRecLevel, expansionLevel, groupID, textureFilename, difficulty, maxPlayers, description, isHoliday = GetLFGDungeonInfo(base.DungeonID);
 		_, _, _, minLevel, maxLevel, _, minRecLevel, maxRecLevel, _, _, _, _, maxPlayers = GetLFGDungeonInfo(base.DungeonID);
 

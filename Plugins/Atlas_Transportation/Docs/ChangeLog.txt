@@ -7,6 +7,12 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.26.01 (Nov. 27, 2013)
+-----------------------
+- Update Pandaria Alliance map - Lion's Landing position;
+  also added the transportation from Lions' Landing to Shrine of Seven Stars
+- Update Pandaria Horde map - added the transportation from Thunder Cleft to Shrine of Two Moons
+
 v1.26.00 (Sep. 09, 2013)
 -----------------------
 - TOC update to support WoW 5.4

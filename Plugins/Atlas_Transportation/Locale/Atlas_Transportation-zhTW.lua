@@ -58,4 +58,5 @@ if AL then
 	AL["From sea level to ground level"] = "從海平面到地面";
 	AL["Whispercloud's Balloon"] = "雲語的氣球";
 	AL["Shado-Pan Rope"] = "影潘索 "; -- 66390
+	AL["Require to complete \"Meet the Scout\" quest line first."] = "需要先完成“和斥候會面”任務線。";
 end

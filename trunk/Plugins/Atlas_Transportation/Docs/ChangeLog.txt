@@ -7,6 +7,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.26.03 (Dec. xx, 2013)
+-----------------------
+- Added comment to Lion's Landing and Domination Point
+
 v1.26.02 (Dec. 06, 2013)
 -----------------------
 - Update Pandaria map to add transportation to Ratchet

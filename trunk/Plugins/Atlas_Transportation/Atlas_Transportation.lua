@@ -910,6 +910,7 @@ local myData = {
 		{ WHIT.."17) "..BZ["The Incursion"] };
 		{ WHIT.."18) "..BZ["Zhu's Watch"] };
 		{ WHIT.."19) "..BZ["Lion's Landing"] };
+		{ GREY..INDENT..AL["Require to complete \"Meet the Scout\" quest line first."] };
 		{ "" };
 		{ BLUE..BZ["The Veiled Stair"] };
 		{ WHIT.."20) "..BZ["Tavern in the Mists"] };
@@ -1002,6 +1003,7 @@ local myData = {
 		{ WHIT.."17) "..BZ["Thunder Cleft"] };
 		{ WHIT.."18) "..BZ["Zhu's Watch"] };
 		{ WHIT.."19) "..BZ["Domination Point"] };
+		{ GREY..INDENT..AL["Require to complete \"Meet the Scout\" quest line first."] };
 		{ "" };
 		{ BLUE..BZ["The Veiled Stair"] };
 		{ WHIT.."20) "..BZ["Tavern in the Mists"] };

@@ -65,4 +65,5 @@ if AL then
 	AL["From sea level to ground level"] = "От уровня моря к земле";
 	AL["Whispercloud's Balloon"] = "Воздушный шар Шепота Облака";
 	AL["Shado-Pan Rope"] = "Шадопанская веревка"; -- 66390
+	AL["Require to complete \"Meet the Scout\" quest line first."] = "Необходимо сначала выполнить серию заданий \"Встреча с разведчицей\".";
 end

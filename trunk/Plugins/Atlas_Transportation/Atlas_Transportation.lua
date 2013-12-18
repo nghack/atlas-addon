@@ -863,6 +863,7 @@ local myData = {
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Paw'Don Village"]..", "..BZ["The Jade Forest"] };
 		{ PURP.." B) "..BZ["Violet Rise"]..", "..BZ["Isle of Thunder"] };
+		{ PURP.." C) "..BZ["The Skyfire"]..", "..BZ["Krasarang Wilds"] };
 		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." B') "..BZ["Ironforge"]..", "..BZ["Dun Morogh"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." C') "..BZ["Dalaran"]..", "..BZ["Crystalsong Forest"]..", "..BZ["Northrend"] };
@@ -956,6 +957,8 @@ local myData = {
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"] };
 		{ PURP.." B) "..BZ["Dawnseeker Promontory"]..", "..BZ["Isle of Thunder"] };
+		{ PURP.." C) "..BZ["Sparkrocket Outpost"]..", "..BZ["Krasarang Wilds"] };
+		{ PURP.." D) "..BZ["Ruins of Ogudei"]..", "..BZ["Krasarang Wilds"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Thunder Bluff"]..", "..BZ["Mulgore"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["Ratchet"]..", "..BZ["Northern Barrens"]..", "..BZ["Kalimdor"] };

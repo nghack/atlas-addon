@@ -9,10 +9,10 @@ Copyright 2011 ~ 2013 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.26.03 (Dec. xx, 2013)
 -----------------------
-- Added comment to Lion's Landing and Domination Point
-- Added portal for Lion's Landing <-> The SkyFire 
 - Added portal for Sparkrocket Outpost <-> Ruins of Ogudei
-- Remove portal between Thunder Cleft and Shrine of Two Moons
+- Added comment to Lion's Landing and Domination Point
+- Added portal for Lion's Landing <-> The SkyFire and Stormwind City
+- Added portal for Thunder Cleft <-> Shrine of Two Moons, Ruins of Ogudei, and Orgrimmar
 
 v1.26.02 (Dec. 06, 2013)
 -----------------------

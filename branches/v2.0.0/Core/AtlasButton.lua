@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -24,16 +24,69 @@
 
 --]]
 
--- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, dubcat
 
+local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+
+-- Minimap button with LibDBIcon-1.0
+local addon = LibStub("AceAddon-3.0"):NewAddon("Atlas", "AceConsole-3.0")
+local AtlasMiniMapLDB = LibStub("LibDataBroker-1.1"):NewDataObject("Atlas", {
+	type = "launcher",
+	text = AL["ATLAS_TITLE"],
+	icon = "Interface\\WorldMap\\WorldMap-Icon",
+	OnClick = function(self, button)
+		if button == "LeftButton" then
+			Atlas_Toggle();
+		elseif button == "RightButton" then
+			AtlasOptions_Toggle();
+		end
+	end,
+	OnTooltipShow = function(tooltip)
+		if not tooltip or not tooltip.AddLine then return end
+		tooltip:AddLine("|cffffffff"..ATLAS_TITLE)
+		tooltip:AddLine(ATLAS_MINIMAPLDB_HINT)
+	end,
+})
+
+
+local AtlasMiniMapIcon = LibStub("LibDBIcon-1.0")
+
+function addon:OnInitialize()
+	-- Obviously you'll need a ##SavedVariables: BunniesDB line in your TOC, duh!
+	self.db = LibStub("AceDB-3.0"):New("AtlasDB", {
+		profile = {
+			minimap = {
+				hide = false,
+			},
+		},
+	})
+	AtlasMiniMapIcon:Register("Atlas", AtlasMiniMapLDB, self.db.profile.minimap);
+	self:RegisterChatCommand("atlasbutton", AtlasButton_Toggle)
+	self:RegisterChatCommand("atlas", Atlas_SlashCommand)
+end
+
+function addon:Toggle()
+	self.db.profile.minimap.hide = not self.db.profile.minimap.hide
+	if self.db.profile.minimap.hide then
+		AtlasMiniMapIcon:Hide("Atlas")
+		AtlasOptions.AtlasButtonShown = false;
+	else
+		AtlasMiniMapIcon:Show("Atlas")
+		AtlasOptions.AtlasButtonShown = true;
+	end
+	AtlasOptions_Init();
+end
+
+function AtlasButton_Toggle()
+	addon:Toggle()
+end
+
+--[[
 function AtlasButton_OnClick()
 	Atlas_Toggle();
 end
 
 function AtlasButton_Init()
-	if ( AtlasOptions == nil ) then
+	if (not AtlasOptions) then
 		Atlas_FreshOptions();
 	end
 	if(AtlasOptions.AtlasButtonShown) then
@@ -55,13 +108,7 @@ function AtlasButton_Toggle()
 end
 
 function AtlasButton_UpdatePosition()
-	AtlasButtonFrame:SetPoint(
-		"TOPLEFT",
-		"Minimap",
-		"TOPLEFT",
-		54 - (AtlasOptions.AtlasButtonRadius * cos(AtlasOptions.AtlasButtonPosition)),
-		(AtlasOptions.AtlasButtonRadius * sin(AtlasOptions.AtlasButtonPosition)) - 55
-	);
+	AtlasButtonFrame:SetPoint("TOPLEFT", "Minimap", "TOPLEFT", 54 - (AtlasOptions.AtlasButtonRadius * cos(AtlasOptions.AtlasButtonPosition)), (AtlasOptions.AtlasButtonRadius * sin(AtlasOptions.AtlasButtonPosition)) - 55);
 	AtlasOptions_Init();
 end
 
@@ -78,7 +125,7 @@ function AtlasButton_BeingDragged()
 end
 
 function AtlasButton_SetPosition(v)
-    if(v < 0) then
+    if (v < 0) then
         v = v + 360;
     end
 
@@ -87,9 +134,10 @@ function AtlasButton_SetPosition(v)
 end
 
 function AtlasButton_OnEnter(self)
-    GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-    GameTooltip:SetText(ATLAS_BUTTON_TOOLTIP_TITLE);
+	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+	GameTooltip:SetText(ATLAS_BUTTON_TOOLTIP_TITLE);
 	GameTooltipTextLeft1:SetTextColor(1, 1, 1);
-    GameTooltip:AddLine(ATLAS_BUTTON_TOOLTIP_HINT);
-    GameTooltip:Show();
+	GameTooltip:AddLine(ATLAS_BUTTON_TOOLTIP_HINT);
+	GameTooltip:Show();
 end
+]]

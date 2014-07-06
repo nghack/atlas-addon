@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -26,15 +26,15 @@
 
 -- Atlas JournalEncounter Integration
 
-local AL = LibStub("AceLocale-3.0"):GetLocale("Atlas");
-local BB = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
+local AtlasLocale = LibStub("AceLocale-3.0"):GetLocale("Atlas");
+local BabbleBoss = Atlas_GetLocaleLibBabble("LibBabble-Boss-3.0");
 
 function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
-	if ( EJ_GetInstanceInfo(base.JournalInstanceID) == nil ) then
+	if (not EJ_GetInstanceInfo(base.JournalInstanceID)) then
 		return;
 	end
 
@@ -44,7 +44,7 @@ function Atlas_JournalEncounter_InstanceButton_OnClick(frame)
 	EncounterJournal_ListInstances();
 	EncounterJournal_DisplayInstance(base.JournalInstanceID);
 
-	if ( not EncounterJournal:IsShown() ) then
+	if (not EncounterJournal:IsShown()) then
 		EncounterJournal:Show();
 	else
 		EncounterJournal:Hide();
@@ -58,17 +58,17 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	local data = AtlasMaps;
 	local base = data[zoneID];
 
-	if ( MouseIsOver(frame) ) then
-		if ( EJ_GetInstanceInfo(base.JournalInstanceID) ) then
+	if (MouseIsOver(frame)) then
+		if (EJ_GetInstanceInfo(base.JournalInstanceID)) then
 			EJ_SelectInstance(base.JournalInstanceID);
-	
+
 			local name, description = EJ_GetInstanceInfo();
-	
+
 			GameTooltip:SetOwner(frame, "ANCHOR_RIGHT");
 			GameTooltip:SetText(name);
 			GameTooltipTextLeft1:SetTextColor(1, 1, 1);
 			GameTooltip:AddLine(description, nil, nil, nil, true);
-			GameTooltip:AddLine(AL["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
+			GameTooltip:AddLine(AtlasLocale["Click to open Dungeon Journal window."], 0.5, 0.5, 1, true);
 			GameTooltip:Show();
 		end
 	else
@@ -76,13 +76,28 @@ function Atlas_JournalEncounter_InstanceButton_OnEnter(frame)
 	end
 end
 
-function Atlas_GetBossName(bossname, encounterID)
-	if ( encounterID and EJ_GetEncounterInfo(encounterID) ) then
-		bossname = EJ_GetEncounterInfo(encounterID);
-	elseif ( bossname and BB[bossname] ) then
-		bossname = BB[bossname];
-	elseif ( bossname and AL[bossname] ) then
-		bossname = AL[bossname];
+-- ------------------------------------------------------------
+-- Call this function to translate boss name
+-- Syntax 1: Atlas_GetBossName(bossname);
+-- Syntax 2: Atlas_GetBossName(bossname, encounterID);
+-- Syntax 2: Atlas_GetBossName(bossname, encounterID, creatureIndex);
+-- ------------------------------------------------------------
+function Atlas_GetBossName(bossname, encounterID, creatureIndex)
+	if (encounterID) then
+		if (creatureIndex) then
+			if (EJ_GetCreatureInfo(creatureIndex, encounterID)) then
+				local _;
+				_, bossname = EJ_GetCreatureInfo(creatureIndex, encounterID);
+			end
+		else 
+			if (EJ_GetEncounterInfo(encounterID)) then
+				bossname = EJ_GetEncounterInfo(encounterID);
+			end
+		end
+	elseif (bossname and BabbleBoss[bossname]) then
+		bossname = BabbleBoss[bossname];
+	elseif (bossname and AtlasLocale[bossname]) then
+		bossname = AtlasLocale[bossname];
 	else
 		--bossname = bossname;
 	end

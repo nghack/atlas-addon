@@ -2,9 +2,9 @@
 <!--
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -26,6 +26,7 @@
 
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
+	<Script file="AtlasIngameLocales.lua"/>
 	<Script file="AtlasMapsAssociation.lua"/>
 	<Script file="AtlasJournalEncounter.lua"/>
 	<Script file="AtlasMaps.lua"/>
@@ -166,12 +167,12 @@
 			</Button>
 			<EditBox name="AtlasSearchEditBox" inherits="InputBoxTemplate" letters="80">
 				<Size>
-					<AbsDimension x="134" y="32"></AbsDimension>
+					<AbsDimension x="135" y="32"/>
 				</Size>
 				<Anchors>
 					<Anchor point="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="-147" y="15"/>
+							<AbsDimension x="-157" y="15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -185,12 +186,11 @@
 						self:ClearFocus();
 					</OnEnterPressed>
 				</Scripts>
-				<FontString name="AtlasSearchString" inherits="GameFontNormal"></FontString>
 			</EditBox>
 			<Frame name="AtlasSwitchDD" inherits="UIDropDownMenuTemplate" />
   			<Button name="AtlasSwitchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox">
 				<Size>
-					<AbsDimension x="80" y="20"/>
+					<AbsDimension x="80" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="RIGHT" relativePoint="LEFT">
@@ -207,7 +207,7 @@
 			</Button>
 			<Button name="AtlasSearchButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_SEARCH">
 				<Size>
-					<AbsDimension x="74" y="32"/>
+					<AbsDimension x="69" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativePoint="RIGHT">
@@ -225,7 +225,7 @@
 			</Button>
 			<Button name="AtlasSearchClearButton" inherits="UIPanelButtonTemplate" parent="AtlasSearchEditBox" text="ATLAS_STRING_CLEAR">
 				<Size>
-					<AbsDimension x="63" y="32"/>
+					<AbsDimension x="69" y="24"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="AtlasSearchButton" relativePoint="RIGHT">
@@ -436,7 +436,7 @@
 				<Anchors>
 					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPRIGHT">
 						<Offset>
-							<AbsDimension x="-14" y="-153"/>
+							<AbsDimension x="-17" y="-149"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -571,13 +571,12 @@
 						ToggleFrame(WorldMapFrame);
 					end
 				end
---				Atlas_OnClick();
 			</OnMouseUp>
 		</Scripts>
 	</Frame>
 	<Frame name="AtlasInfoFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent" clampedToScreen="true">
 		<Size>
-			<AbsDimension x="500" y="300"/>
+			<AbsDimension x="520" y="300"/>
 		</Size>
 		<Anchors>
 			<Anchor point="CENTER"/>
@@ -618,7 +617,7 @@
 				</FontString>
 			</Layer>
 			<Layer level="OVERLAY">
-				<FontString inherits="GameFontWhite" justifyH="LEFT" justifyV="TOP" text="ATLAS_INFO_SPTACK">
+				<FontString inherits="GameFontWhite" justifyH="LEFT" justifyV="TOP" text="ATLAS_INFO_MSG">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasInfoFrame">
 							<Offset>

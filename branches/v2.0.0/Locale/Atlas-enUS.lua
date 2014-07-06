@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -92,21 +92,26 @@ if AL then
 	AL["ATLAS_OPTIONS_CTRL"] = "Hold down Control for tooltips";
 	AL["ATLAS_OPTIONS_CTRL_TIP"] = "Enable to show tooltips text while hold down control key and mouse over the map info. Useful when the text is too long to be displayed in the window.";
 	AL["ATLAS_OPTIONS_DONTSHOWAGAIN"] = "Don't show the same information again.";
+	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Remind me for missing module(s) / plug-in(s).";
+	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Enable to perform checking if any missing Atlas module / plug-in after WoW loaded.";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "Show dungeon dropdown in colors";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Based on the dungeon's recommended minimul level and player's level, to show the dungeon with difficulty colors. ";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Close";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
 	AL["ATLAS_BUTTON_TOOLTIP_HINT"] = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
 	AL["ATLAS_LDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.";
+	AL["ATLAS_MINIMAPLDB_HINT"] = "Left-Click to open Atlas.\nRight-Click for Atlas options.\nLeft-click and drag to move this button.";
 
 	AL["ATLAS_OPTIONS_CATDD"] = "Sort Instance Maps by:";
-	AL["ATLAS_DDL_CONTINENT"] = "Continent";
+	AL["ATLAS_DDL_CONTINENT"] = "Continent";	-- Sort Instance Maps by: Continent
 	AL["ATLAS_DDL_CONTINENT_EASTERN"] = "Eastern Kingdoms Instances";
 	AL["ATLAS_DDL_CONTINENT_KALIMDOR"] = "Kalimdor Instances";
 	AL["ATLAS_DDL_CONTINENT_OUTLAND"] = "Outland Instances";
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Northrend Instances";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Deepholm Instances";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Pandaria Instances";
-	AL["ATLAS_DDL_LEVEL"] = "Level";
+	AL["ATLAS_DDL_LEVEL"] = "Level";		-- Sort Instance Maps by: Level
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances Under Level 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Level 45-60";
 	AL["ATLAS_DDL_LEVEL_60TO70"] = "Instances Level 60-70";
@@ -114,24 +119,27 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Instances Level 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Instances Level 85-90";
 	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Instances Level 90+";
-	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";
+	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";	-- Sort Instance Maps by: Party Size
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Instances for 5 Players A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Instances for 5 Players F-S";
 	AL["ATLAS_DDL_PARTYSIZE_5_TZ"] = "Instances for 5 Players T-Z";
 	AL["ATLAS_DDL_PARTYSIZE_10_AN"] = "Instances for 10 Players A-N";
 	AL["ATLAS_DDL_PARTYSIZE_10_OZ"] = "Instances for 10 Players O-Z";
-	AL["ATLAS_DDL_PARTYSIZE_20TO40"] = "Instances for 20-40 Players";
-	AL["ATLAS_DDL_EXPANSION"] = "Expansion";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40AH"] = "Instances for 20-40 Players A-H";
+	AL["ATLAS_DDL_PARTYSIZE_20TO40IZ"] = "Instances for 20-40 Players I-Z";
+	AL["ATLAS_DDL_EXPANSION"] = "Expansion";	-- Sort Instance Maps by: Expansion
 	AL["ATLAS_DDL_EXPANSION_OLD_AO"] = "Old World Instances A-O";
 	AL["ATLAS_DDL_EXPANSION_OLD_PZ"] = "Old World Instances P-Z";
 	AL["ATLAS_DDL_EXPANSION_BC"] = "Burning Crusade Instances";
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Wrath of the Lich King Instances";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mists of Pandaria Instances";
-	AL["ATLAS_DDL_TYPE"] = "Type";
-	AL["ATLAS_DDL_TYPE_INSTANCE_AC"] = "Instances A-C";
-	AL["ATLAS_DDL_TYPE_INSTANCE_DR"] = "Instances D-R";
-	AL["ATLAS_DDL_TYPE_INSTANCE_SZ"] = "Instances S-Z";
+	AL["ATLAS_DDL_TYPE"] = "Type";			-- -- Sort Instance Maps by: Map Type
+	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Instances A-B";
+	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Instances C-F";
+	AL["ATLAS_DDL_TYPE_INSTANCE_GM"] = "Instances G-M";
+	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Instances N-S";
+	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Instances T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entrances";
 
 	AL["ATLAS_INSTANCE_BUTTON"] = "Instance";
@@ -144,7 +152,10 @@ if AL then
 	AL["ATLAS_DEP_OK"] = "Ok";
 
 	AL["ATLAS_INFO"] = "Atlas Information";
-	AL["ATLAS_INFO_SPTACK"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in addons into separated modules.\n\nUsers who download our addons from some of the famous game web sites \nmay only get the core addon which only include the Atlas core function \nand the Cataclysm dungeon maps.\n\nUsers who also want to download all the old dungeon maps and all the \nAtlas plug-ins made by us would need to download them separately.\n\nRead below forum topic for more information:\nhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522";
+	AL["ATLAS_INFO_12200"] = "Important Notice:\n\nDue to the concern of increasing addon file size, we have moved out \npart of our dungeon maps and built-in plug-ins into separated addon package.\n\nUsers who download our addons from some of the famous game web sites \nmay only get our core addon which only include the Atlas core function \nand the latest WoW expansion maps.\n\nIf you also want to see all the old expansions' maps, and also want all those \nAtlas plug-ins made by us, you have to download and install them separately.\n\nRead below forum topic for more information:\n|cff6666ffhttp://www.atlasmod.com/phpBB3/viewtopic.php?t=1522|cffffffff\n\nOr visit our website to see where to download:\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
+	AL["ATLAS_INFO_12201"] = "Please be advised that we have created a new plug-in - |cff6666ffAtlas Scenarios|cffffffff, to \nprovide the brand-new Scenarios maps introduced in WoW 5.0. \n\nCheck out our web site for more details, and don't forget to download / \ninstall it separately.\n|cff6666ffhttp://www.atlasmod.com/|cffffffff";
+
+	AL["ATLAS_MISSING_MODULE"] = "Atlas has detected missing module(s) / plugin(s): ";
 
 --************************************************
 -- Zone Names, Acronyms, and Common Strings
@@ -226,6 +237,7 @@ if AL then
 	AL["Teleporter destination"] = "Teleporter destination";
 	AL["Third Stop"] = "Third Stop";
 	AL["Top"] = "Top";
+	AL["Tunnel"] = "Tunnel";
 	AL["Underwater"] = "Underwater";
 	AL["Upper"] = "Upper";
 	AL["Varies"] = "Varies";
@@ -359,8 +371,18 @@ if AL then
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
+	AL["SoO"] = "SoO"; --Siege of Orgrimmar
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
+	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--Map sections
+	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [B]";
+	AL["MapC"] = " [C]";
+	AL["MapD"] = " [D]";
+	AL["MapE"] = " [E]";
+	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps
@@ -485,7 +507,6 @@ if AL then
 	AL["Knot Thimblejack"] = "Knot Thimblejack";
 
 	--Dire Maul (West)
-	AL["J'eevee's Jar"] = "J'eevee's Jar";
 	AL["Ferra"] = "Ferra";
 	AL["Estulan <The Highborne>"] = "Estulan <The Highborne>";
 	AL["Shen'dralar Watcher"] = "Shen'dralar Watcher";
@@ -501,10 +522,12 @@ if AL then
 
 	--Maraudon	
 	AL["Elder Splitrock"] = "Elder Splitrock";
+	AL["Celebras the Redeemed"] = "Celebras the Redeemed";
 
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Commander Bagran";
 	AL["Invoker Xorenth"] = "Invoker Xorenth";
+	AL["Scout Cage"] = "Scout Cage";
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
@@ -512,7 +535,6 @@ if AL then
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Stonespire";
-	AL["Razorfen Spearhide"] = "Razorfen Spearhide";
 	AL["Spirit of Agamaggan <Ancient>"] = "Spirit of Agamaggan <Ancient>";
 	AL["Willix the Importer"] = "Willix the Importer";
 
@@ -554,12 +576,9 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	AL["Relic Coffer Key"] = "Relic Coffer Key";
-	AL["Dark Keeper Key"] = "Dark Keeper Key";
 	AL["The Black Anvil"] = "The Black Anvil";
 	AL["The Vault"] = "The Vault";
 	AL["Watchman Doomgrip"] = "Watchman Doomgrip";
-	AL["High Justice Grimstone"] = "High Justice Grimstone";
 	AL["Elder Morndeep"] = "Elder Morndeep";
 	AL["Schematic: Field Repair Bot 74A"] = "Schematic: Field Repair Bot 74A";
 	AL["Private Rocknot"] = "Private Rocknot";
@@ -616,11 +635,24 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "Commander Lindon";
+	AL["Hooded Crusader"] = "Hooded Crusader";
+	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+
+	--Scarlet Monastery
+
 	--Scholomance
 	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
-	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
 	AL["Professor Slate"] = "Professor Slate";
 	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+	AL["Talking Skull"] = "Talking Skull";
+	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Shadowfang Keep
 	AL["Apothecary Trio"] = "Apothecary Trio";
@@ -632,12 +664,6 @@ if AL then
 	AL["Haunted Stable Hand"] = "Haunted Stable Hand";
 	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
-	--SM: Cathedral
-
-	--SM: Halls
-	AL["Hunter Commander"] = "Hunter Commander";
-	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
-
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
 	AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
@@ -648,7 +674,6 @@ if AL then
 	AL["Festival Lane Postbox"] = "Festival Lane Postbox";
 	AL["Elder Farwhisper"] = "Elder Farwhisper";
 	AL["Market Row Postbox"] = "Market Row Postbox";
-	AL["Crusaders' Square Postbox"] = "Crusaders' Square Postbox";
 
 	--Stratholme - The Gauntlet
 	AL["Elders' Square Postbox"] = "Elders' Square Postbox";
@@ -656,7 +681,6 @@ if AL then
 	AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Crusade Commander Korfax <Brotherhood of the Light>";
 
 	--The Deadmines
-	AL["Lumbering Oaf"] = "Lumbering Oaf";
 	AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	AL["Kagtha"] = "Kagtha";
 	AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
@@ -695,7 +719,6 @@ if AL then
 	AL["Tormented Soulpriest"] = "Tormented Soulpriest";
 
 	--Auch: Mana-Tombs
-	AL["The Eye of Haramad"] = "The Eye of Haramad";
 	AL["Artificer Morphalius"] = "Artificer Morphalius";
 	AL["Mamdy the \"Ologist\""] = "Mamdy the \"Ologist\"";
 	AL["Shadow Lord Xiraxis"] = "Shadow Lord Xiraxis";
@@ -751,21 +774,14 @@ if AL then
 	AL["Earthbinder Rayge"] = "Earthbinder Rayge";
 
 	--CoT: The Black Morass
-	AL["Opening of the Dark Portal"] = "Opening of the Dark Portal";
 	AL["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
-	AL["The Dark Portal"] = "The Dark Portal";
 
 	--CoT: Hyjal Summit
-	AL["Battle for Mount Hyjal"] = "Battle for Mount Hyjal";
-	AL["Alliance Base"] = "Alliance Base";
 	AL["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
-	AL["Horde Encampment"] = "Horde Encampment";
 	AL["Thrall <Warchief>"] = "Thrall <Warchief>";
-	AL["Night Elf Village"] = "Night Elf Village";
 	AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Whisperwind <High Priestess of Elune>";
 
 	--CoT: Old Hillsbrad Foothills
-	AL["Escape from Durnholde Keep"] = "Escape from Durnholde Keep";
 	AL["Erozion"] = "Erozion";
 	AL["Brazen"] = "Brazen";
 	AL["Landing Spot"] = "Landing Spot";
@@ -858,7 +874,7 @@ if AL then
 	AL["Path to the Broken Stairs"] = "Path to the Broken Stairs";
 	AL["Broken Stairs"] = "Broken Stairs";
 	AL["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
-	AL["Suspicious Bookshelf"] = "Suspicious Bookshelf";
+	AL["Mysterious Bookshelf"] = "Mysterious Bookshelf";
 	AL["Ramp up to the Celestial Watch"] = "Ramp up to the Celestial Watch";
 	AL["Ramp down to the Gamesman's Hall"] = "Ramp down to the Gamesman's Hall";
 	AL["Ramp to Medivh's Chamber"] = "Ramp to Medivh's Chamber";
@@ -1080,7 +1096,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	AL["Captain Hadan"] = "Captain Hadan";
-	AL["Augh"] = "Augh";
 	AL["Tol'vir Grave"] = "Tol'vir Grave";
 
 	--The Bastion of Twilight
@@ -1161,44 +1176,41 @@ if AL then
 --*********************
 
 	--Gate of the Setting Sun
+	AL["Bowmistress Li <Guard Captain>"] = "Bowmistress Li <Guard Captain>";
 
 	--Heart of Fear
 
 	--Mogu'shan Palace
+	AL["Sinan the Dreamer"] = "Sinan the Dreamer";
 
 	--Mogu'shan Vaults
 
 	--Shado-Pan Monastery
+	AL["Ban Bearheart"] = "Ban Bearheart";
 
 	--Siege of Niuzao Temple
+	AL["Shado-Master Chum Kiu"] = "Shado-Master Chum Kiu";
+
+	--Siege of Orgrimmar
 
 	--Stormstout Brewery
+	AL["Auntie Stormstout"] = "Auntie Stormstout";
+	AL["Chen Stormstout"] = "Chen Stormstout";
 
 	--Temple of the Jade Serpent
+	AL["Master Windstrong"] = "Master Windstrong";
+	AL["Priestess Summerpetal"] = "Priestess Summerpetal";
 
 	--Terrace of Endless Spring
 
-
---*********************
--- SubZone strings, DO NOT TRANSLATE, they will get replaced when Babble-SubZone is updated
---*********************
-
-	AL["Dread Wastes"] = "Dread Wastes";
-	AL["Gate of the Setting Sun"] = "Gate of the Setting Sun";
-	AL["Heart of Fear"] = "Heart of Fear";
-	AL["Kun-Lai Summit"] = "Kun-Lai Summit";
-	AL["Mogu'shan Palace"] = "Mogu'shan Palace";
-	AL["Mogu'shan Vaults"] = "Mogu'shan Vaults";
-	AL["Scarlet Halls"] = "Scarlet Halls";
-	AL["Shado-Pan Monastery"] = "Shado-Pan Monastery";
-	AL["Siege of Niuzao Temple"] = "Siege of Niuzao Temple";
-	AL["Stormstout Brewery"] = "Stormstout Brewery";
-	AL["Temple of the Jade Serpent"] = "Temple of the Jade Serpent";
-	AL["Terrace of Endless Spring"] = "Terrace of Endless Spring";
-	AL["The Jade Forest"] = "The Jade Forest";
-	AL["The Veiled Stair"] = "The Veiled Stair";
-	AL["Townlong Steppes"] = "Townlong Steppes";
-	AL["Vale of Eternal Blossoms"] = "Vale of Eternal Blossoms";
-	AL["Valley of the Four Winds"] = "Valley of the Four Winds";
+	--Throne of Thunder
+	AL["Monara <The Last Queen>"] = "Monara <The Last Queen>";
+	AL["No'ku Stormsayer <Lord of Tempest>"] = "No'ku Stormsayer <Lord of Tempest>";
+	AL["Rocky Horror"] = "Rocky Horror";
+	AL["Focused Eye"] = "Focused Eye";
+	AL["Unblinking Eye"] = "Unblinking Eye";
+	AL["Archritualist Kelada"] = "Archritualist Kelada";
+	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok the Diseased <Primordial Saurok Horror>";
+	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <The Emperor's Shield>";
 
 end

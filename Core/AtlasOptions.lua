@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -24,10 +24,8 @@
 
 --]]
 
--- Atlas, an instance map browser
--- Initiator and previous author: Dan Gilbert, Lothaer
--- Maintainers: Arith, Dynaletik, dubcat
 
+--[[
 function AtlasOptions_ResetPosition()
 	AtlasFrame:ClearAllPoints();
 	AtlasFrame:SetPoint("TOPLEFT", 0, -104);
@@ -37,19 +35,21 @@ function AtlasOptions_ResetPosition()
 	AtlasOptions.AtlasScale = 1.0;
 	AtlasOptions_Init();
 end
+]]
 
-
+-- Show the Atlas Options
 function AtlasOptions_Toggle()
 	if InterfaceOptionsFrame:IsVisible() then
 		InterfaceOptionsFrame:Hide();
 	else
+		InterfaceOptionsFrame_OpenToCategory("Atlas");
 		InterfaceOptionsFrame_OpenToCategory("Atlas");
 	end
 end
 
 
 function AtlasOptions_AutoSelectToggle()
-	if(AtlasOptions.AtlasAutoSelect) then
+	if (AtlasOptions.AtlasAutoSelect) then
 		AtlasOptions.AtlasAutoSelect = false;
 	else
 		AtlasOptions.AtlasAutoSelect = true;
@@ -59,7 +59,7 @@ end
 
 
 function AtlasOptions_RightClickToggle()
-	if(AtlasOptions.AtlasRightClick) then
+	if (AtlasOptions.AtlasRightClick) then
 		AtlasOptions.AtlasRightClick = false;
 	else
 		AtlasOptions.AtlasRightClick = true;
@@ -69,7 +69,7 @@ end
 
 
 function AtlasOptions_AcronymsToggle()
-	if(AtlasOptions.AtlasAcronyms) then
+	if (AtlasOptions.AtlasAcronyms) then
 		AtlasOptions.AtlasAcronyms = false;
 	else
 		AtlasOptions.AtlasAcronyms = true;
@@ -80,7 +80,7 @@ end
 
 
 function AtlasOptions_ClampedToggle()
-	if(AtlasOptions.AtlasClamped) then
+	if (AtlasOptions.AtlasClamped) then
 		AtlasOptions.AtlasClamped = false;
 	else
 		AtlasOptions.AtlasClamped = true;
@@ -92,7 +92,7 @@ end
 
 
 function AtlasOptions_CtrlToggle()
-	if(AtlasOptions.AtlasCtrl) then
+	if (AtlasOptions.AtlasCtrl) then
 		AtlasOptions.AtlasCtrl = false;
 	else
 		AtlasOptions.AtlasCtrl = true;
@@ -103,7 +103,7 @@ end
 
 
 function AtlasOptions_ToggleLock()
-	if(AtlasOptions.AtlasLocked) then
+	if (AtlasOptions.AtlasLocked) then
 		AtlasOptions.AtlasLocked = false;
 		Atlas_UpdateLock();
 	else
@@ -116,7 +116,7 @@ end
 
 
 function AtlasOptions_ToggleBossDesc()
-	if(AtlasOptions.AtlasBossDesc) then
+	if (AtlasOptions.AtlasBossDesc) then
 		AtlasOptions.AtlasBossDesc = false;
 	else
 		AtlasOptions.AtlasBossDesc = true;
@@ -125,6 +125,28 @@ function AtlasOptions_ToggleBossDesc()
 	Atlas_Refresh();
 end
 
+
+function AtlasOptions_ToggleCheckModule()
+	if (AtlasOptions.AtlasCheckModule) then
+		AtlasOptions.AtlasCheckModule = false;
+	else
+		AtlasOptions.AtlasCheckModule = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+
+--[[
+function AtlasOptions_ToggleColoringDropDown()
+	if (AtlasOptions.AtlasColoringDropDown) then
+		AtlasOptions.AtlasColoringDropDown = false;
+	else
+		AtlasOptions.AtlasColoringDropDown = true;
+	end
+	AtlasOptions_Init();
+	Atlas_Refresh();
+end
+]]
 
 local function Reset_Dropdowns()
 	AtlasOptions.AtlasZone = 1;
@@ -138,7 +160,7 @@ end
 
 function AtlasOptions_Reset()
 	Atlas_FreshOptions();
-	AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
+	--AtlasOptions_ResetPosition(); --also calls AtlasOptions_Init()
 	Reset_Dropdowns(); --also calls Atlas_Refresh()
 	AtlasButton_Init();
 	Atlas_UpdateLock();
@@ -164,8 +186,10 @@ function AtlasOptions_Init()
 	AtlasOptionsFrameCtrl:SetChecked(AtlasOptions.AtlasCtrl);
 	AtlasOptionsFrameLock:SetChecked(AtlasOptions.AtlasLocked);
 	AtlasOptionsFrameBossDesc:SetChecked(AtlasOptions.AtlasBossDesc);
-	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
-	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
+	AtlasOptionsFrameCheckModule:SetChecked(AtlasOptions.AtlasCheckModule);
+	AtlasOptionsFrameColoringDropdown:SetChecked(AtlasOptions.AtlasColoringDropDown);
+--	AtlasOptionsFrameSliderButtonPos:SetValue(AtlasOptions.AtlasButtonPosition);
+--	AtlasOptionsFrameSliderButtonRad:SetValue(AtlasOptions.AtlasButtonRadius);
 	AtlasOptionsFrameSliderAlpha:SetValue(AtlasOptions.AtlasAlpha);
 	AtlasOptionsFrameSliderScale:SetValue(AtlasOptions.AtlasScale);
 	AtlasOptionsFrameSliderBossDescScale:SetValue(AtlasOptions.AtlasBossDescScale);
@@ -180,8 +204,8 @@ end
 
 function AtlasOptions_SetupSlider(self, text, mymin, mymax, step)
 	self:SetMinMaxValues(mymin, mymax);
-	_G[self:GetName().."Low"]:SetText(mymin);
-	_G[self:GetName().."High"]:SetText(mymax);
+	--_G[self:GetName().."Low"]:SetText(mymin);
+	--_G[self:GetName().."High"]:SetText(mymax);
 	self:SetValueStep(step);
 end
 
@@ -193,24 +217,19 @@ end
 
 
 function AtlasOptions_UpdateSlider(self, text)
-	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(),2)..")");
+	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(), 3)..")");
 end
 
 
 function AtlasOptionsFrameDropDownCats_Initialize()
-
-	local i;
-	for i = 1, getn(Atlas_DropDownLayouts_Order), 1 do
+	for i = 1, getn(Atlas_DropDownLayouts_Order) do
 		info = {
 			text = Atlas_DropDownLayouts_Order[i];
 			func = AtlasOptionsFrameDropDownCats_OnClick;
 		};
 		UIDropDownMenu_AddButton(info);
-		i = i + 1;
 	end
-	
 end
-
 
 function AtlasOptionsFrameDropDownCats_OnShow()
 	UIDropDownMenu_Initialize(AtlasOptionsFrameDropDownCats, AtlasOptionsFrameDropDownCats_Initialize);
@@ -226,3 +245,10 @@ function AtlasOptionsFrameDropDownCats_OnClick(self)
 	Reset_Dropdowns();
 end
 
+function AtlasOptions_OnMouseWheel(self, delta)
+	if delta > 0 then
+		self:SetValue(self:GetValue() + self:GetValueStep())
+	else
+		self:SetValue(self:GetValue() - self:GetValueStep())
+	end
+end

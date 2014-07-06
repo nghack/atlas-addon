@@ -2,9 +2,9 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -235,17 +235,14 @@ if AL then
 	--AL["AQ"] = "AQ"; -- Ahn'Qiraj
 	--AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
 	--AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
-	--AL["Armory"] = "Armory"; -- Armory
 	--AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	--AL["BRD"] = "BRD"; -- Blackrock Depths
 	--AL["BRM"] = "BRM"; -- Blackrock Mountain
 	--AL["BWL"] = "BWL"; -- Blackwing Lair
-	--AL["Cath"] = "Cath"; -- Cathedral
 	--AL["DM"] = "DM"; -- Dire Maul
 	--AL["Gnome"] = "Gnome"; -- Gnomeregan
-	--AL["GY"] = "GY"; -- Graveyard
+	--AL["Halls"] = "Halls"; -- Scarlet Halls
 	--AL["LBRS"] = "LBRS"; -- Lower Blackrock Spire
-	--AL["Lib"] = "Lib"; -- Library
 	--AL["Mara"] = "Mara"; -- Maraudon
 	--AL["MC"] = "MC"; -- Molten Core
 	--AL["RFC"] = "RFC"; -- Ragefire Chasm
@@ -395,7 +392,6 @@ if AL then
 	--AL["Tydormu <Keeper of Lost Artifacts>"] = "Tydormu <Keeper of Lost Artifacts>";
 
 	--Coilfang Reservoir (Entrance)
-	--AL["Watcher Jhang"] = "Watcher Jhang";
 	--AL["Mortog Steamhead"] = "Mortog Steamhead";
 
 	--Dire Maul (Entrance)
@@ -473,7 +469,6 @@ if AL then
 	--AL["Knot Thimblejack"] = "Knot Thimblejack";
 
 	--Dire Maul (West)
-	--AL["J'eevee's Jar"] = "J'eevee's Jar";
 	--AL["Ferra"] = "Ferra";
 	--AL["Estulan <The Highborne>"] = "Estulan <The Highborne>";
 	--AL["Shen'dralar Watcher"] = "Shen'dralar Watcher";
@@ -491,8 +486,6 @@ if AL then
 	--AL["Elder Splitrock"] = "Elder Splitrock";
 
 	--Ragefire Chasm
-	--AL["Bovaal Whitehorn"] = "Bovaal Whitehorn";
-	--AL["Stone Guard Kurjack"] = "Stone Guard Kurjack";
 
 	--Razorfen Downs
 	--AL["Koristrasza"] = "Koristrasza";
@@ -500,7 +493,6 @@ if AL then
 
 	--Razorfen Kraul
 	--AL["Auld Stonespire"] = "Auld Stonespire";
-	--AL["Razorfen Spearhide"] = "Razorfen Spearhide";
 	--AL["Spirit of Agamaggan <Ancient>"] = "Spirit of Agamaggan <Ancient>";
 	--AL["Willix the Importer"] = "Willix the Importer";
 
@@ -542,12 +534,9 @@ if AL then
 --****************************
 
 	--Blackrock Depths
-	--AL["Relic Coffer Key"] = "Relic Coffer Key";
-	--AL["Dark Keeper Key"] = "Dark Keeper Key";
 	--AL["The Black Anvil"] = "The Black Anvil";
 	--AL["The Vault"] = "The Vault";
 	--AL["Watchman Doomgrip"] = "Watchman Doomgrip";
-	--AL["High Justice Grimstone"] = "High Justice Grimstone";
 	--AL["Elder Morndeep"] = "Elder Morndeep";
 	--AL["Schematic: Field Repair Bot 74A"] = "Schematic: Field Repair Bot 74A";
 	--AL["Private Rocknot"] = "Private Rocknot";
@@ -604,18 +593,24 @@ if AL then
 
 	--Molten Core
 
+	--Scarlet Halls
+	--AL["Commander Lindon"] = "Commander Lindon";
+	--AL["Hooded Crusader"] = "Hooded Crusader";
+	--AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+	--AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+
+	--Scarlet Monastery
+
 	--Scholomance
-	--AL["Blood of Innocents"] = "Blood of Innocents";
-	--AL["Divination Scryer"] = "Divination Scryer";
-	--AL["Alexi Barov <House of Barov>"] = "Alexi Barov <House of Barov>";
-	--AL["Weldon Barov <House of Barov>"] = "Weldon Barov <House of Barov>";
-	--AL["Eva Sarkhoff"] = "Eva Sarkhoff";
-	--AL["Lucien Sarkhoff"] = "Lucien Sarkhoff";
-	--AL["The Deed to Caer Darrow"] = "The Deed to Caer Darrow";	
-	--AL["The Deed to Southshore"] = "The Deed to Southshore";
-	--AL["Torch Lever"] = "Torch Lever";
-	--AL["The Deed to Tarren Mill"] = "The Deed to Tarren Mill";
-	--AL["The Deed to Brill"] = "The Deed to Brill";
+	--AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
+	--AL["Professor Slate"] = "Professor Slate";
+	--AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+	--AL["Talking Skull"] = "Talking Skull";
+	--AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+	--AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
+	--AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+	--AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	--AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Shadowfang Keep
 	--AL["Apothecary Trio"] = "Apothecary Trio";
@@ -627,24 +622,6 @@ if AL then
 	--AL["Haunted Stable Hand"] = "Haunted Stable Hand";
 	--AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
-	--SM: Armory
-	--AL["Joseph the Crazed"] = "Joseph the Crazed";
-	--AL["Dark Ranger Velonara"] = "Dark Ranger Velonara";
-	--AL["Dominic"] = "Dominic";
-
-	--SM: Cathedral
-	--AL["Cathedral"] = "Cathedral"; -- Subzone of Scarlet Monastery
-	--AL["Joseph the Insane <Scarlet Champion>"] = "Joseph the Insane <Scarlet Champion>";
-
-	--SM: Graveyard
-	--AL["Vorrel Sengutz"] = "Vorrel Sengutz";
-	--AL["Pumpkin Shrine"] = "Pumpkin Shrine";
-	--AL["Joseph the Awakened"] = "Joseph the Awakened";
-
-	--SM: Library
-	--AL["Library"] = "Library";
-	--AL["Compendium of the Fallen"] = "Compendium of the Fallen";
-
 	--Stratholme - Crusader's Square
 	--AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
 	--AL["Master Craftsman Wilhelm <Brotherhood of the Light>"] = "Master Craftsman Wilhelm <Brotherhood of the Light>";
@@ -655,7 +632,6 @@ if AL then
 	--AL["Festival Lane Postbox"] = "Festival Lane Postbox";
 	--AL["Elder Farwhisper"] = "Elder Farwhisper";
 	--AL["Market Row Postbox"] = "Market Row Postbox";
-	--AL["Crusaders' Square Postbox"] = "Crusaders' Square Postbox";
 
 	--Stratholme - The Gauntlet
 	--AL["Elders' Square Postbox"] = "Elders' Square Postbox";
@@ -663,7 +639,6 @@ if AL then
 	--AL["Crusade Commander Korfax <Brotherhood of the Light>"] = "Crusade Commander Korfax <Brotherhood of the Light>";
 
 	--The Deadmines
-	--AL["Lumbering Oaf"] = "Lumbering Oaf";
 	--AL["Lieutenant Horatio Laine"] = "Lieutenant Horatio Laine";
 	--AL["Kagtha"] = "Kagtha";
 	--AL["Slinky Sharpshiv"] = "Slinky Sharpshiv";
@@ -700,7 +675,6 @@ if AL then
 	--AL["D'ore"] = "D'ore";
 
 	--Auch: Mana-Tombs
-	--AL["The Eye of Haramad"] = "The Eye of Haramad";
 	--AL["Shadow Lord Xiraxis"] = "Shadow Lord Xiraxis";
 	--AL["Ambassador Pax'ivi"] = "Ambassador Pax'ivi";
 	--AL["Cryo-Engineer Sha'heen"] = "Cryo-Engineer Sha'heen";
@@ -746,21 +720,14 @@ if AL then
 	--AL["Earthbinder Rayge"] = "Earthbinder Rayge";
 
 	--CoT: The Black Morass
-	--AL["Opening of the Dark Portal"] = "Opening of the Dark Portal";
 	--AL["Sa'at <Keepers of Time>"] = "Sa'at <Keepers of Time>";
-	--AL["The Dark Portal"] = "The Dark Portal";
 
 	--CoT: Hyjal Summit
-	--AL["Battle for Mount Hyjal"] = "Battle for Mount Hyjal";
-	--AL["Alliance Base"] = "Alliance Base";
 	--AL["Lady Jaina Proudmoore"] = "Lady Jaina Proudmoore";
-	--AL["Horde Encampment"] = "Horde Encampment";
 	--AL["Thrall <Warchief>"] = "Thrall <Warchief>";
-	--AL["Night Elf Village"] = "Night Elf Village";
 	--AL["Tyrande Whisperwind <High Priestess of Elune>"] = "Tyrande Whisperwind <High Priestess of Elune>";
 
 	--CoT: Old Hillsbrad Foothills
-	--AL["Escape from Durnholde Keep"] = "Escape from Durnholde Keep";
 	--AL["Erozion"] = "Erozion";
 	--AL["Brazen"] = "Brazen";
 	--AL["Landing Spot"] = "Landing Spot";
@@ -849,7 +816,7 @@ if AL then
 	--AL["Path to the Broken Stairs"] = "Path to the Broken Stairs";
 	--AL["Broken Stairs"] = "Broken Stairs";
 	--AL["Ramp to Guardian's Library"] = "Ramp to Guardian's Library";
-	--AL["Suspicious Bookshelf"] = "Suspicious Bookshelf";
+	--AL["Mysterious Bookshelf"] = "Mysterious Bookshelf";
 	--AL["Ramp up to the Celestial Watch"] = "Ramp up to the Celestial Watch";
 	--AL["Ramp down to the Gamesman's Hall"] = "Ramp down to the Gamesman's Hall";
 	--AL["Ramp to Medivh's Chamber"] = "Ramp to Medivh's Chamber";
@@ -1052,7 +1019,6 @@ if AL then
 
 	--Lost City of the Tol'vir
 	--AL["Captain Hadan"] = "Captain Hadan";
-	--AL["Augh"] = "Augh";
 	--AL["Tol'vir Grave"] = "Tol'vir Grave";
 
 	--The Bastion of Twilight

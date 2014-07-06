@@ -2,9 +2,9 @@
 <!--
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005-2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
+	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 	This file is part of Atlas.
 
@@ -43,6 +43,9 @@
 		</Layers>
 		<Frames>
 			<CheckButton name="$ParentToggleButton" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -50,6 +53,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_SHOWBUT);
@@ -67,6 +73,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentAutoSelect" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -74,6 +83,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_AUTOSEL);
@@ -91,6 +103,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentRightClick" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -98,6 +113,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_RCLICK);
@@ -115,6 +133,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentAcronyms" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -122,6 +143,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_ACRONYMS);
@@ -139,6 +163,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentClamped" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -146,6 +173,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CLAMPED);
@@ -163,6 +193,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentCtrl" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -170,6 +203,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CTRL);
@@ -187,6 +223,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentLock" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -194,6 +233,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_LOCK);
@@ -211,6 +253,9 @@
 				</Scripts>
 			</CheckButton>
 			<CheckButton name="$ParentBossDesc" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
@@ -218,6 +263,9 @@
 						</Offset>
 					</Anchor>
 				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
 				<Scripts>
 					<OnLoad>
 						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_BOSS_DESC);
@@ -234,6 +282,101 @@
 					</OnLeave>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$ParentCheckModule" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-200"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_CHECKMODULE);
+					</OnLoad>
+					<OnClick>
+						AtlasOptions_ToggleCheckModule();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_CHECKMODULE_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$ParentColoringDropdown" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Size>
+					<AbsDimension x = "25" y = "25"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-220"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<HitRectInsets>
+					<AbsInset left = "4" right = "4" top = "4" bottom = "6"/>
+				</HitRectInsets>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(ATLAS_OPTIONS_COLORINGDROPDOWN);
+					</OnLoad>
+					<OnClick>
+						if (AtlasOptions.AtlasColoringDropDown) then
+							AtlasOptions.AtlasColoringDropDown = false;
+						else
+							AtlasOptions.AtlasColoringDropDown = true;
+						end
+						AtlasOptions_Init();
+						Atlas_Refresh();
+						AtlasFrameDropDown_OnShow();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(ATLAS_OPTIONS_COLORINGDROPDOWN_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
+			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_OPTIONS_CATDD">
+							<Anchors>
+								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+									<Offset>
+										<AbsDimension x="20" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="1" y="-260"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						AtlasOptionsFrameDropDownCats_OnShow();
+					</OnShow>
+				</Scripts>
+			</Button>
+<!--
 			<Slider name="$ParentSliderButtonPos" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
@@ -248,6 +391,8 @@
 				<Scripts>
 					<OnLoad>
 						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BUTPOS, 0, 360, 1);
+						AtlasOptionsFrameSliderButtonPosLow:SetText("0");
+						AtlasOptionsFrameSliderButtonPosHigh:SetText("360");
 					</OnLoad>
 					<OnValueChanged>
 						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BUTPOS);
@@ -270,6 +415,8 @@
 				<Scripts>
 					<OnLoad>
 						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BUTRAD, 0, 200, 1);
+						AtlasOptionsFrameSliderButtonRadLow:SetText("0");
+						AtlasOptionsFrameSliderButtonRadHigh:SetText("200");
 					</OnLoad>
 					<OnValueChanged>
 						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BUTRAD);
@@ -278,6 +425,7 @@
 					</OnValueChanged>
 				</Scripts>
 			</Slider>
+-->
 			<Slider name="$ParentSliderAlpha" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
@@ -285,19 +433,25 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-305" />
+							<AbsDimension x="0" y="-325" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_TRANS, 0.25, 1.0, 0.01);
+						self:EnableMouseWheel(true)
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_TRANS, 0, 1.0, 0.01);
+						AtlasOptionsFrameSliderAlphaLow:SetText("0.00");
+						AtlasOptionsFrameSliderAlphaHigh:SetText("1.00");
 					</OnLoad>
 					<OnValueChanged>
 						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_TRANS);
 						AtlasOptions.AtlasAlpha = self:GetValue();
 						Atlas_UpdateAlpha();
 					</OnValueChanged>
+					<OnMouseWheel>
+						AtlasOptions_OnMouseWheel(self, delta)
+					</OnMouseWheel>
 				</Scripts>
 			</Slider>
 			<Slider name="$ParentSliderScale" inherits="OptionsSliderTemplate">
@@ -307,19 +461,25 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-340" />
+							<AbsDimension x="0" y="-360" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_SCALE, 0.25, 1.5, 0.01);
+						self:EnableMouseWheel(true)
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_SCALE, 0.01, 1.75, 0.01);
+						AtlasOptionsFrameSliderScaleLow:SetText("0.01");
+						AtlasOptionsFrameSliderScaleHigh:SetText("1.75");
 					</OnLoad>
 					<OnValueChanged>
 						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_SCALE);
 						AtlasOptions.AtlasScale = self:GetValue();
 						Atlas_UpdateScale();
 					</OnValueChanged>
+					<OnMouseWheel>
+						AtlasOptions_OnMouseWheel(self, delta)
+					</OnMouseWheel>
 				</Scripts>
 			</Slider>
 			<Slider name="$ParentSliderBossDescScale" inherits="OptionsSliderTemplate">
@@ -329,47 +489,27 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-375" />
+							<AbsDimension x="0" y="-395" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_BOSS_DESC_SCALE, 0.5, 1.5, 0.1);
+						self:EnableMouseWheel(true)
+						AtlasOptions_SetupSlider(self, ATLAS_OPTIONS_SCALE, 0.01, 1.75, 0.01);
+						AtlasOptionsFrameSliderBossDescScaleLow:SetText("0.01");
+						AtlasOptionsFrameSliderBossDescScaleHigh:SetText("1.75");
 					</OnLoad>
 					<OnValueChanged>
 						AtlasOptions_UpdateSlider(self, ATLAS_OPTIONS_BOSS_DESC_SCALE);
 						AtlasOptions.AtlasBossDescScale = self:GetValue();
 					</OnValueChanged>
+					<OnMouseWheel>
+						AtlasOptions_OnMouseWheel(self, delta)
+					</OnMouseWheel>
 				</Scripts>
 			</Slider>
-			<Button name="$ParentDropDownCats" inherits="UIDropDownMenuTemplate">
-				<Layers>
-					<Layer level="BACKGROUND">
-						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_OPTIONS_CATDD">
-							<Anchors>
-								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
-									<Offset>
-										<AbsDimension x="20" y="0"/>
-									</Offset>
-								</Anchor>
-							</Anchors>
-						</FontString>
-					</Layer>
-				</Layers>
-				<Anchors>
-					<Anchor point="BOTTOMLEFT">
-						<Offset>
-							<AbsDimension x="0" y="15"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnShow>
-						AtlasOptionsFrameDropDownCats_OnShow();
-					</OnShow>
-				</Scripts>
-			</Button>
+<!--
 			<Button name="$ParentResetPosition" inherits="UIPanelButtonTemplate" text="ATLAS_OPTIONS_RESETPOS">
 				<Size>
 					<AbsDimension x="160" y="32"/>
@@ -387,6 +527,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
+-->
 		</Frames>
 		<Scripts>
 			<OnLoad>

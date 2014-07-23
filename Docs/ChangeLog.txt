@@ -7,9 +7,9 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.26.03 (XXX. XX, 2014)
+v1.30.00 (XXX. XX, 2014)
 -----------------------
-
+- WoD Development...
 
 v1.26.02 (Sep. 17, 2013)
 -----------------------

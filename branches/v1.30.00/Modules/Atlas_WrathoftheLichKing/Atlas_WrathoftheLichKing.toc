@@ -1,4 +1,4 @@
-﻿## Interface: 50400
+﻿## Interface: 60000
 ## Title: Atlas |r|cFF0099FF[Wrath of the Lich King]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Wrath of the Lich King]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Wrath of the Lich King]|r

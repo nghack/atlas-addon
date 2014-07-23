@@ -1,4 +1,4 @@
-﻿## Interface: 50400
+﻿## Interface: 60000
 ## Title: Atlas |r|cFF0099FF[Battlegrounds]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Schlachtfelder]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Поля Сражений]|r

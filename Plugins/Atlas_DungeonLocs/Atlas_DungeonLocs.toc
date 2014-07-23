@@ -1,4 +1,4 @@
-﻿## Interface: 50400
+﻿## Interface: 60000
 ## Title: Atlas |r|cFF0099FF[Dungeon Locs]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Instanz-Standorte]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Расп. подземелий]|r

@@ -43,6 +43,9 @@ local INDENT = "      ";
 local myCategory = AL["Transportation Maps"];
 
 local myData = {
+	TransAllianceDraenor = {
+		ZoneName = { BZ["Draenor"].." ("..FACTION_ALLIANCE..")" };
+	};
 	TransAllianceEast = {
 		ZoneName = { BZ["Eastern Kingdoms"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..BZ["Docks"] };
@@ -62,7 +65,7 @@ local myData = {
 		{ PURP.." C) "..BZ["Highbank"]..", "..BZ["Twilight Highlands"] };
 		{ PURP.." D) "..BZ["Fuselight-by-the-Sea"]..", "..BZ["Badlands"] };
 		{ PURP..INDENT.."("..AL["Transporters by the sea and on the cliff"]..")" };
-		{ PURP.." E) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
+--		{ PURP.." E) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
 		{ PURP.." A') "..BZ["Nordrassil"]..", "..BZ["Mount Hyjal"]..", "..BZ["Kalimdor"] };
 		{ PURP.." B') "..BZ["Ramkahen"]..", "..BZ["Uldum"]..", "..BZ["Kalimdor"] };
 		{ PURP.." C') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };

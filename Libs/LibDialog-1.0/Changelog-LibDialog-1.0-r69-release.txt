@@ -1,8 +1,0 @@
-2014-05-03  James D. Callahan III  <jcallahan@curse.com>
-
-[806e333f586d] [r69-release]
-* LibDialog-1.0.lua:
-
-Added support for icon_size, text_justify_h, and text_justify_v fields. Layout improvements for EditBoxes and the dialog text in relation to the icon (if present).
-
-

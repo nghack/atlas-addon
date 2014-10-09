@@ -12,6 +12,7 @@ v1.30.00 (Nov. XX, 2014)
 - Added Draenor map (draft)
 - Update Portals
     - Blasted Lands portals have been changed to Hellfire Peninsula Portals. (Alliance update, Horde TBD)
+	- Added Shattered Beachhead
 
 v1.26.04 (Dec. 31, 2013)
 -----------------------

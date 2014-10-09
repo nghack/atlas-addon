@@ -344,8 +344,9 @@ local function Atlas_Check_Modules()
 	-- Check for outdated modules, build a list of them, then disable them and tell the player
 	local List = {};
 	for _, module in pairs(Module_List) do
-		local enabled, loadable = select(4, GetAddOnInfo(module));
-		if (not enabled) or (not loadable) then
+		local loadable = select(4, GetAddOnInfo(module));
+		local enabled = GetAddOnEnableState(nil, module)
+		if (enabled == 0) or (not loadable) then
 			table.insert(List, module);
 		end
 	end

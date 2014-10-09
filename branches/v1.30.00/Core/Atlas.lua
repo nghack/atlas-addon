@@ -170,15 +170,15 @@ local function Process_Deprecated()
 	-- For example, name it as 2.09 instead of 2.9
 	local Deprecated_List = {
 		-- Most recent (working) versions of known modules at time of release
-		{ "Atlas_Scenarios", 		"1.26.00" },
-		{ "Atlas_Cataclysm", 		"1.26.00" },
-		{ "Atlas_WrathoftheLichKing", 	"1.26.00" },
-		{ "Atlas_BurningCrusade", 	"1.26.00" },
-		{ "Atlas_ClassicWoW", 		"1.26.00" },
-		{ "Atlas_Battlegrounds", 	"1.26.00" },
-		{ "Atlas_DungeonLocs", 		"1.26.00" },
-		{ "Atlas_OutdoorRaids", 	"1.26.00" },
-		{ "Atlas_Transportation", 	"1.26.00" },
+		{ "Atlas_Scenarios", 		"1.30.00" },
+		{ "Atlas_Cataclysm", 		"1.30.00" },
+		{ "Atlas_WrathoftheLichKing", 	"1.30.00" },
+		{ "Atlas_BurningCrusade", 	"1.30.00" },
+		{ "Atlas_ClassicWoW", 		"1.30.00" },
+		{ "Atlas_Battlegrounds", 	"1.30.00" },
+		{ "Atlas_DungeonLocs", 		"1.30.00" },
+		{ "Atlas_OutdoorRaids", 	"1.30.00" },
+		{ "Atlas_Transportation", 	"1.30.00" },
 		--{ "AtlasWorld", 		"3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", 		"4.8.1" }, -- updated Oct. 17, 2011
 		--{ "AtlasMajorCities", 		"v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
@@ -190,8 +190,9 @@ local function Process_Deprecated()
 	-- Check for outdated modules, build a list of them, then disable them and tell the player
 	local OldList = {};
 	for k, v in pairs(Deprecated_List) do
-		local enabled, loadable = select(4, GetAddOnInfo(v[1]));
-		if enabled and loadable then
+		local loadable = select(4, GetAddOnInfo(v[1]));
+		local enabled = GetAddOnEnableState(nil, GetAddOnInfo(v[1]))
+		if (enabled >= 0) and loadable then
 			local oldVersion = true;			
 			if v[2] ~= nil and GetAddOnMetadata(v[1], "Version") >= v[2] then
 				oldVersion = false;

@@ -7,9 +7,10 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.30.00 (XXX. XX, 2014)
+v1.30.00 (Nov. XX, 2014)
 -----------------------
 - WoD Development...
+- Revise the codes regarding to module / plugin's enable checking 
 
 v1.26.02 (Sep. 17, 2013)
 -----------------------

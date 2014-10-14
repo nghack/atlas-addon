@@ -166,8 +166,8 @@ Syntax:
 		{ BLUE.." A) "..BZ["Searing Gorge"] };
 		{ BLUE.." B) "..BZ["Burning Steppes"] };
 		{ BLUE.." C) "..BZ["Blackrock Depths"].." ("..AL["BRD"]..")" };
-		{ BLUE.." D) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..", "..AL["LBRS"]..")" };
-		{ BLUE..INDENT..BZ["Blackrock Spire"].." ("..AL["Upper"]..", "..AL["UBRS"]..")" };
+		{ BLUE.." D) "..BZ["Lower Blackrock Spire"].." ("..AL["LBRS"]..")" };
+		{ BLUE..INDENT..BZ["Upper Blackrock Spire"].." ("..AL["UBRS"]..")" };
 		{ GREN..INDENT..AL["Bodley"].." ("..AL["Ghost"]..")" };
 		{ BLUE.." E) "..BZ["The Molten Core"].." ("..AL["MC"]..")" };
 		{ GREN..INDENT..AL["Lothos Riftwaker"] };
@@ -808,7 +808,7 @@ Syntax:
 		{ GREN.."14') "..AL["Shadowforge Brazier"] };
 	};
 	BlackrockSpireLower = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Lower Blackrock Spire"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "32";
 		Acronym = AL["LBRS"];
@@ -839,28 +839,21 @@ Syntax:
 		{ GREN.." 3') "..AL["Roughshod Pike"] };
 	};
 	BlackrockSpireUpper = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Upper Blackrock Spire"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "330";
 		Acronym = AL["UBRS"];
-		JournalInstanceID = "229";
+		JournalInstanceID = "559";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
 		{ BLUE.." C-D) "..AL["Connection"] };
 		{ BLUE.." E) "..BZ["Blackwing Lair"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Pyroguard Emberseer", 397) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Solakar Flamewreath", 398) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Goraluk Anvilcrack") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Warchief Rend Blackhand", 399) };
-		{ WHIT..INDENT..Atlas_GetBossName("Gyth", 399, 2) };
-		{ WHIT.." 5) "..Atlas_GetBossName("The Beast", 400) };
-		{ GREN..INDENT..AL["Finkle Einhorn"] };
-		{ WHIT.." 6) "..Atlas_GetBossName("General Drakkisath", 401) };
-		{ GREN..INDENT..AL["Drakkisath's Brand"] };
-		{ ORNG.." 1) "..Atlas_GetBossName("Jed Runewatcher").." ("..AL["Rare"]..")" };
-		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
-		{ GREN.." 2') "..AL["Father Flame"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Orebender Gor'ashan", 1226) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Kyrak", 1227) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Tharbek", 1228) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Ragewing the Untamed", 1229) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Warlord Zaela", 1234) };
 	};
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };

@@ -3101,6 +3101,15 @@ Syntax:
 		JournalInstanceID = "547";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 	};
+	BlackrockFoundry = {
+		ZoneName = { BZ["Blackrock Foundry"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "898";
+		DungeonHeroicID = "900";
+--		Acronym = "";
+		JournalInstanceID = "457";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
 	BloodmaulSlagMines = {
 		ZoneName = { BZ["Bloodmaul Slag Mines"] };
 		Location = { BZ["Frostfire Ridge"] };
@@ -3126,6 +3135,15 @@ Syntax:
 		DungeonHeroicID = "858";
 --		Acronym = "";
 		JournalInstanceID = "536";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	Highmaul = {
+		ZoneName = { BZ["Highmaul"] };
+		Location = { BZ["Nagrand"] };
+		DungeonID = "895";
+		DungeonHeroicID = "897";
+--		Acronym = "";
+		JournalInstanceID = "477";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 	};
 	IronDocks = {

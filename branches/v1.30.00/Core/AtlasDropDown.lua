@@ -177,6 +177,7 @@ Atlas_DropDownLayouts = {
 			"HCHellfireRamparts",
 			"HCMagtheridonsLair",
 			"HCTheShatteredHalls",
+			"Highmaul",
 			"TempestKeepEnt",
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
@@ -242,6 +243,7 @@ Atlas_DropDownLayouts = {
 		},
 		[ATLAS_DDL_CONTINENT_DRAENOR] = {
 			"Auchindoun",
+			"BlackrockFoundry",
 			"BloodmaulSlagMines",
 			"TheEverbloom",
 			"GrimrailDepot",
@@ -430,8 +432,10 @@ Atlas_DropDownLayouts = {
 
 		},
 		[ATLAS_DDL_LEVEL_100PLUS] = {
+			"BlackrockFoundry",
 			"TheEverbloom",
 			"GrimrailDepot",
+			"Highmaul",
 			"ShadowmoonBurialGrounds",
 		},
 		
@@ -545,6 +549,7 @@ Atlas_DropDownLayouts = {
 		},
 		[ATLAS_DDL_PARTYSIZE_10_AN] = {
 			"BaradinHold",
+			"BlackrockFoundry",
 			"BlackrockMountainEnt",
 			"BlackwingDescent",
 			"CavernsOfTimeEnt",
@@ -553,6 +558,7 @@ Atlas_DropDownLayouts = {
 			"CoTDragonSoulC",
 			"Firelands",
 			"HeartofFear",
+			"Highmaul",
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
@@ -591,6 +597,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_PARTYSIZE_20TO40AH] = {
 			"BaradinHold",
 			"TheBastionOfTwilight",
+			"BlackrockFoundry",
 			"BlackrockMountainEnt",
 			"BlackTempleBasement",
 			"BlackTempleStart",
@@ -610,6 +617,7 @@ Atlas_DropDownLayouts = {
 			"HellfireCitadelEnt",
 			"HCMagtheridonsLair",
 			"HeartofFear",
+			"Highmaul",
 			"MoltenCore",
 			"TheTempleofAhnQiraj",
 			"TrialOfTheCrusader",
@@ -814,9 +822,11 @@ Atlas_DropDownLayouts = {
 		},
 		[ATLAS_DDL_EXPANSION_WOD] = {
 			"Auchindoun",
+			"BlackrockFoundry",
 			"BloodmaulSlagMines",
 			"TheEverbloom",
 			"GrimrailDepot",
+			"Highmaul",
 			"IronDocks",
 			"ShadowmoonBurialGrounds",
 			"Skyreach",
@@ -834,6 +844,7 @@ Atlas_DropDownLayouts = {
 			"AzjolNerub",
 			"BaradinHold",
 			"BlackfathomDeeps",
+			"BlackrockFoundry",
 			"BlackrockCaverns",
 			"BlackrockDepths",
 			"BlackrockSpireLower",
@@ -891,6 +902,7 @@ Atlas_DropDownLayouts = {
 			"HCMagtheridonsLair",
 			"HCTheShatteredHalls",
 			"HeartofFear",
+			"Highmaul",
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",

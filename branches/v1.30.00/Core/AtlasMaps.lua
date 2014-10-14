@@ -3118,6 +3118,11 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "385";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ WHIT.." 1) "..Atlas_GetBossName("Magmolatus", 893) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Slave Watcher Crushto", 888) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Roltall", 887) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Gug'rokk", 889) };
+
 	};
 	TheEverbloom = {
 		ZoneName = { BZ["The Everbloom"] };

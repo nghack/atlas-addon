@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -841,7 +841,8 @@ Syntax:
 	BlackrockSpireUpper = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Upper Blackrock Spire"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		DungeonID = "330";
+		DungeonID = "828";
+		DungeonHeroicID = "860";
 		Acronym = AL["UBRS"];
 		JournalInstanceID = "559";
 		Module = "Atlas_ClassicWoW";
@@ -3086,5 +3087,72 @@ Syntax:
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
 		{ ORNG.." 6) "..AL["Zao'cho <The Emperor's Shield>"].." ("..AL["Rare"]..")" };
+	};
+
+--************************************************
+-- Draenor Instances
+--************************************************
+	Auchindoun = {
+		ZoneName = { BZ["Auchindoun"] };
+		Location = { BZ["Talador"] };
+		DungeonID = "820";
+		DungeonHeroicID = "845";
+--		Acronym = "";
+		JournalInstanceID = "547";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	BloodmaulSlagMines = {
+		ZoneName = { BZ["Bloodmaul Slag Mines"] };
+		Location = { BZ["Frostfire Ridge"] };
+		DungeonID = "787";
+		DungeonHeroicID = "859";
+--		Acronym = "";
+		JournalInstanceID = "385";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	TheEverbloom = {
+		ZoneName = { BZ["The Everbloom"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "824";
+		DungeonHeroicID = "866";
+--		Acronym = "";
+		JournalInstanceID = "556";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	GrimrailDepot = {
+		ZoneName = { BZ["Grimrail Depot"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "822";
+		DungeonHeroicID = "858";
+--		Acronym = "";
+		JournalInstanceID = "536";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	IronDocks = {
+		ZoneName = { BZ["Iron Docks"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "821";
+		DungeonHeroicID = "857";
+--		Acronym = "";
+		JournalInstanceID = "558";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	ShadowmoonBurialGrounds = {
+		ZoneName = { BZ["Shadowmoon Burial Grounds"] };
+		Location = { BZ["Shadowmoon Valley"] };
+		DungeonID = "783";
+		DungeonHeroicID = "784";
+--		Acronym = "";
+		JournalInstanceID = "537";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+	};
+	Skyreach = {
+		ZoneName = { BZ["Skyreach"] };
+		Location = { BZ["Spires of Arak"] };
+		DungeonID = "779";
+		DungeonHeroicID = "780";
+--		Acronym = "";
+		JournalInstanceID = "476";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 	};
 };

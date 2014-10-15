@@ -622,7 +622,7 @@ local myData = {
 		ZoneName = { BZ["Outland"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Portals"].." / "..AL["Transporter"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
-		{ PURP.." B') ".BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
+		{ PURP.." B') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." C') "..BZ["Sun's Reach Sanctum"]..", "..BZ["Isle of Quel'Danas"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." D') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ WHIT.." 1) "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"] };

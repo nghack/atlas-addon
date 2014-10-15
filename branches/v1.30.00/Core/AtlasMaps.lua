@@ -440,25 +440,14 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ghamoo-ra", 368) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Lady Sarevess", 436) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Gelihast", 426) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Domina", 436) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Subjugator Kor'ul", 426) };
 		{ GREN..INDENT..AL["Shrine of Gelihast"] };
-		{ WHIT.." 4) "..Atlas_GetBossName("Old Serra'kis", 447) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Twilight Lord Kelris", 437) };
-		{ WHIT.." 6) "..Atlas_GetBossName("Aku'mai", 444) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Lorgus Jett").." ("..AL["Varies"]..")" };
-		{ ORNG.." 2) "..Atlas_GetBossName("Baron Aquanis").." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Fathom Stone"] };
-		{ GREN.." 1') "..AL["Ashelan Northwood"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Relwyn Shadestar"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Sentinel Aluwyn"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Sentinel-trainee Issara"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Je'neu Sancrea <The Earthen Ring>"].." ("..FACTION_HORDE..")" };
-		{ GREN..INDENT..AL["Zeya"].." ("..FACTION_HORDE..")" };
-		{ GREN.." 2') "..AL["Lorgalis Manuscript"] };
-		{ GREN.." 3') "..AL["Scout Thaelrid"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN.." 4') "..AL["Flaming Eradicator"] };
-		{ GREN.." 5') "..AL["Altar of the Deeps"] };
+		{ WHIT.." 4) "..Atlas_GetBossName("Thruk", 1145) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Guardian of the Deep", 447) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Executioner Gore", 1144) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Twilight Lord Bathiel", 437) };
+		{ WHIT.." 8) "..Atlas_GetBossName("Aku'mai", 444) };
 	};
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")" };
@@ -582,12 +571,11 @@ Syntax:
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Koristrasza"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Tuten'kash", 432) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Aarux", 1142) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Mordresh Fire Eye", 433) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Glutton", 434) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Amnennar the Coldbringer", 435) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Plaguemaw the Rotting") };
-		{ ORNG.." 2) "..Atlas_GetBossName("Ragglesnout").." ("..AL["Rare"]..", "..AL["Varies"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Mushlump", 1143) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Death Speaker Blackthorn", 1146) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Amnennar the Coldbringer", 1141) };
 		{ GREN.." 1') "..AL["Belnistrasz"] };
 		{ GREN.." 2') "..Atlas_GetBossName("Henry Stern") };
 	};
@@ -600,17 +588,13 @@ Syntax:
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Auld Stonespire"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Aggem Thorncurse", 439) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Death Speaker Jargba", 438) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Overlord Ramtusk", 440) };
-		{ WHIT..INDENT..Atlas_GetBossName("Razorfen Spearhide", 440, 2) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Agathelos the Raging", 441) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Charlga Razorflank", 442) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Roogug") };
-		{ ORNG.." 2) "..Atlas_GetBossName("Blind Hunter").." ("..AL["Rare"]..")" };
-		{ ORNG.." 3) "..Atlas_GetBossName("Earthcaller Halmgar").." ("..AL["Rare"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Hunter Bonetusk", 896) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Roogug", 895) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Warlord Ramtusk", 899) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Groyat, the Blind Hunter", 900) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Charlga Razorflank", 901) };
+		{ ORNG.." 1) "..Atlas_GetBossName("Earthcaller Halmgar").." ("..AL["Rare"]..")" };
 		{ GREN.." 1') "..AL["Spirit of Agamaggan <Ancient>"] };
-		{ GREN.." 2') "..AL["Willix the Importer"] };
 	};
 	TheRuinsofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Ruins of Ahn'Qiraj"] };
@@ -3100,6 +3084,11 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "547";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vigilant Kaathar", 1185) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Soulbinder Nyami", 1186) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Azzakel", 1216) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Teron'gor", 1225) };
 	};
 	BlackrockFoundry = {
 		ZoneName = { BZ["Blackrock Foundry"] };
@@ -3109,6 +3098,17 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "457";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger", 1202) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Beastlord Darmac", 1122) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Flamebender Ka'graz", 1123) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Hans'gar and Franzok", 1155) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Operator Thogar", 1147) };
+		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154) };
+		{ WHIT.." 8) "..Atlas_GetBossName("Kromog", 1162) };
+		{ WHIT.." 9) "..Atlas_GetBossName("The Iron Maidens", 1203) };
+		{ WHIT.." 10) "..Atlas_GetBossName("Blackhand", 959) };
 	};
 	BloodmaulSlagMines = {
 		ZoneName = { BZ["Bloodmaul Slag Mines"] };
@@ -3118,6 +3118,7 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "385";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Magmolatus", 893) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Slave Watcher Crushto", 888) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Roltall", 887) };
@@ -3132,6 +3133,12 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "556";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Witherbark", 1214) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Ancient Protectors", 1207) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Archmage Sol", 1208) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Xeri'tac", 1209) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Yalnu", 1210) };
 	};
 	GrimrailDepot = {
 		ZoneName = { BZ["Grimrail Depot"] };
@@ -3141,6 +3148,10 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "536";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Rocketspark and Borka", 1138) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Nitrogg Thundertower", 1163) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Skylord Tovra", 1133) };
 	};
 	Highmaul = {
 		ZoneName = { BZ["Highmaul"] };
@@ -3150,6 +3161,14 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "477";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Kargath Bladefist", 1128) };
+		{ WHIT.." 2) "..Atlas_GetBossName("The Butcher", 971) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Tectus", 1195) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Brackenspore", 1196) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Twin Ogron", 1148) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Ko'ragh", 1153) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Imperator Mar'gok", 1197) };
 	};
 	IronDocks = {
 		ZoneName = { BZ["Iron Docks"] };
@@ -3159,6 +3178,11 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "558";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Fleshrender Nok'gar", 1235) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Grimrail Enforcers", 1236) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Oshir", 1237) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Skulloc", 1238) };
 	};
 	ShadowmoonBurialGrounds = {
 		ZoneName = { BZ["Shadowmoon Burial Grounds"] };
@@ -3168,6 +3192,11 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "537";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Sadana Bloodfury", 1139) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Nhallish", 1168) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Bonemaw", 1140) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Ner'zhul", 1160) };
 	};
 	Skyreach = {
 		ZoneName = { BZ["Skyreach"] };
@@ -3177,5 +3206,10 @@ Syntax:
 --		Acronym = "";
 		JournalInstanceID = "476";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Ranjit", 965) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Araknath", 966) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Rukhran", 967) };
+		{ WHIT.." 4) "..Atlas_GetBossName("High Sage Viryx", 968) };
 	};
 };

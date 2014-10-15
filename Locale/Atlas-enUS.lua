@@ -137,7 +137,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Wrath of the Lich King Instances";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Cataclysm Instances";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mists of Pandaria Instances";
-	AL["ATLAS_DDL_EXPANSION_WOD"] = "World of Draenor Instances";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "Warlords of Draenor Instances";
 	AL["ATLAS_DDL_TYPE"] = "Type";			-- -- Sort Instance Maps by: Map Type
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Instances A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Instances C-F";
@@ -487,17 +487,6 @@ if AL then
 
 	--Blackfathom Deeps
 	AL["Shrine of Gelihast"] = "Shrine of Gelihast";
-	AL["Fathom Stone"] = "Fathom Stone";
-	AL["Lorgalis Manuscript"] = "Lorgalis Manuscript";
-	AL["Scout Thaelrid"] = "Scout Thaelrid";
-	AL["Flaming Eradicator"] = "Flaming Eradicator";
-	AL["Altar of the Deeps"] = "Altar of the Deeps";
-	AL["Ashelan Northwood"] = "Ashelan Northwood";
-	AL["Relwyn Shadestar"] = "Relwyn Shadestar";
-	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
-	AL["Sentinel-trainee Issara"] = "Sentinel-trainee Issara";
-	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <The Earthen Ring>";
-	AL["Zeya"] = "Zeya";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Ambassador\" Dagg'thol";
@@ -540,7 +529,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Stonespire";
 	AL["Spirit of Agamaggan <Ancient>"] = "Spirit of Agamaggan <Ancient>";
-	AL["Willix the Importer"] = "Willix the Importer";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "Four Kaldorei Elites";

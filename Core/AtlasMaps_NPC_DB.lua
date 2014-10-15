@@ -40,14 +40,16 @@ Syntax:
 -- Kalimdor Instances (Classic)
 --************************************************
 
-	BlackfathomDeeps = {
-		{ 1, 368, 191, 182 }; -- Ghamoo-ra
-		{ 2, 436, 76, 110 }; -- Lady Sarevess
-		{ 3, 426, 296, 168 }; -- Gelihast
-		{ 4, 447, 416, 359 }; -- Old Serra'kis
-		{ 5, 437, 244, 447 }; -- Twilight Lord Kelris
-		{ 6, 444, 459, 465 }; -- Aku'mai
-	};
+--[[	BlackfathomDeeps = {
+		{ 1, 368, x, x }; -- Ghamoo-ra
+		{ 2, 436, x, x }; -- Domina
+		{ 3, 426, x, x }; -- Subjugator Kor'ul
+		{ 4, 1145, x, x }; -- Thruk
+		{ 5, 447, x, x }; -- Guardian of the Deep
+		{ 6, 1144, x, x }; -- Executioner Gore
+		{ 7, 437, x, x }; -- Twilight Lord Bathiel
+		{ 8, 444, x, x }; -- Aku'mai
+	};--]]
 	DireMaulEast = {
 		{ 1, 404, 212, 109 }; -- Lethtendris
 		{ 2, 403, 352, 401 }; -- Hydrospawn
@@ -85,19 +87,20 @@ Syntax:
 		{ 3, 696, 182, 299 }; -- Slagmaw
 		{ 4, 697, 153, 444 }; -- Lava Guard Gordoth
 	};
-	RazorfenDowns = {
-		{ 1, 432, 265, 184 }; -- Tuten'kash
-		{ 2, 433, 435, 241 }; -- Mordresh Fire Eye
-		{ 3, 434, 98, 329 }; -- Glutton
-		{ 4, 435, 172, 299 }; -- Amnennar the Coldbringer
+--[[	RazorfenDowns = {
+		{ 1, 1142, x, x }; -- Aarux
+		{ 2, 433, x, x }; -- Mordresh Fire Eye
+		{ 3, 1143, x, x }; -- Mushlump
+		{ 4, 1146, x, x }; -- Death Speaker Blackthorn
+		{ 5, 1141, x, x }; -- Amnennar the Coldbringer
 	};
 	RazorfenKraul = {
-		{ 1, 439, 437, 257 }; -- Aggem Thorncurse
-		{ 2, 438, 477, 212 }; -- Death Speaker Jargba
-		{ 3, 440, 307, 165 }; -- Overlord Ramtusk
-		{ 4, 441, 45, 310 }; -- Agathelos the Raging
-		{ 5, 442, 138, 168 }; -- Charlga Razorflank
-	};
+		{ 1, 896, x, x }; -- Hunter Bonetusk
+		{ 2, 895, x, x }; -- Roogug
+		{ 3, 899, x, x }; -- Warlord Ramtusk
+		{ 4, 900, x, x }; -- Groyat, the Blind Hunter
+		{ 5, 901, x, x }; -- Charlga Razorflank
+	};--]]
 	TheRuinsofAhnQiraj = {
 		-- N/A
 	};

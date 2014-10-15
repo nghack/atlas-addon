@@ -7,6 +7,10 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.30.00 (Oct. 15, 2014)
+-----------------------
+- TOC update to support WoW 6.0
+
 v1.26.00 (Sep. 09, 2013)
 -----------------------
 - TOC update to support WoW 5.4

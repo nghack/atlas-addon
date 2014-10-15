@@ -166,8 +166,8 @@ Syntax:
 		{ BLUE.." A) "..BZ["Searing Gorge"] };
 		{ BLUE.." B) "..BZ["Burning Steppes"] };
 		{ BLUE.." C) "..BZ["Blackrock Depths"].." ("..AL["BRD"]..")" };
-		{ BLUE.." D) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..", "..AL["LBRS"]..")" };
-		{ BLUE..INDENT..BZ["Blackrock Spire"].." ("..AL["Upper"]..", "..AL["UBRS"]..")" };
+		{ BLUE.." D) "..BZ["Lower Blackrock Spire"].." ("..AL["LBRS"]..")" };
+		{ BLUE..INDENT..BZ["Upper Blackrock Spire"].." ("..AL["UBRS"]..")" };
 		{ GREN..INDENT..AL["Bodley"].." ("..AL["Ghost"]..")" };
 		{ BLUE.." E) "..BZ["The Molten Core"].." ("..AL["MC"]..")" };
 		{ GREN..INDENT..AL["Lothos Riftwaker"] };
@@ -808,7 +808,7 @@ Syntax:
 		{ GREN.."14') "..AL["Shadowforge Brazier"] };
 	};
 	BlackrockSpireLower = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Lower Blackrock Spire"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "32";
 		Acronym = AL["LBRS"];
@@ -839,7 +839,7 @@ Syntax:
 		{ GREN.." 3') "..AL["Roughshod Pike"] };
 	};
 	BlackrockSpireUpper = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Upper Blackrock Spire"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "330";
 		Acronym = AL["UBRS"];

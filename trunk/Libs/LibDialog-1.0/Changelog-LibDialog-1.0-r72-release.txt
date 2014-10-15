@@ -1,0 +1,8 @@
+2014-09-21  James D. Callahan III  <jcallahan@curse.com>
+
+[daec673f548a] [r72-release]
+* LibDialog-1.0.lua:
+
+Added EditBox on_show support. Increased minor version to 6.
+
+

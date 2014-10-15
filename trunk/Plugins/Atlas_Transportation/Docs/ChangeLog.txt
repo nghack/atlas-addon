@@ -10,6 +10,10 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.30.00 (Oct. 15, 2014)
 -----------------------
 - TOC update to support WoW 6.0
+- Update Portals
+    - Blasted Lands portals have been changed to Hellfire Peninsula Portals. 
+    - Added Shattered Beachhead in Blasted Lands
+    - Added Shattered Landing in Blasted Lands
 
 v1.26.04 (Dec. 31, 2013)
 -----------------------

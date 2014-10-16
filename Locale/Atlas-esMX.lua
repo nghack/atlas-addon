@@ -27,12 +27,12 @@
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 
--- Atlas Spanish Localization
+-- Atlas Spanish (Mexico) Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 16/09/2013
+-- Última Actualización (last update): 16/10/2014
 
--- Atlas Spanish Localization
+-- Atlas Spanish (Mexico) Localization
 if ( GetLocale() == "esMX" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
@@ -122,6 +122,9 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Mazmorras de nivel 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Mazmorras de nivel 85-90";
 	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Mazmorras de nivel 90+";
+	AL["ATLAS_DDL_LEVEL_90TO95"] = "Mazmorras de nivel 90-95";
+	AL["ATLAS_DDL_LEVEL_95TO100"] = "Mazmorras de nivel 95-100";
+	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Mazmorras de nivel 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Tamaño del grupo";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Mazmorras para 5 jugadores A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Mazmorras para 5 jugadores F-S";
@@ -137,6 +140,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Mazmorras Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Mazmorras de Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Mazmorras de Mists of Pandaria";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "Mazmorras de Warlords of Draenor";
 	AL["ATLAS_DDL_TYPE"] = "Tipo";			-- -- Sort Instance Maps by: Map Type
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Mazmorras A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Mazmorras C-F";
@@ -144,7 +148,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Mazmorras N-S";
 	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Mazmorras T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entradas";
-	
+
 	AL["ATLAS_INSTANCE_BUTTON"] = "Mazmorra";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Entrada";
 	AL["ATLAS_SEARCH_UNAVAIL"] = "Buscar no disponible";
@@ -486,17 +490,6 @@ if AL then
 
 	--Blackfathom Deeps
 	AL["Shrine of Gelihast"] = "Santuario de Gelihast";
-	AL["Fathom Stone"] = "Núcleo de las profundidades";
-	AL["Lorgalis Manuscript"] = "Manuscrito de Lorgalis";
-	AL["Scout Thaelrid"] = "Guardia Argenta Thaelrid <El Alba Argenta>";
-	AL["Flaming Eradicator"] = "Erradicador flameante";
-	AL["Altar of the Deeps"] = "Altar de las profundidades";
-	AL["Ashelan Northwood"] = "Ashelan Bosquenorte";
-	AL["Relwyn Shadestar"] = "Relwyn Sombrestrella";
-	AL["Sentinel Aluwyn"] = "Centinela Aluwyn";
-	AL["Sentinel-trainee Issara"] = "Centinela practicante Issara";
-	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <El Anillo de la Tierra>";
-	AL["Zeya"] = "Zeya";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Embajador\" Dagg'thol";
@@ -539,7 +532,6 @@ if AL then
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Picopiedra";
 	AL["Spirit of Agamaggan <Ancient>"] = "Espíritu de Agamaggan <Anciano>";
-	AL["Willix the Importer"] = "Willix el Importador";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "Cuatro Elites Kaldorei";

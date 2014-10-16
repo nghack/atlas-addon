@@ -438,16 +438,24 @@ Syntax:
 		JournalInstanceID = "227";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Je'neu Sancrea"] };
+		{ GREN..INDENT..AL["Sentinel Aluwyn"].." ("..FACTION_ALLIANCE..")" };
+		{ GREN..INDENT..AL["Zeya"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ghamoo-ra", 368) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Domina", 436) };
+		{ GREN..INDENT..AL["Altar of Blood"] };
 		{ WHIT.." 3) "..Atlas_GetBossName("Subjugator Kor'ul", 426) };
-		{ GREN..INDENT..AL["Shrine of Gelihast"] };
+		{ GREN..INDENT..AL["Altar of Blood"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Thruk", 1145) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Guardian of the Deep", 447) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Executioner Gore", 1144) };
 		{ WHIT.." 7) "..Atlas_GetBossName("Twilight Lord Bathiel", 437) };
+		{ GREN..INDENT..AL["Fire of Aku'mai"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("Aku'mai", 444) };
+		{ GREN..INDENT..AL["Spoils of Blackfathom"] };
+		{ GREN..INDENT..AL["Sentinel Aluwyn"].." ("..FACTION_ALLIANCE..")" };
+		{ GREN..INDENT..AL["Zeya"].." ("..FACTION_HORDE..")" };
 	};
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")" };

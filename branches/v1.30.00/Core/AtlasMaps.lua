@@ -581,11 +581,11 @@ Syntax:
 		{ GREN..INDENT..AL["Koristrasza"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Aarux", 1142) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Mordresh Fire Eye", 433) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Mushlump", 1143) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Mushlump", 1143).." ("..AL["Wanders"]..")" };
+		{ GREN..INDENT..AL["Koristrasza"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Death Speaker Blackthorn", 1146) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Amnennar the Coldbringer", 1141) };
-		{ GREN.." 1') "..AL["Belnistrasz"] };
-		{ GREN.." 2') "..Atlas_GetBossName("Henry Stern") };
+		{ WHIT..INDENT..Atlas_GetBossName("Amnennar the Coldbringer", 1141) };
+		{ GREN..INDENT..AL["Amnennar's Phylactery"] };
 	};
 	RazorfenKraul = {
 		ZoneName = { BZ["Razorfen Kraul"] };

@@ -46,6 +46,9 @@ local myData = {
 	TransAllianceDraenor = {
 		ZoneName = { BZ["Draenor"].." ("..FACTION_ALLIANCE..")" };
 	};
+	TransHordeDraenor = {
+		ZoneName = { BZ["Draenor"].." ("..FACTION_HORDE..")" };
+	};
 	TransAllianceEast = {
 		ZoneName = { BZ["Eastern Kingdoms"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..BZ["Docks"] };
@@ -73,6 +76,7 @@ local myData = {
 		{ PURP.." F') "..BZ["Paw'Don Village"]..", "..BZ["The Jade Forest"]..", "..BZ["Pandaria"] };
 		{ WHIT.."29) "..BZ["The Mystic Ward"]..", "..BZ["Ironforge"]..", "..BZ["Dun Morogh"] };
 		{ WHIT.."43) "..BZ["Mage Quarter"]..", "..BZ["Stormwind"]..", "..BZ["Elwynn Forest"] };
+		{ WHIT.."61) "..BZ["Shattered Beachhead"]..", "..BZ["Blasted Lands"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };
 		{ BLUE..BZ["Isle of Quel'Danas"] };
@@ -212,7 +216,7 @@ local myData = {
 		{ PURP.." A') "..BZ["Waygate"]..", "..BZ["Sholazar Basin"]..", "..BZ["Northrend"] };
 		{ PURP.." B') "..BZ["Molten Front"] };
 		{ PURP.." C') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." D') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." D') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ WHIT.." 2) "..BZ["Temple of the Moon"]..", "..BZ["Darnassus"]..", "..BZ["Teldrassil"] };
 		{ WHIT.." 3) "..BZ["Rut'theran Village"]..", "..BZ["Teldrassil"] };
 		{ WHIT.." 5) "..BZ["The Vault of Lights"]..", "..BZ["The Exodar"]..", "..BZ["Azuremyst Isle"] };
@@ -331,7 +335,6 @@ local myData = {
 		{ PURP.." C) "..BZ["Dragonmaw Port"]..", "..BZ["Twilight Highlands"] };
 		{ PURP.." D) "..BZ["Fuselight-by-the-Sea"]..", "..BZ["Badlands"] };
 		{ PURP..INDENT.."("..AL["Transporters by the sea and on the cliff"]..")" };
-		{ PURP.." E) "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"] };
 		{ PURP.." A') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." B') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
 		{ WHIT.." 3) "..BZ["Sunfury Spire"]..", "..BZ["Silvermoon City"]..", "..BZ["Eversong Woods"] };
@@ -421,22 +424,23 @@ local myData = {
 		{ BLUE..BZ["Blasted Lands"] };
 		{ WHIT.."51) "..BZ["Dreadmaul Hold"] };
 		{ WHIT.."52) "..BZ["Sunveil Excursion"] };
+		{ WHIT.."53) "..BZ["Shattered Landing"] };
 		{ "" };
 		{ BLUE..BZ["Northern Stranglethorn"] };
-		{ WHIT.."53) "..BZ["Bambala"] };
-		{ WHIT.."54) "..BZ["Grom'gol Base Camp"] };
+		{ WHIT.."54) "..BZ["Bambala"] };
+		{ WHIT.."55) "..BZ["Grom'gol Base Camp"] };
 		{ "" };
 		{ BLUE..BZ["The Cape of Stranglethorn"] };
-		{ WHIT.."55) "..BZ["Hardwrench Hideaway"] };
-		{ WHIT.."56) "..BZ["Booty Bay"] };
+		{ WHIT.."56) "..BZ["Hardwrench Hideaway"] };
+		{ WHIT.."57) "..BZ["Booty Bay"] };
 		{ "" };
 		{ BLUE..BZ["Vashj'ir"] };
-		{ CYAN.."57) "..BZ["Smuggler's Scar"].." ("..AL["Seahorse"]..")" };
-		{ CYAN.."58) "..BZ["Sandy Beach"].." ("..AL["Seahorse"].." / "..AL["Wind Rider"]..")" };
-		{ CYAN.."59) "..BZ["Silver Tide Hollow"].." ("..AL["Seahorse"]..")" };
-		{ CYAN.."60) "..BZ["Legion's Rest"].." ("..AL["Seahorse"]..")" };
-		{ CYAN.."61) "..BZ["Stygian Bounty"].." ("..AL["Seahorse"].." / "..AL["Wind Rider"]..")" };
-		{ CYAN.."62) "..BZ["Tenebrous Cavern"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."58) "..BZ["Smuggler's Scar"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."59) "..BZ["Sandy Beach"].." ("..AL["Seahorse"].." / "..AL["Wind Rider"]..")" };
+		{ CYAN.."60) "..BZ["Silver Tide Hollow"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."61) "..BZ["Legion's Rest"].." ("..AL["Seahorse"]..")" };
+		{ CYAN.."62) "..BZ["Stygian Bounty"].." ("..AL["Seahorse"].." / "..AL["Wind Rider"]..")" };
+		{ CYAN.."63) "..BZ["Tenebrous Cavern"].." ("..AL["Seahorse"]..")" };
 		{ "" };
 		{ _RED..AL["Legend"] };
 		{ PURP.."-- : "..AL["Portal / Waygate Path to the destination"] };
@@ -463,9 +467,10 @@ local myData = {
 		{ PURP.." D') "..BZ["Hellscream's Grasp"]..", "..BZ["Tol Barad Peninsula"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." E') "..BZ["Vashj'ir"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." F') "..BZ["Dragonmaw Port"]..", "..BZ["Twilight Highlands"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." G') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." H') "..BZ["Darkmoon Island"] };
-		{ PURP.." I') "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"]..", "..BZ["Pandaria"] };
+		{ PURP.." G') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
+		{ PURP.." H') "..BZ["Honeydew Village"]..", "..BZ["The Jade Forest"]..", "..BZ["Pandaria"] };
+		{ PURP.." I') "..BZ["Shattered Landing"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." J') "..BZ["Darkmoon Island"] };
 		{ WHIT.." 2) "..BZ["Spirit Rise"]..", "..BZ["Thunder Bluff"]..", "..BZ["Mulgore"] };
 		{ WHIT.." 5) "..BZ["Valley of Spirits"]..", "..BZ["Orgrimmar"]..", "..BZ["Durotar"] };
 		{ "" };
@@ -575,7 +580,7 @@ local myData = {
 		ZoneName = { BZ["Outland"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..AL["Portals"].." / "..AL["Transporter"] };
 		{ PURP.." A') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
-		{ PURP.." B') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." B') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." C') "..BZ["Sun's Reach Sanctum"]..", "..BZ["Isle of Quel'Danas"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." D') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ WHIT.." 1) "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"] };
@@ -623,7 +628,7 @@ local myData = {
 		ZoneName = { BZ["Outland"].." ("..FACTION_HORDE..")" };
 		{ _RED..AL["Portals"].." / "..AL["Transporter"] };
 		{ PURP.." A') "..BZ["Orgrimmar"]..", "..BZ["Durotar"]..", "..BZ["Kalimdor"] };
-		{ PURP.." B') "..BZ["The Dark Portal"]..", "..BZ["Blasted Lands"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." B') "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"]..", "..BZ["Outland"] };
 		{ PURP.." C') "..BZ["Sun's Reach Sanctum"]..", "..BZ["Isle of Quel'Danas"]..", "..BZ["Eastern Kingdoms"] };
 		{ PURP.." D') "..BZ["Caverns of Time"]..", "..BZ["Tanaris"]..", "..BZ["Kalimdor"] };
 		{ WHIT.." 1) "..BZ["The Stair of Destiny"]..", "..BZ["Hellfire Peninsula"] };

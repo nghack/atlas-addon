@@ -486,7 +486,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "Shrine of Gelihast";
+	AL["Je'neu Sancrea"] = "Je'neu Sancrea";
+	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
+	AL["Zeya"] = "Zeya";
+	AL["Altar of Blood"] = "Altar of Blood";
+	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
+	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Ambassador\" Dagg'thol";

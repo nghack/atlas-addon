@@ -529,7 +529,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
-	AL["Belnistrasz"] = "Belnistrasz";
+	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Stonespire";

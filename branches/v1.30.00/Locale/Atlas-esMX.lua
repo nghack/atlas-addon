@@ -27,12 +27,12 @@
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local AL = AceLocale:NewLocale("Atlas", "esMX", false);
 
--- Atlas Spanish (México) Localization
+-- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
 -- Última Actualización (last update): 16/09/2013
 
--- Atlas Spanish (Mexico) Localization
+-- Atlas Spanish Localization
 if ( GetLocale() == "esMX" ) then
 -- Define the leading strings to be ignored while sorting
 -- Ex: The Stockade
@@ -144,7 +144,7 @@ if AL then
 	AL["ATLAS_DDL_TYPE_INSTANCE_NS"] = "Mazmorras N-S";
 	AL["ATLAS_DDL_TYPE_INSTANCE_TZ"] = "Mazmorras T-Z";
 	AL["ATLAS_DDL_TYPE_ENTRANCE"] = "Entradas";
-
+	
 	AL["ATLAS_INSTANCE_BUTTON"] = "Mazmorra";
 	AL["ATLAS_ENTRANCE_BUTTON"] = "Entrada";
 	AL["ATLAS_SEARCH_UNAVAIL"] = "Buscar no disponible";

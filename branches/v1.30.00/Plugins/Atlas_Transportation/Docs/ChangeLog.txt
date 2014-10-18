@@ -10,10 +10,17 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.30.01 (Nov. XX, 2014)
 -----------------------
 - Added Draenor map (draft)
-- Blasted Lands maps updated
+- Eastern Kingdoms maps updated
     - Taxi nodes - Nethergarde Keep (Alliance) and Dreadmaul Hold (Horde) are gone
-    - Added portal path:
+    - Added portal path: 
         - Dreadmaul Hold to Orgrimmar
+	- Stormwind City to Shadowmoon Valley (Alliance)
+- Horde Kalimdor map updated:
+	- Orgrimmar to Frostfire Ridge (Horde)
+
+v1.30.01 (Oct. 18, 2014)
+-----------------------
+- Fix code syntax issue
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

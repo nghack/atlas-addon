@@ -48,6 +48,20 @@ local myData = {
 	};
 	TransHordeDraenor = {
 		ZoneName = { BZ["Draenor"].." ("..FACTION_HORDE..")" };
+		{ _RED..AL["Taxi Nodes"] };
+		{ BLUE..BZ["Frostfire Ridge"] };
+		{ WHIT.." 1) "..BZ["Frostwall Garrison"] };
+		{ WHIT.." 2) "..BZ["Wor'gol"] };
+		{ WHIT.." 3) "..BZ["Bladespire Fortress"] };
+		{ WHIT.." 4) "..BZ["Stonefang Outpost"] };
+		{ WHIT.." 5) "..BZ["Throm'Var"] };
+		{ WHIT.." 6) "..BZ["Darkspear's Edge"] };
+		{ WHIT.." 7) "..BZ["Bloodmaul Slag Mines"] };
+		{ WHIT.." 8) "..BZ["Wolf's Stand"] };
+		{ WHIT.." 9) "..BZ["Thunder Pass"] };
+		{ "" };
+		{ BLUE..BZ["Ashran"] };
+		{ WHIT.." ?) "..BZ["Warspear"] };
 	};
 	TransAllianceEast = {
 		ZoneName = { BZ["Eastern Kingdoms"].." ("..FACTION_ALLIANCE..")" };

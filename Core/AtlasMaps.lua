@@ -3082,7 +3082,7 @@ Syntax:
 	};
 
 --************************************************
--- Draenor Instances
+-- Warlords of Draenor Instances
 --************************************************
 	Auchindoun = {
 		ZoneName = { BZ["Auchindoun"] };

@@ -923,7 +923,7 @@ Syntax:
 		DungeonHeroicID = "473";
 		Acronym = AL["Halls"];
 		JournalInstanceID = "311";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..AL["Commander Lindon"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
@@ -941,7 +941,7 @@ Syntax:
 		DungeonHeroicID = "474";
 		Acronym = AL["SM"];
 		JournalInstanceID = "316";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Hooded Crusader"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
@@ -956,7 +956,7 @@ Syntax:
 		DungeonHeroicID = "472";
 		Acronym = AL["Scholo"];
 		JournalInstanceID = "246";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };
@@ -2761,7 +2761,7 @@ Syntax:
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Bowmistress Li <Guard Captain>"] };
 		{ BLUE.." B) "..AL["Exit"] };
@@ -2777,7 +2777,7 @@ Syntax:
 		DungeonHeroicID = "534";
 		Acronym = AL["HoF"];
 		JournalInstanceID = "330";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Imperial Vizier Zor'lok", 745) };
@@ -2795,7 +2795,7 @@ Syntax:
 		DungeonHeroicID = "519";
 		Acronym = AL["MP"];
 		JournalInstanceID = "321";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
@@ -2813,7 +2813,7 @@ Syntax:
 		DungeonHeroicID = "532";
 		Acronym = AL["MV"];
 		JournalInstanceID = "317";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard", 679) };
@@ -2840,7 +2840,7 @@ Syntax:
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
 		{ WHIT..INDENT..Atlas_GetBossName("Azure Serpent", 673, 2) };
@@ -2853,7 +2853,7 @@ Syntax:
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
@@ -2866,7 +2866,7 @@ Syntax:
 		DungeonID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
@@ -2878,7 +2878,7 @@ Syntax:
 		DungeonID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
@@ -2891,7 +2891,7 @@ Syntax:
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
@@ -2906,7 +2906,7 @@ Syntax:
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
 		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot", 849, 2) };
@@ -2920,7 +2920,7 @@ Syntax:
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." D-E) "..AL["Connection"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
@@ -2935,7 +2935,7 @@ Syntax:
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." E) "..AL["Connection"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
@@ -2963,7 +2963,7 @@ Syntax:
 		DungeonHeroicID = "469";
 		Acronym = AL["SB"];
 		JournalInstanceID = "302";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-E) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook", 668) };
@@ -2979,7 +2979,7 @@ Syntax:
 		DungeonHeroicID = "468";
 		Acronym = AL["TJS"];
 		JournalInstanceID = "313";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Wise Mari", 672) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lorewalker Stonestep", 664) };
@@ -2995,7 +2995,7 @@ Syntax:
 		DungeonHeroicID = "536";
 		Acronym = AL["TES"];
 		JournalInstanceID = "320";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 683) };
 		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani", 683, 3) };
@@ -3012,7 +3012,7 @@ Syntax:
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
@@ -3033,7 +3033,7 @@ Syntax:
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
@@ -3048,7 +3048,7 @@ Syntax:
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
@@ -3066,7 +3066,7 @@ Syntax:
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };

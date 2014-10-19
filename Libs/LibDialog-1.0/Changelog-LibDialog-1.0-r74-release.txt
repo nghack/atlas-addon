@@ -1,0 +1,8 @@
+2014-10-14  James D. Callahan III  <jcallahan@curse.com>
+
+[a041cb1c17ec] [r74-release]
+* LibDialog-1.0.toc:
+
+Updated ToC Interface to 60000.
+
+

@@ -9,7 +9,7 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.30.01 (Nov. XX, 2014)
 -----------------------
-- Added Draenor map (draft)
+- Added Draenor maps
 - Eastern Kingdoms maps updated
     - Taxi nodes - Nethergarde Keep (Alliance) and Dreadmaul Hold (Horde) are gone
     - Added portal path: 

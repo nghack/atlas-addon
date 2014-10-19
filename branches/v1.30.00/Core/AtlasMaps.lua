@@ -923,7 +923,7 @@ Syntax:
 		DungeonHeroicID = "473";
 		Acronym = AL["Halls"];
 		JournalInstanceID = "311";
-		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = "Atlas_MistsofPandaria"; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..AL["Commander Lindon"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
@@ -941,7 +941,7 @@ Syntax:
 		DungeonHeroicID = "474";
 		Acronym = AL["SM"];
 		JournalInstanceID = "316";
-		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = "Atlas_MistsofPandaria"; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN.." 1') "..AL["Hooded Crusader"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
@@ -956,7 +956,7 @@ Syntax:
 		DungeonHeroicID = "472";
 		Acronym = AL["Scholo"];
 		JournalInstanceID = "246";
-		Module = {"Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
+		Module = "Atlas_MistsofPandaria"; -- comment out because this has been updated in MoP
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };

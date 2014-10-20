@@ -62,12 +62,13 @@ local myData = {
 		{ WHIT.."12) "..BZ["The Abyssal Maw"]..", ".._RED..BZ["Abyssal Depths"] };
 		{ WHIT.."13) "..BZ["Uldaman"]..", ".._RED..BZ["Badlands"] };
 		{ WHIT.."14) "..BZ["Blackrock Mountain"]..", ".._RED..BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		{ WHIT..INDENT..BZ["Blackrock Depths"] };
-		{ WHIT..INDENT..BZ["Blackrock Spire"] };
-		{ WHIT..INDENT..BZ["The Molten Core"]..", ".._RED..BZ["Blackrock Depths"] };
-		{ WHIT..INDENT..BZ["Blackwing Lair"]..", ".._RED..BZ["Blackrock Spire"] };
 		{ WHIT..INDENT..BZ["Blackrock Caverns"] };
+		{ WHIT..INDENT..BZ["Blackrock Depths"] };
 		{ WHIT..INDENT..BZ["Blackwing Descent"] };
+		{ WHIT..INDENT..BZ["Blackwing Lair"]..", ".._RED..BZ["Upper Blackrock Spire"] };
+		{ WHIT..INDENT..BZ["Lower Blackrock Spire"] };
+		{ WHIT..INDENT..BZ["The Molten Core"]..", ".._RED..BZ["Blackrock Depths"] };
+		{ WHIT..INDENT..BZ["Upper Blackrock Spire"] };
 		{ WHIT.."15) "..BZ["The Stockade"]..", ".._RED..BZ["Stormwind City"] };
 		{ WHIT.."16) "..BZ["Sunken Temple"]..", ".._RED..BZ["Swamp of Sorrows"] };
 		{ WHIT.."17) "..BZ["The Deadmines"]..", ".._RED..BZ["Westfall"] };
@@ -197,6 +198,18 @@ local myData = {
 		{ "" };
 		{ WHIT..AL["White"]..": "..ORNG..AL["Instances"] };
 		{ GREN..AL["Green"]..": "..ORNG..AL["Battlegrounds"] };
+	};
+	DLDraenor = {
+		ZoneName = { BZ["Draenor"] };
+		{ WHIT.." 1) "..BZ["Iron Docks"]..", ".._RED..BZ["Gorgrond"] };
+		{ WHIT.." 2) "..BZ["Blackrock Foundry"]..", ".._RED..BZ["Gorgrond"] };
+		{ WHIT.." 3) "..BZ["Grimrail Depot"]..", ".._RED..BZ["Gorgrond"] };
+		{ WHIT.." 4) "..BZ["The Everbloom"]..", ".._RED..BZ["Gorgrond"] };
+		{ WHIT.." 5) "..BZ["Bloodmaul Slag Mines"]..", ".._RED..BZ["Frostfire Ridge"] };
+		{ WHIT.." 6) "..BZ["Highmaul"]..", ".._RED..BZ["Nagrand"] };
+		{ WHIT.." 7) "..BZ["Auchindoun"]..", ".._RED..BZ["Talador"] };
+		{ WHIT.." 8) "..BZ["Shadowmoon Burial Grounds"]..", ".._RED..BZ["Shadowmoon Valley"] };
+		{ WHIT.." 9) "..BZ["Skyreach"]..", ".._RED..BZ["Spires of Arak"] };
 	};
 };
 

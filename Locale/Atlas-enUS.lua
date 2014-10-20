@@ -256,7 +256,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
-	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
+	AL["AQ10"] = "AQ10"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	AL["BRD"] = "BRD"; -- Blackrock Depths
@@ -270,12 +270,10 @@ if AL then
 	AL["RFC"] = "RFC"; -- Ragefire Chasm
 	AL["RFD"] = "RFD"; -- Razorfen Downs
 	AL["RFK"] = "RFK"; -- Razorfen Kraul
-	AL["SFK"] = "SFK"; -- Shadowfang Keep
 	AL["ST"] = "ST"; -- Sunken Temple
 	AL["Strat"] = "Strat"; -- Stratholme
 	AL["Stocks"] = "Stocks"; -- The Stockade
 	AL["Ulda"] = "Ulda"; -- Uldaman
-	AL["VC"] = "VC"; -- The Deadmines
 	AL["WC"] = "WC"; -- Wailing Caverns
 	AL["ZF"] = "ZF"; -- Zul'Farrak
 
@@ -355,9 +353,11 @@ if AL then
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	AL["SFK"] = "SFK"; -- Shadowfang Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
+	AL["VC"] = "VC"; -- The Deadmines
 	AL["VP"] = "VP"; --The Vortex Pinnacle
 	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
@@ -495,7 +495,7 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Je'neu Sancrea"] = "Je'neu Sancrea";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <The Earthen Ring>";
 	AL["Sentinel Aluwyn"] = "Sentinel Aluwyn";
 	AL["Zeya"] = "Zeya";
 	AL["Altar of Blood"] = "Altar of Blood";
@@ -635,35 +635,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.A.F.E.>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Commander Lindon"] = "Commander Lindon";
-	AL["Hooded Crusader"] = "Hooded Crusader";
-	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
-	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
-	AL["Professor Slate"] = "Professor Slate";
-	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
-	AL["Talking Skull"] = "Talking Skull";
-	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
-	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
-	AL["The Dark Grimoire"] = "The Dark Grimoire";
-
-	--Shadowfang Keep
-	AL["Apothecary Trio"] = "Apothecary Trio";
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothecary Hummel <Crown Chemical Co.>";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothecary Baxter <Crown Chemical Co.>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apothecary Frye <Crown Chemical Co.>";
-	AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang";
-	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
-	AL["Haunted Stable Hand"] = "Haunted Stable Hand";
-	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>";
@@ -1099,6 +1070,16 @@ if AL then
 	AL["Captain Hadan"] = "Captain Hadan";
 	AL["Tol'vir Grave"] = "Tol'vir Grave";
 
+	--Shadowfang Keep
+	AL["Apothecary Trio"] = "Apothecary Trio";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothecary Hummel <Crown Chemical Co.>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothecary Baxter <Crown Chemical Co.>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apothecary Frye <Crown Chemical Co.>";
+	AL["Packleader Ivar Bloodfang"] = "Packleader Ivar Bloodfang";
+	AL["Deathstalker Commander Belmont"] = "Deathstalker Commander Belmont";
+	AL["Haunted Stable Hand"] = "Haunted Stable Hand";
+	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks";
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1185,6 +1166,25 @@ if AL then
 	AL["Sinan the Dreamer"] = "Sinan the Dreamer";
 
 	--Mogu'shan Vaults
+
+	--Scarlet Halls
+	AL["Commander Lindon"] = "Commander Lindon";
+	AL["Hooded Crusader"] = "Hooded Crusader";
+	AL["Bucket of Meaty Dog Food"] = "Bucket of Meaty Dog Food";
+	AL["Reinforced Archery Target"] = "Reinforced Archery Target";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Instructor Chillheart's Phylactery";
+	AL["Professor Slate"] = "Professor Slate";
+	AL["Polyformic Acid Potion"] = "Polyformic Acid Potion";
+	AL["Talking Skull"] = "Talking Skull";
+	AL["In the Shadow of the Light"] = "In the Shadow of the Light";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Kel'Thuzad's Deep Knowledge";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Forbidden Rites and other Rituals Necromantic";
+	AL["Coffer of Forgotten Souls"] = "Coffer of Forgotten Souls";
+	AL["The Dark Grimoire"] = "The Dark Grimoire";
 
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "Ban Bearheart";

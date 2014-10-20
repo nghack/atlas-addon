@@ -3071,7 +3071,7 @@ Syntax:
 		Location = { BZ["Talador"] };
 		DungeonID = "820";
 		DungeonHeroicID = "845";
-		Acronym = ["Auch"]; -- taken from BC
+		Acronym = AL["Auch"]; -- taken from BC
 		JournalInstanceID = "547";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3085,7 +3085,7 @@ Syntax:
 		Location = { BZ["Gorgrond"] };
 		DungeonID = "898";
 		DungeonHeroicID = "900";
-		Acronym = ["BRF"];
+		Acronym = AL["BRF"];
 		JournalInstanceID = "457";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3105,7 +3105,7 @@ Syntax:
 		Location = { BZ["Frostfire Ridge"] };
 		DungeonID = "787";
 		DungeonHeroicID = "859";
-		Acronym = ["BSM"];
+		Acronym = AL["BSM"];
 		JournalInstanceID = "385";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3120,7 +3120,7 @@ Syntax:
 		Location = { BZ["Gorgrond"] };
 		DungeonID = "824";
 		DungeonHeroicID = "866";
-		Acronym = ["EB"];
+		Acronym = AL["EB"];
 		JournalInstanceID = "556";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3135,7 +3135,7 @@ Syntax:
 		Location = { BZ["Gorgrond"] };
 		DungeonID = "822";
 		DungeonHeroicID = "858";
-		Acronym = ["GD"];
+		Acronym = AL["GD"];
 		JournalInstanceID = "536";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3148,7 +3148,7 @@ Syntax:
 		Location = { BZ["Nagrand"] };
 		DungeonID = "895";
 		DungeonHeroicID = "897";
-		Acronym = ["HM"];
+		Acronym = AL["HM"];
 		JournalInstanceID = "477";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3165,7 +3165,7 @@ Syntax:
 		Location = { BZ["Gorgrond"] };
 		DungeonID = "821";
 		DungeonHeroicID = "857";
-		Acronym = ["ID"];
+		Acronym = AL["ID"];
 		JournalInstanceID = "558";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3179,7 +3179,7 @@ Syntax:
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "783";
 		DungeonHeroicID = "784";
-		Acronym = ["SBG"];
+		Acronym = AL["SBG"];
 		JournalInstanceID = "537";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -3193,7 +3193,7 @@ Syntax:
 		Location = { BZ["Spires of Arak"] };
 		DungeonID = "779";
 		DungeonHeroicID = "780";
-		Acronym = ["SR"];
+		Acronym = AL["SR"];
 		JournalInstanceID = "476";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };

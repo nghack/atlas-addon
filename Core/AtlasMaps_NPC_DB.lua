@@ -151,23 +151,6 @@ Syntax:
 		{ 17, 386, 340, 50 }; -- Magmus
 		{ 18, 387, 429, 49 }; -- Emperor Dagran Thaurissan
 	};
-	BlackrockSpireLower = {
-		{ 1, 388, 111, 143 }; -- Highlord Omokk
-		{ 2, 389, 297, 321 }; -- Shadow Hunter Vosh'gajin
-		{ 3, 390, 368, 354 }; -- War Master Voone
-		{ 4, 391, 444, 472 }; -- Mother Smolderweb
-		{ 5, 392, 251, 366 }; -- Urok Doomhowl
-		{ 6, 393, 196, 392 }; -- Quartermaster Zigris
-		{ 7, 394, 43, 387 }; -- Halycon
-		{ 8, 396, 202, 223 }; -- Overlord Wyrmthalak
-	};
-	BlackrockSpireUpper = {
-		{ 1, 397, 392, 97 }; -- Pyroguard Emberseer
-		{ 2, 398, 372, 200 }; -- Solakar Flamewreath
-		{ 4, 399, 270, 245 }; -- Warchief Rend Blackhand
-		{ 5, 400, 425, 359 }; -- The Beast
-		{ 6, 401, 118, 417 }; -- General Drakkisath
-	};
 	BlackwingLair = {
 		-- N/A
 	};
@@ -177,6 +160,16 @@ Syntax:
 		{ 3, 421, 260, 109 }; -- Electrocutioner 6000
 		{ 4, 418, 110, 483 }; -- Crowd Pummeler 9-60
 		{ 5, 422, 291, 229 }; -- Mekgineer Thermaplugg
+	};
+	LowerBlackrockSpire = {
+		{ 1, 388, 111, 143 }; -- Highlord Omokk
+		{ 2, 389, 297, 321 }; -- Shadow Hunter Vosh'gajin
+		{ 3, 390, 368, 354 }; -- War Master Voone
+		{ 4, 391, 444, 472 }; -- Mother Smolderweb
+		{ 5, 392, 251, 366 }; -- Urok Doomhowl
+		{ 6, 393, 196, 392 }; -- Quartermaster Zigris
+		{ 7, 394, 43, 387 }; -- Halycon
+		{ 8, 396, 202, 223 }; -- Overlord Wyrmthalak
 	};
 	MoltenCore = {
 		-- N/A
@@ -503,6 +496,7 @@ Syntax:
 --************************************************
 -- Cataclysm Instances
 --************************************************
+
 	BaradinHold = {
 		{ 1, 139, 425, 320 }; -- Argaloth
 		{ 2, 140, 72, 319 }; -- Occu'thar
@@ -634,7 +628,6 @@ Syntax:
 -- Mists of Pandaria Instances
 --************************************************
 
-
 	GateoftheSettingSun = {
 		{ 1, 655, 235, 400 }; -- Saboteur Kip'tilak
 		{ 2, 675, 235, 169 }; -- Striker Ga'dok
@@ -755,4 +748,80 @@ Syntax:
 		{ 12, 832, 118, 339 }; -- Lei Shen
 		{ 13, 831, 370, 453 }; -- Ra-den
 	};
+
+--************************************************
+-- Warlords of Draenor Instances
+--************************************************
+--[[
+	Auchindoun = {
+		{ 1, 1185, x, x }; -- Vigilant Kaathar
+		{ 2, 1186, x, x }; -- Soulbinder Nyami
+		{ 3, 1216, x, x }; -- Azzakel
+		{ 4, 1225, x, x }; -- Teron'gor
+	};
+	BlackrockFoundry = {
+		{ 1, 1161, x, x }; -- Gruul
+		{ 2, 1202, x, x }; -- Oregorger
+		{ 3, 1122, x, x }; -- Beastlord Darmac
+		{ 4, 1123, x, x }; -- Flamebender Ka'graz
+		{ 5, 1155, x, x }; -- Hans'gar and Franzok
+		{ 6, 1147, x, x }; -- Operator Thogar
+		{ 7, 1154, x, x }; -- The Blast Furnace
+		{ 8, 1162, x, x }; -- Kromog
+		{ 9, 1203, x, x }; -- The Iron Maidens
+		{ 10, 959, x, x }; -- Blackhand
+	};
+	BloodmaulSlagMines = {
+		{ 1, 893, x, x }; -- Magmolatus
+		{ 2, 888, x, x }; -- Slave Watcher Crushto
+		{ 3, 887, x, x }; -- Roltall
+		{ 4, 889, x, x }; -- Gug'rokk
+	};
+	TheEverbloom = {
+		{ 1, 1214, x, x }; -- Witherbark
+		{ 2, 1207, x, x }; -- Ancient Protectors
+		{ 3, 1208, x, x }; -- Archmage Sol
+		{ 4, 1209, x, x }; -- Xeri'tac
+		{ 5, 1210, x, x }; -- Yalnu
+	};
+	GrimrailDepot = {
+		{ 1, 1138, x, x }; -- Rocketspark and Borka
+		{ 2, 1163, x, x }; -- Nitrogg Thundertower
+		{ 3, 1133, x, x }; -- Skylord Tovra
+	};
+	Highmaul = {
+		{ 1, 1128, x, x }; -- Kargath Bladefist
+		{ 2, 971, x, x }; -- The Butcher
+		{ 3, 1195, x, x }; -- Tectus
+		{ 4, 1196, x, x }; -- Brackenspore
+		{ 5, 1148, x, x }; -- Twin Ogron
+		{ 6, 1153, x, x }; -- Ko'ragh
+		{ 7, 1197, x, x }; -- Imperator Mar'gok
+	};
+	IronDocks = {
+		{ 1, 1235, x, x }; -- Fleshrender Nok'gar
+		{ 2, 1236, x, x }; -- Grimrail Enforcers
+		{ 3, 1237, x, x }; -- Oshir
+		{ 4, 1238, x, x }; -- Skulloc
+	};
+	ShadowmoonBurialGrounds = {
+		{ 1, 1139, x, x }; -- Sadana Bloodfury
+		{ 2, 1168, x, x }; -- Nhallish
+		{ 3, 1140, x, x }; -- Bonemaw
+		{ 4, 1160, x, x }; -- Ner'zhul
+	};
+	Skyreach = {
+		{ 1, 965, x, x }; -- Ranjit
+		{ 2, 966, x, x }; -- Araknath
+		{ 3, 967, x, x }; -- Rukhran
+		{ 4, 968, x, x }; -- High Sage Viryx
+	};
+	UpperBlackrockSpire = {
+		{ 1, 1226, 392, 97 }; -- Orebender Gor'ashan
+		{ 2, 1227, 372, 200 }; -- Kyrak
+		{ 3, 1228, 270, 245 }; -- Commander Tharbek
+		{ 4, 1229, 425, 359 }; -- Ragewing the Untamed
+		{ 5, 1234, 118, 417 }; -- Warlord Zaela
+	};
+--]]
 };

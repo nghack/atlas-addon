@@ -119,8 +119,7 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Instances Level 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Instances Level 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Instances Level 85-90";
-	AL["ATLAS_DDL_LEVEL_90TO95"] = "Instances Level 90-95";
-	AL["ATLAS_DDL_LEVEL_95TO100"] = "Instances Level 95-100";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "Instances Level 90-100";
 	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Instances Level 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Party Size";	-- Sort Instance Maps by: Party Size
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Instances for 5 Players A-E";
@@ -265,20 +264,16 @@ if AL then
 	AL["BWL"] = "BWL"; -- Blackwing Lair
 	AL["DM"] = "DM"; -- Dire Maul
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
-	AL["Halls"] = "Halls"; -- Scarlet Halls
 	AL["LBRS"] = "LBRS"; -- Lower Blackrock Spire
 	AL["Mara"] = "Mara"; -- Maraudon
 	AL["MC"] = "MC"; -- Molten Core
 	AL["RFC"] = "RFC"; -- Ragefire Chasm
 	AL["RFD"] = "RFD"; -- Razorfen Downs
 	AL["RFK"] = "RFK"; -- Razorfen Kraul
-	AL["Scholo"] = "Scholo"; -- Scholomance
 	AL["SFK"] = "SFK"; -- Shadowfang Keep
-	AL["SM"] = "SM"; -- Scarlet Monastery
 	AL["ST"] = "ST"; -- Sunken Temple
 	AL["Strat"] = "Strat"; -- Stratholme
 	AL["Stocks"] = "Stocks"; -- The Stockade
-	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
 	AL["Ulda"] = "Ulda"; -- Uldaman
 	AL["VC"] = "VC"; -- The Deadmines
 	AL["WC"] = "WC"; -- Wailing Caverns
@@ -369,9 +364,12 @@ if AL then
 
 	--MoP Acronyms
 	AL["GSS"] = "GSS"; --Gate of the Setting Sun
+	AL["Halls"] = "Halls"; -- Scarlet Halls
 	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
+	AL["SM"] = "SM"; -- Scarlet Monastery
+	AL["Scholo"] = "Scholo"; -- Scholomance
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
@@ -379,6 +377,17 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--WoD Acronyms
+	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+	AL["EB"] = "EB"; -- The Everbloom
+	AL["GD"] = "GD"; -- Grimrail Depot
+	AL["HM"] = "HM"; -- Highmaul
+	AL["ID"] = "ID"; -- Iron Docks
+	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
 
 	--Map sections
 	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
@@ -609,11 +618,6 @@ if AL then
 	AL["Acride <Scarshield Legion>"] = "Acride <Scarshield Legion>";
 	AL["Elder Stonefort"] = "Elder Stonefort";
 	AL["Roughshod Pike"] = "Roughshod Pike";
-
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "Finkle Einhorn";
-	AL["Drakkisath's Brand"] = "Drakkisath's Brand";
-	AL["Father Flame"] = "Father Flame";
 
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Orb of Domination";
@@ -1209,5 +1213,29 @@ if AL then
 	AL["Archritualist Kelada"] = "Archritualist Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok the Diseased <Primordial Saurok Horror>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <The Emperor's Shield>";
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

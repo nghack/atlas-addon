@@ -122,8 +122,7 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Mazmorras de nivel 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Mazmorras de nivel 85-90";
 	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Mazmorras de nivel 90+";
-	AL["ATLAS_DDL_LEVEL_90TO95"] = "Mazmorras de nivel 90-95";
-	AL["ATLAS_DDL_LEVEL_95TO100"] = "Mazmorras de nivel 95-100";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "Mazmorras de nivel 90-100";
 	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Mazmorras de nivel 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Tamaño del grupo";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Mazmorras para 5 jugadores A-E";

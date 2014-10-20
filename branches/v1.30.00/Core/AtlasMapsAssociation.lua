@@ -45,8 +45,6 @@ local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 ]]
 Atlas_AssocDefaults = {
 	[BZ["Blackrock Mountain"]] =		"BlackrockMountainEnt";
-	[BZ["Blackrock Spire"]] =		"BlackrockSpireLower";
-	[BZ["Hall of Blackhand"]] =		"BlackrockSpireLower";
 	[BZ["Black Temple"]] =			"BlackTempleBasement";
 	[BZ["Dire Maul"]] =			"DireMaulNorth";
 	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
@@ -76,29 +74,6 @@ Atlas_AssocDefaults = {
 	},
 ]]
 Atlas_SubZoneData = {
-	-- Hall of Blackhand
-	[BZ["Hall of Blackhand"]] = {
-		-- Blackrock Spire, Lower
-		["BlackrockSpireLower"] = {
-			BZ["Hordemar City"],
-			BZ["Mok'Doom"],
-			BZ["Tazz'Alaor"],
-			BZ["Skitterweb Tunnels"],
-			BZ["Halycon's Lair"],
-			BZ["The Storehouse"],
-			BZ["Chamber of Battle"],
-		},
-		-- Blackrock Spire, Upper   
-		["BlackrockSpireUpper"] = {
-			BZ["Dragonspire Hall"],
-			BZ["Hall of Binding"],
-			BZ["The Rookery"],
-			BZ["Hall of Blackhand"],
-			BZ["Blackrock Stadium"],
-			BZ["The Furnace"],
-			BZ["Spire Throne"],
-		},
-	},
 	-- Black Temple
 	[BZ["Black Temple"]] = {
 		-- Black Temple, Start
@@ -486,7 +461,7 @@ Atlas_OutdoorZoneToAtlas = {
 Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore","BlackrockCaverns","BlackwingDescent"};
+	["BlackrockMountainEnt"] =		{"BlackrockCaverns","BlackrockDepths","BlackwingDescent","BlackwingLair","LowerBlackrockSpire","MoltenCore","UpperBlackrockSpire"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
 	["CavernsOfTimeEnt"] =			{"CoTBlackMorass","CoTDragonSoulA","CoTDragonSoulB","CoTDragonSoulC","CoTEndTime","CoTHyjal","CoTHyjalEnt","CoTHourOfTwilight","CoTOldHillsbrad","CoTOldStratholme","CoTWellOfEternity"};
 	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
@@ -511,13 +486,13 @@ Atlas_InstToEntMatches = {
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
 	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
 	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
-	["BlackrockSpireLower"] =		{"BlackrockMountainEnt"};
-	["BlackrockSpireUpper"] =		{"BlackrockMountainEnt"};
-	["BlackwingLair"] =			{"BlackrockMountainEnt"};
-	["BlackrockDepths"] =			{"BlackrockMountainEnt"};
-	["MoltenCore"] =			{"BlackrockMountainEnt"};
 	["BlackrockCaverns"] =			{"BlackrockMountainEnt"};
+	["BlackrockDepths"] =			{"BlackrockMountainEnt"};
 	["BlackwingDescent"] =			{"BlackrockMountainEnt"};
+	["BlackwingLair"] =			{"BlackrockMountainEnt"};
+	["LowerBlackrockSpire"] =		{"BlackrockMountainEnt"};
+	["MoltenCore"] =			{"BlackrockMountainEnt"};
+	["UpperBlackrockSpire"] =		{"BlackrockMountainEnt"};
 	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
@@ -591,9 +566,6 @@ Atlas_MapSeries = {
 
 -- Links maps together that are part of the same instance
 Atlas_SubZoneAssoc = {
-	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
-	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
-	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
 	["BlackTempleStart"] =			BZ["Black Temple"];
 	["BlackTempleBasement"] =		BZ["Black Temple"];
 	["BlackTempleTop"] =			BZ["Black Temple"];

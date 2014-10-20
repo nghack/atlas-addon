@@ -48,9 +48,8 @@ Atlas_DropDownLayouts_Order = {
 		[4] = ATLAS_DDL_LEVEL_70TO80;
 		[5] = ATLAS_DDL_LEVEL_80TO85;
 		[6] = ATLAS_DDL_LEVEL_85TO90;
-		[7] = ATLAS_DDL_LEVEL_90TO95;
-		[8] = ATLAS_DDL_LEVEL_95TO100;
-		[9] = ATLAS_DDL_LEVEL_100PLUS;
+		[7] = ATLAS_DDL_LEVEL_90TO100;
+		[8] = ATLAS_DDL_LEVEL_100PLUS;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
 		[1] = ATLAS_DDL_PARTYSIZE_5_AE;
@@ -87,8 +86,6 @@ Atlas_DropDownLayouts = {
 			"BlackrockCaverns",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
 			"BlackwingDescent",
 			"BlackwingLair",
 			"Gnomeregan",
@@ -97,8 +94,10 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnd",
 			"KarazhanEnt",
 			"KarazhanStart",
+			"LowerBlackrockSpire",
 			"MagistersTerrace",
 			"MoltenCore",
+			"UpperBlackrockSpire",
 		},
 		[ATLAS_DDL_CONTINENT_EASTERN2] = {
 			"Scholomance",
@@ -247,6 +246,7 @@ Atlas_DropDownLayouts = {
 			"BloodmaulSlagMines",
 			"TheEverbloom",
 			"GrimrailDepot",
+			"Highmaul",
 			"IronDocks",
 			"ShadowmoonBurialGrounds",
 			"Skyreach",
@@ -277,11 +277,11 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_LEVEL_45TO60] = {
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
-			"BlackrockSpireLower",
 			"DireMaulEast",
 			"DireMaulEnt",
 			"DireMaulNorth",
 			"DireMaulWest",
+			"LowerBlackrockSpire",
 			"Maraudon",
 			"MaraudonEnt",
 			"StratholmeCrusader",
@@ -381,7 +381,6 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_LEVEL_85TO90] = {
 			"BaradinHold",
 			"BlackrockMountainEnt",
-			"BlackrockSpireUpper",
 			"BlackwingDescent",
 			"CavernsOfTimeEnt",
 			"CoTDragonSoulA",
@@ -405,7 +404,8 @@ Atlas_DropDownLayouts = {
 			"ZulAman",
 			"ZulGurub",
 		},
-		[ATLAS_DDL_LEVEL_90TO95] = {
+		[ATLAS_DDL_LEVEL_90TO100] = {
+			"Auchindoun",
 			"BloodmaulSlagMines",
 			"HeartofFear",
 			"IronDocks",
@@ -420,16 +420,12 @@ Atlas_DropDownLayouts = {
 			"SiegeofOrgrimmarB",
 			"SiegeofOrgrimmarC",
 			"SiegeofOrgrimmarD",
+			"Skyreach",
 			"TerraceofEndlessSpring",
 			"ThroneofThunderA",
 			"ThroneofThunderB",
 			"ThroneofThunderC",
 			"ThroneofThunderD",
-		},
-		[ATLAS_DDL_LEVEL_95TO100] = {
-			"Auchindoun",
-			"Skyreach",
-
 		},
 		[ATLAS_DDL_LEVEL_100PLUS] = {
 			"BlackrockFoundry",
@@ -437,6 +433,7 @@ Atlas_DropDownLayouts = {
 			"GrimrailDepot",
 			"Highmaul",
 			"ShadowmoonBurialGrounds",
+			"UpperBlackrockSpire",
 		},
 		
 	},
@@ -455,8 +452,6 @@ Atlas_DropDownLayouts = {
 			"BlackrockCaverns",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
 			"BloodmaulSlagMines",
 			"CFRTheSlavePens",
 			"CFRTheSteamvault",
@@ -495,6 +490,7 @@ Atlas_DropDownLayouts = {
 			"IcecrownEnt",
 			"IronDocks",
 			"LostCityOfTolvir",
+			"LowerBlackrockSpire",
 			"MagistersTerrace",
 			"Maraudon",
 			"MaraudonEnt",
@@ -538,6 +534,7 @@ Atlas_DropDownLayouts = {
 			"UlduarEnt",
 			"UlduarHallsofStone",
 			"UlduarHallsofLightning",
+			"UpperBlackrockSpire",
 			"UtgardeKeep",
 			"UtgardePinnacle",
 			"VioletHold",
@@ -660,8 +657,6 @@ Atlas_DropDownLayouts = {
 			"BlackfathomDeepsEnt",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
 			"BlackwingLair",
 			"DireMaulEast",
 			"DireMaulEnt",
@@ -669,6 +664,7 @@ Atlas_DropDownLayouts = {
 			"DireMaulWest",
 			"Gnomeregan",
 			"GnomereganEnt",
+			"LowerBlackrockSpire",
 			"Maraudon",
 			"MaraudonEnt",
 			"MoltenCore",
@@ -823,6 +819,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_EXPANSION_WOD] = {
 			"Auchindoun",
 			"BlackrockFoundry",
+			"BlackrockMountainEnt",
 			"BloodmaulSlagMines",
 			"TheEverbloom",
 			"GrimrailDepot",
@@ -830,7 +827,7 @@ Atlas_DropDownLayouts = {
 			"IronDocks",
 			"ShadowmoonBurialGrounds",
 			"Skyreach",
-			"BlackrockSpireUpper",
+			"UpperBlackrockSpire",
 		},
 	},
 	[ATLAS_DDL_TYPE] = {
@@ -847,8 +844,6 @@ Atlas_DropDownLayouts = {
 			"BlackrockFoundry",
 			"BlackrockCaverns",
 			"BlackrockDepths",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
 			"BlackTempleBasement",
 			"BlackTempleStart",
 			"BlackTempleTop",
@@ -910,6 +905,7 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnd",
 			"KarazhanStart",
 			"LostCityOfTolvir",
+			"LowerBlackrockSpire",
 			"MagistersTerrace",
 			"Maraudon",
 			"MoguShanPalace",
@@ -970,6 +966,7 @@ Atlas_DropDownLayouts = {
 			"UlduarC",
 			"UlduarD",
 			"UlduarE",
+			"UpperBlackrockSpire",
 			"UtgardeKeep",
 			"UtgardePinnacle",
 			"VaultOfArchavon",

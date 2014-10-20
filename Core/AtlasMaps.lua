@@ -423,7 +423,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ ORNG.." 1) "..Atlas_GetBossName("Trigore the Lasher").." ("..AL["Rare"]..")" };
-		--{ ORNG..INDENT..Atlas_GetBossName("Boahn").." ("..AL["Rare"]..")" }; Commented out until seen after 4.0
+		{ ORNG..INDENT..Atlas_GetBossName("Boahn").." ("..AL["Rare"]..")" };
 	};
 
 --************************************************
@@ -2827,6 +2827,7 @@ Syntax:
 		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korloff", 671) };
 		{ WHIT.." 3) "..Atlas_GetBossName("High Inquisitor Whitemane", 674) };
 		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand", 674, 2) };
+		{ ORNG.." 1) "..Atlas_GetBossName("Headless Horseman").." ("..AL["Hallow's End"]..")" };
 	};
 	Scholomance = {
 		ZoneName = { BZ["Scholomance"] };

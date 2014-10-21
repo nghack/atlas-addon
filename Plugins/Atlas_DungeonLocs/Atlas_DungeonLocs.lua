@@ -204,8 +204,8 @@ local myData = {
 		{ WHIT.." 1) "..BZ["Iron Docks"]..", ".._RED..BZ["Gorgrond"] };
 		{ WHIT.." 2) "..BZ["Blackrock Foundry"]..", ".._RED..BZ["Gorgrond"] };
 		{ WHIT.." 3) "..BZ["Grimrail Depot"]..", ".._RED..BZ["Gorgrond"] };
-		{ WHIT.." 4) "..BZ["The Everbloom"]..", ".._RED..BZ["Gorgrond"] };
-		{ WHIT.." 5) "..BZ["Bloodmaul Slag Mines"]..", ".._RED..BZ["Frostfire Ridge"] };
+		{ WHIT.." 4) "..BZ["Bloodmaul Slag Mines"]..", ".._RED..BZ["Frostfire Ridge"] };
+		{ WHIT.." 5) "..BZ["The Everbloom"]..", ".._RED..BZ["Gorgrond"] };
 		{ WHIT.." 6) "..BZ["Highmaul"]..", ".._RED..BZ["Nagrand"] };
 		{ WHIT.." 7) "..BZ["Auchindoun"]..", ".._RED..BZ["Talador"] };
 		{ WHIT.." 8) "..BZ["Shadowmoon Burial Grounds"]..", ".._RED..BZ["Shadowmoon Valley"] };

@@ -45,6 +45,8 @@ local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 ]]
 Atlas_AssocDefaults = {
 	[BZ["Blackrock Mountain"]] =		"BlackrockMountainEnt";
+	[BZ["Blackrock Spire"]] =		"LowerBlackrockSpire";
+	[BZ["Hall of Blackhand"]] =		"LowerBlackrockSpire";
 	[BZ["Black Temple"]] =			"BlackTempleBasement";
 	[BZ["Dire Maul"]] =			"DireMaulNorth";
 	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
@@ -74,6 +76,30 @@ Atlas_AssocDefaults = {
 	},
 ]]
 Atlas_SubZoneData = {
+	-- Blackrock Spire
+	[BZ["Hall of Blackhand"]] = {
+		-- Lower Blackrock Spire
+		["LowerBlackrockSpire"] = {
+			BZ["Hordemar City"],
+			BZ["Mok'Doom"],
+			BZ["Tazz'Alor"],
+			BZ["Skitterweb Tunnels"],
+			BZ["The Storehouse"],
+			BZ["Halycon's Lair"],
+			BZ["Chamber of Battle"],
+		},
+		-- Upper Blackrock Spire
+		["UpperBlackrockSpire"] = {
+			BZ["Dragonspire Hall"],
+			BZ["Hall of Binding"],
+			BZ["The Rookery"],
+			BZ["Hall of Blackhand"],
+			BZ["Blackrock Stadium"],
+			BZ["The Furnace"],
+			BZ["Spire Throne"],
+			BZ["The Molten Span"],
+		},
+	},
 	-- Black Temple
 	[BZ["Black Temple"]] = {
 		-- Black Temple, Start

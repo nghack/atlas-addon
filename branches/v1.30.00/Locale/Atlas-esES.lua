@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 16/10/2014
+-- Última Actualización (last update): 23/10/2014
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -114,6 +114,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Mazmorras de Rasganorte";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Mazmorras de Infralar";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Mazmorras de Pandaria";
+	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Mazmorras de Draenor";
 	AL["ATLAS_DDL_LEVEL"] = "Nivel";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Mazmorras de nivel inferior a 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Mazmorras de nivel 45-60";
@@ -121,7 +122,6 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Mazmorras de nivel 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Mazmorras de nivel 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Mazmorras de nivel 85-90";
-	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Mazmorras de nivel 90+";
 	AL["ATLAS_DDL_LEVEL_90TO100"] = "Mazmorras de nivel 90-100";
 	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Mazmorras de nivel 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Tamaño del grupo";
@@ -259,7 +259,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
-	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
+	AL["AQ10"] = "AQ10"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
 	AL["BFD"] = "CB"; -- Blackfathom Deeps, Cavernas de Brazanegra
 	AL["BRD"] = "PRN"; -- Blackrock Depths, Profundidades de Roca Negra
@@ -267,23 +267,17 @@ if AL then
 	AL["BWL"] = "GAN"; -- Blackwing Lair, Guarida Alanegra
 	AL["DM"] = "LM"; -- Dire Maul, La Masacre	
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
-	AL["Halls"] = "Salones"; -- Scarlet Halls
-	AL["LBRS"] = "CRNI"; -- Lower Blackrock Spire
+	AL["LBRS"] = "LBRS"; -- Lower Blackrock Spire
 	AL["Mara"] = "Mara"; -- Maraudon
 	AL["MC"] = "MC";-- Molten Core, Núcleo de Magma
 	AL["RFC"] = "SI"; -- Ragefire Chasm, Sima Ignea
 	AL["RFD"] = "ZR"; --Razorfen Downs, Zahúrda Rajacieno
 	AL["RFK"] = "HR"; -- Razorfen Kraul, Horado Rajacieno
-	AL["Scholo"] = "Scholo"; -- Scholomance
-	AL["SFK"] = "CCO"; -- Shadowfang Keep, Castillo de Colmillo Oscuro"
-	AL["SM"] = "ME"; -- Scarlet Monastery, Monasterio Escarlata
-	AL["ST"] = "TA"; -- Sunken Temple, Templo de Atal'Hakkar
+	AL["ST"] = "ST"; -- Sunken Temple
 	AL["Strat"] = "Strat"; -- Stratholme
 	AL["Stocks"] = "Mazmorras"; -- The Stockade, Las Mazmorras
-	AL["UBRS"] = "CRNS"; -- Upper Blackrock Spire, Cumbre de Roca Negra
 	AL["Ulda"] = "Ulda"; -- Uldaman
-	AL["VC"] = "LMM"; --The Deadmines, Las Minas de la Muerte
-	AL["WC"] = "CL"; -- Wailing Caverns, Las Cuevas de los Lamentos
+	AL["WC"] = "WC"; -- Wailing Caverns
 	AL["ZF"] = "ZF"; -- Zul'Farrak
 
 	--BC Acronyms
@@ -362,18 +356,23 @@ if AL then
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	AL["SFK"] = "SFK"; -- Shadowfang Keep
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
+	AL["VC"] = "VC"; -- The Deadmines
 	AL["VP"] = "VP"; --The Vortex Pinnacle
 	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
 
 	--MoP Acronyms
 	AL["GSS"] = "GSS"; --Gate of the Setting Sun
+	AL["Halls"] = "Salas"; -- Scarlet Halls
 	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
+	AL["SM"] = "SM"; -- Scarlet Monastery
+	AL["Scholo"] = "Scholo"; -- Scholomance
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
@@ -381,6 +380,17 @@ if AL then
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--WoD Acronyms
+	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+	AL["EB"] = "EB"; -- The Everbloom
+	AL["GD"] = "GD"; -- Grimrail Depot
+	AL["HM"] = "HM"; -- Highmaul
+	AL["ID"] = "ID"; -- Iron Docks
+	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
 
 	--Map sections
 	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
@@ -488,7 +498,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "Santuario de Gelihast";
+	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <El Anillo de la Tierra>";
+	AL["Sentinel Aluwyn"] = "Centinela Aluwyn";
+	AL["Zeya"] = "Zeya";
+	AL["Altar of Blood"] = "Altar de sangre";
+	AL["Fire of Aku'mai"] = "Fuego de Aku'mai"; --check
+	AL["Spoils of Blackfathom"] = "Botín de las Cavernas de Brazanegra"; --check
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Embajador\" Dagg'thol";
@@ -522,11 +537,11 @@ if AL then
 	--Ragefire Chasm
 	AL["Commander Bagran"] = "Comandante Bagran";
 	AL["Invoker Xorenth"] = "Convocador Xorenth";
-	AL["Scout Cage"] = "Scout Cage"; --Check
+	AL["Scout Cage"] = "Caja del explorador"; --Check
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
-	AL["Belnistrasz"] = "Belnistrasz";
+	AL["Amnennar's Phylactery"] = "Filacteria de Ammennar";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Picopiedra";
@@ -555,7 +570,7 @@ if AL then
 	AL["Ebru <Disciple of Naralex>"] = "Ebru <Discípula de Naralex>"; -- 5768
 	AL["Nalpak <Disciple of Naralex>"] = "Nalpak <Discípulo de Naralex>"; -- 5767
 	AL["Muyoh <Disciple of Naralex>"] = "Muyoh <Discípulo de Naralex>";  -- 3678
-	AL["Naralex"] = "Naralex";
+	AL["Naralex"] = "Naralex"; -- 3679
 
 	--Zul'Farrak
 	AL["Chief Engineer Bilgewhizzle <Gadgetzan Water Co.>"] = "Ingeniero jefe Pasaquillas <Compañía de aguas de Gadgetzan>";
@@ -607,11 +622,6 @@ if AL then
 	AL["Elder Stonefort"] = "Ancestro Petraforte";
 	AL["Roughshod Pike"] = "Pica férrea";
 
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "Finkle Unicornín";
-	AL["Drakkisath's Brand"] = "El orbe de orden";
-	AL["Father Flame"] = "Padre llama";
-
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Orbe de dominación";
 	AL["Master Elemental Shaper Krixix"] = "Maestro de los elementos Formacio Krixix";
@@ -628,35 +638,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <S.E.G.U.R.O.>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Commander Lindon"] = "Comandante Lindon";
-	AL["Hooded Crusader"] = "Cruzada encapuchada";
-	AL["Bucket of Meaty Dog Food"] = "Cubo de comida para perros carnosa";
-	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Filacteria de la instructora Corazón Álgido";
-	AL["Professor Slate"] = "Profesor Slate"; 
-	AL["Polyformic Acid Potion"] = "La ciencia del ácido polifórmico";
-	AL["Talking Skull"] = "Calavera parlante";
-	AL["In the Shadow of the Light"] = "A la sombra de la Luz";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Saber profundo de Kel'Thuzad";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Ritos prohibidos y otros rituales nigrománticos";
-	AL["Coffer of Forgotten Souls"] = "Arca de las almas olvidadas";
-	AL["The Dark Grimoire"] = "El grimorio oscuro";
-
-	--Shadowfang Keep
-	AL["Apothecary Trio"] = "Trío de boticarios ";
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <Químicos La Corona, S.L.> ";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Boticario Baxter <Químicos La Corona, S.L.>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <Químicos La Corona, S.L.>";
-	AL["Packleader Ivar Bloodfang"] = "Maestro de manada Ivar Colmillo de Sangre";
-	AL["Deathstalker Commander Belmont"] = "Comandante Mortacechador Belmont";
-	AL["Haunted Stable Hand"] = "Mozo de cuadra encantado";
-	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Comandante de Cruzada Eligor Albar <Hermandad de la Luz>";
@@ -967,9 +948,9 @@ if AL then
 	AL["Sindragosa's Lair"] = "Guarida de Sindragosa";
 	AL["Stinky"] = "Apestoso";
 	AL["Precious"] = "Precioso";
-	AL["Rimefang"] = "Dientefrío";
-	AL["Spinestalker"] = "Acechaespinas";
-	AL["Sister Svalna"] = "Hermana Svalna";
+	AL["Rimefang"] = "Dientefrío";	-- NPC: 37533
+	AL["Spinestalker"] = "Acechaespinas";	-- NPC: 37534
+	AL["Sister Svalna"] = "Hermana Svalna";	-- NPC: 37126
 
 	--Naxxramas
 	AL["Mr. Bigglesworth"] = "Sr. Biguelvalor";
@@ -1092,6 +1073,16 @@ if AL then
 	AL["Captain Hadan"] = "Capitán Hadan";
 	AL["Tol'vir Grave"] = "Tumba de tol'vir";
 
+	--Shadowfang Keep
+	AL["Apothecary Trio"] = "Trío de boticarios ";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Boticario Hummel <Químicos La Corona, S.L.> ";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Boticario Baxter <Químicos La Corona, S.L.>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "Boticario Frye <Químicos La Corona, S.L.>";
+	AL["Packleader Ivar Bloodfang"] = "Maestro de manada Ivar Colmillo de Sangre";
+	AL["Deathstalker Commander Belmont"] = "Comandante Mortacechador Belmont";
+	AL["Haunted Stable Hand"] = "Mozo de cuadra encantado";
+	AL["Investigator Fezzen Brasstacks"] = "Investigator Fezzen Brasstacks"; --FALTA		
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1179,6 +1170,25 @@ if AL then
 
 	--Mogu'shan Vaults
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "Comandante Lindon";
+	AL["Hooded Crusader"] = "Cruzada encapuchada";
+	AL["Bucket of Meaty Dog Food"] = "Cubo de comida para perros carnosa";
+	AL["Reinforced Archery Target"] = "Objetivo de tiro con arco reforzado";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Filacteria de la instructora Corazón Álgido";
+	AL["Professor Slate"] = "Profesor Slate"; 
+	AL["Polyformic Acid Potion"] = "La ciencia del ácido polifórmico";
+	AL["Talking Skull"] = "Calavera parlante";
+	AL["In the Shadow of the Light"] = "A la sombra de la Luz";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Saber profundo de Kel'Thuzad";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Ritos prohibidos y otros rituales nigrománticos";
+	AL["Coffer of Forgotten Souls"] = "Arca de las almas olvidadas";
+	AL["The Dark Grimoire"] = "El grimorio oscuro";
+
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "Ban Corazón Fiero";
 
@@ -1206,5 +1216,29 @@ if AL then
 	AL["Archritualist Kelada"] = "Archiritualista Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Flesh'rok el Enfermo <Horror saurok primordial>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao'cho <El escudo del Emperador>"; --check
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

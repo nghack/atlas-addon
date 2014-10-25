@@ -95,7 +95,7 @@ if AL then
 	AL["ATLAS_OPTIONS_CHECKMODULE"] = "Remind me for missing module(s) / plug-in(s).";
 	AL["ATLAS_OPTIONS_CHECKMODULE_TIP"] = "Enable to perform checking if any missing Atlas module / plug-in after WoW loaded.";
 	AL["ATLAS_OPTIONS_COLORINGDROPDOWN"] = "Show dungeon dropdown in colors";
-	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Based on the dungeon's recommended minimul level and player's level, to show the dungeon with difficulty colors. ";
+	AL["ATLAS_OPTIONS_COLORINGDROPDOWN_TIP"] = "Based on the dungeon's recommended minimul level and player's level, to show the dungeon with difficulty colors.";
 
 	AL["ATLAS_BUTTON_CLOSE"] = "Close";
 	AL["ATLAS_BUTTON_TOOLTIP_TITLE"] = "Atlas";
@@ -1227,6 +1227,7 @@ if AL then
 	--The Everbloom
 
 	--Grimrail Depot
+	AL["Train Ride"] = "Train Ride";
 
 	--Highmaul
 

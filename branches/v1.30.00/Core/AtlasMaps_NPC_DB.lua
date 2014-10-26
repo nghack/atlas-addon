@@ -789,9 +789,9 @@ Syntax:
 		{ 4, 889, 371, 115 }; -- Gug'rokk
 	};
 	Draenor = {
-		{ 1, 1291, 251, 125 }; -- Drov the Ruiner
-		{ 2, 1211, 265, 219 }; -- Tarlna the Ageless
-		--{ 3, 1262, 230, 433 }; -- Rukhmar
+		{ 1, 1291, 261, 116 }; -- Drov the Ruiner
+		{ 2, 1211, 275, 210 }; -- Tarlna the Ageless
+		{ 3, 1262, 257, 421 }; -- Rukhmar
 	};
 	TheEverbloomA = {
 		{ 1, 1214, 201, 303 }; -- Witherbark
@@ -800,7 +800,7 @@ Syntax:
 		{ 4, 1209, 260, 52 }; -- Xeri'tac
 	};
 	TheEverbloomB = {
-		{ 5, 1210, 234, 421 }; -- Yalnu
+		{ 5, 1210, 225, 356 }; -- Yalnu
 	};
 	GrimrailDepot = {
 		{ 1, 1138, 413, 207 }; -- Rocketspark and Borka
@@ -840,7 +840,7 @@ Syntax:
 		{ 1, 1226, 193, 87 }; -- Orebender Gor'ashan
 		{ 2, 1227, 251, 144 }; -- Kyrak
 		{ 3, 1228, 361, 233 }; -- Commander Tharbek
-		{ 4, 1229, 346, 336 }; -- Ragewing the Untamed
+		{ 4, 1229, 340, 331 }; -- Ragewing the Untamed
 		{ 5, 1234, 110, 342 }; -- Warlord Zaela
 	};
 };

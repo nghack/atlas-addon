@@ -83,15 +83,24 @@ Atlas_SubZoneData = {
 	[BZ["Blackrock Foundry"]] = {
 		-- Blackrock Foundry A
 		["BlackrockFoundryA"] = {
-
+			BZ["The Workshop"],
+			BZ["Slagworks"],
+			BZ["Gruul's Lair"],
+			BZ["Blackrock Depository"],
+			BZ["Iron Assembly"],
+			BZ["The Breaking Grounds"],
+			BZ["Foundry Terminus"],
+			BZ["The Blast Furnace"],
+			BZ["The Crucible"],
+			BZ["The Iron Crucible"], --check
 		},
 		-- Blackrock Foundry B
 		["BlackrockFoundryB"] = {
-
-		},
-		-- Blackrock Foundry C
-		["BlackrockFoundryC"] = {
-
+			BZ["The Black Forge"],
+			BZ["Burning Font"],
+			BZ["Slagmill Press"],
+			BZ["The Great Anvil"],
+			BZ["Dread Grotto"],
 		},
 	},
 	-- Blackrock Spire
@@ -197,11 +206,21 @@ Atlas_SubZoneData = {
 	[BZ["Highmaul"]] = {
 		-- Highmaul A
 		["HighmaulA"] = {
+			BZ["Gladiator's Rest"],
+			BZ["The Coliseum"],
+			BZ["Path of Victors"],
+			BZ["The Underbelly"],
+			BZ["The Imperator's Favor"],
+			BZ["Market District"],
+			BZ["Gorian Strand"],
 
 		},
 		-- Highmaul B
 		["HighmaulB"] = {
-
+			BZ["The Gorthenon"],
+			BZ["Chamber of Nullification"],
+			BZ["Imperator's Rise"],
+			BZ["Throne of the Imperator"],
 		},
 	},
 	-- Icecrown Citadell
@@ -348,11 +367,14 @@ Atlas_SubZoneData = {
 	[BZ["The Everbloom"]] = {
 		-- The Everbloom A
 		["TheEverbloomA"] = {
-
+			BZ["Pools of Life"],
+			BZ["Verdant Grove"],
+			BZ["Xeri'tac's Burrow"],
+			BZ["The Violet Bluff"],
 		},
 		-- The Everbloom B
 		["TheEverbloomB"] = {
-
+			BZ["Stormwind"],
 		},
 	},
 	-- The Stockade
@@ -618,9 +640,8 @@ Atlas_InstToEntMatches = {
 -- Defines the instance which have multiple maps
 -- Added only when the Entrance map is not available, for example, Ulduar do have entrance map, so no need to add it here
 Atlas_MapSeries = {
-	["BlackrockFoundryA"] = 		{"BlackrockFoundryA", "BlackrockFoundryB", "BlackrockFoundryC" };
-	["BlackrockFoundryB"] = 		{"BlackrockFoundryA", "BlackrockFoundryB", "BlackrockFoundryC" };
-	["BlackrockFoundryC"] = 		{"BlackrockFoundryA", "BlackrockFoundryB", "BlackrockFoundryC" };
+	["BlackrockFoundryA"] = 		{"BlackrockFoundryA", "BlackrockFoundryB" };
+	["BlackrockFoundryB"] = 		{"BlackrockFoundryA", "BlackrockFoundryB" };
 	["BlackTempleStart"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
 	["BlackTempleBasement"] = 		{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
 	["BlackTempleTop"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
@@ -646,7 +667,6 @@ Atlas_MapSeries = {
 Atlas_SubZoneAssoc = {
 	["BlackrockFoundryA"] =			BZ["Blackrock Foundry"];
 	["BlackrockFoundryB"] =			BZ["Blackrock Foundry"];
-	["BlackrockFoundryC"] =			BZ["Blackrock Foundry"];
 	["BlackTempleStart"] =			BZ["Black Temple"];
 	["BlackTempleBasement"] =		BZ["Black Temple"];
 	["BlackTempleTop"] =			BZ["Black Temple"];

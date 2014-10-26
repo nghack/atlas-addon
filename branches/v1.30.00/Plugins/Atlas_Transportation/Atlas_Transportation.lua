@@ -107,7 +107,7 @@ local myData = {
 		{ WHIT.."43) "..BZ["Bloodmaul Slag Mines"] };
 		{ "" };
 		{ BLUE..BZ["Ashran"] };
-		{ WHIT.."43) "..BZ["Stormshield"] };
+		{ WHIT.."44) "..BZ["Stormshield"] };
 	};
 	TransHordeDraenor = {
 		ZoneName = { BZ["Draenor"].." ("..FACTION_HORDE..")" };

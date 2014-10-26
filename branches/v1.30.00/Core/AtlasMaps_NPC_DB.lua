@@ -789,7 +789,7 @@ Syntax:
 		{ 4, 889, 371, 115 }; -- Gug'rokk
 	};
 	Draenor = {
-		{ 1, 1291, 261, 116 }; -- Drov the Ruiner
+		{ 1, 1291, 264, 125 }; -- Drov the Ruiner
 		{ 2, 1211, 275, 210 }; -- Tarlna the Ageless
 		{ 3, 1262, 257, 421 }; -- Rukhmar
 	};

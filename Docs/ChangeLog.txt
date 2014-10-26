@@ -9,7 +9,18 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.30.01 (Nov. XX, 2014)
 -----------------------
-- WoD Development...
+- Maps added:
+    - Auchindoun
+    - Blackrock Foundry (Raid)
+    - Bloodmaul Slag Mines
+    - The Everbloom
+    - Grimrail Depot
+    - Highmaul (Raid)
+    - Iron Docks
+    - Shadowmoon Burial Grounds
+    - Skyreach
+- Maps updated:
+    - Upper Blackrock Spire
 - Update libraries: LibBabble-SubZone-3.0, LibDialog-1.0
 - Split Mists of Pandaria maps to independent module
 

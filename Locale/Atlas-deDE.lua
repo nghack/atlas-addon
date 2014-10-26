@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Localize file must set above to false
 
 -- Deutsche Lokalisierung (German, deDE)
--- Letztes Update: 20.10.2014
+-- Letztes Update: 26.10.2014
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -384,15 +384,15 @@ if AL then
 	AL["ToT"] = "TdD"; --Throne of Thunder
 
 	--WoD Acronyms
-	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BRF"] = "SFG"; -- Blackrock Foundry
 	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
-	AL["EB"] = "EB"; -- The Everbloom
+	AL["EB"] = "IF"; -- The Everbloom
 	AL["GD"] = "GD"; -- Grimrail Depot
-	AL["HM"] = "HM"; -- Highmaul
-	AL["ID"] = "ID"; -- Iron Docks
-	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
-	AL["SR"] = "SR"; -- Skyreach
-	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
+	AL["HM"] = "HF"; -- Highmaul
+	AL["ID"] = "ED"; -- Iron Docks
+	AL["SBG"] = "SGS"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "HN"; -- Skyreach
+	AL["UBRS"] = "OBRS"; -- Upper Blackrock Spire
 
 	--Map sections
 	AL["MapA"] = " [A]";
@@ -501,7 +501,11 @@ if AL then
 
 	--Blackfathom Deeps
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <Der Irdene Ring>";
+	AL["Sentinel Aluwyn"] = "Schildwache Aluwyn";
 	AL["Zeya"] = "Zeya";
+	AL["Altar of Blood"] = "Altar des Blutes";
+	AL["Fire of Aku'mai"] = "Feuer von Aku'mai";
+	AL["Spoils of Blackfathom"] = "Schätze der Tiefschwarzen Grotte";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Botschafter\" Dagg'thol";
@@ -539,6 +543,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
+	AL["Amnennar's Phylactery"] = "Amnennars Phylakterium";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Auld Steinkeil";
@@ -1227,6 +1232,7 @@ if AL then
 	--The Everbloom
 
 	--Grimrail Depot
+	AL["Train Ride"] = "Zugfahrt";
 
 	--Highmaul
 

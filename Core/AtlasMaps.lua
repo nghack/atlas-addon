@@ -858,7 +858,7 @@ Syntax:
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Blackrock Mountain"] };
-		{ BLUE.." C) "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
+		{ BLUE.." C) "..BZ["Upper Blackrock Spire"] };
 		{ BLUE.." D-G) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Highlord Omokk", 388) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Shadow Hunter Vosh'gajin", 389) };
@@ -3142,16 +3142,16 @@ Syntax:
 		JournalInstanceID = "457";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger the Devourer", 1202, 1) };
+		{ BLUE.." B-C) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161).." ("..AL["Upper"]..")" };
+		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger the Devourer", 1202, 1).." ("..AL["Upper"]..")" };
 		{ WHIT.." 3) "..Atlas_GetBossName("Beastlord Darmac", 1122) };
 		{ WHIT..INDENT..Atlas_GetBossName("Cruelfang", 1122, 2) };
 		{ WHIT..INDENT..Atlas_GetBossName("Dreadwing", 1122, 3) };
 		{ WHIT..INDENT..Atlas_GetBossName("Faultline", 1122, 5) };
 		{ WHIT..INDENT..Atlas_GetBossName("Ironcrusher", 1122, 4) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Operator Thogar", 1147) };
-		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154) };
+		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154).." ("..AL["Lower"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Bellows Operator", 1154, 4) };
 		{ WHIT..INDENT..Atlas_GetBossName("Firecaller", 1154, 6) };
 		{ WHIT..INDENT..Atlas_GetBossName("Foreman Feldspar", 1154, 1) };
@@ -3160,7 +3160,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Primal Elementalist", 1154, 5) };
 		{ WHIT..INDENT..Atlas_GetBossName("Security Guard", 1154, 2) };
 		{ WHIT..INDENT..Atlas_GetBossName("Slag Elemental", 1154, 7) };
-		{ WHIT.." 10) "..Atlas_GetBossName("Blackhand", 959) };
+		{ WHIT.." 10) "..Atlas_GetBossName("Blackhand", 959).." ("..AL["Upper"]..")" };
 	};
 	BlackrockFoundryB = {
 		ZoneName = { BZ["Blackrock Foundry"]..AL["MapB"] };
@@ -3171,55 +3171,13 @@ Syntax:
 		PlayerLimit = "10-30";
 		JournalInstanceID = "457";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
-		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger the Devourer", 1202, 1) };
+		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Flamebender Ka'graz", 1123) };
 		{ WHIT..INDENT..Atlas_GetBossName("Aknor Steelbringer", 1123, 2) };
 		{ WHIT..INDENT..Atlas_GetBossName("Cinder Wolf", 1123, 3) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Hans'gar and Franzok", 1155) };
 		{ WHIT..INDENT..Atlas_GetBossName("Franzok", 1155, 1) };
 		{ WHIT..INDENT..Atlas_GetBossName("Hans'gar", 1155, 2) };
-		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154) };
-		{ WHIT..INDENT..Atlas_GetBossName("Bellows Operator", 1154, 4) };
-		{ WHIT..INDENT..Atlas_GetBossName("Firecaller", 1154, 6) };
-		{ WHIT..INDENT..Atlas_GetBossName("Foreman Feldspar", 1154, 1) };
-		{ WHIT..INDENT..Atlas_GetBossName("Furnace Engineer", 1154, 3) };
-		{ WHIT..INDENT..Atlas_GetBossName("Heart of the Mountain", 1154, 8) };
-		{ WHIT..INDENT..Atlas_GetBossName("Primal Elementalist", 1154, 5) };
-		{ WHIT..INDENT..Atlas_GetBossName("Security Guard", 1154, 2) };
-		{ WHIT..INDENT..Atlas_GetBossName("Slag Elemental", 1154, 7) };
-		{ WHIT.." 8) "..Atlas_GetBossName("Kromog", 1162) };
-		{ WHIT.." 9) "..Atlas_GetBossName("The Iron Maidens", 1203) };
-		{ WHIT..INDENT..Atlas_GetBossName("Admiral Gar'an", 1203, 1) };
-		{ WHIT..INDENT..Atlas_GetBossName("Enforcer Sorka", 1203, 2) };
-		{ WHIT..INDENT..Atlas_GetBossName("Marak the Blooded", 1203, 3) };
-	};
-	BlackrockFoundryC = {
-		ZoneName = { BZ["Blackrock Foundry"]..AL["MapC"] };
-		Location = { BZ["Gorgrond"] };
-		DungeonID = "898";
-		DungeonHeroicID = "900";
-		Acronym = AL["BRF"];
-		PlayerLimit = "10-30";
-		JournalInstanceID = "457";
-		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
-		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger the Devourer", 1202, 1) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Flamebender Ka'graz", 1123) };
-		{ WHIT..INDENT..Atlas_GetBossName("Aknor Steelbringer", 1123, 2) };
-		{ WHIT..INDENT..Atlas_GetBossName("Cinder Wolf", 1123, 3) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Hans'gar and Franzok", 1155) };
-		{ WHIT..INDENT..Atlas_GetBossName("Franzok", 1155, 1) };
-		{ WHIT..INDENT..Atlas_GetBossName("Hans'gar", 1155, 2) };
-		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154) };
-		{ WHIT..INDENT..Atlas_GetBossName("Bellows Operator", 1154, 4) };
-		{ WHIT..INDENT..Atlas_GetBossName("Firecaller", 1154, 6) };
-		{ WHIT..INDENT..Atlas_GetBossName("Foreman Feldspar", 1154, 1) };
-		{ WHIT..INDENT..Atlas_GetBossName("Furnace Engineer", 1154, 3) };
-		{ WHIT..INDENT..Atlas_GetBossName("Heart of the Mountain", 1154, 8) };
-		{ WHIT..INDENT..Atlas_GetBossName("Primal Elementalist", 1154, 5) };
-		{ WHIT..INDENT..Atlas_GetBossName("Security Guard", 1154, 2) };
-		{ WHIT..INDENT..Atlas_GetBossName("Slag Elemental", 1154, 7) };
 		{ WHIT.." 8) "..Atlas_GetBossName("Kromog", 1162) };
 		{ WHIT.." 9) "..Atlas_GetBossName("The Iron Maidens", 1203) };
 		{ WHIT..INDENT..Atlas_GetBossName("Admiral Gar'an", 1203, 1) };
@@ -3314,7 +3272,7 @@ Syntax:
 		PlayerLimit = "10-30";
 		JournalInstanceID = "477";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
-		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
+		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Twin Ogron", 1148) };
 		{ WHIT..INDENT..Atlas_GetBossName("Phemos", 1148, 2) };
 		{ WHIT..INDENT..Atlas_GetBossName("Pol", 1148, 1) };
@@ -3350,6 +3308,7 @@ Syntax:
 		JournalInstanceID = "537";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Sadana Bloodfury", 1139) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Nhallish", 1168) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Bonemaw", 1140) };
@@ -3371,7 +3330,7 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Sun Construct Prototype", 966, 2) };
 		{ WHIT.." 3) "..Atlas_GetBossName("Rukhran", 967) };
 		{ WHIT..INDENT..Atlas_GetBossName("Solar Flare", 967, 2) };
-		{ WHIT.." 4) "..Atlas_GetBossName("High Sage Viryx", 968) };
+		{ WHIT.." 4) "..Atlas_GetBossName("High Sage Viryx", 968).." ("..AL["Upper"]..")" };
 		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Shield Construct", 968, 3) };
 		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Solar Zealot", 968, 2) };
 	};
@@ -3384,9 +3343,7 @@ Syntax:
 		JournalInstanceID = "559";
 		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
 		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..BZ["Blackrock Mountain"] };
-		{ BLUE.." C) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
-		{ BLUE.." D-E) "..AL["Connection"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Orebender Gor'ashan", 1226) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Kyrak", 1227) };
 		{ WHIT..INDENT..Atlas_GetBossName("Drakonid Monstrosity", 1227, 2) };

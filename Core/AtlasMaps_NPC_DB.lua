@@ -40,16 +40,16 @@ Syntax:
 -- Kalimdor Instances (Classic)
 --************************************************
 
---[[	BlackfathomDeeps = {
-		{ 1, 368, x, x }; -- Ghamoo-ra
-		{ 2, 436, x, x }; -- Domina
-		{ 3, 426, x, x }; -- Subjugator Kor'ul
-		{ 4, 1145, x, x }; -- Thruk
-		{ 5, 447, x, x }; -- Guardian of the Deep
-		{ 6, 1144, x, x }; -- Executioner Gore
-		{ 7, 437, x, x }; -- Twilight Lord Bathiel
-		{ 8, 444, x, x }; -- Aku'mai
-	};--]]
+	BlackfathomDeeps = {
+		{ 1, 368, 185, 183 }; -- Ghamoo-ra
+		{ 2, 436, 71, 111 }; -- Domina
+		{ 3, 426, 300, 171 }; -- Subjugator Kor'ul
+		{ 4, 1145, 306, 366 }; -- Thruk
+		{ 5, 447, 412, 360 }; -- Guardian of the Deep
+		{ 6, 1144, 350, 375 }; -- Executioner Gore
+		{ 7, 437, 240, 449 }; -- Twilight Lord Bathiel
+		{ 8, 444, 453, 465 }; -- Aku'mai
+	};
 	DireMaulEast = {
 		{ 1, 404, 212, 109 }; -- Lethtendris
 		{ 2, 403, 352, 401 }; -- Hydrospawn
@@ -87,20 +87,20 @@ Syntax:
 		{ 3, 696, 182, 299 }; -- Slagmaw
 		{ 4, 697, 153, 444 }; -- Lava Guard Gordoth
 	};
---[[	RazorfenDowns = {
-		{ 1, 1142, x, x }; -- Aarux
-		{ 2, 433, x, x }; -- Mordresh Fire Eye
-		{ 3, 1143, x, x }; -- Mushlump
-		{ 4, 1146, x, x }; -- Death Speaker Blackthorn
-		{ 5, 1141, x, x }; -- Amnennar the Coldbringer
+	RazorfenDowns = {
+		{ 1, 1142, 260, 184 }; -- Aarux
+		{ 2, 433, 430, 241 }; -- Mordresh Fire Eye
+		{ 3, 1143, 93, 328 }; -- Mushlump
+		{ 4, 1146, 165, 290 }; -- Death Speaker Blackthorn
+		{ 5, 1141, 165, 306 }; -- Amnennar the Coldbringer
 	};
 	RazorfenKraul = {
-		{ 1, 896, x, x }; -- Hunter Bonetusk
-		{ 2, 895, x, x }; -- Roogug
-		{ 3, 899, x, x }; -- Warlord Ramtusk
-		{ 4, 900, x, x }; -- Groyat, the Blind Hunter
-		{ 5, 901, x, x }; -- Charlga Razorflank
-	};--]]
+		{ 1, 896, 432, 260 }; -- Hunter Bonetusk
+		{ 2, 895, 471, 213 }; -- Roogug
+		{ 3, 899, 301, 165 }; -- Warlord Ramtusk
+		{ 4, 900, 28, 249 }; -- Groyat, the Blind Hunter
+		{ 5, 901, 109, 165 }; -- Charlga Razorflank
+	};
 	TheRuinsofAhnQiraj = {
 		-- N/A
 	};
@@ -125,7 +125,6 @@ Syntax:
 		{ 2, 482, 160, 197 }; -- Hydromancer Velratha
 		{ 3, 485, 324, 150 }; -- Theka the Martyr
 	};
-
 
 --************************************************
 -- Eastern Kingdoms Instances (Classic)
@@ -492,7 +491,6 @@ Syntax:
 		{ 6, 632, 229, 227 }; -- Cyanigosa
 	};
 
-
 --************************************************
 -- Cataclysm Instances
 --************************************************
@@ -655,6 +653,17 @@ Syntax:
 		{ 5, 726, 46, 303 }; -- Elegon
 		{ 6, 677, 236, 382 }; -- Will of the Emperor
 	};
+	Pandaria = {
+		{ 1, 814, 58, 81 }; -- Nalak, The Storm Lord
+		{ 2, 826, 219, 70 }; -- Oondasta
+		{ 3, 691, 240, 211 }; -- Sha of Anger
+		{ 4, 725, 270, 324 }; -- Salyis's Warband
+		{ 5, 861, 463, 310 }; -- Ordos, Fire-God of the Yaungol
+		{ 6, 857, 450, 321 }; -- Chi-Ji, The Red Crane
+		{ 6, 859, 464, 321 }; -- Niuzao, The Black Ox
+		{ 6, 860, 450, 337 }; -- Xuen, The White Tiger
+		{ 6, 858, 464, 337 }; -- Yu'lon, The Jade Serpent
+	};
 	Scholomance = {
 		{ 1, 659, 140, 133 }; -- Instructor Chillheart
 		{ 2, 663, 394, 57 }; -- Jandice Barov
@@ -752,76 +761,86 @@ Syntax:
 --************************************************
 -- Warlords of Draenor Instances
 --************************************************
---[[
+
 	Auchindoun = {
-		{ 1, 1185, x, x }; -- Vigilant Kaathar
-		{ 2, 1186, x, x }; -- Soulbinder Nyami
-		{ 3, 1216, x, x }; -- Azzakel
-		{ 4, 1225, x, x }; -- Teron'gor
+		{ 1, 1185, 70, 153 }; -- Vigilant Kaathar
+		{ 2, 1186, 250, 348 }; -- Soulbinder Nyami
+		{ 3, 1216, 428, 152 }; -- Azzakel
+		{ 4, 1225, 250, 153 }; -- Teron'gor
 	};
-	BlackrockFoundry = {
-		{ 1, 1161, x, x }; -- Gruul
-		{ 2, 1202, x, x }; -- Oregorger
-		{ 3, 1122, x, x }; -- Beastlord Darmac
-		{ 4, 1123, x, x }; -- Flamebender Ka'graz
-		{ 5, 1155, x, x }; -- Hans'gar and Franzok
-		{ 6, 1147, x, x }; -- Operator Thogar
-		{ 7, 1154, x, x }; -- The Blast Furnace
-		{ 8, 1162, x, x }; -- Kromog
-		{ 9, 1203, x, x }; -- The Iron Maidens
-		{ 10, 959, x, x }; -- Blackhand
+	BlackrockFoundryA = {
+		{ 1, 1161, 349, 158 }; -- Gruul
+		{ 2, 1202, 341, 351 }; -- Oregorger
+		{ 3, 1122, 241, 269 }; -- Beastlord Darmac
+		{ 6, 1147, 153, 128 }; -- Operator Thogar
+		{ 7, 1154, 383, 262 }; -- The Blast Furnace
+		{ 10, 959, 44, 139 }; -- Blackhand
+	};
+	BlackrockFoundryB = {
+		{ 4, 1123, 32, 370 }; -- Flamebender Ka'graz
+		{ 5, 1155, 217, 369 }; -- Hans'gar and Franzok
+		{ 8, 1162, 127, 231 }; -- Kromog
+		{ 9, 1203, 437, 166 }; -- The Iron Maidens
 	};
 	BloodmaulSlagMines = {
-		{ 1, 893, x, x }; -- Magmolatus
-		{ 2, 888, x, x }; -- Slave Watcher Crushto
-		{ 3, 887, x, x }; -- Roltall
-		{ 4, 889, x, x }; -- Gug'rokk
+		{ 1, 893, 31, 307 }; -- Magmolatus
+		{ 2, 888, 321, 331 }; -- Slave Watcher Crushto
+		{ 3, 887, 232, 186 }; -- Roltall
+		{ 4, 889, 371, 115 }; -- Gug'rokk
 	};
-	TheEverbloom = {
-		{ 1, 1214, x, x }; -- Witherbark
-		{ 2, 1207, x, x }; -- Ancient Protectors
-		{ 3, 1208, x, x }; -- Archmage Sol
-		{ 4, 1209, x, x }; -- Xeri'tac
-		{ 5, 1210, x, x }; -- Yalnu
+	Draenor = {
+		{ 1, 1291, 251, 125 }; -- Drov the Ruiner
+		{ 2, 1211, 265, 219 }; -- Tarlna the Ageless
+		--{ 3, 1262, 230, 433 }; -- Rukhmar
+	};
+	TheEverbloomA = {
+		{ 1, 1214, 201, 303 }; -- Witherbark
+		{ 2, 1207, 316, 118 }; -- Ancient Protectors
+		{ 3, 1208, 232, 187 }; -- Archmage Sol
+		{ 4, 1209, 260, 52 }; -- Xeri'tac
+	};
+	TheEverbloomB = {
+		{ 5, 1210, 234, 421 }; -- Yalnu
 	};
 	GrimrailDepot = {
-		{ 1, 1138, x, x }; -- Rocketspark and Borka
-		{ 2, 1163, x, x }; -- Nitrogg Thundertower
-		{ 3, 1133, x, x }; -- Skylord Tovra
+		{ 1, 1138, 413, 207 }; -- Rocketspark and Borka
+		{ 2, 1163, 257, 417 }; -- Nitrogg Thundertower
+		{ 3, 1133, 159, 417 }; -- Skylord Tovra
 	};
-	Highmaul = {
-		{ 1, 1128, x, x }; -- Kargath Bladefist
-		{ 2, 971, x, x }; -- The Butcher
-		{ 3, 1195, x, x }; -- Tectus
-		{ 4, 1196, x, x }; -- Brackenspore
-		{ 5, 1148, x, x }; -- Twin Ogron
-		{ 6, 1153, x, x }; -- Ko'ragh
-		{ 7, 1197, x, x }; -- Imperator Mar'gok
+	HighmaulA = {
+		{ 1, 1128, 347, 430 }; -- Kargath Bladefist
+		{ 2, 971, 290, 272 }; -- The Butcher
+		{ 3, 1195, 133, 377 }; -- Tectus
+		{ 4, 1196, 238, 68 }; -- Brackenspore
+	};
+	HighmaulB = {
+		{ 5, 1148, 162, 86 }; -- Twin Ogron
+		{ 6, 1153, 94, 161 }; -- Ko'ragh
+		{ 7, 1197, 390, 375 }; -- Imperator Mar'gok
 	};
 	IronDocks = {
-		{ 1, 1235, x, x }; -- Fleshrender Nok'gar
-		{ 2, 1236, x, x }; -- Grimrail Enforcers
-		{ 3, 1237, x, x }; -- Oshir
-		{ 4, 1238, x, x }; -- Skulloc
+		{ 1, 1235, 231, 240 }; -- Fleshrender Nok'gar
+		{ 2, 1236, 410, 391 }; -- Grimrail Enforcers
+		{ 3, 1237, 410, 182 }; -- Oshir
+		{ 4, 1238, 351, 273 }; -- Skulloc
 	};
 	ShadowmoonBurialGrounds = {
-		{ 1, 1139, x, x }; -- Sadana Bloodfury
-		{ 2, 1168, x, x }; -- Nhallish
-		{ 3, 1140, x, x }; -- Bonemaw
-		{ 4, 1160, x, x }; -- Ner'zhul
+		{ 1, 1139, 116, 205 }; -- Sadana Bloodfury
+		{ 2, 1168, 187, 246 }; -- Nhallish
+		{ 3, 1140, 318, 190 }; -- Bonemaw
+		{ 4, 1160, 244, 370 }; -- Ner'zhul
 	};
 	Skyreach = {
-		{ 1, 965, x, x }; -- Ranjit
-		{ 2, 966, x, x }; -- Araknath
-		{ 3, 967, x, x }; -- Rukhran
-		{ 4, 968, x, x }; -- High Sage Viryx
+		{ 1, 965, 311, 164 }; -- Ranjit
+		{ 2, 966, 233, 276 }; -- Araknath
+		{ 3, 967, 177, 358 }; -- Rukhran
+		{ 4, 968, 275, 214 }; -- High Sage Viryx
 	};
 	UpperBlackrockSpire = {
-		{ 1, 1226, 392, 97 }; -- Orebender Gor'ashan
-		{ 2, 1227, 372, 200 }; -- Kyrak
-		{ 3, 1228, 270, 245 }; -- Commander Tharbek
-		{ 4, 1229, 425, 359 }; -- Ragewing the Untamed
-		{ 5, 1234, 118, 417 }; -- Warlord Zaela
+		{ 1, 1226, 193, 87 }; -- Orebender Gor'ashan
+		{ 2, 1227, 251, 144 }; -- Kyrak
+		{ 3, 1228, 361, 233 }; -- Commander Tharbek
+		{ 4, 1229, 346, 336 }; -- Ragewing the Untamed
+		{ 5, 1234, 110, 342 }; -- Warlord Zaela
 	};
---]]
 };

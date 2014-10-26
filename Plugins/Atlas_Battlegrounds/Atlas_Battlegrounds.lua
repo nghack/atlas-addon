@@ -397,6 +397,15 @@ local myData = {
 		{ GREN.."2) "..AL["Center Mine"] };
 		{ GREN.."3) "..BZ["Goblin Mine"] };
 	};
+	Ashran = {
+		ZoneName = { BZ["Ashran"] };
+		Location = { BZ["Draenor"] };
+		LevelRange = "100";
+		MinLevel = "100";
+		PlayerLimit = "100";
+		{ BLUE.."A) "..BZ["Warspear"].." - "..FACTION_HORDE };
+		{ BLUE.."B) "..BZ["Stormshield"].." - "..FACTION_ALLIANCE };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

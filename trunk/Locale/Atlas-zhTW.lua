@@ -107,6 +107,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "北裂境副本";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "地深之源副本";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "潘達利亞副本";
+	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "德拉諾副本";
 	AL["ATLAS_DDL_LEVEL"] = "依等級分類";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "副本等級低於 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "副本等級介於 45-60";
@@ -114,7 +115,8 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "副本等級介於 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "副本等級介於 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "副本等級介於 85-90";
-	AL["ATLAS_DDL_LEVEL_90PLUS"] = "副本等級大於 90";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "副本等級介於 90-100";
+	AL["ATLAS_DDL_LEVEL_100PLUS"] = "副本等級大於 100";
 	AL["ATLAS_DDL_PARTYSIZE"] = "依隊伍人數分類";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 1/3";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 2/3";
@@ -130,6 +132,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "巫妖王之怒副本";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "浩劫與重生副本";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "潘達利亞之謎副本";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "德拉諾之霸副本";
 	AL["ATLAS_DDL_TYPE"] = "依地圖類型分類";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "副本 1/5";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "副本 2/5";
@@ -249,7 +252,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj 安其拉
-	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj 安其拉廢墟
+	AL["AQ10"] = "AQ10"; -- Ruins of Ahn'Qiraj 安其拉廢墟
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj 安其拉神廟
 	AL["BFD"] = "BFD/黑淵"; -- Blackfathom Deeps 黑暗深淵
 	AL["BRD"] = "BRD/黑石淵"; -- Blackrock Depths 黑石深淵
@@ -257,22 +260,16 @@ if AL then
 	AL["BWL"] = "BWL/黑翼"; -- Blackwing Lair 黑翼之巢
 	AL["DM"] = "DM/厄運"; -- Dire Maul 厄運之槌
 	AL["Gnome"] = "Gnome/諾姆"; -- Gnomeregan 諾姆瑞根
-	AL["Halls"] = "Halls/大廳"; -- Scarlet Halls
 	AL["LBRS"] = "LBRS/黑下";  -- Lower Blackrock Spire 黑石塔下層
 	AL["Mara"] = "Mara/瑪拉"; -- Maraudon 瑪拉頓
 	AL["MC"] = "MC"; -- Molten Core 熔火之心
 	AL["RFC"] = "RFC/怒焰"; -- Ragefire Chasm 怒焰裂谷
 	AL["RFD"] = "RFD"; -- Razorfen Downs 剃刀高地
 	AL["RFK"] = "RFK"; -- Razorfen Kraul 剃刀沼澤
-	AL["Scholo"] = "Scholo/通靈"; -- Scholomance 通靈學院
-	AL["SFK"] = "SFK/影牙"; -- Shadowfang Keep 影牙城堡
-	AL["SM"] = "SM/血色"; -- Scarlet Monastery 血色修道院
 	AL["ST"] = "ST/神廟"; -- Sunken Temple 沉沒的神廟
 	AL["Strat"] = "Strat/斯坦"; -- Stratholme 斯坦索姆
 	AL["Stocks"] = "監獄"; -- The Stockade 監獄
-	AL["UBRS"] = "UBRS/黑上"; -- Upper Blackrock Spire 黑石塔上層
 	AL["Ulda"] = "Ulda"; -- Uldaman 奧達曼
-	AL["VC"] = "VC/死礦"; -- The Deadmines 死亡礦坑
 	AL["WC"] = "WC/哀嚎"; -- Wailing Caverns 哀嚎洞穴
 	AL["ZF"] = "ZF/祖法"; -- Zul'Farrak 祖爾法拉克
 
@@ -352,18 +349,23 @@ if AL then
 	AL["GB"] = "GB"; --Grim Batol 格瑞姆巴托
 	AL["HoO"] = "HoO"; --Halls of Origination 起源大廳
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 托維爾的失落之城
+	AL["SFK"] = "SFK/影牙"; -- Shadowfang Keep 影牙城堡
 	AL["TSC"] = "TSC"; --The Stonecore 石岩之心
 	AL["TWT"] = "TWT"; --Throne of the Four Winds 四風王座
 	AL["ToTT"] = "ToTT"; --Throne of the Tides 海潮王座
+	AL["VC"] = "VC/死礦"; -- The Deadmines 死亡礦坑
 	AL["VP"] = "VP"; --The Vortex Pinnacle 漩渦尖塔
 	AL["ZA"] = "ZA"; -- Zul'Aman 祖阿曼
 	AL["ZG"] = "ZG"; --Zul'Gurub 祖爾格拉布
 
 	--MoP Acronyms
 	AL["GSS"] = "GSS"; --Gate of the Setting Sun
+	AL["Halls"] = "Halls/大廳"; -- Scarlet Halls
 	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
+	AL["SM"] = "SM/血色"; -- Scarlet Monastery 血色修道院
+	AL["Scholo"] = "Scholo/通靈"; -- Scholomance 通靈學院
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
@@ -372,6 +374,17 @@ if AL then
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
 	
+	--WoD Acronyms
+	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+	AL["EB"] = "EB"; -- The Everbloom
+	AL["GD"] = "GD"; -- Grimrail Depot
+	AL["HM"] = "HM"; -- Highmaul
+	AL["ID"] = "ID"; -- Iron Docks
+	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
+
 	--Map sections
 	AL["MapA"] = " [1]"; -- For example: Shado-Pan Monastery [A]
 	AL["MapB"] = " [2]"; -- 一, 二, 三...won't work as somehow it will be sorted as 一, 三, 二, 四. so need to change to digits
@@ -478,18 +491,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
-	AL["Fathom Stone"] = "深淵之石";
-	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
-	AL["Scout Thaelrid"] = "斥候塞爾瑞德";
-	AL["Flaming Eradicator"] = "火焰根除者";
-	AL["Altar of the Deeps"] = "瑪塞斯特拉祭壇";
-	AL["Ashelan Northwood"] = "阿謝蘭·北木";
-	AL["Relwyn Shadestar"] = "芮爾溫·影星";
-	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
-	AL["Sentinel-trainee Issara"] = "哨兵受訓員伊薩拉";
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努薩克雷 <陶土議會>";
+	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
 	AL["Zeya"] = "仄亞";
+	AL["Altar of Blood"] = "Altar of Blood";
+	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
+	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "達格索大使";
@@ -527,12 +534,11 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "柯莉史卓莎";
-	AL["Belnistrasz"] = "貝尼斯特拉茲";
+	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奧爾德·石塔";
 	AL["Spirit of Agamaggan <Ancient>"] = "阿迦瑪甘之靈 <先祖>";
-	AL["Willix the Importer"] = "進口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "四個卡多雷精英";
@@ -609,11 +615,6 @@ if AL then
 	AL["Elder Stonefort"] = "石壘長者";
 	AL["Roughshod Pike"] = "尖銳長矛";
 
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "芬克·恩霍爾";
-	AL["Drakkisath's Brand"] = "達基薩斯徽記";
-	AL["Father Flame"] = "烈焰之父";
-
 	--Blackwing Lair
 	AL["Orb of Domination"] = "統禦寶珠";
 	AL["Master Elemental Shaper Krixix"] = "大元素師克里希克";
@@ -630,35 +631,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "漢·泥巴 <S.A.F.E.>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Commander Lindon"] = "指揮官林敦";
-	AL["Hooded Crusader"] = "戴頭罩的十字軍";
-	AL["Bucket of Meaty Dog Food"] = "一桶豐盛狗食";
-	AL["Reinforced Archery Target"] = "強化箭靶";
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "講師冷心的骨匣";
-	AL["Professor Slate"] = "史雷特教授";
-	AL["Polyformic Acid Potion"] = "變體蟻酸藥水";
-	AL["Talking Skull"] = "說話的骨頭";
-	AL["In the Shadow of the Light"] = "在聖光的陰影之中";
-	AL["Kel'Thuzad's Deep Knowledge"] = "科爾蘇加德的深層知識";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌儀式與其他死靈儀式";
-	AL["Coffer of Forgotten Souls"] = "遺忘靈魂的法櫃";
-	AL["The Dark Grimoire"] = "闇黑魔典";
-
-	--Shadowfang Keep 影牙城堡
-	AL["Apothecary Trio"] = "藥劑師三人組";
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "藥劑師胡默爾 <王冠化學製藥公司>";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "藥劑師巴克斯特 <王冠化學製藥公司>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
-	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
-	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特";
-	AL["Haunted Stable Hand"] = "鬼怪獸欄僕人";
-	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "指揮官艾利格·黎明使者 <聖光兄弟會>";
@@ -1094,6 +1066,17 @@ if AL then
 	AL["Captain Hadan"] = "哈丹隊長";
 	AL["Tol'vir Grave"] = "托維爾墓地";
 
+	--Shadowfang Keep 影牙城堡
+	AL["Apothecary Trio"] = "藥劑師三人組";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "藥劑師胡默爾 <王冠化學製藥公司>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "藥劑師巴克斯特 <王冠化學製藥公司>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "藥劑師弗萊伊 <王冠化學製藥公司>";
+	AL["Packleader Ivar Bloodfang"] = "狼群首領伊瓦·血牙";
+	AL["Deathstalker Commander Belmont"] = "亡靈哨兵指揮官貝爾蒙特";
+	AL["Haunted Stable Hand"] = "鬼怪獸欄僕人";
+	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
+
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1181,6 +1164,25 @@ if AL then
 
 	--Mogu'shan Vaults
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "指揮官林敦";
+	AL["Hooded Crusader"] = "戴頭罩的十字軍";
+	AL["Bucket of Meaty Dog Food"] = "一桶豐盛狗食";
+	AL["Reinforced Archery Target"] = "強化箭靶";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "講師冷心的骨匣";
+	AL["Professor Slate"] = "史雷特教授";
+	AL["Polyformic Acid Potion"] = "變體蟻酸藥水";
+	AL["Talking Skull"] = "說話的骨頭";
+	AL["In the Shadow of the Light"] = "在聖光的陰影之中";
+	AL["Kel'Thuzad's Deep Knowledge"] = "科爾蘇加德的深層知識";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌儀式與其他死靈儀式";
+	AL["Coffer of Forgotten Souls"] = "遺忘靈魂的法櫃";
+	AL["The Dark Grimoire"] = "闇黑魔典";
+
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "班·熊心";
 
@@ -1208,5 +1210,29 @@ if AL then
 	AL["Archritualist Kelada"] = "大祭儀師凱烈德";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "『瘟疫獸』血腐洛克 <原生薩烏洛克的恐怖>";
 	AL["Zao'cho <The Emperor's Shield>"] = "趙仇 <帝王之盾>";
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

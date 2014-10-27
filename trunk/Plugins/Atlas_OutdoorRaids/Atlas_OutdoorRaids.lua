@@ -61,6 +61,19 @@ local myData = {
 		PlayerLimit = "40";
 		{ WHIT.."1) "..Atlas_GetBossName("Doomwalker") };
 	};
+	Draenor = {
+		ZoneName = { AL["Draenor World Bosses"] };
+		Location = { BZ["Draenor"] };
+		LevelRange = "100+";
+		PlayerLimit = "--";
+		JournalInstanceID = "557";
+		{ WHIT.." 1) "..Atlas_GetBossName("Drov the Ruiner", 1291) };
+		{ WHIT..INDENT..Atlas_GetBossName("Frenzied Rumbler", 1291, 2) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Tarlna the Ageless", 1211) };
+		{ WHIT..INDENT..Atlas_GetBossName("Giant Lasher", 1211, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Untamed Mandragora", 1211, 2) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Rukhmar", 1262) };
+	};
 	Pandaria = {
 		ZoneName = { AL["Pandaria World Bosses"] };
 		Location = { BZ["Pandaria"] };

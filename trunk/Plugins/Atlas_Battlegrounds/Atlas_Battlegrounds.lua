@@ -397,6 +397,23 @@ local myData = {
 		{ GREN.."2) "..AL["Center Mine"] };
 		{ GREN.."3) "..BZ["Goblin Mine"] };
 	};
+	Ashran = {
+		ZoneName = { BZ["Ashran"] };
+		Location = { BZ["Draenor"] };
+		LevelRange = "100";
+		MinLevel = "100";
+		PlayerLimit = "100";
+		{ BLUE.."A) "..BZ["Warspear"].." - "..FACTION_HORDE };
+		{ BLUE.."B) "..BZ["Stormshield"].." - "..FACTION_ALLIANCE };
+		{ GREN.."1) "..BZ["Amphitheater of Annihilation"] };
+		{ GREN.."2) "..BZ["Emberfall Tower"] };
+		{ GREN.."3) "..BZ["Brute's Rise"] };
+		{ GREN.."4) "..BZ["The Dark Woods"] };
+		{ GREN.."5) "..BZ["Ring of Conquest"] };
+		{ GREN.."6) "..BZ["Seat of Kor'lok"] };
+		{ GREN.."7) "..BZ["Ashmaul Burial Grounds"] };
+		{ GREN.."8) "..BZ["Molten Quarry"] };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_Battlegrounds", myCategory, myData);

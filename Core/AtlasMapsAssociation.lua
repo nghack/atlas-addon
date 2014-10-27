@@ -44,18 +44,21 @@ local BZ = Atlas_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 	The table value is map's key-name.
 ]]
 Atlas_AssocDefaults = {
+	[BZ["Blackrock Foundry"]] =		"BlackrockFoundryA";
 	[BZ["Blackrock Mountain"]] =		"BlackrockMountainEnt";
-	[BZ["Blackrock Spire"]] =		"BlackrockSpireLower";
-	[BZ["Hall of Blackhand"]] =		"BlackrockSpireLower";
+	[BZ["Blackrock Spire"]] =		"LowerBlackrockSpire";
+	[BZ["Hall of Blackhand"]] =		"LowerBlackrockSpire";
 	[BZ["Black Temple"]] =			"BlackTempleBasement";
 	[BZ["Dire Maul"]] =			"DireMaulNorth";
 	[BZ["Dragon Soul"]] =			"CoTDragonSoulA";
+	[BZ["Highmaul"]] =			"HighmaulA";
 	[BZ["Icecrown Citadel"]] =		"IcecrownCitadelA";
 	[BZ["Karazhan"]] =			"KarazhanStart";
 	[BZ["Shado-Pan Monastery"]] =		"ShadoPanMonasteryA";
 	[BZ["Siege of Niuzao Temple"]] =	"SiegeofNiuzaoTempleA";
 	[BZ["Siege of Orgrimmar"]] =		"SiegeofOrgrimmarA";
 	[BZ["Stratholme"]] =			"StratholmeGauntlet";
+	[BZ["The Everbloom"]] =			"TheEverbloomA";
 	[BZ["Throne of Tides"]] = 		"ThroneOfTheTides";
 	[BZ["Throne of Thunder"]] = 		"ThroneofThunderB";
 	[BZ["The Wailing Caverns"]] = 		"WailingCavernsEnt";
@@ -76,20 +79,44 @@ Atlas_AssocDefaults = {
 	},
 ]]
 Atlas_SubZoneData = {
-	-- Hall of Blackhand
+	-- Blackrock Foundry
+	[BZ["Blackrock Foundry"]] = {
+		-- Blackrock Foundry A
+		["BlackrockFoundryA"] = {
+			BZ["The Workshop"],
+			BZ["Slagworks"],
+			BZ["Gruul's Lair"],
+			BZ["Blackrock Depository"],
+			BZ["Iron Assembly"],
+			BZ["The Breaking Grounds"],
+			BZ["Foundry Terminus"],
+			BZ["The Blast Furnace"],
+			BZ["The Crucible"],
+			BZ["The Iron Crucible"], --check
+		},
+		-- Blackrock Foundry B
+		["BlackrockFoundryB"] = {
+			BZ["The Black Forge"],
+			BZ["Burning Font"],
+			BZ["Slagmill Press"],
+			BZ["The Great Anvil"],
+			BZ["Dread Grotto"],
+		},
+	},
+	-- Blackrock Spire
 	[BZ["Hall of Blackhand"]] = {
-		-- Blackrock Spire, Lower
-		["BlackrockSpireLower"] = {
+		-- Lower Blackrock Spire
+		["LowerBlackrockSpire"] = {
 			BZ["Hordemar City"],
 			BZ["Mok'Doom"],
-			BZ["Tazz'Alaor"],
+			BZ["Tazz'Alor"],
 			BZ["Skitterweb Tunnels"],
-			BZ["Halycon's Lair"],
 			BZ["The Storehouse"],
+			BZ["Halycon's Lair"],
 			BZ["Chamber of Battle"],
 		},
-		-- Blackrock Spire, Upper   
-		["BlackrockSpireUpper"] = {
+		-- Upper Blackrock Spire
+		["UpperBlackrockSpire"] = {
 			BZ["Dragonspire Hall"],
 			BZ["Hall of Binding"],
 			BZ["The Rookery"],
@@ -97,6 +124,7 @@ Atlas_SubZoneData = {
 			BZ["Blackrock Stadium"],
 			BZ["The Furnace"],
 			BZ["Spire Throne"],
+			BZ["The Molten Span"],
 		},
 	},
 	-- Black Temple
@@ -172,6 +200,27 @@ Atlas_SubZoneData = {
 			BZ["The Skyfire"],
 			BZ["Deathwing"],
 			BZ["The Maelstrom"],
+		},
+	},
+	-- Highmaul
+	[BZ["Highmaul"]] = {
+		-- Highmaul A
+		["HighmaulA"] = {
+			BZ["Gladiator's Rest"],
+			BZ["The Coliseum"],
+			BZ["Path of Victors"],
+			BZ["The Underbelly"],
+			BZ["The Imperator's Favor"],
+			BZ["Market District"],
+			BZ["Gorian Strand"],
+
+		},
+		-- Highmaul B
+		["HighmaulB"] = {
+			BZ["The Gorthenon"],
+			BZ["Chamber of Nullification"],
+			BZ["Imperator's Rise"],
+			BZ["Throne of the Imperator"],
 		},
 	},
 	-- Icecrown Citadell
@@ -314,6 +363,20 @@ Atlas_SubZoneData = {
 			BZ["The Slaughter House"],
 		},
 	},
+	-- The Everbloom
+	[BZ["The Everbloom"]] = {
+		-- The Everbloom A
+		["TheEverbloomA"] = {
+			BZ["Pools of Life"],
+			BZ["Verdant Grove"],
+			BZ["Xeri'tac's Burrow"],
+			BZ["The Violet Bluff"],
+		},
+		-- The Everbloom B
+		["TheEverbloomB"] = {
+			BZ["Stormwind"],
+		},
+	},
 	-- The Stockade
 	[BZ["The Stockade"]] = {
 		-- The Stockade
@@ -426,12 +489,15 @@ Atlas_SubZoneData = {
 	Not for localization.
 ]]
 Atlas_OutdoorZoneToAtlas = {
+	[BZ["Talador"]] =	 		"Auchindoun";
 	[BZ["Terokkar Forest"]] = 		"AuchindounEnt";
 	[BZ["Tol Barad"]] = 			"BaradinHold";
 	[BZ["Ashenvale"]] = 			"BlackfathomDeepsEnt";
+	[BZ["Gorgrond"]] =	 		"BlackrockFoundryA";
 	[BZ["Burning Steppes"]] = 		"BlackrockMountainEnt";
 	[BZ["Searing Gorge"]] = 		"BlackrockMountainEnt";
 	[BZ["Shadowmoon Valley"]] = 		"BlackTempleStart";
+	[BZ["Frostfire Ridge"]] =	 	"BloodmaulSlagMines";
 	[BZ["Tanaris"]] = 			"CavernsOfTimeEnt";
 	[BZ["Zangarmarsh"]] = 			"CoilfangReservoirEnt";
 	[BZ["The Dragon Wastes"]] = 		"CoTDragonSoulA";
@@ -441,6 +507,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Blade's Edge Mountains"]] = 	"GruulsLair";
 	[BZ["Dread Wastes"]] =			"HeartofFear";
 	[BZ["Hellfire Peninsula"]] = 		"HellfireCitadelEnt";
+	[BZ["Nagrand"]] =		 	"HighmaulA";
 	[BZ["Icecrown"]] = 			"IcecrownEnt";
 	[BZ["Deadwind Pass"]] = 		"KarazhanEnt";
 	[BZ["Desolace"]] = 			"MaraudonEnt";
@@ -454,6 +521,7 @@ Atlas_OutdoorZoneToAtlas = {
 	[BZ["Silverpine Forest"]] = 		"ShadowfangKeep";
 	[BZ["Townlong Steppes"]] = 		"SiegeofNiuzaoTempleA";
 	[BZ["Vale of Eternal Blossoms"]] = 	"SiegeofOrgrimmarA";
+	[BZ["Spires of Arak"]] =	 	"Skyreach";
 	[BZ["Valley of the Four Winds"]] = 	"StormstoutBrewery";
 	[BZ["Eastern Plaguelands"]] = 		"StratholmeGauntlet";
 	[BZ["Isle of Quel'Danas"]] = 		"SunwellPlateau";
@@ -486,7 +554,7 @@ Atlas_OutdoorZoneToAtlas = {
 Atlas_EntToInstMatches = {
 	["AuchindounEnt"] =			{"AuchManaTombs","AuchAuchenaiCrypts","AuchSethekkHalls","AuchShadowLabyrinth"};
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore","BlackrockCaverns","BlackwingDescent"};
+	["BlackrockMountainEnt"] =		{"BlackrockCaverns","BlackrockDepths","BlackwingDescent","BlackwingLair","LowerBlackrockSpire","MoltenCore","UpperBlackrockSpire"};
 	["CoilfangReservoirEnt"] =		{"CFRTheSlavePens","CFRTheUnderbog","CFRTheSteamvault","CFRSerpentshrineCavern"};
 	["CavernsOfTimeEnt"] =			{"CoTBlackMorass","CoTDragonSoulA","CoTDragonSoulB","CoTDragonSoulC","CoTEndTime","CoTHyjal","CoTHyjalEnt","CoTHourOfTwilight","CoTOldHillsbrad","CoTOldStratholme","CoTWellOfEternity"};
 	["DireMaulEnt"] =			{"DireMaulEast","DireMaulNorth","DireMaulWest"};
@@ -511,13 +579,13 @@ Atlas_InstToEntMatches = {
 	["AuchSethekkHalls"] =			{"AuchindounEnt"};
 	["AuchShadowLabyrinth"] =		{"AuchindounEnt"};
 	["BlackfathomDeeps"] =			{"BlackfathomDeepsEnt"};
-	["BlackrockSpireLower"] =		{"BlackrockMountainEnt"};
-	["BlackrockSpireUpper"] =		{"BlackrockMountainEnt"};
-	["BlackwingLair"] =			{"BlackrockMountainEnt"};
-	["BlackrockDepths"] =			{"BlackrockMountainEnt"};
-	["MoltenCore"] =			{"BlackrockMountainEnt"};
 	["BlackrockCaverns"] =			{"BlackrockMountainEnt"};
+	["BlackrockDepths"] =			{"BlackrockMountainEnt"};
 	["BlackwingDescent"] =			{"BlackrockMountainEnt"};
+	["BlackwingLair"] =			{"BlackrockMountainEnt"};
+	["LowerBlackrockSpire"] =		{"BlackrockMountainEnt"};
+	["MoltenCore"] =			{"BlackrockMountainEnt"};
+	["UpperBlackrockSpire"] =		{"BlackrockMountainEnt"};
 	["CFRTheSlavePens"] =			{"CoilfangReservoirEnt"};
 	["CFRTheUnderbog"] =			{"CoilfangReservoirEnt"};
 	["CFRTheSteamvault"] =			{"CoilfangReservoirEnt"};
@@ -572,28 +640,33 @@ Atlas_InstToEntMatches = {
 -- Defines the instance which have multiple maps
 -- Added only when the Entrance map is not available, for example, Ulduar do have entrance map, so no need to add it here
 Atlas_MapSeries = {
-	["SiegeofOrgrimmarA"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
-	["SiegeofOrgrimmarB"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
-	["SiegeofOrgrimmarC"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
-	["SiegeofOrgrimmarD"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
+	["BlackrockFoundryA"] = 		{"BlackrockFoundryA", "BlackrockFoundryB" };
+	["BlackrockFoundryB"] = 		{"BlackrockFoundryA", "BlackrockFoundryB" };
+	["BlackTempleStart"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
+	["BlackTempleBasement"] = 		{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
+	["BlackTempleTop"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
+	["HighmaulA"] = 			{"HighmaulA", "HighmaulB" };
+	["HighmaulB"] = 			{"HighmaulA", "HighmaulB" };
 	["ShadoPanMonasteryA"] = 		{"ShadoPanMonasteryA", "ShadoPanMonasteryB" };
 	["ShadoPanMonasteryB"] = 		{"ShadoPanMonasteryA", "ShadoPanMonasteryB" };
 	["SiegeofNiuzaoTempleA"] = 		{"SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" };
 	["SiegeofNiuzaoTempleB"] = 		{"SiegeofNiuzaoTempleA", "SiegeofNiuzaoTempleB" };
+	["SiegeofOrgrimmarA"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
+	["SiegeofOrgrimmarB"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
+	["SiegeofOrgrimmarC"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
+	["SiegeofOrgrimmarD"] = 		{"SiegeofOrgrimmarA", "SiegeofOrgrimmarB", "SiegeofOrgrimmarC", "SiegeofOrgrimmarD" };
+	["TheEverbloomA"] = 			{"TheEverbloomA", "TheEverbloomB" };
+	["TheEverbloomB"] = 			{"TheEverbloomA", "TheEverbloomB" };
 	["ThroneofThunderA"] = 			{"ThroneofThunderA", "ThroneofThunderB", "ThroneofThunderC", "ThroneofThunderD" };
 	["ThroneofThunderB"] = 			{"ThroneofThunderA", "ThroneofThunderB", "ThroneofThunderC", "ThroneofThunderD" };
 	["ThroneofThunderC"] = 			{"ThroneofThunderA", "ThroneofThunderB", "ThroneofThunderC", "ThroneofThunderD" };
 	["ThroneofThunderD"] = 			{"ThroneofThunderA", "ThroneofThunderB", "ThroneofThunderC", "ThroneofThunderD" };
-	["BlackTempleStart"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
-	["BlackTempleBasement"] = 		{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
-	["BlackTempleTop"] = 			{"BlackTempleStart", "BlackTempleBasement", "BlackTempleTop" };
 };
 
 -- Links maps together that are part of the same instance
 Atlas_SubZoneAssoc = {
-	["BlackrockSpireLower"] =		BZ["Blackrock Spire"];
-	["BlackrockSpireUpper"] =		BZ["Blackrock Spire"];
-	["BlackrockMountainEnt"] =		BZ["Blackrock Spire"];
+	["BlackrockFoundryA"] =			BZ["Blackrock Foundry"];
+	["BlackrockFoundryB"] =			BZ["Blackrock Foundry"];
 	["BlackTempleStart"] =			BZ["Black Temple"];
 	["BlackTempleBasement"] =		BZ["Black Temple"];
 	["BlackTempleTop"] =			BZ["Black Temple"];
@@ -604,6 +677,8 @@ Atlas_SubZoneAssoc = {
 	["DireMaulEast"] =			BZ["Dire Maul"];
 	["DireMaulWest"] =			BZ["Dire Maul"];
 	["DireMaulEnt"] =			BZ["Dire Maul"];
+	["HighmaulA"] =				BZ["Highmaul"];
+	["HighmaulB"] =				BZ["Highmaul"];
 	["IcecrownCitadelA"] =			BZ["Icecrown Citadel"];
 	["IcecrownCitadelB"] =			BZ["Icecrown Citadel"];
 	["IcecrownCitadelC"] =			BZ["Icecrown Citadel"];
@@ -621,6 +696,8 @@ Atlas_SubZoneAssoc = {
 	["SiegeofOrgrimmarD"] =			BZ["Siege of Orgrimmar"];
 	["StratholmeCrusader"] =		BZ["Stratholme"];
 	["StratholmeGauntlet"] =		BZ["Stratholme"];
+	["TheEverbloomA"] =			BZ["The Everbloom"];
+	["TheEverbloomB"] =			BZ["The Everbloom"];
 	["ThroneofThunderA"] =			BZ["Throne of Thunder"];
 	["ThroneofThunderB"] =			BZ["Throne of Thunder"];
 	["ThroneofThunderC"] =			BZ["Throne of Thunder"];

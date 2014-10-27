@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -159,7 +159,7 @@ Syntax:
 	BlackrockMountainEnt = {
 		ZoneName = { BZ["Blackrock Mountain"].." ("..AL["Entrance"]..")" };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		LevelRange = "49-85+";
+		LevelRange = "49-100+";
 		MinLevel = "47";
 		PlayerLimit = "5/10/25/40";
 		Acronym = AL["BRM"];
@@ -423,7 +423,7 @@ Syntax:
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Wailing Caverns"] };
 		{ ORNG.." 1) "..Atlas_GetBossName("Trigore the Lasher").." ("..AL["Rare"]..")" };
-		--{ ORNG..INDENT..Atlas_GetBossName("Boahn").." ("..AL["Rare"]..")" }; Commented out until seen after 4.0
+		{ ORNG..INDENT..Atlas_GetBossName("Boahn").." ("..AL["Rare"]..")" };
 	};
 
 --************************************************
@@ -438,27 +438,24 @@ Syntax:
 		JournalInstanceID = "227";
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN..INDENT..AL["Je'neu Sancrea <The Earthen Ring>"] };
+		{ GREN..INDENT..AL["Sentinel Aluwyn"].." ("..FACTION_ALLIANCE..")" };
+		{ GREN..INDENT..AL["Zeya"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ghamoo-ra", 368) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Lady Sarevess", 436) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Gelihast", 426) };
-		{ GREN..INDENT..AL["Shrine of Gelihast"] };
-		{ WHIT.." 4) "..Atlas_GetBossName("Old Serra'kis", 447) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Twilight Lord Kelris", 437) };
-		{ WHIT.." 6) "..Atlas_GetBossName("Aku'mai", 444) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Lorgus Jett").." ("..AL["Varies"]..")" };
-		{ ORNG.." 2) "..Atlas_GetBossName("Baron Aquanis").." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Fathom Stone"] };
-		{ GREN.." 1') "..AL["Ashelan Northwood"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Relwyn Shadestar"].." ("..FACTION_ALLIANCE..")" };
+		{ WHIT.." 2) "..Atlas_GetBossName("Domina", 436) };
+		{ GREN..INDENT..AL["Altar of Blood"] };
+		{ WHIT.." 3) "..Atlas_GetBossName("Subjugator Kor'ul", 426) };
+		{ GREN..INDENT..AL["Altar of Blood"] };
+		{ WHIT.." 4) "..Atlas_GetBossName("Thruk", 1145) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Guardian of the Deep", 447) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Executioner Gore", 1144) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Twilight Lord Bathiel", 437) };
+		{ GREN..INDENT..AL["Fire of Aku'mai"] };
+		{ WHIT.." 8) "..Atlas_GetBossName("Aku'mai", 444) };
+		{ GREN..INDENT..AL["Spoils of Blackfathom"] };
 		{ GREN..INDENT..AL["Sentinel Aluwyn"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Sentinel-trainee Issara"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Je'neu Sancrea <The Earthen Ring>"].." ("..FACTION_HORDE..")" };
 		{ GREN..INDENT..AL["Zeya"].." ("..FACTION_HORDE..")" };
-		{ GREN.." 2') "..AL["Lorgalis Manuscript"] };
-		{ GREN.." 3') "..AL["Scout Thaelrid"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN.." 4') "..AL["Flaming Eradicator"] };
-		{ GREN.." 5') "..AL["Altar of the Deeps"] };
 	};
 	DireMaulEast = {
 		ZoneName = { BZ["Dire Maul"].." ("..AL["East"]..")" };
@@ -582,14 +579,13 @@ Syntax:
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Koristrasza"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Tuten'kash", 432) };
+		{ WHIT.." 1) "..Atlas_GetBossName("Aarux", 1142) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Mordresh Fire Eye", 433) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Glutton", 434) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Amnennar the Coldbringer", 435) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Plaguemaw the Rotting") };
-		{ ORNG.." 2) "..Atlas_GetBossName("Ragglesnout").." ("..AL["Rare"]..", "..AL["Varies"]..")" };
-		{ GREN.." 1') "..AL["Belnistrasz"] };
-		{ GREN.." 2') "..Atlas_GetBossName("Henry Stern") };
+		{ WHIT.." 3) "..Atlas_GetBossName("Mushlump", 1143).." ("..AL["Wanders"]..")" };
+		{ GREN..INDENT..AL["Koristrasza"] };
+		{ WHIT.." 4) "..Atlas_GetBossName("Death Speaker Blackthorn", 1146) };
+		{ WHIT..INDENT..Atlas_GetBossName("Amnennar the Coldbringer", 1141) };
+		{ GREN..INDENT..AL["Amnennar's Phylactery"] };
 	};
 	RazorfenKraul = {
 		ZoneName = { BZ["Razorfen Kraul"] };
@@ -600,23 +596,20 @@ Syntax:
 		Module = "Atlas_ClassicWoW";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Auld Stonespire"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Aggem Thorncurse", 439) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Death Speaker Jargba", 438) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Overlord Ramtusk", 440) };
-		{ WHIT..INDENT..Atlas_GetBossName("Razorfen Spearhide", 440, 2) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Agathelos the Raging", 441) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Charlga Razorflank", 442) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Roogug") };
-		{ ORNG.." 2) "..Atlas_GetBossName("Blind Hunter").." ("..AL["Rare"]..")" };
-		{ ORNG.." 3) "..Atlas_GetBossName("Earthcaller Halmgar").." ("..AL["Rare"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Hunter Bonetusk", 896) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Roogug", 895) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Warlord Ramtusk", 899) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Groyat, the Blind Hunter", 900) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Charlga Razorflank", 901) };
+		{ ORNG.." 1) "..Atlas_GetBossName("Earthcaller Halmgar").." ("..AL["Rare"]..")" };
 		{ GREN.." 1') "..AL["Spirit of Agamaggan <Ancient>"] };
-		{ GREN.." 2') "..AL["Willix the Importer"] };
 	};
 	TheRuinsofAhnQiraj = {
 		ZoneName = { BZ["Ahn'Qiraj"]..AL["Colon"]..BZ["Ruins of Ahn'Qiraj"] };
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		DungeonID = "160";
-		Acronym = AL["AQ20"];
+		Acronym = AL["AQ10"];
+		PlayerLimit = "10";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Circle"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -642,6 +635,7 @@ Syntax:
 		Location = { BZ["Ahn'Qiraj: The Fallen Kingdom"] };
 		DungeonID = "161";
 		Acronym = AL["AQ40"];
+		PlayerLimit = "40";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Brood of Nozdormu"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -807,61 +801,6 @@ Syntax:
 		{ GREN.."13') "..AL["Core Fragment"] };
 		{ GREN.."14') "..AL["Shadowforge Brazier"] };
 	};
-	BlackrockSpireLower = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Lower Blackrock Spire"] };
-		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		DungeonID = "32";
-		Acronym = AL["LBRS"];
-		JournalInstanceID = "229";
-		Module = "Atlas_ClassicWoW";
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Upper"]..")" };
-		{ BLUE.." C-F) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Highlord Omokk", 388) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Shadow Hunter Vosh'gajin", 389) };
-		{ WHIT.." 3) "..Atlas_GetBossName("War Master Voone", 390) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Mother Smolderweb", 391) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Urok Doomhowl", 392).." ("..AL["Summon"]..")" };
-		{ GREN..INDENT..AL["Urok's Tribute Pile"] };
-		{ WHIT.." 6) "..Atlas_GetBossName("Quartermaster Zigris", 393) };
-		{ WHIT.." 7) "..Atlas_GetBossName("Halycon", 394) };
-		{ WHIT..INDENT..Atlas_GetBossName("Gizrul the Slavener", 395) };
-		{ WHIT.." 8) "..Atlas_GetBossName("Overlord Wyrmthalak", 396) };
-		{ ORNG.." 1) "..Atlas_GetBossName("Burning Felguard").." ("..AL["Rare"]..", "..AL["Summon"]..")" };
-		{ ORNG.." 2) "..Atlas_GetBossName("Spirestone Butcher").." ("..AL["Rare"]..")" };
-		{ ORNG.." 3) "..Atlas_GetBossName("Bannok Grimaxe").." ("..AL["Rare"]..")" };
-		{ ORNG.." 4) "..Atlas_GetBossName("Crystal Fang").." ("..AL["Rare"]..")" };
-		{ ORNG.." 5) "..Atlas_GetBossName("Spirestone Battle Lord").." ("..AL["Rare"]..")" };
-		{ ORNG..INDENT..Atlas_GetBossName("Spirestone Lord Magus").." ("..AL["Rare"]..")" };
-		{ ORNG.." 6) "..Atlas_GetBossName("Ghok Bashguud").." ("..AL["Rare"]..")" };
-		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
-		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
-		{ GREN.." 3') "..AL["Roughshod Pike"] };
-	};
-	BlackrockSpireUpper = {
-		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Upper Blackrock Spire"] };
-		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
-		DungeonID = "330";
-		Acronym = AL["UBRS"];
-		JournalInstanceID = "229";
-		Module = "Atlas_ClassicWoW";
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B) "..BZ["Blackrock Spire"].." ("..AL["Lower"]..")" };
-		{ BLUE.." C-D) "..AL["Connection"] };
-		{ BLUE.." E) "..BZ["Blackwing Lair"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Pyroguard Emberseer", 397) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Solakar Flamewreath", 398) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Goraluk Anvilcrack") };
-		{ WHIT.." 4) "..Atlas_GetBossName("Warchief Rend Blackhand", 399) };
-		{ WHIT..INDENT..Atlas_GetBossName("Gyth", 399, 2) };
-		{ WHIT.." 5) "..Atlas_GetBossName("The Beast", 400) };
-		{ GREN..INDENT..AL["Finkle Einhorn"] };
-		{ WHIT.." 6) "..Atlas_GetBossName("General Drakkisath", 401) };
-		{ GREN..INDENT..AL["Drakkisath's Brand"] };
-		{ ORNG.." 1) "..Atlas_GetBossName("Jed Runewatcher").." ("..AL["Rare"]..")" };
-		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
-		{ GREN.." 2') "..AL["Father Flame"] };
-	};
 	BlackwingLair = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Blackwing Lair"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
@@ -910,11 +849,44 @@ Syntax:
 		{ GREN.." 4') "..AL["Face <S.A.F.E.>"].." ("..FACTION_ALLIANCE..")" };
 		{ GREN.." 5') "..AL["Hann Ibal <S.A.F.E.>"].." ("..FACTION_ALLIANCE..")" };
 	};
+	LowerBlackrockSpire = {
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Lower Blackrock Spire"] };
+		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
+		DungeonID = "32";
+		Acronym = AL["LBRS"];
+		JournalInstanceID = "229";
+		Module = "Atlas_ClassicWoW";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..BZ["Blackrock Mountain"] };
+		{ BLUE.." C) "..BZ["Upper Blackrock Spire"] };
+		{ BLUE.." D-G) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Highlord Omokk", 388) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Shadow Hunter Vosh'gajin", 389) };
+		{ WHIT.." 3) "..Atlas_GetBossName("War Master Voone", 390) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Mother Smolderweb", 391) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Urok Doomhowl", 392).." ("..AL["Summon"]..")" };
+		{ GREN..INDENT..AL["Urok's Tribute Pile"] };
+		{ WHIT.." 6) "..Atlas_GetBossName("Quartermaster Zigris", 393) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Halycon", 394) };
+		{ WHIT..INDENT..Atlas_GetBossName("Gizrul the Slavener", 395) };
+		{ WHIT.." 8) "..Atlas_GetBossName("Overlord Wyrmthalak", 396) };
+		{ ORNG.." 1) "..Atlas_GetBossName("Burning Felguard").." ("..AL["Rare"]..", "..AL["Summon"]..")" };
+		{ ORNG.." 2) "..Atlas_GetBossName("Spirestone Butcher").." ("..AL["Rare"]..")" };
+		{ ORNG.." 3) "..Atlas_GetBossName("Spirestone Battle Lord").." ("..AL["Rare"]..")" };
+		{ ORNG..INDENT..Atlas_GetBossName("Spirestone Lord Magus").." ("..AL["Rare"]..")" };
+		{ ORNG.." 4) "..Atlas_GetBossName("Bannok Grimaxe").." ("..AL["Rare"]..")" };
+		{ ORNG.." 5) "..Atlas_GetBossName("Crystal Fang").." ("..AL["Rare"]..")" };
+		{ ORNG.." 6) "..Atlas_GetBossName("Ghok Bashguud").." ("..AL["Rare"]..")" };
+		{ GREN.." 1') "..AL["Acride <Scarshield Legion>"] };
+		{ GREN.." 2') "..AL["Elder Stonefort"].." ("..AL["Lunar Festival"]..")" };
+		{ GREN.." 3') "..AL["Roughshod Pike"] };
+	};
 	MoltenCore = {
 		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["The Molten Core"] };
 		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
 		DungeonID = "48";
 		Acronym = AL["MC"];
+		PlayerLimit = "40";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Hydraxian Waterlords"] };
@@ -929,92 +901,6 @@ Syntax:
 		{ WHIT.." 8) "..Atlas_GetBossName("Sulfuron Harbinger") };
 		{ WHIT.." 9) "..Atlas_GetBossName("Majordomo Executus") };
 		{ WHIT.."10) "..Atlas_GetBossName("Ragnaros") };
-	};
-	ScarletHalls = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Halls"] };
-		Location = { BZ["Tirisfal Glades"] };
-		DungeonID = "163";
-		DungeonHeroicID = "473";
-		Acronym = AL["Halls"];
-		JournalInstanceID = "311";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ WHIT.." 1) "..AL["Commander Lindon"] };
-		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan", 654) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
-		{ GREN.." 1') "..AL["Hooded Crusader"] };
-		{ INDENT..GREN..AL["Bucket of Meaty Dog Food"] };
-		{ GREN.." 2') "..AL["Reinforced Archery Target"] };
-		{ GREN.." 3') "..AL["Bucket of Meaty Dog Food"] };
-	};
-	ScarletMonastery = {
-		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Monastery"] };
-		Location = { BZ["Tirisfal Glades"] };
-		DungeonID = "164";
-		DungeonHeroicID = "474";
-		Acronym = AL["SM"];
-		JournalInstanceID = "316";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ GREN.." 1') "..AL["Hooded Crusader"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korloff", 671) };
-		{ WHIT.." 3) "..Atlas_GetBossName("High Inquisitor Whitemane", 674) };
-		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand", 674, 2) };
-	};
-	Scholomance = {
-		ZoneName = { BZ["Scholomance"] };
-		Location = { BZ["Western Plaguelands"] };
-		DungeonID = "2";
-		DungeonHeroicID = "472";
-		Acronym = AL["Scholo"];
-		JournalInstanceID = "246";
-		--Module = {"Atlas_ClassicWoW","Atlas_MistsofPandaria"}; -- comment out because this has been updated in MoP
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B-D) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };
-		{ WHIT..INDENT..AL["Instructor Chillheart's Phylactery"] };
-		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov", 663) };
-		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore", 665) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss", 666) };
-		{ WHIT.." 5) "..AL["Professor Slate"] };
-		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
-		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
-		{ GREN.." 1') "..AL["Talking Skull"] };
-		{ GREN.." 2') "..AL["In the Shadow of the Light"] };
-		{ GREN.." 3') "..AL["Kel'Thuzad's Deep Knowledge"] };
-		{ GREN.." 4') "..AL["Forbidden Rites and other Rituals Necromantic"] };
-		{ GREN.." 5') "..AL["Coffer of Forgotten Souls"] };
-		{ GREN.." 6') "..AL["The Dark Grimoire"] };
-	};
-	ShadowfangKeep = {
-		ZoneName = { BZ["Shadowfang Keep"] };
-		Location = { BZ["Silverpine Forest"] };
-		DungeonID = "8";
-		DungeonHeroicID = "327";
-		Acronym = AL["SFK"];
-		JournalInstanceID = "64";
-		Module = "Atlas_Cataclysm";
-		{ BLUE.." A) "..AL["Entrance"] };
-		{ BLUE.." B-C) "..AL["Connection"] };
-		{ WHIT.." 1) "..Atlas_GetBossName("Baron Ashbury", 96) };
-		{ WHIT.." 2) "..Atlas_GetBossName("Baron Silverlaine", 97) };
-		{ WHIT..INDENT..Atlas_GetBossName("Odo the Blindwatcher").." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Razorclaw the Butcher").." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Rethilgore").." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT..INDENT..Atlas_GetBossName("Wolf Master Nandos").." ("..AL["Random"]..", "..AL["Summon"]..")" };
-		{ WHIT.." 3) "..Atlas_GetBossName("Commander Springvale", 98) };
-		{ WHIT.." 4) "..Atlas_GetBossName("Lord Walden", 99) };
-		{ WHIT.." 5) "..Atlas_GetBossName("Lord Godfrey", 100) };
-		{ ORNG.." 1) "..AL["Apothecary Trio"].." ("..AL["Love is in the Air"]..")" };
-		{ ORNG..INDENT..AL["Apothecary Hummel <Crown Chemical Co.>"] };
-		{ ORNG..INDENT..AL["Apothecary Baxter <Crown Chemical Co.>"] };
-		{ ORNG..INDENT..AL["Apothecary Frye <Crown Chemical Co.>"] };
-		{ GREN.." 1') "..AL["Packleader Ivar Bloodfang"].." ("..FACTION_ALLIANCE..")" };
-		{ GREN..INDENT..AL["Deathstalker Commander Belmont"].." ("..FACTION_HORDE..")" };
-		{ GREN.." 2') "..AL["Haunted Stable Hand"].." ("..AL["Teleporter"]..")" };
-		{ GREN.." 3') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
 	};
 	StratholmeCrusader = {
 		ZoneName = { BZ["Stratholme"].." - "..BZ["Crusaders' Square"] };
@@ -1221,6 +1107,7 @@ Syntax:
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1241,6 +1128,7 @@ Syntax:
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." B) "..AL["Entrance"] };
@@ -1257,6 +1145,7 @@ Syntax:
 		Location = { BZ["Shadowmoon Valley"] };
 		DungeonID = "196";
 		Acronym = AL["BT"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." D) "..AL["Entrance"] };
@@ -1274,6 +1163,7 @@ Syntax:
 		Location = { BZ["Zangarmarsh"] };
 		DungeonID = "194";
 		Acronym = AL["SSC"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1471,6 +1361,7 @@ Syntax:
 		Location = { BZ["Blade's Edge Mountains"] };
 		DungeonID = "177";
 		Acronym = AL["GL"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("High King Maulgar") };
@@ -1521,6 +1412,7 @@ Syntax:
 		Location = { BZ["Hellfire Peninsula"] };
 		DungeonID = "176";
 		Acronym = AL["Mag"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Magtheridon") };
@@ -1559,6 +1451,7 @@ Syntax:
 		Location = { BZ["Deadwind Pass"] };
 		DungeonID = "175";
 		Acronym = AL["Kara"];
+		PlayerLimit = "10";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Violet Eye"] };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
@@ -1607,6 +1500,7 @@ Syntax:
 		Location = { BZ["Deadwind Pass"] };
 		DungeonID = "175";
 		Acronym = AL["Kara"];
+		PlayerLimit = "10";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Violet Eye"] };
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
@@ -1667,6 +1561,7 @@ Syntax:
 		Location = { BZ["Isle of Quel'Danas"] };
 		DungeonID = "199";
 		Acronym = AL["SuP"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Kalecgos") };
@@ -1742,6 +1637,7 @@ Syntax:
 		Location = { BZ["Netherstorm"] };
 		DungeonID = "193";
 		Acronym = AL["TK"];
+		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1924,6 +1820,7 @@ Syntax:
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -1945,6 +1842,7 @@ Syntax:
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." C) "..AL["From previous map"] };
@@ -1974,6 +1872,7 @@ Syntax:
 		DungeonID = "279";
 		DungeonHeroicID = "280";
 		Acronym = AL["IC"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." I) "..AL["From previous map"] };
@@ -1985,6 +1884,7 @@ Syntax:
 		DungeonID = "159";
 		DungeonHeroicID = "227";
 		Acronym = AL["Nax"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Mr. Bigglesworth"].." ("..AL["Wanders"]..")" };
@@ -2024,6 +1924,7 @@ Syntax:
 		DungeonID = "224";
 		DungeonHeroicID = "238";
 		Acronym = AL["OS"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Black Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2034,10 +1935,11 @@ Syntax:
 	};
 	OnyxiasLair = {
 		ZoneName = { BZ["Onyxia's Lair"] };
-		Acronym = AL["Ony"];
 		Location = { BZ["Dustwallow Marsh"] };
 		DungeonID = "46";
 		DungeonHeroicID = "257";
+		Acronym = AL["Ony"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Onyxia") };
@@ -2048,6 +1950,7 @@ Syntax:
 		DungeonID = "293";
 		DungeonHeroicID = "294";
 		Acronym = AL["RS"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["AKA"]..AL["Colon"]..AL["Red Dragonflight Chamber"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2062,6 +1965,7 @@ Syntax:
 		DungeonID = "223";
 		DungeonHeroicID = "237";
 		Acronym = AL["TEoE"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"].." / "..AL["Exit"].." ("..AL["Portal"]..")" };
 		{ WHIT.." 1) "..Atlas_GetBossName("Malygos") };
@@ -2137,6 +2041,7 @@ Syntax:
 		DungeonID = "246";
 		DungeonHeroicID = "248";
 		Acronym = AL["Crus"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ ORNG..AL["Heroic: Trial of the Grand Crusader"] };
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2159,6 +2064,7 @@ Syntax:
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["The Antechamber"] };
@@ -2181,6 +2087,7 @@ Syntax:
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." B) "..AL["The Siege"] };
 		{ BLUE.." C) "..AL["The Keepers"] };
@@ -2200,6 +2107,7 @@ Syntax:
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." C) "..BZ["The Antechamber"] };
 		{ BLUE.." D) "..BZ["The Spark of Imagination"] };
@@ -2221,6 +2129,7 @@ Syntax:
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." D) "..AL["The Keepers"] };
 		{ WHIT.."15) "..Atlas_GetBossName("Mimiron") };
@@ -2232,6 +2141,7 @@ Syntax:
 		DungeonID = "243";
 		DungeonHeroicID = "244";
 		Acronym = AL["Uldu"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." E) "..AL["The Keepers"] };
 		{ WHIT.."16) "..Atlas_GetBossName("General Vezax") };
@@ -2312,6 +2222,7 @@ Syntax:
 		DungeonID = "239";
 		DungeonHeroicID = "240";
 		Acronym = AL["VoA"];
+		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Archavon the Stone Watcher") };
@@ -2348,6 +2259,7 @@ Syntax:
 		DungeonID = "328";
 		DungeonHeroicID = "329";
 		Acronym = AL["BH"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "75";
 		Module = "Atlas_Cataclysm";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Baradin's Wardens"].." ("..FACTION_ALLIANCE..")" };
@@ -2381,6 +2293,7 @@ Syntax:
 		DungeonID = "313";
 		DungeonHeroicID = "314";
 		Acronym = AL["BWD"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "73";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2397,6 +2310,7 @@ Syntax:
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "187";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2412,6 +2326,7 @@ Syntax:
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "187";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." C-E) "..AL["Portal"] };
@@ -2425,6 +2340,7 @@ Syntax:
 		DungeonID = "447";
 		DungeonHeroicID = "448";
 		Acronym = AL["CoT-DS"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "187";
 		Module = "Atlas_Cataclysm";
 		{ WHIT.." 6) "..Atlas_GetBossName("Warmaster Blackhorn", 332) };
@@ -2488,6 +2404,7 @@ Syntax:
 		DungeonID = "361";
 		DungeonHeroicID = "362";
 		Acronym = AL["FL"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "78";
 		Module = "Atlas_Cataclysm";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Avengers of Hyjal"] };
@@ -2558,12 +2475,41 @@ Syntax:
 		{ WHIT.." 4) "..Atlas_GetBossName("Siamat", 122) };
 		{ GREN.." 1') "..AL["Tol'vir Grave"] };
 	};
+	ShadowfangKeep = {
+		ZoneName = { BZ["Shadowfang Keep"] };
+		Location = { BZ["Silverpine Forest"] };
+		DungeonID = "8";
+		DungeonHeroicID = "327";
+		Acronym = AL["SFK"];
+		JournalInstanceID = "64";
+		Module = "Atlas_Cataclysm";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Baron Ashbury", 96) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Baron Silverlaine", 97) };
+		{ WHIT..INDENT..Atlas_GetBossName("Odo the Blindwatcher").." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Razorclaw the Butcher").." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Rethilgore").." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Wolf Master Nandos").." ("..AL["Random"]..", "..AL["Summon"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Springvale", 98) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Lord Walden", 99) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Lord Godfrey", 100) };
+		{ ORNG.." 1) "..AL["Apothecary Trio"].." ("..AL["Love is in the Air"]..")" };
+		{ ORNG..INDENT..AL["Apothecary Hummel <Crown Chemical Co.>"] };
+		{ ORNG..INDENT..AL["Apothecary Baxter <Crown Chemical Co.>"] };
+		{ ORNG..INDENT..AL["Apothecary Frye <Crown Chemical Co.>"] };
+		{ GREN.." 1') "..AL["Packleader Ivar Bloodfang"].." ("..FACTION_ALLIANCE..")" };
+		{ GREN..INDENT..AL["Deathstalker Commander Belmont"].." ("..FACTION_HORDE..")" };
+		{ GREN.." 2') "..AL["Haunted Stable Hand"].." ("..AL["Teleporter"]..")" };
+		{ GREN.." 3') "..AL["Investigator Fezzen Brasstacks"].." ("..AL["Love is in the Air"]..")" };
+	};
 	TheBastionOfTwilight = {
 		ZoneName = { BZ["The Bastion of Twilight"] };
 		Location = { BZ["Twilight Highlands"] };
 		DungeonID = "315";
 		DungeonHeroicID = "316";
 		Acronym = AL["BoT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "72";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2641,6 +2587,7 @@ Syntax:
 		DungeonID = "317";
 		DungeonHeroicID = "318";
 		Acronym = AL["TWT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "74";
 		Module = "Atlas_Cataclysm";
 		{ BLUE.." A) "..AL["Entrance"] };
@@ -2775,7 +2722,7 @@ Syntax:
 		DungeonHeroicID = "471";
 		Acronym = AL["GSS"];
 		JournalInstanceID = "303";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Bowmistress Li <Guard Captain>"] };
 		{ BLUE.." B) "..AL["Exit"] };
@@ -2790,8 +2737,9 @@ Syntax:
 		DungeonID = "533";
 		DungeonHeroicID = "534";
 		Acronym = AL["HoF"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "330";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Imperial Vizier Zor'lok", 745) };
@@ -2809,7 +2757,7 @@ Syntax:
 		DungeonHeroicID = "519";
 		Acronym = AL["MP"];
 		JournalInstanceID = "321";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Trial of the King", 708) };
@@ -2826,8 +2774,9 @@ Syntax:
 		DungeonID = "531";
 		DungeonHeroicID = "532";
 		Acronym = AL["MV"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "317";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Stone Guard", 679) };
@@ -2847,6 +2796,65 @@ Syntax:
 		{ WHIT..INDENT..Atlas_GetBossName("Jan-xi", 677, 1) };
 		{ WHIT..INDENT..Atlas_GetBossName("Qin-xi", 677, 2) };
 	};
+	ScarletHalls = {
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Halls"] };
+		Location = { BZ["Tirisfal Glades"] };
+		DungeonID = "163";
+		DungeonHeroicID = "473";
+		Acronym = AL["Halls"];
+		JournalInstanceID = "311";
+		Module = "Atlas_MistsofPandaria";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..AL["Commander Lindon"] };
+		{ WHIT.." 2) "..Atlas_GetBossName("Houndmaster Braun", 660) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Armsmaster Harlan", 654) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Flameweaver Koegler", 656) };
+		{ GREN.." 1') "..AL["Hooded Crusader"] };
+		{ INDENT..GREN..AL["Bucket of Meaty Dog Food"] };
+		{ GREN.." 2') "..AL["Reinforced Archery Target"] };
+		{ GREN.." 3') "..AL["Bucket of Meaty Dog Food"] };
+	};
+	ScarletMonastery = {
+		ZoneName = { BZ["Scarlet Monastery"]..AL["Colon"]..BZ["Scarlet Monastery"] };
+		Location = { BZ["Tirisfal Glades"] };
+		DungeonID = "164";
+		DungeonHeroicID = "474";
+		Acronym = AL["SM"];
+		JournalInstanceID = "316";
+		Module = "Atlas_MistsofPandaria";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ GREN.." 1') "..AL["Hooded Crusader"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Thalnos the Soulrender", 688) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Brother Korloff", 671) };
+		{ WHIT.." 3) "..Atlas_GetBossName("High Inquisitor Whitemane", 674) };
+		{ WHIT..INDENT..Atlas_GetBossName("Commander Durand", 674, 2) };
+		{ ORNG.." 1) "..Atlas_GetBossName("Headless Horseman").." ("..AL["Hallow's End"]..")" };
+	};
+	Scholomance = {
+		ZoneName = { BZ["Scholomance"] };
+		Location = { BZ["Western Plaguelands"] };
+		DungeonID = "2";
+		DungeonHeroicID = "472";
+		Acronym = AL["Scholo"];
+		JournalInstanceID = "246";
+		Module = "Atlas_MistsofPandaria";
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-D) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Instructor Chillheart", 659) };
+		{ WHIT..INDENT..AL["Instructor Chillheart's Phylactery"] };
+		{ WHIT.." 2) "..Atlas_GetBossName("Jandice Barov", 663) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Rattlegore", 665) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Lilian Voss", 666) };
+		{ WHIT.." 5) "..AL["Professor Slate"] };
+		{ GREN..INDENT..AL["Polyformic Acid Potion"] };
+		{ WHIT.." 6) "..Atlas_GetBossName("Darkmaster Gandling", 684) };
+		{ GREN.." 1') "..AL["Talking Skull"] };
+		{ GREN.." 2') "..AL["In the Shadow of the Light"] };
+		{ GREN.." 3') "..AL["Kel'Thuzad's Deep Knowledge"] };
+		{ GREN.." 4') "..AL["Forbidden Rites and other Rituals Necromantic"] };
+		{ GREN.." 5') "..AL["Coffer of Forgotten Souls"] };
+		{ GREN.." 6') "..AL["The Dark Grimoire"] };
+	};
 	ShadoPanMonasteryA = {
 		ZoneName = { BZ["Shado-Pan Monastery"]..AL["MapA"] };
 		Location = { BZ["Kun-Lai Summit"] };
@@ -2854,7 +2862,7 @@ Syntax:
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gu Cloudstrike", 673) };
 		{ WHIT..INDENT..Atlas_GetBossName("Azure Serpent", 673, 2) };
@@ -2867,7 +2875,7 @@ Syntax:
 		DungeonHeroicID = "470";
 		Acronym = AL["SPM"];
 		JournalInstanceID = "312";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-H) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Master Snowdrift", 657) };
@@ -2880,7 +2888,7 @@ Syntax:
 		DungeonID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Vizier Jin'bak", 693) };
@@ -2892,7 +2900,7 @@ Syntax:
 		DungeonID = "554";
 		Acronym = AL["SNT"];
 		JournalInstanceID = "324";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." C) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("Commander Vo'jak", 738) };
 		{ WHIT.." 3) "..Atlas_GetBossName("General Pa'valak", 692) };
@@ -2904,8 +2912,9 @@ Syntax:
 		DungeonID = "714";
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
+		PlayerLimit = "10-30";
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Immerseus", 852) };
@@ -2919,8 +2928,9 @@ Syntax:
 		DungeonID = "714";
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
+		PlayerLimit = "10-30";
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 2) "..Atlas_GetBossName("The Fallen Protectors", 849) };
 		{ WHIT..INDENT..Atlas_GetBossName("He Softfoot", 849, 2) };
@@ -2933,8 +2943,9 @@ Syntax:
 		DungeonID = "714";
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
+		PlayerLimit = "10-30";
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." D-E) "..AL["Connection"] };
 		{ WHIT.." 5) "..Atlas_GetBossName("Galakras", 868) };
 		{ WHIT.." 6) "..Atlas_GetBossName("Iron Juggernaut", 864) };
@@ -2948,8 +2959,9 @@ Syntax:
 		DungeonID = "714";
 		DungeonHeroicID = "715";
 		Acronym = AL["SoO"];
+		PlayerLimit = "10-30";
 		JournalInstanceID = "369";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." E) "..AL["Connection"] };
 		{ WHIT.." 8) "..Atlas_GetBossName("General Nazgrim", 850) };
 		{ WHIT.." 9) "..Atlas_GetBossName("Malkorok", 846) };
@@ -2977,7 +2989,7 @@ Syntax:
 		DungeonHeroicID = "469";
 		Acronym = AL["SB"];
 		JournalInstanceID = "302";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-E) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ook-Ook", 668) };
@@ -2993,7 +3005,7 @@ Syntax:
 		DungeonHeroicID = "468";
 		Acronym = AL["TJS"];
 		JournalInstanceID = "313";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Wise Mari", 672) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Lorewalker Stonestep", 664) };
@@ -3008,8 +3020,9 @@ Syntax:
 		DungeonID = "535";
 		DungeonHeroicID = "536";
 		Acronym = AL["TES"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "320";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Protectors of the Endless", 683) };
 		{ WHIT..INDENT..Atlas_GetBossName("Elder Asani", 683, 3) };
@@ -3025,8 +3038,9 @@ Syntax:
 		DungeonID = "633";
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
@@ -3046,8 +3060,9 @@ Syntax:
 		DungeonID = "633";
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
@@ -3061,8 +3076,9 @@ Syntax:
 		DungeonID = "633";
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
@@ -3079,8 +3095,9 @@ Syntax:
 		DungeonID = "633";
 		DungeonHeroicID = "634";
 		Acronym = AL["ToT"];
+		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
-		--Module = "Atlas_MistsofPandaria"; -- comment out because MoP is current
+		Module = "Atlas_MistsofPandaria";
 		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
@@ -3093,5 +3110,248 @@ Syntax:
 		{ WHIT.." 12) "..Atlas_GetBossName("Lei Shen", 832) };
 		{ WHIT.." 13) "..Atlas_GetBossName("Ra-den", 831).." ("..AL["Heroic"]..")" };
 		{ ORNG.." 6) "..AL["Zao'cho <The Emperor's Shield>"].." ("..AL["Rare"]..")" };
+	};
+
+--************************************************
+-- Warlords of Draenor Instances
+--************************************************
+	Auchindoun = {
+		ZoneName = { BZ["Auchindoun"] };
+		Location = { BZ["Talador"] };
+		DungeonID = "820";
+		DungeonHeroicID = "845";
+		Acronym = AL["Auch"]; -- taken from BC
+		JournalInstanceID = "547";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Vigilant Kaathar", 1185) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Soulbinder Nyami", 1186) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Azzakel", 1216) };
+		{ WHIT..INDENT..Atlas_GetBossName("Blazing Trickster", 1216, 4) };
+		{ WHIT..INDENT..Atlas_GetBossName("Cackling Pyromaniac", 1216, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Felguard", 1216, 3) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Teron'gor", 1225) };
+	};
+	BlackrockFoundryA = {
+		ZoneName = { BZ["Blackrock Foundry"]..AL["MapA"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "898";
+		DungeonHeroicID = "900";
+		Acronym = AL["BRF"];
+		PlayerLimit = "10-30";
+		JournalInstanceID = "457";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Gruul", 1161).." ("..AL["Upper"]..")" };
+		{ WHIT.." 2) "..Atlas_GetBossName("Oregorger the Devourer", 1202, 1).." ("..AL["Upper"]..")" };
+		{ WHIT.." 3) "..Atlas_GetBossName("Beastlord Darmac", 1122) };
+		{ WHIT..INDENT..Atlas_GetBossName("Cruelfang", 1122, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Dreadwing", 1122, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Faultline", 1122, 5) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ironcrusher", 1122, 4) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Operator Thogar", 1147) };
+		{ WHIT.." 7) "..Atlas_GetBossName("The Blast Furnace", 1154).." ("..AL["Lower"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Bellows Operator", 1154, 4) };
+		{ WHIT..INDENT..Atlas_GetBossName("Firecaller", 1154, 6) };
+		{ WHIT..INDENT..Atlas_GetBossName("Foreman Feldspar", 1154, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Furnace Engineer", 1154, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Heart of the Mountain", 1154, 8) };
+		{ WHIT..INDENT..Atlas_GetBossName("Primal Elementalist", 1154, 5) };
+		{ WHIT..INDENT..Atlas_GetBossName("Security Guard", 1154, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Slag Elemental", 1154, 7) };
+		{ WHIT.." 10) "..Atlas_GetBossName("Blackhand", 959).." ("..AL["Upper"]..")" };
+	};
+	BlackrockFoundryB = {
+		ZoneName = { BZ["Blackrock Foundry"]..AL["MapB"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "898";
+		DungeonHeroicID = "900";
+		Acronym = AL["BRF"];
+		PlayerLimit = "10-30";
+		JournalInstanceID = "457";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." C) "..AL["Connection"] };
+		{ WHIT.." 4) "..Atlas_GetBossName("Flamebender Ka'graz", 1123) };
+		{ WHIT..INDENT..Atlas_GetBossName("Aknor Steelbringer", 1123, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Cinder Wolf", 1123, 3) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Hans'gar and Franzok", 1155) };
+		{ WHIT..INDENT..Atlas_GetBossName("Franzok", 1155, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Hans'gar", 1155, 2) };
+		{ WHIT.." 8) "..Atlas_GetBossName("Kromog", 1162) };
+		{ WHIT.." 9) "..Atlas_GetBossName("The Iron Maidens", 1203) };
+		{ WHIT..INDENT..Atlas_GetBossName("Admiral Gar'an", 1203, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Enforcer Sorka", 1203, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Marak the Blooded", 1203, 3) };
+	};
+	BloodmaulSlagMines = {
+		ZoneName = { BZ["Bloodmaul Slag Mines"] };
+		Location = { BZ["Frostfire Ridge"] };
+		DungeonID = "787";
+		DungeonHeroicID = "859";
+		Acronym = AL["BSM"];
+		JournalInstanceID = "385";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Magmolatus", 893) };
+		{ WHIT..INDENT..Atlas_GetBossName("Forgemaster Gog'duh", 893, 1) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Slave Watcher Crushto", 888) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Roltall", 887) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Gug'rokk", 889) };
+
+	};
+	TheEverbloomA = {
+		ZoneName = { BZ["The Everbloom"]..AL["MapA"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "824";
+		DungeonHeroicID = "866";
+		Acronym = AL["EB"];
+		JournalInstanceID = "556";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Witherbark", 1214) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Ancient Protectors", 1207) };
+		{ WHIT..INDENT..Atlas_GetBossName("Dulhu", 1207, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Earthshaper Telu", 1207, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Life Warden Gola", 1207, 3) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Archmage Sol", 1208) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Xeri'tac", 1209).." ("..AL["Lower"]..")" };
+	};
+	TheEverbloomB = {
+		ZoneName = { BZ["The Everbloom"]..AL["MapB"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "824";
+		DungeonHeroicID = "866";
+		Acronym = AL["EB"];
+		JournalInstanceID = "556";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
+		{ WHIT.." 5) "..Atlas_GetBossName("Yalnu", 1210) };
+	};
+	GrimrailDepot = {
+		ZoneName = { BZ["Grimrail Depot"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "822";
+		DungeonHeroicID = "858";
+		Acronym = AL["GD"];
+		JournalInstanceID = "536";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Train Ride"].." ("..AL["Event"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Rocketspark and Borka", 1138) };
+		{ WHIT..INDENT..Atlas_GetBossName("Borka the Brute", 1138, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Railmaster Rocketspark", 1138, 1) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Nitrogg Thundertower", 1163) };
+		{ WHIT..INDENT..Atlas_GetBossName("Assault Cannon", 1163, 2) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Skylord Tovra", 1133) };
+	};
+	HighmaulA = {
+		ZoneName = { BZ["Highmaul"]..AL["MapA"] };
+		Location = { BZ["Nagrand"] };
+		DungeonID = "895";
+		DungeonHeroicID = "897";
+		Acronym = AL["HM"];
+		PlayerLimit = "10-30";
+		JournalInstanceID = "477";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Lower"]..")" };
+		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Kargath Bladefist", 1128) };
+		{ WHIT.." 2) "..Atlas_GetBossName("The Butcher", 971) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Tectus", 1195) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Brackenspore", 1196) };
+		{ WHIT..INDENT..Atlas_GetBossName("Fungal Flesh-Eater", 1196, 2) };
+	};
+	HighmaulB = {
+		ZoneName = { BZ["Highmaul"]..AL["MapB"] };
+		Location = { BZ["Nagrand"] };
+		DungeonID = "895";
+		DungeonHeroicID = "897";
+		Acronym = AL["HM"];
+		PlayerLimit = "10-30";
+		JournalInstanceID = "477";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." B-D) "..AL["Connection"] };
+		{ WHIT.." 5) "..Atlas_GetBossName("Twin Ogron", 1148) };
+		{ WHIT..INDENT..Atlas_GetBossName("Phemos", 1148, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Pol", 1148, 1) };
+		{ WHIT.." 6) "..Atlas_GetBossName("Ko'ragh", 1153) };
+		{ WHIT.." 7) "..Atlas_GetBossName("Imperator Mar'gok", 1197) };
+	};
+	IronDocks = {
+		ZoneName = { BZ["Iron Docks"] };
+		Location = { BZ["Gorgrond"] };
+		DungeonID = "821";
+		DungeonHeroicID = "857";
+		Acronym = AL["ID"];
+		JournalInstanceID = "558";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Fleshrender Nok'gar", 1235) };
+		{ WHIT..INDENT..Atlas_GetBossName("Dreadfang", 1235, 2) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Grimrail Enforcers", 1236) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ahri'ok Dugru", 1236, 1) };
+		{ WHIT..INDENT..Atlas_GetBossName("Makogg Emberblade", 1236, 2) };
+		{ WHIT..INDENT..Atlas_GetBossName("Nesa \"Hightower\" Nox", 1236, 3) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Oshir", 1237) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Skulloc", 1238) };
+		{ WHIT..INDENT..Atlas_GetBossName("Koramar", 1238, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Zoggosh", 1238, 2) };
+	};
+	ShadowmoonBurialGrounds = {
+		ZoneName = { BZ["Shadowmoon Burial Grounds"] };
+		Location = { BZ["Shadowmoon Valley"] };
+		DungeonID = "783";
+		DungeonHeroicID = "784";
+		Acronym = AL["SBG"];
+		JournalInstanceID = "537";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B) "..AL["Connection"].. " ("..AL["Portal"]..")" };
+		{ WHIT.." 1) "..Atlas_GetBossName("Sadana Bloodfury", 1139) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Nhallish", 1168) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Bonemaw", 1140) };
+		{ WHIT..INDENT..Atlas_GetBossName("Carrion Worm", 1140, 2) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Ner'zhul", 1160) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ritual of Bones", 1160, 2) };
+	};
+	Skyreach = {
+		ZoneName = { BZ["Skyreach"] };
+		Location = { BZ["Spires of Arak"] };
+		DungeonID = "779";
+		DungeonHeroicID = "780";
+		Acronym = AL["SR"];
+		JournalInstanceID = "476";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Ranjit", 965) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Araknath", 966) };
+		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Sun Construct Prototype", 966, 2) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Rukhran", 967) };
+		{ WHIT..INDENT..Atlas_GetBossName("Solar Flare", 967, 2) };
+		{ WHIT.." 4) "..Atlas_GetBossName("High Sage Viryx", 968).." ("..AL["Upper"]..")" };
+		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Shield Construct", 968, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Arakkoa Solar Zealot", 968, 2) };
+	};
+	UpperBlackrockSpire = {
+		ZoneName = { BZ["Blackrock Mountain"]..AL["Colon"]..BZ["Upper Blackrock Spire"] };
+		Location = { BZ["Searing Gorge"].." / "..BZ["Burning Steppes"] };
+		DungeonID = "828";
+		DungeonHeroicID = "860";
+		Acronym = AL["UBRS"];
+		JournalInstanceID = "559";
+		--Module = "Atlas_WorldofDraenor"; -- comment out because WoD is current
+		{ BLUE.." A) "..AL["Entrance"] };
+		{ BLUE.." B-C) "..AL["Connection"] };
+		{ WHIT.." 1) "..Atlas_GetBossName("Orebender Gor'ashan", 1226) };
+		{ WHIT.." 2) "..Atlas_GetBossName("Kyrak", 1227) };
+		{ WHIT..INDENT..Atlas_GetBossName("Drakonid Monstrosity", 1227, 2) };
+		{ WHIT.." 3) "..Atlas_GetBossName("Commander Tharbek", 1228) };
+		{ WHIT..INDENT..Atlas_GetBossName("Black Iron Guard", 1228, 3) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ironbarb Skyreaver", 1228, 2) };
+		{ WHIT.." 4) "..Atlas_GetBossName("Ragewing the Untamed", 1229) };
+		{ WHIT..INDENT..Atlas_GetBossName("Ragewind Whelp", 1229, 2) };
+		{ WHIT.." 5) "..Atlas_GetBossName("Warlord Zaela", 1234) };
 	};
 };

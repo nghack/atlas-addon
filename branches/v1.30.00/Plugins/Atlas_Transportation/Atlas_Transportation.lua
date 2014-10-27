@@ -47,6 +47,9 @@ local myData = {
 		ZoneName = { BZ["Draenor"].." ("..FACTION_ALLIANCE..")" };
 		{ _RED..AL["Portals"] };
 		{ PURP.." A) "..BZ["Khadgar's Tower"]..", "..BZ["Talador"] };
+		{ PURP.." A') "..BZ["Darnassus"]..", "..BZ["Teldrassil"]..", "..BZ["Kalimdor"] };
+		{ PURP.." B') "..BZ["Ironforge"]..", "..BZ["Dun Morogh"]..", "..BZ["Eastern Kingdoms"] };
+		{ PURP.." C') "..BZ["Stormwind City"]..", "..BZ["Elwynn Forest"]..", "..BZ["Eastern Kingdoms"] };
 		{ WHIT.."18) "..BZ["Zangarra"]..", "..BZ["Talador"] };
 		{ "" };
 		{ _RED..AL["Taxi Nodes"] };

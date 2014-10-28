@@ -224,7 +224,7 @@ Syntax:
 		Acronym = AL["CoT3"];
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..AL["Battle for Mount Hyjal"] };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Scale of the Sands"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Scale of the Sands"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..BZ["Alliance Base"] };
 		{ BLUE.." C) "..BZ["Horde Encampment"] };
@@ -629,7 +629,7 @@ Syntax:
 		Acronym = AL["AQ10"];
 		PlayerLimit = "10";
 		Module = "Atlas_ClassicWoW";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Circle"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Cenarion Circle"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Kurinnaxx") };
 		{ GREN..INDENT..Atlas_GetBossName("Lieutenant General Andorov") };
@@ -655,7 +655,7 @@ Syntax:
 		Acronym = AL["AQ40"];
 		PlayerLimit = "40";
 		Module = "Atlas_ClassicWoW";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Brood of Nozdormu"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Brood of Nozdormu"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B-D) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Prophet Skeram").." ("..AL["Outside"]..")" };
@@ -907,7 +907,7 @@ Syntax:
 		PlayerLimit = "40";
 		Module = "Atlas_ClassicWoW";
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Hydraxian Waterlords"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Hydraxian Waterlords"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Lucifron") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Magmadar") };
@@ -1050,7 +1050,7 @@ Syntax:
 		Acronym = AL["AC"];
 		JournalInstanceID = "247";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Lower City"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Draenei Spirit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Shirrak the Dead Watcher", 523) };
@@ -1067,7 +1067,7 @@ Syntax:
 		Acronym = AL["MT"];
 		JournalInstanceID = "250";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Consortium"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Consortium"] };
 		{ ORNG..AL["Key"]..AL["Colon"]..ALIL["The Eye of Haramad"].." ("..AL["Exalted"]..", "..Atlas_GetBossName("Yor")..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Artificer Morphalius"] };
@@ -1089,7 +1089,7 @@ Syntax:
 		Acronym = AL["Seth"];
 		JournalInstanceID = "252";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Lower City"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Isfar"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Darkweaver Syth", 541) };
@@ -1107,7 +1107,7 @@ Syntax:
 		Acronym = AL["SL"];
 		JournalInstanceID = "253";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Lower City"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Lower City"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Field Commander Mahfuun"] };
 		{ GREN..INDENT..AL["Spy Grik'tha"] };
@@ -1127,7 +1127,7 @@ Syntax:
 		Acronym = AL["BT"];
 		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Towards Reliquary of Souls"] };
 		{ BLUE.." C) "..AL["Towards Teron Gorefiend"] };
@@ -1148,7 +1148,7 @@ Syntax:
 		Acronym = AL["BT"];
 		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." B) "..AL["Entrance"] };
 		{ BLUE.." C) "..AL["Entrance"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Gurtogg Bloodboil") };
@@ -1165,7 +1165,7 @@ Syntax:
 		Acronym = AL["BT"];
 		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Ashtongue Deathsworn"] };
 		{ BLUE.." D) "..AL["Entrance"] };
 		{ BLUE.." E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Mother Shahraz") };
@@ -1183,7 +1183,7 @@ Syntax:
 		Acronym = AL["SSC"];
 		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Expedition"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hydross the Unstable") };
 		{ WHIT.." 2) "..Atlas_GetBossName("The Lurker Below") };
@@ -1201,7 +1201,7 @@ Syntax:
 		Acronym = AL["SP"];
 		JournalInstanceID = "260";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Expedition"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Nahuud"] };
 		{ GREN..INDENT..AL["Watcher Jhang"] };
@@ -1221,7 +1221,7 @@ Syntax:
 		Acronym = AL["SV"];
 		JournalInstanceID = "261";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Expedition"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Naturalist Bite"] };
 		{ GREN..INDENT..AL["Watcher Jhang"] };
@@ -1242,7 +1242,7 @@ Syntax:
 		Acronym = AL["UB"];
 		JournalInstanceID = "262";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Cenarion Expedition"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Cenarion Expedition"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Naturalist Bite"] };
 		{ GREN..INDENT..AL["T'shu"] };
@@ -1266,7 +1266,7 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..BZ["Opening of the Dark Portal"] };
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Keepers of Time"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Sa'at <Keepers of Time>"] };
 		{ ORNG.." X) "..AL["Portal"].." ("..AL["Spawn Point"]..")" };
@@ -1285,7 +1285,7 @@ Syntax:
 		Acronym = AL["CoT3"];
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..BZ["The Battle for Mount Hyjal"] };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Scale of the Sands"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Scale of the Sands"] };
 		{ BLUE.." A) "..BZ["Alliance Base"] };
 		{ GREN..INDENT..AL["Lady Jaina Proudmoore"] };
 		{ BLUE.." B) "..BZ["Horde Encampment"] };
@@ -1309,7 +1309,7 @@ Syntax:
 		Module = "Atlas_BurningCrusade";
 		{ PURP..AL["Event"]..AL["Colon"]..BZ["The Escape From Durnholde"] };
 		{ ORNG..AL["Attunement Required"] };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Keepers of Time"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Keepers of Time"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Erozion"] };
 		{ GREN..INDENT..AL["Brazen"] };
@@ -1397,8 +1397,8 @@ Syntax:
 		Acronym = AL["BF"];
 		JournalInstanceID = "256";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Gunny"].." ("..FACTION_ALLIANCE..")" };
 		{ GREN..INDENT..AL["Caza'rez"].." ("..FACTION_HORDE..")" };
@@ -1414,8 +1414,8 @@ Syntax:
 		Acronym = AL["Ramp"];
 		JournalInstanceID = "248";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Advance Scout Chadwick"].." ("..FACTION_ALLIANCE..")" };
 		{ GREN..INDENT..AL["Stone Guard Stok'ton"].." ("..FACTION_HORDE..")" };
@@ -1443,8 +1443,8 @@ Syntax:
 		Acronym = AL["SH"];
 		JournalInstanceID = "259";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Honor Hold"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Thrallmar"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Advance Scout Chadwick"].." ("..FACTION_ALLIANCE..")" };
 		{ GREN..INDENT..AL["Gunny"].." ("..FACTION_ALLIANCE..")" };
@@ -1471,7 +1471,7 @@ Syntax:
 		Acronym = AL["Kara"];
 		PlayerLimit = "10";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Violet Eye"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Violet Eye"] };
 		{ BLUE.." A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.." B-J) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Attumen the Huntsman") };
@@ -1520,7 +1520,7 @@ Syntax:
 		Acronym = AL["Kara"];
 		PlayerLimit = "10";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Violet Eye"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Violet Eye"] };
 		{ BLUE.." I) "..AL["Path to the Broken Stairs"] };
 		{ BLUE.." J) "..AL["Broken Stairs"] };
 		{ BLUE.." K) "..AL["Ramp to Guardian's Library"].." ("..Atlas_GetBossName("Shade of Aran")..")" };
@@ -1551,7 +1551,7 @@ Syntax:
 		Acronym = AL["MaT"];
 		JournalInstanceID = "249";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shattered Sun Offensive"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Shattered Sun Offensive"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Exarch Larethor"] };
 		{ BLUE.." B) "..AL["Exit"].." ("..AL["Portal"]..")" };
@@ -1602,7 +1602,7 @@ Syntax:
 		Acronym = AL["Arca"];
 		JournalInstanceID = "254";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Sha'tar"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Zereketh the Unbound", 548) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Dalliah the Doomsayer", 549) };
@@ -1622,7 +1622,7 @@ Syntax:
 		Acronym = AL["Bota"];
 		JournalInstanceID = "257";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Sha'tar"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Commander Sarannis", 558) };
@@ -1639,7 +1639,7 @@ Syntax:
 		Acronym = AL["Mech"];
 		JournalInstanceID = "258";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Sha'tar"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Exit"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Gatewatcher Gyro-Kill") };
@@ -1657,7 +1657,7 @@ Syntax:
 		Acronym = AL["TK"];
 		PlayerLimit = "25";
 		Module = "Atlas_BurningCrusade";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Sha'tar"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Sha'tar"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Al'ar") };
 		{ WHIT.." 2) "..Atlas_GetBossName("Void Reaver") };
@@ -1840,7 +1840,7 @@ Syntax:
 		Acronym = AL["IC"];
 		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ BLUE.." C) "..AL["To next map"] };
@@ -1862,7 +1862,7 @@ Syntax:
 		Acronym = AL["IC"];
 		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." C) "..AL["From previous map"] };
 		{ BLUE.." D-H) "..AL["Connection"] };
 		{ BLUE.." I) "..AL["To next map"] };
@@ -1892,7 +1892,7 @@ Syntax:
 		Acronym = AL["IC"];
 		PlayerLimit = "10/25";
 		Module = "Atlas_WrathoftheLichKing";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["The Ashen Verdict"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["The Ashen Verdict"] };
 		{ BLUE.." I) "..AL["From previous map"] };
 		{ WHIT.."16) "..Atlas_GetBossName("The Lich King") };
 	};
@@ -2280,8 +2280,8 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "75";
 		Module = "Atlas_Cataclysm";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Baradin's Wardens"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Hellscream's Reach"].." ("..FACTION_HORDE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Baradin's Wardens"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Hellscream's Reach"].." ("..FACTION_HORDE..")" };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Argaloth", 139) };
 		{ WHIT.." 2) "..Atlas_GetBossName("Occu'thar", 140) };
@@ -2425,7 +2425,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "78";
 		Module = "Atlas_Cataclysm";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Avengers of Hyjal"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Avengers of Hyjal"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ GREN..INDENT..AL["Lurah Wrathvine <Crystallized Firestone Collector>"] };
 		{ GREN..INDENT..AL["Naresir Stormfury <Avengers of Hyjal Quartermaster>"] };
@@ -3059,7 +3059,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
 		Module = "Atlas_MistsofPandaria";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." A) "..AL["Entrance"] };
 		{ BLUE.." B) "..AL["Connection"] };
 		{ WHIT.." 1) "..Atlas_GetBossName("Jin'rokh the Breaker", 827) };
@@ -3081,7 +3081,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
 		Module = "Atlas_MistsofPandaria";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." B-C) "..AL["Connection"] };
 		{ WHIT.." 4) "..Atlas_GetBossName("Tortos", 825) };
 		{ WHIT.." 5) "..Atlas_GetBossName("Megaera", 821) };
@@ -3097,7 +3097,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
 		Module = "Atlas_MistsofPandaria";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." C-E) "..AL["Connection"] };
 		{ WHIT.." 7) "..Atlas_GetBossName("Durumu the Forgotten", 818) };
 		{ ORNG..INDENT..AL["Focused Eye"].." ("..AL["Rare"]..")" };
@@ -3116,7 +3116,7 @@ Syntax:
 		PlayerLimit = "10/25";
 		JournalInstanceID = "362";
 		Module = "Atlas_MistsofPandaria";
-		{ ORNG..AL["Reputation"]..AL["Colon"]..ALIL["Shado-Pan Assault"] };
+		{ ORNG..REPUTATION..AL["Colon"]..ALIL["Shado-Pan Assault"] };
 		{ BLUE.." D-F) "..AL["Connection"] };
 		{ WHIT.." 10) "..Atlas_GetBossName("Iron Qon", 817) };
 		{ WHIT..INDENT..Atlas_GetBossName("Dam'ren", 817, 4) };

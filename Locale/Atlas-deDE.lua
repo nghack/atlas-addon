@@ -230,12 +230,12 @@ if AL then
 	AL["Purple"] = "Lila";
 	AL["Random"] = "Zufällig";
 	AL["Rare"] = "Selten";
-	AL["Reputation"] = "Ruf";
 	AL["Repair"] = "Reparieren";
 	AL["Retribution Paladin"] = "Vergeltungs Paladin";
 	AL["Rewards"] = "Belohnungen";
 	AL["Rogue"] = "Schurke";
 	AL["Second Stop"] = "Zweiter Halt";
+
 	AL["Shadow Priest"] = "Schatten Priesterin";
 	AL["Shaman"] = "Schamane";
 	AL["Spawn Point"] = "Spawnpunkt";

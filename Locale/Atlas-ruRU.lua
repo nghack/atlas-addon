@@ -230,7 +230,6 @@ if AL then
 	AL["Rewards"] = "Награды";
 	AL["Rogue"] = "Разбойник";
 	AL["Second Stop"] = "Вторая остановка";
-
 	AL["Shadow Priest"] = "Жрец-Темной магии";
 	AL["Shaman"] = "Шаман";
 	AL["Spawn Point"] = "Точка рождения";

@@ -208,7 +208,6 @@ if AL then
 	--AL["Rewards"] = "Rewards";
 	--AL["Rogue"] = "Rogue";
 	--AL["Second Stop"] = "Second Stop";
-
 	--AL["Shadow Priest"] = "Shadow Priest";
 	--AL["Shaman"] = "Shaman";
 	--AL["Spawn Point"] = "Spawn Point";

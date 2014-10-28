@@ -14,6 +14,7 @@ v1.30.01 (Nov. XX, 2014)
     - Lower Blackrock Spire
     - Razorfen Downs
     - Razorfen Kraul
+- Split entrance maps from Atlas core addon
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

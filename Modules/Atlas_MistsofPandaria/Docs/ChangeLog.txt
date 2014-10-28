@@ -9,5 +9,6 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.30.01 (Nov. XX, 2014)
 -----------------------
-- Splitted from Atlas core addon
+- Split from Atlas core addon
+- Split entrance maps from Atlas core addon
 - Updated Scarlet Monastery with Headless Horseman (Hallow's End)

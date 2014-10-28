@@ -234,7 +234,6 @@ if AL then
 	AL["Rewards"] = "Récompenses";
 	AL["Rogue"] = "Voleur";
 	AL["Second Stop"] = "Deuxième arrêt";
-
 	AL["Shadow Priest"] = "Prêtre Ombre";
 	AL["Shaman"] = "Chaman";
 	AL["Spawn Point"] = "Points d'apparition";

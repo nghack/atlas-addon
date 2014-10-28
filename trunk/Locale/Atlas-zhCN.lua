@@ -226,7 +226,6 @@ if AL then
 	AL["Rewards"] = "奖励";
 	AL["Rogue"] = "潜行者";
 	AL["Second Stop"] = "第二次止步";
-
 	AL["Shadow Priest"] = "暗影牧师";
 	AL["Shaman"] = "萨满祭司";
 	AL["Spawn Point"] = "刷新点";

@@ -221,12 +221,12 @@ if AL then
 	AL["Purple"] = "紫";
 	AL["Random"] = "隨機";
 	AL["Rare"] = "稀有";
-	AL["Reputation"] = "聲望";
 	AL["Repair"] = "修理";
 	AL["Retribution Paladin"] = "懲戒聖騎";
 	AL["Rewards"] = "獎勵";
 	AL["Rogue"] = "盜賊";
 	AL["Second Stop"] = "第二停留點";
+
 	AL["Shadow Priest"] = "暗影牧師";
 	AL["Shaman"] = "薩滿";
 	AL["Spawn Point"] = "生成點";
@@ -494,9 +494,9 @@ if AL then
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努薩克雷 <陶土議會>";
 	AL["Sentinel Aluwyn"] = "哨兵阿露溫";
 	AL["Zeya"] = "仄亞";
-	AL["Altar of Blood"] = "Altar of Blood";
-	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
-	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
+	AL["Altar of Blood"] = "血祭談";
+	AL["Fire of Aku'mai"] = "阿庫麥爾之火";
+	AL["Spoils of Blackfathom"] = "黑澗之寶";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "達格索大使";
@@ -534,7 +534,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "柯莉史卓莎";
-	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
+	AL["Amnennar's Phylactery"] = "亞門納爾的骨匣";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奧爾德·石塔";

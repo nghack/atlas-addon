@@ -225,12 +225,12 @@ if AL then
 	AL["Purple"] = "Пурпурный";
 	AL["Random"] = "Случайный";
 	AL["Rare"] = "Редкий";
-	AL["Reputation"] = "Репа";
 	AL["Repair"] = "Починка";
 	AL["Retribution Paladin"] = "Паладин-Возмездия";
 	AL["Rewards"] = "Награды";
 	AL["Rogue"] = "Разбойник";
 	AL["Second Stop"] = "Вторая остановка";
+
 	AL["Shadow Priest"] = "Жрец-Темной магии";
 	AL["Shaman"] = "Шаман";
 	AL["Spawn Point"] = "Точка рождения";

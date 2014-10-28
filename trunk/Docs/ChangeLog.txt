@@ -8,7 +8,7 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 ==============
 
 v1.30.01 (Nov. XX, 2014)
------------------------
+------------------------
 - Maps added:
     - Auchindoun
     - Blackrock Foundry (Raid)
@@ -24,6 +24,12 @@ v1.30.01 (Nov. XX, 2014)
 - Update libraries: LibBabble-SubZone-3.0, LibDialog-1.0
 - Split Mists of Pandaria maps to independent module
 - Split entrance maps from Atlas core addon
+- Translation updates:
+    - deDE (Dynaletik)
+    - esES/esMX (maqjav)
+    - frFR (dokcharlie)
+    - zhCN/zhTW (ananhaid / Arith)
+    - ruRU (StingerSoft)
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

@@ -7,7 +7,7 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.30.01 (Nov. XX, 2014)
+v1.31.00 (Nov. XX, 2014)
 ------------------------
 - Maps added:
     - Auchindoun
@@ -21,7 +21,6 @@ v1.30.01 (Nov. XX, 2014)
     - Skyreach
 - Maps updated:
     - Upper Blackrock Spire
-- Update libraries: LibBabble-SubZone-3.0, LibDialog-1.0
 - Split Mists of Pandaria maps to independent module
 - Split entrance maps from Atlas core addon
 - Translation updates:
@@ -30,6 +29,10 @@ v1.30.01 (Nov. XX, 2014)
     - frFR (dokcharlie)
     - zhCN/zhTW (ananhaid / Arith)
     - ruRU (StingerSoft)
+
+v1.30.01 (Oct. 29, 2014)
+------------------------
+- Update libraries: LibBabble-SubZone-3.0, LibDialog-1.0
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

@@ -25,6 +25,8 @@ v1.31.00 (Nov. XX, 2014)
 - Split entrance maps from Atlas core addon
 - Added boss's overview info (if available) to the game tooltip while hover to 
   the boss location on the dungeon map
+- Added the codes back to check the Atlas modules, when not available, put a 
+  placeholder map with notification text
 - Translation updates:
     - deDE (Dynaletik)
     - esES/esMX (maqjav)

@@ -110,6 +110,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "诺森德副本";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "深岩之洲副本";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "潘达利亚副本";
+--	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Draenor Instances";
 	AL["ATLAS_DDL_LEVEL"] = "等级";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "45 级以下副本";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "45-60 级副本";
@@ -117,7 +118,8 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "70-80 级副本";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "80-85 级副本";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "85-90 级以副本";
-	AL["ATLAS_DDL_LEVEL_90PLUS"] = "90 级以上副本";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "90-100 级以副本";
+	AL["ATLAS_DDL_LEVEL_100PLUS"] = "100 级以上副本";
 	AL["ATLAS_DDL_PARTYSIZE"] = "副本规模";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "5 人副本 1/3";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "5 人副本 2/3";
@@ -133,6 +135,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "《巫妖王之怒》副本";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大地的裂变》副本";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "《熊猫人之谜》副本";
+--	AL["ATLAS_DDL_EXPANSION_WOD"] = "Warlords of Draenor Instances";
 	AL["ATLAS_DDL_TYPE"] = "类型";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "副本 1/5";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "副本 2/5";
@@ -251,7 +254,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
-	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj
+	AL["AQ10"] = "AQ10"; -- Ruins of Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps
 	AL["BRD"] = "BRD"; -- Blackrock Depths
@@ -480,18 +483,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "格里哈斯特神殿";
-	AL["Fathom Stone"] = "深渊之石";
-	AL["Lorgalis Manuscript"] = "洛迦里斯手稿";
-	AL["Scout Thaelrid"] = "斥候塞尔瑞德";
-	AL["Flaming Eradicator"] = "烈焰根除者";
-	AL["Altar of the Deeps"] = "玛塞斯特拉祭坛";
-	AL["Ashelan Northwood"] = "阿舍兰·北林";
-	AL["Relwyn Shadestar"] = "莱温·影星";
-	AL["Sentinel Aluwyn"] = "哨兵阿露温";
-	AL["Sentinel-trainee Issara"] = "受训哨兵伊莎娜";
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努萨克雷 <大地之环>";
+	AL["Sentinel Aluwyn"] = "哨兵阿露温";
 	AL["Zeya"] = "泽雅";
+--	AL["Altar of Blood"] = "Altar of Blood";
+--	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
+--	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "“大使”达戈索尔";
@@ -529,12 +526,11 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "克莉丝塔萨";
-	AL["Belnistrasz"] = "奔尼斯特拉兹";
+--	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奥尔德·石塔 ";
 	AL["Spirit of Agamaggan <Ancient>"] = "阿迦玛甘之魂 <远古半神>";
-	AL["Willix the Importer"] = "进口商威利克斯";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "卡多雷四精英";
@@ -611,11 +607,6 @@ if AL then
 	AL["Elder Stonefort"] = "石墙长者";
 	AL["Roughshod Pike"] = "尖锐长矛";
 
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "芬克·恩霍尔";
-	AL["Drakkisath's Brand"] = "达基萨斯的烙印";
-	AL["Father Flame"] = "烈焰之父";
-
 	--Blackwing Lair
 	AL["Orb of Domination"] = "龙翼祭坛";
 	AL["Master Elemental Shaper Krixix"] = "大元素师克里希克";
@@ -632,35 +623,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "汉尼巴尔 <S.A.F.E.>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Commander Lindon"] = "指挥官林顿";
-	AL["Hooded Crusader"] = "蒙面的十字军战士";
-	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
-	AL["Reinforced Archery Target"] = "强固箭靶";
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
-	AL["Professor Slate"] = "斯雷特教授";
-	AL["Polyformic Acid Potion"] = "蚁酸药水";
-	AL["Talking Skull"] = "缚魂魔袋";
-	AL["In the Shadow of the Light"] = "光明下的阴影";
-	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
-	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
-	AL["The Dark Grimoire"] = "黑暗法典";
-
-	--Shadowfang Keep
-	AL["Apothecary Trio"] = "药剂师三人组";
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师汉摩尔 <皇冠药剂公司>";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "药剂师拜克斯特 <皇冠药剂公司>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "药剂师弗莱 <皇冠药剂公司>";
-	AL["Packleader Ivar Bloodfang"] = "狼群首领伊瓦·血牙";
-	AL["Deathstalker Commander Belmont"] = "死亡猎手指挥官贝尔蒙特";
-	AL["Haunted Stable Hand"] = "鬼怪马夫";
-	AL["Investigator Fezzen Brasstacks"] = "调查员费岑·布莱斯塔克";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "十字军指挥官埃里戈尔·黎明使者 <圣光兄弟会>";
@@ -1096,6 +1058,16 @@ if AL then
 	AL["Captain Hadan"] = "哈丹队长";
 	AL["Tol'vir Grave"] = "托维尔之墓";
 
+	--Shadowfang Keep
+	AL["Apothecary Trio"] = "药剂师三人组";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "药剂师汉摩尔 <皇冠药剂公司>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "药剂师拜克斯特 <皇冠药剂公司>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "药剂师弗莱 <皇冠药剂公司>";
+	AL["Packleader Ivar Bloodfang"] = "狼群首领伊瓦·血牙";
+	AL["Deathstalker Commander Belmont"] = "死亡猎手指挥官贝尔蒙特";
+	AL["Haunted Stable Hand"] = "鬼怪马夫";
+	AL["Investigator Fezzen Brasstacks"] = "调查员费岑·布莱斯塔克";
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1183,6 +1155,25 @@ if AL then
 
 	--Mogu'shan Vaults
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "指挥官林顿";
+	AL["Hooded Crusader"] = "蒙面的十字军战士";
+	AL["Bucket of Meaty Dog Food"] = "一桶多肉狗食";
+	AL["Reinforced Archery Target"] = "强固箭靶";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "指导者寒心的护命匣";
+	AL["Professor Slate"] = "斯雷特教授";
+	AL["Polyformic Acid Potion"] = "蚁酸药水";
+	AL["Talking Skull"] = "缚魂魔袋";
+	AL["In the Shadow of the Light"] = "光明下的阴影";
+	AL["Kel'Thuzad's Deep Knowledge"] = "克尔苏加德的深层知识";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "禁忌咒文及其他死灵仪式";
+	AL["Coffer of Forgotten Souls"] = "失落灵魂容器";
+	AL["The Dark Grimoire"] = "黑暗法典";
+
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "班·熊心";
 
@@ -1210,5 +1201,30 @@ if AL then
 	AL["Archritualist Kelada"] = "大祭师克拉达";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "感染者弗赖什鲁克 <源生蜥蜴恐魔>";
 	AL["Zao'cho <The Emperor's Shield>"] = "曹卓 <皇帝之盾>";
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+--	AL["Train Ride"] = "Train Ride";
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

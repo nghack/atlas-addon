@@ -1075,7 +1075,6 @@ if AL then
 	AL["Haunted Stable Hand"] = "鬼怪獸欄僕人";
 	AL["Investigator Fezzen Brasstacks"] = "調查員菲贊·銅釘";
 
-
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1223,6 +1222,7 @@ if AL then
 	--The Everbloom
 
 	--Grimrail Depot
+--	AL["Train Ride"] = "Train Ride";
 
 	--Highmaul
 

@@ -118,6 +118,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Instances de Norfendre";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Instances du Tréfonds";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Instances de Pandarie";
+	--AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Draenor Instances";
 	AL["ATLAS_DDL_LEVEL"] = "Niveau";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances avant Niveau 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Niveau 45-60";
@@ -125,7 +126,8 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Instances Niveau 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Instances Niveau 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Instances Niveau 85-90";
-	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Instances Niveau 90+";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "Instances Niveau 90-100";
+	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Instances Niveau 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Taille de Groupe";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Instances pour 5 Joueurs A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Instances pour 5 Joueurs F-S";
@@ -141,6 +143,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Instances Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Instances Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Instances Mists of Pandaria";
+	--AL["ATLAS_DDL_EXPANSION_WOD"] = "Warlords of Draenor Instances";
 	AL["ATLAS_DDL_TYPE"] = "Type";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Instances A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Instances C-F";
@@ -243,6 +246,7 @@ if AL then
 	AL["Teleporter destination"] = "Destination du téléporteur";
 	AL["Third Stop"] = "Troisième arrêt";
 	AL["Top"] = "Haut";
+	--AL["Tunnel"] = "Tunnel";
 	AL["Underwater"] = "Sous l'eau";
 	AL["Upper"] = "En haut";
 	AL["Varies"] = "Variable";
@@ -258,7 +262,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
-	AL["AQ20"] = "AQ20"; -- Ruins of Ahn'Qiraj, Ruines d'Ahn'Qiraj
+	AL["AQ10"] = "AQ10"; -- Ruins of Ahn'Qiraj, Ruines d'Ahn'Qiraj
 	AL["AQ40"] = "AQ40"; -- Temple of Ahn'Qiraj, Temple d'Ahn'Qiraj
 	AL["BFD"] = "BFD"; -- Blackfathom Deeps, Profondeurs de Brassenoire
 	AL["BRD"] = "BRD"; -- Blackrock Depths, Profondeurs de Rochenoire
@@ -266,22 +270,16 @@ if AL then
 	AL["BWL"] = "BWL"; -- Blackwing Lair, Repaire de l'Aile noire
 	AL["DM"] = "DM/HT"; -- Dire Maul, Hache-tripes
 	AL["Gnome"] = "Gnome"; -- Gnomeregan
-	AL["Halls"] = "Salles"; -- Salles Écarlates
 	AL["LBRS"] = "LBRS/Pic 1"; -- Lower Blackrock Spire, Pic Rochenoire
 	AL["Mara"] = "Mara"; -- Maraudon
 	AL["MC"] = "MC"; -- Molten Core, Cœur du Magma
 	AL["RFC"] = "RFC"; -- Ragefire Chasm, Gouffre de Ragefeu
 	AL["RFD"] = "RFD"; -- Razorfen Downs, Souilles de Tranchebauge
 	AL["RFK"] = "RFK"; -- Razorfen Kraul, Kraal de Tranchebauge
-	AL["Scholo"] = "Scholo"; -- Scholomance
-	AL["SFK"] = "SFK"; -- Shadowfang Keep, Donjon d'Ombrecroc
-	AL["SM"] = "SM/Le Mona"; -- Scarlet Monastery, Monastère écarlate
 	AL["ST"] = "ST"; -- Sunken Temple, Le temple d'Atal'Hakkar
 	AL["Strat"] = "Strat"; -- Stratholme
 	AL["Stocks"] = "Stocks/Prison"; -- The Stockade, La Prison
-	AL["UBRS"] = "UBRS/Pic 2"; -- Upper Blackrock Spire, Pic Rochenoire
 	AL["Ulda"] = "Ulda"; -- Uldaman
-	AL["VC"] = "VC"; -- The Deadmines, Les Mortemines
 	AL["WC"] = "WC/Lam"; -- Wailing Caverns, Cavernes des lamentations
 	AL["ZF"] = "ZF"; -- Zul'Farrak
 
@@ -361,24 +359,49 @@ if AL then
 	AL["GB"] = "GB"; --Grim Batol
 	AL["HoO"] = "HoO"; --Halls of Origination
 	AL["LCoT"] = "LCoT"; --Lost City of the Tol'vir 
+	AL["SFK"] = "SFK"; -- Shadowfang Keep, Donjon d'Ombrecroc
 	AL["TSC"] = "TSC"; --The Stonecore
 	AL["TWT"] = "TWT"; --Throne of the Four Winds
 	AL["ToTT"] = "ToTT"; --Throne of the Tides
+	AL["VC"] = "VC"; -- The Deadmines, Les Mortemines
 	AL["VP"] = "VP"; --The Vortex Pinnacle
 	AL["ZA"] = "ZA"; -- Zul'Aman
 	AL["ZG"] = "ZG"; --Zul'Gurub
 
 	--MoP Acronyms
 	AL["GSS"] = "GSS"; --Gate of the Setting Sun
+	AL["Halls"] = "Salles"; -- Salles Écarlates
 	AL["HoF"] = "HoF"; --Heart of Fear
 	AL["MP"] = "MP"; --Mogu'shan Palace
 	AL["MV"] = "MV"; --Mogu'shan Vaults
+	AL["SM"] = "SM/Le Mona"; -- Scarlet Monastery, Monastère écarlate
+	AL["Scholo"] = "Scholo"; -- Scholomance
 	AL["SPM"] = "SPM"; --Shado-Pan Monastery
 	AL["SNT"] = "SNT"; --Siege of Niuzao Temple
 	AL["SB"] = "SB"; --Stormstout Brewery
+	AL["SoO"] = "SoO"; --Siege of Orgrimmar
 	AL["TJS"] = "TJS"; --Temple of the Jade Serpent
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
+
+	--WoD Acronyms
+	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+	AL["EB"] = "EB"; -- The Everbloom
+	AL["GD"] = "GD"; -- Grimrail Depot
+	AL["HM"] = "HM"; -- Highmaul
+	AL["ID"] = "ID"; -- Iron Docks
+	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "UBRS/Pic 2"; -- Upper Blackrock Spire, Pic Rochenoire
+
+	--Map sections
+	--AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+	--AL["MapB"] = " [B]";
+	--AL["MapC"] = " [C]";
+	--AL["MapD"] = " [D]";
+	--AL["MapE"] = " [E]";
+	--AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps
@@ -387,7 +410,7 @@ if AL then
 	--Auchindoun (Entrance)
 	AL["Clarissa"] = "Clarissa";
 	AL["Greatfather Aldrimus"] = "Grandpère Aldrimus";
-	AL["Ha'Lei"] = "Ha'Lei";
+	AL["Ha'lei"] = "Ha'lei";
 	AL["Horvon the Armorer <Armorsmith>"] = "Horvon l'Armurier <Fabricant d'armures>";
 	AL["Ramdor the Mad"] = "Ramdor le Fol";
 	AL["Nexus-Prince Haramad"] = "Prince-nexus Haramad";
@@ -478,18 +501,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "Autel de Gelihast";
-	AL["Fathom Stone"] = "Noyau de la Brasse";
-	AL["Lorgalis Manuscript"] = "Manuscrit de Lorgalis";
-	AL["Scout Thaelrid"] = "Eclaireur Thaelrid";
-	AL["Flaming Eradicator"] = "Eradicateur enflammé";
-	AL["Altar of the Deeps"] = "Autel des profondeurs";
-	AL["Ashelan Northwood"] = "Ashelan Bois-du-nord";
-	AL["Relwyn Shadestar"] = "Relwyn Sombrétoile";
-	AL["Sentinel Aluwyn"] = "Sentinelle Aluwyn";
-	AL["Sentinel-trainee Issara"] = "Apprentie sentinelle Issara";
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <Le Cercle terrestre>";
+	AL["Sentinel Aluwyn"] = "Sentinelle Aluwyn";
 	AL["Zeya"] = "Zeya";
+	--AL["Altar of Blood"] = "Altar of Blood";
+	--AL["Fire of Aku'mai"] = "Fire of Aku'mai";
+	--AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Ambassadeur\" Dagg'thol";
@@ -527,12 +544,11 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
-	AL["Belnistrasz"] = "Belnistrasz";
+	--AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Cime-de-Pierre le Vieil";
 	AL["Spirit of Agamaggan <Ancient>"] = "Esprit d'Agamaggan <Ancien>";
-	AL["Willix the Importer"] = "Willix l’Importateur";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "Quatre Elite kaldorei";
@@ -609,11 +625,6 @@ if AL then
 	AL["Elder Stonefort"] = "Ancien Fort-de-pierre";
 	AL["Roughshod Pike"] = "Pique de fortune";
 
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "Finkle Einhorn";
-	AL["Drakkisath's Brand"] = "Marque de Drakkisath";
-	AL["Father Flame"] = "Père des flammes";
-
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Orbe de domination";
 	AL["Master Elemental Shaper Krixix"] = "Maître élémentaire Krixix le Sculpteur";
@@ -630,34 +641,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "Hann Ibal <IMUN>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Hooded Crusader"] = "Croisée capuchonnée";
-	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
-	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
-	AL["Professor Slate"] = "Professeur Alambic";
-	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
-	AL["Talking Skull"] = "Crâne parlant";
-	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
-	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
-	AL["The Dark Grimoire"] = "Le grimoire noir";
-
-	--Shadowfang Keep
-	AL["Apothecary Trio"] = "Trio d'apothicaires";
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothicaire Hummel <Cie de Chimie La Royale>";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothicaire Baxter <Cie de Chimie La Royale>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apothicaire Frye <Cie de Chimie La Royale>";
-	AL["Packleader Ivar Bloodfang"] = "Chef de meute Ivar Croc-de-sang";
-	AL["Deathstalker Commander Belmont"] = "Commandant nécrotraqueur Belmont";
-	AL["Haunted Stable Hand"] = "Palefrenier hanté";
-	AL["Investigator Fezzen Brasstacks"] = " Enquêteur Fezzen Desfaits";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Commandant de la croisade Eligor Portelaube <Confrérie de la Lumière>";
@@ -1093,6 +1076,16 @@ if AL then
 	AL["Captain Hadan"] = "Capitaine Hadan";
 	AL["Tol'vir Grave"] = "Tombe tol'vir";
 
+	--Shadowfang Keep
+	AL["Apothecary Trio"] = "Trio d'apothicaires";
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Apothicaire Hummel <Cie de Chimie La Royale>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Apothicaire Baxter <Cie de Chimie La Royale>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "Apothicaire Frye <Cie de Chimie La Royale>";
+	AL["Packleader Ivar Bloodfang"] = "Chef de meute Ivar Croc-de-sang";
+	AL["Deathstalker Commander Belmont"] = "Commandant nécrotraqueur Belmont";
+	AL["Haunted Stable Hand"] = "Palefrenier hanté";
+	AL["Investigator Fezzen Brasstacks"] = " Enquêteur Fezzen Desfaits";
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1180,11 +1173,32 @@ if AL then
 
 	--Mogu'shan Vaults
 
+	--Scarlet Halls
+	--AL["Commander Lindon"] = "Commander Lindon";
+	AL["Hooded Crusader"] = "Croisée capuchonnée";
+	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
+	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Phylactère de l'Instructrice Froidecœur";
+	AL["Professor Slate"] = "Professeur Alambic";
+	AL["Polyformic Acid Potion"] = "Potion d'acide polyformique";
+	AL["Talking Skull"] = "Crâne parlant";
+	AL["In the Shadow of the Light"] = "À l’ombre de la Lumière";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Connaissances approfondies de Kel’Thuzad";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Rites interdits et autres rituels nécromantiques";
+	AL["Coffer of Forgotten Souls"] = "Coffre des âmes oubliées";
+	AL["The Dark Grimoire"] = "Le grimoire noir";
+
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "Ban Cœur d’Ours";
 
 	--Siege of Niuzao Temple
 	AL["Shado-Master Chum Kiu"] = "Maître-pandashan Chum Kiu";
+
+	--Siege of Orgrimmar
 
 	--Stormstout Brewery
 	AL["Auntie Stormstout"] = "Tatie Brune d’Orage";
@@ -1205,5 +1219,30 @@ if AL then
 	AL["Archritualist Kelada"] = "Archiritualiste Kelada";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Carne’rok le Malade <Horreur saurok primordiale>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Zao’cho <Le bouclier de l’empereur>";
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+	--AL["Train Ride"] = "Train Ride";
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

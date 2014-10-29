@@ -39,7 +39,6 @@ Atlas_DropDownLayouts_Order = {
 		[5] = ATLAS_DDL_CONTINENT_NORTHREND;
 		[6] = ATLAS_DDL_CONTINENT_DEEPHOLM;
 		[7] = ATLAS_DDL_CONTINENT_PANDARIA;
-		[8] = ATLAS_DDL_CONTINENT_DRAENOR;
 	};
 	[ATLAS_DDL_LEVEL] = {
 		[1] = ATLAS_DDL_LEVEL_UNDER45;
@@ -48,8 +47,7 @@ Atlas_DropDownLayouts_Order = {
 		[4] = ATLAS_DDL_LEVEL_70TO80;
 		[5] = ATLAS_DDL_LEVEL_80TO85;
 		[6] = ATLAS_DDL_LEVEL_85TO90;
-		[7] = ATLAS_DDL_LEVEL_90TO100;
-		[8] = ATLAS_DDL_LEVEL_100PLUS;
+		[7] = ATLAS_DDL_LEVEL_90PLUS;
 	};
 	[ATLAS_DDL_PARTYSIZE] = {
 		[1] = ATLAS_DDL_PARTYSIZE_5_AE;
@@ -67,7 +65,6 @@ Atlas_DropDownLayouts_Order = {
 		[4] = ATLAS_DDL_EXPANSION_WOTLK;
 		[5] = ATLAS_DDL_EXPANSION_CATA;
 		[6] = ATLAS_DDL_EXPANSION_MOP;
-		[7] = ATLAS_DDL_EXPANSION_WOD;
 	};
 	[ATLAS_DDL_TYPE] = {
 		[1] = ATLAS_DDL_TYPE_INSTANCE_AB;
@@ -86,6 +83,8 @@ Atlas_DropDownLayouts = {
 			"BlackrockCaverns",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"BlackwingDescent",
 			"BlackwingLair",
 			"Gnomeregan",
@@ -94,10 +93,8 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnd",
 			"KarazhanEnt",
 			"KarazhanStart",
-			"LowerBlackrockSpire",
 			"MagistersTerrace",
 			"MoltenCore",
-			"UpperBlackrockSpire",
 		},
 		[ATLAS_DDL_CONTINENT_EASTERN2] = {
 			"Scholomance",
@@ -176,8 +173,6 @@ Atlas_DropDownLayouts = {
 			"HCHellfireRamparts",
 			"HCMagtheridonsLair",
 			"HCTheShatteredHalls",
-			"HighmaulA",
-			"HighmaulB",
 			"TempestKeepEnt",
 			"TempestKeepArcatraz",
 			"TempestKeepBotanica",
@@ -241,20 +236,6 @@ Atlas_DropDownLayouts = {
 			"ThroneofThunderC",
 			"ThroneofThunderD",
 		},
-		[ATLAS_DDL_CONTINENT_DRAENOR] = {
-			"Auchindoun",
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
-			"BloodmaulSlagMines",
-			"TheEverbloomA",
-			"TheEverbloomB",
-			"GrimrailDepot",
-			"HighmaulA",
-			"HighmaulB",
-			"IronDocks",
-			"ShadowmoonBurialGrounds",
-			"Skyreach",
-		},
 	},
 	[ATLAS_DDL_LEVEL] = {
 		[ATLAS_DDL_LEVEL_UNDER45] = {
@@ -281,11 +262,12 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_LEVEL_45TO60] = {
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"DireMaulEast",
 			"DireMaulEnt",
 			"DireMaulNorth",
 			"DireMaulWest",
-			"LowerBlackrockSpire",
 			"Maraudon",
 			"MaraudonEnt",
 			"StratholmeCrusader",
@@ -408,11 +390,9 @@ Atlas_DropDownLayouts = {
 			"ZulAman",
 			"ZulGurub",
 		},
-		[ATLAS_DDL_LEVEL_90TO100] = {
-			"Auchindoun",
-			"BloodmaulSlagMines",
+		[ATLAS_DDL_LEVEL_90PLUS] = {
+			"GateoftheSettingSun",
 			"HeartofFear",
-			"IronDocks",
 			"MoguShanVaults",
 			"Scholomance",
 			"ScarletMonasteryEnt",
@@ -424,31 +404,17 @@ Atlas_DropDownLayouts = {
 			"SiegeofOrgrimmarB",
 			"SiegeofOrgrimmarC",
 			"SiegeofOrgrimmarD",
-			"Skyreach",
 			"TerraceofEndlessSpring",
 			"ThroneofThunderA",
 			"ThroneofThunderB",
 			"ThroneofThunderC",
 			"ThroneofThunderD",
 		},
-		[ATLAS_DDL_LEVEL_100PLUS] = {
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
-			"TheEverbloomA",
-			"TheEverbloomB",
-			"GrimrailDepot",
-			"HighmaulA",
-			"HighmaulB",
-			"ShadowmoonBurialGrounds",
-			"UpperBlackrockSpire",
-		},
-		
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
 		[ATLAS_DDL_PARTYSIZE_5_AE] = {
 			"AhnKahet",
 			"AuchAuchenaiCrypts",
-			"Auchindoun",
 			"AuchindounEnt",
 			"AuchManaTombs",
 			"AuchSethekkHalls",
@@ -459,7 +425,8 @@ Atlas_DropDownLayouts = {
 			"BlackrockCaverns",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
-			"BloodmaulSlagMines",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"CFRTheSlavePens",
 			"CFRTheSteamvault",
 			"CFRTheUnderbog",
@@ -477,10 +444,6 @@ Atlas_DropDownLayouts = {
 			"DireMaulNorth",
 			"DireMaulWest",
 			"DrakTharonKeep",
-			"LowerBlackrockSpire",
-			"TheEverbloomA",
-			"TheEverbloomB",
-			"UpperBlackrockSpire",
 		},
 		[ATLAS_DDL_PARTYSIZE_5_FS] = {
 			"FHHallsOfReflection",
@@ -490,7 +453,6 @@ Atlas_DropDownLayouts = {
 			"Gnomeregan",
 			"GnomereganEnt",
 			"GrimBatol",
-			"GrimrailDepot",
 			"Gundrak",
 			"HallsOfOrigination",
 			"HellfireCitadelEnt",
@@ -498,7 +460,6 @@ Atlas_DropDownLayouts = {
 			"HCHellfireRamparts",
 			"HCTheShatteredHalls",
 			"IcecrownEnt",
-			"IronDocks",
 			"LostCityOfTolvir",
 			"MagistersTerrace",
 			"Maraudon",
@@ -508,16 +469,14 @@ Atlas_DropDownLayouts = {
 			"RazorfenDowns",
 			"RazorfenKraul",
 			"Scholomance",
-			"ShadowmoonBurialGrounds",
 			"ShadoPanMonasteryA",
 			"ShadoPanMonasteryB",
 			"ShadowfangKeep",
+			"SiegeofNiuzaoTempleA",
+			"SiegeofNiuzaoTempleB",
 			"ScarletMonasteryEnt",
 			"ScarletHalls",
 			"ScarletMonastery",
-			"SiegeofNiuzaoTempleA",
-			"SiegeofNiuzaoTempleB",
-			"Skyreach",
 			"StormstoutBrewery",
 			"StratholmeCrusader",
 			"StratholmeGauntlet",
@@ -554,8 +513,6 @@ Atlas_DropDownLayouts = {
 		},
 		[ATLAS_DDL_PARTYSIZE_10_AN] = {
 			"BaradinHold",
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
 			"BlackrockMountainEnt",
 			"BlackwingDescent",
 			"CavernsOfTimeEnt",
@@ -564,8 +521,6 @@ Atlas_DropDownLayouts = {
 			"CoTDragonSoulC",
 			"Firelands",
 			"HeartofFear",
-			"HighmaulA",
-			"HighmaulB",
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
@@ -604,8 +559,6 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_PARTYSIZE_20TO40AH] = {
 			"BaradinHold",
 			"TheBastionOfTwilight",
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
 			"BlackrockMountainEnt",
 			"BlackTempleBasement",
 			"BlackTempleStart",
@@ -625,13 +578,12 @@ Atlas_DropDownLayouts = {
 			"HellfireCitadelEnt",
 			"HCMagtheridonsLair",
 			"HeartofFear",
-			"HighmaulA",
-			"HighmaulB",
 			"MoltenCore",
 			"TheTempleofAhnQiraj",
 			"TrialOfTheCrusader",
 		},
 		[ATLAS_DDL_PARTYSIZE_20TO40IZ] = {
+
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
@@ -669,6 +621,8 @@ Atlas_DropDownLayouts = {
 			"BlackfathomDeepsEnt",
 			"BlackrockDepths",
 			"BlackrockMountainEnt",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"BlackwingLair",
 			"DireMaulEast",
 			"DireMaulEnt",
@@ -676,7 +630,6 @@ Atlas_DropDownLayouts = {
 			"DireMaulWest",
 			"Gnomeregan",
 			"GnomereganEnt",
-			"LowerBlackrockSpire",
 			"Maraudon",
 			"MaraudonEnt",
 			"MoltenCore",
@@ -828,27 +781,10 @@ Atlas_DropDownLayouts = {
 			"ThroneofThunderC",
 			"ThroneofThunderD",
 		},
-		[ATLAS_DDL_EXPANSION_WOD] = {
-			"Auchindoun",
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
-			"BlackrockMountainEnt",
-			"BloodmaulSlagMines",
-			"TheEverbloomA",
-			"TheEverbloomB",
-			"GrimrailDepot",
-			"HighmaulA",
-			"HighmaulB",
-			"IronDocks",
-			"ShadowmoonBurialGrounds",
-			"Skyreach",
-			"UpperBlackrockSpire",
-		},
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_INSTANCE_AB] = {
 			"AhnKahet",
-			"Auchindoun",
 			"AuchAuchenaiCrypts",
 			"AuchManaTombs",
 			"AuchSethekkHalls",
@@ -856,22 +792,19 @@ Atlas_DropDownLayouts = {
 			"AzjolNerub",
 			"BaradinHold",
 			"BlackfathomDeeps",
-			"BlackrockFoundryA",
-			"BlackrockFoundryB",
 			"BlackrockCaverns",
 			"BlackrockDepths",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
 			"BlackTempleBasement",
 			"BlackTempleStart",
 			"BlackTempleTop",
 			"BlackwingDescent",
 			"BlackwingLair",
-			"BloodmaulSlagMines",
-			"LowerBlackrockSpire",
 			"MoltenCore",
 			"TheBastionOfTwilight",
 			"TheRuinsofAhnQiraj",
 			"TheTempleofAhnQiraj",
-			"UpperBlackrockSpire",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_CF] = {
 			"CFRSerpentshrineCavern",
@@ -894,8 +827,6 @@ Atlas_DropDownLayouts = {
 			"DireMaulWest",
 			"DrakTharonKeep",
 			"TheDeadmines",
-			"TheEverbloomA",
-			"TheEverbloomB",
 			"Firelands",
 			"FHHallsOfReflection",
 			"FHTheForgeOfSouls",
@@ -907,7 +838,6 @@ Atlas_DropDownLayouts = {
 			"GateoftheSettingSun",
 			"Gnomeregan",
 			"GrimBatol",
-			"GrimrailDepot",
 			"GruulsLair",
 			"Gundrak",
 			"HallsOfOrigination",
@@ -916,12 +846,9 @@ Atlas_DropDownLayouts = {
 			"HCMagtheridonsLair",
 			"HCTheShatteredHalls",
 			"HeartofFear",
-			"HighmaulA",
-			"HighmaulB",
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
-			"IronDocks",
 			"KarazhanEnd",
 			"KarazhanStart",
 			"LostCityOfTolvir",
@@ -939,7 +866,6 @@ Atlas_DropDownLayouts = {
 			"ScarletHalls",
 			"ScarletMonastery",
 			"Scholomance",
-			"ShadowmoonBurialGrounds",
 			"ShadoPanMonasteryA",
 			"ShadoPanMonasteryB",
 			"ShadowfangKeep",
@@ -949,7 +875,6 @@ Atlas_DropDownLayouts = {
 			"SiegeofOrgrimmarB",
 			"SiegeofOrgrimmarC",
 			"SiegeofOrgrimmarD",
-			"Skyreach",
 			"StormstoutBrewery",
 			"StratholmeCrusader",
 			"StratholmeGauntlet",

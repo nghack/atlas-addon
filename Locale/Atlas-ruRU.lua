@@ -225,6 +225,7 @@ if AL then
 	AL["Purple"] = "Пурпурный";
 	AL["Random"] = "Случайный";
 	AL["Rare"] = "Редкий";
+	AL["Reputation"] = "Репа";
 	AL["Repair"] = "Починка";
 	AL["Retribution Paladin"] = "Паладин-Возмездия";
 	AL["Rewards"] = "Награды";

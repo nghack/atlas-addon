@@ -51,7 +51,7 @@ local myData = {
 		MinLevel = "45";
 		PlayerLimit = "40";
 		Acronym = AL["AV"];
-		{ ORNG..REPUTATION..": "..ALIL["Stormpike Guard"] };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Stormpike Guard"] };
 		{ BLUE.."A) "..ALC["Entrance"] };
 		{ BLUE.."B) "..BZ["Dun Baldar"] };
 		{ GREN..INDENT..AL["Vanndar Stormpike <Stormpike General>"] };
@@ -105,7 +105,7 @@ local myData = {
 		MinLevel = "45";
 		PlayerLimit = "40";
 		Acronym = AL["AV"];
-		{ ORNG..REPUTATION..": "..ALIL["Frostwolf Clan"] };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Frostwolf Clan"] };
 		{ BLUE.."A) "..ALC["Entrance"].." ("..FACTION_HORDE..")" };
 		{ BLUE.."B) "..BZ["Frostwolf Keep"] };
 		{ GREN..INDENT..AL["Drek'Thar <Frostwolf General>"] };
@@ -142,8 +142,8 @@ local myData = {
 		MinLevel = "10";
 		PlayerLimit = "15";
 		Acronym = AL["AB"];
-		{ ORNG..REPUTATION..": "..ALIL["The League of Arathor"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..REPUTATION..": "..ALIL["The Defilers"].." ("..FACTION_HORDE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["The League of Arathor"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["The Defilers"].." ("..FACTION_HORDE..")" };
 		{ BLUE.."A) "..BZ["Trollbane Hall"].." ("..FACTION_ALLIANCE..")" };
 		{ BLUE.."B) "..BZ["Defiler's Den"].." ("..FACTION_HORDE..")" };
 		{ GREN.."1) "..BZ["Stables"] };
@@ -159,8 +159,8 @@ local myData = {
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Acronym = AL["WSG"];
-		{ ORNG..REPUTATION..": "..ALIL["Silverwing Sentinels"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..REPUTATION..": "..ALIL["Warsong Outriders"].." ("..FACTION_HORDE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Silverwing Sentinels"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Warsong Outriders"].." ("..FACTION_HORDE..")" };
 		{ BLUE.."A) "..BZ["Silverwing Hold"].." ("..FACTION_ALLIANCE..")" };
 		{ BLUE.."B) "..BZ["Warsong Lumber Mill"].." ("..FACTION_HORDE..")" };
 	};
@@ -325,8 +325,8 @@ local myData = {
 		--Location = { BZ["Tol Barad"] };
 		LevelRange = "80-85";
 		MinLevel = "80";
-		{ ORNG..REPUTATION..": "..ALIL["Baradin's Wardens"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..REPUTATION..": "..ALIL["Hellscream's Reach"].." ("..FACTION_HORDE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Baradin's Wardens"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Hellscream's Reach"].." ("..FACTION_HORDE..")" };
 		{ BLUE.."A) "..AL["Attackers"] };
 		{ BLUE.."B) "..BZ["Baradin Hold"] };
 		{ GREN..INDENT..FACTION_ALLIANCE };
@@ -356,8 +356,8 @@ local myData = {
 		Location = { BZ["Twilight Highlands"] };
 		LevelRange = "85+";
 		MinLevel = "85";
-		{ ORNG..REPUTATION..": "..ALIL["Wildhammer Clan"].." ("..FACTION_ALLIANCE..")" };
-		{ ORNG..REPUTATION..": "..ALIL["Dragonmaw Clan"].." ("..FACTION_HORDE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Wildhammer Clan"].." ("..FACTION_ALLIANCE..")" };
+		{ ORNG..ALC["Reputation"]..": "..ALIL["Dragonmaw Clan"].." ("..FACTION_HORDE..")" };
 		{ BLUE.."A) "..AL["Wildhammer Longhouse"].." ("..FACTION_ALLIANCE..")" };
 		{ BLUE.."B) "..AL["Dragonmaw Clan Compound"].." ("..FACTION_HORDE..")" };
 		{ ORNG.."1) "..AL["Alliance Graveyard"] };
@@ -396,23 +396,6 @@ local myData = {
 		{ GREN.."1) "..BZ["Pandaren Mine"] };
 		{ GREN.."2) "..AL["Center Mine"] };
 		{ GREN.."3) "..BZ["Goblin Mine"] };
-	};
-	Ashran = {
-		ZoneName = { BZ["Ashran"] };
-		Location = { BZ["Draenor"] };
-		LevelRange = "100";
-		MinLevel = "100";
-		PlayerLimit = "100";
-		{ BLUE.."A) "..BZ["Warspear"].." - "..FACTION_HORDE };
-		{ BLUE.."B) "..BZ["Stormshield"].." - "..FACTION_ALLIANCE };
-		{ GREN.."1) "..BZ["Amphitheater of Annihilation"] };
-		{ GREN.."2) "..BZ["Emberfall Tower"] };
-		{ GREN.."3) "..BZ["Brute's Rise"] };
-		{ GREN.."4) "..BZ["The Dark Woods"] };
-		{ GREN.."5) "..BZ["Ring of Conquest"] };
-		{ GREN.."6) "..BZ["Seat of Kor'lok"] };
-		{ GREN.."7) "..BZ["Ashmaul Burial Grounds"] };
-		{ GREN.."8) "..BZ["Molten Quarry"] };
 	};
 };
 

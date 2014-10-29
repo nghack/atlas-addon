@@ -10,6 +10,7 @@
 	<Script file="Atlas-esMX.lua"/>
 	<Script file="Atlas-zhTW.lua"/>
 	<Script file="Atlas-ptBR.lua"/>
+	<Script file="Atlas-ptPT.lua"/>
 
 	<Script file="Atlas_GlobalStrings.lua"/>
 </Ui>

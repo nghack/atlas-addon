@@ -566,16 +566,16 @@ function AtlasMaps_NPC_Text_OnUpdate(self)
 	if (not GameTooltip:IsShown()) then
 		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
 		if (ejbossname) then
-			--if ((IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown())) then --temp commented out, as AtlasLoot v8 crashes this for now
+			if ((IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown())) then
 				-- do nothing
-			--else
+			else
 				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
 				GameTooltip:SetBackdropColor(0, 0, 0, 1 * AtlasOptions["AtlasAlpha"]);
 				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
 				GameTooltip:AddLine(description, nil, nil, nil, 1);
 				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"] * AtlasOptions["AtlasScale"]);
 				GameTooltip:Show();
-			--end
+			end
 		end
 	else
 		GameTooltip:Hide();

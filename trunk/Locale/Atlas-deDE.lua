@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "deDE", false);
 -- Localize file must set above to false
 
 -- Deutsche Lokalisierung (German, deDE)
--- Letztes Update: 26.10.2014
+-- Letztes Update: 29.10.2014
 
 if ( GetLocale() == "deDE" ) then
 -- Define the leading strings to be ignored while sorting
@@ -257,6 +257,7 @@ if AL then
 	AL["Wave 12"] = "Welle 12";
 	AL["Wave 18"] = "Welle 18";
 	AL["MapsNotFound"] = "Für die gewählte Instanz wurde \nkeine anzuzeigende Karte gefunden. \n\nBitte stellen Sie sicher, dass die erforderlichen \nAtlas-Kartenmodule installiert sind.";
+	AL["PossibleMissingModule"] = "Diese Karte ist sehr wahrscheinlich in folgendem Modul enthalten: ";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj

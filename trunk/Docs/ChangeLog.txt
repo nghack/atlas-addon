@@ -23,6 +23,8 @@ v1.31.00 (Nov. XX, 2014)
     - Upper Blackrock Spire
 - Split Mists of Pandaria maps to independent module
 - Split entrance maps from Atlas core addon
+- Added boss's overview info (if available) to the game tooltip while hover to 
+  the boss location on the dungeon map
 - Translation updates:
     - deDE (Dynaletik)
     - esES/esMX (maqjav)
@@ -32,7 +34,7 @@ v1.31.00 (Nov. XX, 2014)
 
 v1.30.01 (Oct. 29, 2014)
 ------------------------
-- Update libraries: LibBabble-SubZone-3.0, LibDialog-1.0
+- Update libraries: AceDB-3.0, LibBabble-SubZone-3.0, LibDialog-1.0, CallbackHandler-1.0, LibStub
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

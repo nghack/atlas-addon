@@ -179,12 +179,12 @@ local function Process_Deprecated()
 		{ "Atlas_DungeonLocs", 		"1.30.00" },
 		{ "Atlas_OutdoorRaids", 	"1.30.00" },
 		{ "Atlas_Transportation", 	"1.30.00" },
-		--{ "AtlasWorld", 		"3.3.5.25" }, -- updated July 14, 2010 -- comment out because this plugin is no longer maintained
-		{ "AtlasQuest", 		"4.8.1" }, -- updated Oct. 17, 2011
-		--{ "AtlasMajorCities", 		"v1.5.3" }, -- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", 			"7.07.00" }, -- updated Sep xx, 2013
-		{ "Atlas_Arena", 		"1.3.6" }, -- updated Sep 25, 2012
-		{ "Atlas_WorldEvents", 		"2.8" }, -- updated Oct 03, 2012
+		--{ "AtlasWorld", 		"3.3.5.25" }, 	-- updated July 14, 2010 -- comment out because this plugin is no longer maintained
+		{ "AtlasQuest", 		"4.9.0" }, 	-- updated Oct. 25, 2014
+		--{ "AtlasMajorCities", 	"v1.5.3" }, 	-- updated November 15, 2010; -- comment out because this plugin is no longer maintained
+		{ "AtlasLoot", 			"8.00.00" }, 	-- updated Nov. xx, 2014
+		{ "Atlas_Arena", 		"1.5.05" }, 	-- updated Oct. 15, 2014
+		{ "Atlas_WorldEvents", 		"3.09" }, 	-- updated Oct. 28, 2014
 	};
 
 	-- Check for outdated modules, build a list of them, then disable them and tell the player
@@ -332,6 +332,7 @@ local function Atlas_Check_Modules()
 	end
 	local Module_List = {
 		"Atlas_Scenarios",
+		"Atlas_MistsofPandaria",
 		"Atlas_Cataclysm",
 		"Atlas_WrathoftheLichKing",
 		"Atlas_BurningCrusade",
@@ -356,17 +357,7 @@ local function Atlas_Check_Modules()
 		for _, str in pairs(List) do
 			textList = textList.."\n"..str;
 		end
---[[
-		StaticPopupDialogs["DetectMissing"] = {
-			preferredIndex = 4;
-			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"];
-			button1 = ATLAS_DEP_OK,
-			timeout = 0,
-			exclusive = 1,
-			whileDead = 1,
-		}
-		StaticPopup_Show("DetectMissing")
-]]
+
 		LibDialog:Register("DetectMissing", {
 			text = AL["ATLAS_MISSING_MODULE"].."\n|cff6666ff"..textList.."|r\n\n"..AL["ATLAS_INFO_12200"],
 			buttons = {
@@ -560,11 +551,18 @@ function Atlas_Clean_NPC_TextFrame()
 	end
 end
 
+-- Adopted from EncounterJournal
+local EJ_HTYPE_OVERVIEW = 3;
+
+local function EncounterJournal_CheckForOverview(rootSectionID)
+	return select(3,EJ_GetSectionInfo(rootSectionID)) == EJ_HTYPE_OVERVIEW;
+end
+
 -- Function to handle the boss description to be added as GameToolTip
 -- Description is adopted from Dungeon Journal
 function AtlasMaps_NPC_Text_OnUpdate(self)
 	if (not GameTooltip:IsShown()) then
-		local ejbossname, description = EJ_GetEncounterInfo(self:GetID());
+		local ejbossname, description, _, rootSectionID = EJ_GetEncounterInfo(self:GetID());
 		if (ejbossname) then
 			--if ((IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown())) then --temp commented out, as AtlasLoot v8 crashes this for now
 				-- do nothing
@@ -573,6 +571,11 @@ function AtlasMaps_NPC_Text_OnUpdate(self)
 				GameTooltip:SetBackdropColor(0, 0, 0, 1 * AtlasOptions["AtlasAlpha"]);
 				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
 				GameTooltip:AddLine(description, nil, nil, nil, 1);
+				if (EncounterJournal_CheckForOverview(rootSectionID)) then
+					local _, overviewDescription = EJ_GetSectionInfo(rootSectionID);
+					GameTooltip:AddLine("\n"..OVERVIEW.."\n", 1, 1, 1, 1)
+					GameTooltip:AddLine(overviewDescription, nil, nil, nil, 1);
+				end
 				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"] * AtlasOptions["AtlasScale"]);
 				GameTooltip:Show();
 			--end

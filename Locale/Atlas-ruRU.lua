@@ -114,6 +114,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Подземелья Нордскола";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Подземелья Подземья";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Подземелья Пандории";
+	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Подземелья Дренорский";
 	AL["ATLAS_DDL_LEVEL"] = "Уровню";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Подземелья уровня ниже 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Подземелья уровня 45-60";
@@ -121,7 +122,8 @@ if AL then
 	AL["ATLAS_DDL_LEVEL_70TO80"] = "Подземелья уровня 70-80";
 	AL["ATLAS_DDL_LEVEL_80TO85"] = "Подземелья уровня 80-85";
 	AL["ATLAS_DDL_LEVEL_85TO90"] = "Подземелья уровня 85-90";
-	AL["ATLAS_DDL_LEVEL_90PLUS"] = "Подземелья уровня 90+";
+	AL["ATLAS_DDL_LEVEL_90TO100"] = "Подземелья уровня 90-100";
+	AL["ATLAS_DDL_LEVEL_100PLUS"] = "Подземелья уровня 100+";
 	AL["ATLAS_DDL_PARTYSIZE"] = "Размеру группы";
 	AL["ATLAS_DDL_PARTYSIZE_5_AE"] = "Подземелья на 5 игроков A-E";
 	AL["ATLAS_DDL_PARTYSIZE_5_FS"] = "Подземелья на 5 игроков F-S";
@@ -137,6 +139,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Подземелья Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Подземелья Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Подземелья Mists of Pandaria";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "Подземелья Warlords of Draenor";
 	AL["ATLAS_DDL_TYPE"] = "Типу";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Подземелья A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Подземелья C-F";
@@ -255,7 +258,7 @@ if AL then
 
 	--Classic Acronyms
 	AL["AQ"] = "АКУ"; -- Ан'Кираж
-	AL["AQ20"] = "АКУ20"; -- Руины Ан'Киража
+	AL["AQ10"] = "АКУ20"; -- Руины Ан'Киража
 	AL["AQ40"] = "АКУ40"; -- Храм Ан'Киража
 	AL["BFD"] = "НП"; -- Непроглядная Пучина
 	AL["BRD"] = "ГЧГ"; -- Глубины Черной горы
@@ -263,22 +266,16 @@ if AL then
 	AL["BWL"] = "ЛКТ"; -- Логово Крыла Тьмы
 	AL["DM"] = "ЗГ"; -- Забытый Город
 	AL["Gnome"] = "Гном"; -- Гномреган
-	AL["Halls"] = "ЗАо"; -- Кладбище
 	AL["LBRS"] = "НЧГ"; -- Нижняя часть Вершины Черной горы
 	AL["Mara"] = "Маро"; -- Мародон
 	AL["MC"] = "ОН"; -- Огненные Недра
 	AL["RFC"] = "ОгП"; -- Огненная пропасть
 	AL["RFD"] = "Курганы"; -- Курганы Иглошкурых
 	AL["RFK"] = "ЛабИ"; -- Лабиринты Иглошкурых
-	AL["Scholo"] = "Некро"; -- Некроситет
-	AL["SFK"] = "КТК"; -- Крепость Темного Клыка
-	AL["SM"] = "МАО"; -- Монастырь Алого ордена
 	AL["ST"] = "ЗХ"; -- Затонувший храм
 	AL["Strat"] = "Страт"; -- Стратхольм
 	AL["Stocks"] = "Тюрьма"; -- Тюрьма
-	AL["UBRS"] = "ВЧГ"; -- Вершина Черной горы
 	AL["Ulda"] = "Ульд"; -- Ульдаман
-	AL["VC"] = "МК"; -- Мертвые копи
 	AL["WC"] = "ПС"; -- Пещеры Стенаний
 	AL["ZF"] = "ЗФ"; -- Зул'Фаррак
 
@@ -358,18 +355,23 @@ if AL then
 	AL["GB"] = "ГБ"; --Грим Батол
 	AL["HoO"] = "ЧТГС"; --Чертоги Созидания
 	AL["LCoT"] = "ЗГТВ"; --Затерянный город Тол'вир
+	AL["SFK"] = "КТК"; -- Крепость Темного Клыка
 	AL["TSC"] = "КН"; --Каменные Недра
 	AL["TWT"] = "ТЧВ"; --Трон Четырех Ветров
 	AL["ToTT"] = "ТП"; --Трон Приливов
+	AL["VC"] = "МК"; -- Мертвые копи
 	AL["VP"] = "ВС"; --Вершина смерча
 	AL["ZA"] = "ЗА"; -- Зул'Аман
 	AL["ZG"] = "ЗГ"; --Зул'Гуруб
 
 	--MoP Acronyms
 	AL["GSS"] = "ВЗС"; --Врата Заходящего Солнца
+	AL["Halls"] = "ЗАо"; -- Кладбище
 	AL["HoF"] = "СС"; --Сердце Страха
 	AL["MP"] = "ДМОГ"; --Дворец Могу'шан
 	AL["MV"] = "ПМ"; --Подземелья Могу'шан
+	AL["SM"] = "МАО"; -- Монастырь Алого ордена
+	AL["Scholo"] = "Некро"; -- Некроситет
 	AL["SPM"] = "МШадо"; --Монастырь Шадо-Пан
 	AL["SNT"] = "ОХН"; --Осада храма Нюцзао
 	AL["SB"] = "ХБП"; --Хмелеварня Буйных Портеров
@@ -377,6 +379,25 @@ if AL then
 	AL["TJS"] = "ХНЗ"; --Храм Нефритовой Змеи
 	AL["TES"] = "ТВВ"; --Терраса Вечной Весны
 	AL["ToT"] = "ЗМ"; --Throne of Thunder
+
+	--WoD Acronyms
+--	AL["BRF"] = "BRF"; -- Blackrock Foundry
+--	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+--	AL["EB"] = "EB"; -- The Everbloom
+--	AL["GD"] = "GD"; -- Grimrail Depot
+--	AL["HM"] = "HM"; -- Highmaul
+--	AL["ID"] = "ID"; -- Iron Docks
+--	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+--	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "ВЧГ"; -- Вершина Черной горы
+
+	--Map sections
+--	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+--	AL["MapB"] = " [B]";
+--	AL["MapC"] = " [C]";
+--	AL["MapD"] = " [D]";
+--	AL["MapE"] = " [E]";
+--	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps
@@ -476,18 +497,12 @@ if AL then
 --************************************************
 
 	--Blackfathom Deeps
-	AL["Shrine of Gelihast"] = "Святыня Гелихастa";
-	AL["Fathom Stone"] = "Глубинный Камень";
-	AL["Lorgalis Manuscript"] = "Манускрипт Лоргалиса";
-	AL["Scout Thaelrid"] = "Страж Талрид";
-	AL["Flaming Eradicator"] = "Пылающий искоренитель";
-	AL["Altar of the Deeps"] = "Алтарь пучины";
-	AL["Ashelan Northwood"] = "Эшлан Северный Лес";
-	AL["Relwyn Shadestar"] = "Релвин Тень Звезды";
-	AL["Sentinel Aluwyn"] = "Часовой Алувин";
-	AL["Sentinel-trainee Issara"] = "Курсант-часовой Иссара";
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Дже'неу Санкри <Служители Земли>";
+	AL["Sentinel Aluwyn"] = "Часовой Алувин";
 	AL["Zeya"] = "Зейя";
+--	AL["Altar of Blood"] = "Altar of Blood";
+--	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
+--	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Посланник\"Дагг'тол";
@@ -525,12 +540,11 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
-	AL["Belnistrasz"] = "Белнистраз";
+--	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Ольд Каменное Копье";
 	AL["Spirit of Agamaggan <Ancient>"] = "Дух Агамаггана <Древний>";
-	AL["Willix the Importer"] = "Импортер Вилликс";
 
 	--Ruins of Ahn'Qiraj
 	AL["Four Kaldorei Elites"] = "4 Кальдорайских гвардейцев";
@@ -607,11 +621,6 @@ if AL then
 	AL["Elder Stonefort"] = "Старейшина Камнеград";
 	AL["Roughshod Pike"] = "Наконечник Грубой силы ";
 
-	--Blackrock Spire (Upper)
-	AL["Finkle Einhorn"] = "Айс Вентурон";
-	AL["Drakkisath's Brand"] = "Клеймо Драккисата";
-	AL["Father Flame"] = "Огонь отцов";
-
 	--Blackwing Lair
 	AL["Orb of Domination"] = "Сфера Приказа";
 	AL["Master Elemental Shaper Krixix"] = "Ваятель стихий Криксикс";
@@ -628,35 +637,6 @@ if AL then
 	AL["Hann Ibal <S.A.F.E.>"] = "Ганни Бал <С.П.А.С.>";
 
 	--Molten Core
-
-	--Scarlet Halls
-	AL["Commander Lindon"] = "Командир Линдон";
-	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
-	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
-	AL["Reinforced Archery Target"] = "Укрепленная мишень";
-
-	--Scarlet Monastery
-
-	--Scholomance
-	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
-	AL["Professor Slate"] = "Профессор Слейт";
-	AL["Polyformic Acid Potion"] = "Наука о кислоте";
-	AL["Talking Skull"] = "Говорящий череп";
-	AL["In the Shadow of the Light"] = "В тени света";
-	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
-	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
-	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
-	AL["The Dark Grimoire"] = "Гримуар Тьмы";
-
-	--Shadowfang Keep
-	AL["Apothecary Trio"] = "Трио аптекарей"; --
-	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
-	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Аптекарь Бакстер <Королевская химическая компания>";
-	AL["Apothecary Frye <Crown Chemical Co.>"] = "Аптекарь Фрай <Королевская химическая компания>";
-	AL["Packleader Ivar Bloodfang"] = "Вожак стаи Ивар Кровавый Клык";
-	AL["Deathstalker Commander Belmont"] = "Командир стражей смерти Бельмонт";
-	AL["Haunted Stable Hand"] = "Дух помощника смотрителя стойл";
-	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
 
 	--Stratholme - Crusader's Square
 	AL["Crusade Commander Eligor Dawnbringer <Brotherhood of the Light>"] = "Командир Элигор Вестник Рассвета <Братство Света>";
@@ -1092,6 +1072,16 @@ if AL then
 	AL["Captain Hadan"] = "Капитан Хадан";
 	AL["Tol'vir Grave"] = "Тол'вирская могила";
 
+	--Shadowfang Keep
+	AL["Apothecary Trio"] = "Трио аптекарей"; --
+	AL["Apothecary Hummel <Crown Chemical Co.>"] = "Аптекарь Хаммел <Королевская химическая компания>";
+	AL["Apothecary Baxter <Crown Chemical Co.>"] = "Аптекарь Бакстер <Королевская химическая компания>";
+	AL["Apothecary Frye <Crown Chemical Co.>"] = "Аптекарь Фрай <Королевская химическая компания>";
+	AL["Packleader Ivar Bloodfang"] = "Вожак стаи Ивар Кровавый Клык";
+	AL["Deathstalker Commander Belmont"] = "Командир стражей смерти Бельмонт";
+	AL["Haunted Stable Hand"] = "Дух помощника смотрителя стойл";
+	AL["Investigator Fezzen Brasstacks"] = "Испытатель Феззен Клейстр";
+
 	--The Bastion of Twilight
 
 	--The Stonecore
@@ -1179,6 +1169,25 @@ if AL then
 
 	--Mogu'shan Vaults
 
+	--Scarlet Halls
+	AL["Commander Lindon"] = "Командир Линдон";
+	AL["Hooded Crusader"] = "Рыцарь в капюшоне";
+	AL["Bucket of Meaty Dog Food"] = "Ведро с собачьим кормом";
+	AL["Reinforced Archery Target"] = "Укрепленная мишень";
+
+	--Scarlet Monastery
+
+	--Scholomance
+	AL["Instructor Chillheart's Phylactery"] = "Филактерия инструктора Ледяное Сердце";
+	AL["Professor Slate"] = "Профессор Слейт";
+	AL["Polyformic Acid Potion"] = "Наука о кислоте";
+	AL["Talking Skull"] = "Говорящий череп";
+	AL["In the Shadow of the Light"] = "В тени света";
+	AL["Kel'Thuzad's Deep Knowledge"] = "Сокровенное знание Кел'Тузада";
+	AL["Forbidden Rites and other Rituals Necromantic"] = "Запретные обряды и иные ритуалы некромантов";
+	AL["Coffer of Forgotten Souls"] = "Сундук забытых душ";
+	AL["The Dark Grimoire"] = "Гримуар Тьмы";
+
 	--Shado-Pan Monastery
 	AL["Ban Bearheart"] = "Бань Медвежье Сердце";
 
@@ -1206,5 +1215,30 @@ if AL then
 	AL["Archritualist Kelada"] = "Предводитель ритуалистов Келад";
 	AL["Flesh'rok the Diseased <Primordial Saurok Horror>"] = "Мясо'рок Прокаженный <Древний ужас>";
 	AL["Zao'cho <The Emperor's Shield>"] = "Зао'чо <Щит императора>";
+
+--*********************
+-- Warlords of Draenor Instances
+--*********************
+
+	--Auchindoun
+
+	--Blackrock Foundry
+
+	--Bloodmaul Slag Mines
+
+	--The Everbloom
+
+	--Grimrail Depot
+	AL["Train Ride"] = "Train Ride";
+
+	--Highmaul
+
+	--Iron Docks
+
+	--Shadowmoon Burial Grounds
+
+	--Skyreach
+
+	--Upper Blackrock Spire
 
 end

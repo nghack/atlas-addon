@@ -248,6 +248,7 @@ if AL then
 	AL["Wave 12"] = "第 12 波";
 	AL["Wave 18"] = "第 18 波";	
 	AL["MapsNotFound"] = "目前的副本找不到對應的地圖影像檔.\n\n請確認您是否有安裝 Atlas 相關的副本地圖模組.";
+	AL["PossibleMissingModule"] = "遺失的地圖應是來自以下的模組: ";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj 安其拉

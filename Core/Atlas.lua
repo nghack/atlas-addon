@@ -721,26 +721,27 @@ function Atlas_MapRefresh()
 		end
 	end
 
-	--[[
 	local AtlasMap_Text = _G["AtlasMap_Text"];
 	if (not AtlasMap_Text) then
 		AtlasMap_Text = AtlasFrame:CreateFontString("AtlasMap_Text", "OVERLAY", "GameFontHighlightLarge");
 	end
 	AtlasMap_Text:SetPoint("CENTER", "AtlasFrame", "LEFT", 256, -32);
-	]]
 	-- Check if the map image is available, if not replace with black and Map Not Found text
-	-- Below checking won't work anymore since WoW 5.0.4
-	--[[
-	if (not AtlasMap:GetTexture()) then
-		AtlasMap:SetTexture(0, 0, 0);
-		AtlasMap_Text:SetText(AL["MapsNotFound"]);
-		if (not AtlasMap_Text:IsShown()) then
-			AtlasMap_Text:Show();
+	if (base.Module) then
+		local loadable = select(4, GetAddOnInfo(base.Module));
+		local enabled = GetAddOnEnableState(nil, base.Module)
+		if (enabled == 0) or (not loadable) then
+			AtlasMap:SetTexture(0, 0, 0);
+			AtlasMap_Text:SetText(AL["MapsNotFound"].."\n\n"..AL["PossibleMissingModule"].."\n|cff6666ff"..base.Module);
+			if (not AtlasMap_Text:IsShown()) then
+				AtlasMap_Text:Show();
+			end
+		else 
+			AtlasMap_Text:SetText("");
 		end
-	else 
+	else
 		AtlasMap_Text:SetText("");
 	end
-	]]
 
 	-- The boss description to be added here
 	if (AtlasOptions["AtlasBossDesc"]) then

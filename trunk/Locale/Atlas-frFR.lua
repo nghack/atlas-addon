@@ -29,7 +29,7 @@ local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 --    local AL = AceLocale:NewLocale("Atlas", "frFR", false);
 
 -- Atlas French Localization
--- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2012
+-- Sur un travail de Wysiwyg, Khiria, Trasher en 2007 / 2014
 -- Many thanks to all contributors!
 -- $Date$
 -- $Revision$
@@ -118,7 +118,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "Instances de Norfendre";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "Instances du Tréfonds";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "Instances de Pandarie";
-	--AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Draenor Instances";
+	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Instances de Draenor";
 	AL["ATLAS_DDL_LEVEL"] = "Niveau";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "Instances avant Niveau 45";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "Instances Niveau 45-60";
@@ -143,7 +143,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "Instances Wrath of the Lich King";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "Instances Cataclysm";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "Instances Mists of Pandaria";
-	--AL["ATLAS_DDL_EXPANSION_WOD"] = "Warlords of Draenor Instances";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "Instances Warlords of Draenor";
 	AL["ATLAS_DDL_TYPE"] = "Type";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "Instances A-B";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "Instances C-F";
@@ -246,7 +246,7 @@ if AL then
 	AL["Teleporter destination"] = "Destination du téléporteur";
 	AL["Third Stop"] = "Troisième arrêt";
 	AL["Top"] = "Haut";
-	--AL["Tunnel"] = "Tunnel";
+	AL["Tunnel"] = "Tunnel";
 	AL["Underwater"] = "Sous l'eau";
 	AL["Upper"] = "En haut";
 	AL["Varies"] = "Variable";
@@ -396,12 +396,12 @@ if AL then
 	AL["UBRS"] = "UBRS/Pic 2"; -- Upper Blackrock Spire, Pic Rochenoire
 
 	--Map sections
-	--AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
-	--AL["MapB"] = " [B]";
-	--AL["MapC"] = " [C]";
-	--AL["MapD"] = " [D]";
-	--AL["MapE"] = " [E]";
-	--AL["MapF"] = " [F]";
+	AL["MapA"] = " [A]"; -- For example: Shado-Pan Monastery [A]
+	AL["MapB"] = " [B]";
+	AL["MapC"] = " [C]";
+	AL["MapD"] = " [D]";
+	AL["MapE"] = " [E]";
+	AL["MapF"] = " [F]";
 
 --************************************************
 -- Instance Entrance Maps
@@ -504,9 +504,9 @@ if AL then
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Je'neu Sancrea <Le Cercle terrestre>";
 	AL["Sentinel Aluwyn"] = "Sentinelle Aluwyn";
 	AL["Zeya"] = "Zeya";
-	--AL["Altar of Blood"] = "Altar of Blood";
-	--AL["Fire of Aku'mai"] = "Fire of Aku'mai";
-	--AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
+	AL["Altar of Blood"] = "Autel de Sang";
+	AL["Fire of Aku'mai"] = "Feu d'Aku'mai";
+	AL["Spoils of Blackfathom"] = "Butin de Brassenoire";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Ambassadeur\" Dagg'thol";
@@ -544,7 +544,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Koristrasza";
-	--AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
+	AL["Amnennar's Phylactery"] = "Phylactère d'Amnennar";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Cime-de-Pierre le Vieil";
@@ -1174,10 +1174,10 @@ if AL then
 	--Mogu'shan Vaults
 
 	--Scarlet Halls
-	--AL["Commander Lindon"] = "Commander Lindon";
+	AL["Commander Lindon"] = "Commandant Lindon";
 	AL["Hooded Crusader"] = "Croisée capuchonnée";
 	AL["Bucket of Meaty Dog Food"] = "Seau de pâtée pour chien riche en viande";
-	AL["Reinforced Archery Target"] = "Cible d'archer renforcée"; -- Translation needed
+	AL["Reinforced Archery Target"] = "Cible de tir à l’arc renforcée";
 
 	--Scarlet Monastery
 

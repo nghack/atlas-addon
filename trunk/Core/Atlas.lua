@@ -171,13 +171,14 @@ local function Process_Deprecated()
 	local Deprecated_List = {
 		-- Most recent (working) versions of known modules at time of release
 		{ "Atlas_Scenarios", 		"1.30.00" },
-		{ "Atlas_Cataclysm", 		"1.30.00" },
-		{ "Atlas_WrathoftheLichKing", 	"1.30.00" },
-		{ "Atlas_BurningCrusade", 	"1.30.00" },
-		{ "Atlas_ClassicWoW", 		"1.30.00" },
-		{ "Atlas_Battlegrounds", 	"1.30.00" },
-		{ "Atlas_DungeonLocs", 		"1.30.00" },
-		{ "Atlas_OutdoorRaids", 	"1.30.00" },
+		{ "Atlas_MistsofPandaria",	"1.31.00" },
+		{ "Atlas_Cataclysm", 		"1.31.00" },
+		{ "Atlas_WrathoftheLichKing", 	"1.31.00" },
+		{ "Atlas_BurningCrusade", 	"1.31.00" },
+		{ "Atlas_ClassicWoW", 		"1.31.00" },
+		{ "Atlas_Battlegrounds", 	"1.31.00" },
+		{ "Atlas_DungeonLocs", 		"1.31.00" },
+		{ "Atlas_OutdoorRaids", 	"1.31.00" },
 		{ "Atlas_Transportation", 	"1.30.00" },
 		--{ "AtlasWorld", 		"3.3.5.25" }, 	-- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", 		"4.9.0" }, 	-- updated Oct. 25, 2014

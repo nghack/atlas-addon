@@ -180,12 +180,12 @@ local function Process_Deprecated()
 		{ "Atlas_DungeonLocs", 		"1.31.00" },
 		{ "Atlas_OutdoorRaids", 	"1.31.00" },
 		{ "Atlas_Transportation", 	"1.31.00" },
-		--{ "AtlasWorld", 		"3.3.5.25" }, 	-- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 		{ "AtlasQuest", 		"4.9.0" }, 	-- updated Oct. 25, 2014
-		--{ "AtlasMajorCities", 	"v1.5.3" }, 	-- updated November 15, 2010; -- comment out because this plugin is no longer maintained
-		{ "AtlasLoot", 			"8.00.00" }, 	-- updated Nov. xx, 2014
+		{ "AtlasLoot", 			"7.07.03" }, 	-- updated Jul. 19, 2014 -- this version is still with WoW 5.4.x
 		{ "Atlas_Arena", 		"1.5.05" }, 	-- updated Oct. 15, 2014
 		{ "Atlas_WorldEvents", 		"3.09" }, 	-- updated Oct. 28, 2014
+		--{ "AtlasMajorCities", 	"v1.5.3" }, 	-- updated November 15, 2010; -- comment out because this plugin is no longer maintained
+		--{ "AtlasWorld", 		"3.3.5.25" }, 	-- updated July 14, 2010 -- comment out because this plugin is no longer maintained
 	};
 
 	-- Check for outdated modules, build a list of them, then disable them and tell the player
@@ -562,12 +562,30 @@ end
 -- Function to handle the boss description to be added as GameToolTip
 -- Description is adopted from Dungeon Journal
 function AtlasMaps_NPC_Text_OnUpdate(self)
+	local strAtlasLootVersion;
+	strAtlasLootVersion = GetAddOnMetadata("AtlasLoot", "Version");
+
 	if (not GameTooltip:IsShown()) then
 		local ejbossname, description, _, rootSectionID = EJ_GetEncounterInfo(self:GetID());
 		if (ejbossname) then
-			--if ((IsAddOnLoaded("AtlasLoot") and AtlasLootItemsFrame:IsShown())) then --temp commented out, as AtlasLoot v8 crashes this for now
-				-- do nothing
-			--else
+			if ( ( IsAddOnLoaded("AtlasLoot") and (strAtlasLootVersion <= "v7.07.03")) ) then -- temporary arrangement as some players are still using old version of AtlasLoot due to Atlas integration has not yet been added to AtlasLoot v8.00.00
+				if (AtlasLootItemsFrame:IsShown()) then
+					-- do nothing
+				else
+					GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
+					GameTooltip:SetBackdropColor(0, 0, 0, 1 * AtlasOptions["AtlasAlpha"]);
+					GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
+					GameTooltip:AddLine(description, nil, nil, nil, 1);
+					if (EncounterJournal_CheckForOverview(rootSectionID)) then
+						local _, overviewDescription = EJ_GetSectionInfo(rootSectionID);
+						GameTooltip:AddLine("\n"..OVERVIEW.."\n", 1, 1, 1, 1)
+						GameTooltip:AddLine(overviewDescription, nil, nil, nil, 1);
+					end
+					GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"] * AtlasOptions["AtlasScale"]);
+					GameTooltip:Show();
+
+				end
+			else
 				GameTooltip:SetOwner(self, "ANCHOR_CURSOR");
 				GameTooltip:SetBackdropColor(0, 0, 0, 1 * AtlasOptions["AtlasAlpha"]);
 				GameTooltip:SetText(ejbossname, 1, 1, 1, nil, 1);
@@ -579,7 +597,7 @@ function AtlasMaps_NPC_Text_OnUpdate(self)
 				end
 				GameTooltip:SetScale(AtlasOptions["AtlasBossDescScale"] * AtlasOptions["AtlasScale"]);
 				GameTooltip:Show();
-			--end
+			end
 		end
 	else
 		GameTooltip:Hide();

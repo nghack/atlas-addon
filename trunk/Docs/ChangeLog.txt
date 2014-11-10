@@ -35,14 +35,17 @@ v1.31.00 (Nov. 10, 2014)
     - zhCN/zhTW (ananhaid / Arith)
     - ruRU (StingerSoft)
 
+    
 v1.30.01 (Oct. 29, 2014)
 ------------------------
 - Update libraries: AceDB-3.0, LibBabble-SubZone-3.0, LibDialog-1.0, CallbackHandler-1.0, LibStub
+
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------
 - Update libraries: LibAboutPanel, LibDataBroker-1.1, LibBabble-SubZone-3.0, LibDialog-1.0
 - TOC update to support WoW 6.0
+
 
 v1.26.02 (Sep. 17, 2013)
 -----------------------
@@ -61,6 +64,7 @@ v1.26.02 (Sep. 17, 2013)
     - frFR (Khiria)
     - zhCN/zhTW (ananhaid / Arith)
     - ruRU (StingerSoft)
+ 
  
 v1.26.01 (Sep. 12, 2013)
 -----------------------

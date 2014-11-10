@@ -10,9 +10,11 @@ v1.31.00 (Nov. 10, 2014)
 -----------------------
 - Update major number to sync with Atlas core addon
 
+
 v1.30.00 (Oct. 15, 2014)
 -----------------------
 - TOC update to support WoW 6.0
+
 
 v1.26.00 (Sep. 09, 2013)
 -----------------------
@@ -21,6 +23,7 @@ v1.26.00 (Sep. 09, 2013)
     - esES/esMX (maqjav)
     - ruRU (StingerSoft)
 - Fixed esES and esMX Scenario DB now to look up correct localized values
+
 
 v1.25.01 (May 24, 2013)
 -----------------------
@@ -33,6 +36,7 @@ v1.25.01 (May 24, 2013)
     - deDE (Dynaletik)
     - esES/esMX (maqjav)
     - ruRU (StingerSoft)
+    
     
 v1.25.00 (May 21, 2013)
 -----------------------
@@ -47,6 +51,7 @@ v1.25.00 (May 21, 2013)
     - Dark Heart of Pandaria
     - The Secrets of Ragefire
 
+    
 v1.24.00 (Mar. 05, 2013)
 -----------------------
 - TOC update to support WoW 5.2
@@ -60,6 +65,7 @@ v1.24.00 (Mar. 05, 2013)
     - Lion's Landing
     - Troves of the Thunder King
 
+    
 v1.23.0 (Dec. 07, 2012)
 -----------------------
 - TOC update to support WoW 5.1
@@ -67,13 +73,15 @@ v1.23.0 (Dec. 07, 2012)
     - revamp Brewing Storm map
 - Map legend update:
     - Crypt of Forgotten Kings
-    
+  
+  
 v1.22.2 (Nov. 01, 2012)
 - All Maps and legend information updated
 - Maps added: 
     - Arena of Annihilation
     - Crypt of Forgotten Kings
 
+    
 v1.22.1 (Oct. 10, 2012)
 -----------------------
 - Initial version as Scenarios were introduced in WoW 5.0

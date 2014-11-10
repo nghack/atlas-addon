@@ -1,11 +1,14 @@
 $Id$
-
 Atlas, a World of Warcraft instance map browser
 Copyright 2012 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 ==============
 = Change Log =
 ==============
+
+v1.31.00 (Nov. 10, 2014)
+-----------------------
+- Update major number to sync with Atlas core addon
 
 v1.30.00 (Oct. 15, 2014)
 -----------------------

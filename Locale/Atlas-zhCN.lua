@@ -498,9 +498,9 @@ if AL then
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "耶努萨克雷 <大地之环>";
 	AL["Sentinel Aluwyn"] = "哨兵阿露温";
 	AL["Zeya"] = "泽雅";
---	AL["Altar of Blood"] = "Altar of Blood";
---	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
---	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
+	AL["Altar of Blood"] = "血之祭坛";
+	AL["Fire of Aku'mai"] = "阿库麦尔之火";
+	AL["Spoils of Blackfathom"] = "黑暗深渊的战利品";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "“大使”达戈索尔";
@@ -538,7 +538,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "克莉丝塔萨";
---	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
+	AL["Amnennar's Phylactery"] = "亚门纳尔的护命匣";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "奥尔德·石塔 ";

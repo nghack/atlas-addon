@@ -110,7 +110,7 @@ if AL then
 	AL["ATLAS_DDL_CONTINENT_NORTHREND"] = "诺森德副本";
 	AL["ATLAS_DDL_CONTINENT_DEEPHOLM"] = "深岩之洲副本";
 	AL["ATLAS_DDL_CONTINENT_PANDARIA"] = "潘达利亚副本";
---	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "Draenor Instances";
+	AL["ATLAS_DDL_CONTINENT_DRAENOR"] = "德拉诺副本";
 	AL["ATLAS_DDL_LEVEL"] = "等级";
 	AL["ATLAS_DDL_LEVEL_UNDER45"] = "45 级以下副本";
 	AL["ATLAS_DDL_LEVEL_45TO60"] = "45-60 级副本";
@@ -135,7 +135,7 @@ if AL then
 	AL["ATLAS_DDL_EXPANSION_WOTLK"] = "《巫妖王之怒》副本";
 	AL["ATLAS_DDL_EXPANSION_CATA"] = "《大地的裂变》副本";
 	AL["ATLAS_DDL_EXPANSION_MOP"] = "《熊猫人之谜》副本";
---	AL["ATLAS_DDL_EXPANSION_WOD"] = "Warlords of Draenor Instances";
+	AL["ATLAS_DDL_EXPANSION_WOD"] = "《德拉诺之王》副本";
 	AL["ATLAS_DDL_TYPE"] = "类型";
 	AL["ATLAS_DDL_TYPE_INSTANCE_AB"] = "副本 1/5";
 	AL["ATLAS_DDL_TYPE_INSTANCE_CF"] = "副本 2/5";
@@ -251,6 +251,7 @@ if AL then
 	AL["Wave 12"] = "第12波";
 	AL["Wave 18"] = "第18波";
 	AL["MapsNotFound"] = "当前选定的地下城没有 \n与之相对应的地图图像。 \n\n请确认已经安装 \n相应的 Atlas 地图模块。";
+	AL["PossibleMissingModule"] = "它们可能来自以下模块：";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
@@ -377,6 +378,17 @@ if AL then
 	AL["TES"] = "TES"; --Terrace of Endless Spring
 	AL["ToT"] = "ToT"; --Throne of Thunder
 	
+	--WoD Acronyms
+	AL["BRF"] = "BRF"; -- Blackrock Foundry
+	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
+	AL["EB"] = "EB"; -- The Everbloom
+	AL["GD"] = "GD"; -- Grimrail Depot
+	AL["HM"] = "HM"; -- Highmaul
+	AL["ID"] = "ID"; -- Iron Docks
+	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
+	AL["SR"] = "SR"; -- Skyreach
+	AL["UBRS"] = "UBRS"; -- Upper Blackrock Spire
+
 	--Map sections
 	AL["MapA"] = " [1]"; -- For example: Shado-Pan Monastery [A]
 	AL["MapB"] = " [2]"; -- 一, 二, 三...won't work as somehow it will be sorted as 一, 三, 二, 四. so need to change to digits

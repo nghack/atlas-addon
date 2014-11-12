@@ -190,13 +190,13 @@ if AL then
 	AL["Dragonmaw Clan Compound"] = "龙喉要塞";
 
 	-- Silvershard Mines
-	AL["Mine Cart Spawn Point"] = "Mine Cart Spawn Point";
-	AL["Mine Cart Depot"] = "Mine Cart Depot";
+	AL["Mine Cart Spawn Point"] = "矿车刷新点";
+	AL["Mine Cart Depot"] = "矿车储藏点";
 
 	-- Temple of Kotmogu
-	AL["Orb of Power"] = "Orb of Power";
-	AL["Center Point (Maximum Points)"] = "Center Point (Maximum Points)";
+	AL["Orb of Power"] = "能量之球";
+	AL["Center Point (Maximum Points)"] = "中间点（最大点）";
 
 	-- Deepwind Gorge
-	AL["Center Mine"] = "Center Mine";
+	AL["Center Mine"] = "中央矿坑";
 end

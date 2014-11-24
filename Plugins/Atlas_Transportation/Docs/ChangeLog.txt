@@ -8,6 +8,11 @@ Copyright 2011 ~ 2014 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.31.01 (Nov. XX, 2014)
+-----------------------
+- Eastern Kingdoms maps updated
+    - Added the Nethergarde Keep (Alliance) and Dreadmaul Hold (Horde) nodes back
+
 v1.31.00 (Nov. 10, 2014)
 -----------------------
 - Added Draenor maps

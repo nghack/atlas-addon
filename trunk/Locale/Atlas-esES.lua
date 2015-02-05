@@ -30,7 +30,7 @@ local AL = AceLocale:NewLocale("Atlas", "esES", false);
 -- Atlas Spanish Localization
 -- Traducido por --> maqjav|Marosth de Tyrande<--
 -- maqjav@gmail.com
--- Última Actualización (last update): 23/10/2014
+-- Última Actualización (last update): 05/12/2015
 
 -- Atlas Spanish Localization
 if ( GetLocale() == "esES" ) then
@@ -255,6 +255,7 @@ if AL then
 	AL["Wave 12"] = "Ola 12";
 	AL["Wave 18"] = "Ola 18";
 	AL["MapsNotFound"] = "La mazmorra actual no dispone de su \nimagen de mapa correspondiente. \n\nPor favor, asegurate de tener instalado \nel módulo(s) de mapas Atlas correspondiente.";
+	AL["PossibleMissingModule"] = "Posiblemente este mapa es de este módulo: ";
 
 	--Classic Acronyms
 	AL["AQ"] = "AQ"; -- Ahn'Qiraj
@@ -1229,6 +1230,7 @@ if AL then
 	--The Everbloom
 
 	--Grimrail Depot
+	AL["Train Ride"] = "Viaje en el tren";
 
 	--Highmaul
 

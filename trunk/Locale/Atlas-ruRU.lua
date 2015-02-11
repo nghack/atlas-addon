@@ -255,6 +255,7 @@ if AL then
 	AL["Wave 12"] = "12-ая волна";
 	AL["Wave 18"] = "18-ая волна";
 	AL["MapsNotFound"] = "Текущее выбранное подземелье не имеет \nсоответствующего изображения карты. \n\nПожалуйста, убедитесь, что вы установили \nсоответствующий модуль(и) карт Atlas'а.";
+	AL["PossibleMissingModule"] = "Вполне вероятно, эта карта из этого модуля: ";
 
 	--Classic Acronyms
 	AL["AQ"] = "АКУ"; -- Ан'Кираж
@@ -381,14 +382,14 @@ if AL then
 	AL["ToT"] = "ЗМ"; --Throne of Thunder
 
 	--WoD Acronyms
---	AL["BRF"] = "BRF"; -- Blackrock Foundry
---	AL["BSM"] = "BSM"; -- Bloodmaul Slag Mines
---	AL["EB"] = "EB"; -- The Everbloom
---	AL["GD"] = "GD"; -- Grimrail Depot
---	AL["HM"] = "HM"; -- Highmaul
---	AL["ID"] = "ID"; -- Iron Docks
---	AL["SBG"] = "SBG"; -- Shadowmoon Burial Grounds
---	AL["SR"] = "SR"; -- Skyreach
+	AL["BRF"] = "ЛКЧГ"; -- Литейная клана Черной горы
+	AL["BSM"] = "ШКМ"; -- Шлаковые шахты Кровавого Молота
+	AL["EB"] = "ВЧ"; -- Вечное Цветение
+	AL["GD"] = "ДМП"; -- Депо Мрачных Путей
+	AL["HM"] = "ВМ"; -- Верховный Молот
+	AL["ID"] = "ЖД"; -- Железные доки
+	AL["SBG"] = "НПЛ"; -- Некрополь Призрачной Луны
+	AL["SR"] = "НП"; -- Небесный Путь
 	AL["UBRS"] = "ВЧГ"; -- Вершина Черной горы
 
 	--Map sections
@@ -500,9 +501,9 @@ if AL then
 	AL["Je'neu Sancrea <The Earthen Ring>"] = "Дже'неу Санкри <Служители Земли>";
 	AL["Sentinel Aluwyn"] = "Часовой Алувин";
 	AL["Zeya"] = "Зейя";
---	AL["Altar of Blood"] = "Altar of Blood";
---	AL["Fire of Aku'mai"] = "Fire of Aku'mai";
---	AL["Spoils of Blackfathom"] = "Spoils of Blackfathom";
+	AL["Altar of Blood"] = "Алтарь крови";
+	AL["Fire of Aku'mai"] = "Огонь Аку'майя";
+	AL["Spoils of Blackfathom"] = "Трофеи Непроглядной Пучины";
 
 	--Dire Maul (East)
 	AL["\"Ambassador\" Dagg'thol"] = "\"Посланник\"Дагг'тол";
@@ -540,7 +541,7 @@ if AL then
 
 	--Razorfen Downs
 	AL["Koristrasza"] = "Користраза";
---	AL["Amnennar's Phylactery"] = "Amnennar's Phylactery";
+	AL["Amnennar's Phylactery"] = "Филактерия Амненнара";
 
 	--Razorfen Kraul
 	AL["Auld Stonespire"] = "Ольд Каменное Копье";

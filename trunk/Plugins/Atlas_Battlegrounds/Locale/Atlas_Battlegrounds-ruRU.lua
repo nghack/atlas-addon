@@ -113,7 +113,7 @@ if AL then
 	-- The Silithyst Must Flow
 	AL["The Silithyst Must Flow"] = "The Silithyst Must Flow";
 	AL["Alliance's Camp"] = "Лагерь альянса";
-	AL["Horde's Camp"] = "лагерь орды";
+	AL["Horde's Camp"] = "Лагерь орды";
 
 	--Eye of the Storm
 	AL["Flag"] = "Флаг";
@@ -196,11 +196,11 @@ if AL then
 	AL["Dragonmaw Clan Compound"] = "Клан Драконьей Пасти";
 
 	-- Silvershard Mines
-	AL["Mine Cart Spawn Point"] = "Mine Cart Spawn Point";
-	AL["Mine Cart Depot"] = "Mine Cart Depot";
+	AL["Mine Cart Spawn Point"] = "Точка спавна вагонетки";
+	AL["Mine Cart Depot"] = "Место назначения вагонетки";
 
 	-- Temple of Kotmogu
-	AL["Orb of Power"] = "Orb of Power";
+	AL["Orb of Power"] = "Сферы могущества";
 	AL["Center Point (Maximum Points)"] = "Center Point (Maximum Points)";
 
 	-- Deepwind Gorge

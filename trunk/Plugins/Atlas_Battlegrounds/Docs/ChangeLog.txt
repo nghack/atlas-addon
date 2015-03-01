@@ -13,6 +13,7 @@ v1.31.01 (Mar. 01, 2015)
 - TOC update to support WoW 6.1
 - Translation Update:
     - ruRU (StingerSoft)
+    - zhTW (Arith)
 
 
 v1.31.00 (Nov. 10, 2014)

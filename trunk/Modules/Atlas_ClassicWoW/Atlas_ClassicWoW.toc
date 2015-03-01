@@ -1,4 +1,4 @@
-﻿## Interface: 60000
+﻿## Interface: 60100
 ## Title: Atlas |r|cFF0099FF[Classic WoW]|r
 ## Title-deDE: Atlas |r|cFF0099FF[Classic WoW]|r
 ## Title-ruRU: Atlas |r|cFF0099FF[Classic WoW]|r
@@ -8,9 +8,9 @@
 ## Notes-deDE: Classic WoW Instanzkarten
 ## Notes-zhTW: 艾澤拉斯副本地圖模組
 ## Notes-zhCN: 经典旧世地图
-## Version: 1.31.00
+## Version: 1.31.01
 ## Author: arith, Dynaletik, dubcat, Resike
-## X-Date: Nov. 10, 2014
+## X-Date: Mar. 01, 2015
 ## X-Credits: Dan Gilbert, Lothaer
 ## X-Email: atlas.addon@gmail.com
 ## X-Website: http://www.atlasmod.com
